@@ -1,0 +1,60 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Montserrat Black,86,&H00FFFFFF,&H00FFFFFF,&H00000000,&H99000000,0,0,0,0,95,100,1,0,1,6,3,5,70,70,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.52,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE NBA
+Dialogue: 0,0:00:00.52,0:00:00.89,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}JUST NAMED
+Dialogue: 0,0:00:00.89,0:00:01.40,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FOUR STARS
+Dialogue: 0,0:00:01.40,0:00:01.67,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN ONE
+Dialogue: 0,0:00:01.67,0:00:02.40,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}VIDEO ABOUT ONE
+Dialogue: 0,0:00:02.40,0:00:03.10,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ILLEGAL MOVE.
+Dialogue: 0,0:00:03.10,0:00:03.86,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}JAYLEN BROWN.
+Dialogue: 0,0:00:03.86,0:00:04.84,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}PAOLO BANCHERO.
+Dialogue: 0,0:00:04.84,0:00:05.63,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}DONOVAN MITCHELL.
+Dialogue: 0,0:00:05.63,0:00:06.36,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}RJ BARRETT.
+Dialogue: 0,0:00:06.36,0:00:06.73,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE MOVE
+Dialogue: 0,0:00:06.73,0:00:07.31,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IS THE OFF-ARM
+Dialogue: 0,0:00:07.31,0:00:07.80,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}PUSH-OFF,
+Dialogue: 0,0:00:07.80,0:00:08.42,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}USING YOUR FREE
+Dialogue: 0,0:00:08.42,0:00:08.86,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ARM TO SHOVE
+Dialogue: 0,0:00:08.86,0:00:09.32,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}A DEFENDER
+Dialogue: 0,0:00:09.32,0:00:09.90,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND MAKE SPACE
+Dialogue: 0,0:00:09.90,0:00:10.40,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FOR A SHOT.
+Dialogue: 0,0:00:10.40,0:00:10.78,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE LEAGUE
+Dialogue: 0,0:00:10.78,0:00:11.19,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SAYS ALL
+Dialogue: 0,0:00:11.19,0:00:11.70,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FOUR COMMITTED
+Dialogue: 0,0:00:11.70,0:00:12.40,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}OFFENSIVE FOULS.
+Dialogue: 0,0:00:12.40,0:00:12.92,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BUT THE SAME
+Dialogue: 0,0:00:12.92,0:00:13.53,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}VIDEO SHOWS
+Dialogue: 0,0:00:13.53,0:00:14.31,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WHAT'S STILL LEGAL.
+Dialogue: 0,0:00:14.31,0:00:14.98,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}CJ MCCOLLUM
+Dialogue: 0,0:00:14.98,0:00:15.42,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FIRMED UP,
+Dialogue: 0,0:00:15.42,0:00:16.09,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND PAUL GEORGE
+Dialogue: 0,0:00:16.09,0:00:16.50,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ONLY FELT
+Dialogue: 0,0:00:16.50,0:00:17.05,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE DEFENDER.
+Dialogue: 0,0:00:17.05,0:00:17.52,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NO FORCE,
+Dialogue: 0,0:00:17.52,0:00:18.36,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NO FULL EXTENSION.
+Dialogue: 0,0:00:18.36,0:00:18.78,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THEN THERE'S
+Dialogue: 0,0:00:18.78,0:00:19.45,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}JALEN SUGGS.
+Dialogue: 0,0:00:19.45,0:00:19.89,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HE WAS CALLED
+Dialogue: 0,0:00:19.89,0:00:20.53,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FOR AN OFFENSIVE
+Dialogue: 0,0:00:20.53,0:00:20.80,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FOUL,
+Dialogue: 0,0:00:20.80,0:00:21.42,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND THE NBA
+Dialogue: 0,0:00:21.42,0:00:21.82,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NOW SAYS
+Dialogue: 0,0:00:21.82,0:00:22.19,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IT SHOULD HAVE
+Dialogue: 0,0:00:22.19,0:00:23.05,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BEEN A NO-CALL.
+Dialogue: 0,0:00:23.05,0:00:23.52,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SO THE WHOLE
+Dialogue: 0,0:00:23.52,0:00:24.09,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}RULE COMES DOWN
+Dialogue: 0,0:00:24.09,0:00:24.76,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TO ONE WORD:
+Dialogue: 0,0:00:24.76,0:00:25.23,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FORCE.
+Dialogue: 0,0:00:25.23,0:00:25.72,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WHICH STAR
+Dialogue: 0,0:00:25.72,0:00:26.67,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}GETS CALLED FIRST?

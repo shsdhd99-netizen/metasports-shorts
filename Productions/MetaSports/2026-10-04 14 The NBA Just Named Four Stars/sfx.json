@@ -1,0 +1,14 @@
+[
+ {
+  "sfx": "click",
+  "at": 6.45,
+  "gain": -10,
+  "why": "ESPN card appears"
+ },
+ {
+  "sfx": "click",
+  "at": 23.1,
+  "gain": -10,
+  "why": "Four F's card appears"
+ }
+]
