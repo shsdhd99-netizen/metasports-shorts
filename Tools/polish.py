@@ -1,4 +1,4 @@
-"""Final pass for a Short: big word-by-word captions (active word pops yellow) + a clean audio mix.
+"""Final pass for a Short: the house MetaSports captions (captions.py, ALL CAPS, bright red/green accents) + a clean audio mix.
   python Tools/polish.py --folder "<production folder>"
 Needs final_nocap.mp4 (from assemble.py), voice.mp3, words.json. Reads sfx.json (keep it to 1-3 effects that match the picture).
 Audio: voice is cleaned + levelled first, effects sit well under it, whole mix lands at about -14 LUFS, true peak under -1.5 dB."""
@@ -86,7 +86,9 @@ def main():
     words = json.load(open(os.path.join(F, "words.json"), encoding="utf-8-sig"))
     vid = os.path.join(F, "final_nocap.mp4")
     total = float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", vid]))
-    open(os.path.join(F, "captions.ass"), "w", encoding="utf-8").write(make_ass(words, total))
+    sys.path.insert(0, HERE)
+    import captions  # the house caption style (metasports): never change it
+    captions.build(F, "metasports", total)
     cat = json.load(open(os.path.join(HERE, "sfx", "catalog.json"), encoding="utf-8"))
     sp = os.path.join(F, "sfx.json")
     fx = [e for e in json.load(open(sp, encoding="utf-8-sig"))] if os.path.exists(sp) else []
