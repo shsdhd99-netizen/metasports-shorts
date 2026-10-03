@@ -1,0 +1,8 @@
+[
+ {"sfx": "click", "at": 2.12, "gain": -10, "why": "2025 DPOY vote table appears"},
+ {"sfx": "boom_cinematic", "at": 4.77, "gain": -10, "len": 3.0, "fade": 1.5, "why": "the reveal: 'Wembanyama'"},
+ {"sfx": "click", "at": 5.70, "gain": -10, "why": "2026 DPOY table appears (100 first-place votes)"},
+ {"sfx": "punch", "at": 9.86, "gain": -14, "why": "his hand meets the ball on the Heat block"},
+ {"sfx": "click", "at": 12.44, "gain": -10, "why": "2024 ROY table appears"},
+ {"sfx": "whoosh", "at": 18.94, "gain": -11, "why": "peak lands on the cut into the three-panel list (19.64)"}
+]

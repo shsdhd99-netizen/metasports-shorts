@@ -1,0 +1,38 @@
+{
+  "work_dir": "D:\\OBS\\ClaudeWork\\commentary_v3",
+  "note_work_dir": "D:\\ root is not writable for this user; D:\\OBS is. All working files live here.",
+  "deliverables_dir": "C:\\Users\\Admin\\Downloads\\commentary_edit\\v3",
+  "venv_python": "D:\\OBS\\ClaudeWork\\commentary_v3\\venv\\Scripts\\python.exe",
+  "venv_packages": "torch 2.11.0+cu128 (CUDA OK on RTX 3060 12GB), torchaudio 2.11.0+cu128, transformers 5.17.0, accelerate, librosa 1.0.0, soundfile, scipy, numpy, pillow, scikit-learn, huggingface-hub",
+  "env": {
+    "HF_HOME": "D:\\OBS\\ClaudeWork\\commentary_v3\\cache\\hf",
+    "TORCH_HOME": "D:\\OBS\\ClaudeWork\\commentary_v3\\cache\\torch",
+    "PIP_CACHE_DIR": "D:\\OBS\\ClaudeWork\\commentary_v3\\cache\\pip",
+    "U2NET_HOME": "D:\\OBS\\ClaudeWork\\commentary_v3\\cache\\u2net",
+    "XDG_CACHE_HOME": "D:\\OBS\\ClaudeWork\\commentary_v3\\cache\\xdg"
+  },
+  "sources": {
+    "file1": "C:\\Users\\Admin\\Downloads\\commentary\\1.mkv",
+    "file2": "C:\\Users\\Admin\\Downloads\\commentary\\2.mkv",
+    "format": "AAC 48 kHz stereo; L and R are effectively identical (corr 0.9999, 0 lag) so mono = L+R average without level loss"
+  },
+  "canonical": {
+    "src_48k": "D:\\OBS\\ClaudeWork\\commentary_v3\\src\\src_48k.wav",
+    "src_48k_format": "float32 mono 48000 Hz, file1 then file2, sample-exact concat, no processing",
+    "src_16k": "D:\\OBS\\ClaudeWork\\commentary_v3\\src\\src_16k.wav",
+    "src_16k_format": "PCM16 mono 16000 Hz, ASR only",
+    "file1_samples_48k": 2348032,
+    "file2_offset_samples_48k": 2348032,
+    "file2_offset_seconds": 48.917333333333333,
+    "total_samples_48k": 37931008,
+    "total_seconds": 790.2293333333333,
+    "details": "src\\canonical_build.json, src\\channel_analysis.json, src\\mapping_verification.json"
+  },
+  "old_edit_mapping": {
+    "rule": "canonical_time = file_time for file1; canonical_time = 48.917333333 + file_time for file2 (verified by cross-correlation, lag 0)",
+    "old_cuts_json": "C:\\Users\\Admin\\Downloads\\commentary_edit\\_work\\cuts.json (keep1/keep2 in per-file seconds)",
+    "old_raw16k": "_work\\raw1.wav/raw2.wav align at lag 0 with canonical (16k Whisper copies only)",
+    "old_work48": "_work48\\src1_48k.wav/src2_48k.wav equal the canonical parts exactly after 16-bit rounding",
+    "approved_v2": "C:\\Users\\Admin\\Downloads\\commentary_edit\\final_raw_v2.mp4 (audio voice_studio.wav, 780.327 s; chain in EDIT_NOTES.txt V2 section and _work\\build_studio.py/final_studio.py)"
+  }
+}

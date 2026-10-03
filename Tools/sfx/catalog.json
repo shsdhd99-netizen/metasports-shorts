@@ -1,0 +1,91 @@
+{
+ "_how": "Natural sound effects copied from Downloads/music (peak-normalised to -1 dB). gain = suggested dB under the voice. Use 2-5 per Short, only where the picture shows the sound happening, never as decoration. Gains were raised 4 dB on 2026-10-01 after measuring: at the old values the effects added under 1 dB and were inaudible under the voice.",
+ "swish": {
+  "use": "a made shot you can SEE go through the net (free throws, threes)",
+  "gain": -10
+ },
+ "rim": {
+  "use": "a miss that clanks off the rim on screen",
+  "gain": -8
+ },
+ "brick": {
+  "use": "an ugly miss / airball reaction (thump + rim ring)",
+  "gain": -9
+ },
+ "whistle": {
+  "use": "a referee whistle on screen: foul, free throw, stoppage",
+  "gain": -13
+ },
+ "horn": {
+  "use": "end of game / buzzer beater / shot clock moment",
+  "gain": -15
+ },
+ "dribble": {
+  "use": "under a close-up of a player dribbling",
+  "gain": -12
+ },
+ "whoosh": {
+  "use": "a fast push-in or a jump to a screenshot/graphic (soft)",
+  "gain": -11
+ },
+ "whoosh_long": {
+  "use": "bigger scene change, e.g. into the payoff line",
+  "gain": -17
+ },
+ "boom_cinematic": {
+  "use": "the one big reveal of the Short (low, felt more than heard)",
+  "gain": -10
+ },
+ "boom": {
+  "use": "hard impact on a stat reveal - strong, use at most once",
+  "gain": -18
+ },
+ "riser": {
+  "use": "tension building into a reveal (ends right on the reveal word)",
+  "gain": -18
+ },
+ "heartbeat": {
+  "use": "suspense under a clutch moment (free throw with the game on the line)",
+  "gain": -17
+ },
+ "camera": {
+  "use": "press conference, signing, photo shoot, jersey reveal",
+  "gain": -8
+ },
+ "click": {
+  "use": "a screenshot appearing (Basketball Reference, ESPN, Spotrac)",
+  "gain": -10
+ },
+ "ding": {
+  "use": "a single key fact landing - rarely",
+  "gain": -17
+ },
+ "cha_ching": {
+  "use": "money - only if the picture is a contract/salary graphic",
+  "gain": -15
+ },
+ "surprise": {
+  "use": "shock beat ('until Victor Wembanyama') - once at most",
+  "gain": -13
+ },
+ "pop": {
+  "use": "tiny accent when a highlight box appears",
+  "gain": -16
+ },
+ "punch": {
+  "use": "a physical hit on screen (hard foul, block)",
+  "gain": -14
+ },
+ "ankle_breaker": {
+  "use": "only a real ankle-breaking crossover on screen",
+  "gain": -11
+ },
+ "thud": {
+  "use": "rarely; a heavy landing/fall",
+  "gain": -14
+ },
+ "falling": {
+  "use": "AVOID (cartoon)",
+  "gain": -30
+ }
+}

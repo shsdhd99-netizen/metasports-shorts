@@ -1,0 +1,26 @@
+{
+ "verdict": "CHECK",
+ "wpm": 245,
+ "issues": [],
+ "notes": [
+  " 4.70s  \"kel'el\" heard as \"kelell\" (close; check the name)",
+  " 5.74s  \"jakucionis\" heard as \"jakou jonas\" (close; check the name)",
+  "10.07s  rushed sentence (343 wpm): On paper, that's a lot.",
+  "10.97s  rushed sentence (347 wpm): But here's the catch."
+ ],
+ "heard": "The Bucks traded a two-time MVP, and this is everything they got back: Tyler Herro, Jaime Jaquez Jr., Kelell Ware, Kasparas Jakou-Jonas, plus three first-round picks, a pick swap, and a second rounder, all for one Giannis. On paper, that's a lot. But here's the catch. Two of those first-round picks don't show up until 2031 and 2033. You see? That means Bucks fans won't really know if they won this trade for another seven years. Meanwhile, Miami gets Giannis right now, while Milwaukee waits until 2033 to find out.",
+ "mismatches": [
+  {
+   "at": 4.7,
+   "script": "kel'el",
+   "heard": "kelell",
+   "similar": 0.83
+  },
+  {
+   "at": 5.74,
+   "script": "jakucionis",
+   "heard": "jakou jonas",
+   "similar": 0.72
+  }
+ ]
+}

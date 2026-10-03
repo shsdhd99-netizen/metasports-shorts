@@ -1,0 +1,492 @@
+[
+ {
+  "word": "Every",
+  "start": 0.0,
+  "end": 0.249
+ },
+ {
+  "word": "Defensive",
+  "start": 0.295,
+  "end": 0.657
+ },
+ {
+  "word": "Player",
+  "start": 0.681,
+  "end": 0.873
+ },
+ {
+  "word": "of",
+  "start": 0.907,
+  "end": 0.952
+ },
+ {
+  "word": "the",
+  "start": 0.986,
+  "end": 1.055
+ },
+ {
+  "word": "Year",
+  "start": 1.099,
+  "end": 1.235
+ },
+ {
+  "word": "in",
+  "start": 1.269,
+  "end": 1.315
+ },
+ {
+  "word": "NBA",
+  "start": 1.372,
+  "end": 1.689
+ },
+ {
+  "word": "history",
+  "start": 1.734,
+  "end": 2.063
+ },
+ {
+  "word": "had",
+  "start": 2.12,
+  "end": 2.211
+ },
+ {
+  "word": "at",
+  "start": 2.245,
+  "end": 2.301
+ },
+ {
+  "word": "least",
+  "start": 2.336,
+  "end": 2.516
+ },
+ {
+  "word": "one",
+  "start": 2.596,
+  "end": 2.8
+ },
+ {
+  "word": "voter",
+  "start": 2.857,
+  "end": 3.106
+ },
+ {
+  "word": "who",
+  "start": 3.14,
+  "end": 3.242
+ },
+ {
+  "word": "picked",
+  "start": 3.288,
+  "end": 3.48
+ },
+ {
+  "word": "somebody",
+  "start": 3.502,
+  "end": 3.809
+ },
+ {
+  "word": "else.",
+  "start": 3.866,
+  "end": 4.126
+ },
+ {
+  "word": "Until",
+  "start": 4.16,
+  "end": 4.421
+ },
+ {
+  "word": "Victor",
+  "start": 4.478,
+  "end": 4.739
+ },
+ {
+  "word": "Wembanyama.",
+  "start": 4.795,
+  "end": 5.68
+ },
+ {
+  "word": "You",
+  "start": 5.702,
+  "end": 5.816
+ },
+ {
+  "word": "see,",
+  "start": 5.884,
+  "end": 6.064
+ },
+ {
+  "word": "all",
+  "start": 6.088,
+  "end": 6.234
+ },
+ {
+  "word": "100",
+  "start": 6.303,
+  "end": 6.496
+ },
+ {
+  "word": "voters",
+  "start": 6.553,
+  "end": 6.824
+ },
+ {
+  "word": "put",
+  "start": 6.858,
+  "end": 6.972
+ },
+ {
+  "word": "him",
+  "start": 7.006,
+  "end": 7.085
+ },
+ {
+  "word": "first.",
+  "start": 7.141,
+  "end": 7.527
+ },
+ {
+  "word": "The",
+  "start": 7.561,
+  "end": 7.675
+ },
+ {
+  "word": "first",
+  "start": 7.731,
+  "end": 7.958
+ },
+ {
+  "word": "unanimous",
+  "start": 8.014,
+  "end": 8.4
+ },
+ {
+  "word": "winner",
+  "start": 8.434,
+  "end": 8.638
+ },
+ {
+  "word": "ever,",
+  "start": 8.706,
+  "end": 9.012
+ },
+ {
+  "word": "and",
+  "start": 9.035,
+  "end": 9.148
+ },
+ {
+  "word": "at",
+  "start": 9.194,
+  "end": 9.251
+ },
+ {
+  "word": "22,",
+  "start": 9.307,
+  "end": 9.772
+ },
+ {
+  "word": "the",
+  "start": 9.817,
+  "end": 9.908
+ },
+ {
+  "word": "youngest",
+  "start": 9.964,
+  "end": 10.247
+ },
+ {
+  "word": "to",
+  "start": 10.282,
+  "end": 10.327
+ },
+ {
+  "word": "ever",
+  "start": 10.383,
+  "end": 10.542
+ },
+ {
+  "word": "win",
+  "start": 10.599,
+  "end": 10.724
+ },
+ {
+  "word": "it.",
+  "start": 10.781,
+  "end": 10.928
+ },
+ {
+  "word": "But",
+  "start": 10.962,
+  "end": 11.086
+ },
+ {
+  "word": "that's",
+  "start": 11.11,
+  "end": 11.302
+ },
+ {
+  "word": "not",
+  "start": 11.347,
+  "end": 11.46
+ },
+ {
+  "word": "even",
+  "start": 11.506,
+  "end": 11.642
+ },
+ {
+  "word": "the",
+  "start": 11.676,
+  "end": 11.744
+ },
+ {
+  "word": "crazy",
+  "start": 11.778,
+  "end": 12.072
+ },
+ {
+  "word": "part.",
+  "start": 12.129,
+  "end": 12.401
+ },
+ {
+  "word": "He",
+  "start": 12.436,
+  "end": 12.526
+ },
+ {
+  "word": "was",
+  "start": 12.571,
+  "end": 12.674
+ },
+ {
+  "word": "a",
+  "start": 12.708,
+  "end": 12.741
+ },
+ {
+  "word": "unanimous",
+  "start": 12.798,
+  "end": 13.24
+ },
+ {
+  "word": "Rookie",
+  "start": 13.286,
+  "end": 13.513
+ },
+ {
+  "word": "of",
+  "start": 13.557,
+  "end": 13.603
+ },
+ {
+  "word": "the",
+  "start": 13.648,
+  "end": 13.717
+ },
+ {
+  "word": "Year",
+  "start": 13.751,
+  "end": 13.898
+ },
+ {
+  "word": "too.",
+  "start": 13.955,
+  "end": 14.249
+ },
+ {
+  "word": "And",
+  "start": 14.283,
+  "end": 14.408
+ },
+ {
+  "word": "the",
+  "start": 14.442,
+  "end": 14.51
+ },
+ {
+  "word": "only",
+  "start": 14.567,
+  "end": 14.725
+ },
+ {
+  "word": "other",
+  "start": 14.771,
+  "end": 14.918
+ },
+ {
+  "word": "players",
+  "start": 14.952,
+  "end": 15.236
+ },
+ {
+  "word": "to",
+  "start": 15.269,
+  "end": 15.326
+ },
+ {
+  "word": "ever",
+  "start": 15.394,
+  "end": 15.564
+ },
+ {
+  "word": "win",
+  "start": 15.621,
+  "end": 15.768
+ },
+ {
+  "word": "both",
+  "start": 15.825,
+  "end": 16.006
+ },
+ {
+  "word": "Rookie",
+  "start": 16.063,
+  "end": 16.289
+ },
+ {
+  "word": "of",
+  "start": 16.324,
+  "end": 16.37
+ },
+ {
+  "word": "the",
+  "start": 16.414,
+  "end": 16.483
+ },
+ {
+  "word": "Year",
+  "start": 16.516,
+  "end": 16.663
+ },
+ {
+  "word": "and",
+  "start": 16.698,
+  "end": 16.766
+ },
+ {
+  "word": "Defensive",
+  "start": 16.811,
+  "end": 17.219
+ },
+ {
+  "word": "Player",
+  "start": 17.242,
+  "end": 17.457
+ },
+ {
+  "word": "of",
+  "start": 17.491,
+  "end": 17.536
+ },
+ {
+  "word": "the",
+  "start": 17.571,
+  "end": 17.639
+ },
+ {
+  "word": "Year",
+  "start": 17.673,
+  "end": 17.843
+ },
+ {
+  "word": "are",
+  "start": 17.888,
+  "end": 18.001
+ },
+ {
+  "word": "Michael",
+  "start": 18.035,
+  "end": 18.285
+ },
+ {
+  "word": "Jordan",
+  "start": 18.342,
+  "end": 18.613
+ },
+ {
+  "word": "and",
+  "start": 18.659,
+  "end": 18.738
+ },
+ {
+  "word": "David",
+  "start": 18.795,
+  "end": 19.033
+ },
+ {
+  "word": "Robinson.",
+  "start": 19.078,
+  "end": 19.6
+ },
+ {
+  "word": "That's",
+  "start": 19.644,
+  "end": 19.872
+ },
+ {
+  "word": "the",
+  "start": 19.917,
+  "end": 19.985
+ },
+ {
+  "word": "whole",
+  "start": 20.03,
+  "end": 20.223
+ },
+ {
+  "word": "list.",
+  "start": 20.257,
+  "end": 20.665
+ },
+ {
+  "word": "Jordan,",
+  "start": 20.767,
+  "end": 21.141
+ },
+ {
+  "word": "the",
+  "start": 21.164,
+  "end": 21.255
+ },
+ {
+  "word": "Admiral,",
+  "start": 21.311,
+  "end": 21.709
+ },
+ {
+  "word": "and",
+  "start": 21.731,
+  "end": 21.867
+ },
+ {
+  "word": "a",
+  "start": 21.923,
+  "end": 21.946
+ },
+ {
+  "word": "22-year-old",
+  "start": 22.002,
+  "end": 22.649
+ },
+ {
+  "word": "who's",
+  "start": 22.683,
+  "end": 22.83
+ },
+ {
+  "word": "still",
+  "start": 22.853,
+  "end": 23.035
+ },
+ {
+  "word": "getting",
+  "start": 23.079,
+  "end": 23.295
+ },
+ {
+  "word": "better.",
+  "start": 23.329,
+  "end": 23.76
+ }
+]

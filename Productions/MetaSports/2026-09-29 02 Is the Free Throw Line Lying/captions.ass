@@ -1,0 +1,45 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,62,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,0,3,5,40,40,800,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:01.09,Default,,0,0,0,,Every NBA free throw
+Dialogue: 0,0:00:01.09,0:00:02.01,Default,,0,0,0,,is shot from 15
+Dialogue: 0,0:00:02.01,0:00:03.49,Default,,0,0,0,,feet… except it isn't.
+Dialogue: 0,0:00:03.49,0:00:04.54,Default,,0,0,0,,You see, the rulebook
+Dialogue: 0,0:00:04.54,0:00:05.27,Default,,0,0,0,,measures that line
+Dialogue: 0,0:00:05.27,0:00:06.04,Default,,0,0,0,,from the backboard,
+Dialogue: 0,0:00:06.04,0:00:06.84,Default,,0,0,0,,not from the rim.
+Dialogue: 0,0:00:06.84,0:00:07.68,Default,,0,0,0,,The rim sits 6
+Dialogue: 0,0:00:07.68,0:00:08.66,Default,,0,0,0,,inches off the glass,
+Dialogue: 0,0:00:08.66,0:00:09.66,Default,,0,0,0,,and it's 18 inches
+Dialogue: 0,0:00:09.66,0:00:10.65,Default,,0,0,0,,wide, so the middle
+Dialogue: 0,0:00:10.65,0:00:11.12,Default,,0,0,0,,of the hoop
+Dialogue: 0,0:00:11.12,0:00:11.87,Default,,0,0,0,,is 15 inches
+Dialogue: 0,0:00:11.87,0:00:12.33,Default,,0,0,0,,in front of the
+Dialogue: 0,0:00:12.33,0:00:12.85,Default,,0,0,0,,backboard.
+Dialogue: 0,0:00:12.85,0:00:13.85,Default,,0,0,0,,Which means every free
+Dialogue: 0,0:00:13.85,0:00:14.93,Default,,0,0,0,,throw is really 13
+Dialogue: 0,0:00:14.93,0:00:15.89,Default,,0,0,0,,feet, 9 inches.
+Dialogue: 0,0:00:15.89,0:00:16.61,Default,,0,0,0,,But here's the weird
+Dialogue: 0,0:00:16.61,0:00:16.90,Default,,0,0,0,,part.
+Dialogue: 0,0:00:16.90,0:00:17.92,Default,,0,0,0,,The three-point line
+Dialogue: 0,0:00:17.92,0:00:18.62,Default,,0,0,0,,IS measured from
+Dialogue: 0,0:00:18.62,0:00:19.20,Default,,0,0,0,,the middle of the
+Dialogue: 0,0:00:19.20,0:00:19.73,Default,,0,0,0,,basket.
+Dialogue: 0,0:00:19.73,0:00:20.23,Default,,0,0,0,,So the two
+Dialogue: 0,0:00:20.23,0:00:21.07,Default,,0,0,0,,most important lines
+Dialogue: 0,0:00:21.07,0:00:22.18,Default,,0,0,0,,in basketball are measured
+Dialogue: 0,0:00:22.18,0:00:23.30,Default,,0,0,0,,from two different places.
+Dialogue: 0,0:00:23.30,0:00:23.68,Default,,0,0,0,,And some of
+Dialogue: 0,0:00:23.68,0:00:24.27,Default,,0,0,0,,the biggest guys
+Dialogue: 0,0:00:24.27,0:00:24.100,Default,,0,0,0,,in the league still
+Dialogue: 0,0:00:24.100,0:00:25.44,Default,,0,0,0,,can't make it
+Dialogue: 0,0:00:25.44,0:00:26.64,Default,,0,0,0,,from 13 feet 9.

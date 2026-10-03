@@ -1,0 +1,141 @@
+# Tools Guide
+
+There are two ways to use everything here:
+- **Easiest:** type a command in Claude (the Code tab, opened on this folder) and Claude runs the tools for you.
+- **By hand:** open the `Tools` folder, click the address bar, type `cmd`, press Enter, then paste a command from below.
+
+## Your commands (type them in Claude)
+
+| Type this | What you get |
+|---|---|
+| `/nba-short` | Here's what it does, step by step: <br>1. Finds last night's hottest NBA moments. You pick one. <br>2. Checks that no big channel already posted it. <br>3. Writes a verified script (22–40s for a story, 15–25s for a quick moment) plus 5 scored titles. <br>4. Saves it ready for the voice. |
+| `/nba-short Giannis iguana` | The same, for a moment you already have in mind |
+| `/voiceover` | `voice.mp3` + word-timed `captions.srt` for your newest script (`/voiceover 3` = Batch 2 script #3) |
+| `/assemble` | **The finished Short, made for you:** <br>• Claude finds the B-roll itself (official NBA, team and news footage). <br>• It cuts each shot as its words are spoken. <br>• It edits the Short in the free Drift editor into `final.mp4`, ready to upload. |
+| `/titles` + topic | 10 titles scored against real view data (either channel) |
+| `/thumbnail` + text | 3 commentary thumbnails for Test & Compare, or a MetaSports cover |
+| `/commentary-script` + topic | 8 titles, 3 thumbnail ideas and a beat sheet with [YOUR STORY] gaps. The first time, it asks your 5 lane questions. |
+| `/channel-check` | How MetaSports did lately, in plain English, logged every time |
+
+**A MetaSports Short from start to finish:**
+1. `/nba-short`
+2. `/voiceover`
+3. `/assemble`. Claude finds and cuts the B-roll. To use your own clips instead, put them in the Short's `clips` folder first.
+4. Watch `final.mp4`, then upload it between 6 and 11 AM ET.
+
+**Where your work goes:**
+- `Productions\MetaSports\<date> <title>\` gets script.txt, notes.md (the shot list), voice.mp3, captions.srt, clips\, final.mp4 and edit.drift.
+- `Productions\Commentary\<date> <title>\` gets plan.md and thumb_A/B/C.png.
+
+---
+
+## 1. ElevenLabs setup (2 minutes, once)
+
+1. **Get your key.** On elevenlabs.io, click your profile (bottom left) → **API Keys** → **Create**. Allow **Text to Speech**, **Voices (read)** and **User (read)**, then copy the key.
+2. **Make the settings file.** Open **Notepad** and paste these two lines, with your key after the first `=`:
+   ```
+   ELEVENLABS_API_KEY=paste-your-key-here
+   ELEVENLABS_VOICE_ID=
+   ```
+   Then choose **File → Save as**. Set "Save as type" to **All files**, name it `.env`, and save it inside the `Tools` folder.
+3. **Pick the voice.** Type `/voiceover list voices` in Claude, or run `python voiceover.py --list-voices`. Copy the ID of your MetaSports voice after `ELEVENLABS_VOICE_ID=` and save.
+   - **Picking by ear:** make the same 2 sentences in 3 candidate voices and keep the one that sounds most like a hype sports narrator at speed.
+   - Nobody can see which voice CoachClank uses, so trust your ears.
+4. **Never paste the key into a chat.** It stays in that file on your PC.
+
+**Settings (already built in, so you don't need to touch them):**
+- The model is `eleven_multilingual_v2`, with speed 1.1, stability 0.45 and similarity 0.8.
+- The tool then speeds the finished audio to **~250 words a minute**. CoachClank's biggest 2026 Shorts ran 250–290.
+- For faster audio, add `--target-wpm 270`.
+- For a more expressive read, try `--model eleven_v3`. If captions come out wrong with it, go back to the default.
+
+**Hard names:** write `{Giannis|YAH-nis}` in the script. The voice says the right side, and the captions show the left. Numbers work the same way: `{92%|ninety-two percent}`.
+
+**Cost:** about 1 credit per character. A 25-second Short is about 550 characters. `python voiceover.py --check` shows what's left.
+
+**Heads-up:** ElevenLabs' **free plan** requires credit and doesn't allow commercial use. A channel you plan to monetize needs a paid plan.
+
+---
+
+## 2. Thumbnails and covers (free, on your PC)
+
+`/thumbnail` does this for you. If you want to run it by hand, here are the commands:
+```
+py -3.14 thumb.py --bg "gameplay.png" --text "SPECTATOR\nMODE" --cutout "character.png" --variants 3 --out "thumb.png"
+py -3.14 thumb.py --shape short --bg "frame.png" --text "53 YEARS" --out "cover.png"
+```
+- **Free cutouts:** open the image in **Paint → Remove background**, then save it as PNG.
+- **Test & Compare (commentary videos):** in YouTube Studio on a computer, open the video → Thumbnail → **Test & Compare** → upload A, B and C. YouTube keeps the one people watch longest.
+- The data behind every title and thumbnail rule is in `Tools\data\title_patterns.md`.
+
+---
+
+## 3. Drift: the free CapCut alternative (installed, and Claude edits in it)
+
+**Drift 0.6.0 is installed** from the official page (github.com/CutWire-Studios/Drift). The download was checked against the official fingerprint.
+
+**Automatic edit: `/assemble`**
+- It opens Drift in the background (no window) and lays the voice on the timeline.
+- It cuts your clips to a new shot at every sentence. Each shot lasts 1.2–4.5 seconds, which matches CoachClank's biggest Shorts (a new shot every 2–4 seconds).
+- It fills the 9:16 screen and adds centered white captions with a soft shadow.
+- It exports `final.mp4` at 1080 × 1920 and saves `edit.drift`, so you can open the project and tweak it.
+- Tested on Sep 27: a sample Short built and exported in about 6 seconds.
+
+**B-roll: Claude finds it** with `Tools\broll.py`:
+1. It searches official channels (NBA, the teams, ESPN, local news). It never uses other creators' Shorts.
+2. It looks at a contact sheet of stills to pick clean moments with no burned-in captions.
+3. It downloads only the seconds it needs, in up to 1080p. Each clip starts exactly where its camera shot begins.
+4. It crops the clip to fill 9:16. A light zoom cuts off tickers and score bugs.
+5. It writes `shots.json`, so each shot starts on the exact word. Players appear the moment their names are said.
+
+**Your own clips instead?** Put them in the Short's `clips` folder, named `01`, `02`, `03`… in shot-list order.
+
+**Footage and copyright:** NBA and broadcast clips can get a Content ID claim. The Short usually stays up, but the claimant may share or take the ad money. Under 60 seconds is safest. This is how the whole niche works; the risk is yours to weigh.
+
+**Live editing (optional):** Claude can change the project while you watch it in Drift.
+1. Open Drift, go to **Settings → Agent access**, and turn it on. Also switch on **Start agent on startup** so it stays on.
+2. Ask Claude something like "make the captions bigger" or "swap shot 3 for shot 5".
+
+If Claude ever says `drift-live` failed to connect, that only means Drift isn't open (or Agent access is off). Nothing is broken.
+
+**By hand:** `python assemble.py --folder "<the Short's folder>"`
+- Add `--music "<song.mp3>"` for quiet background music, ducked under the voice.
+- Add `--captions hormozi` for bold highlighted captions instead of the clean ones.
+
+---
+
+## 4. Or edit in DaVinci Resolve (free, already installed)
+
+Use this for more control:
+1. **Vertical project.** Choose **File → Project Settings → Master Settings**. Set Timeline resolution to 1920 × 1080 HD, tick **Use vertical resolution**, and pick 30 fps. Save.
+2. **Import.** Drag `voice.mp3` and your clips into the Media Pool.
+   - The voice goes on audio track 1 and the clips on video track 1.
+   - Follow the shot list in `notes.md`: one shot per sentence, a new shot every 2–4 seconds.
+   - Scale every clip up until it **fills** the vertical frame (Inspector → Zoom). No black bars.
+   - Put the moment on screen from the very first frame.
+3. **Captions.** Choose **File → Import → Subtitle…** and pick `captions.srt`. Drag it onto the timeline; it arrives already timed to the voice.
+   - To style it: click the subtitle track, go to **Inspector → Track**, and choose white, bold, a soft shadow, no box and a medium size, centered in the middle of the screen.
+   - That's the CoachClank look: small enough that the footage stays the star.
+4. **Music (optional).** Keep it quiet, well under the voice (about −25 dB).
+5. **Deliver.**
+   - Pick MP4 / H.264 and 1080 × 1920.
+   - Under **Subtitle Settings**, tick Export Subtitle and choose **Burn into video**.
+   - Click Add to Render Queue → Render All.
+
+**Claude can drive Resolve too.** Open Resolve → **Workspace → Scripts → CursorBridge**, then ask Claude. The first time, test it together with Claude.
+
+---
+
+## 5. Free research tools (Claude runs these inside the commands)
+
+| Tool | What it does |
+|---|---|
+| `fresh_moments.py` | Finds the hottest new NBA clips from House of Highlights, NBA, Bleacher Report and ClutchPoints, compared with each channel's normal, plus the top headlines. It skips clips that aren't about the NBA and saves to `Tools\data\fresh_moments.md`. |
+| `broll.py` | B-roll finder and cutter: `search`, then `sheet` (contact sheet), then `cut` (a clean 1080×1920 clip; `--snap` starts on a camera cut; `--zoom` crops off tickers). `still` turns a picture into a slow-zoom clip. |
+| `copy_check.py "topic"` | Tells you FRESH / CROWDED / TAKEN. It runs two searches and only counts videos about the same story. |
+| `channel_check.py` | Compares your last 7 Shorts with your normal and flags WINNERs (make a follow-up) and FLOPs (check for a claim or restriction). It shows the days since your last upload and logs everything to `Tools\data\channel_log.csv`. |
+
+**If something breaks:**
+- A yt-dlp error means YouTube changed something. Ask Claude to update yt-dlp.
+- ElevenLabs error 401 means the key is wrong; make a new one and paste it into `.env`.
+- If `assemble.py` says "Missing voice.mp3", make the voiceover first.

@@ -1,0 +1,457 @@
+[
+ {
+  "word": "LeBron",
+  "start": 0.0,
+  "end": 0.35
+ },
+ {
+  "word": "James",
+  "start": 0.406,
+  "end": 0.666
+ },
+ {
+  "word": "just",
+  "start": 0.7,
+  "end": 0.857
+ },
+ {
+  "word": "took",
+  "start": 0.881,
+  "end": 1.038
+ },
+ {
+  "word": "a",
+  "start": 1.095,
+  "end": 1.14
+ },
+ {
+  "word": "92%",
+  "start": 1.241,
+  "end": 2.032
+ },
+ {
+  "word": "pay",
+  "start": 2.076,
+  "end": 2.213
+ },
+ {
+  "word": "cut,",
+  "start": 2.257,
+  "end": 2.449
+ },
+ {
+  "word": "and",
+  "start": 2.472,
+  "end": 2.551
+ },
+ {
+  "word": "it",
+  "start": 2.607,
+  "end": 2.675
+ },
+ {
+  "word": "might",
+  "start": 2.72,
+  "end": 2.911
+ },
+ {
+  "word": "be",
+  "start": 2.957,
+  "end": 3.048
+ },
+ {
+  "word": "the",
+  "start": 3.104,
+  "end": 3.183
+ },
+ {
+  "word": "smartest",
+  "start": 3.251,
+  "end": 3.645
+ },
+ {
+  "word": "move",
+  "start": 3.69,
+  "end": 3.849
+ },
+ {
+  "word": "of",
+  "start": 3.883,
+  "end": 3.939
+ },
+ {
+  "word": "his",
+  "start": 3.984,
+  "end": 4.096
+ },
+ {
+  "word": "career.",
+  "start": 4.153,
+  "end": 4.537
+ },
+ {
+  "word": "You",
+  "start": 4.559,
+  "end": 4.65
+ },
+ {
+  "word": "see,",
+  "start": 4.706,
+  "end": 4.887
+ },
+ {
+  "word": "last",
+  "start": 4.943,
+  "end": 5.146
+ },
+ {
+  "word": "season",
+  "start": 5.18,
+  "end": 5.452
+ },
+ {
+  "word": "the",
+  "start": 5.485,
+  "end": 5.553
+ },
+ {
+  "word": "Lakers",
+  "start": 5.587,
+  "end": 5.846
+ },
+ {
+  "word": "paid",
+  "start": 5.891,
+  "end": 6.061
+ },
+ {
+  "word": "him",
+  "start": 6.094,
+  "end": 6.162
+ },
+ {
+  "word": "over",
+  "start": 6.219,
+  "end": 6.388
+ },
+ {
+  "word": "$52 million.",
+  "start": 6.444,
+  "end": 7.731
+ },
+ {
+  "word": "This",
+  "start": 7.753,
+  "end": 7.923
+ },
+ {
+  "word": "season,",
+  "start": 7.979,
+  "end": 8.318
+ },
+ {
+  "word": "the",
+  "start": 8.351,
+  "end": 8.442
+ },
+ {
+  "word": "Sixers",
+  "start": 8.498,
+  "end": 8.792
+ },
+ {
+  "word": "are",
+  "start": 8.837,
+  "end": 8.927
+ },
+ {
+  "word": "paying",
+  "start": 8.95,
+  "end": 9.164
+ },
+ {
+  "word": "him",
+  "start": 9.21,
+  "end": 9.3
+ },
+ {
+  "word": "just",
+  "start": 9.356,
+  "end": 9.536
+ },
+ {
+  "word": "under",
+  "start": 9.593,
+  "end": 9.762
+ },
+ {
+  "word": "$4 million.",
+  "start": 9.818,
+  "end": 10.89
+ },
+ {
+  "word": "A",
+  "start": 10.924,
+  "end": 10.981
+ },
+ {
+  "word": "four-time",
+  "start": 11.06,
+  "end": 11.489
+ },
+ {
+  "word": "MVP,",
+  "start": 11.512,
+  "end": 12.008
+ },
+ {
+  "word": "in",
+  "start": 12.041,
+  "end": 12.132
+ },
+ {
+  "word": "his",
+  "start": 12.166,
+  "end": 12.256
+ },
+ {
+  "word": "24th",
+  "start": 12.301,
+  "end": 12.741
+ },
+ {
+  "word": "season,",
+  "start": 12.787,
+  "end": 13.125
+ },
+ {
+  "word": "for",
+  "start": 13.17,
+  "end": 13.294
+ },
+ {
+  "word": "a",
+  "start": 13.351,
+  "end": 13.385
+ },
+ {
+  "word": "fraction",
+  "start": 13.453,
+  "end": 13.836
+ },
+ {
+  "word": "of",
+  "start": 13.882,
+  "end": 13.926
+ },
+ {
+  "word": "what",
+  "start": 13.972,
+  "end": 14.095
+ },
+ {
+  "word": "he",
+  "start": 14.152,
+  "end": 14.22
+ },
+ {
+  "word": "used",
+  "start": 14.288,
+  "end": 14.457
+ },
+ {
+  "word": "to",
+  "start": 14.479,
+  "end": 14.525
+ },
+ {
+  "word": "make.",
+  "start": 14.582,
+  "end": 14.875
+ },
+ {
+  "word": "But",
+  "start": 14.908,
+  "end": 15.044
+ },
+ {
+  "word": "that's",
+  "start": 15.067,
+  "end": 15.236
+ },
+ {
+  "word": "exactly",
+  "start": 15.28,
+  "end": 15.597
+ },
+ {
+  "word": "the",
+  "start": 15.642,
+  "end": 15.71
+ },
+ {
+  "word": "point.",
+  "start": 15.755,
+  "end": 16.06
+ },
+ {
+  "word": "The",
+  "start": 16.093,
+  "end": 16.195
+ },
+ {
+  "word": "cheaper",
+  "start": 16.24,
+  "end": 16.499
+ },
+ {
+  "word": "LeBron",
+  "start": 16.556,
+  "end": 16.839
+ },
+ {
+  "word": "is,",
+  "start": 16.917,
+  "end": 17.109
+ },
+ {
+  "word": "the",
+  "start": 17.132,
+  "end": 17.233
+ },
+ {
+  "word": "easier",
+  "start": 17.301,
+  "end": 17.606
+ },
+ {
+  "word": "it",
+  "start": 17.662,
+  "end": 17.718
+ },
+ {
+  "word": "is",
+  "start": 17.764,
+  "end": 17.843
+ },
+ {
+  "word": "for",
+  "start": 17.899,
+  "end": 18.0
+ },
+ {
+  "word": "Philly",
+  "start": 18.046,
+  "end": 18.283
+ },
+ {
+  "word": "to",
+  "start": 18.317,
+  "end": 18.362
+ },
+ {
+  "word": "keep",
+  "start": 18.407,
+  "end": 18.554
+ },
+ {
+  "word": "Embiid,",
+  "start": 18.61,
+  "end": 18.96
+ },
+ {
+  "word": "Maxey",
+  "start": 19.016,
+  "end": 19.321
+ },
+ {
+  "word": "and",
+  "start": 19.366,
+  "end": 19.446
+ },
+ {
+  "word": "Jaylen",
+  "start": 19.491,
+  "end": 19.75
+ },
+ {
+  "word": "Brown",
+  "start": 19.795,
+  "end": 20.01
+ },
+ {
+  "word": "together,",
+  "start": 20.044,
+  "end": 20.461
+ },
+ {
+  "word": "and",
+  "start": 20.484,
+  "end": 20.597
+ },
+ {
+  "word": "when",
+  "start": 20.642,
+  "end": 20.754
+ },
+ {
+  "word": "he",
+  "start": 20.788,
+  "end": 20.834
+ },
+ {
+  "word": "signed,",
+  "start": 20.89,
+  "end": 21.172
+ },
+ {
+  "word": "he",
+  "start": 21.195,
+  "end": 21.251
+ },
+ {
+  "word": "said",
+  "start": 21.307,
+  "end": 21.488
+ },
+ {
+  "word": "he",
+  "start": 21.545,
+  "end": 21.613
+ },
+ {
+  "word": "believes",
+  "start": 21.669,
+  "end": 21.939
+ },
+ {
+  "word": "he",
+  "start": 21.973,
+  "end": 22.019
+ },
+ {
+  "word": "can",
+  "start": 22.052,
+  "end": 22.143
+ },
+ {
+  "word": "make",
+  "start": 22.188,
+  "end": 22.335
+ },
+ {
+  "word": "the",
+  "start": 22.369,
+  "end": 22.436
+ },
+ {
+  "word": "Sixers",
+  "start": 22.482,
+  "end": 22.786
+ },
+ {
+  "word": "champions.",
+  "start": 22.842,
+  "end": 23.52
+ }
+]

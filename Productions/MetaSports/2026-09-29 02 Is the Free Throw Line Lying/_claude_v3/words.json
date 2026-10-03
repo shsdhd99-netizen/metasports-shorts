@@ -1,0 +1,557 @@
+[
+ {
+  "word": "Every",
+  "start": 0.0,
+  "end": 0.262
+ },
+ {
+  "word": "NBA",
+  "start": 0.307,
+  "end": 0.57
+ },
+ {
+  "word": "free",
+  "start": 0.628,
+  "end": 0.809
+ },
+ {
+  "word": "throw",
+  "start": 0.833,
+  "end": 1.027
+ },
+ {
+  "word": "is",
+  "start": 1.095,
+  "end": 1.175
+ },
+ {
+  "word": "shot",
+  "start": 1.22,
+  "end": 1.403
+ },
+ {
+  "word": "from",
+  "start": 1.448,
+  "end": 1.574
+ },
+ {
+  "word": "15",
+  "start": 1.631,
+  "end": 1.95
+ },
+ {
+  "word": "feet\u2026",
+  "start": 2.007,
+  "end": 2.35
+ },
+ {
+  "word": "except",
+  "start": 2.509,
+  "end": 2.885
+ },
+ {
+  "word": "it",
+  "start": 2.931,
+  "end": 2.999
+ },
+ {
+  "word": "isn't.",
+  "start": 3.056,
+  "end": 3.41
+ },
+ {
+  "word": "You",
+  "start": 3.49,
+  "end": 3.592
+ },
+ {
+  "word": "see,",
+  "start": 3.649,
+  "end": 3.912
+ },
+ {
+  "word": "the",
+  "start": 3.958,
+  "end": 4.072
+ },
+ {
+  "word": "rulebook",
+  "start": 4.129,
+  "end": 4.482
+ },
+ {
+  "word": "measures",
+  "start": 4.539,
+  "end": 4.836
+ },
+ {
+  "word": "that",
+  "start": 4.869,
+  "end": 4.995
+ },
+ {
+  "word": "line",
+  "start": 5.052,
+  "end": 5.246
+ },
+ {
+  "word": "from",
+  "start": 5.269,
+  "end": 5.371
+ },
+ {
+  "word": "the",
+  "start": 5.406,
+  "end": 5.474
+ },
+ {
+  "word": "backboard,",
+  "start": 5.509,
+  "end": 5.987
+ },
+ {
+  "word": "not",
+  "start": 6.044,
+  "end": 6.192
+ },
+ {
+  "word": "from",
+  "start": 6.239,
+  "end": 6.353
+ },
+ {
+  "word": "the",
+  "start": 6.398,
+  "end": 6.466
+ },
+ {
+  "word": "rim.",
+  "start": 6.523,
+  "end": 6.786
+ },
+ {
+  "word": "The",
+  "start": 6.843,
+  "end": 6.957
+ },
+ {
+  "word": "rim",
+  "start": 7.014,
+  "end": 7.162
+ },
+ {
+  "word": "sits",
+  "start": 7.219,
+  "end": 7.412
+ },
+ {
+  "word": "6",
+  "start": 7.459,
+  "end": 7.618
+ },
+ {
+  "word": "inches",
+  "start": 7.676,
+  "end": 7.892
+ },
+ {
+  "word": "off",
+  "start": 7.949,
+  "end": 8.063
+ },
+ {
+  "word": "the",
+  "start": 8.097,
+  "end": 8.166
+ },
+ {
+  "word": "glass,",
+  "start": 8.2,
+  "end": 8.599
+ },
+ {
+  "word": "and",
+  "start": 8.656,
+  "end": 8.782
+ },
+ {
+  "word": "it's",
+  "start": 8.839,
+  "end": 8.963
+ },
+ {
+  "word": "18",
+  "start": 9.01,
+  "end": 9.317
+ },
+ {
+  "word": "inches",
+  "start": 9.374,
+  "end": 9.603
+ },
+ {
+  "word": "wide,",
+  "start": 9.66,
+  "end": 10.024
+ },
+ {
+  "word": "so",
+  "start": 10.081,
+  "end": 10.195
+ },
+ {
+  "word": "the",
+  "start": 10.252,
+  "end": 10.333
+ },
+ {
+  "word": "middle",
+  "start": 10.39,
+  "end": 10.618
+ },
+ {
+  "word": "of",
+  "start": 10.652,
+  "end": 10.697
+ },
+ {
+  "word": "the",
+  "start": 10.743,
+  "end": 10.811
+ },
+ {
+  "word": "hoop",
+  "start": 10.868,
+  "end": 11.062
+ },
+ {
+  "word": "is",
+  "start": 11.119,
+  "end": 11.199
+ },
+ {
+  "word": "15",
+  "start": 11.256,
+  "end": 11.541
+ },
+ {
+  "word": "inches",
+  "start": 11.598,
+  "end": 11.815
+ },
+ {
+  "word": "in",
+  "start": 11.872,
+  "end": 11.929
+ },
+ {
+  "word": "front",
+  "start": 11.986,
+  "end": 12.134
+ },
+ {
+  "word": "of",
+  "start": 12.157,
+  "end": 12.202
+ },
+ {
+  "word": "the",
+  "start": 12.237,
+  "end": 12.305
+ },
+ {
+  "word": "backboard.",
+  "start": 12.328,
+  "end": 12.83
+ },
+ {
+  "word": "Which",
+  "start": 12.852,
+  "end": 13.058
+ },
+ {
+  "word": "means",
+  "start": 13.104,
+  "end": 13.332
+ },
+ {
+  "word": "every",
+  "start": 13.389,
+  "end": 13.605
+ },
+ {
+  "word": "free",
+  "start": 13.663,
+  "end": 13.822
+ },
+ {
+  "word": "throw",
+  "start": 13.845,
+  "end": 14.05
+ },
+ {
+  "word": "is",
+  "start": 14.119,
+  "end": 14.198
+ },
+ {
+  "word": "really",
+  "start": 14.255,
+  "end": 14.483
+ },
+ {
+  "word": "13",
+  "start": 14.54,
+  "end": 14.871
+ },
+ {
+  "word": "feet,",
+  "start": 14.928,
+  "end": 15.202
+ },
+ {
+  "word": "9",
+  "start": 15.271,
+  "end": 15.43
+ },
+ {
+  "word": "inches.",
+  "start": 15.487,
+  "end": 15.852
+ },
+ {
+  "word": "But",
+  "start": 15.886,
+  "end": 16.034
+ },
+ {
+  "word": "here's",
+  "start": 16.08,
+  "end": 16.274
+ },
+ {
+  "word": "the",
+  "start": 16.296,
+  "end": 16.365
+ },
+ {
+  "word": "weird",
+  "start": 16.4,
+  "end": 16.582
+ },
+ {
+  "word": "part.",
+  "start": 16.605,
+  "end": 16.879
+ },
+ {
+  "word": "The",
+  "start": 16.901,
+  "end": 17.026
+ },
+ {
+  "word": "three-point",
+  "start": 17.095,
+  "end": 17.585
+ },
+ {
+  "word": "line",
+  "start": 17.631,
+  "end": 17.871
+ },
+ {
+  "word": "IS",
+  "start": 17.916,
+  "end": 18.03
+ },
+ {
+  "word": "measured",
+  "start": 18.11,
+  "end": 18.418
+ },
+ {
+  "word": "from",
+  "start": 18.453,
+  "end": 18.577
+ },
+ {
+  "word": "the",
+  "start": 18.623,
+  "end": 18.692
+ },
+ {
+  "word": "middle",
+  "start": 18.749,
+  "end": 18.977
+ },
+ {
+  "word": "of",
+  "start": 19.011,
+  "end": 19.068
+ },
+ {
+  "word": "the",
+  "start": 19.102,
+  "end": 19.171
+ },
+ {
+  "word": "basket.",
+  "start": 19.205,
+  "end": 19.673
+ },
+ {
+  "word": "So",
+  "start": 19.73,
+  "end": 19.843
+ },
+ {
+  "word": "the",
+  "start": 19.9,
+  "end": 19.969
+ },
+ {
+  "word": "two",
+  "start": 20.014,
+  "end": 20.174
+ },
+ {
+  "word": "most",
+  "start": 20.231,
+  "end": 20.425
+ },
+ {
+  "word": "important",
+  "start": 20.459,
+  "end": 20.801
+ },
+ {
+  "word": "lines",
+  "start": 20.847,
+  "end": 21.041
+ },
+ {
+  "word": "in",
+  "start": 21.075,
+  "end": 21.132
+ },
+ {
+  "word": "basketball",
+  "start": 21.189,
+  "end": 21.634
+ },
+ {
+  "word": "are",
+  "start": 21.691,
+  "end": 21.805
+ },
+ {
+  "word": "measured",
+  "start": 21.85,
+  "end": 22.147
+ },
+ {
+  "word": "from",
+  "start": 22.181,
+  "end": 22.295
+ },
+ {
+  "word": "two",
+  "start": 22.352,
+  "end": 22.489
+ },
+ {
+  "word": "different",
+  "start": 22.546,
+  "end": 22.808
+ },
+ {
+  "word": "places.",
+  "start": 22.832,
+  "end": 23.265
+ },
+ {
+  "word": "And",
+  "start": 23.299,
+  "end": 23.413
+ },
+ {
+  "word": "some",
+  "start": 23.458,
+  "end": 23.572
+ },
+ {
+  "word": "of",
+  "start": 23.607,
+  "end": 23.653
+ },
+ {
+  "word": "the",
+  "start": 23.675,
+  "end": 23.744
+ },
+ {
+  "word": "biggest",
+  "start": 23.789,
+  "end": 24.029
+ },
+ {
+  "word": "guys",
+  "start": 24.063,
+  "end": 24.245
+ },
+ {
+  "word": "in",
+  "start": 24.269,
+  "end": 24.314
+ },
+ {
+  "word": "the",
+  "start": 24.348,
+  "end": 24.417
+ },
+ {
+  "word": "league",
+  "start": 24.462,
+  "end": 24.679
+ },
+ {
+  "word": "still",
+  "start": 24.713,
+  "end": 24.942
+ },
+ {
+  "word": "can't",
+  "start": 24.999,
+  "end": 25.169
+ },
+ {
+  "word": "make",
+  "start": 25.204,
+  "end": 25.34
+ },
+ {
+  "word": "it",
+  "start": 25.375,
+  "end": 25.42
+ },
+ {
+  "word": "from",
+  "start": 25.443,
+  "end": 25.558
+ },
+ {
+  "word": "13",
+  "start": 25.603,
+  "end": 25.899
+ },
+ {
+  "word": "feet",
+  "start": 25.956,
+  "end": 26.115
+ },
+ {
+  "word": "9.",
+  "start": 26.172,
+  "end": 26.64
+ }
+]

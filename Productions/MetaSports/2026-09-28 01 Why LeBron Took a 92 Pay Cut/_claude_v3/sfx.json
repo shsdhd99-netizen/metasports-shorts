@@ -1,0 +1,7 @@
+[
+ {"sfx": "cha_ching", "at": 6.36, "gain": -15, "why": "salary table appears ($52,627,153)"},
+ {"sfx": "click", "at": 8.84, "gain": -10, "why": "contract table appears ($3,876,529)"},
+ {"sfx": "click", "at": 12.04, "gain": -10, "why": "ESPN article appears (24th season)"},
+ {"sfx": "camera", "at": 19.50, "gain": -12, "len": 0.6, "fade": 0.2, "why": "Jaylen Brown at his Sixers press conference"},
+ {"sfx": "click", "at": 20.48, "gain": -10, "why": "ESPN quote appears"}
+]

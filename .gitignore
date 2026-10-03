@@ -1,0 +1,38 @@
+# Private cloud copy of the MetaSports work. Big media, keys and scrapes stay on the PC.
+/*
+!/.gitignore
+!/CLOUD_HANDOFF.md
+!/00 START HERE.md
+!/MetaSports - Playbook.md
+!/MetaSports - Scripts (Batch 2).md
+!/Tools Guide.md
+!/Roadmap - Next 90 Days.md
+!/Research Notes/
+!/Tools/
+!/Productions/
+!/.claude/
+
+# never commit keys or caches
+Tools/.env
+**/__pycache__/
+*.pyc
+
+# media stays on the PC by default
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.m4a
+*.jpg
+*.jpeg
+*.png
+*.drift
+*.part
+*.ytdl
+Productions/**/_probe/
+Productions/**/_claude_build/
+
+# ...except what the cloud needs for the LeBron redo
+!Productions/MetaSports/2026-09-28 01 Why LeBron Took a 92 Pay Cut/_broll_src/*.mp4
+!Productions/MetaSports/2026-09-28 01 Why LeBron Took a 92 Pay Cut/_claude_v3/clips/*.mp4
+!Productions/MetaSports/2026-09-28 01 Why LeBron Took a 92 Pay Cut/_claude_v3/shots_src/*.png

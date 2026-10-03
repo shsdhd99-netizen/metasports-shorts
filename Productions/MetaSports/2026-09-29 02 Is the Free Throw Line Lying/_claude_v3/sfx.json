@@ -1,0 +1,7 @@
+[
+ {"sfx": "boom_cinematic", "at": 2.51, "gain": -14},
+ {"sfx": "click", "at": 3.52, "gain": -10},
+ {"sfx": "rim", "at": 11.93, "gain": -8},
+ {"sfx": "click", "at": 17.95, "gain": -10},
+ {"sfx": "whoosh", "at": 19.62, "gain": -8}
+]

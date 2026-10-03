@@ -1,0 +1,21 @@
+{
+ "verdict": "REDO",
+ "wpm": 232,
+ "issues": [
+  " 1.24s  stretched/garbled word \"92%\" (0.79s)",
+  " 6.44s  stretched/garbled word \"$52 million.\" (1.29s)",
+  " 9.82s  stretched/garbled word \"$4 million.\" (1.07s)"
+ ],
+ "notes": [
+  "19.04s  \"maxey\" heard as \"maxie\" (close; check the name)"
+ ],
+ "heard": "LeBron James just took a 92% pay cut, and it might be the smartest move of his career. You see, last season, the Lakers paid him over $52 million. This season, the Sixers are paying him just under $4 million. A four-time MVP in his 24th season for a fraction of what he used to make. But that's exactly the point. The cheaper LeBron is, the easier it is for Philly to keep Embiid, Maxie, and Jaylen Brown together. And when he signed, he said he believes he can make the Sixers champions.",
+ "mismatches": [
+  {
+   "at": 19.04,
+   "script": "maxey",
+   "heard": "maxie",
+   "similar": 0.8
+  }
+ ]
+}

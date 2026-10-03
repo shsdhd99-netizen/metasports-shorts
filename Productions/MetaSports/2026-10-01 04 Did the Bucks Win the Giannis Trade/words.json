@@ -1,0 +1,447 @@
+[
+ {
+  "word": "The",
+  "start": 0.0,
+  "end": 0.125
+ },
+ {
+  "word": "Bucks",
+  "start": 0.173,
+  "end": 0.356
+ },
+ {
+  "word": "traded",
+  "start": 0.384,
+  "end": 0.605
+ },
+ {
+  "word": "a",
+  "start": 0.653,
+  "end": 0.673
+ },
+ {
+  "word": "two-time",
+  "start": 0.711,
+  "end": 1.057
+ },
+ {
+  "word": "MVP,",
+  "start": 1.076,
+  "end": 1.499
+ },
+ {
+  "word": "and",
+  "start": 1.528,
+  "end": 1.615
+ },
+ {
+  "word": "this",
+  "start": 1.653,
+  "end": 1.759
+ },
+ {
+  "word": "is",
+  "start": 1.807,
+  "end": 1.875
+ },
+ {
+  "word": "everything",
+  "start": 1.923,
+  "end": 2.182
+ },
+ {
+  "word": "they",
+  "start": 2.221,
+  "end": 2.327
+ },
+ {
+  "word": "got",
+  "start": 2.375,
+  "end": 2.49
+ },
+ {
+  "word": "back.",
+  "start": 2.538,
+  "end": 2.846
+ },
+ {
+  "word": "Tyler",
+  "start": 2.874,
+  "end": 3.163
+ },
+ {
+  "word": "Herro.",
+  "start": 3.211,
+  "end": 3.547
+ },
+ {
+  "word": "Jaime",
+  "start": 3.586,
+  "end": 3.864
+ },
+ {
+  "word": "Jaquez",
+  "start": 3.912,
+  "end": 4.249
+ },
+ {
+  "word": "Jr.",
+  "start": 4.306,
+  "end": 4.614
+ },
+ {
+  "word": "Kel'el",
+  "start": 4.652,
+  "end": 4.912
+ },
+ {
+  "word": "Ware.",
+  "start": 4.969,
+  "end": 5.2
+ },
+ {
+  "word": "Kasparas",
+  "start": 5.248,
+  "end": 5.662
+ },
+ {
+  "word": "Jaku\u010dionis.",
+  "start": 5.72,
+  "end": 6.537
+ },
+ {
+  "word": "Plus",
+  "start": 6.594,
+  "end": 6.796
+ },
+ {
+  "word": "three",
+  "start": 6.835,
+  "end": 6.988
+ },
+ {
+  "word": "first-round",
+  "start": 7.027,
+  "end": 7.354
+ },
+ {
+  "word": "picks,",
+  "start": 7.392,
+  "end": 7.652
+ },
+ {
+  "word": "a",
+  "start": 7.68,
+  "end": 7.728
+ },
+ {
+  "word": "pick",
+  "start": 7.786,
+  "end": 7.921
+ },
+ {
+  "word": "swap,",
+  "start": 7.949,
+  "end": 8.209
+ },
+ {
+  "word": "and",
+  "start": 8.228,
+  "end": 8.343
+ },
+ {
+  "word": "a",
+  "start": 8.382,
+  "end": 8.401
+ },
+ {
+  "word": "second-rounder.",
+  "start": 8.449,
+  "end": 9.017
+ },
+ {
+  "word": "All",
+  "start": 9.045,
+  "end": 9.209
+ },
+ {
+  "word": "for",
+  "start": 9.257,
+  "end": 9.344
+ },
+ {
+  "word": "one",
+  "start": 9.392,
+  "end": 9.517
+ },
+ {
+  "word": "Giannis.",
+  "start": 9.555,
+  "end": 10.026
+ },
+ {
+  "word": "On",
+  "start": 10.074,
+  "end": 10.208
+ },
+ {
+  "word": "paper,",
+  "start": 10.256,
+  "end": 10.477
+ },
+ {
+  "word": "that's",
+  "start": 10.497,
+  "end": 10.65
+ },
+ {
+  "word": "a",
+  "start": 10.679,
+  "end": 10.698
+ },
+ {
+  "word": "lot.",
+  "start": 10.746,
+  "end": 10.948
+ },
+ {
+  "word": "But",
+  "start": 10.967,
+  "end": 11.064
+ },
+ {
+  "word": "here's",
+  "start": 11.092,
+  "end": 11.256
+ },
+ {
+  "word": "the",
+  "start": 11.275,
+  "end": 11.333
+ },
+ {
+  "word": "catch.",
+  "start": 11.371,
+  "end": 11.659
+ },
+ {
+  "word": "Two",
+  "start": 11.688,
+  "end": 11.794
+ },
+ {
+  "word": "of",
+  "start": 11.842,
+  "end": 11.88
+ },
+ {
+  "word": "those",
+  "start": 11.909,
+  "end": 12.044
+ },
+ {
+  "word": "first-round",
+  "start": 12.073,
+  "end": 12.419
+ },
+ {
+  "word": "picks",
+  "start": 12.467,
+  "end": 12.641
+ },
+ {
+  "word": "don't",
+  "start": 12.679,
+  "end": 12.852
+ },
+ {
+  "word": "show",
+  "start": 12.881,
+  "end": 13.006
+ },
+ {
+  "word": "up",
+  "start": 13.044,
+  "end": 13.112
+ },
+ {
+  "word": "until",
+  "start": 13.16,
+  "end": 13.342
+ },
+ {
+  "word": "2031",
+  "start": 13.4,
+  "end": 13.948
+ },
+ {
+  "word": "and",
+  "start": 13.996,
+  "end": 14.053
+ },
+ {
+  "word": "2033.",
+  "start": 14.092,
+  "end": 14.707
+ },
+ {
+  "word": "You",
+  "start": 14.745,
+  "end": 14.841
+ },
+ {
+  "word": "see,",
+  "start": 14.889,
+  "end": 15.072
+ },
+ {
+  "word": "that",
+  "start": 15.101,
+  "end": 15.235
+ },
+ {
+  "word": "means",
+  "start": 15.274,
+  "end": 15.456
+ },
+ {
+  "word": "Bucks",
+  "start": 15.504,
+  "end": 15.697
+ },
+ {
+  "word": "fans",
+  "start": 15.725,
+  "end": 15.899
+ },
+ {
+  "word": "won't",
+  "start": 15.937,
+  "end": 16.091
+ },
+ {
+  "word": "really",
+  "start": 16.12,
+  "end": 16.274
+ },
+ {
+  "word": "know",
+  "start": 16.313,
+  "end": 16.418
+ },
+ {
+  "word": "if",
+  "start": 16.457,
+  "end": 16.514
+ },
+ {
+  "word": "they",
+  "start": 16.543,
+  "end": 16.639
+ },
+ {
+  "word": "won",
+  "start": 16.687,
+  "end": 16.803
+ },
+ {
+  "word": "this",
+  "start": 16.841,
+  "end": 16.947
+ },
+ {
+  "word": "trade",
+  "start": 16.976,
+  "end": 17.168
+ },
+ {
+  "word": "for",
+  "start": 17.197,
+  "end": 17.283
+ },
+ {
+  "word": "another",
+  "start": 17.312,
+  "end": 17.523
+ },
+ {
+  "word": "seven",
+  "start": 17.572,
+  "end": 17.764
+ },
+ {
+  "word": "years.",
+  "start": 17.812,
+  "end": 18.119
+ },
+ {
+  "word": "Meanwhile,",
+  "start": 18.167,
+  "end": 18.542
+ },
+ {
+  "word": "Miami",
+  "start": 18.581,
+  "end": 18.859
+ },
+ {
+  "word": "gets",
+  "start": 18.898,
+  "end": 19.042
+ },
+ {
+  "word": "Giannis",
+  "start": 19.061,
+  "end": 19.273
+ },
+ {
+  "word": "right",
+  "start": 19.321,
+  "end": 19.455
+ },
+ {
+  "word": "now,",
+  "start": 19.494,
+  "end": 19.677
+ },
+ {
+  "word": "while",
+  "start": 19.696,
+  "end": 19.85
+ },
+ {
+  "word": "Milwaukee",
+  "start": 19.879,
+  "end": 20.235
+ },
+ {
+  "word": "waits",
+  "start": 20.263,
+  "end": 20.436
+ },
+ {
+  "word": "until",
+  "start": 20.456,
+  "end": 20.619
+ },
+ {
+  "word": "2033",
+  "start": 20.667,
+  "end": 21.224
+ },
+ {
+  "word": "to",
+  "start": 21.263,
+  "end": 21.301
+ },
+ {
+  "word": "find",
+  "start": 21.349,
+  "end": 21.503
+ },
+ {
+  "word": "out.",
+  "start": 21.551,
+  "end": 21.84
+ }
+]

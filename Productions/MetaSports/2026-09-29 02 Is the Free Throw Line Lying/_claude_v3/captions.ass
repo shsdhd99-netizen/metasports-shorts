@@ -1,0 +1,58 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Montserrat Black,86,&H00FFFFFF,&H00FFFFFF,&H00000000,&H99000000,0,0,0,0,95,100,1,0,1,6,3,5,70,70,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.63,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}EVERY NBA
+Dialogue: 0,0:00:00.63,0:00:01.09,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FREE THROW
+Dialogue: 0,0:00:01.09,0:00:01.45,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IS SHOT
+Dialogue: 0,0:00:01.45,0:00:02.51,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FROM 15 FEET…
+Dialogue: 0,0:00:02.51,0:00:03.49,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}EXCEPT IT ISN'T.
+Dialogue: 0,0:00:03.49,0:00:03.96,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}YOU SEE,
+Dialogue: 0,0:00:03.96,0:00:04.54,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE RULEBOOK
+Dialogue: 0,0:00:04.54,0:00:05.27,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}MEASURES THAT LINE
+Dialogue: 0,0:00:05.27,0:00:06.04,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FROM THE BACKBOARD,
+Dialogue: 0,0:00:06.04,0:00:06.40,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NOT FROM
+Dialogue: 0,0:00:06.40,0:00:06.84,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE RIM.
+Dialogue: 0,0:00:06.84,0:00:07.22,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE RIM
+Dialogue: 0,0:00:07.22,0:00:07.95,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SITS 6 INCHES
+Dialogue: 0,0:00:07.95,0:00:08.66,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}OFF THE GLASS,
+Dialogue: 0,0:00:08.66,0:00:09.01,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND IT'S
+Dialogue: 0,0:00:09.01,0:00:10.08,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}18 INCHES WIDE,
+Dialogue: 0,0:00:10.08,0:00:10.65,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SO THE MIDDLE
+Dialogue: 0,0:00:10.65,0:00:11.12,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}OF THE HOOP
+Dialogue: 0,0:00:11.12,0:00:11.87,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IS 15 INCHES
+Dialogue: 0,0:00:11.87,0:00:12.16,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN FRONT
+Dialogue: 0,0:00:12.16,0:00:12.85,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}OF THE BACKBOARD.
+Dialogue: 0,0:00:12.85,0:00:13.39,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WHICH MEANS
+Dialogue: 0,0:00:13.39,0:00:14.12,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}EVERY FREE THROW
+Dialogue: 0,0:00:14.12,0:00:14.54,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IS REALLY
+Dialogue: 0,0:00:14.54,0:00:15.27,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}13 FEET,
+Dialogue: 0,0:00:15.27,0:00:15.89,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}9 INCHES.
+Dialogue: 0,0:00:15.89,0:00:16.30,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BUT HERE'S
+Dialogue: 0,0:00:16.30,0:00:16.90,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE WEIRD PART.
+Dialogue: 0,0:00:16.90,0:00:17.92,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE THREE-POINT LINE
+Dialogue: 0,0:00:17.92,0:00:18.45,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IS MEASURED
+Dialogue: 0,0:00:18.45,0:00:19.01,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FROM THE MIDDLE
+Dialogue: 0,0:00:19.01,0:00:19.73,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}OF THE BASKET.
+Dialogue: 0,0:00:19.73,0:00:20.23,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SO THE TWO
+Dialogue: 0,0:00:20.23,0:00:20.85,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}MOST IMPORTANT
+Dialogue: 0,0:00:20.85,0:00:21.69,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}LINES IN BASKETBALL
+Dialogue: 0,0:00:21.69,0:00:22.18,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ARE MEASURED
+Dialogue: 0,0:00:22.18,0:00:22.55,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FROM TWO
+Dialogue: 0,0:00:22.55,0:00:23.30,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}DIFFERENT PLACES.
+Dialogue: 0,0:00:23.30,0:00:23.61,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND SOME
+Dialogue: 0,0:00:23.61,0:00:24.06,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}OF THE BIGGEST
+Dialogue: 0,0:00:24.06,0:00:24.27,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}GUYS
+Dialogue: 0,0:00:24.27,0:00:24.71,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN THE LEAGUE
+Dialogue: 0,0:00:24.71,0:00:25.20,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}STILL CAN'T
+Dialogue: 0,0:00:25.20,0:00:25.60,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}MAKE IT FROM
+Dialogue: 0,0:00:25.60,0:00:26.64,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}13 FEET 9.
