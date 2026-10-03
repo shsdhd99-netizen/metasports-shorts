@@ -1,9 +1,12 @@
-# Footage notes (cloud cut)
-Sources: NBA's 2026-27 Points of Education video (via X post 2104962344031772863), NBA clip via ClutchPoints (2104970417027104964), 90s NBA Jordan clip (X 1996013808783872094), archive.org 1998nbafinalsgame6 (480p, upscaled).
+# Footage + audio notes (v2)
+Sources (all X posts, no uploads): NBA's 2026-27 Points of Education video (X 2104962344031772863), ThrowbackHoops "Last Shot" HD (2006556195113533776), Hater Report (1934060028732039621). Recipe: `_clips_recipe.py`. Final pass: `Tools/polish.py`.
 
-Could not get / substitutions:
-- No referee whistle or offensive-foul signal exists in the NBA video I could reach. V03 and V10 use a ref (#41) standing next to the play from the NBA video; the whistle sound effect was removed.
-- No clip of Jaylen Brown in a Sixers jersey found. V12 uses Brown in Celtics green from the same NBA example. Plan's 0.3 s freeze of V01 is a 0.4 s replay of V01's opening (V12b) for the loop.
-- Barrett/Mobley (V09): Barrett #9 verified by jersey; the Cavs defender's face/number isn't visible, identified as Mobley only via ESPN's description. Brown #7 / Oubre #9 verified by jerseys.
-- V04 (ball handler feeling a defender) and V05 (push-off) are other players from the NBA video, shown generically; V06 is a different archive angle of the Russell stumble, not slowed.
-- Jordan clips are 480p/720p, slightly soft. No music (none in Tools/music).
+v2 changes: 18 different shots, real HD Jordan angles (no more reused/upscaled 480p), NBA banner cropped out of league clips, player ids by jersey (Brown #7/Oubre #9, Barrett #9, Brunson #11/McCollum #3, Banchero #5).
+Audio: the voice file is very quiet (-27 LUFS); v1 boosted the whole mix 13 dB so the effects drowned it. Now the voice is cleaned/levelled first, only 2 effects (swish on the ball through the net, one soft whoosh into the first ESPN card), mix -14.7 LUFS, peak -3.7 dB.
+Captions: word-by-word, big, active word yellow, lower-middle, no overlaps.
+
+Still not found / honest limits:
+- No referee whistle/foul-signal clip reachable, so none is used (and no whistle sound).
+- No Jaylen Brown in a Sixers jersey; last shot is Brown in Celtics green from the NBA video.
+- Barrett's defender is identified as Mobley via ESPN's description (no number visible).
+- "Feel/firm" shots (Banchero, Brunson) are examples from the NBA video, shown generically.

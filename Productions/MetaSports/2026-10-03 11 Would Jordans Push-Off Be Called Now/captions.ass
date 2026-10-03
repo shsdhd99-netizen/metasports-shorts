@@ -2,64 +2,133 @@
 ScriptType: v4.00+
 PlayResX: 1080
 PlayResY: 1920
-WrapStyle: 0
+WrapStyle: 2
 ScaledBorderAndShadow: yes
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Cap,Montserrat Black,86,&H00FFFFFF,&H00FFFFFF,&H00000000,&H99000000,0,0,0,0,95,100,1,0,1,6,3,5,70,70,0,1
+Style: Cap,Montserrat Black,100,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,0,0,0,0,100,100,0,0,1,9,4,5,70,70,0,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:00.55,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}MICHAEL JORDAN
-Dialogue: 0,0:00:00.55,0:00:00.98,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}PUSHED OFF
-Dialogue: 0,0:00:00.98,0:00:01.55,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BRYON RUSSELL
-Dialogue: 0,0:00:01.55,0:00:01.75,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TO WIN
-Dialogue: 0,0:00:01.75,0:00:02.81,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE 1998 FINALS,
-Dialogue: 0,0:00:02.81,0:00:03.39,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND NO FOUL
-Dialogue: 0,0:00:03.39,0:00:03.99,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WAS CALLED.
-Dialogue: 0,0:00:03.99,0:00:04.63,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NOW THE NBA
-Dialogue: 0,0:00:04.63,0:00:05.24,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}JUST REWROTE
-Dialogue: 0,0:00:05.24,0:00:05.84,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HOW REFS CALL
-Dialogue: 0,0:00:05.84,0:00:06.77,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THAT EXACT MOVE.
-Dialogue: 0,0:00:06.77,0:00:07.08,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IT'S THE
-Dialogue: 0,0:00:07.08,0:00:07.73,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FOUR F'S:
-Dialogue: 0,0:00:07.73,0:00:08.23,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FEELING,
-Dialogue: 0,0:00:08.23,0:00:08.73,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FIRMING,
-Dialogue: 0,0:00:08.73,0:00:09.20,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FORCE,
-Dialogue: 0,0:00:09.20,0:00:10.15,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND FULL EXTENSION.
-Dialogue: 0,0:00:10.15,0:00:10.46,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}A BALL
-Dialogue: 0,0:00:10.46,0:00:11.05,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HANDLER CAN FEEL
-Dialogue: 0,0:00:11.05,0:00:11.60,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}A DEFENDER,
-Dialogue: 0,0:00:11.60,0:00:12.03,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}OR FIRM
-Dialogue: 0,0:00:12.03,0:00:12.42,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}UP IN FRONT
-Dialogue: 0,0:00:12.42,0:00:12.69,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}OF HIM.
-Dialogue: 0,0:00:12.69,0:00:13.04,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BUT IF THE
-Dialogue: 0,0:00:13.04,0:00:13.38,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ARM HITS
-Dialogue: 0,0:00:13.38,0:00:13.84,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WITH FORCE,
-Dialogue: 0,0:00:13.84,0:00:14.68,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}OR FULLY EXTENDS,
-Dialogue: 0,0:00:14.68,0:00:15.39,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IT'S AN OFFENSIVE
-Dialogue: 0,0:00:15.39,0:00:15.75,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FOUL.
-Dialogue: 0,0:00:15.75,0:00:16.28,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SO WOULD JORDAN
-Dialogue: 0,0:00:16.28,0:00:16.84,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}GET WHISTLED?
-Dialogue: 0,0:00:16.84,0:00:17.75,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ESPN SAYS NO,
-Dialogue: 0,0:00:17.75,0:00:18.14,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BECAUSE HE
-Dialogue: 0,0:00:18.14,0:00:18.58,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}DIDN'T USE
-Dialogue: 0,0:00:18.58,0:00:19.39,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FORCE OR FULLY
-Dialogue: 0,0:00:19.39,0:00:20.01,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}EXTEND HIS ARM.
-Dialogue: 0,0:00:20.01,0:00:20.51,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BUT THE LEAGUE'S
-Dialogue: 0,0:00:20.51,0:00:21.04,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}OWN EXAMPLES
-Dialogue: 0,0:00:21.04,0:00:21.71,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ARE JAYLEN BROWN
-Dialogue: 0,0:00:21.71,0:00:22.48,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SHOVING KELLY OUBRE
-Dialogue: 0,0:00:22.48,0:00:22.96,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN THE CHEST,
-Dialogue: 0,0:00:22.96,0:00:23.41,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND RJ
-Dialogue: 0,0:00:23.41,0:00:23.98,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BARRETT KNOCKING
-Dialogue: 0,0:00:23.98,0:00:24.93,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}EVAN MOBLEY BACKWARD.
-Dialogue: 0,0:00:24.93,0:00:25.54,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BOTH ARE FOULS
-Dialogue: 0,0:00:25.54,0:00:25.87,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NOW.
-Dialogue: 0,0:00:25.87,0:00:26.23,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SO UNDER
-Dialogue: 0,0:00:26.23,0:00:26.81,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE NEW RULE,
-Dialogue: 0,0:00:26.81,0:00:27.35,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}JORDAN'S SHOT
-Dialogue: 0,0:00:27.35,0:00:27.82,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IS CLEAN,
-Dialogue: 0,0:00:27.82,0:00:28.61,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BUT JAYLEN BROWN'S
-Dialogue: 0,0:00:28.61,0:00:29.10,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ISN'T.
+Dialogue: 0,0:00:00.00,0:00:00.30,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}MICHAEL\N{\c&H00FFFFFF&\fscx100\fscy100}JORDAN {\c&H00FFFFFF&\fscx100\fscy100}PUSHED
+Dialogue: 0,0:00:00.30,0:00:00.55,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}MICHAEL\N{\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}JORDAN {\c&H00FFFFFF&\fscx100\fscy100}PUSHED
+Dialogue: 0,0:00:00.55,0:00:00.81,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}MICHAEL\N{\c&H00FFFFFF&\fscx100\fscy100}JORDAN {\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}PUSHED
+Dialogue: 0,0:00:00.81,0:00:00.98,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}OFF {\c&H00FFFFFF&\fscx100\fscy100}BRYON\N{\c&H00FFFFFF&\fscx100\fscy100}RUSSELL
+Dialogue: 0,0:00:00.98,0:00:01.25,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}OFF {\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}BRYON\N{\c&H00FFFFFF&\fscx100\fscy100}RUSSELL
+Dialogue: 0,0:00:01.25,0:00:01.53,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}OFF {\c&H00FFFFFF&\fscx100\fscy100}BRYON\N{\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}RUSSELL
+Dialogue: 0,0:00:01.53,0:00:01.63,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}TO {\c&H00FFFFFF&\fscx100\fscy100}WIN {\c&H00FFFFFF&\fscx100\fscy100}THE {\c&H00FFFFFF&\fscx100\fscy100}1998
+Dialogue: 0,0:00:01.63,0:00:01.75,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}TO {\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}WIN {\c&H00FFFFFF&\fscx100\fscy100}THE {\c&H00FFFFFF&\fscx100\fscy100}1998
+Dialogue: 0,0:00:01.75,0:00:01.85,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}TO {\c&H00FFFFFF&\fscx100\fscy100}WIN {\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}THE {\c&H00FFFFFF&\fscx100\fscy100}1998
+Dialogue: 0,0:00:01.85,0:00:02.42,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}TO {\c&H00FFFFFF&\fscx100\fscy100}WIN {\c&H00FFFFFF&\fscx100\fscy100}THE {\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}1998
+Dialogue: 0,0:00:02.42,0:00:02.79,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}FINALS,
+Dialogue: 0,0:00:02.79,0:00:02.98,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}AND {\c&H00FFFFFF&\fscx100\fscy100}NO\N{\c&H00FFFFFF&\fscx100\fscy100}FOUL {\c&H00FFFFFF&\fscx100\fscy100}WAS
+Dialogue: 0,0:00:02.98,0:00:03.17,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}AND {\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}NO\N{\c&H00FFFFFF&\fscx100\fscy100}FOUL {\c&H00FFFFFF&\fscx100\fscy100}WAS
+Dialogue: 0,0:00:03.17,0:00:03.39,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}AND {\c&H00FFFFFF&\fscx100\fscy100}NO\N{\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}FOUL {\c&H00FFFFFF&\fscx100\fscy100}WAS
+Dialogue: 0,0:00:03.39,0:00:03.52,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}AND {\c&H00FFFFFF&\fscx100\fscy100}NO\N{\c&H00FFFFFF&\fscx100\fscy100}FOUL {\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}WAS
+Dialogue: 0,0:00:03.52,0:00:03.97,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}CALLED.
+Dialogue: 0,0:00:03.97,0:00:04.17,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}NOW {\c&H00FFFFFF&\fscx100\fscy100}THE\N{\c&H00FFFFFF&\fscx100\fscy100}NBA {\c&H00FFFFFF&\fscx100\fscy100}JUST
+Dialogue: 0,0:00:04.17,0:00:04.30,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}NOW {\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}THE\N{\c&H00FFFFFF&\fscx100\fscy100}NBA {\c&H00FFFFFF&\fscx100\fscy100}JUST
+Dialogue: 0,0:00:04.30,0:00:04.63,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}NOW {\c&H00FFFFFF&\fscx100\fscy100}THE\N{\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}NBA {\c&H00FFFFFF&\fscx100\fscy100}JUST
+Dialogue: 0,0:00:04.63,0:00:04.82,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}NOW {\c&H00FFFFFF&\fscx100\fscy100}THE\N{\c&H00FFFFFF&\fscx100\fscy100}NBA {\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}JUST
+Dialogue: 0,0:00:04.82,0:00:05.24,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}REWROTE\N{\c&H00FFFFFF&\fscx100\fscy100}HOW {\c&H00FFFFFF&\fscx100\fscy100}REFS
+Dialogue: 0,0:00:05.24,0:00:05.42,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}REWROTE\N{\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}HOW {\c&H00FFFFFF&\fscx100\fscy100}REFS
+Dialogue: 0,0:00:05.42,0:00:05.63,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}REWROTE\N{\c&H00FFFFFF&\fscx100\fscy100}HOW {\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}REFS
+Dialogue: 0,0:00:05.63,0:00:05.84,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}CALL {\c&H00FFFFFF&\fscx100\fscy100}THAT\N{\c&H00FFFFFF&\fscx100\fscy100}EXACT
+Dialogue: 0,0:00:05.84,0:00:05.99,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}CALL {\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}THAT\N{\c&H00FFFFFF&\fscx100\fscy100}EXACT
+Dialogue: 0,0:00:05.99,0:00:06.31,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}CALL {\c&H00FFFFFF&\fscx100\fscy100}THAT\N{\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}EXACT
+Dialogue: 0,0:00:06.31,0:00:06.75,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}MOVE.
+Dialogue: 0,0:00:06.75,0:00:06.97,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}IT'S {\c&H00FFFFFF&\fscx100\fscy100}THE\N{\c&H00FFFFFF&\fscx100\fscy100}FOUR {\c&H00FFFFFF&\fscx100\fscy100}F'S:
+Dialogue: 0,0:00:06.97,0:00:07.08,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}IT'S {\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}THE\N{\c&H00FFFFFF&\fscx100\fscy100}FOUR {\c&H00FFFFFF&\fscx100\fscy100}F'S:
+Dialogue: 0,0:00:07.08,0:00:07.36,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}IT'S {\c&H00FFFFFF&\fscx100\fscy100}THE\N{\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}FOUR {\c&H00FFFFFF&\fscx100\fscy100}F'S:
+Dialogue: 0,0:00:07.36,0:00:07.71,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}IT'S {\c&H00FFFFFF&\fscx100\fscy100}THE\N{\c&H00FFFFFF&\fscx100\fscy100}FOUR {\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}F'S:
+Dialogue: 0,0:00:07.71,0:00:08.21,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}FEELING,
+Dialogue: 0,0:00:08.21,0:00:08.71,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}FIRMING,
+Dialogue: 0,0:00:08.71,0:00:09.18,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}FORCE,
+Dialogue: 0,0:00:09.18,0:00:09.38,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}AND {\c&H00FFFFFF&\fscx100\fscy100}FULL\N{\c&H00FFFFFF&\fscx100\fscy100}EXTENSION.
+Dialogue: 0,0:00:09.38,0:00:09.60,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}AND {\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}FULL\N{\c&H00FFFFFF&\fscx100\fscy100}EXTENSION.
+Dialogue: 0,0:00:09.60,0:00:10.13,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}AND {\c&H00FFFFFF&\fscx100\fscy100}FULL\N{\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}EXTENSION.
+Dialogue: 0,0:00:10.13,0:00:10.27,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}A {\c&H00FFFFFF&\fscx100\fscy100}BALL\N{\c&H00FFFFFF&\fscx100\fscy100}HANDLER
+Dialogue: 0,0:00:10.27,0:00:10.46,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}A {\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}BALL\N{\c&H00FFFFFF&\fscx100\fscy100}HANDLER
+Dialogue: 0,0:00:10.46,0:00:10.72,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}A {\c&H00FFFFFF&\fscx100\fscy100}BALL\N{\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}HANDLER
+Dialogue: 0,0:00:10.72,0:00:10.87,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}CAN {\c&H00FFFFFF&\fscx100\fscy100}FEEL {\c&H00FFFFFF&\fscx100\fscy100}A\N{\c&H00FFFFFF&\fscx100\fscy100}DEFENDER,
+Dialogue: 0,0:00:10.87,0:00:11.05,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}CAN {\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}FEEL {\c&H00FFFFFF&\fscx100\fscy100}A\N{\c&H00FFFFFF&\fscx100\fscy100}DEFENDER,
+Dialogue: 0,0:00:11.05,0:00:11.12,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}CAN {\c&H00FFFFFF&\fscx100\fscy100}FEEL {\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}A\N{\c&H00FFFFFF&\fscx100\fscy100}DEFENDER,
+Dialogue: 0,0:00:11.12,0:00:11.58,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}CAN {\c&H00FFFFFF&\fscx100\fscy100}FEEL {\c&H00FFFFFF&\fscx100\fscy100}A\N{\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}DEFENDER,
+Dialogue: 0,0:00:11.58,0:00:11.79,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}OR {\c&H00FFFFFF&\fscx100\fscy100}FIRM {\c&H00FFFFFF&\fscx100\fscy100}UP {\c&H00FFFFFF&\fscx100\fscy100}IN
+Dialogue: 0,0:00:11.79,0:00:12.03,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}OR {\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}FIRM {\c&H00FFFFFF&\fscx100\fscy100}UP {\c&H00FFFFFF&\fscx100\fscy100}IN
+Dialogue: 0,0:00:12.03,0:00:12.15,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}OR {\c&H00FFFFFF&\fscx100\fscy100}FIRM {\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}UP {\c&H00FFFFFF&\fscx100\fscy100}IN
+Dialogue: 0,0:00:12.15,0:00:12.23,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}OR {\c&H00FFFFFF&\fscx100\fscy100}FIRM {\c&H00FFFFFF&\fscx100\fscy100}UP {\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}IN
+Dialogue: 0,0:00:12.23,0:00:12.42,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}FRONT {\c&H00FFFFFF&\fscx100\fscy100}OF {\c&H00FFFFFF&\fscx100\fscy100}HIM.
+Dialogue: 0,0:00:12.42,0:00:12.52,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}FRONT {\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}OF {\c&H00FFFFFF&\fscx100\fscy100}HIM.
+Dialogue: 0,0:00:12.52,0:00:12.67,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}FRONT {\c&H00FFFFFF&\fscx100\fscy100}OF {\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}HIM.
+Dialogue: 0,0:00:12.67,0:00:12.84,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}BUT {\c&H00FFFFFF&\fscx100\fscy100}IF {\c&H00FFFFFF&\fscx100\fscy100}THE {\c&H00FFFFFF&\fscx100\fscy100}ARM
+Dialogue: 0,0:00:12.84,0:00:12.93,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}BUT {\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}IF {\c&H00FFFFFF&\fscx100\fscy100}THE {\c&H00FFFFFF&\fscx100\fscy100}ARM
+Dialogue: 0,0:00:12.93,0:00:13.04,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}BUT {\c&H00FFFFFF&\fscx100\fscy100}IF {\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}THE {\c&H00FFFFFF&\fscx100\fscy100}ARM
+Dialogue: 0,0:00:13.04,0:00:13.21,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}BUT {\c&H00FFFFFF&\fscx100\fscy100}IF {\c&H00FFFFFF&\fscx100\fscy100}THE {\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}ARM
+Dialogue: 0,0:00:13.21,0:00:13.38,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}HITS {\c&H00FFFFFF&\fscx100\fscy100}WITH\N{\c&H00FFFFFF&\fscx100\fscy100}FORCE,
+Dialogue: 0,0:00:13.38,0:00:13.55,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}HITS {\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}WITH\N{\c&H00FFFFFF&\fscx100\fscy100}FORCE,
+Dialogue: 0,0:00:13.55,0:00:13.82,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}HITS {\c&H00FFFFFF&\fscx100\fscy100}WITH\N{\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}FORCE,
+Dialogue: 0,0:00:13.82,0:00:13.99,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}OR {\c&H00FFFFFF&\fscx100\fscy100}FULLY\N{\c&H00FFFFFF&\fscx100\fscy100}EXTENDS,
+Dialogue: 0,0:00:13.99,0:00:14.26,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}OR {\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}FULLY\N{\c&H00FFFFFF&\fscx100\fscy100}EXTENDS,
+Dialogue: 0,0:00:14.26,0:00:14.66,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}OR {\c&H00FFFFFF&\fscx100\fscy100}FULLY\N{\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}EXTENDS,
+Dialogue: 0,0:00:14.66,0:00:14.86,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}IT'S {\c&H00FFFFFF&\fscx100\fscy100}AN\N{\c&H00FFFFFF&\fscx100\fscy100}OFFENSIVE
+Dialogue: 0,0:00:14.86,0:00:14.95,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}IT'S {\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}AN\N{\c&H00FFFFFF&\fscx100\fscy100}OFFENSIVE
+Dialogue: 0,0:00:14.95,0:00:15.37,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}IT'S {\c&H00FFFFFF&\fscx100\fscy100}AN\N{\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}OFFENSIVE
+Dialogue: 0,0:00:15.37,0:00:15.73,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}FOUL.
+Dialogue: 0,0:00:15.73,0:00:15.88,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}SO {\c&H00FFFFFF&\fscx100\fscy100}WOULD\N{\c&H00FFFFFF&\fscx100\fscy100}JORDAN
+Dialogue: 0,0:00:15.88,0:00:16.04,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}SO {\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}WOULD\N{\c&H00FFFFFF&\fscx100\fscy100}JORDAN
+Dialogue: 0,0:00:16.04,0:00:16.26,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}SO {\c&H00FFFFFF&\fscx100\fscy100}WOULD\N{\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}JORDAN
+Dialogue: 0,0:00:16.26,0:00:16.43,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}GET {\c&H00FFFFFF&\fscx100\fscy100}WHISTLED?
+Dialogue: 0,0:00:16.43,0:00:16.82,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}GET {\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}WHISTLED?
+Dialogue: 0,0:00:16.82,0:00:17.27,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}ESPN {\c&H00FFFFFF&\fscx100\fscy100}SAYS {\c&H00FFFFFF&\fscx100\fscy100}NO,
+Dialogue: 0,0:00:17.27,0:00:17.49,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}ESPN {\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}SAYS {\c&H00FFFFFF&\fscx100\fscy100}NO,
+Dialogue: 0,0:00:17.49,0:00:17.73,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}ESPN {\c&H00FFFFFF&\fscx100\fscy100}SAYS {\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}NO,
+Dialogue: 0,0:00:17.73,0:00:18.03,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}BECAUSE\N{\c&H00FFFFFF&\fscx100\fscy100}HE {\c&H00FFFFFF&\fscx100\fscy100}DIDN'T
+Dialogue: 0,0:00:18.03,0:00:18.14,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}BECAUSE\N{\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}HE {\c&H00FFFFFF&\fscx100\fscy100}DIDN'T
+Dialogue: 0,0:00:18.14,0:00:18.38,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}BECAUSE\N{\c&H00FFFFFF&\fscx100\fscy100}HE {\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}DIDN'T
+Dialogue: 0,0:00:18.38,0:00:18.58,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}USE {\c&H00FFFFFF&\fscx100\fscy100}FORCE\N{\c&H00FFFFFF&\fscx100\fscy100}OR {\c&H00FFFFFF&\fscx100\fscy100}FULLY
+Dialogue: 0,0:00:18.58,0:00:18.91,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}USE {\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}FORCE\N{\c&H00FFFFFF&\fscx100\fscy100}OR {\c&H00FFFFFF&\fscx100\fscy100}FULLY
+Dialogue: 0,0:00:18.91,0:00:19.10,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}USE {\c&H00FFFFFF&\fscx100\fscy100}FORCE\N{\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}OR {\c&H00FFFFFF&\fscx100\fscy100}FULLY
+Dialogue: 0,0:00:19.10,0:00:19.37,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}USE {\c&H00FFFFFF&\fscx100\fscy100}FORCE\N{\c&H00FFFFFF&\fscx100\fscy100}OR {\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}FULLY
+Dialogue: 0,0:00:19.37,0:00:19.66,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}EXTEND\N{\c&H00FFFFFF&\fscx100\fscy100}HIS {\c&H00FFFFFF&\fscx100\fscy100}ARM.
+Dialogue: 0,0:00:19.66,0:00:19.78,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}EXTEND\N{\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}HIS {\c&H00FFFFFF&\fscx100\fscy100}ARM.
+Dialogue: 0,0:00:19.78,0:00:19.99,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}EXTEND\N{\c&H00FFFFFF&\fscx100\fscy100}HIS {\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}ARM.
+Dialogue: 0,0:00:19.99,0:00:20.16,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}BUT {\c&H00FFFFFF&\fscx100\fscy100}THE\N{\c&H00FFFFFF&\fscx100\fscy100}LEAGUE'S
+Dialogue: 0,0:00:20.16,0:00:20.27,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}BUT {\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}THE\N{\c&H00FFFFFF&\fscx100\fscy100}LEAGUE'S
+Dialogue: 0,0:00:20.27,0:00:20.49,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}BUT {\c&H00FFFFFF&\fscx100\fscy100}THE\N{\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}LEAGUE'S
+Dialogue: 0,0:00:20.49,0:00:20.64,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}OWN\N{\c&H00FFFFFF&\fscx100\fscy100}EXAMPLES {\c&H00FFFFFF&\fscx100\fscy100}ARE
+Dialogue: 0,0:00:20.64,0:00:21.04,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}OWN\N{\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}EXAMPLES {\c&H00FFFFFF&\fscx100\fscy100}ARE
+Dialogue: 0,0:00:21.04,0:00:21.16,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}OWN\N{\c&H00FFFFFF&\fscx100\fscy100}EXAMPLES {\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}ARE
+Dialogue: 0,0:00:21.16,0:00:21.47,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}JAYLEN {\c&H00FFFFFF&\fscx100\fscy100}BROWN\N{\c&H00FFFFFF&\fscx100\fscy100}SHOVING
+Dialogue: 0,0:00:21.47,0:00:21.71,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}JAYLEN {\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}BROWN\N{\c&H00FFFFFF&\fscx100\fscy100}SHOVING
+Dialogue: 0,0:00:21.71,0:00:21.98,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}JAYLEN {\c&H00FFFFFF&\fscx100\fscy100}BROWN\N{\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}SHOVING
+Dialogue: 0,0:00:21.98,0:00:22.24,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}KELLY {\c&H00FFFFFF&\fscx100\fscy100}OUBRE\N{\c&H00FFFFFF&\fscx100\fscy100}IN {\c&H00FFFFFF&\fscx100\fscy100}THE
+Dialogue: 0,0:00:22.24,0:00:22.48,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}KELLY {\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}OUBRE\N{\c&H00FFFFFF&\fscx100\fscy100}IN {\c&H00FFFFFF&\fscx100\fscy100}THE
+Dialogue: 0,0:00:22.48,0:00:22.56,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}KELLY {\c&H00FFFFFF&\fscx100\fscy100}OUBRE\N{\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}IN {\c&H00FFFFFF&\fscx100\fscy100}THE
+Dialogue: 0,0:00:22.56,0:00:22.63,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}KELLY {\c&H00FFFFFF&\fscx100\fscy100}OUBRE\N{\c&H00FFFFFF&\fscx100\fscy100}IN {\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}THE
+Dialogue: 0,0:00:22.63,0:00:22.94,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}CHEST,
+Dialogue: 0,0:00:22.94,0:00:23.15,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}AND {\c&H00FFFFFF&\fscx100\fscy100}RJ\N{\c&H00FFFFFF&\fscx100\fscy100}BARRETT
+Dialogue: 0,0:00:23.15,0:00:23.41,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}AND {\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}RJ\N{\c&H00FFFFFF&\fscx100\fscy100}BARRETT
+Dialogue: 0,0:00:23.41,0:00:23.66,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}AND {\c&H00FFFFFF&\fscx100\fscy100}RJ\N{\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}BARRETT
+Dialogue: 0,0:00:23.66,0:00:23.98,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}KNOCKING\N{\c&H00FFFFFF&\fscx100\fscy100}EVAN {\c&H00FFFFFF&\fscx100\fscy100}MOBLEY
+Dialogue: 0,0:00:23.98,0:00:24.18,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}KNOCKING\N{\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}EVAN {\c&H00FFFFFF&\fscx100\fscy100}MOBLEY
+Dialogue: 0,0:00:24.18,0:00:24.43,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}KNOCKING\N{\c&H00FFFFFF&\fscx100\fscy100}EVAN {\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}MOBLEY
+Dialogue: 0,0:00:24.43,0:00:24.91,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}BACKWARD.
+Dialogue: 0,0:00:24.91,0:00:25.13,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}BOTH {\c&H00FFFFFF&\fscx100\fscy100}ARE\N{\c&H00FFFFFF&\fscx100\fscy100}FOULS
+Dialogue: 0,0:00:25.13,0:00:25.25,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}BOTH {\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}ARE\N{\c&H00FFFFFF&\fscx100\fscy100}FOULS
+Dialogue: 0,0:00:25.25,0:00:25.52,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}BOTH {\c&H00FFFFFF&\fscx100\fscy100}ARE\N{\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}FOULS
+Dialogue: 0,0:00:25.52,0:00:25.85,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}NOW.
+Dialogue: 0,0:00:25.85,0:00:26.02,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}SO {\c&H00FFFFFF&\fscx100\fscy100}UNDER\N{\c&H00FFFFFF&\fscx100\fscy100}THE {\c&H00FFFFFF&\fscx100\fscy100}NEW
+Dialogue: 0,0:00:26.02,0:00:26.23,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}SO {\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}UNDER\N{\c&H00FFFFFF&\fscx100\fscy100}THE {\c&H00FFFFFF&\fscx100\fscy100}NEW
+Dialogue: 0,0:00:26.23,0:00:26.34,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}SO {\c&H00FFFFFF&\fscx100\fscy100}UNDER\N{\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}THE {\c&H00FFFFFF&\fscx100\fscy100}NEW
+Dialogue: 0,0:00:26.34,0:00:26.48,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}SO {\c&H00FFFFFF&\fscx100\fscy100}UNDER\N{\c&H00FFFFFF&\fscx100\fscy100}THE {\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}NEW
+Dialogue: 0,0:00:26.48,0:00:26.79,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}RULE,
+Dialogue: 0,0:00:26.79,0:00:27.13,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}JORDAN'S\N{\c&H00FFFFFF&\fscx100\fscy100}SHOT {\c&H00FFFFFF&\fscx100\fscy100}IS
+Dialogue: 0,0:00:27.13,0:00:27.35,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}JORDAN'S\N{\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}SHOT {\c&H00FFFFFF&\fscx100\fscy100}IS
+Dialogue: 0,0:00:27.35,0:00:27.44,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}JORDAN'S\N{\c&H00FFFFFF&\fscx100\fscy100}SHOT {\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}IS
+Dialogue: 0,0:00:27.44,0:00:27.80,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}CLEAN,
+Dialogue: 0,0:00:27.80,0:00:28.00,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}BUT {\c&H00FFFFFF&\fscx100\fscy100}JAYLEN\N{\c&H00FFFFFF&\fscx100\fscy100}BROWN'S
+Dialogue: 0,0:00:28.00,0:00:28.29,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}BUT {\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}JAYLEN\N{\c&H00FFFFFF&\fscx100\fscy100}BROWN'S
+Dialogue: 0,0:00:28.29,0:00:28.59,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H00FFFFFF&\fscx100\fscy100}BUT {\c&H00FFFFFF&\fscx100\fscy100}JAYLEN\N{\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}BROWN'S
+Dialogue: 0,0:00:28.59,0:00:29.13,Cap,,0,0,0,,{\pos(540,1300)\an5}{\c&H0000D4FF&\fscx114\fscy114\t(0,110,\fscx106\fscy106)}ISN'T.
