@@ -1,0 +1,547 @@
+[
+ {
+  "word": "GTA",
+  "start": 0.12,
+  "end": 0.52
+ },
+ {
+  "word": "is",
+  "start": 0.58,
+  "end": 0.7
+ },
+ {
+  "word": "dropping.",
+  "start": 0.74,
+  "end": 1.08
+ },
+ {
+  "word": "So",
+  "start": 2.5,
+  "end": 2.6
+ },
+ {
+  "word": "look",
+  "start": 2.68,
+  "end": 2.8
+ },
+ {
+  "word": "at",
+  "start": 2.82,
+  "end": 2.92
+ },
+ {
+  "word": "NFL,",
+  "start": 3.0,
+  "end": 3.38
+ },
+ {
+  "word": "look",
+  "start": 4.26,
+  "end": 4.36
+ },
+ {
+  "word": "at",
+  "start": 4.4,
+  "end": 4.54
+ },
+ {
+  "word": "all",
+  "start": 4.98,
+  "end": 5.1
+ },
+ {
+  "word": "the",
+  "start": 5.16,
+  "end": 5.22
+ },
+ {
+  "word": "leagues,",
+  "start": 5.28,
+  "end": 5.6
+ },
+ {
+  "word": "and",
+  "start": 6.64,
+  "end": 6.74
+ },
+ {
+  "word": "watch",
+  "start": 6.78,
+  "end": 6.96
+ },
+ {
+  "word": "them",
+  "start": 6.98,
+  "end": 7.12
+ },
+ {
+  "word": "plummet,",
+  "start": 7.18,
+  "end": 7.48
+ },
+ {
+  "word": "mate.",
+  "start": 7.54,
+  "end": 7.72
+ },
+ {
+  "word": "That's",
+  "start": 7.92,
+  "end": 8.199
+ },
+ {
+  "word": "Rockets",
+  "start": 8.257,
+  "end": 8.559
+ },
+ {
+  "word": "center",
+  "start": 8.582,
+  "end": 8.779
+ },
+ {
+  "word": "Steven",
+  "start": 8.826,
+  "end": 9.093
+ },
+ {
+  "word": "Adams",
+  "start": 9.139,
+  "end": 9.36
+ },
+ {
+  "word": "at",
+  "start": 9.394,
+  "end": 9.453
+ },
+ {
+  "word": "media",
+  "start": 9.499,
+  "end": 9.72
+ },
+ {
+  "word": "day,",
+  "start": 9.778,
+  "end": 9.952
+ },
+ {
+  "word": "and",
+  "start": 9.975,
+  "end": 10.056
+ },
+ {
+  "word": "the",
+  "start": 10.091,
+  "end": 10.161
+ },
+ {
+  "word": "date",
+  "start": 10.219,
+  "end": 10.393
+ },
+ {
+  "word": "he's",
+  "start": 10.416,
+  "end": 10.521
+ },
+ {
+  "word": "talking",
+  "start": 10.544,
+  "end": 10.776
+ },
+ {
+  "word": "about",
+  "start": 10.811,
+  "end": 10.973
+ },
+ {
+  "word": "is",
+  "start": 11.02,
+  "end": 11.101
+ },
+ {
+  "word": "November",
+  "start": 11.159,
+  "end": 11.473
+ },
+ {
+  "word": "nineteenth.",
+  "start": 11.531,
+  "end": 11.983
+ },
+ {
+  "word": "That's",
+  "start": 12.007,
+  "end": 12.204
+ },
+ {
+  "word": "when",
+  "start": 12.227,
+  "end": 12.332
+ },
+ {
+  "word": "Grand",
+  "start": 12.39,
+  "end": 12.564
+ },
+ {
+  "word": "Theft",
+  "start": 12.587,
+  "end": 12.796
+ },
+ {
+  "word": "Auto",
+  "start": 12.819,
+  "end": 12.994
+ },
+ {
+  "word": "six",
+  "start": 13.052,
+  "end": 13.226
+ },
+ {
+  "word": "comes",
+  "start": 13.272,
+  "end": 13.446
+ },
+ {
+  "word": "out,",
+  "start": 13.493,
+  "end": 13.679
+ },
+ {
+  "word": "about",
+  "start": 13.702,
+  "end": 13.911
+ },
+ {
+  "word": "a",
+  "start": 13.946,
+  "end": 13.969
+ },
+ {
+  "word": "month",
+  "start": 14.027,
+  "end": 14.213
+ },
+ {
+  "word": "into",
+  "start": 14.247,
+  "end": 14.364
+ },
+ {
+  "word": "the",
+  "start": 14.41,
+  "end": 14.491
+ },
+ {
+  "word": "NBA",
+  "start": 14.526,
+  "end": 14.758
+ },
+ {
+  "word": "season.",
+  "start": 14.816,
+  "end": 15.188
+ },
+ {
+  "word": "He",
+  "start": 15.223,
+  "end": 15.327
+ },
+ {
+  "word": "says",
+  "start": 15.385,
+  "end": 15.617
+ },
+ {
+  "word": "league-wide",
+  "start": 15.675,
+  "end": 16.059
+ },
+ {
+  "word": "performance",
+  "start": 16.082,
+  "end": 16.523
+ },
+ {
+  "word": "will",
+  "start": 16.546,
+  "end": 16.686
+ },
+ {
+  "word": "plummet.",
+  "start": 16.72,
+  "end": 17.069
+ },
+ {
+  "word": "And",
+  "start": 17.103,
+  "end": 17.208
+ },
+ {
+  "word": "he's",
+  "start": 17.254,
+  "end": 17.394
+ },
+ {
+  "word": "not",
+  "start": 17.44,
+  "end": 17.579
+ },
+ {
+  "word": "just",
+  "start": 17.614,
+  "end": 17.754
+ },
+ {
+  "word": "talking",
+  "start": 17.777,
+  "end": 18.009
+ },
+ {
+  "word": "about",
+  "start": 18.044,
+  "end": 18.206
+ },
+ {
+  "word": "players.",
+  "start": 18.241,
+  "end": 18.787
+ },
+ {
+  "word": "The",
+  "start": 18.977,
+  "end": 19.057
+ },
+ {
+  "word": "coaching",
+  "start": 19.117,
+  "end": 19.357
+ },
+ {
+  "word": "and",
+  "start": 19.377,
+  "end": 19.437
+ },
+ {
+  "word": "scouts",
+  "start": 19.517,
+  "end": 19.737
+ },
+ {
+  "word": "are",
+  "start": 19.757,
+  "end": 19.817
+ },
+ {
+  "word": "gonna",
+  "start": 19.857,
+  "end": 20.017
+ },
+ {
+  "word": "be",
+  "start": 20.057,
+  "end": 20.177
+ },
+ {
+  "word": "horrendous,",
+  "start": 20.237,
+  "end": 20.737
+ },
+ {
+  "word": "mate.",
+  "start": 20.837,
+  "end": 21.097
+ },
+ {
+  "word": "But",
+  "start": 21.177,
+  "end": 21.321
+ },
+ {
+  "word": "only",
+  "start": 21.36,
+  "end": 21.494
+ },
+ {
+  "word": "for",
+  "start": 21.542,
+  "end": 21.619
+ },
+ {
+  "word": "November.",
+  "start": 21.658,
+  "end": 22.053
+ },
+ {
+  "word": "He",
+  "start": 22.11,
+  "end": 22.197
+ },
+ {
+  "word": "says",
+  "start": 22.245,
+  "end": 22.398
+ },
+ {
+  "word": "everyone",
+  "start": 22.447,
+  "end": 22.745
+ },
+ {
+  "word": "bounces",
+  "start": 22.784,
+  "end": 23.053
+ },
+ {
+  "word": "back",
+  "start": 23.082,
+  "end": 23.207
+ },
+ {
+  "word": "in",
+  "start": 23.245,
+  "end": 23.284
+ },
+ {
+  "word": "December.",
+  "start": 23.322,
+  "end": 23.727
+ },
+ {
+  "word": "And",
+  "start": 23.775,
+  "end": 23.909
+ },
+ {
+  "word": "he'd",
+  "start": 23.967,
+  "end": 24.111
+ },
+ {
+  "word": "know:",
+  "start": 24.149,
+  "end": 24.419
+ },
+ {
+  "word": "his",
+  "start": 24.487,
+  "end": 24.612
+ },
+ {
+  "word": "Houston",
+  "start": 24.669,
+  "end": 24.958
+ },
+ {
+  "word": "apartment",
+  "start": 24.996,
+  "end": 25.304
+ },
+ {
+  "word": "reportedly",
+  "start": 25.343,
+  "end": 25.708
+ },
+ {
+  "word": "has",
+  "start": 25.747,
+  "end": 25.833
+ },
+ {
+  "word": "a",
+  "start": 25.872,
+  "end": 25.891
+ },
+ {
+  "word": "mattress",
+  "start": 25.929,
+  "end": 26.208
+ },
+ {
+  "word": "on",
+  "start": 26.237,
+  "end": 26.286
+ },
+ {
+  "word": "the",
+  "start": 26.315,
+  "end": 26.372
+ },
+ {
+  "word": "floor,",
+  "start": 26.401,
+  "end": 26.68
+ },
+ {
+  "word": "guitars",
+  "start": 26.728,
+  "end": 27.064
+ },
+ {
+  "word": "and",
+  "start": 27.093,
+  "end": 27.161
+ },
+ {
+  "word": "gaming",
+  "start": 27.2,
+  "end": 27.44
+ },
+ {
+  "word": "gear.",
+  "start": 27.479,
+  "end": 27.709
+ },
+ {
+  "word": "So",
+  "start": 27.757,
+  "end": 27.863
+ },
+ {
+  "word": "how",
+  "start": 27.911,
+  "end": 27.998
+ },
+ {
+  "word": "many",
+  "start": 28.027,
+  "end": 28.143
+ },
+ {
+  "word": "players",
+  "start": 28.181,
+  "end": 28.402
+ },
+ {
+  "word": "are",
+  "start": 28.431,
+  "end": 28.517
+ },
+ {
+  "word": "skipping",
+  "start": 28.537,
+  "end": 28.796
+ },
+ {
+  "word": "shootaround",
+  "start": 28.835,
+  "end": 29.21
+ },
+ {
+  "word": "on",
+  "start": 29.258,
+  "end": 29.316
+ },
+ {
+  "word": "November",
+  "start": 29.354,
+  "end": 29.633
+ },
+ {
+  "word": "nineteenth?",
+  "start": 29.681,
+  "end": 30.297
+ }
+]

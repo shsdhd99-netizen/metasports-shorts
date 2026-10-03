@@ -1,0 +1,14 @@
+[
+ {
+  "sfx": "click",
+  "at": 8.0,
+  "gain": -10,
+  "why": "article card appears"
+ },
+ {
+  "sfx": "click",
+  "at": 11.0,
+  "gain": -10,
+  "why": "release-date card appears"
+ }
+]

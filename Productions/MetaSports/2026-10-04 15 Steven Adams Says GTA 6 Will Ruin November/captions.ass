@@ -1,0 +1,63 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Montserrat Black,86,&H00FFFFFF,&H00FFFFFF,&H00000000,&H99000000,0,0,0,0,95,100,1,0,1,6,3,5,70,70,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:01.28,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}GTA IS DROPPING.
+Dialogue: 0,0:00:02.50,0:00:02.82,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SO LOOK
+Dialogue: 0,0:00:02.82,0:00:03.58,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AT NFL,
+Dialogue: 0,0:00:04.26,0:00:05.16,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}LOOK AT ALL
+Dialogue: 0,0:00:05.16,0:00:05.80,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE LEAGUES,
+Dialogue: 0,0:00:06.64,0:00:06.98,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND WATCH
+Dialogue: 0,0:00:06.98,0:00:07.54,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THEM PLUMMET,
+Dialogue: 0,0:00:07.54,0:00:07.92,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}MATE.
+Dialogue: 0,0:00:07.92,0:00:08.58,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THAT'S ROCKETS
+Dialogue: 0,0:00:08.58,0:00:09.39,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}CENTER STEVEN ADAMS
+Dialogue: 0,0:00:09.39,0:00:09.97,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AT MEDIA DAY,
+Dialogue: 0,0:00:09.97,0:00:10.42,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND THE DATE
+Dialogue: 0,0:00:10.42,0:00:10.81,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HE'S TALKING
+Dialogue: 0,0:00:10.81,0:00:11.53,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ABOUT IS NOVEMBER
+Dialogue: 0,0:00:11.53,0:00:12.01,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NINETEENTH.
+Dialogue: 0,0:00:12.01,0:00:12.39,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THAT'S WHEN
+Dialogue: 0,0:00:12.39,0:00:13.05,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}GRAND THEFT AUTO
+Dialogue: 0,0:00:13.05,0:00:13.70,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SIX COMES OUT,
+Dialogue: 0,0:00:13.70,0:00:14.25,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ABOUT A MONTH
+Dialogue: 0,0:00:14.25,0:00:14.82,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}INTO THE NBA
+Dialogue: 0,0:00:14.82,0:00:15.22,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SEASON.
+Dialogue: 0,0:00:15.22,0:00:16.08,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HE SAYS LEAGUE-WIDE
+Dialogue: 0,0:00:16.08,0:00:16.55,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}PERFORMANCE
+Dialogue: 0,0:00:16.55,0:00:17.10,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WILL PLUMMET.
+Dialogue: 0,0:00:17.10,0:00:17.44,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND HE'S
+Dialogue: 0,0:00:17.44,0:00:18.04,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NOT JUST TALKING
+Dialogue: 0,0:00:18.04,0:00:18.98,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ABOUT PLAYERS.
+Dialogue: 0,0:00:18.98,0:00:19.38,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE COACHING
+Dialogue: 0,0:00:19.38,0:00:19.76,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND SCOUTS
+Dialogue: 0,0:00:19.76,0:00:20.06,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ARE GONNA
+Dialogue: 0,0:00:20.06,0:00:20.84,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BE HORRENDOUS,
+Dialogue: 0,0:00:20.84,0:00:21.18,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}MATE.
+Dialogue: 0,0:00:21.18,0:00:21.54,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BUT ONLY
+Dialogue: 0,0:00:21.54,0:00:22.11,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FOR NOVEMBER.
+Dialogue: 0,0:00:22.11,0:00:22.45,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HE SAYS
+Dialogue: 0,0:00:22.45,0:00:23.08,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}EVERYONE BOUNCES
+Dialogue: 0,0:00:23.08,0:00:23.77,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BACK IN DECEMBER.
+Dialogue: 0,0:00:23.77,0:00:24.49,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND HE'D KNOW:
+Dialogue: 0,0:00:24.49,0:00:25.00,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HIS HOUSTON
+Dialogue: 0,0:00:25.00,0:00:25.75,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}APARTMENT REPORTEDLY
+Dialogue: 0,0:00:25.75,0:00:26.24,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HAS A MATTRESS
+Dialogue: 0,0:00:26.24,0:00:26.73,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ON THE FLOOR,
+Dialogue: 0,0:00:26.73,0:00:27.09,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}GUITARS
+Dialogue: 0,0:00:27.09,0:00:27.76,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND GAMING GEAR.
+Dialogue: 0,0:00:27.76,0:00:28.03,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SO HOW
+Dialogue: 0,0:00:28.03,0:00:28.43,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}MANY PLAYERS
+Dialogue: 0,0:00:28.43,0:00:28.84,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ARE SKIPPING
+Dialogue: 0,0:00:28.84,0:00:29.26,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SHOOTAROUND
+Dialogue: 0,0:00:29.26,0:00:29.68,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ON NOVEMBER
+Dialogue: 0,0:00:29.68,0:00:30.34,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NINETEENTH?
