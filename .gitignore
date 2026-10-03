@@ -54,3 +54,5 @@ Productions/**/_claude_build/
 !Productions/**/_claude_v6/clips/*.mp4
 !Productions/**/_claude_v6/shots_src/*.png
 !Productions/**/_claude_v6/storyboard.jpg
+!Productions/MetaSports/2026-10-03 1*/cover_*.png
+!Productions/MetaSports/2026-10-03 1*/UPLOAD.md

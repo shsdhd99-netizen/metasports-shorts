@@ -71,6 +71,13 @@ Title: 3 options, 4-7 words, a question, number or name first, 1 emoji, no hasht
 Description: 2 lines (what happened + the numbers) plus a short keyword line. Pinned comment: the two-sided argument. Covers: `python Tools/thumb.py --shape short`
 x3 (one-line number hook; keep the face visible; use single quotes around text with $). Post time 6-11 AM ET; write down the go-live time.
 
+## 7b. Add it to the phone app (the user is often on mobile)
+The user's Shorts Hub is a claude.ai artifact: https://claude.ai/artifact/EZrk8n855PyYpMFnMnMJd4 (database collection `shorts`, one doc per Short).
+1. Make a 720p preview: `ffmpeg -i final.mp4 -c:v libx264 -crf 25 -preset veryfast -vf scale=720:-2 -c:a aac -b:a 128k -movflags +faststart prev.mp4` (about 4 MB).
+2. Upload it: `Artifact` tool, `url` = the hub URL, `asset: true`, `file_path` = prev.mp4. The result gives an asset id.
+3. Write the doc with the `ArtifactData` tool (action `set`, collection `shorts`, doc_id like `s14-topic`): `{num, name, title, status: "ready"|"footage"|"posted", versions:[{label, assetId, note}], titles:[...], description, pinned, postNote}`. For a Short still waiting on footage use status `footage` and `about` instead of versions; later `update` it to `ready` with the video.
+4. Never delete other docs. The page updates live; no republish needed.
+
 ## 8. Deliver: commit + push to the session branch (Productions/** is allow-listed in .gitignore for READY TO POST files and _claude_v4), send the mp4 + cover + UPLOAD.md to the user with SendUserFile.
 Report in 3-4 plain lines: what is finished, what is still missing (and why), the title pick.
 
