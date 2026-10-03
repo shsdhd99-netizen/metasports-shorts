@@ -1,0 +1,20 @@
+[
+ {
+  "sfx": "cha_ching",
+  "at": 6.55,
+  "gain": -15,
+  "why": "contract card"
+ },
+ {
+  "sfx": "click",
+  "at": 12.95,
+  "gain": -10,
+  "why": "weight clause card"
+ },
+ {
+  "sfx": "click",
+  "at": 22.0,
+  "gain": -10,
+  "why": "qualifying offer card"
+ }
+]

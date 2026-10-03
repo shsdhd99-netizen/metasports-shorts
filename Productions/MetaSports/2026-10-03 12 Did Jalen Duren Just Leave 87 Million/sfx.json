@@ -1,5 +1,11 @@
 [
  {
+  "sfx": "whoosh",
+  "at": 1.2,
+  "gain": -16,
+  "why": "punch-in to rim hang"
+ },
+ {
   "sfx": "click",
   "at": 2.6,
   "gain": -10,

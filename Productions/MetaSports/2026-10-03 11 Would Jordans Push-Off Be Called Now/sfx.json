@@ -1,26 +1,16 @@
 [
  {
-  "sfx": "click",
-  "at": 7.1,
-  "gain": -10,
-  "why": "ESPN card appears"
+  "sfx": "swish",
+  "at": 3.47,
+  "gain": -9,
+  "len": 1.0,
+  "why": "ball through the net in the shot clip"
  },
  {
-  "sfx": "whistle",
-  "at": 16.4,
-  "gain": -13,
-  "why": "'whistled?' beat"
- },
- {
-  "sfx": "click",
-  "at": 16.9,
-  "gain": -10,
-  "why": "second ESPN card appears"
- },
- {
-  "sfx": "punch",
-  "at": 21.75,
-  "gain": -14,
-  "why": "the shove on Oubre's chest"
+  "sfx": "whoosh",
+  "at": 6.62,
+  "gain": -15,
+  "len": 0.9,
+  "why": "jump to the ESPN card"
  }
 ]
