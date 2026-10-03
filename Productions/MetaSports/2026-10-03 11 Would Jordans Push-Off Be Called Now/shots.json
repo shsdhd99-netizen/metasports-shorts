@@ -1,0 +1,72 @@
+[
+ {
+  "clip": "V01_jordan_vs_russell.mp4",
+  "start": 0.0,
+  "why": "Jordan isolates Bryon Russell, 1998 Finals Game 6, final 40 s (Jazz in white, Bulls in red). Start on the crossover, so the first frame already has motion."
+ },
+ {
+  "clip": "V02_jordan_shot_falls.mp4",
+  "start": 2.44,
+  "why": "The shot going in and the Bulls celebrating (no whistle, nothing called)."
+ },
+ {
+  "clip": "V03_refs_whistle_nba.mp4",
+  "start": 3.99,
+  "why": "Ref blowing the whistle / referee huddle, clean modern broadcast shot. Fits 'the NBA rewrote how refs call it'."
+ },
+ {
+  "clip": "c11_a_1.mp4",
+  "start": 6.77,
+  "why": "ESPN card: headline + the Four F's line boxed in red."
+ },
+ {
+  "clip": "V04_ballhandler_feels_defender.mp4",
+  "start": 10.15,
+  "why": "A ball handler touching a defender with the off hand to feel him (legal), from the NBA's points-of-emphasis video or any modern clip."
+ },
+ {
+  "clip": "V05_push_off_extended_arm.mp4",
+  "start": 12.69,
+  "why": "A clear push-off: arm fully extended, defender stumbles back (the NBA's own foul example)."
+ },
+ {
+  "clip": "V06_jordan_russell_replay.mp4",
+  "start": 15.75,
+  "why": "Slow replay of the Jordan push on Russell, left arm out. Hold it through 'whistled?'."
+ },
+ {
+  "clip": "c11_b_1.mp4",
+  "start": 16.84,
+  "why": "ESPN card: 'By the NBA's new Four F's standard, Jordan wouldn't be whistled...' boxed."
+ },
+ {
+  "clip": "V07_nba_example_title.mp4",
+  "start": 20.01,
+  "why": "Cut to the NBA's example reel (the league's own clips), any foul example, 1 s."
+ },
+ {
+  "clip": "V08_jaylen_brown_oubre.mp4",
+  "start": 21.18,
+  "why": "Jaylen Brown (then Celtics) forearm into Kelly Oubre Jr.'s chest at the free-throw line. Verify both faces and jerseys."
+ },
+ {
+  "clip": "V09_barrett_mobley.mp4",
+  "start": 22.96,
+  "why": "RJ Barrett (Raptors) pushes Evan Mobley (Cavs) in the paint and Mobley stumbles back. Verify both faces."
+ },
+ {
+  "clip": "V10_ref_offensive_foul_signal.mp4",
+  "start": 24.93,
+  "why": "Referee signalling an offensive foul (fist behind head or hand on hip)."
+ },
+ {
+  "clip": "V11_jordan_shot_clean.mp4",
+  "start": 25.87,
+  "why": "Jordan's shot again, left hand away from Russell, ball in the air. Same as V02 but a different angle if possible."
+ },
+ {
+  "clip": "V12_jaylen_brown_sixers_loop.mp4",
+  "start": 27.82,
+  "why": "Jaylen Brown in a Sixers jersey (media day or scrimmage) for 1 s, THEN a 0.3 s freeze on the first frame of V01 so the Short loops back into its opening."
+ }
+]

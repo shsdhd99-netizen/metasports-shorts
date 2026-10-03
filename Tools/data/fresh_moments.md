@@ -1,38 +1,38 @@
-# Fresh NBA moments — 2026-09-26
+# Fresh NBA moments — 2026-10-03
 
 ## Hottest new NBA Shorts from big highlight channels (vs. their normal)
 
 | Heat | Views | Channel | Moment | Link |
 |---|---|---|---|---|
-| 7.0x | 168,000 | House of Highlights | Bro actually MIGHT BE SGA💀😭 | https://www.youtube.com/shorts/-OriIYQc75Q |
-| 6.9x | 193,000 | NBA | Last season’s Western Conference Champions are ready for the 2026-27 NBA season  | https://www.youtube.com/shorts/4u-JCjp1rrg |
-| 6.7x | 160,000 | House of Highlights | Giannis was SCARED of an IGUANA😭 | https://www.youtube.com/shorts/-rodsyl97Xs |
-| 5.8x | 161,000 | NBA | That #1 overall pick feeling 🤩 | https://www.youtube.com/shorts/OuJ7ZLEtSkc |
-| 3.9x | 94,000 | House of Highlights | Luka Doncic is ONE OF US😭 | https://www.youtube.com/shorts/_LUwjZ9X7NU |
-| 3.8x | 49,000 | Bleacher Report | Luka Doncic welcomed Sexton to the Lakers 😅 | https://www.youtube.com/shorts/wooG2Q9qO3I |
-| 2.6x | 74,000 | NBA | Yall know the meme 😭😭😭 | https://www.youtube.com/shorts/YtInDrCCaK0 |
-| 2.6x | 73,000 | NBA | Cooper Flagg on potentially growing an inch this offseason 👀📈 | https://www.youtube.com/shorts/cr6bzM0P3E0 |
-| 1.9x | 45,000 | House of Highlights | Steph Curry just signed to… 😮🔥 @Whristan | https://www.youtube.com/shorts/xxFqe26NkZE |
-| 1.5x | 37,000 | House of Highlights | Steph staying in the NBA till he's 41😱 | https://www.youtube.com/shorts/RNWJDQJsh7A |
-| 1.4x | 17,000 | ClutchPoints | Is Rudy Gobert a TOP 10 Rim Protector? | https://www.youtube.com/shorts/dC445TcGe-U |
-| 1.2x | 34,000 | NBA | “Y'all can smile!” PJ jumps in on the photo with Cooper, Kyrie and Dereck 📸 | https://www.youtube.com/shorts/RUdQa6e_5R0 |
-| 1.2x | 14,000 | ClutchPoints | Who’s The FUNNIEST NBA Player? 🤔 | https://www.youtube.com/shorts/tG11I0w5ZyQ |
-| 0.9x | 22,000 | House of Highlights | Headband Luka working his LOB THREAT😤 | https://www.youtube.com/shorts/qapiZgcYS84 |
-| 0.8x | 21,000 | NBA | First look at Kyrie at Mavericks Media Day as he prepares to return to the floor | https://www.youtube.com/shorts/amggffaTvyw |
+| 5.1x | 169,000 | Bleacher Report | Ant's always been a fan of LaMelo 💯 | https://www.youtube.com/shorts/pko7nvIbErI |
+| 4.8x | 33,000 | NBA | LeBron alley Oop gets everyone hyped 🔥 | https://www.youtube.com/shorts/h9R6oDdY9NU |
+| 2.9x | 96,000 | Bleacher Report | First look at Bron with the Sixers 👀 | https://www.youtube.com/shorts/Y3uZ9csCyP8 |
+| 2.1x | 46,000 | ClutchPoints | How Many Duos Are Better Than Luka + AR? 🤔 | https://www.youtube.com/shorts/dA2ZcLK3od0 |
+| 1.7x | 36,000 | ClutchPoints | Can you beat the 2017 Warriors? Play ‘Crush the GOATs’ to find out 👀 | https://www.youtube.com/shorts/SmBxfdE7AkE |
+| 1.1x | 36,000 | Bleacher Report | LeBron likes what he sees from his teammates 🤣 | https://www.youtube.com/shorts/oKtp5V17_xo |
+| 1.0x | 7,000 | NBA | First look at LeBron James in the blue & white! | https://www.youtube.com/shorts/SnC3WeEo6_U |
+| 1.0x | 6,700 | NBA | Kawhi Leonard is back with the @Toronto Raptors for the first time since 2019 | https://www.youtube.com/shorts/8g7rxsSjBak |
+| 0.9x | 19,000 | ClutchPoints | How Many BIGS Are More Reliable Than Joel Embiid? 🤔 | https://www.youtube.com/shorts/cO5tlSXZFF4 |
+| 0.9x | 5,900 | NBA | LeBron, Jaylen, Maxey & Simons get loose from the corner ahead of today's scrimm | https://www.youtube.com/shorts/9QWuPLaEojQ |
+| 0.8x | 5,400 | NBA | Donovan Mitchell's bag of tricks runs deep. 🏀🏈 | https://www.youtube.com/shorts/XBQgAoL8H7g |
+| 0.7x | 4,800 | NBA | Daddy duty.. Tyrese grabs his daughter Marvel to the bench | https://www.youtube.com/shorts/_ldnYX6wesg |
+| 0.6x | 4,400 | NBA | Coach Atkinson Challenged @Cleveland Cavaliers  Rookie Meleek Thomas to a Pushup | https://www.youtube.com/shorts/REvTDu8G-Q0 |
+| 0.6x | 10,000 | House of Highlights | Ja Morant & Dame about to go CRAZY🔥😫 | https://www.youtube.com/shorts/hhHv4Yhpcho |
+| 0.5x | 8,500 | House of Highlights | LeBron watching his Sixers😏 | https://www.youtube.com/shorts/mnoCnetvYuU |
 
 ## Top NBA headlines right now (storyline ideas — verify before using)
 
-- 2026 NBA buzz: Latest free agency and trade updates - ESPN
-- ESPN's Top 100 NBA Players List Has Two Glaring Omissions From The Atlanta Hawks - Sports Illustrated
-- Celtics coach Joe Mazzulla joins Tim Tebow in distancing himself from Life Surge after 'scam' allegations - Yahoo Sports
-- Sources: Bulls to trade Dillingham to Hornets for Buddy Hield - ESPN
-- Buddy Hield Traded to Bulls from Hornets for Former Lottery Pick, New NBA Rumors Reveal - bleacherreport.com
-- Bulls-Hornets Trade Grades: Buddy Hield Finds a New Home in Chicago - Sports Illustrated
-- Stephen Curry signs 2-year, $116 million extension to stay in Golden State - Yahoo Sports
-- Stephen Curry, Warriors reportedly agree to $116M extension: What it means for Golden State's future - CBS Sports
-- Top 10 Highest-Paid Players in NBA History - Sports Illustrated
-- Why did LeBron James sign with the Philadelphia 76ers? Let him explain - USA Today
-- LeBron James: Maxey friendship, helping Embiid were 76ers factors - ESPN
-- LeBron James is in love with competing vs. Father Time, hopes to help Joel Embiid over the hump in Philly - Yahoo Sports
+- Sources - Grizzlies waive Jordan Hawkins weeks after Pels trade - ESPN
+- Which Two-Way Rookies Have the Best Chance to Earn a Standard NBA Contract? - Sports Illustrated
+- 76ers envision LeBron James' role being 'offense creator' - ESPN
+- Watch LeBron James' Top Highlights from 1st 76ers Scrimmage in Trending NBA Videos - Bleacher Report
+- "He's a little girl" - Ex-NBA player says LeBron James ruined the NBA - Yahoo Sports
+- Every NBA team’s biggest burning question as the preseason begins - The New York Times
+- NBA preseason: 8 intriguing teams to watch, including Giannis Antetokounmpo's Heat - Yahoo Sports
+- Atlanta Hawks 2026-27 NBA Preseason Preview - Yahoo Sports
+- Trail Blazers announcer breaks silence after firing in wake of problematic posts resurfacing - New York Post
+- Trail Blazers fire new announcer over past inappropriate posts - ESPN
+- Blazers broadcaster fired hours after hiring for racist, sexist posts from teen years - The Athletic - The New York Times
+- Minnesota Timberwolves What If: Redoing the Star-Studded 1996 NBA Draft - Canis Hoopus
 
 **Next:** pick one → type `/nba-short the moment` in Claude (it runs the copy-check for you).
