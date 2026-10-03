@@ -1,15 +1,21 @@
 [
  {
+  "sfx": "swish",
+  "at": 3.1,
+  "gain": -12,
+  "why": "Jordan's shot drops through the net"
+ },
+ {
   "sfx": "click",
   "at": 7.1,
   "gain": -10,
   "why": "ESPN card appears"
  },
  {
-  "sfx": "whistle",
-  "at": 16.4,
+  "sfx": "thud",
+  "at": 14.0,
   "gain": -13,
-  "why": "'whistled?' beat"
+  "why": "the shove in the NBA's foul example"
  },
  {
   "sfx": "click",
@@ -21,6 +27,6 @@
   "sfx": "punch",
   "at": 21.75,
   "gain": -14,
-  "why": "the shove on Oubre's chest"
+  "why": "Brown's shove on Oubre"
  }
 ]

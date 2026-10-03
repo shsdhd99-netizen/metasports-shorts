@@ -1,0 +1,65 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Montserrat Black,86,&H00FFFFFF,&H00FFFFFF,&H00000000,&H99000000,0,0,0,0,95,100,1,0,1,6,3,5,70,70,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.55,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}MICHAEL JORDAN
+Dialogue: 0,0:00:00.55,0:00:00.98,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}PUSHED OFF
+Dialogue: 0,0:00:00.98,0:00:01.55,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BRYON RUSSELL
+Dialogue: 0,0:00:01.55,0:00:01.75,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TO WIN
+Dialogue: 0,0:00:01.75,0:00:02.81,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE 1998 FINALS,
+Dialogue: 0,0:00:02.81,0:00:03.39,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND NO FOUL
+Dialogue: 0,0:00:03.39,0:00:03.99,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WAS CALLED.
+Dialogue: 0,0:00:03.99,0:00:04.63,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NOW THE NBA
+Dialogue: 0,0:00:04.63,0:00:05.24,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}JUST REWROTE
+Dialogue: 0,0:00:05.24,0:00:05.84,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HOW REFS CALL
+Dialogue: 0,0:00:05.84,0:00:06.77,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THAT EXACT MOVE.
+Dialogue: 0,0:00:06.77,0:00:07.08,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IT'S THE
+Dialogue: 0,0:00:07.08,0:00:07.73,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FOUR F'S:
+Dialogue: 0,0:00:07.73,0:00:08.23,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FEELING,
+Dialogue: 0,0:00:08.23,0:00:08.73,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FIRMING,
+Dialogue: 0,0:00:08.73,0:00:09.20,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FORCE,
+Dialogue: 0,0:00:09.20,0:00:10.15,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND FULL EXTENSION.
+Dialogue: 0,0:00:10.15,0:00:10.46,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}A BALL
+Dialogue: 0,0:00:10.46,0:00:11.05,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HANDLER CAN FEEL
+Dialogue: 0,0:00:11.05,0:00:11.60,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}A DEFENDER,
+Dialogue: 0,0:00:11.60,0:00:12.03,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}OR FIRM
+Dialogue: 0,0:00:12.03,0:00:12.42,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}UP IN FRONT
+Dialogue: 0,0:00:12.42,0:00:12.69,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}OF HIM.
+Dialogue: 0,0:00:12.69,0:00:13.04,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BUT IF THE
+Dialogue: 0,0:00:13.04,0:00:13.38,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ARM HITS
+Dialogue: 0,0:00:13.38,0:00:13.84,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WITH FORCE,
+Dialogue: 0,0:00:13.84,0:00:14.68,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}OR FULLY EXTENDS,
+Dialogue: 0,0:00:14.68,0:00:15.39,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IT'S AN OFFENSIVE
+Dialogue: 0,0:00:15.39,0:00:15.75,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FOUL.
+Dialogue: 0,0:00:15.75,0:00:16.28,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SO WOULD JORDAN
+Dialogue: 0,0:00:16.28,0:00:16.84,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}GET WHISTLED?
+Dialogue: 0,0:00:16.84,0:00:17.75,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ESPN SAYS NO,
+Dialogue: 0,0:00:17.75,0:00:18.14,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BECAUSE HE
+Dialogue: 0,0:00:18.14,0:00:18.58,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}DIDN'T USE
+Dialogue: 0,0:00:18.58,0:00:19.39,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FORCE OR FULLY
+Dialogue: 0,0:00:19.39,0:00:20.01,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}EXTEND HIS ARM.
+Dialogue: 0,0:00:20.01,0:00:20.51,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BUT THE LEAGUE'S
+Dialogue: 0,0:00:20.51,0:00:21.04,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}OWN EXAMPLES
+Dialogue: 0,0:00:21.04,0:00:21.71,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ARE JAYLEN BROWN
+Dialogue: 0,0:00:21.71,0:00:22.48,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SHOVING KELLY OUBRE
+Dialogue: 0,0:00:22.48,0:00:22.96,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN THE CHEST,
+Dialogue: 0,0:00:22.96,0:00:23.41,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND RJ
+Dialogue: 0,0:00:23.41,0:00:23.98,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BARRETT KNOCKING
+Dialogue: 0,0:00:23.98,0:00:24.93,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}EVAN MOBLEY BACKWARD.
+Dialogue: 0,0:00:24.93,0:00:25.54,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BOTH ARE FOULS
+Dialogue: 0,0:00:25.54,0:00:25.87,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NOW.
+Dialogue: 0,0:00:25.87,0:00:26.23,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SO UNDER
+Dialogue: 0,0:00:26.23,0:00:26.81,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE NEW RULE,
+Dialogue: 0,0:00:26.81,0:00:27.35,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}JORDAN'S SHOT
+Dialogue: 0,0:00:27.35,0:00:27.82,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IS CLEAN,
+Dialogue: 0,0:00:27.82,0:00:28.61,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BUT JAYLEN BROWN'S
+Dialogue: 0,0:00:28.61,0:00:29.10,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ISN'T.

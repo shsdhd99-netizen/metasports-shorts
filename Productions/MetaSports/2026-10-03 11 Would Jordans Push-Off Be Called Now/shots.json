@@ -2,7 +2,8 @@
  {
   "clip": "V01_jordan_vs_russell.mp4",
   "start": 0.0,
-  "why": "Jordan isolates Bryon Russell, 1998 Finals Game 6, final 40 s (Jazz in white, Bulls in red). Start on the crossover, so the first frame already has motion."
+  "why": "Jordan isolates Bryon Russell, 1998 Finals Game 6, final 40 s (Jazz in white, Bulls in red). Start on the crossover, so the first frame already has motion.",
+  "zoom": 0.12
  },
  {
   "clip": "V02_jordan_shot_falls.mp4",
@@ -67,6 +68,11 @@
  {
   "clip": "V12_jaylen_brown_sixers_loop.mp4",
   "start": 27.82,
-  "why": "Jaylen Brown in a Sixers jersey (media day or scrimmage) for 1 s, THEN a 0.3 s freeze on the first frame of V01 so the Short loops back into its opening."
+  "why": "Jaylen Brown dribble (NBA example video)"
+ },
+ {
+  "clip": "V12b_loop.mp4",
+  "start": 28.72,
+  "why": "0.4s of the opening shot so the Short loops"
  }
 ]
