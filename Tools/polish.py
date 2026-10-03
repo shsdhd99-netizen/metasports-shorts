@@ -112,7 +112,7 @@ def main():
     rel = lambda p: os.path.relpath(p, F).replace("\\", "/")
     vf = f"subtitles='captions.ass':fontsdir='{rel(os.path.join(HERE, 'fonts'))}'"
     tmp = os.path.join(F, "_polish_tmp.mp4")
-    for enc in (["-c:v", "libx264", "-crf", "17", "-preset", "veryfast"],):
+    for enc in (["-c:v", "libx264", "-crf", "21", "-preset", "veryfast"],):
         r = subprocess.run(cmd + ["-filter_complex", f"[0:v]{vf}[vv];" + ";".join(parts), "-map", "[vv]", "-map", "[a]", "-c:a", "aac", "-b:a", "192k", *enc,
                                   "-pix_fmt", "yuv420p", "-movflags", "+faststart", tmp], cwd=F, capture_output=True, text=True)
         if r.returncode:
