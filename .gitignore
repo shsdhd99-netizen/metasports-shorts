@@ -36,3 +36,10 @@ Productions/**/_claude_build/
 !Productions/MetaSports/2026-09-28 01 Why LeBron Took a 92 Pay Cut/_broll_src/*.mp4
 !Productions/MetaSports/2026-09-28 01 Why LeBron Took a 92 Pay Cut/_claude_v3/clips/*.mp4
 !Productions/MetaSports/2026-09-28 01 Why LeBron Took a 92 Pay Cut/_claude_v3/shots_src/*.png
+
+# finished Shorts built in the cloud (small, upload-ready)
+!Productions/**/READY TO POST*.mp4
+!Productions/**/_claude_v4/clips/*.mp4
+!Productions/**/_claude_v4/shots_src/*.png
+!Productions/**/_claude_v4/storyboard.jpg
+!Productions/**/_claude_v4/preview_*.jpg
