@@ -168,7 +168,11 @@ def finish(folder, raw, final, total, style, music=None, music_db=-21.0, music_s
     import re as _re
     found = _re.findall(r"I:\s+(-?[\d.]+) LUFS", meas)
     lift = max(-6.0, min(18.0, -14.0 - float(found[-1]))) if found else 0.0
-    tail = f"volume={lift:.2f}dB,alimiter=limit=0.891:attack=3:release=60:level=disabled"
+    # Lift the VOICE to -14 LUFS first, then mix effects and music under it. (Lifting the finished mix instead made every effect
+    # louder than a quiet voice: the "vine boom ruins it" bug.) Effect gains below are therefore relative to a loud voice.
+    tail = "alimiter=limit=0.891:attack=3:release=60:level=disabled"
+    parts.append(f"[0:a]volume={lift:.2f}dB[vlift]")
+    labels[0] = "[vlift]"
     if music:
         ms0 = pick_music_start(music, total) if music_start is None else float(music_start)
         cmd += ["-ss", f"{ms0:.2f}", "-i", music]
@@ -176,7 +180,7 @@ def finish(folder, raw, final, total, style, music=None, music_db=-21.0, music_s
         # music sits well under the voice and ducks a further few dB whenever the voice speaks; fades in and out
         parts.append(f"[{mi}:a]aformat=sample_rates=48000:channel_layouts=stereo,atrim=0:{total:.2f},afade=t=in:d=0.4,"
                      f"afade=t=out:st={max(0.0, total - 1.6):.2f}:d=1.6,volume={music_db}dB[mus0]")
-        parts.append("[0:a]asplit=2[vk][vmix]")
+        parts.append("[vlift]asplit=2[vk][vmix]")
         parts.append("[mus0][vk]sidechaincompress=threshold=0.03:ratio=4:attack=20:release=300[mus]")
         labels = ["[vmix]"] + labels[1:] + ["[mus]"]
         tail = "loudnorm=I=-14:TP=-1.5:LRA=7,alimiter=limit=0.891:attack=3:release=60:level=disabled"  # keep the whole mix at -14 LUFS
@@ -184,7 +188,7 @@ def finish(folder, raw, final, total, style, music=None, music_db=-21.0, music_s
     if len(labels) > 1:
         parts.append("".join(labels) + f"amix=inputs={len(labels)}:normalize=0:duration=first,{tail}[a]")
     else:
-        parts.append(f"[0:a]{tail}[a]")
+        parts.append(f"[vlift]{tail}[a]")
     amap = ["-map", "[a]", "-c:a", "aac", "-b:a", "192k"]
     fc = f"[0:v]{vf}[v]" + (";" + ";".join(parts) if parts else "")
     tmp = os.path.join(folder, "_final_tmp.mp4")
@@ -203,7 +207,7 @@ def finish(folder, raw, final, total, style, music=None, music_db=-21.0, music_s
     if os.path.exists(final):
         os.remove(final)
     os.replace(tmp, final)
-    print(f"  captions burned ({style}) + {len(fx)} sound effect(s), loudness lifted {lift:+.1f} dB to about -14 LUFS")
+    print(f"  captions burned ({style}) + {len(fx)} sound effect(s), voice lifted {lift:+.1f} dB to -14 LUFS, effects mixed under it")
     for n, at in enumerate((total * 0.2, total * 0.5, total * 0.8), 1):
         subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", f"{at:.2f}", "-i", final, "-frames:v", "1",
                         "-q:v", "3", os.path.join(folder, f"preview_{n}.jpg")])
