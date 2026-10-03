@@ -184,6 +184,46 @@ def finish(folder, raw, final, total, style):
         pass
 
 
+def ffmpeg_engine(folder, voice, shots, clips, ins, total, a):
+    """No Drift (Linux/cloud): trim + scale/crop each shot with ffmpeg, concat, mux the voice, then finish()."""
+    tmp = os.path.join(folder, "_shots_tmp")
+    os.makedirs(tmp, exist_ok=True)
+    parts = []
+    k = 0
+    for i, (start, end) in enumerate(shots):
+        clip = clips[i % len(clips)]
+        offset = ins[i] if i < len(ins) else 0.0
+        want = end - start
+        still = clip.lower().endswith((".jpg", ".jpeg", ".png"))
+        vf = f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},setsar=1,fps=30,format=yuv420p"
+        out = os.path.join(tmp, f"s{k:03d}.mp4")
+        if still:
+            cmd = ["ffmpeg", "-y", "-loglevel", "error", "-loop", "1", "-t", f"{want:.3f}", "-i", clip, "-vf", vf]
+        else:
+            cmd = ["ffmpeg", "-y", "-loglevel", "error", "-ss", f"{offset:.3f}", "-stream_loop", "-1", "-i", clip, "-t", f"{want:.3f}", "-vf", vf]
+        r = subprocess.run(cmd + ["-an", "-c:v", "libx264", "-crf", "16", "-preset", "veryfast", out], capture_output=True, text=True)
+        if r.returncode:
+            raise SystemExit(f"ffmpeg could not cut shot {i + 1} ({os.path.basename(clip)}): {r.stderr[-300:]}")
+        parts.append(out)
+        k += 1
+    lst = os.path.join(tmp, "list.txt")
+    open(lst, "w").write("".join(f"file '{p}'\n" for p in parts))
+    raw = os.path.join(folder, "final_nocap.mp4")
+    inputs = ["-f", "concat", "-safe", "0", "-i", lst, "-i", voice]
+    r = subprocess.run(["ffmpeg", "-y", "-loglevel", "error", *inputs, "-map", "0:v", "-map", "1:a", "-c:v", "copy",
+                        "-c:a", "aac", "-b:a", "192k", "-t", f"{total:.3f}", raw], capture_output=True, text=True)
+    if r.returncode:
+        raise SystemExit(f"ffmpeg concat failed: {r.stderr[-300:]}")
+    final = os.path.join(folder, "final.mp4")
+    if a.captions == "burn":
+        finish(folder, raw, final, total, a.caption_style)
+    else:
+        os.replace(raw, final)
+    import shutil
+    shutil.rmtree(tmp, ignore_errors=True)
+    print(f"Done: {final} ({duration(final):.1f}s)")
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--folder", required=True)
@@ -219,6 +259,10 @@ def main():
         ins = [0.0] * len(shots)
     print(f"Voice {total:.1f}s -> {len(shots)} shots from {len(set(clips))} clips")
 
+    if not os.path.exists(DRIFT):
+        print("Drift not found: using the ffmpeg engine")
+        ffmpeg_engine(folder, voice, shots, clips, ins, total, a)
+        return
     d = Drift()
     try:
         d.text("new_project")

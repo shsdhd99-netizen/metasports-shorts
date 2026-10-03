@@ -17,6 +17,8 @@ OFFICIAL = {"NBA", "ESPN", "House of Highlights", "Bleacher Report", "NBA on TNT
             "Oklahoma City Thunder", "Dallas Mavericks", "Boston Celtics", "Golden State Warriors", "Cleveland Cavaliers",
             "NBA on Prime", "NBC Sports", "ClutchPoints", "Sports Illustrated", "The Athletic", "Yahoo Sports"}
 FONT = "C\\:/Windows/Fonts/arialbd.ttf"
+if not os.path.exists("C:/Windows/Fonts/arialbd.ttf"):  # Linux: bundled font
+    FONT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "fonts", "Montserrat-Bold.ttf")
 
 
 def src(s):
