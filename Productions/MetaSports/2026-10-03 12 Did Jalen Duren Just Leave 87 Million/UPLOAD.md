@@ -4,13 +4,12 @@
 
 ## Title (pick one)
 1. **Did Jalen Duren Just Leave $87 Million? 😳**  (recommended: question, name first, the number)
-2. Duren Skipped Camp Over $87 Million 🤔
-3. Was Duren Right To Sign For $200M? 🤔
+2. Duren Skipped Camp Over $87 Million 😳
+3. Was Duren Right To Sign For $200M? 😳
 
-## Description (2 lines)
-Jalen Duren skipped media day and camp, then signed the Pistons' 5-year, $200 million deal instead of the $287 million max he wanted, $87 million less. His other option was a one-year, $9.6 million qualifying offer.
 
-Jalen Duren, Pistons, contract, $200 million, NBA, 2026-27 season
+## Tags (488/500 characters, paste as one line)
+jalen duren, jalen duren contract, jalen duren pistons, detroit pistons, duren 200 million, duren extension, duren holdout, weight clause, pistons contract, qualifying offer, restricted free agency, nba contract news, cade cunningham, trajan langdon, nba 2026-27, nba news, nba shorts, basketball shorts, jalen duren news, jalen duren highlights, pistons 2026, pistons news, nba offseason 2026, nba extension, nba max contract, nba contract holdout, 5 year 200 million, nba preseason 2026
 
 ## Pinned comment
 Duren is 22 and just made All-NBA. Smart to lock $200 million, or should he have bet on himself? Which is it?

@@ -3,12 +3,13 @@
 **Video:** `READY TO POST - Is Kawhi Worth All Those Picks (Claude cut).mp4` (24 s, ALL CAPS captions: the A/B test against the LeBron Short's Clank captions). Not uploaded.
 
 ## Title (pick one)
-1. **Is Kawhi Worth All Those Picks? 🤔** (recommended: 6 words, a question, a name people search this week)
-2. Did Toronto Overpay For Kawhi? 🤔
+1. **Is Kawhi Worth All Those Picks? 😳** (recommended: 6 words, a question, a name people search this week)
+2. Did Toronto Overpay For Kawhi? 😳
 3. Why Did Toronto Pay This Much For Kawhi? 😳
 
-## Description
-The Clippers gave up ten first-round picks for Kawhi Leonard. Toronto just sent Brandon Ingram, Gradey Dick, two unprotected firsts, a pick swap and two seconds to bring him back, while the NBA took five first-round picks, fined the Clippers $30 million and suspended owner Steve Ballmer for a year.
+
+## Tags (488/500 characters, paste as one line)
+kawhi leonard, kawhi leonard raptors, kawhi raptors trade, kawhi returns to toronto, clippers kawhi investigation, clippers penalties, clippers first round picks, steve ballmer suspended, brandon ingram, gradey dick, toronto raptors, scottie barnes, nba trade 2026, nba news, nba salary cap, nba 2026-27, nba shorts, basketball shorts, kawhi leonard news, kawhi leonard highlights, kawhi leonard 2019 championship, raptors 2026, clippers news, clippers owner suspension, nba investigation
 
 ## Pinned comment
 Is Toronto buying a championship or paying for 2019?

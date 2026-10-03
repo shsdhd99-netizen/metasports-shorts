@@ -146,13 +146,19 @@ def pick_music_start(path, total):
     return float(at)
 
 
-def finish(folder, raw, final, total, style, music=None, music_db=-21.0, music_start=None):
+def finish(folder, raw, final, total, style, music=None, music_db=-21.0, music_start=None, hook_text=None):
     """Burn MetaSports captions and mix sound effects in one ffmpeg pass, then previews + storyboard."""
     sys.path.insert(0, HERE)
     import captions
     ass, _ = captions.build(folder, style, total)
     fx = sfx_inputs(folder, total)
     vf = captions.filter_arg(ass, folder)
+    if hook_text:  # big headline in the first ~2 s (curiosity gap), pops in over 0.15 s; "|" starts a new line
+        font = os.path.join(HERE, "fonts", "Montserrat-Black.ttf").replace("\\", "/").replace(":", "\\:")
+        for n, line in enumerate(l.strip() for l in hook_text.split("|")):
+            esc = line.replace("\\", "\\\\").replace("'", "\u2019").replace(":", "\\:").replace("%", "\\%")
+            vf += (f",drawtext=fontfile='{font}':text='{esc}':fontsize=104:fontcolor=white:borderw=9:bordercolor=black"
+                   f":x=(w-text_w)/2:y={int(H * 0.15) + n * 120}:enable='between(t,0,2.1)':alpha='min(1,t/0.15)'")
     cmd = ["ffmpeg", "-y", "-loglevel", "error", "-i", raw]
     parts, labels = [], ["[0:a]"]
     for k, (path, at, gain, fade, ln) in enumerate(fx, 1):
@@ -231,6 +237,8 @@ def ffmpeg_engine(folder, voice, shots, clips, ins, total, a, zooms=()):
         still = clip.lower().endswith((".jpg", ".jpeg", ".png"))
         vf = f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},setsar=1,fps=30,format=yuv420p"
         z = float(zooms[i]) if i < len(zooms) and zooms[i] else 0.0
+        if not z and getattr(a, "auto_zoom", 0) and not still and not os.path.basename(clip).lower().startswith(("c", "p_")):
+            z = float(a.auto_zoom)  # gentle push-in on footage so no shot ever sits still (pattern interrupt)
         if z:  # punch-in: slow push from 100% to 100+z% over the shot (shots.json "zoom": 0.12), a pattern interrupt for hooks
             vf = (f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},fps=30,"
                   f"scale=w='trunc({W}*(1+{z}*t/{max(want, 0.1):.3f})/2)*2':h='trunc({H}*(1+{z}*t/{max(want, 0.1):.3f})/2)*2':eval=frame,"
@@ -255,7 +263,7 @@ def ffmpeg_engine(folder, voice, shots, clips, ins, total, a, zooms=()):
         raise SystemExit(f"ffmpeg concat failed: {r.stderr[-300:]}")
     final = os.path.join(folder, a.out_name)
     if a.captions == "burn":
-        finish(folder, raw, final, total, a.caption_style, music=a.music, music_db=a.music_db, music_start=a.music_start)
+        finish(folder, raw, final, total, a.caption_style, music=a.music, music_db=a.music_db, music_start=a.music_start, hook_text=a.hook_text or (open(os.path.join(folder, "hook.txt"), encoding="utf-8").read().strip() if os.path.exists(os.path.join(folder, "hook.txt")) else None))
     else:
         os.replace(raw, final)
     import shutil
@@ -269,6 +277,8 @@ def main():
     ap.add_argument("--music", help="optional music file, kept quiet and ducked under the voice")
     ap.add_argument("--music-db", dest="music_db", type=float, default=-21.0, help="music level under the voice, dB (default -21)")
     ap.add_argument("--music-start", dest="music_start", type=float, default=None, help="second of the track to start from (default: loudest steady stretch)")
+    ap.add_argument("--hook-text", dest="hook_text", default=None, help='big headline over the first 2 s, e.g. "$87M GONE?" ("|" = new line); or put it in hook.txt')
+    ap.add_argument("--auto-zoom", dest="auto_zoom", type=float, default=0.0, help="slow push-in on every footage shot, e.g. 0.06")
     ap.add_argument("--out-name", dest="out_name", default="final.mp4", help="output file name inside the folder")
     ap.add_argument("--captions", default="burn", help="burn (MetaSports look, default) or a Drift preset: subtitle, caption, hormozi, one-word-color")
     ap.add_argument("--caption-style", default="metasports", help="for --captions burn: metasports (old Shorts look) or clank")

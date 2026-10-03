@@ -4,15 +4,14 @@
 
 ## Title (pick one)
 1. **Why LeBron Took a 92% Pay Cut? 😳**  (recommended: 6 words, a question, "Why" opener, number up front)
-2. Would You Take LeBron's 92% Pay Cut? 🤔  (7 words, speaks to the viewer, built for comments)
+2. Would You Take LeBron's 92% Pay Cut? 😳  (7 words, speaks to the viewer, built for comments)
 3. Why Did LeBron Take A 92% Pay Cut? 😳
 
 Why #1: question titles got 847K vs 480K median on CoachClank's 432 Shorts, 6-7 words is the best length, and "LeBron" + "92%" are both search terms for a story that is trending this week. No hashtags in the title, no ALL-CAPS words.
 
-## Description (first line is what shows; keep it to 2 lines)
-LeBron James went from $52.6 million with the Lakers to $3.9 million with the Sixers, a 92% pay cut, so Philadelphia can keep Embiid, Maxey and Jaylen Brown together.
 
-LeBron James, Sixers, Lakers, NBA, pay cut, 2026-27 season
+## Tags (486/500 characters, paste as one line)
+lebron james, lebron james sixers, lebron 76ers, lebron james pay cut, lebron james contract, lebron james salary, lebron 24th season, lebron smartest move, philadelphia 76ers, jaylen brown, tyrese maxey, joel embiid, nba free agency 2026, nba news, nba contract, nba salary cap, nba 2026-27, nba shorts, basketball shorts, lebron james news, lebron james highlights, sixers 2026, nba offseason 2026, nba trade rumors, lebron james championship, lebron james career, nba stars contracts
 
 ## Pinned comment (post it, then pin it)
 Win a ring and it's genius. Lose, and he gave away $49 million. Which is it?
@@ -24,8 +23,6 @@ Three covers are in this folder, same frame (LeBron in the Sixers #23 jersey, BR
 - `cover_C.png` "$49M GONE?"
 Upload A. If it is under-performing after 48 hours, swap to C and compare.
 
-## Tags (optional, they barely matter)
-lebron james, lebron 76ers, lebron pay cut, sixers, lakers, nba 2026
 
 ## Settings
 - Not made for kids · Category: Sports · Altered/synthetic content: No (AI narrator, real footage).

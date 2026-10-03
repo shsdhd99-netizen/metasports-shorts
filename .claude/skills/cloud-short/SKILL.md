@@ -18,6 +18,12 @@ If a site is blocked (403 from the proxy), tell the user to set the environment'
 Installs python packages, makes Chromium trust the proxy certificate, copies the voice id. Checks the four sites. Then read
 `MetaSports - Playbook.md`, `Tools/data/title_patterns.md`, `Research Notes/Round 3 - Deeper Findings.md` (they win over this file).
 
+## What the data says (Round 4, `Research Notes/Round 4 - Cloud Research (Oct 3, 2026).md`; read it)
+- Best lane: **rules, bans, 'caught'/referee stories and one-second oddities** (REBOUND's rule/ban Shorts median 7.7M vs 775K overall). Contracts/trades are flat; use them only with a rule, a number gap or a funny detail as the hook.
+- Titles 5-7 words, one emoji at the end. Avoid 🤔 (worst in the data); prefer 😳 💀 😭. Start with Why/How/What/Did/Is or "He ...".
+- Every Short must add original value (research, an opinion line, verified numbers), never a repeated template: YouTube's inauthentic-content policy.
+- Optional visual flags: `--hook-text "NUMBER|HOOK?"` (headline over the first 2 s) and `--auto-zoom 0.06`; A/B them, don't assume.
+
 ## 1. Research (this is where views come from; do real research, never invent)
 - `python Tools/fresh_moments.py` for what is hot. Use WebSearch for the last 7 days: "NBA <player/team> <week>", media day, training camp,
   rule changes, contracts, records. Prefer stories with a number, a rule, a petty detail or a "that would not be allowed now" angle.
@@ -68,14 +74,14 @@ then `python Tools/assemble.py --folder "<folder>" [--caption-style clank|metasp
 
 ## 7. Upload package (`UPLOAD.md`, template: `Productions/MetaSports/2026-09-28 01 Why LeBron Took a 92 Pay Cut/_claude_v4/UPLOAD.md`)
 Title: 3 options, 4-7 words, a question, number or name first, 1 emoji, no hashtags, no ALL-CAPS words, matches words people search that week.
-Description: 2 lines (what happened + the numbers) plus a short keyword line. Pinned comment: the two-sided argument. Covers: `python Tools/thumb.py --shape short`
+NO description (the user doesn't use one). Tags: 25-30 comma-separated search tags, 440-490 characters total (YouTube's limit is 500): people, teams, the rule/event, season, 'nba shorts, basketball shorts'. Pinned comment: the two-sided argument. Covers: `python Tools/thumb.py --shape short`
 x3 (one-line number hook; keep the face visible; use single quotes around text with $). Post time 6-11 AM ET; write down the go-live time.
 
 ## 7b. Add it to the phone app (the user is often on mobile)
 The user's Shorts Hub is a claude.ai artifact: https://claude.ai/artifact/EZrk8n855PyYpMFnMnMJd4 (database collection `shorts`, one doc per Short).
 1. Make a 720p preview: `ffmpeg -i final.mp4 -c:v libx264 -crf 25 -preset veryfast -vf scale=720:-2 -c:a aac -b:a 128k -movflags +faststart prev.mp4` (about 4 MB).
 2. Upload it: `Artifact` tool, `url` = the hub URL, `asset: true`, `file_path` = prev.mp4. The result gives an asset id.
-3. Write the doc with the `ArtifactData` tool (action `set`, collection `shorts`, doc_id like `s14-topic`): `{num, name, title, status: "ready"|"footage"|"posted", versions:[{label, assetId, note}], titles:[...], description, pinned, postNote}`. For a Short still waiting on footage use status `footage` and `about` instead of versions; later `update` it to `ready` with the video.
+3. Write the doc with the `ArtifactData` tool (action `set`, collection `shorts`, doc_id like `s14-topic`): `{num, name, title, status: "ready"|"footage"|"posted", versions:[{label, assetId, note}], covers:[{label, assetId}], titles:[...], tags, pinned, postNote} (no description). Upload full 1080p (under 20 MB each; re-encode with -crf 24 if larger) so the app's Download button gives the real file. Ideas go in collection `ideas` ({rank, name, lane, checked, title, hook, facts, footage, pinned})`. For a Short still waiting on footage use status `footage` and `about` instead of versions; later `update` it to `ready` with the video.
 4. Never delete other docs. The page updates live; no republish needed.
 
 ## 8. Deliver: commit + push to the session branch (Productions/** is allow-listed in .gitignore for READY TO POST files and _claude_v4), send the mp4 + cover + UPLOAD.md to the user with SendUserFile.
