@@ -184,7 +184,7 @@ def finish(folder, raw, final, total, style):
         pass
 
 
-def ffmpeg_engine(folder, voice, shots, clips, ins, total, a):
+def ffmpeg_engine(folder, voice, shots, clips, ins, total, a, zooms=()):
     """No Drift (Linux/cloud): trim + scale/crop each shot with ffmpeg, concat, mux the voice, then finish()."""
     tmp = os.path.join(folder, "_shots_tmp")
     os.makedirs(tmp, exist_ok=True)
@@ -196,6 +196,11 @@ def ffmpeg_engine(folder, voice, shots, clips, ins, total, a):
         want = end - start
         still = clip.lower().endswith((".jpg", ".jpeg", ".png"))
         vf = f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},setsar=1,fps=30,format=yuv420p"
+        z = float(zooms[i]) if i < len(zooms) and zooms[i] else 0.0
+        if z:  # punch-in: slow push from 100% to 100+z% over the shot (shots.json "zoom": 0.12), a pattern interrupt for hooks
+            vf = (f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},fps=30,"
+                  f"scale=w='trunc({W}*(1+{z}*t/{max(want, 0.1):.3f})/2)*2':h='trunc({H}*(1+{z}*t/{max(want, 0.1):.3f})/2)*2':eval=frame,"
+                  f"crop={W}:{H},setsar=1,format=yuv420p")
         out = os.path.join(tmp, f"s{k:03d}.mp4")
         if still:
             cmd = ["ffmpeg", "-y", "-loglevel", "error", "-loop", "1", "-t", f"{want:.3f}", "-i", clip, "-vf", vf]
@@ -251,17 +256,19 @@ def main():
         shots = [(starts[i], starts[i + 1]) for i in range(len(plan)) if starts[i + 1] > starts[i]]
         clips = [os.path.join(clips_dir, p["clip"]) for p in plan]
         ins = [float(p.get("in", 0) or 0) for p in plan]
+        zooms = [float(p.get("zoom", 0) or 0) for p in plan]
         missing = [os.path.basename(c) for c in clips if not os.path.exists(c)]
         if missing:
             raise SystemExit(f"shots.json names clips that aren't in the clips folder: {', '.join(missing)}")
     else:
         shots = shot_plan(json.load(open(words_p, encoding="utf-8")), total)
         ins = [0.0] * len(shots)
+        zooms = []
     print(f"Voice {total:.1f}s -> {len(shots)} shots from {len(set(clips))} clips")
 
     if not os.path.exists(DRIFT):
         print("Drift not found: using the ffmpeg engine")
-        ffmpeg_engine(folder, voice, shots, clips, ins, total, a)
+        ffmpeg_engine(folder, voice, shots, clips, ins, total, a, zooms)
         return
     d = Drift()
     try:

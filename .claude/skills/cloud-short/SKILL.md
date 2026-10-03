@@ -35,6 +35,15 @@ Installs python packages, makes Chromium trust the proxy certificate, copies the
 - Spell numbers the voice might misread as `{$200 million|two hundred million dollars}`; hard names `{Maxey|Max-ee}`.
 - Save `Productions/MetaSports/<date> NN <Title>/script.txt` (ONLY the spoken words, one paragraph) and `notes.md` (facts with links, titles, pin, warnings).
 
+### The first 3 seconds decide everything (apply to every Short; viewers swipe in 1-3 s)
+- **The number, name or stakes is the FIRST word**, spoken and on screen at 0.0 s ("92% pay cut. LeBron James just took one..."). Never open on "So" / "Did you know" / a setup sentence.
+- **Frame 1 is already moving or already a face**: real action or a close face, never a title card, logo or a still. Punch in: put `"zoom": 0.12` on the first shot in shots.json (slow push 100% to 112%).
+- **A new image about every second until 5 s** (cut, push-in or card), then every 1.5-2.5 s. Hook shots are real footage of the named player/moment; save screenshot cards for the fact lines after 4 s.
+- **A sound on the hook word**: one `boom` (gain -12) at 0.0 on the number. Whoosh only for a jump to a card.
+- The line after the hook must be a payoff promise or a turn ("and it might be the smartest move of his career"), not background.
+- Check: extract frames at 0.05, 0.6, 1.1, 1.5, 2.1, 2.8, 3.5, 4.4 s with ffmpeg and look at them side by side. If two neighbours look alike, add a cut.
+- After posting, read YouTube Studio's "Viewed vs Swiped Away" at 24 h: 70%+ is good, under 60% means rewrite the first 2 seconds.
+
 ## 3. Voice: `python Tools/voiceover.py --script "<folder>/script.txt"` then `python Tools/voice_check.py --folder "<folder>"`.
 Same ElevenLabs voice always. Spoken-out numbers ("fifty-two million dollars") are false alarms for the checker; redo only clearly bad takes.
 Gives voice.mp3, words.json (word times) and captions.srt. All shot timing comes from words.json.
