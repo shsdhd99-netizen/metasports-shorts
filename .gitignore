@@ -43,3 +43,4 @@ Productions/**/_claude_build/
 !Productions/**/_claude_v4/shots_src/*.png
 !Productions/**/_claude_v4/storyboard.jpg
 !Productions/**/_claude_v4/preview_*.jpg
+!Productions/**/_claude_v4/cover_*.png

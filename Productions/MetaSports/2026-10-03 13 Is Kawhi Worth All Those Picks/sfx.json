@@ -1,0 +1,20 @@
+[
+ {
+  "sfx": "click",
+  "at": 7.7,
+  "gain": -10,
+  "why": "trade-terms card appears"
+ },
+ {
+  "sfx": "click",
+  "at": 13.7,
+  "gain": -10,
+  "why": "ESPN picks card appears"
+ },
+ {
+  "sfx": "cha_ching",
+  "at": 16.3,
+  "gain": -15,
+  "why": "$30 million fine card"
+ }
+]

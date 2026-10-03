@@ -1,0 +1,26 @@
+[
+ {
+  "sfx": "click",
+  "at": 2.6,
+  "gain": -10,
+  "why": "card appears"
+ },
+ {
+  "sfx": "cha_ching",
+  "at": 6.35,
+  "gain": -15,
+  "why": "$200 million contract card"
+ },
+ {
+  "sfx": "click",
+  "at": 10.0,
+  "gain": -10,
+  "why": "max-contract card appears"
+ },
+ {
+  "sfx": "ding",
+  "at": 22.8,
+  "gain": -17,
+  "why": "he signs"
+ }
+]
