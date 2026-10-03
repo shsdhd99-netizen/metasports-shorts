@@ -18,35 +18,24 @@ def vid_id(s):
 
 
 def frames(video):
-    """-> (list of PNG paths in time order, seconds per frame, duration)"""
-    tmp = tempfile.mkdtemp(prefix="ytsb-")
-    r = subprocess.run(["yt-dlp", "-q", "--no-warnings", "--extractor-args", CLIENTS, "-f", "sb0", "--print", "duration", "--no-simulate",
-                        "-o", os.path.join(tmp, "sb.%(ext)s"), "https://www.youtube.com/watch?v=" + video],
-                       capture_output=True, text=True)
-    dur = float((r.stdout.strip().splitlines() or ["0"])[-1] or 0)
-    files = glob.glob(os.path.join(tmp, "sb.*"))
-    if not files:
-        raise SystemExit("No preview frames: " + (r.stderr or "")[-300:])
-    msg = email.message_from_binary_file(open(files[0], "rb"), policy=policy.default)
-    pngs, k = [], 0
-    for part in msg.walk():
-        if part.get_content_type().startswith("image"):
-            src = os.path.join(tmp, f"s{k}.webp")
-            open(src, "wb").write(part.get_payload(decode=True))
-            out = os.path.join(tmp, f"s{k}.png")
-            subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", src, out])
-            if os.path.exists(out):
-                pngs.append(out)
-            k += 1
+    """-> (list of 160x90 PIL frames in time order, seconds per frame, duration)"""
+    import json, urllib.request
     from PIL import Image
+    r = subprocess.run(["yt-dlp", "-q", "--no-warnings", "--extractor-args", CLIENTS, "-f", "sb0", "-J",
+                        "https://www.youtube.com/watch?v=" + video], capture_output=True, text=True)
+    try:
+        info = json.loads(r.stdout)
+        fmt = [f for f in info["formats"] if f["format_id"] == "sb0"][0]
+    except Exception:
+        raise SystemExit("No preview frames: " + (r.stderr or "")[-300:])
+    dur = float(info.get("duration") or 0)
     tiles = []
-    for p in pngs:  # each sheet is a 5x5 grid of 160x90 frames
-        im = Image.open(p).convert("RGB")
-        cols, rows = im.width // 160, im.height // 90
-        for y in range(rows):
-            for x in range(cols):
+    for fr in fmt["fragments"]:  # each is a 5x5 sheet of 160x90 frames (WebP)
+        data = urllib.request.urlopen(fr["url"], timeout=60).read()
+        im = Image.open(io.BytesIO(data)).convert("RGB")
+        for y in range(im.height // 90):
+            for x in range(im.width // 160):
                 tiles.append(im.crop((x * 160, y * 90, x * 160 + 160, y * 90 + 90)))
-    # drop empty trailing tiles
     while tiles and not tiles[-1].getbbox():
         tiles.pop()
     step = dur / len(tiles) if tiles and dur else 1.0
