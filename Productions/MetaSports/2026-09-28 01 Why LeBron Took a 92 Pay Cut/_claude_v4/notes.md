@@ -1,0 +1,8 @@
+# #1 LeBron v4: what I did and why (2026-10-03)
+
+**Script changes (CoachClank playbook):** kept the claim opener (92% pay cut) and the "You see" turn at 4 s (first fifth of the Short). Cut the flat "fraction of what he used to make" line. Replaced the ending (a quote, nothing to argue about) with a two-sided argument: "So win it, and he's a genius. Lose, and he just gave away nearly $49 million for nothing." That gives the comments something to fight over. Length 25.2 s, 96 words.
+**Retention:** a new visual every 1-2 s (17 shots), a named player on every name, and fact cards held to ~1.2 s each so nothing sits still.
+**Cards:** rebuilt from live Basketball-Reference and ESPN pages (red boxes timed to the words) and moved to the top 12-20% of the frame, so the centred captions never cover them. ESPN text is pushed in so it reads on a phone.
+**Captions:** CoachClank look (white sentence case, centred, soft shadow) per the playbook spec. I could not pull real CoachClank frames to re-confirm (YouTube blocks cloud downloads), so this rests on the spec's earlier frame analysis. The three new Shorts use ALL CAPS, so this is the A/B test.
+**Voice:** same ElevenLabs voice; check passed (the "Maxey" note is the correct spoken form). Facts: $52,627,153 (2025-26 Lakers) and $3,876,529 (2026-27 Sixers) from Basketball-Reference, 4x MVP, ESPN quote, "record-breaking 24th season". Gap = $48.75M, "nearly $49 million".
+**Known weakness:** the closing "lose" line reuses the two salary cards (no new footage, YouTube blocked in the cloud). If you want a stronger last shot, swap in a LeBron-looks-dejected clip on "Lose" (22.06 s).

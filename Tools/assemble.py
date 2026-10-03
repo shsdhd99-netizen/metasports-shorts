@@ -128,7 +128,25 @@ def sfx_inputs(folder, total):
     return out
 
 
-def finish(folder, raw, final, total, style):
+def pick_music_start(path, total):
+    """Start (whole seconds) of the loudest steady stretch of the track, skipping quiet intros: mean loudness of every window."""
+    import numpy as np
+    raw = subprocess.run(["ffmpeg", "-v", "error", "-i", path, "-ac", "1", "-ar", "8000", "-f", "s16le", "-"], capture_output=True).stdout
+    x = np.frombuffer(raw, dtype=np.int16).astype(np.float32) / 32768.0
+    secs = len(x) // 8000
+    if secs < int(total) + 4:
+        return 0.0
+    db = np.array([20 * np.log10(np.sqrt(np.mean(x[i * 8000:(i + 1) * 8000] ** 2)) + 1e-6) for i in range(secs)])
+    n = int(total) + 1
+    best, at = -1e9, 0
+    for i in range(2, secs - n):
+        m = db[i:i + n].mean() - 0.5 * db[i:i + n].std()  # loud AND steady
+        if m > best:
+            best, at = m, i
+    return float(at)
+
+
+def finish(folder, raw, final, total, style, music=None, music_db=-21.0, music_start=None):
     """Burn MetaSports captions and mix sound effects in one ffmpeg pass, then previews + storyboard."""
     sys.path.insert(0, HERE)
     import captions
@@ -151,7 +169,19 @@ def finish(folder, raw, final, total, style):
     found = _re.findall(r"I:\s+(-?[\d.]+) LUFS", meas)
     lift = max(-6.0, min(18.0, -14.0 - float(found[-1]))) if found else 0.0
     tail = f"volume={lift:.2f}dB,alimiter=limit=0.891:attack=3:release=60:level=disabled"
-    if fx:
+    if music:
+        ms0 = pick_music_start(music, total) if music_start is None else float(music_start)
+        cmd += ["-ss", f"{ms0:.2f}", "-i", music]
+        mi = len(fx) + 1
+        # music sits well under the voice and ducks a further few dB whenever the voice speaks; fades in and out
+        parts.append(f"[{mi}:a]aformat=sample_rates=48000:channel_layouts=stereo,atrim=0:{total:.2f},afade=t=in:d=0.4,"
+                     f"afade=t=out:st={max(0.0, total - 1.6):.2f}:d=1.6,volume={music_db}dB[mus0]")
+        parts.append("[0:a]asplit=2[vk][vmix]")
+        parts.append("[mus0][vk]sidechaincompress=threshold=0.03:ratio=4:attack=20:release=300[mus]")
+        labels = ["[vmix]"] + labels[1:] + ["[mus]"]
+        tail = "loudnorm=I=-14:TP=-1.5:LRA=7,alimiter=limit=0.891:attack=3:release=60:level=disabled"  # keep the whole mix at -14 LUFS
+        print(f"  music: {os.path.basename(music)} from {ms0:.0f}s, {music_db} dB under the voice")
+    if len(labels) > 1:
         parts.append("".join(labels) + f"amix=inputs={len(labels)}:normalize=0:duration=first,{tail}[a]")
     else:
         parts.append(f"[0:a]{tail}[a]")
@@ -184,10 +214,58 @@ def finish(folder, raw, final, total, style):
         pass
 
 
+def ffmpeg_engine(folder, voice, shots, clips, ins, total, a, zooms=()):
+    """No Drift (Linux/cloud): trim + scale/crop each shot with ffmpeg, concat, mux the voice, then finish()."""
+    tmp = os.path.join(folder, "_shots_tmp")
+    os.makedirs(tmp, exist_ok=True)
+    parts = []
+    k = 0
+    for i, (start, end) in enumerate(shots):
+        clip = clips[i % len(clips)]
+        offset = ins[i] if i < len(ins) else 0.0
+        want = end - start
+        still = clip.lower().endswith((".jpg", ".jpeg", ".png"))
+        vf = f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},setsar=1,fps=30,format=yuv420p"
+        z = float(zooms[i]) if i < len(zooms) and zooms[i] else 0.0
+        if z:  # punch-in: slow push from 100% to 100+z% over the shot (shots.json "zoom": 0.12), a pattern interrupt for hooks
+            vf = (f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},fps=30,"
+                  f"scale=w='trunc({W}*(1+{z}*t/{max(want, 0.1):.3f})/2)*2':h='trunc({H}*(1+{z}*t/{max(want, 0.1):.3f})/2)*2':eval=frame,"
+                  f"crop={W}:{H},setsar=1,format=yuv420p")
+        out = os.path.join(tmp, f"s{k:03d}.mp4")
+        if still:
+            cmd = ["ffmpeg", "-y", "-loglevel", "error", "-loop", "1", "-t", f"{want:.3f}", "-i", clip, "-vf", vf]
+        else:
+            cmd = ["ffmpeg", "-y", "-loglevel", "error", "-ss", f"{offset:.3f}", "-stream_loop", "-1", "-i", clip, "-t", f"{want:.3f}", "-vf", vf]
+        r = subprocess.run(cmd + ["-an", "-c:v", "libx264", "-crf", "16", "-preset", "veryfast", out], capture_output=True, text=True)
+        if r.returncode:
+            raise SystemExit(f"ffmpeg could not cut shot {i + 1} ({os.path.basename(clip)}): {r.stderr[-300:]}")
+        parts.append(out)
+        k += 1
+    lst = os.path.join(tmp, "list.txt")
+    open(lst, "w").write("".join(f"file '{p}'\n" for p in parts))
+    raw = os.path.join(folder, "final_nocap.mp4")
+    inputs = ["-f", "concat", "-safe", "0", "-i", lst, "-i", voice]
+    r = subprocess.run(["ffmpeg", "-y", "-loglevel", "error", *inputs, "-map", "0:v", "-map", "1:a", "-c:v", "copy",
+                        "-c:a", "aac", "-b:a", "192k", "-t", f"{total:.3f}", raw], capture_output=True, text=True)
+    if r.returncode:
+        raise SystemExit(f"ffmpeg concat failed: {r.stderr[-300:]}")
+    final = os.path.join(folder, a.out_name)
+    if a.captions == "burn":
+        finish(folder, raw, final, total, a.caption_style, music=a.music, music_db=a.music_db, music_start=a.music_start)
+    else:
+        os.replace(raw, final)
+    import shutil
+    shutil.rmtree(tmp, ignore_errors=True)
+    print(f"Done: {final} ({duration(final):.1f}s)")
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--folder", required=True)
     ap.add_argument("--music", help="optional music file, kept quiet and ducked under the voice")
+    ap.add_argument("--music-db", dest="music_db", type=float, default=-21.0, help="music level under the voice, dB (default -21)")
+    ap.add_argument("--music-start", dest="music_start", type=float, default=None, help="second of the track to start from (default: loudest steady stretch)")
+    ap.add_argument("--out-name", dest="out_name", default="final.mp4", help="output file name inside the folder")
     ap.add_argument("--captions", default="burn", help="burn (MetaSports look, default) or a Drift preset: subtitle, caption, hormozi, one-word-color")
     ap.add_argument("--caption-style", default="metasports", help="for --captions burn: metasports (old Shorts look) or clank")
     ap.add_argument("--no-export", action="store_true")
@@ -211,14 +289,20 @@ def main():
         shots = [(starts[i], starts[i + 1]) for i in range(len(plan)) if starts[i + 1] > starts[i]]
         clips = [os.path.join(clips_dir, p["clip"]) for p in plan]
         ins = [float(p.get("in", 0) or 0) for p in plan]
+        zooms = [float(p.get("zoom", 0) or 0) for p in plan]
         missing = [os.path.basename(c) for c in clips if not os.path.exists(c)]
         if missing:
             raise SystemExit(f"shots.json names clips that aren't in the clips folder: {', '.join(missing)}")
     else:
         shots = shot_plan(json.load(open(words_p, encoding="utf-8")), total)
         ins = [0.0] * len(shots)
+        zooms = []
     print(f"Voice {total:.1f}s -> {len(shots)} shots from {len(set(clips))} clips")
 
+    if not os.path.exists(DRIFT):
+        print("Drift not found: using the ffmpeg engine")
+        ffmpeg_engine(folder, voice, shots, clips, ins, total, a, zooms)
+        return
     d = Drift()
     try:
         d.text("new_project")

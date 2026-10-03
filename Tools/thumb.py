@@ -13,6 +13,8 @@ import argparse, os
 from PIL import Image, ImageDraw, ImageFilter, ImageFont, ImageOps
 
 FONT = r"C:\Windows\Fonts\impact.ttf"
+if not os.path.exists(FONT):  # Linux: bundled font
+    FONT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "fonts", "Montserrat-Black.ttf")
 STYLES = {  # fill, stroke
     "yellow": ((255, 214, 0), (0, 0, 0)),
     "white": ((255, 255, 255), (0, 0, 0)),

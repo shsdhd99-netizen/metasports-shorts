@@ -1,0 +1,492 @@
+[
+ {
+  "word": "The",
+  "start": 0.0,
+  "end": 0.129
+ },
+ {
+  "word": "Clippers",
+  "start": 0.173,
+  "end": 0.465
+ },
+ {
+  "word": "gave",
+  "start": 0.508,
+  "end": 0.638
+ },
+ {
+  "word": "up",
+  "start": 0.659,
+  "end": 0.735
+ },
+ {
+  "word": "ten",
+  "start": 0.778,
+  "end": 0.929
+ },
+ {
+  "word": "first-round",
+  "start": 0.994,
+  "end": 1.351
+ },
+ {
+  "word": "picks",
+  "start": 1.384,
+  "end": 1.567
+ },
+ {
+  "word": "for",
+  "start": 1.59,
+  "end": 1.686
+ },
+ {
+  "word": "Kawhi",
+  "start": 1.74,
+  "end": 1.956
+ },
+ {
+  "word": "Leonard.",
+  "start": 2.033,
+  "end": 2.303
+ },
+ {
+  "word": "Now",
+  "start": 2.335,
+  "end": 2.476
+ },
+ {
+  "word": "Toronto",
+  "start": 2.53,
+  "end": 2.789
+ },
+ {
+  "word": "just",
+  "start": 2.843,
+  "end": 2.962
+ },
+ {
+  "word": "paid",
+  "start": 2.995,
+  "end": 3.146
+ },
+ {
+  "word": "two",
+  "start": 3.189,
+  "end": 3.351
+ },
+ {
+  "word": "more",
+  "start": 3.405,
+  "end": 3.567
+ },
+ {
+  "word": "to",
+  "start": 3.6,
+  "end": 3.644
+ },
+ {
+  "word": "take",
+  "start": 3.687,
+  "end": 3.827
+ },
+ {
+  "word": "him",
+  "start": 3.849,
+  "end": 3.914
+ },
+ {
+  "word": "back.",
+  "start": 3.946,
+  "end": 4.173
+ },
+ {
+  "word": "Kawhi",
+  "start": 4.205,
+  "end": 4.444
+ },
+ {
+  "word": "won",
+  "start": 4.519,
+  "end": 4.616
+ },
+ {
+  "word": "the",
+  "start": 4.66,
+  "end": 4.725
+ },
+ {
+  "word": "Raptors'",
+  "start": 4.768,
+  "end": 5.103
+ },
+ {
+  "word": "only",
+  "start": 5.157,
+  "end": 5.351
+ },
+ {
+  "word": "title",
+  "start": 5.405,
+  "end": 5.633
+ },
+ {
+  "word": "in",
+  "start": 5.665,
+  "end": 5.719
+ },
+ {
+  "word": "2019,",
+  "start": 5.773,
+  "end": 6.379
+ },
+ {
+  "word": "then",
+  "start": 6.411,
+  "end": 6.541
+ },
+ {
+  "word": "left",
+  "start": 6.595,
+  "end": 6.789
+ },
+ {
+  "word": "after",
+  "start": 6.833,
+  "end": 7.005
+ },
+ {
+  "word": "one",
+  "start": 7.082,
+  "end": 7.232
+ },
+ {
+  "word": "season.",
+  "start": 7.276,
+  "end": 7.622
+ },
+ {
+  "word": "This",
+  "start": 7.654,
+  "end": 7.827
+ },
+ {
+  "word": "month,",
+  "start": 7.881,
+  "end": 8.097
+ },
+ {
+  "word": "Toronto",
+  "start": 8.13,
+  "end": 8.433
+ },
+ {
+  "word": "sent",
+  "start": 8.487,
+  "end": 8.627
+ },
+ {
+  "word": "Brandon",
+  "start": 8.67,
+  "end": 8.951
+ },
+ {
+  "word": "Ingram,",
+  "start": 9.005,
+  "end": 9.287
+ },
+ {
+  "word": "Gradey",
+  "start": 9.341,
+  "end": 9.589
+ },
+ {
+  "word": "Dick,",
+  "start": 9.653,
+  "end": 9.87
+ },
+ {
+  "word": "two",
+  "start": 9.892,
+  "end": 10.043
+ },
+ {
+  "word": "unprotected",
+  "start": 10.108,
+  "end": 10.54
+ },
+ {
+  "word": "firsts,",
+  "start": 10.584,
+  "end": 10.865
+ },
+ {
+  "word": "a",
+  "start": 10.897,
+  "end": 10.952
+ },
+ {
+  "word": "pick",
+  "start": 11.027,
+  "end": 11.178
+ },
+ {
+  "word": "swap",
+  "start": 11.222,
+  "end": 11.438
+ },
+ {
+  "word": "and",
+  "start": 11.492,
+  "end": 11.6
+ },
+ {
+  "word": "two",
+  "start": 11.654,
+  "end": 11.794
+ },
+ {
+  "word": "seconds",
+  "start": 11.848,
+  "end": 12.108
+ },
+ {
+  "word": "to",
+  "start": 12.141,
+  "end": 12.183
+ },
+ {
+  "word": "the",
+  "start": 12.227,
+  "end": 12.291
+ },
+ {
+  "word": "Clippers.",
+  "start": 12.313,
+  "end": 12.735
+ },
+ {
+  "word": "But",
+  "start": 12.778,
+  "end": 12.919
+ },
+ {
+  "word": "here's",
+  "start": 12.962,
+  "end": 13.168
+ },
+ {
+  "word": "the",
+  "start": 13.199,
+  "end": 13.265
+ },
+ {
+  "word": "twist.",
+  "start": 13.297,
+  "end": 13.621
+ },
+ {
+  "word": "Five",
+  "start": 13.643,
+  "end": 13.848
+ },
+ {
+  "word": "of",
+  "start": 13.87,
+  "end": 13.914
+ },
+ {
+  "word": "those",
+  "start": 13.956,
+  "end": 14.097
+ },
+ {
+  "word": "Clippers",
+  "start": 14.118,
+  "end": 14.389
+ },
+ {
+  "word": "picks",
+  "start": 14.432,
+  "end": 14.594
+ },
+ {
+  "word": "were",
+  "start": 14.627,
+  "end": 14.746
+ },
+ {
+  "word": "taken",
+  "start": 14.779,
+  "end": 14.995
+ },
+ {
+  "word": "by",
+  "start": 15.037,
+  "end": 15.124
+ },
+ {
+  "word": "the",
+  "start": 15.178,
+  "end": 15.254
+ },
+ {
+  "word": "NBA,",
+  "start": 15.308,
+  "end": 15.697
+ },
+ {
+  "word": "along",
+  "start": 15.719,
+  "end": 15.935
+ },
+ {
+  "word": "with",
+  "start": 15.968,
+  "end": 16.076
+ },
+ {
+  "word": "a",
+  "start": 16.119,
+  "end": 16.151
+ },
+ {
+  "word": "$30 million",
+  "start": 16.205,
+  "end": 16.93
+ },
+ {
+  "word": "fine",
+  "start": 16.984,
+  "end": 17.221
+ },
+ {
+  "word": "and",
+  "start": 17.265,
+  "end": 17.384
+ },
+ {
+  "word": "a",
+  "start": 17.438,
+  "end": 17.481
+ },
+ {
+  "word": "one-year",
+  "start": 17.546,
+  "end": 17.838
+ },
+ {
+  "word": "suspension",
+  "start": 17.881,
+  "end": 18.313
+ },
+ {
+  "word": "for",
+  "start": 18.356,
+  "end": 18.454
+ },
+ {
+  "word": "owner",
+  "start": 18.508,
+  "end": 18.703
+ },
+ {
+  "word": "Steve",
+  "start": 18.757,
+  "end": 18.994
+ },
+ {
+  "word": "Ballmer,",
+  "start": 19.027,
+  "end": 19.362
+ },
+ {
+  "word": "over",
+  "start": 19.394,
+  "end": 19.556
+ },
+ {
+  "word": "how",
+  "start": 19.599,
+  "end": 19.686
+ },
+ {
+  "word": "they",
+  "start": 19.73,
+  "end": 19.826
+ },
+ {
+  "word": "paid",
+  "start": 19.859,
+  "end": 20.011
+ },
+ {
+  "word": "Kawhi.",
+  "start": 20.054,
+  "end": 20.4
+ },
+ {
+  "word": "Now",
+  "start": 20.464,
+  "end": 20.605
+ },
+ {
+  "word": "he's",
+  "start": 20.659,
+  "end": 20.789
+ },
+ {
+  "word": "thirty-five.",
+  "start": 20.811,
+  "end": 21.362
+ },
+ {
+  "word": "So",
+  "start": 21.395,
+  "end": 21.503
+ },
+ {
+  "word": "is",
+  "start": 21.557,
+  "end": 21.622
+ },
+ {
+  "word": "Toronto",
+  "start": 21.676,
+  "end": 21.913
+ },
+ {
+  "word": "buying",
+  "start": 21.967,
+  "end": 22.162
+ },
+ {
+  "word": "a",
+  "start": 22.205,
+  "end": 22.227
+ },
+ {
+  "word": "championship,",
+  "start": 22.27,
+  "end": 22.757
+ },
+ {
+  "word": "or",
+  "start": 22.789,
+  "end": 22.875
+ },
+ {
+  "word": "paying",
+  "start": 22.919,
+  "end": 23.114
+ },
+ {
+  "word": "for",
+  "start": 23.146,
+  "end": 23.222
+ },
+ {
+  "word": "2019?",
+  "start": 23.276,
+  "end": 24.0
+ }
+]

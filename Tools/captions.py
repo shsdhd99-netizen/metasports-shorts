@@ -26,8 +26,8 @@ STYLES = {
     "clank": dict(font="Montserrat Bold", size=58, scalex=100, outline=3, shadow=1, blur=0.6, y=960, spacing=0, maxw=5, maxc=30, ideal=3.5,
                   caps=False, pop=False, colors=False),
 }
-RED = "&H002A2AFF&"    # ASS colours are &HAABBGGRR
-GREEN = "&H0040E33A&"
+RED = "&H001414FF&"    # ASS colours are &HAABBGGRR
+GREEN = "&H0030FF30&"
 
 DANGLING = {"the", "a", "an", "of", "to", "in", "on", "at", "for", "with", "by", "from", "and", "or", "but", "nor",
             "his", "her", "their", "its", "my", "your", "our", "this", "that", "these", "those", "every", "each",

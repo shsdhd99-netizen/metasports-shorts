@@ -1,0 +1,18 @@
+{
+ "verdict": "PASS",
+ "wpm": 250,
+ "issues": [],
+ "notes": [
+  " 7.40s  \"f's\" heard as \"fs\" (close; check the name)",
+  " 7.36s  very quiet word \"F's:\" (-12 dB)"
+ ],
+ "heard": "Michael Jordan pushed off Bryon Russell to win the 1998 finals, and no foul was called. Now the NBA just rewrote how refs call that exact move. It's the four Fs: feeling, firming, force, and full extension. A ball handler can feel a defender or firm up in front of him, but if the arm hits with force or fully extends, it's an offensive foul. So would Jordan get whistled? ESPN says no because he didn't use force or fully extend his arm. But the league's own examples are Jaylen Brown shoving Kelly Oubre in the chest and RJ Barrett knocking Evan Mobley backward. Both are fouls now. So under the new rule, Jordan's shot is clean, but Jaylen Brown's isn't.",
+ "mismatches": [
+  {
+   "at": 7.4,
+   "script": "f's",
+   "heard": "fs",
+   "similar": 0.8
+  }
+ ]
+}
