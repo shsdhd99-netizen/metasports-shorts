@@ -1,72 +1,78 @@
 [
  {
-  "clip": "V01_kawhi_clippers_game.mp4",
+  "clip": "V02_kawhi_dunk.mp4",
   "start": 0.0,
-  "why": "Kawhi Leonard in a Clippers jersey, a game or a dunk. First frame moving."
+  "zoom": 0.1,
+  "why": "The Clippers gave up ten first-round picks (Kawhi dunk, punch-in)"
  },
  {
-  "clip": "V02_kawhi_raptors_media_day.mp4",
+  "clip": "V01_kawhi_clippers_face.mp4",
+  "start": 1.78,
+  "why": "for Kawhi Leonard (Kawhi close-up)"
+ },
+ {
+  "clip": "V03_kawhi_raptors_photoshoot.mp4",
   "start": 2.33,
-  "why": "Kawhi in a Raptors jersey or at the Sept 28 media day: 'Kawhi + Scottie' post."
+  "why": "Now Toronto just paid two more to take him back (Kawhi in Raptors #2)"
  },
  {
-  "clip": "V03_kawhi_2019_title.mp4",
+  "clip": "V04_kawhi_g7_shot.mp4",
   "start": 4.21,
-  "why": "Kawhi with the 2019 Finals trophy / the Raptors celebrating."
+  "why": "Kawhi won the Raptors' only title in 2019 (Game 7 shot vs Sixers)"
  },
  {
-  "clip": "V04_kawhi_clippers_intro.mp4",
+  "clip": "V05_kawhi_clippers_debut.mp4",
   "start": 6.41,
-  "why": "Kawhi's Clippers introduction in 2019 (leaves Toronto)."
+  "why": "then left after one season (Kawhi Clippers debut 2019)"
  },
  {
   "clip": "c13_c_1.mp4",
   "start": 7.65,
-  "why": "Hoops Rumors card: Raptors get Leonard; Clippers get Ingram, Dick, 2031 and 2033 firsts, seconds, 2027 swap, boxed."
+  "why": "This month Toronto sent Ingram, Dick, two firsts... (Hoops Rumors trade card)"
  },
  {
-  "clip": "V05_ingram_dick_raptors.mp4",
+  "clip": "V06_gradey_dick.mp4",
   "start": 10.58,
-  "why": "Brandon Ingram and Gradey Dick in Raptors jerseys, 1 s each (the pieces going to LA)."
+  "why": "a pick swap and two seconds to the Clippers (Gradey Dick, a piece of the deal)"
  },
  {
-  "clip": "V06_clippers_intuit_dome.mp4",
+  "clip": "V07_intuit_dome_ceremony.mp4",
   "start": 12.78,
-  "why": "Intuit Dome exterior or Clippers court wide shot for 'But here's the twist'."
+  "why": "But here's the twist (Clippers Intuit Dome ceremony)"
  },
  {
   "clip": "c13_b_1.mp4",
   "start": 13.64,
-  "why": "ESPN card: Clippers forfeit picks 2029 to 2033, and the 'total of 10 first-rounders' line, both boxed."
+  "why": "Five of those picks were taken by the NBA (ESPN card)"
  },
  {
   "clip": "c13_a_1.mp4",
   "start": 16.12,
-  "why": "ESPN card: '$30 million fine and suspension for owner Steve Ballmer', boxed."
+  "why": "$30 million fine and a one-year suspension (ESPN card)"
  },
  {
-  "clip": "V07_ballmer_courtside.mp4",
+  "clip": "V08_ballmer.mp4",
   "start": 18.36,
-  "why": "Steve Ballmer courtside at a Clippers game, 1 s on his name (verify it is Ballmer)."
+  "why": "owner Steve Ballmer"
  },
  {
-  "clip": "V08_kawhi_clippers_laugh.mp4",
+  "clip": "V09_kawhi_clippers_dribble.mp4",
   "start": 19.39,
-  "why": "Kawhi in Clippers colours, low-key (the 'over how they paid Kawhi' beat)."
+  "why": "over how they paid Kawhi (Kawhi Clippers)"
  },
  {
-  "clip": "V09_kawhi_age_media_day.mp4",
+  "clip": "V10_kawhi_raptors_pose.mp4",
   "start": 20.46,
-  "why": "Kawhi at the Raptors media day podium (35 years old)."
+  "why": "Now he's thirty-five (Kawhi, Raptors)"
  },
  {
-  "clip": "V10_larry_obrien_trophy.mp4",
+  "clip": "V11_g7_celebration.mp4",
   "start": 21.39,
-  "why": "The Larry O'Brien trophy for 'buying a championship'."
+  "why": "buying a championship (2019 Game 7 celebration)"
  },
  {
-  "clip": "V11_kawhi_2019_loop.mp4",
+  "clip": "V12_g7_dribble.mp4",
   "start": 22.79,
-  "why": "Kawhi 2019 Finals shot (the Game 7 bounce or a Finals dunk), for 'paying for 2019'. Last frame can match the first for a loop."
+  "why": "or paying for 2019 (Game 7, Kawhi with the ball)"
  }
 ]
