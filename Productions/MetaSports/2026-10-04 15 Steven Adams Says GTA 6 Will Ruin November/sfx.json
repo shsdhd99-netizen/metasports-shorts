@@ -1,14 +1,26 @@
 [
  {
-  "sfx": "click",
-  "at": 8.0,
-  "gain": -10,
-  "why": "article card appears"
+  "sfx": "boom",
+  "at": 0.0,
+  "gain": -12,
+  "why": "hook"
  },
  {
   "sfx": "click",
-  "at": 11.0,
+  "at": 3.3,
   "gain": -10,
-  "why": "release-date card appears"
+  "why": "poster"
+ },
+ {
+  "sfx": "click",
+  "at": 4.2,
+  "gain": -10,
+  "why": "card"
+ },
+ {
+  "sfx": "click",
+  "at": 12.39,
+  "gain": -10,
+  "why": "card"
  }
 ]

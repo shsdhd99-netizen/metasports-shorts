@@ -1,0 +1,81 @@
+"""Quality gate. Run BEFORE delivering any Short. Exit code 1 = do not ship, fix the listed items.
+
+  python qa_short.py --folder "<Short folder>"
+
+Reads shots.json (each shot needs "kind": face|quote|action|card), words.json, final.mp4.
+Rules (from the retention research; each has burned a Short before):
+  HOOK   first word on screen/spoken by 0.4 s; the first spoken word is not filler; >=3 different shots in the first 3 s;
+         >=1 'action' shot (real footage of the story) in the first 3 s; the hook has a number/name/stakes.
+  PACE   no shot longer than 3.0 s (quotes 4.0 s); average shot <= 1.9 s.
+  VISUAL <=35% of runtime on any single source clip; >=6 distinct source clips; <=45% of runtime talking head ('face'+'quote');
+         >=35% 'action' (b-roll that shows the story); cards <=25%; no 2 identical neighbours (same clip + same in-point).
+  AUDIO  loudness -14 +-1.5 LUFS; no silence over 0.6 s inside the voice.
+  LENGTH 18-35 s. Last shot repeats the first clip (loop).
+"""
+import argparse, json, os, re, subprocess, sys
+
+FILLER = {"so", "look", "that's", "thats", "mate", "um", "uh", "well", "okay", "hey", "did", "you", "today", "welcome"}
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--folder", required=True)
+    a = ap.parse_args()
+    F = a.folder
+    shots = json.load(open(os.path.join(F, "shots.json")))
+    words = json.load(open(os.path.join(F, "words.json")))
+    fin = os.path.join(F, "final.mp4")
+    total = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", fin], capture_output=True, text=True).stdout)
+    bad, ok = [], []
+
+    def chk(cond, good, msg):
+        (ok if cond else bad).append(good if cond else msg)
+
+    segs = []
+    for i, s in enumerate(shots):
+        end = shots[i + 1]["start"] if i + 1 < len(shots) else total
+        segs.append((s, s["start"], end, end - s["start"]))
+    kinds = {k: sum(d for s, _, _, d in segs if s.get("kind") == k) for k in ("face", "quote", "action", "card")}
+    missing = [s["clip"] for s in shots if "kind" not in s]
+    chk(not missing, "every shot has a kind", f"shots missing 'kind': {missing[:3]}")
+    chk(18 <= total <= 35, f"length {total:.1f}s", f"length {total:.1f}s (want 18-35)")
+    first = words[0]
+    chk(first["start"] <= 0.4, "voice starts at once", f"first word at {first['start']}s (want <=0.4)")
+    fw = re.sub(r"[^a-z']", "", first["word"].lower())
+    chk(fw not in FILLER, f"opens on '{first['word']}'", f"opens on filler word '{first['word']}' (start on the name/number/stakes)")
+    in3 = [s for s, st, e, d in segs if st < 3.0]
+    chk(len(in3) >= 3, f"{len(in3)} shots in first 3 s", f"only {len(in3)} shots in first 3 s (want >=3)")
+    chk(any(s.get("kind") == "action" for s in in3), "real action footage in first 3 s", "no 'action' footage in the first 3 s (a talking head or card hook gets swiped)")
+    hook = " ".join(w["word"] for w in words if w["start"] < 3.0)
+    chk(bool(re.search(r"\d|[A-Z][a-z]+ [A-Z]|million|billion|percent|first|never|only|banned|illegal|rule", hook)) , "hook line has a name/number/stakes", f"hook line weak: '{hook}'")
+    long_ = [(s["clip"], round(d, 1)) for s, _, _, d in segs if d > (4.0 if s.get("kind") == "quote" else 3.0)]
+    chk(not long_, "no shot too long", f"shots too long: {long_}")
+    avg = total / len(segs)
+    chk(avg <= 1.9, f"average shot {avg:.1f}s", f"average shot {avg:.1f}s (want <=1.9)")
+    by = {}
+    for s, _, _, d in segs:
+        by[s["clip"]] = by.get(s["clip"], 0) + d
+    top = max(by.items(), key=lambda x: x[1])
+    chk(top[1] / total <= 0.35, f"most-used clip {top[0]} {top[1]/total:.0%}", f"{top[0]} fills {top[1]/total:.0%} of the video (want <=35%): add more footage")
+    chk(len(by) >= 6, f"{len(by)} source clips", f"only {len(by)} source clips (want >=6)")
+    face = (kinds["face"] + kinds["quote"]) / total
+    chk(face <= 0.45, f"talking head {face:.0%}", f"talking head {face:.0%} of runtime (want <=45%): add story b-roll")
+    chk(kinds["action"] / total >= 0.35, f"b-roll {kinds['action']/total:.0%}", f"b-roll only {kinds['action']/total:.0%} (want >=35%)")
+    chk(kinds["card"] / total <= 0.25, f"cards {kinds['card']/total:.0%}", f"cards {kinds['card']/total:.0%} (want <=25%)")
+    dup = [i for i in range(1, len(shots)) if shots[i]["clip"] == shots[i - 1]["clip"] and shots[i].get("in") == shots[i - 1].get("in")]
+    chk(not dup, "no repeated neighbours", f"identical neighbouring shots at {dup}")
+    chk(shots[-1]["clip"] == shots[0]["clip"], "loops to the first shot", "last shot should reuse the first clip so it loops")
+    r = subprocess.run(["ffmpeg", "-nostats", "-i", fin, "-af", "ebur128", "-f", "null", "-"], capture_output=True, text=True).stderr
+    m = re.findall(r"I:\s+(-?[\d.]+) LUFS", r)
+    if m:
+        lu = float(m[-1])
+        chk(abs(lu + 14) <= 1.5, f"loudness {lu} LUFS", f"loudness {lu} LUFS (want -14)")
+    print("PASS" if not bad else "FAIL")
+    for x in ok:
+        print("  ok  ", x)
+    for x in bad:
+        print("  FIX ", x)
+    sys.exit(1 if bad else 0)
+
+
+main()

@@ -1,91 +1,110 @@
 [
  {
-  "clip": "adams_full.mp4",
+  "clip": "H1_tower.mp4",
   "start": 0.0,
-  "in": 9.0,
-  "zoom": 0.12,
-  "why": "GTA is dropping (real Adams audio, in sync, punch-in)"
+  "why": "hook: Heat become Vice City (real arena drone)",
+  "kind": "action",
+  "zoom": 0.1
  },
  {
-  "clip": "adams_full.mp4",
-  "start": 2.2,
-  "in": 11.2,
-  "why": "So look at NFL, look at all the leagues (Adams, same take)"
+  "clip": "H2_arena.mp4",
+  "start": 1.35,
+  "why": "Vice City.",
+  "kind": "action"
  },
  {
-  "clip": "adams_full.mp4",
-  "start": 4.4,
-  "in": 13.4,
-  "zoom": 0.15,
-  "why": "and watch them plummet, mate (push-in)"
+  "clip": "H3_sign.mp4",
+  "start": 1.95,
+  "why": "One night only (neon Welcome to Vice City sign)",
+  "kind": "action",
+  "zoom": 0.06
  },
  {
-  "clip": "adams_full.mp4",
+  "clip": "P_poster.mp4",
+  "start": 3.3,
+  "why": "live on ESPN (official poster: Milwaukee vs Vice City, Nov 18)",
+  "kind": "card"
+ },
+ {
+  "clip": "H4_arena2.mp4",
+  "start": 4.2,
+  "why": "night before GTA six (Rockstar release date post)",
+  "kind": "card"
+ },
+ {
+  "clip": "A3_shot.mp4",
   "start": 6.1,
-  "in": 15.1,
-  "why": "..."
+  "why": "And one NBA center (Adams in Rockets practice)",
+  "kind": "action"
+ },
+ {
+  "clip": "adams_full.mp4",
+  "start": 8.53,
+  "why": "quote: look at all the leagues (real audio)",
+  "kind": "quote",
+  "in": 13.26,
+  "zoom": 0.1
+ },
+ {
+  "clip": "adams_full.mp4",
+  "start": 10.25,
+  "why": "quote: and watch them plummet, mate",
+  "kind": "quote",
+  "in": 14.98,
+  "zoom": 0.14
  },
  {
   "clip": "c15_a.mp4",
-  "start": 7.92,
-  "why": "That's Rockets center Steven Adams at media day (Newsweek card)"
+  "start": 12.39,
+  "why": "Rockets center Steven Adams joked (Newsweek)",
+  "kind": "card"
  },
  {
-  "clip": "c15_b.mp4",
-  "start": 10.9,
-  "why": "the date he's talking about is November nineteenth (Rockstar's release-date post)"
+  "clip": "H5_tower2.mp4",
+  "start": 14.3,
+  "why": "when GTA drops the whole league plummets",
+  "kind": "action",
+  "zoom": 0.08
  },
  {
-  "clip": "adams_full.mp4",
-  "start": 13.3,
-  "in": 20.0,
-  "zoom": 0.1,
-  "why": "That's when Grand Theft Auto six comes out, about a month into the season (Adams reaction)"
+  "clip": "A1_barefoot.mp4",
+  "start": 15.65,
+  "why": "Just for November (Adams barefoot warmup)",
+  "kind": "action"
  },
  {
-  "clip": "adams_full.mp4",
-  "start": 15.6,
-  "in": 16.2,
-  "zoom": 0.15,
-  "why": "He says league-wide performance will plummet (Adams, the plummet moment)"
- },
- {
-  "clip": "adams_full.mp4",
-  "start": 17.9,
-  "in": 3.0,
-  "why": "And he's not just talking about players (Adams)"
+  "clip": "A4_walk.mp4",
+  "start": 16.9,
+  "why": "and the coaches and scouts too",
+  "kind": "action"
  },
  {
   "clip": "adams_full.mp4",
-  "start": 18.91,
-  "in": 25.65,
-  "zoom": 0.12,
-  "why": "The coaching and scouts are gonna be horrendous, mate (real audio, in sync)"
+  "start": 18.27,
+  "why": "quote: coaches and scouts horrendous, mate",
+  "kind": "quote",
+  "in": 25.7,
+  "zoom": 0.12
  },
  {
   "clip": "adams_full.mp4",
-  "start": 21.18,
-  "in": 28.5,
-  "why": "But only for November. He says everyone bounces back in December (Adams grin)"
+  "start": 19.5,
+  "why": "quote: horrendous, mate",
+  "kind": "quote",
+  "in": 26.9,
+  "zoom": 0.14
  },
  {
-  "clip": "adams_full.mp4",
-  "start": 23.9,
-  "in": 30.6,
-  "zoom": 0.1,
-  "why": "And he'd know: his apartment reportedly has a mattress on the floor, guitars and gaming gear"
+  "clip": "A2_shoot.mp4",
+  "start": 20.79,
+  "why": "So who is actually playing hard",
+  "kind": "action"
  },
  {
-  "clip": "adams_full.mp4",
-  "start": 27.6,
-  "in": 12.0,
-  "zoom": 0.12,
-  "why": "So how many players are skipping shootaround on November nineteenth?"
- },
- {
-  "clip": "adams_full.mp4",
-  "start": 29.4,
-  "in": 31.4,
-  "why": "(Adams grin to close)"
+  "clip": "H1_tower.mp4",
+  "start": 22.0,
+  "why": "loop back to the first shot",
+  "kind": "action",
+  "zoom": 0.1
  }
 ]

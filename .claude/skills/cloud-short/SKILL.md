@@ -24,6 +24,17 @@ Installs python packages, makes Chromium trust the proxy certificate, copies the
 - Every Short must add original value (research, an opinion line, verified numbers), never a repeated template: YouTube's inauthentic-content policy.
 - Optional visual flags: `--hook-text "NUMBER|HOOK?"` (headline over the first 2 s) and `--auto-zoom 0.06`; A/B them, don't assume.
 
+## THE QUALITY FORMULA (mandatory, every Short; the user should never have to ask)
+A Short that is one talking head, text cards or repeated footage gets swiped (this happened to #15 v1). Build every Short to this recipe:
+1. **Story first, footage second.** Before writing, find 6+ different real clips (X posts, official reveal videos, archive.org). If a topic has under 6, find a fresher angle (e.g. #15 got better when the Heat x GTA night was found) or drop it.
+2. **Hook = a striking real image + a name/number line at 0.0 s**, 3+ cuts in the first 3 s, headline text (`--hook-text`, two short lines, each under 14 characters).
+3. **Recipe per 23-30 s:** ~40% b-roll that shows the story (`kind: action`), <=45% talking head or quote (`face`/`quote`), <=25% cards, avg shot 1.4-1.9 s, no clip over 35%.
+4. **Real quotes in short bursts** (<=4 s) cut in with `Tools/splice_voice.py` (real audio + our narration), never a long raw interview. Cut to b-roll on the narration between quotes.
+5. **Cards only for proof**, <=2 s, only if the card is visually rich (headline + image). Dull white-page cards get replaced with b-roll.
+6. **Every shot in shots.json has `"kind": face|quote|action|card`.** Last shot reuses the first clip (loop). Ends on a question.
+7. **Gate:** `python Tools/qa_short.py --folder "<folder>"` must print PASS before delivery. FIX lines mean go back and get more footage. Then look at storyboard.jpg and the first-3-seconds frames.
+Order: research -> find 6+ clips -> script around the clips -> voice (`voiceover.py` per piece, `splice_voice.py` for quotes) -> shots.json with kinds -> assemble -> qa_short PASS -> package.
+
 ## 1. Research (this is where views come from; do real research, never invent)
 - `python Tools/fresh_moments.py` for what is hot. Use WebSearch for the last 7 days: "NBA <player/team> <week>", media day, training camp,
   rule changes, contracts, records. Prefer stories with a number, a rule, a petty detail or a "that would not be allowed now" angle.
