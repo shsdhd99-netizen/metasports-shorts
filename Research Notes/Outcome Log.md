@@ -10,3 +10,5 @@ Purpose: test whether our gate metrics predict results. One row per posted Short
 - Wemby 24 s beat Duren 33 s on every metric: stayed-to-watch 79.5% vs 63.0%, avg % viewed 100.3% vs 59.7%, ~14x the views per hour.
 - Wemby script: universal rule hook ('Every Defensive Player of the Year ... had at least one voter who picked somebody else'), 'Until Wembanyama', 'but that's not even the crazy part', a 3-name list payoff ('That's the whole list'), ends on the payoff, NOT a question. Duren: contract story with a $ gap and a 'did he lose?' question.
 - Matches Round 5 lane data (rule/record oddity strong, contract flat). Does NOT support 'longer is better' for us: the shorter Short did better. Retention curves not yet processed (up to 2 days).
+
+| #18 LeBron helicopter | Oct 4 | funny/petty | LeBron | 1.2 | 26.8 | metasports | yes | no | ? | ? | 9 views in first 59 min (rank 8 of 10), Wemby now ~18K | posted by user; read at 24 h |
