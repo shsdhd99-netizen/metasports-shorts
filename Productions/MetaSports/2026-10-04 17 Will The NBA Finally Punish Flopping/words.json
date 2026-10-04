@@ -1,0 +1,462 @@
+[
+ {
+  "word": "Flop,",
+  "start": 0.0,
+  "end": 0.281
+ },
+ {
+  "word": "and",
+  "start": 0.299,
+  "end": 0.369
+ },
+ {
+  "word": "the",
+  "start": 0.404,
+  "end": 0.457
+ },
+ {
+  "word": "NBA",
+  "start": 0.5,
+  "end": 0.754
+ },
+ {
+  "word": "wants",
+  "start": 0.799,
+  "end": 0.939
+ },
+ {
+  "word": "a",
+  "start": 0.965,
+  "end": 0.983
+ },
+ {
+  "word": "technical",
+  "start": 1.026,
+  "end": 1.316
+ },
+ {
+  "word": "foul.",
+  "start": 1.361,
+  "end": 1.641
+ },
+ {
+  "word": "The",
+  "start": 1.658,
+  "end": 1.729
+ },
+ {
+  "word": "league",
+  "start": 1.773,
+  "end": 1.931
+ },
+ {
+  "word": "just",
+  "start": 1.948,
+  "end": 2.062
+ },
+ {
+  "word": "posted",
+  "start": 2.088,
+  "end": 2.299
+ },
+ {
+  "word": "its",
+  "start": 2.326,
+  "end": 2.404
+ },
+ {
+  "word": "own",
+  "start": 2.44,
+  "end": 2.528
+ },
+ {
+  "word": "video",
+  "start": 2.562,
+  "end": 2.747
+ },
+ {
+  "word": "of",
+  "start": 2.791,
+  "end": 2.835
+ },
+ {
+  "word": "last",
+  "start": 2.878,
+  "end": 3.002
+ },
+ {
+  "word": "season's",
+  "start": 3.036,
+  "end": 3.282
+ },
+ {
+  "word": "flops.",
+  "start": 3.308,
+  "end": 3.651
+ },
+ {
+  "word": "Its",
+  "start": 3.677,
+  "end": 3.809
+ },
+ {
+  "word": "test:",
+  "start": 3.844,
+  "end": 4.133
+ },
+ {
+  "word": "secondary,",
+  "start": 4.169,
+  "end": 4.59
+ },
+ {
+  "word": "theatrical,",
+  "start": 4.616,
+  "end": 5.073
+ },
+ {
+  "word": "exaggerated",
+  "start": 5.098,
+  "end": 5.538
+ },
+ {
+  "word": "movement.",
+  "start": 5.572,
+  "end": 5.871
+ },
+ {
+  "word": "Timberwolves",
+  "start": 5.915,
+  "end": 6.318
+ },
+ {
+  "word": "coach",
+  "start": 6.354,
+  "end": 6.52
+ },
+ {
+  "word": "Chris",
+  "start": 6.556,
+  "end": 6.696
+ },
+ {
+  "word": "Finch's",
+  "start": 6.739,
+  "end": 6.977
+ },
+ {
+  "word": "reaction:",
+  "start": 7.021,
+  "end": 7.424
+ },
+ {
+  "word": "just",
+  "start": 7.477,
+  "end": 7.617
+ },
+ {
+  "word": "stop",
+  "start": 7.635,
+  "end": 7.81
+ },
+ {
+  "word": "rewarding",
+  "start": 7.854,
+  "end": 8.126
+ },
+ {
+  "word": "the",
+  "start": 8.153,
+  "end": 8.205
+ },
+ {
+  "word": "flopping.",
+  "start": 8.223,
+  "end": 8.6
+ },
+ {
+  "word": "And",
+  "start": 8.618,
+  "end": 8.723
+ },
+ {
+  "word": "Thunder",
+  "start": 8.767,
+  "end": 8.96
+ },
+ {
+  "word": "coach",
+  "start": 8.995,
+  "end": 9.145
+ },
+ {
+  "word": "Mark",
+  "start": 9.188,
+  "end": 9.32
+ },
+ {
+  "word": "Daigneault",
+  "start": 9.364,
+  "end": 9.653
+ },
+ {
+  "word": "sees",
+  "start": 9.697,
+  "end": 9.838
+ },
+ {
+  "word": "the",
+  "start": 9.864,
+  "end": 9.916
+ },
+ {
+  "word": "catch.",
+  "start": 9.952,
+  "end": 10.32
+ },
+ {
+  "word": "they",
+  "start": 10.486,
+  "end": 10.827
+ },
+ {
+  "word": "might",
+  "start": 10.827,
+  "end": 11.169
+ },
+ {
+  "word": "be",
+  "start": 11.169,
+  "end": 11.511
+ },
+ {
+  "word": "just",
+  "start": 11.511,
+  "end": 11.853
+ },
+ {
+  "word": "flailing",
+  "start": 11.853,
+  "end": 12.195
+ },
+ {
+  "word": "to",
+  "start": 12.195,
+  "end": 12.536
+ },
+ {
+  "word": "try",
+  "start": 12.536,
+  "end": 12.878
+ },
+ {
+  "word": "to",
+  "start": 12.878,
+  "end": 13.22
+ },
+ {
+  "word": "bait",
+  "start": 13.22,
+  "end": 13.562
+ },
+ {
+  "word": "those",
+  "start": 13.562,
+  "end": 13.904
+ },
+ {
+  "word": "calls.",
+  "start": 13.904,
+  "end": 14.246
+ },
+ {
+  "word": "But",
+  "start": 14.516,
+  "end": 14.679
+ },
+ {
+  "word": "not",
+  "start": 14.713,
+  "end": 14.829
+ },
+ {
+  "word": "every",
+  "start": 14.864,
+  "end": 15.038
+ },
+ {
+  "word": "fall",
+  "start": 15.085,
+  "end": 15.236
+ },
+ {
+  "word": "is",
+  "start": 15.271,
+  "end": 15.34
+ },
+ {
+  "word": "a",
+  "start": 15.387,
+  "end": 15.41
+ },
+ {
+  "word": "flop.",
+  "start": 15.445,
+  "end": 15.816
+ },
+ {
+  "word": "In",
+  "start": 15.851,
+  "end": 15.956
+ },
+ {
+  "word": "that",
+  "start": 16.002,
+  "end": 16.13
+ },
+ {
+  "word": "same",
+  "start": 16.176,
+  "end": 16.339
+ },
+ {
+  "word": "video,",
+  "start": 16.374,
+  "end": 16.699
+ },
+ {
+  "word": "Pascal",
+  "start": 16.734,
+  "end": 17.14
+ },
+ {
+  "word": "Siakam",
+  "start": 17.198,
+  "end": 17.627
+ },
+ {
+  "word": "sitting",
+  "start": 17.686,
+  "end": 17.918
+ },
+ {
+  "word": "down",
+  "start": 17.953,
+  "end": 18.092
+ },
+ {
+  "word": "after",
+  "start": 18.138,
+  "end": 18.324
+ },
+ {
+  "word": "a",
+  "start": 18.359,
+  "end": 18.394
+ },
+ {
+  "word": "jumper",
+  "start": 18.44,
+  "end": 18.707
+ },
+ {
+  "word": "is",
+  "start": 18.765,
+  "end": 18.835
+ },
+ {
+  "word": "fine.",
+  "start": 18.881,
+  "end": 19.23
+ },
+ {
+  "word": "So",
+  "start": 19.264,
+  "end": 19.392
+ },
+ {
+  "word": "is",
+  "start": 19.439,
+  "end": 19.508
+ },
+ {
+  "word": "a",
+  "start": 19.566,
+  "end": 19.59
+ },
+ {
+  "word": "Deni",
+  "start": 19.648,
+  "end": 19.868
+ },
+ {
+  "word": "Avdija",
+  "start": 19.926,
+  "end": 20.321
+ },
+ {
+  "word": "head",
+  "start": 20.379,
+  "end": 20.53
+ },
+ {
+  "word": "snap.",
+  "start": 20.565,
+  "end": 20.913
+ },
+ {
+  "word": "So",
+  "start": 20.971,
+  "end": 21.087
+ },
+ {
+  "word": "where",
+  "start": 21.134,
+  "end": 21.285
+ },
+ {
+  "word": "is",
+  "start": 21.308,
+  "end": 21.377
+ },
+ {
+  "word": "the",
+  "start": 21.412,
+  "end": 21.482
+ },
+ {
+  "word": "line?",
+  "start": 21.528,
+  "end": 21.83
+ },
+ {
+  "word": "Do",
+  "start": 21.877,
+  "end": 21.97
+ },
+ {
+  "word": "flops",
+  "start": 22.016,
+  "end": 22.26
+ },
+ {
+  "word": "finally",
+  "start": 22.283,
+  "end": 22.55
+ },
+ {
+  "word": "die",
+  "start": 22.597,
+  "end": 22.747
+ },
+ {
+  "word": "this",
+  "start": 22.782,
+  "end": 22.887
+ },
+ {
+  "word": "season?",
+  "start": 22.91,
+  "end": 23.432
+ }
+]

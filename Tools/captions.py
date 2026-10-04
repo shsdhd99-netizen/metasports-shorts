@@ -9,6 +9,8 @@ Styles
   metasports (default): ALL CAPS, Montserrat Black, white with a thick black outline, 1-3 words a card,
                         a little below the middle. Shock words turn red, numbers and big moments green.
   clank:                sentence case, Montserrat Bold, white with a thin outline, 2-5 words, dead centre.
+  karaoke (Round 5 test, not yet A/B tested): sentence case, Montserrat Bold 80 px, black outline 6, 2-3 words a card at 54% height,
+                        the word being spoken turns yellow (numbers green). One ASS event per word, layout never moves.
 
 To colour a card by hand, put emphasis.json next to words.json:
   {"red": ["nobody"], "green": ["100 voters"], "white": ["first"]}   (matched inside each card's text)
