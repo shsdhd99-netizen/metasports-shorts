@@ -1,147 +1,62 @@
 [
  {
-  "word": "Now",
-  "start": 0.0,
-  "end": 0.197
- },
- {
-  "word": "LeBron",
-  "start": 0.255,
-  "end": 0.511
- },
- {
-  "word": "is",
-  "start": 0.546,
-  "end": 0.615
- },
- {
-  "word": "gone.",
-  "start": 0.673,
-  "end": 0.929
- },
- {
-  "word": "The",
-  "start": 0.975,
-  "end": 1.08
- },
- {
-  "word": "guaranteed",
-  "start": 1.126,
-  "end": 1.509
- },
- {
-  "word": "money",
-  "start": 1.544,
-  "end": 1.718
- },
- {
-  "word": "says",
-  "start": 1.765,
-  "end": 1.927
- },
- {
-  "word": "stay.",
-  "start": 1.974,
-  "end": 2.276
- },
- {
-  "word": "The",
-  "start": 2.31,
-  "end": 2.403
- },
- {
-  "word": "stat",
-  "start": 2.45,
-  "end": 2.647
- },
- {
-  "word": "line",
-  "start": 2.705,
-  "end": 2.856
- },
- {
-  "word": "says",
-  "start": 2.879,
-  "end": 3.019
- },
- {
-  "word": "prove",
-  "start": 3.077,
-  "end": 3.286
- },
- {
-  "word": "it.",
-  "start": 3.32,
-  "end": 3.448
- },
- {
   "word": "So",
-  "start": 3.471,
-  "end": 3.587
- },
- {
-  "word": "is",
-  "start": 3.646,
-  "end": 3.715
- },
- {
-  "word": "Bronny's",
-  "start": 3.762,
-  "end": 4.075
- },
- {
-  "word": "spot",
-  "start": 4.098,
-  "end": 4.342
- },
- {
-  "word": "safe,",
-  "start": 4.4,
-  "end": 4.679
- },
- {
-  "word": "or",
-  "start": 4.702,
-  "end": 4.795
- },
- {
-  "word": "is",
-  "start": 4.841,
-  "end": 4.911
+  "start": 0.0,
+  "end": 0.151
  },
  {
   "word": "the",
-  "start": 4.957,
-  "end": 5.027
+  "start": 0.209,
+  "end": 0.279
  },
  {
   "word": "money",
-  "start": 5.062,
-  "end": 5.236
+  "start": 0.313,
+  "end": 0.476
+ },
+ {
+  "word": "buys",
+  "start": 0.522,
+  "end": 0.697
+ },
+ {
+  "word": "him",
+  "start": 0.731,
+  "end": 0.801
+ },
+ {
+  "word": "time.",
+  "start": 0.848,
+  "end": 1.126
+ },
+ {
+  "word": "The",
+  "start": 1.196,
+  "end": 1.312
+ },
+ {
+  "word": "preseason",
+  "start": 1.37,
+  "end": 1.8
+ },
+ {
+  "word": "buys",
+  "start": 1.846,
+  "end": 2.02
+ },
+ {
+  "word": "him",
+  "start": 2.055,
+  "end": 2.136
  },
  {
   "word": "the",
-  "start": 5.283,
-  "end": 5.352
+  "start": 2.171,
+  "end": 2.241
  },
  {
-  "word": "only",
-  "start": 5.399,
-  "end": 5.561
- },
- {
-  "word": "thing",
-  "start": 5.584,
-  "end": 5.712
- },
- {
-  "word": "protecting",
-  "start": 5.747,
-  "end": 6.142
- },
- {
-  "word": "him?",
-  "start": 6.2,
-  "end": 6.594
+  "word": "spot.",
+  "start": 2.264,
+  "end": 2.694
  }
 ]
