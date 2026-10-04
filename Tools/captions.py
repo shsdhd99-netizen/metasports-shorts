@@ -25,7 +25,12 @@ STYLES = {
                        caps=True, pop=True, colors=True),
     "clank": dict(font="Montserrat Bold", size=58, scalex=100, outline=3, shadow=1, blur=0.6, y=960, spacing=0, maxw=5, maxc=30, ideal=3.5,
                   caps=False, pop=False, colors=False),
+    # Round 5 candidate: sentence case + word-by-word highlight (REBOUND/Hormozi family) with Clank's calm sizing. Needs an A/B test.
+    "karaoke": dict(font="Montserrat Bold", size=80, scalex=100, outline=6, shadow=2, blur=0.5, y=1040, spacing=0, maxw=3, maxc=22, ideal=2.4,
+                    caps=False, pop=False, colors=False, kara=True),
 }
+KARA_HI = "&H000AD6FF&"   # warm yellow FFD60A (ASS is BGR)
+KARA_NUM = "&H0040E33A&"  # numbers/money in green so the key figure stays readable
 RED = "&H002A2AFF&"    # ASS colours are &HAABBGGRR
 GREEN = "&H0040E33A&"
 
@@ -238,6 +243,18 @@ def make_ass(words, style="metasports", manual=None, total=None):
         if st["pop"]:
             tags += "\\fscx86\\fscy86\\t(0,90,\\fscx100\\fscy100)"
         shown = shown.replace("{", "(").replace("}", ")")
+        if st.get("kara"):  # one event per spoken word; the active word is highlighted, layout never moves
+            toks = [re.sub(r"[{}]", "", w["word"]) for w in card]
+            for wi, w in enumerate(card):
+                ws = start if wi == 0 else w["start"]
+                we = end if wi == len(card) - 1 else card[wi + 1]["start"]
+                if we - ws < 0.04:
+                    continue
+                hi = KARA_NUM if re.search(r"\d", toks[wi]) else KARA_HI
+                parts = [(f"{{\\c{hi}}}{t}{{\\c&H00FFFFFF&}}" if j == wi else t) for j, t in enumerate(toks)]
+                events.append(f"Dialogue: 0,{ass_time(ws)},{ass_time(we)},Cap,,0,0,0,,{{{tags}}}{' '.join(parts)}")
+            lines.append((start, end, shown, col))
+            continue
         events.append(f"Dialogue: 0,{ass_time(start)},{ass_time(end)},Cap,,0,0,0,,{{{tags}}}{shown}")
         lines.append((start, end, shown, col))
     head = f"""[Script Info]

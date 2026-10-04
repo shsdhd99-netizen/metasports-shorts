@@ -1,0 +1,57 @@
+[
+ {
+  "word": "So",
+  "start": 0.0,
+  "end": 0.128
+ },
+ {
+  "word": "is",
+  "start": 0.186,
+  "end": 0.255
+ },
+ {
+  "word": "LeBron",
+  "start": 0.313,
+  "end": 0.592
+ },
+ {
+  "word": "all",
+  "start": 0.639,
+  "end": 0.766
+ },
+ {
+  "word": "in",
+  "start": 0.824,
+  "end": 0.894
+ },
+ {
+  "word": "on",
+  "start": 0.94,
+  "end": 1.01
+ },
+ {
+  "word": "Philly,",
+  "start": 1.057,
+  "end": 1.37
+ },
+ {
+  "word": "or",
+  "start": 1.405,
+  "end": 1.498
+ },
+ {
+  "word": "just",
+  "start": 1.556,
+  "end": 1.718
+ },
+ {
+  "word": "flying",
+  "start": 1.753,
+  "end": 1.985
+ },
+ {
+  "word": "through?",
+  "start": 2.02,
+  "end": 2.508
+ }
+]

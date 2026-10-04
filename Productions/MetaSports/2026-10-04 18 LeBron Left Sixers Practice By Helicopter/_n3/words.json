@@ -1,0 +1,162 @@
+[
+ {
+  "word": "Philly",
+  "start": 0.0,
+  "end": 0.29
+ },
+ {
+  "word": "hasn't",
+  "start": 0.337,
+  "end": 0.546
+ },
+ {
+  "word": "won",
+  "start": 0.569,
+  "end": 0.673
+ },
+ {
+  "word": "a",
+  "start": 0.72,
+  "end": 0.755
+ },
+ {
+  "word": "title",
+  "start": 0.801,
+  "end": 1.033
+ },
+ {
+  "word": "since",
+  "start": 1.057,
+  "end": 1.254
+ },
+ {
+  "word": "1983.",
+  "start": 1.3,
+  "end": 2.159
+ },
+ {
+  "word": "The",
+  "start": 2.206,
+  "end": 2.322
+ },
+ {
+  "word": "Knicks",
+  "start": 2.357,
+  "end": 2.531
+ },
+ {
+  "word": "swept",
+  "start": 2.554,
+  "end": 2.752
+ },
+ {
+  "word": "them",
+  "start": 2.775,
+  "end": 2.879
+ },
+ {
+  "word": "out",
+  "start": 2.902,
+  "end": 2.995
+ },
+ {
+  "word": "of",
+  "start": 3.019,
+  "end": 3.065
+ },
+ {
+  "word": "that",
+  "start": 3.1,
+  "end": 3.204
+ },
+ {
+  "word": "round",
+  "start": 3.262,
+  "end": 3.437
+ },
+ {
+  "word": "in",
+  "start": 3.471,
+  "end": 3.529
+ },
+ {
+  "word": "four",
+  "start": 3.587,
+  "end": 3.785
+ },
+ {
+  "word": "games.",
+  "start": 3.843,
+  "end": 4.203
+ },
+ {
+  "word": "The",
+  "start": 4.261,
+  "end": 4.354
+ },
+ {
+  "word": "next",
+  "start": 4.412,
+  "end": 4.574
+ },
+ {
+  "word": "day,",
+  "start": 4.609,
+  "end": 4.76
+ },
+ {
+  "word": "LeBron",
+  "start": 4.795,
+  "end": 5.085
+ },
+ {
+  "word": "left",
+  "start": 5.143,
+  "end": 5.283
+ },
+ {
+  "word": "practice",
+  "start": 5.317,
+  "end": 5.666
+ },
+ {
+  "word": "in",
+  "start": 5.689,
+  "end": 5.735
+ },
+ {
+  "word": "a",
+  "start": 5.77,
+  "end": 5.793
+ },
+ {
+  "word": "helicopter.",
+  "start": 5.828,
+  "end": 6.374
+ },
+ {
+  "word": "Forty-five",
+  "start": 6.42,
+  "end": 6.85
+ },
+ {
+  "word": "minutes",
+  "start": 6.873,
+  "end": 7.117
+ },
+ {
+  "word": "to",
+  "start": 7.163,
+  "end": 7.233
+ },
+ {
+  "word": "New",
+  "start": 7.291,
+  "end": 7.372
+ },
+ {
+  "word": "York.",
+  "start": 7.419,
+  "end": 7.848
+ }
+]

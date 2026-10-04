@@ -281,7 +281,7 @@ def main():
     ap.add_argument("--auto-zoom", dest="auto_zoom", type=float, default=0.0, help="slow push-in on every footage shot, e.g. 0.06")
     ap.add_argument("--out-name", dest="out_name", default="final.mp4", help="output file name inside the folder")
     ap.add_argument("--captions", default="burn", help="burn (MetaSports look, default) or a Drift preset: subtitle, caption, hormozi, one-word-color")
-    ap.add_argument("--caption-style", default="metasports", help="for --captions burn: metasports (old Shorts look) or clank")
+    ap.add_argument("--caption-style", default="metasports", help="for --captions burn: metasports (old Shorts look), clank, or karaoke (Round 5 test)")
     ap.add_argument("--no-export", action="store_true")
     a = ap.parse_args()
     sys.stdout.reconfigure(encoding="utf-8")
