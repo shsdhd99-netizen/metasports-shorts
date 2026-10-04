@@ -1,0 +1,108 @@
+[
+ {
+  "clip": "V01.mp4",
+  "start": 0.0,
+  "why": "Kings defender flops: hook",
+  "kind": "action",
+  "zoom": 0.12
+ },
+ {
+  "clip": "V03.mp4",
+  "start": 1.03,
+  "why": "technical foul: Cavs flop",
+  "kind": "action",
+  "zoom": 0.08
+ },
+ {
+  "clip": "V04.mp4",
+  "start": 2.05,
+  "why": "league video of flops",
+  "kind": "action",
+  "zoom": 0.06
+ },
+ {
+  "clip": "V08.mp4",
+  "start": 2.9,
+  "why": "last season's flops (Pelicans)",
+  "kind": "action",
+  "zoom": 0.06
+ },
+ {
+  "clip": "V02.mp4",
+  "start": 4.0,
+  "why": "secondary theatrical",
+  "kind": "action"
+ },
+ {
+  "clip": "V06.mp4",
+  "start": 5.2,
+  "why": "exaggerated movement",
+  "kind": "action"
+ },
+ {
+  "clip": "V09.mp4",
+  "start": 6.55,
+  "why": "Finch: stop rewarding the flopping",
+  "kind": "action",
+  "zoom": 0.06
+ },
+ {
+  "clip": "F1.mp4",
+  "start": 8.2,
+  "why": "Daigneault sees the catch",
+  "kind": "face",
+  "zoom": 0.05
+ },
+ {
+  "clip": "Q1.mp4",
+  "start": 9.95,
+  "why": "quote: flailing to bait those calls",
+  "kind": "quote"
+ },
+ {
+  "clip": "Q1.mp4",
+  "start": 11.95,
+  "why": "quote cont",
+  "kind": "quote",
+  "zoom": 0.12,
+  "in": 2.0
+ },
+ {
+  "clip": "V07.mp4",
+  "start": 14.0,
+  "why": "not every fall is a flop",
+  "kind": "action",
+  "zoom": 0.06
+ },
+ {
+  "clip": "S1.mp4",
+  "start": 15.85,
+  "why": "Siakam sit-down",
+  "kind": "action"
+ },
+ {
+  "clip": "A1.mp4",
+  "start": 18.85,
+  "why": "Avdija head snap",
+  "kind": "action"
+ },
+ {
+  "clip": "P2.mp4",
+  "start": 20.9,
+  "why": "where is the line (push-off example)",
+  "kind": "action"
+ },
+ {
+  "clip": "P1.mp4",
+  "start": 21.85,
+  "why": "Brown push-off example",
+  "kind": "action"
+ },
+ {
+  "clip": "V01.mp4",
+  "start": 22.5,
+  "why": "loop to first shot",
+  "kind": "action",
+  "zoom": 0.12
+ }
+]

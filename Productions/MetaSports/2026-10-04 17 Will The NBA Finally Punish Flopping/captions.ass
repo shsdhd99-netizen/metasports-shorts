@@ -1,0 +1,56 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Montserrat Black,86,&H00FFFFFF,&H00FFFFFF,&H00000000,&H99000000,0,0,0,0,95,100,1,0,1,6,3,5,70,70,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.30,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FLOP,
+Dialogue: 0,0:00:00.30,0:00:00.80,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND THE NBA
+Dialogue: 0,0:00:00.80,0:00:01.36,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WANTS A TECHNICAL
+Dialogue: 0,0:00:01.36,0:00:01.66,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FOUL.
+Dialogue: 0,0:00:01.66,0:00:01.95,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE LEAGUE
+Dialogue: 0,0:00:01.95,0:00:02.33,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}JUST POSTED
+Dialogue: 0,0:00:02.33,0:00:02.56,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ITS OWN
+Dialogue: 0,0:00:02.56,0:00:03.04,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}VIDEO OF LAST
+Dialogue: 0,0:00:03.04,0:00:03.68,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SEASON'S FLOPS.
+Dialogue: 0,0:00:03.68,0:00:04.17,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ITS TEST:
+Dialogue: 0,0:00:04.17,0:00:04.62,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SECONDARY,
+Dialogue: 0,0:00:04.62,0:00:05.10,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THEATRICAL,
+Dialogue: 0,0:00:05.10,0:00:05.92,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}EXAGGERATED MOVEMENT.
+Dialogue: 0,0:00:05.92,0:00:06.56,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TIMBERWOLVES COACH
+Dialogue: 0,0:00:06.56,0:00:07.02,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}CHRIS FINCH'S
+Dialogue: 0,0:00:07.02,0:00:07.48,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}REACTION:
+Dialogue: 0,0:00:07.48,0:00:08.15,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}JUST STOP REWARDING
+Dialogue: 0,0:00:08.15,0:00:08.62,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE FLOPPING.
+Dialogue: 0,0:00:08.62,0:00:09.19,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND THUNDER COACH
+Dialogue: 0,0:00:09.19,0:00:09.70,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}MARK DAIGNEAULT
+Dialogue: 0,0:00:09.70,0:00:10.49,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SEES THE CATCH.
+Dialogue: 0,0:00:10.49,0:00:11.17,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THEY MIGHT
+Dialogue: 0,0:00:11.17,0:00:12.20,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BE JUST FLAILING
+Dialogue: 0,0:00:12.20,0:00:12.88,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TO TRY
+Dialogue: 0,0:00:12.88,0:00:13.56,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TO BAIT
+Dialogue: 0,0:00:13.56,0:00:14.52,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THOSE CALLS.
+Dialogue: 0,0:00:14.52,0:00:14.86,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BUT NOT
+Dialogue: 0,0:00:14.86,0:00:15.27,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}EVERY FALL
+Dialogue: 0,0:00:15.27,0:00:15.85,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IS A FLOP.
+Dialogue: 0,0:00:15.85,0:00:16.37,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN THAT SAME
+Dialogue: 0,0:00:16.37,0:00:16.73,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}VIDEO,
+Dialogue: 0,0:00:16.73,0:00:17.69,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}PASCAL SIAKAM
+Dialogue: 0,0:00:17.69,0:00:18.14,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SITTING DOWN
+Dialogue: 0,0:00:18.14,0:00:18.77,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AFTER A JUMPER
+Dialogue: 0,0:00:18.77,0:00:19.26,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IS FINE.
+Dialogue: 0,0:00:19.26,0:00:19.65,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SO IS A
+Dialogue: 0,0:00:19.65,0:00:20.38,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}DENI AVDIJA
+Dialogue: 0,0:00:20.38,0:00:20.97,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HEAD SNAP.
+Dialogue: 0,0:00:20.97,0:00:21.31,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SO WHERE
+Dialogue: 0,0:00:21.31,0:00:21.88,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IS THE LINE?
+Dialogue: 0,0:00:21.88,0:00:22.28,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}DO FLOPS
+Dialogue: 0,0:00:22.28,0:00:22.78,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FINALLY DIE
+Dialogue: 0,0:00:22.78,0:00:23.48,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THIS SEASON?

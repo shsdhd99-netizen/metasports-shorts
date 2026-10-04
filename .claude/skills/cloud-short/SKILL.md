@@ -37,6 +37,16 @@ A Short that is one talking head, text cards or repeated footage gets swiped (th
 7. **Gate:** `python Tools/qa_short.py --folder "<folder>"` must print PASS before delivery. FIX lines mean go back and get more footage. Then look at storyboard.jpg and the first-3-seconds frames.
 Order: research -> find 6+ clips -> script around the clips -> voice (`voiceover.py` per piece, `splice_voice.py` for quotes) -> shots.json with kinds -> assemble -> qa_short PASS -> package.
 
+### Evidence-backed rules from Round 5 (`Research Notes/Round 5 - Competitor Formulas (Oct 4, 2026).md`; evidence tier in brackets)
+- [PROVEN] Lane: rule/ban/"caught", size/skill spectacle, one-second oddity or petty/funny player moment. Contract/trade/wholesome stories only with a rule or number gap as the hook. (rule/ban titles got 2.5x the channel median, n=26)
+- [PROVEN] Write the concept in 8 words or fewer; a stranger must get it in one second. Put `Lane:`, `Concept:` and `Added value:` (opinion line or verified number) in notes.md with a source URL per number (inauthentic-content policy).
+- [PROVEN] Story length 21+ s (CoachClank: 21 s+ got 848K vs 291K for 20 s or less). Frame 0 must be a face or moving action (the Shorts feed shows no thumbnails; do not over-invest in covers).
+- [SUPPORTED] Speech 240-290 wpm; end on the payoff with no "subscribe/follow/like" outro; last word ends 0.15-0.4 s before the end and the last line echoes the first (loop); a turn word (But/Until/Now) in the first 40%.
+- [SUPPORTED] Captions: sentence case, 64 px+, centred 45-62% of height, 3-4 words, none on screen over 1.7 s. The winners (Clank, Ahmed's, REBOUND) do this; our ALL CAPS red/green is the user's house style, so test `--caption-style karaoke` against it, do not switch everything.
+- [HYPOTHESIS, A/B first] Title opening on an action/claim word (Why/How/He/Did) instead of a name (Clank name-first 237K vs 494K, n=20); average shot 1.9 vs 2.8 s (no evidence that faster is better; Clank's biggest cut every 2-4.7 s); one accent colour; search keyword in the first 15 words; named series.
+- Tools/qa_short.py now fails on hard gates and prints `warn` lines for the SUPPORTED/HYPOTHESIS items. Treat warns as things to fix when cheap and to log in the A/B table.
+- Every rule we add must carry its evidence tier and a source; if evidence is missing, call it HYPOTHESIS and put it on the A/B list.
+
 ## 1. Research (this is where views come from; do real research, never invent)
 - `python Tools/fresh_moments.py` for what is hot. Use WebSearch for the last 7 days: "NBA <player/team> <week>", media day, training camp,
   rule changes, contracts, records. Prefer stories with a number, a rule, a petty detail or a "that would not be allowed now" angle.

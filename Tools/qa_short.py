@@ -43,7 +43,7 @@ def main():
     kinds = {k: sum(d for s, _, _, d in segs if s.get("kind") == k) for k in ("face", "quote", "action", "card")}
     missing = [s["clip"] for s in shots if "kind" not in s]
     chk(not missing, "every shot has a kind", f"shots missing 'kind': {missing[:3]}")
-    chk(18 <= total <= 35, f"length {total:.1f}s", f"length {total:.1f}s (want 18-35)")
+    chk(21 <= total <= 40, f"length {total:.1f}s", f"length {total:.1f}s (want 21-40; Clank 21 s+ stories beat <=20 s, 848K vs 291K)")
     first = words[0]
     chk(first["start"] <= 0.4, "voice starts at once", f"first word at {first['start']}s (want <=0.4)")
     fw = re.sub(r"[^a-z']", "", first["word"].lower())
@@ -56,7 +56,7 @@ def main():
     long_ = [(s["clip"], round(d, 1)) for s, _, _, d in segs if d > (4.0 if s.get("kind") == "quote" else 3.0)]
     chk(not long_, "no shot too long", f"shots too long: {long_}")
     avg = total / len(segs)
-    chk(avg <= 1.9, f"average shot {avg:.1f}s", f"average shot {avg:.1f}s (want <=1.9)")
+    chk(avg <= 2.6, f"average shot {avg:.1f}s", f"average shot {avg:.1f}s (want <=2.6)")
     by = {}
     for s, _, _, d in segs:
         by[s["clip"]] = by.get(s["clip"], 0) + d
@@ -75,7 +75,31 @@ def main():
     if m:
         lu = float(m[-1])
         chk(abs(lu + 14) <= 1.5, f"loudness {lu} LUFS", f"loudness {lu} LUFS (want -14)")
+    warn = []
+    if avg < 1.3:
+        warn.append(f"average shot {avg:.1f}s is very fast; a 1.9 vs 2.8 s A/B is pending (HYPOTHESIS)")
+    dur_voice = words[-1]["end"] - words[0]["start"]
+    wpm = len(words) / dur_voice * 60 if dur_voice else 0
+    if not 240 <= wpm <= 290:
+        warn.append(f"speech pace {wpm:.0f} wpm (Clank's biggest Shorts: 247-289)")
+    tail = total - words[-1]["end"]
+    if not 0.15 <= tail <= 0.6:
+        warn.append(f"last word ends {tail:.2f}s before the end (loop tail wants 0.15-0.4 s)")
+    last6 = " ".join(w["word"].lower() for w in words[-6:])
+    if re.search(r"subscribe|follow|like|comment|thanks for watching|let me know", last6):
+        warn.append("CTA in the last 6 words: end on the payoff instead")
+    n = len(words)
+    turn = [i for i, w in enumerate(words) if re.sub(r"[^a-z]", "", w["word"].lower()) in ("but", "however", "until", "except", "instead", "now")]
+    if not turn or turn[0] > 0.4 * n:
+        warn.append("no turn word (But/However/Until/Now) in the first 40% of the script")
+    up = os.path.join(F, "UPLOAD.md")
+    if os.path.exists(up):
+        m = re.search(r"\*\*(.+?)\*\*", open(up, encoding="utf-8").read().split("## Title")[-1])
+        if m and re.match(r"^[A-Z][a-z]+ [A-Z]", m.group(1)):
+            warn.append(f"title starts with a name ('{m.group(1)[:30]}'): Clank's name-first titles got half the views (n=20), test action-first")
     print("PASS" if not bad else "FAIL")
+    for x in warn:
+        print("  warn", x)
     for x in ok:
         print("  ok  ", x)
     for x in bad:
