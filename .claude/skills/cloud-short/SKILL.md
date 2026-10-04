@@ -26,6 +26,8 @@ Installs python packages, makes Chromium trust the proxy certificate, copies the
 
 Round 6 (`Research Notes/Round 6 - What Makes Shorts Go Viral (Oct 4, 2026).md`) contradicted or found unsupported: name/number-first titles, 18-35 s length, avg shot <=1.9 s, never-over-3-s shots, 6-11 AM posting, 3 covers. Where this file still says otherwise, Round 6 wins. Comments do not drive reach (do not over-invest in pinned comments); keep Shorts under 60 s (copyright-claim rule unresolved).
 
+FIRST read `CLOUD STATE - read this first.md` in the repo root (current status, Hub, rules) and update it at the end of your work.
+
 Before anything else, read `Research Notes/Lessons Learned (running log).md` and add to it whenever you learn something.
 
 ## THE QUALITY FORMULA (mandatory, every Short; the user should never have to ask)
