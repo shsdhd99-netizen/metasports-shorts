@@ -1,0 +1,42 @@
+[
+ {
+  "word": "The",
+  "start": 0.0,
+  "end": 0.136
+ },
+ {
+  "word": "Lakers",
+  "start": 0.177,
+  "end": 0.428
+ },
+ {
+  "word": "did",
+  "start": 0.469,
+  "end": 0.595
+ },
+ {
+  "word": "make",
+  "start": 0.636,
+  "end": 0.772
+ },
+ {
+  "word": "his",
+  "start": 0.804,
+  "end": 0.887
+ },
+ {
+  "word": "deal",
+  "start": 0.929,
+  "end": 1.075
+ },
+ {
+  "word": "fully",
+  "start": 1.116,
+  "end": 1.325
+ },
+ {
+  "word": "guaranteed.",
+  "start": 1.367,
+  "end": 1.92
+ }
+]

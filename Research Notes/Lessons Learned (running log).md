@@ -42,5 +42,10 @@ voice at 0.0-0.4 s, non-filler first word, 3+ shots and real action in first 3 s
 ## Posted so far (do not rework these)
 - Duren (#12) and the Wembanyama Short are already uploaded (user, Oct 4). Results from the user due within 36 hours of Oct 4. Do not spend time on them; spend it on NEW Shorts.
 
+## First real results (Oct 4, user's Studio, n=2)
+- #03 Wembanyama 'How Did Nobody Vote Against Wemby?' (24 s, record/rule oddity): 79.5% stayed, 100.3% avg viewed, 20.6K views in ~10 h, rank 2 of 10. #12 Duren (33 s, contract): 63.0% stayed, 59.7% avg viewed, 1.5K views in 5.5 h, rank 8 of 10.
+- Formula to copy: universal-rule hook -> 'Until X' -> 'not even the crazy part' escalation -> short list payoff, ends on the payoff (no question), ~24 s. Contract/trade stories are the weak lane for this channel. Prefer one-fact record/oddity Shorts of 22-28 s.
+- Do not assume longer is better: our own two results go the other way (confounded).
+
 ## Open tests (waiting on the user's analytics in 1-3 days)
 question vs number hook; hook headline vs none; music vs none; ALL CAPS vs Clank captions; rule vs contract vs funny lane. Read "Viewed vs swiped away" at 24 h: 70%+ good, <60% rewrite the first 2 s.

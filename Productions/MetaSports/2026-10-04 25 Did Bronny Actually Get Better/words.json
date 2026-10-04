@@ -1,0 +1,487 @@
+[
+ {
+  "word": "Bronny's",
+  "start": 0.0,
+  "end": 0.291
+ },
+ {
+  "word": "three-point",
+  "start": 0.318,
+  "end": 0.662
+ },
+ {
+  "word": "shooting",
+  "start": 0.689,
+  "end": 0.891
+ },
+ {
+  "word": "jumped",
+  "start": 0.936,
+  "end": 1.085
+ },
+ {
+  "word": "from",
+  "start": 1.103,
+  "end": 1.191
+ },
+ {
+  "word": "twenty-eight",
+  "start": 1.227,
+  "end": 1.535
+ },
+ {
+  "word": "percent",
+  "start": 1.553,
+  "end": 1.782
+ },
+ {
+  "word": "to",
+  "start": 1.818,
+  "end": 1.87
+ },
+ {
+  "word": "thirty-nine.",
+  "start": 1.914,
+  "end": 2.391
+ },
+ {
+  "word": "So",
+  "start": 2.427,
+  "end": 2.523
+ },
+ {
+  "word": "did",
+  "start": 2.576,
+  "end": 2.691
+ },
+ {
+  "word": "he",
+  "start": 2.735,
+  "end": 2.797
+ },
+ {
+  "word": "actually",
+  "start": 2.85,
+  "end": 3.133
+ },
+ {
+  "word": "get",
+  "start": 3.177,
+  "end": 3.273
+ },
+ {
+  "word": "better?",
+  "start": 3.309,
+  "end": 3.6
+ },
+ {
+  "word": "Supporters",
+  "start": 3.727,
+  "end": 4.109
+ },
+ {
+  "word": "say",
+  "start": 4.127,
+  "end": 4.236
+ },
+ {
+  "word": "yes.",
+  "start": 4.273,
+  "end": 4.581
+ },
+ {
+  "word": "Forty-one",
+  "start": 4.691,
+  "end": 5.018
+ },
+ {
+  "word": "percent",
+  "start": 5.045,
+  "end": 5.245
+ },
+ {
+  "word": "from",
+  "start": 5.273,
+  "end": 5.354
+ },
+ {
+  "word": "the",
+  "start": 5.382,
+  "end": 5.436
+ },
+ {
+  "word": "field,",
+  "start": 5.472,
+  "end": 5.709
+ },
+ {
+  "word": "up",
+  "start": 5.754,
+  "end": 5.855
+ },
+ {
+  "word": "from",
+  "start": 5.882,
+  "end": 5.991
+ },
+ {
+  "word": "thirty-one,",
+  "start": 6.036,
+  "end": 6.409
+ },
+ {
+  "word": "and",
+  "start": 6.427,
+  "end": 6.536
+ },
+ {
+  "word": "nearly",
+  "start": 6.582,
+  "end": 6.791
+ },
+ {
+  "word": "three",
+  "start": 6.836,
+  "end": 7.027
+ },
+ {
+  "word": "points",
+  "start": 7.064,
+  "end": 7.263
+ },
+ {
+  "word": "a",
+  "start": 7.291,
+  "end": 7.318
+ },
+ {
+  "word": "night",
+  "start": 7.363,
+  "end": 7.5
+ },
+ {
+  "word": "over",
+  "start": 7.536,
+  "end": 7.673
+ },
+ {
+  "word": "forty-two",
+  "start": 7.727,
+  "end": 8.073
+ },
+ {
+  "word": "games.",
+  "start": 8.118,
+  "end": 8.527
+ },
+ {
+  "word": "But",
+  "start": 8.651,
+  "end": 8.783
+ },
+ {
+  "word": "critics",
+  "start": 8.839,
+  "end": 9.138
+ },
+ {
+  "word": "say",
+  "start": 9.16,
+  "end": 9.282
+ },
+ {
+  "word": "look",
+  "start": 9.337,
+  "end": 9.503
+ },
+ {
+  "word": "closer.",
+  "start": 9.547,
+  "end": 9.957
+ },
+ {
+  "word": "He",
+  "start": 9.99,
+  "end": 10.089
+ },
+ {
+  "word": "started",
+  "start": 10.134,
+  "end": 10.399
+ },
+ {
+  "word": "just",
+  "start": 10.444,
+  "end": 10.609
+ },
+ {
+  "word": "one",
+  "start": 10.665,
+  "end": 10.787
+ },
+ {
+  "word": "of",
+  "start": 10.82,
+  "end": 10.864
+ },
+ {
+  "word": "those",
+  "start": 10.897,
+  "end": 11.041
+ },
+ {
+  "word": "forty-two",
+  "start": 11.074,
+  "end": 11.428
+ },
+ {
+  "word": "games,",
+  "start": 11.483,
+  "end": 11.838
+ },
+ {
+  "word": "played",
+  "start": 11.871,
+  "end": 12.103
+ },
+ {
+  "word": "under",
+  "start": 12.136,
+  "end": 12.291
+ },
+ {
+  "word": "nine",
+  "start": 12.347,
+  "end": 12.523
+ },
+ {
+  "word": "minutes",
+  "start": 12.546,
+  "end": 12.767
+ },
+ {
+  "word": "a",
+  "start": 12.8,
+  "end": 12.822
+ },
+ {
+  "word": "night,",
+  "start": 12.866,
+  "end": 13.065
+ },
+ {
+  "word": "and",
+  "start": 13.088,
+  "end": 13.187
+ },
+ {
+  "word": "his",
+  "start": 13.232,
+  "end": 13.32
+ },
+ {
+  "word": "turnovers",
+  "start": 13.364,
+  "end": 13.785
+ },
+ {
+  "word": "ticked",
+  "start": 13.818,
+  "end": 14.028
+ },
+ {
+  "word": "up,",
+  "start": 14.072,
+  "end": 14.227
+ },
+ {
+  "word": "not",
+  "start": 14.272,
+  "end": 14.437
+ },
+ {
+  "word": "down.",
+  "start": 14.493,
+  "end": 14.891
+ },
+ {
+  "word": "trying",
+  "start": 15.108,
+  "end": 15.293
+ },
+ {
+  "word": "to",
+  "start": 15.293,
+  "end": 15.477
+ },
+ {
+  "word": "prove",
+  "start": 15.477,
+  "end": 15.662
+ },
+ {
+  "word": "myself",
+  "start": 15.662,
+  "end": 15.846
+ },
+ {
+  "word": "as",
+  "start": 15.846,
+  "end": 16.03
+ },
+ {
+  "word": "Bronny",
+  "start": 16.03,
+  "end": 16.215
+ },
+ {
+  "word": "instead",
+  "start": 16.215,
+  "end": 16.399
+ },
+ {
+  "word": "of",
+  "start": 16.399,
+  "end": 16.584
+ },
+ {
+  "word": "LeBron.",
+  "start": 16.584,
+  "end": 16.768
+ },
+ {
+  "word": "The",
+  "start": 17.078,
+  "end": 17.214
+ },
+ {
+  "word": "Lakers",
+  "start": 17.255,
+  "end": 17.506
+ },
+ {
+  "word": "did",
+  "start": 17.547,
+  "end": 17.673
+ },
+ {
+  "word": "make",
+  "start": 17.714,
+  "end": 17.85
+ },
+ {
+  "word": "his",
+  "start": 17.882,
+  "end": 17.965
+ },
+ {
+  "word": "deal",
+  "start": 18.007,
+  "end": 18.153
+ },
+ {
+  "word": "fully",
+  "start": 18.194,
+  "end": 18.403
+ },
+ {
+  "word": "guaranteed.",
+  "start": 18.445,
+  "end": 18.998
+ },
+ {
+  "word": "I'm",
+  "start": 19.133,
+  "end": 19.265
+ },
+ {
+  "word": "ready",
+  "start": 19.265,
+  "end": 19.398
+ },
+ {
+  "word": "to",
+  "start": 19.398,
+  "end": 19.53
+ },
+ {
+  "word": "get",
+  "start": 19.53,
+  "end": 19.663
+ },
+ {
+  "word": "out",
+  "start": 19.663,
+  "end": 19.795
+ },
+ {
+  "word": "there",
+  "start": 19.795,
+  "end": 19.928
+ },
+ {
+  "word": "and",
+  "start": 19.928,
+  "end": 20.06
+ },
+ {
+  "word": "play.",
+  "start": 20.06,
+  "end": 20.193
+ },
+ {
+  "word": "So",
+  "start": 20.443,
+  "end": 20.556
+ },
+ {
+  "word": "is",
+  "start": 20.599,
+  "end": 20.652
+ },
+ {
+  "word": "thirty-nine",
+  "start": 20.686,
+  "end": 21.025
+ },
+ {
+  "word": "percent",
+  "start": 21.051,
+  "end": 21.285
+ },
+ {
+  "word": "real",
+  "start": 21.329,
+  "end": 21.477
+ },
+ {
+  "word": "growth,",
+  "start": 21.52,
+  "end": 21.781
+ },
+ {
+  "word": "or",
+  "start": 21.807,
+  "end": 21.885
+ },
+ {
+  "word": "just",
+  "start": 21.928,
+  "end": 22.041
+ },
+ {
+  "word": "forty-two",
+  "start": 22.076,
+  "end": 22.363
+ },
+ {
+  "word": "small",
+  "start": 22.406,
+  "end": 22.58
+ },
+ {
+  "word": "games?",
+  "start": 22.623,
+  "end": 23.083
+ }
+]
