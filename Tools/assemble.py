@@ -263,7 +263,7 @@ def ffmpeg_engine(folder, voice, shots, clips, ins, total, a, zooms=()):
         raise SystemExit(f"ffmpeg concat failed: {r.stderr[-300:]}")
     final = os.path.join(folder, a.out_name)
     if a.captions == "burn":
-        finish(folder, raw, final, total, a.caption_style, music=a.music, music_db=a.music_db, music_start=a.music_start, hook_text=a.hook_text or (open(os.path.join(folder, "hook.txt"), encoding="utf-8").read().strip() if os.path.exists(os.path.join(folder, "hook.txt")) else None))
+        finish(folder, raw, final, total, a.caption_style, music=a.music, music_db=a.music_db, music_start=a.music_start, hook_text=(a.hook_text or (open(os.path.join(folder, "hook.txt"), encoding="utf-8").read().strip() if os.path.exists(os.path.join(folder, "hook.txt")) else None)) if os.environ.get("ALLOW_HOOK_TEXT") == "1" else None)
     else:
         os.replace(raw, final)
     import shutil
@@ -277,7 +277,7 @@ def main():
     ap.add_argument("--music", help="optional music file, kept quiet and ducked under the voice")
     ap.add_argument("--music-db", dest="music_db", type=float, default=-21.0, help="music level under the voice, dB (default -21)")
     ap.add_argument("--music-start", dest="music_start", type=float, default=None, help="second of the track to start from (default: loudest steady stretch)")
-    ap.add_argument("--hook-text", dest="hook_text", default=None, help='big headline over the first 2 s, e.g. "$87M GONE?" ("|" = new line); or put it in hook.txt')
+    ap.add_argument("--hook-text", dest="hook_text", default=None, help='DISABLED by the user on Oct 4 2026 (captions only, no big headline); ignored unless env ALLOW_HOOK_TEXT=1')
     ap.add_argument("--auto-zoom", dest="auto_zoom", type=float, default=0.0, help="slow push-in on every footage shot, e.g. 0.06")
     ap.add_argument("--out-name", dest="out_name", default="final.mp4", help="output file name inside the folder")
     ap.add_argument("--captions", default="burn", help="burn (MetaSports look, default) or a Drift preset: subtitle, caption, hormozi, one-word-color")

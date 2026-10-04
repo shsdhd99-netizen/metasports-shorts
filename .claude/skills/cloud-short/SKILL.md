@@ -22,7 +22,7 @@ Installs python packages, makes Chromium trust the proxy certificate, copies the
 - Best lane: **rules, bans, 'caught'/referee stories and one-second oddities** (REBOUND's rule/ban Shorts median 7.7M vs 775K overall). Contracts/trades are flat; use them only with a rule, a number gap or a funny detail as the hook.
 - Titles 5-7 words, one emoji at the end. Avoid 🤔 (worst in the data); prefer 😳 💀 😭. Start with Why/How/What/Did/Is or "He ...".
 - Every Short must add original value (research, an opinion line, verified numbers), never a repeated template: YouTube's inauthentic-content policy.
-- Optional visual flags: `--hook-text "NUMBER|HOOK?"` (headline over the first 2 s) and `--auto-zoom 0.06`; A/B them, don't assume.
+- Optional visual flag: `--auto-zoom 0.06`. NO `--hook-text` headline (user removed it Oct 4 2026): the first 3 seconds are carried by the real image + the spoken/captioned hook line.
 
 Round 6 (`Research Notes/Round 6 - What Makes Shorts Go Viral (Oct 4, 2026).md`) contradicted or found unsupported: name/number-first titles, 18-35 s length, avg shot <=1.9 s, never-over-3-s shots, 6-11 AM posting, 3 covers. Where this file still says otherwise, Round 6 wins. Comments do not drive reach (do not over-invest in pinned comments); keep Shorts under 60 s (copyright-claim rule unresolved).
 
@@ -33,7 +33,7 @@ Before anything else, read `Research Notes/Lessons Learned (running log).md` and
 ## THE QUALITY FORMULA (mandatory, every Short; the user should never have to ask)
 A Short that is one talking head, text cards or repeated footage gets swiped (this happened to #15 v1). Build every Short to this recipe:
 1. **Story first, footage second.** Before writing, find 6+ different real clips (X posts, official reveal videos, archive.org). If a topic has under 6, find a fresher angle (e.g. #15 got better when the Heat x GTA night was found) or drop it.
-2. **Hook = a striking real image + a name/number line at 0.0 s**, 3+ cuts in the first 3 s, headline text (`--hook-text`, two short lines, each under 14 characters).
+2. **Hook = a striking real image + a name/number line at 0.0 s**, 3+ cuts in the first 3 s, NO big headline text: the user removed the hook headline on Oct 4 2026 (captions only). `assemble.py` ignores `--hook-text` unless env ALLOW_HOOK_TEXT=1; do not use it.
 3. **Recipe per 23-30 s:** ~40% b-roll that shows the story (`kind: action`), <=45% talking head or quote (`face`/`quote`), <=25% cards, avg shot 1.4-1.9 s, no clip over 35%.
 4. **Real quotes in short bursts** (<=4 s) cut in with `Tools/splice_voice.py` (real audio + our narration), never a long raw interview. Cut to b-roll on the narration between quotes.
 5. **Cards only for proof**, <=2 s, only if the card is visually rich (headline + image). Dull white-page cards get replaced with b-roll.
@@ -58,6 +58,11 @@ Order: research -> find 6+ clips -> script around the clips -> voice (`voiceover
 - Real quote bursts (a new voice) re-trigger attention; keep 2-3 per Short; vary sound effects (2-5), do not repeat the same one.
 - Our channel's NBA-era Shorts plateau at 20-45K views (46 of 60): likely a fixed test audience; we have no retention data. Ask the user for Studio exports per Short (Viewed %, avg % viewed, retention points) and fill `Research Notes/Outcome Log.md`.
 - Critic verdicts: `Research Notes/Critique Round 1 - Verdicts.md` (one Short per story family per week; check the shot under every spoken name; notes.md with claim -> exact source; quotes at -16 LUFS; pad 0.3 s tail).
+
+## STORY STANDARD (user, Oct 4: every story must have high retention and a real payoff; modelled on the Wembanyama Short that got 79.5% stayed / 100.3% avg viewed)
+Shape (22-30 s, 90-120 words at 230-270 wpm): 1) tension hook in the first 8 words (a universal rule, a surprising number or a conflict; never a flat recap) -> 2) the turn ("Until X", "But") -> 3) escalation: at least two beats where the stakes or the weirdness go UP ("But that's not even the crazy part") -> 4) the PAYOFF: the reveal/list/number the hook promised -> 5) END ON THE PAYOFF line (a closing question only if the payoff already landed; the last frame loops to the first).
+Scorecard to run before delivery (a critic helper does this per Short; see `Research Notes/Critique Round 2*`): hook tension, promise vs delivery, turn in the first 40%, 2+ escalation beats, payoff clear, ends on payoff, no padding (every sentence adds a new fact), longest stretch without a new fact or image <= 3-4 s, footage matches every spoken name/number, claims sourced.
+Pin shots to words: put `"anchor": "first words of the phrase"` on shots in shots.json and run `python Tools/anchor_shots.py --folder <folder>`; it sets every start from words.json and prints a table of the words spoken under each shot (check that a named person is on screen while the name is spoken). After a script rewrite re-run it instead of hand-retiming.
 
 ## 1. Research (this is where views come from; do real research, never invent)
 - `python Tools/fresh_moments.py` for what is hot. Use WebSearch for the last 7 days: "NBA <player/team> <week>", media day, training camp,
