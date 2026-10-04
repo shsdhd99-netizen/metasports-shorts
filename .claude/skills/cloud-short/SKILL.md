@@ -24,6 +24,8 @@ Installs python packages, makes Chromium trust the proxy certificate, copies the
 - Every Short must add original value (research, an opinion line, verified numbers), never a repeated template: YouTube's inauthentic-content policy.
 - Optional visual flags: `--hook-text "NUMBER|HOOK?"` (headline over the first 2 s) and `--auto-zoom 0.06`; A/B them, don't assume.
 
+Before anything else, read `Research Notes/Lessons Learned (running log).md` and add to it whenever you learn something.
+
 ## THE QUALITY FORMULA (mandatory, every Short; the user should never have to ask)
 A Short that is one talking head, text cards or repeated footage gets swiped (this happened to #15 v1). Build every Short to this recipe:
 1. **Story first, footage second.** Before writing, find 6+ different real clips (X posts, official reveal videos, archive.org). If a topic has under 6, find a fresher angle (e.g. #15 got better when the Heat x GTA night was found) or drop it.

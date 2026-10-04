@@ -20,11 +20,16 @@ FILLER = {"so", "look", "that's", "thats", "mate", "um", "uh", "well", "okay", "
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--folder", required=True)
+    ap.add_argument("--video", help="video to test (default final.mp4)")
+    ap.add_argument("--infer-kinds", action="store_true", help="old Shorts: cards by clip name, everything else counts as action")
     a = ap.parse_args()
     F = a.folder
     shots = json.load(open(os.path.join(F, "shots.json")))
     words = json.load(open(os.path.join(F, "words.json")))
-    fin = os.path.join(F, "final.mp4")
+    fin = a.video or os.path.join(F, "final.mp4")
+    if a.infer_kinds:
+        for x in shots:
+            x.setdefault("kind", "card" if re.match(r"c\d", x["clip"]) else "action")
     total = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", fin], capture_output=True, text=True).stdout)
     bad, ok = [], []
 

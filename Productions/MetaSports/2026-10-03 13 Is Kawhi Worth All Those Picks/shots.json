@@ -31,6 +31,11 @@
   "why": "This month Toronto sent Ingram, Dick, two firsts... (Hoops Rumors trade card)"
  },
  {
+  "clip": "V10_kawhi_raptors_pose.mp4",
+  "start": 9.25,
+  "why": "b-roll cut-away to break up a long card"
+ },
+ {
   "clip": "V06_gradey_dick.mp4",
   "start": 10.58,
   "why": "a pick swap and two seconds to the Clippers (Gradey Dick, a piece of the deal)"
@@ -44,6 +49,12 @@
   "clip": "c13_b_1.mp4",
   "start": 13.64,
   "why": "Five of those picks were taken by the NBA (ESPN card)"
+ },
+ {
+  "clip": "V07_intuit_dome_ceremony.mp4",
+  "start": 15.0,
+  "why": "b-roll cut-away to break up a long card",
+  "in": 0.3
  },
  {
   "clip": "c13_a_1.mp4",
@@ -71,8 +82,10 @@
   "why": "buying a championship (2019 Game 7 celebration)"
  },
  {
-  "clip": "V12_g7_dribble.mp4",
+  "clip": "V02_kawhi_dunk.mp4",
   "start": 22.79,
-  "why": "or paying for 2019 (Game 7, Kawhi with the ball)"
+  "why": "loop to first shot",
+  "in": 0.1,
+  "zoom": 0.1
  }
 ]
