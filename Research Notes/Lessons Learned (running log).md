@@ -36,5 +36,8 @@ voice at 0.0-0.4 s, non-filler first word, 3+ shots and real action in first 3 s
 - #14 passes as made. #13 and #12 v2 remade (shorter cards, cut-aways, loop) and now pass; #15 rebuilt and passes.
 - #11 (Jordan) and LeBron v6/v7 were not remade: their source clips are not in the repo (they came from the PC). Failures were small (two 3.2-3.4 s cards, no loop). To remake: re-fetch footage and rerun with the gate.
 
+## Posted so far (do not rework these)
+- Duren (#12) and the Wembanyama Short are already uploaded (user, Oct 4). Results from the user due within 36 hours of Oct 4. Do not spend time on them; spend it on NEW Shorts.
+
 ## Open tests (waiting on the user's analytics in 1-3 days)
 question vs number hook; hook headline vs none; music vs none; ALL CAPS vs Clank captions; rule vs contract vs funny lane. Read "Viewed vs swiped away" at 24 h: 70%+ good, <60% rewrite the first 2 s.
