@@ -75,14 +75,24 @@ def main():
     if m:
         lu = float(m[-1])
         chk(abs(lu + 14) <= 1.5, f"loudness {lu} LUFS", f"loudness {lu} LUFS (want -14)")
+    tail = total - words[-1]["end"]
     warn = []
+    if tail < 0.1:
+        bad.append(f"voice is cut off: last word ends {tail:.2f}s before the end (add 0.3 s tail: ffmpeg -af apad=pad_dur=0.3)")
+    first8 = " ".join(w["word"] for w in words[:8]).lower()
+    if not re.search(r"\d|\b(but|never|banned|caught|first|only|wrong|illegal|fine|fined|suspended|record|why|how|what|did|is|will)\b", first8):
+        warn.append(f"hook has no number or conflict/question word in the first 8 words: '{first8}' (state the question the viewer needs answered by 1.5 s)")
+    tiny = [round(d, 2) for s, _, _, d in segs if d < 0.6]
+    if tiny:
+        warn.append(f"shots under 0.6 s read as noise: {tiny}")
+    if not os.path.exists(os.path.join(F, "notes.md")):
+        warn.append("no notes.md (needs Lane, Concept, Added value, claim -> exact source quote)")
     if avg < 1.3:
         warn.append(f"average shot {avg:.1f}s is very fast; a 1.9 vs 2.8 s A/B is pending (HYPOTHESIS)")
     dur_voice = words[-1]["end"] - words[0]["start"]
     wpm = len(words) / dur_voice * 60 if dur_voice else 0
     if not 240 <= wpm <= 290:
         warn.append(f"speech pace {wpm:.0f} wpm (Clank's biggest Shorts: 247-289)")
-    tail = total - words[-1]["end"]
     if not 0.15 <= tail <= 0.6:
         warn.append(f"last word ends {tail:.2f}s before the end (loop tail wants 0.15-0.4 s)")
     last6 = " ".join(w["word"].lower() for w in words[-6:])

@@ -19,39 +19,39 @@
   "i": 2,
   "kind": "vo",
   "start": 4.071,
-  "end": 6.903,
+  "end": 6.71,
   "src": "_n2",
   "src_from": null
  },
  {
   "i": 3,
   "kind": "quote",
-  "start": 7.023,
-  "end": 10.073,
+  "start": 6.83,
+  "end": 9.88,
   "src": "/tmp/claude-0/-home-user-metasports-shorts/bc228739-3662-5759-8934-674d6d03bfcf/scratchpad/p18/src/2104601086678200731.mp4",
   "src_from": 19.55
  },
  {
   "i": 4,
   "kind": "vo",
-  "start": 10.193,
-  "end": 18.042,
+  "start": 10.0,
+  "end": 21.034,
   "src": "_n3",
   "src_from": null
  },
  {
   "i": 5,
   "kind": "quote",
-  "start": 18.162,
-  "end": 20.742,
+  "start": 21.154,
+  "end": 23.734,
   "src": "/tmp/claude-0/-home-user-metasports-shorts/bc228739-3662-5759-8934-674d6d03bfcf/scratchpad/p18/src/2105373397635219917.mp4",
   "src_from": 8.72
  },
  {
   "i": 6,
   "kind": "vo",
-  "start": 20.862,
-  "end": 23.37,
+  "start": 23.854,
+  "end": 26.362,
   "src": "_n4",
   "src_from": null
  }

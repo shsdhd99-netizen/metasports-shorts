@@ -1,0 +1,26 @@
+[
+ {
+  "i": 0,
+  "kind": "vo",
+  "start": 0.0,
+  "end": 14.409,
+  "src": "_n1",
+  "src_from": null
+ },
+ {
+  "i": 1,
+  "kind": "quote",
+  "start": 14.529,
+  "end": 19.029,
+  "src": "/tmp/claude-0/-home-user-metasports-shorts/bc228739-3662-5759-8934-674d6d03bfcf/scratchpad/p20/src/2104934389666677091.mp4",
+  "src_from": 215.62
+ },
+ {
+  "i": 2,
+  "kind": "vo",
+  "start": 19.149,
+  "end": 23.231,
+  "src": "_n3",
+  "src_from": null
+ }
+]

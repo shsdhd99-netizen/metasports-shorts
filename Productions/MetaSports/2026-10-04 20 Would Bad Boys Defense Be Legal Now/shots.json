@@ -1,0 +1,109 @@
+[
+ {
+  "clip": "O5.mp4",
+  "start": 0.0,
+  "why": "hook scuffle Laimbeer/Rodman era",
+  "kind": "action",
+  "zoom": 0.12
+ },
+ {
+  "clip": "O6.mp4",
+  "start": 1.1,
+  "why": "Bad Boy Pistons",
+  "kind": "action"
+ },
+ {
+  "clip": "O4.mp4",
+  "start": 2.6,
+  "why": "allowed per game",
+  "kind": "action"
+ },
+ {
+  "clip": "O7.mp4",
+  "start": 4.1,
+  "why": "Laimbeer",
+  "kind": "action"
+ },
+ {
+  "clip": "O2.mp4",
+  "start": 4.72,
+  "why": "Rodman",
+  "kind": "action"
+ },
+ {
+  "clip": "O3.mp4",
+  "start": 5.35,
+  "why": "Isiah / built on contact",
+  "kind": "action",
+  "zoom": 0.05
+ },
+ {
+  "clip": "M7.mp4",
+  "start": 7.4,
+  "why": "last year's playoff teams",
+  "kind": "action"
+ },
+ {
+  "clip": "M1.mp4",
+  "start": 8.9,
+  "why": "But NBA told refs to whistle",
+  "kind": "action",
+  "zoom": 0.06
+ },
+ {
+  "clip": "M6.mp4",
+  "start": 10.8,
+  "why": "grab a cutter",
+  "kind": "action"
+ },
+ {
+  "clip": "M2.mp4",
+  "start": 11.7,
+  "why": "bump a dribbler",
+  "kind": "action"
+ },
+ {
+  "clip": "M4.mp4",
+  "start": 13.5,
+  "why": "league's own video",
+  "kind": "action"
+ },
+ {
+  "clip": "Q1.mp4",
+  "start": 14.529,
+  "why": "quote: defender makes contact",
+  "kind": "quote"
+ },
+ {
+  "clip": "Q2.mp4",
+  "start": 16.83,
+  "why": "quote cont",
+  "kind": "quote"
+ },
+ {
+  "clip": "O1.mp4",
+  "start": 19.15,
+  "why": "so was Detroit committing fouls",
+  "kind": "action"
+ },
+ {
+  "clip": "O6.mp4",
+  "start": 20.3,
+  "why": "nobody called",
+  "kind": "action",
+  "in": 1.5
+ },
+ {
+  "clip": "M5.mp4",
+  "start": 21.1,
+  "why": "could anyone hold teams",
+  "kind": "action"
+ },
+ {
+  "clip": "O5.mp4",
+  "start": 22.3,
+  "why": "loop to first shot",
+  "kind": "action",
+  "zoom": 0.12
+ }
+]

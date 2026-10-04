@@ -42,7 +42,7 @@ def main():
         else:
             src = p["quote"] if os.path.isabs(p["quote"]) else os.path.join(F, p["quote"])
             f, to = p["from"], p["to"]
-            run("ffmpeg", "-y", "-ss", str(f), "-t", str(to - f), "-i", src, "-af", "loudnorm=I=-18:TP=-2:LRA=7,afade=t=in:d=0.02,afade=t=out:st=%.2f:d=0.04" % (to - f - 0.04), "-ar", "44100", "-ac", "1", out)
+            run("ffmpeg", "-y", "-ss", str(f), "-t", str(to - f), "-i", src, "-af", "loudnorm=I=-16:TP=-2:LRA=7,afade=t=in:d=0.02,afade=t=out:st=%.2f:d=0.04" % (to - f - 0.04), "-ar", "44100", "-ac", "1", out)
             off = p.get("stt_offset", 0.0)  # when the stt json was made from a clip cut that started at `off` seconds
             d = json.load(open(p["stt"]))
             got = []
@@ -72,12 +72,12 @@ def main():
                 gp = os.path.join(F, "_splice", "gap.wav")
                 run("ffmpeg", "-y", "-f", "lavfi", "-i", "anullsrc=r=44100:cl=mono", "-t", str(GAP), gp)
                 fh.write(f"file '{os.path.abspath(gp)}'\n")
-    run("ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", lst, "-c:a", "libmp3lame", "-q:a", "2", os.path.join(F, "voice.mp3"))
+    run("ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", lst, "-af", "apad=pad_dur=0.3", "-c:a", "libmp3lame", "-q:a", "2", os.path.join(F, "voice.mp3"))
     json.dump(words, open(os.path.join(F, "words.json"), "w"), indent=1)
     json.dump(tl, open(os.path.join(F, "_timeline.json"), "w"), indent=1)
     try:
         import voiceover
-        open(os.path.join(F, "captions.srt"), "w", encoding="utf-8").write(voiceover.to_srt(words))
+        open(os.path.join(F, "captions.srt"), "w", encoding="utf-8").write(voiceover.to_srt([(w["word"], w["start"], w["end"]) for w in words]))
     except Exception as e:
         print("captions.srt not written:", e)
     open(os.path.join(F, "script.txt"), "w", encoding="utf-8").write(" ".join(w["word"] for w in words))

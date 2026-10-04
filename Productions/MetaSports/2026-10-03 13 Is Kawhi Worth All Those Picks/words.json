@@ -2,491 +2,506 @@
  {
   "word": "The",
   "start": 0.0,
-  "end": 0.129
+  "end": 0.124
  },
  {
   "word": "Clippers",
-  "start": 0.173,
-  "end": 0.465
+  "start": 0.156,
+  "end": 0.426
  },
  {
   "word": "gave",
-  "start": 0.508,
-  "end": 0.638
+  "start": 0.457,
+  "end": 0.592
  },
  {
   "word": "up",
-  "start": 0.659,
-  "end": 0.735
+  "start": 0.624,
+  "end": 0.706
  },
  {
   "word": "ten",
-  "start": 0.778,
-  "end": 0.929
+  "start": 0.748,
+  "end": 0.883
  },
  {
   "word": "first-round",
-  "start": 0.994,
-  "end": 1.351
+  "start": 0.935,
+  "end": 1.298
  },
  {
   "word": "picks",
-  "start": 1.384,
-  "end": 1.567
+  "start": 1.34,
+  "end": 1.527
  },
  {
-  "word": "for",
-  "start": 1.59,
-  "end": 1.686
+  "word": "to",
+  "start": 1.548,
+  "end": 1.6
+ },
+ {
+  "word": "acquire",
+  "start": 1.641,
+  "end": 1.963
+ },
+ {
+  "word": "and",
+  "start": 2.015,
+  "end": 2.109
+ },
+ {
+  "word": "retain",
+  "start": 2.16,
+  "end": 2.431
  },
  {
   "word": "Kawhi",
-  "start": 1.74,
-  "end": 1.956
+  "start": 2.483,
+  "end": 2.67
  },
  {
   "word": "Leonard.",
-  "start": 2.033,
-  "end": 2.303
+  "start": 2.742,
+  "end": 3.064
  },
  {
   "word": "Now",
-  "start": 2.335,
-  "end": 2.476
+  "start": 3.095,
+  "end": 3.22
  },
  {
   "word": "Toronto",
-  "start": 2.53,
-  "end": 2.789
+  "start": 3.272,
+  "end": 3.521
  },
  {
   "word": "just",
-  "start": 2.843,
-  "end": 2.962
+  "start": 3.573,
+  "end": 3.688
  },
  {
   "word": "paid",
-  "start": 2.995,
-  "end": 3.146
+  "start": 3.708,
+  "end": 3.853
  },
  {
   "word": "two",
-  "start": 3.189,
-  "end": 3.351
+  "start": 3.895,
+  "end": 4.04
  },
  {
   "word": "more",
-  "start": 3.405,
-  "end": 3.567
+  "start": 4.092,
+  "end": 4.227
  },
  {
   "word": "to",
-  "start": 3.6,
-  "end": 3.644
+  "start": 4.258,
+  "end": 4.3
  },
  {
   "word": "take",
-  "start": 3.687,
-  "end": 3.827
+  "start": 4.342,
+  "end": 4.497
  },
  {
   "word": "him",
-  "start": 3.849,
-  "end": 3.914
+  "start": 4.518,
+  "end": 4.591
  },
  {
   "word": "back.",
-  "start": 3.946,
-  "end": 4.173
+  "start": 4.632,
+  "end": 4.934
  },
  {
   "word": "Kawhi",
-  "start": 4.205,
-  "end": 4.444
+  "start": 4.965,
+  "end": 5.183
  },
  {
   "word": "won",
-  "start": 4.519,
-  "end": 4.616
+  "start": 5.245,
+  "end": 5.36
  },
  {
   "word": "the",
-  "start": 4.66,
-  "end": 4.725
+  "start": 5.391,
+  "end": 5.453
  },
  {
   "word": "Raptors'",
-  "start": 4.768,
-  "end": 5.103
+  "start": 5.495,
+  "end": 5.817
  },
  {
   "word": "only",
-  "start": 5.157,
-  "end": 5.351
+  "start": 5.858,
+  "end": 6.034
  },
  {
   "word": "title",
-  "start": 5.405,
-  "end": 5.633
+  "start": 6.076,
+  "end": 6.295
  },
  {
   "word": "in",
-  "start": 5.665,
-  "end": 5.719
+  "start": 6.325,
+  "end": 6.367
  },
  {
   "word": "2019,",
-  "start": 5.773,
-  "end": 6.379
+  "start": 6.419,
+  "end": 7.011
  },
  {
   "word": "then",
-  "start": 6.411,
-  "end": 6.541
+  "start": 7.042,
+  "end": 7.198
  },
  {
   "word": "left",
-  "start": 6.595,
-  "end": 6.789
+  "start": 7.26,
+  "end": 7.447
  },
  {
   "word": "after",
-  "start": 6.833,
-  "end": 7.005
+  "start": 7.489,
+  "end": 7.676
  },
  {
   "word": "one",
-  "start": 7.082,
-  "end": 7.232
+  "start": 7.738,
+  "end": 7.883
  },
  {
   "word": "season.",
-  "start": 7.276,
-  "end": 7.622
+  "start": 7.924,
+  "end": 8.32
  },
  {
   "word": "This",
-  "start": 7.654,
-  "end": 7.827
+  "start": 8.361,
+  "end": 8.559
  },
  {
   "word": "month,",
-  "start": 7.881,
-  "end": 8.097
+  "start": 8.611,
+  "end": 8.828
  },
  {
   "word": "Toronto",
-  "start": 8.13,
-  "end": 8.433
+  "start": 8.85,
+  "end": 9.13
  },
  {
   "word": "sent",
-  "start": 8.487,
-  "end": 8.627
+  "start": 9.181,
+  "end": 9.307
  },
  {
   "word": "Brandon",
-  "start": 8.67,
-  "end": 8.951
+  "start": 9.348,
+  "end": 9.608
  },
  {
   "word": "Ingram,",
-  "start": 9.005,
-  "end": 9.287
+  "start": 9.66,
+  "end": 9.961
  },
  {
   "word": "Gradey",
-  "start": 9.341,
-  "end": 9.589
+  "start": 10.003,
+  "end": 10.242
  },
  {
   "word": "Dick,",
-  "start": 9.653,
-  "end": 9.87
+  "start": 10.293,
+  "end": 10.512
  },
  {
   "word": "two",
-  "start": 9.892,
-  "end": 10.043
+  "start": 10.543,
+  "end": 10.699
  },
  {
   "word": "unprotected",
-  "start": 10.108,
-  "end": 10.54
+  "start": 10.771,
+  "end": 11.186
  },
  {
   "word": "firsts,",
-  "start": 10.584,
-  "end": 10.865
+  "start": 11.228,
+  "end": 11.612
  },
  {
   "word": "a",
-  "start": 10.897,
-  "end": 10.952
+  "start": 11.634,
+  "end": 11.685
  },
  {
   "word": "pick",
-  "start": 11.027,
-  "end": 11.178
+  "start": 11.737,
+  "end": 11.882
  },
  {
   "word": "swap",
-  "start": 11.222,
-  "end": 11.438
+  "start": 11.924,
+  "end": 12.121
  },
  {
   "word": "and",
-  "start": 11.492,
-  "end": 11.6
+  "start": 12.173,
+  "end": 12.277
  },
  {
   "word": "two",
-  "start": 11.654,
-  "end": 11.794
+  "start": 12.33,
+  "end": 12.475
  },
  {
   "word": "seconds",
-  "start": 11.848,
-  "end": 12.108
+  "start": 12.526,
+  "end": 12.786
  },
  {
   "word": "to",
-  "start": 12.141,
-  "end": 12.183
+  "start": 12.807,
+  "end": 12.859
  },
  {
   "word": "the",
-  "start": 12.227,
-  "end": 12.291
+  "start": 12.9,
+  "end": 12.963
  },
  {
   "word": "Clippers.",
-  "start": 12.313,
-  "end": 12.735
+  "start": 12.984,
+  "end": 13.378
  },
  {
   "word": "But",
-  "start": 12.778,
-  "end": 12.919
+  "start": 13.399,
+  "end": 13.534
  },
  {
   "word": "here's",
-  "start": 12.962,
-  "end": 13.168
+  "start": 13.586,
+  "end": 13.815
  },
  {
   "word": "the",
-  "start": 13.199,
-  "end": 13.265
+  "start": 13.846,
+  "end": 13.908
  },
  {
   "word": "twist.",
-  "start": 13.297,
-  "end": 13.621
+  "start": 13.95,
+  "end": 14.272
  },
  {
   "word": "Five",
-  "start": 13.643,
-  "end": 13.848
+  "start": 14.302,
+  "end": 14.489
  },
  {
   "word": "of",
-  "start": 13.87,
-  "end": 13.914
+  "start": 14.52,
+  "end": 14.563
  },
  {
   "word": "those",
-  "start": 13.956,
-  "end": 14.097
+  "start": 14.604,
+  "end": 14.739
  },
  {
   "word": "Clippers",
-  "start": 14.118,
-  "end": 14.389
+  "start": 14.77,
+  "end": 15.04
  },
  {
   "word": "picks",
-  "start": 14.432,
-  "end": 14.594
+  "start": 15.081,
+  "end": 15.248
  },
  {
   "word": "were",
-  "start": 14.627,
-  "end": 14.746
+  "start": 15.268,
+  "end": 15.383
  },
  {
   "word": "taken",
-  "start": 14.779,
-  "end": 14.995
+  "start": 15.403,
+  "end": 15.611
  },
  {
   "word": "by",
-  "start": 15.037,
-  "end": 15.124
+  "start": 15.653,
+  "end": 15.736
  },
  {
   "word": "the",
-  "start": 15.178,
-  "end": 15.254
+  "start": 15.777,
+  "end": 15.85
  },
  {
   "word": "NBA,",
-  "start": 15.308,
-  "end": 15.697
+  "start": 15.902,
+  "end": 16.328
  },
  {
   "word": "along",
-  "start": 15.719,
-  "end": 15.935
+  "start": 16.349,
+  "end": 16.598
  },
  {
   "word": "with",
-  "start": 15.968,
-  "end": 16.076
+  "start": 16.629,
+  "end": 16.723
  },
  {
   "word": "a",
-  "start": 16.119,
-  "end": 16.151
+  "start": 16.753,
+  "end": 16.785
  },
  {
   "word": "$30 million",
-  "start": 16.205,
-  "end": 16.93
+  "start": 16.837,
+  "end": 17.533
  },
  {
   "word": "fine",
-  "start": 16.984,
-  "end": 17.221
+  "start": 17.585,
+  "end": 17.865
  },
  {
   "word": "and",
-  "start": 17.265,
-  "end": 17.384
+  "start": 17.886,
+  "end": 17.99
  },
  {
   "word": "a",
-  "start": 17.438,
-  "end": 17.481
+  "start": 18.031,
+  "end": 18.062
  },
  {
   "word": "one-year",
-  "start": 17.546,
-  "end": 17.838
+  "start": 18.125,
+  "end": 18.384
  },
  {
   "word": "suspension",
-  "start": 17.881,
-  "end": 18.313
+  "start": 18.426,
+  "end": 18.831
  },
  {
   "word": "for",
-  "start": 18.356,
-  "end": 18.454
+  "start": 18.883,
+  "end": 18.977
  },
  {
   "word": "owner",
-  "start": 18.508,
-  "end": 18.703
+  "start": 19.039,
+  "end": 19.226
  },
  {
   "word": "Steve",
-  "start": 18.757,
-  "end": 18.994
+  "start": 19.278,
+  "end": 19.486
  },
  {
   "word": "Ballmer,",
-  "start": 19.027,
-  "end": 19.362
+  "start": 19.527,
+  "end": 19.869
  },
  {
   "word": "over",
-  "start": 19.394,
-  "end": 19.556
+  "start": 19.901,
+  "end": 20.036
  },
  {
   "word": "how",
-  "start": 19.599,
-  "end": 19.686
+  "start": 20.078,
+  "end": 20.14
  },
  {
   "word": "they",
-  "start": 19.73,
-  "end": 19.826
+  "start": 20.182,
+  "end": 20.285
  },
  {
   "word": "paid",
-  "start": 19.859,
-  "end": 20.011
+  "start": 20.337,
+  "end": 20.524
  },
  {
   "word": "Kawhi.",
-  "start": 20.054,
-  "end": 20.4
+  "start": 20.576,
+  "end": 20.971
  },
  {
   "word": "Now",
-  "start": 20.464,
-  "end": 20.605
+  "start": 21.013,
+  "end": 21.147
  },
  {
   "word": "he's",
-  "start": 20.659,
-  "end": 20.789
+  "start": 21.21,
+  "end": 21.345
  },
  {
   "word": "thirty-five.",
-  "start": 20.811,
-  "end": 21.362
+  "start": 21.387,
+  "end": 21.989
  },
  {
   "word": "So",
-  "start": 21.395,
-  "end": 21.503
+  "start": 22.02,
+  "end": 22.124
  },
  {
   "word": "is",
-  "start": 21.557,
-  "end": 21.622
+  "start": 22.165,
+  "end": 22.217
  },
  {
   "word": "Toronto",
-  "start": 21.676,
-  "end": 21.913
+  "start": 22.269,
+  "end": 22.529
  },
  {
   "word": "buying",
-  "start": 21.967,
-  "end": 22.162
+  "start": 22.581,
+  "end": 22.768
  },
  {
   "word": "a",
-  "start": 22.205,
-  "end": 22.227
+  "start": 22.798,
+  "end": 22.82
  },
  {
   "word": "championship,",
-  "start": 22.27,
-  "end": 22.757
+  "start": 22.861,
+  "end": 23.453
  },
  {
   "word": "or",
-  "start": 22.789,
-  "end": 22.875
+  "start": 23.485,
+  "end": 23.568
  },
  {
   "word": "paying",
-  "start": 22.919,
-  "end": 23.114
+  "start": 23.62,
+  "end": 23.827
  },
  {
   "word": "for",
-  "start": 23.146,
-  "end": 23.222
+  "start": 23.858,
+  "end": 23.942
  },
  {
   "word": "2019?",
-  "start": 23.276,
-  "end": 24.0
+  "start": 23.994,
+  "end": 24.72
  }
 ]
