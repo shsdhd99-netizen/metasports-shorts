@@ -1,0 +1,20 @@
+[
+ {
+  "sfx": "boom",
+  "at": 0.0,
+  "gain": -12,
+  "why": "hook"
+ },
+ {
+  "sfx": "click",
+  "at": 4.8,
+  "gain": -10,
+  "why": "poster"
+ },
+ {
+  "sfx": "whoosh",
+  "at": 17.92,
+  "gain": -14,
+  "why": "back to the neon"
+ }
+]

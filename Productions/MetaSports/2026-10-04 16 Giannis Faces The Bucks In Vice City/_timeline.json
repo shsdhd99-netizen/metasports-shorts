@@ -1,0 +1,34 @@
+[
+ {
+  "i": 0,
+  "kind": "vo",
+  "start": 0.0,
+  "end": 10.809,
+  "src": "_n1",
+  "src_from": null
+ },
+ {
+  "i": 1,
+  "kind": "quote",
+  "start": 10.929,
+  "end": 12.629,
+  "src": "/tmp/claude-0/-home-user-metasports-shorts/bc228739-3662-5759-8934-674d6d03bfcf/scratchpad/p16/src/2081841967915581692.mp4",
+  "src_from": 142.35
+ },
+ {
+  "i": 2,
+  "kind": "quote",
+  "start": 12.749,
+  "end": 17.799,
+  "src": "/tmp/claude-0/-home-user-metasports-shorts/bc228739-3662-5759-8934-674d6d03bfcf/scratchpad/p16/src/2081841967915581692.mp4",
+  "src_from": 148.2
+ },
+ {
+  "i": 3,
+  "kind": "vo",
+  "start": 17.919,
+  "end": 22.795,
+  "src": "_n3",
+  "src_from": null
+ }
+]

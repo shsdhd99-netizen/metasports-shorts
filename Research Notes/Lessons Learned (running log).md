@@ -18,6 +18,9 @@ Updated 2026-10-04 after Shorts #11-#15 and the LeBron redo.
 - Hook headline (`--hook-text`) must be <= 14 characters per line or it clips ("HEAT BECOME|VICE CITY").
 - A dull white-page evidence card is worse than b-roll. Keep cards <= 2 s and <= 25% of runtime.
 
+- Auto-transcription mishears names (Milwaukee -> 'Madrid'): override with `text` in the splice plan. Source videos often have burned-in subtitles: crop them out (`broll.py cut --zoom 1.25 --y 0.0`) or they clash with our captions.
+- A 'first time ever' angle (Giannis vs the team that drafted him) + a second fresh hook (Vice City night) made #16; look for two news items that collide.
+
 ## Mistakes to never repeat
 - Building around one clip (#15 v1: 44-100% talking head).
 - Opening on a filler word ("So", "Look", "That's"), or on an interview line.

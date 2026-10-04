@@ -2,12 +2,13 @@
 
   python splice_voice.py --folder "<Short folder>" --plan plan.json [--stt-dir <dir>]
 plan.json: [{"vo": "_n1"},                                   # folder with voice.mp3 + words.json from voiceover.py
-            {"quote": "clips/adams_full.mp4", "stt": "adams_stt.json", "from": 13.26, "to": 17.0},
+            {"quote": "clips/adams_full.mp4", "stt": "adams_stt.json", "from": 13.26, "to": 17.0, "text": "optional true words", "stt_offset": 0},
             {"vo": "_n2"}, ...]
 Writes voice.mp3, words.json (all word times on the final timeline) and _timeline.json (start of each piece, for shots.json).
 Each piece is loudnormed to -18 LUFS, 0.12 s gap between pieces. Quote words come from ElevenLabs STT json (scribe).
 """
-import argparse, json, os, subprocess
+import argparse, json, os, subprocess, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 GAP = 0.12
 
@@ -42,12 +43,22 @@ def main():
             src = p["quote"] if os.path.isabs(p["quote"]) else os.path.join(F, p["quote"])
             f, to = p["from"], p["to"]
             run("ffmpeg", "-y", "-ss", str(f), "-t", str(to - f), "-i", src, "-af", "loudnorm=I=-18:TP=-2:LRA=7,afade=t=in:d=0.02,afade=t=out:st=%.2f:d=0.04" % (to - f - 0.04), "-ar", "44100", "-ac", "1", out)
+            off = p.get("stt_offset", 0.0)  # when the stt json was made from a clip cut that started at `off` seconds
             d = json.load(open(p["stt"]))
+            got = []
             for w in d.get("words", d):
                 if w.get("type", "word") != "word":
                     continue
-                if w["start"] >= f - 0.02 and w["end"] <= to + 0.1:
-                    words.append({"word": w["text"], "start": round(t + w["start"] - f, 3), "end": round(t + min(w["end"], to) - f, 3)})
+                ws_, we_ = w["start"] + off, w["end"] + off
+                if ws_ >= f - 0.02 and we_ <= to + 0.1:
+                    got.append({"word": w["text"], "start": ws_, "end": min(we_, to)})
+            if p.get("text"):  # the transcript misheard (names!): use the true words, spread over the same span
+                tw = p["text"].split()
+                a0, a1 = (got[0]["start"], got[-1]["end"]) if got else (f, to)
+                step = (a1 - a0) / len(tw)
+                got = [{"word": x, "start": a0 + i * step, "end": a0 + (i + 1) * step} for i, x in enumerate(tw)]
+            for w in got:
+                words.append({"word": w["word"], "start": round(t + w["start"] - f, 3), "end": round(t + w["end"] - f, 3)})
             kind = "quote"
         d = dur(out)
         tl.append({"i": i, "kind": kind, "start": round(t, 3), "end": round(t + d, 3), "src": p.get("vo") or p.get("quote"), "src_from": p.get("from")})
@@ -64,6 +75,12 @@ def main():
     run("ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", lst, "-c:a", "libmp3lame", "-q:a", "2", os.path.join(F, "voice.mp3"))
     json.dump(words, open(os.path.join(F, "words.json"), "w"), indent=1)
     json.dump(tl, open(os.path.join(F, "_timeline.json"), "w"), indent=1)
+    try:
+        import voiceover
+        open(os.path.join(F, "captions.srt"), "w", encoding="utf-8").write(voiceover.to_srt(words))
+    except Exception as e:
+        print("captions.srt not written:", e)
+    open(os.path.join(F, "script.txt"), "w", encoding="utf-8").write(" ".join(w["word"] for w in words))
     print("total", round(t - GAP, 2), "s;", len(words), "words")
     for x in tl:
         print(x)
