@@ -1,0 +1,20 @@
+[
+ {
+  "sfx": "boom",
+  "at": 0.0,
+  "gain": -12,
+  "why": "hook"
+ },
+ {
+  "sfx": "click",
+  "at": 8.93,
+  "gain": -10,
+  "why": "turn: But"
+ },
+ {
+  "sfx": "whoosh",
+  "at": 18.71,
+  "gain": -14,
+  "why": "Now"
+ }
+]

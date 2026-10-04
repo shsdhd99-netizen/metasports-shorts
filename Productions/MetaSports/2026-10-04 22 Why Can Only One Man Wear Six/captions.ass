@@ -1,0 +1,55 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Montserrat Black,86,&H00FFFFFF,&H00FFFFFF,&H00000000,&H99000000,0,0,0,0,95,100,1,0,1,6,3,5,70,70,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.44,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ONLY ONE
+Dialogue: 0,0:00:00.44,0:00:00.95,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NBA PLAYER
+Dialogue: 0,0:00:00.95,0:00:01.28,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}CAN STILL
+Dialogue: 0,0:00:01.28,0:00:02.07,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WEAR NUMBER SIX.
+Dialogue: 0,0:00:02.07,0:00:02.60,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BILL RUSSELL
+Dialogue: 0,0:00:02.60,0:00:03.45,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WON ELEVEN TITLES,
+Dialogue: 0,0:00:03.45,0:00:04.34,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SO IN 2022
+Dialogue: 0,0:00:04.34,0:00:04.66,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE LEAGUE
+Dialogue: 0,0:00:04.66,0:00:05.25,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}RETIRED SIX
+Dialogue: 0,0:00:05.25,0:00:05.87,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FOR EVERY TEAM.
+Dialogue: 0,0:00:05.87,0:00:06.32,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BUT ANYONE
+Dialogue: 0,0:00:06.32,0:00:06.86,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ALREADY WEARING
+Dialogue: 0,0:00:06.86,0:00:07.43,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IT KEPT IT.
+Dialogue: 0,0:00:07.43,0:00:07.83,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NOW ONE
+Dialogue: 0,0:00:07.83,0:00:08.53,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}MAN IS LEFT.
+Dialogue: 0,0:00:08.53,0:00:09.45,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}JAYLIN WILLIAMS.
+Dialogue: 0,0:00:09.45,0:00:09.74,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HERE HE
+Dialogue: 0,0:00:09.74,0:00:10.48,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IS ON THAT.
+Dialogue: 0,0:00:10.48,0:00:10.93,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}I'M HONORED.
+Dialogue: 0,0:00:10.93,0:00:11.38,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}I KNOW
+Dialogue: 0,0:00:11.38,0:00:11.84,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE NUMBER
+Dialogue: 0,0:00:11.84,0:00:12.52,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SIX WAS RETIRED
+Dialogue: 0,0:00:12.52,0:00:13.20,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FOR THE GREAT
+Dialogue: 0,0:00:13.20,0:00:13.99,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BILL RUSSELL HIS
+Dialogue: 0,0:00:13.99,0:00:14.43,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}DAD PICKED
+Dialogue: 0,0:00:14.43,0:00:14.86,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THAT NUMBER
+Dialogue: 0,0:00:14.86,0:00:15.21,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}A MONTH
+Dialogue: 0,0:00:15.21,0:00:15.76,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BEFORE THE LEAGUE
+Dialogue: 0,0:00:15.76,0:00:16.26,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}RETIRED IT.
+Dialogue: 0,0:00:16.26,0:00:16.81,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WHEN JAYLIN
+Dialogue: 0,0:00:16.81,0:00:17.32,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}RETIRES,
+Dialogue: 0,0:00:17.32,0:00:17.99,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SIX DISAPPEARS
+Dialogue: 0,0:00:17.99,0:00:18.48,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FOREVER.
+Dialogue: 0,0:00:18.48,0:00:19.20,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SO WAS RETIRING
+Dialogue: 0,0:00:19.20,0:00:19.59,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ONE NUMBER
+Dialogue: 0,0:00:19.59,0:00:19.93,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FOR ALL
+Dialogue: 0,0:00:19.93,0:00:20.47,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THIRTY TEAMS
+Dialogue: 0,0:00:20.47,0:00:20.76,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE RIGHT
+Dialogue: 0,0:00:20.76,0:00:21.52,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HONOR FOR RUSSELL?
+Dialogue: 0,0:00:21.52,0:00:22.19,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}OR SHOULD SOMEBODY
+Dialogue: 0,0:00:22.19,0:00:22.61,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}STILL GET TO
+Dialogue: 0,0:00:22.61,0:00:23.72,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WEAR SIX?
