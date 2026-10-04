@@ -8,60 +8,72 @@
  },
  {
   "clip": "V03.mp4",
-  "start": 1.03,
+  "start": 1.0,
   "why": "technical foul: Cavs flop",
   "kind": "action",
   "zoom": 0.08
  },
  {
   "clip": "V04.mp4",
-  "start": 2.05,
-  "why": "league video of flops",
+  "start": 1.36,
+  "why": "Finch loves it",
+  "kind": "action",
+  "zoom": 0.06
+ },
+ {
+  "clip": "V06.mp4",
+  "start": 2.5,
+  "why": "loves it",
+  "kind": "action"
+ },
+ {
+  "clip": "V09.mp4",
+  "start": 3.4,
+  "why": "stop rewarding the flopping",
   "kind": "action",
   "zoom": 0.06
  },
  {
   "clip": "V08.mp4",
-  "start": 2.9,
-  "why": "last season's flops (Pelicans)",
+  "start": 4.4,
+  "why": "league posted video of flops",
   "kind": "action",
   "zoom": 0.06
  },
  {
   "clip": "V02.mp4",
-  "start": 4.0,
+  "start": 5.6,
+  "why": "last season's flops",
+  "kind": "action"
+ },
+ {
+  "clip": "V11.mp4",
+  "start": 6.5,
   "why": "secondary theatrical",
   "kind": "action"
  },
  {
-  "clip": "V06.mp4",
-  "start": 5.2,
+  "clip": "V05.mp4",
+  "start": 7.5,
   "why": "exaggerated movement",
   "kind": "action"
  },
  {
-  "clip": "V09.mp4",
-  "start": 6.55,
-  "why": "Finch: stop rewarding the flopping",
-  "kind": "action",
-  "zoom": 0.06
- },
- {
   "clip": "F1.mp4",
-  "start": 8.2,
+  "start": 8.4,
   "why": "Daigneault sees the catch",
   "kind": "face",
   "zoom": 0.05
  },
  {
   "clip": "Q1.mp4",
-  "start": 9.95,
+  "start": 10.09,
   "why": "quote: flailing to bait those calls",
   "kind": "quote"
  },
  {
   "clip": "Q1.mp4",
-  "start": 11.95,
+  "start": 12.09,
   "why": "quote cont",
   "kind": "quote",
   "zoom": 0.12,
@@ -69,20 +81,20 @@
  },
  {
   "clip": "V07.mp4",
-  "start": 14.0,
+  "start": 14.1,
   "why": "not every fall is a flop",
   "kind": "action",
   "zoom": 0.06
  },
  {
   "clip": "S1.mp4",
-  "start": 15.85,
+  "start": 16.05,
   "why": "Siakam sit-down",
   "kind": "action"
  },
  {
   "clip": "A1.mp4",
-  "start": 18.85,
+  "start": 18.9,
   "why": "Avdija head snap",
   "kind": "action"
  },
@@ -94,13 +106,13 @@
  },
  {
   "clip": "P1.mp4",
-  "start": 21.85,
+  "start": 21.9,
   "why": "Brown push-off example",
   "kind": "action"
  },
  {
   "clip": "V01.mp4",
-  "start": 22.5,
+  "start": 22.6,
   "why": "loop to first shot",
   "kind": "action",
   "zoom": 0.12
