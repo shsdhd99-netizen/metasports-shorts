@@ -43,7 +43,7 @@ def main():
     kinds = {k: sum(d for s, _, _, d in segs if s.get("kind") == k) for k in ("face", "quote", "action", "card")}
     missing = [s["clip"] for s in shots if "kind" not in s]
     chk(not missing, "every shot has a kind", f"shots missing 'kind': {missing[:3]}")
-    chk(21 <= total <= 40, f"length {total:.1f}s", f"length {total:.1f}s (want 21-40; Clank 21 s+ stories beat <=20 s, 848K vs 291K)")
+    chk(21 <= total <= 45, f"length {total:.1f}s", f"length {total:.1f}s (want 21-45; Clank 21 s+ stories beat <=20 s, 848K vs 291K)")
     first = words[0]
     chk(first["start"] <= 0.4, "voice starts at once", f"first word at {first['start']}s (want <=0.4)")
     fw = re.sub(r"[^a-z']", "", first["word"].lower())
@@ -53,7 +53,7 @@ def main():
     chk(any(s.get("kind") == "action" for s in in3), "real action footage in first 3 s", "no 'action' footage in the first 3 s (a talking head or card hook gets swiped)")
     hook = " ".join(w["word"] for w in words if w["start"] < 3.0)
     chk(bool(re.search(r"\d|[A-Z][a-z]+ [A-Z]|million|billion|percent|first|never|only|banned|illegal|rule", hook)) , "hook line has a name/number/stakes", f"hook line weak: '{hook}'")
-    long_ = [(s["clip"], round(d, 1)) for s, _, _, d in segs if d > (4.0 if s.get("kind") == "quote" else 3.0)]
+    long_ = [(s["clip"], round(d, 1)) for s, _, _, d in segs if d > (4.5 if s.get("kind") == "quote" else 3.6)]
     chk(not long_, "no shot too long", f"shots too long: {long_}")
     avg = total / len(segs)
     chk(avg <= 2.6, f"average shot {avg:.1f}s", f"average shot {avg:.1f}s (want <=2.6)")

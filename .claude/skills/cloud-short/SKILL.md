@@ -24,6 +24,8 @@ Installs python packages, makes Chromium trust the proxy certificate, copies the
 - Every Short must add original value (research, an opinion line, verified numbers), never a repeated template: YouTube's inauthentic-content policy.
 - Optional visual flags: `--hook-text "NUMBER|HOOK?"` (headline over the first 2 s) and `--auto-zoom 0.06`; A/B them, don't assume.
 
+Round 6 (`Research Notes/Round 6 - What Makes Shorts Go Viral (Oct 4, 2026).md`) contradicted or found unsupported: name/number-first titles, 18-35 s length, avg shot <=1.9 s, never-over-3-s shots, 6-11 AM posting, 3 covers. Where this file still says otherwise, Round 6 wins. Comments do not drive reach (do not over-invest in pinned comments); keep Shorts under 60 s (copyright-claim rule unresolved).
+
 Before anything else, read `Research Notes/Lessons Learned (running log).md` and add to it whenever you learn something.
 
 ## THE QUALITY FORMULA (mandatory, every Short; the user should never have to ask)
@@ -57,9 +59,9 @@ Order: research -> find 6+ clips -> script around the clips -> voice (`voiceover
 - Pick the angle with a built-in argument (win-or-lose, then-vs-now, rule-vs-legend). Keep a facts list with a source URL for every number.
 
 ## 2. Script (retention rules; Shorts live or die on "viewed vs swiped away", aim 70%+ at 3 s)
-- 22-34 s, 95-125 words. First 6 words carry the scene, the number or the stakes. No throat-clearing, no "did you know".
+- 23-40 s (CoachClank's 31-45 s Shorts did best; Round 6), 95-150 words. First 6 words carry the scene, the number or the stakes. No throat-clearing, no "did you know".
 - Turn ("You see" / "But") inside the first third; a second re-hook ("But here's the twist") around 45%.
-- Short sentences, one idea each, so each can be a new shot every 1.5-2.5 s.
+- Short sentences, one idea each, so each can be a new shot every 1.5-3 s (no evidence that faster than ~2 s helps; test it).
 - End on a two-sided argument the comments will fight over, then stop. A last line that echoes the first helps the loop.
 - Spell numbers the voice might misread as `{$200 million|two hundred million dollars}`; hard names `{Maxey|Max-ee}`.
 - Save `Productions/MetaSports/<date> NN <Title>/script.txt` (ONLY the spoken words, one paragraph) and `notes.md` (facts with links, titles, pin, warnings).
@@ -96,9 +98,9 @@ then `python Tools/assemble.py --folder "<folder>" [--caption-style clank|metasp
 **Look at storyboard.jpg card by card** before delivering. Copy to `READY TO POST - <Title> (Claude cut).mp4`.
 
 ## 7. Upload package (`UPLOAD.md`, template: `Productions/MetaSports/2026-09-28 01 Why LeBron Took a 92 Pay Cut/_claude_v4/UPLOAD.md`)
-Title: 3 options, 4-7 words, a question, number or name first, 1 emoji, no hashtags, no ALL-CAPS words, matches words people search that week.
+Title: 3 options, 4-7 words, opening on Why/How/What/Did/Is/He or an action/claim word (CoachClank name-first titles got half the views; question marks and digits showed no lift, Round 6), 1 emoji, no hashtags, no ALL-CAPS words, matches words people search that week.
 NO description (the user doesn't use one). Tags: 25-30 comma-separated search tags, 440-490 characters total (YouTube's limit is 500): people, teams, the rule/event, season, 'nba shorts, basketball shorts'. Pinned comment: the two-sided argument. Covers: `python Tools/thumb.py --shape short`
-x3 (one-line number hook; keep the face visible; use single quotes around text with $). Post time 6-11 AM ET; write down the go-live time.
+x3 (one-line number hook; keep the face visible; use single quotes around text with $). Post time: YouTube says timing matters little (Round 6), so post when ready and write down the go-live time. Covers: the Shorts feed shows no custom thumbnails, so make just one (A) and spend no more than 5 minutes.
 
 ## 7b. Add it to the phone app (the user is often on mobile)
 The user's Shorts Hub is a claude.ai artifact: https://claude.ai/artifact/EZrk8n855PyYpMFnMnMJd4 (database collection `shorts`, one doc per Short).
