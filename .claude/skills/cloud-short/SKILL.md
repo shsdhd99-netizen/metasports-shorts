@@ -51,6 +51,14 @@ Order: research -> find 6+ clips -> script around the clips -> voice (`voiceover
 - Tools/qa_short.py now fails on hard gates and prints `warn` lines for the SUPPORTED/HYPOTHESIS items. Treat warns as things to fix when cheap and to log in the A/B table.
 - Every rule we add must carry its evidence tier and a source; if evidence is missing, call it HYPOTHESIS and put it on the A/B list.
 
+### Round 7 retention findings (`Research Notes/Round 7 - Viewer Retention Deep Dive (Oct 4, 2026).md`; read its evidence labels)
+- Funnel: shown in feed -> Viewed vs swiped -> engaged view -> average view duration / % viewed -> retention curve. A public view counts at first play, so judge by Viewed % and engaged views, not view count. APV over 100% = replayed watch time (YouTube has not said it earns extra reach).
+- Most short-video sessions end early (about 70% before 20% of the video in one Shorts test): the first 3 s are the whole game; later drops are patched with a new fact or image every 3-4 s, not just fast cuts (fast cutting has no direct evidence).
+- Our voice and captions run ~21-24 characters per second against Netflix's 20; keep captions to one line of 2-4 words, <= ~22 chars/s, speech 230-270 wpm.
+- Real quote bursts (a new voice) re-trigger attention; keep 2-3 per Short; vary sound effects (2-5), do not repeat the same one.
+- Our channel's NBA-era Shorts plateau at 20-45K views (46 of 60): likely a fixed test audience; we have no retention data. Ask the user for Studio exports per Short (Viewed %, avg % viewed, retention points) and fill `Research Notes/Outcome Log.md`.
+- Critic verdicts: `Research Notes/Critique Round 1 - Verdicts.md` (one Short per story family per week; check the shot under every spoken name; notes.md with claim -> exact source; quotes at -16 LUFS; pad 0.3 s tail).
+
 ## 1. Research (this is where views come from; do real research, never invent)
 - `python Tools/fresh_moments.py` for what is hot. Use WebSearch for the last 7 days: "NBA <player/team> <week>", media day, training camp,
   rule changes, contracts, records. Prefer stories with a number, a rule, a petty detail or a "that would not be allowed now" angle.

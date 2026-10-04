@@ -14,7 +14,7 @@ Rules (from the retention research; each has burned a Short before):
 """
 import argparse, json, os, re, subprocess, sys
 
-FILLER = {"so", "look", "that's", "thats", "mate", "um", "uh", "well", "okay", "hey", "did", "you", "today", "welcome"}
+FILLER = {"so", "look", "that's", "thats", "mate", "um", "uh", "well", "okay", "hey", "today", "welcome"}
 
 
 def main():
