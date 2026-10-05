@@ -1,14 +1,19 @@
-# #23 Why Is Bronny Fighting For A Spot Now
-Video: READY TO POST - Why Is Bronny Fighting For A Spot Now.mp4 (23.7 s). Not uploaded.
+# #23 (v2 rewrite) LeBron vs LeBron Junior: the first father-vs-son game
+Video: READY TO POST - Why Is Bronny Fighting For A Spot Now.mp4 (26.7 s, 1080x1920). Not uploaded.
 
-## Title
-Why Is Bronny Fighting For A Spot Now 😳  (alt: What Did Bronny Say About LeBron Leaving 😳 / Did Bronny Just Lose His Safety Net 💀)
+## HOLD: POST ONLY AFTER OCT 21 AND ONLY IF BRONNY MADE THE ROSTER
+This Short assumes Bronny is still a Laker on Dec 25. The Lakers' roster cut is reportedly Oct 21 (Yahoo, Oct 4). If Bronny is cut or waived, do NOT post it (the Christmas line becomes false). If he is on the roster, post any time after Oct 21 (best nearer Dec 25). Do not post alongside #24/#25 the same week.
 
-## Tags
-bronny james, bronny james lakers, bronny james lebron, bronny james media day, bronny james sophomore stats, bronny james contract, bronny james guaranteed, bronny james roster spot, lakers roster cuts, lakers 15 man roster, lakers 2026-27, lebron james 76ers, lebron james leaves lakers, bronny without lebron, bronny james real name lebron, jj redick bronny, los angeles lakers news, nba shorts, basketball shorts, nba, bronny james news, lakers news today, nba 2026
+## Title (pick one)
+1. Why Is LeBron Playing Against His Son? 😳
+2. Why Will LeBron Face His Own Son 😳
+3. How Did LeBron End Up Facing Bronny 😳
+
+## Tags (456 chars, paste as one line)
+bronny james, bronny james lakers, lebron james, lebron vs bronny, lebron bronny christmas, lebron james 76ers, sixers lakers christmas day, nba christmas day 2026, father son nba, first father son duo nba, bronny james roster spot, bronny james media day, bronny james real name lebron, bronny james cut, lakers 2026-27, lakers roster, philadelphia 76ers, lebron james leaves lakers, nba 2026-27, nba shorts, basketball shorts, nba news, bronny james news
 
 ## Pinned comment
-Without LeBron around, does Bronny earn a Lakers rotation spot: yes or no?
+LeBron James vs LeBron James Jr. on Christmas Day: who wins, dad or son?
 
 ## Cover
-cover_A.png
+cover_A.png ('FATHER VS SON')

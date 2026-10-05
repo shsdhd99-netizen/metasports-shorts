@@ -1,20 +1,23 @@
 [
  {
-  "sfx": "click",
-  "at": 8.35,
-  "gain": -10,
-  "why": "trade-terms card appears"
+  "sfx": "boom",
+  "at": 0.0,
+  "gain": -14,
+  "len": 1.0,
+  "why": "hook"
  },
  {
-  "sfx": "click",
-  "at": 14.3,
-  "gain": -10,
-  "why": "ESPN picks card appears"
+  "sfx": "whoosh",
+  "at": 11.5,
+  "gain": -15,
+  "len": 0.9,
+  "why": "jump to the $115M card"
  },
  {
   "sfx": "cha_ching",
-  "at": 16.85,
-  "gain": -15,
-  "why": "$30 million fine card"
+  "at": 12.0,
+  "gain": -16,
+  "len": 1.2,
+  "why": "the extension number"
  }
 ]
