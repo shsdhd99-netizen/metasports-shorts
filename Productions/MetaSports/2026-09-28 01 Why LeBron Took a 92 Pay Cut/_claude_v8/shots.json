@@ -22,17 +22,16 @@
   "start": 1.99
  },
  {
-  "clip": "S2_sixers_lebron.mp4",
-  "anchor": "the least",
-  "why": "LeBron Sixers",
-  "kind": "face",
-  "start": 3.56
+  "clip": "s06_heat.mp4",
+  "why": "LeBron Heat (veteran)",
+  "kind": "action",
+  "start": 3.2
  },
  {
-  "clip": "S5_sixers_lebron.mp4",
+  "clip": "H_32.mp4",
   "anchor": "veteran",
-  "why": "LeBron Sixers",
-  "kind": "face",
+  "why": "LeBron Lakers",
+  "kind": "action",
   "start": 4.36
  },
  {
@@ -50,10 +49,10 @@
   "start": 6.35
  },
  {
-  "clip": "S1_sixers_lebron.mp4",
+  "clip": "H_26.mp4",
   "anchor": "That's a",
-  "why": "92 percent pay cut",
-  "kind": "face",
+  "why": "LeBron dunk (92 percent cut)",
+  "kind": "action",
   "start": 7.4
  },
  {
@@ -107,10 +106,9 @@
  },
  {
   "clip": "S6_sixers_lebron.mp4",
-  "anchor": "So why",
   "why": "so why did he do it",
   "kind": "face",
-  "start": 19.36
+  "start": 18.95
  },
  {
   "clip": "c_quote.mp4",
