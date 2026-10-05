@@ -19,7 +19,7 @@ Correction to the idea-bank outline ("charged a technical for each further foul"
 | He did not foul again | SI: "managed to play the rest of the game without picking up another foul" (B-Ref PF 6) |
 
 ## Footage / limits (be honest)
-No footage of the 2014 game could be found or downloaded (archive.org none, X none, YouTube blocked). Visuals are: B-Ref box-score card (names + PF), official rulebook page card, and official NBA Video Rulebook clips (ak-static.cms.nba.com: Hawks-Knicks, Nuggets-Suns, Bucks-Timberwolves, Hawks-Raptors 'team only has 4 on court') plus NBA Finals game footage as generic foul/bench b-roll. THESE ARE NOT THE LAKERS: no name spoken is on screen as footage (Sacre/Young/Kaman/Farmar appear only in the box score card). A real 2014 clip would improve it: user/PC could cut one from YouTube (search 'Robert Sacre fouled out stays in game 2014') via Tools/pc_cut.py.
+No footage of the 2014 game could be found or downloaded (archive.org none, X none, YouTube blocked). Visuals are: B-Ref box-score card (names + PF), official rulebook page card, and official NBA Video Rulebook clips (ak-static.cms.nba.com: Hawks-Knicks, Nuggets-Suns, Bucks-Timberwolves, Raptors (Gasol #33 walking off, hook) 'team only has 4 on court') plus NBA Finals game footage as generic foul/bench b-roll. THESE ARE NOT THE LAKERS: no name spoken is on screen as footage (Sacre/Young/Kaman/Farmar appear only in the box score card). A real 2014 clip would improve it: user/PC could cut one from YouTube (search 'Robert Sacre fouled out stays in game 2014') via Tools/pc_cut.py.
 Rule card box and box-score rows are timed to the names; Sacre's row is boxed while Young/Kaman/Farmar are spoken.
 
 ## Not verified

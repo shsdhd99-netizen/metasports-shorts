@@ -11,46 +11,46 @@ Style: Cap,Montserrat Black,86,&H00FFFFFF,&H00FFFFFF,&H00000000,&H99000000,0,0,0
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:00.61,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ORLANDO WON
-Dialogue: 0,0:00:00.61,0:00:00.94,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE DRAFT
-Dialogue: 0,0:00:00.94,0:00:01.65,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}LOTTERY IN NINETEEN
-Dialogue: 0,0:00:01.65,0:00:02.12,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NINETY-TWO
-Dialogue: 0,0:00:02.12,0:00:02.92,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND TOOK SHAQ.
-Dialogue: 0,0:00:02.92,0:00:03.45,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}A YEAR LATER,
-Dialogue: 0,0:00:03.45,0:00:03.74,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THEY WON
-Dialogue: 0,0:00:03.74,0:00:04.17,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IT AGAIN,
-Dialogue: 0,0:00:04.17,0:00:04.58,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WITH ONE
-Dialogue: 0,0:00:04.58,0:00:05.62,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BALL IN SIXTY-SIX.
-Dialogue: 0,0:00:05.62,0:00:06.04,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}CLEVELAND
-Dialogue: 0,0:00:06.04,0:00:06.53,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}DID IT TOO,
-Dialogue: 0,0:00:06.53,0:00:07.31,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN TWENTY-THIRTEEN
-Dialogue: 0,0:00:07.31,0:00:08.14,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND TWENTY-FOURTEEN,
-Dialogue: 0,0:00:08.14,0:00:08.77,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE SECOND TIME
-Dialogue: 0,0:00:08.77,0:00:09.29,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AT ONE POINT
-Dialogue: 0,0:00:09.29,0:00:09.97,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SEVEN PERCENT.
-Dialogue: 0,0:00:09.97,0:00:10.41,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THAT IS NOW
-Dialogue: 0,0:00:10.41,0:00:10.83,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BANNED.
-Dialogue: 0,0:00:10.83,0:00:11.37,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}STARTING WITH THE
-Dialogue: 0,0:00:11.37,0:00:12.17,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TWENTY-TWENTY-SEVEN
-Dialogue: 0,0:00:12.17,0:00:12.50,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}DRAFT,
-Dialogue: 0,0:00:12.50,0:00:13.16,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NO TEAM'S PICK
-Dialogue: 0,0:00:13.16,0:00:13.68,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}CAN BE FIRST
-Dialogue: 0,0:00:13.68,0:00:14.10,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TWO YEARS
-Dialogue: 0,0:00:14.10,0:00:14.51,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN A ROW,
-Dialogue: 0,0:00:14.51,0:00:14.92,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}OR TOP
-Dialogue: 0,0:00:14.92,0:00:15.40,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FIVE THREE
-Dialogue: 0,0:00:15.40,0:00:16.00,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}YEARS RUNNING.
-Dialogue: 0,0:00:16.00,0:00:16.60,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND THE WIZARDS
-Dialogue: 0,0:00:16.60,0:00:17.05,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}JUST USED
-Dialogue: 0,0:00:17.05,0:00:17.66,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}UP THEIR TURN.
-Dialogue: 0,0:00:17.66,0:00:18.02,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THEY WON
-Dialogue: 0,0:00:18.02,0:00:18.73,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THIS YEAR'S LOTTERY
-Dialogue: 0,0:00:18.73,0:00:19.34,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND TOOK A.J.
-Dialogue: 0,0:00:19.34,0:00:20.10,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}DYBANTSA.
-Dialogue: 0,0:00:20.10,0:00:20.57,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SO NEXT
-Dialogue: 0,0:00:20.57,0:00:21.06,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}MAY, EVEN
-Dialogue: 0,0:00:21.06,0:00:21.59,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IF THE WIZARDS'
-Dialogue: 0,0:00:21.59,0:00:22.01,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BALL COMES
-Dialogue: 0,0:00:22.01,0:00:22.45,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}UP FIRST,
-Dialogue: 0,0:00:22.45,0:00:22.90,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THEY CANNOT
-Dialogue: 0,0:00:22.90,0:00:23.59,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}PICK FIRST.
+Dialogue: 0,0:00:00.00,0:00:00.42,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TWO YEARS
+Dialogue: 0,0:00:00.42,0:00:00.88,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN A ROW,
+Dialogue: 0,0:00:00.88,0:00:01.27,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ONE TEAM
+Dialogue: 0,0:00:01.27,0:00:02.07,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BEAT THE LOTTERY.
+Dialogue: 0,0:00:02.07,0:00:02.77,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NOW THE NBA
+Dialogue: 0,0:00:02.77,0:00:03.35,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HAS BANNED IT.
+Dialogue: 0,0:00:03.35,0:00:03.99,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ORLANDO TOOK
+Dialogue: 0,0:00:03.99,0:00:04.65,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SHAQ IN NINETEEN
+Dialogue: 0,0:00:04.65,0:00:05.24,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NINETY-TWO,
+Dialogue: 0,0:00:05.24,0:00:05.82,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THEN WON AGAIN
+Dialogue: 0,0:00:05.82,0:00:06.38,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}A YEAR LATER,
+Dialogue: 0,0:00:06.38,0:00:06.77,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WITH ONE
+Dialogue: 0,0:00:06.77,0:00:07.90,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BALL IN SIXTY-SIX.
+Dialogue: 0,0:00:07.90,0:00:08.53,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}CLEVELAND DID IT
+Dialogue: 0,0:00:08.53,0:00:09.27,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN TWENTY-THIRTEEN
+Dialogue: 0,0:00:09.27,0:00:10.09,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND TWENTY-FOURTEEN,
+Dialogue: 0,0:00:10.09,0:00:10.70,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE SECOND TIME
+Dialogue: 0,0:00:10.70,0:00:11.27,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AT ONE POINT
+Dialogue: 0,0:00:11.27,0:00:12.04,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SEVEN PERCENT.
+Dialogue: 0,0:00:12.04,0:00:12.55,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}STARTING WITH THE
+Dialogue: 0,0:00:12.55,0:00:13.27,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TWENTY-TWENTY-SEVEN
+Dialogue: 0,0:00:13.27,0:00:13.60,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}DRAFT,
+Dialogue: 0,0:00:13.60,0:00:14.25,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NO TEAM'S PICK
+Dialogue: 0,0:00:14.25,0:00:14.75,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}CAN BE FIRST
+Dialogue: 0,0:00:14.75,0:00:15.10,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TWO YEARS
+Dialogue: 0,0:00:15.10,0:00:15.55,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN A ROW,
+Dialogue: 0,0:00:15.55,0:00:15.98,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}OR TOP
+Dialogue: 0,0:00:15.98,0:00:16.45,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FIVE THREE
+Dialogue: 0,0:00:16.45,0:00:16.98,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}YEARS RUNNING.
+Dialogue: 0,0:00:16.98,0:00:17.59,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND THE WIZARDS
+Dialogue: 0,0:00:17.59,0:00:17.99,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}JUST USED
+Dialogue: 0,0:00:17.99,0:00:18.64,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}UP THEIR TURN.
+Dialogue: 0,0:00:18.64,0:00:18.98,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THEY WON
+Dialogue: 0,0:00:18.98,0:00:19.74,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THIS YEAR'S LOTTERY
+Dialogue: 0,0:00:19.74,0:00:20.40,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND TOOK A.J.
+Dialogue: 0,0:00:20.40,0:00:21.32,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}DYBANTSA.
+Dialogue: 0,0:00:21.32,0:00:21.75,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SO NEXT
+Dialogue: 0,0:00:21.75,0:00:22.18,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}MAY, EVEN
+Dialogue: 0,0:00:22.18,0:00:22.67,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IF THE WIZARDS'
+Dialogue: 0,0:00:22.67,0:00:23.06,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BALL COMES
+Dialogue: 0,0:00:23.06,0:00:23.57,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}UP FIRST,
+Dialogue: 0,0:00:23.57,0:00:24.08,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THEY CANNOT
+Dialogue: 0,0:00:24.08,0:00:24.76,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}PICK FIRST.

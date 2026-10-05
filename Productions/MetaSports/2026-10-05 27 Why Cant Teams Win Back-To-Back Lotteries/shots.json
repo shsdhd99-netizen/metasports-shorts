@@ -2,86 +2,98 @@
  {
   "clip": "S1.mp4",
   "start": 0.0,
-  "anchor": "Orlando won",
+  "anchor": "Two years",
   "kind": "action",
   "zoom": 0.1
  },
  {
+  "clip": "W2.mp4",
+  "start": 0.85,
+  "anchor": "one team",
+  "kind": "action"
+ },
+ {
+  "clip": "c27_rule.mp4",
+  "start": 2.04,
+  "anchor": "Now the",
+  "kind": "card"
+ },
+ {
   "clip": "S2.mp4",
-  "start": 2.09,
-  "anchor": "and took",
+  "start": 3.32,
+  "anchor": "Orlando took",
   "kind": "action"
  },
  {
   "clip": "W1.mp4",
-  "start": 2.89,
-  "anchor": "A year later",
+  "start": 5.21,
+  "anchor": "then won",
   "kind": "action"
  },
  {
   "clip": "W2.mp4",
-  "start": 4.14,
+  "start": 6.35,
   "anchor": "with one ball",
   "kind": "action"
  },
  {
   "clip": "B1.mp4",
-  "start": 5.59,
-  "anchor": "Cleveland did",
-  "kind": "action"
- },
- {
-  "clip": "W3.mp4",
-  "start": 6.63,
+  "start": 8.6,
   "anchor": "twenty-thirteen",
   "kind": "action"
  },
  {
+  "clip": "W3.mp4",
+  "start": 9.33,
+  "anchor": "twenty-fourteen,",
+  "kind": "action"
+ },
+ {
   "clip": "c27_table.mp4",
-  "start": 8.11,
+  "start": 10.06,
   "anchor": "the second",
   "kind": "card"
  },
  {
   "clip": "c27_rule.mp4",
-  "start": 9.94,
-  "anchor": "That is",
+  "start": 12.01,
+  "anchor": "Starting with",
   "kind": "card"
  },
  {
   "clip": "T1.mp4",
-  "start": 12.47,
-  "anchor": "no team's",
+  "start": 14.48,
+  "anchor": "first two",
   "kind": "action"
  },
  {
   "clip": "T2.mp4",
-  "start": 14.48,
-  "anchor": "or top",
+  "start": 16.2,
+  "anchor": "three years",
   "kind": "action"
  },
  {
   "clip": "F1.mp4",
-  "start": 15.97,
+  "start": 16.95,
   "anchor": "And the",
   "kind": "action"
  },
  {
   "clip": "D1.mp4",
-  "start": 17.63,
+  "start": 18.61,
   "anchor": "They won",
   "kind": "action"
  },
  {
   "clip": "D2.mp4",
-  "start": 20.07,
+  "start": 21.29,
   "anchor": "So next",
   "kind": "action"
  },
  {
   "clip": "S1.mp4",
-  "start": 22.42,
-  "anchor": "they cannot",
+  "start": 23.73,
+  "anchor": "cannot pick",
   "kind": "action"
  }
 ]
