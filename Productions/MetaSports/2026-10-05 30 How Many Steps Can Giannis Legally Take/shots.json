@@ -1,0 +1,93 @@
+[
+ {
+  "clip": "e1a.mp4",
+  "start": 0.0,
+  "anchor": "Giannis",
+  "kind": "action",
+  "zoom": 0.12
+ },
+ {
+  "clip": "e1b.mp4",
+  "start": 0.99,
+  "anchor": "three steps.",
+  "kind": "action"
+ },
+ {
+  "clip": "b1.mp4",
+  "start": 1.51,
+  "anchor": "It's legal.",
+  "kind": "action"
+ },
+ {
+  "clip": "f1.mp4",
+  "start": 2.06,
+  "anchor": "Here's why.",
+  "kind": "action"
+ },
+ {
+  "clip": "h1.mp4",
+  "start": 2.6,
+  "anchor": "The count",
+  "kind": "action"
+ },
+ {
+  "clip": "h2.mp4",
+  "start": 5.47,
+  "anchor": "Rule ten,",
+  "kind": "action"
+ },
+ {
+  "clip": "f0.mp4",
+  "start": 9.24,
+  "anchor": "So it's gather,",
+  "kind": "action"
+ },
+ {
+  "clip": "b1.mp4",
+  "start": 10.78,
+  "anchor": "Three footfalls,",
+  "kind": "action"
+ },
+ {
+  "clip": "d1.mp4",
+  "start": 12.45,
+  "anchor": "A fourth",
+  "kind": "action"
+ },
+ {
+  "clip": "d2.mp4",
+  "start": 13.46,
+  "anchor": "The league's own",
+  "kind": "action"
+ },
+ {
+  "clip": "c1.mp4",
+  "start": 15.65,
+  "anchor": "And this season's",
+  "kind": "card"
+ },
+ {
+  "clip": "e1c.mp4",
+  "start": 17.56,
+  "anchor": "Push-offs,",
+  "kind": "action"
+ },
+ {
+  "clip": "c2.mp4",
+  "start": 19.32,
+  "anchor": "Traveling isn't",
+  "kind": "card"
+ },
+ {
+  "clip": "a1.mp4",
+  "start": 20.33,
+  "anchor": "So when Giannis",
+  "kind": "action"
+ },
+ {
+  "clip": "e1a.mp4",
+  "start": 21.97,
+  "anchor": "Gather, one,",
+  "kind": "action"
+ }
+]
