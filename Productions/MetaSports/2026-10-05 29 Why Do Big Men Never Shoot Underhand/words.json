@@ -1,0 +1,492 @@
+[
+ {
+  "word": "Wilt",
+  "start": 0.0,
+  "end": 0.23
+ },
+ {
+  "word": "Chamberlain",
+  "start": 0.261,
+  "end": 0.617
+ },
+ {
+  "word": "scored",
+  "start": 0.649,
+  "end": 0.879
+ },
+ {
+  "word": "a",
+  "start": 0.899,
+  "end": 0.921
+ },
+ {
+  "word": "hundred",
+  "start": 0.973,
+  "end": 1.193
+ },
+ {
+  "word": "points",
+  "start": 1.224,
+  "end": 1.434
+ },
+ {
+  "word": "shooting",
+  "start": 1.455,
+  "end": 1.695
+ },
+ {
+  "word": "free",
+  "start": 1.747,
+  "end": 1.893
+ },
+ {
+  "word": "throws",
+  "start": 1.915,
+  "end": 2.124
+ },
+ {
+  "word": "underhand.",
+  "start": 2.176,
+  "end": 2.626
+ },
+ {
+  "word": "He",
+  "start": 2.658,
+  "end": 2.751
+ },
+ {
+  "word": "made",
+  "start": 2.804,
+  "end": 2.95
+ },
+ {
+  "word": "twenty-eight",
+  "start": 2.971,
+  "end": 3.359
+ },
+ {
+  "word": "of",
+  "start": 3.379,
+  "end": 3.432
+ },
+ {
+  "word": "thirty-two.",
+  "start": 3.463,
+  "end": 4.017
+ },
+ {
+  "word": "That",
+  "start": 4.07,
+  "end": 4.248
+ },
+ {
+  "word": "season",
+  "start": 4.3,
+  "end": 4.53
+ },
+ {
+  "word": "he",
+  "start": 4.573,
+  "end": 4.614
+ },
+ {
+  "word": "shot",
+  "start": 4.656,
+  "end": 4.844
+ },
+ {
+  "word": "sixty-one",
+  "start": 4.896,
+  "end": 5.294
+ },
+ {
+  "word": "percent,",
+  "start": 5.325,
+  "end": 5.681
+ },
+ {
+  "word": "up",
+  "start": 5.733,
+  "end": 5.828
+ },
+ {
+  "word": "from",
+  "start": 5.869,
+  "end": 5.974
+ },
+ {
+  "word": "fifty.",
+  "start": 6.026,
+  "end": 6.382
+ },
+ {
+  "word": "Then",
+  "start": 6.414,
+  "end": 6.56
+ },
+ {
+  "word": "he",
+  "start": 6.591,
+  "end": 6.644
+ },
+ {
+  "word": "quit,",
+  "start": 6.696,
+  "end": 6.916
+ },
+ {
+  "word": "because",
+  "start": 6.936,
+  "end": 7.125
+ },
+ {
+  "word": "he",
+  "start": 7.146,
+  "end": 7.188
+ },
+ {
+  "word": "felt",
+  "start": 7.24,
+  "end": 7.387
+ },
+ {
+  "word": "like",
+  "start": 7.418,
+  "end": 7.533
+ },
+ {
+  "word": "a",
+  "start": 7.554,
+  "end": 7.575
+ },
+ {
+  "word": "sissy.",
+  "start": 7.628,
+  "end": 7.973
+ },
+ {
+  "word": "Rick",
+  "start": 8.004,
+  "end": 8.161
+ },
+ {
+  "word": "Barry",
+  "start": 8.213,
+  "end": 8.443
+ },
+ {
+  "word": "never",
+  "start": 8.486,
+  "end": 8.652
+ },
+ {
+  "word": "quit.",
+  "start": 8.705,
+  "end": 9.008
+ },
+ {
+  "word": "Ninety",
+  "start": 9.061,
+  "end": 9.301
+ },
+ {
+  "word": "percent",
+  "start": 9.343,
+  "end": 9.594
+ },
+ {
+  "word": "for",
+  "start": 9.626,
+  "end": 9.719
+ },
+ {
+  "word": "his",
+  "start": 9.772,
+  "end": 9.855
+ },
+ {
+  "word": "career,",
+  "start": 9.908,
+  "end": 10.222
+ },
+ {
+  "word": "fourth",
+  "start": 10.264,
+  "end": 10.525
+ },
+ {
+  "word": "best",
+  "start": 10.577,
+  "end": 10.776
+ },
+ {
+  "word": "in",
+  "start": 10.829,
+  "end": 10.912
+ },
+ {
+  "word": "NBA",
+  "start": 10.965,
+  "end": 11.237
+ },
+ {
+  "word": "history.",
+  "start": 11.289,
+  "end": 11.666
+ },
+ {
+  "word": "Last",
+  "start": 11.707,
+  "end": 11.896
+ },
+ {
+  "word": "season,",
+  "start": 11.927,
+  "end": 12.22
+ },
+ {
+  "word": "Knicks",
+  "start": 12.241,
+  "end": 12.419
+ },
+ {
+  "word": "center",
+  "start": 12.44,
+  "end": 12.649
+ },
+ {
+  "word": "Mitchell",
+  "start": 12.691,
+  "end": 12.91
+ },
+ {
+  "word": "Robinson",
+  "start": 12.963,
+  "end": 13.308
+ },
+ {
+  "word": "made",
+  "start": 13.35,
+  "end": 13.496
+ },
+ {
+  "word": "twenty-nine",
+  "start": 13.518,
+  "end": 13.915
+ },
+ {
+  "word": "percent",
+  "start": 13.947,
+  "end": 14.197
+ },
+ {
+  "word": "in",
+  "start": 14.24,
+  "end": 14.292
+ },
+ {
+  "word": "the",
+  "start": 14.323,
+  "end": 14.386
+ },
+ {
+  "word": "playoffs.",
+  "start": 14.407,
+  "end": 14.857
+ },
+ {
+  "word": "Asked",
+  "start": 14.878,
+  "end": 15.118
+ },
+ {
+  "word": "about",
+  "start": 15.139,
+  "end": 15.307
+ },
+ {
+  "word": "going",
+  "start": 15.348,
+  "end": 15.526
+ },
+ {
+  "word": "underhand,",
+  "start": 15.579,
+  "end": 15.945
+ },
+ {
+  "word": "he",
+  "start": 15.976,
+  "end": 16.039
+ },
+ {
+  "word": "said,",
+  "start": 16.092,
+  "end": 16.321
+ },
+ {
+  "word": "nah,",
+  "start": 16.364,
+  "end": 16.583
+ },
+ {
+  "word": "silly",
+  "start": 16.677,
+  "end": 16.907
+ },
+ {
+  "word": "as",
+  "start": 16.949,
+  "end": 17.022
+ },
+ {
+  "word": "hell.",
+  "start": 17.064,
+  "end": 17.274
+ },
+ {
+  "word": "Shaq",
+  "start": 17.326,
+  "end": 17.535
+ },
+ {
+  "word": "shot",
+  "start": 17.588,
+  "end": 17.765
+ },
+ {
+  "word": "fifty-three",
+  "start": 17.806,
+  "end": 18.235
+ },
+ {
+  "word": "percent.",
+  "start": 18.267,
+  "end": 18.612
+ },
+ {
+  "word": "His",
+  "start": 18.665,
+  "end": 18.8
+ },
+ {
+  "word": "answer",
+  "start": 18.853,
+  "end": 19.052
+ },
+ {
+  "word": "to",
+  "start": 19.104,
+  "end": 19.167
+ },
+ {
+  "word": "Barry:",
+  "start": 19.22,
+  "end": 19.512
+ },
+ {
+  "word": "I'd",
+  "start": 19.544,
+  "end": 19.68
+ },
+ {
+  "word": "rather",
+  "start": 19.712,
+  "end": 19.878
+ },
+ {
+  "word": "be",
+  "start": 19.921,
+  "end": 19.994
+ },
+ {
+  "word": "a",
+  "start": 20.025,
+  "end": 20.057
+ },
+ {
+  "word": "terrible",
+  "start": 20.087,
+  "end": 20.36
+ },
+ {
+  "word": "free",
+  "start": 20.391,
+  "end": 20.538
+ },
+ {
+  "word": "throw",
+  "start": 20.559,
+  "end": 20.716
+ },
+ {
+  "word": "shooter",
+  "start": 20.758,
+  "end": 20.956
+ },
+ {
+  "word": "who's",
+  "start": 20.988,
+  "end": 21.124
+ },
+ {
+  "word": "in",
+  "start": 21.155,
+  "end": 21.197
+ },
+ {
+  "word": "the",
+  "start": 21.217,
+  "end": 21.281
+ },
+ {
+  "word": "Hall",
+  "start": 21.301,
+  "end": 21.427
+ },
+ {
+  "word": "of",
+  "start": 21.458,
+  "end": 21.51
+ },
+ {
+  "word": "Fame",
+  "start": 21.532,
+  "end": 21.72
+ },
+ {
+  "word": "in",
+  "start": 21.751,
+  "end": 21.814
+ },
+ {
+  "word": "fifteen",
+  "start": 21.856,
+  "end": 22.097
+ },
+ {
+  "word": "minutes.",
+  "start": 22.128,
+  "end": 22.452
+ },
+ {
+  "word": "Thanks,",
+  "start": 22.484,
+  "end": 22.808
+ },
+ {
+  "word": "but",
+  "start": 22.829,
+  "end": 22.955
+ },
+ {
+  "word": "no",
+  "start": 22.996,
+  "end": 23.08
+ },
+ {
+  "word": "thanks.",
+  "start": 23.132,
+  "end": 23.52
+ }
+]
