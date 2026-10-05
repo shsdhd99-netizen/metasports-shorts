@@ -344,3 +344,94 @@ Three most common defects across these five:
 - #17 clank/karaoke video versions not viewed.
 - Contact-sheet frames are small (0.5-1 s apart): "arm contact not visible" (#14) and "head snap not visible" (#17) should be checked at full resolution.
 - Retention predictions are guesses until Studio data arrives.
+
+## 9. Tightened scripts (user request, Oct 5): hook <= 10 words, turn by ~6 s, every sentence adds a fact or picture
+Targets: 95-105 words, 21-25 s at ~270 wpm native read. Only facts already in each notes.md/UPLOAD.md. Word counts are of the script text; word counts, not time, bind where real Adams/Daigneault audio is spliced (real speech is slower than 270 wpm).
+
+**#13 (about 100 words, ~22 s).** Cut: "But that's not even the crazy part." (filler, 1.2 s); "Ten first-round picks out." (repeat); split the 28-word opener into four short sentences (hook = first 10 words: "The NBA took five first-round picks from the Clippers."); merge the two ESPN sentences into one that carries a new fact (five taken by the NBA, 2029 to 2033; the rest to Oklahoma City for Paul George). Turn "Then Toronto traded for him anyway" at word 27 (~6 s).
+Script: "The NBA took five first-round picks from the Clippers. Fined them $30 million. Suspended their owner for a year. All over how they paid Kawhi Leonard. Then Toronto traded for him anyway: Brandon Ingram, Gradey Dick, and two first-round picks. Eight days later, it gave the thirty-five-year-old a $115 million extension, after a career-high 27.9 points a game. ESPN counts ten first-round picks the Clippers spent to get and keep him: five taken by the NBA, 2029 to 2033, the rest sent to Oklahoma City for Paul George. Toronto's first-round price for Kawhi: two."
+
+**#14 (about 101 words, ~22 s).** Cut: "in one video about one illegal move" tail; the separate "The move: shoving a defender with your free arm to make space" sentence (now "Shoving a defender with the free arm."); compress Suggs to one sentence. Added one new sourced fact (which two were called correctly, which two needed a foul). "But" lands at word 26 (~5.8 s).
+Script: "The NBA just named four stars for one illegal move. Jaylen Brown. Paolo Banchero. Donovan Mitchell. RJ Barrett. Shoving a defender with the free arm. But the same video shows what's still legal. CJ McCollum, firming up. Paul George, only feeling the defender. And the four stars? Brown's and Banchero's were called correctly; Mitchell's and Barrett's needed an offensive foul too. One call the NBA says was wrong: Jalen Suggs, whistled for an offensive foul, should have been a no-call. So the rule is four words: feeling, firming, force, full extension. The first two are legal. The last two are fouls."
+
+**#15 (about 75 script words plus Adams real audio, ~20-21 s; add one more narrated fact if it renders under 21 s).** Cut: "Look at all the leagues," lead-in (keep only "and watch them plummet, mate" so the hook word is not repeated for 3 s); "Most of the boys will get it done, but hopefully they finish game" (unclear, 2 s); "Yeah, should be good." (anticlimax, quietest word). Merged the Heat sentence with the date and "live on ESPN" (new fact). The Heat angle now lands at ~5-6 s. Hook = first 10 words. Keep Adams's sentences in their real order.
+Script: "Steven Adams says every pro league is about to plummet. The reason: Grand Theft Auto six, out November nineteenth. And watch them plummet, mate. The night before it drops, November eighteenth, the Heat play a game as Vice City, live on ESPN. Adams was joking. Mostly. Then he got to the coaches and scouts. The coaching and scouts are gonna be horrendous, mate. Just for November, but it should bounce back in December hopefully."
+
+**#16 (about 94 words, ~21 s).** Cut: "a new court, a new uniform" (designs unrevealed, no source line); merge "Until November eighteenth. And he won't be playing for Miami." into one sentence; "the Heat trade Miami for Vice City" becomes "the Heat become Vice City"; merge the Herro/Ware/Jaquez/Jakucionis sentence so the four names run in 2 s (needs five face shots). Hook = 9 words.
+Script: "Thirteen years in Milwaukee. Zero games against the Bucks. Until November eighteenth, and he won't be playing for Miami. For one night only, the Heat become Vice City, live on ESPN, the night before Grand Theft Auto six. After the trade, Giannis watched a video from Bucks fans and got emotional. But Milwaukee will always be my home. He's not the only one going back. Bobby Portis also faces Milwaukee. Herro, Ware, Jaquez and Jakucionis, the four the Heat sent for Giannis, face Miami. Six players. Two old teams. One city that doesn't exist."
+
+**#17 (about 103 words, ~23 s).** Cut: the opening history sentence as the hook (moved to second sentence; hook is now the NBC conflict, 10 words); "Reacting to contact is legal." (restates the head-snap and Siakam lines); STEM moved after the coach quote as the answer to "So how do refs tell?". The first reversal ("Now the NBA... will call more technicals") lands at ~4.5 s; second turn "But there's a catch" ~7.5 s.
+Script: "NBC Sports calls the NBA's flopping enforcement inconsistent at best. It has been a technical foul since twenty twenty-three. Now the NBA has posted last season's flops and says refs will call more technicals. But there's a catch: the NBA is also cracking down on push-offs. Thunder coach Mark Daigneault says if defenders know that, they might be just flailing to try to bait those calls. So how do refs tell? The test is STEM: secondary, theatrical, exaggerated movement. A head snap isn't a flop. Neither is Pascal Siakam sitting down after a jumper. Selling it costs a technical foul and a free throw."
+
+## 10. Machine-readable ratings (items 1-9 per the formula; item 8 voice: PASS = VOICE-OK, WEAK = no wrong words but suspect pieces, FAIL = VOICE-REDO)
+```json
+{
+ "ratings": {
+  "13": {
+   "1": "PASS",
+   "2": "PASS",
+   "3": "PASS",
+   "4": "WEAK",
+   "5": "WEAK",
+   "6": "FAIL",
+   "7": "WEAK",
+   "8": "PASS",
+   "9": "WEAK",
+   "verdict": "FIX",
+   "tight_script": "The NBA took five first-round picks from the Clippers. Fined them $30 million. Suspended their owner for a year. All over how they paid Kawhi Leonard. Then Toronto traded for him anyway: Brandon Ingram, Gradey Dick, and two first-round picks. Eight days later, it gave the thirty-five-year-old a $115 million extension, after a career-high 27.9 points a game. ESPN counts ten first-round picks the Clippers spent to get and keep him: five taken by the NBA, 2029 to 2033, the rest sent to Oklahoma City for Paul George. Toronto's first-round price for Kawhi: two."
+  },
+  "14": {
+   "1": "WEAK",
+   "2": "FAIL",
+   "3": "PASS",
+   "4": "PASS",
+   "5": "WEAK",
+   "6": "WEAK",
+   "7": "WEAK",
+   "8": "PASS",
+   "9": "PASS",
+   "verdict": "FIX",
+   "tight_script": "The NBA just named four stars for one illegal move. Jaylen Brown. Paolo Banchero. Donovan Mitchell. RJ Barrett. Shoving a defender with the free arm. But the same video shows what's still legal. CJ McCollum, firming up. Paul George, only feeling the defender. And the four stars? Brown's and Banchero's were called correctly; Mitchell's and Barrett's needed an offensive foul too. One call the NBA says was wrong: Jalen Suggs, whistled for an offensive foul, should have been a no-call. So the rule is four words: feeling, firming, force, full extension. The first two are legal. The last two are fouls."
+  },
+  "15": {
+   "1": "PASS",
+   "2": "WEAK",
+   "3": "PASS",
+   "4": "WEAK",
+   "5": "WEAK",
+   "6": "WEAK",
+   "7": "PASS",
+   "8": "FAIL",
+   "9": "WEAK",
+   "verdict": "FIX",
+   "tight_script": "Steven Adams says every pro league is about to plummet. The reason: Grand Theft Auto six, out November nineteenth. And watch them plummet, mate. The night before it drops, November eighteenth, the Heat play a game as Vice City, live on ESPN. Adams was joking. Mostly. Then he got to the coaches and scouts. The coaching and scouts are gonna be horrendous, mate. Just for November, but it should bounce back in December hopefully."
+  },
+  "16": {
+   "1": "PASS",
+   "2": "PASS",
+   "3": "WEAK",
+   "4": "WEAK",
+   "5": "WEAK",
+   "6": "FAIL",
+   "7": "WEAK",
+   "8": "FAIL",
+   "9": "WEAK",
+   "verdict": "FIX",
+   "tight_script": "Thirteen years in Milwaukee. Zero games against the Bucks. Until November eighteenth, and he won't be playing for Miami. For one night only, the Heat become Vice City, live on ESPN, the night before Grand Theft Auto six. After the trade, Giannis watched a video from Bucks fans and got emotional. But Milwaukee will always be my home. He's not the only one going back. Bobby Portis also faces Milwaukee. Herro, Ware, Jaquez and Jakucionis, the four the Heat sent for Giannis, face Miami. Six players. Two old teams. One city that doesn't exist."
+  },
+  "17": {
+   "1": "WEAK",
+   "2": "PASS",
+   "3": "WEAK",
+   "4": "WEAK",
+   "5": "PASS",
+   "6": "WEAK",
+   "7": "WEAK",
+   "8": "WEAK",
+   "9": "WEAK",
+   "verdict": "FIX",
+   "tight_script": "NBC Sports calls the NBA's flopping enforcement inconsistent at best. It has been a technical foul since twenty twenty-three. Now the NBA has posted last season's flops and says refs will call more technicals. But there's a catch: the NBA is also cracking down on push-offs. Thunder coach Mark Daigneault says if defenders know that, they might be just flailing to try to bait those calls. So how do refs tell? The test is STEM: secondary, theatrical, exaggerated movement. A head snap isn't a flop. Neither is Pascal Siakam sitting down after a jumper. Selling it costs a technical foul and a free throw."
+  }
+ }
+}
+```
