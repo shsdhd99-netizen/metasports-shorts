@@ -1,0 +1,67 @@
+{
+ "verdict": "REDO",
+ "wpm": 250,
+ "issues": [
+  "21.38s  script \"a 100 19\" but heard \"119\""
+ ],
+ "notes": [
+  " 6.84s  script \"kaman\" but heard \"cummins\"",
+  " 4.26s  \"l a\" heard as \"la\" (close; check the name)",
+  " 7.84s  \"farmar\" heard as \"farmer\" (close; check the name)",
+  "10.06s  \"sacre\" heard as \"sacred\" (close; check the name)",
+  "20.88s  \"l a\" heard as \"la\" (close; check the name)",
+  "22.24s  \"a 100 8\" heard as \"108\" (close; check the name)",
+  " 2.03s  dragging sentence (163 wpm): February twenty fourteen, Lakers at Cleveland."
+ ],
+ "heard": "He fouled out, but the rule says he can't leave. February 2014, Lakers at Cleveland. LA had eight players available. Nick Young got hurt, Chris Cummins fouled out, Jordan Farmer cramped up. That left five. Then Robert Sacred picked up his sixth foul. But rule three says no team may be reduced to less than five players. So he stayed in and the Lakers were hit with a technical foul. Any more fouls, and it would cost another technical every time. He never fouled again, and LA won 119 to 108.",
+ "mismatches": [
+  {
+   "at": 2.26,
+   "script": "20 14",
+   "heard": "2014",
+   "similar": 1.0
+  },
+  {
+   "at": 4.26,
+   "script": "l a",
+   "heard": "la",
+   "similar": 1.0
+  },
+  {
+   "at": 6.84,
+   "script": "kaman",
+   "heard": "cummins",
+   "similar": 0.33
+  },
+  {
+   "at": 7.84,
+   "script": "farmar",
+   "heard": "farmer",
+   "similar": 0.83
+  },
+  {
+   "at": 10.06,
+   "script": "sacre",
+   "heard": "sacred",
+   "similar": 0.91
+  },
+  {
+   "at": 20.88,
+   "script": "l a",
+   "heard": "la",
+   "similar": 1.0
+  },
+  {
+   "at": 21.38,
+   "script": "a 100 19",
+   "heard": "119",
+   "similar": 0.67
+  },
+  {
+   "at": 22.24,
+   "script": "a 100 8",
+   "heard": "108",
+   "similar": 0.75
+  }
+ ]
+}
