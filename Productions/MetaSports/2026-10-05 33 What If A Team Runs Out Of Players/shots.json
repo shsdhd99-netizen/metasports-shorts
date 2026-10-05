@@ -1,0 +1,81 @@
+[
+ {
+  "clip": "a1.mp4",
+  "anchor": "A player",
+  "kind": "action",
+  "zoom": 0.1,
+  "start": 0.0
+ },
+ {
+  "clip": "a2.mp4",
+  "anchor": "February",
+  "kind": "action",
+  "start": 2.09
+ },
+ {
+  "clip": "a3.mp4",
+  "anchor": "L.A. had",
+  "kind": "action",
+  "start": 4.16
+ },
+ {
+  "clip": "c_box.mp4",
+  "anchor": "Nick Young",
+  "kind": "card",
+  "start": 5.69
+ },
+ {
+  "clip": "a4.mp4",
+  "anchor": "That left",
+  "kind": "action",
+  "start": 8.68
+ },
+ {
+  "clip": "a5.mp4",
+  "anchor": "Then Robert",
+  "kind": "action",
+  "start": 9.47
+ },
+ {
+  "clip": "a6.mp4",
+  "anchor": "But rule",
+  "kind": "action",
+  "start": 11.47
+ },
+ {
+  "clip": "c_rule.mp4",
+  "anchor": "no team",
+  "kind": "card",
+  "start": 12.36
+ },
+ {
+  "clip": "a7.mp4",
+  "anchor": "So he",
+  "kind": "action",
+  "start": 14.54
+ },
+ {
+  "clip": "a8.mp4",
+  "anchor": "Any more",
+  "kind": "action",
+  "start": 17.15
+ },
+ {
+  "clip": "a9.mp4",
+  "anchor": "He never",
+  "kind": "action",
+  "start": 19.81
+ },
+ {
+  "clip": "a10.mp4",
+  "anchor": "and L.A.",
+  "kind": "action",
+  "start": 20.86
+ },
+ {
+  "clip": "a1.mp4",
+  "start": 23.04,
+  "kind": "action",
+  "why": "loop tail"
+ }
+]
