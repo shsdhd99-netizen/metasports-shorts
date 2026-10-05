@@ -37,6 +37,12 @@
   "kind": "action"
  },
  {
+  "clip": "d4.mp4",
+  "start": 6.86,
+  "anchor": "SuperSonics,",
+  "kind": "action"
+ },
+ {
   "clip": "r1.mp4",
   "start": 8.95,
   "anchor": "Now he's",

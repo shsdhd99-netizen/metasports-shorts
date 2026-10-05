@@ -1,482 +1,482 @@
 [
  {
-  "word": "A",
+  "word": "He",
   "start": 0.0,
-  "end": 0.078
- },
- {
-  "word": "player",
-  "start": 0.133,
-  "end": 0.379
+  "end": 0.129
  },
  {
   "word": "fouled",
-  "start": 0.435,
-  "end": 0.679
+  "start": 0.206,
+  "end": 0.454
  },
  {
   "word": "out,",
-  "start": 0.725,
-  "end": 0.858
+  "start": 0.497,
+  "end": 0.626
  },
  {
-  "word": "and",
-  "start": 0.88,
-  "end": 0.969
+  "word": "but",
+  "start": 0.649,
+  "end": 0.746
  },
  {
   "word": "the",
-  "start": 1.014,
-  "end": 1.081
- },
- {
-  "word": "referees",
-  "start": 1.136,
-  "end": 1.527
- },
- {
-  "word": "made",
-  "start": 1.571,
-  "end": 1.704
- },
- {
-  "word": "him",
-  "start": 1.727,
-  "end": 1.794
- },
- {
-  "word": "stay.",
-  "start": 1.827,
-  "end": 2.095
- },
- {
-  "word": "February",
-  "start": 2.117,
-  "end": 2.562
- },
- {
-  "word": "twenty",
-  "start": 2.607,
-  "end": 2.83
- },
- {
-  "word": "fourteen,",
-  "start": 2.874,
-  "end": 3.275
- },
- {
-  "word": "Lakers",
-  "start": 3.331,
-  "end": 3.61
- },
- {
-  "word": "at",
-  "start": 3.654,
-  "end": 3.699
- },
- {
-  "word": "Cleveland.",
-  "start": 3.732,
-  "end": 4.167
- },
- {
-  "word": "L.A.",
-  "start": 4.189,
-  "end": 4.49
- },
- {
-  "word": "had",
-  "start": 4.524,
-  "end": 4.657
- },
- {
-  "word": "eight",
-  "start": 4.713,
-  "end": 4.88
- },
- {
-  "word": "players",
-  "start": 4.913,
-  "end": 5.181
- },
- {
-  "word": "available.",
-  "start": 5.225,
-  "end": 5.682
- },
- {
-  "word": "Nick",
-  "start": 5.716,
-  "end": 5.883
- },
- {
-  "word": "Young",
-  "start": 5.938,
-  "end": 6.095
- },
- {
-  "word": "got",
-  "start": 6.127,
-  "end": 6.262
- },
- {
-  "word": "hurt.",
-  "start": 6.306,
-  "end": 6.528
- },
- {
-  "word": "Chris",
-  "start": 6.574,
-  "end": 6.774
- },
- {
-  "word": "Kaman",
-  "start": 6.83,
-  "end": 7.064
- },
- {
-  "word": "fouled",
-  "start": 7.12,
-  "end": 7.354
- },
- {
-  "word": "out.",
-  "start": 7.398,
-  "end": 7.565
- },
- {
-  "word": "Jordan",
-  "start": 7.61,
-  "end": 7.855
- },
- {
-  "word": "Farmar",
-  "start": 7.899,
-  "end": 8.144
- },
- {
-  "word": "cramped",
-  "start": 8.2,
-  "end": 8.478
- },
- {
-  "word": "up.",
-  "start": 8.524,
-  "end": 8.679
- },
- {
-  "word": "That",
-  "start": 8.713,
-  "end": 8.88
- },
- {
-  "word": "left",
-  "start": 8.935,
-  "end": 9.102
- },
- {
-  "word": "five.",
-  "start": 9.147,
-  "end": 9.47
- },
- {
-  "word": "Then",
-  "start": 9.503,
-  "end": 9.67
- },
- {
-  "word": "Robert",
-  "start": 9.726,
-  "end": 9.994
- },
- {
-  "word": "Sacre",
-  "start": 10.038,
-  "end": 10.316
- },
- {
-  "word": "picked",
-  "start": 10.35,
-  "end": 10.55
- },
- {
-  "word": "up",
-  "start": 10.584,
-  "end": 10.662
- },
- {
-  "word": "his",
-  "start": 10.707,
-  "end": 10.796
- },
- {
-  "word": "sixth",
-  "start": 10.84,
-  "end": 11.074
- },
- {
-  "word": "foul.",
-  "start": 11.118,
-  "end": 11.453
- },
- {
-  "word": "But",
-  "start": 11.497,
-  "end": 11.642
+  "start": 0.778,
+  "end": 0.843
  },
  {
   "word": "rule",
-  "start": 11.686,
-  "end": 11.854
- },
- {
-  "word": "three",
-  "start": 11.877,
-  "end": 12.066
+  "start": 0.897,
+  "end": 1.081
  },
  {
   "word": "says",
-  "start": 12.121,
-  "end": 12.322
- },
- {
-  "word": "no",
-  "start": 12.389,
-  "end": 12.544
- },
- {
-  "word": "team",
-  "start": 12.6,
-  "end": 12.779
- },
- {
-  "word": "may",
-  "start": 12.824,
-  "end": 12.923
- },
- {
-  "word": "be",
-  "start": 12.979,
-  "end": 13.057
- },
- {
-  "word": "reduced",
-  "start": 13.102,
-  "end": 13.402
- },
- {
-  "word": "to",
-  "start": 13.425,
-  "end": 13.47
- },
- {
-  "word": "less",
-  "start": 13.525,
-  "end": 13.682
- },
- {
-  "word": "than",
-  "start": 13.714,
-  "end": 13.826
- },
- {
-  "word": "five",
-  "start": 13.882,
-  "end": 14.105
- },
- {
-  "word": "players.",
-  "start": 14.127,
-  "end": 14.54
- },
- {
-  "word": "So",
-  "start": 14.572,
-  "end": 14.683
+  "start": 1.113,
+  "end": 1.297
  },
  {
   "word": "he",
-  "start": 14.74,
-  "end": 14.796
+  "start": 1.351,
+  "end": 1.416
  },
  {
-  "word": "stayed",
-  "start": 14.851,
-  "end": 15.118
+  "word": "can't",
+  "start": 1.47,
+  "end": 1.676
  },
  {
-  "word": "in,",
-  "start": 15.163,
-  "end": 15.341
+  "word": "leave.",
+  "start": 1.718,
+  "end": 1.988
  },
  {
-  "word": "and",
-  "start": 15.364,
-  "end": 15.486
+  "word": "February",
+  "start": 2.032,
+  "end": 2.443
  },
  {
-  "word": "the",
-  "start": 15.531,
-  "end": 15.598
+  "word": "twenty",
+  "start": 2.485,
+  "end": 2.701
+ },
+ {
+  "word": "fourteen,",
+  "start": 2.756,
+  "end": 3.231
  },
  {
   "word": "Lakers",
-  "start": 15.642,
-  "end": 15.898
+  "start": 3.285,
+  "end": 3.599
  },
  {
-  "word": "were",
-  "start": 15.932,
-  "end": 16.043
+  "word": "at",
+  "start": 3.642,
+  "end": 3.718
  },
  {
-  "word": "hit",
-  "start": 16.077,
-  "end": 16.188
- },
- {
-  "word": "with",
-  "start": 16.222,
-  "end": 16.322
- },
- {
-  "word": "a",
-  "start": 16.367,
-  "end": 16.389
- },
- {
-  "word": "technical",
-  "start": 16.433,
-  "end": 16.778
- },
- {
-  "word": "foul.",
-  "start": 16.834,
-  "end": 17.157
- },
- {
-  "word": "Any",
-  "start": 17.179,
-  "end": 17.346
- },
- {
-  "word": "more",
-  "start": 17.392,
-  "end": 17.547
- },
- {
-  "word": "fouls,",
-  "start": 17.592,
-  "end": 17.87
- },
- {
-  "word": "and",
-  "start": 17.904,
-  "end": 17.982
- },
- {
-  "word": "it",
-  "start": 18.026,
-  "end": 18.071
- },
- {
-  "word": "would",
-  "start": 18.093,
-  "end": 18.226
- },
- {
-  "word": "cost",
-  "start": 18.26,
-  "end": 18.461
- },
- {
-  "word": "another",
-  "start": 18.516,
-  "end": 18.784
- },
- {
-  "word": "technical",
-  "start": 18.84,
-  "end": 19.197
- },
- {
-  "word": "every",
-  "start": 19.252,
-  "end": 19.431
- },
- {
-  "word": "time.",
-  "start": 19.475,
-  "end": 19.798
- },
- {
-  "word": "He",
-  "start": 19.842,
-  "end": 19.91
- },
- {
-  "word": "never",
-  "start": 19.977,
-  "end": 20.177
- },
- {
-  "word": "fouled",
-  "start": 20.233,
-  "end": 20.478
- },
- {
-  "word": "again,",
-  "start": 20.511,
-  "end": 20.845
- },
- {
-  "word": "and",
-  "start": 20.89,
-  "end": 21.024
+  "word": "Cleveland.",
+  "start": 3.761,
+  "end": 4.236
  },
  {
   "word": "L.A.",
-  "start": 21.124,
-  "end": 21.391
+  "start": 4.301,
+  "end": 4.582
  },
  {
-  "word": "won",
-  "start": 21.413,
-  "end": 21.536
+  "word": "had",
+  "start": 4.604,
+  "end": 4.733
  },
  {
-  "word": "a",
-  "start": 21.58,
-  "end": 21.603
+  "word": "eight",
+  "start": 4.787,
+  "end": 4.949
  },
  {
-  "word": "hundred",
-  "start": 21.659,
-  "end": 21.904
+  "word": "players",
+  "start": 4.972,
+  "end": 5.242
  },
  {
-  "word": "nineteen",
-  "start": 21.948,
-  "end": 22.293
+  "word": "available.",
+  "start": 5.284,
+  "end": 5.76
+ },
+ {
+  "word": "Nick",
+  "start": 5.814,
+  "end": 5.987
+ },
+ {
+  "word": "Young",
+  "start": 6.041,
+  "end": 6.193
+ },
+ {
+  "word": "got",
+  "start": 6.224,
+  "end": 6.355
+ },
+ {
+  "word": "hurt.",
+  "start": 6.398,
+  "end": 6.603
+ },
+ {
+  "word": "Chris",
+  "start": 6.657,
+  "end": 6.841
+ },
+ {
+  "word": "Kaman",
+  "start": 6.895,
+  "end": 7.1
+ },
+ {
+  "word": "fouled",
+  "start": 7.154,
+  "end": 7.392
+ },
+ {
+  "word": "out.",
+  "start": 7.446,
+  "end": 7.619
+ },
+ {
+  "word": "Jordan",
+  "start": 7.673,
+  "end": 7.933
+ },
+ {
+  "word": "Farmar",
+  "start": 7.987,
+  "end": 8.245
+ },
+ {
+  "word": "cramped",
+  "start": 8.289,
+  "end": 8.559
+ },
+ {
+  "word": "up.",
+  "start": 8.613,
+  "end": 8.775
+ },
+ {
+  "word": "That",
+  "start": 8.797,
+  "end": 8.991
+ },
+ {
+  "word": "left",
+  "start": 9.046,
+  "end": 9.218
+ },
+ {
+  "word": "five.",
+  "start": 9.272,
+  "end": 9.64
+ },
+ {
+  "word": "Then",
+  "start": 9.694,
+  "end": 9.834
+ },
+ {
+  "word": "Robert",
+  "start": 9.888,
+  "end": 10.137
+ },
+ {
+  "word": "Sacre",
+  "start": 10.18,
+  "end": 10.439
+ },
+ {
+  "word": "picked",
+  "start": 10.482,
+  "end": 10.677
+ },
+ {
+  "word": "up",
+  "start": 10.709,
+  "end": 10.796
+ },
+ {
+  "word": "his",
+  "start": 10.85,
+  "end": 10.948
+ },
+ {
+  "word": "sixth",
+  "start": 11.002,
+  "end": 11.217
+ },
+ {
+  "word": "foul.",
+  "start": 11.26,
+  "end": 11.553
+ },
+ {
+  "word": "But",
+  "start": 11.595,
+  "end": 11.736
+ },
+ {
+  "word": "rule",
+  "start": 11.769,
+  "end": 11.942
+ },
+ {
+  "word": "three",
+  "start": 11.974,
+  "end": 12.19
+ },
+ {
+  "word": "says",
+  "start": 12.233,
+  "end": 12.428
+ },
+ {
+  "word": "no",
+  "start": 12.503,
+  "end": 12.633
+ },
+ {
+  "word": "team",
+  "start": 12.687,
+  "end": 12.849
+ },
+ {
+  "word": "may",
+  "start": 12.892,
+  "end": 13.0
+ },
+ {
+  "word": "be",
+  "start": 13.044,
+  "end": 13.119
+ },
+ {
+  "word": "reduced",
+  "start": 13.173,
+  "end": 13.476
  },
  {
   "word": "to",
-  "start": 22.339,
-  "end": 22.406
+  "start": 13.498,
+  "end": 13.552
+ },
+ {
+  "word": "less",
+  "start": 13.606,
+  "end": 13.778
+ },
+ {
+  "word": "than",
+  "start": 13.801,
+  "end": 13.909
+ },
+ {
+  "word": "five",
+  "start": 13.973,
+  "end": 14.2
+ },
+ {
+  "word": "players.",
+  "start": 14.232,
+  "end": 14.622
+ },
+ {
+  "word": "So",
+  "start": 14.654,
+  "end": 14.762
+ },
+ {
+  "word": "he",
+  "start": 14.816,
+  "end": 14.859
+ },
+ {
+  "word": "stayed",
+  "start": 14.903,
+  "end": 15.161
+ },
+ {
+  "word": "in,",
+  "start": 15.216,
+  "end": 15.335
+ },
+ {
+  "word": "and",
+  "start": 15.367,
+  "end": 15.465
+ },
+ {
+  "word": "the",
+  "start": 15.497,
+  "end": 15.562
+ },
+ {
+  "word": "Lakers",
+  "start": 15.604,
+  "end": 15.864
+ },
+ {
+  "word": "were",
+  "start": 15.897,
+  "end": 16.005
+ },
+ {
+  "word": "hit",
+  "start": 16.037,
+  "end": 16.134
+ },
+ {
+  "word": "with",
+  "start": 16.156,
+  "end": 16.253
  },
  {
   "word": "a",
-  "start": 22.461,
-  "end": 22.494
+  "start": 16.286,
+  "end": 16.318
+ },
+ {
+  "word": "technical",
+  "start": 16.351,
+  "end": 16.685
+ },
+ {
+  "word": "foul.",
+  "start": 16.74,
+  "end": 17.031
+ },
+ {
+  "word": "Any",
+  "start": 17.064,
+  "end": 17.237
+ },
+ {
+  "word": "more",
+  "start": 17.291,
+  "end": 17.442
+ },
+ {
+  "word": "fouls,",
+  "start": 17.496,
+  "end": 17.798
+ },
+ {
+  "word": "and",
+  "start": 17.831,
+  "end": 17.918
+ },
+ {
+  "word": "it",
+  "start": 17.96,
+  "end": 18.004
+ },
+ {
+  "word": "would",
+  "start": 18.026,
+  "end": 18.145
+ },
+ {
+  "word": "cost",
+  "start": 18.177,
+  "end": 18.404
+ },
+ {
+  "word": "another",
+  "start": 18.458,
+  "end": 18.717
+ },
+ {
+  "word": "technical",
+  "start": 18.761,
+  "end": 19.139
+ },
+ {
+  "word": "every",
+  "start": 19.214,
+  "end": 19.398
+ },
+ {
+  "word": "time.",
+  "start": 19.452,
+  "end": 19.765
+ },
+ {
+  "word": "He",
+  "start": 19.819,
+  "end": 19.906
+ },
+ {
+  "word": "never",
+  "start": 19.96,
+  "end": 20.144
+ },
+ {
+  "word": "fouled",
+  "start": 20.198,
+  "end": 20.424
+ },
+ {
+  "word": "again,",
+  "start": 20.457,
+  "end": 20.727
+ },
+ {
+  "word": "and",
+  "start": 20.749,
+  "end": 20.879
+ },
+ {
+  "word": "L.A.",
+  "start": 20.944,
+  "end": 21.225
+ },
+ {
+  "word": "won",
+  "start": 21.257,
+  "end": 21.387
+ },
+ {
+  "word": "a",
+  "start": 21.43,
+  "end": 21.451
  },
  {
   "word": "hundred",
-  "start": 22.539,
-  "end": 22.762
+  "start": 21.505,
+  "end": 21.732
+ },
+ {
+  "word": "nineteen",
+  "start": 21.786,
+  "end": 22.111
+ },
+ {
+  "word": "to",
+  "start": 22.165,
+  "end": 22.24
+ },
+ {
+  "word": "a",
+  "start": 22.294,
+  "end": 22.316
+ },
+ {
+  "word": "hundred",
+  "start": 22.36,
+  "end": 22.608
  },
  {
   "word": "eight.",
-  "start": 22.806,
+  "start": 22.662,
   "end": 23.04
  }
 ]
