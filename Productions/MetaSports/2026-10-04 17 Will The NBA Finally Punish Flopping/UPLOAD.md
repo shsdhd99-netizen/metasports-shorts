@@ -1,28 +1,23 @@
-# #17 Will the NBA finally punish flopping (2026-10-04)
+# #17 Is Flopping Already A Technical Foul (rebuilt 2026-10-05)
 
-**Video:** `READY TO POST - Will The NBA Finally Punish Flopping.mp4` (23.8 s, 1080x1920, -14 LUFS). Footage: the NBA Official account's 2026-27 Areas of Focus (flopping) and Points of Emphasis videos, plus Thunder coach Mark Daigneault's real quote. Passes `Tools/qa_short.py`. Not uploaded.
+**Video:** final.mp4 (house captions) and final_karaoke.mp4 (A/B: karaoke captions). Not uploaded.
 
 ## Title (pick one)
-1. **Will The NBA Finally Punish Flopping 😳** (recommended)
-2. The NBA Is Coming For Flopping 💀
-3. Flop Now, Get A Technical Foul 😭
+1. Is Flopping Already A Technical Foul 😳  (recommended)
+2. Why Flopping Is Already A Technical Foul 💀
+3. How Does The NBA Judge A Flop 😭
 
-## Tags
-nba flopping, nba flop, nba flopping technical foul, nba points of emphasis, nba points of emphasis 2026, nba referees, nba refs, nba officiating, monty mccutchen, chris finch, chris finch flopping, mark daigneault, thunder flopping, pascal siakam, deni avdija, nba flop rule, nba technical foul, nba new rules 2026-27, nba preseason 2026, nba rules explained, nba controversy, nba officials, flopping nba, nba news, nba shorts, basketball shorts, nba viral
+## Tags (446 chars, one line)
+nba flopping, nba flop, flopping technical foul, nba flop rule, nba flopping penalty, nba points of emphasis, nba points of emphasis 2026, nba referees, nba officiating, nba push offs, mark daigneault, thunder flopping, chris finch flopping, pascal siakam, deni avdija, nba rules explained, nba new rules 2026-27, nba technical foul, nba controversy, nba shorts, basketball shorts, nba viral, nba news, nba 2026-27, nba preseason 2026, nba rumors
 
 ## Pinned comment
-Does the NBA actually start calling flops this season, or does it fade by November?
+Is the NBA about to call flops for real this season, or will it fade out by November?
 
 ## Covers
-`cover_A.png` "FLOP = TECHNICAL" (recommended), `cover_B.png` "STOP THE FLOPPING", `cover_C.png` "FLOPS END?"
+`cover_A.png` "FLOP = TECHNICAL"
 
 ## Facts and sources
-- NBA Official posted its 2026-27 "Areas of Focus" (Flopping, Closeouts/Landing Space; Game Administration) on Sept 30 and Points of Emphasis videos on Sept 29: official.nba.com/2026-27-areas-of-focus and /2026-27-points-of-emphasis (NBA Official on X).
-- League says refs will call more technical fouls on defenders who exaggerate contact and theatrically fall; video used almost entirely defensive flops from 2025-26 (Yahoo Sports, Joe Nelson, Oct 1).
-- McCutchen: "We have a really strong definition of what a flop is, secondary theatrical exaggerated movements (STEM)." Embellishment such as a head snap is legal (NBC Sports, Kurt Helin, Oct 1).
-- Chris Finch: "Hopefully the league cleans up this crap, because nobody wants to watch it ... so just stop rewarding the flopping." (NBC Sports quoting The Athletic, Oct 1).
-- Offensive examples in the video: Pascal Siakam sitting down after a jumper is "not exaggerated, nor theatrical" so no flop; Deni Avdija head snap after minimal contact is fine (Yahoo Sports).
-- Mark Daigneault: flopping "is going to be very closely tied to the push-offs ... they might be just flailing to try to bait those calls" (Rylan Stiles video on X, Oct 1 camp; SI/Yahoo Thunder Wire).
-## Notes
-- Defender identities in flop clips are not named in the Short (only Siakam #43 and Avdija, named by the league examples/Yahoo). Avdija clip: Blazers ball handler vs Suns #12; shown as the head-snap example per Yahoo's description, not independently number-verified.
-- Overlaps loosely with the push-off Shorts (#11, #14) but is a different rule (flopping/technical fouls). Post a day apart. Post 6-11 AM ET.
+- Flopping technical + one free throw began 2023-24; made permanent July 17, 2024 (https://www.nba.com/news/nba-board-of-governors-in-game-flopping-penalty-permanent).
+- Penalty/STEM criteria/head snaps: https://www.nba.com/news/how-nba-referees-will-assess-new-flopping-violations (shown on the end card).
+- NBC Sports calls enforcement inconsistent at best (https://www.nbcsports.com/nba/news/timberwolves-coach-chris-finch-applauds-nbas-renewed-emphasis-on-flopping); NBA posted flop video, 'more technical fouls' (Yahoo Sept 30).
+- Daigneault (Thunder media day Sept 28): flopping 'closely tied to the push-offs... they might be just flailing to try to bait those calls' (real audio; https://sports.yahoo.com/articles/oklahoma-city-thunder-coach-blunt-225806657.html).

@@ -1,7 +1,7 @@
 # notes: 2026-10-04 16 Giannis Faces The Bucks In Vice City
 
-- Lane: then-vs-now/first-time
-- Concept: Giannis's first game vs the Bucks is Vice City night
-- Added value: Joins two Oct 2 news items (first meeting with the team that drafted him + Vice City night) with his own words about Milwaukee.
-- Claim -> source: see UPLOAD.md Facts section; primary sources: Yahoo Sports, hoodline, Axios Miami (13 years), SM Highlights video (quote); transcript mishears Milwaukee as Madrid, captions corrected.
-- Backfilled Oct 4 after Critique Round 1 (notes.md is now expected for every Short).
+- Lane: petty/funny
+- Rebuilt 2026-10-05: Rebuild per Critique Round 2B #16 REWRITE (homecoming of six players, no unrevealed jersey/court claims). Old script/shots/plan kept as script_v1/shots_v1/plan_v1.
+- Story: tension hook, turn, escalation, ends on the payoff line (no closing question; debate question is the pinned comment).
+- Claim -> source: see UPLOAD.md Facts.
+- NOT verified: audio by ear; '13 years' (#16) not re-read; Rockets practice b-roll players (#15) identity not proven; Portis/Herro/Ware/Jaquez/Jakucionis shown as an article card, not footage (#16).

@@ -2,506 +2,426 @@
  {
   "word": "The",
   "start": 0.0,
-  "end": 0.124
+  "end": 0.119
  },
  {
-  "word": "Clippers",
-  "start": 0.156,
-  "end": 0.426
+  "word": "NBA",
+  "start": 0.147,
+  "end": 0.385
  },
  {
-  "word": "gave",
-  "start": 0.457,
-  "end": 0.592
+  "word": "took",
+  "start": 0.431,
+  "end": 0.559
  },
  {
-  "word": "up",
-  "start": 0.624,
-  "end": 0.706
- },
- {
-  "word": "ten",
-  "start": 0.748,
-  "end": 0.883
+  "word": "five",
+  "start": 0.605,
+  "end": 0.798
  },
  {
   "word": "first-round",
-  "start": 0.935,
-  "end": 1.298
+  "start": 0.835,
+  "end": 1.146
  },
  {
   "word": "picks",
-  "start": 1.34,
-  "end": 1.527
+  "start": 1.174,
+  "end": 1.321
  },
  {
-  "word": "to",
-  "start": 1.548,
-  "end": 1.6
+  "word": "from",
+  "start": 1.339,
+  "end": 1.431
  },
  {
-  "word": "acquire",
-  "start": 1.641,
-  "end": 1.963
+  "word": "the",
+  "start": 1.458,
+  "end": 1.513
+ },
+ {
+  "word": "Clippers,",
+  "start": 1.54,
+  "end": 1.935
+ },
+ {
+  "word": "fined",
+  "start": 2.017,
+  "end": 2.183
+ },
+ {
+  "word": "them",
+  "start": 2.201,
+  "end": 2.292
+ },
+ {
+  "word": "$30 million,",
+  "start": 2.339,
+  "end": 3.137
  },
  {
   "word": "and",
-  "start": 2.015,
-  "end": 2.109
+  "start": 3.183,
+  "end": 3.292
  },
  {
-  "word": "retain",
-  "start": 2.16,
-  "end": 2.431
+  "word": "suspended",
+  "start": 3.338,
+  "end": 3.668
  },
  {
-  "word": "Kawhi",
-  "start": 2.483,
-  "end": 2.67
- },
- {
-  "word": "Leonard.",
-  "start": 2.742,
-  "end": 3.064
- },
- {
-  "word": "Now",
-  "start": 3.095,
-  "end": 3.22
- },
- {
-  "word": "Toronto",
-  "start": 3.272,
-  "end": 3.521
- },
- {
-  "word": "just",
-  "start": 3.573,
-  "end": 3.688
- },
- {
-  "word": "paid",
-  "start": 3.708,
-  "end": 3.853
- },
- {
-  "word": "two",
-  "start": 3.895,
-  "end": 4.04
- },
- {
-  "word": "more",
-  "start": 4.092,
-  "end": 4.227
- },
- {
-  "word": "to",
-  "start": 4.258,
-  "end": 4.3
- },
- {
-  "word": "take",
-  "start": 4.342,
-  "end": 4.497
- },
- {
-  "word": "him",
-  "start": 4.518,
-  "end": 4.591
- },
- {
-  "word": "back.",
-  "start": 4.632,
-  "end": 4.934
- },
- {
-  "word": "Kawhi",
-  "start": 4.965,
-  "end": 5.183
- },
- {
-  "word": "won",
-  "start": 5.245,
-  "end": 5.36
- },
- {
-  "word": "the",
-  "start": 5.391,
-  "end": 5.453
- },
- {
-  "word": "Raptors'",
-  "start": 5.495,
-  "end": 5.817
- },
- {
-  "word": "only",
-  "start": 5.858,
-  "end": 6.034
- },
- {
-  "word": "title",
-  "start": 6.076,
-  "end": 6.295
- },
- {
-  "word": "in",
-  "start": 6.325,
-  "end": 6.367
- },
- {
-  "word": "2019,",
-  "start": 6.419,
-  "end": 7.011
- },
- {
-  "word": "then",
-  "start": 7.042,
-  "end": 7.198
- },
- {
-  "word": "left",
-  "start": 7.26,
-  "end": 7.447
- },
- {
-  "word": "after",
-  "start": 7.489,
-  "end": 7.676
- },
- {
-  "word": "one",
-  "start": 7.738,
-  "end": 7.883
- },
- {
-  "word": "season.",
-  "start": 7.924,
-  "end": 8.32
- },
- {
-  "word": "This",
-  "start": 8.361,
-  "end": 8.559
- },
- {
-  "word": "month,",
-  "start": 8.611,
-  "end": 8.828
- },
- {
-  "word": "Toronto",
-  "start": 8.85,
-  "end": 9.13
- },
- {
-  "word": "sent",
-  "start": 9.181,
-  "end": 9.307
- },
- {
-  "word": "Brandon",
-  "start": 9.348,
-  "end": 9.608
- },
- {
-  "word": "Ingram,",
-  "start": 9.66,
-  "end": 9.961
- },
- {
-  "word": "Gradey",
-  "start": 10.003,
-  "end": 10.242
- },
- {
-  "word": "Dick,",
-  "start": 10.293,
-  "end": 10.512
- },
- {
-  "word": "two",
-  "start": 10.543,
-  "end": 10.699
- },
- {
-  "word": "unprotected",
-  "start": 10.771,
-  "end": 11.186
- },
- {
-  "word": "firsts,",
-  "start": 11.228,
-  "end": 11.612
- },
- {
-  "word": "a",
-  "start": 11.634,
-  "end": 11.685
- },
- {
-  "word": "pick",
-  "start": 11.737,
-  "end": 11.882
- },
- {
-  "word": "swap",
-  "start": 11.924,
-  "end": 12.121
- },
- {
-  "word": "and",
-  "start": 12.173,
-  "end": 12.277
- },
- {
-  "word": "two",
-  "start": 12.33,
-  "end": 12.475
- },
- {
-  "word": "seconds",
-  "start": 12.526,
-  "end": 12.786
- },
- {
-  "word": "to",
-  "start": 12.807,
-  "end": 12.859
- },
- {
-  "word": "the",
-  "start": 12.9,
-  "end": 12.963
- },
- {
-  "word": "Clippers.",
-  "start": 12.984,
-  "end": 13.378
- },
- {
-  "word": "But",
-  "start": 13.399,
-  "end": 13.534
- },
- {
-  "word": "here's",
-  "start": 13.586,
-  "end": 13.815
- },
- {
-  "word": "the",
-  "start": 13.846,
-  "end": 13.908
- },
- {
-  "word": "twist.",
-  "start": 13.95,
-  "end": 14.272
- },
- {
-  "word": "Five",
-  "start": 14.302,
-  "end": 14.489
- },
- {
-  "word": "of",
-  "start": 14.52,
-  "end": 14.563
- },
- {
-  "word": "those",
-  "start": 14.604,
-  "end": 14.739
- },
- {
-  "word": "Clippers",
-  "start": 14.77,
-  "end": 15.04
- },
- {
-  "word": "picks",
-  "start": 15.081,
-  "end": 15.248
- },
- {
-  "word": "were",
-  "start": 15.268,
-  "end": 15.383
- },
- {
-  "word": "taken",
-  "start": 15.403,
-  "end": 15.611
- },
- {
-  "word": "by",
-  "start": 15.653,
-  "end": 15.736
- },
- {
-  "word": "the",
-  "start": 15.777,
-  "end": 15.85
- },
- {
-  "word": "NBA,",
-  "start": 15.902,
-  "end": 16.328
- },
- {
-  "word": "along",
-  "start": 16.349,
-  "end": 16.598
- },
- {
-  "word": "with",
-  "start": 16.629,
-  "end": 16.723
- },
- {
-  "word": "a",
-  "start": 16.753,
-  "end": 16.785
- },
- {
-  "word": "$30 million",
-  "start": 16.837,
-  "end": 17.533
- },
- {
-  "word": "fine",
-  "start": 17.585,
-  "end": 17.865
- },
- {
-  "word": "and",
-  "start": 17.886,
-  "end": 17.99
- },
- {
-  "word": "a",
-  "start": 18.031,
-  "end": 18.062
- },
- {
-  "word": "one-year",
-  "start": 18.125,
-  "end": 18.384
- },
- {
-  "word": "suspension",
-  "start": 18.426,
-  "end": 18.831
- },
- {
-  "word": "for",
-  "start": 18.883,
-  "end": 18.977
+  "word": "their",
+  "start": 3.696,
+  "end": 3.797
  },
  {
   "word": "owner",
-  "start": 19.039,
-  "end": 19.226
- },
- {
-  "word": "Steve",
-  "start": 19.278,
-  "end": 19.486
- },
- {
-  "word": "Ballmer,",
-  "start": 19.527,
-  "end": 19.869
- },
- {
-  "word": "over",
-  "start": 19.901,
-  "end": 20.036
- },
- {
-  "word": "how",
-  "start": 20.078,
-  "end": 20.14
- },
- {
-  "word": "they",
-  "start": 20.182,
-  "end": 20.285
- },
- {
-  "word": "paid",
-  "start": 20.337,
-  "end": 20.524
- },
- {
-  "word": "Kawhi.",
-  "start": 20.576,
-  "end": 20.971
- },
- {
-  "word": "Now",
-  "start": 21.013,
-  "end": 21.147
- },
- {
-  "word": "he's",
-  "start": 21.21,
-  "end": 21.345
- },
- {
-  "word": "thirty-five.",
-  "start": 21.387,
-  "end": 21.989
- },
- {
-  "word": "So",
-  "start": 22.02,
-  "end": 22.124
- },
- {
-  "word": "is",
-  "start": 22.165,
-  "end": 22.217
- },
- {
-  "word": "Toronto",
-  "start": 22.269,
-  "end": 22.529
- },
- {
-  "word": "buying",
-  "start": 22.581,
-  "end": 22.768
- },
- {
-  "word": "a",
-  "start": 22.798,
-  "end": 22.82
- },
- {
-  "word": "championship,",
-  "start": 22.861,
-  "end": 23.453
- },
- {
-  "word": "or",
-  "start": 23.485,
-  "end": 23.568
- },
- {
-  "word": "paying",
-  "start": 23.62,
-  "end": 23.827
+  "start": 3.843,
+  "end": 4.017
  },
  {
   "word": "for",
-  "start": 23.858,
-  "end": 23.942
+  "start": 4.063,
+  "end": 4.164
  },
  {
-  "word": "2019?",
-  "start": 23.994,
-  "end": 24.72
+  "word": "a",
+  "start": 4.2,
+  "end": 4.219
+ },
+ {
+  "word": "year,",
+  "start": 4.273,
+  "end": 4.549
+ },
+ {
+  "word": "all",
+  "start": 4.595,
+  "end": 4.76
+ },
+ {
+  "word": "over",
+  "start": 4.806,
+  "end": 4.952
+ },
+ {
+  "word": "how",
+  "start": 4.998,
+  "end": 5.081
+ },
+ {
+  "word": "they",
+  "start": 5.117,
+  "end": 5.2
+ },
+ {
+  "word": "paid",
+  "start": 5.236,
+  "end": 5.393
+ },
+ {
+  "word": "Kawhi",
+  "start": 5.439,
+  "end": 5.668
+ },
+ {
+  "word": "Leonard.",
+  "start": 5.75,
+  "end": 6.062
+ },
+ {
+  "word": "Then",
+  "start": 6.108,
+  "end": 6.245
+ },
+ {
+  "word": "Toronto",
+  "start": 6.291,
+  "end": 6.548
+ },
+ {
+  "word": "traded",
+  "start": 6.594,
+  "end": 6.786
+ },
+ {
+  "word": "for",
+  "start": 6.823,
+  "end": 6.897
+ },
+ {
+  "word": "him",
+  "start": 6.943,
+  "end": 7.016
+ },
+ {
+  "word": "anyway:",
+  "start": 7.062,
+  "end": 7.392
+ },
+ {
+  "word": "Brandon",
+  "start": 7.438,
+  "end": 7.722
+ },
+ {
+  "word": "Ingram,",
+  "start": 7.768,
+  "end": 8.043
+ },
+ {
+  "word": "Gradey",
+  "start": 8.089,
+  "end": 8.318
+ },
+ {
+  "word": "Dick,",
+  "start": 8.364,
+  "end": 8.602
+ },
+ {
+  "word": "and",
+  "start": 8.62,
+  "end": 8.74
+ },
+ {
+  "word": "two",
+  "start": 8.785,
+  "end": 8.923
+ },
+ {
+  "word": "first-round",
+  "start": 8.969,
+  "end": 9.318
+ },
+ {
+  "word": "picks.",
+  "start": 9.345,
+  "end": 9.666
+ },
+ {
+  "word": "Eight",
+  "start": 9.712,
+  "end": 9.859
+ },
+ {
+  "word": "days",
+  "start": 9.886,
+  "end": 10.042
+ },
+ {
+  "word": "later,",
+  "start": 10.088,
+  "end": 10.345
+ },
+ {
+  "word": "it",
+  "start": 10.372,
+  "end": 10.455
+ },
+ {
+  "word": "gave",
+  "start": 10.5,
+  "end": 10.657
+ },
+ {
+  "word": "the",
+  "start": 10.684,
+  "end": 10.739
+ },
+ {
+  "word": "thirty-five-year-old",
+  "start": 10.767,
+  "end": 11.427
+ },
+ {
+  "word": "a",
+  "start": 11.473,
+  "end": 11.5
+ },
+ {
+  "word": "$115 million",
+  "start": 11.583,
+  "end": 12.711
+ },
+ {
+  "word": "extension,",
+  "start": 12.748,
+  "end": 13.188
+ },
+ {
+  "word": "after",
+  "start": 13.224,
+  "end": 13.435
+ },
+ {
+  "word": "a",
+  "start": 13.472,
+  "end": 13.5
+ },
+ {
+  "word": "career-high",
+  "start": 13.536,
+  "end": 13.94
+ },
+ {
+  "word": "27.9",
+  "start": 13.976,
+  "end": 14.793
+ },
+ {
+  "word": "points",
+  "start": 14.829,
+  "end": 15.012
+ },
+ {
+  "word": "a",
+  "start": 15.04,
+  "end": 15.058
+ },
+ {
+  "word": "game.",
+  "start": 15.104,
+  "end": 15.361
+ },
+ {
+  "word": "But",
+  "start": 15.407,
+  "end": 15.508
+ },
+ {
+  "word": "that's",
+  "start": 15.535,
+  "end": 15.691
+ },
+ {
+  "word": "not",
+  "start": 15.728,
+  "end": 15.838
+ },
+ {
+  "word": "even",
+  "start": 15.875,
+  "end": 15.994
+ },
+ {
+  "word": "the",
+  "start": 16.021,
+  "end": 16.076
+ },
+ {
+  "word": "crazy",
+  "start": 16.104,
+  "end": 16.324
+ },
+ {
+  "word": "part.",
+  "start": 16.37,
+  "end": 16.599
+ },
+ {
+  "word": "ESPN",
+  "start": 16.644,
+  "end": 17.076
+ },
+ {
+  "word": "counts",
+  "start": 17.121,
+  "end": 17.324
+ },
+ {
+  "word": "ten",
+  "start": 17.369,
+  "end": 17.507
+ },
+ {
+  "word": "first-round",
+  "start": 17.561,
+  "end": 17.929
+ },
+ {
+  "word": "picks",
+  "start": 17.965,
+  "end": 18.167
+ },
+ {
+  "word": "the",
+  "start": 18.195,
+  "end": 18.249
+ },
+ {
+  "word": "Clippers",
+  "start": 18.287,
+  "end": 18.552
+ },
+ {
+  "word": "spent",
+  "start": 18.571,
+  "end": 18.772
+ },
+ {
+  "word": "to",
+  "start": 18.809,
+  "end": 18.892
+ },
+ {
+  "word": "get",
+  "start": 18.947,
+  "end": 19.084
+ },
+ {
+  "word": "and",
+  "start": 19.13,
+  "end": 19.204
+ },
+ {
+  "word": "keep",
+  "start": 19.249,
+  "end": 19.405
+ },
+ {
+  "word": "him.",
+  "start": 19.451,
+  "end": 19.616
+ },
+ {
+  "word": "Ten",
+  "start": 19.699,
+  "end": 19.864
+ },
+ {
+  "word": "first-round",
+  "start": 19.919,
+  "end": 20.249
+ },
+ {
+  "word": "picks",
+  "start": 20.286,
+  "end": 20.46
+ },
+ {
+  "word": "out.",
+  "start": 20.497,
+  "end": 20.735
+ },
+ {
+  "word": "Toronto's",
+  "start": 20.863,
+  "end": 21.193
+ },
+ {
+  "word": "first-round",
+  "start": 21.23,
+  "end": 21.569
+ },
+ {
+  "word": "price:",
+  "start": 21.606,
+  "end": 21.955
+ },
+ {
+  "word": "two.",
+  "start": 22.065,
+  "end": 22.56
  }
 ]

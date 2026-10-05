@@ -1,202 +1,202 @@
 [
  {
-  "word": "No",
+  "word": "A",
   "start": 0.0,
-  "end": 0.14
+  "end": 0.073
  },
  {
   "word": "father",
-  "start": 0.19,
-  "end": 0.419
+  "start": 0.147,
+  "end": 0.399
  },
  {
   "word": "and",
-  "start": 0.459,
-  "end": 0.519
+  "start": 0.431,
+  "end": 0.504
  },
  {
   "word": "son",
-  "start": 0.568,
-  "end": 0.748
+  "start": 0.546,
+  "end": 0.661
  },
  {
   "word": "had",
-  "start": 0.798,
-  "end": 0.887
+  "start": 0.704,
+  "end": 0.777
  },
  {
-  "word": "ever",
-  "start": 0.937,
-  "end": 1.097
+  "word": "never",
+  "start": 0.82,
+  "end": 0.977
  },
  {
   "word": "played",
-  "start": 1.146,
-  "end": 1.326
+  "start": 1.03,
+  "end": 1.219
  },
  {
   "word": "in",
-  "start": 1.346,
-  "end": 1.386
+  "start": 1.239,
+  "end": 1.281
  },
  {
   "word": "the",
-  "start": 1.416,
-  "end": 1.475
+  "start": 1.303,
+  "end": 1.365
  },
  {
   "word": "same",
-  "start": 1.505,
-  "end": 1.685
+  "start": 1.397,
+  "end": 1.565
  },
  {
   "word": "NBA",
-  "start": 1.715,
-  "end": 1.974
+  "start": 1.597,
+  "end": 1.901
  },
  {
   "word": "game,",
-  "start": 2.024,
-  "end": 2.253
+  "start": 1.953,
+  "end": 2.164
  },
  {
   "word": "until",
-  "start": 2.283,
-  "end": 2.502
+  "start": 2.195,
+  "end": 2.395
  },
  {
   "word": "LeBron",
-  "start": 2.552,
-  "end": 2.812
+  "start": 2.437,
+  "end": 2.71
  },
  {
   "word": "and",
-  "start": 2.851,
-  "end": 2.921
+  "start": 2.752,
+  "end": 2.815
  },
  {
   "word": "Bronny",
-  "start": 2.951,
-  "end": 3.19
+  "start": 2.846,
+  "end": 3.088
  },
  {
   "word": "James.",
-  "start": 3.24,
-  "end": 3.559
+  "start": 3.14,
+  "end": 3.488
  },
  {
   "word": "They",
-  "start": 3.579,
-  "end": 3.699
+  "start": 3.518,
+  "end": 3.634
  },
  {
   "word": "were",
-  "start": 3.729,
-  "end": 3.828
+  "start": 3.666,
+  "end": 3.771
  },
  {
   "word": "teammates",
-  "start": 3.858,
-  "end": 4.167
+  "start": 3.803,
+  "end": 4.128
  },
  {
   "word": "for",
-  "start": 4.198,
-  "end": 4.287
+  "start": 4.16,
+  "end": 4.254
  },
  {
   "word": "two",
-  "start": 4.317,
-  "end": 4.436
+  "start": 4.306,
+  "end": 4.443
  },
  {
   "word": "seasons,",
-  "start": 4.486,
-  "end": 4.836
+  "start": 4.496,
+  "end": 4.885
  },
  {
   "word": "and",
-  "start": 4.855,
-  "end": 4.945
+  "start": 4.905,
+  "end": 4.999
  },
  {
   "word": "LeBron",
-  "start": 4.995,
-  "end": 5.244
+  "start": 5.042,
+  "end": 5.304
  },
  {
   "word": "called",
-  "start": 5.294,
-  "end": 5.483
+  "start": 5.346,
+  "end": 5.535
  },
  {
   "word": "it",
-  "start": 5.513,
-  "end": 5.553
+  "start": 5.567,
+  "end": 5.619
  },
  {
   "word": "probably",
-  "start": 5.584,
-  "end": 5.902
+  "start": 5.662,
+  "end": 6.04
  },
  {
   "word": "his",
-  "start": 5.952,
-  "end": 6.032
+  "start": 6.092,
+  "end": 6.186
  },
  {
   "word": "number",
-  "start": 6.082,
-  "end": 6.271
+  "start": 6.239,
+  "end": 6.439
  },
  {
   "word": "one",
-  "start": 6.321,
-  "end": 6.43
+  "start": 6.491,
+  "end": 6.596
  },
  {
   "word": "accomplishment.",
-  "start": 6.451,
-  "end": 7.089
+  "start": 6.617,
+  "end": 7.174
  },
  {
   "word": "Then",
-  "start": 7.128,
-  "end": 7.268
+  "start": 7.195,
+  "end": 7.311
  },
  {
   "word": "LeBron",
-  "start": 7.318,
-  "end": 7.597
+  "start": 7.363,
+  "end": 7.615
  },
  {
   "word": "left",
-  "start": 7.647,
-  "end": 7.777
+  "start": 7.658,
+  "end": 7.783
  },
  {
   "word": "for",
-  "start": 7.807,
-  "end": 7.876
+  "start": 7.804,
+  "end": 7.877
  },
  {
   "word": "Philadelphia,",
-  "start": 7.906,
-  "end": 8.495
+  "start": 7.909,
+  "end": 8.497
  },
  {
   "word": "and",
-  "start": 8.514,
-  "end": 8.614
+  "start": 8.519,
+  "end": 8.624
  },
  {
   "word": "Bronny",
-  "start": 8.664,
-  "end": 8.913
+  "start": 8.665,
+  "end": 8.918
  },
  {
   "word": "stayed.",
-  "start": 8.963,
+  "start": 8.97,
   "end": 9.412
  }
 ]

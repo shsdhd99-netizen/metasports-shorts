@@ -1,123 +1,122 @@
 [
  {
-  "clip": "c01.mp4",
-  "start": 0,
-  "why": "Bronnys three-point",
+  "clip": "N1.mp4",
+  "start": 0.0,
+  "why": "Bronny #9 close",
   "kind": "action",
-  "zoom": 0.12
+  "zoom": 0.1
  },
  {
-  "clip": "c02.mp4",
-  "start": 1.0,
-  "why": "from twenty-eight",
-  "kind": "action"
+  "clip": "N2.mp4",
+  "start": 0.0,
+  "why": "Bronny ball",
+  "kind": "action",
+  "anchor": "from three"
  },
  {
-  "clip": "c03.mp4",
-  "start": 1.7,
-  "why": "thirty-nine",
-  "kind": "action"
+  "clip": "N3.mp4",
+  "start": 0.0,
+  "why": "LeBron 23",
+  "kind": "action",
+  "anchor": "than LeBron"
  },
  {
-  "clip": "c04.mp4",
-  "start": 2.43,
-  "why": "did he get better",
-  "kind": "action"
+  "clip": "A.mp4",
+  "start": 0.0,
+  "why": "card 3P% boxed",
+  "kind": "card",
+  "anchor": "Thirty-nine"
  },
  {
-  "clip": "c05.mp4",
-  "start": 3.73,
-  "why": "Supporters say yes",
-  "kind": "action"
+  "clip": "B.mp4",
+  "start": 0.0,
+  "why": "card rookie .281",
+  "kind": "card",
+  "anchor": "He was twenty-eight"
  },
  {
-  "clip": "c10.mp4",
-  "start": 4.69,
-  "why": "forty-one from field",
-  "kind": "action"
+  "clip": "N4.mp4",
+  "start": 0.0,
+  "why": "Bronny",
+  "kind": "action",
+  "anchor": "Until you count"
  },
  {
-  "clip": "c06.mp4",
-  "start": 5.75,
-  "why": "up from thirty-one",
-  "kind": "action"
+  "clip": "Cc.mp4",
+  "start": 0.0,
+  "why": "card 57 vs 243",
+  "kind": "card",
+  "anchor": "Bronny took fifty-seven"
  },
  {
-  "clip": "c09.mp4",
-  "start": 6.43,
-  "why": "nearly three points",
-  "kind": "action"
+  "clip": "N5.mp4",
+  "start": 0.0,
+  "why": "LeBron/Bronny Rockets",
+  "kind": "action",
+  "anchor": "LeBron took two"
  },
  {
-  "clip": "c07.mp4",
-  "start": 7.54,
-  "why": "over 42 games",
-  "kind": "action"
+  "clip": "D.mp4",
+  "start": 0.0,
+  "why": "card 9/32",
+  "kind": "card",
+  "anchor": "At his rookie rate"
  },
  {
-  "clip": "c08.mp4",
-  "start": 8.65,
-  "why": "But critics",
-  "kind": "action"
+  "clip": "E.mp4",
+  "start": 0.0,
+  "why": "card 22/57",
+  "kind": "card",
+  "anchor": "Bronny made twenty-two"
  },
  {
-  "clip": "c11.mp4",
-  "start": 9.99,
-  "why": "started just one",
-  "kind": "action"
- },
- {
-  "clip": "c14.mp4",
-  "start": 11.4,
-  "why": "under nine minutes",
-  "kind": "action"
- },
- {
-  "clip": "c15.mp4",
-  "start": 13.0,
-  "why": "turnovers up",
-  "kind": "action"
+  "clip": "N6.mp4",
+  "start": 0.0,
+  "why": "Bronny three",
+  "kind": "action",
+  "anchor": "Six threes"
  },
  {
   "clip": "q1.mp4",
-  "start": 15.0,
-  "why": "quote prove myself",
-  "kind": "quote"
+  "start": 0.0,
+  "why": "quote media day",
+  "kind": "quote",
+  "anchor": "trying to prove"
  },
  {
-  "clip": "c13.mp4",
-  "start": 17.08,
-  "why": "deal guaranteed",
-  "kind": "face"
+  "clip": "T.mp4",
+  "start": 0.0,
+  "why": "card TS",
+  "kind": "card",
+  "anchor": "His true shooting"
  },
  {
-  "clip": "c16.mp4",
-  "start": 18.4,
-  "why": "guaranteed",
-  "kind": "action"
+  "clip": "N7.mp4",
+  "start": 0.0,
+  "why": "Bronny JAMES JR",
+  "kind": "action",
+  "anchor": "So did Bronny"
  },
  {
-  "clip": "q2.mp4",
-  "start": 19.12,
-  "why": "quote ready to play",
-  "kind": "quote"
+  "clip": "N8.mp4",
+  "start": 0.0,
+  "why": "bench",
+  "kind": "action",
+  "anchor": "A little"
  },
  {
-  "clip": "c02.mp4",
-  "start": 20.44,
-  "why": "So is 39 percent real",
-  "kind": "action"
+  "clip": "N9.mp4",
+  "start": 0.0,
+  "why": "Bronny",
+  "kind": "action",
+  "anchor": "But six made"
  },
  {
-  "clip": "c05.mp4",
-  "start": 21.8,
-  "why": "forty-two small games",
-  "kind": "action"
- },
- {
-  "clip": "c01.mp4",
-  "start": 22.5,
+  "clip": "N1.mp4",
+  "start": 0.0,
   "why": "loop",
-  "kind": "action"
+  "kind": "action",
+  "anchor": "nothing yet",
+  "zoom": 0.1
  }
 ]
