@@ -1,122 +1,87 @@
 [
  {
-  "word": "Rockets",
+  "word": "The",
   "start": 0.0,
-  "end": 0.355
+  "end": 0.129
  },
  {
-  "word": "center",
-  "start": 0.386,
-  "end": 0.595
+  "word": "night",
+  "start": 0.182,
+  "end": 0.333
  },
  {
-  "word": "Steven",
-  "start": 0.647,
-  "end": 0.887
+  "word": "before",
+  "start": 0.365,
+  "end": 0.58
  },
  {
-  "word": "Adams",
-  "start": 0.928,
-  "end": 1.137
- },
- {
-  "word": "joked",
-  "start": 1.179,
-  "end": 1.356
- },
- {
-  "word": "that",
-  "start": 1.378,
-  "end": 1.471
- },
- {
-  "word": "when",
-  "start": 1.492,
-  "end": 1.596
- },
- {
-  "word": "GTA",
-  "start": 1.648,
-  "end": 1.951
+  "word": "it",
+  "start": 0.612,
+  "end": 0.655
  },
  {
   "word": "drops,",
-  "start": 1.993,
-  "end": 2.285
+  "start": 0.687,
+  "end": 0.966
  },
  {
   "word": "the",
-  "start": 2.316,
-  "end": 2.431
+  "start": 0.988,
+  "end": 1.074
  },
  {
-  "word": "whole",
-  "start": 2.483,
-  "end": 2.671
+  "word": "Heat",
+  "start": 1.127,
+  "end": 1.299
  },
  {
-  "word": "league",
-  "start": 2.702,
-  "end": 2.901
+  "word": "play",
+  "start": 1.342,
+  "end": 1.493
  },
  {
-  "word": "plummets.",
-  "start": 2.922,
-  "end": 3.277
+  "word": "a",
+  "start": 1.535,
+  "end": 1.567
  },
  {
-  "word": "Just",
-  "start": 3.329,
-  "end": 3.517
+  "word": "game",
+  "start": 1.61,
+  "end": 1.782
  },
  {
-  "word": "for",
-  "start": 3.558,
-  "end": 3.642
+  "word": "as",
+  "start": 1.825,
+  "end": 1.933
  },
  {
-  "word": "November,",
-  "start": 3.694,
-  "end": 4.059
+  "word": "Vice",
+  "start": 1.997,
+  "end": 2.212
  },
  {
-  "word": "he",
-  "start": 4.09,
-  "end": 4.153
+  "word": "City.",
+  "start": 2.233,
+  "end": 2.545
  },
  {
-  "word": "says.",
-  "start": 4.205,
-  "end": 4.508
+  "word": "Adams",
+  "start": 2.587,
+  "end": 2.867
  },
  {
-  "word": "And",
-  "start": 4.549,
-  "end": 4.664
+  "word": "was",
+  "start": 2.909,
+  "end": 3.006
  },
  {
-  "word": "the",
-  "start": 4.695,
-  "end": 4.758
+  "word": "joking.",
+  "start": 3.06,
+  "end": 3.447
  },
  {
-  "word": "coaches",
-  "start": 4.789,
-  "end": 5.061
- },
- {
-  "word": "and",
-  "start": 5.092,
-  "end": 5.154
- },
- {
-  "word": "scouts",
-  "start": 5.176,
-  "end": 5.446
- },
- {
-  "word": "too.",
-  "start": 5.489,
-  "end": 5.76
+  "word": "Mostly.",
+  "start": 3.543,
+  "end": 4.08
  }
 ]
