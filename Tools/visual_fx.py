@@ -177,7 +177,7 @@ def cmd_statcard(a):
     os.makedirs(os.path.dirname(os.path.abspath(a.out)), exist_ok=True)
     p = subprocess.Popen(["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(fps), "-i", "-",
                           "-vf", "format=yuv420p", "-c:v", "libx264", "-crf", "16", "-preset", "veryfast", a.out], stdin=subprocess.PIPE)
-    cy = int(H * 0.27)
+    cy = int(H * 0.27) + (60 if getattr(a, "down", False) else 0)  # shift down when a premise line sits at the top
     ease = lambda x: 1 - (1 - min(1, max(0, x))) ** 3
     for i in range(n):
         t = i / fps
@@ -306,7 +306,7 @@ def cmd_render(a):
         out = os.path.join(tmp, f"s{i:03d}.mp4")
         card = next((c for c in fx.get("statcards", []) if abs(c["at"] - s["t0"]) < 0.35), None)
         if card:
-            cmd_statcard(argparse.Namespace(big=card["big"], of=card.get("of", ""), label=card.get("label", ""), color=card.get("color", "green"), len=L, out=out))
+            cmd_statcard(argparse.Namespace(big=card["big"], of=card.get("of", ""), label=card.get("label", ""), color=card.get("color", "green"), len=L, out=out, down=bool(a.premise_line)))
             parts.append(out)
             continue
         clip = os.path.join(folder, "clips", s["clip"])
@@ -349,6 +349,14 @@ def cmd_render(a):
         raw2 = os.path.join(folder, "_fx_tags.mp4")
         sh(["ffmpeg", "-y", "-loglevel", "error", "-i", raw, "-vf", ",".join(vf), "-c:v", "libx264", "-crf", "16", "-preset", "veryfast", "-c:a", "copy", raw2])
         os.replace(raw2, raw)
+    if a.premise_line:  # persistent premise line: top safe area (y=7%), 2-4 words, sentence case, subtle dark pill; whole video
+        fnt = os.path.join(HERE, "fonts", "Montserrat-Bold.ttf").replace(":", "\\:")
+        txt = a.premise_line.replace("\\", "\\\\").replace("'", "\u2019").replace(":", "\\:").replace("%", "\\%")
+        raw3 = os.path.join(folder, "_fx_premise.mp4")
+        sh(["ffmpeg", "-y", "-loglevel", "error", "-i", raw, "-vf",
+            f"drawtext=fontfile='{fnt}':text='{txt}':fontsize=44:fontcolor=white:box=1:boxcolor=black@0.45:boxborderw=18:x=(w-text_w)/2:y={int(H * 0.07)}",
+            "-c:v", "libx264", "-crf", "16", "-preset", "veryfast", "-c:a", "copy", raw3])
+        os.replace(raw3, raw)
     final = os.path.join(folder, a.out_name)
     assemble.finish(folder, raw, final, total, a.caption_style, music=None)
     shutil.rmtree(tmp, ignore_errors=True)
@@ -374,6 +382,7 @@ def main():
     p.add_argument("--kenburns", type=float, default=0.0, help="slow push on stills/cards, e.g. 0.06")
     p.add_argument("--auto-zoom", dest="auto_zoom", type=float, default=0.0)
     p.add_argument("--grade", action="store_true"); p.add_argument("--level", action="store_true")
+    p.add_argument("--premise-line", dest="premise_line", default="", help='small persistent line at the top, e.g. "Flagg: 6-8 to 6-11?"')
     p.add_argument("--fx", default=None); p.add_argument("--caption-style", dest="caption_style", default="metasports")
     a = ap.parse_args()
     sys.stdout.reconfigure(encoding="utf-8")
