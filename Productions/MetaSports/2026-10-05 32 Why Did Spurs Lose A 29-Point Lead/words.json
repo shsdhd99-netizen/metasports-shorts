@@ -1,0 +1,492 @@
+[
+ {
+  "word": "The",
+  "start": 0.0,
+  "end": 0.147
+ },
+ {
+  "word": "Spurs",
+  "start": 0.204,
+  "end": 0.499
+ },
+ {
+  "word": "led",
+  "start": 0.544,
+  "end": 0.668
+ },
+ {
+  "word": "the",
+  "start": 0.691,
+  "end": 0.759
+ },
+ {
+  "word": "NBA",
+  "start": 0.804,
+  "end": 1.031
+ },
+ {
+  "word": "Finals",
+  "start": 1.099,
+  "end": 1.382
+ },
+ {
+  "word": "by",
+  "start": 1.438,
+  "end": 1.541
+ },
+ {
+  "word": "twenty-nine",
+  "start": 1.597,
+  "end": 2.04
+ },
+ {
+  "word": "points.",
+  "start": 2.074,
+  "end": 2.436
+ },
+ {
+  "word": "And",
+  "start": 2.458,
+  "end": 2.629
+ },
+ {
+  "word": "lost.",
+  "start": 2.686,
+  "end": 3.093
+ },
+ {
+  "word": "They",
+  "start": 3.138,
+  "end": 3.274
+ },
+ {
+  "word": "hit",
+  "start": 3.308,
+  "end": 3.421
+ },
+ {
+  "word": "a",
+  "start": 3.455,
+  "end": 3.478
+ },
+ {
+  "word": "Finals",
+  "start": 3.535,
+  "end": 3.807
+ },
+ {
+  "word": "record",
+  "start": 3.852,
+  "end": 4.079
+ },
+ {
+  "word": "fourteen",
+  "start": 4.124,
+  "end": 4.487
+ },
+ {
+  "word": "threes",
+  "start": 4.532,
+  "end": 4.804
+ },
+ {
+  "word": "in",
+  "start": 4.837,
+  "end": 4.895
+ },
+ {
+  "word": "the",
+  "start": 4.928,
+  "end": 4.996
+ },
+ {
+  "word": "first",
+  "start": 5.041,
+  "end": 5.279
+ },
+ {
+  "word": "half,",
+  "start": 5.325,
+  "end": 5.562
+ },
+ {
+  "word": "and",
+  "start": 5.586,
+  "end": 5.699
+ },
+ {
+  "word": "led",
+  "start": 5.744,
+  "end": 5.869
+ },
+ {
+  "word": "by",
+  "start": 5.914,
+  "end": 5.994
+ },
+ {
+  "word": "twenty-seven",
+  "start": 6.05,
+  "end": 6.582
+ },
+ {
+  "word": "at",
+  "start": 6.616,
+  "end": 6.685
+ },
+ {
+  "word": "the",
+  "start": 6.719,
+  "end": 6.786
+ },
+ {
+  "word": "break.",
+  "start": 6.832,
+  "end": 7.137
+ },
+ {
+  "word": "Then",
+  "start": 7.161,
+  "end": 7.319
+ },
+ {
+  "word": "the",
+  "start": 7.353,
+  "end": 7.421
+ },
+ {
+  "word": "Knicks",
+  "start": 7.466,
+  "end": 7.658
+ },
+ {
+  "word": "started",
+  "start": 7.682,
+  "end": 7.965
+ },
+ {
+  "word": "chasing.",
+  "start": 7.999,
+  "end": 8.418
+ },
+ {
+  "word": "San",
+  "start": 8.452,
+  "end": 8.622
+ },
+ {
+  "word": "Antonio",
+  "start": 8.668,
+  "end": 9.041
+ },
+ {
+  "word": "went",
+  "start": 9.098,
+  "end": 9.256
+ },
+ {
+  "word": "three",
+  "start": 9.29,
+  "end": 9.494
+ },
+ {
+  "word": "for",
+  "start": 9.54,
+  "end": 9.641
+ },
+ {
+  "word": "seventeen",
+  "start": 9.698,
+  "end": 10.106
+ },
+ {
+  "word": "from",
+  "start": 10.163,
+  "end": 10.287
+ },
+ {
+  "word": "deep",
+  "start": 10.355,
+  "end": 10.525
+ },
+ {
+  "word": "in",
+  "start": 10.559,
+  "end": 10.615
+ },
+ {
+  "word": "the",
+  "start": 10.649,
+  "end": 10.718
+ },
+ {
+  "word": "second",
+  "start": 10.752,
+  "end": 11.001
+ },
+ {
+  "word": "half.",
+  "start": 11.046,
+  "end": 11.284
+ },
+ {
+  "word": "Since",
+  "start": 11.306,
+  "end": 11.522
+ },
+ {
+  "word": "nineteen",
+  "start": 11.556,
+  "end": 11.828
+ },
+ {
+  "word": "ninety-seven,",
+  "start": 11.861,
+  "end": 12.372
+ },
+ {
+  "word": "nobody",
+  "start": 12.406,
+  "end": 12.677
+ },
+ {
+  "word": "had",
+  "start": 12.701,
+  "end": 12.768
+ },
+ {
+  "word": "come",
+  "start": 12.802,
+  "end": 12.938
+ },
+ {
+  "word": "back",
+  "start": 12.961,
+  "end": 13.097
+ },
+ {
+  "word": "from",
+  "start": 13.131,
+  "end": 13.233
+ },
+ {
+  "word": "more",
+  "start": 13.255,
+  "end": 13.369
+ },
+ {
+  "word": "than",
+  "start": 13.402,
+  "end": 13.527
+ },
+ {
+  "word": "twenty-four",
+  "start": 13.561,
+  "end": 14.026
+ },
+ {
+  "word": "down",
+  "start": 14.083,
+  "end": 14.252
+ },
+ {
+  "word": "in",
+  "start": 14.286,
+  "end": 14.343
+ },
+ {
+  "word": "a",
+  "start": 14.388,
+  "end": 14.411
+ },
+ {
+  "word": "Finals",
+  "start": 14.456,
+  "end": 14.729
+ },
+ {
+  "word": "game.",
+  "start": 14.763,
+  "end": 14.989
+ },
+ {
+  "word": "Then",
+  "start": 15.023,
+  "end": 15.181
+ },
+ {
+  "word": "Brunson",
+  "start": 15.238,
+  "end": 15.555
+ },
+ {
+  "word": "launched",
+  "start": 15.612,
+  "end": 15.827
+ },
+ {
+  "word": "a",
+  "start": 15.872,
+  "end": 15.896
+ },
+ {
+  "word": "long",
+  "start": 15.952,
+  "end": 16.156
+ },
+ {
+  "word": "three",
+  "start": 16.213,
+  "end": 16.45
+ },
+ {
+  "word": "to",
+  "start": 16.484,
+  "end": 16.541
+ },
+ {
+  "word": "win",
+  "start": 16.597,
+  "end": 16.722
+ },
+ {
+  "word": "it,",
+  "start": 16.768,
+  "end": 16.87
+ },
+ {
+  "word": "and",
+  "start": 16.904,
+  "end": 17.005
+ },
+ {
+  "word": "missed.",
+  "start": 17.051,
+  "end": 17.357
+ },
+ {
+  "word": "But",
+  "start": 17.379,
+  "end": 17.538
+ },
+ {
+  "word": "OG",
+  "start": 17.595,
+  "end": 17.833
+ },
+ {
+  "word": "Anunoby",
+  "start": 17.991,
+  "end": 18.433
+ },
+ {
+  "word": "tipped",
+  "start": 18.489,
+  "end": 18.716
+ },
+ {
+  "word": "it",
+  "start": 18.75,
+  "end": 18.796
+ },
+ {
+  "word": "in",
+  "start": 18.841,
+  "end": 18.909
+ },
+ {
+  "word": "with",
+  "start": 18.954,
+  "end": 19.101
+ },
+ {
+  "word": "one",
+  "start": 19.17,
+  "end": 19.339
+ },
+ {
+  "word": "point",
+  "start": 19.396,
+  "end": 19.588
+ },
+ {
+  "word": "two",
+  "start": 19.622,
+  "end": 19.759
+ },
+ {
+  "word": "seconds",
+  "start": 19.816,
+  "end": 20.109
+ },
+ {
+  "word": "left.",
+  "start": 20.167,
+  "end": 20.45
+ },
+ {
+  "word": "A",
+  "start": 20.472,
+  "end": 20.529
+ },
+ {
+  "word": "hundred",
+  "start": 20.608,
+  "end": 20.835
+ },
+ {
+  "word": "seven",
+  "start": 20.88,
+  "end": 21.084
+ },
+ {
+  "word": "to",
+  "start": 21.118,
+  "end": 21.163
+ },
+ {
+  "word": "a",
+  "start": 21.22,
+  "end": 21.242
+ },
+ {
+  "word": "hundred",
+  "start": 21.3,
+  "end": 21.504
+ },
+ {
+  "word": "six.",
+  "start": 21.56,
+  "end": 21.832
+ },
+ {
+  "word": "The",
+  "start": 21.854,
+  "end": 21.968
+ },
+ {
+  "word": "biggest",
+  "start": 22.025,
+  "end": 22.296
+ },
+ {
+  "word": "comeback",
+  "start": 22.33,
+  "end": 22.603
+ },
+ {
+  "word": "in",
+  "start": 22.648,
+  "end": 22.693
+ },
+ {
+  "word": "Finals",
+  "start": 22.75,
+  "end": 23.021
+ },
+ {
+  "word": "history.",
+  "start": 23.067,
+  "end": 23.52
+ }
+]

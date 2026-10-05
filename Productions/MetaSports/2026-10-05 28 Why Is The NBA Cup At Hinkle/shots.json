@@ -7,15 +7,9 @@
   "zoom": 0.1
  },
  {
-  "clip": "h02.mp4",
-  "start": 1.32,
-  "anchor": "gym built",
-  "kind": "action"
- },
- {
   "clip": "h03.mp4",
-  "start": 2.11,
-  "anchor": "twenty-eight.",
+  "start": 1.51,
+  "anchor": "built in",
   "kind": "action"
  },
  {
@@ -79,15 +73,9 @@
   "kind": "action"
  },
  {
-  "clip": "h13.mp4",
-  "start": 17.87,
-  "anchor": "from here",
-  "kind": "action"
- },
- {
   "clip": "h14.mp4",
-  "start": 18.27,
-  "anchor": "two Final",
+  "start": 17.87,
+  "anchor": "from here to",
   "kind": "action"
  },
  {

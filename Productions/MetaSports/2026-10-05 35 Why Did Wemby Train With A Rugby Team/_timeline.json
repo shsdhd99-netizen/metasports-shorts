@@ -1,0 +1,26 @@
+[
+ {
+  "i": 0,
+  "kind": "vo",
+  "start": 0.0,
+  "end": 20.171,
+  "src": "_n1",
+  "src_from": null
+ },
+ {
+  "i": 1,
+  "kind": "quote",
+  "start": 20.291,
+  "end": 24.311,
+  "src": "src/guz.mp4",
+  "src_from": 31.28
+ },
+ {
+  "i": 2,
+  "kind": "quote",
+  "start": 24.431,
+  "end": 25.441,
+  "src": "src/guz.mp4",
+  "src_from": 36.14
+ }
+]

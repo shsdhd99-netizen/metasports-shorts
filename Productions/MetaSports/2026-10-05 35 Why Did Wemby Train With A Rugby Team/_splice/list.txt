@@ -1,0 +1,5 @@
+file '/home/user/metasports-shorts/Productions/MetaSports/2026-10-05 35 Why Did Wemby Train With A Rugby Team/_splice/p0.wav'
+file '/home/user/metasports-shorts/Productions/MetaSports/2026-10-05 35 Why Did Wemby Train With A Rugby Team/_splice/gap.wav'
+file '/home/user/metasports-shorts/Productions/MetaSports/2026-10-05 35 Why Did Wemby Train With A Rugby Team/_splice/p1.wav'
+file '/home/user/metasports-shorts/Productions/MetaSports/2026-10-05 35 Why Did Wemby Train With A Rugby Team/_splice/gap.wav'
+file '/home/user/metasports-shorts/Productions/MetaSports/2026-10-05 35 Why Did Wemby Train With A Rugby Team/_splice/p2.wav'

@@ -37,3 +37,18 @@ Before/after frames: `Research Notes/Visuals Playbook Assets/before_after_24_top
 5. Nothing changes unless the flags are passed. Do the stat card and name tag first (no assemble change needed for cards).
 ## Needs from the user
 Only analytics: A/B punch-in (0 vs 0.07) and stat card vs article card on two same-lane Shorts; do not adopt 4-6 without that.
+
+## Premise line (persistent top line, user-approved test, Oct 5)
+Option: `render --premise-line "TEXT"` (off by default). White Montserrat Bold 44 px, sentence case, 45% black pill, centred at y=7% of height (about 134 px), whole video. Statcards shift down 60 px when it is on so they never collide. Not the removed hook headline: small, constant, and it states the premise, not a teaser.
+Tested on copies of #19 and #20 (frames 0.3/2/10/20 s): `Research Notes/Visuals Playbook Assets/premise_line_19_top_20_bottom.png`. It sits above faces and well above the 45-62% caption band; at 2 s in #19 it overlaps only the top of a jumping player's frame, at 20 s it clears the Flagg face (face top is about 15%).
+Commands (on COPIES; Tools/ cwd):
+- `python visual_fx.py render --folder "<copy of #19>" --out-name premise.mp4 --premise-line "Flagg: 6-8 to 6-11?"`
+- `python visual_fx.py render --folder "<copy of #20>" --out-name premise.mp4 --premise-line "Bad Boys vs Knicks"`
+Text ideas: #19 "Flagg: 6-8 to 6-11?" (or "Flagg's real height"); #20 "Bad Boys vs Knicks" (or "Bad Boys defense, today"). Keep 2-4 words, one line, no emoji.
+A/B plan (HYPOTHESIS, n small):
+1. Post #19 WITH the line and #20 WITHOUT, same slot on different days; swap the arm on the next pair.
+2. Same lane, similar length, same posting time, no other changes that day.
+3. Compare "stayed to watch" and avg % viewed at 48 h, plus the 3-s retention point.
+4. Record each pair in Outcome Log.md (arm, views, stayed %, APV).
+5. Call it after 3 pairs: adopt only if the line arm wins on stayed-to-watch in 2 of 3 pairs by 3+ points.
+6. If it ties or loses, drop it; the line costs nothing but adds no proven value yet.
