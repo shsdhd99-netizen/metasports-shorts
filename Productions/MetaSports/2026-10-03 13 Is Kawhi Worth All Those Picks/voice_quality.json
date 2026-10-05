@@ -1,0 +1,21 @@
+[
+ {
+  "name": "2026-10-03 13 Is Kawhi Worth All T",
+  "dur": 22.87,
+  "voiced": 0.64,
+  "hnr": 8.4,
+  "jitter": 2.6,
+  "shimmer": 10.49,
+  "jumps": 0.0,
+  "clicks": 566.7,
+  "hf": 3.37,
+  "f0_med": 220.0,
+  "verdict": "REDO",
+  "problems": [
+   "HNR 8.4 dB (noisy/robotic)",
+   "jitter 2.6% (shaky)",
+   "shimmer 10.49% (uneven loudness)",
+   "566.7 clicks/min"
+  ]
+ }
+]

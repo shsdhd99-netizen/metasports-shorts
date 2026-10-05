@@ -215,14 +215,21 @@ def main():
     ap.add_argument("--script", help="path to a .txt/.md script (only the spoken text)")
     ap.add_argument("--voice-id")
     ap.add_argument("--model", default="eleven_multilingual_v2")
-    ap.add_argument("--speed", type=float, default=1.1, help="ElevenLabs speed 0.7-1.2")
-    ap.add_argument("--stability", type=float, default=0.45)
-    ap.add_argument("--similarity", type=float, default=0.8)
-    ap.add_argument("--target-wpm", type=int, default=250, help="speed audio up to about this pace (0 = off)")
+    ap.add_argument("--speed", default="auto", help="ElevenLabs native speed 0.7-1.2, or auto. Our cloned voice reads ~210 wpm at 1.1, ~238 at 1.15, ~268 at 1.2 (Oct 5 2026 lab). auto = the fastest of 1.2/1.15/1.1 that still gives a take of at least --min-secs, so no time-stretch is needed")
+    ap.add_argument("--min-secs", type=float, default=22.5, help="auto speed keeps the narration at least this long (the 21-30 s sweet spot)")
+    ap.add_argument("--stability", type=float, default=0.65, help="0.65 (Oct 5 2026 voice lab). 0.45 gave the glitchier takes on the cloned voice")
+    ap.add_argument("--similarity", type=float, default=0.7, help="0.7 = the voice's own saved setting")
+    ap.add_argument("--target-wpm", type=int, default=250, help="speed audio up to about this pace with atempo, but never more than --max-stretch (0 = off)")
+    ap.add_argument("--max-stretch", type=float, default=1.08, help="time-stretching lowers voice quality (HNR -0.5..-1.1 dB at x1.2-1.4); above this we warn instead")
+    ap.add_argument("--legacy", action="store_true", help="old settings (speed 1.1, stability 0.45, similarity 0.8, stretch up to x1.6)")
+    ap.add_argument("--prev-text", default="", help="text spoken just before this piece (keeps tone/pace continuous across spliced pieces)")
+    ap.add_argument("--next-text", default="", help="text spoken just after this piece")
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--list-voices", action="store_true")
     ap.add_argument("--check", action="store_true")
     a = ap.parse_args()
+    if a.legacy:
+        a.speed, a.stability, a.similarity, a.max_stretch = 1.1, 0.45, 0.8, 1.6
     env = load_env()
     key = env.get("ELEVENLABS_API_KEY", "")
 
@@ -251,11 +258,20 @@ def main():
     if not key or not voice:
         raise SystemExit("Missing ELEVENLABS_API_KEY or ELEVENLABS_VOICE_ID in Tools/.env")
 
+    if str(a.speed).lower() == "auto":
+        est = lambda sp: n_words / (210 + (sp - 1.1) * 580) * 60  # rough reading time of the spoken words at native speed sp
+        a.speed = next((sp for sp in (1.2, 1.15) if est(sp) >= a.min_secs), 1.1)
+        print(f"auto speed -> {a.speed} (about {est(a.speed):.1f} s for {n_words} words)")
+    a.speed = float(a.speed)
     settings = {"stability": a.stability, "similarity_boost": a.similarity, "use_speaker_boost": True}
     if abs(a.speed - 1.0) > 1e-6:
         settings["speed"] = max(0.7, min(1.2, a.speed))
-    res = call(f"/text-to-speech/{voice}/with-timestamps?output_format=mp3_44100_128", key,
-               {"text": spoken, "model_id": a.model, "voice_settings": settings})
+    body = {"text": spoken, "model_id": a.model, "voice_settings": settings}
+    if a.prev_text:
+        body["previous_text"] = a.prev_text
+    if a.next_text:
+        body["next_text"] = a.next_text
+    res = call(f"/text-to-speech/{voice}/with-timestamps?output_format=mp3_44100_128", key, body)
     out_dir = os.path.dirname(os.path.abspath(a.script))
     raw_mp3 = os.path.join(out_dir, "voice_raw.mp3")
     open(raw_mp3, "wb").write(base64.b64decode(res["audio_base64"]))
@@ -263,11 +279,19 @@ def main():
     dur = words[-1][2] if words else 0
     factor = 1.0
     if a.target_wpm and dur:
-        factor = max(1.0, min(1.6, a.target_wpm / (len(words) / (dur / 60))))
+        raw_wpm = len(words) / (dur / 60)
+        want = a.target_wpm / raw_wpm
+        factor = max(1.0, min(a.max_stretch, want))
+        print(f"Raw pace {raw_wpm:.0f} wpm; wanted x{want:.2f} stretch, using x{factor:.2f}" + ("  (script is long for this voice speed: shorten it or accept a slower read)" if want > a.max_stretch + 0.01 else ""))
     final = os.path.join(out_dir, "voice.mp3")
-    if factor > 1.01 and shutil.which("ffmpeg"):
-        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", raw_mp3, "-filter:a", f"atempo={factor:.3f}", final], check=True)
-        words = [(w, s / factor, e / factor) for w, s, e in words]
+    # always end with 0.3 s of silence so the last word is never cut off (qa_short fails a voice that ends <0.1 s before the end)
+    if shutil.which("ffmpeg"):
+        stretch = f"atempo={factor:.3f}," if factor > 1.01 else ""
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", raw_mp3, "-filter:a", stretch + "apad=pad_dur=0.3", "-c:a", "libmp3lame", "-q:a", "0", final], check=True)
+        if factor > 1.01:
+            words = [(w, s / factor, e / factor) for w, s, e in words]
+        else:
+            factor = 1.0
     else:
         shutil.copyfile(raw_mp3, final)
         factor = 1.0

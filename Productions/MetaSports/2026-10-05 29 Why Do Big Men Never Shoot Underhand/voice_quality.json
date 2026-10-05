@@ -1,0 +1,21 @@
+[
+ {
+  "name": "2026-10-05 29 Why Do Big Men Never",
+  "dur": 23.12,
+  "voiced": 0.69,
+  "hnr": 7.7,
+  "jitter": 3.11,
+  "shimmer": 10.53,
+  "jumps": 0.0,
+  "clicks": 490.5,
+  "hf": 4.31,
+  "f0_med": 185.0,
+  "verdict": "REDO",
+  "problems": [
+   "HNR 7.7 dB (noisy/robotic)",
+   "jitter 3.11% (shaky)",
+   "shimmer 10.53% (uneven loudness)",
+   "490.5 clicks/min"
+  ]
+ }
+]

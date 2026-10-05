@@ -90,9 +90,11 @@ Pin shots to words: put `"anchor": "first words of the phrase"` on shots in shot
 - Check: extract frames at 0.05, 0.6, 1.1, 1.5, 2.1, 2.8, 3.5, 4.4 s with ffmpeg and look at them side by side. If two neighbours look alike, add a cut.
 - After posting, read YouTube Studio's "Viewed vs Swiped Away" at 24 h: 70%+ is good, under 60% means rewrite the first 2 seconds.
 
-## 3. Voice: `python Tools/voiceover.py --script "<folder>/script.txt"` then `python Tools/voice_check.py --folder "<folder>"`.
-Same ElevenLabs voice always. Spoken-out numbers ("fifty-two million dollars") are false alarms for the checker; redo only clearly bad takes.
-Gives voice.mp3, words.json (word times) and captions.srt. All shot timing comes from words.json.
+## 3. Voice (pipeline v2, Oct 5 2026; the user said the voice had started to glitch). Evidence: `Research Notes/Voice Investigation (Oct 5, 2026).md`
+Use `. key.sh && python Tools/voice_take.py --script "<folder>/script.txt" [--takes 3]` (NOT bare voiceover.py): it records, checks (free local speech recognition + voice-quality numbers) and re-records only when the check fails. Spliced Short: run it for every `_nN/script.txt` (add `-- --prev-text "..." --next-text "..."` with the neighbouring words so tone stays continuous), then `splice_voice.py`. Re-doing an existing Short: `python Tools/revoice.py --folder "<folder>"` (backs up, re-records, re-times pictures with anchor_shots, re-renders, QA).
+Why: the voice is a CLONE ('pham v2'); the old settings (stability 0.45, similarity 0.8, speed 1.1, then atempo up to x1.6) gave the lowest voice-quality numbers and every time-stretch lowers quality (HNR -0.5 to -1.1 dB at x1.2-1.4; rubberband is worse than atempo). New defaults: stability 0.65, similarity 0.7, native speed auto (1.2/1.15/1.1: about 268/238/210 wpm), stretch capped at x1.08. splice_voice uses a plain measured gain (loudnorm ducked sentence ends by 1-4 dB). voiceover always pads 0.3 s of silence.
+Quality gate for a take: voice_check has no REDO issue (every word said; numbers written differently are ignored; names may differ), HNR >= 7.6, jitter <= 3.4, shimmer <= 11.5 (this voice measures HNR 8-10). Take-to-take variation is about +-0.7 dB HNR, so a failing take is worth one more try (max 3 takes: credits are ~1 per character, plan Starter 90,000/month).
+Gives voice.mp3, words.json (word times) and captions.srt. All shot timing comes from words.json. Old takes are kept in `_voice_prev/` or `_voice_v1/`.
 
 ## 4. Footage (YouTube downloads are blocked from the cloud; use these instead, in this order)
 1. **X posts** from official accounts (NBA, team accounts, ESPN, ClutchPoints, House of Highlights): find them with

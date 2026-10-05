@@ -1,0 +1,74 @@
+{
+ "verdict": "REDO",
+ "wpm": 242,
+ "issues": [
+  " 6.24s  script \"1 ninety 8\" but heard \"198\"",
+  " 7.40s  script \"it\" but heard \"at\"",
+  "10.32s  script \"sixty 5\" but heard \"65\""
+ ],
+ "notes": [
+  " 4.26s  \"2 100 9\" heard as \"209\" (close; check the name)",
+  " 8.80s  \"30 4\" heard as \"34\" (close; check the name)",
+  "13.66s  \"20 3\" heard as \"23\" (close; check the name)",
+  "15.30s  \"50 6\" heard as \"56\" (close; check the name)",
+  "17.00s  \"50 5\" heard as \"55\" (close; check the name)",
+  "19.78s  \"20 7\" heard as \"27\" (close; check the name)"
+ ],
+ "heard": "Only two players ever passed Oscar Robertson's triple double record. One just retired. Russell Westbrook finished with 209. The other is Nikola Jokic at 198. 11 ties at 12 breaks it. But Jokic had 34 triple doubles last season in just 65 games. That's about one every two games. At that pace, 12 takes about 23 games. Last Christmas he went for 56, 16 and 15. The first 55, 15, 15 game in NBA history. This Christmas is game 27 in Golden State. Four games to spare.",
+ "mismatches": [
+  {
+   "at": 4.26,
+   "script": "2 100 9",
+   "heard": "209",
+   "similar": 0.75
+  },
+  {
+   "at": 6.24,
+   "script": "1 ninety 8",
+   "heard": "198",
+   "similar": 0.36
+  },
+  {
+   "at": 7.4,
+   "script": "it",
+   "heard": "at",
+   "similar": 0.5
+  },
+  {
+   "at": 8.8,
+   "script": "30 4",
+   "heard": "34",
+   "similar": 0.8
+  },
+  {
+   "at": 10.32,
+   "script": "sixty 5",
+   "heard": "65",
+   "similar": 0.25
+  },
+  {
+   "at": 13.66,
+   "script": "20 3",
+   "heard": "23",
+   "similar": 0.8
+  },
+  {
+   "at": 15.3,
+   "script": "50 6",
+   "heard": "56",
+   "similar": 0.8
+  },
+  {
+   "at": 17.0,
+   "script": "50 5",
+   "heard": "55",
+   "similar": 0.8
+  },
+  {
+   "at": 19.78,
+   "script": "20 7",
+   "heard": "27",
+   "similar": 0.8
+  }
+ ]
+}

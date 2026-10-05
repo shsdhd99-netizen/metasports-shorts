@@ -1,0 +1,18 @@
+Voice check: REDO   (91 words, 24.1s, 227 wpm)
+  REDO   8.80s  script "2 100 40 3" but heard "243"
+  REDO  15.02s  script "quote" but heard "(nothing)"
+  note   0.68s  "bronny" heard as "bronnie" (close; check the name)
+  note   2.76s  "30 9" heard as "39" (close; check the name)
+  note   3.58s  "30 2" heard as "32" (close; check the name)
+  note   4.52s  "20 8" heard as "28" (close; check the name)
+  note   6.96s  "bronny" heard as "bronnie" (close; check the name)
+  note   7.34s  "50 7" heard as "57" (close; check the name)
+  note  10.70s  "50 7" heard as "57" (close; check the name)
+  note  12.28s  "bronny" heard as "bronnie" (close; check the name)
+  note  12.66s  "20 2" heard as "22" (close; check the name)
+  note  16.06s  "bronny" heard as "bronnie" (close; check the name)
+  note  18.40s  "40 2" heard as "42" (close; check the name)
+  note  19.24s  "50 2" heard as "52" (close; check the name)
+  note  20.18s  "bronny" heard as "bronnie" (close; check the name)
+  note   2.75s  dragging sentence (164 wpm): Thirty-nine percent to thirty-two.
+  heard: Last season, Bronnie James shot better from 3 than LeBron did. 39 % to 32. He was 28 % as a rookie, until you count the shots. Bronnie took 57 threes. LeBron took 243. At his rookie rate, those 57 threes are 16 makes. Bronnie made 22. 6 threes, that is the whole jump. Trying to prove myself as Bronnie instead of LeBron. His true shooting did climb from 42 % to 52. So did Bronnie get better? A little maybe, but 6 made threes prove almost nothing yet.

@@ -1,0 +1,3 @@
+2026-10-04 23 Why Is Bronny St#0     REDO HNR   8.4 jit 2.98 shim 11.06 jumps/s 0.00 clicks/min 331.6 hf%  4.31 f0 182 dur 9.41  HNR 8.4 dB (noisy/robotic); jitter 2.98% (shaky); shimmer 11.06% (uneven loudness); 331.6 clicks/min
+2026-10-04 23 Why Is Bronny St#2     REDO HNR   7.2 jit 2.93 shim 10.56 jumps/s 0.00 clicks/min  78.4 hf%  3.74 f0 208 dur 9.18  HNR 7.2 dB (noisy/robotic); jitter 2.93% (shaky); shimmer 10.56% (uneven loudness); 78.4 clicks/min
+2026-10-04 23 Why Is Bronny St#4     REDO HNR   7.4 jit 2.66 shim  9.41 jumps/s 0.00 clicks/min 187.6 hf%  5.69 f0 191 dur 2.88  HNR 7.4 dB (noisy/robotic); jitter 2.66% (shaky); shimmer 9.41% (uneven loudness); 187.6 clicks/min

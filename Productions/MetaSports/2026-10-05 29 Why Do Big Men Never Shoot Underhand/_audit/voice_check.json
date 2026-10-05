@@ -1,0 +1,75 @@
+{
+ "verdict": "REDO",
+ "wpm": 250,
+ "issues": [
+  "12.48s  script \"a\" but heard \"(nothing)\""
+ ],
+ "notes": [
+  "16.06s  script \"shaq\" but heard \"shack\"",
+  " 0.00s  \"knicks\" heard as \"nick's\" (close; check the name)",
+  " 1.32s  \"20 9\" heard as \"29\" (close; check the name)",
+  " 8.30s  \"ninety\" heard as \"90\" (close; check the name)",
+  "11.08s  \"wilt\" heard as \"will\" (close; check the name)",
+  "13.02s  \"20 8\" heard as \"28\" (close; check the name)",
+  "13.58s  \"30 2\" heard as \"32\" (close; check the name)",
+  "16.36s  \"50 3\" heard as \"53\" (close; check the name)",
+  " 3.22s  rushed sentence (356 wpm): A Hall of Famer offered to fix it."
+ ],
+ "heard": "Nick's center, Mitchell Robinson, made 29 % of his playoff free throws. A Hall of Famer offered to fix it, underhand. Robinson said, nah, silly as hell. That Hall of Famer is Rick Barry. 90 % for his career, fourth best in NBA history. Will Chamberlain used it the night he scored 100, 28 of 32. Then he quit because he felt like a sissy. Shack shot 53%. His answer to Barry, I'd rather be a terrible free throw shooter who's in the Hall of Fame in 15 minutes. Thanks, but no thanks.",
+ "mismatches": [
+  {
+   "at": 0.0,
+   "script": "knicks",
+   "heard": "nick's",
+   "similar": 0.83
+  },
+  {
+   "at": 1.32,
+   "script": "20 9",
+   "heard": "29",
+   "similar": 1.0
+  },
+  {
+   "at": 8.3,
+   "script": "ninety",
+   "heard": "90",
+   "similar": 1.0
+  },
+  {
+   "at": 11.08,
+   "script": "wilt",
+   "heard": "will",
+   "similar": 0.75
+  },
+  {
+   "at": 12.48,
+   "script": "a",
+   "heard": "",
+   "similar": 0.0
+  },
+  {
+   "at": 13.02,
+   "script": "20 8",
+   "heard": "28",
+   "similar": 1.0
+  },
+  {
+   "at": 13.58,
+   "script": "30 2",
+   "heard": "32",
+   "similar": 1.0
+  },
+  {
+   "at": 16.06,
+   "script": "shaq",
+   "heard": "shack",
+   "similar": 0.67
+  },
+  {
+   "at": 16.36,
+   "script": "50 3",
+   "heard": "53",
+   "similar": 1.0
+  }
+ ]
+}

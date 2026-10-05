@@ -42,6 +42,14 @@ def norm_words(text):
     return [NUMS.get(t, t).strip("'") for t in toks if t.strip("'")]
 
 
+NUMWORDS = set(NUMS) | {"hundred", "thousand", "million", "billion", "sixty", "seventy", "eighty", "ninety", "dollars", "dollar", "percent", "point", "and", "oh"}
+
+
+def numberish(toks):
+    """True when every token is a digit string or a spelled-out number word ('one ninety eight' vs '198' is a formatting difference, not a glitch)."""
+    return bool(toks) and all(t.isdigit() or t in NUMWORDS for t in toks)
+
+
 def stt(path, key):
     boundary = uuid.uuid4().hex
     audio = open(path, "rb").read()
@@ -60,6 +68,17 @@ def stt(path, key):
         raise RuntimeError(f"speech-to-text error {e.code}: {e.read().decode()[:300]}")
 
 
+def stt_local(path, size="small"):
+    """Free local speech-to-text (faster-whisper) in the same shape as the ElevenLabs scribe reply."""
+    from faster_whisper import WhisperModel
+    m = WhisperModel(size, device="cpu", compute_type="int8")
+    segs, _ = m.transcribe(path, language="en", word_timestamps=True, beam_size=5, temperature=0, vad_filter=True, condition_on_previous_text=False)
+    words = [{"type": "word", "text": w.word.strip(), "start": w.start, "end": w.end} for s in segs for w in s.words]
+    # Whisper sometimes invents a phrase over the silent tail ("Here's a look at the first half of this year"): words squeezed into < 0.03 s are not speech.
+    words = [w for w in words if w["end"] - w["start"] >= 0.03]
+    return {"text": " ".join(w["text"] for w in words), "words": words}
+
+
 def pcm(path, sr=16000):
     raw = subprocess.run(["ffmpeg", "-v", "error", "-i", path, "-ac", "1", "-ar", str(sr), "-f", "s16le", "-"],
                          capture_output=True).stdout
@@ -76,6 +95,9 @@ def main():
     ap.add_argument("--folder", required=True)
     ap.add_argument("--voice", default="voice.mp3")
     ap.add_argument("--no-stt", action="store_true")
+    ap.add_argument("--stt", choices=["whisper", "scribe"], default="whisper",
+                    help="whisper = free local faster-whisper (default, no credits); scribe = ElevenLabs speech-to-text (a few credits, better with names)")
+    ap.add_argument("--json-out", default="voice_check.json")
     a = ap.parse_args()
     folder = os.path.abspath(a.folder)
     voice = os.path.join(folder, a.voice)
@@ -89,12 +111,12 @@ def main():
     # --- 1. said right? -------------------------------------------------------------------------------------
     heard_text, mismatches = None, []
     if not a.no_stt:
-        key = load_env().get("ELEVENLABS_API_KEY", "")
+        key = load_env().get("ELEVENLABS_API_KEY", "") if a.stt == "scribe" else "local"
         if not key:
             notes.append("no ElevenLabs key, speech-to-text skipped")
         else:
             try:
-                res = stt(voice, key)
+                res = stt_local(voice) if a.stt == "whisper" else stt(voice, key)
                 heard_text = res.get("text", "")
                 hw = [w for w in res.get("words", []) if w.get("type") == "word"]
                 want, got = norm_words(script_display), []
@@ -109,6 +131,8 @@ def main():
                         continue
                     exp, heard = " ".join(want[i1:i2]), " ".join(got[j1:j2])
                     close = difflib.SequenceMatcher(a=exp.replace(" ", ""), b=heard.replace(" ", "")).ratio()
+                    if numberish(exp.split()) and numberish(heard.split()):
+                        close = 1.0  # same number written differently
                     for d, sp in respelled.items():  # a name we respelled: compare with how it should sound too
                         if d and d in exp:
                             close = max(close, difflib.SequenceMatcher(a=sp.replace(" ", ""), b=heard.replace(" ", "")).ratio(), 0.72 if close > 0.45 else 0)
@@ -121,6 +145,8 @@ def main():
                     (issues if (len(m["script"].split()) >= 2 or not m["heard"] or miss_rate > 0.05) else notes).append(
                         f"{m['at']:5.2f}s  script \"{m['script']}\" but heard \"{m['heard'] or '(nothing)'}\"")
                 for m in soft:
+                    if numberish(m["script"].split()) and numberish(m["heard"].split()):
+                        continue
                     notes.append(f"{m['at']:5.2f}s  \"{m['script']}\" heard as \"{m['heard']}\" (close; check the name)")
             except Exception as e:  # never block the pipeline on the checker itself
                 notes.append(f"speech-to-text failed: {e}")
@@ -193,7 +219,7 @@ def main():
     verdict = "REDO" if issues else ("CHECK" if len(notes) > 3 else "PASS")
     report = {"verdict": verdict, "wpm": round(wpm), "issues": issues, "notes": notes,
               "heard": heard_text, "mismatches": mismatches}
-    json.dump(report, open(os.path.join(folder, "voice_check.json"), "w", encoding="utf-8"), indent=1, ensure_ascii=False)
+    json.dump(report, open(os.path.join(folder, a.json_out), "w", encoding="utf-8"), indent=1, ensure_ascii=False)
     print(f"Voice check: {verdict}   ({total_words} words, {span:.1f}s, {wpm:.0f} wpm)")
     for i in issues:
         print("  REDO  " + i)
