@@ -1,0 +1,44 @@
+[
+ {
+  "take": 1,
+  "ok": false,
+  "score": -92.6,
+  "verdict": "REDO",
+  "issues": [
+   " 4.22s  script \"a 100 20 7\" but heard \"127\""
+  ],
+  "wpm": 250,
+  "hnr": 10.9,
+  "jitter": 2.79,
+  "shimmer": 10.42,
+  "dur": 22.65
+ },
+ {
+  "take": 2,
+  "ok": false,
+  "score": -93.9,
+  "verdict": "REDO",
+  "issues": [
+   " 4.28s  script \"a 100 20 7\" but heard \"127\""
+  ],
+  "wpm": 250,
+  "hnr": 9.6,
+  "jitter": 2.82,
+  "shimmer": 10.24,
+  "dur": 22.64
+ },
+ {
+  "take": 3,
+  "ok": false,
+  "score": -93.4,
+  "verdict": "REDO",
+  "issues": [
+   " 4.22s  script \"a 100 20 7\" but heard \"127\""
+  ],
+  "wpm": 250,
+  "hnr": 10.1,
+  "jitter": 2.81,
+  "shimmer": 10.24,
+  "dur": 22.63
+ }
+]

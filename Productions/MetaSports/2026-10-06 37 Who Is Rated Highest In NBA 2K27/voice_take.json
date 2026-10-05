@@ -1,0 +1,53 @@
+[
+ {
+  "take": 1,
+  "ok": false,
+  "score": -494.0,
+  "verdict": "REDO",
+  "issues": [
+   " 2.52s  script \"shai gilgeous\" but heard \"shygill juice\"",
+   " 5.06s  script \"jokic\" but heard \"yokej\"",
+   "17.64s  script \"ninety 4 a\" but heard \"94\"",
+   "19.00s  script \"sixteenth at ninety 1\" but heard \"16th 91\"",
+   "23.02s  script \"maxey\" but heard \"maxi\""
+  ],
+  "wpm": 242,
+  "hnr": 9.5,
+  "jitter": 2.75,
+  "shimmer": 10.63,
+  "dur": 23.82
+ },
+ {
+  "take": 2,
+  "ok": false,
+  "score": -392.5,
+  "verdict": "REDO",
+  "issues": [
+   " 2.56s  script \"shai gilgeous\" but heard \"shaigil juice\"",
+   "11.90s  script \"ninety 5 cade\" but heard \"95 kade\"",
+   "19.00s  script \"sixteenth at ninety 1\" but heard \"16th 91\"",
+   "23.06s  script \"maxey\" but heard \"maxi\""
+  ],
+  "wpm": 242,
+  "hnr": 10.8,
+  "jitter": 2.53,
+  "shimmer": 10.34,
+  "dur": 23.81
+ },
+ {
+  "take": 3,
+  "ok": false,
+  "score": -292.8,
+  "verdict": "REDO",
+  "issues": [
+   " 2.68s  script \"shai gilgeous\" but heard \"shygill juice\"",
+   "19.26s  script \"sixteenth at ninety 1\" but heard \"16th 91\"",
+   "23.28s  script \"maxey\" but heard \"maxi\""
+  ],
+  "wpm": 240,
+  "hnr": 10.6,
+  "jitter": 2.54,
+  "shimmer": 10.58,
+  "dur": 24.03
+ }
+]

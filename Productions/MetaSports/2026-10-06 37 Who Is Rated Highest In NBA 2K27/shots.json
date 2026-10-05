@@ -1,0 +1,150 @@
+[
+ {
+  "clip": "t1.mp4",
+  "start": 0.0,
+  "anchor": "Three players",
+  "kind": "action",
+  "why": "Three players",
+  "zoom": 0.1
+ },
+ {
+  "clip": "wem2.mp4",
+  "start": 1.34,
+  "anchor": "in NBA",
+  "kind": "action",
+  "why": "in NBA"
+ },
+ {
+  "clip": "sga.mp4",
+  "start": 2.64,
+  "anchor": "Shai",
+  "kind": "action",
+  "why": "Shai"
+ },
+ {
+  "clip": "wem.mp4",
+  "start": 3.86,
+  "anchor": "Victor",
+  "kind": "action",
+  "why": "Victor"
+ },
+ {
+  "clip": "jok.mp4",
+  "start": 4.93,
+  "anchor": "Nikola",
+  "kind": "action",
+  "why": "Nikola"
+ },
+ {
+  "clip": "c97.mp4",
+  "start": 5.64,
+  "anchor": "all ninety-seven.",
+  "kind": "action",
+  "why": "all ninety-seven."
+ },
+ {
+  "clip": "t_end.mp4",
+  "start": 6.35,
+  "anchor": "Wembanyama is",
+  "kind": "action",
+  "why": "Wembanyama is"
+ },
+ {
+  "clip": "luka.mp4",
+  "start": 7.69,
+  "anchor": "Luka Doncic,",
+  "kind": "action",
+  "why": "Luka Doncic,"
+ },
+ {
+  "clip": "brun.mp4",
+  "start": 8.38,
+  "anchor": "Jalen Brunson",
+  "kind": "action",
+  "why": "Jalen Brunson"
+ },
+ {
+  "clip": "gia.mp4",
+  "start": 9.11,
+  "anchor": "Giannis Antetokounmpo",
+  "kind": "action",
+  "why": "Giannis Antetokounmpo"
+ },
+ {
+  "clip": "c96.mp4",
+  "start": 10.19,
+  "anchor": "sit one point",
+  "kind": "action",
+  "why": "sit one point"
+ },
+ {
+  "clip": "edw.mp4",
+  "start": 11.66,
+  "anchor": "Anthony Edwards",
+  "kind": "action",
+  "why": "Anthony Edwards"
+ },
+ {
+  "clip": "cade.mp4",
+  "start": 12.74,
+  "anchor": "Cade Cunningham",
+  "kind": "action",
+  "why": "Cade Cunningham"
+ },
+ {
+  "clip": "c93.mp4",
+  "start": 13.71,
+  "anchor": "then six players",
+  "kind": "action",
+  "why": "then six players"
+ },
+ {
+  "clip": "cur.mp4",
+  "start": 14.94,
+  "anchor": "including Stephen",
+  "kind": "action",
+  "why": "including Stephen"
+ },
+ {
+  "clip": "leb1.mp4",
+  "start": 16.32,
+  "anchor": "But look",
+  "kind": "action",
+  "why": "But look"
+ },
+ {
+  "clip": "c94.mp4",
+  "start": 17.25,
+  "anchor": "Last year he",
+  "kind": "action",
+  "why": "Last year he"
+ },
+ {
+  "clip": "c91.mp4",
+  "start": 18.94,
+  "anchor": "Now he's",
+  "kind": "action",
+  "why": "Now he's"
+ },
+ {
+  "clip": "c15.mp4",
+  "start": 20.91,
+  "anchor": "Fifteen players",
+  "kind": "action",
+  "why": "Fifteen players"
+ },
+ {
+  "clip": "max.mp4",
+  "start": 22.16,
+  "anchor": "and one is",
+  "kind": "action",
+  "why": "and one is"
+ },
+ {
+  "clip": "t1.mp4",
+  "start": 23.32,
+  "anchor": "Maxey.",
+  "kind": "action",
+  "why": "Maxey."
+ }
+]
