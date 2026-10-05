@@ -135,16 +135,15 @@
  },
  {
   "clip": "max.mp4",
-  "start": 22.16,
-  "anchor": "and one is",
+  "start": 22.49,
+  "anchor": "his own",
   "kind": "action",
   "why": "and one is"
  },
  {
   "clip": "t1.mp4",
-  "start": 23.32,
-  "anchor": "Maxey.",
+  "start": 23.7,
   "kind": "action",
-  "why": "Maxey."
+  "why": "loop tail"
  }
 ]
