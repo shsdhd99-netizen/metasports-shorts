@@ -1,118 +1,148 @@
 [
  {
-  "clip": "G1_jersey_face.mp4",
-  "start": 0.0,
-  "why": "hook: Giannis in a Heat jersey",
-  "kind": "action",
-  "zoom": 0.1
- },
- {
   "clip": "K1_dunk.mp4",
-  "start": 1.0,
-  "why": "face the Bucks (Giannis dunk as a Buck)",
+  "start": 0.0,
   "kind": "action",
   "zoom": 0.12
  },
  {
-  "clip": "H1_tower.mp4",
-  "start": 1.95,
-  "why": "Miami GTA 6 uniform: Vice City pink tower",
+  "clip": "K2_dunk.mp4",
+  "start": 0.96,
   "kind": "action",
+  "anchor": "Zero",
+  "zoom": 0.1
+ },
+ {
+  "clip": "G1_jersey_face.mp4",
+  "start": 1.9,
+  "kind": "action",
+  "anchor": "Until",
+  "zoom": 0.08
+ },
+ {
+  "clip": "G2_jersey_back.mp4",
+  "start": 2.98,
+  "kind": "action",
+  "anchor": "And he",
+  "zoom": 0.06
+ },
+ {
+  "clip": "H1_tower.mp4",
+  "start": 4.42,
+  "kind": "action",
+  "anchor": "For one",
   "zoom": 0.08
  },
  {
   "clip": "H3_sign.mp4",
-  "start": 2.95,
-  "why": "neon Welcome to Vice City sign",
+  "start": 5.25,
   "kind": "action",
+  "anchor": "the Heat",
   "zoom": 0.06
  },
  {
   "clip": "H2_arena.mp4",
-  "start": 3.95,
-  "why": "November eighteenth",
-  "kind": "action"
+  "start": 6.95,
+  "kind": "action",
+  "anchor": "a new"
  },
  {
   "clip": "P_poster.mp4",
-  "start": 4.8,
-  "why": "Vice City night live on ESPN (official poster)",
-  "kind": "card"
+  "start": 8.28,
+  "kind": "card",
+  "anchor": "live on"
  },
  {
-  "clip": "K2_dunk.mp4",
-  "start": 6.45,
-  "why": "Thirteen years in Milwaukee",
+  "clip": "c15_b.mp4",
+  "start": 9.76,
+  "kind": "card",
+  "anchor": "Grand"
+ },
+ {
+  "clip": "F1_fans.mp4",
+  "start": 10.94,
   "kind": "action",
+  "anchor": "After"
+ },
+ {
+  "clip": "F2_giannis_phone.mp4",
+  "start": 11.64,
+  "kind": "action",
+  "anchor": "Giannis",
   "zoom": 0.1
  },
  {
   "clip": "F1_fans.mp4",
-  "start": 7.7,
-  "why": "after the trade he watched a video from Bucks fans",
-  "kind": "action"
- },
- {
-  "clip": "F2_giannis_phone.mp4",
-  "start": 9.4,
-  "why": "watching on his phone",
+  "start": 12.36,
   "kind": "action",
-  "zoom": 0.1
- },
- {
-  "clip": "Q1_home.mp4",
-  "start": 10.93,
-  "why": "quote: Milwaukee will always be my home",
-  "kind": "quote",
-  "zoom": 0.08
- },
- {
-  "clip": "Q2_dont_cry.mp4",
-  "start": 12.75,
-  "why": "quote: Don't cry because it's over",
-  "kind": "quote"
- },
- {
-  "clip": "Q2_dont_cry.mp4",
-  "start": 15.2,
-  "why": "quote: Laugh, smile because it happened",
-  "kind": "quote",
-  "in": 2.5,
-  "zoom": 0.12
- },
- {
-  "clip": "H5_tower2.mp4",
-  "start": 17.92,
-  "why": "Now he plays them on a neon court",
-  "kind": "action",
-  "zoom": 0.1
- },
- {
-  "clip": "G2_jersey_back.mp4",
-  "start": 19.3,
-  "why": "in a Vice City jersey (Giannis #7 Heat)",
-  "kind": "action",
-  "zoom": 0.06
- },
- {
-  "clip": "B1_bench.mp4",
-  "start": 20.5,
-  "why": "how many points does he put on his old team",
-  "kind": "action",
-  "zoom": 0.08
+  "anchor": "video"
  },
  {
   "clip": "G3_smile.mp4",
-  "start": 21.3,
-  "why": "Giannis smile",
+  "start": 13.57,
   "kind": "action",
-  "zoom": 0.06
+  "anchor": "got emotional",
+  "zoom": 0.08
+ },
+ {
+  "clip": "Q1_home.mp4",
+  "start": 14.37,
+  "kind": "quote",
+  "anchor": "But",
+  "zoom": 0.08
  },
  {
   "clip": "G1_jersey_face.mp4",
-  "start": 22.0,
-  "why": "loop to the first shot",
+  "start": 16.13,
   "kind": "action",
+  "anchor": "He's",
+  "zoom": 0.08
+ },
+ {
+  "clip": "c16_names.mp4",
+  "start": 17.42,
+  "kind": "card",
+  "anchor": "Bobby"
+ },
+ {
+  "clip": "H4_arena2.mp4",
+  "start": 18.77,
+  "kind": "action",
+  "anchor": "And the four",
+  "zoom": 0.08
+ },
+ {
+  "clip": "c16_names.mp4",
+  "start": 20.36,
+  "kind": "card",
+  "anchor": "Herro,"
+ },
+ {
+  "clip": "G2_jersey_back.mp4",
+  "start": 23.22,
+  "kind": "action",
+  "anchor": "Six",
+  "zoom": 0.08
+ },
+ {
+  "clip": "K2_dunk.mp4",
+  "start": 23.8,
+  "kind": "action",
+  "anchor": "Two",
+  "zoom": 0.1
+ },
+ {
+  "clip": "H5_tower2.mp4",
+  "start": 24.51,
+  "kind": "action",
+  "anchor": "One",
+  "zoom": 0.1
+ },
+ {
+  "clip": "K1_dunk.mp4",
+  "start": 24.87,
+  "kind": "action",
+  "anchor": "that doesn't",
   "zoom": 0.1
  }
 ]

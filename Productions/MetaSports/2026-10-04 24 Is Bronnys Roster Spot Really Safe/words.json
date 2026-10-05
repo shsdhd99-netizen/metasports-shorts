@@ -2,541 +2,551 @@
  {
   "word": "A",
   "start": 0.0,
-  "end": 0.074
+  "end": 0.063
  },
  {
   "word": "guaranteed",
-  "start": 0.149,
-  "end": 0.574
+  "start": 0.135,
+  "end": 0.549
  },
  {
   "word": "deal",
-  "start": 0.627,
-  "end": 0.819
+  "start": 0.591,
+  "end": 0.767
  },
  {
   "word": "does",
-  "start": 0.883,
-  "end": 1.063
+  "start": 0.819,
+  "end": 0.944
  },
  {
   "word": "not",
-  "start": 1.116,
-  "end": 1.265
+  "start": 0.996,
+  "end": 1.12
  },
  {
   "word": "guarantee",
-  "start": 1.307,
-  "end": 1.658
+  "start": 1.172,
+  "end": 1.566
  },
  {
   "word": "a",
-  "start": 1.69,
-  "end": 1.711
+  "start": 1.597,
+  "end": 1.629
  },
  {
   "word": "roster",
-  "start": 1.764,
-  "end": 2.031
+  "start": 1.67,
+  "end": 1.94
  },
  {
   "word": "spot.",
-  "start": 2.062,
-  "end": 2.338
+  "start": 1.981,
+  "end": 2.272
  },
  {
   "word": "The",
-  "start": 2.359,
-  "end": 2.445
+  "start": 2.292,
+  "end": 2.375
  },
  {
   "word": "Lakers",
-  "start": 2.498,
-  "end": 2.753
+  "start": 2.427,
+  "end": 2.655
  },
  {
   "word": "have",
-  "start": 2.785,
-  "end": 2.891
+  "start": 2.686,
+  "end": 2.801
  },
  {
   "word": "sixteen",
-  "start": 2.933,
-  "end": 3.253
+  "start": 2.853,
+  "end": 3.174
  },
  {
   "word": "players",
-  "start": 3.284,
-  "end": 3.551
+  "start": 3.215,
+  "end": 3.464
  },
  {
   "word": "for",
-  "start": 3.604,
-  "end": 3.71
+  "start": 3.496,
+  "end": 3.589
  },
  {
   "word": "fifteen",
-  "start": 3.763,
-  "end": 4.082
+  "start": 3.651,
+  "end": 3.973
  },
  {
   "word": "spots,",
-  "start": 4.125,
-  "end": 4.443
+  "start": 4.003,
+  "end": 4.336
  },
  {
   "word": "and",
-  "start": 4.464,
-  "end": 4.57
+  "start": 4.377,
+  "end": 4.502
  },
  {
   "word": "one",
-  "start": 4.635,
-  "end": 4.773
+  "start": 4.574,
+  "end": 4.781
  },
  {
   "word": "is",
-  "start": 4.794,
-  "end": 4.858
+  "start": 4.823,
+  "end": 4.916
  },
  {
   "word": "Bronny",
-  "start": 4.9,
-  "end": 5.145
+  "start": 4.968,
+  "end": 5.227
  },
  {
   "word": "James.",
-  "start": 5.198,
-  "end": 5.538
+  "start": 5.29,
+  "end": 5.704
  },
  {
   "word": "Until",
-  "start": 5.58,
-  "end": 5.825
+  "start": 5.726,
+  "end": 5.974
  },
  {
   "word": "June",
-  "start": 5.878,
-  "end": 6.037
+  "start": 6.037,
+  "end": 6.223
  },
  {
   "word": "twenty-ninth,",
-  "start": 6.059,
-  "end": 6.558
+  "start": 6.254,
+  "end": 6.794
  },
  {
   "word": "only",
-  "start": 6.601,
-  "end": 6.772
+  "start": 6.835,
+  "end": 7.022
  },
  {
   "word": "about",
-  "start": 6.814,
-  "end": 7.005
+  "start": 7.053,
+  "end": 7.24
  },
  {
   "word": "$1.3 million",
-  "start": 7.058,
-  "end": 7.888
+  "start": 7.292,
+  "end": 8.173
  },
  {
   "word": "of",
-  "start": 7.919,
-  "end": 7.962
+  "start": 8.215,
+  "end": 8.257
  },
  {
   "word": "his",
-  "start": 7.994,
-  "end": 8.079
+  "start": 8.298,
+  "end": 8.381
  },
  {
   "word": "$2.3 million",
-  "start": 8.121,
-  "end": 8.897
+  "start": 8.422,
+  "end": 9.314
  },
  {
   "word": "was",
-  "start": 8.929,
-  "end": 9.014
+  "start": 9.366,
+  "end": 9.501
  },
  {
   "word": "guaranteed.",
-  "start": 9.056,
-  "end": 9.556
+  "start": 9.553,
+  "end": 10.072
  },
  {
   "word": "The",
-  "start": 9.588,
-  "end": 9.683
+  "start": 10.102,
+  "end": 10.185
  },
  {
   "word": "Lakers",
-  "start": 9.736,
-  "end": 9.981
+  "start": 10.237,
+  "end": 10.497
  },
  {
-  "word": "paid",
-  "start": 10.013,
-  "end": 10.141
- },
- {
-  "word": "the",
-  "start": 10.172,
-  "end": 10.236
- },
- {
-  "word": "rest.",
-  "start": 10.279,
-  "end": 10.534
- },
- {
-  "word": "But",
-  "start": 10.566,
-  "end": 10.693
- },
- {
-  "word": "the",
-  "start": 10.715,
-  "end": 10.778
- },
- {
-  "word": "cut",
-  "start": 10.821,
-  "end": 10.948
- },
- {
-  "word": "deadline",
-  "start": 10.99,
-  "end": 11.299
- },
- {
-  "word": "is",
-  "start": 11.331,
-  "end": 11.384
- },
- {
-  "word": "October",
-  "start": 11.437,
-  "end": 11.735
- },
- {
-  "word": "twenty-first,",
-  "start": 11.767,
-  "end": 12.288
- },
- {
-  "word": "and",
-  "start": 12.32,
-  "end": 12.436
- },
- {
-  "word": "Yahoo",
-  "start": 12.489,
-  "end": 12.777
- },
- {
-  "word": "says",
-  "start": 12.83,
-  "end": 12.979
- },
- {
-  "word": "his",
-  "start": 13.021,
-  "end": 13.106
- },
- {
-  "word": "name",
-  "start": 13.148,
-  "end": 13.287
- },
- {
-  "word": "has",
-  "start": 13.308,
-  "end": 13.393
- },
- {
-  "word": "surfaced",
-  "start": 13.436,
-  "end": 13.755
- },
- {
-  "word": "as",
-  "start": 13.797,
-  "end": 13.882
- },
- {
-  "word": "a",
-  "start": 13.935,
-  "end": 13.957
- },
- {
-  "word": "possible",
-  "start": 14.01,
-  "end": 14.371
- },
- {
-  "word": "waiver",
-  "start": 14.403,
-  "end": 14.615
- },
- {
-  "word": "option.",
-  "start": 14.669,
-  "end": 15.02
- },
- {
-  "word": "Rival",
-  "start": 15.083,
-  "end": 15.306
- },
- {
-  "word": "executives",
-  "start": 15.36,
-  "end": 15.753
- },
- {
-  "word": "reportedly",
-  "start": 15.795,
-  "end": 16.21
- },
- {
-  "word": "expect",
-  "start": 16.252,
-  "end": 16.519
- },
- {
-  "word": "Dalton",
-  "start": 16.561,
-  "end": 16.773
- },
- {
-  "word": "Knecht",
-  "start": 16.805,
-  "end": 16.975
- },
- {
-  "word": "to",
-  "start": 16.997,
-  "end": 17.04
- },
- {
-  "word": "go",
-  "start": 17.082,
-  "end": 17.167
- },
- {
-  "word": "first.",
-  "start": 17.22,
-  "end": 17.528
- },
- {
-  "word": "Bronny",
-  "start": 17.582,
-  "end": 17.847
- },
- {
-  "word": "averaged",
-  "start": 17.889,
-  "end": 18.145
- },
- {
-  "word": "just",
-  "start": 18.167,
-  "end": 18.315
- },
- {
-  "word": "two",
-  "start": 18.336,
-  "end": 18.464
- },
- {
-  "word": "point",
-  "start": 18.517,
-  "end": 18.677
- },
- {
-  "word": "nine",
-  "start": 18.73,
-  "end": 18.868
- },
- {
-  "word": "points",
-  "start": 18.9,
-  "end": 19.112
+  "word": "locked",
+  "start": 10.549,
+  "end": 10.756
  },
  {
   "word": "in",
-  "start": 19.133,
-  "end": 19.177
+  "start": 10.787,
+  "end": 10.839
  },
  {
-  "word": "under",
-  "start": 19.23,
-  "end": 19.378
+  "word": "the",
+  "start": 10.871,
+  "end": 10.932
  },
  {
-  "word": "nine",
-  "start": 19.421,
-  "end": 19.569
- },
- {
-  "word": "minutes.",
-  "start": 19.601,
-  "end": 19.92
+  "word": "rest.",
+  "start": 10.974,
+  "end": 11.202
  },
  {
   "word": "But",
-  "start": 19.973,
-  "end": 20.101
+  "start": 11.223,
+  "end": 11.337
  },
  {
-  "word": "Luka",
-  "start": 20.133,
-  "end": 20.314
+  "word": "Yahoo",
+  "start": 11.378,
+  "end": 11.648
  },
  {
-  "word": "Doncic",
-  "start": 20.356,
-  "end": 20.622
+  "word": "says",
+  "start": 11.7,
+  "end": 11.845
  },
  {
-  "word": "said",
-  "start": 20.653,
-  "end": 20.781
+  "word": "his",
+  "start": 11.886,
+  "end": 11.96
  },
  {
-  "word": "this",
-  "start": 20.814,
-  "end": 20.92
+  "word": "name",
+  "start": 12.001,
+  "end": 12.136
  },
  {
-  "word": "last",
-  "start": 20.973,
-  "end": 21.132
+  "word": "has",
+  "start": 12.156,
+  "end": 12.25
  },
  {
-  "word": "season.",
-  "start": 21.164,
-  "end": 21.6
+  "word": "surfaced",
+  "start": 12.291,
+  "end": 12.633
  },
  {
-  "word": "Big",
-  "start": 21.832,
-  "end": 22.073
- },
- {
-  "word": "game",
-  "start": 22.073,
-  "end": 22.315
- },
- {
-  "word": "from",
-  "start": 22.315,
-  "end": 22.557
- },
- {
-  "word": "him,",
-  "start": 22.557,
-  "end": 22.798
- },
- {
-  "word": "that",
-  "start": 22.798,
-  "end": 23.04
- },
- {
-  "word": "pull-up",
-  "start": 23.04,
-  "end": 23.282
- },
- {
-  "word": "too,",
-  "start": 23.282,
-  "end": 23.523
- },
- {
-  "word": "it",
-  "start": 23.523,
-  "end": 23.765
- },
- {
-  "word": "was",
-  "start": 23.765,
-  "end": 24.007
+  "word": "as",
+  "start": 12.664,
+  "end": 12.748
  },
  {
   "word": "a",
-  "start": 24.007,
-  "end": 24.248
+  "start": 12.799,
+  "end": 12.82
  },
  {
-  "word": "big",
-  "start": 24.248,
-  "end": 24.49
+  "word": "possible",
+  "start": 12.872,
+  "end": 13.214
  },
  {
-  "word": "bucket.",
-  "start": 24.49,
-  "end": 24.732
+  "word": "trade",
+  "start": 13.245,
+  "end": 13.432
+ },
+ {
+  "word": "or",
+  "start": 13.463,
+  "end": 13.515
+ },
+ {
+  "word": "waiver",
+  "start": 13.567,
+  "end": 13.805
+ },
+ {
+  "word": "option.",
+  "start": 13.857,
+  "end": 14.199
+ },
+ {
+  "word": "And",
+  "start": 14.221,
+  "end": 14.334
+ },
+ {
+  "word": "rival",
+  "start": 14.386,
+  "end": 14.615
+ },
+ {
+  "word": "executives",
+  "start": 14.656,
+  "end": 15.05
+ },
+ {
+  "word": "reportedly",
+  "start": 15.102,
+  "end": 15.527
+ },
+ {
+  "word": "expect",
+  "start": 15.579,
+  "end": 15.839
+ },
+ {
+  "word": "Dalton",
+  "start": 15.87,
+  "end": 16.108
+ },
+ {
+  "word": "Knecht,",
+  "start": 16.139,
+  "end": 16.377
+ },
+ {
+  "word": "a",
+  "start": 16.399,
+  "end": 16.429
+ },
+ {
+  "word": "first-round",
+  "start": 16.502,
+  "end": 16.876
+ },
+ {
+  "word": "pick,",
+  "start": 16.917,
+  "end": 17.114
+ },
+ {
+  "word": "to",
+  "start": 17.135,
+  "end": 17.187
+ },
+ {
+  "word": "be",
+  "start": 17.239,
+  "end": 17.322
+ },
+ {
+  "word": "the",
+  "start": 17.353,
+  "end": 17.414
+ },
+ {
+  "word": "odd",
+  "start": 17.466,
+  "end": 17.601
+ },
+ {
+  "word": "man",
+  "start": 17.643,
+  "end": 17.767
+ },
+ {
+  "word": "out.",
+  "start": 17.819,
+  "end": 18.017
  },
  {
   "word": "So",
-  "start": 24.852,
-  "end": 25.003
+  "start": 18.068,
+  "end": 18.172
+ },
+ {
+  "word": "what",
+  "start": 18.224,
+  "end": 18.359
+ },
+ {
+  "word": "does",
+  "start": 18.39,
+  "end": 18.504
+ },
+ {
+  "word": "Bronny",
+  "start": 18.545,
+  "end": 18.783
+ },
+ {
+  "word": "have?",
+  "start": 18.836,
+  "end": 19.053
+ },
+ {
+  "word": "Two",
+  "start": 19.105,
+  "end": 19.25
+ },
+ {
+  "word": "point",
+  "start": 19.302,
+  "end": 19.468
+ },
+ {
+  "word": "nine",
+  "start": 19.509,
+  "end": 19.676
+ },
+ {
+  "word": "points",
+  "start": 19.717,
+  "end": 19.955
+ },
+ {
+  "word": "in",
+  "start": 19.997,
+  "end": 20.059
+ },
+ {
+  "word": "under",
+  "start": 20.112,
+  "end": 20.256
+ },
+ {
+  "word": "nine",
+  "start": 20.298,
+  "end": 20.454
+ },
+ {
+  "word": "minutes.",
+  "start": 20.485,
+  "end": 20.837
+ },
+ {
+  "word": "And",
+  "start": 20.868,
+  "end": 20.962
+ },
+ {
+  "word": "Luka",
+  "start": 21.003,
+  "end": 21.179
+ },
+ {
+  "word": "Doncic,",
+  "start": 21.231,
+  "end": 21.595
+ },
+ {
+  "word": "last",
+  "start": 21.646,
+  "end": 21.833
+ },
+ {
+  "word": "March:",
+  "start": 21.885,
+  "end": 22.32
+ },
+ {
+  "word": "It",
+  "start": 22.458,
+  "end": 22.675
+ },
+ {
+  "word": "was",
+  "start": 22.675,
+  "end": 22.891
+ },
+ {
+  "word": "probably",
+  "start": 22.891,
+  "end": 23.108
+ },
+ {
+  "word": "one",
+  "start": 23.108,
+  "end": 23.325
+ },
+ {
+  "word": "of",
+  "start": 23.325,
+  "end": 23.541
  },
  {
   "word": "the",
-  "start": 25.061,
-  "end": 25.131
+  "start": 23.541,
+  "end": 23.758
  },
  {
-  "word": "money",
-  "start": 25.165,
-  "end": 25.328
+  "word": "most",
+  "start": 23.758,
+  "end": 23.975
  },
  {
-  "word": "buys",
-  "start": 25.374,
-  "end": 25.549
+  "word": "important",
+  "start": 23.975,
+  "end": 24.191
  },
  {
-  "word": "him",
-  "start": 25.583,
-  "end": 25.653
+  "word": "shots",
+  "start": 24.191,
+  "end": 24.408
  },
  {
-  "word": "time.",
-  "start": 25.7,
-  "end": 25.978
+  "word": "of",
+  "start": 24.408,
+  "end": 24.625
+ },
+ {
+  "word": "the",
+  "start": 24.625,
+  "end": 24.841
+ },
+ {
+  "word": "game.",
+  "start": 24.841,
+  "end": 25.058
  },
  {
   "word": "The",
-  "start": 26.048,
-  "end": 26.164
+  "start": 25.178,
+  "end": 25.292
  },
  {
-  "word": "preseason",
-  "start": 26.222,
-  "end": 26.652
+  "word": "guarantee",
+  "start": 25.333,
+  "end": 25.663
  },
  {
-  "word": "buys",
-  "start": 26.698,
-  "end": 26.872
+  "word": "protects",
+  "start": 25.704,
+  "end": 26.003
  },
  {
-  "word": "him",
-  "start": 26.907,
-  "end": 26.988
+  "word": "his",
+  "start": 26.024,
+  "end": 26.106
  },
  {
-  "word": "the",
-  "start": 27.023,
-  "end": 27.093
+  "word": "money.",
+  "start": 26.158,
+  "end": 26.415
+ },
+ {
+  "word": "That",
+  "start": 26.446,
+  "end": 26.601
+ },
+ {
+  "word": "shot",
+  "start": 26.653,
+  "end": 26.818
+ },
+ {
+  "word": "might",
+  "start": 26.859,
+  "end": 27.003
+ },
+ {
+  "word": "protect",
+  "start": 27.035,
+  "end": 27.303
+ },
+ {
+  "word": "his",
+  "start": 27.344,
+  "end": 27.426
  },
  {
   "word": "spot.",
-  "start": 27.116,
-  "end": 27.546
+  "start": 27.457,
+  "end": 27.818
  }
 ]

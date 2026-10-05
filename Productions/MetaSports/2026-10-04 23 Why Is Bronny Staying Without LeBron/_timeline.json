@@ -3,56 +3,40 @@
   "i": 0,
   "kind": "vo",
   "start": 0.0,
-  "end": 2.647,
+  "end": 9.419,
   "src": "_n1",
   "src_from": null
  },
  {
   "i": 1,
-  "kind": "vo",
-  "start": 2.767,
-  "end": 6.612,
-  "src": "_n2",
-  "src_from": null
- },
- {
-  "i": 2,
   "kind": "quote",
-  "start": 6.732,
-  "end": 7.982,
+  "start": 9.539,
+  "end": 10.789,
   "src": "src/2104665697406341521.mp4",
   "src_from": 0.05
  },
  {
-  "i": 3,
+  "i": 2,
   "kind": "vo",
-  "start": 8.102,
-  "end": 13.38,
-  "src": "_n3",
+  "start": 10.909,
+  "end": 20.092,
+  "src": "_n2",
   "src_from": null
+ },
+ {
+  "i": 3,
+  "kind": "quote",
+  "start": 20.212,
+  "end": 23.282,
+  "src": "src/2104753439901417494.mp4",
+  "src_from": 30.78
  },
  {
   "i": 4,
   "kind": "vo",
-  "start": 13.5,
-  "end": 17.823,
-  "src": "_n4",
-  "src_from": null
- },
- {
-  "i": 5,
-  "kind": "quote",
-  "start": 17.943,
-  "end": 20.343,
-  "src": "src/2104753439901417494.mp4",
-  "src_from": 31.55
- },
- {
-  "i": 6,
-  "kind": "vo",
-  "start": 20.463,
-  "end": 23.344,
-  "src": "_n5",
+  "start": 23.402,
+  "end": 26.281,
+  "src": "_n3",
   "src_from": null
  }
 ]

@@ -2,82 +2,137 @@
  {
   "clip": "S01_hook_dribble.mp4",
   "start": 0.0,
+  "kind": "action",
   "zoom": 0.12
  },
  {
   "clip": "S02_russell_stumble.mp4",
-  "start": 0.75
+  "start": 0.82,
+  "kind": "action",
+  "anchor": "off Bryon"
  },
  {
   "clip": "S03_jordan_rises.mp4",
-  "start": 1.55
+  "start": 1.53,
+  "kind": "action",
+  "anchor": "to win"
  },
  {
   "clip": "S04_shot_net.mp4",
-  "start": 2.44
- },
- {
-  "clip": "S05_nba_logo.mp4",
-  "start": 3.99
- },
- {
-  "clip": "S06_contact_wide.mp4",
-  "start": 5.2
- },
- {
-  "clip": "c11_a_1.mp4",
-  "start": 6.77
- },
- {
-  "clip": "S08a_feel.mp4",
-  "start": 10.15
- },
- {
-  "clip": "S08b_firm.mp4",
-  "start": 11.4
- },
- {
-  "clip": "S09a_push.mp4",
-  "start": 12.69
- },
- {
-  "clip": "S09b_push2.mp4",
-  "start": 14.2
- },
- {
-  "clip": "S10_replay_push.mp4",
-  "start": 15.75
- },
- {
-  "clip": "c11_b_1.mp4",
-  "start": 16.84
+  "start": 2.9,
+  "kind": "action",
+  "anchor": "and no"
  },
  {
   "clip": "S12_nba_title.mp4",
-  "start": 20.01
+  "start": 3.97,
+  "kind": "card",
+  "anchor": "Now the"
  },
  {
-  "clip": "S13_brown_oubre.mp4",
-  "start": 21.18
+  "clip": "S06_contact_wide.mp4",
+  "start": 4.57,
+  "kind": "action",
+  "anchor": "cracking"
  },
  {
-  "clip": "S14_barrett_mobley.mp4",
-  "start": 22.96
+  "clip": "S08a_feel.mp4",
+  "start": 5.91,
+  "kind": "action",
+  "anchor": "Feel"
  },
  {
-  "clip": "S15_barrett_wide.mp4",
-  "start": 24.93
+  "clip": "S09b_push2.mp4",
+  "start": 7.14,
+  "kind": "action",
+  "anchor": "Force"
+ },
+ {
+  "clip": "S10_replay_push.mp4",
+  "start": 8.67,
+  "kind": "action",
+  "anchor": "So would"
  },
  {
   "clip": "S16_jordan_shot.mp4",
-  "start": 25.87
+  "start": 9.73,
+  "kind": "action",
+  "anchor": "today"
+ },
+ {
+  "clip": "S14_barrett_mobley.mp4",
+  "start": 11.06,
+  "kind": "action",
+  "anchor": "But that's"
+ },
+ {
+  "clip": "S05_nba_logo.mp4",
+  "start": 12.35,
+  "kind": "card",
+  "anchor": "One of"
+ },
+ {
+  "clip": "S13_brown_oubre.mp4",
+  "start": 13.8,
+  "kind": "action",
+  "anchor": "is Jaylen"
+ },
+ {
+  "clip": "c11_brown10.mp4",
+  "start": 16.09,
+  "kind": "card",
+  "anchor": "Brown was"
+ },
+ {
+  "clip": "S13_brown_oubre.mp4",
+  "start": 17.73,
+  "kind": "action",
+  "anchor": "in one",
+  "in": 0.3
  },
  {
   "clip": "S17_brown_dribble.mp4",
-  "start": 27.82
+  "start": 18.73,
+  "kind": "action",
+  "anchor": "twice as"
  },
  {
-  "clip": "S18_loop.mp4",
-  "start": 28.72
+  "clip": "c11_brownfine.mp4",
+  "start": 19.99,
+  "kind": "card",
+  "anchor": "Then the"
+ },
+ {
+  "clip": "S06_contact_wide.mp4",
+  "start": 21.64,
+  "kind": "action",
+  "anchor": "for criticizing",
+  "in": 0.3
+ },
+ {
+  "clip": "S10_replay_push.mp4",
+  "start": 22.72,
+  "kind": "action",
+  "anchor": "So by"
+ },
+ {
+  "clip": "S16_jordan_shot.mp4",
+  "start": 23.68,
+  "kind": "action",
+  "anchor": "Jordan's push-off",
+  "in": 0.4
+ },
+ {
+  "clip": "S13_brown_oubre.mp4",
+  "start": 24.79,
+  "kind": "action",
+  "anchor": "and Jaylen",
+  "in": 0.2
+ },
+ {
+  "clip": "S01_hook_dribble.mp4",
+  "start": 26.07,
+  "kind": "action",
+  "anchor": "example"
  }
 ]

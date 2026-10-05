@@ -1,51 +1,59 @@
 1
-00:00:00,000 --> 00:00:00,706
-Only one NBA
+00:00:00,000 --> 00:00:00,728
+Only two NBA
 
 2
-00:00:00,706 --> 00:00:01,284
-player can still
+00:00:00,728 --> 00:00:01,342
+players are still
 
 3
-00:00:01,284 --> 00:00:02,066
-wear number six.
+00:00:01,342 --> 00:00:01,866
+allowed to wear
 
 4
-00:00:02,066 --> 00:00:02,752
-Bill Russell won
+00:00:01,866 --> 00:00:02,492
+number six.
 
 5
-00:00:02,752 --> 00:00:04,336
-eleven titles, so in 2022
+00:00:02,492 --> 00:00:03,287
+One is 24.
 
 6
-00:00:04,336 --> 00:00:04,1000
-the league retired
+00:00:03,287 --> 00:00:04,186
+The other is thirty-eight.
 
 7
-00:00:04,1000 --> 00:00:05,866
-six for every team.
+00:00:04,186 --> 00:00:04,869
+Bill Russell won
 
 8
-00:00:05,866 --> 00:00:06,574
-But anyone already
+00:00:04,869 --> 00:00:06,507
+eleven titles, so in 2022
 
 9
-00:00:06,574 --> 00:00:07,429
-wearing it kept it.
+00:00:06,507 --> 00:00:07,247
+the league retired
 
 10
-00:00:07,429 --> 00:00:07,986
-Now one man
+00:00:07,247 --> 00:00:08,123
+six for every team.
 
 11
-00:00:07,986 --> 00:00:08,532
-is left.
+00:00:08,123 --> 00:00:08,873
+But players already
 
 12
-00:00:08,532 --> 00:00:09,453
-Jaylin Williams.
+00:00:08,873 --> 00:00:09,784
+wearing it kept it.
 
 13
-00:00:09,453 --> 00:00:10,320
-Here he is on that.
+00:00:09,784 --> 00:00:11,114
+Jaylin Williams, of the Thunder,
+
+14
+00:00:11,114 --> 00:00:11,739
+says his dad
+
+15
+00:00:11,739 --> 00:00:12,240
+picked it.

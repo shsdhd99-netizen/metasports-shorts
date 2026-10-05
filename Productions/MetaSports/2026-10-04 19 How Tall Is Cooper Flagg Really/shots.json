@@ -2,107 +2,146 @@
  {
   "clip": "P1.mp4",
   "start": 0.0,
-  "why": "hook: Flagg towering at media day shoot",
+  "in": 0,
   "kind": "action",
+  "why": "An Instagram account",
+  "anchor": "An Instagram account",
   "zoom": 0.12
  },
  {
   "clip": "W1.mp4",
-  "start": 1.0,
-  "why": "an inch in one sentence",
+  "start": 1.08,
+  "in": 0,
   "kind": "action",
+  "why": "Cooper Flagg grew",
+  "anchor": "Cooper Flagg grew",
   "zoom": 0.06
- },
- {
-  "clip": "D1.mp4",
-  "start": 2.0,
-  "why": "draft page six-eight",
-  "kind": "action",
-  "zoom": 0.08
- },
- {
-  "clip": "S1.mp4",
-  "start": 3.0,
-  "why": "NBA site six-nine",
-  "kind": "action"
- },
- {
-  "clip": "P2.mp4",
-  "start": 4.3,
-  "why": "until media day",
-  "kind": "action",
-  "zoom": 0.06
- },
- {
-  "clip": "Q1.mp4",
-  "start": 5.17,
-  "why": "quote: 6-10 no shoes",
-  "kind": "quote"
  },
  {
   "clip": "G1.mp4",
-  "start": 6.99,
-  "why": "one summer one inch",
+  "start": 2.22,
+  "in": 0,
   "kind": "action",
+  "why": "this summer",
+  "anchor": "this summer"
+ },
+ {
+  "clip": "P2.mp4",
+  "start": 2.7,
+  "in": 0,
+  "kind": "action",
+  "why": "So at media day",
+  "anchor": "So at media day",
   "zoom": 0.06
- },
- {
-  "clip": "B2.mp4",
-  "start": 8.2,
-  "why": "reigning ROY",
-  "kind": "action"
- },
- {
-  "clip": "B1.mp4",
-  "start": 9.65,
-  "why": "scored 51 as a teenager",
-  "kind": "action"
  },
  {
   "clip": "G2.mp4",
-  "start": 11.7,
-  "why": "trainer would not confirm",
+  "start": 4.18,
+  "in": 0,
   "kind": "action",
-  "zoom": 0.06
- },
- {
-  "clip": "P3.mp4",
-  "start": 13.6,
-  "why": "but then six-eleven",
-  "kind": "action",
+  "why": "taller than",
+  "anchor": "taller than",
   "zoom": 0.06
  },
  {
   "clip": "Q2.mp4",
-  "start": 15.755,
-  "why": "quote: maybe 6-11 I don't know",
-  "kind": "quote"
+  "start": 5.44,
+  "in": 0.1,
+  "kind": "quote",
+  "why": "So may-",
+  "anchor": "So may-"
  },
  {
-  "clip": "D2.mp4",
-  "start": 18.775,
-  "why": "six-eight six-nine",
+  "clip": "P3.mp4",
+  "start": 8.1,
+  "in": 0,
   "kind": "action",
+  "why": "Six-eleven? Not so",
+  "anchor": "Six-eleven? Not so",
+  "zoom": 0.06
+ },
+ {
+  "clip": "G3.mp4",
+  "start": 9.5,
+  "in": 0,
+  "kind": "action",
+  "why": "His team physical",
+  "anchor": "His team physical",
   "zoom": 0.06
  },
  {
   "clip": "W2.mp4",
-  "start": 19.95,
-  "why": "six-ten now maybe",
-  "kind": "action"
+  "start": 10.78,
+  "in": 0,
+  "kind": "action",
+  "why": "reported by Marc",
+  "anchor": "reported by Marc"
  },
  {
-  "clip": "G3.mp4",
-  "start": 20.7,
-  "why": "six-eleven, how tall",
+  "clip": "D1.mp4",
+  "start": 11.73,
+  "in": 0,
   "kind": "action",
+  "why": "said six-ten",
+  "anchor": "said six-ten",
+  "zoom": 0.06
+ },
+ {
+  "clip": "c02.mp4",
+  "start": 12.87,
+  "in": 0,
+  "kind": "card",
+  "why": "And the NBA's",
+  "anchor": "And the NBA's"
+ },
+ {
+  "clip": "D2.mp4",
+  "start": 14.99,
+  "in": 0,
+  "kind": "action",
+  "why": "Then five days",
+  "anchor": "Then five days",
+  "zoom": 0.06
+ },
+ {
+  "clip": "S1.mp4",
+  "start": 16.86,
+  "in": 0,
+  "kind": "action",
+  "why": "six-ten and a half",
+  "anchor": "six-ten and a half"
+ },
+ {
+  "clip": "W1.mp4",
+  "start": 18.05,
+  "in": 1.0,
+  "kind": "action",
+  "why": "So is he six-eleven",
+  "anchor": "So is he six-eleven",
   "zoom": 0.05
  },
  {
-  "clip": "P1.mp4",
-  "start": 21.35,
-  "why": "loop to first clip",
+  "clip": "G3.mp4",
+  "start": 18.98,
+  "in": 1.0,
   "kind": "action",
+  "why": "Flagg's answer",
+  "anchor": "Flagg's answer"
+ },
+ {
+  "clip": "Q1.mp4",
+  "start": 19.84,
+  "in": 0.05,
+  "kind": "quote",
+  "why": "not very accurate",
+  "anchor": "not very accurate"
+ },
+ {
+  "clip": "P1.mp4",
+  "start": 21.3,
+  "in": 1.0,
+  "kind": "action",
+  "why": "LOOP_END",
   "zoom": 0.1
  }
 ]

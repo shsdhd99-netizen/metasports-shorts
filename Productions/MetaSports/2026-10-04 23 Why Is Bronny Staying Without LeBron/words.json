@@ -1,422 +1,522 @@
 [
  {
-  "word": "16",
+  "word": "No",
   "start": 0.0,
-  "end": 0.34
+  "end": 0.14
  },
  {
-  "word": "Lakers,",
-  "start": 0.382,
-  "end": 0.671
- },
- {
-  "word": "15",
-  "start": 0.701,
-  "end": 0.99
- },
- {
-  "word": "spots,",
-  "start": 1.021,
-  "end": 1.289
+  "word": "father",
+  "start": 0.19,
+  "end": 0.419
  },
  {
   "word": "and",
-  "start": 1.32,
-  "end": 1.434
+  "start": 0.459,
+  "end": 0.519
  },
  {
-  "word": "one",
-  "start": 1.485,
-  "end": 1.578
+  "word": "son",
+  "start": 0.568,
+  "end": 0.748
  },
  {
-  "word": "of",
-  "start": 1.609,
-  "end": 1.65
+  "word": "had",
+  "start": 0.798,
+  "end": 0.887
  },
  {
-  "word": "them",
-  "start": 1.681,
-  "end": 1.794
+  "word": "ever",
+  "start": 0.937,
+  "end": 1.097
  },
  {
-  "word": "is",
-  "start": 1.846,
-  "end": 1.928
- },
- {
-  "word": "Bronny",
-  "start": 1.97,
-  "end": 2.217
- },
- {
-  "word": "James.",
-  "start": 2.269,
-  "end": 2.64
- },
- {
-  "word": "LeBron",
-  "start": 2.767,
-  "end": 3.057
- },
- {
-  "word": "left",
-  "start": 3.107,
-  "end": 3.257
- },
- {
-  "word": "for",
-  "start": 3.277,
-  "end": 3.367
- },
- {
-  "word": "Philadelphia.",
-  "start": 3.397,
-  "end": 3.967
- },
- {
-  "word": "Bronny",
-  "start": 3.997,
-  "end": 4.267
- },
- {
-  "word": "stayed.",
-  "start": 4.317,
-  "end": 4.657
- },
- {
-  "word": "At",
-  "start": 4.687,
-  "end": 4.787
- },
- {
-  "word": "his",
-  "start": 4.817,
-  "end": 4.897
- },
- {
-  "word": "first",
-  "start": 4.937,
-  "end": 5.137
- },
- {
-  "word": "media",
-  "start": 5.187,
-  "end": 5.417
- },
- {
-  "word": "day",
-  "start": 5.467,
-  "end": 5.577
- },
- {
-  "word": "without",
-  "start": 5.607,
-  "end": 5.817
- },
- {
-  "word": "his",
-  "start": 5.847,
-  "end": 5.908
- },
- {
-  "word": "dad,",
-  "start": 5.947,
-  "end": 6.147
- },
- {
-  "word": "he",
-  "start": 6.167,
-  "end": 6.227
- },
- {
-  "word": "said:",
-  "start": 6.277,
-  "end": 6.607
- },
- {
-  "word": "Feels",
-  "start": 6.782,
-  "end": 7.022
- },
- {
-  "word": "like",
-  "start": 7.062,
-  "end": 7.222
- },
- {
-  "word": "he's",
-  "start": 7.242,
-  "end": 7.362
- },
- {
-  "word": "not",
-  "start": 7.382,
-  "end": 7.562
- },
- {
-  "word": "here.",
-  "start": 7.602,
-  "end": 7.862
- },
- {
-  "word": "But",
-  "start": 8.102,
-  "end": 8.254
- },
- {
-  "word": "the",
-  "start": 8.275,
-  "end": 8.34
- },
- {
-  "word": "pressure",
-  "start": 8.372,
-  "end": 8.665
- },
- {
-  "word": "is",
-  "start": 8.697,
-  "end": 8.762
- },
- {
-  "word": "real.",
-  "start": 8.816,
-  "end": 9.065
- },
- {
-  "word": "His",
-  "start": 9.087,
-  "end": 9.227
- },
- {
-  "word": "$2.3M",
-  "start": 9.271,
-  "end": 10.158
- },
- {
-  "word": "is",
-  "start": 10.212,
-  "end": 10.277
- },
- {
-  "word": "guaranteed,",
-  "start": 10.331,
-  "end": 10.861
- },
- {
-  "word": "yet",
-  "start": 10.904,
-  "end": 11.045
- },
- {
-  "word": "he",
-  "start": 11.077,
-  "end": 11.12
- },
- {
-  "word": "averaged",
-  "start": 11.174,
-  "end": 11.456
- },
- {
-  "word": "2.9",
-  "start": 11.477,
-  "end": 12.04
- },
- {
-  "word": "points",
-  "start": 12.073,
-  "end": 12.3
+  "word": "played",
+  "start": 1.146,
+  "end": 1.326
  },
  {
   "word": "in",
-  "start": 12.343,
-  "end": 12.418
+  "start": 1.346,
+  "end": 1.386
  },
  {
-  "word": "42",
-  "start": 12.484,
-  "end": 12.884
+  "word": "the",
+  "start": 1.416,
+  "end": 1.475
  },
  {
-  "word": "games.",
-  "start": 12.938,
-  "end": 13.382
+  "word": "same",
+  "start": 1.505,
+  "end": 1.685
  },
  {
-  "word": "The",
-  "start": 13.5,
-  "end": 13.627
+  "word": "NBA",
+  "start": 1.715,
+  "end": 1.974
  },
  {
-  "word": "Lakers",
-  "start": 13.67,
-  "end": 13.902
+  "word": "game,",
+  "start": 2.024,
+  "end": 2.253
  },
  {
-  "word": "reportedly",
-  "start": 13.945,
-  "end": 14.347
- },
- {
-  "word": "must",
-  "start": 14.4,
-  "end": 14.548
- },
- {
-  "word": "trim",
-  "start": 14.58,
-  "end": 14.728
- },
- {
-  "word": "one",
-  "start": 14.791,
-  "end": 14.919
- },
- {
-  "word": "player",
-  "start": 14.94,
-  "end": 15.163
- },
- {
-  "word": "by",
-  "start": 15.204,
-  "end": 15.278
- },
- {
-  "word": "October 21.",
-  "start": 15.332,
-  "end": 16.2
- },
- {
-  "word": "And",
-  "start": 16.263,
-  "end": 16.412
- },
- {
-  "word": "his",
-  "start": 16.465,
-  "end": 16.571
- },
- {
-  "word": "answer",
-  "start": 16.613,
-  "end": 16.803
- },
- {
-  "word": "was",
-  "start": 16.856,
-  "end": 16.973
- },
- {
-  "word": "about",
-  "start": 17.026,
-  "end": 17.216
- },
- {
-  "word": "his",
-  "start": 17.248,
-  "end": 17.343
- },
- {
-  "word": "name.",
-  "start": 17.396,
-  "end": 17.82
- },
- {
-  "word": "Bronny.",
-  "start": 18.033,
-  "end": 18.473
- },
- {
-  "word": "I'm--",
-  "start": 18.613,
-  "end": 18.773
- },
- {
-  "word": "my",
-  "start": 18.913,
-  "end": 19.012
- },
- {
-  "word": "real",
-  "start": 19.173,
-  "end": 19.333
- },
- {
-  "word": "name",
-  "start": 19.373,
-  "end": 19.513
- },
- {
-  "word": "is",
-  "start": 19.553,
-  "end": 19.653
- },
- {
-  "word": "LeBron.",
-  "start": 19.673,
-  "end": 20.173
- },
- {
-  "word": "15",
-  "start": 20.463,
-  "end": 20.79
- },
- {
-  "word": "spots.",
-  "start": 20.828,
-  "end": 21.108
- },
- {
-  "word": "Without",
-  "start": 21.136,
-  "end": 21.361
+  "word": "until",
+  "start": 2.283,
+  "end": 2.502
  },
  {
   "word": "LeBron",
-  "start": 21.388,
-  "end": 21.603
+  "start": 2.552,
+  "end": 2.812
  },
  {
-  "word": "around,",
-  "start": 21.632,
-  "end": 21.865
- },
- {
-  "word": "does",
-  "start": 21.893,
-  "end": 21.987
+  "word": "and",
+  "start": 2.851,
+  "end": 2.921
  },
  {
   "word": "Bronny",
-  "start": 22.025,
-  "end": 22.221
+  "start": 2.951,
+  "end": 3.19
  },
  {
-  "word": "earn",
-  "start": 22.258,
-  "end": 22.38
+  "word": "James.",
+  "start": 3.24,
+  "end": 3.559
  },
  {
-  "word": "one:",
-  "start": 22.426,
-  "end": 22.595
+  "word": "They",
+  "start": 3.579,
+  "end": 3.699
  },
  {
-  "word": "yes",
-  "start": 22.66,
-  "end": 22.838
+  "word": "were",
+  "start": 3.729,
+  "end": 3.828
  },
  {
-  "word": "or",
-  "start": 22.885,
-  "end": 22.978
+  "word": "teammates",
+  "start": 3.858,
+  "end": 4.167
  },
  {
-  "word": "no?",
-  "start": 23.025,
-  "end": 23.343
+  "word": "for",
+  "start": 4.198,
+  "end": 4.287
+ },
+ {
+  "word": "two",
+  "start": 4.317,
+  "end": 4.436
+ },
+ {
+  "word": "seasons,",
+  "start": 4.486,
+  "end": 4.836
+ },
+ {
+  "word": "and",
+  "start": 4.855,
+  "end": 4.945
+ },
+ {
+  "word": "LeBron",
+  "start": 4.995,
+  "end": 5.244
+ },
+ {
+  "word": "called",
+  "start": 5.294,
+  "end": 5.483
+ },
+ {
+  "word": "it",
+  "start": 5.513,
+  "end": 5.553
+ },
+ {
+  "word": "probably",
+  "start": 5.584,
+  "end": 5.902
+ },
+ {
+  "word": "his",
+  "start": 5.952,
+  "end": 6.032
+ },
+ {
+  "word": "number",
+  "start": 6.082,
+  "end": 6.271
+ },
+ {
+  "word": "one",
+  "start": 6.321,
+  "end": 6.43
+ },
+ {
+  "word": "accomplishment.",
+  "start": 6.451,
+  "end": 7.089
+ },
+ {
+  "word": "Then",
+  "start": 7.128,
+  "end": 7.268
+ },
+ {
+  "word": "LeBron",
+  "start": 7.318,
+  "end": 7.597
+ },
+ {
+  "word": "left",
+  "start": 7.647,
+  "end": 7.777
+ },
+ {
+  "word": "for",
+  "start": 7.807,
+  "end": 7.876
+ },
+ {
+  "word": "Philadelphia,",
+  "start": 7.906,
+  "end": 8.495
+ },
+ {
+  "word": "and",
+  "start": 8.514,
+  "end": 8.614
+ },
+ {
+  "word": "Bronny",
+  "start": 8.664,
+  "end": 8.913
+ },
+ {
+  "word": "stayed.",
+  "start": 8.963,
+  "end": 9.412
+ },
+ {
+  "word": "Feels",
+  "start": 9.589,
+  "end": 9.805
+ },
+ {
+  "word": "like",
+  "start": 9.805,
+  "end": 10.021
+ },
+ {
+  "word": "he's",
+  "start": 10.021,
+  "end": 10.237
+ },
+ {
+  "word": "not",
+  "start": 10.237,
+  "end": 10.453
+ },
+ {
+  "word": "here.",
+  "start": 10.453,
+  "end": 10.669
+ },
+ {
+  "word": "But",
+  "start": 10.909,
+  "end": 11.059
+ },
+ {
+  "word": "that's",
+  "start": 11.09,
+  "end": 11.272
+ },
+ {
+  "word": "not",
+  "start": 11.325,
+  "end": 11.453
+ },
+ {
+  "word": "even",
+  "start": 11.496,
+  "end": 11.645
+ },
+ {
+  "word": "the",
+  "start": 11.677,
+  "end": 11.742
+ },
+ {
+  "word": "crazy",
+  "start": 11.784,
+  "end": 12.061
+ },
+ {
+  "word": "part.",
+  "start": 12.115,
+  "end": 12.435
+ },
+ {
+  "word": "On",
+  "start": 12.606,
+  "end": 12.755
+ },
+ {
+  "word": "Christmas",
+  "start": 12.809,
+  "end": 13.161
+ },
+ {
+  "word": "Day,",
+  "start": 13.203,
+  "end": 13.374
+ },
+ {
+  "word": "the",
+  "start": 13.395,
+  "end": 13.469
+ },
+ {
+  "word": "Sixers",
+  "start": 13.534,
+  "end": 13.876
+ },
+ {
+  "word": "visit",
+  "start": 13.918,
+  "end": 14.142
+ },
+ {
+  "word": "the",
+  "start": 14.174,
+  "end": 14.238
+ },
+ {
+  "word": "Lakers,",
+  "start": 14.281,
+  "end": 14.612
+ },
+ {
+  "word": "and",
+  "start": 14.633,
+  "end": 14.739
+ },
+ {
+  "word": "LeBron",
+  "start": 14.793,
+  "end": 15.081
+ },
+ {
+  "word": "will",
+  "start": 15.113,
+  "end": 15.241
+ },
+ {
+  "word": "play",
+  "start": 15.273,
+  "end": 15.422
+ },
+ {
+  "word": "against",
+  "start": 15.476,
+  "end": 15.753
+ },
+ {
+  "word": "his",
+  "start": 15.795,
+  "end": 15.892
+ },
+ {
+  "word": "own",
+  "start": 15.945,
+  "end": 16.084
+ },
+ {
+  "word": "son",
+  "start": 16.126,
+  "end": 16.297
+ },
+ {
+  "word": "in",
+  "start": 16.351,
+  "end": 16.436
+ },
+ {
+  "word": "an",
+  "start": 16.489,
+  "end": 16.554
+ },
+ {
+  "word": "NBA",
+  "start": 16.607,
+  "end": 16.938
+ },
+ {
+  "word": "game",
+  "start": 16.991,
+  "end": 17.151
+ },
+ {
+  "word": "for",
+  "start": 17.183,
+  "end": 17.269
+ },
+ {
+  "word": "the",
+  "start": 17.311,
+  "end": 17.375
+ },
+ {
+  "word": "first",
+  "start": 17.429,
+  "end": 17.653
+ },
+ {
+  "word": "time.",
+  "start": 17.684,
+  "end": 18.026
+ },
+ {
+  "word": "Bronny",
+  "start": 18.133,
+  "end": 18.442
+ },
+ {
+  "word": "says",
+  "start": 18.485,
+  "end": 18.688
+ },
+ {
+  "word": "his",
+  "start": 18.741,
+  "end": 18.858
+ },
+ {
+  "word": "name",
+  "start": 18.911,
+  "end": 19.072
+ },
+ {
+  "word": "is",
+  "start": 19.114,
+  "end": 19.189
+ },
+ {
+  "word": "what",
+  "start": 19.242,
+  "end": 19.403
+ },
+ {
+  "word": "drives",
+  "start": 19.445,
+  "end": 19.733
+ },
+ {
+  "word": "him.",
+  "start": 19.776,
+  "end": 20.085
+ },
+ {
+  "word": "You",
+  "start": 20.252,
+  "end": 20.499
+ },
+ {
+  "word": "guys",
+  "start": 20.499,
+  "end": 20.745
+ },
+ {
+  "word": "know",
+  "start": 20.745,
+  "end": 20.992
+ },
+ {
+  "word": "me",
+  "start": 20.992,
+  "end": 21.239
+ },
+ {
+  "word": "as",
+  "start": 21.239,
+  "end": 21.485
+ },
+ {
+  "word": "Bronny.",
+  "start": 21.485,
+  "end": 21.732
+ },
+ {
+  "word": "I'm,",
+  "start": 21.732,
+  "end": 21.979
+ },
+ {
+  "word": "my",
+  "start": 21.979,
+  "end": 22.225
+ },
+ {
+  "word": "real",
+  "start": 22.225,
+  "end": 22.472
+ },
+ {
+  "word": "name",
+  "start": 22.472,
+  "end": 22.719
+ },
+ {
+  "word": "is",
+  "start": 22.719,
+  "end": 22.965
+ },
+ {
+  "word": "LeBron.",
+  "start": 22.965,
+  "end": 23.212
+ },
+ {
+  "word": "Christmas",
+  "start": 23.402,
+  "end": 23.82
+ },
+ {
+  "word": "Day.",
+  "start": 23.866,
+  "end": 24.133
+ },
+ {
+  "word": "LeBron",
+  "start": 24.203,
+  "end": 24.54
+ },
+ {
+  "word": "James",
+  "start": 24.598,
+  "end": 24.865
+ },
+ {
+  "word": "versus",
+  "start": 24.911,
+  "end": 25.19
+ },
+ {
+  "word": "LeBron",
+  "start": 25.236,
+  "end": 25.527
+ },
+ {
+  "word": "James",
+  "start": 25.573,
+  "end": 25.794
+ },
+ {
+  "word": "Junior.",
+  "start": 25.828,
+  "end": 26.281
  }
 ]

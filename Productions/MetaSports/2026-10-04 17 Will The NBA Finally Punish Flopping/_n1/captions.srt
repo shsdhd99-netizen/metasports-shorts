@@ -1,63 +1,87 @@
 1
-00:00:00,000 --> 00:00:00,777
-Flop, and the NBA
+00:00:00,000 --> 00:00:00,632
+Flopping has been
 
 2
-00:00:00,777 --> 00:00:01,636
-wants a technical foul.
+00:00:00,632 --> 00:00:01,254
+a technical foul
 
 3
-00:00:01,636 --> 00:00:02,450
-Timberwolves coach Chris
+00:00:01,254 --> 00:00:01,735
+in the NBA
 
 4
-00:00:02,450 --> 00:00:03,047
-Finch loves it:
+00:00:01,735 --> 00:00:02,669
+since twenty twenty-three.
 
 5
-00:00:03,047 --> 00:00:03,734
-just stop rewarding
+00:00:02,669 --> 00:00:03,433
+But NBC Sports
 
 6
-00:00:03,734 --> 00:00:04,231
-the flopping.
+00:00:03,433 --> 00:00:04,206
+calls the enforcement
 
 7
-00:00:04,231 --> 00:00:04,666
-The league even
+00:00:04,206 --> 00:00:05,290
+inconsistent at best.
 
 8
-00:00:04,666 --> 00:00:05,144
-posted its own
+00:00:05,290 --> 00:00:05,875
+Now the NBA
 
 9
-00:00:05,144 --> 00:00:05,633
-video of last
+00:00:05,875 --> 00:00:06,564
+has posted a video
 
 10
-00:00:05,633 --> 00:00:06,392
-season's flops.
+00:00:06,564 --> 00:00:07,129
+of last season's
 
 11
-00:00:06,392 --> 00:00:07,306
-The test: secondary,
+00:00:07,129 --> 00:00:07,874
+flops, and says
 
 12
-00:00:07,306 --> 00:00:08,218
-theatrical, exaggerated
+00:00:07,874 --> 00:00:08,402
+refs will call
 
 13
-00:00:08,218 --> 00:00:08,608
-movement.
+00:00:08,402 --> 00:00:09,119
+more technicals.
 
 14
-00:00:08,608 --> 00:00:09,222
-And Thunder coach
+00:00:09,119 --> 00:00:09,987
+The test is STEM:
 
 15
-00:00:09,222 --> 00:00:10,000
-Mark Daigneault sees
+00:00:09,987 --> 00:00:11,071
+secondary, theatrical,
 
 16
-00:00:10,000 --> 00:00:10,560
-the catch.
+00:00:11,071 --> 00:00:11,911
+exaggerated movement.
+
+17
+00:00:11,911 --> 00:00:12,665
+But there's a catch.
+
+18
+00:00:12,665 --> 00:00:13,467
+The NBA is also
+
+19
+00:00:13,467 --> 00:00:14,561
+cracking down on push-offs.
+
+20
+00:00:14,561 --> 00:00:15,193
+Thunder coach Mark
+
+21
+00:00:15,193 --> 00:00:15,796
+Daigneault says if
+
+22
+00:00:15,796 --> 00:00:16,560
+defenders know that,

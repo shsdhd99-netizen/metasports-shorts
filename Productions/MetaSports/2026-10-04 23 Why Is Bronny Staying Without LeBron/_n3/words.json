@@ -1,87 +1,42 @@
 [
  {
-  "word": "But",
+  "word": "Christmas",
   "start": 0.0,
-  "end": 0.152
+  "end": 0.418
  },
  {
-  "word": "the",
-  "start": 0.173,
-  "end": 0.238
+  "word": "Day.",
+  "start": 0.464,
+  "end": 0.731
  },
  {
-  "word": "pressure",
-  "start": 0.27,
-  "end": 0.563
+  "word": "LeBron",
+  "start": 0.801,
+  "end": 1.138
  },
  {
-  "word": "is",
-  "start": 0.595,
-  "end": 0.66
+  "word": "James",
+  "start": 1.196,
+  "end": 1.463
  },
  {
-  "word": "real.",
-  "start": 0.714,
-  "end": 0.963
+  "word": "versus",
+  "start": 1.509,
+  "end": 1.788
  },
  {
-  "word": "His",
-  "start": 0.985,
-  "end": 1.125
+  "word": "LeBron",
+  "start": 1.834,
+  "end": 2.125
  },
  {
-  "word": "$2.3M",
-  "start": 1.169,
-  "end": 2.056
+  "word": "James",
+  "start": 2.171,
+  "end": 2.392
  },
  {
-  "word": "is",
-  "start": 2.11,
-  "end": 2.175
- },
- {
-  "word": "guaranteed,",
-  "start": 2.229,
-  "end": 2.759
- },
- {
-  "word": "yet",
-  "start": 2.802,
-  "end": 2.943
- },
- {
-  "word": "he",
-  "start": 2.975,
-  "end": 3.018
- },
- {
-  "word": "averaged",
-  "start": 3.072,
-  "end": 3.354
- },
- {
-  "word": "2.9",
-  "start": 3.375,
-  "end": 3.938
- },
- {
-  "word": "points",
-  "start": 3.971,
-  "end": 4.198
- },
- {
-  "word": "in",
-  "start": 4.241,
-  "end": 4.316
- },
- {
-  "word": "42",
-  "start": 4.382,
-  "end": 4.782
- },
- {
-  "word": "games.",
-  "start": 4.836,
-  "end": 5.28
+  "word": "Junior.",
+  "start": 2.426,
+  "end": 2.879
  }
 ]

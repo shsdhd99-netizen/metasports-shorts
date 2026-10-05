@@ -1,3 +1,16 @@
-[{"vo":"_n1"},
- {"quote":"/tmp/claude-0/-home-user-metasports-shorts/bc228739-3662-5759-8934-674d6d03bfcf/scratchpad/p22/src/1973447368289951810.mp4","stt":"/tmp/claude-0/-home-user-metasports-shorts/bc228739-3662-5759-8934-674d6d03bfcf/scratchpad/p22/jw_stt.json","stt_offset":0,"from":6.35,"to":9.55,"text":"I'm honored. I know the number six was retired for the great Bill Russell"},
- {"vo":"_n3"}]
+[
+ {
+  "vo": "_n1"
+ },
+ {
+  "quote": "/tmp/claude-0/-home-user-metasports-shorts/bc228739-3662-5759-8934-674d6d03bfcf/scratchpad/p22/src/1973447368289951810.mp4",
+  "stt": "/tmp/claude-0/-home-user-metasports-shorts/bc228739-3662-5759-8934-674d6d03bfcf/scratchpad/p22/jw_stt.json",
+  "stt_offset": 0,
+  "from": 15.4,
+  "to": 18.2,
+  "text": "my dad was the one that picked the number, so there was no thought going into it."
+ },
+ {
+  "vo": "_n2"
+ }
+]

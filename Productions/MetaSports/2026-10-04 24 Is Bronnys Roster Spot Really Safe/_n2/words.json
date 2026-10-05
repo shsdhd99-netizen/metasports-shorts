@@ -1,62 +1,57 @@
 [
  {
-  "word": "So",
-  "start": 0.0,
-  "end": 0.151
- },
- {
-  "word": "the",
-  "start": 0.209,
-  "end": 0.279
- },
- {
-  "word": "money",
-  "start": 0.313,
-  "end": 0.476
- },
- {
-  "word": "buys",
-  "start": 0.522,
-  "end": 0.697
- },
- {
-  "word": "him",
-  "start": 0.731,
-  "end": 0.801
- },
- {
-  "word": "time.",
-  "start": 0.848,
-  "end": 1.126
- },
- {
   "word": "The",
-  "start": 1.196,
-  "end": 1.312
+  "start": 0.0,
+  "end": 0.114
  },
  {
-  "word": "preseason",
-  "start": 1.37,
-  "end": 1.8
+  "word": "guarantee",
+  "start": 0.155,
+  "end": 0.485
  },
  {
-  "word": "buys",
-  "start": 1.846,
-  "end": 2.02
+  "word": "protects",
+  "start": 0.526,
+  "end": 0.825
  },
  {
-  "word": "him",
-  "start": 2.055,
-  "end": 2.136
+  "word": "his",
+  "start": 0.846,
+  "end": 0.928
  },
  {
-  "word": "the",
-  "start": 2.171,
-  "end": 2.241
+  "word": "money.",
+  "start": 0.98,
+  "end": 1.237
+ },
+ {
+  "word": "That",
+  "start": 1.268,
+  "end": 1.423
+ },
+ {
+  "word": "shot",
+  "start": 1.475,
+  "end": 1.64
+ },
+ {
+  "word": "might",
+  "start": 1.681,
+  "end": 1.825
+ },
+ {
+  "word": "protect",
+  "start": 1.857,
+  "end": 2.125
+ },
+ {
+  "word": "his",
+  "start": 2.166,
+  "end": 2.248
  },
  {
   "word": "spot.",
-  "start": 2.264,
-  "end": 2.694
+  "start": 2.279,
+  "end": 2.64
  }
 ]

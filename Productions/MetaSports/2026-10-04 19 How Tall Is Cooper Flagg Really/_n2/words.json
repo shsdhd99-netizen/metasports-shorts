@@ -1,182 +1,242 @@
 [
  {
-  "word": "That's",
+  "word": "Six-eleven?",
   "start": 0.0,
-  "end": 0.269
+  "end": 0.621
  },
  {
-  "word": "one",
-  "start": 0.325,
-  "end": 0.481
+  "word": "Not",
+  "start": 0.732,
+  "end": 0.859
  },
  {
-  "word": "summer,",
-  "start": 0.526,
-  "end": 0.884
+  "word": "so",
+  "start": 0.905,
+  "end": 0.987
  },
  {
-  "word": "one",
-  "start": 0.94,
-  "end": 1.119
+  "word": "fast.",
+  "start": 1.043,
+  "end": 1.38
  },
  {
-  "word": "inch,",
-  "start": 1.164,
-  "end": 1.377
- },
- {
-  "word": "for",
+  "word": "His",
   "start": 1.399,
-  "end": 1.5
+  "end": 1.527
+ },
+ {
+  "word": "team",
+  "start": 1.573,
+  "end": 1.728
+ },
+ {
+  "word": "physical",
+  "start": 1.773,
+  "end": 2.103
  },
  {
   "word": "the",
-  "start": 1.544,
-  "end": 1.612
+  "start": 2.148,
+  "end": 2.203
  },
  {
-  "word": "reigning",
-  "start": 1.668,
-  "end": 1.903
+  "word": "day",
+  "start": 2.24,
+  "end": 2.322
  },
  {
-  "word": "Rookie",
-  "start": 1.959,
-  "end": 2.194
+  "word": "before,",
+  "start": 2.358,
+  "end": 2.642
  },
  {
-  "word": "of",
-  "start": 2.227,
-  "end": 2.283
+  "word": "reported",
+  "start": 2.688,
+  "end": 2.999
  },
  {
-  "word": "the",
-  "start": 2.316,
-  "end": 2.384
- },
- {
-  "word": "Year,",
-  "start": 2.428,
-  "end": 2.663
- },
- {
-  "word": "who",
-  "start": 2.686,
-  "end": 2.797
- },
- {
-  "word": "scored",
-  "start": 2.843,
+  "word": "by",
+  "start": 3.026,
   "end": 3.1
  },
  {
-  "word": "fifty-one",
-  "start": 3.156,
+  "word": "Marc",
+  "start": 3.145,
+  "end": 3.292
+ },
+ {
+  "word": "Stein,",
+  "start": 3.328,
   "end": 3.593
  },
  {
-  "word": "in",
-  "start": 3.626,
-  "end": 3.671
+  "word": "said",
+  "start": 3.629,
+  "end": 3.804
+ },
+ {
+  "word": "six-ten",
+  "start": 3.849,
+  "end": 4.16
+ },
+ {
+  "word": "without",
+  "start": 4.196,
+  "end": 4.416
+ },
+ {
+  "word": "shoes.",
+  "start": 4.443,
+  "end": 4.754
+ },
+ {
+  "word": "And",
+  "start": 4.772,
+  "end": 4.891
+ },
+ {
+  "word": "the",
+  "start": 4.937,
+  "end": 5.001
+ },
+ {
+  "word": "NBA's",
+  "start": 5.037,
+  "end": 5.339
+ },
+ {
+  "word": "website?",
+  "start": 5.385,
+  "end": 5.769
+ },
+ {
+  "word": "Still",
+  "start": 5.815,
+  "end": 5.997
+ },
+ {
+  "word": "lists",
+  "start": 6.043,
+  "end": 6.19
+ },
+ {
+  "word": "him",
+  "start": 6.217,
+  "end": 6.281
+ },
+ {
+  "word": "at",
+  "start": 6.317,
+  "end": 6.372
+ },
+ {
+  "word": "six-nine.",
+  "start": 6.418,
+  "end": 6.875
+ },
+ {
+  "word": "Then",
+  "start": 6.894,
+  "end": 7.021
+ },
+ {
+  "word": "five",
+  "start": 7.068,
+  "end": 7.231
+ },
+ {
+  "word": "days",
+  "start": 7.259,
+  "end": 7.396
+ },
+ {
+  "word": "later,",
+  "start": 7.442,
+  "end": 7.661
+ },
+ {
+  "word": "he",
+  "start": 7.689,
+  "end": 7.744
+ },
+ {
+  "word": "claimed",
+  "start": 7.79,
+  "end": 7.991
+ },
+ {
+  "word": "another",
+  "start": 8.018,
+  "end": 8.21
+ },
+ {
+  "word": "quarter",
+  "start": 8.246,
+  "end": 8.457
+ },
+ {
+  "word": "inch:",
+  "start": 8.512,
+  "end": 8.732
+ },
+ {
+  "word": "six-ten",
+  "start": 8.768,
+  "end": 9.069
+ },
+ {
+  "word": "and",
+  "start": 9.106,
+  "end": 9.161
  },
  {
   "word": "a",
-  "start": 3.716,
-  "end": 3.738
+  "start": 9.188,
+  "end": 9.216
  },
  {
-  "word": "game",
-  "start": 3.794,
-  "end": 3.973
+  "word": "half,",
+  "start": 9.252,
+  "end": 9.426
  },
  {
-  "word": "as",
-  "start": 4.006,
-  "end": 4.074
+  "word": "with",
+  "start": 9.444,
+  "end": 9.554
  },
  {
-  "word": "a",
-  "start": 4.118,
-  "end": 4.152
+  "word": "shoes.",
+  "start": 9.581,
+  "end": 9.91
  },
  {
-  "word": "teenager.",
-  "start": 4.197,
-  "end": 4.712
+  "word": "So",
+  "start": 9.956,
+  "end": 10.103
  },
  {
-  "word": "Even",
-  "start": 4.756,
-  "end": 4.958
+  "word": "is",
+  "start": 10.148,
+  "end": 10.212
  },
  {
-  "word": "his",
-  "start": 4.98,
-  "end": 5.069
+  "word": "he",
+  "start": 10.249,
+  "end": 10.303
  },
  {
-  "word": "trainer",
-  "start": 5.115,
-  "end": 5.372
+  "word": "six-eleven?",
+  "start": 10.349,
+  "end": 10.843
  },
  {
-  "word": "would",
-  "start": 5.406,
-  "end": 5.528
+  "word": "Flagg's",
+  "start": 10.888,
+  "end": 11.145
  },
  {
-  "word": "not",
-  "start": 5.562,
-  "end": 5.663
- },
- {
-  "word": "confirm",
-  "start": 5.708,
-  "end": 6.021
- },
- {
-  "word": "he'd",
-  "start": 6.077,
-  "end": 6.189
- },
- {
-  "word": "grown.",
-  "start": 6.222,
-  "end": 6.592
- },
- {
-  "word": "But",
-  "start": 6.647,
-  "end": 6.782
- },
- {
-  "word": "then",
-  "start": 6.805,
-  "end": 6.928
- },
- {
-  "word": "a",
-  "start": 6.972,
-  "end": 6.995
- },
- {
-  "word": "reporter",
-  "start": 7.05,
-  "end": 7.409
- },
- {
-  "word": "asked",
-  "start": 7.465,
-  "end": 7.677
- },
- {
-  "word": "about",
-  "start": 7.711,
-  "end": 7.89
- },
- {
-  "word": "six-eleven.",
-  "start": 7.934,
-  "end": 8.64
+  "word": "answer.",
+  "start": 11.181,
+  "end": 11.52
  }
 ]

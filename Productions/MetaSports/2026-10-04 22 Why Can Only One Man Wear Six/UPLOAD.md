@@ -1,22 +1,20 @@
-# #22 Why can only one man wear six (2026-10-04)
+# #22 Why Can Only Two Men Wear Six (2026-10-04, rebuilt 2026-10-05)
 
-**Video:** `READY TO POST - Why Can Only One Man Wear Six.mp4` (23.7 s, 1080x1920, -14 LUFS). Passes `Tools/qa_short.py`. Not uploaded.
+**Video:** `READY TO POST - Why Can Only Two Men Wear Six.mp4` (24.3 s, 1080x1920). Passes `Tools/qa_short.py`. Not uploaded. Evergreen (rule/oddity); no time pressure.
 
 ## Title (pick one)
-1. **Why Can Only One Man Wear Six 😳** (recommended)
-2. What Happens When Jaylin Williams Retires 😳
-3. Did Russell's Retired Six Go Too Far 😳
+1. **Why Can Only Two Men Wear Six 😳** (recommended)
+2. What Happens When The Last Six Retires 😳
+3. Why Did The NBA Retire Six For Everyone 💀
 
 ## Tags
-why can only one man wear six, nba number 6 retired, bill russell number 6 retired, jaylin williams number 6, last nba player to wear 6, jaylin williams thunder, oklahoma city thunder, bill russell, bill russell 11 championships, boston celtics legend, nba retired numbers, retired jersey number nba, nba number 6 league wide, nba jersey numbers, nba history, nba facts, nba trivia, nba rules, nba oddities, nba 2026-27 season, nba shorts, basketball shorts, nba news, nba legends
-
+only two nba players wear number 6, why can only two men wear six, nba number 6 retired, bill russell number 6 retired, jaylin williams number 6, deandre jordan number 6, deandre jordan pelicans, deandre jordan re-signs, last nba player to wear 6, jaylin williams thunder, oklahoma city thunder, new orleans pelicans, bill russell, bill russell 11 championships, nba retired numbers, retired jersey number nba, nba number 6 league wide, nba jersey numbers, nba history, nba facts, nba rules, nba oddities, nba 2026-27 season, nba shorts, basketball shorts, nba news
+only two nba players wear number 6, why can only two men wear six, nba number 6 retired, bill russell number 6 retired, jaylin williams number 6, deandre jordan number 6, deandre jordan pelicans, deandre jordan re-signs, last nba player to wear 6, jaylin williams thunder, new orleans pelicans, bill russell, bill russell 11 championships, nba retired numbers, nba number 6 league wide, nba jersey numbers, nba facts, nba shorts, basketball shorts
 ## Pinned comment
-Was retiring Russell's six for all 30 teams the right honor, or should players still get to wear it? Would you have let Jaylin keep it?
+Who ends number six for good: Jaylin Williams or DeAndre Jordan? And was retiring Russell's six for all 30 teams the right honor?
 
 ## Cover
-cover_A.png "ONLY ONE CAN WEAR 6"
+cover_A.png "ONLY 2 CAN WEAR 6"
 
 ## Facts and sources
 See notes.md.
-## Notes
-Evergreen (Why/How oddity). No time pressure; best the week of Oct 12 (new season numbers talk).
