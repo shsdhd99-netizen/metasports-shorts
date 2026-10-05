@@ -1,31 +1,14 @@
-# #25 Did Bronny Actually Get Better (2026-10-04)
+# #25 Did Bronny actually get better (rebuilt 2026-10-05, Critique Round 2A)
 
-Lane: numbers debate (rookie vs sophomore season), both sides, no mocking.
-Concept: Bronny's 28% to 39% from three: real or small sample?
-Added value: our own side-by-side of verified Basketball-Reference rookie vs sophomore lines (3P%, FG%, minutes, turnovers, starts), argued from both sides; real media-day quote.
-Coordinator note: lead suggested ending on the payoff; this ends on the payoff AS a question (the brief required a fan-fight question). Pure-statement ending is an A/B option.
-
-## Claim -> exact source (Basketball-Reference, https://www.basketball-reference.com/players/j/jamesbr02.html, per-game table, read Oct 4, 2026)
-| Claim | Source row |
-|---|---|
-| 3P% 28% (rookie) | 2024-25 LAL: 3P% .281 |
-| 3P% 39% (sophomore) | 2025-26 LAL: 3P% .386 (38.6%) |
-| FG 31% -> 41% | FG% .313 -> .409 |
-| nearly three points a night | PTS 2.3 -> 2.9 |
-| forty-two games | 2025-26 G = 42 (rookie 27) |
-| started just one of 42 | 2025-26 GS = 1 (2024-25 GS = 1 too; the Short says "of those forty-two games", true) |
-| under nine minutes | 2025-26 MP 8.9 (rookie 6.7) |
-| turnovers ticked up | TOV 0.5 -> 0.6 per game |
-| contract fully guaranteed | Silver Screen and Roll, Jun 30 2026, https://www.silverscreenandroll.com/lakers-free-agency-rumors-news/120699/lakers-bronny-james-nba-free-agency-contract-guarantee : "the team guaranteed Bronny's contract for next season, set at $2.3 million" |
-| Quote "trying to prove myself as Bronny instead of LeBron" | Media day Sept 2026, video via https://x.com/LegionHoops/status/2104753439901417494 (h/t @LALPerformance https://x.com/LALPerformance/status/2104668367701324260); transcript by ElevenLabs STT |
-| Quote "I'm ready to get out there and play" | same clip, 0:51 |
-
-## Not used (unverified/conflicting)
-G League scoring: sources conflict (15.3 / 15.6 / 13.8 ppg at different dates). 16-players-for-15-spots: only a search snippet, not read. LeBron-to-76ers angle: not used.
-
-## Footage (X posts via Tools/x_clip.py)
-NBA G League 1883029185213649378 (31-pt game, rookie season), 1888100804428710169 (28-pt game), 1947715627768328699 (Dunk Week), 1893475714130718851 (Q1 buzzer), Khobi Price 2104665697406341521 (media day), LegionHoops 2104753439901417494 (quote). Identity: #9 South Bay / Lakers media day, checked in storyboard. Frame risks: the dunk shots (c09) and some G League wide shots rely on the compilation context (Bronny highlight posts), jersey number not always visible; the G League clips are from his rookie season, not this year.
-
-## Warnings
-- Hook-gate warn is a regex miss (numbers spelled out). Avg shot 1.2 s (fast).
-- Hook headline avoids "%" (drawtext breaks on it).
+Lane: numbers debate with a verdict. Concept: the whole 28% to 39% jump is six made threes.
+## Claims -> B-Ref (read Oct 5): https://www.basketball-reference.com/players/j/jamesbr02.html , https://www.basketball-reference.com/players/j/jamesle01.html
+- Bronny 3P 2024-25: 9/32 .281; 2025-26: 22/57 .386. 57 x 9/32 = 16.0 expected makes vs 22 actual = six more.
+- LeBron 2025-26: 77/243 .317 ("thirty-two"). Bronny .386 > .317.
+- TS% .424 -> .517 (advanced table). Minutes 6.7 -> 8.9 (375 min total).
+- Quote "trying to prove myself as Bronny instead of LeBron." media day, LegionHoops X 2104753439901417494, 41.8-43.75 s.
+## Verdict line
+"A little, maybe. But six made threes prove almost nothing yet." (one-sided Fisher p about 0.22 per the critic; we did not recompute.)
+## Footage (all Lakers NBA, 2025-26) via x_clip.py
+MrBuckBuck 2028448226634850813 (Kings game), 2037734961701064732 (Nets, Mar 2026), 2047841159557321145 (playoff vs Rockets); NBA 2048043120013480115 (Rockets playoff); media-day quote from LegionHoops. No G League footage. Card = our own HTML table of the B-Ref numbers, red boxes.
+## Not verified
+Jersey numbers are visible (#9, #23) in most clips, but the exact play under "Six threes" (N6, Nets game) was not checked frame by frame; some clips are reused. Dropped: guarantee line, "ready to play" quote, per-game turnovers/points (minutes artifacts).
