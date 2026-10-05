@@ -49,3 +49,9 @@ voice at 0.0-0.4 s, non-filler first word, 3+ shots and real action in first 3 s
 
 ## Open tests (waiting on the user's analytics in 1-3 days)
 question vs number hook; hook headline vs none; music vs none; ALL CAPS vs Clank captions; rule vs contract vs funny lane. Read "Viewed vs swiped away" at 24 h: 70%+ good, <60% rewrite the first 2 s.
+
+## Oct 5, 2026 - Critique Round 2 (14 queued Shorts)
+- 4 of 14 hooks were false or stale when checked against a primary source (#17 flop technical exists since 2023-24; #22 two players wear six; #15 date order; #16 unrevealed jersey). Rule: before the hook, write 'what is actually new' and the dated source in notes.md. (SUPPORTED: 4 of 14 found by two independent critics.)
+- Use the quote burst that IS the payoff; never orphan or narrate a quote (found in #15, #17, #24, #16).
+- Pay off the setup, not a prediction; debate question goes in the pinned comment. First result after rebuild: #22 (payoff ending, corrected 'two') ~29K views in ~1 day, best of the last 7 (HYPOTHESIS: views only, n=1).
+- Free stats via yt-dlp work in the cloud; vidIQ free plan is credit-limited.
