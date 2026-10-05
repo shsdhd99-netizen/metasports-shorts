@@ -3,23 +3,23 @@
   "i": 0,
   "kind": "vo",
   "start": 0.0,
-  "end": 19.45,
+  "end": 19.686,
   "src": "_n1",
   "src_from": null
  },
  {
   "i": 1,
   "kind": "quote",
-  "start": 19.57,
-  "end": 23.59,
+  "start": 19.806,
+  "end": 23.826,
   "src": "src/guz.mp4",
   "src_from": 31.28
  },
  {
   "i": 2,
   "kind": "quote",
-  "start": 23.71,
-  "end": 24.72,
+  "start": 23.946,
+  "end": 24.956,
   "src": "src/guz.mp4",
   "src_from": 36.14
  }

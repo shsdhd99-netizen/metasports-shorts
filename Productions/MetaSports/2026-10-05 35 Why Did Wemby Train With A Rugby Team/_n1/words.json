@@ -2,406 +2,411 @@
  {
   "word": "Wembanyama",
   "start": 0.0,
-  "end": 0.91
+  "end": 0.895
  },
  {
   "word": "spent",
-  "start": 0.965,
-  "end": 1.198
+  "start": 0.95,
+  "end": 1.194
  },
  {
   "word": "four",
-  "start": 1.254,
-  "end": 1.454
+  "start": 1.249,
+  "end": 1.449
  },
  {
   "word": "days",
-  "start": 1.509,
-  "end": 1.709
+  "start": 1.504,
+  "end": 1.681
  },
  {
   "word": "with",
-  "start": 1.731,
-  "end": 1.842
+  "start": 1.714,
+  "end": 1.813
  },
  {
   "word": "a",
-  "start": 1.875,
-  "end": 1.897
+  "start": 1.847,
+  "end": 1.88
  },
  {
   "word": "pro",
-  "start": 1.942,
-  "end": 2.097
+  "start": 1.913,
+  "end": 2.068
  },
  {
   "word": "rugby",
-  "start": 2.142,
-  "end": 2.375
+  "start": 2.123,
+  "end": 2.355
  },
  {
-  "word": "team.",
-  "start": 2.419,
-  "end": 2.641
+  "word": "team,",
+  "start": 2.388,
+  "end": 2.598
  },
  {
-  "word": "Only",
-  "start": 2.686,
-  "end": 2.885
+  "word": "and",
+  "start": 2.621,
+  "end": 2.731
+ },
+ {
+  "word": "only",
+  "start": 2.787,
+  "end": 2.974
  },
  {
   "word": "now",
-  "start": 2.941,
-  "end": 3.074
+  "start": 3.029,
+  "end": 3.173
  },
  {
   "word": "can",
-  "start": 3.129,
-  "end": 3.218
+  "start": 3.228,
+  "end": 3.339
  },
  {
   "word": "you",
-  "start": 3.262,
-  "end": 3.329
+  "start": 3.384,
+  "end": 3.461
  },
  {
   "word": "see",
-  "start": 3.373,
-  "end": 3.517
+  "start": 3.516,
+  "end": 3.66
  },
  {
   "word": "it.",
-  "start": 3.55,
-  "end": 3.684
+  "start": 3.704,
+  "end": 3.792
  },
  {
   "word": "Provence",
-  "start": 3.717,
-  "end": 4.172
+  "start": 3.826,
+  "end": 4.18
  },
  {
   "word": "Rugby,",
-  "start": 4.205,
-  "end": 4.538
+  "start": 4.202,
+  "end": 4.545
  },
  {
   "word": "a",
-  "start": 4.561,
-  "end": 4.594
+  "start": 4.566,
+  "end": 4.61
  },
  {
   "word": "French",
-  "start": 4.66,
-  "end": 4.905
+  "start": 4.71,
+  "end": 4.965
  },
  {
   "word": "second-division",
-  "start": 4.96,
-  "end": 5.536
+  "start": 5.008,
+  "end": 5.54
  },
  {
   "word": "club,",
-  "start": 5.57,
-  "end": 5.77
+  "start": 5.584,
+  "end": 5.804
  },
  {
   "word": "posted",
-  "start": 5.792,
-  "end": 6.07
- },
- {
-  "word": "the",
-  "start": 6.092,
+  "start": 5.838,
   "end": 6.159
  },
  {
+  "word": "the",
+  "start": 6.181,
+  "end": 6.247
+ },
+ {
   "word": "footage",
-  "start": 6.191,
-  "end": 6.48
+  "start": 6.28,
+  "end": 6.545
  },
  {
   "word": "this",
-  "start": 6.525,
-  "end": 6.657
+  "start": 6.579,
+  "end": 6.701
  },
  {
   "word": "weekend.",
-  "start": 6.713,
-  "end": 7.134
+  "start": 6.744,
+  "end": 7.121
  },
  {
   "word": "Wemby,",
-  "start": 7.179,
-  "end": 7.556
+  "start": 7.143,
+  "end": 7.485
  },
  {
   "word": "in",
-  "start": 7.579,
-  "end": 7.678
+  "start": 7.519,
+  "end": 7.607
  },
  {
   "word": "cleats,",
-  "start": 7.734,
-  "end": 8.044
+  "start": 7.662,
+  "end": 7.994
  },
  {
   "word": "next",
-  "start": 8.089,
-  "end": 8.277
+  "start": 8.049,
+  "end": 8.237
  },
  {
   "word": "to",
-  "start": 8.299,
-  "end": 8.344
+  "start": 8.26,
+  "end": 8.315
  },
  {
   "word": "Harrison",
-  "start": 8.4,
-  "end": 8.71
+  "start": 8.37,
+  "end": 8.68
  },
  {
   "word": "Barnes.",
-  "start": 8.754,
-  "end": 9.065
+  "start": 8.723,
+  "end": 9.056
  },
  {
   "word": "He",
-  "start": 9.098,
-  "end": 9.187
+  "start": 9.078,
+  "end": 9.166
  },
  {
   "word": "admits",
-  "start": 9.221,
-  "end": 9.464
+  "start": 9.21,
+  "end": 9.509
  },
  {
   "word": "he",
-  "start": 9.498,
-  "end": 9.543
+  "start": 9.553,
+  "end": 9.597
  },
  {
   "word": "has",
-  "start": 9.575,
-  "end": 9.664
+  "start": 9.63,
+  "end": 9.719
  },
  {
   "word": "never",
-  "start": 9.72,
-  "end": 9.897
+  "start": 9.774,
+  "end": 9.951
  },
  {
   "word": "tackled",
-  "start": 9.941,
-  "end": 10.241
+  "start": 9.995,
+  "end": 10.304
  },
  {
   "word": "in",
-  "start": 10.285,
-  "end": 10.341
+  "start": 10.338,
+  "end": 10.381
  },
  {
   "word": "his",
-  "start": 10.386,
-  "end": 10.475
+  "start": 10.415,
+  "end": 10.493
  },
  {
   "word": "life.",
-  "start": 10.53,
-  "end": 10.74
+  "start": 10.548,
+  "end": 10.824
  },
  {
   "word": "They",
-  "start": 10.763,
-  "end": 10.885
+  "start": 10.879,
+  "end": 11.023
  },
  {
   "word": "hand",
-  "start": 10.929,
-  "end": 11.051
+  "start": 11.079,
+  "end": 11.2
  },
  {
   "word": "him",
-  "start": 11.084,
-  "end": 11.163
+  "start": 11.233,
+  "end": 11.299
  },
  {
   "word": "a",
-  "start": 11.195,
-  "end": 11.218
+  "start": 11.333,
+  "end": 11.355
  },
  {
   "word": "tackle",
-  "start": 11.251,
-  "end": 11.529
+  "start": 11.399,
+  "end": 11.664
  },
  {
   "word": "shield.",
-  "start": 11.551,
-  "end": 11.794
+  "start": 11.686,
+  "end": 11.985
  },
  {
   "word": "Then",
-  "start": 11.828,
-  "end": 11.972
+  "start": 12.029,
+  "end": 12.173
  },
  {
   "word": "the",
-  "start": 12.017,
-  "end": 12.083
+  "start": 12.218,
+  "end": 12.283
  },
  {
   "word": "forwards",
-  "start": 12.138,
-  "end": 12.46
+  "start": 12.338,
+  "end": 12.681
  },
  {
   "word": "lift",
-  "start": 12.516,
-  "end": 12.682
+  "start": 12.726,
+  "end": 12.88
  },
  {
   "word": "him",
-  "start": 12.716,
-  "end": 12.793
+  "start": 12.903,
+  "end": 12.969
  },
  {
   "word": "in",
-  "start": 12.827,
-  "end": 12.882
+  "start": 13.002,
+  "end": 13.046
  },
  {
   "word": "a",
-  "start": 12.937,
-  "end": 12.959
+  "start": 13.091,
+  "end": 13.113
  },
  {
   "word": "lineout.",
-  "start": 13.004,
-  "end": 13.392
+  "start": 13.168,
+  "end": 13.588
  },
  {
   "word": "The",
-  "start": 13.414,
-  "end": 13.503
+  "start": 13.621,
+  "end": 13.71
  },
  {
   "word": "coach",
-  "start": 13.548,
-  "end": 13.758
+  "start": 13.765,
+  "end": 13.964
  },
  {
   "word": "says",
-  "start": 13.792,
-  "end": 13.98
+  "start": 13.997,
+  "end": 14.175
  },
  {
   "word": "a",
-  "start": 14.036,
-  "end": 14.08
+  "start": 14.218,
+  "end": 14.252
  },
  {
   "word": "man",
-  "start": 14.158,
-  "end": 14.324
+  "start": 14.307,
+  "end": 14.429
  },
  {
   "word": "that",
-  "start": 14.369,
-  "end": 14.502
+  "start": 14.462,
+  "end": 14.583
  },
  {
   "word": "size",
-  "start": 14.557,
-  "end": 14.79
+  "start": 14.638,
+  "end": 14.893
  },
  {
   "word": "makes",
-  "start": 14.834,
-  "end": 14.979
+  "start": 14.926,
+  "end": 15.092
  },
  {
   "word": "for",
-  "start": 15.002,
-  "end": 15.101
+  "start": 15.114,
+  "end": 15.214
  },
  {
   "word": "some",
-  "start": 15.146,
-  "end": 15.289
+  "start": 15.257,
+  "end": 15.413
  },
  {
   "word": "very",
-  "start": 15.345,
-  "end": 15.589
+  "start": 15.456,
+  "end": 15.667
  },
  {
   "word": "strange",
-  "start": 15.645,
-  "end": 15.955
+  "start": 15.722,
+  "end": 15.976
  },
  {
   "word": "situations.",
-  "start": 15.977,
-  "end": 16.622
+  "start": 15.998,
+  "end": 16.684
  },
  {
   "word": "Last",
-  "start": 16.666,
-  "end": 16.843
+  "start": 16.739,
+  "end": 16.95
  },
  {
   "word": "summer",
-  "start": 16.877,
-  "end": 17.065
+  "start": 16.993,
+  "end": 17.248
  },
  {
   "word": "it",
-  "start": 17.099,
-  "end": 17.154
+  "start": 17.314,
+  "end": 17.392
  },
  {
   "word": "was",
-  "start": 17.187,
-  "end": 17.265
+  "start": 17.425,
+  "end": 17.513
  },
  {
   "word": "kung",
-  "start": 17.309,
-  "end": 17.465
+  "start": 17.569,
+  "end": 17.734
  },
  {
   "word": "fu",
-  "start": 17.52,
-  "end": 17.653
+  "start": 17.79,
+  "end": 17.933
  },
  {
   "word": "at",
-  "start": 17.698,
-  "end": 17.764
+  "start": 17.977,
+  "end": 18.044
  },
  {
   "word": "Shaolin",
-  "start": 17.809,
-  "end": 18.141
+  "start": 18.099,
+  "end": 18.42
  },
  {
   "word": "Temple.",
-  "start": 18.197,
-  "end": 18.53
+  "start": 18.475,
+  "end": 18.851
  },
  {
   "word": "So",
-  "start": 18.563,
-  "end": 18.685
+  "start": 18.907,
+  "end": 19.017
  },
  {
   "word": "why",
-  "start": 18.74,
-  "end": 18.896
+  "start": 19.072,
+  "end": 19.194
  },
  {
   "word": "rugby?",
-  "start": 18.952,
-  "end": 19.44
+  "start": 19.25,
+  "end": 19.68
  }
 ]

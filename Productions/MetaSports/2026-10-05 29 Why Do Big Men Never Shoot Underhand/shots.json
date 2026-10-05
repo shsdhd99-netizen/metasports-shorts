@@ -7,6 +7,12 @@
   "zoom": 0.08
  },
  {
+  "clip": "r4.mp4",
+  "start": 0.8,
+  "anchor": "Robinson made",
+  "kind": "action"
+ },
+ {
   "clip": "c_r29.mp4",
   "start": 1.37,
   "anchor": "twenty-nine",

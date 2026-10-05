@@ -12,43 +12,43 @@ Style: Cap,Montserrat Black,86,&H00FFFFFF,&H00FFFFFF,&H00000000,&H99000000,0,0,0
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:00.00,0:00:01.25,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WEMBANYAMA SPENT
-Dialogue: 0,0:00:01.25,0:00:01.73,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FOUR DAYS
-Dialogue: 0,0:00:01.73,0:00:02.14,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WITH A PRO
-Dialogue: 0,0:00:02.14,0:00:02.69,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}RUGBY TEAM.
-Dialogue: 0,0:00:02.69,0:00:03.13,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ONLY NOW
-Dialogue: 0,0:00:03.13,0:00:03.37,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}CAN YOU
-Dialogue: 0,0:00:03.37,0:00:03.72,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SEE IT.
-Dialogue: 0,0:00:03.72,0:00:04.56,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}PROVENCE RUGBY,
-Dialogue: 0,0:00:04.56,0:00:04.96,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}A FRENCH
-Dialogue: 0,0:00:04.96,0:00:05.79,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SECOND-DIVISION CLUB,
-Dialogue: 0,0:00:05.79,0:00:06.53,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}POSTED THE FOOTAGE
-Dialogue: 0,0:00:06.53,0:00:07.18,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THIS WEEKEND.
-Dialogue: 0,0:00:07.18,0:00:07.58,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WEMBY,
-Dialogue: 0,0:00:07.58,0:00:08.09,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN CLEATS,
-Dialogue: 0,0:00:08.09,0:00:08.30,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NEXT
-Dialogue: 0,0:00:08.30,0:00:09.10,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TO HARRISON BARNES.
-Dialogue: 0,0:00:09.10,0:00:09.57,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HE ADMITS HE
-Dialogue: 0,0:00:09.57,0:00:10.29,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HAS NEVER TACKLED
-Dialogue: 0,0:00:10.29,0:00:10.76,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN HIS LIFE.
-Dialogue: 0,0:00:10.76,0:00:11.20,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THEY HAND HIM
-Dialogue: 0,0:00:11.20,0:00:11.83,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}A TACKLE SHIELD.
-Dialogue: 0,0:00:11.83,0:00:12.52,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THEN THE FORWARDS
-Dialogue: 0,0:00:12.52,0:00:12.83,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}LIFT HIM
-Dialogue: 0,0:00:12.83,0:00:13.41,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN A LINEOUT.
-Dialogue: 0,0:00:13.41,0:00:13.79,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE COACH
-Dialogue: 0,0:00:13.79,0:00:14.37,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SAYS A MAN
-Dialogue: 0,0:00:14.37,0:00:15.00,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THAT SIZE MAKES
-Dialogue: 0,0:00:15.00,0:00:15.64,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FOR SOME VERY
-Dialogue: 0,0:00:15.64,0:00:16.67,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}STRANGE SITUATIONS.
-Dialogue: 0,0:00:16.67,0:00:17.19,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}LAST SUMMER IT
-Dialogue: 0,0:00:17.19,0:00:17.70,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WAS KUNG FU
-Dialogue: 0,0:00:17.70,0:00:18.56,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AT SHAOLIN TEMPLE.
-Dialogue: 0,0:00:18.56,0:00:19.59,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SO WHY RUGBY?
-Dialogue: 0,0:00:19.59,0:00:19.99,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE TRAINING
-Dialogue: 0,0:00:19.99,0:00:20.35,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN ITSELF
-Dialogue: 0,0:00:20.35,0:00:20.89,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WAS REALLY HARD.
-Dialogue: 0,0:00:20.89,0:00:21.19,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}I THINK IT
-Dialogue: 0,0:00:21.19,0:00:21.89,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WAS REALLY GOOD
-Dialogue: 0,0:00:21.89,0:00:23.15,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FOR THE VESTIBULAR
-Dialogue: 0,0:00:23.15,0:00:23.93,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SYSTEM NEW
-Dialogue: 0,0:00:23.93,0:00:24.98,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}MOVEMENT PATTERNS
+Dialogue: 0,0:00:01.25,0:00:01.71,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FOUR DAYS
+Dialogue: 0,0:00:01.71,0:00:02.12,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WITH A PRO
+Dialogue: 0,0:00:02.12,0:00:02.62,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}RUGBY TEAM,
+Dialogue: 0,0:00:02.62,0:00:03.03,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND ONLY
+Dialogue: 0,0:00:03.03,0:00:03.52,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NOW CAN YOU
+Dialogue: 0,0:00:03.52,0:00:03.83,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SEE IT.
+Dialogue: 0,0:00:03.83,0:00:04.57,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}PROVENCE RUGBY,
+Dialogue: 0,0:00:04.57,0:00:05.01,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}A FRENCH
+Dialogue: 0,0:00:05.01,0:00:05.84,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SECOND-DIVISION CLUB,
+Dialogue: 0,0:00:05.84,0:00:06.58,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}POSTED THE FOOTAGE
+Dialogue: 0,0:00:06.58,0:00:07.14,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THIS WEEKEND.
+Dialogue: 0,0:00:07.14,0:00:07.52,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WEMBY,
+Dialogue: 0,0:00:07.52,0:00:08.05,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN CLEATS,
+Dialogue: 0,0:00:08.05,0:00:08.26,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NEXT
+Dialogue: 0,0:00:08.26,0:00:09.08,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TO HARRISON BARNES.
+Dialogue: 0,0:00:09.08,0:00:09.63,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HE ADMITS HE
+Dialogue: 0,0:00:09.63,0:00:10.34,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HAS NEVER TACKLED
+Dialogue: 0,0:00:10.34,0:00:10.88,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN HIS LIFE.
+Dialogue: 0,0:00:10.88,0:00:11.33,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THEY HAND HIM
+Dialogue: 0,0:00:11.33,0:00:12.03,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}A TACKLE SHIELD.
+Dialogue: 0,0:00:12.03,0:00:12.73,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THEN THE FORWARDS
+Dialogue: 0,0:00:12.73,0:00:13.00,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}LIFT HIM
+Dialogue: 0,0:00:13.00,0:00:13.62,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN A LINEOUT.
+Dialogue: 0,0:00:13.62,0:00:14.00,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE COACH
+Dialogue: 0,0:00:14.00,0:00:14.46,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SAYS A MAN
+Dialogue: 0,0:00:14.46,0:00:15.11,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THAT SIZE MAKES
+Dialogue: 0,0:00:15.11,0:00:15.72,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FOR SOME VERY
+Dialogue: 0,0:00:15.72,0:00:16.74,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}STRANGE SITUATIONS.
+Dialogue: 0,0:00:16.74,0:00:17.43,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}LAST SUMMER IT
+Dialogue: 0,0:00:17.43,0:00:17.98,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WAS KUNG FU
+Dialogue: 0,0:00:17.98,0:00:18.91,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AT SHAOLIN TEMPLE.
+Dialogue: 0,0:00:18.91,0:00:19.83,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SO WHY RUGBY?
+Dialogue: 0,0:00:19.83,0:00:20.23,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE TRAINING
+Dialogue: 0,0:00:20.23,0:00:20.59,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN ITSELF
+Dialogue: 0,0:00:20.59,0:00:21.13,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WAS REALLY HARD.
+Dialogue: 0,0:00:21.13,0:00:21.43,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}I THINK IT
+Dialogue: 0,0:00:21.43,0:00:22.13,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WAS REALLY GOOD
+Dialogue: 0,0:00:22.13,0:00:23.39,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FOR THE VESTIBULAR
+Dialogue: 0,0:00:23.39,0:00:24.17,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SYSTEM NEW
+Dialogue: 0,0:00:24.17,0:00:25.22,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}MOVEMENT PATTERNS
