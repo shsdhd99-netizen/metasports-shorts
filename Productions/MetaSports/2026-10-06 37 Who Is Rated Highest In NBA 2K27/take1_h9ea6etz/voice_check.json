@@ -1,0 +1,100 @@
+{
+ "verdict": "REDO",
+ "wpm": 242,
+ "issues": [
+  " 2.52s  script \"shai gilgeous\" but heard \"shygill juice\"",
+  " 5.06s  script \"jokic\" but heard \"yokej\"",
+  "17.64s  script \"ninety 4 a\" but heard \"94\"",
+  "19.00s  script \"sixteenth at ninety 1\" but heard \"16th 91\"",
+  "23.02s  script \"maxey\" but heard \"maxi\""
+ ],
+ "notes": [
+  " 3.98s  \"wembanyama\" heard as \"wembonyama\" (close; check the name)",
+  " 5.80s  \"ninety 7 wembanyama\" heard as \"97 wembonyama\" (close; check the name)",
+  " 7.76s  \"luka\" heard as \"luca\" (close; check the name)",
+  " 9.44s  \"antetokounmpo sit\" heard as \"antitokun post at\" (close; check the name)",
+  " 2.50s  dragging sentence (139 wpm): Shai Gilgeous-Alexander, Victor Wembanyama and Nikola Jokic,",
+  "18.77s  rushed sentence (358 wpm): Now he's sixteenth at ninety-one, down three points in one y"
+ ],
+ "heard": "Three players tie for the top rating in NBA 2K27, Shygill Juice, Alexander, Victor Wembonyama, and Nikola Yokej, all 97. Wembonyama is also on the cover. Luca Doncic, Jalen Brunson, and Giannis Antitokun post at one point behind at 96. Anthony Edwards is 95, Cade Cunningham 94, then six players tied at 93, including Stephen Curry and Kevin Durant. But look where LeBron landed. Last year he was 94, top 10 player. Now he's 16th 91, down three points in one year. 15 players are rated above LeBron and one is his own teammate, Tyrese Maxi.",
+ "mismatches": [
+  {
+   "at": 2.52,
+   "script": "shai gilgeous",
+   "heard": "shygill juice",
+   "similar": 0.5
+  },
+  {
+   "at": 3.98,
+   "script": "wembanyama",
+   "heard": "wembonyama",
+   "similar": 0.9
+  },
+  {
+   "at": 5.06,
+   "script": "jokic",
+   "heard": "yokej",
+   "similar": 0.55
+  },
+  {
+   "at": 5.8,
+   "script": "ninety 7 wembanyama",
+   "heard": "97 wembonyama",
+   "similar": 0.72
+  },
+  {
+   "at": 7.76,
+   "script": "luka",
+   "heard": "luca",
+   "similar": 0.75
+  },
+  {
+   "at": 9.44,
+   "script": "antetokounmpo sit",
+   "heard": "antitokun post at",
+   "similar": 0.77
+  },
+  {
+   "at": 10.84,
+   "script": "ninety 6",
+   "heard": "96",
+   "similar": 1.0
+  },
+  {
+   "at": 12.0,
+   "script": "ninety 5",
+   "heard": "95",
+   "similar": 1.0
+  },
+  {
+   "at": 12.96,
+   "script": "ninety 4",
+   "heard": "94",
+   "similar": 1.0
+  },
+  {
+   "at": 14.3,
+   "script": "ninety 3",
+   "heard": "93",
+   "similar": 1.0
+  },
+  {
+   "at": 17.64,
+   "script": "ninety 4 a",
+   "heard": "94",
+   "similar": 0.2
+  },
+  {
+   "at": 19.0,
+   "script": "sixteenth at ninety 1",
+   "heard": "16th 91",
+   "similar": 0.25
+  },
+  {
+   "at": 23.02,
+   "script": "maxey",
+   "heard": "maxi",
+   "similar": 0.67
+  }
+ ]
+}

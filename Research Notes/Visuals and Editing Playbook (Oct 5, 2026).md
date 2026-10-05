@@ -52,3 +52,13 @@ A/B plan (HYPOTHESIS, n small):
 4. Record each pair in Outcome Log.md (arm, views, stayed %, APV).
 5. Call it after 3 pairs: adopt only if the line arm wins on stayed-to-watch in 2 of 3 pairs by 3+ points.
 6. If it ties or loses, drop it; the line costs nothing but adds no proven value yet.
+
+## Style variants on #21 Jokic/Westbrook (Oct 5, copies; frames: `Visuals Playbook Assets/styles_A-house_B-clank_C-punch.png`, `coldopen_D_and_flash_E.png`)
+Files: `.../scratchpad/visuals/styles/{A_house,B_clank,C_punch}.mp4` (12.9-15.7 MB). All five renders measure -14.4 LUFS integrated (loudness identical, so none of these styles changes audio level; PROVEN).
+Setup: five copies (A..E) of the #21 folder minus big dirs; B/C/D/E differ only in shots.json / sfx.json / fx.json.
+- **A house**: `python visual_fx.py render --folder A --out-name out.mp4` (21 shots, avg 1.06 s, schedule card at the end, house captions).
+- **B clank**: `... --folder B --caption-style clank` with shots.json merged to 10 shots (avg 2.2 s), card removed. Result: captions small white sentence-case, readable but weak on bright footage (frame 3); the Oscar/Westbrook hook shot is held 2.5 s. 
+- **C punch**: `... --folder C --punch 0.07 --kenburns 0.06` with fx.json statcard `{"at":4.99,"big":"209 vs 198","of":"Westbrook vs Jokic","label":"Career triple-doubles"}` replacing 3 shots (1.9 s) and sfx.json: boom at 0, `thud` at 8.3 (the "But" turn), `boom_cinematic` at 21.0 (payoff "Four games to spare"). Stat card readable at a glance; shows both numbers while only 209 has been said (198 comes 1.3 s later) which is a mild spoiler, split into two cards if it bothers you.
+- **D cold open** (`fx.json {"coldopen":{"clip":"b11.mp4","in":1.0,"len":0.6}}`): mechanically works, no audio shift. On frames it HURTS here: the first words "Only two players..." play over an unrelated court shot and the Oscar/Westbrook hook image arrives 0.6 s late, breaking picture-voice match (Hasson, SUPPORTED mechanism). Only worth testing if the payoff image is also the hook subject. Tier HYPOTHESIS (not measured on viewers).
+- **E flash cuts** (`fx.json {"flashes":"all"}`): 2 white frames at 20 cuts = 1.33 s (6% of runtime) of washed-out picture, faces go grey (frame E1). Hurts on frames at this cut rate; if used at all, flash only the turn and payoff (`"flashes":[8.3,21.0]`). Tier HYPOTHESIS.
+Ranking (my judgement, not data): C > A > B for this story. C adds a visible number plus an audible turn/payoff at no cost; A is the safe baseline; B is a style A/B only (fewer cuts cut against the channel's measured fast cut lane, CoachClank captions untested here). Retention effect of all three: HYPOTHESIS until Studio numbers exist.
