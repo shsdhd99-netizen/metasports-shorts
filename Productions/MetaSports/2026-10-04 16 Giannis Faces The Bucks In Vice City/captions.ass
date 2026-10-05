@@ -11,40 +11,48 @@ Style: Cap,Montserrat Black,86,&H00FFFFFF,&H00FFFFFF,&H00000000,&H99000000,0,0,0
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:00.48,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}GIANNIS IS
-Dialogue: 0,0:00:00.48,0:00:00.92,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ABOUT TO FACE
-Dialogue: 0,0:00:00.92,0:00:01.24,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE BUCKS
-Dialogue: 0,0:00:01.24,0:00:01.67,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FOR THE FIRST
-Dialogue: 0,0:00:01.67,0:00:01.96,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TIME.
-Dialogue: 0,0:00:01.96,0:00:02.46,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND MIAMI
-Dialogue: 0,0:00:02.46,0:00:02.99,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WILL BE WEARING
-Dialogue: 0,0:00:02.99,0:00:03.78,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}A GTA 6
-Dialogue: 0,0:00:03.78,0:00:04.25,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}UNIFORM.
-Dialogue: 0,0:00:04.25,0:00:05.10,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NOVEMBER EIGHTEENTH,
-Dialogue: 0,0:00:05.10,0:00:05.85,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}VICE CITY NIGHT,
-Dialogue: 0,0:00:05.85,0:00:06.86,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}LIVE ON ESPN.
-Dialogue: 0,0:00:06.86,0:00:07.42,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THIRTEEN YEARS
-Dialogue: 0,0:00:07.42,0:00:07.98,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN MILWAUKEE.
-Dialogue: 0,0:00:07.98,0:00:08.65,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AFTER THE TRADE,
-Dialogue: 0,0:00:08.65,0:00:09.03,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HE WATCHED
-Dialogue: 0,0:00:09.03,0:00:09.33,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}A VIDEO
-Dialogue: 0,0:00:09.33,0:00:09.98,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FROM BUCKS FANS,
-Dialogue: 0,0:00:09.98,0:00:11.02,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND SAID THIS.
-Dialogue: 0,0:00:11.02,0:00:11.24,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}MILWAUKEE
-Dialogue: 0,0:00:11.24,0:00:11.69,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WILL ALWAYS
-Dialogue: 0,0:00:11.69,0:00:12.56,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BE MY HOME.
-Dialogue: 0,0:00:12.87,0:00:13.83,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}DON'T CRY
-Dialogue: 0,0:00:13.83,0:00:15.35,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BECAUSE IT'S OVER.
-Dialogue: 0,0:00:15.91,0:00:16.41,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}LAUGH,
-Dialogue: 0,0:00:16.41,0:00:17.05,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SMILE BECAUSE
-Dialogue: 0,0:00:17.05,0:00:17.92,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IT HAPPENED.
-Dialogue: 0,0:00:17.92,0:00:18.26,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NOW HE
-Dialogue: 0,0:00:18.26,0:00:18.70,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}PLAYS THEM
-Dialogue: 0,0:00:18.70,0:00:19.21,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ON A NEON
-Dialogue: 0,0:00:19.21,0:00:19.65,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}COURT IN A
-Dialogue: 0,0:00:19.65,0:00:20.52,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}VICE CITY JERSEY.
-Dialogue: 0,0:00:20.52,0:00:20.80,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SO HOW
-Dialogue: 0,0:00:20.80,0:00:21.29,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}MANY POINTS
-Dialogue: 0,0:00:21.29,0:00:21.76,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}DOES GIANNIS
-Dialogue: 0,0:00:21.76,0:00:22.06,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}PUT ON
-Dialogue: 0,0:00:22.06,0:00:22.83,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HIS OLD TEAM?
+Dialogue: 0,0:00:00.00,0:00:00.50,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THIRTEEN YEARS
+Dialogue: 0,0:00:00.50,0:00:00.99,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN MILWAUKEE.
+Dialogue: 0,0:00:00.99,0:00:01.40,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ZERO GAMES
+Dialogue: 0,0:00:01.40,0:00:01.93,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AGAINST THE BUCKS.
+Dialogue: 0,0:00:01.93,0:00:02.46,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}UNTIL NOVEMBER
+Dialogue: 0,0:00:02.46,0:00:03.01,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}EIGHTEENTH.
+Dialogue: 0,0:00:03.01,0:00:03.45,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND HE WON'T
+Dialogue: 0,0:00:03.45,0:00:03.84,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BE PLAYING
+Dialogue: 0,0:00:03.84,0:00:04.45,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FOR MIAMI.
+Dialogue: 0,0:00:04.45,0:00:04.80,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FOR ONE
+Dialogue: 0,0:00:04.80,0:00:05.28,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NIGHT ONLY,
+Dialogue: 0,0:00:05.28,0:00:05.64,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE HEAT
+Dialogue: 0,0:00:05.64,0:00:06.25,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TRADE MIAMI
+Dialogue: 0,0:00:06.25,0:00:06.98,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FOR VICE CITY:
+Dialogue: 0,0:00:06.98,0:00:07.56,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}A NEW COURT,
+Dialogue: 0,0:00:07.56,0:00:08.31,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}A NEW UNIFORM,
+Dialogue: 0,0:00:08.31,0:00:09.21,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}LIVE ON ESPN,
+Dialogue: 0,0:00:09.21,0:00:09.51,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE NIGHT
+Dialogue: 0,0:00:09.51,0:00:10.07,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BEFORE GRAND
+Dialogue: 0,0:00:10.07,0:00:10.97,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THEFT AUTO SIX.
+Dialogue: 0,0:00:10.97,0:00:11.67,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AFTER THE TRADE,
+Dialogue: 0,0:00:11.67,0:00:12.32,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}GIANNIS WATCHED
+Dialogue: 0,0:00:12.32,0:00:12.68,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}A VIDEO
+Dialogue: 0,0:00:12.68,0:00:13.44,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FROM BUCKS FANS
+Dialogue: 0,0:00:13.44,0:00:14.40,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND GOT EMOTIONAL.
+Dialogue: 0,0:00:14.40,0:00:14.84,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BUT MILWAUKEE
+Dialogue: 0,0:00:14.84,0:00:15.27,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WILL ALWAYS
+Dialogue: 0,0:00:15.27,0:00:16.16,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BE MY HOME.
+Dialogue: 0,0:00:16.16,0:00:16.52,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HE'S NOT
+Dialogue: 0,0:00:16.52,0:00:16.83,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE ONLY
+Dialogue: 0,0:00:16.83,0:00:17.45,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ONE GOING BACK.
+Dialogue: 0,0:00:17.45,0:00:18.01,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BOBBY PORTIS
+Dialogue: 0,0:00:18.01,0:00:18.80,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FACES MILWAUKEE.
+Dialogue: 0,0:00:18.80,0:00:19.24,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND THE FOUR
+Dialogue: 0,0:00:19.24,0:00:19.82,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}PLAYERS THE HEAT
+Dialogue: 0,0:00:19.82,0:00:20.39,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SENT FOR HIM,
+Dialogue: 0,0:00:20.39,0:00:20.77,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HERRO,
+Dialogue: 0,0:00:20.77,0:00:21.10,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WARE,
+Dialogue: 0,0:00:21.10,0:00:21.50,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}JAQUEZ
+Dialogue: 0,0:00:21.50,0:00:22.43,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND JAKUCIONIS,
+Dialogue: 0,0:00:22.43,0:00:23.25,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FACE MIAMI.
+Dialogue: 0,0:00:23.25,0:00:23.83,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SIX PLAYERS.
+Dialogue: 0,0:00:23.83,0:00:24.54,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TWO OLD TEAMS.
+Dialogue: 0,0:00:24.54,0:00:24.90,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ONE CITY
+Dialogue: 0,0:00:24.90,0:00:25.99,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THAT DOESN'T EXIST.
