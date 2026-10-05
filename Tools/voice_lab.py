@@ -22,6 +22,13 @@ PRESETS = {  # name: (model, settings, output_format)
     "v6": ("eleven_v3", dict(stability=0.5, similarity_boost=0.75, use_speaker_boost=True), "mp3_44100_128"),
     "v8": ("eleven_multilingual_v2", dict(stability=0.65, similarity_boost=0.7, use_speaker_boost=True, speed=1.15), "mp3_44100_128"),
     "v9": ("eleven_multilingual_v2", dict(stability=0.75, similarity_boost=0.7, use_speaker_boost=True, speed=1.15), "mp3_44100_128"),
+    "c0": ("eleven_multilingual_v2", dict(stability=0.65, similarity_boost=0.7, use_speaker_boost=True, speed=1.2), "mp3_44100_128"),   # user's pick 'C' (Oct 5)
+    "c1": ("eleven_multilingual_v2", dict(stability=0.5, similarity_boost=0.7, use_speaker_boost=True, speed=1.2), "mp3_44100_128"),
+    "c2": ("eleven_multilingual_v2", dict(stability=0.8, similarity_boost=0.7, use_speaker_boost=True, speed=1.2), "mp3_44100_128"),
+    "c3": ("eleven_multilingual_v2", dict(stability=0.65, similarity_boost=0.85, use_speaker_boost=True, speed=1.2), "mp3_44100_128"),
+    "c4": ("eleven_multilingual_v2", dict(stability=0.65, similarity_boost=0.7, use_speaker_boost=True, speed=1.2, style=0.3), "mp3_44100_128"),
+    "c5": ("eleven_multilingual_v2", dict(stability=0.65, similarity_boost=0.7, use_speaker_boost=False, speed=1.2), "mp3_44100_128"),
+    "c6": ("eleven_multilingual_v2", dict(stability=0.65, similarity_boost=0.55, use_speaker_boost=True, speed=1.2), "mp3_44100_128"),
     "v7": ("eleven_multilingual_v2", dict(stability=0.65, similarity_boost=0.7, use_speaker_boost=False, speed=1.1), "mp3_44100_128"),
 }
 

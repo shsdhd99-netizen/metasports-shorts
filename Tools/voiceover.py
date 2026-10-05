@@ -17,6 +17,9 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 API = "https://api.elevenlabs.io/v1"
 
 
+CLEAN = {"off": "", "light": "highpass=f=70,afftdn=nr=10:nf=-40,", "strong": "highpass=f=70,afftdn=nr=20:nf=-35,"}
+
+
 def load_env():
     env = {}
     p = os.path.join(HERE, ".env")
@@ -216,11 +219,12 @@ def main():
     ap.add_argument("--voice-id")
     ap.add_argument("--model", default="eleven_multilingual_v2")
     ap.add_argument("--speed", default="auto", help="ElevenLabs native speed 0.7-1.2, or auto. Our cloned voice reads ~210 wpm at 1.1, ~238 at 1.15, ~268 at 1.2 (Oct 5 2026 lab). auto = the fastest of 1.2/1.15/1.1 that still gives a take of at least --min-secs, so no time-stretch is needed")
-    ap.add_argument("--min-secs", type=float, default=22.5, help="auto speed keeps the narration at least this long (the 21-30 s sweet spot)")
+    ap.add_argument("--min-secs", type=float, default=21.5, help="auto speed keeps the narration at least this long (the 21-30 s sweet spot)")
     ap.add_argument("--stability", type=float, default=0.65, help="0.65 (Oct 5 2026 voice lab). 0.45 gave the glitchier takes on the cloned voice")
     ap.add_argument("--similarity", type=float, default=0.7, help="0.7 = the voice's own saved setting")
     ap.add_argument("--target-wpm", type=int, default=250, help="speed audio up to about this pace with atempo, but never more than --max-stretch (0 = off)")
     ap.add_argument("--max-stretch", type=float, default=1.08, help="time-stretching lowers voice quality (HNR -0.5..-1.1 dB at x1.2-1.4); above this we warn instead")
+    ap.add_argument("--clean", choices=["off", "light", "strong"], default="light", help="FFT noise reduction on the narration (Oct 5 2026: light = HNR +1.1 dB, strong = +2.4 dB but may sound dull)")
     ap.add_argument("--legacy", action="store_true", help="old settings (speed 1.1, stability 0.45, similarity 0.8, stretch up to x1.6)")
     ap.add_argument("--prev-text", default="", help="text spoken just before this piece (keeps tone/pace continuous across spliced pieces)")
     ap.add_argument("--next-text", default="", help="text spoken just after this piece")
@@ -229,7 +233,7 @@ def main():
     ap.add_argument("--check", action="store_true")
     a = ap.parse_args()
     if a.legacy:
-        a.speed, a.stability, a.similarity, a.max_stretch = 1.1, 0.45, 0.8, 1.6
+        a.speed, a.stability, a.similarity, a.max_stretch, a.clean = 1.1, 0.45, 0.8, 1.6, "off"
     env = load_env()
     key = env.get("ELEVENLABS_API_KEY", "")
 
@@ -260,7 +264,7 @@ def main():
 
     if str(a.speed).lower() == "auto":
         est = lambda sp: n_words / (210 + (sp - 1.1) * 580) * 60  # rough reading time of the spoken words at native speed sp
-        a.speed = next((sp for sp in (1.15,) if est(sp) >= a.min_secs), 1.1)
+        a.speed = next((sp for sp in (1.2, 1.15) if est(sp) >= a.min_secs), 1.1)
         print(f"auto speed -> {a.speed} (about {est(a.speed):.1f} s for {n_words} words)")
     a.speed = float(a.speed)
     settings = {"stability": a.stability, "similarity_boost": a.similarity, "use_speaker_boost": True}
@@ -287,7 +291,8 @@ def main():
     # always end with 0.3 s of silence so the last word is never cut off (qa_short fails a voice that ends <0.1 s before the end)
     if shutil.which("ffmpeg"):
         stretch = f"atempo={factor:.3f}," if factor > 1.01 else ""
-        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", raw_mp3, "-filter:a", stretch + "apad=pad_dur=0.3", "-c:a", "libmp3lame", "-q:a", "0", final], check=True)
+        clean = CLEAN[a.clean]
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", raw_mp3, "-filter:a", clean + stretch + "apad=pad_dur=0.3", "-c:a", "libmp3lame", "-q:a", "0", final], check=True)
         if factor > 1.01:
             words = [(w, s / factor, e / factor) for w, s, e in words]
         else:

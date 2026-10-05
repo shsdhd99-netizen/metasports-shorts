@@ -11,7 +11,7 @@ Take gate (same as voice_take.py): voice_check has no REDO issue, HNR >= 7.6, ji
 import argparse, base64, json, os, shutil, subprocess, sys, tempfile
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
-from voiceover import load_env, call, parse_script, words_from_alignment, map_display, tidy, to_srt  # noqa: E402
+from voiceover import load_env, call, parse_script, words_from_alignment, map_display, tidy, to_srt, CLEAN  # noqa: E402
 
 
 def ff(*a):
@@ -30,9 +30,10 @@ def main():
     ap.add_argument("--stability", type=float, default=0.65)
     ap.add_argument("--similarity", type=float, default=0.7)
     ap.add_argument("--model", default="eleven_multilingual_v2")
-    ap.add_argument("--min-total", type=float, default=22.5, help="auto speed keeps the finished Short (narration + quotes + gaps) at least this long")
+    ap.add_argument("--min-total", type=float, default=21.5, help="auto speed keeps the finished Short (narration + quotes + gaps) at least this long")
     ap.add_argument("--target-wpm", type=int, default=250)
     ap.add_argument("--max-stretch", type=float, default=1.08)
+    ap.add_argument("--clean", choices=["off", "light", "strong"], default="light")
     a = ap.parse_args()
     F = os.path.abspath(a.folder)
     import voice_quality as vq
@@ -49,7 +50,7 @@ def main():
         raise SystemExit("Missing ELEVENLABS_API_KEY / ELEVENLABS_VOICE_ID (source key.sh)")
     if str(a.speed).lower() == "auto":
         est = lambda sp: n_words / (210 + (sp - 1.1) * 580) * 60 + quote_secs
-        a.speed = next((sp for sp in (1.15,) if est(sp) >= a.min_total), 1.1)
+        a.speed = next((sp for sp in (1.2, 1.15) if est(sp) >= a.min_total), 1.1)
         print(f"auto speed -> {a.speed} (about {est(a.speed):.1f} s total: {n_words} narrated words + {quote_secs:.1f} s of quotes/gaps)")
     settings = {"stability": a.stability, "similarity_boost": a.similarity, "use_speaker_boost": True, "speed": max(0.7, min(1.2, float(a.speed)))}
     bk = os.path.join(F, "_voice_v1")
@@ -71,7 +72,7 @@ def main():
         d = words[-1][2]; raw_wpm = len(words) / (d / 60); want = a.target_wpm / raw_wpm
         factor = max(1.0, min(a.max_stretch, want))
         st = os.path.join(work, f"take{k}.mp3")
-        ff("-i", raw, "-af", (f"atempo={factor:.3f}," if factor > 1.01 else "") + "apad=pad_dur=0.3", "-c:a", "libmp3lame", "-q:a", "0", st)
+        ff("-i", raw, "-af", CLEAN[a.clean] + (f"atempo={factor:.3f}," if factor > 1.01 else "") + "apad=pad_dur=0.3", "-c:a", "libmp3lame", "-q:a", "0", st)
         if factor > 1.01:
             words = [(w, s / factor, e / factor) for w, s, e in words]
         else:
