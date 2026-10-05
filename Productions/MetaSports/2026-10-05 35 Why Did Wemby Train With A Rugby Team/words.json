@@ -2,521 +2,506 @@
  {
   "word": "Wembanyama",
   "start": 0.0,
-  "end": 0.84
+  "end": 0.91
  },
  {
   "word": "spent",
-  "start": 0.873,
-  "end": 1.102
+  "start": 0.965,
+  "end": 1.198
  },
  {
   "word": "four",
-  "start": 1.157,
-  "end": 1.33
+  "start": 1.254,
+  "end": 1.454
  },
  {
   "word": "days",
-  "start": 1.385,
-  "end": 1.549
+  "start": 1.509,
+  "end": 1.709
  },
  {
   "word": "with",
-  "start": 1.571,
-  "end": 1.691
+  "start": 1.731,
+  "end": 1.842
  },
  {
   "word": "a",
-  "start": 1.723,
-  "end": 1.746
+  "start": 1.875,
+  "end": 1.897
  },
  {
   "word": "pro",
-  "start": 1.789,
-  "end": 1.952
+  "start": 1.942,
+  "end": 2.097
  },
  {
   "word": "rugby",
-  "start": 1.997,
-  "end": 2.236
+  "start": 2.142,
+  "end": 2.375
  },
  {
-  "word": "team,",
-  "start": 2.279,
-  "end": 2.487
+  "word": "team.",
+  "start": 2.419,
+  "end": 2.641
  },
  {
-  "word": "and",
-  "start": 2.52,
-  "end": 2.651
+  "word": "Only",
+  "start": 2.686,
+  "end": 2.885
  },
  {
-  "word": "not",
-  "start": 2.705,
-  "end": 2.869
+  "word": "now",
+  "start": 2.941,
+  "end": 3.074
  },
  {
-  "word": "one",
-  "start": 2.923,
-  "end": 3.131
+  "word": "can",
+  "start": 3.129,
+  "end": 3.218
  },
  {
-  "word": "second",
-  "start": 3.185,
-  "end": 3.426
+  "word": "you",
+  "start": 3.262,
+  "end": 3.329
  },
  {
-  "word": "of",
-  "start": 3.458,
-  "end": 3.512
- },
- {
-  "word": "it",
-  "start": 3.545,
-  "end": 3.611
- },
- {
-  "word": "came",
-  "start": 3.654,
-  "end": 3.818
- },
- {
-  "word": "out.",
-  "start": 3.862,
-  "end": 4.037
- },
- {
-  "word": "Until",
-  "start": 4.069,
-  "end": 4.32
- },
- {
-  "word": "this",
-  "start": 4.375,
-  "end": 4.527
- },
- {
-  "word": "weekend.",
-  "start": 4.581,
-  "end": 4.953
- },
- {
-  "word": "Provence",
-  "start": 4.986,
-  "end": 5.356
- },
- {
-  "word": "Rugby,",
-  "start": 5.378,
-  "end": 5.727
- },
- {
-  "word": "a",
-  "start": 5.748,
-  "end": 5.804
- },
- {
-  "word": "French",
-  "start": 5.902,
-  "end": 6.164
- },
- {
-  "word": "second-division",
-  "start": 6.196,
-  "end": 6.753
- },
- {
-  "word": "club,",
-  "start": 6.785,
-  "end": 7.004
- },
- {
-  "word": "finally",
-  "start": 7.058,
-  "end": 7.374
- },
- {
-  "word": "posted",
-  "start": 7.418,
-  "end": 7.734
+  "word": "see",
+  "start": 3.373,
+  "end": 3.517
  },
  {
   "word": "it.",
-  "start": 7.778,
-  "end": 7.909
+  "start": 3.55,
+  "end": 3.684
+ },
+ {
+  "word": "Provence",
+  "start": 3.717,
+  "end": 4.172
+ },
+ {
+  "word": "Rugby,",
+  "start": 4.205,
+  "end": 4.538
+ },
+ {
+  "word": "a",
+  "start": 4.561,
+  "end": 4.594
+ },
+ {
+  "word": "French",
+  "start": 4.66,
+  "end": 4.905
+ },
+ {
+  "word": "second-division",
+  "start": 4.96,
+  "end": 5.536
+ },
+ {
+  "word": "club,",
+  "start": 5.57,
+  "end": 5.77
+ },
+ {
+  "word": "posted",
+  "start": 5.792,
+  "end": 6.07
+ },
+ {
+  "word": "the",
+  "start": 6.092,
+  "end": 6.159
+ },
+ {
+  "word": "footage",
+  "start": 6.191,
+  "end": 6.48
+ },
+ {
+  "word": "this",
+  "start": 6.525,
+  "end": 6.657
+ },
+ {
+  "word": "weekend.",
+  "start": 6.713,
+  "end": 7.134
  },
  {
   "word": "Wemby,",
-  "start": 7.963,
-  "end": 8.323
+  "start": 7.179,
+  "end": 7.556
  },
  {
   "word": "in",
-  "start": 8.356,
-  "end": 8.454
+  "start": 7.579,
+  "end": 7.678
  },
  {
   "word": "cleats,",
-  "start": 8.509,
-  "end": 8.88
+  "start": 7.734,
+  "end": 8.044
  },
  {
   "word": "next",
-  "start": 8.935,
-  "end": 9.131
+  "start": 8.089,
+  "end": 8.277
  },
  {
   "word": "to",
-  "start": 9.153,
-  "end": 9.207
+  "start": 8.299,
+  "end": 8.344
  },
  {
   "word": "Harrison",
-  "start": 9.262,
-  "end": 9.556
+  "start": 8.4,
+  "end": 8.71
  },
  {
   "word": "Barnes.",
-  "start": 9.6,
-  "end": 9.927
+  "start": 8.754,
+  "end": 9.065
  },
  {
   "word": "He",
-  "start": 9.948,
-  "end": 10.036
+  "start": 9.098,
+  "end": 9.187
  },
  {
   "word": "admits",
-  "start": 10.09,
-  "end": 10.385
+  "start": 9.221,
+  "end": 9.464
  },
  {
   "word": "he",
-  "start": 10.429,
-  "end": 10.473
+  "start": 9.498,
+  "end": 9.543
  },
  {
   "word": "has",
-  "start": 10.516,
-  "end": 10.603
+  "start": 9.575,
+  "end": 9.664
  },
  {
   "word": "never",
-  "start": 10.658,
-  "end": 10.844
+  "start": 9.72,
+  "end": 9.897
  },
  {
   "word": "tackled",
-  "start": 10.887,
-  "end": 11.204
+  "start": 9.941,
+  "end": 10.241
  },
  {
   "word": "in",
-  "start": 11.225,
-  "end": 11.28
+  "start": 10.285,
+  "end": 10.341
  },
  {
   "word": "his",
-  "start": 11.323,
-  "end": 11.41
+  "start": 10.386,
+  "end": 10.475
  },
  {
   "word": "life.",
-  "start": 11.465,
-  "end": 11.727
+  "start": 10.53,
+  "end": 10.74
  },
  {
   "word": "They",
-  "start": 11.749,
-  "end": 11.88
+  "start": 10.763,
+  "end": 10.885
  },
  {
   "word": "hand",
-  "start": 11.923,
-  "end": 12.065
+  "start": 10.929,
+  "end": 11.051
  },
  {
   "word": "him",
-  "start": 12.109,
-  "end": 12.174
+  "start": 11.084,
+  "end": 11.163
  },
  {
   "word": "a",
-  "start": 12.218,
-  "end": 12.24
+  "start": 11.195,
+  "end": 11.218
  },
  {
   "word": "tackle",
-  "start": 12.273,
-  "end": 12.556
+  "start": 11.251,
+  "end": 11.529
  },
  {
   "word": "shield.",
-  "start": 12.578,
-  "end": 12.894
+  "start": 11.551,
+  "end": 11.794
  },
  {
   "word": "Then",
-  "start": 12.917,
-  "end": 13.069
+  "start": 11.828,
+  "end": 11.972
  },
  {
   "word": "the",
-  "start": 13.102,
-  "end": 13.168
+  "start": 12.017,
+  "end": 12.083
  },
  {
   "word": "forwards",
-  "start": 13.211,
-  "end": 13.549
+  "start": 12.138,
+  "end": 12.46
  },
  {
   "word": "lift",
-  "start": 13.592,
-  "end": 13.756
+  "start": 12.516,
+  "end": 12.682
  },
  {
   "word": "him",
-  "start": 13.778,
-  "end": 13.854
+  "start": 12.716,
+  "end": 12.793
  },
  {
   "word": "in",
-  "start": 13.887,
-  "end": 13.93
+  "start": 12.827,
+  "end": 12.882
  },
  {
   "word": "a",
-  "start": 13.975,
-  "end": 13.996
+  "start": 12.937,
+  "end": 12.959
  },
  {
   "word": "lineout.",
-  "start": 14.051,
-  "end": 14.443
+  "start": 13.004,
+  "end": 13.392
  },
  {
   "word": "The",
-  "start": 14.465,
-  "end": 14.541
+  "start": 13.414,
+  "end": 13.503
  },
  {
   "word": "coach",
-  "start": 14.585,
-  "end": 14.782
+  "start": 13.548,
+  "end": 13.758
  },
  {
   "word": "says",
-  "start": 14.815,
-  "end": 14.988
+  "start": 13.792,
+  "end": 13.98
  },
  {
   "word": "a",
-  "start": 15.033,
-  "end": 15.054
+  "start": 14.036,
+  "end": 14.08
  },
  {
   "word": "man",
-  "start": 15.098,
-  "end": 15.229
+  "start": 14.158,
+  "end": 14.324
  },
  {
   "word": "that",
-  "start": 15.272,
-  "end": 15.404
+  "start": 14.369,
+  "end": 14.502
  },
  {
   "word": "size",
-  "start": 15.458,
-  "end": 15.676
+  "start": 14.557,
+  "end": 14.79
  },
  {
   "word": "makes",
-  "start": 15.709,
-  "end": 15.861
+  "start": 14.834,
+  "end": 14.979
  },
  {
   "word": "for",
-  "start": 15.883,
-  "end": 15.97
+  "start": 15.002,
+  "end": 15.101
  },
  {
   "word": "some",
-  "start": 16.014,
-  "end": 16.134
+  "start": 15.146,
+  "end": 15.289
  },
  {
   "word": "very",
-  "start": 16.178,
-  "end": 16.363
+  "start": 15.345,
+  "end": 15.589
  },
  {
   "word": "strange",
-  "start": 16.418,
-  "end": 16.68
+  "start": 15.645,
+  "end": 15.955
  },
  {
   "word": "situations.",
-  "start": 16.701,
-  "end": 17.378
+  "start": 15.977,
+  "end": 16.622
  },
  {
   "word": "Last",
-  "start": 17.444,
-  "end": 17.64
+  "start": 16.666,
+  "end": 16.843
  },
  {
   "word": "summer",
-  "start": 17.672,
-  "end": 17.88
+  "start": 16.877,
+  "end": 17.065
  },
  {
   "word": "it",
-  "start": 17.923,
-  "end": 17.967
+  "start": 17.099,
+  "end": 17.154
  },
  {
   "word": "was",
-  "start": 18.0,
-  "end": 18.087
+  "start": 17.187,
+  "end": 17.265
  },
  {
   "word": "kung",
-  "start": 18.142,
-  "end": 18.294
+  "start": 17.309,
+  "end": 17.465
  },
  {
   "word": "fu",
-  "start": 18.348,
-  "end": 18.48
+  "start": 17.52,
+  "end": 17.653
  },
  {
   "word": "at",
-  "start": 18.502,
-  "end": 18.545
+  "start": 17.698,
+  "end": 17.764
  },
  {
   "word": "Shaolin",
-  "start": 18.589,
-  "end": 18.861
+  "start": 17.809,
+  "end": 18.141
  },
  {
   "word": "Temple.",
-  "start": 18.916,
-  "end": 19.276
+  "start": 18.197,
+  "end": 18.53
  },
  {
   "word": "So",
-  "start": 19.33,
-  "end": 19.451
+  "start": 18.563,
+  "end": 18.685
  },
  {
   "word": "why",
-  "start": 19.494,
-  "end": 19.614
+  "start": 18.74,
+  "end": 18.896
  },
  {
   "word": "rugby?",
-  "start": 19.669,
-  "end": 20.16
+  "start": 18.952,
+  "end": 19.44
  },
  {
   "word": "the",
-  "start": 20.311,
-  "end": 20.411
+  "start": 19.59,
+  "end": 19.69
  },
  {
   "word": "training",
-  "start": 20.451,
-  "end": 20.691
+  "start": 19.73,
+  "end": 19.97
  },
  {
   "word": "in",
-  "start": 20.711,
-  "end": 20.751
+  "start": 19.99,
+  "end": 20.03
  },
  {
   "word": "itself",
-  "start": 20.791,
-  "end": 21.031
+  "start": 20.07,
+  "end": 20.31
  },
  {
   "word": "was",
-  "start": 21.071,
-  "end": 21.17
+  "start": 20.35,
+  "end": 20.449
  },
  {
   "word": "really",
-  "start": 21.211,
-  "end": 21.371
+  "start": 20.49,
+  "end": 20.65
  },
  {
   "word": "hard.",
-  "start": 21.391,
-  "end": 21.551
+  "start": 20.67,
+  "end": 20.83
  },
  {
   "word": "I",
-  "start": 21.611,
-  "end": 21.63
+  "start": 20.89,
+  "end": 20.909
  },
  {
   "word": "think",
-  "start": 21.67,
-  "end": 21.791
+  "start": 20.949,
+  "end": 21.07
  },
  {
   "word": "it",
-  "start": 21.831,
-  "end": 21.871
+  "start": 21.11,
+  "end": 21.15
  },
  {
   "word": "was",
-  "start": 21.911,
-  "end": 22.091
+  "start": 21.19,
+  "end": 21.37
  },
  {
   "word": "really",
-  "start": 22.151,
-  "end": 22.351
+  "start": 21.43,
+  "end": 21.63
  },
  {
   "word": "good",
-  "start": 22.391,
-  "end": 22.551
+  "start": 21.67,
+  "end": 21.83
  },
  {
   "word": "for",
-  "start": 22.611,
-  "end": 22.791
+  "start": 21.89,
+  "end": 22.07
  },
  {
   "word": "the",
-  "start": 23.171,
-  "end": 23.311
+  "start": 22.45,
+  "end": 22.59
  },
  {
   "word": "vestibular",
-  "start": 23.371,
-  "end": 23.811
+  "start": 22.65,
+  "end": 23.09
  },
  {
   "word": "system",
-  "start": 23.871,
-  "end": 24.231
+  "start": 23.15,
+  "end": 23.51
  },
  {
   "word": "new",
-  "start": 24.471,
-  "end": 24.611
+  "start": 23.75,
+  "end": 23.89
  },
  {
   "word": "movement",
-  "start": 24.651,
-  "end": 24.931
+  "start": 23.93,
+  "end": 24.21
  },
  {
   "word": "patterns",
-  "start": 24.971,
-  "end": 25.351
+  "start": 24.25,
+  "end": 24.63
  }
 ]

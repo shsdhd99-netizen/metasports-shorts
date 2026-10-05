@@ -1,0 +1,94 @@
+[
+ {
+  "clip": "o1.mp4",
+  "start": 0.0,
+  "anchor": "Greg Oden",
+  "kind": "face",
+  "zoom": 0.1
+ },
+ {
+  "clip": "o2.mp4",
+  "start": 1.13,
+  "anchor": "2007 draft",
+  "kind": "face"
+ },
+ {
+  "clip": "c_draft.mp4",
+  "start": 2.02,
+  "anchor": "and played",
+  "kind": "card"
+ },
+ {
+  "clip": "c1.mp4",
+  "start": 3.48,
+  "anchor": "The next",
+  "kind": "action"
+ },
+ {
+  "clip": "d1.mp4",
+  "start": 5.21,
+  "anchor": "Kevin Durant",
+  "kind": "action"
+ },
+ {
+  "clip": "d2.mp4",
+  "start": 6.29,
+  "anchor": "to the Seattle",
+  "kind": "action"
+ },
+ {
+  "clip": "r1.mp4",
+  "start": 8.95,
+  "anchor": "Now he's",
+  "kind": "action"
+ },
+ {
+  "clip": "h1.mp4",
+  "start": 10.1,
+  "anchor": "Al Horford",
+  "kind": "action"
+ },
+ {
+  "clip": "h2.mp4",
+  "start": 11.6,
+  "anchor": "second-oldest",
+  "kind": "action"
+ },
+ {
+  "clip": "l1.mp4",
+  "start": 12.85,
+  "anchor": "behind only",
+  "kind": "action"
+ },
+ {
+  "clip": "c2.mp4",
+  "start": 13.9,
+  "anchor": "Mike Conley",
+  "kind": "action"
+ },
+ {
+  "clip": "c3.mp4",
+  "start": 14.93,
+  "anchor": "He signed",
+  "kind": "action"
+ },
+ {
+  "clip": "o3.mp4",
+  "start": 16.45,
+  "anchor": "Oden played",
+  "kind": "face"
+ },
+ {
+  "clip": "c_draft.mp4",
+  "start": 18.04,
+  "anchor": "The three picks",
+  "kind": "card"
+ },
+ {
+  "clip": "o1.mp4",
+  "start": 19.62,
+  "anchor": "3,610",
+  "kind": "face",
+  "in": 0.2
+ }
+]

@@ -1,0 +1,487 @@
+[
+ {
+  "word": "Orlando",
+  "start": 0.0,
+  "end": 0.421
+ },
+ {
+  "word": "won",
+  "start": 0.466,
+  "end": 0.566
+ },
+ {
+  "word": "the",
+  "start": 0.611,
+  "end": 0.677
+ },
+ {
+  "word": "draft",
+  "start": 0.699,
+  "end": 0.91
+ },
+ {
+  "word": "lottery",
+  "start": 0.943,
+  "end": 1.22
+ },
+ {
+  "word": "in",
+  "start": 1.242,
+  "end": 1.287
+ },
+ {
+  "word": "nineteen",
+  "start": 1.331,
+  "end": 1.62
+ },
+ {
+  "word": "ninety-two",
+  "start": 1.653,
+  "end": 2.053
+ },
+ {
+  "word": "and",
+  "start": 2.12,
+  "end": 2.219
+ },
+ {
+  "word": "took",
+  "start": 2.263,
+  "end": 2.43
+ },
+ {
+  "word": "Shaq.",
+  "start": 2.474,
+  "end": 2.862
+ },
+ {
+  "word": "A",
+  "start": 2.917,
+  "end": 2.973
+ },
+ {
+  "word": "year",
+  "start": 3.029,
+  "end": 3.151
+ },
+ {
+  "word": "later,",
+  "start": 3.206,
+  "end": 3.428
+ },
+ {
+  "word": "they",
+  "start": 3.451,
+  "end": 3.54
+ },
+ {
+  "word": "won",
+  "start": 3.583,
+  "end": 3.694
+ },
+ {
+  "word": "it",
+  "start": 3.739,
+  "end": 3.805
+ },
+ {
+  "word": "again,",
+  "start": 3.839,
+  "end": 4.139
+ },
+ {
+  "word": "with",
+  "start": 4.171,
+  "end": 4.349
+ },
+ {
+  "word": "one",
+  "start": 4.404,
+  "end": 4.549
+ },
+ {
+  "word": "ball",
+  "start": 4.582,
+  "end": 4.737
+ },
+ {
+  "word": "in",
+  "start": 4.782,
+  "end": 4.837
+ },
+ {
+  "word": "sixty-six.",
+  "start": 4.881,
+  "end": 5.559
+ },
+ {
+  "word": "Cleveland",
+  "start": 5.625,
+  "end": 6.002
+ },
+ {
+  "word": "did",
+  "start": 6.036,
+  "end": 6.158
+ },
+ {
+  "word": "it",
+  "start": 6.19,
+  "end": 6.257
+ },
+ {
+  "word": "too,",
+  "start": 6.291,
+  "end": 6.501
+ },
+ {
+  "word": "in",
+  "start": 6.534,
+  "end": 6.613
+ },
+ {
+  "word": "twenty-thirteen",
+  "start": 6.657,
+  "end": 7.267
+ },
+ {
+  "word": "and",
+  "start": 7.311,
+  "end": 7.378
+ },
+ {
+  "word": "twenty-fourteen,",
+  "start": 7.411,
+  "end": 8.099
+ },
+ {
+  "word": "the",
+  "start": 8.144,
+  "end": 8.243
+ },
+ {
+  "word": "second",
+  "start": 8.298,
+  "end": 8.543
+ },
+ {
+  "word": "time",
+  "start": 8.576,
+  "end": 8.743
+ },
+ {
+  "word": "at",
+  "start": 8.765,
+  "end": 8.832
+ },
+ {
+  "word": "one",
+  "start": 8.887,
+  "end": 9.02
+ },
+ {
+  "word": "point",
+  "start": 9.064,
+  "end": 9.242
+ },
+ {
+  "word": "seven",
+  "start": 9.286,
+  "end": 9.508
+ },
+ {
+  "word": "percent.",
+  "start": 9.552,
+  "end": 9.941
+ },
+ {
+  "word": "That",
+  "start": 9.974,
+  "end": 10.107
+ },
+ {
+  "word": "is",
+  "start": 10.151,
+  "end": 10.207
+ },
+ {
+  "word": "now",
+  "start": 10.252,
+  "end": 10.351
+ },
+ {
+  "word": "banned.",
+  "start": 10.406,
+  "end": 10.772
+ },
+ {
+  "word": "Starting",
+  "start": 10.828,
+  "end": 11.138
+ },
+ {
+  "word": "with",
+  "start": 11.161,
+  "end": 11.261
+ },
+ {
+  "word": "the",
+  "start": 11.283,
+  "end": 11.35
+ },
+ {
+  "word": "twenty-twenty-seven",
+  "start": 11.372,
+  "end": 12.137
+ },
+ {
+  "word": "draft,",
+  "start": 12.17,
+  "end": 12.448
+ },
+ {
+  "word": "no",
+  "start": 12.504,
+  "end": 12.625
+ },
+ {
+  "word": "team's",
+  "start": 12.681,
+  "end": 12.914
+ },
+ {
+  "word": "pick",
+  "start": 12.959,
+  "end": 13.114
+ },
+ {
+  "word": "can",
+  "start": 13.159,
+  "end": 13.236
+ },
+ {
+  "word": "be",
+  "start": 13.28,
+  "end": 13.357
+ },
+ {
+  "word": "first",
+  "start": 13.414,
+  "end": 13.635
+ },
+ {
+  "word": "two",
+  "start": 13.679,
+  "end": 13.835
+ },
+ {
+  "word": "years",
+  "start": 13.89,
+  "end": 14.057
+ },
+ {
+  "word": "in",
+  "start": 14.101,
+  "end": 14.146
+ },
+ {
+  "word": "a",
+  "start": 14.179,
+  "end": 14.201
+ },
+ {
+  "word": "row,",
+  "start": 14.256,
+  "end": 14.49
+ },
+ {
+  "word": "or",
+  "start": 14.512,
+  "end": 14.622
+ },
+ {
+  "word": "top",
+  "start": 14.678,
+  "end": 14.866
+ },
+ {
+  "word": "five",
+  "start": 14.922,
+  "end": 15.144
+ },
+ {
+  "word": "three",
+  "start": 15.178,
+  "end": 15.366
+ },
+ {
+  "word": "years",
+  "start": 15.399,
+  "end": 15.576
+ },
+ {
+  "word": "running.",
+  "start": 15.621,
+  "end": 15.976
+ },
+ {
+  "word": "And",
+  "start": 15.999,
+  "end": 16.12
+ },
+ {
+  "word": "the",
+  "start": 16.165,
+  "end": 16.231
+ },
+ {
+  "word": "Wizards",
+  "start": 16.264,
+  "end": 16.553
+ },
+ {
+  "word": "just",
+  "start": 16.598,
+  "end": 16.774
+ },
+ {
+  "word": "used",
+  "start": 16.83,
+  "end": 17.019
+ },
+ {
+  "word": "up",
+  "start": 17.053,
+  "end": 17.118
+ },
+ {
+  "word": "their",
+  "start": 17.152,
+  "end": 17.285
+ },
+ {
+  "word": "turn.",
+  "start": 17.318,
+  "end": 17.629
+ },
+ {
+  "word": "They",
+  "start": 17.662,
+  "end": 17.795
+ },
+ {
+  "word": "won",
+  "start": 17.84,
+  "end": 17.962
+ },
+ {
+  "word": "this",
+  "start": 18.018,
+  "end": 18.139
+ },
+ {
+  "word": "year's",
+  "start": 18.184,
+  "end": 18.35
+ },
+ {
+  "word": "lottery",
+  "start": 18.394,
+  "end": 18.672
+ },
+ {
+  "word": "and",
+  "start": 18.728,
+  "end": 18.805
+ },
+ {
+  "word": "took",
+  "start": 18.839,
+  "end": 18.983
+ },
+ {
+  "word": "A.J.",
+  "start": 19.038,
+  "end": 19.315
+ },
+ {
+  "word": "Dybantsa.",
+  "start": 19.337,
+  "end": 20.059
+ },
+ {
+  "word": "So",
+  "start": 20.103,
+  "end": 20.259
+ },
+ {
+  "word": "next",
+  "start": 20.324,
+  "end": 20.524
+ },
+ {
+  "word": "May,",
+  "start": 20.569,
+  "end": 20.791
+ },
+ {
+  "word": "even",
+  "start": 20.835,
+  "end": 21.024
+ },
+ {
+  "word": "if",
+  "start": 21.057,
+  "end": 21.123
+ },
+ {
+  "word": "the",
+  "start": 21.157,
+  "end": 21.224
+ },
+ {
+  "word": "Wizards'",
+  "start": 21.257,
+  "end": 21.568
+ },
+ {
+  "word": "ball",
+  "start": 21.59,
+  "end": 21.756
+ },
+ {
+  "word": "comes",
+  "start": 21.801,
+  "end": 21.967
+ },
+ {
+  "word": "up",
+  "start": 22.011,
+  "end": 22.089
+ },
+ {
+  "word": "first,",
+  "start": 22.144,
+  "end": 22.433
+ },
+ {
+  "word": "they",
+  "start": 22.455,
+  "end": 22.577
+ },
+ {
+  "word": "cannot",
+  "start": 22.61,
+  "end": 22.865
+ },
+ {
+  "word": "pick",
+  "start": 22.899,
+  "end": 23.043
+ },
+ {
+  "word": "first.",
+  "start": 23.099,
+  "end": 23.52
+ }
+]

@@ -8,122 +8,123 @@
  },
  {
   "clip": "v2.mp4",
-  "start": 1.13,
+  "start": 1.22,
   "anchor": "four days",
   "kind": "action"
  },
  {
   "clip": "v3.mp4",
-  "start": 1.76,
+  "start": 1.91,
   "anchor": "pro rugby",
   "kind": "action"
  },
  {
   "clip": "v4.mp4",
-  "start": 2.49,
-  "anchor": "and not one",
+  "start": 2.66,
+  "anchor": "Only now",
   "kind": "action"
  },
  {
   "clip": "v5.mp4",
-  "start": 4.04,
-  "anchor": "Until this",
+  "start": 3.1,
+  "anchor": "can you see",
   "kind": "action"
  },
  {
   "clip": "v6.mp4",
-  "start": 4.96,
-  "anchor": "Provence Rugby,",
+  "start": 3.69,
+  "anchor": "Provence",
   "kind": "action"
  },
  {
   "clip": "v7.mp4",
-  "start": 5.72,
+  "start": 4.53,
   "anchor": "a French",
   "kind": "action"
  },
  {
   "clip": "v8.mp4",
-  "start": 7.03,
-  "anchor": "finally posted",
+  "start": 5.76,
+  "anchor": "posted the",
   "kind": "action"
  },
  {
   "clip": "v9.mp4",
-  "start": 7.93,
+  "start": 7.15,
   "anchor": "Wemby, in",
   "kind": "action"
  },
  {
   "clip": "v10.mp4",
-  "start": 9.23,
+  "start": 8.37,
   "anchor": "Harrison",
   "kind": "face"
  },
  {
   "clip": "v11.mp4",
-  "start": 9.92,
+  "start": 9.07,
   "anchor": "He admits",
   "kind": "action"
  },
  {
   "clip": "v12.mp4",
-  "start": 11.72,
+  "start": 10.73,
   "anchor": "They hand",
   "kind": "action"
  },
  {
   "clip": "v13.mp4",
-  "start": 12.89,
-  "anchor": "Then the forwards",
+  "start": 11.8,
+  "anchor": "Then the",
   "kind": "action"
  },
  {
   "clip": "v14.mp4",
-  "start": 14.44,
+  "start": 13.38,
   "anchor": "The coach",
   "kind": "action"
  },
  {
   "clip": "v15.mp4",
-  "start": 16.39,
+  "start": 15.62,
   "anchor": "strange",
   "kind": "action"
  },
  {
   "clip": "s1.mp4",
-  "start": 17.41,
+  "start": 16.64,
   "anchor": "Last summer",
   "kind": "action"
  },
  {
   "clip": "s2.mp4",
-  "start": 18.56,
+  "start": 17.78,
   "anchor": "Shaolin",
   "kind": "action"
  },
  {
   "clip": "v17.mp4",
-  "start": 19.3,
+  "start": 18.53,
   "anchor": "So why",
   "kind": "action"
  },
  {
   "clip": "g1.mp4",
-  "start": 20.28,
-  "anchor": "the training in",
+  "start": 19.56,
+  "anchor": "the training",
   "kind": "quote"
  },
  {
   "clip": "v16.mp4",
-  "start": 22.36,
-  "anchor": "good for the",
+  "start": 21.64,
+  "anchor": "good for",
   "kind": "action"
  },
  {
-  "clip": "g2.mp4",
-  "start": 24.44,
+  "clip": "v1.mp4",
+  "start": 23.72,
   "anchor": "new movement",
-  "kind": "quote"
+  "kind": "face",
+  "in": 0.2
  }
 ]
