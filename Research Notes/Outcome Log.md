@@ -24,3 +24,10 @@ Purpose: test whether our gate metrics predict results. One row per posted Short
 | The NBA Final That Does Not Count | ~249 | |
 | Would Jordan's Last Shot Be a Foul Now? | ~7 | |
 Reading (HYPOTHESIS, n small, views not retention): surprise-fact / rule-oddity Shorts with a payoff ending and real voices (Wemby, #22, Adams) land 26-29K; contract lane (Duren) and the LeBron helicopter story sit near 2.5K. Matches Round 5 lane rule. Get avg % viewed from Studio screenshots or vidIQ before changing any rule.
+
+## Studio retention, Oct 5 ~9:32 (user screenshots, lifetime; Wemby at ~42 h)
+| Short | Length | Stayed to watch | Swiped away | Avg view duration | Views | Notes |
+|---|---|---|---|---|---|---|
+| Wembanyama (How Did Nobody Vote Against Wemby) | 24 s | 80.1% | 19.9% | 0:24 (104.1%) | 26.8K at 42 h ('about the same as usual', usual range 18.2-31.2K), +15 subs | curve: steady slow decline from 100%, ends near 75%, loops past 100% AVD |
+| Duren (Did Jalen Duren Just Leave $87 Million) | 32 s | 68.7% | 31.3% | 0:22 (68.4%) | ~2.6K | curve: sharp cliff at ~0:08-0:10 (down to about 60%), then slow decline to ~33% at the end |
+Read (SUPPORTED, n=2): Duren's cliff lands where the hook ends and the exposition starts (about 8-10 s); Wemby has no cliff because every beat adds a new fact. Contract exposition = the cliff. Rule for new Shorts: no flat explanatory stretch after the hook; the first turn must land by ~6-8 s. The user now posts 2 per day (Oct 5); queue regrouped into pairs.
