@@ -11,49 +11,49 @@ Style: Cap,Montserrat Black,86,&H00FFFFFF,&H00FFFFFF,&H00000000,&H99000000,0,0,0
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:00.42,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ONLY TWO
-Dialogue: 0,0:00:00.42,0:00:01.02,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NBA PLAYERS
-Dialogue: 0,0:00:01.02,0:00:01.34,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ARE STILL
-Dialogue: 0,0:00:01.34,0:00:01.87,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ALLOWED TO WEAR
-Dialogue: 0,0:00:01.87,0:00:02.49,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NUMBER SIX.
-Dialogue: 0,0:00:02.49,0:00:03.29,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ONE IS 24.
-Dialogue: 0,0:00:03.29,0:00:03.61,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE OTHER
-Dialogue: 0,0:00:03.61,0:00:04.19,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IS THIRTY-EIGHT.
-Dialogue: 0,0:00:04.19,0:00:04.71,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BILL RUSSELL
-Dialogue: 0,0:00:04.71,0:00:05.58,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WON ELEVEN TITLES,
-Dialogue: 0,0:00:05.58,0:00:06.51,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SO IN 2022
-Dialogue: 0,0:00:06.51,0:00:06.86,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE LEAGUE
-Dialogue: 0,0:00:06.86,0:00:07.47,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}RETIRED SIX
-Dialogue: 0,0:00:07.47,0:00:08.12,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FOR EVERY TEAM.
-Dialogue: 0,0:00:08.12,0:00:08.63,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BUT PLAYERS
-Dialogue: 0,0:00:08.63,0:00:09.17,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ALREADY WEARING
-Dialogue: 0,0:00:09.17,0:00:09.78,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IT KEPT IT.
-Dialogue: 0,0:00:09.78,0:00:10.51,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}JAYLIN WILLIAMS,
-Dialogue: 0,0:00:10.51,0:00:11.11,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}OF THE THUNDER,
-Dialogue: 0,0:00:11.11,0:00:11.74,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SAYS HIS DAD
-Dialogue: 0,0:00:11.74,0:00:12.39,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}PICKED IT.
-Dialogue: 0,0:00:12.39,0:00:12.72,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}MY DAD
-Dialogue: 0,0:00:12.72,0:00:13.20,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WAS THE ONE
-Dialogue: 0,0:00:13.20,0:00:13.53,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THAT PICKED
-Dialogue: 0,0:00:13.53,0:00:13.85,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE NUMBER,
-Dialogue: 0,0:00:13.85,0:00:14.18,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SO THERE
-Dialogue: 0,0:00:14.18,0:00:14.66,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WAS NO THOUGHT
-Dialogue: 0,0:00:14.66,0:00:15.27,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}GOING INTO IT.
-Dialogue: 0,0:00:15.27,0:00:15.65,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE LEAGUE
-Dialogue: 0,0:00:15.65,0:00:16.20,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}RETIRED SIX
-Dialogue: 0,0:00:16.20,0:00:16.85,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}A MONTH LATER.
-Dialogue: 0,0:00:16.85,0:00:17.50,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}DEANDRE JORDAN,
-Dialogue: 0,0:00:17.50,0:00:18.14,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}OF THE PELICANS,
-Dialogue: 0,0:00:18.14,0:00:18.49,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}RE-SIGNED
-Dialogue: 0,0:00:18.49,0:00:18.86,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THIS SUMMER
-Dialogue: 0,0:00:18.86,0:00:19.15,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FOR TWO
-Dialogue: 0,0:00:19.15,0:00:19.66,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}MORE YEARS.
-Dialogue: 0,0:00:19.66,0:00:20.35,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WHOEVER RETIRES
-Dialogue: 0,0:00:20.35,0:00:20.77,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}LAST TAKES
-Dialogue: 0,0:00:20.77,0:00:21.40,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SIX WITH HIM.
-Dialogue: 0,0:00:21.40,0:00:21.90,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ODDS ARE,
-Dialogue: 0,0:00:21.90,0:00:22.15,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IT'S THE
-Dialogue: 0,0:00:22.15,0:00:22.81,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TWENTY-FOUR-YEAR-OLD
-Dialogue: 0,0:00:22.81,0:00:23.17,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WHOSE DAD
-Dialogue: 0,0:00:23.17,0:00:23.43,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}PICKED IT
-Dialogue: 0,0:00:23.43,0:00:24.50,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WITHOUT THINKING.
+Dialogue: 0,0:00:00.00,0:00:00.38,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ONLY TWO
+Dialogue: 0,0:00:00.38,0:00:00.92,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NBA PLAYERS
+Dialogue: 0,0:00:00.92,0:00:01.21,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ARE STILL
+Dialogue: 0,0:00:01.21,0:00:01.61,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ALLOWED TO WEAR
+Dialogue: 0,0:00:01.61,0:00:02.18,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NUMBER SIX.
+Dialogue: 0,0:00:02.18,0:00:02.93,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ONE IS 24.
+Dialogue: 0,0:00:02.93,0:00:03.23,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE OTHER
+Dialogue: 0,0:00:03.23,0:00:03.75,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IS THIRTY-EIGHT.
+Dialogue: 0,0:00:03.75,0:00:04.20,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BILL RUSSELL
+Dialogue: 0,0:00:04.20,0:00:04.95,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WON ELEVEN TITLES,
+Dialogue: 0,0:00:04.95,0:00:05.89,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SO IN 2022
+Dialogue: 0,0:00:05.89,0:00:06.15,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE LEAGUE
+Dialogue: 0,0:00:06.15,0:00:06.71,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}RETIRED SIX
+Dialogue: 0,0:00:06.71,0:00:07.25,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FOR EVERY TEAM.
+Dialogue: 0,0:00:07.25,0:00:07.67,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BUT PLAYERS
+Dialogue: 0,0:00:07.67,0:00:08.15,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ALREADY WEARING
+Dialogue: 0,0:00:08.15,0:00:08.61,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IT KEPT IT.
+Dialogue: 0,0:00:08.61,0:00:09.29,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}JAYLIN WILLIAMS,
+Dialogue: 0,0:00:09.29,0:00:09.81,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}OF THE THUNDER,
+Dialogue: 0,0:00:09.81,0:00:10.27,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SAYS HIS DAD
+Dialogue: 0,0:00:10.27,0:00:10.74,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}PICKED IT.
+Dialogue: 0,0:00:10.74,0:00:11.06,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}MY DAD
+Dialogue: 0,0:00:11.06,0:00:11.55,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WAS THE ONE
+Dialogue: 0,0:00:11.55,0:00:11.87,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THAT PICKED
+Dialogue: 0,0:00:11.87,0:00:12.20,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE NUMBER,
+Dialogue: 0,0:00:12.20,0:00:12.52,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SO THERE
+Dialogue: 0,0:00:12.52,0:00:13.01,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WAS NO THOUGHT
+Dialogue: 0,0:00:13.01,0:00:13.63,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}GOING INTO IT.
+Dialogue: 0,0:00:13.63,0:00:13.91,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE LEAGUE
+Dialogue: 0,0:00:13.91,0:00:14.41,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}RETIRED SIX
+Dialogue: 0,0:00:14.41,0:00:14.87,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}A MONTH LATER.
+Dialogue: 0,0:00:14.87,0:00:15.52,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}DEANDRE JORDAN,
+Dialogue: 0,0:00:15.52,0:00:16.14,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}OF THE PELICANS,
+Dialogue: 0,0:00:16.14,0:00:16.51,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}RE-SIGNED
+Dialogue: 0,0:00:16.51,0:00:16.82,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THIS SUMMER
+Dialogue: 0,0:00:16.82,0:00:17.06,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FOR TWO
+Dialogue: 0,0:00:17.06,0:00:17.52,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}MORE YEARS.
+Dialogue: 0,0:00:17.52,0:00:18.14,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WHOEVER RETIRES
+Dialogue: 0,0:00:18.14,0:00:18.55,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}LAST TAKES
+Dialogue: 0,0:00:18.55,0:00:19.05,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SIX WITH HIM.
+Dialogue: 0,0:00:19.05,0:00:19.46,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ODDS ARE,
+Dialogue: 0,0:00:19.46,0:00:19.69,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IT'S THE
+Dialogue: 0,0:00:19.69,0:00:20.21,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TWENTY-FOUR-YEAR-OLD
+Dialogue: 0,0:00:20.21,0:00:20.55,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WHOSE DAD
+Dialogue: 0,0:00:20.55,0:00:20.78,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}PICKED IT
+Dialogue: 0,0:00:20.78,0:00:21.69,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WITHOUT THINKING.

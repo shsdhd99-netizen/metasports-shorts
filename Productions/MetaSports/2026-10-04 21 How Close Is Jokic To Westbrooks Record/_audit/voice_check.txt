@@ -1,11 +1,2 @@
-Voice check: REDO   (88 words, 21.8s, 242 wpm)
-  REDO   6.24s  script "1 ninety 8" but heard "198"
-  REDO   7.40s  script "it" but heard "at"
-  REDO  10.32s  script "sixty 5" but heard "65"
-  note   4.26s  "2 100 9" heard as "209" (close; check the name)
-  note   8.80s  "30 4" heard as "34" (close; check the name)
-  note  13.66s  "20 3" heard as "23" (close; check the name)
-  note  15.30s  "50 6" heard as "56" (close; check the name)
-  note  17.00s  "50 5" heard as "55" (close; check the name)
-  note  19.78s  "20 7" heard as "27" (close; check the name)
-  heard: Only two players ever passed Oscar Robertson's triple double record. One just retired. Russell Westbrook finished with 209. The other is Nikola Jokic at 198. 11 ties at 12 breaks it. But Jokic had 34 triple doubles last season in just 65 games. That's about one every two games. At that pace, 12 takes about 23 games. Last Christmas he went for 56, 16 and 15. The first 55, 15, 15 game in NBA history. This Christmas is game 27 in Golden State. Four games to spare.
+Voice check: PASS   (88 words, 21.8s, 242 wpm)
+  heard: Only two players ever passed Oscar Robertson's triple -double record. One just retired. Russell Westbrook finished with 209. The other is Nikola Jokic at 198. 11 ties it, 12 breaks it. But Jokic had 34 triple doubles last season in just 65 games. That's about one every two games. At that pace, 12 takes about 23 games. Last Christmas he went for 56, 16, and 15. The first 55, 15, 15 game in NBA history. This Christmas is game 27 in Golden State. Four games to spare.

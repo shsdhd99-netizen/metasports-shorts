@@ -260,7 +260,7 @@ def main():
 
     if str(a.speed).lower() == "auto":
         est = lambda sp: n_words / (210 + (sp - 1.1) * 580) * 60  # rough reading time of the spoken words at native speed sp
-        a.speed = next((sp for sp in (1.2, 1.15) if est(sp) >= a.min_secs), 1.1)
+        a.speed = next((sp for sp in (1.15,) if est(sp) >= a.min_secs), 1.1)
         print(f"auto speed -> {a.speed} (about {est(a.speed):.1f} s for {n_words} words)")
     a.speed = float(a.speed)
     settings = {"stability": a.stability, "similarity_boost": a.similarity, "use_speaker_boost": True}

@@ -3,23 +3,23 @@
   "i": 0,
   "kind": "vo",
   "start": 0.0,
-  "end": 12.232,
+  "end": 10.576,
   "src": "_n1",
   "src_from": null
  },
  {
   "i": 1,
   "kind": "quote",
-  "start": 12.352,
-  "end": 15.152,
+  "start": 10.696,
+  "end": 13.496,
   "src": "/tmp/claude-0/-home-user-metasports-shorts/bc228739-3662-5759-8934-674d6d03bfcf/scratchpad/p22/src/1973447368289951810.mp4",
   "src_from": 15.4
  },
  {
   "i": 2,
   "kind": "vo",
-  "start": 15.272,
-  "end": 24.153,
+  "start": 13.616,
+  "end": 21.537,
   "src": "_n2",
   "src_from": null
  }

@@ -3,8 +3,8 @@
   . key.sh && python revoice.py --folder "<Short folder>" [--takes 3] [--caption-style metasports] [--no-render]
 
 1. backs up voice files to _voice_v1/ (voice.mp3, voice_raw.mp3, words.json, captions.srt, plan.json, shots.json)
-2. single-voice Short: voice_take.py on script.txt. Spliced Short (plan.json): voice_take.py on each _nN/script.txt (with the neighbouring text as
-   context so tone stays continuous), then splice_voice.py with the same plan (real quotes untouched, plain gain match instead of loudnorm)
+2. single-voice Short: voice_take.py on script.txt. Spliced Short (plan.json): voice_pieces.py records ALL narration in one take, checks it and cuts it
+   at the quote joins, then splice_voice.py with the same plan (real quotes untouched, plain gain match instead of loudnorm)
 3. anchor_shots.py re-times every picture to the words it illustrates (needs "anchor" in shots.json; all queued Shorts have them)
 4. assemble.py (captions only, no headline) -> qa_short.py --infer-kinds -> voice_check.py on the final voice -> hub_pack.sh
 Credits: about 1 per character per take. Prints a short summary; exits non-zero if QA fails.
@@ -47,17 +47,12 @@ def main():
     plan_path = os.path.join(F, "plan.json")
     extra = ["--speed", str(a.speed)]
     if os.path.exists(plan_path):
-        plan = json.load(open(plan_path))
-        for i, p in enumerate(plan):
-            if "vo" not in p:
-                continue
-            prev = piece_text(F, plan[i - 1])[-200:] if i > 0 else ""
-            nxt = piece_text(F, plan[i + 1])[:200] if i + 1 < len(plan) else ""
-            cmd = [PY, os.path.join(HERE, "voice_take.py"), "--script", os.path.join(F, p["vo"], "script.txt"), "--takes", str(a.takes), "--"] + extra
-            if prev.strip(): cmd += ["--prev-text", prev.strip()]
-            if nxt.strip(): cmd += ["--next-text", nxt.strip()]
-            r = sh(cmd); print(f"[{p['vo']}] " + (r.stdout.strip().splitlines() or [""])[-1]); 
-            if r.returncode: print(r.stderr[-300:]); sys.exit(1)
+        # spliced Short: ONE continuous narration take (better quality than 1.5-6 s pieces), cut at the quote joins, then splice
+        r = sh([PY, os.path.join(HERE, "voice_pieces.py"), "--folder", F, "--takes", str(a.takes), "--speed", str(a.speed)])
+        print("\n".join(l for l in r.stdout.splitlines() if l.startswith(("auto speed", "take", "USED"))))
+        if r.returncode:
+            print(r.stderr[-400:]); sys.exit(1)
+        plan_path = os.path.join(F, "plan.json")
         r = sh([PY, os.path.join(HERE, "splice_voice.py"), "--folder", F, "--plan", plan_path]); print(r.stdout.strip().splitlines()[0] if r.stdout else r.stderr[-300:])
         if r.returncode: sys.exit(1)
     else:

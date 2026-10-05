@@ -1,0 +1,7 @@
+Voice check: REDO   (102 words, 24.9s, 246 wpm)
+  REDO  20.14s  script "in" but heard "(nothing)"
+  note   0.00s  "wembanyama" heard as "wembun yama" (close; check the name)
+  note   7.18s  "wemby" heard as "wembie" (close; check the name)
+  note  13.12s  "lineout" heard as "line out" (close; check the name)
+  note   3.70s  very quiet word "it." (-13 dB)
+  heard: Wembun Yama spent four days with a pro rugby team and only now can you see it. Provence Rugby, a French second division club, posted the footage this weekend. Wembie in cleats next to Harrison Barnes. He admits he has never tackled in his life. They hand him a tackle shield, then the forwards lift him in a line out. The coach says a man that size makes for some very strange situations. Last summer, it was Kung Fu at Shaolin Temple. So why Rugby? The training itself was really hard. I think it was really good for the vestibular system, new movement patterns.

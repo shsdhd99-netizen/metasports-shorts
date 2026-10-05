@@ -1,1 +1,1 @@
-2026-10-04 21 How Close Is Jokic T   REDO HNR   8.2 jit 3.09 shim 10.55 jumps/s 0.00 clicks/min 875.9 hf%  3.54 f0 195 dur 21.85  HNR 8.2 dB (noisy/robotic); jitter 3.09% (shaky); shimmer 10.55% (uneven loudness); 875.9 clicks/min
+2026-10-04 21 How Close Is Jokic T   PASS HNR   8.3 jit 3.09 shim 10.73 jumps/s 0.00 clicks/min 1031.9 hf%  3.57 f0 195 dur 22.15  

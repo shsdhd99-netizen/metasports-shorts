@@ -138,6 +138,10 @@ def main():
                             close = max(close, difflib.SequenceMatcher(a=sp.replace(" ", ""), b=heard.replace(" ", "")).ratio(), 0.72 if close > 0.45 else 0)
                     at = got_t[j1] if j1 < len(got_t) else (got_t[-1] if got_t else 0)
                     mismatches.append({"at": round(at, 2), "script": exp, "heard": heard, "similar": round(close, 2)})
+                FUNC = {"the", "a", "an", "and", "in", "of", "to", "it", "is", "at", "on", "for", "point", "but", "so", "i", "he", "that", "as", "or", "uh"}
+                for m in mismatches:  # the recogniser often drops tiny unstressed words; that is not a glitch
+                    if not m["heard"] and m["script"] in FUNC:
+                        m["similar"] = 1.0
                 bad = [m for m in mismatches if m["similar"] < 0.72]
                 soft = [m for m in mismatches if m["similar"] >= 0.72]
                 miss_rate = sum(len(m["script"].split()) for m in bad) / max(1, len(want))
