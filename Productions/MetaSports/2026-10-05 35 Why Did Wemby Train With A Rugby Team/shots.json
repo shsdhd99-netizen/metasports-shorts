@@ -1,0 +1,129 @@
+[
+ {
+  "clip": "v1.mp4",
+  "start": 0.0,
+  "anchor": "Wembanyama",
+  "kind": "face",
+  "zoom": 0.1
+ },
+ {
+  "clip": "v2.mp4",
+  "start": 1.13,
+  "anchor": "four days",
+  "kind": "action"
+ },
+ {
+  "clip": "v3.mp4",
+  "start": 1.76,
+  "anchor": "pro rugby",
+  "kind": "action"
+ },
+ {
+  "clip": "v4.mp4",
+  "start": 2.49,
+  "anchor": "and not one",
+  "kind": "action"
+ },
+ {
+  "clip": "v5.mp4",
+  "start": 4.04,
+  "anchor": "Until this",
+  "kind": "action"
+ },
+ {
+  "clip": "v6.mp4",
+  "start": 4.96,
+  "anchor": "Provence Rugby,",
+  "kind": "action"
+ },
+ {
+  "clip": "v7.mp4",
+  "start": 5.72,
+  "anchor": "a French",
+  "kind": "action"
+ },
+ {
+  "clip": "v8.mp4",
+  "start": 7.03,
+  "anchor": "finally posted",
+  "kind": "action"
+ },
+ {
+  "clip": "v9.mp4",
+  "start": 7.93,
+  "anchor": "Wemby, in",
+  "kind": "action"
+ },
+ {
+  "clip": "v10.mp4",
+  "start": 9.23,
+  "anchor": "Harrison",
+  "kind": "face"
+ },
+ {
+  "clip": "v11.mp4",
+  "start": 9.92,
+  "anchor": "He admits",
+  "kind": "action"
+ },
+ {
+  "clip": "v12.mp4",
+  "start": 11.72,
+  "anchor": "They hand",
+  "kind": "action"
+ },
+ {
+  "clip": "v13.mp4",
+  "start": 12.89,
+  "anchor": "Then the forwards",
+  "kind": "action"
+ },
+ {
+  "clip": "v14.mp4",
+  "start": 14.44,
+  "anchor": "The coach",
+  "kind": "action"
+ },
+ {
+  "clip": "v15.mp4",
+  "start": 16.39,
+  "anchor": "strange",
+  "kind": "action"
+ },
+ {
+  "clip": "s1.mp4",
+  "start": 17.41,
+  "anchor": "Last summer",
+  "kind": "action"
+ },
+ {
+  "clip": "s2.mp4",
+  "start": 18.56,
+  "anchor": "Shaolin",
+  "kind": "action"
+ },
+ {
+  "clip": "v17.mp4",
+  "start": 19.3,
+  "anchor": "So why",
+  "kind": "action"
+ },
+ {
+  "clip": "g1.mp4",
+  "start": 20.28,
+  "anchor": "the training in",
+  "kind": "quote"
+ },
+ {
+  "clip": "v16.mp4",
+  "start": 22.36,
+  "anchor": "good for the",
+  "kind": "action"
+ },
+ {
+  "clip": "g2.mp4",
+  "start": 24.44,
+  "anchor": "new movement",
+  "kind": "quote"
+ }
+]
