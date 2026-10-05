@@ -7,10 +7,10 @@
   "zoom": 0.1
  },
  {
-  "clip": "o2.mp4",
+  "clip": "d3.mp4",
   "start": 1.13,
   "anchor": "2007 draft",
-  "kind": "face"
+  "kind": "action"
  },
  {
   "clip": "c_draft.mp4",

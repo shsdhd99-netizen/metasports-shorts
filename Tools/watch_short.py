@@ -14,7 +14,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 
 
 def sh(cmd):
-    return subprocess.run(cmd, capture_output=True, text=True)
+    return subprocess.run(cmd, capture_output=True, text=True, stdin=subprocess.DEVNULL)
 
 
 def download(url, out):
