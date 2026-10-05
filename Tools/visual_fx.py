@@ -349,6 +349,22 @@ def cmd_render(a):
         raw2 = os.path.join(folder, "_fx_tags.mp4")
         sh(["ffmpeg", "-y", "-loglevel", "error", "-i", raw, "-vf", ",".join(vf), "-c:v", "libx264", "-crf", "16", "-preset", "veryfast", "-c:a", "copy", raw2])
         os.replace(raw2, raw)
+    extra = []
+    fl = fx.get("flashes")
+    if fl:  # flash-cut: 2 frames of white at each listed cut (or "all" = every cut after the first)
+        times = [b[0] for b in [(x["t0"], x["t1"]) for x in shots]][1:] if fl == "all" else fl
+        extra += [f"drawbox=x=0:y=0:w=iw:h=ih:color=white@{fx.get('flash_alpha', 0.55)}:t=fill:enable='between(t,{t:.3f},{t + 0.067:.3f})'" for t in times]
+    co = fx.get("coldopen")
+    if extra:
+        raw4 = os.path.join(folder, "_fx_flash.mp4")
+        sh(["ffmpeg", "-y", "-loglevel", "error", "-i", raw, "-vf", ",".join(extra), "-c:v", "libx264", "-crf", "16", "-preset", "veryfast", "-c:a", "copy", raw4])
+        os.replace(raw4, raw)
+    if co:  # cold open: the first `len` s of picture is a payoff frame/clip; the voice still starts at 0.0 (no sync shift)
+        raw5 = os.path.join(folder, "_fx_cold.mp4")
+        sh(["ffmpeg", "-y", "-loglevel", "error", "-i", raw, "-ss", str(co.get("in", 0)), "-t", str(co.get("len", 0.6)), "-i", os.path.join(folder, "clips", co["clip"]),
+            "-filter_complex", f"[1:v]scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},setpts=PTS-STARTPTS[c];[0:v][c]overlay=eof_action=pass:enable='lt(t,{co.get('len', 0.6)})'[v]",
+            "-map", "[v]", "-map", "0:a", "-c:v", "libx264", "-crf", "16", "-preset", "veryfast", "-c:a", "copy", raw5])
+        os.replace(raw5, raw)
     if a.premise_line:  # persistent premise line: top safe area (y=7%), 2-4 words, sentence case, subtle dark pill; whole video
         fnt = os.path.join(HERE, "fonts", "Montserrat-Bold.ttf").replace(":", "\\:")
         txt = a.premise_line.replace("\\", "\\\\").replace("'", "\u2019").replace(":", "\\:").replace("%", "\\%")
