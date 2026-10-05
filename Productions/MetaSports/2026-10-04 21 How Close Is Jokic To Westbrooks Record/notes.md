@@ -27,3 +27,9 @@ NBA Westbrook tribute (2087909879663218902, 2087690603102629955); NBA Jokic Chri
 - Wide Christmas and playoff shots show Jokic only via #15/scoreboard "JOKIC 32 PTS".
 - Hook-gate warn is a regex miss (number is spelled out); pace 222 wpm to reach 23 s.
 - Post by Oct 19; numbers change after each game.
+
+## v2 rebuild (Oct 5, Critique Round 2A FIX)
+Changed: hook now the universal ("only two players ever passed Oscar Robertson's record", opens on Oscar+Westbrook clip); 11 ties / 12 breaks fixed; 42-in-a-season digression cut; pace math moved into escalation; ends on the payoff (Christmas = game 27, four games to spare), no question (debate moved to pinned comment). Old files: script_v1.txt, shots_v1.json.
+Sources re-verified Oct 5: B-Ref career leaders (Westbrook 209, Jokic 198, Oscar 181 third), B-Ref Jokic page (2025-26: 65 G, 34 triple-doubles), B-Ref DEN 2026-27 schedule (game 27 = Fri Dec 25, 10:30p at Golden State), NBA post 2004448562327765394 ("first 55/15/15 game in NBA history", 56-16-15). Math: 12 / (34/65) = 22.9 -> about 23 games; 27 - 23 = 4 to spare.
+NOT verified: audio by ear; "pace" assumes he stays healthy and plays every game (he missed 17 last season, left out of the script); Westbrook "just retired" (NBA post Aug 13 2026).
+New cover_A '12 TO PASS'.

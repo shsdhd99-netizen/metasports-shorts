@@ -1,17 +1,17 @@
 # #14 The NBA called out 4 stars: upload package (2026-10-04)
 
-**Video:** `READY TO POST - The NBA Just Called Out 4 Stars (Claude cut).mp4` (26.6 s, 1080x1920, -14 LUFS, ALL CAPS captions). Not uploaded.
+**Video:** `READY TO POST - The NBA Just Called Out 4 Stars (Claude cut).mp4` (~23.8 s, v2 ends on the Four F's payoff, 1080x1920, -14 LUFS, ALL CAPS captions). Not uploaded.
 
 ## Title (pick one)
-1. **The NBA Just Called Out 4 Stars 😳** (recommended: rule lane, names in the first words, a payoff)
-2. Which Star Does The NBA Call First? 😳
-3. The NBA Named Names On Push-Offs 😳
+1. **Why Did The NBA Name Four Stars 😳** (recommended)
+2. What Four Words Decide Every Push-Off 😳
+3. Did The NBA Call Out Four Stars 😳
 
 ## Tags (458/500 characters, paste as one line)
 nba push off rule, nba points of education, nba new rules 2026, off arm push off, offensive foul, nba referees, nba rule changes, jaylen brown, paolo banchero, donovan mitchell, rj barrett, cj mccollum, paul george, jalen suggs, nba foul explained, what is a push off nba, four f's nba, nba points of emphasis, nba 2026-27, nba preseason 2026, nba rules explained, nba refs 2026, nba shorts, basketball shorts, nba news, nba officiating, nba stars called out
 
 ## Pinned comment (post it, then pin it)
-Which of these stars gets called for the push-off first this season?
+Which star gets called for the push-off first this season?
 
 ## Covers
 `cover_A.png` "NBA NAMED 4 STARS" (recommended), `cover_B.png` "4 STARS CALLED OUT", `cover_C.png` "FORCE = FOUL?"
