@@ -55,3 +55,10 @@ question vs number hook; hook headline vs none; music vs none; ALL CAPS vs Clank
 - Use the quote burst that IS the payoff; never orphan or narrate a quote (found in #15, #17, #24, #16).
 - Pay off the setup, not a prediction; debate question goes in the pinned comment. First result after rebuild: #22 (payoff ending, corrected 'two') ~29K views in ~1 day, best of the last 7 (HYPOTHESIS: views only, n=1).
 - Free stats via yt-dlp work in the cloud; vidIQ free plan is credit-limited.
+
+## Oct 13, 2026 - first full week of posting (15 Shorts)
+- Reach is not fixed by editing polish alone: 15 Shorts posted Oct 5-13 have a median of ~2.8K views against 21.5-30K before. Only #19 (Flagg height, 20.4K) broke out; #22 (31.8K) and #03 (27.0K) came just before. (PROVEN numbers, HYPOTHESIS cause.)
+- Avg % viewed of 100%+ was in all 3 Shorts above 19K views but also in 2 that stayed under 3.4K (#14, #01). Retention is close to necessary for a breakout, not sufficient; the first-second swipe decision (topic, first frame, title) is the other half (SUPPORTED, n=16).
+- Re-doing an old winner by topic name (underhand, 73K before) did 1.0K. Pick NEW angles with one checkable fact on a famous name, not repeats (HYPOTHESIS, n=1).
+- Do not let the daily-stats routine sit unread: run it, log the numbers, then continue.
+
