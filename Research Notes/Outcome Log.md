@@ -70,3 +70,19 @@ Reads (evidence tiers; n is small, so these are NOT rule changes):
 - Correction to the Oct 5 snapshot above: "This NBA Player Sleeps On The FLOOR?" (28K) is a Feb 2026 upload, not a new result. [V, Winning Formula v2]
 - Rating calibration: the Round 3 critic craft score vs views, Spearman −0.63 (n=14): the critic ranking must not set posting order. [V]
 - Views plateau after ~2 days (#22 29K→31.8K, #03 26K→27K from Oct 5 to Oct 13), so 48 h is a fair read point. [V]
+
+## Daily check, Oct 13 2026 23:09 UTC run (free public numbers only)
+516 subs (513 earlier today), 101 Shorts. Last 7 median 3,350 (old normal 21,500) -> trend DOWN.
+
+| Short (newest first) | Public views | vs earlier today |
+|---|---|---|
+| #25 Did Bronny Actually Get Better (re-post, Oct 13) | 180 | 177 (too new; judge at 48 h) |
+| #29 Why Won't Big Men Shoot Underhand | 1,200 | 1,029 |
+| #20 Is Bad Boys Pistons Defense Illegal Now | 1,600 | 1,593 |
+| #35 Why Did Wemby Train With A Rugby Team | 2,800 | 2,698 |
+| #01 Why LeBron Took a 92% Pay Cut | 3,900 | 3,900 |
+| #34 Are Three Of 2007's Top Four Picks Still Playing | 4,500 | 4,420 |
+| #23 Why Is LeBron Playing Against His Son | 7,400 | 6,502 (still growing on day 2) |
+
+Retention benchmarks (Studio, unchanged): Wemby 79.5% stayed / 100.3% AVD; Duren 63.0% / 59.7%. No new retention data: the vidIQ top_videos report was already pulled earlier today (Oct 13), so no second paid call.
+Lesson: none added. n is under 3 for any new pattern; the only movement is #23 still climbing on day 2, which matches the "read at 48 h" rule already in place [V].
