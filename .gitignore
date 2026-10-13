@@ -58,3 +58,6 @@ Productions/**/_claude_build/
 !Productions/**/_claude_v6/storyboard.jpg
 !Productions/MetaSports/2026-10-03 1*/cover_*.png
 !Productions/MetaSports/2026-10-03 1*/UPLOAD.md
+
+# assemble.py scratch while rendering
+**/_shots_tmp/

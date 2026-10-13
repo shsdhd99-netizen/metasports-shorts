@@ -134,6 +134,13 @@
   "why": "the first fifty-five,"
  },
  {
+  "clip": "b13.mp4",
+  "start": 18.15,
+  "in": 0.63,
+  "kind": "action",
+  "why": "Oct 13 fix: b11 is only 1.4 s; split instead of freezing/looping"
+ },
+ {
   "clip": "c21_sched.mp4",
   "start": 19.03,
   "anchor": "This Christmas is",

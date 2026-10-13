@@ -1,0 +1,150 @@
+[
+ {
+  "clip": "a4.mp4",
+  "start": 0.0,
+  "anchor": "Only two",
+  "kind": "action",
+  "why": "Only two",
+  "zoom": 0.1
+ },
+ {
+  "clip": "a5.mp4",
+  "start": 1.7,
+  "anchor": "triple-double record.",
+  "kind": "action",
+  "why": "triple-double record."
+ },
+ {
+  "clip": "a2.mp4",
+  "start": 2.46,
+  "anchor": "One just retired.",
+  "kind": "action",
+  "why": "One just retired."
+ },
+ {
+  "clip": "a1.mp4",
+  "start": 3.29,
+  "anchor": "Russell Westbrook",
+  "kind": "action",
+  "why": "Russell Westbrook"
+ },
+ {
+  "clip": "a3.mp4",
+  "start": 4.15,
+  "anchor": "with two hundred",
+  "kind": "action",
+  "why": "with two hundred"
+ },
+ {
+  "clip": "b2.mp4",
+  "start": 4.99,
+  "anchor": "The other is",
+  "kind": "action",
+  "why": "The other is"
+ },
+ {
+  "clip": "b4.mp4",
+  "start": 5.4,
+  "anchor": "Nikola Jokic,",
+  "kind": "action",
+  "why": "Nikola Jokic,"
+ },
+ {
+  "clip": "b6.mp4",
+  "start": 6.12,
+  "anchor": "at one ninety-eight.",
+  "kind": "action",
+  "why": "at one ninety-eight."
+ },
+ {
+  "clip": "b5.mp4",
+  "start": 6.91,
+  "anchor": "Eleven ties",
+  "kind": "action",
+  "why": "Eleven ties"
+ },
+ {
+  "clip": "b7.mp4",
+  "start": 7.59,
+  "anchor": "Twelve breaks",
+  "kind": "action",
+  "why": "Twelve breaks"
+ },
+ {
+  "clip": "b3.mp4",
+  "start": 8.27,
+  "anchor": "But Jokic had",
+  "kind": "action",
+  "why": "But Jokic had"
+ },
+ {
+  "clip": "b8.mp4",
+  "start": 9.21,
+  "anchor": "triple-doubles last",
+  "kind": "action",
+  "why": "triple-doubles last"
+ },
+ {
+  "clip": "b12.mp4",
+  "start": 10.1,
+  "anchor": "in just sixty-five",
+  "kind": "action",
+  "why": "in just sixty-five"
+ },
+ {
+  "clip": "b10.mp4",
+  "start": 11.12,
+  "anchor": "That's about one",
+  "kind": "action",
+  "why": "That's about one"
+ },
+ {
+  "clip": "b13.mp4",
+  "start": 12.4,
+  "anchor": "At that pace,",
+  "kind": "action",
+  "why": "At that pace,"
+ },
+ {
+  "clip": "b11.mp4",
+  "start": 13.03,
+  "anchor": "twelve takes about",
+  "kind": "action",
+  "why": "twelve takes about"
+ },
+ {
+  "clip": "b8.mp4",
+  "start": 14.46,
+  "anchor": "Last Christmas",
+  "kind": "action",
+  "why": "Last Christmas"
+ },
+ {
+  "clip": "b9.mp4",
+  "start": 15.34,
+  "anchor": "fifty-six,",
+  "kind": "action",
+  "why": "fifty-six,"
+ },
+ {
+  "clip": "b11.mp4",
+  "start": 16.75,
+  "anchor": "the first fifty-five,",
+  "kind": "action",
+  "why": "the first fifty-five,"
+ },
+ {
+  "clip": "c21_sched.mp4",
+  "start": 19.03,
+  "anchor": "This Christmas is",
+  "kind": "card",
+  "why": "This Christmas is"
+ },
+ {
+  "clip": "a4.mp4",
+  "start": 20.92,
+  "anchor": "Four games to",
+  "kind": "action",
+  "why": "Four games to"
+ }
+]
