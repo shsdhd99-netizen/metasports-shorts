@@ -67,3 +67,21 @@ Research Notes/Round 9 - Competitor Shorts Watched (Oct 5, 2026).md. Findings (n
 - Credits: vidIQ 145/150 (renews Nov 5); ElevenLabs 1,032 of 52,087 characters used this cycle (starter; the cap shown changed from 90,000, so re-check with `voiceover.py --check`).
 - The user posted #23 (father vs son) although it was on HOLD; it did 6.5K with the best like rate (3.4%). #25 'Did Bronny Actually Get Better' was posted twice (Oct 6: 1.9K at 68.4%; Oct 13: 177 so far).
 - OPEN: the user's complaint that all tested voices sound bad (pick among the 8 samples or approve a new approach before any bulk re-voice); edit-style pick A/B/C; fix phase for the queued Shorts (Round 3 ratings); add #36-#39 + ratings to the Hub.
+
+## Oct 13 (later): handoff audit, formula v2, tool fixes, Batch 4 (owner request: "read the handoff file and complete all tasks, use a critic bot")
+- **Handoff audit:** `Research Notes/Handoff Audit (Oct 13, 2026).md`.
+  - No Grok work from Oct 6-13 is reachable from the cloud. Git, PRs, the Hub and scratch show nothing new; the PC paths and Google Drive are inaccessible (Drive connector auth error).
+  - The 15 posts are our exact exports. #19 went up as the premise-line version, #17 with CoachClank captions. Titles of #17 and #20 were changed outside our options (#17's misstates the facts). The #25 re-post is an identical file.
+- **Formula:** `Research Notes/Winning Formula v2 (Oct 13, 2026).md` (one visible object + one paradox in second 1; one measure; the ending answers the opening; red circle in frame 1 = HYPOTHESIS under test). The Round 3 critic score predicted views backwards (rho −0.63), so the critic is now `Tools/critic_v2.md`. The Playbook has an Oct 13 box that overrides conflicting older lines.
+- **Tool fixes (verified):**
+  - `voice_fx.py` pause trimming cut syllables; it now cuts only inside measured silence.
+  - `assemble.py` looped clips shorter than their shot (22 of 27 folders). It now slows small gaps and holds big ones, and writes `_render.json`.
+  - `qa_short.py` fails replays and frozen holds, warns on cards in the first 4 s, and counts spelled-out numbers.
+  - New `pointer.py` draws a red circle/arrow for opening A/B tests.
+- **Voice:** a blind, loudness-matched lineup on one script is live: https://claude.ai/artifact/Y9P8QRytak2ikDRfMDqdj2 (files in `Research Notes/Voice Lineup (Oct 13, 2026)/`). The OWNER must pick a slot number. Do not bulk re-record before that. The Oct 5 samples were unfair (5-14 dB apart) and the two "tight" ones had damaged numbers.
+- **Edit A/B:** #32 `_editB/` drops the article card at 1.5 s (QA PASS).
+  - Re-rendered with the fixed assembler: #21, #26, #27, #28, #30, #37, #38 (old exports in `_pre_oct13/`).
+  - #33 is blocked: a corrupt clip plus an 11x replay; it needs new footage.
+- **Batch 4:** `Research Notes/Batch 4 Concepts (Oct 13, 2026).md` has 4 researched concepts: Jokic pass, Wilt 48.5 minutes, Jordan No. 12, Sharp listed taller than Wemby. Being built: **#40 Jokic** and **#41 Sharp** (folders `2026-10-13 40 ...` and `2026-10-13 41 ...`), each with a plain and a red-circle opening. Each one passes or fails on Critic v2.
+- **Posting order:** the Queue v2 box at the top of `Posting Roadmap - Oct 2026.md`.
+- **Credits:** vidIQ 145/150 (renews Nov 5). ElevenLabs about 1.6K characters spent today on the lineup, plus the builders' takes.

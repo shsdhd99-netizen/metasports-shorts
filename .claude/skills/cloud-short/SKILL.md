@@ -37,7 +37,8 @@ A Short that is one talking head, text cards or repeated footage gets swiped (th
 3. **Recipe per 23-30 s:** ~40% b-roll that shows the story (`kind: action`), <=45% talking head or quote (`face`/`quote`), <=25% cards, avg shot 1.4-1.9 s, no clip over 35%.
 4. **Real quotes in short bursts** (<=4 s) cut in with `Tools/splice_voice.py` (real audio + our narration), never a long raw interview. Cut to b-roll on the narration between quotes.
 5. **Cards only for proof**, <=2 s, only if the card is visually rich (headline + image). Dull white-page cards get replaced with b-roll.
-6. **Every shot in shots.json has `"kind": face|quote|action|card`.** Last shot reuses the first clip (loop). Ends on a question.
+6. **Every shot in shots.json has `"kind": face|quote|action|card`.** Last shot reuses the first clip (loop). Ends on the PAYOFF that answers the first line (Oct 13: our question/CTA endings stayed under 3K; the debate question goes in the pinned comment).
+7. **Oct 13 gates (Playbook Oct 13 box, `Research Notes/Winning Formula v2`):** screen the premise first (one visible object + one paradox a non-fan gets in second 1; one measure per Short; never a bigger channel's story); no card in the first 4 s; every clip at least as long as its shot (`qa_short.py` now fails replays); render a red-circle twin with `Tools/pointer.py` for the frame-1 test; review with an independent agent using `Tools/critic_v2.md` (the old 0-100 craft score predicted views backwards).
 7. **Gate:** `python Tools/qa_short.py --folder "<folder>"` must print PASS before delivery. FIX lines mean go back and get more footage. Then look at storyboard.jpg and the first-3-seconds frames.
 Order: research -> find 6+ clips -> script around the clips -> voice (`voiceover.py` per piece, `splice_voice.py` for quotes) -> shots.json with kinds -> assemble -> qa_short PASS -> package.
 
@@ -77,7 +78,7 @@ Pin shots to words: put `"anchor": "first words of the phrase"` on shots in shot
 - 23-40 s (CoachClank's 31-45 s Shorts did best; Round 6), 95-150 words. First 6 words carry the scene, the number or the stakes. No throat-clearing, no "did you know".
 - Turn ("You see" / "But") inside the first third; a second re-hook ("But here's the twist") around 45%.
 - Short sentences, one idea each, so each can be a new shot every 1.5-3 s (no evidence that faster than ~2 s helps; test it).
-- End on a two-sided argument the comments will fight over, then stop. A last line that echoes the first helps the loop.
+- End on the payoff that answers the opening line (one number or the subject's own words), then stop; it can be argued with, but it must not be a question (Oct 13 evidence). A last line that echoes the first helps the loop.
 - Spell numbers the voice might misread as `{$200 million|two hundred million dollars}`; hard names `{Maxey|Max-ee}`.
 - Save `Productions/MetaSports/<date> NN <Title>/script.txt` (ONLY the spoken words, one paragraph) and `notes.md` (facts with links, titles, pin, warnings).
 

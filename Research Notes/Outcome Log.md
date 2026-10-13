@@ -61,3 +61,12 @@ Reads (evidence tiers; n is small, so these are NOT rule changes):
 - HYPOTHESIS (n=1 each): breakouts so far were a rule oddity (#22 six, #03 Wemby vote) and a famous-prospect curiosity with one checkable fact (#19 Flagg's height). Bronny/LeBron Shorts sit mid-tier (5.7-6.5K). Contract/trade (#12 2.9K, #13 1.9K) stays low, matching Round 5. The 'rule' lane alone does not predict (rule Shorts ran 1.0K to 31.8K). Re-doing an old winner topic by name (underhand, 73K before) did not carry over (1.0K).
 - Open: whether 2 posts a day splits reach (needs post times from Studio; not public), whether the Oct 13 'Bronny Get Better' re-post is a changed cut, and whether any of #20 / #29 has a Studio copyright claim (channel_check flags them, but its FLOP rule is relative to the old 21.5K median, so it is noisy now).
 - Resources after this check: vidIQ 145 of 150 credits (renews Nov 5); ElevenLabs 1,032 of 52,087 characters used this cycle (plan: starter).
+
+## Oct 13 (later): verified details behind the posted files (handoff audit)
+- The posted files are our exports: public durations match local finals (e.g. #19 22 s vs 21.9 s, #23 27 vs 26.7, #29 23 vs 23.23). [V]
+- #19 went up as the PREMISE-LINE version (thumbnail shows the "Flagg: 6-8 to 6-11?" pill); #17 went up with CoachClank-style captions. [V, YouTube thumbnails]. So the planned tests ran, but each is n=1 and confounded by topic: premise line #19 20.4K vs #20 1.6K; clank captions #17 6.7K vs house captions #14 1.6K. No rule change.
+- Titles changed outside our packages: #17 "Did The NBA Just BAN Flopping? 😳" (misstates our fact sheet: flopping has been a technical since 2023-24) and #20 "Is Bad Boys Pistons Defense Illegal Now 😳?". [V]
+- The Oct 13 #25 re-post is the identical file (same duration, same auto-thumbnail) — 177 views in ~6 h. [V]
+- Correction to the Oct 5 snapshot above: "This NBA Player Sleeps On The FLOOR?" (28K) is a Feb 2026 upload, not a new result. [V, Winning Formula v2]
+- Rating calibration: the Round 3 critic craft score vs views, Spearman −0.63 (n=14): the critic ranking must not set posting order. [V]
+- Views plateau after ~2 days (#22 29K→31.8K, #03 26K→27K from Oct 5 to Oct 13), so 48 h is a fair read point. [V]

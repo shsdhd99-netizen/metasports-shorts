@@ -17,7 +17,7 @@ ROOT = `C:\Users\Admin\Documents\YouTube-Playbooks`. Run from `ROOT\Tools` with 
    - the newest folder in `ROOT\Productions\MetaSports`
 2. **Hard names?** Make sure they are written `{Display|say-it-like-this}`.
 3. **Dry run:** `python voiceover.py --script "<script.txt>" --dry-run`. Show the seconds and characters, then ask to go.
-4. **On yes:** `python voiceover.py --script "<script.txt>"`. It makes voice.mp3 (sped up to ~250 wpm), captions.srt and words.json in the same folder.
+4. **On yes:** `python voiceover.py --script "<script.txt>"`. It makes voice.mp3 (native speed, no time-stretch beyond x1.08 since Oct 5; the permanent voice is the owner's pick from `Research Notes/Voice Lineup (Oct 13, 2026)/`), captions.srt and words.json in the same folder.
 5. **Errors:**
    - A missing key means pointing the user to "ElevenLabs (2 minutes)" in `ROOT\Tools Guide.md`. Never ask for the key in chat.
    - A 401 error means the key is wrong.

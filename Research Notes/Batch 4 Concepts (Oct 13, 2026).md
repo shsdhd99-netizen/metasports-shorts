@@ -32,6 +32,14 @@
 - **Jordan No. 12:** FOX Sports 63K and ESPN Throwback 10K on YouTube, and theScore covered it on TikTok. Widely told.
 - **Shot clock:** NBA India 41K and Highlight Locker 16K.
 
+**Final rank after applying Winning Formula v2 (section 8 overrides the table):**
+1. Jokic
+2. Wilt
+3. Jordan No. 12
+4. Sharp (optional)
+
+Build from the **v2 scripts in section 8**. The drafts in sections 2-5 are kept for their fact sheets.
+
 **Posting order for two builders:**
 - **Builder A** takes the time-sensitive pair: Jokic and Sharp.
   - Jokic must post before the Nuggets' opener on **Oct 22**, because the 6,080 total changes that night.
@@ -289,3 +297,71 @@
   - Jordan only wore 12 once: The Athletic, Feb 2026.
   - Sharp has no regular-season minutes: Rotoworld, Sep 25 2026. Re-check on B-Ref on voice day.
 - **Downloads:** `python3 Tools/x_clip.py <status url> --out <dir>` (X), `python3 Tools/watch_short.py <tiktok url> --out <dir> --no-stt` (TikTok), curl for archive.org, `node Tools/webshot.mjs` for B-Ref and StatMuse. YouTube was not tried, because downloads from it are bot-blocked here.
+
+---
+
+## 8. Winning Formula v2 applied (coordinator update, Oct 13; source: `Research Notes/Winning Formula v2 (Oct 13, 2026).md`)
+
+**The rules applied** (formula items 1-6):
+- **One visible object and one paradox** that a non-fan sees in second 1.
+- **The first sentence states the paradox** in plain words. No insider opener.
+- **A new fact every 2-3 s, all on the same measure.**
+- **The last line answers the first line,** in the subject's own voice or as one number, over the opening image. No debate question and no hedged ending.
+- **Frame 1 can carry a red circle or arrow** on the detail.
+- **Judge the premise, not the polish.**
+
+**What changed:** the drafts in sections 2-5 hopped between measures. For example, the Jokic draft went MVPs → assists → score → venue; the Wilt draft went minutes → points; the Sharp draft went blocks → contract. The v2 scripts below stay on one measure each and close on a number that answers line 1. **Builders should use the v2 scripts.**
+
+| Rank (v2) | Short | Object in frame 1 (red circle on…) | Paradox sentence (line 1) | Single measure | Answering last line + source |
+|---|---|---|---|---|---|
+| **1** | Why Jokic's Best Pass Doesn't Count 😳 | The ball leaving Jokic's hand behind his back, mid-pass (NBA clip, about 3 s in). Circle the ball | "Nikola Jokic's best pass ever doesn't even count." | **Assists in the record book** (6,080 → "should be 6,081" → still 6,080) | "So his total still reads six thousand and eighty. And his best one ever isn't in there." One number over the pass replay. **No Jokic audio clip was found**, so put his exact quote on screen as text (Denver Post, Oct 12 2026) |
+| **2** | How Did Wilt Average 48.5 Minutes? 🤯 | The B-Ref "MP" cell **48.5** filling the frame. Circle on 48.5 (mark box already returned: x436 y195 in `footage/wilt/bref_wilt_pergame.png`), over or cut with the 1962 film. A plain white page, not a dark card | "Games last 48 minutes. Wilt averaged forty-eight and a half." | **Minutes** (48 → 48.5 → 3,890 → 3,882 → 79 complete games → the missing 8) | "The only eight minutes Wilt sat all season, a referee made him sit." One number (8), back over the 48.5 frame. Sources: ESPN Mag (Hirdt, 2002) and NYT obituary (Feb 7 2015). No audio exists |
+| **3** | Why Did Jordan Wear Number 12? 😳 | The **1990 broadcast lower third "12 – MICHAEL JORDAN, 6'6" GUARD"** at about 2-4 s of `footage/mj12/2022743312273412307.mp4` (checked: `footage/mj12/first4s.jpg`). Circle the "12". Back-of-jersey "12" with no name later in the same clip | "Michael Jordan, in number 12. No name on the back." | **The jersey number** (23 vanished → no spare 23 → fans' 23s don't fit → nameless 12 → only night ever → where the 23 went) | "A couple of days later, it was reportedly found, hidden up in the ceiling tiles of the visitors' locker room." Source: SI, Feb 18 2015 (one unnamed source, so it must stay "reportedly"). **Optional real-voice open:** the clip has an audio track and the post text quotes the PA intro "Number 12, Michael Jordan". Check by ear and use it as a 2 s cold open under line 1 |
+| **4 (optional)** | Is Anyone Taller Than Wemby? 😳 | Sharp, #33, towering in the Raptors Summer League 1080p clip, next to a Wemby media-day frame. Circle the `7'5"` vs `7'4"` listing pill | "This man is listed taller than Victor Wembanyama. And he's never played an NBA game that counts." | **NBA minutes that count** (2024: zero → 2025: zero → Clippers: zero → still zero) | "Seven-foot-five. NBA minutes that count: still zero." One number over the opening image. No Sharp quote clip found |
+
+**Why Sharp drops to #4 under v2:**
+- Sharp is a niche player. The formula's anti-pattern is "niche player as the entry".
+- His story is transaction-driven: waived, camp deal. That is next to the contract lane.
+- Its curiosity is "what's next?", not "how is that possible?".
+- "Taller" rests on listings; measured heights are disputed (see fact 2a).
+
+**Why Jordan No. 12 rises:** it is the purest "visible object + can't be right" premise here. It matches #22 'six', and the broadcast graphic is a ready-made frame 1. Its weakness stays: the story is widely told.
+
+### v2 scripts (word counts checked with a script; about 21 s each at 270 wpm)
+
+**1. Jokic (96 words).** Facts unchanged from section 2.
+- "Record book" means regular-season assists.
+- The total must still read 6,080 on post day: post before Oct 22.
+
+> Nikola Jokic's best pass ever doesn't even count. No look. Behind the back. Corner to corner. Cam Johnson buries the three. A week later, Jokic told reporters it was probably the best pass of his NBA career. He has six thousand and eighty assists in the record book. So this should be number six thousand and eighty-one. It isn't. It happened in a preseason game, in a college gym in Boulder. And preseason assists never go in the book. So his total still reads six thousand and eighty. And his best one ever isn't in there.
+
+**2. Wilt (95 words).**
+- "Every second of seventy-nine games" source: Wikipedia, *List of career achievements by Wilt Chamberlain* ("Most complete games in a season (79 out of 80 games in 1961–62)"), https://en.wikipedia.org/wiki/List_of_career_achievements_by_Wilt_Chamberlain . It agrees with 3,882 of 3,890 minutes minus 8 ejected minutes.
+- The 50-points line was cut, because it hopped to another measure.
+
+> Games last 48 minutes. Wilt averaged forty-eight and a half. For a whole season. How? Overtime. In 1961-62, his team played three thousand, eight hundred ninety minutes. Wilt played three thousand, eight hundred eighty-two of them. Every second of seventy-nine games. Every overtime too. No rest. No foul-outs. No bench. So where did the missing eight minutes go? January 3rd, 1962. Los Angeles. Just over eight minutes left in a close game. Referee Norm Drucker hit Wilt with two technical fouls. Ejected. The only eight minutes Wilt sat all season, a referee made him sit.
+
+**3. Jordan No. 12 (95 words).**
+- "He still dropped 49" is the only off-measure beat. It is one 1-second line and the most famous fact, so it stays; cut it if the cut runs long.
+
+> Michael Jordan, in number 12. No name on the back. Valentine's Day, 1990. The Bulls are in Orlando. Somewhere between shootaround and tipoff, his 23 vanished from the Bulls' locker room. And the Bulls didn't have a spare 23. They tried fans' 23 jerseys from the stands. None fit. So Jordan played in a plain, nameless 12, the only night of his career he ever wore it. He still dropped 49. And the stolen 23? A couple of days later, it was reportedly found, hidden up in the ceiling tiles of the visitors' locker room.
+
+**4. Sharp (95 words, optional).**
+- "2024/2025 waived" source: NBC/Rotoworld (Sep 25 2026).
+- Clippers cut: ClippersPR (Sep 25 2026).
+- G League DPOY: NBAPR.
+- Toronto on Monday Oct 12: CBS/RotoWire.
+- "Season starts next week": Oct 20.
+- "An NBA game that counts" is deliberate: he played NBA **preseason** games with Dallas.
+- The DPOY line is the one off-measure beat. It keeps the paradox fair ("he's good, yet zero").
+
+> This man is listed taller than Victor Wembanyama. And he's never played an NBA game that counts. Seven-foot-five. Jamarion Sharp. 2024: Dallas brings him to camp. Waived. Zero minutes that count. 2025: Dallas again. Waived again. Zero. This summer, the Clippers signed him. In September, they cut him. Still zero. And it's not his defense: last season he was the G League's Defensive Player of the Year. That's three cuts, and zero minutes that count. On Monday, Toronto gave him one more camp. The season starts next week. Seven-foot-five. NBA minutes that count: still zero.
+
+**Frame-1 build notes (all four):**
+- The object fills the frame at 0.0 s, with a red circle or arrow on the detail and a one-line premise pill. Each pill fits the 14-characters-per-line rule:
+  - `BEST PASS|DOESN'T COUNT?`
+  - `48-MIN GAME|WILT: 48.5`
+  - `JORDAN|WORE 12?`
+  - `TALLER THAN|WEMBY?`
+- No dark card in the first 3 s.
+- The last line plays over the opening image so the Short loops.

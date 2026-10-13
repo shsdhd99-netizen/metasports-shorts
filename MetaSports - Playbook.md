@@ -1,5 +1,17 @@
 # MetaSports — The Playbook (Round 2)
 
+> ## Oct 13, 2026 update (read first; it overrides any older line below that conflicts)
+> Evidence: `Research Notes/Winning Formula v2 (Oct 13, 2026).md`, `Handoff Audit (Oct 13, 2026).md`, Outcome Log Oct 13. [V] = verified, [S] = supported (several observations), [H] = hypothesis under test.
+> 1. **Screen the premise before any production** [S]. A non-fan must get, in second 1, ONE visible thing that "can't be right" (a jersey number, a height, a shooting form, a vote, a minutes total), stated in the first sentence in plain words. All 3 Oct breakouts (#22 31.8K, #03 27K, #19 20.4K) and 6 of 9 old breakouts fit; news recaps, contracts/picks and "role player as the way in" did not (#12, #13, #29: 1-3K). Two other routes exist (celebrity controversy: "Why Does No One Like Bronny" 79K; family/emotion: #23 6.5K, best like rate), so this is the default, not the only door.
+> 2. **The ending answers the opening, then stops** [S]. This replaces "end on something to argue about" (section 3 below): our debate-question/CTA endings (#12, #18) stayed under 3K and Duren had a cliff at 8-10 s; the payoff endings (#03, #22, #19) broke out. Best: the subject's own voice or one number, over the opening image. The debate question goes in the pinned comment.
+> 3. **One measure per Short** [S]: each new fact every 2-3 s moves the same measure (heights, owners of a number, minutes). #29 used 6 numbers on 5 measures.
+> 4. **Never retell a story a bigger channel already did** (rule 1 below) [V]. #29 broke it (CoachClank's underhand story has 10M views; ours did 1.0K). Retelling our own old winner by name does not carry over.
+> 5. **Craft scores do not choose the posting order** [V]. The Round 3 critic score ran backwards against real views (Spearman −0.63, n=14). The critic now judges premise and first second first (`Tools/critic_v2.md`); polish items only catch defects.
+> 6. **Technical gates** [V]: no clip replays (`qa_short.py` fails them; `assemble.py` no longer loops), voice audible from 0.0-0.4 s, -14 LUFS, no frozen frame over 0.5 s. Warn: a card/screenshot in the first 4 s [H: the top 4 Oct posts had none before 7 s].
+> 7. **Red circle/arrow on the detail in frame 1** [H]: old era 7/27 vs 2/44 reached 40K+ (one coder). Test it in pairs with `Tools/pointer.py`; don't adopt it until 2 of 3 pairs win.
+> 8. **Voice** [V]: still one voice as the brand, but the choice is the owner's ear (blind lineup: `Research Notes/Voice Lineup (Oct 13, 2026)/`). Never time-stretch; pause trimming only inside measured silence (`voice_fx.py`, fixed Oct 13).
+> 9. **Posting time** is unresolved: this Playbook says 6-11 AM ET, the Oct roadmap tested 12:30 PM / 7:30 PM, and our own data has no post times yet. Don't treat either as proven.
+
 *Built only from the AI NBA story-Shorts niche: CoachClank's full channel (all 432 Shorts; 203 with dates and likes), 7 other channels in the niche, frame-by-frame watches of 12 Shorts, and 180 top comments. Checked Sept 26, 2026.*
 
 ---

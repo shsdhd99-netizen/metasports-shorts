@@ -62,3 +62,10 @@ question vs number hook; hook headline vs none; music vs none; ALL CAPS vs Clank
 - Re-doing an old winner by topic name (underhand, 73K before) did 1.0K. Pick NEW angles with one checkable fact on a famous name, not repeats (HYPOTHESIS, n=1).
 - Do not let the daily-stats routine sit unread: run it, log the numbers, then continue.
 
+
+## Oct 13, 2026 - handoff audit lessons (verified unless marked)
+- Our own tools produced two silent defects that no QA caught: assemble.py looped any clip shorter than its shot (22 of 27 folders, incl. posted #19/#23/#13/#29/#35), and pause trimming cut syllables ("198" -> "190"). Both fixed and now gated. Lesson: every new tool output gets a measured check (speech recognition on audio, frame strips on video) before it is shown to the owner.
+- A listening test is only fair at matched loudness and identical text: the Oct 5 samples differed by 5-14 dB.
+- The pre-publication critic score predicted views BACKWARDS (rho -0.63, n=14). Judge the premise in second 1 before polish (Tools/critic_v2.md). (SUPPORTED, small n)
+- Retelling a story a bigger channel owns (underhand: CoachClank 10M) failed again at 1.0K, exactly as the Sep Playbook rule said. Check rules before building, not after.
+- HOLD decisions can be too cautious: #23 (held for the Oct 21 cut) was posted anyway and got the best like rate (3.38%). (n=1)
