@@ -1,0 +1,31 @@
+{
+ "engine": "ffmpeg",
+ "out": "final.mp4",
+ "loop_fix": true,
+ "fits": [
+  {
+   "shot": 5,
+   "clip": "Q1.mp4",
+   "fit": "slowed",
+   "factor": 1.012
+  },
+  {
+   "shot": 6,
+   "clip": "V4.mp4",
+   "fit": "slowed",
+   "factor": 1.044
+  },
+  {
+   "shot": 7,
+   "clip": "Q2.mp4",
+   "fit": "slowed",
+   "factor": 1.015
+  },
+  {
+   "shot": 12,
+   "clip": "Q3.mp4",
+   "fit": "slowed",
+   "factor": 1.014
+  }
+ ]
+}

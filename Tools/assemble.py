@@ -176,7 +176,7 @@ def finish(folder, raw, final, total, style, music=None, music_db=-21.0, music_s
     lift = max(-6.0, min(18.0, -14.0 - float(found[-1]))) if found else 0.0
     # Lift the VOICE to -14 LUFS first, then mix effects and music under it. (Lifting the finished mix instead made every effect
     # louder than a quiet voice: the "vine boom ruins it" bug.) Effect gains below are therefore relative to a loud voice.
-    tail = "alimiter=limit=0.891:attack=3:release=60:level=disabled"
+    tail = "alimiter=limit=0.794:attack=3:release=60:level=disabled"
     parts.append(f"[0:a]volume={lift:.2f}dB[vlift]")
     labels[0] = "[vlift]"
     if music:
@@ -189,7 +189,7 @@ def finish(folder, raw, final, total, style, music=None, music_db=-21.0, music_s
         parts.append("[vlift]asplit=2[vk][vmix]")
         parts.append("[mus0][vk]sidechaincompress=threshold=0.03:ratio=4:attack=20:release=300[mus]")
         labels = ["[vmix]"] + labels[1:] + ["[mus]"]
-        tail = "loudnorm=I=-14:TP=-1.5:LRA=7,alimiter=limit=0.891:attack=3:release=60:level=disabled"  # keep the whole mix at -14 LUFS
+        tail = "loudnorm=I=-14:TP=-1.5:LRA=7,alimiter=limit=0.794:attack=3:release=60:level=disabled"  # keep the whole mix at -14 LUFS
         print(f"  music: {os.path.basename(music)} from {ms0:.0f}s, {music_db} dB under the voice")
     if len(labels) > 1:
         parts.append("".join(labels) + f"amix=inputs={len(labels)}:normalize=0:duration=first,{tail}[a]")

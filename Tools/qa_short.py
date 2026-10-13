@@ -11,6 +11,7 @@ Rules (from the retention research; each has burned a Short before):
          >=35% 'action' (b-roll that shows the story); cards <=25%; no 2 identical neighbours (same clip + same in-point).
   AUDIO  loudness -14 +-1.5 LUFS; no silence over 0.6 s inside the voice.
   LENGTH 18-35 s. Last shot repeats the first clip (loop).
+  PICTURE (Oct 13, from commentary-edit qa_final.py) no frozen footage over 0.6 s outside still cards; no black frames; true peak <= -1 dBTP (warn).
   CLIPS  (Oct 13 2026) no shot longer than what is left of its clip: assemble.py before Oct 13 LOOPED the clip (visible
          jump-back; found in 22 of 27 folders). Since then it slows small gaps (<=1.33x) and holds the last frame on big ones;
          a hold over 0.5 s fails (frozen picture). Renders made after the fix write _render.json.
@@ -74,11 +75,27 @@ def main():
     dup = [i for i in range(1, len(shots)) if shots[i]["clip"] == shots[i - 1]["clip"] and shots[i].get("in") == shots[i - 1].get("in")]
     chk(not dup, "no repeated neighbours", f"identical neighbouring shots at {dup}")
     chk(shots[-1]["clip"] == shots[0]["clip"], "loops to the first shot", "last shot should reuse the first clip so it loops")
-    r = subprocess.run(["ffmpeg", "-nostats", "-i", fin, "-af", "ebur128", "-f", "null", "-"], capture_output=True, text=True).stderr
+    r = subprocess.run(["ffmpeg", "-nostats", "-i", fin, "-af", "ebur128=peak=true", "-f", "null", "-"], capture_output=True, text=True).stderr
     m = re.findall(r"I:\s+(-?[\d.]+) LUFS", r)
     if m:
         lu = float(m[-1])
         chk(abs(lu + 14) <= 1.5, f"loudness {lu} LUFS", f"loudness {lu} LUFS (want -14)")
+    tp = re.findall(r"Peak:\s+(-?[\d.]+) dBFS", r)
+    # Oct 13 2026, ported from Tools/commentary-edit/tools/qa_final.py: true peak, frozen picture, black frames
+    if tp and float(tp[-1]) > -1.0:
+        warn.append(f"true peak {tp[-1]} dBTP (want <= -1.0; lossy re-encodes can clip above it; renders since Oct 13 limit at -2 dBFS)")
+    v = subprocess.run(["ffmpeg", "-nostats", "-i", fin, "-vf", "freezedetect=n=-60dB:d=0.6,blackdetect=d=0.2:pix_th=0.10", "-an", "-f", "null", "-"],
+                       capture_output=True, text=True).stderr
+    fr = [(float(a), float(b)) for a, b in re.findall(r"freeze_start: ([\d.]+).*?freeze_end: ([\d.]+)", v.replace("\n", " "))]
+    still = [(st, e) for s, st, e, d in segs if s.get("kind") == "card" or s["clip"].lower().endswith((".png", ".jpg", ".jpeg"))]
+    frozen = []
+    for a0, b0 in fr:  # a held still card is fine; frozen FOOTAGE over 0.6 s is not
+        overlap = sum(max(0.0, min(b0, e) - max(a0, st)) for st, e in still)
+        if (b0 - a0) - overlap > 0.6:
+            frozen.append((round(a0, 1), round(b0, 1)))
+    chk(not frozen, "no frozen footage", f"picture frozen on footage at {frozen} s (dead frame: replace or split the shot)")
+    blk = re.findall(r"black_start:([\d.]+) black_end:([\d.]+)", v)
+    chk(not blk, "no black frames", f"black frames at {[(round(float(a), 1), round(float(b), 1)) for a, b in blk]} s")
     tail = total - words[-1]["end"]
     warn = []
     rinfo = os.path.join(F, "_render.json")
