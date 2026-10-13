@@ -1,0 +1,1 @@
+2026-10-13 41 Is Anyone Taller Tha   PASS HNR   9.7 jit 2.71 shim  9.44 jumps/s 0.00 clicks/min 4961.1 hf%  4.35 f0 199 dur 26.23  

@@ -38,8 +38,11 @@ def norm_words(text):
     text = text.lower().replace("’", "'").replace("—", " ").replace("–", " ").replace("-", " ")
     text = re.sub(r"\$(\d+(?:\.\d+)?)\s*m\b", r"\1 million", text)
     text = text.replace("%", " percent")
+    text = re.sub(r"(\d+)\s*'\s*(\d+)\s*(?:\"|''|\u201d)?", r"\1 foot \2", text)  # recogniser writes 7'5" for 'seven-foot-five' (Oct 13)
     toks = re.findall(r"[a-z0-9']+", text)
-    return [NUMS.get(t, t).strip("'") for t in toks if t.strip("'")]
+    out = [NUMS.get(t, t).strip("'") for t in toks if t.strip("'")]
+    # heights: the recogniser writes 'seven-foot-five' as 7'5", often split into two words; compare as '7 5' on both sides
+    return [w for i, w in enumerate(out) if not (w in ("foot", "feet") and 0 < i < len(out) - 1 and out[i - 1].isdigit() and out[i + 1].isdigit())]
 
 
 NUMWORDS = set(NUMS) | {"hundred", "thousand", "million", "billion", "sixty", "seventy", "eighty", "ninety", "dollars", "dollar", "percent", "point", "and", "oh"}

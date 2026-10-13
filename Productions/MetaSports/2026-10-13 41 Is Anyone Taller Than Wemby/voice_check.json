@@ -1,0 +1,51 @@
+{
+ "verdict": "CHECK",
+ "wpm": 224,
+ "issues": [],
+ "notes": [
+  " 1.38s  \"wembanyama\" heard as \"wembun yama\" (close; check the name)",
+  " 4.92s  \"jamarion\" heard as \"jamarian\" (close; check the name)",
+  " 7.52s  \"waived\" heard as \"waved\" (close; check the name)",
+  "10.56s  \"waived\" heard as \"waved\" (close; check the name)",
+  " 8.99s  dragging sentence (163 wpm): Twenty twenty-five: Dallas again."
+ ],
+ "heard": "This man is listed taller than Victor Wembun -Yama, and he's never played an NBA game that counts. 7 '5\", Jamarian Sharp, 2024. Dallas brings him to camp, waved. 0 minutes that count, 2025. Dallas again, waved again, 0. This summer, the Clippers signed him. In September, they cut him. Still 0. And it's not his defense. Last season, he was the G -League's defensive player of the year. That's 3 cuts and 0 minutes that count. On Monday, Toronto gave him 1 more camp. The season starts next week. 7 '5\", NBA Minutes That Count, still 0.",
+ "mismatches": [
+  {
+   "at": 1.38,
+   "script": "wembanyama",
+   "heard": "wembun yama",
+   "similar": 0.9
+  },
+  {
+   "at": 4.92,
+   "script": "jamarion",
+   "heard": "jamarian",
+   "similar": 0.88
+  },
+  {
+   "at": 5.64,
+   "script": "20 20 4",
+   "heard": "2024",
+   "similar": 1.0
+  },
+  {
+   "at": 7.52,
+   "script": "waived",
+   "heard": "waved",
+   "similar": 0.91
+  },
+  {
+   "at": 8.98,
+   "script": "20 20 5",
+   "heard": "2025",
+   "similar": 1.0
+  },
+  {
+   "at": 10.56,
+   "script": "waived",
+   "heard": "waved",
+   "similar": 0.91
+  }
+ ]
+}

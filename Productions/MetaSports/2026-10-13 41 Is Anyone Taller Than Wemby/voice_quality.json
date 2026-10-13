@@ -1,0 +1,16 @@
+[
+ {
+  "name": "2026-10-13 41 Is Anyone Taller Tha",
+  "dur": 26.23,
+  "voiced": 0.68,
+  "hnr": 9.7,
+  "jitter": 2.71,
+  "shimmer": 9.44,
+  "jumps": 0.0,
+  "clicks": 4961.1,
+  "hf": 4.35,
+  "f0_med": 199.0,
+  "verdict": "PASS",
+  "problems": []
+ }
+]
