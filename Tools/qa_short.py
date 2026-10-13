@@ -98,7 +98,7 @@ def main():
     chk(not blk, "no black frames", f"black frames at {[(round(float(a), 1), round(float(b), 1)) for a, b in blk]} s")
     tail = total - words[-1]["end"]
     rinfo = os.path.join(F, "_render.json")
-    rinfo = json.load(open(rinfo)) if os.path.exists(rinfo) and not a.video else {}
+    rinfo = json.load(open(rinfo)) if os.path.exists(rinfo) else {}  # variants (e.g. final_pointer.mp4) are made from this render
     clipdur = {}
     short = []
     for s, st, e, d in segs:

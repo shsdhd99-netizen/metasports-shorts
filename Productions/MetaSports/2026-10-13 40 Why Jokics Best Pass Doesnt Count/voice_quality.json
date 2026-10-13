@@ -1,0 +1,16 @@
+[
+ {
+  "name": "2026-10-13 40 Why Jokics Best Pass",
+  "dur": 21.57,
+  "voiced": 0.71,
+  "hnr": 9.6,
+  "jitter": 2.95,
+  "shimmer": 11.52,
+  "jumps": 0.0,
+  "clicks": 8439.7,
+  "hf": 4.49,
+  "f0_med": 200.0,
+  "verdict": "PASS",
+  "problems": []
+ }
+]

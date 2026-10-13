@@ -1,0 +1,4 @@
+Voice check: PASS   (96 words, 21.3s, 271 wpm)
+  note  14.58s  "preseason" heard as "pre season" (close; check the name)
+  note  16.38s  "preseason" heard as "pre season" (close; check the name)
+  heard: Nikola Jokic's best pass ever doesn't even count. No look. Behind the back. Corner to corner. Cam Johnson buries the three. A week later, Jokic told reporters it was probably the best pass of his NBA career. He has 6 ,080 assists in the record book, so this should be number 6 ,081. It isn't. It happened in a pre -season game in a college gym in Boulder. And pre -season assists never go in the book, so his total still reads 6 ,080. And his best one ever isn't in there.
