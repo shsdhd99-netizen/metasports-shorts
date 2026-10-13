@@ -228,7 +228,7 @@ def ffmpeg_engine(folder, voice, shots, clips, ins, total, a, zooms=()):
     """No Drift (Linux/cloud): trim + scale/crop each shot with ffmpeg, concat, mux the voice, then finish()."""
     tmp = os.path.join(folder, "_shots_tmp")
     os.makedirs(tmp, exist_ok=True)
-    parts = []
+    parts, fits = [], []
     k = 0
     for i, (start, end) in enumerate(shots):
         clip = clips[i % len(clips)]
@@ -247,7 +247,22 @@ def ffmpeg_engine(folder, voice, shots, clips, ins, total, a, zooms=()):
         if still:
             cmd = ["ffmpeg", "-y", "-loglevel", "error", "-loop", "1", "-t", f"{want:.3f}", "-i", clip, "-vf", vf]
         else:
-            cmd = ["ffmpeg", "-y", "-loglevel", "error", "-ss", f"{offset:.3f}", "-stream_loop", "-1", "-i", clip, "-t", f"{want:.3f}", "-vf", vf]
+            # Oct 13 2026 fix: a shot longer than what is left of its clip used to LOOP the clip (-stream_loop), which shows as a
+            # visible jump-back / stutter (22 of 27 Short folders had one; #33 looped a 0.17 s clip 11 times). Now: a small
+            # shortfall plays the clip slightly slower (at most 1.33x), a big one plays it once and holds the last frame, and both warn.
+            avail = duration(clip) - offset
+            if avail >= want - 0.04:
+                pre = ""
+            elif avail >= want / 1.33:
+                pre = f"setpts={want / max(avail, 0.05):.4f}*PTS,"
+                fits.append({"shot": i + 1, "clip": os.path.basename(clip), "fit": "slowed", "factor": round(want / max(avail, 0.05), 3)})
+                print(f"  note: shot {i + 1} ({os.path.basename(clip)}) is {want - avail:.2f} s longer than its clip: slowed to fit")
+            else:
+                pre, vf = "", vf + f",tpad=stop_mode=clone:stop_duration={want - max(avail, 0):.3f}"
+                fits.append({"shot": i + 1, "clip": os.path.basename(clip), "fit": "held", "hold_s": round(want - max(avail, 0), 2)})
+                print(f"  WARNING: shot {i + 1} ({os.path.basename(clip)}) needs {want:.2f} s but the clip has {avail:.2f} s: "
+                      f"last frame held {want - avail:.2f} s. Use a longer clip or split the shot.")
+            cmd = ["ffmpeg", "-y", "-loglevel", "error", "-ss", f"{offset:.3f}", "-i", clip, "-t", f"{want:.3f}", "-vf", pre + vf]
         r = subprocess.run(cmd + ["-an", "-c:v", "libx264", "-crf", "16", "-preset", "veryfast", out], capture_output=True, text=True)
         if r.returncode:
             raise SystemExit(f"ffmpeg could not cut shot {i + 1} ({os.path.basename(clip)}): {r.stderr[-300:]}")
@@ -266,6 +281,8 @@ def ffmpeg_engine(folder, voice, shots, clips, ins, total, a, zooms=()):
         finish(folder, raw, final, total, a.caption_style, music=a.music, music_db=a.music_db, music_start=a.music_start, hook_text=(a.hook_text or (open(os.path.join(folder, "hook.txt"), encoding="utf-8").read().strip() if os.path.exists(os.path.join(folder, "hook.txt")) else None)) if os.environ.get("ALLOW_HOOK_TEXT") == "1" else None)
     else:
         os.replace(raw, final)
+    json.dump({"engine": "ffmpeg", "out": a.out_name, "loop_fix": True, "fits": fits},
+              open(os.path.join(folder, "_render.json"), "w"), indent=1)  # qa_short.py reads this (no replays; holds > 0.5 s fail)
     import shutil
     shutil.rmtree(tmp, ignore_errors=True)
     print(f"Done: {final} ({duration(final):.1f}s)")

@@ -11,6 +11,10 @@ Rules (from the retention research; each has burned a Short before):
          >=35% 'action' (b-roll that shows the story); cards <=25%; no 2 identical neighbours (same clip + same in-point).
   AUDIO  loudness -14 +-1.5 LUFS; no silence over 0.6 s inside the voice.
   LENGTH 18-35 s. Last shot repeats the first clip (loop).
+  CLIPS  (Oct 13 2026) no shot longer than what is left of its clip: assemble.py before Oct 13 LOOPED the clip (visible
+         jump-back; found in 22 of 27 folders). Since then it slows small gaps (<=1.33x) and holds the last frame on big ones;
+         a hold over 0.5 s fails (frozen picture). Renders made after the fix write _render.json.
+  OPENING (warn only, HYPOTHESIS n=14) a card/screenshot in the first 4 s: the 4 most-viewed Oct posts had none before 7 s.
 """
 import argparse, json, os, re, subprocess, sys
 
@@ -52,7 +56,7 @@ def main():
     chk(len(in3) >= 3, f"{len(in3)} shots in first 3 s", f"only {len(in3)} shots in first 3 s (want >=3)")
     chk(any(s.get("kind") == "action" for s in in3), "real action footage in first 3 s", "no 'action' footage in the first 3 s (a talking head or card hook gets swiped)")
     hook = " ".join(w["word"] for w in words if w["start"] < 3.0)
-    chk(bool(re.search(r"\d|[A-Z][a-z]+ [A-Z]|million|billion|percent|first|never|only|banned|illegal|rule", hook)) , "hook line has a name/number/stakes", f"hook line weak: '{hook}'")
+    chk(bool(re.search(r"\d|[A-Z][a-z]+ [A-Z]|million|billion|percent|first|never|only|banned|illegal|rule|\b(one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen|twenty|thirty|forty|fifty|sixty|seventy|eighty|ninety|hundred)\b", hook, re.I)) , "hook line has a name/number/stakes", f"hook line weak: '{hook}'")
     long_ = [(s["clip"], round(d, 1)) for s, _, _, d in segs if d > (4.5 if s.get("kind") == "quote" else 3.6)]
     chk(not long_, "no shot too long", f"shots too long: {long_}")
     avg = total / len(segs)
@@ -77,10 +81,33 @@ def main():
         chk(abs(lu + 14) <= 1.5, f"loudness {lu} LUFS", f"loudness {lu} LUFS (want -14)")
     tail = total - words[-1]["end"]
     warn = []
+    rinfo = os.path.join(F, "_render.json")
+    rinfo = json.load(open(rinfo)) if os.path.exists(rinfo) and not a.video else {}
+    clipdur = {}
+    short = []
+    for s, st, e, d in segs:
+        c = os.path.join(F, "clips", s["clip"])
+        if not os.path.exists(c) or c.lower().endswith((".png", ".jpg", ".jpeg")):
+            continue
+        if c not in clipdur:
+            clipdur[c] = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", c], capture_output=True, text=True).stdout or 0)
+        gap = d - (clipdur[c] - float(s.get("in", 0) or 0))
+        if gap > 0.08:
+            short.append((s["clip"], round(st, 1), round(gap, 2)))
+    if rinfo.get("loop_fix"):
+        held = [f for f in rinfo.get("fits", []) if f.get("fit") == "held" and f.get("hold_s", 0) > 0.5]
+        chk(not held, "no frozen holds", f"frozen last frame over 0.5 s (clip too short): {held}")
+        if short:
+            warn.append(f"clips shorter than their shots (slowed/held by assemble, not looped): {short}")
+    else:
+        chk(not short, "no clip replays", f"clip shorter than its shot = visible replay/jump-back (clip, at s, short by s): {short}; re-render with assemble.py (Oct 13+) or use longer clips")
+    early_cards = [round(st, 1) for s, st, e, d in segs if s.get("kind") == "card" and st < 4.0]
+    if early_cards:
+        warn.append(f"card/screenshot in the first 4 s at {early_cards} s (HYPOTHESIS: the Oct posts that broke out had real footage/faces there)")
     if tail < 0.1:
         bad.append(f"voice is cut off: last word ends {tail:.2f}s before the end (add 0.3 s tail: ffmpeg -af apad=pad_dur=0.3)")
     first8 = " ".join(w["word"] for w in words[:8]).lower()
-    if not re.search(r"\d|\b(but|never|banned|caught|first|only|wrong|illegal|fine|fined|suspended|record|why|how|what|did|is|will)\b", first8):
+    if not re.search(r"\d|\b(one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|twenty|thirty|forty|fifty|hundred)\b|\b(but|never|banned|caught|first|only|wrong|illegal|fine|fined|suspended|record|why|how|what|did|is|will)\b", first8):
         warn.append(f"hook has no number or conflict/question word in the first 8 words: '{first8}' (state the question the viewer needs answered by 1.5 s)")
     tiny = [round(d, 2) for s, _, _, d in segs if d < 0.6]
     if tiny:
