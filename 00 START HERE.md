@@ -1,4 +1,36 @@
-# START HERE (Round 3)
+# START HERE (updated Oct 13, 2026)
+
+| You want... | Open |
+|---|---|
+| **What to make and post next** (the only queue) | `Production Queue.md` |
+| **How every Short must be built** (Strict Short Formula + pass/fail gate) | `MetaSports - Playbook.md` (top section) |
+| **Current state, open decisions, handoff** (for any new session) | `CLOUD STATE - read this first.md` (the newest section is at the bottom) |
+| **Why the formula is what it is** | `Research Notes/Winning Formula v2 (Oct 13, 2026).md` |
+| **Results of posted Shorts** | `Research Notes/Outcome Log.md` |
+| **Lessons, with confidence levels** | `Research Notes/Lessons Learned (running log).md` |
+| **What happened Oct 6-13 (Grok, tool defects)** | `Research Notes/Handoff Audit (Oct 13, 2026).md` |
+| **Voice pick (your ear needed)** | phone page https://claude.ai/artifact/Y9P8QRytak2ikDRfMDqdj2 (files: `Research Notes/Voice Lineup (Oct 13, 2026)/`) |
+| **Phone Hub (videos, titles, tags to post)** | https://claude.ai/artifact/EZrk8n855PyYpMFnMnMJd4 |
+| **Every tool and command** | `Tools Guide.md` (Oct 13 changes at the top) |
+| **Independent review of new Shorts** | `Research Notes/Critic v2 Review (Oct 13, 2026).md` (rubric: `Tools/critic_v2.md`) |
+
+**Do next:**
+1. Pick a voice number on the lineup page.
+2. Post from `Production Queue.md` in order, logging each post time.
+3. At 48 h, send the Studio numbers, or let the daily check log the public ones.
+
+**Historical (kept as evidence, not instructions):**
+- `Posting Roadmap - Oct 2026.md`
+- `Roadmap - Next 90 Days.md`
+- `MetaSports - Scripts (Batch 2).md`
+- `CLOUD_HANDOFF.md` (Oct 3)
+- `Research Notes/Next Wave Plan.md`
+- `Research Notes/Wave 3 Plan.md`
+- Critique Rounds 1-3. The Round 3 scores ran backwards against real views.
+
+---
+
+## Older notes (Round 3, Sep 2026, PC era)
 
 **📱 Phone:** [Road to 100K](https://claude.ai/artifact/APu9e6r5eQso67k1VLT91d). It has a **Today** card with the title and pinned comment to copy, "Mark posted", and a live title maker. **💻 PC:** double-click `OPEN ME - Road to 100K.html` in this folder.
 

@@ -1,3 +1,5 @@
+> **STATUS Oct 13, 2026:** each idea's build/post status is now in the matching JSON (`status` field). Built ideas map to production folders; the live order is `Production Queue.md`.
+
 # Idea Bank 2 - Viral Repurposes (Oct 5, 2026)
 
 *Research agent. No uploads. Evidence: yt-dlp public metadata (views, dates, titles, durations) pulled Oct 5, 2026 for 12 channels; web searches for fresh facts. I could not watch or hear any Short (downloads and subtitles blocked), so structure below is read from titles, lengths and channel context. All tiers and scores are HYPOTHESIS.*

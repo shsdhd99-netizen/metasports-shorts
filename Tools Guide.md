@@ -1,5 +1,25 @@
 # Tools Guide
 
+> ## Oct 13, 2026 changes (cloud; all tested on real Shorts)
+> - **`assemble.py`:** no more accidental clip loops.
+>   - A shot longer than its clip used to replay the clip. That happened in 22 of 27 folders.
+>   - Now a small gap slows the clip (≤1.33x), a big gap holds the last frame and prints a WARNING, and every render writes `_render.json`.
+>   - The final mix limiter ceiling is now -2 dBFS.
+> - **`qa_short.py`:** new checks.
+>   - FAILs: clip replays (old renders), frozen holds over 0.5 s, frozen footage over 0.6 s, black frames.
+>   - Warns: true peak above -1 dBTP; a card in the first 4 s.
+>   - Spelled-out numbers now count in the hook check.
+>   - `--video` variants use the folder's render log.
+> - **`voice_fx.py`:** pause trimming now cuts only inside measured silence. It used to cut syllables ("198" came out as "190").
+>   - CLI: `python voice_fx.py in.mp3 out.mp3 [words.json]`.
+> - **`voice_check.py`:** heights such as 7'5" / "seven-foot-five" no longer raise false REDOs.
+> - **New `pointer.py`:** red circle (and optional arrow) on the detail for the frame-1 A/B test.
+>   - `python pointer.py final.mp4 final_pointer.mp4 --x 500 --y 640 --r 280 --t0 0 --t1 1.1 [--arrow from-left]`
+> - **New `critic_v2.md`:** the independent pre-publication review rubric. It judges the premise first and gives a verdict, not a score.
+> - **`rate_short.py`** (the Oct 5 0-100 craft score) predicted views backwards (rho −0.63). Use it only to catch defects, never to order posts.
+> - **Voice lineup generator:** `Research Notes/Voice Lineup (Oct 13, 2026)/gen_lineup.py`, for a loudness-matched, same-script comparison.
+> - **How a Short is built now:** the per-batch loop in `MetaSports - Playbook.md`, Strict Short Formula §11.
+
 There are two ways to use everything here:
 - **Easiest:** type a command in Claude (the Code tab, opened on this folder) and Claude runs the tools for you.
 - **By hand:** open the `Tools` folder, click the address bar, type `cmd`, press Enter, then paste a command from below.

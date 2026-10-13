@@ -72,7 +72,7 @@ Research Notes/Round 9 - Competitor Shorts Watched (Oct 5, 2026).md. Findings (n
 - **Handoff audit:** `Research Notes/Handoff Audit (Oct 13, 2026).md`.
   - No Grok work from Oct 6-13 is reachable from the cloud. Git, PRs, the Hub and scratch show nothing new; the PC paths and Google Drive are inaccessible (Drive connector auth error).
   - The 15 posts are our exact exports. #19 went up as the premise-line version, #17 with CoachClank captions. Titles of #17 and #20 were changed outside our options (#17's misstates the facts). The #25 re-post is an identical file.
-- **Formula:** `Research Notes/Winning Formula v2 (Oct 13, 2026).md` (one visible object + one paradox in second 1; one measure; the ending answers the opening; red circle in frame 1 = HYPOTHESIS under test). The Round 3 critic score predicted views backwards (rho −0.63), so the critic is now `Tools/critic_v2.md`. The Playbook has an Oct 13 box that overrides conflicting older lines.
+- **Formula:** `Research Notes/Winning Formula v2 (Oct 13, 2026).md` (one visible object + one paradox in second 1; one measure; the ending answers the opening; red circle in frame 1 = HYPOTHESIS under test). The Round 3 critic score predicted views backwards (rho −0.63), so the critic is now `Tools/critic_v2.md`. The Playbook now opens with the canonical Strict Short Formula (overrides older lines).
 - **Tool fixes (verified):**
   - `voice_fx.py` pause trimming cut syllables; it now cuts only inside measured silence.
   - `assemble.py` looped clips shorter than their shot (22 of 27 folders). It now slows small gaps and holds big ones, and writes `_render.json`.
@@ -83,5 +83,5 @@ Research Notes/Round 9 - Competitor Shorts Watched (Oct 5, 2026).md. Findings (n
   - Re-rendered with the fixed assembler: #21, #26, #27, #28, #30, #37, #38 (old exports in `_pre_oct13/`).
   - #33 is blocked: a corrupt clip plus an 11x replay; it needs new footage.
 - **Batch 4:** `Research Notes/Batch 4 Concepts (Oct 13, 2026).md` has 4 researched concepts: Jokic pass, Wilt 48.5 minutes, Jordan No. 12, Sharp listed taller than Wemby. Being built: **#40 Jokic** and **#41 Sharp** (folders `2026-10-13 40 ...` and `2026-10-13 41 ...`), each with a plain and a red-circle opening. Each one passes or fails on Critic v2.
-- **Posting order:** the Queue v2 box at the top of `Posting Roadmap - Oct 2026.md`.
+- **Posting order:** `Production Queue.md` (canonical).
 - **Credits:** vidIQ 145/150 (renews Nov 5). ElevenLabs about 1.6K characters spent today on the lineup, plus the builders' takes.

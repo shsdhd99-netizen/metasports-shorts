@@ -14,7 +14,9 @@
   "footage": "official NBA/team X posts and NBA YouTube (download via Tools/x_clip.py); Game 4 clips from NBA X",
   "score": 4,
   "expected_tier": "B",
-  "risk": "Low. Verify the old-record holder (24) and date (Wed Jun 10) in the nba.com recap."
+  "risk": "Low. Verify the old-record holder (24) and date (Wed Jun 10) in the nba.com recap.",
+  "status": "built #32 (in Production Queue.md)",
+  "status_checked": "2026-10-13"
  },
  {
   "id": "ib37",
@@ -31,7 +33,9 @@
   "footage": "official NBA/team X posts and NBA YouTube (download via Tools/x_clip.py); NBA X clip + evidence card",
   "score": 3,
   "expected_tier": "B",
-  "risk": "Low. Our date for Game 4 is June 10; the fetched page showed June 12, recheck."
+  "risk": "Low. Our date for Game 4 is June 10; the fetched page showed June 12, recheck.",
+  "status": "open (not built; re-check freshness before use)",
+  "status_checked": "2026-10-13"
  },
  {
   "id": "ib38",
@@ -49,7 +53,9 @@
   "footage": "archive.org / X: Sixers posts of LeBron scoring; evidence card from b-ref",
   "score": 4,
   "expected_tier": "B",
-  "risk": "Medium. Secondary source only; regular season vs incl. playoffs may flip the 672/671."
+  "risk": "Medium. Secondary source only; regular season vs incl. playoffs may flip the 672/671.",
+  "status": "open (not built; re-check freshness before use)",
+  "status_checked": "2026-10-13"
  },
  {
   "id": "ib39",
@@ -67,7 +73,9 @@
   "footage": "official NBA/team X posts and NBA YouTube (download via Tools/x_clip.py); Feb 2026 LeBron triple-double clip, official X",
   "score": 3,
   "expected_tier": "B",
-  "risk": "Medium. Needs a primary check of the date and age."
+  "risk": "Medium. Needs a primary check of the date and age.",
+  "status": "built #39 (in Production Queue.md)",
+  "status_checked": "2026-10-13"
  },
  {
   "id": "ib40",
@@ -85,7 +93,9 @@
   "footage": "official NBA/team X posts and NBA YouTube (download via Tools/x_clip.py); Sixers X posts of LeBron + archive Horry clips",
   "score": 4,
   "expected_tier": "B",
-  "risk": "Medium. Confirm Horry/Salley/Green counts and that LeBron has titles with three teams."
+  "risk": "Medium. Confirm Horry/Salley/Green counts and that LeBron has titles with three teams.",
+  "status": "open (not built; re-check freshness before use)",
+  "status_checked": "2026-10-13"
  },
  {
   "id": "ib41",
@@ -103,7 +113,9 @@
   "footage": "official NBA/team X posts and NBA YouTube (download via Tools/x_clip.py); Sixers/Grizzlies X posts; archive.org 2003 clips",
   "score": 5,
   "expected_tier": "A",
-  "risk": "Low. Simple math, two primary pages. Check LeBron's debut date on b-ref."
+  "risk": "Low. Simple math, two primary pages. Check LeBron's debut date on b-ref.",
+  "status": "built #36 (in Production Queue.md)",
+  "status_checked": "2026-10-13"
  },
  {
   "id": "ib42",
@@ -121,7 +133,9 @@
   "footage": "official NBA/team X posts and NBA YouTube (download via Tools/x_clip.py); team X posts; archive.org 2007 draft night",
   "score": 4,
   "expected_tier": "B",
-  "risk": "Low-medium. Confirm draft order (my memory) and that all three are on opening-night rosters."
+  "risk": "Low-medium. Confirm draft order (my memory) and that all three are on opening-night rosters.",
+  "status": "posted (#34)",
+  "status_checked": "2026-10-13"
  },
  {
   "id": "ib43",
@@ -138,7 +152,9 @@
   "footage": "official NBA/team X posts and NBA YouTube (download via Tools/x_clip.py); Grizzlies/Mavs X",
   "score": 2,
   "expected_tier": "C",
-  "risk": "Low. Weak hook."
+  "risk": "Low. Weak hook.",
+  "status": "open (not built; re-check freshness before use)",
+  "status_checked": "2026-10-13"
  },
  {
   "id": "ib44",
@@ -155,7 +171,9 @@
   "footage": "official NBA/team X posts and NBA YouTube (download via Tools/x_clip.py); NBA X Horford clip (has quote)",
   "score": 3,
   "expected_tier": "B",
-  "risk": "Low."
+  "risk": "Low.",
+  "status": "open (not built; re-check freshness before use)",
+  "status_checked": "2026-10-13"
  },
  {
   "id": "ib45",
@@ -173,7 +191,9 @@
   "footage": "official NBA/team X posts and NBA YouTube (download via Tools/x_clip.py); Spurs X media-day clip (real voice)",
   "score": 4,
   "expected_tier": "A",
-  "risk": "Low. Wemby content proven (26K). Confirm the quote word-for-word in the clip."
+  "risk": "Low. Wemby content proven (26K). Confirm the quote word-for-word in the clip.",
+  "status": "posted (#35)",
+  "status_checked": "2026-10-13"
  },
  {
   "id": "ib46",
@@ -190,7 +210,9 @@
   "footage": "official NBA/team X posts and NBA YouTube (download via Tools/x_clip.py); Spurs/NBA media day clip",
   "score": 3,
   "expected_tier": "B",
-  "risk": "Medium. Quote not read yet."
+  "risk": "Medium. Quote not read yet.",
+  "status": "open (not built; re-check freshness before use)",
+  "status_checked": "2026-10-13"
  },
  {
   "id": "ib47",
@@ -207,7 +229,9 @@
   "footage": "official NBA/team X posts and NBA YouTube (download via Tools/x_clip.py); Sixers X media-day clip",
   "score": 4,
   "expected_tier": "A",
-  "risk": "Medium. Quote is from ESPN text; check audio before use."
+  "risk": "Medium. Quote is from ESPN text; check audio before use.",
+  "status": "built #38 (in Production Queue.md)",
+  "status_checked": "2026-10-13"
  },
  {
   "id": "ib48",
@@ -224,7 +248,9 @@
   "footage": "official NBA/team X posts and NBA YouTube (download via Tools/x_clip.py); Raptors/NBA X clip",
   "score": 3,
   "expected_tier": "B",
-  "risk": "Low."
+  "risk": "Low.",
+  "status": "open (not built; re-check freshness before use)",
+  "status_checked": "2026-10-13"
  },
  {
   "id": "ib49",
@@ -241,7 +267,9 @@
   "footage": "official NBA/team X posts and NBA YouTube (download via Tools/x_clip.py); Warriors X",
   "score": 2,
   "expected_tier": "C",
-  "risk": "Low-medium. Warriors vs Heat attribution in sources conflicts; use Warriors X."
+  "risk": "Low-medium. Warriors vs Heat attribution in sources conflicts; use Warriors X.",
+  "status": "open (not built; re-check freshness before use)",
+  "status_checked": "2026-10-13"
  },
  {
   "id": "ib50",
@@ -258,7 +286,9 @@
   "footage": "2K official X/YouTube, ratings card",
   "score": 4,
   "expected_tier": "A",
-  "risk": "Low. Confirm on nba.2k.com Top 100."
+  "risk": "Low. Confirm on nba.2k.com Top 100.",
+  "status": "built #37 (in Production Queue.md)",
+  "status_checked": "2026-10-13"
  },
  {
   "id": "ib51",
@@ -276,7 +306,9 @@
   "footage": "2K official X, ratings card",
   "score": 4,
   "expected_tier": "B",
-  "risk": "Medium. Streak and number unverified beyond Yahoo headline."
+  "risk": "Medium. Streak and number unverified beyond Yahoo headline.",
+  "status": "open (not built; re-check freshness before use)",
+  "status_checked": "2026-10-13"
  },
  {
   "id": "ib52",
@@ -293,7 +325,9 @@
   "footage": "2K official X",
   "score": 3,
   "expected_tier": "B",
-  "risk": "Medium. Numbers missing."
+  "risk": "Medium. Numbers missing.",
+  "status": "open (not built; re-check freshness before use)",
+  "status_checked": "2026-10-13"
  },
  {
   "id": "ib53",
@@ -310,7 +344,9 @@
   "footage": "NBA X / archive.org SuperSonics clips",
   "score": 3,
   "expected_tier": "B",
-  "risk": "Medium. News lane; may be stale by posting."
+  "risk": "Medium. News lane; may be stale by posting.",
+  "status": "open (not built; re-check freshness before use)",
+  "status_checked": "2026-10-13"
  },
  {
   "id": "ib54",
@@ -327,7 +363,9 @@
   "footage": "archive.org rulebook explainer; footage of a foul-out game",
   "score": 4,
   "expected_tier": "A",
-  "risk": "Medium. Wording must be checked against 2026-27 rulebook."
+  "risk": "Medium. Wording must be checked against 2026-27 rulebook.",
+  "status": "built #33, blocked: corrupt clip + replay, needs new footage",
+  "status_checked": "2026-10-13"
  },
  {
   "id": "ib55",
@@ -344,7 +382,9 @@
   "footage": "X posts of technicals",
   "score": 3,
   "expected_tier": "B",
-  "risk": "Medium. Numbers from memory, verify."
+  "risk": "Medium. Numbers from memory, verify.",
+  "status": "open (not built; re-check freshness before use)",
+  "status_checked": "2026-10-13"
  },
  {
   "id": "ib56",
@@ -361,7 +401,9 @@
   "footage": "archive.org dunk clips",
   "score": 2,
   "expected_tier": "C",
-  "risk": "Medium."
+  "risk": "Medium.",
+  "status": "open (not built; re-check freshness before use)",
+  "status_checked": "2026-10-13"
  },
  {
   "id": "ib57",
@@ -378,7 +420,9 @@
   "footage": "official NBA/team X posts and NBA YouTube (download via Tools/x_clip.py); Pelicans X",
   "score": 3,
   "expected_tier": "B",
-  "risk": "Medium. Player-criticism framing; keep neutral."
+  "risk": "Medium. Player-criticism framing; keep neutral.",
+  "status": "open (not built; re-check freshness before use)",
+  "status_checked": "2026-10-13"
  },
  {
   "id": "ib58",
@@ -395,7 +439,9 @@
   "footage": "archive.org / X Paul career clips",
   "score": 3,
   "expected_tier": "B",
-  "risk": "Medium. Retirement per Hoops Rumors only."
+  "risk": "Medium. Retirement per Hoops Rumors only.",
+  "status": "open (not built; re-check freshness before use)",
+  "status_checked": "2026-10-13"
  },
  {
   "id": "ib59",
@@ -412,7 +458,9 @@
   "footage": "X clip of the foul",
   "score": 3,
   "expected_tier": "B",
-  "risk": "Medium. Close to our #11."
+  "risk": "Medium. Close to our #11.",
+  "status": "open (not built; re-check freshness before use)",
+  "status_checked": "2026-10-13"
  },
  {
   "id": "ib60",
@@ -430,7 +478,9 @@
   "footage": "archive.org/X LeBron clips",
   "score": 4,
   "expected_tier": "B",
-  "risk": "Low-medium. Update the current total on b-ref."
+  "risk": "Low-medium. Update the current total on b-ref.",
+  "status": "open (not built; re-check freshness before use)",
+  "status_checked": "2026-10-13"
  },
  {
   "id": "ib61",
@@ -448,7 +498,9 @@
   "footage": "X/Sixers",
   "score": 4,
   "expected_tier": "B",
-  "risk": "Low. Verify totals."
+  "risk": "Low. Verify totals.",
+  "status": "open (not built; re-check freshness before use)",
+  "status_checked": "2026-10-13"
  },
  {
   "id": "ib62",
@@ -466,7 +518,9 @@
   "footage": "archive.org",
   "score": 3,
   "expected_tier": "B",
-  "risk": "Medium."
+  "risk": "Medium.",
+  "status": "open (not built; re-check freshness before use)",
+  "status_checked": "2026-10-13"
  },
  {
   "id": "ib63",
@@ -484,7 +538,9 @@
   "footage": "X/Sixers",
   "score": 3,
   "expected_tier": "B",
-  "risk": "Low."
+  "risk": "Low.",
+  "status": "open (not built; re-check freshness before use)",
+  "status_checked": "2026-10-13"
  },
  {
   "id": "ib64",
@@ -501,7 +557,9 @@
   "footage": "official NBA/team X posts and NBA YouTube (download via Tools/x_clip.py); NBA X",
   "score": 3,
   "expected_tier": "B",
-  "risk": "Low."
+  "risk": "Low.",
+  "status": "open (not built; re-check freshness before use)",
+  "status_checked": "2026-10-13"
  },
  {
   "id": "ib65",
@@ -518,6 +576,8 @@
   "footage": "official NBA/team X posts and NBA YouTube (download via Tools/x_clip.py); X",
   "score": 3,
   "expected_tier": "B",
-  "risk": "Low. Check Horford's age (40y 54d)."
+  "risk": "Low. Check Horford's age (40y 54d).",
+  "status": "open (not built; re-check freshness before use)",
+  "status_checked": "2026-10-13"
  }
 ]

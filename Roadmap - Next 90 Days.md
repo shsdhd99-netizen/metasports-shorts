@@ -1,3 +1,5 @@
+> **HISTORICAL (Sep 2026).** The live queue is `Production Queue.md`; the live rules are the Strict Short Formula in `MetaSports - Playbook.md`.
+
 # Roadmap: Next 90 Days (Sep 28 → Dec 27, 2026)
 
 *Round 3. It's built from:*

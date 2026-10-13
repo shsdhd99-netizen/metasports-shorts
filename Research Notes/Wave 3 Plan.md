@@ -1,3 +1,5 @@
+> **HISTORICAL (Sep 2026).** Current queue: `Production Queue.md`.
+
 > ✅ Done on 2026-09-26. Next: Next Wave Plan.md
 
 # Wave 3 Plan (next session)

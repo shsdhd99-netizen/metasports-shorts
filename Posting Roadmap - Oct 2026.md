@@ -1,22 +1,11 @@
-# Posting Roadmap (written Mon Oct 5, 2026)
+# Posting Roadmap (written Mon Oct 5, 2026) — HISTORICAL
 
 > ## SUPERSEDED Oct 13, 2026: the day table below is history; use this box
-> **What happened:** the owner posted 15 Shorts Oct 5-13 in roughly this table's order. Median about 2.8K. Only #19 broke out (20.4K). The table's order came from the Round 3 critic ranking, and that ranking ran backwards against real views (Spearman −0.63, n=14; Winning Formula v2, section g). So order by **formula fit** (Playbook, Oct 13 box), not by craft score. That ordering is a HYPOTHESIS, to be checked at 48 h.
+> **What happened:** the owner posted 15 Shorts Oct 5-13 in roughly this table's order. Median about 2.8K. Only #19 broke out (20.4K). The table's order came from the Round 3 critic ranking, and that ranking ran backwards against real views (Spearman −0.63, n=14; Winning Formula v2, section g). So order by **formula fit** (Playbook, Strict Short Formula), not by craft score. That ordering is a HYPOTHESIS, to be checked at 48 h.
 >
 > **Before posting anything built before Oct 13:** it must pass `Tools/qa_short.py` on the current tools. Seven queued Shorts had clip replays and were re-rendered on Oct 13; old exports are in each folder's `_pre_oct13/`.
 >
-> **Queue v2 (best formula fit first; 1-2 a day; keep 3+ hours between related topics):**
-> 1. **#40 Jokic's best pass doesn't count:** only if Critic v2 passes it. Must post before Oct 22 (the 6,080 total changes). Space it a day from #21.
-> 2. **#41 Listed taller than Wemby (Sharp):** only if Critic v2 passes it. Re-check his roster status on posting day. A replication test of the Flagg-height breakout.
-> 3. **#36 LeBron was pro before Boozer was born:** paradox on the biggest name. Needs the owner's OK on the fan-account rookie clip.
-> 4. **#39 Oldest triple-double:** record oddity.
-> 5. **#30 Giannis steps:** a rule paradox you can see.
-> 6. **#21 Jokic vs Westbrook:** after #40, a day apart.
-> 7. **Lower fit** (news, rule nuance or venue): #28 Hinkle, #32 Spurs comeback (post `_editB`, which drops the opening card), #37 2K27, #38 LeBron promise, #26 screens, #27 lottery.
-> - **Do not post:** #11 (its topic already went up as "Would Jordan's Last Shot Be a Foul Now?", 38 views; re-posts don't get a second test). #33 (corrupt clip a10.mp4 and an 11x replay; needs new footage). #23-style HOLDs are now the owner's call.
->
-> **Tests now running across posts (one variable each, decide at 48 h):** red circle in frame 1 (`final_pointer.mp4` twins of #40/#41, see Winning Formula v2 experiment 1), and no card before 4 s. The premise-line and caption tests each got one confounded pair (#19 vs #20, #17 vs #14), so there is no result yet.
-> **Times:** still unknown. Record each post's time (ET) in the Outcome Log so we can finally test it.
+> **The live queue, calendar and experiments are in `Production Queue.md` (canonical since Oct 13 late). Do not keep a second queue here.**
 
 ## Where the channel is (public numbers, Oct 5)
 - 486 subs, 86 Shorts. Median Short = 29K views (mean 26K). The channel had a long gap (the Sept 26 check said the last upload was 215 days ago), so the audience that sees a new Short is mostly non-subscribers.

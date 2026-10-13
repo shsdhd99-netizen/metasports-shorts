@@ -1,3 +1,5 @@
+> **STATUS Oct 13, 2026:** each idea's build/post status is now in the matching JSON (`status` field). Built ideas map to production folders; the live order is `Production Queue.md`.
+
 # Idea Bank - Oct 4, 2026
 
 *Researcher output, no uploads, no commits. 35 ideas (25 fresh-news, 10 refreshed old hits) ranked by score, with a formats-and-evidence table first. Machine-readable twin: `Research Notes/idea_bank.json`. Today is Oct 4, 2026; the 2026-27 preseason started Oct 3; opening night is Oct 20.*
