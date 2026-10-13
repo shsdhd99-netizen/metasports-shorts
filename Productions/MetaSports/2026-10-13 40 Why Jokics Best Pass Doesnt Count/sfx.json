@@ -1,3 +1,2 @@
-[{"sfx": "swish", "at": 5.95, "gain": -10, "why": "the corner three goes through the net on screen"},
- {"sfx": "whoosh", "at": 7.83, "gain": -12, "why": "jump to the quote card"},
- {"sfx": "boom_cinematic", "at": 13.66, "gain": -12, "why": "the reveal: 'It isn't.'"}]
+[{"sfx": "swish", "at": 8.13, "gain": -10, "why": "the corner three goes through the net on screen (R_shot +1.30 s)"},
+ {"sfx": "boom_cinematic", "at": 12.86, "gain": -12, "why": "the reveal: 'It isn't.'"}]

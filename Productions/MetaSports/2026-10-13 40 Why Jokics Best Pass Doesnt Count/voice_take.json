@@ -1,26 +1,14 @@
 [
  {
   "take": 1,
-  "ok": false,
-  "score": 5.8,
-  "verdict": "PASS",
-  "issues": [],
-  "wpm": 271,
-  "hnr": 9.6,
-  "jitter": 2.95,
-  "shimmer": 11.52,
-  "dur": 21.57
- },
- {
-  "take": 2,
   "ok": true,
-  "score": 5.8,
+  "score": 5.7,
   "verdict": "CHECK",
   "issues": [],
-  "wpm": 288,
-  "hnr": 9.5,
-  "jitter": 2.83,
-  "shimmer": 11.43,
-  "dur": 20.27
+  "wpm": 250,
+  "hnr": 9.2,
+  "jitter": 2.77,
+  "shimmer": 10.71,
+  "dur": 20.94
  }
 ]

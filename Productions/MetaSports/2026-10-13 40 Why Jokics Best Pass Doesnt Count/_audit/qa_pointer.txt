@@ -1,22 +1,22 @@
 PASS
-  warn clips shorter than their shots (slowed/held by assemble, not looped): [('M_pass.mp4', 11.3, 0.57)]
-  warn hook has no number or conflict/question word in the first 8 words: 'nikola jokic's best pass ever doesn't even count.' (state the question the viewer needs answered by 1.5 s)
-  warn no notes.md (needs Lane, Concept, Added value, claim -> exact source quote)
+  warn clips shorter than their shots (slowed/held by assemble, not looped): [('R_close.mp4', 4.7, 0.25), ('M_gym.mp4', 10.8, 0.18), ('M_pass.mp4', 13.4, 0.35), ('M_close.mp4', 15.9, 0.1)]
+  warn hook has no number or conflict/question word in the first 8 words: 'this pass doesn't even count. a week later,' (state the question the viewer needs answered by 1.5 s)
   warn no turn word (But/However/Until/Now) in the first 40% of the script
+  warn title starts with a name ('Why Jokic's Best Pass Doesn't '): Clank's name-first titles got half the views (n=20), test action-first
   ok   every shot has a kind
-  ok   length 21.5s
+  ok   length 21.2s
   ok   voice starts at once
-  ok   opens on 'Nikola'
+  ok   opens on 'This'
   ok   3 shots in first 3 s
   ok   real action footage in first 3 s
   ok   hook line has a name/number/stakes
   ok   no shot too long
-  ok   average shot 1.7s
-  ok   most-used clip M_pass.mp4 19%
-  ok   10 source clips
+  ok   average shot 1.8s
+  ok   most-used clip R_close.mp4 21%
+  ok   9 source clips
   ok   talking head 12%
-  ok   b-roll 63%
-  ok   cards 25%
+  ok   b-roll 66%
+  ok   cards 22%
   ok   no repeated neighbours
   ok   loops to the first shot
   ok   loudness -14.7 LUFS

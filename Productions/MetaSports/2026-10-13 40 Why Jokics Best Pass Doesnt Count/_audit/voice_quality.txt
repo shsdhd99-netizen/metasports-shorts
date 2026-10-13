@@ -1,1 +1,1 @@
-2026-10-13 40 Why Jokics Best Pass   PASS HNR   9.6 jit 2.95 shim 11.52 jumps/s 0.00 clicks/min 8439.7 hf%  4.49 f0 200 dur 21.57  
+2026-10-13 40 Why Jokics Best Pass   PASS HNR   9.1 jit 2.78 shim 10.88 jumps/s 0.00 clicks/min 4229.7 hf%  3.59 f0 200 dur 21.24  

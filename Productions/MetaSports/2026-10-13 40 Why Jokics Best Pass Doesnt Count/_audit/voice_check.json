@@ -1,41 +1,61 @@
 {
- "verdict": "PASS",
- "wpm": 271,
+ "verdict": "CHECK",
+ "wpm": 250,
  "issues": [],
  "notes": [
-  "14.58s  \"preseason\" heard as \"pre season\" (close; check the name)",
-  "16.38s  \"preseason\" heard as \"pre season\" (close; check the name)"
+  " 2.04s  \"jokic\" heard as \"yokic\" (close; check the name)",
+  " 8.36s  \"jokic\" heard as \"yokic\" (close; check the name)",
+  "13.98s  \"preseason\" heard as \"pre season\" (close; check the name)",
+  "16.08s  \"preseason\" heard as \"pre season\" (close; check the name)"
  ],
- "heard": "Nikola Jokic's best pass ever doesn't even count. No look. Behind the back. Corner to corner. Cam Johnson buries the three. A week later, Jokic told reporters it was probably the best pass of his NBA career. He has 6 ,080 assists in the record book, so this should be number 6 ,081. It isn't. It happened in a pre -season game in a college gym in Boulder. And pre -season assists never go in the book, so his total still reads 6 ,080. And his best one ever isn't in there.",
+ "heard": "This pass doesn't even count. A week later, Yokic said it was probably the best pass of his NBA career. No look, behind the back, corner to corner. Cam Johnson buries the three. Yokic has 6 ,080 assists in the record book, so this should be number 6 ,081. It isn't. It happened in a pre -season game, in a college gym in Boulder, and pre -season assists never go in the book. So his total still reads 6 ,080, not 81.",
  "mismatches": [
   {
-   "at": 10.12,
+   "at": 2.04,
+   "script": "jokic",
+   "heard": "yokic",
+   "similar": 0.91
+  },
+  {
+   "at": 8.36,
+   "script": "jokic",
+   "heard": "yokic",
+   "similar": 0.91
+  },
+  {
+   "at": 9.06,
    "script": "thousand and eighty",
    "heard": "080",
    "similar": 1.0
   },
   {
-   "at": 12.76,
+   "at": 11.8,
    "script": "thousand and eighty 1",
    "heard": "081",
    "similar": 1.0
   },
   {
-   "at": 14.58,
+   "at": 13.98,
    "script": "preseason",
    "heard": "pre season",
    "similar": 1.0
   },
   {
-   "at": 16.38,
+   "at": 16.08,
    "script": "preseason",
    "heard": "pre season",
    "similar": 1.0
   },
   {
-   "at": 19.08,
+   "at": 19.0,
    "script": "thousand and eighty",
    "heard": "080",
+   "similar": 1.0
+  },
+  {
+   "at": 19.98,
+   "script": "eighty 1",
+   "heard": "81",
    "similar": 1.0
   }
  ]

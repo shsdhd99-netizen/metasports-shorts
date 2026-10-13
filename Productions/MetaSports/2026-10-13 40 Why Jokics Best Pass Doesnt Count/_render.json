@@ -4,16 +4,28 @@
  "loop_fix": true,
  "fits": [
   {
+   "shot": 4,
+   "clip": "R_close.mp4",
+   "fit": "slowed",
+   "factor": 1.248
+  },
+  {
+   "shot": 8,
+   "clip": "M_gym.mp4",
+   "fit": "slowed",
+   "factor": 1.074
+  },
+  {
    "shot": 9,
    "clip": "M_pass.mp4",
    "fit": "slowed",
-   "factor": 1.258
+   "factor": 1.158
   },
   {
-   "shot": 13,
-   "clip": "R_close.mp4",
+   "shot": 10,
+   "clip": "M_close.mp4",
    "fit": "slowed",
-   "factor": 1.054
+   "factor": 1.057
   }
  ]
 }

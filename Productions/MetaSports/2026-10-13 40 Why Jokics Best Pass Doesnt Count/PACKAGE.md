@@ -1,87 +1,74 @@
-# #40 production package (Oct 13, 2026)
+# #40 production package (v2, Oct 13, 2026 late: re-cut after Critic v2)
 
-**Status:** rendered, and passes automated QA. It is **not "ready to post"** until two things happen: Critic v2 passes it (section 6), and the owner has listened to it.
-**Premise:** Jokic called this pass the best of his career, but it came in a preseason game, so it isn't one of his 6,080 official assists.
-**Viewer question:** "Why doesn't it count?"
-**Target emotion:** surprise, then "that's unfair".
+**Status: ready** once the owner has listened once on a phone speaker. Automated QA PASS (plain and pointer). All the Critic v2 required edits are applied (list below); a second, independent critic pass checked them (see the end of this file).
+**Premise:** Jokic said this pass was probably the best of his NBA career, but it came in a preseason game, so it isn't one of his 6,080 official assists.
+**Viewer question in second 1:** "Why doesn't this pass count?"
+**v1 (pre-critic) files:** `_v1_precritic/` (script, shots, sfx, final, pointer twin, docs).
 
-## 1. Script (Hook / Context / Payoff; 96 words)
-- **Hook (0-2.5 s):** "Nikola Jokic's best pass ever doesn't even count." The paradox is stated in the first sentence, over the pass itself.
-- **Context (2.5-14 s):** what the pass was (no look, behind the back, corner to corner, made three); his own ranking (with the quote card); the measure (6,080 in the record book, so this "should be 6,081"); the turn: "It isn't."
-- **Payoff (14-21.6 s):** why (a preseason game in a college gym; preseason assists never go in the book), then the answer as one number: "still reads six thousand and eighty", and "his best one ever isn't in there" over the opening image (loop).
+## What changed from v1 (Critic v2, Oct 13)
+| Critic finding | Fix in v2 |
+|---|---|
+| The hook voiced "best pass ever" as fact (Jokic said "probably", "in my NBA career") | New hook: "This pass doesn't even count. A week later, Jokic said it was probably the best pass of his NBA career." The paradox is still the first sentence, over the pass |
+| "No look. Behind the back." played over Cam Johnson's catch; the make shown from 3 angles | Shot 1 runs through the release until the ball is gone; "No look. Behind the back." sits on a slowed replay of the release; one angle of the make |
+| Caption chunk "EVER DOESN'T" | Gone: the cards now read "THIS PASS" / "DOESN'T EVEN COUNT." |
+| "College gym" over a frame with no college marking | M_pass, with the BUFFALOES lettering readable, under the whole line |
+| Quote card + StatMuse card back to back (3.5 s of reading) | Quote card removed (the attribution is now spoken over his face); one card for the 6,080 proof |
+| The last line restated the hook | It now ends on the answer as one number: "So his total still reads six thousand and eighty. Not eighty-one." over the opening image (loop) |
+| Pointer ring on his torso, gone before the release | Ring on the hands and ball, 0-1.5 s |
 
-## 2. Voice and pacing
-- **Provisional voice:** clone, setting C (owner's Oct 5 pick), take 1 of 2 (`voice_take.json`). Speed auto 1.15, raw pace 271 wpm, no stretch.
-- **Measured:**
-  - The speech recogniser heard all 96 words. Only note: "preseason" written as "pre season" (spelling only).
-  - HNR 9.6, jitter 2.95, shimmer 11.52 (0.02 over the gate's 11.5, which is within take-to-take noise).
-  - 21.6 s total; the voice runs 0.00-21.27 s.
-- **Cadence:** script_cadence OK (13 sentences, stdev 4.1 words, 4 contractions). Fragments "No look. Behind the back." carry the action; "It isn't." is the one-beat turn.
+## 1. Script (86 words)
+This pass doesn't even count. A week later, Jokic said it was probably the best pass of his NBA career. No look. Behind the back. Corner to corner. Cam Johnson buries the three. Jokic has six thousand and eighty assists in the record book. So this should be number six thousand and eighty-one. It isn't. It happened in a preseason game, in a college gym in Boulder. And preseason assists never go in the book. So his total still reads six thousand and eighty. Not eighty-one.
+
+## 2. Voice
+- Provisional clone voice C, one take (`voice_take.json`): gate PASS, HNR 9.2, jitter 2.77, shimmer 10.71; 250 wpm (house range 247-289).
+- Speed: speed 1.06 via a light time-stretch (auto speed made it 19.5 s, under the 21 s QA floor). Plus 0.3 s of silence at the end for the loop tail.
+- voice_check (whisper): all 86 words heard, including "6,080, not 81" and "6,081". Notes only: "Yokic" (the respelling) and "pre-season".
+- **Owner listen points:**
+  - 12.3 s and 19.5-20.6 s: the watch tool's small recogniser heard "6,0801"; the larger one heard it right.
+  - The name "Jokic".
 
 ## 3. EDL (every beat → the picture that proves it)
-| # | t (s) | clip (kind) | source | in / move | words over it | why |
-|---|---|---|---|---|---|---|
-| 1 | 0.00-1.59 | R_close.mp4 (action) | NBA on X 2107112500168933533 (replay), 0.5-2.45 s | in 0.25, push-in 6% | Nikola Jokic's best pass ever | Frame 1 = the object: Jokic with the ball on the baseline; the behind-the-back release lands at ~1.3 s, on 'pass ever' |
-| 2 | 1.59-2.51 | M_close.mp4 (face) | NBA on X 2106891864284582311, 8.0-11.6 s, crop 560x860 (ticker removed) | in 0.0 | doesn't even count. | His face on the paradox line: who threw it |
-| 3 | 2.51-3.81 | M_pass.mp4 (action) | NBA on X 2106891864284582311, 3.0-5.2 s, crop 484x860 x380 | in 0.4 | No look. Behind the back. | Broadcast angle of the same pass: no look, behind the back |
-| 4 | 3.81-4.65 | R_wide.mp4 (action) | NBA on X 2107112500168933533, 2.45-4.05 s | in 0.05 | Corner to corner. | High replay angle: the ball crosses the whole baseline |
-| 5 | 4.65-6.06 | R_shot.mp4 (action) | NBA on X 2107112500168933533, 3.95-5.85 s | in 0.0 | Cam Johnson buries the three. | Proof of the result: the corner three goes in |
-| 6 | 6.06-7.82 | M_close.mp4 (face) | NBA on X 2106891864284582311, 8.0-11.6 s, crop 560x860 (ticker removed) | in 1.0 | A week later, Jokic told reporters it was | Jokic, the person whose ranking it is |
-| 7 | 7.82-9.60 | c_quote.png (card) | card made from a blurred frame + Denver Post quote | in 0 | probably the best pass of his NBA career. | His exact words with the source (Denver Post, Oct 12): proves 'probably the best pass of his NBA career' |
-| 8 | 9.60-11.28 | c_assists.png (card) | card: StatMuse answer typed from the Oct 13 screenshot (clips/src_statmuse_6080.png) | in 0 | He has six thousand and eighty assists in the | Proof of 6,080 (StatMuse, checked Oct 13) |
-| 9 | 11.28-14.05 | M_pass.mp4 (action) | NBA on X 2106891864284582311, 3.0-5.2 s, crop 484x860 x380 | in 0.0 | record book. So this should be number six thousand and eighty-one. It isn't. | Intentional replay: this pass = the would-be 6,081st |
-| 10 | 14.05-16.25 | M_gym.mp4 (action) | NBA on X 2106891864284582311, 0.4-2.8 s, crop x380 | in 0.0 | It happened in a preseason game, in a college gym in Boulder. | BUFFALOES lettering on the court: a college gym (CU Events Center, Boulder) |
-| 11 | 16.25-17.92 | K_wide.mp4 (action) | Kevin O'Connor on X 2106888715108831278, 0-2.4 s, crop 506x900 | in 0.0 | And preseason assists never go in the book. | Third angle of the same preseason game (UTA-DEN broadcast) |
-| 12 | 17.92-19.81 | c_6080.mp4 (card) | visual_fx statcard | in 0 | So his total still reads six thousand and eighty. | The answer as one number: still 6,080 |
-| 13 | 19.81-21.63 | R_close.mp4 (action) | NBA on X 2107112500168933533 (replay), 0.5-2.45 s | in 0.25 | And his best one ever isn't in there. | Back to the opening image so the Short loops |
-**Cards:** 25% of the runtime (quote 1.8 s, StatMuse 1.7 s, "6,080" 1.9 s), with **no card before 7.8 s**.
-**Footage:** 10 source clips; no shot loops (`_render.json`). M_pass (the intentional replay at 11.3 s) is slowed 1.26x.
+| # | t (s) | clip (kind) | in | words over it | why |
+|---|---|---|---|---|---|
+| 1 | 0.00-1.93 | R_close.mp4 (action) | 0.0 | This pass doesn't even count. A week later, | Frame 1 = the object: Jokic with the ball on the baseline. Runs through the behind-the-back release (clip ~1.8 s) until the ball is gone (critic v2 edit 2) |
+| 2 | 1.93-2.71 | M_close.mp4 (face) | 0.0 | Jokic said it was | The person whose ranking it is, on 'Jokic said it was probably the best pass of his NBA career' (attributed, critic v2 edit 1) |
+| 3 | 2.71-4.71 | K_wide.mp4 (action) | 0.4 | probably the best pass of his NBA career. | The broadcast wide angle of the same pass under 'probably the best pass of his NBA career' (third cut inside 3 s) |
+| 4 | 4.71-5.96 | R_close.mp4 (action) | 0.95 | No look. Behind the back. | Slowed replay of the release itself, so 'No look. Behind the back.' sits on the pass, not the catch (critic v2 edit 2) |
+| 5 | 5.96-6.83 | R_wide.mp4 (action) | 0.1 | Corner to corner. | High angle: the ball crosses the whole baseline to the corner |
+| 6 | 6.83-8.23 | R_shot.mp4 (action) | 0.0 | Cam Johnson buries the three. | The one angle of the make (critic v2: keep one angle) |
+| 7 | 8.23-10.78 | c_assists.png (card) | - | Jokic has six thousand and eighty assists in the record book. | Proof of 6,080 (StatMuse, checked Oct 13) |
+| 8 | 10.78-13.36 | M_gym.mp4 (action) | 0.0 | So this should be number six thousand and eighty-one. It isn't. | The same pass from the broadcast camera: this is the would-be 6,081st |
+| 9 | 13.36-15.91 | M_pass.mp4 (action) | 0.0 | It happened in a preseason game, in a college gym in Boulder. | BUFFALOES lettering readable under the whole line 'It happened in a preseason game, in a college gym in Boulder' (CU Events Center; critic v2 recommended edit) |
+| 10 | 15.91-17.71 | M_close.mp4 (face) | 1.9 | And preseason assists never go in the book. | Jokic again on the rule that erases his assist |
+| 11 | 17.71-19.80 | c_6080.mp4 (card) | - | So his total still reads six thousand and eighty. | The answer as one number: still 6,080 |
+| 12 | 19.80-21.27 | R_close.mp4 (action) | 0.0 | Not eighty-one. | Back to the opening image so the Short loops into 'This pass doesn't even count.' |
 
-## 4. Captions and on-screen text
-- House captions (metasports: white Montserrat, ALL CAPS, red/green emphasis), timed word by word from `words.json`, inside the 45-62% height band.
-- Cards keep their text at 18-45% height, so captions never cover them. Checked on the frame sheet (`_audit/watch/sheet.jpg`).
+- **Cards:** 22% of runtime, none before 8.2 s.
+- **Fits** (`_render.json`): 3 clips are slowed 1.06-1.25x; nothing loops or holds.
+- **Sources:** as in v1 (NBA and Kevin O'Connor posts on X; every cut 2.4 s or less, cropped, under commentary).
+
+## 4. Captions
+House metasports captions from `words.json`. Checked on `_audit/watch/sheet.jpg`: clear of the cards, no split hook phrase.
 
 ## 5. Sound
 | t | effect | gain | why |
 |---|---|---|---|
-| 5.95 | swish | -10 dB | the corner three goes in on screen (checked on frame 6.0) |
-| 7.83 | whoosh | -12 dB | cut to the quote card |
-| 13.66 | boom_cinematic | -12 dB | the reveal "It isn't." |
+| 8.13 | swish | -10 dB | the corner three goes in on screen (R_shot +1.30 s) |
+| 12.86 | boom_cinematic | -12 dB | "It isn't." |
 
-- No music (the Oct 5 rule; no test says music helps).
-- Voice lifted to -14 LUFS. Limiter ceiling -2 dBFS (since Oct 13).
-
-## 6. Opening variants (controlled test) and cover
+## 6. Variants and covers
 - **A (plain):** `final.mp4` = `READY TO POST - ...mp4`.
-- **B (pointer):** `final_pointer.mp4`, a red ring on Jokic and the ball, 0-1.1 s. Both pass QA (`_audit/qa.txt`, `_audit/qa_pointer.txt`).
-- **Covers:** `cover_A.png` (frame 1) and `cover_B_pointer.png`.
+- **B (pointer):** `final_pointer.mp4`, a red ring at (460, 790), r 190, 0-1.5 s, around his hands and the ball.
+- **Covers:** `cover_A.png` (frame 1) and `cover_B_pointer.png` (0.4 s, ball inside the ring).
 
-## 7. QA run (Oct 13)
-- `qa_short.py`: **PASS**, both versions. Length 21.6 s, 3 shots in the first 3 s, real action in the first 3 s, cards 25%, -14.7 LUFS, no frozen footage, no black frames, no replays.
-- Warnings:
-  - The QA word list does not count "doesn't count" as a conflict word.
-  - The turn word "It isn't" falls at 63%, not in the first 40%. It is a paradox-first structure, so the turn is the explanation.
-- `voice_check.py --stt whisper`: **PASS**.
-- `voice_quality.py`: PASS. Its clicks metric is crude and unused; it reads 250-8,400 on clean takes.
-- **Visual check** (frame sheet): every shot checked against its words.
-  - The correct player appears on every name.
-  - Tickers are cropped out.
-  - Captions sit clear of the cards.
-- **NOT verified:** naturalness by ear. Only the owner can judge that; the automated checks only prove the words are right.
-
-## 8. Final gate (Playbook Oct 13 / Section 9 checklist)
-| Check | Result |
-|---|---|
-| Premise clear to a casual fan in second 1 | Yes: "best pass ever doesn't even count" over the pass |
-| First line short, specific, creates a question | Yes (9 words) |
-| First frame supports the hook | Yes: Jokic with the ball |
-| Every sentence adds a fact or sets up the payoff | Yes, on one measure (the record book) |
-| Claims sourced | Yes (notes.md) |
-| Not a duplicate | Yes: copy check FRESH; no overlap with the 39 folders |
-| Visual evidence for each beat | Yes (EDL) |
-| Captions readable, not over faces or action | Yes (frame sheet) |
-| Voice intelligible | Yes (recogniser heard all 96 words). **Naturalness: owner's ear** |
-| Ending answers the opening, no CTA | Yes: "still 6,080 ... isn't in there" |
-| Title and cover accurate | Yes |
-| Render watched end to end | Frames at 0.5-1 s intervals plus the transcript of the final audio. Not listened to by a human |
-| Independent critic | See `Research Notes/Critic v2 Review (Oct 13, 2026).md` |
+## 7. QA (Oct 13 late)
+- `qa_short.py`: **PASS** for both versions (`_audit/qa.txt`, `_audit/qa_pointer.txt`). Values: 21.3 s, 3 cuts in the first 3 s, -14.7 LUFS, no frozen footage, no black frames, no holds.
+- Warnings, all known:
+  - The word list doesn't count "doesn't count" as a conflict word.
+  - The turn "It isn't." falls at 60%.
+  - The loop tail is 0.63 s.
+  - The title starts with a name.
+- `voice_check.py`: CHECK, with notes only.
+- `voice_quality.py`: PASS.
+- `watch_short.py`: report and sheet are in `_audit/watch/`.
+- **Not verified:** naturalness by ear (owner).
