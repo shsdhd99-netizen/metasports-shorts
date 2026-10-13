@@ -2,5 +2,12 @@
  "engine": "ffmpeg",
  "out": "final.mp4",
  "loop_fix": true,
- "fits": []
+ "fits": [
+  {
+   "shot": 15,
+   "clip": "W2b.mp4",
+   "fit": "slowed",
+   "factor": 1.208
+  }
+ ]
 }

@@ -1,136 +1,131 @@
 [
  {
-  "clip": "H1.mp4",
+  "clip": "H0.mp4",
   "anchor": "This man",
   "kind": "action",
-  "in": 1.4,
-  "zoom": 0.05,
-  "why": "Frame 1 = the object: Sharp, standing, reaching up to the fans' rail at 2025 Summer League (his height is the story)",
+  "in": 0.0,
+  "zoom": 0.04,
+  "why": "Frame 1 = the object with a height reference: Sharp full length beside an adult security guard (2025 Summer League tunnel; critic v2 edit 1)",
   "start": 0.0
  },
  {
-  "clip": "W1.mp4",
+  "clip": "W1b.mp4",
   "anchor": "Victor Wembanyama",
   "kind": "face",
   "in": 0.0,
-  "why": "The reference everyone knows: Wembanyama (Spurs media day, Sep 28 2026)",
-  "start": 1.17
+  "why": "The reference everyone knows (Spurs media day, Sep 28 2026), re-cropped so the caption sits below his chin (critic v2 edit 4)",
+  "start": 1.19
  },
  {
-  "clip": "R_dunk.mp4",
-  "anchor": "And he's never played",
+  "clip": "R_close2.mp4",
+  "anchor": "And he's never",
   "kind": "action",
   "in": 0.0,
-  "why": "Sharp (#33) in a Raptors Summer League game: he plays, but not in games that count",
-  "start": 2.16
+  "why": "Sharp (#33) walking in a Raptors Summer League game (live game footage): he plays, but not in games that count. Scorebug cropped off",
+  "start": 2.35
+ },
+ {
+  "clip": "R_back2.mp4",
+  "anchor": "Jamarion Sharp",
+  "kind": "action",
+  "in": 0.0,
+  "why": "'33 SHARP' on his back as the name is said (runs to 'Listed')",
+  "start": 4.38
  },
  {
   "clip": "c_listed.png",
-  "anchor": "Seven-foot-five. Jamarion",
+  "anchor": "seven-foot-five",
   "kind": "card",
-  "zoom": 0.04,
-  "why": "Proof of the paradox: listed 7-5 (Basketball-Reference) vs 7-4 (Fox Sports), labelled 'listed, not measured'",
-  "start": 4.04
+  "why": "Proof of the paradox on 'seven-foot-five': listed 7-5 (Basketball-Reference) vs 7-4 (Fox Sports), 'listed, not measured'",
+  "start": 5.51
  },
  {
   "clip": "p_dal.png",
-  "anchor": "Twenty twenty-four",
+  "anchor": "Dallas brought",
   "kind": "face",
-  "zoom": 0.06,
   "why": "Sharp in a Dallas #33 uniform (photo: Kevin Jairaj-Imagn via HoopsHype)",
-  "start": 5.59
- },
- {
-  "clip": "c_tally1.png",
-  "anchor": "Zero minutes that count",
-  "kind": "card",
-  "why": "The measure, row 1: 2024 Dallas, waived, 0",
-  "start": 7.9
- },
- {
-  "clip": "p_dal25.png",
-  "anchor": "Twenty twenty-five",
-  "kind": "face",
-  "zoom": 0.05,
-  "why": "2025 Mavericks Summer League practice (Cox Pavilion), Sharp shooting",
-  "start": 8.96
- },
- {
-  "clip": "H2.mp4",
-  "anchor": "Waived again",
-  "kind": "action",
-  "in": 0.0,
-  "why": "Same summer, same team: the 2025 Summer League tunnel clip",
-  "start": 10.48
- },
- {
-  "clip": "p_clip.png",
-  "anchor": "This summer",
-  "kind": "face",
-  "zoom": 0.05,
-  "why": "Sharp in a Clippers jersey (Bleacher Report image, Aug 10 2026; text cropped off)",
-  "start": 11.61
+  "start": 6.32
  },
  {
   "clip": "H3.mp4",
-  "anchor": "In September",
+  "anchor": "Cut him twice",
   "kind": "action",
   "in": 0.0,
-  "why": "Sharp alone, reaching up: still waiting for a minute that counts",
-  "start": 12.95
+  "why": "Same Dallas era (2025 Summer League tunnel, Mavs gear): alone",
+  "start": 7.69
  },
  {
-  "clip": "R_close.mp4",
-  "anchor": "And it's not his defense",
-  "kind": "face",
+  "clip": "R_dunk2.mp4",
+  "anchor": "The Clippers signed",
+  "kind": "action",
   "in": 0.0,
-  "why": "His face (Raptors Summer League, Jul 2026)",
-  "start": 14.76
- },
- {
-  "clip": "p_dunk.png",
-  "anchor": "Last season",
-  "kind": "face",
-  "zoom": 0.06,
-  "why": "Sharp #33 (Raptors Summer League photo)",
-  "start": 15.82
- },
- {
-  "clip": "c_dpoy.png",
-  "anchor": "G League's Defensive",
-  "kind": "card",
-  "why": "Proof: NBA G League Defensive Player of the Year graphic (NBAPR, Apr 2 2026)",
-  "start": 16.78
+  "why": "Sharp's July 2026 Summer League run for Toronto, the run that earned the Clippers two-way deal (HoopsRumors, Sep 25). Scorebug cropped off",
+  "start": 8.41
  },
  {
   "clip": "c_tally3.png",
-  "anchor": "That's three cuts",
+  "anchor": "Cut him in September",
   "kind": "card",
-  "why": "The measure, complete: three chances, total 0",
-  "start": 18.36
+  "why": "Our own tally card on 'Cut him in September': 2024 Dallas 0, 2025 Dallas 0, 2026 Clippers 0, total 0 (replaces the doctored jersey image; critic v2 edit 3)",
+  "start": 9.76
  },
  {
-  "clip": "R_close.mp4",
+  "clip": "p_dunk.png",
   "anchor": "On Monday",
   "kind": "face",
-  "in": 1.0,
-  "why": "Toronto: Sharp in Raptors red",
-  "start": 20.35
+  "why": "Sharp in Raptors red (July 2026 Summer League photo) on 'Toronto gave him one more camp'",
+  "start": 10.68
  },
  {
-  "clip": "R_back.mp4",
-  "anchor": "The season starts",
+  "clip": "H2.mp4",
+  "anchor": "And it's not his defense",
   "kind": "action",
   "in": 0.0,
-  "why": "'33 SHARP' on his back",
-  "start": 22.18
+  "why": "His reach: arm up to the top rail",
+  "start": 12.48
  },
  {
   "clip": "H1.mp4",
-  "anchor": "Seven-foot-five. NBA",
+  "anchor": "He led the",
+  "kind": "action",
+  "in": 1.4,
+  "why": "His reach: up to the fans' rail (2025 Summer League tunnel) on 'He led the G League in blocks'",
+  "start": 13.58
+ },
+ {
+  "clip": "c_dpoy.png",
+  "anchor": "won Defensive",
+  "kind": "card",
+  "why": "Proof on 'won Defensive Player of the Year': NBA G League DPOY graphic (NBAPR, Apr 2 2026)",
+  "start": 14.85
+ },
+ {
+  "clip": "p_dal25.png",
+  "anchor": "The knock on him",
+  "kind": "face",
+  "why": "Sharp shooting at Mavericks Summer League practice (Jul 2025): the offense question",
+  "start": 16.19
+ },
+ {
+  "clip": "W2b.mp4",
+  "anchor": "Three-point tries",
+  "kind": "face",
+  "in": 0.0,
+  "why": "Wembanyama, the comparison, on 'Three-point tries last season: Wembanyama, three hundred and'",
+  "start": 17.43
+ },
+ {
+  "clip": "c_3pa.mp4",
+  "anchor": "fifty",
+  "kind": "card",
+  "why": "The answer as one number: 350 lands on 'fifty' (Wembanyama, B-Ref), then Sharp's 0 pops in just before 'zero' (G League stats, LatinBasket)",
+  "start": 20.33
+ },
+ {
+  "clip": "H0.mp4",
   "kind": "action",
   "in": 0.0,
-  "why": "Back to the opening image so the Short loops",
-  "start": 23.34
+  "start": 22.47,
+  "why": "Back to the opening picture after 'zero.' so the Short loops into 'This man is listed taller...'"
  }
 ]

@@ -1,32 +1,14 @@
 [
  {
   "take": 1,
-  "ok": false,
-  "score": -193.8,
-  "verdict": "REDO",
-  "issues": [
-   " 4.34s  script \"foot\" but heard \"(nothing)\"",
-   "25.40s  script \"foot\" but heard \"(nothing)\""
-  ],
-  "wpm": 208,
-  "hnr": 9.7,
-  "jitter": 2.86,
-  "shimmer": 10.2,
-  "dur": 28.25
- },
- {
-  "take": 2,
-  "ok": false,
-  "score": -193.5,
-  "verdict": "REDO",
-  "issues": [
-   " 4.28s  script \"foot\" but heard \"(nothing)\"",
-   "23.56s  script \"foot\" but heard \"(nothing)\""
-  ],
-  "wpm": 224,
-  "hnr": 9.7,
-  "jitter": 2.71,
-  "shimmer": 9.44,
-  "dur": 26.23
+  "ok": true,
+  "score": 6.6,
+  "verdict": "CHECK",
+  "issues": [],
+  "wpm": 235,
+  "hnr": 10.0,
+  "jitter": 2.76,
+  "shimmer": 10.03,
+  "dur": 22.76
  }
 ]

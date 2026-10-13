@@ -16,7 +16,7 @@
 | Clippers signed him this summer, cut him in September | CBS/RotoWire (Aug 9 2026, two-way); ClippersPR on X (Sep 25 2026) https://x.com/ClippersPR/status/2103594504850956799 |
 | 2025-26 G League Defensive Player of the Year | NBAPR on X (Apr 2 2026) https://x.com/NBAPR/status/2039719520017736116 (graphic shown on screen) |
 | "On Monday, Toronto gave him one more camp" | TSN (Oct 12 2026) https://www.tsn.ca/nba/article/raptors-sign-c-sharp-waive-hepburn/ ; Hoops Rumors (Oct 2026) https://www.hoopsrumors.com/2026/10/jamarion-sharp-to-sign-with-raptors-compete-for-two-way-spot.html ; RotoWire |
-| "The season starts next week" | NBA season opens Oct 20 2026 |
+| (v1 only) "The season starts next week" | NBA season opens Oct 20 2026 |
 
 ## Footage and image sources
 - Raptors on X (Jul 17 2026, Summer League): https://x.com/Raptors/status/2077926539342004626
@@ -33,3 +33,13 @@
 
 ## Name
 Captions read **Jamarion** (many posts misspell it "Jamarian"). The voice says it plainly; the recogniser heard "Jamarian", the same sound.
+
+## v2 claims (Oct 13 late, after Critic v2)
+| Line | Source (date) |
+|---|---|
+| "He led the G League in blocks and won Defensive Player of the Year" | Hoops Rumors (Sep 25 2026): "named NBAGL Defensive Player of the Year after leading the league with 3.9 blocks per game" https://www.hoopsrumors.com/2026/09/clippers-waiving-jamarion-sharp.html ; NBA G League post (3.9 bpg, league-leading) |
+| "The knock on him is offense" | Raptors HQ scouting report (Jul 4 2026; syndicated on Yahoo Sports): "held back by an uninspiring offensive artillery"; "went undrafted due to his offensive limitations" https://www.raptorshq.com/raptors-analysis/50620/raptors-cheat-sheet-everything-you-need-to-know-about-jamarion-sharp |
+| "Three-point tries last season: Wembanyama, three hundred and fifty" | Basketball-Reference totals, 2025-26 regular season: 350 3PA (checked Oct 13 2026) https://www.basketball-reference.com/players/w/wembavi01.html |
+| "Sharp, in the G League: zero" | gleague.nba.com player page: 3PA "-" for 2024-25 and 2025-26 https://gleague.nba.com/player/1642481/jamarion-sharp ; LatinBasket 2025-26 G League: 3FG 0-0 (39 games); Raptors HQ: "zero attempts in the G League" |
+| Clippers deal came after his July Summer League run (shot under the Clippers line) | Hoops Rumors (Sep 25 2026): "That performance helped earned him a two-way deal with the Clippers" |
+**Not used, on purpose:** his free-throw % (sources disagree: 39.3%, 41.5%, 42.9% for 2025-26) and the Rockets' "Hack-a-Sharp" game (Jul 11 2026; he made 5 of 8 that night, so it doesn't prove the point).
