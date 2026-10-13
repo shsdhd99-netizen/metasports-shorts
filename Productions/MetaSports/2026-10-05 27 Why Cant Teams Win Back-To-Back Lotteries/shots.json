@@ -38,9 +38,10 @@
  },
  {
   "clip": "B1.mp4",
-  "start": 8.6,
+  "start": 7.75,
   "anchor": "twenty-thirteen",
-  "kind": "action"
+  "kind": "action",
+  "why": "Oct 13: starts at 'Cleveland did it in' so W2 (1.4 s) no longer freezes"
  },
  {
   "clip": "W3.mp4",

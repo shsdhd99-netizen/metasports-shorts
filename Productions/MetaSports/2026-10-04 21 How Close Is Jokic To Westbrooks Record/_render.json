@@ -2,12 +2,5 @@
  "engine": "ffmpeg",
  "out": "final.mp4",
  "loop_fix": true,
- "fits": [
-  {
-   "shot": 19,
-   "clip": "b11.mp4",
-   "fit": "held",
-   "hold_s": 0.88
-  }
- ]
+ "fits": []
 }

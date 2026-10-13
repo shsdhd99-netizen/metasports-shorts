@@ -44,9 +44,10 @@
  },
  {
   "clip": "h08.mp4",
-  "start": 11.74,
+  "start": 11.72,
   "anchor": "Tiny Milan",
-  "kind": "action"
+  "kind": "action",
+  "why": "Oct 13: 0.02 s earlier so h07 fits at <=1.33x instead of freezing"
  },
  {
   "clip": "h09.mp4",

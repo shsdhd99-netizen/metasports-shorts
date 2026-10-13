@@ -10,10 +10,10 @@
    "factor": 1.26
   },
   {
-   "shot": 6,
-   "clip": "W2.mp4",
-   "fit": "held",
-   "hold_s": 0.85
+   "shot": 7,
+   "clip": "B1.mp4",
+   "fit": "slowed",
+   "factor": 1.129
   },
   {
    "shot": 14,

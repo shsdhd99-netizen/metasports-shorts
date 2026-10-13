@@ -18,8 +18,8 @@
   {
    "shot": 7,
    "clip": "h07.mp4",
-   "fit": "held",
-   "hold_s": 0.63
+   "fit": "slowed",
+   "factor": 1.321
   },
   {
    "shot": 10,

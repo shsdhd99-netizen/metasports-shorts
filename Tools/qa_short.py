@@ -36,7 +36,7 @@ def main():
         for x in shots:
             x.setdefault("kind", "card" if re.match(r"c\d", x["clip"]) else "action")
     total = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", fin], capture_output=True, text=True).stdout)
-    bad, ok = [], []
+    bad, ok, warn = [], [], []
 
     def chk(cond, good, msg):
         (ok if cond else bad).append(good if cond else msg)
@@ -97,7 +97,6 @@ def main():
     blk = re.findall(r"black_start:([\d.]+) black_end:([\d.]+)", v)
     chk(not blk, "no black frames", f"black frames at {[(round(float(a), 1), round(float(b), 1)) for a, b in blk]} s")
     tail = total - words[-1]["end"]
-    warn = []
     rinfo = os.path.join(F, "_render.json")
     rinfo = json.load(open(rinfo)) if os.path.exists(rinfo) and not a.video else {}
     clipdur = {}
