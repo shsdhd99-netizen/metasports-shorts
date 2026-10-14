@@ -170,3 +170,25 @@ Research Notes/Round 9 - Competitor Shorts Watched (Oct 5, 2026).md. Findings (n
 - **Pre-registered** (Outcome Log, "Oct 14 (later)"): M1 music cohort (confounded this week with the posting rate), M2 (#40 and #41 must share audio), Q1 question hooks, P1 cut-in pause, S1 scorebug-as-proof.
 - **Rules changed** (Rules Audit addendum): B10 no-music retired by the owner, plus B14 scorebug, C2 pace 200-265, B16-B19, C6, A13, D13 (sound-effect licences unknown).
 - **Credits:** ElevenLabs 22,389 of 52,087 used (music generation bills here too, plus about 1.9K for the emphasis test). Music: 17 generated minutes a month on Starter, about 2.1 used. **vidIQ 5 credits left** (renews Nov 5), so the Oct 18 48 h check gets one retention call; use free public counts for the rest.
+
+## CHECKPOINT Oct 14, 20:45 UTC (continuation run; update or replace at the end of the run)
+**Verified at start:**
+- Repo clean at 1ea0ab1, in sync with origin.
+- Source-log counts reconcile with the files: 40 footage clips, 28 exact / 4 probable / 1 cut-logged / 7 unrecoverable; all rows in the 4 logs are verified.
+- `Library/footage_library.csv` is stale; it predates #38's log, so re-index.
+
+**Found this run (evidence, not yet written into the guides):**
+1. **The owner's provided sounds** were uploaded Oct 3:
+   - yuke "Blood Soda Freestyle" (instrumental, niche version, DeemZ) and EsDeeKid "4 Raws", at `/root/.claude/uploads/.../a18b93ec-*.mp3` and `a5670acf-*.mp3`.
+   - Both were tested in #01 v6 (`_claude_v6/NOTES.md`) and dropped as commercial tracks (Content ID).
+   - The owner also said the vine boom "ruins" the LeBron Short.
+2. **The clone voice "pham v2"** (and "Pham") was trained on the owner's OWN old Shorts' narration:
+   - "Bronny James 1v1 With NBA All-Star" (65K), "The NBA's Secret Disaster Draft Plan" (30.6K), "The NBA Once Traded a Player for a Copy Machine" (31.1K), plus more in a 266 s recording.
+   - The ElevenLabs samples were downloaded to the scratchpad `clonesrc/`; not committed.
+   - Speaker similarity (Resemblyzer): our current output vs the old narration 0.93-0.95 (the same voice).
+3. **CoachClank:**
+   - Both TikToks use "original sound - CoachClank" (their own mix, not a platform sound).
+   - Their narrator is NOT our voice (0.74), and not in the top 400 ElevenLabs library voices (best 0.78).
+   - Their gaps carry a tonal bed only 2.5-5 dB under the voice (n tiny).
+
+**Next in this run:** old transcripts and delivery study → new-voice audition → sound research and test edits → docs → push.
