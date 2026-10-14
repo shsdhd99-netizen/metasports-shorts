@@ -1,31 +1,30 @@
-# START HERE (updated Oct 13, 2026)
+# START HERE (updated Oct 14, 2026)
 
 | You want... | Open |
 |---|---|
 | **What to make and post next** (the only queue) | `Production Queue.md` |
-| **How every Short must be built** (Strict Short Formula + pass/fail gate) | `MetaSports - Playbook.md` (top section) |
-| **Current state, open decisions, handoff** (for any new session) | `CLOUD STATE - read this first.md` (the newest section is at the bottom) |
-| **Why the formula is what it is** | `Research Notes/Winning Formula v2 (Oct 13, 2026).md` |
-| **Results of posted Shorts** | `Research Notes/Outcome Log.md` |
+| **Every idea** (74 rows: status, score, hook, sources, blockers, next action) | `Production Queue - all ideas (Oct 14, 2026).csv` |
+| **How every Short is built** (Creative System v3: formats, checklist, rubric, editing playbook, QA) | `MetaSports - Playbook.md` (top section) |
+| **Why** (what the 102 posted Shorts show, with dated numbers and their limits) | `Research Notes/Posted Video Audit (Oct 14, 2026).md` (+ `Posted Shorts - metrics (Oct 14, 2026).csv`) |
+| **Which old rules stand** (each rule: keep / revise / retire / test) | `Research Notes/Rules Audit (Oct 14, 2026).md` |
+| **Voice** (12 takes, same script, measured; your ear decides) | `Research Notes/Voice Audition (Oct 14, 2026)/README.md` |
+| **Current state, open decisions, handoff** (for any new session) | `CLOUD STATE - read this first.md` (newest section at the bottom) |
+| **Results of posted Shorts + predictions logged before posting** | `Research Notes/Outcome Log.md` |
 | **Lessons, with confidence levels** | `Research Notes/Lessons Learned (running log).md` |
-| **What happened Oct 6-13 (Grok, tool defects)** | `Research Notes/Handoff Audit (Oct 13, 2026).md` |
-| **Voice pick (your ear needed)** | phone page https://claude.ai/artifact/Y9P8QRytak2ikDRfMDqdj2 (files: `Research Notes/Voice Lineup (Oct 13, 2026)/`) |
+| **Independent reviews of new Shorts** | `Research Notes/Critic v2 Review (Oct 13, 2026).md` (rubric: `Tools/critic_v2.md`) |
 | **Phone Hub (videos, titles, tags to post)** | https://claude.ai/artifact/EZrk8n855PyYpMFnMnMJd4 |
-| **Every tool and command** | `Tools Guide.md` (Oct 13 changes at the top) |
-| **Independent review of new Shorts** | `Research Notes/Critic v2 Review (Oct 13, 2026).md` (rubric: `Tools/critic_v2.md`) |
+| **Every tool and command** | `Tools Guide.md` (newest changes at the top) |
 
 **Do next:**
-1. Pick a voice number on the lineup page.
-2. Post from `Production Queue.md` in order, logging each post time.
-3. At 48 h, send the Studio numbers, or let the daily check log the public ones.
+1. Post #40 (the **ring** version, `final_pointer.mp4`) and write the time in the Outcome Log.
+2. Play the 5 voice finalists on your phone (the README's "Owner listening task") and name one.
+3. Follow the calendar in `Production Queue.md` (1 a day this week).
 
-**Historical (kept as evidence, not instructions):**
-- `Posting Roadmap - Oct 2026.md`
-- `Roadmap - Next 90 Days.md`
-- `MetaSports - Scripts (Batch 2).md`
-- `CLOUD_HANDOFF.md` (Oct 3)
-- `Research Notes/Next Wave Plan.md`
-- `Research Notes/Wave 3 Plan.md`
+**Superseded (kept as evidence, not instructions):**
+- `Research Notes/Winning Formula v2 (Oct 13, 2026).md` (folded into Creative System v3; its red-ring rule is now a test)
+- `Posting Roadmap - Oct 2026.md`, `Roadmap - Next 90 Days.md`, `MetaSports - Scripts (Batch 2).md`
+- `CLOUD_HANDOFF.md` (Oct 3), `Research Notes/Next Wave Plan.md`, `Research Notes/Wave 3 Plan.md`
+- `Research Notes/Voice Lineup (Oct 13, 2026)/` (replaced by the Oct 14 audition)
 - Critique Rounds 1-3. The Round 3 scores ran backwards against real views.
 
 ---

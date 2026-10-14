@@ -1,34 +1,14 @@
 [
  {
   "take": 1,
-  "ok": false,
-  "score": -295.5,
-  "verdict": "REDO",
-  "issues": [
-   " 6.24s  script \"1 ninety 8\" but heard \"198\"",
-   " 7.40s  script \"it\" but heard \"at\"",
-   "10.32s  script \"sixty 5\" but heard \"65\""
-  ],
-  "wpm": 242,
-  "hnr": 8.2,
-  "jitter": 3.09,
-  "shimmer": 10.55,
-  "dur": 21.85
- },
- {
-  "take": 2,
-  "ok": false,
-  "score": -295.8,
-  "verdict": "REDO",
-  "issues": [
-   " 6.52s  script \"1 ninety 8\" but heard \"198\"",
-   "10.56s  script \"sixty 5\" but heard \"65\"",
-   "21.12s  script \"\" but heard \"the next\""
-  ],
-  "wpm": 247,
-  "hnr": 7.7,
-  "jitter": 2.81,
-  "shimmer": 10.52,
-  "dur": 21.35
+  "ok": true,
+  "score": 5.9,
+  "verdict": "PASS",
+  "issues": [],
+  "wpm": 224,
+  "hnr": 9.7,
+  "jitter": 3.0,
+  "shimmer": 11.28,
+  "dur": 16.63
  }
 ]

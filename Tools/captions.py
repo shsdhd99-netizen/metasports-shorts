@@ -221,7 +221,8 @@ def ass_time(t):
     return f"{int(h)}:{int(m):02d}:{int(s):02d}.{cs:02d}"
 
 
-def make_ass(words, style="metasports", manual=None, total=None):
+def make_ass(words, style="metasports", manual=None, total=None, ys=None):
+    """ys: optional [(shot_start, y)] from shots.json "cap_y"; a card uses the y of the shot it starts in."""
     st, manual = STYLES[style], manual or {}
     cards = chunk(words, st)
     texts = [re.sub(r"\s+", " ", " ".join(w["word"] for w in c)).strip() for c in cards]
@@ -240,7 +241,11 @@ def make_ass(words, style="metasports", manual=None, total=None):
                 end = min(end, total)
         shown = text.upper() if st["caps"] else text
         col = picks[k][0]
-        tags = f"\\pos(540,{st['y']})\\blur{st['blur']}"
+        y = st["y"]
+        for t0, cy in ys or []:
+            if t0 <= start + 0.01:
+                y = cy or st["y"]
+        tags = f"\\pos(540,{y})\\blur{st['blur']}"
         if col:
             tags += f"\\c{RED if col == 'red' else GREEN}"
         if st["pop"]:
@@ -311,7 +316,10 @@ def build(folder, style="metasports", total=None):
     words = json.load(open(os.path.join(folder, "words.json"), encoding="utf-8-sig"))
     mp = os.path.join(folder, "emphasis.json")
     manual = json.load(open(mp, encoding="utf-8-sig")) if os.path.exists(mp) else {}
-    ass, lines = make_ass(words, style, manual, total)
+    sp = os.path.join(folder, "shots.json")  # a shot may set "cap_y" (pixels of 1920) to move captions off a face
+    shots = json.load(open(sp, encoding="utf-8-sig")) if os.path.exists(sp) else []
+    ys = sorted(((float(x.get("start", 0)), x.get("cap_y")) for x in shots if isinstance(x, dict)), key=lambda t: t[0])
+    ass, lines = make_ass(words, style, manual, total, ys)
     path = os.path.join(folder, "captions.ass")
     open(path, "w", encoding="utf-8").write(ass)
     return path, lines

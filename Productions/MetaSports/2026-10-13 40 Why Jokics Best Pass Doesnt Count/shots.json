@@ -30,7 +30,8 @@
   "kind": "action",
   "in": 0.95,
   "why": "Slowed replay of the release itself, so 'No look. Behind the back.' sits on the pass, not the catch (critic v2 edit 2)",
-  "start": 4.71
+  "start": 4.71,
+  "replay": true
  },
  {
   "clip": "R_wide.mp4",

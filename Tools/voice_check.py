@@ -33,6 +33,11 @@ def spoken_len(w):
     return letters + 7 * w.count("$") + 7 * w.count("%") + 5 * len(re.sub(r"\D", "", w))
 
 
+ORD = {"seventh": "seven", "eighth": "eight", "ninth": "nine", "tenth": "ten", "eleventh": "eleven", "twelfth": "twelve", "thirteenth": "thirteen",
+       "fourteenth": "fourteen", "fifteenth": "fifteen", "sixteenth": "sixteen", "seventeenth": "seventeen", "eighteenth": "eighteen",
+       "nineteenth": "nineteen", "twentieth": "twenty", "thirtieth": "thirty", "fourth": "four", "fifth": "five", "sixth": "six"}
+
+
 def norm_words(text):
     text = "".join(c for c in unicodedata.normalize("NFKD", text) if not unicodedata.combining(c))
     text = text.lower().replace("’", "'").replace("—", " ").replace("–", " ").replace("-", " ")
@@ -40,6 +45,9 @@ def norm_words(text):
     text = text.replace("%", " percent")
     text = re.sub(r"(\d+)\s*'\s*(\d+)\s*(?:\"|''|\u201d)?", r"\1 foot \2", text)  # recogniser writes 7'5" for 'seven-foot-five' (Oct 13)
     toks = re.findall(r"[a-z0-9']+", text)
+    # Oct 14: ordinals. The recogniser writes "27th" for "twenty-seventh"; compare both as numbers (was a false REDO on #21)
+    toks = [re.sub(r"^(\d+)(st|nd|rd|th)$", r"\1", t) for t in toks]
+    toks = [ORD.get(t, t) for t in toks]
     out = [NUMS.get(t, t).strip("'") for t in toks if t.strip("'")]
     # heights: the recogniser writes 'seven-foot-five' as 7'5", often split into two words; compare as '7 5' on both sides
     return [w for i, w in enumerate(out) if not (w in ("foot", "feet") and 0 < i < len(out) - 1 and out[i - 1].isdigit() and out[i + 1].isdigit())]

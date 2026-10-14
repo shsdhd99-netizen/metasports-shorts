@@ -1,5 +1,5 @@
 # CLOUD STATE (single source of truth for any agent or new chat; update as you go)
-Last updated: 2026-10-04. Branch: `main-329h3w` (draft PR #1). The user posts the videos; NEVER upload/publish or open YouTube Studio.
+Last updated: 2026-10-14 (newest section at the bottom). Branch: `main-329h3w` (draft PR #1). The user posts the videos; NEVER upload/publish or open YouTube Studio.
 
 ## Where everything lives (all in this repo, so any session can read it)
 - Pipeline + quality rules: `.claude/skills/cloud-short/SKILL.md` (start with its QUALITY FORMULA and the evidence-tier rules).
@@ -118,3 +118,27 @@ Research Notes/Round 9 - Competitor Shorts Watched (Oct 5, 2026).md. Findings (n
   - The voice slot (lineup link in the queue).
   - OK or swap for the #36 clip.
   - Listen once to #40 and #41.
+
+## Oct 14 (11:40 UTC): performance audit, Rules Audit, Creative System v3, voice audition, ideas finished (owner brief "Performance audit, existing ideas, editing, AI voice & rule challenge")
+- **Read first:** `00 START HERE.md` (rewritten). Canonical files:
+  - Audit: `Research Notes/Posted Video Audit (Oct 14, 2026).md` + `Posted Shorts - metrics (Oct 14, 2026).csv` (102 Shorts, vidIQ analytics as of Oct 14, 10 retention curves).
+  - Rules: `Research Notes/Rules Audit (Oct 14, 2026).md` (every rule KEEP / REVISE / RETIRE / TEST with source and confidence).
+  - How to build: `MetaSports - Playbook.md` → **CREATIVE SYSTEM v3** (replaces the Strict Short Formula; older material kept below it as background).
+  - Voice: `Research Notes/Voice Audition (Oct 14, 2026)/` (12 takes measured; no migration; plain "Wembanyama"; the owner's ear picks).
+  - Ideas: `Production Queue.md` + `Production Queue - all ideas (Oct 14, 2026).csv` (74 ideas, one status each).
+- **Critic v2 (Oct 14):**
+  - #39: post-mortem (it was already posted Oct 13, 23:49 UTC).
+  - #30: abandon (DO NOT POST).
+  - #21: rewritten to v3, re-checked (NEEDS REVISION, re-cut only), fixed to **v3.1** and frame-checked. Ready.
+- **Ready to post, in order:** #40 ring (Wed Oct 14), #41 plain (Thu Oct 15; check his status), #21 v3.1 (Fri Oct 16, before Oct 22). Then #38 only after Critic v2, #36 only after the owner OKs the clip.
+- **New packages (script-ready, footage-blocked):** #42 "Who Has Missed The Most Shots Ever" (score 60) and #43 "How Did Wilt Average 48.5 Minutes" (53). YouTube is bot-blocked in the cloud and X has no search, so they need X post URLs from the owner or a PC build.
+- **Tools changed:** qa_short (unsupported FAILs → warnings; dead-air FAIL; replay-anywhere, slow-hook and naked-number warnings), captions (no lone-word cards; per-shot `cap_y`), voice_check (ordinals). See the Tools Guide box.
+- **Experiments pre-registered** (Outcome Log, "Oct 14 pre-registered"): #40 ring vs #41 plain (pointer pair 1), 1 a day this week vs 2 a day before, score vs 48 h views. A one-time check-in fires 2026-10-18 00:30 UTC (`trig_01UPrcSVas2bcQoUB45YZpUN`) to compare #40 vs #41 at 48 h.
+- **Hub (Oct 14):** s40 points at the re-captioned files (ring = POST THIS); s21 = v3.1; s39 = posted; s30 = DO NOT POST; s28 = HOLD to about Dec 9-11; slots re-numbered for 1 a day (s41 2, s21 3, s38 4, s36 5, s27 6, s37 7, s26 8).
+- **Credits:** ElevenLabs 16,715 of 52,087 characters used this cycle (checked Oct 14, 11:40 UTC). vidIQ 70 credits left (renews Nov 5); each analytics call costs 5.
+- **Owner decisions open:**
+  1. Post times for #40 (and each next post) into the Outcome Log.
+  2. Voice: play the 5 finalists (audition README) and name one, plus which "Wembanyama" is right.
+  3. OK or swap the #36 fan-account clip.
+  4. The premise pill test (needs your OK).
+  5. X links for #42/#43 footage.

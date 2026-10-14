@@ -176,3 +176,132 @@ Both PACKAGE.md files cite a second check "at the end of this file"; it is this 
   - Bringing the 350 card in at "three" would push cards to about 25%, the QA limit.
   - "2025-26 season" already matches the source, so the card keeps that label.
   - #40's far wide shot at 2.7-4.7 s stays, because it keeps 3 cuts inside 3 s.
+
+---
+
+## Queue review (Oct 14): #39, #30, #21 (third independent critic)
+
+I built none of these. **Checked:** each export (watch sheets, 10 fps frames for 0-4 s, extra frames around suspect shots), QA, voice_check (whisper), a replay scan, `copy_check.py`, and key facts online. **I can't hear audio;** the voice is judged from transcripts only. No speech gap is over 0.3 s; tails are 0.32-0.41 s. Shot numbers count from 1. #39 was posted before this review (hde8nIE1J4Y, about 2,100 views at 10:45 UTC Oct 14), so it is a post-mortem.
+
+| Short | Verdict | 3-pt formula (2nd-1 / measure / answer) | Gut rank |
+|---|---|---|---|
+| #39 Oldest triple-double (22.7 s) | **Post-mortem (already posted)**; would have been NEEDS REVISION | 3 (1/1/1), 1 and 3 weak | 1 |
+| #21 Jokic vs Westbrook (22.2 s) | **REJECT as cut → rewrite** | 1 (0/0/1) | 2 |
+| #30 Giannis steps (24.3 s) | **REJECT, abandon this angle** | 2 (1/0/1) | 3 |
+
+**Tool gap:** `qa_short.py` only catches identical *neighbouring* shots, so it missed three exact replays (one in #30, two in #21). It should flag any reuse of a clip with overlapping in-points, except the loop.
+
+### #39 Oldest triple-double: post-mortem (already posted)
+
+**Gate A**
+1. **Second-1: PASS (weak).** "Who held the record 22 years, and who broke it?" A fact, not a paradox.
+2. **Visible object: PASS (weak).** LeBron in the record game; his age first shows at 8.1 s.
+3. **One measure: PASS.** Age at triple-double: 40y127d → 41y44d → 79d → 90d → 41y294d.
+4. **Not a retell: PASS.** CROWDED with small news recaps; the "broke his own record" angle is FRESH.
+5. **Answering ending: PASS (weak).** It answers line 1, but "any triple-double is the oldest ever" is true by definition.
+6. **Truth: PASS.** B-Ref log (Feb 12 DAL, Mar 19 @MIA, Mar 30 WAS); ages re-computed; Sixers at Knicks Oct 20.
+
+**Gate B, as lessons**
+- **Wrong game under records 2 and 3.** 9.58-10.95 s "again in March" is the Feb 12 Dallas game. 10.95-12.35 s "record 2" shows a GSW scorebug (it was at Miami). 13.64-14.82 s "record 3" (vs Washington) is Dallas. notes.md flagged it; it shipped. **Lesson:** a stand-in shot must never show a scorebug naming another opponent.
+- **2.61-6.43 s:** 3.8 s of a 320x240 Malone press conference with TV text under our caption, at the Duren cliff spot. **Lesson:** one 1 s archive shot, then move on.
+- **16.11-18.0 s:** "at the Knicks" over playoff footage in Philadelphia, no LeBron; the Sixers move is never voiced.
+- **9.61 s:** "He broke his own record again in March" at 360 wpm, with a -22 dB "He". **Lesson:** a >330 wpm note blocks "ready". (The 4.22 s REDO is a false positive.)
+
+**Gate C:** I'd swipe at about 3 s, on the blurry press conference. The count-up at 8-15 s is clean.
+
+**Process lesson:** run Critic v2 before posting day; #39 went up without it.
+
+### #30 Giannis steps: REJECT, abandon this angle
+
+**Gate A**
+1. **Second-1: PASS.** "How are three steps legal?"
+2. **Visible object: FAIL.** Frame 1 (0-0.99 s) is Giannis dribbling up court, with no gather. No shot shows his steps closely enough to count.
+3. **One measure: FAIL.** 13.46-20.33 s (28%) hops to enforcement: a 2018 refs' post about another player, then the points of emphasis.
+4. **Not a retell: FAIL.** TAKEN: Business Insider "NBA Ref Explains Why The James Harden Step Back Isn't Traveling" (1.43M), plus a 2.07M "0 step" explainer.
+5. **Answering ending: PASS (weak).** "Gather, one, two" answers, after a "count it" instruction.
+6. **Truth: PASS (wording).** "That landing foot is free" is loose. NBA.com (Oct 5) lists flopping first; the voice skips it.
+
+**Gate B**
+- **Exact replay:** 1.53-2.07 s replays at 10.80-11.33 s (shots 3 and 9, `b1`).
+- **Source text and a spent shot:** 2.6-9.24 s (shots 5-7). 6.6 s of referees in a room, with the source's cut-off text under our captions.
+- **Wrong picture:** 9.24-10.78 s (shot 8) "gather, step one, step two" over Giannis standing still. 12.45-13.46 s (shot 10) "a fourth is a travel" over James Harden.
+- **Wrong team:** 21.97-24.33 s (shot 16) follows "drives in Miami" with a Bucks jersey, dribbling, not gathering.
+- **Payoff early, cards unreadable:** `c1` boxes "traveling is still ok" at 16.0 s, before the 19.32 s line; its headline is cut off. `c2` (19.32 s) is small type, boxing the wrong words.
+
+**Gate C:** I'd swipe at 3-4 s: "Here's why" leads to a conference room.
+
+**Decision:** abandon. The story has 2M-view versions, and the footage can't prove the count. Revisit only with a new angle: one Heat-era Giannis play from opening week, counted on screen.
+
+### #21 Jokic vs Westbrook: REJECT as cut → rewrite
+
+**Gate A**
+1. **Second-1: FAIL.** Line 1 asks "who passed Oscar?", answered by 5.4 s. The real question arrives at 6.9 s ("Eleven ties it").
+2. **Visible object: FAIL.** Frame 1 is an old Oscar-Westbrook ceremony under a cut-off "HISTORY" graphic. 209, 198, 34 and 23 are never on screen.
+3. **One measure: FAIL.** 14.46-19.03 s (21%) hops to a box-score record (56-16-15, "first 55-15-15").
+4. **Not a retell: PASS (caveat).** CROWDED (Chaz NBA, Jokic-Westbrook clip, 168K). No "game 27" version found.
+5. **Answering ending: PASS.** "Four games to spare" answers the title and stops.
+6. **Truth: PASS.** B-Ref (Oct 14): 209 / 198 / 181; game 27 = Dec 25 at Golden State. Westbrook retired Aug 2026 (NBA.com). 34 in 65 (StatMuse). 12 ÷ (34/65) = 22.9.
+
+**Gate B**
+- **Two exact replays:** 9.20-10.03 s = 14.43-15.27 s (shots 12 and 17, `b8`). 13.03-14.40 s = 16.70-18.07 s (shots 16 and 19, `b11`).
+- **Burned-in number vs voice:** "JOKIĆ 32 PTS" at 9.2-10.0 s and 14.46-14.95 s.
+- **Wrong game:** 16.75-19.03 s (shots 19-20) "first 55-15-15 game" over a Phoenix-court game, then a Memphis player.
+- **Flash and card:** a Knicks-bench flash at 2.20-2.45 s; shot 21 (19.03 s) is tiny rows over blurred grey.
+
+**Gate C:** I'd swipe at 2-3 s, on trivia over an old ceremony. "Eleven ties it. Twelve breaks it." is the real hook.
+
+**Required edits**
+1. **Hook, 0-6.9 s (shots 1-8):** re-voice line 1 as the chase, e.g. "Westbrook retired with 209 triple-doubles. Jokic has 198." Frame 1: Jokic with a "198 / 209" pill, no "HISTORY" graphic.
+2. **Cut "the first fifty-five, fifteen, fifteen game in NBA history" (16.75-19.03 s, shots 19-20).** Keep the bridge on the measure: "Last Christmas: a triple-double, 56-16-15", over `b9` only.
+3. **Shot 17 (14.46 s):** unused Christmas footage instead of `b8`. **Shot 12 (9.21 s):** crop or swap so "32 PTS" is gone.
+4. **Shot 21 (19.03 s):** one readable line above the captions: "Game 27 · Dec 25 · @ Golden State".
+5. **Shot 22 (20.92 s):** land "Four games to spare" on Jokic or the card.
+6. **Shot 2:** trim before 2.20 s. **Shot 9 (6.91 s):** use a Jokic shot.
+7. Keep 21 s or more. Re-run QA and a replay scan.
+8. **Post before Oct 22** (Nuggets at OKC). After that, 198 and the game count move. The queue's "before Christmas" deadline is wrong.
+
+**Sources (Oct 14):** B-Ref (career leaders, LeBron log, DEN schedule); NBA.com (Westbrook; points of emphasis); StatMuse; Denver Post; NBC Sports Philadelphia; SI (Giannis on the Heat).
+
+### Re-check of #21 v3 (Oct 14; fourth independent critic)
+
+**Verdict: NEEDS REVISION (re-cut only, no re-voice). Formula 3 (1/1/1); second-1 is weak.** Gut rank: first of the unposted Oct 14 queue.
+
+**Checked:** final.mp4 (16.9 s, same file as "READY TO POST"); the watch sheet and whisper; 10 fps frames over the whole cut; 30 fps frames at every cut; qa_short (PASS). **I can't hear audio.** The facts match B-Ref and the new notes.md rows: 209 in 1,301; 198 in 810; 34 in 65; game 27 = Dec 25 at GSW. At 16.9 s the story is complete (A8).
+
+**Gate A:** all pass. Second-1 (weak): the chase is clear at 3.4 s ("the record: 209"). Object (weak): frame 1 is Jokic; 198 shows only as a caption. One measure throughout. The ending ("Four games to spare.") answers and stops.
+
+**The six edits**
+1. Hook: **mostly fixed.** It is re-voiced, frame 1 is Jokic and the HISTORY graphic is gone. There is no 198/209 pill (B12 is an owner TEST).
+2. 55-15-15 line: **fixed** (cut).
+3. Replays and "32 PTS": **fixed.** No scorebug anywhere; only the b1c loop repeats.
+4. Card: **fixed.** 13.48-15.52 s, "GAME 27 / FRI, DEC 25 · AT GOLDEN STATE", readable.
+5. Payoff: **fixed.** Jokic close-up from 15.52 s.
+6. Flashes and shot 9: **partly.** The Knicks flash is gone and 7.04 s is Jokic, but there are two new flashes (below).
+
+**Required fixes**
+- **4.70-5.32 s (b13):** "Twelve breaks it" lands on Memphis #24. Jokic is half off the edge, and the caption sits on #24's face. End b13 at 4.70 s and fill the gap with unused **b4** (Jokic close-up, from about 0.2 s).
+- **2.87 s:** a one-frame flash of a hoop and a Santa-hat crowd (a3's first frame). Set shot 3's `in` to 0.04.
+- **7.03 s:** a one-frame flash of Westbrook in a Rockets #0 jersey (a1's own cut at 1.70 s). Start shot 6 at 7.00 s.
+- **1.20-1.45 s:** "HAS 198" sits on Jokic's mouth. Lower shot 1's caption band to about 68%.
+
+**Optional:**
+- 1.60-1.99 s: a referee's torso fills the frame.
+- 9.6-10.0 s: the shot pans to the floor.
+- A source-text sliver on the bottom edge (4.0-5.3 s and 10.0-11.7 s); crop 2%.
+- UPLOAD.md: drop the Oscar tag and trim to 12 tags (D8).
+
+**Voice (transcripts only):** The words match the script. Whisper heard "1300 in 1" at 5.9-6.7 s. The pace is 224 wpm, and the first line is 152 wpm. The owner should listen to 0-2 s and 5.3-8.5 s.
+
+**Gate C:** I'd swipe at about 6 s. The wrong player shows on "Twelve breaks it", then the slowest line (142 wpm) runs over a washed-out tribute shot. From 8.5 s, "34 in 65" leading to Christmas holds. A date plus "four to spare" is worth 17 s.
+
+### Applied after the #21 re-check (Oct 14, v3.1)
+All four required fixes, re-cut only (same voice). QA PASS, 16.8 s. Each fix was checked on the export at 30 fps (frame strips around every changed cut):
+- **"Twelve breaks it" now on Jokic:** b13 ends at 4.67 s; the new shot b4c (Jokic close-up, `in` 0.2) runs to 5.30 s.
+- **2.87 s flash:** a3 `in` 0.04. Frames 2.70-3.00 are clean.
+- **7.03 s Rockets flash:** b2 starts at 7.00 s. Frames 6.83-7.16 are clean (a1 ends on Westbrook in a Wizards jersey).
+- **"HAS 198" on his mouth:** `captions.py` gained a per-shot `cap_y`. Shots 1 and 12 use 1305 px (68%); at 1.30 s the caption sits below the mouth.
+- **Optional, done:** b4/b13/b5 cropped 3% at the bottom (source-text sliver); tags cut to 12 and the Oscar tag dropped.
+- **Optional, not done:** the referee torso at 1.60-1.99 s and the pan to the floor at 9.6-10.0 s (no better unused Jokic footage of those lengths in the folder).
+- **Owner's ear:** "Westbrook needed 1,301 games" reads at 142 wpm, the slowest line (the critic's swipe point was about 6 s). A re-voice of that line is the next fix if it drags on a phone.
+
+**Status:** ready (fixes applied; no fifth critic pass, as with #41's one fix).

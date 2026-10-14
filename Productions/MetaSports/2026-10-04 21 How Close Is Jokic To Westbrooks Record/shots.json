@@ -1,157 +1,100 @@
 [
  {
-  "clip": "a4.mp4",
+  "clip": "b1c.mp4",
+  "anchor": "Nikola Jokic has",
+  "kind": "action",
+  "in": 0.0,
+  "zoom": 0.04,
+  "why": "Frame 1 = Jokic himself, close, as '198' appears in the captions (scorebug cropped off; critic Oct 14 edit 1); captions lowered to 68% so 'HAS 198' clears his mouth (critic re-check Oct 14)",
   "start": 0.0,
-  "anchor": "Only two",
-  "kind": "action",
-  "why": "Only two",
-  "zoom": 0.1
- },
- {
-  "clip": "a5.mp4",
-  "start": 1.7,
-  "anchor": "triple-double record.",
-  "kind": "action",
-  "why": "triple-double record."
+  "cap_y": 1305
  },
  {
   "clip": "a2.mp4",
-  "start": 2.46,
-  "anchor": "One just retired.",
-  "kind": "action",
-  "why": "One just retired."
- },
- {
-  "clip": "a1.mp4",
-  "start": 3.29,
-  "anchor": "Russell Westbrook",
-  "kind": "action",
-  "why": "Russell Westbrook"
+  "anchor": "Russell Westbrook retired",
+  "kind": "face",
+  "in": 0.0,
+  "why": "Westbrook, close, on his own name (a5 panned to an empty court after 0.5 s)",
+  "start": 1.99
  },
  {
   "clip": "a3.mp4",
-  "start": 4.15,
-  "anchor": "with two hundred",
+  "anchor": "with the record",
   "kind": "action",
-  "why": "with two hundred"
+  "in": 0.04,
+  "why": "Westbrook in action on 'the record: 209'; in 0.04 skips a one-frame hoop/crowd flash (re-check)",
+  "start": 2.87
+ },
+ {
+  "clip": "b13c.mp4",
+  "anchor": "Eleven ties it",
+  "kind": "action",
+  "in": 0.0,
+  "why": "Jokic passing on 'Eleven ties it' (ends at 4.70 s: after that a Memphis player fills the frame; bottom 3% cropped to drop a source-text sliver)",
+  "start": 4.02
+ },
+ {
+  "clip": "b4c.mp4",
+  "anchor": "Twelve breaks it",
+  "kind": "face",
+  "in": 0.2,
+  "why": "Jokic close-up on 'Twelve breaks it' (critic re-check Oct 14; bottom 3% cropped)",
+  "start": 4.7
+ },
+ {
+  "clip": "a1.mp4",
+  "anchor": "Westbrook needed",
+  "kind": "action",
+  "in": 0.0,
+  "why": "Westbrook (OKC tribute, then Wizards): a long career; ends at 7.00 s, before the clip's own cut to a Rockets frame at 1.70 s",
+  "start": 5.32
  },
  {
   "clip": "b2.mp4",
-  "start": 4.99,
-  "anchor": "The other is",
+  "anchor": "Jokic has played",
   "kind": "action",
-  "why": "The other is"
- },
- {
-  "clip": "b4.mp4",
-  "start": 5.4,
-  "anchor": "Nikola Jokic,",
-  "kind": "action",
-  "why": "Nikola Jokic,"
- },
- {
-  "clip": "b6.mp4",
-  "start": 6.12,
-  "anchor": "at one ninety-eight.",
-  "kind": "action",
-  "why": "at one ninety-eight."
- },
- {
-  "clip": "b5.mp4",
-  "start": 6.91,
-  "anchor": "Eleven ties",
-  "kind": "action",
-  "why": "Eleven ties"
+  "in": 0.0,
+  "why": "Jokic in a game, on '810'; starts at 7.00 s (re-check: avoids a1's Rockets frame)",
+  "start": 7.0
  },
  {
   "clip": "b7.mp4",
-  "start": 7.59,
-  "anchor": "Twelve breaks",
+  "anchor": "Last season, he",
   "kind": "action",
-  "why": "Twelve breaks"
+  "in": 0.0,
+  "why": "Jokic last season",
+  "start": 8.51
  },
  {
-  "clip": "b3.mp4",
-  "start": 8.27,
-  "anchor": "But Jokic had",
+  "clip": "b5c.mp4",
+  "anchor": "in just 65",
   "kind": "action",
-  "why": "But Jokic had"
- },
- {
-  "clip": "b8.mp4",
-  "start": 9.21,
-  "anchor": "triple-doubles last",
-  "kind": "action",
-  "why": "triple-doubles last"
+  "in": 0.25,
+  "why": "Jokic in action: the rate (in 0.25 skips a non-Jokic first frame); bottom 3% cropped (source-text sliver)",
+  "start": 10.0
  },
  {
   "clip": "b12.mp4",
-  "start": 10.1,
-  "anchor": "in just sixty-five",
-  "kind": "action",
-  "why": "in just sixty-five"
+  "anchor": "At that pace",
+  "kind": "face",
+  "in": 0.0,
+  "why": "Jokic (media day) on the projection",
+  "start": 11.7
  },
  {
-  "clip": "b10.mp4",
-  "start": 11.12,
-  "anchor": "That's about one",
-  "kind": "action",
-  "why": "That's about one"
- },
- {
-  "clip": "b13.mp4",
-  "start": 12.4,
-  "anchor": "At that pace,",
-  "kind": "action",
-  "why": "At that pace,"
- },
- {
-  "clip": "b11.mp4",
-  "start": 13.03,
-  "anchor": "twelve takes about",
-  "kind": "action",
-  "why": "twelve takes about"
- },
- {
-  "clip": "b8.mp4",
-  "start": 14.46,
-  "anchor": "Last Christmas",
-  "kind": "action",
-  "why": "Last Christmas"
- },
- {
-  "clip": "b9.mp4",
-  "start": 15.34,
-  "anchor": "fifty-six,",
-  "kind": "action",
-  "why": "fifty-six,"
- },
- {
-  "clip": "b11.mp4",
-  "start": 16.75,
-  "anchor": "the first fifty-five,",
-  "kind": "action",
-  "why": "the first fifty-five,"
- },
- {
-  "clip": "b13.mp4",
-  "start": 18.15,
-  "in": 0.63,
-  "kind": "action",
-  "why": "Oct 13 fix: b11 is only 1.4 s; split instead of freezing/looping"
- },
- {
-  "clip": "c21_sched.mp4",
-  "start": 19.03,
-  "anchor": "This Christmas is",
+  "clip": "c21_xmas.png",
+  "anchor": "Denver's twenty-seventh",
   "kind": "card",
-  "why": "This Christmas is"
+  "why": "Readable proof: pace = about 23 games; game 27 = Fri Dec 25 at Golden State (B-Ref schedule; critic Oct 14 edit 4)",
+  "start": 13.48
  },
  {
-  "clip": "a4.mp4",
-  "start": 20.92,
+  "clip": "b1c.mp4",
   "anchor": "Four games to",
   "kind": "action",
-  "why": "Four games to"
+  "in": 0.0,
+  "why": "End on Jokic (critic edit 4) and loop into frame 1",
+  "start": 15.52,
+  "cap_y": 1305
  }
 ]

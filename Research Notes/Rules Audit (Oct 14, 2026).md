@@ -84,4 +84,4 @@
   - **dead air** (a gap over 0.6 s inside the speech = FAIL)
   - **slow hook** (first sentence ends after 3.5 s = warn)
   - **naked-number opening** (warn)
-- **Captions:** a one-word final card such as "CAREER." now merges into the card before it when the two fit together.
+- **Captions:** a one-word final card such as "CAREER." now merges into the card before it when the two fit together. Later Oct 14: a per-shot `cap_y` in shots.json moves captions off a face (#21 v3.1).

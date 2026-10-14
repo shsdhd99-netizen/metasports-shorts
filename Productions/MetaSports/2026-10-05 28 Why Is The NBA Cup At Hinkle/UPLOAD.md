@@ -1,3 +1,5 @@
+> **HOLD (Oct 14, 2026).** The same event (the NBA Cup final at Hinkle, Dec 11) already went up Oct 5 as "The NBA Final That Does Not Count" (2.3K views, 72.7% viewed). Our angle (Hinkle's history) is different, but the audience saw the event. Reconsider around Dec 9-11 as a news peg; Critic v2 is not run yet.
+
 # #28 Why Is The NBA Cup At Hinkle
 
 Video: READY TO POST (see folder). Not uploaded. Post by Oct 30 (Cup tips off) or Dec 4.

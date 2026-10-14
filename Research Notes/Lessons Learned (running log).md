@@ -76,3 +76,17 @@ question vs number hook; hook headline vs none; music vs none; ALL CAPS vs Clank
 - [V] When sources disagree on a stat (Sharp's FT%: 39.3 / 41.5 / 42.9%), don't voice it; use the fact every source agrees on (0 G League threes).
 - [S] A one-number answer card that reveals in two steps (350 first, then 0 on "zero") keeps the payoff from showing before the line. Retention effect unknown (HYPOTHESIS).
 - [V] YouTube downloads are bot-blocked from the cloud; X posts still work. Plan footage from X/NBA posts.
+
+## Oct 14, 2026 (posted-video audit, Rules Audit, voice audition, three critic passes)
+Tiers: [V] verified on our files or data, [S] supported by our numbers (small n), [H] hypothesis.
+- [S, n=102] **Distribution moved, not just craft.** Old-era median 29.8K vs 2.8K for the 15 Oct 5-13 posts. Same-week old-era controls and retention curves show several new Shorts held viewers as well as old winners. Don't blame every drop on the edit. (Posted Video Audit, sections 2-4.)
+- [S] Avg % viewed tracks views (Spearman +0.52 new / +0.45 old); narration pace +0.50; likes don't predict views. Every 20K+ Short opened its retention curve at a ratio of 1.74 or more. Retention is close to necessary, not sufficient: LeBron's 23rd season held well and got 5.3K (a saturated topic).
+- [S] Length showed no effect. Old Shorts under 18 s had the best median (32.8K). The 21 s floor was retired; length follows the story.
+- [V] **#39 post-mortem (posted before any critic):** stand-in shots under "record 2" and "record 3" showed scorebugs naming other opponents; 3.8 s of a 320x240 press conference sat at the 3 s swipe spot; one line ran at 360 wpm. **Rules:** a stand-in shot never shows another opponent's scorebug; an archive shot gets 1 s, then move on; run Critic v2 before posting day, never after.
+- [V] **Spoken numbers:** the voice read "810" as "eight-ten". Script braces `{810|eight hundred and ten}` show digits in captions and force the spoken form. Use them for every number that could be read two ways.
+- [V] **Replays anywhere, not just neighbours:** the old QA only caught identical neighbouring shots, so three exact replays shipped (#21 ×2, #30). `qa_short.py` now warns on any overlap over 0.3 s of the same clip in different shots (except the loop and shots marked `"replay": true`).
+- [V] **One-frame flashes come from the clip's own cuts** (a3's first frame, a1's cut at 1.70 s). Check frames at 30 fps around every cut, not 10 fps.
+- [V] **"Wembanyama" respelling backfired:** "wem-bun-YAH-muh" was transcribed "Wembun Yama" in 9 of 9 takes; the plain spelling was heard right. Keep "Yoki-ch" for Jokic. Don't respell a name without a recogniser check.
+- [V] **Voice:** only our clone reads at house pace natively (245-268 wpm); premade voices read 136-184 wpm at the same setting. Flash is the flattest and least intelligible on a phone. No migration; the owner's ear decides naturalness.
+- [S] Hype framing loses to a visible number on the same player: old Flagg (hype) 4.9K vs new Flagg (height number) 20.6K.
+- [V] Some old QA FAILs blocked good builds without evidence (21 s floor, 3 cuts in 3 s, b-roll/card caps, forced loop). They're warnings now. A rule needs a dated source and a result, or it is a test, not a gate (Rules Audit).

@@ -85,6 +85,19 @@ def main():
     soft(not two_cards, "no two cards in a row", f"two cards in a row at shots {two_cards} (the critic flags back-to-back reading)")
     dup = [i for i in range(1, len(shots)) if shots[i]["clip"] == shots[i - 1]["clip"] and shots[i].get("in") == shots[i - 1].get("in")]
     chk(not dup, "no repeated neighbours", f"identical neighbouring shots at {dup}")
+    # Oct 14 (critic): the same footage shown twice ANYWHERE reads as a replay (#21 and #30 had 3 the check above missed).
+    # Overlap of clip time used by two shots; the last shot re-using the first clip (the loop) is allowed; mark intentional replays "replay": true.
+    used, replays = {}, []
+    for k, (s, st, e, d) in enumerate(segs):
+        if s.get("kind") == "card" or s.get("replay") or (k == len(segs) - 1 and s["clip"] == shots[0]["clip"]):
+            continue
+        a0 = float(s.get("in", 0) or 0); a1 = a0 + d
+        for (b0, b1, j) in used.get(s["clip"], []):
+            ov = min(a1, b1) - max(a0, b0)
+            if ov > 0.3:
+                replays.append((s["clip"], j + 1, k + 1, round(ov, 2)))
+        used.setdefault(s["clip"], []).append((a0, a1, k))
+    soft(not replays, "no footage shown twice", f"the same footage appears twice (clip, shot, shot, overlap s): {replays}; mark an intentional replay with \"replay\": true")
     soft(shots[-1]["clip"] == shots[0]["clip"], "loops to the first shot", "last shot is not the first clip (fine if the ending image serves the payoff; never add a sub-0.6 s shot just to loop)")
     gaps = [(round(words[i]["end"], 2), round(words[i + 1]["start"] - words[i]["end"], 2)) for i in range(len(words) - 1) if words[i + 1]["start"] - words[i]["end"] > 0.6]
     chk(not gaps, "no dead air inside the speech", f"dead air over 0.6 s inside the speech at (s, gap): {gaps}")

@@ -1,5 +1,16 @@
 # Tools Guide
 
+> ## Oct 14, 2026 changes (cloud; each tested on real Shorts)
+> - **`qa_short.py`:** rules re-graded by evidence (Rules Audit, Oct 14).
+>   - Now warnings, not FAILs: length 15-35 s (the hard limit is 12-60 s), 3 cuts in 3 s, average shot, talking head, b-roll and card shares, two cards in a row, the loop.
+>   - New FAIL: dead air inside the speech (a word gap over 0.6 s).
+>   - New warnings: the same clip shown twice anywhere (over 0.3 s overlap; the last-shot loop, cards and shots marked `"replay": true` are exempt), a slow hook (first sentence ends after 3.5 s), a naked number opening.
+> - **`captions.py`:** no lone word on its own card (e.g. "THE BEST PASS / OF HIS NBA CAREER."). New per-shot option in `shots.json`: `"cap_y": 1305` moves that shot's captions (pixels of 1920; default 1185) off a face.
+> - **`voice_check.py`:** ordinals match their digits ("twenty-seventh" = "27th"); no more false REDOs.
+> - **Script braces:** `{810|eight hundred and ten}` shows "810" in captions and forces the spoken words.
+> - **Voice audition kit:** `Research Notes/Voice Audition (Oct 14, 2026)/audition.py` (same script, many voices, phone simulation, measured). Needs `. key.sh` in the same command.
+> - **How a Short is built now:** `MetaSports - Playbook.md`, Creative System v3 (§5 editing playbook and QA lists, §9 per-batch loop).
+
 > ## Oct 13, 2026 changes (cloud; all tested on real Shorts)
 > - **`assemble.py`:** no more accidental clip loops.
 >   - A shot longer than its clip used to replay the clip. That happened in 22 of 27 folders.

@@ -86,3 +86,20 @@ Reads (evidence tiers; n is small, so these are NOT rule changes):
 
 Retention benchmarks (Studio, unchanged): Wemby 79.5% stayed / 100.3% AVD; Duren 63.0% / 59.7%. No new retention data: the vidIQ top_videos report was already pulled earlier today (Oct 13), so no second paid call.
 Lesson: none added. n is under 3 for any new pattern; the only movement is #23 still climbing on day 2, which matches the "read at 48 h" rule already in place [V].
+
+## Oct 14, 2026: pre-registered experiments and predictions (written BEFORE results)
+Source of the scores: Creative System v3 rubric (`Production Queue.md`). The view guesses are mine. They are logged so the rubric can be checked against reality at 10 posts (Rules Audit D1). They are not targets.
+
+| Short | Posted (UTC) | Version | Score v3 (/70) | 3-pt formula | 48 h guess (views) | 48 h actual | Avg % viewed | Notes |
+|---|---|---|---|---|---|---|---|---|
+| #39 Oldest triple-double | Oct 13 23:49 | plain | 46 | 3 (weak 1 and 3) | 4,000 | | | posted **without** Critic v2; post-mortem found wrong-game shots at 9.6-14.8 s and a blurry 3.8 s archive shot at 2.6 s. 2,181 views at 11 h |
+| #40 Jokic pass | (owner) Oct 14 | **ring** | 63 | 3 | 5,000 (range 1.5K-20K) | | | experiment 1, ring half |
+| #41 Taller than Wemby | (owner) Oct 15 | plain | 53 | 3 | 3,500 | | | experiment 1, plain half; re-check his status first |
+| #21 Jokic record v3 | (owner) Oct 16 if the re-check passes | plain | 55 | 3 | 3,000 | | | 16.9 s: the first post under the new "length follows the story" rule |
+
+**Experiments running:**
+1. Ring vs plain (#40 vs #41, pair 1 of 3).
+2. No card before 4 s (every new build).
+3. **Posting rate: 1 a day Oct 14-19** vs the 2-a-day weeks (Oct 5-13 per-post median 2.8K). Read each post at 48 h from public counts (the daily routine logs them at 23:07 UTC) plus vidIQ avg % viewed when credits allow (70 left; renews Nov 5).
+
+**Decision rule (set in advance):** change nothing on one pair. Adopt the ring only if it wins 2 of 3 pairs by 5+ points of avg % viewed AND has the higher 48 h views. Call 1-a-day better only if this week's per-post 48 h median beats 2.8K by 50%+.

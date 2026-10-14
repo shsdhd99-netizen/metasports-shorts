@@ -84,9 +84,10 @@
   - Each line's picture must show what the line says (the critic's top finding in 3 of 3 builds).
   - Crop tickers, scorebugs and burned-in captions.
 - **Movement:** only to reveal a detail or follow the ball. No random zooms, no flash cuts.
+- **Cuts:** look at the 30 fps frames around every cut. A clip's first frame or its own internal cut can flash for one frame (#21 had two); fix with `in` or the shot start.
 - **Captions:**
   - House style (white Montserrat ALL CAPS, the 45-62% band).
-  - Re-crop the shot or move the band if a face sits in it.
+  - Re-crop the shot or move the band if a face sits in it (per shot: `"cap_y": 1305` in shots.json = 68%; default 1185).
   - The chunker now avoids lone-word cards (Oct 14).
 - **Payoff visual:** the strongest image lands on the payoff line, never before it (a card can reveal in two steps, as #41's 350 → 0 does).
 - **Ending:** cut on the last word, plus a 0.15-0.4 s tail. Loop into frame 1 when the ending image serves the payoff. Never add a sub-0.6 s shot just to loop.

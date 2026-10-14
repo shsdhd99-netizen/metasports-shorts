@@ -1,15 +1,15 @@
 [
  {
   "name": "2026-10-04 21 How Close Is Jokic T",
-  "dur": 22.15,
-  "voiced": 0.67,
-  "hnr": 8.3,
-  "jitter": 3.09,
-  "shimmer": 10.73,
+  "dur": 16.88,
+  "voiced": 0.7,
+  "hnr": 9.6,
+  "jitter": 3.03,
+  "shimmer": 11.33,
   "jumps": 0.0,
-  "clicks": 1031.9,
-  "hf": 3.57,
-  "f0_med": 195.0,
+  "clicks": 11323.6,
+  "hf": 3.85,
+  "f0_med": 209.0,
   "verdict": "PASS",
   "problems": []
  }

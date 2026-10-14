@@ -1,82 +1,83 @@
 # MetaSports Production Queue (CANONICAL: the only queue)
 
-**Updated:** Oct 14, 2026 (00:15 UTC), after the two critic passes. All other roadmaps and plans point here.
-**Formula:** `MetaSports - Playbook.md` → "Strict Short Formula".
-**Evidence:** `Research Notes/Winning Formula v2 (Oct 13, 2026).md`.
-**Current state and handoff:** `CLOUD STATE - read this first.md`.
+**Updated:** Oct 14, 2026 (after the posted-video audit, the Rules Audit and three critic passes). All other roadmaps and plans point here.
 
-**Status words:**
-- **research** = facts not locked
-- **script** = facts locked, script drafted
-- **footage** = collecting clips
-- **edit** = cutting
-- **QA** = rendered, waiting on the independent critic or the owner's ear
-- **ready** = rendered, passed QA and the critic; only the owner's listen is left
-- **posted**
-- **blocked** = a named blocker
+**Where the rest lives:**
+- **Every idea**, all 74, each with its status, score, premise, hook, sources, visual needs, blockers and next action: `Production Queue - all ideas (Oct 14, 2026).csv`. It is the full table behind this page.
+- **How to build:** `MetaSports - Playbook.md` → "CREATIVE SYSTEM v3".
+- **Why:** `Research Notes/Posted Video Audit (Oct 14, 2026).md` and `Research Notes/Rules Audit (Oct 14, 2026).md`.
+- **Handoff:** `CLOUD STATE - read this first.md`.
 
-**Owner actions before ANY post:**
-1. Pick a voice slot in the lineup (https://claude.ai/artifact/Y9P8QRytak2ikDRfMDqdj2). Until then every Short uses the provisional clone voice C.
-2. Listen once on a phone speaker.
-3. Post the file named in that folder's UPLOAD.md.
-4. Write the post time (ET) in `Research Notes/Outcome Log.md`.
+## Status ladder (each idea is on exactly one step)
+**idea** → **researched** → **script-ready** → **edit-ready** (footage secured) → **rendered** → **QA-passed** → **critic-passed (ready)** → **posted**. Or: **blocked** (the blocker is named) or **abandoned** (the reason is kept; nothing is deleted).
 
-## How items are scored
-Each criterion is scored 1-5 (/45 total). It is a **prioritisation tool, not a prediction**: our old craft score predicted views backwards (rho −0.63).
-- **N** novelty
-- **C** clear in second 1 to a casual fan
-- **Q** curiosity
-- **S** stakes or emotion
-- **E** evidence strength
-- **V** visuals available and checked
-- **A** audience fit (this channel's winners)
-- **U** untold (5 = nobody big has done it)
-- **F** formula fit: one visible object + one paradox, one measure, an answering ending
+## Score (Creative System v3 §4; a prediction to check, not a grade)
+- **Factors:** Clarity in second 1 ×3, Novelty of the angle ×3, Visual proof ×2, Stakes ×2, Audience name ×2, Pacing ×1, Feasibility ×1.
+- **Max:** 70. **Accuracy** is a pass/fail gate.
+- **Check:** at 10 posts, compare score vs 48 h views (Outcome Log).
 
-## Do next (in this order)
-| # | Short | Status | Score | Why it ranks here | Deadline | Path / next action |
+## Owner actions before ANY post
+1. Listen once on a phone speaker.
+2. Post the file named in the folder's `UPLOAD.md`. **The title goes up exactly as written** (#17's changed title misstated the fact).
+3. Write the post time (ET) in `Research Notes/Outcome Log.md`.
+4. **Voice:** play the Oct 14 audition finalists (`Research Notes/Voice Audition (Oct 14, 2026)/README.md`, "Owner listening task") and name the most natural one and the right "Wembanyama".
+
+## Ready or nearly ready (post in this order)
+| # | Short | Status | Score | Why here | Deadline | Next action |
 |---|---|---|---|---|---|---|
-| 1 | **#40 Why Jokic's Best Pass Doesn't Count** | **ready** (v2) | **40** (N4 C5 Q5 S3 E5 V5 A4 U4 F5) | Best formula fit: the pass is the object, "doesn't count" is the paradox, and it ends on one number. Critic v2: v1 NEEDS REVISION, then v2 re-check **PASS** | **before Oct 22** (the 6,080 changes) | `2026-10-13 40 .../`. Post the **ring** version (`final_pointer.mp4`); owner listen at about 12 s and 20 s |
-| 2 | **#39 How Old Is The Oldest Triple-Double Ever** | ready | 34 (N3 C4 Q3 S3 E5 V4 A5 U3 F4) | Record oddity on LeBron (this audience's top name). The script references opening night | **before Oct 20** | `2026-10-06 39 .../`. Owner listen |
-| 3 | **#41 Is Anyone Taller Than Wemby** | **ready** (v2) | 33 (N4 C4 Q4 S3 E4 V4 A3 U3 F4) | Height paradox (the #19 lane), now answered with one number: Wemby took 350 threes, Sharp 0. Critic v2: v1 REJECT, rewritten; the re-check's one-shot fix was applied Oct 14. The hook fact was widely covered in August (U3) | **post by about Oct 18**; re-check his status first | `2026-10-13 41 .../`. Post the **plain** version; owner listen to the names |
-| 4 | **#36 LeBron Was Pro Before Boozer Was Born** | blocked (owner OK) | 35 (N4 C4 Q4 S3 E5 V3 A5 U3 F4) | A paradox on the biggest name. Blocked only on your OK for an 8 s fan-account rookie clip (ESPN Classic logo visible) | none | `2026-10-06 36 .../`. Say "OK #36 clip" or I swap the clip |
-| 5 | **#30 How Many Steps Can Giannis Legally Take** | ready (re-rendered Oct 13) | 32 (N3 C4 Q4 S2 E5 V4 A4 U2 F4) | A rule paradox you can see (gather step). The explanation is widely known, so U is low | none | `2026-10-05 30 .../` |
-| 6 | **#21 How Close Is Jokic To Westbrook's Record** | ready (re-rendered + shot fix) | 31 (N3 C3 Q3 S3 E5 V4 A4 U3 F3) | Record chase. Post 1+ day after #40 (same player) | before Christmas | `2026-10-04 21 .../` |
-| 7 | **#28 Why Is The NBA Cup At Hinkle** | ready (re-rendered + fix) | 30 (N4 C3 Q3 S2 E5 V3 A3 U4 F3) | Venue oddity, untold. Weaker hook object | before Dec 11 | `2026-10-05 28 .../` |
-| 8 | **#27 Why Can't Teams Win Back-To-Back Lotteries** | ready (re-rendered + fix) | 29 (N3 C3 Q3 S3 E5 V3 A3 U3 F3) | Rule change, clear but abstract | before the May lottery | `2026-10-05 27 .../` |
-| 9 | **#38 What Did LeBron Promise Sixers Fans** | ready (re-rendered) | 29 (N3 C3 Q3 S4 E4 V3 A4 U3 F2) | News quote; low formula fit | before Oct 20 is best | `2026-10-06 38 .../` |
-| 10 | **#26 How Is A Screen Suddenly Illegal Now** | ready (re-rendered) | 28 (N3 C3 Q3 S2 E5 V4 A2 U4 F2) | Rule nuance; its closest analogue (#14) got 1.6K | none | `2026-10-05 26 .../` |
-| 11 | **#37 Who Is Rated Highest In NBA 2K27** | ready (re-rendered) | 26 (N2 C4 Q3 S2 E4 V3 A4 U2 F2) | A ratings list, saturated | none | `2026-10-06 37 .../` |
+| 1 | **#40 Why Jokic's Best Pass Doesn't Count** | **critic-passed (ready)**; re-captioned Oct 14 | **63** | Best formula fit (object + paradox, one number ending). Critic re-check PASS | **before Oct 22** | Post the **ring** version (`final_pointer.mp4`) **today, Wed Oct 14** |
+| 2 | **#41 Is Anyone Taller Than Wemby** | **critic-passed (ready)** | 53 | Height paradox, answered with 350 vs 0 | post by about Oct 18 | Post the **plain** version Thu Oct 15. Re-check his status first. Possible re-voice with plain "Wembanyama" if your ear prefers take A3 |
+| 3 | **#21 How Close Is Jokic To Westbrook's Record** | **critic-passed (ready)** v3.1: the re-check's 4 required fixes applied and frame-checked Oct 14 | 55 | Record chase on one measure; 16.8 s | **before Oct 22** (the 198 changes) | Post Fri Oct 16 (one day after #41, two after #40, same player as #40). Listen to 5-8 s first (the slowest line) |
+| 4 | **#36 LeBron Was Pro Before Boozer Was Born** | QA-passed; **blocked: owner OK** | 54 | A paradox on the biggest name | none | Say "OK #36 clip" or I swap the clip; then Critic v2 |
+| 5 | **#38 What Did LeBron Promise Sixers Fans** | QA-passed; Critic v2 not run | 46 | Big name; low formula fit | before Oct 20 | Run Critic v2; post Sat Oct 17 only if PASS |
+| 6 | **#27 Why Can't Teams Win Back-To-Back Lotteries** | QA-passed; Critic v2 not run | 41 | Abstract rule | before May | Critic v2 |
+| 7 | **#37 Who Is Rated Highest In NBA 2K27** | QA-passed; Critic v2 not run | 42 | Saturated list | none | Low priority |
+| 8 | **#26 How Is A Screen Suddenly Illegal Now** | QA-passed; Critic v2 not run | 41 | The rule-nuance lane underperformed (#14 1.6K, #20 1.6K) | none | Low priority |
 
-**Not independently critic-reviewed yet:** #21, #26-#28, #30, #36-#39 were judged by the old Round 3 critic (now known to rank backwards) plus today's QA. Only #40 and #41 have passed Critic v2. Running Critic v2 on the next three in this table is the first job of the next session.
-
-## Researched concepts (not built)
-| Concept | Status | Score | Next action | Why not yet |
+## Next to build (highest score first; complete packages exist)
+| Score | Idea | Status | Blocker | Next action |
 |---|---|---|---|---|
-| **How Did Wilt Average 48.5 Minutes? 🤯** | script (v2 ready) | 33 (N3 C4 Q5 S3 E5 V2 A4 U3 F4) | Build after the first 48 h results of #40/#41 | Visuals are grainy 480p 1962 film (`Research Notes/Batch 4 Concepts`, sections 4 and 8) |
-| **Why Did Jordan Wear Number 12? 😳** | research | 31 (N2 C5 Q4 S3 E4 V4 A5 U1 F3) | Only with a new angle | Breaks the "never retell a bigger channel's story" rule (FOX Sports 63K, theScore) |
+| **60** | **#42 Who Has Missed The Most Shots Ever** (LeBron: most misses AND most points) | **script-ready + shot plan** (`Productions/MetaSports/2026-10-14 42 ...`); facts verified Oct 14 | 2-3 clips of LeBron **missing** + 1 Kobe clip (YouTube is bot-blocked in the cloud; X has no search) | Paste X post URLs, or build on the PC |
+| 57 | ib38 Did LeBron pass Jordan in 30-point games? (TheSource Jul 2026: 672 vs 671) | researched (bank) | verify on B-Ref | Verify, then package |
+| 55 | ib64 Did Brunson actually miss the winner? (Finals G4 tip-in) | researched (bank) | footage | Package |
+| 53 | **#43 How Did Wilt Average 48.5 Minutes** | **script-ready + shot plan** (`Productions/MetaSports/2026-10-14 43 ...`) | **identifiable Wilt film** (the 1962 All-Star film is too wide; the "100-point" item is radio only) | X posts of Wilt film from the owner, or the PC |
+| 53 | A13 Why did Wemby turn down $50M? | researched (bank) | window Oct 20 | Re-verify; package |
+| 52 | #10 53 Years for One Banner (Knicks) | script-ready (PC era) | needs banner-night footage | Build on banner night |
+| 52 | ib40 Can LeBron win titles with four teams? | researched (bank) | | Backlog |
+| 51 | Batch 4: Jordan in No. 12 | script-ready (v2) | widely told (FOX 63K); needs a new angle | Hold |
 
-## Blocked or do-not-post
-- **#32** (Spurs 29-point lead): **REJECTED by Critic v2 (Oct 13): abandon.** A 7.1M-view Short already told it; it hops across six stats; "led the NBA Finals by 29" is wrong (it was Game 4). `_editB/` stays only as the record of the edit A/B (B's first 4 s beat A's).
-- **#33** (run out of players): corrupt clip `a10.mp4` and a 0.17 s clip replayed 11 times. It needs new footage before any render.
-- **#11** (Jordan push-off): its topic already went up as "Would Jordan's Last Shot Be a Foul Now?" (38 views). Re-posts don't get a second test.
-- **#31** (banned gear): no footage.
-- **#02, #04-#10:** built on the PC (Sep 29-Oct 6). No exports exist in the cloud copy, and none appears on the channel. Their status can only be checked on the PC.
+## Abandoned or blocked (history kept in the folders and the CSV)
+- **#30** Giannis steps: **abandoned** (Critic v2 Oct 14: 2M-view versions exist; no footage proves the step count; a replay).
+- **#32** Spurs 29-point lead: abandoned (Oct 13).
+- **#11** Jordan push-off: topic posted (38 views).
+- **#28** Hinkle: **HOLD** to about Dec 9-11. The same event went up Oct 5 as "The NBA Final That Does Not Count" (2.3K).
+- **#33**, **#31:** blocked on footage.
+- **PC era:**
+  - #02: rejected by the owner Sep 27.
+  - #04, #05, #07, #09: stale news.
+  - #06, #08: script-ready, needing a fresh angle or date.
+- **Idea banks:**
+  - 12 ideas are stale (news windows Oct 6-12 passed).
+  - ib58 (Chris Paul retiring ringless) retells our own 28.4K Short.
 
-## Posted (for overlap checks; results in the Outcome Log)
-#01, #03, #12, #13, #14, #15, #16, #17, #18, #19, #20, #22, #23, #24, #25 (twice), #29, #34, #35.
+## Posted (for overlap checks; results in the Outcome Log and the Posted Video Audit)
+#01, #03, #12, #13, #14, #15, #16, #17, #18, #19, #20, #22, #23, #24, #25 (twice), #29, #34, #35, **#39 (Oct 13, 23:49 UTC)**, plus "The NBA Final That Does Not Count" (Oct 5) and "Would Jordan's Last Shot Be a Foul Now?" (Oct 4).
 
-## Suggested calendar (2 a day; times unknown, so record them)
-| Day | Post 1 | Post 2 | Note |
-|---|---|---|---|
-| Wed Oct 14 | #40 Jokic pass (**ring** version) | #39 oldest triple-double | Both are time-limited |
-| Thu Oct 15 | #41 Sharp (**plain**; re-check his status) | #36 if the clip is OK, else #30 | Pointer test pair 1: #40 ring vs #41 plain |
-| Fri Oct 16 | #30 Giannis steps (or #36 if #30 went Thu) | #21 Jokic record | #21 is 2 days after #40 |
-| Sat Oct 17 | #28 Hinkle | #27 lottery | |
-| Sun Oct 18 | #38 LeBron promise | #26 screens | #32 removed (rejected) |
-| Mon Oct 19 | #37 2K27 | (open) | Then build the next batch from the 48 h results |
+## Suggested calendar: **1 a day this week** (Rules Audit D10 test; your call)
+| Day | Post | Note |
+|---|---|---|
+| Wed Oct 14 | #40 Jokic pass (**ring**) | #39 already went up Oct 13 evening |
+| Thu Oct 15 | #41 Sharp (**plain**; re-check status) | Pointer pair 1: #40 ring vs #41 plain |
+| Fri Oct 16 | #21 Jokic record v3.1 (ready) | Before Oct 22 |
+| Sat Oct 17 | #38 LeBron promise (if Critic v2 passes), else #36 if you OK the clip | Before Oct 20 |
+| Sun Oct 18 | #36 or #27 | |
+| Mon Oct 19 | the best remaining, or #42 if footage arrived | |
+
+The test: compare the per-post 48 h median of this week with the 2-a-day weeks (Oct 5-13 median 2.8K). One variable: posting rate.
 
 ## Experiments running (one variable each; decide at 48 h; log in the Outcome Log)
-1. **Red circle in frame 1:** pair 1 = #40 with the ring (`final_pointer.mp4`, logged as "ring, no pill") vs #41 plain. Topics differ, so one pair proves nothing alone; alternate across similar posts. Adopt only if it wins 2 of 3 pairs by 5+ points of stayed-to-watch (Winning Formula v2, experiment 1).
-2. **No card in the first 4 s:** every new build follows it. Compare against the Oct 6-13 posts that had an early card (median ~2.9K).
-3. **Prediction check:** before each post, write the 3-point formula score and your gut rank in the Outcome Log. At 10 posts, compare both with the 48 h views.
+1. **Red ring in frame 1:** #40 ring vs #41 plain (pair 1 of 3). The topics differ, so one pair proves nothing.
+2. **No card before 4 s:** every new build follows it; compare at n≥6.
+3. **Posting rate:** 1 a day this week vs 2 a day before.
+4. **Prediction check:** the score above and a 48 h view guess, logged before each post; compare at 10 posts.
+5. **Proposed, needs your OK:** a premise pill on frame 1 (like #19's), 3 pairs.
