@@ -152,3 +152,24 @@ Source of the scores: Creative System v3 rubric (`Production Queue.md`). The vie
 **What gets checked at 10 posts:**
 - Critic v3 total vs 48 h views (Spearman). If it's under 0.3, revise the critic's anchors.
 - Music is off by default from now on. The music cohort (M1) is closed: no bed is the house style.
+
+## Daily check, Oct 14, 2026, 23:50 UTC (free public numbers only; routine "MetaSports daily stats check")
+`channel_check.py`: 520 subscribers, 104 Shorts. **Median of the last 7: 2,950** (the channel's earlier normal: 13,350). Trend: down.
+
+| Short | Views |
+|---|---|
+| Why Is LeBron Playing Against His Son? (#23) | 9,800 |
+| Are Three Of 2007's Top Four Picks Still Playing? (#34) | 5,100 |
+| How Old Is The Oldest Triple-Double Ever? (#39, about 24 h) | 4,200 |
+| Is Anyone Taller Than Wemby? (#41, under 1 day) | 1,700 |
+| Why Won't Big Men Shoot Underhand? (#29) | 1,600 |
+| Why Jokic's Best Pass Doesn't Count (#40, under 1 day) | 752 |
+| Did Bronny Actually Get Better (repost) | 194 |
+
+**Retention:** there are no new retention numbers.
+- The only ones on file are from the owner's screenshots: Wembanyama 79.5% stayed / 100.3% average view duration; Duren 63.0% / 59.7%.
+- vidIQ has 5 credits, under the 10 needed, so I skipped it.
+- Metricool's per-video data is still empty.
+
+**Lesson:** none new. #40 and #41 are under 48 h old, and n<3, so no rule changes.
+- It is consistent with tonight's audit §12: the technicality (#40) is last among the new posts so far.
