@@ -4,7 +4,8 @@
 
 Each take: voiceover.py (new defaults: native speed auto, stability 0.65, similarity 0.7, almost no stretch) -> voice_check.py (free local
 speech recognition: every word said? odd pauses, stretched/swallowed words, clipping, cut-off ending) -> voice_quality.py (HNR/jitter/shimmer).
-A take PASSES when voice_check has no REDO issue and HNR >= 7.6, jitter <= 3.4, shimmer <= 11.5 (this cloned voice normally measures HNR 8-10).
+A take PASSES when voice_check has no REDO issue and HNR, jitter and shimmer are inside the profile's gate (voice_config.json hnr_min / jitter_max / shimmer_max; Alex 7.0 / 3.4 / 12.5, the clone 7.6 / 3.4 / 11.5).
+The voice and its settings come from voice_config.json (profile "primary" unless you pass -- --voice backup).
 It stops at the first passing take (credits: ~1 per character per take); otherwise it keeps the best of N and says why.
 Writes voice.mp3, voice_raw.mp3, words.json, captions.srt next to script.txt and voice_take.json (all takes' numbers). Old files go to _voice_prev/.
 """
@@ -17,10 +18,10 @@ def run(cmd, cwd=None):
     return subprocess.run(cmd, capture_output=True, text=True, cwd=cwd)
 
 
-def score(chk, q):
+def score(chk, q, hnr_min=7.6, jitter_max=3.4, shimmer_max=11.5):
     issues = chk.get("issues", [])
     s = -100 * len(issues) + q["hnr"] - 0.5 * q["jitter"] - 0.2 * q["shimmer"]
-    ok = (not issues) and q["hnr"] >= 7.6 and q["jitter"] <= 3.4 and q["shimmer"] <= 11.5
+    ok = (not issues) and q["hnr"] >= hnr_min and q["jitter"] <= jitter_max and q["shimmer"] <= shimmer_max
     return s, ok
 
 
@@ -31,6 +32,11 @@ def main():
     ap.add_argument("rest", nargs="*")
     a = ap.parse_args()
     import voice_quality as vq
+    from voiceover import load_profile
+    prof = load_profile(a.rest[a.rest.index("--voice") + 1] if "--voice" in a.rest else None)
+    # per voice (Oct 14 audition + first production takes): Alex HNR 7.6-8.7, shimmer 10.6-12.2; the clone HNR 8-10, shimmer 9-11.
+    gate = (prof.get("hnr_min", 7.6), prof.get("jitter_max", 3.4), prof.get("shimmer_max", 11.5))
+    print(f"voice profile: {prof.get('name', '.env voice')} (gate: HNR >= {gate[0]}, jitter <= {gate[1]}, shimmer <= {gate[2]})")
     folder = os.path.dirname(os.path.abspath(a.script))
     best, log = None, []
     for k in range(1, a.takes + 1):
@@ -48,7 +54,7 @@ def main():
                 q = vq.measure(w)
             finally:
                 os.remove(w)
-            s, ok = score(chk, q)
+            s, ok = score(chk, q, *gate)
             log.append({"take": k, "ok": ok, "score": round(s, 1), "verdict": chk["verdict"], "issues": chk["issues"][:5], "wpm": chk["wpm"], **{x: q[x] for x in ("hnr", "jitter", "shimmer", "dur")}})
             print(f"  take {k}: {'PASS' if ok else 'FAIL'}  check={chk['verdict']} HNR {q['hnr']} jitter {q['jitter']} shimmer {q['shimmer']} {q['dur']}s  {chk['issues'][:2]}")
             if best is None or s > best[0]:

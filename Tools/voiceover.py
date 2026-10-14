@@ -45,6 +45,38 @@ def call(path, key, payload=None):
         raise SystemExit(f"ElevenLabs error {e.code}: {e.read().decode()[:400]}")
 
 
+def load_profile(name=None):
+    """The house voice settings from voice_config.json (profile 'primary' unless named). {} if the file is missing."""
+    p = os.path.join(HERE, "voice_config.json")
+    if not os.path.exists(p):
+        return {}
+    cfg = json.load(open(p, encoding="utf-8"))
+    name = name or cfg.get("default", "primary")
+    if name not in cfg["profiles"]:
+        raise SystemExit(f"no voice profile '{name}' in voice_config.json (have: {', '.join(cfg['profiles'])})")
+    return dict(cfg["profiles"][name])
+
+
+def apply_dictionary(raw, which="default"):
+    """Turn plain mentions of a dictionary name into {Name|respelling} (captions keep the name). {A|B} already in the script wins."""
+    p = os.path.join(HERE, "pronunciation.json")
+    if not os.path.exists(p):
+        return raw, []
+    d = json.load(open(p, encoding="utf-8")).get(which, {})
+    parts = re.split(r"(\{[^{}]*\})", raw)  # leave existing {A|B} groups alone
+    used = set()
+    for i, part in enumerate(parts):
+        if part.startswith("{"):
+            continue
+        for name in sorted(d, key=len, reverse=True):
+            pat = r"(?<![\w{|])" + re.escape(name) + r"(?![\w'])" if not name.endswith("'s") else r"(?<![\w{|])" + re.escape(name) + r"(?!\w)"
+            new = re.sub(pat, lambda m: "{" + m.group(0) + "|" + d[name] + "}", part)
+            if new != part:
+                used.add(name); part = new
+        parts[i] = part
+    return "".join(parts), sorted(used)
+
+
 def parse_script(raw):
     """Split into segments: (display, spoken). {A|B} means show A, say B."""
     raw = re.sub(r"\s+", " ", raw.strip())
@@ -216,15 +248,19 @@ def to_srt(words, max_words=4, max_chars=28):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--script", help="path to a .txt/.md script (only the spoken text)")
-    ap.add_argument("--voice-id")
-    ap.add_argument("--model", default="eleven_multilingual_v2")
-    ap.add_argument("--speed", default="auto", help="ElevenLabs native speed 0.7-1.2, or auto. Our cloned voice reads ~210 wpm at 1.1, ~238 at 1.15, ~268 at 1.2 (Oct 5 2026 lab). auto = the fastest of 1.2/1.15/1.1 that still gives a take of at least --min-secs, so no time-stretch is needed")
+    ap.add_argument("--voice", default=None, help="a profile in voice_config.json: primary (the house voice, default), backup, clone_legacy. Its settings are the defaults below")
+    ap.add_argument("--voice-id", help="override the profile's voice")
+    ap.add_argument("--model", default=None)
+    ap.add_argument("--speed", default=None, help="ElevenLabs native speed 0.7-1.2, or auto. The clone reads ~210 wpm at 1.1, ~238 at 1.15, ~268 at 1.2 (Oct 5 2026 lab); Alex ~225 at 1.2 (Oct 14). auto = the fastest of 1.2/1.15/1.1 that still gives a take of at least --min-secs")
     ap.add_argument("--min-secs", type=float, default=21.5, help="auto speed keeps the narration at least this long (the 21-30 s sweet spot)")
-    ap.add_argument("--stability", type=float, default=0.65, help="0.65 (Oct 5 2026 voice lab). 0.45 gave the glitchier takes on the cloned voice")
-    ap.add_argument("--similarity", type=float, default=0.7, help="0.7 = the voice's own saved setting")
-    ap.add_argument("--target-wpm", type=int, default=250, help="speed audio up to about this pace with atempo, but never more than --max-stretch (0 = off)")
-    ap.add_argument("--max-stretch", type=float, default=1.08, help="time-stretching lowers voice quality (HNR -0.5..-1.1 dB at x1.2-1.4); above this we warn instead")
-    ap.add_argument("--clean", choices=["off", "light", "strong"], default="light", help="FFT noise reduction on the narration (Oct 5 2026: light = HNR +1.1 dB, strong = +2.4 dB but may sound dull)")
+    ap.add_argument("--stability", type=float, default=None)
+    ap.add_argument("--similarity", type=float, default=None)
+    ap.add_argument("--style", type=float, default=None)
+    ap.add_argument("--target-wpm", type=int, default=None, help="speed audio up to about this pace with atempo, but never more than --max-stretch (0 = off)")
+    ap.add_argument("--max-stretch", type=float, default=None, help="time-stretching lowers voice quality (HNR -0.5..-1.1 dB at x1.2-1.4); above this we warn instead")
+    ap.add_argument("--clean", choices=["off", "light", "strong"], default=None, help="FFT noise reduction. Oct 14 2026: 'light' removed about two thirds of the voice's energy above 5 kHz (s, t, f sounds) on #40, so TTS takes now use off")
+    ap.add_argument("--no-dictionary", action="store_true", help="don't apply pronunciation.json")
+    ap.add_argument("--max-pause", type=float, default=None, help="shorten silences between words to this many seconds (profile default; 0 = off)")
     ap.add_argument("--legacy", action="store_true", help="old settings (speed 1.1, stability 0.45, similarity 0.8, stretch up to x1.6)")
     ap.add_argument("--prev-text", default="", help="text spoken just before this piece (keeps tone/pace continuous across spliced pieces)")
     ap.add_argument("--next-text", default="", help="text spoken just after this piece")
@@ -232,6 +268,11 @@ def main():
     ap.add_argument("--list-voices", action="store_true")
     ap.add_argument("--check", action="store_true")
     a = ap.parse_args()
+    prof = load_profile(a.voice)
+    for k, fallback in (("model", "eleven_multilingual_v2"), ("speed", "auto"), ("stability", 0.65), ("similarity", 0.7), ("style", 0.0),
+                        ("target_wpm", 250), ("max_stretch", 1.08), ("clean", "light")):
+        if getattr(a, k) is None:
+            setattr(a, k, prof.get(k, fallback))
     if a.legacy:
         a.speed, a.stability, a.similarity, a.max_stretch, a.clean = 1.1, 0.45, 0.8, 1.6, "off"
     env = load_env()
@@ -251,6 +292,10 @@ def main():
     if not a.script:
         raise SystemExit("Give --script path")
     raw = open(a.script, encoding="utf-8-sig").read()
+    if not a.no_dictionary:
+        raw, used = apply_dictionary(raw, prof.get("pronunciation", "default"))
+        if used:
+            print("pronunciation.json: " + ", ".join(used))
     segs = parse_script(raw)
     spoken = " ".join(s for _, s in segs).strip()
     n_words = len(" ".join(d for d, _ in segs).split())
@@ -258,7 +303,8 @@ def main():
     print(f"At {a.target_wpm or 250} wpm that's about {n_words / (a.target_wpm or 250) * 60:.0f} seconds.")
     if a.dry_run:
         return
-    voice = a.voice_id or env.get("ELEVENLABS_VOICE_ID")
+    voice = a.voice_id or prof.get("voice_id") or env.get("ELEVENLABS_VOICE_ID")
+    print(f"voice: {prof.get('name', voice)} [{a.model}, speed {a.speed}, stability {a.stability}, clean {a.clean}]")
     if not key or not voice:
         raise SystemExit("Missing ELEVENLABS_API_KEY or ELEVENLABS_VOICE_ID in Tools/.env")
 
@@ -267,7 +313,7 @@ def main():
         a.speed = next((sp for sp in (1.2, 1.15) if est(sp) >= a.min_secs), 1.1)
         print(f"auto speed -> {a.speed} (about {est(a.speed):.1f} s for {n_words} words)")
     a.speed = float(a.speed)
-    settings = {"stability": a.stability, "similarity_boost": a.similarity, "use_speaker_boost": True}
+    settings = {"stability": a.stability, "similarity_boost": a.similarity, "style": float(a.style), "use_speaker_boost": True}
     if abs(a.speed - 1.0) > 1e-6:
         settings["speed"] = max(0.7, min(1.2, a.speed))
     body = {"text": spoken, "model_id": a.model, "voice_settings": settings}
@@ -300,6 +346,15 @@ def main():
     else:
         shutil.copyfile(raw_mp3, final)
         factor = 1.0
+    max_pause = float(prof.get("max_pause", 0) or 0) if a.max_pause is None else a.max_pause
+    if max_pause > 0 and words and shutil.which("ffmpeg"):
+        # Oct 14 2026: Alex leaves 0.8-1.25 s of silence after some sentences (#40 v4 take: 3.8 s in 4 pauses); QA fails dead air
+        # over 0.6 s. Shorten only real silence between two words to max_pause (voice_fx: a syllable can never be cut).
+        import voice_fx
+        tmp = os.path.join(out_dir, "_voice_tight.mp3")
+        words, removed = voice_fx.tighten_gaps(final, words, tmp, keep=max_pause, thresh=max_pause + 0.12)
+        os.replace(tmp, final)
+        print(f"Pauses: {removed:.2f} s of silence removed (longest pause now about {max_pause} s)")
     words = tidy(map_display(segs, words))
     open(os.path.join(out_dir, "captions.srt"), "w", encoding="utf-8").write(to_srt(words))
     json.dump([{"word": w, "start": round(s, 3), "end": round(e, 3)} for w, s, e in words],

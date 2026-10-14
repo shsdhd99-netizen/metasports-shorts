@@ -261,7 +261,11 @@ def finish(folder, raw, final, total, style, music=None, hook_text=None):
         parts.append(f"[{k}:a]{trim}{fo}aformat=sample_rates=48000:channel_layouts=stereo,volume={gain}dB,adelay={ms}|{ms}[s{k}]")
         labels.append(f"[s{k}]")
     # Shorts play at about -14 LUFS and YouTube never turns quiet uploads up: measure, then lift the whole mix
-    meas = subprocess.run(["ffmpeg", "-hide_banner", "-i", raw, "-af", "ebur128", "-f", "null", "-"],
+    # Oct 14 2026: a gentle compressor on the voice before the lift. The house voice since Oct 14 (Alex) is more dynamic than the
+    # clone (loudness SD 3.3-3.6 vs 2.7 dB), so its peaks hit the final limiter and #21 v4 came out at -15.6 LUFS (QA wants -14 +-1.5).
+    # 2.5:1 above -20 dBFS only touches the loudest syllables; loudness is measured AFTER it so the lift lands on -14.
+    vcomp = "acompressor=threshold=0.1:ratio=2.5:attack=5:release=100:knee=4,"
+    meas = subprocess.run(["ffmpeg", "-hide_banner", "-i", raw, "-af", vcomp + "ebur128", "-f", "null", "-"],
                           capture_output=True, text=True, encoding="utf-8", errors="replace").stderr
     import re as _re
     found = _re.findall(r"I:\s+(-?[\d.]+) LUFS", meas)
@@ -269,7 +273,7 @@ def finish(folder, raw, final, total, style, music=None, hook_text=None):
     # Lift the VOICE to -14 LUFS first, then mix effects and music under it. (Lifting the finished mix instead made every effect
     # louder than a quiet voice: the "vine boom ruins it" bug.) Effect gains below are therefore relative to a loud voice.
     tail = "alimiter=limit=0.794:attack=3:release=60:level=disabled"
-    parts.append(f"[0:a]volume={lift:.2f}dB[vlift]")
+    parts.append(f"[0:a]{vcomp}volume={lift:.2f}dB[vlift]")
     labels[0] = "[vlift]"
     mlog = None
     if music:
