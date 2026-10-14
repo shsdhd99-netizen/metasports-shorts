@@ -1,6 +1,6 @@
 # MetaSports Production Queue (CANONICAL: the only queue)
 
-**Updated:** Oct 14, 2026, night.
+**Updated:** Oct 14, 2026, late night (new stats + Script Critic v3 + rewrites).
 
 **New tonight:**
 - **The Winning Formula** (Playbook top): build every Short to it.
@@ -32,17 +32,17 @@ All other roadmaps and plans point here.
 4. **Voice:** open the Sound Check page (round 3) and answer its 4 questions in chat. If you pick Alex, post the **v4** versions (top of each Hub card). If not, post the old-voice versions.
 5. **Post #40 and #41 the same way** (same voice, same music setting), so the one running test (ring vs plain) stays fair.
 
-## Ready or nearly ready (post in this order)
-| # | Short | Status | Score | Why here | Deadline | Next action |
+## Ready or nearly ready (re-prioritised Oct 14 night with the new stats and Script Critic v3)
+| # | Short | Status | Critic v3 | Why here | Deadline | Next action |
 |---|---|---|---|---|---|---|
-| 1 | **#40 Why Jokic's Best Pass Doesn't Count** | **critic-passed (ready)**; music versions added; footage logged and verified | **63** | Best formula fit (object + paradox, one number ending) | **before Oct 22** | Post the **ring** version. **v4 (new voice) or v2 (old voice): your ear on the Sound Check page.** Both QA PASS |
-| 2 | **#41 Is Anyone Taller Than Wemby** | **critic-passed; v3** (Oct 14: the Dallas agency photo replaced with Mavericks game footage; QA PASS); music version | 53 | Height paradox, answered with 350 vs 0 | post by about Oct 18 | Post **v4 (new voice) or v3** (plain, the same choice as #40) Thu Oct 15. Re-check his status first |
-| 3 | **#21 How Close Is Jokic To Westbrook's Record** | **critic-passed (ready)** v3.1; music version | 55 | Record chase on one measure; 16.8 s | **before Oct 22** | **v4 (new voice, 23.0 s; 3 clips re-cut longer, 2 shots split) or v3.1 (old voice, 16.8 s).** Post Fri Oct 16 |
-| 4 | **#36 LeBron Was Pro Before Boozer Was Born** | QA-passed; **blocked: owner OK** | 54 | A paradox on the biggest name | none | Say "OK #36 clip" or I swap the clip; then Critic v2 |
-| 5 | ~~#38 What Did LeBron Promise Sixers Fans~~ | **REJECTED by Critic v2 (Oct 14): DO NOT POST** | 46 | A retell: the quote led every Sep 28 story and our own #18 used it; it drifts off its one measure; the quote shot is out of lip sync | — | Abandoned. See the review file |
-| 6 | **#27 Why Can't Teams Win Back-To-Back Lotteries** | QA-passed; Critic v2 not run | 41 | Abstract rule | before May | Critic v2 |
-| 7 | **#37 Who Is Rated Highest In NBA 2K27** | QA-passed; Critic v2 not run | 42 | Saturated list | none | Low priority |
-| 8 | **#26 How Is A Screen Suddenly Illegal Now** | QA-passed; Critic v2 not run | 41 | The rule-nuance lane underperformed (#14 1.6K, #20 1.6K) | none | Low priority |
+| 1 | **#21 Jokic could break Westbrook's record by Christmas** | **rendered v5, QA PASS** (rewritten; voices A and F; no music) | **39/45 APPROVE** | Two stars, a deadline, a Christmas payoff | **before Denver's first game** (the 198 changes) | Watch both voices in the Hub; reply A or F; post that version |
+| 2 | **#36 LeBron's rookie teammate now has a son in the NBA** | **rendered v2, QA PASS** (rewritten; A and F; no music) | **38/45 APPROVE** | The biggest name plus a father-son link (our #23 pattern, 9.8K) | none | Say "OK #36 clip" (an unofficial fan account's rookie-LeBron footage) or I swap it; post the voice you pick |
+| 3 | #09 LeBron's schedule ("That's a documentary") | script-ready | 35 REWRITE | Strong payoff, stale angle | before Oct 20 | Re-angle to opening week; needs footage of LeBron in each jersey |
+| 4 | #10 53 years for one banner | script-ready | 34 REWRITE | Big premise, no ceremony footage yet | Oct 20-21 | Build after the ceremony, or a preview on title-run footage |
+| — | #40 Jokic's preseason pass | **posted Oct 14** (old voice v2, 21 s): **655 views** | 28 REJECT (in hindsight) | A technicality | — | Read at 48 h; no more work |
+| — | #41 Taller than Wemby | **posted Oct 14**: **1,600 views** | 30 REJECT (in hindsight) | Niche player; the hook oversells | — | Read at 48 h |
+| — | #42 LeBron's misses / #43 Wilt's minutes | blocked | 34 / 36 | Good scripts; no footage | — | #42 needs X links from you; #43 parked |
+| — | #27 lotteries, #26 screens, #37 2K ratings | **REJECTED by Critic v3** | 25 / 27 / 23 | Technicality, rules memo, saturated list | — | Abandoned (kept on disk) |
 
 ## Next to build (highest score first; complete packages exist)
 | Score | Idea | Status | Blocker | Next action |

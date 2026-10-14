@@ -362,3 +362,54 @@ Format per Short: **1-3 s** what the viewer gets · **Hook** · **Frame 1** · *
   - escalation where the story has steps
   - a reframe ending ("The question isn't X, it's Y") when the story supports it
 - **Pre-registered tests** (Outcome Log): R1 "story voice" script vs fact-chain script; R2 reframe ending.
+
+## 12. New stats, Oct 14, 2026, night (added after #40 and #41 went up)
+**What was found:**
+- **No new stats file from the owner has reached the cloud copy** (repo, branches, uploads all checked at 23:05 UTC). The owner was asked to push the files or drop them in chat.
+- **Newly available here:**
+  1. Public views for all 104 Shorts at 23:00 UTC, including **#40 (posted Oct 14, the old-voice v2 at 21 s: 655 views, 29 likes)** and **#41 (1,600)**.
+  2. **Metricool** (owner's account, YouTube reconnected tonight): daily channel views and subscribers.
+     - Per-video watch time and avg duration are **still empty there**: the video sync stops at Oct 4.
+  3. A scoring check: our own rubric vs these views.
+- **Not available:** retention, avg % viewed and swipe-away for anything after the Oct 14 metrics file.
+  - That needs Metricool's video sync to catch up, a YouTube Analytics export (owner), or a read-only API link (Tools Guide).
+
+**Channel daily views (Metricool) [V]:**
+
+| Oct 3 | Oct 4 | Oct 5 | Oct 6 | Oct 7 | Oct 8 | Oct 9 | Oct 10 | Oct 11 |
+|---|---|---|---|---|---|---|---|---|
+| 24.2K | 37.2K | 8.2K | 19.9K | 7.0K | 8.1K | 10.3K | 4.5K | 4.8K |
+
+- Daily views have halved since the Oct 4-6 burst.
+- Subscribers went 480 → 520 (Oct 4 → Oct 14).
+- Oct 12-14 view counts are not reported yet.
+
+**What changed in the analysis:**
+1. **Our scoring rubric ran backwards again** [V, n=3 new posts]:
+
+   | Short | Rubric score | Views |
+   |---|---|---|
+   | #40 | 63, the queue's top score | 655 |
+   | #41 | 53 | 1,600 |
+   | #39 | 46 | 4,000 |
+
+   It over-rewards clever "paradox" premises that are really technicalities. It no longer ranks the queue; Script Critic v3 does (`Tools/script_critic.md`).
+2. **Technicalities flop; famous subjects with a human angle win** [S, n=22 new-era posts]:
+
+   | | Shorts and views |
+   |---|---|
+   | **Bottom 6** (all technicalities, niche players, or our own old story retold) | #11 Jordan push-off rules 38; #40 preseason assist bookkeeping 655; #14 flopping memo 1.6K; #20 defense rules 1.6K; #29 underhand 1.6K; #41 G League player 1.6K. The "Cup final doesn't count" post (2.3K) fits too |
+   | **Top 4** (a famous name or object with a fact you'd retell, three with the subject's own words or family) | #22 31K; #03 26K; #19 20K; #23 9.8K |
+
+3. **The critic's fit:** scored with the views known, v3 approves all 5 posts over 9K and holds back all 5 under 5K (Script Critic Log, A). A fit check, not proof.
+4. **Still true from earlier sections:**
+   - retention goes with views (§1)
+   - the old era's voice was the same (§11)
+   - distribution and topic dominate
+5. **Not shown by this data:**
+   - that music, the voice or the ring caused anything (#40 went up with the ring; #41 plain; pair 1 is 1 vs 1 and confounded by topic)
+   - #40 and #41 are under 24 h old, so read them again at 48 h and 7 days
+
+**Ages:**
+- #39 went up Oct 13 at 23:49 UTC (4.0K at about 23 h).
+- #40 and #41 went up Oct 14 (exact times not logged yet).

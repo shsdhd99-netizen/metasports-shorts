@@ -140,3 +140,15 @@ Source of the scores: Creative System v3 rubric (`Production Queue.md`). The vie
 - Alex: 220-229 wpm.
 - The v4 renders of #40, #41 and #21 run 23-24 s (old: 16.8-21.3 s).
 - If an Alex post is read against an old-voice post, length differs too. Say so in any comparison.
+
+## Oct 14, 2026 (late night): first results and the next posts (written before the next results)
+| Short | Posted | Version | Old rubric | Critic v3 | 48 h guess | Notes |
+|---|---|---|---|---|---|---|
+| #40 Jokic pass | Oct 14 (owner) | ring, old voice, v2 (21 s) | 63 | 28 REJECT | (was 5,000) | **655 views and 29 likes at under a day.** Read at 48 h and 7 days |
+| #41 Taller than Wemby | Oct 14 (owner) | old voice | 53 | 30 REJECT | (was 3,500) | 1,600 at under a day |
+| #21 v5 | not yet | A or F (owner's pick), no music | — | 39 APPROVE | 6,000 | rewritten |
+| #36 v2 | not yet | A or F, no music | — | 38 APPROVE | 8,000 | rewritten; needs the owner's OK on fan-account clips |
+
+**What gets checked at 10 posts:**
+- Critic v3 total vs 48 h views (Spearman). If it's under 0.3, revise the critic's anchors.
+- Music is off by default from now on. The music cohort (M1) is closed: no bed is the house style.

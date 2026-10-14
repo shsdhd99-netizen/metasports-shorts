@@ -220,3 +220,33 @@ Research Notes/Round 9 - Competitor Shorts Watched (Oct 5, 2026).md. Findings (n
 - If the owner picks Alex: build the next queued Short to the Winning Formula with the house voice, end to end.
 - If not: set `voice_config.json` "default" to "backup" (one line) and keep the old-voice versions.
 
+
+## CHECKPOINT Oct 14, 2026, ~23:55 UTC: the "Winning Formula, New Stats & Voice Overhaul" run
+**Done (verified):**
+- **Stats:**
+  - No owner stats file reached the cloud copy (asked).
+  - Pulled public counts for all 104 Shorts: #40 got 655, #41 got 1.6K.
+  - Metricool daily channel views (the per-video sync is still empty).
+  - Audit §12.
+- **Script Critic v3** (`Tools/script_critic.md`, plus the `script_lint.py` helper).
+  - Calibrated on 10 posted Shorts: it fits all 10 (views known while scoring).
+  - Queue scored: #21 and #36 rewritten to APPROVE; #27, #26 and #37 rejected; #09 and #10 need rewrites; #42 and #43 blocked on footage.
+  - Log: `Research Notes/Script Critic Log.md`.
+- **Voice round 4:**
+  - A vs F vs current Pham vs original Pham vs a NEW clone "Pham v3" (`61QfR1QEcJUskHn8yioH`). The new clone is the flattest, so it isn't adopted.
+  - pham v2's training data was found triplicated.
+  - The pitch gate is added.
+  - Voice README Part 4.
+- **Real edits:**
+  - #21 `_v5` (A) / `_v5_F` (F); #36 `_v2` (A) / `_v2_F` (F).
+  - Rewritten scripts, no music, QA PASS, flash-free (`deflash.py`), transcripts checked.
+  - In the Hub (top of each card).
+- **Music:** no background bed by default (owner). Playbook, Music Guide, Sound Library and QA are updated.
+
+**Open:**
+- The owner picks A or F (then set `voice_config.json` "default"; F = "backup").
+- The owner's OK on #36's fan-account clips.
+- The owner's new stats files.
+- A Metricool per-video re-check is scheduled for about 02:03 UTC; the fallback plan is in that check-in.
+
+**Credits:** ElevenLabs about 46K of 52,087 used (resets Nov 8).

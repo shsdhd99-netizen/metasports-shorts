@@ -1,6 +1,6 @@
 # Voice audition (Oct 14, 2026): 12 takes, one script, same measures
 
-> **CURRENT DECISION (Oct 14, night). It supersedes "Keep the current voice" below; details in Part 3 at the end.**
+> **CURRENT DECISION (Oct 14, late night; Part 4).** The owner shortlisted **A (Alex)** and **F (our old voice "pham v2", fixed settings)**. Both are rendered on two real Shorts (#21 v5, #36 v2) for the owner's final pick. Until then the default stays A and F is the backup. A new Pham clone was made and tested; it was **not** better. Earlier decision text follows.
 > - **Primary:** Alex (ElevenLabs Voice Library `yl2ZDV1MzN4HbQJbMihG`), multilingual_v2, speed 1.2, stability .5, similarity .75, no denoise, no stretch, pauses capped at 0.38 s.
 > - **Backup:** our clone "pham v2" with fixed settings (speed 1.1, stability .5, no denoise).
 > - **Where it lives:** `Tools/voice_config.json` (the only place to change the voice) and `Tools/pronunciation.json`.
@@ -239,3 +239,54 @@ It is the **backup**.
 | Gate (`voice_take.py`) | voice_check has no REDO issue; HNR ≥ 7.0, jitter ≤ 3.4, shimmer ≤ 12.5 (Alex's measured range: HNR 7.6-8.7, shimmer 10.6-12.2) |
 | Pace | 210-235 wpm expected; QA warns outside 200-265 |
 | Cost | about 1 credit per character: about 500 per Short per take. Starter plan, 52,087 a month; 32.7K used on Oct 14 (resets Nov 8) |
+
+## Part 4 (Oct 14, late night): A vs F vs every Pham option, a new clone, and real edits
+**Owner's brief:** A and F sound best; also improve Pham, try a new Pham clone, and test in real Short edits.
+- **A** and **F** are the round 3 page's labels:
+  - A = Alex `yl2ZDV1MzN4HbQJbMihG`
+  - F = pham v2 `GDS7e7WiI4GqkoRxZAFG` at speed 1.1, stability .5, similarity .75, no denoise
+- **Round 1's labels were different** (A = the clone's production settings; F = the premade "Liam"). If the owner meant round 1's F, say so.
+
+### What the Pham voices are [V, ElevenLabs API]
+- **"Pham"** `H2ovX6h6fD6dmyrg5SkI`: an instant clone (category "cloned"), made Jan 8, 2026 from **one 27 s recording**.
+- **"pham v2"** `GDS7e7WiI4GqkoRxZAFG`: an instant clone, Jan 8, 2026, from 4 files.
+  - **Three of the four are the same recording cut at different lengths** (correlation 1.0): the first 79 s went in 3 times and the next 91 s twice.
+  - Unique audio: about 293 s.
+- **Plan:** Starter allows instant clones, not professional ones (that needs Creator or above).
+
+### The new clone [V]
+- **"Pham v3 (cloud candidate Oct 14)"** `61QfR1QEcJUskHn8yioH`, created tonight through the API. No verification was required.
+- **Training:** the same recordings, de-duplicated (one copy each, 255 s + 26 s), pauses trimmed to 0.35 s, loudness-normalised. ElevenLabs' noise removal was off: the source is clean.
+- The originals ("Pham", "pham v2") are untouched.
+
+### Round 4 (`audition4.py`, `results4.json`, `results4_consistency.json`; 10 takes, about 5.6K characters)
+- **Script:** #21's rewritten v5 (a hook, two names, numbers, a payoff). Two takes per voice. Names through `pronunciation.json` (Jokic → "Yokitch").
+
+| Voice | wpm (t1, t2) | Pitch variety | Loudness variety | Take-to-take | Like the old narration | Longest pause |
+|---|---|---|---|---|---|---|
+| **A Alex** | 227, 227 | **4.97, 5.24** | 3.31, 3.33 | **0.989** | 0.738 | 0.32 s |
+| **F pham v2, fixed** | 220, 236 | 4.66, **3.81** | 3.30, 2.93 | 0.973 | 0.954 | 0.38 s |
+| Pham as used until today (pham v2, 1.15, stab .65) | 262, 272 | 4.90, 4.35 | 2.79, 2.90 | 0.992 | 0.960 | 0.28 s |
+| Original "Pham" (fixed settings) | 205, 207 | 4.44, 4.60 | 3.16, 2.61 | 0.982 | 0.966 | 0.46 s |
+| **NEW "Pham v3"** (fixed settings) | 228, 238 | **3.68, 3.83** | **2.23, 2.18** | 0.979 | 0.915 | 0.34 s |
+
+- Error rates sit at 9.8-14.6% for every voice. That comes from number words ("one ninety-eight" written as "198") and the respelled "Yokitch". All transcripts read correctly.
+
+**Reading it:**
+- **A** is the most expressive and the steadiest.
+- **F** is the channel's own voice and the cleanest-sounding, but one take in two goes flat.
+  - `voice_take.py` now rejects flat takes: a pitch gate per voice, 4.5 for A and 4.2 for F.
+- **Today's production Pham** is simply too fast.
+- **The original Pham** is slow, with more pauses.
+- **The new clone is the flattest of all five.** De-duplicating the recordings did not make it livelier, so **it is not adopted** (kept in `voice_config.json` as `pham_v3_test` for reference).
+- **What "improving Pham" turned out to mean:** the fixed settings on the existing pham v2, which is F, plus no denoise, no stretch, the pause cap and the dictionary. Not a new clone.
+
+### Real edits (the owner's comparison)
+- **#21 v5:** `_v5` (A) and `_v5_F` (F).
+- **#36 v2:** `_v2` (A) and `_v2_F` (F).
+- Same script, footage and edit; no music. All QA PASS. Both are in the Hub cards.
+- I can't hear them. **The owner's one-word answer (A or F) sets `voice_config.json` "default"**, and then no more switching.
+
+### What would still be worth trying (not done)
+- A **professional** clone of the original narrator would need the Creator plan and about 30+ minutes of clean recordings of one consistent voice.
+- We only have about 5 minutes, and it is itself old TTS output. So a better Pham clone is limited by the source, not the settings.

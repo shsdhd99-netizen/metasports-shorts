@@ -125,3 +125,13 @@ Tiers: [V] verified on our files or data, [S] supported by our numbers (small n)
 - [V] **Creator data beats creator anecdotes.** CoachClank's 20-62 s Shorts beat their under-20 s ones 2.8× on median views (n=145), in both halves of their history. Our own new posts are all 21-29 s, so length isn't what separates our winners from our losers.
 - [V] **TikTok profile pages and YouTube both refuse this server for listing or watching videos** (Oct 14). Known video URLs still play through the browser. Ask the owner for links rather than working around a block.
 - [S] **The difference between our old hits and new posts is the storytelling, not the voice.** Same voice (0.93-0.95); the old scripts had flowing sentences, a turn and a reframe. Story voice is now house style.
+
+### Oct 14, 2026 (late night): new stats, a strict script critic, voice round 4
+- [V] **Our scoring rubric ran backwards twice.** Round 3 (Oct 5) and Creative System v3: #40 scored 63 (top) and got 655 views; #39 scored 46 and got 4.0K. A rubric that scores craft can't see a weak premise. Script Critic v3 scores the premise first and may reject.
+- [S] **Technicalities flop.** The bottom 6 new-era posts were rule or bookkeeping technicalities, niche players or retells (38 to 1.6K). The top 4 had a famous subject and a fact you'd retell, three with the subject's own words or family (9.8K-31K). n=22, correlation only.
+- [V] **A hook that oversells loses the viewer.** #41 "taller than Wembanyama" delivered an unknown G Leaguer: 1.6K views.
+- [V] **Check clone training data.** "pham v2" was trained on the same recording 3 times at different lengths. De-duplicating it and making a new instant clone gave a *flatter* voice (pitch variety 3.7 vs 4.7). The limit is the 5 minutes of old TTS source, not the settings.
+- [V] **The same voice can go flat on one take** (F: 4.66 then 3.81 semitones). `voice_take.py` now gates on pitch variety per voice.
+- [V] **One-frame flashes hide in source clips** (washed-out single frames in b7L, a1, c_34, e1bg, k2bg). qa_short can't see them. `Tools/deflash.py` finds and replaces them; run it on every new clip.
+- [V] **A slower, natural read needs about 25% more footage.** Plan 1 clip per line, and split long lines before rendering.
+- [V] **Metricool shows channel-level daily views, but its per-video sync can lag days after a reconnect.** Don't promise per-video retention from it.

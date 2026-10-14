@@ -1,5 +1,12 @@
 # Sound Library (canonical; Oct 14, 2026)
 
+> **House rule (owner, Oct 14 night):**
+> - **No generic background music.** No instrumental beds, stock tracks or AI-generated music by default.
+> - **Clean narration.** Effects only where the picture makes the sound.
+> - **Real songs or trending sounds:** only when they strengthen the story, and only through the platform's own music library, added by the owner at upload (route A, §2).
+> - **A Short being under one minute does not clear a song's rights.**
+> - Section 4's "subtle bed (default)" row is retired.
+
 **What this covers:** every sound we have or have been given, what each may be used for, and how to use trending or copyrighted music.
 - **Beds we generated or licensed** (levels, placement, the moves): `Library/Music Guide.md`. Every track has a row in `Library/Music/music_library.csv`.
 - **This file** adds the owner's own sounds, the CoachClank reference, the permission rules for copyrighted and trending music, and the sound strategy.
@@ -63,7 +70,7 @@ The owner is open to copyrighted music. A track is not excluded because it's cop
 | Role | When | How | Evidence |
 |---|---|---|---|
 | **Narration** | Always: the voice carries the Short from 0.0 s to the end | The house voice (Playbook, Winning Formula) | All references, our hits [V] |
-| **Subtle bed** (default) | Every narrated Short | By story type (Music Guide §3), `bed_lu` -20 | 5/5 old Shorts watched had one; it doesn't separate hits from misses [S] |
+| ~~Subtle bed~~ (retired Oct 14 night) | Not by default | Only on purpose, with a reason in PACKAGE.md | 5/5 old Shorts watched had one, but it doesn't separate hits from misses [S]; the owner dropped it |
 | **Silence as a move** | The beat before the turn or the punchline | `drops` in music.json (0.3 s) | Old hits' music moves [S] |
 | **Dramatic bed** | Mysteries and reveals | "Dark build", decays on the answer word | #41 [V placement] |
 | **Trending song** | Only a non-narrated cold open or montage | Route A by the owner | Section 3 |
@@ -80,3 +87,15 @@ The owner is open to copyrighted music. A track is not excluded because it's cop
 **Not done:**
 - **A route-A test (a real song added in the YouTube app):** only the owner can add a library song, in the app.
 - **A trending-song edit:** no queued Short has a non-narrated cold open or montage, so a test would only force a trend.
+
+## 6. Timing audio to the story (what the references do, and our rule)
+**CoachClank:**
+- Their two TikToks we have run a constant tonal bed under nonstop narration, mixed in as "original sound".
+- We found no hits timed to jokes or reveals in them (n=2, measured on the mix; we can't separate the bed from the voice).
+
+**Our old hits:**
+- They marked the payoff with the music: a swell (Kobe), a riser and a clean cut (Luka), a decay to silence ("...son.").
+
+**Our rule now** (no bed):
+- Mark the payoff with **silence or an effect the picture earns**: a swish on the make, a whoosh on a proof card.
+- If the owner adds a song in the app, start it after the hook line and let it cut on the payoff line.

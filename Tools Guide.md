@@ -57,6 +57,21 @@ There are two ways to use everything here:
 - **Easiest:** type a command in Claude (the Code tab, opened on this folder) and Claude runs the tools for you.
 - **By hand:** open the `Tools` folder, click the address bar, type `cmd`, press Enter, then paste a command from below.
 
+## Newest changes (Oct 14, 2026, late night)
+- **`script_critic.md` (new): Script Critic v3, the strict pre-production gate.**
+  - 10 categories; APPROVE needs 36+/45, with premise, hook and payoff each 4+. Accuracy is pass/fail.
+  - Every verdict and rewrite goes in `Research Notes/Script Critic Log.md`.
+- **`script_lint.py` (new):** objective script risks: length at 225 wpm, first-sentence timing, stacked numbers, jargon, cadence, repeated words, untested names.
+  - `python Tools/script_lint.py "<folder>/script.txt"`
+- **`deflash.py` (new):** finds and replaces one-frame flashes in a clip; the original is kept.
+  - `python Tools/deflash.py clips/x.mp4 clips/x_df.mp4`; `--check` lists them only.
+- **`voice_take.py`:** rejects flat takes (pitch-variety gate per voice: `pitch_sd_min` in `voice_config.json`).
+- **`qa_short.py`:** no warning for a dry render (no background music is the house default); warns when a bed is baked in.
+- **Voice:**
+  - The `voice_config.json` default is A (Alex) until the owner picks A or F.
+  - `-- --voice backup` makes F (pham v2, fixed).
+  - `pham_v3_test` is the new clone: tested, not adopted.
+
 ## Newest changes (Oct 14, 2026, night)
 - **`voice_config.json` + `pronunciation.json` (new):** one place for the house voice (Alex), the backup (our clone, fixed) and name respellings. `voiceover.py` and `voice_take.py` read them; `voice_take.py`'s quality gate is per voice.
 - **`voiceover.py`:**

@@ -1,6 +1,8 @@
-# Music Guide (canonical; Oct 14, 2026)
+# Music Guide (Oct 14, 2026)
 
-Music is now a planned part of every edit (owner decision, Oct 14, 2026). It replaces the Oct 5 "no music" rule (Rules Audit B10).
+> **Owner decision, Oct 14 night: NO generic background bed by default.** Not the instrumental beds, stock music or AI-generated music below. Default is clean narration; effects only where the picture makes the sound; silence is valid. A real (commercial or trending) song goes in only through the platform's own music library (route A, `Library/Sound Library.md` §2) when it strengthens the story. This guide still applies if a bed is ever used on purpose: levels, placement, licences, tests. The ElevenLabs beds stay in the library, unused.
+
+*(Superseded the same night; see the box above.)* Music was briefly a planned part of every edit (owner decision, Oct 14 afternoon).
 
 Evidence tiers: **[V]** measured on our files, **[S]** small-n support, **[H]** hypothesis, **[E]** external terms or practice.
 

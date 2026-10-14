@@ -1,6 +1,6 @@
 # MetaSports — The Playbook (Round 2)
 
-## THE WINNING FORMULA (canonical, Oct 14, 2026, night). Read this first; where anything below disagrees, this wins.
+## THE WINNING FORMULA (canonical, Oct 14, 2026, night; updated later that night with the #40/#41 results, Script Critic v3 and the owner's music and voice calls). Read this first; where anything below disagrees, this wins.
 **Why this exists:**
 - The owner asked to stop changing formats and rules every day.
 - This page is the formula. Change it only on the rule in step 10.
@@ -11,6 +11,18 @@
   - CoachClank's 148 Shorts
   - Ahmed's
 - **Nothing here guarantees views.** Distribution and topic still matter most.
+
+### The premise test (new, and the most important rule)
+**A famous player, team or object, plus a fact that changes how you see them, that a casual fan would repeat to a friend.** Best with a human element: family, a feud, a kind act, the subject's own words.
+- **Never:** a technicality (preseason stats, rules memos, lottery or eligibility mechanics), a niche or G League player, or a story we already told. [S, n=22 new-era posts]
+  - The bottom 6 were all technicalities, niche players or retells: 38 to 1.6K views. #40's preseason pass got 655.
+  - The top 4 all had a famous subject and a retellable fact: 9.8K-31K.
+  - Audit §12.
+- **Script Critic v3 must APPROVE a script before any footage or voice work** (`Tools/script_critic.md`):
+  - 36+ out of 45
+  - premise, hook and payoff each 4+
+  - accuracy is pass/fail
+  - It rejects weak premises even when they follow every formatting rule.
 
 ### What wins (sorted by how sure we are)
 **Supported by several independent examples:**
@@ -50,22 +62,29 @@
 | Item | Setting | Source |
 |---|---|---|
 | Length | whatever the story needs, normally 20-30 s, about 85-110 words | old hits 20-32 s; CoachClank's 20-62 s Shorts beat their under-20 s ones 2.8× |
-| Voice | **Alex**, house settings in `Tools/voice_config.json` (about 220-230 wpm). Backup: our clone, fixed settings. Change it only there, only after an audition plus the owner's ear | Voice Audition README, Part 3 |
+| Voice | **A (Alex) or F (our old voice, fixed), the owner's pick from the two real edits of #21 v5 and #36 v2.** Until the owner picks, the `voice_config.json` default stays A, and F is "backup". After the pick: one voice, no switching | Voice Audition README, Parts 3-4 |
 | Names | `Tools/pronunciation.json`; never respell inside scripts | same |
-| Music | by story type, -20 LU under the voice, payoff marked (drop/stop/hit), dropped under real quotes | `Library/Music Guide.md` |
+| Music | **No background bed by default** (owner, Oct 14 night). Clean narration; effects only where the picture makes the sound; silence is fine. A real song only through the platform's own library (route A), when it adds something | `Library/Sound Library.md` |
 | Copyrighted/trending songs | only through the YouTube app's "Add sound" picker, by the owner at upload, on a "for the app" render | `Library/Sound Library.md` §2 |
 | Captions | house style (white Montserrat caps, 45-62% band) | Playbook §5 |
 | Proof | every clip logged and verified in `sources.csv` | B-roll Sourcing Guide |
 | QA | `qa_short.py` PASS + frame sheet + transcript of the final audio + Critic v2 | Playbook §5 |
 
 ### The 10-step workflow (every Short)
-1. **Pick:** a fresh moment or a paradox in a lane above. Score it (Playbook §4). A casual fan must get the question by about 3 s.
+1. **Pick:** a fresh moment or a paradox about a famous subject (the premise test above). A casual fan must get the question by about 3 s.
 2. **Lock the facts:** dated sources in `notes.md`.
 3. **Footage first:** frame 1 plus a proof clip for every beat (`x_clip.py`, `broll.py cut`). No footage, no script.
-4. **Write:** choose structure A, B or C, and write in story voice. Read it aloud at 220 wpm: it should run 20-30 s.
+4. **Write, then the critic:**
+   - Choose structure A, B or C and write in story voice.
+   - Run `python Tools/script_lint.py`, then score it with **Script Critic v3**. Rewrite until it is APPROVE; log it in `Research Notes/Script Critic Log.md`.
+   - Read it aloud at 220 wpm: it should run 20-30 s.
 5. **Voice:** `voice_take.py` (house voice, gate, pause cap), then `voice_check.py`. Fix names in `pronunciation.json`.
 6. **Edit:** `anchor_shots.py`, then `assemble.py` with `music.json`. Hold the payoff shot longest.
-7. **Sound:** the bed by story type; mark the payoff. Effects only where the picture makes the sound.
+7. **Sound:**
+   - No bed.
+   - Effects only where the picture makes the sound.
+   - If a real song would help, note it in PACKAGE.md for the owner to add in the app.
+   - Run `python Tools/deflash.py` on any clip the flash scan flags.
 8. **QA:** `qa_short.py`, the frame sheet, the transcript of the final audio, a flash check around cuts, then Critic v2.
 9. **Package and Hub:** PACKAGE.md (with the Music and sound block), the Hub upload, the queue status. **The owner posts.**
 10. **Read and decide:** read each post at 48 h and 7 days in the Outcome Log.
@@ -133,7 +152,7 @@
 12. **Render:** inspected end to end (frame sheet + transcript of the final audio). `qa_short.py` PASS, then Critic v2 PASS (a separate agent), then the owner's listen.
 13. **Package:** the title is the premise in plain words and goes up **exactly** as written; up to 3 hashtags; about 12 tags; the debate question in the pinned comment.
 
-### 4. Scoring rubric (prioritises the queue; a prediction to check, not a grade)
+### 4. Scoring rubric (RETIRED for ranking, Oct 14 night: it put #40 first and #40 got 655 views; Script Critic v3 ranks the queue now; keep this only for feasibility notes)
 | Factor | Weight | 1 | 3 | 5 |
 |---|---|---|---|---|
 | **Clarity in second 1** | ×3 | needs explaining | clear by about 4 s | the question lands with frame 1 + line 1 |
@@ -171,7 +190,7 @@
 - **Payoff visual:** the strongest image lands on the payoff line, never before it (a card can reveal in two steps, as #41's 350 → 0 does). **Hold the payoff shot longest** (the old free-throw hit held its payoff 3.5 s) [S].
 - **Escalation:** where the story has them, build to the payoff with a count-up (Kobe 51-53-56-60) or escalating examples, the craziest last [S].
 - **Ending:** cut on the last word, plus a 0.15-0.4 s tail. Loop into frame 1 when the ending image serves the payoff. Never add a sub-0.6 s shot just to loop.
-- **Sound (revised Oct 14: music ON by default, owner decision; full guide: `Library/Music Guide.md`):**
+- **Sound (SUPERSEDED Oct 14 night: no background bed by default; see the Winning Formula and `Library/Sound Library.md`. The lines below apply only when a bed is used on purpose):**
   - A quiet bed (`music.json`, `bed_lu` -20, house range -24 to -16) chosen by story type:
     - stats/paradox → "Clever pulse"
     - reveal → "Dark build"

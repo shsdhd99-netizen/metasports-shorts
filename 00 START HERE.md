@@ -1,11 +1,12 @@
-# START HERE (updated Oct 14, 2026, night)
+# START HERE (updated Oct 14, 2026, late night)
 
 | You want... | Open |
 |---|---|
 | **What to make and post next** (the only queue) | `Production Queue.md` |
 | **Every idea** (74 rows: status, score, hook, sources, blockers, next action) | `Production Queue - all ideas (Oct 14, 2026).csv` |
 | **THE WINNING FORMULA** (what wins, the 3 structures, fixed settings, the 10-step workflow; read first) | `MetaSports - Playbook.md` (top section; Creative System v3 below it has the detail) |
-| **Why that formula** (CoachClank, Ahmed, our best vs weakest, patterns by evidence) | `Research Notes/Winning Formula Research (Oct 14, 2026).md` |
+| **Why that formula** (CoachClank, Ahmed, our best vs weakest, patterns by evidence) | `Research Notes/Winning Formula Research (Oct 14, 2026).md` + audit §12 (new stats) |
+| **The script gate** (every script must pass before footage or voice) | `Tools/script_critic.md` + `Research Notes/Script Critic Log.md` |
 | **Why** (what the 102 posted Shorts show, with dated numbers and their limits) | `Research Notes/Posted Video Audit (Oct 14, 2026).md` (+ `Posted Shorts - metrics (Oct 14, 2026).csv`) |
 | **Which old rules stand** (each rule: keep / revise / retire / test) | `Research Notes/Rules Audit (Oct 14, 2026).md` |
 | **Voice** (the house voice, why, the backup, the spec; three audition rounds) | `Research Notes/Voice Audition (Oct 14, 2026)/README.md` (decision at the top, Part 3) + `Tools/voice_config.json` |
@@ -22,17 +23,11 @@
 | **Every tool and command** | `Tools Guide.md` (newest changes at the top) |
 
 **Do next:**
-1. **Open the Sound Check page (round 3) and answer its 4 questions in chat:**
-   - which voice
-   - plain or respelled names
-   - the 3 Shorts: old vs new
-   - music level
-2. **If you pick Alex:**
-   - post the **v4** versions from the Hub (top of each card), starting with #40 (ring) and #41.
-   - Check Alex's licence once in ElevenLabs → Voice Library before the first post (I couldn't open ElevenLabs' terms page).
-3. **If you keep the old voice:** the old-voice versions in the Hub are still ready; nothing else changes.
-4. **Log every post** (time, version, voice, music) in the Outcome Log.
-   - Only one test is running: ring (#40) vs plain (#41). Post both the same way.
+1. **Pick the voice:** watch **#21 v5** and **#36 v2** in the Hub. Each has voice A (Alex) and voice F (the old voice, fixed). Reply with one letter.
+   - The listening page (round 4) has all five voices on one script.
+2. **#36:** say "OK #36 clip" (the rookie-LeBron footage is from a fan account) or ask me to swap it.
+3. **Post #21 v5 before Denver's first game,** in the voice you pick, with no music.
+4. **New stats:** if you added stats files on your PC, push them or drop them in chat. None reached this cloud copy.
 
 **Superseded (kept as evidence, not instructions):**
 - `Research Notes/Winning Formula v2 (Oct 13, 2026).md` (folded into Creative System v3; its red-ring rule is now a test)
