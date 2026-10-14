@@ -282,10 +282,10 @@ Format per Short: **1-3 s** what the viewer gets · **Hook** · **Frame 1** · *
 | **Red circles** | 2/4 (FT tricks: 3 circles; Luka: 3) on the exact detail **at the moment it's named** | none | only #40's frame-1 ring (test pending) | Use circles on the detail being named, anywhere in the video, not only frame 1 [H]. Pointer test continues |
 | **Exact-moment B-roll** | Luka 8/11 shots, Kobe 11/13, Bronny mostly name-matched; only 2-3 generic cutaways | a montage of generic highlights | mixed: stand-ins under specific lines (#39), archive press conferences | The hits **showed the thing being said**. Exact-moment footage first; generic only for a "what if" line [S] |
 | **First frame** | the subject doing the thing (Luka shooting the FT; a Wemby dunk over Bronny; Kobe's face; a circled shoe) + the hook line at once | Flagg driving (generic) | mostly the subject; some cards/archive | Same rule as Creative System v3 checklist #1; confirmed [S] |
-| **Hook form** | **3/4 a question** ("Why would Luka miss a free throw on purpose?"), 1 a statement with a turn ("wasn't supposed to end like this") | a vague hype claim | **0/20 questions**: all statements/paradoxes | Not proof that questions win: our two best new Shorts (#22 31.8K, #03 27K) were statements. **TEST** a concrete question hook vs a statement on comparable topics [H] |
+| **Hook form** | **3/4 a question** (but only 1 of the 12 voiced old scripts in §11 opened with one: 4/16 overall) ("Why would Luka miss a free throw on purpose?"), 1 a statement with a turn ("wasn't supposed to end like this") | a vague hype claim | **0/20 questions**: all statements/paradoxes | Not proof that questions win: our two best new Shorts (#22 31.8K, #03 27K) were statements. **TEST** a concrete question hook vs a statement on comparable topics [H] |
 | **Escalation** | 3 examples, the craziest last ("it gets crazier"); Kobe counts up 51, 53, 56, 60 | none (montage) | a single fact, then the explanation | Build to the payoff with a count-up or escalating examples where the story has them [S] |
 | **Ending** | a punch line or answer: "That's next level awareness", "LeBron's... son." (0.4 s pause, black card, music cut), "for the last time" | **subscribe call-to-action** | an answering ending (v3) | Keep answering endings. **New device:** a beat of silence or music cut before the last word [H] |
-| **Pace (measured)** | 182-212 wpm (3 old Shorts, timed transcripts) | n/a | 210-292 wpm, median 243 | We are already faster than the old hits. Don't speed up further: guideline 200-265 |
+| **Pace (measured)** | 182-212 wpm (3 old Shorts, timed transcripts). **Corrected in §11:** 12 more voiced old scripts ran 206-252 wpm, median 220 | n/a | 210-292 wpm, median 243 | Slightly faster than the old median. Guideline 200-265 |
 | **Shot length** | 1.4-2.3 s average; the payoff shot held longest (3.5 s in the FT Short) | 1.8 s | about 1.25 s | Slightly slower cutting, with **the payoff shot held**, is the old pattern [S]. Don't cut the payoff short |
 | **Captions** | heavy ALL CAPS, 1-4 words, key words coloured (yellow/red) or black-on-white | neon green | Montserrat ALL CAPS, red/green key words | Similar. Not a difference worth changing |
 | **Sound effects** | 3/4 used 3-5 (whoosh on circles, rim clank on misses, sub boom on hook, riser into payoff); Kobe used **game crowd sound** instead | 6 | 2-3 per Short | Similar count. **New:** natural game sound (crowd, rim, buzzer) under emotional/big moments [H] |
@@ -318,3 +318,47 @@ Format per Short: **1-3 s** what the viewer gets · **Hook** · **Frame 1** · *
 - **Proof and circles:** the scorebug-as-proof and circle-on-the-named-detail rules are in Creative System v3 (§5).
 - **Rules Audit:** the pace guideline was moved to 200-265 wpm in `qa_short.py`.
 - **Tests:** the question-hook and silence-before-the-last-word tests are pre-registered in the Outcome Log.
+
+
+## 11. Old scripts and old delivery, measured (added Oct 14, 2026, night)
+**New evidence:** the narration of 12 of our old Shorts, exactly as voiced.
+- The owner's own recordings were the training samples of the clone "pham v2". Full text and per-Short numbers: `Library/Reference Videos - old Shorts transcripts.md`.
+- 10 of the 12 match a title with views; 2 are unconfirmed.
+- It covers our biggest old Short (Bronny 1v1, 65K) and a flop from the same week (3 Plays Bronny Starter, 5K).
+
+**1. The voice is not what changed.** [V]
+- **Same voice:** the clone's current output matches the old narration at 0.93-0.95 (Resemblyzer speaker similarity), and the old recordings match each other at 0.99. Other voices score 0.60-0.72 against ours.
+- **Same flat number delivery:** old numbers -1.3 to +0.8 dB vs other words (median about -0.2); ours -0.4 to +0.2.
+- **Pace close:** old 206-252 wpm (median 220), new median 243.
+- So the voice explains neither the old hits nor the new flops. The earlier claim (§10, from vidIQ's descriptions) that old hits "stressed every number" is not supported by the measured audio.
+
+**2. The scripts did change.** [V counts; effect on views S/H]
+
+| Feature | Old (12 voiced) | New (20 posted) |
+|---|---|---|
+| Median sentence length | **14.8 words** (flowing story) | **9.4 words** (staccato fact chain) |
+| "First… second… third" or "Then it gets crazier" escalation | 5/12 | 2/20 |
+| "It isn't X, it's Y" reframe ending | 2/12 (+ the 79K Bronny Short in §10: 3 hits) | 0/20 |
+| Personality asides ("So considerate." "Literally office equipment." "It's wild.") | most scripts | rare |
+| Opening question | 1/12 | 0/20 |
+| First sentence ends | median 3.1 s | median 2.9 s |
+
+- Within the old set, shorter sentences went with more views (rho -0.48, n=10); within the new set there's no link (+0.19, n=20). So sentence length alone isn't the lever.
+- The difference is the **storytelling voice**: the old scripts sound like a person telling a friend something wild, with a reaction, a twist ("but not this time, because…") and a reframe. The new ones list facts.
+- Topic and distribution still dominate (§2, §8). This is a craft difference to test, not a proven cause.
+
+**3. Opening hooks: statements, not questions.**
+- Old openers were bold claims: "Kyle Korver once got traded for a copy machine." / "This is why the WNBA is a joke." / "See, most rookies stay quiet, but Quentin Post did the exact opposite."
+- Questions: 4 of 16 old Shorts we can read, counting vidIQ's 4. Q1 stays a test, not a direction.
+
+**4. CoachClank** (the owner's reference; details in `Library/Sound Library.md`):
+- Their TikToks use "original sound - CoachClank": their own mix, not a platform sound.
+- Their narrator is a different voice from ours (0.74) and isn't in the top 400 ElevenLabs library voices (best 0.78).
+- Narration 265-309 wpm (Round 9), with a tonal bed sitting only about 3-5 dB under the voice in the rare gaps (n tiny).
+
+**Use it:**
+- **Script direction (Creative System v3 §3/§5):**
+  - write like telling a friend: one reaction aside, a twist connector ("then it gets crazier", "but not this time, because…")
+  - escalation where the story has steps
+  - a reframe ending ("The question isn't X, it's Y") when the story supports it
+- **Pre-registered tests** (Outcome Log): R1 "story voice" script vs fact-chain script; R2 reframe ending.
