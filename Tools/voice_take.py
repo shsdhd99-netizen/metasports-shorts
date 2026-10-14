@@ -18,6 +18,21 @@ def run(cmd, cwd=None):
     return subprocess.run(cmd, capture_output=True, text=True, cwd=cwd)
 
 
+def pitch_sd(mp3):
+    """Pitch variety in semitones (Praat), the measure the voice auditions used. None if it can't be measured."""
+    try:
+        import numpy as np, parselmouth, voice_quality as vq
+        w = vq.to_wav(mp3)
+        try:
+            p = parselmouth.Sound(w).to_pitch_ac(time_step=0.01, pitch_floor=70, pitch_ceiling=400).selected_array["frequency"]
+        finally:
+            os.remove(w)
+        v = p[p > 0]
+        return round(float(np.std(12 * np.log2(v / np.median(v)))), 2)
+    except Exception:
+        return None
+
+
 def score(chk, q, hnr_min=7.6, jitter_max=3.4, shimmer_max=11.5):
     issues = chk.get("issues", [])
     s = -100 * len(issues) + q["hnr"] - 0.5 * q["jitter"] - 0.2 * q["shimmer"]
@@ -55,7 +70,13 @@ def main():
             finally:
                 os.remove(w)
             s, ok = score(chk, q, *gate)
-            log.append({"take": k, "ok": ok, "score": round(s, 1), "verdict": chk["verdict"], "issues": chk["issues"][:5], "wpm": chk["wpm"], **{x: q[x] for x in ("hnr", "jitter", "shimmer", "dur")}})
+            # Oct 14 night: reject a flat take. In round 4 one of two "F" takes fell to 3.8 semitones of pitch variety (the other 4.7).
+            psd = pitch_sd(os.path.join(tdir, "voice.mp3"))
+            q["pitch_sd"] = psd
+            if prof.get("pitch_sd_min") and psd is not None and psd < prof["pitch_sd_min"]:
+                ok = False; s -= 50
+                print(f"  take {k}: flat delivery (pitch variety {psd} < {prof['pitch_sd_min']} semitones)")
+            log.append({"take": k, "ok": ok, "score": round(s, 1), "verdict": chk["verdict"], "issues": chk["issues"][:5], "wpm": chk["wpm"], **{x: q.get(x) for x in ("hnr", "jitter", "shimmer", "dur", "pitch_sd")}})
             print(f"  take {k}: {'PASS' if ok else 'FAIL'}  check={chk['verdict']} HNR {q['hnr']} jitter {q['jitter']} shimmer {q['shimmer']} {q['dur']}s  {chk['issues'][:2]}")
             if best is None or s > best[0]:
                 if best and os.path.isdir(best[1]): shutil.rmtree(best[1], ignore_errors=True)

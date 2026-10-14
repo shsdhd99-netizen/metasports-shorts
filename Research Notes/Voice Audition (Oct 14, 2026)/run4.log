@@ -1,0 +1,16 @@
+R4_A_alex_t1             25.91s wpm 227 WER   9.8/  9.8 pitchSD 4.97 loudSD 3.31 HNR 7.9 gaps>.3 2 max_gap 0.32
+R4_A_alex_t2             25.68s wpm 227 WER   9.8/  9.8 pitchSD 5.24 loudSD 3.33 HNR 7.9 gaps>.3 2 max_gap 0.32
+R4_F_pv2_fixed_t1        26.19s wpm 220 WER  13.4/  9.8 pitchSD 4.66 loudSD 3.3 HNR 8.8 gaps>.3 1 max_gap 0.38
+R4_F_pv2_fixed_t2        24.66s wpm 236 WER  11.0/ 11.0 pitchSD 3.81 loudSD 2.93 HNR 10.1 gaps>.3 1 max_gap 0.32
+R4_P0_pv2_current_t1     22.29s wpm 262 WER  11.0/  9.8 pitchSD 4.9 loudSD 2.79 HNR 8.4 gaps>.3 0 max_gap 0.28
+R4_P0_pv2_current_t2     21.41s wpm 272 WER   9.8/  9.8 pitchSD 4.35 loudSD 2.9 HNR 7.9 gaps>.3 0 max_gap 0.28
+R4_P1_pham_orig_t1       28.28s wpm 205 WER  11.0/ 14.6 pitchSD 4.44 loudSD 3.16 HNR 9.0 gaps>.3 2 max_gap 0.46
+R4_P1_pham_orig_t2       28.24s wpm 207 WER   9.8/ 12.2 pitchSD 4.6 loudSD 2.61 HNR 8.7 gaps>.3 5 max_gap 0.4
+R4_N_pham_v3_t1          25.54s wpm 228 WER   9.8/ 11.0 pitchSD 3.68 loudSD 2.23 HNR 8.3 gaps>.3 1 max_gap 0.34
+R4_N_pham_v3_t2          24.43s wpm 238 WER   9.8/  9.8 pitchSD 3.83 loudSD 2.18 HNR 8.3 gaps>.3 0 max_gap 0.26
+Loaded the voice encoder model on cpu in 1.72 seconds.
+A_alex {'take_similarity': 0.989, 'similarity_to_old_narration': 0.738, 'wpm': [227, 227], 'pitch_sd': [4.97, 5.24]}
+F_pv2_fixed {'take_similarity': 0.973, 'similarity_to_old_narration': 0.954, 'wpm': [220, 236], 'pitch_sd': [4.66, 3.81]}
+P0_pv2_current {'take_similarity': 0.992, 'similarity_to_old_narration': 0.96, 'wpm': [262, 272], 'pitch_sd': [4.9, 4.35]}
+P1_pham_orig {'take_similarity': 0.982, 'similarity_to_old_narration': 0.966, 'wpm': [205, 207], 'pitch_sd': [4.44, 4.6]}
+N_pham_v3 {'take_similarity': 0.979, 'similarity_to_old_narration': 0.915, 'wpm': [228, 238], 'pitch_sd': [3.68, 3.83]}

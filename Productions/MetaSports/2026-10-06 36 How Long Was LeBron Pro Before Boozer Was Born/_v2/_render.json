@@ -1,0 +1,32 @@
+{
+ "engine": "ffmpeg",
+ "out": "final.mp4",
+ "loop_fix": true,
+ "fits": [
+  {
+   "shot": 3,
+   "clip": "c_75.mp4",
+   "fit": "slowed",
+   "factor": 1.074
+  },
+  {
+   "shot": 11,
+   "clip": "c_34_df.mp4",
+   "fit": "slowed",
+   "factor": 1.1
+  },
+  {
+   "shot": 12,
+   "clip": "b4.mp4",
+   "fit": "slowed",
+   "factor": 1.061
+  },
+  {
+   "shot": 13,
+   "clip": "c_24.mp4",
+   "fit": "slowed",
+   "factor": 1.094
+  }
+ ],
+ "music": null
+}

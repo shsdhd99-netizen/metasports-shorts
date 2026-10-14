@@ -185,12 +185,13 @@ def main():
             break
     if len(s1) <= 4 and re.match(r"^(\d|one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|twenty|thirty|forty|fifty|sixty|seventy|eighty|ninety|hundred)", s1[0].lower()):
         warn.append(f"naked-number opening: '{' '.join(s1)}' (a number with no subject means nothing at second 1; #20 got 1.6K)")
-    # Oct 14 (owner): music is part of the edit. Check the bed is logged, licensed and leaves the speech band clear.
+    # Oct 14 night (owner): NO generic background bed by default. Clean narration, effects where the picture makes the sound,
+    # and a real song only through the platform's own music library (added by the owner in the app). If a bed IS baked in,
+    # check it is logged, licensed and leaves the speech band clear.
     ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     mus = rinfo.get("music")
-    if not mus:
-        warn.append("no music bed (house default since Oct 14 is a quiet bed under the voice; see Library/Music Guide.md). Fine if the story is better dry; say why in PACKAGE.md")
-    else:
+    if mus:
+        warn.append("a background bed is baked in: the house default is none since Oct 14 night (Library/Sound Library.md); say why in PACKAGE.md")
         lib = os.path.join(ROOT, "Library", "Music", "music_library.csv")
         rows = {r["file"]: r for r in csv.DictReader(open(lib, encoding="utf-8"))} if os.path.exists(lib) else {}
         key = os.path.relpath(os.path.join(ROOT, mus["track"]), os.path.dirname(lib)).replace("\\", "/")
