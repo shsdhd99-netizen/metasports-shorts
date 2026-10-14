@@ -32,7 +32,7 @@
 | 2 | **#41 Is Anyone Taller Than Wemby** | **critic-passed; v3** (Oct 14: the Dallas agency photo replaced with Mavericks game footage; QA PASS); music version | 53 | Height paradox, answered with 350 vs 0 | post by about Oct 18 | Post **v3** (plain, the same audio choice as #40) Thu Oct 15. Re-check his status first |
 | 3 | **#21 How Close Is Jokic To Westbrook's Record** | **critic-passed (ready)** v3.1; music version | 55 | Record chase on one measure; 16.8 s | **before Oct 22** | Post Fri Oct 16. Listen to 5-8 s first |
 | 4 | **#36 LeBron Was Pro Before Boozer Was Born** | QA-passed; **blocked: owner OK** | 54 | A paradox on the biggest name | none | Say "OK #36 clip" or I swap the clip; then Critic v2 |
-| 5 | **#38 What Did LeBron Promise Sixers Fans** | QA-passed; music version (the music stops before his quote); footage logged and verified; **Critic v2 running** | 46 | Big name; low formula fit | before Oct 20 | Post Sat Oct 17 only if the critic passes it |
+| 5 | ~~#38 What Did LeBron Promise Sixers Fans~~ | **REJECTED by Critic v2 (Oct 14): DO NOT POST** | 46 | A retell: the quote led every Sep 28 story and our own #18 used it; it drifts off its one measure; the quote shot is out of lip sync | — | Abandoned. See the review file |
 | 6 | **#27 Why Can't Teams Win Back-To-Back Lotteries** | QA-passed; Critic v2 not run | 41 | Abstract rule | before May | Critic v2 |
 | 7 | **#37 Who Is Rated Highest In NBA 2K27** | QA-passed; Critic v2 not run | 42 | Saturated list | none | Low priority |
 | 8 | **#26 How Is A Screen Suddenly Illegal Now** | QA-passed; Critic v2 not run | 41 | The rule-nuance lane underperformed (#14 1.6K, #20 1.6K) | none | Low priority |
@@ -50,6 +50,7 @@
 | 51 | Batch 4: Jordan in No. 12 | script-ready (v2) | widely told (FOX 63K); needs a new angle | Hold |
 
 ## Abandoned or blocked (history kept in the folders and the CSV)
+- **#38** LeBron promise: **abandoned** (Critic v2, Oct 14: a retell of the most-covered quote of media day; our #18 used it).
 - **#30** Giannis steps: **abandoned** (Critic v2 Oct 14: 2M-view versions exist; no footage proves the step count; a replay).
 - **#32** Spurs 29-point lead: abandoned (Oct 13).
 - **#11** Jordan push-off: topic posted (38 views).
@@ -72,7 +73,7 @@
 | Wed Oct 14 | #40 Jokic pass (**ring**) | #39 already went up Oct 13 evening |
 | Thu Oct 15 | #41 Sharp (**plain**; re-check status) | Pointer pair 1: #40 ring vs #41 plain |
 | Fri Oct 16 | #21 Jokic record v3.1 (ready) | Before Oct 22 |
-| Sat Oct 17 | #38 LeBron promise (if Critic v2 passes; with or without music), else #36 if you OK the clip | Before Oct 20 |
+| Sat Oct 17 | #36 Boozer (only if you OK its clip), else #27 lotteries after Critic v2 | #38 was rejected Oct 14 |
 | Sun Oct 18 | #36 or #27 | |
 | Mon Oct 19 | the best remaining, or #42 if footage arrived | |
 

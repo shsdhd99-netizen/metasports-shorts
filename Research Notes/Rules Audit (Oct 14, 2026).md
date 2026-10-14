@@ -103,6 +103,7 @@
 | B19 | Hold the payoff shot longest; escalate to it where the story allows | Old hits [S] | — | — | **TEST** (craft) | L | — |
 | C6 | Emphasis comes from the edit (caption colour, circle, music drop, cut-in pause), not the voice | Voice part 2 [V] | Our voice reads numbers flat (-0.4 to +0.2 dB); "..." adds about 0.05 s; expressive settings didn't help | — | **ADOPT** | M | P1 |
 | A13 | Question hooks ("Why would X do Y?") | Old hits 3/4 [S] | — | Our best new Shorts (#22, #03) used statements; 0/20 new posts used questions | **TEST** | L | Q1 |
+| B20 | A real-quote shot plays at 1.0x (never slowed or held) | Critic v2 on #38 [V] | Lips trailed the audio by up to 0.29 s at 1.094x | — | **ADOPT** (QA FAIL) | H | — |
 | D13 | Sound effects need a logged licence | Licensing practice [E] | `Tools/sfx` came from "Downloads/music", source unknown [V] | — | **REVISE**: replace them over time with logged effects (Mixkit free licence or ElevenLabs sound effects) | M | — |
 
 **What changed in the tools:**

@@ -1,5 +1,7 @@
 # #38 What Did LeBron Promise Sixers Fans?
 
+> **DO NOT POST (Oct 14): Critic v2 REJECT.** A retell of the media-day quote (every Sep 28 story led with it, and our own #18 used it). It drifts off its one measure for 5 s, and the quote shot is slowed 1.094x, out of lip sync with LeBron's audio. Details: `Research Notes/Critic v2 Review (Oct 13, 2026).md`.
+
 ## Versions, music and footage (Oct 14, 2026)
 | File (in the Hub) | What it is |
 |---|---|
@@ -7,7 +9,7 @@
 | Original, no music (`final.mp4`, the READY file) | |
 - **Sound Check page:** https://claude.ai/artifact/U58nqkg8BHDTJXNdy64Tcd
 - **Footage:** all 19 clips are logged, matched to their exact post and second, and checked frame by frame in `sources.csv`. Sources are the Sporting News media-day clip, NBA posts of the 2026 Knicks-Sixers series and the Sixers scrimmage, and a Ballislife post of the 2001 Finals (a third-party highlight account: prefer an NBA/NBAHistory post of the same play if one turns up).
-- **Critic v2:** running (Oct 14). Post only if it passes; see `Research Notes/Critic v2 Review (Oct 13, 2026).md`.
+- **Critic v2 (Oct 14): REJECT.** See the banner above.
 
 
 Video: READY TO POST - What Did LeBron Promise Sixers Fans.mp4 (~24 s, ends on LeBron's real words). Not uploaded.

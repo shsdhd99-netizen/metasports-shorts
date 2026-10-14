@@ -18,6 +18,7 @@
 >   - music licence and level checks, plus the speech-band margin (FAIL under 12 dB)
 >   - source-log and verification checks (FAIL once a log exists)
 >   - pace guideline 200-265 wpm
+>   - FAIL when a "quote" shot was slowed or held by the editor (lips drift from the real audio; found by the critic on #38)
 > - **Music tests:** `Library/Music/tests/mix_test.py` (bed level vs the recogniser, phone simulation).
 > - **Voice part 2:** `Research Notes/Voice Audition (Oct 14, 2026)/emphasis_test.py` (number emphasis and pauses).
 

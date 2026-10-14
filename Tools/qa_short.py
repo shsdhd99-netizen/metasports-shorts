@@ -138,6 +138,11 @@ def main():
         gap = d - (clipdur[c] - float(s.get("in", 0) or 0))
         if gap > 0.08:
             short.append((s["clip"], round(st, 1), round(gap, 2)))
+    # Oct 14 (critic on #38): a quote shot that was slowed/held drifts out of lip sync with the real audio
+    quote_fits = [f for f in rinfo.get("fits", []) if f.get("shot") and 0 < f["shot"] <= len(shots)
+                  and shots[f["shot"] - 1].get("kind") == "quote" and f.get("fit") in ("slowed", "held")]
+    chk(not quote_fits, "quote shots play at normal speed (lip sync)",
+        f"quote shot slowed/held, so the lips drift from the real audio: {quote_fits}; re-cut the quote clip to cover the whole shot at 1.0x")
     if rinfo.get("loop_fix"):
         held = [f for f in rinfo.get("fits", []) if f.get("fit") == "held" and f.get("hold_s", 0) > 0.5]
         chk(not held, "no frozen holds", f"frozen last frame over 0.5 s (clip too short): {held}")

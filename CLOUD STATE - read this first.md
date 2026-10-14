@@ -165,7 +165,7 @@ Research Notes/Round 9 - Competitor Shorts Watched (Oct 5, 2026).md. Findings (n
   - s40, s41, s21 and s38 have "NEW … + music (listen first)" versions next to the originals.
   - s41's first version is v3.
   - Note on s40/s41: post both the same way, so the ring test stays fair.
-- **#38:** Critic v2 agent run on the music version (result in `Research Notes/Critic v2 Review (Oct 13, 2026).md`).
+- **#38: Critic v2 REJECT (Oct 14). DO NOT POST.** A retell of the media-day quote (our #18 used it); it drifts off its one measure; the quote shot is out of lip sync. Queue, CSV, Hub (slot 0) and UPLOAD banner updated. Sat Oct 17 → #36 if the owner OKs its clip, else #27 after Critic v2. `qa_short.py` now FAILs slowed quote shots.
 - **#42:** still blocked on footage. Search engines don't index X posts, and the library has no LeBron miss or Kobe clip. The owner's X links or a PC build are needed.
 - **Pre-registered** (Outcome Log, "Oct 14 (later)"): M1 music cohort (confounded this week with the posting rate), M2 (#40 and #41 must share audio), Q1 question hooks, P1 cut-in pause, S1 scorebug-as-proof.
 - **Rules changed** (Rules Audit addendum): B10 no-music retired by the owner, plus B14 scorebug, C2 pace 200-265, B16-B19, C6, A13, D13 (sound-effect licences unknown).

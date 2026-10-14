@@ -121,7 +121,7 @@
   - missing shot kinds
   - one clip filling 35%+
   - fewer than 6 sources
-  - (Oct 14) a music track not in the library or not cleared; music crowding the speech band (under 12 dB); a clip missing from `sources.csv` or not verified (once the log exists)
+  - (Oct 14) a quote shot slowed or held (lip sync; #38); a music track not in the library or not cleared; music crowding the speech band (under 12 dB); a clip missing from `sources.csv` or not verified (once the log exists)
   - a weak hook
   - a filler opening
   - a late voice start (over 0.4 s)

@@ -108,4 +108,6 @@ Tiers: [V] verified on our files or data, [S] supported by our numbers (small n)
 - [V] **A bass-heavy bed can push true peak over -1 dBTP after AAC** (#21: -0.9). Music renders limit at -3 dBFS.
 - [V] **Our voice reads numbers flat** (number words -0.4 to +0.2 dB vs other words). "..." adds about 0.05 s of pause, and expressive settings don't lift numbers. Emphasis has to come from the edit.
 - [V] **Workarounds for blocked access get refused, and should be.** Pulling YouTube preview frames through the embed player was denied. Use the owner's connected vidIQ, X, or the PC.
+- [V] **A slowed quote shot drifts out of lip sync** (#38: the clip was 0.36 s short, so the editor played it at 1.094x while LeBron's real audio ran at 1.0x; his lips trailed by up to 0.29 s). QA passed it. **Rule:** a "quote" shot must play at 1.0x; re-cut the clip to cover the whole shot. `qa_short.py` now FAILs it.
+- [V] **The critic caught what QA can't:** #38's premise was a retell (the quote led every Sep 28 story; our #18 used it). Polishing (music, logs) doesn't rescue a retold premise. Run Critic v2 before investing in a Short's edit.
 - [V] **Search engines barely index X posts** (`site:x.com` returned none for #42's moments). Finding footage for older moments needs the owner's X links or the PC (YouTube). Park the idea rather than fake the shot.

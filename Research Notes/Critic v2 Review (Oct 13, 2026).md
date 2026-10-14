@@ -305,3 +305,125 @@ All four required fixes, re-cut only (same voice). QA PASS, 16.8 s. Each fix was
 - **Owner's ear:** "Westbrook needed 1,301 games" reads at 142 wpm, the slowest line (the critic's swipe point was about 6 s). A re-voice of that line is the next fix if it drags on a phone.
 
 **Status:** ready (fixes applied; no fifth critic pass, as with #41's one fix).
+
+### #38 What Did LeBron Promise Sixers Fans (Oct 14, music version; fifth independent critic)
+
+**Verdict: REJECT as cut. Abandon this angle. Don't post it Sat Oct 17; use #36 if you clear its clip.** Formula 2 (1/0/1). Gut rank: last of the ready queue (#40, #41, #21 and #36 are ahead). I'd expect #18's band (2-3K).
+
+I built none of this. **What I checked:**
+- `final_music.mp4` (24.0 s; it has the same picture as `final.mp4`)
+- the watch sheet, plus whisper (small model) run on the export
+- frames: 10 fps for 0-4 s; 30 fps at all 19 cuts; every frame from 11.4 to 13.2 s; full-size frames under every name
+- the quote shot frame-matched against `clips/lebron_full.mp4`
+- the music isolated by subtracting `final.mp4`, and loudness per phrase
+- qa_short (PASS), voice_check (REDO, a false alarm on LeBron's own audio), copy_check
+- B-Ref and the Sep 28 coverage
+
+**I can't hear audio.** The voice and music are judged from transcripts, levels and timing.
+
+**Gate A**
+1. **Second-1: PASS (weak).** Frame 1 is LeBron in a Sixers #23 jersey, and line 1 is "Philly hasn't reached a conference final since 2001." A viewer would ask: "Can LeBron end that?" The real question (what did he promise?) isn't asked until 17.3 s.
+2. **Visible object: PASS.** LeBron in Philly blue is the surprise picture.
+3. **One measure: FAIL.**
+   - The measure is round two: 2001 → 8 exits → swept → "second round".
+   - At 12.21-17.24 s the story hops to Embiid's missed games and then to the 1983 title. That's 5.0 s of 19.9 s of narration (25%; #21 failed at 21%).
+   - The title line also makes "round two" sound small just before the payoff.
+4. **Not a retell: FAIL (CROWDED, likely TAKEN).**
+   - The quote led the Sep 28 stories from AP, CNN, NBA.com, CBS, NBC Sports, PhillyVoice and Yahoo.
+   - AP already pairs it with our framing: "failed to advance out of the second round ... since 2001", and a title drought going back "to 1983".
+   - B/R's media-day Short has 513K views (from our idea bank; I couldn't watch it).
+   - Our own #18 (2.8K) used the same quote and the same footage.
+   - By Oct 17 the quote is 19 days old. copy_check says CROWDED for the quote.
+   - What we add (8 exits, "LeBron was 16", the 39) is small.
+5. **Answering ending: PASS (the strongest part).** LeBron's own words about "the second round" answer line 1, and the video stops 0.38 s after "sure".
+6. **Truth: PASS.**
+   - B-Ref: 2000-01 "Lost Finals", and no conference final since.
+   - B-Ref, 2026 East semis: PHI 0-4 NYK. Game 1 was May 4, 137-98 (39 points).
+   - NBA.com/AP (Sep 28): the title drought goes back to 1983; LeBron, 41, signed a two-year deal.
+   - The quote's wording matches CBS, NBC Sports and PhillyVoice.
+   - Not re-checked: Embiid's 42% (NBA.com, per notes.md).
+   - "Promise" is fair: AP calls it "one vow".
+
+**Gate B (defects)**
+- **Lip sync drifts in the payoff (20.21-23.97 s).**
+  - `Qquote.mp4` is 3.4 s long, so assemble slowed the picture by 1.094x. LeBron's audio still runs at 1.0x.
+  - Matched frame by frame against the source: in sync at 20.4 s. After that his lips trail his voice by 0.09 s at 21.2 s, 0.16 s at 22.0 s and 0.26-0.29 s at 23.2-23.8 s ("I know that for sure").
+  - That is visible on a close-up face.
+- **0.8 s of dead air before the payoff (19.8-20.6 s).**
+  - The quote's audio starts at source 19.2 s, but the source is only room tone until 19.55 s. The "I" at 19.24 s in notes.md isn't audible: it's -47 dBFS in the export.
+  - The quote's timings in words.json are made up (exactly 0.21 s per word), so qa_short measured only a 0.32 s gap.
+  - "I DIDN'T" shows over the silence.
+- **The wrong person under "Embiid" (12.21-12.70 s).**
+  - Shot `G1b2` opens with a 2-frame flash of the wide shot (12.18-12.25 s).
+  - Then a close-up of **Jalen Brunson** (Knicks #11) sits under "EMBIID HAS MISSED".
+  - Embiid's back first shows at 12.70 s.
+- **A flash at 6.70-6.77 s:** 3 frames of an internal cut inside `K1` (a court shot after the Knicks fan) before `K2`.
+- **Two cards back to back inside the first 4 s (1.66-3.74 s):** "2001", then "16".
+  - This breaks the "never two in a row" rule and the running "no card before 4 s" test that every build is meant to follow.
+  - A third card follows at 4.40 s.
+- **A number that never appears (13.06-14.71 s):** "more than half their games the last three years" plays over a wide Knicks possession at MSG (Brunson). Embiid isn't in it, and 42% is never shown.
+- **The last words fade (from 21.7 s):** "in the second round" is -18.0 LUFS and "I know that for sure" is -22.1 LUFS. The narration is about -15, so the final sentence is 7 LU quieter.
+
+**Required fixes, only if you post it anyway (a re-cut; no new narration)**
+1. **20.21 s, lip sync and dead air:**
+   - Take the quote audio from source 19.45 s instead of 19.2 s.
+   - Re-cut `Qquote` from `lebron_full.mp4` at 19.42-23.30 s so it plays at 1.0x. The picture's source time must equal the audio's.
+   - Swap the quote's made-up word times for whisper's real ones (for example, "didn't" at 19.64 s in the source).
+   - The gap after "lose in." should come out at about 0.5 s.
+   - Then frame-match the export again: the drift should be under 1 frame.
+2. **Cut 12.21-17.27 s** ("Embiid has missed ... nineteen eighty-three.").
+   - Both edges are clean sentence ends: "Maxey." ends at 12.18 s and "At media day" starts at 17.27 s.
+   - It fixes the extra topics, Brunson under "Embiid", the 2-frame flash, the MSG wide shot, the mascot shot and one card.
+   - New length: about 18.7 s.
+   - If you keep the Embiid line instead, set `G1b2` `in` to 0.5. Embiid's 21 then shows from the first frame, and the 0.9 s left covers the 0.88 s shot.
+3. **6.69 s:** start `K2` at 6.69 s (or end `K1` at 0.92 s into the clip) to remove the 3-frame flash.
+4. **0.85-3.74 s, no cards before 4 s:**
+   - Let the 2001 Finals footage of Iverson run through "two thousand one", with a small "2001 FINALS" label. `V02_ai` is 1.6 s; add the unused `V01_ai` (an Iverson jumper) if it runs short.
+   - Under "LeBron James was sixteen" (2.48-3.74 s), use teenage LeBron footage labelled with its year. Failing that, use the unused media-day `L1` with "16 IN 2001", so the age jump is on his own face.
+   - The "8" card at 4.40 s then becomes the first card.
+5. **The quote's level:** +4 dB from "in the second round" and +7 dB from "I know that for sure" (or a 3:1 compressor on the quote clip), with true peak at or below -1 dBTP. Then re-run qa_short.
+
+**Optional**
+- **Frame 1:** it pushes in 10% over 0.85 s (`zoom` 0.1). The house limit is 6%, and LeBron isn't small, so use 0.05.
+- **One press-conference camera angle fills 37% of the video** (0-0.85, 9.50-10.82 and 17.24-23.97 s), with jump cuts in the same framing at 18.50 and 20.21 s.
+  - Under "Then LeBron signed at forty-one", use LeBron in uniform from the Oct 3 scrimmage post, if he's in it.
+- **Scorebugs as proof (section 10):**
+  - `K1`'s bug reads "EAST SEMIS · NY LEADS 3-0" at 5.77-6.69 s, which is under "The last was this May". Put it under "swept" and circle it.
+  - `G1d` (7.74 s) crops the Game 1 bug to "57 NYK". Show "EAST SEMIS - GAME 1".
+- `L5` (18.50-20.21 s) plays at 0.82x speed. Check that it doesn't look floaty.
+- UPLOAD.md has 21 tags; the house target is about 12.
+- **An unused fact:** the Knicks went on to win the 2026 title (B-Ref), so Philly was swept by the champions.
+
+**Music** (from music.json and the render log)
+- **The move is right.**
+  - The bed sits about 21 LU under the voice (speech-band margin 43 dB) and is gone by 20.0 s.
+  - The mix is below -40 dBFS from about 19.85 s, and LeBron plays dry.
+  - That's the old "Bronny... son." cut, and it suits a real-voice ending.
+- **The mood is the open question.**
+  - The track was generated as a "nostalgic and hopeful ... sports tribute" piano.
+  - Under 4-17 s (the sweep, a 39-point blowout, Embiid, 1983) it may sound like a tribute rather than pressure.
+  - For stakes building to a vow, I'd try `eleven_suspense_01` ("Dark build"). It builds under the losses, and stopping it before the vow gives a bigger contrast.
+  - Keep the piano only if your ear hears heartbreak, not a tribute. Neither track is approved by ear yet.
+- **After the cut and trim:** set `out` at the end of "lose in." with a fade of 0.15 s or less, so the silence before the quote stays at about 0.5 s.
+
+**Voice** (transcripts only)
+- The narration runs at 238 wpm, and every name and number is heard right ("Maxie" is just a spelling).
+- voice_check's REDO is on LeBron's own audio. Whisper hears it right when the quote is run alone, and as "I don't need my family" in the full pass.
+- **Owner:** listen at 20.2-21.0 s.
+
+**Gate C (viewer):** I'd swipe at about 4.5 s.
+- After LeBron in frame 1, I get Iverson, then three number cards in under 3 s. The story is a list of Sixers losses, with no reason to stay except "he was 16".
+- Anyone who followed media day, or saw our #18, already knows the ending.
+- The second risk is at 12-17 s: Brunson under "Embiid", and a mascot under "title".
+- The last 3.7 s (LeBron's voice, dry, after the music stops) is the best moment. But it is September's most-quoted line, and it arrives after 0.8 s of silence.
+
+**The only fresh peg left:** on Tue Oct 20, LeBron makes his Sixers debut at MSG against the champion Knicks. They swept Philly in May and raise their banner that night (NBA.com and AP, Aug 11-14).
+- Line 1 would be that matchup, and the payoff the same quote.
+- It must go up by Oct 19, it clashes with the #10 banner-night idea, and it's a "tonight"-style news frame (the audit's warning).
+- I'd skip it unless #10 isn't being built.
+
+**Tool gaps (qa_short PASSed all of this):**
+- A `quote` shot fit as "slowed" should FAIL: its audio is real speech, so any factor other than 1.0 breaks lip sync.
+- Quote word times should come from speech recognition, not even spacing; otherwise the dead-air check runs on made-up times.
+- A wrong face under a spoken name inside a clip isn't caught. sources.csv said `G1b2` shows Brunson and Embiid, but not when.
+- **Housekeeping:** my voice_check run wrote `voice_check.json` into the folder. I deleted it, because it wasn't there before.
