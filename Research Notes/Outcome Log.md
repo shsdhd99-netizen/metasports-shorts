@@ -120,3 +120,23 @@ Source of the scores: Creative System v3 rubric (`Production Queue.md`). The vie
 **Not hypotheses (just facts to keep):**
 - #41 v3 swapped an agency photo for broadcast footage. That was a licensing fix, not a retention test.
 - All the music-version "improvements" are craft changes. No claim about views is made unless a row above shows it.
+
+## Oct 14, 2026 (night): the formula freeze and the voice change (written BEFORE any result)
+**Owner's brief:** stop running many experiments at once. So from now on:
+- **One A/B test at a time.**
+- **Everything else is house style.** It is logged, not "tested".
+
+| # | Item | Status | How it's read |
+|---|---|---|---|
+| E1 | Ring vs plain (pair 1: #40 vs #41) | **the one running test.** Finish pair 1 only if both go up with the same voice and the same music setting (M2) | as above |
+| V1 | **House voice → Alex** (if the owner approves it on the Sound Check page). A house change, not a test | log the voice in the version column ("Alex" / "clone") | Descriptive: the first 6 Alex posts vs the last 6 clone posts, on avg % viewed and 48 h views. **Confounded** with posting rate, music and topic, so it can only flag a big drop (10+ points of avg % viewed), not prove a gain |
+| R1 | "Story voice" scripts (a turn such as "But the craziest part…", one aside, a reframe or feeling ending) vs fact chains | **Adopted as house style** (Winning Formula, supported by multiple examples: our old hits, Curry, Giannis, CoachClank) | Descriptive only |
+| R2 | Reframe ending ("The question isn't X, it's Y") | Parked: use it when the story supports it, not as a test | — |
+| Q1, P1 | Question hooks; the cut-in pause | **Parked.** Statements are the default (11/12 old voiced Shorts, Curry, Giannis); the pause stays an editing option | — |
+| M1, S1 | Music cohort; scorebug-as-proof | House style; read descriptively at 6 posts | as above |
+
+**Voice facts for the record:**
+- Old voice: about 259-267 wpm on our scripts.
+- Alex: 220-229 wpm.
+- The v4 renders of #40, #41 and #21 run 23-24 s (old: 16.8-21.3 s).
+- If an Alex post is read against an old-voice post, length differs too. Say so in any comparison.

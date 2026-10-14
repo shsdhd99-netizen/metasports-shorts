@@ -70,5 +70,13 @@ The owner is open to copyrighted music. A track is not excluded because it's cop
 | **Meme sound** | Only where the picture is the joke, and never the vine boom | Route A, or a licensed SFX | Owner preference |
 | **SFX** | 2-5 per Short, only where the picture makes the sound (rim, whoosh on a circle) | `sfx.json` | Playbook §5 |
 
-## 5. Test edits
-See section 6 (results are added when the renders are inspected).
+## 5. Test edits (done Oct 14 night; renders inspected, numbers measured; I can't hear them)
+| Test | What | Result [V] | Where |
+|---|---|---|---|
+| **T1 timing** | Move every music drop, stop and hit onto the new voice's words (`Tools/retime.py`), then check by isolating the music (music render minus dry render) | **#40:** the drop before "It isn't." lands at 14.81 s (-44.7 → -74.5 dBFS); the bed is out before "Not eighty-one." **#41:** the decay comes in as "zero." ends (-33 → -54 → -71 dBFS over 23.1-23.5 s). **#21:** the break at 21.0-21.2 s, then the re-entry hit at 21.4 s on "Four games to spare." | `Productions/…/_v4/CHANGES.md` |
+| **T2 level** | #40 v4 with the bed at -12 LU (closer to CoachClank) vs the house -20 LU | Phone simulation: every word heard at both levels. Speech-band margin 41 → 33 dB. Taste is the owner's call | `…40…/_v4/_test_bed12/`; Sound Check §4 |
+| **T3 entry/exit** | Unchanged from the Oct 14 music versions: the bed enters with the voice at 0.0 s and exits by the track's own ending or a 0.5 s fade on the punchline | Verified on the same isolated-music read | Music Guide §5 |
+
+**Not done:**
+- **A route-A test (a real song added in the YouTube app):** only the owner can add a library song, in the app.
+- **A trending-song edit:** no queued Short has a non-narrated cold open or montage, so a test would only force a trend.

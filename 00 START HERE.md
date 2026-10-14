@@ -1,16 +1,18 @@
-# START HERE (updated Oct 14, 2026, evening)
+# START HERE (updated Oct 14, 2026, night)
 
 | You want... | Open |
 |---|---|
 | **What to make and post next** (the only queue) | `Production Queue.md` |
 | **Every idea** (74 rows: status, score, hook, sources, blockers, next action) | `Production Queue - all ideas (Oct 14, 2026).csv` |
-| **How every Short is built** (Creative System v3: formats, checklist, rubric, editing playbook, QA) | `MetaSports - Playbook.md` (top section) |
+| **THE WINNING FORMULA** (what wins, the 3 structures, fixed settings, the 10-step workflow; read first) | `MetaSports - Playbook.md` (top section; Creative System v3 below it has the detail) |
+| **Why that formula** (CoachClank, Ahmed, our best vs weakest, patterns by evidence) | `Research Notes/Winning Formula Research (Oct 14, 2026).md` |
 | **Why** (what the 102 posted Shorts show, with dated numbers and their limits) | `Research Notes/Posted Video Audit (Oct 14, 2026).md` (+ `Posted Shorts - metrics (Oct 14, 2026).csv`) |
 | **Which old rules stand** (each rule: keep / revise / retire / test) | `Research Notes/Rules Audit (Oct 14, 2026).md` |
-| **Voice** (12 takes, same script, measured; part 2: emphasis and pauses) | `Research Notes/Voice Audition (Oct 14, 2026)/README.md` |
-| **Listen and decide** (voice finalists, music beds, every ready Short with and without music) | Sound Check page: https://claude.ai/artifact/U58nqkg8BHDTJXNdy64Tcd |
+| **Voice** (the house voice, why, the backup, the spec; three audition rounds) | `Research Notes/Voice Audition (Oct 14, 2026)/README.md` (decision at the top, Part 3) + `Tools/voice_config.json` |
+| **Listen and decide** (round 3: new voice vs old, names, the 3 Shorts old vs new, music level) | Sound Check page: https://claude.ai/artifact/U58nqkg8BHDTJXNdy64Tcd |
 | **How to find, check and log footage** (sources, licences, commands) | `Library/B-roll Sourcing Guide.md` (+ `Library/footage_library.csv`; each Short's `sources.csv`) |
 | **Music** (library, licences, choosing a bed, levels, tests) | `Library/Music Guide.md` (+ `Library/Music/music_library.csv`) |
+| **Sounds and copyrighted/trending music** (your tracks, CoachClank's sound, what YouTube allows by route, trends) | `Library/Sound Library.md` |
 | **What our old hit Shorts did** (watched scene by scene, vs our new builds) | `Research Notes/Posted Video Audit (Oct 14, 2026).md` section 10 (+ the watch-reports appendix) |
 | **Current state, open decisions, handoff** (for any new session) | `CLOUD STATE - read this first.md` (newest section at the bottom) |
 | **Results of posted Shorts + predictions logged before posting** | `Research Notes/Outcome Log.md` |
@@ -20,9 +22,17 @@
 | **Every tool and command** | `Tools Guide.md` (newest changes at the top) |
 
 **Do next:**
-1. Open the Sound Check page and answer its five questions in chat (voice, "Wembanyama", music per Short, level, any bed to drop).
-2. Post #40 (ring; with or without music, your ear) and write the time and version in the Outcome Log. Post #41 v3 the same way tomorrow.
-3. Follow the calendar in `Production Queue.md` (1 a day this week). For #42, paste X links of LeBron missing shots and one Kobe jumper.
+1. **Open the Sound Check page (round 3) and answer its 4 questions in chat:**
+   - which voice
+   - plain or respelled names
+   - the 3 Shorts: old vs new
+   - music level
+2. **If you pick Alex:**
+   - post the **v4** versions from the Hub (top of each card), starting with #40 (ring) and #41.
+   - Check Alex's licence once in ElevenLabs → Voice Library before the first post (I couldn't open ElevenLabs' terms page).
+3. **If you keep the old voice:** the old-voice versions in the Hub are still ready; nothing else changes.
+4. **Log every post** (time, version, voice, music) in the Outcome Log.
+   - Only one test is running: ring (#40) vs plain (#41). Post both the same way.
 
 **Superseded (kept as evidence, not instructions):**
 - `Research Notes/Winning Formula v2 (Oct 13, 2026).md` (folded into Creative System v3; its red-ring rule is now a test)

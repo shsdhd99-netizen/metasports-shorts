@@ -55,7 +55,7 @@
 | # | Current rule | Source | Supports | Contradicts | Decision | Better alternative | Conf. | Test |
 |---|---|---|---|---|---|---|---|---|
 | C1 | Clone "pham v2", multilingual_v2, speed about 1.1-1.15, stability .65 | Oct 5 lab | Audition: the only voice at the house pace natively (245-268 wpm); equal intelligibility; good consistency [V] | Naturalness unheard by me; v3 voices have more pitch variety [V] | **KEEP** (fallback: clone "Pham", take D) | — | M | Owner listening task (Voice Audition README) |
-| C2 | Narration 247-289 wpm | CoachClank [E] | Pace goes with views in the new era (rho +0.50) [V] | **Our own old hits measured 182-212 wpm** from timed transcripts [V, n=3] | **REVISED Oct 14 (later)** | Warn outside 200-265 wpm: don't drag, don't rush | M | — |
+| C2 | Narration 247-289 wpm | CoachClank [E] | Pace goes with views in the new era (rho +0.50) [V] | **Our own old hits measured 206-252 wpm (median 220)** from their voice recordings [V, n=12; corrected Oct 14 night from 182-212, caption timings, n=3] | **REVISED Oct 14 (later)** | Warn outside 200-265 wpm: don't drag, don't rush | M | — |
 | C3 | Respell hard names ({Wembanyama\|wem-bun-YAH-muh}) | Oct 5 | — | The recogniser heard "Wembun Yama" in 9/9 respelled takes, and "Wembanyama" with the plain spelling [V, n=1 each] | **REVISE** | Plain "Wembanyama"; keep "Yoki-ch" for Jokic. Verify each name with the recogniser on a test line before the full take | M | Owner's ear (A vs A3) |
 | C4 | Time-stretch ≤1.08x | Oct 5 lab | HNR drops with stretch [R] | — | **KEEP** | — | H | — |
 | C5 | Flash model to save credits | Never adopted | — | Flattest pitch (3.69) and worst phone intelligibility [V] | **RETIRE** the idea | — | M | — |
@@ -116,3 +116,13 @@
 - `x_clip.py` and `broll.py cut` now write the logs themselves.
 - `music_gen.py` (new): licensed generated beds.
 - `captions.py`: per-shot `cap_y`.
+
+## Oct 14, 2026 (night): changes from the Winning Formula and voice overhaul
+| Rule | Was | Now | Evidence |
+|---|---|---|---|
+| Voice | **KEEP** the clone (pham v2) at speed 1.15-1.2 auto, stability .65, light denoise, stretch ≤1.08 | **REVISED:** Alex (Voice Library) as the house voice; the clone with fixed settings as backup; no denoise, no stretch, pauses ≤0.38 s; one config file (`Tools/voice_config.json`) | Voice Audition README, Part 3 [V]; owner's ear pending |
+| Name respellings in scripts | `{Jokic\|Yoki-ch}` inline | **REVISED:** none in scripts; `Tools/pronunciation.json` ("Yokitch") | the recogniser heard "Yokeech" vs "Yokic" [V] |
+| C2 pace | 200-265, "old hits 182-212" | **KEEP** 200-265; the old-hit figure **corrected** to 206-252 (median 220) | audit §11 [V, n=12] |
+| Experiments | 10 open at once | **REVISED:** one A/B test at a time (ring vs plain); Q1 and P1 parked; R1 story voice adopted as house style | Outcome Log, "formula freeze" |
+| Commercial music | "never" | **REVISED:** allowed through the YouTube app's Add sound picker (route A) by the owner; never baked in without a per-video yes | YouTube Help 13053317 and 13486873 [E]; `Library/Sound Library.md` |
+| Formats | 3 formats in Creative System v3 | **KEEP**, renamed as the 3 structures in the Winning Formula; "moment + hidden detail" is the first choice when a fresh moment exists | Curry 30.8K, Giannis 28.3K [S] |

@@ -98,7 +98,7 @@ Tiers: [V] verified on our files or data, [S] supported by our numbers (small n)
   - the broadcast scorebug kept as proof and circled
   - escalation
   - an answering punch line
-- [V] **Measure; don't trust AI estimates.** vidIQ guessed 160-185 wpm for old Shorts; timed transcripts measured 182-212. Our new posts already run faster (median 243). Don't push faster.
+- [V] **Measure; don't trust AI estimates.** vidIQ guessed 160-185 wpm for old Shorts; caption timings said 182-212 (n=3); the old Shorts' own voice recordings measured **206-252, median 220** (n=12, the most accurate; corrected Oct 14 night). Our posts ran 243 median and the old production voice 259-267 on our scripts: too fast. The house voice now reads 220-230.
 - [V] **Publicly viewable isn't free to use.** #41's "Dallas" still was an Imagn agency photo taken from a news post. Replaced with broadcast footage of the same player. Log every source; no agency photos.
 - [V] **Lost downloads can be recovered.** For clips cut before logging existed, matching small grey thumbnails against each candidate post (several crops and zooms, then a 15 fps refine) found the exact post and second for 28 of 40 clips.
 - [V] **A clip's own scene change becomes a one-frame flash** at the end of a shot (#41's new Dallas clip: the source cut at 10.4 s). Run scene detection on the source (`ffmpeg scdet`) and end the clip before the cut.
@@ -111,3 +111,17 @@ Tiers: [V] verified on our files or data, [S] supported by our numbers (small n)
 - [V] **A slowed quote shot drifts out of lip sync** (#38: the clip was 0.36 s short, so the editor played it at 1.094x while LeBron's real audio ran at 1.0x; his lips trailed by up to 0.29 s). QA passed it. **Rule:** a "quote" shot must play at 1.0x; re-cut the clip to cover the whole shot. `qa_short.py` now FAILs it.
 - [V] **The critic caught what QA can't:** #38's premise was a retell (the quote led every Sep 28 story; our #18 used it). Polishing (music, logs) doesn't rescue a retold premise. Run Critic v2 before investing in a Short's edit.
 - [V] **Search engines barely index X posts** (`site:x.com` returned none for #42's moments). Finding footage for older moments needs the owner's X links or the PC (YouTube). Park the idea rather than fake the shot.
+
+### Oct 14, 2026 (night): winning formula and voice overhaul
+- [V] **The old voice was a copy of a copy.** The clone was trained on our old Shorts' narration, which was itself TTS, with a high noise floor (-20 to -23 dB in the pauses). A clone can't sound cleaner than its source.
+- [V] **Light denoise on clean TTS removes the consonants.** On #40 it cut about two thirds of the energy above 5 kHz (the s/t/f detail) and only "improved" HNR by removing it. HNR is a poor proxy for naturalness. TTS now gets no denoise.
+- [V] **Speed settings creep.** "Auto" speed 1.15-1.2 plus a stretch put the clone at 259-267 wpm, above every old hit (206-252). At 1.15 one take's pitch variety fell to 3.8 semitones. Check wpm on every take; don't stretch.
+- [V] **A new voice changes the footage plan.** At 220 wpm the same script runs 2-6 s longer. #21 went 16.8 → 23.0 s and needed 3 longer clips and 2 split shots. Re-anchor shots, retime music (`retime.py`), and check for held frames.
+- [V] **A more dynamic voice renders quieter.** Its peaks hit the limiter (#21: -15.6 LUFS). A gentle compressor before the loudness lift fixed it (-14.9).
+- [V] **Library voices can add long pauses** (Alex: 0.8-1.25 s after some sentences). Cap silences only (`max_pause` 0.38 s), never cut speech.
+- [V] **The speech recogniser can't judge Y vs J** ("Jokic" plain or "Yokitch" both come back "Jokic"). Respellings are an ear decision; a respelling that comes back as the real name ("Yokitch" → "Jokic") beats one that doesn't ("Yoki-ch" → "Yokeech").
+- [V] **A word-error difference can be spelling, not hearing.** T2's 8.1% vs 2.7% was "pre-season" vs "preseason"; both transcripts had every word. Read the transcript before trusting a WER.
+- [V] **Using a library voice through the API adds it to "My Voices"**, which also gives us its notice period if the owner withdraws it (Alex 90 days, Jon and Lucan 730).
+- [V] **Creator data beats creator anecdotes.** CoachClank's 20-62 s Shorts beat their under-20 s ones 2.8× on median views (n=145), in both halves of their history. Our own new posts are all 21-29 s, so length isn't what separates our winners from our losers.
+- [V] **TikTok profile pages and YouTube both refuse this server for listing or watching videos** (Oct 14). Known video URLs still play through the browser. Ask the owner for links rather than working around a block.
+- [S] **The difference between our old hits and new posts is the storytelling, not the voice.** Same voice (0.93-0.95); the old scripts had flowing sentences, a turn and a reframe. Story voice is now house style.

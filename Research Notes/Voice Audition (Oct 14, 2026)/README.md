@@ -1,5 +1,12 @@
 # Voice audition (Oct 14, 2026): 12 takes, one script, same measures
 
+> **CURRENT DECISION (Oct 14, night). It supersedes "Keep the current voice" below; details in Part 3 at the end.**
+> - **Primary:** Alex (ElevenLabs Voice Library `yl2ZDV1MzN4HbQJbMihG`), multilingual_v2, speed 1.2, stability .5, similarity .75, no denoise, no stretch, pauses capped at 0.38 s.
+> - **Backup:** our clone "pham v2" with fixed settings (speed 1.1, stability .5, no denoise).
+> - **Where it lives:** `Tools/voice_config.json` (the only place to change the voice) and `Tools/pronunciation.json`.
+> - **Tested on 3 real Shorts:** #40, #41, #21 v4, all QA PASS.
+> - **Waiting on the owner's ear:** Sound Check round 3. Until the owner answers, the old-voice versions stay the ready ones.
+
 **Status:** the takes were actually generated and measured today.
 - I cannot hear audio. Every number below comes from the speech recogniser (faster-whisper "small", the same one `voice_check.py` uses) and from Praat (`parselmouth`).
 - **Naturalness and energy are NOT scored here.** Only the owner's ear can judge them (see "Owner listening task").
@@ -97,7 +104,7 @@ Answer two questions:
 Until you answer, production stays on take A3's setup: the clone, multilingual_v2, speed 1.15, plain "Wembanyama".
 
 ## Part 2 (Oct 14, later): emphasis, pauses, and the voice with music
-**Why:** the old hit Shorts stressed every number and paused about 0.4 s before the final word (Posted Video Audit, section 10). Do ours? Code: `emphasis_test.py`. Results: `emphasis_results.json`. Takes: `takes/E_*.mp3` and `E_*_lufs16.mp3`. About 1.9K characters.
+**Why:** vidIQ's descriptions said the old hit Shorts stressed every number and paused about 0.4 s before the final word (Posted Video Audit, section 10). Do ours? *(Correction, Oct 14 night: the measured old recordings deliver numbers just as flat, -1.3 to +0.8 dB; audit §11. So flat numbers are not why the new Shorts underperform.)* Code: `emphasis_test.py`. Results: `emphasis_results.json`. Takes: `takes/E_*.mp3` and `E_*_lufs16.mp3`. About 1.9K characters.
 
 **1. Our narration does not stress the numbers.** [V] Number words vs the other content words, measured on the voice tracks of the 4 ready Shorts:
 
@@ -135,3 +142,100 @@ The numbers are delivered as flat as the words around them, sometimes quieter.
 - **eleven_v3** (the most varied pitch in part 1) understands CAPITALS and audio tags for emphasis, but reads 26-45% slower with no speed control. It remains a TEST for an emotional story only.
 
 **Owner's ear (still open):** the listening page has the 5 finalists, the music beds, and every ready Short with and without music.
+
+## Part 3 (Oct 14, night): why the voice sounded wrong, round 2-3 auditions, the decision
+**Owner's brief:** the voice is a major problem; fix it, choose one, stop switching.
+
+### A. Diagnosis of the old setup [V unless marked]
+1. **It is a copy of a copy.**
+   - The clone "pham v2" was trained on recordings of our old Shorts' narration, which was itself TTS (`clonesrc/`, audit §11).
+   - Those training files have a high noise floor in the pauses (-20 to -23 dB under the speech) and HNR 7.8-8.3.
+   - The clone can't sound cleaner than its source.
+2. **Pushed too fast.**
+   - Production ran the clone at native speed 1.15-1.2 (auto) plus up to 1.08x stretch.
+   - On our Curry script that is **265-267 wpm**. The old hits ran 206-252 (median 220).
+   - At 1.15 one take's pitch variety fell to 3.8 semitones (flat).
+3. **Denoise dulled it.**
+   - The "light" FFT denoise removed about two thirds of the voice's energy above 5 kHz (the s, t, f sounds). #40: 1.69% → 0.56% above 5 kHz; 99% roll-off 6.2 → 4.0 kHz.
+   - It raised HNR (8.2 → 9.0) only by removing that detail. TTS has no room noise to remove.
+4. **Held back.** Stability .65 trades expression for steadiness.
+5. **Not the cause** (audit §11): the delivery of numbers. The old hits were just as flat.
+
+**Fixing the clone works on paper.** "Old voice, fixed" = speed 1.1, stability .5, no denoise:
+- reads 224-232 wpm
+- pitch variety 4.6-5.1
+- consistent (0.98)
+- *closer* to the old narration than the production settings (0.969 vs 0.95)
+
+It is the **backup**.
+
+### B. Round 2: 9 Voice Library voices
+- Same script (REF) and measures; `audition2.py`, `results2.json`, `results2_extra.json`.
+- At speed 1.1 they read 154-196 wpm.
+- **Alex led:**
+  - WER 0 / 1.7%
+  - all 5 names heard right
+  - pitch variety 5.36 (the most of the steady voices)
+  - numbers +0.87 dB over other words (the only voice that lifts them)
+- Lucan Rook and Jon followed.
+
+### C. Round 3: finalists at the real pace, two scripts, two takes (`audition3.py`, `results3.json`, `results3_consistency.json`; about 6K characters)
+| Voice | Settings | wpm (REF / story t1, t2) | Pitch var. (st) | Loudness var. (dB) | Pauses > 0.3 s (story) | Take-to-take similarity | Similar to old narration |
+|---|---|---|---|---|---|---|---|
+| Old voice as it was (P0) | clone, 1.15, stab .65 | 245 / 265, 267 | 4.88, 3.80 | 2.9, 2.6 | 0, 0 | 0.983 | 0.95 |
+| Old voice, fixed (P1) | clone, 1.1, stab .5 | 237 / 224, 232 | 4.62, 5.05 | 2.9, 2.8 | 1, 0 | 0.980 | 0.969 |
+| **Alex (X1)** | 1.2, stab .5 | 224 / 229, 226 | 4.90, 5.39 | 3.3, 3.6 | 1, 1 | **0.990** | 0.719 |
+| Lucan Rook (X3) | 1.2, stab .5 | 227 / 227, 225 | 4.69, 4.75 | 4.3, 4.9 | 9, 8 | 0.976 | 0.706 |
+| Jon (X4) | 1.2, stab .5 | 215 / 217, 211 | 3.84, 3.86 | 3.4, 3.3 | 7, 8 | 0.991 | 0.636 |
+| Alex on eleven_v3 (X5) | v3 | 184 (REF) | 5.27 | 2.9 | — | — | — |
+
+- Story script = our own Curry Kobes Short (30.8K).
+- Every take was heard right, apart from "Kobes" written as "Kobe's", which counts as the 3.9% "error" in every row.
+- **Names test** (`names_test.py`, `names_results.json`): Alex read 12 hard names, plain and respelled.
+  - The recogniser heard the right name in both versions ("Yokitch" → "Jokic", "Dontchitch" → "Dončić").
+  - It can't tell a Y from a J (an onset-noise check, `onset_check.py`, was too noisy to rely on). So the sound is the owner's call.
+- **Licence and terms** (API, Oct 14) [E]: rate 1.0 (normal credits).
+  - Notice period: Alex 90 days, Lucan and Jon 730 days.
+  - Using a library voice through the API adds it to "My Voices" (all 9 auditioned voices are now there), so the notice period protects us if its owner withdraws it.
+  - **Commercial use: not confirmed from ElevenLabs' own terms in this run.** Their Voice Library terms page couldn't be reached (404); third-party guides say every paid plan includes a commercial licence. **Owner to-do:** open ElevenLabs → Voice Library → Alex and check the licence shown on the voice before the first post with it.
+
+### D. The decision
+**Primary: Alex.** It is the only voice that is, at once:
+- in the old hits' pace range at its native speed (no stretch)
+- the most varied in pitch and loudness without extra pauses
+- the most consistent take to take
+- the clearest on names and numbers
+
+**Backup: our clone, fixed.**
+- It can't be withdrawn.
+- It is the old channel voice, if the owner prefers it.
+
+**Not chosen:**
+- **Jon:** cleanest sound, but the flattest pitch and many pauses.
+- **Lucan:** least consistent, 8-9 pauses.
+- **v3:** too slow.
+
+**Untested outside ElevenLabs:**
+- Other providers (OpenAI, Google, Azure voices) need new accounts and keys we don't have.
+- ElevenLabs is already paid and has the largest library.
+- Say so if you want them tried.
+
+**Real-Short test (done):** #40, #41 and #21 re-voiced (`Productions/…/_v4/CHANGES.md`).
+- 220-227 wpm, 23-24 s
+- QA PASS
+- the music hits are still on their words
+
+**What I can't judge:** whether Alex sounds more human than the old voice. Sound Check round 3 asks the owner.
+- If the owner picks another voice, change `voice_config.json` once, and only then.
+
+### E. The house voice spec (for every Short from now on)
+| Item | Setting |
+|---|---|
+| Provider, voice, model | ElevenLabs, Alex `yl2ZDV1MzN4HbQJbMihG`, eleven_multilingual_v2 |
+| Settings | speed 1.2, stability 0.5, similarity 0.75, style 0, speaker boost on |
+| Script format | plain sentences; numbers as words where the reading matters (`{1,301|thirteen hundred and one}`); no "..." (adds 0.05 s); no respellings in scripts: names go in `pronunciation.json` |
+| Pronunciation | `Tools/pronunciation.json`: Yokitch, Dontchitch, Nurkitch, Bogdanovitch, Shengoon, Valanchoonas. Never respell Wembanyama. A new hard name gets a one-line test first |
+| Processing | no denoise, no stretch; silences between words capped at 0.38 s (silence only, never a syllable); in the render, a 2.5:1 compressor above -20 dBFS, then the lift to -14 LUFS |
+| Gate (`voice_take.py`) | voice_check has no REDO issue; HNR ≥ 7.0, jitter ≤ 3.4, shimmer ≤ 12.5 (Alex's measured range: HNR 7.6-8.7, shimmer 10.6-12.2) |
+| Pace | 210-235 wpm expected; QA warns outside 200-265 |
+| Cost | about 1 credit per character: about 500 per Short per take. Starter plan, 52,087 a month; 32.7K used on Oct 14 (resets Nov 8) |

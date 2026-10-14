@@ -1,10 +1,17 @@
 # MetaSports Production Queue (CANONICAL: the only queue)
 
-**Updated:** Oct 14, 2026, evening. Since the morning: music versions of every ready Short; source logs with every clip checked by eye; #41 v3 (agency photo replaced); the old-video study. All other roadmaps and plans point here.
+**Updated:** Oct 14, 2026, night.
+
+**New tonight:**
+- **The Winning Formula** (Playbook top): build every Short to it.
+- **A new house voice (Alex).**
+- **v4 versions of #40, #41 and #21** in the new voice: QA PASS, in the Hub, waiting on your ear. The old-voice versions stay valid.
+
+All other roadmaps and plans point here.
 
 **Where the rest lives:**
 - **Every idea**, all 74, each with its status, score, premise, hook, sources, visual needs, blockers and next action: `Production Queue - all ideas (Oct 14, 2026).csv`. It is the full table behind this page.
-- **How to build:** `MetaSports - Playbook.md` → "CREATIVE SYSTEM v3".
+- **How to build:** `MetaSports - Playbook.md` → "THE WINNING FORMULA" (top), then Creative System v3 for detail.
 - **Why:** `Research Notes/Posted Video Audit (Oct 14, 2026).md` and `Research Notes/Rules Audit (Oct 14, 2026).md`.
 - **Handoff:** `CLOUD STATE - read this first.md`.
 - **Footage and music:** `Library/B-roll Sourcing Guide.md`, `Library/Music Guide.md`.
@@ -22,15 +29,15 @@
 1. Listen once on a phone speaker.
 2. Post the file named in the folder's `UPLOAD.md`. **The title goes up exactly as written** (#17's changed title misstated the fact).
 3. Write the post time (ET) in `Research Notes/Outcome Log.md`.
-4. **Voice and music:** open the Sound Check page above. Answer its five questions in chat: the voice, "Wembanyama", music keep/drop per Short, the level, and any bed you'd never use.
-5. **Pick the version** in the Hub. Each ready Short has "with music" (new) and "no music". Post #40 and #41 the same way.
+4. **Voice:** open the Sound Check page (round 3) and answer its 4 questions in chat. If you pick Alex, post the **v4** versions (top of each Hub card). If not, post the old-voice versions.
+5. **Post #40 and #41 the same way** (same voice, same music setting), so the one running test (ring vs plain) stays fair.
 
 ## Ready or nearly ready (post in this order)
 | # | Short | Status | Score | Why here | Deadline | Next action |
 |---|---|---|---|---|---|---|
-| 1 | **#40 Why Jokic's Best Pass Doesn't Count** | **critic-passed (ready)**; music versions added; footage logged and verified | **63** | Best formula fit (object + paradox, one number ending) | **before Oct 22** | Post the **ring** version (with or without music, your ear) **today, Wed Oct 14** |
-| 2 | **#41 Is Anyone Taller Than Wemby** | **critic-passed; v3** (Oct 14: the Dallas agency photo replaced with Mavericks game footage; QA PASS); music version | 53 | Height paradox, answered with 350 vs 0 | post by about Oct 18 | Post **v3** (plain, the same audio choice as #40) Thu Oct 15. Re-check his status first |
-| 3 | **#21 How Close Is Jokic To Westbrook's Record** | **critic-passed (ready)** v3.1; music version | 55 | Record chase on one measure; 16.8 s | **before Oct 22** | Post Fri Oct 16. Listen to 5-8 s first |
+| 1 | **#40 Why Jokic's Best Pass Doesn't Count** | **critic-passed (ready)**; music versions added; footage logged and verified | **63** | Best formula fit (object + paradox, one number ending) | **before Oct 22** | Post the **ring** version. **v4 (new voice) or v2 (old voice): your ear on the Sound Check page.** Both QA PASS |
+| 2 | **#41 Is Anyone Taller Than Wemby** | **critic-passed; v3** (Oct 14: the Dallas agency photo replaced with Mavericks game footage; QA PASS); music version | 53 | Height paradox, answered with 350 vs 0 | post by about Oct 18 | Post **v4 (new voice) or v3** (plain, the same choice as #40) Thu Oct 15. Re-check his status first |
+| 3 | **#21 How Close Is Jokic To Westbrook's Record** | **critic-passed (ready)** v3.1; music version | 55 | Record chase on one measure; 16.8 s | **before Oct 22** | **v4 (new voice, 23.0 s; 3 clips re-cut longer, 2 shots split) or v3.1 (old voice, 16.8 s).** Post Fri Oct 16 |
 | 4 | **#36 LeBron Was Pro Before Boozer Was Born** | QA-passed; **blocked: owner OK** | 54 | A paradox on the biggest name | none | Say "OK #36 clip" or I swap the clip; then Critic v2 |
 | 5 | ~~#38 What Did LeBron Promise Sixers Fans~~ | **REJECTED by Critic v2 (Oct 14): DO NOT POST** | 46 | A retell: the quote led every Sep 28 story and our own #18 used it; it drifts off its one measure; the quote shot is out of lip sync | — | Abandoned. See the review file |
 | 6 | **#27 Why Can't Teams Win Back-To-Back Lotteries** | QA-passed; Critic v2 not run | 41 | Abstract rule | before May | Critic v2 |

@@ -57,6 +57,16 @@ There are two ways to use everything here:
 - **Easiest:** type a command in Claude (the Code tab, opened on this folder) and Claude runs the tools for you.
 - **By hand:** open the `Tools` folder, click the address bar, type `cmd`, press Enter, then paste a command from below.
 
+## Newest changes (Oct 14, 2026, night)
+- **`voice_config.json` + `pronunciation.json` (new):** one place for the house voice (Alex), the backup (our clone, fixed) and name respellings. `voiceover.py` and `voice_take.py` read them; `voice_take.py`'s quality gate is per voice.
+- **`voiceover.py`:**
+  - TTS is no longer denoised (it was removing the s/t/f detail).
+  - `max_pause` caps silences between words (0.38 s), silence only.
+  - New options: `--voice`, `--style`, `--max-pause`, `--no-dictionary`.
+- **`assemble.py`:** a gentle compressor on the voice before the lift to -14 LUFS, so a dynamic voice doesn't come out quiet.
+- **`retime.py` (new):** after re-voicing the same script, moves `music.json` / `sfx.json` times onto the new words. Usage: `python retime.py --old "<old folder>" --new "<new folder>"`. The old files are kept as `*_oldvoice.json`.
+- **A re-voiced build lives in a `_v4/` subfolder** (`clips` symlinked to the parent's), so the posted-ready files are never overwritten.
+
 ## Your commands (type them in Claude)
 
 | Type this | What you get |
@@ -96,15 +106,18 @@ There are two ways to use everything here:
    - Nobody can see which voice CoachClank uses, so trust your ears.
 4. **Never paste the key into a chat.** It stays in that file on your PC.
 
-**Settings (already built in, so you don't need to touch them):**
-- The model is `eleven_multilingual_v2`, with speed 1.1, stability 0.45 and similarity 0.8.
-- The tool then speeds the finished audio to **~250 words a minute**. CoachClank's biggest 2026 Shorts ran 250–290.
-- For faster audio, add `--target-wpm 270`.
-- For a more expressive read, try `--model eleven_v3`. If captions come out wrong with it, go back to the default.
+**Settings (updated Oct 14, 2026, night; nothing to touch):**
+- **The voice and every setting live in `Tools/voice_config.json`**, which overrides `ELEVENLABS_VOICE_ID` in `.env`.
+  - House voice ("primary"): **Alex** (ElevenLabs Voice Library), eleven_multilingual_v2, speed 1.2, stability 0.5, similarity 0.75. About 220-230 words a minute.
+  - No denoise, no stretch. Pauses longer than 0.38 s are shortened (silence only).
+  - **Backup:** `-- --voice backup` (our clone, fixed settings).
+  - Old renders: `clone_legacy`.
+- **Change the voice only in that file**, only after an audition and the owner's ear (`Research Notes/Voice Audition (Oct 14, 2026)/README.md`).
+- **Make a take:** `. key.sh && python voice_take.py --script "<folder>/script.txt"`. It tries up to 3 takes against the voice's own quality gate.
 
-**Hard names:** write `{Giannis|YAH-nis}` in the script. The voice says the right side, and the captions show the left. Numbers work the same way: `{92%|ninety-two percent}`.
+**Hard names:** add them to `Tools/pronunciation.json` (for example `"Jokic": "Yokitch"`). The voice says the respelling; captions show the name. Don't respell inside scripts. Numbers still work inline: `{92%|ninety-two percent}`. Never respell Wembanyama.
 
-**Cost:** about 1 credit per character. A 25-second Short is about 550 characters. `python voiceover.py --check` shows what's left.
+**Cost:** about 1 credit per character. A 25-second Short is about 500 characters per take. `python voiceover.py --check` shows what's left.
 
 **Heads-up:** ElevenLabs' **free plan** requires credit and doesn't allow commercial use. A channel you plan to monetize needs a paid plan.
 

@@ -171,24 +171,52 @@ Research Notes/Round 9 - Competitor Shorts Watched (Oct 5, 2026).md. Findings (n
 - **Rules changed** (Rules Audit addendum): B10 no-music retired by the owner, plus B14 scorebug, C2 pace 200-265, B16-B19, C6, A13, D13 (sound-effect licences unknown).
 - **Credits:** ElevenLabs 22,389 of 52,087 used (music generation bills here too, plus about 1.9K for the emphasis test). Music: 17 generated minutes a month on Starter, about 2.1 used. **vidIQ 5 credits left** (renews Nov 5), so the Oct 18 48 h check gets one retention call; use free public counts for the rest.
 
-## CHECKPOINT Oct 14, 20:45 UTC (continuation run; update or replace at the end of the run)
-**Verified at start:**
-- Repo clean at 1ea0ab1, in sync with origin.
-- Source-log counts reconcile with the files: 40 footage clips, 28 exact / 4 probable / 1 cut-logged / 7 unrecoverable; all rows in the 4 logs are verified.
-- `Library/footage_library.csv` is stale; it predates #38's log, so re-index.
+## CHECKPOINT Oct 14, 2026, ~22:15 UTC: end of the "Winning Formula & Voice Overhaul" run (replaces the 20:45 interim checkpoint)
+**Read first:**
+- `00 START HERE.md`
+- `MetaSports - Playbook.md` → THE WINNING FORMULA (top)
 
-**Found this run (evidence, not yet written into the guides):**
-1. **The owner's provided sounds** were uploaded Oct 3:
-   - yuke "Blood Soda Freestyle" (instrumental, niche version, DeemZ) and EsDeeKid "4 Raws", at `/root/.claude/uploads/.../a18b93ec-*.mp3` and `a5670acf-*.mp3`.
-   - Both were tested in #01 v6 (`_claude_v6/NOTES.md`) and dropped as commercial tracks (Content ID).
-   - The owner also said the vine boom "ruins" the LeBron Short.
-2. **The clone voice "pham v2"** (and "Pham") was trained on the owner's OWN old Shorts' narration:
-   - "Bronny James 1v1 With NBA All-Star" (65K), "The NBA's Secret Disaster Draft Plan" (30.6K), "The NBA Once Traded a Player for a Copy Machine" (31.1K), plus more in a 266 s recording.
-   - The ElevenLabs samples were downloaded to the scratchpad `clonesrc/`; not committed.
-   - Speaker similarity (Resemblyzer): our current output vs the old narration 0.93-0.95 (the same voice).
-3. **CoachClank:**
-   - Both TikToks use "original sound - CoachClank" (their own mix, not a platform sound).
-   - Their narrator is NOT our voice (0.74), and not in the top 400 ElevenLabs library voices (best 0.78).
-   - Their gaps carry a tonal bed only 2.5-5 dB under the voice (n tiny).
+**Done this run (verified):**
+1. **Winning formula** (`Research Notes/Winning Formula Research (Oct 14, 2026).md`), from:
+   - our 102 Shorts and 12 old scripts as voiced
+   - our best Shorts (Curry 30.8K, Giannis 28.3K) vs our weakest
+   - CoachClank's 148 Shorts (length and title lanes) plus 2 watched; Ahmed's 1 watched
+   - Patterns sorted: supported / promising / creator-specific / preference.
+   - **Blocked:** CoachClank's actual top Shorts. YouTube refuses this server, the TikTok profile hides its list from an automated browser, and vidIQ has 5 credits.
+   - The Playbook's top section is now the one-page formula: 3 structures, fixed settings, a 10-step workflow, one test at a time.
+2. **Voice** (Voice Audition README, Part 3):
+   - **Diagnosis:** the clone is a copy of TTS recordings; it ran at 259-267 wpm; the denoise stripped the s/t/f detail.
+   - **Rounds 2-3:** 9 library voices, then the finalists at the real pace on 2 scripts with 2 takes each.
+   - **Primary: Alex.** **Backup:** our clone with fixed settings.
+   - **Config:** `Tools/voice_config.json` + `Tools/pronunciation.json`; voiceover/voice_take/assemble updated.
+3. **Applied to real Shorts:**
+   - #40, #41 and #21 **v4** (`_v4/` subfolders; nothing overwritten).
+   - Re-voiced, re-anchored, music retimed. #21 also re-cut 3 clips longer and split 2 shots.
+   - All QA PASS. Frame sheets, flash scan, transcripts and music placement checked.
+   - In the Hub as the top version of each card. `_v4/CHANGES.md` has the details.
+4. **Sound:** `Library/Sound Library.md` (new):
+   - the owner's tracks and their status
+   - the CoachClank sound: two readings, not guessed
+   - YouTube's music routes (copyrighted songs only via the app's Add sound picker by the owner)
+   - dated trend evidence (none fits a narrated Short)
+   - test edits T1 (timing) and T2 (a louder bed: no words lost)
+5. **Sound Check round 3:** https://claude.ai/artifact/U58nqkg8BHDTJXNdy64Tcd (4 questions).
+6. **Docs updated:** Playbook (formula; §6 voice; §7 experiments frozen), Rules Audit, Lessons, Outcome Log (formula freeze, V1), Music Guide, Tools Guide, START HERE, Production Queue + CSV.
+   - The old-hit pace (182-212 → 206-252) is corrected everywhere.
 
-**Next in this run:** old transcripts and delivery study → new-voice audition → sound research and test edits → docs → push.
+**Open (owner):**
+- Answer Sound Check round 3: voice, names, old vs new for 3 Shorts, music level.
+- Check Alex's licence in ElevenLabs → Voice Library. I couldn't reach the terms page.
+- Post #40 and #41 the same way (same voice, same music).
+
+**Credits:**
+- ElevenLabs about 36K of 52,087 used (resets Nov 8).
+- vidIQ 5 (renews Nov 5).
+- Music: 17 generated minutes a month, none used tonight.
+
+**Side effect to know:** the 9 auditioned library voices were added to "My Voices" by the API. Harmless; remove unused ones in ElevenLabs if you like.
+
+**Next session:**
+- If the owner picks Alex: build the next queued Short to the Winning Formula with the house voice, end to end.
+- If not: set `voice_config.json` "default" to "backup" (one line) and keep the old-voice versions.
+

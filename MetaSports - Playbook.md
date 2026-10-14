@@ -1,5 +1,80 @@
 # MetaSports — The Playbook (Round 2)
 
+## THE WINNING FORMULA (canonical, Oct 14, 2026, night). Read this first; where anything below disagrees, this wins.
+**Why this exists:**
+- The owner asked to stop changing formats and rules every day.
+- This page is the formula. Change it only on the rule in step 10.
+- **Evidence:** `Research Notes/Winning Formula Research (Oct 14, 2026).md`, which covers:
+  - our 102 Shorts
+  - 12 old scripts as voiced
+  - our best Shorts, Curry Kobes (30.8K) and Giannis game ball (28.3K)
+  - CoachClank's 148 Shorts
+  - Ahmed's
+- **Nothing here guarantees views.** Distribution and topic still matter most.
+
+### What wins (sorted by how sure we are)
+**Supported by several independent examples:**
+1. **Line 1 states the surprising thing about a named player, as a statement, within about 3 s.** "Stephen Curry just pulled one of the wildest sneaker moves…" / "Giannis just saved a rookie's first NBA memory."
+2. **The footage is the exact moment** under every line. The proof is on screen.
+3. **Tell it like a story to a friend.** Flowing sentences, one turn ("But the craziest part…", "Then it gets crazier", "but not this time, because…"), one short reaction aside.
+4. **Lanes that travel:**
+   - a rule or record paradox ("Why…")
+   - a star's visible moment with a hidden detail
+   - basketball IQ / "how is that legal"
+5. **End on the payoff:** the answer, the number, or the feeling. Then stop.
+6. **Voice from 0.0 s to the last frame**, no dead air.
+
+**Promising, not proven:**
+- 20-30 s for one story
+- fresh "just happened" moments
+- a quiet music bed
+
+**Creator-specific (don't copy):**
+- CoachClank's own narrator and 265-309 wpm
+- Ahmed's 60-120 s "Players who…" lists
+
+**Owner preference (kept):**
+- no hook headline text
+- white Montserrat captions
+- music on
+- no vine boom
+
+### The three structures (pick one per Short; no new formats)
+| Structure | Use when | Beats (each line gets its own proof shot) | Our proof |
+|---|---|---|---|
+| **A. Moment + hidden detail** (first choice when a fresh moment exists) | a star did something visible in the last few days | 1. "[Star] just [did X]." → 2. the concrete detail → 3. the reaction or proof → 4. "But the craziest part…" the hidden detail → 5. payoff line | Curry Kobes 30.8K, Giannis 28.3K, Bronny 1v1 65K |
+| **B. Paradox / record** | a fact that "can't be right" | 1. the paradox on the object → 2-3. facts on ONE measure, told as a story → 4. the turn → 5. the answer as one number or the subject's words | #22 31.8K, #03 27.0K, Korver 31.1K |
+| **C. Arc** | a career, a family, an ending | 1. the feeling in one line → 2-4. escalation, craziest last → 5. the line that lands the feeling | Chris Paul 28.4K, Keldon |
+
+### Fixed production settings (do not change per video)
+| Item | Setting | Source |
+|---|---|---|
+| Length | whatever the story needs, normally 20-30 s, about 85-110 words | old hits 20-32 s; CoachClank's 20-62 s Shorts beat their under-20 s ones 2.8× |
+| Voice | **Alex**, house settings in `Tools/voice_config.json` (about 220-230 wpm). Backup: our clone, fixed settings. Change it only there, only after an audition plus the owner's ear | Voice Audition README, Part 3 |
+| Names | `Tools/pronunciation.json`; never respell inside scripts | same |
+| Music | by story type, -20 LU under the voice, payoff marked (drop/stop/hit), dropped under real quotes | `Library/Music Guide.md` |
+| Copyrighted/trending songs | only through the YouTube app's "Add sound" picker, by the owner at upload, on a "for the app" render | `Library/Sound Library.md` §2 |
+| Captions | house style (white Montserrat caps, 45-62% band) | Playbook §5 |
+| Proof | every clip logged and verified in `sources.csv` | B-roll Sourcing Guide |
+| QA | `qa_short.py` PASS + frame sheet + transcript of the final audio + Critic v2 | Playbook §5 |
+
+### The 10-step workflow (every Short)
+1. **Pick:** a fresh moment or a paradox in a lane above. Score it (Playbook §4). A casual fan must get the question by about 3 s.
+2. **Lock the facts:** dated sources in `notes.md`.
+3. **Footage first:** frame 1 plus a proof clip for every beat (`x_clip.py`, `broll.py cut`). No footage, no script.
+4. **Write:** choose structure A, B or C, and write in story voice. Read it aloud at 220 wpm: it should run 20-30 s.
+5. **Voice:** `voice_take.py` (house voice, gate, pause cap), then `voice_check.py`. Fix names in `pronunciation.json`.
+6. **Edit:** `anchor_shots.py`, then `assemble.py` with `music.json`. Hold the payoff shot longest.
+7. **Sound:** the bed by story type; mark the payoff. Effects only where the picture makes the sound.
+8. **QA:** `qa_short.py`, the frame sheet, the transcript of the final audio, a flash check around cuts, then Critic v2.
+9. **Package and Hub:** PACKAGE.md (with the Music and sound block), the Hub upload, the queue status. **The owner posts.**
+10. **Read and decide:** read each post at 48 h and 7 days in the Outcome Log.
+    - **One A/B test at a time.**
+    - Change this formula only on n≥3 posts pointing the same way, or one very large effect.
+    - Never change two things in the same week.
+
+---
+
 ## CREATIVE SYSTEM v3 (canonical, Oct 14, 2026). It replaces the Oct 13 "Strict Short Formula" and overrides any older line below.
 
 **Built from:** our own results first.
@@ -52,7 +127,7 @@
 6. **Accuracy:** every claim has a dated source in notes.md, and qualifiers are kept ("listed", "probably", "regular season"). Confidence comes from specifics, not from overclaiming (#17's "BAN" title cost retention).
 7. **Proof on screen:** the right person on their name; the number visible (the broadcast scorebug, circled, when it's the exact game); the quote with its source. No footage that merely resembles the story; no team colours under another team's name. **Every clip logged and verified in `sources.csv`** (`Library/B-roll Sourcing Guide.md`); no agency photos taken from news posts.
 8. **Footage-first:** frame 1 and a proof clip for every beat are secured **before** voicing.
-9. **Voice:** the clone (see section 6), about 200-265 wpm (revised Oct 14). Every name and number heard correctly by the recogniser. No dead air over 0.6 s. Key numbers made to land by the edit (caption colour, circle, music drop, a cut-in pause), since the voice reads them flat.
+9. **Voice:** the house voice in `Tools/voice_config.json` (Alex since Oct 14 night; see section 6), about 220-230 wpm. Every name and number heard correctly by the recogniser. No dead air over 0.6 s. Key numbers made to land by the edit (caption colour, circle, music drop, a cut-in pause), since the voice reads them flat.
 10. **Captions:** readable, clear of faces, action and card text; no lone-word cards. **Cards:** proof only, never two in a row, none in the first 4 s (TEST).
 11. **Sound:** a music bed by story type, 20 dB under the voice, with the payoff marked by the music (silence, stop, swell or hit) and dropped under real quotes; the track logged in `music_library.csv` (`Library/Music Guide.md`). Effects only where the picture makes the sound, or on the single reveal. The voice at -14 LUFS; true peak ≤ -1 dBTP.
 12. **Render:** inspected end to end (frame sheet + transcript of the final audio). `qa_short.py` PASS, then Critic v2 PASS (a separate agent), then the owner's listen.
@@ -129,29 +204,25 @@
 - **QA warnings** (fix when they hurt the story):
   - shots in the first 3 s, average shot, b-roll %, cards %, two cards in a row, loop, length 15-35 s
   - early card, slow hook, naked-number opening
-  - pace (now 200-265 wpm: the old hits measured 182-212), tail, CTA, tiny shots
+  - pace (now 200-265 wpm: the old hits measured 206-252, median 220; corrected Oct 14 night), tail, CTA, tiny shots
   - no music bed, music track still a candidate, bed outside -24 to -16, speech-band margin under 18 dB, no `sources.csv`
 
-### 6. Voice (Voice Audition Oct 14; I can't hear audio, so naturalness is the owner's ear)
-- **Keep** the clone "pham v2" (`GDS7e7WiI4GqkoRxZAFG`), eleven_multilingual_v2, speed 1.1-1.15, stability .65, similarity .7.
-  - It is the only voice measured at the house pace natively (245-268 wpm).
-  - The premade voices read at 136-184 wpm at the same setting [V].
-  - **Fallback:** the clone "Pham" (`H2ovX6h6fD6dmyrg5SkI`).
-- **Pronunciation:**
-  - Plain "Wembanyama". The respelling was heard as "Wembun Yama" in 9/9 takes [V].
-  - "Yoki-ch" for Jokic.
-  - Prefer "Giannis" over the full surname.
-  - Test every new name on a one-line take first (`voice_check.py`).
+### 6. Voice (replaced Oct 14, night: see the Winning Formula and `Research Notes/Voice Audition (Oct 14, 2026)/README.md`, Part 3)
+- **House voice:** Alex (`yl2ZDV1MzN4HbQJbMihG`), multilingual_v2, speed 1.2, stability .5, similarity .75. No denoise, no stretch, pauses capped at 0.38 s, a gentle compressor in the render.
+  - All of it lives in `Tools/voice_config.json`.
+- **Backup:** our clone "pham v2" at speed 1.1, stability .5, no denoise.
+- **Why the old setup sounded wrong** [V]:
+  - The clone is a copy of TTS recordings.
+  - It ran at 259-267 wpm.
+  - The light denoise removed two thirds of the s/t/f detail.
+- **Pronunciation:** `Tools/pronunciation.json`. Never respell Wembanyama. Test each new hard name on one line first.
 - **Never:**
-  - stretch beyond 1.08x
-  - use the Flash model
-  - put a spoken number next to a number-like word ("fifty threes" → "353s")
-- **TEST:** a v3 voice (more pitch variety, slower) for format-3 arcs only.
-- **Pace (revised Oct 14):** the old hits measured 182-212 wpm and our new posts 224-250. Don't push faster: aim for 200-265.
-- **With music:** the voice is lifted to -14 LUFS, then the bed goes 20 dB under it. Our beds cost no words in the phone test even at -2 LU [V].
-- **Owner's ear:** voice finalists and every ready Short with and without music, on the Sound Check page: https://claude.ai/artifact/U58nqkg8BHDTJXNdy64Tcd
+  - stretch the voice
+  - use Flash
+  - put a spoken number next to a number-like word
+- **Owner's ear:** Sound Check round 3, https://claude.ai/artifact/U58nqkg8BHDTJXNdy64Tcd
 
-### 7. Experiments running or proposed (one variable each; log in the Outcome Log; decide at 48 h)
+### 7. Experiments (FROZEN Oct 14 night: one test at a time. Only #1 is running; the rest are parked or house style. See the Outcome Log, "formula freeze")
 1. **Red ring in frame 1:** #40 (ring) vs #41 (plain), then 2 more pairs.
 2. **No card before 4 s:** every build follows it; compare at n≥6.
 3. **Posting rate:** 1 a day for 7 days vs the 2-a-day weeks (the owner's call) [Rules Audit D10].

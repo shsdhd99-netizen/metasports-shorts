@@ -45,7 +45,7 @@ Evidence tiers: **[V]** measured on our files, **[S]** small-n support, **[H]** 
   - **Incompetech/Kevin MacLeod (CC BY 4.0):** needs a credit line, which conflicts with our no-description rule. Owner's call.
   - **Pixabay and Chosic:** blocked from the cloud (403).
   - **YouTube Audio Library:** needs Studio, which only the owner opens.
-  - **Commercial songs:** never.
+  - **Commercial songs (revised Oct 14 night; the owner is open to them):** only through the YouTube app's "Add sound" picker, added by the owner at upload (route A in `Library/Sound Library.md` §2: licensed by YouTube for Shorts). Never baked into our render without the owner's explicit yes for that video: a baked-in song gets a standard Content ID claim, and a Short over 1 minute with any claim is blocked.
 - **Sound effects** (`Tools/sfx/`): the catalog says they were "copied from Downloads/music", so **their licence is unknown**. They're flagged in the Rules Audit. Replace them over time with Mixkit's free effects or ElevenLabs sound effects, and log the source.
 
 ## 3. Choosing a bed by story type
@@ -89,6 +89,11 @@ Evidence tiers: **[V]** measured on our files, **[S]** small-n support, **[H]** 
   - Result: **error rate 1.7% at every level, the same as no music.**
   - Reason: these beds put almost no energy in the speech band (0-13%), and a phone speaker drops most bass anyway.
   - What it does and doesn't show: the beds do not mask words for a machine. It does not show what sounds natural to a person. **I can't hear audio**; the owner's ear decides taste.
+- **Level test T2 (Oct 14 night, real mix, new voice):** #40 v4 with the bed at -12 LU (closer to CoachClank's 2.5-5 dB gap) vs the house -20 LU. [V]
+  - Same render otherwise.
+  - The phone simulation transcribed **every word at both levels**.
+  - The speech-band margin fell from 41 dB to 33 dB.
+  - It's on the Sound Check page (section 4) for the owner's ear. The house level stays -20 until the owner says "louder".
 - **QA** (`qa_short.py`, on any render with music):
   - the track must be in `music_library.csv`
   - its status can't be "rejected" or "unclear"

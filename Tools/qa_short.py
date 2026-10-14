@@ -167,8 +167,8 @@ def main():
         warn.append(f"average shot {avg:.1f}s is very fast; a 1.9 vs 2.8 s A/B is pending (HYPOTHESIS)")
     dur_voice = words[-1]["end"] - words[0]["start"]
     wpm = len(words) / dur_voice * 60 if dur_voice else 0
-    if not 200 <= wpm <= 265:  # Oct 14: our own old-era hits measured 182-212 wpm; new-era posts 224-250 (Posted Video Audit section 10)
-        warn.append(f"speech pace {wpm:.0f} wpm (guideline 200-265: our old hits ran 182-212, Clank's 247-289; don't drag, don't rush)")
+    if not 200 <= wpm <= 265:  # Oct 14 night: our old hits' own voice recordings measured 206-252 wpm (median 220; audit section 11); new-era posts 224-250. Display words: digits count as one word, so number-heavy scripts read low
+        warn.append(f"speech pace {wpm:.0f} wpm (guideline 200-265: our old hits ran 206-252, Clank's 265-309; don't drag, don't rush. Digits count as one word here)")
     if not 0.15 <= tail <= 0.6:
         warn.append(f"last word ends {tail:.2f}s before the end (loop tail wants 0.15-0.4 s)")
     last6 = " ".join(w["word"].lower() for w in words[-6:])
