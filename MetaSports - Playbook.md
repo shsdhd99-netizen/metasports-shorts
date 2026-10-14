@@ -1,134 +1,164 @@
 # MetaSports — The Playbook (Round 2)
 
-## STRICT SHORT FORMULA (canonical, Oct 13, 2026). It overrides any older line below that conflicts.
+## CREATIVE SYSTEM v3 (canonical, Oct 14, 2026). It replaces the Oct 13 "Strict Short Formula" and overrides any older line below.
 
-**Evidence labels:**
-- **A** = proven in this channel's data
-- **B** = working hypothesis
-- **C** = outside best practice
-- **D** = a decision made for testing
+**Built from:** our own results first.
+- `Research Notes/Posted Video Audit (Oct 14, 2026).md`: 102 Shorts, analytics, 10 retention curves.
+- `Research Notes/Rules Audit (Oct 14, 2026).md`: every rule marked KEEP / REVISE / RETIRE / TEST, with its evidence and its test.
+- External research (CoachClank and others) only where it adds something; marked [E].
 
-**Confidence:** H / M / L.
+**Tiers:** [V] verified in our data · [E] external · [H] hypothesis.
 
-**Evidence files:**
-- `Research Notes/Winning Formula v2 (Oct 13, 2026).md`
-- `Research Notes/Handoff Audit (Oct 13, 2026).md`
-- the Outcome Log
+**Nothing here guarantees views.** In our data, the biggest single factor is the channel's distribution state: the old era's median was 29.8K, the new era's is 2.8K. Craft can't fix that alone.
 
-**Queue:** `Production Queue.md`. **Critic rubric:** `Tools/critic_v2.md`.
+**Queue:** `Production Queue.md`. **Critic:** `Tools/critic_v2.md`. **The Oct 13 formula's full text** is in git history (commit 5234797).
 
-**Nothing here guarantees views.** The rules come from 3 recent breakouts, 9 old ones, and about 20 recent non-breakouts.
+### 1. What wins on this channel (the evidence in one paragraph)
+- **The pattern [V]:** the Shorts that reached the old-era band all give a casual fan, within about 3 s, something **specific, visible and surprising**:
+  - a rule paradox on an object (#22, the #6 jersey)
+  - a record paradox on a star (#03)
+  - a number you can see (#19, Flagg's height)
+  - a viral moment with a hidden reason (Curry's Kobes)
+  - a kind act (Giannis)
+  - a legend's sad ending (Chris Paul)
+- **The low performers [V]** either:
+  - opened on something with no stakes (#20 "Ninety-two point nine.", #29 a niche player's stat)
+  - delayed the story with dense context (#13's 6-second hook, #12's contract cliff at 4-6 s)
+  - were the night's most-covered fact (LeBron's 23rd season: 5.3K, even with winner-level retention)
+  - were generic hype (the old Flagg Short: 4.9K)
+- **Retention moves with views** (Spearman +0.52 new era, +0.45 old) [V], but it is **necessary, not sufficient**.
+- **94.5% of views come from the Shorts feed** [V]. The first second is the whole game. Titles and tags barely matter for reach.
 
-### 1. Premise (decide this before anything is made)
-- **Default story type:** ONE thing a casual fan can see that "can't be right" (a jersey number, a height, a pass, a vote, a minutes total), resolved in 20-26 s.
-  - Evidence: all 3 Oct breakouts (#22 31.8K, #03 27K, #19 20.4K) and 6 of 9 old 40K+ Shorts fit. News recaps, contracts/picks and "role player as the way in" did not (#12 2.9K, #13 1.9K, #29 1.0K). **[A/B, M]**
-- **Viewer emotion:** "how is that possible?" (surprise), then "huh, that's unfair/funny".
-- **Two other routes exist and are allowed:**
-  - celebrity controversy ("Why Does No One Like Bronny", 79K)
-  - family/emotion (#23, 6.5K, best like rate)
-  - **[A, L]**
-- **Reject before scripting:**
-  - a bigger channel already told the story (CoachClank's underhand: 10M, ours 1.0K) **[A, M]**
-  - the facts need more than one measure
-  - no footage proves the key line
-  - the premise is only true with qualifiers we would hide
+### 2. Pick the format first (Hook / Context / Payoff is the default skeleton inside each)
+| Format | When | Shape | Our examples |
+|---|---|---|---|
+| **1. Paradox** (default) | a fact that "can't be right" | Hook: the paradox over the object (≤3 s) → Context: facts on ONE measure, a new one every 2-3 s → Payoff: the answer as one number or the subject's own words | #22 31.8K, #03 27.0K, #19 20.6K, #40, #41 |
+| **2. Moment + hidden reason** | a viral or visible moment fans half-saw | Hook: the moment itself on screen (a cold open of 0.5-1 s of action before the voice is allowed) → Context: what nobody noticed → Payoff: the reason | Curry Kobes 30.8K, Giannis game ball 28.3K |
+| **3. Emotional arc** | a career, a family, an ending | Hook: the feeling in one line ("Chris Paul is proof that even legends don't get the ending they deserve") → Context: 3-4 beats of escalation → Payoff: the line that lands the feeling. A slower pace (about 220 wpm) is allowed | Chris Paul 28.4K, #23 father vs son 9.4K (top like rate) |
 
-### 2. First second (line AND frame)
-- **The first sentence states the paradox in plain words,** 10 words or fewer, with a name or number in it. Examples:
-  - "Nikola Jokic's best pass ever doesn't even count."
-  - "This man is listed taller than Victor Wembanyama."
-  - **[B, M]**
-- **Frame 1 is the object itself,** big enough to read at phone size (the player or the thing). Never a card, logo, wide crowd or headless crop. **[A for "no card": Oct top-4 posts had none before 7 s; B for the rest]**
-- The voice starts by 0.4 s. There are 3+ shots in the first 3 s. No hook headline (owner rule, Oct 4). **[D]**
-- **Optional test:** a red circle on the object in frame 1 (`Tools/pointer.py`). Old era: 7/27 Shorts with one reached 40K+, vs 2/44 without (one coder). **[B, L, being tested]**
+**When to break the default** (each needs one line of reasoning in PACKAGE.md):
+- **Cold open:** the picture is the hook (a dunk, a fight, a gesture). Let 0.5-1 s of action play before the first word.
+- **Reveal-first:** the answer IS the surprise ("He's 0-for-his-career from three"). Say it first, then show why.
+- **Setup longer than 3 s:** only when a non-fan can't get the paradox otherwise. Measure time-to-question, and write it down.
+- **Chronological story:** arcs only (format 3).
+- **Never break:** accuracy, proof on screen, and no re-posts.
 
-### 3. Hook / Context / Payoff
-- **Hook (0-3 s):** the paradox, over the object.
-- **Context (3 s to about 75%):** every sentence adds a new fact **on the same measure** (heights, or assists in the book, or minutes that count), every 2-3 s. One short turn line ("It isn't." / "Still zero.").
-  - No background stretch: Duren's cliff came at 8-10 s, exactly where exposition started. **[A, M]**
-  - #29 used 6 numbers on 5 measures. **[A, L]**
-- **Payoff (last ~25%):** the answer to line 1, as ONE number or the subject's own words, then stop. The last line plays over the opening image so the Short loops. **[A/B, M]**
-- **No-filler rule:** a sentence that adds no fact, raises no stakes, answers nothing and sets up nothing gets cut. Script 90-100 words. **[C/D]**
-- **Ending rule:** no question, no CTA, no hedge ("a little, maybe": #25, 68.4% viewed). The debate question goes in the pinned comment. **[A, M]**
+### 3. The checklist (every Short, before "ready")
+1. **Premise:** a casual fan can state the question by about 3 s. Write that question. **Not** the night's most-covered fact, and **not** our own old winner retold.
+2. **Frame 1:** the object, moment or person, readable at phone size, with a scale or context reference when the story is about size. No logo, intro, card or wide crowd.
+3. **First line:** one idea, no compound sentence, no naked number. A name or object plus the twist.
+4. **Context:** every sentence adds a fact or raises stakes; one measure (format 1); escalation (format 3). No background stretch.
+5. **Payoff:** answers line 1 and fulfils the title. One number, or the subject's own words, then stop. No question, CTA or hedge.
+6. **Accuracy:** every claim has a dated source in notes.md, and qualifiers are kept ("listed", "probably", "regular season"). Confidence comes from specifics, not from overclaiming (#17's "BAN" title cost retention).
+7. **Proof on screen:** the right person on their name; the number visible; the quote with its source. No footage that merely resembles the story; no team colours under another team's name.
+8. **Footage-first:** frame 1 and a proof clip for every beat are secured **before** voicing.
+9. **Voice:** the clone (see section 6), about 250-290 wpm for formats 1-2. Every name and number heard correctly by the recogniser. No dead air over 0.6 s.
+10. **Captions:** readable, clear of faces, action and card text; no lone-word cards. **Cards:** proof only, never two in a row, none in the first 4 s (TEST).
+11. **Sound:** effects only where the picture makes the sound, or on the single reveal. The voice at -14 LUFS; true peak ≤ -1 dBTP.
+12. **Render:** inspected end to end (frame sheet + transcript of the final audio). `qa_short.py` PASS, then Critic v2 PASS (a separate agent), then the owner's listen.
+13. **Package:** the title is the premise in plain words and goes up **exactly** as written; up to 3 hashtags; about 12 tags; the debate question in the pinned comment.
 
-### 4. Pacing map (from the measured voice, not fixed timestamps)
-- **Clone voice, setting C:** 224-271 wpm measured (whisper), so 90-100 words = 21-26 s. Use `--speed 1.1` when auto 1.2 rushes short sentences (#41: 359-386 wpm at 1.2).
-- **Slower voices (premade v3, ~176-181 wpm after pause trimming):** 70-80 words for the same length.
-- Shot length follows the words: 1-2.5 s. Shot length did NOT separate winners from flops (Flagg 1.15 s average, same as the flops). **[A, M]**
-- A shot can be shorter than its clip, never longer (`assemble.py` now slows ≤1.33x or holds; QA fails replays). **[A, H: a defect]**
+### 4. Scoring rubric (prioritises the queue; a prediction to check, not a grade)
+| Factor | Weight | 1 | 3 | 5 |
+|---|---|---|---|---|
+| **Clarity in second 1** | ×3 | needs explaining | clear by about 4 s | the question lands with frame 1 + line 1 |
+| **Novelty of the angle** | ×3 | everyone posted it | known event, our own angle | most fans haven't seen it |
+| **Visual proof secured** | ×2 | no footage yet | some beats proven | frame 1 + every beat proven |
+| **Stakes / emotion** | ×2 | trivia | mild surprise | unfair, funny or moving |
+| **Audience name** | ×2 | niche player | known starter | LeBron/Bronny/Curry/Wemby/Jokic tier |
+| **Pacing fit** | ×1 | needs 30 s+ of setup | fits about 25 s | fits 15-22 s |
+| **Feasibility** | ×1 | days | hours | under 2 h |
+| **Accuracy** | gate | fails → do not build | | |
 
-### 5. Shot-to-line rule
-- Every claim with a name or number has a picture that **proves** it: the right person on their name, the number visible (footage or a rich card), the quote on screen with its source. **[C, H]**
-- **Cards:** only as proof, 25% of runtime or less, none in the first 4 s, text above the caption band (above ~45% height), readable at phone size. **[A/B, M]**
-- **Repeats:** only on purpose (e.g. "watch it again"). No accidental loops. No burned-in source captions or tickers fighting ours (crop them). **[A, H]**
+- Maximum 70. Write the score and a 48 h view guess in the Outcome Log **before** posting.
+- At 10 posts, check Spearman(score, 48 h views). If it is under 0.3, revise the weights.
 
-### 6. Captions, motion, sound, voice
-- **Captions:** house style (white Montserrat, ALL CAPS, red/green emphasis), word-timed, in the 45-62% band, never over a face or the key action. Caption style did not separate winners (#03 used clank, #19/#22 house). **[A, M]**
-- **Camera motion:** a gentle push-in (≤6%) on frame 1 and on stills only. No random zooms, no flash cuts (they washed out faces in the Oct 5 test). **[B, L]**
-- **Sound:**
-  - 2-3 effects, only where the picture makes the sound (a swish on a make) or on the single reveal line. No music by default. **[D]**
-  - Mix: the voice at -14 LUFS integrated, limiter ceiling -2 dBFS, true peak ≤ -1 dBTP (QA warns above). **[C, H]**
-- **Voice:**
-  - One take of the whole script, never time-stretched beyond 1.08x.
-  - Pause trimming only inside measured silence (`voice_fx.py`).
-  - Check every take with the speech recogniser (`voice_check.py --stt whisper`): names and numbers must be heard correctly. **[A, H: verified defects Oct 13]**
-  - Naturalness is the owner's ear (`Research Notes/Voice Lineup (Oct 13, 2026)/`).
+### 5. Editing playbook (the defaults; QA FAILs are marked)
+- **Frame 1:**
+  - Push in gently (≤6%) only if the subject is small.
+  - **Planned:** let 0.5-1 s of action open format 2.
+- **Cuts:**
+  - Cut when the picture's information is spent: typically 1-2.5 s; longer for a key replay.
+  - "3 shots in 3 s" is a guideline, not a gate.
+- **Proof first:**
+  - Each line's picture must show what the line says (the critic's top finding in 3 of 3 builds).
+  - Crop tickers, scorebugs and burned-in captions.
+- **Movement:** only to reveal a detail or follow the ball. No random zooms, no flash cuts.
+- **Captions:**
+  - House style (white Montserrat ALL CAPS, the 45-62% band).
+  - Re-crop the shot or move the band if a face sits in it.
+  - The chunker now avoids lone-word cards (Oct 14).
+- **Payoff visual:** the strongest image lands on the payoff line, never before it (a card can reveal in two steps, as #41's 350 → 0 does).
+- **Ending:** cut on the last word, plus a 0.15-0.4 s tail. Loop into frame 1 when the ending image serves the payoff. Never add a sub-0.6 s shot just to loop.
+- **Sound:** no music by default (owner rule; TEST under emotional arcs); 2-3 effects; no clipping.
+- **QA FAILs** (`qa_short.py`, Oct 14):
+  - black frames
+  - frozen footage over 0.6 s
+  - replays or holds
+  - dead air over 0.6 s
+  - voice cut off
+  - loudness ±1.5 LU off -14
+  - length outside 12-60 s
+  - missing shot kinds
+  - one clip filling 35%+
+  - fewer than 6 sources
+  - a weak hook
+  - a filler opening
+  - a late voice start (over 0.4 s)
+  - a shot too long
+- **QA warnings** (fix when they hurt the story):
+  - shots in the first 3 s, average shot, b-roll %, cards %, two cards in a row, loop, length 15-35 s
+  - early card, slow hook, naked-number opening
+  - pace, tail, CTA, tiny shots
 
-### 7. Title and cover
-- **Title:** 4-7 words, opens with Why/How/What/Did/Is, plus one emoji. It must be true to the fact sheet.
-  - #17 went up as "Did The NBA Just BAN Flopping?" although flopping has been a technical since 2023-24. Never do that.
-  - Title wording split views by less than 3K in the old era, so **the premise matters more than the title words**. **[A, M]**
-- **Cover:** frame 1 (the object). The circled frame is used only for the pointer test.
+### 6. Voice (Voice Audition Oct 14; I can't hear audio, so naturalness is the owner's ear)
+- **Keep** the clone "pham v2" (`GDS7e7WiI4GqkoRxZAFG`), eleven_multilingual_v2, speed 1.1-1.15, stability .65, similarity .7.
+  - It is the only voice measured at the house pace natively (245-268 wpm).
+  - The premade voices read at 136-184 wpm at the same setting [V].
+  - **Fallback:** the clone "Pham" (`H2ovX6h6fD6dmyrg5SkI`).
+- **Pronunciation:**
+  - Plain "Wembanyama". The respelling was heard as "Wembun Yama" in 9/9 takes [V].
+  - "Yoki-ch" for Jokic.
+  - Prefer "Giannis" over the full surname.
+  - Test every new name on a one-line take first (`voice_check.py`).
+- **Never:**
+  - stretch beyond 1.08x
+  - use the Flash model
+  - put a spoken number next to a number-like word ("fifty threes" → "353s")
+- **TEST:** a v3 voice (more pitch variety, slower) for format-3 arcs only.
 
-### 8. Pass/fail gate before "ready"
-**All must pass.** Run `qa_short.py`, `voice_check.py --stt whisper` and `voice_quality.py`, then Critic v2 as a separate agent, then the owner's listen.
-1. The premise is clear to a casual fan in second 1 (write the question they would ask).
-2. The first line is ≤10 words, specific, and creates the question.
-3. Frame 1 shows the object.
-4. Hook / Context / Payoff; one measure; every sentence earns its place.
-5. Every claim is sourced with a date in notes.md; qualifiers are kept ("listed", "regular season", "reportedly").
-6. Not a duplicate: copy check, the 39+ folders and both idea banks.
-7. Every name/number beat has proof on screen; no claimed footage that doesn't exist.
-8. Captions are readable and clear of faces, action and card text.
-9. Voice: every word is heard correctly; no rushed (>330 wpm) or cut-off lines.
-10. Sound effects only where the picture makes the sound.
-11. The payoff answers line 1 and adds something; no CTA, question or hedge.
-12. Title and cover are accurate.
-13. Runtime 21-45 s (target 21-26), 1080x1920, -14 LUFS, no frozen/black frames, no replays.
-14. The render was inspected (frame sheet plus transcript of the final audio). A human listen is still required, and the critic report must say what was not verified.
-15. The production folder, `Production Queue.md` and UPLOAD.md match the current version.
+### 7. Experiments running or proposed (one variable each; log in the Outcome Log; decide at 48 h)
+1. **Red ring in frame 1:** #40 (ring) vs #41 (plain), then 2 more pairs.
+2. **No card before 4 s:** every build follows it; compare at n≥6.
+3. **Posting rate:** 1 a day for 7 days vs the 2-a-day weeks (the owner's call) [Rules Audit D10].
+4. **A premise pill on frame 1:** 3 pairs, needs the owner's OK (it breaks the no-headline rule) [B12].
+5. **Format 2 with a 0.5-1 s cold open.**
+6. **The prediction check:** score vs 48 h views at 10 posts [D1].
 
-### 9. Anti-patterns (each has burned us)
-- Generic or insider openers ("Knicks center X made 29% of his playoff free throws").
-- A dark stat card or article screenshot in the opening.
-- Hopping between stats.
-- A debate-question or hedged ending.
-- Retelling an old winner by name (#29), or a bigger channel's story.
-- B-roll that only "resembles" the topic.
-- Accidental clip loops (22 of 27 folders had one until Oct 13).
-- Time-stretched voice.
-- Unfair voice comparisons (unmatched loudness).
-- Polishing a weak premise: the old critic's craft score ran backwards against views (rho −0.63).
-- Re-posting an identical file (#25: 177 views).
+### 8. What would change this system
+- **If formats 1-3 built to this checklist** stay under a 5K median at 48 h across 6 posts, the problem is distribution, not craft. Test the posting rate first.
+- **If high-retention Shorts** (110%+) keep getting under 3K, the feed's first test (frame 1 + topic) is the gap, not the middle of the video.
 
-### 10. What would falsify this formula
-- The next 6 formula Shorts have a median under 5K at 48 h, OR
-- contract/role-player Shorts pass 18K while formula Shorts don't, OR
-- every type of Short recovers at once. That would mean the drop came from distribution (the 215-day gap, 2 a day), not the premise.
+### 9. Per-batch loop (one pass per batch)
+1. **Read:**
+   - `channel_check.py`, and log it.
+   - vidIQ analytics if 10+ credits (per-video avg % viewed, and retention curves for winners and losers).
+   - Compare same-age posts.
+2. **Pick:** score candidates with the rubric (section 4). Lock the facts with dated sources.
+3. **Footage first:** frame 1 + a proof clip per beat. If you can't, don't script it.
+4. **Write:**
+   - Choose the format.
+   - 2-3 hooks; pick by time-to-question.
+   - Script length to fit the format.
+5. **Voice:** `voice_take.py`, then `voice_check.py`.
+6. **Edit:** anchor the shots, then `assemble.py`.
+7. **QA:** `qa_short.py`, the watch sheet, then the Critic v2 agent. Fix, re-check.
+8. **Package:** notes.md, UPLOAD.md and PACKAGE.md; the queue status; the Hub upload.
+9. **After posting:** log the time; read at 24/48 h and at 7 days. Change a rule only at n≥3 or on a large effect.
 
-Then revise sections 1-3.
+---
 
-### 11. Per-batch loop (one pass per batch, about one session)
-1. Run `python3 Tools/channel_check.py @MetaSportsClips` and log it in the Outcome Log (date, source). Add vidIQ retention if credits are 10 or more.
-2. Compare the last posts with the formula (did the Shorts that fit do better at the same age?).
-3. Refresh candidates (Idea Banks, `Tools/fresh_moments.py`, news from the last 7 days). Score them in `Production Queue.md`. Lock the facts with dated sources before scripting.
-4. Write 2-3 hooks; pick by clarity, curiosity, specificity, novelty and visual fit. Script 90-100 words; run `script_cadence.py`.
-5. Inventory footage and map every line to a shot (EDL in PACKAGE.md). Build frame 1 first.
-6. Voice with `voice_take.py` and check names and numbers. Anchor the shots, render with `assemble.py`, then make the pointer twin with `pointer.py`.
-7. QA: `qa_short.py`, `voice_check.py`, `voice_quality.py`, `watch_short.py`; open the frame sheet. Then the Critic v2 agent. Fix and re-check.
-8. Save notes.md, UPLOAD.md and PACKAGE.md. Update the queue status. Hub upload with `hub_pack.sh`.
-9. After the owner posts, log the time. **Read the numbers at 24 h and 48 h** (views plateau after about 2 days), and at 7 days for the record. Compare only posts of similar age. Change a rule only with n≥3 or a large effect.
-
+## OLDER MATERIAL (Round 2, Sep 2026) — background only; where it conflicts with CREATIVE SYSTEM v3 above, v3 wins
 
 *Built only from the AI NBA story-Shorts niche: CoachClank's full channel (all 432 Shorts; 203 with dates and likes), 7 other channels in the niche, frame-by-frame watches of 12 Shorts, and 180 top comments. Checked Sept 26, 2026.*
 

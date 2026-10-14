@@ -107,7 +107,8 @@ def chunk(words, st):
             return INF
         c = (k - ideal) ** 2 * 0.6
         if k == maxw + 1:
-            c += 2.5
+            # Oct 14: a sentence may finish on one extra word if it still fits the width ("OF HIS NBA CAREER.") instead of orphaning it
+            c += 0.8 if ends_sentence(card[-1]["word"]) and len(text) <= maxc else 2.5
         if len(text) > maxc:
             c += (len(text) - maxc) * 0.7
         c += sum(1.8 for w in card[:-1] if soft_end(w["word"]))
@@ -115,7 +116,7 @@ def chunk(words, st):
             b = bare(card[0]["word"])
             c += 6 if b in DANGLING else (0.2 if len(b) >= 7 or ends_sentence(card[0]["word"]) else 1.0)
             if ends_sentence(card[0]["word"]) and i > 0 and not (ends_sentence(words[i - 1]["word"]) or soft_end(words[i - 1]["word"])):
-                c += 1.2  # avoid a lone "list." / "too." hanging off the card before it
+                c += 2.0  # avoid a lone "list." / "career." hanging off the card before it (Oct 14: was 1.2; #40 showed "OF HIS NBA" / "CAREER.")
         dur = card[-1]["end"] - card[0]["start"]
         if dur < 0.22:
             c += 1.5

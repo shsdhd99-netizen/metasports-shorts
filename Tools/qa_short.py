@@ -16,6 +16,11 @@ Rules (from the retention research; each has burned a Short before):
          jump-back; found in 22 of 27 folders). Since then it slows small gaps (<=1.33x) and holds the last frame on big ones;
          a hold over 0.5 s fails (frozen picture). Renders made after the fix write _render.json.
   OPENING (warn only, HYPOTHESIS n=14) a card/screenshot in the first 4 s: the 4 most-viewed Oct posts had none before 7 s.
+Oct 14 2026 (Research Notes/Rules Audit): rules without support in our own data were DEMOTED from FAIL to warn: >=3 shots in the
+first 3 s, average shot <=2.6 s, talking head <=45%, b-roll >=35%, cards <=25%, last shot = first clip, and the 21 s length floor
+(old era: Shorts under 18 s had the BEST median, 32.8K, n=9). Removed: "turn word in first 40%" and "title starts with a name"
+(no effect in our data). Added: dead air over 0.6 s inside the speech = FAIL (the rule above was documented but never checked);
+slow hook (first sentence ends after 3.5 s) and naked-number opening (warn). Hard length limits are now 12-60 s (warn under 15 / over 35).
 """
 import argparse, json, os, re, subprocess, sys
 
@@ -41,6 +46,9 @@ def main():
     def chk(cond, good, msg):
         (ok if cond else bad).append(good if cond else msg)
 
+    def soft(cond, good, msg):  # Oct 14: a guideline, not a gate (Rules Audit B2-B5, B7, A8)
+        (ok if cond else warn).append(good if cond else msg)
+
     segs = []
     for i, s in enumerate(shots):
         end = shots[i + 1]["start"] if i + 1 < len(shots) else total
@@ -48,20 +56,21 @@ def main():
     kinds = {k: sum(d for s, _, _, d in segs if s.get("kind") == k) for k in ("face", "quote", "action", "card")}
     missing = [s["clip"] for s in shots if "kind" not in s]
     chk(not missing, "every shot has a kind", f"shots missing 'kind': {missing[:3]}")
-    chk(21 <= total <= 45, f"length {total:.1f}s", f"length {total:.1f}s (want 21-45; Clank 21 s+ stories beat <=20 s, 848K vs 291K)")
+    chk(12 <= total <= 60, f"length {total:.1f}s", f"length {total:.1f}s (outside 12-60 s)")
+    soft(15 <= total <= 35, f"length {total:.1f}s in 15-35", f"length {total:.1f}s (length follows the story; our old era had no length effect, 10-33 s)")
     first = words[0]
     chk(first["start"] <= 0.4, "voice starts at once", f"first word at {first['start']}s (want <=0.4)")
     fw = re.sub(r"[^a-z']", "", first["word"].lower())
     chk(fw not in FILLER, f"opens on '{first['word']}'", f"opens on filler word '{first['word']}' (start on the name/number/stakes)")
     in3 = [s for s, st, e, d in segs if st < 3.0]
-    chk(len(in3) >= 3, f"{len(in3)} shots in first 3 s", f"only {len(in3)} shots in first 3 s (want >=3)")
+    soft(len(in3) >= 3, f"{len(in3)} shots in first 3 s", f"only {len(in3)} shots in first 3 s (guideline 3; shot length did not separate winners)")
     chk(any(s.get("kind") == "action" for s in in3), "real action footage in first 3 s", "no 'action' footage in the first 3 s (a talking head or card hook gets swiped)")
     hook = " ".join(w["word"] for w in words if w["start"] < 3.0)
     chk(bool(re.search(r"\d|[A-Z][a-z]+ [A-Z]|million|billion|percent|first|never|only|banned|illegal|rule|\b(one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen|twenty|thirty|forty|fifty|sixty|seventy|eighty|ninety|hundred)\b", hook, re.I)) , "hook line has a name/number/stakes", f"hook line weak: '{hook}'")
     long_ = [(s["clip"], round(d, 1)) for s, _, _, d in segs if d > (4.5 if s.get("kind") == "quote" else 3.6)]
     chk(not long_, "no shot too long", f"shots too long: {long_}")
     avg = total / len(segs)
-    chk(avg <= 2.6, f"average shot {avg:.1f}s", f"average shot {avg:.1f}s (want <=2.6)")
+    soft(avg <= 2.6, f"average shot {avg:.1f}s", f"average shot {avg:.1f}s (guideline <=2.6)")
     by = {}
     for s, _, _, d in segs:
         by[s["clip"]] = by.get(s["clip"], 0) + d
@@ -69,12 +78,16 @@ def main():
     chk(top[1] / total <= 0.35, f"most-used clip {top[0]} {top[1]/total:.0%}", f"{top[0]} fills {top[1]/total:.0%} of the video (want <=35%): add more footage")
     chk(len(by) >= 6, f"{len(by)} source clips", f"only {len(by)} source clips (want >=6)")
     face = (kinds["face"] + kinds["quote"]) / total
-    chk(face <= 0.45, f"talking head {face:.0%}", f"talking head {face:.0%} of runtime (want <=45%): add story b-roll")
-    chk(kinds["action"] / total >= 0.35, f"b-roll {kinds['action']/total:.0%}", f"b-roll only {kinds['action']/total:.0%} (want >=35%)")
-    chk(kinds["card"] / total <= 0.25, f"cards {kinds['card']/total:.0%}", f"cards {kinds['card']/total:.0%} (want <=25%)")
+    soft(face <= 0.45, f"talking head {face:.0%}", f"talking head {face:.0%} of runtime (guideline <=45%): is every claim proven on screen?")
+    soft(kinds["action"] / total >= 0.35, f"b-roll {kinds['action']/total:.0%}", f"b-roll {kinds['action']/total:.0%} (guideline >=35%)")
+    soft(kinds["card"] / total <= 0.25, f"cards {kinds['card']/total:.0%}", f"cards {kinds['card']/total:.0%} (guideline <=25%)")
+    two_cards = [i for i in range(1, len(shots)) if shots[i].get("kind") == "card" and shots[i - 1].get("kind") == "card"]
+    soft(not two_cards, "no two cards in a row", f"two cards in a row at shots {two_cards} (the critic flags back-to-back reading)")
     dup = [i for i in range(1, len(shots)) if shots[i]["clip"] == shots[i - 1]["clip"] and shots[i].get("in") == shots[i - 1].get("in")]
     chk(not dup, "no repeated neighbours", f"identical neighbouring shots at {dup}")
-    chk(shots[-1]["clip"] == shots[0]["clip"], "loops to the first shot", "last shot should reuse the first clip so it loops")
+    soft(shots[-1]["clip"] == shots[0]["clip"], "loops to the first shot", "last shot is not the first clip (fine if the ending image serves the payoff; never add a sub-0.6 s shot just to loop)")
+    gaps = [(round(words[i]["end"], 2), round(words[i + 1]["start"] - words[i]["end"], 2)) for i in range(len(words) - 1) if words[i + 1]["start"] - words[i]["end"] > 0.6]
+    chk(not gaps, "no dead air inside the speech", f"dead air over 0.6 s inside the speech at (s, gap): {gaps}")
     r = subprocess.run(["ffmpeg", "-nostats", "-i", fin, "-af", "ebur128=peak=true", "-f", "null", "-"], capture_output=True, text=True).stderr
     m = re.findall(r"I:\s+(-?[\d.]+) LUFS", r)
     if m:
@@ -123,7 +136,7 @@ def main():
     if tail < 0.1:
         bad.append(f"voice is cut off: last word ends {tail:.2f}s before the end (add 0.3 s tail: ffmpeg -af apad=pad_dur=0.3)")
     first8 = " ".join(w["word"] for w in words[:8]).lower()
-    if not re.search(r"\d|\b(one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|twenty|thirty|forty|fifty|hundred)\b|\b(but|never|banned|caught|first|only|wrong|illegal|fine|fined|suspended|record|why|how|what|did|is|will)\b", first8):
+    if not re.search(r"\d|\b(one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|twenty|thirty|forty|fifty|hundred)\b|\b(but|never|banned|caught|first|only|wrong|illegal|fine|fined|suspended|record|why|how|what|did|is|will|doesn't|isn't|not|no|taller|zero|count|counts)\b", first8):
         warn.append(f"hook has no number or conflict/question word in the first 8 words: '{first8}' (state the question the viewer needs answered by 1.5 s)")
     tiny = [round(d, 2) for s, _, _, d in segs if d < 0.6]
     if tiny:
@@ -141,15 +154,17 @@ def main():
     last6 = " ".join(w["word"].lower() for w in words[-6:])
     if re.search(r"subscribe|follow|like|comment|thanks for watching|let me know", last6):
         warn.append("CTA in the last 6 words: end on the payoff instead")
-    n = len(words)
-    turn = [i for i, w in enumerate(words) if re.sub(r"[^a-z]", "", w["word"].lower()) in ("but", "however", "until", "except", "instead", "now")]
-    if not turn or turn[0] > 0.4 * n:
-        warn.append("no turn word (But/However/Until/Now) in the first 40% of the script")
-    up = os.path.join(F, "UPLOAD.md")
-    if os.path.exists(up):
-        m = re.search(r"\*\*(.+?)\*\*", open(up, encoding="utf-8").read().split("## Title")[-1])
-        if m and re.match(r"^[A-Z][a-z]+ [A-Z]", m.group(1)):
-            warn.append(f"title starts with a name ('{m.group(1)[:30]}'): Clank's name-first titles got half the views (n=20), test action-first")
+    # Oct 14: the hook must be understood fast (Posted Video Audit: #13's 6.1 s hook and #20's "Ninety-two point nine." flopped)
+    end1 = next((w["end"] for w in words if w["word"].rstrip("\"')")[-1:] in ".?!"), None)
+    if end1 and end1 > 3.5:
+        warn.append(f"slow hook: the first sentence ends at {end1:.1f} s (aim for the question to be clear by about 3 s; one fact, no compound sentence)")
+    s1 = []
+    for w in words:
+        s1.append(w["word"])
+        if w["word"].rstrip("\"')")[-1:] in ".?!":
+            break
+    if len(s1) <= 4 and re.match(r"^(\d|one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|twenty|thirty|forty|fifty|sixty|seventy|eighty|ninety|hundred)", s1[0].lower()):
+        warn.append(f"naked-number opening: '{' '.join(s1)}' (a number with no subject means nothing at second 1; #20 got 1.6K)")
     print("PASS" if not bad else "FAIL")
     for x in warn:
         print("  warn", x)
