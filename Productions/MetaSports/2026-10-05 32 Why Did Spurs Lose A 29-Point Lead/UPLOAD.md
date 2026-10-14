@@ -1,3 +1,5 @@
+> **DO NOT POST (Oct 13, 2026, late).** The independent Critic v2 review rejected this Short: abandon, don't fix (`Research Notes/Critic v2 Review (Oct 13, 2026).md`). Reasons: a 7.1M-view Short already told it; it hops across six stats; "The Spurs led the NBA Finals by twenty-nine" is wrong (it was Game 4); the opening has no paradox. `_editB/` stays as the record of the edit A/B: B's first 4 s beat A's, but neither version should go up.
+
 # #32 Why Did The Spurs Lose A 29-Point Lead
 
 Video: READY TO POST - Why Did The Spurs Lose A 29-Point Lead.mp4 (24.0 s, ends on the payoff). Not uploaded.

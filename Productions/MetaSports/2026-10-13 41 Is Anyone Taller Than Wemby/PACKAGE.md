@@ -1,6 +1,6 @@
 # #41 production package (v2, Oct 13, 2026 late: rewritten after Critic v2)
 
-**Status: ready** once the owner has listened once, and after a status re-check on posting day. Automated QA PASS. All the Critic v2 required edits are applied (table below); a second, independent critic pass checked them (see the end of this file).
+**Status: ready** once the owner has listened once, and after a status re-check on posting day. Automated QA PASS. All the Critic v2 required edits are applied (table below); a second, independent critic re-checked v2 (`Research Notes/Critic v2 Review (Oct 13, 2026).md`, "Re-check of v2"): NEEDS REVISION for one shot (Raptors red under the Clippers line), fixed Oct 14 exactly as prescribed, QA PASS.
 **Premise:** he is listed taller than Wembanyama, yet he has never played an NBA game that counts. Why? The knock is offense: last season Wembanyama took 350 threes; Sharp, in the G League, took 0.
 **Viewer question in second 1:** "How has a man taller than Wemby never played?"
 **v1 (pre-critic) files:** `_v1_precritic/` (script, shots, sfx, final, pointer twin, docs).
@@ -10,7 +10,7 @@
 |---|---|
 | Frame 1 showed him from the side reaching up to a raised rail, reading as average height | Frame 1 is now Sharp full length next to an adult security guard (same 2025 Summer League tunnel video, 4.2-6.0 s). The best honest height reference in the footage; a pill graphic was not used (the owner's no-headline rule) |
 | The ending restated "still zero" and "And it's not his defense" opened a "why" that was never answered | The why is answered with a sourced reason and one number: "The knock on him is offense. Three-point tries last season: Wembanyama, three hundred and fifty. Sharp, in the G League: zero." The Short ends on "zero" |
-| "Clippers" image was a doctored Texas Legends jersey | Removed. The Clippers line now plays over his July Summer League game (the run that earned the deal) and our own tally card |
+| "Clippers" image was a doctored Texas Legends jersey | Removed. The Clippers line now plays over a team-neutral tunnel clip (H3) and our own tally card. A first v2 cut put Raptors footage here; the re-check flagged it, and it was fixed Oct 14 |
 | Caption sat on Wemby's chin and mic | Wemby is re-cropped so his face is in the top 40% and the caption sits below his chin |
 | Cropped source scorebugs | The Raptors game clips are re-cropped without the scorebug |
 | 224 wpm, a 9 s Dallas drag, 26.4 s | The Dallas beats are merged ("Dallas brought him to camp twice. Cut him twice."). Now 23.1 s at 235 wpm |
@@ -35,22 +35,21 @@ This man is listed taller than Victor Wembanyama. And he's never played an NBA g
 | 4 | 4.38-5.51 | R_back2.mp4 (action) | 0.0 | Jamarion Sharp. Listed | '33 SHARP' on his back as the name is said (runs to 'Listed') |
 | 5 | 5.51-6.32 | c_listed.png (card) | - | seven-foot-five. | Proof of the paradox on 'seven-foot-five': listed 7-5 (Basketball-Reference) vs 7-4 (Fox Sports), 'listed, not measured' |
 | 6 | 6.32-7.69 | p_dal.png (face) | - | Dallas brought him to camp twice. | Sharp in a Dallas #33 uniform (photo: Kevin Jairaj-Imagn via HoopsHype) |
-| 7 | 7.69-8.41 | H3.mp4 (action) | 0.0 | Cut him twice. | Same Dallas era (2025 Summer League tunnel, Mavs gear): alone |
-| 8 | 8.41-9.76 | R_dunk2.mp4 (action) | 0.0 | The Clippers signed him this summer. | Sharp's July 2026 Summer League run for Toronto, the run that earned the Clippers two-way deal (HoopsRumors, Sep 25). Scorebug cropped off |
-| 9 | 9.76-10.68 | c_tally3.png (card) | - | Cut him in September. | Our own tally card on 'Cut him in September': 2024 Dallas 0, 2025 Dallas 0, 2026 Clippers 0, total 0 (replaces the doctored jersey image; critic v2 edit 3) |
-| 10 | 10.68-12.48 | p_dunk.png (face) | - | On Monday, Toronto gave him one more camp. | Sharp in Raptors red (July 2026 Summer League photo) on 'Toronto gave him one more camp' |
-| 11 | 12.48-13.58 | H2.mp4 (action) | 0.0 | And it's not his defense. | His reach: arm up to the top rail |
-| 12 | 13.58-14.85 | H1.mp4 (action) | 1.4 | He led the G League in blocks and | His reach: up to the fans' rail (2025 Summer League tunnel) on 'He led the G League in blocks' |
-| 13 | 14.85-16.19 | c_dpoy.png (card) | - | won Defensive Player of the Year. | Proof on 'won Defensive Player of the Year': NBA G League DPOY graphic (NBAPR, Apr 2 2026) |
-| 14 | 16.19-17.43 | p_dal25.png (face) | - | The knock on him is offense. | Sharp shooting at Mavericks Summer League practice (Jul 2025): the offense question |
-| 15 | 17.43-20.33 | W2b.mp4 (face) | 0.0 | Three-point tries last season: Wembanyama, three hundred and | Wembanyama, the comparison, on 'Three-point tries last season: Wembanyama, three hundred and' |
-| 16 | 20.33-22.47 | c_3pa.mp4 (card) | - | fifty. Sharp, in the G League: zero. | The answer as one number: 350 lands on 'fifty' (Wembanyama, B-Ref), then Sharp's 0 pops in just before 'zero' (G League stats, LatinBasket) |
-| 17 | 22.47-23.07 | H0.mp4 (action) | 0.0 |  | Back to the opening picture after 'zero.' so the Short loops into 'This man is listed taller...' |
+| 7 | 7.69-9.76 | H3.mp4 (action) | 0.0 | Cut him twice. The Clippers signed him this summer. | Team-neutral 2025 Summer League tunnel clip, alone, under 'Cut him twice. The Clippers signed him this summer.' (critic re-check: no Raptors red under the Clippers line) |
+| 8 | 9.76-10.68 | c_tally3.png (card) | - | Cut him in September. | Our own tally card on 'Cut him in September': 2024 Dallas 0, 2025 Dallas 0, 2026 Clippers 0, total 0 (replaces the doctored jersey image; critic v2 edit 3) |
+| 9 | 10.68-12.48 | p_dunk.png (face) | - | On Monday, Toronto gave him one more camp. | Sharp in Raptors red (July 2026 Summer League photo) on 'Toronto gave him one more camp' |
+| 10 | 12.48-13.58 | H2.mp4 (action) | 0.0 | And it's not his defense. | His reach: arm up to the top rail |
+| 11 | 13.58-14.85 | H1.mp4 (action) | 1.4 | He led the G League in blocks and | His reach: up to the fans' rail (2025 Summer League tunnel) on 'He led the G League in blocks' |
+| 12 | 14.85-16.19 | c_dpoy.png (card) | - | won Defensive Player of the Year. | Proof on 'won Defensive Player of the Year': NBA G League DPOY graphic (NBAPR, Apr 2 2026) |
+| 13 | 16.19-17.43 | p_dal25.png (face) | - | The knock on him is offense. | Sharp shooting at Mavericks Summer League practice (Jul 2025): the offense question |
+| 14 | 17.43-20.33 | W2b.mp4 (face) | 0.0 | Three-point tries last season: Wembanyama, three hundred and | Wembanyama, the comparison, on 'Three-point tries last season: Wembanyama, three hundred and' |
+| 15 | 20.33-22.47 | c_3pa.mp4 (card) | - | fifty. Sharp, in the G League: zero. | The answer as one number: 350 lands on 'fifty' (Wembanyama, B-Ref), then Sharp's 0 pops in just before 'zero' (G League stats, LatinBasket) |
+| 16 | 22.47-23.03 | H0.mp4 (action) | 0.0 |  | Back to the opening picture after 'zero.' so the Short loops into 'This man is listed taller...' |
 
 - **New clips:**
   - `H0.mp4`: tunnel 4.15-6.05 s, with the guard.
   - `W1b.mp4` and `W2b.mp4`: Spurs media day 20.0-21.6 s and 23.0-25.4 s, crop 540x960 at y 120.
-  - `R_close2`, `R_back2` and `R_dunk2`: the old clips with the bottom 160 px (scorebug) cropped off.
+  - `R_close2` and `R_back2`: the old clips with the bottom 160 px (scorebug) cropped off.
   - `c_3pa.png` and `c_3pa.mp4`: our card. 350 shows first, then the 0 pops in at 1.45 s.
 - **Cards:** 23% of runtime, none before 5.5 s, never two in a row.
 - **Game footage (b-roll):** 41%.
@@ -63,7 +62,7 @@ This man is listed taller than Victor Wembanyama. And he's never played an NBA g
 | 21.78 | boom | -16 dB | Sharp's 0 appears ("zero") |
 
 ## 5. QA (Oct 13 late)
-- `qa_short.py`: **PASS** (`_audit/qa.txt`). Values: 23.1 s, cards 23%, b-roll 41%, loops to the first shot, no frozen footage, no black frames, no holds.
+- `qa_short.py`: **PASS** (`_audit/qa.txt`). Values: 23.0 s, cards 23%, b-roll 41%, loops to the first shot, no frozen footage, no black frames, no holds.
 - Warnings:
   - Pace 235 wpm.
   - Loop tail 0.62 s.

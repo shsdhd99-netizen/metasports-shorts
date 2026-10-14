@@ -4,7 +4,7 @@
  "loop_fix": true,
  "fits": [
   {
-   "shot": 15,
+   "shot": 14,
    "clip": "W2b.mp4",
    "fit": "slowed",
    "factor": 1.208

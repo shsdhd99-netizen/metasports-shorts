@@ -69,3 +69,10 @@ question vs number hook; hook headline vs none; music vs none; ALL CAPS vs Clank
 - The pre-publication critic score predicted views BACKWARDS (rho -0.63, n=14). Judge the premise in second 1 before polish (Tools/critic_v2.md). (SUPPORTED, small n)
 - Retelling a story a bigger channel owns (underhand: CoachClank 10M) failed again at 1.0K, exactly as the Sep Playbook rule said. Check rules before building, not after.
 - HOLD decisions can be too cautious: #23 (held for the Oct 21 cut) was posted anyway and got the best like rate (3.38%). (n=1)
+
+## Oct 14, 2026 (critic passes on #40 and #41)
+- [V, n=2] The independent critic found defects that QA can't measure: words over the wrong picture (#40's "No look" over the catch), a doctored image (#41's pasted Clippers logo), a quote voiced as fact without its hedge ("probably"), and a team's colours under another team's name. **Rule:** every build gets Critic v2 on the export before "ready".
+- [V] Say a number next to a word that sounds like one, and it's misheard: "three hundred and fifty threes" was heard as "353s" twice. **Rule:** never put a spoken number directly before "threes", "fours" or "twos"; reword ("Three-point tries: three hundred and fifty").
+- [V] When sources disagree on a stat (Sharp's FT%: 39.3 / 41.5 / 42.9%), don't voice it; use the fact every source agrees on (0 G League threes).
+- [S] A one-number answer card that reveals in two steps (350 first, then 0 on "zero") keeps the payoff from showing before the line. Retention effect unknown (HYPOTHESIS).
+- [V] YouTube downloads are bot-blocked from the cloud; X posts still work. Plan footage from X/NBA posts.

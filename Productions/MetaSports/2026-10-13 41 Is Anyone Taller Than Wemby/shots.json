@@ -51,16 +51,8 @@
   "anchor": "Cut him twice",
   "kind": "action",
   "in": 0.0,
-  "why": "Same Dallas era (2025 Summer League tunnel, Mavs gear): alone",
+  "why": "Team-neutral 2025 Summer League tunnel clip, alone, under 'Cut him twice. The Clippers signed him this summer.' (critic re-check: no Raptors red under the Clippers line)",
   "start": 7.69
- },
- {
-  "clip": "R_dunk2.mp4",
-  "anchor": "The Clippers signed",
-  "kind": "action",
-  "in": 0.0,
-  "why": "Sharp's July 2026 Summer League run for Toronto, the run that earned the Clippers two-way deal (HoopsRumors, Sep 25). Scorebug cropped off",
-  "start": 8.41
  },
  {
   "clip": "c_tally3.png",

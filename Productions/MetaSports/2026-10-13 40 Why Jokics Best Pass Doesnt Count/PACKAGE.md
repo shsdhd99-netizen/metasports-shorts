@@ -1,6 +1,6 @@
 # #40 production package (v2, Oct 13, 2026 late: re-cut after Critic v2)
 
-**Status: ready** once the owner has listened once on a phone speaker. Automated QA PASS (plain and pointer). All the Critic v2 required edits are applied (list below); a second, independent critic pass checked them (see the end of this file).
+**Status: ready** once the owner has listened once on a phone speaker. Automated QA PASS (plain and pointer). All the Critic v2 required edits are applied (list below); a second, independent critic re-checked v2: **PASS** (`Research Notes/Critic v2 Review (Oct 13, 2026).md`, "Re-check of v2"). It logs the pointer twin as "ring, no pill".
 **Premise:** Jokic said this pass was probably the best of his NBA career, but it came in a preseason game, so it isn't one of his 6,080 official assists.
 **Viewer question in second 1:** "Why doesn't this pass count?"
 **v1 (pre-critic) files:** `_v1_precritic/` (script, shots, sfx, final, pointer twin, docs).

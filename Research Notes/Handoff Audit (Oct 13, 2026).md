@@ -51,4 +51,15 @@ All four items were imported in the owner's Oct 3 upload; none is from Oct 6-13.
 3. **The voice comparison was unfair.** Loudness differed by 5-14 dB and the scripts differed. **Fixed:** a blind, loudness-matched lineup on one script.
 4. **The pre-publication critic ranking failed.** Craft score vs views: Spearman −0.63 (n=14). It ranked #19 last and #29 2nd (Winning Formula v2, section g). The posting order must no longer follow it. The critic now judges premise first (see Playbook).
 5. **The QA hook check missed spelled-out numbers** ("twenty-nine" read as "no number"). **Fixed.**
-6. **#32 opening card** at 1.5-2.4 s: a grey article screenshot with its headline cut off and an empty red highlight box. A variant B without it was built (`_editB`, QA PASS).
+6. **#32 opening card** at 1.5-2.4 s: a grey article screenshot with its headline cut off and an empty red highlight box. A variant B without it was built (`_editB`, QA PASS). **Update, Oct 13 late:** the independent Critic v2 judged B better in the first 4 s, but **rejected #32 itself** (abandon): it retells a 7.1M-view Short, hops across six stats, and states "led the NBA Finals by 29" when it was Game 4. #32 is now do-not-post.
+
+## Session ledger, Oct 13 late to Oct 14 early (after the usage-limit pause)
+| Item | What changed | Evidence |
+|---|---|---|
+| Critic v2 (independent agent) | Reviewed #40, #41 and #32 A/B. #40 NEEDS REVISION; #41 REJECT as cut (rewrite); #32 REJECT (abandon) | `Research Notes/Critic v2 Review (Oct 13, 2026).md` [V] |
+| #40 v2 | Hook attributed ("A week later, Jokic said it was probably the best pass of his NBA career"); pass shown under "No look"; BUFFALOES under "college gym"; the quote card removed; ends "...six thousand and eighty. Not eighty-one."; ring moved onto the ball | QA PASS 21.3 s; re-check **PASS** [V] |
+| #41 v2 | Frame 1 with a height reference (security guard); the doctored Clippers image removed; the Wemby caption moved off his chin; scorebugs cropped; Dallas beats merged; ends on the answer (Wemby 350 threes vs Sharp 0 in the G League) | QA PASS 23.0 s; the re-check asked for one shot change (Raptors red under "Clippers"), applied Oct 14 [V] |
+| Tools | `pointer.py --color` (red, yellow or white) | commit 9a0f7ac [V] |
+| Hub | s40 (ring version = POST THIS) and s41 added; s32 marked DO NOT POST; s26/s37 moved into #32's slots | Hub DB batch, Oct 14 [V] |
+| Daily stats routine | Ran at 23:09 UTC; 516 subs; last-7 median 3,350 (DOWN); #23 still climbing (7.4K) | `Research Notes/Outcome Log.md` [V] |
+| ElevenLabs | 10,349 of 52,087 characters used this cycle (lineup + #40/#41 builds and re-voices) | `voiceover.py --check` [V] |

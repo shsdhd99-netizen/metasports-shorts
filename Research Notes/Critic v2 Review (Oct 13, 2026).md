@@ -117,3 +117,62 @@ Independent critic (built none of these). Rubric: `Tools/critic_v2.md`. **Checke
 - Jokic: Denver Post (Oct 12); StatMuse (https://www.statmuse.com/nba/ask/how-many-assists-does-nikola-jokic-have-in-his-career); CBS/Rotowire and SB Nation (Oct 5).
 - Heights: B-Ref (Sharp; Wembanyama https://www.basketball-reference.com/players/w/wembavi01.html); NBA.com and Fox (Wemby 7'4"); SI (Oct 8 2025).
 - Sharp: HoopsRumors and TSN (Oct 12); theScore, NY Post, AOL (Aug 2026).
+
+---
+
+## Re-check of v2 (Oct 13, late; second independent critic)
+
+A second critic; I built neither Short. **Checked:** both exports (watch sheets, 10-30 fps frames), the pointer twin, `_audit` QA and voice_check, silence, `copy_check.py` (both FRESH), and the new facts online. **I can't hear audio**, so I judged the voice from transcripts and voice_check only.
+
+| Short | Verdict | 3-pt formula (2nd-1 / measure / answer) | Gut rank |
+|---|---|---|---|
+| #40 Jokic pass (21.3 s) | **PASS** | 3 (1/1/1) | 1 |
+| #41 Taller than Wemby (23.1 s) | **NEEDS REVISION** (one shot) | 3 (1/1/1), weak on measure | 2 |
+
+### #40
+- **Edit 1, hook: fixed** (0-4.7 s). It matches the Denver Post (Oct 12): "Probably was the best pass I ever passed in my NBA career," said Sunday night, a week after the pass.
+- **Edit 2, shots: fixed.**
+  - The ball leaves his hand at about 1.65 s; the cut is at 1.93 s.
+  - "No look. Behind the back." sits on the slowed release (4.8-5.9 s).
+  - The make is shown from one angle (6.83-8.23 s).
+- **Edit 3, captions: fixed** (0-1.24 s).
+- **Edit 4, recommended: done.** BUFFALOES is readable at 13.9 s, the quote card is gone, and there's no card before 8.2 s.
+- **Gate A:** all pass.
+- **Gate B:** none. QA PASS, no gaps inside the speech, end tail 0.58 s.
+- **Gate C:** the swipe risk is the StatMuse card (8.2-10.8 s), where the "why" is still held back. The payoff is modest but clean.
+- **Optional:** 2.7-4.7 s is a far wide shot where the pass is tiny.
+- **Listen:** 11.6-12.9 s and 18.8-20.6 s. The small recogniser heard "6,0801" and dropped "Not", a 0.17 s word at 19.83 s. voice_check heard both right.
+
+### #41
+- **Edit 1, frame 1: partly fixed** (0-1.19 s). He's full length, and a guard walks in beside him by 0.6 s. But his back is to the camera and his head is bowed under the rail, so Gate A2 is a weak pass.
+- **Edit 2, the "why": fixed.** It ends on "Sharp, in the G League: zero", and the 0 pops in on the word (21.8 s).
+- **Edit 3, doctored image: removed**, but the replacement shot has a problem (see the new defect below).
+- **Edit 4, caption: fixed.** It sits below Wemby's chin.
+- **Edit 5, length: fixed.** 23.1 s.
+- **Edit 6, status: re-checked Oct 14.** He's still on the Raptors Exhibit 10 deal (RealGM, Oct 13). Post by about Oct 18.
+- **New facts: confirmed.**
+  - Wembanyama: 350 three-point attempts, 2025-26 regular season (B-Ref).
+  - Raptors HQ (Jul 4 2026): "zero attempts in the G League"; undrafted "due to his offensive limitations".
+  - He led the G League with 3.9 blocks per game (Hoops Rumors, Sep 25).
+- **NEW defect (wrong team on a spoken name), 8.41-9.76 s:**
+  - "The Clippers signed him this summer" plays over Sharp in **Raptors red** (R_dunk2). Viewers saw "RAPTORS 33" at 2.4-5.5 s.
+  - **Fix:** drop R_dunk2 and run H3 from 7.69 to 9.76 s. H3 is team-neutral and 2.2 s long.
+  - **Or:** use the ClippersPR post here and swap c_tally3 for footage, so cards stay at 25% or less and never touch.
+- **Gate A:** all pass. "One measure" is weak: from 12.5 s it shifts to skills (blocks, then threes). It answers the opening question, so it passes.
+- **Gate C:** I'd swipe around 8.5-10.7 s, the run of transactions. "And it's not his defense" (12.5 s) pulls me back, and 350 vs 0 is a clear payoff.
+- **Optional:** bring the 350 card in on "three" (19.79 s) to trim the 2.9 s slowed hold on Wemby, and label it "regular season". Expect "Gobert shoots zero threes too" comments.
+- **Listen:** "Wembanyama" (1.2-2.3 s; 18.8-19.75 s, stretched to 0.93 s) and "Jamarion" (4.4 s).
+
+### Pointer twin (#40)
+It's usable. The ring holds the ball at 0.2-0.5 s and 1.3-1.4 s, and it ends at 1.5 s, about 0.15 s before the release. It's static, so at 1.0-1.1 s it sits on Markkanen's head. Count it as the ring half of experiment 1, and log it as "ring, no pill".
+
+### Housekeeping
+Both PACKAGE.md files cite a second check "at the end of this file"; it is this section. Hold #41's "ready" status until the 8.41 s fix.
+
+### Applied after the re-check (Oct 14, main session)
+- **#41:** the prescribed fix is done. R_dunk2 is dropped, and H3 (the team-neutral tunnel clip) runs 7.69-9.76 s. Re-rendered 23.0 s. `qa_short.py` PASS: cards 23%, b-roll 41%, no holds. Frames at 7.5-9.9 s were checked: no Raptors red under "The Clippers". The critic did not re-review the fix; it is the exact change this section asked for. Status: **ready** (owner listen + status re-check on posting day).
+- **#40:** no change needed (PASS).
+- **Optional items not taken:**
+  - Bringing the 350 card in at "three" would push cards to about 25%, the QA limit.
+  - "2025-26 season" already matches the source, so the card keeps that label.
+  - #40's far wide shot at 2.7-4.7 s stays, because it keeps 3 cuts inside 3 s.

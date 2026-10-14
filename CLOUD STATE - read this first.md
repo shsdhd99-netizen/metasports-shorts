@@ -79,9 +79,42 @@ Research Notes/Round 9 - Competitor Shorts Watched (Oct 5, 2026).md. Findings (n
   - `qa_short.py` fails replays and frozen holds, warns on cards in the first 4 s, and counts spelled-out numbers.
   - New `pointer.py` draws a red circle/arrow for opening A/B tests.
 - **Voice:** a blind, loudness-matched lineup on one script is live: https://claude.ai/artifact/Y9P8QRytak2ikDRfMDqdj2 (files in `Research Notes/Voice Lineup (Oct 13, 2026)/`). The OWNER must pick a slot number. Do not bulk re-record before that. The Oct 5 samples were unfair (5-14 dB apart) and the two "tight" ones had damaged numbers.
-- **Edit A/B:** #32 `_editB/` drops the article card at 1.5 s (QA PASS).
+- **Edit A/B:** #32 `_editB/` drops the article card at 1.5 s (QA PASS). **Later verdict: #32 rejected by Critic v2, do not post** (see the Oct 14 section).
   - Re-rendered with the fixed assembler: #21, #26, #27, #28, #30, #37, #38 (old exports in `_pre_oct13/`).
   - #33 is blocked: a corrupt clip plus an 11x replay; it needs new footage.
 - **Batch 4:** `Research Notes/Batch 4 Concepts (Oct 13, 2026).md` has 4 researched concepts: Jokic pass, Wilt 48.5 minutes, Jordan No. 12, Sharp listed taller than Wemby. Being built: **#40 Jokic** and **#41 Sharp** (folders `2026-10-13 40 ...` and `2026-10-13 41 ...`), each with a plain and a red-circle opening. Each one passes or fails on Critic v2.
 - **Posting order:** `Production Queue.md` (canonical).
 - **Credits:** vidIQ 145/150 (renews Nov 5). ElevenLabs about 1.6K characters spent today on the lineup, plus the builders' takes.
+
+## Oct 14 (00:20 UTC): both critic passes done, #40 and #41 rebuilt and ready (resumed after the usage-limit pause)
+- **Critic v2 (independent agent)** reviewed the exports: `Research Notes/Critic v2 Review (Oct 13, 2026).md`.
+  - #40: NEEDS REVISION.
+  - #41: REJECT as cut, rewrite.
+  - #32: REJECT, abandon. It is a retell of a 7.1M Short; "led the NBA Finals by 29" is wrong (it was Game 4). Do not post either A or B.
+- **#40 v2 (ready):** the hook is attributed, matching the Denver Post quote ("probably", "NBA career"). Also:
+  - the pass now plays under "No look"
+  - BUFFALOES shows under "college gym"
+  - it ends "six thousand and eighty. Not eighty-one."
+  - the red ring is on the ball, 0-1.5 s
+  - Second critic re-check: **PASS**. 21.3 s, QA PASS. Post the **ring** version on Wed Oct 14 (pointer test pair 1); log it as "ring, no pill".
+- **#41 v2 (ready):** frame 1 shows Sharp beside a security guard (height reference). Also:
+  - the doctored Clippers image is gone
+  - the Wemby caption is off his chin
+  - the scorebugs are cropped
+  - it ends on the answer: "Three-point tries last season: Wembanyama, three hundred and fifty. Sharp, in the G League: zero."
+  - The re-check's one fix (Raptors red under "Clippers") was applied Oct 14. 23.0 s, QA PASS.
+  - Post the plain version Thu Oct 15. Re-check his status first; don't post if he plays a regular-season minute.
+- **Rejected facts (kept out on purpose):**
+  - Sharp's free-throw % (sources disagree: 39-43%).
+  - The Hack-a-Sharp game (he made 5 of 8).
+- **YouTube downloads are bot-blocked** in the cloud ("sign in to confirm"). X posts still download with yt-dlp.
+- **Hub:**
+  - s40 and s41 added with videos and covers.
+  - s32 set to DO NOT POST.
+  - #26 and #37 moved up into its slots.
+- **Queue:** `Production Queue.md` updated (ranked; the calendar runs to Mon Oct 19). Only #40 and #41 have passed Critic v2. Next session: run Critic v2 on #39, #30 and #21 before their dates.
+- **Credits:** ElevenLabs 10,349 of 52,087 characters used this cycle. vidIQ 145/150.
+- **Owner decisions still open:**
+  - The voice slot (lineup link in the queue).
+  - OK or swap for the #36 clip.
+  - Listen once to #40 and #41.

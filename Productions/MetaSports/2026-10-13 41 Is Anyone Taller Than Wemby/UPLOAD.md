@@ -1,7 +1,7 @@
 # #41 Is Anyone Taller Than Wemby (Oct 13, 2026)
 
 **Video:** `READY TO POST - Is Anyone Taller Than Wemby.mp4`
-- v2 (rewritten after Critic v2, Oct 13 late): 23.1 s, 1080x1920, house captions, no headline.
+- v2 (rewritten after Critic v2, Oct 13 late): 23.0 s, 1080x1920, house captions, no headline.
 - Passes `Tools/qa_short.py`; voice check CHECK (notes only, no REDO).
 - **Not uploaded.**
 - **Time-sensitive:** post by about Oct 18, and re-check his status first (RealGM, Hoops Rumors, Blake Murphy on X). If he is converted to a two-way deal or waived, the line "On Monday, Toronto gave him one more camp" must change. If he plays a regular-season minute (season starts Oct 20), the hook ("never played an NBA game that counts") is no longer true.
