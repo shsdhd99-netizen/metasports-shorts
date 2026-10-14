@@ -1,0 +1,50 @@
+{
+ "engine": "ffmpeg",
+ "out": "final_music.mp4",
+ "loop_fix": true,
+ "fits": [
+  {
+   "shot": 4,
+   "clip": "R_close.mp4",
+   "fit": "slowed",
+   "factor": 1.248
+  },
+  {
+   "shot": 8,
+   "clip": "M_gym.mp4",
+   "fit": "slowed",
+   "factor": 1.074
+  },
+  {
+   "shot": 9,
+   "clip": "M_pass.mp4",
+   "fit": "slowed",
+   "factor": 1.158
+  },
+  {
+   "shot": 10,
+   "clip": "M_close.mp4",
+   "fit": "slowed",
+   "factor": 1.057
+  }
+ ],
+ "music": {
+  "track": "Library/Music/eleven_stats_01.mp3",
+  "track_start": 0.0,
+  "in": 0.0,
+  "out": 19.8,
+  "hit": null,
+  "hit_on": null,
+  "segment_lufs": -18.9,
+  "gain_db": -15.1,
+  "bed_lu": -20.0,
+  "gap_lift_db": 4.0,
+  "gaps": [],
+  "drops": [
+   [
+    12.6,
+    12.9
+   ]
+  ]
+ }
+}

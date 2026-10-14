@@ -13,6 +13,7 @@ Optional files in the folder:
   shots.json    [{"clip": "01.mp4", "start": 0.0, "in": 0.4}, ...]   cuts synced to words ("in" = start inside the clip)
   sfx.json      [{"sfx": "swish", "at": 12.85, "gain": -14}, ...]    sound effects from Tools/sfx (see sfx/catalog.json)
   emphasis.json {"red": [...], "green": [...]}                        caption colours by hand (see captions.py)
+  music.json    {"track": "Library/Music/x.mp3", "bed_lu": -20, ...}  music bed (see music_plan below and Library/Music Guide.md)
 Captions are burned in the MetaSports look (captions.py) unless you pick a Drift preset with --captions.
 """
 import argparse, glob, json, os, queue, subprocess, sys, threading, time, base64
@@ -146,7 +147,98 @@ def pick_music_start(path, total):
     return float(at)
 
 
-def finish(folder, raw, final, total, style, music=None, music_db=-21.0, music_start=None, hook_text=None):
+
+
+def lufs(path, start=0.0, length=None):
+    """Integrated loudness (LUFS) of a stretch of an audio/video file."""
+    cmd = ["ffmpeg", "-hide_banner", "-nostats", "-ss", f"{start:.2f}"] + (["-t", f"{length:.2f}"] if length else []) + \
+          ["-i", path, "-af", "ebur128", "-f", "null", "-"]
+    import re as _re
+    found = _re.findall(r"I:\s+(-?[\d.]+) LUFS", subprocess.run(cmd, capture_output=True, text=True, errors="replace").stderr)
+    return float(found[-1]) if found else -30.0
+
+
+def music_plan(folder, a):
+    """The music bed for this Short: music.json in the folder (preferred) or --music on the command line.
+
+    music.json fields (all optional except track):
+      track       Library/Music/<file>.mp3 (relative to the folder or the repo root)
+      start       second of the track to start from (default: loudest steady stretch; ignored with align_end)
+      align_end   true = start the track so its own ending (final hit / resolve) lands on "out"
+      hit, hit_on track second of a musical moment (a re-entry hit, the decay) and the video second it must land on
+      in, out     video seconds where the music starts / stops (default 0 and the end)
+      bed_lu      music loudness under SPEECH relative to the voice, in LU (default -20; measured, not guessed)
+      gap_lift    extra dB in gaps with no speech (intro, tail, pauses over 0.35 s) (default 4)
+      drops       [{"at": 12.3, "len": 0.5}] music dips out (e.g. one beat of silence before the payoff line)
+      fade_in, fade_out   seconds (defaults 0.3 and 1.2; fade_out is 0.05 with align_end)
+    """
+    if getattr(a, "no_music", False):
+        return None
+    p = os.path.join(folder, "music.json")
+    if os.path.exists(p):
+        m = json.load(open(p, encoding="utf-8-sig"))
+    elif getattr(a, "music", None):
+        m = {"track": a.music, "start": a.music_start, "level_db": a.music_db, "legacy": True}
+    else:
+        return None
+    t = m["track"]
+    if not os.path.isabs(t):
+        root = os.path.dirname(HERE)
+        t = next((os.path.join(b, t) for b in (folder, root) if os.path.exists(os.path.join(b, t))), t)
+    if not os.path.exists(t):
+        raise SystemExit(f"music track not found: {m['track']}")
+    m["track"] = os.path.abspath(t)
+    return m
+
+
+def music_filter(m, idx, total, words):
+    """ffmpeg filter for the music bed + a log of what was done (written to _render.json)."""
+    t_in = float(m.get("in", 0) or 0)
+    t_out = min(total, float(m.get("out") or total))
+    span = max(0.5, t_out - t_in)
+    tr_len = duration(m["track"])
+    if m.get("hit") is not None and m.get("hit_on") is not None:  # land a moment of the track (e.g. its last big hit) on a video time
+        ms0 = max(0.0, float(m["hit"]) - (float(m["hit_on"]) - t_in))
+    elif m.get("align_end"):
+        ms0 = max(0.0, tr_len - span)
+    elif m.get("start") is not None:
+        ms0 = float(m["start"])
+    else:
+        ms0 = pick_music_start(m["track"], span)
+    if m.get("legacy"):
+        seg, gain, bed = None, float(m.get("level_db", -21.0)), None
+    else:
+        bed = float(m.get("bed_lu", -20.0))
+        seg = lufs(m["track"], ms0, span)
+        gain = (-14.0 + bed) - seg  # the voice is lifted to -14 LUFS before mixing
+    lift = 10 ** (float(m.get("gap_lift", 4.0)) / 20)
+    r = 0.15
+    # gaps with no speech, in music time (music t = video t - t_in)
+    spans = [(w["start"], w["end"]) for w in words]
+    gaps, prev = [], 0.0
+    for s0, s1 in spans + [(total + 5, total + 5)]:
+        if s0 - prev > 0.35:
+            gaps.append((max(0.0, prev - t_in), min(span, s0 - t_in)))
+        prev = max(prev, s1)
+    gaps = [(a, b) for a, b in gaps if b - a > 0.1]
+    terms = [f"(1+{lift - 1:.3f}*clip(min((t-{a:.2f})/{r},({b:.2f}-t)/{r}),0,1))" for a, b in gaps]
+    drops = [(float(d["at"]) - t_in, float(d["at"]) - t_in + float(d.get("len", 0.4))) for d in m.get("drops", [])]
+    terms += [f"(1-clip(min((t-{a:.2f})/0.06,({b:.2f}-t)/0.06),0,1))" for a, b in drops]
+    expr = "*".join(terms) or "1"
+    fi = float(m.get("fade_in", 0.3))
+    fo = float(m.get("fade_out", 0.05 if (m.get("align_end") or m.get("hit") is not None) else 1.2))
+    ms = int(round(t_in * 1000))
+    chain = (f"[{idx}:a]aformat=sample_rates=48000:channel_layouts=stereo,atrim=0:{span:.2f},asetpts=PTS-STARTPTS,"
+             f"volume=volume='{expr}':eval=frame,volume={gain:.2f}dB,afade=t=in:d={fi},"
+             f"afade=t=out:st={max(0.0, span - fo):.2f}:d={fo},adelay={ms}|{ms}[mus]")
+    log = {"track": os.path.relpath(m["track"], os.path.dirname(HERE)).replace("\\", "/"), "track_start": round(ms0, 2),
+           "in": t_in, "out": t_out, "hit": m.get("hit"), "hit_on": m.get("hit_on"), "segment_lufs": seg, "gain_db": round(gain, 2), "bed_lu": bed,
+           "gap_lift_db": float(m.get("gap_lift", 4.0)), "gaps": [[round(a + t_in, 2), round(b + t_in, 2)] for a, b in gaps],
+           "drops": [[round(a + t_in, 2), round(b + t_in, 2)] for a, b in drops]}
+    return chain, ms0, log
+
+
+def finish(folder, raw, final, total, style, music=None, hook_text=None):
     """Burn MetaSports captions and mix sound effects in one ffmpeg pass, then previews + storyboard."""
     sys.path.insert(0, HERE)
     import captions
@@ -179,18 +271,18 @@ def finish(folder, raw, final, total, style, music=None, music_db=-21.0, music_s
     tail = "alimiter=limit=0.794:attack=3:release=60:level=disabled"
     parts.append(f"[0:a]volume={lift:.2f}dB[vlift]")
     labels[0] = "[vlift]"
+    mlog = None
     if music:
-        ms0 = pick_music_start(music, total) if music_start is None else float(music_start)
-        cmd += ["-ss", f"{ms0:.2f}", "-i", music]
+        words = json.load(open(os.path.join(folder, "words.json"), encoding="utf-8-sig"))
+        words = words["words"] if isinstance(words, dict) else words
         mi = len(fx) + 1
-        # music sits well under the voice and ducks a further few dB whenever the voice speaks; fades in and out
-        parts.append(f"[{mi}:a]aformat=sample_rates=48000:channel_layouts=stereo,atrim=0:{total:.2f},afade=t=in:d=0.4,"
-                     f"afade=t=out:st={max(0.0, total - 1.6):.2f}:d=1.6,volume={music_db}dB[mus0]")
-        parts.append("[vlift]asplit=2[vk][vmix]")
-        parts.append("[mus0][vk]sidechaincompress=threshold=0.03:ratio=4:attack=20:release=300[mus]")
-        labels = ["[vmix]"] + labels[1:] + ["[mus]"]
-        tail = "loudnorm=I=-14:TP=-1.5:LRA=7,alimiter=limit=0.794:attack=3:release=60:level=disabled"  # keep the whole mix at -14 LUFS
-        print(f"  music: {os.path.basename(music)} from {ms0:.0f}s, {music_db} dB under the voice")
+        chain, ms0, mlog = music_filter(music, mi, total, words)
+        cmd += ["-ss", f"{ms0:.2f}", "-i", music["track"]]
+        parts.append(chain)
+        labels = labels + ["[mus]"]
+        tail = "alimiter=limit=0.708:attack=3:release=60:level=disabled"  # bass-heavy beds: -3 dBFS so AAC true peak stays under -1 dBTP
+        print(f"  music: {mlog['track']} from {ms0:.1f}s, bed {mlog['bed_lu']} LU under the voice (gain {mlog['gain_db']} dB), "
+              f"{len(mlog['gaps'])} gap lift(s), {len(mlog['drops'])} drop(s)")
     if len(labels) > 1:
         parts.append("".join(labels) + f"amix=inputs={len(labels)}:normalize=0:duration=first,{tail}[a]")
     else:
@@ -214,6 +306,7 @@ def finish(folder, raw, final, total, style, music=None, music_db=-21.0, music_s
         os.remove(final)
     os.replace(tmp, final)
     print(f"  captions burned ({style}) + {len(fx)} sound effect(s), voice lifted {lift:+.1f} dB to -14 LUFS, effects mixed under it")
+    finish.music_log = mlog
     for n, at in enumerate((total * 0.2, total * 0.5, total * 0.8), 1):
         subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", f"{at:.2f}", "-i", final, "-frames:v", "1",
                         "-q:v", "3", os.path.join(folder, f"preview_{n}.jpg")])
@@ -278,11 +371,12 @@ def ffmpeg_engine(folder, voice, shots, clips, ins, total, a, zooms=()):
         raise SystemExit(f"ffmpeg concat failed: {r.stderr[-300:]}")
     final = os.path.join(folder, a.out_name)
     if a.captions == "burn":
-        finish(folder, raw, final, total, a.caption_style, music=a.music, music_db=a.music_db, music_start=a.music_start, hook_text=(a.hook_text or (open(os.path.join(folder, "hook.txt"), encoding="utf-8").read().strip() if os.path.exists(os.path.join(folder, "hook.txt")) else None)) if os.environ.get("ALLOW_HOOK_TEXT") == "1" else None)
+        finish(folder, raw, final, total, a.caption_style, music=music_plan(folder, a), hook_text=(a.hook_text or (open(os.path.join(folder, "hook.txt"), encoding="utf-8").read().strip() if os.path.exists(os.path.join(folder, "hook.txt")) else None)) if os.environ.get("ALLOW_HOOK_TEXT") == "1" else None)
     else:
         os.replace(raw, final)
-    json.dump({"engine": "ffmpeg", "out": a.out_name, "loop_fix": True, "fits": fits},
-              open(os.path.join(folder, "_render.json"), "w"), indent=1)  # qa_short.py reads this (no replays; holds > 0.5 s fail)
+    log_name = "_render.json" if a.out_name == "final.mp4" else f"_render_{os.path.splitext(a.out_name)[0]}.json"
+    json.dump({"engine": "ffmpeg", "out": a.out_name, "loop_fix": True, "fits": fits, "music": getattr(finish, "music_log", None)},
+              open(os.path.join(folder, log_name), "w"), indent=1)  # qa_short.py reads this (no replays; holds > 0.5 s fail)
     import shutil
     shutil.rmtree(tmp, ignore_errors=True)
     print(f"Done: {final} ({duration(final):.1f}s)")
@@ -293,6 +387,7 @@ def main():
     ap.add_argument("--folder", required=True)
     ap.add_argument("--music", help="optional music file, kept quiet and ducked under the voice")
     ap.add_argument("--music-db", dest="music_db", type=float, default=-21.0, help="music level under the voice, dB (default -21)")
+    ap.add_argument("--no-music", dest="no_music", action="store_true", help="ignore music.json (render the no-music version)")
     ap.add_argument("--music-start", dest="music_start", type=float, default=None, help="second of the track to start from (default: loudest steady stretch)")
     ap.add_argument("--hook-text", dest="hook_text", default=None, help='DISABLED by the user on Oct 4 2026 (captions only, no big headline); ignored unless env ALLOW_HOOK_TEXT=1')
     ap.add_argument("--auto-zoom", dest="auto_zoom", type=float, default=0.0, help="slow push-in on every footage shot, e.g. 0.06")

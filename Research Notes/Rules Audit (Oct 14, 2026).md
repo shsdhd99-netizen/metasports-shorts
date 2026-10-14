@@ -28,7 +28,7 @@
 | A6 | No CTA | CoachClank [E] | The CTA line drops end-viewers 12-27% (Curry, old Flagg curves) [V] | No data that it costs reach; Curry had one | **KEEP** (zero cost) | The debate goes in the pinned comment | M | Optional pair: same-format Shorts with and without "follow for..." |
 | A7 | Absolute, confident wording | CoachClank style [E] | Confident hooks are clearer [H] | #17's over-promising title ("BAN") went with 81% viewed. #40 kept "probably" and passed the critic [V] | **REVISE** | Keep the qualifier when it is part of the truth ("listed", "probably", "regular season"); confidence comes from specifics, not from overclaiming | M | Critic Gate A6 |
 | A8 | Runtime 21-45 s, target 21-26 (QA FAIL under 21) | CoachClank: 21 s+ stories beat ≤20 s, 848K vs 291K [E] | — | Old era: **under 18 s median 32.8K (n=9)**, 18-20 s 30.4K, 21-25 s 30.6K, 26-33 s 26.2K [V]. No length effect (rho −0.13) [V]. The floor forced padding and re-records on #40 | **REVISE** | Length follows the story: moments 12-20 s, paradox stories 18-26 s, arcs up to 30 s. QA only **warns** under 15 s or over 35 s | M | Track length vs avg % viewed; build one 15-17 s visual moment |
-| A9 | Same pacing for every story | Strict Formula | Fast narration goes with views (rho +0.50, n=16) [V] | Emotional arcs (Chris Paul) may need air [H] | **REVISE** | Fast (250-290 wpm) for paradox and moment formats; arcs may slow to about 220 with one pause on the turn | L | One arc Short at a slower pace, compared with the format median |
+| A9 | Same pacing for every story | Strict Formula | Fast narration goes with views (rho +0.50, n=16) [V] | Emotional arcs (Chris Paul) may need air [H] | **REVISE** | ~~Fast (250-290 wpm)~~ 200-265 wpm (see C2 revision); arcs may slow to about 200 with one pause on the turn | L | One arc Short at a slower pace, compared with the format median |
 | A10 | Reject a story a bigger channel already told | Round 5 [E]; #29 vs CoachClank | #29 1.5K [V] | Curry, Giannis and Chris Paul were widely covered and still got about 30K [V] | **REVISE** | Reject only when **our angle** is the same as the big telling. A fresh angle on a known event is fine | M | copy_check plus an angle note in notes.md |
 | A11 | Don't re-post an identical file; don't retell an old winner by name | Outcome Log | #25 re-post 193; #29 1.5K vs 73K [V] | — | **KEEP** | — | H | — |
 | A12 | Don't frame a story as "tonight" news on the most-covered fact | NEW (LeBron 23rd: 5.3K with good retention) | [V] n=1 | — | **TEST** (as a gate warning) | Lead with the angle nobody else has | L | Track "news-frame" Shorts |
@@ -45,17 +45,17 @@
 | B7 | Last shot reuses the first clip (QA FAIL) | Loop lore [E] | Winners start at 1.74-1.83 (loops/replays) [V] | Forcing it created a 0.28 s noise shot in #41 [V] | **REVISE → warn** | End on an image that flows into frame 1 **when it serves the payoff**; never add a sub-0.6 s shot just to loop | M | Compare start ratios across ending types |
 | B8 | Gentle push-in (≤6%) on frame 1 and stills only; no random zooms | Oct 5 test | Flash cuts washed out faces [R] | — | **KEEP** | Motion only with purpose (reveal a detail, follow the ball) | M | — |
 | B9 | House captions (white ALL CAPS, 45-62% band) | House | Caption style didn't separate winners [V] | Captions sat on Wemby's chin and mic in #41 v1 [V] | **KEEP** the style; **REVISE** placement | Re-crop the shot or move the band per shot when a face sits in the band. Avoid single-word orphan cards ("CAREER.") | M | Critic Gate B |
-| B10 | No music | Owner rule Oct 5 [D] | — | No data either way | **TEST** | Very low music (−24 dB) under emotional arcs only | L | One arc Short with music vs one without |
+| B10 | No music | Owner rule Oct 5 [D] | — | No data either way | ~~TEST~~ **RETIRED Oct 14 (later) by the owner: music on by default** (see the addendum) | A bed 20 dB under the voice, chosen by story type | L | M1 cohort (Outcome Log) |
 | B11 | 2-3 sound effects, only where the picture makes the sound | House | — | — | **KEEP** (no evidence, low cost) | — | L | — |
 | B12 | No hook headline text (owner rule Oct 4) | Owner [D] | — | **#19 is the only post with an on-screen premise pill, and it reached 20.6K**; it was posted alongside losers [V, n=1] | **TEST** (owner decides) | A small premise pill on frame 1 only (e.g. "6-8 to 6-11?") | L | Alternate 3 pairs of similar Shorts, with and without a pill. Adopt if the pill wins 2 of 3 |
 | B13 | Red circle on the object in frame 1 | Winning Formula v2 (old era 7/27 vs 2/44 at 40K+) [V, one coder] | — | — | **TEST** (running: #40 ring vs #41 plain) | — | L | Running |
-| B14 | Crop burned-in tickers, scorebugs and source captions | Critic | #41 v1 had cropped bugs [V] | — | **KEEP** | — | H | — |
+| B14 | Crop burned-in tickers, scorebugs and source captions | Critic | #41 v1 had cropped bugs [V] | Old hits KEPT the scorebug as proof (Luka, Kobe) [S] | **REVISED Oct 14 (later)** | Crop tickers and others' captions always; keep the scorebug when the clip is the exact game (circle the number); crop it on stand-ins | H | S1 (Outcome Log) |
 
 ## C. Voice
 | # | Current rule | Source | Supports | Contradicts | Decision | Better alternative | Conf. | Test |
 |---|---|---|---|---|---|---|---|---|
 | C1 | Clone "pham v2", multilingual_v2, speed about 1.1-1.15, stability .65 | Oct 5 lab | Audition: the only voice at the house pace natively (245-268 wpm); equal intelligibility; good consistency [V] | Naturalness unheard by me; v3 voices have more pitch variety [V] | **KEEP** (fallback: clone "Pham", take D) | — | M | Owner listening task (Voice Audition README) |
-| C2 | Narration 247-289 wpm | CoachClank [E] | Pace goes with views in the new era (rho +0.50) [V] | — | **KEEP** (warn) | — | M | — |
+| C2 | Narration 247-289 wpm | CoachClank [E] | Pace goes with views in the new era (rho +0.50) [V] | **Our own old hits measured 182-212 wpm** from timed transcripts [V, n=3] | **REVISED Oct 14 (later)** | Warn outside 200-265 wpm: don't drag, don't rush | M | — |
 | C3 | Respell hard names ({Wembanyama\|wem-bun-YAH-muh}) | Oct 5 | — | The recogniser heard "Wembun Yama" in 9/9 respelled takes, and "Wembanyama" with the plain spelling [V, n=1 each] | **REVISE** | Plain "Wembanyama"; keep "Yoki-ch" for Jokic. Verify each name with the recogniser on a test line before the full take | M | Owner's ear (A vs A3) |
 | C4 | Time-stretch ≤1.08x | Oct 5 lab | HNR drops with stretch [R] | — | **KEEP** | — | H | — |
 | C5 | Flash model to save credits | Never adopted | — | Flattest pitch (3.69) and worst phone intelligibility [V] | **RETIRE** the idea | — | M | — |
@@ -85,3 +85,33 @@
   - **slow hook** (first sentence ends after 3.5 s = warn)
   - **naked-number opening** (warn)
 - **Captions:** a one-word final card such as "CAREER." now merges into the card before it when the two fit together. Later Oct 14: a per-shot `cap_y` in shots.json moves captions off a face (#21 v3.1).
+
+
+## Addendum, Oct 14, 2026 (later): old-video study, B-roll sourcing, music and voice emphasis
+**Sources:**
+- `Posted Video Audit (Oct 14, 2026).md` section 10 (5 old Shorts watched via vidIQ: 4 hits and 1 control)
+- `Library/B-roll Sourcing Guide.md`
+- `Library/Music Guide.md`
+- `Voice Audition (Oct 14, 2026)/README.md` part 2
+
+| # | Rule | Source | Support | Contradiction | Decision | Confidence | Test |
+|---|---|---|---|---|---|---|---|
+| B10 → **B15** | A music bed by story type, 20 dB under the voice, the payoff marked by the music (silence, stop, swell or hit), dropped under real quotes | **Owner decision Oct 14** [D]; old Shorts 5/5 had a bed [S] | Our beds cost no words in the phone test, even at -2 LU [V] | The weak old control had music too: it did not separate hits from misses [S] | **ADOPT** (house style; no reach claim) | M for clarity, L for views | M1 |
+| B16 | Every clip has a `sources.csv` row with link, seconds and what it shows, verified by eye | Owner request Oct 14; #39's wrong-opponent shots; #41's agency photo [V] | Frame matching recovered the exact post and second for 28 of the 40 footage clips in the 4 ready Shorts, plus 4 probable and 1 logged at the cut; 7 have no recoverable download [V] | — | **ADOPT** (QA FAIL once a log exists) | H | — |
+| B17 | No agency photos (Getty/Imagn/AP) taken from news posts; official league/team posts first | Licensing practice [E] | #41's Dallas still was an Imagn photo; replaced with broadcast footage [V] | — | **ADOPT** | H | — |
+| B18 | Exact-moment footage under nearly every line; generic only under "what if" lines | Old hits (8/11, 11/13 exact shots) [S] | Critic findings in 3/3 builds [V] | Weak control used a generic montage [S] | **KEEP** (strengthens B6) | M | — |
+| B19 | Hold the payoff shot longest; escalate to it where the story allows | Old hits [S] | — | — | **TEST** (craft) | L | — |
+| C6 | Emphasis comes from the edit (caption colour, circle, music drop, cut-in pause), not the voice | Voice part 2 [V] | Our voice reads numbers flat (-0.4 to +0.2 dB); "..." adds about 0.05 s; expressive settings didn't help | — | **ADOPT** | M | P1 |
+| A13 | Question hooks ("Why would X do Y?") | Old hits 3/4 [S] | — | Our best new Shorts (#22, #03) used statements; 0/20 new posts used questions | **TEST** | L | Q1 |
+| D13 | Sound effects need a logged licence | Licensing practice [E] | `Tools/sfx` came from "Downloads/music", source unknown [V] | — | **REVISE**: replace them over time with logged effects (Mixkit free licence or ElevenLabs sound effects) | M | — |
+
+**What changed in the tools:**
+- `assemble.py`: `music.json` with a measured bed level, gap lifts, drops, hits and `--no-music`; one render log per output file.
+- `qa_short.py`:
+  - music licence and level checks, plus the speech-band margin
+  - source-log and verification checks
+  - pace 200-265
+- `footage_lib.py` (new): source logs, frame matching to posts, contact sheets, verify, index, search.
+- `x_clip.py` and `broll.py cut` now write the logs themselves.
+- `music_gen.py` (new): licensed generated beds.
+- `captions.py`: per-shot `cap_y`.

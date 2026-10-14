@@ -132,8 +132,40 @@ def cmd_cut(a):
         run(["ffmpeg", "-y", "-loglevel", "error", *seek, "-i", path, "-t", f"{a.len:.2f}", "-vf", vf, "-an",
              "-c:v", "libx264", "-crf", "18", "-preset", "medium", a.out])
         print(f"{a.out}  ({a.len:.1f}s from {a.at:.1f}s, source {w}x{h}{', upscaled' if h < 1080 else ''})")
+        log_cut(a, s, local, w, h)
     finally:
         shutil.rmtree(tmp, ignore_errors=True)
+
+
+def log_cut(a, s, local, w, h):
+    """Oct 14: every cut writes its source-log row (<production>/sources.csv; see Library/B-roll Sourcing Guide.md)."""
+    import csv
+    clip_dir = os.path.dirname(os.path.abspath(a.out))
+    folder = os.path.dirname(clip_dir) if os.path.basename(clip_dir) == "clips" else clip_dir
+    url = s
+    if local:
+        sid = os.path.splitext(os.path.basename(s))[0]
+        url = f"https://x.com/i/status/{sid}" if sid.isdigit() else os.path.relpath(os.path.abspath(s), folder)
+        meta = os.path.join(os.path.dirname(os.path.abspath(s)), "downloads.csv")  # written by x_clip.py
+        acct = date = text = ""
+        if os.path.exists(meta):
+            for r in csv.DictReader(open(meta, encoding="utf-8")):
+                if r.get("id") == sid:
+                    acct, date, text = r.get("account", ""), r.get("date", ""), r.get("text", "")
+    else:
+        acct = date = text = ""
+    p = os.path.join(folder, "sources.csv")
+    cols = ["clip", "kind", "used_at_s", "used_for_line", "what_it_shows", "source_url", "source_account", "source_date",
+            "source_in_s", "source_out_s", "crop", "match_score", "licence_risk", "verified", "verified_on", "notes"]
+    rows = list(csv.DictReader(open(p, encoding="utf-8-sig"))) if os.path.exists(p) else []
+    clip = os.path.basename(a.out)
+    rows = [r for r in rows if r.get("clip") != clip]
+    rows.append({"clip": clip, "source_url": url, "source_account": acct, "source_date": date, "source_in_s": f"{a.at:.1f}",
+                 "source_out_s": f"{a.at + a.len:.1f}", "crop": f"x {a.x} zoom {a.zoom} y {a.y}" + (" flipped" if a.flip else ""),
+                 "notes": (f"post text: {text[:120]}" if text else "") + (f" | source {w}x{h}" if w else ""), "verified": ""})
+    wr = csv.DictWriter(open(p, "w", encoding="utf-8", newline=""), fieldnames=cols)
+    wr.writeheader()
+    wr.writerows({k: r.get(k, "") for k in cols} for r in rows)
 
 
 def cmd_page(a):

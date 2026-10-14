@@ -1,4 +1,4 @@
-# START HERE (updated Oct 14, 2026)
+# START HERE (updated Oct 14, 2026, evening)
 
 | You want... | Open |
 |---|---|
@@ -7,7 +7,11 @@
 | **How every Short is built** (Creative System v3: formats, checklist, rubric, editing playbook, QA) | `MetaSports - Playbook.md` (top section) |
 | **Why** (what the 102 posted Shorts show, with dated numbers and their limits) | `Research Notes/Posted Video Audit (Oct 14, 2026).md` (+ `Posted Shorts - metrics (Oct 14, 2026).csv`) |
 | **Which old rules stand** (each rule: keep / revise / retire / test) | `Research Notes/Rules Audit (Oct 14, 2026).md` |
-| **Voice** (12 takes, same script, measured; your ear decides) | `Research Notes/Voice Audition (Oct 14, 2026)/README.md` |
+| **Voice** (12 takes, same script, measured; part 2: emphasis and pauses) | `Research Notes/Voice Audition (Oct 14, 2026)/README.md` |
+| **Listen and decide** (voice finalists, music beds, every ready Short with and without music) | Sound Check page: https://claude.ai/artifact/U58nqkg8BHDTJXNdy64Tcd |
+| **How to find, check and log footage** (sources, licences, commands) | `Library/B-roll Sourcing Guide.md` (+ `Library/footage_library.csv`; each Short's `sources.csv`) |
+| **Music** (library, licences, choosing a bed, levels, tests) | `Library/Music Guide.md` (+ `Library/Music/music_library.csv`) |
+| **What our old hit Shorts did** (watched scene by scene, vs our new builds) | `Research Notes/Posted Video Audit (Oct 14, 2026).md` section 10 (+ the watch-reports appendix) |
 | **Current state, open decisions, handoff** (for any new session) | `CLOUD STATE - read this first.md` (newest section at the bottom) |
 | **Results of posted Shorts + predictions logged before posting** | `Research Notes/Outcome Log.md` |
 | **Lessons, with confidence levels** | `Research Notes/Lessons Learned (running log).md` |
@@ -16,9 +20,9 @@
 | **Every tool and command** | `Tools Guide.md` (newest changes at the top) |
 
 **Do next:**
-1. Post #40 (the **ring** version, `final_pointer.mp4`) and write the time in the Outcome Log.
-2. Play the 5 voice finalists on your phone (the README's "Owner listening task") and name one.
-3. Follow the calendar in `Production Queue.md` (1 a day this week).
+1. Open the Sound Check page and answer its five questions in chat (voice, "Wembanyama", music per Short, level, any bed to drop).
+2. Post #40 (ring; with or without music, your ear) and write the time and version in the Outcome Log. Post #41 v3 the same way tomorrow.
+3. Follow the calendar in `Production Queue.md` (1 a day this week). For #42, paste X links of LeBron missing shots and one Kobe jumper.
 
 **Superseded (kept as evidence, not instructions):**
 - `Research Notes/Winning Formula v2 (Oct 13, 2026).md` (folded into Creative System v3; its red-ring rule is now a test)
@@ -26,6 +30,7 @@
 - `CLOUD_HANDOFF.md` (Oct 3), `Research Notes/Next Wave Plan.md`, `Research Notes/Wave 3 Plan.md`
 - `Research Notes/Voice Lineup (Oct 13, 2026)/` (replaced by the Oct 14 audition)
 - Critique Rounds 1-3. The Round 3 scores ran backwards against real views.
+- The Oct 5 "no music" rule (Rules Audit B10, retired Oct 14 by the owner) and the 250-290 wpm pace rule (now 200-265).
 
 ---
 

@@ -1,5 +1,26 @@
 # Tools Guide
 
+> ## Oct 14, 2026 (evening) changes: footage logs, music, matching (each tested on the ready Shorts)
+> - **New `footage_lib.py`** (guide: `Library/B-roll Sourcing Guide.md`):
+>   - `log <folder>`: creates/refreshes `sources.csv`, one row per clip with the line it sits under.
+>   - `match <folder> --src <dirs>`: finds the post and second each clip came from (0.80+ match; 0.70-0.80 "probable").
+>   - `sheet <folder>`: contact sheets of the used part of each clip (`_audit/clips/`).
+>   - `verify <folder> <clip> "what it shows"`: records that you looked.
+>   - `index` / `search <words>`: the library of every clip (`Library/footage_library.csv`).
+> - **`x_clip.py`** writes `<out>/downloads.csv` (account, date, post text). **`broll.py cut`** writes the clip's `sources.csv` row.
+> - **New `music_gen.py`:** generates a licensed instrumental bed with ElevenLabs Music and logs it in `Library/Music/music_library.csv`. Needs `. key.sh` in the same command. Plan: 17 generated minutes a month, 2 requests at once.
+> - **`assemble.py`:**
+>   - Reads the folder's `music.json`: `bed_lu` measured against the voice, gap lifts, `drops`, `hit`/`hit_on`, `align_end`.
+>   - `--no-music` renders the dry version.
+>   - Renders other than `final.mp4` write `_render_<name>.json`.
+>   - Music renders limit at -3 dBFS.
+> - **`qa_short.py`:**
+>   - music licence and level checks, plus the speech-band margin (FAIL under 12 dB)
+>   - source-log and verification checks (FAIL once a log exists)
+>   - pace guideline 200-265 wpm
+> - **Music tests:** `Library/Music/tests/mix_test.py` (bed level vs the recogniser, phone simulation).
+> - **Voice part 2:** `Research Notes/Voice Audition (Oct 14, 2026)/emphasis_test.py` (number emphasis and pauses).
+
 > ## Oct 14, 2026 changes (cloud; each tested on real Shorts)
 > - **`qa_short.py`:** rules re-graded by evidence (Rules Audit, Oct 14).
 >   - Now warnings, not FAILs: length 15-35 s (the hard limit is 12-60 s), 3 cuts in 3 s, average shot, talking head, b-roll and card shares, two cards in a row, the loop.

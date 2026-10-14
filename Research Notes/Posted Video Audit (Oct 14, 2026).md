@@ -244,7 +244,7 @@ Format per Short: **1-3 s** what the viewer gets · **Hook** · **Frame 1** · *
   - one measure
   - an answering ending, ideally in the subject's own voice
   - big names with a specific, checkable twist
-  - fast narration (about 250-290 wpm)
+  - ~~fast narration (about 250-290 wpm)~~ **Revised Oct 14 (section 10):** our own old hits measured 182-212 wpm and the new posts already run 224-250. Keep 200-265: don't drag, don't rush.
 - **Change:**
   - **Titles:** go up exactly as written; no over-promising (the #17 lesson).
   - **Hooks:** one fact per sentence; no compound hooks.
@@ -262,3 +262,59 @@ Format per Short: **1-3 s** what the viewer gets · **Hook** · **Frame 1** · *
   - identical re-posts
   - re-telling old winners through lesser angles
   - "tonight/news" framing of the night's most-covered fact
+
+
+## 10. Old videos as creative references: what they did, what we do now (added Oct 14, 2026, owner request)
+**Sources:**
+- Five old Shorts watched scene by scene by vidIQ (4 hits + 1 weak control). Reports: `Posted Video Audit - old-video watch reports (Oct 14, 2026).md`.
+- Narration pace measured from timed YouTube transcripts of 3 old Shorts.
+- Our 20 new-era builds, from our own files (`Posted Shorts - metrics (Oct 14, 2026).csv`).
+
+**Limits:**
+- I watched none of the old videos myself (YouTube blocks the cloud). vidIQ's descriptions are AI-written.
+- n = 4 hits and 1 control: patterns here are **[S] small-n or [H]**, never proof.
+- The two eras also differ in distribution (section 2). Nothing below claims a technique caused views.
+
+| Dimension | Old hits (4) | Old control (1, 4.9K) | New builds (20) | Reading |
+|---|---|---|---|---|
+| **Music** | a quiet bed in 4/4 (trap/hip-hop; cinematic for Kobe), about -18 to -20 dB under the voice; swells or cut-outs at the payoff | yes (trap) | **none** (no-music rule, Oct 5) | Music was the old **house standard**, present in hits and the miss alike [S, 5/5]. It is not what separated winners. Bring it back as the default (owner request), quiet, with payoff moves. Effect on views: unknown, tracked as a cohort in the Outcome Log |
+| **Proof on screen** | the broadcast's own scorebug and banners **kept** and circled (Luka: clock 1.5 and score 126-125; Kobe: 96-86, "60 POINTS") | Google age panel at 22 s | scorebugs **cropped** (after #39's wrong-opponent bug); proof on our own cards | When the footage IS the exact game, the scorebug is evidence: keep it and circle it. Crop it only when the shot is a stand-in [S, 2/4 hits] |
+| **Red circles** | 2/4 (FT tricks: 3 circles; Luka: 3) on the exact detail **at the moment it's named** | none | only #40's frame-1 ring (test pending) | Use circles on the detail being named, anywhere in the video, not only frame 1 [H]. Pointer test continues |
+| **Exact-moment B-roll** | Luka 8/11 shots, Kobe 11/13, Bronny mostly name-matched; only 2-3 generic cutaways | a montage of generic highlights | mixed: stand-ins under specific lines (#39), archive press conferences | The hits **showed the thing being said**. Exact-moment footage first; generic only for a "what if" line [S] |
+| **First frame** | the subject doing the thing (Luka shooting the FT; a Wemby dunk over Bronny; Kobe's face; a circled shoe) + the hook line at once | Flagg driving (generic) | mostly the subject; some cards/archive | Same rule as Creative System v3 checklist #1; confirmed [S] |
+| **Hook form** | **3/4 a question** ("Why would Luka miss a free throw on purpose?"), 1 a statement with a turn ("wasn't supposed to end like this") | a vague hype claim | **0/20 questions**: all statements/paradoxes | Not proof that questions win: our two best new Shorts (#22 31.8K, #03 27K) were statements. **TEST** a concrete question hook vs a statement on comparable topics [H] |
+| **Escalation** | 3 examples, the craziest last ("it gets crazier"); Kobe counts up 51, 53, 56, 60 | none (montage) | a single fact, then the explanation | Build to the payoff with a count-up or escalating examples where the story has them [S] |
+| **Ending** | a punch line or answer: "That's next level awareness", "LeBron's... son." (0.4 s pause, black card, music cut), "for the last time" | **subscribe call-to-action** | an answering ending (v3) | Keep answering endings. **New device:** a beat of silence or music cut before the last word [H] |
+| **Pace (measured)** | 182-212 wpm (3 old Shorts, timed transcripts) | n/a | 210-292 wpm, median 243 | We are already faster than the old hits. Don't speed up further: guideline 200-265 |
+| **Shot length** | 1.4-2.3 s average; the payoff shot held longest (3.5 s in the FT Short) | 1.8 s | about 1.25 s | Slightly slower cutting, with **the payoff shot held**, is the old pattern [S]. Don't cut the payoff short |
+| **Captions** | heavy ALL CAPS, 1-4 words, key words coloured (yellow/red) or black-on-white | neon green | Montserrat ALL CAPS, red/green key words | Similar. Not a difference worth changing |
+| **Sound effects** | 3/4 used 3-5 (whoosh on circles, rim clank on misses, sub boom on hook, riser into payoff); Kobe used **game crowd sound** instead | 6 | 2-3 per Short | Similar count. **New:** natural game sound (crowd, rim, buzzer) under emotional/big moments [H] |
+| **Length** | 16-29 s | 27 s | 15-28 s | No difference |
+
+**What the old hits did better (bring back):**
+1. A music bed, with the payoff marked by the music: a swell, a cut, or silence.
+2. Kept broadcast scorebugs and banners as proof, circled when named.
+3. Exact-moment footage under nearly every line.
+4. Escalation to the payoff.
+5. A held payoff shot.
+6. One beat of silence before the final word.
+
+**What they did worse (avoid):**
+- the control's montage of generic highlights
+- hype claims with no checkable fact
+- a subscribe call-to-action ending
+- the FT Short's 17 s with no answer (it worked as a list of absurd moments, not a story)
+
+**What we already do better:**
+- fact-checked claims with sources
+- no CTA
+- an answering ending as standard
+- no stand-ins with the wrong scorebug (after #39)
+
+**Topic vs execution:** the control (old Flagg, 4.9K) shared every production technique with the hits, while new Flagg (a visible height number, no music) did 20.6K. So topic and angle still dominate; the techniques above are craft, not reach guarantees [S].
+
+**Applied Oct 14:**
+- **Music:** library and mixing (`Library/Music Guide.md`); music versions of #40, #41 and #21 (the originals are kept).
+- **Proof and circles:** the scorebug-as-proof and circle-on-the-named-detail rules are in Creative System v3 (§5).
+- **Rules Audit:** the pace guideline was moved to 200-265 wpm in `qa_short.py`.
+- **Tests:** the question-hook and silence-before-the-last-word tests are pre-registered in the Outcome Log.

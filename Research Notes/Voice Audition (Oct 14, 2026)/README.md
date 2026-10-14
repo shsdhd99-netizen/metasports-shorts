@@ -95,3 +95,43 @@ Answer two questions:
 2. In A vs A3, which "Wembanyama" (at 0-2 s) is right?
 
 Until you answer, production stays on take A3's setup: the clone, multilingual_v2, speed 1.15, plain "Wembanyama".
+
+## Part 2 (Oct 14, later): emphasis, pauses, and the voice with music
+**Why:** the old hit Shorts stressed every number and paused about 0.4 s before the final word (Posted Video Audit, section 10). Do ours? Code: `emphasis_test.py`. Results: `emphasis_results.json`. Takes: `takes/E_*.mp3` and `E_*_lufs16.mp3`. About 1.9K characters.
+
+**1. Our narration does not stress the numbers.** [V] Number words vs the other content words, measured on the voice tracks of the 4 ready Shorts:
+
+| Short | Number words | Loudness vs other words | Pitch vs other words |
+|---|---|---|---|
+| #40 Jokic pass | 11 | -0.4 dB | -2.7 semitones |
+| #41 Sharp | 7 | -0.2 dB | +2.7 |
+| #21 Jokic record | 14 | -0.1 dB | +0.8 |
+| #38 LeBron promise | 13 | +0.2 dB | -0.2 |
+
+The numbers are delivered as flat as the words around them, sometimes quieter.
+
+**2. Text and settings don't fix it** (#40's script, 4 takes, same voice):
+
+| Variant | Pause before "Not eighty-one" | Number loudness vs other words | Words/min |
+|---|---|---|---|
+| V0 production settings | 0.18 s | -0.5 dB | 289 |
+| V1 "..." before the punchline | 0.22 s | -0.7 dB | 289 |
+| V2 expressive (stability .45, style .35) | 0.16 s | -1.2 dB | 296 |
+| V3 both | 0.24 s | 0.0 dB | 305 |
+
+- "..." adds only about 0.05 s; nowhere near the old 0.4 s beat.
+- The expressive setting doesn't lift the numbers either.
+- Word error rate was the same for all four (16.2%, from the name spelling).
+
+**3. With music:** the beds in `Library/Music/` cost no words even at -2 LU in the phone simulation. See `Library/Music Guide.md` §5.
+
+**What this means for production** (rules go into Creative System v3 §5-6):
+- **Emphasis must come from the edit, not the voice:**
+  - put a real pause before the payoff line (cut silence in, 0.3-0.4 s)
+  - drop the music for that beat
+  - colour the number in the captions
+  - circle it on screen
+- **Test, not proven:** one cut-in 0.35 s pause before the final line (Outcome Log). The old hit that used it is one Short.
+- **eleven_v3** (the most varied pitch in part 1) understands CAPITALS and audio tags for emphasis, but reads 26-45% slower with no speed control. It remains a TEST for an emotional story only.
+
+**Owner's ear (still open):** the listening page has the 5 finalists, the music beds, and every ready Short with and without music.

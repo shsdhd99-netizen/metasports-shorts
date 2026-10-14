@@ -90,3 +90,22 @@ Tiers: [V] verified on our files or data, [S] supported by our numbers (small n)
 - [V] **Voice:** only our clone reads at house pace natively (245-268 wpm); premade voices read 136-184 wpm at the same setting. Flash is the flattest and least intelligible on a phone. No migration; the owner's ear decides naturalness.
 - [S] Hype framing loses to a visible number on the same player: old Flagg (hype) 4.9K vs new Flagg (height number) 20.6K.
 - [V] Some old QA FAILs blocked good builds without evidence (21 s floor, 3 cuts in 3 s, b-roll/card caps, forced loop). They're warnings now. A rule needs a dated source and a result, or it is a test, not a gate (Rules Audit).
+
+## Oct 14, 2026 (later): old videos, footage sourcing, music, voice emphasis
+- [S, n=5] **The old hits' toolkit (music, colour captions, effects, fast cuts) was also in the weak old Short.** It was the house style, not the reason for the hits. What the hits had and the miss didn't:
+  - a concrete question or event hook
+  - the exact moment under nearly every line
+  - the broadcast scorebug kept as proof and circled
+  - escalation
+  - an answering punch line
+- [V] **Measure; don't trust AI estimates.** vidIQ guessed 160-185 wpm for old Shorts; timed transcripts measured 182-212. Our new posts already run faster (median 243). Don't push faster.
+- [V] **Publicly viewable isn't free to use.** #41's "Dallas" still was an Imagn agency photo taken from a news post. Replaced with broadcast footage of the same player. Log every source; no agency photos.
+- [V] **Lost downloads can be recovered.** For clips cut before logging existed, matching small grey thumbnails against each candidate post (several crops and zooms, then a 15 fps refine) found the exact post and second for 28 of 40 clips.
+- [V] **A clip's own scene change becomes a one-frame flash** at the end of a shot (#41's new Dallas clip: the source cut at 10.4 s). Run scene detection on the source (`ffmpeg scdet`) and end the clip before the cut.
+- [V] **Music beds generated with "sparse midrange" in the prompt** put 0-13% of their energy in the speech band; the Mixkit tracks we tried put 4-44% there. Even at -2 LU the speech recogniser lost no words in the phone simulation. So the recogniser can't set the level; convention (-20 LU) and the owner's ear do.
+- [V] **One fixed music gain is wrong.** Tracks differ by 7 dB (-12 to -19 LUFS). Set the bed relative to the voice on the measured stretch that plays.
+- [V] **Verify music placement by subtraction:** the music render minus the dry render leaves only the music. Read its level at the planned drop, hit and stop.
+- [V] **A bass-heavy bed can push true peak over -1 dBTP after AAC** (#21: -0.9). Music renders limit at -3 dBFS.
+- [V] **Our voice reads numbers flat** (number words -0.4 to +0.2 dB vs other words). "..." adds about 0.05 s of pause, and expressive settings don't lift numbers. Emphasis has to come from the edit.
+- [V] **Workarounds for blocked access get refused, and should be.** Pulling YouTube preview frames through the embed player was denied. Use the owner's connected vidIQ, X, or the PC.
+- [V] **Search engines barely index X posts** (`site:x.com` returned none for #42's moments). Finding footage for older moments needs the owner's X links or the PC (YouTube). Park the idea rather than fake the shot.

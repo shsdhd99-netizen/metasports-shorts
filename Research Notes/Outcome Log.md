@@ -103,3 +103,20 @@ Source of the scores: Creative System v3 rubric (`Production Queue.md`). The vie
 3. **Posting rate: 1 a day Oct 14-19** vs the 2-a-day weeks (Oct 5-13 per-post median 2.8K). Read each post at 48 h from public counts (the daily routine logs them at 23:07 UTC) plus vidIQ avg % viewed when credits allow (70 left; renews Nov 5).
 
 **Decision rule (set in advance):** change nothing on one pair. Adopt the ring only if it wins 2 of 3 pairs by 5+ points of avg % viewed AND has the higher 48 h views. Call 1-a-day better only if this week's per-post 48 h median beats 2.8K by 50%+.
+
+## Oct 14, 2026 (later): music, footage and voice experiments, pre-registered (written BEFORE any result)
+**What changed:** every ready Short now has a music version (Library/Music Guide.md); the owner picks per post. Log the version actually posted ("+ music" / "no music") in the table above.
+
+**Confounding warning (read this before drawing any conclusion):** this week changes TWO things at once, posting rate (1 a day) and music. A week-level change in views can't be credited to either. Only within-pair comparisons that hold one of them fixed count.
+
+| # | Hypothesis | Measure | Decision rule (set now) | Status |
+|---|---|---|---|---|
+| M1 | A quiet music bed does not hurt and may help avg % viewed | Avg % viewed and 48 h views: the next 6 posts with music vs the last 6 posts without (Oct 5-13), same rate where possible | Credit music only if the music posts' median avg % viewed is 5+ points higher AND the median 48 h views is higher. Otherwise keep music as house style (owner preference) without claiming a reach effect | open |
+| M2 | The ring test stays valid only if #40 and #41 go up with the same audio | the version column above | If they differ (one with music, one without), pair 1 is void and doesn't count toward the 3 pairs | open |
+| Q1 | A concrete question hook ("Why would X do Y?") keeps more viewers in the first 3 s than a statement hook on a comparable topic | The audience-retention ratio at 3 s (vidIQ) | 3 pairs, alternating hook form on comparable topics. Adopt questions only if they win 2 of 3 by 5+ points. Old hits used questions 3/4, new posts 0/20; our two best new Shorts were statements | open |
+| P1 | One cut-in 0.3-0.4 s silence before the final line (music out too) improves the ending (rewatch/loop) | Avg % viewed (over 100% = rewatches) on Shorts that have it vs comparable ones that don't | 3 Shorts with it vs 3 matched without. Adopt only with a 5+ point gap. One old hit used it (Bronny "...son."): n=1 | open |
+| S1 | Keeping the broadcast scorebug and circling the number when it's named (instead of our own card) holds viewers at least as well | Retention-curve dip at the proof moment vs card moments in other Shorts | Descriptive only for now (n small); revisit at 6 Shorts | open |
+
+**Not hypotheses (just facts to keep):**
+- #41 v3 swapped an agency photo for broadcast footage. That was a licensing fix, not a retention test.
+- All the music-version "improvements" are craft changes. No claim about views is made unless a row above shows it.

@@ -22,7 +22,7 @@ first 3 s, average shot <=2.6 s, talking head <=45%, b-roll >=35%, cards <=25%, 
 (no effect in our data). Added: dead air over 0.6 s inside the speech = FAIL (the rule above was documented but never checked);
 slow hook (first sentence ends after 3.5 s) and naked-number opening (warn). Hard length limits are now 12-60 s (warn under 15 / over 35).
 """
-import argparse, json, os, re, subprocess, sys
+import argparse, csv, json, os, re, subprocess, sys
 
 FILLER = {"so", "look", "that's", "thats", "mate", "um", "uh", "well", "okay", "hey", "today", "welcome"}
 
@@ -123,8 +123,10 @@ def main():
     blk = re.findall(r"black_start:([\d.]+) black_end:([\d.]+)", v)
     chk(not blk, "no black frames", f"black frames at {[(round(float(a), 1), round(float(b), 1)) for a, b in blk]} s")
     tail = total - words[-1]["end"]
-    rinfo = os.path.join(F, "_render.json")
-    rinfo = json.load(open(rinfo)) if os.path.exists(rinfo) else {}  # variants (e.g. final_pointer.mp4) are made from this render
+    stem = os.path.splitext(os.path.basename(fin))[0]
+    logs = [os.path.join(F, f"_render_{x}.json") for x in (stem, stem.replace("_pointer", ""))] + [os.path.join(F, "_render.json")]
+    rinfo = next((x for x in logs if os.path.exists(x)), None)  # final.mp4 -> _render.json; other renders -> _render_<name>.json
+    rinfo = json.load(open(rinfo)) if rinfo else {}  # variants (e.g. final_pointer.mp4) are made from their base render
     clipdur = {}
     short = []
     for s, st, e, d in segs:
@@ -160,8 +162,8 @@ def main():
         warn.append(f"average shot {avg:.1f}s is very fast; a 1.9 vs 2.8 s A/B is pending (HYPOTHESIS)")
     dur_voice = words[-1]["end"] - words[0]["start"]
     wpm = len(words) / dur_voice * 60 if dur_voice else 0
-    if not 240 <= wpm <= 290:
-        warn.append(f"speech pace {wpm:.0f} wpm (Clank's biggest Shorts: 247-289)")
+    if not 200 <= wpm <= 265:  # Oct 14: our own old-era hits measured 182-212 wpm; new-era posts 224-250 (Posted Video Audit section 10)
+        warn.append(f"speech pace {wpm:.0f} wpm (guideline 200-265: our old hits ran 182-212, Clank's 247-289; don't drag, don't rush)")
     if not 0.15 <= tail <= 0.6:
         warn.append(f"last word ends {tail:.2f}s before the end (loop tail wants 0.15-0.4 s)")
     last6 = " ".join(w["word"].lower() for w in words[-6:])
@@ -178,6 +180,59 @@ def main():
             break
     if len(s1) <= 4 and re.match(r"^(\d|one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|twenty|thirty|forty|fifty|sixty|seventy|eighty|ninety|hundred)", s1[0].lower()):
         warn.append(f"naked-number opening: '{' '.join(s1)}' (a number with no subject means nothing at second 1; #20 got 1.6K)")
+    # Oct 14 (owner): music is part of the edit. Check the bed is logged, licensed and leaves the speech band clear.
+    ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    mus = rinfo.get("music")
+    if not mus:
+        warn.append("no music bed (house default since Oct 14 is a quiet bed under the voice; see Library/Music Guide.md). Fine if the story is better dry; say why in PACKAGE.md")
+    else:
+        lib = os.path.join(ROOT, "Library", "Music", "music_library.csv")
+        rows = {r["file"]: r for r in csv.DictReader(open(lib, encoding="utf-8"))} if os.path.exists(lib) else {}
+        key = os.path.relpath(os.path.join(ROOT, mus["track"]), os.path.dirname(lib)).replace("\\", "/")
+        row = rows.get(key)
+        chk(row is not None, f"music licence logged ({key})", f"music track {mus['track']} is not in Library/Music/music_library.csv: log source + licence before use")
+        if row:
+            st_ = row.get("status", "").lower()
+            chk("rejected" not in st_ and "unclear" not in st_, f"music licence status: {row.get('status')}", f"music licence not cleared: {row.get('status')}")
+            if "candidate" in st_:
+                warn.append(f"music track '{row.get('title')}' is a candidate the owner has not approved by ear")
+        if mus.get("bed_lu") is not None:
+            soft(-24 <= mus["bed_lu"] <= -16, f"music bed {mus['bed_lu']} LU under the voice", f"music bed {mus['bed_lu']} LU under the voice (house range -24 to -16)")
+        # speech-band clarity: voice vs the music stem (worst case: no ducking), 1-4 kHz, over the speech
+        try:
+            import numpy as np
+            def pcm(cmd):
+                return np.frombuffer(subprocess.run(cmd, capture_output=True).stdout, np.float32)
+            t_in, t_out = float(mus.get("in", 0)), float(mus.get("out", total))
+            m_ = pcm(["ffmpeg", "-v", "error", "-ss", str(mus["track_start"]), "-t", f"{t_out - t_in:.2f}", "-i", os.path.join(ROOT, mus["track"]),
+                      "-af", f"volume={mus['gain_db']}dB", "-ac", "1", "-ar", "16000", "-f", "f32le", "-"])
+            vfile = os.path.join(F, "voice.mp3")
+            vl = re.findall(r"I:\s+(-?[\d.]+) LUFS", subprocess.run(["ffmpeg", "-hide_banner", "-nostats", "-i", vfile, "-af", "ebur128", "-f", "null", "-"],
+                                                                     capture_output=True, text=True).stderr)
+            v_ = pcm(["ffmpeg", "-v", "error", "-i", vfile, "-af", f"volume={-14 - float(vl[-1]):.2f}dB", "-ac", "1", "-ar", "16000", "-f", "f32le", "-"])
+            a0, b0 = int((max(words[0]["start"], t_in)) * 16000), int(min(words[-1]["end"], t_out) * 16000)
+            mm = m_[max(0, a0 - int(t_in * 16000)):max(0, b0 - int(t_in * 16000))]
+            vv = v_[a0:a0 + len(mm)]
+            def band(x):
+                X = np.abs(np.fft.rfft(x)) ** 2; f_ = np.fft.rfftfreq(len(x), 1 / 16000)
+                return X[(f_ > 1000) & (f_ < 4000)].sum() + 1e-12
+            snr = 10 * np.log10(band(vv) / band(mm)) if len(mm) > 16000 else 99
+            chk(snr >= 12, f"speech band clear of music: {snr:.0f} dB (1-4 kHz, before ducking)", f"music crowds the voice: speech-band margin {snr:.0f} dB (want >= 18, fail < 12): lower bed_lu or pick a sparser track")
+            if 12 <= snr < 18:
+                warn.append(f"speech-band margin only {snr:.0f} dB: consider bed_lu 3 dB lower")
+        except Exception as e:
+            warn.append(f"could not measure the music margin: {e}")
+    # Oct 14 (owner): every clip used needs a source-log row (Library/B-roll Sourcing Guide.md)
+    src = os.path.join(F, "sources.csv")
+    used = sorted({s["clip"] for s in shots})
+    if not os.path.exists(src):
+        warn.append("no sources.csv (source log: clip, url, timestamp, what it shows, verified): required for new builds")
+    else:
+        logged = {r.get("clip", "").strip(): r for r in csv.DictReader(open(src, encoding="utf-8-sig"))}
+        miss = [c for c in used if c not in logged]
+        chk(not miss, "every clip has a source-log row", f"clips missing from sources.csv: {miss}")
+        unv = [c for c in used if c in logged and not str(logged[c].get("verified", "")).strip().lower().startswith(("y", "true", "1"))]
+        chk(not unv, "every clip verified against the narration", f"clips not verified (watch them: player, uniform, scorebug, date match the line): {unv}")
     print("PASS" if not bad else "FAIL")
     for x in warn:
         print("  warn", x)

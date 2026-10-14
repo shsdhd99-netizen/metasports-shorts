@@ -64,3 +64,13 @@ Nikola {Jokic|Yoki-ch} has 198 triple-doubles. Russell Westbrook retired with th
   - Jokic is on screen for "810", "34" and "65 games".
   - The card is readable; the ending is Jokic.
 - **Not verified:** naturalness by ear (owner).
+
+
+## Music and sound (Oct 14, 2026; `Library/Music Guide.md`)
+- **Track:** `Library/Music/eleven_hype_01.mp3` (Trap pulse).
+  - **Source and licence:** ElevenLabs Music, generated Oct 14 on our Starter plan. All online commercial use, no attribution (elevenlabs.io/music-terms). Logged in `Library/Music/music_library.csv`.
+  - **Status:** candidate until the owner approves it by ear.
+- **Mood and plan:** Record-chase countdown = the 'hype' bed (trap, 144 BPM, 2% speech-band energy). The track's own break (27.0-27.4 s) falls under the Christmas card and its re-entry hit lands on 'Four games to spare.'
+- **Placement** (from the render log): track from 11.98 s, video 0.0-16.927347 s, bed -21.0 LU under the voice (gain -22.8 dB), lift in no-speech gaps 3.0 dB [[16.32, 16.93]], drops [].
+- **Sound effects:** unchanged from `sfx.json`. Their licence is unknown (the "Downloads/music" origin is flagged in the Rules Audit).
+- **Checks:** QA PASS. Speech band clear of the music before ducking (1-4 kHz margin in the QA output). Every drop, hit and stop was confirmed by isolating the music (music render minus dry render).

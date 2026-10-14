@@ -1,5 +1,17 @@
 # #40 Why Jokic's Best Pass Doesn't Count (Oct 13, 2026)
 
+## Versions, music and footage (Oct 14, 2026)
+| File (in the Hub) | What it is |
+|---|---|
+| **NEW: ring + music** (`final_music_pointer.mp4`) | the ring version with the 'Clever pulse' bed, 20 dB under the voice. The music goes silent for 0.3 s before "It isn't." and stops before "Not eighty-one." so the punchline lands dry |
+| Ring, no music (`final_pointer.mp4`) | the critic-passed original |
+| Plain + music / plain (`final_music.mp4` / `final.mp4`) | no ring |
+- **Pick by ear on the Sound Check page:** https://claude.ai/artifact/U58nqkg8BHDTJXNdy64Tcd
+- **Post #40 and #41 the same way** (both with music or both without), so the ring-vs-plain test stays fair.
+- **Footage:** every clip is logged and checked frame by frame in `sources.csv`. All of it is the Oct 4 2026 Nuggets-Jazz preseason game in Boulder, from NBA posts on X plus one Kevin O'Connor post.
+- **QA:** PASS on all four files; the speech band is 40 dB clear of the music.
+
+
 **Video:** `READY TO POST - Why Jokics Best Pass Doesnt Count.mp4`
 - v2 (re-cut after Critic v2, Oct 13 late): 21.3 s, 1080x1920, -14.7 LUFS, house captions, no headline.
 - Passes `Tools/qa_short.py`; voice check CHECK (notes only: name spelling).

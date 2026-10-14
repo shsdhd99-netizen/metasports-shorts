@@ -72,3 +72,13 @@ House metasports captions from `words.json`. Checked on `_audit/watch/sheet.jpg`
 - `voice_quality.py`: PASS.
 - `watch_short.py`: report and sheet are in `_audit/watch/`.
 - **Not verified:** naturalness by ear (owner).
+
+
+## Music and sound (Oct 14, 2026; `Library/Music Guide.md`)
+- **Track:** `Library/Music/eleven_stats_01.mp3` (Clever pulse).
+  - **Source and licence:** ElevenLabs Music, generated Oct 14 on our Starter plan. All online commercial use, no attribution (elevenlabs.io/music-terms). Logged in `Library/Music/music_library.csv`.
+  - **Status:** candidate until the owner approves it by ear.
+- **Mood and plan:** Paradox/record story = the 'stats' bed (clever pulse, 92 BPM, 4% speech-band energy). One beat of silence before the turn 'It isn't.'; the music decays before the punchline 'Not eighty-one.' so it lands dry (the old 'Why does no one like Bronny' hit did this on its last word).
+- **Placement** (from the render log): track from 0.0 s, video 0.0-19.8 s, bed -20.0 LU under the voice (gain -15.1 dB), lift in no-speech gaps 4.0 dB [], drops [[12.6, 12.9]].
+- **Sound effects:** unchanged from `sfx.json`. Their licence is unknown (the "Downloads/music" origin is flagged in the Rules Audit).
+- **Checks:** QA PASS. Speech band clear of the music before ducking (1-4 kHz margin in the QA output). Every drop, hit and stop was confirmed by isolating the music (music render minus dry render).

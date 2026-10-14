@@ -40,11 +40,12 @@
   "start": 5.51
  },
  {
-  "clip": "p_dal.png",
+  "clip": "D_dal.mp4",
   "anchor": "Dallas brought",
-  "kind": "face",
-  "why": "Sharp in a Dallas #33 uniform (photo: Kevin Jairaj-Imagn via HoopsHype)",
-  "start": 6.32
+  "kind": "action",
+  "why": "Sharp (#33, white Mavericks jersey) on court vs Utah, Oct 2024 preseason broadcast, scorebug shows DAL; replaces the Imagn agency photo (licence risk), Oct 14",
+  "start": 6.32,
+  "in": 0.0
  },
  {
   "clip": "H3.mp4",

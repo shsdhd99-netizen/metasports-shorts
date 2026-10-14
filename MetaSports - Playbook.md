@@ -13,7 +13,7 @@
 
 **Queue:** `Production Queue.md`. **Critic:** `Tools/critic_v2.md`. **The Oct 13 formula's full text** is in git history (commit 5234797).
 
-### 1. What wins on this channel (the evidence in one paragraph)
+### 1. What wins on this channel (the evidence in one paragraph; old-vs-new creative comparison: Posted Video Audit §10)
 - **The pattern [V]:** the Shorts that reached the old-era band all give a casual fan, within about 3 s, something **specific, visible and surprising**:
   - a rule paradox on an object (#22, the #6 jersey)
   - a record paradox on a star (#03)
@@ -50,11 +50,11 @@
 4. **Context:** every sentence adds a fact or raises stakes; one measure (format 1); escalation (format 3). No background stretch.
 5. **Payoff:** answers line 1 and fulfils the title. One number, or the subject's own words, then stop. No question, CTA or hedge.
 6. **Accuracy:** every claim has a dated source in notes.md, and qualifiers are kept ("listed", "probably", "regular season"). Confidence comes from specifics, not from overclaiming (#17's "BAN" title cost retention).
-7. **Proof on screen:** the right person on their name; the number visible; the quote with its source. No footage that merely resembles the story; no team colours under another team's name.
+7. **Proof on screen:** the right person on their name; the number visible (the broadcast scorebug, circled, when it's the exact game); the quote with its source. No footage that merely resembles the story; no team colours under another team's name. **Every clip logged and verified in `sources.csv`** (`Library/B-roll Sourcing Guide.md`); no agency photos taken from news posts.
 8. **Footage-first:** frame 1 and a proof clip for every beat are secured **before** voicing.
-9. **Voice:** the clone (see section 6), about 250-290 wpm for formats 1-2. Every name and number heard correctly by the recogniser. No dead air over 0.6 s.
+9. **Voice:** the clone (see section 6), about 200-265 wpm (revised Oct 14). Every name and number heard correctly by the recogniser. No dead air over 0.6 s. Key numbers made to land by the edit (caption colour, circle, music drop, a cut-in pause), since the voice reads them flat.
 10. **Captions:** readable, clear of faces, action and card text; no lone-word cards. **Cards:** proof only, never two in a row, none in the first 4 s (TEST).
-11. **Sound:** effects only where the picture makes the sound, or on the single reveal. The voice at -14 LUFS; true peak ≤ -1 dBTP.
+11. **Sound:** a music bed by story type, 20 dB under the voice, with the payoff marked by the music (silence, stop, swell or hit) and dropped under real quotes; the track logged in `music_library.csv` (`Library/Music Guide.md`). Effects only where the picture makes the sound, or on the single reveal. The voice at -14 LUFS; true peak ≤ -1 dBTP.
 12. **Render:** inspected end to end (frame sheet + transcript of the final audio). `qa_short.py` PASS, then Critic v2 PASS (a separate agent), then the owner's listen.
 13. **Package:** the title is the premise in plain words and goes up **exactly** as written; up to 3 hashtags; about 12 tags; the debate question in the pinned comment.
 
@@ -80,18 +80,36 @@
 - **Cuts:**
   - Cut when the picture's information is spent: typically 1-2.5 s; longer for a key replay.
   - "3 shots in 3 s" is a guideline, not a gate.
-- **Proof first:**
-  - Each line's picture must show what the line says (the critic's top finding in 3 of 3 builds).
-  - Crop tickers, scorebugs and burned-in captions.
+- **Proof first** (full method: `Library/B-roll Sourcing Guide.md`):
+  - Each line's picture must show what the line says (the critic's top finding in 3 of 3 builds). Exact player, game or moment beats generic footage; the old hits did this in 8/11 and 11/13 shots [S].
+  - **Revised Oct 14:** when the clip IS the game being described, **keep the scorebug** and broadcast banners as proof, and circle the number when it's named (`broll.py circle`). Old hits: Luka's 1.5 s clock and 126-125 score; Kobe's "60 POINTS" [S].
+  - Crop scorebugs only on stand-in shots (a wrong opponent is a critic FAIL, #39). Always crop tickers, watermarks and other creators' captions.
+  - **Secure the opening visual before the script is final.**
+  - Every clip gets a row in `sources.csv` (written automatically by `x_clip.py` and `broll.py cut`), checked with `footage_lib.py sheet` and marked with `footage_lib.py verify`. QA FAILs a missing or unverified clip once a log exists.
+  - Never use agency photos (Getty, Imagn, AP) taken from news posts: #41's Dallas still was one (replaced in v3).
 - **Movement:** only to reveal a detail or follow the ball. No random zooms, no flash cuts.
 - **Cuts:** look at the 30 fps frames around every cut. A clip's first frame or its own internal cut can flash for one frame (#21 had two); fix with `in` or the shot start.
 - **Captions:**
   - House style (white Montserrat ALL CAPS, the 45-62% band).
   - Re-crop the shot or move the band if a face sits in it (per shot: `"cap_y": 1305` in shots.json = 68%; default 1185).
   - The chunker now avoids lone-word cards (Oct 14).
-- **Payoff visual:** the strongest image lands on the payoff line, never before it (a card can reveal in two steps, as #41's 350 → 0 does).
+- **Payoff visual:** the strongest image lands on the payoff line, never before it (a card can reveal in two steps, as #41's 350 → 0 does). **Hold the payoff shot longest** (the old free-throw hit held its payoff 3.5 s) [S].
+- **Escalation:** where the story has them, build to the payoff with a count-up (Kobe 51-53-56-60) or escalating examples, the craziest last [S].
 - **Ending:** cut on the last word, plus a 0.15-0.4 s tail. Loop into frame 1 when the ending image serves the payoff. Never add a sub-0.6 s shot just to loop.
-- **Sound:** no music by default (owner rule; TEST under emotional arcs); 2-3 effects; no clipping.
+- **Sound (revised Oct 14: music ON by default, owner decision; full guide: `Library/Music Guide.md`):**
+  - A quiet bed (`music.json`, `bed_lu` -20, house range -24 to -16) chosen by story type:
+    - stats/paradox → "Clever pulse"
+    - reveal → "Dark build"
+    - high energy/countdown → "Trap pulse"
+    - emotional → "Warm piano"
+  - **The payoff is marked by the music:** a beat of silence before the turn, the music stopping before the punchline, a swell, or the track's hit on the payoff line.
+  - Music **always drops under real quote audio**.
+  - QA FAILs a bed that crowds the speech band (under 12 dB at 1-4 kHz) or a track missing from `music_library.csv`.
+  - Dry only when silence is the story (say why in PACKAGE.md).
+  - Effects: 2-5, only where the picture makes the sound (whoosh on a circle, rim on a miss). The current `Tools/sfx` files have an unknown licence: replace them over time.
+  - No clipping: music renders limit at -3 dBFS.
+- **Emphasis** (Voice Audition part 2: our voice delivers numbers flat, -0.4 to +0.2 dB vs other words, and "..." adds only ~0.05 s):
+  - Make key numbers land through the edit: a coloured caption, a circle, the music dropping, a cut-in 0.3-0.4 s pause before the payoff line (TEST P1).
 - **QA FAILs** (`qa_short.py`, Oct 14):
   - black frames
   - frozen footage over 0.6 s
@@ -103,6 +121,7 @@
   - missing shot kinds
   - one clip filling 35%+
   - fewer than 6 sources
+  - (Oct 14) a music track not in the library or not cleared; music crowding the speech band (under 12 dB); a clip missing from `sources.csv` or not verified (once the log exists)
   - a weak hook
   - a filler opening
   - a late voice start (over 0.4 s)
@@ -110,7 +129,8 @@
 - **QA warnings** (fix when they hurt the story):
   - shots in the first 3 s, average shot, b-roll %, cards %, two cards in a row, loop, length 15-35 s
   - early card, slow hook, naked-number opening
-  - pace, tail, CTA, tiny shots
+  - pace (now 200-265 wpm: the old hits measured 182-212), tail, CTA, tiny shots
+  - no music bed, music track still a candidate, bed outside -24 to -16, speech-band margin under 18 dB, no `sources.csv`
 
 ### 6. Voice (Voice Audition Oct 14; I can't hear audio, so naturalness is the owner's ear)
 - **Keep** the clone "pham v2" (`GDS7e7WiI4GqkoRxZAFG`), eleven_multilingual_v2, speed 1.1-1.15, stability .65, similarity .7.
@@ -127,6 +147,9 @@
   - use the Flash model
   - put a spoken number next to a number-like word ("fifty threes" → "353s")
 - **TEST:** a v3 voice (more pitch variety, slower) for format-3 arcs only.
+- **Pace (revised Oct 14):** the old hits measured 182-212 wpm and our new posts 224-250. Don't push faster: aim for 200-265.
+- **With music:** the voice is lifted to -14 LUFS, then the bed goes 20 dB under it. Our beds cost no words in the phone test even at -2 LU [V].
+- **Owner's ear:** voice finalists and every ready Short with and without music, on the Sound Check page: https://claude.ai/artifact/U58nqkg8BHDTJXNdy64Tcd
 
 ### 7. Experiments running or proposed (one variable each; log in the Outcome Log; decide at 48 h)
 1. **Red ring in frame 1:** #40 (ring) vs #41 (plain), then 2 more pairs.
@@ -135,6 +158,10 @@
 4. **A premise pill on frame 1:** 3 pairs, needs the owner's OK (it breaks the no-headline rule) [B12].
 5. **Format 2 with a 0.5-1 s cold open.**
 6. **The prediction check:** score vs 48 h views at 10 posts [D1].
+7. **(Oct 14) Music cohort (M1):** music vs no-music posts by avg % viewed; no reach claim without it. Confounded this week with the posting rate.
+8. **(Oct 14) Question hook vs statement hook (Q1):** 3 pairs. Old hits used questions 3/4; new posts 0/20.
+9. **(Oct 14) A cut-in pause before the final line (P1):** 3 vs 3.
+10. **(Oct 14) Scorebug-as-proof with a circle (S1):** descriptive, n≥6.
 
 ### 8. What would change this system
 - **If formats 1-3 built to this checklist** stay under a 5K median at 48 h across 6 posts, the problem is distribution, not craft. Test the posting rate first.

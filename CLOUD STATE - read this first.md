@@ -142,3 +142,31 @@ Research Notes/Round 9 - Competitor Shorts Watched (Oct 5, 2026).md. Findings (n
   3. OK or swap the #36 fan-account clip.
   4. The premise pill test (needs your OK).
   5. X links for #42/#43 footage.
+
+## Oct 14 (evening): old-video study, B-roll sourcing system, music system, voice emphasis, ready Shorts improved (owner brief "take this further")
+- **Old videos** (`Research Notes/Posted Video Audit (Oct 14, 2026).md` §10 + the watch-reports appendix):
+  - 4 old hits + 1 weak control watched scene by scene via vidIQ (50 credits). YouTube downloads and the embed workaround are blocked/refused.
+  - What the hits did: exact-moment footage, the scorebug kept as proof and circled, escalation, a punch-line answer, and a music bed with payoff moves.
+  - The control had the same music and effects, so those were house style, not the cause.
+  - Old pace measured 182-212 wpm (the new posts already run faster).
+- **B-roll:** `Library/B-roll Sourcing Guide.md`.
+  - New `Tools/footage_lib.py` (log, match, sheet, verify, index, search). `x_clip.py` and `broll.py cut` now log automatically.
+  - `sources.csv` is complete and verified for #40, #41, #21 and #38.
+  - **#41 v3** replaces an Imagn agency photo (licence risk) with Mavericks preseason game footage of Sharp.
+  - `Library/footage_library.csv` indexes all 643 clips (35 verified).
+- **Music:** `Library/Music Guide.md`; library `Library/Music/` (4 ElevenLabs beds, clean licence; 3 Mixkit candidates).
+  - `assemble.py` reads `music.json`: measured bed level, drops, hits, `--no-music`.
+  - QA checks the licence, the level and the speech-band margin.
+  - Intelligibility test: no words lost even at -2 LU.
+  - Music versions exist for #40 (ring and plain), #41 v3, #21 and #38. Originals are untouched; the `final_*.mp4` renders are in the folders (not in git) and in the Hub.
+- **Voice part 2** (Voice Audition README): our voice reads numbers flat, and "..." doesn't make a real pause. Emphasis now comes from the edit (Creative System v3 §5).
+- **Owner listening page (Sound Check):** https://claude.ai/artifact/U58nqkg8BHDTJXNdy64Tcd. Five questions: voice, "Wembanyama", music per Short, level, beds.
+- **Hub:**
+  - s40, s41, s21 and s38 have "NEW … + music (listen first)" versions next to the originals.
+  - s41's first version is v3.
+  - Note on s40/s41: post both the same way, so the ring test stays fair.
+- **#38:** Critic v2 agent run on the music version (result in `Research Notes/Critic v2 Review (Oct 13, 2026).md`).
+- **#42:** still blocked on footage. Search engines don't index X posts, and the library has no LeBron miss or Kobe clip. The owner's X links or a PC build are needed.
+- **Pre-registered** (Outcome Log, "Oct 14 (later)"): M1 music cohort (confounded this week with the posting rate), M2 (#40 and #41 must share audio), Q1 question hooks, P1 cut-in pause, S1 scorebug-as-proof.
+- **Rules changed** (Rules Audit addendum): B10 no-music retired by the owner, plus B14 scorebug, C2 pace 200-265, B16-B19, C6, A13, D13 (sound-effect licences unknown).
+- **Credits:** ElevenLabs 22,389 of 52,087 used (music generation bills here too, plus about 1.9K for the emphasis test). Music: 17 generated minutes a month on Starter, about 2.1 used. **vidIQ 5 credits left** (renews Nov 5), so the Oct 18 48 h check gets one retention call; use free public counts for the rest.

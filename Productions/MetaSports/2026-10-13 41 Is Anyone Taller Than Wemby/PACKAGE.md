@@ -77,3 +77,13 @@ This man is listed taller than Victor Wembanyama. And he's never played an NBA g
   - No scorebugs.
   - The 0 lands on "zero".
 - **Not verified:** naturalness by ear (owner).
+
+
+## Music and sound (Oct 14, 2026; `Library/Music Guide.md`)
+- **Track:** `Library/Music/eleven_suspense_01.mp3` (Dark build).
+  - **Source and licence:** ElevenLabs Music, generated Oct 14 on our Starter plan. All online commercial use, no attribution (elevenlabs.io/music-terms). Logged in `Library/Music/music_library.csv`.
+  - **Status:** candidate until the owner approves it by ear.
+- **Mood and plan:** Mystery-to-reveal story = the 'suspense' bed (85 BPM build, 0% speech-band energy). The track builds through the setup and starts its decay on 'zero.', so the music ends with the answer.
+- **Placement** (from the render log): track from 6.52 s, video 0.0-22.987755 s, bed -20.0 LU under the voice (gain -19.3 dB), lift in no-speech gaps 4.0 dB [[22.45, 22.99]], drops [].
+- **Sound effects:** unchanged from `sfx.json`. Their licence is unknown (the "Downloads/music" origin is flagged in the Rules Audit).
+- **Checks:** QA PASS. Speech band clear of the music before ducking (1-4 kHz margin in the QA output). Every drop, hit and stop was confirmed by isolating the music (music render minus dry render).
