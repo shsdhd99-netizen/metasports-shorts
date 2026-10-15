@@ -31,3 +31,12 @@ The rewrite scored 39/45 (APPROVE). See `Research Notes/Script Critic Log.md`, C
 - **Frames:** 1 s sheet checked (`_audit/sheet_1s.jpg`).
 - **Flash scan:** clean, after the re-cuts.
 - **Transcript of the final audio:** every line heard right.
+
+## QA re-run with the new checks (Oct 15, 2026): PASS, with to-dos
+`qa_short.py --full` (footage_qc + export_check):
+- **Hook:** fails the new hook anchor (Script Critic Log §E). The surprise is sentence 2, at about 4.8 s. **Fix: v6 with a one-sentence opening.**
+- **Shot 2 (a1L):** from a 640x640 post (the NBA's tribute), so it's blown up 3.0x. Below the 1080p standard; replace it in v6.
+- **Captions:** "TWENTY-SEVENTH GAME" ran about 867 px wide (over the 820 px safe width). Future renders auto-fit.
+- **Soft:** a2 (shot 1, Westbrook applauding) and b4c.
+- **Busy:** b1cj and a3 (a dunk montage with its own cuts; it stays on Westbrook).
+- **Export speech vs script:** 98% match. The differences are speech-to-text mishearing "Nikola" and "twenty-seventh". Captions match the script word for word.

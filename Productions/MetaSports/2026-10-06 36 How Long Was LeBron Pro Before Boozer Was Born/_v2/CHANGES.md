@@ -29,3 +29,11 @@ The rewrite scored 38/45 (APPROVE). See `Research Notes/Script Critic Log.md`, C
 - **Flash scan:** clean.
 - **Frames:** 1 s sheet checked.
 - **Transcripts:** every line heard right. "Boozer" comes back as "Buzer", which is how it's said.
+
+## QA re-run with the new checks (Oct 15, 2026): PASS, with to-dos
+`qa_short.py --full` (footage_qc + export_check):
+- **Shots 8 and 10 (a1_df, a1bj: the 2007 LeBron close-up) are soft.** A frame check confirms it: dim and blurry archive footage. Swap it for a sharper 2007 Finals shot if one exists.
+- **e1bg_df** has an internal cut at 0.7 s. It's the same game (2007 ECF, already logged).
+- **Captions:** "DAYS BEFORE CAMERON" ran about 861 px wide (over 820). Future renders auto-fit.
+- **Export speech vs script:** 97% match ("Bouser" for Boozer is speech-to-text). Captions match the script word for word.
+- **The hook passes the new anchor unchanged** (Script Critic Log §E).

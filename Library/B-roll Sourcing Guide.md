@@ -1,4 +1,4 @@
-# B-roll Sourcing Guide (canonical; Oct 14, 2026)
+# B-roll Sourcing Guide (canonical; Oct 14, 2026; quality standard and QA tools added Oct 15)
 
 This guide answers how we find, check, log and reuse footage for every Short.
 - **What footage should do in a Short:** `MetaSports - Playbook.md` → Creative System v3, §5.
@@ -22,7 +22,15 @@ Evidence tiers: **[V]** verified on our own files or tests, **[S]** small-n supp
    - One-frame flashes come from a clip's first frame or its own internal cut. [V: #21's two flashes]
 6. **Log everything** in `<production>/sources.csv`: link, account, date, in/out seconds, crop, what it shows, the line it sits under, verified yes/no.
    - QA FAILs a build whose log misses a clip or has an unverified clip.
-7. **Never fabricate.**
+7. **Quality standard (Oct 15):**
+   - **The source must be 1080p or better.** A full-height vertical crop of a 1080p landscape broadcast is a 1.78x blow-up, and that's the house baseline.
+   - Over 2.0x (a 720p source, or a tight crop) is allowed only when no better copy of that moment exists; say so in PACKAGE.md.
+   - Over 3.0x fails QA.
+   - **No upscaling pretence:** never run footage through an AI upscaler or sharpener and describe it as HD. A soft archive clip stays labelled as archive.
+   - **No other creator's overlays,** watermarks, captions or channel logos in frame.
+   - **No scorebug that contradicts the line** (rule 3).
+   - `footage_qc.py` measures the blow-up from the logged source size, flags soft shots, and lists the source's own internal cuts.
+8. **Never fabricate.**
    - No AI-generated footage of real players and no doctored images (#41 v1's pasted logo was rejected).
    - No game presented as another game.
    - If a moment can't be sourced, use an honest alternative (section 6) or flag the blocker.
@@ -33,16 +41,17 @@ Evidence tiers: **[V]** verified on our own files or tests, **[S]** small-n supp
 | 1. Beats | Write the visual beats next to the draft script: the opening image, one image per claim, the payoff image | `notes.md` |
 | 2. Search | Find posts of the exact moment (section 3 has the search patterns) | WebSearch `site:x.com ...` |
 | 3. Download | Pull the posts into the production's `src/` (gitignored) | `python x_clip.py <post urls> --out "<folder>/src"` → `src/<id>.mp4` + `src/downloads.csv` (account, date, post text) |
+| 3b. Best copy | When the same moment is posted more than once, keep the **original poster** (league or team over reposts) at the **highest resolution**. Compare candidates before cutting | `ffprobe -v error -select_streams v -show_entries stream=width,height,bit_rate -of csv=p=0 src/*.mp4`; the source size goes into the log automatically at the cut |
 | 4. Preview | Contact sheet of each source to pick clean seconds | `python broll.py sheet "<folder>/src/<id>.mp4" --every 1 --out sheet.jpg` |
 | 5. Cut | 1080x1920 clip; keep or crop the scorebug per rule 3 | `python broll.py cut "<folder>/src/<id>.mp4" --at 3.2 --len 2 --x 0.5 --out "<folder>/clips/A1.mp4"` → writes the clip's `sources.csv` row automatically |
 | 6. Circle | Red circle on the named detail (score, clock, shoe, hand) | `python broll.py circle clips/A1.mp4 --at 0.62,0.88 --out clips/A1c.mp4` |
 | 7. Map | Shots to words (`anchor` in shots.json); fill "line" and "used at" in the log | `python anchor_shots.py ...`; `python footage_lib.py log "<folder>"` |
 | 8. Verify | Look at the used part of every clip; record what it shows | `python footage_lib.py sheet "<folder>"` → `_audit/clips/*.jpg`; `python footage_lib.py verify "<folder>" A1.mp4 "Jokic #15 Nuggets, no-look pass vs Utah, Oct 4 2026 preseason"` |
 | 9. Older clips | Recover the source post and second of clips cut before logging existed | `python footage_lib.py match "<folder>" --src <dirs of downloaded posts>` (0.80+ = match; 0.70-0.80 = "probable", confirm by eye) |
-| 10. QA | `qa_short.py` warns if there is no `sources.csv`, and FAILs on a missing or unverified clip once one exists | `python qa_short.py --folder "<folder>"` |
+| 10. QA | `qa_short.py` warns if there is no `sources.csv`, and FAILs on a missing or unverified clip once one exists. `--full` adds the footage check (blow-up, softness, duplicates under other names, one-frame flashes, busy picture, internal cuts) and the export check (captions = script, caption timing and safe width, export speech vs script, timeline, clipping) | `python qa_short.py --folder "<folder>" --full`; footage only: `python footage_qc.py "<folder>" --json` → `_audit/footage_qc.json` |
 | 11. Reuse | Index every clip of every production, then search before downloading again | `python footage_lib.py index` → `Library/footage_library.csv`; `python footage_lib.py search jokic pass` |
 
-**What "verified" means:** you looked at the used seconds and checked each of these against the line it sits under:
+**What "verified" means:** you looked at the used seconds, **including the footage after any internal cut `footage_qc.py` lists**, and checked each of these against the line it sits under:
 - the player (face, number)
 - the uniform (team, home/away, era)
 - the scorebug (opponent, score, clock, date if shown)

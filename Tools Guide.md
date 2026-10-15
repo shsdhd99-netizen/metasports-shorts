@@ -57,6 +57,27 @@ There are two ways to use everything here:
 - **Easiest:** type a command in Claude (the Code tab, opened on this folder) and Claude runs the tools for you.
 - **By hand:** open the `Tools` folder, click the address bar, type `cmd`, press Enter, then paste a command from below.
 
+## Newest changes (Oct 15, 2026)
+- **`qa_short.py --full` is now the full gate.** It adds the two checks below. Standards and calibration: `Library/Editing and Sound Standards.md` §6.
+- **`footage_qc.py` (new):** per shot, using only the seconds each shot uses:
+  - blow-up from the source (from `sources.csv`: warn over 2.0x, FAIL over 3.0x)
+  - softness vs the Short's own median
+  - the same footage under another file name
+  - one-frame flashes
+  - busy picture and push-ins over 4%/s
+  - the source's own internal cuts (check the footage after them)
+  - `python Tools/footage_qc.py "<folder>" --json`
+- **`export_check.py` (new):** the export against the approved script and timeline:
+  - captions = `script.txt` word for word (FAIL otherwise)
+  - every word captioned while said
+  - caption band and width (at most 820 px, clear of the like/comment column)
+  - local speech-to-text of the export vs the script (free, faster-whisper)
+  - picture and sound the same length, 1080x1920
+  - clipping in the voice and the export
+  - `python Tools/export_check.py "<folder>"`; `--no-stt` skips the speech check
+- **`captions.py`:** a caption card wider than 820 px now shrinks to fit (it used to reach 867 px).
+- **`script_lint.py`:** a hook check on line 1 (number-led, list-like, no absolute or curious claim word, too long), from the Studio export finding that stayed-to-watch tracks views.
+
 ## Newest changes (Oct 14, 2026, late night)
 - **`script_critic.md` (new): Script Critic v3, the strict pre-production gate.**
   - 10 categories; APPROVE needs 36+/45, with premise, hook and payoff each 4+. Accuracy is pass/fail.

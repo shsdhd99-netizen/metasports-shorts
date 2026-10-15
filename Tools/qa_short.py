@@ -1,6 +1,7 @@
 """Quality gate. Run BEFORE delivering any Short. Exit code 1 = do not ship, fix the listed items.
 
-  python qa_short.py --folder "<Short folder>"
+  python qa_short.py --folder "<Short folder>"            # edit rules
+  python qa_short.py --folder "<Short folder>" --full     # + footage_qc.py and export_check.py (Oct 15): the full gate
 
 Reads shots.json (each shot needs "kind": face|quote|action|card), words.json, final.mp4.
 Rules (from the retention research; each has burned a Short before):
@@ -32,6 +33,8 @@ def main():
     ap.add_argument("--folder", required=True)
     ap.add_argument("--video", help="video to test (default final.mp4)")
     ap.add_argument("--infer-kinds", action="store_true", help="old Shorts: cards by clip name, everything else counts as action")
+    ap.add_argument("--full", action="store_true", help="also run footage_qc.py (upscale, softness, duplicates, flashes, motion, internal cuts) "
+                    "and export_check.py (captions vs script, caption timing and safe area, export speech vs script, timeline, clipping)")
     a = ap.parse_args()
     F = a.folder
     shots = json.load(open(os.path.join(F, "shots.json")))
@@ -239,6 +242,13 @@ def main():
         chk(not miss, "every clip has a source-log row", f"clips missing from sources.csv: {miss}")
         unv = [c for c in used if c in logged and not str(logged[c].get("verified", "")).strip().lower().startswith(("y", "true", "1"))]
         chk(not unv, "every clip verified against the narration", f"clips not verified (watch them: player, uniform, scorebug, date match the line): {unv}")
+    if a.full:  # Oct 15: the footage and export checks (Library/Editing and Sound Standards.md section 6)
+        sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+        import footage_qc, export_check
+        _, fb, fw = footage_qc.check(F)
+        bad += [f"footage: {x}" for x in fb]; warn += [f"footage: {x}" for x in fw]
+        eb, ew, eo = export_check.check(F, fin)
+        bad += [f"export: {x}" for x in eb]; warn += [f"export: {x}" for x in ew]; ok += [f"export: {x}" for x in eo]
     print("PASS" if not bad else "FAIL")
     for x in warn:
         print("  warn", x)

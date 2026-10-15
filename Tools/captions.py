@@ -221,6 +221,23 @@ def ass_time(t):
     return f"{int(h)}:{int(m):02d}:{int(s):02d}.{cs:02d}"
 
 
+MAX_CAP_PX = 820  # centred at x=540, a wider line passes x=950, where the Shorts like/comment buttons sit (export_check.py)
+
+
+def fit_scale(text, st):
+    """Uniform scale (<= 1) that keeps a caption line under MAX_CAP_PX. Width measured with the real font; libass draws an ASS
+    font size at about 0.745 of PIL's em width (calibrated Oct 15 on a burned #36 v2 frame: 'STARTED SEVENTY-FIVE' is 1115 px
+    in PIL at size 86 and burned 831 px wide at the pop's final \\fscx100)."""
+    try:
+        from PIL import ImageFont
+        fp = os.path.join(HERE, "fonts", st["font"].replace(" ", "-") + ".ttf")
+        b = ImageFont.truetype(fp, int(st["size"])).getbbox(text)
+        px = (b[2] - b[0]) * (1.0 if st.get("pop") else st["scalex"] / 100) * 0.745
+        return min(1.0, MAX_CAP_PX / px) if px else 1.0
+    except Exception:
+        return 1.0
+
+
 def make_ass(words, style="metasports", manual=None, total=None, ys=None):
     """ys: optional [(shot_start, y)] from shots.json "cap_y"; a card uses the y of the shot it starts in."""
     st, manual = STYLES[style], manual or {}
@@ -248,8 +265,11 @@ def make_ass(words, style="metasports", manual=None, total=None, ys=None):
         tags = f"\\pos(540,{y})\\blur{st['blur']}"
         if col:
             tags += f"\\c{RED if col == 'red' else GREEN}"
+        fit = fit_scale(shown, st)  # Oct 15: keep the widest card clear of the Shorts like/comment column (x > 950)
         if st["pop"]:
-            tags += "\\fscx86\\fscy86\\t(0,90,\\fscx100\\fscy100)"
+            tags += f"\\fscx{86 * fit:.0f}\\fscy{86 * fit:.0f}\\t(0,90,\\fscx{100 * fit:.0f}\\fscy{100 * fit:.0f})"
+        elif fit < 1:
+            tags += f"\\fscx{st['scalex'] * fit:.0f}\\fscy{100 * fit:.0f}"
         shown = shown.replace("{", "(").replace("}", ")")
         if st.get("kara"):  # one event per spoken word; the active word is highlighted, layout never moves
             toks = [re.sub(r"[{}]", "", w["word"]) for w in card]
