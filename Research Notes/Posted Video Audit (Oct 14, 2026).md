@@ -413,3 +413,80 @@ Format per Short: **1-3 s** what the viewer gets · **Hook** · **Frame 1** · *
 **Ages:**
 - #39 went up Oct 13 at 23:49 UTC (4.0K at about 23 h).
 - #40 and #41 went up Oct 14 (exact times not logged yet).
+
+## 13. YouTube Studio export, Sep 16 to Oct 14, 2026 (owner upload, Oct 15): the main source of truth from now on
+**Files:** `Research Notes/Studio exports/Content 2026-09-16 to 2026-10-14/`. The column names are kept exactly as exported.
+
+| File | What it holds |
+|---|---|
+| `Table data.csv` | 97 Shorts plus a Total row. Columns: Content (video ID), Video title, Video publish time, Duration, Engaged views, Average view duration, Average percentage viewed (%), **Stayed to watch (%)**, Returning / Casual / Regular / New viewers, Views, Watch time (hours), Subscribers, Thumbnail impressions, Thumbnail click-through rate (%) |
+| `Chart data.csv` | Weekly engaged views for the top 5 |
+| `Totals.csv` | Weekly channel engaged views |
+
+**How it was matched and what it doesn't cover:**
+- **Matched by video ID** (the Content column) to our metrics file. Publish dates agree for all 22 new-era Shorts.
+- **Average percentage viewed** matches our earlier vidIQ values within 1-2 points, with one exception: #23 is 104.7 here vs 96.5 earlier (read on a different day).
+- **It's a window, not lifetime.** Old-era Shorts (Nov 2025-Feb 2026) show only their views inside this window (single digits to 147), so they **can't** be compared on views here. Their lifetime numbers stay in `MetaSportsClips - all 80 Shorts.csv`.
+- **Not in it:** #40 and #41 (posted Oct 14, after the data ends).
+- **Not supplied:** retention curves.
+- **"Thumbnail impressions / CTR"** counts thumbnail surfaces (browse, search, channel page), not the Shorts feed. It is not a feed metric, so it isn't used here.
+
+**Window totals:**
+- 141,000 views; 76,347 engaged views; average view duration 0:25; average % viewed 100.4; **stayed to watch 72.9%**.
+- 545 watch hours; **51 subscribers**.
+- New viewers 55,950 vs returning 6,793: **89% new viewers.**
+
+### What the export shows (22 Shorts published in the window; the Jordan-rules outlier with 38 views and the Bronny repost are excluded from the correlations, n=20) [V]
+| Measure vs views (Spearman) | rho |
+|---|---|
+| **Stayed to watch (%)** (the share who watched instead of swiping away) | **+0.77** |
+| Average percentage viewed | +0.51 |
+| Average view duration | +0.42 |
+| Days since publish | +0.27 |
+| Duration (22-33 s) | -0.05 |
+
+| Group | n | Median stayed | Median % viewed | Median length | Subscribers per 1K views |
+|---|---|---|---|---|---|
+| 9K+ views | 4 | **78.0%** | 104 | 25 s | 0.46 |
+| 3K-9K | 5 | 68.4% | 97 | 24 s | 0.37 |
+| under 3K | 11 | **63.1%** | 80 | 25 s | 0.33 |
+
+- **Every Short with 73%+ stayed** (5) got 4.0K-31.8K views (median 20.6K).
+- **Every Short under 60% stayed** (5) got 1.4K-4.8K.
+
+**What separates high from low "stayed"** (the line 1 each Short opened with; correlation, n=20):
+
+| Stayed | Views | Opening line |
+|---|---|---|
+| 82% | 31.8K | "Only two NBA players are still allowed to wear number six." |
+| 80% | 27.0K | "Every Defensive Player of the Year in NBA history had at least one voter who picked somebody else." |
+| 76% | 9.2K | "A father and son had never played in the same NBA game, until LeBron and Bronny James." |
+| 74% | 4.0K | "LeBron James just took a 92% pay cut…" |
+| 74% | 20.6K | "An Instagram account said Cooper Flagg grew two inches this summer." |
+| … | | |
+| 59% | 4.8K | "Greg Oden went first in the 2007 draft and played 105 games." |
+| 56% | 1.5K | "Knicks center Mitchell Robinson made twenty-nine percent of his playoff free throws." |
+| 52% | 2.3K | (the "Cup final doesn't count" Short) |
+| 50% | 1.9K | "The NBA took five first-round picks from the Clippers, fined them $30 million, and suspended…" |
+| 48% | 1.6K | "Ninety-two point nine." |
+
+- **High-stay openings make one absolute, curious claim** ("only", "every… until", "never… until", "just took", "grew two inches") about a famous name or object, in one sentence.
+- **Low-stay openings lead with a number, a stat line, a list of penalties, or a player casual fans don't know.**
+
+**Views arrive in a burst and stop** (chart data, weekly engaged views):
+- #22: 17,206 in its first week, 9 in its second.
+- #03: 12,914, then 2,579, then 3.
+- #19: 10,226, then 385.
+- So a Short's 48 h to 7-day number is close to its final number. There is no long tail.
+
+**Subscribers:** #03 earned 16 and #23 earned 12 of the 51. Both are stories about a famous name that ends on something remarkable or human.
+
+### What this changes
+1. **The first second is the test, and the export measures it: "Stayed to watch".**
+   - The Playbook's rules for frame 1 and line 1 move from "important" to **the main gate**: Script Critic v3's hook anchor, and a new hook check in `script_lint.py`.
+   - Target: 70%+ stayed.
+2. **Length doesn't matter in 22-33 s** (-0.05). Stop shortening for its own sake; write what the story needs.
+3. **Read posts at 48 h and 7 days; that's the result.** Views arrive in the first week, so a weak post can't be rescued later. Ship the next one instead.
+4. **Still unproven:**
+   - That a better opening *causes* higher stay. The topic drives both the opening and the stay.
+   - What music, the voice or the ring did. None of them is in this window as a controlled variable.

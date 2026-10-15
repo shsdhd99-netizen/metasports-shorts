@@ -1,6 +1,11 @@
 # MetaSports Production Queue (CANONICAL: the only queue)
 
-**Updated:** Oct 14, 2026, late night (new stats + Script Critic v3 + rewrites).
+**Updated:** Oct 15, 2026 (the YouTube Studio export: "Stayed to watch" is the gate; hook re-check of the ready scripts). Before that: Oct 14 late night (new stats + Script Critic v3 + rewrites).
+
+**New Oct 15:**
+- **The hook gate** (Playbook, Winning Formula): line 1 = one absolute, curious claim about a famous name, in one sentence, within about 3 s. Target 70%+ "stayed to watch".
+- **#21 v5 fails the new hook anchor** (the surprise lands at about 4.8 s). A v6 with a one-sentence opening is the fix; v5 stays as it is until v6 passes QA.
+- **#36 v2 passes unchanged.**
 
 **New tonight:**
 - **The Winning Formula** (Playbook top): build every Short to it.

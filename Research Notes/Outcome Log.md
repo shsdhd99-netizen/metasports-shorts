@@ -173,3 +173,14 @@ Source of the scores: Creative System v3 rubric (`Production Queue.md`). The vie
 
 **Lesson:** none new. #40 and #41 are under 48 h old, and n<3, so no rule changes.
 - It is consistent with tonight's audit §12: the technicality (#40) is last among the new posts so far.
+
+## Oct 15, 2026: YouTube Studio export read (Sep 16 to Oct 14; owner upload)
+- **Window totals:** 141,000 views, 76,347 engaged, stayed to watch 72.9%, average % viewed 100.4, 51 subscribers, 89% new viewers.
+- **The main finding:** stayed to watch tracks views at +0.77 (n=20). Full table: `Research Notes/Posted Video Audit (Oct 14, 2026).md` §13. Merged per-video file: `Research Notes/Posted Shorts - metrics (Oct 15, 2026, with Studio export).csv` (the Oct 14 file is kept as it was).
+- **#40 and #41 are not in the export** (posted Oct 14, after the window). Their 48 h and 7-day reads still need Studio or Metricool.
+
+**Pre-registered for the next posts** (written before any result):
+- **Hypothesis:** a first line that passes the new hook check (an absolute, curious claim about a famous name) gets **70%+ stayed**.
+- **Check at 5 posts:** stayed % for posts whose line 1 passes vs posts flagged by `script_lint.py`.
+- **Not a test of:** voice or music. One variable at a time stays the rule.
+- **Ask:** export the same Studio "Content" table again at each check (Advanced mode, Shorts, the last 28 days). It has stayed to watch, which neither Metricool nor vidIQ gives us.

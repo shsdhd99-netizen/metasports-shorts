@@ -67,3 +67,24 @@
 ## D. 48 h guesses (checked at 10 posts)
 - #21 v5: 6,000.
 - #36 v2: 8,000.
+
+## E. Hook re-check under the Oct 15 anchor (YouTube Studio export: "Stayed to watch" tracks views at +0.77)
+The Hook anchor now asks for **one absolute, curious claim about a famous name, in one sentence, within about 3 s** (`Tools/script_critic.md`, row 2). `script_lint.py` now flags number-led, list-like and claim-less first lines.
+
+**Lint check on the posted openings** (stayed % from Studio):
+- Flagged 3 of the 4 lowest (48%, 50%, 56%).
+- Missed Greg Oden (59%): "went first" matched the claim-word list.
+- Flagged 1 of 5 at 74%+: Cooper Flagg (74%), "grew two inches", which is curious with no claim word.
+- So a flag is a risk to explain, not a verdict.
+
+| Script | Line 1 | Lint | Hook was | Hook now | Verdict now |
+|---|---|---|---|---|---|
+| #21 v5 | "Russell Westbrook needed eighteen seasons to set the triple-double record." | clean | 5 | **3**: line 1 is background. The surprise ("Nikola Jokic could take it before Christmas") is sentence 2 and lands at about 4.8 s (anchor: "slow, over 3.5 s") | **REWRITE** (37/45, Hook under 4) |
+| #36 v2 | "LeBron's teammate from his rookie year now has a son in the NBA." | no claim word | 4 | **4**: famous name plus a curious father-son claim in one sentence, ending at about 3.5 s. It is the #23 pattern (76% stayed). No absolute word, so it's not a 5 | APPROVE (38/45) unchanged |
+
+**#21 rewrite (v6), one change, the opening:**
+> Nikola Jokic could break Russell Westbrook's triple-double record by Christmas.
+- The rest of v5 stays, minus the old sentence 2.
+- The first sentence ends at about 2.9 s at 225 wpm, with both stars, the record and the deadline.
+- **Rescored:** P4 H5 C4 Pr4 Pay5 V4 Vis4 O4 R5 = **39, APPROVE.**
+- **Risk:** "by Christmas" now opens and closes the Short, so the payoff line must add the Christmas memory (the 56-16-15 line), not repeat the promise. v5's payoff already does.

@@ -1,6 +1,6 @@
 # MetaSports — The Playbook (Round 2)
 
-## THE WINNING FORMULA (canonical, Oct 14, 2026, night; updated later that night with the #40/#41 results, Script Critic v3 and the owner's music and voice calls). Read this first; where anything below disagrees, this wins.
+## THE WINNING FORMULA (canonical, Oct 14, 2026, night; updated that night with the #40/#41 results, Script Critic v3 and the owner's music and voice calls, and on Oct 15 with the YouTube Studio export). Read this first; where anything below disagrees, this wins.
 **Why this exists:**
 - The owner asked to stop changing formats and rules every day.
 - This page is the formula. Change it only on the rule in step 10.
@@ -24,9 +24,23 @@
   - accuracy is pass/fail
   - It rejects weak premises even when they follow every formatting rule.
 
+### The hook gate (new Oct 15, from the YouTube Studio export; audit §13)
+**"Stayed to watch (%)"** in Studio is the share of people who watched instead of swiping away. It tracks views more closely than anything else we measure: Spearman **+0.77** (n=20 new-era Shorts). Every Short at 73%+ stayed got 4.0K-31.8K views; every Short under 60% got 1.4K-4.8K. [V correlation; causation unproven, because the topic drives both]
+- **Target: 70%+ stayed.** It's the first number to read at 48 h.
+- **Line 1 = one absolute, curious claim about a famous name or object, in one sentence.** The words that did it: "only", "every… until", "never… until", "just [did]", "grew two inches".
+  - 82%: "Only two NBA players are still allowed to wear number six."
+  - 80%: "Every Defensive Player of the Year in NBA history had at least one voter who picked somebody else."
+- **Line 1 never:**
+  - opens with a number or a stat line ("Ninety-two point nine." → 48%)
+  - lists penalties or details ("…took five first-round picks, fined them $30 million, and suspended…" → 50%)
+  - centres a player casual fans don't know ("Knicks center Mitchell Robinson…" → 56%)
+- **Checked twice:** `Tools/script_lint.py` flags number-led, list-like and long first lines; Script Critic v3's Hook score can't be 4+ without the absolute, curious claim.
+- **Length doesn't matter in 22-33 s** (-0.05). Write what the story needs; don't trim for its own sake.
+- **Views arrive in the first week, then stop** (#22: 17,206 in week 1, then 9). The 48 h and 7-day reads are the result. Ship the next one rather than nursing a weak post.
+
 ### What wins (sorted by how sure we are)
 **Supported by several independent examples:**
-1. **Line 1 states the surprising thing about a named player, as a statement, within about 3 s.** "Stephen Curry just pulled one of the wildest sneaker moves…" / "Giannis just saved a rookie's first NBA memory."
+1. **Line 1 states the surprising thing about a named player, as a statement, within about 3 s** (the hook gate above). "Stephen Curry just pulled one of the wildest sneaker moves…" / "Giannis just saved a rookie's first NBA memory."
 2. **The footage is the exact moment** under every line. The proof is on screen.
 3. **Tell it like a story to a friend.** Flowing sentences, one turn ("But the craziest part…", "Then it gets crazier", "but not this time, because…"), one short reaction aside.
 4. **Lanes that travel:**
@@ -37,9 +51,9 @@
 6. **Voice from 0.0 s to the last frame**, no dead air.
 
 **Promising, not proven:**
-- 20-30 s for one story
 - fresh "just happened" moments
-- a quiet music bed
+- (retired Oct 15: "20-30 s for one story". Length shows no link to views in 22-33 s, so length is whatever the story needs)
+- (retired Oct 14 night: "a quiet music bed". The owner dropped beds)
 
 **Creator-specific (don't copy):**
 - CoachClank's own narrator and 265-309 wpm
@@ -48,7 +62,7 @@
 **Owner preference (kept):**
 - no hook headline text
 - white Montserrat captions
-- music on
+- no background music bed (Oct 14 night; this replaced "music on")
 - no vine boom
 
 ### The three structures (pick one per Short; no new formats)
@@ -61,7 +75,7 @@
 ### Fixed production settings (do not change per video)
 | Item | Setting | Source |
 |---|---|---|
-| Length | whatever the story needs, normally 20-30 s, about 85-110 words | old hits 20-32 s; CoachClank's 20-62 s Shorts beat their under-20 s ones 2.8× |
+| Length | whatever the story needs, normally 20-30 s, about 85-110 words | old hits 20-32 s; CoachClank's 20-62 s Shorts beat their under-20 s ones 2.8×; Studio export: no link to views in 22-33 s (-0.05) |
 | Voice | **A (Alex) or F (our old voice, fixed), the owner's pick from the two real edits of #21 v5 and #36 v2.** Until the owner picks, the `voice_config.json` default stays A, and F is "backup". After the pick: one voice, no switching | Voice Audition README, Parts 3-4 |
 | Names | `Tools/pronunciation.json`; never respell inside scripts | same |
 | Music | **No background bed by default** (owner, Oct 14 night). Clean narration; effects only where the picture makes the sound; silence is fine. A real song only through the platform's own library (route A), when it adds something | `Library/Sound Library.md` |
@@ -87,7 +101,7 @@
    - Run `python Tools/deflash.py` on any clip the flash scan flags.
 8. **QA:** `qa_short.py`, the frame sheet, the transcript of the final audio, a flash check around cuts, then Critic v2.
 9. **Package and Hub:** PACKAGE.md (with the Music and sound block), the Hub upload, the queue status. **The owner posts.**
-10. **Read and decide:** read each post at 48 h and 7 days in the Outcome Log.
+10. **Read and decide:** read each post at 48 h and 7 days in the Outcome Log. Studio's "Stayed to watch (%)" first (target 70%+), then views. Views stop after week 1, so the 7-day read is the result.
     - **One A/B test at a time.**
     - Change this formula only on n≥3 posts pointing the same way, or one very large effect.
     - Never change two things in the same week.

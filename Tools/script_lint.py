@@ -2,7 +2,8 @@
 
   python Tools/script_lint.py "<Short folder>/script.txt" [more scripts...]
 
-Reports: spoken words and estimated length at the house pace (225 wpm), the first sentence (words, and the second it ends),
+Reports: spoken words and estimated length at the house pace (225 wpm), the first sentence (words, the second it ends, and the
+hook flags calibrated on the Oct 15 Studio export: number-led, list-like, no absolute claim, too long),
 numbers per sentence (stacked numbers are hard to hear), jargon a casual fan may not know, names missing from
 pronunciation.json, contractions, sentence-length spread, repeated content words, and endings that ask a question or a CTA.
 Each finding is a RISK for the critic to weigh, not a verdict.
@@ -29,6 +30,26 @@ def shown(text):
     return re.sub(r"\{([^|{}]+)\|[^{}]+\}", r"\1", text)
 
 
+ABSOLUTE = r"\b(only|every|never|nobody|no one|no other|first|last|just|until|ever|still|always|all-time|record|can't|cannot|isn't allowed|not allowed|banned|refused|secret|hidden)\b"
+
+
+def hook_flags(first):
+    """Line 1 checks from the Studio export (audit §13): high 'stayed to watch' openings make one absolute, curious claim about a
+    famous name in one sentence; low ones lead with a number, list details, or centre a player casual fans don't know.
+    The last one needs a human: the critic's Hook score covers it."""
+    f, low = [], first.lower()
+    w = re.findall(r"[A-Za-z0-9'$%-]+", first)
+    if w and (re.match(r"[$\d]", w[0]) or (re.fullmatch(r"(?:" + NW + r")(?:-(?:" + NW + r"))?", w[0].lower()) and w[0].lower() != "one")):
+        f.append(f"opens with a number ('{w[0]}'): number-led openings stayed 48-59%")
+    if first.count(",") >= 2 and re.search(r",\s*(and|or)\b", low):
+        f.append("reads as a list (2+ commas and 'and'): the penalty-list opening stayed 50%")
+    if not re.search(ABSOLUTE, low):
+        f.append("no absolute or curious claim word (only, every, never... until, just, first, last...): 73%+ stayed openings all had one")
+    if len(w) > 20:
+        f.append(f"{len(w)} words: one short sentence lands faster")
+    return f
+
+
 def lint(path):
     raw = open(path, encoding="utf-8-sig").read().strip()
     disp, say = shown(raw), spoken(raw)
@@ -41,9 +62,11 @@ def lint(path):
     out["first_sentence"] = first
     out["first_sentence_ends_s"] = round(fw / WPM * 60, 1)
     risks = []
-    if out["est_seconds"] > 32: risks.append(f"long: about {out['est_seconds']} s at {WPM} wpm (stories run 20-30 s)")
+    if out["est_seconds"] > 35: risks.append(f"long: about {out['est_seconds']} s at {WPM} wpm (past the 22-33 s range our data covers; length itself showed no link to views inside it)")
     if out["est_seconds"] < 17: risks.append(f"short: about {out['est_seconds']} s; is there a payoff beat?")
     if out["first_sentence_ends_s"] > 3.5: risks.append(f"first sentence ends at about {out['first_sentence_ends_s']} s (aim for the premise by 3 s)")
+    out["hook_flags"] = hook_flags(first)
+    risks += ["hook: " + f for f in out["hook_flags"]]
     for i, s in enumerate(sents):
         run = r"\b(?:" + NW + r")(?:[\s-]+(?:and\s+)?(?:" + NW + r"))*\b"  # "six thousand and eighty-one" counts as one number
         n = len(re.findall(r"\d[\d,.%]*", s)) + len(re.findall(run, s.lower()))

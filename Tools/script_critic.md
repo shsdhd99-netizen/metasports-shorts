@@ -11,7 +11,7 @@
 **Calibrated on** our posted Shorts with known views (section 5). A critic that would have passed our flops is broken.
 
 ## 1. How to run it
-1. Run `python Tools/script_lint.py "<folder>/script.txt"`. It reports length, the first sentence, stacked numbers, jargon, cadence, repeated words and unknown names. These are **risks to weigh, not scores**.
+1. Run `python Tools/script_lint.py "<folder>/script.txt"`. It reports length, the first sentence and its hook check (number-led, list-like, no absolute claim, too long), stacked numbers, jargon, cadence, repeated words and unknown names. These are **risks to weigh, not scores**; a hook warning means the Hook score needs a written reason to be 4+.
 2. Read the script **aloud at 225 wpm**, or play the voice take if one exists.
 3. Score the 9 categories, 1-5, using the anchors below. Write **one sentence of reasoning per score**, about this story, not the rules.
 4. Check accuracy: **pass/fail** against `notes.md`.
@@ -22,14 +22,14 @@
 | # | Category | 5 (strong) | 3 (borderline) | 1 (fail) |
 |---|---|---|---|---|
 | 1 | **Premise**: is it worth telling? | A famous player, team or object, plus a fact that changes how you see them, that a casual fan would repeat to a friend. Best with a human element (family, a feud, a kind act, a real quote) | True and a bit surprising, but only fans who follow the league care (contracts, milestones, schedules) | A technicality (preseason stats, eligibility, rules memos, lottery mechanics), a niche or G League player, or a retold story |
-| 2 | **Hook**: does line 1 stop the scroll? | Names or shows the star or object, and states the surprising claim as a **statement** within about 3 s ("Stephen Curry just…", "Only two players can still wear six"). It opens a question the viewer can put in words | Intriguing but vague ("This pass doesn't even count": whose? why care?) or slow (over 3.5 s) | No subject, no stakes, a naked number ("Ninety-two point nine.") or a quiz |
+| 2 | **Hook**: does line 1 stop the scroll? (the most important score: Studio's "Stayed to watch" tracks views at +0.77) | Names or shows a **famous** star or object and makes **one absolute, curious claim** as a statement within about 3 s, in one sentence: "only", "every… until", "never… until", "just [did]" ("Stephen Curry just…", "Only two players can still wear six"). It opens a question the viewer can put in words. **A 4 needs the claim; a 5 needs the claim plus a name every casual fan knows** | Intriguing but vague ("This pass doesn't even count": whose? why care?), slow (over 3.5 s), or a claim about a player casual fans don't know | No subject, no stakes, a naked number ("Ninety-two point nine." stayed 48%), a stat line, a list of penalties (50%) or a quiz |
 | 3 | **Clarity**: can a casual viewer follow it immediately? | No term needs explaining; one idea per sentence; numbers you can hear | One jargon term explained in a line | Needs league knowledge (preseason, G League, two-way, apron) or 3+ numbers in a sentence |
 | 4 | **Progression**: does every line add something? | Each line adds a new fact or raises the stakes; there is a **turn** ("But the craziest part…") and the craziest beat comes last | One flat stretch or a repeated fact | A list of facts with no turn (fact chain), or background before the story starts |
 | 5 | **Payoff**: is the ending memorable? | Surprising, funny or moving, in the subject's own words or one line you'd quote (Giannis: "a moment this rookie will never forget"; #23: "LeBron James versus LeBron James Junior") | Answers the hook with a number | A recap, a hedge, a debate question or a CTA |
 | 6 | **Voice fit**: will it sound natural from our narrator? | Reads like telling a friend: contractions, mixed sentence lengths, no tongue-twisters, every name in `pronunciation.json` | A choppy stretch or one awkward number run | Staccato fact chain (mean under 8 words a sentence), stacked numbers, untested names |
 | 7 | **Visual potential**: is there footage for it? | The hook moment and the payoff moment exist as real footage; every line can be proven on screen | The hook has footage; the middle needs cards | No footage of the key moment (park it) |
 | 8 | **Originality**: is the angle ours? | Most fans haven't seen this angle; not the night's headline | A known story with our own angle | The same fact every outlet posted, or our own old winner retold |
-| 9 | **Retention risks** (5 = none) | No slow line, no predictable reveal, no filler, 20-30 s | One soft spot | Several: slow middle, number dumps, a reveal guessed at line 2, over 32 s |
+| 9 | **Retention risks** (5 = none) | No slow line, no predictable reveal, no filler. Length is whatever the story needs (no link to views in 22-33 s) | One soft spot | Several: slow middle, number dumps, a reveal guessed at line 2, padding past the payoff |
 | 10 | **Accuracy** | **PASS:** every voiced claim matches a dated source in notes.md, with qualifiers kept ("listed", "reportedly", "regular season") | | **FAIL:** an unverified or overstated claim. A FAIL is a stop, whatever the other scores |
 
 ## 3. Verdict rules

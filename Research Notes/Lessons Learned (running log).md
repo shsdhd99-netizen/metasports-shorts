@@ -135,3 +135,11 @@ Tiers: [V] verified on our files or data, [S] supported by our numbers (small n)
 - [V] **One-frame flashes hide in source clips** (washed-out single frames in b7L, a1, c_34, e1bg, k2bg). qa_short can't see them. `Tools/deflash.py` finds and replaces them; run it on every new clip.
 - [V] **A slower, natural read needs about 25% more footage.** Plan 1 clip per line, and split long lines before rendering.
 - [V] **Metricool shows channel-level daily views, but its per-video sync can lag days after a reconnect.** Don't promise per-video retention from it.
+
+### Oct 15, 2026: the YouTube Studio export (audit §13)
+- [V] **"Stayed to watch (%)" is the number that tracks views:** Spearman +0.77, n=20 new-era Shorts. Every Short at 73%+ got 4.0K-31.8K; every Short under 60% got 1.4K-4.8K. Read it first at 48 h. Target 70%+.
+- [S] **High-stay first lines make one absolute, curious claim about a famous name**, in one sentence ("Only two NBA players…", "Every Defensive Player of the Year…", "never… until LeBron and Bronny"). Low-stay first lines open with a number, a stat line, a penalty list, or a player casual fans don't know. Correlation: the topic drives both.
+- [V] **Length in 22-33 s doesn't predict views** (-0.05). Stop trimming for its own sake.
+- [V] **Views arrive in week 1, then stop** (#22: 17,206, then 9). The 7-day read is the result; there is no long tail to wait for.
+- [V] **Our own ready script failed the new hook anchor.** #21 v5 put the surprise in sentence 2 (about 4.8 s). Run the hook check on every script, ready ones included.
+- [V] **The export is a window, not lifetime.** Old-era Shorts show single-digit window views; compare them on lifetime numbers only.
