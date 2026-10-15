@@ -49,13 +49,13 @@ All other roadmaps and plans point here.
 | 4 | #10 53 years for one banner | script-ready | 34 REWRITE | Big premise, no ceremony footage yet | Oct 20-21 | Build after the ceremony, or a preview on title-run footage |
 | — | #40 Jokic's preseason pass | **posted Oct 14** (old voice v2, 21 s): **655 views** | 28 REJECT (in hindsight) | A technicality | — | Read at 48 h; no more work |
 | — | #41 Taller than Wemby | **posted Oct 14**: **1,600 views** | 30 REJECT (in hindsight) | Niche player; the hook oversells | — | Read at 48 h |
-| — | #42 LeBron's misses / #43 Wilt's minutes | blocked | 34 / 36 | Good scripts; no footage | — | #42: footage partly on the PC (LeBron airball cut-ready, Kobe source not cut); voiced in A and F on Oct 15 (`VOICE_AB`), no pick yet. #43 parked |
+| — | #42 LeBron's misses / #43 Wilt's minutes | #42 **rendered (see below)**; #43 blocked | 34 / 36 | #42 done, waiting on the owner | — | #43 parked (needs identifiable Wilt film) |
 | — | #27 lotteries, #26 screens, #37 2K ratings | **REJECTED by Critic v3** | 25 / 27 / 23 | Technicality, rules memo, saturated list | — | Abandoned (kept on disk) |
 
 ## Next to build (highest score first; complete packages exist)
 | Score | Idea | Status | Blocker | Next action |
 |---|---|---|---|---|
-| **60** | **#42 Who Has Missed The Most Shots Ever** (LeBron: most misses AND most points) | **script-ready + shot plan** (`Productions/MetaSports/2026-10-14 42 ...`); facts verified Oct 14; **Oct 15: voiced once in Alex (`_v1`) and once in pham v2 (`_v1_F`), no pick yet** | Footage, re-checked Oct 14 evening: no LeBron-miss or Kobe post findable (search engines don't index X posts; the 643-clip library has none). The miss for frame 1 must be a real NBA game | **Owner:** paste 2-3 X links of LeBron missing (any NBA game) + 1 Kobe jumper; or build on the PC from NBA YouTube |
+| **60** | **#42 Who Has Missed The Most Shots Ever** | **RENDERED Oct 15 in voice A (Alex), QA reviewed** (`Productions/MetaSports/2026-10-14 42 .../_v1/final.mp4`; Hub card s42-most-misses; `UPLOAD.md`). Footage found on the PC from the NBA's own YouTube videos (the cloud could not) | Owner's ear and OK. Known limits: Kobe 720p/2.7x, opening shot wide | Listen, say OK, post 6-11 AM ET. Nothing posted |
 | 57 | ib38 Did LeBron pass Jordan in 30-point games? (TheSource Jul 2026: 672 vs 671) | researched (bank) | verify on B-Ref | Verify, then package |
 | 55 | ib64 Did Brunson actually miss the winner? (Finals G4 tip-in) | researched (bank) | footage | Package |
 | 53 | **#43 How Did Wilt Average 48.5 Minutes** | **script-ready + shot plan** (`Productions/MetaSports/2026-10-14 43 ...`) | **identifiable Wilt film** (the 1962 All-Star film is too wide; the "100-point" item is radio only) | X posts of Wilt film from the owner, or the PC |
