@@ -262,3 +262,25 @@ Source of the scores: Creative System v3 rubric (`Production Queue.md`). The vie
 - **Alternatives in place:**
   1. **The owner's Studio export** (manual route) already landed today, for Sep 16-Oct 14. It's analysed in audit §13, including "stayed to watch", which no API gives.
   2. **`Tools/yt_analytics.py`:** a read-only YouTube Analytics API puller (standard library only). It needs a one-time sign-in on the PC; steps are in the Tools Guide. Untested against the live API until then.
+
+## Daily check, Oct 15, 2026, 23:08 UTC (free public numbers only; routine "MetaSports daily stats check")
+`channel_check.py`: 525 subscribers (+5 since Oct 14), 107 Shorts. **Median of the last 7: 1,750** (the channel's earlier normal: 5,800). Trend: down.
+
+| Short | Views | Note |
+|---|---|---|
+| How Old Is The Oldest Triple-Double Ever? (#39) | 7,500 | about 2 days; above normal |
+| **Why Does An $8 Million Rookie Still Carry Bags? (#44)** | **4,300** | **under 1 day.** The first post built to the Oct 15 hook gate |
+| Is Anyone Taller Than Wemby? (#41) | 2,300 | about 1.5 days |
+| Jokic Could Break Westbrook's Record By Christmas (#21) | 1,200 | under 1 day; posted by the owner (which version: not recorded here) |
+| Why Jokic's Best Pass Doesn't Count (#40) | 1,200 | about 1.5 days |
+| Why Jokic's Best Pass Doesn't Count (#40, second upload, "#nba #basketball") | 797 | a re-upload of #40; under 48 h |
+| Did Bronny Actually Get Better (repost) | 194 | flop; the tool suggests checking Studio for a claim |
+
+**Retention:** no new numbers.
+- vidIQ has 5 credits, under the 10 needed, so I skipped it.
+- Metricool per-video data is still empty.
+- The only retention figures on file: Wembanyama 79.5% stayed / 100.3% average view duration, and Duren 63.0% / 59.7% (both from the owner's screenshots), plus the Oct 15 Studio export (audit §13).
+
+**Lesson:** none new (n=1 per version, all under 48 h).
+- **Early signal only [H]:** #44, built to the hook gate (an absolute, curious claim about a famous name, with his own words as the payoff), is ahead of both Jokic posts at the same age.
+- Read #44 at 48 h and 7 days, ideally with Studio's "stayed to watch", before any rule changes.
