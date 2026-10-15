@@ -70,3 +70,7 @@ Productions/**/_claude_build/
 Library/Music/tests/work/
 Productions/**/_audit/clips/
 Productions/**/src/
+
+# YouTube Analytics API (Tools/yt_analytics.py): OAuth client file and tokens never go in git
+Tools/client_secret*.json
+**/yt_token*.json

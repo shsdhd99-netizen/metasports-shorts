@@ -190,3 +190,12 @@ Source of the scores: Creative System v3 rubric (`Production Queue.md`). The vie
 |---|---|---|---|---|---|
 | #44 $8 million rookie still carries bags (Flagg) | v1, voice A, no music, 20.7 s | 37/45 APPROVE | passes (claim word "still", famous name, ends at 2.4 s) | 6,000 | 70%+ (the hook-gate hypothesis) |
 - **Owner, Oct 15:** #21 Jokic was already posted. Read it at 48 h and 7 days like the others; v6 was not used.
+
+## Oct 15, 2026, 03:10 UTC: scheduled Metricool re-check (routine "Re-check Metricool video stats")
+- **Metricool is still empty for per-video YouTube data.**
+  - YTVP rows end at Oct 4 (3 Shorts), with views, duration and % viewed all null.
+  - YTVV ("all videos") returns 0 rows for Sep 25-Oct 15.
+- **No YouTube Analytics connector** exists in the directory, apart from vidIQ, which the owner ruled out.
+- **Alternatives in place:**
+  1. **The owner's Studio export** (manual route) already landed today, for Sep 16-Oct 14. It's analysed in audit §13, including "stayed to watch", which no API gives.
+  2. **`Tools/yt_analytics.py`:** a read-only YouTube Analytics API puller (standard library only). It needs a one-time sign-in on the PC; steps are in the Tools Guide. Untested against the live API until then.

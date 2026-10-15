@@ -57,6 +57,19 @@ There are two ways to use everything here:
 - **Easiest:** type a command in Claude (the Code tab, opened on this folder) and Claude runs the tools for you.
 - **By hand:** open the `Tools` folder, click the address bar, type `cmd`, press Enter, then paste a command from below.
 
+## YouTube Analytics API (per-video stats without vidIQ or Metricool; set up once on the PC)
+`Tools/yt_analytics.py` reads your channel's per-video numbers with Google's official API. Access is **read-only**: it can't upload, edit or post.
+- **Setup, about 10 minutes, once:**
+  1. Go to https://console.cloud.google.com, make a new project, and under "APIs & Services → Library" enable **YouTube Analytics API** and **YouTube Data API v3**.
+  2. Under "OAuth consent screen", pick **External** and add your own Google account as a **test user**.
+  3. Under "Credentials → Create credentials → OAuth client ID", pick **Desktop app**, then **Download JSON**. Save it as `Tools\client_secret.json`. Git ignores it; never commit it or paste it in chat.
+  4. Run `python Tools\yt_analytics.py auth`. A browser opens: sign in with the channel's account and allow read-only access. The token is saved outside the project, in `%USERPROFILE%\.metasports\yt_token.json`.
+- **Every time:** `python Tools\yt_analytics.py pull --from 2026-09-16`
+  - It writes `Research Notes\Studio exports\api <from> to <to>.csv` with, per video: views, average view duration, average % viewed, watch minutes, likes, shares, subscribers gained, length and publish date.
+  - Add `--engaged` to also request engaged views; it's skipped if the API refuses.
+- **What it can't give:** Studio's "Stayed to watch (%)". Keep exporting the Studio "Content" table for that (Studio → Analytics → Advanced mode → Export → CSV), and drop the file in chat.
+- **Status:** written and checked offline in the cloud (Oct 15). It hasn't run against your channel yet, because that needs your one-time sign-in on the PC.
+
 ## Newest changes (Oct 15, 2026)
 - **`qa_short.py --full` is now the full gate.** It adds the two checks below. Standards and calibration: `Library/Editing and Sound Standards.md` §6.
 - **`footage_qc.py` (new):** per shot, using only the seconds each shot uses:
