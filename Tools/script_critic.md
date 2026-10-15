@@ -55,6 +55,11 @@
 5. **End on the line you'd quote**, then stop.
 6. **Cut background that doesn't change the answer.** Read every sentence and ask "would the payoff land without it?"
 7. **Read it aloud.** Every sentence should sound like something a person would say to a friend.
+8. **Say the viewer's question out loud by about 6-8 s**, after the scene, never as line 1. (CoachClank's underhand Short asks "why does no one use it?" at 6 s; our #29 on the same topic never asked it.)
+9. **Escalate, don't list:** normal, then strange, then the punchline. Numbers only as a ladder (each one tops the last: 533 ft → 660 → 856), or one per Short.
+10. **End on a person:** their reaction, their own words, or the human reason. (CoachClank's top 9: 5 end this way, vs 1 of 5 at their median. Ours: Giannis, #22, #19.)
+11. **Two names is plenty for 25 s.** Every extra name is someone the viewer has to place.
+Evidence for 8-11: `Research Notes/Competitor Script Breakdown (Oct 15, 2026)/README.md` (real captions; n is small, so these are checks, not scores).
 
 ## 5. Calibration on posted Shorts (scored with the views known, so this checks fit, not a blind prediction)
 Per-category scores and one-line reasons are in `Research Notes/Script Critic Log.md`.

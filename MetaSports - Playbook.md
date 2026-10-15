@@ -47,13 +47,19 @@
    - a rule or record paradox ("Why…")
    - a star's visible moment with a hidden detail
    - basketball IQ / "how is that legal"
-5. **End on the payoff:** the answer, the number, or the feeling. Then stop.
+5. **End on the payoff:** the answer, the number, or the feeling. Then stop. **Best: a person's reaction or own words** (Giannis: the rookie's face; #19: Flagg's "I'm 6-10"; CoachClank's top: Jokic clapping, Shaq's reason). Competitor breakdown, Oct 15: 5 of their top 9 vs 1 of their median 5.
 6. **Voice from 0.0 s to the last frame**, no dead air.
 
 **Promising, not proven:**
 - fresh "just happened" moments
 - (retired Oct 15: "20-30 s for one story". Length shows no link to views in 22-33 s, so length is whatever the story needs)
 - (retired Oct 14 night: "a quiet music bed". The owner dropped beds)
+
+**From the competitor script breakdown (Oct 15; real captions, n small; checks, not rules):**
+- Say the viewer's question out loud by about 6-8 s, after the scene, never as line 1.
+- Escalate (normal → strange → punchline); numbers only as a ladder.
+- Two names is plenty for 25 s.
+- Same topic, two scripts: CoachClank's underhand Short (10.9M, 25× their norm) opened on a scene and used 1 number; our #29 (1.4K) opened on a niche player's stat and used 8. `Research Notes/Competitor Script Breakdown (Oct 15, 2026)/README.md` §4.4.
 
 **Creator-specific (don't copy):**
 - CoachClank's own narrator and 265-309 wpm
