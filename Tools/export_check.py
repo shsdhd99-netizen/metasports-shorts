@@ -24,7 +24,8 @@ import numpy as np
 HERE = os.path.dirname(os.path.abspath(__file__))
 NUMW = set("zero one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen "
            "eighteen nineteen twenty thirty forty fifty sixty seventy eighty ninety hundred thousand million billion and point "
-           "half quarter percent".split())
+           "half quarter percent first second third fourth fifth sixth seventh eighth ninth tenth eleventh twelfth thirteenth "
+           "fourteenth fifteenth sixteenth seventeenth eighteenth nineteenth twentieth thirtieth fortieth fiftieth".split())
 
 
 def shown(text):
@@ -32,15 +33,19 @@ def shown(text):
 
 
 def toks(text):
+    # the recogniser writes "eight million dollars" as "$8 million": put "dollars" back where it is spoken
+    text = re.sub(r"\$(\d[\d,.]*)(\s*(?:thousand|million|billion))?", lambda m: m.group(1) + (m.group(2) or "") + " dollars", text, flags=re.I)
     t = text.lower().replace("’", "'").replace("—", " ").replace("-", " ")
-    return re.findall(r"[a-z0-9']+(?:\.[0-9]+)?", t)
+    return [re.sub(r"^(\d+)(st|nd|rd|th)$", r"\1", x) for x in re.findall(r"[a-z0-9']+(?:\.[0-9]+)?", t)]
 
 
 def numfold(ts):
     """Collapse each run of number tokens to '#', so '198' == 'one ninety eight' (formatting is not an error)."""
     out = []
     for t in ts:
-        isnum = t[0].isdigit() or (t in NUMW and t not in ("and", "point", "half", "quarter", "percent"))
+        ordinal = t in ("first", "second", "third") or (t.endswith("th") and t in NUMW)
+        isnum = t[0].isdigit() or (t in NUMW and t not in ("and", "point", "half", "quarter", "percent") and not ordinal) \
+            or (ordinal and out and out[-1] == "#")
         if isnum or (t in ("and", "point", "percent") and out and out[-1] == "#"):
             if not out or out[-1] != "#":
                 out.append("#")

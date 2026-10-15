@@ -1,0 +1,68 @@
+{
+ "verdict": "CHECK",
+ "wpm": 222,
+ "issues": [],
+ "notes": [
+  " 9.88s  script \"1\" but heard \"won\"",
+  "11.38s  \"at\" heard as \"\" (close; check the name)",
+  "19.28s  \"a\" heard as \"\" (close; check the name)",
+  " 3.34s  very quiet word \"It\" (-12 dB)"
+ ],
+ "heard": "Nikola Jokic could break Russell Westbrook's triple double record by Christmas. It took Westbrook 18 seasons to get to 209. Jokic has won 98 in almost 500 fewer games. Last season he got won almost every other night. that pace the 12 he needs take about 23 games. And Denver's 27th game is Christmas Day at Golden State. Last Christmas he dropped 56, 16, and 15, line nobody in NBA history had ever posted. This Christmas the record could already be his.",
+ "mismatches": [
+  {
+   "at": 5.16,
+   "script": "2 100 and 9",
+   "heard": "209",
+   "similar": 1.0
+  },
+  {
+   "at": 6.84,
+   "script": "ninety 8",
+   "heard": "98",
+   "similar": 1.0
+  },
+  {
+   "at": 7.8,
+   "script": "5 100",
+   "heard": "500",
+   "similar": 1.0
+  },
+  {
+   "at": 9.88,
+   "script": "1",
+   "heard": "won",
+   "similar": 0.0
+  },
+  {
+   "at": 11.38,
+   "script": "at",
+   "heard": "",
+   "similar": 1.0
+  },
+  {
+   "at": 12.74,
+   "script": "20 3",
+   "heard": "23",
+   "similar": 1.0
+  },
+  {
+   "at": 14.2,
+   "script": "20 7",
+   "heard": "27",
+   "similar": 1.0
+  },
+  {
+   "at": 17.46,
+   "script": "50 6",
+   "heard": "56",
+   "similar": 1.0
+  },
+  {
+   "at": 19.28,
+   "script": "a",
+   "heard": "",
+   "similar": 1.0
+  }
+ ]
+}

@@ -88,3 +88,22 @@ The Hook anchor now asks for **one absolute, curious claim about a famous name, 
 - The first sentence ends at about 2.9 s at 225 wpm, with both stars, the record and the deadline.
 - **Rescored:** P4 H5 C4 Pr4 Pay5 V4 Vis4 O4 R5 = **39, APPROVE.**
 - **Risk:** "by Christmas" now opens and closes the Short, so the payoff line must add the Christmas memory (the 56-16-15 line), not repeat the promise. v5's payoff already does.
+
+## F. New scripts (Oct 15)
+**F1. #44 "Why does an $8 million rookie still carry bags" (`2026-10-15 44 …/script.txt`): 37/45, APPROVE**
+- **Scores:**
+  - Premise 5: famous, a fact that changes how you see him, a human element, his own words
+  - Hook 4: "Cooper Flagg's teammates still make him carry the bags." A claim word ("still") plus a famous name; it ends at about 2.4 s. Not a 5, because Flagg is not yet a name every casual fan knows
+  - Clarity 5: no jargon
+  - Progression 4: $8M card → ROY → fans mob him → yet bags → why, said out loud → his words
+  - Payoff 4: his own words, light and funny, not a twist
+  - Voice fit 4
+  - Visual potential 3: no footage of the bag-carrying itself; the middle needs proof cards
+  - Originality 4
+  - Retention risks 4
+  - Accuracy: PASS (notes.md)
+- **Lint:** clean ("rookie" repeated 3 times, which is the theme).
+- **48 h guess:** 6,000.
+- **Alternative openings:**
+  - "The reigning Rookie of the Year still has to carry the bags."
+  - "Cooper Flagg's rookie card sold for eight million dollars. His teammates still make him carry the bags." (two sentences; fails the one-sentence gate)

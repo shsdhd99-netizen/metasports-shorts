@@ -2,7 +2,10 @@
 
 **Updated:** Oct 15, 2026 (the YouTube Studio export: "Stayed to watch" is the gate; hook re-check of the ready scripts). Before that: Oct 14 late night (new stats + Script Critic v3 + rewrites).
 
+**Owner, Oct 15:** #21 Jokic is ALREADY POSTED. No more work on it (the `_v6` folder stays on disk, unused).
+
 **New Oct 15:**
+- **#44 "Why Does An $8 Million Rookie Still Carry Bags"** (Cooper Flagg): DRAFT, voice A, no music, `qa_short --full` PASS, Critic v3 37/45 APPROVE. Awaiting your approval; `UPLOAD.md` in its folder.
 - **The hook gate** (Playbook, Winning Formula): line 1 = one absolute, curious claim about a famous name, in one sentence, within about 3 s. Target 70%+ "stayed to watch".
 - **#21 v5 fails the new hook anchor** (the surprise lands at about 4.8 s). A v6 with a one-sentence opening is the fix; v5 stays as it is until v6 passes QA.
 - **#36 v2 passes unchanged.**

@@ -159,7 +159,7 @@ def main():
     if tail < 0.1:
         bad.append(f"voice is cut off: last word ends {tail:.2f}s before the end (add 0.3 s tail: ffmpeg -af apad=pad_dur=0.3)")
     first8 = " ".join(w["word"] for w in words[:8]).lower()
-    if not re.search(r"\d|\b(one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|twenty|thirty|forty|fifty|hundred)\b|\b(but|never|banned|caught|first|only|wrong|illegal|fine|fined|suspended|record|why|how|what|did|is|will|doesn't|isn't|not|no|taller|zero|count|counts)\b", first8):
+    if not re.search(r"\d|\b(one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|twenty|thirty|forty|fifty|hundred)\b|\b(but|never|banned|caught|first|only|still|just|every|until|wrong|illegal|fine|fined|suspended|record|why|how|what|did|is|will|doesn't|isn't|not|no|taller|zero|count|counts)\b", first8):
         warn.append(f"hook has no number or conflict/question word in the first 8 words: '{first8}' (state the question the viewer needs answered by 1.5 s)")
     tiny = [round(d, 2) for s, _, _, d in segs if d < 0.6]
     if tiny:

@@ -114,6 +114,8 @@ def check(folder):
             z = float(s.get("zoom", 0) or 0)
             row["zoom_per_s"] = round(z / dur, 3) if dur > 0 else 0
         for k, f in enumerate(fr):
+            if still:  # cards are our own graphics on a shared blurred backdrop: alike by design, not reused footage
+                break
             if f.std() > 8:  # skip flat frames (black, fades): they all look alike
                 hashes.append((n, s["clip"], round(t_in + k / 4, 2), dhash(f)))
         res.append(row)

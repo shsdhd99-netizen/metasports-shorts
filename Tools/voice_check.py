@@ -132,10 +132,24 @@ def main():
                 hw = [w for w in res.get("words", []) if w.get("type") == "word"]
                 want, got = norm_words(script_display), []
                 got_t = []
-                for w in hw:
-                    for t in norm_words(w["text"]):
+                skip = False
+                for i, w in enumerate(hw):
+                    if skip:
+                        skip = False
+                        continue
+                    toks = norm_words(w["text"])
+                    # Oct 15: the recogniser writes "eight million dollars" as "$8 million": put the spoken "dollars" back
+                    # after the magnitude word (was a false REDO on #44: "dollars" was spoken at -19.5 dB like its neighbours)
+                    if w["text"].strip().startswith("$"):
+                        nxt = norm_words(hw[i + 1]["text"]) if i + 1 < len(hw) else []
+                        if nxt and nxt[0] in ("thousand", "million", "billion"):
+                            toks += nxt; skip = True
+                        toks.append("dollars")
+                    for t in toks:
                         got.append(t)
                         got_t.append(w.get("start", 0))
+                # Oct 15: "one ninety-eight" is heard as "won 98" (homophone; a false REDO on #21 v5 and v6): "won" right before a number = "1"
+                got = ["1" if t == "won" and k + 1 < len(got) and got[k + 1].isdigit() else t for k, t in enumerate(got)]
                 sm = difflib.SequenceMatcher(a=want, b=got, autojunk=False)
                 for op, i1, i2, j1, j2 in sm.get_opcodes():
                     if op == "equal":
