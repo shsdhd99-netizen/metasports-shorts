@@ -29,13 +29,15 @@ Each folder holds `voice.mp3` (pauses capped at 0.38 s, 0.3 s tail pad), `voice_
 | Loudness variety, SD of word level | 3.22 dB | 2.64 dB |
 | Numbers against other words, loudness / pitch | 0.0 dB / +0.3 st | -0.9 dB / -0.8 st |
 | Pauses over 0.3 s | none (longest 0.17 s) | none (longest 0.06 s) |
-| Loudest 50 ms in the last word "times." | -17 dBFS | -26 dBFS |
+| Loudest 50 ms in the last word "times." | -16.8 dBFS | -26.5 dBFS |
 | `voice_take` gate | FAIL (only because of the REDO flag) | PASS |
 
 ## Reading it
+(Every number in the table can be recomputed with `py -3 Tools/voice_ab.py "_v1" "_v1_F" --labels "Alex,pham v2"` from this folder, plus the `voice_take.json` and `voice_check.json` in each version folder.)
+
 - **Alex's one REDO flag is a tail effect, not a stretched word.** `voice_check` flagged the last word "times." because the alignment gives it 0.87 s. The audio says otherwise: the word itself is about 0.25 s at -18 dBFS, then a faint decay near -45 dBFS for about 0.35 s, then near-silence. If A is picked, trim that tail in the render (free). No new take is needed. I did not regenerate, because of the one-take cap.
 - **Alex's small words are the soft spot.** The recogniser missed one "The" and one "the" sits at -13 dB. On #36 `_v2` the earlier check said Alex dropped "He"; a re-run today on the same file heard it, so this is "sometimes", not "always".
-- **Pham v2 is the cleaner and steadier take** (higher HNR, lower jitter and shimmer, no flags). **Alex is a little more varied** (loudness 3.2 vs 2.6 dB, pitch 4.8 vs 4.7 st) and lands the closing word harder (-17 vs -26 dBFS). Pham's last word trails off.
+- **Pham v2 is the cleaner and steadier take** (higher HNR, lower jitter and shimmer, no flags). **Alex is a little more varied** (loudness 3.2 vs 2.6 dB, pitch 4.8 vs 4.7 st) and lands the closing word harder (-17 vs -27 dBFS). Pham's last word trails off.
 - **Neither voice lifts the numbers.** Alex is flat (0.0 dB), Pham dips (-0.9 dB). The earlier finding stands: emphasis has to come from the edit (a real pause before the payoff, the number coloured in the captions).
 - **Neither take has the 0.2 s beat before "No."** that PACKAGE.md asks for (Alex 0.08 s, Pham about 0). Cut it in at assembly.
 - **`voice_check` shows 163 and 169 wpm for these takes.** That is an artefact: it counts "15,541" as one word. The real pace is 210 and 217 wpm, inside the expected 210-235 range.

@@ -169,6 +169,7 @@ There are two ways to use everything here:
   - Old renders: `clone_legacy`.
 - **Change the voice only in that file**, only after an audition and the owner's ear (`Research Notes/Voice Audition (Oct 14, 2026)/README.md`).
 - **Make a take:** `. key.sh && python voice_take.py --script "<folder>/script.txt"`. It tries up to 3 takes against the voice's own quality gate. For exactly one take (a cap, or a test): `--takes 1`.
+- **Comparing two voices on the same script:** `py -3 Tools/voice_ab.py "<folder A>" "<folder B>" --labels Alex,pham` (read-only, no credits): real pace, pauses, loudness spread, numbers against other words, and the last word's alignment against its audible length. Run `voice_check.py` on each folder too.
 - **On the owner's PC, run the voice tools with `py -3`** (Python 3.14), not plain `python` (3.12). Only 3.14 has `faster-whisper` (the free speech check) and `scipy`, and `praat-parselmouth` (the HNR/jitter/pitch gate) was added to it on Oct 15, 2026 (user site, from PyPI, `--no-deps`). `voiceover.py --check` and `x_clip.py` need only the standard library and work with either. The first whisper run downloads its "small" model (about 460 MB) to `~/.cache/huggingface`.
 
 **Hard names:** add them to `Tools/pronunciation.json` (for example `"Jokic": "Yokitch"`). The voice says the respelling; captions show the name. Don't respell inside scripts. Numbers still work inline: `{92%|ninety-two percent}`. Never respell Wembanyama.
