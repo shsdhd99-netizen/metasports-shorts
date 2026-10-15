@@ -54,7 +54,7 @@ Cards: 2, about 4 s of about 17 s; none before 4 s; never two in a row.
 Claude was out of usage, so these were pulled on the PC. They are in `src/` (not in git). Nothing was voiced.
 
 - **LeBron miss, usable:** `src/1863773416718774655.mp4` from https://x.com/LADEig/status/1863773416718774655. 1080x1920, 5.2s. Lakers #23 releases a three against the Timberwolves and the ball misses short of the rim. It is an airball, so it cannot take a rim sound. Frame 1 can use this only if the sound stays silent on the miss.
-- **Kobe source, not cut:** `src/kobe-nba-lk5o2PK76hs.mp4` from the official NBA video https://www.youtube.com/watch?v=lk5o2PK76hs ("Kobe's Signature Fadeaway"), 1280x720, 120s. A fadeaway release is not pinned to a timestamp. A full-height crop of 720p is about 2.7x.
+- **Kobe source, not cut:** `src/kobe-nba-lk5o2PK76hs.mp4` from the official NBA video https://www.youtube.com/watch?v=lk5o2PK76hs ("Kobe's Signature Fadeaway"), 1280x720, 120s. Frame check (Oct 15, 3 AM): cut at 106.5s for 1.6s, crop x about 0.62. At 107.2 he is white #24 fading away against Utah #44, full frame. Blow-up is 2.67x. No rim sound. See `src/KOBE_FRAME_NOTES.md`.
 - Do not use the Legion Hoops buzzer wide (1044x578) or Dave McMenamin's intentional miss. Notes: `src/FINDINGS.md`.
 
 ## QA checklist (before "ready")
@@ -68,3 +68,6 @@ Claude was out of usage, so these were pulled on the PC. They are in `src/` (not
 The "Voice direction" above (clone, speed 1.15) is superseded by `Tools/voice_config.json`. Per the owner's Oct 15 test brief, the approved script was voiced once in Alex (`_v1/`) and once in pham v2 (`_v1_F/`). Numbers and the A/F reading: `VOICE_AB (Oct 15, 2026).md`. Spend 952 characters; 2,596 left.
 - **Next action:** the owner picks A or F by ear. Then `anchor_shots.py` on that folder's `words.json`, cut the Kobe clip (see PC footage above), add the ~0.2 s beat before "No." at assembly, trim Alex's tail if A.
 - Not rendered, no QA yet. The shot plan above still needs frame 1 = the LeBron miss (the LADEig airball is the only one in hand).
+
+## Voice decision (owner, Oct 15, 2026)
+Owner chose **A (Alex)**: use _v1/ (voice.mp3, words.json, captions.srt). Trim the faint tail after the last word 'times.' in the render. Hub entry s42-most-misses added (status: footage). Still needed before render: LeBron+Bronny clip (official NBA full-game video azVhKu1EO4k is only 640x360 in the sheet; the pair's court time is late in the game, not yet cut), a LeBron make/reaction, Kobe cut, two stat cards.
