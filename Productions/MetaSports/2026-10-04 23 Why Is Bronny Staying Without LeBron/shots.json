@@ -1,111 +1,134 @@
 [
  {
-  "clip": "a1.mp4",
-  "start": 0.0,
-  "why": "Sixteen Lakers",
+  "clip": "d3.mp4",
+  "anchor": "A father",
+  "why": "hook: LeBron and Bronny on court together, JAMES JR 9 (Oct 22 2024 debut)",
   "kind": "action",
-  "zoom": 0.12
+  "zoom": 0.1,
+  "start": 0.0
  },
  {
-  "clip": "a2.mp4",
-  "start": 0.9,
-  "why": "fifteen spots",
-  "kind": "action"
+  "clip": "d2.mp4",
+  "anchor": "played in the same",
+  "why": "same game: LeBron 23 and Bronny",
+  "kind": "action",
+  "start": 1.0
  },
  {
-  "clip": "a3.mp4",
-  "start": 1.8,
-  "why": "Bronny James",
-  "kind": "action"
+  "clip": "d4.mp4",
+  "anchor": "until LeBron",
+  "why": "LeBron and Bronny James, debut",
+  "kind": "action",
+  "start": 2.17
  },
  {
-  "clip": "a4.mp4",
-  "start": 2.77,
-  "why": "LeBron left (LeBron shown)",
-  "kind": "action"
+  "clip": "p1.mp4",
+  "anchor": "They were teammates",
+  "why": "LeBron Lakers action",
+  "kind": "action",
+  "start": 3.49
  },
  {
-  "clip": "a5.mp4",
-  "start": 4.0,
-  "why": "Bronny stayed",
-  "kind": "action"
+  "clip": "lp.mp4",
+  "anchor": "and LeBron called",
+  "why": "LeBron face, Lakers presser",
+  "kind": "face",
+  "start": 4.88
+ },
+ {
+  "clip": "S1_sixers_lebron.mp4",
+  "anchor": "Then LeBron left",
+  "why": "LeBron in Sixers jersey",
+  "kind": "action",
+  "zoom": 0.06,
+  "start": 7.17
  },
  {
   "clip": "a6.mp4",
-  "start": 4.69,
-  "why": "media day",
-  "kind": "face"
+  "anchor": "and Bronny stayed",
+  "why": "Bronny at Lakers media day",
+  "kind": "face",
+  "start": 8.49
  },
  {
-  "clip": "a7.mp4",
-  "start": 6.73,
-  "why": "Feels like he's not here",
-  "kind": "quote"
- },
- {
-  "clip": "a8.mp4",
-  "start": 8.1,
-  "why": "But pressure",
-  "kind": "action"
+  "clip": "qa.mp4",
+  "anchor": "Feels like",
+  "why": "REAL AUDIO: Feels like he's not here",
+  "kind": "quote",
+  "start": 9.55
  },
  {
   "clip": "a9.mp4",
-  "start": 9.09,
-  "why": "2.3M guaranteed",
-  "kind": "action"
+  "anchor": "But that's",
+  "why": "Bronny face",
+  "kind": "action",
+  "start": 10.87
  },
  {
-  "clip": "b2.mp4",
-  "start": 10.9,
-  "why": "2.9 points",
-  "kind": "action"
+  "clip": "S2_sixers_lebron.mp4",
+  "anchor": "On Christmas",
+  "why": "LeBron Sixers",
+  "kind": "action",
+  "start": 12.57
  },
  {
-  "clip": "b1.mp4",
-  "start": 12.1,
-  "why": "42 games",
-  "kind": "action"
+  "clip": "c_christmas.mp4",
+  "anchor": "and LeBron will",
+  "why": "NBA.com Sixers card: for the first time",
+  "kind": "card",
+  "start": 14.59
  },
  {
-  "clip": "b3.mp4",
-  "start": 13.5,
-  "why": "Lakers must trim",
-  "kind": "action"
- },
- {
-  "clip": "b9.mp4",
-  "start": 15.0,
-  "why": "Oct 21",
-  "kind": "action"
+  "clip": "d2.mp4",
+  "anchor": "in an NBA game",
+  "why": "LeBron and Bronny",
+  "kind": "action",
+  "in": 0.2,
+  "start": 16.31
  },
  {
   "clip": "b6.mp4",
-  "start": 16.26,
-  "why": "his name",
-  "kind": "face"
+  "anchor": "Bronny says his",
+  "why": "Bronny media day",
+  "kind": "face",
+  "start": 18.09
  },
  {
-  "clip": "q2.mp4",
-  "start": 17.94,
-  "why": "real name is LeBron",
-  "kind": "quote"
+  "clip": "qb.mp4",
+  "anchor": "You guys",
+  "why": "REAL AUDIO: you guys know me as Bronny, my real name is LeBron",
+  "kind": "quote",
+  "start": 20.21
  },
  {
-  "clip": "b5.mp4",
-  "start": 20.46,
-  "why": "Fifteen spots",
-  "kind": "action"
+  "clip": "qb.mp4",
+  "anchor": "I'm, my",
+  "why": "same quote, second half",
+  "kind": "quote",
+  "in": 1.6,
+  "zoom": 0.08,
+  "start": 21.69
  },
  {
-  "clip": "a5.mp4",
-  "start": 21.4,
-  "why": "Without LeBron",
-  "kind": "action"
+  "clip": "S4_sixers_lebron.mp4",
+  "anchor": "Christmas Day.",
+  "why": "LeBron Sixers",
+  "kind": "action",
+  "start": 23.36
  },
  {
-  "clip": "a1.mp4",
-  "start": 22.4,
-  "why": "loop",
-  "kind": "action"
+  "clip": "S5_sixers_lebron.mp4",
+  "anchor": "LeBron James versus",
+  "why": "LeBron Sixers",
+  "kind": "action",
+  "start": 24.16
+ },
+ {
+  "clip": "d3.mp4",
+  "anchor": "Junior.",
+  "why": "loop: JAMES JR 9",
+  "kind": "action",
+  "in": 0.6,
+  "start": 25.79
  }
 ]

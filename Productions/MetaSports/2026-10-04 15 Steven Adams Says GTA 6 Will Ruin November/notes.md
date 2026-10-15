@@ -1,7 +1,7 @@
 # notes: 2026-10-04 15 Steven Adams Says GTA 6 Will Ruin November
 
 - Lane: petty/funny
-- Concept: Heat become Vice City for GTA 6, Adams jokes
-- Added value: Connects the Heat x Rockstar Vice City night (Nov 18) to Adams's media-day joke that GTA 6 will tank league performance.
-- Claim -> source: see UPLOAD.md Facts section; primary sources: Yahoo/GameSpot (Heat), Newsweek and Underdog NBA video (Adams), Rockstar post (release date).
-- Backfilled Oct 4 after Critique Round 1 (notes.md is now expected for every Short).
+- Rebuilt 2026-10-05: Adams-led rebuild of v1 (Heat Vice City). Critic: Critique Round 2B #15 REWRITE. Old script/shots/plan kept as script_v1/shots_v1/plan_v1.
+- Story: tension hook, turn, escalation, ends on the payoff line (no closing question; debate question is the pinned comment).
+- Claim -> source: see UPLOAD.md Facts.
+- NOT verified: audio by ear; '13 years' (#16) not re-read; Rockets practice b-roll players (#15) identity not proven; Portis/Herro/Ware/Jaquez/Jakucionis shown as an article card, not footage (#16).

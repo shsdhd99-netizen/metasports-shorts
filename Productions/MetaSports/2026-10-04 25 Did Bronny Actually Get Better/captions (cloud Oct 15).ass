@@ -1,0 +1,55 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Montserrat Black,86,&H00FFFFFF,&H00FFFFFF,&H00000000,&H99000000,0,0,0,0,95,100,1,0,1,6,3,5,70,70,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.65,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}LAST SEASON,
+Dialogue: 0,0:00:00.65,0:00:01.21,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BRONNY JAMES
+Dialogue: 0,0:00:01.21,0:00:01.62,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SHOT BETTER
+Dialogue: 0,0:00:01.62,0:00:02.00,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FROM THREE
+Dialogue: 0,0:00:02.00,0:00:02.75,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THAN LEBRON DID.
+Dialogue: 0,0:00:02.75,0:00:03.51,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THIRTY-NINE PERCENT
+Dialogue: 0,0:00:03.51,0:00:04.27,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TO THIRTY-TWO.
+Dialogue: 0,0:00:04.27,0:00:05.01,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HE WAS TWENTY-EIGHT
+Dialogue: 0,0:00:05.01,0:00:05.30,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}PERCENT
+Dialogue: 0,0:00:05.30,0:00:05.83,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AS A ROOKIE.
+Dialogue: 0,0:00:05.83,0:00:06.24,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}UNTIL YOU
+Dialogue: 0,0:00:06.24,0:00:06.94,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}COUNT THE SHOTS.
+Dialogue: 0,0:00:06.94,0:00:07.44,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BRONNY TOOK
+Dialogue: 0,0:00:07.44,0:00:08.35,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FIFTY-SEVEN THREES.
+Dialogue: 0,0:00:08.35,0:00:09.05,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}LEBRON TOOK TWO
+Dialogue: 0,0:00:09.05,0:00:09.85,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HUNDRED FORTY-THREE.
+Dialogue: 0,0:00:09.85,0:00:10.39,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AT HIS ROOKIE
+Dialogue: 0,0:00:10.39,0:00:10.60,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}RATE,
+Dialogue: 0,0:00:10.60,0:00:11.25,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THOSE FIFTY-SEVEN
+Dialogue: 0,0:00:11.25,0:00:11.94,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THREES ARE SIXTEEN
+Dialogue: 0,0:00:11.94,0:00:12.28,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}MAKES.
+Dialogue: 0,0:00:12.28,0:00:12.56,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BRONNY
+Dialogue: 0,0:00:12.56,0:00:13.40,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}MADE TWENTY-TWO.
+Dialogue: 0,0:00:13.40,0:00:14.04,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SIX THREES.
+Dialogue: 0,0:00:14.04,0:00:14.32,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THAT IS
+Dialogue: 0,0:00:14.32,0:00:15.17,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE WHOLE JUMP.
+Dialogue: 0,0:00:15.17,0:00:15.72,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TRYING TO PROVE
+Dialogue: 0,0:00:15.72,0:00:16.27,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}MYSELF AS BRONNY
+Dialogue: 0,0:00:16.27,0:00:17.14,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}INSTEAD OF LEBRON.
+Dialogue: 0,0:00:17.14,0:00:17.54,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HIS TRUE
+Dialogue: 0,0:00:17.54,0:00:18.31,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SHOOTING DID CLIMB,
+Dialogue: 0,0:00:18.31,0:00:18.86,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FROM FORTY-TWO
+Dialogue: 0,0:00:18.86,0:00:19.18,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}PERCENT
+Dialogue: 0,0:00:19.18,0:00:19.94,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TO FIFTY-TWO.
+Dialogue: 0,0:00:19.94,0:00:20.48,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SO DID BRONNY
+Dialogue: 0,0:00:20.48,0:00:21.06,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}GET BETTER?
+Dialogue: 0,0:00:21.06,0:00:21.48,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}A LITTLE,
+Dialogue: 0,0:00:21.48,0:00:21.91,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}MAYBE.
+Dialogue: 0,0:00:21.91,0:00:22.32,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BUT SIX
+Dialogue: 0,0:00:22.32,0:00:22.83,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}MADE THREES
+Dialogue: 0,0:00:22.83,0:00:23.39,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}PROVE ALMOST
+Dialogue: 0,0:00:23.39,0:00:24.42,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NOTHING YET.

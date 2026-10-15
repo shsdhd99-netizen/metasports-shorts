@@ -37,7 +37,8 @@ A Short that is one talking head, text cards or repeated footage gets swiped (th
 3. **Recipe per 23-30 s:** ~40% b-roll that shows the story (`kind: action`), <=45% talking head or quote (`face`/`quote`), <=25% cards, avg shot 1.4-1.9 s, no clip over 35%.
 4. **Real quotes in short bursts** (<=4 s) cut in with `Tools/splice_voice.py` (real audio + our narration), never a long raw interview. Cut to b-roll on the narration between quotes.
 5. **Cards only for proof**, <=2 s, only if the card is visually rich (headline + image). Dull white-page cards get replaced with b-roll.
-6. **Every shot in shots.json has `"kind": face|quote|action|card`.** Last shot reuses the first clip (loop). Ends on a question.
+6. **Every shot in shots.json has `"kind": face|quote|action|card`.** Last shot reuses the first clip (loop). Ends on the PAYOFF that answers the first line (Oct 13: our question/CTA endings stayed under 3K; the debate question goes in the pinned comment).
+7. **Oct 13 gates (Playbook "Strict Short Formula", `Research Notes/Winning Formula v2`):** screen the premise first (one visible object + one paradox a non-fan gets in second 1; one measure per Short; never a bigger channel's story); no card in the first 4 s; every clip at least as long as its shot (`qa_short.py` now fails replays); render a red-circle twin with `Tools/pointer.py` for the frame-1 test; review with an independent agent using `Tools/critic_v2.md` (the old 0-100 craft score predicted views backwards).
 7. **Gate:** `python Tools/qa_short.py --folder "<folder>"` must print PASS before delivery. FIX lines mean go back and get more footage. Then look at storyboard.jpg and the first-3-seconds frames.
 Order: research -> find 6+ clips -> script around the clips -> voice (`voiceover.py` per piece, `splice_voice.py` for quotes) -> shots.json with kinds -> assemble -> qa_short PASS -> package.
 
@@ -77,7 +78,7 @@ Pin shots to words: put `"anchor": "first words of the phrase"` on shots in shot
 - 23-40 s (CoachClank's 31-45 s Shorts did best; Round 6), 95-150 words. First 6 words carry the scene, the number or the stakes. No throat-clearing, no "did you know".
 - Turn ("You see" / "But") inside the first third; a second re-hook ("But here's the twist") around 45%.
 - Short sentences, one idea each, so each can be a new shot every 1.5-3 s (no evidence that faster than ~2 s helps; test it).
-- End on a two-sided argument the comments will fight over, then stop. A last line that echoes the first helps the loop.
+- End on the payoff that answers the opening line (one number or the subject's own words), then stop; it can be argued with, but it must not be a question (Oct 13 evidence). A last line that echoes the first helps the loop.
 - Spell numbers the voice might misread as `{$200 million|two hundred million dollars}`; hard names `{Maxey|Max-ee}`.
 - Save `Productions/MetaSports/<date> NN <Title>/script.txt` (ONLY the spoken words, one paragraph) and `notes.md` (facts with links, titles, pin, warnings).
 
@@ -92,9 +93,11 @@ Pin shots to words: put `"anchor": "first words of the phrase"` on shots in shot
 - Check: extract frames at 0.05, 0.6, 1.1, 1.5, 2.1, 2.8, 3.5, 4.4 s with ffmpeg and look at them side by side. If two neighbours look alike, add a cut.
 - After posting, read YouTube Studio's "Viewed vs Swiped Away" at 24 h: 70%+ is good, under 60% means rewrite the first 2 seconds.
 
-## 3. Voice: `python Tools/voiceover.py --script "<folder>/script.txt"` then `python Tools/voice_check.py --folder "<folder>"`.
-Same ElevenLabs voice always. Spoken-out numbers ("fifty-two million dollars") are false alarms for the checker; redo only clearly bad takes.
-Gives voice.mp3, words.json (word times) and captions.srt. All shot timing comes from words.json.
+## 3. Voice (pipeline v2, Oct 5 2026; the user said the voice had started to glitch). Evidence: `Research Notes/Voice Investigation (Oct 5, 2026).md`
+Use `. key.sh && python Tools/voice_take.py --script "<folder>/script.txt" [--takes 3]` (NOT bare voiceover.py): it records, checks (free local speech recognition + voice-quality numbers) and re-records only when the check fails. Spliced Short: run it for every `_nN/script.txt` (add `-- --prev-text "..." --next-text "..."` with the neighbouring words so tone stays continuous), then `splice_voice.py`. Re-doing an existing Short: `python Tools/revoice.py --folder "<folder>"` (backs up, re-records, re-times pictures with anchor_shots, re-renders, QA).
+Why: the voice is a CLONE ('pham v2'); the old settings (stability 0.45, similarity 0.8, speed 1.1, then atempo up to x1.6) gave the lowest voice-quality numbers and every time-stretch lowers quality (HNR -0.5 to -1.1 dB at x1.2-1.4; rubberband is worse than atempo). New defaults: stability 0.65, similarity 0.7, native speed auto (1.2/1.15/1.1: about 268/238/210 wpm), stretch capped at x1.08. splice_voice uses a plain measured gain (loudnorm ducked sentence ends by 1-4 dB). voiceover always pads 0.3 s of silence.
+Quality gate for a take: voice_check has no REDO issue (every word said; numbers written differently are ignored; names may differ), HNR >= 7.6, jitter <= 3.4, shimmer <= 11.5 (this voice measures HNR 8-10). Take-to-take variation is about +-0.7 dB HNR, so a failing take is worth one more try (max 3 takes: credits are ~1 per character, plan Starter 90,000/month).
+Gives voice.mp3, words.json (word times) and captions.srt. All shot timing comes from words.json. Old takes are kept in `_voice_prev/` or `_voice_v1/`.
 
 ## 4. Footage (YouTube downloads are blocked from the cloud; use these instead, in this order)
 1. **X posts** from official accounts (NBA, team accounts, ESPN, ClutchPoints, House of Highlights): find them with

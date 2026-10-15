@@ -2,216 +2,251 @@
  {
   "word": "Only",
   "start": 0.0,
-  "end": 0.235
+  "end": 0.197
  },
  {
-  "word": "one",
-  "start": 0.289,
-  "end": 0.418
+  "word": "two",
+  "start": 0.232,
+  "end": 0.337
  },
  {
   "word": "NBA",
-  "start": 0.439,
-  "end": 0.653
+  "start": 0.383,
+  "end": 0.627
  },
  {
-  "word": "player",
-  "start": 0.706,
-  "end": 0.91
+  "word": "players",
+  "start": 0.662,
+  "end": 0.882
  },
  {
-  "word": "can",
-  "start": 0.953,
-  "end": 1.049
+  "word": "are",
+  "start": 0.917,
+  "end": 0.998
  },
  {
   "word": "still",
-  "start": 1.092,
-  "end": 1.252
+  "start": 1.022,
+  "end": 1.161
+ },
+ {
+  "word": "allowed",
+  "start": 1.207,
+  "end": 1.382
+ },
+ {
+  "word": "to",
+  "start": 1.405,
+  "end": 1.451
  },
  {
   "word": "wear",
-  "start": 1.284,
-  "end": 1.402
+  "start": 1.486,
+  "end": 1.579
  },
  {
   "word": "number",
-  "start": 1.456,
-  "end": 1.638
+  "start": 1.614,
+  "end": 1.753
  },
  {
   "word": "six.",
-  "start": 1.691,
-  "end": 2.023
+  "start": 1.811,
+  "end": 2.136
+ },
+ {
+  "word": "One",
+  "start": 2.183,
+  "end": 2.322
+ },
+ {
+  "word": "is",
+  "start": 2.345,
+  "end": 2.392
+ },
+ {
+  "word": "24.",
+  "start": 2.426,
+  "end": 2.902
+ },
+ {
+  "word": "The",
+  "start": 2.926,
+  "end": 3.007
+ },
+ {
+  "word": "other",
+  "start": 3.053,
+  "end": 3.193
+ },
+ {
+  "word": "is",
+  "start": 3.228,
+  "end": 3.286
+ },
+ {
+  "word": "thirty-eight.",
+  "start": 3.32,
+  "end": 3.727
  },
  {
   "word": "Bill",
-  "start": 2.066,
-  "end": 2.248
+  "start": 3.75,
+  "end": 3.913
  },
  {
   "word": "Russell",
-  "start": 2.302,
-  "end": 2.559
+  "start": 3.959,
+  "end": 4.18
  },
  {
   "word": "won",
-  "start": 2.601,
-  "end": 2.698
+  "start": 4.203,
+  "end": 4.296
  },
  {
   "word": "eleven",
-  "start": 2.752,
-  "end": 3.008
+  "start": 4.342,
+  "end": 4.586
  },
  {
   "word": "titles,",
-  "start": 3.051,
-  "end": 3.426
+  "start": 4.621,
+  "end": 4.923
  },
  {
   "word": "so",
-  "start": 3.447,
-  "end": 3.555
+  "start": 4.946,
+  "end": 5.039
  },
  {
   "word": "in",
-  "start": 3.608,
-  "end": 3.651
+  "start": 5.097,
+  "end": 5.143
  },
  {
   "word": "2022",
-  "start": 3.704,
-  "end": 4.282
+  "start": 5.19,
+  "end": 5.84
  },
  {
   "word": "the",
-  "start": 4.336,
-  "end": 4.4
+  "start": 5.886,
+  "end": 5.956
  },
  {
   "word": "league",
-  "start": 4.454,
-  "end": 4.635
+  "start": 5.991,
+  "end": 6.13
  },
  {
   "word": "retired",
-  "start": 4.657,
-  "end": 4.946
+  "start": 6.153,
+  "end": 6.432
  },
  {
   "word": "six",
-  "start": 5.0,
-  "end": 5.192
+  "start": 6.49,
+  "end": 6.664
  },
  {
   "word": "for",
-  "start": 5.246,
-  "end": 5.332
+  "start": 6.711,
+  "end": 6.78
  },
  {
   "word": "every",
-  "start": 5.374,
-  "end": 5.534
+  "start": 6.815,
+  "end": 6.931
  },
  {
   "word": "team.",
-  "start": 5.578,
-  "end": 5.834
+  "start": 6.966,
+  "end": 7.221
  },
  {
   "word": "But",
-  "start": 5.866,
-  "end": 5.995
+  "start": 7.245,
+  "end": 7.361
  },
  {
-  "word": "anyone",
-  "start": 6.038,
-  "end": 6.295
+  "word": "players",
+  "start": 7.396,
+  "end": 7.639
  },
  {
   "word": "already",
-  "start": 6.316,
-  "end": 6.519
+  "start": 7.674,
+  "end": 7.872
  },
  {
   "word": "wearing",
-  "start": 6.574,
-  "end": 6.82
+  "start": 7.906,
+  "end": 8.115
  },
  {
   "word": "it",
-  "start": 6.862,
-  "end": 6.905
+  "start": 8.15,
+  "end": 8.197
  },
  {
   "word": "kept",
-  "start": 6.948,
-  "end": 7.151
+  "start": 8.231,
+  "end": 8.44
  },
  {
   "word": "it.",
-  "start": 7.205,
-  "end": 7.355
- },
- {
-  "word": "Now",
-  "start": 7.429,
-  "end": 7.58
- },
- {
-  "word": "one",
-  "start": 7.654,
-  "end": 7.793
- },
- {
-  "word": "man",
-  "start": 7.826,
-  "end": 7.944
- },
- {
-  "word": "is",
-  "start": 7.986,
-  "end": 8.051
- },
- {
-  "word": "left.",
-  "start": 8.104,
-  "end": 8.436
+  "start": 8.475,
+  "end": 8.579
  },
  {
   "word": "Jaylin",
-  "start": 8.532,
-  "end": 8.832
+  "start": 8.614,
+  "end": 8.928
  },
  {
-  "word": "Williams.",
-  "start": 8.875,
-  "end": 9.356
+  "word": "Williams,",
+  "start": 8.974,
+  "end": 9.264
  },
  {
-  "word": "Here",
-  "start": 9.453,
-  "end": 9.614
+  "word": "of",
+  "start": 9.287,
+  "end": 9.334
  },
  {
-  "word": "he",
-  "start": 9.646,
-  "end": 9.688
+  "word": "the",
+  "start": 9.369,
+  "end": 9.438
  },
  {
-  "word": "is",
-  "start": 9.742,
-  "end": 9.828
+  "word": "Thunder,",
+  "start": 9.485,
+  "end": 9.787
  },
  {
-  "word": "on",
-  "start": 9.881,
-  "end": 9.956
+  "word": "says",
+  "start": 9.81,
+  "end": 9.961
  },
  {
-  "word": "that.",
-  "start": 9.999,
-  "end": 10.32
+  "word": "his",
+  "start": 9.984,
+  "end": 10.054
+ },
+ {
+  "word": "dad",
+  "start": 10.1,
+  "end": 10.239
+ },
+ {
+  "word": "picked",
+  "start": 10.274,
+  "end": 10.437
+ },
+ {
+  "word": "it.",
+  "start": 10.472,
+  "end": 10.565
  }
 ]

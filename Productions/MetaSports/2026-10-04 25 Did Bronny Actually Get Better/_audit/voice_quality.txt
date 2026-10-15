@@ -1,0 +1,2 @@
+2026-10-04 25 Did Bronny Actua#0     REDO HNR   7.4 jit 3.11 shim 10.37 jumps/s 0.00 clicks/min 272.9 hf%  4.68 f0 205 dur 14.95  HNR 7.4 dB (noisy/robotic); jitter 3.11% (shaky); shimmer 10.37% (uneven loudness); 272.9 clicks/min
+2026-10-04 25 Did Bronny Actua#2     REDO HNR   7.6 jit 3.18 shim 10.63 jumps/s 0.14 clicks/min 1029.3 hf%  4.17 f0 221 dur 6.94  HNR 7.6 dB (noisy/robotic); jitter 3.18% (shaky); shimmer 10.63% (uneven loudness); 1029.3 clicks/min

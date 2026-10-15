@@ -1,29 +1,5 @@
-[
- {
-  "vo": "_n1"
- },
- {
-  "vo": "_n2"
- },
- {
-  "quote": "src/2104665697406341521.mp4",
-  "stt": "md_stt.json",
-  "from": 0.05,
-  "to": 1.3
- },
- {
-  "vo": "_n3"
- },
- {
-  "vo": "_n4"
- },
- {
-  "quote": "src/2104753439901417494.mp4",
-  "stt": "lh_stt.json",
-  "from": 31.55,
-  "to": 33.95
- },
- {
-  "vo": "_n5"
- }
-]
+[{"vo":"_n1"},
+ {"quote":"src/2104665697406341521.mp4","stt":"md_stt.json","from":0.05,"to":1.3,"text":"Feels like he's not here."},
+ {"vo":"_n2"},
+ {"quote":"src/2104753439901417494.mp4","stt":"lh_stt.json","from":30.78,"to":33.85,"text":"You guys know me as Bronny. I'm, my real name is LeBron."},
+ {"vo":"_n3"}]

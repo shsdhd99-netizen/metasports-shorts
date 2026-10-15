@@ -11,47 +11,42 @@ Style: Cap,Montserrat Black,86,&H00FFFFFF,&H00FFFFFF,&H00000000,&H99000000,0,0,0
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:00.46,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE CLIPPERS
-Dialogue: 0,0:00:00.46,0:00:00.75,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}GAVE UP
-Dialogue: 0,0:00:00.75,0:00:01.34,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TEN FIRST-ROUND
-Dialogue: 0,0:00:01.34,0:00:02.02,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}PICKS TO ACQUIRE
-Dialogue: 0,0:00:02.02,0:00:02.48,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND RETAIN
-Dialogue: 0,0:00:02.48,0:00:03.10,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}KAWHI LEONARD.
-Dialogue: 0,0:00:03.10,0:00:03.57,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NOW TORONTO
-Dialogue: 0,0:00:03.57,0:00:04.09,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}JUST PAID TWO
-Dialogue: 0,0:00:04.09,0:00:04.52,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}MORE TO TAKE
-Dialogue: 0,0:00:04.52,0:00:04.96,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HIM BACK.
-Dialogue: 0,0:00:04.96,0:00:05.39,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}KAWHI WON
-Dialogue: 0,0:00:05.39,0:00:05.86,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE RAPTORS'
-Dialogue: 0,0:00:05.86,0:00:06.33,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ONLY TITLE
-Dialogue: 0,0:00:06.33,0:00:07.04,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN 2019,
-Dialogue: 0,0:00:07.04,0:00:07.49,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THEN LEFT
-Dialogue: 0,0:00:07.49,0:00:08.36,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AFTER ONE SEASON.
-Dialogue: 0,0:00:08.36,0:00:08.85,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THIS MONTH,
-Dialogue: 0,0:00:08.85,0:00:09.35,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TORONTO SENT
-Dialogue: 0,0:00:09.35,0:00:10.00,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BRANDON INGRAM,
-Dialogue: 0,0:00:10.00,0:00:10.54,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}GRADEY DICK,
-Dialogue: 0,0:00:10.54,0:00:11.23,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TWO UNPROTECTED
-Dialogue: 0,0:00:11.23,0:00:11.63,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FIRSTS,
-Dialogue: 0,0:00:11.63,0:00:12.17,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}A PICK SWAP
-Dialogue: 0,0:00:12.17,0:00:12.81,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND TWO SECONDS
-Dialogue: 0,0:00:12.81,0:00:13.40,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TO THE CLIPPERS.
-Dialogue: 0,0:00:13.40,0:00:13.85,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BUT HERE'S
-Dialogue: 0,0:00:13.85,0:00:14.30,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE TWIST.
-Dialogue: 0,0:00:14.30,0:00:14.52,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FIVE
-Dialogue: 0,0:00:14.52,0:00:15.08,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}OF THOSE CLIPPERS
-Dialogue: 0,0:00:15.08,0:00:15.65,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}PICKS WERE TAKEN
-Dialogue: 0,0:00:15.65,0:00:16.35,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BY THE NBA,
-Dialogue: 0,0:00:16.35,0:00:16.84,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ALONG WITH A
-Dialogue: 0,0:00:16.84,0:00:17.89,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}$30 MILLION FINE
-Dialogue: 0,0:00:17.89,0:00:18.43,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND A ONE-YEAR
-Dialogue: 0,0:00:18.43,0:00:18.88,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SUSPENSION
-Dialogue: 0,0:00:18.88,0:00:19.28,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FOR OWNER
-Dialogue: 0,0:00:19.28,0:00:19.90,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}STEVE BALLMER,
-Dialogue: 0,0:00:19.90,0:00:20.18,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}OVER HOW
-Dialogue: 0,0:00:20.18,0:00:21.01,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THEY PAID KAWHI.
-Dialogue: 0,0:00:21.01,0:00:22.02,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NOW HE'S THIRTY-FIVE.
-Dialogue: 0,0:00:22.02,0:00:22.58,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SO IS TORONTO
-Dialogue: 0,0:00:22.58,0:00:23.48,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BUYING A CHAMPIONSHIP,
-Dialogue: 0,0:00:23.48,0:00:23.86,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}OR PAYING
-Dialogue: 0,0:00:23.86,0:00:25.07,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FOR 2019?
+Dialogue: 0,0:00:00.00,0:00:00.43,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE NBA
+Dialogue: 0,0:00:00.43,0:00:00.84,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TOOK FIVE
+Dialogue: 0,0:00:00.84,0:00:01.34,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FIRST-ROUND PICKS
+Dialogue: 0,0:00:01.34,0:00:02.02,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FROM THE CLIPPERS,
+Dialogue: 0,0:00:02.02,0:00:02.34,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FINED THEM
+Dialogue: 0,0:00:02.34,0:00:03.18,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}$30 MILLION,
+Dialogue: 0,0:00:03.18,0:00:03.70,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND SUSPENDED
+Dialogue: 0,0:00:03.70,0:00:04.06,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THEIR OWNER
+Dialogue: 0,0:00:04.06,0:00:04.59,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FOR A YEAR,
+Dialogue: 0,0:00:04.59,0:00:05.12,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ALL OVER HOW
+Dialogue: 0,0:00:05.12,0:00:05.44,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THEY PAID
+Dialogue: 0,0:00:05.44,0:00:06.11,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}KAWHI LEONARD.
+Dialogue: 0,0:00:06.11,0:00:06.82,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THEN TORONTO TRADED
+Dialogue: 0,0:00:06.82,0:00:07.44,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FOR HIM ANYWAY:
+Dialogue: 0,0:00:07.44,0:00:08.09,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BRANDON INGRAM,
+Dialogue: 0,0:00:08.09,0:00:08.62,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}GRADEY DICK,
+Dialogue: 0,0:00:08.62,0:00:08.97,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND TWO
+Dialogue: 0,0:00:08.97,0:00:09.71,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FIRST-ROUND PICKS.
+Dialogue: 0,0:00:09.71,0:00:10.37,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}EIGHT DAYS LATER,
+Dialogue: 0,0:00:10.37,0:00:10.68,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IT GAVE
+Dialogue: 0,0:00:10.68,0:00:11.47,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE THIRTY-FIVE-YEAR-OLD
+Dialogue: 0,0:00:11.47,0:00:12.75,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}A $115 MILLION
+Dialogue: 0,0:00:12.75,0:00:13.22,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}EXTENSION,
+Dialogue: 0,0:00:13.22,0:00:13.98,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AFTER A CAREER-HIGH
+Dialogue: 0,0:00:13.98,0:00:15.04,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}27.9 POINTS
+Dialogue: 0,0:00:15.04,0:00:15.41,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}A GAME.
+Dialogue: 0,0:00:15.41,0:00:15.73,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BUT THAT'S
+Dialogue: 0,0:00:15.73,0:00:16.02,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NOT EVEN
+Dialogue: 0,0:00:16.02,0:00:16.64,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE CRAZY PART.
+Dialogue: 0,0:00:16.64,0:00:17.37,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ESPN COUNTS
+Dialogue: 0,0:00:17.37,0:00:17.96,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TEN FIRST-ROUND
+Dialogue: 0,0:00:17.96,0:00:18.57,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}PICKS THE CLIPPERS
+Dialogue: 0,0:00:18.57,0:00:19.13,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SPENT TO GET
+Dialogue: 0,0:00:19.13,0:00:19.70,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND KEEP HIM.
+Dialogue: 0,0:00:19.70,0:00:20.29,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TEN FIRST-ROUND
+Dialogue: 0,0:00:20.29,0:00:20.86,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}PICKS OUT.
+Dialogue: 0,0:00:20.86,0:00:21.23,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TORONTO'S
+Dialogue: 0,0:00:21.23,0:00:22.07,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FIRST-ROUND PRICE:
+Dialogue: 0,0:00:22.07,0:00:22.91,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TWO.

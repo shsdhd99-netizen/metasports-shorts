@@ -1,0 +1,50 @@
+{
+ "engine": "ffmpeg",
+ "out": "final_dry.mp4",
+ "loop_fix": true,
+ "fits": [
+  {
+   "shot": 1,
+   "clip": "R_close.mp4",
+   "fit": "slowed",
+   "factor": 1.194
+  },
+  {
+   "shot": 3,
+   "clip": "K_wide.mp4",
+   "fit": "slowed",
+   "factor": 1.138
+  },
+  {
+   "shot": 4,
+   "clip": "R_close.mp4",
+   "fit": "slowed",
+   "factor": 1.123
+  },
+  {
+   "shot": 8,
+   "clip": "M_gym.mp4",
+   "fit": "slowed",
+   "factor": 1.045
+  },
+  {
+   "shot": 9,
+   "clip": "M_pass.mp4",
+   "fit": "slowed",
+   "factor": 1.217
+  },
+  {
+   "shot": 10,
+   "clip": "M_close.mp4",
+   "fit": "slowed",
+   "factor": 1.139
+  },
+  {
+   "shot": 11,
+   "clip": "c_6080.mp4",
+   "fit": "slowed",
+   "factor": 1.109
+  }
+ ],
+ "music": null
+}

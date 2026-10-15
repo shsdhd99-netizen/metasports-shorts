@@ -1,0 +1,26 @@
+[
+ {
+  "take": 1,
+  "ok": false,
+  "score": 3.9,
+  "verdict": "PASS",
+  "issues": [],
+  "wpm": 223,
+  "hnr": 7.7,
+  "jitter": 2.95,
+  "shimmer": 11.62,
+  "dur": 23.39
+ },
+ {
+  "take": 2,
+  "ok": true,
+  "score": 4.3,
+  "verdict": "CHECK",
+  "issues": [],
+  "wpm": 220,
+  "hnr": 8.0,
+  "jitter": 2.84,
+  "shimmer": 11.33,
+  "dur": 23.8
+ }
+]

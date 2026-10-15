@@ -1,0 +1,59 @@
+[
+ {
+  "name": "2026-10-04 15 Steven Adams Say#0",
+  "dur": 4.56,
+  "voiced": 0.68,
+  "hnr": 6.9,
+  "jitter": 3.11,
+  "shimmer": 11.54,
+  "jumps": 0.0,
+  "clicks": 447.6,
+  "hf": 2.59,
+  "f0_med": 179.0,
+  "verdict": "REDO",
+  "problems": [
+   "HNR 6.9 dB (noisy/robotic)",
+   "jitter 3.11% (shaky)",
+   "shimmer 11.54% (uneven loudness)",
+   "447.6 clicks/min"
+  ]
+ },
+ {
+  "name": "2026-10-04 15 Steven Adams Say#2",
+  "dur": 4.08,
+  "voiced": 0.67,
+  "hnr": 7.2,
+  "jitter": 3.24,
+  "shimmer": 11.49,
+  "jumps": 0.0,
+  "clicks": 88.3,
+  "hf": 4.54,
+  "f0_med": 190.0,
+  "verdict": "REDO",
+  "problems": [
+   "HNR 7.2 dB (noisy/robotic)",
+   "jitter 3.24% (shaky)",
+   "shimmer 11.49% (uneven loudness)",
+   "88.3 clicks/min"
+  ]
+ },
+ {
+  "name": "2026-10-04 15 Steven Adams Say#4",
+  "dur": 1.72,
+  "voiced": 0.49,
+  "hnr": 6.7,
+  "jitter": 3.06,
+  "shimmer": 11.13,
+  "jumps": 0.0,
+  "clicks": 419.1,
+  "hf": 6.84,
+  "f0_med": 198.0,
+  "verdict": "REDO",
+  "problems": [
+   "HNR 6.7 dB (noisy/robotic)",
+   "jitter 3.06% (shaky)",
+   "shimmer 11.13% (uneven loudness)",
+   "419.1 clicks/min"
+  ]
+ }
+]

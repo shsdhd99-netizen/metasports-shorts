@@ -1,5 +1,7 @@
 # Tools (MetaSports)
 
+> **Oct 13, 2026:** see the "Oct 13 changes" box at the top of `../Tools Guide.md` (assemble no-loop fix, new QA checks, pointer.py, critic_v2.md, voice_fx silence-only trimming).
+
 Run these from this folder. In File Explorer: open Tools, click the address bar, type cmd, Enter.
 
 ## Secrets (do this once)

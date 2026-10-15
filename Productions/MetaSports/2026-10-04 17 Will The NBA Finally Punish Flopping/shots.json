@@ -1,120 +1,132 @@
 [
  {
-  "clip": "V01.mp4",
+  "clip": "V03.mp4",
   "start": 0.0,
-  "why": "Kings defender flops: hook",
   "kind": "action",
   "zoom": 0.12
  },
  {
-  "clip": "V03.mp4",
-  "start": 1.0,
-  "why": "technical foul: Cavs flop",
+  "clip": "V01.mp4",
+  "start": 0.66,
   "kind": "action",
-  "zoom": 0.08
- },
- {
-  "clip": "V04.mp4",
-  "start": 1.36,
-  "why": "Finch loves it",
-  "kind": "action",
-  "zoom": 0.06
- },
- {
-  "clip": "V06.mp4",
-  "start": 2.5,
-  "why": "loves it",
-  "kind": "action"
- },
- {
-  "clip": "V09.mp4",
-  "start": 3.4,
-  "why": "stop rewarding the flopping",
-  "kind": "action",
-  "zoom": 0.06
- },
- {
-  "clip": "V08.mp4",
-  "start": 4.4,
-  "why": "league posted video of flops",
-  "kind": "action",
-  "zoom": 0.06
+  "anchor": "technical"
  },
  {
   "clip": "V02.mp4",
-  "start": 5.6,
-  "why": "last season's flops",
-  "kind": "action"
+  "start": 1.71,
+  "kind": "action",
+  "anchor": "since"
  },
  {
-  "clip": "V11.mp4",
-  "start": 6.5,
-  "why": "secondary theatrical",
-  "kind": "action"
- },
- {
-  "clip": "V05.mp4",
-  "start": 7.5,
-  "why": "exaggerated movement",
-  "kind": "action"
- },
- {
-  "clip": "F1.mp4",
-  "start": 8.4,
-  "why": "Daigneault sees the catch",
-  "kind": "face",
-  "zoom": 0.05
- },
- {
-  "clip": "Q1.mp4",
-  "start": 10.09,
-  "why": "quote: flailing to bait those calls",
-  "kind": "quote"
- },
- {
-  "clip": "Q1.mp4",
-  "start": 12.09,
-  "why": "quote cont",
-  "kind": "quote",
-  "zoom": 0.12,
-  "in": 2.0
+  "clip": "V04.mp4",
+  "start": 2.64,
+  "kind": "action",
+  "anchor": "But NBC"
  },
  {
   "clip": "V07.mp4",
-  "start": 14.1,
-  "why": "not every fall is a flop",
+  "start": 4.18,
   "kind": "action",
-  "zoom": 0.06
+  "anchor": "inconsistent"
  },
  {
-  "clip": "S1.mp4",
-  "start": 16.05,
-  "why": "Siakam sit-down",
-  "kind": "action"
+  "clip": "V08.mp4",
+  "start": 5.26,
+  "kind": "action",
+  "anchor": "Now the"
  },
  {
-  "clip": "A1.mp4",
-  "start": 18.9,
-  "why": "Avdija head snap",
-  "kind": "action"
+  "clip": "V06.mp4",
+  "start": 6.62,
+  "kind": "action",
+  "anchor": "last"
  },
  {
-  "clip": "P2.mp4",
-  "start": 20.9,
-  "why": "where is the line (push-off example)",
-  "kind": "action"
+  "clip": "V09.mp4",
+  "start": 7.46,
+  "kind": "action",
+  "anchor": "and says"
+ },
+ {
+  "clip": "V11.mp4",
+  "start": 9.09,
+  "kind": "action",
+  "anchor": "The test"
+ },
+ {
+  "clip": "V05.mp4",
+  "start": 9.96,
+  "kind": "action",
+  "anchor": "secondary"
+ },
+ {
+  "clip": "V07.mp4",
+  "start": 11.88,
+  "kind": "action",
+  "anchor": "But there's"
  },
  {
   "clip": "P1.mp4",
-  "start": 21.9,
-  "why": "Brown push-off example",
-  "kind": "action"
+  "start": 12.63,
+  "kind": "action",
+  "anchor": "The NBA is"
  },
  {
-  "clip": "V01.mp4",
-  "start": 22.6,
-  "why": "loop to first shot",
+  "clip": "P2.mp4",
+  "start": 14.01,
   "kind": "action",
+  "anchor": "push-offs"
+ },
+ {
+  "clip": "F1.mp4",
+  "start": 14.53,
+  "kind": "face",
+  "anchor": "Thunder"
+ },
+ {
+  "clip": "Q1.mp4",
+  "start": 16.7,
+  "kind": "quote",
+  "anchor": "they",
+  "zoom": 0.08
+ },
+ {
+  "clip": "Q1.mp4",
+  "start": 18.07,
+  "kind": "quote",
+  "anchor": "flailing",
+  "in": 1.7,
   "zoom": 0.12
+ },
+ {
+  "clip": "A1.mp4",
+  "start": 20.58,
+  "kind": "action",
+  "anchor": "A head"
+ },
+ {
+  "clip": "S1.mp4",
+  "start": 21.83,
+  "kind": "action",
+  "anchor": "Neither"
+ },
+ {
+  "clip": "V09.mp4",
+  "start": 24.27,
+  "kind": "action",
+  "anchor": "Reacting"
+ },
+ {
+  "clip": "c17_rule.mp4",
+  "start": 25.61,
+  "kind": "card",
+  "anchor": "Selling"
+ },
+ {
+  "clip": "V03.mp4",
+  "start": 27.25,
+  "kind": "action",
+  "anchor": "free throw",
+  "zoom": 0.1
  }
 ]

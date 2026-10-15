@@ -1,0 +1,25 @@
+{
+ "engine": "ffmpeg",
+ "out": "final.mp4",
+ "loop_fix": true,
+ "fits": [
+  {
+   "shot": 2,
+   "clip": "wem2.mp4",
+   "fit": "slowed",
+   "factor": 1.083
+  },
+  {
+   "shot": 7,
+   "clip": "t_end.mp4",
+   "fit": "slowed",
+   "factor": 1.117
+  },
+  {
+   "shot": 19,
+   "clip": "c15.mp4",
+   "fit": "slowed",
+   "factor": 1.129
+  }
+ ]
+}

@@ -1,118 +1,100 @@
 [
  {
-  "clip": "b1.mp4",
-  "start": 0.0,
-  "why": "Can Jokic catch",
+  "clip": "b1c.mp4",
+  "anchor": "Nikola Jokic has",
   "kind": "action",
-  "zoom": 0.12
- },
- {
-  "clip": "a1.mp4",
-  "start": 1.03,
-  "why": "Westbrook 209",
-  "kind": "action"
+  "in": 0.0,
+  "zoom": 0.04,
+  "why": "Frame 1 = Jokic himself, close, as '198' appears in the captions (scorebug cropped off; critic Oct 14 edit 1); captions lowered to 68% so 'HAS 198' clears his mouth (critic re-check Oct 14)",
+  "start": 0.0,
+  "cap_y": 1305
  },
  {
   "clip": "a2.mp4",
-  "start": 2.21,
-  "why": "just retired",
-  "kind": "action"
- },
- {
-  "clip": "b2.mp4",
-  "start": 3.18,
-  "why": "Jokic at 198",
-  "kind": "action"
- },
- {
-  "clip": "b3.mp4",
-  "start": 4.43,
-  "why": "eleven away",
-  "kind": "action"
+  "anchor": "Russell Westbrook retired",
+  "kind": "face",
+  "in": 0.0,
+  "why": "Westbrook, close, on his own name (a5 panned to an empty court after 0.5 s)",
+  "start": 1.99
  },
  {
   "clip": "a3.mp4",
-  "start": 5.1,
-  "why": "Westbrook 42",
-  "kind": "action"
+  "anchor": "with the record",
+  "kind": "action",
+  "in": 0.04,
+  "why": "Westbrook in action on 'the record: 209'; in 0.04 skips a one-frame hoop/crowd flash (re-check)",
+  "start": 2.87
  },
  {
-  "clip": "a4.mp4",
-  "start": 7.06,
-  "why": "Oscar Robertson w Westbrook",
-  "kind": "action"
+  "clip": "b13c.mp4",
+  "anchor": "Eleven ties it",
+  "kind": "action",
+  "in": 0.0,
+  "why": "Jokic passing on 'Eleven ties it' (ends at 4.70 s: after that a Memphis player fills the frame; bottom 3% cropped to drop a source-text sliver)",
+  "start": 4.02
  },
  {
-  "clip": "b4.mp4",
-  "start": 8.93,
-  "why": "But Jokic",
-  "kind": "action"
+  "clip": "b4c.mp4",
+  "anchor": "Twelve breaks it",
+  "kind": "face",
+  "in": 0.2,
+  "why": "Jokic close-up on 'Twelve breaks it' (critic re-check Oct 14; bottom 3% cropped)",
+  "start": 4.7
  },
  {
-  "clip": "b5.mp4",
-  "start": 10.04,
-  "why": "34 TDs",
-  "kind": "action"
+  "clip": "a1.mp4",
+  "anchor": "Westbrook needed",
+  "kind": "action",
+  "in": 0.0,
+  "why": "Westbrook (OKC tribute, then Wizards): a long career; ends at 7.00 s, before the clip's own cut to a Rockets frame at 1.70 s",
+  "start": 5.32
  },
  {
-  "clip": "b6.mp4",
-  "start": 11.48,
-  "why": "65 games",
-  "kind": "action"
+  "clip": "b2.mp4",
+  "anchor": "Jokic has played",
+  "kind": "action",
+  "in": 0.0,
+  "why": "Jokic in a game, on '810'; starts at 7.00 s (re-check: avoids a1's Rockets frame)",
+  "start": 7.0
  },
  {
   "clip": "b7.mp4",
-  "start": 12.29,
-  "why": "every two games",
-  "kind": "action"
+  "anchor": "Last season, he",
+  "kind": "action",
+  "in": 0.0,
+  "why": "Jokic last season",
+  "start": 8.51
  },
  {
-  "clip": "b8.mp4",
-  "start": 13.55,
-  "why": "Christmas 56",
-  "kind": "action"
- },
- {
-  "clip": "b9.mp4",
-  "start": 15.15,
-  "why": "16 and 15",
-  "kind": "action"
- },
- {
-  "clip": "b10.mp4",
-  "start": 16.23,
-  "why": "at that pace",
-  "kind": "action"
- },
- {
-  "clip": "b11.mp4",
-  "start": 17.88,
-  "why": "21 games",
-  "kind": "action"
+  "clip": "b5c.mp4",
+  "anchor": "in just 65",
+  "kind": "action",
+  "in": 0.25,
+  "why": "Jokic in action: the rate (in 0.25 skips a non-Jokic first frame); bottom 3% cropped (source-text sliver)",
+  "start": 10.0
  },
  {
   "clip": "b12.mp4",
-  "start": 18.71,
-  "why": "season starts",
-  "kind": "action"
+  "anchor": "At that pace",
+  "kind": "face",
+  "in": 0.0,
+  "why": "Jokic (media day) on the projection",
+  "start": 11.7
  },
  {
-  "clip": "b13.mp4",
-  "start": 20.2,
-  "why": "does Jokic pass",
-  "kind": "action"
+  "clip": "c21_xmas.png",
+  "anchor": "Denver's twenty-seventh",
+  "kind": "card",
+  "why": "Readable proof: pace = about 23 games; game 27 = Fri Dec 25 at Golden State (B-Ref schedule; critic Oct 14 edit 4)",
+  "start": 13.48
  },
  {
-  "clip": "a5.mp4",
-  "start": 21.08,
-  "why": "Westbrook",
-  "kind": "action"
- },
- {
-  "clip": "b1.mp4",
-  "start": 22.22,
-  "why": "loop",
+  "clip": "b1c.mp4",
+  "anchor": "Four games to",
   "kind": "action",
-  "zoom": 0.1
+  "in": 0.0,
+  "why": "End on Jokic (critic edit 4) and loop into frame 1",
+  "start": 15.52,
+  "cap_y": 1305
  }
 ]

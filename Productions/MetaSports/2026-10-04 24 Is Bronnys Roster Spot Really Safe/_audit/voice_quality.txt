@@ -1,0 +1,2 @@
+2026-10-04 24 Is Bronnys Roste#0     REDO HNR   7.3 jit 3.07 shim 10.39 jumps/s 0.00 clicks/min 419.0 hf%  4.40 f0 191 dur 22.34  HNR 7.3 dB (noisy/robotic); jitter 3.07% (shaky); shimmer 10.39% (uneven loudness); 419.0 clicks/min
+2026-10-04 24 Is Bronnys Roste#2     REDO HNR   5.7 jit 3.10 shim 11.83 jumps/s 0.00 clicks/min 1453.4 hf%  7.09 f0 200 dur 2.64  HNR 5.7 dB (noisy/robotic); jitter 3.1% (shaky); shimmer 11.83% (uneven loudness); 1453.4 clicks/min

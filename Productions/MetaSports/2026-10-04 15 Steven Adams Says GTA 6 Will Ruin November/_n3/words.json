@@ -1,47 +1,42 @@
 [
  {
-  "word": "So",
+  "word": "Then",
   "start": 0.0,
-  "end": 0.162
+  "end": 0.186
  },
  {
-  "word": "who",
-  "start": 0.216,
-  "end": 0.324
+  "word": "he",
+  "start": 0.232,
+  "end": 0.279
  },
  {
-  "word": "is",
-  "start": 0.378,
-  "end": 0.443
+  "word": "got",
+  "start": 0.337,
+  "end": 0.488
  },
  {
-  "word": "actually",
-  "start": 0.486,
-  "end": 0.745
+  "word": "to",
+  "start": 0.522,
+  "end": 0.58
  },
  {
-  "word": "playing",
-  "start": 0.778,
-  "end": 0.983
+  "word": "the",
+  "start": 0.627,
+  "end": 0.697
  },
  {
-  "word": "hard",
-  "start": 1.026,
-  "end": 1.155
+  "word": "coaches",
+  "start": 0.731,
+  "end": 1.045
  },
  {
-  "word": "on",
-  "start": 1.188,
-  "end": 1.253
+  "word": "and",
+  "start": 1.08,
+  "end": 1.161
  },
  {
-  "word": "November",
-  "start": 1.296,
-  "end": 1.598
- },
- {
-  "word": "nineteenth?",
-  "start": 1.642,
-  "end": 2.16
+  "word": "scouts.",
+  "start": 1.196,
+  "end": 1.718
  }
 ]

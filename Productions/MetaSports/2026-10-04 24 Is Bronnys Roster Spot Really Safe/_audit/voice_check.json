@@ -1,0 +1,62 @@
+{
+ "verdict": "REDO",
+ "wpm": 237,
+ "issues": [
+  " 6.18s  script \"20 ninth\" but heard \"29th\"",
+  "19.24s  script \"point\" but heard \"(nothing)\"",
+  "24.74s  script \"it was probably 1 of the most important shots of the game\" but heard \"(nothing)\""
+ ],
+ "notes": [
+  " 4.92s  \"bronny\" heard as \"brony\" (close; check the name)",
+  "16.08s  \"knecht a\" heard as \"necht\" (close; check the name)",
+  "18.48s  \"bronny\" heard as \"brony\" (close; check the name)",
+  "20.98s  \"luka doncic\" heard as \"luca duncic\" (close; check the name)",
+  " 5.73s  dragging sentence (152 wpm): Until June twenty-ninth, only about $1.3 million of his $2.3",
+  " 1.98s  very quiet word \"spot.\" (-11 dB)"
+ ],
+ "heard": "A guaranteed deal does not guarantee a roster spot. The Lakers have 16 players for 15 spots and one is Brony James. Until June 29th, only about 1 .3 million of his 2 .3 million was guaranteed. The Lakers locked in the rest, but Yahoo says his name has surfaced as a possible trade or waiver option. And rival executives reportedly expect Dalton Necht, first round pick, to be the odd man out. So what does Brony have? 2 .9 points in under 9 minutes. And Luca Duncic last March. The guarantee protects his money. That shot might protect his spot",
+ "mismatches": [
+  {
+   "at": 4.92,
+   "script": "bronny",
+   "heard": "brony",
+   "similar": 0.91
+  },
+  {
+   "at": 6.18,
+   "script": "20 ninth",
+   "heard": "29th",
+   "similar": 0.55
+  },
+  {
+   "at": 16.08,
+   "script": "knecht a",
+   "heard": "necht",
+   "similar": 0.83
+  },
+  {
+   "at": 18.48,
+   "script": "bronny",
+   "heard": "brony",
+   "similar": 0.91
+  },
+  {
+   "at": 19.24,
+   "script": "point",
+   "heard": "",
+   "similar": 0.0
+  },
+  {
+   "at": 20.98,
+   "script": "luka doncic",
+   "heard": "luca duncic",
+   "similar": 0.8
+  },
+  {
+   "at": 24.74,
+   "script": "it was probably 1 of the most important shots of the game",
+   "heard": "",
+   "similar": 0.0
+  }
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "verdict": "REDO",
+ "wpm": 292,
+ "issues": [
+  " 7.34s  script \"but\" but heard \"(nothing)\""
+ ],
+ "notes": [
+  " 8.66s  \"jaylin\" heard as \"jalen\" (close; check the name)",
+  "10.74s  rushed sentence (370 wpm): my dad was the one that picked the number, so there was no t",
+  "13.63s  rushed sentence (344 wpm): The league retired six a month later.",
+  " 8.47s  very quiet word \"it.\" (-12 dB)"
+ ],
+ "heard": "Only two NBA players are still allowed to wear number six. One is 24, the other is 38. Bill Russell won 11 titles, so in 2022, the league retired six for every team. players already wearing it kept it. Jalen Williams of the Thunder says his dad picked it. My dad was the one that picked the number, so there was no thought going into it. The league retired six a month later. Deandre Jordan of the Pelicans re -signed this summer for two more years. Whoever retires last takes six with him. Odds are, it's the 24 -year -old whose dad picked it without thinking.",
+ "mismatches": [
+  {
+   "at": 3.28,
+   "script": "30 8",
+   "heard": "38",
+   "similar": 1.0
+  },
+  {
+   "at": 7.34,
+   "script": "but",
+   "heard": "",
+   "similar": 0.0
+  },
+  {
+   "at": 8.66,
+   "script": "jaylin",
+   "heard": "jalen",
+   "similar": 0.73
+  },
+  {
+   "at": 19.64,
+   "script": "20 4",
+   "heard": "24",
+   "similar": 1.0
+  }
+ ]
+}

@@ -5,3 +5,5 @@ file '/home/user/metasports-shorts/Productions/MetaSports/2026-10-04 16 Giannis 
 file '/home/user/metasports-shorts/Productions/MetaSports/2026-10-04 16 Giannis Faces The Bucks In Vice City/_splice/p2.wav'
 file '/home/user/metasports-shorts/Productions/MetaSports/2026-10-04 16 Giannis Faces The Bucks In Vice City/_splice/gap.wav'
 file '/home/user/metasports-shorts/Productions/MetaSports/2026-10-04 16 Giannis Faces The Bucks In Vice City/_splice/p3.wav'
+file '/home/user/metasports-shorts/Productions/MetaSports/2026-10-04 16 Giannis Faces The Bucks In Vice City/_splice/gap.wav'
+file '/home/user/metasports-shorts/Productions/MetaSports/2026-10-04 16 Giannis Faces The Bucks In Vice City/_splice/p4.wav'

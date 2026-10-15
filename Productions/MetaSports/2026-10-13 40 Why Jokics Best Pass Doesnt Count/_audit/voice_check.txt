@@ -1,0 +1,6 @@
+Voice check: CHECK   (86 words, 20.6s, 250 wpm)
+  note   2.04s  "jokic" heard as "yokic" (close; check the name)
+  note   8.36s  "jokic" heard as "yokic" (close; check the name)
+  note  13.98s  "preseason" heard as "pre season" (close; check the name)
+  note  16.08s  "preseason" heard as "pre season" (close; check the name)
+  heard: This pass doesn't even count. A week later, Yokic said it was probably the best pass of his NBA career. No look, behind the back, corner to corner. Cam Johnson buries the three. Yokic has 6 ,080 assists in the record book, so this should be number 6 ,081. It isn't. It happened in a pre -season game, in a college gym in Boulder, and pre -season assists never go in the book. So his total still reads 6 ,080, not 81.

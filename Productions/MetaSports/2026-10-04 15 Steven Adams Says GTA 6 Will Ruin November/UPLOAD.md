@@ -1,24 +1,28 @@
-# #15 The Heat become Vice City for GTA 6 (2026-10-04, rebuilt)
+# #15 Why Steven Adams Fears GTA 6 In November (rebuilt 2026-10-05)
 
 **Hold this. Post #16 first. Same GTA week.**
 
 **Video:** `READY TO POST - Heat Become Vice City For GTA 6.mp4` (23 s, 1080x1920, -14 LUFS). Official Heat x Rockstar reveal footage, Rockets practice b-roll, Steven Adams's real media-day quotes. Passes `Tools/qa_short.py`. Not uploaded.
 
 ## Title (pick one)
-1. **The Heat Are Becoming Vice City 😳** (recommended)
-2. An NBA Team Just Became GTA 6 😭
-3. Why The Heat Will Play As Vice City 😳
+1. Why Steven Adams Fears GTA 6 In November 😳  (recommended)
+2. Is GTA 6 Really Ruining The NBA 😭
+3. What Steven Adams Says GTA 6 Does To The NBA 😳
 
-## Tags (see line below; 500 max)
-miami heat, heat vice city, a night in vice city, vice city night, heat vs bucks, miami heat gta 6, gta 6 nba, gta vi, gta 6 release date, gta 6 november 19, grand theft auto 6, rockstar games, heat vice city jersey, vice city court, kaseya center, steven adams, steven adams gta, steven adams media day, houston rockets, nba funny, nba news, nba 2026-27, nba preseason 2026, nba shorts, basketball shorts, nba viral, nba marketing, nba espn november 18, nba players gta 6
+## Tags (452 chars, one line)
+steven adams, steven adams gta 6, steven adams media day, steven adams funny, houston rockets, rockets media day, gta 6 nba, gta 6 release date, gta 6 november 19, gta vi, grand theft auto 6, rockstar games, miami heat vice city, heat vice city night, nba funny, nba players gta, nba media day 2026, nba preseason 2026, nba funniest quotes, nba shorts, basketball shorts, nba viral, nba news, nba 2026-27, nba rumors, nba debate, nba storylines 2026-27
 
 ## Pinned comment
-Who is actually playing hard on November 19th?
+Was Steven Adams joking, or will GTA 6 really make everyone play worse in November?
 
 ## Covers
-`cover_A.png` "HEAT BECOME VICE CITY" (recommended), `cover_B.png` "NOV 18", `cover_C.png` "GTA 6 vs THE NBA"
+`cover_A.png` "HE SAID PLUMMET"
 
-## Facts
-- Heat host the Bucks Nov 18, 7 PM ET, on ESPN, as "Vice City": special court and new uniform (Rockstar/Heat release; Yahoo, GameSpot, Kotaku, Oct 2).
-- GTA VI releases Nov 19, 2026 (Rockstar).
-- Adams at Rockets media day joked league-wide performance will plummet when GTA drops, "just for November" (Newsweek; Underdog NBA video).
+## Facts and sources
+- Adams at Rockets media day (Sept 22, 2026): GTA drops, 'watch them plummet, mate'; coaching and scouts 'horrendous'; 'Just for November... should bounce back in December' (Complex https://www.complex.com/sports/a/treyalston/steven-adams-gta-6-nba-nfl-november; real audio from the Underdog NBA video).
+- GTA VI release Nov 19, 2026 (Rockstar post, shown on the date card).
+- Heat host the Bucks Nov 18 as 'Vice City' (Yahoo/Hot Hot Hoops, Oct 2). The Adams remarks pre-date the Heat news (Sept 22 vs Oct 2): the Short never says Adams 'warned' about the Heat night.
+
+## Cloud-copy notes (merged Oct 14)
+
+**Video:** final.mp4 (house captions). Not uploaded.

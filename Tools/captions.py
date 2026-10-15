@@ -127,7 +127,8 @@ def chunk(words, st):
             return INF
         c = (k - ideal) ** 2 * 0.6
         if k == maxw + 1:
-            c += 2.5
+            # Oct 14: a sentence may finish on one extra word if it still fits the width ("OF HIS NBA CAREER.") instead of orphaning it
+            c += 0.8 if ends_sentence(card[-1]["word"]) and len(text) <= maxc else 2.5
         if len(text) > maxc:
             c += (len(text) - maxc) * 0.7
         c += sum(1.8 for w in card[:-1] if soft_end(w["word"]))
@@ -135,7 +136,7 @@ def chunk(words, st):
             b = bare(card[0]["word"])
             c += 6 if b in DANGLING else (0.2 if len(b) >= 7 or ends_sentence(card[0]["word"]) else 1.0)
             if ends_sentence(card[0]["word"]) and i > 0 and not (ends_sentence(words[i - 1]["word"]) or soft_end(words[i - 1]["word"])):
-                c += 1.2  # avoid a lone "list." / "too." hanging off the card before it
+                c += 2.0  # avoid a lone "list." / "career." hanging off the card before it (Oct 14: was 1.2; #40 showed "OF HIS NBA" / "CAREER.")
         dur = card[-1]["end"] - card[0]["start"]
         if dur < 0.22:
             c += 1.5
@@ -240,7 +241,25 @@ def ass_time(t):
     return f"{int(h)}:{int(m):02d}:{int(s):02d}.{cs:02d}"
 
 
-def make_ass(words, style="metasports", manual=None, total=None):
+MAX_CAP_PX = 805  # 15 px under the 820 px check, for rounding; centred at x=540, a wider line passes x=950, where the Shorts like/comment buttons sit (export_check.py)
+
+
+def fit_scale(text, st):
+    """Uniform scale (<= 1) that keeps a caption line under MAX_CAP_PX. Width measured with the real font; libass draws an ASS
+    font size at about 0.745 of PIL's em width (calibrated Oct 15 on a burned #36 v2 frame: 'STARTED SEVENTY-FIVE' is 1115 px
+    in PIL at size 86 and burned 831 px wide at the pop's final \\fscx100)."""
+    try:
+        from PIL import ImageFont
+        fp = os.path.join(HERE, "fonts", st["font"].replace(" ", "-") + ".ttf")
+        b = ImageFont.truetype(fp, int(st["size"])).getbbox(text)
+        px = (b[2] - b[0]) * (1.0 if st.get("pop") else st["scalex"] / 100) * 0.745
+        return min(1.0, MAX_CAP_PX / px) if px else 1.0
+    except Exception:
+        return 1.0
+
+
+def make_ass(words, style="metasports", manual=None, total=None, ys=None):
+    """ys: optional [(shot_start, y)] from shots.json "cap_y"; a card uses the y of the shot it starts in."""
     st, manual = STYLES[style], manual or {}
     cards = chunk(words, st)
     texts = [re.sub(r"\s+", " ", " ".join(w["word"] for w in c)).strip() for c in cards]
@@ -259,11 +278,18 @@ def make_ass(words, style="metasports", manual=None, total=None):
                 end = min(end, total)
         shown = text.upper() if st["caps"] else text
         col = picks[k][0]
-        tags = f"\\pos(540,{st['y']})\\blur{st['blur']}"
+        y = st["y"]
+        for t0, cy in ys or []:
+            if t0 <= start + 0.01:
+                y = cy or st["y"]
+        tags = f"\\pos(540,{y})\\blur{st['blur']}"
         if col:
             tags += f"\\c{RED if col == 'red' else GREEN}"
+        fit = fit_scale(shown, st)  # Oct 15: keep the widest card clear of the Shorts like/comment column (x > 950)
         if st["pop"]:
-            tags += "\\fscx86\\fscy86\\t(0,90,\\fscx100\\fscy100)"
+            tags += f"\\fscx{86 * fit:.0f}\\fscy{86 * fit:.0f}\\t(0,90,\\fscx{100 * fit:.0f}\\fscy{100 * fit:.0f})"
+        elif fit < 1:
+            tags += f"\\fscx{st['scalex'] * fit:.0f}\\fscy{100 * fit:.0f}"
         shown = shown.replace("{", "(").replace("}", ")")
         if st.get("kara"):  # one event per spoken word; the active word is highlighted, layout never moves
             toks = [re.sub(r"[{}]", "", w["word"]) for w in card]
@@ -330,7 +356,10 @@ def build(folder, style="metasports", total=None):
     words = json.load(open(os.path.join(folder, "words.json"), encoding="utf-8-sig"))
     mp = os.path.join(folder, "emphasis.json")
     manual = json.load(open(mp, encoding="utf-8-sig")) if os.path.exists(mp) else {}
-    ass, lines = make_ass(words, style, manual, total)
+    sp = os.path.join(folder, "shots.json")  # a shot may set "cap_y" (pixels of 1920) to move captions off a face
+    shots = json.load(open(sp, encoding="utf-8-sig")) if os.path.exists(sp) else []
+    ys = sorted(((float(x.get("start", 0)), x.get("cap_y")) for x in shots if isinstance(x, dict)), key=lambda t: t[0])
+    ass, lines = make_ass(words, style, manual, total, ys)
     path = os.path.join(folder, "captions.ass")
     open(path, "w", encoding="utf-8").write(ass)
     return path, lines

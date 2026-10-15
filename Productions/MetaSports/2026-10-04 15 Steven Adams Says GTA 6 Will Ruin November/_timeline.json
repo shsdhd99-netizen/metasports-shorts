@@ -3,40 +3,64 @@
   "i": 0,
   "kind": "vo",
   "start": 0.0,
-  "end": 8.407,
+  "end": 4.558,
   "src": "_n1",
   "src_from": null
  },
  {
   "i": 1,
   "kind": "quote",
-  "start": 8.527,
-  "end": 12.267,
+  "start": 4.678,
+  "end": 8.138,
   "src": "clips/adams_full.mp4",
   "src_from": 13.26
  },
  {
   "i": 2,
   "kind": "vo",
-  "start": 12.387,
-  "end": 18.152,
+  "start": 8.258,
+  "end": 12.337,
   "src": "_n2",
   "src_from": null
  },
  {
   "i": 3,
   "kind": "quote",
-  "start": 18.272,
-  "end": 20.672,
+  "start": 12.457,
+  "end": 14.657,
   "src": "clips/adams_full.mp4",
-  "src_from": 25.7
+  "src_from": 21.56
  },
  {
   "i": 4,
   "kind": "vo",
-  "start": 20.792,
-  "end": 22.957,
+  "start": 14.777,
+  "end": 16.495,
   "src": "_n3",
   "src_from": null
+ },
+ {
+  "i": 5,
+  "kind": "quote",
+  "start": 16.615,
+  "end": 18.735,
+  "src": "clips/adams_full.mp4",
+  "src_from": 25.72
+ },
+ {
+  "i": 6,
+  "kind": "quote",
+  "start": 18.855,
+  "end": 21.295,
+  "src": "clips/adams_full.mp4",
+  "src_from": 28.3
+ },
+ {
+  "i": 7,
+  "kind": "quote",
+  "start": 21.415,
+  "end": 22.195,
+  "src": "clips/adams_full.mp4",
+  "src_from": 31.36
  }
 ]

@@ -1,0 +1,73 @@
+{
+ "_about": "The house voice, in one place (Oct 14, 2026). voiceover.py and voice_take.py read this file; it overrides ELEVENLABS_VOICE_ID in .env. Change the voice ONLY here, and only after a dated audition and the owner's ear (see Research Notes/Voice Audition (Oct 14, 2026)/README.md). Command-line flags still override single settings for a test.",
+ "default": "primary",
+ "profiles": {
+  "primary": {
+   "name": "Alex - Upbeat, Energetic and Clear (ElevenLabs Voice Library)",
+   "voice_id": "yl2ZDV1MzN4HbQJbMihG",
+   "model": "eleven_multilingual_v2",
+   "speed": 1.2,
+   "stability": 0.5,
+   "similarity": 0.75,
+   "style": 0.0,
+   "clean": "off",
+   "target_wpm": 0,
+   "max_stretch": 1.0,
+   "hnr_min": 7.0,
+   "pronunciation": "default",
+   "why": "Round 3 audition: 224-229 wpm at speed 1.2 (the old hits ran 206-252), the most pitch and loudness variety of the steady voices, numbers +0.9 dB over other words, every test name heard right, the most consistent take to take (0.99). Library terms: rate 1.0, notice period 90 days, already in My Voices.",
+   "max_pause": 0.38,
+   "shimmer_max": 12.5,
+   "jitter_max": 3.4,
+   "pitch_sd_min": 4.5
+  },
+  "backup": {
+   "name": "pham v2 (our own clone of the old Shorts' narration), fixed settings",
+   "voice_id": "GDS7e7WiI4GqkoRxZAFG",
+   "model": "eleven_multilingual_v2",
+   "speed": 1.1,
+   "stability": 0.5,
+   "similarity": 0.75,
+   "style": 0.0,
+   "clean": "off",
+   "target_wpm": 0,
+   "max_stretch": 1.0,
+   "hnr_min": 7.6,
+   "pronunciation": "clone",
+   "why": "F on the owner's listening page (Oct 14): owned by the account, so it can't be withdrawn; closest to the old narration (0.95-0.97). Round 4: 220-236 wpm, cleanest sound (HNR 8.8-10.1), but less consistent (one take of two went flat, 3.8 semitones), hence its pitch gate.",
+   "max_pause": 0.38,
+   "pitch_sd_min": 4.2
+  },
+  "clone_legacy": {
+   "name": "pham v2, the Oct 5-14 production settings (kept only for re-renders of old packages)",
+   "voice_id": "GDS7e7WiI4GqkoRxZAFG",
+   "model": "eleven_multilingual_v2",
+   "speed": "auto",
+   "stability": 0.65,
+   "similarity": 0.7,
+   "style": 0.0,
+   "clean": "light",
+   "target_wpm": 250,
+   "max_stretch": 1.08,
+   "hnr_min": 7.6,
+   "pronunciation": "clone",
+   "max_pause": 0
+  },
+  "pham_v3_test": {
+   "name": "Pham v3 (new instant clone, Oct 14 night, de-duplicated recordings): TESTED, NOT ADOPTED",
+   "voice_id": "61QfR1QEcJUskHn8yioH",
+   "model": "eleven_multilingual_v2",
+   "speed": 1.1,
+   "stability": 0.5,
+   "similarity": 0.75,
+   "style": 0.0,
+   "clean": "off",
+   "target_wpm": 0,
+   "max_stretch": 1.0,
+   "hnr_min": 7.6,
+   "pronunciation": "default",
+   "max_pause": 0.38,
+   "why": "Round 4: flattest of all five (pitch variety 3.7-3.8, loudness variety 2.2); kept for reference only"
+  }
+ }
+}

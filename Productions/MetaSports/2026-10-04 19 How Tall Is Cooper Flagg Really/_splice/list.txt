@@ -5,5 +5,3 @@ file '/home/user/metasports-shorts/Productions/MetaSports/2026-10-04 19 How Tall
 file '/home/user/metasports-shorts/Productions/MetaSports/2026-10-04 19 How Tall Is Cooper Flagg Really/_splice/p2.wav'
 file '/home/user/metasports-shorts/Productions/MetaSports/2026-10-04 19 How Tall Is Cooper Flagg Really/_splice/gap.wav'
 file '/home/user/metasports-shorts/Productions/MetaSports/2026-10-04 19 How Tall Is Cooper Flagg Really/_splice/p3.wav'
-file '/home/user/metasports-shorts/Productions/MetaSports/2026-10-04 19 How Tall Is Cooper Flagg Really/_splice/gap.wav'
-file '/home/user/metasports-shorts/Productions/MetaSports/2026-10-04 19 How Tall Is Cooper Flagg Really/_splice/p4.wav'

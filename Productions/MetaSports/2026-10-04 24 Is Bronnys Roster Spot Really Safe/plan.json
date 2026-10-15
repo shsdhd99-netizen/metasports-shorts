@@ -1,3 +1,15 @@
-[{"vo":"_n1"},
- {"quote":"/tmp/claude-0/-home-user-metasports-shorts/bc228739-3662-5759-8934-674d6d03bfcf/scratchpad/p24/src/2037001450169979246.mp4","stt":"/tmp/claude-0/-home-user-metasports-shorts/bc228739-3662-5759-8934-674d6d03bfcf/scratchpad/p24/stt_dc.json","from":11.5,"to":14.5,"text":"Big game from him, that pull-up too, it was a big bucket."},
- {"vo":"_n2"}]
+[
+ {
+  "vo": "_n1"
+ },
+ {
+  "quote": "/tmp/claude-0/-home-user-metasports-shorts/bc228739-3662-5759-8934-674d6d03bfcf/scratchpad/p24/src/2037001450169979246.mp4",
+  "stt": "/tmp/claude-0/-home-user-metasports-shorts/bc228739-3662-5759-8934-674d6d03bfcf/scratchpad/p24/stt_dc.json",
+  "from": 14.42,
+  "to": 17.02,
+  "text": "It was probably one of the most important shots of the game."
+ },
+ {
+  "vo": "_n2"
+ }
+]

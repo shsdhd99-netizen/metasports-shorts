@@ -1,0 +1,59 @@
+{
+ "verdict": "CHECK",
+ "wpm": 250,
+ "issues": [],
+ "notes": [
+  "20.44s  script \"eleventh\" but heard \"11th\"",
+  "23.18s  script \"\" but heard \"cut\"",
+  " 1.78s  \"19 20 8\" heard as \"1928\" (close; check the name)",
+  " 3.92s  \"thousand\" heard as \"000\" (close; check the name)",
+  " 8.52s  \"thousand\" heard as \"000\" (close; check the name)",
+  "10.98s  \"19 50\" heard as \"1950\" (close; check the name)",
+  "13.02s  \"19 50 4\" heard as \"1954\" (close; check the name)"
+ ],
+ "heard": "The NBA Cup final is going to a gym built in 1928. Hinkle Fieldhouse seats about 9 ,000. The first three cup finals were all in Las Vegas, but Hinkle was never small. It opened with 15 ,000 seats, the biggest basketball arena in America until 1950. Tiny Milan beat Muncie here in 1954, the real Hoosiers game. Oscar Robertson won two state titles here. Brad Stevens coached Butler from here to two final fours. Now the NBA is coming. December 11th, winner takes the cup in what was once the biggest gym in America. cut.",
+ "mismatches": [
+  {
+   "at": 1.78,
+   "script": "19 20 8",
+   "heard": "1928",
+   "similar": 1.0
+  },
+  {
+   "at": 3.92,
+   "script": "thousand",
+   "heard": "000",
+   "similar": 1.0
+  },
+  {
+   "at": 8.52,
+   "script": "thousand",
+   "heard": "000",
+   "similar": 1.0
+  },
+  {
+   "at": 10.98,
+   "script": "19 50",
+   "heard": "1950",
+   "similar": 1.0
+  },
+  {
+   "at": 13.02,
+   "script": "19 50 4",
+   "heard": "1954",
+   "similar": 1.0
+  },
+  {
+   "at": 20.44,
+   "script": "eleventh",
+   "heard": "11th",
+   "similar": 0.33
+  },
+  {
+   "at": 23.18,
+   "script": "",
+   "heard": "cut",
+   "similar": 0.0
+  }
+ ]
+}

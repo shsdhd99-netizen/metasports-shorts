@@ -1,0 +1,121 @@
+[
+ {
+  "clip": "a2.mp4",
+  "kind": "face",
+  "in": 0.0,
+  "zoom": 0.04,
+  "why": "Frame 1 = Westbrook himself (Wizards #4, NBA retirement tribute) on his name",
+  "start": 0.0
+ },
+ {
+  "clip": "a1L.mp4",
+  "anchor": "needed eighteen",
+  "kind": "action",
+  "in": 0.0,
+  "why": "The tribute montage across his teams (OKC, Wizards, Rockets) under 'eighteen seasons'",
+  "start": 0.85
+ },
+ {
+  "clip": "b1cj.mp4",
+  "anchor": "Nikola Jokic could",
+  "kind": "face",
+  "in": 0.0,
+  "why": "Jokic's face on his name and the promise 'before Christmas'",
+  "start": 3.35
+ },
+ {
+  "clip": "a3.mp4",
+  "anchor": "Westbrook retired",
+  "kind": "action",
+  "in": 0.0,
+  "why": "Westbrook #0 Thunder dunk (NBA 2016-17 tribute post) under the record number",
+  "start": 5.23
+ },
+ {
+  "clip": "b7M.mp4",
+  "anchor": "Jokic has one",
+  "kind": "action",
+  "in": 0.0,
+  "why": "Jokic #15 with the ball vs Houston (re-cut after a one-frame flash in b7L)",
+  "start": 7.34
+ },
+ {
+  "clip": "b6j.mp4",
+  "anchor": "in almost five",
+  "kind": "action",
+  "in": 0.0,
+  "why": "Jokic (#15 white, JOKIC on the back) with teammates under 'in almost five hundred fewer games'",
+  "start": 8.74
+ },
+ {
+  "clip": "b8.mp4",
+  "anchor": "Last season, he",
+  "kind": "action",
+  "in": 0.0,
+  "why": "Jokic's own broadcast stat line (JOKIC 32 PTS) under 'one almost every other night'",
+  "start": 10.28
+ },
+ {
+  "clip": "b2.mp4",
+  "anchor": "almost every",
+  "kind": "action",
+  "in": 0.0,
+  "why": "Jokic #15 posting up vs Houston (same game as b7L, a different stretch) under 'almost every other night'",
+  "start": 11.31
+ },
+ {
+  "clip": "b12L.mp4",
+  "anchor": "At that pace",
+  "kind": "face",
+  "in": 0.0,
+  "why": "Jokic walking into this season's media day: the projection is about this season",
+  "start": 12.16
+ },
+ {
+  "clip": "c21_xmas.png",
+  "anchor": "and Denver's twenty-seventh",
+  "kind": "card",
+  "why": "Proof: game 27 = Fri Dec 25 at Golden State (B-Ref schedule)",
+  "start": 14.77
+ },
+ {
+  "clip": "xmasface.mp4",
+  "anchor": "Last Christmas",
+  "kind": "face",
+  "in": 0.0,
+  "why": "Jokic on Christmas 2025, NBA Christmas scorebug visible (ESPN post)",
+  "start": 17.61
+ },
+ {
+  "clip": "c_xmas56.mp4",
+  "anchor": "fifty-six, sixteen",
+  "kind": "card",
+  "in": 0.0,
+  "why": "Proof card over the real Christmas game: 56-16-15, first 55-15-15 game in NBA history (NBA post Dec 26 2025)",
+  "start": 18.48
+ },
+ {
+  "clip": "xmasgame2.mp4",
+  "anchor": "a line nobody",
+  "kind": "action",
+  "in": 0.0,
+  "why": "The real Christmas game (NBA Christmas scorebug, OT) under 'a line nobody in NBA history had ever posted'",
+  "start": 19.99
+ },
+ {
+  "clip": "b4c.mp4",
+  "anchor": "This Christmas,",
+  "kind": "face",
+  "in": 0.0,
+  "why": "Jokic's face (DENVER #15) on 'This Christmas'",
+  "start": 22.11
+ },
+ {
+  "clip": "b5c.mp4",
+  "anchor": "could already",
+  "kind": "action",
+  "in": 0.0,
+  "why": "Payoff on Jokic with the ball (dark #15): 'the record could already be his'",
+  "start": 22.96
+ }
+]

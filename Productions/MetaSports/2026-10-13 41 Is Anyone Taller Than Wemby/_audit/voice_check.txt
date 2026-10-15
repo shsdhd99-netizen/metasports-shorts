@@ -1,0 +1,7 @@
+Voice check: CHECK   (88 words, 22.4s, 235 wpm)
+  note   1.42s  "wembanyama" heard as "wembun yama" (close; check the name)
+  note   4.46s  "jamarion" heard as "jamarian" (close; check the name)
+  note   8.56s  "the" heard as "" (close; check the name)
+  note  18.88s  "wembanyama 3 100 and 50" heard as "wembun yama 350" (close; check the name)
+  note  17.46s  dragging sentence (165 wpm): Three-point tries last season: Wembanyama, three hundred and
+  heard: This man is listed taller than Victor Wembun -Yama, and he's never played an NBA game that counts. Jamarian Sharp listed 7 '5, Dallas brought him to camp twice, cut him twice. Clippers signed him this summer, cut him in September. On Monday, Toronto gave him one more camp, and it's not his defense. He led the G -League in blocks and won defensive player of the year. The knock on him is offense. 3 point tries last season. Wembun -Yama 350, Sharp in the G -League, 0.

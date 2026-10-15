@@ -1,0 +1,59 @@
+[
+ {
+  "name": "2026-10-04 23 Why Is Bronny St#0",
+  "dur": 9.41,
+  "voiced": 0.76,
+  "hnr": 8.4,
+  "jitter": 2.98,
+  "shimmer": 11.06,
+  "jumps": 0.0,
+  "clicks": 331.6,
+  "hf": 4.31,
+  "f0_med": 182.0,
+  "verdict": "REDO",
+  "problems": [
+   "HNR 8.4 dB (noisy/robotic)",
+   "jitter 2.98% (shaky)",
+   "shimmer 11.06% (uneven loudness)",
+   "331.6 clicks/min"
+  ]
+ },
+ {
+  "name": "2026-10-04 23 Why Is Bronny St#2",
+  "dur": 9.18,
+  "voiced": 0.65,
+  "hnr": 7.2,
+  "jitter": 2.93,
+  "shimmer": 10.56,
+  "jumps": 0.0,
+  "clicks": 78.4,
+  "hf": 3.74,
+  "f0_med": 208.0,
+  "verdict": "REDO",
+  "problems": [
+   "HNR 7.2 dB (noisy/robotic)",
+   "jitter 2.93% (shaky)",
+   "shimmer 10.56% (uneven loudness)",
+   "78.4 clicks/min"
+  ]
+ },
+ {
+  "name": "2026-10-04 23 Why Is Bronny St#4",
+  "dur": 2.88,
+  "voiced": 0.67,
+  "hnr": 7.4,
+  "jitter": 2.66,
+  "shimmer": 9.41,
+  "jumps": 0.0,
+  "clicks": 187.6,
+  "hf": 5.69,
+  "f0_med": 191.0,
+  "verdict": "REDO",
+  "problems": [
+   "HNR 7.4 dB (noisy/robotic)",
+   "jitter 2.66% (shaky)",
+   "shimmer 9.41% (uneven loudness)",
+   "187.6 clicks/min"
+  ]
+ }
+]

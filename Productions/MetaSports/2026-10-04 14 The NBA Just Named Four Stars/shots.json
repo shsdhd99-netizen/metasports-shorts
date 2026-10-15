@@ -1,103 +1,152 @@
 [
  {
-  "clip": "B2_banchero_push.mp4",
+  "clip": "B10_banchero_b.mp4",
   "start": 0.0,
-  "zoom": 0.1,
-  "why": "The NBA just named four stars (Banchero full-extension push)"
+  "anchor": "The NBA just",
+  "kind": "action",
+  "why": "The NBA just",
+  "zoom": 0.1
  },
  {
-  "clip": "B11_mitchell_b.mp4",
-  "start": 1.12,
-  "why": "in one video (Mitchell pushes a defender)"
+  "clip": "B3_mitchell_push.mp4",
+  "start": 1.41,
+  "anchor": "in one video",
+  "kind": "action",
+  "why": "in one video"
  },
  {
   "clip": "B12_brown_b.mp4",
-  "start": 2.22,
-  "why": "about one illegal move (Brown shoves Oubre)"
+  "start": 1.99,
+  "anchor": "about one illegal",
+  "kind": "action",
+  "why": "about one illegal"
  },
  {
   "clip": "B1_brown_push.mp4",
-  "start": 3.1,
-  "why": "Jaylen Brown"
- },
- {
-  "clip": "B10_banchero_b.mp4",
-  "start": 3.86,
-  "why": "Paolo Banchero"
- },
- {
-  "clip": "B3_mitchell_push.mp4",
-  "start": 4.84,
-  "why": "Donovan Mitchell"
- },
- {
-  "clip": "B4_barrett_push.mp4",
-  "start": 5.63,
-  "why": "RJ Barrett"
- },
- {
-  "clip": "c14_a.mp4",
-  "start": 6.36,
-  "why": "The move is the off-arm push-off (ESPN definition card)"
- },
- {
-  "clip": "B12_brown_b.mp4",
-  "start": 8.8,
-  "why": "shove a defender and make space for a shot"
- },
- {
-  "clip": "B3_mitchell_push.mp4",
-  "start": 10.4,
-  "why": "The league says all four committed offensive fouls"
- },
- {
-  "clip": "B4_barrett_push.mp4",
-  "start": 11.7,
-  "why": "all four"
- },
- {
-  "clip": "B7_george_wide.mp4",
-  "start": 12.4,
-  "why": "But the same video shows what's still legal"
- },
- {
-  "clip": "B5_mccollum_legal.mp4",
-  "start": 14.31,
-  "why": "CJ McCollum firmed up"
- },
- {
-  "clip": "B6_george_legal.mp4",
-  "start": 15.42,
-  "why": "Paul George only felt the defender"
- },
- {
-  "clip": "B13_george_b.mp4",
-  "start": 17.05,
-  "why": "No force, no full extension"
- },
- {
-  "clip": "B8_suggs_a.mp4",
-  "start": 18.36,
-  "why": "Then there's Jalen Suggs"
- },
- {
-  "clip": "B9_suggs_b.mp4",
-  "start": 19.45,
-  "why": "He was called for an offensive foul"
- },
- {
-  "clip": "B8b_suggs.mp4",
-  "start": 21.05,
-  "why": "and the NBA now says it should have been a no-call"
- },
- {
-  "clip": "c14_b.mp4",
-  "start": 23.05,
-  "why": "the whole rule comes down to one word: force (ESPN Four F's card)"
+  "start": 3.09,
+  "anchor": "Jaylen Brown.",
+  "kind": "action",
+  "why": "Jaylen Brown."
  },
  {
   "clip": "B2_banchero_push.mp4",
-  "start": 25.23,
-  "why": "Which star gets called first? (loops to the first shot)"
+  "start": 3.97,
+  "anchor": "Paolo Banchero.",
+  "kind": "action",
+  "why": "Paolo Banchero."
+ },
+ {
+  "clip": "B11_mitchell_b.mp4",
+  "start": 5.05,
+  "anchor": "Donovan Mitchell.",
+  "kind": "action",
+  "why": "Donovan Mitchell.",
+  "in": 0.3
+ },
+ {
+  "clip": "B4_barrett_push.mp4",
+  "start": 5.89,
+  "anchor": "RJ Barrett.",
+  "kind": "action",
+  "why": "RJ Barrett."
+ },
+ {
+  "clip": "B12_brown_b.mp4",
+  "start": 6.71,
+  "anchor": "The move: shoving",
+  "kind": "action",
+  "why": "The move: shoving"
+ },
+ {
+  "clip": "B3_mitchell_push.mp4",
+  "start": 7.96,
+  "anchor": "with your free",
+  "kind": "action",
+  "why": "with your free"
+ },
+ {
+  "clip": "B7_george_wide.mp4",
+  "start": 9.41,
+  "anchor": "But the same",
+  "kind": "action",
+  "why": "But the same"
+ },
+ {
+  "clip": "B5_mccollum_legal.mp4",
+  "start": 11.18,
+  "anchor": "CJ McCollum,",
+  "kind": "action",
+  "why": "CJ McCollum,"
+ },
+ {
+  "clip": "B6_george_legal.mp4",
+  "start": 12.44,
+  "anchor": "Paul George,",
+  "kind": "action",
+  "why": "Paul George,"
+ },
+ {
+  "clip": "B13_george_b.mp4",
+  "start": 13.01,
+  "anchor": "only feeling",
+  "kind": "action",
+  "why": "only feeling"
+ },
+ {
+  "clip": "B8b_suggs.mp4",
+  "start": 13.97,
+  "anchor": "And it shows",
+  "kind": "action",
+  "why": "And it shows"
+ },
+ {
+  "clip": "B8_suggs_a.mp4",
+  "start": 15.85,
+  "anchor": "Jalen Suggs",
+  "kind": "action",
+  "why": "Jalen Suggs",
+  "in": 0.8
+ },
+ {
+  "clip": "B9_suggs_b.mp4",
+  "start": 16.41,
+  "anchor": "was whistled",
+  "kind": "action",
+  "why": "was whistled"
+ },
+ {
+  "clip": "B8_suggs_a.mp4",
+  "start": 17.65,
+  "anchor": "and it should",
+  "kind": "action",
+  "why": "and it should"
+ },
+ {
+  "clip": "c14_b.mp4",
+  "start": 18.74,
+  "anchor": "So the rule",
+  "kind": "card",
+  "why": "So the rule"
+ },
+ {
+  "clip": "B5_mccollum_legal.mp4",
+  "start": 21.47,
+  "anchor": "The first two",
+  "kind": "action",
+  "why": "The first two"
+ },
+ {
+  "clip": "B1_brown_push.mp4",
+  "start": 22.35,
+  "anchor": "The last two",
+  "kind": "action",
+  "why": "The last two"
+ },
+ {
+  "clip": "B10_banchero_b.mp4",
+  "start": 22.86,
+  "anchor": "are fouls.",
+  "kind": "action",
+  "why": "are fouls."
  }
 ]

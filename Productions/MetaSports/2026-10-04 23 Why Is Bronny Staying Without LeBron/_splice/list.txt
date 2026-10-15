@@ -7,7 +7,3 @@ file '/home/user/metasports-shorts/Productions/MetaSports/2026-10-04 23 Why Is B
 file '/home/user/metasports-shorts/Productions/MetaSports/2026-10-04 23 Why Is Bronny Staying Without LeBron/_splice/p3.wav'
 file '/home/user/metasports-shorts/Productions/MetaSports/2026-10-04 23 Why Is Bronny Staying Without LeBron/_splice/gap.wav'
 file '/home/user/metasports-shorts/Productions/MetaSports/2026-10-04 23 Why Is Bronny Staying Without LeBron/_splice/p4.wav'
-file '/home/user/metasports-shorts/Productions/MetaSports/2026-10-04 23 Why Is Bronny Staying Without LeBron/_splice/gap.wav'
-file '/home/user/metasports-shorts/Productions/MetaSports/2026-10-04 23 Why Is Bronny Staying Without LeBron/_splice/p5.wav'
-file '/home/user/metasports-shorts/Productions/MetaSports/2026-10-04 23 Why Is Bronny Staying Without LeBron/_splice/gap.wav'
-file '/home/user/metasports-shorts/Productions/MetaSports/2026-10-04 23 Why Is Bronny Staying Without LeBron/_splice/p6.wav'

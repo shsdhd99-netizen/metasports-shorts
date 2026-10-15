@@ -1,0 +1,124 @@
+[
+ {
+  "clip": "H0.mp4",
+  "anchor": "This man",
+  "kind": "action",
+  "in": 0.0,
+  "zoom": 0.04,
+  "why": "Frame 1 = the object with a height reference: Sharp full length beside an adult security guard (2025 Summer League tunnel; critic v2 edit 1)",
+  "start": 0.0
+ },
+ {
+  "clip": "W1b.mp4",
+  "anchor": "Victor Wembanyama",
+  "kind": "face",
+  "in": 0.0,
+  "why": "The reference everyone knows (Spurs media day, Sep 28 2026), re-cropped so the caption sits below his chin (critic v2 edit 4)",
+  "start": 1.19
+ },
+ {
+  "clip": "R_close2.mp4",
+  "anchor": "And he's never",
+  "kind": "action",
+  "in": 0.0,
+  "why": "Sharp (#33) walking in a Raptors Summer League game (live game footage): he plays, but not in games that count. Scorebug cropped off",
+  "start": 2.35
+ },
+ {
+  "clip": "R_back2.mp4",
+  "anchor": "Jamarion Sharp",
+  "kind": "action",
+  "in": 0.0,
+  "why": "'33 SHARP' on his back as the name is said (runs to 'Listed')",
+  "start": 4.38
+ },
+ {
+  "clip": "c_listed.png",
+  "anchor": "seven-foot-five",
+  "kind": "card",
+  "why": "Proof of the paradox on 'seven-foot-five': listed 7-5 (Basketball-Reference) vs 7-4 (Fox Sports), 'listed, not measured'",
+  "start": 5.51
+ },
+ {
+  "clip": "D_dal.mp4",
+  "anchor": "Dallas brought",
+  "kind": "action",
+  "why": "Sharp (#33, white Mavericks jersey) on court vs Utah, Oct 2024 preseason broadcast, scorebug shows DAL; replaces the Imagn agency photo (licence risk), Oct 14",
+  "start": 6.32,
+  "in": 0.0
+ },
+ {
+  "clip": "H3.mp4",
+  "anchor": "Cut him twice",
+  "kind": "action",
+  "in": 0.0,
+  "why": "Team-neutral 2025 Summer League tunnel clip, alone, under 'Cut him twice. The Clippers signed him this summer.' (critic re-check: no Raptors red under the Clippers line)",
+  "start": 7.69
+ },
+ {
+  "clip": "c_tally3.png",
+  "anchor": "Cut him in September",
+  "kind": "card",
+  "why": "Our own tally card on 'Cut him in September': 2024 Dallas 0, 2025 Dallas 0, 2026 Clippers 0, total 0 (replaces the doctored jersey image; critic v2 edit 3)",
+  "start": 9.76
+ },
+ {
+  "clip": "p_dunk.png",
+  "anchor": "On Monday",
+  "kind": "face",
+  "why": "Sharp in Raptors red (July 2026 Summer League photo) on 'Toronto gave him one more camp'",
+  "start": 10.68
+ },
+ {
+  "clip": "H2.mp4",
+  "anchor": "And it's not his defense",
+  "kind": "action",
+  "in": 0.0,
+  "why": "His reach: arm up to the top rail",
+  "start": 12.48
+ },
+ {
+  "clip": "H1.mp4",
+  "anchor": "He led the",
+  "kind": "action",
+  "in": 1.4,
+  "why": "His reach: up to the fans' rail (2025 Summer League tunnel) on 'He led the G League in blocks'",
+  "start": 13.58
+ },
+ {
+  "clip": "c_dpoy.png",
+  "anchor": "won Defensive",
+  "kind": "card",
+  "why": "Proof on 'won Defensive Player of the Year': NBA G League DPOY graphic (NBAPR, Apr 2 2026)",
+  "start": 14.85
+ },
+ {
+  "clip": "p_dal25.png",
+  "anchor": "The knock on him",
+  "kind": "face",
+  "why": "Sharp shooting at Mavericks Summer League practice (Jul 2025): the offense question",
+  "start": 16.19
+ },
+ {
+  "clip": "W2b.mp4",
+  "anchor": "Three-point tries",
+  "kind": "face",
+  "in": 0.0,
+  "why": "Wembanyama, the comparison, on 'Three-point tries last season: Wembanyama, three hundred and'",
+  "start": 17.43
+ },
+ {
+  "clip": "c_3pa.mp4",
+  "anchor": "fifty",
+  "kind": "card",
+  "why": "The answer as one number: 350 lands on 'fifty' (Wembanyama, B-Ref), then Sharp's 0 pops in just before 'zero' (G League stats, LatinBasket)",
+  "start": 20.33
+ },
+ {
+  "clip": "H0.mp4",
+  "kind": "action",
+  "in": 0.0,
+  "start": 22.47,
+  "why": "Back to the opening picture after 'zero.' so the Short loops into 'This man is listed taller...'"
+ }
+]

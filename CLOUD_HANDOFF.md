@@ -1,3 +1,5 @@
+> **HISTORICAL (Oct 3, 2026).** Current state: `CLOUD STATE - read this first.md`. Queue: `Production Queue.md`.
+
 # Cloud handoff: MetaSports Shorts (2026-10-03)
 
 This repo is a slim, private copy of the user's PC folder `C:\Users\Admin\Documents\YouTube-Playbooks`. In this file, the repo root stands in for that path. Skill files and docs still mention Windows paths; read them relative to the repo root.

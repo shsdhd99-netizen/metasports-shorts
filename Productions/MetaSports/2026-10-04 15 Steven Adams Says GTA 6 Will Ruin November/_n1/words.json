@@ -1,177 +1,97 @@
 [
  {
-  "word": "The",
+  "word": "Steven",
   "start": 0.0,
-  "end": 0.123
+  "end": 0.278
  },
  {
-  "word": "Miami",
-  "start": 0.174,
-  "end": 0.482
+  "word": "Adams",
+  "start": 0.316,
+  "end": 0.498
  },
  {
-  "word": "Heat",
-  "start": 0.533,
-  "end": 0.656
+  "word": "says",
+  "start": 0.517,
+  "end": 0.69
  },
  {
-  "word": "are",
-  "start": 0.686,
-  "end": 0.778
+  "word": "every",
+  "start": 0.757,
+  "end": 0.968
  },
  {
-  "word": "about",
-  "start": 0.809,
-  "end": 0.994
+  "word": "pro",
+  "start": 1.016,
+  "end": 1.14
  },
  {
-  "word": "to",
-  "start": 1.014,
-  "end": 1.055
- },
- {
-  "word": "become",
-  "start": 1.086,
+  "word": "league",
+  "start": 1.178,
   "end": 1.322
  },
  {
-  "word": "Vice",
-  "start": 1.362,
-  "end": 1.578
- },
- {
-  "word": "City.",
-  "start": 1.598,
-  "end": 1.895
- },
- {
-  "word": "One",
-  "start": 1.916,
-  "end": 2.059
- },
- {
-  "word": "night",
-  "start": 2.08,
-  "end": 2.223
- },
- {
-  "word": "only,",
-  "start": 2.264,
-  "end": 2.458
- },
- {
-  "word": "November",
-  "start": 2.489,
-  "end": 2.766
- },
- {
-  "word": "eighteenth,",
-  "start": 2.807,
-  "end": 3.196
- },
- {
-  "word": "live",
-  "start": 3.268,
-  "end": 3.462
- },
- {
-  "word": "on",
-  "start": 3.493,
-  "end": 3.555
- },
- {
-  "word": "ESPN.",
-  "start": 3.606,
-  "end": 4.149
- },
- {
-  "word": "That's",
-  "start": 4.2,
-  "end": 4.374
- },
- {
-  "word": "the",
-  "start": 4.405,
-  "end": 4.466
- },
- {
-  "word": "night",
-  "start": 4.497,
-  "end": 4.609
- },
- {
-  "word": "before",
-  "start": 4.631,
-  "end": 4.846
- },
- {
-  "word": "Grand",
-  "start": 4.886,
-  "end": 5.06
- },
- {
-  "word": "Theft",
-  "start": 5.091,
-  "end": 5.266
- },
- {
-  "word": "Auto",
-  "start": 5.306,
-  "end": 5.471
- },
- {
-  "word": "six",
-  "start": 5.522,
-  "end": 5.665
- },
- {
-  "word": "comes",
-  "start": 5.716,
-  "end": 5.88
- },
- {
-  "word": "out.",
-  "start": 5.921,
-  "end": 6.116
- },
- {
-  "word": "And",
-  "start": 6.136,
-  "end": 6.238
- },
- {
-  "word": "one",
-  "start": 6.3,
-  "end": 6.433
- },
- {
-  "word": "NBA",
-  "start": 6.454,
-  "end": 6.72
- },
- {
-  "word": "center",
-  "start": 6.751,
-  "end": 6.956
- },
- {
-  "word": "warned",
-  "start": 7.007,
-  "end": 7.202
+  "word": "is",
+  "start": 1.341,
+  "end": 1.399
  },
  {
   "word": "about",
-  "start": 7.222,
-  "end": 7.366
+  "start": 1.437,
+  "end": 1.648
  },
  {
-  "word": "exactly",
-  "start": 7.406,
-  "end": 7.796
+  "word": "to",
+  "start": 1.667,
+  "end": 1.715
  },
  {
-  "word": "this.",
-  "start": 7.847,
-  "end": 8.4
+  "word": "plummet.",
+  "start": 1.744,
+  "end": 2.051
+ },
+ {
+  "word": "The",
+  "start": 2.079,
+  "end": 2.174
+ },
+ {
+  "word": "reason:",
+  "start": 2.232,
+  "end": 2.51
+ },
+ {
+  "word": "Grand",
+  "start": 2.558,
+  "end": 2.75
+ },
+ {
+  "word": "Theft",
+  "start": 2.778,
+  "end": 2.951
+ },
+ {
+  "word": "Auto",
+  "start": 2.999,
+  "end": 3.171
+ },
+ {
+  "word": "six,",
+  "start": 3.257,
+  "end": 3.506
+ },
+ {
+  "word": "out",
+  "start": 3.545,
+  "end": 3.679
+ },
+ {
+  "word": "November",
+  "start": 3.727,
+  "end": 4.015
+ },
+ {
+  "word": "nineteenth.",
+  "start": 4.062,
+  "end": 4.56
  }
 ]

@@ -1,222 +1,342 @@
 [
  {
-  "word": "Flop,",
+  "word": "Flopping",
   "start": 0.0,
-  "end": 0.253
+  "end": 0.33
  },
  {
-  "word": "and",
-  "start": 0.271,
-  "end": 0.343
+  "word": "has",
+  "start": 0.368,
+  "end": 0.452
  },
  {
-  "word": "the",
-  "start": 0.38,
-  "end": 0.434
- },
- {
-  "word": "NBA",
-  "start": 0.47,
-  "end": 0.723
- },
- {
-  "word": "wants",
-  "start": 0.777,
-  "end": 0.922
+  "word": "been",
+  "start": 0.491,
+  "end": 0.604
  },
  {
   "word": "a",
-  "start": 0.949,
-  "end": 0.977
+  "start": 0.632,
+  "end": 0.651
  },
  {
   "word": "technical",
-  "start": 1.012,
-  "end": 1.311
+  "start": 0.689,
+  "end": 1.009
  },
  {
-  "word": "foul.",
-  "start": 1.356,
-  "end": 1.61
+  "word": "foul",
+  "start": 1.056,
+  "end": 1.226
  },
  {
-  "word": "Timberwolves",
-  "start": 1.636,
-  "end": 2.043
- },
- {
-  "word": "coach",
-  "start": 2.079,
-  "end": 2.233
- },
- {
-  "word": "Chris",
-  "start": 2.269,
-  "end": 2.405
- },
- {
-  "word": "Finch",
-  "start": 2.45,
-  "end": 2.613
- },
- {
-  "word": "loves",
-  "start": 2.658,
-  "end": 2.839
- },
- {
-  "word": "it:",
-  "start": 2.885,
-  "end": 3.002
- },
- {
-  "word": "just",
-  "start": 3.047,
-  "end": 3.191
- },
- {
-  "word": "stop",
-  "start": 3.219,
-  "end": 3.391
- },
- {
-  "word": "rewarding",
-  "start": 3.436,
-  "end": 3.698
+  "word": "in",
+  "start": 1.254,
+  "end": 1.301
  },
  {
   "word": "the",
-  "start": 3.734,
-  "end": 3.789
+  "start": 1.32,
+  "end": 1.377
  },
  {
-  "word": "flopping.",
-  "start": 3.815,
-  "end": 4.195
+  "word": "NBA",
+  "start": 1.424,
+  "end": 1.688
  },
  {
-  "word": "The",
-  "start": 4.231,
-  "end": 4.313
+  "word": "since",
+  "start": 1.735,
+  "end": 1.905
  },
  {
-  "word": "league",
-  "start": 4.349,
-  "end": 4.485
+  "word": "twenty",
+  "start": 1.923,
+  "end": 2.131
  },
  {
-  "word": "even",
-  "start": 4.503,
-  "end": 4.629
+  "word": "twenty-three.",
+  "start": 2.16,
+  "end": 2.641
+ },
+ {
+  "word": "But",
+  "start": 2.669,
+  "end": 2.792
+ },
+ {
+  "word": "NBC",
+  "start": 2.829,
+  "end": 3.074
+ },
+ {
+  "word": "Sports",
+  "start": 3.159,
+  "end": 3.404
+ },
+ {
+  "word": "calls",
+  "start": 3.433,
+  "end": 3.621
+ },
+ {
+  "word": "the",
+  "start": 3.65,
+  "end": 3.706
+ },
+ {
+  "word": "enforcement",
+  "start": 3.754,
+  "end": 4.159
+ },
+ {
+  "word": "inconsistent",
+  "start": 4.206,
+  "end": 4.706
+ },
+ {
+  "word": "at",
+  "start": 4.744,
+  "end": 4.8
+ },
+ {
+  "word": "best.",
+  "start": 4.848,
+  "end": 5.206
+ },
+ {
+  "word": "Now",
+  "start": 5.29,
+  "end": 5.423
+ },
+ {
+  "word": "the",
+  "start": 5.47,
+  "end": 5.536
+ },
+ {
+  "word": "NBA",
+  "start": 5.573,
+  "end": 5.828
+ },
+ {
+  "word": "has",
+  "start": 5.875,
+  "end": 5.969
  },
  {
   "word": "posted",
-  "start": 4.666,
-  "end": 4.909
+  "start": 6.017,
+  "end": 6.262
  },
  {
-  "word": "its",
-  "start": 4.937,
-  "end": 5.009
- },
- {
-  "word": "own",
-  "start": 5.036,
-  "end": 5.109
+  "word": "a",
+  "start": 6.281,
+  "end": 6.299
  },
  {
   "word": "video",
-  "start": 5.144,
-  "end": 5.325
+  "start": 6.328,
+  "end": 6.516
  },
  {
   "word": "of",
-  "start": 5.37,
-  "end": 5.425
+  "start": 6.564,
+  "end": 6.601
  },
  {
   "word": "last",
-  "start": 5.479,
-  "end": 5.606
+  "start": 6.649,
+  "end": 6.809
  },
  {
   "word": "season's",
-  "start": 5.633,
-  "end": 5.886
+  "start": 6.837,
+  "end": 7.101
  },
  {
-  "word": "flops.",
-  "start": 5.904,
-  "end": 6.347
+  "word": "flops,",
+  "start": 7.129,
+  "end": 7.459
+ },
+ {
+  "word": "and",
+  "start": 7.488,
+  "end": 7.592
+ },
+ {
+  "word": "says",
+  "start": 7.639,
+  "end": 7.808
+ },
+ {
+  "word": "refs",
+  "start": 7.874,
+  "end": 8.054
+ },
+ {
+  "word": "will",
+  "start": 8.072,
+  "end": 8.176
+ },
+ {
+  "word": "call",
+  "start": 8.214,
+  "end": 8.355
+ },
+ {
+  "word": "more",
+  "start": 8.402,
+  "end": 8.535
+ },
+ {
+  "word": "technicals.",
+  "start": 8.572,
+  "end": 9.072
  },
  {
   "word": "The",
-  "start": 6.392,
-  "end": 6.482
+  "start": 9.119,
+  "end": 9.214
  },
  {
-  "word": "test:",
-  "start": 6.528,
-  "end": 6.827
+  "word": "test",
+  "start": 9.252,
+  "end": 9.44
+ },
+ {
+  "word": "is",
+  "start": 9.487,
+  "end": 9.544
+ },
+ {
+  "word": "STEM:",
+  "start": 9.563,
+  "end": 9.903
  },
  {
   "word": "secondary,",
-  "start": 6.872,
-  "end": 7.288
+  "start": 9.987,
+  "end": 10.496
  },
  {
   "word": "theatrical,",
-  "start": 7.306,
-  "end": 7.704
+  "start": 10.534,
+  "end": 11.024
  },
  {
   "word": "exaggerated",
-  "start": 7.731,
-  "end": 8.192
+  "start": 11.071,
+  "end": 11.543
  },
  {
   "word": "movement.",
-  "start": 8.218,
-  "end": 8.58
+  "start": 11.581,
+  "end": 11.883
  },
  {
-  "word": "And",
-  "start": 8.608,
-  "end": 8.725
+  "word": "But",
+  "start": 11.911,
+  "end": 12.034
  },
  {
-  "word": "Thunder",
-  "start": 8.77,
-  "end": 8.969
+  "word": "there's",
+  "start": 12.062,
+  "end": 12.251
  },
  {
-  "word": "coach",
-  "start": 9.014,
-  "end": 9.186
- },
- {
-  "word": "Mark",
-  "start": 9.222,
-  "end": 9.358
- },
- {
-  "word": "Daigneault",
-  "start": 9.403,
-  "end": 9.747
- },
- {
-  "word": "sees",
-  "start": 9.792,
-  "end": 9.963
- },
- {
-  "word": "the",
-  "start": 10.0,
-  "end": 10.054
+  "word": "a",
+  "start": 12.278,
+  "end": 12.298
  },
  {
   "word": "catch.",
-  "start": 10.09,
-  "end": 10.56
+  "start": 12.335,
+  "end": 12.646
+ },
+ {
+  "word": "The",
+  "start": 12.665,
+  "end": 12.76
+ },
+ {
+  "word": "NBA",
+  "start": 12.807,
+  "end": 13.052
+ },
+ {
+  "word": "is",
+  "start": 13.1,
+  "end": 13.174
+ },
+ {
+  "word": "also",
+  "start": 13.222,
+  "end": 13.42
+ },
+ {
+  "word": "cracking",
+  "start": 13.467,
+  "end": 13.741
+ },
+ {
+  "word": "down",
+  "start": 13.778,
+  "end": 13.91
+ },
+ {
+  "word": "on",
+  "start": 13.948,
+  "end": 14.005
+ },
+ {
+  "word": "push-offs.",
+  "start": 14.043,
+  "end": 14.524
+ },
+ {
+  "word": "Thunder",
+  "start": 14.561,
+  "end": 14.778
+ },
+ {
+  "word": "coach",
+  "start": 14.806,
+  "end": 14.966
+ },
+ {
+  "word": "Mark",
+  "start": 15.013,
+  "end": 15.146
+ },
+ {
+  "word": "Daigneault",
+  "start": 15.193,
+  "end": 15.504
+ },
+ {
+  "word": "says",
+  "start": 15.523,
+  "end": 15.655
+ },
+ {
+  "word": "if",
+  "start": 15.702,
+  "end": 15.759
+ },
+ {
+  "word": "defenders",
+  "start": 15.796,
+  "end": 16.117
+ },
+ {
+  "word": "know",
+  "start": 16.146,
+  "end": 16.24
+ },
+ {
+  "word": "that,",
+  "start": 16.287,
+  "end": 16.56
  }
 ]

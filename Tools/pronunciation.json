@@ -1,0 +1,23 @@
+{
+ "_about": "Pronunciation dictionary (Oct 14, 2026). voiceover.py applies the profile's list to every plain mention of a name: captions show the name, the voice reads the respelling. A script's own {Name|respelling} wins. Status per entry: 'tested' = a take was transcribed and the name came back right; 'owner ear' = waiting on the owner's listen (Sound Check page). Whisper can't tell a Y from a J, so the sound of a respelling is the owner's call. Test a new name with a one-line take before a full voice-over (voice_check.py).",
+ "default": {
+  "Jokic": "Yokitch",
+  "Jokic's": "Yokitch's",
+  "Doncic": "Dontchitch",
+  "Doncic's": "Dontchitch's",
+  "Nurkic": "Nurkitch",
+  "Bogdanovic": "Bogdanovitch",
+  "Sengun": "Shengoon",
+  "Valanciunas": "Valanchoonas"
+ },
+ "clone": {
+  "Jokic": "Yoki-ch",
+  "Jokic's": "Yoki-ch's"
+ },
+ "_notes": {
+  "Wembanyama": "never respell: plain is heard right (round 1: the respelling was heard as 'Wembun Yama' in 9/9 takes; Alex plain: right on two scripts)",
+  "Giannis": "plain for Alex (heard right on REF); the old clone said 'Yanis' on its own",
+  "Antetokounmpo": "plain; heard close to right ('Antetokumpo') in the Alex names test",
+  "status": "Alex names test, Oct 14: every respelling above came back as the right name in the transcript (Jokic, Doncic, Nurkic, Bogdanovic; Sengun as 'Shingon', Valanciunas as 'Valancionas'). The respellings are standard US broadcast pronunciations. Owner ear pending."
+ }
+}

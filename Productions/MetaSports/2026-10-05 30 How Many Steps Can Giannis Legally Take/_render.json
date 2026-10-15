@@ -1,0 +1,19 @@
+{
+ "engine": "ffmpeg",
+ "out": "final.mp4",
+ "loop_fix": true,
+ "fits": [
+  {
+   "shot": 7,
+   "clip": "h3.mp4",
+   "fit": "slowed",
+   "factor": 1.105
+  },
+  {
+   "shot": 15,
+   "clip": "a1.mp4",
+   "fit": "slowed",
+   "factor": 1.025
+  }
+ ]
+}

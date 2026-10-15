@@ -5,7 +5,7 @@ plan.json: [{"vo": "_n1"},                                   # folder with voice
             {"quote": "clips/adams_full.mp4", "stt": "adams_stt.json", "from": 13.26, "to": 17.0, "text": "optional true words", "stt_offset": 0},
             {"vo": "_n2"}, ...]
 Writes voice.mp3, words.json (all word times on the final timeline) and _timeline.json (start of each piece, for shots.json).
-Each piece is loudnormed to -18 LUFS, 0.12 s gap between pieces. Quote words come from ElevenLabs STT json (scribe).
+Each piece is gain-matched (plain volume, no dynamic loudnorm) to -18 LUFS, 0.12 s gap between pieces. Quote words come from ElevenLabs STT json (scribe).
 """
 import argparse, json, os, subprocess, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -15,6 +15,18 @@ GAP = 0.12
 
 def run(*a):
     subprocess.run(a, check=True, capture_output=True)
+
+
+def lufs(*inp):
+    """Integrated loudness of an input (ffmpeg input args), so a plain gain can be applied. loudnorm's dynamic mode ducked the last
+    0.25 s of short pieces by 1-4 dB (Oct 5 2026 audit), which made sentence ends sound swallowed."""
+    import re
+    r = subprocess.run(["ffmpeg", "-hide_banner", "-nostats", *inp, "-af", "ebur128=peak=true", "-f", "null", "-"], capture_output=True, text=True)
+    m = re.findall(r"I:\s+(-?[\d.]+) LUFS", r.stderr)
+    return float(m[-1]) if m else None
+
+
+LIM = "alimiter=limit=0.794:attack=3:release=50:level=disabled"
 
 
 def dur(p):
@@ -34,7 +46,9 @@ def main():
         out = os.path.join(F, "_splice", f"p{i}.wav")
         if "vo" in p:
             src = os.path.join(F, p["vo"], "voice.mp3")
-            run("ffmpeg", "-y", "-i", src, "-af", "loudnorm=I=-18:TP=-2:LRA=7", "-ar", "44100", "-ac", "1", out)
+            L = lufs("-i", src)
+            g = (-18 - L) if L is not None and L > -70 else 0.0
+            run("ffmpeg", "-y", "-i", src, "-af", f"volume={g:.2f}dB,{LIM}", "-ar", "44100", "-ac", "1", out)
             ws = json.load(open(os.path.join(F, p["vo"], "words.json")))
             for w in ws:
                 words.append({"word": w["word"], "start": round(t + w["start"], 3), "end": round(t + w["end"], 3)})
@@ -42,7 +56,9 @@ def main():
         else:
             src = p["quote"] if os.path.isabs(p["quote"]) else os.path.join(F, p["quote"])
             f, to = p["from"], p["to"]
-            run("ffmpeg", "-y", "-ss", str(f), "-t", str(to - f), "-i", src, "-af", "loudnorm=I=-16:TP=-2:LRA=7,afade=t=in:d=0.02,afade=t=out:st=%.2f:d=0.04" % (to - f - 0.04), "-ar", "44100", "-ac", "1", out)
+            L = lufs("-ss", str(f), "-t", str(to - f), "-i", src)
+            g = (-16 - L) if L is not None and L > -70 else 0.0
+            run("ffmpeg", "-y", "-ss", str(f), "-t", str(to - f), "-i", src, "-af", f"volume={g:.2f}dB,{LIM},afade=t=in:d=0.02,afade=t=out:st=%.2f:d=0.04" % (to - f - 0.04), "-ar", "44100", "-ac", "1", out)
             off = p.get("stt_offset", 0.0)  # when the stt json was made from a clip cut that started at `off` seconds
             d = json.load(open(p["stt"]))
             got = []
@@ -72,7 +88,7 @@ def main():
                 gp = os.path.join(F, "_splice", "gap.wav")
                 run("ffmpeg", "-y", "-f", "lavfi", "-i", "anullsrc=r=44100:cl=mono", "-t", str(GAP), gp)
                 fh.write(f"file '{os.path.abspath(gp)}'\n")
-    run("ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", lst, "-af", "apad=pad_dur=0.3", "-c:a", "libmp3lame", "-q:a", "2", os.path.join(F, "voice.mp3"))
+    run("ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", lst, "-af", "apad=pad_dur=0.3", "-c:a", "libmp3lame", "-q:a", "0", os.path.join(F, "voice.mp3"))
     json.dump(words, open(os.path.join(F, "words.json"), "w"), indent=1)
     json.dump(tl, open(os.path.join(F, "_timeline.json"), "w"), indent=1)
     try:

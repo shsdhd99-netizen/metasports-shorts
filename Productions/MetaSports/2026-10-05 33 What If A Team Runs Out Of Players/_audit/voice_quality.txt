@@ -1,0 +1,1 @@
+2026-10-05 33 What If A Team Runs    PASS HNR   8.7 jit 2.68 shim 10.22 jumps/s 0.00 clicks/min 273.1 hf%  3.50 f0 211 dur 23.51  

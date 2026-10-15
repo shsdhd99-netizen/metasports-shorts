@@ -1,0 +1,11 @@
+Voice check: CHECK   (103 words, 25.6s, 241 wpm)
+  note   2.28s  script "eighteenth" but heard "18th"
+  note  11.70s  script "giannis" but heard "yanis"
+  note  14.86s  script "will" but heard "would"
+  note  21.14s  script "jaquez" but heard "jocos"
+  note  21.58s  script "jakucionis" but heard "yaku shones"
+  note   1.66s  "bucks" heard as "bucs" (close; check the name)
+  note  12.76s  "bucks" heard as "bucs" (close; check the name)
+  note  17.64s  "portis" heard as "portas" (close; check the name)
+  note  20.40s  "herro" heard as "harrow" (close; check the name)
+  heard: 13 years in Milwaukee, zero games against the Bucs until November 18th. And he won't be playing for Miami. For one night only, the Heat trade Miami for Vice City. A new court, a new uniform, live on ESPN, the night before Grand Theft Auto 6. After the trade, Yanis watched a video from Bucs fans and got emotional. But Milwaukee would always be my home. He's not the only one going back. Bobby Portas faces Milwaukee, and the four players the Heat sent for him, Harrow, Ware, Jocos and Yaku Shones face Miami. Six players, two old teams, one city that doesn't exist.

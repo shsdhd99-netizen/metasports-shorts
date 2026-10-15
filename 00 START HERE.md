@@ -1,4 +1,49 @@
-# START HERE (Round 3)
+# START HERE (updated Oct 15, 2026)
+
+| You want... | Open |
+|---|---|
+| **What to make and post next** (the only queue) | `Production Queue.md` |
+| **Every idea** (74 rows: status, score, hook, sources, blockers, next action) | `Production Queue - all ideas (Oct 14, 2026).csv` |
+| **THE WINNING FORMULA** (what wins, the 3 structures, fixed settings, the 10-step workflow; read first) | `MetaSports - Playbook.md` (top section; Creative System v3 below it has the detail) |
+| **Why that formula** (CoachClank, Ahmed, our best vs weakest, patterns by evidence) | `Research Notes/Winning Formula Research (Oct 14, 2026).md` + audit §12 (new stats) |
+| **The script gate** (every script must pass before footage or voice) | `Tools/script_critic.md` + `Research Notes/Script Critic Log.md` |
+| **Why** (what the 102 posted Shorts show, with dated numbers and their limits) | `Research Notes/Posted Video Audit (Oct 14, 2026).md` (+ `Posted Shorts - metrics (Oct 14, 2026).csv`) |
+| **Which old rules stand** (each rule: keep / revise / retire / test) | `Research Notes/Rules Audit (Oct 14, 2026).md` |
+| **Voice** (the house voice, why, the backup, the spec; three audition rounds) | `Research Notes/Voice Audition (Oct 14, 2026)/README.md` (decision at the top, Part 3) + `Tools/voice_config.json` |
+| **Listen and decide** (round 3: new voice vs old, names, the 3 Shorts old vs new, music level) | Sound Check page: https://claude.ai/artifact/U58nqkg8BHDTJXNdy64Tcd |
+| **How to find, check and log footage** (sources, licences, commands) | `Library/B-roll Sourcing Guide.md` (+ `Library/footage_library.csv`; each Short's `sources.csv`) |
+| **Music** (library, licences, choosing a bed, levels, tests) | `Library/Music Guide.md` (+ `Library/Music/music_library.csv`) |
+| **Sounds and copyrighted/trending music** (your tracks, CoachClank's sound, what YouTube allows by route, trends) | `Library/Sound Library.md` |
+| **What our old hit Shorts did** (watched scene by scene, vs our new builds) | `Research Notes/Posted Video Audit (Oct 14, 2026).md` section 10 (+ the watch-reports appendix) |
+| **Current state, open decisions, handoff** (for any new session) | `CLOUD STATE - read this first.md` (newest section at the bottom) |
+| **Results of posted Shorts + predictions logged before posting** | `Research Notes/Outcome Log.md` |
+| **Lessons, with confidence levels** | `Research Notes/Lessons Learned (running log).md` |
+| **Independent reviews of new Shorts** | `Research Notes/Critic v2 Review (Oct 13, 2026).md` (rubric: `Tools/critic_v2.md`) |
+| **Phone Hub (videos, titles, tags to post)** | https://claude.ai/artifact/EZrk8n855PyYpMFnMnMJd4 |
+| **Every tool and command** | `Tools Guide.md` (newest changes at the top) |
+| **NEW Oct 15: YouTube Studio analysis** ("stayed to watch" is the gate) | `Research Notes/Posted Video Audit (Oct 14, 2026).md` §13 + `Research Notes/Studio exports/` |
+| **NEW Oct 15: competitor script breakdown** (26 real captions, scored vs each creator's own median) | `Research Notes/Competitor Script Breakdown (Oct 15, 2026)/README.md` |
+| **NEW Oct 15: editing, sound and QA standards** | `Library/Editing and Sound Standards.md`; full gate: `python Tools/qa_short.py --folder "<folder>" --full` |
+| **NEW Oct 15: moving the work to the PC** (not done yet; the steps) | `DESKTOP SYNC - read on the PC.md` |
+
+**Do next:**
+1. **Watch #44 in the Hub:** "Why Does An $8 Million Rookie Still Carry Bags?" (Cooper Flagg, a draft in voice A). Approve it or tell me what to change. Post it before Oct 31.
+2. **#36:** say "OK #36 clip" or "no". The only blocker is the rookie-LeBron footage from a fan account. No official or licensed rookie-season copy exists that I could find, and the 2007 Duncan hug stays because it's the real moment.
+3. **Voice:** A (Alex) or F (old voice, fixed)? New drafts use A until you pick.
+4. **Move to the PC:** follow `DESKTOP SYNC - read on the PC.md`, or open Claude Desktop / `claude remote-control` in the PC folder and ask it to sync.
+5. **Stats:** export the Studio "Content" table again around Oct 22 (it has "stayed to watch").
+
+**Superseded (kept as evidence, not instructions):**
+- `Research Notes/Winning Formula v2 (Oct 13, 2026).md` (folded into Creative System v3; its red-ring rule is now a test)
+- `Posting Roadmap - Oct 2026.md`, `Roadmap - Next 90 Days.md`, `MetaSports - Scripts (Batch 2).md`
+- `CLOUD_HANDOFF.md` (Oct 3), `Research Notes/Next Wave Plan.md`, `Research Notes/Wave 3 Plan.md`
+- `Research Notes/Voice Lineup (Oct 13, 2026)/` (replaced by the Oct 14 audition)
+- Critique Rounds 1-3. The Round 3 scores ran backwards against real views.
+- The Oct 5 "no music" rule (Rules Audit B10, retired Oct 14 by the owner) and the 250-290 wpm pace rule (now 200-265).
+
+---
+
+## Older notes (Round 3, Sep 2026, PC era)
 
 **📱 Phone:** [Road to 100K](https://claude.ai/artifact/APu9e6r5eQso67k1VLT91d). It has a **Today** card with the title and pinned comment to copy, "Mark posted", and a live title maker. **💻 PC:** double-click `OPEN ME - Road to 100K.html` in this folder.
 

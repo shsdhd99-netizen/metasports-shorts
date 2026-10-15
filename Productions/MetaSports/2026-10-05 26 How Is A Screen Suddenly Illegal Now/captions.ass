@@ -1,0 +1,61 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Montserrat Black,86,&H00FFFFFF,&H00FFFFFF,&H00000000,&H99000000,0,0,0,0,95,100,1,0,1,6,3,5,70,70,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.40,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}A SCREEN
+Dialogue: 0,0:00:00.40,0:00:00.87,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IS LEGAL.
+Dialogue: 0,0:00:00.87,0:00:01.33,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SHOVING WHILE
+Dialogue: 0,0:00:01.33,0:00:01.81,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}YOU SET ONE
+Dialogue: 0,0:00:01.81,0:00:02.42,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IS A FOUL.
+Dialogue: 0,0:00:02.42,0:00:02.92,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE NBA
+Dialogue: 0,0:00:02.92,0:00:03.32,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}JUST SHOWED
+Dialogue: 0,0:00:03.32,0:00:04.20,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}REFEREES EXACTLY
+Dialogue: 0,0:00:04.20,0:00:04.50,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WHERE THE
+Dialogue: 0,0:00:04.50,0:00:05.05,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}LINE IS.
+Dialogue: 0,0:00:05.05,0:00:05.76,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}MASON PLUMLEE
+Dialogue: 0,0:00:05.76,0:00:06.67,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SETS A SCREEN.
+Dialogue: 0,0:00:06.67,0:00:07.33,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BUT HE
+Dialogue: 0,0:00:07.33,0:00:07.99,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THEN EXTENDS
+Dialogue: 0,0:00:07.99,0:00:08.64,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HIS ARMS,
+Dialogue: 0,0:00:08.64,0:00:09.30,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND HE
+Dialogue: 0,0:00:09.30,0:00:10.28,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}PUSHES THE ON-BALL
+Dialogue: 0,0:00:10.28,0:00:10.82,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}DEFENDER,
+Dialogue: 0,0:00:10.82,0:00:11.16,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FOUL,
+Dialogue: 0,0:00:11.16,0:00:11.74,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SAYS THE NBA.
+Dialogue: 0,0:00:11.74,0:00:12.02,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NEXT,
+Dialogue: 0,0:00:12.02,0:00:12.61,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NAZ REID SCREENS
+Dialogue: 0,0:00:12.61,0:00:13.64,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FOR DIVINCENZO.
+Dialogue: 0,0:00:13.64,0:00:14.24,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}REID THEN
+Dialogue: 0,0:00:14.24,0:00:15.13,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}EXTENDS BOTH ARMS,
+Dialogue: 0,0:00:15.13,0:00:15.73,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND HE
+Dialogue: 0,0:00:15.73,0:00:17.00,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}PUSHES OKORO FOUL.
+Dialogue: 0,0:00:17.00,0:00:17.66,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ROBERT WILLIAMS.
+Dialogue: 0,0:00:17.66,0:00:18.02,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FOUL.
+Dialogue: 0,0:00:18.02,0:00:18.74,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}DAY'RON SHARPE.
+Dialogue: 0,0:00:18.74,0:00:19.24,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FOUL.
+Dialogue: 0,0:00:19.24,0:00:19.88,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BUT ISAIAH STEWART
+Dialogue: 0,0:00:19.88,0:00:20.31,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}MAKES CONTACT
+Dialogue: 0,0:00:20.31,0:00:20.64,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ON A SCREEN
+Dialogue: 0,0:00:20.64,0:00:20.88,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TOO,
+Dialogue: 0,0:00:20.88,0:00:21.35,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND THE NBA
+Dialogue: 0,0:00:21.35,0:00:22.00,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SAYS PLAY ON.
+Dialogue: 0,0:00:22.00,0:00:22.59,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WHY?
+Dialogue: 0,0:00:22.59,0:00:23.28,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THIS CONTACT
+Dialogue: 0,0:00:23.28,0:00:23.96,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BY STEWART
+Dialogue: 0,0:00:23.96,0:00:24.98,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}DOES NOT AFFECT
+Dialogue: 0,0:00:24.98,0:00:25.67,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BLACK'S ABILITY
+Dialogue: 0,0:00:25.67,0:00:26.85,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TO PLAY DEFENSE,
+Dialogue: 0,0:00:26.85,0:00:27.27,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE LINE
+Dialogue: 0,0:00:27.27,0:00:27.92,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ISN'T CONTACT.
+Dialogue: 0,0:00:27.92,0:00:28.35,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IT'S WHETHER
+Dialogue: 0,0:00:28.35,0:00:28.79,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE DEFENDER
+Dialogue: 0,0:00:28.79,0:00:29.83,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}CAN STILL PLAY.

@@ -7,100 +7,37 @@ ScaledBorderAndShadow: yes
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Cap,Montserrat Bold,80,&H00FFFFFF,&H00FFFFFF,&H00000000,&H99000000,0,0,0,0,100,100,0,0,1,6,2,5,70,70,0,1
+Style: Cap,Montserrat Bold,58,&H00FFFFFF,&H00FFFFFF,&H00000000,&H99000000,0,0,0,0,100,100,0,0,1,3,1,5,70,70,0,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:00.27,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}{\c&H000AD6FF&}Flop,{\c&H00FFFFFF&}
-Dialogue: 0,0:00:00.27,0:00:00.38,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}{\c&H000AD6FF&}and{\c&H00FFFFFF&} the NBA
-Dialogue: 0,0:00:00.38,0:00:00.47,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}and {\c&H000AD6FF&}the{\c&H00FFFFFF&} NBA
-Dialogue: 0,0:00:00.47,0:00:00.78,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}and the {\c&H000AD6FF&}NBA{\c&H00FFFFFF&}
-Dialogue: 0,0:00:00.78,0:00:00.95,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}{\c&H000AD6FF&}wants{\c&H00FFFFFF&} a technical
-Dialogue: 0,0:00:00.95,0:00:01.01,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}wants {\c&H000AD6FF&}a{\c&H00FFFFFF&} technical
-Dialogue: 0,0:00:01.01,0:00:01.36,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}wants a {\c&H000AD6FF&}technical{\c&H00FFFFFF&}
-Dialogue: 0,0:00:01.36,0:00:01.64,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}{\c&H000AD6FF&}foul.{\c&H00FFFFFF&}
-Dialogue: 0,0:00:01.64,0:00:02.08,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}{\c&H000AD6FF&}Timberwolves{\c&H00FFFFFF&} coach
-Dialogue: 0,0:00:02.08,0:00:02.27,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}Timberwolves {\c&H000AD6FF&}coach{\c&H00FFFFFF&}
-Dialogue: 0,0:00:02.27,0:00:02.45,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}{\c&H000AD6FF&}Chris{\c&H00FFFFFF&} Finch
-Dialogue: 0,0:00:02.45,0:00:02.66,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}Chris {\c&H000AD6FF&}Finch{\c&H00FFFFFF&}
-Dialogue: 0,0:00:02.66,0:00:02.88,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}{\c&H000AD6FF&}loves{\c&H00FFFFFF&} it:
-Dialogue: 0,0:00:02.88,0:00:03.05,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}loves {\c&H000AD6FF&}it:{\c&H00FFFFFF&}
-Dialogue: 0,0:00:03.05,0:00:03.22,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}{\c&H000AD6FF&}just{\c&H00FFFFFF&} stop rewarding
-Dialogue: 0,0:00:03.22,0:00:03.44,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}just {\c&H000AD6FF&}stop{\c&H00FFFFFF&} rewarding
-Dialogue: 0,0:00:03.44,0:00:03.73,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}just stop {\c&H000AD6FF&}rewarding{\c&H00FFFFFF&}
-Dialogue: 0,0:00:03.73,0:00:03.82,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}{\c&H000AD6FF&}the{\c&H00FFFFFF&} flopping.
-Dialogue: 0,0:00:03.82,0:00:04.23,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}the {\c&H000AD6FF&}flopping.{\c&H00FFFFFF&}
-Dialogue: 0,0:00:04.23,0:00:04.35,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}{\c&H000AD6FF&}The{\c&H00FFFFFF&} league
-Dialogue: 0,0:00:04.35,0:00:04.50,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}The {\c&H000AD6FF&}league{\c&H00FFFFFF&}
-Dialogue: 0,0:00:04.50,0:00:04.67,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}{\c&H000AD6FF&}even{\c&H00FFFFFF&} posted
-Dialogue: 0,0:00:04.67,0:00:04.94,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}even {\c&H000AD6FF&}posted{\c&H00FFFFFF&}
-Dialogue: 0,0:00:04.94,0:00:05.04,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}{\c&H000AD6FF&}its{\c&H00FFFFFF&} own video
-Dialogue: 0,0:00:05.04,0:00:05.14,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}its {\c&H000AD6FF&}own{\c&H00FFFFFF&} video
-Dialogue: 0,0:00:05.14,0:00:05.37,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}its own {\c&H000AD6FF&}video{\c&H00FFFFFF&}
-Dialogue: 0,0:00:05.37,0:00:05.48,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}{\c&H000AD6FF&}of{\c&H00FFFFFF&} last
-Dialogue: 0,0:00:05.48,0:00:05.63,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}of {\c&H000AD6FF&}last{\c&H00FFFFFF&}
-Dialogue: 0,0:00:05.63,0:00:05.90,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}{\c&H000AD6FF&}season's{\c&H00FFFFFF&} flops.
-Dialogue: 0,0:00:05.90,0:00:06.39,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}season's {\c&H000AD6FF&}flops.{\c&H00FFFFFF&}
-Dialogue: 0,0:00:06.39,0:00:06.53,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}{\c&H000AD6FF&}The{\c&H00FFFFFF&} test:
-Dialogue: 0,0:00:06.53,0:00:06.87,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}The {\c&H000AD6FF&}test:{\c&H00FFFFFF&}
-Dialogue: 0,0:00:06.87,0:00:07.31,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}{\c&H000AD6FF&}secondary,{\c&H00FFFFFF&}
-Dialogue: 0,0:00:07.31,0:00:07.73,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}{\c&H000AD6FF&}theatrical,{\c&H00FFFFFF&}
-Dialogue: 0,0:00:07.73,0:00:08.22,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}{\c&H000AD6FF&}exaggerated{\c&H00FFFFFF&} movement.
-Dialogue: 0,0:00:08.22,0:00:08.61,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}exaggerated {\c&H000AD6FF&}movement.{\c&H00FFFFFF&}
-Dialogue: 0,0:00:08.61,0:00:08.77,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}{\c&H000AD6FF&}And{\c&H00FFFFFF&} Thunder
-Dialogue: 0,0:00:08.77,0:00:09.01,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}And {\c&H000AD6FF&}Thunder{\c&H00FFFFFF&}
-Dialogue: 0,0:00:09.01,0:00:09.22,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}{\c&H000AD6FF&}coach{\c&H00FFFFFF&} Mark Daigneault
-Dialogue: 0,0:00:09.22,0:00:09.40,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}coach {\c&H000AD6FF&}Mark{\c&H00FFFFFF&} Daigneault
-Dialogue: 0,0:00:09.40,0:00:09.79,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}coach Mark {\c&H000AD6FF&}Daigneault{\c&H00FFFFFF&}
-Dialogue: 0,0:00:09.79,0:00:10.00,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}{\c&H000AD6FF&}sees{\c&H00FFFFFF&} the catch.
-Dialogue: 0,0:00:10.00,0:00:10.09,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}sees {\c&H000AD6FF&}the{\c&H00FFFFFF&} catch.
-Dialogue: 0,0:00:10.09,0:00:10.73,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}sees the {\c&H000AD6FF&}catch.{\c&H00FFFFFF&}
-Dialogue: 0,0:00:10.73,0:00:11.07,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}{\c&H000AD6FF&}they{\c&H00FFFFFF&} might
-Dialogue: 0,0:00:11.07,0:00:11.41,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}they {\c&H000AD6FF&}might{\c&H00FFFFFF&}
-Dialogue: 0,0:00:11.41,0:00:11.75,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}{\c&H000AD6FF&}be{\c&H00FFFFFF&} just flailing
-Dialogue: 0,0:00:11.75,0:00:12.09,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}be {\c&H000AD6FF&}just{\c&H00FFFFFF&} flailing
-Dialogue: 0,0:00:12.09,0:00:12.44,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}be just {\c&H000AD6FF&}flailing{\c&H00FFFFFF&}
-Dialogue: 0,0:00:12.44,0:00:12.78,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}{\c&H000AD6FF&}to{\c&H00FFFFFF&} try
-Dialogue: 0,0:00:12.78,0:00:13.12,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}to {\c&H000AD6FF&}try{\c&H00FFFFFF&}
-Dialogue: 0,0:00:13.12,0:00:13.46,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}{\c&H000AD6FF&}to{\c&H00FFFFFF&} bait
-Dialogue: 0,0:00:13.46,0:00:13.80,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}to {\c&H000AD6FF&}bait{\c&H00FFFFFF&}
-Dialogue: 0,0:00:13.80,0:00:14.14,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}{\c&H000AD6FF&}those{\c&H00FFFFFF&} calls.
-Dialogue: 0,0:00:14.14,0:00:14.76,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}those {\c&H000AD6FF&}calls.{\c&H00FFFFFF&}
-Dialogue: 0,0:00:14.76,0:00:14.95,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}{\c&H000AD6FF&}But{\c&H00FFFFFF&} not every fall
-Dialogue: 0,0:00:14.95,0:00:15.10,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}But {\c&H000AD6FF&}not{\c&H00FFFFFF&} every fall
-Dialogue: 0,0:00:15.10,0:00:15.32,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}But not {\c&H000AD6FF&}every{\c&H00FFFFFF&} fall
-Dialogue: 0,0:00:15.32,0:00:15.51,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}But not every {\c&H000AD6FF&}fall{\c&H00FFFFFF&}
-Dialogue: 0,0:00:15.51,0:00:15.63,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}{\c&H000AD6FF&}is{\c&H00FFFFFF&} a flop.
-Dialogue: 0,0:00:15.63,0:00:15.69,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}is {\c&H000AD6FF&}a{\c&H00FFFFFF&} flop.
-Dialogue: 0,0:00:15.69,0:00:16.09,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}is a {\c&H000AD6FF&}flop.{\c&H00FFFFFF&}
-Dialogue: 0,0:00:16.09,0:00:16.24,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}{\c&H000AD6FF&}In{\c&H00FFFFFF&} that same
-Dialogue: 0,0:00:16.24,0:00:16.42,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}In {\c&H000AD6FF&}that{\c&H00FFFFFF&} same
-Dialogue: 0,0:00:16.42,0:00:16.61,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}In that {\c&H000AD6FF&}same{\c&H00FFFFFF&}
-Dialogue: 0,0:00:16.61,0:00:16.97,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}{\c&H000AD6FF&}video,{\c&H00FFFFFF&}
-Dialogue: 0,0:00:16.97,0:00:17.44,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}{\c&H000AD6FF&}Pascal{\c&H00FFFFFF&} Siakam
-Dialogue: 0,0:00:17.44,0:00:17.93,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}Pascal {\c&H000AD6FF&}Siakam{\c&H00FFFFFF&}
-Dialogue: 0,0:00:17.93,0:00:18.19,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}{\c&H000AD6FF&}sitting{\c&H00FFFFFF&} down
-Dialogue: 0,0:00:18.19,0:00:18.38,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}sitting {\c&H000AD6FF&}down{\c&H00FFFFFF&}
-Dialogue: 0,0:00:18.38,0:00:18.60,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}{\c&H000AD6FF&}after{\c&H00FFFFFF&} a jumper
-Dialogue: 0,0:00:18.60,0:00:18.68,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}after {\c&H000AD6FF&}a{\c&H00FFFFFF&} jumper
-Dialogue: 0,0:00:18.68,0:00:19.00,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}after a {\c&H000AD6FF&}jumper{\c&H00FFFFFF&}
-Dialogue: 0,0:00:19.00,0:00:19.12,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}{\c&H000AD6FF&}is{\c&H00FFFFFF&} fine.
-Dialogue: 0,0:00:19.12,0:00:19.50,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}is {\c&H000AD6FF&}fine.{\c&H00FFFFFF&}
-Dialogue: 0,0:00:19.50,0:00:19.68,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}{\c&H000AD6FF&}So{\c&H00FFFFFF&} is a
-Dialogue: 0,0:00:19.68,0:00:19.81,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}So {\c&H000AD6FF&}is{\c&H00FFFFFF&} a
-Dialogue: 0,0:00:19.81,0:00:19.89,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}So is {\c&H000AD6FF&}a{\c&H00FFFFFF&}
-Dialogue: 0,0:00:19.89,0:00:20.17,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}{\c&H000AD6FF&}Deni{\c&H00FFFFFF&} Avdija
-Dialogue: 0,0:00:20.17,0:00:20.62,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}Deni {\c&H000AD6FF&}Avdija{\c&H00FFFFFF&}
-Dialogue: 0,0:00:20.62,0:00:20.80,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}{\c&H000AD6FF&}head{\c&H00FFFFFF&} snap.
-Dialogue: 0,0:00:20.80,0:00:21.21,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}head {\c&H000AD6FF&}snap.{\c&H00FFFFFF&}
-Dialogue: 0,0:00:21.21,0:00:21.37,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}{\c&H000AD6FF&}So{\c&H00FFFFFF&} where
-Dialogue: 0,0:00:21.37,0:00:21.55,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}So {\c&H000AD6FF&}where{\c&H00FFFFFF&}
-Dialogue: 0,0:00:21.55,0:00:21.65,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}{\c&H000AD6FF&}is{\c&H00FFFFFF&} the line?
-Dialogue: 0,0:00:21.65,0:00:21.77,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}is {\c&H000AD6FF&}the{\c&H00FFFFFF&} line?
-Dialogue: 0,0:00:21.77,0:00:22.12,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}is the {\c&H000AD6FF&}line?{\c&H00FFFFFF&}
-Dialogue: 0,0:00:22.12,0:00:22.26,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}{\c&H000AD6FF&}Do{\c&H00FFFFFF&} flops
-Dialogue: 0,0:00:22.26,0:00:22.52,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}Do {\c&H000AD6FF&}flops{\c&H00FFFFFF&}
-Dialogue: 0,0:00:22.52,0:00:22.84,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}{\c&H000AD6FF&}finally{\c&H00FFFFFF&} die
-Dialogue: 0,0:00:22.84,0:00:23.02,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}finally {\c&H000AD6FF&}die{\c&H00FFFFFF&}
-Dialogue: 0,0:00:23.02,0:00:23.15,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}{\c&H000AD6FF&}this{\c&H00FFFFFF&} season?
-Dialogue: 0,0:00:23.15,0:00:23.72,Cap,,0,0,0,,{\pos(540,1040)\blur0.5}this {\c&H000AD6FF&}season?{\c&H00FFFFFF&}
+Dialogue: 0,0:00:00.00,0:00:01.06,Cap,,0,0,0,,{\pos(540,960)\blur0.6}Flopping has been a technical
+Dialogue: 0,0:00:01.06,0:00:01.74,Cap,,0,0,0,,{\pos(540,960)\blur0.6}foul in the NBA
+Dialogue: 0,0:00:01.74,0:00:02.67,Cap,,0,0,0,,{\pos(540,960)\blur0.6}since twenty twenty-three.
+Dialogue: 0,0:00:02.67,0:00:03.43,Cap,,0,0,0,,{\pos(540,960)\blur0.6}But NBC Sports
+Dialogue: 0,0:00:03.43,0:00:04.21,Cap,,0,0,0,,{\pos(540,960)\blur0.6}calls the enforcement
+Dialogue: 0,0:00:04.21,0:00:05.29,Cap,,0,0,0,,{\pos(540,960)\blur0.6}inconsistent at best.
+Dialogue: 0,0:00:05.29,0:00:05.88,Cap,,0,0,0,,{\pos(540,960)\blur0.6}Now the NBA
+Dialogue: 0,0:00:05.88,0:00:06.56,Cap,,0,0,0,,{\pos(540,960)\blur0.6}has posted a video
+Dialogue: 0,0:00:06.56,0:00:07.49,Cap,,0,0,0,,{\pos(540,960)\blur0.6}of last season's flops,
+Dialogue: 0,0:00:07.49,0:00:08.07,Cap,,0,0,0,,{\pos(540,960)\blur0.6}and says refs
+Dialogue: 0,0:00:08.07,0:00:09.12,Cap,,0,0,0,,{\pos(540,960)\blur0.6}will call more technicals.
+Dialogue: 0,0:00:09.12,0:00:09.99,Cap,,0,0,0,,{\pos(540,960)\blur0.6}The test is STEM:
+Dialogue: 0,0:00:09.99,0:00:11.07,Cap,,0,0,0,,{\pos(540,960)\blur0.6}secondary, theatrical,
+Dialogue: 0,0:00:11.07,0:00:11.91,Cap,,0,0,0,,{\pos(540,960)\blur0.6}exaggerated movement.
+Dialogue: 0,0:00:11.91,0:00:12.66,Cap,,0,0,0,,{\pos(540,960)\blur0.6}But there's a catch.
+Dialogue: 0,0:00:12.66,0:00:13.47,Cap,,0,0,0,,{\pos(540,960)\blur0.6}The NBA is also
+Dialogue: 0,0:00:13.47,0:00:14.56,Cap,,0,0,0,,{\pos(540,960)\blur0.6}cracking down on push-offs.
+Dialogue: 0,0:00:14.56,0:00:15.52,Cap,,0,0,0,,{\pos(540,960)\blur0.6}Thunder coach Mark Daigneault
+Dialogue: 0,0:00:15.52,0:00:16.73,Cap,,0,0,0,,{\pos(540,960)\blur0.6}says if defenders know that,
+Dialogue: 0,0:00:16.73,0:00:17.42,Cap,,0,0,0,,{\pos(540,960)\blur0.6}they might
+Dialogue: 0,0:00:17.42,0:00:19.13,Cap,,0,0,0,,{\pos(540,960)\blur0.6}be just flailing to try
+Dialogue: 0,0:00:19.13,0:00:20.61,Cap,,0,0,0,,{\pos(540,960)\blur0.6}to bait those calls.
+Dialogue: 0,0:00:20.61,0:00:21.17,Cap,,0,0,0,,{\pos(540,960)\blur0.6}A head snap
+Dialogue: 0,0:00:21.17,0:00:21.86,Cap,,0,0,0,,{\pos(540,960)\blur0.6}isn't a flop.
+Dialogue: 0,0:00:21.86,0:00:23.07,Cap,,0,0,0,,{\pos(540,960)\blur0.6}Neither is Pascal Siakam
+Dialogue: 0,0:00:23.07,0:00:24.30,Cap,,0,0,0,,{\pos(540,960)\blur0.6}sitting down after a jumper.
+Dialogue: 0,0:00:24.30,0:00:25.64,Cap,,0,0,0,,{\pos(540,960)\blur0.6}Reacting to contact is legal.
+Dialogue: 0,0:00:25.64,0:00:26.32,Cap,,0,0,0,,{\pos(540,960)\blur0.6}Selling it costs
+Dialogue: 0,0:00:26.32,0:00:27.12,Cap,,0,0,0,,{\pos(540,960)\blur0.6}a technical foul
+Dialogue: 0,0:00:27.12,0:00:28.16,Cap,,0,0,0,,{\pos(540,960)\blur0.6}and a free throw.

@@ -1,21 +1,164 @@
 [
- {"clip":"J1.mp4","start":0.0,"in":1.9,"kind":"action","why":"Jaylin #6 close up (only one NBA player wears six)","zoom":0.12},
- {"clip":"J2.mp4","start":1.0,"in":2.9,"kind":"action","why":"Jaylin and-1 shooting in 6"},
- {"clip":"R1.mp4","start":1.9,"in":0.0,"kind":"action","why":"Bill Russell Boston"},
- {"clip":"R1.mp4","start":2.9,"in":7.6,"kind":"action","why":"Russell #6 dunk (eleven titles)"},
- {"clip":"R2.mp4","start":3.9,"in":1.0,"kind":"action","why":"Russell statue (2022 retired)"},
- {"clip":"R3.mp4","start":4.9,"in":2.0,"kind":"action","why":"Russell jacket every team"},
- {"clip":"J2.mp4","start":5.9,"in":8.0,"kind":"action","why":"But anyone wearing it kept it: Jaylin 6"},
- {"clip":"J3.mp4","start":7.3,"in":4.0,"kind":"action","why":"now one man is left"},
- {"clip":"J1.mp4","start":8.4,"in":0.2,"kind":"action","why":"Jaylin Williams"},
- {"clip":"Q1.mp4","start":9.5,"in":0.35,"kind":"quote","why":"Jaylin quote on Russell"},
- {"clip":"J2.mp4","start":13.77,"in":3.0,"kind":"action","why":"his dad picked that number"},
- {"clip":"R3.mp4","start":14.9,"in":20.0,"kind":"action","why":"a month before league retired it"},
- {"clip":"J3.mp4","start":16.2,"in":2.0,"kind":"action","why":"when Jaylin retires"},
- {"clip":"R1.mp4","start":17.2,"in":18.0,"kind":"action","why":"six disappears forever"},
- {"clip":"R2.mp4","start":18.4,"in":5.0,"kind":"action","why":"retiring one number for all 30 teams"},
- {"clip":"R3.mp4","start":19.9,"in":26.0,"kind":"action","why":"right honor for Russell"},
- {"clip":"R1.mp4","start":21.0,"in":11.0,"kind":"action","why":"Russell"},
- {"clip":"J2.mp4","start":21.9,"in":8.4,"kind":"action","why":"should somebody wear six"},
- {"clip":"J1.mp4","start":23.0,"in":1.9,"kind":"action","why":"loop to first shot","zoom":0.12}
+ {
+  "clip": "J1.mp4",
+  "start": 0.0,
+  "in": 1.9,
+  "kind": "action",
+  "why": "Only two",
+  "anchor": "Only two NBA players",
+  "zoom": 0.12
+ },
+ {
+  "clip": "J2.mp4",
+  "start": 0.99,
+  "in": 8.0,
+  "kind": "action",
+  "why": "still allowed to wear",
+  "anchor": "still allowed"
+ },
+ {
+  "clip": "J3.mp4",
+  "start": 2.15,
+  "in": 4.0,
+  "kind": "action",
+  "why": "One is 24",
+  "anchor": "One is 24"
+ },
+ {
+  "clip": "K1.mp4",
+  "start": 2.9,
+  "in": 0.4,
+  "kind": "action",
+  "why": "thirty-eight",
+  "anchor": "The other is"
+ },
+ {
+  "clip": "R1.mp4",
+  "start": 3.72,
+  "in": 7.6,
+  "kind": "action",
+  "why": "Russell dunk (eleven titles)",
+  "anchor": "Bill Russell"
+ },
+ {
+  "clip": "R2.mp4",
+  "start": 5.07,
+  "in": 1.0,
+  "kind": "action",
+  "why": "2022",
+  "anchor": "in 2022"
+ },
+ {
+  "clip": "R3.mp4",
+  "start": 5.86,
+  "in": 2.0,
+  "kind": "action",
+  "why": "retired six for every team",
+  "anchor": "the league retired"
+ },
+ {
+  "clip": "J2.mp4",
+  "start": 7.21,
+  "in": 8.0,
+  "kind": "action",
+  "why": "But players already",
+  "anchor": "But players already"
+ },
+ {
+  "clip": "J3.mp4",
+  "start": 8.58,
+  "in": 4.0,
+  "kind": "action",
+  "why": "Jaylin Williams",
+  "anchor": "Jaylin Williams"
+ },
+ {
+  "clip": "J1.mp4",
+  "start": 9.78,
+  "in": 0.2,
+  "kind": "action",
+  "why": "says his dad picked it",
+  "anchor": "says his dad"
+ },
+ {
+  "clip": "Q1.mp4",
+  "start": 10.71,
+  "in": 0.1,
+  "kind": "quote",
+  "why": "my dad was the one",
+  "anchor": "my dad was"
+ },
+ {
+  "clip": "R2.mp4",
+  "start": 13.6,
+  "in": 5.0,
+  "kind": "action",
+  "why": "The league retired six",
+  "anchor": "The league retired"
+ },
+ {
+  "clip": "K2.mp4",
+  "start": 14.84,
+  "in": 0.2,
+  "kind": "action",
+  "why": "DeAndre Jordan",
+  "anchor": "DeAndre Jordan"
+ },
+ {
+  "clip": "K4.mp4",
+  "start": 16.11,
+  "in": 0.5,
+  "kind": "action",
+  "why": "re-signed this summer",
+  "anchor": "re-signed"
+ },
+ {
+  "clip": "K2.mp4",
+  "start": 16.79,
+  "in": 1.8,
+  "kind": "action",
+  "why": "for two more years",
+  "anchor": "for two more"
+ },
+ {
+  "clip": "R1.mp4",
+  "start": 17.49,
+  "in": 11.0,
+  "kind": "action",
+  "why": "Whoever retires last",
+  "anchor": "Whoever retires"
+ },
+ {
+  "clip": "J2.mp4",
+  "start": 18.32,
+  "in": 8.4,
+  "kind": "action",
+  "why": "takes six with him",
+  "anchor": "takes six"
+ },
+ {
+  "clip": "J3.mp4",
+  "start": 19.02,
+  "in": 2.0,
+  "kind": "action",
+  "why": "Odds are",
+  "anchor": "Odds are"
+ },
+ {
+  "clip": "J2.mp4",
+  "start": 20.18,
+  "in": 3.0,
+  "kind": "action",
+  "why": "whose dad picked it",
+  "anchor": "whose dad"
+ },
+ {
+  "clip": "J1.mp4",
+  "start": 20.75,
+  "in": 1.9,
+  "kind": "action",
+  "why": "without thinking (loop)",
+  "anchor": "without thinking",
+  "zoom": 0.12
+ }
 ]

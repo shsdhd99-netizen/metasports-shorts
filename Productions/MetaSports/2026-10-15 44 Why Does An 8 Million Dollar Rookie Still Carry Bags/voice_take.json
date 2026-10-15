@@ -1,0 +1,33 @@
+[
+ {
+  "take": 1,
+  "ok": false,
+  "score": -195.8,
+  "verdict": "REDO",
+  "issues": [
+   " 4.46s  script \"dollars\" but heard \"(nothing)\"",
+   " 6.04s  script \"in macao\" but heard \"macau\""
+  ],
+  "wpm": 243,
+  "hnr": 7.8,
+  "jitter": 2.88,
+  "shimmer": 10.64,
+  "dur": 20.55,
+  "pitch_sd": 5.51
+ },
+ {
+  "take": 2,
+  "ok": false,
+  "score": -96.0,
+  "verdict": "REDO",
+  "issues": [
+   " 4.76s  script \"dollars\" but heard \"(nothing)\""
+  ],
+  "wpm": 242,
+  "hnr": 7.7,
+  "jitter": 2.89,
+  "shimmer": 11.4,
+  "dur": 20.59,
+  "pitch_sd": 5.23
+ }
+]

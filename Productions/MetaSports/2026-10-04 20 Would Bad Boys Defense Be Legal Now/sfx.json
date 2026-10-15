@@ -1,20 +1,5 @@
-[
- {
-  "sfx": "boom",
-  "at": 0.0,
-  "gain": -12,
-  "why": "hook"
- },
- {
-  "sfx": "click",
-  "at": 8.9,
-  "gain": -10,
-  "why": "turn: But"
- },
- {
-  "sfx": "whoosh",
-  "at": 14.5,
-  "gain": -14,
-  "why": "to the quote"
- }
-]
+[{"sfx":"boom","at":0.0,"gain":-12,"why":"hook"},
+ {"sfx":"whoosh","at":8.1,"gain":-14,"why":"NBA rule"},
+ {"sfx":"click","at":14.4,"gain":-10,"why":"turn: But"},
+ {"sfx":"whoosh","at":15.16,"gain":-14,"why":"to card"},
+ {"sfx":"ding","at":21.5,"gain":-14,"why":"payoff"}]
