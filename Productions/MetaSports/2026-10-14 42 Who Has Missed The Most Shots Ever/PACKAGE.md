@@ -63,3 +63,8 @@ Claude was out of usage, so these were pulled on the PC. They are in `src/` (not
 - [ ] No footage shown twice; no scorebug naming the wrong era/team on "October 2024" (Lakers, vs MIN)
 - [ ] Cards readable, with a source line
 - [ ] `qa_short.py` PASS; watch sheet; Critic v2 PASS; the owner's listen
+
+## Voice (Oct 15, 2026, overnight): two takes exist, none chosen
+The "Voice direction" above (clone, speed 1.15) is superseded by `Tools/voice_config.json`. Per the owner's Oct 15 test brief, the approved script was voiced once in Alex (`_v1/`) and once in pham v2 (`_v1_F/`). Numbers and the A/F reading: `VOICE_AB (Oct 15, 2026).md`. Spend 952 characters; 2,596 left.
+- **Next action:** the owner picks A or F by ear. Then `anchor_shots.py` on that folder's `words.json`, cut the Kobe clip (see PC footage above), add the ~0.2 s beat before "No." at assembly, trim Alex's tail if A.
+- Not rendered, no QA yet. The shot plan above still needs frame 1 = the LeBron miss (the LADEig airball is the only one in hand).

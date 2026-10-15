@@ -28,8 +28,8 @@
 
 **Do next:**
 1. **Watch #44 in the Hub:** "Why Does An $8 Million Rookie Still Carry Bags?" (Cooper Flagg, a draft in voice A). Approve it or tell me what to change. Post it before Oct 31.
-2. **#36:** say "OK #36 clip" or "no". The only blocker is the rookie-LeBron footage from a fan account. No official or licensed rookie-season copy exists that I could find, and the 2007 Duncan hug stays because it's the real moment.
-3. **Voice:** A (Alex) or F (old voice, fixed)? New drafts use A until you pick.
+2. **#36:** the fan-account rookie-LeBron clip is soft and carries channel bugs, so it is out. Oct 15, on the PC: two sharp clips from the official NBA rookie-highlights video are cut. Say "OK #36 clips" or "no". A v3 re-render then needs the other clips and the 3 cards, which exist only in the cloud copy. The 2007 Duncan hug stays because it's the real moment. Details: `Productions/MetaSports/2026-10-06 36 How Long Was LeBron Pro Before Boozer Was Born/FOOTAGE_CHECK (Oct 15, 2026).md`.
+3. **Voice:** A (Alex) or F (old voice, fixed)? New drafts use A until you pick. A third pair was voiced Oct 15 (#42, one take each): `Productions/MetaSports/2026-10-14 42 Who Has Missed The Most Shots Ever/VOICE_AB (Oct 15, 2026).md`. 2,596 characters are left until Nov 8.
 4. **Move to the PC:** follow `DESKTOP SYNC - read on the PC.md`, or open Claude Desktop / `claude remote-control` in the PC folder and ask it to sync.
 5. **Stats:** export the Studio "Content" table again around Oct 22 (it has "stayed to watch").
 

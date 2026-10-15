@@ -5,6 +5,7 @@
 > - **Backup:** our clone "pham v2" with fixed settings (speed 1.1, stability .5, no denoise).
 > - **Where it lives:** `Tools/voice_config.json` (the only place to change the voice) and `Tools/pronunciation.json`.
 > - **Tested on 3 real Shorts:** #40, #41, #21 v4, all QA PASS.
+> - **Oct 15 (overnight): a third A/F pair on a new Short, #42, one take each** (Alex and pham v2, the owner's cap). Numbers and reading: Part 5 below. The owner has still not picked; the default is unchanged.
 > - **Waiting on the owner's ear:** Sound Check round 3. Until the owner answers, the old-voice versions stay the ready ones.
 
 **Status:** the takes were actually generated and measured today.
@@ -290,3 +291,25 @@ It is the **backup**.
 ### What would still be worth trying (not done)
 - A **professional** clone of the original narrator would need the Creator plan and about 30+ minutes of clean recordings of one consistent voice.
 - We only have about 5 minutes, and it is itself old TTS output. So a better Pham clone is limited by the source, not the settings.
+
+## Part 5 (Oct 15, overnight, on the PC): A vs F on a new Short, one take each
+**Owner's brief (Oct 15):** keep testing Alex against pham v2 on one new Short, one take in each voice, no third take, no Pham v3, default unchanged, #36 not re-voiced.
+- **Short:** #42 "Who Has Missed The Most Shots Ever" (the approved script, 81 spoken words, no voice before). Files: `Productions/MetaSports/2026-10-14 42 .../_v1` (A) and `_v1_F` (F). Full write-up: `VOICE_AB (Oct 15, 2026).md` in that folder.
+- **Spend:** 952 characters (2 x 476). Used 48,539 -> 49,491 of 52,087; **2,596 left**, resets Nov 8.
+- **Measured with `voice_take.py --takes 1` and `voice_check.py` (local whisper), plus a throwaway envelope check:**
+
+| Measure | A Alex | F pham v2 |
+|---|---|---|
+| Length | 23.47 s | 22.68 s |
+| Real pace (81 spoken words) | 210 wpm | 217 wpm |
+| `voice_check` | REDO (one flag: final word "times." 0.87 s) | CHECK (no issue) |
+| HNR / jitter / shimmer | 8.9 / 2.52 / 10.76 | 10.1 / 2.36 / 9.46 |
+| Pitch variety (semitones) | 4.80 | 4.66 |
+| Loudness variety (dB SD) | 3.22 | 2.64 |
+| Numbers vs other words (loudness) | 0.0 dB | -0.9 dB |
+| Gate (`voice_take`) | FAIL, on that one flag | PASS |
+
+- **The flag on Alex is a tail effect:** the word is about 0.25 s at -18 dBFS, followed by a faint tail near -45 dBFS and silence. Trim the tail in the render; no new take needed.
+- **Alex's soft spot is small words** (one "The" not heard, one "the" at -13 dB). **pham v2 is cleaner and steadier;** Alex is a little more varied and ends harder. Neither lifts the numbers, so emphasis still has to come from the edit.
+- **Takes to pass the gate over three pairs (#21, #36, #42):** Alex 3, 2, not passed on its one take; pham v2 1, 2, 1. With 2,596 characters left, first-take passes matter.
+- **Still the owner's call, by ear:** A or F. One word sets `voice_config.json` `"default"`.
