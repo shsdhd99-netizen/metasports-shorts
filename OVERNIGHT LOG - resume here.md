@@ -1,6 +1,17 @@
 # Overnight log: resume here (Oct 14, 2026, about 11:55 PM ET)
 
-**Stopped because the usage limit was reached.** Nothing was published, scheduled or deleted. No keys were printed or committed.
+**Claude stopped because the usage limit was reached.** Grok continued after that, because the limit was confirmed and the owner was asleep. Nothing was published, scheduled, or deleted. No keys were printed. No new voice was generated.
+
+## Grok, after the limit (Oct 14 night)
+
+- **Merge is committed and pushed.** Desktop `main-329h3w` is `d88a2d0` on origin. The PC upload notes, lessons, and outcome log were kept, with the cloud text appended under "Cloud copy (merged Oct 14)". Short 25 keeps the PC captions and effects; the cloud versions sit beside them as `captions (cloud Oct 15).ass` and `sfx (cloud Oct 15).json`. The channel log is the union, 8 rows. The 28 local `READY TO POST` files stayed untracked.
+- **Backup** is still `C:\Users\Admin\Documents\YouTube-Playbooks-backup-20261014`.
+- **`sync_verify.py` reported 1,050 "wrong"** because Git checked the text files out with Windows CRLF. The git blob for `00 START HERE.md` matches the manifest hash. The cloud copy does not need to be retired on that report. Two files matched as kept-desktop twins (the Short 25 sidecars).
+- **#44 footage is on the PC.** Three NBA posts were downloaded into that folder's `src/`, and 8 clips were cut with the logged in-points: `M0`, `A1`, `A2`, `A3`, `A4`, `D0`, `D1`, `D2`. Frames were checked: media-day Flagg, Macao autographs, Macao with the ball, and #32 driving and dunking against Cleveland (79-61, 3rd). The three proof cards (`C1`, `C2`, `C3`) are not on disk, so the master was not re-rendered.
+- **#42 sources are in that folder's `src/`.** The LeBron file is a real airball, not a rim clank. The Kobe file is the official NBA fadeaway video and is not cut yet.
+- **Not done:** `channel_check.py`, a published-ID tracker, QA on the unposted READY files, a #44 re-render, and any Hub edit. Voice is still A or F. ElevenLabs was not touched.
+
+The notes below are Claude's stop-note from before the merge. That merge was finished in the section above. Do not abort it again.
 
 ## What is done
 - **Backup of the whole desktop project:** `C:\Users\Admin\Documents\YouTube-Playbooks-backup-20261014` (5,415 files, 10.7 GB, 0 failures).

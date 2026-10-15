@@ -49,6 +49,14 @@ Cards: 2, about 4 s of about 17 s; none before 4 s; never two in a row.
 - **Tags (≤12):** lebron james, most missed shots nba, lebron missed shots record, kobe bryant missed shots, lebron passes kobe, nba records, lebron all time leading scorer, lebron field goal attempts, lebron shooting percentage, kobe vs lebron, nba history, sixers lebron
 - **Pinned comment:** "Regular season: LeBron 15,541 misses, Kobe 14,481. Does volume make the misses a flex or a flaw?"
 
+## PC footage (Oct 14 night, Grok)
+
+Claude was out of usage, so these were pulled on the PC. They are in `src/` (not in git). Nothing was voiced.
+
+- **LeBron miss, usable:** `src/1863773416718774655.mp4` from https://x.com/LADEig/status/1863773416718774655. 1080x1920, 5.2s. Lakers #23 releases a three against the Timberwolves and the ball misses short of the rim. It is an airball, so it cannot take a rim sound. Frame 1 can use this only if the sound stays silent on the miss.
+- **Kobe source, not cut:** `src/kobe-nba-lk5o2PK76hs.mp4` from the official NBA video https://www.youtube.com/watch?v=lk5o2PK76hs ("Kobe's Signature Fadeaway"), 1280x720, 120s. A fadeaway release is not pinned to a timestamp. A full-height crop of 720p is about 2.7x.
+- Do not use the Legion Hoops buzzer wide (1044x578) or Dave McMenamin's intentional miss. Notes: `src/FINDINGS.md`.
+
 ## QA checklist (before "ready")
 - [ ] Frame 1 shows a LeBron **miss** (not a make)
 - [ ] Every number heard correctly (`voice_check.py`)
