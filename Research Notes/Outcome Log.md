@@ -184,3 +184,9 @@ Source of the scores: Creative System v3 rubric (`Production Queue.md`). The vie
 - **Check at 5 posts:** stayed % for posts whose line 1 passes vs posts flagged by `script_lint.py`.
 - **Not a test of:** voice or music. One variable at a time stays the rule.
 - **Ask:** export the same Studio "Content" table again at each check (Advanced mode, Shorts, the last 28 days). It has stayed to watch, which neither Metricool nor vidIQ gives us.
+
+## Oct 15, 2026: #44 pre-registered (written before posting)
+| Short | Version | Critic v3 | Hook check | 48 h guess | Stayed-to-watch guess |
+|---|---|---|---|---|---|
+| #44 $8 million rookie still carries bags (Flagg) | v1, voice A, no music, 20.7 s | 37/45 APPROVE | passes (claim word "still", famous name, ends at 2.4 s) | 6,000 | 70%+ (the hook-gate hypothesis) |
+- **Owner, Oct 15:** #21 Jokic was already posted. Read it at 48 h and 7 days like the others; v6 was not used.

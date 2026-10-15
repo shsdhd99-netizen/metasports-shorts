@@ -221,7 +221,7 @@ def ass_time(t):
     return f"{int(h)}:{int(m):02d}:{int(s):02d}.{cs:02d}"
 
 
-MAX_CAP_PX = 820  # centred at x=540, a wider line passes x=950, where the Shorts like/comment buttons sit (export_check.py)
+MAX_CAP_PX = 805  # 15 px under the 820 px check, for rounding; centred at x=540, a wider line passes x=950, where the Shorts like/comment buttons sit (export_check.py)
 
 
 def fit_scale(text, st):

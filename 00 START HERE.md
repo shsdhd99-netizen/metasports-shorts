@@ -1,4 +1,4 @@
-# START HERE (updated Oct 14, 2026, late night)
+# START HERE (updated Oct 15, 2026)
 
 | You want... | Open |
 |---|---|
@@ -21,13 +21,17 @@
 | **Independent reviews of new Shorts** | `Research Notes/Critic v2 Review (Oct 13, 2026).md` (rubric: `Tools/critic_v2.md`) |
 | **Phone Hub (videos, titles, tags to post)** | https://claude.ai/artifact/EZrk8n855PyYpMFnMnMJd4 |
 | **Every tool and command** | `Tools Guide.md` (newest changes at the top) |
+| **NEW Oct 15: YouTube Studio analysis** ("stayed to watch" is the gate) | `Research Notes/Posted Video Audit (Oct 14, 2026).md` §13 + `Research Notes/Studio exports/` |
+| **NEW Oct 15: competitor script breakdown** (26 real captions, scored vs each creator's own median) | `Research Notes/Competitor Script Breakdown (Oct 15, 2026)/README.md` |
+| **NEW Oct 15: editing, sound and QA standards** | `Library/Editing and Sound Standards.md`; full gate: `python Tools/qa_short.py --folder "<folder>" --full` |
+| **NEW Oct 15: moving the work to the PC** (not done yet; the steps) | `DESKTOP SYNC - read on the PC.md` |
 
 **Do next:**
-1. **Pick the voice:** watch **#21 v5** and **#36 v2** in the Hub. Each has voice A (Alex) and voice F (the old voice, fixed). Reply with one letter.
-   - The listening page (round 4) has all five voices on one script.
-2. **#36:** say "OK #36 clip" (the rookie-LeBron footage is from a fan account) or ask me to swap it.
-3. **Post #21 v5 before Denver's first game,** in the voice you pick, with no music.
-4. **New stats:** if you added stats files on your PC, push them or drop them in chat. None reached this cloud copy.
+1. **Watch #44 in the Hub:** "Why Does An $8 Million Rookie Still Carry Bags?" (Cooper Flagg, a draft in voice A). Approve it or tell me what to change. Post it before Oct 31.
+2. **#36:** say "OK #36 clip" or "no". The only blocker is the rookie-LeBron footage from a fan account. No official or licensed rookie-season copy exists that I could find, and the 2007 Duncan hug stays because it's the real moment.
+3. **Voice:** A (Alex) or F (old voice, fixed)? New drafts use A until you pick.
+4. **Move to the PC:** follow `DESKTOP SYNC - read on the PC.md`, or open Claude Desktop / `claude remote-control` in the PC folder and ask it to sync.
+5. **Stats:** export the Studio "Content" table again around Oct 22 (it has "stayed to watch").
 
 **Superseded (kept as evidence, not instructions):**
 - `Research Notes/Winning Formula v2 (Oct 13, 2026).md` (folded into Creative System v3; its red-ring rule is now a test)

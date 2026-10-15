@@ -9,7 +9,7 @@
 
 ## By hand (about 10 minutes; Windows)
 **What moves:**
-- **The whole cloud copy:** 1,733 files, about 1.17 GB.
+- **The whole cloud copy:** 1,774 files, about 1.17 GB.
   - every doc, research note, tool, script and production folder in the git branch
   - **its media is the voice files, cards and images only; video stays out of git**
 - **The draft videos** (#21 v5 and #36 v2 in voices A and F, plus the new drafts): download them from their **Hub cards**, https://claude.ai/artifact/EZrk8n855PyYpMFnMnMJd4.

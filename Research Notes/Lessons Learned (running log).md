@@ -143,3 +143,14 @@ Tiers: [V] verified on our files or data, [S] supported by our numbers (small n)
 - [V] **Views arrive in week 1, then stop** (#22: 17,206, then 9). The 7-day read is the result; there is no long tail to wait for.
 - [V] **Our own ready script failed the new hook anchor.** #21 v5 put the surprise in sentence 2 (about 4.8 s). Run the hook check on every script, ready ones included.
 - [V] **The export is a window, not lifetime.** Old-era Shorts show single-digit window views; compare them on lifetime numbers only.
+
+### Oct 15, 2026 (later): competitor scripts, QA and the build
+- [S] **Same topic, different script:** CoachClank's "Why no one shoots underhand" (10.9M, 25x their norm) opened on a scene, asked the viewer's question out loud at 6 s, used 1 number and ended on Shaq's reason. Our #29 (1.4K) opened on a niche player's stat and used 8 numbers.
+- [S] **CoachClank's top scripts end on a person** (a reaction or the subject's own words): 5 of 9, vs 1 of 5 at their median. A turn word ("But") is common at every level: table stakes.
+- [V] **YouTube captions can be read legitimately** through a search provider's page fetch (`youtube.com/shorts/<id>`), even though downloads are blocked here. Coverage is partial: 26 of 32 tried.
+- [V] **A pixel-only "is this upscaled?" test doesn't work on our compressed clips.** Take the blow-up factor from the logged source size instead.
+- [V] **Caption width:** cards like "TWENTY-SEVENTH GAME" ran 867 px and touched the Shorts button column. Measure with the real font (libass draws about 0.745 of PIL's em width); auto-fit now.
+- [V] **Speech-to-text formatting causes false REDOs** ("$8 million" for "eight million dollars", "won 98" for "one ninety-eight"). Check the word's energy before re-voicing; the checkers now handle both.
+- [V] **A source's own cut a frame or two into a clip flashes the previous scene.** `footage_qc.py` lists internal cuts; start the cut 0.1-0.15 s later.
+- [S] **When the key moment was never filmed** (#44's bag-carrying), put the reporter's exact words on screen as a quote card with attribution, and keep footage of the subject from the same trip. Don't stage a stand-in.
+- [V] **Ask what's posted before revising.** #21 v6 was built after the owner had already posted #21. Check the channel or ask first.

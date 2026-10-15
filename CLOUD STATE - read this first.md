@@ -250,3 +250,30 @@ Research Notes/Round 9 - Competitor Shorts Watched (Oct 5, 2026).md. Findings (n
 - A Metricool per-video re-check is scheduled for about 02:03 UTC; the fallback plan is in that check-in.
 
 **Credits:** ElevenLabs about 46K of 52,087 used (resets Nov 8).
+
+## Oct 15, 2026 (about 04:00 UTC): production upgrade checkpoint
+**Done and pushed (branch `main-329h3w`):**
+- **YouTube Studio export:** analysed (audit §13). "Stayed to watch" tracks views at +0.77 (n=20). Hook gate added to the Playbook, Script Critic v3 (Hook anchor) and `script_lint.py`. Merged metrics file kept beside the Oct 14 original.
+- **Competitor script breakdown:** `Research Notes/Competitor Script Breakdown (Oct 15, 2026)/`. 26 real YouTube captions, scored against each creator's local median. New critic checklist items 8-11.
+- **QA:**
+  - `footage_qc.py`: blow-up from the source log, softness, duplicates across files, flashes, busy picture, internal cuts.
+  - `export_check.py`: captions = script, timing, safe width, local speech-to-text vs script, timeline, clipping.
+  - `qa_short.py --full` runs both.
+  - Captions auto-fit at 805 px.
+  - Standards: `Library/Editing and Sound Standards.md`.
+- **Desktop move:** prepared, NOT done (the PC isn't reachable). `Tools/sync_verify.py` plus `DESKTOP SYNC - read on the PC.md`. Tested on a simulated desktop.
+- **New draft #44** (Flagg, $8M card vs carrying bags):
+  - 37/45 APPROVE, voice A, `--full` PASS.
+  - In the Hub as "DRAFT awaiting your approval" (`s44-flagg-bags`).
+- **The owner's watch tool:** vendored at `Tools/vendor/watch/` (scene-change frames with timestamps). Rules are in its README_METASPORTS.md.
+
+**The owner said (Oct 15):**
+- #21 Jokic is already posted. Stop work on it (`_v6` kept, unused; Hub card set to posted).
+- Then: look for Shorts with a finished voice and script but no b-roll, or revise unposted ones. **Result:**
+  - **#04 Giannis trade:** voice and script, no b-roll in the cloud. But the CSV says it was rendered on the PC and abandoned (stale news, trade lane underperforms). Not rebuilt; the owner's call.
+  - **#02:** rejected by the owner Sep 27.
+  - **#36 v2:** the only strong unposted one. Its blocker is still the fan-account rookie-LeBron clips. No official or licensed rookie-season copy was found (Commons' nearest photo is April 2005, age 20). The 2007 Duncan-hug clip stays: it's soft, but it's the real moment.
+  - **#33:** a corrupt clip, an 11x-stretched clip, generic rulebook footage under named players, and a niche-player technicality premise. Not worth reviving.
+  - **#28** held to December; **#26, #27, #30, #32, #37, #38** rejected or abandoned earlier.
+- **ElevenLabs:** 3,548 characters left (resets Nov 8), enough for about 3 new Shorts at 2 takes each in one voice.
+- **Still open:** voice A vs F; OK on #36's clips; #44 approval; the owner runs the PC sync.
