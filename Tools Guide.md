@@ -76,6 +76,12 @@ There are two ways to use everything here:
   - clipping in the voice and the export
   - `python Tools/export_check.py "<folder>"`; `--no-stt` skips the speech check
 - **`captions.py`:** a caption card wider than 820 px now shrinks to fit (it used to reach 867 px).
+- **`vendor/watch/` (owner-supplied, Oct 15; MIT):** scene-change frames with timestamps for any video file or URL. It's a fast way to find the right seconds in a long source.
+  - `python Tools/vendor/watch/scripts/watch.py "<file or URL>" --engine local --max-frames 40`
+  - YouTube URLs work on the PC, not from the cloud.
+  - Never with cookies. No Gemini engine without the owner's OK.
+  - See `Tools/vendor/watch/README_METASPORTS.md`.
+- **`voice_check.py`:** "$8 million" and "won 98" are no longer false REDOs (the recogniser's dollar sign and "one" homophone).
 - **`script_lint.py`:** a hook check on line 1 (number-led, list-like, no absolute or curious claim word, too long), from the Studio export finding that stayed-to-watch tracks views.
 
 ## Newest changes (Oct 14, 2026, late night)
