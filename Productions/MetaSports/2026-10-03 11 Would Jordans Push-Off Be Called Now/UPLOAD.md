@@ -1,6 +1,6 @@
 # #11 Jordan's push-off: upload package (2026-10-03)
 
-**Video:** `READY TO POST - Would Jordans Push-Off Be Called Now (Claude cut).mp4` (29.1 s, 1080x1920, -14 LUFS, ALL CAPS captions = the A/B test vs the LeBron Short's Clank look). Not uploaded.
+**Video:** `READY TO POST - Would Jordans Push-Off Be Called Now (v2).mp4`. Captions only. Not uploaded. Leave the Claude cut in the folder. Post this one before Short 14, and hold 14 for a week. Same push-off rule.
 
 ## Title (pick one)
 1. **Would Jordan's Last Shot Be a Foul Now? 😳**  (recommended: name first, a question, built for arguments)

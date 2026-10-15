@@ -6,7 +6,8 @@
   python captions.py --burn final_nocap.mp4 --ass captions.ass --out final.mp4
 
 Styles
-  metasports (default): ALL CAPS, Montserrat Black, white with a thick black outline, 1-3 words a card,
+  metasports (default): ALL CAPS, Montserrat Black, white with a thick black outline, 1-3 words a card.
+  Spelled numbers stay together ("two hundred nine", "five point four") and a card that is only a number goes green.
                         a little below the middle. Shock words turn red, numbers and big moments green.
   clank:                sentence case, Montserrat Bold, white with a thin outline, 2-5 words, dead centre.
   karaoke (Round 5 test, not yet A/B tested): sentence case, Montserrat Bold 80 px, black outline 6, 2-3 words a card at 54% height,
@@ -75,6 +76,21 @@ def soft_end(w):
     return w.rstrip("\"')”’")[-1:] in ",;:—–"
 
 
+NUMWORD = {"zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten",
+           "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen",
+           "nineteen", "twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety",
+           "hundred", "thousand"}
+
+
+def is_numword(w):
+    """A spelled number, including 'ninety-eight' and 'sixty-five'. Not 'point'."""
+    b = bare(w)
+    if b in NUMWORD:
+        return True
+    parts = b.split("-")
+    return len(parts) == 2 and all(p in NUMWORD for p in parts)
+
+
 def glued(a, b):
     """True when breaking between a and b would split a unit like '15 feet', 'Victor Wembanyama' or 'free throw'."""
     if ends_sentence(a) or soft_end(a):
@@ -84,6 +100,10 @@ def glued(a, b):
         return True
     if ba in UNITS and re.match(r"^\d", bb):  # "13 feet 9"
         return True
+    if is_numword(a) and (is_numword(b) or bb == "point"):
+        return True  # "two hundred nine", "five point"
+    if ba == "point" and is_numword(b):
+        return True  # "point four"
     if (ba, bb) in PAIRS:
         return True
     ca, cb = a.strip("\"'“‘"), b.strip("\"'“‘")
@@ -170,7 +190,7 @@ def card_color(text, manual):
     toks = [bare(t) for t in text.split()]
     if any(t in SHOCK for t in toks):
         return "red", 2
-    if any(re.search(r"\d", t) for t in toks):
+    if any(re.search(r"\d", t) for t in toks) or (toks and all(is_numword(t) or t == "point" for t in toks)):
         return "green", 2
     if any(t in BIG for t in toks):
         return "green", 1

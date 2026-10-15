@@ -1,5 +1,7 @@
 # #15 The Heat become Vice City for GTA 6 (2026-10-04, rebuilt)
 
+**Hold this. Post #16 first. Same GTA week.**
+
 **Video:** `READY TO POST - Heat Become Vice City For GTA 6.mp4` (23 s, 1080x1920, -14 LUFS). Official Heat x Rockstar reveal footage, Rockets practice b-roll, Steven Adams's real media-day quotes. Passes `Tools/qa_short.py`. Not uploaded.
 
 ## Title (pick one)

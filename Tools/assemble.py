@@ -109,22 +109,52 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 
 
 def sfx_inputs(folder, total):
-    """[(path, at, gain_db, fade, len)] from sfx.json; names refer to Tools/sfx/<name>.wav."""
+    """[(path, at, gain_db, fade, len)] from sfx.json; names refer to Tools/sfx/<name>.wav.
+
+    User rule (2026-10-04): captions only, no hook boom. Keep 2-5 effects, each tied to a
+    picture. Never in the first second (voice only). Never the same file twice. Never two
+    within 1.5 s. Volume is the measured gain in Tools/sfx/catalog.json.
+    """
     p = os.path.join(folder, "sfx.json")
     if not os.path.exists(p):
         return []
     cat = json.load(open(os.path.join(HERE, "sfx", "catalog.json"), encoding="utf-8"))
-    out = []
+    pending = []
     for e in json.load(open(p, encoding="utf-8-sig")):
         name = e["sfx"]
         path = name if os.path.isabs(name) else os.path.join(HERE, "sfx", name if name.endswith(".wav") else name + ".wav")
+        key = os.path.splitext(os.path.basename(name))[0]
         if not os.path.exists(path):
             print(f"  sound effect not found, skipped: {name}")
             continue
-        gain = float(e.get("gain", cat.get(name.replace(".wav", ""), {}).get("gain", -16)))
+        if key == "falling":
+            print("  sound effect skipped: falling (cartoon, do not use)")
+            continue
         at = float(e["at"])
-        if 0 <= at < total:
-            out.append((path, at, gain, float(e.get("fade", 0) or 0), float(e.get("len", 0) or 0)))
+        if at < 1.0 or at >= total:
+            print(f"  sound effect skipped: {key} at {at:.2f}s (voice only for the first second)")
+            continue
+        suggested = float(cat.get(key, {}).get("gain", -16))
+        requested = float(e.get("gain", suggested))
+        gain = suggested  # catalog.json was measured; a hand-set gain was either a vine boom or inaudible
+        if abs(requested - suggested) >= 0.5:
+            print(f"  sound effect volume set to catalog: {key} {requested:.0f} dB -> {gain:.0f} dB")
+        pending.append((path, key, at, gain, float(e.get("fade", 0) or 0), float(e.get("len", 0) or 0)))
+    pending.sort(key=lambda row: row[2])
+    out, used, last = [], set(), -999.0
+    for path, key, at, gain, fade, ln in pending:
+        if key in used:
+            print(f"  sound effect skipped: {key} at {at:.2f}s (already used)")
+            continue
+        if at - last < 1.5:
+            print(f"  sound effect skipped: {key} at {at:.2f}s (within 1.5 s of another)")
+            continue
+        if len(out) >= 5:
+            print(f"  sound effect skipped: {key} at {at:.2f}s (five is the cap)")
+            continue
+        used.add(key)
+        last = at
+        out.append((path, at, gain, fade, ln))
     return out
 
 

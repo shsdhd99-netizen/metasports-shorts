@@ -85,7 +85,9 @@ Pin shots to words: put `"anchor": "first words of the phrase"` on shots in shot
 - **The number, name or stakes is the FIRST word**, spoken and on screen at 0.0 s ("92% pay cut. LeBron James just took one..."). Never open on "So" / "Did you know" / a setup sentence.
 - **Frame 1 is already moving or already a face**: real action or a close face, never a title card, logo or a still. Punch in: put `"zoom": 0.12` on the first shot in shots.json (slow push 100% to 112%).
 - **A new image about every second until 5 s** (cut, push-in or card), then every 1.5-2.5 s. Hook shots are real footage of the named player/moment; save screenshot cards for the fact lines after 4 s.
-- **A sound on the hook word**: one `boom` (gain -12) at 0.0 on the number. Whoosh only for a jump to a card.
+- **No sound in the first second.** Voice only. Do not put `boom` at 0.0. That vine-boom open was on almost every Short and Round 7 says the same effect habituates. `assemble.py` drops anything before 1.0 s, drops a repeated file, drops two effects closer than 1.5 s, and refuses a gain louder than `Tools/sfx/catalog.json`.
+- **Four effects when the pictures support them, never more than five, each one a different file.** Use the catalog gain. Never `falling`. Match the picture: `swish`/`rim`/`brick` only on a shot you can see, `whistle` on a whistle, `horn` on a buzzer, `dribble` on a dribble close-up, `whoosh` on a fast push-in, `whoosh_long` into the payoff, `boom_cinematic` once on the one reveal (not at 0), `boom` at most once on a stat (gain -18, after 1 s), `camera` on a presser or jersey, `click` only when a screenshot appears, `ding` once on one fact, `cha_ching` only on a salary graphic, `punch` on a hit you see, `ankle_breaker` only on a real crossover, `thud` on a fall. If the picture does not show it, leave it out.
+- Sports editors use a whoosh on a zoom and a swish on a made basket, and they take effects back out on the listen-through. Vine boom, record scratch and sad violin are the sounds people now skip. Those files are not in `Tools/sfx`. Do not add them.
 - The line after the hook must be a payoff promise or a turn ("and it might be the smartest move of his career"), not background.
 - Check: extract frames at 0.05, 0.6, 1.1, 1.5, 2.1, 2.8, 3.5, 4.4 s with ffmpeg and look at them side by side. If two neighbours look alike, add a cut.
 - After posting, read YouTube Studio's "Viewed vs Swiped Away" at 24 h: 70%+ is good, under 60% means rewrite the first 2 seconds.
@@ -108,7 +110,7 @@ Quality bar: every shot matches its spoken line; check each player's identity fr
 Red box timed to the word; cards sit above the caption band. ESPN pages are washed out by an overlay; card.py fixes it. Look at the card PNG before using it.
 Basketball-Reference: `--selector "#all_all_salaries"` style crops via `webshot.mjs`.
 
-## 6. Cut: write `shots.json` ([{"clip","start"}] with start = the word's time in words.json) and `sfx.json` (2-5 effects from `Tools/sfx`, each tied to something on screen),
+## 6. Cut: write `shots.json` ([{"clip","start"}] with start = the word's time in words.json) and `sfx.json` (4 effects from `Tools/sfx` when the pictures support them, else 3, never more than 5; catalog gains; none before 1.0 s; no file twice; none within 1.5 s; each one matches a picture or one spoken beat),
 then `python Tools/assemble.py --folder "<folder>" [--caption-style clank|metasports]`. No Drift on Linux, so the ffmpeg engine runs. Output final.mp4 (-14 LUFS), preview_1-3.jpg, storyboard.jpg.
 **Look at storyboard.jpg card by card** before delivering. Copy to `READY TO POST - <Title> (Claude cut).mp4`.
 

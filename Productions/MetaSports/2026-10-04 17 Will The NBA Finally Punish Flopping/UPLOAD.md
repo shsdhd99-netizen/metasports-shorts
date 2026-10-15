@@ -1,6 +1,6 @@
 # #17 Will the NBA finally punish flopping (2026-10-04)
 
-**Video:** `READY TO POST - Will The NBA Finally Punish Flopping.mp4` (23.8 s, 1080x1920, -14 LUFS). Footage: the NBA Official account's 2026-27 Areas of Focus (flopping) and Points of Emphasis videos, plus Thunder coach Mark Daigneault's real quote. Passes `Tools/qa_short.py`. Not uploaded.
+**Video:** `READY TO POST - Will The NBA Finally Punish Flopping (v2).mp4` (23.4 s, 1080x1920, -14 LUFS, MetaSports captions). The older `READY TO POST - Will The NBA Finally Punish Flopping.mp4` stays. Passes `Tools/qa_short.py`. Not uploaded.
 
 ## Title (pick one)
 1. **Will The NBA Finally Punish Flopping 😳** (recommended)
@@ -22,7 +22,8 @@ Does the NBA actually start calling flops this season, or does it fade by Novemb
 - McCutchen: "We have a really strong definition of what a flop is, secondary theatrical exaggerated movements (STEM)." Embellishment such as a head snap is legal (NBC Sports, Kurt Helin, Oct 1).
 - Chris Finch: "Hopefully the league cleans up this crap, because nobody wants to watch it ... so just stop rewarding the flopping." (NBC Sports quoting The Athletic, Oct 1).
 - Offensive examples in the video: Pascal Siakam sitting down after a jumper is "not exaggerated, nor theatrical" so no flop; Deni Avdija head snap after minimal contact is fine (Yahoo Sports).
-- Mark Daigneault: flopping "is going to be very closely tied to the push-offs ... they might be just flailing to try to bait those calls" (Rylan Stiles video on X, Oct 1 camp; SI/Yahoo Thunder Wire).
+- Opener is Daigneault, "Flopping's been a rule," plus the technical Frederick quotes from the standard McCutchen set.
+- Mark Daigneault: "they might be flailing to try to bait those calls" (Fadeaway). The sourced line has no "just."
 ## Notes
-- Defender identities in flop clips are not named in the Short (only Siakam #43 and Avdija, named by the league examples/Yahoo). Avdija clip: Blazers ball handler vs Suns #12; shown as the head-snap example per Yahoo's description, not independently number-verified.
+- Finch and Daigneault are the coaches on screen. Siakam is Pacers white #43: in the air under his name, then sitting after the jumper. Avdija is Portland red #8 against the Suns, number checked on the v2 frame, including the head snap. Unnamed falls are not labeled.
 - Overlaps loosely with the push-off Shorts (#11, #14) but is a different rule (flopping/technical fouls). Post a day apart. Post 6-11 AM ET.

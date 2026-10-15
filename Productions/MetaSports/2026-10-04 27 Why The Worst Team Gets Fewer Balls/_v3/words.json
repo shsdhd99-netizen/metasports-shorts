@@ -1,0 +1,492 @@
+[
+ {
+  "word": "The",
+  "start": 0.0,
+  "end": 0.163
+ },
+ {
+  "word": "NBA",
+  "start": 0.209,
+  "end": 0.441
+ },
+ {
+  "word": "just",
+  "start": 0.488,
+  "end": 0.627
+ },
+ {
+  "word": "took",
+  "start": 0.65,
+  "end": 0.789
+ },
+ {
+  "word": "a",
+  "start": 0.836,
+  "end": 0.859
+ },
+ {
+  "word": "lottery",
+  "start": 0.917,
+  "end": 1.254
+ },
+ {
+  "word": "ball",
+  "start": 1.312,
+  "end": 1.474
+ },
+ {
+  "word": "from",
+  "start": 1.521,
+  "end": 1.649
+ },
+ {
+  "word": "last",
+  "start": 1.707,
+  "end": 1.892
+ },
+ {
+  "word": "place.",
+  "start": 1.939,
+  "end": 2.252
+ },
+ {
+  "word": "Miss",
+  "start": 2.31,
+  "end": 2.519
+ },
+ {
+  "word": "the",
+  "start": 2.554,
+  "end": 2.624
+ },
+ {
+  "word": "playoffs,",
+  "start": 2.659,
+  "end": 3.077
+ },
+ {
+  "word": "and",
+  "start": 3.1,
+  "end": 3.204
+ },
+ {
+  "word": "the",
+  "start": 3.251,
+  "end": 3.32
+ },
+ {
+  "word": "basement",
+  "start": 3.379,
+  "end": 3.727
+ },
+ {
+  "word": "used",
+  "start": 3.785,
+  "end": 3.936
+ },
+ {
+  "word": "to",
+  "start": 3.959,
+  "end": 4.005
+ },
+ {
+  "word": "be",
+  "start": 4.052,
+  "end": 4.122
+ },
+ {
+  "word": "the",
+  "start": 4.156,
+  "end": 4.226
+ },
+ {
+  "word": "prize.",
+  "start": 4.249,
+  "end": 4.644
+ },
+ {
+  "word": "But",
+  "start": 4.679,
+  "end": 4.818
+ },
+ {
+  "word": "the",
+  "start": 4.853,
+  "end": 4.934
+ },
+ {
+  "word": "three",
+  "start": 4.992,
+  "end": 5.213
+ },
+ {
+  "word": "worst",
+  "start": 5.259,
+  "end": 5.515
+ },
+ {
+  "word": "records",
+  "start": 5.573,
+  "end": 5.886
+ },
+ {
+  "word": "now",
+  "start": 5.944,
+  "end": 6.06
+ },
+ {
+  "word": "get",
+  "start": 6.118,
+  "end": 6.235
+ },
+ {
+  "word": "two",
+  "start": 6.269,
+  "end": 6.432
+ },
+ {
+  "word": "balls.",
+  "start": 6.49,
+  "end": 6.861
+ },
+ {
+  "word": "The",
+  "start": 6.896,
+  "end": 7.024
+ },
+ {
+  "word": "seven",
+  "start": 7.082,
+  "end": 7.349
+ },
+ {
+  "word": "teams",
+  "start": 7.396,
+  "end": 7.651
+ },
+ {
+  "word": "just",
+  "start": 7.709,
+  "end": 7.895
+ },
+ {
+  "word": "above",
+  "start": 7.941,
+  "end": 8.173
+ },
+ {
+  "word": "them",
+  "start": 8.208,
+  "end": 8.348
+ },
+ {
+  "word": "get",
+  "start": 8.406,
+  "end": 8.545
+ },
+ {
+  "word": "three.",
+  "start": 8.58,
+  "end": 8.905
+ },
+ {
+  "word": "Five",
+  "start": 8.951,
+  "end": 9.207
+ },
+ {
+  "word": "point",
+  "start": 9.242,
+  "end": 9.451
+ },
+ {
+  "word": "four",
+  "start": 9.497,
+  "end": 9.659
+ },
+ {
+  "word": "percent",
+  "start": 9.718,
+  "end": 10.054
+ },
+ {
+  "word": "if",
+  "start": 10.089,
+  "end": 10.159
+ },
+ {
+  "word": "you",
+  "start": 10.194,
+  "end": 10.275
+ },
+ {
+  "word": "lost",
+  "start": 10.344,
+  "end": 10.542
+ },
+ {
+  "word": "the",
+  "start": 10.577,
+  "end": 10.646
+ },
+ {
+  "word": "most.",
+  "start": 10.693,
+  "end": 11.029
+ },
+ {
+  "word": "Eight",
+  "start": 11.064,
+  "end": 11.262
+ },
+ {
+  "word": "point",
+  "start": 11.297,
+  "end": 11.505
+ },
+ {
+  "word": "one",
+  "start": 11.564,
+  "end": 11.714
+ },
+ {
+  "word": "percent",
+  "start": 11.749,
+  "end": 12.063
+ },
+ {
+  "word": "if",
+  "start": 12.098,
+  "end": 12.156
+ },
+ {
+  "word": "you",
+  "start": 12.19,
+  "end": 12.26
+ },
+ {
+  "word": "won",
+  "start": 12.318,
+  "end": 12.423
+ },
+ {
+  "word": "a",
+  "start": 12.469,
+  "end": 12.492
+ },
+ {
+  "word": "few",
+  "start": 12.539,
+  "end": 12.666
+ },
+ {
+  "word": "more.",
+  "start": 12.725,
+  "end": 13.026
+ },
+ {
+  "word": "The",
+  "start": 13.061,
+  "end": 13.154
+ },
+ {
+  "word": "league",
+  "start": 13.212,
+  "end": 13.375
+ },
+ {
+  "word": "cut",
+  "start": 13.398,
+  "end": 13.537
+ },
+ {
+  "word": "that",
+  "start": 13.584,
+  "end": 13.711
+ },
+ {
+  "word": "ball",
+  "start": 13.769,
+  "end": 13.944
+ },
+ {
+  "word": "to",
+  "start": 13.99,
+  "end": 14.048
+ },
+ {
+  "word": "push",
+  "start": 14.106,
+  "end": 14.303
+ },
+ {
+  "word": "those",
+  "start": 14.338,
+  "end": 14.512
+ },
+ {
+  "word": "teams",
+  "start": 14.536,
+  "end": 14.768
+ },
+ {
+  "word": "to",
+  "start": 14.803,
+  "end": 14.861
+ },
+ {
+  "word": "win.",
+  "start": 14.919,
+  "end": 15.151
+ },
+ {
+  "word": "It",
+  "start": 15.197,
+  "end": 15.302
+ },
+ {
+  "word": "starts",
+  "start": 15.348,
+  "end": 15.604
+ },
+ {
+  "word": "with",
+  "start": 15.639,
+  "end": 15.766
+ },
+ {
+  "word": "the",
+  "start": 15.801,
+  "end": 15.871
+ },
+ {
+  "word": "twenty",
+  "start": 15.906,
+  "end": 16.161
+ },
+ {
+  "word": "twenty-seven",
+  "start": 16.196,
+  "end": 16.707
+ },
+ {
+  "word": "draft",
+  "start": 16.753,
+  "end": 17.009
+ },
+ {
+  "word": "and",
+  "start": 17.055,
+  "end": 17.136
+ },
+ {
+  "word": "runs",
+  "start": 17.194,
+  "end": 17.392
+ },
+ {
+  "word": "through",
+  "start": 17.427,
+  "end": 17.612
+ },
+ {
+  "word": "twenty",
+  "start": 17.647,
+  "end": 17.868
+ },
+ {
+  "word": "twenty-nine.",
+  "start": 17.903,
+  "end": 18.495
+ },
+ {
+  "word": "The",
+  "start": 18.518,
+  "end": 18.611
+ },
+ {
+  "word": "twenty",
+  "start": 18.646,
+  "end": 18.901
+ },
+ {
+  "word": "twenty-six",
+  "start": 18.947,
+  "end": 19.412
+ },
+ {
+  "word": "drawing",
+  "start": 19.458,
+  "end": 19.737
+ },
+ {
+  "word": "still",
+  "start": 19.795,
+  "end": 19.992
+ },
+ {
+  "word": "gave",
+  "start": 20.039,
+  "end": 20.201
+ },
+ {
+  "word": "Washington",
+  "start": 20.236,
+  "end": 20.654
+ },
+ {
+  "word": "number",
+  "start": 20.712,
+  "end": 20.944
+ },
+ {
+  "word": "one.",
+  "start": 21.014,
+  "end": 21.304
+ },
+ {
+  "word": "Finish",
+  "start": 21.386,
+  "end": 21.664
+ },
+ {
+  "word": "last",
+  "start": 21.722,
+  "end": 21.908
+ },
+ {
+  "word": "now,",
+  "start": 21.966,
+  "end": 22.175
+ },
+ {
+  "word": "and",
+  "start": 22.198,
+  "end": 22.303
+ },
+ {
+  "word": "you",
+  "start": 22.361,
+  "end": 22.465
+ },
+ {
+  "word": "hold",
+  "start": 22.523,
+  "end": 22.686
+ },
+ {
+  "word": "the",
+  "start": 22.721,
+  "end": 22.79
+ },
+ {
+  "word": "worse",
+  "start": 22.814,
+  "end": 23.046
+ },
+ {
+  "word": "ball.",
+  "start": 23.081,
+  "end": 23.545
+ }
+]

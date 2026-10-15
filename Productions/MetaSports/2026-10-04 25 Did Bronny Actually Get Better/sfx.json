@@ -1,1 +1,26 @@
-[{"sfx":"boom","at":0.0,"gain":-12,"why":"hook"},{"sfx":"swish","at":1.1,"gain":-12,"why":"three"},{"sfx":"whoosh","at":8.6,"gain":-14,"why":"turn But"},{"sfx":"click","at":20.44,"gain":-12,"why":"question"}]
+[
+  {
+    "sfx": "swish",
+    "at": 5.22,
+    "gain": -10,
+    "why": "Ball goes through the net on the South Bay finish in c10 (ball at the rim at 0.50s of the clip, below the net at 0.65s), on screen during forty-one percent from the field. The opening three is a release only and is not a make."
+  },
+  {
+    "sfx": "whoosh",
+    "at": 8.65,
+    "gain": -11,
+    "why": "Hard cut from the South Bay celebration to a different scene: the Lakers yellow #9 close-up in c08."
+  },
+  {
+    "sfx": "camera",
+    "at": 15.05,
+    "gain": -8,
+    "why": "LegionHoops media-day presser, Bronny at the microphone with the BRONNY JAMES JR nameplate (q1), not a game clip."
+  },
+  {
+    "sfx": "ding",
+    "at": 18.50,
+    "gain": -17,
+    "why": "Spoken guaranteed while c16 holds South Bay #9. No salary graphic on screen, so not cha-ching, and not also on thirty-nine."
+  }
+]

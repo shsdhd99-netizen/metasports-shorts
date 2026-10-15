@@ -1,5 +1,7 @@
 # #22 Why can only one man wear six (2026-10-04)
 
+DO NOT POST `DO NOT POST - old only-one cut.mp4`. As of 2026-10-04 the "only one" line is wrong. ESPN and the Pelicans roster list DeAndre Jordan at 6, and the Thunder roster lists Jaylin Williams at 6. The 2022 rule still blocks any new player from being issued 6. The postable file is `READY TO POST - Two Men Can Still Wear Six.mp4` (the `_v2` cut, 104 words, ends on the two-name payoff).
+
 Lane: evergreen "Why does nobody..." oddity / rule (retired number).
 Concept: Only one NBA player may still wear six.
 Added value: ties the 2022 league-wide retirement to the one player left (Jaylin Williams, OKC), his real quote, and an arguable ending; copy-check FRESH ("last NBA player to wear number 6": nothing big; Russell-6 topic: top results are 2022 news).

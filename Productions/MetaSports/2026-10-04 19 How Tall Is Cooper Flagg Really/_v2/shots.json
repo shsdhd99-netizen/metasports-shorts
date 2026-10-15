@@ -1,0 +1,108 @@
+[
+ {
+  "clip": "01_warmup.mp4",
+  "kind": "action",
+  "zoom": 0.12,
+  "why": "Cooper Flagg, full body, moving",
+  "start": 0.0
+ },
+ {
+  "clip": "02_sl.mp4",
+  "anchor": "an inch",
+  "kind": "action",
+  "why": "Flagg close-up, Summer League",
+  "start": 0.7
+ },
+ {
+  "clip": "03_draft.mp4",
+  "anchor": "His draft",
+  "kind": "action",
+  "why": "draft presser, Flagg jersey",
+  "start": 1.65
+ },
+ {
+  "clip": "04_photo.mp4",
+  "anchor": "The NBA's",
+  "kind": "action",
+  "why": "Flagg standing taller than teammates",
+  "start": 3.0
+ },
+ {
+  "clip": "05_media_a.mp4",
+  "anchor": "Until media",
+  "kind": "quote",
+  "why": "media day, six-ten with no shoes",
+  "start": 4.66
+ },
+ {
+  "clip": "06_media_b.mp4",
+  "anchor": "Listed at",
+  "kind": "quote",
+  "why": "same interview, physical yesterday",
+  "start": 6.52
+ },
+ {
+  "clip": "10_sl2.mp4",
+  "anchor": "That's one",
+  "kind": "action",
+  "why": "Flagg in a game close-up",
+  "start": 9.82
+ },
+ {
+  "clip": "08_game.mp4",
+  "anchor": "who scored",
+  "kind": "action",
+  "why": "Flagg in the green Dallas jersey",
+  "start": 12.24
+ },
+ {
+  "clip": "09_warmup2.mp4",
+  "anchor": "the only",
+  "kind": "action",
+  "why": "Flagg dribbling",
+  "start": 14.32
+ },
+ {
+  "clip": "07_gym.mp4",
+  "anchor": "Even his",
+  "kind": "action",
+  "why": "Flagg in the weight room",
+  "start": 15.94
+ },
+ {
+  "clip": "12_photo2.mp4",
+  "anchor": "But then",
+  "kind": "action",
+  "why": "height next to a teammate",
+  "start": 17.55
+ },
+ {
+  "clip": "13_media_c.mp4",
+  "anchor": "Not very",
+  "kind": "quote",
+  "why": "not very accurate",
+  "start": 19.36
+ },
+ {
+  "clip": "11_gym2.mp4",
+  "anchor": "So, no",
+  "kind": "action",
+  "why": "training, maybe six-eleven",
+  "start": 20.6
+ },
+ {
+  "clip": "14_game2.mp4",
+  "anchor": "Six-eight",
+  "kind": "action",
+  "why": "Flagg face, start of the ladder",
+  "start": 22.54
+ },
+ {
+  "clip": "01_warmup.mp4",
+  "anchor": "six-ten",
+  "kind": "action",
+  "zoom": 0.1,
+  "why": "loop to the first shot",
+  "start": 23.33
+ }
+]

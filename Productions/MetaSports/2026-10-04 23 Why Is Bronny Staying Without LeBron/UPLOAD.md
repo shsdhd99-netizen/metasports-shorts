@@ -1,5 +1,8 @@
 # #23 Why Is Bronny Fighting For A Spot Now
-Video: READY TO POST - Why Is Bronny Fighting For A Spot Now.mp4 (23.7 s). Not uploaded.
+
+Do not post this on the same day as Short 25. Short 25 already passed and is the Bronny short to post.
+
+Video: READY TO POST - Why Is Bronny Fighting For A Spot Now.mp4 (23.7 s). Not uploaded. v2 is the rewrite. Post the v2 file, not this one, and not on the same day as Short 25.
 
 ## Title
 Why Is Bronny Fighting For A Spot Now 😳  (alt: What Did Bronny Say About LeBron Leaving 😳 / Did Bronny Just Lose His Safety Net 💀)

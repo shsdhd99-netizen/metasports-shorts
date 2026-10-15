@@ -1,5 +1,8 @@
 # #24 Is Bronny's Roster Spot Really Safe
-Video: READY TO POST - Is Bronnys Roster Spot Really Safe.mp4 (27.9 s). Not uploaded.
+
+Do not post this on the same day as Short 25. Short 25 already passed and is the Bronny short to post.
+
+Video: READY TO POST - Is Bronnys Roster Spot Really Safe.mp4 (27.9 s). Not uploaded. v1's ending is not sourced. Post the v2 file, not this one, and not on the same day as Short 25.
 ## Title
 Is Bronny's Spot Really Safe? 😳  (alt: Why A Guaranteed Deal Is Not Safe 😳 / Can The Lakers Still Cut Bronny James 💀)
 ## Tags (469/500)

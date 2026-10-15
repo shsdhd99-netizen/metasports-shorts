@@ -1,0 +1,52 @@
+[
+ {
+  "word": "He",
+  "start": 0.0,
+  "end": 0.115
+ },
+ {
+  "word": "says",
+  "start": 0.163,
+  "end": 0.307
+ },
+ {
+  "word": "it",
+  "start": 0.345,
+  "end": 0.393
+ },
+ {
+  "word": "bounces",
+  "start": 0.431,
+  "end": 0.68
+ },
+ {
+  "word": "back",
+  "start": 0.718,
+  "end": 0.862
+ },
+ {
+  "word": "in",
+  "start": 0.91,
+  "end": 0.958
+ },
+ {
+  "word": "December.",
+  "start": 0.996,
+  "end": 1.36
+ },
+ {
+  "word": "Just",
+  "start": 1.408,
+  "end": 1.59
+ },
+ {
+  "word": "for",
+  "start": 1.618,
+  "end": 1.705
+ },
+ {
+  "word": "November.",
+  "start": 1.753,
+  "end": 2.222
+ }
+]

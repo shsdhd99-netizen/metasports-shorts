@@ -1,0 +1,537 @@
+[
+ {
+  "word": "92.9.",
+  "start": 0.0,
+  "end": 1.01
+ },
+ {
+  "word": "That's",
+  "start": 1.091,
+  "end": 1.282
+ },
+ {
+  "word": "all",
+  "start": 1.3,
+  "end": 1.382
+ },
+ {
+  "word": "the",
+  "start": 1.418,
+  "end": 1.473
+ },
+ {
+  "word": "Bad",
+  "start": 1.509,
+  "end": 1.637
+ },
+ {
+  "word": "Boy",
+  "start": 1.673,
+  "end": 1.773
+ },
+ {
+  "word": "Pistons",
+  "start": 1.819,
+  "end": 2.073
+ },
+ {
+  "word": "allowed",
+  "start": 2.101,
+  "end": 2.31
+ },
+ {
+  "word": "per",
+  "start": 2.346,
+  "end": 2.446
+ },
+ {
+  "word": "game",
+  "start": 2.509,
+  "end": 2.665
+ },
+ {
+  "word": "across",
+  "start": 2.692,
+  "end": 2.901
+ },
+ {
+  "word": "seventeen",
+  "start": 2.937,
+  "end": 3.265
+ },
+ {
+  "word": "games",
+  "start": 3.301,
+  "end": 3.492
+ },
+ {
+  "word": "in",
+  "start": 3.519,
+  "end": 3.565
+ },
+ {
+  "word": "the",
+  "start": 3.592,
+  "end": 3.647
+ },
+ {
+  "word": "1989",
+  "start": 3.673,
+  "end": 4.21
+ },
+ {
+  "word": "playoffs.",
+  "start": 4.237,
+  "end": 4.692
+ },
+ {
+  "word": "The",
+  "start": 4.819,
+  "end": 4.91
+ },
+ {
+  "word": "league",
+  "start": 4.956,
+  "end": 5.119
+ },
+ {
+  "word": "average",
+  "start": 5.138,
+  "end": 5.356
+ },
+ {
+  "word": "sat",
+  "start": 5.374,
+  "end": 5.501
+ },
+ {
+  "word": "at",
+  "start": 5.529,
+  "end": 5.584
+ },
+ {
+  "word": "104.9.",
+  "start": 5.629,
+  "end": 6.438
+ },
+ {
+  "word": "Laimbeer.",
+  "start": 6.493,
+  "end": 6.874
+ },
+ {
+  "word": "Rodman.",
+  "start": 6.929,
+  "end": 7.311
+ },
+ {
+  "word": "Isiah",
+  "start": 7.356,
+  "end": 7.702
+ },
+ {
+  "word": "Thomas.",
+  "start": 7.729,
+  "end": 8.121
+ },
+ {
+  "word": "A",
+  "start": 8.247,
+  "end": 8.312
+ },
+ {
+  "word": "defense",
+  "start": 8.375,
+  "end": 8.666
+ },
+ {
+  "word": "built",
+  "start": 8.693,
+  "end": 8.839
+ },
+ {
+  "word": "on",
+  "start": 8.875,
+  "end": 8.93
+ },
+ {
+  "word": "contact.",
+  "start": 8.975,
+  "end": 9.393
+ },
+ {
+  "word": "Last",
+  "start": 9.439,
+  "end": 9.612
+ },
+ {
+  "word": "year's",
+  "start": 9.639,
+  "end": 9.776
+ },
+ {
+  "word": "playoff",
+  "start": 9.812,
+  "end": 10.058
+ },
+ {
+  "word": "teams",
+  "start": 10.094,
+  "end": 10.285
+ },
+ {
+  "word": "averaged",
+  "start": 10.321,
+  "end": 10.549
+ },
+ {
+  "word": "107.9.",
+  "start": 10.603,
+  "end": 11.503
+ },
+ {
+  "word": "But",
+  "start": 11.586,
+  "end": 11.695
+ },
+ {
+  "word": "the",
+  "start": 11.713,
+  "end": 11.776
+ },
+ {
+  "word": "NBA",
+  "start": 11.821,
+  "end": 12.058
+ },
+ {
+  "word": "just",
+  "start": 12.103,
+  "end": 12.231
+ },
+ {
+  "word": "posted",
+  "start": 12.267,
+  "end": 12.486
+ },
+ {
+  "word": "part",
+  "start": 12.513,
+  "end": 12.659
+ },
+ {
+  "word": "two",
+  "start": 12.695,
+  "end": 12.795
+ },
+ {
+  "word": "of",
+  "start": 12.84,
+  "end": 12.886
+ },
+ {
+  "word": "its",
+  "start": 12.922,
+  "end": 13.004
+ },
+ {
+  "word": "2026-27",
+  "start": 13.05,
+  "end": 13.959
+ },
+ {
+  "word": "points",
+  "start": 14.004,
+  "end": 14.159
+ },
+ {
+  "word": "of",
+  "start": 14.186,
+  "end": 14.222
+ },
+ {
+  "word": "emphasis",
+  "start": 14.267,
+  "end": 14.549
+ },
+ {
+  "word": "for",
+  "start": 14.586,
+  "end": 14.668
+ },
+ {
+  "word": "referees.",
+  "start": 14.704,
+  "end": 15.196
+ },
+ {
+  "word": "Freedom",
+  "start": 15.277,
+  "end": 15.478
+ },
+ {
+  "word": "of",
+  "start": 15.514,
+  "end": 15.559
+ },
+ {
+  "word": "movement,",
+  "start": 15.614,
+  "end": 15.904
+ },
+ {
+  "word": "perimeter",
+  "start": 15.941,
+  "end": 16.25
+ },
+ {
+  "word": "and",
+  "start": 16.296,
+  "end": 16.35
+ },
+ {
+  "word": "post,",
+  "start": 16.387,
+  "end": 16.641
+ },
+ {
+  "word": "plus",
+  "start": 16.669,
+  "end": 16.841
+ },
+ {
+  "word": "straight-line",
+  "start": 16.869,
+  "end": 17.205
+ },
+ {
+  "word": "pathway",
+  "start": 17.232,
+  "end": 17.523
+ },
+ {
+  "word": "plays.",
+  "start": 17.559,
+  "end": 17.869
+ },
+ {
+  "word": "One",
+  "start": 17.951,
+  "end": 18.105
+ },
+ {
+  "word": "write-up",
+  "start": 18.133,
+  "end": 18.342
+ },
+ {
+  "word": "of",
+  "start": 18.387,
+  "end": 18.423
+ },
+ {
+  "word": "that",
+  "start": 18.46,
+  "end": 18.542
+ },
+ {
+  "word": "video",
+  "start": 18.587,
+  "end": 18.796
+ },
+ {
+  "word": "says",
+  "start": 18.842,
+  "end": 18.96
+ },
+ {
+  "word": "you",
+  "start": 18.987,
+  "end": 19.042
+ },
+ {
+  "word": "cannot",
+  "start": 19.087,
+  "end": 19.305
+ },
+ {
+  "word": "hold,",
+  "start": 19.351,
+  "end": 19.56
+ },
+ {
+  "word": "grab,",
+  "start": 19.606,
+  "end": 19.842
+ },
+ {
+  "word": "or",
+  "start": 19.861,
+  "end": 19.933
+ },
+ {
+  "word": "bump",
+  "start": 19.979,
+  "end": 20.115
+ },
+ {
+  "word": "a",
+  "start": 20.151,
+  "end": 20.169
+ },
+ {
+  "word": "man",
+  "start": 20.206,
+  "end": 20.305
+ },
+ {
+  "word": "so",
+  "start": 20.351,
+  "end": 20.415
+ },
+ {
+  "word": "he",
+  "start": 20.461,
+  "end": 20.497
+ },
+ {
+  "word": "cannot",
+  "start": 20.533,
+  "end": 20.751
+ },
+ {
+  "word": "go",
+  "start": 20.797,
+  "end": 20.869
+ },
+ {
+  "word": "where",
+  "start": 20.906,
+  "end": 21.006
+ },
+ {
+  "word": "he",
+  "start": 21.033,
+  "end": 21.07
+ },
+ {
+  "word": "was",
+  "start": 21.106,
+  "end": 21.169
+ },
+ {
+  "word": "trying",
+  "start": 21.197,
+  "end": 21.352
+ },
+ {
+  "word": "to",
+  "start": 21.37,
+  "end": 21.406
+ },
+ {
+  "word": "go.",
+  "start": 21.443,
+  "end": 21.606
+ },
+ {
+  "word": "It",
+  "start": 21.642,
+  "end": 21.725
+ },
+ {
+  "word": "also",
+  "start": 21.751,
+  "end": 21.915
+ },
+ {
+  "word": "flags",
+  "start": 21.96,
+  "end": 22.152
+ },
+ {
+  "word": "a",
+  "start": 22.179,
+  "end": 22.206
+ },
+ {
+  "word": "defender",
+  "start": 22.242,
+  "end": 22.488
+ },
+ {
+  "word": "bumping",
+  "start": 22.534,
+  "end": 22.743
+ },
+ {
+  "word": "a",
+  "start": 22.779,
+  "end": 22.798
+ },
+ {
+  "word": "dribbler",
+  "start": 22.834,
+  "end": 23.079
+ },
+ {
+  "word": "off",
+  "start": 23.124,
+  "end": 23.207
+ },
+ {
+  "word": "a",
+  "start": 23.243,
+  "end": 23.261
+ },
+ {
+  "word": "straight-line",
+  "start": 23.307,
+  "end": 23.688
+ },
+ {
+  "word": "drive.",
+  "start": 23.707,
+  "end": 23.952
+ },
+ {
+  "word": "So",
+  "start": 23.97,
+  "end": 24.061
+ },
+ {
+  "word": "was",
+  "start": 24.098,
+  "end": 24.171
+ },
+ {
+  "word": "Detroit",
+  "start": 24.207,
+  "end": 24.425
+ },
+ {
+  "word": "just",
+  "start": 24.461,
+  "end": 24.57
+ },
+ {
+  "word": "committing",
+  "start": 24.589,
+  "end": 24.807
+ },
+ {
+  "word": "fouls",
+  "start": 24.852,
+  "end": 25.053
+ },
+ {
+  "word": "nobody",
+  "start": 25.089,
+  "end": 25.289
+ },
+ {
+  "word": "called?",
+  "start": 25.325,
+  "end": 25.68
+ }
+]

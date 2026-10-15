@@ -1,6 +1,7 @@
 # #25 Did Bronny Actually Get Better
 
-Video: READY TO POST - Did Bronny Actually Get Better.mp4 (23.4 s). Not uploaded.
+Postable file: READY TO POST - Did Bronny Actually Get Better (v2).mp4 (23.4 s). Not uploaded.
+Do not post it the same day as Short 23 or Short 24.
 
 ## Title
 Did Bronny Actually Get Better? 😳  (alt: Is Bronny's Jump Real Or Small Sample 😳 / What Did Bronny's Second Year Really Show 😳)

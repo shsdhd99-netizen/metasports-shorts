@@ -1,6 +1,6 @@
 # #20 Would Bad Boys defense be legal now (2026-10-04)
 
-**Video:** `READY TO POST - Would Bad Boys Defense Be Legal Now.mp4` (23.6 s, 1080x1920, -14 LUFS). Footage: NBA Official 2026-27 Points of Emphasis Part 2 (X) with its real narration quote, plus archive.org 1991 Pistons-Bulls broadcast. Passes `Tools/qa_short.py`. Not uploaded.
+**Video:** `READY TO POST - Would Bad Boys Defense Be Legal Now (v3).mp4` (26.0 s, 1080x1920, -14.0 LUFS). Post this file. v2 stays in the folder and is not the current cut. v3 opens on the arm across the ball handler and loops that same contact. Pistons footage stays on the Laimbeer, Rodman, and Isiah lines. The spoken "moves him off that path" line is not in this cut. `qa_short.py` PASS on 2026-10-10. Not uploaded.
 
 ## Title (pick one)
 1. **Is Bad Boys Pistons Defense Illegal Now 😳** (recommended)
@@ -22,4 +22,4 @@ Were the Bad Boy Pistons just committing fouls nobody called, or did today's rul
 - NBA Official 2026-27 Points of Emphasis Part 2 (Sept 29, 2026), Freedom of Movement and Straight-Line Pathway plays: https://official.nba.com/2026-27-points-of-emphasis/ , https://x.com/NBAOfficial/status/2104934389666677091
 - Summary: https://www.blazersedge.com/nba-news-rumors/116607/nba-highlights-2026-27-points-of-emphasis-for-referees
 ## Notes
-- Old footage is the 1991 East finals (Laimbeer, Rodman, Dumars, Isiah visible), not 1989. Post 6-11 AM ET; post a day apart from #11, #14 and #17 (other rule Shorts).
+- Bad Boys lines use Pistons footage (Palace, Laimbeer #40, Rodman #10, Isiah Thomas #11), not a modern foul. Referee footage is only on the 2026-27 emphasis lines. Post 6-11 AM ET; post a day apart from #11, #14 and #17 (other rule Shorts).

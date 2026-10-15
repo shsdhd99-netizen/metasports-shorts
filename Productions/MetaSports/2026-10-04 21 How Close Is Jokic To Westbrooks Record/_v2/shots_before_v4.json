@@ -1,0 +1,153 @@
+[
+ {
+  "clip": "02_jside.mp4",
+  "kind": "action",
+  "zoom": 0.12,
+  "why": "Jokic with the ball",
+  "start": 0.0
+ },
+ {
+  "clip": "12_wface.mp4",
+  "in": 0.7,
+  "anchor": "Russell",
+  "kind": "action",
+  "why": "spoken Russell Westbrook lands on his face and OKC 0",
+  "start": 0.65
+ },
+ {
+  "clip": "04_wopen.mp4",
+  "in": 1.85,
+  "anchor": "two",
+  "kind": "action",
+  "why": "red 0, WESTBROOK readable, under the whole 209 card",
+  "start": 1.245
+ },
+ {
+  "clip": "04_wopen.mp4",
+  "in": 2.2,
+  "anchor": "regular-season",
+  "kind": "action",
+  "why": "same back, later in the clip, so the 209 card does not loop into the Wizards 4",
+  "start": 1.833
+ },
+ {
+  "clip": "04_wopen.mp4",
+  "in": 1.9,
+  "anchor": "Westbrook just",
+  "kind": "action",
+  "why": "jersey back still reads WESTBROOK 0 on the retirement line",
+  "start": 2.954
+ },
+ {
+  "clip": "03_jpost.mp4",
+  "in": 0.15,
+  "anchor": "Nikola",
+  "kind": "action",
+  "why": "Jokic in the game, name on the back, not the hallway",
+  "start": 3.923
+ },
+ {
+  "clip": "08_jnug.mp4",
+  "in": 0.1,
+  "anchor": "one",
+  "kind": "action",
+  "why": "JOKIC and 15 readable under one ninety-eight",
+  "start": 4.75
+ },
+ {
+  "clip": "01_jhook.mp4",
+  "in": 0.2,
+  "anchor": "on",
+  "kind": "action",
+  "why": "Jokic 15 still in the game through the career list",
+  "start": 5.248
+ },
+ {
+  "clip": "08_jnug.mp4",
+  "anchor": "Eleven",
+  "kind": "action",
+  "why": "Jokic 15 from behind",
+  "start": 5.96
+ },
+ {
+  "clip": "09_jast.mp4",
+  "anchor": "But he",
+  "kind": "action",
+  "why": "Jokic face, in a game",
+  "start": 6.59
+ },
+ {
+  "clip": "10_jwalk.mp4",
+  "anchor": "in just",
+  "kind": "action",
+  "why": "Jokic at media day",
+  "start": 8.27
+ },
+ {
+  "clip": "01_jhook.mp4",
+  "anchor": "About one",
+  "kind": "action",
+  "why": "Jokic dribbling, name on the jersey",
+  "start": 10.17
+ },
+ {
+  "clip": "16_wdunk.mp4",
+  "in": 0.72,
+  "anchor": "Westbrook once",
+  "kind": "action",
+  "why": "number 0 hanging on the rim",
+  "start": 11.29
+ },
+ {
+  "clip": "04_wopen.mp4",
+  "in": 1.9,
+  "kind": "action",
+  "why": "WESTBROOK 0 on the back through the forty-two line",
+  "start": 11.91
+ },
+ {
+  "clip": "12_wface.mp4",
+  "in": 1.0,
+  "anchor": "still the",
+  "kind": "action",
+  "why": "Westbrook close-up, OKC",
+  "start": 12.96
+ },
+ {
+  "clip": "04_wopen.mp4",
+  "anchor": "And only",
+  "kind": "action",
+  "why": "Westbrook, arms up",
+  "start": 14.45
+ },
+ {
+  "clip": "13_oscar.mp4",
+  "anchor": "Oscar",
+  "kind": "action",
+  "why": "Oscar Robertson next to Westbrook",
+  "start": 15.46
+ },
+ {
+  "clip": "03_jpost.mp4",
+  "anchor": "Jokic even",
+  "kind": "action",
+  "why": "Jokic in the post",
+  "start": 17.36
+ },
+ {
+  "clip": "01_jhook.mp4",
+  "anchor": "on Christmas",
+  "in": 0.6,
+  "kind": "action",
+  "why": "Jokic with the ball, name on the jersey",
+  "start": 20.08
+ },
+ {
+  "clip": "02_jside.mp4",
+  "anchor": "At that",
+  "kind": "action",
+  "zoom": 0.1,
+  "why": "loop to the first Jokic shot",
+  "start": 22.31
+ }
+]

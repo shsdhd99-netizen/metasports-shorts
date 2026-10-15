@@ -1,0 +1,107 @@
+[
+ {
+  "clip": "j_hook.mp4",
+  "start": 0.0,
+  "in": 0.0,
+  "kind": "action",
+  "zoom": 0.12,
+  "why": "Williams 6, the hook"
+ },
+ {
+  "clip": "r_face.mp4",
+  "start": 1.78,
+  "in": 0.0,
+  "kind": "action",
+  "anchor": "Bill Russell",
+  "why": "Russell"
+ },
+ {
+  "clip": "r_dunk.mp4",
+  "start": 2.44,
+  "in": 0.0,
+  "kind": "action",
+  "anchor": "eleven titles",
+  "why": "eleven titles"
+ },
+ {
+  "clip": "r_statue.mp4",
+  "start": 3.44,
+  "in": 0.0,
+  "kind": "action",
+  "anchor": "2022",
+  "why": "league retired six"
+ },
+ {
+  "clip": "j_stand.mp4",
+  "start": 5.7,
+  "in": 0.0,
+  "kind": "action",
+  "anchor": "Players who",
+  "why": "already wore it, kept it"
+ },
+ {
+  "clip": "r_bridge.mp4",
+  "start": 7.23,
+  "in": 0.0,
+  "kind": "action",
+  "anchor": "Nobody new",
+  "why": "the ban, until this summer"
+ },
+ {
+  "clip": "dj_6.mp4",
+  "start": 9.22,
+  "in": 0.0,
+  "kind": "action",
+  "anchor": "DeAndre Jordan",
+  "why": "Jordan 6 on his back for the name"
+ },
+ {
+  "clip": "dj_finish.mp4",
+  "start": 10.24,
+  "in": 0.0,
+  "kind": "action",
+  "anchor": "two guaranteed",
+  "zoom": 0.06,
+  "why": "Pelicans 6 finish, the money line"
+ },
+ {
+  "clip": "dj_walk.mp4",
+  "start": 11.75,
+  "in": 0.0,
+  "kind": "action",
+  "anchor": "million",
+  "why": "DeAndre JORDAN 6, moving, through year nineteen. Jaylin was on this line and the readable number at the end of the source is Murray 5."
+ },
+ {
+  "clip": "j_intro.mp4",
+  "start": 14.71,
+  "in": 0.0,
+  "kind": "face",
+  "anchor": "Jaylin Williams",
+  "why": "the other one"
+ },
+ {
+  "clip": "q_jay.mp4",
+  "start": 17.14,
+  "in": 0.0,
+  "kind": "quote",
+  "anchor": "I'm honored",
+  "why": "his real line"
+ },
+ {
+  "clip": "j_dad.mp4",
+  "start": 20.46,
+  "in": 0.0,
+  "kind": "face",
+  "anchor": "His dad",
+  "why": "dad picked six"
+ },
+ {
+  "clip": "j_hook.mp4",
+  "start": 22.46,
+  "in": 0.15,
+  "kind": "action",
+  "anchor": "Two names",
+  "why": "payoff and loop"
+ }
+]

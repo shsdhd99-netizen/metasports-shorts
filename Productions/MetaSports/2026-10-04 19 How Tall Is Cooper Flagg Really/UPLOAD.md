@@ -1,6 +1,6 @@
 # #19 How Tall Is Cooper Flagg Really (2026-10-04)
 
-**Video:** `READY TO POST - How Tall Is Cooper Flagg Really.mp4` (22.0 s, 1080x1920). Lane: one-second oddity / size. Passes `Tools/qa_short.py`. Not uploaded. Post 6-11 AM ET; Flagg height talk is hot right now (media day Sept 25).
+**Video:** `READY TO POST - How Tall Is Cooper Flagg Really (v2).mp4` (25.1 s, 1080x1920, -14 LUFS). Lane: one-second oddity / size. Passes `Tools/qa_short.py`. Not uploaded. Post 6-11 AM ET; Flagg height talk is hot right now (media day Sept 25). v2 is the new cut: Flagg on every line (draft presser, media day, city-edition game, gym). The earlier `READY TO POST - How Tall Is Cooper Flagg Really.mp4` (22.0 s) stays in the folder.
 
 ## Title (pick one)
 1. **How Tall Is Cooper Flagg Really 😳** (recommended)
@@ -22,4 +22,4 @@ Is Flagg really 6-10, or is he already 6-11 and just not saying?
 - Confirmed 6-10, "but not 6-11" (Brad Townsend via ClutchPoints/Yahoo): https://sports.yahoo.com/articles/mavericks-news-cooper-flagg-confirms-173053915.html
 - 51 points vs Orlando, only teenager with 50+ (Mavs PR): https://x.com/MavsPR/status/2040265836506595647
 ## Notes
-- The "fifty-one" line is shown over footage from his 49-point game (BR clip), the only game footage with close-ups found.
+- The "fifty-one" line is Flagg in the green Dallas city-edition jersey. Draft, media day, and gym shots are also Flagg.

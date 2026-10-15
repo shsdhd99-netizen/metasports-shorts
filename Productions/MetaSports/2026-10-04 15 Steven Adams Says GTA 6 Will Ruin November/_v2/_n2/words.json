@@ -1,0 +1,47 @@
+[
+ {
+  "word": "That",
+  "start": 0.0,
+  "end": 0.161
+ },
+ {
+  "word": "is",
+  "start": 0.196,
+  "end": 0.259
+ },
+ {
+  "word": "Rockets",
+  "start": 0.312,
+  "end": 0.554
+ },
+ {
+  "word": "center",
+  "start": 0.571,
+  "end": 0.786
+ },
+ {
+  "word": "Steven",
+  "start": 0.83,
+  "end": 1.053
+ },
+ {
+  "word": "Adams",
+  "start": 1.089,
+  "end": 1.276
+ },
+ {
+  "word": "at",
+  "start": 1.303,
+  "end": 1.357
+ },
+ {
+  "word": "media",
+  "start": 1.402,
+  "end": 1.616
+ },
+ {
+  "word": "day.",
+  "start": 1.66,
+  "end": 2.0
+ }
+]

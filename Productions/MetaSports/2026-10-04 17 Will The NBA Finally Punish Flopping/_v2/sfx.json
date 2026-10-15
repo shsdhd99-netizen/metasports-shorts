@@ -1,0 +1,6 @@
+[
+ {"sfx": "thud", "at": 4.95, "gain": -14, "why": "a player is on the floor under exaggerated movement"},
+ {"sfx": "whoosh", "at": 7.2, "gain": -11, "why": "cut to the theatrical fall"},
+ {"sfx": "whoosh_long", "at": 20.05, "gain": -17, "why": "bigger cut into the Avdija payoff"},
+ {"sfx": "ding", "at": 22.52, "gain": -17, "why": "not a flop, still on Avdija"}
+]

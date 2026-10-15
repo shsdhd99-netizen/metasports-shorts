@@ -1,0 +1,327 @@
+[
+ {
+  "word": "Giannis",
+  "start": 0.0,
+  "end": 0.405
+ },
+ {
+  "word": "is",
+  "start": 0.454,
+  "end": 0.543
+ },
+ {
+  "word": "about",
+  "start": 0.592,
+  "end": 0.779
+ },
+ {
+  "word": "to",
+  "start": 0.809,
+  "end": 0.858
+ },
+ {
+  "word": "face",
+  "start": 0.918,
+  "end": 1.125
+ },
+ {
+  "word": "the",
+  "start": 1.154,
+  "end": 1.214
+ },
+ {
+  "word": "Bucks",
+  "start": 1.243,
+  "end": 1.411
+ },
+ {
+  "word": "for",
+  "start": 1.44,
+  "end": 1.519
+ },
+ {
+  "word": "the",
+  "start": 1.549,
+  "end": 1.608
+ },
+ {
+  "word": "first",
+  "start": 1.657,
+  "end": 1.865
+ },
+ {
+  "word": "time.",
+  "start": 1.894,
+  "end": 2.17
+ },
+ {
+  "word": "But",
+  "start": 2.2,
+  "end": 2.339
+ },
+ {
+  "word": "the",
+  "start": 2.368,
+  "end": 2.427
+ },
+ {
+  "word": "Heat",
+  "start": 2.476,
+  "end": 2.624
+ },
+ {
+  "word": "play",
+  "start": 2.654,
+  "end": 2.802
+ },
+ {
+  "word": "that",
+  "start": 2.851,
+  "end": 2.95
+ },
+ {
+  "word": "night",
+  "start": 2.999,
+  "end": 3.127
+ },
+ {
+  "word": "as",
+  "start": 3.177,
+  "end": 3.266
+ },
+ {
+  "word": "Vice",
+  "start": 3.354,
+  "end": 3.562
+ },
+ {
+  "word": "City,",
+  "start": 3.581,
+  "end": 3.818
+ },
+ {
+  "word": "on",
+  "start": 3.858,
+  "end": 3.957
+ },
+ {
+  "word": "a",
+  "start": 3.996,
+  "end": 4.015
+ },
+ {
+  "word": "court",
+  "start": 4.065,
+  "end": 4.242
+ },
+ {
+  "word": "nobody",
+  "start": 4.292,
+  "end": 4.529
+ },
+ {
+  "word": "has",
+  "start": 4.568,
+  "end": 4.657
+ },
+ {
+  "word": "seen,",
+  "start": 4.687,
+  "end": 4.903
+ },
+ {
+  "word": "in",
+  "start": 4.923,
+  "end": 5.002
+ },
+ {
+  "word": "a",
+  "start": 5.042,
+  "end": 5.072
+ },
+ {
+  "word": "uniform",
+  "start": 5.141,
+  "end": 5.436
+ },
+ {
+  "word": "never",
+  "start": 5.476,
+  "end": 5.644
+ },
+ {
+  "word": "worn.",
+  "start": 5.683,
+  "end": 5.969
+ },
+ {
+  "word": "And",
+  "start": 5.989,
+  "end": 6.087
+ },
+ {
+  "word": "Miami",
+  "start": 6.137,
+  "end": 6.403
+ },
+ {
+  "word": "will",
+  "start": 6.423,
+  "end": 6.532
+ },
+ {
+  "word": "be",
+  "start": 6.561,
+  "end": 6.601
+ },
+ {
+  "word": "wearing",
+  "start": 6.63,
+  "end": 6.838
+ },
+ {
+  "word": "a",
+  "start": 6.877,
+  "end": 6.907
+ },
+ {
+  "word": "GTA",
+  "start": 6.975,
+  "end": 7.331
+ },
+ {
+  "word": "six",
+  "start": 7.38,
+  "end": 7.548
+ },
+ {
+  "word": "uniform.",
+  "start": 7.597,
+  "end": 8.032
+ },
+ {
+  "word": "November",
+  "start": 8.12,
+  "end": 8.406
+ },
+ {
+  "word": "eighteenth,",
+  "start": 8.456,
+  "end": 8.82
+ },
+ {
+  "word": "seven",
+  "start": 8.88,
+  "end": 9.097
+ },
+ {
+  "word": "PM",
+  "start": 9.136,
+  "end": 9.324
+ },
+ {
+  "word": "Eastern,",
+  "start": 9.374,
+  "end": 9.708
+ },
+ {
+  "word": "live",
+  "start": 9.778,
+  "end": 9.965
+ },
+ {
+  "word": "on",
+  "start": 10.005,
+  "end": 10.064
+ },
+ {
+  "word": "ESPN.",
+  "start": 10.153,
+  "end": 10.607
+ },
+ {
+  "word": "Thirteen",
+  "start": 10.636,
+  "end": 10.971
+ },
+ {
+  "word": "years",
+  "start": 11.011,
+  "end": 11.169
+ },
+ {
+  "word": "in",
+  "start": 11.208,
+  "end": 11.247
+ },
+ {
+  "word": "Milwaukee.",
+  "start": 11.287,
+  "end": 11.741
+ },
+ {
+  "word": "After",
+  "start": 11.78,
+  "end": 12.017
+ },
+ {
+  "word": "the",
+  "start": 12.067,
+  "end": 12.126
+ },
+ {
+  "word": "trade,",
+  "start": 12.165,
+  "end": 12.432
+ },
+ {
+  "word": "he",
+  "start": 12.471,
+  "end": 12.54
+ },
+ {
+  "word": "watched",
+  "start": 12.589,
+  "end": 12.797
+ },
+ {
+  "word": "a",
+  "start": 12.816,
+  "end": 12.837
+ },
+ {
+  "word": "video",
+  "start": 12.876,
+  "end": 13.103
+ },
+ {
+  "word": "from",
+  "start": 13.152,
+  "end": 13.28
+ },
+ {
+  "word": "Bucks",
+  "start": 13.329,
+  "end": 13.527
+ },
+ {
+  "word": "fans,",
+  "start": 13.556,
+  "end": 13.783
+ },
+ {
+  "word": "and",
+  "start": 13.803,
+  "end": 13.873
+ },
+ {
+  "word": "said",
+  "start": 13.912,
+  "end": 14.05
+ },
+ {
+  "word": "this.",
+  "start": 14.089,
+  "end": 14.444
+ }
+]

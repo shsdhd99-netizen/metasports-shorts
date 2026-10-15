@@ -1,0 +1,131 @@
+[
+ {
+  "clip": "war_rim.mp4",
+  "start": 0.0,
+  "in": 0.3,
+  "kind": "action",
+  "zoom": 0.12,
+  "why": "Lakers 9 at the rim, Bronny finishing"
+ },
+ {
+  "clip": "nets_w.mp4",
+  "start": 0.77,
+  "in": 0.0,
+  "kind": "action",
+  "anchor": "fifteen spots",
+  "why": "fifteen spots, Lakers floor"
+ },
+ {
+  "clip": "md_a.mp4",
+  "start": 1.65,
+  "in": 0.0,
+  "kind": "face",
+  "anchor": "one of them",
+  "why": "Bronny James, nameplate"
+ },
+ {
+  "clip": "lob_lbj.mp4",
+  "start": 2.86,
+  "in": 0.0,
+  "kind": "action",
+  "anchor": "LeBron left",
+  "why": "LeBron 23"
+ },
+ {
+  "clip": "war_fist.mp4",
+  "start": 4.12,
+  "in": 0.0,
+  "kind": "action",
+  "anchor": "Bronny stayed",
+  "why": "JAMES JR 9 on screen for Bronny stayed"
+ },
+ {
+  "clip": "md_b.mp4",
+  "start": 5.12,
+  "in": 0.0,
+  "kind": "quote",
+  "anchor": "first media",
+  "why": "media day, feels like he's not here"
+ },
+ {
+  "clip": "hou_play.mp4",
+  "start": 8.19,
+  "in": 0.0,
+  "kind": "action",
+  "anchor": "But the roster",
+  "why": "roster math, Lakers playoff floor"
+ },
+ {
+  "clip": "war_fist.mp4",
+  "start": 9.7,
+  "in": 1.0,
+  "kind": "action",
+  "anchor": "ESPN says",
+  "why": "2.3 million, later in the same Bronny 9 clip"
+ },
+ {
+  "clip": "nets_w.mp4",
+  "start": 12.05,
+  "in": 1.6,
+  "kind": "action",
+  "anchor": "Los Angeles",
+  "why": "nine new players, Lakers bench"
+ },
+ {
+  "clip": "hou_dad.mp4",
+  "start": 13.8,
+  "in": 0.0,
+  "kind": "action",
+  "anchor": "faces his",
+  "why": "Bronny beside LeBron"
+ },
+ {
+  "clip": "war_rim.mp4",
+  "start": 15.2,
+  "in": 0.0,
+  "kind": "action",
+  "anchor": "averaged",
+  "why": "2.9 points, Bronny 9 at the rim"
+ },
+ {
+  "clip": "lob_b9.mp4",
+  "start": 17.09,
+  "in": 0.0,
+  "kind": "action",
+  "anchor": "plus eight",
+  "why": "playoff games, JAMES JR"
+ },
+ {
+  "clip": "md_c.mp4",
+  "start": 18.14,
+  "in": 0.0,
+  "kind": "quote",
+  "anchor": "He told",
+  "why": "own path quote"
+ },
+ {
+  "clip": "hou_play.mp4",
+  "start": 20.63,
+  "in": 1.4,
+  "kind": "action",
+  "anchor": "Yahoo still",
+  "why": "sixteen for fifteen"
+ },
+ {
+  "clip": "war_swish.mp4",
+  "start": 23.29,
+  "in": 0.5,
+  "kind": "action",
+  "anchor": "The deadline",
+  "why": "October 21 against Golden State"
+ },
+ {
+  "clip": "war_rim.mp4",
+  "start": 25.5,
+  "in": 0.3,
+  "kind": "action",
+  "zoom": 0.1,
+  "anchor": "Somebody has",
+  "why": "payoff loop, same Lakers 9 finish as the open"
+ }
+]

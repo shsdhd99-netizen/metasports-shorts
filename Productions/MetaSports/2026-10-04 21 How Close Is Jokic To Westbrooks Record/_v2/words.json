@@ -1,0 +1,512 @@
+[
+ {
+  "word": "Can",
+  "start": 0.0,
+  "end": 0.143
+ },
+ {
+  "word": "Jokic",
+  "start": 0.187,
+  "end": 0.427
+ },
+ {
+  "word": "catch",
+  "start": 0.471,
+  "end": 0.631
+ },
+ {
+  "word": "Russell",
+  "start": 0.676,
+  "end": 0.863
+ },
+ {
+  "word": "Westbrook's",
+  "start": 0.89,
+  "end": 1.201
+ },
+ {
+  "word": "two",
+  "start": 1.245,
+  "end": 1.379
+ },
+ {
+  "word": "hundred",
+  "start": 1.424,
+  "end": 1.628
+ },
+ {
+  "word": "nine",
+  "start": 1.663,
+  "end": 1.797
+ },
+ {
+  "word": "regular-season",
+  "start": 1.833,
+  "end": 2.286
+ },
+ {
+  "word": "triple-doubles?",
+  "start": 2.313,
+  "end": 2.873
+ },
+ {
+  "word": "Westbrook",
+  "start": 2.954,
+  "end": 3.247
+ },
+ {
+  "word": "just",
+  "start": 3.282,
+  "end": 3.38
+ },
+ {
+  "word": "retired.",
+  "start": 3.407,
+  "end": 3.78
+ },
+ {
+  "word": "Nikola",
+  "start": 3.923,
+  "end": 4.163
+ },
+ {
+  "word": "Jokic",
+  "start": 4.208,
+  "end": 4.438
+ },
+ {
+  "word": "sits",
+  "start": 4.474,
+  "end": 4.625
+ },
+ {
+  "word": "at",
+  "start": 4.652,
+  "end": 4.706
+ },
+ {
+  "word": "one",
+  "start": 4.75,
+  "end": 4.866
+ },
+ {
+  "word": "ninety-eight",
+  "start": 4.901,
+  "end": 5.221
+ },
+ {
+  "word": "on",
+  "start": 5.248,
+  "end": 5.302
+ },
+ {
+  "word": "that",
+  "start": 5.328,
+  "end": 5.408
+ },
+ {
+  "word": "career",
+  "start": 5.444,
+  "end": 5.631
+ },
+ {
+  "word": "list.",
+  "start": 5.675,
+  "end": 5.916
+ },
+ {
+  "word": "Eleven",
+  "start": 5.995,
+  "end": 6.262
+ },
+ {
+  "word": "away.",
+  "start": 6.289,
+  "end": 6.565
+ },
+ {
+  "word": "But",
+  "start": 6.618,
+  "end": 6.725
+ },
+ {
+  "word": "he",
+  "start": 6.769,
+  "end": 6.823
+ },
+ {
+  "word": "had",
+  "start": 6.867,
+  "end": 6.965
+ },
+ {
+  "word": "thirty-four",
+  "start": 7.001,
+  "end": 7.338
+ },
+ {
+  "word": "triple-doubles",
+  "start": 7.374,
+  "end": 7.792
+ },
+ {
+  "word": "last",
+  "start": 7.828,
+  "end": 7.97
+ },
+ {
+  "word": "season,",
+  "start": 8.006,
+  "end": 8.256
+ },
+ {
+  "word": "in",
+  "start": 8.3,
+  "end": 8.406
+ },
+ {
+  "word": "just",
+  "start": 8.451,
+  "end": 8.593
+ },
+ {
+  "word": "sixty-five",
+  "start": 8.62,
+  "end": 8.993
+ },
+ {
+  "word": "games,",
+  "start": 9.029,
+  "end": 9.278
+ },
+ {
+  "word": "and",
+  "start": 9.304,
+  "end": 9.42
+ },
+ {
+  "word": "he",
+  "start": 9.465,
+  "end": 9.518
+ },
+ {
+  "word": "started",
+  "start": 9.563,
+  "end": 9.785
+ },
+ {
+  "word": "every",
+  "start": 9.812,
+  "end": 9.937
+ },
+ {
+  "word": "one.",
+  "start": 9.981,
+  "end": 10.176
+ },
+ {
+  "word": "About",
+  "start": 10.203,
+  "end": 10.425
+ },
+ {
+  "word": "one",
+  "start": 10.47,
+  "end": 10.612
+ },
+ {
+  "word": "every",
+  "start": 10.657,
+  "end": 10.817
+ },
+ {
+  "word": "two",
+  "start": 10.853,
+  "end": 10.95
+ },
+ {
+  "word": "games.",
+  "start": 10.995,
+  "end": 11.28
+ },
+ {
+  "word": "Westbrook",
+  "start": 11.324,
+  "end": 11.635
+ },
+ {
+  "word": "once",
+  "start": 11.68,
+  "end": 11.804
+ },
+ {
+  "word": "got",
+  "start": 11.822,
+  "end": 11.929
+ },
+ {
+  "word": "forty-two",
+  "start": 11.973,
+  "end": 12.32
+ },
+ {
+  "word": "in",
+  "start": 12.401,
+  "end": 12.463
+ },
+ {
+  "word": "2016-17,",
+  "start": 12.507,
+  "end": 13.387
+ },
+ {
+  "word": "still",
+  "start": 13.423,
+  "end": 13.593
+ },
+ {
+  "word": "the",
+  "start": 13.619,
+  "end": 13.672
+ },
+ {
+  "word": "most",
+  "start": 13.708,
+  "end": 13.842
+ },
+ {
+  "word": "ever",
+  "start": 13.877,
+  "end": 14.01
+ },
+ {
+  "word": "in",
+  "start": 14.055,
+  "end": 14.091
+ },
+ {
+  "word": "a",
+  "start": 14.126,
+  "end": 14.144
+ },
+ {
+  "word": "season.",
+  "start": 14.18,
+  "end": 14.455
+ },
+ {
+  "word": "And",
+  "start": 14.482,
+  "end": 14.571
+ },
+ {
+  "word": "only",
+  "start": 14.616,
+  "end": 14.757
+ },
+ {
+  "word": "those",
+  "start": 14.793,
+  "end": 14.927
+ },
+ {
+  "word": "two",
+  "start": 14.944,
+  "end": 15.042
+ },
+ {
+  "word": "ever",
+  "start": 15.087,
+  "end": 15.212
+ },
+ {
+  "word": "passed",
+  "start": 15.256,
+  "end": 15.451
+ },
+ {
+  "word": "Oscar",
+  "start": 15.487,
+  "end": 15.674
+ },
+ {
+  "word": "Robertson,",
+  "start": 15.71,
+  "end": 16.092
+ },
+ {
+  "word": "who",
+  "start": 16.11,
+  "end": 16.208
+ },
+ {
+  "word": "sits",
+  "start": 16.252,
+  "end": 16.395
+ },
+ {
+  "word": "third",
+  "start": 16.43,
+  "end": 16.608
+ },
+ {
+  "word": "at",
+  "start": 16.634,
+  "end": 16.688
+ },
+ {
+  "word": "one",
+  "start": 16.732,
+  "end": 16.857
+ },
+ {
+  "word": "eighty-one.",
+  "start": 16.902,
+  "end": 17.346
+ },
+ {
+  "word": "Jokic",
+  "start": 17.391,
+  "end": 17.64
+ },
+ {
+  "word": "even",
+  "start": 17.684,
+  "end": 17.817
+ },
+ {
+  "word": "put",
+  "start": 17.853,
+  "end": 17.933
+ },
+ {
+  "word": "up",
+  "start": 17.96,
+  "end": 18.022
+ },
+ {
+  "word": "fifty-six",
+  "start": 18.067,
+  "end": 18.458
+ },
+ {
+  "word": "points,",
+  "start": 18.512,
+  "end": 18.743
+ },
+ {
+  "word": "sixteen",
+  "start": 18.787,
+  "end": 19.098
+ },
+ {
+  "word": "rebounds,",
+  "start": 19.143,
+  "end": 19.436
+ },
+ {
+  "word": "and",
+  "start": 19.455,
+  "end": 19.526
+ },
+ {
+  "word": "fifteen",
+  "start": 19.579,
+  "end": 19.837
+ },
+ {
+  "word": "assists",
+  "start": 19.864,
+  "end": 20.077
+ },
+ {
+  "word": "on",
+  "start": 20.113,
+  "end": 20.166
+ },
+ {
+  "word": "Christmas,",
+  "start": 20.202,
+  "end": 20.504
+ },
+ {
+  "word": "the",
+  "start": 20.531,
+  "end": 20.602
+ },
+ {
+  "word": "first",
+  "start": 20.655,
+  "end": 20.842
+ },
+ {
+  "word": "fifty-five,",
+  "start": 20.887,
+  "end": 21.323
+ },
+ {
+  "word": "fifteen,",
+  "start": 21.34,
+  "end": 21.634
+ },
+ {
+  "word": "and",
+  "start": 21.651,
+  "end": 21.714
+ },
+ {
+  "word": "fifteen",
+  "start": 21.759,
+  "end": 22.034
+ },
+ {
+  "word": "game.",
+  "start": 22.079,
+  "end": 22.319
+ },
+ {
+  "word": "At",
+  "start": 22.336,
+  "end": 22.425
+ },
+ {
+  "word": "that",
+  "start": 22.47,
+  "end": 22.594
+ },
+ {
+  "word": "pace,",
+  "start": 22.639,
+  "end": 22.843
+ },
+ {
+  "word": "eleven",
+  "start": 22.879,
+  "end": 23.137
+ },
+ {
+  "word": "more",
+  "start": 23.173,
+  "end": 23.297
+ },
+ {
+  "word": "takes",
+  "start": 23.324,
+  "end": 23.493
+ },
+ {
+  "word": "about",
+  "start": 23.519,
+  "end": 23.679
+ },
+ {
+  "word": "twenty-one",
+  "start": 23.706,
+  "end": 24.044
+ },
+ {
+  "word": "games.",
+  "start": 24.08,
+  "end": 24.48
+ }
+]
