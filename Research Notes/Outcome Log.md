@@ -284,3 +284,25 @@ Source of the scores: Creative System v3 rubric (`Production Queue.md`). The vie
 **Lesson:** none new (n=1 per version, all under 48 h).
 - **Early signal only [H]:** #44, built to the hook gate (an absolute, curious claim about a famous name, with his own words as the payoff), is ahead of both Jokic posts at the same age.
 - Read #44 at 48 h and 7 days, ideally with Studio's "stayed to watch", before any rule changes.
+
+## Daily check, Oct 16, 2026, 23:08 UTC (free public numbers only; routine "MetaSports daily stats check")
+`channel_check.py`: 532 subscribers (+7 since yesterday), 108 Shorts. **Median of the last 7: 4,000** (yesterday 1,750; earlier normal 5,650). Trend tag: still down vs the earlier normal, but up on the day.
+
+| Short | Views | Change since Oct 15 | Note |
+|---|---|---|---|
+| How Old Is The Oldest Triple-Double Ever? (#39) | 8,400 | +900 | about 3 days; above normal |
+| **Why Does An $8 Million Rookie Still Carry Bags? (#44)** | **6,700** | **+2,400** | **about 1.5 days; above normal. The first post built to the Oct 15 hook gate** |
+| Is Anyone Taller Than Wemby? (#41) | 5,300 | +3,000 | about 2.5 days; a late climb |
+| Who Has Missed The Most Shots In NBA History? (#42) | 3,100 | new | under 48 h (built on the PC Oct 15) |
+| Why Jokic's Best Pass Doesn't Count (#40, re-upload "#nba #basketball") | 2,700 | +1,900 | the re-upload is now ahead of the original |
+| Jokic Could Break Westbrook's Record By Christmas (#21) | 1,500 | +300 | about 1.5 days |
+| Why Jokic's Best Pass Doesn't Count (#40, original) | 1,400 | +200 | about 2.5 days |
+
+**Retention:** no new numbers.
+- vidIQ has 5 credits, under 10, so I skipped it.
+- The only figures on file are Wembanyama 79.5% stayed / 100.3% average view duration and Duren 63.0% / 59.7% (owner screenshots), plus the Oct 15 Studio export.
+
+**Lesson:** none new.
+- **[H] #44 (hook gate) leads the three posts from Oct 14-15.** n=1, so no rule change.
+- **[S] #41 and the #40 re-upload both climbed on day 2-3.** Not every Short peaks on day 1, so keep the 7-day read as the result (the Studio data put most views in week 1, not day 1).
+- Next read: #44 and #42 at 7 days; ask for a Studio export around Oct 22 for "stayed to watch".
