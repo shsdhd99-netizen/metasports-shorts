@@ -2,7 +2,7 @@
 
 **Updated:** Oct 15, 2026 (the YouTube Studio export: "Stayed to watch" is the gate; hook re-check of the ready scripts). Before that: Oct 14 late night (new stats + Script Critic v3 + rewrites).
 
-**Owner, Oct 15:** #21 Jokic is ALREADY POSTED. No more work on it (the `_v6` folder stays on disk, unused).
+**Owner, Oct 15:** #21 Jokic is ALREADY POSTED. No more work on it (the `_v6` folder stays on disk, unused). **#44 is POSTED (4.4K views at the Oct 15 read). #40 was uploaded twice (ids FYsYr... and mqpMv...): see `Research Notes/Posted Tracker (Oct 15, 2026).csv`. The Hub now shows stages: awaiting OK / editing / need footage / hold-out / posted. The Hub's 1 GB asset storage is FULL: delete superseded assets (owner OK) before the next upload.**
 
 **New Oct 15:**
 - **#44 "Why Does An $8 Million Rookie Still Carry Bags"** (Cooper Flagg): DRAFT, voice A, no music, `qa_short --full` PASS, Critic v3 37/45 APPROVE. Awaiting your approval; `UPLOAD.md` in its folder.
@@ -44,9 +44,9 @@ All other roadmaps and plans point here.
 | # | Short | Status | Critic v3 | Why here | Deadline | Next action |
 |---|---|---|---|---|---|---|
 | 1 | **#21 Jokic could break Westbrook's record by Christmas** | **rendered v5, QA PASS** (rewritten; voices A and F; no music) | **39/45 APPROVE** | Two stars, a deadline, a Christmas payoff | **before Denver's first game** (the 198 changes) | Watch both voices in the Hub; reply A or F; post that version |
-| 2 | **#36 LeBron's rookie teammate now has a son in the NBA** | **rendered v2, QA PASS** (rewritten; A and F; no music) | **38/45 APPROVE** | The biggest name plus a father-son link (our #23 pattern, 9.8K) | none | Oct 15 (PC): the fan-account clip fails the sharpness check (soft, channel bugs); you OK'd any account if sharp, so I swapped it: two clean official NBA clips are cut in `_rookie_candidates/` (`FOOTAGE_CHECK (Oct 15, 2026).md`). Say OK to them. A v3 re-render still needs the other clips and the 3 cards, which exist only in the cloud copy. Post the voice you pick |
-| 3 | #09 LeBron's schedule ("That's a documentary") | script-ready | 35 REWRITE | Strong payoff, stale angle | before Oct 20 | Re-angle to opening week; needs footage of LeBron in each jersey |
-| 4 | #10 53 years for one banner | script-ready | 34 REWRITE | Big premise, no ceremony footage yet | Oct 20-21 | Build after the ceremony, or a preview on title-run footage |
+| 2 | **#36 LeBron's rookie teammate now has a son in the NBA** | **v3 REBUILT Oct 15, QA reviewed** (`_v3/final.mp4`; Hub s36, top tab; voice A, no music) | **38/45 APPROVE** | The biggest name plus a father-son link (our #23 pattern, 9.8K) | none | Owner's ear and OK. Open question: the three 2007 LeBron shots are Eastern Conference Finals footage under the line "NBA Finals" (no sharper Finals source). v2 versions use the fan clip: do not post |
+| 3 | #09 LeBron's schedule | **MERGED into #10 v2** (Oct 15) | rewritten | One Short on opening week | before Oct 20 | See #10 v2 |
+| 4 | **#10 v2 "Knicks banner night / LeBron's first Sixers game"** (merges #09) | **script rewritten Oct 15, not voiced** (`Productions/MetaSports/2026-10-18 10 .../script_v2.txt`, `REWRITE_v2.md`) | rewrite pending critic score | A two-star deadline, Oct 20 | **Oct 19-20** | Owner OK to spend about 500 voice characters (2,596 left); re-check dates and Brunson's 45; build footage |
 | — | #40 Jokic's preseason pass | **posted Oct 14** (old voice v2, 21 s): **655 views** | 28 REJECT (in hindsight) | A technicality | — | Read at 48 h; no more work |
 | — | #41 Taller than Wemby | **posted Oct 14**: **1,600 views** | 30 REJECT (in hindsight) | Niche player; the hook oversells | — | Read at 48 h |
 | — | #42 LeBron's misses / #43 Wilt's minutes | #42 **rendered (see below)**; #43 blocked | 34 / 36 | #42 done, waiting on the owner | — | #43 parked (needs identifiable Wilt film) |
