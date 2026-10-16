@@ -112,3 +112,11 @@ Owner said "finish all remaining items, do not shutdown". **The PC was NOT shut 
 **Blockers recorded:** the Hub's 1 GB asset storage is FULL (the `4 Raws` music render is not in the Hub); Drift's `.drift` file is binary and `drift-live` was unavailable, so no Drift keyframes were written; no speech-to-text QA on exports (needs a Python with both cv2 and faster-whisper); `qa_short` audio "clipping" is a false alarm on stereo exports.
 
 **Next (in order):** 1. Owner listens to #42 (v1 vs v2, and the music tab) and #36 v3 and says OK or what to change. 2. Owner OKs about 500 voice characters for #10 v2, then fact-check dates and build before Oct 19-20. 3. Free Hub storage (delete superseded assets only with the owner's OK; exact ids only). 4. Check why #25 (196 views) did poorly: open Studio for a claim.
+
+## Claude, Oct 15 late night (PC): FIVE Shorts rendered, Hub cleaned, PC left ON
+
+Nothing posted, scheduled or deleted except Hub preview copies (backup in `Research Notes/Hub backup (Oct 15, 2026)/`). **No shutdown:** the five Shorts need your ear, and another usage cycle may be needed for anything you change.
+- **Status board:** top of `Production Queue.md` (the single source of truth now). Critic review: `Research Notes/Final Critic Review (Oct 15, 2026).md`.
+- **Hub:** shows stages; published list with YouTube ids and views; hold/rejected collapsed; storage is no longer full. One asset (`1fca0f982f3ab1b21b590a11ef86bbf7`) could not be deleted (the permission check blocked it, not retried).
+- **New tools:** `Tools/overlay.py` (words over footage), `music_scan.py`, `words_print.py`, `hub_assets.py`, `hub_cleanup_plan.py`; `assemble.py` now honours `music.json` under Drift.
+- **Known limits:** no render was heard; Drift keyframes not possible (binary project); the speech-to-text export check is skipped; QA's audio-clipping flag is a false alarm.

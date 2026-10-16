@@ -4,6 +4,23 @@
 
 **Owner, Oct 15:** #21 Jokic is ALREADY POSTED. No more work on it (the `_v6` folder stays on disk, unused). **#44 is POSTED (4.4K views at the Oct 15 read). #40 was uploaded twice (ids FYsYr... and mqpMv...): see `Research Notes/Posted Tracker (Oct 15, 2026).csv`. The Hub now shows stages: awaiting OK / editing / need footage / hold-out / posted. The Hub's 1 GB asset storage is FULL: delete superseded assets (owner OK) before the next upload.**
 
+## STATUS BOARD, Oct 15 night (one source of truth; older rows below are history)
+Stages: script, voice, footage, edit, render, QA, owner approval. **Nothing is posted by me. "Owner" = waiting for your ear and OK.** QA = `qa_short.py --full` (only the audio-clip false alarm remains) + frame review; none heard.
+
+| Short | script | voice | footage | edit | render | QA | owner | Files (relative to `Productions/MetaSports/`) |
+|---|---|---|---|---|---|---|---|---|
+| **#10 v2 banner night** (merges #09) | verified, critic 38 | Alex, 1 take | done | done | done | done | **waiting; post Oct 19-20 before the game** | `2026-10-18 10 53 Years for One Banner/_v2/final_nomusic.mp4` (+ `final_music_yuke.mp4`) |
+| **#45 Brunson/Anunoby** | verified, critic 39 | Alex, 1 take | done | done | done | done | waiting | `2026-10-16 45 Did Brunson Actually Miss The Winner/_v1/final_nomusic.mp4` (+ `final_music_dwade.mp4`) |
+| **#42 most misses** | verified | Alex | done | done (v3; v1/v2 older) | done | done | waiting | `2026-10-14 42 Who Has Missed The Most Shots Ever/_v3/final_nomusic.mp4` (+ `final_music_yuke.mp4`) |
+| **#36 Boozer/LeBron** | verified | Alex | done (2007 = ECF) | done (v4) | done | done | waiting; decide the ECF-as-Finals shots | `2026-10-06 36 How Long Was LeBron Pro Before Boozer Was Born/_v4/final_nomusic.mp4` (+ `final_music_areyoulistening.mp4`) |
+| **#46 LeBron fourth team** | verified, critic 38 | Alex, 1 take ("wanna" in the quote) | done | done | done | done | waiting | `2026-10-16 46 Can LeBron Win A Title With A Fourth Team/_v1/final_nomusic.mp4` (+ `final_music_prettifun.mp4`) |
+| #43 Wilt 48.5 min | script-ready | none | **blocked** (no identifiable 1962 film) | - | - | - | - | `2026-10-14 43 ...` |
+
+**Posted (verified against the channel, Oct 15):** 25 Shorts including #44 (4.4K) and #40 uploaded twice. Tracker with YouTube ids: `Research Notes/Posted Tracker (Oct 15, 2026).csv`; Hub has the published list with views.
+**Rejected / on hold:** #26, #27, #37 (Critic v3), #38, #30, #32 (abandoned), #28 (hold to Dec 9-11), #33 (blocked, no footage).
+**Review:** `Research Notes/Final Critic Review (Oct 15, 2026).md`. **Pre-voice checks:** `Research Notes/Pre-Voice Checklist (Oct 15, 2026).md`.
+
+**Next, in order:** (1) you listen to the five (the no-music files are the post-ready ones; music drafts are yours to judge by ear); (2) post #10 on Oct 19 or 20 if you want it, the others from Oct 21; (3) answer: ECF-as-Finals in #36, music yes/no per Short; (4) voice credits left about 1,050 characters (resets Nov 8): spend only on a script that passes the checklist.
 **New Oct 15:**
 - **#44 "Why Does An $8 Million Rookie Still Carry Bags"** (Cooper Flagg): DRAFT, voice A, no music, `qa_short --full` PASS, Critic v3 37/45 APPROVE. Awaiting your approval; `UPLOAD.md` in its folder.
 - **The hook gate** (Playbook, Winning Formula): line 1 = one absolute, curious claim about a famous name, in one sentence, within about 3 s. Target 70%+ "stayed to watch".
