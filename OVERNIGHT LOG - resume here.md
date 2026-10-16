@@ -94,3 +94,21 @@ Then:
 
 ## Needs you
 - Voice: A or F. OK on #36's fan-account clips. Approve or change #44. Nothing may be posted without you.
+
+## Claude, Oct 15 evening (PC): #42 and #36 rendered, Hub and queue cleaned, PC left ON
+
+Owner said "finish all remaining items, do not shutdown". **The PC was NOT shut down.** Nothing was posted or scheduled; Studio was not opened. No keys printed. Usage was not readable in this session (no usage tool); the owner's go-ahead was treated as raising the 50% ceiling for this run.
+
+| Short | State | Where |
+|---|---|---|
+| **#42 Most misses** | RENDERED, voice A (Alex), QA reviewed, no music. v1 is the safe file; v2 adds push-ins; two music tests exist | `Productions/MetaSports/2026-10-14 42 .../_v1/final.mp4`, `_v2/final.mp4`; Hub s42 |
+| **#36 Boozer/LeBron** | v3 REBUILT with sharp footage, voice A, QA reviewed | `.../2026-10-06 36 .../_v3/final.mp4`; Hub s36 top tab. Open: 2007 shots are ECF footage under "Finals" |
+| **#44 Flagg bags** | POSTED by the owner (4.4K views); Hub says posted | Hub s44; tracker |
+| **#10 v2 (merges #09)** | script rewritten, not voiced (voice credits 2,596 left) | `.../2026-10-18 10 .../script_v2.txt`, `REWRITE_v2.md` |
+| #43 Wilt | still blocked (no identifiable 1962 film) | queue |
+
+**Done:** Hub page now shows stages (awaiting OK / editing / need footage / hold-out / posted) and its data was reconciled to the queue; `Research Notes/Posted Tracker (Oct 15, 2026).csv` (all 107 channel Shorts with ids and views; #40 was uploaded twice); content-principles evaluated and installed (`Research Notes/Content Principles Evaluation (Oct 15, 2026).md`); competitor lessons applied (the existing Oct 15 breakdown) in the #10 rewrite; `Research Notes/Editing Practice Log (Oct 15, 2026).md` (what was applied, the music test, tool gotchas).
+
+**Blockers recorded:** the Hub's 1 GB asset storage is FULL (the `4 Raws` music render is not in the Hub); Drift's `.drift` file is binary and `drift-live` was unavailable, so no Drift keyframes were written; no speech-to-text QA on exports (needs a Python with both cv2 and faster-whisper); `qa_short` audio "clipping" is a false alarm on stereo exports.
+
+**Next (in order):** 1. Owner listens to #42 (v1 vs v2, and the music tab) and #36 v3 and says OK or what to change. 2. Owner OKs about 500 voice characters for #10 v2, then fact-check dates and build before Oct 19-20. 3. Free Hub storage (delete superseded assets only with the owner's OK; exact ids only). 4. Check why #25 (196 views) did poorly: open Studio for a claim.
