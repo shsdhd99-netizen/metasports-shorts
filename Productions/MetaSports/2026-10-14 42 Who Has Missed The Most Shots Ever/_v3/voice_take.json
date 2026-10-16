@@ -1,0 +1,17 @@
+[
+ {
+  "take": 1,
+  "ok": false,
+  "score": -94.5,
+  "verdict": "REDO",
+  "issues": [
+   "22.30s  stretched/garbled word \"times.\" (0.87s)"
+  ],
+  "wpm": 163,
+  "hnr": 8.9,
+  "jitter": 2.52,
+  "shimmer": 10.76,
+  "dur": 23.47,
+  "pitch_sd": 4.8
+ }
+]

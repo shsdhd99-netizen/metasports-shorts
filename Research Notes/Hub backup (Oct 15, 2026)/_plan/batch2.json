@@ -1,0 +1,40 @@
+[
+ {
+  "op": "update",
+  "collection": "shorts",
+  "doc_id": "s39-oldest-triple-double",
+  "if_version": 2,
+  "data": {
+   "ytId": "hde8nIE1J4Y",
+   "results": {
+    "when": "2026-10-13",
+    "views": 2100,
+    "viewedPct": null,
+    "avgPct": null,
+    "note": "Oct 14-15 reads; viewedPct = engaged-view ratio from the Studio export"
+   },
+   "versions": [],
+   "covers": []
+  }
+ },
+ {
+  "op": "update",
+  "collection": "shorts",
+  "doc_id": "s40-jokic-pass",
+  "if_version": 5,
+  "data": {
+   "versions": [],
+   "covers": []
+  }
+ },
+ {
+  "op": "update",
+  "collection": "shorts",
+  "doc_id": "s41-sharp",
+  "if_version": 5,
+  "data": {
+   "versions": [],
+   "covers": []
+  }
+ }
+]

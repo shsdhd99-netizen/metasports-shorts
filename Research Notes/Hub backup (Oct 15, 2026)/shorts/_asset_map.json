@@ -1,0 +1,329 @@
+[
+ {
+  "doc": "s01-lebron",
+  "stage": "posted",
+  "assets": [
+   "00f1d8049780b6e61d8e62b3c535daa8",
+   "16e64bafe07380ee10502478abe5dc5d"
+  ],
+  "local": 7
+ },
+ {
+  "doc": "s11-jordan",
+  "stage": "posted",
+  "assets": [
+   "250e4d3e093e294b6639e89e5b3896cf",
+   "90798204bf42e618fe05dfb5776eb9c2"
+  ],
+  "local": 3
+ },
+ {
+  "doc": "s12-duren",
+  "stage": "posted",
+  "assets": [
+   "011a482d3db0e706d17eae961d1dcca9",
+   "9d11a524a1d6476f0c271bda7007ac46",
+   "d6cbb82d7290953006b8011caec0eea9",
+   "48f1c5fe5c9c96f5c9578b7686d906d5",
+   "2757f60e05df767fd203410a6ef9b512"
+  ],
+  "local": 1
+ },
+ {
+  "doc": "s13-kawhi",
+  "stage": "posted",
+  "assets": [
+   "02b78f5576eca9e1134b367a6ed6b7e3",
+   "f2b85e8587583b38df8a3b61914813e0"
+  ],
+  "local": 3
+ },
+ {
+  "doc": "s14-four-stars",
+  "stage": "posted",
+  "assets": [
+   "3fa4dccb85d3804cdc243f34842efcac",
+   "89dfc752b45b7f617ed1aa5ea538c02d"
+  ],
+  "local": 3
+ },
+ {
+  "doc": "s15-adams-gta",
+  "stage": "posted",
+  "assets": [
+   "7ca0a1e1d5b62166fba79f9b433d2bd5",
+   "e68f7b1969c86d3e31355b2061fb7a81"
+  ],
+  "local": 3
+ },
+ {
+  "doc": "s16-giannis-vice-city",
+  "stage": "posted",
+  "assets": [
+   "0b807cb547b9747a861228e3ffdf5bb7",
+   "20cd9e825422ab08ea16efff83dd6515"
+  ],
+  "local": 3
+ },
+ {
+  "doc": "s17-flopping",
+  "stage": "posted",
+  "assets": [
+   "0bf07adcd19a860ef7638dcb855e0fcf",
+   "3d8dc8c29b0e031be4e17c9b2ec43673",
+   "081a6169ae461712bf7d1a8da817f2ad",
+   "5ee4f0186eb965bf642c455866310698"
+  ],
+  "local": 3
+ },
+ {
+  "doc": "s18-lebron-helicopter",
+  "stage": "posted",
+  "assets": [
+   "beac7e481eaa844cea536cc5ca3e984e",
+   "2a01526a9579e92489ba124e6d4ee46b",
+   "35bd543e063c85eeb508f995b4d3397e",
+   "bb173b2a8c6033e76915cf58461efdc7"
+  ],
+  "local": 1
+ },
+ {
+  "doc": "s19-flagg-height",
+  "stage": "posted",
+  "assets": [
+   "44125e4a1ff7bb31046cdf0aac28bc11",
+   "483d8a19264cb7c4113dfa935b5ff440",
+   "e2e8a2fbdabd13c731581767474c5248"
+  ],
+  "local": 3
+ },
+ {
+  "doc": "s20-bad-boys",
+  "stage": "posted",
+  "assets": [
+   "2798dd89771f5e28a5a1c47a8d6d2e10",
+   "715ffb167a0e7fb5872dce669b6227e2"
+  ],
+  "local": 4
+ },
+ {
+  "doc": "s21-jokic-westbrook",
+  "stage": "posted",
+  "assets": [
+   "7473dd2b78bb46435ba9ef9eb5d75077",
+   "4da39728651236c545df027e7a5a7ded",
+   "9796c1bddb9e3a1896e2ea14d5bcd873",
+   "952e7c9c98918a4f840264cc841282b7",
+   "b434b9ea40afefbcf2f572959f1ace65",
+   "dc9879e8a3b86c44efedf4ceffb83052"
+  ],
+  "local": 5
+ },
+ {
+  "doc": "s22-number-six",
+  "stage": "posted",
+  "assets": [
+   "fedf5f8e07efae5ebae9f1180aaec162",
+   "58e0cfa91630e41bbffe26c7d603251a"
+  ],
+  "local": 3
+ },
+ {
+  "doc": "s23-bronny-spot",
+  "stage": "posted",
+  "assets": [
+   "d375bd1e539513f6aa512b4a0ab3fb2a",
+   "6ed082c8525484622aebb8d9db9c9b90"
+  ],
+  "local": 5
+ },
+ {
+  "doc": "s24-bronny-safe",
+  "stage": "posted",
+  "assets": [
+   "5cc4bcbdc094aed478f951e073effb63",
+   "f72fbf1430d3cd66e5cb024bac1fe0b1"
+  ],
+  "local": 3
+ },
+ {
+  "doc": "s25-bronny-better",
+  "stage": "posted",
+  "assets": [
+   "06afa84991947ece8712108656d2079f",
+   "35b870c09fa31dd3099a10ee9e9ba5a6"
+  ],
+  "local": 3
+ },
+ {
+  "doc": "s26-screens",
+  "stage": "rejected",
+  "assets": [
+   "9381a4dcff0dd8966c53c756c1525aed",
+   "b25fbd3faeec2da2583ca68d425be22a",
+   "dc2998cef3470e9a449905644a9f4b7c"
+  ],
+  "local": 2
+ },
+ {
+  "doc": "s27-lottery",
+  "stage": "rejected",
+  "assets": [
+   "04f79107929ed144fff0011c840bf7b7",
+   "3ea7be45eef314d1c9728e864b34e36d",
+   "df7e88da6b47d9fd30e70e9fdcf33f47"
+  ],
+  "local": 5
+ },
+ {
+  "doc": "s28-hinkle",
+  "stage": "blocked",
+  "assets": [
+   "feab4ad544aca0ee26fe87de4a830bf5",
+   "c135ef1c0aafea3f7c1a8f074166d130",
+   "da7a6cd671b458ad409826ecc819ff44"
+  ],
+  "local": 5
+ },
+ {
+  "doc": "s29-underhand",
+  "stage": "posted",
+  "assets": [
+   "d0cac6f46f637de9779d993a9f5211ba",
+   "c6fc77267be0b43c672e0fd1bd21bf69"
+  ],
+  "local": 4
+ },
+ {
+  "doc": "s30-giannis-steps",
+  "stage": "rejected",
+  "assets": [
+   "4d7b66cd6712c5325844346164cffe0f",
+   "eaba2d4f746be25c0f78a91ce055bc82",
+   "ab939deb0810d2f31291f50d31f9f859"
+  ],
+  "local": 0
+ },
+ {
+  "doc": "s32-spurs-lead",
+  "stage": "rejected",
+  "assets": [
+   "001e216ca255ca140a98af9273009a94",
+   "fb335b0d39608d9999f4b6f4f385db99",
+   "bef875b051abf550f06293ef65bc3ce9"
+  ],
+  "local": 1
+ },
+ {
+  "doc": "s33-run-out-players",
+  "stage": "blocked",
+  "assets": [
+   "feb445513417b27e7c4fe8d676573a41",
+   "a6068d4bd1b549fb75aacb1b59f519de"
+  ],
+  "local": 1
+ },
+ {
+  "doc": "s34-2007-draft",
+  "stage": "posted",
+  "assets": [
+   "6ed63c7b41ac2f20e92be62d4c9b0470",
+   "6cbc0c1795aa86ae8a9e9e033597e79e"
+  ],
+  "local": 1
+ },
+ {
+  "doc": "s35-wemby-rugby",
+  "stage": "posted",
+  "assets": [
+   "2ee762efa680d1a25af057e70c3462fa",
+   "bc942bfaa36c9af676cc5269081888f8"
+  ],
+  "local": 1
+ },
+ {
+  "doc": "s36-lebron-boozer",
+  "stage": "ready",
+  "assets": [
+   "be921e308ffb2462d204740ffcb75c30",
+   "56f483ff2b30358e92f967d38f059ca8",
+   "7f626036a95281e1dbade04660ecb4f3",
+   "2d0adb69c7f0656a74f031f0340f0dbb",
+   "ef4e2ba8db65b7d29732f8ee2b4ca311"
+  ],
+  "local": 4
+ },
+ {
+  "doc": "s37-2k27",
+  "stage": "rejected",
+  "assets": [
+   "5f38fe9a601363f12fe4f329ab20aa01",
+   "a531bada6d8fb3a8cd90d71a1199dfe1"
+  ],
+  "local": 0
+ },
+ {
+  "doc": "s38-lebron-promise",
+  "stage": "rejected",
+  "assets": [
+   "f81d4e7d97aa9b8e518794c1697939a3",
+   "3a078ef1614d312a3a0730b3b405bae4",
+   "399acd1511bb64ef6a946908d0757991"
+  ],
+  "local": 1
+ },
+ {
+  "doc": "s39-oldest-triple-double",
+  "stage": "posted",
+  "assets": [
+   "92a1aa15c7719aa3d65fcb96a645fd98",
+   "18b4a3dcc43df303c204c58afec36575"
+  ],
+  "local": 1
+ },
+ {
+  "doc": "s40-jokic-pass",
+  "stage": "posted",
+  "assets": [
+   "57a52aaea0587e8b971d5658c6349097",
+   "83e30f274645a5b66620832c80c92a6b",
+   "340f652c27cd24a21791371f86599e8d",
+   "8a7f4cd2146321b72e8a58722a70e00b",
+   "b656e1e527c00cda48da9e11d02a5765",
+   "f4d02aa904ad670b627da8c8debf0b8b",
+   "dd7640c42a8af150e3988df24384425b",
+   "8ab9961901779c2abca09d9beac8eeef"
+  ],
+  "local": 1
+ },
+ {
+  "doc": "s41-sharp",
+  "stage": "posted",
+  "assets": [
+   "663958e15cc5c153339c57caa8644e1d",
+   "86637ce3ab499b1750d951697113cf85",
+   "1fca0f982f3ab1b21b590a11ef86bbf7",
+   "199f24c66c9ad8a53238ff0650b036da",
+   "9d7507959b4a2e8c99a49eef144ce4ab"
+  ],
+  "local": 1
+ },
+ {
+  "doc": "s42-most-misses",
+  "stage": "ready",
+  "assets": [
+   "f57ef91d2484f34e5ae827ed7d2d0ce7",
+   "b11f83f13bda777ec2e1a82eb23e6fdd",
+   "bbc970f13f8f6499e03583822e77556f"
+  ],
+  "local": 7
+ },
+ {
+  "doc": "s44-flagg-bags",
+  "stage": "posted",
+  "assets": [
+   "a9d963ff38ab7ba81acb9e046a20aed6"
+  ],
+  "local": 0
+ }
+]

@@ -1,0 +1,64 @@
+{
+  "about": "Jokic said his Oct 4 preseason behind-the-back pass to Cam Johnson was probably the best of his NBA career, but preseason assists never go in the book: his total still reads 6,080. Ends on the number.",
+  "covers": [
+    {
+      "assetId": "dd7640c42a8af150e3988df24384425b",
+      "label": "B ring (use with the ring version)"
+    },
+    {
+      "assetId": "8ab9961901779c2abca09d9beac8eeef",
+      "label": "A plain"
+    }
+  ],
+  "name": "Why Jokic's best pass doesn't count",
+  "num": 40,
+  "pinned": "Jokic said it was probably the best pass of his NBA career. Should preseason assists count?",
+  "postNote": "Critic re-check PASS; every clip verified and logged (sources.csv). Music versions added Oct 14: hear them on the Sound Check page first. Log the post time and 'ring + music' or 'ring, no music' in the Outcome Log.",
+  "results": {
+    "note": "old voice v2, 21 s, first read; source: Production Queue Oct 15",
+    "views": 655,
+    "when": "Oct 14"
+  },
+  "slot": 1,
+  "slotLabel": "Wed Oct 14 (RING version; must go before Oct 22)",
+  "status": "posted",
+  "tags": "nikola jokic, jokic best pass, jokic behind the back pass, jokic no look pass, jokic pass cam johnson, cam johnson nuggets, denver nuggets, nuggets preseason, nuggets vs jazz boulder, cu events center, nba preseason 2026, do preseason stats count, jokic career assists, jokic 6080 assists, jokic assists record, best pass ever nba, nba record book, nuggets 2026-27, nba shorts, basketball shorts, nba, jokic highlights, nba passing, jokic mvp, nuggets highlights",
+  "title": "Why Jokic's Best Pass Doesn't Count 😳",
+  "titles": [
+    "Why Jokic's Best Pass Doesn't Count 😳",
+    "Did Jokic's Best Pass Not Count? 😳",
+    "Why Jokic's Best Assist Isn't Official 😳"
+  ],
+  "versions": [
+    {
+      "assetId": "57a52aaea0587e8b971d5658c6349097",
+      "label": "NEW v4 (Oct 14 night): NEW VOICE (Alex) + ring + music. Listen first",
+      "note": "Same script and footage plan, re-voiced with the new house voice: 23.9 s at 220 wpm (the old voice rushed it in 21 s). Two shots re-timed so nothing freezes. QA PASS, -14.7 LUFS. Compare old vs new voice on the Sound Check page. The old-voice versions below stay valid."
+    },
+    {
+      "assetId": "83e30f274645a5b66620832c80c92a6b",
+      "label": "v4 new voice, plain + music",
+      "note": "No ring."
+    },
+    {
+      "assetId": "340f652c27cd24a21791371f86599e8d",
+      "label": "NEW (Oct 14): ring + music. Listen first",
+      "note": "'Clever pulse' bed 20 dB under the voice; silent before 'It isn't.' and before 'Not eighty-one.' QA PASS. Post #40 and #41 the same way (both with music or both without) so the ring-vs-plain test stays fair."
+    },
+    {
+      "assetId": "8a7f4cd2146321b72e8a58722a70e00b",
+      "label": "Ring, no music (critic-passed original)",
+      "note": "Red ring 0-1.5 s. Re-captioned Oct 14."
+    },
+    {
+      "assetId": "b656e1e527c00cda48da9e11d02a5765",
+      "label": "Plain + music",
+      "note": "No ring."
+    },
+    {
+      "assetId": "f4d02aa904ad670b627da8c8debf0b8b",
+      "label": "Plain, no music",
+      "note": "No ring, no music."
+    }
+  ]
+}

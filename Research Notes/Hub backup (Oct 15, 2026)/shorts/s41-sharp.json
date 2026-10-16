@@ -1,0 +1,50 @@
+{
+  "about": "Jamarion Sharp is listed 7-5, taller than Wembanyama's listed 7-4, yet he has never played an NBA game that counts: Dallas cut him twice, the Clippers once, and Toronto gave him a camp deal on Oct 12. The knock is offense: Wemby took 350 threes last season; Sharp, in the G League, took 0.",
+  "covers": [
+    {
+      "assetId": "9d7507959b4a2e8c99a49eef144ce4ab",
+      "label": "A (use this)"
+    }
+  ],
+  "name": "Is anyone taller than Wemby",
+  "num": 41,
+  "pinned": "Should a 7-5 shot blocker get a roster spot without a jump shot?",
+  "postNote": "BEFORE POSTING: check Sharp's status (RealGM / Hoops Rumors). Don't post if he plays a regular-season minute. Every clip verified and logged.",
+  "results": {
+    "note": "first read; source: Production Queue Oct 15",
+    "views": 1600,
+    "when": "Oct 14"
+  },
+  "slot": 2,
+  "slotLabel": "Thu Oct 15 (PLAIN version; re-check his status first; post by about Oct 18)",
+  "status": "posted",
+  "tags": "jamarion sharp, jamarion sharp raptors, tallest nba player, taller than wembanyama, victor wembanyama height, wemby height, 7 foot 5 nba player, toronto raptors, raptors training camp 2026, jamarion sharp clippers, jamarion sharp mavericks, g league defensive player of the year, texas legends, nba preseason 2026, tallest player in the nba 2026, nba giants, exhibit 10 contract, nba shorts, basketball shorts, nba, wembanyama, raptors news",
+  "title": "Is Anyone Taller Than Wemby? 😳",
+  "titles": [
+    "Is Anyone Taller Than Wemby? 😳",
+    "Who's Listed Taller Than Wembanyama? 😳",
+    "Why Hasn't Wemby's Taller Rival Played? 😳"
+  ],
+  "versions": [
+    {
+      "assetId": "663958e15cc5c153339c57caa8644e1d",
+      "label": "NEW v4 (Oct 14 night): NEW VOICE (Alex) + music. Listen first",
+      "note": "v3 footage, re-voiced with the new house voice: 23.6 s at 227 wpm. Plain 'Wembanyama' (no respelling). The bed's decay still starts on 'zero.' QA PASS, -14.6 LUFS. The old-voice versions below stay valid."
+    },
+    {
+      "assetId": "86637ce3ab499b1750d951697113cf85",
+      "label": "NEW v3 (Oct 14): plain + music. Listen first",
+      "note": "v3 swaps the Dallas still (an Imagn agency photo: licence risk) for real Mavericks preseason footage of Sharp (#33, scorebug DAL). 'Dark build' bed fades on 'zero.' QA PASS. Post #40 and #41 the same way (both with music or both without) so the ring-vs-plain test stays fair."
+    },
+    {
+      "assetId": "1fca0f982f3ab1b21b590a11ef86bbf7",
+      "label": "v3 plain, no music",
+      "note": "Same v3 footage fix, no music."
+    },
+    {
+      "assetId": "199f24c66c9ad8a53238ff0650b036da",
+      "label": "OLD v2 (contains the agency photo)",
+      "note": "Critic-passed, but the 6-7 s still is an Imagn photo taken from a news post."
+    }
+  ]
+}

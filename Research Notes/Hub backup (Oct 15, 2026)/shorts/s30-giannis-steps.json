@@ -1,0 +1,33 @@
+{
+  "about": "Gather, one, two: the official travel rule (2025-26 rulebook, no newer edition found). Ends on 'Nothing more is legal.'",
+  "covers": [
+    {
+      "assetId": "ab939deb0810d2f31291f50d31f9f859",
+      "label": "A (use this)"
+    }
+  ],
+  "name": "How many steps can Giannis legally take",
+  "num": 30,
+  "pinned": "Is Giannis traveling or is the gather-step rule broken? Gather, one, two: would you call the third step?",
+  "postNote": "ABANDONED (Critic v2, Oct 14): 2M-view versions exist and no footage proves the step count.",
+  "slot": 0,
+  "slotLabel": "DO NOT POST: Critic v2 (Oct 14) says abandon (2M-view versions exist; no footage proves the step count; a replay)",
+  "status": "rejected",
+  "tags": "giannis antetokounmpo, giannis steps, giannis travel, giannis euro step, gather step, nba traveling rule, nba travel rule explained, how many steps in basketball, euro step rule, zero step, nba rulebook, rule 10 traveling, miami heat giannis, giannis heat, heat 2026-27, nba points of emphasis 2026, nba referees, nba travel or not, giannis dunk, giannis highlights, milwaukee bucks, nba rules explained, basketball rules, nba shorts, basketball shorts, nba",
+  "title": "How Many Steps Can Giannis Legally Take? 👣",
+  "titles": [
+    "How Many Steps Can Giannis Legally Take? 👣"
+  ],
+  "versions": [
+    {
+      "assetId": "4d7b66cd6712c5325844346164cffe0f",
+      "label": "POST THIS: Oct 13 re-render (no clip replays)",
+      "note": "Same cut, re-rendered with the fixed assembler; old export had a looping clip."
+    },
+    {
+      "assetId": "eaba2d4f746be25c0f78a91ce055bc82",
+      "label": "OLD (do not post): Final",
+      "note": "The 'missed travel' clip's player is unnamed in the source so the Short does not name him. No real quote audio. Audio not checked by ear."
+    }
+  ]
+}

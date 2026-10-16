@@ -1,0 +1,32 @@
+{
+  "about": "New NBA rule (from the 2027 draft): no team can pick first in two straight drafts or top five three years running. Orlando won the lottery in 1992 and 1993, Cleveland in 2013 and 2014. Ends on the Wizards consequence (our reading of the rule text).",
+  "covers": [
+    {
+      "assetId": "df7e88da6b47d9fd30e70e9fdcf33f47",
+      "label": "A (use this)"
+    }
+  ],
+  "name": "Why can't teams win back-to-back lotteries",
+  "num": 27,
+  "pinned": "Does the 3-2-1 lottery actually stop tanking, or does it just move it?",
+  "postNote": "REJECTED by Script Critic v3 (Oct 14): a technicality. Kept on disk.",
+  "status": "rejected",
+  "tags": "nba draft lottery, back to back lottery, nba lottery rule, 3-2-1 lottery, nba tanking, orlando magic lottery, shaq draft, nba draft 2027, wizards draft, nba rule change, nba draft rules, nba offseason, nba shorts, basketball shorts",
+  "title": "Why Can't Teams Win Back-To-Back Lotteries? 🎰",
+  "titles": [
+    "Why Can't Teams Win Back-To-Back Lotteries? 🎰",
+    "How Did Orlando Win The Lottery Twice 😳"
+  ],
+  "versions": [
+    {
+      "assetId": "04f79107929ed144fff0011c840bf7b7",
+      "label": "POST THIS: Oct 13 re-render (no clip replays)",
+      "note": "Same cut, re-rendered with the fixed assembler; old export had a looping clip."
+    },
+    {
+      "assetId": "3ea7be45eef314d1c9728e864b34e36d",
+      "label": "OLD (do not post): Final",
+      "note": "24.8 s"
+    }
+  ]
+}

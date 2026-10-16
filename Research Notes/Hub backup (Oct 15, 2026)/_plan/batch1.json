@@ -1,0 +1,397 @@
+[
+ {
+  "op": "update",
+  "collection": "shorts",
+  "doc_id": "s01-lebron",
+  "if_version": 9,
+  "data": {
+   "ytId": "1hxiFdH0ddA",
+   "results": {
+    "when": "2026-10-09",
+    "views": 3900,
+    "viewedPct": 51,
+    "avgPct": 109.84,
+    "note": "Oct 14-15 reads; viewedPct = engaged-view ratio from the Studio export"
+   },
+   "versions": [],
+   "covers": []
+  }
+ },
+ {
+  "op": "update",
+  "collection": "shorts",
+  "doc_id": "s11-jordan",
+  "if_version": 10,
+  "data": {
+   "ytId": "W9DuX2cYmyY",
+   "results": {
+    "when": "2026-10-04",
+    "views": 38,
+    "viewedPct": 44,
+    "avgPct": 63.05,
+    "note": "Oct 14-15 reads; viewedPct = engaged-view ratio from the Studio export"
+   },
+   "versions": [],
+   "covers": []
+  }
+ },
+ {
+  "op": "update",
+  "collection": "shorts",
+  "doc_id": "s12-duren",
+  "if_version": 7,
+  "data": {
+   "ytId": "GXLFoj7QBls",
+   "results": {
+    "when": "2026-10-03",
+    "views": 2800,
+    "viewedPct": 56,
+    "avgPct": 71.11,
+    "note": "Oct 14-15 reads; viewedPct = engaged-view ratio from the Studio export"
+   },
+   "versions": [],
+   "covers": []
+  }
+ },
+ {
+  "op": "update",
+  "collection": "shorts",
+  "doc_id": "s13-kawhi",
+  "if_version": 11,
+  "data": {
+   "ytId": "HUpiKcW60lg",
+   "results": {
+    "when": "2026-10-08",
+    "views": 1800,
+    "viewedPct": 44,
+    "avgPct": 91.9,
+    "note": "Oct 14-15 reads; viewedPct = engaged-view ratio from the Studio export"
+   },
+   "versions": [],
+   "covers": []
+  }
+ },
+ {
+  "op": "update",
+  "collection": "shorts",
+  "doc_id": "s14-four-stars",
+  "if_version": 7,
+  "data": {
+   "ytId": "RIcim5660vI",
+   "results": {
+    "when": "2026-10-07",
+    "views": 1600,
+    "viewedPct": 58,
+    "avgPct": 115.25,
+    "note": "Oct 14-15 reads; viewedPct = engaged-view ratio from the Studio export"
+   },
+   "versions": [],
+   "covers": []
+  }
+ },
+ {
+  "op": "update",
+  "collection": "shorts",
+  "doc_id": "s15-adams-gta",
+  "if_version": 7,
+  "data": {
+   "ytId": "Jbo4jxfz0yw",
+   "results": {
+    "when": "2026-10-06",
+    "views": 5900,
+    "viewedPct": 54,
+    "avgPct": 94.95,
+    "note": "Oct 14-15 reads; viewedPct = engaged-view ratio from the Studio export"
+   },
+   "versions": [],
+   "covers": []
+  }
+ },
+ {
+  "op": "update",
+  "collection": "shorts",
+  "doc_id": "s16-giannis-vice-city",
+  "if_version": 6,
+  "data": {
+   "ytId": "3Mm0nxDct-s",
+   "results": {
+    "when": "2026-10-07",
+    "views": 2800,
+    "viewedPct": 58,
+    "avgPct": 80.26,
+    "note": "Oct 14-15 reads; viewedPct = engaged-view ratio from the Studio export"
+   },
+   "versions": [],
+   "covers": []
+  }
+ },
+ {
+  "op": "update",
+  "collection": "shorts",
+  "doc_id": "s17-flopping",
+  "if_version": 8,
+  "data": {
+   "ytId": "iaRj9O1g-uA",
+   "results": {
+    "when": "2026-10-08",
+    "views": 6700,
+    "viewedPct": 60,
+    "avgPct": 81.27,
+    "note": "Oct 14-15 reads; viewedPct = engaged-view ratio from the Studio export"
+   },
+   "versions": [],
+   "covers": []
+  }
+ },
+ {
+  "op": "update",
+  "collection": "shorts",
+  "doc_id": "s18-lebron-helicopter",
+  "if_version": 4,
+  "data": {
+   "ytId": "_s1pK_f_MmQ",
+   "results": {
+    "when": "2026-10-04",
+    "views": 2800,
+    "viewedPct": 52,
+    "avgPct": 89.79,
+    "note": "Oct 14-15 reads; viewedPct = engaged-view ratio from the Studio export"
+   },
+   "versions": [],
+   "covers": []
+  }
+ },
+ {
+  "op": "update",
+  "collection": "shorts",
+  "doc_id": "s19-flagg-height",
+  "if_version": 7,
+  "data": {
+   "ytId": "V8EoO4g7s_k",
+   "results": {
+    "when": "2026-10-06",
+    "views": 20000,
+    "viewedPct": 52,
+    "avgPct": 102.8,
+    "note": "Oct 14-15 reads; viewedPct = engaged-view ratio from the Studio export"
+   },
+   "versions": [],
+   "covers": []
+  }
+ },
+ {
+  "op": "update",
+  "collection": "shorts",
+  "doc_id": "s20-bad-boys",
+  "if_version": 6,
+  "data": {
+   "ytId": "_ABYy6GqzTM",
+   "results": {
+    "when": "2026-10-10",
+    "views": 1600,
+    "viewedPct": 46,
+    "avgPct": 65.21,
+    "note": "Oct 14-15 reads; viewedPct = engaged-view ratio from the Studio export"
+   },
+   "versions": [],
+   "covers": []
+  }
+ },
+ {
+  "op": "update",
+  "collection": "shorts",
+  "doc_id": "s21-jokic-westbrook",
+  "if_version": 12,
+  "data": {
+   "versions": [],
+   "covers": []
+  }
+ },
+ {
+  "op": "update",
+  "collection": "shorts",
+  "doc_id": "s22-number-six",
+  "if_version": 4,
+  "data": {
+   "ytId": "74hpWW4j5AM",
+   "results": {
+    "when": "2026-10-04",
+    "views": 31000,
+    "viewedPct": 54,
+    "avgPct": 115.55,
+    "note": "Oct 14-15 reads; viewedPct = engaged-view ratio from the Studio export"
+   },
+   "versions": [],
+   "covers": []
+  }
+ },
+ {
+  "op": "update",
+  "collection": "shorts",
+  "doc_id": "s23-bronny-spot",
+  "if_version": 5,
+  "data": {
+   "ytId": "21CMU55yJTE",
+   "results": {
+    "when": "2026-10-11",
+    "views": 9400,
+    "viewedPct": 54,
+    "avgPct": 96.5,
+    "note": "Oct 14-15 reads; viewedPct = engaged-view ratio from the Studio export"
+   },
+   "versions": [],
+   "covers": []
+  }
+ },
+ {
+  "op": "update",
+  "collection": "shorts",
+  "doc_id": "s24-bronny-safe",
+  "if_version": 6,
+  "data": {
+   "ytId": "AwmPdOf5cqc",
+   "results": {
+    "when": "2026-10-05",
+    "views": 5700,
+    "viewedPct": 55,
+    "avgPct": 97.14,
+    "note": "Oct 14-15 reads; viewedPct = engaged-view ratio from the Studio export"
+   },
+   "versions": [],
+   "covers": []
+  }
+ },
+ {
+  "op": "update",
+  "collection": "shorts",
+  "doc_id": "s25-bronny-better",
+  "if_version": 6,
+  "data": {
+   "ytId": "J3dltjY1cJo",
+   "results": {
+    "when": "2026-10-13",
+    "views": 193,
+    "viewedPct": null,
+    "avgPct": null,
+    "note": "Oct 14-15 reads; viewedPct = engaged-view ratio from the Studio export"
+   },
+   "ytId2": "O79rd7rj13w",
+   "versions": [],
+   "covers": []
+  }
+ },
+ {
+  "op": "update",
+  "collection": "shorts",
+  "doc_id": "s26-screens",
+  "if_version": 5,
+  "data": {
+   "versions": [],
+   "covers": []
+  }
+ },
+ {
+  "op": "update",
+  "collection": "shorts",
+  "doc_id": "s27-lottery",
+  "if_version": 5,
+  "data": {
+   "versions": [],
+   "covers": []
+  }
+ },
+ {
+  "op": "update",
+  "collection": "shorts",
+  "doc_id": "s28-hinkle",
+  "if_version": 4,
+  "data": {
+   "versions": [],
+   "covers": []
+  }
+ },
+ {
+  "op": "update",
+  "collection": "shorts",
+  "doc_id": "s29-underhand",
+  "if_version": 2,
+  "data": {
+   "ytId": "ekZ1vvq6tvM",
+   "results": {
+    "when": "2026-10-12",
+    "views": 1400,
+    "viewedPct": null,
+    "avgPct": null,
+    "note": "Oct 14-15 reads; viewedPct = engaged-view ratio from the Studio export"
+   },
+   "versions": [],
+   "covers": []
+  }
+ },
+ {
+  "op": "update",
+  "collection": "shorts",
+  "doc_id": "s32-spurs-lead",
+  "if_version": 4,
+  "data": {
+   "versions": [],
+   "covers": []
+  }
+ },
+ {
+  "op": "update",
+  "collection": "shorts",
+  "doc_id": "s33-run-out-players",
+  "if_version": 3,
+  "data": {
+   "versions": [],
+   "covers": []
+  }
+ },
+ {
+  "op": "update",
+  "collection": "shorts",
+  "doc_id": "s34-2007-draft",
+  "if_version": 2,
+  "data": {
+   "ytId": "Ctm9TiDMl4k",
+   "results": {
+    "when": "2026-10-12",
+    "views": 4800,
+    "viewedPct": null,
+    "avgPct": null,
+    "note": "Oct 14-15 reads; viewedPct = engaged-view ratio from the Studio export"
+   },
+   "versions": [],
+   "covers": []
+  }
+ },
+ {
+  "op": "update",
+  "collection": "shorts",
+  "doc_id": "s35-wemby-rugby",
+  "if_version": 2,
+  "data": {
+   "ytId": "9LZbvH71oBI",
+   "results": {
+    "when": "2026-10-09",
+    "views": 2800,
+    "viewedPct": 53,
+    "avgPct": 77.04,
+    "note": "Oct 14-15 reads; viewedPct = engaged-view ratio from the Studio export"
+   },
+   "versions": [],
+   "covers": []
+  }
+ },
+ {
+  "op": "update",
+  "collection": "shorts",
+  "doc_id": "s38-lebron-promise",
+  "if_version": 5,
+  "data": {
+   "versions": [],
+   "covers": []
+  }
+ }
+]

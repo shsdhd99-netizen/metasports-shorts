@@ -536,7 +536,9 @@ def main():
                     break
                 print(f"  {enc['video']} export failed, trying the next encoder")
             if burn and os.path.exists(out) and duration(out) > total - 0.5:
-                finish(folder, out, final, total, a.caption_style)
+                # music.json (the ducked, dropped bed) used to be honoured only by the ffmpeg engine; on the PC Drift is installed, so the
+                # Drift path silently ignored it (Oct 15, 2026). The command-line --music still goes through Drift's own timeline.
+                finish(folder, out, final, total, a.caption_style, music=(None if a.music else music_plan(folder, a)))
                 out = final
             print(f"Done: {out} ({duration(out):.1f}s)" if os.path.exists(out) and duration(out) > 0
                   else "Export did not finish; open edit.drift in Drift and export from there.")
