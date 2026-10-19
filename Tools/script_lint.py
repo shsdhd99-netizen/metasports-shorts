@@ -50,6 +50,23 @@ def hook_flags(first):
     return f
 
 
+def format42(disp):
+    """Checks for THE #42 FORMAT (Library/THE 42 FORMAT.md): accusation superlative in line 1, the count as its own sentence,
+    a paradox 'And he's...' line, a 'So is he ...? No.' turn, a flip that ends on a number, 65-85 spoken words."""
+    sents = [s.strip() for s in re.split(r"(?<=[.?!:])\s+", disp) if s.strip()]
+    low = [s.lower() for s in sents]
+    say = len(re.findall(r"[A-Za-z0-9']+", disp))
+    checks = {
+        "line 1 is a 'more than anyone / most in NBA history' accusation": bool(low) and bool(re.search(r"(more|most|fewer)\b.*(than anyone|in nba history|ever)", low[0])),
+        "the count is its own sentence (2nd)": len(sents) > 1 and bool(re.fullmatch(r"[\d,.%]+\.?", sents[1].strip())) or (len(low) > 1 and len(low[1].split()) <= 6 and bool(re.search(r"\d|" + NW, low[1]))),
+        "a paradox line 'And he's / And he is ...' by sentence 4": any(re.match(r"and (he|she)('s| is| was| has)", s) for s in low[1:4]),
+        "a turn 'So is/was he ...? No.'": any(re.match(r"so (is|was|does|did) ", s) and s.endswith("?") for s in low) and any(s in ("no.", "no!") for s in low),
+        "the last sentence carries the flip number": bool(sents) and bool(re.search(r"\d|\b(" + NW + r")\b", sents[-1].lower())),
+        "65-85 spoken words": 65 <= say <= 85,
+    }
+    return {"ok": all(checks.values()), "checks": checks}
+
+
 def lint(path):
     raw = open(path, encoding="utf-8-sig").read().strip()
     disp, say = shown(raw), spoken(raw)
@@ -82,7 +99,7 @@ def lint(path):
         mean = sum(lens) / len(lens); sd = (sum((x - mean) ** 2 for x in lens) / len(lens)) ** 0.5
         out["sentence_words"] = lens
         if sd < 3: risks.append(f"even cadence (sentence-length spread {sd:.1f} words): sounds read, not told")
-        if mean < 8: risks.append(f"short choppy sentences (mean {mean:.1f} words): the fact-chain style our weak Shorts used")
+        if mean < 8 and not format42(disp)["ok"]: risks.append(f"short choppy sentences (mean {mean:.1f} words): the fact-chain style our weak Shorts used (not a risk inside THE #42 FORMAT, where #42 averaged 6.3 words)")
     words = [w for w in re.findall(r"[a-z']+", low) if w not in STOP and len(w) > 3]
     rep = sorted({w for w in words if words.count(w) >= 3})
     if rep: risks.append("repeated words (3+): " + ", ".join(rep))
@@ -105,3 +122,7 @@ if __name__ == "__main__":
         print("first sentence:", r["first_sentence"])
         for x in r["risks"]:
             print("  RISK", x)
+        f = format42(shown(open(p, encoding="utf-8-sig").read().strip()))
+        print("  THE #42 FORMAT:", "FITS" if f["ok"] else "does not fit")
+        for k, v in f["checks"].items():
+            print("    " + ("ok  " if v else "MISS") + " " + k)

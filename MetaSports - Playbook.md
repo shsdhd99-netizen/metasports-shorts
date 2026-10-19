@@ -1,5 +1,26 @@
 # MetaSports — The Playbook (Round 2)
 
+## RULE 1 (Oct 19, 2026, owner): ONE FORMAT ONLY: THE #42 FORMAT. Read `Library/THE 42 FORMAT.md` first. It overrides everything below.
+- **The evidence:**
+  - #42 "Who Has Missed The Most Shots In NBA History?": 84.3% stayed (channel record), 25K views at about 3.5 days.
+  - The same week, with the same voice, editor and star (LeBron), the Shorts without this structure did 2-4x worse.
+- **The skeleton:**
+  1. accusation ("[star] has [bad thing] more than anyone in NBA history")
+  2. the count
+  3. "And he's [great]."
+  4. the old record
+  5. a human tie-in
+  6. "So is he [bad]? No."
+  7. two proof numbers
+  8. the flip number
+  
+  About 75 words, 22-25 s; frame 1 = the bad thing happening; 12 shots of about 2 s; words over footage, no cards.
+- **Checks:** `script_lint.py` prints "THE #42 FORMAT: FITS / does not fit". The critic must not APPROVE a script that doesn't fit.
+- **Retired** (on file, not produced): news Shorts, rule explainers, lookalike/feel-good stories, "can he…?" questions, height/number oddities.
+  - #47 Kawhi and #50 Embiid are parked.
+  - #49 Kerr stays an optional off-format draft.
+- **Test:** the next 3 posts in this format. It's proven if 2 of 3 reach 74%+ stayed.
+
 ## THE WINNING FORMULA (canonical, Oct 14, 2026, night; updated that night with the #40/#41 results, Script Critic v3 and the owner's music and voice calls, and on Oct 15 with the YouTube Studio export). Read this first; where anything below disagrees, this wins.
 **Why this exists:**
 - The owner asked to stop changing formats and rules every day.
