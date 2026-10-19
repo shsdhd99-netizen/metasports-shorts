@@ -306,3 +306,45 @@ Source of the scores: Creative System v3 rubric (`Production Queue.md`). The vie
 - **[H] #44 (hook gate) leads the three posts from Oct 14-15.** n=1, so no rule change.
 - **[S] #41 and the #40 re-upload both climbed on day 2-3.** Not every Short peaks on day 1, so keep the 7-day read as the result (the Studio data put most views in week 1, not day 1).
 - Next read: #44 and #42 at 7 days; ask for a Studio export around Oct 22 for "stayed to watch".
+
+## Daily check, Oct 19, 2026, 01:40 UTC (covers the queued Oct 17 and Oct 18 daily checks and the 48 h ring-vs-plain check; free public numbers only)
+`channel_check.py`: **546 subscribers** (+14 since Oct 16), 112 Shorts. **Median of the last 7: 4,300** (the earlier normal: 3,400). Trend: UP.
+
+**New posts by the owner** (found on the channel, not posted by me):
+- #45 Brunson/Anunoby, `TXCDxMFV2kk`
+- #36 Boozer/LeBron, `dQ1i1xzNsPY`
+- #10 banner night, `pJ7PVc__b2k`
+
+Exact post times aren't readable from the cloud (YouTube blocks the per-video page). The Shorts tab order puts them after #46 (Oct 17).
+
+| Short | Views | Change since the Oct 17 Studio export | Note |
+|---|---|---|---|
+| **Who Has Missed The Most Shots In NBA History? (#42, Ro0oa2VLlqA)** | **25,000** | **+18,700** (6,262 at 1.5 days) | **about 3.5 days. Now the 4th-biggest new-era Short, behind #22, #03 and #19.** 84.3% stayed in the export |
+| Why Does An $8 Million Rookie Still Carry Bags? (#44) | 10,000 | +2,200 | about 4 days |
+| Is Anyone Taller Than Wemby? (#41) | 9,700 | +3,400 | still climbing at 5 days |
+| Why Jokic's Best Pass Doesn't Count (#40 re-upload) | 6,500 | +2,300 | |
+| LeBron's Rookie Teammate Now Has A Son In The NBA (#36) | 4,300 | new | under 2 days |
+| Who Actually Won Game 4 Of The Finals? (#45) | 3,000 | new | under 2 days |
+| Jokic Could Break Westbrook's Record By Christmas (#21) | 2,500 | +700 | |
+| Can LeBron Win A Title With A Fourth Team? (#46) | 2,100 | +770 | 49.8% stayed at half a day (export) |
+| Did The NBA Plan LeBron's First Game? (#10) | 1,900 | new | newest |
+| Why Jokic's Best Pass Doesn't Count (#40 original) | 1,600 | +85 | |
+
+**Retention:** vidIQ has 5 credits, under 10, so no paid call. The comparison points stay the same:
+- Wembanyama: 79.5% stayed / 100.3% average view duration
+- Duren: 63.0% / 59.7%
+- #42: 84.3% stayed (Oct 17 export)
+
+**48 h check, ring (#40) vs plain (#41), pair 1 of 3: VOID.**
+- #40 went up **twice** (Oct 14 original 1.6K; Oct 15 re-upload 6.5K). So "the #40 result" has no single value.
+- The owner's upload log doesn't record which audio version either upload used, so M2 can't be confirmed.
+- Pair 1 doesn't count toward the 3 pairs. The ring-vs-plain test stays open, but it's low priority next to the hook findings (Studio Analysis, Oct 17).
+
+**Lessons (evidence tiers):**
+- **[S] #42 confirms the Oct 17 reading.**
+  - The highest stayed % (84.3) went on to the biggest new post since #19: 25K in about 3.5 days.
+  - It went 6.3K → 25K between day 1.5 and day 3.5, so a strong Short can keep climbing past day 2.
+  - Two Shorts (#22, #42) now pair 82%+ stayed with 25K+. No rule change beyond the Oct 17 ones, because this is n=2 at the top.
+- **[H] The LeBron run:** #36 (4.3K), #46 (2.1K) and #10 (1.9K) are LeBron Shorts posted close together, and none is near #42. This supports the Oct 17 "rotate the star" rule, but the posts are under 2 days old. Re-read on Oct 21.
+
+**Next:** read #36, #45 and #10 at 7 days. A new Studio export around Oct 22-24 would give their "stayed".
