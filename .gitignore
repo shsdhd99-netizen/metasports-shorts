@@ -75,3 +75,6 @@ Productions/**/src/
 # YouTube Analytics API (Tools/yt_analytics.py): OAuth client file and tokens never go in git
 Tools/client_secret*.json
 **/yt_token*.json
+
+# Oct 19 2026: audition analysis WAVs are rebuilt from the MP3 takes by the scripts; keep them out of git
+Research Notes/Voice Audition*/takes/*.wav
