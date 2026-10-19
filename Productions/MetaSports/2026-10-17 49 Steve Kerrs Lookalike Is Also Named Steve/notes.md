@@ -1,6 +1,6 @@
 # #49 "This Is Not Steve Kerr" (Steve Gillis, the Kerr lookalike) — Oct 17, 2026
 
-**Status:** script v1 — critic APPROVE 38/45; accuracy PASS. Voiced if credits allow (see `voice_take.json`). Draft only; **not posted**.
+**Status (Oct 19):** **DRAFT RENDERED, awaiting the owner's approval** (`UPLOAD.md`). Voiced (Alex, gate PASS). The "on Friday" sentence was cut from the audio, because the Oct 2026 clip couldn't be confirmed (see UPLOAD.md). Critic 38/45 APPROVE; accuracy PASS on the final script. **Not posted.**
 **Working title:** He's Not Steve Kerr… But His Name Is Steve 😳
 **Concept:** a visible double, in one sentence; a human, funny payoff in Kerr's own words. Tests T3 (a visible object/face hook) in the Oct 17 Studio Analysis.
 **Runtime:** 81 words, about 19-21 s with Alex at speed 1.2.
@@ -14,7 +14,7 @@
 | 4 | The arena put his face on the big screen twice | FOX: "His face was shown on the video board twice before the game began" | PASS |
 | 5 | The TV broadcast said he looks more like Steve than Steve | FOX: "an NBC Sports Bay Area announcer saying, 'He looks more like Steve than Steve.'" | PASS |
 | 6 | His sons, watching at home: "Mommy, there's Daddy" | FOX: his 8- and 6-year-old sons watched at home: "They go, 'Mommy, there's Daddy'" | PASS |
-| 7 | On Friday he was back, and Kerr spotted him again | NBC Sports Bay Area, Oct 17 2026: back at Chase Center "Friday night"; "it appeared as if Kerr couldn't believe his eyes"; it embeds the Polymarket Hoops clip captioned "Steve Kerr was visibly confused seeing a complete doppelgänger" | PASS ("again": in 2024 Kerr gave him a fist pump, FOX) |
+| 7 (CUT Oct 19) | On Friday he was back, and Kerr spotted him again | NBC Sports Bay Area, Oct 17 2026: back at Chase Center "Friday night"; "it appeared as if Kerr couldn't believe his eyes"; it embeds the Polymarket Hoops clip captioned "Steve Kerr was visibly confused seeing a complete doppelgänger" | PASS ("again": in 2024 Kerr gave him a fist pump, FOX) |
 | 8 | Kerr: "I just thought he was strikingly handsome." | FOX, Mar 2024 (said at practice) | PASS; asked as "what **did** Kerr say", past tense, so it isn't presented as new |
 
 **Post timing:** "on Friday" is correct only through about Oct 22. After that, change it to "this month" (re-voice) or don't post.

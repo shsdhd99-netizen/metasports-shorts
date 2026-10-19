@@ -6,6 +6,12 @@
   "zoom": 0.04
  },
  {
+  "clip": "S1.mp4",
+  "anchor": "But his name",
+  "kind": "face",
+  "start": 1.39
+ },
+ {
   "clip": "G2.mp4",
   "anchor": "Steve Gillis teaches",
   "kind": "face",
@@ -21,7 +27,8 @@
   "clip": "G4.mp4",
   "anchor": "the arena put",
   "kind": "face",
-  "start": 7.02
+  "start": 7.02,
+  "zoom": 0.06
  },
  {
   "clip": "G5.mp4",
@@ -37,13 +44,13 @@
   "start": 9.72
  },
  {
-  "clip": "K2.mp4",
+  "clip": "K5.mp4",
   "anchor": "His own sons",
-  "kind": "action",
+  "kind": "face",
   "start": 12.5
  },
  {
-  "clip": "K3.mp4",
+  "clip": "K6.mp4",
   "anchor": "So what did",
   "kind": "face",
   "start": 15.74
@@ -52,7 +59,7 @@
   "clip": "K4.mp4",
   "anchor": "I just thought",
   "kind": "face",
-  "zoom": 0.04,
-  "start": 17.58
+  "start": 17.58,
+  "zoom": 0.03
  }
 ]

@@ -5,9 +5,9 @@
  "fits": [
   {
    "shot": 4,
-   "clip": "G4.mp4",
+   "clip": "G3.mp4",
    "fit": "slowed",
-   "factor": 1.17
+   "factor": 1.094
   }
  ],
  "music": null
