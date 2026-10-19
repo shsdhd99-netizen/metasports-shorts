@@ -262,3 +262,29 @@ Use this for more control:
 - A yt-dlp error means YouTube changed something. Ask Claude to update yt-dlp.
 - ElevenLabs error 401 means the key is wrong; make a new one and paste it into `.env`.
 - If `assemble.py` says "Missing voice.mp3", make the voiceover first.
+
+
+## Daily retention, automatically (Oct 19, 2026)
+**What you get every morning, without screenshots:** for every upload in the last 30 days:
+- views, engaged views, engaged ratio, average % viewed, average view duration, subscribers
+- for Shorts under 14 days old, the **retention curve** (100 points)
+
+It flags:
+- an engaged ratio under 0.50 (likely under 60% stayed)
+- a weak start (under 0.70 still watching at 10% of the runtime)
+- a sharp early drop
+
+**What it can't get:** Studio's exact "Stayed to watch". The API doesn't have it. Export Studio → Content → Shorts once a week (30 s) and drop the zip in chat or in `Research Notes/Studio exports/`.
+
+**One-time setup (owner, on the PC, about 10 minutes):**
+1. Do the "YouTube Analytics API" steps above (Google Cloud project, the two APIs, the OAuth consent screen with yourself as a test user, a Desktop OAuth client saved as `Tools/client_secret.json`).
+2. `python Tools/yt_analytics.py auth`: sign in with the channel's Google account and allow **read-only** access.
+3. Check it: `python Tools/yt_analytics.py daily` should print a table of your last 30 days.
+4. Pick how it runs every day:
+   - **A. From the PC** (simplest): `schtasks /create /sc daily /st 09:00 /tn "MetaSports analytics" /tr "\"C:\path\to\project\Tools\daily_analytics.bat\""`. The PC must be on at 09:00. It pushes the CSVs to git, and the cloud routine reads them.
+   - **B. From the cloud** (works with the PC off):
+     - open the cloud environment's settings (the environment menu in the session title bar → Edit)
+     - add three secrets: `YT_CLIENT_ID` and `YT_CLIENT_SECRET` (from `Tools/client_secret.json`), and `YT_REFRESH_TOKEN` (from `%USERPROFILE%\.metasports\yt_token.json`, the `refresh_token` field)
+     - **never paste them into chat or commit them**
+     - a new cloud session picks them up, and the daily routine then runs `yt_analytics.py daily` itself
+5. Test the parser offline any time: `python Tools/test_yt_analytics.py` (fixture data, not real numbers).
