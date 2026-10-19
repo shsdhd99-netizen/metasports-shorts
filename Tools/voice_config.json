@@ -1,5 +1,5 @@
 {
- "_about": "The house voice, in one place (Oct 14, 2026). voiceover.py and voice_take.py read this file; it overrides ELEVENLABS_VOICE_ID in .env. Change the voice ONLY here, and only after a dated audition and the owner's ear (see Research Notes/Voice Audition (Oct 14, 2026)/README.md). Command-line flags still override single settings for a test.",
+ "_about": "The house voice, in one place (Oct 14, 2026). voiceover.py and voice_take.py read this file; it overrides ELEVENLABS_VOICE_ID in .env. Change the voice ONLY here, and only after a dated audition and the owner's ear (see Research Notes/Voice Audition (Oct 14, 2026)/README.md). Command-line flags still override single settings for a test. Oct 19, 2026: profile designed_v4 added (Round 5); primary unchanged until the live A/B in Research Notes/Voice Audition (Oct 19, 2026)/README.md decides.",
  "default": "primary",
  "profiles": {
   "primary": {
@@ -68,6 +68,25 @@
    "pronunciation": "default",
    "max_pause": 0.38,
    "why": "Round 4: flattest of all five (pitch variety 3.7-3.8, loudness variety 2.2); kept for reference only"
+  },
+  "designed_v4": {
+   "name": "MetaSports Designed Narrator v1 (ElevenLabs text-to-voice, owned by the account), Eleven v4",
+   "voice_id": "ZDWTvr6sH1FkK9WLbGNF",
+   "model": "eleven_v4",
+   "speed": 1.0,
+   "stability": 0.5,
+   "similarity": 0.75,
+   "style": 0.0,
+   "clean": "off",
+   "target_wpm": 214,
+   "max_stretch": 1.3,
+   "max_pause": 0.18,
+   "hnr_min": 7.0,
+   "jitter_max": 3.4,
+   "shimmer_max": 12.5,
+   "pitch_sd_min": 4.5,
+   "pronunciation": "default",
+   "why": "Round 5 (Oct 19, Creator plan): tied with Alex at equal pace (pitch variety 4.9-5.1 vs 5.1-5.4; HNR 9.8-9.9 vs 8.6-9.1; WER equal; 2 takes each). v4 reads ~153 wpm with long pauses, so pauses are cut to 0.18 s and the take is stretched to the #42 pace (214 wpm, x1.25). Unique to us (Alex is the most-used library voice: 1.2M clones) and can't be withdrawn. LIVE A/B against Alex on the next #42-format posts decides; until then Alex stays primary."
   }
  }
 }

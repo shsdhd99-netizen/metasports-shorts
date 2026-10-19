@@ -316,12 +316,21 @@ def main():
     settings = {"stability": a.stability, "similarity_boost": a.similarity, "style": float(a.style), "use_speaker_boost": True}
     if abs(a.speed - 1.0) > 1e-6:
         settings["speed"] = max(0.7, min(1.2, a.speed))
+    if a.model in ("eleven_v4", "eleven_v4_turbo", "eleven_v3"):
+        # Oct 19 2026: v4 takes only Stability and Similarity (no Speed/Style sliders); pace comes from target_wpm + max_pause below
+        settings = {"stability": a.stability, "similarity_boost": a.similarity}
     body = {"text": spoken, "model_id": a.model, "voice_settings": settings}
     if a.prev_text:
         body["previous_text"] = a.prev_text
     if a.next_text:
         body["next_text"] = a.next_text
-    res = call(f"/text-to-speech/{voice}/with-timestamps?output_format=mp3_44100_128", key, body)
+    # Oct 19 2026: the Creator plan allows 192 kbps; fall back to 128 if a cheaper plan refuses it
+    try:
+        res = call(f"/text-to-speech/{voice}/with-timestamps?output_format=mp3_44100_192", key, body)
+    except SystemExit as e:
+        if "output_format" not in str(e) and "192" not in str(e):
+            raise
+        res = call(f"/text-to-speech/{voice}/with-timestamps?output_format=mp3_44100_128", key, body)
     out_dir = os.path.dirname(os.path.abspath(a.script))
     raw_mp3 = os.path.join(out_dir, "voice_raw.mp3")
     open(raw_mp3, "wb").write(base64.b64decode(res["audio_base64"]))
@@ -329,7 +338,10 @@ def main():
     dur = words[-1][2] if words else 0
     factor = 1.0
     if a.target_wpm and dur:
-        raw_wpm = len(words) / (dur / 60)
+        # pace of the speech as it will be AFTER the pause trim below (v4 leaves long pauses; Oct 19 2026)
+        mp = float(prof.get("max_pause", 0) or 0) if a.max_pause is None else a.max_pause
+        trim = sum(max(0.0, words[i + 1][1] - words[i][2] - mp) for i in range(len(words) - 1)) if mp > 0 else 0.0
+        raw_wpm = len(words) / ((dur - trim) / 60)
         want = a.target_wpm / raw_wpm
         factor = max(1.0, min(a.max_stretch, want))
         print(f"Raw pace {raw_wpm:.0f} wpm; wanted x{want:.2f} stretch, using x{factor:.2f}" + ("  (script is long for this voice speed: shorten it or accept a slower read)" if want > a.max_stretch + 0.01 else ""))
