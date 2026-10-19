@@ -348,3 +348,22 @@ Exact post times aren't readable from the cloud (YouTube blocks the per-video pa
 - **[H] The LeBron run:** #36 (4.3K), #46 (2.1K) and #10 (1.9K) are LeBron Shorts posted close together, and none is near #42. This supports the Oct 17 "rotate the star" rule, but the posts are under 2 days old. Re-read on Oct 21.
 
 **Next:** read #36, #45 and #10 at 7 days. A new Studio export around Oct 22-24 would give their "stayed".
+
+## Oct 19, 2026 (evening, 23:08 UTC): daily check (scheduled, read-only)
+**Retention API:** not connected yet. The owner's one-time sign-in (`Tools Guide.md`, "Daily retention, automatically") is still pending, and no PC export is in `Research Notes/Studio exports/api/`. Views only today.
+`channel_check.py`: **546 subscribers** (same as this morning), **113 Shorts** (+1: #49 Kerr is up). Median of the last 7: **4,200** (normal 3,400). Trend: UP.
+
+| Short | Views | Since this morning | #42 FORMAT? |
+|---|---|---|---|
+| **Who Has Missed The Most Shots In NBA History? (#42)** | **25,000** | flat (rounded) | **the format's origin** (84.3% stayed, Oct 17 export) |
+| Why Jokic's Best Pass Doesn't Count (#40 re-upload) | 6,700 | +200 | no |
+| LeBron's Rookie Teammate Now Has A Son In The NBA (#36) | 5,200 | +900 | no |
+| Who Actually Won Game 4 Of The Finals? (#45) | 3,200 | +200 | no |
+| Can LeBron Win A Title With A Fourth Team? (#46) | 2,600 | +500 | no |
+| Did The NBA Plan LeBron's First Game? (#10) | 2,500 | +600 | no |
+| He's Not Steve Kerr… But His Name Is Steve (#49) | 1,700 | new | no (face/oddity) |
+
+**Format test (proven if 2 of the next 3 #42-format posts reach 74%+ stayed):** 0 of 3 posted. #48 (Harden) and #52 (Vince Carter) are drafts awaiting the owner's OK; #51 is blocked on footage. Exact "stayed" only from the weekly Studio export.
+**Retention flags:** none readable without the API or an export.
+**Lesson:** none today (same-day re-read; nothing new at n≥3).
+**Monday reminder:** export Studio > Content > Shorts (30 s) this week for the exact "stayed to watch" on #36, #45, #10, #46 and #49.
