@@ -1,5 +1,7 @@
 # B-roll Sourcing Guide (canonical; Oct 14, 2026; quality standard and QA tools added Oct 15)
 
+> **Oct 19, 2026:** official NBA team-site clips (720p, any era back to about 2014) are searchable and downloadable with `Tools/nba_videos.py` (no account, works in the cloud). Best for the #42 format's frame 1: per-play clips of misses, blocks and turnovers. See `Tools Guide.md`.
+
 This guide answers how we find, check, log and reuse footage for every Short.
 - **What footage should do in a Short:** `MetaSports - Playbook.md` → Creative System v3, §5.
 - **Why:** `Research Notes/Posted Video Audit (Oct 14, 2026).md`, section 10. Our old hits showed the exact moment under nearly every line and kept the broadcast scorebug as proof.

@@ -1,12 +1,11 @@
 # #48 "Who Has Missed The Most Threes Ever?" (James Harden): THE #42 FORMAT, first post of the voice A/B
 
-**Status (Oct 19):** script v2 fits the format (`script_lint`: FITS). **Narrated in both A/B voices**, both passing the voice gate:
-- `_voice_alex/` (Alex v2): 23.5 s, HNR 9.0, pitch variety 5.32
-- `_voice_designed/` (Designed Narrator v4): 23.6 s, HNR 9.3, pitch variety 5.02, stretched x1.30
-
-**Not edited:** the footage the cloud can reach is too wide and small to show Harden clearly (see Footage). Finish on the PC. **Not posted.**
-
-**A/B slot:** the first post in the live voice test, so it uses **Alex** (`_voice_alex`). The designed take is kept for the record.
+**Status (Oct 19, updated 11:45 UTC): EDITED DRAFT, QA PASS, awaiting the owner's approval. Not posted.**
+- File: `DRAFT - awaiting approval - 48 Harden most missed threes (no music).mp4` (23.5 s). Upload package: `UPLOAD.md`. Every clip verified by eye: `sources.csv`, `_audit/final_frames.jpg`.
+- Footage: official NBA.com team-site uploads at 1280x720, found through NBA.com's public content index (see `Tools/nba_videos.py`). Frame 1 is the miss: Harden's step-back three at the Knicks (Jan 23 2019), contested by Mitchell Robinson, then the same play at half speed.
+- Narrated in both A/B voices, both passing the voice gate:
+  - `_voice_alex/` (Alex v2): 23.5 s, HNR 9.0, pitch variety 5.32. **Used in the draft (A/B slot 1 = Alex).**
+  - `_voice_designed/` (Designed Narrator v4): 23.6 s, HNR 9.3, pitch variety 5.02, stretched x1.30.
 
 ## Script v2 (`script.txt`; v1 is in `script_v1.txt`)
 > James Harden has missed more threes than anyone in NBA history. 5,933. And he's made more threes than anyone except Steph Curry. Second in misses is Curry: 5,825. In one season, Harden took 1,028 threes. The most ever. So is he a bad shooter? No. Harden makes thirty-six percent from three. LeBron makes thirty-five. Harden just shot more threes than anyone not named Curry: 9,323.

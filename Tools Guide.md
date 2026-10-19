@@ -1,5 +1,13 @@
 # Tools Guide
 
+> ## Oct 19, 2026: official NBA clips without YouTube
+> - **New `nba_videos.py`**: searches NBA.com's public content index (what the 30 team sites read) and downloads official clips at 1280x720.
+>   - `search --player 201935 --q "step back"` (all team sites), `--team <id>`, `--game 0022401063`, `--grep "block|denies"`, `--max-len 30`.
+>   - `get <mp4 url> --out src/x.mp4`.
+>   - Per-play team clips include the misses and blocks that highlight packages skip. #48's frame 1 (Robinson denies Harden from three) came from the Knicks site this way.
+>   - 720p, so about a 2.7x blow-up in 9:16. On the PC, prefer a 1080p YouTube copy of the same play when there is one.
+> - **`overlay.py`** now runs on Linux too (Liberation Sans Bold when Windows Arial isn't there; override with `OVERLAY_FONT`).
+
 > ## Oct 14, 2026 (evening) changes: footage logs, music, matching (each tested on the ready Shorts)
 > - **New `footage_lib.py`** (guide: `Library/B-roll Sourcing Guide.md`):
 >   - `log <folder>`: creates/refreshes `sources.csv`, one row per clip with the line it sits under.

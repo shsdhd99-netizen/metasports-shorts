@@ -1,5 +1,6 @@
 # CLOUD STATE (single source of truth for any agent or new chat; update as you go)
 Last updated: 2026-10-14 (newest section at the bottom). Branch: `main-329h3w` (draft PR #1). The user posts the videos; NEVER upload/publish or open YouTube Studio.
+**Owner, Oct 19 (standing until they say otherwise):** "you are able to run from my pc now, you do not need to look for cloud solutions." Prefer the PC when the session runs there. Only one format: THE #42 FORMAT (`Library/THE 42 FORMAT.md`).
 
 ## Where everything lives (all in this repo, so any session can read it)
 - Pipeline + quality rules: `.claude/skills/cloud-short/SKILL.md` (start with its QUALITY FORMULA and the evidence-tier rules).

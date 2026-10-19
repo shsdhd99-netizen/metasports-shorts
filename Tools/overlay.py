@@ -13,6 +13,8 @@ Needs ffmpeg with drawtext. Font: Windows Arial Bold.
 import argparse, json, os, subprocess, tempfile
 
 FONT = "C\\:/Windows/Fonts/arialbd.ttf"
+if not os.path.exists("C:/Windows/Fonts/arialbd.ttf"):  # cloud/Linux: Liberation Sans Bold has Arial's metrics
+    FONT = os.environ.get("OVERLAY_FONT", "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf")
 COL = {"white": "white", "orange": "0xFF7A28", "grey": "0xC8D2E6", "red": "0xFF4A3A", "green": "0x4CD07D"}
 
 
