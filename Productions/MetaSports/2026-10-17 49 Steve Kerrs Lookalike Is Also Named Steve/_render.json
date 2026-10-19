@@ -1,0 +1,14 @@
+{
+ "engine": "ffmpeg",
+ "out": "final.mp4",
+ "loop_fix": true,
+ "fits": [
+  {
+   "shot": 4,
+   "clip": "G4.mp4",
+   "fit": "slowed",
+   "factor": 1.17
+  }
+ ],
+ "music": null
+}

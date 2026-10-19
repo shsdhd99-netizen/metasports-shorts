@@ -30,7 +30,7 @@ def shown(text):
     return re.sub(r"\{([^|{}]+)\|[^{}]+\}", r"\1", text)
 
 
-ABSOLUTE = r"\b(only|every|never|nobody|no one|no other|first|last|just|until|ever|still|always|all-time|record|can't|cannot|isn't allowed|not allowed|banned|refused|secret|hidden)\b"
+ABSOLUTE = r"\b(only|every|never|nobody|no one|no other|first|last|just|until|ever|still|always|all-time|record|can't|cannot|isn't allowed|not allowed|banned|refused|secret|hidden|than anyone|in nba history|is not|isn't)\b"
 
 
 def hook_flags(first):

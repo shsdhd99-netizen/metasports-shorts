@@ -45,3 +45,16 @@ Or even when (time (seconds): 9.2) Giannis just did it himself and missed a (tim
 
 # Not available (no captions returned on Oct 15): ViynHMEfThQ "6'8 vs 7'9" (30.9M, 15 s), 49_0qw2PcI0, WiXFPKq-m3k,
 # iWD-Ni10p1w, gD0bACmHMLo "This Cost Them The Game" (7.1M). Some may have no narration. Not reconstructed.
+
+# --- Added Oct 17, 2026: two more high scorers, same method (Parallel Search web_fetch of youtube.com/shorts/<id>, YouTube's own captions, not edited). Views and x_local from scores.csv (Oct 4 pull).
+# Tried and returned no captions: iWD-Ni10p1w (James Harden Makes No Sense), Xry25aRK_pE (He Never Misses a Shot), WiXFPKq-m3k (Professor's move), 49_0qw2PcI0 ("Video unavailable").
+
+== DuIHh-R6Anw | Missing a Free Throw on Purpose? | 10,496,050 views | x13.0 local | 22 s | 2026-03-25
+(time (seconds): 0.0) Why did this player miss this free throw (time (seconds): 1.4) on purpose? You see, when someone misses (time (seconds): 3.16) two free throws in a row, the entire (time (seconds): 4.64) stadium actually gets free chicken. So, (time (seconds): 6.44) when Boban went to the line, he missed (time (seconds): 7.96) the first one, but not on purpose.
+But (time (seconds): 9.64) then, Boban realized the crowd was (time (seconds): 11.04) cheering for him to miss, so he started (time (seconds): 12.36) telling the fans that he would miss the (time (seconds): 13.6) next one. And at this point, the Rockets (time (seconds): 15.24) were eliminated from the playoffs, so (time (seconds): 16.52) nothing mattered.
+So, with Boban being a (time (seconds): 18.24) man of the people, he missed the free (time (seconds): 19.68) throw intentionally, making everyone's (time (seconds): 21.44) night.
+
+== P7ObHXAGgfU | Why Kobe Didn't Like His Teammates | 1,006,463 views | x10.0 local | 21 s | 2026-07-27
+(time (seconds): 0.0) Kobe Bryant was known for not respecting (time (seconds): 1.88) his teammates. And when a former (time (seconds): 3.32) teammate asked him why he was so rude, (time (seconds): 5.12) Kobe actually revealed the real reason.
+(time (seconds): 7.08) As Kobe said, "Everyone else on the (time (seconds): 8.6) Lakers didn't understand work ethic." He (time (seconds): 10.32) would see them come into practice, and (time (seconds): 11.8) once it was over, they would leave (time (seconds): 13.08) immediately. Meanwhile, Kobe himself (time (seconds): 14.84) would still be in the gym working on his (time (seconds): 16.4) game.
+So, he said, "Why should I trust (time (seconds): 17.88) them on the court and pass them the ball (time (seconds): 19.36) when he knows they're not working to get (time (seconds): 20.76) better?"

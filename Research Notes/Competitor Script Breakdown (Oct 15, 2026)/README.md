@@ -235,3 +235,56 @@ This is one pair, not proof, but it lines up with our Studio data: number-led an
 - **The visuals of these exact Shorts.** Watching the top 5 would test the "line 1 points at the clip" reading [H]. It needs the owner to share links that play, or a vidIQ watch (5 credits left, resets Nov 5).
 - **Whether these patterns survive at our size.** CoachClank has 145K subscribers and we have 520. The skeleton matches our own winners, which is the reason to trust it, but the pattern is correlation.
 - **The captions are auto-generated.** A misheard word won't change a structure finding, but don't quote these lines as exact.
+
+## 9. Addendum, Oct 17, 2026: two more transcripts, our newest best and worst, concrete rewrites, method update
+**New real captions** (verbatim in `transcripts/coachclank_top.txt`, appended):
+
+| Short | Views | × local | Line 1 | Turn | Payoff |
+|---|---|---|---|---|---|
+| Missing a Free Throw on Purpose? | 10.5M | 13.0 | "Why did this player miss this free throw on purpose?" (question about the clip on screen) | "But then, Boban realized the crowd was cheering for him to miss" (8-9 s) | the human reason: "a man of the people… making everyone's night" |
+| Why Kobe Didn't Like His Teammates | 1.0M | 10.0 | "Kobe Bryant was known for not respecting his teammates." (an accusation about a legend) | "Kobe actually revealed the real reason" (5 s) | Kobe's own words, last: "Why should I trust them… when he knows they're not working to get better?" |
+
+**Four more captions were tried and failed** (no transcript returned or the video is unavailable). They are listed in the file, not guessed.
+
+**What the two add:**
+- **The Kobe Short is a near-copy of the #42 skeleton**: an accusation about a legend, the question, then his defence in his own words. A 1.0M Short (×10 local) and our record-stay Short share the structure. Two cases, not proof.
+- **Boban** is the "visible oddity plus hidden reason" pattern (Curry Kobes, Giannis game ball): the clip shows something strange; the script supplies the why; the ending is a kindness. Zero numbers in 22 s.
+
+### Our newest best vs worst, read the same way
+| | #42 Most missed shots (84.3% stayed, 6.3K at 1.5 days) | #46 LeBron fourth team (49.8% stayed at 0.5 day) | #20 Bad Boys (47.8%, 1.6K) |
+|---|---|---|---|
+| Line 1 | an accusation about a legend ("has missed more shots than anyone") | a list fact ("Only four players ever…") | a naked number ("Ninety-two point nine.") |
+| Frame 1 | the claim happening (an airball) | LeBron's face | a scuffle |
+| Turn | "So is he a worse shooter? No." | "So why, at forty-one?" | none (a stats chain) |
+| Payoff | one number that flips the insult (31,502 attempts) | his quote about a future that can't be answered | "four tenths of a point apart" |
+
+### Concrete rewrites (structure only; nothing copied)
+**#20 Bad Boys:** opens on a number with no subject, then 8 numbers.
+- **Before:** "Ninety-two point nine. That is what the Bad Boy Pistons allowed per game in the 1989 playoffs."
+- **After:** "The Bad Boy Pistons are called the dirtiest defense ever. And last season's Knicks were just as good. Not as dirty: as good. Detroit allowed about ninety-three points a game. The Knicks allowed a hundred and one. So the Pistons were better? No. They just played slower. Count it per hundred trips down the floor, and the best defense of 1989 and the best of 2026 are four tenths of a point apart."
+- It now has the accusation hook, the question then "No.", and two numbers before the payoff.
+
+**#13 Kawhi picks:** a list of penalties in line 1 (50.0% stayed).
+- **Before:** "The NBA took five first-round picks from the Clippers, fined them $30 million, and suspended their owner for a year…"
+- **After:** "The Clippers gave up ten first-round picks for Kawhi Leonard. Toronto just got him for two." Then the turn: "So who got the better deal?"
+- One number pair in line 1, and a famous name.
+
+**#46 fourth team** (script not in the cloud copy; built on the PC): open on what can be seen, not on the list.
+- **After:** "LeBron James is trying to win a title with a fourth team. Nobody has ever done that as the best player." This needs fact-checking before use (Horry, Salley and Green won with three or more teams as role players).
+- Then end on what he *has* done (four titles with three teams), not on a question about the future.
+
+### Script method update (applies from Oct 17; carried into the Playbook)
+**Retain (confirmed again):**
+- line 1 = one absolute claim about a famous name or the clip on screen
+- the viewer's question out loud, then a short answer ("No.")
+- the payoff in the subject's own words, or one number that flips the claim
+- 0-2 numbers outside a ladder
+
+**Revise:**
+- **The accusation-defence skeleton** (#42, Kobe teammates) is now the first template to try for any stat story: *[legend] has [bad-sounding record]. [the number]. [why that's strange]. So is he [bad]? No. [the flip].*
+- **Frame 1 must show the claim** (the miss, the bounce, the lookalike's face), not the star's face.
+
+**Retire:**
+- **openers that are lists** ("Only four players ever…" on a list rather than an object), penalties or a naked number
+- **future-question premises** ("Can he…?") as the whole Short
+- **a third Short on the same star in one week**
