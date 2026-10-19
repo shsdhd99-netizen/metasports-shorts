@@ -1,0 +1,377 @@
+[
+ {
+  "word": "The",
+  "start": 0.0,
+  "end": 0.128
+ },
+ {
+  "word": "NBA",
+  "start": 0.186,
+  "end": 0.488
+ },
+ {
+  "word": "just",
+  "start": 0.546,
+  "end": 0.662
+ },
+ {
+  "word": "called",
+  "start": 0.685,
+  "end": 0.859
+ },
+ {
+  "word": "a",
+  "start": 0.882,
+  "end": 0.906
+ },
+ {
+  "word": "flop",
+  "start": 0.975,
+  "end": 1.242
+ },
+ {
+  "word": "on",
+  "start": 1.3,
+  "end": 1.347
+ },
+ {
+  "word": "its",
+  "start": 1.382,
+  "end": 1.463
+ },
+ {
+  "word": "best",
+  "start": 1.533,
+  "end": 1.73
+ },
+ {
+  "word": "player",
+  "start": 1.776,
+  "end": 2.043
+ },
+ {
+  "word": "in",
+  "start": 2.078,
+  "end": 2.125
+ },
+ {
+  "word": "the",
+  "start": 2.159,
+  "end": 2.229
+ },
+ {
+  "word": "Finals.",
+  "start": 2.276,
+  "end": 2.775
+ },
+ {
+  "word": "Jalen",
+  "start": 2.833,
+  "end": 3.146
+ },
+ {
+  "word": "Brunson,",
+  "start": 3.193,
+  "end": 3.599
+ },
+ {
+  "word": "in",
+  "start": 3.622,
+  "end": 3.669
+ },
+ {
+  "word": "a",
+  "start": 3.715,
+  "end": 3.738
+ },
+ {
+  "word": "preseason",
+  "start": 3.785,
+  "end": 4.168
+ },
+ {
+  "word": "game",
+  "start": 4.226,
+  "end": 4.447
+ },
+ {
+  "word": "against",
+  "start": 4.47,
+  "end": 4.644
+ },
+ {
+  "word": "Minnesota.",
+  "start": 4.679,
+  "end": 5.224
+ },
+ {
+  "word": "Rudy",
+  "start": 5.259,
+  "end": 5.445
+ },
+ {
+  "word": "Gobert",
+  "start": 5.48,
+  "end": 5.84
+ },
+ {
+  "word": "shoved",
+  "start": 5.898,
+  "end": 6.153
+ },
+ {
+  "word": "him",
+  "start": 6.177,
+  "end": 6.246
+ },
+ {
+  "word": "in",
+  "start": 6.281,
+  "end": 6.327
+ },
+ {
+  "word": "the",
+  "start": 6.362,
+  "end": 6.432
+ },
+ {
+  "word": "back,",
+  "start": 6.467,
+  "end": 6.78
+ },
+ {
+  "word": "and",
+  "start": 6.803,
+  "end": 6.885
+ },
+ {
+  "word": "Brunson",
+  "start": 6.931,
+  "end": 7.221
+ },
+ {
+  "word": "kept",
+  "start": 7.279,
+  "end": 7.442
+ },
+ {
+  "word": "stumbling.",
+  "start": 7.488,
+  "end": 8.057
+ },
+ {
+  "word": "The",
+  "start": 8.081,
+  "end": 8.15
+ },
+ {
+  "word": "referee",
+  "start": 8.197,
+  "end": 8.498
+ },
+ {
+  "word": "called",
+  "start": 8.545,
+  "end": 8.789
+ },
+ {
+  "word": "a",
+  "start": 8.812,
+  "end": 8.835
+ },
+ {
+  "word": "technical",
+  "start": 8.893,
+  "end": 9.207
+ },
+ {
+  "word": "foul.",
+  "start": 9.288,
+  "end": 9.671
+ },
+ {
+  "word": "Under",
+  "start": 9.694,
+  "end": 9.845
+ },
+ {
+  "word": "the",
+  "start": 9.88,
+  "end": 9.95
+ },
+ {
+  "word": "rule,",
+  "start": 10.008,
+  "end": 10.31
+ },
+ {
+  "word": "the",
+  "start": 10.333,
+  "end": 10.403
+ },
+ {
+  "word": "other",
+  "start": 10.449,
+  "end": 10.6
+ },
+ {
+  "word": "team",
+  "start": 10.635,
+  "end": 10.751
+ },
+ {
+  "word": "gets",
+  "start": 10.798,
+  "end": 10.914
+ },
+ {
+  "word": "a",
+  "start": 10.937,
+  "end": 10.96
+ },
+ {
+  "word": "free",
+  "start": 10.995,
+  "end": 11.134
+ },
+ {
+  "word": "throw.",
+  "start": 11.158,
+  "end": 11.436
+ },
+ {
+  "word": "Last",
+  "start": 11.494,
+  "end": 11.727
+ },
+ {
+  "word": "season,",
+  "start": 11.761,
+  "end": 12.063
+ },
+ {
+  "word": "the",
+  "start": 12.086,
+  "end": 12.156
+ },
+ {
+  "word": "league",
+  "start": 12.226,
+  "end": 12.412
+ },
+ {
+  "word": "assessed",
+  "start": 12.435,
+  "end": 12.679
+ },
+ {
+  "word": "only",
+  "start": 12.713,
+  "end": 12.853
+ },
+ {
+  "word": "4",
+  "start": 12.922,
+  "end": 13.143
+ },
+ {
+  "word": "flops",
+  "start": 13.213,
+  "end": 13.561
+ },
+ {
+  "word": "after",
+  "start": 13.596,
+  "end": 13.758
+ },
+ {
+  "word": "postgame",
+  "start": 13.805,
+  "end": 14.118
+ },
+ {
+  "word": "reviews.",
+  "start": 14.141,
+  "end": 14.687
+ },
+ {
+  "word": "All",
+  "start": 14.722,
+  "end": 14.966
+ },
+ {
+  "word": "year.",
+  "start": 15.047,
+  "end": 15.349
+ },
+ {
+  "word": "This",
+  "start": 15.372,
+  "end": 15.511
+ },
+ {
+  "word": "season,",
+  "start": 15.546,
+  "end": 15.836
+ },
+ {
+  "word": "the",
+  "start": 15.86,
+  "end": 15.929
+ },
+ {
+  "word": "NBA",
+  "start": 15.964,
+  "end": 16.289
+ },
+ {
+  "word": "says",
+  "start": 16.336,
+  "end": 16.487
+ },
+ {
+  "word": "those",
+  "start": 16.521,
+  "end": 16.661
+ },
+ {
+  "word": "calls",
+  "start": 16.696,
+  "end": 16.87
+ },
+ {
+  "word": "are",
+  "start": 16.893,
+  "end": 16.963
+ },
+ {
+  "word": "coming.",
+  "start": 16.986,
+  "end": 17.288
+ },
+ {
+  "word": "Even",
+  "start": 17.323,
+  "end": 17.532
+ },
+ {
+  "word": "for",
+  "start": 17.578,
+  "end": 17.682
+ },
+ {
+  "word": "a",
+  "start": 17.706,
+  "end": 17.729
+ },
+ {
+  "word": "Finals",
+  "start": 17.764,
+  "end": 18.054
+ },
+ {
+  "word": "star.",
+  "start": 18.089,
+  "end": 18.762
+ }
+]
