@@ -120,3 +120,10 @@ Nothing posted, scheduled or deleted except Hub preview copies (backup in `Resea
 - **Hub:** shows stages; published list with YouTube ids and views; hold/rejected collapsed; storage is no longer full. One asset (`1fca0f982f3ab1b21b590a11ef86bbf7`) could not be deleted (the permission check blocked it, not retried).
 - **New tools:** `Tools/overlay.py` (words over footage), `music_scan.py`, `words_print.py`, `hub_assets.py`, `hub_cleanup_plan.py`; `assemble.py` now honours `music.json` under Drift.
 - **Known limits:** no render was heard; Drift keyframes not possible (binary project); the speech-to-text export check is skipped; QA's audio-clipping flag is a false alarm.
+## Claude, Oct 19 ~2:30 AM ET (PC): newer cloud commits merged, NOT pushed
+
+- **Oct 14 merge:** already done earlier (cloud-copy sections, `(cloud Oct 15)` twins for #25, no mojibake left). Not redone.
+- **Newer cloud work merged:** `origin/main-329h3w` (`efbe245`, 10 commits: #47-#50, Oct 16-19 daily checks, THE #42 FORMAT spec, voice round 5, `yt_analytics.py`) into the desktop branch as merge commit `1fba9f1`. It was conflict-free, so no hand resolution was needed. No READY TO POST mp4 or key was staged.
+- **Why `sync_verify.py verify` said NOT VERIFIED:** the desktop has `core.autocrlf=true`, so text files are CRLF and their SHA-256 never matches the LF manifest (1,050 false "wrong"). With line endings normalised: 1,775 manifest files, **0 absent**, 1,739 identical, **36 differ**. The 36 are the hand-merged UPLOAD.md/notes.md/captions/sfx files, the Playbook/Queue/START HERE, and Tools edited after the Oct 15 manifest. Expected, not data loss. The `metasports-shorts` clone (`fc2de0f`) is older than the desktop; it was not edited.
+- **To push (owner approves):** the merge `1fba9f1` plus this log commit, text only. Nothing pushed, posted, scheduled or uploaded; Studio not opened; PC not shut down.
+- **Not started:** Oct 14 log steps 2-6 (channel check, QA pass, Hub edit).
