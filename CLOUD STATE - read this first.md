@@ -278,3 +278,11 @@ Research Notes/Round 9 - Competitor Shorts Watched (Oct 5, 2026).md. Findings (n
   - **#28** held to December; **#26, #27, #30, #32, #37, #38** rejected or abandoned earlier.
 - **ElevenLabs:** 3,548 characters left (resets Nov 8), enough for about 3 new Shorts at 2 takes each in one voice.
 - **Still open:** voice A vs F; OK on #36's clips; #44 approval; the owner runs the PC sync.
+
+## Oct 19 (late morning UTC): THE #42 FORMAT production
+- **Owner rules today:** one format only (THE #42 FORMAT); "you are able to run from my PC now" (prefer the PC when the session runs there; the cloud session saw no PC session to reach).
+- **#48 Harden, most missed threes:** EDITED DRAFT, QA PASS, in both A/B voices. Awaiting the owner's OK. Slot 1 = Alex file. `UPLOAD.md` has the title, tags and pinned comment; re-check the counts on posting day.
+- **#51 LeBron, most turnovers:** script FITS, fact-checked, narrated in both voices. Needs frame 1 from the PC: LeBron's inbound stolen by Giddey, Mar 27 2025, a close replay. `PACKAGE.md` has the shot list.
+- **New tool `Tools/nba_videos.py`:** official NBA.com team-site clips at 720p, searchable by player/team/game/text, from the cloud. Per-play clips include misses and blocks. That's how #48 got its frame 1.
+- **Hub:** #10, #36, #42, #45, #46 marked posted; #48 (ready, no video asset: storage full, the file is in the chat and repo) and #51 (blocked: footage) added.
+- **Next:** the owner OKs #48; the PC grabs #51's frame 1 and edits; script B2-B5 from the story bank, each only after its frame-1 clip exists. Daily retention routine keeps running; the owner's one-time Google sign-in (Tools Guide) turns on the API pull.
