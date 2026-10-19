@@ -1,7 +1,8 @@
 # START HERE (updated Oct 19, 2026)
 
 > **Owner standing notes (Oct 19, keep until the owner says otherwise):**
-> - **ONE FORMAT ONLY: THE #42 FORMAT** (`Library/THE 42 FORMAT.md`). No new formats.
+> - **Lead with what WORKS: THE #42 FORMAT** (`Library/THE 42 FORMAT.md`). Owner, Oct 19 (correcting my reading): "i am not limiting you to one format, i just said what WORKS." Most new Shorts use it; other formats are allowed when the story is strong.
+> - **Owner is often away from the PC: source footage yourself in the cloud** (`Tools/nba_videos.py`, X posts via `Tools/x_clip.py`). Never ask for passwords in chat.
 > - **"You are able to run from my PC now, you do not need to look for cloud solutions."** When a session runs on the owner's PC, use the PC (YouTube 1080p sources, local tools) instead of hunting cloud workarounds. A cloud session that can't reach the PC (no PC session visible) says so in one line and carries on with what it can reach.
 
 | You want... | Open |

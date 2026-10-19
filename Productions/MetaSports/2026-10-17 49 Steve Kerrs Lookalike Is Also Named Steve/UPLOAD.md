@@ -1,10 +1,11 @@
-# #49 DRAFT, awaiting the owner's approval: "He's Not Steve Kerr… But His Name Is Steve" (NOT POSTED)
+# #49 APPROVED by the owner (Oct 19), ready to post: "He's Not Steve Kerr… But His Name Is Steve" (not posted yet: the owner posts it)
 
-**File:** `DRAFT - awaiting approval - 49 Kerr lookalike (no music).mp4` (same as `final.mp4`): 19.9 s, 1080x1920, -14 LUFS, Alex voice, captions burned, no music.
+**File:** `READY TO POST - 49 Kerr lookalike (no music).mp4` (also in the Hub) (same as `final.mp4`): 19.9 s, 1080x1920, -14 LUFS, Alex voice, captions burned, no music.
 **Video files are not in git.** Get it from the chat attachment (Oct 19) or rebuild it on the PC: `python Tools/assemble.py --folder "<this folder>" --no-music`, after the clips are re-cut from `src/` (`sources.csv` has every in-point and crop).
 
 **Title:** He's Not Steve Kerr… But His Name Is Steve 😳 #nba
 **Hashtags:** #nba #warriors #shorts
+**Tags:** steve kerr, steve kerr lookalike, steve gillis, warriors fan, kerr doppelganger, golden state warriors, chase center, nba funny moments, steve kerr reaction, nba lookalike, warriors broadcast, strikingly handsome, steve kerr twin, nba fans
 **Pinned comment:** Steve Gillis went viral at his first Warriors game in 2024. Kerr's verdict: "strikingly handsome." 😂
 **Post window:** any time (an evergreen 2024 story). Don't add "this week": the Oct 2026 lookalike clip could not be confirmed as Gillis (notes.md).
 

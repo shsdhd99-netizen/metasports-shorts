@@ -1,4 +1,4 @@
-# THE #42 FORMAT: "Bad record, good reason" (Oct 19, 2026). The only format we produce.
+# THE #42 FORMAT: "Bad record, good reason" (Oct 19, 2026). Our proven format: lead with it (other formats are allowed; owner, Oct 19: "i am not limiting you to one format, i just said what WORKS").
 
 **Why this format:** #42 "Who Has Missed The Most Shots In NBA History?" (Ro0oa2VLlqA, posted Oct 16):
 - **84.3% stayed to watch**, the channel record (Studio export Oct 17)

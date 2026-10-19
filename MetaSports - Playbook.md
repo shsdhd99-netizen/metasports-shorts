@@ -1,6 +1,7 @@
 # MetaSports — The Playbook (Round 2)
 
-## RULE 1 (Oct 19, 2026, owner): ONE FORMAT ONLY: THE #42 FORMAT. Read `Library/THE 42 FORMAT.md` first. It overrides everything below.
+## RULE 1 (Oct 19, 2026, owner): LEAD WITH WHAT WORKS: THE #42 FORMAT. Read `Library/THE 42 FORMAT.md` first.
+Owner's correction the same day: "i am not limiting you to one format, i just said what WORKS." So most new Shorts use the #42 format, and a strong story in another proven shape (e.g. #22 oddity, #44, #49 lookalike) can still be made. Don't invent untested formats.
 - **The evidence:**
   - #42 "Who Has Missed The Most Shots In NBA History?": 84.3% stayed (channel record), 25K views at about 3.5 days.
   - The same week, with the same voice, editor and star (LeBron), the Shorts without this structure did 2-4x worse.

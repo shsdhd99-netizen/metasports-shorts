@@ -1,6 +1,6 @@
 # CLOUD STATE (single source of truth for any agent or new chat; update as you go)
 Last updated: 2026-10-14 (newest section at the bottom). Branch: `main-329h3w` (draft PR #1). The user posts the videos; NEVER upload/publish or open YouTube Studio.
-**Owner, Oct 19 (standing until they say otherwise):** "you are able to run from my pc now, you do not need to look for cloud solutions." Prefer the PC when the session runs there. Only one format: THE #42 FORMAT (`Library/THE 42 FORMAT.md`).
+**Owner, Oct 19 (standing until they say otherwise):** "you are able to run from my pc now, you do not need to look for cloud solutions." Prefer the PC when the session runs there. Lead with THE #42 FORMAT (what works), other formats allowed (`Library/THE 42 FORMAT.md`). When the owner is away from the PC, source footage in the cloud yourself.
 
 ## Where everything lives (all in this repo, so any session can read it)
 - Pipeline + quality rules: `.claude/skills/cloud-short/SKILL.md` (start with its QUALITY FORMULA and the evidence-tier rules).
@@ -280,7 +280,7 @@ Research Notes/Round 9 - Competitor Shorts Watched (Oct 5, 2026).md. Findings (n
 - **Still open:** voice A vs F; OK on #36's clips; #44 approval; the owner runs the PC sync.
 
 ## Oct 19 (late morning UTC): THE #42 FORMAT production
-- **Owner rules today:** one format only (THE #42 FORMAT); "you are able to run from my PC now" (prefer the PC when the session runs there; the cloud session saw no PC session to reach).
+- **Owner rules today:** lead with THE #42 FORMAT because it works (other formats still allowed: owner correction, Oct 19); "you are able to run from my PC now" (prefer the PC when the session runs there; the cloud session saw no PC session to reach).
 - **#48 Harden, most missed threes:** EDITED DRAFT, QA PASS, in both A/B voices. Awaiting the owner's OK. Slot 1 = Alex file. `UPLOAD.md` has the title, tags and pinned comment; re-check the counts on posting day.
 - **#51 LeBron, most turnovers:** script FITS, fact-checked, narrated in both voices. Needs frame 1 from the PC: LeBron's inbound stolen by Giddey, Mar 27 2025, a close replay. `PACKAGE.md` has the shot list.
 - **New tool `Tools/nba_videos.py`:** official NBA.com team-site clips at 720p, searchable by player/team/game/text, from the cloud. Per-play clips include misses and blocks. That's how #48 got its frame 1.

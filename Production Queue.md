@@ -1,18 +1,18 @@
 # MetaSports Production Queue (CANONICAL: the only queue)
 
-**Updated:** Oct 19, 2026 (owner: ONE FORMAT ONLY, THE #42 FORMAT; see the Oct 19 board). Before that: Oct 15, 2026 (the YouTube Studio export: "Stayed to watch" is the gate; hook re-check of the ready scripts). Before that: Oct 14 late night (new stats + Script Critic v3 + rewrites).
+**Updated:** Oct 19, 2026 (owner: lead with THE #42 FORMAT, what works; other formats allowed; see the Oct 19 board). Before that: Oct 15, 2026 (the YouTube Studio export: "Stayed to watch" is the gate; hook re-check of the ready scripts). Before that: Oct 14 late night (new stats + Script Critic v3 + rewrites).
 
 **Owner, Oct 15:** #21 Jokic is ALREADY POSTED. No more work on it (the `_v6` folder stays on disk, unused). **#44 is POSTED (4.4K views at the Oct 15 read). #40 was uploaded twice (ids FYsYr... and mqpMv...): see `Research Notes/Posted Tracker (Oct 15, 2026).csv`. The Hub now shows stages: awaiting OK / editing / need footage / hold-out / posted. The Hub's 1 GB asset storage is FULL: delete superseded assets (owner OK) before the next upload.**
 
-## STATUS BOARD, Oct 19 (newest; one format only: THE #42 FORMAT, `Library/THE 42 FORMAT.md`)
+## STATUS BOARD, Oct 19 (newest; lead with THE #42 FORMAT, `Library/THE 42 FORMAT.md`; other formats allowed)
 Stages: script, voice, footage, edit, render, QA, owner approval. **Nothing is posted by me.** Voice A/B order for the next 4 format posts: Alex, Designed, Alex, Designed (both voices are rendered or narrated for every draft).
 
 | Short | format | script | voice | footage | edit/render | QA | owner | Files (relative to `Productions/MetaSports/`) |
 |---|---|---|---|---|---|---|---|---|
 | **#48 Harden, most missed threes** | #42 | verified, FITS, critic 37 | Alex + Designed | done (12 official NBA.com clips, frame 1 = the miss) | done, both voices | **PASS** | **waiting: A/B slot 1 = the Alex file** | `2026-10-17 48 Who Has Missed The Most Threes Ever/DRAFT - awaiting approval - 48 Harden most missed threes (no music).mp4` (+ the Designed-voice file) |
 | **#51 LeBron, most turnovers** | #42 | verified, FITS, critic 36 | Alex + Designed | **needs frame 1 on the PC** (LeBron's inbound stolen by Giddey, Mar 27 2025, close replay) | - | - | - | `2026-10-19 51 Who Has The Most Turnovers Ever/PACKAGE.md` (A/B slot 2 = Designed) |
-| #49 Steve Kerr's lookalike | off-format (made before the Oct 19 rule) | verified | Alex | done | done | PASS (1 override) | waiting; owner decides if it still posts | `2026-10-17 49 Steve Kerrs Lookalike Is Also Named Steve/DRAFT - awaiting approval - 49 Kerr lookalike (no music).mp4` |
-| #47 same corner, #50 Embiid | off-format | scripts | #47 Alex | blocked / not started | - | - | parked | their `notes.md` |
+| **#49 Steve Kerr's lookalike** | face/oddity | verified | Alex | done | done | PASS (1 override) | **APPROVED Oct 19: ready to post (in the Hub)** | `2026-10-17 49 Steve Kerrs Lookalike Is Also Named Steve/READY TO POST - 49 Kerr lookalike (no music).mp4` |
+| #47 same corner, #50 Embiid | other formats | scripts | #47 Alex | blocked / not started | - | - | parked | their `notes.md` |
 
 **Posted since Oct 15 (owner):** #42 (84.3% stayed, 25K at about 3.5 days), #46, #36, #45, #10.
 **Next format scripts (story bank, `Library/THE 42 FORMAT.md` §5):** B2 Kareem fouls, B3 Harden's 2016-17 turnovers (space from #48), B4 Kobe 6-for-24, B5 Jordan "9,000 shots". Each needs its frame-1 "bad act" clip first (`Tools/nba_videos.py` for per-play team clips; YouTube on the PC).
