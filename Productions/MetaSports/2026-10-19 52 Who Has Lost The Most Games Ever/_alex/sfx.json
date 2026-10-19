@@ -1,0 +1,25 @@
+[
+ {
+  "sfx": "whoosh",
+  "at": 14.56,
+  "len": 1.0,
+  "why": "cut to the dunk as 785 WINS jumps on"
+ },
+ {
+  "sfx": "ding",
+  "at": 16.85,
+  "why": "756 LOSSES lands: wins beat losses"
+ },
+ {
+  "sfx": "riser",
+  "at": 18.4,
+  "len": 1.45,
+  "why": "tension into the 22 reveal"
+ },
+ {
+  "sfx": "pop",
+  "at": 19.9,
+  "len": 0.6,
+  "why": "22 SEASONS appears"
+ }
+]

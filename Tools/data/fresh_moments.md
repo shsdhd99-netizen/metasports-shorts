@@ -1,38 +1,38 @@
-# Fresh NBA moments — 2026-10-04
+# Fresh NBA moments — 2026-10-19
 
 ## Hottest new NBA Shorts from big highlight channels (vs. their normal)
 
 | Heat | Views | Channel | Moment | Link |
 |---|---|---|---|---|
-| 9.2x | 261,000 | Bleacher Report | First look at Bron with the Sixers 👀 | https://www.youtube.com/shorts/Y3uZ9csCyP8 |
-| 5.7x | 49,000 | NBA | This LeBron Oop got everyone hyped 🔥 | https://www.youtube.com/shorts/h9R6oDdY9NU |
-| 3.5x | 30,000 | NBA | First look at LeBron James in the blue & white! | https://www.youtube.com/shorts/SnC3WeEo6_U |
-| 2.6x | 74,000 | Bleacher Report | LeBron likes what he sees from his teammates 🤣 | https://www.youtube.com/shorts/oKtp5V17_xo |
-| 2.1x | 46,000 | ClutchPoints | How Many Duos Are Better Than Luka + AR? 🤔 | https://www.youtube.com/shorts/dA2ZcLK3od0 |
-| 1.7x | 36,000 | ClutchPoints | Can you beat the 2017 Warriors? Play ‘Crush the GOATs’ to find out 👀 | https://www.youtube.com/shorts/SmBxfdE7AkE |
-| 1.6x | 28,000 | House of Highlights | LeBron watching his Sixers😏 | https://www.youtube.com/shorts/mnoCnetvYuU |
-| 1.1x | 9,700 | NBA | Coach Atkinson Challenged @Cleveland Cavaliers  Rookie Meleek Thomas to a Pushup | https://www.youtube.com/shorts/REvTDu8G-Q0 |
-| 1.0x | 8,600 | NBA | The first look at Jaylen Brown on court in Philly! | https://www.youtube.com/shorts/7qo1CcbNww0 |
-| 1.0x | 8,600 | NBA | LeBron, Jaylen, Maxey & Simons get loose from the corner | https://www.youtube.com/shorts/9QWuPLaEojQ |
-| 0.9x | 7,900 | NBA | Daddy duty never stops for Tyrese 😂 | https://www.youtube.com/shorts/_ldnYX6wesg |
-| 0.9x | 19,000 | ClutchPoints | How Many BIGS Are More Reliable Than Joel Embiid? 🤔 | https://www.youtube.com/shorts/cO5tlSXZFF4 |
-| 0.9x | 7,400 | NBA | LeBron James speaks on playing in front of the Philly fans for the first time | https://www.youtube.com/shorts/qM__B8m6zsU |
-| 0.8x | 7,200 | NBA | VJ Edgecombe got UP for this throwdown (📹 via: @sixers ) | https://www.youtube.com/shorts/YySGRia1MM8 |
-| 0.7x | 6,100 | NBA | Joel’s son Arthur showed up dressed like him 🥺💙 | https://www.youtube.com/shorts/oMVi5ZPvW5Q |
+| 7.6x | 291,000 | NBA | Imagine Getting This Shot In Front Of Draymond 👏 | https://www.youtube.com/shorts/L59AKfB36fk |
+| 6.0x | 231,000 | NBA | Klay was testing out the nets in South Beach at practice 🔥 | https://www.youtube.com/shorts/zsTKxx4fofI |
+| 4.3x | 383,000 | House of Highlights | NOOO now Steph Curry is INJURED🚨 | https://www.youtube.com/shorts/CgmXZYYf84k |
+| 3.0x | 116,000 | NBA | This Ja Morant save to Dame from the preseason was insane 🔥 | https://www.youtube.com/shorts/FCjQb2Oo4K0 |
+| 2.5x | 96,000 | NBA | How does Wemby do it?! 🤯 | https://www.youtube.com/shorts/vlwyVuaAieE |
+| 2.1x | 69,000 | Bleacher Report | Steve Kerr says Steph tweaked his ankle and said “he’s fine” 🙏 | https://www.youtube.com/shorts/DjqcRBA6FKA |
+| 1.9x | 72,000 | NBA | Get a behind-the-scenes look of Giannis at Heat practice! 🔥🤩 | https://www.youtube.com/shorts/B9O9lbOKZo0 |
+| 1.1x | 42,000 | NBA | We were witnesses to an all-time preseason dime last week courtesy of Jokić 🤯 | https://www.youtube.com/shorts/Un0kItSJhWk |
+| 1.0x | 15,000 | ClutchPoints | We FOUGHT About James Harden 😭 | https://www.youtube.com/shorts/lvMzPf8r4H4 |
+| 1.0x | 14,000 | ClutchPoints | Who Won More Playoff Games? 🏈 | https://www.youtube.com/shorts/nkIPMwYOkIU |
+| 0.9x | 35,000 | NBA | No, YOU shoot it 😂 | https://www.youtube.com/shorts/0d2Ad_yrwgQ |
+| 0.9x | 33,000 | NBA | One of the cutest Spurs fans we'll ever see 😆😤 (via: robthetxrealtor/IG) | https://www.youtube.com/shorts/53LNc_J_SQk |
+| 0.7x | 27,000 | NBA | Tatum tuned up his pregame ritual with Deuce this preseason 🤝☘️ | https://www.youtube.com/shorts/rcN6jBh1CXY |
+| 0.7x | 10,000 | ClutchPoints | X Teams BETTER Than The Jazz? 🤔 | https://www.youtube.com/shorts/_HA1ERrQfYk |
+| 0.6x | 24,000 | NBA | 😂 Giannis and Bam explain their "fusion" photo at Heat Media Day! | https://www.youtube.com/shorts/RLZ0p9EYrOQ |
 
 ## Top NBA headlines right now (storyline ideas — verify before using)
 
-- Will Kawhi Leonard Make Raptors Debut Tonight? Final Decision Announced - Yahoo Sports
-- Charlotte Hornets jersey history No. 5 Greg Grant 1991-1992 - Rookie Wire
-- Mavericks Sharpshooter Explains Why Now Was the Time to Enter NBA From Europe - Sports Illustrated
-- LeBron James calls scrimmage 'great first step' for new-look 76ers - ESPN
-- LeBron James makes Philadelphia debut in 76ers scrimmage - Yahoo Sports
-- LeBron James' Reason for Wearing No. 9 Jersey at 76ers Practice Revealed in New NBA Rumors - Bleacher Report
-- NBA preseason: 8 intriguing teams to watch, including Giannis Antetokounmpo's Heat - Yahoo Sports
-- How to Watch Heat vs Raptors: NBA Preseason TV Channel, Live Stream - Athlon Sports
-- RJ Barrett scores the first points of the NBA preseason in Québec - NBA.com
-- Battle Heats Up Over NBA Expansion in Las Vegas - Blazer's Edge
-- Where NBA expansion stands ahead of the 2026-27 season - ESPN
-- NBA’s Las Vegas expansion race has 3 finalists, $12B-$13B projected cost - Yahoo Sports
+- NBA predictions: Picks for 2027 champion, MVP, Rookie of the Year, and more - Yahoo Sports
+- Jaylen Brown, Ja Morant and NBA Stars with Most on the Line This Season - Bleacher Report
+- 3 Reasons Why 76ers Could Have a Rough Start to the Regular Season - Sports Illustrated
+- Ben Simmons’ NBA comeback suffers brutal blow in crushing setback with Kings - New York Post
+- Kings guard Ben Simmons suffers torn Achilles tendon during practice Sunday - NBA.com
+- Kings guard Ben Simmons, 30, has torn Achilles tendon, will undergo surgery - ESPN
+- 2026-2027 NBA season expert picks for East, West, Finals champs - ESPN
+- FanDuel Promo Code: Get up to $350 Bonus for Monday Night Football, WNBA Finals, and NBA Tip-Off - Sports Illustrated
+- NBA tells sportsbooks to stop certain bets, restrict parlays - ESPN
+- NBA and sportsbooks agree to ban multiple types of bets - CNBC
+- Knicks waive Bruce Brown, keep James Wiseman ahead of opener - ESPN
+- New Jersey homeowner recreates unforgettable Knicks NBA Finals moment in Halloween display - ABC7 New York
 
 **Next:** pick one → type `/nba-short the moment` in Claude (it runs the copy-check for you).

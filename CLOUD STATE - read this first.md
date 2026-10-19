@@ -286,3 +286,11 @@ Research Notes/Round 9 - Competitor Shorts Watched (Oct 5, 2026).md. Findings (n
 - **New tool `Tools/nba_videos.py`:** official NBA.com team-site clips at 720p, searchable by player/team/game/text, from the cloud. Per-play clips include misses and blocks. That's how #48 got its frame 1.
 - **Hub:** #10, #36, #42, #45, #46 marked posted; #48 (ready, no video asset: storage full, the file is in the chat and repo) and #51 (blocked: footage) added.
 - **Next:** the owner OKs #48; the PC grabs #51's frame 1 and edits; script B2-B5 from the story bank, each only after its frame-1 clip exists. Daily retention routine keeps running; the owner's one-time Google sign-in (Tools Guide) turns on the API pull.
+
+## Oct 19 (afternoon UTC): two more Shorts of our own, brainstorm to render (owner: "produce 2 more shorts of your own")
+- **#52 Vince Carter, most losses ever (THE #42 FORMAT):** 756 losses (most ever), Crawford 718, last game a loss but his last shot a made three, 785 wins, 22 seasons. DRAFT, QA PASS in both voices. A/B slot 2 = Designed (#51 is still blocked). `UPLOAD.md` has title, tags, pinned comment.
+- **#53 Why you can't bet on the opening tip (rule/ban lane):** the AP's Oct 16 2026 memo story (no more opening-tip, miss-next-shot or low-minutes under bets; no stacked under parlays) and why: Jontay Porter (AP, Apr 2024: under three minutes on Mar 20 2024, an $80,000 bet that would have paid $1.1 million, banned for life). DRAFT, QA PASS, Alex voice. Timely: post this week. Safety: no other identifiable player sits under a betting line; the referees' names on one broadcast strip are blurred.
+- **Footage:** all from official NBA.com team-site uploads via `Tools/nba_videos.py` (720p). Copy-check: both FRESH.
+- **Hub:** s52 (both voices) and s53 added with covers; s51 now takes the next open A/B slot.
+- **Nothing posted or scheduled.** Both wait for the owner's listen and OK.
+

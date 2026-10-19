@@ -82,3 +82,5 @@ Research Notes/Voice Audition*/takes/*.wav
 # A/B voice renders link the parent clips/src (symlinks, not committed)
 Productions/**/_designed/clips
 Productions/**/_designed/src
+Productions/**/_alex/clips
+Productions/**/_alex/src

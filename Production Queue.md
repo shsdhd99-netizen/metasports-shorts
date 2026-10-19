@@ -10,13 +10,15 @@ Stages: script, voice, footage, edit, render, QA, owner approval. **Nothing is p
 | Short | format | script | voice | footage | edit/render | QA | owner | Files (relative to `Productions/MetaSports/`) |
 |---|---|---|---|---|---|---|---|---|
 | **#48 Harden, most missed threes** | #42 | verified, FITS, critic 37 | Alex + Designed | done (12 official NBA.com clips, frame 1 = the miss) | done, both voices | **PASS** | **waiting: A/B slot 1 = the Alex file** | `2026-10-17 48 Who Has Missed The Most Threes Ever/DRAFT - awaiting approval - 48 Harden most missed threes (no music).mp4` (+ the Designed-voice file) |
-| **#51 LeBron, most turnovers** | #42 | verified, FITS, critic 36 | Alex + Designed | **needs frame 1 on the PC** (LeBron's inbound stolen by Giddey, Mar 27 2025, close replay) | - | - | - | `2026-10-19 51 Who Has The Most Turnovers Ever/PACKAGE.md` (A/B slot 2 = Designed) |
+| **#51 LeBron, most turnovers** | #42 | verified, FITS, critic 36 | Alex + Designed | **needs frame 1 on the PC** (LeBron's inbound stolen by Giddey, Mar 27 2025, close replay) | - | - | - | `2026-10-19 51 Who Has The Most Turnovers Ever/PACKAGE.md` (takes the next open A/B slot) |
+| **#52 Vince Carter, most losses** | #42 | verified, FITS | Designed + Alex | done (11 official team-site clips) | done, both voices | **PASS** | **waiting: A/B slot 2 = the Designed file** | `2026-10-19 52 Who Has Lost The Most Games Ever/DRAFT - awaiting approval - 52 Vince most losses (Designed voice, no music).mp4` (+ the Alex-voice file) |
+| **#53 Why you can't bet on the opening tip** | rule/ban | verified (AP Oct 16 2026 + AP Apr 2024) | Alex | done (13 official team-site clips) | done | **PASS** | **waiting; timely: post this week** | `2026-10-19 53 Why You Cant Bet On The Opening Tip/DRAFT - awaiting approval - 53 Opening tip bet ban (no music).mp4` |
 | **#49 Steve Kerr's lookalike** | face/oddity | verified | Alex | done | done | PASS (1 override) | **APPROVED Oct 19: ready to post (in the Hub)** | `2026-10-17 49 Steve Kerrs Lookalike Is Also Named Steve/READY TO POST - 49 Kerr lookalike (no music).mp4` |
 | #47 same corner, #50 Embiid | other formats | scripts | #47 Alex | blocked / not started | - | - | parked | their `notes.md` |
 
 **Posted since Oct 15 (owner):** #42 (84.3% stayed, 25K at about 3.5 days), #46, #36, #45, #10.
 **Next format scripts (story bank, `Library/THE 42 FORMAT.md` §5):** B2 Kareem fouls, B3 Harden's 2016-17 turnovers (space from #48), B4 Kobe 6-for-24, B5 Jordan "9,000 shots". Each needs its frame-1 "bad act" clip first (`Tools/nba_videos.py` for per-play team clips; YouTube on the PC).
-**Re-check counts on posting day:** the season starts Oct 20-21; #48 and #51 numbers move with every game.
+**Re-check counts on posting day:** the season starts Oct 20-21; #48 and #51 numbers move with every game (#52's players are retired, so its counts are fixed).
 
 ## STATUS BOARD, Oct 15 night (one source of truth; older rows below are history)
 Stages: script, voice, footage, edit, render, QA, owner approval. **Nothing is posted by me. "Owner" = waiting for your ear and OK.** QA = `qa_short.py --full` (only the audio-clip false alarm remains) + frame review; none heard.

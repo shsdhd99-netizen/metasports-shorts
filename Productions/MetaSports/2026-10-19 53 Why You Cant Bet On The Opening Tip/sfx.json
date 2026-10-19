@@ -1,0 +1,23 @@
+[
+ {
+  "sfx": "pop",
+  "at": 3.85,
+  "len": 0.6,
+  "why": "BANNED appears on the tip"
+ },
+ {
+  "sfx": "ding",
+  "at": 16.43,
+  "why": "$80,000 appears"
+ },
+ {
+  "sfx": "cha_ching",
+  "at": 19.02,
+  "why": "$1.1M payout graphic"
+ },
+ {
+  "sfx": "boom",
+  "at": 21.42,
+  "why": "BANNED FOR LIFE: the one reveal"
+ }
+]
