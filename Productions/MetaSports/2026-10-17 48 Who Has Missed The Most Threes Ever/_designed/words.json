@@ -1,0 +1,327 @@
+[
+ {
+  "word": "James",
+  "start": 0.0,
+  "end": 0.246
+ },
+ {
+  "word": "Harden",
+  "start": 0.308,
+  "end": 0.554
+ },
+ {
+  "word": "has",
+  "start": 0.615,
+  "end": 0.677
+ },
+ {
+  "word": "missed",
+  "start": 0.738,
+  "end": 0.923
+ },
+ {
+  "word": "more",
+  "start": 0.985,
+  "end": 1.169
+ },
+ {
+  "word": "threes",
+  "start": 1.2,
+  "end": 1.477
+ },
+ {
+  "word": "than",
+  "start": 1.569,
+  "end": 1.662
+ },
+ {
+  "word": "anyone",
+  "start": 1.723,
+  "end": 2.092
+ },
+ {
+  "word": "in",
+  "start": 2.154,
+  "end": 2.215
+ },
+ {
+  "word": "NBA",
+  "start": 2.277,
+  "end": 2.646
+ },
+ {
+  "word": "history.",
+  "start": 2.708,
+  "end": 3.146
+ },
+ {
+  "word": "5,933.",
+  "start": 3.238,
+  "end": 4.875
+ },
+ {
+  "word": "And",
+  "start": 4.906,
+  "end": 4.937
+ },
+ {
+  "word": "he's",
+  "start": 4.998,
+  "end": 5.122
+ },
+ {
+  "word": "made",
+  "start": 5.214,
+  "end": 5.306
+ },
+ {
+  "word": "more",
+  "start": 5.398,
+  "end": 5.491
+ },
+ {
+  "word": "threes",
+  "start": 5.552,
+  "end": 5.737
+ },
+ {
+  "word": "than",
+  "start": 5.798,
+  "end": 5.922
+ },
+ {
+  "word": "anyone",
+  "start": 6.045,
+  "end": 6.291
+ },
+ {
+  "word": "except",
+  "start": 6.352,
+  "end": 6.66
+ },
+ {
+  "word": "Steph",
+  "start": 6.722,
+  "end": 6.906
+ },
+ {
+  "word": "Curry.",
+  "start": 6.968,
+  "end": 7.393
+ },
+ {
+  "word": "Second",
+  "start": 7.455,
+  "end": 7.639
+ },
+ {
+  "word": "in",
+  "start": 7.701,
+  "end": 7.762
+ },
+ {
+  "word": "misses",
+  "start": 7.824,
+  "end": 8.132
+ },
+ {
+  "word": "is",
+  "start": 8.193,
+  "end": 8.255
+ },
+ {
+  "word": "Curry:",
+  "start": 8.316,
+  "end": 8.598
+ },
+ {
+  "word": "5,825.",
+  "start": 8.66,
+  "end": 10.239
+ },
+ {
+  "word": "In",
+  "start": 10.332,
+  "end": 10.424
+ },
+ {
+  "word": "one",
+  "start": 10.485,
+  "end": 10.547
+ },
+ {
+  "word": "season,",
+  "start": 10.608,
+  "end": 11.101
+ },
+ {
+  "word": "Harden",
+  "start": 11.162,
+  "end": 11.347
+ },
+ {
+  "word": "took",
+  "start": 11.408,
+  "end": 11.593
+ },
+ {
+  "word": "1,028",
+  "start": 11.655,
+  "end": 12.701
+ },
+ {
+  "word": "threes.",
+  "start": 12.732,
+  "end": 13.316
+ },
+ {
+  "word": "The",
+  "start": 13.378,
+  "end": 13.439
+ },
+ {
+  "word": "most",
+  "start": 13.593,
+  "end": 13.747
+ },
+ {
+  "word": "ever.",
+  "start": 13.808,
+  "end": 14.224
+ },
+ {
+  "word": "So",
+  "start": 14.285,
+  "end": 14.408
+ },
+ {
+  "word": "is",
+  "start": 14.532,
+  "end": 14.593
+ },
+ {
+  "word": "he",
+  "start": 14.624,
+  "end": 14.655
+ },
+ {
+  "word": "a",
+  "start": 14.716,
+  "end": 14.778
+ },
+ {
+  "word": "bad",
+  "start": 14.87,
+  "end": 14.962
+ },
+ {
+  "word": "shooter?",
+  "start": 15.024,
+  "end": 15.481
+ },
+ {
+  "word": "No.",
+  "start": 15.604,
+  "end": 15.875
+ },
+ {
+  "word": "Harden",
+  "start": 15.905,
+  "end": 16.121
+ },
+ {
+  "word": "makes",
+  "start": 16.244,
+  "end": 16.367
+ },
+ {
+  "word": "thirty-six",
+  "start": 16.428,
+  "end": 16.736
+ },
+ {
+  "word": "percent",
+  "start": 16.798,
+  "end": 17.105
+ },
+ {
+  "word": "from",
+  "start": 17.167,
+  "end": 17.228
+ },
+ {
+  "word": "three.",
+  "start": 17.29,
+  "end": 17.632
+ },
+ {
+  "word": "LeBron",
+  "start": 17.694,
+  "end": 18.002
+ },
+ {
+  "word": "makes",
+  "start": 18.094,
+  "end": 18.186
+ },
+ {
+  "word": "thirty-five.",
+  "start": 18.248,
+  "end": 18.799
+ },
+ {
+  "word": "Harden",
+  "start": 18.83,
+  "end": 19.045
+ },
+ {
+  "word": "just",
+  "start": 19.107,
+  "end": 19.23
+ },
+ {
+  "word": "shot",
+  "start": 19.322,
+  "end": 19.415
+ },
+ {
+  "word": "more",
+  "start": 19.538,
+  "end": 19.661
+ },
+ {
+  "word": "threes",
+  "start": 19.722,
+  "end": 19.968
+ },
+ {
+  "word": "than",
+  "start": 20.03,
+  "end": 20.153
+ },
+ {
+  "word": "anyone",
+  "start": 20.215,
+  "end": 20.584
+ },
+ {
+  "word": "not",
+  "start": 20.645,
+  "end": 20.83
+ },
+ {
+  "word": "named",
+  "start": 20.922,
+  "end": 21.015
+ },
+ {
+  "word": "Curry:",
+  "start": 21.076,
+  "end": 21.49
+ },
+ {
+  "word": "9,323.",
+  "start": 21.552,
+  "end": 23.336
+ }
+]

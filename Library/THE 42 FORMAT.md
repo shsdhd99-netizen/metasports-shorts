@@ -73,8 +73,8 @@ The next 3 posts in this format are the test. **Success = 2 of 3 reach 74%+ stay
 ## 5. Story bank for this format (each must pass a fact check before scripting)
 | # | Accusation | Flip | Status |
 |---|---|---|---|
-| #48 | James Harden has missed more threes than anyone (5,933) | Only Curry has made more; Curry took 750 more and missed fewer | **script verified Oct 17**; needs footage |
-| B1 | LeBron has more turnovers than anyone | he has had the ball more than anyone (assists, minutes) | verify (B-Ref career TOV/AST) |
+| #48 | James Harden has missed more threes than anyone (5,933) | Harden makes 36%, LeBron 35%; he just shot more than anyone but Curry (9,323) | **EDITED DRAFT Oct 19, QA PASS**, awaiting approval (A/B slot 1, Alex) |
+| B1 = #51 | LeBron has turned it over more than anyone (5,650) | 3.5 a game vs Westbrook 3.9; most minutes ever (61,030) | **verified, FITS, narrated both voices Oct 19**; needs the frame-1 turnover clip (PC) |
 | B2 | Kareem committed more fouls than anyone | he played more minutes than anyone for 38 years | verify (B-Ref PF, MP) |
 | B3 | Harden's 2016-17: the most turnovers in one season | he led the league in assists that year | verify; a second Harden, so space it |
 | B4 | Kobe went 6-for-24 in Game 7 of the 2010 Finals | Finals MVP; 15 rebounds | verify; single-game variant |

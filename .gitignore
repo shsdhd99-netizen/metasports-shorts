@@ -78,3 +78,7 @@ Tools/client_secret*.json
 
 # Oct 19 2026: audition analysis WAVs are rebuilt from the MP3 takes by the scripts; keep them out of git
 Research Notes/Voice Audition*/takes/*.wav
+
+# A/B voice renders link the parent clips/src (symlinks, not committed)
+Productions/**/_designed/clips
+Productions/**/_designed/src
