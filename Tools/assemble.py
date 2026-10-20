@@ -360,7 +360,9 @@ def ffmpeg_engine(folder, voice, shots, clips, ins, total, a, zooms=()):
     for i, (start, end) in enumerate(shots):
         clip = clips[i % len(clips)]
         offset = ins[i] if i < len(ins) else 0.0
-        want = end - start
+        # Snap both ends to the 30 fps frame grid: each shot otherwise rounds up to a whole frame and the error piles up
+        # (#60, 15 shots: the picture ran 0.11 s past the sound and the later cuts landed late).
+        want = (round(end * 30) - round(start * 30)) / 30
         still = clip.lower().endswith((".jpg", ".jpeg", ".png"))
         vf = f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},setsar=1,fps=30,format=yuv420p"
         z = float(zooms[i]) if i < len(zooms) and zooms[i] else 0.0

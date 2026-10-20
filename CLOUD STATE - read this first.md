@@ -299,3 +299,12 @@ Research Notes/Round 9 - Competitor Shorts Watched (Oct 5, 2026).md. Findings (n
 - **#58:** DRAFT, QA PASS, Alex voice, 28.4 s. Split opening (Knecht over Bronny, #17 CUT / #55 KEPT), flipped at the end. Timely: post Oct 20-21. In the Hub as s58.
 - **Daily stats check (Oct 19, 23:08 UTC):** views only (retention sign-in still pending). Kerr #49 is posted (1.7K, too new).
 
+## Oct 20: first WNBA Shorts (#59, #60), owner request
+- **Owner:** "could you try making some wnba shorts? the most popular topics on youtube, reshape them into its own video."
+- **What's popular (YouTube Shorts search, Oct 20):** fights/techs (Women Hooping: 3.0M, 1.4M), Caitlin Clark and Angel Reese (1.2M; Clark clips 0.6-1.0M), dunks (3.2M), pay ("PAY US WHAT YOU OWE US" 156K). Picked the two lanes we can add facts to: Clark (biggest name) and pay.
+- **#59 WNBA minimum beats last year's max:** $249,244 (2025 max) vs $270,000 (2026 minimum), the March 2026 deal, cap $1.5M to $7M, Wilson reportedly $1.4M. DRAFT, QA PASS, 23.8 s.
+- **#60 Caitlin Clark did what no NBA player has:** 45 and 10 in 29 minutes (Opta: first in NBA or WNBA history under 30 minutes), first WNBA 40-10, six 30-10 games vs one for anyone else, fastest to 200 threes. DRAFT, QA PASS, 28.8 s.
+- **WNBA footage:** wnba.com video plays from a protected stream (not used). Official/news posts on X work: WNBA, Indiana Fever, LV Aces, NBA, NY Post, Ballislife, FOS, SI (`Tools/x_clip.py`).
+- **Tool fix:** `Tools/assemble.py` now snaps each shot to the 30 fps frame grid (#60's 15 shots had drifted 0.11 s past the voice).
+- **Hub:** s59, s60 added. Nothing posted.
+

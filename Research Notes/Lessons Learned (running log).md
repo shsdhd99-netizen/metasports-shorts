@@ -227,3 +227,11 @@ Tiers: [V] verified on our files or data, [S] supported by our numbers (small n)
 - [V] **On a betting story, keep identifiable bystanders off the betting lines.** Wide shots with unreadable numbers for the generic rule lines; the named subject only on the lines about him; say in `notes.md` when a shot is the subject in a different game.
 - [V] **Documentary sources hide cuts from `scene` detection.** ffmpeg's `select=gt(scene,0.25)` found nothing, but `qa_short` flagged a cut 0.07-0.1 s in; frame-by-frame sheets showed a hard cut between two similar shots. Trust the QA flag and move the in-point.
 - [V] **Re-timing sound effects to a second voice can break the 1.5 s spacing.** #52's Alex render moved the riser to 1.38 s before the pop; nudge the effects onto the overlay times again and re-check the spacing.
+
+### Oct 20, 2026 (cloud): first WNBA Shorts (#59, #60)
+- [V] **WNBA video on wnba.com and the NBA content API is a protected stream (no MP4 files).** Use official/news posts on X instead (WNBA, team accounts, NBA, NY Post); `x_clip.py` gets 720p-1080p.
+- [V] **Many short shots drift in the ffmpeg engine.** Each shot rounded up to a whole frame; 15 shots put the picture 0.11 s past the voice (QA FIX). `assemble.py` now snaps shot edges to the 30 fps grid.
+- [V] **Highlight reels hide dissolves.** A close-up in the WNBA reel dissolved into the next play 0.65 s in; a frame-difference check missed it. Look at the last frames of every reel cut, not only the first.
+- [V] **A team's own reel can carry a burned-in stat graphic.** The Aces' Wilson reel had a full-height stat column; crop the clear side (608x1080 at x=472) rather than show conflicting numbers under ours.
+- [S] **Overlays at y=1340 collide with the caption band.** Use y 300-330 above, or y 1480+ below the captions.
+
