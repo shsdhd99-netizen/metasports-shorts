@@ -294,3 +294,8 @@ Research Notes/Round 9 - Competitor Shorts Watched (Oct 5, 2026).md. Findings (n
 - **Hub:** s52 (both voices) and s53 added with covers; s51 now takes the next open A/B slot.
 - **Nothing posted or scheduled.** Both wait for the owner's listen and OK.
 
+## Oct 20 (early UTC): owner request, Knecht/Bronny Short (#58)
+- **Owner:** "the lakers just picked dalton knecht over bronny james. make a short about it!" Reports say the reverse: on Oct 19 the Lakers **waived Knecht (#17 pick) and kept Bronny (#55)** (Shams via Yahoo; ClutchPoints). Built the Short on the reported facts and told the owner.
+- **#58:** DRAFT, QA PASS, Alex voice, 28.4 s. Split opening (Knecht over Bronny, #17 CUT / #55 KEPT), flipped at the end. Timely: post Oct 20-21. In the Hub as s58.
+- **Daily stats check (Oct 19, 23:08 UTC):** views only (retention sign-in still pending). Kerr #49 is posted (1.7K, too new).
+
