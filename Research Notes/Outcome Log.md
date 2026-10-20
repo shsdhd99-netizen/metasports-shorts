@@ -367,3 +367,23 @@ Exact post times aren't readable from the cloud (YouTube blocks the per-video pa
 **Retention flags:** none readable without the API or an export.
 **Lesson:** none today (same-day re-read; nothing new at n≥3).
 **Monday reminder:** export Studio > Content > Shorts (30 s) this week for the exact "stayed to watch" on #36, #45, #10, #46 and #49.
+
+## Oct 20, 2026 (evening, 23:09 UTC): daily check (scheduled, read-only)
+**Retention API:** still not connected (the owner's one-time sign-in in `Tools Guide.md` is pending; no PC export in `Research Notes/Studio exports/api/`). Views only.
+`channel_check.py`: **551 subscribers** (+5 since yesterday), **115 Shorts** (+2). Median of the last 7: **3,600** (normal before that: 4,750). Trend: DOWN, mostly because #42 (25K) and #40 (6.7K) aged out of the window.
+
+**New posts by the owner** (found on the channel, not posted by me): #58 as "The Lakers Just Saved Bronny 😳" (owner's own title) and #53 as "The NBA Just Banned This Bet 😳" (alt title 2). Exact post times aren't readable from the cloud.
+
+| Short | Views | Since yesterday | #42 FORMAT? |
+|---|---|---|---|
+| LeBron's Rookie Teammate Now Has A Son In The NBA (#36) | **6,100** | +900 | no |
+| Did The NBA Plan LeBron's First Game? (#10) | 3,900 | +1,400 | no |
+| He's Not Steve Kerr… But His Name Is Steve (#49) | 3,700 | +2,000 | no (face/oddity) |
+| The Lakers Just Saved Bronny (#58) | 3,600 | new | no (news) |
+| Who Actually Won Game 4 Of The Finals? (#45) | 3,500 | +300 | no |
+| Can LeBron Win A Title With A Fourth Team? (#46) | 3,200 | +600 | no |
+| The NBA Just Banned This Bet (#53) | 1,800 | new | no (rule/ban) |
+
+**Format test:** still 0 of 3 posted (#48 and #52 are drafts awaiting the owner's OK; #51 blocked on footage).
+**Retention flags:** none readable without the API or an export.
+**Lesson:** none (both new posts are under a day old; n=1 each).
