@@ -317,3 +317,11 @@ Research Notes/Round 9 - Competitor Shorts Watched (Oct 5, 2026).md. Findings (n
 - **#63 All three Williamses got a technical:** Thunder at Spurs, Fox threw Holmgren to the floor; flagrant 1 on Fox, technicals on Wembanyama, Jaylin, Jalen and Kenrich Williams (ESPN play-by-play, CBS). Wemby 0-for-12 start, 1-for-13 final; Thunder 116-104, SGA 32. DRAFT, QA PASS, 28.5 s. Hub s63. Listen to the names.
 - **Finding clips fast:** articles about the moment embed the X posts (`curl` the article, grep `x.com/<acct>/status/<id>`); the X profile timeline endpoint is blocked. Multi-angle replay posts (e.g. BrickCenter) give several NBC camera angles of one moment.
 - Nothing posted.
+
+## Oct 21 (afternoon UTC): deep dive on opening night + 2 new Shorts (#64, #65)
+- **Owner:** "do a deep dive on the best/biggest stories of last night, then make 2 shorts for the best stories." Ranking in `Research Notes/Opening Night Deep Dive (Oct 21, 2026).md`.
+- **#64 Wemby's worst shooting night (THE #42 FORMAT):** 1-for-13, career low (old low on 10+ shots 3-13 as a rookie, every ESPN game log checked); first unanimous DPOY; missed his first 12, a rookie (Aday Mara) blocked his dunk; flip: 13 rebounds, 6 blocks, 12 points from one basket. DRAFT, QA PASS, 20.3 s. Hub s64.
+- **#65 LeBron answers a Knicks fan:** "Ain't nothing soft in the Midwest ... I'm from Ohio, baby," said down six; then three straight LeBron baskets in 73 s for Philly's first lead since the 1st quarter, the assist on Brown's buzzer three, 106-100. DRAFT, QA PASS, 21.6 s. Hub s65. The voice take came back 12 dB quiet and was lifted.
+- **Posting overlap:** #62 and #65 are the same game (post one, or a day apart); #63 and #64 both mention 1-for-13 (hours apart).
+- **New source:** ESPN game summary API `videos` (direct 720p MP4s of every ESPN game clip). vidIQ is out of credits.
+- Nothing posted.
