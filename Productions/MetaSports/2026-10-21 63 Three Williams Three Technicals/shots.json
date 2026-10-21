@@ -1,0 +1,135 @@
+[
+ {
+  "clip": "S01.mp4",
+  "kind": "action",
+  "why": "Kenrich Williams (#34 THUNDER) yelling at De'Aaron Fox, Jaylin Williams (#6 WILLIAMS) beside them; slow-motion replay (BrickCenter post of the NBC broadcast)",
+  "start": 0.0,
+  "zoom": 0.06
+ },
+ {
+  "clip": "S02.mp4",
+  "kind": "action",
+  "why": "Overhead: the whole scrum, players and staff (BrickCenter post)",
+  "anchor": "got a technical",
+  "start": 1.5
+ },
+ {
+  "clip": "S02b.mp4",
+  "kind": "action",
+  "anchor": "on the same",
+  "why": "Wide: players from both teams converging on Holmgren (Brett Siegel post of the NBC broadcast)",
+  "start": 2.51
+ },
+ {
+  "clip": "S03.mp4",
+  "kind": "action",
+  "why": "Wide: Fox and Holmgren in the post, 9:22 2nd quarter (BrickCenter post)",
+  "anchor": "It started",
+  "start": 3.43
+ },
+ {
+  "clip": "S04.mp4",
+  "kind": "action",
+  "why": "Baseline replay: Holmgren hits the floor (BrickCenter post)",
+  "anchor": "threw Chet",
+  "start": 4.81
+ },
+ {
+  "clip": "S05.mp4",
+  "kind": "action",
+  "why": "Close: Jaylin Williams (#6 WILLIAMS) shoving, Holmgren (#7) on the floor (BrickCenter post)",
+  "anchor": "Jaylin Williams shoved",
+  "start": 6.26
+ },
+ {
+  "clip": "S06a.mp4",
+  "kind": "face",
+  "why": "Wembanyama close-up walking off after the scuffle (Hoop Central post)",
+  "anchor": "Victor Wembanyama",
+  "start": 7.93
+ },
+ {
+  "clip": "S06b.mp4",
+  "kind": "action",
+  "why": "Replay: Wembanyama (#1) and Jaylin Williams (#6) shoving, staff pulling them apart (BrickCenter post)",
+  "anchor": "got into a shoving",
+  "start": 8.84
+ },
+ {
+  "clip": "S07.mp4",
+  "kind": "action",
+  "why": "Overhead: #34 WILLIAMS (Kenrich) in the scrum (BrickCenter post)",
+  "anchor": "Then Jalen",
+  "start": 10.46
+ },
+ {
+  "clip": "S08o.mp4",
+  "kind": "action",
+  "why": "Mid-court replay of Fox throwing Holmgren (BrickCenter post). Words: FLAGRANT 1, DE'AARON FOX",
+  "anchor": "Fox got a flagrant",
+  "start": 12.59
+ },
+ {
+  "clip": "S09o.mp4",
+  "kind": "face",
+  "why": "Wembanyama close-up at the Spurs bench after the scuffle (Hoop Central post). Words: TECHNICAL, WEMBANYAMA",
+  "anchor": "Wemby got a technical",
+  "start": 13.51
+ },
+ {
+  "clip": "S10o.mp4",
+  "kind": "action",
+  "why": "Overhead: #8 WILLIAMS (Jalen) and #34 WILLIAMS (Kenrich) held back (Hoop Central post). Words: T: JAYLIN / JALEN / KENRICH",
+  "anchor": "And so did all",
+  "start": 14.47
+ },
+ {
+  "clip": "S11.mp4",
+  "kind": "face",
+  "why": "Wembanyama (#1 WEMBANYAMA) close, 2nd quarter (Spurs post of the NBC broadcast)",
+  "anchor": "But Wemby's night",
+  "start": 15.75
+ },
+ {
+  "clip": "S12o.mp4",
+  "kind": "action",
+  "why": "Aday Mara blocks Wembanyama's dunk, 3rd quarter, one of the 12 misses (ClutchPoints post). Words: 0 FOR 12",
+  "anchor": "He missed his first",
+  "start": 17.11
+ },
+ {
+  "clip": "S12bo.mp4",
+  "kind": "action",
+  "why": "Wembanyama (#1) blocking Holmgren (#7), 2nd quarter (Spurs post). Words: 1 FOR 13, WEMBY FINAL",
+  "anchor": "He finished",
+  "start": 19.2
+ },
+ {
+  "clip": "S13o.mp4",
+  "kind": "action",
+  "why": "Shai Gilgeous-Alexander (#2) isolating on Dylan Harper (#2 SAS) (NBA Performances post). Words: FINAL THUNDER 116 SPURS 104",
+  "anchor": "The Thunder won",
+  "start": 20.51
+ },
+ {
+  "clip": "S14o.mp4",
+  "kind": "face",
+  "why": "Shai Gilgeous-Alexander close-up (same post). Words: 32 PTS",
+  "anchor": "and SGA",
+  "start": 23.03
+ },
+ {
+  "clip": "S15.mp4",
+  "kind": "face",
+  "anchor": "Three Williamses,",
+  "why": "Slow-motion close: a Thunder player yelling at Wembanyama (WEMBANYAMA on his back), Kenrich Williams below (BrickCenter post)",
+  "start": 24.69
+ },
+ {
+  "clip": "S01.mp4",
+  "kind": "action",
+  "why": "Loop: back to the opening replay",
+  "anchor": "and a 12",
+  "start": 26.16
+ }
+]

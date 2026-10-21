@@ -6,7 +6,7 @@
 - **Added value:** the full chain of who did what (ESPN play-by-play), plus Wemby's 0-for-12 start and the result.
 
 ## Script (Alex voice)
-> All three Thunder players named Williams got a technical foul, on the same play. It started when De'Aaron Fox threw Chet Holmgren to the floor. Jaylin Williams shoved Fox. Victor Wembanyama got into a shoving match with Jaylin. Then Jalen Williams and Kenrich Williams jumped in. Fox got a flagrant. Wemby got a technical. And so did all three Williamses. But Wemby's night got worse. He missed his first 12 shots. RESULT_LINES
+> All three Thunder players named Williams got a technical foul, on the same play. It started when De'Aaron Fox threw Chet Holmgren to the floor. Jaylin Williams shoved Fox. Victor Wembanyama got into a shoving match with Jaylin. Then Jalen Williams and Kenrich Williams jumped in. Fox got a flagrant. Wemby got a technical. And so did all three Williamses. But Wemby's night got worse. He missed his first 12 shots. He finished 1 for 13. The Thunder won, 116 to 104, and SGA had 32. Three Williamses, three technicals, and a 12-point win.
 
 ## Claims and sources (read Oct 21, 2026, 04:00-04:30 UTC)
 | Claim | Source (exact words) | Check |
@@ -18,7 +18,22 @@
 | Then Jalen and Kenrich Williams jumped in | ClutchPoints: "which led to Jalen Williams and Kenrich Williams also getting involved" | PASS |
 | Fox got a flagrant | ESPN play-by-play: "De'Aaron Fox flagrant foul type 1"; ClutchPoints: "a flagrant foul 1 to Fox for the unnecessary shove to the ground on Holmgren" | PASS |
 | Wemby missed his first 12 shots | CBS: "He had missed his first 12 shots before a make at the rim ... he's 1 of 13 from the field"; ESPN play-by-play: first make "Victor Wembanyama makes 1-foot alley oop dunk" at 0.0 of the 3rd | PASS |
-| RESULT_CLAIMS | | |
+| He finished 1 for 13 | ESPN box score, game 401909090, Final (read Oct 21 04:25 UTC): Wembanyama 34 min, 12 PTS, 1-13 FG, 13 REB, 6 BLK | PASS |
+| Thunder won 116-104, SGA had 32 | ESPN box score, Final: OKC 116, SA 104; Gilgeous-Alexander 32 PTS, 13-27 FG | PASS |
+| A 12-point win | 116 - 104 = 12 | PASS (derived) |
 
 ## Footage
-All tonight's NBA on NBC broadcast, via posts on X: the scuffle from four posts (BrickCenter's multi-angle replay, Hoop Central, ClutchPoints, Brett Siegel), Wemby close-ups (Hoop Central, Spurs), Aday Mara blocking Wemby's dunk (ClutchPoints), SGA (NBA Performances). Full log in `sources.csv`.
+All tonight's NBA on NBC broadcast, via posts on X: the scuffle from three posts (BrickCenter's multi-angle replay, Hoop Central, Brett Siegel), Wemby close-ups (Hoop Central, Spurs), Aday Mara blocking Wemby's dunk (ClutchPoints), SGA (NBA Performances). Full log in `sources.csv`.
+
+## Titles
+1. All Three Williamses Got A Technical 😳
+2. Three Williamses, Three Technicals 💀
+3. Why Three Thunder Players Got Technicals 😳
+
+**Pinned comment:** Fox threw Chet to the floor and three Williamses got T'd up for it. Who was right?
+
+## QA notes (Oct 21)
+- Speech-to-text heard "Kendrick" for Kenrich and "Jaylen" for both Jaylin and Jalen; listen to the names (they are close in sound by nature).
+- The first narration take of piece 1 failed on "Wembanyama" (heard "wemba and yama"); the re-recorded take passed.
+- Every scuffle shot comes from NBC's broadcast via three posts, using its different angles (wide, baseline, mid-court, overhead, close, face close-ups). The close camera appears live (Jaylin shoves Fox) and once more in replay (Wemby and Jaylin), partly the same moment.
+- The Spurs posts are 720x720 (2.67x blow-up).

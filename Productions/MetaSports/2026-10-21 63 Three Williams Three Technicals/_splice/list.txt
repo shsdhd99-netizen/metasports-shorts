@@ -1,0 +1,3 @@
+file '/home/user/metasports-shorts/Productions/MetaSports/2026-10-21 63 Three Williams Three Technicals/_splice/p0.wav'
+file '/home/user/metasports-shorts/Productions/MetaSports/2026-10-21 63 Three Williams Three Technicals/_splice/gap.wav'
+file '/home/user/metasports-shorts/Productions/MetaSports/2026-10-21 63 Three Williams Three Technicals/_splice/p1.wav'
