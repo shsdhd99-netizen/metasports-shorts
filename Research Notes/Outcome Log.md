@@ -387,3 +387,34 @@ Exact post times aren't readable from the cloud (YouTube blocks the per-video pa
 **Format test:** still 0 of 3 posted (#48 and #52 are drafts awaiting the owner's OK; #51 blocked on footage).
 **Retention flags:** none readable without the API or an export.
 **Lesson:** none (both new posts are under a day old; n=1 each).
+
+## Oct 21, 2026 (evening, 23:08 UTC): daily check (scheduled, read-only)
+**Retention API:** still not connected. The owner's one-time sign-in in `Tools Guide.md` is pending, and there is no PC export in `Research Notes/Studio exports/api/`. vidIQ has 0 credits (resets Nov 5). Views only.
+
+`channel_check.py`:
+- **569 subscribers**, up 18 since yesterday, the biggest one-day gain this month.
+- **117 Shorts** (+2).
+- Median of the last 7: **4,600** (normal before that: 3,550). Trend: UP.
+
+**New posts by the owner** (found on the channel, not posted by me): #64 "Wemby Just Had The Worst Night Of His Career 😳" and #48 "Who Has Missed The Most Threes In NBA History? 😳" (the Harden file). Exact post times aren't readable from the cloud.
+
+| Short | Views | Since yesterday | #42 FORMAT? |
+|---|---|---|---|
+| **The Lakers Just Saved Bronny (#58)** | **17,000** | **+13,400** | no (news) |
+| LeBron's Rookie Teammate Now Has A Son In The NBA (#36) | 6,800 | +700 | no |
+| He's Not Steve Kerr… But His Name Is Steve (#49) | 5,300 | +1,600 | no (face/oddity) |
+| Did The NBA Plan LeBron's First Game? (#10) | 4,600 | +700 | no |
+| Wemby Just Had The Worst Night Of His Career (#64) | 2,500 | new (under 1 day) | **yes** (format post 2) |
+| The NBA Just Banned This Bet (#53) | 2,200 | +400 | no (rule/ban) |
+| Who Has Missed The Most Threes In NBA History? (#48) | 1,600 | new (under 1 day) | **yes** (format post 1) |
+
+**Format test (proven if 2 of the next 3 #42-format posts reach 74%+ stayed):**
+- 2 of 3 are now posted (#48, #64).
+- Their "stayed" is only readable from the next Studio export (due around Oct 22-24). Both are under a day old, so their view counts say nothing yet.
+
+**Retention flags:** none readable without the API or an export.
+
+**Lesson [S, n=1, no rule change]:**
+- #58 went from 3.6K to 17K in a day. It is a news story on a famous name (Bronny), with the owner's own title.
+- Like #42 (6.3K → 25K between day 1.5 and 3.5), a Short can break out on day 2.
+- So judge new posts at 3+ days, not at day 1.
