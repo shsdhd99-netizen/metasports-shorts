@@ -1,5 +1,25 @@
 # Tools Guide
 
+> ## Oct 21, 2026: the story format (soccer channel, usable on NBA too)
+> - **New `cut_list.py --folder F`:**
+>   - one `cuts.json` (sources + 40-50 shots, each with an anchor phrase) cuts every clip;
+>   - it supports Mixkit `stock` ids, `still` photos and `page` cards;
+>   - it writes shots.json, runs anchor_shots, warns on clips shorter than their shot, fills sources.csv and draws `_check/sheet.jpg`;
+>   - `--verified` marks the clips verified, after you looked at the sheet.
+> - **New `stock.py`:** Mixkit search with a contact sheet (`search fireworks --sheet s.jpg`) and `get <id> --out src/x.mp4` (1080 -> 720 -> 360, logged). Run searches one at a time.
+> - **`broll.py cut`:**
+>   - `--blurfit`: the whole wide frame at full width over a blurred fill;
+>   - `--delogo x,y,w,h`: blurs a TV channel logo (fractions of the frame).
+> - **`captions.py` / `assemble.py --caption-style ahmed`:**
+>   - TikTok Sans SemiBold 80, white with a thin outline, centred at y=960, 2-3 words a card;
+>   - `title_caption.txt` in the folder makes the first card the full title on 1-2 lines.
+>   - Fonts are in `Tools/fonts/` (OFL).
+> - **`qa_short.py --profile story`:** automatic under `Soccer Channel/`. It allows 58-88 s, a title card that holds, and no loop rule.
+> - **`footage_qc.py`:** blur-fit shots are measured on their full-width foreground; in the story profile, archive blow-up of 3-6x is a warning.
+> - **`export_check.py`:** a two-line caption card is measured line by line.
+> - **New music:** `Library/Music/eleven_story_01.mp3`, a 75 s steady story bed (candidate; the owner has not listened).
+> - **Skill:** `.claude/skills/story-short/` (`/story-short`), with a zip for claude.ai at `Soccer Channel/story-short-skill.zip`.
+
 > ## Oct 19, 2026: official NBA clips without YouTube
 > - **New `nba_videos.py`**: searches NBA.com's public content index (what the 30 team sites read) and downloads official clips at 1280x720.
 >   - `search --player 201935 --q "step back"` (all team sites), `--team <id>`, `--game 0022401063`, `--grep "block|denies"`, `--max-len 30`.

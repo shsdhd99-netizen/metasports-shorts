@@ -20,6 +20,7 @@
 | **Music** (library, licences, choosing a bed, levels, tests) | `Library/Music Guide.md` (+ `Library/Music/music_library.csv`) |
 | **Sounds and copyrighted/trending music** (your tracks, CoachClank's sound, what YouTube allows by route, trends) | `Library/Sound Library.md` |
 | **What our old hit Shorts did** (watched scene by scene, vs our new builds) | `Research Notes/Posted Video Audit (Oct 14, 2026).md` section 10 (+ the watch-reports appendix) |
+| **NEW Oct 21: the SOCCER channel** (its own space: drafts S01/S02, name, ideas, skill `/story-short`) | `Soccer Channel/START HERE.md` |
 | **Current state, open decisions, handoff** (for any new session) | `CLOUD STATE - read this first.md` (newest section at the bottom) |
 | **Results of posted Shorts + predictions logged before posting** | `Research Notes/Outcome Log.md` |
 | **Lessons, with confidence levels** | `Research Notes/Lessons Learned (running log).md` |

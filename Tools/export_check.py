@@ -74,7 +74,8 @@ def ass_events(path):
         pos = re.search(r"\\pos\((\d+),(\d+)\)", text)
         clean = re.sub(r"\{[^}]*\}", "", text).replace("\\N", " ")
         fx = re.findall(r"\\fscx([\d.]+)", text)  # the last one is the size the card settles at (after the pop)
-        ev.append({"start": sec(st), "end": sec(en), "text": clean, "y": int(pos.group(2)) if pos else None,
+        lines = re.sub(r"\{[^}]*\}", "", text).split("\\N")  # Oct 21: a two-line card (the story title) is as wide as its widest line
+        ev.append({"start": sec(st), "end": sec(en), "text": clean, "lines": lines, "y": int(pos.group(2)) if pos else None,
                    "scale": float(fx[-1]) / 100 if fx else None})
     return ev
 
@@ -96,7 +97,7 @@ def caption_width(ev, stl):
         wide = max(ev, key=lambda e: len(e["text"]))["text"]
         return len(wide) * stl["size"] * 0.52 * stl["scale_x"], wide
     f = ImageFont.truetype(fp, int(stl["size"]))
-    best = max(((lambda b: b[2] - b[0])(f.getbbox(e["text"])) * (e["scale"] or stl["scale_x"]) * 0.745, e["text"]) for e in ev)
+    best = max(((lambda b: b[2] - b[0])(f.getbbox(ln)) * (e["scale"] or stl["scale_x"]) * 0.745, ln) for e in ev for ln in e.get("lines", [e["text"]]))
     return best
 
 

@@ -245,3 +245,16 @@ Tiers: [V] verified on our files or data, [S] supported by our numbers (small n)
 - [V] **ESPN's game-summary clips include tight face close-ups.** "Victor Wembanyama invites Chet Holmgren to a block party" had a clean 1.3 s front-on close-up, better than any X post for frame 1.
 - [V] **The name FIX in export speech-to-text clears with a names hint.** faster-whisper small.en heard "Kendrick"/"the Aaron"; with `initial_prompt` listing the players it heard "Kenrich"/"De'Aaron". Use that to tell a mispronounced voice from a mis-heard name.
 - [V] **Two effects 1.05 s apart: the renderer silently drops the second.** #62's UPLOAD listed a camera click that never played. Read assemble's "sound effect skipped" lines and keep the sheet honest.
+
+## Oct 21, 2026: Ahmed's network study and the soccer channel (two story Shorts built)
+- **[V] Ahmed's network** (Goal 424K subs, Basketball 121K, Business 86.6K; 1.32B views) runs one format on three niches: a 60-80 s story, the title read as line 1, a turn every 8-12 s, a payoff number, centred TikTok Sans captions and a quiet bed. Full study: `Research Notes/Story Format Study - Ahmed (Oct 21, 2026).md`.
+- **[V] For NBA:**
+  - money and contract stories are their weakest Basketball theme too (93K vs 159K median);
+  - 3 a day lowered their medians;
+  - their first picture holds about 2.5 s.
+  The Playbook has the evidence-tiered list (section "Oct 21, 2026"). THE #42 FORMAT stays first.
+- **[V] Dates in a script need the source's own timeline.** "The night before the derby" was wrong: the fire was at 1 a.m. on the day before. Caught before rendering.
+- **[V] When sources disagree on who did what** (FIFA vs Reuters on who wrote Lehmann's note), write the line so it is true under both versions.
+- **[V] White captions on light cards are unreadable.** Keep graphics above y=890 when the captions are centred at y=960.
+- **[V] Story-format QA profile:** `qa_short.py` uses 58-88 s and allows archive blow-up up to 6x (as a warning) for folders under `Soccer Channel/`. The NBA rules are unchanged.
+- **Soccer channel memory** lives in `Soccer Channel/` (START HERE, Playbook, Lessons Learned, Idea Bank, Outcome Log). The skill is `/story-short`.

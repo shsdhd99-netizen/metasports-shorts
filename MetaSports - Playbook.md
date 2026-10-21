@@ -22,6 +22,26 @@ Owner's correction the same day: "i am not limiting you to one format, i just sa
   - #49 Kerr stays an optional off-format draft.
 - **Test:** the next 3 posts in this format. It's proven if 2 of 3 reach 74%+ stayed.
 
+## Oct 21, 2026: what Ahmed's network adds for MetaSports (evidence-tiered; RULE 1 still leads)
+Sources:
+- `Research Notes/Ahmed's Network and a Second Channel (Oct 21, 2026).md`
+- `Research Notes/Story Format Study - Ahmed (Oct 21, 2026).md`
+- Data: 3,154 Shorts across Ahmed's Goal, Basketball and Business.
+
+Nothing below replaces THE #42 FORMAT; the owner said stick with what works. Changes to how we work:
+- **[V] Money and contract stories are the weakest NBA theme there too:** Ahmed's Basketball median 93K vs 159K overall. That is now two independent sources (ours and his), so keep contract stories only with a rule, a number gap or a funny detail as the hook.
+- **[V] Cadence:**
+  - Ahmed's steady state is about 2 a day per channel. When they pushed to about 3 a day (Jul-Sep 2026), medians fell and they pulled back.
+  - Our schedule of 2 a day (late morning + 6 PM ET) matches. Do not go to 3.
+- **[V] Series titles:** a title that works is reused for a new story ("Episode 2...12" on 126 of his Basketball titles). When a #42-format Short beats the channel median, its accusation title can become a series with a new star. HYPOTHESIS for us: log it in the Outcome Log when tried.
+- **[V] Holding the first picture works for them:** the first picture holds about 2.5 s under a title card (0-1 cuts in 3 s), at 159K median. This backs the Oct 14 Rules Audit decision that "3 cuts in the first 3 s" is a warning, not a gate.
+- **[V] They run a quiet music bed** about 20 dB under the voice. This is evidence for the open music A/B; the owner's Oct 14 call (no bed by default for MetaSports) still stands.
+- **[HYPOTHESIS, test once]** Ahmed's 60-75 s story format: one NBA story told that way (title read as line 1, "Back in...", a turn every 10 s, a payoff number), posted in a normal slot. Compare stayed % and views to the #42-format posts that week. The tools now exist (`/story-short`, `--caption-style ahmed`, `cut_list.py`). Only with the owner's OK.
+- **New tools usable on NBA Shorts:**
+  - `Tools/cut_list.py` (one cut list cuts every clip, pins shots to words, fills sources.csv, draws the contact sheet);
+  - `Tools/stock.py` (Mixkit stock for abstract lines);
+  - `broll.py cut --blurfit` / `--delogo`.
+
 ## THE WINNING FORMULA (canonical, Oct 14, 2026, night; updated that night with the #40/#41 results, Script Critic v3 and the owner's music and voice calls, and on Oct 15 with the YouTube Studio export). Read this first; where anything below disagrees, this wins.
 **Why this exists:**
 - The owner asked to stop changing formats and rules every day.

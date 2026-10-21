@@ -84,3 +84,15 @@ Productions/**/_designed/clips
 Productions/**/_designed/src
 Productions/**/_alex/clips
 Productions/**/_alex/src
+
+# Oct 21 2026: the soccer channel's own space (Soccer Channel/START HERE.md). Its drafts and card assets are kept; raw sources and clips stay local.
+!/Soccer Channel/
+!Soccer Channel/**/DRAFT - awaiting approval*.mp4
+!Soccer Channel/**/assets/*.png
+!Soccer Channel/**/assets/*.jpg
+Soccer Channel/**/src/
+Soccer Channel/**/clips/
+Soccer Channel/**/_check/
+Soccer Channel/**/take*_*/
+Soccer Channel/**/_voice_*/
+Soccer Channel/**/final_*.mp4

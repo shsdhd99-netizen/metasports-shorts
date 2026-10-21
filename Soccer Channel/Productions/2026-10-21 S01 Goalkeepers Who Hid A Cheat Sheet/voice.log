@@ -1,0 +1,6 @@
+voice profile: Alex - Upbeat, Energetic and Clear (ElevenLabs Voice Library) (gate: HNR >= 7.0, jitter <= 3.4, shimmer <= 12.5)
+take 1: Done: voice.mp3 (69.3s, sped up x1.00) + captions.srt + words.json in /home/user/metasports-shorts/Soccer Channel/Productions/2026-10-21 S01 Goalkeepers Who Hid A Cheat Sheet/take1_lnk1ks2m
+  take 1: FAIL  check=REDO HNR 8.5 jitter 2.94 shimmer 10.97 69.59s  ['38.84s  script "esteban cambiasso" but heard "a stab on can be ah so"', '54.62s  script "his" but heard "(nothing)"']
+take 2: Done: voice.mp3 (65.7s, sped up x1.00) + captions.srt + words.json in /home/user/metasports-shorts/Soccer Channel/Productions/2026-10-21 S01 Goalkeepers Who Hid A Cheat Sheet/take2_bp3qzce_
+  take 2: PASS  check=CHECK HNR 8.1 jitter 2.88 shimmer 11.16 66.01s  []
+USED take score 4.4 (passes the voice gate)

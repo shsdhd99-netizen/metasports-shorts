@@ -57,7 +57,9 @@ def upscale_from_log(folder, clip, zoom_end):
     w, h = int(m.group(1)), int(m.group(2))
     z = re.search(r"zoom ([\d.]+)", row.get("crop", ""))
     z = float(z.group(1)) if z else 1.0
-    if w / h > 9 / 16:
+    if "blurfit" in row.get("crop", ""):  # Oct 21: the whole frame at full width over a blurred fill of itself
+        f = 1080 * z / w
+    elif w / h > 9 / 16:
         f = 1920 * z / h
     else:
         f = max(1080 * z / w, 1920 * z / h)
@@ -85,6 +87,7 @@ def segments(folder):
 
 
 def check(folder):
+    story = "Soccer Channel" in os.path.abspath(folder)  # story format (qa_short --profile story): archive footage allowed up to 6x
     from deflash import flashes
     segs = segments(folder)
     res, bad, warn = [], [], []
@@ -124,7 +127,10 @@ def check(folder):
     for r in res:
         tag = f"shot {r['shot']} {r['clip']}"
         if r["upscale"] is not None:
-            if r["upscale"] > 3.0:
+            if story and r["upscale"] > 3.0 and r["upscale"] <= 6.0:  # Oct 21: archive footage (no HD copy exists for 2006/2011 matches)
+                warn.append(f"{tag}: blown up {r['upscale']}x ({r['upscale_basis']}): archive footage, accepted in the story format "
+                            "(Ahmed's Shorts use soft 480p archive); keep faces and action, not wide shots, at this size")
+            elif r["upscale"] > (6.0 if story else 3.0):
                 bad.append(f"{tag}: blown up {r['upscale']}x from its source ({r['upscale_basis']}): find a 1080p+ source or crop less")
             elif r["upscale"] > 2.0:
                 warn.append(f"{tag}: blown up {r['upscale']}x ({r['upscale_basis']}; house standard is a 1080p source, about 1.8x): note in PACKAGE.md that no better source exists")

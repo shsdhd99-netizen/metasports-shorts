@@ -31,6 +31,11 @@ STYLES = {
     # Round 5 candidate: sentence case + word-by-word highlight (REBOUND/Hormozi family) with Clank's calm sizing. Needs an A/B test.
     "karaoke": dict(font="Montserrat Bold", size=80, scalex=100, outline=6, shadow=2, blur=0.5, y=1040, spacing=0, maxw=3, maxc=22, ideal=2.4,
                     caps=False, pop=False, colors=False, kara=True),
+    # Oct 21: the Ahmed's Goal/Basketball/Business look, measured on their own frames (Research Notes/Story Format Study): TikTok Sans
+    # SemiBold, "did not slow down" 514 px wide x 41 px tall at 1080x1920 = size 80, white, thin black outline, centred at y 960,
+    # 2-3 words a card as spoken (sentence case, punctuation kept). title_caption.txt (if present) is shown over the spoken title.
+    "ahmed": dict(font="TikTok Sans SemiBold", size=80, scalex=100, outline=3.2, shadow=1, blur=0.5, y=960, spacing=0, maxw=3, maxc=20, ideal=2.6,
+                  caps=False, pop=False, colors=False, title=True),
 }
 KARA_HI = "&H000AD6FF&"   # warm yellow FFD60A (ASS is BGR)
 KARA_NUM = "&H0040E33A&"  # numbers/money in green so the key figure stays readable
@@ -261,7 +266,12 @@ def fit_scale(text, st):
 def make_ass(words, style="metasports", manual=None, total=None, ys=None):
     """ys: optional [(shot_start, y)] from shots.json "cap_y"; a card uses the y of the shot it starts in."""
     st, manual = STYLES[style], manual or {}
-    cards = chunk(words, st)
+    title = manual.get("_title") if st.get("title") else None
+    if title:  # the first len(title words) spoken words become one 1-2 line title card (the "Players who ..." opener)
+        n = len([t for t in re.split(r"\s+|\\N", title) if re.search(r"\w", t)])
+        cards = [words[:n]] + chunk(words[n:], st)
+    else:
+        cards = chunk(words, st)
     texts = [re.sub(r"\s+", " ", " ".join(w["word"] for w in c)).strip() for c in cards]
     picks = limit_colors([card_color(t, manual) for t in texts]) if st["colors"] else [(None, 0)] * len(cards)
     lines, events = [], []
@@ -277,6 +287,8 @@ def make_ass(words, style="metasports", manual=None, total=None, ys=None):
             if total:
                 end = min(end, total)
         shown = text.upper() if st["caps"] else text
+        if title and k == 0:
+            shown = title
         col = picks[k][0]
         y = st["y"]
         for t0, cy in ys or []:
@@ -285,12 +297,12 @@ def make_ass(words, style="metasports", manual=None, total=None, ys=None):
         tags = f"\\pos(540,{y})\\blur{st['blur']}"
         if col:
             tags += f"\\c{RED if col == 'red' else GREEN}"
-        fit = fit_scale(shown, st)  # Oct 15: keep the widest card clear of the Shorts like/comment column (x > 950)
+        fit = min(fit_scale(ln, st) for ln in shown.split("\\N"))  # Oct 15: keep the widest card clear of the Shorts like/comment column (x > 950)
         if st["pop"]:
             tags += f"\\fscx{86 * fit:.0f}\\fscy{86 * fit:.0f}\\t(0,90,\\fscx{100 * fit:.0f}\\fscy{100 * fit:.0f})"
         elif fit < 1:
             tags += f"\\fscx{st['scalex'] * fit:.0f}\\fscy{100 * fit:.0f}"
-        shown = shown.replace("{", "(").replace("}", ")")
+        shown = shown.replace("{", "(").replace("}", ")").replace("\n", "\\N")
         if st.get("kara"):  # one event per spoken word; the active word is highlighted, layout never moves
             toks = [re.sub(r"[{}]", "", w["word"]) for w in card]
             for wi, w in enumerate(card):
@@ -356,6 +368,9 @@ def build(folder, style="metasports", total=None):
     words = json.load(open(os.path.join(folder, "words.json"), encoding="utf-8-sig"))
     mp = os.path.join(folder, "emphasis.json")
     manual = json.load(open(mp, encoding="utf-8-sig")) if os.path.exists(mp) else {}
+    tp = os.path.join(folder, "title_caption.txt")  # ahmed style: on-screen title over the spoken title ("\N" or a newline = line break)
+    if os.path.exists(tp):
+        manual["_title"] = open(tp, encoding="utf-8-sig").read().strip().replace("\r", "")
     sp = os.path.join(folder, "shots.json")  # a shot may set "cap_y" (pixels of 1920) to move captions off a face
     shots = json.load(open(sp, encoding="utf-8-sig")) if os.path.exists(sp) else []
     ys = sorted(((float(x.get("start", 0)), x.get("cap_y")) for x in shots if isinstance(x, dict)), key=lambda t: t[0])

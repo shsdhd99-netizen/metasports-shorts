@@ -1,0 +1,1357 @@
+[
+ {
+  "word": "Goalkeepers",
+  "start": 0.0,
+  "end": 0.499
+ },
+ {
+  "word": "who",
+  "start": 0.522,
+  "end": 0.592
+ },
+ {
+  "word": "hid",
+  "start": 0.65,
+  "end": 0.789
+ },
+ {
+  "word": "a",
+  "start": 0.824,
+  "end": 0.848
+ },
+ {
+  "word": "cheat",
+  "start": 0.906,
+  "end": 1.103
+ },
+ {
+  "word": "sheet",
+  "start": 1.149,
+  "end": 1.324
+ },
+ {
+  "word": "in",
+  "start": 1.358,
+  "end": 1.405
+ },
+ {
+  "word": "their",
+  "start": 1.44,
+  "end": 1.567
+ },
+ {
+  "word": "sock.",
+  "start": 1.614,
+  "end": 1.962
+ },
+ {
+  "word": "Back",
+  "start": 1.997,
+  "end": 2.183
+ },
+ {
+  "word": "in",
+  "start": 2.229,
+  "end": 2.276
+ },
+ {
+  "word": "2006,",
+  "start": 2.322,
+  "end": 3.053
+ },
+ {
+  "word": "Germany",
+  "start": 3.1,
+  "end": 3.402
+ },
+ {
+  "word": "hosted",
+  "start": 3.46,
+  "end": 3.704
+ },
+ {
+  "word": "the",
+  "start": 3.727,
+  "end": 3.796
+ },
+ {
+  "word": "World",
+  "start": 3.831,
+  "end": 4.075
+ },
+ {
+  "word": "Cup,",
+  "start": 4.133,
+  "end": 4.435
+ },
+ {
+  "word": "and",
+  "start": 4.458,
+  "end": 4.563
+ },
+ {
+  "word": "in",
+  "start": 4.609,
+  "end": 4.656
+ },
+ {
+  "word": "the",
+  "start": 4.69,
+  "end": 4.76
+ },
+ {
+  "word": "quarterfinal",
+  "start": 4.795,
+  "end": 5.294
+ },
+ {
+  "word": "they",
+  "start": 5.329,
+  "end": 5.422
+ },
+ {
+  "word": "faced",
+  "start": 5.48,
+  "end": 5.7
+ },
+ {
+  "word": "Argentina",
+  "start": 5.724,
+  "end": 6.223
+ },
+ {
+  "word": "in",
+  "start": 6.281,
+  "end": 6.339
+ },
+ {
+  "word": "Berlin.",
+  "start": 6.385,
+  "end": 6.815
+ },
+ {
+  "word": "After",
+  "start": 6.838,
+  "end": 7.047
+ },
+ {
+  "word": "120",
+  "start": 7.175,
+  "end": 7.755
+ },
+ {
+  "word": "minutes",
+  "start": 7.814,
+  "end": 8.057
+ },
+ {
+  "word": "it",
+  "start": 8.081,
+  "end": 8.127
+ },
+ {
+  "word": "was",
+  "start": 8.15,
+  "end": 8.22
+ },
+ {
+  "word": "still",
+  "start": 8.278,
+  "end": 8.545
+ },
+ {
+  "word": "1-1,",
+  "start": 8.638,
+  "end": 9.195
+ },
+ {
+  "word": "so",
+  "start": 9.265,
+  "end": 9.369
+ },
+ {
+  "word": "the",
+  "start": 9.427,
+  "end": 9.497
+ },
+ {
+  "word": "game",
+  "start": 9.555,
+  "end": 9.764
+ },
+ {
+  "word": "went",
+  "start": 9.787,
+  "end": 9.892
+ },
+ {
+  "word": "to",
+  "start": 9.915,
+  "end": 9.961
+ },
+ {
+  "word": "penalties.",
+  "start": 10.019,
+  "end": 10.53
+ },
+ {
+  "word": "But",
+  "start": 10.588,
+  "end": 10.704
+ },
+ {
+  "word": "Germany's",
+  "start": 10.739,
+  "end": 11.076
+ },
+ {
+  "word": "keeper,",
+  "start": 11.122,
+  "end": 11.47
+ },
+ {
+  "word": "Jens",
+  "start": 11.563,
+  "end": 11.842
+ },
+ {
+  "word": "Lehmann,",
+  "start": 11.9,
+  "end": 12.283
+ },
+ {
+  "word": "had",
+  "start": 12.318,
+  "end": 12.469
+ },
+ {
+  "word": "a",
+  "start": 12.492,
+  "end": 12.515
+ },
+ {
+  "word": "secret.",
+  "start": 12.597,
+  "end": 12.991
+ },
+ {
+  "word": "His",
+  "start": 13.015,
+  "end": 13.096
+ },
+ {
+  "word": "goalkeeping",
+  "start": 13.142,
+  "end": 13.525
+ },
+ {
+  "word": "coach,",
+  "start": 13.572,
+  "end": 13.839
+ },
+ {
+  "word": "Andreas",
+  "start": 13.862,
+  "end": 14.176
+ },
+ {
+  "word": "K\u00f6pke,",
+  "start": 14.245,
+  "end": 14.652
+ },
+ {
+  "word": "had",
+  "start": 14.698,
+  "end": 14.803
+ },
+ {
+  "word": "studied",
+  "start": 14.861,
+  "end": 15.232
+ },
+ {
+  "word": "where",
+  "start": 15.279,
+  "end": 15.418
+ },
+ {
+  "word": "Argentina's",
+  "start": 15.453,
+  "end": 15.929
+ },
+ {
+  "word": "players",
+  "start": 15.964,
+  "end": 16.231
+ },
+ {
+  "word": "liked",
+  "start": 16.265,
+  "end": 16.393
+ },
+ {
+  "word": "to",
+  "start": 16.416,
+  "end": 16.463
+ },
+ {
+  "word": "shoot,",
+  "start": 16.509,
+  "end": 16.834
+ },
+ {
+  "word": "and",
+  "start": 16.858,
+  "end": 16.939
+ },
+ {
+  "word": "the",
+  "start": 16.974,
+  "end": 17.043
+ },
+ {
+  "word": "tips",
+  "start": 17.09,
+  "end": 17.287
+ },
+ {
+  "word": "ended",
+  "start": 17.322,
+  "end": 17.484
+ },
+ {
+  "word": "up",
+  "start": 17.531,
+  "end": 17.601
+ },
+ {
+  "word": "on",
+  "start": 17.647,
+  "end": 17.693
+ },
+ {
+  "word": "a",
+  "start": 17.728,
+  "end": 17.751
+ },
+ {
+  "word": "tiny",
+  "start": 17.798,
+  "end": 18.053
+ },
+ {
+  "word": "page",
+  "start": 18.111,
+  "end": 18.378
+ },
+ {
+  "word": "from",
+  "start": 18.402,
+  "end": 18.495
+ },
+ {
+  "word": "the",
+  "start": 18.529,
+  "end": 18.599
+ },
+ {
+  "word": "team",
+  "start": 18.622,
+  "end": 18.796
+ },
+ {
+  "word": "hotel's",
+  "start": 18.854,
+  "end": 19.133
+ },
+ {
+  "word": "notepad.",
+  "start": 19.179,
+  "end": 19.621
+ },
+ {
+  "word": "Riquelme,",
+  "start": 19.644,
+  "end": 20.073
+ },
+ {
+  "word": "left",
+  "start": 20.108,
+  "end": 20.282
+ },
+ {
+  "word": "high.",
+  "start": 20.329,
+  "end": 20.654
+ },
+ {
+  "word": "Heinze,",
+  "start": 20.689,
+  "end": 21.142
+ },
+ {
+  "word": "left",
+  "start": 21.188,
+  "end": 21.374
+ },
+ {
+  "word": "low.",
+  "start": 21.444,
+  "end": 21.769
+ },
+ {
+  "word": "Even",
+  "start": 21.792,
+  "end": 21.989
+ },
+ {
+  "word": "Messi",
+  "start": 22.059,
+  "end": 22.361
+ },
+ {
+  "word": "was",
+  "start": 22.407,
+  "end": 22.5
+ },
+ {
+  "word": "on",
+  "start": 22.558,
+  "end": 22.663
+ },
+ {
+  "word": "it.",
+  "start": 22.709,
+  "end": 22.907
+ },
+ {
+  "word": "Lehmann",
+  "start": 23.106,
+  "end": 23.397
+ },
+ {
+  "word": "tucked",
+  "start": 23.431,
+  "end": 23.617
+ },
+ {
+  "word": "the",
+  "start": 23.64,
+  "end": 23.71
+ },
+ {
+  "word": "paper",
+  "start": 23.745,
+  "end": 24.0
+ },
+ {
+  "word": "into",
+  "start": 24.047,
+  "end": 24.186
+ },
+ {
+  "word": "his",
+  "start": 24.256,
+  "end": 24.325
+ },
+ {
+  "word": "sock.",
+  "start": 24.36,
+  "end": 24.697
+ },
+ {
+  "word": "And",
+  "start": 24.72,
+  "end": 24.825
+ },
+ {
+  "word": "before",
+  "start": 24.871,
+  "end": 25.126
+ },
+ {
+  "word": "Argentina's",
+  "start": 25.161,
+  "end": 25.661
+ },
+ {
+  "word": "kicks,",
+  "start": 25.707,
+  "end": 26.032
+ },
+ {
+  "word": "he",
+  "start": 26.055,
+  "end": 26.102
+ },
+ {
+  "word": "kept",
+  "start": 26.148,
+  "end": 26.287
+ },
+ {
+  "word": "pulling",
+  "start": 26.334,
+  "end": 26.589
+ },
+ {
+  "word": "it",
+  "start": 26.624,
+  "end": 26.671
+ },
+ {
+  "word": "out",
+  "start": 26.705,
+  "end": 26.822
+ },
+ {
+  "word": "to",
+  "start": 26.845,
+  "end": 26.903
+ },
+ {
+  "word": "read",
+  "start": 26.996,
+  "end": 27.193
+ },
+ {
+  "word": "it,",
+  "start": 27.228,
+  "end": 27.344
+ },
+ {
+  "word": "right",
+  "start": 27.425,
+  "end": 27.576
+ },
+ {
+  "word": "in",
+  "start": 27.599,
+  "end": 27.646
+ },
+ {
+  "word": "front",
+  "start": 27.681,
+  "end": 27.797
+ },
+ {
+  "word": "of",
+  "start": 27.82,
+  "end": 27.866
+ },
+ {
+  "word": "the",
+  "start": 27.89,
+  "end": 27.959
+ },
+ {
+  "word": "whole",
+  "start": 28.006,
+  "end": 28.215
+ },
+ {
+  "word": "stadium.",
+  "start": 28.238,
+  "end": 28.702
+ },
+ {
+  "word": "But",
+  "start": 28.726,
+  "end": 28.807
+ },
+ {
+  "word": "there",
+  "start": 28.83,
+  "end": 28.946
+ },
+ {
+  "word": "was",
+  "start": 28.969,
+  "end": 29.039
+ },
+ {
+  "word": "one",
+  "start": 29.132,
+  "end": 29.387
+ },
+ {
+  "word": "big",
+  "start": 29.434,
+  "end": 29.608
+ },
+ {
+  "word": "problem.",
+  "start": 29.654,
+  "end": 30.049
+ },
+ {
+  "word": "Only",
+  "start": 30.072,
+  "end": 30.235
+ },
+ {
+  "word": "two",
+  "start": 30.281,
+  "end": 30.386
+ },
+ {
+  "word": "of",
+  "start": 30.432,
+  "end": 30.479
+ },
+ {
+  "word": "the",
+  "start": 30.513,
+  "end": 30.583
+ },
+ {
+  "word": "players",
+  "start": 30.606,
+  "end": 30.839
+ },
+ {
+  "word": "on",
+  "start": 30.873,
+  "end": 30.92
+ },
+ {
+  "word": "his",
+  "start": 30.943,
+  "end": 31.013
+ },
+ {
+  "word": "list",
+  "start": 31.071,
+  "end": 31.245
+ },
+ {
+  "word": "actually",
+  "start": 31.28,
+  "end": 31.5
+ },
+ {
+  "word": "took",
+  "start": 31.547,
+  "end": 31.663
+ },
+ {
+  "word": "a",
+  "start": 31.698,
+  "end": 31.721
+ },
+ {
+  "word": "penalty.",
+  "start": 31.767,
+  "end": 32.185
+ },
+ {
+  "word": "He",
+  "start": 32.209,
+  "end": 32.255
+ },
+ {
+  "word": "saved",
+  "start": 32.301,
+  "end": 32.51
+ },
+ {
+  "word": "Roberto",
+  "start": 32.569,
+  "end": 32.859
+ },
+ {
+  "word": "Ayala's,",
+  "start": 32.905,
+  "end": 33.451
+ },
+ {
+  "word": "and",
+  "start": 33.474,
+  "end": 33.567
+ },
+ {
+  "word": "he",
+  "start": 33.613,
+  "end": 33.66
+ },
+ {
+  "word": "nearly",
+  "start": 33.753,
+  "end": 34.031
+ },
+ {
+  "word": "saved",
+  "start": 34.078,
+  "end": 34.31
+ },
+ {
+  "word": "Maxi",
+  "start": 34.345,
+  "end": 34.577
+ },
+ {
+  "word": "Rodr\u00edguez's.",
+  "start": 34.647,
+  "end": 35.367
+ },
+ {
+  "word": "Then",
+  "start": 35.39,
+  "end": 35.552
+ },
+ {
+  "word": "came",
+  "start": 35.61,
+  "end": 35.784
+ },
+ {
+  "word": "the",
+  "start": 35.808,
+  "end": 35.877
+ },
+ {
+  "word": "kick",
+  "start": 35.924,
+  "end": 36.086
+ },
+ {
+  "word": "that",
+  "start": 36.121,
+  "end": 36.214
+ },
+ {
+  "word": "would",
+  "start": 36.237,
+  "end": 36.353
+ },
+ {
+  "word": "decide",
+  "start": 36.377,
+  "end": 36.667
+ },
+ {
+  "word": "everything.",
+  "start": 36.69,
+  "end": 37.178
+ },
+ {
+  "word": "Esteban",
+  "start": 37.201,
+  "end": 37.572
+ },
+ {
+  "word": "Cambiasso",
+  "start": 37.619,
+  "end": 38.106
+ },
+ {
+  "word": "walked",
+  "start": 38.176,
+  "end": 38.432
+ },
+ {
+  "word": "up,",
+  "start": 38.49,
+  "end": 38.652
+ },
+ {
+  "word": "and",
+  "start": 38.675,
+  "end": 38.757
+ },
+ {
+  "word": "his",
+  "start": 38.803,
+  "end": 38.884
+ },
+ {
+  "word": "name",
+  "start": 38.942,
+  "end": 39.117
+ },
+ {
+  "word": "was",
+  "start": 39.14,
+  "end": 39.233
+ },
+ {
+  "word": "nowhere",
+  "start": 39.302,
+  "end": 39.535
+ },
+ {
+  "word": "on",
+  "start": 39.558,
+  "end": 39.604
+ },
+ {
+  "word": "that",
+  "start": 39.627,
+  "end": 39.72
+ },
+ {
+  "word": "paper.",
+  "start": 39.767,
+  "end": 40.127
+ },
+ {
+  "word": "So",
+  "start": 40.162,
+  "end": 40.266
+ },
+ {
+  "word": "Lehmann",
+  "start": 40.336,
+  "end": 40.603
+ },
+ {
+  "word": "pulled",
+  "start": 40.649,
+  "end": 40.87
+ },
+ {
+  "word": "it",
+  "start": 40.893,
+  "end": 40.94
+ },
+ {
+  "word": "out",
+  "start": 40.963,
+  "end": 41.091
+ },
+ {
+  "word": "anyway.",
+  "start": 41.137,
+  "end": 41.625
+ },
+ {
+  "word": "He",
+  "start": 41.648,
+  "end": 41.718
+ },
+ {
+  "word": "read",
+  "start": 41.787,
+  "end": 41.938
+ },
+ {
+  "word": "it,",
+  "start": 41.985,
+  "end": 42.089
+ },
+ {
+  "word": "nodded,",
+  "start": 42.136,
+  "end": 42.461
+ },
+ {
+  "word": "and",
+  "start": 42.484,
+  "end": 42.553
+ },
+ {
+  "word": "put",
+  "start": 42.577,
+  "end": 42.67
+ },
+ {
+  "word": "it",
+  "start": 42.704,
+  "end": 42.751
+ },
+ {
+  "word": "away,",
+  "start": 42.774,
+  "end": 43.111
+ },
+ {
+  "word": "like",
+  "start": 43.146,
+  "end": 43.262
+ },
+ {
+  "word": "he",
+  "start": 43.285,
+  "end": 43.331
+ },
+ {
+  "word": "knew",
+  "start": 43.378,
+  "end": 43.482
+ },
+ {
+  "word": "exactly",
+  "start": 43.54,
+  "end": 44.028
+ },
+ {
+  "word": "what",
+  "start": 44.051,
+  "end": 44.144
+ },
+ {
+  "word": "was",
+  "start": 44.179,
+  "end": 44.26
+ },
+ {
+  "word": "coming.",
+  "start": 44.33,
+  "end": 44.736
+ },
+ {
+  "word": "Cambiasso",
+  "start": 44.759,
+  "end": 45.293
+ },
+ {
+  "word": "shot,",
+  "start": 45.363,
+  "end": 45.619
+ },
+ {
+  "word": "and",
+  "start": 45.642,
+  "end": 45.711
+ },
+ {
+  "word": "Lehmann",
+  "start": 45.769,
+  "end": 46.013
+ },
+ {
+  "word": "saved",
+  "start": 46.083,
+  "end": 46.385
+ },
+ {
+  "word": "it.",
+  "start": 46.443,
+  "end": 46.594
+ },
+ {
+  "word": "Germany",
+  "start": 46.629,
+  "end": 46.919
+ },
+ {
+  "word": "won",
+  "start": 46.965,
+  "end": 47.105
+ },
+ {
+  "word": "4-2.",
+  "start": 47.174,
+  "end": 47.72
+ },
+ {
+  "word": "But",
+  "start": 47.743,
+  "end": 47.824
+ },
+ {
+  "word": "here's",
+  "start": 47.859,
+  "end": 48.045
+ },
+ {
+  "word": "the",
+  "start": 48.068,
+  "end": 48.138
+ },
+ {
+  "word": "wild",
+  "start": 48.184,
+  "end": 48.417
+ },
+ {
+  "word": "part.",
+  "start": 48.463,
+  "end": 48.753
+ },
+ {
+  "word": "After",
+  "start": 48.776,
+  "end": 49.009
+ },
+ {
+  "word": "the",
+  "start": 49.055,
+  "end": 49.125
+ },
+ {
+  "word": "game,",
+  "start": 49.171,
+  "end": 49.461
+ },
+ {
+  "word": "Lehmann",
+  "start": 49.496,
+  "end": 49.752
+ },
+ {
+  "word": "found",
+  "start": 49.798,
+  "end": 49.972
+ },
+ {
+  "word": "the",
+  "start": 49.995,
+  "end": 50.065
+ },
+ {
+  "word": "note",
+  "start": 50.123,
+  "end": 50.344
+ },
+ {
+  "word": "lying",
+  "start": 50.39,
+  "end": 50.657
+ },
+ {
+  "word": "on",
+  "start": 50.704,
+  "end": 50.75
+ },
+ {
+  "word": "the",
+  "start": 50.773,
+  "end": 50.843
+ },
+ {
+  "word": "dressing",
+  "start": 50.866,
+  "end": 51.063
+ },
+ {
+  "word": "room",
+  "start": 51.087,
+  "end": 51.191
+ },
+ {
+  "word": "floor,",
+  "start": 51.238,
+  "end": 51.516
+ },
+ {
+  "word": "next",
+  "start": 51.551,
+  "end": 51.725
+ },
+ {
+  "word": "to",
+  "start": 51.748,
+  "end": 51.795
+ },
+ {
+  "word": "his",
+  "start": 51.841,
+  "end": 51.911
+ },
+ {
+  "word": "socks.",
+  "start": 51.969,
+  "end": 52.445
+ },
+ {
+  "word": "Months",
+  "start": 52.515,
+  "end": 52.747
+ },
+ {
+  "word": "later,",
+  "start": 52.805,
+  "end": 53.095
+ },
+ {
+  "word": "the",
+  "start": 53.118,
+  "end": 53.188
+ },
+ {
+  "word": "boss",
+  "start": 53.223,
+  "end": 53.42
+ },
+ {
+  "word": "of",
+  "start": 53.455,
+  "end": 53.502
+ },
+ {
+  "word": "a",
+  "start": 53.536,
+  "end": 53.56
+ },
+ {
+  "word": "German",
+  "start": 53.618,
+  "end": 53.85
+ },
+ {
+  "word": "energy",
+  "start": 53.896,
+  "end": 54.105
+ },
+ {
+  "word": "company",
+  "start": 54.152,
+  "end": 54.419
+ },
+ {
+  "word": "bought",
+  "start": 54.477,
+  "end": 54.663
+ },
+ {
+  "word": "it",
+  "start": 54.686,
+  "end": 54.732
+ },
+ {
+  "word": "for",
+  "start": 54.767,
+  "end": 54.86
+ },
+ {
+  "word": "one",
+  "start": 54.941,
+  "end": 55.139
+ },
+ {
+  "word": "million",
+  "start": 55.185,
+  "end": 55.429
+ },
+ {
+  "word": "euros,",
+  "start": 55.487,
+  "end": 55.94
+ },
+ {
+  "word": "at",
+  "start": 55.963,
+  "end": 56.067
+ },
+ {
+  "word": "a",
+  "start": 56.102,
+  "end": 56.125
+ },
+ {
+  "word": "charity",
+  "start": 56.16,
+  "end": 56.381
+ },
+ {
+  "word": "auction",
+  "start": 56.427,
+  "end": 56.648
+ },
+ {
+  "word": "for",
+  "start": 56.683,
+  "end": 56.752
+ },
+ {
+  "word": "children.",
+  "start": 56.81,
+  "end": 57.217
+ },
+ {
+  "word": "One",
+  "start": 57.252,
+  "end": 57.414
+ },
+ {
+  "word": "million",
+  "start": 57.461,
+  "end": 57.728
+ },
+ {
+  "word": "euros,",
+  "start": 57.774,
+  "end": 58.169
+ },
+ {
+  "word": "for",
+  "start": 58.204,
+  "end": 58.331
+ },
+ {
+  "word": "a",
+  "start": 58.366,
+  "end": 58.389
+ },
+ {
+  "word": "page",
+  "start": 58.436,
+  "end": 58.703
+ },
+ {
+  "word": "from",
+  "start": 58.726,
+  "end": 58.819
+ },
+ {
+  "word": "a",
+  "start": 58.854,
+  "end": 58.877
+ },
+ {
+  "word": "hotel",
+  "start": 58.935,
+  "end": 59.202
+ },
+ {
+  "word": "notepad.",
+  "start": 59.272,
+  "end": 59.724
+ },
+ {
+  "word": "And",
+  "start": 59.747,
+  "end": 59.828
+ },
+ {
+  "word": "my",
+  "start": 59.863,
+  "end": 59.91
+ },
+ {
+  "word": "next",
+  "start": 59.979,
+  "end": 60.119
+ },
+ {
+  "word": "video",
+  "start": 60.154,
+  "end": 60.386
+ },
+ {
+  "word": "is",
+  "start": 60.409,
+  "end": 60.455
+ },
+ {
+  "word": "about",
+  "start": 60.49,
+  "end": 60.641
+ },
+ {
+  "word": "the",
+  "start": 60.664,
+  "end": 60.734
+ },
+ {
+  "word": "fire",
+  "start": 60.781,
+  "end": 61.048
+ },
+ {
+  "word": "at",
+  "start": 61.071,
+  "end": 61.117
+ },
+ {
+  "word": "Mario",
+  "start": 61.164,
+  "end": 61.396
+ },
+ {
+  "word": "Balotelli's",
+  "start": 61.431,
+  "end": 61.953
+ },
+ {
+  "word": "house,",
+  "start": 61.976,
+  "end": 62.255
+ },
+ {
+  "word": "the",
+  "start": 62.301,
+  "end": 62.383
+ },
+ {
+  "word": "day",
+  "start": 62.429,
+  "end": 62.545
+ },
+ {
+  "word": "before",
+  "start": 62.58,
+  "end": 62.777
+ },
+ {
+  "word": "the",
+  "start": 62.801,
+  "end": 62.87
+ },
+ {
+  "word": "Manchester",
+  "start": 62.905,
+  "end": 63.277
+ },
+ {
+  "word": "derby.",
+  "start": 63.335,
+  "end": 63.683
+ },
+ {
+  "word": "Follow",
+  "start": 63.718,
+  "end": 63.938
+ },
+ {
+  "word": "if",
+  "start": 63.973,
+  "end": 64.02
+ },
+ {
+  "word": "you",
+  "start": 64.043,
+  "end": 64.113
+ },
+ {
+  "word": "want",
+  "start": 64.182,
+  "end": 64.31
+ },
+ {
+  "word": "the",
+  "start": 64.333,
+  "end": 64.403
+ },
+ {
+  "word": "algorithm",
+  "start": 64.449,
+  "end": 64.786
+ },
+ {
+  "word": "to",
+  "start": 64.832,
+  "end": 64.879
+ },
+ {
+  "word": "show",
+  "start": 64.925,
+  "end": 65.053
+ },
+ {
+  "word": "it",
+  "start": 65.099,
+  "end": 65.146
+ },
+ {
+  "word": "to",
+  "start": 65.169,
+  "end": 65.216
+ },
+ {
+  "word": "you.",
+  "start": 65.274,
+  "end": 65.715
+ }
+]

@@ -127,10 +127,22 @@ def cmd_cut(a):
             path = section(s, max(0, a.at), a.at + a.len + 0.6, "bv*[height<=1080][vcodec^=avc1]/bv*[height<=1080][vcodec^=vp]/bv*[height<=1080][vcodec!^=av01]/bv*[vcodec!^=av01]", tmp)
             seek = []
         w, h, _ = probe(path)
-        vf = vertical(w, h, a.x, a.zoom, a.y) + (",hflip" if a.flip else "") + ",fps=30,format=yuv420p"
         os.makedirs(os.path.dirname(os.path.abspath(a.out)), exist_ok=True)
-        run(["ffmpeg", "-y", "-loglevel", "error", *seek, "-i", path, "-t", f"{a.len:.2f}", "-vf", vf, "-an",
-             "-c:v", "libx264", "-crf", "18", "-preset", "medium", a.out])
+        dl = ""
+        if a.delogo:  # Oct 21: blur a TV channel bug (fractions of the source frame: x,y,w,h)
+            fx, fy, fw, fh = (float(v) for v in a.delogo.split(","))
+            dl = f"delogo=x={int(fx * w)}:y={int(fy * h)}:w={int(fw * w)}:h={int(fh * h)},"
+        if a.blurfit:  # Oct 21 (story format): the whole wide frame, full width, over a blurred, darkened fill of itself
+            fg_w = int(1080 * a.blurfit_width) // 2 * 2
+            fc = (f"[0:v]{dl}split[a][b];[a]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=24:2,"
+                  f"eq=brightness=-0.12[bg];[b]crop=iw/{a.zoom:.3f}:ih/{a.zoom:.3f},scale={fg_w}:-2:flags=lanczos{',hflip' if a.flip else ''}[fg];"
+                  f"[bg][fg]overlay=(W-w)/2:(H-h)*{a.y:.3f},fps=30,format=yuv420p[v]")
+            run(["ffmpeg", "-y", "-loglevel", "error", *seek, "-i", path, "-t", f"{a.len:.2f}", "-filter_complex", fc,
+                 "-map", "[v]", "-an", "-c:v", "libx264", "-crf", "18", "-preset", "medium", a.out])
+        else:
+            vf = dl + vertical(w, h, a.x, a.zoom, a.y) + (",hflip" if a.flip else "") + ",fps=30,format=yuv420p"
+            run(["ffmpeg", "-y", "-loglevel", "error", *seek, "-i", path, "-t", f"{a.len:.2f}", "-vf", vf, "-an",
+                 "-c:v", "libx264", "-crf", "18", "-preset", "medium", a.out])
         print(f"{a.out}  ({a.len:.1f}s from {a.at:.1f}s, source {w}x{h}{', upscaled' if h < 1080 else ''})")
         log_cut(a, s, local, w, h)
     finally:
@@ -161,7 +173,7 @@ def log_cut(a, s, local, w, h):
     clip = os.path.basename(a.out)
     rows = [r for r in rows if r.get("clip") != clip]
     rows.append({"clip": clip, "source_url": url, "source_account": acct, "source_date": date, "source_in_s": f"{a.at:.1f}",
-                 "source_out_s": f"{a.at + a.len:.1f}", "crop": f"x {a.x} zoom {a.zoom} y {a.y}" + (" flipped" if a.flip else ""),
+                 "source_out_s": f"{a.at + a.len:.1f}", "crop": f"x {a.x} zoom {a.zoom} y {a.y}" + (" flipped" if a.flip else "") + (" blurfit" if getattr(a, "blurfit", False) else ""),
                  "notes": (f"post text: {text[:120]}" if text else "") + (f" | source {w}x{h}" if w else ""), "verified": ""})
     wr = csv.DictWriter(open(p, "w", encoding="utf-8", newline=""), fieldnames=cols)
     wr.writeheader()
@@ -323,6 +335,9 @@ def main():
     p.add_argument("--zoom", type=float, default=1.0); p.add_argument("--y", type=float, default=0.5)
     p.add_argument("--snap", action="store_true", help="start at the beginning of the camera shot that contains --at")
     p.add_argument("--flip", action="store_true", help="mirror left-right (fixes reversed text, e.g. an embroidery preview)")
+    p.add_argument("--blurfit", action="store_true", help="keep the whole wide frame: full width over a blurred fill (story format)")
+    p.add_argument("--blurfit-width", dest="blurfit_width", type=float, default=1.0, help="foreground width share for --blurfit")
+    p.add_argument("--delogo", help="blur a channel logo: x,y,w,h as fractions of the source frame, e.g. 0.85,0.02,0.13,0.14")
     p = sub.add_parser("still"); p.add_argument("source"); p.add_argument("--len", type=float, default=5); p.add_argument("--out", required=True)
     p = sub.add_parser("page", help="a screenshot as a clip: push-in + red circle/box highlights")
     p.add_argument("source"); p.add_argument("--len", type=float, default=3); p.add_argument("--out", required=True)

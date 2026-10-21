@@ -1,0 +1,1347 @@
+[
+ {
+  "word": "Players",
+  "start": 0.0,
+  "end": 0.302
+ },
+ {
+  "word": "who",
+  "start": 0.325,
+  "end": 0.395
+ },
+ {
+  "word": "got",
+  "start": 0.43,
+  "end": 0.522
+ },
+ {
+  "word": "in",
+  "start": 0.546,
+  "end": 0.592
+ },
+ {
+  "word": "trouble",
+  "start": 0.627,
+  "end": 0.871
+ },
+ {
+  "word": "the",
+  "start": 0.894,
+  "end": 0.964
+ },
+ {
+  "word": "day",
+  "start": 0.998,
+  "end": 1.091
+ },
+ {
+  "word": "before",
+  "start": 1.138,
+  "end": 1.347
+ },
+ {
+  "word": "a",
+  "start": 1.37,
+  "end": 1.393
+ },
+ {
+  "word": "derby.",
+  "start": 1.451,
+  "end": 1.8
+ },
+ {
+  "word": "Back",
+  "start": 1.834,
+  "end": 2.009
+ },
+ {
+  "word": "in",
+  "start": 2.055,
+  "end": 2.101
+ },
+ {
+  "word": "October",
+  "start": 2.159,
+  "end": 2.485
+ },
+ {
+  "word": "2011,",
+  "start": 2.531,
+  "end": 3.1
+ },
+ {
+  "word": "Manchester",
+  "start": 3.17,
+  "end": 3.529
+ },
+ {
+  "word": "City",
+  "start": 3.576,
+  "end": 3.727
+ },
+ {
+  "word": "were",
+  "start": 3.762,
+  "end": 3.866
+ },
+ {
+  "word": "about",
+  "start": 3.889,
+  "end": 4.075
+ },
+ {
+  "word": "to",
+  "start": 4.098,
+  "end": 4.145
+ },
+ {
+  "word": "play",
+  "start": 4.18,
+  "end": 4.284
+ },
+ {
+  "word": "Manchester",
+  "start": 4.354,
+  "end": 4.679
+ },
+ {
+  "word": "United",
+  "start": 4.748,
+  "end": 5.05
+ },
+ {
+  "word": "at",
+  "start": 5.097,
+  "end": 5.155
+ },
+ {
+  "word": "Old",
+  "start": 5.213,
+  "end": 5.352
+ },
+ {
+  "word": "Trafford,",
+  "start": 5.387,
+  "end": 5.851
+ },
+ {
+  "word": "and",
+  "start": 5.875,
+  "end": 5.956
+ },
+ {
+  "word": "up",
+  "start": 6.002,
+  "end": 6.072
+ },
+ {
+  "word": "front",
+  "start": 6.142,
+  "end": 6.316
+ },
+ {
+  "word": "for",
+  "start": 6.362,
+  "end": 6.455
+ },
+ {
+  "word": "City",
+  "start": 6.513,
+  "end": 6.757
+ },
+ {
+  "word": "was",
+  "start": 6.827,
+  "end": 6.931
+ },
+ {
+  "word": "Mario",
+  "start": 7.001,
+  "end": 7.279
+ },
+ {
+  "word": "Balotelli.",
+  "start": 7.338,
+  "end": 7.976
+ },
+ {
+  "word": "But",
+  "start": 7.999,
+  "end": 8.104
+ },
+ {
+  "word": "just",
+  "start": 8.162,
+  "end": 8.359
+ },
+ {
+  "word": "before",
+  "start": 8.394,
+  "end": 8.661
+ },
+ {
+  "word": "1",
+  "start": 8.707,
+  "end": 8.847
+ },
+ {
+  "word": "a.m.",
+  "start": 8.928,
+  "end": 9.265
+ },
+ {
+  "word": "on",
+  "start": 9.288,
+  "end": 9.346
+ },
+ {
+  "word": "the",
+  "start": 9.381,
+  "end": 9.451
+ },
+ {
+  "word": "day",
+  "start": 9.509,
+  "end": 9.659
+ },
+ {
+  "word": "before",
+  "start": 9.706,
+  "end": 9.926
+ },
+ {
+  "word": "the",
+  "start": 9.949,
+  "end": 10.019
+ },
+ {
+  "word": "derby,",
+  "start": 10.077,
+  "end": 10.402
+ },
+ {
+  "word": "two",
+  "start": 10.425,
+  "end": 10.588
+ },
+ {
+  "word": "fire",
+  "start": 10.646,
+  "end": 10.89
+ },
+ {
+  "word": "crews",
+  "start": 10.913,
+  "end": 11.075
+ },
+ {
+  "word": "were",
+  "start": 11.11,
+  "end": 11.215
+ },
+ {
+  "word": "called",
+  "start": 11.238,
+  "end": 11.389
+ },
+ {
+  "word": "to",
+  "start": 11.412,
+  "end": 11.459
+ },
+ {
+  "word": "his",
+  "start": 11.505,
+  "end": 11.575
+ },
+ {
+  "word": "house.",
+  "start": 11.609,
+  "end": 11.935
+ },
+ {
+  "word": "Balotelli",
+  "start": 11.981,
+  "end": 12.434
+ },
+ {
+  "word": "had",
+  "start": 12.469,
+  "end": 12.55
+ },
+ {
+  "word": "four",
+  "start": 12.643,
+  "end": 12.852
+ },
+ {
+  "word": "friends",
+  "start": 12.91,
+  "end": 13.13
+ },
+ {
+  "word": "over,",
+  "start": 13.177,
+  "end": 13.467
+ },
+ {
+  "word": "and",
+  "start": 13.49,
+  "end": 13.595
+ },
+ {
+  "word": "they",
+  "start": 13.63,
+  "end": 13.723
+ },
+ {
+  "word": "were",
+  "start": 13.746,
+  "end": 13.839
+ },
+ {
+  "word": "letting",
+  "start": 13.873,
+  "end": 14.059
+ },
+ {
+  "word": "off",
+  "start": 14.094,
+  "end": 14.164
+ },
+ {
+  "word": "fireworks",
+  "start": 14.21,
+  "end": 14.64
+ },
+ {
+  "word": "out",
+  "start": 14.663,
+  "end": 14.744
+ },
+ {
+  "word": "of",
+  "start": 14.767,
+  "end": 14.814
+ },
+ {
+  "word": "the",
+  "start": 14.849,
+  "end": 14.918
+ },
+ {
+  "word": "bathroom",
+  "start": 14.953,
+  "end": 15.267
+ },
+ {
+  "word": "window.",
+  "start": 15.313,
+  "end": 15.696
+ },
+ {
+  "word": "The",
+  "start": 15.719,
+  "end": 15.789
+ },
+ {
+  "word": "towels",
+  "start": 15.836,
+  "end": 16.114
+ },
+ {
+  "word": "caught",
+  "start": 16.161,
+  "end": 16.346
+ },
+ {
+  "word": "fire,",
+  "start": 16.381,
+  "end": 16.776
+ },
+ {
+  "word": "and",
+  "start": 16.799,
+  "end": 16.892
+ },
+ {
+  "word": "the",
+  "start": 16.927,
+  "end": 16.997
+ },
+ {
+  "word": "bathroom",
+  "start": 17.043,
+  "end": 17.403
+ },
+ {
+  "word": "went",
+  "start": 17.438,
+  "end": 17.554
+ },
+ {
+  "word": "up",
+  "start": 17.589,
+  "end": 17.658
+ },
+ {
+  "word": "in",
+  "start": 17.705,
+  "end": 17.751
+ },
+ {
+  "word": "flames.",
+  "start": 17.821,
+  "end": 18.343
+ },
+ {
+  "word": "Firefighters",
+  "start": 18.366,
+  "end": 18.854
+ },
+ {
+  "word": "had",
+  "start": 18.889,
+  "end": 18.97
+ },
+ {
+  "word": "to",
+  "start": 18.993,
+  "end": 19.04
+ },
+ {
+  "word": "go",
+  "start": 19.075,
+  "end": 19.156
+ },
+ {
+  "word": "in",
+  "start": 19.237,
+  "end": 19.33
+ },
+ {
+  "word": "with",
+  "start": 19.377,
+  "end": 19.47
+ },
+ {
+  "word": "breathing",
+  "start": 19.504,
+  "end": 19.737
+ },
+ {
+  "word": "apparatus.",
+  "start": 19.771,
+  "end": 20.352
+ },
+ {
+  "word": "And",
+  "start": 20.375,
+  "end": 20.48
+ },
+ {
+  "word": "reports",
+  "start": 20.526,
+  "end": 20.793
+ },
+ {
+  "word": "say",
+  "start": 20.816,
+  "end": 20.932
+ },
+ {
+  "word": "Balotelli",
+  "start": 21.014,
+  "end": 21.501
+ },
+ {
+  "word": "even",
+  "start": 21.548,
+  "end": 21.71
+ },
+ {
+  "word": "ran",
+  "start": 21.768,
+  "end": 21.954
+ },
+ {
+  "word": "back",
+  "start": 22.012,
+  "end": 22.14
+ },
+ {
+  "word": "inside",
+  "start": 22.186,
+  "end": 22.488
+ },
+ {
+  "word": "to",
+  "start": 22.511,
+  "end": 22.558
+ },
+ {
+  "word": "grab",
+  "start": 22.604,
+  "end": 22.767
+ },
+ {
+  "word": "a",
+  "start": 22.802,
+  "end": 22.825
+ },
+ {
+  "word": "suitcase",
+  "start": 22.871,
+  "end": 23.254
+ },
+ {
+  "word": "and",
+  "start": 23.278,
+  "end": 23.347
+ },
+ {
+  "word": "some",
+  "start": 23.371,
+  "end": 23.475
+ },
+ {
+  "word": "cash,",
+  "start": 23.51,
+  "end": 23.881
+ },
+ {
+  "word": "so",
+  "start": 23.939,
+  "end": 24.021
+ },
+ {
+  "word": "the",
+  "start": 24.067,
+  "end": 24.137
+ },
+ {
+  "word": "police",
+  "start": 24.16,
+  "end": 24.357
+ },
+ {
+  "word": "had",
+  "start": 24.381,
+  "end": 24.45
+ },
+ {
+  "word": "to",
+  "start": 24.473,
+  "end": 24.52
+ },
+ {
+  "word": "make",
+  "start": 24.543,
+  "end": 24.636
+ },
+ {
+  "word": "sure",
+  "start": 24.671,
+  "end": 24.787
+ },
+ {
+  "word": "he",
+  "start": 24.81,
+  "end": 24.857
+ },
+ {
+  "word": "stayed",
+  "start": 24.903,
+  "end": 25.112
+ },
+ {
+  "word": "out.",
+  "start": 25.158,
+  "end": 25.414
+ },
+ {
+  "word": "By",
+  "start": 25.437,
+  "end": 25.542
+ },
+ {
+  "word": "the",
+  "start": 25.588,
+  "end": 25.658
+ },
+ {
+  "word": "morning,",
+  "start": 25.693,
+  "end": 25.96
+ },
+ {
+  "word": "it",
+  "start": 25.983,
+  "end": 26.029
+ },
+ {
+  "word": "was",
+  "start": 26.052,
+  "end": 26.122
+ },
+ {
+  "word": "all",
+  "start": 26.169,
+  "end": 26.343
+ },
+ {
+  "word": "over",
+  "start": 26.401,
+  "end": 26.552
+ },
+ {
+  "word": "the",
+  "start": 26.61,
+  "end": 26.679
+ },
+ {
+  "word": "news.",
+  "start": 26.726,
+  "end": 27.074
+ },
+ {
+  "word": "But",
+  "start": 27.109,
+  "end": 27.202
+ },
+ {
+  "word": "Balotelli",
+  "start": 27.237,
+  "end": 27.713
+ },
+ {
+  "word": "checked",
+  "start": 27.759,
+  "end": 27.956
+ },
+ {
+  "word": "into",
+  "start": 27.98,
+  "end": 28.096
+ },
+ {
+  "word": "a",
+  "start": 28.166,
+  "end": 28.189
+ },
+ {
+  "word": "hotel,",
+  "start": 28.259,
+  "end": 28.665
+ },
+ {
+  "word": "and",
+  "start": 28.688,
+  "end": 28.769
+ },
+ {
+  "word": "at",
+  "start": 28.816,
+  "end": 28.874
+ },
+ {
+  "word": "10",
+  "start": 28.92,
+  "end": 29.094
+ },
+ {
+  "word": "a.m.",
+  "start": 29.129,
+  "end": 29.408
+ },
+ {
+  "word": "he",
+  "start": 29.431,
+  "end": 29.478
+ },
+ {
+  "word": "turned",
+  "start": 29.536,
+  "end": 29.71
+ },
+ {
+  "word": "up",
+  "start": 29.733,
+  "end": 29.779
+ },
+ {
+  "word": "for",
+  "start": 29.803,
+  "end": 29.872
+ },
+ {
+  "word": "training",
+  "start": 29.907,
+  "end": 30.139
+ },
+ {
+  "word": "like",
+  "start": 30.163,
+  "end": 30.267
+ },
+ {
+  "word": "nothing",
+  "start": 30.325,
+  "end": 30.592
+ },
+ {
+  "word": "had",
+  "start": 30.627,
+  "end": 30.708
+ },
+ {
+  "word": "happened.",
+  "start": 30.755,
+  "end": 31.184
+ },
+ {
+  "word": "And",
+  "start": 31.207,
+  "end": 31.3
+ },
+ {
+  "word": "Roberto",
+  "start": 31.335,
+  "end": 31.66
+ },
+ {
+  "word": "Mancini",
+  "start": 31.718,
+  "end": 32.136
+ },
+ {
+  "word": "still",
+  "start": 32.206,
+  "end": 32.45
+ },
+ {
+  "word": "put",
+  "start": 32.496,
+  "end": 32.636
+ },
+ {
+  "word": "him",
+  "start": 32.67,
+  "end": 32.74
+ },
+ {
+  "word": "in",
+  "start": 32.786,
+  "end": 32.833
+ },
+ {
+  "word": "the",
+  "start": 32.868,
+  "end": 32.937
+ },
+ {
+  "word": "team.",
+  "start": 32.972,
+  "end": 33.309
+ },
+ {
+  "word": "After",
+  "start": 33.344,
+  "end": 33.553
+ },
+ {
+  "word": "22",
+  "start": 33.611,
+  "end": 33.959
+ },
+ {
+  "word": "minutes,",
+  "start": 34.005,
+  "end": 34.273
+ },
+ {
+  "word": "Balotelli",
+  "start": 34.319,
+  "end": 34.795
+ },
+ {
+  "word": "scored.",
+  "start": 34.865,
+  "end": 35.341
+ },
+ {
+  "word": "Then",
+  "start": 35.364,
+  "end": 35.503
+ },
+ {
+  "word": "he",
+  "start": 35.55,
+  "end": 35.596
+ },
+ {
+  "word": "lifted",
+  "start": 35.689,
+  "end": 35.956
+ },
+ {
+  "word": "his",
+  "start": 36.002,
+  "end": 36.072
+ },
+ {
+  "word": "shirt",
+  "start": 36.118,
+  "end": 36.304
+ },
+ {
+  "word": "over",
+  "start": 36.339,
+  "end": 36.49
+ },
+ {
+  "word": "his",
+  "start": 36.536,
+  "end": 36.618
+ },
+ {
+  "word": "head",
+  "start": 36.676,
+  "end": 36.908
+ },
+ {
+  "word": "to",
+  "start": 36.954,
+  "end": 37.012
+ },
+ {
+  "word": "show",
+  "start": 37.071,
+  "end": 37.198
+ },
+ {
+  "word": "a",
+  "start": 37.245,
+  "end": 37.268
+ },
+ {
+  "word": "message",
+  "start": 37.314,
+  "end": 37.593
+ },
+ {
+  "word": "underneath.",
+  "start": 37.616,
+  "end": 38.116
+ },
+ {
+  "word": "Why",
+  "start": 38.139,
+  "end": 38.336
+ },
+ {
+  "word": "always",
+  "start": 38.383,
+  "end": 38.603
+ },
+ {
+  "word": "me?",
+  "start": 38.661,
+  "end": 38.928
+ },
+ {
+  "word": "The",
+  "start": 38.952,
+  "end": 39.033
+ },
+ {
+  "word": "referee",
+  "start": 39.079,
+  "end": 39.346
+ },
+ {
+  "word": "booked",
+  "start": 39.381,
+  "end": 39.579
+ },
+ {
+  "word": "him",
+  "start": 39.602,
+  "end": 39.671
+ },
+ {
+  "word": "for",
+  "start": 39.706,
+  "end": 39.834
+ },
+ {
+  "word": "it.",
+  "start": 39.892,
+  "end": 39.973
+ },
+ {
+  "word": "But",
+  "start": 39.996,
+  "end": 40.089
+ },
+ {
+  "word": "it",
+  "start": 40.113,
+  "end": 40.159
+ },
+ {
+  "word": "got",
+  "start": 40.205,
+  "end": 40.391
+ },
+ {
+  "word": "even",
+  "start": 40.461,
+  "end": 40.693
+ },
+ {
+  "word": "crazier.",
+  "start": 40.763,
+  "end": 41.332
+ },
+ {
+  "word": "In",
+  "start": 41.355,
+  "end": 41.436
+ },
+ {
+  "word": "the",
+  "start": 41.459,
+  "end": 41.529
+ },
+ {
+  "word": "second",
+  "start": 41.564,
+  "end": 41.773
+ },
+ {
+  "word": "half,",
+  "start": 41.819,
+  "end": 42.051
+ },
+ {
+  "word": "Balotelli",
+  "start": 42.075,
+  "end": 42.527
+ },
+ {
+  "word": "scored",
+  "start": 42.574,
+  "end": 42.853
+ },
+ {
+  "word": "again,",
+  "start": 42.876,
+  "end": 43.224
+ },
+ {
+  "word": "and",
+  "start": 43.247,
+  "end": 43.352
+ },
+ {
+  "word": "City",
+  "start": 43.421,
+  "end": 43.677
+ },
+ {
+  "word": "just",
+  "start": 43.77,
+  "end": 43.99
+ },
+ {
+  "word": "kept",
+  "start": 44.025,
+  "end": 44.211
+ },
+ {
+  "word": "going.",
+  "start": 44.257,
+  "end": 44.64
+ },
+ {
+  "word": "Three,",
+  "start": 44.664,
+  "end": 44.931
+ },
+ {
+  "word": "four,",
+  "start": 44.977,
+  "end": 45.302
+ },
+ {
+  "word": "five,",
+  "start": 45.337,
+  "end": 45.732
+ },
+ {
+  "word": "six.",
+  "start": 45.825,
+  "end": 46.254
+ },
+ {
+  "word": "Manchester",
+  "start": 46.277,
+  "end": 46.591
+ },
+ {
+  "word": "City",
+  "start": 46.614,
+  "end": 46.753
+ },
+ {
+  "word": "won",
+  "start": 46.788,
+  "end": 46.928
+ },
+ {
+  "word": "6-1,",
+  "start": 47.021,
+  "end": 47.717
+ },
+ {
+  "word": "United's",
+  "start": 47.752,
+  "end": 48.147
+ },
+ {
+  "word": "worst",
+  "start": 48.216,
+  "end": 48.46
+ },
+ {
+  "word": "home",
+  "start": 48.495,
+  "end": 48.634
+ },
+ {
+  "word": "defeat",
+  "start": 48.658,
+  "end": 48.89
+ },
+ {
+  "word": "since",
+  "start": 48.925,
+  "end": 49.052
+ },
+ {
+  "word": "1955,",
+  "start": 49.075,
+  "end": 50.004
+ },
+ {
+  "word": "and",
+  "start": 50.027,
+  "end": 50.12
+ },
+ {
+  "word": "City",
+  "start": 50.178,
+  "end": 50.364
+ },
+ {
+  "word": "went",
+  "start": 50.387,
+  "end": 50.492
+ },
+ {
+  "word": "five",
+  "start": 50.538,
+  "end": 50.736
+ },
+ {
+  "word": "points",
+  "start": 50.77,
+  "end": 50.956
+ },
+ {
+  "word": "clear",
+  "start": 51.014,
+  "end": 51.142
+ },
+ {
+  "word": "at",
+  "start": 51.165,
+  "end": 51.212
+ },
+ {
+  "word": "the",
+  "start": 51.235,
+  "end": 51.305
+ },
+ {
+  "word": "top.",
+  "start": 51.339,
+  "end": 51.63
+ },
+ {
+  "word": "But",
+  "start": 51.653,
+  "end": 51.757
+ },
+ {
+  "word": "here's",
+  "start": 51.804,
+  "end": 52.013
+ },
+ {
+  "word": "the",
+  "start": 52.048,
+  "end": 52.117
+ },
+ {
+  "word": "wild",
+  "start": 52.187,
+  "end": 52.466
+ },
+ {
+  "word": "part.",
+  "start": 52.512,
+  "end": 52.779
+ },
+ {
+  "word": "That",
+  "start": 52.802,
+  "end": 52.953
+ },
+ {
+  "word": "shirt",
+  "start": 53.0,
+  "end": 53.162
+ },
+ {
+  "word": "had",
+  "start": 53.185,
+  "end": 53.255
+ },
+ {
+  "word": "nothing",
+  "start": 53.313,
+  "end": 53.51
+ },
+ {
+  "word": "to",
+  "start": 53.534,
+  "end": 53.58
+ },
+ {
+  "word": "do",
+  "start": 53.65,
+  "end": 53.743
+ },
+ {
+  "word": "with",
+  "start": 53.777,
+  "end": 53.87
+ },
+ {
+  "word": "the",
+  "start": 53.894,
+  "end": 53.963
+ },
+ {
+  "word": "fire.",
+  "start": 54.01,
+  "end": 54.416
+ },
+ {
+  "word": "Balotelli",
+  "start": 54.451,
+  "end": 54.927
+ },
+ {
+  "word": "asked",
+  "start": 54.985,
+  "end": 55.217
+ },
+ {
+  "word": "the",
+  "start": 55.24,
+  "end": 55.31
+ },
+ {
+  "word": "kit",
+  "start": 55.345,
+  "end": 55.484
+ },
+ {
+  "word": "man",
+  "start": 55.531,
+  "end": 55.658
+ },
+ {
+  "word": "to",
+  "start": 55.705,
+  "end": 55.751
+ },
+ {
+  "word": "print",
+  "start": 55.832,
+  "end": 56.041
+ },
+ {
+  "word": "it",
+  "start": 56.076,
+  "end": 56.123
+ },
+ {
+  "word": "on",
+  "start": 56.169,
+  "end": 56.25
+ },
+ {
+  "word": "the",
+  "start": 56.285,
+  "end": 56.355
+ },
+ {
+  "word": "Monday",
+  "start": 56.401,
+  "end": 56.657
+ },
+ {
+  "word": "before",
+  "start": 56.703,
+  "end": 56.912
+ },
+ {
+  "word": "the",
+  "start": 56.935,
+  "end": 57.005
+ },
+ {
+  "word": "derby,",
+  "start": 57.063,
+  "end": 57.481
+ },
+ {
+  "word": "days",
+  "start": 57.516,
+  "end": 57.748
+ },
+ {
+  "word": "before",
+  "start": 57.783,
+  "end": 57.98
+ },
+ {
+  "word": "any",
+  "start": 58.027,
+  "end": 58.166
+ },
+ {
+  "word": "fire.",
+  "start": 58.224,
+  "end": 58.63
+ },
+ {
+  "word": "And",
+  "start": 58.654,
+  "end": 58.735
+ },
+ {
+  "word": "the",
+  "start": 58.77,
+  "end": 58.839
+ },
+ {
+  "word": "day",
+  "start": 58.897,
+  "end": 59.049
+ },
+ {
+  "word": "after",
+  "start": 59.084,
+  "end": 59.235
+ },
+ {
+  "word": "the",
+  "start": 59.281,
+  "end": 59.351
+ },
+ {
+  "word": "derby,",
+  "start": 59.386,
+  "end": 59.699
+ },
+ {
+  "word": "the",
+  "start": 59.722,
+  "end": 59.792
+ },
+ {
+  "word": "man",
+  "start": 59.838,
+  "end": 59.954
+ },
+ {
+  "word": "whose",
+  "start": 59.989,
+  "end": 60.129
+ },
+ {
+  "word": "bathroom",
+  "start": 60.152,
+  "end": 60.43
+ },
+ {
+  "word": "had",
+  "start": 60.454,
+  "end": 60.523
+ },
+ {
+  "word": "caught",
+  "start": 60.558,
+  "end": 60.697
+ },
+ {
+  "word": "fire",
+  "start": 60.744,
+  "end": 61.023
+ },
+ {
+  "word": "was",
+  "start": 61.057,
+  "end": 61.127
+ },
+ {
+  "word": "telling",
+  "start": 61.162,
+  "end": 61.359
+ },
+ {
+  "word": "Manchester",
+  "start": 61.406,
+  "end": 61.742
+ },
+ {
+  "word": "to",
+  "start": 61.777,
+  "end": 61.824
+ },
+ {
+  "word": "follow",
+  "start": 61.916,
+  "end": 62.172
+ },
+ {
+  "word": "the",
+  "start": 62.218,
+  "end": 62.288
+ },
+ {
+  "word": "firework",
+  "start": 62.334,
+  "end": 62.694
+ },
+ {
+  "word": "code.",
+  "start": 62.741,
+  "end": 63.391
+ }
+]

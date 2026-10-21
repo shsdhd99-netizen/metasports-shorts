@@ -353,3 +353,28 @@ Research Notes/Round 9 - Competitor Shorts Watched (Oct 5, 2026).md. Findings (n
   - Oct 23: #5 #60 (morning), #6 #59 (6 PM).
   - New Hub assets for the v2 files: s64 ca68679f..., s62 cc60fe65..., s63 b08de4a3....
 - Nothing posted or scheduled; all files are labelled DRAFT.
+
+## Oct 21 (evening UTC): soccer channel started, Ahmed format learned as a skill, 2 soccer drafts
+- **Owner asked for:**
+  - a second YouTube channel for soccer, grown alongside MetaSports;
+  - why Ahmed's network wins;
+  - an exact copy of his caption and editing style, with "do not try new things";
+  - a separate space and a name recommendation;
+  - 2 verified Shorts to review;
+  - the method learned as a SKILL that moves to another account;
+  - the NBA memory refined.
+- **Research:** `Research Notes/Story Format Study - Ahmed (Oct 21, 2026).md`, plus the network deep dive and the CSV data, committed earlier.
+- **Soccer space:** `Soccer Channel/`, with START HERE, Playbook, Channel Setup, Idea Bank (S03-S14), Outcome Log, Lessons Learned and Research/.
+  - **Name recommendation:** MetaSports FC (@MetaSportsFC), free on Oct 21.
+- **Skill:** `.claude/skills/story-short/` (SKILL, FORMAT, SCRIPT, SOURCING, QA, PORTABLE), plus a zip for claude.ai: `Soccer Channel/story-short-skill.zip`.
+- **Drafts (nothing posted):**
+  - **S01 "Goalkeepers who hid a cheat sheet in their sock":** Lehmann, 2006, 66 s. QA PASS (full).
+  - **S02 "Players who got in TROUBLE the day before a derby":** Balotelli, 2011, 64 s. QA PASS (full).
+  - Each has a music and a no-music version (`DRAFT - awaiting approval - ...mp4`).
+  - Footage: archive.org broadcasts (2006 shootout, 2006 all goals, BBC MOTD 2011), Mixkit stock, BBC/mancity.com screenshot cards, a recreated note labelled "recreation", and a Köpke photo (CC BY-SA, credited on screen).
+- **Tools:**
+  - new: `cut_list.py`, `stock.py`;
+  - `broll.py --blurfit/--delogo`; `--caption-style ahmed` + `title_caption.txt`;
+  - qa/footage/export story profile; music bed `eleven_story_01.mp3`.
+- **NBA memory:** the Playbook has the section "Oct 21, 2026: what Ahmed's network adds"; Lessons Learned and Tools Guide are updated. THE #42 FORMAT stays RULE 1.
+- **ElevenLabs:** the Creator plan fits about 1 soccer Short a day (about 3K credits each with 2 takes), plus the NBA work.

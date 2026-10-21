@@ -35,8 +35,11 @@ def main():
     ap.add_argument("--infer-kinds", action="store_true", help="old Shorts: cards by clip name, everything else counts as action")
     ap.add_argument("--full", action="store_true", help="also run footage_qc.py (upscale, softness, duplicates, flashes, motion, internal cuts) "
                     "and export_check.py (captions vs script, caption timing and safe area, export speech vs script, timeline, clipping)")
+    ap.add_argument("--profile", choices=["nba", "story"], help="story = the Ahmed-style 58-88 s story format (Research Notes/Story Format "
+                    "Study - Ahmed, Oct 21 2026); default: story for folders under 'Soccer Channel', else nba")
     a = ap.parse_args()
     F = a.folder
+    story = (a.profile or ("story" if "Soccer Channel" in os.path.abspath(F) else "nba")) == "story"
     shots = json.load(open(os.path.join(F, "shots.json")))
     words = json.load(open(os.path.join(F, "words.json")))
     fin = a.video or os.path.join(F, "final.mp4")
@@ -59,14 +62,21 @@ def main():
     kinds = {k: sum(d for s, _, _, d in segs if s.get("kind") == k) for k in ("face", "quote", "action", "card")}
     missing = [s["clip"] for s in shots if "kind" not in s]
     chk(not missing, "every shot has a kind", f"shots missing 'kind': {missing[:3]}")
-    chk(12 <= total <= 60, f"length {total:.1f}s", f"length {total:.1f}s (outside 12-60 s)")
-    soft(15 <= total <= 35, f"length {total:.1f}s in 15-35", f"length {total:.1f}s (length follows the story; our old era had no length effect, 10-33 s)")
+    if story:  # Ahmed's network: median runtime 70-76 s, range 58-167 s; every video over 1 minute (TikTok rewards) [V]
+        chk(55 <= total <= 120, f"length {total:.1f}s (story format)", f"length {total:.1f}s (story format wants 58-88 s)")
+        soft(58 <= total <= 88, f"length {total:.1f}s in 58-88", f"length {total:.1f}s (Ahmed's Shorts run 58-88 s; median 70-76 s)")
+    else:
+        chk(12 <= total <= 60, f"length {total:.1f}s", f"length {total:.1f}s (outside 12-60 s)")
+        soft(15 <= total <= 35, f"length {total:.1f}s in 15-35", f"length {total:.1f}s (length follows the story; our old era had no length effect, 10-33 s)")
     first = words[0]
     chk(first["start"] <= 0.4, "voice starts at once", f"first word at {first['start']}s (want <=0.4)")
     fw = re.sub(r"[^a-z']", "", first["word"].lower())
     chk(fw not in FILLER, f"opens on '{first['word']}'", f"opens on filler word '{first['word']}' (start on the name/number/stakes)")
     in3 = [s for s, st, e, d in segs if st < 3.0]
-    soft(len(in3) >= 3, f"{len(in3)} shots in first 3 s", f"only {len(in3)} shots in first 3 s (guideline 3; shot length did not separate winners)")
+    if story:  # Ahmed holds the first picture about 2.5 s under the title card (0-1 cuts in the first 3 s) [V]
+        soft(len(in3) <= 3, f"{len(in3)} shots in first 3 s (title card holds)", f"{len(in3)} shots in first 3 s (story format holds the first picture ~2.5 s under the title)")
+    else:
+        soft(len(in3) >= 3, f"{len(in3)} shots in first 3 s", f"only {len(in3)} shots in first 3 s (guideline 3; shot length did not separate winners)")
     chk(any(s.get("kind") == "action" for s in in3), "real action footage in first 3 s", "no 'action' footage in the first 3 s (a talking head or card hook gets swiped)")
     hook = " ".join(w["word"] for w in words if w["start"] < 3.0)
     chk(bool(re.search(r"\d|[A-Z][a-z]+ [A-Z]|million|billion|percent|first|never|only|banned|illegal|rule|\b(one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen|twenty|thirty|forty|fifty|sixty|seventy|eighty|ninety|hundred)\b", hook, re.I)) , "hook line has a name/number/stakes", f"hook line weak: '{hook}'")
@@ -101,7 +111,8 @@ def main():
                 replays.append((s["clip"], j + 1, k + 1, round(ov, 2)))
         used.setdefault(s["clip"], []).append((a0, a1, k))
     soft(not replays, "no footage shown twice", f"the same footage appears twice (clip, shot, shot, overlap s): {replays}; mark an intentional replay with \"replay\": true")
-    soft(shots[-1]["clip"] == shots[0]["clip"], "loops to the first shot", "last shot is not the first clip (fine if the ending image serves the payoff; never add a sub-0.6 s shot just to loop)")
+    if not story:  # the story format ends on the payoff or the next-video teaser, not a loop
+      soft(shots[-1]["clip"] == shots[0]["clip"], "loops to the first shot", "last shot is not the first clip (fine if the ending image serves the payoff; never add a sub-0.6 s shot just to loop)")
     gaps = [(round(words[i]["end"], 2), round(words[i + 1]["start"] - words[i]["end"], 2)) for i in range(len(words) - 1) if words[i + 1]["start"] - words[i]["end"] > 0.6]
     chk(not gaps, "no dead air inside the speech", f"dead air over 0.6 s inside the speech at (s, gap): {gaps}")
     r = subprocess.run(["ffmpeg", "-nostats", "-i", fin, "-af", "ebur128=peak=true", "-f", "null", "-"], capture_output=True, text=True).stderr
