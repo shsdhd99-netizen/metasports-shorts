@@ -1,5 +1,7 @@
 # #65 "LeBron just answered a Knicks fan" (viral moment + receipts, opening night)
 
+**ON HOLD (Oct 21, second QA): don't post.** The moment is now taken on YouTube: Chaz NBA has 546K views on "LeBron has words for Knicks fan 'I'm not from the west coast, I'm from...'" with LeBron's real audio, and ours narrates the quote. It is also the same game as #62, which goes up instead. Details: `Research Notes/Second QA and Posting Schedule (Oct 21, 2026).md`.
+
 - **Owner's ask (Oct 21):** "do a deep dive on the best/biggest stories of last night, then make 2 shorts for the best stories." Deep dive: `Research Notes/Opening Night Deep Dive (Oct 21, 2026).md`.
 - **Why this story:** the most-discussed LeBron moment of the night after the chant (BrickCenter's "Full audio" post: 2,764 likes, 244 replies, the most replies of any post we checked; ClutchPoints and IBTimes picked it up). LeBron is our most-used star, and this is his own words in a feud.
 - **Lane:** petty/feud moment with receipts. **Concept (8 words):** LeBron told a Knicks fan he's not soft.

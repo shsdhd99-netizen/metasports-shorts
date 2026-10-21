@@ -407,7 +407,7 @@ That argument in the comments is what spreads the Short.
 
 ## The recipe (what every MetaSports Short looks like now)
 
-**Length:** stories 22–40 seconds (about 90–170 words); quick moments 15–25 seconds. CoachClank's 31–45s Shorts have the best median, and his 8 biggest 2026 Shorts ran 22–34s (Research Notes/Round 3 - Deeper Findings.md). Post between 6 and 11 AM ET. *(Unverified for this channel; see Strict Short Formula §11: log post times.)*
+**Length:** stories 22–40 seconds (about 90–170 words); quick moments 15–25 seconds. CoachClank's 31–45s Shorts have the best median, and his 8 biggest 2026 Shorts ran 22–34s (Research Notes/Round 3 - Deeper Findings.md). **Posting schedule (owner, Oct 21, 2026): 2 Shorts a day, late morning ET (about 11 AM-12 PM) and 5-7 PM ET (aim 6 PM, before the 7 PM tip-offs).** Morning = the freshest story from last night's games; evening = the biggest-name story or an evergreen one; never two Shorts from the same game on one day; re-run `copy_check.py` the morning of posting. Timing evidence is weak (Round 6): log the go-live time on each Hub card. Details: `Research Notes/Second QA and Posting Schedule (Oct 21, 2026).md`.
 
 **Voice:**
 - One AI voice, fast (~250 words/min).

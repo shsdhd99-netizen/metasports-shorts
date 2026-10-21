@@ -2,7 +2,7 @@
  {
   "word": "So",
   "start": 0.0,
-  "end": 0.139
+  "end": 0.151
  },
  {
   "word": "he",
@@ -12,191 +12,191 @@
  {
   "word": "signed",
   "start": 0.348,
-  "end": 0.615
+  "end": 0.604
  },
  {
   "word": "with",
-  "start": 0.639,
-  "end": 0.731
+  "start": 0.627,
+  "end": 0.72
  },
  {
   "word": "Philly.",
-  "start": 0.766,
-  "end": 1.091
+  "start": 0.755,
+  "end": 1.115
  },
  {
   "word": "And",
-  "start": 1.115,
-  "end": 1.207
+  "start": 1.138,
+  "end": 1.231
  },
  {
   "word": "his",
-  "start": 1.265,
-  "end": 1.37
- },
- {
-  "word": "debut",
-  "start": 1.44,
-  "end": 1.8
- },
- {
-  "word": "was",
-  "start": 1.823,
-  "end": 1.939
- },
- {
-  "word": "tonight,",
-  "start": 1.997,
-  "end": 2.45
- },
- {
-  "word": "in",
-  "start": 2.473,
-  "end": 2.577
- },
- {
-  "word": "the",
-  "start": 2.612,
-  "end": 2.682
- },
- {
-  "word": "Garden,",
-  "start": 2.74,
-  "end": 3.181
- },
- {
-  "word": "on",
-  "start": 3.216,
-  "end": 3.39
- },
- {
-  "word": "ring",
-  "start": 3.483,
-  "end": 3.657
- },
- {
-  "word": "night.",
-  "start": 3.715,
-  "end": 4.063
- },
- {
-  "word": "LeBron",
-  "start": 4.087,
-  "end": 4.354
- },
- {
-  "word": "had",
-  "start": 4.4,
-  "end": 4.47
- },
- {
-  "word": "14,",
-  "start": 4.516,
-  "end": 5.016
- },
- {
-  "word": "9",
-  "start": 5.108,
-  "end": 5.503
- },
- {
-  "word": "and",
-  "start": 5.526,
-  "end": 5.712
- },
- {
-  "word": "7,",
-  "start": 5.805,
-  "end": 6.246
- },
- {
-  "word": "and",
-  "start": 6.269,
-  "end": 6.397
- },
- {
-  "word": "the",
-  "start": 6.432,
-  "end": 6.502
+  "start": 1.277,
+  "end": 1.347
  },
  {
   "word": "Sixers",
-  "start": 6.571,
-  "end": 6.931
+  "start": 1.393,
+  "end": 1.66
  },
  {
-  "word": "won,",
-  "start": 7.012,
-  "end": 7.384
+  "word": "debut",
+  "start": 1.695,
+  "end": 2.032
  },
  {
-  "word": "106",
-  "start": 7.477,
-  "end": 8.115
+  "word": "was",
+  "start": 2.067,
+  "end": 2.183
  },
  {
-  "word": "to",
-  "start": 8.173,
-  "end": 8.243
+  "word": "in",
+  "start": 2.229,
+  "end": 2.287
  },
  {
-  "word": "100.",
-  "start": 8.324,
-  "end": 8.94
+  "word": "the",
+  "start": 2.334,
+  "end": 2.403
  },
  {
-  "word": "The",
-  "start": 8.963,
-  "end": 9.033
+  "word": "Garden,",
+  "start": 2.473,
+  "end": 2.868
  },
  {
-  "word": "Garden",
-  "start": 9.079,
-  "end": 9.3
- },
- {
-  "word": "didn't",
-  "start": 9.334,
-  "end": 9.509
- },
- {
-  "word": "want",
-  "start": 9.555,
-  "end": 9.718
- },
- {
-  "word": "him,",
-  "start": 9.764,
-  "end": 9.938
- },
- {
-  "word": "so",
-  "start": 9.973,
-  "end": 10.066
- },
- {
-  "word": "he",
-  "start": 10.124,
-  "end": 10.17
- },
- {
-  "word": "spoiled",
-  "start": 10.205,
-  "end": 10.542
- },
- {
-  "word": "their",
-  "start": 10.565,
-  "end": 10.693
+  "word": "on",
+  "start": 2.902,
+  "end": 3.077
  },
  {
   "word": "ring",
-  "start": 10.751,
-  "end": 10.89
+  "start": 3.17,
+  "end": 3.344
  },
  {
   "word": "night.",
-  "start": 10.948,
-  "end": 11.285
+  "start": 3.39,
+  "end": 3.611
+ },
+ {
+  "word": "LeBron",
+  "start": 3.634,
+  "end": 3.936
+ },
+ {
+  "word": "had",
+  "start": 3.971,
+  "end": 4.04
+ },
+ {
+  "word": "14,",
+  "start": 4.098,
+  "end": 4.586
+ },
+ {
+  "word": "9",
+  "start": 4.679,
+  "end": 4.923
+ },
+ {
+  "word": "and",
+  "start": 4.969,
+  "end": 5.155
+ },
+ {
+  "word": "7,",
+  "start": 5.236,
+  "end": 5.608
+ },
+ {
+  "word": "and",
+  "start": 5.631,
+  "end": 5.735
+ },
+ {
+  "word": "the",
+  "start": 5.77,
+  "end": 5.84
+ },
+ {
+  "word": "Sixers",
+  "start": 5.898,
+  "end": 6.223
+ },
+ {
+  "word": "won,",
+  "start": 6.281,
+  "end": 6.594
+ },
+ {
+  "word": "106",
+  "start": 6.653,
+  "end": 7.233
+ },
+ {
+  "word": "to",
+  "start": 7.303,
+  "end": 7.361
+ },
+ {
+  "word": "100.",
+  "start": 7.454,
+  "end": 8.162
+ },
+ {
+  "word": "The",
+  "start": 8.185,
+  "end": 8.255
+ },
+ {
+  "word": "Garden",
+  "start": 8.301,
+  "end": 8.475
+ },
+ {
+  "word": "didn't",
+  "start": 8.51,
+  "end": 8.661
+ },
+ {
+  "word": "want",
+  "start": 8.684,
+  "end": 8.812
+ },
+ {
+  "word": "him,",
+  "start": 8.835,
+  "end": 8.951
+ },
+ {
+  "word": "so",
+  "start": 8.986,
+  "end": 9.079
+ },
+ {
+  "word": "he",
+  "start": 9.149,
+  "end": 9.195
+ },
+ {
+  "word": "spoiled",
+  "start": 9.288,
+  "end": 9.718
+ },
+ {
+  "word": "their",
+  "start": 9.741,
+  "end": 9.857
+ },
+ {
+  "word": "ring",
+  "start": 9.95,
+  "end": 10.112
+ },
+ {
+  "word": "night.",
+  "start": 10.17,
+  "end": 10.495
  }
 ]

@@ -1,1 +1,20 @@
-[{"vo": "_n1"}, {"vo": "_n2"}]
+[
+ {
+  "vo": "_n1"
+ },
+ {
+  "quote": "src/espn_scuffle76.mp4",
+  "stt": "_audit/ref_stt.json",
+  "from": 71.4,
+  "to": 72.5
+ },
+ {
+  "quote": "src/espn_scuffle76.mp4",
+  "stt": "_audit/ref_stt.json",
+  "from": 72.98,
+  "to": 76.1
+ },
+ {
+  "vo": "_n2"
+ }
+]

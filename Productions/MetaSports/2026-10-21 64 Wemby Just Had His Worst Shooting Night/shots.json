@@ -1,10 +1,10 @@
 [
  {
-  "clip": "S01.mp4",
-  "kind": "action",
-  "why": "Wembanyama (#1) with the ball on the left wing before a missed drive, 1st quarter 6:36, opening night vs OKC (Legion Hoops misses compilation of the NBC broadcast)",
+  "clip": "S00.mp4",
+  "kind": "face",
+  "why": "Wembanyama close-up, front on, opening night vs OKC, 2nd quarter 6:40 (ESPN clip of the NBC broadcast)",
   "start": 0.0,
-  "zoom": 0.06
+  "zoom": 0.045
  },
  {
   "clip": "S02.mp4",
@@ -70,9 +70,9 @@
   "start": 12.7
  },
  {
-  "clip": "S10.mp4",
+  "clip": "S12.mp4",
   "kind": "face",
-  "why": "Wembanyama close-up at the Spurs bench, 2nd quarter (Hoop Central post)",
+  "why": "Wembanyama (#1 WEMBANYAMA) close, 2nd quarter 7:04 (Spurs post)",
   "anchor": "So did he",
   "start": 14.06
  },
@@ -84,16 +84,16 @@
   "start": 15.64
  },
  {
-  "clip": "S12o.mp4",
-  "kind": "face",
-  "why": "Wembanyama (#1 WEMBANYAMA) close, 2nd quarter (Spurs post). Words: 12 PTS, 1 FG + 10 FREE THROWS",
+  "clip": "S13o.mp4",
+  "kind": "action",
+  "why": "Replay of his only basket: Wembanyama (#1) calls for the lob from Fox (#4), end of the 3rd quarter (ESPN clip of the NBC broadcast). Words: 12 PTS, 1 FG + 10 FREE THROWS",
   "anchor": "And he still",
   "start": 17.38
  },
  {
-  "clip": "S01.mp4",
+  "clip": "S14.mp4",
   "kind": "action",
-  "why": "Loop: back to the opening miss",
+  "why": "His only basket: Wembanyama catches the lob and dunks, 3rd quarter 0.0 (ESPN 'Wemby snaps 0-for-12 start with alley-oop')",
   "anchor": "with one basket",
   "start": 18.74
  }

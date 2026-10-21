@@ -34,9 +34,11 @@ Owner's ask: "do a deep dive on the best/biggest stories of last night, then mak
 - **#65, LeBron vs the Knicks fan:** the most-replied post of the night, in LeBron's own words. The receipts come from the play-by-play: he spoke with the Sixers down six, then scored three straight baskets in 73 seconds for the first lead since the first quarter, and assisted Brown's buzzer three.
 - Neither had been told on YouTube.
 
-## Overlap to manage when posting
-- #62 and #65 are the same game, and both end on 106-100 / ring night. Post one, or space them a day apart.
-- #63 and #64 both mention Wemby's 1-for-13. Space them a few hours apart.
+## Overlap to manage when posting (resolved in the second QA, Oct 21)
+- #62 and #65 were the same game, both ending on 106-100 / ring night. **Kept #62; #65 is on hold** (by 16:00 UTC its moment was TAKEN on YouTube: Chaz NBA, 546K).
+- #63 and #64 both mentioned Wemby's 1-for-13 and shared a Wemby close-up. **#63 v2 dropped the 1-for-13 and #64 v2 swapped the close-up**; they now share no idea or footage.
+- #61 is on hold (Chris Smoove told it, 31K).
+- Schedule: `Research Notes/Second QA and Posting Schedule (Oct 21, 2026).md`.
 
 ## New footage source found today
 ESPN's game summary API (`site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=<id>`, key `videos`) lists every game clip ESPN posted with direct 1280x720 MP4 links. That gave us the 3rd-quarter LeBron lob, Brown's buzzer three, the full recap and the Maxey reel. NBA.com's per-play videos (stats.nba.com) time out from the cloud, and cdn.nba.com live data returns 403.

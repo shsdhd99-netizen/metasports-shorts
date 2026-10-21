@@ -11,42 +11,41 @@ Style: Cap,Montserrat Black,86,&H00FFFFFF,&H00FFFFFF,&H00000000,&H99000000,0,0,0
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:00.48,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ALL THREE
-Dialogue: 0,0:00:00.48,0:00:00.98,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THUNDER PLAYERS
-Dialogue: 0,0:00:00.98,0:00:01.53,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NAMED WILLIAMS
-Dialogue: 0,0:00:01.53,0:00:02.14,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}GOT A TECHNICAL
-Dialogue: 0,0:00:02.14,0:00:02.54,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FOUL,
-Dialogue: 0,0:00:02.54,0:00:03.46,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ON THE SAME PLAY.
-Dialogue: 0,0:00:03.46,0:00:03.94,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IT STARTED
-Dialogue: 0,0:00:03.94,0:00:04.84,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WHEN DE'AARON FOX
-Dialogue: 0,0:00:04.84,0:00:05.67,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx79\fscy79\t(0,90,\fscx91\fscy91)}THREW CHET HOLMGREN
-Dialogue: 0,0:00:05.67,0:00:06.29,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TO THE FLOOR.
-Dialogue: 0,0:00:06.29,0:00:07.12,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}JAYLIN WILLIAMS
-Dialogue: 0,0:00:07.12,0:00:07.96,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SHOVED FOX.
-Dialogue: 0,0:00:07.96,0:00:08.87,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx84\fscy84\t(0,90,\fscx98\fscy98)}VICTOR WEMBANYAMA
-Dialogue: 0,0:00:08.87,0:00:09.25,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}GOT INTO
-Dialogue: 0,0:00:09.25,0:00:09.68,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}A SHOVING
-Dialogue: 0,0:00:09.68,0:00:10.49,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}MATCH WITH JAYLIN.
-Dialogue: 0,0:00:10.49,0:00:11.34,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THEN JALEN WILLIAMS
-Dialogue: 0,0:00:11.34,0:00:12.09,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx80\fscy80\t(0,90,\fscx93\fscy93)}AND KENRICH WILLIAMS
-Dialogue: 0,0:00:12.09,0:00:12.62,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}JUMPED IN.
-Dialogue: 0,0:00:12.62,0:00:12.90,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FOX
-Dialogue: 0,0:00:12.90,0:00:13.54,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}GOT A FLAGRANT.
-Dialogue: 0,0:00:13.54,0:00:13.78,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WEMBY
-Dialogue: 0,0:00:13.78,0:00:14.50,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}GOT A TECHNICAL.
-Dialogue: 0,0:00:14.50,0:00:15.05,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND SO DID ALL
-Dialogue: 0,0:00:15.05,0:00:15.78,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THREE WILLIAMSES.
-Dialogue: 0,0:00:15.78,0:00:16.27,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BUT WEMBY'S
-Dialogue: 0,0:00:16.27,0:00:17.14,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NIGHT GOT WORSE.
-Dialogue: 0,0:00:17.14,0:00:17.46,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HE MISSED
-Dialogue: 0,0:00:17.46,0:00:17.81,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HIS FIRST
-Dialogue: 0,0:00:17.81,0:00:19.23,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}12 SHOTS.
-Dialogue: 0,0:00:19.23,0:00:19.66,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HE FINISHED
-Dialogue: 0,0:00:19.66,0:00:20.54,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}1 FOR 13.
-Dialogue: 0,0:00:20.54,0:00:21.42,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE THUNDER WON,
-Dialogue: 0,0:00:21.42,0:00:23.06,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}116 TO 104,
-Dialogue: 0,0:00:23.06,0:00:23.85,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND SGA
-Dialogue: 0,0:00:23.85,0:00:24.72,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HAD 32.
-Dialogue: 0,0:00:24.72,0:00:25.45,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THREE WILLIAMSES,
-Dialogue: 0,0:00:25.45,0:00:26.19,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THREE TECHNICALS,
-Dialogue: 0,0:00:26.19,0:00:28.22,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND A 12-POINT WIN.
+Dialogue: 0,0:00:00.00,0:00:00.38,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ALL THREE
+Dialogue: 0,0:00:00.38,0:00:00.92,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THUNDER PLAYERS
+Dialogue: 0,0:00:00.92,0:00:01.44,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NAMED WILLIAMS
+Dialogue: 0,0:00:01.44,0:00:02.00,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}GOT A TECHNICAL
+Dialogue: 0,0:00:02.00,0:00:02.40,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FOUL,
+Dialogue: 0,0:00:02.40,0:00:03.44,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ON THE SAME PLAY.
+Dialogue: 0,0:00:03.44,0:00:03.84,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IT STARTED
+Dialogue: 0,0:00:03.84,0:00:04.67,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WHEN DE'AARON FOX
+Dialogue: 0,0:00:04.67,0:00:05.45,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx79\fscy79\t(0,90,\fscx91\fscy91)}THREW CHET HOLMGREN
+Dialogue: 0,0:00:05.45,0:00:06.12,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TO THE FLOOR.
+Dialogue: 0,0:00:06.12,0:00:06.88,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}JAYLIN WILLIAMS
+Dialogue: 0,0:00:06.88,0:00:07.63,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SHOVED FOX.
+Dialogue: 0,0:00:07.63,0:00:08.46,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx84\fscy84\t(0,90,\fscx98\fscy98)}VICTOR WEMBANYAMA
+Dialogue: 0,0:00:08.46,0:00:08.75,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}GOT INTO
+Dialogue: 0,0:00:08.75,0:00:09.14,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}A SHOVING
+Dialogue: 0,0:00:09.14,0:00:09.97,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}MATCH WITH JAYLIN.
+Dialogue: 0,0:00:09.97,0:00:10.87,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THEN JALEN WILLIAMS
+Dialogue: 0,0:00:10.87,0:00:11.71,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx80\fscy80\t(0,90,\fscx93\fscy93)}AND KENRICH WILLIAMS
+Dialogue: 0,0:00:11.71,0:00:12.24,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}JUMPED IN.
+Dialogue: 0,0:00:12.24,0:00:12.52,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FOX
+Dialogue: 0,0:00:12.52,0:00:13.26,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}GOT A FLAGRANT.
+Dialogue: 0,0:00:13.26,0:00:13.56,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WEMBY
+Dialogue: 0,0:00:13.56,0:00:14.29,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}GOT A TECHNICAL.
+Dialogue: 0,0:00:14.29,0:00:14.61,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND THEN
+Dialogue: 0,0:00:14.61,0:00:15.10,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE REFEREE
+Dialogue: 0,0:00:15.10,0:00:16.30,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}READ THIS OUT:
+Dialogue: 0,0:00:16.30,0:00:16.46,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND THEN
+Dialogue: 0,0:00:16.46,0:00:17.56,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}KENRICH WILLIAMS,
+Dialogue: 0,0:00:17.56,0:00:18.40,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}JALEN WILLIAMS,
+Dialogue: 0,0:00:18.40,0:00:19.22,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND JAYLIN WILLIAMS
+Dialogue: 0,0:00:19.22,0:00:19.60,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WILL RECEIVE
+Dialogue: 0,0:00:19.60,0:00:20.72,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TECHNICAL FOULS.
+Dialogue: 0,0:00:20.72,0:00:21.54,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND THE THUNDER
+Dialogue: 0,0:00:21.54,0:00:22.27,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BEAT THE SPURS
+Dialogue: 0,0:00:22.27,0:00:23.30,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BY 12.
+Dialogue: 0,0:00:23.30,0:00:24.25,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THREE WILLIAMSES,
+Dialogue: 0,0:00:24.25,0:00:25.15,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THREE TECHNICALS,
+Dialogue: 0,0:00:25.15,0:00:26.50,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ONE WIN.

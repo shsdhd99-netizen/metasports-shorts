@@ -11,77 +11,77 @@
   "kind": "action",
   "why": "The Madison Square Garden scoreboard ring with the 2025-26 banner (NBA on NBC post)",
   "anchor": "his career in",
-  "start": 1.33
+  "start": 1.38
  },
  {
   "clip": "S03.mp4",
   "kind": "action",
   "why": "Knicks fans at MSG filming the ceremony on their phones (NBA on NBC post)",
-  "anchor": "Tonight, the Garden",
-  "start": 2.85
+  "anchor": "On opening night",
+  "start": 2.99
  },
  {
   "clip": "S04.mp4",
   "kind": "quote",
   "why": "Fan video from the stands: LeBron (#23) at the free-throw line as MSG chants (Barstool post on X); real audio 0.0-2.74 s",
   "anchor": "We don't want",
-  "start": 4.75
+  "start": 5.27
  },
  {
   "clip": "S05.mp4",
   "kind": "face",
   "why": "LeBron walking past the camera in the MSG tunnel, side view (same NBA post, 6.4 s in, different footage from S01)",
   "anchor": "And the craziest",
-  "start": 7.61
+  "start": 8.13
  },
  {
   "clip": "S06.mp4",
   "kind": "action",
   "why": "The Knicks team photo in white jackets under the new banner (NBA on NBC post)",
   "anchor": "The only reason",
-  "start": 8.74
+  "start": 9.25
  },
  {
   "clip": "S07.mp4",
   "kind": "action",
   "why": "The 2025-26 World Champions banner rising (NBA on NBC post)",
   "anchor": "is that the Knicks",
-  "start": 9.9
+  "start": 10.41
  },
  {
   "clip": "S08.mp4",
   "kind": "action",
   "why": "Jalen Brunson (#11) driving on the Spurs at Frost Bank Center, 2026 Finals (NBA post on X)",
   "anchor": "In June,",
-  "start": 10.99
+  "start": 11.51
  },
  {
   "clip": "S09ao.mp4",
   "kind": "action",
   "anchor": "for their first",
   "why": "Knicks players lifting the Larry O'Brien trophy (NBA post). Words: FIRST TITLE",
-  "start": 12.25
+  "start": 12.76
  },
  {
   "clip": "S09bo.mp4",
   "kind": "action",
   "anchor": "in 53",
   "why": "Knicks players in Finals warm-ups walking out (same NBA post, after its dissolve). Words: IN 53 YEARS",
-  "start": 13.07
+  "start": 13.58
  },
  {
   "clip": "S10o.mp4",
   "kind": "face",
   "why": "LeBron in a #23 PHILA jersey at Sixers media day, Sept 28 2026 (Sporting News post; no audio used). Words: HEY, I CAN'T",
   "anchor": "and LeBron said",
-  "start": 14.16
+  "start": 14.67
  },
  {
   "clip": "S11o.mp4",
   "kind": "face",
   "why": "Rich Paul's whiteboard with LeBron's options (Game Over podcast via Heat Central). Words: RICH PAUL, LEBRON'S AGENT",
   "anchor": "His agent",
-  "start": 15.97,
+  "start": 16.48,
   "zoom": 0.08
  },
  {
@@ -89,48 +89,48 @@
   "kind": "quote",
   "why": "Rich Paul pointing at the whiteboard; real audio 13.28-15.02 s",
   "anchor": "There would be",
-  "start": 17.92
+  "start": 18.43
  },
  {
   "clip": "S13.mp4",
   "kind": "face",
   "why": "LeBron close-up in a PHILA jersey at MSG, Oct 20 2026 (NBA post, cropped above the scorebug)",
   "anchor": "So he signed",
-  "start": 19.74
+  "start": 20.25
  },
  {
   "clip": "S14.mp4",
   "kind": "action",
   "why": "Jaylen Brown (#7) drives and LeBron (#23) goes up at the rim, 3rd quarter at MSG (NBA post, cropped above the scorebug)",
-  "anchor": "And his debut",
-  "start": 20.86
+  "anchor": "And his Sixers",
+  "start": 21.39
  },
  {
   "clip": "S15.mp4",
   "kind": "action",
   "why": "Knicks players holding up their new rings (NBA on NBC post)",
   "anchor": "in the Garden,",
-  "start": 22.21
+  "start": 22.48
  },
  {
   "clip": "S16o.mp4",
   "kind": "action",
   "why": "LeBron (#23) at MSG, 3rd quarter (NBA post, cropped above the scorebug). Words: 14 / 9 / 7",
   "anchor": "LeBron had",
-  "start": 23.83
+  "start": 23.88
  },
  {
   "clip": "S17o.mp4",
   "kind": "action",
   "why": "Sixers possession at MSG, 1st quarter (76ers post, cropped above the scorebug). Words: FINAL SIXERS 106 KNICKS 100",
   "anchor": "and the Sixers",
-  "start": 26.01
+  "start": 25.88
  },
  {
   "clip": "S01.mp4",
   "kind": "face",
   "why": "Loop: back to the opening tunnel shot",
   "anchor": "The Garden didn't",
-  "start": 28.7
+  "start": 28.44
  }
 ]

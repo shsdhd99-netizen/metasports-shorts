@@ -1,5 +1,7 @@
 # #61 "Paul George broke a Celtics record and lost" (opening night, Oct 20 2026)
 
+**ON HOLD (Oct 21, second QA): don't post unless you want it anyway.** Chris Smoove already told this exact story ("Paul George 38 Pts Celtics Debut! Pistons 23-0 4th QTR Run!", 31K); our rule is not to retell a bigger channel's story. Stale after Oct 22. Details: `Research Notes/Second QA and Posting Schedule (Oct 21, 2026).md`.
+
 - **Lane:** number gap / record with a twist (record debut, still lost). Same-day news: posted within hours of the 3 PM ET opener.
 - **Concept (8 words):** Best debut in Celtics history ended in a loss.
 - **Added value:** the record (most points in a Celtics debut), the 22-point lead, the 23-0 run while Boston sat on 99 (visible on the scorebug), Robinson's 15 in the 4th, Tatum 6-for-23, final.

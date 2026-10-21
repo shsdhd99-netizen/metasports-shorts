@@ -1,6 +1,8 @@
 # UPLOAD: #61 Paul George Broke A Celtics Record And Lost (opening night)
 
-**DRAFT, awaiting your approval. Not posted, not scheduled.**
+**ON HOLD (Oct 21, second QA): don't post unless you want it anyway.** Chris Smoove already told this exact story ("Paul George 38 Pts Celtics Debut! Pistons 23-0 4th QTR Run!", 31K); our rule is not to retell a bigger channel's story. Stale after Oct 22. Details: `Research Notes/Second QA and Posting Schedule (Oct 21, 2026).md`.
+
+**DRAFT, on hold. Not posted, not scheduled.**
 **File:** `DRAFT - awaiting approval - 61 Paul George record debut loss (no music).mp4` (same as `final.mp4`, 22.8 s, 1080x1920).
 **Post: tonight or tomorrow morning.** It is opening-night news (game ended about 5:35 PM ET Oct 20); being early is the point.
 

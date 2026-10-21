@@ -21,7 +21,7 @@
 | 12 points with one basket | ESPN box score: 1-13 FG (a 2-point dunk) + 10-12 FT = 12 | PASS |
 
 ## Footage
-Tonight's NBC broadcast via posts on X (Legion Hoops' misses compilation, ClutchPoints, Hoop Central, Spurs), the NBA's DPOY posts (trophy presentation, Apr 2026), and Spurs highlights from his rookie year (vs Golden State, Mar 11 2024; the 3-13 game itself had no Wemby-only clip). Full log in `sources.csv`.
+Tonight's NBC broadcast via ESPN's game clips (the hook close-up and the alley-oop) and posts on X (Legion Hoops' misses compilation, ClutchPoints, Hoop Central, Spurs), the NBA's DPOY posts (trophy presentation, Apr 2026), and Spurs highlights from his rookie year (vs Golden State, Mar 11 2024; the 3-13 game itself had no Wemby-only clip). Full log in `sources.csv`.
 
 ## Titles
 1. Wemby Just Had The Worst Night Of His Career 😳
@@ -34,3 +34,10 @@ Tonight's NBC broadcast via posts on X (Legion Hoops' misses compilation, Clutch
 - Voice check flagged the last word "basket" as stretched on both takes; its envelope is a normal two-syllable word (0.45 s with the k stop), kept take 1. Listen to the end.
 - Most game shots are wide broadcast angles (Wemby is small in frame); the misses compilation has no close angles.
 - One flash frame in the Mara block clip (a broadcast frame glitch) was replaced by the frame before.
+
+## v2 (Oct 21, second QA)
+- **Hook:** frame 1 was a wide shot with Wemby small in frame. It is now a close-up of his face from ESPN's "Victor Wembanyama invites Chet Holmgren to a block party" clip (2nd quarter 6:40).
+- **Payoff:** "with one basket" now shows that basket. ESPN play-by-play, 3rd 0.0: "Victor Wembanyama makes 1-foot alley oop dunk (De'Aaron Fox assists)", his only field goal (the ESPN clip "Wemby snaps 0-for-12 start with alley-oop to end third quarter"). It ends on the dunk instead of looping to a miss.
+- "So did he play badly? No." moved to the Spurs' close shot of him from behind.
+- No footage is shared with #63 v2. #64 used to share the Hoop Central bench close-up with #63.
+- v1 kept in `_v1/` (shots, sources, effects, notes, UPLOAD, final_v1.mp4).

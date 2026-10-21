@@ -1,17 +1,12 @@
 [
  {
   "sfx": "ding",
-  "at": 13.25,
+  "at": 13.76,
   "why": "53 YEARS lands"
  },
  {
-  "sfx": "camera",
-  "at": 14.3,
-  "why": "cut to LeBron at the media-day podium"
- },
- {
   "sfx": "boom",
-  "at": 26.15,
+  "at": 26.02,
   "why": "FINAL: SIXERS 106 KNICKS 100"
  }
 ]

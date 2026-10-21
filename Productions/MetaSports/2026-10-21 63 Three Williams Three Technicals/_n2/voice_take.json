@@ -1,28 +1,15 @@
 [
  {
   "take": 1,
-  "ok": false,
-  "score": -44.0,
-  "verdict": "CHECK",
-  "issues": [],
-  "wpm": 168,
-  "hnr": 9.4,
-  "jitter": 2.79,
-  "shimmer": 10.24,
-  "dur": 8.89,
-  "pitch_sd": 4.46
- },
- {
-  "take": 2,
   "ok": true,
-  "score": 6.1,
-  "verdict": "CHECK",
+  "score": 6.4,
+  "verdict": "PASS",
   "issues": [],
-  "wpm": 167,
+  "wpm": 155,
   "hnr": 9.7,
-  "jitter": 2.68,
-  "shimmer": 11.41,
-  "dur": 8.94,
-  "pitch_sd": 4.92
+  "jitter": 2.66,
+  "shimmer": 9.96,
+  "dur": 5.73,
+  "pitch_sd": 4.69
  }
 ]

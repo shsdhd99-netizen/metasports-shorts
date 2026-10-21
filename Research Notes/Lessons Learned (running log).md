@@ -235,3 +235,13 @@ Tiers: [V] verified on our files or data, [S] supported by our numbers (small n)
 - [V] **A team's own reel can carry a burned-in stat graphic.** The Aces' Wilson reel had a full-height stat column; crop the clear side (608x1080 at x=472) rather than show conflicting numbers under ours.
 - [S] **Overlays at y=1340 collide with the caption band.** Use y 300-330 above, or y 1480+ below the captions.
 
+
+### Oct 21, 2026 (cloud): second QA of all drafts (#52, #59-#65)
+- [V] **A viral moment's open lane can close in under 12 hours.** #65 (LeBron vs a Knicks fan) was FRESH at build time on Oct 21 morning; by 16:00 UTC Chaz NBA had 546K views on the clip with LeBron's real audio. Re-run `copy_check.py` on the morning of posting, not only at build.
+- [V] **"Tonight" in a script ages before it posts.** #62 was voiced on game night ("Tonight, the Garden chanted"); posting the next day would be wrong. Write time-free wording ("On opening night") unless it will go up within hours.
+- [V] **Check footage across Shorts, not only within one.** #63 and #64 used the same Wemby bench close-up (the same post, same in-point); QA only checks inside a Short. Compare `sources.csv` in/out points between Shorts from the same game.
+- [V] **`broll.py cut` rewrites the source-log row for that clip name.** Re-cutting an existing clip (S10) replaced its verified row with a bare unverified one and QA failed ("clips missing" / "not verified"). After a re-cut, re-check `sources.csv`, or cut to a new clip name.
+- [V] **The ending can show the payoff instead of looping.** #64's "with one basket" ran over a miss (the loop shot); the line's own image (his only basket, ESPN clip) is the stronger end. QA's loop check is only a warning.
+- [V] **ESPN's game-summary clips include tight face close-ups.** "Victor Wembanyama invites Chet Holmgren to a block party" had a clean 1.3 s front-on close-up, better than any X post for frame 1.
+- [V] **The name FIX in export speech-to-text clears with a names hint.** faster-whisper small.en heard "Kendrick"/"the Aaron"; with `initial_prompt` listing the players it heard "Kenrich"/"De'Aaron". Use that to tell a mispronounced voice from a mis-heard name.
+- [V] **Two effects 1.05 s apart: the renderer silently drops the second.** #62's UPLOAD listed a camera click that never played. Read assemble's "sound effect skipped" lines and keep the sheet honest.

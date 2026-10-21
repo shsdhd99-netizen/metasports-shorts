@@ -325,3 +325,31 @@ Research Notes/Round 9 - Competitor Shorts Watched (Oct 5, 2026).md. Findings (n
 - **Posting overlap:** #62 and #65 are the same game (post one, or a day apart); #63 and #64 both mention 1-for-13 (hours apart).
 - **New source:** ESPN game summary API `videos` (direct 720p MP4s of every ESPN game clip). vidIQ is out of credits.
 - Nothing posted.
+
+## Oct 21 (about 17:00 UTC): second QA of all drafts, duplicates removed, new posting schedule
+- **Owner:**
+  - "make sure video ideas arent being used multiple times: focus on making good videos over the amount"
+  - "run a second qa on all shorts ... gauge which 2 to post today (right now, and 5-7pm). that will be my new schedule, edit if needed."
+- **Report:** `Research Notes/Second QA and Posting Schedule (Oct 21, 2026).md`, covering:
+  - every draft's QA, audio and frame check;
+  - the duplicate decisions;
+  - an honest viral read (nothing is certain);
+  - the schedule.
+- **Rebuilt:**
+  - **#64 v2:** frame 1 is a close-up of Wemby's face (ESPN clip). It ends on his only basket, the alley-oop, instead of a miss. v1 is in `_v1/`.
+  - **#62 v2:** "Tonight" became "On opening night" (pieces `_n1` and `_n3` re-voiced). v1 is in `_v1/`.
+  - **#63 v2:** the referee's real announcement replaces the 1-for-13 (done earlier today). Its UPLOAD and notes are rewritten.
+- **On hold:**
+  - **#65:** taken on YouTube (Chaz NBA, 546K, with the real audio).
+  - **#61:** already told by Chris Smoove (31K).
+- **Schedule (Playbook updated):**
+  - 2 a day: late morning ET and 5-7 PM ET (aim 6 PM).
+  - Morning = the freshest game story; evening = the biggest name or an evergreen one.
+  - Never two Shorts from the same game on one day.
+  - Re-run the copy-check the morning of posting.
+- **Hub slots:**
+  - Oct 21: #1 #64 now, #2 #62 at 6 PM.
+  - Oct 22: #3 #63 (morning), #4 #52 Designed voice (6 PM).
+  - Oct 23: #5 #60 (morning), #6 #59 (6 PM).
+  - New Hub assets for the v2 files: s64 ca68679f..., s62 cc60fe65..., s63 b08de4a3....
+- Nothing posted or scheduled; all files are labelled DRAFT.

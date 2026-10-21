@@ -1,6 +1,8 @@
 # UPLOAD: #65 LeBron Just Answered A Knicks Fan (opening night)
 
-**DRAFT, awaiting your approval. Not posted, not scheduled.**
+**ON HOLD (Oct 21, second QA): don't post.** The moment is now taken on YouTube: Chaz NBA has 546K views on "LeBron has words for Knicks fan 'I'm not from the west coast, I'm from...'" with LeBron's real audio, and ours narrates the quote. It is also the same game as #62, which goes up instead. Details: `Research Notes/Second QA and Posting Schedule (Oct 21, 2026).md`.
+
+**DRAFT, on hold. Not posted, not scheduled.**
 **File:** `DRAFT - awaiting approval - 65 LeBron Ohio baby Knicks fan (no music).mp4` (same as `final.mp4`, 21.6 s, 1080x1920). Video files are not in git; rebuild with `python Tools/assemble.py --folder "<this folder>" --no-music` after re-cutting from `src/` (every in-point and crop is in `sources.csv`).
 **Timing:** today or tomorrow. **Same game as #62** (MSG chant): post one of them, or space them a day apart.
 

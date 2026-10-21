@@ -38,3 +38,8 @@ LeBron arriving through the MSG tunnel (NBA), the banner raising and team photo 
 - The trophy shot in the NBA post dissolves at 1.0 s, so it is split: trophy (FIRST TITLE), then players walking out (IN 53 YEARS).
 - Rich Paul's whiteboard shot is a still camera, so it has a slow push-in (QA flagged it as frozen without one).
 - Blow-ups: the Finals clip is 640x640 (3.0x), the chant fan video 1280x720 (2.7x), Rich Paul 1290x702 (2.7-2.95x). No better source found tonight.
+
+## v2 (Oct 21, second QA)
+- Time words removed so it reads right when posted on Oct 21 or later: "Tonight, the Garden chanted this" -> "On opening night, the Garden chanted this"; "And his debut was tonight, in the Garden" -> "And his Sixers debut was in the Garden". Pieces `_n1` and `_n3` re-voiced (Alex, voice gate PASS); `_n2` and both real-audio bursts unchanged. v1 in `_v1/`.
+- Copy-check re-run Oct 21 ~16:00 UTC, "LeBron Knicks chant we don't want you": FRESH (largest on-topic upload 188 views).
+- Chosen over #65 (same game): #65's moment is TAKEN on YouTube (Chaz NBA, 546K, with the real audio), and #62 has two real-audio bursts.

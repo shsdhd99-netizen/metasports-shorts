@@ -5,24 +5,37 @@
   "score": -45.0,
   "verdict": "PASS",
   "issues": [],
-  "wpm": 220,
-  "hnr": 8.5,
-  "jitter": 2.86,
-  "shimmer": 10.57,
-  "dur": 4.67,
-  "pitch_sd": 4.44
+  "wpm": 228,
+  "hnr": 8.6,
+  "jitter": 2.8,
+  "shimmer": 10.95,
+  "dur": 5.04,
+  "pitch_sd": 3.78
  },
  {
   "take": 2,
-  "ok": true,
-  "score": 5.4,
+  "ok": false,
+  "score": -44.3,
   "verdict": "PASS",
   "issues": [],
-  "wpm": 220,
-  "hnr": 9.0,
-  "jitter": 2.88,
-  "shimmer": 10.85,
-  "dur": 4.67,
-  "pitch_sd": 4.54
+  "wpm": 228,
+  "hnr": 9.3,
+  "jitter": 2.84,
+  "shimmer": 10.75,
+  "dur": 5.04,
+  "pitch_sd": 4.42
+ },
+ {
+  "take": 3,
+  "ok": true,
+  "score": 4.8,
+  "verdict": "PASS",
+  "issues": [],
+  "wpm": 221,
+  "hnr": 8.1,
+  "jitter": 2.65,
+  "shimmer": 10.09,
+  "dur": 5.18,
+  "pitch_sd": 4.68
  }
 ]
