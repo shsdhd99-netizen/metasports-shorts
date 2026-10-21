@@ -7,7 +7,7 @@
 - **Copy-check (Oct 21, 01:42 UTC):** chant: CROWDED by tiny posts only (46 and 7 views). "LeBron Knicks title reason": the tool says TAKEN, but the 1.3M hit is an unrelated "Knicks Win" video; the closest on-topic one is E! News "Did LeBron Almost Join the Knicks" at 2.4K. Our angle (the title is the reason, plus tonight's chant) is fresh.
 
 ## Script (Alex voice, spliced with two real-audio bursts)
-> LeBron James dreamed of finishing his career in Madison Square Garden. Tonight, the Garden chanted this: [crowd: "We don't want you!"] And the craziest part? The only reason he's not a Knick is that the Knicks won. In June, they beat the Spurs for their first title in 53 years, and LeBron said, "Hey, I can't." His agent said if they hadn't won: [Rich Paul: "There would be no board. He'd be going to the Knicks."] RESULT_LINES
+> LeBron James dreamed of finishing his career in Madison Square Garden. Tonight, the Garden chanted this: [crowd: "We don't want you!"] And the craziest part? The only reason he's not a Knick is that the Knicks won. In June, they beat the Spurs for their first title in 53 years, and LeBron said, "Hey, I can't." His agent said if they hadn't won: [Rich Paul: "There would be no board. He'd be going to the Knicks."] So he signed with Philly. And his debut was tonight, in the Garden, on ring night. LeBron had 14, 9 and 7, and the Sixers won, 106 to 100. The Garden didn't want him, so he spoiled their ring night.
 
 ## Claims and sources (read Oct 21, 2026)
 | Claim | Source (exact words) | Check |
@@ -18,7 +18,23 @@
 | In June they beat the Spurs, first title in 53 years | NBA on X: "THE KNICKS TOOK GAME 5 TO WIN THEIR FIRST CHAMPIONSHIP IN 53 YEARS"; USA Today: Game 5, 94-90, series 4-1; TSN: "ended a 53-year championship drought in June" | PASS |
 | LeBron said, "Hey, I can't." | ESPN via TSN (above) | PASS (exact words) |
 | His agent: "There would be no board. He'd be going to the Knicks." | Real audio from the Game Over clip (Heat Central post on X, 13.3-15.0 s); Field Level Media transcript above | PASS (his own voice) |
-| RESULT_CLAIMS | | |
+| So he signed with Philly | 76ers signing (2 years, reported $8M); NBA on X: "LEBRON ARRIVES FOR HIS SIXERS DEBUT" | PASS |
+| His debut was tonight, in the Garden, on ring night | NBA on X: "KNICKS BANNER RAISING NIGHT AT MSG. LEBRON AND JAYLEN BROWN'S SIXERS DEBUTS"; NBA on NBC banner post Oct 20 | PASS |
+| LeBron had 14, 9 and 7; Sixers won 106-100 | ESPN box score, game 401909089, read Oct 21 02:00 UTC (status Final): LeBron 34 min, 14 PTS, 9 REB, 7 AST; PHI 106, NY 100 | PASS |
+| The Garden didn't want him, so he spoiled their ring night | Opinion line built on the chant and the result | PASS (opinion, both facts sourced above) |
 
 ## Footage
 LeBron arriving through the MSG tunnel (NBA), the banner raising and team photo (NBA on NBC), fans at the Garden (NBC), the fan video of the chant (Barstool), Brunson driving on the Spurs in the Finals and the trophy (NBA), LeBron at Sixers media day (Sporting News), Rich Paul's whiteboard (Game Over via Heat Central), LeBron in his Sixers debut (NBA). Full log in `sources.csv`.
+
+## Titles
+1. Why LeBron Isn't A Knick 😳
+2. MSG Told LeBron "We Don't Want You" 💀
+3. The Knicks' Title Cost Them LeBron 😳
+
+**Pinned comment:** Rich Paul says LeBron would be a Knick right now if New York had lost the Finals. Worth the trade?
+
+## QA notes (Oct 21)
+- Speech-to-text heard the crowd as "we know about you / we don't want him" at points: the chant words come from the posts and CBS. Listen to 4.8-7.5 s.
+- The trophy shot in the NBA post dissolves at 1.0 s, so it is split: trophy (FIRST TITLE), then players walking out (IN 53 YEARS).
+- Rich Paul's whiteboard shot is a still camera, so it has a slow push-in (QA flagged it as frozen without one).
+- Blow-ups: the Finals clip is 640x640 (3.0x), the chant fan video 1280x720 (2.7x), Rich Paul 1290x702 (2.7-2.95x). No better source found tonight.

@@ -308,3 +308,10 @@ Research Notes/Round 9 - Competitor Shorts Watched (Oct 5, 2026).md. Findings (n
 - **Tool fix:** `Tools/assemble.py` now snaps each shot to the 30 fps frame grid (#60's 15 shots had drifted 0.11 s past the voice).
 - **Hub:** s59, s60 added. Nothing posted.
 
+
+## Oct 21 (UTC): opening night, first-to-report Shorts (#61, #62)
+- **Owner:** "make sure you are up to date on all viral stories and moments of tonight, and are first to report to the most viral things."
+- **#61 Paul George broke a Celtics record and lost:** 38 in his Celtics debut (most ever), Boston led by 22, Pistons won 121-113. DRAFT, QA PASS, 22.8 s. Hub s61.
+- **#62 Why LeBron isn't a Knick:** MSG chanted "We don't want you" at LeBron in his Sixers debut on the Knicks' ring night; LeBron "had visions of ... finishing my career in the Garden" and Rich Paul said he'd be a Knick if New York hadn't won. Real audio of the chant and of Rich Paul (`splice_voice.py`). Sixers 106-100, LeBron 14-9-7 (ESPN box score). DRAFT, QA PASS, 31.7 s. Hub s62. Listen to the chant: speech-to-text couldn't make out the crowd.
+- **Live-game method:** poll `site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=<id>` in a background loop until STATUS_FINAL; voice everything before the result first, then record only the result piece.
+- **Next:** Thunder at Spurs (ends about 04:00 UTC). Nothing posted.
