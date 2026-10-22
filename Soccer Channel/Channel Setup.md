@@ -14,7 +14,7 @@
 **Already taken:** MetaFC, MetaGoal, MetaSoccer, MetaPitch.
 
 ## Profile
-- **Bio (our own words; Ahmed's is "Daily Football Content! Follow So You Don't Miss It"):** "Football stories that sound fake but are 100% real. New story every day."
+- **YouTube description (short and simple, owner Oct 22):** "Football stories that sound fake but are 100% real. New story every day." (Ahmed's is "Daily Football Content! Follow So You Don't Miss It".)
 - **Picture, banner, watermark (made Oct 22):** `Brand/metasportsfc_profile_900.png`, `Brand/metasportsfc_banner_2560x1440.jpg` and `Brand/metasportsfc_watermark_150.png`. The full description, keywords and the TikTok/Instagram bios are in `Brand/Brand Kit.md`.
 - **Links:** the NBA channel (youtube.com/@MetaSportsClips).
 

@@ -1,6 +1,6 @@
 # S02 Players who got in trouble the day before a derby (DRAFT, awaiting approval)
 
-- **Format:** the story format (`Research Notes/Story Format Study - Ahmed (Oct 21, 2026).md`). S01's last line teases this Short, so post S01 first and this one next.
+- **Format:** the story format (`Research Notes/Story Format Study - Ahmed (Oct 21, 2026).md`). No teaser in either Short any more (owner, Oct 22).
 - **Lane / theme:** a famous name, a small absurd detail and an ironic payoff. Closest Ahmed themes: refused/defiant (826K median) and "looks fake but is 100% real" (332K).
 - **Concept (8 words):** Balotelli's house burned, then he destroyed United.
 - **Added value:** two details most retellings get wrong or skip:
@@ -9,7 +9,7 @@
 - **Copy-check, Oct 21:**
   - `copy_check.py "Balotelli fireworks fire derby"`: FRESH (the biggest existing video has 2.7K views).
   - Ahmed's titles have no Balotelli fire story.
-- **Runtime:** 64.0 s. 268 words. Voice: Alex, take 1 (passed the check).
+- **Runtime:** 63.0 s after the Oct 22 tightening (was 63.7 s). 268 words. Voice: Alex, take 1 (passed the check).
 - **Script history:**
   - v1 (194 words) ran 46 s, too short for the format.
   - v2 added the breathing apparatus, the suitcase and cash, the hotel and training, and five points clear.

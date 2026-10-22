@@ -1,0 +1,21 @@
+ #  start   len  kind   clip  |  words spoken during the shot
+ 0   0.00  1.41  action S01.mp4  |  All three Thunder players named Williams
+ 1   1.41  0.96  action S02.mp4  |  got a technical foul,
+ 2   2.37  1.04  action S02b.mp4  |  on the same play.
+ 3   3.41  1.23  action S03.mp4  |  It started when De'Aaron Fox
+ 4   4.64  1.45  action S04.mp4  |  threw Chet Holmgren to the floor.
+ 5   6.09  1.51  action S05.mp4  |  Jaylin Williams shoved Fox.
+ 6   7.60  0.83  face   S06a.mp4  |  Victor Wembanyama
+ 7   8.43  1.51  action S06b.mp4  |  got into a shoving match with Jaylin.
+ 8   9.94  2.27  action S07.mp4  |  Then Jalen Williams and Kenrich Williams jumped in.
+ 9  12.21  1.02  action S08o.mp4  |  Fox got a flagrant.
+10  13.23  1.03  face   S09o.mp4  |  Wemby got a technical.
+11  14.26  1.78  face   S15r.mp4  |  And then the referee read this out: And then
+12  16.04  1.10  action S16o.mp4  |  Kenrich Williams,
+13  17.14  0.84  face   S17o.mp4  |  Jalen Williams,
+14  17.98  0.82  action S18o.mp4  |  and Jaylin Williams
+15  18.80  1.50  action S10o.mp4  |  will receive technical fouls.
+16  20.30  2.59  action S13o.mp4  |  And the Thunder beat the Spurs by 12.
+17  22.89  1.85  face   S15.mp4  |  Three Williamses, three technicals,
+18  24.74  1.11  action S01.mp4  |  one win.
+shots.json updated

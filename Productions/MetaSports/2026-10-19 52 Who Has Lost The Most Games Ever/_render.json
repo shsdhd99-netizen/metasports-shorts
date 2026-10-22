@@ -7,25 +7,25 @@
    "shot": 5,
    "clip": "S5.mp4",
    "fit": "slowed",
-   "factor": 1.169
+   "factor": 1.167
   },
   {
    "shot": 8,
    "clip": "S8o.mp4",
    "fit": "slowed",
-   "factor": 1.194
+   "factor": 1.196
   },
   {
    "shot": 9,
    "clip": "S9o.mp4",
    "fit": "slowed",
-   "factor": 1.229
+   "factor": 1.244
   },
   {
    "shot": 10,
    "clip": "S10.mp4",
    "fit": "slowed",
-   "factor": 1.213
+   "factor": 1.111
   }
  ],
  "music": null

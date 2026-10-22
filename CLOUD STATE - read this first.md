@@ -378,3 +378,29 @@ Research Notes/Round 9 - Competitor Shorts Watched (Oct 5, 2026).md. Findings (n
   - qa/footage/export story profile; music bed `eleven_story_01.mp3`.
 - **NBA memory:** the Playbook has the section "Oct 21, 2026: what Ahmed's network adds"; Lessons Learned and Tools Guide are updated. THE #42 FORMAT stays RULE 1.
 - **ElevenLabs:** the Creator plan fits about 1 soccer Short a day (about 3K credits each with 2 takes), plus the NBA work.
+
+## Oct 22 (01:00-02:00 UTC): no promo, no dead air, S03, tonight's NBA tracker, a 4-day plan
+- **Owner:**
+  - "remove the promo at the end, that will instantly kill retention";
+  - "a new youtube bio that is short and simple";
+  - "make sure videos have no unnecessary pauses";
+  - "1 more soccer short";
+  - "track the biggest nba stories of tonight to make a short later";
+  - "plan/edit for the next few days".
+- **New tool, `Tools/tighten_voice.py`:** cuts silences measured on the audio itself and trims the tail to 0.25 s. `--end-after WORD` drops an outro. Originals go to `_voice_pretighten/`.
+  - Soccer setting: pauses over 0.09 s cut to 0.06 s.
+  - NBA setting (`--thresh 0.25 --keep 0.12`) keeps real-audio quotes natural.
+  - It is in the story-short skill (step 4b) and the Tools Guide.
+- **Soccer:**
+  - S01: promo cut and pauses tightened, 66.1 s to 59.5 s.
+  - S02: tightened, 63.7 s to 63.0 s.
+  - Both QA PASS (full), with new DRAFT files and new Hub versions.
+  - **S03 "Goalkeepers who danced on the line to win a final"** (Dudek, Istanbul 2005; Grobbelaar 1984): 70.7 s, 720p archive.org broadcast, sources in notes.md.
+  - The skill and docs now forbid any teaser or follow ask at the end. The zip is rebuilt.
+- **Bio:** "Football stories that sound fake but are 100% real. New story every day." It is in Brand Kit.md and the soccer Hub brand/kit doc (v3).
+- **NBA:** #62, #63, #52 (Designed voice; the Alex alternate in `_alex/` is untouched), #60 and #59 are tightened, re-anchored, re-rendered and QA'd. The old renders are in `_pre_tight/`.
+- **Tonight:**
+  - The tracker (scratchpad `nba_tonight/track.py`) saves every final game summary for Oct 21.
+  - A check-in is scheduled for **Oct 22 05:20 UTC** (trig_01WZV4kDusLYgUeGCrm3V5Qt) to pick the biggest story and make one THE #42 FORMAT draft.
+- **Plan:** `Content Plan (Oct 22-25).md`. NBA 2 a day; soccer 1 a day at noon ET (S01 Wed, S02 Thu, S03 Fri, S04 Sat, lead idea Lewandowski's 5 goals in 9 minutes; Cantona has no archive.org footage). Hub slots are updated.
+- Nothing posted or scheduled on YouTube.

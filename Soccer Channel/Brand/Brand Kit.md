@@ -20,15 +20,12 @@ Files in this folder; the phone copies are in the MetaSports FC Hub. All of them
 - **Handle:** @MetaSportsFC (claimed by the owner, Oct 22).
 
 ## YouTube description (copy into Customization > Basic info)
-Football stories that sound fake but are 100% real.
+Short and simple (owner, Oct 22):
 
-The goalkeeper who won a World Cup shootout with a note in his sock. The striker whose bathroom caught fire the day before a derby, who then scored twice. The rivalries, comebacks, transfers and strange moments behind the game's biggest names, each told in about a minute.
+> Football stories that sound fake but are 100% real.
+> New story every day.
 
-A new story every day. Every fact is checked against a real source before it goes up.
-
-Follow so you don't miss the next one.
-
-MetaSports FC is the football channel from MetaSports. For NBA stories: youtube.com/@MetaSportsClips
+(The longer v1 description is in git history, commit 89f55bc, if you ever want it back.)
 
 ## Channel keywords (Settings > Channel > Keywords)
 football stories, soccer stories, football shorts, soccer shorts, football history, football facts, premier league, world cup, champions league, football legends, messi, ronaldo, metasports
@@ -42,7 +39,6 @@ football stories, soccer stories, football shorts, soccer shorts, football histo
 - **Bio:**
   Football stories that sound fake but are 100% real ⚽
   New story every day
-  NBA stories: MetaSports Clips on YouTube
 
 ## Upload defaults (Settings > Upload defaults)
 - **Category:** Sports

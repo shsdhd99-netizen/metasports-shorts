@@ -7,7 +7,7 @@ Run `python Tools/qa_short.py --folder F --video F/final_music.mp4 --full`. It m
   - FAIL outside 55-120 s;
   - warn outside 58-88 s.
 - **First 3 s:** warn if more than 3 shots, because the title card should hold.
-- **No loop rule:** the format ends on the payoff or the teaser.
+- **No loop rule:** the format ends on the payoff. Nothing after it (no teaser or follow ask).
 - **Footage blow-up:**
   - up to 3x is fine;
   - 3-6x is a warning (archive footage, no HD copy exists);

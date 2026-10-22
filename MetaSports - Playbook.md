@@ -22,6 +22,14 @@ Owner's correction the same day: "i am not limiting you to one format, i just sa
   - #49 Kerr stays an optional off-format draft.
 - **Test:** the next 3 posts in this format. It's proven if 2 of 3 reach 74%+ stayed.
 
+## Oct 22, 2026 (owner): no promo at the end, no dead air
+- **No outro or promo** of any kind ("that will instantly kill retention"). The video stops on the payoff. (THE #42 FORMAT already ends this way; keep it so.)
+- **No unnecessary pauses.** After the voice, run `python Tools/tighten_voice.py --folder F --thresh 0.25 --keep 0.12`.
+  - It cuts every pause over 0.25 s to 0.12 s and the tail to 0.25 s.
+  - The values are gentle so the real-audio quotes keep their rhythm.
+  - Then run `anchor_shots.py`, move the sfx times, and run `assemble.py`.
+  - The queued drafts #62, #63, #52, #60 and #59 were done this way on Oct 22.
+
 ## Oct 21, 2026: what Ahmed's network adds for MetaSports (evidence-tiered; RULE 1 still leads)
 Sources:
 - `Research Notes/Ahmed's Network and a Second Channel (Oct 21, 2026).md`

@@ -98,3 +98,7 @@ Soccer Channel/**/_voice_*/
 Soccer Channel/**/final_*.mp4
 !Soccer Channel/Brand/*.png
 !Soccer Channel/Brand/*.jpg
+
+# Oct 22 2026: footage contact sheets are rebuilt from src/ with broll.py; keep them out of git
+Soccer Channel/Productions/**/_sheets/
+Productions/**/_pre_tight/*.mp4

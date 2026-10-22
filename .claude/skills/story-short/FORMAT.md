@@ -13,7 +13,8 @@
 - [V] **One story per Short**, even though the title sounds like a list.
 - [V] **A turn every 8-12 s:** "But...", "There was just one problem", "But it gets even crazier", "But then came the moment nobody saw coming". Use 2-4 escalations.
 - [V] **Payoff:** "Here's the wild part / the twist", then a hard number or irony. Never a question.
-- [V] **Optional teaser:** "And my next video is about X. Follow if you want the algorithm to show it to you." Seen in 2 of the top 6 Goal Shorts and in most TikTok copies.
+- **No teaser or follow ask at the end (owner rule, Oct 22).** Ahmed ends 2 of his top 6 Goal Shorts with "And my next video is about X. Follow if you want the algorithm to show it to you." We do NOT copy that: the owner says it "will instantly kill retention". The payoff is the last line.
+- **No dead air (owner rule, Oct 22):** pauses over 0.09 s are cut to 0.06 s with `Tools/tighten_voice.py`; the tail is 0.25 s.
 - [V] **Length and pace:**
   - runtime median 70-76 s (58-167 s);
   - 200-330 words at 228-282 wpm;
@@ -24,7 +25,7 @@
 - [V] **A new picture every 1.1-2.1 s.** The first picture holds about 2.5 s under the title card (0-1 cuts in the first 3 s).
 - [V] **Literal matching:** the named person is on screen when named. Abstract phrases get a literal picture.
 - [V] **Framing:** most shots are cropped full-frame. Wide clips sit over a blurred copy of themselves (our `--blurfit`).
-- [V] **Ending:** the last picture shows the payoff, or the next video's subject when it is teased.
+- [V] **Ending:** the last picture shows the payoff.
 - [V] **Rough edges they accept:** soft 480p archive and watermarks. We don't copy the watermarks or other creators' captions.
 
 ## Captions (measured on their frames; our `--caption-style ahmed`)

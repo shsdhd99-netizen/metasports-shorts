@@ -4,7 +4,9 @@
 - `DRAFT - awaiting approval - S02 Trouble the day before a derby (music).mp4`: a quiet music bed about 20 dB under the voice. This is what Ahmed does.
 - `DRAFT - awaiting approval - S02 Trouble the day before a derby (no music).mp4`: voice and sound effects only.
 
-Both are 64 s, 1080x1920, captions burned in, -14 LUFS. Full QA (story profile): PASS.
+Both are 63 s, 1080x1920, captions burned in, -14 LUFS. Full QA (story profile): PASS (re-checked Oct 22).
+
+**Re-edit, Oct 22 (owner: "no unnecessary pauses"):** every pause in the voice over 0.09 s was cut to 0.06 s and the tail to 0.25 s (`Tools/tighten_voice.py`). 63.7 s -> 63.0 s. It already ended on the payoff, with no promo.
 
 **Title:** Players who got in TROUBLE the day before a derby
 

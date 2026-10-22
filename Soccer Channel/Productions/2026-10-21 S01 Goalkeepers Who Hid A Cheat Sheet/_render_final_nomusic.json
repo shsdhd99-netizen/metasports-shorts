@@ -2,6 +2,13 @@
  "engine": "ffmpeg",
  "out": "final_nomusic.mp4",
  "loop_fix": true,
- "fits": [],
+ "fits": [
+  {
+   "shot": 42,
+   "clip": "A42.mp4",
+   "fit": "slowed",
+   "factor": 1.078
+  }
+ ],
  "music": null
 }

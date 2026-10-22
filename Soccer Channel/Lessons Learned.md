@@ -25,3 +25,15 @@
   - The 2006 "all goals" video covers every World Cup goal, which is useful for player names.
   - Mixkit covers the abstract lines: fire, cash, hotel, clocks.
 - **[H] A recreated graphic (the note) is the honest way to show a famous object we have no photo of.** Label it "recreation" on the picture itself.
+
+## Oct 22, 2026 (owner feedback on S01/S02, and S03)
+- **[Owner rule] No promo or teaser at the end.** "That will instantly kill retention." The video stops on the payoff. S01's "my next video... follow if..." outro was cut (66.1 s -> 59.5 s).
+- **[Owner rule] No unnecessary pauses.** voiceover.py's word-timing trim left 0.5-0.7 s tails and breath gaps, because TTS word timings swallow the pauses. `Tools/tighten_voice.py` measures the silence on the audio itself (silencedetect at -38 dB) and cuts it.
+  - Soccer setting: pauses over 0.09 s cut to 0.06 s.
+  - NBA setting (real-audio quotes): pauses over 0.25 s cut to 0.12 s.
+  - Tail: 0.25 s.
+- **[V] The last word's TTS end time runs past the real sound** (S02: by 0.2 s). QA then reads the tail as cut off. tighten_voice now ends the last word where its sound ends.
+- **[V] cut_list.py only cuts missing clips.** After changing a shot in cuts.json, delete that clip (or use `--force`), or the old cut stays.
+- **[S] archive.org has the 2005 final in 720p** (the SAT.1 broadcast, split into halves, extra time, penalties and celebration), and the 1984 final (RAI). Use ffmpeg `-ss ... -t ... -c copy` straight off the URL to take only the needed minutes. The disk allowance is small, and big files need several minutes to download.
+- **[S] archive.org returns 5XX when many seeks hit it at once.** Keep URL contact sheets to 2-3 parallel requests.
+- **[S] A fact the source gives as a person's own words beats a summary.** S03's best details (Dudek's book on 100 Milan penalties, Carragher "jumped on my back", Grobbelaar's "spaghetti" line) all came from first-person interviews: the Guardian 2025, liverpoolfc.com and UEFA.com 2009.

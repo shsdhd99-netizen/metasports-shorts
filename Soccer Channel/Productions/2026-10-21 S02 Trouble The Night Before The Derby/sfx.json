@@ -1,7 +1,7 @@
 [
- {"sfx": "click", "at": 25.45, "why": "the BBC headline screenshot appears"},
- {"sfx": "camera", "at": 35.4, "why": "Balotelli reveals the WHY ALWAYS ME? T-shirt"},
- {"sfx": "whistle", "at": 38.97, "why": "the referee shows the yellow card on screen"},
- {"sfx": "horn", "at": 46.3, "why": "full time: Manchester City won 6-1"},
- {"sfx": "whoosh_long", "at": 51.65, "why": "into the payoff: 'But here's the wild part'"}
+ {"sfx": "click", "at": 25.41, "why": "the BBC headline screenshot appears"},
+ {"sfx": "camera", "at": 35.28, "why": "Balotelli reveals the WHY ALWAYS ME? T-shirt"},
+ {"sfx": "whistle", "at": 38.85, "why": "the referee shows the yellow card on screen"},
+ {"sfx": "horn", "at": 46.14, "why": "full time: Manchester City won 6-1"},
+ {"sfx": "whoosh_long", "at": 51.45, "why": "into the payoff: 'But here's the wild part'"}
 ]

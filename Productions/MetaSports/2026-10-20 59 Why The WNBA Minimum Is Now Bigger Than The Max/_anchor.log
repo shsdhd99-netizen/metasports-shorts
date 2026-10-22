@@ -1,0 +1,13 @@
+ #  start   len  kind   clip  |  words spoken during the shot
+ 0   0.00  1.79  action S1.mp4  |  The WNBA's minimum salary
+ 1   1.79  2.36  face   S2.mp4  |  is now higher than its maximum was last year.
+ 2   4.15  1.86  action S3.mp4  |  Last season, the most any player could make was
+ 3   6.01  1.66  action S4o.mp4  |  $249,244.
+ 4   7.67  2.44  action S5o.mp4  |  This season, the minimum is $270,000.
+ 5  10.11  2.23  face   S6o.mp4  |  In March, the players signed a new seven-year deal.
+ 6  12.34  2.74  action S7o.mp4  |  The salary cap jumped from $1.5 million to $7 million.
+ 7  15.08  1.81  action S8o.mp4  |  And for the first time in thirty seasons, a player
+ 8  16.89  1.76  action S9o.mp4  |  can make over a million dollars a year.
+ 9  18.65  2.38  action S10o.mp4  |  A'ja Wilson reportedly signed for $1.4 million.
+10  21.03  2.49  action S11o.mp4  |  Last year's max wouldn't even be the minimum now.
+shots.json updated

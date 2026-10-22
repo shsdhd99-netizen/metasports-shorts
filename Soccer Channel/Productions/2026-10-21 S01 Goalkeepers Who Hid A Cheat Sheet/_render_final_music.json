@@ -2,22 +2,29 @@
  "engine": "ffmpeg",
  "out": "final_music.mp4",
  "loop_fix": true,
- "fits": [],
+ "fits": [
+  {
+   "shot": 42,
+   "clip": "A42.mp4",
+   "fit": "slowed",
+   "factor": 1.078
+  }
+ ],
  "music": {
   "track": "Library/Music/eleven_story_01.mp3",
   "track_start": 0.0,
   "in": 0.0,
-  "out": 66.063673,
+  "out": 59.480816,
   "hit": null,
   "hit_on": null,
-  "segment_lufs": -14.5,
-  "gain_db": -19.5,
+  "segment_lufs": -14.6,
+  "gain_db": -19.4,
   "bed_lu": -20.0,
   "gap_lift_db": 2.0,
   "gaps": [
    [
-    65.72,
-    66.06
+    59.18,
+    59.48
    ]
   ],
   "drops": []

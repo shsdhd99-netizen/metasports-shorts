@@ -1,4 +1,6 @@
-[{"sfx": "whoosh", "at": 14.63, "len": 1.0, "why": "cut to the dunk as 785 WINS jumps on"},
- {"sfx": "ding", "at": 17.16, "why": "756 LOSSES lands: wins beat losses"},
- {"sfx": "riser", "at": 18.9, "len": 1.73, "why": "tension into the 22 reveal"},
- {"sfx": "pop", "at": 20.65, "len": 0.6, "why": "22 SEASONS appears"}]
+[
+ {"sfx": "whoosh", "at": 14.3, "len": 1.0, "why": "cut to the dunk as 785 WINS jumps on"},
+ {"sfx": "ding", "at": 16.84, "why": "756 LOSSES lands: wins beat losses"},
+ {"sfx": "riser", "at": 18.57, "len": 1.73, "why": "tension into the 22 reveal"},
+ {"sfx": "pop", "at": 20.17, "len": 0.6, "why": "22 SEASONS appears"}
+]

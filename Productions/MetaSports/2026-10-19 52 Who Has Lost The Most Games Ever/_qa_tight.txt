@@ -1,0 +1,31 @@
+PASS
+  warn only 2 shots in first 3 s (guideline 3; shot length did not separate winners)
+  warn last shot is not the first clip (fine if the ending image serves the payoff; never add a sub-0.6 s shot just to loop)
+  warn clips shorter than their shots (slowed/held by assemble, not looped): [('S5.mp4', 8.2, 0.44), ('S8o.mp4', 14.3, 0.33), ('S9o.mp4', 16.3, 0.31), ('S10.mp4', 18.0, 0.16)]
+  warn hook has no number or conflict/question word in the first 8 words: 'vince carter lost more games than anyone in' (state the question the viewer needs answered by 1.5 s)
+  warn speech pace 190 wpm (guideline 200-265: our old hits ran 206-252, Clank's 265-309; don't drag, don't rush. Digits count as one word here)
+  ok   every shot has a kind
+  ok   length 20.8s
+  ok   length 20.8s in 15-35
+  ok   voice starts at once
+  ok   opens on 'Vince'
+  ok   real action footage in first 3 s
+  ok   hook line has a name/number/stakes
+  ok   no shot too long
+  ok   average shot 1.9s
+  ok   most-used clip S5.mp4 15%
+  ok   11 source clips
+  ok   talking head 42%
+  ok   b-roll 58%
+  ok   cards 0%
+  ok   no two cards in a row
+  ok   no repeated neighbours
+  ok   no footage shown twice
+  ok   no dead air inside the speech
+  ok   loudness -14.3 LUFS
+  ok   no frozen footage
+  ok   no black frames
+  ok   quote shots play at normal speed (lip sync)
+  ok   no frozen holds
+  ok   every clip has a source-log row
+  ok   every clip verified against the narration

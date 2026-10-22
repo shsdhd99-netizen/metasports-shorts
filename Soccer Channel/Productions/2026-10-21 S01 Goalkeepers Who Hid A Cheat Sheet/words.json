@@ -42,1316 +42,1171 @@
  {
   "word": "sock.",
   "start": 1.614,
-  "end": 1.962
+  "end": 1.942
  },
  {
   "word": "Back",
-  "start": 1.997,
-  "end": 2.183
+  "start": 1.942,
+  "end": 2.123
  },
  {
   "word": "in",
-  "start": 2.229,
-  "end": 2.276
+  "start": 2.169,
+  "end": 2.216
  },
  {
   "word": "2006,",
-  "start": 2.322,
-  "end": 3.053
+  "start": 2.262,
+  "end": 2.993
  },
  {
   "word": "Germany",
-  "start": 3.1,
-  "end": 3.402
+  "start": 3.04,
+  "end": 3.342
  },
  {
   "word": "hosted",
-  "start": 3.46,
-  "end": 3.704
+  "start": 3.4,
+  "end": 3.644
  },
  {
   "word": "the",
-  "start": 3.727,
-  "end": 3.796
+  "start": 3.667,
+  "end": 3.736
  },
  {
   "word": "World",
-  "start": 3.831,
-  "end": 4.075
+  "start": 3.771,
+  "end": 4.015
  },
  {
   "word": "Cup,",
-  "start": 4.133,
-  "end": 4.435
+  "start": 4.073,
+  "end": 4.375
  },
  {
   "word": "and",
-  "start": 4.458,
-  "end": 4.563
+  "start": 4.398,
+  "end": 4.503
  },
  {
   "word": "in",
-  "start": 4.609,
-  "end": 4.656
+  "start": 4.549,
+  "end": 4.596
  },
  {
   "word": "the",
-  "start": 4.69,
-  "end": 4.76
+  "start": 4.63,
+  "end": 4.7
  },
  {
   "word": "quarterfinal",
-  "start": 4.795,
-  "end": 5.294
+  "start": 4.735,
+  "end": 5.234
  },
  {
   "word": "they",
-  "start": 5.329,
-  "end": 5.422
+  "start": 5.269,
+  "end": 5.362
  },
  {
   "word": "faced",
-  "start": 5.48,
-  "end": 5.7
+  "start": 5.42,
+  "end": 5.64
  },
  {
   "word": "Argentina",
-  "start": 5.724,
-  "end": 6.223
+  "start": 5.664,
+  "end": 6.163
  },
  {
   "word": "in",
-  "start": 6.281,
-  "end": 6.339
+  "start": 6.221,
+  "end": 6.279
  },
  {
   "word": "Berlin.",
-  "start": 6.385,
-  "end": 6.815
+  "start": 6.325,
+  "end": 6.755
  },
  {
   "word": "After",
-  "start": 6.838,
-  "end": 7.047
+  "start": 6.778,
+  "end": 6.987
  },
  {
   "word": "120",
-  "start": 7.175,
-  "end": 7.755
+  "start": 7.115,
+  "end": 7.695
  },
  {
   "word": "minutes",
-  "start": 7.814,
-  "end": 8.057
+  "start": 7.754,
+  "end": 7.997
  },
  {
   "word": "it",
-  "start": 8.081,
-  "end": 8.127
+  "start": 8.021,
+  "end": 8.067
  },
  {
   "word": "was",
-  "start": 8.15,
-  "end": 8.22
+  "start": 8.09,
+  "end": 8.16
  },
  {
   "word": "still",
-  "start": 8.278,
-  "end": 8.545
+  "start": 8.218,
+  "end": 8.485
  },
  {
   "word": "1-1,",
-  "start": 8.638,
-  "end": 9.195
+  "start": 8.578,
+  "end": 9.135
  },
  {
   "word": "so",
-  "start": 9.265,
-  "end": 9.369
+  "start": 9.205,
+  "end": 9.309
  },
  {
   "word": "the",
-  "start": 9.427,
-  "end": 9.497
+  "start": 9.367,
+  "end": 9.437
  },
  {
   "word": "game",
-  "start": 9.555,
-  "end": 9.764
+  "start": 9.495,
+  "end": 9.704
  },
  {
   "word": "went",
-  "start": 9.787,
-  "end": 9.892
+  "start": 9.727,
+  "end": 9.832
  },
  {
   "word": "to",
-  "start": 9.915,
-  "end": 9.961
+  "start": 9.855,
+  "end": 9.901
  },
  {
   "word": "penalties.",
-  "start": 10.019,
-  "end": 10.53
+  "start": 9.959,
+  "end": 10.461
  },
  {
   "word": "But",
-  "start": 10.588,
-  "end": 10.704
+  "start": 10.465,
+  "end": 10.581
  },
  {
   "word": "Germany's",
-  "start": 10.739,
-  "end": 11.076
+  "start": 10.616,
+  "end": 10.953
  },
  {
   "word": "keeper,",
-  "start": 11.122,
-  "end": 11.47
+  "start": 10.999,
+  "end": 11.347
  },
  {
   "word": "Jens",
-  "start": 11.563,
-  "end": 11.842
+  "start": 11.44,
+  "end": 11.719
  },
  {
   "word": "Lehmann,",
-  "start": 11.9,
-  "end": 12.283
+  "start": 11.777,
+  "end": 12.16
  },
  {
   "word": "had",
-  "start": 12.318,
-  "end": 12.469
+  "start": 12.195,
+  "end": 12.346
  },
  {
   "word": "a",
-  "start": 12.492,
-  "end": 12.515
+  "start": 12.369,
+  "end": 12.392
  },
  {
   "word": "secret.",
-  "start": 12.597,
-  "end": 12.991
+  "start": 12.474,
+  "end": 12.868
  },
  {
   "word": "His",
-  "start": 13.015,
-  "end": 13.096
+  "start": 12.892,
+  "end": 12.973
  },
  {
   "word": "goalkeeping",
-  "start": 13.142,
-  "end": 13.525
+  "start": 13.019,
+  "end": 13.402
  },
  {
   "word": "coach,",
-  "start": 13.572,
-  "end": 13.839
+  "start": 13.449,
+  "end": 13.716
  },
  {
   "word": "Andreas",
-  "start": 13.862,
-  "end": 14.176
+  "start": 13.739,
+  "end": 14.053
  },
  {
-  "word": "K\u00f6pke,",
-  "start": 14.245,
-  "end": 14.652
+  "word": "Köpke,",
+  "start": 14.122,
+  "end": 14.529
  },
  {
   "word": "had",
-  "start": 14.698,
-  "end": 14.803
+  "start": 14.575,
+  "end": 14.68
  },
  {
   "word": "studied",
-  "start": 14.861,
-  "end": 15.232
+  "start": 14.738,
+  "end": 15.109
  },
  {
   "word": "where",
-  "start": 15.279,
-  "end": 15.418
+  "start": 15.156,
+  "end": 15.295
  },
  {
   "word": "Argentina's",
-  "start": 15.453,
-  "end": 15.929
+  "start": 15.33,
+  "end": 15.806
  },
  {
   "word": "players",
-  "start": 15.964,
-  "end": 16.231
+  "start": 15.841,
+  "end": 16.108
  },
  {
   "word": "liked",
-  "start": 16.265,
-  "end": 16.393
+  "start": 16.142,
+  "end": 16.27
  },
  {
   "word": "to",
-  "start": 16.416,
-  "end": 16.463
+  "start": 16.293,
+  "end": 16.34
  },
  {
   "word": "shoot,",
-  "start": 16.509,
-  "end": 16.834
+  "start": 16.386,
+  "end": 16.711
  },
  {
   "word": "and",
-  "start": 16.858,
-  "end": 16.939
+  "start": 16.735,
+  "end": 16.816
  },
  {
   "word": "the",
-  "start": 16.974,
-  "end": 17.043
+  "start": 16.851,
+  "end": 16.92
  },
  {
   "word": "tips",
-  "start": 17.09,
-  "end": 17.287
+  "start": 16.967,
+  "end": 17.164
  },
  {
   "word": "ended",
-  "start": 17.322,
-  "end": 17.484
+  "start": 17.199,
+  "end": 17.361
  },
  {
   "word": "up",
-  "start": 17.531,
-  "end": 17.601
+  "start": 17.408,
+  "end": 17.478
  },
  {
   "word": "on",
-  "start": 17.647,
-  "end": 17.693
+  "start": 17.524,
+  "end": 17.57
  },
  {
   "word": "a",
-  "start": 17.728,
-  "end": 17.751
+  "start": 17.605,
+  "end": 17.628
  },
  {
   "word": "tiny",
-  "start": 17.798,
-  "end": 18.053
+  "start": 17.675,
+  "end": 17.93
  },
  {
   "word": "page",
-  "start": 18.111,
-  "end": 18.378
+  "start": 17.988,
+  "end": 18.255
  },
  {
   "word": "from",
-  "start": 18.402,
-  "end": 18.495
+  "start": 18.279,
+  "end": 18.372
  },
  {
   "word": "the",
-  "start": 18.529,
-  "end": 18.599
+  "start": 18.406,
+  "end": 18.476
  },
  {
   "word": "team",
-  "start": 18.622,
-  "end": 18.796
+  "start": 18.499,
+  "end": 18.673
  },
  {
   "word": "hotel's",
-  "start": 18.854,
-  "end": 19.133
+  "start": 18.731,
+  "end": 19.01
  },
  {
   "word": "notepad.",
-  "start": 19.179,
-  "end": 19.621
+  "start": 19.056,
+  "end": 19.498
  },
  {
   "word": "Riquelme,",
-  "start": 19.644,
-  "end": 20.073
+  "start": 19.521,
+  "end": 19.95
  },
  {
   "word": "left",
-  "start": 20.108,
-  "end": 20.282
+  "start": 19.985,
+  "end": 20.159
  },
  {
   "word": "high.",
-  "start": 20.329,
-  "end": 20.654
+  "start": 20.206,
+  "end": 20.531
  },
  {
   "word": "Heinze,",
-  "start": 20.689,
-  "end": 21.142
+  "start": 20.566,
+  "end": 21.019
  },
  {
   "word": "left",
-  "start": 21.188,
-  "end": 21.374
+  "start": 21.065,
+  "end": 21.251
  },
  {
   "word": "low.",
-  "start": 21.444,
-  "end": 21.769
+  "start": 21.321,
+  "end": 21.646
  },
  {
   "word": "Even",
-  "start": 21.792,
-  "end": 21.989
+  "start": 21.669,
+  "end": 21.866
  },
  {
   "word": "Messi",
-  "start": 22.059,
-  "end": 22.361
+  "start": 21.936,
+  "end": 22.238
  },
  {
   "word": "was",
-  "start": 22.407,
-  "end": 22.5
+  "start": 22.284,
+  "end": 22.377
  },
  {
   "word": "on",
-  "start": 22.558,
-  "end": 22.663
+  "start": 22.435,
+  "end": 22.54
  },
  {
   "word": "it.",
-  "start": 22.709,
-  "end": 22.907
+  "start": 22.586,
+  "end": 22.64
  },
  {
   "word": "Lehmann",
-  "start": 23.106,
-  "end": 23.397
+  "start": 22.655,
+  "end": 22.946
  },
  {
   "word": "tucked",
-  "start": 23.431,
-  "end": 23.617
+  "start": 22.98,
+  "end": 23.166
  },
  {
   "word": "the",
-  "start": 23.64,
-  "end": 23.71
+  "start": 23.189,
+  "end": 23.259
  },
  {
   "word": "paper",
-  "start": 23.745,
-  "end": 24.0
+  "start": 23.294,
+  "end": 23.549
  },
  {
   "word": "into",
-  "start": 24.047,
-  "end": 24.186
+  "start": 23.596,
+  "end": 23.735
  },
  {
   "word": "his",
-  "start": 24.256,
-  "end": 24.325
+  "start": 23.805,
+  "end": 23.874
  },
  {
   "word": "sock.",
-  "start": 24.36,
-  "end": 24.697
+  "start": 23.909,
+  "end": 24.227
  },
  {
   "word": "And",
-  "start": 24.72,
-  "end": 24.825
+  "start": 24.227,
+  "end": 24.327
  },
  {
   "word": "before",
-  "start": 24.871,
-  "end": 25.126
+  "start": 24.373,
+  "end": 24.628
  },
  {
   "word": "Argentina's",
-  "start": 25.161,
-  "end": 25.661
+  "start": 24.663,
+  "end": 25.163
  },
  {
   "word": "kicks,",
-  "start": 25.707,
-  "end": 26.032
+  "start": 25.209,
+  "end": 25.534
  },
  {
   "word": "he",
-  "start": 26.055,
-  "end": 26.102
+  "start": 25.557,
+  "end": 25.604
  },
  {
   "word": "kept",
-  "start": 26.148,
-  "end": 26.287
+  "start": 25.65,
+  "end": 25.789
  },
  {
   "word": "pulling",
-  "start": 26.334,
-  "end": 26.589
+  "start": 25.836,
+  "end": 26.091
  },
  {
   "word": "it",
-  "start": 26.624,
-  "end": 26.671
+  "start": 26.126,
+  "end": 26.173
  },
  {
   "word": "out",
-  "start": 26.705,
-  "end": 26.822
+  "start": 26.207,
+  "end": 26.324
  },
  {
   "word": "to",
-  "start": 26.845,
-  "end": 26.903
+  "start": 26.347,
+  "end": 26.405
  },
  {
   "word": "read",
-  "start": 26.996,
-  "end": 27.193
+  "start": 26.498,
+  "end": 26.695
  },
  {
   "word": "it,",
-  "start": 27.228,
-  "end": 27.344
+  "start": 26.73,
+  "end": 26.846
  },
  {
   "word": "right",
-  "start": 27.425,
-  "end": 27.576
+  "start": 26.927,
+  "end": 27.078
  },
  {
   "word": "in",
-  "start": 27.599,
-  "end": 27.646
+  "start": 27.101,
+  "end": 27.148
  },
  {
   "word": "front",
-  "start": 27.681,
-  "end": 27.797
+  "start": 27.183,
+  "end": 27.299
  },
  {
   "word": "of",
-  "start": 27.82,
-  "end": 27.866
+  "start": 27.322,
+  "end": 27.368
  },
  {
   "word": "the",
-  "start": 27.89,
-  "end": 27.959
+  "start": 27.392,
+  "end": 27.461
  },
  {
   "word": "whole",
-  "start": 28.006,
-  "end": 28.215
+  "start": 27.508,
+  "end": 27.717
  },
  {
   "word": "stadium.",
-  "start": 28.238,
-  "end": 28.702
+  "start": 27.74,
+  "end": 28.204
  },
  {
   "word": "But",
-  "start": 28.726,
-  "end": 28.807
+  "start": 28.228,
+  "end": 28.309
  },
  {
   "word": "there",
-  "start": 28.83,
-  "end": 28.946
+  "start": 28.332,
+  "end": 28.448
  },
  {
   "word": "was",
-  "start": 28.969,
-  "end": 29.039
+  "start": 28.471,
+  "end": 28.541
  },
  {
   "word": "one",
-  "start": 29.132,
-  "end": 29.387
+  "start": 28.634,
+  "end": 28.889
  },
  {
   "word": "big",
-  "start": 29.434,
-  "end": 29.608
+  "start": 28.936,
+  "end": 29.11
  },
  {
   "word": "problem.",
-  "start": 29.654,
-  "end": 30.049
+  "start": 29.156,
+  "end": 29.551
  },
  {
   "word": "Only",
-  "start": 30.072,
-  "end": 30.235
+  "start": 29.574,
+  "end": 29.737
  },
  {
   "word": "two",
-  "start": 30.281,
-  "end": 30.386
+  "start": 29.783,
+  "end": 29.888
  },
  {
   "word": "of",
-  "start": 30.432,
-  "end": 30.479
+  "start": 29.934,
+  "end": 29.981
  },
  {
   "word": "the",
-  "start": 30.513,
-  "end": 30.583
+  "start": 30.015,
+  "end": 30.085
  },
  {
   "word": "players",
-  "start": 30.606,
-  "end": 30.839
+  "start": 30.108,
+  "end": 30.341
  },
  {
   "word": "on",
-  "start": 30.873,
-  "end": 30.92
+  "start": 30.375,
+  "end": 30.422
  },
  {
   "word": "his",
-  "start": 30.943,
-  "end": 31.013
+  "start": 30.445,
+  "end": 30.515
  },
  {
   "word": "list",
-  "start": 31.071,
-  "end": 31.245
+  "start": 30.573,
+  "end": 30.747
  },
  {
   "word": "actually",
-  "start": 31.28,
-  "end": 31.5
+  "start": 30.782,
+  "end": 31.002
  },
  {
   "word": "took",
-  "start": 31.547,
-  "end": 31.663
+  "start": 31.049,
+  "end": 31.165
  },
  {
   "word": "a",
-  "start": 31.698,
-  "end": 31.721
+  "start": 31.2,
+  "end": 31.223
  },
  {
   "word": "penalty.",
-  "start": 31.767,
-  "end": 32.185
+  "start": 31.269,
+  "end": 31.687
  },
  {
   "word": "He",
-  "start": 32.209,
-  "end": 32.255
+  "start": 31.711,
+  "end": 31.757
  },
  {
   "word": "saved",
-  "start": 32.301,
-  "end": 32.51
+  "start": 31.803,
+  "end": 32.012
  },
  {
   "word": "Roberto",
-  "start": 32.569,
-  "end": 32.859
+  "start": 32.071,
+  "end": 32.361
  },
  {
   "word": "Ayala's,",
-  "start": 32.905,
-  "end": 33.451
+  "start": 32.407,
+  "end": 32.953
  },
  {
   "word": "and",
-  "start": 33.474,
-  "end": 33.567
+  "start": 32.976,
+  "end": 33.069
  },
  {
   "word": "he",
-  "start": 33.613,
-  "end": 33.66
+  "start": 33.115,
+  "end": 33.162
  },
  {
   "word": "nearly",
-  "start": 33.753,
-  "end": 34.031
+  "start": 33.255,
+  "end": 33.533
  },
  {
   "word": "saved",
-  "start": 34.078,
-  "end": 34.31
+  "start": 33.58,
+  "end": 33.812
  },
  {
   "word": "Maxi",
-  "start": 34.345,
-  "end": 34.577
+  "start": 33.847,
+  "end": 34.079
  },
  {
-  "word": "Rodr\u00edguez's.",
-  "start": 34.647,
-  "end": 35.367
+  "word": "Rodríguez's.",
+  "start": 34.149,
+  "end": 34.869
  },
  {
   "word": "Then",
-  "start": 35.39,
-  "end": 35.552
+  "start": 34.892,
+  "end": 35.054
  },
  {
   "word": "came",
-  "start": 35.61,
-  "end": 35.784
+  "start": 35.112,
+  "end": 35.286
  },
  {
   "word": "the",
-  "start": 35.808,
-  "end": 35.877
+  "start": 35.31,
+  "end": 35.379
  },
  {
   "word": "kick",
-  "start": 35.924,
-  "end": 36.086
+  "start": 35.426,
+  "end": 35.588
  },
  {
   "word": "that",
-  "start": 36.121,
-  "end": 36.214
+  "start": 35.623,
+  "end": 35.716
  },
  {
   "word": "would",
-  "start": 36.237,
-  "end": 36.353
+  "start": 35.739,
+  "end": 35.855
  },
  {
   "word": "decide",
-  "start": 36.377,
-  "end": 36.667
+  "start": 35.879,
+  "end": 36.169
  },
  {
   "word": "everything.",
-  "start": 36.69,
-  "end": 37.178
+  "start": 36.192,
+  "end": 36.68
  },
  {
   "word": "Esteban",
-  "start": 37.201,
-  "end": 37.572
+  "start": 36.703,
+  "end": 37.074
  },
  {
   "word": "Cambiasso",
-  "start": 37.619,
-  "end": 38.106
+  "start": 37.121,
+  "end": 37.608
  },
  {
   "word": "walked",
-  "start": 38.176,
-  "end": 38.432
+  "start": 37.678,
+  "end": 37.934
  },
  {
   "word": "up,",
-  "start": 38.49,
-  "end": 38.652
+  "start": 37.992,
+  "end": 38.154
  },
  {
   "word": "and",
-  "start": 38.675,
-  "end": 38.757
+  "start": 38.177,
+  "end": 38.259
  },
  {
   "word": "his",
-  "start": 38.803,
-  "end": 38.884
+  "start": 38.305,
+  "end": 38.386
  },
  {
   "word": "name",
-  "start": 38.942,
-  "end": 39.117
+  "start": 38.444,
+  "end": 38.619
  },
  {
   "word": "was",
-  "start": 39.14,
-  "end": 39.233
+  "start": 38.642,
+  "end": 38.735
  },
  {
   "word": "nowhere",
-  "start": 39.302,
-  "end": 39.535
+  "start": 38.804,
+  "end": 39.037
  },
  {
   "word": "on",
-  "start": 39.558,
-  "end": 39.604
+  "start": 39.06,
+  "end": 39.106
  },
  {
   "word": "that",
-  "start": 39.627,
-  "end": 39.72
+  "start": 39.129,
+  "end": 39.222
  },
  {
   "word": "paper.",
-  "start": 39.767,
-  "end": 40.127
+  "start": 39.269,
+  "end": 39.629
  },
  {
   "word": "So",
-  "start": 40.162,
-  "end": 40.266
+  "start": 39.664,
+  "end": 39.768
  },
  {
   "word": "Lehmann",
-  "start": 40.336,
-  "end": 40.603
+  "start": 39.838,
+  "end": 40.105
  },
  {
   "word": "pulled",
-  "start": 40.649,
-  "end": 40.87
+  "start": 40.151,
+  "end": 40.372
  },
  {
   "word": "it",
-  "start": 40.893,
-  "end": 40.94
+  "start": 40.395,
+  "end": 40.442
  },
  {
   "word": "out",
-  "start": 40.963,
-  "end": 41.091
+  "start": 40.465,
+  "end": 40.593
  },
  {
   "word": "anyway.",
-  "start": 41.137,
-  "end": 41.625
+  "start": 40.639,
+  "end": 41.127
  },
  {
   "word": "He",
-  "start": 41.648,
-  "end": 41.718
+  "start": 41.15,
+  "end": 41.22
  },
  {
   "word": "read",
-  "start": 41.787,
-  "end": 41.938
+  "start": 41.289,
+  "end": 41.44
  },
  {
   "word": "it,",
-  "start": 41.985,
-  "end": 42.089
+  "start": 41.487,
+  "end": 41.591
  },
  {
   "word": "nodded,",
-  "start": 42.136,
-  "end": 42.461
+  "start": 41.638,
+  "end": 41.963
  },
  {
   "word": "and",
-  "start": 42.484,
-  "end": 42.553
+  "start": 41.986,
+  "end": 42.055
  },
  {
   "word": "put",
-  "start": 42.577,
-  "end": 42.67
+  "start": 42.079,
+  "end": 42.172
  },
  {
   "word": "it",
-  "start": 42.704,
-  "end": 42.751
+  "start": 42.206,
+  "end": 42.253
  },
  {
   "word": "away,",
-  "start": 42.774,
-  "end": 43.111
+  "start": 42.276,
+  "end": 42.613
  },
  {
   "word": "like",
-  "start": 43.146,
-  "end": 43.262
+  "start": 42.648,
+  "end": 42.764
  },
  {
   "word": "he",
-  "start": 43.285,
-  "end": 43.331
+  "start": 42.787,
+  "end": 42.833
  },
  {
   "word": "knew",
-  "start": 43.378,
-  "end": 43.482
+  "start": 42.88,
+  "end": 42.984
  },
  {
   "word": "exactly",
-  "start": 43.54,
-  "end": 44.028
+  "start": 43.042,
+  "end": 43.53
  },
  {
   "word": "what",
-  "start": 44.051,
-  "end": 44.144
+  "start": 43.553,
+  "end": 43.646
  },
  {
   "word": "was",
-  "start": 44.179,
-  "end": 44.26
+  "start": 43.681,
+  "end": 43.762
  },
  {
   "word": "coming.",
-  "start": 44.33,
-  "end": 44.736
+  "start": 43.832,
+  "end": 44.238
  },
  {
   "word": "Cambiasso",
-  "start": 44.759,
-  "end": 45.293
+  "start": 44.261,
+  "end": 44.795
  },
  {
   "word": "shot,",
-  "start": 45.363,
-  "end": 45.619
+  "start": 44.865,
+  "end": 45.121
  },
  {
   "word": "and",
-  "start": 45.642,
-  "end": 45.711
+  "start": 45.144,
+  "end": 45.213
  },
  {
   "word": "Lehmann",
-  "start": 45.769,
-  "end": 46.013
+  "start": 45.271,
+  "end": 45.515
  },
  {
   "word": "saved",
-  "start": 46.083,
-  "end": 46.385
+  "start": 45.585,
+  "end": 45.887
  },
  {
   "word": "it.",
-  "start": 46.443,
-  "end": 46.594
+  "start": 45.945,
+  "end": 46.053
  },
  {
   "word": "Germany",
-  "start": 46.629,
-  "end": 46.919
+  "start": 46.088,
+  "end": 46.378
  },
  {
   "word": "won",
-  "start": 46.965,
-  "end": 47.105
+  "start": 46.424,
+  "end": 46.564
  },
  {
   "word": "4-2.",
-  "start": 47.174,
-  "end": 47.72
+  "start": 46.633,
+  "end": 47.179
  },
  {
   "word": "But",
-  "start": 47.743,
-  "end": 47.824
+  "start": 47.202,
+  "end": 47.283
  },
  {
   "word": "here's",
-  "start": 47.859,
-  "end": 48.045
+  "start": 47.318,
+  "end": 47.504
  },
  {
   "word": "the",
-  "start": 48.068,
-  "end": 48.138
+  "start": 47.527,
+  "end": 47.597
  },
  {
   "word": "wild",
-  "start": 48.184,
-  "end": 48.417
+  "start": 47.643,
+  "end": 47.876
  },
  {
   "word": "part.",
-  "start": 48.463,
-  "end": 48.753
+  "start": 47.922,
+  "end": 48.212
  },
  {
   "word": "After",
-  "start": 48.776,
-  "end": 49.009
+  "start": 48.235,
+  "end": 48.468
  },
  {
   "word": "the",
-  "start": 49.055,
-  "end": 49.125
+  "start": 48.514,
+  "end": 48.584
  },
  {
   "word": "game,",
-  "start": 49.171,
-  "end": 49.461
+  "start": 48.63,
+  "end": 48.92
  },
  {
   "word": "Lehmann",
-  "start": 49.496,
-  "end": 49.752
+  "start": 48.955,
+  "end": 49.211
  },
  {
   "word": "found",
-  "start": 49.798,
-  "end": 49.972
+  "start": 49.257,
+  "end": 49.431
  },
  {
   "word": "the",
-  "start": 49.995,
-  "end": 50.065
+  "start": 49.454,
+  "end": 49.524
  },
  {
   "word": "note",
-  "start": 50.123,
-  "end": 50.344
+  "start": 49.582,
+  "end": 49.803
  },
  {
   "word": "lying",
-  "start": 50.39,
-  "end": 50.657
+  "start": 49.849,
+  "end": 50.116
  },
  {
   "word": "on",
-  "start": 50.704,
-  "end": 50.75
+  "start": 50.163,
+  "end": 50.209
  },
  {
   "word": "the",
-  "start": 50.773,
-  "end": 50.843
+  "start": 50.232,
+  "end": 50.302
  },
  {
   "word": "dressing",
-  "start": 50.866,
-  "end": 51.063
+  "start": 50.325,
+  "end": 50.522
  },
  {
   "word": "room",
-  "start": 51.087,
-  "end": 51.191
+  "start": 50.546,
+  "end": 50.65
  },
  {
   "word": "floor,",
-  "start": 51.238,
-  "end": 51.516
+  "start": 50.697,
+  "end": 50.975
  },
  {
   "word": "next",
-  "start": 51.551,
-  "end": 51.725
+  "start": 51.01,
+  "end": 51.184
  },
  {
   "word": "to",
-  "start": 51.748,
-  "end": 51.795
+  "start": 51.207,
+  "end": 51.254
  },
  {
   "word": "his",
-  "start": 51.841,
-  "end": 51.911
+  "start": 51.3,
+  "end": 51.37
  },
  {
   "word": "socks.",
-  "start": 51.969,
-  "end": 52.445
+  "start": 51.428,
+  "end": 51.904
  },
  {
   "word": "Months",
-  "start": 52.515,
-  "end": 52.747
+  "start": 51.974,
+  "end": 52.206
  },
  {
   "word": "later,",
-  "start": 52.805,
-  "end": 53.095
+  "start": 52.264,
+  "end": 52.554
  },
  {
   "word": "the",
-  "start": 53.118,
-  "end": 53.188
+  "start": 52.577,
+  "end": 52.647
  },
  {
   "word": "boss",
-  "start": 53.223,
-  "end": 53.42
+  "start": 52.682,
+  "end": 52.879
  },
  {
   "word": "of",
-  "start": 53.455,
-  "end": 53.502
+  "start": 52.914,
+  "end": 52.961
  },
  {
   "word": "a",
-  "start": 53.536,
-  "end": 53.56
+  "start": 52.995,
+  "end": 53.019
  },
  {
   "word": "German",
-  "start": 53.618,
-  "end": 53.85
+  "start": 53.077,
+  "end": 53.309
  },
  {
   "word": "energy",
-  "start": 53.896,
-  "end": 54.105
+  "start": 53.355,
+  "end": 53.564
  },
  {
   "word": "company",
-  "start": 54.152,
-  "end": 54.419
+  "start": 53.611,
+  "end": 53.878
  },
  {
   "word": "bought",
-  "start": 54.477,
-  "end": 54.663
+  "start": 53.936,
+  "end": 54.122
  },
  {
   "word": "it",
-  "start": 54.686,
-  "end": 54.732
+  "start": 54.145,
+  "end": 54.191
  },
  {
   "word": "for",
-  "start": 54.767,
-  "end": 54.86
+  "start": 54.226,
+  "end": 54.319
  },
  {
   "word": "one",
-  "start": 54.941,
-  "end": 55.139
+  "start": 54.4,
+  "end": 54.598
  },
  {
   "word": "million",
-  "start": 55.185,
-  "end": 55.429
+  "start": 54.644,
+  "end": 54.888
  },
  {
   "word": "euros,",
-  "start": 55.487,
-  "end": 55.94
+  "start": 54.946,
+  "end": 55.399
  },
  {
   "word": "at",
-  "start": 55.963,
-  "end": 56.067
+  "start": 55.422,
+  "end": 55.526
  },
  {
   "word": "a",
-  "start": 56.102,
-  "end": 56.125
+  "start": 55.561,
+  "end": 55.584
  },
  {
   "word": "charity",
-  "start": 56.16,
-  "end": 56.381
+  "start": 55.619,
+  "end": 55.84
  },
  {
   "word": "auction",
-  "start": 56.427,
-  "end": 56.648
+  "start": 55.886,
+  "end": 56.107
  },
  {
   "word": "for",
-  "start": 56.683,
-  "end": 56.752
+  "start": 56.142,
+  "end": 56.211
  },
  {
   "word": "children.",
-  "start": 56.81,
-  "end": 57.217
+  "start": 56.269,
+  "end": 56.676
  },
  {
   "word": "One",
-  "start": 57.252,
-  "end": 57.414
+  "start": 56.711,
+  "end": 56.873
  },
  {
   "word": "million",
-  "start": 57.461,
-  "end": 57.728
+  "start": 56.92,
+  "end": 57.187
  },
  {
   "word": "euros,",
-  "start": 57.774,
-  "end": 58.169
+  "start": 57.233,
+  "end": 57.628
  },
  {
   "word": "for",
-  "start": 58.204,
-  "end": 58.331
+  "start": 57.663,
+  "end": 57.79
  },
  {
   "word": "a",
-  "start": 58.366,
-  "end": 58.389
+  "start": 57.825,
+  "end": 57.848
  },
  {
   "word": "page",
-  "start": 58.436,
-  "end": 58.703
+  "start": 57.895,
+  "end": 58.162
  },
  {
   "word": "from",
-  "start": 58.726,
-  "end": 58.819
+  "start": 58.185,
+  "end": 58.278
  },
  {
   "word": "a",
-  "start": 58.854,
-  "end": 58.877
+  "start": 58.313,
+  "end": 58.336
  },
  {
   "word": "hotel",
-  "start": 58.935,
-  "end": 59.202
+  "start": 58.394,
+  "end": 58.661
  },
  {
   "word": "notepad.",
-  "start": 59.272,
-  "end": 59.724
- },
- {
-  "word": "And",
-  "start": 59.747,
-  "end": 59.828
- },
- {
-  "word": "my",
-  "start": 59.863,
-  "end": 59.91
- },
- {
-  "word": "next",
-  "start": 59.979,
-  "end": 60.119
- },
- {
-  "word": "video",
-  "start": 60.154,
-  "end": 60.386
- },
- {
-  "word": "is",
-  "start": 60.409,
-  "end": 60.455
- },
- {
-  "word": "about",
-  "start": 60.49,
-  "end": 60.641
- },
- {
-  "word": "the",
-  "start": 60.664,
-  "end": 60.734
- },
- {
-  "word": "fire",
-  "start": 60.781,
-  "end": 61.048
- },
- {
-  "word": "at",
-  "start": 61.071,
-  "end": 61.117
- },
- {
-  "word": "Mario",
-  "start": 61.164,
-  "end": 61.396
- },
- {
-  "word": "Balotelli's",
-  "start": 61.431,
-  "end": 61.953
- },
- {
-  "word": "house,",
-  "start": 61.976,
-  "end": 62.255
- },
- {
-  "word": "the",
-  "start": 62.301,
-  "end": 62.383
- },
- {
-  "word": "day",
-  "start": 62.429,
-  "end": 62.545
- },
- {
-  "word": "before",
-  "start": 62.58,
-  "end": 62.777
- },
- {
-  "word": "the",
-  "start": 62.801,
-  "end": 62.87
- },
- {
-  "word": "Manchester",
-  "start": 62.905,
-  "end": 63.277
- },
- {
-  "word": "derby.",
-  "start": 63.335,
-  "end": 63.683
- },
- {
-  "word": "Follow",
-  "start": 63.718,
-  "end": 63.938
- },
- {
-  "word": "if",
-  "start": 63.973,
-  "end": 64.02
- },
- {
-  "word": "you",
-  "start": 64.043,
-  "end": 64.113
- },
- {
-  "word": "want",
-  "start": 64.182,
-  "end": 64.31
- },
- {
-  "word": "the",
-  "start": 64.333,
-  "end": 64.403
- },
- {
-  "word": "algorithm",
-  "start": 64.449,
-  "end": 64.786
- },
- {
-  "word": "to",
-  "start": 64.832,
-  "end": 64.879
- },
- {
-  "word": "show",
-  "start": 64.925,
-  "end": 65.053
- },
- {
-  "word": "it",
-  "start": 65.099,
-  "end": 65.146
- },
- {
-  "word": "to",
-  "start": 65.169,
-  "end": 65.216
- },
- {
-  "word": "you.",
-  "start": 65.274,
-  "end": 65.715
+  "start": 58.731,
+  "end": 59.183
  }
 ]

@@ -2,8 +2,8 @@
 name: story-short
 description: >
   Make a 60-80 s story Short in the format of Ahmed's Goal / Ahmed's Basketball / Ahmeds Business (the network with 1.3B views):
-  the title read aloud as line 1, "Back in [year], [famous name]...", a turn every 8-12 s, a hard-number or ironic payoff and an
-  optional next-video teaser. A new picture every 1.1-2.1 s (real footage, stock for abstract lines), centred TikTok Sans
+  the title read aloud as line 1, "Back in [year], [famous name]...", a turn every 8-12 s, a hard-number or ironic payoff, and nothing
+  after it (no teaser, no follow ask). A new picture every 1.1-2.1 s (real footage, stock for abstract lines), centred TikTok Sans
   captions and a quiet music bed. Built for the soccer channel (MetaSports FC) but niche-agnostic (NBA, business). Covers research
   with sources, script, ElevenLabs voice, footage (archive.org, Mixkit, screenshots), cut list, render, QA and the upload package.
   Use when the user types /story-short, asks for a soccer/football Short, a "story Short", or "a Short like Ahmed's".
@@ -51,16 +51,16 @@ Read first (they win over this file when newer):
 - **When sources disagree** on who did what: word the line so it is true under both, and note it.
 
 ### 3. Script (10 min) -> `<folder>/script.txt`
-- 255-285 words, which runs 62-70 s with the Alex voice at native speed.
+- 260-290 words. After step 4b that runs about 60-68 s (S01: 253 words = 59.5 s; S02: 280 words = 63 s).
 - Beats are in SCRIPT.md:
   1. title as line 1;
   2. "Back in...";
   3. turn 1 by about 15 s;
   4. 2-4 escalations ("But it got even crazier");
   5. climax;
-  6. "But here's the wild part" plus the payoff number or irony;
-  7. optional teaser: "And my next video is about X. Follow if you want the algorithm to show it to you."
-- **Teaser:** only tease a Short that exists or is next in line.
+  6. "But here's the wild part" plus the payoff number or irony. **The payoff is the last line.**
+- **No promo at the end (owner, Oct 22):** no "my next video is about...", no "follow", no teaser. The owner: "that will instantly
+  kill retention". Viewers swipe the moment the story is over, so the video ends on the payoff.
 - **Pronunciation:** spell scores and numbers for the voice: `{6-1|six-one}`, `{1-1|one-one}`.
 - **Never** end on a question.
 - **Title card:** write `<folder>/title_caption.txt`, the title on 1-2 lines (`\N`) with 1-2 CAPS words, e.g. `Goalkeepers who hid a\NCHEAT SHEET in their sock`.
@@ -71,6 +71,14 @@ Read first (they win over this file when newer):
 - **Gate:** no REDO words, HNR, jitter and shimmer within limits.
 - The first take often drops "Back" after the title. Take 2 usually passes.
 - Output: voice.mp3, words.json, captions.srt. If the length is under 58 s, add a verified beat and re-voice.
+
+### 4b. Take out the dead air (owner, Oct 22: "make sure videos have no unnecessary pauses")
+- `python Tools/tighten_voice.py --folder F` cuts every silence over 0.09 s down to 0.06 s (measured on the audio, not on the
+  word timings, which swallow pauses) and trims the tail to 0.25 s after the last sound.
+- `--end-after "word."` also cuts everything after that word (how the old S01 teaser was removed).
+- It rewrites voice.mp3, words.json and captions.srt; originals go to `_voice_pretighten/`. Shot times come from words.json,
+  so run it BEFORE the cut list. If you run it after, re-run `cut_list.py` and move the sfx.json times with the words.
+- Check: `ffmpeg -i F/voice.mp3 -af silencedetect=n=-38dB:d=0.07 -f null -` shows no silence over 0.1 s except the 0.25 s tail.
 
 ### 5. Footage (20-30 min)
 Sources (details in SOURCING.md):

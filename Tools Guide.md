@@ -1,5 +1,13 @@
 # Tools Guide
 
+> ## Oct 22, 2026: no dead air
+> - **New `tighten_voice.py --folder F`** (owner: "make sure videos have no unnecessary pauses"):
+>   - cuts every silence over 0.09 s down to 0.06 s, measured on the audio itself (ffmpeg silencedetect at -38 dB), because TTS word timings swallow the pauses;
+>   - trims the tail to 0.25 s after the last sound;
+>   - `--end-after "word."` drops everything after that word (used to remove S01's promo outro);
+>   - rewrites voice.mp3, words.json and captions.srt, with the originals in `_voice_pretighten/`. Run it before the cut list.
+> - Result on the soccer drafts: S01 66.1 -> 59.5 s (promo cut too), S02 63.7 -> 63.0 s; no pause over 0.09 s left except the 0.25 s tail.
+
 > ## Oct 21, 2026: the story format (soccer channel, usable on NBA too)
 > - **New `cut_list.py --folder F`:**
 >   - one `cuts.json` (sources + 40-50 shots, each with an anchor phrase) cuts every clip;

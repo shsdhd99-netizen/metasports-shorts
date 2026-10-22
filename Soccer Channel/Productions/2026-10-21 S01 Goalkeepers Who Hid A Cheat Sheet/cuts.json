@@ -2,8 +2,7 @@
  "sources": {
   "C": "src/clean.mp4",
   "GA": "src/wc06_ger_arg.mp4",
-  "AS": "src/wc06_arg_scg.mp4",
-  "D": "src/motd_derby.mp4"
+  "AS": "src/wc06_arg_scg.mp4"
  },
  "shots": [
   {
@@ -399,52 +398,11 @@
   },
   {
    "clip": "A42",
-   "len": 1.7,
+   "len": 2.4,
    "kind": "card",
    "anchor": "for a page from",
    "why": "Recreated note with a 1,000,000 euro price tag",
    "still": "assets/note_f4.jpg"
-  },
-  {
-   "clip": "A43",
-   "stock": 4064,
-   "at": 0.5,
-   "len": 1.4,
-   "kind": "action",
-   "anchor": "And my next video",
-   "why": "Fireworks (stock, Mixkit), teaser for S02"
-  },
-  {
-   "clip": "A44",
-   "src": "D",
-   "at": 554.4,
-   "len": 1.5,
-   "blurfit": true,
-   "zoom": 1.6,
-   "kind": "face",
-   "anchor": "Mario Balotelli's",
-   "why": "Mario Balotelli at Old Trafford, Oct 23 2011 (BBC Match of the Day highlights on archive.org)"
-  },
-  {
-   "clip": "A45",
-   "src": "D",
-   "at": 170.0,
-   "len": 1.5,
-   "blurfit": true,
-   "kind": "action",
-   "anchor": "the day before the Manchester",
-   "why": "The teams walk out at Old Trafford for the derby"
-  },
-  {
-   "clip": "A46",
-   "src": "D",
-   "at": 319.9,
-   "len": 2.5,
-   "blurfit": true,
-   "zoom": 1.25,
-   "kind": "face",
-   "anchor": "Follow if you",
-   "why": "Balotelli shows his WHY ALWAYS ME? T-shirt after scoring (teaser for S02)"
   }
  ]
 }

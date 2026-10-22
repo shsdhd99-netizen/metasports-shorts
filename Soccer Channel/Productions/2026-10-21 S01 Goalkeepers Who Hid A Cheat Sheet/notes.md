@@ -1,13 +1,13 @@
 # S01 Goalkeepers who hid a cheat sheet in their sock (DRAFT, awaiting approval)
 
-- **Format:** the story format from `Research Notes/Story Format Study - Ahmed (Oct 21, 2026).md`: title read as line 1, "Back in 2006", a turn every 8-12 s, payoff on a hard number and irony, next-video teaser.
+- **Format:** the story format from `Research Notes/Story Format Study - Ahmed (Oct 21, 2026).md`: title read as line 1, "Back in 2006", a turn every 8-12 s, payoff on a hard number and irony. No teaser (owner, Oct 22: the promo was cut).
 - **Lane / theme:** records and oddities ("looks fake but is 100% real", Ahmed's Goal median 332K) plus a famous name. Ahmed's "cheating" titles are one of his strongest series (1.5M for "Teams that got caught cheating").
 - **Concept (8 words):** Lehmann's sock note won a shootout, then sold for €1M.
 - **Added value:** the twist most retellings skip: only two of the seven names actually took a kick, and the decisive taker (Cambiasso) was not on the list at all; the €1M sale for a hotel notepad page.
 - **Copy-check, Oct 21:**
   - `copy_check.py "Lehmann penalty cheat sheet sock"`: FRESH.
   - Ahmed's Goal titles have "The cheating goalkeeper" (15K). The story behind it is unknown, and its title is different from ours.
-- **Runtime:** 66.1 s. 271 words. Voice: Alex, take 2 (passed the check).
+- **Runtime:** 59.5 s after the Oct 22 re-edit (promo cut, pauses tightened; was 66.1 s). 253 words. Voice: Alex, take 2 (passed the check).
 
 ## Script lines -> sources
 | Line | Source and exact wording |
@@ -22,7 +22,6 @@
 | After the game, Lehmann found the note on the dressing room floor, next to his socks | Football Shirt Culture (Reuters): Lehmann "saw it lying on the locker room floor next to my socks". |
 | Months later, the boss of a German energy company bought it for one million euros, at a charity auction for children | FIFA.com: "auctioned off on famous charity television programme Ein Herz für Kinder (A Heart for Children) and bought for €1 million by Utz Claassen, the CEO of Germany energy giant EnBW." Reuters, Dec 16 2006: "raised one million euros ($1.3 million) for charity on Saturday". |
 | (not said, background) it is now in the Haus der Geschichte museum in Bonn | FIFA.com: "In 2007 the businessman donated it to the museum". |
-| Teaser: the fire at Mario Balotelli's house, the day before the Manchester derby | S02 notes (Guardian, BBC, mancity.com). |
 
 ## Footage (every clip is in sources.csv with what it shows; I checked every shot on _check/sheet.jpg)
 - **The shootout:** archive.org item `10d1824885631149e2a78e7348260b234e58cf54.mp4` (lbry mirror of the Argentine TV broadcast). The section 5350-6450 s was re-encoded to `src/clean.mp4`: black borders cropped, square pixels, the "vivo" channel logo blurred.
@@ -31,7 +30,7 @@
 - **Köpke (A10):** Wikimedia Commons, Julia Engel, CC BY-SA 4.0 (2018). The credit is on screen.
 - **The note (A13, A19, A27, A42) is a RECREATION:** made by `assets/make_note.py`, with "recreation" printed on the page. It only shows names from the sources above, not the real handwriting.
 - **Stock:** Mixkit Free License (hotel room, locker corridor, socks, power lines, euros, children, fireworks).
-- **Teaser (A44-A46):** BBC Match of the Day highlights of United 1-6 City on archive.org.
+- **Teaser shots A43-A46:** removed Oct 22 with the promo line.
 
 ## Warnings for the owner
 - **Copyright:** this is broadcast match footage (World Cup 2006, Premier League 2011) taken from archive.org mirrors. Ahmed's channels use the same kind of clips, but a claim or a block on some territories is possible. If a claim lands, we swap the clips; nothing else in the Short depends on them.
