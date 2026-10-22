@@ -1,16 +1,15 @@
-FAIL
+PASS
   warn clips shorter than their shots (slowed/held by assemble, not looped): [('S07.mp4', 9.9, 0.1), ('S10o.mp4', 18.8, 0.17), ('S15.mp4', 22.9, 0.18)]
-  warn last word ends 0.09s before the end (loop tail wants 0.15-0.4 s)
   ok   every shot has a kind
-  ok   length 25.6s
-  ok   length 25.6s in 15-35
+  ok   length 25.8s
+  ok   length 25.8s in 15-35
   ok   voice starts at once
   ok   opens on 'All'
   ok   3 shots in first 3 s
   ok   real action footage in first 3 s
   ok   hook line has a name/number/stakes
   ok   no shot too long
-  ok   average shot 1.3s
+  ok   average shot 1.4s
   ok   most-used clip S13o.mp4 10%
   ok   18 source clips
   ok   talking head 25%
@@ -28,4 +27,3 @@ FAIL
   ok   no frozen holds
   ok   every clip has a source-log row
   ok   every clip verified against the narration
-  FIX  voice is cut off: last word ends 0.09s before the end (add 0.3 s tail: ffmpeg -af apad=pad_dur=0.3)

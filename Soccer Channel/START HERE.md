@@ -41,7 +41,7 @@ This is the second channel's own space. The NBA channel (MetaSports) keeps its o
 |---|---|---|---|
 | S01 | Goalkeepers who hid a cheat sheet in their sock (Lehmann, 2006) | **DRAFT, awaiting approval.** 59.5 s (promo cut, pauses tightened Oct 22). QA PASS (full). | `Productions/2026-10-21 S01 Goalkeepers Who Hid A Cheat Sheet/` |
 | S02 | Players who got in trouble the day before a derby (Balotelli, 2011) | **DRAFT, awaiting approval.** 63 s (pauses tightened Oct 22). QA PASS (full). | `Productions/2026-10-21 S02 Trouble The Night Before The Derby/` |
-| S03 | Goalkeepers who danced on the line to win a final (Dudek, Istanbul 2005; Grobbelaar 1984) | **DRAFT, awaiting approval.** 70.7 s. QA: see UPLOAD.md. | `Productions/2026-10-22 S03 Goalkeepers Who Danced To Win A Final/` |
+| S03 | Goalkeepers who danced on the line to win a final (Dudek, Istanbul 2005; Grobbelaar 1984) | **DRAFT, awaiting approval.** 70.7 s. QA PASS (full). | `Productions/2026-10-22 S03 Goalkeepers Who Danced To Win A Final/` |
 
 - **Post order:** 1 a day at noon ET: S01 Wed Oct 22, S02 Thu, S03 Fri, S04 Sat (to make). See `Content Plan (Oct 22-25).md` in the repo root. No Short teases another any more.
 - **Each Short has two versions:** with a quiet music bed (what Ahmed does) and without (the NBA channel's default since Oct 14). The owner picks one.

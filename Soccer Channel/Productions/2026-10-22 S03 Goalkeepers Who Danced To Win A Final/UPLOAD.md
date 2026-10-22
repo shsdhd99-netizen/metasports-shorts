@@ -4,7 +4,7 @@
 - `DRAFT - awaiting approval - S03 Goalkeepers who danced on the line (music).mp4`: a quiet music bed about 20 dB under the voice (what Ahmed does).
 - `DRAFT - awaiting approval - S03 Goalkeepers who danced on the line (no music).mp4`: voice and sound effects only.
 
-Both are 70.7 s, 1080x1920, captions burned in, -14 LUFS. No promo at the end, no dead air (pauses over 0.09 s cut).
+Both are 70.7 s, 1080x1920, captions burned in, -14 LUFS. Full QA (story profile): PASS. No promo at the end, no dead air (pauses over 0.09 s cut).
 
 **Title:** Goalkeepers who danced on the line to win a final
 
