@@ -15,9 +15,8 @@
 
 ## Profile
 - **Bio (our own words; Ahmed's is "Daily Football Content! Follow So You Don't Miss It"):** "Football stories that sound fake but are 100% real. New story every day."
-- **Picture:** the MetaSports logo with a football, or the logo on a green pitch. Keep it readable at 48 px.
-- **Banner:** optional.
-- **Links:** none needed.
+- **Picture, banner, watermark (made Oct 22):** `Brand/metasportsfc_profile_800.png`, `Brand/metasportsfc_banner_2560x1440.jpg` and `Brand/metasportsfc_watermark_150.png`. The full description, keywords and the TikTok/Instagram bios are in `Brand/Brand Kit.md`.
+- **Links:** the NBA channel (youtube.com/@MetaSportsClips).
 
 ## Upload settings (copying Ahmed's packaging)
 - **Title:** the first spoken line, word for word, sentence case, with 1-2 CAPS words at most.
