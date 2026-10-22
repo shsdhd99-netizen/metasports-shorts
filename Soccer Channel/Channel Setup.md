@@ -5,7 +5,7 @@
 - **It ties to MetaSports:** the same brand, and "FC" says football at a glance.
 - **It's free:** checked Oct 21, @MetaSportsFC had no YouTube channel and appeared free on TikTok. Check again when you create it.
 
-**Oct 22 update:** @MetaSportsFC is now held by a channel named "Reddit Unfiltered" (no public videos; channel id UCIYlW84gYcChQtdys5L9pOg). If that is the owner's account, rename it to MetaSports FC. If not, use @MetaSportsFootball, which was free on Oct 22.
+**Oct 22 update:** the owner claimed @MetaSportsFC (channel id UCIYlW84gYcChQtdys5L9pOg; it showed the old name "Reddit Unfiltered" before the rename).
 
 **Backups, in order:** @MetaSportsFootball, @MetaSportsGoal, @MetaSportsSoccer.
 
@@ -15,7 +15,7 @@
 
 ## Profile
 - **Bio (our own words; Ahmed's is "Daily Football Content! Follow So You Don't Miss It"):** "Football stories that sound fake but are 100% real. New story every day."
-- **Picture, banner, watermark (made Oct 22):** `Brand/metasportsfc_profile_800.png`, `Brand/metasportsfc_banner_2560x1440.jpg` and `Brand/metasportsfc_watermark_150.png`. The full description, keywords and the TikTok/Instagram bios are in `Brand/Brand Kit.md`.
+- **Picture, banner, watermark (made Oct 22):** `Brand/metasportsfc_profile_900.png`, `Brand/metasportsfc_banner_2560x1440.jpg` and `Brand/metasportsfc_watermark_150.png`. The full description, keywords and the TikTok/Instagram bios are in `Brand/Brand Kit.md`.
 - **Links:** the NBA channel (youtube.com/@MetaSportsClips).
 
 ## Upload settings (copying Ahmed's packaging)

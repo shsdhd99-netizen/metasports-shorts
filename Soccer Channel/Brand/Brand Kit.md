@@ -4,21 +4,20 @@ Files in this folder; the phone copies are in the MetaSports FC Hub. All of them
 
 | File | Use | Where on YouTube |
 |---|---|---|
-| `metasportsfc_profile_800.png` | Profile picture (also TikTok and Instagram) | Customization > Branding > Picture |
+| `metasportsfc_profile_900.png` | Profile picture (also TikTok and Instagram) | Customization > Branding > Picture |
 | `metasportsfc_banner_2560x1440.jpg` | Channel banner (text sits inside the 1546x423 phone-safe centre) | Customization > Branding > Banner image |
-| `metasportsfc_watermark_150.png` | Video watermark (the small crest in the corner of every video) | Customization > Branding > Video watermark, "Entire video" |
+| `metasportsfc_watermark_150.png` | Video watermark (the yellow figure on a red circle, in the corner of every video) | Customization > Branding > Video watermark, "Entire video" |
 
-**Look:**
-- a mowed pitch with chalk markings;
-- an "MS" crest with a gold "FC" bar;
-- colours: pitch green #104A34, deep green #092E21, chalk #F4F6F0, gold #F2B632;
-- fonts: Anton and Barlow Condensed (Google Fonts, free).
+**Look (v2, Oct 22, owner: "make it look similar to metasports clips art"):**
+- The same family as the MetaSports Clips picture: solid red #E51C24, a yellow #FFC100 figure, the white slanted "MetaSports" wordmark, and "F C" where Clips has "C L I P S".
+- The figure kicks a football.
+- Font: Poppins (Google Fonts, free), slanted like the Clips wordmark.
+- The banner has faint pitch lines outside the phone-safe centre.
+- The first, green version is in `_v1_green/`.
 
 ## Name and handle
 - **Channel name:** MetaSports FC
-- **Handle:** @MetaSportsFC was free on Oct 21, but on Oct 22 it belongs to a channel called "Reddit Unfiltered" (no public videos).
-  - If that is your account, rename it to MetaSports FC and keep the handle.
-  - If not, use **@MetaSportsFootball** (free on Oct 22). Backups: @MetaSportsGoal, @MetaSportsSoccer.
+- **Handle:** @MetaSportsFC (claimed by the owner, Oct 22).
 
 ## YouTube description (copy into Customization > Basic info)
 Football stories that sound fake but are 100% real.

@@ -9,7 +9,8 @@ This is the second channel's own space. The NBA channel (MetaSports) keeps its o
 
 ## What this channel is
 - **Name:** MetaSports FC.
-  - Oct 22: the handle @MetaSportsFC now belongs to a channel called "Reddit Unfiltered" (no public videos). If that is the owner's account, rename it; otherwise use @MetaSportsFootball (free Oct 22).
+  - Handle @MetaSportsFC, claimed by the owner Oct 22 (channel id UCIYlW84gYcChQtdys5L9pOg).
+  - Brand v2 (Oct 22) matches the MetaSports Clips picture: red, a yellow figure, white MetaSports, "F C".
   - See `Brand/Brand Kit.md`.
 - **Format:** Ahmed's Goal story Shorts, copied in shape, never in wording.
   - 60-80 s per Short.
