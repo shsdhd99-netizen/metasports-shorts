@@ -8,7 +8,9 @@ This is the second channel's own space. The NBA channel (MetaSports) keeps its o
 > - Copy what works (the owner, Oct 21): "do not try new things, stick with what works."
 
 ## What this channel is
-- **Name (recommended, not yet created):** MetaSports FC (@MetaSportsFC). See `Channel Setup.md`.
+- **Name:** MetaSports FC.
+  - Oct 22: the handle @MetaSportsFC now belongs to a channel called "Reddit Unfiltered" (no public videos). If that is the owner's account, rename it; otherwise use @MetaSportsFootball (free Oct 22).
+  - See `Brand/Brand Kit.md`.
 - **Format:** Ahmed's Goal story Shorts, copied in shape, never in wording.
   - 60-80 s per Short.
   - The title is read aloud as line 1.
@@ -23,6 +25,8 @@ This is the second channel's own space. The NBA channel (MetaSports) keeps its o
 
 | You want... | Open |
 |---|---|
+| **The phone Hub** (drafts to approve, brand kit, ideas) | https://claude.ai/artifact/LFsQtwomdpLAshoz4Xw62H (database: `shorts`, `brand/kit`, `ideas`; page source `Hub/metasportsfc_hub.html`) |
+| Profile picture, banner, watermark, texts to paste | `Brand/Brand Kit.md` (+ the files in `Brand/`, made by `Brand/make_brand.py`) |
 | The rules for this channel, step by step | `Playbook.md` |
 | Name, handle, bio, upload settings | `Channel Setup.md` |
 | What to make next (ideas with series titles) | `Idea Bank.md` |

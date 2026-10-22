@@ -5,7 +5,11 @@
 - **It ties to MetaSports:** the same brand, and "FC" says football at a glance.
 - **It's free:** checked Oct 21, @MetaSportsFC had no YouTube channel and appeared free on TikTok. Check again when you create it.
 
-**Backups, in order:** @MetaSportsGoal, @MetaSportsFootball, @MetaSportsSoccer.
+**Oct 22 update:** @MetaSportsFC is now held by a channel named "Reddit Unfiltered" (no public videos; channel id UCIYlW84gYcChQtdys5L9pOg). If that is the owner's account, rename it to MetaSports FC. If not, use @MetaSportsFootball, which was free on Oct 22.
+
+**Backups, in order:** @MetaSportsFootball, @MetaSportsGoal, @MetaSportsSoccer.
+
+**Profile picture, banner, watermark and every text to paste:** `Brand/Brand Kit.md` and the Hub (https://claude.ai/artifact/LFsQtwomdpLAshoz4Xw62H).
 
 **Already taken:** MetaFC, MetaGoal, MetaSoccer, MetaPitch.
 

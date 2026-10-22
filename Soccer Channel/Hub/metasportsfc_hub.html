@@ -1,0 +1,248 @@
+<title>MetaSports FC Hub</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed:wght@600;800&display=swap">
+<style>
+/* Layout: one phone-width column, like the NBA hub. Header with the crest, then three sections: drafts to approve (video,
+   copy-ready title, results form), the brand kit (profile picture, banner, watermark, texts to paste), then story ideas.
+   Palette from the brand: mowed-pitch green, chalk white, trophy gold. Data is live from the shared database. */
+:root{
+  --bg:#eef2ec; --card:#fbfcf9; --fg:#11221a; --muted:#5b6b62; --line:#d3ddd4;
+  --pitch:#104a34; --deep:#092e21; --gold:#b9800f; --gold-bg:#f6e7c3; --chalk:#f4f6f0;
+  --ok:#23704a; --ok-bg:#dcefe3; --warn:#8f5a00; --warn-bg:#f5e6c8; --info:#1c5a7a; --info-bg:#dceaf2; --bad:#a3321f; --bad-bg:#f5ddd7;
+  --btn:#104a34; --btn-fg:#f4f6f0; --field:#ffffff;
+  --display:"Anton","Impact","Arial Narrow Bold",sans-serif; --label:"Barlow Condensed","Arial Narrow",system-ui,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0b1511; --card:#13221b; --fg:#eaf1ec; --muted:#9db0a5; --line:#24382e;
+  --pitch:#1d6e4e; --deep:#0e3626; --gold:#f2b632; --gold-bg:#3a2d0f; --chalk:#f4f6f0;
+  --ok:#7bd2a0; --ok-bg:#163525; --warn:#f0b659; --warn-bg:#382a10; --info:#86c2e2; --info-bg:#132c3a; --bad:#ff8a73; --bad-bg:#3a1c16;
+  --btn:#f2b632; --btn-fg:#0b1511; --field:#0b1511; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0b1511; --card:#13221b; --fg:#eaf1ec; --muted:#9db0a5; --line:#24382e;
+  --pitch:#1d6e4e; --deep:#0e3626; --gold:#f2b632; --gold-bg:#3a2d0f; --chalk:#f4f6f0;
+  --ok:#7bd2a0; --ok-bg:#163525; --warn:#f0b659; --warn-bg:#382a10; --info:#86c2e2; --info-bg:#132c3a; --bad:#ff8a73; --bad-bg:#3a1c16;
+  --btn:#f2b632; --btn-fg:#0b1511; --field:#0b1511; color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font:15px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:20px 48px}
+main{max-width:640px;margin-inline:auto;display:flex;flex-direction:column;gap:16px}
+header{display:flex;gap:14px;align-items:center}
+.badge{flex:none;width:60px;height:60px;border-radius:50%;background:var(--deep);border:3px solid var(--chalk);box-shadow:0 0 0 2px var(--pitch);
+  display:flex;flex-direction:column;align-items:center;justify-content:center;overflow:hidden}
+.badge img{width:100%;height:100%;object-fit:cover}
+.badge b{font:24px/1 var(--display);color:var(--chalk);letter-spacing:.01em}
+.badge i{font:800 10px/1 var(--label);font-style:normal;background:#f2b632;color:#092e21;border-radius:3px;padding:1px 5px;margin-top:2px}
+h1{font:30px/1.05 var(--display);margin:0;letter-spacing:.01em;text-transform:uppercase}
+h1 span{color:var(--gold)}
+.sub{color:var(--muted);margin:4px 0 0;font-size:14px}
+.strip{display:flex;gap:6px;flex-wrap:wrap}
+.stat{flex:1 1 90px;min-width:0;background:var(--card);border:1px solid var(--line);border-radius:8px;padding:8px 10px}
+.stat b{display:block;font:26px/1.1 var(--display);font-variant-numeric:tabular-nums}
+.stat span{font:600 12px var(--label);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.sec{font:24px/1.1 var(--display);text-transform:uppercase;letter-spacing:.02em;margin:10px 0 2px}
+.sec small{font:600 13px var(--label);letter-spacing:.06em;color:var(--muted);text-transform:none;margin-left:6px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px;display:flex;flex-direction:column;gap:12px;min-width:0}
+.top{display:flex;justify-content:space-between;align-items:flex-start;gap:10px}
+h2{font:800 19px/1.2 var(--label);margin:0;text-wrap:balance}
+h2 .code{color:var(--gold);margin-right:6px}
+.pill{font:600 12px var(--label);letter-spacing:.08em;text-transform:uppercase;padding:3px 8px;border-radius:99px;white-space:nowrap}
+.s-ready{background:var(--ok-bg);color:var(--ok)} .s-footage{background:var(--warn-bg);color:var(--warn)} .s-posted{background:var(--info-bg);color:var(--info)} .s-editing{background:var(--info-bg);color:var(--info)} .s-blocked{background:var(--bad-bg);color:var(--bad)}
+.card.dim{opacity:.72}
+.slot{margin:0;font:800 14px var(--label);letter-spacing:.08em;color:var(--gold);text-transform:uppercase}
+.tabs{display:flex;gap:6px;flex-wrap:wrap}
+.tab{font:600 14px var(--label);letter-spacing:.04em;border:1px solid var(--line);background:transparent;color:var(--fg);border-radius:6px;padding:7px 10px;min-height:36px;cursor:pointer}
+.tab[aria-pressed="true"]{background:var(--pitch);border-color:var(--pitch);color:var(--chalk)}
+video{width:100%;max-height:70vh;background:#000;border-radius:8px;aspect-ratio:9/16;object-fit:contain}
+.note{font-size:13px;color:var(--muted);margin:0}
+.field{display:flex;flex-direction:column;gap:6px;border-top:1px solid var(--line);padding-top:10px}
+.lab{font:600 12px var(--label);letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.row{display:flex;gap:8px;align-items:flex-start}
+.txt{flex:1;min-width:0;overflow-wrap:anywhere;margin:0;white-space:pre-line}
+.copy,.go{flex:none;font:600 14px var(--label);letter-spacing:.04em;background:var(--btn);color:var(--btn-fg);border:0;border-radius:6px;padding:8px 12px;min-height:36px;cursor:pointer}
+.copy.done{background:var(--ok);color:#fff}
+.dl{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.form{display:grid;grid-template-columns:repeat(auto-fit,minmax(110px,1fr));gap:8px}
+.form label{display:flex;flex-direction:column;gap:3px;font:600 12px var(--label);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);min-width:0}
+input{font:15px system-ui,sans-serif;background:var(--field);color:var(--fg);border:1px solid var(--line);border-radius:6px;padding:8px;min-height:38px;width:100%;box-sizing:border-box}
+.results{font-variant-numeric:tabular-nums;margin:0}
+.art{display:flex;flex-direction:column;gap:8px;border-top:1px solid var(--line);padding-top:12px;min-width:0}
+.art img{display:block;max-width:100%;border-radius:8px;background:var(--deep)}
+.art img.round{width:140px;height:140px;border-radius:50%}
+.art img.wm{width:72px;height:72px}
+.art .h{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+.warnbox{background:var(--warn-bg);color:var(--fg);border-radius:8px;padding:10px 12px;font-size:14px;margin:0}
+.warnbox b{color:var(--warn)}
+.idea{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px;display:flex;flex-direction:column;gap:6px;min-width:0}
+.idea h3{font:800 17px/1.25 var(--label);margin:0}
+.idea .series{font:600 12px var(--label);letter-spacing:.08em;text-transform:uppercase;color:var(--gold)}
+.chk{font:600 12px var(--label);letter-spacing:.06em;text-transform:uppercase;padding:2px 7px;border-radius:99px;background:var(--warn-bg);color:var(--warn);white-space:nowrap}
+.empty{background:var(--card);border:1px dashed var(--line);border-radius:10px;padding:18px;color:var(--muted);margin:0}
+button:focus-visible,input:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+.foot{font-size:13px;color:var(--muted)}
+</style>
+
+<main>
+  <header>
+    <div class="badge" id="badge" aria-hidden="true"><b>MS</b><i>FC</i></div>
+    <div>
+      <h1>MetaSports <span>FC</span> Hub</h1>
+      <p class="sub" id="sub">Loading the football channel…</p>
+    </div>
+  </header>
+  <div class="strip" id="strip" hidden>
+    <div class="stat"><b id="n-ready">0</b><span>Awaiting OK</span></div>
+    <div class="stat"><b id="n-editing">0</b><span>In the works</span></div>
+    <div class="stat"><b id="n-posted">0</b><span>Posted</span></div>
+    <div class="stat"><b id="n-ideas">0</b><span>Ideas</span></div>
+  </div>
+
+  <section aria-labelledby="h-shorts">
+    <h2 class="sec" id="h-shorts">Drafts to approve</h2>
+    <div id="list" aria-live="polite" style="display:flex;flex-direction:column;gap:14px"><p class="empty">Your drafts appear here with the video, the title to copy and a results form.</p></div>
+  </section>
+
+  <section aria-labelledby="h-brand">
+    <h2 class="sec" id="h-brand">Brand kit<small>picture, banner, watermark, texts</small></h2>
+    <div id="brand"><p class="empty">The profile picture, banner, watermark and the texts to paste appear here.</p></div>
+  </section>
+
+  <section aria-labelledby="h-ideas" id="ideas-wrap" hidden>
+    <h2 class="sec" id="h-ideas">Story ideas<small>facts get checked before writing</small></h2>
+    <div id="ideas" style="display:flex;flex-direction:column;gap:10px"></div>
+  </section>
+
+  <p class="foot" id="foot">Nothing here is uploaded for you. Tap Copy, then paste into YouTube. Download gives the full file. After 24 hours, log the numbers on the card so we can see what works.</p>
+</main>
+
+<script>
+(function(){
+  var list=document.getElementById("list"), sub=document.getElementById("sub"), brandBox=document.getElementById("brand");
+  var canWrite=false, db=null, downloads=null, shorts=[], ideas=[], openState={};
+  function el(tag,cls,text){var e=document.createElement(tag); if(cls)e.className=cls; if(text!=null)e.textContent=text; return e;}
+  function copy(btn,text,srcEl){
+    function ok(){var o=btn.textContent; btn.textContent="Copied"; btn.classList.add("done"); setTimeout(function(){btn.textContent=o; btn.classList.remove("done");},1400);}
+    function fb(){var r=document.createRange(); r.selectNodeContents(srcEl); var s=getSelection(); s.removeAllRanges(); s.addRange(r); btn.textContent="Selected"; setTimeout(function(){btn.textContent="Copy";},1400);}
+    try{navigator.clipboard.writeText(text).then(ok,fb);}catch(e){fb();}
+  }
+  function field(label,items){
+    var f=el("div","field"); f.appendChild(el("span","lab",label));
+    items.forEach(function(t){
+      var r=el("div","row"), p=el("p","txt",t), b=el("button","copy","Copy"); b.type="button";
+      b.addEventListener("click",function(){copy(b,t,p);}); r.appendChild(p); r.appendChild(b); f.appendChild(r);
+    });
+    return f;
+  }
+  function slug(t){return String(t||"file").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-+|-+$/g,"").slice(0,60)||"file";}
+  function saveBlob(btn,id,filename){
+    if(!downloads)return;
+    var old=btn.textContent; btn.disabled=true; btn.textContent="Preparing…";
+    fetch("/_blob/"+id).then(function(r){if(!r.ok)throw new Error("fetch");return r.blob();})
+      .then(function(b){btn.textContent="Waiting for you…"; return downloads.save({filename:filename,data:b});})
+      .then(function(){btn.textContent="Saved";})
+      .catch(function(e){btn.textContent=(e&&e.code==="declined")?"Cancelled":"Could not save";})
+      .then(function(){setTimeout(function(){btn.textContent=old;btn.disabled=false;},1800);});
+  }
+  var LABEL={ready:"Finished: awaiting your OK",editing:"In the works",posted:"Posted",blocked:"On hold"};
+  function stage(d){var s=String(d.status||"").toLowerCase(); if(s.indexOf("posted")===0)return "posted"; if(s.indexOf("ready")===0||s.indexOf("draft")===0)return "ready"; if(s.indexOf("hold")===0||s.indexOf("block")===0||s.indexOf("reject")===0)return "blocked"; return "editing";}
+  var ORDER={ready:0,editing:1,blocked:2,posted:3};
+  function card(id,d){
+    var c=el("section","card"); c.setAttribute("aria-label",d.name||"Short");
+    var top=el("div","top"), h=el("h2"); if(d.code){h.appendChild(el("span","code",d.code));} h.appendChild(document.createTextNode(d.name||d.title||"Untitled"));
+    top.appendChild(h); var st=stage(d); if(st==="posted")c.classList.add("dim"); top.appendChild(el("span","pill s-"+st,LABEL[st])); c.appendChild(top);
+    if(d.slot&&st==="ready")c.appendChild(el("p","slot","Post #"+d.slot+(d.slotLabel?(" · "+d.slotLabel):"")));
+    var vs=Array.isArray(d.versions)?d.versions:[];
+    if(vs.length){
+      var cur=openState[id]||0; if(cur>=vs.length)cur=0; var curI=cur;
+      var v=el("video"); v.controls=true; v.playsInline=true; v.preload="metadata"; v.src="/_blob/"+vs[cur].assetId;
+      var note=el("p","note",vs[cur].note||"");
+      if(vs.length>1){
+        var tabs=el("div","tabs");
+        vs.forEach(function(x,i){var t=el("button","tab",x.label); t.type="button"; t.setAttribute("aria-pressed",i===cur?"true":"false");
+          t.addEventListener("click",function(){openState[id]=i; curI=i; tabs.querySelectorAll(".tab").forEach(function(o,j){o.setAttribute("aria-pressed",j===i?"true":"false");}); v.pause(); v.src="/_blob/"+vs[i].assetId; v.load(); note.textContent=vs[i].note||"";});
+          tabs.appendChild(t);}); c.appendChild(tabs);
+      }
+      c.appendChild(v); c.appendChild(note);
+      if(downloads){var dl=el("div","dl"), lk=el("button","go","Download video"); lk.type="button";
+        lk.addEventListener("click",function(){saveBlob(lk,vs[curI].assetId,slug((d.code||"")+" "+(d.name||d.title)+" "+vs[curI].label)+".mp4");});
+        dl.appendChild(lk); dl.appendChild(el("span","note","Saves the version that is playing.")); c.appendChild(dl);}
+    } else if(d.about){c.appendChild(el("p","note",d.about));}
+    if(d.titles&&d.titles.length)c.appendChild(field("Title (the first one is the spoken line 1)",d.titles));
+    if(d.tags)c.appendChild(field("Tags (optional)",[d.tags]));
+    if(d.postNote)c.appendChild(el("p","note",d.postNote));
+    var r=d.results, rf=el("div","field"); rf.appendChild(el("span","lab","Results"));
+    if(r&&(r.views!=null||r.viewedPct!=null||r.avgPct!=null)){
+      rf.appendChild(el("p","results",[r.views!=null?r.views+" views":"",r.viewedPct!=null?r.viewedPct+"% viewed":"",r.avgPct!=null?r.avgPct+"% avg watched":"",r.when||"",r.note||""].filter(Boolean).join(" · ")));
+    } else rf.appendChild(el("p","note","Nothing logged yet."));
+    if(canWrite){
+      var f=el("form","form"); f.setAttribute("aria-label","Log results");
+      function inp(lab,key,type,ph){var l=el("label","",lab), i=el("input"); i.type=type; i.id=key+"-"+id; i.placeholder=ph||""; l.appendChild(i); f.appendChild(l); return i;}
+      var when=inp("Went live","when","text","Oct 23, 11:00 AM"), views=inp("Views","views","number","0"), vp=inp("Viewed %","vp","number","70"), ap=inp("Avg % watched","ap","number","85"), nt=inp("Note","note","text","music or no music");
+      var go=el("button","go","Save results"); go.type="submit"; f.appendChild(go);
+      if(r){when.value=r.when||""; views.value=r.views==null?"":r.views; vp.value=r.viewedPct==null?"":r.viewedPct; ap.value=r.avgPct==null?"":r.avgPct; nt.value=r.note||"";}
+      f.addEventListener("submit",function(ev){
+        ev.preventDefault(); var num=function(x){return x.value===""?null:Number(x.value);};
+        go.disabled=true; go.textContent="Saving…";
+        db.doc("shorts/"+id).update({results:{when:when.value,views:num(views),viewedPct:num(vp),avgPct:num(ap),note:nt.value},status:"posted"})
+          .then(function(){go.textContent="Saved"; setTimeout(function(){go.textContent="Save results"; go.disabled=false;},1200);})
+          .catch(function(){go.textContent="Could not save"; go.disabled=false;});
+      });
+      rf.appendChild(f);
+    }
+    c.appendChild(rf);
+    return c;
+  }
+  function renderShorts(){
+    list.textContent="";
+    shorts.sort(function(a,b){var sa=ORDER[stage(a.d)], sb=ORDER[stage(b.d)]; if(sa!==sb)return sa-sb; return (a.d.num||0)-(b.d.num||0);});
+    var n={ready:0,editing:0,blocked:0,posted:0};
+    shorts.forEach(function(s){n[stage(s.d)]++; list.appendChild(card(s.id,s.d));});
+    if(!shorts.length)list.appendChild(el("p","empty","No drafts yet. Each finished Short shows up here with its video and title."));
+    document.getElementById("n-ready").textContent=n.ready; document.getElementById("n-editing").textContent=n.editing+n.blocked; document.getElementById("n-posted").textContent=n.posted;
+    document.getElementById("strip").hidden=false;
+    sub.textContent=n.ready+" draft"+(n.ready===1?"":"s")+" waiting for you. Nothing is posted until you post it.";
+  }
+  function renderBrand(k){
+    brandBox.textContent="";
+    if(!k){brandBox.appendChild(el("p","empty","The brand kit has not been added yet.")); return;}
+    var c=el("section","card"); c.setAttribute("aria-label","Brand kit");
+    var top=el("div","top"); top.appendChild(el("h2","",k.name||"MetaSports FC")); if(k.handle)top.appendChild(el("span","pill s-ready",k.handle)); c.appendChild(top);
+    if(k.handleNote){var w=el("p","warnbox"); w.appendChild(el("b","","Handle: ")); w.appendChild(document.createTextNode(k.handleNote)); c.appendChild(w);}
+    (k.art||[]).forEach(function(a){
+      var box=el("div","art"), hd=el("div","h"); hd.appendChild(el("span","lab",a.label));
+      if(downloads){var sb=el("button","go","Download"); sb.type="button"; sb.addEventListener("click",function(){saveBlob(sb,a.assetId,a.filename||slug(a.label)+".png");}); hd.appendChild(sb);}
+      box.appendChild(hd);
+      var im=el("img",a.kind==="profile"?"round":(a.kind==="watermark"?"wm":"")); im.src="/_blob/"+a.assetId; im.alt=a.label; im.loading="lazy"; box.appendChild(im);
+      if(a.note)box.appendChild(el("p","note",a.note));
+      c.appendChild(box);
+    });
+    (k.texts||[]).forEach(function(t){c.appendChild(field(t.label,[t.text]));});
+    if(k.note)c.appendChild(el("p","note",k.note));
+    brandBox.appendChild(c);
+    if(k.profileAssetId){var b=document.getElementById("badge"); b.textContent=""; var img=el("img"); img.src="/_blob/"+k.profileAssetId; img.alt=""; b.appendChild(img);}
+  }
+  function renderIdeas(){
+    var box=document.getElementById("ideas"); box.textContent="";
+    ideas.sort(function(a,b){return (a.d.rank||0)-(b.d.rank||0);});
+    ideas.forEach(function(x){var d=x.d, c=el("div","idea"), top=el("div","top");
+      top.appendChild(el("h3","",(d.code?d.code+"  ":"")+(d.title||"Idea"))); top.appendChild(el("span","chk",d.checked?"Facts checked":"Check first")); c.appendChild(top);
+      if(d.series)c.appendChild(el("span","series","Series: "+d.series));
+      if(d.story)c.appendChild(el("p","txt",d.story));
+      if(d.why)c.appendChild(el("p","note","Why: "+d.why));
+      if(d.footage)c.appendChild(el("p","note","Footage: "+d.footage));
+      box.appendChild(c);});
+    document.getElementById("ideas-wrap").hidden=!ideas.length;
+    document.getElementById("n-ideas").textContent=ideas.length;
+  }
+  function start(){
+    if(!window.claude||!claude.use){sub.textContent="Open this page in the Claude app to load the channel."; return;}
+    Promise.all([claude.use("db"),claude.use("user"),claude.use("downloads")]).then(function(a){
+      db=a[0]; var user=a[1]; downloads=a[2];
+      if(!db){sub.textContent="Sign in to claude.ai to load the channel."; return;}
+      try{canWrite=!!(user&&user.can&&user.can("data.write")!==false);}catch(e){canWrite=false;}
+      db.collection("shorts").onSnapshot(function(s){shorts=s.docs.map(function(x){return {id:x.id,d:x.data()||{}};}); renderShorts();},function(){sub.textContent="Could not load the drafts. Pull to refresh.";});
+      db.doc("brand/kit").onSnapshot(function(doc){renderBrand(doc&&doc.exists?doc.data():null);},function(){});
+      db.collection("ideas").onSnapshot(function(s){ideas=s.docs.map(function(x){return {id:x.id,d:x.data()||{}};}); renderIdeas();},function(){});
+    });
+  }
+  window.claude&&window.claude.hot&&window.claude.hot.ready?window.claude.hot.ready(start):start();
+})();
+</script>

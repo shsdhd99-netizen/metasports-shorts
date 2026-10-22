@@ -96,3 +96,5 @@ Soccer Channel/**/_check/
 Soccer Channel/**/take*_*/
 Soccer Channel/**/_voice_*/
 Soccer Channel/**/final_*.mp4
+!Soccer Channel/Brand/*.png
+!Soccer Channel/Brand/*.jpg
