@@ -404,3 +404,18 @@ Research Notes/Round 9 - Competitor Shorts Watched (Oct 5, 2026).md. Findings (n
   - A check-in is scheduled for **Oct 22 05:20 UTC** (trig_01WZV4kDusLYgUeGCrm3V5Qt) to pick the biggest story and make one THE #42 FORMAT draft.
 - **Plan:** `Content Plan (Oct 22-25).md`. NBA 2 a day; soccer 1 a day at noon ET (S01 Wed, S02 Thu, S03 Fri, S04 Sat, lead idea Lewandowski's 5 goals in 9 minutes; Cantona has no archive.org footage). Hub slots are updated.
 - Nothing posted or scheduled on YouTube.
+
+## Oct 22-23: FC channel push (owner: "make at least 4 new shorts", then "finish videos" with $5 of credits left)
+- **MetaSports FC tracking:** `Tools/fc_track.py` logs to `Soccer Channel/Data/fc_channel_log.csv`. Oct 22: S01 live as "The goalkeeper who hid a cheat sheet in his sock", 4,866 views, 318 likes (6.5%), 29 subs.
+- **S06 Lewandowski (5 goals in 9 minutes):** finished, DRAFT files in the folder.
+- **Ready to finish after the weekly reset** (voice recorded and tightened, script sourced, research in the chat summary; each needs footage cut, render and QA):
+  - **S04 Zidane** "Players who got sent off in their very last game" (57.7 s).
+    - ABC 720p 2006 final on archive.org (`wc-2006-final-italy-vs-france-abc-720p-60fps-hd`).
+    - File times: penalty about 14:30-15:30, Zidane header about 116:05, Materazzi down 121:00, headbutt replays 123:00-123:48, referee/assistant 125:12, red card 125:36, the walk past the trophy 126:00.
+    - Golden Ball card made (`assets/card_goldenball.jpg`).
+  - **S05 Pickford bottle** (66.7 s).
+    - 2018 Colombia v England 4K and the Euro 2020 final BBC 720p (`euro-2020-final`) on archive.org.
+    - The 2026 X photos are in `assets/`. Cards made: `card_bottle.jpg` (Almada "FEEL ON THE DAY" boxed), `card_messi.jpg`.
+  - **S07 Leicester 5000-1** (63.1 s). `bpl-leicester-vs-everton-2015-2016` and the MOTD 2016 highlights on archive.org.
+- `Tools/story_card.py` makes stat and photo cards for the story format.
+- The NBA daily stats routine is paused until the owner's credits reset (re-enable trig_01V8xJ1ZGJ5gbtAon8MCHPxy).
