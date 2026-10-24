@@ -60,8 +60,16 @@ Two runs a day (scheduled tasks "MetaSports NBA daily run" and "MetaSports FC da
   Footage: `Tools/nba_videos.py` (team sites on NBA.com), `Tools/x_clip.py` (official accounts on X), archive.org.
   Frame 1: a sharp, lit close-up of the star (#52's soft archive frame kept 59%).
 - **FC:** `/story-short`, 55-59.9 s, the hook rules, both versions (music and no music), `"promise"` list in cuts.json.
-- **Gate:** `python Tools/qa_short.py --folder F --video <file> --full` must PASS. Then LOOK at frame 1, every overlay and the
+- **Faster tools (Oct 24):** `Tools/frame_sheet.py SRC --from A --to B --every 0.5` (contact sheet in seconds) and
+  `--cuts` (scene-change times: start and end shots between them, never inside a reel's dissolve); write `cuts_plan.json`, then
+  `Tools/fill_len.py F` fills every len from the anchors; in cuts.json `"speed": 0.5` slows a short close-up and `"overlay": [...]`
+  burns the words over footage at cut time; after `cut_list.py`, `Tools/shot_strip.py F out.jpg` shows each shot's first, middle
+  and last frame (catches dark first frames, dissolves, a player leaving the crop).
+- **Gate:** `python Tools/qa_short.py --folder F --video <file> --full` must PASS (it now also fails a dark frame 1 and sound
+  still ringing at the end: give the last effect a `len` and `fade` in sfx.json). Then LOOK at frame 1, every overlay and the
   last frame. Every fact has a source and its exact words in notes.md.
+- **Tags:** list them most important first and run `python Tools/tags_fit.py "tag1, tag2, ..."`: it fills YouTube's box to
+  490 characters by YouTube's own count (owner's rule: use the 500 limit, hard cap 490). Put the result in UPLOAD.md and the card.
 - If it cannot pass today, do not ship it: Hub card `editing` with the reason. A late news Short is dropped, not posted late.
 
 ## E. Hub and schedule (10 min)
