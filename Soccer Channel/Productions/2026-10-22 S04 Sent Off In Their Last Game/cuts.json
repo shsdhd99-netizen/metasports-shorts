@@ -1,0 +1,418 @@
+{
+ "sources": {
+  "IN": "src/h_intro.mp4",
+  "ST": "src/h_stad.mp4",
+  "PR": "src/h_pre.mp4",
+  "PE": "src/h_pen.mp4",
+  "RP": "src/h_rep.mp4",
+  "MA": "src/h_mat.mp4",
+  "HD": "src/h_head.mp4",
+  "DN": "src/h_down.mp4",
+  "R2": "src/h_rep2.mp4",
+  "RF": "src/h_ref.mp4",
+  "TZ": "src/h_trez.mp4",
+  "GR": "src/h_grosso.mp4"
+ },
+ "shots": [
+  {
+   "clip": "Z01",
+   "src": "RF",
+   "at": 66.0,
+   "x": 0.5,
+   "kind": "face",
+   "why": "Zidane takes off the captain's armband after his red card. 2006 World Cup final, Italy 1-1 France (5-3 pens), Berlin, 9 July 2006, ABC broadcast 720p (archive.org wc-2006-final-italy-vs-france-abc-720p-60fps-hd; abc logos blurred)",
+   "len": 2.58
+  },
+  {
+   "clip": "Z02",
+   "src": "PR",
+   "at": 0.3,
+   "blurfit": true,
+   "kind": "action",
+   "why": "ABC's 2006 World Cup final opener: the trophy held up under confetti. 2006 World Cup final, Italy 1-1 France (5-3 pens), Berlin, 9 July 2006, ABC broadcast 720p (archive.org wc-2006-final-italy-vs-france-abc-720p-60fps-hd; abc logos blurred)",
+   "anchor": "Back in 2006",
+   "len": 1.36
+  },
+  {
+   "clip": "Z03",
+   "src": "IN",
+   "at": 10.25,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Zidane (10) in the 2006 World Cup (ABC opening montage). 2006 World Cup final, Italy 1-1 France (5-3 pens), Berlin, 9 July 2006, ABC broadcast 720p (archive.org wc-2006-final-italy-vs-france-abc-720p-60fps-hd; abc logos blurred)",
+   "anchor": "Zinedine Zidane had",
+   "len": 1.84
+  },
+  {
+   "clip": "Z04",
+   "src": "IN",
+   "at": 6.55,
+   "x": 0.35,
+   "kind": "action",
+   "why": "Zidane (10) on the ball, 2006 World Cup (ABC opening montage). 2006 World Cup final, Italy 1-1 France (5-3 pens), Berlin, 9 July 2006, ABC broadcast 720p (archive.org wc-2006-final-italy-vs-france-abc-720p-60fps-hd; abc logos blurred)",
+   "anchor": "that the World Cup",
+   "len": 1.44
+  },
+  {
+   "clip": "Z05",
+   "src": "PE",
+   "at": 14.9,
+   "x": 0.5,
+   "kind": "face",
+   "why": "Zidane close-up in the final. 2006 World Cup final, Italy 1-1 France (5-3 pens), Berlin, 9 July 2006, ABC broadcast 720p (archive.org wc-2006-final-italy-vs-france-abc-720p-60fps-hd; abc logos blurred)",
+   "anchor": "the last tournament",
+   "len": 1.77
+  },
+  {
+   "clip": "Z06",
+   "src": "PR",
+   "at": 44.0,
+   "blurfit": true,
+   "kind": "action",
+   "why": "France v Brazil quarter-final, 2006: Henry's volley from Zidane's free kick (ABC preview). 2006 World Cup final, Italy 1-1 France (5-3 pens), Berlin, 9 July 2006, ABC broadcast 720p (archive.org wc-2006-final-italy-vs-france-abc-720p-60fps-hd; abc logos blurred)",
+   "anchor": "And France made it",
+   "len": 1.43
+  },
+  {
+   "clip": "Z07",
+   "src": "IN",
+   "at": 16.0,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Italy's players sing (Gattuso, Pirlo), 2006 World Cup (ABC opening montage). 2006 World Cup final, Italy 1-1 France (5-3 pens), Berlin, 9 July 2006, ABC broadcast 720p (archive.org wc-2006-final-italy-vs-france-abc-720p-60fps-hd; abc logos blurred)",
+   "anchor": "to the final against Italy",
+   "len": 1.5
+  },
+  {
+   "clip": "Z08",
+   "src": "ST",
+   "at": 8.0,
+   "blurfit": true,
+   "kind": "action",
+   "why": "Aerial: the Olympiastadion, Berlin. 2006 World Cup final, Italy 1-1 France (5-3 pens), Berlin, 9 July 2006, ABC broadcast 720p (archive.org wc-2006-final-italy-vs-france-abc-720p-60fps-hd; abc logos blurred)",
+   "anchor": "in Berlin",
+   "len": 0.96
+  },
+  {
+   "clip": "Z09",
+   "src": "ST",
+   "at": 11.5,
+   "kind": "action",
+   "why": "The Olympiastadion bowl, Berlin, before kick-off. 2006 World Cup final, Italy 1-1 France (5-3 pens), Berlin, 9 July 2006, ABC broadcast 720p (archive.org wc-2006-final-italy-vs-france-abc-720p-60fps-hd; abc logos blurred)",
+   "anchor": "After seven minutes",
+   "blurfit": true,
+   "len": 1.21
+  },
+  {
+   "clip": "Z10",
+   "src": "PE",
+   "at": 4.0,
+   "x": 0.5,
+   "kind": "face",
+   "why": "Zidane close-up before taking the penalty. 2006 World Cup final, Italy 1-1 France (5-3 pens), Berlin, 9 July 2006, ABC broadcast 720p (archive.org wc-2006-final-italy-vs-france-abc-720p-60fps-hd; abc logos blurred)",
+   "anchor": "Zidane stepped up",
+   "len": 1.66
+  },
+  {
+   "clip": "Z10b",
+   "src": "PE",
+   "at": 8.0,
+   "x": 0.5,
+   "kind": "face",
+   "anchor": "against Gianluigi Buffon",
+   "why": "Gianluigi Buffon on his line before the penalty. 2006 World Cup final, Italy 1-1 France (5-3 pens), Berlin, 9 July 2006, ABC broadcast 720p (archive.org wc-2006-final-italy-vs-france-abc-720p-60fps-hd; abc logos blurred)",
+   "len": 1.55
+  },
+  {
+   "clip": "Z11",
+   "src": "PE",
+   "at": 17.0,
+   "blurfit": true,
+   "kind": "action",
+   "why": "Live: Zidane's run-up and chip, 7th minute. 2006 World Cup final, Italy 1-1 France (5-3 pens), Berlin, 9 July 2006, ABC broadcast 720p (archive.org wc-2006-final-italy-vs-france-abc-720p-60fps-hd; abc logos blurred)",
+   "anchor": "But instead of smashing",
+   "len": 2.46
+  },
+  {
+   "clip": "Z12",
+   "src": "RP",
+   "at": 4.3,
+   "x": 0.6,
+   "kind": "action",
+   "why": "Replay from the goal-line camera: the chip off the crossbar, over the line. 2006 World Cup final, Italy 1-1 France (5-3 pens), Berlin, 9 July 2006, ABC broadcast 720p (archive.org wc-2006-final-italy-vs-france-abc-720p-60fps-hd; abc logos blurred)",
+   "anchor": "The ball hit the underside",
+   "len": 2.84
+  },
+  {
+   "clip": "Z13",
+   "src": "RP",
+   "at": 13.0,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Zidane (ZIDANE 10) celebrates the penalty, arm out. 2006 World Cup final, Italy 1-1 France (5-3 pens), Berlin, 9 July 2006, ABC broadcast 720p (archive.org wc-2006-final-italy-vs-france-abc-720p-60fps-hd; abc logos blurred)",
+   "anchor": "and France were winning",
+   "len": 1.31
+  },
+  {
+   "clip": "Z14",
+   "src": "MA",
+   "at": 1.0,
+   "blurfit": true,
+   "kind": "action",
+   "why": "Italy's corner from the right, 19th minute. 2006 World Cup final, Italy 1-1 France (5-3 pens), Berlin, 9 July 2006, ABC broadcast 720p (archive.org wc-2006-final-italy-vs-france-abc-720p-60fps-hd; abc logos blurred)",
+   "anchor": "Twelve minutes later",
+   "len": 1.0
+  },
+  {
+   "clip": "Z15",
+   "src": "MA",
+   "at": 4.6,
+   "blurfit": true,
+   "kind": "action",
+   "why": "Materazzi's header from Pirlo's corner, 1-1. 2006 World Cup final, Italy 1-1 France (5-3 pens), Berlin, 9 July 2006, ABC broadcast 720p (archive.org wc-2006-final-italy-vs-france-abc-720p-60fps-hd; abc logos blurred)",
+   "anchor": "Marco Materazzi headed",
+   "len": 1.41
+  },
+  {
+   "clip": "Z16",
+   "src": "MA",
+   "at": 6.3,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Materazzi (23) celebrates. 2006 World Cup final, Italy 1-1 France (5-3 pens), Berlin, 9 July 2006, ABC broadcast 720p (archive.org wc-2006-final-italy-vs-france-abc-720p-60fps-hd; abc logos blurred)",
+   "anchor": "the equalizer",
+   "len": 1.03
+  },
+  {
+   "clip": "Z17",
+   "src": "HD",
+   "at": 0.0,
+   "blurfit": true,
+   "kind": "action",
+   "why": "Extra time: France on the attack. 2006 World Cup final, Italy 1-1 France (5-3 pens), Berlin, 9 July 2006, ABC broadcast 720p (archive.org wc-2006-final-italy-vs-france-abc-720p-60fps-hd; abc logos blurred)",
+   "anchor": "The game went to extra time",
+   "len": 1.37
+  },
+  {
+   "clip": "Z18",
+   "src": "HD",
+   "at": 11.0,
+   "blurfit": true,
+   "kind": "action",
+   "why": "Zidane's header from Sagnol's cross, 104th minute. 2006 World Cup final, Italy 1-1 France (5-3 pens), Berlin, 9 July 2006, ABC broadcast 720p (archive.org wc-2006-final-italy-vs-france-abc-720p-60fps-hd; abc logos blurred)",
+   "anchor": "and Zidane almost won",
+   "len": 2.15
+  },
+  {
+   "clip": "Z19",
+   "src": "HD",
+   "at": 13.4,
+   "x": 0.45,
+   "kind": "action",
+   "why": "Buffon tips Zidane's header over the bar. 2006 World Cup final, Italy 1-1 France (5-3 pens), Berlin, 9 July 2006, ABC broadcast 720p (archive.org wc-2006-final-italy-vs-france-abc-720p-60fps-hd; abc logos blurred)",
+   "anchor": "but Buffon tipped it",
+   "len": 1.73
+  },
+  {
+   "clip": "Z20",
+   "src": "DN",
+   "at": 2.0,
+   "blurfit": true,
+   "kind": "action",
+   "why": "Extra time, second half: play continues before the incident. 2006 World Cup final, Italy 1-1 France (5-3 pens), Berlin, 9 July 2006, ABC broadcast 720p (archive.org wc-2006-final-italy-vs-france-abc-720p-60fps-hd; abc logos blurred)",
+   "anchor": "Then in the 110th minute",
+   "len": 1.74
+  },
+  {
+   "clip": "Z21",
+   "src": "R2",
+   "at": 1.5,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Replay (reverse angle): Zidane and Materazzi side by side, talking. 2006 World Cup final, Italy 1-1 France (5-3 pens), Berlin, 9 July 2006, ABC broadcast 720p (archive.org wc-2006-final-italy-vs-france-abc-720p-60fps-hd; abc logos blurred)",
+   "anchor": "Zidane and Materazzi exchanged",
+   "zoom": 1.12,
+   "y": 0.0,
+   "len": 2.34
+  },
+  {
+   "clip": "Z22",
+   "src": "R2",
+   "at": 3.6,
+   "x": 0.45,
+   "kind": "action",
+   "why": "Replay: Zidane walks ahead of Materazzi. 2006 World Cup final, Italy 1-1 France (5-3 pens), Berlin, 9 July 2006, ABC broadcast 720p (archive.org wc-2006-final-italy-vs-france-abc-720p-60fps-hd; abc logos blurred)",
+   "anchor": "Zidane walked away",
+   "zoom": 1.12,
+   "y": 0.0,
+   "len": 1.15
+  },
+  {
+   "clip": "Z23",
+   "src": "R2",
+   "at": 4.8,
+   "x": 0.76,
+   "kind": "action",
+   "why": "Replay: Zidane turns and headbutts Materazzi in the chest. 2006 World Cup final, Italy 1-1 France (5-3 pens), Berlin, 9 July 2006, ABC broadcast 720p (archive.org wc-2006-final-italy-vs-france-abc-720p-60fps-hd; abc logos blurred)",
+   "anchor": "Then he turned around",
+   "zoom": 1.12,
+   "y": 0.0,
+   "len": 2.85
+  },
+  {
+   "clip": "Z24",
+   "src": "RF",
+   "at": 5.0,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Referee Horacio Elizondo on the pitch after the incident. 2006 World Cup final, Italy 1-1 France (5-3 pens), Berlin, 9 July 2006, ABC broadcast 720p (archive.org wc-2006-final-italy-vs-france-abc-720p-60fps-hd; abc logos blurred)",
+   "anchor": "The referee hadn't",
+   "len": 1.7
+  },
+  {
+   "clip": "Z25",
+   "src": "RF",
+   "at": 2.0,
+   "x": 0.55,
+   "kind": "action",
+   "why": "Elizondo at the touchline beside another official (who it is is not shown on screen). 2006 World Cup final, Italy 1-1 France (5-3 pens), Berlin, 9 July 2006, ABC broadcast 720p (archive.org wc-2006-final-italy-vs-france-abc-720p-60fps-hd; abc logos blurred)",
+   "anchor": "But the fourth official",
+   "len": 1.4
+  },
+  {
+   "clip": "Z26",
+   "src": "RF",
+   "at": 10.0,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Live: Elizondo shows Zidane the red card. 2006 World Cup final, Italy 1-1 France (5-3 pens), Berlin, 9 July 2006, ABC broadcast 720p (archive.org wc-2006-final-italy-vs-france-abc-720p-60fps-hd; abc logos blurred)",
+   "anchor": "and Zidane was shown",
+   "len": 1.76
+  },
+  {
+   "clip": "Z27",
+   "src": "R2",
+   "at": 19.0,
+   "x": 0.5,
+   "kind": "face",
+   "why": "Zidane close-up after the incident. 2006 World Cup final, Italy 1-1 France (5-3 pens), Berlin, 9 July 2006, ABC broadcast 720p (archive.org wc-2006-final-italy-vs-france-abc-720p-60fps-hd; abc logos blurred)",
+   "anchor": "So one of the greatest",
+   "len": 1.79
+  },
+  {
+   "clip": "Z28",
+   "src": "RF",
+   "at": 70.0,
+   "x": 0.5,
+   "kind": "face",
+   "why": "Zidane leaves the pitch after the red card. 2006 World Cup final, Italy 1-1 France (5-3 pens), Berlin, 9 July 2006, ABC broadcast 720p (archive.org wc-2006-final-italy-vs-france-abc-720p-60fps-hd; abc logos blurred)",
+   "anchor": "walked off the pitch",
+   "len": 1.81
+  },
+  {
+   "clip": "Z29",
+   "src": "RF",
+   "at": 82.3,
+   "kind": "action",
+   "why": "Zidane walks past the World Cup trophy on its plinth (whole frame, so both are in the picture). 2006 World Cup final, Italy 1-1 France (5-3 pens), Berlin, 9 July 2006, ABC broadcast 720p (archive.org wc-2006-final-italy-vs-france-abc-720p-60fps-hd; abc logos blurred)",
+   "anchor": "right past the World Cup",
+   "blurfit": true,
+   "len": 1.62
+  },
+  {
+   "clip": "Z30",
+   "src": "RF",
+   "at": 89.5,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Zidane heads down the tunnel. 2006 World Cup final, Italy 1-1 France (5-3 pens), Berlin, 9 July 2006, ABC broadcast 720p (archive.org wc-2006-final-italy-vs-france-abc-720p-60fps-hd; abc logos blurred)",
+   "anchor": "And without him",
+   "len": 1.07
+  },
+  {
+   "clip": "Z31",
+   "src": "TZ",
+   "at": 3.0,
+   "blurfit": true,
+   "kind": "action",
+   "why": "Shootout: Trezeguet's kick hits the bar. 2006 World Cup final, Italy 1-1 France (5-3 pens), Berlin, 9 July 2006, ABC broadcast 720p (archive.org wc-2006-final-italy-vs-france-abc-720p-60fps-hd; abc logos blurred)",
+   "anchor": "France lost the shootout",
+   "len": 2.16
+  },
+  {
+   "clip": "Z32",
+   "src": "GR",
+   "at": 3.6,
+   "blurfit": true,
+   "kind": "action",
+   "why": "Grosso scores the winning penalty; Italy run to celebrate. 2006 World Cup final, Italy 1-1 France (5-3 pens), Berlin, 9 July 2006, ABC broadcast 720p (archive.org wc-2006-final-italy-vs-france-abc-720p-60fps-hd; abc logos blurred)",
+   "anchor": "Italy were world champions",
+   "len": 1.81
+  },
+  {
+   "clip": "Z33",
+   "src": "R2",
+   "at": 37.0,
+   "x": 0.5,
+   "kind": "face",
+   "why": "Zidane close-up after the incident. 2006 World Cup final, Italy 1-1 France (5-3 pens), Berlin, 9 July 2006, ABC broadcast 720p (archive.org wc-2006-final-italy-vs-france-abc-720p-60fps-hd; abc logos blurred)",
+   "anchor": "But here's the wild part",
+   "len": 1.29
+  },
+  {
+   "clip": "Z34",
+   "stock": 41191,
+   "at": 1.0,
+   "kind": "action",
+   "why": "ILLUSTRATIVE: a man reading the morning paper (Mixkit stock)",
+   "anchor": "The next morning",
+   "len": 2.61
+  },
+  {
+   "clip": "Z35",
+   "still": "assets/card_vote.jpg",
+   "kind": "card",
+   "why": "Card: voting closed at midnight Sunday; red card 110th minute; most had voted early (AP via CBC, AFP)",
+   "anchor": "Most of the journalists",
+   "len": 2.74
+  },
+  {
+   "clip": "Z36",
+   "src": "DN",
+   "at": 20.0,
+   "blurfit": true,
+   "kind": "action",
+   "why": "Live: Materazzi on the ground after the headbutt. 2006 World Cup final, Italy 1-1 France (5-3 pens), Berlin, 9 July 2006, ABC broadcast 720p (archive.org wc-2006-final-italy-vs-france-abc-720p-60fps-hd; abc logos blurred)",
+   "anchor": "before the headbutt",
+   "len": 1.1
+  },
+  {
+   "clip": "Z37",
+   "still": "assets/card_goldenball.jpg",
+   "kind": "card",
+   "why": "Card: Golden Ball 2006: Zidane 2,012, Cannavaro 1,977, Pirlo 715 (AP, AFP, CNN, 10 July 2006)",
+   "anchor": "And the winner was",
+   "len": 2.0
+  },
+  {
+   "clip": "Z38",
+   "src": "RF",
+   "at": 13.0,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Zidane walks away after the red card. 2006 World Cup final, Italy 1-1 France (5-3 pens), Berlin, 9 July 2006, ABC broadcast 720p (archive.org wc-2006-final-italy-vs-france-abc-720p-60fps-hd; abc logos blurred)",
+   "anchor": "The man who got sent off",
+   "len": 1.97
+  },
+  {
+   "clip": "Z39",
+   "src": "RP",
+   "at": 10.0,
+   "x": 0.5,
+   "kind": "face",
+   "why": "Zidane, arm raised, celebrates his penalty in the final. 2006 World Cup final, Italy 1-1 France (5-3 pens), Berlin, 9 July 2006, ABC broadcast 720p (archive.org wc-2006-final-italy-vs-france-abc-720p-60fps-hd; abc logos blurred)",
+   "anchor": "was named the best player",
+   "len": 2.38
+  }
+ ]
+}

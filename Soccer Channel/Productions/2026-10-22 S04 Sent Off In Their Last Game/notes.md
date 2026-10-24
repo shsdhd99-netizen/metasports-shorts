@@ -1,4 +1,13 @@
-# S04 Players who got sent off in their very last game (Zidane, 2006): fact check (Oct 23, 2026)
+# S04 Players who got sent off in their very last game (DRAFT, rendered Oct 24, 2026)
+
+> **STATUS (Oct 24, new account, cloud session): RENDERED, 57.9 s (under 60), music and no-music.** The voice is the recorded take, unchanged except a 0.25 s silent tail (QA wanted a tail; the pre-pad file is in `_voice_prepad/`, local only).
+> - **Watch 3 resolved:** the voice check's "nothing heard" at about 51.7 s was a false alarm. A local speech-to-text pass (faster-whisper) hears every word, including both "before"s; QA's own speech check on the export: 100% word match.
+> - **Watch 2 resolved:** `assets/card_goldenball.jpg` now credits "AP, AFP, CNN, 10 July 2006" (CNN's 2006 page reads: "earned 2,012 votes. Italian captain Fabio Cannavaro (1,977) was second ... Andrea Pirlo (715) was third"). New `assets/card_vote.jpg` for line 17: voting closed at midnight Sunday (AP: "Voting for the 2006 Golden Ball closed at midnight Sunday"), red card in the 110th minute, "most had voted early" (AFP).
+> - **Footage:** the ABC 720p broadcast on archive.org; only the used minutes were pulled (`src/pull720.sh`), the abc logos blurred, and ESPN's "program alert" ticker cropped off the headbutt replay. Key shots: the chip off the bar (goal-line replay), Materazzi's header, Buffon's tip-over, the reverse-angle headbutt replay, Elizondo's red card (live), Zidane walking past the trophy (whole frame, both in shot), Trezeguet's kick off the bar, Grosso's winner. The opening shots (Z02-Z05, Z07, Z39) come from ABC's own 2006 montage and pre-match package.
+> - **Illustrative:** Z25 (Elizondo beside another official at the touchline; the broadcast doesn't show which official); Z34 (Mixkit stock, a man reading the morning paper).
+> - The fact-check table below is the Oct 23 one (no wrong lines).
+
+## Fact check (Oct 23, 2026)
 
 > **READ FIRST: verdict for the recorded voice**
 > - **WRONG lines: none. Lines that must change: none.** All 19 claims check out, so the recorded voice can stay.

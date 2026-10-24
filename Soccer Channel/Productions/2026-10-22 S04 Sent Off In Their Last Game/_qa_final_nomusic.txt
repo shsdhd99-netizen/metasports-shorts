@@ -1,0 +1,64 @@
+PASS
+  warn length 57.9s (Ahmed's Shorts run 58-88 s; median 70-76 s)
+  warn hook has no number or conflict/question word in the first 8 words: 'players who got sent off in their very' (state the question the viewer needs answered by 1.5 s)
+  warn footage: shot 1 Z01.mp4: blown up 2.67x (1280x720, crop zoom 1.0; house standard is a 1080p source, about 1.8x): note in PACKAGE.md that no better source exists
+  warn footage: shot 3 Z03.mp4: blown up 2.67x (1280x720, crop zoom 1.0; house standard is a 1080p source, about 1.8x): note in PACKAGE.md that no better source exists
+  warn footage: shot 3 Z03.mp4: soft (edge contrast 83 vs this Short's median 428): motion blur or a poor encode
+  warn footage: shot 4 Z04.mp4: blown up 2.67x (1280x720, crop zoom 1.0; house standard is a 1080p source, about 1.8x): note in PACKAGE.md that no better source exists
+  warn footage: shot 4 Z04.mp4: soft (edge contrast 108 vs this Short's median 428): motion blur or a poor encode
+  warn footage: shot 5 Z05.mp4: blown up 2.67x (1280x720, crop zoom 1.0; house standard is a 1080p source, about 1.8x): note in PACKAGE.md that no better source exists
+  warn footage: shot 7 Z07.mp4: blown up 2.67x (1280x720, crop zoom 1.0; house standard is a 1080p source, about 1.8x): note in PACKAGE.md that no better source exists
+  warn footage: shot 10 Z10.mp4: blown up 2.67x (1280x720, crop zoom 1.0; house standard is a 1080p source, about 1.8x): note in PACKAGE.md that no better source exists
+  warn footage: shot 11 Z10b.mp4: blown up 2.67x (1280x720, crop zoom 1.0; house standard is a 1080p source, about 1.8x): note in PACKAGE.md that no better source exists
+  warn footage: shot 13 Z12.mp4: blown up 2.67x (1280x720, crop zoom 1.0; house standard is a 1080p source, about 1.8x): note in PACKAGE.md that no better source exists
+  warn footage: shot 14 Z13.mp4: blown up 2.67x (1280x720, crop zoom 1.0; house standard is a 1080p source, about 1.8x): note in PACKAGE.md that no better source exists
+  warn footage: shot 17 Z16.mp4: blown up 2.67x (1280x720, crop zoom 1.0; house standard is a 1080p source, about 1.8x): note in PACKAGE.md that no better source exists
+  warn footage: shot 20 Z19.mp4: blown up 2.67x (1280x720, crop zoom 1.0; house standard is a 1080p source, about 1.8x): note in PACKAGE.md that no better source exists
+  warn footage: shot 22 Z21.mp4: blown up 2.99x (1280x720, crop zoom 1.12; house standard is a 1080p source, about 1.8x): note in PACKAGE.md that no better source exists
+  warn footage: shot 23 Z22.mp4: blown up 2.99x (1280x720, crop zoom 1.12; house standard is a 1080p source, about 1.8x): note in PACKAGE.md that no better source exists
+  warn footage: shot 24 Z23.mp4: blown up 2.99x (1280x720, crop zoom 1.12; house standard is a 1080p source, about 1.8x): note in PACKAGE.md that no better source exists
+  warn footage: shot 25 Z24.mp4: blown up 2.67x (1280x720, crop zoom 1.0; house standard is a 1080p source, about 1.8x): note in PACKAGE.md that no better source exists
+  warn footage: shot 26 Z25.mp4: blown up 2.67x (1280x720, crop zoom 1.0; house standard is a 1080p source, about 1.8x): note in PACKAGE.md that no better source exists
+  warn footage: shot 27 Z26.mp4: blown up 2.67x (1280x720, crop zoom 1.0; house standard is a 1080p source, about 1.8x): note in PACKAGE.md that no better source exists
+  warn footage: shot 28 Z27.mp4: blown up 2.67x (1280x720, crop zoom 1.0; house standard is a 1080p source, about 1.8x): note in PACKAGE.md that no better source exists
+  warn footage: shot 29 Z28.mp4: blown up 2.67x (1280x720, crop zoom 1.0; house standard is a 1080p source, about 1.8x): note in PACKAGE.md that no better source exists
+  warn footage: shot 31 Z30.mp4: blown up 2.67x (1280x720, crop zoom 1.0; house standard is a 1080p source, about 1.8x): note in PACKAGE.md that no better source exists
+  warn footage: shot 34 Z33.mp4: blown up 2.67x (1280x720, crop zoom 1.0; house standard is a 1080p source, about 1.8x): note in PACKAGE.md that no better source exists
+  warn footage: shot 35 Z34.mp4: soft (edge contrast 125 vs this Short's median 428): motion blur or a poor encode
+  warn footage: shot 39 Z38.mp4: blown up 2.67x (1280x720, crop zoom 1.0; house standard is a 1080p source, about 1.8x): note in PACKAGE.md that no better source exists
+  warn footage: shot 40 Z39.mp4: blown up 2.67x (1280x720, crop zoom 1.0; house standard is a 1080p source, about 1.8x): note in PACKAGE.md that no better source exists
+  warn export: captions on screen under 0.25 s at [8.01] s (too fast to read)
+  ok   every shot has a kind
+  ok   length 57.9s (story format)
+  ok   voice starts at once
+  ok   opens on 'Players'
+  ok   2 shots in first 3 s (title card holds)
+  ok   real action footage in first 3 s
+  ok   hook line has a name/number/stakes
+  ok   no shot too long
+  ok   average shot 1.4s
+  ok   most-used clip Z23.mp4 4%
+  ok   40 source clips
+  ok   talking head 21%
+  ok   b-roll 71%
+  ok   cards 7%
+  ok   no two cards in a row
+  ok   no repeated neighbours
+  ok   no footage shown twice
+  ok   no dead air inside the speech
+  ok   loudness -14.3 LUFS
+  ok   no frozen footage
+  ok   no black frames
+  ok   quote shots play at normal speed (lip sync)
+  ok   no frozen holds
+  ok   every clip has a source-log row
+  ok   every clip verified against the narration
+  ok   export: captions match script.txt word for word (251 words)
+  ok   export: no overlapping captions
+  ok   export: every spoken word is captioned while it is said
+  ok   export: captions centred at 50%-50% of the height (house band 45-65%)
+  ok   export: widest caption about 759 px (under 820: clear of the right-hand buttons)
+  ok   export: picture and sound both 57.90 s
+  ok   export: voice.mp3: no clipping (peak -2.5 dBFS)
+  ok   export: export audio: no clipping (peak -1.1 dBFS)
+  ok   export: the export says what the script says (100% word match after number folding)
