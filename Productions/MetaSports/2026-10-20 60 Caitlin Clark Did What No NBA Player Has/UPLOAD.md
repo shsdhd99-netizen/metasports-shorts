@@ -1,7 +1,7 @@
 # UPLOAD: #60 Caitlin Clark Did What No NBA Player Has (WNBA, record)
 
 **DRAFT, awaiting your approval. Not posted, not scheduled.**
-**File:** `DRAFT - awaiting approval - 60 Caitlin Clark 45 and 10 (no music).mp4` (same as `final.mp4`, 28.8 s, 1080x1920). Video files are not in git; rebuild with `python Tools/assemble.py --folder "<this folder>" --no-music` after re-cutting from `src/` (every in-point and crop is in `sources.csv`).
+**File:** `DRAFT - awaiting approval - 60 Caitlin Clark 45 and 10 (no music).mp4` (same as `final.mp4`, 28.2 s, 1080x1920). **Rebuilt Oct 24 in the cloud** from the same three X posts, in-points and crops (`sources.csv`); full QA PASS (`_qa_rebuild.txt`). The draft file is now in git. To rebuild again: `python Tools/assemble.py --folder "<this folder>" --no-music` after re-cutting from `src/` (every in-point and crop is in `sources.csv`).
 **Timing:** evergreen (the game was Jul 17 2026); Clark is the most-searched WNBA name on YouTube.
 
 **Title (exactly as written):** Caitlin Clark Did What No NBA Player Has 😳
