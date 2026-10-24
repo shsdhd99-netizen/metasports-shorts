@@ -7,17 +7,17 @@
   "track": "Library/Music/eleven_story_01.mp3",
   "track_start": 0.0,
   "in": 0.0,
-  "out": 66.403265,
+  "out": 59.715918,
   "hit": null,
   "hit_on": null,
-  "segment_lufs": -14.5,
-  "gain_db": -19.5,
+  "segment_lufs": -14.6,
+  "gain_db": -19.4,
   "bed_lu": -20.0,
   "gap_lift_db": 2.0,
   "gaps": [
    [
-    66.14,
-    66.4
+    59.43,
+    59.72
    ]
   ],
   "drops": []

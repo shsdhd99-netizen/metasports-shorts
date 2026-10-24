@@ -231,9 +231,9 @@
    "at": 29.6,
    "blurfit": true,
    "kind": "action",
-   "anchor": "Pickford dived to",
-   "why": "Live: Bacca's kick, Pickford dives to his left (camera right) and tips it away. 2018 World Cup last 16, FIFA 4K broadcast",
-   "len": 1.56
+   "anchor": "Pickford dived",
+   "why": "Live: Bacca's kick; Pickford dives to his right and tips it away with his raised left hand. 2018 World Cup last 16, FIFA 4K broadcast",
+   "len": 1.01
   },
   {
    "clip": "A22b",
@@ -242,7 +242,7 @@
    "x": 0.5,
    "kind": "action",
    "anchor": "threw up his arm",
-   "why": "Replay: Pickford's raised arm saves Bacca's kick. 2018 World Cup last 16, FIFA 4K broadcast",
+   "why": "Replay from behind Pickford: he dives to his right, left arm up, and saves Bacca's kick. 2018 World Cup last 16, FIFA 4K broadcast",
    "len": 1.61
   },
   {
@@ -273,37 +273,7 @@
    "kind": "action",
    "why": "England pile on in celebration. 2018 World Cup last 16, Colombia 1-1 England (4-3 pens), 3 July 2018, FIFA 4K broadcast (archive.org colombia-vs-england.-2160p)",
    "anchor": "won a World Cup",
-   "len": 1.55
-  },
-  {
-   "clip": "A26",
-   "src": "BA",
-   "at": 11.4,
-   "x": 0.47,
-   "kind": "face",
-   "why": "Jordan Pickford close-up. 2018 World Cup last 16, Colombia 1-1 England (4-3 pens), 3 July 2018, FIFA 4K broadcast (archive.org colombia-vs-england.-2160p)",
-   "anchor": "Afterwards Pickford said",
-   "len": 2.53
-  },
-  {
-   "clip": "A27",
-   "src": "FA",
-   "at": 2.0,
-   "x": 0.55,
-   "kind": "face",
-   "why": "Radamel Falcao (9) before Colombia's first kick. 2018 World Cup last 16, Colombia 1-1 England (4-3 pens), 3 July 2018, FIFA 4K broadcast (archive.org colombia-vs-england.-2160p)",
-   "anchor": "Radamel Falcao",
-   "len": 1.12
-  },
-  {
-   "clip": "A28",
-   "src": "FA",
-   "at": 66.0,
-   "blurfit": true,
-   "kind": "action",
-   "why": "Replay: Falcao scores down the middle as Pickford dives. 2018 World Cup last 16, Colombia 1-1 England (4-3 pens), 3 July 2018, FIFA 4K broadcast (archive.org colombia-vs-england.-2160p)",
-   "anchor": "had shot differently",
-   "len": 2.18
+   "len": 1.54
   },
   {
    "clip": "A29",
@@ -429,15 +399,7 @@
    "kind": "card",
    "anchor": "feel on the day",
    "why": "Photo zoom: 'ALMADA - FEEL ON THE DAY' boxed on Pickford's 2026 bottle (photo shared on X)",
-   "len": 1.12
-  },
-  {
-   "clip": "A42",
-   "still": "assets/card_messi2.jpg",
-   "kind": "card",
-   "why": "Photo card: González and Messi read Pickford's bottle (TyC Sports, via @TouchlineX on X)",
-   "anchor": "And they couldn't",
-   "len": 1.82
+   "len": 1.43
   }
  ]
 }

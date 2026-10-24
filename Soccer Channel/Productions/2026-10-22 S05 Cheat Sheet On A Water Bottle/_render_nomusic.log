@@ -1,9 +1,9 @@
-Voice 66.4s -> 44 shots from 44 clips
+Voice 59.7s -> 40 shots from 40 clips
 Drift not found: using the ffmpeg engine
-  final pass with h264_nvenc failed: [h264_nvenc @ 0x5581b036a280] Cannot load libcuda.so.1
-[vost#0:0/h264_nvenc @ 0x5581b0369ec0] Error while opening encoder - maybe incorrect parameters such as bit_rate, rate, width or height.
+  final pass with h264_nvenc failed: [h264_nvenc @ 0x55d4b32ce640] Cannot load libcuda.so.1
+[vost#0:0/h264_nvenc @ 0x55d4b32ce240] Error while opening encoder - maybe incorrect parameters such as bit_rate, rate, width or height.
 Error while filtering: Operation not permitted
-[out#0/mp4 @ 0x5581b0369140] Nothing was written into output file, because at least one of its streams received no packets.
+[out#0/mp4 @ 0x55d4b32cd640] Nothing was written into output file, because at least one of its streams received no packets.
 
-  captions burned (ahmed) + 4 sound effect(s), voice lifted +11.0 dB to -14 LUFS, effects mixed under it
-Done: /home/user/metasports-shorts/Soccer Channel/Productions/2026-10-22 S05 Cheat Sheet On A Water Bottle/final_nomusic.mp4 (66.4s)
+  captions burned (ahmed) + 4 sound effect(s), voice lifted +10.9 dB to -14 LUFS, effects mixed under it
+Done: /home/user/metasports-shorts/Soccer Channel/Productions/2026-10-22 S05 Cheat Sheet On A Water Bottle/final_nomusic.mp4 (59.7s)

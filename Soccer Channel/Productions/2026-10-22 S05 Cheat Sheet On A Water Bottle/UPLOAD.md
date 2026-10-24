@@ -4,7 +4,7 @@
 - `DRAFT - awaiting approval - S05 Goalkeepers who hid a cheat sheet on their water bottle (music).mp4`: a quiet music bed about 20 dB under the voice (what Ahmed does).
 - `DRAFT - awaiting approval - S05 Goalkeepers who hid a cheat sheet on their water bottle (no music).mp4`: voice and sound effects only.
 
-Both are 66.4 s, 1080x1920, captions burned in, -14 LUFS. Full QA (story profile): PASS, both versions. No promo at the end, no dead air.
+Both are 59.7 s (under 60, so a copyright claim can't block it worldwide), 1080x1920, captions burned in, -14 LUFS. Full QA (story profile): PASS, both versions. The three fact fixes from the Oct 23 check are in (see notes.md). No promo at the end, no dead air.
 
 **Title:** Goalkeepers who hid a cheat sheet on their water bottle
 

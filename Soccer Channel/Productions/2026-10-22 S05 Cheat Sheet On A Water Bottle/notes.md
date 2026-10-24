@@ -1,4 +1,16 @@
-# S05 Goalkeepers who hid a cheat sheet on their water bottle (Pickford): fact check (Oct 23, 2026)
+# S05 Goalkeepers who hid a cheat sheet on their water bottle (DRAFT, rendered Oct 24, 2026)
+
+> **STATUS (Oct 24, new account, cloud session): FIXED AND RENDERED, 59.7 s, QA PASS (music and no-music).**
+> No ElevenLabs key on this account, so every fix below is a cut or a splice from the same take (`Tools/word_edit.py`); the original take is in `_voice_preedit_v1/` (git-ignored, local only).
+> 1. **"dived to his left" -> "Pickford dived, threw up his arm, and saved it."** Cut "to his left," (31.735-32.28 s). I checked the 4K broadcast frame by frame: the wide shot from behind Bacca and the reverse angle from behind Pickford both show him diving to his RIGHT with his left arm up (AP/Daily Star were right). The picture now shows exactly that (A22 live, A22b reverse angle).
+> 2. **"the Argentina players found" -> "Argentina found"** (spliced "Argentina" from 54.58-55.05 s of the same take). True whether staff or players picked it up.
+> 3. **"And they couldn't stop laughing." cut.** The Short now ends on "...the note reportedly just said, feel on the day." over a close-up of that line on the bottle. Ending on the absurd note is a stronger payoff than the laugh line anyway.
+> 4. **Falcao sentence cut** ("Afterwards, Pickford said only one Colombian, Radamel Falcao, had shot differently from what he expected.") to get under 60 s (new rule: a claimed Short over 60 s is blocked worldwide). It was true (The FA, Pickford's own words), just the least needed beat.
+> - Every joint checked with local speech-to-text: "Pickford dived, threw up his arm, and saved it. Eric Dier scored..." / "...and passed it to Messi. Next to one player's name, the note reportedly just said feel on the day."
+> - Footage: 2018 from the FIFA 4K HDR broadcast (only the used minutes pulled and tone-mapped to 1080p, `src/pull4k.sh`); Euro 2020 final from the BBC 720p broadcast; 2026 from the photos in `assets/` (credits on the cards). Every shot is in `sources.csv` and was checked on `_check/sheet.jpg`. A38 (a ball on the 2018 penalty spot under "so there was no shootout") is illustrative.
+> - The fact-check table below is the Oct 23 one; the rows marked WRONG / NEEDS REWORDING are the lines fixed above.
+
+## Fact check (Oct 23, 2026)
 
 > **READ FIRST: 1 WRONG line, 2 to reword. Fix before cutting footage.**
 > 1. **WRONG (line 11): "Pickford dived to his left, threw up his arm, and saved it."** He went to his **right** and saved it with his **left** hand.
