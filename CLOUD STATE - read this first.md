@@ -2,6 +2,13 @@
 Last updated: 2026-10-14 (newest section at the bottom). Branch: `main-329h3w` (draft PR #1). The user posts the videos; NEVER upload/publish or open YouTube Studio.
 **Owner, Oct 19 (standing until they say otherwise):** "you are able to run from my pc now, you do not need to look for cloud solutions." Prefer the PC when the session runs there. Lead with THE #42 FORMAT (what works), other formats allowed (`Library/THE 42 FORMAT.md`). When the owner is away from the PC, source footage in the cloud yourself.
 
+## Oct 24, 2026: the automatic routine (read this first)
+- **Two scheduled tasks** make one Short per channel per day (owner: "4 shorts every 2 days"): "MetaSports NBA daily run"
+  (6:41 AM ET, for the 11:00 AM ET slot) and "MetaSports FC daily run" (9:39 AM ET, next free 12:00 PM ET slot). Both follow
+  `.claude/skills/daily-run/SKILL.md` and log to `Research Notes/Daily Log.md`. The owner's posting plan: `UPLOAD SCHEDULE.md`.
+- They need `ELEVENLABS_API_KEY` (and the YT_* tokens for retention curves) in the environment settings; without the key they write scripts only.
+- Soccer hook rules: `Research Notes/Why S02 and S03 Underperformed (Oct 24, 2026).md`. NBA drafts (`DRAFT - awaiting approval*.mp4`) are now kept in git.
+
 ## Where everything lives (all in this repo, so any session can read it)
 - Pipeline + quality rules: `.claude/skills/cloud-short/SKILL.md` (start with its QUALITY FORMULA and the evidence-tier rules).
 - Memory of mistakes/wins: `Research Notes/Lessons Learned (running log).md` (add to it whenever you learn something).
