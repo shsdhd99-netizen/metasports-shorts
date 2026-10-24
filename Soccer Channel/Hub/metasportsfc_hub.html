@@ -77,6 +77,14 @@ input{font:15px system-ui,sans-serif;background:var(--field);color:var(--fg);bor
 .chk{font:600 12px var(--label);letter-spacing:.06em;text-transform:uppercase;padding:2px 7px;border-radius:99px;background:var(--warn-bg);color:var(--warn);white-space:nowrap}
 .empty{background:var(--card);border:1px dashed var(--line);border-radius:10px;padding:18px;color:var(--muted);margin:0}
 button:focus-visible,input:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+.insights{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:6px;font-size:14px;line-height:1.45}
+.insights li{min-width:0;overflow-wrap:anywhere}
+.todo{display:flex;flex-direction:column;gap:6px}
+.task{display:flex;gap:10px;align-items:flex-start;background:var(--card);border:1px solid var(--line);border-radius:8px;padding:10px 12px;min-width:0}
+.task input{width:22px;height:22px;min-height:0;flex:none;margin:1px 0 0;padding:0;accent-color:var(--pitch);cursor:pointer}
+.task label{flex:1;min-width:0;cursor:pointer;overflow-wrap:anywhere}
+.task .who{display:block;font:600 12px var(--label);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-top:2px}
+.task.done label{color:var(--muted);text-decoration:line-through}
 .foot{font-size:13px;color:var(--muted)}
 </style>
 
@@ -100,6 +108,19 @@ button:focus-visible,input:focus-visible{outline:2px solid var(--gold);outline-o
     <div id="list" aria-live="polite" style="display:flex;flex-direction:column;gap:14px"><p class="empty">Your drafts appear here with the video, the title to copy and a results form.</p></div>
   </section>
 
+  <section aria-labelledby="h-chan" id="chan-wrap" hidden>
+    <h2 class="sec" id="h-chan">Channel<small id="chan-when"></small></h2>
+    <div style="display:flex;flex-direction:column;gap:10px">
+      <div class="strip" id="chan"></div>
+      <ul class="insights" id="insights" hidden></ul>
+    </div>
+  </section>
+
+  <section aria-labelledby="h-todo" id="todo-wrap" hidden>
+    <h2 class="sec" id="h-todo">To do<small>tap to tick off</small></h2>
+    <div id="todo" class="todo"></div>
+  </section>
+
   <section aria-labelledby="h-brand">
     <h2 class="sec" id="h-brand">Brand kit<small>picture, banner, watermark, texts</small></h2>
     <div id="brand"><p class="empty">The profile picture, banner, watermark and the texts to paste appear here.</p></div>
@@ -116,7 +137,7 @@ button:focus-visible,input:focus-visible{outline:2px solid var(--gold);outline-o
 <script>
 (function(){
   var list=document.getElementById("list"), sub=document.getElementById("sub"), brandBox=document.getElementById("brand");
-  var canWrite=false, db=null, downloads=null, shorts=[], ideas=[], openState={};
+  var canWrite=false, db=null, downloads=null, shorts=[], ideas=[], todos=[], openState={};
   function el(tag,cls,text){var e=document.createElement(tag); if(cls)e.className=cls; if(text!=null)e.textContent=text; return e;}
   function copy(btn,text,srcEl){
     function ok(){var o=btn.textContent; btn.textContent="Copied"; btn.classList.add("done"); setTimeout(function(){btn.textContent=o; btn.classList.remove("done");},1400);}
@@ -232,6 +253,26 @@ button:focus-visible,input:focus-visible{outline:2px solid var(--gold);outline-o
     document.getElementById("ideas-wrap").hidden=!ideas.length;
     document.getElementById("n-ideas").textContent=ideas.length;
   }
+  function renderChannel(d){
+    var w=document.getElementById("chan-wrap"); if(!d){w.hidden=true; return;} w.hidden=false;
+    var box=document.getElementById("chan"); box.textContent="";
+    (d.stats||[]).forEach(function(s){var t=el("div","stat"); t.appendChild(el("b","",String(s.value))); t.appendChild(el("span","",s.label)); box.appendChild(t);});
+    document.getElementById("chan-when").textContent=d.updated?("as of "+d.updated):"";
+    var ul=document.getElementById("insights"); ul.textContent=""; (d.insights||[]).forEach(function(x){ul.appendChild(el("li","",x));}); ul.hidden=!(d.insights||[]).length;
+  }
+  function renderTodo(){
+    var box=document.getElementById("todo"); box.textContent="";
+    todos.sort(function(a,b){if(!!a.d.done!==!!b.d.done)return a.d.done?1:-1; return (a.d.rank||0)-(b.d.rank||0);});
+    todos.forEach(function(t){
+      var row=el("div","task"+(t.d.done?" done":"")), cb=el("input"), lb=el("label");
+      cb.type="checkbox"; cb.id="todo-"+t.id; cb.checked=!!t.d.done; cb.disabled=!canWrite; lb.htmlFor=cb.id;
+      lb.appendChild(document.createTextNode(t.d.text||"")); if(t.d.who)lb.appendChild(el("span","who",t.d.who));
+      cb.addEventListener("change",function(){var want=cb.checked; cb.disabled=true;
+        db.doc("todo/"+t.id).update({done:want}).catch(function(){cb.checked=!want;}).then(function(){cb.disabled=!canWrite;});});
+      row.appendChild(cb); row.appendChild(lb); box.appendChild(row);
+    });
+    document.getElementById("todo-wrap").hidden=!todos.length;
+  }
   function start(){
     if(!window.claude||!claude.use){sub.textContent="Open this page in the Claude app to load the channel."; return;}
     Promise.all([claude.use("db"),claude.use("user"),claude.use("downloads")]).then(function(a){
@@ -241,6 +282,8 @@ button:focus-visible,input:focus-visible{outline:2px solid var(--gold);outline-o
       db.collection("shorts").onSnapshot(function(s){shorts=s.docs.map(function(x){return {id:x.id,d:x.data()||{}};}); renderShorts();},function(){sub.textContent="Could not load the drafts. Pull to refresh.";});
       db.doc("brand/kit").onSnapshot(function(doc){renderBrand(doc&&doc.exists?doc.data():null);},function(){});
       db.collection("ideas").onSnapshot(function(s){ideas=s.docs.map(function(x){return {id:x.id,d:x.data()||{}};}); renderIdeas();},function(){});
+      db.doc("channel/stats").onSnapshot(function(doc){renderChannel(doc&&doc.exists?doc.data():null);},function(){});
+      db.collection("todo").onSnapshot(function(s){todos=s.docs.map(function(x){return {id:x.id,d:x.data()||{}};}); renderTodo();},function(){});
     });
   }
   window.claude&&window.claude.hot&&window.claude.hot.ready?window.claude.hot.ready(start):start();
