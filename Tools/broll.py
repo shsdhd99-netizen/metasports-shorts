@@ -128,19 +128,22 @@ def cmd_cut(a):
             seek = []
         w, h, _ = probe(path)
         os.makedirs(os.path.dirname(os.path.abspath(a.out)), exist_ok=True)
+        # Oct 24 2026: --speed 0.5 plays the source at half speed, so a 0.7 s close-up fills a 1.4 s line (#66's MVP-reel faces).
+        # 60 fps sources stay smooth down to 0.5x; -t still sets the clip's own length, so it uses len x speed of the source.
+        slow = f"setpts=PTS/{a.speed:.3f}," if a.speed != 1.0 else ""
         dl = ""
         if a.delogo:  # Oct 21: blur a TV channel bug (fractions of the source frame: x,y,w,h)
             fx, fy, fw, fh = (float(v) for v in a.delogo.split(","))
             dl = f"delogo=x={int(fx * w)}:y={int(fy * h)}:w={int(fw * w)}:h={int(fh * h)},"
         if a.blurfit:  # Oct 21 (story format): the whole wide frame, full width, over a blurred, darkened fill of itself
             fg_w = int(1080 * a.blurfit_width) // 2 * 2
-            fc = (f"[0:v]{dl}split[a][b];[a]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=24:2,"
+            fc = (f"[0:v]{slow}{dl}split[a][b];[a]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=24:2,"
                   f"eq=brightness=-0.12[bg];[b]crop=iw/{a.zoom:.3f}:ih/{a.zoom:.3f},scale={fg_w}:-2:flags=lanczos{',hflip' if a.flip else ''}[fg];"
                   f"[bg][fg]overlay=(W-w)/2:(H-h)*{a.y:.3f},fps=30,format=yuv420p[v]")
             run(["ffmpeg", "-y", "-loglevel", "error", *seek, "-i", path, "-t", f"{a.len:.2f}", "-filter_complex", fc,
                  "-map", "[v]", "-an", "-c:v", "libx264", "-crf", "18", "-preset", "medium", a.out])
         else:
-            vf = dl + vertical(w, h, a.x, a.zoom, a.y) + (",hflip" if a.flip else "") + ",fps=30,format=yuv420p"
+            vf = slow + dl + vertical(w, h, a.x, a.zoom, a.y) + (",hflip" if a.flip else "") + ",fps=30,format=yuv420p"
             run(["ffmpeg", "-y", "-loglevel", "error", *seek, "-i", path, "-t", f"{a.len:.2f}", "-vf", vf, "-an",
                  "-c:v", "libx264", "-crf", "18", "-preset", "medium", a.out])
         print(f"{a.out}  ({a.len:.1f}s from {a.at:.1f}s, source {w}x{h}{', upscaled' if h < 1080 else ''})")
@@ -335,6 +338,7 @@ def main():
     p.add_argument("--zoom", type=float, default=1.0); p.add_argument("--y", type=float, default=0.5)
     p.add_argument("--snap", action="store_true", help="start at the beginning of the camera shot that contains --at")
     p.add_argument("--flip", action="store_true", help="mirror left-right (fixes reversed text, e.g. an embroidery preview)")
+    p.add_argument("--speed", type=float, default=1.0, help="playback speed, e.g. 0.5 = half-speed slow motion (stretches a short close-up)")
     p.add_argument("--blurfit", action="store_true", help="keep the whole wide frame: full width over a blurred fill (story format)")
     p.add_argument("--blurfit-width", dest="blurfit_width", type=float, default=1.0, help="foreground width share for --blurfit")
     p.add_argument("--delogo", help="blur a channel logo: x,y,w,h as fractions of the source frame, e.g. 0.85,0.02,0.13,0.14")

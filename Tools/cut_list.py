@@ -15,8 +15,10 @@ of every shot, numbered, to check framing and that the named person is on screen
      {"clip": "A10", "still": "assets/kopke_9x16.jpg", "len": 1.9, ...},                 # photo, slow push-in
      {"clip": "A13", "page": "assets/note_a.png", "len": 1.9, "width": 0.86, "y": 0.4, "box": "x,y,w,h", ...},
      {"clip": "A16", "stock": 47015, "at": 1.0, "len": 1.6, ...}]}                       # Mixkit id: downloaded to src/ first
-Any broll.py cut option works as a key: x, y, zoom, blurfit, blurfit_width, delogo, flip. "shot_zoom" becomes the shot's push-in
-in shots.json. Every clip lands in clips/<clip>.mp4 and every cut is logged to sources.csv by broll.py.
+Any broll.py cut option works as a key: x, y, zoom, blurfit, blurfit_width, delogo, flip, speed (0.5 = half-speed slow motion,
+to stretch a short close-up). "shot_zoom" becomes the shot's push-in in shots.json. "overlay": a Tools/overlay.py spec (list of
+lines, times relative to the clip) burns words over the clip right after it is cut, so a re-cut keeps them; the clean cut stays
+as clips/<clip>_raw.mp4. Fill every "len" from the anchors with Tools/fill_len.py. Every clip lands in clips/<clip>.mp4 and every cut is logged to sources.csv by broll.py.
 """
 import argparse, json, os, subprocess, sys
 
@@ -68,13 +70,20 @@ def main():
                 msg = run(cmd)
             else:
                 cmd = [py, os.path.join(HERE, "broll.py"), "cut", srcs[s["src"]], "--at", str(s["at"]), "--len", str(s["len"]), "--out", out]
-                for k in ("x", "y", "zoom", "delogo", "blurfit_width"):
+                for k in ("x", "y", "zoom", "delogo", "blurfit_width", "speed"):
                     if k in s:
                         cmd += [f"--{k.replace('_', '-')}", str(s[k])]
                 for k in ("blurfit", "flip"):
                     if s.get(k):
                         cmd.append(f"--{k}")
                 msg = run(cmd)
+            if s.get("overlay"):  # Oct 24 2026: words over footage, re-applied whenever the clip is re-cut (no hand step to forget)
+                spec = os.path.join(F, "clips", f"_{s['clip']}_overlay.json")
+                json.dump(s["overlay"], open(spec, "w", encoding="utf-8"), ensure_ascii=False)
+                raw = out[:-4] + "_raw.mp4"
+                os.replace(out, raw)
+                run([py, os.path.join(HERE, "overlay.py"), "--in", raw, "--out", out, "--spec", spec])
+                msg += f" + words: {' / '.join(x['text'] for x in s['overlay'])}"
             print(f"  {s['clip']}: {msg}")
         shot = {"clip": s["clip"] + ".mp4", "kind": s.get("kind", "action"), "why": s.get("why", "")}
         for k in ("anchor", "lead"):

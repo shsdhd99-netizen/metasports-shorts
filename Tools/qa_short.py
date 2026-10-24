@@ -168,6 +168,13 @@ def main():
             if luma < 40:
                 dark.append((t0, round(luma)))
     chk(not dark, "frame 1 is lit", f"frame 1 is dark (time, brightness 0-255): {dark}; start the first clip later (a fade, wipe or someone passing the camera)")
+    # Oct 24 2026: #66's last boom was still ringing when the video ended (-23 dBFS in the last 50 ms), an audible hard cut; S01's
+    # promo cut left the same. Every other draft ends under -45 dBFS. Trim or fade the effect/music (sfx.json "len" + "fade").
+    raw = subprocess.run(["ffmpeg", "-v", "error", "-sseof", "-0.05", "-i", fin, "-vn", "-ac", "1", "-ar", "48000", "-f", "f32le", "-"],
+                         capture_output=True).stdout
+    end_pk = 20 * np.log10(np.abs(np.frombuffer(raw, np.float32)).max() + 1e-9) if raw else -180.0
+    chk(end_pk <= -35, "sound has died away at the end", f"the sound is cut off at the end ({end_pk:.0f} dBFS in the last 50 ms): "
+        "give the last effect or the music a len and fade in sfx.json / music.json")
     tail = total - words[-1]["end"]
     stem = os.path.splitext(os.path.basename(fin))[0]
     logs = [os.path.join(F, f"_render_{x}.json") for x in (stem, stem.replace("_pointer", ""))] + [os.path.join(F, "_render.json")]

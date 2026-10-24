@@ -7,7 +7,7 @@
 **Title (exactly as written):** Why SGA Ended His Own NBA Record 😳
 **Other titles:** SGA Ended The Longest Streak In NBA History On Purpose 😳 / SGA Asked To Come Out On 17 Points 😳
 **Hashtags (up to 3):** #nba #sga #thunder
-**Tags:** shai gilgeous-alexander, sga, sga streak, sga 20 point streak, sga 141 games, sga streak ends, sga record, wilt chamberlain 126, wilt chamberlain record, michael jordan 72, thunder nuggets, okc vs denver, okc thunder, sga respect, sga asked out, nba records, nba history, nba 2026-27, thunder news, nba shorts, basketball shorts
+**Tags (490 characters by YouTube's count, which adds quotes around multi-word tags):** shai gilgeous-alexander, sga, sga streak, sga streak ends, sga 20 point streak, sga 141 games, sga record, sga streak snapped, sga 17 points, sga respect, sga asked out, shai gilgeous alexander record, longest 20 point streak, nba scoring streak, wilt chamberlain record, wilt chamberlain 126, michael jordan 72, thunder vs nuggets, okc vs denver, okc thunder, oklahoma city thunder, nba record, nba history, nba news, sga highlights, nba shorts, basketball shorts
 **Pinned comment:** 141 straight 20-point games, and he asked to come out on 17. Respect, or should he have kept going?
 
 **Music:** none. **Voice:** Alex.
