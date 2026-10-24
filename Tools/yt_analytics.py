@@ -25,6 +25,17 @@ DAILY (Oct 19, 2026; the owner asked for retention checks every day, automatical
   Runs by itself: on the PC via Tools/daily_analytics.bat in Windows Task Scheduler (pulls, then pushes the CSVs to git), or in
   the cloud when the environment has the secrets YT_CLIENT_ID, YT_CLIENT_SECRET and YT_REFRESH_TOKEN (copied from the PC's
   token file after `auth`; set them in the cloud environment's settings, never in chat or in git).
+  TWO CHANNELS (Oct 24, 2026): one token reads one channel. `--channel fc` (before the command) reads the soccer channel:
+  token ~/.metasports/yt_token_fc.json or the secret YT_REFRESH_TOKEN_FC, files in "Research Notes/Studio exports/api FC/".
+    python Tools/yt_analytics.py --channel fc auth      # sign in with the MetaSports FC channel
+    python Tools/yt_analytics.py --channel fc daily
+  NO PC (Oct 24, 2026; the owner's OAuth client is a "web" client whose redirect is the OAuth Playground):
+    1. https://developers.google.com/oauthplayground -> gear icon -> "Use your own OAuth credentials" -> the client ID and secret.
+    2. "Input your own scopes": https://www.googleapis.com/auth/yt-analytics.readonly https://www.googleapis.com/auth/youtube.readonly
+    3. Authorize APIs -> sign in -> pick the channel (MetaSports, or MetaSports FC) -> "Exchange authorization code for tokens".
+    4. Put the refresh token in the cloud environment's settings: YT_REFRESH_TOKEN (NBA) or YT_REFRESH_TOKEN_FC (soccer), plus
+       YT_CLIENT_ID and YT_CLIENT_SECRET. Repeat 3-4 for the other channel. Publish the consent screen first ("Publish app"),
+       or Google expires the token after 7 days.
 
 What it can't give: Studio's "Stayed to watch (%)" (the swipe-away share) is not in the API. The API's engaged views / views is a
 partial stand-in (r = 0.63 with "stayed" over 20 Shorts in the Oct 14 export; every Short under 0.50 had under 60% stayed), so
@@ -37,6 +48,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 CLIENT = os.path.join(HERE, "client_secret.json")
 TOKEN = os.path.join(os.path.expanduser("~"), ".metasports", "yt_token.json")
+REFRESH_ENV = "YT_REFRESH_TOKEN"  # YT_REFRESH_TOKEN_FC with --channel fc
 SCOPES = "https://www.googleapis.com/auth/yt-analytics.readonly https://www.googleapis.com/auth/youtube.readonly"
 AUTH_URL = "https://accounts.google.com/o/oauth2/v2/auth"
 TOKEN_URL = "https://oauth2.googleapis.com/token"
@@ -101,10 +113,10 @@ def auth():
 
 
 def access_token():
-    refresh = os.environ.get("YT_REFRESH_TOKEN")
+    refresh = os.environ.get(REFRESH_ENV)
     if not refresh:
         if not os.path.exists(TOKEN):
-            sys.exit("No token yet: run  python Tools/yt_analytics.py auth  once on the PC (or set YT_REFRESH_TOKEN in the cloud environment).")
+            sys.exit(f"No token yet: run  python Tools/yt_analytics.py auth  once on the PC (or set {REFRESH_ENV} in the cloud environment).")
         refresh = json.load(open(TOKEN))["refresh_token"]
     cid, csec = client()
     fresh = post(TOKEN_URL, {"client_id": cid, "client_secret": csec, "refresh_token": refresh,
@@ -283,6 +295,7 @@ def report(path_dir=None):
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
+    ap.add_argument("--channel", choices=["nba", "fc"], default="nba", help="nba = MetaSports (default), fc = MetaSports FC")
     sub = ap.add_subparsers(dest="cmd", required=True)
     sub.add_parser("auth")
     d = sub.add_parser("daily")
@@ -294,6 +307,9 @@ def main():
     p.add_argument("--engaged", action="store_true")
     p.add_argument("--out")
     a = ap.parse_args()
+    if a.channel == "fc":  # the soccer channel has its own token and its own files
+        global TOKEN, API_DIR, REFRESH_ENV
+        TOKEN, API_DIR, REFRESH_ENV = TOKEN.replace("yt_token.json", "yt_token_fc.json"), API_DIR + " FC", "YT_REFRESH_TOKEN_FC"
     if a.cmd == "auth":
         auth()
     elif a.cmd == "daily":
