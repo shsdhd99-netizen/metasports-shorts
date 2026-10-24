@@ -1,0 +1,49 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Montserrat Black,86,&H00FFFFFF,&H00FFFFFF,&H00000000,&H99000000,0,0,0,0,95,100,1,0,1,6,3,5,70,70,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:01.29,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx70\fscy70\t(0,90,\fscx82\fscy82)}SHAI GILGEOUS-ALEXANDER
+Dialogue: 0,0:00:01.29,0:00:01.76,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}JUST ENDED
+Dialogue: 0,0:00:01.76,0:00:02.28,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE LONGEST
+Dialogue: 0,0:00:02.28,0:00:02.97,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SCORING STREAK
+Dialogue: 0,0:00:02.97,0:00:04.19,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN NBA HISTORY.
+Dialogue: 0,0:00:04.19,0:00:05.35,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}141.
+Dialogue: 0,0:00:05.35,0:00:06.04,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}STRAIGHT GAMES
+Dialogue: 0,0:00:06.04,0:00:06.48,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WITH 20
+Dialogue: 0,0:00:06.48,0:00:06.96,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}OR MORE.
+Dialogue: 0,0:00:06.96,0:00:07.32,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND HE'S
+Dialogue: 0,0:00:07.32,0:00:07.60,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE ONE
+Dialogue: 0,0:00:07.60,0:00:08.19,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WHO ENDED IT.
+Dialogue: 0,0:00:08.19,0:00:08.88,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WILT CHAMBERLAIN'S
+Dialogue: 0,0:00:08.88,0:00:10.42,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}RECORD WAS 126.
+Dialogue: 0,0:00:10.42,0:00:11.21,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}JORDAN'S BEST
+Dialogue: 0,0:00:11.21,0:00:12.16,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WAS 72.
+Dialogue: 0,0:00:12.16,0:00:12.92,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ON THURSDAY,
+Dialogue: 0,0:00:12.92,0:00:13.52,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SHAI WAS STUCK
+Dialogue: 0,0:00:13.52,0:00:14.27,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ON 17
+Dialogue: 0,0:00:14.27,0:00:14.82,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WITH UNDER TWO
+Dialogue: 0,0:00:14.82,0:00:15.50,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}MINUTES LEFT.
+Dialogue: 0,0:00:15.50,0:00:15.91,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SO WAS HE
+Dialogue: 0,0:00:15.91,0:00:16.70,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}OUT OF TIME?
+Dialogue: 0,0:00:16.70,0:00:17.10,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NO.
+Dialogue: 0,0:00:17.10,0:00:17.70,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}DENVER HAD PULLED
+Dialogue: 0,0:00:17.70,0:00:18.36,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THEIR STARTERS,
+Dialogue: 0,0:00:18.36,0:00:18.85,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SO SHAI
+Dialogue: 0,0:00:18.85,0:00:19.30,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ASKED TO COME
+Dialogue: 0,0:00:19.30,0:00:19.83,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}OUT TOO.
+Dialogue: 0,0:00:19.83,0:00:20.20,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HE SAID,
+Dialogue: 0,0:00:20.20,0:00:20.62,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}YOU ALWAYS
+Dialogue: 0,0:00:20.62,0:00:21.15,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TREAT THE GAME
+Dialogue: 0,0:00:21.15,0:00:21.82,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WITH RESPECT.
+Dialogue: 0,0:00:21.82,0:00:23.09,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}141 GAMES,
+Dialogue: 0,0:00:23.09,0:00:23.62,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND HE ENDED
+Dialogue: 0,0:00:23.62,0:00:24.58,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IT HIMSELF.

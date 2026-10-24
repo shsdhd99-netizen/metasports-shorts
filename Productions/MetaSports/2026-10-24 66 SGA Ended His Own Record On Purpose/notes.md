@@ -1,6 +1,13 @@
-# #66 SGA ended his own record on purpose (SCRIPT ready to voice, Oct 24, 2026)
+# #66 SGA ended his own record on purpose (DRAFT finished Oct 24, 2026)
 
-**Status:** script verified; not voiced; no footage yet. Made in a cloud session that could not reach ElevenLabs, YouTube, nba.com or archive.org: voice, footage, render and QA happen on the PC.
+**Status (Oct 24, cloud):** finished draft, QA PASS, awaiting the owner's approval. Voice: Alex, take 2 of 2 (take 1 garbled "Gilgeous-Alexander"), tightened to 24.6 s. 16 shots, words over footage on 7 (141, 20+ PTS, 126, 72, 17 PTS, 1:43 LEFT, 141). File and upload package: `UPLOAD.md`.
+- **Footage:** all official. Thunder team site on the NBA.com CDN (`Tools/nba_videos.py`): "Highlights: OKC 96, DEN 84" (Oct 23, the game itself), "2 Consistent. 2x MVP" (May 17 2026 reel, the close-ups), "SGA - 10/5" press conference (illustrative for the quote); a Chicago Bulls 1996 clip (Jordan); the 1962 AP Wilt photo (public domain, Wikimedia, 960 px).
+- **Slowed shots** (`src/*_slow.mp4`, made with ffmpeg `setpts`): face 0.42x, two fingers 0.75x, celebration 0.75x, Braun 0.75x, SGA walking 0.70x, Jordan 0.72x. The reel's close-ups last 0.5-1 s between flash transitions, so slowing was the only way to fill a line with a clean close-up.
+- **Overlays:** `_ov/A*.json`, applied by `sh _ov/apply.sh` after `cut_list.py` (keeps the clean cuts as `clips/*_raw.mp4`). Re-cutting with `--force` loses them: run apply.sh again.
+- **Illustrative shots (said in UPLOAD.md):** Braun at a 3rd-quarter timeout for "Denver had pulled their starters" (the 1:43 timeout is not in the highlights); SGA walking at 2:53 for "asked to come out"; the Oct 5 press conference for his quote.
+- **Not found:** a post-game interview or the moment he sat down (the Thunder site has no post-game video for this game).
+
+**Earlier status:** script verified in a cloud session that could not reach ElevenLabs.
 **Timely:** the game was Thu Oct 22, 2026. Post by Sun Oct 25 at the latest, or drop it (Diagnosis rule: news only while fresh).
 
 - **Lane:** THE #42 FORMAT, record variant (a famous record, a paradox, "So was he...? No.", end on the number). Lint: fits on 5 of 6 checks; line 1 is a record line, not a "more than anyone" accusation.

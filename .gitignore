@@ -102,3 +102,8 @@ Soccer Channel/**/final_*.mp4
 # Oct 22 2026: footage contact sheets are rebuilt from src/ with broll.py; keep them out of git
 Soccer Channel/Productions/**/_sheets/
 Productions/**/_pre_tight/*.mp4
+
+# Oct 24 2026: NBA drafts made in the cloud are kept in git too, so the owner can download them; contact sheets stay local
+!Productions/**/DRAFT - awaiting approval*.mp4
+Productions/**/_sheets/
+Productions/**/_check/
