@@ -78,6 +78,25 @@ def main():
     else:
         soft(len(in3) >= 3, f"{len(in3)} shots in first 3 s", f"only {len(in3)} shots in first 3 s (guideline 3; shot length did not separate winners)")
     chk(any(s.get("kind") == "action" for s in in3), "real action footage in first 3 s", "no 'action' footage in the first 3 s (a talking head or card hook gets swiped)")
+    if story:  # Oct 24 2026 (Research Notes/Why S02 and S03 Underperformed): S01 (80% stayed) said its title object again at 19 s;
+        # S03 (65%) only at 46 s, after 11 other names in its first 15 s. Guidelines, not gates (n=3).
+        # The promise words: cuts.json "promise" (the title's object and its synonyms, e.g. ["sheet", "paper", "note", "sock"]),
+        # else the CAPS words of title_caption.txt.
+        tc, cj = os.path.join(F, "title_caption.txt"), os.path.join(F, "cuts.json")
+        caps = json.load(open(cj, encoding="utf-8")).get("promise", []) if os.path.exists(cj) else []
+        cut = None if caps else 4  # a listed word matches as written; a CAPS word by its first 4 letters (DANCED -> danc)
+        if not caps and os.path.exists(tc):
+            caps = re.findall(r"\b[A-Z0-9][A-Z0-9,']{2,}\b", open(tc, encoding="utf-8").read().replace("\\N", " "))
+        t_end = next((i for i, w in enumerate(words) if w["word"].rstrip('"').endswith((".", "?", "!"))), 0)
+        stems = [re.sub(r"[^a-z0-9]", "", c.lower())[:cut] for c in caps]
+        back = [w["start"] for w in words[t_end + 1:] if any(re.sub(r"[^a-z0-9]", "", w["word"].lower()).startswith(s) for s in stems if s)]
+        if stems:
+            soft(back and back[0] <= 25, f"title promise ({' '.join(caps)}) back at {back[0]:.0f} s" if back else "",
+                 f"the title's promise ({' '.join(caps)}) is not said again until {back[0]:.0f} s" if back else
+                 f"the title's promise ({' '.join(caps)}) is never said again: show and say the promised thing by about 20 s")
+        names = {re.sub(r"('s|[^\w])", "", w["word"]).lower() for i, w in enumerate(words) if t_end < i and w["start"] < 15
+                 and re.match(r"[A-Z]", w["word"]) and not words[i - 1]["word"].rstrip('"').endswith((".", "?", "!", ":"))}
+        soft(len(names) <= 10, f"{len(names)} names in the first 15 s", f"{len(names)} different names in the first 15 s ({', '.join(sorted(names))}): one story, few names")
     hook = " ".join(w["word"] for w in words if w["start"] < 3.0)
     chk(bool(re.search(r"\d|[A-Z][a-z]+ [A-Z]|million|billion|percent|first|never|only|banned|illegal|rule|\b(one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen|twenty|thirty|forty|fifty|sixty|seventy|eighty|ninety|hundred)\b", hook, re.I)) , "hook line has a name/number/stakes", f"hook line weak: '{hook}'")
     long_ = [(s["clip"], round(d, 1)) for s, _, _, d in segs if d > (4.5 if s.get("kind") == "quote" else 3.6)]
@@ -136,6 +155,19 @@ def main():
     chk(not frozen, "no frozen footage", f"picture frozen on footage at {frozen} s (dead frame: replace or split the shot)")
     blk = re.findall(r"black_start:([\d.]+) black_end:([\d.]+)", v)
     chk(not blk, "no black frames", f"black frames at {[(round(float(a), 1), round(float(b), 1)) for a, b in blk]} s")
+    # Oct 24 2026: S04's first 0.25 s was a dark blur (someone walking past the camera) and blackdetect missed it. Frame 1 decides
+    # "stayed to watch", so the picture (caption band left out) must be lit at 0.0 and 0.1 s. S04 bad frame: 32; good frames: 90-115.
+    import numpy as np
+    dark = []
+    for t0 in (0.0, 0.1):
+        raw = subprocess.run(["ffmpeg", "-v", "error", "-ss", f"{t0}", "-i", fin, "-frames:v", "1", "-vf", "scale=180:320,format=gray",
+                              "-f", "rawvideo", "-"], capture_output=True).stdout
+        if len(raw) == 180 * 320:
+            g = np.frombuffer(raw, np.uint8).reshape(320, 180)
+            luma = float(np.concatenate([g[:128], g[224:]]).mean())
+            if luma < 40:
+                dark.append((t0, round(luma)))
+    chk(not dark, "frame 1 is lit", f"frame 1 is dark (time, brightness 0-255): {dark}; start the first clip later (a fade, wipe or someone passing the camera)")
     tail = total - words[-1]["end"]
     stem = os.path.splitext(os.path.basename(fin))[0]
     logs = [os.path.join(F, f"_render_{x}.json") for x in (stem, stem.replace("_pointer", ""))] + [os.path.join(F, "_render.json")]

@@ -39,7 +39,7 @@
 - **[S] A fact the source gives as a person's own words beats a summary.** S03's best details (Dudek's book on 100 Milan penalties, Carragher "jumped on my back", Grobbelaar's "spaghetti" line) all came from first-person interviews: the Guardian 2025, liverpoolfc.com and UEFA.com 2009.
 
 ## Oct 23-24, 2026 (first results, fact-check)
-- **[V] S01 30K in 2 days; S02 1.2K, S03 1.4K.** S01: a singular one-person title, a secret object as the hook, 59.5 s. S02/S03: plural list titles, 63 and 71 s. n=3, so this is a lead to test, not a rule [H].
+- **[V] S01 30K in 2 days; S02 1.2K, S03 1.4K.** S01: a singular one-person title, a secret object as the hook, 59.5 s. S02/S03: plural list titles, 63 and 71 s. n=3, so this is a lead to test, not a rule [H]. **Superseded Oct 24 (below): the title shape was not the cause.**
 - **[Rule] Every Short under 60 s.** A Short over 60 s with an active copyright claim is blocked worldwide (YouTube Help, three-minute Shorts). S02/S03 got no claims, but archive broadcasts invite them.
 - **[V] A bookmaker's "in our 130-year history" quote was about the payout size, not the odds** (S07). Read what the superlative measures.
 - **[V] AP's play-by-play is the reliable source for which way a keeper dived** (S05 said left; he went right).
@@ -54,3 +54,12 @@
 - **[V] Mixkit rate-limits (429) after a few searches in a row.** Search early, then reuse ids.
 - **[S] Broadcast replays can carry another network's ticker** (ESPN "program alert" under ABC's 2006 replay). Crop it with `zoom` and `y: 0`, and check the face is still in frame (Z23 needed `x: 0.76`).
 
+
+## Oct 24, 2026 (why S02 and S03 flopped: `Research Notes/Why S02 and S03 Underperformed (Oct 24, 2026).md`)
+- **[V] "Stayed to watch" decided it: S01 80%, S03 65%, S02 56%.** It is settled in the first second or two, so frame 1 and line 1 carry the Short.
+- **[V frames, H cause] Frame 1 must show the promise happening.** S01 opened on the hand going into the sock under "hid a CHEAT SHEET in their sock". S02 opened on Balotelli's face (scan lines, channel logo) under "TROUBLE"; S03 on Dudek's face under "DANCED", with the dance at 54 s.
+- **[V] The promised thing must come back by about 20 s.** S01: 18 s. S03: 54 s, after a 46 s detour through the comeback and 11 names in 15 s (72% average viewed vs S01's 94%). QA now warns on both (cuts.json `"promise"` list).
+- **[H] Category hook words lose.** "Trouble" was never said again. Ahmed's titles with vague words (trouble, drama, crazy, wild): median 200K vs 277K overall (n=34).
+- **[V] The plural title was not the cause.** Ahmed's Goal: "Players who..." median 318K vs singular 217K (500 vs 73 Shorts). Post the spoken line 1 as the title; the "use the singular title" advice is withdrawn.
+- **[V] A dark first frame slips past blackdetect.** S04's first 0.25 s was someone passing the camera (brightness 32 of 255). QA now gates on frame 1 brightness (good frames 70-115); S04 re-cut 0.3 s later and re-rendered.
+- **[H] One soccer Short a day.** S02 went out the same day as S01.

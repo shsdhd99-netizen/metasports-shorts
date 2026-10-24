@@ -1,9 +1,9 @@
 Voice 57.9s -> 40 shots from 40 clips
 Drift not found: using the ffmpeg engine
-  final pass with h264_nvenc failed: [h264_nvenc @ 0x55673de4a4c0] Cannot load libcuda.so.1
-[vost#0:0/h264_nvenc @ 0x55673de4a0c0] Error while opening encoder - maybe incorrect parameters such as bit_rate, rate, width or height.
+  final pass with h264_nvenc failed: [h264_nvenc @ 0x5647ba6f6f00] Cannot load libcuda.so.1
+[vost#0:0/h264_nvenc @ 0x5647ba6f6b40] Error while opening encoder - maybe incorrect parameters such as bit_rate, rate, width or height.
 Error while filtering: Operation not permitted
-[out#0/mp4 @ 0x55673de49300] Nothing was written into output file, because at least one of its streams received no packets.
+[out#0/mp4 @ 0x5647ba6f5dc0] Nothing was written into output file, because at least one of its streams received no packets.
 
   captions burned (ahmed) + 4 sound effect(s), voice lifted +10.9 dB to -14 LUFS, effects mixed under it
 Done: /home/user/metasports-shorts/Soccer Channel/Productions/2026-10-22 S04 Sent Off In Their Last Game/final_nomusic.mp4 (57.9s)

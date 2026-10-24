@@ -63,6 +63,12 @@ Read first (they win over this file when newer):
   kill retention". Viewers swipe the moment the story is over, so the video ends on the payoff.
 - **Pronunciation:** spell scores and numbers for the voice: `{6-1|six-one}`, `{1-1|one-one}`.
 - **Never** end on a question.
+- **The hook (Oct 24, why S02/S03 flopped: `Research Notes/Why S02 and S03 Underperformed (Oct 24, 2026).md`):**
+  - line 1 names an object you can picture or a strong human verb (hid, refused, banned, rejected); never a category word
+    ("trouble", "crazy", "drama"). S02's "trouble" was never said again and kept 56%;
+  - say the promised thing again by about 20 s and keep the story on it (S01: 18 s, 80% stayed; S03: 54 s, 65%);
+  - one story, no more than about 10 names in the first 15 s (S03 had 11);
+  - write the object and its synonyms into cuts.json as `"promise": ["sheet", "paper", "note", "sock"]` so QA can check it.
 - **Title card:** write `<folder>/title_caption.txt`, the title on 1-2 lines (`\N`) with 1-2 CAPS words, e.g. `Goalkeepers who hid a\NCHEAT SHEET in their sock`.
 
 ### 4. Voice (5 min, background)
@@ -97,7 +103,9 @@ How to work:
 
 ### 6. Cut list -> `<folder>/cuts.json`, then `python Tools/cut_list.py --folder "<folder>"`
 - One shot per phrase, 40-50 shots a minute. Each shot gets an `anchor` (the first words of its phrase), a `kind` and a `why`.
-- **First shot:** holds about 2 s under the title card. Best: the named person or the striking object.
+- **First shot:** holds about 2 s under the title card. It must SHOW the promise happening: the object or the act in the
+  title (S01: the hand going into the sock). A face only when the title is about the face. Sharp and lit from the very first
+  frame: no fade, wipe or someone passing the camera (S04's first 0.25 s was dark; QA now fails that), no channel logo, no scan lines.
 - **Name a person, show the person.** Abstract lines get literal stock (a clock for "1 a.m.", euros for "one million euros").
 - **Framing:**
   - wide shots: `"blurfit": true`;
@@ -118,7 +126,8 @@ How to work:
 
 ### 9. Package and hand off
 - **`notes.md`:** lane, concept in 8 words, added value, copy-check, and a table of every line with its source and exact quote. Then the footage list (licence, what each clip is), and illustrative-shot warnings.
-- **`UPLOAD.md`:** title (= line 1); no description; 3 alternative titles; post order; which version.
+- **`UPLOAD.md`:** title (= line 1; plural is fine: on Ahmed's Goal "Players who..." titles beat singular ones, median 318K vs 217K);
+  no description; 3 alternative titles; post order (one soccer Short a day); which version.
 - **The draft files:** copy both renders as `DRAFT - awaiting approval - S<NN> <title> (music).mp4` and `(no music).mp4`.
 - **Update** `Soccer Channel/START HERE.md`, `Lessons Learned.md` and `Idea Bank.md`.
 - **Commit and push** (media is git-ignored except the DRAFT files). Report to the owner in 5-8 short lines. Never post.

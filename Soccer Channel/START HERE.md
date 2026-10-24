@@ -39,16 +39,17 @@ This is the second channel's own space. The NBA channel (MetaSports) keeps its o
 ## State, Oct 24 2026
 | # | Short | Status | Files |
 |---|---|---|---|
-| S01 | Goalkeepers who hid a cheat sheet in their sock (Lehmann, 2006) | **DRAFT, awaiting approval.** 59.5 s (promo cut, pauses tightened Oct 22). QA PASS (full). | `Productions/2026-10-21 S01 Goalkeepers Who Hid A Cheat Sheet/` |
-| S02 | Players who got in trouble the day before a derby (Balotelli, 2011) | **DRAFT, awaiting approval.** 63 s (pauses tightened Oct 22). QA PASS (full). | `Productions/2026-10-21 S02 Trouble The Night Before The Derby/` |
-| S03 | Goalkeepers who danced on the line to win a final (Dudek, Istanbul 2005; Grobbelaar 1984) | **DRAFT, awaiting approval.** 70.7 s. QA PASS (full). | `Productions/2026-10-22 S03 Goalkeepers Who Danced To Win A Final/` |
-| S04 | Players who got sent off in their very last game (Zidane, 2006) | **DRAFT, awaiting approval (Oct 24).** 57.9 s. QA PASS (full), facts all confirmed. In the Hub. | `Productions/2026-10-22 S04 Sent Off In Their Last Game/` |
+| S01 | Goalkeepers who hid a cheat sheet in their sock (Lehmann, 2006) | **Posted Oct 22:** 30.1K views, 80.4% stayed (Studio, Oct 24). | `Productions/2026-10-21 S01 Goalkeepers Who Hid A Cheat Sheet/` |
+| S02 | Players who got in trouble the day before a derby (Balotelli, 2011) | **Posted Oct 22:** 1.3K views, 56.2% stayed. Why: `Research Notes/Why S02 and S03 Underperformed (Oct 24, 2026).md`. | `Productions/2026-10-21 S02 Trouble The Night Before The Derby/` |
+| S03 | Goalkeepers who danced on the line to win a final (Dudek, Istanbul 2005; Grobbelaar 1984) | **Posted Oct 23:** 1.6K views, 64.7% stayed. | `Productions/2026-10-22 S03 Goalkeepers Who Danced To Win A Final/` |
+| S04 | Players who got sent off in their very last game (Zidane, 2006) | **DRAFT, awaiting approval (Oct 24).** 57.9 s. QA PASS (full), facts all confirmed. Oct 24: dark first 0.25 s fixed (re-cut, re-rendered). In the Hub, slotted Tue Oct 27. | `Productions/2026-10-22 S04 Sent Off In Their Last Game/` |
 | S05 | Goalkeepers who hid a cheat sheet on their water bottle (Pickford, 2018-2026) | **DRAFT, awaiting approval (Oct 24).** 59.7 s. QA PASS (full). Fact fixes by cutting (dive direction, who found the bottle, last line). In the Hub, slotted Sun Oct 25. | `Productions/2026-10-22 S05 Cheat Sheet On A Water Bottle/` |
 | S06 | The player who scored 5 goals in 9 minutes (Lewandowski, 2015) | **DRAFT, awaiting approval.** 58.8 s (`DRAFT - UNDER 60s`). In the Hub, slotted Sat Oct 24. | `Productions/2026-10-22 S06 Five Goals In Nine Minutes/` |
 | S07 | The team with worse odds than the Loch Ness monster (Leicester 5000-1) | **DRAFT, awaiting approval (Oct 24).** 55.2 s. QA PASS (full). Fixed by cutting instead of a new recording (see notes.md); the spoken title rests on Ranieri's own account, so UPLOAD.md has safer titles. In the Hub. | `Productions/2026-10-22 S07 Worse Odds Than The Loch Ness Monster/` |
 | S08 | The player who kept the Hand of God shirt (Hodge) | Script and notes only; needs a voice (ElevenLabs key) and footage. | `Productions/2026-10-24 S08 The Player Who Kept The Hand Of God Shirt/` |
 
-- **Post order:** 1 a day at noon ET: S01 Wed Oct 22, S02 Thu, S03 Fri, S04 Sat (to make). See `Content Plan (Oct 22-25).md` in the repo root. No Short teases another any more.
+- **Post order:** 1 a day at noon ET: S06 Sat Oct 24, S05 Sun, S07 Mon, S04 Tue (S04 last: its promise lands at 32 s). Title = the spoken line 1 (plural is fine). No Short teases another any more.
+- **Before making a new one, read** `Research Notes/Why S02 and S03 Underperformed (Oct 24, 2026).md`: frame 1 shows the promise, the promise is back by 20 s, under 60 s.
 - **Each Short has two versions:** with a quiet music bed (what Ahmed does) and without (the NBA channel's default since Oct 14). The owner picks one.
 
 ## Open decisions for the owner

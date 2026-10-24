@@ -404,5 +404,12 @@
    "why": "Recreated note with a 1,000,000 euro price tag",
    "still": "assets/note_f4.jpg"
   }
+ ],
+ "promise": [
+  "sheet",
+  "paper",
+  "note",
+  "sock",
+  "page"
  ]
 }

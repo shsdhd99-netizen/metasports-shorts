@@ -17,7 +17,7 @@
   {
    "clip": "Z01",
    "src": "RF",
-   "at": 66.0,
+   "at": 66.3,
    "x": 0.5,
    "kind": "face",
    "why": "Zidane takes off the captain's armband after his red card. 2006 World Cup final, Italy 1-1 France (5-3 pens), Berlin, 9 July 2006, ABC broadcast 720p (archive.org wc-2006-final-italy-vs-france-abc-720p-60fps-hd; abc logos blurred)",
@@ -414,5 +414,10 @@
    "anchor": "was named the best player",
    "len": 2.38
   }
+ ],
+ "promise": [
+  "sent",
+  "red",
+  "headbutt"
  ]
 }
