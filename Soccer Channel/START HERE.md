@@ -27,7 +27,7 @@ This is the second channel's own space. The NBA channel (MetaSports) keeps its o
 
 | You want... | Open |
 |---|---|
-| **The phone Hub** (drafts to approve, brand kit, ideas) | https://claude.ai/artifact/LFsQtwomdpLAshoz4Xw62H (database: `shorts`, `brand/kit`, `ideas`; page source `Hub/metasportsfc_hub.html`) |
+| **The phone Hub** (drafts to post, results, channel numbers, to-do, brand kit, ideas) | https://claude.ai/artifact/2UVAcbNpKq6j4YXBEF8ge3 (new account, Oct 24; database: `shorts`, `channel/stats`, `todo`, `brand/kit`, `ideas`; page source `Hub/metasportsfc_hub.html`). The old Hub LFsQtwomdpLAshoz4Xw62H is on the old account. |
 | Profile picture, banner, watermark, texts to paste | `Brand/Brand Kit.md` (+ the files in `Brand/`, made by `Brand/make_brand.py`) |
 | The rules for this channel, step by step | `Playbook.md` |
 | Name, handle, bio, upload settings | `Channel Setup.md` |
