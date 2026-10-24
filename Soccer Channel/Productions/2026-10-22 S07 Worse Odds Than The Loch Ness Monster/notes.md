@@ -1,4 +1,16 @@
-# S07 The team with worse odds than the Loch Ness monster (Leicester 5000-1): fact check (Oct 23, 2026)
+# S07 The team with worse odds than the Loch Ness monster (DRAFT, rendered Oct 24, 2026)
+
+> **STATUS (Oct 24, new account, cloud session): FIXED BY CUTS AND RENDERED, 55.2 s (under 60), music and no-music.**
+> No ElevenLabs key on this account, so no re-record: every fix is a cut or a splice from the same take (`Tools/word_edit.py`); the original take is in `_voice_preedit_v1/` (git-ignored, local only).
+> 1. **Line 6 (WRONG): "William Hill gave better odds..." -> "Bookmakers gave better odds on finding Elvis alive, and on finding the Loch Ness monster."** "Bookmakers" spliced from the same take's last line. True for Elvis (AP: "Elvis surfacing in good health was a 2,000-1 shot") and for Nessie on Ranieri's account (FourFourTwo: bookmakers "considered it more likely the Loch Ness Monster would appear"); Paddy Power reportedly 500/1. William Hill alone had them equal (SI, Slate), which is why its name is gone.
+> 2. **Line 8: "Then" and "just" cut** -> "Leicester hired Claudio Ranieri, a manager who had been sacked by Greece." (The "Leicester" after the cut is spliced from 3.27 s of the same take, because "Then Leicester" was run together.)
+> 3. **Lines 19 and 20 cut** (the misattributed "130 years" line and the unsourced "longest-odds win ever, in any sport"). The Short now ends on line 18: **"Around half of those fans had already cashed out."** That is a sourced ironic payoff (47 bets, 24 settled early: Ladbrokes via ESPN/CBS) and keeps it under 60 s.
+> - Joints checked with local speech-to-text: "...pigs might fly on his slip. Leicester hired Claudio Ranieri, a manager who had been sacked by Greece. But Leicester started winning" / "Ladbrokes had taken 47 bets at 5000 to 1. Around half of those fans had already cashed out."
+> - **Still open for the owner (title):** line 1 "worse odds than the Loch Ness monster" rests on Ranieri's own account (FourFourTwo, 2026) and Paddy Power's 500/1; CBC (2016) says bookmakers rated Leicester "as likely as" finding Nessie. The spoken line can't change without a re-voice, so it stays; if you'd rather be safe, use a different YouTube title (UPLOAD.md).
+> - **Footage:** MOTD highlights on archive.org (Leicester v Newcastle May 2015, West Ham v Leicester Aug 2015, Leicester v Man United Nov 2015 incl. BBC's "Vardy's goals in 11 consecutive games" graphic, Chelsea 2-2 Tottenham May 2016 re-filmed off a TV, screen area only), the Sky broadcast of trophy day v Everton (black bars cropped, Sky logo blurred), Mixkit stock for coins, a phone and a misty lake (all marked ILLUSTRATIVE in `sources.csv`), and cards. **B14 is a RECREATION of the slip** (labelled on the picture): no reachable photo of the real one. B08 and B23 are crowd shots (illustrative). B02/B06/B07 are from the 2014-15 escape.
+> - The fact-check table below is the Oct 23 one; its "corrected script for the re-record" is NOT what was used (no re-record possible).
+
+## Fact check (Oct 23, 2026)
 
 > **READ FIRST: 2 WRONG lines and 3 to reword. This voice needs a re-record (the payoff is affected).**
 > 1. **WRONG (line 6): "William Hill gave better odds on finding Elvis alive, and on finding the Loch Ness monster."** William Hill's own price on both was the **same** 5,000-1, not better:

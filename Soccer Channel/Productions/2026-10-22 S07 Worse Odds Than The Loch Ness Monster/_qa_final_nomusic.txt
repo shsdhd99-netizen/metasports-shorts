@@ -1,0 +1,61 @@
+PASS
+  warn length 55.2s (Ahmed's Shorts run 58-88 s; median 70-76 s)
+  warn cards 36% (guideline <=25%)
+  warn two cards in a row at shots [10, 21] (the critic flags back-to-back reading)
+  warn hook has no number or conflict/question word in the first 8 words: 'the team with worse odds than the loch' (state the question the viewer needs answered by 1.5 s)
+  warn footage: shot 1 B01.mp4: blown up 3.6x (952x534, crop zoom 1.0): archive footage, accepted in the story format (Ahmed's Shorts use soft 480p archive); keep faces and action, not wide shots, at this size
+  warn footage: shot 2 B02.mp4: blown up 4.0x (854x480, crop zoom 1.0): archive footage, accepted in the story format (Ahmed's Shorts use soft 480p archive); keep faces and action, not wide shots, at this size
+  warn footage: shot 4 B04.mp4: blown up 4.0x (854x480, crop zoom 1.0): archive footage, accepted in the story format (Ahmed's Shorts use soft 480p archive); keep faces and action, not wide shots, at this size
+  warn footage: shot 6 B06.mp4: blown up 4.0x (854x480, crop zoom 1.0): archive footage, accepted in the story format (Ahmed's Shorts use soft 480p archive); keep faces and action, not wide shots, at this size
+  warn footage: shot 6 B06.mp4: very busy picture (90th-percentile frame change 40.0; top 10% of our clips): fast action, a whip pan or shake; check it reads on a phone
+  warn footage: shot 7 B07.mp4: blown up 4.0x (854x480, crop zoom 1.0): archive footage, accepted in the story format (Ahmed's Shorts use soft 480p archive); keep faces and action, not wide shots, at this size
+  warn footage: shot 7 B07.mp4: very busy picture (90th-percentile frame change 40.0; top 10% of our clips): fast action, a whip pan or shake; check it reads on a phone
+  warn footage: shot 8 B08.mp4: blown up 4.0x (854x480, crop zoom 1.0): archive footage, accepted in the story format (Ahmed's Shorts use soft 480p archive); keep faces and action, not wide shots, at this size
+  warn footage: shot 9 B09.mp4: blown up 4.0x (854x480, crop zoom 1.0): archive footage, accepted in the story format (Ahmed's Shorts use soft 480p archive); keep faces and action, not wide shots, at this size
+  warn footage: shot 12 B12.mp4: blown up 2.67x (1280x720, crop zoom 1.0; house standard is a 1080p source, about 1.8x): note in PACKAGE.md that no better source exists
+  warn footage: shot 15 B15.mp4: blown up 4.0x (854x480, crop zoom 1.0): archive footage, accepted in the story format (Ahmed's Shorts use soft 480p archive); keep faces and action, not wide shots, at this size
+  warn footage: shot 18 B18.mp4: blown up 4.0x (854x480, crop zoom 1.0): archive footage, accepted in the story format (Ahmed's Shorts use soft 480p archive); keep faces and action, not wide shots, at this size
+  warn footage: shot 18 B18.mp4: very busy picture (90th-percentile frame change 40.9; top 10% of our clips): fast action, a whip pan or shake; check it reads on a phone
+  warn footage: shot 19 B19.mp4: blown up 3.6x (952x534, crop zoom 1.0): archive footage, accepted in the story format (Ahmed's Shorts use soft 480p archive); keep faces and action, not wide shots, at this size
+  warn footage: shot 20 B20.mp4: blown up 4.0x (854x480, crop zoom 1.0): archive footage, accepted in the story format (Ahmed's Shorts use soft 480p archive); keep faces and action, not wide shots, at this size
+  warn footage: shot 20 B20.mp4: soft (edge contrast 27 vs this Short's median 113): motion blur or a poor encode
+  warn footage: shot 23 B23.mp4: blown up 4.0x (854x480, crop zoom 1.0): archive footage, accepted in the story format (Ahmed's Shorts use soft 480p archive); keep faces and action, not wide shots, at this size
+  warn footage: shot 25 B25.mp4: blown up 2.67x (1280x720, crop zoom 1.0; house standard is a 1080p source, about 1.8x): note in PACKAGE.md that no better source exists
+  warn footage: shot 27 B27.mp4: blown up 2.67x (1280x720, crop zoom 1.0; house standard is a 1080p source, about 1.8x): note in PACKAGE.md that no better source exists
+  warn footage: shot 30 B30.mp4: blown up 3.6x (952x534, crop zoom 1.0): archive footage, accepted in the story format (Ahmed's Shorts use soft 480p archive); keep faces and action, not wide shots, at this size
+  warn footage: shot 31 B31.mp4: blown up 3.6x (952x534, crop zoom 1.0): archive footage, accepted in the story format (Ahmed's Shorts use soft 480p archive); keep faces and action, not wide shots, at this size
+  warn footage: shot 33 B33.mp4: blown up 2.67x (1280x720, crop zoom 1.0; house standard is a 1080p source, about 1.8x): note in PACKAGE.md that no better source exists
+  warn footage: shot 33 B33.mp4: soft (edge contrast 17 vs this Short's median 113): motion blur or a poor encode
+  warn export: captions on screen under 0.25 s at [35.8] s (too fast to read)
+  warn export: the export says what the script says (99% word match after number folding); 2 difference(s) to listen for (speech-to-text mishears names): heard '(nothing)' vs script 'the'; heard '# to' vs script '(nothing)'
+  ok   every shot has a kind
+  ok   length 55.2s (story format)
+  ok   voice starts at once
+  ok   opens on 'The'
+  ok   2 shots in first 3 s (title card holds)
+  ok   real action footage in first 3 s
+  ok   hook line has a name/number/stakes
+  ok   no shot too long
+  ok   average shot 1.6s
+  ok   most-used clip B32.mp4 6%
+  ok   34 source clips
+  ok   talking head 4%
+  ok   b-roll 60%
+  ok   no repeated neighbours
+  ok   no footage shown twice
+  ok   no dead air inside the speech
+  ok   loudness -14.3 LUFS
+  ok   no frozen footage
+  ok   no black frames
+  ok   quote shots play at normal speed (lip sync)
+  ok   no frozen holds
+  ok   every clip has a source-log row
+  ok   every clip verified against the narration
+  ok   export: captions match script.txt word for word (230 words)
+  ok   export: no overlapping captions
+  ok   export: every spoken word is captioned while it is said
+  ok   export: captions centred at 50%-50% of the height (house band 45-65%)
+  ok   export: widest caption about 808 px (under 820: clear of the right-hand buttons)
+  ok   export: picture and sound both 55.23 s
+  ok   export: voice.mp3: no clipping (peak -2.8 dBFS)
+  ok   export: export audio: no clipping (peak -1.6 dBFS)
