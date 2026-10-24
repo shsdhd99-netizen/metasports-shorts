@@ -63,8 +63,12 @@ def main():
     missing = [s["clip"] for s in shots if "kind" not in s]
     chk(not missing, "every shot has a kind", f"shots missing 'kind': {missing[:3]}")
     if story:  # Ahmed's network: median runtime 70-76 s, range 58-167 s; every video over 1 minute (TikTok rewards) [V]
-        chk(55 <= total <= 120, f"length {total:.1f}s (story format)", f"length {total:.1f}s (story format wants 58-88 s)")
-        soft(58 <= total <= 88, f"length {total:.1f}s in 58-88", f"length {total:.1f}s (Ahmed's Shorts run 58-88 s; median 70-76 s)")
+        # Oct 24 2026 (Research Notes/Shorts Mechanics and Policy): YouTube's US help page still blocks a Short over 1 minute with any
+        # active Content ID claim worldwide (the UK/IN/AU pages say that ended Sep 24 2026). Archive broadcasts invite claims, so
+        # the story format stays under 60 s, with a warning inside the last half second (YouTube shows a 59.5 s file as 1:00).
+        chk(50 <= total <= 59.9, f"length {total:.1f}s (story format, under 1 minute)",
+            f"length {total:.1f}s: the story format must stay under 60 s (a claimed Short over 1 minute is blocked worldwide)")
+        soft(total <= 59.5, f"length {total:.1f}s, clear of the 1-minute line", f"length {total:.1f}s is within 0.5 s of 1 minute: trim if it is cheap")
     else:
         chk(12 <= total <= 60, f"length {total:.1f}s", f"length {total:.1f}s (outside 12-60 s)")
         soft(15 <= total <= 35, f"length {total:.1f}s in 15-35", f"length {total:.1f}s (length follows the story; our old era had no length effect, 10-33 s)")
