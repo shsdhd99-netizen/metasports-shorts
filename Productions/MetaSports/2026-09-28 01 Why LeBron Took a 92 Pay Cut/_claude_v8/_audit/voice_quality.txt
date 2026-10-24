@@ -1,0 +1,1 @@
+_claude_v8                           REDO HNR   8.9 jit 2.71 shim 10.45 jumps/s 0.00 clicks/min 326.2 hf%  4.31 f0 216 dur 23.36  HNR 8.9 dB (noisy/robotic); jitter 2.71% (shaky); shimmer 10.45% (uneven loudness); 326.2 clicks/min

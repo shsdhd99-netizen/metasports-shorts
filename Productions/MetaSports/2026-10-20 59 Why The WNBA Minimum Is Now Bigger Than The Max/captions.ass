@@ -1,0 +1,47 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Montserrat Black,86,&H00FFFFFF,&H00FFFFFF,&H00000000,&H99000000,0,0,0,0,95,100,1,0,1,6,3,5,70,70,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:01.00,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE WNBA'S
+Dialogue: 0,0:00:01.00,0:00:01.82,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}MINIMUM SALARY
+Dialogue: 0,0:00:01.82,0:00:02.60,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IS NOW HIGHER
+Dialogue: 0,0:00:02.60,0:00:03.34,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THAN ITS MAXIMUM
+Dialogue: 0,0:00:03.34,0:00:04.18,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WAS LAST YEAR.
+Dialogue: 0,0:00:04.18,0:00:04.78,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}LAST SEASON,
+Dialogue: 0,0:00:04.78,0:00:05.08,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE MOST
+Dialogue: 0,0:00:05.08,0:00:05.53,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ANY PLAYER
+Dialogue: 0,0:00:05.53,0:00:05.88,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}COULD MAKE
+Dialogue: 0,0:00:05.88,0:00:07.70,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WAS $249,244.
+Dialogue: 0,0:00:07.70,0:00:08.23,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THIS SEASON,
+Dialogue: 0,0:00:08.23,0:00:08.68,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE MINIMUM
+Dialogue: 0,0:00:08.68,0:00:10.13,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IS $270,000.
+Dialogue: 0,0:00:10.13,0:00:10.68,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN MARCH,
+Dialogue: 0,0:00:10.68,0:00:11.06,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE PLAYERS
+Dialogue: 0,0:00:11.06,0:00:11.63,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SIGNED A NEW
+Dialogue: 0,0:00:11.63,0:00:12.37,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SEVEN-YEAR DEAL.
+Dialogue: 0,0:00:12.37,0:00:12.75,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE SALARY
+Dialogue: 0,0:00:12.75,0:00:13.14,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}CAP JUMPED
+Dialogue: 0,0:00:13.14,0:00:14.31,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FROM $1.5 MILLION
+Dialogue: 0,0:00:14.31,0:00:15.11,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TO $7 MILLION.
+Dialogue: 0,0:00:15.11,0:00:15.49,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND FOR THE
+Dialogue: 0,0:00:15.49,0:00:15.87,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FIRST TIME
+Dialogue: 0,0:00:15.87,0:00:16.58,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN THIRTY SEASONS,
+Dialogue: 0,0:00:16.58,0:00:16.92,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}A PLAYER
+Dialogue: 0,0:00:16.92,0:00:17.22,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}CAN MAKE
+Dialogue: 0,0:00:17.22,0:00:17.89,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}OVER A MILLION
+Dialogue: 0,0:00:17.89,0:00:18.68,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}DOLLARS A YEAR.
+Dialogue: 0,0:00:18.68,0:00:19.30,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}A'JA WILSON
+Dialogue: 0,0:00:19.30,0:00:19.92,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}REPORTEDLY SIGNED
+Dialogue: 0,0:00:19.92,0:00:21.06,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FOR $1.4 MILLION.
+Dialogue: 0,0:00:21.06,0:00:21.51,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}LAST YEAR'S
+Dialogue: 0,0:00:21.51,0:00:22.27,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}MAX WOULDN'T EVEN
+Dialogue: 0,0:00:22.27,0:00:23.48,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx85\fscy85\t(0,90,\fscx99\fscy99)}BE THE MINIMUM NOW.

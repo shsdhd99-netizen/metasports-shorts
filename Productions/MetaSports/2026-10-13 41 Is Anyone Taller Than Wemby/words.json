@@ -1,0 +1,442 @@
+[
+ {
+  "word": "This",
+  "start": 0.0,
+  "end": 0.182
+ },
+ {
+  "word": "man",
+  "start": 0.236,
+  "end": 0.355
+ },
+ {
+  "word": "is",
+  "start": 0.408,
+  "end": 0.473
+ },
+ {
+  "word": "listed",
+  "start": 0.516,
+  "end": 0.763
+ },
+ {
+  "word": "taller",
+  "start": 0.795,
+  "end": 1.021
+ },
+ {
+  "word": "than",
+  "start": 1.064,
+  "end": 1.161
+ },
+ {
+  "word": "Victor",
+  "start": 1.215,
+  "end": 1.451
+ },
+ {
+  "word": "Wembanyama.",
+  "start": 1.505,
+  "end": 2.355
+ },
+ {
+  "word": "And",
+  "start": 2.376,
+  "end": 2.494
+ },
+ {
+  "word": "he's",
+  "start": 2.548,
+  "end": 2.698
+ },
+ {
+  "word": "never",
+  "start": 2.752,
+  "end": 2.945
+ },
+ {
+  "word": "played",
+  "start": 2.999,
+  "end": 3.193
+ },
+ {
+  "word": "an",
+  "start": 3.214,
+  "end": 3.257
+ },
+ {
+  "word": "NBA",
+  "start": 3.29,
+  "end": 3.569
+ },
+ {
+  "word": "game",
+  "start": 3.601,
+  "end": 3.773
+ },
+ {
+  "word": "that",
+  "start": 3.794,
+  "end": 3.892
+ },
+ {
+  "word": "counts.",
+  "start": 3.945,
+  "end": 4.365
+ },
+ {
+  "word": "Jamarion",
+  "start": 4.407,
+  "end": 4.816
+ },
+ {
+  "word": "Sharp.",
+  "start": 4.869,
+  "end": 5.181
+ },
+ {
+  "word": "Listed",
+  "start": 5.214,
+  "end": 5.494
+ },
+ {
+  "word": "seven-foot-five.",
+  "start": 5.536,
+  "end": 6.31
+ },
+ {
+  "word": "Dallas",
+  "start": 6.353,
+  "end": 6.632
+ },
+ {
+  "word": "brought",
+  "start": 6.676,
+  "end": 6.869
+ },
+ {
+  "word": "him",
+  "start": 6.891,
+  "end": 6.956
+ },
+ {
+  "word": "to",
+  "start": 6.987,
+  "end": 7.031
+ },
+ {
+  "word": "camp",
+  "start": 7.073,
+  "end": 7.245
+ },
+ {
+  "word": "twice.",
+  "start": 7.289,
+  "end": 7.665
+ },
+ {
+  "word": "Cut",
+  "start": 7.719,
+  "end": 7.88
+ },
+ {
+  "word": "him",
+  "start": 7.912,
+  "end": 7.987
+ },
+ {
+  "word": "twice.",
+  "start": 8.031,
+  "end": 8.406
+ },
+ {
+  "word": "The",
+  "start": 8.439,
+  "end": 8.535
+ },
+ {
+  "word": "Clippers",
+  "start": 8.589,
+  "end": 8.89
+ },
+ {
+  "word": "signed",
+  "start": 8.912,
+  "end": 9.116
+ },
+ {
+  "word": "him",
+  "start": 9.137,
+  "end": 9.213
+ },
+ {
+  "word": "this",
+  "start": 9.256,
+  "end": 9.385
+ },
+ {
+  "word": "summer.",
+  "start": 9.428,
+  "end": 9.761
+ },
+ {
+  "word": "Cut",
+  "start": 9.794,
+  "end": 9.944
+ },
+ {
+  "word": "him",
+  "start": 9.976,
+  "end": 10.041
+ },
+ {
+  "word": "in",
+  "start": 10.073,
+  "end": 10.116
+ },
+ {
+  "word": "September.",
+  "start": 10.159,
+  "end": 10.675
+ },
+ {
+  "word": "On",
+  "start": 10.707,
+  "end": 10.857
+ },
+ {
+  "word": "Monday,",
+  "start": 10.911,
+  "end": 11.191
+ },
+ {
+  "word": "Toronto",
+  "start": 11.223,
+  "end": 11.535
+ },
+ {
+  "word": "gave",
+  "start": 11.589,
+  "end": 11.729
+ },
+ {
+  "word": "him",
+  "start": 11.75,
+  "end": 11.825
+ },
+ {
+  "word": "one",
+  "start": 11.879,
+  "end": 11.986
+ },
+ {
+  "word": "more",
+  "start": 12.019,
+  "end": 12.147
+ },
+ {
+  "word": "camp.",
+  "start": 12.191,
+  "end": 12.492
+ },
+ {
+  "word": "And",
+  "start": 12.513,
+  "end": 12.653
+ },
+ {
+  "word": "it's",
+  "start": 12.706,
+  "end": 12.825
+ },
+ {
+  "word": "not",
+  "start": 12.879,
+  "end": 12.997
+ },
+ {
+  "word": "his",
+  "start": 13.029,
+  "end": 13.105
+ },
+ {
+  "word": "defense.",
+  "start": 13.147,
+  "end": 13.578
+ },
+ {
+  "word": "He",
+  "start": 13.609,
+  "end": 13.706
+ },
+ {
+  "word": "led",
+  "start": 13.76,
+  "end": 13.889
+ },
+ {
+  "word": "the",
+  "start": 13.921,
+  "end": 13.986
+ },
+ {
+  "word": "G",
+  "start": 14.029,
+  "end": 14.082
+ },
+ {
+  "word": "League",
+  "start": 14.18,
+  "end": 14.362
+ },
+ {
+  "word": "in",
+  "start": 14.383,
+  "end": 14.427
+ },
+ {
+  "word": "blocks",
+  "start": 14.469,
+  "end": 14.749
+ },
+ {
+  "word": "and",
+  "start": 14.781,
+  "end": 14.846
+ },
+ {
+  "word": "won",
+  "start": 14.878,
+  "end": 14.985
+ },
+ {
+  "word": "Defensive",
+  "start": 15.039,
+  "end": 15.426
+ },
+ {
+  "word": "Player",
+  "start": 15.448,
+  "end": 15.663
+ },
+ {
+  "word": "of",
+  "start": 15.706,
+  "end": 15.749
+ },
+ {
+  "word": "the",
+  "start": 15.781,
+  "end": 15.845
+ },
+ {
+  "word": "Year.",
+  "start": 15.899,
+  "end": 16.19
+ },
+ {
+  "word": "The",
+  "start": 16.222,
+  "end": 16.319
+ },
+ {
+  "word": "knock",
+  "start": 16.372,
+  "end": 16.556
+ },
+ {
+  "word": "on",
+  "start": 16.609,
+  "end": 16.673
+ },
+ {
+  "word": "him",
+  "start": 16.706,
+  "end": 16.781
+ },
+ {
+  "word": "is",
+  "start": 16.824,
+  "end": 16.888
+ },
+ {
+  "word": "offense.",
+  "start": 16.942,
+  "end": 17.405
+ },
+ {
+  "word": "Three-point",
+  "start": 17.458,
+  "end": 17.899
+ },
+ {
+  "word": "tries",
+  "start": 17.931,
+  "end": 18.146
+ },
+ {
+  "word": "last",
+  "start": 18.2,
+  "end": 18.35
+ },
+ {
+  "word": "season:",
+  "start": 18.382,
+  "end": 18.769
+ },
+ {
+  "word": "Wembanyama,",
+  "start": 18.823,
+  "end": 19.747
+ },
+ {
+  "word": "three",
+  "start": 19.791,
+  "end": 19.984
+ },
+ {
+  "word": "hundred",
+  "start": 20.016,
+  "end": 20.231
+ },
+ {
+  "word": "and",
+  "start": 20.253,
+  "end": 20.317
+ },
+ {
+  "word": "fifty.",
+  "start": 20.36,
+  "end": 20.736
+ },
+ {
+  "word": "Sharp,",
+  "start": 20.801,
+  "end": 21.091
+ },
+ {
+  "word": "in",
+  "start": 21.113,
+  "end": 21.177
+ },
+ {
+  "word": "the",
+  "start": 21.209,
+  "end": 21.274
+ },
+ {
+  "word": "G",
+  "start": 21.317,
+  "end": 21.37
+ },
+ {
+  "word": "League:",
+  "start": 21.478,
+  "end": 21.779
+ },
+ {
+  "word": "zero.",
+  "start": 21.876,
+  "end": 22.445
+ }
+]

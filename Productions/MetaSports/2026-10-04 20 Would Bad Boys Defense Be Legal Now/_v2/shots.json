@@ -1,0 +1,125 @@
+[
+ {
+  "clip": "14_bump.mp4",
+  "kind": "action",
+  "zoom": 0.12,
+  "in": 0.4,
+  "why": "arm across a ball handler, the contact the rule is about",
+  "start": 0.0
+ },
+ {
+  "clip": "04_bucket.mp4",
+  "anchor": "That's all",
+  "kind": "action",
+  "why": "Pistons half-court",
+  "start": 1.06
+ },
+ {
+  "clip": "05_wall.mp4",
+  "anchor": "allowed",
+  "kind": "action",
+  "why": "bodies on the floor, Pistons era",
+  "start": 2.07
+ },
+ {
+  "clip": "09_hit.mp4",
+  "anchor": "the 1989",
+  "kind": "action",
+  "why": "contact under the basket",
+  "start": 3.56
+ },
+ {
+  "clip": "02_scrum.mp4",
+  "anchor": "The league",
+  "kind": "action",
+  "why": "Pistons scrum",
+  "start": 4.79
+ },
+ {
+  "clip": "06_laim.mp4",
+  "anchor": "Laimbeer",
+  "kind": "action",
+  "why": "Bill Laimbeer, Pistons 40",
+  "start": 6.46
+ },
+ {
+  "clip": "16_rodback.mp4",
+  "anchor": "Rodman",
+  "kind": "action",
+  "why": "Rodman 10, name on the jersey",
+  "start": 6.9
+ },
+ {
+  "clip": "08_isiah.mp4",
+  "anchor": "Isiah",
+  "kind": "action",
+  "why": "Thomas 11",
+  "start": 7.33
+ },
+ {
+  "clip": "07_rod.mp4",
+  "anchor": "A defense",
+  "kind": "action",
+  "why": "Rodman in a Pistons game",
+  "start": 8.22
+ },
+ {
+  "clip": "13_grab.mp4",
+  "anchor": "Last year's",
+  "kind": "action",
+  "why": "modern playoff basketball",
+  "start": 9.41
+ },
+ {
+  "clip": "11_post.mp4",
+  "anchor": "But the",
+  "kind": "action",
+  "why": "referee video, contact",
+  "start": 11.56
+ },
+ {
+  "clip": "12_floor.mp4",
+  "anchor": "points of",
+  "kind": "action",
+  "why": "defender and a player on the floor",
+  "start": 13.97
+ },
+ {
+  "clip": "10_now.mp4",
+  "anchor": "Freedom of",
+  "kind": "action",
+  "why": "on-screen chyron Perimeter and Post",
+  "start": 15.25
+ },
+ {
+  "clip": "14_bump.mp4",
+  "anchor": "One write-up",
+  "kind": "action",
+  "why": "arm across a ball handler",
+  "start": 17.92
+ },
+ {
+  "clip": "15_fall.mp4",
+  "anchor": "bump a",
+  "kind": "action",
+  "why": "player knocked off a drive",
+  "start": 19.95
+ },
+ {
+  "clip": "11_post.mp4",
+  "anchor": "It also",
+  "in": 0.4,
+  "kind": "action",
+  "why": "same example, later in the clip",
+  "start": 21.61
+ },
+ {
+  "clip": "14_bump.mp4",
+  "anchor": "So was",
+  "kind": "action",
+  "zoom": 0.1,
+  "in": 0.4,
+  "why": "loop, same arm-bar as the open",
+  "start": 23.94
+ }
+]

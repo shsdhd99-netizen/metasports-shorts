@@ -1,0 +1,39 @@
+{
+ "verdict": "CHECK",
+ "wpm": 242,
+ "issues": [],
+ "notes": [
+  " 0.16s  \"flagg's\" heard as \"flag's\" (close; check the name)",
+  " 6.20s  \"macao\" heard as \"macau\" (close; check the name)",
+  "10.48s  \"mavericks\" heard as \"maverick's\" (close; check the name)",
+  "16.08s  \"flagg\" heard as \"flag\" (close; check the name)",
+  "18.43s  dragging sentence (161 wpm): \"But yeah, they definitely try.\""
+ ],
+ "heard": "Cooper Flag's teammates still make him carry the bags. His rookie card just sold for $8 million. He's the reigning rookie of the year. In Macau this month, fans packed the railings just to get his autograph. And on that same trip, a few Maverick's veterans had him carrying bags. Why? Technically, he's still a rookie until he plays the first game of his second season. Flag says he can sometimes sneak by without them remembering. But yeah, they definitely try.",
+ "mismatches": [
+  {
+   "at": 0.16,
+   "script": "flagg's",
+   "heard": "flag's",
+   "similar": 0.92
+  },
+  {
+   "at": 6.2,
+   "script": "macao",
+   "heard": "macau",
+   "similar": 0.8
+  },
+  {
+   "at": 10.48,
+   "script": "mavericks",
+   "heard": "maverick's",
+   "similar": 0.95
+  },
+  {
+   "at": 16.08,
+   "script": "flagg",
+   "heard": "flag",
+   "similar": 0.89
+  }
+ ]
+}

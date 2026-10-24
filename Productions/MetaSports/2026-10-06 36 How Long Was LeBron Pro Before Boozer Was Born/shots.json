@@ -1,0 +1,122 @@
+[
+ {
+  "clip": "a1.mp4",
+  "start": 0.0,
+  "anchor": "LeBron played",
+  "kind": "action",
+  "why": "LeBron played",
+  "zoom": 0.1
+ },
+ {
+  "clip": "b1.mp4",
+  "start": 0.94,
+  "anchor": "before this",
+  "kind": "action",
+  "why": "before this"
+ },
+ {
+  "clip": "d1.mp4",
+  "start": 1.92,
+  "anchor": "Cameron Boozer,",
+  "kind": "action",
+  "why": "Cameron Boozer,"
+ },
+ {
+  "clip": "b2.mp4",
+  "start": 2.51,
+  "anchor": "the Grizzlies'",
+  "kind": "action",
+  "why": "the Grizzlies'"
+ },
+ {
+  "clip": "c_born.mp4",
+  "start": 4.22,
+  "anchor": "July eighteenth,",
+  "kind": "action",
+  "why": "July eighteenth,"
+ },
+ {
+  "clip": "a1b.mp4",
+  "start": 5.71,
+  "anchor": "LeBron's Finals",
+  "kind": "action",
+  "why": "LeBron's Finals"
+ },
+ {
+  "clip": "c_34.mp4",
+  "start": 6.61,
+  "anchor": "June fourteenth,",
+  "kind": "action",
+  "why": "thirty-four days"
+ },
+ {
+  "clip": "k1.mp4",
+  "start": 8.13,
+  "anchor": "He had debuted",
+  "kind": "action",
+  "why": "He had debuted"
+ },
+ {
+  "clip": "c_gap.mp4",
+  "start": 9.43,
+  "anchor": "three years and",
+  "kind": "action",
+  "why": "three years and"
+ },
+ {
+  "clip": "b4.mp4",
+  "start": 11.03,
+  "anchor": "Now Cameron",
+  "kind": "action",
+  "why": "Now Cameron"
+ },
+ {
+  "clip": "c_ten.mp4",
+  "start": 12.4,
+  "anchor": "one of only",
+  "kind": "action",
+  "why": "one of only"
+ },
+ {
+  "clip": "c_24.mp4",
+  "start": 13.87,
+  "anchor": "and LeBron, in",
+  "kind": "action",
+  "why": "and LeBron, in"
+ },
+ {
+  "clip": "k3.mp4",
+  "start": 15.56,
+  "anchor": "But the strangest",
+  "kind": "action",
+  "why": "But the strangest"
+ },
+ {
+  "clip": "d2.mp4",
+  "start": 17.27,
+  "anchor": "Carlos Boozer,",
+  "kind": "action",
+  "why": "Carlos Boozer,"
+ },
+ {
+  "clip": "c_75.mp4",
+  "start": 18.37,
+  "anchor": "started seventy-five",
+  "kind": "action",
+  "why": "started seventy-five"
+ },
+ {
+  "clip": "d4.mp4",
+  "start": 20.23,
+  "anchor": "Now that teammate's",
+  "kind": "action",
+  "why": "Now that teammate's"
+ },
+ {
+  "clip": "a1.mp4",
+  "start": 20.97,
+  "anchor": "is the rookie.",
+  "kind": "action",
+  "why": "loop to the hook"
+ }
+]

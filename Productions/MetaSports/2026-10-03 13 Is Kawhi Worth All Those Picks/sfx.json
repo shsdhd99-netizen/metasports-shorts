@@ -1,0 +1,23 @@
+[
+ {
+  "sfx": "boom",
+  "at": 0.0,
+  "gain": -14,
+  "len": 1.0,
+  "why": "hook"
+ },
+ {
+  "sfx": "whoosh",
+  "at": 11.5,
+  "gain": -15,
+  "len": 0.9,
+  "why": "jump to the $115M card"
+ },
+ {
+  "sfx": "cha_ching",
+  "at": 12.0,
+  "gain": -16,
+  "len": 1.2,
+  "why": "the extension number"
+ }
+]

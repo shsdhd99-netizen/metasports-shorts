@@ -1,0 +1,68 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Montserrat Black,86,&H00FFFFFF,&H00FFFFFF,&H00000000,&H99000000,0,0,0,0,95,100,1,0,1,6,3,5,70,70,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:01.46,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}$87 MILLION
+Dialogue: 0,0:00:01.46,0:00:01.81,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THAT'S WHAT
+Dialogue: 0,0:00:01.81,0:00:02.31,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}JALEN DUREN
+Dialogue: 0,0:00:02.31,0:00:02.63,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}JUST LEFT
+Dialogue: 0,0:00:02.63,0:00:03.12,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ON THE TABLE,
+Dialogue: 0,0:00:03.12,0:00:03.46,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND THERE'S
+Dialogue: 0,0:00:03.46,0:00:03.86,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ONE NUMBER
+Dialogue: 0,0:00:03.86,0:00:04.34,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN THIS STORY
+Dialogue: 0,0:00:04.34,0:00:04.63,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NOBODY'S
+Dialogue: 0,0:00:04.63,0:00:05.28,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TALKING ABOUT.
+Dialogue: 0,0:00:05.28,0:00:06.02,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}DETROIT OFFERED
+Dialogue: 0,0:00:06.02,0:00:06.50,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FIVE YEARS
+Dialogue: 0,0:00:06.50,0:00:07.78,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND $200 MILLION,
+Dialogue: 0,0:00:07.78,0:00:08.69,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FULLY GUARANTEED.
+Dialogue: 0,0:00:08.69,0:00:09.30,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}DUREN WANTED
+Dialogue: 0,0:00:09.30,0:00:09.78,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE MAX,
+Dialogue: 0,0:00:09.78,0:00:10.99,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}$287 MILLION.
+Dialogue: 0,0:00:10.99,0:00:11.54,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SO HE SKIPPED
+Dialogue: 0,0:00:11.54,0:00:12.03,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}MEDIA DAY
+Dialogue: 0,0:00:12.03,0:00:12.49,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND THE START
+Dialogue: 0,0:00:12.49,0:00:12.91,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}OF CAMP.
+Dialogue: 0,0:00:12.91,0:00:13.56,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THEN A REPORTED
+Dialogue: 0,0:00:13.56,0:00:14.00,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WEIGHT CLAUSE
+Dialogue: 0,0:00:14.00,0:00:14.71,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HIT THE TALKS.
+Dialogue: 0,0:00:14.71,0:00:15.17,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IT WAS NEVER
+Dialogue: 0,0:00:15.17,0:00:15.79,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}PUT IN WRITING,
+Dialogue: 0,0:00:15.79,0:00:16.04,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND IT
+Dialogue: 0,0:00:16.04,0:00:16.65,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WAS REMOVED.
+Dialogue: 0,0:00:16.65,0:00:17.34,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BUT DETROIT STILL
+Dialogue: 0,0:00:17.34,0:00:18.05,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WOULDN'T BUDGE,
+Dialogue: 0,0:00:18.05,0:00:18.75,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}REPORTEDLY BECAUSE
+Dialogue: 0,0:00:18.75,0:00:19.22,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}OF HIS QUIET
+Dialogue: 0,0:00:19.22,0:00:19.81,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}PLAYOFFS AS THE
+Dialogue: 0,0:00:19.81,0:00:20.53,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NUMBER ONE SEED.
+Dialogue: 0,0:00:20.53,0:00:21.02,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE DEADLINE
+Dialogue: 0,0:00:21.02,0:00:21.56,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WAS MIDNIGHT.
+Dialogue: 0,0:00:21.56,0:00:21.74,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NOW,
+Dialogue: 0,0:00:21.74,0:00:22.42,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE NUMBER NOBODY'S
+Dialogue: 0,0:00:22.42,0:00:23.02,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TALKING ABOUT:
+Dialogue: 0,0:00:23.02,0:00:23.40,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HIS OTHER
+Dialogue: 0,0:00:23.40,0:00:23.82,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}OPTION WAS
+Dialogue: 0,0:00:23.82,0:00:25.10,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}A $9.6 MILLION
+Dialogue: 0,0:00:25.10,0:00:25.91,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}QUALIFYING OFFER,
+Dialogue: 0,0:00:25.91,0:00:26.57,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FOR ONE YEAR.
+Dialogue: 0,0:00:26.57,0:00:27.05,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}INSTEAD,
+Dialogue: 0,0:00:27.05,0:00:27.42,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HE SIGNED
+Dialogue: 0,0:00:27.42,0:00:27.86,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE TWO HUNDRED
+Dialogue: 0,0:00:27.86,0:00:28.22,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}MILLION,
+Dialogue: 0,0:00:28.22,0:00:28.72,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}GUARANTEED,
+Dialogue: 0,0:00:28.72,0:00:29.40,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AT TWENTY-TWO.
+Dialogue: 0,0:00:29.40,0:00:29.94,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SO DID DUREN
+Dialogue: 0,0:00:29.94,0:00:30.57,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}LOSE EIGHTY-SEVEN
+Dialogue: 0,0:00:30.57,0:00:30.93,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}MILLION,
+Dialogue: 0,0:00:30.93,0:00:31.38,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}OR JUST WIN
+Dialogue: 0,0:00:31.38,0:00:32.21,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}A HUNDRED NINETY?

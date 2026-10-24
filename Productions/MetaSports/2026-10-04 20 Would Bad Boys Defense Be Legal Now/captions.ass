@@ -1,0 +1,54 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Montserrat Black,86,&H00FFFFFF,&H00FFFFFF,&H00000000,&H99000000,0,0,0,0,95,100,1,0,1,6,3,5,70,70,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.47,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NINETY-TWO
+Dialogue: 0,0:00:00.47,0:00:01.07,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}POINT NINE.
+Dialogue: 0,0:00:01.07,0:00:01.45,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THAT IS WHAT
+Dialogue: 0,0:00:01.45,0:00:02.27,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE BAD BOY PISTONS
+Dialogue: 0,0:00:02.27,0:00:02.86,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ALLOWED PER GAME
+Dialogue: 0,0:00:02.86,0:00:03.70,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN THE 1989
+Dialogue: 0,0:00:03.70,0:00:04.22,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}PLAYOFFS.
+Dialogue: 0,0:00:04.22,0:00:04.88,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NOBODY DEFENDS
+Dialogue: 0,0:00:04.88,0:00:05.69,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}LIKE THAT ANYMORE,
+Dialogue: 0,0:00:05.69,0:00:06.07,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}RIGHT?
+Dialogue: 0,0:00:06.07,0:00:06.61,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}LAST SEASON'S
+Dialogue: 0,0:00:06.61,0:00:07.16,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}CHAMPION KNICKS
+Dialogue: 0,0:00:07.16,0:00:07.71,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ALLOWED A HUNDRED
+Dialogue: 0,0:00:07.71,0:00:08.15,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND ONE.
+Dialogue: 0,0:00:08.15,0:00:08.77,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NOW THE NBA
+Dialogue: 0,0:00:08.77,0:00:09.14,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}JUST TOLD
+Dialogue: 0,0:00:09.14,0:00:09.63,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}REFS TO CALL
+Dialogue: 0,0:00:09.63,0:00:10.27,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}GRABBING A CUTTER
+Dialogue: 0,0:00:10.27,0:00:10.66,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND BUMPING
+Dialogue: 0,0:00:10.66,0:00:11.40,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}A DRIBBLER.
+Dialogue: 0,0:00:11.40,0:00:12.36,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HE MAKES CONTACT
+Dialogue: 0,0:00:12.36,0:00:13.32,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THAT IS CLEARLY
+Dialogue: 0,0:00:13.32,0:00:14.40,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}MORE THAN MARGINAL.
+Dialogue: 0,0:00:14.40,0:00:14.94,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BUT DETROIT
+Dialogue: 0,0:00:14.94,0:00:15.62,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}PLAYED EIGHTY-NINE
+Dialogue: 0,0:00:15.62,0:00:16.52,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}POSSESSIONS A GAME.
+Dialogue: 0,0:00:16.52,0:00:16.94,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE KNICKS,
+Dialogue: 0,0:00:16.94,0:00:17.61,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NINETY-SIX.
+Dialogue: 0,0:00:17.61,0:00:18.05,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}PER HUNDRED
+Dialogue: 0,0:00:18.05,0:00:18.53,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}POSSESSIONS,
+Dialogue: 0,0:00:18.53,0:00:19.13,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}DETROIT ALLOWED
+Dialogue: 0,0:00:19.13,0:00:20.11,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ONE-OH-FOUR-POINT-FIVE.
+Dialogue: 0,0:00:20.11,0:00:20.51,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE KNICKS,
+Dialogue: 0,0:00:20.51,0:00:21.51,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ONE-OH-FOUR-POINT-NINE.
+Dialogue: 0,0:00:21.51,0:00:21.99,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BEST DEFENSE
+Dialogue: 0,0:00:21.99,0:00:22.80,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}OF 1989,
+Dialogue: 0,0:00:22.80,0:00:23.28,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BEST DEFENSE
+Dialogue: 0,0:00:23.28,0:00:24.24,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}OF 2026.
+Dialogue: 0,0:00:24.24,0:00:24.70,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FOUR TENTHS
+Dialogue: 0,0:00:24.70,0:00:25.04,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}OF A POINT
+Dialogue: 0,0:00:25.04,0:00:25.73,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}APART.

@@ -1,0 +1,16 @@
+[
+  {"clip": "01_hart.mp4", "start": 0.00, "in": 0.35, "kind": "face", "zoom": 0.12},
+  {"clip": "06_snl.mp4", "start": 1.00, "in": 0.40, "kind": "action"},
+  {"clip": "03_reb.mp4", "start": 1.95, "in": 0.20, "kind": "action"},
+  {"clip": "13_snl2.mp4", "start": 3.85, "in": 0.20, "kind": "action"},
+  {"clip": "06_snl.mp4", "start": 5.70, "in": 2.50, "kind": "action"},
+  {"clip": "04_trophy.mp4", "start": 7.50, "in": 0.20, "kind": "action"},
+  {"clip": "02_sny.mp4", "start": 9.25, "in": 0.25, "kind": "face"},
+  {"clip": "01_hart.mp4", "start": 11.05, "in": 1.90, "kind": "face"},
+  {"clip": "02_sny.mp4", "start": 12.75, "in": 2.30, "kind": "face"},
+  {"clip": "05_parade.mp4", "start": 14.40, "in": 0.20, "kind": "action"},
+  {"clip": "03_reb.mp4", "start": 16.20, "in": 3.80, "kind": "action"},
+  {"clip": "04_trophy.mp4", "start": 18.00, "in": 1.50, "kind": "action"},
+  {"clip": "05_parade.mp4", "start": 19.85, "in": 1.80, "kind": "action"},
+  {"clip": "01_hart.mp4", "start": 21.55, "in": 0.35, "kind": "face", "zoom": 0.12}
+]

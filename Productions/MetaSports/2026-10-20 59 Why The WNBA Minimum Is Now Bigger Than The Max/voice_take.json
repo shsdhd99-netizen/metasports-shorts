@@ -1,0 +1,15 @@
+[
+ {
+  "take": 1,
+  "ok": true,
+  "score": 5.6,
+  "verdict": "CHECK",
+  "issues": [],
+  "wpm": 202,
+  "hnr": 9.0,
+  "jitter": 2.66,
+  "shimmer": 10.36,
+  "dur": 23.75,
+  "pitch_sd": 5.21
+ }
+]

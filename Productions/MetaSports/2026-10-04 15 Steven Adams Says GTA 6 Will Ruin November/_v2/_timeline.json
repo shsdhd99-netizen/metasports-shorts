@@ -1,0 +1,50 @@
+[
+ {
+  "i": 0,
+  "kind": "vo",
+  "start": 0.0,
+  "end": 12.228,
+  "src": "_n1",
+  "src_from": null
+ },
+ {
+  "i": 1,
+  "kind": "quote",
+  "start": 12.348,
+  "end": 13.788,
+  "src": "src/2102445967865749902.mp4",
+  "src_from": 13.26
+ },
+ {
+  "i": 2,
+  "kind": "quote",
+  "start": 13.908,
+  "end": 15.118,
+  "src": "src/2102445967865749902.mp4",
+  "src_from": 15.64
+ },
+ {
+  "i": 3,
+  "kind": "vo",
+  "start": 15.238,
+  "end": 17.241,
+  "src": "_n2",
+  "src_from": null
+ },
+ {
+  "i": 4,
+  "kind": "quote",
+  "start": 17.361,
+  "end": 19.591,
+  "src": "src/2102445967865749902.mp4",
+  "src_from": 25.72
+ },
+ {
+  "i": 5,
+  "kind": "vo",
+  "start": 19.711,
+  "end": 21.941,
+  "src": "_n3",
+  "src_from": null
+ }
+]

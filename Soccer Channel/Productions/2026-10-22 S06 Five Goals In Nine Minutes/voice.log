@@ -1,0 +1,5 @@
+voice profile: Alex - Upbeat, Energetic and Clear (ElevenLabs Voice Library) (gate: HNR >= 7.0, jitter <= 3.4, shimmer <= 12.5)
+take 1: Done: voice.mp3 (63.0s, sped up x1.00) + captions.srt + words.json in /home/user/metasports-shorts/Soccer Channel/Productions/2026-10-22 S06 Five Goals In Nine Minutes/take1_vwb4crv6
+  take 1: PASS  check=CHECK HNR 8.4 jitter 2.87 shimmer 11.19 63.27s  []
+USED take score 4.7 (passes the voice gate)
+2026-10-22 S06 Five Goals In Nine Minutes: 63.32s -> 62.46s (0.53s of pauses removed, tail 0.25s). Originals in _voice_pretighten/. Re-run cut_list.py, then assemble.py.

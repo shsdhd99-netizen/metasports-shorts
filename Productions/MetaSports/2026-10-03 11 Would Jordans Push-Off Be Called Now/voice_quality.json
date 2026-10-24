@@ -1,0 +1,21 @@
+[
+ {
+  "name": "2026-10-03 11 Would Jordans Push-O",
+  "dur": 26.94,
+  "voiced": 0.7,
+  "hnr": 9.2,
+  "jitter": 2.66,
+  "shimmer": 10.53,
+  "jumps": 0.0,
+  "clicks": 429.9,
+  "hf": 3.18,
+  "f0_med": 196.0,
+  "verdict": "REDO",
+  "problems": [
+   "HNR 9.2 dB (noisy/robotic)",
+   "jitter 2.66% (shaky)",
+   "shimmer 10.53% (uneven loudness)",
+   "429.9 clicks/min"
+  ]
+ }
+]

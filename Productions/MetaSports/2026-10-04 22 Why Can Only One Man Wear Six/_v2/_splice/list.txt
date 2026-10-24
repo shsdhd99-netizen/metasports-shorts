@@ -1,0 +1,5 @@
+file 'C:\Users\Admin\Documents\YouTube-Playbooks\Productions\MetaSports\2026-10-04 22 Why Can Only One Man Wear Six\_v2\_splice\p0.wav'
+file 'C:\Users\Admin\Documents\YouTube-Playbooks\Productions\MetaSports\2026-10-04 22 Why Can Only One Man Wear Six\_v2\_splice\gap.wav'
+file 'C:\Users\Admin\Documents\YouTube-Playbooks\Productions\MetaSports\2026-10-04 22 Why Can Only One Man Wear Six\_v2\_splice\p1.wav'
+file 'C:\Users\Admin\Documents\YouTube-Playbooks\Productions\MetaSports\2026-10-04 22 Why Can Only One Man Wear Six\_v2\_splice\gap.wav'
+file 'C:\Users\Admin\Documents\YouTube-Playbooks\Productions\MetaSports\2026-10-04 22 Why Can Only One Man Wear Six\_v2\_splice\p2.wav'

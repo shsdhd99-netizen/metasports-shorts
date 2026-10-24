@@ -1,0 +1,2 @@
+2026-10-04 17 Will The NBA Fin#0     REDO HNR   7.0 jit 2.82 shim 11.10 jumps/s 0.00 clicks/min 206.3 hf%  6.49 f0 202 dur 16.57  HNR 7.0 dB (noisy/robotic); jitter 2.82% (shaky); shimmer 11.1% (uneven loudness); 206.3 clicks/min
+2026-10-04 17 Will The NBA Fin#2     REDO HNR   7.8 jit 2.99 shim 10.96 jumps/s 0.00 clicks/min 225.0 hf%  4.07 f0 211 dur 7.2  HNR 7.8 dB (noisy/robotic); jitter 2.99% (shaky); shimmer 10.96% (uneven loudness); 225.0 clicks/min

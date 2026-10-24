@@ -1,0 +1,30 @@
+[
+ {
+  "take": 1,
+  "ok": false,
+  "score": -95.5,
+  "verdict": "REDO",
+  "issues": [
+   " 8.10s  script \"victor\" but heard \"(nothing)\""
+  ],
+  "wpm": 216,
+  "hnr": 8.1,
+  "jitter": 2.7,
+  "shimmer": 11.0,
+  "dur": 20.04,
+  "pitch_sd": 5.44
+ },
+ {
+  "take": 2,
+  "ok": true,
+  "score": 4.3,
+  "verdict": "CHECK",
+  "issues": [],
+  "wpm": 226,
+  "hnr": 7.9,
+  "jitter": 2.85,
+  "shimmer": 11.03,
+  "dur": 19.11,
+  "pitch_sd": 4.96
+ }
+]

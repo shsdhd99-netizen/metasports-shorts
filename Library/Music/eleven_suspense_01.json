@@ -1,0 +1,9 @@
+{
+ "prompt": "Instrumental suspenseful cinematic hip-hop bed for a mystery reveal in a sports short, 85 BPM, dark sub drone, ticking hi-hat, low pulsing synth, tension slowly building with a riser in the last five seconds that lands on one deep bass hit, then silence. No vocals. Sparse midrange so a narrator can talk over it.",
+ "model": "music_v1",
+ "seconds": 30.0,
+ "mood": "suspense",
+ "generated": "2026-10-14",
+ "licence": "ElevenLabs Music Terms, Starter plan: all online/offline commercial use except film, TV, radio, Studio Games; no attribution",
+ "licence_url": "https://elevenlabs.io/music-terms"
+}

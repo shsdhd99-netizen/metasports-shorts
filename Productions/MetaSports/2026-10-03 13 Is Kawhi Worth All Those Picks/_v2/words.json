@@ -1,0 +1,477 @@
+[
+ {
+  "word": "The",
+  "start": 0.0,
+  "end": 0.113
+ },
+ {
+  "word": "Clippers",
+  "start": 0.157,
+  "end": 0.436
+ },
+ {
+  "word": "gave",
+  "start": 0.471,
+  "end": 0.602
+ },
+ {
+  "word": "up",
+  "start": 0.628,
+  "end": 0.706
+ },
+ {
+  "word": "ten",
+  "start": 0.75,
+  "end": 0.882
+ },
+ {
+  "word": "first-round",
+  "start": 0.925,
+  "end": 1.248
+ },
+ {
+  "word": "picks",
+  "start": 1.283,
+  "end": 1.457
+ },
+ {
+  "word": "to",
+  "start": 1.475,
+  "end": 1.518
+ },
+ {
+  "word": "acquire",
+  "start": 1.571,
+  "end": 1.823
+ },
+ {
+  "word": "and",
+  "start": 1.859,
+  "end": 1.911
+ },
+ {
+  "word": "retain",
+  "start": 1.955,
+  "end": 2.199
+ },
+ {
+  "word": "Kawhi",
+  "start": 2.251,
+  "end": 2.618
+ },
+ {
+  "word": "Leonard.",
+  "start": 2.679,
+  "end": 2.984
+ },
+ {
+  "word": "But",
+  "start": 3.01,
+  "end": 3.124
+ },
+ {
+  "word": "Toronto",
+  "start": 3.159,
+  "end": 3.456
+ },
+ {
+  "word": "still",
+  "start": 3.499,
+  "end": 3.656
+ },
+ {
+  "word": "closed",
+  "start": 3.691,
+  "end": 3.892
+ },
+ {
+  "word": "the",
+  "start": 3.918,
+  "end": 3.971
+ },
+ {
+  "word": "deal",
+  "start": 4.005,
+  "end": 4.136
+ },
+ {
+  "word": "on",
+  "start": 4.18,
+  "end": 4.232
+ },
+ {
+  "word": "September",
+  "start": 4.258,
+  "end": 4.555
+ },
+ {
+  "word": "fourteenth.",
+  "start": 4.598,
+  "end": 5.026
+ },
+ {
+  "word": "The",
+  "start": 5.069,
+  "end": 5.157
+ },
+ {
+  "word": "Raptors",
+  "start": 5.201,
+  "end": 5.462
+ },
+ {
+  "word": "paused",
+  "start": 5.506,
+  "end": 5.707
+ },
+ {
+  "word": "that",
+  "start": 5.724,
+  "end": 5.82
+ },
+ {
+  "word": "trade",
+  "start": 5.846,
+  "end": 6.038
+ },
+ {
+  "word": "on",
+  "start": 6.073,
+  "end": 6.134
+ },
+ {
+  "word": "July",
+  "start": 6.169,
+  "end": 6.361
+ },
+ {
+  "word": "ninth,",
+  "start": 6.413,
+  "end": 6.657
+ },
+ {
+  "word": "fearing",
+  "start": 6.693,
+  "end": 6.937
+ },
+ {
+  "word": "a",
+  "start": 6.972,
+  "end": 6.99
+ },
+ {
+  "word": "suspension.",
+  "start": 7.033,
+  "end": 7.495
+ },
+ {
+  "word": "Toronto",
+  "start": 7.53,
+  "end": 7.862
+ },
+ {
+  "word": "sent",
+  "start": 7.906,
+  "end": 8.019
+ },
+ {
+  "word": "Brandon",
+  "start": 8.054,
+  "end": 8.315
+ },
+ {
+  "word": "Ingram",
+  "start": 8.359,
+  "end": 8.577
+ },
+ {
+  "word": "and",
+  "start": 8.612,
+  "end": 8.664
+ },
+ {
+  "word": "Gradey",
+  "start": 8.708,
+  "end": 8.944
+ },
+ {
+  "word": "Dick.",
+  "start": 8.987,
+  "end": 9.258
+ },
+ {
+  "word": "Toronto",
+  "start": 9.275,
+  "end": 9.589
+ },
+ {
+  "word": "also",
+  "start": 9.65,
+  "end": 9.834
+ },
+ {
+  "word": "sent",
+  "start": 9.877,
+  "end": 10.0
+ },
+ {
+  "word": "its",
+  "start": 10.034,
+  "end": 10.112
+ },
+ {
+  "word": "2031",
+  "start": 10.148,
+  "end": 10.558
+ },
+ {
+  "word": "and",
+  "start": 10.602,
+  "end": 10.654
+ },
+ {
+  "word": "2033",
+  "start": 10.697,
+  "end": 11.212
+ },
+ {
+  "word": "firsts,",
+  "start": 11.256,
+  "end": 11.526
+ },
+ {
+  "word": "a",
+  "start": 11.552,
+  "end": 11.596
+ },
+ {
+  "word": "2027",
+  "start": 11.657,
+  "end": 12.19
+ },
+ {
+  "word": "pick",
+  "start": 12.233,
+  "end": 12.347
+ },
+ {
+  "word": "swap,",
+  "start": 12.381,
+  "end": 12.617
+ },
+ {
+  "word": "and",
+  "start": 12.635,
+  "end": 12.73
+ },
+ {
+  "word": "two",
+  "start": 12.775,
+  "end": 12.905
+ },
+ {
+  "word": "seconds.",
+  "start": 12.966,
+  "end": 13.333
+ },
+ {
+  "word": "Kawhi",
+  "start": 13.377,
+  "end": 13.647
+ },
+ {
+  "word": "is",
+  "start": 13.725,
+  "end": 13.804
+ },
+ {
+  "word": "thirty-five.",
+  "start": 13.848,
+  "end": 14.388
+ },
+ {
+  "word": "He",
+  "start": 14.406,
+  "end": 14.467
+ },
+ {
+  "word": "spent",
+  "start": 14.502,
+  "end": 14.694
+ },
+ {
+  "word": "one",
+  "start": 14.738,
+  "end": 14.859
+ },
+ {
+  "word": "season",
+  "start": 14.886,
+  "end": 15.095
+ },
+ {
+  "word": "in",
+  "start": 15.13,
+  "end": 15.165
+ },
+ {
+  "word": "Toronto",
+  "start": 15.2,
+  "end": 15.453
+ },
+ {
+  "word": "and",
+  "start": 15.505,
+  "end": 15.575
+ },
+ {
+  "word": "led",
+  "start": 15.618,
+  "end": 15.724
+ },
+ {
+  "word": "them",
+  "start": 15.75,
+  "end": 15.837
+ },
+ {
+  "word": "to",
+  "start": 15.872,
+  "end": 15.907
+ },
+ {
+  "word": "their",
+  "start": 15.942,
+  "end": 16.038
+ },
+ {
+  "word": "lone",
+  "start": 16.072,
+  "end": 16.22
+ },
+ {
+  "word": "title",
+  "start": 16.247,
+  "end": 16.465
+ },
+ {
+  "word": "in",
+  "start": 16.5,
+  "end": 16.561
+ },
+ {
+  "word": "2019.",
+  "start": 16.605,
+  "end": 17.155
+ },
+ {
+  "word": "The",
+  "start": 17.207,
+  "end": 17.294
+ },
+ {
+  "word": "NBA",
+  "start": 17.355,
+  "end": 17.608
+ },
+ {
+  "word": "fined",
+  "start": 17.67,
+  "end": 17.861
+ },
+ {
+  "word": "the",
+  "start": 17.878,
+  "end": 17.931
+ },
+ {
+  "word": "Clippers",
+  "start": 17.957,
+  "end": 18.245
+ },
+ {
+  "word": "$30 million",
+  "start": 18.289,
+  "end": 19.004
+ },
+ {
+  "word": "and",
+  "start": 19.04,
+  "end": 19.127
+ },
+ {
+  "word": "suspended",
+  "start": 19.17,
+  "end": 19.493
+ },
+ {
+  "word": "owner",
+  "start": 19.536,
+  "end": 19.703
+ },
+ {
+  "word": "Steve",
+  "start": 19.746,
+  "end": 19.929
+ },
+ {
+  "word": "Ballmer",
+  "start": 19.956,
+  "end": 20.156
+ },
+ {
+  "word": "for",
+  "start": 20.2,
+  "end": 20.278
+ },
+ {
+  "word": "one",
+  "start": 20.322,
+  "end": 20.435
+ },
+ {
+  "word": "year.",
+  "start": 20.462,
+  "end": 20.68
+ },
+ {
+  "word": "The",
+  "start": 20.723,
+  "end": 20.802
+ },
+ {
+  "word": "Clippers",
+  "start": 20.837,
+  "end": 21.09
+ },
+ {
+  "word": "forfeit",
+  "start": 21.134,
+  "end": 21.395
+ },
+ {
+  "word": "their",
+  "start": 21.43,
+  "end": 21.544
+ },
+ {
+  "word": "2029",
+  "start": 21.587,
+  "end": 22.032
+ },
+ {
+  "word": "through",
+  "start": 22.076,
+  "end": 22.241
+ },
+ {
+  "word": "2033",
+  "start": 22.277,
+  "end": 22.782
+ },
+ {
+  "word": "firsts.",
+  "start": 22.826,
+  "end": 23.28
+ }
+]

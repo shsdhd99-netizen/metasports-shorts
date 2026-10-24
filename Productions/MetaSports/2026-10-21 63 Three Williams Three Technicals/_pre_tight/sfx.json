@@ -1,0 +1,17 @@
+[
+ {
+  "sfx": "thud",
+  "at": 5.4,
+  "why": "Holmgren hits the floor"
+ },
+ {
+  "sfx": "whistle",
+  "at": 12.3,
+  "why": "FLAGRANT 1 called"
+ },
+ {
+  "sfx": "boom",
+  "at": 21.1,
+  "why": "FINAL: THUNDER 116 SPURS 104"
+ }
+]

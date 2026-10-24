@@ -1,0 +1,457 @@
+[
+ {
+  "word": "Steven",
+  "start": 0.0,
+  "end": 0.278
+ },
+ {
+  "word": "Adams",
+  "start": 0.316,
+  "end": 0.498
+ },
+ {
+  "word": "says",
+  "start": 0.517,
+  "end": 0.69
+ },
+ {
+  "word": "every",
+  "start": 0.757,
+  "end": 0.968
+ },
+ {
+  "word": "pro",
+  "start": 1.016,
+  "end": 1.14
+ },
+ {
+  "word": "league",
+  "start": 1.178,
+  "end": 1.322
+ },
+ {
+  "word": "is",
+  "start": 1.341,
+  "end": 1.399
+ },
+ {
+  "word": "about",
+  "start": 1.437,
+  "end": 1.648
+ },
+ {
+  "word": "to",
+  "start": 1.667,
+  "end": 1.715
+ },
+ {
+  "word": "plummet.",
+  "start": 1.744,
+  "end": 2.051
+ },
+ {
+  "word": "The",
+  "start": 2.079,
+  "end": 2.174
+ },
+ {
+  "word": "reason:",
+  "start": 2.232,
+  "end": 2.51
+ },
+ {
+  "word": "Grand",
+  "start": 2.558,
+  "end": 2.75
+ },
+ {
+  "word": "Theft",
+  "start": 2.778,
+  "end": 2.951
+ },
+ {
+  "word": "Auto",
+  "start": 2.999,
+  "end": 3.171
+ },
+ {
+  "word": "six,",
+  "start": 3.257,
+  "end": 3.506
+ },
+ {
+  "word": "out",
+  "start": 3.545,
+  "end": 3.679
+ },
+ {
+  "word": "November",
+  "start": 3.727,
+  "end": 4.015
+ },
+ {
+  "word": "nineteenth.",
+  "start": 4.062,
+  "end": 4.56
+ },
+ {
+  "word": "look",
+  "start": 4.678,
+  "end": 4.778
+ },
+ {
+  "word": "at",
+  "start": 4.818,
+  "end": 4.958
+ },
+ {
+  "word": "all",
+  "start": 5.398,
+  "end": 5.518
+ },
+ {
+  "word": "the",
+  "start": 5.578,
+  "end": 5.638
+ },
+ {
+  "word": "leagues,",
+  "start": 5.698,
+  "end": 6.018
+ },
+ {
+  "word": "and",
+  "start": 7.058,
+  "end": 7.158
+ },
+ {
+  "word": "watch",
+  "start": 7.198,
+  "end": 7.378
+ },
+ {
+  "word": "them",
+  "start": 7.398,
+  "end": 7.538
+ },
+ {
+  "word": "plummet,",
+  "start": 7.598,
+  "end": 7.898
+ },
+ {
+  "word": "mate.",
+  "start": 7.958,
+  "end": 8.138
+ },
+ {
+  "word": "The",
+  "start": 8.258,
+  "end": 8.387
+ },
+ {
+  "word": "night",
+  "start": 8.44,
+  "end": 8.591
+ },
+ {
+  "word": "before",
+  "start": 8.623,
+  "end": 8.838
+ },
+ {
+  "word": "it",
+  "start": 8.87,
+  "end": 8.913
+ },
+ {
+  "word": "drops,",
+  "start": 8.945,
+  "end": 9.224
+ },
+ {
+  "word": "the",
+  "start": 9.246,
+  "end": 9.332
+ },
+ {
+  "word": "Heat",
+  "start": 9.385,
+  "end": 9.557
+ },
+ {
+  "word": "play",
+  "start": 9.6,
+  "end": 9.751
+ },
+ {
+  "word": "a",
+  "start": 9.793,
+  "end": 9.825
+ },
+ {
+  "word": "game",
+  "start": 9.868,
+  "end": 10.04
+ },
+ {
+  "word": "as",
+  "start": 10.083,
+  "end": 10.191
+ },
+ {
+  "word": "Vice",
+  "start": 10.255,
+  "end": 10.47
+ },
+ {
+  "word": "City.",
+  "start": 10.491,
+  "end": 10.803
+ },
+ {
+  "word": "Adams",
+  "start": 10.845,
+  "end": 11.125
+ },
+ {
+  "word": "was",
+  "start": 11.167,
+  "end": 11.264
+ },
+ {
+  "word": "joking.",
+  "start": 11.318,
+  "end": 11.705
+ },
+ {
+  "word": "Mostly.",
+  "start": 11.801,
+  "end": 12.338
+ },
+ {
+  "word": "Most",
+  "start": 12.457,
+  "end": 12.577
+ },
+ {
+  "word": "of",
+  "start": 12.617,
+  "end": 12.657
+ },
+ {
+  "word": "the",
+  "start": 12.677,
+  "end": 12.737
+ },
+ {
+  "word": "boys",
+  "start": 12.777,
+  "end": 12.917
+ },
+ {
+  "word": "will",
+  "start": 12.937,
+  "end": 12.997
+ },
+ {
+  "word": "get",
+  "start": 13.017,
+  "end": 13.097
+ },
+ {
+  "word": "it",
+  "start": 13.137,
+  "end": 13.197
+ },
+ {
+  "word": "done,",
+  "start": 13.217,
+  "end": 13.357
+ },
+ {
+  "word": "but",
+  "start": 13.617,
+  "end": 13.697
+ },
+ {
+  "word": "hopefully",
+  "start": 13.737,
+  "end": 14.017
+ },
+ {
+  "word": "they",
+  "start": 14.037,
+  "end": 14.137
+ },
+ {
+  "word": "finish",
+  "start": 14.197,
+  "end": 14.437
+ },
+ {
+  "word": "game.",
+  "start": 14.477,
+  "end": 14.657
+ },
+ {
+  "word": "Then",
+  "start": 14.777,
+  "end": 14.963
+ },
+ {
+  "word": "he",
+  "start": 15.009,
+  "end": 15.056
+ },
+ {
+  "word": "got",
+  "start": 15.114,
+  "end": 15.265
+ },
+ {
+  "word": "to",
+  "start": 15.299,
+  "end": 15.357
+ },
+ {
+  "word": "the",
+  "start": 15.404,
+  "end": 15.474
+ },
+ {
+  "word": "coaches",
+  "start": 15.508,
+  "end": 15.822
+ },
+ {
+  "word": "and",
+  "start": 15.857,
+  "end": 15.938
+ },
+ {
+  "word": "scouts.",
+  "start": 15.973,
+  "end": 16.495
+ },
+ {
+  "word": "The",
+  "start": 16.615,
+  "end": 16.695
+ },
+ {
+  "word": "coaching",
+  "start": 16.755,
+  "end": 16.995
+ },
+ {
+  "word": "and",
+  "start": 17.015,
+  "end": 17.075
+ },
+ {
+  "word": "scouts",
+  "start": 17.155,
+  "end": 17.375
+ },
+ {
+  "word": "are",
+  "start": 17.395,
+  "end": 17.455
+ },
+ {
+  "word": "gonna",
+  "start": 17.495,
+  "end": 17.655
+ },
+ {
+  "word": "be",
+  "start": 17.695,
+  "end": 17.815
+ },
+ {
+  "word": "horrendous,",
+  "start": 17.875,
+  "end": 18.375
+ },
+ {
+  "word": "mate.",
+  "start": 18.475,
+  "end": 18.735
+ },
+ {
+  "word": "Just",
+  "start": 18.855,
+  "end": 18.995
+ },
+ {
+  "word": "for",
+  "start": 19.015,
+  "end": 19.115
+ },
+ {
+  "word": "November,",
+  "start": 19.175,
+  "end": 19.535
+ },
+ {
+  "word": "but",
+  "start": 19.675,
+  "end": 19.755
+ },
+ {
+  "word": "it",
+  "start": 19.775,
+  "end": 19.835
+ },
+ {
+  "word": "should",
+  "start": 19.855,
+  "end": 19.975
+ },
+ {
+  "word": "bounce",
+  "start": 20.015,
+  "end": 20.215
+ },
+ {
+  "word": "back",
+  "start": 20.255,
+  "end": 20.375
+ },
+ {
+  "word": "in",
+  "start": 20.415,
+  "end": 20.455
+ },
+ {
+  "word": "December",
+  "start": 20.495,
+  "end": 20.835
+ },
+ {
+  "word": "hopefully.",
+  "start": 20.875,
+  "end": 21.295
+ },
+ {
+  "word": "Yeah,",
+  "start": 21.415,
+  "end": 21.555
+ },
+ {
+  "word": "should",
+  "start": 21.735,
+  "end": 21.855
+ },
+ {
+  "word": "be",
+  "start": 21.895,
+  "end": 21.955
+ },
+ {
+  "word": "good.",
+  "start": 21.995,
+  "end": 22.195
+ }
+]

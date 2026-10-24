@@ -1,0 +1,58 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Montserrat Black,86,&H00FFFFFF,&H00FFFFFF,&H00000000,&H99000000,0,0,0,0,95,100,1,0,1,6,3,5,70,70,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.52,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TWO NBA
+Dialogue: 0,0:00:00.52,0:00:01.07,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}PLAYERS CAN STILL
+Dialogue: 0,0:00:01.07,0:00:01.81,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WEAR NUMBER SIX.
+Dialogue: 0,0:00:01.81,0:00:02.31,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BILL RUSSELL
+Dialogue: 0,0:00:02.31,0:00:03.19,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WON ELEVEN TITLES,
+Dialogue: 0,0:00:03.19,0:00:04.23,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SO IN 2022
+Dialogue: 0,0:00:04.23,0:00:04.53,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE LEAGUE
+Dialogue: 0,0:00:04.53,0:00:05.08,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}RETIRED SIX
+Dialogue: 0,0:00:05.08,0:00:05.73,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FOR EVERY TEAM.
+Dialogue: 0,0:00:05.73,0:00:06.47,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}PLAYERS WHO ALREADY
+Dialogue: 0,0:00:06.47,0:00:06.80,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WORE IT
+Dialogue: 0,0:00:06.80,0:00:07.26,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}KEPT IT.
+Dialogue: 0,0:00:07.26,0:00:07.77,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NOBODY NEW
+Dialogue: 0,0:00:07.77,0:00:08.10,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}CAN EVER
+Dialogue: 0,0:00:08.10,0:00:08.44,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}GET IT.
+Dialogue: 0,0:00:08.44,0:00:09.25,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}UNTIL THIS SUMMER.
+Dialogue: 0,0:00:09.25,0:00:10.10,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}DEANDRE JORDAN
+Dialogue: 0,0:00:10.10,0:00:10.45,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}GOT TWO
+Dialogue: 0,0:00:10.45,0:00:11.13,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}GUARANTEED YEARS,
+Dialogue: 0,0:00:11.13,0:00:11.78,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SEVEN POINT NINE
+Dialogue: 0,0:00:11.78,0:00:12.38,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}MILLION DOLLARS,
+Dialogue: 0,0:00:12.38,0:00:12.63,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND HE
+Dialogue: 0,0:00:12.63,0:00:13.04,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IS STILL
+Dialogue: 0,0:00:13.04,0:00:13.68,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN SIX.
+Dialogue: 0,0:00:13.68,0:00:14.19,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THAT IS YEAR
+Dialogue: 0,0:00:14.19,0:00:14.74,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NINETEEN.
+Dialogue: 0,0:00:14.74,0:00:15.44,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}JAYLIN WILLIAMS
+Dialogue: 0,0:00:15.44,0:00:15.84,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IS THE OTHER
+Dialogue: 0,0:00:15.84,0:00:16.05,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ONE.
+Dialogue: 0,0:00:16.05,0:00:16.39,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HERE HE
+Dialogue: 0,0:00:16.39,0:00:17.17,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IS ON THAT.
+Dialogue: 0,0:00:17.17,0:00:17.63,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}I'M HONORED.
+Dialogue: 0,0:00:17.63,0:00:18.08,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}I KNOW
+Dialogue: 0,0:00:18.08,0:00:18.54,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE NUMBER
+Dialogue: 0,0:00:18.54,0:00:19.23,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SIX WAS RETIRED
+Dialogue: 0,0:00:19.23,0:00:19.91,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FOR THE GREAT
+Dialogue: 0,0:00:19.91,0:00:20.49,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BILL RUSSELL.
+Dialogue: 0,0:00:20.49,0:00:20.91,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HIS DAD
+Dialogue: 0,0:00:20.91,0:00:21.44,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}PICKED SIX
+Dialogue: 0,0:00:21.44,0:00:21.73,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}A MONTH
+Dialogue: 0,0:00:21.73,0:00:22.49,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BEFORE THE BAN.
+Dialogue: 0,0:00:22.49,0:00:23.11,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TWO NAMES.
+Dialogue: 0,0:00:23.11,0:00:23.51,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WHEN BOTH
+Dialogue: 0,0:00:23.51,0:00:24.23,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}OF THEM RETIRE,
+Dialogue: 0,0:00:24.23,0:00:25.35,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SIX IS GONE.

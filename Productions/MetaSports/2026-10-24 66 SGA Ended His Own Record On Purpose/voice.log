@@ -1,0 +1,6 @@
+voice profile: Alex - Upbeat, Energetic and Clear (ElevenLabs Voice Library) (gate: HNR >= 7.0, jitter <= 3.4, shimmer <= 12.5)
+take 1: Done: voice.mp3 (25.2s, sped up x1.00) + captions.srt + words.json in /home/user/metasports-shorts/Productions/MetaSports/2026-10-24 66 SGA Ended His Own Record On Purpose/take1_yxvqkf7r
+  take 1: FAIL  check=REDO HNR 8.0 jitter 2.92 shimmer 11.78 25.49s  [' 0.35s  stretched/garbled word "Gilgeous-Alexander" (2.75s)']
+take 2: Done: voice.mp3 (24.8s, sped up x1.00) + captions.srt + words.json in /home/user/metasports-shorts/Productions/MetaSports/2026-10-24 66 SGA Ended His Own Record On Purpose/take2_yt74r4x7
+  take 2: PASS  check=CHECK HNR 8.2 jitter 2.93 shimmer 11.28 25.15s  []
+USED take score 4.5 (passes the voice gate)

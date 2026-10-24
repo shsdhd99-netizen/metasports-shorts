@@ -1,0 +1,23 @@
+[
+ {
+  "sfx": "swish",
+  "at": 3.47,
+  "gain": -9,
+  "len": 1.0,
+  "why": "ball through the net"
+ },
+ {
+  "sfx": "whoosh",
+  "at": 16.0,
+  "gain": -15,
+  "len": 0.9,
+  "why": "jump to the ESPN card on Brown's fouls"
+ },
+ {
+  "sfx": "thud",
+  "at": 20.0,
+  "gain": -14,
+  "len": 0.8,
+  "why": "the fine card"
+ }
+]

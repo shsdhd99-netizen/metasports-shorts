@@ -1,0 +1,1 @@
+2026-10-05 27 Why Cant Teams Win B   REDO HNR   7.7 jit 2.94 shim 10.28 jumps/s 0.00 clicks/min 288.8 hf%  4.71 f0 198 dur 24.73  HNR 7.7 dB (noisy/robotic); jitter 2.94% (shaky); shimmer 10.28% (uneven loudness); 288.8 clicks/min

@@ -1,0 +1,40 @@
+[
+ {
+  "name": "2026-10-04 19 How Tall Is Coop#0",
+  "dur": 5.29,
+  "voiced": 0.71,
+  "hnr": 7.7,
+  "jitter": 2.75,
+  "shimmer": 10.9,
+  "jumps": 0.0,
+  "clicks": 317.8,
+  "hf": 5.16,
+  "f0_med": 196.0,
+  "verdict": "REDO",
+  "problems": [
+   "HNR 7.7 dB (noisy/robotic)",
+   "jitter 2.75% (shaky)",
+   "shimmer 10.9% (uneven loudness)",
+   "317.8 clicks/min"
+  ]
+ },
+ {
+  "name": "2026-10-04 19 How Tall Is Coop#2",
+  "dur": 11.52,
+  "voiced": 0.64,
+  "hnr": 6.6,
+  "jitter": 3.2,
+  "shimmer": 10.72,
+  "jumps": 0.0,
+  "clicks": 250.0,
+  "hf": 6.46,
+  "f0_med": 207.0,
+  "verdict": "REDO",
+  "problems": [
+   "HNR 6.6 dB (noisy/robotic)",
+   "jitter 3.2% (shaky)",
+   "shimmer 10.72% (uneven loudness)",
+   "250.0 clicks/min"
+  ]
+ }
+]

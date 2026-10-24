@@ -1,0 +1,143 @@
+[
+ {
+  "clip": "Qquote.mp4",
+  "start": 0.0,
+  "anchor": "Philly hasn't",
+  "kind": "action",
+  "why": "Philly hasn't",
+  "zoom": 0.1
+ },
+ {
+  "clip": "V02_ai.mp4",
+  "start": 0.85,
+  "anchor": "conference final",
+  "kind": "action",
+  "why": "conference final"
+ },
+ {
+  "clip": "c_2001.mp4",
+  "start": 1.66,
+  "anchor": "two thousand",
+  "kind": "card",
+  "why": "two thousand"
+ },
+ {
+  "clip": "c_16.mp4",
+  "start": 2.48,
+  "anchor": "LeBron James",
+  "kind": "card",
+  "why": "LeBron James"
+ },
+ {
+  "clip": "K3.mp4",
+  "start": 3.74,
+  "anchor": "Since then",
+  "kind": "action",
+  "why": "Since then"
+ },
+ {
+  "clip": "c_8.mp4",
+  "start": 4.4,
+  "anchor": "lost in",
+  "kind": "card",
+  "why": "lost in"
+ },
+ {
+  "clip": "K1.mp4",
+  "start": 5.77,
+  "anchor": "The last",
+  "kind": "action",
+  "why": "The last"
+ },
+ {
+  "clip": "K2.mp4",
+  "start": 6.78,
+  "anchor": "the Knicks",
+  "kind": "action",
+  "why": "the Knicks"
+ },
+ {
+  "clip": "G1d.mp4",
+  "start": 7.74,
+  "anchor": "game one",
+  "kind": "action",
+  "why": "game one"
+ },
+ {
+  "clip": "c_39.mp4",
+  "start": 8.38,
+  "anchor": "thirty-nine",
+  "kind": "card",
+  "why": "thirty-nine"
+ },
+ {
+  "clip": "L2.mp4",
+  "start": 9.5,
+  "anchor": "Then LeBron",
+  "kind": "action",
+  "why": "Then LeBron"
+ },
+ {
+  "clip": "G1b.mp4",
+  "start": 10.82,
+  "anchor": "next to",
+  "kind": "action",
+  "why": "Embiid and"
+ },
+ {
+  "clip": "SC_maxey.mp4",
+  "start": 11.51,
+  "anchor": "and Maxey",
+  "kind": "action",
+  "why": "Maxey."
+ },
+ {
+  "clip": "G1b2.mp4",
+  "start": 12.18,
+  "anchor": "Embiid has",
+  "kind": "action",
+  "why": "Embiid has"
+ },
+ {
+  "clip": "G1e.mp4",
+  "start": 13.06,
+  "anchor": "than half",
+  "kind": "action",
+  "why": "than half"
+ },
+ {
+  "clip": "SC_banners.mp4",
+  "start": 14.71,
+  "anchor": "Philadelphia hasn't",
+  "kind": "action",
+  "why": "Philadelphia hasn't"
+ },
+ {
+  "clip": "c_1983.mp4",
+  "start": 16.29,
+  "anchor": "nineteen",
+  "kind": "card",
+  "why": "nineteen"
+ },
+ {
+  "clip": "L3.mp4",
+  "start": 17.24,
+  "anchor": "At media",
+  "kind": "action",
+  "why": "At media"
+ },
+ {
+  "clip": "L5.mp4",
+  "start": 18.5,
+  "anchor": "the one",
+  "kind": "action",
+  "why": "the one"
+ },
+ {
+  "clip": "Qquote.mp4",
+  "start": 20.21,
+  "anchor": "I didn't",
+  "kind": "quote",
+  "why": "I didn't"
+ }
+]

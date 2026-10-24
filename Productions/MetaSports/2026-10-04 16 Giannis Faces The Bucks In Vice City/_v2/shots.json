@@ -1,0 +1,124 @@
+[
+ {
+  "clip": "g_heat.mp4",
+  "start": 0.0,
+  "in": 0.0,
+  "kind": "action",
+  "why": "Giannis in a Heat jersey for his name, and the loop"
+ },
+ {
+  "clip": "g_bucks.mp4",
+  "start": 0.89,
+  "in": 0.2,
+  "kind": "action",
+  "anchor": "face",
+  "why": "Bucks 34, the team he is about to face"
+ },
+ {
+  "clip": "v_arena.mp4",
+  "start": 2.17,
+  "in": 0.2,
+  "kind": "action",
+  "zoom": 0.06,
+  "anchor": "But",
+  "why": "But the Heat play that night as Vice City"
+ },
+ {
+  "clip": "v_roof.mp4",
+  "start": 4.04,
+  "in": 0.2,
+  "kind": "action",
+  "anchor": "court",
+  "why": "Welcome to Vice City, a court nobody has seen"
+ },
+ {
+  "clip": "v_city.mp4",
+  "start": 5.11,
+  "in": 0.2,
+  "kind": "action",
+  "zoom": 0.06,
+  "anchor": "uniform",
+  "why": "night skyline for the uniform never worn"
+ },
+ {
+  "clip": "v_tower.mp4",
+  "start": 6.11,
+  "in": 0.4,
+  "kind": "action",
+  "zoom": 0.06,
+  "anchor": "Miami",
+  "why": "Miami night, not a regular jersey called the GTA uniform"
+ },
+ {
+  "clip": "p_night.mp4",
+  "start": 8.09,
+  "in": 0.3,
+  "kind": "card",
+  "anchor": "November eighteenth",
+  "why": "poster: November 18, 2026, 7PM EST, ESPN"
+ },
+ {
+  "clip": "g_years.mp4",
+  "start": 10.61,
+  "in": 0.3,
+  "kind": "action",
+  "anchor": "Thirteen",
+  "why": "Bucks 34, thirteen years"
+ },
+ {
+  "clip": "g_heat.mp4",
+  "start": 12.05,
+  "in": 0.4,
+  "kind": "action",
+  "anchor": "he",
+  "why": "Giannis in the Heat jersey on 'he watched', not Giddey"
+ },
+ {
+  "clip": "g_fans.mp4",
+  "start": 13.53,
+  "in": 0.4,
+  "kind": "action",
+  "anchor": "fans",
+  "why": "Bucks crowd for the fans video"
+ },
+ {
+  "clip": "q_plane.mp4",
+  "start": 14.55,
+  "in": 0.35,
+  "kind": "quote",
+  "anchor": "Milwaukee will",
+  "why": "real line: Milwaukee will always be my home"
+ },
+ {
+  "clip": "q_plane.mp4",
+  "start": 16.18,
+  "in": 6.22,
+  "kind": "quote",
+  "anchor": "Don't",
+  "why": "real line: Don't cry because it's over"
+ },
+ {
+  "clip": "q_plane.mp4",
+  "start": 18.73,
+  "in": 9.24,
+  "kind": "quote",
+  "anchor": "Laugh",
+  "why": "real line: Laugh, smile because it happened"
+ },
+ {
+  "clip": "g_jersey.mp4",
+  "start": 20.76,
+  "in": 0.2,
+  "kind": "action",
+  "anchor": "Now",
+  "why": "Giannis in a Miami uniform, number 7"
+ },
+ {
+  "clip": "g_heat.mp4",
+  "start": 22.22,
+  "in": 2.0,
+  "kind": "action",
+  "anchor": "jersey",
+  "why": "same Heat jersey on the last word, loops to the open"
+ }
+]

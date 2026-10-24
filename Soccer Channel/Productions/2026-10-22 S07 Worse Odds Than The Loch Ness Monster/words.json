@@ -1,0 +1,1132 @@
+[
+ {
+  "word": "The",
+  "start": 0.0,
+  "end": 0.128
+ },
+ {
+  "word": "team",
+  "start": 0.163,
+  "end": 0.302
+ },
+ {
+  "word": "with",
+  "start": 0.337,
+  "end": 0.43
+ },
+ {
+  "word": "worse",
+  "start": 0.476,
+  "end": 0.685
+ },
+ {
+  "word": "odds",
+  "start": 0.72,
+  "end": 0.929
+ },
+ {
+  "word": "than",
+  "start": 0.952,
+  "end": 1.045
+ },
+ {
+  "word": "the",
+  "start": 1.08,
+  "end": 1.149
+ },
+ {
+  "word": "Loch",
+  "start": 1.207,
+  "end": 1.416
+ },
+ {
+  "word": "Ness",
+  "start": 1.486,
+  "end": 1.695
+ },
+ {
+  "word": "monster.",
+  "start": 1.753,
+  "end": 2.171
+ },
+ {
+  "word": "Back",
+  "start": 2.194,
+  "end": 2.357
+ },
+ {
+  "word": "in",
+  "start": 2.403,
+  "end": 2.45
+ },
+ {
+  "word": "2015,",
+  "start": 2.496,
+  "end": 3.216
+ },
+ {
+  "word": "Leicester",
+  "start": 3.286,
+  "end": 3.529
+ },
+ {
+  "word": "City",
+  "start": 3.553,
+  "end": 3.692
+ },
+ {
+  "word": "had",
+  "start": 3.727,
+  "end": 3.796
+ },
+ {
+  "word": "almost",
+  "start": 3.855,
+  "end": 4.11
+ },
+ {
+  "word": "been",
+  "start": 4.133,
+  "end": 4.238
+ },
+ {
+  "word": "relegated",
+  "start": 4.272,
+  "end": 4.667
+ },
+ {
+  "word": "from",
+  "start": 4.69,
+  "end": 4.783
+ },
+ {
+  "word": "the",
+  "start": 4.807,
+  "end": 4.876
+ },
+ {
+  "word": "Premier",
+  "start": 4.899,
+  "end": 5.132
+ },
+ {
+  "word": "League.",
+  "start": 5.19,
+  "end": 5.492
+ },
+ {
+  "word": "They",
+  "start": 5.515,
+  "end": 5.619
+ },
+ {
+  "word": "were",
+  "start": 5.642,
+  "end": 5.747
+ },
+ {
+  "word": "bottom",
+  "start": 5.793,
+  "end": 6.049
+ },
+ {
+  "word": "at",
+  "start": 6.095,
+  "end": 6.153
+ },
+ {
+  "word": "Christmas,",
+  "start": 6.211,
+  "end": 6.676
+ },
+ {
+  "word": "and",
+  "start": 6.699,
+  "end": 6.803
+ },
+ {
+  "word": "only",
+  "start": 6.861,
+  "end": 7.047
+ },
+ {
+  "word": "survived",
+  "start": 7.082,
+  "end": 7.396
+ },
+ {
+  "word": "by",
+  "start": 7.419,
+  "end": 7.465
+ },
+ {
+  "word": "winning",
+  "start": 7.512,
+  "end": 7.686
+ },
+ {
+  "word": "seven",
+  "start": 7.767,
+  "end": 8.057
+ },
+ {
+  "word": "of",
+  "start": 8.092,
+  "end": 8.139
+ },
+ {
+  "word": "their",
+  "start": 8.173,
+  "end": 8.29
+ },
+ {
+  "word": "last",
+  "start": 8.336,
+  "end": 8.557
+ },
+ {
+  "word": "nine",
+  "start": 8.603,
+  "end": 8.8
+ },
+ {
+  "word": "games.",
+  "start": 8.847,
+  "end": 9.334
+ },
+ {
+  "word": "So",
+  "start": 9.392,
+  "end": 9.509
+ },
+ {
+  "word": "before",
+  "start": 9.567,
+  "end": 9.799
+ },
+ {
+  "word": "the",
+  "start": 9.834,
+  "end": 9.904
+ },
+ {
+  "word": "next",
+  "start": 9.95,
+  "end": 10.101
+ },
+ {
+  "word": "season,",
+  "start": 10.124,
+  "end": 10.496
+ },
+ {
+  "word": "bookmakers",
+  "start": 10.531,
+  "end": 10.867
+ },
+ {
+  "word": "gave",
+  "start": 10.891,
+  "end": 11.018
+ },
+ {
+  "word": "Leicester",
+  "start": 11.065,
+  "end": 11.297
+ },
+ {
+  "word": "odds",
+  "start": 11.355,
+  "end": 11.587
+ },
+ {
+  "word": "of",
+  "start": 11.61,
+  "end": 11.657
+ },
+ {
+  "word": "5,000-1",
+  "start": 11.715,
+  "end": 12.737
+ },
+ {
+  "word": "to",
+  "start": 12.771,
+  "end": 12.841
+ },
+ {
+  "word": "win",
+  "start": 12.911,
+  "end": 13.062
+ },
+ {
+  "word": "the",
+  "start": 13.108,
+  "end": 13.178
+ },
+ {
+  "word": "league.",
+  "start": 13.236,
+  "end": 13.642
+ },
+ {
+  "word": "Bookmakers",
+  "start": 13.665,
+  "end": 14.016
+ },
+ {
+  "word": "gave",
+  "start": 14.026,
+  "end": 14.177
+ },
+ {
+  "word": "better",
+  "start": 14.212,
+  "end": 14.397
+ },
+ {
+  "word": "odds",
+  "start": 14.455,
+  "end": 14.664
+ },
+ {
+  "word": "on",
+  "start": 14.688,
+  "end": 14.746
+ },
+ {
+  "word": "finding",
+  "start": 14.78,
+  "end": 15.013
+ },
+ {
+  "word": "Elvis",
+  "start": 15.071,
+  "end": 15.326
+ },
+ {
+  "word": "alive,",
+  "start": 15.373,
+  "end": 15.825
+ },
+ {
+  "word": "and",
+  "start": 15.849,
+  "end": 16.023
+ },
+ {
+  "word": "on",
+  "start": 16.081,
+  "end": 16.15
+ },
+ {
+  "word": "finding",
+  "start": 16.197,
+  "end": 16.475
+ },
+ {
+  "word": "the",
+  "start": 16.522,
+  "end": 16.592
+ },
+ {
+  "word": "Loch",
+  "start": 16.661,
+  "end": 16.882
+ },
+ {
+  "word": "Ness",
+  "start": 16.963,
+  "end": 17.195
+ },
+ {
+  "word": "monster.",
+  "start": 17.253,
+  "end": 17.741
+ },
+ {
+  "word": "And",
+  "start": 17.764,
+  "end": 17.869
+ },
+ {
+  "word": "when",
+  "start": 17.927,
+  "end": 18.043
+ },
+ {
+  "word": "one",
+  "start": 18.101,
+  "end": 18.252
+ },
+ {
+  "word": "fan",
+  "start": 18.287,
+  "end": 18.461
+ },
+ {
+  "word": "put",
+  "start": 18.507,
+  "end": 18.6
+ },
+ {
+  "word": "a",
+  "start": 18.623,
+  "end": 18.647
+ },
+ {
+  "word": "pound",
+  "start": 18.693,
+  "end": 18.925
+ },
+ {
+  "word": "on",
+  "start": 18.972,
+  "end": 19.041
+ },
+ {
+  "word": "Leicester",
+  "start": 19.11,
+  "end": 19.389
+ },
+ {
+  "word": "in",
+  "start": 19.424,
+  "end": 19.47
+ },
+ {
+  "word": "a",
+  "start": 19.505,
+  "end": 19.528
+ },
+ {
+  "word": "betting",
+  "start": 19.575,
+  "end": 19.807
+ },
+ {
+  "word": "shop,",
+  "start": 19.865,
+  "end": 20.144
+ },
+ {
+  "word": "the",
+  "start": 20.167,
+  "end": 20.237
+ },
+ {
+  "word": "manager",
+  "start": 20.271,
+  "end": 20.539
+ },
+ {
+  "word": "wrote,",
+  "start": 20.573,
+  "end": 20.811
+ },
+ {
+  "word": "pigs",
+  "start": 20.818,
+  "end": 21.085
+ },
+ {
+  "word": "might",
+  "start": 21.12,
+  "end": 21.248
+ },
+ {
+  "word": "fly,",
+  "start": 21.294,
+  "end": 21.608
+ },
+ {
+  "word": "on",
+  "start": 21.643,
+  "end": 21.724
+ },
+ {
+  "word": "his",
+  "start": 21.759,
+  "end": 21.828
+ },
+ {
+  "word": "slip.",
+  "start": 21.887,
+  "end": 22.258
+ },
+ {
+  "word": "Leicester",
+  "start": 22.309,
+  "end": 22.535
+ },
+ {
+  "word": "hired",
+  "start": 22.588,
+  "end": 22.832
+ },
+ {
+  "word": "Claudio",
+  "start": 22.867,
+  "end": 23.192
+ },
+ {
+  "word": "Ranieri,",
+  "start": 23.25,
+  "end": 23.749
+ },
+ {
+  "word": "a",
+  "start": 23.773,
+  "end": 23.796
+ },
+ {
+  "word": "manager",
+  "start": 23.865,
+  "end": 24.132
+ },
+ {
+  "word": "who",
+  "start": 24.156,
+  "end": 24.225
+ },
+ {
+  "word": "had",
+  "start": 24.26,
+  "end": 24.33
+ },
+ {
+  "word": "been",
+  "start": 24.397,
+  "end": 24.502
+ },
+ {
+  "word": "sacked",
+  "start": 24.548,
+  "end": 24.827
+ },
+ {
+  "word": "by",
+  "start": 24.861,
+  "end": 24.978
+ },
+ {
+  "word": "Greece.",
+  "start": 25.07,
+  "end": 25.5
+ },
+ {
+  "word": "But",
+  "start": 25.535,
+  "end": 25.639
+ },
+ {
+  "word": "Leicester",
+  "start": 25.686,
+  "end": 25.941
+ },
+ {
+  "word": "started",
+  "start": 25.988,
+  "end": 26.22
+ },
+ {
+  "word": "winning,",
+  "start": 26.278,
+  "end": 26.591
+ },
+ {
+  "word": "and",
+  "start": 26.615,
+  "end": 26.707
+ },
+ {
+  "word": "they",
+  "start": 26.742,
+  "end": 26.835
+ },
+ {
+  "word": "just",
+  "start": 26.882,
+  "end": 27.021
+ },
+ {
+  "word": "didn't",
+  "start": 27.056,
+  "end": 27.253
+ },
+ {
+  "word": "stop.",
+  "start": 27.288,
+  "end": 27.683
+ },
+ {
+  "word": "They",
+  "start": 27.706,
+  "end": 27.799
+ },
+ {
+  "word": "lost",
+  "start": 27.845,
+  "end": 28.008
+ },
+ {
+  "word": "just",
+  "start": 28.054,
+  "end": 28.193
+ },
+ {
+  "word": "three",
+  "start": 28.24,
+  "end": 28.437
+ },
+ {
+  "word": "league",
+  "start": 28.484,
+  "end": 28.681
+ },
+ {
+  "word": "games",
+  "start": 28.716,
+  "end": 29.018
+ },
+ {
+  "word": "all",
+  "start": 29.053,
+  "end": 29.145
+ },
+ {
+  "word": "season.",
+  "start": 29.203,
+  "end": 29.494
+ },
+ {
+  "word": "Jamie",
+  "start": 29.529,
+  "end": 29.761
+ },
+ {
+  "word": "Vardy",
+  "start": 29.807,
+  "end": 30.039
+ },
+ {
+  "word": "scored",
+  "start": 30.086,
+  "end": 30.318
+ },
+ {
+  "word": "in",
+  "start": 30.341,
+  "end": 30.388
+ },
+ {
+  "word": "eleven",
+  "start": 30.446,
+  "end": 30.724
+ },
+ {
+  "word": "Premier",
+  "start": 30.771,
+  "end": 30.991
+ },
+ {
+  "word": "League",
+  "start": 31.038,
+  "end": 31.212
+ },
+ {
+  "word": "games",
+  "start": 31.247,
+  "end": 31.491
+ },
+ {
+  "word": "in",
+  "start": 31.525,
+  "end": 31.572
+ },
+ {
+  "word": "a",
+  "start": 31.607,
+  "end": 31.63
+ },
+ {
+  "word": "row,",
+  "start": 31.711,
+  "end": 32.036
+ },
+ {
+  "word": "a",
+  "start": 32.06,
+  "end": 32.106
+ },
+ {
+  "word": "new",
+  "start": 32.187,
+  "end": 32.315
+ },
+ {
+  "word": "record.",
+  "start": 32.396,
+  "end": 32.756
+ },
+ {
+  "word": "In",
+  "start": 32.779,
+  "end": 32.837
+ },
+ {
+  "word": "February,",
+  "start": 32.884,
+  "end": 33.302
+ },
+ {
+  "word": "they",
+  "start": 33.325,
+  "end": 33.418
+ },
+ {
+  "word": "beat",
+  "start": 33.453,
+  "end": 33.557
+ },
+ {
+  "word": "Manchester",
+  "start": 33.592,
+  "end": 33.929
+ },
+ {
+  "word": "City",
+  "start": 33.964,
+  "end": 34.138
+ },
+ {
+  "word": "3-1",
+  "start": 34.184,
+  "end": 34.544
+ },
+ {
+  "word": "away.",
+  "start": 34.567,
+  "end": 34.939
+ },
+ {
+  "word": "And",
+  "start": 34.962,
+  "end": 35.043
+ },
+ {
+  "word": "the",
+  "start": 35.078,
+  "end": 35.148
+ },
+ {
+  "word": "fans",
+  "start": 35.194,
+  "end": 35.415
+ },
+ {
+  "word": "who",
+  "start": 35.438,
+  "end": 35.508
+ },
+ {
+  "word": "had",
+  "start": 35.543,
+  "end": 35.612
+ },
+ {
+  "word": "bet",
+  "start": 35.647,
+  "end": 35.763
+ },
+ {
+  "word": "on",
+  "start": 35.798,
+  "end": 35.844
+ },
+ {
+  "word": "them",
+  "start": 35.868,
+  "end": 35.96
+ },
+ {
+  "word": "at",
+  "start": 35.984,
+  "end": 36.042
+ },
+ {
+  "word": "five",
+  "start": 36.088,
+  "end": 36.297
+ },
+ {
+  "word": "thousand",
+  "start": 36.32,
+  "end": 36.645
+ },
+ {
+  "word": "to",
+  "start": 36.68,
+  "end": 36.727
+ },
+ {
+  "word": "one",
+  "start": 36.82,
+  "end": 37.087
+ },
+ {
+  "word": "started",
+  "start": 37.121,
+  "end": 37.377
+ },
+ {
+  "word": "getting",
+  "start": 37.423,
+  "end": 37.597
+ },
+ {
+  "word": "offers",
+  "start": 37.644,
+  "end": 37.876
+ },
+ {
+  "word": "to",
+  "start": 37.911,
+  "end": 37.957
+ },
+ {
+  "word": "cash",
+  "start": 38.015,
+  "end": 38.294
+ },
+ {
+  "word": "out.",
+  "start": 38.352,
+  "end": 38.589
+ },
+ {
+  "word": "One",
+  "start": 38.6,
+  "end": 38.763
+ },
+ {
+  "word": "fan",
+  "start": 38.809,
+  "end": 38.983
+ },
+ {
+  "word": "had",
+  "start": 39.029,
+  "end": 39.099
+ },
+ {
+  "word": "put",
+  "start": 39.135,
+  "end": 39.251
+ },
+ {
+  "word": "fifty",
+  "start": 39.321,
+  "end": 39.563
+ },
+ {
+  "word": "pounds",
+  "start": 39.621,
+  "end": 39.83
+ },
+ {
+  "word": "on",
+  "start": 39.865,
+  "end": 39.923
+ },
+ {
+  "word": "Leicester,",
+  "start": 39.981,
+  "end": 40.306
+ },
+ {
+  "word": "to",
+  "start": 40.33,
+  "end": 40.388
+ },
+ {
+  "word": "win",
+  "start": 40.434,
+  "end": 40.539
+ },
+ {
+  "word": "two",
+  "start": 40.597,
+  "end": 40.736
+ },
+ {
+  "word": "hundred",
+  "start": 40.806,
+  "end": 41.026
+ },
+ {
+  "word": "and",
+  "start": 41.05,
+  "end": 41.12
+ },
+ {
+  "word": "fifty",
+  "start": 41.166,
+  "end": 41.386
+ },
+ {
+  "word": "thousand.",
+  "start": 41.434,
+  "end": 41.885
+ },
+ {
+  "word": "In",
+  "start": 41.909,
+  "end": 41.99
+ },
+ {
+  "word": "March,",
+  "start": 42.048,
+  "end": 42.303
+ },
+ {
+  "word": "he",
+  "start": 42.327,
+  "end": 42.373
+ },
+ {
+  "word": "took",
+  "start": 42.408,
+  "end": 42.524
+ },
+ {
+  "word": "seventy-two",
+  "start": 42.583,
+  "end": 42.989
+ },
+ {
+  "word": "thousand",
+  "start": 43.059,
+  "end": 43.395
+ },
+ {
+  "word": "instead.",
+  "start": 43.431,
+  "end": 43.894
+ },
+ {
+  "word": "Then,",
+  "start": 43.917,
+  "end": 44.219
+ },
+ {
+  "word": "on",
+  "start": 44.266,
+  "end": 44.347
+ },
+ {
+  "word": "the",
+  "start": 44.382,
+  "end": 44.452
+ },
+ {
+  "word": "2nd",
+  "start": 44.544,
+  "end": 44.696
+ },
+ {
+  "word": "of",
+  "start": 44.73,
+  "end": 44.776
+ },
+ {
+  "word": "May",
+  "start": 44.834,
+  "end": 44.962
+ },
+ {
+  "word": "2016,",
+  "start": 45.02,
+  "end": 45.74
+ },
+ {
+  "word": "Tottenham",
+  "start": 45.798,
+  "end": 46.1
+ },
+ {
+  "word": "drew",
+  "start": 46.147,
+  "end": 46.297
+ },
+ {
+  "word": "at",
+  "start": 46.333,
+  "end": 46.379
+ },
+ {
+  "word": "Chelsea,",
+  "start": 46.437,
+  "end": 46.925
+ },
+ {
+  "word": "and",
+  "start": 46.947,
+  "end": 47.041
+ },
+ {
+  "word": "Leicester",
+  "start": 47.098,
+  "end": 47.355
+ },
+ {
+  "word": "City",
+  "start": 47.389,
+  "end": 47.539
+ },
+ {
+  "word": "were",
+  "start": 47.574,
+  "end": 47.667
+ },
+ {
+  "word": "the",
+  "start": 47.69,
+  "end": 47.76
+ },
+ {
+  "word": "champions",
+  "start": 47.795,
+  "end": 48.12
+ },
+ {
+  "word": "of",
+  "start": 48.144,
+  "end": 48.19
+ },
+ {
+  "word": "England.",
+  "start": 48.26,
+  "end": 48.632
+ },
+ {
+  "word": "But",
+  "start": 48.666,
+  "end": 48.77
+ },
+ {
+  "word": "here's",
+  "start": 48.818,
+  "end": 49.026
+ },
+ {
+  "word": "the",
+  "start": 49.05,
+  "end": 49.118
+ },
+ {
+  "word": "wild",
+  "start": 49.153,
+  "end": 49.385
+ },
+ {
+  "word": "part.",
+  "start": 49.443,
+  "end": 49.723
+ },
+ {
+  "word": "Ladbrokes",
+  "start": 49.779,
+  "end": 50.301
+ },
+ {
+  "word": "had",
+  "start": 50.325,
+  "end": 50.394
+ },
+ {
+  "word": "taken",
+  "start": 50.429,
+  "end": 50.673
+ },
+ {
+  "word": "47",
+  "start": 50.766,
+  "end": 51.346
+ },
+ {
+  "word": "bets",
+  "start": 51.439,
+  "end": 51.718
+ },
+ {
+  "word": "at",
+  "start": 51.753,
+  "end": 51.822
+ },
+ {
+  "word": "five",
+  "start": 51.88,
+  "end": 52.089
+ },
+ {
+  "word": "thousand",
+  "start": 52.113,
+  "end": 52.403
+ },
+ {
+  "word": "to",
+  "start": 52.438,
+  "end": 52.484
+ },
+ {
+  "word": "one.",
+  "start": 52.565,
+  "end": 52.867
+ },
+ {
+  "word": "Around",
+  "start": 52.89,
+  "end": 53.134
+ },
+ {
+  "word": "half",
+  "start": 53.204,
+  "end": 53.355
+ },
+ {
+  "word": "of",
+  "start": 53.39,
+  "end": 53.436
+ },
+ {
+  "word": "those",
+  "start": 53.459,
+  "end": 53.599
+ },
+ {
+  "word": "fans",
+  "start": 53.645,
+  "end": 53.901
+ },
+ {
+  "word": "had",
+  "start": 53.924,
+  "end": 53.993
+ },
+ {
+  "word": "already",
+  "start": 54.04,
+  "end": 54.272
+ },
+ {
+  "word": "cashed",
+  "start": 54.319,
+  "end": 54.632
+ },
+ {
+  "word": "out.",
+  "start": 54.678,
+  "end": 54.957
+ }
+]

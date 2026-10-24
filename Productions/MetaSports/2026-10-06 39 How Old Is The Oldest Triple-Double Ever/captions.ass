@@ -1,0 +1,57 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Montserrat Black,86,&H00FFFFFF,&H00FFFFFF,&H00000000,&H99000000,0,0,0,0,95,100,1,0,1,6,3,5,70,70,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.44,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE OLDEST
+Dialogue: 0,0:00:00.44,0:00:00.92,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TRIPLE-DOUBLE
+Dialogue: 0,0:00:00.92,0:00:01.32,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN NBA
+Dialogue: 0,0:00:01.32,0:00:01.89,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HISTORY LASTED
+Dialogue: 0,0:00:01.89,0:00:02.64,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TWENTY-TWO YEARS.
+Dialogue: 0,0:00:02.64,0:00:03.19,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}KARL MALONE
+Dialogue: 0,0:00:03.19,0:00:03.53,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}OWNED IT,
+Dialogue: 0,0:00:03.53,0:00:04.19,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AT FORTY YEARS,
+Dialogue: 0,0:00:04.19,0:00:04.55,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}A HUNDRED
+Dialogue: 0,0:00:04.55,0:00:05.02,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TWENTY-SEVEN
+Dialogue: 0,0:00:05.02,0:00:05.42,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}DAYS OLD,
+Dialogue: 0,0:00:05.42,0:00:05.85,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BACK IN TWO
+Dialogue: 0,0:00:05.85,0:00:06.46,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THOUSAND THREE.
+Dialogue: 0,0:00:06.46,0:00:07.20,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THEN LEBRON JAMES
+Dialogue: 0,0:00:07.20,0:00:07.49,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BROKE IT
+Dialogue: 0,0:00:07.49,0:00:08.15,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN FEBRUARY.
+Dialogue: 0,0:00:08.15,0:00:08.88,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FORTY-ONE YEARS,
+Dialogue: 0,0:00:08.88,0:00:09.61,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FORTY-FOUR DAYS.
+Dialogue: 0,0:00:09.61,0:00:09.91,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HE BROKE
+Dialogue: 0,0:00:09.91,0:00:10.17,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HIS OWN
+Dialogue: 0,0:00:10.17,0:00:10.59,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}RECORD AGAIN
+Dialogue: 0,0:00:10.59,0:00:10.98,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN MARCH.
+Dialogue: 0,0:00:10.98,0:00:11.65,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FORTY-ONE YEARS,
+Dialogue: 0,0:00:11.65,0:00:12.38,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SEVENTY-NINE DAYS.
+Dialogue: 0,0:00:12.38,0:00:13.07,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ELEVEN DAYS LATER,
+Dialogue: 0,0:00:13.07,0:00:13.67,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}A THIRD TIME.
+Dialogue: 0,0:00:13.67,0:00:14.30,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FORTY-ONE YEARS,
+Dialogue: 0,0:00:14.30,0:00:14.85,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NINETY DAYS.
+Dialogue: 0,0:00:14.85,0:00:15.34,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THREE RECORDS
+Dialogue: 0,0:00:15.34,0:00:16.14,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN FORTY-SIX DAYS.
+Dialogue: 0,0:00:16.14,0:00:16.66,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}OPENING NIGHT
+Dialogue: 0,0:00:16.66,0:00:17.09,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IS OCTOBER
+Dialogue: 0,0:00:17.09,0:00:17.45,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TWENTIETH,
+Dialogue: 0,0:00:17.45,0:00:18.03,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AT THE KNICKS.
+Dialogue: 0,0:00:18.03,0:00:18.43,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}LEBRON WILL
+Dialogue: 0,0:00:18.43,0:00:19.11,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BE FORTY-ONE YEARS,
+Dialogue: 0,0:00:19.11,0:00:19.46,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TWO HUNDRED
+Dialogue: 0,0:00:19.46,0:00:19.80,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NINETY-FOUR
+Dialogue: 0,0:00:19.80,0:00:20.17,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}DAYS OLD.
+Dialogue: 0,0:00:20.17,0:00:20.80,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ANY TRIPLE-DOUBLE
+Dialogue: 0,0:00:20.80,0:00:21.15,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HE RECORDS
+Dialogue: 0,0:00:21.15,0:00:21.43,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FROM NOW
+Dialogue: 0,0:00:21.43,0:00:21.77,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ON IS THE
+Dialogue: 0,0:00:21.77,0:00:22.67,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}OLDEST EVER.

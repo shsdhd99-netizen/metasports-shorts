@@ -1,0 +1,567 @@
+[
+ {
+  "word": "LeBron",
+  "start": 0.0,
+  "end": 0.299
+ },
+ {
+  "word": "James",
+  "start": 0.351,
+  "end": 0.515
+ },
+ {
+  "word": "just",
+  "start": 0.557,
+  "end": 0.68
+ },
+ {
+  "word": "walked",
+  "start": 0.712,
+  "end": 0.918
+ },
+ {
+  "word": "into",
+  "start": 0.949,
+  "end": 1.072
+ },
+ {
+  "word": "Sixers",
+  "start": 1.124,
+  "end": 1.392
+ },
+ {
+  "word": "media",
+  "start": 1.434,
+  "end": 1.65
+ },
+ {
+  "word": "day,",
+  "start": 1.702,
+  "end": 1.857
+ },
+ {
+  "word": "and",
+  "start": 1.877,
+  "end": 1.939
+ },
+ {
+  "word": "asked",
+  "start": 1.991,
+  "end": 2.166
+ },
+ {
+  "word": "this.",
+  "start": 2.186,
+  "end": 2.64
+ },
+ {
+  "word": "You",
+  "start": 2.801,
+  "end": 2.821
+ },
+ {
+  "word": "guys",
+  "start": 2.861,
+  "end": 3.041
+ },
+ {
+  "word": "know",
+  "start": 3.061,
+  "end": 3.181
+ },
+ {
+  "word": "who",
+  "start": 3.221,
+  "end": 3.281
+ },
+ {
+  "word": "I",
+  "start": 3.361,
+  "end": 3.421
+ },
+ {
+  "word": "am,",
+  "start": 3.461,
+  "end": 3.561
+ },
+ {
+  "word": "right?",
+  "start": 3.641,
+  "end": 3.861
+ },
+ {
+  "word": "He's",
+  "start": 4.071,
+  "end": 4.28
+ },
+ {
+  "word": "on",
+  "start": 4.333,
+  "end": 4.407
+ },
+ {
+  "word": "an",
+  "start": 4.448,
+  "end": 4.5
+ },
+ {
+  "word": "$8 million",
+  "start": 4.553,
+  "end": 5.223
+ },
+ {
+  "word": "deal,",
+  "start": 5.266,
+  "end": 5.516
+ },
+ {
+  "word": "and",
+  "start": 5.559,
+  "end": 5.705
+ },
+ {
+  "word": "made",
+  "start": 5.757,
+  "end": 5.925
+ },
+ {
+  "word": "one",
+  "start": 5.977,
+  "end": 6.114
+ },
+ {
+  "word": "promise.",
+  "start": 6.155,
+  "end": 6.711
+ },
+ {
+  "word": "I",
+  "start": 6.88,
+  "end": 7.063
+ },
+ {
+  "word": "didn't",
+  "start": 7.063,
+  "end": 7.245
+ },
+ {
+  "word": "leave",
+  "start": 7.245,
+  "end": 7.427
+ },
+ {
+  "word": "my",
+  "start": 7.427,
+  "end": 7.61
+ },
+ {
+  "word": "family",
+  "start": 7.61,
+  "end": 7.793
+ },
+ {
+  "word": "to",
+  "start": 7.793,
+  "end": 7.975
+ },
+ {
+  "word": "lose",
+  "start": 7.975,
+  "end": 8.158
+ },
+ {
+  "word": "in",
+  "start": 8.158,
+  "end": 8.34
+ },
+ {
+  "word": "the",
+  "start": 8.34,
+  "end": 8.522
+ },
+ {
+  "word": "second",
+  "start": 8.522,
+  "end": 8.705
+ },
+ {
+  "word": "round.",
+  "start": 8.705,
+  "end": 8.887
+ },
+ {
+  "word": "I",
+  "start": 8.887,
+  "end": 9.07
+ },
+ {
+  "word": "know",
+  "start": 9.07,
+  "end": 9.253
+ },
+ {
+  "word": "that",
+  "start": 9.253,
+  "end": 9.435
+ },
+ {
+  "word": "for",
+  "start": 9.435,
+  "end": 9.617
+ },
+ {
+  "word": "sure.",
+  "start": 9.617,
+  "end": 9.8
+ },
+ {
+  "word": "Philly",
+  "start": 10.0,
+  "end": 10.291
+ },
+ {
+  "word": "hasn't",
+  "start": 10.346,
+  "end": 10.603
+ },
+ {
+  "word": "won",
+  "start": 10.626,
+  "end": 10.715
+ },
+ {
+  "word": "a",
+  "start": 10.759,
+  "end": 10.793
+ },
+ {
+  "word": "title",
+  "start": 10.838,
+  "end": 11.073
+ },
+ {
+  "word": "since",
+  "start": 11.106,
+  "end": 11.319
+ },
+ {
+  "word": "1983.",
+  "start": 11.363,
+  "end": 12.268
+ },
+ {
+  "word": "The",
+  "start": 12.302,
+  "end": 12.414
+ },
+ {
+  "word": "Knicks",
+  "start": 12.458,
+  "end": 12.659
+ },
+ {
+  "word": "swept",
+  "start": 12.681,
+  "end": 12.916
+ },
+ {
+  "word": "them",
+  "start": 12.938,
+  "end": 13.051
+ },
+ {
+  "word": "out",
+  "start": 13.084,
+  "end": 13.185
+ },
+ {
+  "word": "of",
+  "start": 13.218,
+  "end": 13.263
+ },
+ {
+  "word": "that",
+  "start": 13.308,
+  "end": 13.452
+ },
+ {
+  "word": "round",
+  "start": 13.509,
+  "end": 13.699
+ },
+ {
+  "word": "in",
+  "start": 13.743,
+  "end": 13.81
+ },
+ {
+  "word": "four",
+  "start": 13.866,
+  "end": 14.056
+ },
+ {
+  "word": "games.",
+  "start": 14.111,
+  "end": 14.436
+ },
+ {
+  "word": "The",
+  "start": 14.481,
+  "end": 14.581
+ },
+ {
+  "word": "next",
+  "start": 14.637,
+  "end": 14.838
+ },
+ {
+  "word": "day,",
+  "start": 14.883,
+  "end": 15.073
+ },
+ {
+  "word": "LeBron",
+  "start": 15.129,
+  "end": 15.419
+ },
+ {
+  "word": "left",
+  "start": 15.475,
+  "end": 15.621
+ },
+ {
+  "word": "practice",
+  "start": 15.654,
+  "end": 16.001
+ },
+ {
+  "word": "in",
+  "start": 16.023,
+  "end": 16.079
+ },
+ {
+  "word": "a",
+  "start": 16.112,
+  "end": 16.135
+ },
+ {
+  "word": "helicopter.",
+  "start": 16.179,
+  "end": 16.782
+ },
+ {
+  "word": "Forty-five",
+  "start": 16.827,
+  "end": 17.286
+ },
+ {
+  "word": "minutes",
+  "start": 17.319,
+  "end": 17.543
+ },
+ {
+  "word": "to",
+  "start": 17.576,
+  "end": 17.632
+ },
+ {
+  "word": "New",
+  "start": 17.688,
+  "end": 17.777
+ },
+ {
+  "word": "York.",
+  "start": 17.81,
+  "end": 18.079
+ },
+ {
+  "word": "Teammate",
+  "start": 18.112,
+  "end": 18.437
+ },
+ {
+  "word": "Tyrese",
+  "start": 18.459,
+  "end": 18.794
+ },
+ {
+  "word": "Maxey,",
+  "start": 18.827,
+  "end": 19.162
+ },
+ {
+  "word": "whose",
+  "start": 19.184,
+  "end": 19.353
+ },
+ {
+  "word": "car",
+  "start": 19.386,
+  "end": 19.509
+ },
+ {
+  "word": "broke",
+  "start": 19.554,
+  "end": 19.755
+ },
+ {
+  "word": "down",
+  "start": 19.777,
+  "end": 19.945
+ },
+ {
+  "word": "that",
+  "start": 19.978,
+  "end": 20.101
+ },
+ {
+  "word": "day,",
+  "start": 20.146,
+  "end": 20.347
+ },
+ {
+  "word": "had",
+  "start": 20.391,
+  "end": 20.526
+ },
+ {
+  "word": "the",
+  "start": 20.559,
+  "end": 20.626
+ },
+ {
+  "word": "line.",
+  "start": 20.682,
+  "end": 21.04
+ },
+ {
+  "word": "One",
+  "start": 21.194,
+  "end": 21.254
+ },
+ {
+  "word": "of",
+  "start": 21.294,
+  "end": 21.334
+ },
+ {
+  "word": "us",
+  "start": 21.394,
+  "end": 21.494
+ },
+ {
+  "word": "left",
+  "start": 21.534,
+  "end": 21.674
+ },
+ {
+  "word": "on",
+  "start": 21.714,
+  "end": 21.774
+ },
+ {
+  "word": "a",
+  "start": 21.794,
+  "end": 21.814
+ },
+ {
+  "word": "helicopter,",
+  "start": 21.834,
+  "end": 22.374
+ },
+ {
+  "word": "the",
+  "start": 22.434,
+  "end": 22.514
+ },
+ {
+  "word": "other",
+  "start": 22.554,
+  "end": 22.674
+ },
+ {
+  "word": "one",
+  "start": 22.694,
+  "end": 22.734
+ },
+ {
+  "word": "was",
+  "start": 22.774,
+  "end": 22.874
+ },
+ {
+  "word": "sitting",
+  "start": 22.914,
+  "end": 23.054
+ },
+ {
+  "word": "on",
+  "start": 23.074,
+  "end": 23.134
+ },
+ {
+  "word": "the",
+  "start": 23.154,
+  "end": 23.214
+ },
+ {
+  "word": "curb.",
+  "start": 23.254,
+  "end": 23.574
+ },
+ {
+  "word": "So",
+  "start": 23.854,
+  "end": 23.982
+ },
+ {
+  "word": "is",
+  "start": 24.04,
+  "end": 24.109
+ },
+ {
+  "word": "LeBron",
+  "start": 24.167,
+  "end": 24.446
+ },
+ {
+  "word": "all",
+  "start": 24.493,
+  "end": 24.62
+ },
+ {
+  "word": "in",
+  "start": 24.678,
+  "end": 24.748
+ },
+ {
+  "word": "on",
+  "start": 24.794,
+  "end": 24.864
+ },
+ {
+  "word": "Philly,",
+  "start": 24.911,
+  "end": 25.224
+ },
+ {
+  "word": "or",
+  "start": 25.259,
+  "end": 25.352
+ },
+ {
+  "word": "just",
+  "start": 25.41,
+  "end": 25.572
+ },
+ {
+  "word": "flying",
+  "start": 25.607,
+  "end": 25.839
+ },
+ {
+  "word": "through?",
+  "start": 25.874,
+  "end": 26.362
+ }
+]

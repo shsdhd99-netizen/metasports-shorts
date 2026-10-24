@@ -1,0 +1,517 @@
+[
+ {
+  "word": "Thirteen",
+  "start": 0.0,
+  "end": 0.306
+ },
+ {
+  "word": "years",
+  "start": 0.333,
+  "end": 0.468
+ },
+ {
+  "word": "in",
+  "start": 0.504,
+  "end": 0.54
+ },
+ {
+  "word": "Milwaukee.",
+  "start": 0.576,
+  "end": 0.945
+ },
+ {
+  "word": "Zero",
+  "start": 0.99,
+  "end": 1.179
+ },
+ {
+  "word": "games",
+  "start": 1.224,
+  "end": 1.377
+ },
+ {
+  "word": "against",
+  "start": 1.404,
+  "end": 1.566
+ },
+ {
+  "word": "the",
+  "start": 1.593,
+  "end": 1.647
+ },
+ {
+  "word": "Bucks.",
+  "start": 1.683,
+  "end": 1.908
+ },
+ {
+  "word": "Until",
+  "start": 1.926,
+  "end": 2.115
+ },
+ {
+  "word": "November",
+  "start": 2.16,
+  "end": 2.412
+ },
+ {
+  "word": "eighteenth.",
+  "start": 2.457,
+  "end": 2.88
+ },
+ {
+  "word": "And",
+  "start": 3.006,
+  "end": 3.135
+ },
+ {
+  "word": "he",
+  "start": 3.167,
+  "end": 3.221
+ },
+ {
+  "word": "won't",
+  "start": 3.265,
+  "end": 3.426
+ },
+ {
+  "word": "be",
+  "start": 3.447,
+  "end": 3.522
+ },
+ {
+  "word": "playing",
+  "start": 3.555,
+  "end": 3.802
+ },
+ {
+  "word": "for",
+  "start": 3.835,
+  "end": 3.921
+ },
+ {
+  "word": "Miami.",
+  "start": 3.975,
+  "end": 4.416
+ },
+ {
+  "word": "For",
+  "start": 4.449,
+  "end": 4.589
+ },
+ {
+  "word": "one",
+  "start": 4.642,
+  "end": 4.771
+ },
+ {
+  "word": "night",
+  "start": 4.804,
+  "end": 4.965
+ },
+ {
+  "word": "only,",
+  "start": 5.008,
+  "end": 5.255
+ },
+ {
+  "word": "the",
+  "start": 5.277,
+  "end": 5.374
+ },
+ {
+  "word": "Heat",
+  "start": 5.428,
+  "end": 5.6
+ },
+ {
+  "word": "trade",
+  "start": 5.643,
+  "end": 5.869
+ },
+ {
+  "word": "Miami",
+  "start": 5.901,
+  "end": 6.192
+ },
+ {
+  "word": "for",
+  "start": 6.246,
+  "end": 6.343
+ },
+ {
+  "word": "Vice",
+  "start": 6.386,
+  "end": 6.59
+ },
+ {
+  "word": "City:",
+  "start": 6.623,
+  "end": 6.935
+ },
+ {
+  "word": "a",
+  "start": 6.978,
+  "end": 7.021
+ },
+ {
+  "word": "new",
+  "start": 7.085,
+  "end": 7.204
+ },
+ {
+  "word": "court,",
+  "start": 7.258,
+  "end": 7.527
+ },
+ {
+  "word": "a",
+  "start": 7.559,
+  "end": 7.602
+ },
+ {
+  "word": "new",
+  "start": 7.667,
+  "end": 7.774
+ },
+ {
+  "word": "uniform,",
+  "start": 7.828,
+  "end": 8.259
+ },
+ {
+  "word": "live",
+  "start": 8.313,
+  "end": 8.495
+ },
+ {
+  "word": "on",
+  "start": 8.528,
+  "end": 8.603
+ },
+ {
+  "word": "ESPN,",
+  "start": 8.668,
+  "end": 9.174
+ },
+ {
+  "word": "the",
+  "start": 9.206,
+  "end": 9.282
+ },
+ {
+  "word": "night",
+  "start": 9.324,
+  "end": 9.475
+ },
+ {
+  "word": "before",
+  "start": 9.507,
+  "end": 9.744
+ },
+ {
+  "word": "Grand",
+  "start": 9.787,
+  "end": 10.013
+ },
+ {
+  "word": "Theft",
+  "start": 10.067,
+  "end": 10.282
+ },
+ {
+  "word": "Auto",
+  "start": 10.325,
+  "end": 10.508
+ },
+ {
+  "word": "six.",
+  "start": 10.583,
+  "end": 10.939
+ },
+ {
+  "word": "After",
+  "start": 10.971,
+  "end": 11.197
+ },
+ {
+  "word": "the",
+  "start": 11.24,
+  "end": 11.304
+ },
+ {
+  "word": "trade,",
+  "start": 11.348,
+  "end": 11.649
+ },
+ {
+  "word": "Giannis",
+  "start": 11.671,
+  "end": 11.951
+ },
+ {
+  "word": "watched",
+  "start": 12.004,
+  "end": 12.273
+ },
+ {
+  "word": "a",
+  "start": 12.317,
+  "end": 12.338
+ },
+ {
+  "word": "video",
+  "start": 12.392,
+  "end": 12.628
+ },
+ {
+  "word": "from",
+  "start": 12.682,
+  "end": 12.801
+ },
+ {
+  "word": "Bucks",
+  "start": 12.855,
+  "end": 13.081
+ },
+ {
+  "word": "fans",
+  "start": 13.135,
+  "end": 13.403
+ },
+ {
+  "word": "and",
+  "start": 13.436,
+  "end": 13.543
+ },
+ {
+  "word": "got",
+  "start": 13.597,
+  "end": 13.727
+ },
+ {
+  "word": "emotional.",
+  "start": 13.77,
+  "end": 14.286
+ },
+ {
+  "word": "But",
+  "start": 14.402,
+  "end": 14.619
+ },
+ {
+  "word": "Milwaukee",
+  "start": 14.619,
+  "end": 14.836
+ },
+ {
+  "word": "will",
+  "start": 14.836,
+  "end": 15.053
+ },
+ {
+  "word": "always",
+  "start": 15.053,
+  "end": 15.27
+ },
+ {
+  "word": "be",
+  "start": 15.27,
+  "end": 15.487
+ },
+ {
+  "word": "my",
+  "start": 15.487,
+  "end": 15.704
+ },
+ {
+  "word": "home.",
+  "start": 15.704,
+  "end": 15.922
+ },
+ {
+  "word": "He's",
+  "start": 16.162,
+  "end": 16.343
+ },
+ {
+  "word": "not",
+  "start": 16.386,
+  "end": 16.504
+ },
+ {
+  "word": "the",
+  "start": 16.525,
+  "end": 16.6
+ },
+ {
+  "word": "only",
+  "start": 16.642,
+  "end": 16.781
+ },
+ {
+  "word": "one",
+  "start": 16.834,
+  "end": 16.931
+ },
+ {
+  "word": "going",
+  "start": 16.963,
+  "end": 17.134
+ },
+ {
+  "word": "back.",
+  "start": 17.187,
+  "end": 17.422
+ },
+ {
+  "word": "Bobby",
+  "start": 17.454,
+  "end": 17.678
+ },
+ {
+  "word": "Portis",
+  "start": 17.731,
+  "end": 17.966
+ },
+ {
+  "word": "faces",
+  "start": 18.009,
+  "end": 18.244
+ },
+ {
+  "word": "Milwaukee.",
+  "start": 18.286,
+  "end": 18.777
+ },
+ {
+  "word": "And",
+  "start": 18.799,
+  "end": 18.884
+ },
+ {
+  "word": "the",
+  "start": 18.927,
+  "end": 18.991
+ },
+ {
+  "word": "four",
+  "start": 19.033,
+  "end": 19.193
+ },
+ {
+  "word": "players",
+  "start": 19.237,
+  "end": 19.492
+ },
+ {
+  "word": "the",
+  "start": 19.524,
+  "end": 19.589
+ },
+ {
+  "word": "Heat",
+  "start": 19.642,
+  "end": 19.781
+ },
+ {
+  "word": "sent",
+  "start": 19.823,
+  "end": 19.973
+ },
+ {
+  "word": "for",
+  "start": 20.005,
+  "end": 20.101
+ },
+ {
+  "word": "him,",
+  "start": 20.154,
+  "end": 20.346
+ },
+ {
+  "word": "Herro,",
+  "start": 20.389,
+  "end": 20.72
+ },
+ {
+  "word": "Ware,",
+  "start": 20.774,
+  "end": 21.051
+ },
+ {
+  "word": "Jaquez",
+  "start": 21.104,
+  "end": 21.446
+ },
+ {
+  "word": "and",
+  "start": 21.499,
+  "end": 21.564
+ },
+ {
+  "word": "Jakucionis,",
+  "start": 21.617,
+  "end": 22.396
+ },
+ {
+  "word": "face",
+  "start": 22.428,
+  "end": 22.652
+ },
+ {
+  "word": "Miami.",
+  "start": 22.684,
+  "end": 23.122
+ },
+ {
+  "word": "Six",
+  "start": 23.249,
+  "end": 23.422
+ },
+ {
+  "word": "players.",
+  "start": 23.458,
+  "end": 23.785
+ },
+ {
+  "word": "Two",
+  "start": 23.831,
+  "end": 23.967
+ },
+ {
+  "word": "old",
+  "start": 24.012,
+  "end": 24.131
+ },
+ {
+  "word": "teams.",
+  "start": 24.158,
+  "end": 24.431
+ },
+ {
+  "word": "One",
+  "start": 24.54,
+  "end": 24.704
+ },
+ {
+  "word": "city",
+  "start": 24.731,
+  "end": 24.876
+ },
+ {
+  "word": "that",
+  "start": 24.904,
+  "end": 24.986
+ },
+ {
+  "word": "doesn't",
+  "start": 25.012,
+  "end": 25.203
+ },
+ {
+  "word": "exist.",
+  "start": 25.231,
+  "end": 25.649
+ }
+]

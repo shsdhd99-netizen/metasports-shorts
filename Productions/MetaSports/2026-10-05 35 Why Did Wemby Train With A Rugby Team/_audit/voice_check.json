@@ -1,0 +1,40 @@
+{
+ "verdict": "REDO",
+ "wpm": 246,
+ "issues": [
+  "20.14s  script \"in\" but heard \"(nothing)\""
+ ],
+ "notes": [
+  " 0.00s  \"wembanyama\" heard as \"wembun yama\" (close; check the name)",
+  " 7.18s  \"wemby\" heard as \"wembie\" (close; check the name)",
+  "13.12s  \"lineout\" heard as \"line out\" (close; check the name)",
+  " 3.70s  very quiet word \"it.\" (-13 dB)"
+ ],
+ "heard": "Wembun Yama spent four days with a pro rugby team and only now can you see it. Provence Rugby, a French second division club, posted the footage this weekend. Wembie in cleats next to Harrison Barnes. He admits he has never tackled in his life. They hand him a tackle shield, then the forwards lift him in a line out. The coach says a man that size makes for some very strange situations. Last summer, it was Kung Fu at Shaolin Temple. So why Rugby? The training itself was really hard. I think it was really good for the vestibular system, new movement patterns.",
+ "mismatches": [
+  {
+   "at": 0.0,
+   "script": "wembanyama",
+   "heard": "wembun yama",
+   "similar": 0.9
+  },
+  {
+   "at": 7.18,
+   "script": "wemby",
+   "heard": "wembie",
+   "similar": 0.73
+  },
+  {
+   "at": 13.12,
+   "script": "lineout",
+   "heard": "line out",
+   "similar": 1.0
+  },
+  {
+   "at": 20.14,
+   "script": "in",
+   "heard": "",
+   "similar": 0.0
+  }
+ ]
+}

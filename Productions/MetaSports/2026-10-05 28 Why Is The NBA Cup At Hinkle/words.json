@@ -1,0 +1,492 @@
+[
+ {
+  "word": "The",
+  "start": 0.0,
+  "end": 0.113
+ },
+ {
+  "word": "NBA",
+  "start": 0.164,
+  "end": 0.409
+ },
+ {
+  "word": "Cup",
+  "start": 0.45,
+  "end": 0.552
+ },
+ {
+  "word": "final",
+  "start": 0.603,
+  "end": 0.818
+ },
+ {
+  "word": "is",
+  "start": 0.869,
+  "end": 0.941
+ },
+ {
+  "word": "going",
+  "start": 0.982,
+  "end": 1.135
+ },
+ {
+  "word": "to",
+  "start": 1.176,
+  "end": 1.227
+ },
+ {
+  "word": "a",
+  "start": 1.278,
+  "end": 1.298
+ },
+ {
+  "word": "gym",
+  "start": 1.35,
+  "end": 1.493
+ },
+ {
+  "word": "built",
+  "start": 1.544,
+  "end": 1.697
+ },
+ {
+  "word": "in",
+  "start": 1.739,
+  "end": 1.79
+ },
+ {
+  "word": "nineteen",
+  "start": 1.841,
+  "end": 2.107
+ },
+ {
+  "word": "twenty-eight.",
+  "start": 2.137,
+  "end": 2.577
+ },
+ {
+  "word": "Hinkle",
+  "start": 2.628,
+  "end": 2.915
+ },
+ {
+  "word": "Fieldhouse",
+  "start": 2.935,
+  "end": 3.283
+ },
+ {
+  "word": "seats",
+  "start": 3.303,
+  "end": 3.498
+ },
+ {
+  "word": "about",
+  "start": 3.518,
+  "end": 3.712
+ },
+ {
+  "word": "nine",
+  "start": 3.773,
+  "end": 3.957
+ },
+ {
+  "word": "thousand.",
+  "start": 3.998,
+  "end": 4.366
+ },
+ {
+  "word": "The",
+  "start": 4.387,
+  "end": 4.459
+ },
+ {
+  "word": "first",
+  "start": 4.51,
+  "end": 4.683
+ },
+ {
+  "word": "three",
+  "start": 4.714,
+  "end": 4.888
+ },
+ {
+  "word": "Cup",
+  "start": 4.918,
+  "end": 5.031
+ },
+ {
+  "word": "finals",
+  "start": 5.082,
+  "end": 5.328
+ },
+ {
+  "word": "were",
+  "start": 5.368,
+  "end": 5.512
+ },
+ {
+  "word": "all",
+  "start": 5.563,
+  "end": 5.747
+ },
+ {
+  "word": "in",
+  "start": 5.798,
+  "end": 5.849
+ },
+ {
+  "word": "Las",
+  "start": 5.9,
+  "end": 6.043
+ },
+ {
+  "word": "Vegas.",
+  "start": 6.105,
+  "end": 6.484
+ },
+ {
+  "word": "But",
+  "start": 6.504,
+  "end": 6.637
+ },
+ {
+  "word": "Hinkle",
+  "start": 6.677,
+  "end": 6.934
+ },
+ {
+  "word": "was",
+  "start": 6.964,
+  "end": 7.066
+ },
+ {
+  "word": "never",
+  "start": 7.138,
+  "end": 7.322
+ },
+ {
+  "word": "small.",
+  "start": 7.373,
+  "end": 7.68
+ },
+ {
+  "word": "It",
+  "start": 7.7,
+  "end": 7.813
+ },
+ {
+  "word": "opened",
+  "start": 7.864,
+  "end": 8.088
+ },
+ {
+  "word": "with",
+  "start": 8.11,
+  "end": 8.221
+ },
+ {
+  "word": "fifteen",
+  "start": 8.272,
+  "end": 8.58
+ },
+ {
+  "word": "thousand",
+  "start": 8.62,
+  "end": 8.886
+ },
+ {
+  "word": "seats,",
+  "start": 8.937,
+  "end": 9.194
+ },
+ {
+  "word": "the",
+  "start": 9.245,
+  "end": 9.347
+ },
+ {
+  "word": "biggest",
+  "start": 9.418,
+  "end": 9.674
+ },
+ {
+  "word": "basketball",
+  "start": 9.715,
+  "end": 10.093
+ },
+ {
+  "word": "arena",
+  "start": 10.124,
+  "end": 10.359
+ },
+ {
+  "word": "in",
+  "start": 10.39,
+  "end": 10.441
+ },
+ {
+  "word": "America",
+  "start": 10.472,
+  "end": 10.778
+ },
+ {
+  "word": "until",
+  "start": 10.829,
+  "end": 11.024
+ },
+ {
+  "word": "nineteen",
+  "start": 11.075,
+  "end": 11.361
+ },
+ {
+  "word": "fifty.",
+  "start": 11.402,
+  "end": 11.719
+ },
+ {
+  "word": "Tiny",
+  "start": 11.77,
+  "end": 12.026
+ },
+ {
+  "word": "Milan",
+  "start": 12.067,
+  "end": 12.292
+ },
+ {
+  "word": "beat",
+  "start": 12.333,
+  "end": 12.466
+ },
+ {
+  "word": "Muncie",
+  "start": 12.506,
+  "end": 12.752
+ },
+ {
+  "word": "here",
+  "start": 12.783,
+  "end": 12.926
+ },
+ {
+  "word": "in",
+  "start": 12.957,
+  "end": 13.018
+ },
+ {
+  "word": "nineteen",
+  "start": 13.059,
+  "end": 13.325
+ },
+ {
+  "word": "fifty-four,",
+  "start": 13.365,
+  "end": 13.795
+ },
+ {
+  "word": "the",
+  "start": 13.826,
+  "end": 13.928
+ },
+ {
+  "word": "real",
+  "start": 14.02,
+  "end": 14.214
+ },
+ {
+  "word": "Hoosiers",
+  "start": 14.255,
+  "end": 14.542
+ },
+ {
+  "word": "game.",
+  "start": 14.583,
+  "end": 14.879
+ },
+ {
+  "word": "Oscar",
+  "start": 14.971,
+  "end": 15.257
+ },
+ {
+  "word": "Robertson",
+  "start": 15.299,
+  "end": 15.636
+ },
+ {
+  "word": "won",
+  "start": 15.687,
+  "end": 15.8
+ },
+ {
+  "word": "two",
+  "start": 15.851,
+  "end": 16.004
+ },
+ {
+  "word": "state",
+  "start": 16.055,
+  "end": 16.27
+ },
+ {
+  "word": "titles",
+  "start": 16.29,
+  "end": 16.526
+ },
+ {
+  "word": "here.",
+  "start": 16.566,
+  "end": 16.781
+ },
+ {
+  "word": "Brad",
+  "start": 16.812,
+  "end": 17.027
+ },
+ {
+  "word": "Stevens",
+  "start": 17.078,
+  "end": 17.364
+ },
+ {
+  "word": "coached",
+  "start": 17.405,
+  "end": 17.61
+ },
+ {
+  "word": "Butler",
+  "start": 17.63,
+  "end": 17.855
+ },
+ {
+  "word": "from",
+  "start": 17.896,
+  "end": 17.998
+ },
+ {
+  "word": "here",
+  "start": 18.049,
+  "end": 18.182
+ },
+ {
+  "word": "to",
+  "start": 18.213,
+  "end": 18.264
+ },
+ {
+  "word": "two",
+  "start": 18.305,
+  "end": 18.458
+ },
+ {
+  "word": "Final",
+  "start": 18.509,
+  "end": 18.735
+ },
+ {
+  "word": "Fours.",
+  "start": 18.775,
+  "end": 19.123
+ },
+ {
+  "word": "Now",
+  "start": 19.185,
+  "end": 19.348
+ },
+ {
+  "word": "the",
+  "start": 19.4,
+  "end": 19.471
+ },
+ {
+  "word": "NBA",
+  "start": 19.522,
+  "end": 19.829
+ },
+ {
+  "word": "is",
+  "start": 19.849,
+  "end": 19.931
+ },
+ {
+  "word": "coming.",
+  "start": 19.982,
+  "end": 20.238
+ },
+ {
+  "word": "December",
+  "start": 20.268,
+  "end": 20.585
+ },
+ {
+  "word": "eleventh,",
+  "start": 20.636,
+  "end": 20.964
+ },
+ {
+  "word": "winner",
+  "start": 20.984,
+  "end": 21.179
+ },
+ {
+  "word": "takes",
+  "start": 21.219,
+  "end": 21.403
+ },
+ {
+  "word": "the",
+  "start": 21.424,
+  "end": 21.485
+ },
+ {
+  "word": "Cup,",
+  "start": 21.516,
+  "end": 21.721
+ },
+ {
+  "word": "in",
+  "start": 21.751,
+  "end": 21.843
+ },
+ {
+  "word": "what",
+  "start": 21.884,
+  "end": 21.987
+ },
+ {
+  "word": "was",
+  "start": 22.027,
+  "end": 22.109
+ },
+ {
+  "word": "once",
+  "start": 22.16,
+  "end": 22.324
+ },
+ {
+  "word": "the",
+  "start": 22.355,
+  "end": 22.426
+ },
+ {
+  "word": "biggest",
+  "start": 22.467,
+  "end": 22.712
+ },
+ {
+  "word": "gym",
+  "start": 22.743,
+  "end": 22.856
+ },
+ {
+  "word": "in",
+  "start": 22.896,
+  "end": 22.938
+ },
+ {
+  "word": "America.",
+  "start": 22.968,
+  "end": 23.52
+ }
+]

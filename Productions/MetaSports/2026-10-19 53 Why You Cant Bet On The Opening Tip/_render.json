@@ -1,0 +1,26 @@
+{
+ "engine": "ffmpeg",
+ "out": "final.mp4",
+ "loop_fix": true,
+ "fits": [
+  {
+   "shot": 7,
+   "clip": "S7o.mp4",
+   "fit": "slowed",
+   "factor": 1.05
+  },
+  {
+   "shot": 9,
+   "clip": "S9o.mp4",
+   "fit": "slowed",
+   "factor": 1.115
+  },
+  {
+   "shot": 13,
+   "clip": "S13.mp4",
+   "fit": "slowed",
+   "factor": 1.021
+  }
+ ],
+ "music": null
+}

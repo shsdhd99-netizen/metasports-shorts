@@ -1,0 +1,467 @@
+{
+ "sources": {
+  "D": "src/motd_derby.mp4"
+ },
+ "shots": [
+  {
+   "clip": "B01",
+   "src": "D",
+   "at": 554.0,
+   "len": 2.0,
+   "x": 0.45,
+   "kind": "face",
+   "shot_zoom": 0.05,
+   "why": "Mario Balotelli at Old Trafford, Oct 23 2011 (BBC Match of the Day highlights, archive.org)"
+  },
+  {
+   "clip": "B02",
+   "src": "D",
+   "at": 172.3,
+   "len": 1.5,
+   "blurfit": true,
+   "kind": "action",
+   "anchor": "Back in October",
+   "why": "The teams walk out at Old Trafford for the derby"
+  },
+  {
+   "clip": "B03",
+   "src": "D",
+   "at": 174.2,
+   "len": 1.4,
+   "blurfit": true,
+   "kind": "action",
+   "anchor": "Manchester City were",
+   "why": "City and United players on the walk-out"
+  },
+  {
+   "clip": "B04",
+   "src": "D",
+   "at": 180.0,
+   "len": 1.5,
+   "x": 0.45,
+   "kind": "action",
+   "anchor": "Manchester United at Old Trafford",
+   "why": "Nani (#17) walks out at Old Trafford"
+  },
+  {
+   "clip": "B05",
+   "src": "D",
+   "at": 780.1,
+   "len": 2.2,
+   "x": 0.27,
+   "kind": "face",
+   "anchor": "and up front for",
+   "why": "Mario Balotelli laughing on the City bench with Sergio Agüero"
+  },
+  {
+   "clip": "B06",
+   "stock": 47669,
+   "at": 1.0,
+   "len": 1.4,
+   "kind": "action",
+   "anchor": "But just before",
+   "why": "A city at night (stock, Mixkit)"
+  },
+  {
+   "clip": "B07",
+   "at": 211.5,
+   "len": 1.3,
+   "kind": "action",
+   "anchor": "on the day before",
+   "why": "Old Trafford, the derby pitch at kick-off",
+   "src": "D",
+   "blurfit": true
+  },
+  {
+   "clip": "B08",
+   "stock": 5296,
+   "at": 1.0,
+   "len": 1.7,
+   "kind": "action",
+   "anchor": "two fire crews",
+   "why": "Fire engines spraying water (stock, Mixkit)"
+  },
+  {
+   "clip": "B09",
+   "stock": 46896,
+   "at": 1.0,
+   "len": 1.6,
+   "kind": "action",
+   "anchor": "Balotelli had four",
+   "why": "Friends partying at night (stock, Mixkit)"
+  },
+  {
+   "clip": "B10",
+   "stock": 4151,
+   "at": 1.0,
+   "len": 1.3,
+   "kind": "action",
+   "anchor": "and they were letting",
+   "why": "Fireworks going off (stock, Mixkit)"
+  },
+  {
+   "clip": "B11",
+   "stock": 47071,
+   "at": 1.0,
+   "len": 1.3,
+   "kind": "action",
+   "anchor": "out of the bathroom",
+   "why": "Bathroom taps (stock, Mixkit)"
+  },
+  {
+   "clip": "B12",
+   "stock": 52312,
+   "at": 1.0,
+   "len": 1.2,
+   "kind": "action",
+   "anchor": "The towels caught",
+   "why": "Flames (stock, Mixkit)"
+  },
+  {
+   "clip": "B13",
+   "stock": 5280,
+   "at": 1.0,
+   "len": 1.7,
+   "kind": "action",
+   "anchor": "and the bathroom went",
+   "why": "Smoke pouring from a burning building, fire ladder (stock, Mixkit)"
+  },
+  {
+   "clip": "B14",
+   "stock": 49157,
+   "at": 1.0,
+   "len": 2.1,
+   "kind": "action",
+   "anchor": "Firefighters had to",
+   "why": "Firefighters with breathing apparatus (stock, Mixkit)"
+  },
+  {
+   "clip": "B15",
+   "src": "D",
+   "at": 657.0,
+   "len": 1.75,
+   "x": 0.4,
+   "kind": "face",
+   "anchor": "And reports say",
+   "why": "Balotelli (#45) walks to the City bench when he is substituted"
+  },
+  {
+   "clip": "B16",
+   "stock": 45509,
+   "at": 1.0,
+   "len": 1.5,
+   "kind": "action",
+   "anchor": "back inside to grab",
+   "why": "A suitcase being packed (stock, Mixkit)"
+  },
+  {
+   "clip": "B17",
+   "stock": 18304,
+   "at": 0.5,
+   "len": 1.2,
+   "kind": "action",
+   "anchor": "and some cash",
+   "why": "Counting bank notes (stock, Mixkit)"
+  },
+  {
+   "clip": "B18",
+   "stock": 24165,
+   "at": 1.0,
+   "len": 1.7,
+   "kind": "action",
+   "anchor": "so the police",
+   "why": "A police officer by a police car (stock, Mixkit)"
+  },
+  {
+   "clip": "B19",
+   "still": "assets/card_bbc.jpg",
+   "len": 1.8,
+   "kind": "card",
+   "anchor": "By the morning",
+   "why": "BBC Sport headline, Oct 22 2011: 'Mario Balotelli unhurt in firework blaze ahead of Man Utd - City derby'"
+  },
+  {
+   "clip": "B20",
+   "stock": 4029,
+   "at": 1.0,
+   "len": 1.7,
+   "kind": "action",
+   "anchor": "But Balotelli checked",
+   "why": "A hotel room (stock, Mixkit)"
+  },
+  {
+   "clip": "B21",
+   "stock": 28897,
+   "at": 1.0,
+   "len": 0.9,
+   "kind": "action",
+   "anchor": "and at 10",
+   "why": "A clock at ten past ten (stock, Mixkit)"
+  },
+  {
+   "clip": "B22",
+   "stock": 43499,
+   "at": 1.0,
+   "len": 1.9,
+   "kind": "action",
+   "anchor": "he turned up for",
+   "why": "A footballer training on a pitch (stock, Mixkit)"
+  },
+  {
+   "clip": "B23",
+   "src": "D",
+   "at": 985.0,
+   "len": 1.4,
+   "x": 0.4,
+   "kind": "face",
+   "anchor": "And Roberto Mancini",
+   "why": "Roberto Mancini, City manager (BBC interview after the match)"
+  },
+  {
+   "clip": "B24",
+   "len": 1.3,
+   "kind": "card",
+   "anchor": "still put him",
+   "why": "BBC line-up graphic: Manchester City, Balotelli (#45) up front (boxed)",
+   "still": "assets/card_lineup.jpg"
+  },
+  {
+   "clip": "B25",
+   "src": "D",
+   "at": 311.0,
+   "len": 1.1,
+   "blurfit": true,
+   "kind": "action",
+   "anchor": "After 22 minutes",
+   "why": "City's attack before the first goal"
+  },
+  {
+   "clip": "B26",
+   "src": "D",
+   "at": 316.8,
+   "len": 1.2,
+   "blurfit": true,
+   "kind": "action",
+   "anchor": "Balotelli scored",
+   "why": "Balotelli's first goal"
+  },
+  {
+   "clip": "B27",
+   "src": "D",
+   "at": 319.9,
+   "len": 1.9,
+   "x": 0.4,
+   "kind": "face",
+   "anchor": "Then he lifted",
+   "why": "Balotelli lifts his shirt: WHY ALWAYS ME?"
+  },
+  {
+   "clip": "B28",
+   "src": "D",
+   "at": 322.1,
+   "len": 1.3,
+   "blurfit": true,
+   "zoom": 1.3,
+   "kind": "action",
+   "anchor": "to show a message",
+   "why": "Team-mates hug Balotelli, the T-shirt visible"
+  },
+  {
+   "clip": "B29",
+   "src": "D",
+   "at": 348.0,
+   "len": 1.0,
+   "blurfit": true,
+   "zoom": 1.2,
+   "kind": "card",
+   "anchor": "Why always me",
+   "why": "The T-shirt with the graphic MAN UTD 0-1 MAN CITY, Balotelli 22'"
+  },
+  {
+   "clip": "B30",
+   "src": "D",
+   "at": 596.9,
+   "len": 1.1,
+   "x": 0.5,
+   "kind": "action",
+   "anchor": "The referee booked",
+   "why": "Referee Mark Clattenburg shows a yellow card in this match (illustrative: the broadcast does not show Balotelli's booking itself)"
+  },
+  {
+   "clip": "B31",
+   "src": "D",
+   "at": 501.0,
+   "len": 1.5,
+   "x": 0.4,
+   "kind": "face",
+   "anchor": "But it got even",
+   "why": "Sir Alex Ferguson in the United dugout"
+  },
+  {
+   "clip": "B32",
+   "src": "D",
+   "at": 549.7,
+   "len": 0.8,
+   "blurfit": true,
+   "kind": "action",
+   "anchor": "In the second half",
+   "why": "Balotelli's second goal, wide"
+  },
+  {
+   "clip": "B33",
+   "src": "D",
+   "at": 574.0,
+   "len": 1.3,
+   "blurfit": true,
+   "zoom": 1.3,
+   "kind": "action",
+   "anchor": "Balotelli scored again",
+   "why": "Replay: Milner's pass, Balotelli scores the second"
+  },
+  {
+   "clip": "B34",
+   "src": "D",
+   "at": 651.5,
+   "len": 1.5,
+   "blurfit": true,
+   "zoom": 1.2,
+   "kind": "action",
+   "anchor": "and City just kept",
+   "why": "Sergio Agüero with the ball after the third goal, graphic 0-3"
+  },
+  {
+   "clip": "B35",
+   "src": "D",
+   "at": 792.2,
+   "len": 0.8,
+   "blurfit": true,
+   "zoom": 1.3,
+   "kind": "action",
+   "anchor": "Three",
+   "why": "Edin Dzeko celebrates a goal"
+  },
+  {
+   "clip": "B36",
+   "src": "D",
+   "at": 839.6,
+   "len": 1.0,
+   "x": 0.5,
+   "kind": "action",
+   "anchor": "five",
+   "why": "David Silva and Edin Dzeko celebrate"
+  },
+  {
+   "clip": "B37",
+   "src": "D",
+   "at": 937.6,
+   "len": 1.6,
+   "x": 0.5,
+   "kind": "action",
+   "anchor": "Manchester City won",
+   "why": "City fans celebrating at Old Trafford"
+  },
+  {
+   "clip": "B38",
+   "src": "D",
+   "at": 766.0,
+   "len": 1.3,
+   "x": 0.5,
+   "kind": "face",
+   "anchor": "United's worst home",
+   "why": "Sir Alex Ferguson, close-up"
+  },
+  {
+   "clip": "B39",
+   "still": "assets/card_1955.jpg",
+   "len": 1.4,
+   "kind": "card",
+   "anchor": "since 1955",
+   "why": "BBC Match of the Day graphic: THEIR WORST DEFEAT AT OLD TRAFFORD SINCE 1955 (boxed)"
+  },
+  {
+   "clip": "B40",
+   "src": "D",
+   "at": 1028.5,
+   "len": 1.8,
+   "x": 0.5,
+   "kind": "face",
+   "anchor": "and City went five",
+   "why": "City captain Vincent Kompany after the match"
+  },
+  {
+   "clip": "B41",
+   "src": "D",
+   "at": 556.1,
+   "len": 1.25,
+   "x": 0.45,
+   "kind": "face",
+   "anchor": "But here's the wild",
+   "why": "Balotelli at Old Trafford (same shot as B01, later seconds)"
+  },
+  {
+   "clip": "B42",
+   "src": "D",
+   "at": 323.6,
+   "len": 1.8,
+   "blurfit": true,
+   "zoom": 1.3,
+   "kind": "action",
+   "anchor": "That shirt had",
+   "why": "The WHY ALWAYS ME? T-shirt during the celebration"
+  },
+  {
+   "clip": "B43",
+   "stock": 45045,
+   "at": 1.0,
+   "len": 1.7,
+   "kind": "action",
+   "anchor": "Balotelli asked the kit",
+   "why": "T-shirts on a rail (stock, Mixkit)"
+  },
+  {
+   "clip": "B44",
+   "stock": 17412,
+   "at": 1.0,
+   "len": 1.7,
+   "kind": "action",
+   "anchor": "on the Monday",
+   "why": "A calendar (stock, Mixkit)"
+  },
+  {
+   "clip": "B45",
+   "stock": 52304,
+   "at": 1.0,
+   "len": 1.3,
+   "kind": "action",
+   "anchor": "days before any",
+   "why": "Flames (stock, Mixkit)"
+  },
+  {
+   "clip": "B46",
+   "stock": 34190,
+   "at": 1.0,
+   "len": 1.2,
+   "kind": "action",
+   "anchor": "And the day after",
+   "why": "Reading a newspaper (stock, Mixkit)"
+  },
+  {
+   "clip": "B47",
+   "src": "D",
+   "at": 782.3,
+   "len": 1.7,
+   "x": 0.27,
+   "kind": "face",
+   "anchor": "the man whose",
+   "why": "Balotelli on the City bench (same shot as B05, later seconds)"
+  },
+  {
+   "clip": "B48",
+   "still": "assets/card_mcfc.jpg",
+   "len": 2.8,
+   "kind": "card",
+   "anchor": "was telling Manchester",
+   "why": "mancity.com, Mon 24 Oct 2011: 'Mario backs firework safety campaign', photo of Balotelli holding a Bonfire Night safety poster"
+  }
+ ]
+}

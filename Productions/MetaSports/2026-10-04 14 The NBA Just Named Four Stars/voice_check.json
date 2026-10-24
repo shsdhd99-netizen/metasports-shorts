@@ -1,0 +1,18 @@
+{
+ "verdict": "PASS",
+ "wpm": 248,
+ "issues": [],
+ "notes": [
+  "21.94s  \"should have\" heard as \"should've\" (close; check the name)",
+  "26.11s  very quiet word \"first?\" (-12 dB)"
+ ],
+ "heard": "The NBA just named four stars in one video about one illegal move. Jaylen Brown, Paolo Banchero, Donovan Mitchell, RJ Barrett. The move is the off-arm push off, using your free arm to shove a defender and make space for a shot. The league says all four committed offensive fouls, but the same video shows what's still legal. CJ McCollum firmed up, and Paul George only felt the defender. No force, no full extension. Then there's Jalen Suggs. He was called for an offensive foul, and the NBA now says it should've been a no call. So the whole rule comes down to one word, force. Which star gets called first?",
+ "mismatches": [
+  {
+   "at": 21.94,
+   "script": "should have",
+   "heard": "should've",
+   "similar": 0.84
+  }
+ ]
+}

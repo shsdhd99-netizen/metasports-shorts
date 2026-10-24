@@ -1,0 +1,53 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Montserrat Black,86,&H00FFFFFF,&H00FFFFFF,&H00000000,&H99000000,0,0,0,0,95,100,1,0,1,6,3,5,70,70,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.43,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THIS MAN
+Dialogue: 0,0:00:00.43,0:00:01.10,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IS LISTED TALLER
+Dialogue: 0,0:00:01.10,0:00:02.17,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THAN VICTOR WEMBANYAMA.
+Dialogue: 0,0:00:02.17,0:00:02.75,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND HE'S NEVER
+Dialogue: 0,0:00:02.75,0:00:03.45,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}PLAYED AN NBA
+Dialogue: 0,0:00:03.45,0:00:04.40,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}GAME THAT COUNTS.
+Dialogue: 0,0:00:04.40,0:00:05.36,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}JAMARION SHARP.
+Dialogue: 0,0:00:05.36,0:00:06.51,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}LISTED SEVEN-FOOT-FIVE.
+Dialogue: 0,0:00:06.51,0:00:07.14,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}DALLAS BROUGHT HIM
+Dialogue: 0,0:00:07.14,0:00:07.99,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TO CAMP TWICE.
+Dialogue: 0,0:00:07.99,0:00:08.78,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}CUT HIM TWICE.
+Dialogue: 0,0:00:08.78,0:00:09.16,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE CLIPPERS
+Dialogue: 0,0:00:09.16,0:00:09.50,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SIGNED HIM
+Dialogue: 0,0:00:09.50,0:00:10.03,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THIS SUMMER.
+Dialogue: 0,0:00:10.03,0:00:10.30,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}CUT HIM
+Dialogue: 0,0:00:10.30,0:00:10.93,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN SEPTEMBER.
+Dialogue: 0,0:00:10.93,0:00:11.57,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ON MONDAY,
+Dialogue: 0,0:00:11.57,0:00:12.12,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TORONTO GAVE
+Dialogue: 0,0:00:12.12,0:00:12.56,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HIM ONE
+Dialogue: 0,0:00:12.56,0:00:13.10,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}MORE CAMP.
+Dialogue: 0,0:00:13.10,0:00:13.39,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND IT'S
+Dialogue: 0,0:00:13.39,0:00:14.34,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NOT HIS DEFENSE.
+Dialogue: 0,0:00:14.34,0:00:14.63,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HE LED
+Dialogue: 0,0:00:14.63,0:00:15.17,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE G LEAGUE
+Dialogue: 0,0:00:15.17,0:00:15.70,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN BLOCKS
+Dialogue: 0,0:00:15.70,0:00:16.05,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND WON
+Dialogue: 0,0:00:16.05,0:00:16.65,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}DEFENSIVE PLAYER
+Dialogue: 0,0:00:16.65,0:00:17.22,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}OF THE YEAR.
+Dialogue: 0,0:00:17.22,0:00:17.60,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE KNOCK
+Dialogue: 0,0:00:17.60,0:00:17.82,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ON HIM
+Dialogue: 0,0:00:17.82,0:00:18.58,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IS OFFENSE.
+Dialogue: 0,0:00:18.58,0:00:19.26,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THREE-POINT TRIES
+Dialogue: 0,0:00:19.26,0:00:19.85,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}LAST SEASON:
+Dialogue: 0,0:00:19.85,0:00:20.56,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WEMBANYAMA,
+Dialogue: 0,0:00:20.56,0:00:20.96,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THREE HUNDRED
+Dialogue: 0,0:00:20.96,0:00:21.54,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND FIFTY.
+Dialogue: 0,0:00:21.54,0:00:21.95,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SHARP,
+Dialogue: 0,0:00:21.95,0:00:22.40,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN THE G
+Dialogue: 0,0:00:22.40,0:00:22.66,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}LEAGUE:
+Dialogue: 0,0:00:22.66,0:00:23.61,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ZERO.

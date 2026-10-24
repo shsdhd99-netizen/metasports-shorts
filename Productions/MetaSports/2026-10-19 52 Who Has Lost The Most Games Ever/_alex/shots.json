@@ -1,0 +1,81 @@
+[
+ {
+  "clip": "S1.mp4",
+  "kind": "face",
+  "start": 0.0,
+  "zoom": 0.06,
+  "why": "Vince Carter close-up, dark then lit (Spurs official tribute, Jan 2020): frame 1"
+ },
+ {
+  "clip": "S2o.mp4",
+  "kind": "action",
+  "anchor": "756",
+  "lead": 0.5,
+  "why": "Carter (Raptors, CARTER on the back) walking off past the crowd (Raptors official 2014 tribute, archival). Words: 756 LOSSES",
+  "start": 2.66
+ },
+ {
+  "clip": "S3.mp4",
+  "kind": "action",
+  "anchor": "And he's in the Hall",
+  "why": "Carter's 2000 dunk contest, Raptors #15 (Kings official tribute)",
+  "start": 4.33
+ },
+ {
+  "clip": "S4o.mp4",
+  "kind": "action",
+  "anchor": "Second is Jamal",
+  "why": "Jamal Crawford #11 (CRAWFORD on the back), Clippers at Utah, Apr 8 2016 (Clippers official). Words: 718 JAMAL CRAWFORD",
+  "start": 5.74
+ },
+ {
+  "clip": "S5.mp4",
+  "kind": "face",
+  "anchor": "Even Carter's",
+  "why": "Carter in Hawks #15, final season 2019-20, at Milwaukee (Bucks official tribute)",
+  "start": 8.32
+ },
+ {
+  "clip": "S6.mp4",
+  "kind": "action",
+  "anchor": "But his last shot",
+  "why": "Carter's last NBA shot: a three vs the Knicks, Mar 11 2020, teammates celebrate (Bucks official tribute)",
+  "start": 11.27
+ },
+ {
+  "clip": "S7.mp4",
+  "kind": "face",
+  "anchor": "So was he",
+  "why": "Carter's face during the Toronto ovation, Nov 19 2014, Grizzlies warm-up (Raptors official): the question beat",
+  "start": 13.08
+ },
+ {
+  "clip": "S8o.mp4",
+  "kind": "action",
+  "anchor": "Carter won",
+  "why": "Carter (Nets #15) dunks over Alonzo Mourning (Nets official tribute). Words: 785 WINS",
+  "start": 14.53
+ },
+ {
+  "clip": "S9o.mp4",
+  "kind": "action",
+  "anchor": "He lost",
+  "why": "Carter (Raptors #15) on the floor, being helped up (Raptors official 2014 tribute, archival). Words: 756 LOSSES",
+  "start": 16.47
+ },
+ {
+  "clip": "S10.mp4",
+  "kind": "face",
+  "anchor": "He just played",
+  "why": "Draft night 1998: Carter with David Stern (Kings official tribute)",
+  "start": 17.97
+ },
+ {
+  "clip": "S11o.mp4",
+  "kind": "action",
+  "anchor": "22",
+  "lead": 0.5,
+  "why": "Carter raises his arms after his last shot, Mar 11 2020 (Bucks official tribute). Words: 22 SEASONS",
+  "start": 19.42
+ }
+]

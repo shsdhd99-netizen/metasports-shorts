@@ -1,0 +1,407 @@
+[
+ {
+  "word": "LeBron",
+  "start": 0.0,
+  "end": 0.325
+ },
+ {
+  "word": "James",
+  "start": 0.383,
+  "end": 0.627
+ },
+ {
+  "word": "just",
+  "start": 0.685,
+  "end": 0.848
+ },
+ {
+  "word": "answered",
+  "start": 0.894,
+  "end": 1.196
+ },
+ {
+  "word": "a",
+  "start": 1.231,
+  "end": 1.254
+ },
+ {
+  "word": "Knicks",
+  "start": 1.312,
+  "end": 1.498
+ },
+ {
+  "word": "fan,",
+  "start": 1.556,
+  "end": 1.776
+ },
+ {
+  "word": "in",
+  "start": 1.8,
+  "end": 1.846
+ },
+ {
+  "word": "Madison",
+  "start": 1.904,
+  "end": 2.171
+ },
+ {
+  "word": "Square",
+  "start": 2.194,
+  "end": 2.403
+ },
+ {
+  "word": "Garden:",
+  "start": 2.45,
+  "end": 2.868
+ },
+ {
+  "word": "\"Ain't",
+  "start": 2.914,
+  "end": 3.135
+ },
+ {
+  "word": "nothing",
+  "start": 3.181,
+  "end": 3.425
+ },
+ {
+  "word": "soft",
+  "start": 3.483,
+  "end": 3.75
+ },
+ {
+  "word": "in",
+  "start": 3.785,
+  "end": 3.831
+ },
+ {
+  "word": "the",
+  "start": 3.866,
+  "end": 3.936
+ },
+ {
+  "word": "Midwest.",
+  "start": 3.982,
+  "end": 4.656
+ },
+ {
+  "word": "I'm",
+  "start": 4.69,
+  "end": 4.853
+ },
+ {
+  "word": "not",
+  "start": 4.899,
+  "end": 5.016
+ },
+ {
+  "word": "from",
+  "start": 5.039,
+  "end": 5.132
+ },
+ {
+  "word": "the",
+  "start": 5.166,
+  "end": 5.236
+ },
+ {
+  "word": "West",
+  "start": 5.294,
+  "end": 5.48
+ },
+ {
+  "word": "Coast.",
+  "start": 5.526,
+  "end": 5.944
+ },
+ {
+  "word": "I'm",
+  "start": 5.968,
+  "end": 6.13
+ },
+ {
+  "word": "from",
+  "start": 6.188,
+  "end": 6.327
+ },
+ {
+  "word": "Ohio,",
+  "start": 6.385,
+  "end": 6.873
+ },
+ {
+  "word": "baby.\"",
+  "start": 6.896,
+  "end": 7.407
+ },
+ {
+  "word": "When",
+  "start": 7.43,
+  "end": 7.546
+ },
+ {
+  "word": "he",
+  "start": 7.57,
+  "end": 7.616
+ },
+ {
+  "word": "said",
+  "start": 7.697,
+  "end": 7.883
+ },
+ {
+  "word": "it,",
+  "start": 7.918,
+  "end": 7.999
+ },
+ {
+  "word": "the",
+  "start": 8.022,
+  "end": 8.092
+ },
+ {
+  "word": "Sixers",
+  "start": 8.139,
+  "end": 8.417
+ },
+ {
+  "word": "were",
+  "start": 8.44,
+  "end": 8.545
+ },
+ {
+  "word": "down",
+  "start": 8.58,
+  "end": 8.8
+ },
+ {
+  "word": "six.",
+  "start": 8.893,
+  "end": 9.288
+ },
+ {
+  "word": "Early",
+  "start": 9.323,
+  "end": 9.509
+ },
+ {
+  "word": "in",
+  "start": 9.543,
+  "end": 9.59
+ },
+ {
+  "word": "the",
+  "start": 9.613,
+  "end": 9.683
+ },
+ {
+  "word": "third,",
+  "start": 9.741,
+  "end": 10.031
+ },
+ {
+  "word": "LeBron",
+  "start": 10.054,
+  "end": 10.333
+ },
+ {
+  "word": "scored",
+  "start": 10.38,
+  "end": 10.623
+ },
+ {
+  "word": "three",
+  "start": 10.658,
+  "end": 10.844
+ },
+ {
+  "word": "straight",
+  "start": 10.879,
+  "end": 11.076
+ },
+ {
+  "word": "baskets",
+  "start": 11.123,
+  "end": 11.564
+ },
+ {
+  "word": "in",
+  "start": 11.599,
+  "end": 11.657
+ },
+ {
+  "word": "73",
+  "start": 11.738,
+  "end": 12.191
+ },
+ {
+  "word": "seconds.",
+  "start": 12.237,
+  "end": 12.76
+ },
+ {
+  "word": "That",
+  "start": 12.783,
+  "end": 12.945
+ },
+ {
+  "word": "gave",
+  "start": 12.992,
+  "end": 13.154
+ },
+ {
+  "word": "Philly",
+  "start": 13.178,
+  "end": 13.398
+ },
+ {
+  "word": "its",
+  "start": 13.433,
+  "end": 13.514
+ },
+ {
+  "word": "first",
+  "start": 13.561,
+  "end": 13.758
+ },
+ {
+  "word": "lead",
+  "start": 13.816,
+  "end": 14.025
+ },
+ {
+  "word": "since",
+  "start": 14.06,
+  "end": 14.223
+ },
+ {
+  "word": "the",
+  "start": 14.246,
+  "end": 14.315
+ },
+ {
+  "word": "first",
+  "start": 14.362,
+  "end": 14.559
+ },
+ {
+  "word": "quarter.",
+  "start": 14.606,
+  "end": 14.966
+ },
+ {
+  "word": "Then",
+  "start": 14.989,
+  "end": 15.105
+ },
+ {
+  "word": "he",
+  "start": 15.128,
+  "end": 15.175
+ },
+ {
+  "word": "set",
+  "start": 15.221,
+  "end": 15.337
+ },
+ {
+  "word": "up",
+  "start": 15.372,
+  "end": 15.418
+ },
+ {
+  "word": "the",
+  "start": 15.453,
+  "end": 15.523
+ },
+ {
+  "word": "three",
+  "start": 15.569,
+  "end": 15.813
+ },
+ {
+  "word": "that",
+  "start": 15.848,
+  "end": 15.941
+ },
+ {
+  "word": "beat",
+  "start": 15.987,
+  "end": 16.138
+ },
+ {
+  "word": "the",
+  "start": 16.173,
+  "end": 16.243
+ },
+ {
+  "word": "buzzer.",
+  "start": 16.301,
+  "end": 16.684
+ },
+ {
+  "word": "Sixers",
+  "start": 16.777,
+  "end": 17.137
+ },
+ {
+  "word": "106,",
+  "start": 17.206,
+  "end": 17.915
+ },
+ {
+  "word": "Knicks",
+  "start": 17.938,
+  "end": 18.158
+ },
+ {
+  "word": "100,",
+  "start": 18.216,
+  "end": 18.704
+ },
+ {
+  "word": "on",
+  "start": 18.739,
+  "end": 18.878
+ },
+ {
+  "word": "ring",
+  "start": 18.971,
+  "end": 19.122
+ },
+ {
+  "word": "night.",
+  "start": 19.215,
+  "end": 19.493
+ },
+ {
+  "word": "Ain't",
+  "start": 19.517,
+  "end": 19.656
+ },
+ {
+  "word": "nothing",
+  "start": 19.679,
+  "end": 19.888
+ },
+ {
+  "word": "soft",
+  "start": 19.946,
+  "end": 20.213
+ },
+ {
+  "word": "in",
+  "start": 20.237,
+  "end": 20.283
+ },
+ {
+  "word": "the",
+  "start": 20.306,
+  "end": 20.376
+ },
+ {
+  "word": "Midwest.",
+  "start": 20.399,
+  "end": 21.223
+ }
+]

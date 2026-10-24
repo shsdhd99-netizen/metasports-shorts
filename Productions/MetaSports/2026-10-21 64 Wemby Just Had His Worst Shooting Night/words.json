@@ -1,0 +1,362 @@
+[
+ {
+  "word": "Victor",
+  "start": 0.0,
+  "end": 0.348
+ },
+ {
+  "word": "Wembanyama",
+  "start": 0.418,
+  "end": 1.115
+ },
+ {
+  "word": "just",
+  "start": 1.219,
+  "end": 1.428
+ },
+ {
+  "word": "had",
+  "start": 1.463,
+  "end": 1.556
+ },
+ {
+  "word": "the",
+  "start": 1.591,
+  "end": 1.66
+ },
+ {
+  "word": "worst",
+  "start": 1.753,
+  "end": 2.02
+ },
+ {
+  "word": "shooting",
+  "start": 2.055,
+  "end": 2.276
+ },
+ {
+  "word": "night",
+  "start": 2.31,
+  "end": 2.426
+ },
+ {
+  "word": "of",
+  "start": 2.45,
+  "end": 2.496
+ },
+ {
+  "word": "his",
+  "start": 2.531,
+  "end": 2.612
+ },
+ {
+  "word": "career.",
+  "start": 2.659,
+  "end": 3.344
+ },
+ {
+  "word": "1",
+  "start": 3.548,
+  "end": 3.78
+ },
+ {
+  "word": "for",
+  "start": 3.826,
+  "end": 3.919
+ },
+ {
+  "word": "13.",
+  "start": 3.966,
+  "end": 4.592
+ },
+ {
+  "word": "And",
+  "start": 4.616,
+  "end": 4.72
+ },
+ {
+  "word": "he's",
+  "start": 4.767,
+  "end": 4.883
+ },
+ {
+  "word": "the",
+  "start": 4.906,
+  "end": 4.976
+ },
+ {
+  "word": "first",
+  "start": 5.034,
+  "end": 5.231
+ },
+ {
+  "word": "unanimous",
+  "start": 5.289,
+  "end": 5.742
+ },
+ {
+  "word": "Defensive",
+  "start": 5.777,
+  "end": 6.09
+ },
+ {
+  "word": "Player",
+  "start": 6.113,
+  "end": 6.322
+ },
+ {
+  "word": "of",
+  "start": 6.357,
+  "end": 6.404
+ },
+ {
+  "word": "the",
+  "start": 6.427,
+  "end": 6.496
+ },
+ {
+  "word": "Year",
+  "start": 6.543,
+  "end": 6.775
+ },
+ {
+  "word": "ever.",
+  "start": 6.903,
+  "end": 7.495
+ },
+ {
+  "word": "His",
+  "start": 7.615,
+  "end": 7.742
+ },
+ {
+  "word": "old",
+  "start": 7.789,
+  "end": 7.94
+ },
+ {
+  "word": "low",
+  "start": 7.986,
+  "end": 8.16
+ },
+ {
+  "word": "was",
+  "start": 8.207,
+  "end": 8.3
+ },
+ {
+  "word": "3",
+  "start": 8.358,
+  "end": 8.532
+ },
+ {
+  "word": "for",
+  "start": 8.567,
+  "end": 8.636
+ },
+ {
+  "word": "13,",
+  "start": 8.671,
+  "end": 9.298
+ },
+ {
+  "word": "as",
+  "start": 9.368,
+  "end": 9.554
+ },
+ {
+  "word": "a",
+  "start": 9.6,
+  "end": 9.623
+ },
+ {
+  "word": "rookie.",
+  "start": 9.693,
+  "end": 10.239
+ },
+ {
+  "word": "On",
+  "start": 10.372,
+  "end": 10.523
+ },
+ {
+  "word": "opening",
+  "start": 10.57,
+  "end": 10.837
+ },
+ {
+  "word": "night,",
+  "start": 10.883,
+  "end": 11.069
+ },
+ {
+  "word": "he",
+  "start": 11.092,
+  "end": 11.15
+ },
+ {
+  "word": "missed",
+  "start": 11.243,
+  "end": 11.487
+ },
+ {
+  "word": "his",
+  "start": 11.51,
+  "end": 11.58
+ },
+ {
+  "word": "first",
+  "start": 11.661,
+  "end": 11.87
+ },
+ {
+  "word": "12",
+  "start": 11.905,
+  "end": 12.195
+ },
+ {
+  "word": "shots,",
+  "start": 12.23,
+  "end": 12.694
+ },
+ {
+  "word": "and",
+  "start": 12.729,
+  "end": 12.834
+ },
+ {
+  "word": "a",
+  "start": 12.88,
+  "end": 12.903
+ },
+ {
+  "word": "rookie",
+  "start": 12.985,
+  "end": 13.263
+ },
+ {
+  "word": "blocked",
+  "start": 13.298,
+  "end": 13.53
+ },
+ {
+  "word": "his",
+  "start": 13.554,
+  "end": 13.635
+ },
+ {
+  "word": "dunk.",
+  "start": 13.693,
+  "end": 14.053
+ },
+ {
+  "word": "So",
+  "start": 14.088,
+  "end": 14.192
+ },
+ {
+  "word": "did",
+  "start": 14.239,
+  "end": 14.331
+ },
+ {
+  "word": "he",
+  "start": 14.355,
+  "end": 14.401
+ },
+ {
+  "word": "play",
+  "start": 14.436,
+  "end": 14.61
+ },
+ {
+  "word": "badly?",
+  "start": 14.668,
+  "end": 15.156
+ },
+ {
+  "word": "No.",
+  "start": 15.284,
+  "end": 15.643
+ },
+ {
+  "word": "He",
+  "start": 15.667,
+  "end": 15.725
+ },
+ {
+  "word": "had",
+  "start": 15.771,
+  "end": 15.864
+ },
+ {
+  "word": "13",
+  "start": 15.91,
+  "end": 16.282
+ },
+ {
+  "word": "rebounds",
+  "start": 16.34,
+  "end": 16.642
+ },
+ {
+  "word": "and",
+  "start": 16.665,
+  "end": 16.735
+ },
+ {
+  "word": "6",
+  "start": 16.781,
+  "end": 16.944
+ },
+ {
+  "word": "blocks.",
+  "start": 16.979,
+  "end": 17.385
+ },
+ {
+  "word": "And",
+  "start": 17.408,
+  "end": 17.489
+ },
+ {
+  "word": "he",
+  "start": 17.536,
+  "end": 17.582
+ },
+ {
+  "word": "still",
+  "start": 17.652,
+  "end": 17.838
+ },
+ {
+  "word": "scored",
+  "start": 17.861,
+  "end": 18.07
+ },
+ {
+  "word": "12",
+  "start": 18.105,
+  "end": 18.395
+ },
+ {
+  "word": "points,",
+  "start": 18.441,
+  "end": 18.743
+ },
+ {
+  "word": "with",
+  "start": 18.767,
+  "end": 18.883
+ },
+ {
+  "word": "one",
+  "start": 18.941,
+  "end": 19.161
+ },
+ {
+  "word": "basket.",
+  "start": 19.208,
+  "end": 19.997
+ }
+]

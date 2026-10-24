@@ -1,0 +1,577 @@
+[
+ {
+  "word": "LeBron",
+  "start": 0.0,
+  "end": 0.348
+ },
+ {
+  "word": "James",
+  "start": 0.418,
+  "end": 0.662
+ },
+ {
+  "word": "dreamed",
+  "start": 0.72,
+  "end": 1.01
+ },
+ {
+  "word": "of",
+  "start": 1.033,
+  "end": 1.08
+ },
+ {
+  "word": "finishing",
+  "start": 1.103,
+  "end": 1.37
+ },
+ {
+  "word": "his",
+  "start": 1.405,
+  "end": 1.474
+ },
+ {
+  "word": "career",
+  "start": 1.533,
+  "end": 1.823
+ },
+ {
+  "word": "in",
+  "start": 1.858,
+  "end": 1.904
+ },
+ {
+  "word": "Madison",
+  "start": 1.962,
+  "end": 2.252
+ },
+ {
+  "word": "Square",
+  "start": 2.287,
+  "end": 2.508
+ },
+ {
+  "word": "Garden.",
+  "start": 2.554,
+  "end": 2.984
+ },
+ {
+  "word": "On",
+  "start": 3.019,
+  "end": 3.146
+ },
+ {
+  "word": "opening",
+  "start": 3.193,
+  "end": 3.437
+ },
+ {
+  "word": "night,",
+  "start": 3.495,
+  "end": 3.68
+ },
+ {
+  "word": "the",
+  "start": 3.704,
+  "end": 3.773
+ },
+ {
+  "word": "Garden",
+  "start": 3.82,
+  "end": 4.04
+ },
+ {
+  "word": "chanted",
+  "start": 4.087,
+  "end": 4.365
+ },
+ {
+  "word": "this:",
+  "start": 4.4,
+  "end": 4.876
+ },
+ {
+  "word": "We",
+  "start": 4.949,
+  "end": 5.624
+ },
+ {
+  "word": "don't",
+  "start": 5.624,
+  "end": 6.299
+ },
+ {
+  "word": "want",
+  "start": 6.299,
+  "end": 6.974
+ },
+ {
+  "word": "you!",
+  "start": 6.974,
+  "end": 7.649
+ },
+ {
+  "word": "And",
+  "start": 7.809,
+  "end": 7.948
+ },
+ {
+  "word": "the",
+  "start": 7.983,
+  "end": 8.053
+ },
+ {
+  "word": "craziest",
+  "start": 8.099,
+  "end": 8.517
+ },
+ {
+  "word": "part?",
+  "start": 8.575,
+  "end": 8.912
+ },
+ {
+  "word": "The",
+  "start": 8.935,
+  "end": 9.016
+ },
+ {
+  "word": "only",
+  "start": 9.074,
+  "end": 9.202
+ },
+ {
+  "word": "reason",
+  "start": 9.237,
+  "end": 9.4
+ },
+ {
+  "word": "he's",
+  "start": 9.434,
+  "end": 9.539
+ },
+ {
+  "word": "not",
+  "start": 9.574,
+  "end": 9.678
+ },
+ {
+  "word": "a",
+  "start": 9.701,
+  "end": 9.725
+ },
+ {
+  "word": "Knick",
+  "start": 9.806,
+  "end": 10.038
+ },
+ {
+  "word": "is",
+  "start": 10.096,
+  "end": 10.177
+ },
+ {
+  "word": "that",
+  "start": 10.201,
+  "end": 10.294
+ },
+ {
+  "word": "the",
+  "start": 10.317,
+  "end": 10.386
+ },
+ {
+  "word": "Knicks",
+  "start": 10.444,
+  "end": 10.653
+ },
+ {
+  "word": "won.",
+  "start": 10.735,
+  "end": 11.164
+ },
+ {
+  "word": "In",
+  "start": 11.188,
+  "end": 11.315
+ },
+ {
+  "word": "June,",
+  "start": 11.385,
+  "end": 11.71
+ },
+ {
+  "word": "they",
+  "start": 11.733,
+  "end": 11.826
+ },
+ {
+  "word": "beat",
+  "start": 11.884,
+  "end": 12.012
+ },
+ {
+  "word": "the",
+  "start": 12.047,
+  "end": 12.116
+ },
+ {
+  "word": "Spurs",
+  "start": 12.14,
+  "end": 12.407
+ },
+ {
+  "word": "for",
+  "start": 12.441,
+  "end": 12.511
+ },
+ {
+  "word": "their",
+  "start": 12.534,
+  "end": 12.65
+ },
+ {
+  "word": "first",
+  "start": 12.708,
+  "end": 12.917
+ },
+ {
+  "word": "title",
+  "start": 12.952,
+  "end": 13.242
+ },
+ {
+  "word": "in",
+  "start": 13.266,
+  "end": 13.312
+ },
+ {
+  "word": "53",
+  "start": 13.382,
+  "end": 13.869
+ },
+ {
+  "word": "years,",
+  "start": 13.916,
+  "end": 14.334
+ },
+ {
+  "word": "and",
+  "start": 14.357,
+  "end": 14.45
+ },
+ {
+  "word": "LeBron",
+  "start": 14.496,
+  "end": 14.833
+ },
+ {
+  "word": "said,",
+  "start": 14.903,
+  "end": 15.077
+ },
+ {
+  "word": "\"Hey,",
+  "start": 15.1,
+  "end": 15.437
+ },
+ {
+  "word": "I",
+  "start": 15.495,
+  "end": 15.576
+ },
+ {
+  "word": "can't.\"",
+  "start": 15.715,
+  "end": 16.145
+ },
+ {
+  "word": "His",
+  "start": 16.168,
+  "end": 16.296
+ },
+ {
+  "word": "agent",
+  "start": 16.331,
+  "end": 16.563
+ },
+ {
+  "word": "said",
+  "start": 16.598,
+  "end": 16.714
+ },
+ {
+  "word": "if",
+  "start": 16.737,
+  "end": 16.784
+ },
+ {
+  "word": "they",
+  "start": 16.818,
+  "end": 16.934
+ },
+ {
+  "word": "hadn't",
+  "start": 16.992,
+  "end": 17.248
+ },
+ {
+  "word": "won:",
+  "start": 17.294,
+  "end": 17.654
+ },
+ {
+  "word": "There",
+  "start": 17.745,
+  "end": 17.895
+ },
+ {
+  "word": "would",
+  "start": 17.895,
+  "end": 18.044
+ },
+ {
+  "word": "be",
+  "start": 18.044,
+  "end": 18.193
+ },
+ {
+  "word": "no",
+  "start": 18.193,
+  "end": 18.342
+ },
+ {
+  "word": "board.",
+  "start": 18.342,
+  "end": 18.491
+ },
+ {
+  "word": "He'd",
+  "start": 18.491,
+  "end": 18.64
+ },
+ {
+  "word": "be",
+  "start": 18.64,
+  "end": 18.789
+ },
+ {
+  "word": "going",
+  "start": 18.789,
+  "end": 18.938
+ },
+ {
+  "word": "to",
+  "start": 18.938,
+  "end": 19.087
+ },
+ {
+  "word": "the",
+  "start": 19.087,
+  "end": 19.236
+ },
+ {
+  "word": "Knicks.",
+  "start": 19.236,
+  "end": 19.385
+ },
+ {
+  "word": "So",
+  "start": 19.565,
+  "end": 19.716
+ },
+ {
+  "word": "he",
+  "start": 19.774,
+  "end": 19.82
+ },
+ {
+  "word": "signed",
+  "start": 19.913,
+  "end": 20.169
+ },
+ {
+  "word": "with",
+  "start": 20.192,
+  "end": 20.285
+ },
+ {
+  "word": "Philly.",
+  "start": 20.32,
+  "end": 20.68
+ },
+ {
+  "word": "And",
+  "start": 20.703,
+  "end": 20.796
+ },
+ {
+  "word": "his",
+  "start": 20.842,
+  "end": 20.912
+ },
+ {
+  "word": "Sixers",
+  "start": 20.958,
+  "end": 21.225
+ },
+ {
+  "word": "debut",
+  "start": 21.26,
+  "end": 21.597
+ },
+ {
+  "word": "was",
+  "start": 21.632,
+  "end": 21.748
+ },
+ {
+  "word": "in",
+  "start": 21.794,
+  "end": 21.852
+ },
+ {
+  "word": "the",
+  "start": 21.899,
+  "end": 21.968
+ },
+ {
+  "word": "Garden,",
+  "start": 22.038,
+  "end": 22.433
+ },
+ {
+  "word": "on",
+  "start": 22.467,
+  "end": 22.642
+ },
+ {
+  "word": "ring",
+  "start": 22.735,
+  "end": 22.909
+ },
+ {
+  "word": "night.",
+  "start": 22.955,
+  "end": 23.176
+ },
+ {
+  "word": "LeBron",
+  "start": 23.199,
+  "end": 23.501
+ },
+ {
+  "word": "had",
+  "start": 23.536,
+  "end": 23.605
+ },
+ {
+  "word": "14,",
+  "start": 23.663,
+  "end": 24.151
+ },
+ {
+  "word": "9",
+  "start": 24.244,
+  "end": 24.488
+ },
+ {
+  "word": "and",
+  "start": 24.534,
+  "end": 24.72
+ },
+ {
+  "word": "7,",
+  "start": 24.801,
+  "end": 25.173
+ },
+ {
+  "word": "and",
+  "start": 25.196,
+  "end": 25.3
+ },
+ {
+  "word": "the",
+  "start": 25.335,
+  "end": 25.405
+ },
+ {
+  "word": "Sixers",
+  "start": 25.463,
+  "end": 25.788
+ },
+ {
+  "word": "won,",
+  "start": 25.846,
+  "end": 26.159
+ },
+ {
+  "word": "106",
+  "start": 26.218,
+  "end": 26.798
+ },
+ {
+  "word": "to",
+  "start": 26.868,
+  "end": 26.926
+ },
+ {
+  "word": "100.",
+  "start": 27.019,
+  "end": 27.727
+ },
+ {
+  "word": "The",
+  "start": 27.75,
+  "end": 27.82
+ },
+ {
+  "word": "Garden",
+  "start": 27.866,
+  "end": 28.04
+ },
+ {
+  "word": "didn't",
+  "start": 28.075,
+  "end": 28.226
+ },
+ {
+  "word": "want",
+  "start": 28.249,
+  "end": 28.377
+ },
+ {
+  "word": "him,",
+  "start": 28.4,
+  "end": 28.516
+ },
+ {
+  "word": "so",
+  "start": 28.551,
+  "end": 28.644
+ },
+ {
+  "word": "he",
+  "start": 28.714,
+  "end": 28.76
+ },
+ {
+  "word": "spoiled",
+  "start": 28.853,
+  "end": 29.283
+ },
+ {
+  "word": "their",
+  "start": 29.306,
+  "end": 29.422
+ },
+ {
+  "word": "ring",
+  "start": 29.515,
+  "end": 29.677
+ },
+ {
+  "word": "night.",
+  "start": 29.735,
+  "end": 29.969
+ }
+]

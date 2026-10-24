@@ -1,0 +1,16 @@
+[
+ {
+  "name": "2026-10-05 34 Are Three Of 2007s T",
+  "dur": 21.12,
+  "voiced": 0.7,
+  "hnr": 8.4,
+  "jitter": 2.5,
+  "shimmer": 10.14,
+  "jumps": 0.0,
+  "clicks": 358.0,
+  "hf": 4.47,
+  "f0_med": 201.0,
+  "verdict": "PASS",
+  "problems": []
+ }
+]

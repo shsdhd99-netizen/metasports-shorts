@@ -1,0 +1,77 @@
+PASS
+  warn clips shorter than their shots (slowed/held by assemble, not looped): [('A42.mp4', 57.6, 0.14)]
+  warn hook has no number or conflict/question word in the first 8 words: 'goalkeepers who hid a cheat sheet in their' (state the question the viewer needs answered by 1.5 s)
+  warn a background bed is baked in: the house default is none since Oct 14 night (Library/Sound Library.md); say why in PACKAGE.md
+  warn music track 'Story pulse (narrated football stories, full length)' is a candidate the owner has not approved by ear
+  warn footage: shot 1 A01.mp4: blown up 3.53x (768x576, crop zoom 1.0): archive footage, accepted in the story format (Ahmed's Shorts use soft 480p archive); keep faces and action, not wide shots, at this size
+  warn footage: shot 2 A02.mp4: blown up 3.33x (768x576, crop zoom 1.0): archive footage, accepted in the story format (Ahmed's Shorts use soft 480p archive); keep faces and action, not wide shots, at this size
+  warn footage: shot 3 A03.mp4: blown up 3.33x (768x576, crop zoom 1.0): archive footage, accepted in the story format (Ahmed's Shorts use soft 480p archive); keep faces and action, not wide shots, at this size
+  warn footage: shot 4 A04.mp4: blown up 3.33x (768x576, crop zoom 1.0): archive footage, accepted in the story format (Ahmed's Shorts use soft 480p archive); keep faces and action, not wide shots, at this size
+  warn footage: shot 5 A05.mp4: blown up 3.33x (768x576, crop zoom 1.0): archive footage, accepted in the story format (Ahmed's Shorts use soft 480p archive); keep faces and action, not wide shots, at this size
+  warn footage: shot 7 A07.mp4: blown up 3.33x (768x576, crop zoom 1.0): archive footage, accepted in the story format (Ahmed's Shorts use soft 480p archive); keep faces and action, not wide shots, at this size
+  warn footage: shot 8 A08.mp4: blown up 3.33x (768x576, crop zoom 1.0): archive footage, accepted in the story format (Ahmed's Shorts use soft 480p archive); keep faces and action, not wide shots, at this size
+  warn footage: shot 8 A08.mp4: very busy picture (90th-percentile frame change 41.3; top 10% of our clips): fast action, a whip pan or shake; check it reads on a phone
+  warn footage: shot 9 A09.mp4: blown up 3.5x (768x576, crop zoom 1.0): archive footage, accepted in the story format (Ahmed's Shorts use soft 480p archive); keep faces and action, not wide shots, at this size
+  warn footage: shot 11 A11.mp4: blown up 3.33x (768x576, crop zoom 1.0): archive footage, accepted in the story format (Ahmed's Shorts use soft 480p archive); keep faces and action, not wide shots, at this size
+  warn footage: shot 14 A14.mp4: blown up 3.47x (1280x720, crop zoom 1.3): archive footage, accepted in the story format (Ahmed's Shorts use soft 480p archive); keep faces and action, not wide shots, at this size
+  warn footage: shot 15 A15.mp4: blown up 3.33x (768x576, crop zoom 1.0): archive footage, accepted in the story format (Ahmed's Shorts use soft 480p archive); keep faces and action, not wide shots, at this size
+  warn footage: shot 16 A16.mp4: blown up 3.47x (1280x720, crop zoom 1.3): archive footage, accepted in the story format (Ahmed's Shorts use soft 480p archive); keep faces and action, not wide shots, at this size
+  warn footage: shot 17 A17.mp4: blown up 5.33x (768x576, crop zoom 1.6): archive footage, accepted in the story format (Ahmed's Shorts use soft 480p archive); keep faces and action, not wide shots, at this size
+  warn footage: shot 18 A18.mp4: blown up 3.33x (768x576, crop zoom 1.0): archive footage, accepted in the story format (Ahmed's Shorts use soft 480p archive); keep faces and action, not wide shots, at this size
+  warn footage: shot 21 A21.mp4: blown up 3.33x (768x576, crop zoom 1.0): archive footage, accepted in the story format (Ahmed's Shorts use soft 480p archive); keep faces and action, not wide shots, at this size
+  warn footage: shot 22 A22.mp4: blown up 3.33x (768x576, crop zoom 1.0): archive footage, accepted in the story format (Ahmed's Shorts use soft 480p archive); keep faces and action, not wide shots, at this size
+  warn footage: shot 23 A23.mp4: blown up 3.33x (768x576, crop zoom 1.0): archive footage, accepted in the story format (Ahmed's Shorts use soft 480p archive); keep faces and action, not wide shots, at this size
+  warn footage: shot 25 A25.mp4: blown up 3.33x (768x576, crop zoom 1.0): archive footage, accepted in the story format (Ahmed's Shorts use soft 480p archive); keep faces and action, not wide shots, at this size
+  warn footage: shot 26 A26.mp4: blown up 3.33x (768x576, crop zoom 1.0): archive footage, accepted in the story format (Ahmed's Shorts use soft 480p archive); keep faces and action, not wide shots, at this size
+  warn footage: shot 28 A28.mp4: blown up 3.33x (768x576, crop zoom 1.0): archive footage, accepted in the story format (Ahmed's Shorts use soft 480p archive); keep faces and action, not wide shots, at this size
+  warn footage: shot 29 A29.mp4: blown up 3.33x (768x576, crop zoom 1.0): archive footage, accepted in the story format (Ahmed's Shorts use soft 480p archive); keep faces and action, not wide shots, at this size
+  warn footage: shot 30 A30.mp4: blown up 3.33x (768x576, crop zoom 1.0): archive footage, accepted in the story format (Ahmed's Shorts use soft 480p archive); keep faces and action, not wide shots, at this size
+  warn footage: shot 32 A32.mp4: blown up 5.0x (768x576, crop zoom 1.5): archive footage, accepted in the story format (Ahmed's Shorts use soft 480p archive); keep faces and action, not wide shots, at this size
+  warn footage: shot 34 A34.mp4: blown up 3.33x (768x576, crop zoom 1.0): archive footage, accepted in the story format (Ahmed's Shorts use soft 480p archive); keep faces and action, not wide shots, at this size
+  warn footage: shot 36 A36.mp4: blown up 2.67x (1280x720, crop zoom 1.0; house standard is a 1080p source, about 1.8x): note in PACKAGE.md that no better source exists
+  warn footage: shot 36 A36.mp4: soft (edge contrast 21 vs this Short's median 72): motion blur or a poor encode
+  warn footage: shot 37 A37.mp4: blown up 2.67x (1280x720, crop zoom 1.0; house standard is a 1080p source, about 1.8x): note in PACKAGE.md that no better source exists
+  warn footage: shot 38 A38.mp4: blown up 2.67x (1280x720, crop zoom 1.0; house standard is a 1080p source, about 1.8x): note in PACKAGE.md that no better source exists
+  warn footage: shot 39 A39.mp4: blown up 2.67x (1280x720, crop zoom 1.0; house standard is a 1080p source, about 1.8x): note in PACKAGE.md that no better source exists
+  warn footage: shot 41 A41.mp4: blown up 2.67x (1280x720, crop zoom 1.0; house standard is a 1080p source, about 1.8x): note in PACKAGE.md that no better source exists
+  warn footage: source size unknown for 1 clip(s) (A10.mp4): cut new clips with broll.py cut (it logs it) or add 'source WxH' to their notes
+  warn export: captions on screen under 0.25 s at [28.23] s (too fast to read)
+  warn export: the export says what the script says (96% word match after number folding); 9 difference(s) to listen for (speech-to-text mishears names): heard 'hit' vs script 'hid'; heard 'and' vs script 'in'; heard 'd' vs script '(nothing)'; heard 'kupka' vs script 'k pke'; heard 'raquelme' vs script 'riquelme'; heard 'rodriguez's' vs script 'rodr guez's'; heard 'cambiaso' vs script 'cambiasso'; heard 'cambiaso' vs script 'cambiasso'
+  ok   every shot has a kind
+  ok   length 59.5s (story format)
+  ok   length 59.5s in 58-88
+  ok   voice starts at once
+  ok   opens on 'Goalkeepers'
+  ok   2 shots in first 3 s (title card holds)
+  ok   real action footage in first 3 s
+  ok   hook line has a name/number/stakes
+  ok   no shot too long
+  ok   average shot 1.4s
+  ok   most-used clip A06.mp4 4%
+  ok   42 source clips
+  ok   talking head 32%
+  ok   b-roll 51%
+  ok   cards 17%
+  ok   no two cards in a row
+  ok   no repeated neighbours
+  ok   no footage shown twice
+  ok   no dead air inside the speech
+  ok   loudness -14.7 LUFS
+  ok   no frozen footage
+  ok   no black frames
+  ok   quote shots play at normal speed (lip sync)
+  ok   no frozen holds
+  ok   music licence logged (eleven_story_01.mp3)
+  ok   music licence status: candidate (owner has not listened)
+  ok   music bed -20.0 LU under the voice
+  ok   speech band clear of music: 59 dB (1-4 kHz, before ducking)
+  ok   every clip has a source-log row
+  ok   every clip verified against the narration
+  ok   export: captions match script.txt word for word (246 words)
+  ok   export: no overlapping captions
+  ok   export: every spoken word is captioned while it is said
+  ok   export: captions centred at 50%-50% of the height (house band 45-65%)
+  ok   export: widest caption about 772 px (under 820: clear of the right-hand buttons)
+  ok   export: picture and sound both 59.47 s
+  ok   export: voice.mp3: no clipping (peak -2.1 dBFS)
+  ok   export: export audio: no clipping (peak -1.7 dBFS)

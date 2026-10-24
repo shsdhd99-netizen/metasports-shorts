@@ -1,0 +1,58 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Montserrat Black,86,&H00FFFFFF,&H00FFFFFF,&H00000000,&H99000000,0,0,0,0,95,100,1,0,1,6,3,5,70,70,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.62,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}MICHAEL JORDAN
+Dialogue: 0,0:00:00.62,0:00:00.99,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}PUSHED OFF
+Dialogue: 0,0:00:00.99,0:00:01.56,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BRYON RUSSELL
+Dialogue: 0,0:00:01.56,0:00:01.78,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TO WIN
+Dialogue: 0,0:00:01.78,0:00:02.93,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE 1998 FINALS,
+Dialogue: 0,0:00:02.93,0:00:03.46,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND NO FOUL
+Dialogue: 0,0:00:03.46,0:00:04.00,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WAS CALLED.
+Dialogue: 0,0:00:04.00,0:00:04.47,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NOW THE NBA
+Dialogue: 0,0:00:04.47,0:00:05.01,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IS CRACKING
+Dialogue: 0,0:00:05.01,0:00:05.94,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}DOWN ON PUSH-OFFS.
+Dialogue: 0,0:00:05.94,0:00:06.56,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FEEL AND FIRM
+Dialogue: 0,0:00:06.56,0:00:07.17,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ARE LEGAL.
+Dialogue: 0,0:00:07.17,0:00:07.77,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FORCE AND FULL
+Dialogue: 0,0:00:07.77,0:00:08.16,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}EXTENSION
+Dialogue: 0,0:00:08.16,0:00:08.70,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ARE FOULS.
+Dialogue: 0,0:00:08.70,0:00:09.42,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SO WOULD JORDAN'S
+Dialogue: 0,0:00:09.42,0:00:10.10,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BE CALLED TODAY?
+Dialogue: 0,0:00:10.10,0:00:11.09,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ESPN SAYS NO.
+Dialogue: 0,0:00:11.09,0:00:11.48,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BUT THAT'S
+Dialogue: 0,0:00:11.48,0:00:11.79,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NOT EVEN
+Dialogue: 0,0:00:11.79,0:00:12.38,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE CRAZY PART.
+Dialogue: 0,0:00:12.38,0:00:12.50,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ONE
+Dialogue: 0,0:00:12.50,0:00:12.90,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}OF THE LEAGUE'S
+Dialogue: 0,0:00:12.90,0:00:13.83,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}OWN FOUL EXAMPLES
+Dialogue: 0,0:00:13.83,0:00:14.64,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IS JAYLEN BROWN,
+Dialogue: 0,0:00:14.64,0:00:15.53,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SHOVING KELLY OUBRE
+Dialogue: 0,0:00:15.53,0:00:16.12,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN THE CHEST.
+Dialogue: 0,0:00:16.12,0:00:16.75,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BROWN WAS CALLED
+Dialogue: 0,0:00:16.75,0:00:17.08,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FOR TEN
+Dialogue: 0,0:00:17.08,0:00:17.76,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}OFFENSIVE FOULS
+Dialogue: 0,0:00:17.76,0:00:18.06,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN ONE
+Dialogue: 0,0:00:18.06,0:00:18.77,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}PLAYOFF SERIES,
+Dialogue: 0,0:00:18.77,0:00:19.37,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TWICE AS MANY
+Dialogue: 0,0:00:19.37,0:00:20.02,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AS ANYONE ELSE.
+Dialogue: 0,0:00:20.02,0:00:20.54,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THEN THE NBA
+Dialogue: 0,0:00:20.54,0:00:21.68,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FINED HIM $50,000
+Dialogue: 0,0:00:21.68,0:00:22.26,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FOR CRITICIZING
+Dialogue: 0,0:00:22.26,0:00:22.75,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE REFS.
+Dialogue: 0,0:00:22.75,0:00:23.53,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SO BY ESPN'S
+Dialogue: 0,0:00:23.53,0:00:23.71,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}READ,
+Dialogue: 0,0:00:23.71,0:00:24.37,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}JORDAN'S PUSH-OFF
+Dialogue: 0,0:00:24.37,0:00:24.82,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IS LEGAL,
+Dialogue: 0,0:00:24.82,0:00:25.57,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND JAYLEN BROWN'S
+Dialogue: 0,0:00:25.57,0:00:26.10,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IS THE LEAGUE'S
+Dialogue: 0,0:00:26.10,0:00:26.98,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}EXAMPLE.

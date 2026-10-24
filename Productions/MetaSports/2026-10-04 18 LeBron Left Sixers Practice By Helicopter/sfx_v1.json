@@ -1,0 +1,20 @@
+[
+ {
+  "sfx": "boom",
+  "at": 0.0,
+  "gain": -12,
+  "why": "hook"
+ },
+ {
+  "sfx": "whoosh",
+  "at": 14.4,
+  "gain": -14,
+  "why": "helicopter cut"
+ },
+ {
+  "sfx": "click",
+  "at": 18.16,
+  "gain": -12,
+  "why": "Maxey line"
+ }
+]

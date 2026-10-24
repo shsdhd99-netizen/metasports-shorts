@@ -1,0 +1,6 @@
+voice profile: Alex - Upbeat, Energetic and Clear (ElevenLabs Voice Library) (gate: HNR >= 7.0, jitter <= 3.4, shimmer <= 12.5)
+take 1: Done: voice.mp3 (71.6s, sped up x1.00) + captions.srt + words.json in /home/user/metasports-shorts/Soccer Channel/Productions/2026-10-22 S03 Goalkeepers Who Danced To Win A Final/take1_2_mks5wk
+  take 1: FAIL  check=REDO HNR 8.9 jitter 2.86 shimmer 10.71 71.91s  ['58.38s  script "pirlo\'s and" but heard "pirloz"']
+take 2: Done: voice.mp3 (71.0s, sped up x1.00) + captions.srt + words.json in /home/user/metasports-shorts/Soccer Channel/Productions/2026-10-22 S03 Goalkeepers Who Danced To Win A Final/take2_3f8enke1
+  take 2: PASS  check=CHECK HNR 8.6 jitter 2.9 shimmer 10.8 71.31s  []
+USED take score 5.0 (passes the voice gate)

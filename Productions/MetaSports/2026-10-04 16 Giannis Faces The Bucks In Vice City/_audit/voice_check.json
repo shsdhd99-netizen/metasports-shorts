@@ -1,0 +1,73 @@
+{
+ "verdict": "CHECK",
+ "wpm": 241,
+ "issues": [],
+ "notes": [
+  " 2.28s  script \"eighteenth\" but heard \"18th\"",
+  "11.70s  script \"giannis\" but heard \"yanis\"",
+  "14.86s  script \"will\" but heard \"would\"",
+  "21.14s  script \"jaquez\" but heard \"jocos\"",
+  "21.58s  script \"jakucionis\" but heard \"yaku shones\"",
+  " 1.66s  \"bucks\" heard as \"bucs\" (close; check the name)",
+  "12.76s  \"bucks\" heard as \"bucs\" (close; check the name)",
+  "17.64s  \"portis\" heard as \"portas\" (close; check the name)",
+  "20.40s  \"herro\" heard as \"harrow\" (close; check the name)"
+ ],
+ "heard": "13 years in Milwaukee, zero games against the Bucs until November 18th. And he won't be playing for Miami. For one night only, the Heat trade Miami for Vice City. A new court, a new uniform, live on ESPN, the night before Grand Theft Auto 6. After the trade, Yanis watched a video from Bucs fans and got emotional. But Milwaukee would always be my home. He's not the only one going back. Bobby Portas faces Milwaukee, and the four players the Heat sent for him, Harrow, Ware, Jocos and Yaku Shones face Miami. Six players, two old teams, one city that doesn't exist.",
+ "mismatches": [
+  {
+   "at": 1.66,
+   "script": "bucks",
+   "heard": "bucs",
+   "similar": 0.89
+  },
+  {
+   "at": 2.28,
+   "script": "eighteenth",
+   "heard": "18th",
+   "similar": 0.29
+  },
+  {
+   "at": 11.7,
+   "script": "giannis",
+   "heard": "yanis",
+   "similar": 0.67
+  },
+  {
+   "at": 12.76,
+   "script": "bucks",
+   "heard": "bucs",
+   "similar": 0.89
+  },
+  {
+   "at": 14.86,
+   "script": "will",
+   "heard": "would",
+   "similar": 0.44
+  },
+  {
+   "at": 17.64,
+   "script": "portis",
+   "heard": "portas",
+   "similar": 0.83
+  },
+  {
+   "at": 20.4,
+   "script": "herro",
+   "heard": "harrow",
+   "similar": 0.73
+  },
+  {
+   "at": 21.14,
+   "script": "jaquez",
+   "heard": "jocos",
+   "similar": 0.18
+  },
+  {
+   "at": 21.58,
+   "script": "jakucionis",
+   "heard": "yaku shones",
+   "similar": 0.6
+  }
+ ]
+}

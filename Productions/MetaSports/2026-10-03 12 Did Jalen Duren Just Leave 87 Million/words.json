@@ -1,0 +1,567 @@
+[
+ {
+  "word": "Jalen",
+  "start": 0.0,
+  "end": 0.273
+ },
+ {
+  "word": "Duren",
+  "start": 0.304,
+  "end": 0.524
+ },
+ {
+  "word": "just",
+  "start": 0.577,
+  "end": 0.744
+ },
+ {
+  "word": "walked",
+  "start": 0.776,
+  "end": 0.985
+ },
+ {
+  "word": "away",
+  "start": 1.007,
+  "end": 1.174
+ },
+ {
+  "word": "from",
+  "start": 1.217,
+  "end": 1.353
+ },
+ {
+  "word": "eighty-seven",
+  "start": 1.406,
+  "end": 1.825
+ },
+ {
+  "word": "million",
+  "start": 1.856,
+  "end": 2.077
+ },
+ {
+  "word": "dollars,",
+  "start": 2.118,
+  "end": 2.443
+ },
+ {
+  "word": "and",
+  "start": 2.464,
+  "end": 2.591
+ },
+ {
+  "word": "a",
+  "start": 2.643,
+  "end": 2.664
+ },
+ {
+  "word": "reported",
+  "start": 2.727,
+  "end": 3.073
+ },
+ {
+  "word": "weight",
+  "start": 3.125,
+  "end": 3.314
+ },
+ {
+  "word": "clause",
+  "start": 3.346,
+  "end": 3.608
+ },
+ {
+  "word": "was",
+  "start": 3.639,
+  "end": 3.744
+ },
+ {
+  "word": "part",
+  "start": 3.797,
+  "end": 3.922
+ },
+ {
+  "word": "of",
+  "start": 3.943,
+  "end": 3.985
+ },
+ {
+  "word": "the",
+  "start": 4.006,
+  "end": 4.069
+ },
+ {
+  "word": "fight.",
+  "start": 4.111,
+  "end": 4.415
+ },
+ {
+  "word": "You",
+  "start": 4.468,
+  "end": 4.541
+ },
+ {
+  "word": "see,",
+  "start": 4.583,
+  "end": 4.73
+ },
+ {
+  "word": "the",
+  "start": 4.75,
+  "end": 4.814
+ },
+ {
+  "word": "Pistons",
+  "start": 4.855,
+  "end": 5.18
+ },
+ {
+  "word": "offered",
+  "start": 5.233,
+  "end": 5.453
+ },
+ {
+  "word": "him",
+  "start": 5.485,
+  "end": 5.59
+ },
+ {
+  "word": "five",
+  "start": 5.653,
+  "end": 5.873
+ },
+ {
+  "word": "years",
+  "start": 5.904,
+  "end": 6.093
+ },
+ {
+  "word": "and",
+  "start": 6.145,
+  "end": 6.24
+ },
+ {
+  "word": "$200 million,",
+  "start": 6.281,
+  "end": 7.33
+ },
+ {
+  "word": "fully",
+  "start": 7.352,
+  "end": 7.582
+ },
+ {
+  "word": "guaranteed.",
+  "start": 7.635,
+  "end": 8.201
+ },
+ {
+  "word": "Duren",
+  "start": 8.233,
+  "end": 8.484
+ },
+ {
+  "word": "wanted",
+  "start": 8.537,
+  "end": 8.747
+ },
+ {
+  "word": "the",
+  "start": 8.767,
+  "end": 8.83
+ },
+ {
+  "word": "max,",
+  "start": 8.872,
+  "end": 9.186
+ },
+ {
+  "word": "five",
+  "start": 9.239,
+  "end": 9.48
+ },
+ {
+  "word": "years",
+  "start": 9.512,
+  "end": 9.721
+ },
+ {
+  "word": "and",
+  "start": 9.774,
+  "end": 9.878
+ },
+ {
+  "word": "$287 million.",
+  "start": 9.921,
+  "end": 11.357
+ },
+ {
+  "word": "He",
+  "start": 11.389,
+  "end": 11.493
+ },
+ {
+  "word": "skipped",
+  "start": 11.546,
+  "end": 11.819
+ },
+ {
+  "word": "media",
+  "start": 11.871,
+  "end": 12.112
+ },
+ {
+  "word": "day.",
+  "start": 12.165,
+  "end": 12.396
+ },
+ {
+  "word": "He",
+  "start": 12.437,
+  "end": 12.542
+ },
+ {
+  "word": "skipped",
+  "start": 12.595,
+  "end": 12.856
+ },
+ {
+  "word": "the",
+  "start": 12.878,
+  "end": 12.94
+ },
+ {
+  "word": "start",
+  "start": 12.972,
+  "end": 13.151
+ },
+ {
+  "word": "of",
+  "start": 13.182,
+  "end": 13.224
+ },
+ {
+  "word": "camp.",
+  "start": 13.276,
+  "end": 13.581
+ },
+ {
+  "word": "The",
+  "start": 13.612,
+  "end": 13.706
+ },
+ {
+  "word": "deadline",
+  "start": 13.759,
+  "end": 14.063
+ },
+ {
+  "word": "was",
+  "start": 14.084,
+  "end": 14.178
+ },
+ {
+  "word": "midnight",
+  "start": 14.23,
+  "end": 14.514
+ },
+ {
+  "word": "Thursday.",
+  "start": 14.546,
+  "end": 15.006
+ },
+ {
+  "word": "A",
+  "start": 15.028,
+  "end": 15.09
+ },
+ {
+  "word": "weight",
+  "start": 15.154,
+  "end": 15.311
+ },
+ {
+  "word": "clause",
+  "start": 15.342,
+  "end": 15.573
+ },
+ {
+  "word": "was",
+  "start": 15.604,
+  "end": 15.688
+ },
+ {
+  "word": "reported",
+  "start": 15.741,
+  "end": 16.077
+ },
+ {
+  "word": "in",
+  "start": 16.118,
+  "end": 16.171
+ },
+ {
+  "word": "the",
+  "start": 16.202,
+  "end": 16.265
+ },
+ {
+  "word": "talks,",
+  "start": 16.307,
+  "end": 16.632
+ },
+ {
+  "word": "though",
+  "start": 16.653,
+  "end": 16.821
+ },
+ {
+  "word": "it",
+  "start": 16.853,
+  "end": 16.894
+ },
+ {
+  "word": "was",
+  "start": 16.926,
+  "end": 16.999
+ },
+ {
+  "word": "never",
+  "start": 17.051,
+  "end": 17.219
+ },
+ {
+  "word": "put",
+  "start": 17.262,
+  "end": 17.387
+ },
+ {
+  "word": "in",
+  "start": 17.419,
+  "end": 17.471
+ },
+ {
+  "word": "writing,",
+  "start": 17.513,
+  "end": 17.838
+ },
+ {
+  "word": "and",
+  "start": 17.859,
+  "end": 17.964
+ },
+ {
+  "word": "it",
+  "start": 18.006,
+  "end": 18.058
+ },
+ {
+  "word": "was",
+  "start": 18.09,
+  "end": 18.184
+ },
+ {
+  "word": "removed.",
+  "start": 18.236,
+  "end": 18.666
+ },
+ {
+  "word": "But",
+  "start": 18.698,
+  "end": 18.824
+ },
+ {
+  "word": "Detroit",
+  "start": 18.855,
+  "end": 19.118
+ },
+ {
+  "word": "still",
+  "start": 19.17,
+  "end": 19.348
+ },
+ {
+  "word": "held",
+  "start": 19.39,
+  "end": 19.526
+ },
+ {
+  "word": "the",
+  "start": 19.558,
+  "end": 19.621
+ },
+ {
+  "word": "number,",
+  "start": 19.653,
+  "end": 19.956
+ },
+ {
+  "word": "reportedly",
+  "start": 20.009,
+  "end": 20.481
+ },
+ {
+  "word": "because",
+  "start": 20.533,
+  "end": 20.786
+ },
+ {
+  "word": "of",
+  "start": 20.816,
+  "end": 20.859
+ },
+ {
+  "word": "his",
+  "start": 20.9,
+  "end": 20.984
+ },
+ {
+  "word": "quiet",
+  "start": 21.037,
+  "end": 21.257
+ },
+ {
+  "word": "playoffs",
+  "start": 21.289,
+  "end": 21.614
+ },
+ {
+  "word": "as",
+  "start": 21.645,
+  "end": 21.739
+ },
+ {
+  "word": "the",
+  "start": 21.792,
+  "end": 21.865
+ },
+ {
+  "word": "number",
+  "start": 21.939,
+  "end": 22.169
+ },
+ {
+  "word": "one",
+  "start": 22.233,
+  "end": 22.369
+ },
+ {
+  "word": "seed.",
+  "start": 22.421,
+  "end": 22.652
+ },
+ {
+  "word": "So",
+  "start": 22.683,
+  "end": 22.777
+ },
+ {
+  "word": "he",
+  "start": 22.831,
+  "end": 22.904
+ },
+ {
+  "word": "signed",
+  "start": 22.977,
+  "end": 23.197
+ },
+ {
+  "word": "the",
+  "start": 23.218,
+  "end": 23.281
+ },
+ {
+  "word": "two",
+  "start": 23.334,
+  "end": 23.491
+ },
+ {
+  "word": "hundred",
+  "start": 23.543,
+  "end": 23.753
+ },
+ {
+  "word": "million.",
+  "start": 23.784,
+  "end": 24.141
+ },
+ {
+  "word": "A",
+  "start": 24.173,
+  "end": 24.235
+ },
+ {
+  "word": "twenty-two-year-old",
+  "start": 24.288,
+  "end": 24.99
+ },
+ {
+  "word": "All-NBA",
+  "start": 25.054,
+  "end": 25.567
+ },
+ {
+  "word": "center,",
+  "start": 25.599,
+  "end": 25.923
+ },
+ {
+  "word": "with",
+  "start": 25.945,
+  "end": 26.091
+ },
+ {
+  "word": "eighty-seven",
+  "start": 26.144,
+  "end": 26.626
+ },
+ {
+  "word": "million",
+  "start": 26.669,
+  "end": 26.889
+ },
+ {
+  "word": "dollars",
+  "start": 26.92,
+  "end": 27.203
+ },
+ {
+  "word": "left",
+  "start": 27.256,
+  "end": 27.434
+ },
+ {
+  "word": "on",
+  "start": 27.465,
+  "end": 27.529
+ },
+ {
+  "word": "the",
+  "start": 27.549,
+  "end": 27.613
+ },
+ {
+  "word": "table.",
+  "start": 27.643,
+  "end": 27.968
+ },
+ {
+  "word": "Smart,",
+  "start": 28.021,
+  "end": 28.42
+ },
+ {
+  "word": "or",
+  "start": 28.472,
+  "end": 28.609
+ },
+ {
+  "word": "a",
+  "start": 28.661,
+  "end": 28.682
+ },
+ {
+  "word": "mistake?",
+  "start": 28.724,
+  "end": 29.28
+ }
+]

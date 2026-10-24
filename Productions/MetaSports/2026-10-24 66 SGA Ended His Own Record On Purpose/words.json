@@ -1,0 +1,407 @@
+[
+ {
+  "word": "Shai",
+  "start": 0.0,
+  "end": 0.267
+ },
+ {
+  "word": "Gilgeous-Alexander",
+  "start": 0.337,
+  "end": 1.219
+ },
+ {
+  "word": "just",
+  "start": 1.289,
+  "end": 1.451
+ },
+ {
+  "word": "ended",
+  "start": 1.509,
+  "end": 1.73
+ },
+ {
+  "word": "the",
+  "start": 1.765,
+  "end": 1.834
+ },
+ {
+  "word": "longest",
+  "start": 1.904,
+  "end": 2.241
+ },
+ {
+  "word": "scoring",
+  "start": 2.276,
+  "end": 2.624
+ },
+ {
+  "word": "streak",
+  "start": 2.682,
+  "end": 2.926
+ },
+ {
+  "word": "in",
+  "start": 2.972,
+  "end": 3.019
+ },
+ {
+  "word": "NBA",
+  "start": 3.088,
+  "end": 3.518
+ },
+ {
+  "word": "history.",
+  "start": 3.599,
+  "end": 4.168
+ },
+ {
+  "word": "141.",
+  "start": 4.191,
+  "end": 5.262
+ },
+ {
+  "word": "Straight",
+  "start": 5.35,
+  "end": 5.651
+ },
+ {
+  "word": "games",
+  "start": 5.698,
+  "end": 6.0
+ },
+ {
+  "word": "with",
+  "start": 6.035,
+  "end": 6.139
+ },
+ {
+  "word": "20",
+  "start": 6.174,
+  "end": 6.429
+ },
+ {
+  "word": "or",
+  "start": 6.476,
+  "end": 6.534
+ },
+ {
+  "word": "more.",
+  "start": 6.592,
+  "end": 6.94
+ },
+ {
+  "word": "And",
+  "start": 6.963,
+  "end": 7.068
+ },
+ {
+  "word": "he's",
+  "start": 7.138,
+  "end": 7.288
+ },
+ {
+  "word": "the",
+  "start": 7.323,
+  "end": 7.393
+ },
+ {
+  "word": "one",
+  "start": 7.451,
+  "end": 7.579
+ },
+ {
+  "word": "who",
+  "start": 7.602,
+  "end": 7.695
+ },
+ {
+  "word": "ended",
+  "start": 7.776,
+  "end": 8.02
+ },
+ {
+  "word": "it.",
+  "start": 8.078,
+  "end": 8.148
+ },
+ {
+  "word": "Wilt",
+  "start": 8.194,
+  "end": 8.38
+ },
+ {
+  "word": "Chamberlain's",
+  "start": 8.415,
+  "end": 8.821
+ },
+ {
+  "word": "record",
+  "start": 8.879,
+  "end": 9.111
+ },
+ {
+  "word": "was",
+  "start": 9.146,
+  "end": 9.251
+ },
+ {
+  "word": "126.",
+  "start": 9.297,
+  "end": 10.354
+ },
+ {
+  "word": "Jordan's",
+  "start": 10.423,
+  "end": 10.795
+ },
+ {
+  "word": "best",
+  "start": 10.853,
+  "end": 11.155
+ },
+ {
+  "word": "was",
+  "start": 11.213,
+  "end": 11.329
+ },
+ {
+  "word": "72.",
+  "start": 11.387,
+  "end": 12.13
+ },
+ {
+  "word": "On",
+  "start": 12.165,
+  "end": 12.304
+ },
+ {
+  "word": "Thursday,",
+  "start": 12.362,
+  "end": 12.873
+ },
+ {
+  "word": "Shai",
+  "start": 12.92,
+  "end": 13.094
+ },
+ {
+  "word": "was",
+  "start": 13.152,
+  "end": 13.233
+ },
+ {
+  "word": "stuck",
+  "start": 13.256,
+  "end": 13.477
+ },
+ {
+  "word": "on",
+  "start": 13.523,
+  "end": 13.593
+ },
+ {
+  "word": "17",
+  "start": 13.651,
+  "end": 14.197
+ },
+ {
+  "word": "with",
+  "start": 14.266,
+  "end": 14.382
+ },
+ {
+  "word": "under",
+  "start": 14.429,
+  "end": 14.58
+ },
+ {
+  "word": "two",
+  "start": 14.626,
+  "end": 14.777
+ },
+ {
+  "word": "minutes",
+  "start": 14.824,
+  "end": 15.021
+ },
+ {
+  "word": "left.",
+  "start": 15.079,
+  "end": 15.474
+ },
+ {
+  "word": "So",
+  "start": 15.497,
+  "end": 15.602
+ },
+ {
+  "word": "was",
+  "start": 15.66,
+  "end": 15.752
+ },
+ {
+  "word": "he",
+  "start": 15.799,
+  "end": 15.857
+ },
+ {
+  "word": "out",
+  "start": 15.915,
+  "end": 16.054
+ },
+ {
+  "word": "of",
+  "start": 16.078,
+  "end": 16.124
+ },
+ {
+  "word": "time?",
+  "start": 16.182,
+  "end": 16.6
+ },
+ {
+  "word": "No.",
+  "start": 16.704,
+  "end": 17.064
+ },
+ {
+  "word": "Denver",
+  "start": 17.099,
+  "end": 17.343
+ },
+ {
+  "word": "had",
+  "start": 17.378,
+  "end": 17.448
+ },
+ {
+  "word": "pulled",
+  "start": 17.482,
+  "end": 17.68
+ },
+ {
+  "word": "their",
+  "start": 17.703,
+  "end": 17.831
+ },
+ {
+  "word": "starters,",
+  "start": 17.865,
+  "end": 18.318
+ },
+ {
+  "word": "so",
+  "start": 18.365,
+  "end": 18.481
+ },
+ {
+  "word": "Shai",
+  "start": 18.574,
+  "end": 18.806
+ },
+ {
+  "word": "asked",
+  "start": 18.852,
+  "end": 19.05
+ },
+ {
+  "word": "to",
+  "start": 19.073,
+  "end": 19.119
+ },
+ {
+  "word": "come",
+  "start": 19.166,
+  "end": 19.282
+ },
+ {
+  "word": "out",
+  "start": 19.305,
+  "end": 19.41
+ },
+ {
+  "word": "too.",
+  "start": 19.468,
+  "end": 19.804
+ },
+ {
+  "word": "He",
+  "start": 19.828,
+  "end": 19.886
+ },
+ {
+  "word": "said,",
+  "start": 19.932,
+  "end": 20.164
+ },
+ {
+  "word": "you",
+  "start": 20.199,
+  "end": 20.292
+ },
+ {
+  "word": "always",
+  "start": 20.385,
+  "end": 20.582
+ },
+ {
+  "word": "treat",
+  "start": 20.617,
+  "end": 20.768
+ },
+ {
+  "word": "the",
+  "start": 20.803,
+  "end": 20.872
+ },
+ {
+  "word": "game",
+  "start": 20.93,
+  "end": 21.128
+ },
+ {
+  "word": "with",
+  "start": 21.151,
+  "end": 21.244
+ },
+ {
+  "word": "respect.",
+  "start": 21.279,
+  "end": 21.801
+ },
+ {
+  "word": "141",
+  "start": 21.824,
+  "end": 22.637
+ },
+ {
+  "word": "games,",
+  "start": 22.672,
+  "end": 23.067
+ },
+ {
+  "word": "and",
+  "start": 23.09,
+  "end": 23.194
+ },
+ {
+  "word": "he",
+  "start": 23.241,
+  "end": 23.287
+ },
+ {
+  "word": "ended",
+  "start": 23.357,
+  "end": 23.578
+ },
+ {
+  "word": "it",
+  "start": 23.624,
+  "end": 23.694
+ },
+ {
+  "word": "himself.",
+  "start": 23.728,
+  "end": 24.329
+ }
+]

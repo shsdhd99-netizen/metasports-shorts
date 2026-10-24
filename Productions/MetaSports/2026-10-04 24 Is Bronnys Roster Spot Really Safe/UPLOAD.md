@@ -1,0 +1,14 @@
+# #24 Is Bronny's Roster Spot Really Safe
+
+Do not post this on the same day as Short 25. Short 25 already passed and is the Bronny short to post.
+
+Video: READY TO POST - Is Bronnys Roster Spot Really Safe.mp4 (27.9 s). Not uploaded. v1's ending is not sourced. Post the v2 file, not this one, and not on the same day as Short 25.
+## Title
+Is Bronny's Spot Really Safe? 😳  (alt: Why A Guaranteed Deal Is Not Safe 😳 / Can The Lakers Still Cut Bronny James 💀)
+## Tags (469/500)
+bronny james, bronny james lakers, bronny james roster spot, bronny james waived, bronny james cut, bronny james contract, bronny james guaranteed contract, lakers roster cuts, lakers 15 man roster, lakers october 21 deadline, dalton knecht, luka doncic bronny, jj redick bronny, bronny james sophomore, bronny james stats, bronny james g league, south bay lakers, lebron james 76ers, lakers 2026-27, lakers news today, nba preseason 2026, nba shorts, basketball shorts
+
+## Pinned comment
+Doncic called that shot 'one of the most important of the game'. Does Bronny make the final 15 on Oct 21: yes or no?
+## Cover
+cover_A.png

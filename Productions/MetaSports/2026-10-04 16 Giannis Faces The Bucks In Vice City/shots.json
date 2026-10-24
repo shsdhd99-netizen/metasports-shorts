@@ -1,0 +1,148 @@
+[
+ {
+  "clip": "K1_dunk.mp4",
+  "start": 0.0,
+  "kind": "action",
+  "zoom": 0.12
+ },
+ {
+  "clip": "K2_dunk.mp4",
+  "start": 0.96,
+  "kind": "action",
+  "anchor": "Zero",
+  "zoom": 0.1
+ },
+ {
+  "clip": "G1_jersey_face.mp4",
+  "start": 1.9,
+  "kind": "action",
+  "anchor": "Until",
+  "zoom": 0.08
+ },
+ {
+  "clip": "G2_jersey_back.mp4",
+  "start": 2.98,
+  "kind": "action",
+  "anchor": "And he",
+  "zoom": 0.06
+ },
+ {
+  "clip": "H1_tower.mp4",
+  "start": 4.42,
+  "kind": "action",
+  "anchor": "For one",
+  "zoom": 0.08
+ },
+ {
+  "clip": "H3_sign.mp4",
+  "start": 5.25,
+  "kind": "action",
+  "anchor": "the Heat",
+  "zoom": 0.06
+ },
+ {
+  "clip": "H2_arena.mp4",
+  "start": 6.95,
+  "kind": "action",
+  "anchor": "a new"
+ },
+ {
+  "clip": "H4_arena2.mp4",
+  "start": 8.28,
+  "kind": "action",
+  "anchor": "live on"
+ },
+ {
+  "clip": "c15_b.mp4",
+  "start": 9.76,
+  "kind": "card",
+  "anchor": "Grand"
+ },
+ {
+  "clip": "F1_fans.mp4",
+  "start": 10.94,
+  "kind": "action",
+  "anchor": "After"
+ },
+ {
+  "clip": "F2_giannis_phone.mp4",
+  "start": 11.64,
+  "kind": "action",
+  "anchor": "Giannis",
+  "zoom": 0.1
+ },
+ {
+  "clip": "F1_fans.mp4",
+  "start": 12.36,
+  "kind": "action",
+  "anchor": "video"
+ },
+ {
+  "clip": "G3_smile.mp4",
+  "start": 13.57,
+  "kind": "action",
+  "anchor": "got emotional",
+  "zoom": 0.08
+ },
+ {
+  "clip": "Q1_home.mp4",
+  "start": 14.37,
+  "kind": "quote",
+  "anchor": "But",
+  "zoom": 0.08
+ },
+ {
+  "clip": "G1_jersey_face.mp4",
+  "start": 16.13,
+  "kind": "action",
+  "anchor": "He's",
+  "zoom": 0.08
+ },
+ {
+  "clip": "c16_names.mp4",
+  "start": 17.42,
+  "kind": "card",
+  "anchor": "Bobby"
+ },
+ {
+  "clip": "H4_arena2.mp4",
+  "start": 18.77,
+  "kind": "action",
+  "anchor": "And the four",
+  "zoom": 0.08
+ },
+ {
+  "clip": "c16_names.mp4",
+  "start": 20.36,
+  "kind": "card",
+  "anchor": "Herro,"
+ },
+ {
+  "clip": "G2_jersey_back.mp4",
+  "start": 23.22,
+  "kind": "action",
+  "anchor": "Six",
+  "zoom": 0.08
+ },
+ {
+  "clip": "K2_dunk.mp4",
+  "start": 23.8,
+  "kind": "action",
+  "anchor": "Two",
+  "zoom": 0.1
+ },
+ {
+  "clip": "H5_tower2.mp4",
+  "start": 24.51,
+  "kind": "action",
+  "anchor": "One",
+  "zoom": 0.1
+ },
+ {
+  "clip": "K1_dunk.mp4",
+  "start": 24.87,
+  "kind": "action",
+  "anchor": "that doesn't",
+  "zoom": 0.1
+ }
+]

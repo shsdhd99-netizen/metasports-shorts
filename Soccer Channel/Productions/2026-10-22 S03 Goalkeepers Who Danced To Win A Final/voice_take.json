@@ -1,0 +1,30 @@
+[
+ {
+  "take": 1,
+  "ok": false,
+  "score": -94.7,
+  "verdict": "REDO",
+  "issues": [
+   "58.38s  script \"pirlo's and\" but heard \"pirloz\""
+  ],
+  "wpm": 223,
+  "hnr": 8.9,
+  "jitter": 2.86,
+  "shimmer": 10.71,
+  "dur": 71.91,
+  "pitch_sd": 5.21
+ },
+ {
+  "take": 2,
+  "ok": true,
+  "score": 5.0,
+  "verdict": "CHECK",
+  "issues": [],
+  "wpm": 225,
+  "hnr": 8.6,
+  "jitter": 2.9,
+  "shimmer": 10.8,
+  "dur": 71.31,
+  "pitch_sd": 5.0
+ }
+]

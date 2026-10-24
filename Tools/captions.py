@@ -6,9 +6,12 @@
   python captions.py --burn final_nocap.mp4 --ass captions.ass --out final.mp4
 
 Styles
-  metasports (default): ALL CAPS, Montserrat Black, white with a thick black outline, 1-3 words a card,
+  metasports (default): ALL CAPS, Montserrat Black, white with a thick black outline, 1-3 words a card.
+  Spelled numbers stay together ("two hundred nine", "five point four") and a card that is only a number goes green.
                         a little below the middle. Shock words turn red, numbers and big moments green.
   clank:                sentence case, Montserrat Bold, white with a thin outline, 2-5 words, dead centre.
+  karaoke (Round 5 test, not yet A/B tested): sentence case, Montserrat Bold 80 px, black outline 6, 2-3 words a card at 54% height,
+                        the word being spoken turns yellow (numbers green). One ASS event per word, layout never moves.
 
 To colour a card by hand, put emphasis.json next to words.json:
   {"red": ["nobody"], "green": ["100 voters"], "white": ["first"]}   (matched inside each card's text)
@@ -25,7 +28,17 @@ STYLES = {
                        caps=True, pop=True, colors=True),
     "clank": dict(font="Montserrat Bold", size=58, scalex=100, outline=3, shadow=1, blur=0.6, y=960, spacing=0, maxw=5, maxc=30, ideal=3.5,
                   caps=False, pop=False, colors=False),
+    # Round 5 candidate: sentence case + word-by-word highlight (REBOUND/Hormozi family) with Clank's calm sizing. Needs an A/B test.
+    "karaoke": dict(font="Montserrat Bold", size=80, scalex=100, outline=6, shadow=2, blur=0.5, y=1040, spacing=0, maxw=3, maxc=22, ideal=2.4,
+                    caps=False, pop=False, colors=False, kara=True),
+    # Oct 21: the Ahmed's Goal/Basketball/Business look, measured on their own frames (Research Notes/Story Format Study): TikTok Sans
+    # SemiBold, "did not slow down" 514 px wide x 41 px tall at 1080x1920 = size 80, white, thin black outline, centred at y 960,
+    # 2-3 words a card as spoken (sentence case, punctuation kept). title_caption.txt (if present) is shown over the spoken title.
+    "ahmed": dict(font="TikTok Sans SemiBold", size=80, scalex=100, outline=3.2, shadow=1, blur=0.5, y=960, spacing=0, maxw=3, maxc=20, ideal=2.6,
+                  caps=False, pop=False, colors=False, title=True),
 }
+KARA_HI = "&H000AD6FF&"   # warm yellow FFD60A (ASS is BGR)
+KARA_NUM = "&H0040E33A&"  # numbers/money in green so the key figure stays readable
 RED = "&H002A2AFF&"    # ASS colours are &HAABBGGRR
 GREEN = "&H0040E33A&"
 
@@ -68,6 +81,21 @@ def soft_end(w):
     return w.rstrip("\"')”’")[-1:] in ",;:—–"
 
 
+NUMWORD = {"zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten",
+           "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen",
+           "nineteen", "twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety",
+           "hundred", "thousand"}
+
+
+def is_numword(w):
+    """A spelled number, including 'ninety-eight' and 'sixty-five'. Not 'point'."""
+    b = bare(w)
+    if b in NUMWORD:
+        return True
+    parts = b.split("-")
+    return len(parts) == 2 and all(p in NUMWORD for p in parts)
+
+
 def glued(a, b):
     """True when breaking between a and b would split a unit like '15 feet', 'Victor Wembanyama' or 'free throw'."""
     if ends_sentence(a) or soft_end(a):
@@ -77,6 +105,10 @@ def glued(a, b):
         return True
     if ba in UNITS and re.match(r"^\d", bb):  # "13 feet 9"
         return True
+    if is_numword(a) and (is_numword(b) or bb == "point"):
+        return True  # "two hundred nine", "five point"
+    if ba == "point" and is_numword(b):
+        return True  # "point four"
     if (ba, bb) in PAIRS:
         return True
     ca, cb = a.strip("\"'“‘"), b.strip("\"'“‘")
@@ -100,7 +132,8 @@ def chunk(words, st):
             return INF
         c = (k - ideal) ** 2 * 0.6
         if k == maxw + 1:
-            c += 2.5
+            # Oct 14: a sentence may finish on one extra word if it still fits the width ("OF HIS NBA CAREER.") instead of orphaning it
+            c += 0.8 if ends_sentence(card[-1]["word"]) and len(text) <= maxc else 2.5
         if len(text) > maxc:
             c += (len(text) - maxc) * 0.7
         c += sum(1.8 for w in card[:-1] if soft_end(w["word"]))
@@ -108,7 +141,7 @@ def chunk(words, st):
             b = bare(card[0]["word"])
             c += 6 if b in DANGLING else (0.2 if len(b) >= 7 or ends_sentence(card[0]["word"]) else 1.0)
             if ends_sentence(card[0]["word"]) and i > 0 and not (ends_sentence(words[i - 1]["word"]) or soft_end(words[i - 1]["word"])):
-                c += 1.2  # avoid a lone "list." / "too." hanging off the card before it
+                c += 2.0  # avoid a lone "list." / "career." hanging off the card before it (Oct 14: was 1.2; #40 showed "OF HIS NBA" / "CAREER.")
         dur = card[-1]["end"] - card[0]["start"]
         if dur < 0.22:
             c += 1.5
@@ -163,7 +196,7 @@ def card_color(text, manual):
     toks = [bare(t) for t in text.split()]
     if any(t in SHOCK for t in toks):
         return "red", 2
-    if any(re.search(r"\d", t) for t in toks):
+    if any(re.search(r"\d", t) for t in toks) or (toks and all(is_numword(t) or t == "point" for t in toks)):
         return "green", 2
     if any(t in BIG for t in toks):
         return "green", 1
@@ -213,9 +246,32 @@ def ass_time(t):
     return f"{int(h)}:{int(m):02d}:{int(s):02d}.{cs:02d}"
 
 
-def make_ass(words, style="metasports", manual=None, total=None):
+MAX_CAP_PX = 805  # 15 px under the 820 px check, for rounding; centred at x=540, a wider line passes x=950, where the Shorts like/comment buttons sit (export_check.py)
+
+
+def fit_scale(text, st):
+    """Uniform scale (<= 1) that keeps a caption line under MAX_CAP_PX. Width measured with the real font; libass draws an ASS
+    font size at about 0.745 of PIL's em width (calibrated Oct 15 on a burned #36 v2 frame: 'STARTED SEVENTY-FIVE' is 1115 px
+    in PIL at size 86 and burned 831 px wide at the pop's final \\fscx100)."""
+    try:
+        from PIL import ImageFont
+        fp = os.path.join(HERE, "fonts", st["font"].replace(" ", "-") + ".ttf")
+        b = ImageFont.truetype(fp, int(st["size"])).getbbox(text)
+        px = (b[2] - b[0]) * (1.0 if st.get("pop") else st["scalex"] / 100) * 0.745
+        return min(1.0, MAX_CAP_PX / px) if px else 1.0
+    except Exception:
+        return 1.0
+
+
+def make_ass(words, style="metasports", manual=None, total=None, ys=None):
+    """ys: optional [(shot_start, y)] from shots.json "cap_y"; a card uses the y of the shot it starts in."""
     st, manual = STYLES[style], manual or {}
-    cards = chunk(words, st)
+    title = manual.get("_title") if st.get("title") else None
+    if title:  # the first len(title words) spoken words become one 1-2 line title card (the "Players who ..." opener)
+        n = len([t for t in re.split(r"\s+|\\N", title) if re.search(r"\w", t)])
+        cards = [words[:n]] + chunk(words[n:], st)
+    else:
+        cards = chunk(words, st)
     texts = [re.sub(r"\s+", " ", " ".join(w["word"] for w in c)).strip() for c in cards]
     picks = limit_colors([card_color(t, manual) for t in texts]) if st["colors"] else [(None, 0)] * len(cards)
     lines, events = [], []
@@ -231,13 +287,34 @@ def make_ass(words, style="metasports", manual=None, total=None):
             if total:
                 end = min(end, total)
         shown = text.upper() if st["caps"] else text
+        if title and k == 0:
+            shown = title
         col = picks[k][0]
-        tags = f"\\pos(540,{st['y']})\\blur{st['blur']}"
+        y = st["y"]
+        for t0, cy in ys or []:
+            if t0 <= start + 0.01:
+                y = cy or st["y"]
+        tags = f"\\pos(540,{y})\\blur{st['blur']}"
         if col:
             tags += f"\\c{RED if col == 'red' else GREEN}"
+        fit = min(fit_scale(ln, st) for ln in shown.split("\\N"))  # Oct 15: keep the widest card clear of the Shorts like/comment column (x > 950)
         if st["pop"]:
-            tags += "\\fscx86\\fscy86\\t(0,90,\\fscx100\\fscy100)"
-        shown = shown.replace("{", "(").replace("}", ")")
+            tags += f"\\fscx{86 * fit:.0f}\\fscy{86 * fit:.0f}\\t(0,90,\\fscx{100 * fit:.0f}\\fscy{100 * fit:.0f})"
+        elif fit < 1:
+            tags += f"\\fscx{st['scalex'] * fit:.0f}\\fscy{100 * fit:.0f}"
+        shown = shown.replace("{", "(").replace("}", ")").replace("\n", "\\N")
+        if st.get("kara"):  # one event per spoken word; the active word is highlighted, layout never moves
+            toks = [re.sub(r"[{}]", "", w["word"]) for w in card]
+            for wi, w in enumerate(card):
+                ws = start if wi == 0 else w["start"]
+                we = end if wi == len(card) - 1 else card[wi + 1]["start"]
+                if we - ws < 0.04:
+                    continue
+                hi = KARA_NUM if re.search(r"\d", toks[wi]) else KARA_HI
+                parts = [(f"{{\\c{hi}}}{t}{{\\c&H00FFFFFF&}}" if j == wi else t) for j, t in enumerate(toks)]
+                events.append(f"Dialogue: 0,{ass_time(ws)},{ass_time(we)},Cap,,0,0,0,,{{{tags}}}{' '.join(parts)}")
+            lines.append((start, end, shown, col))
+            continue
         events.append(f"Dialogue: 0,{ass_time(start)},{ass_time(end)},Cap,,0,0,0,,{{{tags}}}{shown}")
         lines.append((start, end, shown, col))
     head = f"""[Script Info]
@@ -291,7 +368,13 @@ def build(folder, style="metasports", total=None):
     words = json.load(open(os.path.join(folder, "words.json"), encoding="utf-8-sig"))
     mp = os.path.join(folder, "emphasis.json")
     manual = json.load(open(mp, encoding="utf-8-sig")) if os.path.exists(mp) else {}
-    ass, lines = make_ass(words, style, manual, total)
+    tp = os.path.join(folder, "title_caption.txt")  # ahmed style: on-screen title over the spoken title ("\N" or a newline = line break)
+    if os.path.exists(tp):
+        manual["_title"] = open(tp, encoding="utf-8-sig").read().strip().replace("\r", "")
+    sp = os.path.join(folder, "shots.json")  # a shot may set "cap_y" (pixels of 1920) to move captions off a face
+    shots = json.load(open(sp, encoding="utf-8-sig")) if os.path.exists(sp) else []
+    ys = sorted(((float(x.get("start", 0)), x.get("cap_y")) for x in shots if isinstance(x, dict)), key=lambda t: t[0])
+    ass, lines = make_ass(words, style, manual, total, ys)
     path = os.path.join(folder, "captions.ass")
     open(path, "w", encoding="utf-8").write(ass)
     return path, lines

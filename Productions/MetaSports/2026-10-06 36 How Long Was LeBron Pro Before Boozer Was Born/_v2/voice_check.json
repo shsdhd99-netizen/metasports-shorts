@@ -1,0 +1,49 @@
+{
+ "verdict": "PASS",
+ "wpm": 215,
+ "issues": [],
+ "notes": [
+  " 3.78s  \"boozer\" heard as \"buzer\" (close; check the name)",
+  "12.58s  \"he\" heard as \"\" (close; check the name)",
+  "19.92s  \"boozers\" heard as \"buzers\" (close; check the name)"
+ ],
+ "heard": "LeBron's teammate from his rookie year now has a son in the NBA. Carlos Buzer started 75 games next to a teenage LeBron in Cleveland. This summer, Memphis drafted his son Cameron, third overall. And here's how long LeBron has been around. played in the NBA finals 34 days before Cameron was born. Now Cameron is the youngest player in the league. LeBron in year 24 is the oldest. Two generations of Buzers, one LeBron.",
+ "mismatches": [
+  {
+   "at": 3.78,
+   "script": "boozer",
+   "heard": "buzer",
+   "similar": 0.73
+  },
+  {
+   "at": 4.44,
+   "script": "seventy 5",
+   "heard": "75",
+   "similar": 1.0
+  },
+  {
+   "at": 12.58,
+   "script": "he",
+   "heard": "",
+   "similar": 1.0
+  },
+  {
+   "at": 13.52,
+   "script": "30 4",
+   "heard": "34",
+   "similar": 1.0
+  },
+  {
+   "at": 17.78,
+   "script": "20 4",
+   "heard": "24",
+   "similar": 1.0
+  },
+  {
+   "at": 19.92,
+   "script": "boozers",
+   "heard": "buzers",
+   "similar": 0.77
+  }
+ ]
+}

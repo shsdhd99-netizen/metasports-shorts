@@ -1,0 +1,55 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Montserrat Black,86,&H00FFFFFF,&H00FFFFFF,&H00000000,&H99000000,0,0,0,0,95,100,1,0,1,6,3,5,70,70,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.43,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}A FATHER
+Dialogue: 0,0:00:00.43,0:00:00.70,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND SON
+Dialogue: 0,0:00:00.70,0:00:01.24,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HAD NEVER PLAYED
+Dialogue: 0,0:00:01.24,0:00:01.60,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN THE SAME
+Dialogue: 0,0:00:01.60,0:00:02.19,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NBA GAME,
+Dialogue: 0,0:00:02.19,0:00:02.75,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}UNTIL LEBRON
+Dialogue: 0,0:00:02.75,0:00:03.52,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND BRONNY JAMES.
+Dialogue: 0,0:00:03.52,0:00:04.16,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THEY WERE TEAMMATES
+Dialogue: 0,0:00:04.16,0:00:04.91,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FOR TWO SEASONS,
+Dialogue: 0,0:00:04.91,0:00:05.35,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND LEBRON
+Dialogue: 0,0:00:05.35,0:00:06.09,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}CALLED IT PROBABLY
+Dialogue: 0,0:00:06.09,0:00:06.62,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HIS NUMBER ONE
+Dialogue: 0,0:00:06.62,0:00:07.20,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ACCOMPLISHMENT.
+Dialogue: 0,0:00:07.20,0:00:07.80,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THEN LEBRON LEFT
+Dialogue: 0,0:00:07.80,0:00:08.52,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FOR PHILADELPHIA,
+Dialogue: 0,0:00:08.52,0:00:09.58,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND BRONNY STAYED.
+Dialogue: 0,0:00:09.58,0:00:10.01,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FEELS LIKE
+Dialogue: 0,0:00:10.01,0:00:10.90,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HE'S NOT HERE.
+Dialogue: 0,0:00:10.90,0:00:11.31,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BUT THAT'S
+Dialogue: 0,0:00:11.31,0:00:11.67,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NOT EVEN
+Dialogue: 0,0:00:11.67,0:00:12.60,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE CRAZY PART.
+Dialogue: 0,0:00:12.60,0:00:13.38,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ON CHRISTMAS DAY,
+Dialogue: 0,0:00:13.38,0:00:13.91,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE SIXERS
+Dialogue: 0,0:00:13.91,0:00:14.62,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}VISIT THE LAKERS,
+Dialogue: 0,0:00:14.62,0:00:15.10,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND LEBRON
+Dialogue: 0,0:00:15.10,0:00:15.78,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WILL PLAY AGAINST
+Dialogue: 0,0:00:15.78,0:00:16.34,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HIS OWN SON
+Dialogue: 0,0:00:16.34,0:00:16.98,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN AN NBA
+Dialogue: 0,0:00:16.98,0:00:17.42,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}GAME FOR THE
+Dialogue: 0,0:00:17.42,0:00:18.12,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FIRST TIME.
+Dialogue: 0,0:00:18.12,0:00:18.73,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BRONNY SAYS
+Dialogue: 0,0:00:18.73,0:00:19.10,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HIS NAME
+Dialogue: 0,0:00:19.10,0:00:19.43,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IS WHAT
+Dialogue: 0,0:00:19.43,0:00:20.24,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}DRIVES HIM.
+Dialogue: 0,0:00:20.24,0:00:20.73,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}YOU GUYS
+Dialogue: 0,0:00:20.73,0:00:21.23,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}KNOW ME
+Dialogue: 0,0:00:21.23,0:00:21.72,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AS BRONNY.
+Dialogue: 0,0:00:21.72,0:00:22.46,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}I'M, MY REAL
+Dialogue: 0,0:00:22.46,0:00:23.39,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NAME IS LEBRON.
+Dialogue: 0,0:00:23.39,0:00:24.19,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}CHRISTMAS DAY.
+Dialogue: 0,0:00:24.19,0:00:25.23,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}LEBRON JAMES VERSUS
+Dialogue: 0,0:00:25.23,0:00:26.62,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}LEBRON JAMES JUNIOR.

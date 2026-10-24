@@ -1,0 +1,42 @@
+[
+ {
+  "i": 0,
+  "kind": "vo",
+  "start": 0.0,
+  "end": 14.456,
+  "src": "_n1",
+  "src_from": null
+ },
+ {
+  "i": 1,
+  "kind": "quote",
+  "start": 14.576,
+  "end": 16.086,
+  "src": "src/2081841967915581692.mp4",
+  "src_from": 142.44
+ },
+ {
+  "i": 2,
+  "kind": "quote",
+  "start": 16.206,
+  "end": 18.636,
+  "src": "src/2081841967915581692.mp4",
+  "src_from": 148.32
+ },
+ {
+  "i": 3,
+  "kind": "quote",
+  "start": 18.756,
+  "end": 20.666,
+  "src": "src/2081841967915581692.mp4",
+  "src_from": 151.34
+ },
+ {
+  "i": 4,
+  "kind": "vo",
+  "start": 20.786,
+  "end": 22.737,
+  "src": "_n3",
+  "src_from": null
+ }
+]

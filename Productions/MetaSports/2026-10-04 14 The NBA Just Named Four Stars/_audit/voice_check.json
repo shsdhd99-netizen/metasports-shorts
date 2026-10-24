@@ -1,0 +1,18 @@
+{
+ "verdict": "PASS",
+ "wpm": 247,
+ "issues": [],
+ "notes": [
+  " 3.14s  \"jaylen\" heard as \"jalen\" (close; check the name)",
+  "21.50s  rushed sentence (350 wpm): The first two are legal."
+ ],
+ "heard": "The NBA just named four stars in one video about one illegal move, Jalen Brown, Paolo Banchero, Donovan Mitchell, RJ Barrett, The Move, shoving a defender with your free arm to make space. But the same video shows what's still legal, CJ McCollum firming up, Paul George only feeling the defender. And it shows a call the NBA says was wrong, Jalen Suggs was whistled for an offensive foul and it should have been a no -call. So the rule is four words, feeling, firming, force, full extension. The first two are legal, the last two are fouls.",
+ "mismatches": [
+  {
+   "at": 3.14,
+   "script": "jaylen",
+   "heard": "jalen",
+   "similar": 0.91
+  }
+ ]
+}

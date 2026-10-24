@@ -1,0 +1,15 @@
+{
+ "track": "Library/Music/eleven_stats_01.mp3",
+ "start": 0.0,
+ "bed_lu": -20,
+ "gap_lift": 4,
+ "drops": [
+  {
+   "at": 14.809,
+   "len": 0.3
+  }
+ ],
+ "out": 22.664,
+ "fade_out": 0.5,
+ "why": "Paradox/record story = the 'stats' bed (clever pulse, 92 BPM, 4% speech-band energy). One beat of silence before the turn 'It isn't.'; the music decays before the punchline 'Not eighty-one.' so it lands dry (the old 'Why does no one like Bronny' hit did this on its last word)."
+}

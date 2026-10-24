@@ -1,38 +1,38 @@
-# Fresh NBA moments — 2026-09-26
+# Fresh NBA moments — 2026-10-19
 
 ## Hottest new NBA Shorts from big highlight channels (vs. their normal)
 
 | Heat | Views | Channel | Moment | Link |
 |---|---|---|---|---|
-| 7.0x | 168,000 | House of Highlights | Bro actually MIGHT BE SGA💀😭 | https://www.youtube.com/shorts/-OriIYQc75Q |
-| 6.9x | 193,000 | NBA | Last season’s Western Conference Champions are ready for the 2026-27 NBA season  | https://www.youtube.com/shorts/4u-JCjp1rrg |
-| 6.7x | 160,000 | House of Highlights | Giannis was SCARED of an IGUANA😭 | https://www.youtube.com/shorts/-rodsyl97Xs |
-| 5.8x | 161,000 | NBA | That #1 overall pick feeling 🤩 | https://www.youtube.com/shorts/OuJ7ZLEtSkc |
-| 3.9x | 94,000 | House of Highlights | Luka Doncic is ONE OF US😭 | https://www.youtube.com/shorts/_LUwjZ9X7NU |
-| 3.8x | 49,000 | Bleacher Report | Luka Doncic welcomed Sexton to the Lakers 😅 | https://www.youtube.com/shorts/wooG2Q9qO3I |
-| 2.6x | 74,000 | NBA | Yall know the meme 😭😭😭 | https://www.youtube.com/shorts/YtInDrCCaK0 |
-| 2.6x | 73,000 | NBA | Cooper Flagg on potentially growing an inch this offseason 👀📈 | https://www.youtube.com/shorts/cr6bzM0P3E0 |
-| 1.9x | 45,000 | House of Highlights | Steph Curry just signed to… 😮🔥 @Whristan | https://www.youtube.com/shorts/xxFqe26NkZE |
-| 1.5x | 37,000 | House of Highlights | Steph staying in the NBA till he's 41😱 | https://www.youtube.com/shorts/RNWJDQJsh7A |
-| 1.4x | 17,000 | ClutchPoints | Is Rudy Gobert a TOP 10 Rim Protector? | https://www.youtube.com/shorts/dC445TcGe-U |
-| 1.2x | 34,000 | NBA | “Y'all can smile!” PJ jumps in on the photo with Cooper, Kyrie and Dereck 📸 | https://www.youtube.com/shorts/RUdQa6e_5R0 |
-| 1.2x | 14,000 | ClutchPoints | Who’s The FUNNIEST NBA Player? 🤔 | https://www.youtube.com/shorts/tG11I0w5ZyQ |
-| 0.9x | 22,000 | House of Highlights | Headband Luka working his LOB THREAT😤 | https://www.youtube.com/shorts/qapiZgcYS84 |
-| 0.8x | 21,000 | NBA | First look at Kyrie at Mavericks Media Day as he prepares to return to the floor | https://www.youtube.com/shorts/amggffaTvyw |
+| 7.6x | 291,000 | NBA | Imagine Getting This Shot In Front Of Draymond 👏 | https://www.youtube.com/shorts/L59AKfB36fk |
+| 6.0x | 231,000 | NBA | Klay was testing out the nets in South Beach at practice 🔥 | https://www.youtube.com/shorts/zsTKxx4fofI |
+| 4.3x | 383,000 | House of Highlights | NOOO now Steph Curry is INJURED🚨 | https://www.youtube.com/shorts/CgmXZYYf84k |
+| 3.0x | 116,000 | NBA | This Ja Morant save to Dame from the preseason was insane 🔥 | https://www.youtube.com/shorts/FCjQb2Oo4K0 |
+| 2.5x | 96,000 | NBA | How does Wemby do it?! 🤯 | https://www.youtube.com/shorts/vlwyVuaAieE |
+| 2.1x | 69,000 | Bleacher Report | Steve Kerr says Steph tweaked his ankle and said “he’s fine” 🙏 | https://www.youtube.com/shorts/DjqcRBA6FKA |
+| 1.9x | 72,000 | NBA | Get a behind-the-scenes look of Giannis at Heat practice! 🔥🤩 | https://www.youtube.com/shorts/B9O9lbOKZo0 |
+| 1.1x | 42,000 | NBA | We were witnesses to an all-time preseason dime last week courtesy of Jokić 🤯 | https://www.youtube.com/shorts/Un0kItSJhWk |
+| 1.0x | 15,000 | ClutchPoints | We FOUGHT About James Harden 😭 | https://www.youtube.com/shorts/lvMzPf8r4H4 |
+| 1.0x | 14,000 | ClutchPoints | Who Won More Playoff Games? 🏈 | https://www.youtube.com/shorts/nkIPMwYOkIU |
+| 0.9x | 35,000 | NBA | No, YOU shoot it 😂 | https://www.youtube.com/shorts/0d2Ad_yrwgQ |
+| 0.9x | 33,000 | NBA | One of the cutest Spurs fans we'll ever see 😆😤 (via: robthetxrealtor/IG) | https://www.youtube.com/shorts/53LNc_J_SQk |
+| 0.7x | 27,000 | NBA | Tatum tuned up his pregame ritual with Deuce this preseason 🤝☘️ | https://www.youtube.com/shorts/rcN6jBh1CXY |
+| 0.7x | 10,000 | ClutchPoints | X Teams BETTER Than The Jazz? 🤔 | https://www.youtube.com/shorts/_HA1ERrQfYk |
+| 0.6x | 24,000 | NBA | 😂 Giannis and Bam explain their "fusion" photo at Heat Media Day! | https://www.youtube.com/shorts/RLZ0p9EYrOQ |
 
 ## Top NBA headlines right now (storyline ideas — verify before using)
 
-- 2026 NBA buzz: Latest free agency and trade updates - ESPN
-- ESPN's Top 100 NBA Players List Has Two Glaring Omissions From The Atlanta Hawks - Sports Illustrated
-- Celtics coach Joe Mazzulla joins Tim Tebow in distancing himself from Life Surge after 'scam' allegations - Yahoo Sports
-- Sources: Bulls to trade Dillingham to Hornets for Buddy Hield - ESPN
-- Buddy Hield Traded to Bulls from Hornets for Former Lottery Pick, New NBA Rumors Reveal - bleacherreport.com
-- Bulls-Hornets Trade Grades: Buddy Hield Finds a New Home in Chicago - Sports Illustrated
-- Stephen Curry signs 2-year, $116 million extension to stay in Golden State - Yahoo Sports
-- Stephen Curry, Warriors reportedly agree to $116M extension: What it means for Golden State's future - CBS Sports
-- Top 10 Highest-Paid Players in NBA History - Sports Illustrated
-- Why did LeBron James sign with the Philadelphia 76ers? Let him explain - USA Today
-- LeBron James: Maxey friendship, helping Embiid were 76ers factors - ESPN
-- LeBron James is in love with competing vs. Father Time, hopes to help Joel Embiid over the hump in Philly - Yahoo Sports
+- NBA predictions: Picks for 2027 champion, MVP, Rookie of the Year, and more - Yahoo Sports
+- Jaylen Brown, Ja Morant and NBA Stars with Most on the Line This Season - Bleacher Report
+- 3 Reasons Why 76ers Could Have a Rough Start to the Regular Season - Sports Illustrated
+- Ben Simmons’ NBA comeback suffers brutal blow in crushing setback with Kings - New York Post
+- Kings guard Ben Simmons suffers torn Achilles tendon during practice Sunday - NBA.com
+- Kings guard Ben Simmons, 30, has torn Achilles tendon, will undergo surgery - ESPN
+- 2026-2027 NBA season expert picks for East, West, Finals champs - ESPN
+- FanDuel Promo Code: Get up to $350 Bonus for Monday Night Football, WNBA Finals, and NBA Tip-Off - Sports Illustrated
+- NBA tells sportsbooks to stop certain bets, restrict parlays - ESPN
+- NBA and sportsbooks agree to ban multiple types of bets - CNBC
+- Knicks waive Bruce Brown, keep James Wiseman ahead of opener - ESPN
+- New Jersey homeowner recreates unforgettable Knicks NBA Finals moment in Halloween display - ABC7 New York
 
 **Next:** pick one → type `/nba-short the moment` in Claude (it runs the copy-check for you).

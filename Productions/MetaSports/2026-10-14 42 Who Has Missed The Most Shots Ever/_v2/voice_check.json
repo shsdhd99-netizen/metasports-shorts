@@ -1,0 +1,42 @@
+{
+ "verdict": "REDO",
+ "wpm": 163,
+ "issues": [
+  "22.30s  stretched/garbled word \"times.\" (0.87s)"
+ ],
+ "notes": [
+  " 7.32s  \"the\" heard as \"\" (close; check the name)",
+  "14.76s  \"worse\" heard as \"worst\" (close; check the name)",
+  "whole take is slow: 163 words/min (aim 240-290)",
+  " 7.26s  dragging sentence (126 wpm): The old record was Kobe's: 14,481 misses.",
+  "18.54s  dragging sentence (117 wpm): LeBron just shot more than anyone, ever: 31,502 times.",
+  "12.64s  very quiet word \"the\" (-13 dB)"
+ ],
+ "heard": "LeBron James has missed more shots than anyone in NBA history. 15 ,541, and he's the all -time leading scorer. old record was Kobe's, 14 ,481 misses. LeBron passed it in October 2024, the same night he first played with his son. So is he a worst shooter? No, LeBron makes 51%. Kobe made 45. LeBron just shot more than anyone ever, 31 ,502 times.",
+ "mismatches": [
+  {
+   "at": 7.32,
+   "script": "the",
+   "heard": "",
+   "similar": 1.0
+  },
+  {
+   "at": 14.76,
+   "script": "worse",
+   "heard": "worst",
+   "similar": 0.8
+  },
+  {
+   "at": 16.44,
+   "script": "50 1",
+   "heard": "51",
+   "similar": 1.0
+  },
+  {
+   "at": 17.76,
+   "script": "40 5",
+   "heard": "45",
+   "similar": 1.0
+  }
+ ]
+}
