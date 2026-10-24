@@ -2,7 +2,7 @@
 name: nba-short
 description: >
   Write a ready-to-voice MetaSports (MetaSportsClips) AI NBA story Short in the CoachClank-proven
-  style (22–40s stories or 15–25s moments, fast AI voice, scene/rule/opinion opener, turn, argument-starting ending). It finds
+  style (22–40s stories or 15–25s moments, fast AI voice, scene/rule/opinion opener, turn, an ending on the payoff; the debate question goes in the pinned comment). It finds
   fresh moments, copy-checks the topic, verifies facts, picks a data-backed title, saves an
   ElevenLabs-ready script and offers to make the voiceover. Use when the user types /nba-short or
   asks for a MetaSports / NBA Short script. Argument: the moment or topic (optional).

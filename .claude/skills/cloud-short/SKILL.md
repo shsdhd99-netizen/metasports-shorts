@@ -43,7 +43,7 @@ A Short that is one talking head, text cards or repeated footage gets swiped (th
 Order: research -> find 6+ clips -> script around the clips -> voice (`voiceover.py` per piece, `splice_voice.py` for quotes) -> shots.json with kinds -> assemble -> qa_short PASS -> package.
 
 ### Evidence-backed rules from Round 5 (`Research Notes/Round 5 - Competitor Formulas (Oct 4, 2026).md`; evidence tier in brackets)
-- [PROVEN] Lane: rule/ban/"caught", size/skill spectacle, one-second oddity or petty/funny player moment. Contract/trade/wholesome stories only with a rule or number gap as the hook. (rule/ban titles got 2.5x the channel median, n=26)
+- [OUTDATED, Oct 24 audit] ~~Lane: rule/ban/"caught"... (rule/ban titles got 2.5x the channel median, n=26)~~ That was the old era. Since the Oct 3 restart, rule/policy Shorts are our weakest lane (63.7% stayed, 2.0K views median, n=6), and every 10K+ Short paired a household-name star with a one-line paradox or curiosity (6 of 6; `Research Notes/Audit of Our Rules (Oct 24, 2026).md`). Size/skill spectacle and one-second oddities about a superstar still fit.
 - [PROVEN] Write the concept in 8 words or fewer; a stranger must get it in one second. Put `Lane:`, `Concept:` and `Added value:` (opinion line or verified number) in notes.md with a source URL per number (inauthentic-content policy).
 - [PROVEN] Story length 21+ s (CoachClank: 21 s+ got 848K vs 291K for 20 s or less). Frame 0 must be a face or moving action (the Shorts feed shows no thumbnails; do not over-invest in covers).
 - [SUPPORTED] Speech 240-290 wpm; end on the payoff with no "subscribe/follow/like" outro; last word ends 0.15-0.4 s before the end and the last line echoes the first (loop); a turn word (But/Until/Now) in the first 40%.

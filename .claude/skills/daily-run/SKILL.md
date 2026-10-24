@@ -35,6 +35,9 @@ Two runs a day (scheduled tasks "MetaSports NBA daily run" and "MetaSports FC da
   `YT_REFRESH_TOKEN_FC` (FC). Without them, log "analytics: no token" and use the newest Studio export instead.
 - New Studio exports (the owner's weekly zip) go in `Research Notes/Studio exports/`. "Stayed to watch" exists only there.
 - Fill a posted Short's Hub `results` only where the owner has not; never overwrite numbers the owner typed.
+- **The dataset (Oct 24 audit):** `python Tools/shorts_dataset.py --report` merges every export and API file into
+  `Research Notes/Shorts Dataset.csv`. For each newly posted Short fill its hand columns: lane, star, fresh (same-day / late
+  news / evergreen), frame1, music, captions, folder. Every rule change must cite this table (n and medians), not one Short.
 
 ## B. Learn (10 min): getting better every day
 - For each Short 2-7 days old, compare its numbers and retention curve with the rules: frame 1, the promise, the turn timing,
