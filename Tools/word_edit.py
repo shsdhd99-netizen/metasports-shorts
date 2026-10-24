@@ -7,7 +7,7 @@ For a fact fix when re-voicing is not possible (Oct 23 2026: no ElevenLabs key o
 A-B of the voice (seconds) to remove, optionally =C-D: a span of the same voice to put in its place. Put every cut point in
 a silence or a stop closure (the dip before k/g/t/d/p/b): print the loudness envelope around the words first and pick the
 lowest 10 ms. Words whose middle falls inside A-B are dropped; the words inside C-D are copied in with their own timings.
-Each joint gets a 4 ms fade, so there is no click. Rewrites voice.mp3, words.json and captions.srt; the originals go to
+Each joint gets a 4 ms fade (--fade), so there is no click. Rewrites voice.mp3, words.json and captions.srt; the originals go to
 _voice_preedit/. Then fix script.txt by hand (QA checks the captions against it), and re-run cut_list.py and assemble.py.
 """
 import argparse, json, os, shutil, subprocess, sys, tempfile
@@ -31,6 +31,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--folder", required=True)
     ap.add_argument("--edit", action="append", required=True, help="A-B to remove, or A-B=C-D to replace with C-D (seconds)")
+    ap.add_argument("--fade", type=float, default=0.004, help="fade at each joint, s (longer when a piece ends inside a vowel)")
     a = ap.parse_args()
     F = a.folder
     vp, wp = os.path.join(F, "voice.mp3"), os.path.join(F, "words.json")
@@ -56,7 +57,7 @@ def main():
     pieces.append((t, total))
     parts, new_words, pos = [], [], 0.0
     for k, (s, e) in enumerate(pieces):
-        fade = (",afade=t=in:d=0.004" if k else "") + (f",afade=t=out:st={max(0, e - s - 0.004):.4f}:d=0.004" if k < len(pieces) - 1 else "")
+        fade = (f",afade=t=in:d={a.fade}" if k else "") + (f",afade=t=out:st={max(0, e - s - a.fade):.4f}:d={a.fade}" if k < len(pieces) - 1 else "")
         parts.append(f"[0:a]atrim=start={s:.4f}:end={e:.4f},asetpts=PTS-STARTPTS{fade}[s{k}]")
         for w in words:
             if s <= mid(w) < e:  # TTS word timings overlap the real sound by a few ms, so place a word by its middle

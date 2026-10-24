@@ -4,7 +4,7 @@
 # Needs network access "Full" on the cloud environment and ELEVENLABS_API_KEY set in the environment's settings.
 set -e
 HERE="$(cd "$(dirname "$0")" && pwd)"
-pip install -q pillow numpy yt-dlp 2>&1 | tail -1 || true
+pip install -q pillow numpy yt-dlp opencv-python-headless faster-whisper "av>=11,<14" 2>&1 | tail -1 || true   # QA: footage_qc needs cv2; export_check speech-to-text needs faster-whisper (PyAV 14+ breaks it)
 command -v certutil >/dev/null || apt-get install -y -q libnss3-tools >/dev/null 2>&1 || true
 # Chromium (webshot.mjs) must trust the cloud proxy's certificate, or every page shows "Your connection is not private"
 if command -v certutil >/dev/null && [ -f /root/.ccr/agent-proxy-ca.crt ]; then
