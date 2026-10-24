@@ -33,6 +33,7 @@
 | 21.8 | "141 games, and he ended it himself." | SGA points up to the crowd after his 17th point, 1:43 left (**141, STRAIGHT GAMES**), ends on him |
 
 **Effects (4):** boom on 141, ding on 126, swish on his three, cinematic boom on the last 141.
+**Audio check (Oct 24, second pass):** -14.2 LUFS, peak -1.6 dBFS, no clipping, no clicks; every effect sits under the voice (+0.4 to +1.5 dB). The last boom now fades out by 24.3 s (it used to ring into the cut at the end). "Gilgeous" is said GIL-jus (a 30 ms "j" hiss after the closure, measured); the speech-to-text spelling "gilgis" is its own.
 
 ## QA (`qa_short.py --full`, Oct 24): PASS
 - Audio -14.2 LUFS, peak -1.9 dBFS; captions match the script word for word; no frozen or black frames; no footage shown twice.
