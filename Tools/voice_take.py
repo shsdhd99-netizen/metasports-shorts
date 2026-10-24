@@ -7,9 +7,11 @@ speech recognition: every word said? odd pauses, stretched/swallowed words, clip
 A take PASSES when voice_check has no REDO issue and HNR, jitter and shimmer are inside the profile's gate (voice_config.json hnr_min / jitter_max / shimmer_max; Alex 7.0 / 3.4 / 12.5, the clone 7.6 / 3.4 / 11.5).
 The voice and its settings come from voice_config.json (profile "primary" unless you pass -- --voice backup).
 It stops at the first passing take (credits: ~1 per character per take); otherwise it keeps the best of N and says why.
+Oct 24 2026: a take that fails only on 1-2 words the check can place in time (garbled name, odd pause) is repaired first by
+re-recording just those sentences (retake_sentence.py, about 5-10% of a take's credits); a new full take only if that fails.
 Writes voice.mp3, voice_raw.mp3, words.json, captions.srt next to script.txt and voice_take.json (all takes' numbers). Old files go to _voice_prev/.
 """
-import argparse, json, os, shutil, subprocess, sys, tempfile
+import argparse, json, os, re, shutil, subprocess, sys, tempfile
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 
@@ -62,21 +64,35 @@ def main():
             print(f"take {k}: " + " | ".join(l for l in r.stdout.splitlines() if l.startswith(("auto speed", "Raw pace", "Done"))))
             if r.returncode != 0 or not os.path.exists(os.path.join(tdir, "voice.mp3")):
                 print((r.stderr or r.stdout)[-300:]); shutil.rmtree(tdir, ignore_errors=True); continue
-            run([sys.executable, os.path.join(HERE, "voice_check.py"), "--folder", tdir, "--stt", "whisper"])
-            chk = json.load(open(os.path.join(tdir, "voice_check.json")))
-            w = vq.to_wav(os.path.join(tdir, "voice.mp3"))
-            try:
-                q = vq.measure(w)
-            finally:
-                os.remove(w)
-            s, ok = score(chk, q, *gate)
-            # Oct 14 night: reject a flat take. In round 4 one of two "F" takes fell to 3.8 semitones of pitch variety (the other 4.7).
-            psd = pitch_sd(os.path.join(tdir, "voice.mp3"))
-            q["pitch_sd"] = psd
-            if prof.get("pitch_sd_min") and psd is not None and psd < prof["pitch_sd_min"]:
-                ok = False; s -= 50
-                print(f"  take {k}: flat delivery (pitch variety {psd} < {prof['pitch_sd_min']} semitones)")
-            log.append({"take": k, "ok": ok, "score": round(s, 1), "verdict": chk["verdict"], "issues": chk["issues"][:5], "wpm": chk["wpm"], **{x: q.get(x) for x in ("hnr", "jitter", "shimmer", "dur", "pitch_sd")}})
+            def check():
+                run([sys.executable, os.path.join(HERE, "voice_check.py"), "--folder", tdir, "--stt", "whisper"])
+                chk = json.load(open(os.path.join(tdir, "voice_check.json")))
+                w = vq.to_wav(os.path.join(tdir, "voice.mp3"))
+                try:
+                    q = vq.measure(w)
+                finally:
+                    os.remove(w)
+                s, ok = score(chk, q, *gate)
+                # Oct 14 night: reject a flat take. In round 4 one of two "F" takes fell to 3.8 semitones of pitch variety (the other 4.7).
+                q["pitch_sd"] = psd = pitch_sd(os.path.join(tdir, "voice.mp3"))
+                flat = bool(prof.get("pitch_sd_min") and psd is not None and psd < prof["pitch_sd_min"])
+                if flat:
+                    ok = False; s -= 50
+                    print(f"  take {k}: flat delivery (pitch variety {psd} < {prof['pitch_sd_min']} semitones)")
+                return chk, q, s, ok, flat
+            chk, q, s, ok, flat = check()
+            fixed = None
+            timed = [float(m.group(1)) for m in (re.match(r"\s*([\d.]+)s\s", x) for x in chk["issues"]) if m]
+            if (not ok and not flat and timed and len(timed) == len(chk["issues"]) <= 2
+                    and q["hnr"] >= gate[0] and q["jitter"] <= gate[1] and q["shimmer"] <= gate[2]):
+                # only located word issues and a healthy voice: re-record just those sentences (Oct 24 2026)
+                r2 = run([sys.executable, os.path.join(HERE, "retake_sentence.py"), "--folder", tdir]
+                         + [x for t in timed for x in ("--at", str(t))] + (["--"] + a.rest if a.rest else []))
+                print(f"  take {k}: " + ((r2.stdout.strip().splitlines() or [""])[-1] if r2.returncode == 0 else "sentence retake failed: " + r2.stderr[-200:]))
+                if r2.returncode == 0:
+                    chk, q, s, ok, flat = check()
+                    fixed = "sentence retake"
+            log.append({"take": k, "ok": ok, "score": round(s, 1), "verdict": chk["verdict"], "issues": chk["issues"][:5], "wpm": chk["wpm"], **{x: q.get(x) for x in ("hnr", "jitter", "shimmer", "dur", "pitch_sd")}, **({"fixed": "fixed by " + fixed} if fixed else {})})
             print(f"  take {k}: {'PASS' if ok else 'FAIL'}  check={chk['verdict']} HNR {q['hnr']} jitter {q['jitter']} shimmer {q['shimmer']} {q['dur']}s  {chk['issues'][:2]}")
             if best is None or s > best[0]:
                 if best and os.path.isdir(best[1]): shutil.rmtree(best[1], ignore_errors=True)

@@ -76,6 +76,9 @@ Read first (they win over this file when newer):
 - It records, checks and re-records.
 - **Gate:** no REDO words, HNR, jitter and shimmer within limits.
 - The first take often drops "Back" after the title. Take 2 usually passes.
+- **Repair, don't re-record (Oct 24):** a failed take with 1-2 located word issues is fixed by `Tools/retake_sentence.py`
+  (~5-10% of a full take's credits): voice_take.py now does it by itself before paying for a new take. By hand:
+  `python Tools/retake_sentence.py --folder F --at <issue time>` (or `--sentence N`), then `voice_check.py --stt whisper`.
 - Output: voice.mp3, words.json, captions.srt. If the length is under 58 s, add a verified beat and re-voice.
 
 ### 4b. Take out the dead air (owner, Oct 22: "make sure videos have no unnecessary pauses")
