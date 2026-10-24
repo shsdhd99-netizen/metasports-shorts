@@ -44,3 +44,13 @@
 - **[V] A bookmaker's "in our 130-year history" quote was about the payout size, not the odds** (S07). Read what the superlative measures.
 - **[V] AP's play-by-play is the reliable source for which way a keeper dived** (S05 said left; he went right).
 - **[V] Cutting a whole sentence from a finished render works:** cut the video on the shot-change frame and the audio at the quiet point a few ms later, by the same length, so sync holds (S06, 62.4 s to 58.8 s).
+
+## Oct 24, 2026 (S04, S05, S07 finished in the cloud on the new account)
+- **[V] Without an ElevenLabs key, most fact fixes can still be made from the take itself.** `Tools/word_edit.py` cuts words (or swaps in the same word from elsewhere in the take). S07 "William Hill" -> "Bookmakers" (taken from the last line), S05 "the Argentina players" -> "Argentina" (from "But Argentina scored"). Cut in silence or in the stop closure before k/t/p; when a piece ends inside a word, end it before the next consonant's hiss (check the high-frequency energy) or the transcriber hears "Argentina's". Check every joint with local speech-to-text (faster-whisper small.en).
+- **[V] The take's own last line can be cut to end on an earlier, sourced line.** S07 now ends on "Around half of those fans had already cashed out", S05 on "feel on the day". Both are still a payoff, and both got under 60 s.
+- **[V] The 2018 World Cup is on archive.org as a 31 GB 4K HDR broadcast.** Pull only the needed seconds straight off the URL and tone-map to SDR (`zscale ... tonemap=hable`), about 3 s of work per second of footage; the 480p copy maps the moments. The 720p mkv of the 2006 final seeks the same way (`src/pull720.sh`), about 2 s per second.
+- **[V] A wide shot from behind the goal and the reverse angle settle a dive direction in seconds.** The 4K broadcast confirmed Pickford went to his right with his left arm up (the Oct 23 check from AP was right).
+- **[V] QA's "same footage twice" also catches two moments from the same static wide camera** (S04: the penalty set-up and the run-up). Use a different camera for one of them.
+- **[V] Mixkit rate-limits (429) after a few searches in a row.** Search early, then reuse ids.
+- **[S] Broadcast replays can carry another network's ticker** (ESPN "program alert" under ABC's 2006 replay). Crop it with `zoom` and `y: 0`, and check the face is still in frame (Z23 needed `x: 0.76`).
+
