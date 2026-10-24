@@ -419,3 +419,16 @@ Research Notes/Round 9 - Competitor Shorts Watched (Oct 5, 2026).md. Findings (n
   - **S07 Leicester 5000-1** (63.1 s). `bpl-leicester-vs-everton-2015-2016` and the MOTD 2016 highlights on archive.org.
 - `Tools/story_card.py` makes stat and photo cards for the story format.
 - The NBA daily stats routine is paused until the owner's credits reset (re-enable trig_01V8xJ1ZGJ5gbtAon8MCHPxy).
+
+## Oct 23-24 (new Claude account, cloud session): handoff
+- **Why a new session:** the old account ran out of usage. This session read the repo (owner made it public for the clone; it may be private again). Skills and memory carried over through the repo files.
+- **Network in this cloud environment:** archive.org, Mixkit, YouTube, nba.com, ElevenLabs and Social Blade were all refused by the proxy. No footage, no voice, no live stats from here. GitHub push was not authenticated (`GH_TOKEN` invalid), so the commit below may be local only.
+- **Owner posted:** S01 (30K, 771 likes at about 2 days), S02 (1.2K at 1 d 14 h), S03 (1.4K at 10 h). No copyright claims (owner, Oct 24). Logged in `Soccer Channel/Outcome Log.md` and `Data/fc_channel_log.csv`.
+- **New rule (Monetization Research):** a Short over 60 s with an active claim is blocked worldwide. Keep every new Short under 60 s.
+- **S06:** `DRAFT - UNDER 60s - S06 ...` (58.8 s; the Guardiola quote cut on a shot change, audio cut at a quiet point). Sent to the owner to post, singular title.
+- **S04/S05/S07:** fact-checked; `notes.md` in each folder. S04 clean (voice 57.6 s; listen at about 51.7 s). **S05:** "dived to his left" is WRONG (he went right); reword "the Argentina players found", "couldn't stop laughing". **S07:** two WRONG lines (William Hill gave the same 5000-1, not better odds; Ladbrokes' "130 years" was about payout size); needs a re-voice from the corrected script in its notes.md.
+- **New scripts (max 3, owner):** `Productions/MetaSports/2026-10-24 66 SGA Ended His Own Record On Purpose/` (timely: post by Oct 25 or drop), `.../2026-10-24 67 Jordan Made Up An Insult To Destroy Someone/` (NBA story-format test), `Soccer Channel/Productions/2026-10-24 S08 The Player Who Kept The Hand Of God Shirt/`. Each has script.txt + notes.md (sources, quotes, footage plan). Not voiced.
+- **Research (all Oct 23):** `Research Notes/NBA Diagnosis`, `NBA Viral Topics + Ahmed Basketball`, `Monetization Research`; `Soccer Channel/Research/Next Ideas`.
+- **Plan doc (claude.ai, new account):** "MetaSports Channels: Analysis and Monetization Plan" https://claude.ai/artifact/KEzBkhgafrqshYDbSheRir
+- **The old Hub (LFsQtwomdpLAshoz4Xw62H) is on the old account** and can't be opened from the new one.
+- **Next (on the PC):** render S04, fix and render S05 and S07, render S08, #66, #67 (all under 60 s); voice with `voice_take.py`; full QA; pull Studio exports for both channels.

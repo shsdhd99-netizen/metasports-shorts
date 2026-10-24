@@ -37,3 +37,10 @@
 - **[S] archive.org has the 2005 final in 720p** (the SAT.1 broadcast, split into halves, extra time, penalties and celebration), and the 1984 final (RAI). Use ffmpeg `-ss ... -t ... -c copy` straight off the URL to take only the needed minutes. The disk allowance is small, and big files need several minutes to download.
 - **[S] archive.org returns 5XX when many seeks hit it at once.** Keep URL contact sheets to 2-3 parallel requests.
 - **[S] A fact the source gives as a person's own words beats a summary.** S03's best details (Dudek's book on 100 Milan penalties, Carragher "jumped on my back", Grobbelaar's "spaghetti" line) all came from first-person interviews: the Guardian 2025, liverpoolfc.com and UEFA.com 2009.
+
+## Oct 23-24, 2026 (first results, fact-check)
+- **[V] S01 30K in 2 days; S02 1.2K, S03 1.4K.** S01: a singular one-person title, a secret object as the hook, 59.5 s. S02/S03: plural list titles, 63 and 71 s. n=3, so this is a lead to test, not a rule [H].
+- **[Rule] Every Short under 60 s.** A Short over 60 s with an active copyright claim is blocked worldwide (YouTube Help, three-minute Shorts). S02/S03 got no claims, but archive broadcasts invite them.
+- **[V] A bookmaker's "in our 130-year history" quote was about the payout size, not the odds** (S07). Read what the superlative measures.
+- **[V] AP's play-by-play is the reliable source for which way a keeper dived** (S05 said left; he went right).
+- **[V] Cutting a whole sentence from a finished render works:** cut the video on the shot-change frame and the audio at the quiet point a few ms later, by the same length, so sync holds (S06, 62.4 s to 58.8 s).
