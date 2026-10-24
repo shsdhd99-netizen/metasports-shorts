@@ -19,7 +19,7 @@ Evidence tiers: **[V]** measured in our files or data; **[H]** a likely cause we
 5. **S02 went out on the same day as S01**, so the two competed for the same first audience. [H]
 
 ## What it was not
-- **The plural title.** On Ahmed's Goal, "Players who..." titles have a median of **318K** views against **217K** for singular "The player who..." titles (500 vs 73 Shorts, out of 1,355). S01 was posted with a singular title, but that is one video. **Our "use the singular title" advice is withdrawn: post the spoken line 1 as the title.** [V Ahmed data]
+- **The title's shape (plural or singular).** CORRECTED later on Oct 24 (`Niche Study - Soccer Story Shorts`): the "318K vs 217K" comparison above was an era effect. Ahmed's singular titles all date from 2024, when his channel was tiny, and his plural titles sit exactly at his channel median (0.99x). Title shape is neutral. **Post the spoken line 1 as the title.** [V Ahmed data]
 
 ## What Ahmed's best titles have in common (his last ~390 Shorts)
 The top of the list promises a human conflict with clear stakes: refused to play, rejected by their own country then got revenge, teammates who didn't like each other, bullied, disrespected, transfers that backfired. The bottom is news questions ("Is X about to be sacked?") and neutral facts ("players who started in a different position", "most interesting stats"). [V list; Research Notes/Ahmed Network Data (Oct 21, 2026)]

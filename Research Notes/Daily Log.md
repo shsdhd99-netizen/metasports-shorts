@@ -11,9 +11,10 @@ no token in the cloud yet (needs `YT_REFRESH_TOKEN` / `YT_REFRESH_TOKEN_FC`).
 **Learned.**
 - FC: S01 80% stayed vs S02 56% and S03 65%. Cause: frame 1 and the first line did not show the promise, and S03 reached its
   promise at 54 s. Full write-up: `Research Notes/Why S02 and S03 Underperformed (Oct 24, 2026).md`.
-- Ahmed's Goal data: plural "Players who..." titles beat singular ones (median 318K vs 217K, 500 vs 73 Shorts). The
-  singular-title advice is withdrawn.
-- Ahmed's best titles promise a human conflict (refused, rejected, bullied, backfired); his worst are news questions and neutral facts.
+- Ahmed's Goal data: title shape (plural/singular) is neutral once the era is accounted for (the first read, 318K vs 217K, was
+  an era effect; corrected the same day). The singular-title advice is withdrawn.
+- Ahmed's best titles promise a human conflict (refused, rejected, bullied, backfired). His news questions now do as well as his
+  evergreen Shorts (238K vs 245K, n=65 vs 45) and include his biggest recent hits.
 - Third-party guides agree the first frame is the hook (sound often off) and target 75-80% "viewed vs swiped".
 
 **Changed today.**

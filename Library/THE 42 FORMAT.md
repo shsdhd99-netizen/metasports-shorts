@@ -1,5 +1,8 @@
 # THE #42 FORMAT: "Bad record, good reason" (Oct 19, 2026). Our proven format: lead with it (other formats are allowed; owner, Oct 19: "i am not limiting you to one format, i just said what WORKS").
 
+> **Oct 24, 2026 update (`Research Notes/What Makes Our Shorts Go Viral (Oct 24, 2026).md`):** this is ONE of 3-4 rotating NBA lanes, not the whole channel. Every channel that repeated one template saw it decay (Korzemba 23M to 8-49K; REBOUND 42M to 184K), and ours is sliding in posting order (#42 86.9%, #48 83.3%, #64 72.6%, #52 59.1% stayed). Use it at most 1 post in 3, rewrite the fixed lines every time (never "So is he a worse shooter? No." word for word), and retire it after 3 posts in a row below the channel median. Frame 1 shows the claim (#42 opened on the airball, not a face). Only household-name stars.
+
+
 **Why this format:** #42 "Who Has Missed The Most Shots In NBA History?" (Ro0oa2VLlqA, posted Oct 16):
 - **84.3% stayed to watch**, the channel record (Studio export Oct 17)
 - **25,000 views at about 3.5 days** (public count Oct 19)

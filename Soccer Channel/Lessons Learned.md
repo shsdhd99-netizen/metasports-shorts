@@ -60,6 +60,8 @@
 - **[V frames, H cause] Frame 1 must show the promise happening.** S01 opened on the hand going into the sock under "hid a CHEAT SHEET in their sock". S02 opened on Balotelli's face (scan lines, channel logo) under "TROUBLE"; S03 on Dudek's face under "DANCED", with the dance at 54 s.
 - **[V] The promised thing must come back by about 20 s.** S01: 18 s. S03: 54 s, after a 46 s detour through the comeback and 11 names in 15 s (72% average viewed vs S01's 94%). QA now warns on both (cuts.json `"promise"` list).
 - **[H] Category hook words lose.** "Trouble" was never said again. Ahmed's titles with vague words (trouble, drama, crazy, wild): median 200K vs 277K overall (n=34).
-- **[V] The plural title was not the cause.** Ahmed's Goal: "Players who..." median 318K vs singular 217K (500 vs 73 Shorts). Post the spoken line 1 as the title; the "use the singular title" advice is withdrawn.
+- **[V] Title shape is neutral.** My first read ("plural 318K vs singular 217K") was an era effect: Ahmed's singular titles are all from 2024, when his channel was tiny; plural titles sit at his channel median (0.99x). Post the spoken line 1 as the title. (`Research Notes/Niche Study - Soccer Story Shorts (Oct 24, 2026).md`)
+- **[V] Say the stakes, specifically.** Vague words are only weakly worse (0.87x, n=92; Ahmed's 3 "trouble" titles have a 1.0M median). Strong verbs lift (1.35x, n=107). Own-side conflict (refused, betrayed, sued, "their own") is the strongest title signal: 610K vs 313K, 1.63x time-adjusted (n=87).
+- **[V] Even Ahmed's format sat at about 17K a Short for its first ~106 Shorts before jumping to 340K.** Our soccer rules are hypotheses until 20-30 Shorts.
 - **[V] A dark first frame slips past blackdetect.** S04's first 0.25 s was someone passing the camera (brightness 32 of 255). QA now gates on frame 1 brightness (good frames 70-115); S04 re-cut 0.3 s later and re-rendered.
 - **[H] One soccer Short a day.** S02 went out the same day as S01.

@@ -29,6 +29,7 @@ Two runs a day (scheduled tasks "MetaSports NBA daily run" and "MetaSports FC da
 4. Read the newest entries of `Research Notes/Daily Log.md` and this channel's lessons (below) before deciding anything.
 
 ## A. Data and retention (10 min)
+- Analytics run 48-72 h behind: score a Short only once it is 72 h old; before that, use live view counts.
 - NBA: `python Tools/yt_analytics.py daily`. FC: `python Tools/yt_analytics.py --channel fc daily`.
   This writes the per-Short metrics and the retention curves (`retention <date>.csv`, 100 points a Short) for Shorts under 14 days
   old, then prints flags. It needs the secrets `YT_CLIENT_ID`, `YT_CLIENT_SECRET` and `YT_REFRESH_TOKEN` (NBA) or
@@ -49,6 +50,10 @@ Two runs a day (scheduled tasks "MetaSports NBA daily run" and "MetaSports FC da
   one rule to keep, one to drop. Update the Hub's `channel/stats` insights and `UPLOAD SCHEDULE.md` if the best times moved.
 
 ## C. Research (20 min): logged with sources
+- **Read `Research Notes/What Makes Our Shorts Go Viral (Oct 24, 2026).md` first.** Pick today's lane by rotation: no lane more than
+  1 post in 3 (check the dataset's last 6 posts on this channel); a lane with 3 posts in a row below the channel median is retired
+  until the Sunday review. A strong concept that got under 74% stayed may get ONE new edit (new first 3 s and frame 1, new title),
+  never the same file again.
 - **NBA:** last night's games: records, career highs and lows, milestones, viral moments (NBA.com, ESPN, AP, team and league
   accounts on X). Pick the story that fits THE #42 FORMAT (`Library/THE 42 FORMAT.md`: a famous star, a record that sounds bad
   or impossible, "So is he...? No.", end on the number) or a same-day number-gap story (#58, 75% stayed).
@@ -61,7 +66,8 @@ Two runs a day (scheduled tasks "MetaSports NBA daily run" and "MetaSports FC da
 ## D. Make the Short (60-120 min)
 - **NBA:** `/cloud-short` in THE #42 FORMAT: 20-30 s, the Alex voice, no music, words over footage (`Tools/overlay.py`).
   Footage: `Tools/nba_videos.py` (team sites on NBA.com), `Tools/x_clip.py` (official accounts on X), archive.org.
-  Frame 1: a sharp, lit close-up of the star (#52's soft archive frame kept 59%).
+  Frame 1: sharp and lit, showing the claim: the moment itself or the star, whichever proves line 1 (#42 opened on the
+  airball; #52's soft archive close-up kept 59%).
 - **FC:** `/story-short`, 55-59.9 s, the hook rules, both versions (music and no music), `"promise"` list in cuts.json.
 - **Faster tools (Oct 24):** `Tools/frame_sheet.py SRC --from A --to B --every 0.5` (contact sheet in seconds) and
   `--cuts` (scene-change times: start and end shots between them, never inside a reel's dissolve); write `cuts_plan.json`, then

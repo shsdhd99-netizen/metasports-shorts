@@ -36,6 +36,11 @@ Read first (they win over this file when newer):
   - comeback / revenge: 311K
   - underdog: 293K
 - **What flops:** obscure names and process stories.
+- **Lanes, rotated (Oct 24, `Research Notes/What Makes Our Shorts Go Viral (Oct 24, 2026).md`):** the secret object (S01);
+  **versus their own** (refused, betrayed, sued, rejected by their own club, country, sponsor or teammates: Ahmed's strongest
+  title signal, 1.63x, n=87); a **numbered serial about one global star** ("Part 1, 2, 3...": FOOTY FACTS' Zlatan serial median
+  1.4M vs 162K for one-offs); a **topical question** answered with a story ("Why did X just...?": 59% of Ahmed's Aug-Oct titles,
+  as strong as his evergreen ones). At most 1 post in 3 per lane.
 - **Before choosing:**
   - copy-check with `python Tools/copy_check.py "<4-6 words>"`;
   - grep Ahmed's titles: `Research Notes/Ahmed Network Data (Oct 21, 2026)/AhmedsGoal_shorts.csv`.
@@ -54,7 +59,7 @@ Read first (they win over this file when newer):
 - 260-290 words. After step 4b that runs about 60-68 s (S01: 253 words = 59.5 s; S02: 280 words = 63 s).
 - Beats are in SCRIPT.md:
   1. title as line 1;
-  2. "Back in...";
+  2. "Back in..." (optional: Ahmed now opens with it in 1 of 30 October scripts; get into the story at once);
   3. turn 1 by about 15 s;
   4. 2-4 escalations ("But it got even crazier");
   5. climax;
@@ -64,8 +69,9 @@ Read first (they win over this file when newer):
 - **Pronunciation:** spell scores and numbers for the voice: `{6-1|six-one}`, `{1-1|one-one}`.
 - **Never** end on a question.
 - **The hook (Oct 24, why S02/S03 flopped: `Research Notes/Why S02 and S03 Underperformed (Oct 24, 2026).md`):**
-  - line 1 names an object you can picture or a strong human verb (hid, refused, banned, rejected); never a category word
-    ("trouble", "crazy", "drama"). S02's "trouble" was never said again and kept 56%;
+  - line 1 says the stakes, specifically: an object you can picture or a strong human verb (hid, refused, sued, betrayed,
+    rejected). A category word needs a sharp qualifier ("...for the silliest reasons"). Strongest on Ahmed's Goal: a player or club
+    turning on its own side ("their own": 2.28x; conflict words 1.63x, n=87). Strong verbs 1.35x (n=107);
   - say the promised thing again by about 20 s and keep the story on it (S01: 18 s, 80% stayed; S03: 54 s, 65%);
   - one story, no more than about 10 names in the first 15 s (S03 had 11);
   - write the object and its synonyms into cuts.json as `"promise": ["sheet", "paper", "note", "sock"]` so QA can check it.
@@ -129,7 +135,7 @@ How to work:
 
 ### 9. Package and hand off
 - **`notes.md`:** lane, concept in 8 words, added value, copy-check, and a table of every line with its source and exact quote. Then the footage list (licence, what each clip is), and illustrative-shot warnings.
-- **`UPLOAD.md`:** title (= line 1; plural is fine: on Ahmed's Goal "Players who..." titles beat singular ones, median 318K vs 217K);
+- **`UPLOAD.md`:** title (= line 1; plural or singular makes no difference on Ahmed's data once the era is accounted for);
   no description; 3 alternative titles; post order (one soccer Short a day); which version.
 - **The draft files:** copy both renders as `DRAFT - awaiting approval - S<NN> <title> (music).mp4` and `(no music).mp4`.
 - **Update** `Soccer Channel/START HERE.md`, `Lessons Learned.md` and `Idea Bank.md`.
