@@ -68,7 +68,12 @@ Two runs a day (scheduled tasks "MetaSports NBA daily run" and "MetaSports FC da
   Footage: `Tools/nba_videos.py` (team sites on NBA.com), `Tools/x_clip.py` (official accounts on X), archive.org.
   Frame 1: sharp and lit, showing the claim: the moment itself or the star, whichever proves line 1 (#42 opened on the
   airball; #52's soft archive close-up kept 59%).
-- **FC:** `/story-short`, 55-59.9 s, the hook rules, both versions (music and no music), `"promise"` list in cuts.json.
+- **FC:** `/story-short`, 55-59.5 s, the hook rules, both versions (music and no music), `"promise"` list in cuts.json.
+  **Plus the TikTok/Instagram long cut (Oct 25):** in `<folder>/long/`, the same script with one or two extra sourced beats,
+  re-voiced whole, 65-80 s (never under 62 s: TikTok pays only over 1 minute), music version only, `qa_short.py --long --full`
+  PASS, saved as `DRAFT - awaiting approval - SNN <title> (TikTok-IG long, music).mp4`. Card version label "TikTok-IG long".
+- **NBA on TikTok/Instagram:** the same file as YouTube. When a story naturally runs long, make a 62-70 s TikTok cut as a test
+  (5-10 of them, logged in the dataset) instead of padding.
 - **Faster tools (Oct 24):** `Tools/frame_sheet.py SRC --from A --to B --every 0.5` (contact sheet in seconds) and
   `--cuts` (scene-change times: start and end shots between them, never inside a reel's dissolve); write `cuts_plan.json`, then
   `Tools/fill_len.py F` fills every len from the anchors; in cuts.json `"speed": 0.5` slows a short close-up and `"overlay": [...]`
@@ -86,6 +91,9 @@ Two runs a day (scheduled tasks "MetaSports NBA daily run" and "MetaSports FC da
   Upload a 1.5 Mbps copy as an asset (Artifact publish `asset: true`), then write the card (collection `shorts`: code, name, num,
   status `ready`, slot, slotLabel, versions [{label, assetId, note}], titles, tags, postNote). Read a card before writing it and
   pin every write with `if_version`.
+- **Card text for TikTok and Instagram (Oct 25, `Research Notes/TikTok and Instagram Playbook (Oct 25, 2026).md`):** fields
+  `tiktok` and `instagram`. First words = the searchable phrase (player or club + topic, said in spoken line 1 too), then the hook
+  in one line, then 3-4 hashtags on TikTok and at most 5 on Instagram. Facts only from the script. No contact info anywhere.
 - Slots follow `UPLOAD SCHEDULE.md`: NBA at 11:00 AM ET (today's news Short takes today), soccer at 12:00 PM ET (the next free day).
   Keep at least 2 days of ready Shorts per channel; mark an unposted news Short older than a day `skip`.
 - Commit (the `DRAFT - awaiting approval` files are kept in git) and push to `main-329h3w`. If the push is refused, pull with
