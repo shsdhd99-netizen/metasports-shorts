@@ -35,6 +35,8 @@ def main():
     ap.add_argument("--infer-kinds", action="store_true", help="old Shorts: cards by clip name, everything else counts as action")
     ap.add_argument("--full", action="store_true", help="also run footage_qc.py (upscale, softness, duplicates, flashes, motion, internal cuts) "
                     "and export_check.py (captions vs script, caption timing and safe area, export speech vs script, timeline, clipping)")
+    ap.add_argument("--long", action="store_true", help="a TikTok/Instagram long cut (Oct 25 2026): must run over 1 minute "
+                    "(TikTok Creator Rewards pays only on videos over 1 minute), 61-100 s; never posted to YouTube")
     ap.add_argument("--profile", choices=["nba", "story"], help="story = the Ahmed-style 58-88 s story format (Research Notes/Story Format "
                     "Study - Ahmed, Oct 21 2026); default: story for folders under 'Soccer Channel', else nba")
     a = ap.parse_args()
@@ -66,9 +68,14 @@ def main():
         # Oct 24 2026 (Research Notes/Shorts Mechanics and Policy): YouTube's US help page still blocks a Short over 1 minute with any
         # active Content ID claim worldwide (the UK/IN/AU pages say that ended Sep 24 2026). Archive broadcasts invite claims, so
         # the story format stays under 60 s, with a warning inside the last half second (YouTube shows a 59.5 s file as 1:00).
-        chk(50 <= total <= 59.9, f"length {total:.1f}s (story format, under 1 minute)",
-            f"length {total:.1f}s: the story format must stay under 60 s (a claimed Short over 1 minute is blocked worldwide)")
-        soft(total <= 59.5, f"length {total:.1f}s, clear of the 1-minute line", f"length {total:.1f}s is within 0.5 s of 1 minute: trim if it is cheap")
+        if a.long:
+            chk(61 <= total <= 100, f"length {total:.1f}s (TikTok/Instagram long cut, over 1 minute)",
+                f"length {total:.1f}s: a TikTok/Instagram long cut must run 61-100 s")
+            soft(65 <= total <= 85, f"length {total:.1f}s in 65-85 (Ahmed's network: median 77 s)", f"length {total:.1f}s (Ahmed's long Shorts run 61-101 s, median 77 s)")
+        else:
+            chk(50 <= total <= 59.9, f"length {total:.1f}s (story format, under 1 minute)",
+                f"length {total:.1f}s: the story format must stay under 60 s (a claimed Short over 1 minute is blocked worldwide)")
+            soft(total <= 59.5, f"length {total:.1f}s, clear of the 1-minute line", f"length {total:.1f}s is within 0.5 s of 1 minute: trim if it is cheap")
     else:
         chk(12 <= total <= 60, f"length {total:.1f}s", f"length {total:.1f}s (outside 12-60 s)")
         soft(15 <= total <= 35, f"length {total:.1f}s in 15-35", f"length {total:.1f}s (length follows the story; our old era had no length effect, 10-33 s)")
