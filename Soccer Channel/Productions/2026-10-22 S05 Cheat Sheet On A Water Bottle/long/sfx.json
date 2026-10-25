@@ -1,0 +1,27 @@
+[
+ {
+  "sfx": "rim",
+  "at": 27.52,
+  "why": "Uribe's kick hits the crossbar on screen (peak 0.07 s into the file)"
+ },
+ {
+  "sfx": "whoosh_long",
+  "at": 47.02,
+  "why": "into the payoff: 'But here's the wild part' (peak lands on the cut at 43.27)"
+ },
+ {
+  "sfx": "click",
+  "at": 56.03,
+  "why": "the semi-final scorers card appears"
+ },
+ {
+  "sfx": "ding",
+  "at": 63.8,
+  "why": "the red box on 'MESSI - FAKE LEFT - DIVE RIGHT' appears (long cut)"
+ },
+ {
+  "sfx": "pop",
+  "at": 68.01,
+  "why": "the red box on 'ALMADA - FEEL ON THE DAY' appears"
+ }
+]

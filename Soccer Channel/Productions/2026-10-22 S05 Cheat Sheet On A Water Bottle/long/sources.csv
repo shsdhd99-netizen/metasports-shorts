@@ -1,0 +1,11 @@
+clip,kind,used_at_s,used_for_line,what_it_shows,source_url,source_account,source_date,source_in_s,source_out_s,crop,match_score,licence_risk,verified,verified_on,notes
+A01.mp4,,,,,src/c_towel.mp4,,,16.6,19.0,x 0.5 zoom 1.0 y 0.5,,,,, | source 1920x1080
+A02.mp4,,,,,src/c_pre1.mp4,,,0.5,1.7,x 0.5 zoom 1.0 y 0.5 blurfit,,,,, | source 1920x1080
+A03.mp4,,,,,src/c_pre2.mp4,,,2.0,3.2,x 0.5 zoom 1.0 y 0.5,,,,, | source 1920x1080
+A04.mp4,,,,,src/c_pre3.mp4,,,5.0,6.0,x 0.5 zoom 1.0 y 0.5 blurfit,,,,, | source 1920x1080
+A05.mp4,,,,,src/c_pre3.mp4,,,0.2,1.7,x 0.45 zoom 1.0 y 0.5,,,,, | source 1920x1080
+A06.mp4,,,,,src/c_pre4.mp4,,,3.9,5.3,x 0.5 zoom 1.0 y 0.5,,,,, | source 1920x1080
+A08.mp4,,,,,src/c_mina.mp4,,,4.5,6.3,x 0.5 zoom 1.0 y 0.5,,,,, | source 1920x1080
+A09.mp4,,,,,src/c_mina.mp4,,,68.3,69.6,x 0.5 zoom 1.0 y 0.5,,,,, | source 1920x1080
+A10.mp4,,,,,src/c_mina.mp4,,,28.5,30.2,x 0.45 zoom 1.0 y 0.5,,,,, | source 1920x1080
+A11.mp4,,,,,src/c_falcao.mp4,,,0.2,1.8,x 0.5 zoom 1.0 y 0.5 blurfit,,,,, | source 1920x1080

@@ -1,0 +1,18 @@
+[
+ {
+  "take": 1,
+  "ok": false,
+  "score": -95.1,
+  "verdict": "REDO",
+  "issues": [
+   " 6.34s  script \"they\" but heard \"(nothing)\""
+  ],
+  "wpm": 237,
+  "hnr": 8.4,
+  "jitter": 2.77,
+  "shimmer": 10.75,
+  "dur": 68.91,
+  "pitch_sd": 5.05,
+  "fixed": "fixed by sentence retake"
+ }
+]
