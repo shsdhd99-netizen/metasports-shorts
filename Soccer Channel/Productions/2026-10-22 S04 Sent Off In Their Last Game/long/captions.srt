@@ -1,327 +1,367 @@
 1
-00:00:00,000 --> 00:00:00,708
+00:00:00,000 --> 00:00:00,627
 Players who got
 
 2
-00:00:00,708 --> 00:00:01,370
-sent off in their
+00:00:00,708 --> 00:00:01,161
+sent off in
 
 3
-00:00:01,370 --> 00:00:02,392
-very last game.
+00:00:01,184 --> 00:00:01,974
+their very last
 
 4
-00:00:02,392 --> 00:00:03,483
-Back in 2006,
+00:00:02,032 --> 00:00:02,584
+game. Back in
 
 5
-00:00:03,483 --> 00:00:04,412
-Zinedine Zidane had
+00:00:02,631 --> 00:00:04,186
+2006, Zinedine Zidane
 
 6
-00:00:04,412 --> 00:00:05,700
-already announced that the World
+00:00:04,209 --> 00:00:05,069
+had already announced
 
 7
-00:00:05,700 --> 00:00:06,641
-Cup would be the last
+00:00:05,092 --> 00:00:05,568
+that the World
 
 8
-00:00:06,641 --> 00:00:07,628
-tournament of his career.
+00:00:05,637 --> 00:00:06,102
+Cup would be
 
 9
-00:00:07,628 --> 00:00:08,150
-And France made
+00:00:06,125 --> 00:00:06,868
+the last tournament
 
 10
-00:00:08,150 --> 00:00:08,591
-it all the way
+00:00:06,903 --> 00:00:07,542
+of his career.
 
 11
-00:00:08,591 --> 00:00:09,207
-to the final
+00:00:07,565 --> 00:00:08,064
+And France made
 
 12
-00:00:09,207 --> 00:00:10,472
-against Italy, in Berlin.
+00:00:08,087 --> 00:00:08,377
+it all the
 
 13
-00:00:10,472 --> 00:00:11,308
-After seven minutes,
+00:00:08,401 --> 00:00:08,691
+way to the
 
 14
-00:00:11,308 --> 00:00:12,156
-Zidane stepped up
+00:00:08,737 --> 00:00:09,782
+final against Italy,
 
 15
-00:00:12,156 --> 00:00:12,817
-to take a penalty
+00:00:09,805 --> 00:00:10,630
+in Berlin. After
 
 16
-00:00:12,817 --> 00:00:14,025
-against Gianluigi Buffon.
+00:00:10,676 --> 00:00:11,605
+seven minutes, Zidane
 
 17
-00:00:14,025 --> 00:00:15,023
-But instead of smashing
+00:00:11,651 --> 00:00:12,139
+stepped up to
 
 18
-00:00:15,023 --> 00:00:15,418
-it, he chipped
+00:00:12,185 --> 00:00:12,719
+take a penalty
 
 19
-00:00:15,418 --> 00:00:16,091
-it down the middle.
+00:00:12,754 --> 00:00:13,938
+against Gianluigi Buffon.
 
 20
-00:00:16,091 --> 00:00:16,579
-The ball hit
+00:00:13,962 --> 00:00:14,403
+But instead of
 
 21
-00:00:16,579 --> 00:00:17,693
-the underside of the crossbar,
+00:00:14,461 --> 00:00:15,123
+smashing it, he
 
 22
-00:00:17,693 --> 00:00:18,669
-bounced over the line,
+00:00:15,158 --> 00:00:15,575
+chipped it down
 
 23
-00:00:18,669 --> 00:00:19,690
-and France were winning.
+00:00:15,599 --> 00:00:16,056
+the middle. The
 
 24
-00:00:19,690 --> 00:00:20,457
-Twelve minutes later,
+00:00:16,102 --> 00:00:16,532
+ball hit the
 
 25
-00:00:20,457 --> 00:00:21,536
-Marco Materazzi headed
+00:00:16,578 --> 00:00:17,008
+underside of the
 
 26
-00:00:21,536 --> 00:00:22,337
-in the equalizer.
+00:00:17,031 --> 00:00:18,041
+crossbar, bounced over
 
 27
-00:00:22,337 --> 00:00:22,767
-The game went
+00:00:18,099 --> 00:00:18,656
+the line, and
 
 28
-00:00:22,767 --> 00:00:23,498
-to extra time,
+00:00:18,726 --> 00:00:19,550
+France were winning.
 
 29
-00:00:23,498 --> 00:00:24,276
-and Zidane almost
+00:00:19,573 --> 00:00:20,270
+Twelve minutes later,
 
 30
-00:00:24,276 --> 00:00:25,054
-won it with a header,
+00:00:20,340 --> 00:00:21,384
+Marco Materazzi headed
 
 31
-00:00:25,054 --> 00:00:25,867
-but Buffon tipped
+00:00:21,419 --> 00:00:22,197
+in the equalizer.
 
 32
-00:00:25,867 --> 00:00:26,598
-it over the bar.
+00:00:22,220 --> 00:00:22,627
+The game went
 
 33
-00:00:26,598 --> 00:00:27,806
-Then, in the 110th
+00:00:22,650 --> 00:00:23,324
+to extra time,
 
 34
-00:00:27,806 --> 00:00:29,083
-minute, Zidane and Materazzi
+00:00:23,325 --> 00:00:24,057
+and Zidane almost
 
 35
-00:00:29,083 --> 00:00:30,255
-exchanged a few words.
+00:00:24,103 --> 00:00:24,463
+won it with
 
 36
-00:00:30,255 --> 00:00:31,266
-Zidane walked away.
+00:00:24,486 --> 00:00:24,986
+a header, but
 
 37
-00:00:31,266 --> 00:00:31,660
-Then he turned
+00:00:25,032 --> 00:00:25,740
+Buffon tipped it
 
 38
-00:00:31,660 --> 00:00:32,345
-around and headbutted
+00:00:25,763 --> 00:00:26,402
+over the bar.
 
 39
-00:00:32,345 --> 00:00:33,785
-Materazzi right in the chest.
+00:00:26,425 --> 00:00:26,855
+Then, in the
 
 40
-00:00:33,785 --> 00:00:34,354
-The referee hadn't
+00:00:26,913 --> 00:00:28,283
+110th minute, Zidane
 
 41
-00:00:34,354 --> 00:00:34,876
-even seen it.
+00:00:28,306 --> 00:00:29,281
+and Materazzi exchanged
 
 42
-00:00:34,876 --> 00:00:35,283
-But the fourth
+00:00:29,305 --> 00:00:30,001
+a few words.
 
 43
-00:00:35,283 --> 00:00:35,875
-official had.
+00:00:30,082 --> 00:00:31,069
+Zidane walked away.
 
 44
-00:00:35,875 --> 00:00:36,478
-Through the referee's
+00:00:31,093 --> 00:00:31,464
+Then he turned
 
 45
-00:00:36,478 --> 00:00:37,303
-headset, he said:
+00:00:31,487 --> 00:00:32,149
+around and headbutted
 
 46
-00:00:37,303 --> 00:00:38,789
-Horacio, Horacio, I
+00:00:32,172 --> 00:00:32,985
+Materazzi right in
 
 47
-00:00:38,789 --> 00:00:39,219
-saw it.
+00:00:33,031 --> 00:00:33,682
+the chest. The
 
 48
-00:00:39,219 --> 00:00:40,101
-And Zidane was shown
+00:00:33,728 --> 00:00:34,297
+referee hadn't even
 
 49
-00:00:40,101 --> 00:00:40,937
-a red card.
+00:00:34,343 --> 00:00:34,808
+seen it. But
 
 50
-00:00:40,937 --> 00:00:41,680
-So one of the greatest
+00:00:34,831 --> 00:00:35,330
+the fourth official
 
 51
-00:00:41,680 --> 00:00:42,354
-players of all
+00:00:35,388 --> 00:00:35,969
+had. Through the
 
 52
-00:00:42,354 --> 00:00:43,456
-time walked off the pitch
+00:00:36,004 --> 00:00:36,700
+referee's headset, he
 
 53
-00:00:43,456 --> 00:00:44,049
-for the last
+00:00:36,770 --> 00:00:38,361
+said: Horacio, Horacio,
 
 54
-00:00:44,049 --> 00:00:44,838
-time, right past
+00:00:38,384 --> 00:00:38,942
+I saw it.
 
 55
-00:00:44,838 --> 00:00:45,732
-the World Cup trophy.
+00:00:38,965 --> 00:00:39,557
+And Zidane was
 
 56
-00:00:45,732 --> 00:00:46,405
-And without him,
+00:00:39,603 --> 00:00:40,195
+shown a red
 
 57
-00:00:46,405 --> 00:00:47,334
-France lost the shootout
+00:00:40,254 --> 00:00:40,904
+card. So one
 
 58
-00:00:47,334 --> 00:00:47,926
-5-3.
+00:00:40,927 --> 00:00:41,391
+of the greatest
 
 59
-00:00:47,926 --> 00:00:49,447
-Italy were world champions.
+00:00:41,426 --> 00:00:41,984
+players of all
 
 60
-00:00:49,447 --> 00:00:50,271
-But here's the wild
+00:00:42,054 --> 00:00:42,739
+time walked off
 
 61
-00:00:50,271 --> 00:00:50,585
-part.
+00:00:42,773 --> 00:00:43,226
+the pitch for
 
 62
-00:00:50,585 --> 00:00:51,142
-The next morning,
+00:00:43,261 --> 00:00:44,097
+the last time,
 
 63
-00:00:51,142 --> 00:00:52,187
-FIFA announced the best
+00:00:44,143 --> 00:00:44,608
+right past the
 
 64
-00:00:52,187 --> 00:00:52,977
-player of the whole
+00:00:44,631 --> 00:00:45,409
+World Cup trophy.
 
 65
-00:00:52,977 --> 00:00:53,395
-tournament.
+00:00:45,432 --> 00:00:46,036
+And without him,
 
 66
-00:00:53,395 --> 00:00:54,068
-Most of the journalists
+00:00:46,105 --> 00:00:46,628
+France lost the
 
 67
-00:00:54,068 --> 00:00:54,660
-had voted before
+00:00:46,651 --> 00:00:47,905
+shootout 5-3. Italy
 
 68
-00:00:54,660 --> 00:00:55,566
-the final was over,
+00:00:47,963 --> 00:00:49,124
+were world champions.
 
 69
-00:00:55,566 --> 00:00:56,367
-before the headbutt.
+00:00:49,147 --> 00:00:49,623
+But here's the
 
 70
-00:00:56,367 --> 00:00:56,947
-And the winner
+00:00:49,681 --> 00:00:50,355
+wild part. The
 
 71
-00:00:56,947 --> 00:00:58,120
-was Zinedine Zidane,
+00:00:50,389 --> 00:00:51,109
+next morning, FIFA
 
 72
-00:00:58,120 --> 00:00:59,606
-with 2,012 points.
+00:00:51,144 --> 00:00:51,829
+announced the best
 
 73
-00:00:59,606 --> 00:01:00,639
-Italy's captain, Fabio
+00:00:51,887 --> 00:00:52,351
+player of the
 
 74
-00:01:00,639 --> 00:01:03,170
-Cannavaro, got 1,977.
+00:00:52,410 --> 00:00:53,257
+whole tournament. Most
 
 75
-00:01:03,170 --> 00:01:04,041
-Just 35 points
+00:00:53,280 --> 00:00:53,745
+of the journalists
 
 76
-00:01:04,041 --> 00:01:04,552
-between them.
+00:00:53,768 --> 00:00:54,337
+had voted before
 
 77
-00:01:04,552 --> 00:01:04,877
-The man who
+00:00:54,360 --> 00:00:54,859
+the final was
 
 78
-00:01:04,877 --> 00:01:05,446
-got sent off in the
+00:00:54,917 --> 00:00:55,567
+over, before the
 
 79
-00:01:05,446 --> 00:01:06,108
-World Cup final
+00:00:55,614 --> 00:00:56,233
+headbutt. And the
 
 80
-00:01:06,108 --> 00:01:06,735
-was named the best
+00:00:56,303 --> 00:00:57,255
+winner was Zinedine
 
 81
-00:01:06,735 --> 00:01:07,454
-player of the World
+00:00:57,278 --> 00:00:58,753
+Zidane, with 2,012
 
 82
-00:01:07,454 --> 00:01:07,896
-Cup.
+00:00:58,788 --> 00:00:59,937
+points. Italy's captain,
+
+83
+00:00:59,983 --> 00:01:01,017
+Fabio Cannavaro, got
+
+84
+00:01:01,086 --> 00:01:03,420
+1,977. Just 35
+
+85
+00:01:03,455 --> 00:01:04,198
+points between them.
+
+86
+00:01:04,221 --> 00:01:04,511
+The man who
+
+87
+00:01:04,546 --> 00:01:04,918
+got sent off
+
+88
+00:01:04,952 --> 00:01:05,266
+in the World
+
+89
+00:01:05,289 --> 00:01:05,858
+Cup final was
+
+90
+00:01:05,904 --> 00:01:06,369
+named the best
+
+91
+00:01:06,404 --> 00:01:06,787
+player of the
+
+92
+00:01:06,833 --> 00:01:07,436
+World Cup.

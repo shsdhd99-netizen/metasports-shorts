@@ -11,7 +11,8 @@
   "R2": "src/h_rep2.mp4",
   "RF": "src/h_ref.mp4",
   "TZ": "src/h_trez.mp4",
-  "GR": "src/h_grosso.mp4"
+  "GR": "src/h_grosso.mp4",
+  "CA": "src/h_cann.mp4"
  },
  "shots": [
   {
@@ -254,13 +255,44 @@
    "anchor": "But the fourth official"
   },
   {
+   "clip": "Z25b",
+   "src": "RF",
+   "at": 0.45,
+   "x": 0.45,
+   "kind": "face",
+   "anchor": "Through the referee's headset",
+   "why": "Referee Horacio Elizondo walking toward the incident, before the red card. 2006 World Cup final, Italy 1-1 France (5-3 pens), Berlin, 9 July 2006, ABC broadcast 720p (archive.org; abc logos blurred)",
+   "len": 1.5
+  },
+  {
+   "clip": "Z25c",
+   "src": "RF",
+   "at": 7.2,
+   "x": 0.5,
+   "kind": "action",
+   "anchor": "Horacio Horacio I saw it",
+   "why": "Elizondo walks back toward the players after hearing the fourth official (2006 final, ABC 720p). Words: \"HORACIO, I SAW IT\" (Elizondo's own account, Football Italia)",
+   "overlay": [
+    {
+     "text": "\"HORACIO, I SAW IT\"",
+     "size": 96,
+     "color": "white",
+     "y": 300,
+     "start": 0.05,
+     "end": 1.9,
+     "sub": "THE FOURTH OFFICIAL, IN THE REFEREE'S HEADSET",
+     "subsize": 44
+    }
+   ]
+  },
+  {
    "clip": "Z26",
    "src": "RF",
    "at": 10.0,
    "x": 0.5,
    "kind": "action",
    "why": "Live: Elizondo shows Zidane the red card. 2006 World Cup final, Italy 1-1 France (5-3 pens), Berlin, 9 July 2006, ABC broadcast 720p (archive.org wc-2006-final-italy-vs-france-abc-720p-60fps-hd; abc logos blurred)",
-   "anchor": "and Zidane was shown"
+   "anchor": "And Zidane was shown"
   },
   {
    "clip": "Z27",
@@ -357,6 +389,57 @@
    "anchor": "And the winner was"
   },
   {
+   "clip": "Z37b",
+   "src": "CA",
+   "at": 1.7,
+   "x": 0.6,
+   "kind": "face",
+   "anchor": "Italy's captain Fabio Cannavaro",
+   "why": "Fabio Cannavaro (5, captain's armband, CANNAVARO on his back) in the final, 2006 World Cup final, ABC broadcast 720p (archive.org)"
+  },
+  {
+   "clip": "Z37b2",
+   "src": "CA",
+   "at": 4.02,
+   "x": 0.6,
+   "kind": "action",
+   "anchor": "got 1,977",
+   "why": "Cannavaro (5) on the pitch in the final, second angle (ABC 720p). Words: 1,977, CANNAVARO (AFP / Daily Star, Jul 11 2006)",
+   "overlay": [
+    {
+     "text": "1,977",
+     "size": 200,
+     "color": "grey",
+     "y": 300,
+     "start": 0.15,
+     "end": 1.9,
+     "sub": "CANNAVARO",
+     "subsize": 56
+    }
+   ]
+  },
+  {
+   "clip": "Z37c",
+   "src": "RF",
+   "at": 16.0,
+   "x": 0.4,
+   "kind": "face",
+   "anchor": "Just 35 points",
+   "why": "Zidane (10) beside referee Elizondo after the red card (2006 final, ABC 720p). Words: JUST 35 POINTS, ZIDANE 2,012 vs CANNAVARO 1,977 (AFP / Daily Star, Jul 11 2006)",
+   "overlay": [
+    {
+     "text": "JUST 35 POINTS",
+     "size": 130,
+     "color": "orange",
+     "y": 300,
+     "start": 0.05,
+     "end": 1.9,
+     "sub": "ZIDANE 2,012 · CANNAVARO 1,977",
+     "subsize": 52
+    }
+   ]
+  },
+  {
    "clip": "Z38",
    "src": "RF",
    "at": 13.0,
@@ -374,5 +457,10 @@
    "why": "Zidane, arm raised, celebrates his penalty in the final. 2006 World Cup final, Italy 1-1 France (5-3 pens), Berlin, 9 July 2006, ABC broadcast 720p (archive.org wc-2006-final-italy-vs-france-abc-720p-60fps-hd; abc logos blurred)",
    "anchor": "was named the best player"
   }
+ ],
+ "promise": [
+  "sent",
+  "red",
+  "headbutt"
  ]
 }

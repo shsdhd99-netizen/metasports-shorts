@@ -1,0 +1,5 @@
+voice profile: Alex - Upbeat, Energetic and Clear (ElevenLabs Voice Library) (gate: HNR >= 7.0, jitter <= 3.4, shimmer <= 12.5)
+take 1: Done: voice.mp3 (23.9s, sped up x1.00) + captions.srt + words.json in /home/user/metasports-shorts/Productions/MetaSports/2026-10-25 68 Warriors 0-3 First Time Since Curry Was In College/take1_5aup64ux
+  take 1: done: 86 characters billed (a whole take is 569). Check it: python Tools/voice_check.py --folder <folder> --stt whisper
+  take 1: PASS  check=PASS HNR 8.6 jitter 2.84 shimmer 10.64 24.49s  []
+USED take score 5.1 (passes the voice gate)

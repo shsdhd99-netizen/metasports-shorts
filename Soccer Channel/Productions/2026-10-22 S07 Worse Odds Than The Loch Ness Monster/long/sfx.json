@@ -1,6 +1,22 @@
 [
- {"sfx": "click", "at": 11.32, "why": "the 5,000-1 odds card appears"},
- {"sfx": "pop", "at": 19.37, "why": "the recreated betting slip appears"},
- {"sfx": "cha_ching", "at": 40.29, "why": "the £50 -> £250,000 bet card appears (a money graphic)"},
- {"sfx": "whoosh_long", "at": 47.42, "why": "into the payoff: 'But here's the wild part' (peak lands on the cut at 48.64)"}
+ {
+  "sfx": "click",
+  "at": 12.27,
+  "why": "the 5,000-1 odds card appears"
+ },
+ {
+  "sfx": "pop",
+  "at": 20.4,
+  "why": "the recreated betting slip appears"
+ },
+ {
+  "sfx": "cha_ching",
+  "at": 53.94,
+  "why": "the \u00a350 -> \u00a3250,000 bet card appears (a money graphic)"
+ },
+ {
+  "sfx": "whoosh_long",
+  "at": 61.3,
+  "why": "into the payoff: 'But here's the wild part' (peak lands on the cut at 62.52)"
+ }
 ]

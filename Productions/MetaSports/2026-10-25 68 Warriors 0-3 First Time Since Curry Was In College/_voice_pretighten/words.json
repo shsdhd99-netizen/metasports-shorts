@@ -1,0 +1,467 @@
+[
+ {
+  "word": "The",
+  "start": 0.0,
+  "end": 0.128
+ },
+ {
+  "word": "Warriors",
+  "start": 0.163,
+  "end": 0.464
+ },
+ {
+  "word": "just",
+  "start": 0.511,
+  "end": 0.627
+ },
+ {
+  "word": "started",
+  "start": 0.65,
+  "end": 0.952
+ },
+ {
+  "word": "0-3",
+  "start": 1.022,
+  "end": 1.66
+ },
+ {
+  "word": "for",
+  "start": 1.695,
+  "end": 1.765
+ },
+ {
+  "word": "the",
+  "start": 1.8,
+  "end": 1.869
+ },
+ {
+  "word": "first",
+  "start": 1.927,
+  "end": 2.136
+ },
+ {
+  "word": "time",
+  "start": 2.171,
+  "end": 2.45
+ },
+ {
+  "word": "in",
+  "start": 2.485,
+  "end": 2.531
+ },
+ {
+  "word": "19",
+  "start": 2.601,
+  "end": 2.961
+ },
+ {
+  "word": "years.",
+  "start": 3.019,
+  "end": 3.448
+ },
+ {
+  "word": "The",
+  "start": 3.471,
+  "end": 3.541
+ },
+ {
+  "word": "last",
+  "start": 3.587,
+  "end": 3.75
+ },
+ {
+  "word": "time",
+  "start": 3.773,
+  "end": 3.889
+ },
+ {
+  "word": "it",
+  "start": 3.913,
+  "end": 3.959
+ },
+ {
+  "word": "happened,",
+  "start": 3.994,
+  "end": 4.307
+ },
+ {
+  "word": "Steph",
+  "start": 4.331,
+  "end": 4.551
+ },
+ {
+  "word": "Curry",
+  "start": 4.574,
+  "end": 4.783
+ },
+ {
+  "word": "was",
+  "start": 4.83,
+  "end": 4.911
+ },
+ {
+  "word": "still",
+  "start": 4.946,
+  "end": 5.143
+ },
+ {
+  "word": "in",
+  "start": 5.178,
+  "end": 5.224
+ },
+ {
+  "word": "college.",
+  "start": 5.283,
+  "end": 5.817
+ },
+ {
+  "word": "Back",
+  "start": 5.84,
+  "end": 6.002
+ },
+ {
+  "word": "in",
+  "start": 6.049,
+  "end": 6.095
+ },
+ {
+  "word": "2007,",
+  "start": 6.142,
+  "end": 6.861
+ },
+ {
+  "word": "Golden",
+  "start": 6.92,
+  "end": 7.198
+ },
+ {
+  "word": "State",
+  "start": 7.233,
+  "end": 7.419
+ },
+ {
+  "word": "lost",
+  "start": 7.442,
+  "end": 7.651
+ },
+ {
+  "word": "its",
+  "start": 7.686,
+  "end": 7.767
+ },
+ {
+  "word": "first",
+  "start": 7.837,
+  "end": 8.046
+ },
+ {
+  "word": "six",
+  "start": 8.104,
+  "end": 8.324
+ },
+ {
+  "word": "games,",
+  "start": 8.417,
+  "end": 8.824
+ },
+ {
+  "word": "while",
+  "start": 8.847,
+  "end": 8.998
+ },
+ {
+  "word": "Curry",
+  "start": 9.033,
+  "end": 9.218
+ },
+ {
+  "word": "was",
+  "start": 9.253,
+  "end": 9.334
+ },
+ {
+  "word": "a",
+  "start": 9.369,
+  "end": 9.392
+ },
+ {
+  "word": "sophomore",
+  "start": 9.451,
+  "end": 9.857
+ },
+ {
+  "word": "at",
+  "start": 9.88,
+  "end": 9.926
+ },
+ {
+  "word": "Davidson.",
+  "start": 9.961,
+  "end": 10.53
+ },
+ {
+  "word": "In",
+  "start": 10.553,
+  "end": 10.635
+ },
+ {
+  "word": "his",
+  "start": 10.681,
+  "end": 10.751
+ },
+ {
+  "word": "17",
+  "start": 10.809,
+  "end": 11.192
+ },
+ {
+  "word": "seasons",
+  "start": 11.238,
+  "end": 11.54
+ },
+ {
+  "word": "since,",
+  "start": 11.61,
+  "end": 11.935
+ },
+ {
+  "word": "they",
+  "start": 11.981,
+  "end": 12.086
+ },
+ {
+  "word": "never",
+  "start": 12.144,
+  "end": 12.295
+ },
+ {
+  "word": "started",
+  "start": 12.33,
+  "end": 12.55
+ },
+ {
+  "word": "0-3.",
+  "start": 12.62,
+  "end": 13.235
+ },
+ {
+  "word": "So",
+  "start": 13.259,
+  "end": 13.351
+ },
+ {
+  "word": "is",
+  "start": 13.409,
+  "end": 13.479
+ },
+ {
+  "word": "Curry",
+  "start": 13.549,
+  "end": 13.769
+ },
+ {
+  "word": "the",
+  "start": 13.816,
+  "end": 13.885
+ },
+ {
+  "word": "problem?",
+  "start": 13.932,
+  "end": 14.315
+ },
+ {
+  "word": "No.",
+  "start": 14.361,
+  "end": 14.698
+ },
+ {
+  "word": "He",
+  "start": 14.721,
+  "end": 14.779
+ },
+ {
+  "word": "scored",
+  "start": 14.814,
+  "end": 15.035
+ },
+ {
+  "word": "23",
+  "start": 15.058,
+  "end": 15.464
+ },
+ {
+  "word": "and",
+  "start": 15.488,
+  "end": 15.557
+ },
+ {
+  "word": "24",
+  "start": 15.58,
+  "end": 16.033
+ },
+ {
+  "word": "in",
+  "start": 16.08,
+  "end": 16.126
+ },
+ {
+  "word": "the",
+  "start": 16.149,
+  "end": 16.219
+ },
+ {
+  "word": "first",
+  "start": 16.265,
+  "end": 16.44
+ },
+ {
+  "word": "two",
+  "start": 16.463,
+  "end": 16.579
+ },
+ {
+  "word": "losses.",
+  "start": 16.649,
+  "end": 17.183
+ },
+ {
+  "word": "Then",
+  "start": 17.176,
+  "end": 17.333
+ },
+ {
+  "word": "the",
+  "start": 17.368,
+  "end": 17.438
+ },
+ {
+  "word": "Warriors",
+  "start": 17.473,
+  "end": 17.775
+ },
+ {
+  "word": "blew",
+  "start": 17.798,
+  "end": 17.949
+ },
+ {
+  "word": "a",
+  "start": 17.984,
+  "end": 18.007
+ },
+ {
+  "word": "12",
+  "start": 18.076,
+  "end": 18.436
+ },
+ {
+  "word": "-point",
+  "start": 18.46,
+  "end": 18.692
+ },
+ {
+  "word": "lead",
+  "start": 18.75,
+  "end": 19.017
+ },
+ {
+  "word": "in",
+  "start": 19.052,
+  "end": 19.098
+ },
+ {
+  "word": "the",
+  "start": 19.133,
+  "end": 19.203
+ },
+ {
+  "word": "last",
+  "start": 19.237,
+  "end": 19.446
+ },
+ {
+  "word": "four",
+  "start": 19.493,
+  "end": 19.609
+ },
+ {
+  "word": "minutes",
+  "start": 19.644,
+  "end": 19.841
+ },
+ {
+  "word": "against",
+  "start": 19.864,
+  "end": 20.027
+ },
+ {
+  "word": "Memphis.",
+  "start": 20.085,
+  "end": 20.584
+ },
+ {
+  "word": "And",
+  "start": 20.577,
+  "end": 20.67
+ },
+ {
+  "word": "on",
+  "start": 20.716,
+  "end": 20.774
+ },
+ {
+  "word": "Saturday,",
+  "start": 20.832,
+  "end": 21.227
+ },
+ {
+  "word": "Curry",
+  "start": 21.262,
+  "end": 21.471
+ },
+ {
+  "word": "sat",
+  "start": 21.529,
+  "end": 21.691
+ },
+ {
+  "word": "out",
+  "start": 21.726,
+  "end": 21.807
+ },
+ {
+  "word": "to",
+  "start": 21.831,
+  "end": 21.877
+ },
+ {
+  "word": "rest",
+  "start": 21.935,
+  "end": 22.074
+ },
+ {
+  "word": "his",
+  "start": 22.109,
+  "end": 22.191
+ },
+ {
+  "word": "knee.",
+  "start": 22.225,
+  "end": 22.492
+ },
+ {
+  "word": "19",
+  "start": 22.516,
+  "end": 22.864
+ },
+ {
+  "word": "years.",
+  "start": 22.91,
+  "end": 23.247
+ },
+ {
+  "word": "0-3.",
+  "start": 23.293,
+  "end": 24.187
+ }
+]

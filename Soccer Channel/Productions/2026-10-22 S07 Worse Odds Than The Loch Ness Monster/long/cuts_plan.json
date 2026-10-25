@@ -136,11 +136,22 @@
    "anchor": "Leicester hired Claudio"
   },
   {
+   "clip": "N01",
+   "src": "WH",
+   "at": 36.05,
+   "x": 0.36,
+   "zoom": 1.15,
+   "y": 0.3,
+   "kind": "face",
+   "anchor": "a manager who had",
+   "why": "Claudio Ranieri in the dugout, his second game in charge. West Ham 1-2 Leicester, 15 Aug 2015, BBC MOTD highlights (archive.org)"
+  },
+  {
    "clip": "B16",
    "still": "assets/card_greece.jpg",
    "kind": "card",
    "why": "Card: Greece 0-1 Faroe Islands, 14 Nov 2014; Ranieri out the next day (AFP, UEFA.com)",
-   "anchor": "a manager who had"
+   "anchor": "after losing to the Faroe"
   },
   {
    "clip": "B17",
@@ -171,13 +182,62 @@
    "anchor": "They lost just three"
   },
   {
+   "clip": "N02",
+   "src": "LM",
+   "at": 124.45,
+   "x": 0.45,
+   "kind": "face",
+   "anchor": "Their striker",
+   "why": "Jamie Vardy (VARDY 9) from behind, celebrating his record goal. Leicester 1-1 Man United, 28 Nov 2015, BBC MOTD highlights (archive.org)"
+  },
+  {
+   "clip": "N03",
+   "src": "WH",
+   "at": 832.0,
+   "x": 0.4,
+   "kind": "face",
+   "anchor": "used to play",
+   "why": "Jamie Vardy close-up. West Ham 1-2 Leicester, 15 Aug 2015, BBC MOTD highlights (archive.org). Words: NON-LEAGUE",
+   "overlay": [
+    {
+     "text": "NON-LEAGUE",
+     "size": 150,
+     "color": "orange",
+     "y": 330,
+     "start": 0.15,
+     "end": 9
+    }
+   ]
+  },
+  {
+   "clip": "N04",
+   "src": "LM",
+   "at": 145.35,
+   "x": 0.5,
+   "kind": "face",
+   "anchor": "working as a",
+   "why": "Jamie Vardy close-up after his record goal. Leicester 1-1 Man United, 28 Nov 2015, BBC MOTD highlights (archive.org). Words: MEDICAL SPLINTS, HIS OLD JOB",
+   "overlay": [
+    {
+     "text": "MEDICAL SPLINTS",
+     "size": 120,
+     "color": "white",
+     "y": 330,
+     "start": 0.3,
+     "end": 9,
+     "sub": "HIS OLD JOB"
+    }
+   ],
+   "speed": 0.9
+  },
+  {
    "clip": "B20",
    "src": "LM",
    "at": 176.0,
    "x": 0.47,
    "kind": "face",
    "why": "Jamie Vardy celebrates his record goal. Leicester 1-1 Man United, 28 Nov 2015, BBC MOTD highlights (archive.org)",
-   "anchor": "Jamie Vardy scored"
+   "anchor": "That season, he"
   },
   {
    "clip": "B21",
@@ -187,6 +247,69 @@
    "kind": "card",
    "why": "BBC MOTD graphic: Vardy's goals in 11 consecutive games (Leicester 1-1 Man United, 28 Nov 2015)",
    "anchor": "in eleven Premier League"
+  },
+  {
+   "clip": "N05",
+   "src": "WH",
+   "at": 33.35,
+   "x": 0.5,
+   "zoom": 1.15,
+   "y": 0.3,
+   "kind": "face",
+   "anchor": "And Riyad Mahrez",
+   "why": "Riyad Mahrez (MAHREZ 26) from behind. West Ham 1-2 Leicester, 15 Aug 2015, BBC MOTD highlights (archive.org)"
+  },
+  {
+   "clip": "N06",
+   "src": "WH",
+   "at": 125.4,
+   "x": 0.4,
+   "kind": "face",
+   "anchor": "signed from France's",
+   "why": "Riyad Mahrez close-up, smiling. West Ham 1-2 Leicester, 15 Aug 2015, BBC MOTD highlights (archive.org)"
+  },
+  {
+   "clip": "N06b",
+   "src": "WH",
+   "at": 30.3,
+   "x": 0.45,
+   "zoom": 1.15,
+   "y": 0.3,
+   "kind": "face",
+   "anchor": "for around",
+   "why": "Riyad Mahrez close-up. West Ham 1-2 Leicester, 15 Aug 2015, BBC MOTD highlights (archive.org). Words: £450,000, FROM FRANCE'S 2ND DIVISION",
+   "overlay": [
+    {
+     "text": "£450,000",
+     "size": 190,
+     "color": "orange",
+     "y": 330,
+     "start": 0.3,
+     "end": 9,
+     "sub": "FROM FRANCE'S 2ND DIVISION"
+    }
+   ]
+  },
+  {
+   "clip": "N07",
+   "src": "WH",
+   "at": 129.5,
+   "blurfit": true,
+   "delogo": "0.86,0.03,0.12,0.12",
+   "kind": "action",
+   "anchor": "was voted player",
+   "why": "Mahrez (26) scores. West Ham 1-2 Leicester, 15 Aug 2015, BBC MOTD highlights (archive.org). Words: PLAYER OF THE YEAR, VOTED BY THE PLAYERS, 2016 (PFA Players' Player of the Year)",
+   "overlay": [
+    {
+     "text": "PLAYER OF THE YEAR",
+     "size": 115,
+     "color": "white",
+     "y": 330,
+     "start": 0.2,
+     "end": 9,
+     "sub": "VOTED BY THE PLAYERS, 2016"
+    }
+   ]
   },
   {
    "clip": "B22",
