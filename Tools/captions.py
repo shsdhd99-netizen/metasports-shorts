@@ -24,7 +24,7 @@ FONTS = os.path.join(HERE, "fonts")
 
 STYLES = {
     # font, size, outline, shadow, y (centre of the text, of 1920), max words, max chars, ideal words, caps, pop
-    "metasports": dict(font="Montserrat Black", size=86, scalex=95, outline=6, shadow=3, blur=1.2, y=1185, spacing=1, maxw=3, maxc=19, ideal=2.0,
+    "metasports": dict(font="Montserrat Black", size=86, scalex=95, outline=6, shadow=3, blur=1.2, y=1100, spacing=1, maxw=3, maxc=19, ideal=2.0,
                        caps=True, pop=True, colors=True),
     "clank": dict(font="Montserrat Bold", size=58, scalex=100, outline=3, shadow=1, blur=0.6, y=960, spacing=0, maxw=5, maxc=30, ideal=3.5,
                   caps=False, pop=False, colors=False),
@@ -246,7 +246,9 @@ def ass_time(t):
     return f"{int(h)}:{int(m):02d}:{int(s):02d}.{cs:02d}"
 
 
-MAX_CAP_PX = 805  # 15 px under the 820 px check, for rounding; centred at x=540, a wider line passes x=950, where the Shorts like/comment buttons sit (export_check.py)
+MAX_CAP_PX = 700  # Oct 25 2026: one layout safe on YouTube, TikTok and Instagram (Research Notes/TikTok and Instagram Playbook, section 5).
+# Centred at x=540 a 700 px line ends at x=890: inside YouTube's right margin (888) and left of the icons TikTok and Reels show at the
+# right edge. Was 805 (YouTube only); export_check.py warns over 715.
 
 
 def fit_scale(text, st):

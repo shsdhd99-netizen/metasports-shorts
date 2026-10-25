@@ -147,12 +147,13 @@ def check(folder, video=None, stt=True):
         ys = [e["y"] for e in ev if e["y"]]
         if ys:
             lo, hi = min(ys) / 1920, max(ys) / 1920
-            (ok.append(f"captions centred at {lo:.0%}-{hi:.0%} of the height (house band 45-65%)") if 0.45 <= lo and hi <= 0.65
-             else bad.append(f"captions at {lo:.0%}-{hi:.0%} of the height: outside the 45-65% safe band (Shorts UI covers the bottom ~20%)"))
+            (ok.append(f"captions centred at {lo:.0%}-{hi:.0%} of the height (house band 45-62%)") if 0.45 <= lo and hi <= 0.62
+             else bad.append(f"captions at {lo:.0%}-{hi:.0%} of the height: outside the 45-62% safe band (below 62% a card reaches the "
+                             "bottom band YouTube, TikTok and Reels cover; Oct 25 playbook)"))
         if stl:
             est, wide = caption_width(ev, stl)
-            (warn.append(f"widest caption '{wide}' is about {est:.0f} px wide; over 820 px its right edge passes x=950, where the Shorts like/comment column sits") if est > 820
-             else ok.append(f"widest caption about {est:.0f} px (under 820: clear of the right-hand buttons)"))
+            (warn.append(f"widest caption '{wide}' is about {est:.0f} px wide; over 715 px its right edge passes x=890, under the YouTube/TikTok/Reels right-hand buttons") if est > 715
+             else ok.append(f"widest caption about {est:.0f} px (under 715: clear of the right-hand buttons on YouTube, TikTok and Reels)"))
     else:
         warn.append("no captions.ass (captions not checked)")
     # TIMELINE
