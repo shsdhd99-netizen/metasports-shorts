@@ -41,11 +41,22 @@
   "start": 6.39
  },
  {
-  "clip": "A07.mp4",
-  "kind": "card",
-  "why": "Card: England lost World Cup shootouts in 1990 (West Germany), 1998 (Argentina), 2006 (Portugal)",
-  "anchor": "They lost in 1990",
-  "start": 7.62
+  "clip": "p1990.mp4",
+  "start": 7.633,
+  "kind": "action",
+  "patched": "v2 Oct 26: replaces card A07.mp4"
+ },
+ {
+  "clip": "p1998.mp4",
+  "start": 8.867,
+  "kind": "action",
+  "patched": "v2 Oct 26: replaces card A07.mp4"
+ },
+ {
+  "clip": "p2006.mp4",
+  "start": 9.767,
+  "kind": "action",
+  "patched": "v2 Oct 26: replaces card A07.mp4"
  },
  {
   "clip": "A08.mp4",
@@ -223,25 +234,22 @@
   "start": 43.27
  },
  {
-  "clip": "A35.mp4",
-  "kind": "card",
-  "why": "Card: World Cup 2026 semi-final, England v Argentina, Atlanta, 15 July 2026",
-  "anchor": "This summer",
-  "start": 44.25
+  "clip": "pmbs.mp4",
+  "start": 44.267,
+  "kind": "action",
+  "patched": "v2 Oct 26: replaces card A35.mp4"
  },
  {
-  "clip": "A36.mp4",
-  "kind": "card",
-  "why": "Photo card: Pickford's bottle at the 2026 semi-final (photo shared on X)",
-  "anchor": "and Pickford had the bottle",
-  "start": 46.98
+  "clip": "pbottle2.mp4",
+  "start": 46.967,
+  "kind": "action",
+  "patched": "v2 Oct 26: replaces card A36.mp4"
  },
  {
-  "clip": "A37.mp4",
-  "kind": "card",
-  "why": "Card: Gordon 55', E. Fernández 85', L. Martínez 90+2' (ESPN, Sky Sports)",
-  "anchor": "But Argentina scored",
-  "start": 48.9
+  "clip": "pgoals.mp4",
+  "start": 48.9,
+  "kind": "action",
+  "patched": "v2 Oct 26: replaces card A37.mp4"
  },
  {
   "clip": "A38.mp4",
@@ -260,16 +268,15 @@
  {
   "clip": "A40.mp4",
   "kind": "action",
-  "why": "Photo: González and Messi read the bottle (TyC Sports, via @TouchlineX on X)",
+  "why": "Photo: Gonz\u00e1lez and Messi read the bottle (TyC Sports, via @TouchlineX on X)",
   "anchor": "and passed it to Messi",
   "start": 55.31
  },
  {
-  "clip": "A41.mp4",
-  "kind": "card",
-  "why": "Photo card: Almada - FEEL ON THE DAY boxed (photo via @FabrizioRomano on X)",
-  "anchor": "Next to one player's",
-  "start": 56.4
+  "clip": "pbox.mp4",
+  "start": 56.4,
+  "kind": "action",
+  "patched": "v2 Oct 26: replaces card A41.mp4"
  },
  {
   "clip": "A41b.mp4",

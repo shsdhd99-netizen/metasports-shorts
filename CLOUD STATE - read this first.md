@@ -468,3 +468,4 @@ Research Notes/Round 9 - Competitor Shorts Watched (Oct 5, 2026).md. Findings (n
   - QA warns on any card, fails a card over 1.5 s, and fails a card in the first 4 s.
   - Both skills say it at the top.
   - **S07 v2** (today's noon slot) is re-cut with no cards; its excerpts were re-downloaded from archive.org. In this account's FC Hub (LFsQtwomdpLAshoz4Xw62H, doc `s07-leicester-5000-1`). S05 is next.
+  - **S05 v2** (Tue) is patched with no cards: the new pictures are spliced into the finished render (`_patch_v2/build.py`), because the original clips were never committed. In the FC Hub (doc `s05-pickford-water-bottle`).
