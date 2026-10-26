@@ -1,0 +1,179 @@
+[
+ {
+  "clip": "B01.mp4",
+  "kind": "action",
+  "why": "The Hand of God: the ball loops up, Maradona jumps with Shilton (England v Argentina, 22 June 1986, World Cup quarter-final; 'World Cup Classics' broadcast on archive.org, broadcast 1:13:33), slowed to 0.6x",
+  "start": 0.0
+ },
+ {
+  "clip": "B02.mp4",
+  "kind": "action",
+  "why": "The teams lined up for the anthems before kick-off (same broadcast, 0:11:46)",
+  "anchor": "Back in",
+  "start": 2.5
+ },
+ {
+  "clip": "B03.mp4",
+  "kind": "action",
+  "why": "Argentina fans with a banner in the Azteca (same broadcast, 0:16:29)",
+  "anchor": "in a World",
+  "start": 4.79
+ },
+ {
+  "clip": "B04.mp4",
+  "kind": "face",
+  "why": "Diego Maradona close-up after the first goal (same broadcast, 1:14:15)",
+  "anchor": "and Argentina had",
+  "start": 6.17
+ },
+ {
+  "clip": "B05.mp4",
+  "kind": "action",
+  "why": "Second-half play in midfield moments before the goal (same broadcast, 1:13:18)",
+  "anchor": "Six minutes",
+  "start": 8.09
+ },
+ {
+  "clip": "B06.mp4",
+  "kind": "action",
+  "why": "England's line-up graphic: '18. S. HODGE' in the list (same broadcast, 0:14:06)",
+  "anchor": "an England midfielder",
+  "start": 9.42
+ },
+ {
+  "clip": "B07.mp4",
+  "kind": "action",
+  "why": "Hodge's miscued back-pass loops toward Shilton (same broadcast, 1:13:31)",
+  "anchor": "tried a back-pass",
+  "start": 11.14
+ },
+ {
+  "clip": "B08.mp4",
+  "kind": "action",
+  "why": "Replay of the handball at 0.5x: Maradona's hand reaches the ball first and it goes in (same broadcast, 1:13:34)",
+  "anchor": "But Maradona jumped",
+  "replay": true,
+  "start": 13.35
+ },
+ {
+  "clip": "B09.mp4",
+  "kind": "action",
+  "why": "England players protest to the referee (same broadcast, 1:13:44)",
+  "anchor": "The referee gave",
+  "start": 16.23
+ },
+ {
+  "clip": "B10.mp4",
+  "kind": "action",
+  "why": "Argentina celebrate the goal (same broadcast, 1:13:49)",
+  "anchor": "Maradona later said",
+  "start": 17.46
+ },
+ {
+  "clip": "B11.mp4",
+  "kind": "face",
+  "why": "Maradona celebrating, broadcast replay transition (same broadcast, 1:14:02)",
+  "anchor": "and a little with",
+  "start": 19.87
+ },
+ {
+  "clip": "B12.mp4",
+  "kind": "action",
+  "why": "The second goal: Maradona's dribble past the England players (same broadcast, 1:17:17)",
+  "anchor": "Four minutes later",
+  "start": 21.54
+ },
+ {
+  "clip": "B13.mp4",
+  "kind": "action",
+  "why": "The finish of the goal of the century (same broadcast, 1:17:26)",
+  "anchor": "That one was voted",
+  "start": 24.39
+ },
+ {
+  "clip": "B14.mp4",
+  "kind": "action",
+  "why": "Full-time score graphic: ARGENTINA 2, INGLATERRA 1 (same broadcast, 1:54:13)",
+  "anchor": "Argentina won",
+  "start": 26.05
+ },
+ {
+  "clip": "B15.mp4",
+  "kind": "action",
+  "why": "Argentina players and fans celebrating on the pitch at full time (same broadcast, 1:55:30)",
+  "anchor": "and went on to",
+  "start": 27.42
+ },
+ {
+  "clip": "B16.mp4",
+  "kind": "action",
+  "why": "Players and staff on the pitch after the final whistle (same broadcast, 1:54:53)",
+  "anchor": "But it got",
+  "start": 28.76
+ },
+ {
+  "clip": "B17.mp4",
+  "kind": "action",
+  "why": "England players leave the pitch through the photographers after the game (same broadcast, 1:54:38)",
+  "anchor": "Under the stadium",
+  "start": 30.05
+ },
+ {
+  "clip": "B18.mp4",
+  "kind": "action",
+  "why": "Players embracing after the final whistle (same broadcast, 1:54:49); no footage of the shirt swap exists",
+  "anchor": "and tugged",
+  "start": 32.4
+ },
+ {
+  "clip": "B19.mp4",
+  "kind": "face",
+  "why": "Maradona in the shirt, '10 D. MARADONA' on screen (same broadcast, 1:18:03)",
+  "anchor": "Maradona came",
+  "start": 35.32
+ },
+ {
+  "clip": "B20.mp4",
+  "kind": "action",
+  "why": "Replay angle of the Hand of God goal going in, slowed (same broadcast, 1:14:00)",
+  "anchor": "So the England",
+  "start": 38.45
+ },
+ {
+  "clip": "B21.mp4",
+  "kind": "action",
+  "why": "Maradona and Argentina celebrate in the shirt (same broadcast, 1:13:51)",
+  "anchor": "From 2002",
+  "start": 41.74
+ },
+ {
+  "clip": "B22.mp4",
+  "kind": "face",
+  "why": "Maradona celebrates the second goal at the corner (same broadcast, 1:17:29)",
+  "anchor": "But here's",
+  "start": 44.73
+ },
+ {
+  "clip": "B23.mp4",
+  "kind": "action",
+  "why": "England's line-up graphic with '18. S. HODGE' (same broadcast, 0:14:08)",
+  "anchor": "In 2022",
+  "start": 45.84,
+  "replay": true
+ },
+ {
+  "clip": "B24.mp4",
+  "kind": "action",
+  "why": "The handball once more at 0.5x under the price; sale: Sotheby's, 4 May 2022, £7,142,500 (LBC)",
+  "anchor": "for £7.1 million",
+  "replay": true,
+  "start": 47.92
+ },
+ {
+  "clip": "B25.mp4",
+  "kind": "face",
+  "why": "Maradona in the shirt with his name on screen, held to the end (same broadcast, 1:14:17)",
+  "anchor": "the most ever",
+  "start": 50.03
+ }
+]

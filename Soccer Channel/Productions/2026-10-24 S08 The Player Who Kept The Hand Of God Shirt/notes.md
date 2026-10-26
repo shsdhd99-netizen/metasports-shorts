@@ -1,6 +1,6 @@
-# S08 The England player who kept Maradona's Hand of God shirt (SCRIPT ready to voice, Oct 24, 2026)
+# S08 The England player who kept Maradona's Hand of God shirt (BUILT Oct 26, 2026: DRAFT, QA PASS)
 
-**Status:** script verified; not voiced; no footage yet. Made in a cloud session that could not reach ElevenLabs, archive.org or YouTube: voice, footage, render and QA happen on the PC or a cloud session with full network access.
+**Status (Oct 26):** voiced (Alex, 52.85 s after tightening), cut from the full 1986 broadcast (archive.org item `04-world-cup-classics-s-01-e-04-england-vs-argentina-1986`), rendered with and without music; full QA PASS. No cards (owner, Oct 26). Copy-check still not run. Was: script verified; not voiced; no footage yet. Made in a cloud session that could not reach ElevenLabs, archive.org or YouTube: voice, footage, render and QA happen on the PC or a cloud session with full network access.
 
 - **Lane:** story format (Ahmed's Goal shape). Records and oddities (Goal median 332K) with a money payoff.
 - **Title:** singular, one person, an object, like S01 (30K in 2 days). Title card: `The England player who kept\NMaradona's HAND OF GOD shirt`.

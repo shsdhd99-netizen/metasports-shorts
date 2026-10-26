@@ -152,8 +152,11 @@ def check(folder):
                 continue  # same shot, or the same file (qa_short.py handles same-file reuse)
             if int((a[3] != b[3]).sum()) <= 4:
                 dups.setdefault((a[0], a[1], b[0], b[1]), []).append((a[2], b[2]))
+    replay_n = {n for n, s, _, _ in segs if s.get("replay")}  # Oct 26: "replay": true in shots.json marks a deliberate replay/repeat
     for (n1, c1, n2, c2), m in dups.items():
-        if len(m) >= 2:
+        if len(m) >= 2 and (n1 in replay_n or n2 in replay_n):
+            warn.append(f"deliberate replay: shot {n2} ({c2}) repeats footage from shot {n1} ({c1}) (marked \"replay\": true)")
+        elif len(m) >= 2:
             bad.append(f"the same footage appears in shot {n1} ({c1}) and shot {n2} ({c2}) ({len(m)} matching frames, e.g. {m[0][0]}s / {m[0][1]}s): use different footage, or mark a deliberate replay")
     unk = [r["clip"] for r in res if r["upscale"] is None and r["upscale_basis"] != "still/card"]
     if unk:
