@@ -1,0 +1,210 @@
+{
+ "sources": {
+  "N": "src/2114507747983302667.mp4"
+ },
+ "shots": [
+  {
+   "clip": "A01",
+   "src": "N",
+   "at": 0.0,
+   "x": 0.42,
+   "shot_zoom": 0.05,
+   "kind": "face",
+   "why": "Luka close-up on the Lakers bench, hand up, LAKERS 77 (NBA on X, Oct 25 2026 highlights, 0:00)",
+   "len": 1.68
+  },
+  {
+   "clip": "A02",
+   "still": "assets/kobe_9x16.jpg",
+   "kind": "face",
+   "anchor": "Kobe never",
+   "why": "Kobe Bryant, Lakers at Wizards, Dec 3 2014 (Keith Allison, CC BY-SA 2.0, Wikimedia Commons)",
+   "len": 1.28
+  },
+  {
+   "clip": "A03",
+   "src": "N",
+   "at": 63.17,
+   "speed": 0.9,
+   "blurfit": true,
+   "kind": "action",
+   "anchor": "52 points",
+   "overlay": [
+    {
+     "text": "52 PTS",
+     "size": 230,
+     "color": "0xFDB927",
+     "y": 300,
+     "start": 0.05,
+     "end": 9,
+     "sub": "10 AST"
+    }
+   ],
+   "why": "Luka's possession late in the 2nd quarter, 33.8 left on the bug (NBA highlights 1:03), slowed to 0.9x; whole frame over a blurred fill",
+   "len": 2.73
+  },
+  {
+   "clip": "A04",
+   "src": "N",
+   "at": 83.95,
+   "x": 0.43,
+   "kind": "face",
+   "anchor": "No Laker",
+   "overlay": [
+    {
+     "text": "1963",
+     "size": 230,
+     "color": "0xFDB927",
+     "y": 300,
+     "start": 0.05,
+     "end": 9,
+     "sub": "LAST LAKER TO DO IT"
+    }
+   ],
+   "why": "Luka walking, DONCIC 77 on his back (NBA highlights 1:24)",
+   "len": 2.39
+  },
+  {
+   "clip": "A05",
+   "still": "assets/shaq_9x16.jpg",
+   "kind": "face",
+   "anchor": "Not Shaq",
+   "why": "Shaquille O'Neal at TechCrunch Disrupt, Sep 19 2023 (TechCrunch, CC BY 2.0, Wikimedia Commons)",
+   "len": 1.0
+  },
+  {
+   "clip": "A06",
+   "still": "assets/lebron_9x16.jpg",
+   "kind": "face",
+   "anchor": "Not LeBron",
+   "why": "LeBron James, Lakers at Cavaliers, Mar 21 2022 (Erik Drost, CC BY 2.0, Wikimedia Commons)",
+   "len": 1.07
+  },
+  {
+   "clip": "A07",
+   "src": "N",
+   "at": 37.0,
+   "blurfit": true,
+   "kind": "action",
+   "anchor": "And Utah",
+   "overlay": [
+    {
+     "text": "UTAH +18",
+     "size": 200,
+     "color": "0xFDB927",
+     "y": 300,
+     "start": 0.05,
+     "end": 9
+    }
+   ],
+   "why": "First-quarter half-court possession in Salt Lake City, baseline camera, no score bug (NBA highlights 0:37)",
+   "len": 1.88
+  },
+  {
+   "clip": "A08",
+   "src": "N",
+   "at": 65.45,
+   "x": 0.5,
+   "kind": "face",
+   "anchor": "Luka dragged",
+   "why": "The Lakers bench on its feet late in the 2nd quarter (NBA highlights 1:05)",
+   "len": 1.57
+  },
+  {
+   "clip": "A09",
+   "src": "N",
+   "at": 163.7,
+   "blurfit": true,
+   "kind": "action",
+   "anchor": "then hit",
+   "why": "Luka's first of the back-to-back threes, 4th quarter, Lakers 121-119 on the bug before it (NBA highlights 2:43)",
+   "len": 2.4
+  },
+  {
+   "clip": "A10",
+   "src": "N",
+   "at": 173.75,
+   "blurfit": true,
+   "kind": "action",
+   "anchor": "8 threes",
+   "overlay": [
+    {
+     "text": "8 THREES",
+     "size": 200,
+     "color": "0xFDB927",
+     "y": 300,
+     "start": 0.05,
+     "end": 9
+    }
+   ],
+   "why": "The second three, Lakers up 124-121 before it, 1:45 left on the bug at 2:50 (NBA highlights 2:53)",
+   "len": 0.99
+  },
+  {
+   "clip": "A11",
+   "src": "N",
+   "at": 167.75,
+   "x": 0.5,
+   "kind": "face",
+   "anchor": "10 of 11",
+   "overlay": [
+    {
+     "text": "10/11 FT",
+     "size": 190,
+     "color": "0xFDB927",
+     "y": 300,
+     "start": 0.05,
+     "end": 9
+    }
+   ],
+   "why": "Luka close-up between the two threes (NBA highlights 2:48)",
+   "len": 1.37
+  },
+  {
+   "clip": "A12",
+   "src": "N",
+   "at": 158.9,
+   "x": 0.5,
+   "kind": "face",
+   "anchor": "Before him",
+   "why": "Luka close-up, front on, 4th quarter (NBA highlights 2:39)",
+   "len": 1.8
+  },
+  {
+   "clip": "A13",
+   "still": "assets/baylor_9x16.jpg",
+   "kind": "face",
+   "anchor": "Elgin Baylor",
+   "why": "Elgin Baylor on a 1969 Lakers program cover (public domain, Wikimedia Commons)",
+   "len": 0.98
+  },
+  {
+   "clip": "A14",
+   "still": "assets/west_9x16.jpg",
+   "kind": "face",
+   "anchor": "and Jerry",
+   "why": "Jerry West, 1972 (Malcolm W. Emmons, public domain, Wikimedia Commons)",
+   "len": 1.16
+  },
+  {
+   "clip": "A15",
+   "src": "N",
+   "at": 176.45,
+   "x": 0.45,
+   "kind": "face",
+   "anchor": "The last one",
+   "overlay": [
+    {
+     "text": "63 YEARS",
+     "size": 190,
+     "color": "0xFDB927",
+     "y": 300,
+     "start": 0.55,
+     "end": 9
+    }
+   ],
+   "why": "Luka holds up three fingers after the second three (NBA highlights 2:56)",
+   "len": 2.27
+  }
+ ]
+}

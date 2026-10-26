@@ -418,3 +418,21 @@ Exact post times aren't readable from the cloud (YouTube blocks the per-video pa
 - #58 went from 3.6K to 17K in a day. It is a news story on a famous name (Bronny), with the owner's own title.
 - Like #42 (6.3K → 25K between day 1.5 and 3.5), a Short can break out on day 2.
 - So judge new posts at 3+ days, not at day 1.
+
+## Mon Oct 26, 2026, 02:21 UTC (catch-up check; the daily routine was paused Oct 23-25 while the owner's usage was out)
+Public counts (`channel_check.py`), no API token in the cloud, no new Studio export since Oct 24.
+- **96 Shorts listed, 579 subscribers.** Median of the last 7: **5,400** (normal before that: 4,400). Trend: UP.
+
+| Short | Views | #42 FORMAT? |
+|---|---|---|
+| **Who Has Missed The Most Threes In NBA History? (#48)** | **23,000** | **yes** (format post 1) |
+| Wemby Just Had The Worst Night Of His Career (#64) | 10,000 | **yes** (format post 2) |
+| Why SGA Ended His Own NBA Record (#66) | 6,500 | record variant |
+| Who Has Lost The Most Games In NBA History? (#52) | 5,400 | **yes** (format post 3) |
+| Why LeBron Isn't A Knick (#62) | 4,300 | no |
+| Caitlin Clark Did What No NBA Player Has (#60) | 2,000 | no |
+| All Three Williamses Got A Technical (#63) | 1,400 | no (posted a day late) |
+
+**Format test:** all 3 test posts are up. Studio (Oct 24): #48 83.3%, #64 72.6%, #52 59.1% stayed, so 1 of 3 reached 74%; by views #48 and #64 are the channel's two best of the week. The playbook already caps the format at 1 post in 3 (decay in posting order); nothing new to change.
+**Retention flags:** none readable without the API or a new export. **Monday reminder:** export Studio > Content > Shorts for both channels.
+**Lesson:** none new (n<3 per point).

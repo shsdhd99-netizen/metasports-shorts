@@ -9,3 +9,13 @@ Fill this in after each post: the prediction before posting, then the numbers at
 | S03 | Goalkeepers who danced on the line to win a final | Oct 23 | not recorded | | 1.4K at 10 h (Studio, Oct 24 03:09 UTC; 31 likes) | | | | Plural title, 70.7 s, no copyright claim. |
 
 **Channel, Studio Oct 24 03:09 UTC:** 31.0K views and 269 watch hours in the last 28 days. Subscriber count not visible in the screenshot.
+
+**Oct 26 02:21 UTC, public counts (`Tools/fc_track.py`, flat playlist; per-video likes and dates were refused from the cloud):** 87 subscribers, 5 Shorts live.
+| Short | Views |
+|---|---|
+| S01 The goalkeeper who hid a cheat sheet in his sock | 30,172 |
+| S03 Goalkeepers who danced on the line to win a final | **14,000** (up from 1.4K at 10 h: a day-2/3 breakout) |
+| S06 The player who scored 5 goals in 9 minutes | 1,900 |
+| S02 Players who got in TROUBLE the day before a derby | 1,800 |
+| S04 Players who got sent off in their very last game | 1,200 |
+S05 and S07 are not on the channel yet. Judge S04/S06 at 3+ days (S03 was at 1.4K on day 1).

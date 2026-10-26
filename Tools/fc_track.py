@@ -11,7 +11,7 @@ LOG = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "Soccer Cha
 
 def ytdlp(*args):
     r = subprocess.run(["yt-dlp", "--no-warnings", "-J", *args], capture_output=True, text=True, timeout=180)
-    return json.loads(r.stdout) if r.stdout.strip() else {}
+    return (json.loads(r.stdout) or {}) if r.stdout.strip() else {}
 
 
 def main():

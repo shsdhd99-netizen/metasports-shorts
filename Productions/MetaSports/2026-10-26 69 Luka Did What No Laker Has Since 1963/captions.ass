@@ -1,0 +1,43 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Montserrat Black,86,&H00FFFFFF,&H00FFFFFF,&H00000000,&H99000000,0,0,0,0,95,100,1,0,1,6,3,5,70,70,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.73,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}LUKA DONCIC
+Dialogue: 0,0:00:00.73,0:00:01.40,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx80\fscy80\t(0,90,\fscx92\fscy92)}JUST DID SOMETHING
+Dialogue: 0,0:00:01.40,0:00:02.38,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}KOBE NEVER DID.
+Dialogue: 0,0:00:02.38,0:00:03.08,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}52 POINTS
+Dialogue: 0,0:00:03.08,0:00:03.95,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND 10 ASSISTS,
+Dialogue: 0,0:00:03.95,0:00:04.81,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN ONE GAME.
+Dialogue: 0,0:00:04.81,0:00:05.27,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NO LAKER
+Dialogue: 0,0:00:05.27,0:00:05.53,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HAD DONE
+Dialogue: 0,0:00:05.53,0:00:06.90,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THAT SINCE 1963.
+Dialogue: 0,0:00:06.90,0:00:07.59,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NOT SHAQ.
+Dialogue: 0,0:00:07.59,0:00:08.36,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NOT LEBRON.
+Dialogue: 0,0:00:08.36,0:00:08.86,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND UTAH
+Dialogue: 0,0:00:08.86,0:00:09.94,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}LED BY 18.
+Dialogue: 0,0:00:09.94,0:00:10.66,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}LUKA DRAGGED
+Dialogue: 0,0:00:10.66,0:00:11.20,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THEM BACK,
+Dialogue: 0,0:00:11.20,0:00:11.61,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THEN HIT
+Dialogue: 0,0:00:11.61,0:00:12.39,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx73\fscy73\t(0,90,\fscx85\fscy85)}BACK-TO-BACK THREES
+Dialogue: 0,0:00:12.39,0:00:12.77,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN THE LAST
+Dialogue: 0,0:00:12.77,0:00:13.30,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TWO MINUTES.
+Dialogue: 0,0:00:13.30,0:00:13.99,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}8 THREES.
+Dialogue: 0,0:00:13.99,0:00:14.55,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}10 OF 11
+Dialogue: 0,0:00:14.55,0:00:15.06,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FREE THROWS.
+Dialogue: 0,0:00:15.06,0:00:15.53,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BEFORE HIM,
+Dialogue: 0,0:00:15.53,0:00:15.86,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ONLY TWO
+Dialogue: 0,0:00:15.86,0:00:16.29,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}LAKERS EVER
+Dialogue: 0,0:00:16.29,0:00:16.56,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}DID IT:
+Dialogue: 0,0:00:16.56,0:00:17.24,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ELGIN BAYLOR
+Dialogue: 0,0:00:17.24,0:00:18.10,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND JERRY WEST.
+Dialogue: 0,0:00:18.10,0:00:18.55,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE LAST ONE
+Dialogue: 0,0:00:18.55,0:00:20.01,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx85\fscy85\t(0,90,\fscx98\fscy98)}WAS 63 YEARS AGO.
