@@ -17,12 +17,12 @@ Permission: "full permission to use resources, do any research, and execute what
 | 0a | #70 Barkley moment Short | Yes | DRAFT + UPLOAD.md + NBA Hub | **done** (QA PASS, pushed 57159dd) |
 | 0b | A YouTube watcher that isn't vidIQ | Tool yes; running it needs a free Gemini key from the owner | `Tools/yt_watch.py` | **done** (built and tested up to the key check) |
 | 0c | Daily research while cross-posting is off | Yes | scheduled task "MetaSports daily research", 5:43 AM ET daily, fresh session, research only | **done** |
-| 1 | Similar channels | Mostly. I can read titles, view counts, upload times (RSS) and YouTube's auto-frames. I can't watch or hear them until the Gemini key exists or vidIQ resets (Nov 5). | `Research Notes/Similar Channels (Oct 26, 2026).md`, data CSVs, `Research Notes/Competitor Watchlist.csv` | todo |
-| 2 | Rules review | Yes | `Research Notes/Rules Review (Oct 26, 2026).md`, plus edits to the Playbook, skills and QA | todo |
-| 3 | Posting study (times, frequency, tags, description) | Partly. Our own posted times vs views, competitors' upload times from RSS, YouTube's own docs. No A/B possible overnight. | `Research Notes/Posting Study (Oct 26, 2026).md` | todo |
-| 4 | Editing upgrade | Yes for the study and tool changes; the proof needs posts | `Research Notes/Editing Upgrade (Oct 26, 2026).md`, tool changes, one re-edit to compare | todo |
-| 5 | More Shorts in the found style | Yes, if X has the footage: 2-3 NBA moment Shorts, 1-2 soccer | DRAFTs on both Hubs | todo |
-| 6 | Morning summary | Yes | short chat message + `CLOUD STATE` update | todo |
+| 1 | Similar channels | Mostly. I can read titles, view counts, upload times (RSS) and YouTube's auto-frames. I can't watch or hear them until the Gemini key exists or vidIQ resets (Nov 5). | `Research Notes/Similar Channels (Oct 26, 2026).md`, data CSVs, `Research Notes/Competitor Watchlist.csv` | **done** |
+| 2 | Rules review | Yes | `Research Notes/Rules Review (Oct 26, 2026).md`, plus edits to the Playbook, skills and QA | review **done**; doc edits in progress (agent) |
+| 3 | Posting study (times, frequency, tags, description) | Partly. Our own posted times vs views, competitors' upload times from RSS, YouTube's own docs. No A/B possible overnight. | `Research Notes/Posting Study (Oct 26, 2026).md` | **done** |
+| 4 | Editing upgrade | Yes for the study and tool changes; the proof needs posts | `Research Notes/Editing Upgrade (Oct 26, 2026).md`, tool changes, one re-edit to compare | study **done**; replay pass-through, 3:4 blur-fit, corner badges built; re-edit todo |
+| 5 | More Shorts in the found style | Yes, if X has the footage: 2-3 NBA moment Shorts, 1-2 soccer | DRAFTs on both Hubs | S08 voice + footage done, render todo (usage ran out 4:20-8:40 AM ET) |
+| 6 | Morning summary | Yes | short chat message + `CLOUD STATE` update | **done**: `Research Notes/Morning Brief (Oct 26, 2026).md` |
 
 ## Order and time budget
 1. Similar channels (about 90 min). This feeds everything else.

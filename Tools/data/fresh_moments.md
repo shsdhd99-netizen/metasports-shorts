@@ -1,38 +1,38 @@
-# Fresh NBA moments — 2026-10-19
+# Fresh NBA moments — 2026-10-26
 
 ## Hottest new NBA Shorts from big highlight channels (vs. their normal)
 
 | Heat | Views | Channel | Moment | Link |
 |---|---|---|---|---|
-| 7.6x | 291,000 | NBA | Imagine Getting This Shot In Front Of Draymond 👏 | https://www.youtube.com/shorts/L59AKfB36fk |
-| 6.0x | 231,000 | NBA | Klay was testing out the nets in South Beach at practice 🔥 | https://www.youtube.com/shorts/zsTKxx4fofI |
-| 4.3x | 383,000 | House of Highlights | NOOO now Steph Curry is INJURED🚨 | https://www.youtube.com/shorts/CgmXZYYf84k |
-| 3.0x | 116,000 | NBA | This Ja Morant save to Dame from the preseason was insane 🔥 | https://www.youtube.com/shorts/FCjQb2Oo4K0 |
-| 2.5x | 96,000 | NBA | How does Wemby do it?! 🤯 | https://www.youtube.com/shorts/vlwyVuaAieE |
-| 2.1x | 69,000 | Bleacher Report | Steve Kerr says Steph tweaked his ankle and said “he’s fine” 🙏 | https://www.youtube.com/shorts/DjqcRBA6FKA |
-| 1.9x | 72,000 | NBA | Get a behind-the-scenes look of Giannis at Heat practice! 🔥🤩 | https://www.youtube.com/shorts/B9O9lbOKZo0 |
-| 1.1x | 42,000 | NBA | We were witnesses to an all-time preseason dime last week courtesy of Jokić 🤯 | https://www.youtube.com/shorts/Un0kItSJhWk |
-| 1.0x | 15,000 | ClutchPoints | We FOUGHT About James Harden 😭 | https://www.youtube.com/shorts/lvMzPf8r4H4 |
-| 1.0x | 14,000 | ClutchPoints | Who Won More Playoff Games? 🏈 | https://www.youtube.com/shorts/nkIPMwYOkIU |
-| 0.9x | 35,000 | NBA | No, YOU shoot it 😂 | https://www.youtube.com/shorts/0d2Ad_yrwgQ |
-| 0.9x | 33,000 | NBA | One of the cutest Spurs fans we'll ever see 😆😤 (via: robthetxrealtor/IG) | https://www.youtube.com/shorts/53LNc_J_SQk |
-| 0.7x | 27,000 | NBA | Tatum tuned up his pregame ritual with Deuce this preseason 🤝☘️ | https://www.youtube.com/shorts/rcN6jBh1CXY |
-| 0.7x | 10,000 | ClutchPoints | X Teams BETTER Than The Jazz? 🤔 | https://www.youtube.com/shorts/_HA1ERrQfYk |
-| 0.6x | 24,000 | NBA | 😂 Giannis and Bam explain their "fusion" photo at Heat Media Day! | https://www.youtube.com/shorts/RLZ0p9EYrOQ |
+| 8.4x | 834,000 | House of Highlights | Ant watching LaMelo IN HIS BAG🎒😭 | https://www.youtube.com/shorts/R_AT44wAP00 |
+| 4.2x | 135,000 | Bleacher Report | SGA was emotional after J-Dub’s injury | https://www.youtube.com/shorts/5BHijlRwihY |
+| 4.2x | 80,000 | NBA | Ant couldn’t stay seated watching LaMelo cook 😂 | https://www.youtube.com/shorts/HuTaLHgpJSM |
+| 4.1x | 78,000 | NBA | Luka has 50! | https://www.youtube.com/shorts/nqJUHa2sSgA |
+| 3.7x | 117,000 | Bleacher Report | Luka having fun with his former teammate 😅 | https://www.youtube.com/shorts/laXF7Z24K8s |
+| 2.3x | 43,000 | NBA | LeBron James wins the jump ball starting at Center! 👑 | https://www.youtube.com/shorts/i9xFuC5-w5s |
+| 2.2x | 28,000 | ClutchPoints | Is Jayson Tatum OVERRATED? 🤔 | https://www.youtube.com/shorts/H2UlJV0dqWc |
+| 1.9x | 36,000 | NBA | LaMelo lob and this fan is loving it! 😂 | https://www.youtube.com/shorts/ce2gXGVV4tg |
+| 1.9x | 60,000 | Bleacher Report | Get the defender a map because LaMelo had him lost 🗺️ | https://www.youtube.com/shorts/Tx-6kNqg2zs |
+| 1.7x | 55,000 | Bleacher Report | LeBron’s first start at center for Philly 👀 | https://www.youtube.com/shorts/fMc7-V80sGo |
+| 1.5x | 146,000 | House of Highlights | Luka travelled & gave up a buzzer beater😭 | https://www.youtube.com/shorts/78Zv9FvxXrY |
+| 1.4x | 142,000 | House of Highlights | LeBron decided enough was ENOUGH😤 | https://www.youtube.com/shorts/oLe-NEM9vNI |
+| 1.3x | 25,000 | NBA | Hali got up! 😅 | https://www.youtube.com/shorts/gfcSyU35BAc |
+| 1.2x | 116,000 | House of Highlights | All the Wolves needed was Melo at PG😤 | https://www.youtube.com/shorts/vEk0wxcAV-Y |
+| 1.1x | 20,000 | NBA | Tyrese MAXEY’S parents got front row seats to the chalk toss 😂 | https://www.youtube.com/shorts/MzgFrZDx0SY |
 
 ## Top NBA headlines right now (storyline ideas — verify before using)
 
-- NBA predictions: Picks for 2027 champion, MVP, Rookie of the Year, and more - Yahoo Sports
-- Jaylen Brown, Ja Morant and NBA Stars with Most on the Line This Season - Bleacher Report
-- 3 Reasons Why 76ers Could Have a Rough Start to the Regular Season - Sports Illustrated
-- Ben Simmons’ NBA comeback suffers brutal blow in crushing setback with Kings - New York Post
-- Kings guard Ben Simmons suffers torn Achilles tendon during practice Sunday - NBA.com
-- Kings guard Ben Simmons, 30, has torn Achilles tendon, will undergo surgery - ESPN
-- 2026-2027 NBA season expert picks for East, West, Finals champs - ESPN
-- FanDuel Promo Code: Get up to $350 Bonus for Monday Night Football, WNBA Finals, and NBA Tip-Off - Sports Illustrated
-- NBA tells sportsbooks to stop certain bets, restrict parlays - ESPN
-- NBA and sportsbooks agree to ban multiple types of bets - CNBC
-- Knicks waive Bruce Brown, keep James Wiseman ahead of opener - ESPN
-- New Jersey homeowner recreates unforgettable Knicks NBA Finals moment in Halloween display - ABC7 New York
+- Los Angeles Lakers vs Utah Jazz Oct 25, 2026 Box Scores - NBA.com
+- NBA opening week intel: New trend in contract talks; OKC's pricey future - ESPN
+- Thunder lose Jalen Williams to serious lower leg injury late in win over Clippers - NBA.com
+- Jalen Williams suffers gruesome leg injury, stretchered off court in Thunder's victory over Clippers - Yahoo Sports
+- Injury Bug Bites Teams Around the NBA Early This Season - Blazer's Edge
+- Lakers' Luka Doncic scores NBA season-high 52 points with 10 assists in win - ESPN
+- NBA roundup: Luka Doncic explodes for 52 to lead Lakers past Jazz - Reuters
+- Luka Doncic Makes NBA History in 50-Point Game in Lakers-Magic - Yahoo Sports
+- Knicks make unfortunate NBA history not seen from defending champion in 15 years - Yahoo Sports
+- Game Recap: Magic 111, Knicks 102 - NBA.com
+- Jalen Brunson: Knicks' sputtering offense 'falls on my shoulders' amid 0-3 start - ESPN
+- NBA star torches fan base after boos rain down after first half: 'They are not welcome anymore' - Fox News
 
 **Next:** pick one → type `/nba-short the moment` in Claude (it runs the copy-check for you).

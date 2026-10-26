@@ -137,8 +137,12 @@ def cmd_cut(a):
             dl = f"delogo=x={int(fx * w)}:y={int(fy * h)}:w={int(fw * w)}:h={int(fh * h)},"
         if a.blurfit:  # Oct 21 (story format): the whole wide frame, full width, over a blurred, darkened fill of itself
             fg_w = int(1080 * a.blurfit_width) // 2 * 2
+            # Oct 26 2026 (retention study): --blurfit-aspect 0.75 keeps a 3:4 window of the wide frame (placed by --x) instead of
+            # the whole 16:9 strip, so a play fills ~75% of the height rather than 32%. Keep plain --blurfit for graphics read whole.
+            fgcrop = (f"crop=ih*{a.blurfit_aspect:.3f}/{a.zoom:.3f}:ih/{a.zoom:.3f}:(iw-ih*{a.blurfit_aspect:.3f}/{a.zoom:.3f})*{a.x:.3f}:(ih-ih/{a.zoom:.3f})/2"
+                      if a.blurfit_aspect else f"crop=iw/{a.zoom:.3f}:ih/{a.zoom:.3f}")
             fc = (f"[0:v]{slow}{dl}split[a][b];[a]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=24:2,"
-                  f"eq=brightness=-0.12[bg];[b]crop=iw/{a.zoom:.3f}:ih/{a.zoom:.3f},scale={fg_w}:-2:flags=lanczos{',hflip' if a.flip else ''}[fg];"
+                  f"eq=brightness=-0.12[bg];[b]{fgcrop},scale={fg_w}:-2:flags=lanczos{',hflip' if a.flip else ''}[fg];"
                   f"[bg][fg]overlay=(W-w)/2:(H-h)*{a.y:.3f},fps=30,format=yuv420p[v]")
             run(["ffmpeg", "-y", "-loglevel", "error", *seek, "-i", path, "-t", f"{a.len:.2f}", "-filter_complex", fc,
                  "-map", "[v]", "-an", "-c:v", "libx264", "-crf", "18", "-preset", "medium", a.out])
@@ -341,6 +345,7 @@ def main():
     p.add_argument("--speed", type=float, default=1.0, help="playback speed, e.g. 0.5 = half-speed slow motion (stretches a short close-up)")
     p.add_argument("--blurfit", action="store_true", help="keep the whole wide frame: full width over a blurred fill (story format)")
     p.add_argument("--blurfit-width", dest="blurfit_width", type=float, default=1.0, help="foreground width share for --blurfit")
+    p.add_argument("--blurfit-aspect", dest="blurfit_aspect", type=float, default=0.0, help="with --blurfit: keep only a w/h window (0.75 = 3:4) of the frame, placed by --x (Oct 26)")
     p.add_argument("--delogo", help="blur a channel logo: x,y,w,h as fractions of the source frame, e.g. 0.85,0.02,0.13,0.14")
     p = sub.add_parser("still"); p.add_argument("source"); p.add_argument("--len", type=float, default=5); p.add_argument("--out", required=True)
     p = sub.add_parser("page", help="a screenshot as a clip: push-in + red circle/box highlights")
