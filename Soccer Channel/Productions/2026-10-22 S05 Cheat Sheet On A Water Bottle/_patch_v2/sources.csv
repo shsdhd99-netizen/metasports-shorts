@@ -1,0 +1,5 @@
+clip,kind,used_at_s,used_for_line,what_it_shows,source_url,source_account,source_date,source_in_s,source_out_s,crop,match_score,licence_risk,verified,verified_on,notes
+p1990_raw.mp4,,,,,../src/g90.mp4,,,3.5,4.9,x 0.45 zoom 1.0 y 0.5,,,,, | source 1280x720
+p1998_raw.mp4,,,,,../src/g98.mp4,,,2.5,3.6,x 0.45 zoom 1.0 y 0.5,,,,, | source 1280x720
+p2006_raw.mp4,,,,,../src/g06.mp4,,,3.0,4.3,x 0.5 zoom 1.0 y 0.5 blurfit,,,,, | source 480x360
+pgoals_raw.mp4,,,,,../src/stock_18781.mp4,Mixkit (stock),,1.0,4.0,x 0.5 zoom 1.0 y 0.5,,,,,post text: Mixkit Free License | source 1280x720
