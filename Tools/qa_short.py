@@ -133,10 +133,12 @@ def main():
     face = (kinds["face"] + kinds["quote"]) / total
     soft(face <= 0.45, f"talking head {face:.0%}", f"talking head {face:.0%} of runtime (guideline <=45%): is every claim proven on screen?")
     soft(kinds["action"] / total >= 0.35, f"b-roll {kinds['action']/total:.0%}", f"b-roll {kinds['action']/total:.0%} (guideline >=35%)")
-    if story:
-        soft(kinds["card"] / total <= 0.25, f"cards {kinds['card']/total:.0%}", f"cards {kinds['card']/total:.0%} (guideline <=25%)")
-    else:  # Oct 26: any card 66.1% stayed vs 72.6% without (n=20 vs 17) [V]; put the proof on the footage instead
-        soft(kinds["card"] / total <= 0.10, f"cards {kinds['card']/total:.0%}", f"cards {kinds['card']/total:.0%} (NBA guideline <=10%: Shorts with any card held 66.1% vs 72.6%; put words or a circle on the footage)")
+    # Owner, Oct 26 2026 (both channels): "cut cards completely, theyre a big distraction. if added, keep brief".
+    # NBA data: any card 66.1% stayed vs 72.6% without (n=20 vs 17) [V]. A card is off by default; one that stays runs <= 1.5 s.
+    ncards = [s["clip"] for s, _, _, d in segs if s.get("kind") == "card"]
+    soft(not ncards, "no cards", f"{len(ncards)} card(s) {ncards}: cards are off by default (owner, Oct 26); put the proof on the footage")
+    long_cards = [(s["clip"], round(d, 1)) for s, _, _, d in segs if s.get("kind") == "card" and d > 1.5]
+    chk(not long_cards, "every card brief (<=1.5 s)", f"cards longer than 1.5 s: {long_cards} (owner, Oct 26: if a card is used, keep it brief)")
     two_cards = [i for i in range(1, len(shots)) if shots[i].get("kind") == "card" and shots[i - 1].get("kind") == "card"]
     soft(not two_cards, "no two cards in a row", f"two cards in a row at shots {two_cards} (the critic flags back-to-back reading)")
     dup = [i for i in range(1, len(shots)) if shots[i]["clip"] == shots[i - 1]["clip"] and shots[i].get("in") == shots[i - 1].get("in")]
@@ -228,10 +230,8 @@ def main():
     else:
         chk(not short, "no clip replays", f"clip shorter than its shot = visible replay/jump-back (clip, at s, short by s): {short}; re-render with assemble.py (Oct 13+) or use longer clips")
     early_cards = [round(st, 1) for s, st, e, d in segs if s.get("kind") == "card" and st < 4.0]
-    if early_cards and not story:  # Oct 26: a card in the first 4 s held 63.2% stayed and 1.9K views vs 72.0% and 5.0K (n=9 vs 28) [V]
-        bad.append(f"card/screenshot in the first 4 s at {early_cards} s (NBA: these held 63.2% stayed vs 72.0%; open on the real moment)")
-    elif early_cards:
-        warn.append(f"card/screenshot in the first 4 s at {early_cards} s (HYPOTHESIS: the Oct posts that broke out had real footage/faces there)")
+    if early_cards:  # Oct 26: a card in the first 4 s held 63.2% stayed and 1.9K views vs 72.0% and 5.0K (NBA, n=9 vs 28) [V]; owner: no cards
+        bad.append(f"card/screenshot in the first 4 s at {early_cards} s (these held 63.2% stayed vs 72.0%; open on the real moment)")
     if tail < 0.1:
         bad.append(f"voice is cut off: last word ends {tail:.2f}s before the end (add 0.3 s tail: ffmpeg -af apad=pad_dur=0.3)")
     first8 = " ".join(w["word"] for w in words[:8]).lower()

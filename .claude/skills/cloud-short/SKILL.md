@@ -33,7 +33,7 @@ Before anything else, read `Research Notes/Lessons Learned (running log).md` and
 ## OCT 26 EDITING RULES (override anything older below; `Research Notes/Why NBA Views Dropped (Oct 26, 2026).md`, 37 posted Shorts)
 Only 13 of 40 new-era Shorts held the 74% "stayed to watch" that every 10K+ Short had. What separated them [V]:
 - **Hold the opening moment: 1-2 shots in the first 3 s** (2 or fewer: 75.0% stayed, 7.8K median; 3+: 67.5%, 3.1K).
-- **No cards.** Any card: 66.1% / 3.4K; none: 72.6% / 6.1K. A card in the first 4 s: 63.2% / 1.9K (QA now FAILS it). Proof goes ON the footage: words over the play (`overlay`), the broadcast's own scorebug, a red circle (`Tools/pointer.py`).
+- **No cards (owner, Oct 26: "cut cards completely, theyre a big distraction. if added, keep brief").** A card only when nothing else can show the fact, 1.5 s at most (QA fails a longer one). Any card: 66.1% / 3.4K; none: 72.6% / 6.1K. A card in the first 4 s: 63.2% / 1.9K (QA now FAILS it). Proof goes ON the footage: words over the play (`overlay`), the broadcast's own scorebug, a red circle (`Tools/pointer.py`).
 - **Fewer, longer shots:** about 10-15 shots in 20-30 s (about 2 s each; a play may run 3-5 s). 15 or fewer: 75.0% / 6.1K; 16+: 66.4% / 3.1K.
 - **Stay on the moment the story is about.** Don't cut away to filler to reach a clip count (the 6-clip / 35% gates are now warnings for NBA).
 - Line 1 done by 3 s (71.1% vs 62.2%). Pace, word count and how many numbers are spoken showed no link.

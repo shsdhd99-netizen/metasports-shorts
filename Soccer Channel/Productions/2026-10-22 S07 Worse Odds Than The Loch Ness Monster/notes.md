@@ -1,3 +1,5 @@
+> **v2 (Oct 26, old account, cloud): NO CARDS (owner).** Re-cut from re-downloaded archive.org excerpts (`src/*.mp4`, local only; the files and in-points are in `cuts_plan.json`/`sources.csv`): MOTD highlights (Leicester v Newcastle May 2015, West Ham v Leicester Aug 2015, Leicester v Man United Nov 2015), the Sky trophy-day broadcast v Everton (pillarbox cropped), and Sky's season review `sky-sports-the-premier-league-years-2015-2016` (crest, Man City 1-3 caption, Hazard, Chelsea 2-2 Tottenham caption, trophy lift, fireworks). New: Elvis Presley 1957 MGM publicity photo (public domain, Library of Congress); Mixkit stock 45148 (pen) and 45702 (money counter). v1 cut lists are in `_v1_cards/`.
+
 # S07 The team with worse odds than the Loch Ness monster (DRAFT, rendered Oct 24, 2026)
 
 > **STATUS (Oct 24, new account, cloud session): FIXED BY CUTS AND RENDERED, 55.2 s (under 60), music and no-music.**

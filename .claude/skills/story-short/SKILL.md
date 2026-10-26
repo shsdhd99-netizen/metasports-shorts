@@ -108,7 +108,8 @@ How to work:
 - **TV channel logos:** re-encode the used section once, with the borders cropped and the logo blurred (`delogo`), as `src/clean.mp4`. Or use `broll.py cut --delogo x,y,w,h`.
 - **Uploader watermarks:** crop them out (`--zoom 1.3 --y 0.15`). A blur over a name strip looks worse.
 - **Famous objects we have no photo of** (the note): make a recreation graphic labelled "recreation" on the picture (example: `assets/make_note.py`).
-- **Cards and graphics** stay ABOVE y=890, so the centred captions (y=960) never sit on light paper. Make them as full 9:16 JPGs and use them as `still` shots.
+- **No cards (owner, Oct 26: "cut cards completely, theyre a big distraction. if added, keep brief").** Show the fact on footage: the broadcast's own graphics, words over the play, a red circle. A card only when nothing else can carry the proof, 1.5 s at most (QA fails a longer one) and never in the first 4 s. (S01, 80% stayed, had 6 cards; the rule is the owner's call, not a soccer finding.)
+- **Cards and graphics** (when one is unavoidable) stay ABOVE y=890, so the centred captions (y=960) never sit on light paper. Make them as full 9:16 JPGs and use them as `still` shots.
 
 ### 6. Cut list -> `<folder>/cuts.json`, then `python Tools/cut_list.py --folder "<folder>"`
 - One shot per phrase, 40-50 shots a minute. Each shot gets an `anchor` (the first words of its phrase), a `kind` and a `why`.

@@ -464,3 +464,7 @@ Research Notes/Round 9 - Competitor Shorts Watched (Oct 5, 2026).md. Findings (n
   - FC: 87 subs; S03 is up to 14K; S04 and S06 are live; S05 and S07 not yet.
 - **The daily stats routine** (trig_01V8xJ1ZGJ5gbtAon8MCHPxy) is re-enabled.
 - `Tools/fc_track.py`: fixed the crash when yt-dlp returns null.
+- **Owner, Oct 26: "cut cards completely, theyre a big distraction. if added, keep brief."** Both channels:
+  - QA warns on any card, fails a card over 1.5 s, and fails a card in the first 4 s.
+  - Both skills say it at the top.
+  - **S07 v2** (today's noon slot) is re-cut with no cards; its excerpts were re-downloaded from archive.org. In this account's FC Hub (LFsQtwomdpLAshoz4Xw62H, doc `s07-leicester-5000-1`). S05 is next.
