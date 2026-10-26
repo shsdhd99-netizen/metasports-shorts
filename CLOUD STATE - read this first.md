@@ -449,3 +449,18 @@ Research Notes/Round 9 - Competitor Shorts Watched (Oct 5, 2026).md. Findings (n
 - **Hub (2UVAcbNpKq6j4YXBEF8ge3):** S04 and S07 cards now "ready" with both versions (1.5 Mbps copies); to-do t3 and t5 ticked. No posting slots set for S04/S07.
 - **Tools:** `word_edit.py` (new); `cloud_setup.sh` now installs opencv, faster-whisper and PyAV < 14 (QA's footage check and speech check need them).
 - **Still open:** S08 (needs a voice: add `ELEVENLABS_API_KEY` to the cloud environment's settings, or record on the PC). Nothing posted.
+
+## Oct 26 (old account, session_01XKMeYvLBVPKo24a5sLxa5C; this account has the ElevenLabs key)
+- **Owner:** "usage is back can you catchup?", then "can you see why nba short views are down? i think its editing and bad retention rules in general" and "skip the cuts for other apps, id rather be successful on yt first".
+- **TikTok/Instagram long cuts: PAUSED by the owner.** The S04/S05/S07 `long/` folders stay as they are. Their source clips were never committed, so restarting one means re-sourcing from archive.org.
+- **NBA diagnosis:** `Research Notes/Why NBA Views Dropped (Oct 26, 2026).md`.
+  - Our editing rules lined up with the misses: fast openings (3+ cuts in 3 s), cards, too many shots.
+  - QA (NBA profile) and the `cloud-short` SKILL are changed to match ("OCT 26 EDITING RULES").
+  - A music-bed A/B is waiting on the owner's yes or no.
+- **#69 Luka Just Did What Kobe Never Did** (Sun Oct 25 game; slot Mon Oct 26 11 AM ET): v2 calm cut (post this) and v1, both QA PASS.
+  - **Hub:** this account's NBA Hub is EZrk8n855PyYpMFnMnMJd4 (doc `s69-...`). The new account's Hubs (SAWcHwuAwBxJuyBQSs8a8U, 2UVAcbNpKq6j4YXBEF8ge3) can't be opened from here.
+- **Stats (Oct 26 02:21 UTC):**
+  - MetaSports: 579 subs; last-7 median 5.4K.
+  - FC: 87 subs; S03 is up to 14K; S04 and S06 are live; S05 and S07 not yet.
+- **The daily stats routine** (trig_01V8xJ1ZGJ5gbtAon8MCHPxy) is re-enabled.
+- `Tools/fc_track.py`: fixed the crash when yt-dlp returns null.

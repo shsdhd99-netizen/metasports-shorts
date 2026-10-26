@@ -30,13 +30,22 @@ FIRST read `CLOUD STATE - read this first.md` in the repo root (current status, 
 
 Before anything else, read `Research Notes/Lessons Learned (running log).md` and add to it whenever you learn something.
 
+## OCT 26 EDITING RULES (override anything older below; `Research Notes/Why NBA Views Dropped (Oct 26, 2026).md`, 37 posted Shorts)
+Only 13 of 40 new-era Shorts held the 74% "stayed to watch" that every 10K+ Short had. What separated them [V]:
+- **Hold the opening moment: 1-2 shots in the first 3 s** (2 or fewer: 75.0% stayed, 7.8K median; 3+: 67.5%, 3.1K).
+- **No cards.** Any card: 66.1% / 3.4K; none: 72.6% / 6.1K. A card in the first 4 s: 63.2% / 1.9K (QA now FAILS it). Proof goes ON the footage: words over the play (`overlay`), the broadcast's own scorebug, a red circle (`Tools/pointer.py`).
+- **Fewer, longer shots:** about 10-15 shots in 20-30 s (about 2 s each; a play may run 3-5 s). 15 or fewer: 75.0% / 6.1K; 16+: 66.4% / 3.1K.
+- **Stay on the moment the story is about.** Don't cut away to filler to reach a clip count (the 6-clip / 35% gates are now warnings for NBA).
+- Line 1 done by 3 s (71.1% vs 62.2%). Pace, word count and how many numbers are spoken showed no link.
+- Music bed: untested (every new-era NBA Short had none; all 5 old hits watched had one). Owner decides on an A/B.
+
 ## THE QUALITY FORMULA (mandatory, every Short; the user should never have to ask)
 A Short that is one talking head, text cards or repeated footage gets swiped (this happened to #15 v1). Build every Short to this recipe:
 1. **Story first, footage second.** Before writing, find 6+ different real clips (X posts, official reveal videos, archive.org). If a topic has under 6, find a fresher angle (e.g. #15 got better when the Heat x GTA night was found) or drop it.
-2. **Hook = a striking real image + a name/number line at 0.0 s**, 3+ cuts in the first 3 s, NO big headline text: the user removed the hook headline on Oct 4 2026 (captions only). `assemble.py` ignores `--hook-text` unless env ALLOW_HOOK_TEXT=1; do not use it.
-3. **Recipe per 23-30 s:** ~40% b-roll that shows the story (`kind: action`), <=45% talking head or quote (`face`/`quote`), <=25% cards, avg shot 1.4-1.9 s, no clip over 35%.
+2. **Hook = a striking real image + a name/number line at 0.0 s**, held: 1-2 shots in the first 3 s (Oct 26), NO big headline text: the user removed the hook headline on Oct 4 2026 (captions only). `assemble.py` ignores `--hook-text` unless env ALLOW_HOOK_TEXT=1; do not use it.
+3. **Recipe per 23-30 s:** ~40% b-roll that shows the story (`kind: action`), <=45% talking head or quote (`face`/`quote`), no cards (Oct 26), avg shot about 2 s (1.8-3.0).
 4. **Real quotes in short bursts** (<=4 s) cut in with `Tools/splice_voice.py` (real audio + our narration), never a long raw interview. Cut to b-roll on the narration between quotes.
-5. **Cards only for proof**, <=2 s, only if the card is visually rich (headline + image). Dull white-page cards get replaced with b-roll.
+5. **No cards (Oct 26).** Proof sits on the footage: words over the play, the scorebug, a red circle. A card only when no footage can carry the fact, never in the first 4 s.
 6. **Every shot in shots.json has `"kind": face|quote|action|card`.** Last shot reuses the first clip (loop). Ends on the PAYOFF that answers the first line (Oct 13: our question/CTA endings stayed under 3K; the debate question goes in the pinned comment).
 7. **Oct 13 gates (Playbook "Strict Short Formula", `Research Notes/Winning Formula v2`):** screen the premise first (one visible object + one paradox a non-fan gets in second 1; one measure per Short; never a bigger channel's story); no card in the first 4 s; every clip at least as long as its shot (`qa_short.py` now fails replays); render a red-circle twin with `Tools/pointer.py` for the frame-1 test; review with an independent agent using `Tools/critic_v2.md` (the old 0-100 craft score predicted views backwards).
 7. **Gate:** `python Tools/qa_short.py --folder "<folder>"` must print PASS before delivery. FIX lines mean go back and get more footage. Then look at storyboard.jpg and the first-3-seconds frames.
@@ -85,7 +94,7 @@ Pin shots to words: put `"anchor": "first words of the phrase"` on shots in shot
 ### The first 3 seconds decide everything (apply to every Short; viewers swipe in 1-3 s)
 - **The number, name or stakes is the FIRST word**, spoken and on screen at 0.0 s ("92% pay cut. LeBron James just took one..."). Never open on "So" / "Did you know" / a setup sentence.
 - **Frame 1 is already moving or already a face**: real action or a close face, never a title card, logo or a still. Punch in: put `"zoom": 0.12` on the first shot in shots.json (slow push 100% to 112%).
-- **A new image about every second until 5 s** (cut, push-in or card), then every 1.5-2.5 s. Hook shots are real footage of the named player/moment; save screenshot cards for the fact lines after 4 s.
+- **Hold the opening moment (Oct 26):** 1-2 shots in the first 3 s, then about one shot every 2 s; let a play run. A slow push-in keeps a held shot alive. Hook shots are real footage of the named player/moment; no cards.
 - **No sound in the first second.** Voice only. Do not put `boom` at 0.0. That vine-boom open was on almost every Short and Round 7 says the same effect habituates. `assemble.py` drops anything before 1.0 s, drops a repeated file, drops two effects closer than 1.5 s, and refuses a gain louder than `Tools/sfx/catalog.json`.
 - **Four effects when the pictures support them, never more than five, each one a different file.** Use the catalog gain. Never `falling`. Match the picture: `swish`/`rim`/`brick` only on a shot you can see, `whistle` on a whistle, `horn` on a buzzer, `dribble` on a dribble close-up, `whoosh` on a fast push-in, `whoosh_long` into the payoff, `boom_cinematic` once on the one reveal (not at 0), `boom` at most once on a stat (gain -18, after 1 s), `camera` on a presser or jersey, `click` only when a screenshot appears, `ding` once on one fact, `cha_ching` only on a salary graphic, `punch` on a hit you see, `ankle_breaker` only on a real crossover, `thud` on a fall. If the picture does not show it, leave it out.
 - Sports editors use a whoosh on a zoom and a swish on a made basket, and they take effects back out on the listen-through. Vine boom, record scratch and sad violin are the sounds people now skip. Those files are not in `Tools/sfx`. Do not add them.
@@ -109,7 +118,7 @@ Gives voice.mp3, words.json (word times) and captions.srt. All shot timing comes
    Find ids with `python Tools/broll.py search "<query>"`. Write `<folder>/clips_manifest.json` ([{"file","video","at","len","x"}]) and the user (or the PC) runs `python Tools/pc_cut.py --folder "<folder>"`.
 Quality bar: every shot matches its spoken line; check each player's identity frame by frame (preview frames are too small to prove a face: say "verify" in the plan).
 
-## 5. Evidence cards (any fact line)
+## 5. Evidence cards (last resort since Oct 26: put proof on the footage first; never in the first 4 s)
 `python Tools/card.py --url <article> --mark "<exact words>" --headline y0,y1 --byline y0,y1 --out "<folder>/clips/c01.mp4" --len 2.4`
 Red box timed to the word; cards sit above the caption band. ESPN pages are washed out by an overlay; card.py fixes it. Look at the card PNG before using it.
 Basketball-Reference: `--selector "#all_all_salaries"` style crops via `webshot.mjs`.

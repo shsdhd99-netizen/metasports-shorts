@@ -2,16 +2,9 @@
  {
   "clip": "A01.mp4",
   "kind": "face",
-  "why": "Luka close-up on the Lakers bench, hand up, LAKERS 77 (NBA on X, Oct 25 2026 highlights, 0:00)",
+  "why": "Luka close-up on the Lakers bench, hand up, LAKERS 77, held through line 1 (NBA on X, Oct 25 2026 highlights, 0:00)",
   "zoom": 0.05,
   "start": 0.0
- },
- {
-  "clip": "A02.mp4",
-  "kind": "face",
-  "why": "Kobe Bryant, Lakers at Wizards, Dec 3 2014 (Keith Allison, CC BY-SA 2.0, Wikimedia Commons)",
-  "anchor": "Kobe never",
-  "start": 1.38
  },
  {
   "clip": "A03.mp4",
@@ -21,9 +14,9 @@
   "start": 2.35
  },
  {
-  "clip": "A04.mp4",
+  "clip": "A02.mp4",
   "kind": "face",
-  "why": "Luka walking, DONCIC 77 on his back (NBA highlights 1:24)",
+  "why": "Kobe Bryant, Lakers at Wizards, Dec 3 2014 (Keith Allison, CC BY-SA 2.0, Wikimedia Commons), under 'No Laker had done that since 1963'",
   "anchor": "No Laker",
   "start": 4.78
  },
@@ -49,18 +42,11 @@
   "start": 8.33
  },
  {
-  "clip": "A08.mp4",
-  "kind": "face",
-  "why": "The Lakers bench on its feet late in the 2nd quarter (NBA highlights 1:05)",
-  "anchor": "Luka dragged",
-  "start": 9.91
- },
- {
   "clip": "A09.mp4",
   "kind": "action",
-  "why": "Luka's first of the back-to-back threes, 4th quarter, Lakers 121-119 on the bug before it (NBA highlights 2:43)",
-  "anchor": "then hit",
-  "start": 11.17
+  "why": "Luka's first of the back-to-back threes, 4th quarter, Lakers 121-119 on the bug before it; the whole play runs (NBA highlights 2:43)",
+  "anchor": "Luka dragged",
+  "start": 9.91
  },
  {
   "clip": "A10.mp4",
@@ -68,13 +54,6 @@
   "why": "The second three, Lakers up 124-121 before it, 1:45 left on the bug at 2:50 (NBA highlights 2:53)",
   "anchor": "8 threes",
   "start": 13.28
- },
- {
-  "clip": "A11.mp4",
-  "kind": "face",
-  "why": "Luka close-up between the two threes (NBA highlights 2:48)",
-  "anchor": "10 of 11",
-  "start": 13.96
  },
  {
   "clip": "A12.mp4",

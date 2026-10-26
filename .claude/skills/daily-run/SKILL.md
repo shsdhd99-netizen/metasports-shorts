@@ -64,11 +64,12 @@ Two runs a day (scheduled tasks "MetaSports NBA daily run" and "MetaSports FC da
 - Write today's research in `Research Notes/Daily Log.md`: the candidates, the pick and why, every source link.
 
 ## D. Make the Short (60-120 min)
-- **NBA:** `/cloud-short` in THE #42 FORMAT: 20-30 s, the Alex voice, no music, words over footage (`Tools/overlay.py`).
+- **NBA (Oct 26 editing rules, `Research Notes/Why NBA Views Dropped (Oct 26, 2026).md`):** hold the opening moment (1-2 shots in the first 3 s), about 2 s shots, no cards (proof on the footage). `/cloud-short` in THE #42 FORMAT: 20-30 s, the Alex voice, no music, words over footage (`Tools/overlay.py`).
   Footage: `Tools/nba_videos.py` (team sites on NBA.com), `Tools/x_clip.py` (official accounts on X), archive.org.
   Frame 1: sharp and lit, showing the claim: the moment itself or the star, whichever proves line 1 (#42 opened on the
   airball; #52's soft archive close-up kept 59%).
 - **FC:** `/story-short`, 55-59.5 s, the hook rules, both versions (music and no music), `"promise"` list in cuts.json.
+  **PAUSED (owner, Oct 26: "skip the cuts for other apps, id rather be successful on yt first"): no long cuts until the owner says so.** Was:
   **Plus the TikTok/Instagram long cut (Oct 25):** in `<folder>/long/`, the same script with one or two extra sourced beats,
   re-voiced whole, 65-80 s (never under 62 s: TikTok pays only over 1 minute), music version only, `qa_short.py --long --full`
   PASS, saved as `DRAFT - awaiting approval - SNN <title> (TikTok-IG long, music).mp4`. Card version label "TikTok-IG long".

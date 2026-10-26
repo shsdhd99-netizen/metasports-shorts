@@ -258,3 +258,17 @@ Tiers: [V] verified on our files or data, [S] supported by our numbers (small n)
 - **[V] White captions on light cards are unreadable.** Keep graphics above y=890 when the captions are centred at y=960.
 - **[V] Story-format QA profile:** `qa_short.py` uses 58-88 s and allows archive blow-up up to 6x (as a warning) for folders under `Soccer Channel/`. The NBA rules are unchanged.
 - **Soccer channel memory** lives in `Soccer Channel/` (START HERE, Playbook, Lessons Learned, Idea Bank, Outcome Log). The skill is `/story-short`.
+
+## Oct 26, 2026: why the NBA views dropped (owner: "i think its editing and bad retention rules")
+- **[V] It's us, not the niche.** Old era median 29K; new era 3.9K. Over the same months Ahmed's Basketball fell about 40%, not 90%, and our own new-era hits (#22, #03, #58, #48, #19) still got 21-32K. Full write-up: `Research Notes/Why NBA Views Dropped (Oct 26, 2026).md`.
+- **[V] The gate is "stayed to watch",** and only 13 of 40 new-era Shorts reached 74%.
+- **[V] Our own editing rules lined up with the misses** (37 posted Shorts with edit files):
+  - 3+ shots in the first 3 s: 67.5% stayed vs 75.0% for 2 or fewer.
+  - Any card: 66.1% vs 72.6% without.
+  - A card in the first 4 s: 63.2% vs 72.0%.
+  - 16+ shots: 66.4% vs 75.0% for 15 or fewer.
+  - Pace, word count and how many numbers are spoken showed no link.
+- **Changed:**
+  - QA, NBA profile: more than 2 shots in the first 3 s warns; a card in the first 4 s FAILS; card share over 10% warns; shots may run up to 6 s; the 6-clip and 35%-per-clip gates are warnings.
+  - `cloud-short` SKILL: the "OCT 26 EDITING RULES" box at the top.
+- **Lesson about rules:** several of these came from competitor averages or n=1, and became FAIL gates without our own data. A rule becomes a gate only after our own numbers back it.

@@ -27,6 +27,8 @@ title (Copy button), set "Not made for kids", add the pinned comment from the ca
 | Tue Oct 27 | the new NBA news Short | **S04** Players who got sent off in their very last game (music version) | |
 | Wed Oct 28 on | a new NBA Short every morning | a new soccer Short every day (S08 Hand of God shirt next) | |
 
+**TikTok and Instagram: PAUSED (owner, Oct 26: YouTube first). Nothing below applies until you restart it.**
+
 **TikTok and Instagram (from Oct 25; full research: `Research Notes/TikTok and Instagram Playbook (Oct 25, 2026).md`):**
 - **Post the same Short on TikTok and Instagram in the same sitting as YouTube**, from the same Hub card. One sitting a Short keeps
   it simple; after about 3 weeks we move the times to what each app's own analytics show.
