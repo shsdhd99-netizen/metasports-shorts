@@ -1,0 +1,72 @@
+[
+ {
+  "clip": "B01.mp4",
+  "kind": "face",
+  "why": "Chuck laughing close-up after the wrong answer (ESPNNBA on X, Oct 23 2026, 0:12), frame 1 is a face, held through line 1",
+  "zoom": 0.05,
+  "start": 0.0
+ },
+ {
+  "clip": "B02.mp4",
+  "kind": "action",
+  "why": "Wide Inside the NBA desk with the 'Who he play for?' graphic (0:00)",
+  "anchor": "On Inside",
+  "start": 2.73
+ },
+ {
+  "clip": "B03.mp4",
+  "kind": "action",
+  "why": "The game graphic: Chuck left, team logos cycling, the player's photo right (0:02-0:05)",
+  "anchor": "Who He",
+  "start": 4.4
+ },
+ {
+  "clip": "B04.mp4",
+  "kind": "face",
+  "why": "Chuck in the graphic frame while he answers 'the Chicago Bulls' (source audio 0:05.1)",
+  "anchor": "He said",
+  "start": 7.33
+ },
+ {
+  "clip": "B05.mp4",
+  "kind": "face",
+  "why": "Chuck laughing and covering his face once he realises (0:08-0:10)",
+  "anchor": "Wrong.",
+  "start": 8.77
+ },
+ {
+  "clip": "B06.mp4",
+  "kind": "face",
+  "why": "Two-shot of the desk as the co-hosts pile on (0:18)",
+  "anchor": "we gave",
+  "start": 10.46
+ },
+ {
+  "clip": "B07.mp4",
+  "kind": "face",
+  "why": "Ernie Johnson laughing into his hand (0:27)",
+  "anchor": "and he still",
+  "start": 11.45
+ },
+ {
+  "clip": "B08.mp4",
+  "kind": "action",
+  "why": "NBA Today panel, lower third 'Reaction to Charles Barkley doing Who he play for?' (0:33)",
+  "anchor": "Then ESPN's",
+  "start": 12.75
+ },
+ {
+  "clip": "B09.mp4",
+  "kind": "quote",
+  "why": "The NBA Today analyst who says the line we quote (0:37-0:40)",
+  "anchor": "Charles Barkley has",
+  "start": 14.91
+ },
+ {
+  "clip": "B10.mp4",
+  "kind": "face",
+  "why": "Chuck grinning, then covering his face (0:22-0:24); ends on Chuck to loop to frame 1",
+  "anchor": "Unfortunately",
+  "start": 18.14
+ }
+]
