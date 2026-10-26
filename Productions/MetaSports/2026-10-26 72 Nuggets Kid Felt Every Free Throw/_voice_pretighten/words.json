@@ -1,0 +1,327 @@
+[
+ {
+  "word": "This",
+  "start": 0.0,
+  "end": 0.209
+ },
+ {
+  "word": "kid",
+  "start": 0.29,
+  "end": 0.476
+ },
+ {
+  "word": "felt",
+  "start": 0.534,
+  "end": 0.697
+ },
+ {
+  "word": "every",
+  "start": 0.824,
+  "end": 1.115
+ },
+ {
+  "word": "second",
+  "start": 1.196,
+  "end": 1.521
+ },
+ {
+  "word": "of",
+  "start": 1.556,
+  "end": 1.602
+ },
+ {
+  "word": "Jamal",
+  "start": 1.649,
+  "end": 1.916
+ },
+ {
+  "word": "Murray's",
+  "start": 1.974,
+  "end": 2.241
+ },
+ {
+  "word": "free",
+  "start": 2.299,
+  "end": 2.496
+ },
+ {
+  "word": "throws.",
+  "start": 2.531,
+  "end": 3.007
+ },
+ {
+  "word": "Denver",
+  "start": 3.065,
+  "end": 3.332
+ },
+ {
+  "word": "had",
+  "start": 3.367,
+  "end": 3.437
+ },
+ {
+  "word": "been",
+  "start": 3.46,
+  "end": 3.564
+ },
+ {
+  "word": "down",
+  "start": 3.599,
+  "end": 3.773
+ },
+ {
+  "word": "23",
+  "start": 3.843,
+  "end": 4.284
+ },
+ {
+  "word": "to",
+  "start": 4.342,
+  "end": 4.389
+ },
+ {
+  "word": "the",
+  "start": 4.447,
+  "end": 4.516
+ },
+ {
+  "word": "Pelicans",
+  "start": 4.551,
+  "end": 4.911
+ },
+ {
+  "word": "at",
+  "start": 4.934,
+  "end": 4.992
+ },
+ {
+  "word": "home.",
+  "start": 5.039,
+  "end": 5.352
+ },
+ {
+  "word": "Now",
+  "start": 5.41,
+  "end": 5.584
+ },
+ {
+  "word": "Murray",
+  "start": 5.666,
+  "end": 5.909
+ },
+ {
+  "word": "was",
+  "start": 5.956,
+  "end": 6.037
+ },
+ {
+  "word": "at",
+  "start": 6.084,
+  "end": 6.177
+ },
+ {
+  "word": "the",
+  "start": 6.211,
+  "end": 6.281
+ },
+ {
+  "word": "line,",
+  "start": 6.339,
+  "end": 6.676
+ },
+ {
+  "word": "down",
+  "start": 6.734,
+  "end": 6.989
+ },
+ {
+  "word": "two,",
+  "start": 7.059,
+  "end": 7.384
+ },
+ {
+  "word": "with",
+  "start": 7.407,
+  "end": 7.535
+ },
+ {
+  "word": "16.8",
+  "start": 7.558,
+  "end": 8.394
+ },
+ {
+  "word": "seconds",
+  "start": 8.475,
+  "end": 8.789
+ },
+ {
+  "word": "left.",
+  "start": 8.87,
+  "end": 9.23
+ },
+ {
+  "word": "The",
+  "start": 9.253,
+  "end": 9.334
+ },
+ {
+  "word": "kid",
+  "start": 9.381,
+  "end": 9.567
+ },
+ {
+  "word": "prayed.",
+  "start": 9.636,
+  "end": 10.147
+ },
+ {
+  "word": "Covered",
+  "start": 10.17,
+  "end": 10.426
+ },
+ {
+  "word": "his",
+  "start": 10.449,
+  "end": 10.519
+ },
+ {
+  "word": "mouth.",
+  "start": 10.577,
+  "end": 10.855
+ },
+ {
+  "word": "First",
+  "start": 10.879,
+  "end": 11.076
+ },
+ {
+  "word": "free",
+  "start": 11.122,
+  "end": 11.273
+ },
+ {
+  "word": "throw,",
+  "start": 11.308,
+  "end": 11.622
+ },
+ {
+  "word": "good.",
+  "start": 11.68,
+  "end": 12.086
+ },
+ {
+  "word": "He",
+  "start": 12.109,
+  "end": 12.225
+ },
+ {
+  "word": "screamed.",
+  "start": 12.318,
+  "end": 12.922
+ },
+ {
+  "word": "Second",
+  "start": 12.945,
+  "end": 13.2
+ },
+ {
+  "word": "one,",
+  "start": 13.27,
+  "end": 13.502
+ },
+ {
+  "word": "good.",
+  "start": 13.595,
+  "end": 13.99
+ },
+ {
+  "word": "Tied",
+  "start": 14.013,
+  "end": 14.257
+ },
+ {
+  "word": "at",
+  "start": 14.292,
+  "end": 14.338
+ },
+ {
+  "word": "126.",
+  "start": 14.396,
+  "end": 15.209
+ },
+ {
+  "word": "He",
+  "start": 15.232,
+  "end": 15.279
+ },
+ {
+  "word": "looked",
+  "start": 15.337,
+  "end": 15.488
+ },
+ {
+  "word": "close",
+  "start": 15.511,
+  "end": 15.743
+ },
+ {
+  "word": "to",
+  "start": 15.766,
+  "end": 15.813
+ },
+ {
+  "word": "tears.",
+  "start": 15.871,
+  "end": 16.532
+ },
+ {
+  "word": "Denver",
+  "start": 16.766,
+  "end": 17.057
+ },
+ {
+  "word": "won",
+  "start": 17.103,
+  "end": 17.219
+ },
+ {
+  "word": "in",
+  "start": 17.266,
+  "end": 17.312
+ },
+ {
+  "word": "overtime,",
+  "start": 17.37,
+  "end": 18.032
+ },
+ {
+  "word": "141 to 135,",
+  "start": 18.101,
+  "end": 19.866
+ },
+ {
+  "word": "its",
+  "start": 19.936,
+  "end": 20.087
+ },
+ {
+  "word": "biggest",
+  "start": 20.156,
+  "end": 20.423
+ },
+ {
+  "word": "home",
+  "start": 20.458,
+  "end": 20.656
+ },
+ {
+  "word": "comeback",
+  "start": 20.69,
+  "end": 21.039
+ },
+ {
+  "word": "ever.",
+  "start": 21.132,
+  "end": 21.828
+ }
+]

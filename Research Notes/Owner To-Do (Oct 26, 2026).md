@@ -11,7 +11,9 @@ Already posted at about 12:45 AM: "Luka Just Did What Kobe Never Did" (NBA) and 
 
 ## Later
 - [ ] **Tue morning:** soccer, **"The England player who kept Maradona's Hand of God shirt"**, the no-music version.
-- [ ] **NBA:** fresh moment Shorts from last night's games (I'm building them now). After that, the 6:41 AM daily build.
+- [ ] **Tonight about 6 PM (or tomorrow 11 AM), NBA:** **"Haliburton Threw An Alley-Oop To Himself"**, the no-music version (NBA Hub).
+- [ ] **Tomorrow, 6+ h after Haliburton, NBA:** **"This Kid Felt Every Free Throw"** (Nuggets fan), the music version.
+- [ ] After that, the 6:41 AM daily build keeps the NBA Hub stocked.
 - [ ] **Up to 2 per channel per day**, at least 6 h apart, only when both are strong. Never 3.
 - [ ] **Skip:** "Paul George Broke A Celtics Record" and "LeBron Answers A Knicks Fan" (bigger channels already posted both). "WNBA Minimum Beats The Max" is filler only.
 - [ ] **Every morning about 7-8 AM:** check the notifications, open the Hubs, and post what you like.
