@@ -3,16 +3,17 @@
 Hubs: NBA https://claude.ai/artifact/EZrk8n855PyYpMFnMnMJd4 · FC https://claude.ai/artifact/LFsQtwomdpLAshoz4Xw62H
 
 ## Today (Mon Oct 26)
-- [ ] **Now:** post **#69 Luka**, the v2 calm cut (no music). Title "Luka Just Did What Kobe Never Did 😳". Empty description; 5-7 tags from the Hub.
-- [ ] **11 AM-12:30 PM (1 h+ after Luka):** post **S07 Leicester**, the v2 no-music version. Title "The team with worse odds than the Loch Ness monster".
-- [ ] **About 4 PM:** post **#70 Barkley**, the **music test version**. Title "Chuck Failed A Test With The Answers 😭".
-- [ ] Listen to #70's music version once before posting. If the bed bothers you, post the no-music one and tell me.
-- [ ] Tell me roughly when each one went up, so the tests log correctly.
-- [ ] **It's Monday:** export Studio > Content > Shorts (last 30 days) and drop the file in the chat or the repo. That's the only way to get "stayed to watch".
+Already posted at about 12:45 AM: **#69 Luka** (NBA) and **S07 Leicester** (FC). Both Hubs now mark every posted Short with its views.
+- [ ] **About 4 PM:** post **#70 Barkley**, the **music test version** (NBA Hub). It's the second NBA post today, 15 h after Luka, which is fine; it's a moment clip that ages.
+- [ ] Listen to #70's music version once first. If the bed bothers you, post the no-music one and tell me.
+- [ ] Tell me which S07 version you posted (music or no music), so the soccer music test is logged right.
+- [ ] No more soccer today. One a day, and S07 already went up.
+- [ ] **It's Monday:** export Studio > Content > Shorts (last 30 days) and send it to me. That's the only source of "stayed to watch".
 
 ## This week
-- [ ] **Tue 12:30 PM:** S05 Pickford, the music version (FC Hub).
+- [ ] **Tue 11 AM:** the NBA draft from the 6:41 AM build. **Tue 12:30 PM:** S05 Pickford, the music version (FC Hub).
 - [ ] **Wed 12:30 PM:** S08 Hand of God shirt, the no-music version (FC Hub).
+- [ ] **Old NBA drafts:** #59 WNBA minimum (news from Oct 20, probably stale) and #61/#65 (on hold). Post one only if you like it; otherwise I'll mark them skipped.
 - [ ] **Every morning about 7-8 AM:**
   - Check the push notifications from the research and build tasks.
   - Open the Hubs, watch the new drafts, and post the ones you like (NBA 11 AM, FC 12:30 PM).

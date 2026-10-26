@@ -492,7 +492,8 @@ Research Notes/Round 9 - Competitor Shorts Watched (Oct 5, 2026).md. Findings (n
   - **YES:** NBA music-bed A/B (posts alternate; #69 none, #70 music).
   - **YES:** daily auto-build of drafts.
   - **Gemini key:** 'will do later'.
+- **Posted:** #69 Luka and S07 Leicester, Mon Oct 26 at about 12:45 AM ET. Both Hubs mark every posted Short with ytId and views (refreshed Oct 26).
 - **Ready drafts:**
-  - NBA: #69 Luka v2 (post Mon AM), #70 Barkley (Mon ~4 PM, music version).
-  - FC: S07 v2 no-music (Mon), S05 v2 music (Tue), S08 Hand of God no-music (Wed 12:30 PM).
+  - NBA: #70 Barkley (Mon about 4 PM, music version). #59 is stale; #61 and #65 are on hold.
+  - FC: S05 v2 music (Tue), S08 no-music (Wed 12:30 PM).
 - **Owner to-do:** `Research Notes/Owner To-Do (Oct 26, 2026).md`.

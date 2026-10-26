@@ -19,3 +19,18 @@ Fill this in after each post: the prediction before posting, then the numbers at
 | S02 Players who got in TROUBLE the day before a derby | 1,800 |
 | S04 Players who got sent off in their very last game | 1,200 |
 S05 and S07 are not on the channel yet. Judge S04/S06 at 3+ days (S03 was at 1.4K on day 1).
+
+## Oct 26, 2026, 10:15 AM ET: posted check (public counts, RSS)
+| Short | Posted (ET) | Views now |
+|---|---|---|
+| S01 The goalkeeper who hid a cheat sheet in his sock | Wed Oct 21 9:27 PM | 30,174 |
+| S02 Players who got in TROUBLE the day before a derby | Thu Oct 22 8:52 AM | 1,808 |
+| S03 Goalkeepers who danced on the line to win a final | Fri Oct 23 12:52 PM | 14,937 |
+| S06 The player who scored 5 goals in 9 minutes | Sat Oct 24 9:49 AM | 2,011 |
+| S04 Players who got sent off in their very last game | Sun Oct 25 11:06 AM | 1,374 |
+| S07 The team with worse odds than the Loch Ness monster (v2, no cards; version not confirmed) | Mon Oct 26 12:45 AM | 1,265 (9 h) |
+
+- **Next:** S05 Pickford (Tue 12:30 PM, music version), then S08 Hand of God shirt (Wed 12:30 PM, no-music version).
+- **Pattern so far [S, n=6]:** the two goalkeeper stories (S01, S03) are 15-30x the rest.
+  - Both are one quirky object or moment (a note in a sock, a dance on the line).
+  - S05 is also a goalkeeper cheat-sheet story, so it's a direct test of that pattern.

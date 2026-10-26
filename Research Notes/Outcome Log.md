@@ -436,3 +436,23 @@ Public counts (`channel_check.py`), no API token in the cloud, no new Studio exp
 **Format test:** all 3 test posts are up. Studio (Oct 24): #48 83.3%, #64 72.6%, #52 59.1% stayed, so 1 of 3 reached 74%; by views #48 and #64 are the channel's two best of the week. The playbook already caps the format at 1 post in 3 (decay in posting order); nothing new to change.
 **Retention flags:** none readable without the API or a new export. **Monday reminder:** export Studio > Content > Shorts for both channels.
 **Lesson:** none new (n<3 per point).
+
+## Oct 26, 2026, 10:15 AM ET: posted check (public counts, RSS/yt-dlp)
+Posted since Oct 21 (time ET, views now; judge each at 72 h):
+| # | Title | Posted | Views |
+|---|---|---|---|
+| 64 | Wemby Just Had The Worst Night Of His Career 😳 | Wed Oct 21 11:50 AM | 10,795 |
+| 62 | Why LeBron Isn't A Knick 😳 | Wed Oct 21 7:59 PM | 4,307 |
+| 63 | All Three Williamses Got A Technical 😳 | Thu Oct 22 12:28 PM | 1,488 |
+| 52 | Who Has Lost The Most Games In NBA History? 😳 | Fri Oct 23 7:47 AM | 5,556 |
+| 66 | Why SGA Ended His Own NBA Record 😳 | Sat Oct 24 2:37 PM | 6,824 |
+| 60 | Caitlin Clark Did What No NBA Player Has 😳 | Sun Oct 25 11:04 AM | 2,510 |
+| 69 | Luka Just Did What Kobe Never Did 😳 (calm cut; music test: no-music side) | Mon Oct 26 12:47 AM | 1,212 (9 h) |
+
+- **Not posted (drafts):**
+  - #70 Barkley: ready; music version for the test.
+  - #59 WNBA minimum: ready, but the news is from Oct 20.
+  - #61 Paul George: hold.
+  - #65 LeBron answers a Knicks fan: hold.
+  - #68 Warriors 0-3: built, never on the Hub; the news is now stale.
+- **First data points under the Oct 26 rules:** #69 (calm cut, moment-adjacent news) and next #70 (moment lane, music). Read them at 72 h.
