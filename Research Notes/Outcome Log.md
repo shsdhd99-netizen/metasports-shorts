@@ -456,3 +456,22 @@ Posted since Oct 21 (time ET, views now; judge each at 72 h):
   - #65 LeBron answers a Knicks fan: hold.
   - #68 Warriors 0-3: built, never on the Hub; the news is now stale.
 - **First data points under the Oct 26 rules:** #69 (calm cut, moment-adjacent news) and next #70 (moment lane, music). Read them at 72 h.
+
+## Mon Oct 26, 2026 (evening, 23:08 UTC): daily check (scheduled, read-only)
+Public counts (`channel_check.py`, yt-dlp). No API token in the cloud (the owner's one-time Analytics sign-in is still pending; phone steps were given in chat Oct 26), and no new Studio export since Oct 24. The RSS feed returned 404 tonight, so there are no exact upload times.
+- **124 Shorts listed, 581 subscribers.** Median of the last 7: **3,400** (normal before that: 5,250). Trend: DOWN. Part of the drop is that two of the 7 are under a day old.
+
+| Short | Views | #42 FORMAT? | Note |
+|---|---|---|---|
+| Why SGA Ended His Own NBA Record | 7,300 | record variant | best of the 7 |
+| Who Has Lost The Most Games In NBA History? | 5,500 | **yes** (format post 3) | |
+| Why LeBron Isn't A Knick | 4,300 | no | |
+| Caitlin Clark Did What No NBA Player Has | 2,500 | no | |
+| All Three Williamses Got A Technical | 1,400 | no | |
+| Chuck Failed A Test With The Answers | 1,200 | no (moment lane) | posted today; music side of the music test; judge at 72 h |
+| Luka Just Did What Kobe Never Did | 1,200 | no | about 22 h old; no-music side; flat since 9 h (1,212) |
+
+**Format test:** unchanged and closed. 1 of 3 test posts reached 74%+ stayed (Studio, Oct 24), so it was not proven. Since Oct 26 it is one lane among several.
+**Retention flags:** none readable without the API or a new export.
+**Monday reminder:** export Studio > Content > Shorts (30 s) for both channels to get the exact "stayed to watch".
+**Lesson:** none (n=1 per side of the music test; a Short can still jump after day 1, as #48 did).
