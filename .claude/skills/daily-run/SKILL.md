@@ -122,7 +122,7 @@ Two runs a day (scheduled tasks "MetaSports NBA daily run" and "MetaSports FC da
   status `ready`, slot, slotLabel, versions [{label, assetId, note}], titles, tags, postNote). Read a card before writing it and
   pin every write with `if_version`.
 - **Card text for TikTok and Instagram: PAUSED** with cross-posting (owner, Oct 26). Leave the `tiktok` and `instagram` fields empty.
-- Slots follow `UPLOAD SCHEDULE.md` (Oct 26 overnight review): one Short per channel per day. NBA at 11:00 AM ET (today's news
+- Slots follow `UPLOAD SCHEDULE.md` (Oct 26 overnight review): up to 2 per channel per day (Oct 26; the 2nd only when as strong). NBA at 11:00 AM ET (today's news
   Short takes today), soccer at 12:00 PM ET (the next free day), at least 1 hour after the NBA slot. A second NBA slot (6 PM) only
   for a Short as strong as the first, 6+ hours later; never 3. Keep at least 2 days of ready Shorts per channel; mark an unposted
   news Short older than a day `skip`. Never re-slot or re-upload a posted Short; judge it at 72 h.

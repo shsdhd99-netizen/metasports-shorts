@@ -17,7 +17,7 @@ title (Copy button), set "Not made for kids", add the pinned comment from the ca
 - (Oct 26 overnight review) [V] YouTube Help: "tags play a minimal role"; Posting Study answers 4-6.
 
 **Strict rules:**
-1. **One Short per channel per day** (Oct 26 overnight review). A second NBA Short only when it's as strong, at least 6 hours after the first. Never 3 in a day. One soccer Short a day. [S] Posting Study §1d.
+1. **Up to 2 Shorts per channel per day (owner asked, Oct 26: 'is 1 short per day optimal?').** Post the 2nd only if it's as strong as the 1st, at least 6 h later; never 3. On our 2-post days, each post did as well as on 1-post days (4.1K vs 4.2K median), and the 2nd post did no worse. [S] Posting Study §1d. Limits: quality, and voice credits (about 2 Shorts a day total on the current ElevenLabs plan).
 2. News goes up the morning after the game. A news Short that misses its day is skipped, not posted late (#63, a day late: 58% stayed vs 75-80% same day).
 3. At least 6 hours between two posts on the same channel (Oct 26 overnight review; was 4). The two channels at least 1 hour apart.
 4. 24 hours after posting, type the numbers into the card's Results box (views, "Stayed to watch" %). **Judge the Short at 72 hours, not the next morning** (Oct 26 overnight review): #48 had 25 views on day 0 and 14.6K on day 2. [V] Posting Study §1g.

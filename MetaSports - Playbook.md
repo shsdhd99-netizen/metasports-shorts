@@ -41,7 +41,7 @@ Rules marked "(FC too)" also apply to soccer. The full soccer rules are in `Socc
 **Removed (Oct 26 overnight review). Don't use them anywhere:** "3+ cuts in the first 3 s", "a new image every second", "average shot 1.4-1.9 s", "no shot over 3 s", "evidence cards for any fact line", "6+ source clips", "at most 35% from one clip".
 
 ### 3. Posting and the package (Oct 26 overnight review; the daily plan is `UPLOAD SCHEDULE.md`)
-- **One Short per channel per day.** A second NBA Short only if it's as strong, and 6+ hours after the first. Never 3. [S] Posting Study §1d.
+- **Up to 2 Shorts per channel per day (owner asked, Oct 26: 'is 1 short per day optimal?').** Post the 2nd only if it's as strong as the 1st, at least 6 h later; never 3. On our 2-post days, each post did as well as on 1-post days (4.1K vs 4.2K median), and the 2nd post did no worse. [S] Posting Study §1d. Limits: quality, and voice credits (about 2 Shorts a day total on the current ElevenLabs plan).
 - **Times:** NBA 11 AM ET, FC 12 PM ET. Post time matters little; a steady slot matters more. Keep the two channels at least 1 hour apart: if NBA moves to 11:30, FC goes at 12:30 PM or later. [S] Posting Study answers 1 and 3 (the 1 h gap is [H]).
 - **News** goes up the morning after the game. [V YouTube] Posting Study §3.
 - **Judge a Short at 72 hours:** stayed % first, then views. Never at the next morning's check. [V] Posting Study §1g (#48: 25 views on day 0, then 14.6K on day 2).
@@ -90,7 +90,7 @@ Changes to how we work:
 - **[V] Money and contract stories are the weakest NBA theme there too:** Ahmed's Basketball median 93K vs 159K overall. That is now two independent sources (ours and his), so keep contract stories only with a rule, a number gap or a funny detail as the hook.
 - **[V] Cadence:**
   - Ahmed's steady state is about 2 a day per channel. When they pushed to about 3 a day (Jul-Sep 2026), medians fell and they pulled back.
-  - **Ours (Oct 26 overnight review):** one Short per channel per day. A second NBA Short only when it's as strong, 6+ hours later. Never 3. [S] Posting Study §1d.
+  - **Ours (Oct 26):** up to 2 per channel per day. The 2nd only when it's as strong, 6+ hours later. Never 3. [S] Posting Study §1d.
 - **[V] Series titles:** a title that works is reused for a new story ("Episode 2...12" on 126 of his Basketball titles). When a #42-format Short beats the channel median, its accusation title can become a series with a new star. HYPOTHESIS for us: log it in the Outcome Log when tried.
 - **[V] Holding the first picture works for them:** the first picture holds about 2.5 s under a title card (0-1 cuts in 3 s), at 159K median. This backs holding the opening moment (THE RULES §2 at the top).
 - **[V] They run a quiet music bed** about 20 dB under the voice. This is evidence for the open music A/B; the owner's Oct 14 call (no bed by default for MetaSports) still stands.
@@ -343,7 +343,7 @@ Changes to how we work:
 ### 7. Experiments (FROZEN Oct 14 night: one test at a time. Only #1 is running; the rest are parked or house style. See the Outcome Log, "formula freeze")
 1. **Red ring in frame 1:** #40 (ring) vs #41 (plain), then 2 more pairs.
 2. **No card before 4 s:** every build follows it; compare at n≥6.
-3. **Posting rate:** decided (Oct 26 overnight review): one Short per channel per day; a second NBA Short only when as strong and 6+ h later [S] Posting Study §1d.
+3. **Posting rate:** decided Oct 26: up to 2 per channel per day; the 2nd only when as strong and 6+ h later [S] Posting Study §1d.
 4. **A premise pill on frame 1:** 3 pairs, needs the owner's OK (it breaks the no-headline rule) [B12].
 5. **Format 2 with a 0.5-1 s cold open.**
 6. **The prediction check:** score vs 48 h views at 10 posts [D1].
@@ -466,7 +466,7 @@ That argument in the comments is what spreads the Short.
 
 ## The recipe (what every MetaSports Short looks like now)
 
-**Length:** stories 22–40 seconds (about 90–170 words); quick moments 15–25 seconds. CoachClank's 31–45s Shorts have the best median, and his 8 biggest 2026 Shorts ran 22–34s (Research Notes/Round 3 - Deeper Findings.md). **Posting (Oct 26 overnight review):** one Short a day at 11 AM ET; a second (6 PM) only when it's as strong; never 3. Full rules: THE RULES §3 at the top and `UPLOAD SCHEDULE.md`. Never two Shorts from the same game on one day; re-run `copy_check.py` the morning of posting; log the go-live time on each Hub card.
+**Length:** stories 22–40 seconds (about 90–170 words); quick moments 15–25 seconds. CoachClank's 31–45s Shorts have the best median, and his 8 biggest 2026 Shorts ran 22–34s (Research Notes/Round 3 - Deeper Findings.md). **Posting (Oct 26):** 11 AM ET, plus a 2nd at about 6 PM when it's as strong; never 3. Full rules: THE RULES §3 at the top and `UPLOAD SCHEDULE.md`. Never two Shorts from the same game on one day; re-run `copy_check.py` the morning of posting; log the go-live time on each Hub card.
 
 **Voice:**
 - One AI voice, fast (~250 words/min).

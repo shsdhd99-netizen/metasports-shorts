@@ -3,22 +3,19 @@
 Hubs: NBA https://claude.ai/artifact/EZrk8n855PyYpMFnMnMJd4 · FC https://claude.ai/artifact/LFsQtwomdpLAshoz4Xw62H
 
 ## Today (Mon Oct 26)
-Already posted at about 12:45 AM: **#69 Luka** (NBA) and **S07 Leicester** (FC). Both Hubs now mark every posted Short with its views.
-- [ ] **About 4 PM:** post **#70 Barkley**, the **music test version** (NBA Hub). It's the second NBA post today, 15 h after Luka, which is fine; it's a moment clip that ages.
-- [ ] Listen to #70's music version once first. If the bed bothers you, post the no-music one and tell me.
-- [ ] Tell me which S07 version you posted (music or no music), so the soccer music test is logged right.
-- [ ] No more soccer today. One a day, and S07 already went up.
-- [ ] **It's Monday:** export Studio > Content > Shorts (last 30 days) and send it to me. That's the only source of "stayed to watch".
+Already posted at about 12:45 AM: "Luka Just Did What Kobe Never Did" (NBA) and "The team with worse odds than the Loch Ness monster" (soccer).
+- [ ] **This morning (now):** NBA, **"Chuck Failed A Test With The Answers"**, the music version.
+- [ ] **This morning (now):** soccer, **"Goalkeepers who hid a cheat sheet on their water bottle"** (Pickford), the music version.
+- [ ] Tell me which Loch Ness version you posted (music or no music).
+- [ ] **It's Monday:** export Studio > Content > Shorts (last 30 days) and send it to me.
 
-## This week
-- [ ] **Tue 11 AM:** the NBA draft from the 6:41 AM build. **Tue 12:30 PM:** S05 Pickford, the music version (FC Hub).
-- [ ] **Wed 12:30 PM:** S08 Hand of God shirt, the no-music version (FC Hub).
-- [ ] **Old NBA drafts:** #59 WNBA minimum (news from Oct 20, probably stale) and #61/#65 (on hold). Post one only if you like it; otherwise I'll mark them skipped.
-- [ ] **Every morning about 7-8 AM:**
-  - Check the push notifications from the research and build tasks.
-  - Open the Hubs, watch the new drafts, and post the ones you like (NBA 11 AM, FC 12:30 PM).
-- [ ] **Judge each Short at 72 hours**, not on day 1. Never re-upload one.
-- [ ] Optional: send a screenshot of Studio > Analytics > Audience (top countries + "when your viewers are on YouTube") for each channel.
+## Later
+- [ ] **Tue morning:** soccer, **"The England player who kept Maradona's Hand of God shirt"**, the no-music version.
+- [ ] **NBA:** fresh moment Shorts from last night's games (I'm building them now). After that, the 6:41 AM daily build.
+- [ ] **Up to 2 per channel per day**, at least 6 h apart, only when both are strong. Never 3.
+- [ ] **Skip:** "Paul George Broke A Celtics Record" and "LeBron Answers A Knicks Fan" (bigger channels already posted both). "WNBA Minimum Beats The Max" is filler only.
+- [ ] **Every morning about 7-8 AM:** check the notifications, open the Hubs, and post what you like.
+- [ ] **Judge each Short at 72 hours.** Never re-upload one.
 
 ## One-time setup (when you have 10 minutes)
 - [ ] **Free Gemini key** (you said later). Make it at aistudio.google.com/apikey. Add it in the cloud environment settings (session title bar > environment > Edit) as `GEMINI_API_KEY`. Never paste it in chat. It lets me watch and hear competitor Shorts and our own drafts.

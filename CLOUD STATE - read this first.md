@@ -34,7 +34,7 @@ The full rules: THE RULES at the top of `MetaSports - Playbook.md` (NBA, plus th
 - **NBA lanes:** moments you can watch are about half; the other half rotates the star paradox (THE #42 FORMAT, one lane now), same-day news (or none) and a weekly countdown test. Each moment needs one fact the clip can't show. Review the split after 10 moment posts.
 - **Editing:** footage first (frame 1 + one proof clip per beat, any number of sources, no filler). Frame 1 shows what line 1 is about, happening; line 1 is 11 words or fewer. Shot 1 at least 2.0 s; at most 2 shots in 3 s and 3 in 5 s; about 10-15 shots of about 2 s. Replay the key second once before the payoff (`"replay": true`). Crop wide plays to 3:4 (`--blurfit-aspect 0.75`). Proof on the footage, no emoji stickers, no forced loop: end on the payoff.
 - **Soccer:** ends under 59.5 s (about 230-250 words; cut, never add). Music bed vs none is an open A/B test: render both.
-- **Posting:** one Short per channel per day (a second NBA one only if as strong, 6+ h later, never 3). NBA 11 AM ET, FC 12 PM ET, at least 1 h apart. News the morning after the game. Judge at 72 h; never re-upload.
+- **Posting:** up to 2 per channel per day (the 2nd only if as strong, 6+ h later, never 3; owner asked Oct 26). NBA 11 AM ET, FC 12 PM ET, at least 1 h apart. News the morning after the game. Judge at 72 h; never re-upload.
 - **Package:** a short statement title (wording is a small factor; no title scoring), 0-1 hashtag, empty description, tags optional (3-8, about 100-150 chars; never fill 500), one cover.
 - **Critic:** Script Critic v3 is advice, not a gate; only factual-accuracy checks block.
 - **Research tools:** `Tools/yt_watch.py` (needs a free `GEMINI_API_KEY` in the environment settings) and `Research Notes/Competitor Watchlist.csv`.
@@ -497,3 +497,5 @@ Research Notes/Round 9 - Competitor Shorts Watched (Oct 5, 2026).md. Findings (n
   - NBA: #70 Barkley (Mon about 4 PM, music version). #59 is stale; #61 and #65 are on hold.
   - FC: S05 v2 music (Tue), S08 no-music (Wed 12:30 PM).
 - **Owner to-do:** `Research Notes/Owner To-Do (Oct 26, 2026).md`.
+
+- **Owner, Oct 26:** "refer to the title in a short manner instead of numbered shorts". In chat, name Shorts by a short title ("Chuck Failed A Test", "Hand Of God Shirt"), never by #NN or S0N. Folder numbers stay for files only.
