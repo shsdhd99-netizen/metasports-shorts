@@ -83,10 +83,15 @@ Overnight run, about 12:50 AM to 9 AM ET. Usage ran out from about 4:20 to 8:40 
   - `Competitor Watchlist.csv`.
 - **S08 Hand of God shirt:** voice recorded (52.9 s). Footage found and cut from the full 1986 broadcast (archive.org), with a shot plan for all 24 shots.
 
-## 8. Not finished (usage ran out)
-- **S08 render**: next up; it's for Wednesday.
-- **Rule fixes in the skills and playbook**: an agent is finishing them now.
-- **The overnight NBA moment scout** didn't run. Tomorrow's 5:43 AM research task covers it.
+## 8. Finished after 9 AM (usage had run out 4:20-8:40 AM ET)
+- **S08 Hand of God shirt:** built (52.8 s, music and no-music versions), full QA PASS, on the FC Hub for **Wed 12:30 PM ET**.
+  - Frame 1 is the handball.
+  - The plays are framed 3:4, and the handball is replayed at 0.5x under the £7.1M.
+  - No cards.
+- **Rule fixes applied** to the Playbook, START HERE, UPLOAD SCHEDULE, every skill and the Library specs. Change log: `Research Notes/Rule Changes Applied (Oct 26, 2026).md`.
+- **QA:** new warnings for 4+ shots in the first 5 s and a first shot under 2 s. Clip-count gates are now warnings. Replays marked `"replay": true` pass the footage check.
+- **Tags tool:** `tags_fit.py` now caps tags at 150 characters.
+- **Still not done:** the overnight NBA moment scout. Tomorrow's 5:43 AM research task covers it.
 
 ## 9. Decisions for you
 1. Add the free Gemini key? (Strongly recommended.)
