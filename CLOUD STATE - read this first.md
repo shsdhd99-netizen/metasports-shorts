@@ -1,6 +1,6 @@
 # CLOUD STATE (single source of truth for any agent or new chat; update as you go)
 Last updated: 2026-10-14 (newest section at the bottom). Branch: `main-329h3w` (draft PR #1). The user posts the videos; NEVER upload/publish or open YouTube Studio.
-**Owner, Oct 19 (standing until they say otherwise):** "you are able to run from my pc now, you do not need to look for cloud solutions." Prefer the PC when the session runs there. Lead with THE #42 FORMAT (what works), other formats allowed (`Library/THE 42 FORMAT.md`). When the owner is away from the PC, source footage in the cloud yourself.
+**Owner, Oct 19 (standing until they say otherwise):** "you are able to run from my pc now, you do not need to look for cloud solutions." Prefer the PC when the session runs there. (Oct 26 overnight review: THE #42 FORMAT is one lane among several, not the lead; moments are about half of NBA Shorts. See House rules and `Research Notes/Rule Changes Applied (Oct 26, 2026).md`.) When the owner is away from the PC, source footage in the cloud yourself.
 
 ## Oct 24, 2026: the automatic routine (read this first)
 - **Two scheduled tasks** make one Short per channel per day (owner: "4 shorts every 2 days"): "MetaSports NBA daily run"

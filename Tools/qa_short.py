@@ -8,7 +8,7 @@ Rules (from the retention research; each has burned a Short before):
   HOOK   first word on screen/spoken by 0.4 s; the first spoken word is not filler; >=3 different shots in the first 3 s;
          >=1 'action' shot (real footage of the story) in the first 3 s; the hook has a number/name/stakes.
   PACE   no shot longer than 3.0 s (quotes 4.0 s); average shot <= 1.9 s.
-  VISUAL <=35% of runtime on any single source clip; >=6 distinct source clips; <=45% of runtime talking head ('face'+'quote');
+  VISUAL (warnings since Oct 26) <=35% of runtime on any single source clip; >=6 distinct source clips; <=45% of runtime talking head ('face'+'quote');
          >=35% 'action' (b-roll that shows the story); cards <=25%; no 2 identical neighbours (same clip + same in-point).
   AUDIO  loudness -14 +-1.5 LUFS; no silence over 0.6 s inside the voice.
   LENGTH 18-35 s. Last shot repeats the first clip (loop).
@@ -93,6 +93,11 @@ def main():
         soft(len(in3) <= 3, f"{len(in3)} shots in first 3 s (title card holds)", f"{len(in3)} shots in first 3 s (story format holds the first picture ~2.5 s under the title)")
     else:  # Oct 26: 2 or fewer shots in the first 3 s held 75.0% stayed vs 67.5% for 3+ (n=7 vs 30) [V]
         soft(len(in3) <= 2, f"{len(in3)} shots in first 3 s (the opening moment holds)", f"{len(in3)} shots in first 3 s: hold the opening moment (2 or fewer held 75.0% stayed vs 67.5%)")
+    # Oct 26 overnight (Research Notes/Retention and Editing Upgrade): <=3 shots in the first 5 s held 78.4% stayed vs 66.5% (n=10 vs 27) [V];
+    # shot 1 of 2.0 s+ held 77.6% vs 68.4% (n=6, [S]). Warnings, both channels.
+    in5 = [s for s, st, e, d in segs if st < 5.0]
+    soft(len(in5) <= 3, f"{len(in5)} shots in first 5 s", f"{len(in5)} shots in the first 5 s: hold the opening moment (3 or fewer held 78.4% stayed vs 66.5%)")
+    soft(segs[0][3] >= 2.0, f"shot 1 holds {segs[0][3]:.1f} s", f"shot 1 is only {segs[0][3]:.1f} s (2.0 s+ held 77.6% vs 68.4%, n=6)")
     chk(any(s.get("kind") == "action" for s in in3), "real action footage in first 3 s", "no 'action' footage in the first 3 s (a talking head or card hook gets swiped)")
     if story:  # Oct 24 2026 (Research Notes/Why S02 and S03 Underperformed): S01 (80% stayed) said its title object again at 19 s;
         # S03 (65%) only at 46 s, after 11 other names in its first 15 s. Guidelines, not gates (n=3).
@@ -127,7 +132,7 @@ def main():
     for s, _, _, d in segs:
         by[s["clip"]] = by.get(s["clip"], 0) + d
     top = max(by.items(), key=lambda x: x[1])
-    gate = chk if story else soft  # Oct 26: NBA warnings only (they pushed cutaways from the one moment)
+    gate = soft  # Oct 26 overnight review: warnings on both channels ("footage first: never cut away to filler to reach a clip count")
     gate(top[1] / total <= 0.35, f"most-used clip {top[0]} {top[1]/total:.0%}", f"{top[0]} fills {top[1]/total:.0%} of the video (want <=35%): add more footage")
     gate(len(by) >= 6, f"{len(by)} source clips", f"only {len(by)} source clips (want >=6)")
     face = (kinds["face"] + kinds["quote"]) / total
