@@ -30,6 +30,11 @@ FIRST read `CLOUD STATE - read this first.md` in the repo root (current status, 
 
 Before anything else, read `Research Notes/Lessons Learned (running log).md` and add to it whenever you learn something.
 
+## OCT 26 LANE PRIORITY (`Research Notes/Channel Study - Swishyyy (Oct 26, 2026).md`, owner's pick: 203 Shorts)
+- **About 2 of every 3 NBA Shorts: one moment you can watch** (last night's funny/odd/skilful game, warm-up, bench, fan, mascot or kid moment; or a viral creator/streetball clip with an NBA name). Swishyyy: moments median 48K (newest: 78K) and all 18 of its 1M+ hits; explainers/history/stats 36K and zero 1M+. Our old-era hits were the same kind of topic.
+- **The clip carries it:** open on the moment, show every angle the source has (live, replay, reverse), narrate who/why/what happened next. Stat and record paradoxes drop to about 1 in 3, household-name stars only.
+- Titles: a short statement pointing at the moment ("He Pretended To Be Klay Thompson"). Copy-check against Swishyyy's titles (`Research Notes/Swishyyy Shorts (Oct 26, 2026).csv`) too.
+
 ## OCT 26 EDITING RULES (override anything older below; `Research Notes/Why NBA Views Dropped (Oct 26, 2026).md`, 37 posted Shorts)
 Only 13 of 40 new-era Shorts held the 74% "stayed to watch" that every 10K+ Short had. What separated them [V]:
 - **Hold the opening moment: 1-2 shots in the first 3 s** (2 or fewer: 75.0% stayed, 7.8K median; 3+: 67.5%, 3.1K).

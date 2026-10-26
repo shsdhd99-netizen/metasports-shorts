@@ -54,6 +54,7 @@ Two runs a day (scheduled tasks "MetaSports NBA daily run" and "MetaSports FC da
   1 post in 3 (check the dataset's last 6 posts on this channel); a lane with 3 posts in a row below the channel median is retired
   until the Sunday review. A strong concept that got under 74% stayed may get ONE new edit (new first 3 s and frame 1, new title),
   never the same file again.
+- **NBA (Oct 26 lane priority, `Research Notes/Channel Study - Swishyyy (Oct 26, 2026).md`):** first look for last night's **visible moment** (funny, odd, skilful, trolling, fan/mascot/kid; on X from NBA, teams, House of Highlights, ClutchPoints). Use a record/stat story only when no strong moment exists and the star is a household name (about 1 in 3).
 - **NBA:** last night's games: records, career highs and lows, milestones, viral moments (NBA.com, ESPN, AP, team and league
   accounts on X). Pick the story that fits THE #42 FORMAT (`Library/THE 42 FORMAT.md`: a famous star, a record that sounds bad
   or impossible, "So is he...? No.", end on the number) or a same-day number-gap story (#58, 75% stayed).

@@ -272,3 +272,9 @@ Tiers: [V] verified on our files or data, [S] supported by our numbers (small n)
   - QA, NBA profile: more than 2 shots in the first 3 s warns; a card in the first 4 s FAILS; card share over 10% warns; shots may run up to 6 s; the 6-clip and 35%-per-clip gates are warnings.
   - `cloud-short` SKILL: the "OCT 26 EDITING RULES" box at the top.
 - **Lesson about rules:** several of these came from competitor averages or n=1, and became FAIL gates without our own data. A rule becomes a gate only after our own numbers back it.
+
+## Oct 26, 2026: Swishyyy (@swishyhoopz), the owner's pick
+- **[V]** 203 Shorts, 21.3K subs, median 41K.
+- **[V] Moments you can watch beat explainers.** Moments: median 48K overall and 78K in the newest 101, with all 18 of the 1M+ hits. Explainers, history and stats: 36K and 44K, with zero 1M+.
+- **[V]** Their weakest Shorts are history and stat narratives, which is our new-era lane. Several of their topics are the same as our old-era hits.
+- **Changed:** both skills now put "one moment you can watch" first (about 2 in 3 NBA Shorts). Write-up: `Research Notes/Channel Study - Swishyyy (Oct 26, 2026).md`.
