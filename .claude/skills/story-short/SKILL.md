@@ -1,10 +1,10 @@
 ---
 name: story-short
 description: >
-  Make a 60-80 s story Short in the format of Ahmed's Goal / Ahmed's Basketball / Ahmeds Business (the network with 1.3B views):
+  Make a story Short under 60 s (it must end before 59.5 s) in the format of Ahmed's Goal / Ahmed's Basketball / Ahmeds Business (the network with 1.3B views):
   the title read aloud as line 1, "Back in [year], [famous name]...", a turn every 8-12 s, a hard-number or ironic payoff, and nothing
   after it (no teaser, no follow ask). A new picture every 1.1-2.1 s (real footage, stock for abstract lines), centred TikTok Sans
-  captions and a quiet music bed. Built for the soccer channel (MetaSports FC) but niche-agnostic (NBA, business). Covers research
+  captions, and a music-bed version plus a no-music version (an open A/B test). Built for the soccer channel (MetaSports FC) but niche-agnostic (NBA, business). Covers research
   with sources, script, ElevenLabs voice, footage (archive.org, Mixkit, screenshots), cut list, render, QA and the upload package.
   Use when the user types /story-short, asks for a soccer/football Short, a "story Short", or "a Short like Ahmed's".
   Argument: a topic, an Idea Bank number (S03...), or a number of Shorts to make.
@@ -19,6 +19,9 @@ The owner is non-technical and often on a phone, so keep chat short and plain.
 - Never print, commit or ask for API keys. Load ElevenLabs from the environment or a key file inside the same bash command.
 - Never invent a stat. Every number gets a source and its exact wording in notes.md. Keep qualifiers ("reportedly", "is said to").
 - Copy what works: "do not try new things, stick with what works". Copy Ahmed's shape, never his wording or his specific stories.
+
+**Oct 26 overnight review:** THE RULES at the top of `MetaSports - Playbook.md` (the rules marked "FC too") and `Soccer Channel/Playbook.md`
+win over this file. Every change: `Research Notes/Rule Changes Applied (Oct 26, 2026).md`.
 
 Read first (they win over this file when newer):
 - `Soccer Channel/START HERE.md`, `Soccer Channel/Lessons Learned.md` and `Soccer Channel/Idea Bank.md`.
@@ -44,7 +47,11 @@ Read first (they win over this file when newer):
 - **Before choosing:**
   - copy-check with `python Tools/copy_check.py "<4-6 words>"`;
   - grep Ahmed's titles: `Research Notes/Ahmed Network Data (Oct 21, 2026)/AhmedsGoal_shorts.csv`.
-- **The footage test:** do not start a story unless real footage of the named person exists. Check archive.org first (SOURCING.md).
+- **The footage test (footage first, Oct 26 overnight review):** do not start a story until frame 1 (the promise happening) and a
+  proof clip for each beat exist, from any number of sources. Check archive.org first (SOURCING.md). Never add filler to reach a clip count.
+- **Research tools (Oct 26 overnight review):** `Research Notes/Competitor Watchlist.csv` lists the soccer channels we watch (Ahmed's Goal,
+  the elimination-game channels). `python Tools/yt_watch.py <link>` has Gemini watch a Short and writes a report to
+  `Research Notes/Watch Reports/`; it needs a free `GEMINI_API_KEY` in the environment settings, never in chat. Tier its numbers [S].
 
 ### 2. Research with sources (15 min)
 - Read the sources themselves:
@@ -56,7 +63,9 @@ Read first (they win over this file when newer):
 - **When sources disagree** on who did what: word the line so it is true under both, and note it.
 
 ### 3. Script (10 min) -> `<folder>/script.txt`
-- 260-290 words. After step 4b that runs about 60-68 s (S01: 253 words = 59.5 s; S02: 280 words = 63 s).
+- **About 230-250 words. After step 4b it must end under 59.5 s** (Oct 26 overnight review; S01: 253 words ran 59.5 s; S02: 280 words ran 63 s).
+  YouTube shows a 59.5 s file as 1:00, and a Short over 1 minute with a claim can be blocked [V official]. Cut a sentence; never add one.
+- **Line 1 (the title) is 11 words or fewer** (Oct 26 overnight review; [V] NBA data, `Research Notes/Retention and Editing Upgrade (Oct 26, 2026).md` §1b).
 - Beats are in SCRIPT.md:
   1. title as line 1;
   2. "Back in..." (optional: Ahmed now opens with it in 1 of 30 October scripts; get into the story at once);
@@ -85,7 +94,7 @@ Read first (they win over this file when newer):
 - **Repair, don't re-record (Oct 24):** a failed take with 1-2 located word issues is fixed by `Tools/retake_sentence.py`
   (~5-10% of a full take's credits): voice_take.py now does it by itself before paying for a new take. By hand:
   `python Tools/retake_sentence.py --folder F --at <issue time>` (or `--sentence N`), then `voice_check.py --stt whisper`.
-- Output: voice.mp3, words.json, captions.srt. If the length is under 58 s, add a verified beat and re-voice.
+- Output: voice.mp3, words.json, captions.srt. If it runs 59.5 s or more after step 4b, cut a sentence and re-cut the audio (`tighten_voice.py --end-after` or `retake_sentence.py`); never add one (Oct 26 overnight review).
 
 ### 4b. Take out the dead air (owner, Oct 22: "make sure videos have no unnecessary pauses")
 - `python Tools/tighten_voice.py --folder F` cuts every silence over 0.09 s down to 0.06 s (measured on the audio, not on the
@@ -108,36 +117,42 @@ How to work:
 - **TV channel logos:** re-encode the used section once, with the borders cropped and the logo blurred (`delogo`), as `src/clean.mp4`. Or use `broll.py cut --delogo x,y,w,h`.
 - **Uploader watermarks:** crop them out (`--zoom 1.3 --y 0.15`). A blur over a name strip looks worse.
 - **Famous objects we have no photo of** (the note): make a recreation graphic labelled "recreation" on the picture (example: `assets/make_note.py`).
-- **No cards (owner, Oct 26: "cut cards completely, theyre a big distraction. if added, keep brief").** Show the fact on footage: the broadcast's own graphics, words over the play, a red circle. A card only when nothing else can carry the proof, 1.5 s at most (QA fails a longer one) and never in the first 4 s. (S01, 80% stayed, had 6 cards; the rule is the owner's call, not a soccer finding.)
+- **No cards (owner, Oct 26: "cut cards completely, theyre a big distraction. if added, keep brief").** Show the fact on footage: the broadcast's own graphics, words over the play (`"overlay"`), a red circle. A card only when nothing else can carry the proof, 1.5 s at most (QA fails a longer one) and never in the first 4 s. (S01, 80% stayed, had 6 cards; the rule is the owner's call, not a soccer finding.) **No emoji stickers** (Oct 26 overnight review).
 - **Cards and graphics** (when one is unavoidable) stay ABOVE y=890, so the centred captions (y=960) never sit on light paper. Make them as full 9:16 JPGs and use them as `still` shots.
 
 ### 6. Cut list -> `<folder>/cuts.json`, then `python Tools/cut_list.py --folder "<folder>"`
 - One shot per phrase, 40-50 shots a minute. Each shot gets an `anchor` (the first words of its phrase), a `kind` and a `why`.
-- **First shot:** holds about 2 s under the title card. It must SHOW the promise happening: the object or the act in the
+- **First shot:** holds at least 2.0 s under the title card, and at most 2 shots start in the first 3 s (Oct 26 overnight review). It must SHOW the promise happening: the object or the act in the
   title (S01: the hand going into the sock). A face only when the title is about the face. Sharp and lit from the very first
   frame: no fade, wipe or someone passing the camera (S04's first 0.25 s was dark; QA now fails that), no channel logo, no scan lines.
 - **Name a person, show the person.** Abstract lines get literal stock (a clock for "1 a.m.", euros for "one million euros").
-- **Framing:**
-  - wide shots: `"blurfit": true`;
+- **Framing (Oct 26 overnight review: fill the frame):**
+  - wide plays: `"blurfit": true, "blurfit_aspect": 0.75` (a 3:4 window placed by `x`, so the players stay big). Never a full-width 16:9 strip over blur for a play;
+  - graphics or text that must be read whole: plain `"blurfit": true` (full width);
   - faces and action: a full-frame crop with an `x` position.
+- **Replay the key moment once, before the payoff,** when the footage has it: the same `src`/`at`, closer (`"zoom"`) and/or `"speed": 0.5`, marked `"replay": true` (`cut_list.py` passes it into shots.json; QA then allows the repeat). (Oct 26 overnight review) [S].
 - **Check the work:** the tool cuts everything, pins shots to words, warns on short clips, fills sources.csv and draws `_check/sheet.jpg`. LOOK at the sheet. Check framing, that the named person is on screen, and that no logo or burned-in text shows.
 - **Verify:** fix, re-run, then run `--verified` once you have looked at every tile.
 
 ### 7. Sound, then render
 - **`sfx.json`:** 3-5 effects from `Tools/sfx/catalog.json`, only where the picture shows the sound. Each one is a different file, none before 1.0 s, at least 1.5 s apart.
 - **`music.json`:** `{"track": "Library/Music/eleven_story_01.mp3", "start": 0.0, "bed_lu": -20, "gap_lift": 2, "fade_out": 1.0}`. This is the Ahmed-style bed, about 20 dB under the voice.
+- **Music bed vs none is an open A/B test** (Oct 26 overnight review) [H]: render both, and log in UPLOAD.md and the Hub card which one the owner posted.
 - **Render both versions:**
   - `python Tools/assemble.py --folder F --caption-style ahmed --no-music --out-name final_nomusic.mp4`
   - `python Tools/assemble.py --folder F --caption-style ahmed --out-name final_music.mp4`
 
 ### 8. QA (must PASS) -> `python Tools/qa_short.py --folder F --video F/final_music.mp4 --full`
-- Folders under `Soccer Channel/` use the story profile automatically: length 58-88 s, the title card may hold, archive blow-up up to 6x as a warning.
-- Then look at frames at 0.5, 2.4, 8, 18, 22, 39, 47, 58 and 64 s, side by side. Check the title card, the captions on every card, and the payoff picture.
+- Folders under `Soccer Channel/` use the story profile automatically: length FAIL outside 50-59.9 s and a warning over 59.5 s, the title card may hold, archive blow-up up to 6x as a warning.
+- Then look at frames at 0.5, 2.4, 8, 18, 22, 39, 47, 55 and 58 s, side by side. Check the title card, the captions on every card, and the payoff picture.
 
 ### 9. Package and hand off
 - **`notes.md`:** lane, concept in 8 words, added value, copy-check, and a table of every line with its source and exact quote. Then the footage list (licence, what each clip is), and illustrative-shot warnings.
-- **`UPLOAD.md`:** title (= line 1; plural or singular makes no difference on Ahmed's data once the era is accounted for);
-  no description; 3 alternative titles; post order (one soccer Short a day); which version.
+- **`UPLOAD.md` (Oct 26 overnight review; [V] `Research Notes/Posting Study (Oct 26, 2026).md`):** title (= line 1, a short statement;
+  plural or singular makes no difference; title wording is a small factor, so no title scoring); no hashtag or one (#football);
+  description empty; tags optional: 3-8 relevant tags, about 100-150 characters (names, club, event, misspellings), checked with
+  `python Tools/tags_fit.py --cap 150 "..."`, never the full 500; 3 alternative titles; post order (one soccer Short a day, 12 PM ET,
+  at least 1 hour after the NBA post); which version (music or no music).
 - **The draft files:** copy both renders as `DRAFT - awaiting approval - S<NN> <title> (music).mp4` and `(no music).mp4`.
 - **Update** `Soccer Channel/START HERE.md`, `Lessons Learned.md` and `Idea Bank.md`.
 - **Commit and push** (media is git-ignored except the DRAFT files). Report to the owner in 5-8 short lines. Never post.

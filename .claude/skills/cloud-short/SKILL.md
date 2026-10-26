@@ -3,8 +3,8 @@ name: cloud-short
 description: >
   The whole MetaSports Short pipeline, built to run in a cloud session (Linux) from nothing to an upload-ready file:
   research fresh NBA stories with real sources, write a retention-optimised script, voice it, find and download clips (X, archive.org,
-  YouTube preview frames), build screenshot evidence cards, render the cut with captions and sound effects, and write the upload
-  package (SEO title, description, pinned comment, covers). Use when the user types /cloud-short, or asks to make a Short, "do the
+  YouTube preview frames), put the proof on the footage (words over the play, a circle on the scorebug), render the cut with
+  captions and sound effects, and write the upload package (short title, optional tags, pinned comment, one cover). Use when the user types /cloud-short, or asks to make a Short, "do the
   whole process", or "make N Shorts" in the cloud. Argument: a topic, or a number of Shorts to find topics for.
 ---
 
@@ -16,11 +16,12 @@ If a site is blocked (403 from the proxy), tell the user to set the environment'
 
 ## 0. Setup (once per session): `bash Tools/cloud_setup.sh`
 Installs python packages, makes Chromium trust the proxy certificate, copies the voice id. Checks the four sites. Then read
-`MetaSports - Playbook.md`, `Tools/data/title_patterns.md`, `Research Notes/Round 3 - Deeper Findings.md` (they win over this file).
+THE RULES at the top of `MetaSports - Playbook.md` (Oct 26 overnight review; they win over this file) and
+`Research Notes/Rule Changes Applied (Oct 26, 2026).md`.
 
 ## What the data says (Round 4, `Research Notes/Round 4 - Cloud Research (Oct 3, 2026).md`; read it)
-- Best lane: **rules, bans, 'caught'/referee stories and one-second oddities** (REBOUND's rule/ban Shorts median 7.7M vs 775K overall). Contracts/trades are flat; use them only with a rule, a number gap or a funny detail as the hook.
-- Titles 5-7 words, one emoji at the end. Avoid 🤔 (worst in the data); prefer 😳 💀 😭. Start with Why/How/What/Did/Is or "He ...".
+- Lanes: see the OCT 26 LANES section below (it replaces Round 4's "rules and bans first"). Contracts/trades are flat; use them only with a rule, a number gap or a funny detail as the hook.
+- Titles: see section 7 (Oct 26 overnight review: a short statement; title wording is a small factor; no title scoring).
 - Every Short must add original value (research, an opinion line, verified numbers), never a repeated template: YouTube's inauthentic-content policy.
 - Optional visual flag: `--auto-zoom 0.06`. NO `--hook-text` headline (user removed it Oct 4 2026): the first 3 seconds are carried by the real image + the spoken/captioned hook line.
 
@@ -30,39 +31,49 @@ FIRST read `CLOUD STATE - read this first.md` in the repo root (current status, 
 
 Before anything else, read `Research Notes/Lessons Learned (running log).md` and add to it whenever you learn something.
 
-## OCT 26 LANE PRIORITY (`Research Notes/Channel Study - Swishyyy (Oct 26, 2026).md`, owner's pick: 203 Shorts)
-- **About 2 of every 3 NBA Shorts: one moment you can watch** (last night's funny/odd/skilful game, warm-up, bench, fan, mascot or kid moment; or a viral creator/streetball clip with an NBA name). Swishyyy: moments median 48K (newest: 78K) and all 18 of its 1M+ hits; explainers/history/stats 36K and zero 1M+. Our old-era hits were the same kind of topic.
-- **The clip carries it:** open on the moment, show every angle the source has (live, replay, reverse), narrate who/why/what happened next. Stat and record paradoxes drop to about 1 in 3, household-name stars only.
-- Titles: a short statement pointing at the moment ("He Pretended To Be Klay Thompson"). Copy-check against Swishyyy's titles (`Research Notes/Swishyyy Shorts (Oct 26, 2026).csv`) too.
+## OCT 26 LANES (Oct 26 overnight review; THE RULES §1 in the Playbook)
+- **Moments: about half of NBA Shorts.** A funny, odd or skilful thing you can watch: game, bench, warm-up, fan, kid, mascot, broadcast desk. Narrate who, what, and the reaction or payoff. [S] `Research Notes/Similar Channels (Oct 26, 2026).md` §4; Swishyyy's moments get about 1.8x its explainers. Ours is untested.
+- **Each moment needs one fact the clip can't show** (who, why, a number). [V official] YouTube cuts reach for narration that only describes the screen (`Research Notes/Shorts Mechanics and Policy (Oct 24, 2026).md` finding 3).
+- **The other half rotates:** the star paradox (THE #42 FORMAT, one lane now, not the lead: its test ended 1 of 3 at 74%+ [V]); same-day news (or not at all; it goes up the morning after the game); and a **weekly countdown test**, "3 times [star] did X", with a visible #3 / #2 / #1 corner badge (`Tools/overlay.py` `"x": "left"` and `"box": "0xFDB927"`) and the best one last [H].
+- **Review the split after 10 moment posts** (stayed % and 72 h views vs the channel median).
+- Footage from the league, teams and broadcasters. Never another creator's edit or a reel as the base.
+- Copy-check against Swishyyy's titles too (`Research Notes/Swishyyy Shorts (Oct 26, 2026).csv`).
 
-## OCT 26 EDITING RULES (override anything older below; `Research Notes/Why NBA Views Dropped (Oct 26, 2026).md`, 37 posted Shorts)
-Only 13 of 40 new-era Shorts held the 74% "stayed to watch" that every 10K+ Short had. What separated them [V]:
-- **Hold the opening moment: 1-2 shots in the first 3 s** (2 or fewer: 75.0% stayed, 7.8K median; 3+: 67.5%, 3.1K).
-- **No cards (owner, Oct 26: "cut cards completely, theyre a big distraction. if added, keep brief").** A card only when nothing else can show the fact, 1.5 s at most (QA fails a longer one). Any card: 66.1% / 3.4K; none: 72.6% / 6.1K. A card in the first 4 s: 63.2% / 1.9K (QA now FAILS it). Proof goes ON the footage: words over the play (`overlay`), the broadcast's own scorebug, a red circle (`Tools/pointer.py`).
-- **Fewer, longer shots:** about 10-15 shots in 20-30 s (about 2 s each; a play may run 3-5 s). 15 or fewer: 75.0% / 6.1K; 16+: 66.4% / 3.1K.
-- **Stay on the moment the story is about.** Don't cut away to filler to reach a clip count (the 6-clip / 35% gates are now warnings for NBA).
-- Line 1 done by 3 s (71.1% vs 62.2%). Pace, word count and how many numbers are spoken showed no link.
-- Music bed: untested (every new-era NBA Short had none; all 5 old hits watched had one). Owner decides on an A/B.
+## OCT 26 EDITING RULES (Oct 26 overnight review; they override anything older below)
+Sources: `Research Notes/Retention and Editing Upgrade (Oct 26, 2026).md` (RET) and `Research Notes/Why NBA Views Dropped (Oct 26, 2026).md` (WHY), 37 posted NBA Shorts. Only 13 of 40 new-era Shorts held the 74% "stayed to watch" that every 10K+ Short had.
+1. **Footage first.** Before writing, secure frame 1 and one clip that proves each beat, from any number of sources. Never cut away to filler to reach a clip count. [S] WHY §3.
+2. **Frame 1 shows the thing line 1 is about, happening.** Sharp and lit; a face or an action, whichever proves line 1. [S] RET §2b.
+3. **Line 1 is 11 words or fewer**, done by about 3 s. 11 or fewer: 72.6% stayed vs 62.2% [V] RET §1b.
+4. **Hold the opening moment.** Shot 1 at least 2.0 s. At most 2 shots in the first 3 s and at most 3 in the first 5 s. No cut inside line 1. 3 or fewer in 5 s: 78.4% vs 66.5% (p=0.002) [V] RET §1b.
+5. **About 10-15 shots of about 2 s;** a play may run 3-5 s. 15 or fewer: 75.0% / 6.1K vs 66.4% / 3.1K [V] WHY §2.
+6. **Replay the key second once, before the payoff:** closer and/or at 0.5x. In `cuts_plan.json` give the replay shot the same `src`/`at` with `"speed": 0.5` and/or `"zoom": 1.3` (or `"shot_zoom"`), plus `"replay": true`; `cut_list.py` passes `"replay": true` into shots.json, so QA doesn't warn about the repeat. [S] RET §4 change 2; untested for us.
+7. **Fill the frame.** Crop wide plays to about 3:4: `broll.py cut ... --blurfit --blurfit-aspect 0.75 --x <pos>` (cuts plan: `"blurfit": true, "blurfit_aspect": 0.75`). Never a full-width 16:9 strip over blur for a play. Full-width blur-fit only for a graphic or text that must be read whole. [S] RET §2b: 0 of 55 winners used a full-width strip.
+8. **Proof on the footage, never on a card.** Words over the play (`overlay` in the cuts plan, `Tools/overlay.py`), the broadcast's own scorebug, a red circle (`broll.py circle`, `Tools/pointer.py`). Owner, Oct 26: "cut cards completely". A card only when nothing else can show the fact: 1.5 s at most, never in the first 4 s (QA FAILs both). Any card: 66.1% vs none 72.6% [V] WHY §2.
+9. **No emoji stickers.** [S] RET §2b.
+10. **No forced loop.** End on the payoff. Loop into frame 1 only when that image is the payoff. [S] RET §1b.
+- Pace, word count and how many numbers are spoken showed no link [V] WHY §2.
+- Music bed: untested (every new-era NBA Short had none). The owner decides on an A/B.
+- **Removed (Oct 26 overnight review):** "3+ cuts in the first 3 s", "a new image every second", "avg shot 1.4-1.9 s", "no shot over 3 s", "evidence cards for any fact line", "6+ source clips / at most 35% per clip".
 
 ## THE QUALITY FORMULA (mandatory, every Short; the user should never have to ask)
 A Short that is one talking head, text cards or repeated footage gets swiped (this happened to #15 v1). Build every Short to this recipe:
-1. **Story first, footage second.** Before writing, find 6+ different real clips (X posts, official reveal videos, archive.org). If a topic has under 6, find a fresher angle (e.g. #15 got better when the Heat x GTA night was found) or drop it.
-2. **Hook = a striking real image + a name/number line at 0.0 s**, held: 1-2 shots in the first 3 s (Oct 26), NO big headline text: the user removed the hook headline on Oct 4 2026 (captions only). `assemble.py` ignores `--hook-text` unless env ALLOW_HOOK_TEXT=1; do not use it.
+1. **Footage first (Oct 26 overnight review).** Before writing, secure frame 1 and one clip that proves each beat, from any number of sources (X posts, official reveal videos, team sites, archive.org). No frame 1, no script: change the angle or park it. Never cut away to filler to reach a clip count.
+2. **Hook = frame 1 showing what line 1 is about, happening, plus line 1 of 11 words or fewer** (Oct 26 overnight review). Shot 1 holds at least 2.0 s; at most 2 shots in the first 3 s and 3 in the first 5 s. NO big headline text: the user removed the hook headline on Oct 4 2026 (captions only). `assemble.py` ignores `--hook-text` unless env ALLOW_HOOK_TEXT=1; do not use it.
 3. **Recipe per 23-30 s:** ~40% b-roll that shows the story (`kind: action`), <=45% talking head or quote (`face`/`quote`), no cards (Oct 26), avg shot about 2 s (1.8-3.0).
 4. **Real quotes in short bursts** (<=4 s) cut in with `Tools/splice_voice.py` (real audio + our narration), never a long raw interview. Cut to b-roll on the narration between quotes.
 5. **No cards (Oct 26).** Proof sits on the footage: words over the play, the scorebug, a red circle. A card only when no footage can carry the fact, never in the first 4 s.
-6. **Every shot in shots.json has `"kind": face|quote|action|card`.** Last shot reuses the first clip (loop). Ends on the PAYOFF that answers the first line (Oct 13: our question/CTA endings stayed under 3K; the debate question goes in the pinned comment).
-7. **Oct 13 gates (Playbook "Strict Short Formula", `Research Notes/Winning Formula v2`):** screen the premise first (one visible object + one paradox a non-fan gets in second 1; one measure per Short; never a bigger channel's story); no card in the first 4 s; every clip at least as long as its shot (`qa_short.py` now fails replays); render a red-circle twin with `Tools/pointer.py` for the frame-1 test; review with an independent agent using `Tools/critic_v2.md` (the old 0-100 craft score predicted views backwards).
+6. **Every shot in shots.json has `"kind": face|quote|action|card`.** Ends on the PAYOFF image that answers the first line. No forced loop: loop into frame 1 only when that image is the payoff; never add a shot just to loop (Oct 26 overnight review). The debate question goes in the pinned comment (Oct 13: our question/CTA endings stayed under 3K).
+7. **Oct 13 gates (Playbook "Strict Short Formula", `Research Notes/Winning Formula v2`):** screen the premise first (one visible object + one idea a non-fan gets in second 1; never a bigger channel's story); no card in the first 4 s; every clip at least as long as its shot (`qa_short.py` fails a clip that runs short; a deliberate replay is a separate shot marked `"replay": true`); review the export with an independent agent using `Tools/critic_v2.md`. Script critics are advice, not gates: the old 0-100 craft score predicted views backwards, and Script Critic v3 blocks only on factual accuracy (Oct 26 overnight review).
 7. **Gate:** `python Tools/qa_short.py --folder "<folder>"` must print PASS before delivery. FIX lines mean go back and get more footage. Then look at storyboard.jpg and the first-3-seconds frames.
-Order: research -> find 6+ clips -> script around the clips -> voice (`voiceover.py` per piece, `splice_voice.py` for quotes) -> shots.json with kinds -> assemble -> qa_short PASS -> package.
+Order: research -> frame 1 + a proof clip per beat -> script -> voice (`voiceover.py` per piece, `splice_voice.py` for quotes) -> shots.json with kinds -> assemble -> qa_short PASS -> package.
 
 ### Evidence-backed rules from Round 5 (`Research Notes/Round 5 - Competitor Formulas (Oct 4, 2026).md`; evidence tier in brackets)
-- **[Oct 24, `Research Notes/What Makes Our Shorts Go Viral (Oct 24, 2026).md`] Lanes, rotated (at most 1 post in 3 per lane; retire a lane after 3 posts in a row below the channel median; templates decay: Korzemba 23M to 8K, REBOUND 42M to 184K, our #42 format 86.9 > 83.3 > 72.6 > 59.1% stayed):** (1) **one clip, one oddity**: frame 1 is the visible moment, line 1 points at it, it must look strange with the sound off (CoachClank: median 419K, 34% at 1M+); (2) **household-name star + one-line paradox** (THE #42 FORMAT, #22 Six, the Wemby vote); (3) **same-day news with a number gap** about a household name; (4) **evergreen superstar history/nostalgia** (Rebound Rewind evergreen 245K vs news 133.5K). **Rules: visible rule-breaking only** (caught/banned/illegal: 1.42x the channel norm, n=79, 13 channels); **no paperwork rules** (bets, schedules, votes, stat credit: our weakest lane, 2.0K median, n=6) unless a superstar and a hard paradox carry it. Old lane rule ("rule/ban 2.5x, n=26") is outdated.
+- **Lanes: the OCT 26 LANES section above replaces the Oct 24 "1 post in 3 per lane" split** (Oct 26 overnight review: moments about half; the star paradox, same-day news and a weekly countdown rotate). Still true: retire a lane after 3 posts in a row below the channel median; templates decay (Korzemba 23M to 8K, REBOUND 42M to 184K, our #42 format 86.9 > 83.3 > 72.6 > 59.1% stayed); evergreen superstar history is a fallback when no moment or news exists (Rebound Rewind evergreen 245K vs news 133.5K). **Rules: visible rule-breaking only** (caught/banned/illegal: 1.42x the channel norm, n=79, 13 channels); **no paperwork rules** (bets, schedules, votes, stat credit: our weakest lane, 2.0K median, n=6) unless a superstar and a hard paradox carry it. Old lane rule ("rule/ban 2.5x, n=26") is outdated.
 - [PROVEN] Write the concept in 8 words or fewer; a stranger must get it in one second. Put `Lane:`, `Concept:` and `Added value:` (opinion line or verified number) in notes.md with a source URL per number (inauthentic-content policy).
-- [PROVEN] Story length 21+ s (CoachClank: 21 s+ got 848K vs 291K for 20 s or less). Frame 0 must be a face or moving action (the Shorts feed shows no thumbnails; do not over-invest in covers).
-- [SUPPORTED] Speech 240-290 wpm; end on the payoff with no "subscribe/follow/like" outro; last word ends 0.15-0.4 s before the end and the last line echoes the first (loop); a turn word (But/Until/Now) in the first 40%.
+- [PROVEN] Story length 21+ s (CoachClank: 21 s+ got 848K vs 291K for 20 s or less). Frame 1 shows what line 1 is about, happening (Oct 26 overnight review; the feed shows no thumbnails, so do not over-invest in covers).
+- [SUPPORTED] Speech 240-290 wpm; end on the payoff with no "subscribe/follow/like" outro; last word ends 0.15-0.4 s before the end; a turn word (But/Until/Now) in the first 40%. (The "last line echoes the first (loop)" rule was removed in the Oct 26 overnight review: no forced loop.)
 - [SUPPORTED] Captions: sentence case, 64 px+, centred 45-62% of height, 3-4 words, none on screen over 1.7 s. The winners (Clank, Ahmed's, REBOUND) do this; our ALL CAPS red/green is the user's house style, so test `--caption-style karaoke` against it, do not switch everything.
-- [HYPOTHESIS, A/B first] Title opening on an action/claim word (Why/How/He/Did) instead of a name (Clank name-first 237K vs 494K, n=20); average shot 1.9 vs 2.8 s (no evidence that faster is better; Clank's biggest cut every 2-4.7 s); one accent colour; search keyword in the first 15 words; named series.
+- [HYPOTHESIS, A/B first] One accent colour; search keyword in the first 15 words; named series. (Title-wording tests and the 1.9 vs 2.8 s average-shot test were closed in the Oct 26 overnight review: title wording is a small factor [V] `Research Notes/Similar Channels (Oct 26, 2026).md` §1; about 2 s shots held better [V] WHY §2.)
 - Tools/qa_short.py now fails on hard gates and prints `warn` lines for the SUPPORTED/HYPOTHESIS items. Treat warns as things to fix when cheap and to log in the A/B table.
 - Every rule we add must carry its evidence tier and a source; if evidence is missing, call it HYPOTHESIS and put it on the A/B list.
 
@@ -75,37 +86,41 @@ Order: research -> find 6+ clips -> script around the clips -> voice (`voiceover
 - Critic verdicts: `Research Notes/Critique Round 1 - Verdicts.md` (one Short per story family per week; check the shot under every spoken name; notes.md with claim -> exact source; quotes at -16 LUFS; pad 0.3 s tail).
 
 ## STORY STANDARD (user, Oct 4: every story must have high retention and a real payoff; modelled on the Wembanyama Short that got 79.5% stayed / 100.3% avg viewed)
-Shape (22-30 s, 90-120 words at 230-270 wpm): 1) tension hook in the first 8 words (a universal rule, a surprising number or a conflict; never a flat recap) -> 2) the turn ("Until X", "But") -> 3) escalation: at least two beats where the stakes or the weirdness go UP ("But that's not even the crazy part") -> 4) the PAYOFF: the reveal/list/number the hook promised -> 5) END ON THE PAYOFF line (a closing question only if the payoff already landed; the last frame loops to the first).
-Scorecard to run before delivery (a critic helper does this per Short; see `Research Notes/Critique Round 2*`): hook tension, promise vs delivery, turn in the first 40%, 2+ escalation beats, payoff clear, ends on payoff, no padding (every sentence adds a new fact), longest stretch without a new fact or image <= 3-4 s, footage matches every spoken name/number, claims sourced.
+Shape (22-30 s, 90-120 words at 230-270 wpm): 1) tension hook, line 1 of 11 words or fewer (a universal rule, a surprising number or a conflict; never a flat recap) -> 2) the turn ("Until X", "But") -> 3) escalation: at least two beats where the stakes or the weirdness go UP ("But that's not even the crazy part") -> 4) the PAYOFF: the reveal/list/number the hook promised, with the key second replayed just before it -> 5) END ON THE PAYOFF line. No closing question, no forced loop (Oct 26 overnight review).
+Scorecard (advice, not a gate since the Oct 26 overnight review; only the fact checks block; see `Research Notes/Critique Round 2*`): hook tension, promise vs delivery, turn in the first 40%, 2+ escalation beats, payoff clear, ends on payoff, no padding (every sentence adds a new fact), longest stretch without a new fact or image <= 3-4 s, footage matches every spoken name/number, claims sourced.
 Pin shots to words: put `"anchor": "first words of the phrase"` on shots in shots.json and run `python Tools/anchor_shots.py --folder <folder>`; it sets every start from words.json and prints a table of the words spoken under each shot (check that a named person is on screen while the name is spoken). After a script rewrite re-run it instead of hand-retiming.
 
 ## 1. Research (this is where views come from; do real research, never invent)
 - `python Tools/fresh_moments.py` for what is hot. Use WebSearch for the last 7 days: "NBA <player/team> <week>", media day, training camp,
   rule changes, contracts, records. Prefer stories with a number, a rule, a petty detail or a "that would not be allowed now" angle.
+- **Research tools (Oct 26 overnight review):** `python Tools/yt_watch.py <link or id>` has Gemini watch a Short (a competitor's, or our
+  own draft) and writes a scene-by-scene report to `Research Notes/Watch Reports/` (`--channel @handle --top 5` for a channel's best).
+  It needs a free `GEMINI_API_KEY` in the environment settings; never ask for it in chat. Tier its numbers [S]. The channels we watch
+  are in `Research Notes/Competitor Watchlist.csv` (the daily research task reads it).
 - **Read the source itself**, not the snippet: ESPN/NBA.com/local papers open with `curl -sL -A "Mozilla/5.0" <url>` then strip tags (WebFetch and the
   Parallel tool are often blocked or rate-limited). For X posts, `curl "https://cdn.syndication.twimg.com/tweet-result?id=<id>&token=a"` returns the full text.
   Reporter tweets (Shams, Scotto) are the newest truth; when two sources disagree, say so in notes.md and use the safer wording ("reportedly").
 - Copy-check: `python Tools/copy_check.py "<4-6 word topic>"`. TAKEN means skip. Never retell a bigger channel's story.
 - Pick the angle with a built-in argument (win-or-lose, then-vs-now, rule-vs-legend). Keep a facts list with a source URL for every number.
 
-## 2. Script (retention rules; Shorts live or die on "viewed vs swiped away", aim 70%+ at 3 s)
-- 23-40 s (CoachClank's 31-45 s Shorts did best; Round 6), 95-150 words. First 6 words carry the scene, the number or the stakes. No throat-clearing, no "did you know".
+## 2. Script (retention rules; Shorts live or die on "stayed to watch": aim for 74%+, judged at 72 h)
+- 23-40 s (CoachClank's 31-45 s Shorts did best; Round 6), 95-150 words. Line 1 is 11 words or fewer and carries the scene, the name or the stakes (Oct 26 overnight review). No throat-clearing, no "did you know".
 - Turn ("You see" / "But") inside the first third; a second re-hook ("But here's the twist") around 45%.
-- Short sentences, one idea each, so each can be a new shot every 1.5-3 s (no evidence that faster than ~2 s helps; test it).
-- End on the payoff that answers the opening line (one number or the subject's own words), then stop; it can be argued with, but it must not be a question (Oct 13 evidence). A last line that echoes the first helps the loop.
+- Short sentences, one idea each; about one shot every 2 s, and a play may run 3-5 s (Oct 26 overnight review).
+- End on the payoff that answers the opening line (one number or the subject's own words), then stop; it can be argued with, but it must not be a question (Oct 13 evidence).
 - Spell numbers the voice might misread as `{$200 million|two hundred million dollars}`; hard names `{Maxey|Max-ee}`.
 - Save `Productions/MetaSports/<date> NN <Title>/script.txt` (ONLY the spoken words, one paragraph) and `notes.md` (facts with links, titles, pin, warnings).
 
 ### The first 3 seconds decide everything (apply to every Short; viewers swipe in 1-3 s)
-- **The number, name or stakes is the FIRST word**, spoken and on screen at 0.0 s ("92% pay cut. LeBron James just took one..."). Never open on "So" / "Did you know" / a setup sentence.
-- **Frame 1 is already moving or already a face**: real action or a close face, never a title card, logo or a still. Punch in: put `"zoom": 0.12` on the first shot in shots.json (slow push 100% to 112%).
-- **Hold the opening moment (Oct 26):** 1-2 shots in the first 3 s, then about one shot every 2 s; let a play run. A slow push-in keeps a held shot alive. Hook shots are real footage of the named player/moment; no cards.
+- **Line 1 is one claim about the name or the moment, 11 words or fewer, done by about 3 s** (Oct 26 overnight review) [V] RET §1b. Never a bare number first. Never open on "So" / "Did you know" / a setup sentence.
+- **Frame 1 shows the thing line 1 is about, happening** (Oct 26 overnight review): real action or a close face, whichever proves line 1; never a title card, logo or a still. A push-in only on a static first shot: 2-5%, at most 4% a second (`footage_qc.py` warns above it).
+- **Hold the opening moment (Oct 26 overnight review):** shot 1 at least 2.0 s; at most 2 shots in the first 3 s and 3 in the first 5 s; no cut inside line 1; then about one shot every 2 s; let a play run. Hook shots are real footage of the named player/moment; no cards.
 - **No sound in the first second.** Voice only. Do not put `boom` at 0.0. That vine-boom open was on almost every Short and Round 7 says the same effect habituates. `assemble.py` drops anything before 1.0 s, drops a repeated file, drops two effects closer than 1.5 s, and refuses a gain louder than `Tools/sfx/catalog.json`.
 - **Four effects when the pictures support them, never more than five, each one a different file.** Use the catalog gain. Never `falling`. Match the picture: `swish`/`rim`/`brick` only on a shot you can see, `whistle` on a whistle, `horn` on a buzzer, `dribble` on a dribble close-up, `whoosh` on a fast push-in, `whoosh_long` into the payoff, `boom_cinematic` once on the one reveal (not at 0), `boom` at most once on a stat (gain -18, after 1 s), `camera` on a presser or jersey, `click` only when a screenshot appears, `ding` once on one fact, `cha_ching` only on a salary graphic, `punch` on a hit you see, `ankle_breaker` only on a real crossover, `thud` on a fall. If the picture does not show it, leave it out.
 - Sports editors use a whoosh on a zoom and a swish on a made basket, and they take effects back out on the listen-through. Vine boom, record scratch and sad violin are the sounds people now skip. Those files are not in `Tools/sfx`. Do not add them.
 - The line after the hook must be a payoff promise or a turn ("and it might be the smartest move of his career"), not background.
-- Check: extract frames at 0.05, 0.6, 1.1, 1.5, 2.1, 2.8, 3.5, 4.4 s with ffmpeg and look at them side by side. If two neighbours look alike, add a cut.
-- After posting, read YouTube Studio's "Viewed vs Swiped Away" at 24 h: 70%+ is good, under 60% means rewrite the first 2 seconds.
+- Check: extract frames at 0.05, 0.6, 1.1, 1.5, 2.1, 2.8, 3.5, 4.4 s with ffmpeg and look at them side by side. If frame 1 doesn't show the claim, change the shot, not the cut rate (Oct 26 overnight review).
+- After posting, judge "Stayed to watch" at 72 h, not the next morning (Oct 26 overnight review; [V] `Research Notes/Posting Study (Oct 26, 2026).md` §1g): 74%+ is good; under 60% means the next Short needs a new first 2 seconds. Never re-upload the same Short.
 
 ## 3. Voice (pipeline v2, Oct 5 2026; the user said the voice had started to glitch). Evidence: `Research Notes/Voice Investigation (Oct 5, 2026).md`
 Use `. key.sh && python Tools/voice_take.py --script "<folder>/script.txt" [--takes 3]` (NOT bare voiceover.py): it records, checks (free local speech recognition + voice-quality numbers) and re-records only when the check fails. Spliced Short: run it for every `_nN/script.txt` (add `-- --prev-text "..." --next-text "..."` with the neighbouring words so tone stays continuous), then `splice_voice.py`. Re-doing an existing Short: `python Tools/revoice.py --folder "<folder>"` (backs up, re-records, re-times pictures with anchor_shots, re-renders, QA).
@@ -115,27 +130,36 @@ Gives voice.mp3, words.json (word times) and captions.srt. All shot timing comes
 **Then take out the dead air (owner, Oct 22: "no unnecessary pauses"):** `python Tools/tighten_voice.py --folder <folder> --thresh 0.25 --keep 0.12` (before anchoring the shots). No outro or promo after the payoff, ever. Old takes are kept in `_voice_prev/` or `_voice_v1/`.
 
 ## 4. Footage (YouTube downloads are blocked from the cloud; use these instead, in this order)
-1. **X posts** from official accounts (NBA, team accounts, ESPN, ClutchPoints, House of Highlights): find them with
+1. **X posts** from official accounts (NBA, team accounts, ESPN, ClutchPoints; House of Highlights only for the broadcast part, cropped, when the league hasn't posted the moment): find them with
    `WebSearch "x.com <account> <moment> video"` (allowed_domains x.com), then `python Tools/x_clip.py <links...> --out src`. 720p-1080p, 10-130 s.
    Look at them with `python Tools/broll.py sheet src/<id>.mp4 --from 0 --to 30 --every 1 --out s.jpg`, cut with `broll.py cut src/<id>.mp4 --at T --len L --x 0.5 --out clips/V01.mp4`.
-2. **archive.org** for old games (`https://archive.org/advancedsearch.php?q=title:(...)&output=json`, then ffmpeg `-ss` straight off the file URL). 480p: use blur-fit, not a hard crop.
+2. **archive.org** for old games (`https://archive.org/advancedsearch.php?q=title:(...)&output=json`, then ffmpeg `-ss` straight off the file URL). 480p: use blur-fit, not a hard crop, with `--blurfit-aspect 0.75` so the play still fills the frame.
 3. **YouTube moments**: `python Tools/yt_sheet.py <id> --from 0 --to 120 --every 2 --out s.jpg` shows the video's own preview frames with timestamps (no download).
    Find ids with `python Tools/broll.py search "<query>"`. Write `<folder>/clips_manifest.json` ([{"file","video","at","len","x"}]) and the user (or the PC) runs `python Tools/pc_cut.py --folder "<folder>"`.
 Quality bar: every shot matches its spoken line; check each player's identity frame by frame (preview frames are too small to prove a face: say "verify" in the plan).
+**Framing (Oct 26 overnight review):** fill the frame. Wide plays get `--blurfit --blurfit-aspect 0.75 --x <pos>` (a 3:4 window, 1080x1440 over blur) or a full-frame crop; never a full-width 16:9 strip over blur. Full-width blur-fit only for a graphic or text that must be read whole.
 
-## 5. Evidence cards (last resort since Oct 26: put proof on the footage first; never in the first 4 s)
-`python Tools/card.py --url <article> --mark "<exact words>" --headline y0,y1 --byline y0,y1 --out "<folder>/clips/c01.mp4" --len 2.4`
-Red box timed to the word; cards sit above the caption band. ESPN pages are washed out by an overlay; card.py fixes it. Look at the card PNG before using it.
-Basketball-Reference: `--selector "#all_all_salaries"` style crops via `webshot.mjs`.
+## 5. Proof on the footage (Oct 26 overnight review: no cards)
+- Numbers and short facts go over the play: `"overlay": [{"text": "50.7%", "size": 190, "y": 300, "start": 0, "end": 1.5}]` in the cuts plan (`Tools/overlay.py`). Keep text above y=1000 or below y=1300 (the caption band).
+- Circle the broadcast's own scorebug, clock or score: `broll.py circle clips/A1.mp4 --at 0.62,0.88 --out clips/A1c.mp4`.
+- Countdown badge (weekly countdown test): `{"text": "#3", "size": 120, "x": "left", "y": 230, "box": "0xFDB927", "color": "black", "start": 0, "end": 9}`.
+- No emoji stickers.
+- **A card only when nothing else can show the fact** (owner, Oct 26: "cut cards completely ... if added, keep brief"): 1.5 s at most, never in the first 4 s (QA FAILs both).
+  `python Tools/card.py --url <article> --mark "<exact words>" --headline y0,y1 --byline y0,y1 --out "<folder>/clips/c01.mp4" --len 1.5`
+  Look at the card PNG before using it. Article screenshots are for checking facts, not for the video.
 
-## 6. Cut: write `shots.json` ([{"clip","start"}] with start = the word's time in words.json) and `sfx.json` (4 effects from `Tools/sfx` when the pictures support them, else 3, never more than 5; catalog gains; none before 1.0 s; no file twice; none within 1.5 s; each one matches a picture or one spoken beat),
+## 6. Cut: write `shots.json` ([{"clip","start"}] with start = the word's time in words.json; or a `cuts_plan.json` for `cut_list.py`, where `"replay": true`, `"speed"`, `"blurfit_aspect"` and `"overlay"` pass through) and `sfx.json` (4 effects from `Tools/sfx` when the pictures support them, else 3, never more than 5; catalog gains; none before 1.0 s; no file twice; none within 1.5 s; each one matches a picture or one spoken beat),
 then `python Tools/assemble.py --folder "<folder>" [--caption-style clank|metasports]`. No Drift on Linux, so the ffmpeg engine runs. Output final.mp4 (-14 LUFS), preview_1-3.jpg, storyboard.jpg.
 **Look at storyboard.jpg card by card** before delivering. Copy to `READY TO POST - <Title> (Claude cut).mp4`.
 
 ## 7. Upload package (`UPLOAD.md`, template: `Productions/MetaSports/2026-09-28 01 Why LeBron Took a 92 Pay Cut/_claude_v4/UPLOAD.md`)
-Title: 3 options, 4-7 words, opening on Why/How/What/Did/Is/He or an action/claim word (CoachClank name-first titles got half the views; question marks and digits showed no lift, Round 6), 1 emoji, no hashtags, no ALL-CAPS words, matches words people search that week.
-NO description (the user doesn't use one). Tags: 25-30 comma-separated search tags, 440-490 characters total (YouTube's limit is 500): people, teams, the rule/event, season, 'nba shorts, basketball shorts'. Pinned comment: the two-sided argument. Covers: `python Tools/thumb.py --shape short`
-x3 (one-line number hook; keep the face visible; use single quotes around text with $). Post time: YouTube says timing matters little (Round 6), so post when ready and write down the go-live time. Covers: the Shorts feed shows no custom thumbnails, so make just one (A) and spend no more than 5 minutes.
+Rules: Oct 26 overnight review ([V] `Research Notes/Posting Study (Oct 26, 2026).md`; [V] `Research Notes/Similar Channels (Oct 26, 2026).md` §1).
+- **Title:** 3 options, each a short statement pointing at the moment or the claim ("He Pretended To Be Klay Thompson"); true to the video. Title wording is a small factor: don't score titles and don't gate on them. No hashtag or one (#nba). No ALL-CAPS words.
+- **Description:** leave it empty.
+- **Tags (optional):** 3-8 relevant tags, about 100-150 characters: the names, the team, the event, common misspellings. Never fill the 500 characters. Check with `python Tools/tags_fit.py --cap 150 "tag1, tag2, ..."`.
+- **Pinned comment:** the two-sided argument.
+- **Cover:** one, `python Tools/thumb.py --shape short` (keep the face visible; single quotes around text with $). The feed shows no custom thumbnails: 5 minutes at most.
+- **Slot:** `UPLOAD SCHEDULE.md` (NBA 11 AM ET; news the morning after the game). Write down the go-live time. Judge at 72 h.
 
 ## 7b. Add it to the phone app (the user is often on mobile)
 The user's Shorts Hub is a claude.ai artifact: https://claude.ai/artifact/EZrk8n855PyYpMFnMnMJd4 (database collection `shorts`, one doc per Short).

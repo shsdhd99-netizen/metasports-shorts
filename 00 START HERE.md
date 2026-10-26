@@ -1,7 +1,9 @@
-# START HERE (updated Oct 19, 2026)
+# START HERE (updated Oct 26, 2026)
 
-> **Owner standing notes (Oct 19, keep until the owner says otherwise):**
-> - **Lead with what WORKS: THE #42 FORMAT** (`Library/THE 42 FORMAT.md`). Owner, Oct 19 (correcting my reading): "i am not limiting you to one format, i just said what WORKS." Most new Shorts use it; other formats are allowed when the story is strong.
+> **Owner standing notes (keep until the owner says otherwise):**
+> - **The rules changed in the Oct 26 overnight review** (the owner: "everything is up for debate"). Read THE RULES at the top of `MetaSports - Playbook.md` first. Every change, old to new: `Research Notes/Rule Changes Applied (Oct 26, 2026).md`.
+> - **NBA lanes (Oct 26 overnight review):** moments you can watch are about half of NBA Shorts. The other half rotates: the star paradox (THE #42 FORMAT, `Library/THE 42 FORMAT.md`, now one lane, not the lead), same-day news, and a weekly countdown test. #42's own test ended 1 of 3 at 74%+ [V]. (Owner, Oct 19: "i am not limiting you to one format, i just said what WORKS.")
+> - **Never post, schedule or upload.** Every output is a DRAFT; the owner posts. No cards (1.5 s at most if one is unavoidable, never in the first 4 s), no promo outro, no dead air, no API keys in docs. TikTok and Instagram cross-posting is paused.
 > - **Owner is often away from the PC: source footage yourself in the cloud** (`Tools/nba_videos.py`, X posts via `Tools/x_clip.py`). Never ask for passwords in chat.
 > - **"You are able to run from my PC now, you do not need to look for cloud solutions."** When a session runs on the owner's PC, use the PC (YouTube 1080p sources, local tools) instead of hunting cloud workarounds. A cloud session that can't reach the PC (no PC session visible) says so in one line and carries on with what it can reach.
 
@@ -9,9 +11,12 @@
 |---|---|
 | **What to make and post next** (the only queue) | `Production Queue.md` |
 | **Every idea** (74 rows: status, score, hook, sources, blockers, next action) | `Production Queue - all ideas (Oct 14, 2026).csv` |
-| **THE WINNING FORMULA** (what wins, the 3 structures, fixed settings, the 10-step workflow; read first) | `MetaSports - Playbook.md` (top section; Creative System v3 below it has the detail) |
+| **THE RULES** (Oct 26 overnight review: lanes, editing, posting, critic, research tools; read first) | `MetaSports - Playbook.md` (top section; the Winning Formula and Creative System v3 below it have the detail) |
+| **What changed on Oct 26 and why** (every file, old rule to new, evidence tier) | `Research Notes/Rule Changes Applied (Oct 26, 2026).md` (+ `Research Notes/Rules Review (Oct 26, 2026).md`) |
+| **When to post, tags, title, description** | `UPLOAD SCHEDULE.md` |
+| **Research tools** (Gemini watcher; the channels we watch) | `Tools/yt_watch.py` (needs a free `GEMINI_API_KEY` in the environment settings) + `Research Notes/Competitor Watchlist.csv` |
 | **Why that formula** (CoachClank, Ahmed, our best vs weakest, patterns by evidence) | `Research Notes/Winning Formula Research (Oct 14, 2026).md` + audit §12 (new stats) |
-| **The script gate** (every script must pass before footage or voice) | `Tools/script_critic.md` + `Research Notes/Script Critic Log.md` |
+| **The script critic** (advice, not a gate since the Oct 26 overnight review; only its fact checks block) | `Tools/script_critic.md` + `Research Notes/Script Critic Log.md` |
 | **Why** (what the 102 posted Shorts show, with dated numbers and their limits) | `Research Notes/Posted Video Audit (Oct 14, 2026).md` (+ `Posted Shorts - metrics (Oct 14, 2026).csv`) |
 | **Which old rules stand** (each rule: keep / revise / retire / test) | `Research Notes/Rules Audit (Oct 14, 2026).md` |
 | **Voice** (the house voice, why, the backup, the spec; three audition rounds) | `Research Notes/Voice Audition (Oct 14, 2026)/README.md` (decision at the top, Part 3) + `Tools/voice_config.json` |
@@ -71,7 +76,7 @@
 | `/nba-short` | Fresh NBA moments. You pick one and get a Short that's fact-checked and not a copy of a big channel's, with titles ranked, saved and ready to voice |
 | `/voiceover` | An ElevenLabs voice + word-timed captions for your newest script |
 | `/assemble` 🆕 | Claude finds the B-roll itself, cuts each shot on its words, and edits the Short in Drift: `final.mp4`, ready to upload |
-| `/titles` | 10 titles scored against real data (either channel) |
+| `/titles` | 10 title ideas (either channel). Title wording is a small factor: pick a short statement, don't score them (Oct 26 overnight review) |
 | `/thumbnail` | 3 thumbnails for Test & Compare, or a cover image for a Short |
 | `/commentary-script` | Your commentary video plan. The first time, it asks your 5 lane questions |
 | `/channel-check` | How MetaSports is doing, in plain English |
@@ -82,7 +87,7 @@
 2. **Every morning, Mon Sep 28 → Tue Oct 6, one Short a day:**
    1. Type `/voiceover 2` (then 3, 4…). Short #1's voice is already done.
    2. Type `/assemble 2`. Claude finds the B-roll and edits the Short.
-   3. Watch `final.mp4`, then upload it between 6 and 11 AM ET, with the title and pinned comment from the Today card.
+   3. Watch `final.mp4`, then upload it at the slot in `UPLOAD SCHEDULE.md` (Oct 26: NBA 11 AM ET), with the title and pinned comment from the Today card.
    4. Tap **Mark posted**.
 3. **Sun Oct 4:** `/channel-check`.
 4. **Any evening:** `/commentary-script`. It asks your 5 lane questions.

@@ -18,6 +18,9 @@ Two runs a day (scheduled tasks "MetaSports NBA daily run" and "MetaSports FC da
 - Never print, commit or ask for API keys or tokens. Keys come from the environment only.
 - Never invent a stat or a result. If data is missing, write "missing" and say why.
 - No promo or teaser at the end; no dead air; every Short under 60 s.
+- No cards (1.5 s at most if one is unavoidable, never in the first 4 s). TikTok and Instagram cross-posting is paused.
+- **The rules changed in the Oct 26 overnight review.** THE RULES at the top of `MetaSports - Playbook.md` win over this file;
+  every change is listed in `Research Notes/Rule Changes Applied (Oct 26, 2026).md`.
 - Work on branch `main-329h3w`; push there; never open or merge a PR.
 
 ## 0. Setup (5 min)
@@ -50,42 +53,65 @@ Two runs a day (scheduled tasks "MetaSports NBA daily run" and "MetaSports FC da
   one rule to keep, one to drop. Update the Hub's `channel/stats` insights and `UPLOAD SCHEDULE.md` if the best times moved.
 
 ## C. Research (20 min): logged with sources
-- **Read `Research Notes/What Makes Our Shorts Go Viral (Oct 24, 2026).md` first.** Pick today's lane by rotation: no lane more than
-  1 post in 3 (check the dataset's last 6 posts on this channel); a lane with 3 posts in a row below the channel median is retired
-  until the Sunday review. A strong concept that got under 74% stayed may get ONE new edit (new first 3 s and frame 1, new title),
+- **Read THE RULES §1 in `MetaSports - Playbook.md` first (Oct 26 overnight review).** Pick today's lane from the dataset's last 6
+  posts on this channel (lanes below); a lane with 3 posts in a row below the channel median is retired until the Sunday review. A strong concept that got under 74% stayed may get ONE new edit (new first 3 s and frame 1, new title),
   never the same file again.
-- **NBA (Oct 26 lane priority, `Research Notes/Channel Study - Swishyyy (Oct 26, 2026).md`):** first look for last night's **visible moment** (funny, odd, skilful, trolling, fan/mascot/kid; on X from NBA, teams, House of Highlights, ClutchPoints). Use a record/stat story only when no strong moment exists and the star is a household name (about 1 in 3).
-- **NBA:** last night's games: records, career highs and lows, milestones, viral moments (NBA.com, ESPN, AP, team and league
-  accounts on X). Pick the story that fits THE #42 FORMAT (`Library/THE 42 FORMAT.md`: a famous star, a record that sounds bad
-  or impossible, "So is he...? No.", end on the number) or a same-day number-gap story (#58, 75% stayed).
-  **Only stories from the last 24 h:** #63 went out a day late and kept 58%. Run `python Tools/copy_check.py "<4-6 words>"`.
+- **NBA lanes (Oct 26 overnight review) [S] `Research Notes/Similar Channels (Oct 26, 2026).md` §4:**
+  - **About half are moments:** last night's funny, odd or skilful thing you can watch (game, bench, warm-up, fan, kid, mascot,
+    broadcast desk), narrated: who, what, the reaction or payoff. Each moment needs **one fact the clip can't show** (YouTube's
+    originality rule [V official]). Footage from the league, teams and broadcasters on X or NBA.com, never another creator's edit.
+  - **The other half rotates:** the **star paradox** (THE #42 FORMAT, `Library/THE 42 FORMAT.md`: now one lane, not the lead; its
+    test ended 1 of 3 at 74%+ [V]); **same-day news** with a number gap about a household name (#58, 75% stayed); and the
+    **weekly countdown test** (one a week: "3 times [star] did X", a #3 / #2 / #1 corner badge with `Tools/overlay.py` `"x"` and
+    `"box"`, the best one last) [H].
+  - **Review the split after 10 moment posts** (stayed % and 72 h views vs the channel median) and log the result in the Daily Log.
+  - **Same-day news or not at all:** only stories from the last 24 h; news goes up the morning after the game. #63 went out a day
+    late and kept 58%. Run `python Tools/copy_check.py "<4-6 words>"`.
+- **Research tools (both channels, Oct 26 overnight review):** check `Research Notes/Competitor Watchlist.csv` (the channels we
+  watch) for new hits in our lanes. `python Tools/yt_watch.py <link>` has Gemini watch a Short and writes a report to
+  `Research Notes/Watch Reports/`; it needs a free `GEMINI_API_KEY` in the environment (without it, log "watcher: no key" and use
+  `Tools/yt_sheet.py` frames). Tier its numbers [S].
 - **FC:** the next unmade story in `Soccer Channel/Idea Bank.md` that passes the hook rules in
   `Research Notes/Why S02 and S03 Underperformed (Oct 24, 2026).md`. Add 2 new vetted ideas (global star, concrete object or
   strong verb, real footage exists, sources) to the Idea Bank every day.
 - Write today's research in `Research Notes/Daily Log.md`: the candidates, the pick and why, every source link.
 
 ## D. Make the Short (60-120 min)
-- **NBA (Oct 26 editing rules, `Research Notes/Why NBA Views Dropped (Oct 26, 2026).md`):** hold the opening moment (1-2 shots in the first 3 s), about 2 s shots, no cards (proof on the footage). `/cloud-short` in THE #42 FORMAT: 20-30 s, the Alex voice, no music, words over footage (`Tools/overlay.py`).
+- **NBA (Oct 26 overnight review editing rules; Playbook THE RULES §2):** `/cloud-short` in today's lane, 20-30 s, the Alex voice, no music.
+  - **Footage first:** frame 1 and one proof clip per beat, from any number of sources; never filler to reach a clip count.
+  - **Frame 1 shows what line 1 is about, happening. Line 1 is 11 words or fewer.**
+  - **Hold the opening:** shot 1 at least 2.0 s; at most 2 shots in the first 3 s and 3 in the first 5 s; about 10-15 shots of about 2 s.
+  - **Replay the key second once before the payoff** (closer and/or `"speed": 0.5`, marked `"replay": true`).
+  - **Fill the frame:** wide plays `"blurfit": true, "blurfit_aspect": 0.75` (3:4); full-width blur-fit only for a graphic to read whole.
+  - **Proof on the footage** (`"overlay"`, `broll.py circle`), no cards, no emoji stickers, no forced loop: end on the payoff.
   Footage: `Tools/nba_videos.py` (team sites on NBA.com), `Tools/x_clip.py` (official accounts on X), archive.org.
   Frame 1: sharp and lit, showing the claim: the moment itself or the star, whichever proves line 1 (#42 opened on the
   airball; #52's soft archive close-up kept 59%).
-- **FC:** `/story-short`, 55-59.5 s, the hook rules, both versions (music and no music), `"promise"` list in cuts.json.
+- **FC:** `/story-short`, ending under 59.5 s (about 230-250 words; if it runs long, cut a sentence, never add one), the hook
+  rules, both versions (music and no music: an open A/B test; log which one the owner posts), `"promise"` list in cuts.json.
+  Frame 1 shows the promise; shot 1 at least 2.0 s; wide plays at 3:4; replay the key moment when the footage has it (Oct 26 overnight review).
   **PAUSED (owner, Oct 26: "skip the cuts for other apps, id rather be successful on yt first"): no long cuts until the owner says so.** Was:
   **Plus the TikTok/Instagram long cut (Oct 25):** in `<folder>/long/`, the same script with one or two extra sourced beats,
   re-voiced whole, 65-80 s (never under 62 s: TikTok pays only over 1 minute), music version only, `qa_short.py --long --full`
   PASS, saved as `DRAFT - awaiting approval - SNN <title> (TikTok-IG long, music).mp4`. Card version label "TikTok-IG long".
-- **NBA on TikTok/Instagram:** the same file as YouTube. When a story naturally runs long, make a 62-70 s TikTok cut as a test
-  (5-10 of them, logged in the dataset) instead of padding.
+- **NBA on TikTok/Instagram: PAUSED** (owner, Oct 26: YouTube first). No TikTok cuts until the owner says so.
 - **Faster tools (Oct 24):** `Tools/frame_sheet.py SRC --from A --to B --every 0.5` (contact sheet in seconds) and
   `--cuts` (scene-change times: start and end shots between them, never inside a reel's dissolve); write `cuts_plan.json`, then
   `Tools/fill_len.py F` fills every len from the anchors; in cuts.json `"speed": 0.5` slows a short close-up and `"overlay": [...]`
   burns the words over footage at cut time; after `cut_list.py`, `Tools/shot_strip.py F out.jpg` shows each shot's first, middle
   and last frame (catches dark first frames, dissolves, a player leaving the crop).
+  Oct 26: `"blurfit_aspect": 0.75` crops a wide play to a 3:4 window over blur (`broll.py --blurfit-aspect`); `"replay": true` now
+  passes from cuts.json into shots.json, so QA accepts a deliberate replay; an overlay line takes `"x": "left"|"right"` and `"box"`.
 - **Gate:** `python Tools/qa_short.py --folder F --video <file> --full` must PASS (it now also fails a dark frame 1 and sound
   still ringing at the end: give the last effect a `len` and `fade` in sfx.json). Then LOOK at frame 1, every overlay and the
   last frame. Every fact has a source and its exact words in notes.md.
-- **Tags:** list them most important first and run `python Tools/tags_fit.py "tag1, tag2, ..."`: it fills YouTube's box to
-  490 characters by YouTube's own count (owner's rule: use the 500 limit, hard cap 490). Put the result in UPLOAD.md and the card.
+- **Package (Oct 26 overnight review; [V] `Research Notes/Posting Study (Oct 26, 2026).md`):**
+  - **Title:** a short statement pointing at the moment; no hashtag or one (#nba / #football). Title wording is a small factor:
+    no title scoring.
+  - **Description:** empty.
+  - **Tags (optional):** 3-8 relevant tags, about 100-150 characters (names, team, event, common misspellings). Never fill the 500
+    characters. Check with `python Tools/tags_fit.py --cap 150 "tag1, tag2, ..."`. Put them in UPLOAD.md and the card.
+- **Critic:** Script Critic v3 is advice, not a gate (Oct 26 overnight review). Only a factual error blocks a Short.
 - If it cannot pass today, do not ship it: Hub card `editing` with the reason. A late news Short is dropped, not posted late.
 
 ## E. Hub and schedule (10 min)
@@ -93,11 +119,11 @@ Two runs a day (scheduled tasks "MetaSports NBA daily run" and "MetaSports FC da
   Upload a 1.5 Mbps copy as an asset (Artifact publish `asset: true`), then write the card (collection `shorts`: code, name, num,
   status `ready`, slot, slotLabel, versions [{label, assetId, note}], titles, tags, postNote). Read a card before writing it and
   pin every write with `if_version`.
-- **Card text for TikTok and Instagram (Oct 25, `Research Notes/TikTok and Instagram Playbook (Oct 25, 2026).md`):** fields
-  `tiktok` and `instagram`. First words = the searchable phrase (player or club + topic, said in spoken line 1 too), then the hook
-  in one line, then 3-4 hashtags on TikTok and at most 5 on Instagram. Facts only from the script. No contact info anywhere.
-- Slots follow `UPLOAD SCHEDULE.md`: NBA at 11:00 AM ET (today's news Short takes today), soccer at 12:00 PM ET (the next free day).
-  Keep at least 2 days of ready Shorts per channel; mark an unposted news Short older than a day `skip`.
+- **Card text for TikTok and Instagram: PAUSED** with cross-posting (owner, Oct 26). Leave the `tiktok` and `instagram` fields empty.
+- Slots follow `UPLOAD SCHEDULE.md` (Oct 26 overnight review): one Short per channel per day. NBA at 11:00 AM ET (today's news
+  Short takes today), soccer at 12:00 PM ET (the next free day), at least 1 hour after the NBA slot. A second NBA slot (6 PM) only
+  for a Short as strong as the first, 6+ hours later; never 3. Keep at least 2 days of ready Shorts per channel; mark an unposted
+  news Short older than a day `skip`. Never re-slot or re-upload a posted Short; judge it at 72 h.
 - Commit (the `DRAFT - awaiting approval` files are kept in git) and push to `main-329h3w`. If the push is refused, pull with
   `--no-rebase`, merge (keep both sides of any doc), push again.
 
@@ -105,5 +131,7 @@ Two runs a day (scheduled tasks "MetaSports NBA daily run" and "MetaSports FC da
 What was made, its slot, QA result, what you learned today, and anything only the owner can do.
 
 ## Lessons to read first
-- NBA: `Research Notes/NBA Diagnosis (Oct 23, 2026).md`, `Research Notes/Studio Export Read (Oct 24, 2026).md`, `Library/THE 42 FORMAT.md`.
+- Both: `Research Notes/Rule Changes Applied (Oct 26, 2026).md` and THE RULES at the top of `MetaSports - Playbook.md`.
+- NBA: `Research Notes/Retention and Editing Upgrade (Oct 26, 2026).md`, `Research Notes/Why NBA Views Dropped (Oct 26, 2026).md`,
+  `Research Notes/Studio Export Read (Oct 24, 2026).md`, `Library/THE 42 FORMAT.md`.
 - FC: `Soccer Channel/START HERE.md`, `Soccer Channel/Lessons Learned.md`, `Research Notes/Why S02 and S03 Underperformed (Oct 24, 2026).md`.

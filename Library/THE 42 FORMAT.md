@@ -1,6 +1,8 @@
-# THE #42 FORMAT: "Bad record, good reason" (Oct 19, 2026). Our proven format: lead with it (other formats are allowed; owner, Oct 19: "i am not limiting you to one format, i just said what WORKS").
+# THE #42 FORMAT: "Bad record, good reason" (Oct 19, 2026). Now one NBA lane, the star paradox, not the lead (Oct 26 overnight review).
 
-> **Oct 24, 2026 update (`Research Notes/What Makes Our Shorts Go Viral (Oct 24, 2026).md`):** this is ONE of 3-4 rotating NBA lanes, not the whole channel. Every channel that repeated one template saw it decay (Korzemba 23M to 8-49K; REBOUND 42M to 184K), and ours is sliding in posting order (#42 86.9%, #48 83.3%, #64 72.6%, #52 59.1% stayed). Use it at most 1 post in 3, rewrite the fixed lines every time (never "So is he a worse shooter? No." word for word), and retire it after 3 posts in a row below the channel median. Frame 1 shows the claim (#42 opened on the airball, not a face). Only household-name stars.
+> **Oct 26 overnight review:** the test below ended **1 of 3 at 74%+ stayed** (#48 83.3%, #64 72.6%, #52 59.1%), so it is not proven [V] (`Research Notes/Rules Review (Oct 26, 2026).md` §2 item 1). NBA lanes now: moments you can watch are about half; the other half rotates the star paradox (this format), same-day news and a weekly countdown test (THE RULES §1, `MetaSports - Playbook.md`). The edit rules in section 2 still hold and match THE RULES §2. Owner, Oct 19: "i am not limiting you to one format, i just said what WORKS".
+
+> **Oct 24, 2026 update (`Research Notes/What Makes Our Shorts Go Viral (Oct 24, 2026).md`):** this is ONE of the rotating NBA lanes, not the whole channel. Every channel that repeated one template saw it decay (Korzemba 23M to 8-49K; REBOUND 42M to 184K), and ours is sliding in posting order (#42 86.9%, #48 83.3%, #64 72.6%, #52 59.1% stayed). Use it at most 1 post in 3, rewrite the fixed lines every time (never "So is he a worse shooter? No." word for word), and retire it after 3 posts in a row below the channel median. Frame 1 shows the claim (#42 opened on the airball, not a face). Only household-name stars.
 
 
 **Why this format:** #42 "Who Has Missed The Most Shots In NBA History?" (Ro0oa2VLlqA, posted Oct 16):
@@ -40,8 +42,8 @@ The two other wins that share the core (a surprising, slightly negative claim ab
 ## 2. The edit (`_v3/shots.json`, `sources.csv`, `sfx.json`, `music.json`)
 | What | #42 | Rule |
 |---|---|---|
-| Frame 1 | LeBron's three **falls short** (an airball): the accusation happening | **frame 1 shows the bad thing**, not the star's face |
-| First 5 s | one play, shown twice: 0-2.7 s, then 2.7-5.2 s with a stronger 10% push-in | **hold the proof**: one readable play for the first 5 s; the second visit changes scale |
+| Frame 1 | LeBron's three **falls short** (an airball): the accusation happening | **frame 1 shows the bad thing happening** (the thing line 1 is about) |
+| First 5 s | one play, shown twice: 0-2.7 s, then 2.7-5.2 s with a stronger 10% push-in | **hold the proof**: shot 1 at least 2.0 s, at most 3 shots in the first 5 s; the second visit changes scale (mark it `"replay": true`) |
 | Shots | 12 in 23.6 s, **median 2.0 s**, first cut at 2.7 s | 11-13 shots, about 2 s each. Calmer than our other builds (1.2-1.9 s), and it read better |
 | Who's on screen | every shot shows the player the line names, verified by eye and logged | the same, no exceptions |
 | Numbers | words over footage (LEBRON 50.7% / KOBE 44.7% / 31,502 / KAREEM 28,307), **zero cards** | numbers sit on footage of the player, above the caption band |
@@ -49,7 +51,7 @@ The two other wins that share the core (a surprising, slightly negative claim ab
 | Effects | 4, each on a visible event: a whoosh into the proof numbers, a pop per number, a riser into the flip. None on the airball (silent by design) | 2-4 effects, never the same twice, only where something appears |
 | Music | the v3 render had a Yuke instrumental, dipped on "No.". **Which file the owner uploaded is not recorded** | instrumental only, dipped under the turn; log music yes/no in UPLOAD.md for every post |
 | Captions | house style (metasports), 28 cards | unchanged |
-| Ending | on the flip number over LeBron's record possession; loops to the airball | end on the flip; no CTA, no question |
+| Ending | on the flip number over LeBron's record possession; loops to the airball | end on the flip; no CTA, no question; no forced loop (Oct 26 overnight review) |
 
 ## 3. What we KNOW vs what we don't
 **Known (measured):**
@@ -61,9 +63,9 @@ The two other wins that share the core (a surprising, slightly negative claim ab
 - whether a different voice would do better (only Alex has been used in this format)
 - whether it repeats: **n=1**
 
-The next 3 posts in this format are the test. **Success = 2 of 3 reach 74%+ stayed** (the level where every past Short got 4K+).
+The next 3 posts in this format were the test. **Success = 2 of 3 reach 74%+ stayed.** **Result (Oct 26): 1 of 3** (#48 83.3%, #64 72.6%, #52 59.1%; #52 read at about 1 day old). Not proven, so the format is one lane, not the lead.
 
-## 4. Hard rules for scripts in this format (the critic and lint enforce these)
+## 4. Hard rules for scripts in this format (`script_lint.py` checks the fit; the critic is advice, not a gate, since the Oct 26 overnight review)
 1. Line 1 matches **"[famous star] has [bad-sounding superlative] … than anyone / most in NBA history"**, true by an official count (Basketball-Reference career or season totals, regular season unless stated).
 2. The count follows as its own sentence.
 3. A paradox line ("And he's…") by about 7.5 s.

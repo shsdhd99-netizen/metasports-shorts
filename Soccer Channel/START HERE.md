@@ -1,4 +1,4 @@
-# Soccer channel: START HERE (updated Oct 22, 2026)
+# Soccer channel: START HERE (updated Oct 26, 2026)
 
 This is the second channel's own space. The NBA channel (MetaSports) keeps its own files in the repo root; nothing here changes them.
 
@@ -7,6 +7,8 @@ This is the second channel's own space. The NBA channel (MetaSports) keeps its o
 > - Never open YouTube Studio, never ask for passwords or keys, and never print the ElevenLabs key.
 > - Copy what works (the owner, Oct 21): "do not try new things, stick with what works."
 > - No promo at the end (the owner, Oct 22: "that will instantly kill retention") and no dead air: every voice goes through `Tools/tighten_voice.py`.
+> - No cards (owner, Oct 26): 1.5 s at most if one is unavoidable, never in the first 4 s. TikTok and Instagram cross-posting is paused (owner, Oct 26).
+> - **The rules were reviewed on Oct 26 (overnight review).** Read `Playbook.md` (rules 1, 6-7 and 11-15) and `Research Notes/Rule Changes Applied (Oct 26, 2026).md` (repo root) before making a Short.
 
 ## What this channel is
 - **Name:** MetaSports FC.
@@ -14,14 +16,14 @@ This is the second channel's own space. The NBA channel (MetaSports) keeps its o
   - Brand v2 (Oct 22) matches the MetaSports Clips picture: red, a yellow figure, white MetaSports, "F C".
   - See `Brand/Brand Kit.md`.
 - **Format:** Ahmed's Goal story Shorts, copied in shape, never in wording.
-  - 60-80 s per Short.
+  - Under 60 s per Short: it must end before 59.5 s, about 230-250 words (Oct 26 overnight review; cut a sentence, never add one).
   - The title is read aloud as line 1.
   - "Back in [year], [famous name]..."
   - A turn every 8-12 s.
   - The ending is a hard number or an ironic twist, and nothing comes after it.
   - A new picture every 1.1-2.1 s.
   - Captions: TikTok Sans, white, dead centre.
-  - A quiet music bed under the voice.
+  - A quiet music bed vs none: an open A/B test, so every Short is rendered both ways (Oct 26 overnight review).
   - Evidence: `Research Notes/Story Format Study - Ahmed (Oct 21, 2026).md` and `Research Notes/Ahmed's Network and a Second Channel (Oct 21, 2026).md` (repo root).
 - **How to make one:** the skill `.claude/skills/story-short/SKILL.md` (`/story-short`). It is self-contained, so another Claude account can follow it from a zip: `Soccer Channel/story-short-skill.zip`.
 
@@ -48,14 +50,15 @@ This is the second channel's own space. The NBA channel (MetaSports) keeps its o
 | S07 | The team with worse odds than the Loch Ness monster (Leicester 5000-1) | **DRAFT, awaiting approval (Oct 24).** 55.2 s. QA PASS (full). Fixed by cutting instead of a new recording (see notes.md); the spoken title rests on Ranieri's own account, so UPLOAD.md has safer titles. In the Hub. | `Productions/2026-10-22 S07 Worse Odds Than The Loch Ness Monster/` |
 | S08 | The player who kept the Hand of God shirt (Hodge) | Script and notes only; needs a voice (ElevenLabs key) and footage. | `Productions/2026-10-24 S08 The Player Who Kept The Hand Of God Shirt/` |
 
-- **Post order:** 1 a day at noon ET: S06 Sat Oct 24, S05 Sun, S07 Mon, S04 Tue (S04 last: its promise lands at 32 s). Title = the spoken line 1 (plural is fine). No Short teases another any more.
+- **Post order:** 1 a day at noon ET, at least 1 hour after the NBA post (Oct 26 overnight review): S06 Sat Oct 24, S05 Sun, S07 Mon, S04 Tue (S04 last: its promise lands at 32 s). Title = the spoken line 1 (plural is fine). No Short teases another any more. Empty description, 0-1 hashtag (#football), 3-8 tags or none. Judge each Short at 72 h; never re-upload one.
 - **Before making a new one, read** `Research Notes/Why S02 and S03 Underperformed (Oct 24, 2026).md`: frame 1 shows the promise, the promise is back by 20 s, under 60 s.
 - **Each Short has two versions:** with a quiet music bed (what Ahmed does) and without (the NBA channel's default since Oct 14). The owner picks one.
 
 ## Open decisions for the owner
 1. Approve or change S01, S02 and S03 (music or no music).
 2. Paste the new short YouTube description (in `Brand/Brand Kit.md` and the Hub).
-3. TikTok and Instagram: Ahmed posts the same file on all three. Say if you want that; you post it.
+3. TikTok and Instagram: paused (owner, Oct 26: YouTube first). Nothing to do until you restart it.
+4. Optional: add a free `GEMINI_API_KEY` in the environment settings so `Tools/yt_watch.py` can watch competitor Shorts (never paste it in chat).
 
 ## Running costs to watch
 - **ElevenLabs (Creator plan, 100K credits a month):**

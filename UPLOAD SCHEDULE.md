@@ -1,21 +1,28 @@
-# Upload schedule (from Oct 24, 2026): follow it every day
+# Upload schedule (from Oct 24, 2026; rules updated in the Oct 26 overnight review): follow it every day
 
 **Every day, both channels:**
 | Time (ET) | Channel | What to post |
 |---|---|---|
-| **11:00 AM** | MetaSports (NBA) | The NBA Hub card marked for today. News Shorts first: they only work the day after the game. |
-| **12:00 PM** | MetaSports FC | The FC Hub card marked for today. |
-| **6:00 PM** (only when the Hub has a second ready NBA card) | MetaSports (NBA) | An evergreen one (a record, not news), e.g. #60 Caitlin Clark. |
+| **11:00 AM** | MetaSports (NBA) | The NBA Hub card marked for today. News Shorts first: they go up the morning after the game. |
+| **12:00 PM** | MetaSports FC | The FC Hub card marked for today. Keep it at least 1 hour after the NBA post (if NBA goes at 11:30, FC goes at 12:30 PM or later). |
+| **6:00 PM** (only when a second NBA card is as strong as the first) | MetaSports (NBA) | An evergreen one (a record, not news), e.g. #60 Caitlin Clark. |
+
+Post time matters little; a steady slot matters more (Oct 26 overnight review) [S] `Research Notes/Posting Study (Oct 26, 2026).md`.
 
 **How to post (2 minutes each):** open the Hub, play the video, tap Download, upload it as a Short in the YouTube app, paste the
 title (Copy button), set "Not made for kids", add the pinned comment from the card. Nothing is ever posted for you.
+- **Title:** the card's pick, a short statement. At most one hashtag (#nba or #football).
+- **Description:** leave it empty.
+- **Tags:** optional. Paste the card's 3-8 tags (about 100-150 characters), or leave the box empty. Never fill all 500 characters.
+- (Oct 26 overnight review) [V] YouTube Help: "tags play a minimal role"; Posting Study answers 4-6.
 
 **Strict rules:**
-1. One soccer Short a day, never two on the same day (S02 went out the same day as S01 and stalled).
-2. A news Short that misses its day is skipped, not posted late (#63, a day late: 58% stayed vs 75-80% same day).
-3. At least 4 hours between two posts on the same channel.
-4. 24 hours after posting, type the numbers into the card's Results box (views, "Stayed to watch" %).
-5. **Every Sunday:** in YouTube Studio, Content tab, Shorts, export the table for both channels and send the two zips to a Claude
+1. **One Short per channel per day** (Oct 26 overnight review). A second NBA Short only when it's as strong, at least 6 hours after the first. Never 3 in a day. One soccer Short a day. [S] Posting Study §1d.
+2. News goes up the morning after the game. A news Short that misses its day is skipped, not posted late (#63, a day late: 58% stayed vs 75-80% same day).
+3. At least 6 hours between two posts on the same channel (Oct 26 overnight review; was 4). The two channels at least 1 hour apart.
+4. 24 hours after posting, type the numbers into the card's Results box (views, "Stayed to watch" %). **Judge the Short at 72 hours, not the next morning** (Oct 26 overnight review): #48 had 25 views on day 0 and 14.6K on day 2. [V] Posting Study §1g.
+5. **Never delete and re-upload a Short** to try again. YouTube may flag it as spam. Ask for a new cut instead. [V] Posting Study §3.
+6. **Every Sunday:** in YouTube Studio, Content tab, Shorts, export the table for both channels and send the two zips to a Claude
    session. "Stayed to watch" is only in Studio; it is the number that decides whether YouTube keeps pushing a Short.
 
 **The next four days:**
@@ -67,3 +74,5 @@ title (Copy button), set "Not made for kids", add the pinned comment from the ca
 2. For retention curves: add `YT_CLIENT_ID`, `YT_CLIENT_SECRET`, `YT_REFRESH_TOKEN` (NBA channel) and `YT_REFRESH_TOKEN_FC`
    (soccer channel) the same way. One read-only sign-in per channel, no PC needed: the 4 steps are at the top of `Tools/yt_analytics.py` ("NO PC"). Publish the Google
    app first (OAuth consent screen, "Publish app"), or the sign-in expires after 7 days.
+3. Optional (Oct 26): add a free `GEMINI_API_KEY` the same way (make it at aistudio.google.com/apikey). Then `Tools/yt_watch.py` can watch
+   competitor Shorts and our own drafts for the research runs. Never paste the key in chat.
