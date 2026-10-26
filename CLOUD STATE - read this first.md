@@ -3,8 +3,12 @@ Last updated: 2026-10-14 (newest section at the bottom). Branch: `main-329h3w` (
 **Owner, Oct 19 (standing until they say otherwise):** "you are able to run from my pc now, you do not need to look for cloud solutions." Prefer the PC when the session runs there. (Oct 26 overnight review: THE #42 FORMAT is one lane among several, not the lead; moments are about half of NBA Shorts. See House rules and `Research Notes/Rule Changes Applied (Oct 26, 2026).md`.) When the owner is away from the PC, source footage in the cloud yourself.
 
 ## Oct 24, 2026: the automatic routine (read this first)
-- **Two scheduled tasks** make one Short per channel per day (owner: "4 shorts every 2 days"): "MetaSports NBA daily run"
-  (6:41 AM ET, for the 11:00 AM ET slot) and "MetaSports FC daily run" (9:39 AM ET, next free 12:00 PM ET slot). Both follow
+- **Scheduled tasks (recreated Oct 26; the Oct 24 ones no longer exist):**
+  - "MetaSports daily research": 5:43 AM ET, research only. Writes `Research Notes/Daily Research/<date>.md`.
+  - "MetaSports NBA daily build": 6:41 AM ET, for the 11 AM slot.
+  - "MetaSports FC daily build": 9:39 AM ET, for the 12:30 PM slot. It skips the build when 3+ FC drafts are waiting.
+  - "MetaSports daily stats check": 7:07 PM ET.
+  - All except the stats check run in fresh sessions, never post, and follow
   `.claude/skills/daily-run/SKILL.md` and log to `Research Notes/Daily Log.md`. The owner's posting plan: `UPLOAD SCHEDULE.md`.
 - They need `ELEVENLABS_API_KEY` (and the YT_* tokens for retention curves) in the environment settings; without the key they write scripts only.
 - Soccer hook rules: `Research Notes/Why S02 and S03 Underperformed (Oct 24, 2026).md`. NBA drafts (`DRAFT - awaiting approval*.mp4`) are now kept in git.
@@ -478,3 +482,17 @@ Research Notes/Round 9 - Competitor Shorts Watched (Oct 5, 2026).md. Findings (n
   - Both skills say it at the top.
   - **S07 v2** (today's noon slot) is re-cut with no cards; its excerpts were re-downloaded from archive.org. In this account's FC Hub (LFsQtwomdpLAshoz4Xw62H, doc `s07-leicester-5000-1`). S05 is next.
   - **S05 v2** (Tue) is patched with no cards: the new pictures are spliced into the finished render (`_patch_v2/build.py`), because the original clips were never committed. In the FC Hub (doc `s05-pickford-water-bottle`).
+
+
+## Oct 26, 2026 (overnight + morning)
+- **Overnight work:** studies, rules review, posting study and the retention/editing upgrade.
+  - Start with `Research Notes/Morning Brief (Oct 26, 2026).md`.
+  - Every rule change is listed in `Research Notes/Rule Changes Applied (Oct 26, 2026).md`.
+- **Owner decisions (Oct 26):**
+  - **YES:** NBA music-bed A/B (posts alternate; #69 none, #70 music).
+  - **YES:** daily auto-build of drafts.
+  - **Gemini key:** 'will do later'.
+- **Ready drafts:**
+  - NBA: #69 Luka v2 (post Mon AM), #70 Barkley (Mon ~4 PM, music version).
+  - FC: S07 v2 no-music (Mon), S05 v2 music (Tue), S08 Hand of God no-music (Wed 12:30 PM).
+- **Owner to-do:** `Research Notes/Owner To-Do (Oct 26, 2026).md`.

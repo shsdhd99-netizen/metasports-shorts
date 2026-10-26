@@ -69,6 +69,9 @@ Full spec: `Library/THE 42 FORMAT.md`.
 - Rewrite the fixed lines every time. Retire the lane after 3 posts in a row below the channel median.
 - #47 Kawhi and #50 Embiid are parked.
 
+
+**NBA music-bed test (owner said yes, Oct 26):** NBA posts alternate music and no music, starting with #69 Luka (none) and #70 Barkley (music). Render both versions of every NBA Short, and mark on the Hub which one to post so the alternation holds. The bed is about 20 dB under the voice (`music.json`, bed_lu -20), from `Library/Music/` (ElevenLabs beds: no Content ID, no pay cut). Log music yes/no on every post in `Research Notes/Outcome Log.md`. Decide after 8 posts (4 each) on stayed %, judged at 72 h. Soccer keeps its own music A/B.
+
 ## Oct 22, 2026 (owner): no promo at the end, no dead air
 - **No outro or promo** of any kind ("that will instantly kill retention"). The video stops on the payoff. (THE #42 FORMAT already ends this way; keep it so.)
 - **No unnecessary pauses.** After the voice, run `python Tools/tighten_voice.py --folder F --thresh 0.25 --keep 0.12`.

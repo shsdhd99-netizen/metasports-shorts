@@ -1,6 +1,10 @@
 # DRAFT - awaiting approval - #70 Chuck Failed A Test With The Answers
 
-**File:** `DRAFT - awaiting approval - 70 Chuck Failed A Test With The Answers.mp4` (20.4 s, no music, no cards)
+**Post this one (owner said yes to the NBA music test, Oct 26):** `DRAFT - awaiting approval - 70 Chuck Failed A Test With The Answers (music test).mp4`: same edit with a quiet bed about 20 dB under the voice (ElevenLabs 'Clever pulse', no Content ID).
+
+**Also here:** `DRAFT - awaiting approval - 70 Chuck Failed A Test With The Answers.mp4` (no music). Both 20.4 s, no cards, full QA PASS.
+
+**Music test:** NBA posts alternate. #69 Luka has no music; #70 has music; the next NBA post has none, and so on. Log music yes/no on every post.
 
 ## Title (pick one)
 1. Chuck Failed A Test With The Answers 😭  ← my pick
@@ -10,8 +14,8 @@
 ## Pinned comment
 Who's worse at Who He Play For: Chuck or Shaq?
 
-## Tags
-charles barkley, chuck, inside the nba, who he play for, nba on espn, nba today, ernie johnson, kenny smith, shaq, charles barkley funny, inside the nba funny, barkley fail, nba funny moments, nba shorts, basketball shorts, nba 2026, nba season 2026-27
+## Tags (optional, 3-8)
+charles barkley, inside the nba, who he play for, nba on espn, ernie johnson, nba funny moments
 
 ## When
-Any time today. Space it at least a few hours from #69 Luka (11 AM ET slot).
+About 4 PM ET today, 6+ hours after #69 Luka.

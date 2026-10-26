@@ -23,6 +23,8 @@ Two runs a day (scheduled tasks "MetaSports NBA daily run" and "MetaSports FC da
   every change is listed in `Research Notes/Rule Changes Applied (Oct 26, 2026).md`.
 - Work on branch `main-329h3w`; push there; never open or merge a PR.
 
+**NBA music-bed test (owner said yes, Oct 26):** NBA posts alternate music and no music, starting with #69 Luka (none) and #70 Barkley (music). Render both versions of every NBA Short, and mark on the Hub which one to post so the alternation holds. The bed is about 20 dB under the voice (`music.json`, bed_lu -20), from `Library/Music/` (ElevenLabs beds: no Content ID, no pay cut). Log music yes/no on every post in `Research Notes/Outcome Log.md`. Decide after 8 posts (4 each) on stayed %, judged at 72 h. Soccer keeps its own music A/B.
+
 ## 0. Setup (5 min)
 1. `git fetch origin main-329h3w && git checkout main-329h3w && git pull --no-rebase origin main-329h3w`
    (if the repo is missing, attach `shsdhd99-netizen/metasports-shorts` and clone it first).
