@@ -13,6 +13,9 @@ Usage:
   python Tools/yt_watch.py "Productions/.../DRAFT - ....mp4"            # one of our own files
   python Tools/yt_watch.py ID --ask "Is there a music bed? How loud vs the voice?"
   python Tools/yt_watch.py --channel @swishyhoopz --top 5               # watch a channel's 5 most-viewed Shorts
+  python Tools/yt_watch.py "<DRAFT>.mp4" --precheck --out-dir "Research Notes/Watch Reports/drafts"   # check before posting
+  Top-vs-bottom studies of whole channels: Tools/watch_study.py. What else the key is good for:
+  'Research Notes/Gemini Uses (Oct 27, 2026).md'.
 Options: --fps 4 (frames per second the model looks at; default 4 so it can count cuts), --model NAME,
          --out-dir DIR (default 'Research Notes/Watch Reports').
 Models (Oct 27 2026): tries the newest flash, then gemini-flash-latest, then the newest flash-lite, moving on when one
@@ -46,8 +49,49 @@ Report ONLY what you can see and hear; write "unknown" when you can't tell. Retu
 - ending: {last_words, last_frame, loops_to_start: true/false, call_to_action: text or "none"}
 - script: the full narration, word for word
 - retention_tricks: list of concrete techniques you see (open loops, reveals, pattern interrupts, zooms, replays)
+- subject_visible_0_1s: true/false, is the main person or moment of the story already on screen in the first second
+- devices: {countdown_or_ranking: true/false (a visible #3/#2/#1, 1/10 or similar), replay_of_key_moment: true/false
+  (the same moment shown again, slowed or from another angle), promise_in_first_line: true/false (the first sentence
+  promises something still to come, e.g. "wait for the last one"), ends_on_payoff: true/false (the last line answers
+  or tops the first), reaction_shot: true/false (a close-up of someone reacting)}
 - what_makes_it_work: 3 short bullets, from the video only
 """
+
+PRECHECK = """You are checking this YouTube Short before it is posted. Watch and listen to all of it. Report only problems you
+actually see or hear, with timestamps. 1) Voice: any word mispronounced, slurred, cut off or repeated; any glitch or robotic
+artifact. 2) Captions: any caption that does not match the words spoken, or is misspelled. 3) Sound: music or sound effects too
+loud over the voice; any jump in loudness. 4) Picture: any frozen, flashing or black frame; any 2+ seconds where nothing new
+happens. 5) Mismatch: anything on screen that contradicts what the voice says (wrong player, team or number). 6) Is it clear
+within the first second what the Short is about? Write 'none' for a category with no problems. End with one line:
+VERDICT: READY or VERDICT: FIX (what)."""
+
+HOOK_PROMPT = """This is the first 6 seconds of a YouTube Short, sampled at a high frame rate. List the time in seconds
+(0.1 precision) of EVERY hard cut: the picture changes to a different clip, camera angle, image or card. Do not count
+zooms, pans or text appearing over the same shot. Return JSON: {"cuts": [times], "first_shot_shows": "...",
+"first_words": "exact words spoken in the first 3 s", "text_on_screen_0_3s": "text or none",
+"music_or_beat_audible": true/false/"unknown"}"""
+
+
+def hook_cuts(target, models, end_s=6, fps=10):
+    """Second, sharper look at the opening only (shot counts in the full report can be off by 1-3).
+    Returns (report, model)."""
+    yt = yt_url(target)
+    uri, mime = (yt[0], None) if yt else (upload(target), "video/mp4")
+    part = {"file_data": {"file_uri": uri, **({"mime_type": mime} if mime else {})},
+            "video_metadata": {"start_offset": "0s", "end_offset": f"{end_s}s", "fps": fps}}
+    body = {"contents": [{"parts": [part, {"text": HOOK_PROMPT}]}],
+            "generationConfig": {"temperature": 0.1, "responseMimeType": "application/json"}}
+    r, model = generate(models, body)
+    text = "".join(p.get("text", "") for p in r["candidates"][0]["content"]["parts"])
+    rep = parse_json(text)
+    cuts = []
+    for c in sorted(c for c in rep.get("cuts", []) if isinstance(c, (int, float)) and 0.15 < c < end_s):
+        if not cuts or c - cuts[-1] >= 0.35:  # Oct 27 calibration: it sometimes reports one cut twice (2.3, 2.4)
+            cuts.append(c)
+    rep["cuts_merged"] = cuts
+    rep["shots_in_first_3s"] = 1 + sum(c < 3 for c in cuts)
+    rep["shots_in_first_5s"] = 1 + sum(c < 5 for c in cuts)
+    return rep, model
 
 
 def key():
@@ -79,19 +123,18 @@ def call(path, body=None, method=None, headers=None, raw=None):
         raise SystemExit(f"Gemini API error {e.code}: {msg}")
 
 
-def newest(names, suffix):
-    """Newest stable gemini-N-<suffix> (no preview/tts/image variants), or None."""
+def versions(names, suffix):
+    """Stable gemini-N-<suffix> models (no preview/tts/image variants), newest first."""
     def score(n):
         v = re.match(rf"gemini-(\d+(?:\.\d+)?)-{suffix}$", n)
         return float(v.group(1)) if v else -1
-    best = max(names, key=score, default="")
-    return best if best and score(best) > 0 else None
+    return sorted((n for n in names if score(n) > 0), key=score, reverse=True)
 
 
 def pick_models(want):
-    """The model to try first, then fallbacks for when it is overloaded (503) or rate-limited (429).
-    Oct 27 2026: the newest flash answered 503 "high demand" to free-tier calls while flash-lite worked, and
-    gemini-2.5-flash is closed to new keys (404)."""
+    """The models to try, in order; watch() moves to the next one when a model is overloaded (503) or
+    rate-limited (429). Oct 27 2026 on a free key: 3.8 and 3.7 flash answered 503 "high demand", 3.6 and 3.5 flash
+    worked, pro models answered 429 (not on the free tier) and gemini-2.5-* is closed to new keys (404)."""
     if want:
         return [want]
     if os.environ.get("GEMINI_MODEL"):
@@ -102,10 +145,26 @@ def pick_models(want):
                  if "generateContent" in m.get("supportedGenerationMethods", [])]
     except SystemExit:
         names = []
-    order = [newest(names, "flash"), "gemini-flash-latest" if "gemini-flash-latest" in names else None,
-             newest(names, "flash-lite")]
-    order = [m for i, m in enumerate(order) if m and m not in order[:i]]
+    order = versions(names, "flash")[:4] + versions(names, "flash-lite")[:1]
     return order or ["gemini-flash-latest"]
+
+
+BUSY = {}  # model -> time it last answered 503/429; skipped for 10 minutes within one run
+
+
+def generate(models, body):
+    """POST generateContent to the first model that answers. Returns (response dict, model)."""
+    live = [m for m in models if time.time() - BUSY.get(m, 0) > 600] or models
+    for i, model in enumerate(live):
+        try:
+            out, _ = call(f"/v1beta/models/{model}:generateContent", body, method="POST")
+            return json.loads(out), model
+        except SystemExit as e:
+            if i == len(live) - 1 or not re.search(r"error (503|429)", str(e)):
+                raise
+            BUSY[model] = time.time()
+            print(f"{model} is busy ({str(e)[17:20]}); trying {live[i + 1]}", file=sys.stderr)
+            time.sleep(2)
 
 
 def upload(path):
@@ -140,6 +199,17 @@ def yt_url(s):
     return f"https://www.youtube.com/watch?v={vid}", vid
 
 
+def parse_json(text):
+    """The model's JSON answer as a dict (some models wrap it in a one-item list)."""
+    try:
+        v = json.loads(text)
+    except json.JSONDecodeError:
+        return {"raw": text}
+    if isinstance(v, list) and v and isinstance(v[0], dict):
+        v = v[0]
+    return v if isinstance(v, dict) else {"raw": text}
+
+
 def watch(target, models, fps, ask):
     """Returns (video id, report, the model that answered). Moves to the next model on 503/429."""
     yt = yt_url(target)
@@ -150,26 +220,14 @@ def watch(target, models, fps, ask):
     part = {"file_data": {"file_uri": uri, **({"mime_type": mime} if mime else {})}, "video_metadata": {"fps": fps}}
     body = {"contents": [{"parts": [part, {"text": ask or PROMPT}]}],
             "generationConfig": {"temperature": 0.2, **({} if ask else {"responseMimeType": "application/json"})}}
-    for i, model in enumerate(models):
-        try:
-            out, _ = call(f"/v1beta/models/{model}:generateContent", body, method="POST")
-            break
-        except SystemExit as e:
-            if i == len(models) - 1 or not re.search(r"error (503|429)", str(e)):
-                raise
-            print(f"{model} is busy ({str(e)[17:20]}); trying {models[i + 1]}", file=sys.stderr)
-            time.sleep(3)
-    r = json.loads(out)
+    r, model = generate(models, body)
     try:
         text = "".join(p.get("text", "") for p in r["candidates"][0]["content"]["parts"])
     except (KeyError, IndexError):
         raise SystemExit(f"no answer: {json.dumps(r)[:600]}")
     if ask:
         return vid, {"question": ask, "answer": text}, model
-    try:
-        return vid, json.loads(text), model
-    except json.JSONDecodeError:
-        return vid, {"raw": text}, model
+    return vid, parse_json(text), model
 
 
 def channel_top(handle, n):
@@ -186,10 +244,12 @@ def main():
     ap.add_argument("--channel", help="@handle: watch its most-viewed Shorts")
     ap.add_argument("--top", type=int, default=5)
     ap.add_argument("--ask", help="ask one free-form question instead of the full report")
+    ap.add_argument("--precheck", action="store_true", help="pre-post check of one of our DRAFTs (voice, captions, sound, picture)")
     ap.add_argument("--fps", type=float, default=4.0)
     ap.add_argument("--model")
     ap.add_argument("--out-dir", default=os.path.join(ROOT, "Research Notes", "Watch Reports"))
     a = ap.parse_args()
+    a.ask = PRECHECK if a.precheck else a.ask
     targets = list(a.targets) + (channel_top(a.channel, a.top) if a.channel else [])
     if not targets:
         ap.error("give at least one link, id, file or --channel")

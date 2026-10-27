@@ -113,6 +113,7 @@ Two runs a day (scheduled tasks "MetaSports NBA daily run" and "MetaSports FC da
   - **Description:** empty.
   - **Tags (optional):** 3-8 relevant tags, about 100-150 characters (names, team, event, common misspellings). Never fill the 500
     characters. Check with `python Tools/tags_fit.py --cap 150 "tag1, tag2, ..."`. Put them in UPLOAD.md and the card.
+- **Gemini pre-check (Oct 27; only if `GEMINI_API_KEY` is set):** `python Tools/yt_watch.py "<the DRAFT to post>" --precheck --out-dir "Research Notes/Watch Reports/drafts"`. It watches and listens like a viewer (voice glitches, wrong captions, loud music, a frozen frame, a wrong player). A FIX line means check that timestamp yourself, then fix or explain; READY goes in UPLOAD.md and the Hub `postNote`. It is lenient, so READY never replaces QA or looking at the frames.
 - **Critic:** Script Critic v3 is advice, not a gate (Oct 26 overnight review). Only a factual error blocks a Short.
 - If it cannot pass today, do not ship it: Hub card `editing` with the reason. A late news Short is dropped, not posted late.
 

@@ -25,10 +25,12 @@
 | S07 | The goal that was never given, and changed football forever | Lampard's ghost goal vs Germany 2010, which led to goal-line technology | Injustice, then irony | 2010 broadcast | |
 | ~~S08~~ MADE as **S03** (Oct 22) | Goalkeepers who did a dance to win a final | Dudek's "spaghetti legs" in Istanbul 2005, copying Grobbelaar 1984 | Goalkeeper series; comeback (311K theme) | archive.org 2005 final | "Goalkeepers who..." |
 | S09 | Goalkeepers who were subbed on just for the penalties | Tim Krul vs Costa Rica (World Cup 2014) | Goalkeeper series; a coach's gamble pays off | 2014 broadcast | "Goalkeepers who..." |
-| S10 | Players who removed a sponsor in a press conference | Cristiano Ronaldo moves the Coca-Cola bottles (Euro 2020); reports of a market-value drop | Global star plus a reported money number (keep the "reportedly", causation is disputed) | Press-conference clip | |
+| S10 (script + notes Oct 27, awaiting voice key) | Players who removed a sponsor in a press conference | Cristiano Ronaldo moves the Coca-Cola bottles (Euro 2020); reports of a market-value drop | Global star plus a reported money number (keep the "reportedly", causation is disputed) | Press-conference clip | |
 | S11 | The bookmakers who lost millions on one football team | Leicester's 5000-1 title (2016) | Underdog (293K theme) plus a hard number | 2016 footage | |
 | S12 | Players who got punished by coaching kids | Eric Cantona's kung-fu kick (1995) and his community service | Downfall, then an absurd twist | 1995 footage | "Players who..." |
 | S13 | More Balotelli: Players who did crazy things at their own club | Balotelli and the darts at the youth players; the prison visit; the bully-confronting story (each one "reportedly") | Balotelli is proven gold; it also answers S02's comments | Fan clips / news | "Players who..." |
 | S14 | The player who scored five goals in nine minutes | Lewandowski vs Wolfsburg (2015) | Records ("looks fake but is real", 332K) | Bundesliga highlights | |
 
 **No teaser chain (owner, Oct 22):** Shorts end on the payoff. No "my next video is about..." and no follow ask: it kills retention.
+
+**Oct 27 daily research:** picks S09 (Krul) and the Beckham/Argentina revenge idea (Next Ideas #2). Sources and cautions are in `Research Notes/Daily Research/2026-10-27.md`. Krul's "2 of 20 penalties" figure comes from one AP-based report; re-check before scripting. Frame Beckham's 2002 goal without claiming a grudge (FIFA quotes him saying there was none).

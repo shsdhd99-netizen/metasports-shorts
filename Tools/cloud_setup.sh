@@ -14,4 +14,5 @@ if command -v certutil >/dev/null && [ -f /root/.ccr/agent-proxy-ca.crt ]; then
 fi
 [ -f "$HERE/.env" ] || cp "$HERE/.env.cloud" "$HERE/.env" 2>/dev/null || true   # voice id only; the key comes from the environment
 echo "ffmpeg: $(ffmpeg -version 2>/dev/null | head -1 | cut -c1-30)  node: $(node -v 2>/dev/null)  key: ${ELEVENLABS_API_KEY:+set}${ELEVENLABS_API_KEY:-MISSING}" | sed 's/key: set.*/key: set/'
+echo "gemini (Tools/yt_watch.py): $([ -n "${GEMINI_API_KEY:-}" ] && echo set || ([ -f Tools/.env ] && grep -q "^GEMINI_API_KEY=" Tools/.env && echo "set (Tools/.env)") || echo MISSING)"
 for h in www.basketball-reference.com www.espn.com x.com api.elevenlabs.io; do printf "%s %s\n" "$h" "$(curl -s -o /dev/null -m 10 -w '%{http_code}' https://$h/)"; done

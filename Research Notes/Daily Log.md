@@ -3,6 +3,19 @@
 One entry per channel per day, written by the daily runs (`.claude/skills/daily-run/SKILL.md`): data pulled, what was learned,
 research with sources, what was made, what changed in the rules or tools.
 
+## Tue Oct 27, 2026 (NBA daily run)
+
+**Blocked.** `cloud_setup.sh`: `key: MISSING` (no ElevenLabs key in the environment), so no voice and no render. No analytics tokens either (analytics: no token). Nothing faked.
+**Research.** No Oct 27 research file; used the Oct 26 scout. #2 Haliburton and #4 Nuggets kid are already built (#71, #72); #3 LaMelo/Ant is saturated (HoH 1.1M). Pick: scout #1, Bones Hyland's fake-throw technical (Wolves 117-94 Raptors, Oct 25). Sources are in the scout file (Yahoo/Big Lead, Heavy, ESPN box, AP via CBS).
+**Made.** Script, notes, cut plan and UPLOAD.md for #73 (no-music side, to keep the alternation). Hub card s73 set to `editing`: needs the key. Footage in /tmp/scout_src is gone; re-download with `Tools/x_clip.py`.
+
+## Tue Oct 27, 2026: FC daily build (routine; no ElevenLabs key)
+
+**Hub check.** Ready and unposted: S05 (Pickford) and S08 (Hand of God) = 2, so a build was due.
+**Blocked.** `ELEVENLABS_API_KEY` is not in the cloud environment, so no voice, render or QA. Per the daily-run skill: script and notes only, Hub card `editing`. Analytics: not run (no YT tokens checked; `yt-dlp` also missing, so `copy_check.py` could not run).
+**Pick.** Idea Bank S10 as S09 "Ronaldo moved two Coca-Cola bottles, and billions disappeared" (global star, concrete object, versus-their-sponsor conflict; not another "Goalkeepers who..."). Script 216 words (target 230-250; do not add, check length after the voice). Sources in `Soccer Channel/Productions/2026-10-27 S09 Ronaldo Moved The Coca-Cola Bottles/notes.md` (SI, Snopes, Al Jazeera, ESPN). Twist kept honest: the $4bn drop is a same-day market-value change and Snopes rates the causation "Mixture".
+**Open.** Footage not checked; Coca-Cola's exact quote needs a primary link; copy-check not run. Owner: add the ElevenLabs key to the environment settings.
+
 ## Sat Oct 24, 2026 (manual session; the automatic runs start Sun Oct 25)
 
 **Data.** Studio exports Oct 17-24 for both channels (`Research Notes/Studio Export Read (Oct 24, 2026).md`). API analytics:
