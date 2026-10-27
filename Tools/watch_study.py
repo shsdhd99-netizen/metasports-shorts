@@ -143,7 +143,7 @@ def main():
             continue
         med = statistics.median(v for _, v, _ in win)
         ranked = sorted(win, key=lambda e: e[1], reverse=True)
-        picks = [("top", e) for e in ranked[:a.top]] + [("bottom", e) for e in ranked[-a.bottom:]]
+        picks = [("top", e) for e in ranked[:a.top]] + ([("bottom", e) for e in ranked[-a.bottom:]] if a.bottom else [])
         print(f"{ch}: {len(win)} Shorts in the window, median {med:,.0f} views; watching {len(picks)}")
         for grp, (vid, views, title) in picks:
             def full():
