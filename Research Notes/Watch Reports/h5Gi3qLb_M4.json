@@ -1,0 +1,116 @@
+{
+ "length_s": 17.292,
+ "topic": "An examination of Giannis Antetokounmpo taking revenge on Mike Dunleavy Jr. during a playoff game after dirty plays.",
+ "lane": "moment",
+ "hook": {
+  "first_words": "Did Giannis take this too far during this playoff game?",
+  "first_frame": "A basketball player in a red jersey driving towards the hoop with defenders and crowd in the background.",
+  "on_screen_text_0_3s": "DID GIANNIS TAKE THIS TOO FAR?",
+  "shots_in_first_3s": 2
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 1.042,
+   "shows": "Basketball game action, player in red driving to the basket",
+   "kind": "action"
+  },
+  {
+   "start_s": 1.042,
+   "end_s": 5.958,
+   "shows": "Playoff game wide angle showing a player knocking another to the floor",
+   "kind": "action"
+  },
+  {
+   "start_s": 5.958,
+   "end_s": 9.25,
+   "shows": "Close-up replay angle of a player throwing a punch",
+   "kind": "replay"
+  },
+  {
+   "start_s": 9.25,
+   "end_s": 10.75,
+   "shows": "Game angle showing the punch in context",
+   "kind": "action"
+  },
+  {
+   "start_s": 10.75,
+   "end_s": 13.125,
+   "shows": "Close-up of Giannis looking angry on the bench",
+   "kind": "face"
+  },
+  {
+   "start_s": 13.125,
+   "end_s": 14.875,
+   "shows": "Game angle of Giannis retaliating",
+   "kind": "action"
+  },
+  {
+   "start_s": 14.875,
+   "end_s": 17.292,
+   "shows": "Replay angle of Dunleavy flying into the crowd",
+   "kind": "replay"
+  }
+ ],
+ "shot_count": 7,
+ "average_shot_s": 2.47,
+ "longest_shot_s": 4.916,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 195,
+  "tone": "dramatic sports commentary",
+  "original_audio_under_voice": true
+ },
+ "music": {
+  "present": true,
+  "style": "dramatic beats / suspenseful hip-hop",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "ALL CAPS",
+  "position": "middle",
+  "colours": "white",
+  "highlight_style": "none"
+ },
+ "text_overlays": [],
+ "cards_or_graphics": 0,
+ "framing": "crop",
+ "ending": {
+  "last_words": "and sent Dunleavy flying straight into the first row.",
+  "last_frame": "Dunleavy sitting in the first row of spectators after being knocked over.",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "Did Giannis take this too far? During this playoff game, a young Giannis got angry after Dunleavy grabbed his jersey and knocked him to the floor. And earlier in the same game, Dunleavy had already gotten away with a sneaky punch on Giannis's teammate. So after all those dirty plays, Giannis finally had enough. Then he saw the perfect chance to get revenge and sent Dunleavy flying straight into the first row.",
+ "retention_tricks": [
+  "rapid hook question",
+  "slow-motion replays of altercations",
+  "zoom-in on facial reactions",
+  "cliffhanger resolution paying off at the end"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": true,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "High-stakes narrative arc showing provocation followed by revenge",
+  "Effective use of slow-motion replay angles to highlight key hits",
+  "Compelling close-up reaction shot building emotional tension"
+ ],
+ "_meta": {
+  "source": "h5Gi3qLb_M4",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

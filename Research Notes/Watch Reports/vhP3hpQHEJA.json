@@ -1,0 +1,330 @@
+{
+ "length_s": 40.5,
+ "topic": "Analysis of potential punishments Manchester City could face after being found guilty of Premier League financial charges.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "What punishments are Manchester City most likely to face now that they've been found guilty?",
+  "first_frame": "Split screen with football players confronting each other on top and a male presenter on the bottom.",
+  "on_screen_text_0_3s": "What PUNISHMENTS are Manchester City most likely to face now that they've been found GUILTY?",
+  "shots_in_first_3s": 1
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 4.0,
+   "shows": "Football match confrontation on top, presenter speaking at bottom",
+   "kind": "action"
+  },
+  {
+   "start_s": 4.0,
+   "end_s": 6.0,
+   "shows": "News banner graphic reporting Man City charges",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 6.0,
+   "end_s": 8.0,
+   "shows": "Aerial shot of Etihad Stadium pitch",
+   "kind": "stock"
+  },
+  {
+   "start_s": 8.0,
+   "end_s": 13.0,
+   "shows": "Premier League logo",
+   "kind": "still"
+  },
+  {
+   "start_s": 13.0,
+   "end_s": 15.75,
+   "shows": "Sergio Aguero iconic goal vs QPR",
+   "kind": "replay"
+  },
+  {
+   "start_s": 15.75,
+   "end_s": 18.75,
+   "shows": "Manchester City lifting Premier League trophy",
+   "kind": "action"
+  },
+  {
+   "start_s": 18.75,
+   "end_s": 22.5,
+   "shows": "Aerial view of Etihad Stadium exterior",
+   "kind": "stock"
+  },
+  {
+   "start_s": 22.5,
+   "end_s": 32.5,
+   "shows": "Graphic of The Athletic news article by David Ornstein",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 32.5,
+   "end_s": 34.0,
+   "shows": "Manchester City celebrating trophy win",
+   "kind": "action"
+  },
+  {
+   "start_s": 34.0,
+   "end_s": 36.5,
+   "shows": "Pep Guardiola at press conference",
+   "kind": "face"
+  },
+  {
+   "start_s": 36.5,
+   "end_s": 39.25,
+   "shows": "Everton and Nottingham Forest logos",
+   "kind": "still"
+  },
+  {
+   "start_s": 39.25,
+   "end_s": 42.0,
+   "shows": "Goodison Park stadium exterior",
+   "kind": "stock"
+  },
+  {
+   "start_s": 42.0,
+   "end_s": 46.0,
+   "shows": "Premier League chief executive Richard Masters at hearing",
+   "kind": "action"
+  },
+  {
+   "start_s": 46.0,
+   "end_s": 50.25,
+   "shows": "Kieran Maguire expert quote graphic",
+   "kind": "still"
+  },
+  {
+   "start_s": 50.25,
+   "end_s": 52.5,
+   "shows": "Etihad Stadium aerial view",
+   "kind": "stock"
+  },
+  {
+   "start_s": 52.5,
+   "end_s": 55.5,
+   "shows": "Everton club crest on stadium",
+   "kind": "still"
+  },
+  {
+   "start_s": 55.5,
+   "end_s": 58.5,
+   "shows": "Erling Haaland on pitch during yellow card event",
+   "kind": "action"
+  },
+  {
+   "start_s": 58.5,
+   "end_s": 100.25,
+   "shows": "Football match gameplay wide view",
+   "kind": "action"
+  },
+  {
+   "start_s": 100.25,
+   "end_s": 103.25,
+   "shows": "Enzo Fernandez with TRANSFER BAN text overlay",
+   "kind": "still"
+  },
+  {
+   "start_s": 103.25,
+   "end_s": 105.0,
+   "shows": "Etihad Stadium top-down view",
+   "kind": "stock"
+  },
+  {
+   "start_s": 105.0,
+   "end_s": 109.0,
+   "shows": "Erling Haaland with EXPELLED? graphic",
+   "kind": "action"
+  },
+  {
+   "start_s": 109.0,
+   "end_s": 112.5,
+   "shows": "Manchester City logo",
+   "kind": "still"
+  },
+  {
+   "start_s": 112.5,
+   "end_s": 113.0,
+   "shows": "Emirates Stadium exterior",
+   "kind": "stock"
+  },
+  {
+   "start_s": 113.0,
+   "end_s": 113.5,
+   "shows": "Anfield Stadium exterior",
+   "kind": "stock"
+  },
+  {
+   "start_s": 113.5,
+   "end_s": 114.5,
+   "shows": "Old Trafford Stadium exterior",
+   "kind": "stock"
+  },
+  {
+   "start_s": 114.5,
+   "end_s": 115.0,
+   "shows": "Tottenham Hotspur Stadium exterior",
+   "kind": "stock"
+  },
+  {
+   "start_s": 115.0,
+   "end_s": 117.5,
+   "shows": "Richard Masters speaking at parliamentary committee",
+   "kind": "face"
+  },
+  {
+   "start_s": 117.5,
+   "end_s": 120.25,
+   "shows": "Manchester City players running on pitch in celebration",
+   "kind": "action"
+  },
+  {
+   "start_s": 120.25,
+   "end_s": 123.75,
+   "shows": "Hill Dickinson Stadium exterior",
+   "kind": "stock"
+  },
+  {
+   "start_s": 123.75,
+   "end_s": 125.5,
+   "shows": "Goodison Park exterior shot",
+   "kind": "stock"
+  },
+  {
+   "start_s": 125.5,
+   "end_s": 128.75,
+   "shows": "Khaldoon Al Mubarak with graphic of falling cash",
+   "kind": "still"
+  },
+  {
+   "start_s": 128.75,
+   "end_s": 131.75,
+   "shows": "Khaldoon Al Mubarak interview clip",
+   "kind": "face"
+  },
+  {
+   "start_s": 131.75,
+   "end_s": 134.75,
+   "shows": "Pep Guardiola on pitch with 6-12 MONTHS text",
+   "kind": "face"
+  },
+  {
+   "start_s": 134.75,
+   "end_s": 137.25,
+   "shows": "Khaldoon Al Mubarak interview clip",
+   "kind": "face"
+  },
+  {
+   "start_s": 137.25,
+   "end_s": 138.5,
+   "shows": "Pep Guardiola walking on pitch",
+   "kind": "action"
+  },
+  {
+   "start_s": 138.5,
+   "end_s": 139.25,
+   "shows": "Rodri looking back on pitch",
+   "kind": "face"
+  },
+  {
+   "start_s": 139.25,
+   "end_s": 139.75,
+   "shows": "Bernardo Silva on pitch",
+   "kind": "face"
+  },
+  {
+   "start_s": 139.75,
+   "end_s": 140.5,
+   "shows": "John Stones on pitch looking thoughtful",
+   "kind": "face"
+  }
+ ],
+ "shot_count": 38,
+ "average_shot_s": 1.07,
+ "longest_shot_s": 10.0,
+ "voice": {
+  "type": "human",
+  "gender": "male",
+  "words_per_minute_estimate": 195,
+  "tone": "engaging",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "suspenseful synth beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "sentence",
+  "position": "lower-middle",
+  "colours": [
+   "white"
+  ],
+  "highlight_style": "none"
+ },
+ "text_overlays": [
+  {
+   "at_s": 0.0,
+   "text": "What PUNISHMENTS are Manchester City most likely to face now that they've been found GUILTY?"
+  },
+  {
+   "at_s": 23.0,
+   "text": "Man City Sanctions Still to Be Decided After Verdict"
+  },
+  {
+   "at_s": 46.5,
+   "text": "KIERAN MAGUIRE - A 40-60 POINT DEDUCTION WOULD BE THE LOGICAL PUNISHMENT"
+  },
+  {
+   "at_s": 101.0,
+   "text": "TRANSFER BAN"
+  },
+  {
+   "at_s": 105.0,
+   "text": "EXPELLED?"
+  },
+  {
+   "at_s": 132.75,
+   "text": "6-12 MONTHS"
+  }
+ ],
+ "cards_or_graphics": 5,
+ "framing": "split-screen vertical layout with talking head presenter at bottom and 16:9 contextual video/graphics at top",
+ "ending": {
+  "last_words": "saw this coming.",
+  "last_frame": "Split screen with John Stones on top and presenter at bottom.",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "What punishments are Manchester City most likely to face now that they've been found guilty? Manchester City have just been found guilty on 114 out of 115 charges for breaking the Premier League's financial rules, with the charges covering nine years of alleged fraud from 2009 to 2018, the same stretch where City lifted three Premier League titles. But here's why the punishment could be unlike anything we've ever seen in English football. Firstly, David Ornstein of The Athletic reported that so far, no sanctions have been decided, yet all possibilities remain on the table, including stripped titles, although that seems unlikely according to Ornstein's article that just came out with The Athletic. What's a lot more likely is a points deduction. Now, Everton got a six-point deduction and Forest had four points stripped for breaches that were far smaller on scale. City's case has over 100 guilty verdicts spanning nearly a decade, and football finance expert Kieran Maguire has said a deduction of somewhere between 40 and 60 points would be the logical punishment to stay consistent with those earlier decisions, which would almost certainly send any team to the bottom of the table, no matter how well they play. On top of that, the commission could impose a transfer ban or, in the most extreme case, expel them from the league entirely, although I personally can't picture them getting expelled. But there's actually one more thing that could cost City a lot of money. Arsenal, Liverpool, Manchester United, and Spurs all filed legal notices back in 2024 to claim compensation for the damage City caused them. For reference, Burnley already won over $47 million from Everton for a far smaller breach. So these legal notices could cost City hundreds of millions of dollars. And at the end of the day, City are expected to appeal, which could push a final resolution back another six to 12 months. But right now, things are looking really bad for them, and it's almost like a few of their key departures this summer saw this coming.",
+ "retention_tricks": [
+  "split-screen presentation",
+  "rapid visual shot cuts",
+  "bold graphics and headlines",
+  "expert quote highlights",
+  "open loop on financial legal notices near the end"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": false,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "Uses a split-screen format combining an expressive presenter with fast-paced relevant clips and headlines.",
+  "Addresses a trending, high-interest topic in football with expert commentary and clear potential outcomes.",
+  "Maintains continuous visual variety with frequent shot changes and text overlays every few seconds."
+ ],
+ "_meta": {
+  "source": "vhP3hpQHEJA",
+  "model": "gemini-3.5-flash",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}
