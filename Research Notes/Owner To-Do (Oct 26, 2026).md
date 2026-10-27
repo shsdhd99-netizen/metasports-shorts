@@ -20,7 +20,7 @@ Already posted at about 12:45 AM: "Luka Just Did What Kobe Never Did" (NBA) and 
 - [ ] **Judge each Short at 72 hours.** Never re-upload one.
 
 ## One-time setup (when you have 10 minutes)
-- [ ] **Free Gemini key** (you said later). Make it at aistudio.google.com/apikey. Add it in the cloud environment settings (session title bar > environment > Edit) as `GEMINI_API_KEY`. Never paste it in chat. It lets me watch and hear competitor Shorts and our own drafts.
+- [ ] **Gemini key: half done (Oct 27).** The key you made works. I saved it on this session's cloud machine only (a git-ignored file, never committed), so it disappears when the machine resets, and the daily runs can't see it. Because it was pasted in chat, the safest fix is: at aistudio.google.com/apikey delete it, make a new one, and add the new one in the environment settings as `GEMINI_API_KEY` (Network secrets, or environment variables). Don't add billing.
 - [ ] **YouTube Analytics sign-in** for daily retention without exports: `Tools Guide.md`, section "Daily retention, automatically". Then stayed % and retention curves arrive every day.
 
 ## What runs on its own now (never posts anything)

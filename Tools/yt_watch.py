@@ -15,6 +15,11 @@ Usage:
   python Tools/yt_watch.py --channel @swishyhoopz --top 5               # watch a channel's 5 most-viewed Shorts
 Options: --fps 4 (frames per second the model looks at; default 4 so it can count cuts), --model NAME,
          --out-dir DIR (default 'Research Notes/Watch Reports').
+Models (Oct 27 2026): tries the newest flash, then gemini-flash-latest, then the newest flash-lite, moving on when one
+answers 503 "high demand" or 429. On the first day only flash-lite answered free-tier calls.
+Accuracy check (Oct 27, flash-lite, #48 and #64): the narration transcript and the shot timing matched our files, but it
+said "music: present" on both and both were posted without music (it likely hears crowd noise or sound effects as music).
+Don't trust its music field without a second check.
 Output: one JSON report per video plus a line in <out-dir>/index.csv. Tier every number in it as [S] (model-observed);
 it is a model's watch, not a measurement, so spot-check anything surprising against the frames (Tools/yt_sheet.py).
 """
@@ -74,23 +79,33 @@ def call(path, body=None, method=None, headers=None, raw=None):
         raise SystemExit(f"Gemini API error {e.code}: {msg}")
 
 
-def pick_model(want):
+def newest(names, suffix):
+    """Newest stable gemini-N-<suffix> (no preview/tts/image variants), or None."""
+    def score(n):
+        v = re.match(rf"gemini-(\d+(?:\.\d+)?)-{suffix}$", n)
+        return float(v.group(1)) if v else -1
+    best = max(names, key=score, default="")
+    return best if best and score(best) > 0 else None
+
+
+def pick_models(want):
+    """The model to try first, then fallbacks for when it is overloaded (503) or rate-limited (429).
+    Oct 27 2026: the newest flash answered 503 "high demand" to free-tier calls while flash-lite worked, and
+    gemini-2.5-flash is closed to new keys (404)."""
     if want:
-        return want
+        return [want]
     if os.environ.get("GEMINI_MODEL"):
-        return os.environ["GEMINI_MODEL"]
+        return [os.environ["GEMINI_MODEL"]]
     try:
         out, _ = call("/v1beta/models?pageSize=200")
         names = [m["name"].split("/")[-1] for m in json.loads(out).get("models", [])
                  if "generateContent" in m.get("supportedGenerationMethods", [])]
     except SystemExit:
         names = []
-
-    def score(n):  # newest stable "flash" first (free tier, fast); avoid lite/tts/image/embedding variants
-        v = re.match(r"gemini-(\d+(?:\.\d+)?)-flash$", n) or re.match(r"gemini-(\d+(?:\.\d+)?)-flash-latest$", n)
-        return float(v.group(1)) if v else -1
-    best = max(names, key=score, default="")
-    return best if best and score(best) > 0 else "gemini-2.5-flash"
+    order = [newest(names, "flash"), "gemini-flash-latest" if "gemini-flash-latest" in names else None,
+             newest(names, "flash-lite")]
+    order = [m for i, m in enumerate(order) if m and m not in order[:i]]
+    return order or ["gemini-flash-latest"]
 
 
 def upload(path):
@@ -125,7 +140,8 @@ def yt_url(s):
     return f"https://www.youtube.com/watch?v={vid}", vid
 
 
-def watch(target, model, fps, ask):
+def watch(target, models, fps, ask):
+    """Returns (video id, report, the model that answered). Moves to the next model on 503/429."""
     yt = yt_url(target)
     if yt:
         uri, vid, mime = yt[0], yt[1], None
@@ -134,18 +150,26 @@ def watch(target, model, fps, ask):
     part = {"file_data": {"file_uri": uri, **({"mime_type": mime} if mime else {})}, "video_metadata": {"fps": fps}}
     body = {"contents": [{"parts": [part, {"text": ask or PROMPT}]}],
             "generationConfig": {"temperature": 0.2, **({} if ask else {"responseMimeType": "application/json"})}}
-    out, _ = call(f"/v1beta/models/{model}:generateContent", body, method="POST")
+    for i, model in enumerate(models):
+        try:
+            out, _ = call(f"/v1beta/models/{model}:generateContent", body, method="POST")
+            break
+        except SystemExit as e:
+            if i == len(models) - 1 or not re.search(r"error (503|429)", str(e)):
+                raise
+            print(f"{model} is busy ({str(e)[17:20]}); trying {models[i + 1]}", file=sys.stderr)
+            time.sleep(3)
     r = json.loads(out)
     try:
         text = "".join(p.get("text", "") for p in r["candidates"][0]["content"]["parts"])
     except (KeyError, IndexError):
         raise SystemExit(f"no answer: {json.dumps(r)[:600]}")
     if ask:
-        return vid, {"question": ask, "answer": text}
+        return vid, {"question": ask, "answer": text}, model
     try:
-        return vid, json.loads(text)
+        return vid, json.loads(text), model
     except json.JSONDecodeError:
-        return vid, {"raw": text}
+        return vid, {"raw": text}, model
 
 
 def channel_top(handle, n):
@@ -169,7 +193,7 @@ def main():
     targets = list(a.targets) + (channel_top(a.channel, a.top) if a.channel else [])
     if not targets:
         ap.error("give at least one link, id, file or --channel")
-    model = pick_model(a.model)
+    models = pick_models(a.model)
     os.makedirs(a.out_dir, exist_ok=True)
     idx = os.path.join(a.out_dir, "index.csv")
     new = not os.path.exists(idx)
@@ -179,7 +203,7 @@ def main():
             w.writerow(["date", "video", "model", "length_s", "lane", "shot_count", "average_shot_s", "shots_in_first_3s",
                         "voice", "music", "cards", "report"])
         for t in targets:
-            vid, rep = watch(t, model, a.fps, a.ask)
+            vid, rep, model = watch(t, models, a.fps, a.ask)
             rep["_meta"] = {"source": t, "model": model, "fps": a.fps, "watched": datetime.date.today().isoformat(),
                             "tier": "[S] model-observed, not measured"}
             path = os.path.join(a.out_dir, f"{vid}{'_ask' if a.ask else ''}.json")
