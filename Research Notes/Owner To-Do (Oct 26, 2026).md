@@ -20,6 +20,11 @@ Already posted at about 12:45 AM: "Luka Just Did What Kobe Never Did" (NBA) and 
 - [ ] **Judge each Short at 72 hours.** Never re-upload one.
 
 ## One-time setup (when you have 10 minutes)
+- [ ] **URGENT: the 3 morning runs can't save or voice anything (found Oct 27).**
+  - Today's research, NBA build and FC build all ran, but GitHub refused their saves (403). The repo isn't attached to the scheduled tasks, so their work was lost with their cloud machines. I recovered it all from their records.
+  - The builds also had no ElevenLabs key, so they only wrote scripts ("Bones Hyland Got A Technical For A Fake Throw", "Ronaldo Moved The Coca-Cola Bottles").
+  - **Fix, in the environment settings (session title bar > environment > Edit):** add the repo `shsdhd99-netizen/metasports-shorts` under Repositories, and add `ELEVENLABS_API_KEY` and `GEMINI_API_KEY` as secrets or variables. Never paste them in chat.
+  - **If Repositories isn't offered there:** I can point the 3 runs at this session instead (it already has the repo and keys). The catch: they'd run one at a time inside this chat.
 - [ ] **Gemini key: half done (Oct 27).** The key you made works. I saved it on this session's cloud machine only (a git-ignored file, never committed), so it disappears when the machine resets, and the daily runs can't see it. Because it was pasted in chat, the safest fix is: at aistudio.google.com/apikey delete it, make a new one, and add the new one in the environment settings as `GEMINI_API_KEY` (Network secrets, or environment variables). Don't add billing.
 - [ ] **YouTube Analytics sign-in** for daily retention without exports: `Tools Guide.md`, section "Daily retention, automatically". Then stayed % and retention curves arrive every day.
 

@@ -2,6 +2,16 @@
 Last updated: 2026-10-14 (newest section at the bottom). Branch: `main-329h3w` (draft PR #1). The user posts the videos; NEVER upload/publish or open YouTube Studio.
 **Owner, Oct 19 (standing until they say otherwise):** "you are able to run from my pc now, you do not need to look for cloud solutions." Prefer the PC when the session runs there. (Oct 26 overnight review: THE #42 FORMAT is one lane among several, not the lead; moments are about half of NBA Shorts. See House rules and `Research Notes/Rule Changes Applied (Oct 26, 2026).md`.) When the owner is away from the PC, source footage in the cloud yourself.
 
+## Oct 27, 2026: scheduled runs can't push; Gemini watcher live (read this first)
+- The 5:43 research, 6:41 NBA build and 9:39 FC build ran on Oct 27, but every push got a 403. The repo isn't one of the routine sessions' sources, and those sessions have no add_repo. Their commits were recovered from the session records into this branch (commit 365a4b4). The builds also had no `ELEVENLABS_API_KEY` in the environment, so they made scripts only.
+  - Fix (owner): environment settings, add the repo under Repositories plus the ElevenLabs and Gemini keys.
+  - Fallback: point the routines at the main session with update_trigger `persistent_session_id`.
+- **Gemini** (`Tools/yt_watch.py`, `Tools/watch_study.py`; notes in `Research Notes/Gemini Uses (Oct 27, 2026).md`):
+  - The key works in the main session (`Tools/.env`, git-ignored).
+  - Flash-lite is the free model that answers reliably.
+  - Trust it for transcripts, the shots in the first 3-5 s, and finding a quote in footage. Don't trust it for music or for total shot counts.
+- **Name clash:** FC S09 is both the Krul idea (Idea Bank) and the Ronaldo Coca-Cola script folder. Renumber one before posting.
+
 ## Oct 24, 2026: the automatic routine (read this first)
 - **Scheduled tasks (recreated Oct 26; the Oct 24 ones no longer exist):**
   - "MetaSports daily research": 5:43 AM ET, research only. Writes `Research Notes/Daily Research/<date>.md`.
