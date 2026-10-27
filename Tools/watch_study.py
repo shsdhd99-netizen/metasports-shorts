@@ -125,7 +125,11 @@ def main():
     ap.add_argument("--bottom", type=int, default=10)
     ap.add_argument("--no-hook", action="store_true")
     ap.add_argument("--fps", type=float, default=4.0)
+    ap.add_argument("--reports-dir", help="where the per-Short reports are cached (default Research Notes/Watch Reports)")
+    ap.add_argument("--out-dir", help="where the study CSV and summary go (default Research Notes/Watch Study)")
     a = ap.parse_args()
+    global REPORTS, OUT
+    REPORTS, OUT = a.reports_dir or REPORTS, a.out_dir or OUT
     os.makedirs(REPORTS, exist_ok=True)
     os.makedirs(OUT, exist_ok=True)
     models = w.pick_models(None)
