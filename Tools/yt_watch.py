@@ -26,7 +26,7 @@ Don't trust its music field without a second check.
 Output: one JSON report per video plus a line in <out-dir>/index.csv. Tier every number in it as [S] (model-observed);
 it is a model's watch, not a measurement, so spot-check anything surprising against the frames (Tools/yt_sheet.py).
 """
-import argparse, csv, datetime, json, os, re, subprocess, sys, time, urllib.error, urllib.request
+import argparse, csv, datetime, http.client, json, os, re, subprocess, sys, time, urllib.error, urllib.request
 
 API = "https://generativelanguage.googleapis.com"
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -121,6 +121,9 @@ def call(path, body=None, method=None, headers=None, raw=None):
     except urllib.error.HTTPError as e:
         msg = e.read().decode(errors="replace")[:600]
         raise SystemExit(f"Gemini API error {e.code}: {msg}")
+    except (urllib.error.URLError, http.client.HTTPException, ConnectionError, TimeoutError) as e:
+        # Oct 27: a dropped connection ("Remote end closed connection") crashed a long study; treat it like a busy server
+        raise SystemExit(f"Gemini API error 503: network: {e}")
 
 
 def versions(names, suffix):

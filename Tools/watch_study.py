@@ -133,8 +133,10 @@ def main():
     os.makedirs(REPORTS, exist_ok=True)
     os.makedirs(OUT, exist_ok=True)
     models = w.pick_models(None)
-    rows = []
+    rows, stop = [], False
     for ch in a.channels:
+        if stop:
+            break
         win = shorts(ch)[a.skip_new:a.skip_new + a.window]
         if len(win) < a.top + a.bottom:
             print(f"{ch}: only {len(win)} Shorts in the window, skipped")
@@ -154,7 +156,11 @@ def main():
                 hook = None if a.no_hook else cached(os.path.join(REPORTS, f"{vid}_hook.json"),
                                                      lambda: patient(lambda: w.hook_cuts(vid, models)[0]))
             except SystemExit as e:
+                if "daily limit" not in str(e):
+                    print(f"  skipped {vid}: {str(e)[:150]}")  # one bad Short doesn't end the study
+                    continue
                 print(f"  stopped: {e}")
+                stop = True
                 break
             rows.append(row(ch, grp, vid, views, title, med, rep, hook))
             print(f"  {grp:6} {views:>10,}  {title[:50]}")
