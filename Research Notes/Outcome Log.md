@@ -480,3 +480,20 @@ Public counts (`channel_check.py`, yt-dlp). No API token in the cloud (the owner
 - **Haliburton Threw An Alley-Oop To Himself** (#71): posted Tue morning by the owner (id lU6xSO1cAOY). It has 2,100 views on the same day. No-music side of the music test.
 - **Chuck Failed A Test With The Answers** (#70): 1,800 views. **Luka Just Did What Kobe Never Did** (#69): 1,200.
 - **Next:** "This Kid Felt Every Free Throw" (#72, music side), tonight about 6 PM or Wed 11 AM.
+
+## Tue Oct 27, 2026 (evening, 23:11 UTC): daily check (scheduled, read-only)
+Public counts (`channel_check.py`). No API token in the cloud: the Analytics sign-in is still pending and is on the owner's task list. No new Studio export since Oct 24.
+- **Median of the last 7: 2,250** (normal before that: 4,600). Trend: DOWN.
+
+| Short | Views | #42 FORMAT? | Note |
+|---|---|---|---|
+| Why SGA Ended His Own NBA Record | 7,900 | record variant | best of the 7 |
+| Who Has Lost The Most Games In NBA History? | 5,500 | **yes** (format post 3) | |
+| Haliburton Threw An Alley-Oop To Himself | 2,800 | no (moment) | posted Tue morning; judge at 72 h (Fri) |
+| Caitlin Clark Did What No NBA Player Has | 2,700 | no | |
+| Chuck Failed A Test With The Answers | 1,800 | no (moment) | about 1.5 days old; music side |
+| All Three Williamses Got A Technical | 1,400 | no | |
+| Luka Just Did What Kobe Never Did | 1,200 | no (news) | about 2 days old; flat since 9 h; no-music side |
+
+**Format test:** closed (1 of 3 at 74%+). **Retention flags:** none readable.
+**Lesson:** none (n=1 per Short). The two weakest are both news-led, which fits the Oct 27 competitor study ([S], `Research Notes/Watch Study/Formats and Scripts (Oct 27, 2026).md`), but that's not a rule from our own data yet.
