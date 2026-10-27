@@ -1,0 +1,121 @@
+{
+ "length_s": 25.5,
+ "topic": "Steph Curry successfully making an incredible tunnel shot that other NBA players fail at.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "This is proof that Steph Curry was actually not human.",
+  "first_frame": "Steph Curry holding a basketball in the tunnel behind the court, surrounded by fans and security.",
+  "on_screen_text_0_3s": "THIS IS PROOF THAT STEPH",
+  "shots_in_first_3s": 3
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 0.75,
+   "shows": "Steph Curry holding a basketball in the tunnel",
+   "kind": "action"
+  },
+  {
+   "start_s": 0.75,
+   "end_s": 2.25,
+   "shows": "Steph Curry shooting a basketball from the tunnel",
+   "kind": "action"
+  },
+  {
+   "start_s": 2.25,
+   "end_s": 3.0,
+   "shows": "Steph Curry celebrating in the tunnel",
+   "kind": "action"
+  },
+  {
+   "start_s": 3.0,
+   "end_s": 7.0,
+   "shows": "NBA player attempting a full-court shot and missing during a game",
+   "kind": "action"
+  },
+  {
+   "start_s": 7.0,
+   "end_s": 11.25,
+   "shows": "Jarrett Jack attempting a full-court shot into the fans",
+   "kind": "action"
+  },
+  {
+   "start_s": 11.25,
+   "end_s": 16.0,
+   "shows": "Luka Doncic attempting a full-court shot hitting the backboard",
+   "kind": "action"
+  },
+  {
+   "start_s": 16.0,
+   "end_s": 20.75,
+   "shows": "Kyle Kuzma attempting a full-court shot and missing",
+   "kind": "action"
+  },
+  {
+   "start_s": 20.75,
+   "end_s": 25.5,
+   "shows": "Steph Curry making the tunnel shot easily",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 8,
+ "average_shot_s": 3.19,
+ "longest_shot_s": 4.75,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 175,
+  "tone": "excited, dramatic",
+  "original_audio_under_voice": true
+ },
+ "music": {
+  "present": true,
+  "style": "upbeat energetic hip-hop beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 2,
+  "case": "ALL CAPS",
+  "position": "middle",
+  "colours": "white with occasional yellow highlighting",
+  "highlight_style": "word highlight on active speech"
+ },
+ "text_overlays": [],
+ "cards_or_graphics": 0,
+ "framing": "blurred background",
+ "ending": {
+  "last_words": "easily got the bucket.",
+  "last_frame": "Steph Curry celebrating after making the tunnel shot.",
+  "loops_to_start": true,
+  "call_to_action": "none"
+ },
+ "script": "This is proof that Steph Curry was actually not human. You see, many NBA players have tried to take a full court shot, but they usually miss. One time, Jarrett Jack attempted a full court shot, but it went straight into the fans. Then Luka Doncic tried this challenge too, but the ball bounced off the top of the backboard. The same thing happened here. Kyle Kuzma tried a full court shot, but it didn't go in. Meanwhile, Steph Curry is built different. When he did the same challenge, he easily got the bucket.",
+ "retention_tricks": [
+  "rapid hook framing Steph as superhuman",
+  "montage of failures leading to the final success",
+  "fast pacing with dynamic word-by-word captions"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": true,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "High contrast between standard NBA players failing and Steph Curry succeeding",
+  "Fast cuts and energetic pacing keep attention high",
+  "Clear narrative arc: establishing the challenge, showing failures, and delivering the ultimate payoff"
+ ],
+ "_meta": {
+  "source": "oTMqT9dJMpw",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

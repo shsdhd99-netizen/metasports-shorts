@@ -32,7 +32,9 @@
 1. **Top-vs-bottom channel studies** (`Tools/watch_study.py`).
    - Gemini watches a channel's best and worst recent Shorts, and I read one CSV.
    - This is our cheapest evidence for or against our rules: hold the opening, no cards, replays, countdowns, a short first line.
-   - First run: Swishyyy and Hoopiverse, Oct 27 (see `Research Notes/Watch Study/`).
+   - First run, Oct 27: Swishyyy, Hoopiverse and Ahmed's Goal, 60 Shorts in about an hour, all free.
+   - Result: hits and misses opened the same way; the subject was the difference.
+   - Write-up: `Research Notes/Watch Study/Findings (Oct 27, 2026).md`.
 2. **Competitor outliers in the daily research.** The 5:43 AM task already watches the top 2 outliers when the key is set, and says what the hook and payoff were.
 3. **Pre-post check of every draft** (`--precheck`).
    - Listens for voice glitches, captions that don't match, loud music, frozen frames and a wrong player.

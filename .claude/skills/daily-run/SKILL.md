@@ -58,6 +58,7 @@ Two runs a day (scheduled tasks "MetaSports NBA daily run" and "MetaSports FC da
 - **Read THE RULES §1 in `MetaSports - Playbook.md` first (Oct 26 overnight review).** Pick today's lane from the dataset's last 6
   posts on this channel (lanes below); a lane with 3 posts in a row below the channel median is retired until the Sunday review. A strong concept that got under 74% stayed may get ONE new edit (new first 3 s and frame 1, new title),
   never the same file again.
+- **Stranger test (Oct 27 watch study [S], `Research Notes/Watch Study/Findings (Oct 27, 2026).md`):** before scripting, ask whether someone who doesn't follow the sport would stop for it. Kids, family, giants, spectacle, the 3-4 biggest names, or a scandal about them pass. History trivia, role players' personality bits and "players who..." lists of lesser names don't. On Swishyyy, Hoopiverse and Ahmed's Goal, hits and misses had the same opening edit; the subject was the difference.
 - **NBA lanes (Oct 26 overnight review) [S] `Research Notes/Similar Channels (Oct 26, 2026).md` §4:**
   - **About half are moments:** last night's funny, odd or skilful thing you can watch (game, bench, warm-up, fan, kid, mascot,
     broadcast desk), narrated: who, what, the reaction or payoff. Each moment needs **one fact the clip can't show** (YouTube's

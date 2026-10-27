@@ -278,3 +278,12 @@ Tiers: [V] verified on our files or data, [S] supported by our numbers (small n)
 - **[V] Moments you can watch beat explainers.** Moments: median 48K overall and 78K in the newest 101, with all 18 of the 1M+ hits. Explainers, history and stats: 36K and 44K, with zero 1M+.
 - **[V]** Their weakest Shorts are history and stat narratives, which is our new-era lane. Several of their topics are the same as our old-era hits.
 - **Changed:** both skills now put "one moment you can watch" first (about 2 in 3 NBA Shorts). Write-up: `Research Notes/Channel Study - Swishyyy (Oct 26, 2026).md`.
+
+## Oct 27, 2026: Gemini watch study, hits vs misses on the same channel ([S], n about 10 per group per channel)
+- **[S] The editing basics don't separate hits from misses.** On Swishyyy, Hoopiverse and Ahmed's Goal, top and bottom Shorts had the same opening: 2 shots in the first 3 s, about 3 in the first 5 s, the subject on screen in second 1, no cards (NBA) and a line 1 of about 11 words. They are the entry ticket.
+- **[S] The subject separates them.**
+  - **NBA hits:** spectacle, kids, family, size and the biggest legends.
+  - **NBA misses:** history and trivia explainers, and fan-only personality bits about current role players.
+  - **Soccer hits (Ahmed's Goal):** megastars in a current controversy.
+  - **Soccer misses:** "Players who..." lists of lesser names.
+- **Changed:** the daily-run research step now applies a "stranger test" when it picks a story. Write-up: `Research Notes/Watch Study/Findings (Oct 27, 2026).md`.

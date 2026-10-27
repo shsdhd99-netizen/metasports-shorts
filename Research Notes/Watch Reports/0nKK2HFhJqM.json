@@ -1,0 +1,139 @@
+{
+ "length_s": 32.5,
+ "topic": "A compilation of NBA dads interacting with and sometimes playing basketball against their sons.",
+ "lane": "moment",
+ "hook": {
+  "first_words": "Bro, why does Dwyane Wade treat his son differently?",
+  "first_frame": "Dwyane Wade standing close behind his son on a basketball court, with text on screen.",
+  "on_screen_text_0_3s": "Bro, why does Dwyane Wade treat his son differently",
+  "shots_in_first_3s": 3
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 1.75,
+   "shows": "Dwyane Wade playing defense against his son on a court",
+   "kind": "action"
+  },
+  {
+   "start_s": 1.75,
+   "end_s": 2.75,
+   "shows": "Bronny James playing in a high school jersey",
+   "kind": "action"
+  },
+  {
+   "start_s": 2.75,
+   "end_s": 5.66,
+   "shows": "Kyrie Irving embracing a kid on a bean bag chair",
+   "kind": "action"
+  },
+  {
+   "start_s": 5.66,
+   "end_s": 11.66,
+   "shows": "Steph Curry shooting baskets with his daughter Riley sitting courtside",
+   "kind": "action"
+  },
+  {
+   "start_s": 11.66,
+   "end_s": 13.5,
+   "shows": "LeBron James reacting with shock and excitement",
+   "kind": "face"
+  },
+  {
+   "start_s": 13.5,
+   "end_s": 15.5,
+   "shows": "Bronny James celebrating after a dunk",
+   "kind": "action"
+  },
+  {
+   "start_s": 15.5,
+   "end_s": 18.25,
+   "shows": "Bronny James driving and dunking in a game",
+   "kind": "action"
+  },
+  {
+   "start_s": 18.25,
+   "end_s": 22.25,
+   "shows": "LeBron James dancing on the sidelines in celebration",
+   "kind": "action"
+  },
+  {
+   "start_s": 22.25,
+   "end_s": 24.5,
+   "shows": "Dwyane Wade shooting a basketball in an arena",
+   "kind": "action"
+  },
+  {
+   "start_s": 24.5,
+   "end_s": 27.25,
+   "shows": "Dwyane Wade talking to his son on the court",
+   "kind": "action"
+  },
+  {
+   "start_s": 27.25,
+   "end_s": 32.5,
+   "shows": "Dwyane Wade aggressively blocking his son's shot",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 11,
+ "average_shot_s": 2.95,
+ "longest_shot_s": 6.0,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 160,
+  "tone": "casual and conversational",
+  "original_audio_under_voice": true
+ },
+ "music": {
+  "present": true,
+  "style": "upbeat instrumental hip-hop beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 2,
+  "case": "mixed",
+  "position": "middle",
+  "colours": "white, green, and pink",
+  "highlight_style": "word-by-word colour change"
+ },
+ "text_overlays": [],
+ "cards_or_graphics": 0,
+ "framing": "blurred background",
+ "ending": {
+  "last_words": "Cooked his own son.",
+  "last_frame": "Dwyane Wade gesturing to the floor after blocking his son's shot.",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "Bro, why does Dwyane Wade treat his son differently? Meanwhile, other NBA dads treat their kids with love, then LeBron goes crazy after Bronny throws down a dunk. But Dwayne Wade was a little crazy. You wanna beat me, you gotta beat me. Cooked his own son.",
+ "retention_tricks": [
+  "rapid cuts between different NBA fathers and sons",
+  "dynamic word-by-word caption highlighting",
+  "contrasting sweet moments with aggressive competitive moments"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": true,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "The funny contrast between loving NBA dads and Dwyane Wade playing hyper-competitively against his son.",
+  "High pacing with quick cuts keeping viewers engaged throughout.",
+  "Strong emotional reactions from players like LeBron James adding entertainment value."
+ ],
+ "_meta": {
+  "source": "0nKK2HFhJqM",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

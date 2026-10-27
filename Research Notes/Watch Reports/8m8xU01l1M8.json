@@ -1,0 +1,121 @@
+{
+ "length_s": 28.5,
+ "topic": "How Steph Curry changed basketball forever by shifting the game from physical play and mid-range shots to three-point shooting.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "This is proof that Steph Curry changed basketball forever",
+  "first_frame": "Steph Curry celebrating on the court with fans in the background",
+  "on_screen_text_0_3s": "THIS IS PROOF THAT STEPH CURRY CHANGED BASKETBALL FOREVER",
+  "shots_in_first_3s": 1
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 3.1,
+   "shows": "Steph Curry celebrating on court",
+   "kind": "action"
+  },
+  {
+   "start_s": 3.1,
+   "end_s": 7.7,
+   "shows": "Shaquille O'Neal playing physical post play in the paint",
+   "kind": "archive"
+  },
+  {
+   "start_s": 7.7,
+   "end_s": 10.1,
+   "shows": "Steph Curry reacting with hands on his head",
+   "kind": "action"
+  },
+  {
+   "start_s": 10.1,
+   "end_s": 15.6,
+   "shows": "Kobe Bryant driving and shooting in the midrange",
+   "kind": "archive"
+  },
+  {
+   "start_s": 15.6,
+   "end_s": 18.7,
+   "shows": "Steph Curry shooting a deep three-pointer",
+   "kind": "action"
+  },
+  {
+   "start_s": 18.7,
+   "end_s": 20.9,
+   "shows": "Steph Curry hitting a game-winning shot from logo distance",
+   "kind": "action"
+  },
+  {
+   "start_s": 20.9,
+   "end_s": 24.6,
+   "shows": "LeBron James shooting a three-pointer",
+   "kind": "action"
+  },
+  {
+   "start_s": 24.6,
+   "end_s": 28.5,
+   "shows": "NBA players shooting threes and LaMelo Ball celebrating",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 8,
+ "average_shot_s": 3.56,
+ "longest_shot_s": 5.5,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 175,
+  "tone": "energetic and authoritative",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "epic hip hop beat with dramatic bass",
+  "level_vs_voice": "equal",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 2,
+  "case": "ALL CAPS",
+  "position": "middle",
+  "colours": "white with yellow highlight on active word",
+  "highlight_style": "word highlight"
+ },
+ "text_overlays": [],
+ "cards_or_graphics": 0,
+ "framing": "blurred background",
+ "ending": {
+  "last_words": "because of Steph Curry.",
+  "last_frame": "LaMelo Ball celebrating on the court",
+  "loops_to_start": true,
+  "call_to_action": "none"
+ },
+ "script": "This is proof that Steph Curry changed basketball forever. You see, the NBA was once dominated by big players and focused more on physical play. But Steph Curry rewrote the rules of the game. Instead of fighting in the midrange, he stepped behind the three-point line and started knocking down shots. Steph Curry was turning the impossible shot into his normal shot, making him the greatest shooter of all time. Even LeBron James started copying parts of Steph Curry's style on the court. Today, almost every NBA team plays differently because of Steph Curry.",
+ "retention_tricks": [
+  "dynamic word-by-word captions",
+  "zooms and angle shifts on archive footage",
+  "smooth cuts matching narration rhythm"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "Compelling visual contrast between physical 90s basketball and modern three-point era",
+  "Strong narrative arc from historical context to modern impact",
+  "High-energy pacing with iconic NBA highlights"
+ ],
+ "_meta": {
+  "source": "8m8xU01l1M8",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

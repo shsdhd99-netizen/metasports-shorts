@@ -1,0 +1,129 @@
+{
+ "length_s": 26.25,
+ "topic": "NBA players' towering heights compared against average-height people.",
+ "lane": "moment",
+ "hook": {
+  "first_words": "bro I think this is the only way to get tall just look at how tall these NBA players got",
+  "first_frame": "A young basketball player in a San Antonio Spurs jersey standing next to an adult man.",
+  "on_screen_text_0_3s": "bro i think this is the only way to get tall",
+  "shots_in_first_3s": 1
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 2.417,
+   "shows": "A young basketball player in a San Antonio Spurs jersey standing next to an adult man.",
+   "kind": "face"
+  },
+  {
+   "start_s": 2.417,
+   "end_s": 4.684,
+   "shows": "NBA player Giannis Antetokounmpo holding a basketball in uniform.",
+   "kind": "still"
+  },
+  {
+   "start_s": 4.684,
+   "end_s": 11.234,
+   "shows": "Draymond Green standing next to a seated content creator.",
+   "kind": "action"
+  },
+  {
+   "start_s": 11.234,
+   "end_s": 17.651,
+   "shows": "LeBron James towering over seated creators in a room.",
+   "kind": "action"
+  },
+  {
+   "start_s": 17.651,
+   "end_s": 26.25,
+   "shows": "Victor Wembanyama shaking hands with a short creator who is looking up.",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 5,
+ "average_shot_s": 5.25,
+ "longest_shot_s": 8.59,
+ "voice": {
+  "type": "human",
+  "gender": "male",
+  "words_per_minute_estimate": 140,
+  "tone": "casual and humorous",
+  "original_audio_under_voice": true
+ },
+ "music": {
+  "present": true,
+  "style": "upbeat hip-hop beat",
+  "level_vs_voice": "equal",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [
+  {
+   "at_s": 6.0,
+   "sound": "whoosh"
+  },
+  {
+   "at_s": 20.75,
+   "sound": "crunch/ding"
+  }
+ ],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "mixed",
+  "position": "middle",
+  "colours": [
+   "white",
+   "green",
+   "pink"
+  ],
+  "highlight_style": "word-by-word colour change"
+ },
+ "text_overlays": [
+  {
+   "at_s": 9.25,
+   "text": "*Height Difference*"
+  },
+  {
+   "at_s": 13.5,
+   "text": "*IMPRESSED*"
+  },
+  {
+   "at_s": 24.75,
+   "text": "\"I LIKE VEGETABLES NOW\""
+  }
+ ],
+ "cards_or_graphics": 0,
+ "framing": "blurred background",
+ "ending": {
+  "last_words": "I like vegetables now",
+  "last_frame": "Victor Wembanyama standing tall next to a creator looking up in amazement.",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "bro I think this is the only way to get tall just look at how tall these NBA players got. How tall are you? 6'6. He ain't that tall, bro. I'm not even that tall, bro. Oh. How do you get tall, bro? Listen to your parents. Eat your vegetables. You will get there, kid. I like vegetables now.",
+ "retention_tricks": [
+  "rapid cuts between different NBA height comparisons",
+  "comedic text overlays and emojis",
+  "zoom-ins on extreme height differences"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "Extreme, shocking visual comedy of NBA players dwarfing regular people",
+  "Relatable humorous dialogue and authentic laughing reactions",
+  "Fast pacing with dynamic text highlights keeping viewer engagement high"
+ ],
+ "_meta": {
+  "source": "kdFI7Oj_fU4",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

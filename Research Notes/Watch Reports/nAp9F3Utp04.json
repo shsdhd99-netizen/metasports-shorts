@@ -1,0 +1,302 @@
+{
+ "length_s": 75.0,
+ "topic": "An explainer of Jose Mourinho's humiliating 5-0 El Clasico defeat against Pep Guardiola's Barcelona in 2010.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "Managers who had the toughest El Clasico debuts!",
+  "first_frame": "El Clasico football brawl with players grabbing each other's faces and necks, overlaid with presenter in studio below.",
+  "on_screen_text_0_3s": "Managers who had the TOUGHEST El Clásico debuts!",
+  "shots_in_first_3s": 2
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 2.7,
+   "shows": "El Clasico player brawl and presenter in studio",
+   "kind": "action"
+  },
+  {
+   "start_s": 2.7,
+   "end_s": 5.1,
+   "shows": "Jose Mourinho looking stern and Inter Milan celebration",
+   "kind": "stock"
+  },
+  {
+   "start_s": 5.1,
+   "end_s": 8.0,
+   "shows": "Jose Mourinho press conference with Champions League and Real Madrid badges",
+   "kind": "stock"
+  },
+  {
+   "start_s": 8.0,
+   "end_s": 11.1,
+   "shows": "Barcelona team photo with Jose Mourinho face overlaid",
+   "kind": "stock"
+  },
+  {
+   "start_s": 11.1,
+   "end_s": 15.6,
+   "shows": "Vintage TV showing El Clasico stadium and Real Madrid team celebrating",
+   "kind": "stock"
+  },
+  {
+   "start_s": 15.6,
+   "end_s": 19.8,
+   "shows": "Presenter in studio holding microphone with neon light behind him",
+   "kind": "face"
+  },
+  {
+   "start_s": 19.8,
+   "end_s": 20.9,
+   "shows": "Jose Mourinho standing on touchline",
+   "kind": "stock"
+  },
+  {
+   "start_s": 20.9,
+   "end_s": 23.0,
+   "shows": "Crying Vegeta from Dragon Ball Z",
+   "kind": "stock"
+  },
+  {
+   "start_s": 23.0,
+   "end_s": 29.0,
+   "shows": "Xavi chipping ball and celebrating, Pedro scoring",
+   "kind": "replay"
+  },
+  {
+   "start_s": 29.0,
+   "end_s": 32.7,
+   "shows": "Presenter talking in studio",
+   "kind": "face"
+  },
+  {
+   "start_s": 32.7,
+   "end_s": 36.0,
+   "shows": "Vintage TV showing Messi threading ball to David Villa",
+   "kind": "stock"
+  },
+  {
+   "start_s": 36.0,
+   "end_s": 37.7,
+   "shows": "David Villa scoring and celebrating",
+   "kind": "replay"
+  },
+  {
+   "start_s": 37.7,
+   "end_s": 39.5,
+   "shows": "Family Guy Stewie and Brian reacting",
+   "kind": "stock"
+  },
+  {
+   "start_s": 39.5,
+   "end_s": 41.0,
+   "shows": "Jose Mourinho looking dejected on bench",
+   "kind": "stock"
+  },
+  {
+   "start_s": 41.0,
+   "end_s": 45.1,
+   "shows": "Jeffren Suarez scoring and celebrating with 5-0 score graphic",
+   "kind": "replay"
+  },
+  {
+   "start_s": 45.1,
+   "end_s": 47.6,
+   "shows": "Vintage TV showing Sergio Ramos red card foul on Messi",
+   "kind": "stock"
+  },
+  {
+   "start_s": 47.6,
+   "end_s": 49.9,
+   "shows": "Sergio Ramos arguing and getting red card",
+   "kind": "replay"
+  },
+  {
+   "start_s": 49.9,
+   "end_s": 54.7,
+   "shows": "Jose Mourinho sitting helpless on bench and Barcelona team celebrating",
+   "kind": "action"
+  },
+  {
+   "start_s": 54.7,
+   "end_s": 56.1,
+   "shows": "Presenter talking in studio",
+   "kind": "face"
+  },
+  {
+   "start_s": 56.1,
+   "end_s": 59.0,
+   "shows": "Vintage TV showing Gerard Pique celebrating",
+   "kind": "stock"
+  },
+  {
+   "start_s": 59.0,
+   "end_s": 62.7,
+   "shows": "Newspaper clipping titled Pique's Manita Humiliates Real Madrid and Pique holding up five fingers",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 62.7,
+   "end_s": 65.0,
+   "shows": "Vintage TV showing Barcelona fans cheering",
+   "kind": "stock"
+  },
+  {
+   "start_s": 65.0,
+   "end_s": 66.9,
+   "shows": "Iker Casillas looking down in despair",
+   "kind": "action"
+  },
+  {
+   "start_s": 66.9,
+   "end_s": 71.9,
+   "shows": "Presenter talking in studio",
+   "kind": "face"
+  },
+  {
+   "start_s": 71.9,
+   "end_s": 73.6,
+   "shows": "Real Madrid fan filming in stands",
+   "kind": "action"
+  },
+  {
+   "start_s": 73.6,
+   "end_s": 75.0,
+   "shows": "Michael Jordan crying meme",
+   "kind": "stock"
+  }
+ ],
+ "shot_count": 25,
+ "average_shot_s": 3.0,
+ "longest_shot_s": 5.1,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 175,
+  "tone": "enthusiastic and dramatic",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "dramatic cinematic beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "mixed",
+  "position": "middle",
+  "colours": "white",
+  "highlight_style": "none"
+ },
+ "text_overlays": [
+  {
+   "at_s": 0.2,
+   "text": "Managers who had the TOUGHEST El Clásico debuts!"
+  },
+  {
+   "at_s": 2.9,
+   "text": "José Mourinho had just won the Champions League with Inter Milan,"
+  },
+  {
+   "at_s": 5.2,
+   "text": "so Real Madrid brought him in during the summer of 2010 as the man who was finally going to stop Pep Guardiola's Barcelona."
+  },
+  {
+   "at_s": 11.2,
+   "text": "And heading into the first ever El Clásico, Real Madrid were unbeaten in La Liga,"
+  },
+  {
+   "at_s": 15.2,
+   "text": "and Mourinho himself had never lost a match by five goals in his entire managerial career."
+  },
+  {
+   "at_s": 20.0,
+   "text": "But that record was about to be destroyed in the most humiliating way possible."
+  },
+  {
+   "at_s": 23.2,
+   "text": "Xavi chips the ball over Casillas just 10 minutes into the game to make it one-nil,"
+  },
+  {
+   "at_s": 27.0,
+   "text": "and then Pedro scores eight minutes later to make it two-nil before Mourinho's Real Madrid even had the chance to make it to the 20th minute."
+  },
+  {
+   "at_s": 33.0,
+   "text": "Then in the second half, Messi threads a perfect ball to David Villa, who scores in the 55th minute"
+  },
+  {
+   "at_s": 37.8,
+   "text": "and then again just three minutes later to make it four-nil."
+  },
+  {
+   "at_s": 41.0,
+   "text": "Jeffren Suárez then scores in stoppage time to make the score five-nil,"
+  },
+  {
+   "at_s": 45.2,
+   "text": "while Sergio Ramos picks up a red card in the final seconds after a frustrated foul on Messi,"
+  },
+  {
+   "at_s": 49.8,
+   "text": "and Mourinho is just sitting on the bench completely helpless as Camp Nou is absolutely crazy around him."
+  },
+  {
+   "at_s": 55.0,
+   "text": "But somehow, there was still more."
+  },
+  {
+   "at_s": 57.0,
+   "text": "Right after the fifth goal went in, Gerard Piqué walked over to the Barcelona fans, raised his hand, and held up all five fingers."
+  },
+  {
+   "at_s": 62.8,
+   "text": "It's called La Manita, meaning the little hand, representing the five goals scored."
+  },
+  {
+   "at_s": 67.0,
+   "text": "That single image of Piqué holding up those five fingers became one of the most iconic moments in El Clásico history,"
+  },
+  {
+   "at_s": 112.0,
+   "text": "and to this day, Real Madrid fans have never forgiven him for it."
+  }
+ ],
+ "cards_or_graphics": 2,
+ "framing": "blurred background",
+ "ending": {
+  "last_words": "Real Madrid fans have never forgiven him for it.",
+  "last_frame": "Michael Jordan crying meme with subtitle quote from The Last Dance.",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "Managers who had the toughest El Clásico debuts! José Mourinho had just won the Champions League with Inter Milan, so Real Madrid brought him in during the summer of 2010 as the man who was finally going to stop Pep Guardiola's Barcelona. And heading into the first ever El Clásico, Real Madrid were unbeaten in La Liga, and Mourinho himself had never lost a match by five goals in his entire managerial career. But that record was about to be destroyed in the most humiliating way possible. Xavi chips the ball over Casillas just 10 minutes into the game to make it one-nil, and then Pedro scores eight minutes later to make it two-nil before Mourinho's Real Madrid even had the chance to make it to the 20th minute. Then in the second half, Messi threads a perfect ball to David Villa, who scores in the 55th minute and then again just three minutes later to make it four-nil. Jeffren Suárez then scores in stoppage time to make the score five-nil, while Sergio Ramos picks up a red card in the final seconds after a frustrated foul on Messi, and Mourinho is just sitting on the bench completely helpless as Camp Nou is absolutely crazy around him. But somehow, there was still more. Right after the fifth goal went in, Gerard Piqué walked over to the Barcelona fans, raised his hand, and held up all five fingers. It's called La Manita, meaning the little hand, representing the five goals scored. That single image of Piqué holding up those five fingers became one of the most iconic moments in El Clásico history, and to this day, Real Madrid fans have never forgiven him for it.",
+ "retention_tricks": [
+  "memes and pop culture references like Dragon Ball Z, Family Guy, and Michael Jordan",
+  "archive vintage TV framing for historical footage",
+  "rapid-fire match highlights and goal replays"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": true,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "Engaging narrative about one of football's most iconic managerial humiliations",
+  "Dynamic mix of archive footage, meme inserts, and presenter talking head",
+  "Strong emotional payoff linking a single historic gesture to enduring fan rivalry"
+ ],
+ "_meta": {
+  "source": "nAp9F3Utp04",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

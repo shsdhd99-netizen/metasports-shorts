@@ -1,0 +1,229 @@
+{
+ "length_s": 69.4,
+ "topic": "The career trajectory of Grant Holt, who went from normal jobs and non-league football to starring in the Premier League.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "Players who are working NORMAL JOBS",
+  "first_frame": "A football player in yellow kit running past a crowd, with a commentator talking in the lower half.",
+  "on_screen_text_0_3s": "Players who are working NORMAL JOBS",
+  "shots_in_first_3s": 2
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 3.1,
+   "shows": "Football match celebration and presenter",
+   "kind": "replay"
+  },
+  {
+   "start_s": 3.1,
+   "end_s": 6.0,
+   "shows": "Football player on knees celebrating",
+   "kind": "replay"
+  },
+  {
+   "start_s": 6.0,
+   "end_s": 9.1,
+   "shows": "Coffin dancers meme clip",
+   "kind": "stock"
+  },
+  {
+   "start_s": 9.1,
+   "end_s": 12.0,
+   "shows": "Football player in yellow kit close up",
+   "kind": "replay"
+  },
+  {
+   "start_s": 12.0,
+   "end_s": 15.0,
+   "shows": "Grant Holt in interview setting",
+   "kind": "still"
+  },
+  {
+   "start_s": 15.0,
+   "end_s": 18.2,
+   "shows": "Grant Holt in training kit",
+   "kind": "replay"
+  },
+  {
+   "start_s": 18.2,
+   "end_s": 21.0,
+   "shows": "Laughing man meme clip",
+   "kind": "stock"
+  },
+  {
+   "start_s": 21.0,
+   "end_s": 23.3,
+   "shows": "Vintage TV showing old match goal",
+   "kind": "stock"
+  },
+  {
+   "start_s": 23.3,
+   "end_s": 26.3,
+   "shows": "Grant Holt in training kit",
+   "kind": "replay"
+  },
+  {
+   "start_s": 26.3,
+   "end_s": 29.0,
+   "shows": "Grant Holt in yellow and blue kits",
+   "kind": "replay"
+  },
+  {
+   "start_s": 29.0,
+   "end_s": 31.8,
+   "shows": "Grant Holt playing for Rochdale",
+   "kind": "replay"
+  },
+  {
+   "start_s": 31.8,
+   "end_s": 33.1,
+   "shows": "Grant Holt playing for Nottingham Forest",
+   "kind": "replay"
+  },
+  {
+   "start_s": 33.1,
+   "end_s": 35.8,
+   "shows": "Vintage TV showing goal",
+   "kind": "stock"
+  },
+  {
+   "start_s": 35.8,
+   "end_s": 38.0,
+   "shows": "Norwich players celebrating",
+   "kind": "replay"
+  },
+  {
+   "start_s": 38.0,
+   "end_s": 42.0,
+   "shows": "Grant Holt with fiery background and team badges",
+   "kind": "still"
+  },
+  {
+   "start_s": 42.0,
+   "end_s": 44.0,
+   "shows": "Nicolas Cage face meme",
+   "kind": "stock"
+  },
+  {
+   "start_s": 44.0,
+   "end_s": 46.2,
+   "shows": "Vintage TV showing goal",
+   "kind": "stock"
+  },
+  {
+   "start_s": 46.2,
+   "end_s": 49.7,
+   "shows": "Grant Holt celebrating goals",
+   "kind": "replay"
+  },
+  {
+   "start_s": 49.7,
+   "end_s": 55.8,
+   "shows": "Norwich players celebrating and pitch invasion",
+   "kind": "replay"
+  },
+  {
+   "start_s": 55.8,
+   "end_s": 58.7,
+   "shows": "Grant Holt post-match interview in Premier League",
+   "kind": "replay"
+  },
+  {
+   "start_s": 58.7,
+   "end_s": 61.0,
+   "shows": "Grant Holt on pitch",
+   "kind": "replay"
+  },
+  {
+   "start_s": 61.0,
+   "end_s": 63.0,
+   "shows": "Premier League match action",
+   "kind": "replay"
+  },
+  {
+   "start_s": 63.0,
+   "end_s": 65.0,
+   "shows": "Grant Holt celebrating",
+   "kind": "still"
+  },
+  {
+   "start_s": 65.0,
+   "end_s": 68.3,
+   "shows": "Grant Holt screaming in celebration",
+   "kind": "replay"
+  },
+  {
+   "start_s": 68.3,
+   "end_s": 69.4,
+   "shows": "Wayne Rooney playing",
+   "kind": "replay"
+  }
+ ],
+ "shot_count": 25,
+ "average_shot_s": 2.78,
+ "longest_shot_s": 5.8,
+ "voice": {
+  "type": "human",
+  "gender": "male",
+  "words_per_minute_estimate": 175,
+  "tone": "enthusiastic, engaging",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "dramatic documentary beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "mixed",
+  "position": "middle",
+  "colours": "white and yellow",
+  "highlight_style": "word highlight in yellow"
+ },
+ "text_overlays": [
+  {
+   "at_s": 10.5,
+   "text": "TYRE FITTER"
+  }
+ ],
+ "cards_or_graphics": 4,
+ "framing": "split screen with speaker on bottom half and archival footage / memes on top half",
+ "ending": {
+  "last_words": "only behind Wayne Rooney.",
+  "last_frame": "Wayne Rooney playing in Manchester United kit with '27 PREMIER LEAGUE GOALS' stat card.",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "Players who are working NORMAL JOBS, but SOMEHOW made it to the Premier League! Grant Holt got released by Carlisle United at 18 years old, and his football career looked completely over before it even started. So he got a job as a tire fitter and even spent time packing beetroots at a food factory near the docks in Barrow, all while still playing non-league football on the side for basically no money. But this is where his story starts to get ridiculous. Holt kept scoring goals that nobody in the professional game was watching, banging in 31 goals in 59 appearances for Barrow, which finally got him a move to Sheffield Wednesday. From there, he bounced to Rochdale, where he scored 42 goals, then Nottingham Forest, then Shrewsbury, where he won League Two Player of the Year. Every single stop, he kept proving people wrong, and then 2009, Norwich City signed him for about 400,000 pounds, but even Norwich had no idea what they were getting. His first game was a 7-1 loss against Colchester, and then he went on to score 30 goals that season and win Player of the Year. The next season, he did it again with 21 goals, another Player of the Year award, and Norwich got promoted to the Premier League. So at 30 years old, the former tire fitter and beetroot packer made his Premier League debut against Wigan Athletic, then scored 15 league goals that year, won his third straight Player of the Year award, and finished the season as the second-highest scoring Englishman in the Premier League, only behind Wayne Rooney.",
+ "retention_tricks": [
+  "split screen format keeping visual interest constant",
+  "meme clips inserted for comedic timing",
+  "rapid shot changes every 2 to 3 seconds",
+  "highlighted keywords in captions"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "Compelling underdog story with unbelievable milestones",
+  "Dynamic split-screen editing featuring memes and archival match clips",
+  "Fast-paced narration and caption highlighting maintaining high retention"
+ ],
+ "_meta": {
+  "source": "rjfIoUDikVY",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

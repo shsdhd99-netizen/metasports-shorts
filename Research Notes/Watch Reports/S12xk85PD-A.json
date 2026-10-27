@@ -1,0 +1,218 @@
+{
+ "length_s": 62.333,
+ "topic": "Why Raphinha did a glasses-wearing celebration after scoring against Australia.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "Why did Raphinha do the celebration against Australia today?",
+  "first_frame": "Raphinha in a blue Brazil jersey with hands making glasses over his eyes, below that a man speaking to a microphone.",
+  "on_screen_text_0_3s": "Why did Raphinha do the CELEBRATION against Australia today?",
+  "shots_in_first_3s": 2
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 2.708,
+   "shows": "Raphinha doing celebration pose / man talking",
+   "kind": "face"
+  },
+  {
+   "start_s": 2.708,
+   "end_s": 4.625,
+   "shows": "Fans in crowd",
+   "kind": "stock"
+  },
+  {
+   "start_s": 4.625,
+   "end_s": 6.708,
+   "shows": "Raphinha meeting Zion",
+   "kind": "stock"
+  },
+  {
+   "start_s": 6.708,
+   "end_s": 10.0,
+   "shows": "Raphinha and Zion holding signed jersey",
+   "kind": "still"
+  },
+  {
+   "start_s": 10.0,
+   "end_s": 12.75,
+   "shows": "Raphinha talking to Zion",
+   "kind": "stock"
+  },
+  {
+   "start_s": 12.75,
+   "end_s": 14.958,
+   "shows": "Players walking out tunnel",
+   "kind": "stock"
+  },
+  {
+   "start_s": 14.958,
+   "end_s": 16.667,
+   "shows": "Raphinha celebrating on pitch",
+   "kind": "stock"
+  },
+  {
+   "start_s": 16.667,
+   "end_s": 20.667,
+   "shows": "Zion talking to Raphinha",
+   "kind": "stock"
+  },
+  {
+   "start_s": 20.667,
+   "end_s": 23.167,
+   "shows": "Brazil players training",
+   "kind": "action"
+  },
+  {
+   "start_s": 23.167,
+   "end_s": 25.042,
+   "shows": "Australian players walking out tunnel",
+   "kind": "stock"
+  },
+  {
+   "start_s": 25.042,
+   "end_s": 27.667,
+   "shows": "Australia celebrating goal",
+   "kind": "stock"
+  },
+  {
+   "start_s": 27.667,
+   "end_s": 28.875,
+   "shows": "Manager on sideline",
+   "kind": "stock"
+  },
+  {
+   "start_s": 28.875,
+   "end_s": 31.875,
+   "shows": "Raphinha taking penalty kick",
+   "kind": "action"
+  },
+  {
+   "start_s": 31.875,
+   "end_s": 34.125,
+   "shows": "Penalty goal scored",
+   "kind": "action"
+  },
+  {
+   "start_s": 34.125,
+   "end_s": 36.667,
+   "shows": "Raphinha on pitch",
+   "kind": "stock"
+  },
+  {
+   "start_s": 36.667,
+   "end_s": 38.708,
+   "shows": "Raphinha taking photo with fan",
+   "kind": "stock"
+  },
+  {
+   "start_s": 38.708,
+   "end_s": 43.708,
+   "shows": "Raphinha celebrating with glasses gesture",
+   "kind": "action"
+  },
+  {
+   "start_s": 43.708,
+   "end_s": 46.583,
+   "shows": "Fans in stadium",
+   "kind": "stock"
+  },
+  {
+   "start_s": 46.583,
+   "end_s": 49.333,
+   "shows": "Raphinha and Zion with jersey",
+   "kind": "still"
+  },
+  {
+   "start_s": 49.333,
+   "end_s": 52.542,
+   "shows": "Raphinha meeting Zion",
+   "kind": "stock"
+  },
+  {
+   "start_s": 52.542,
+   "end_s": 55.958,
+   "shows": "Brazil fans celebrating",
+   "kind": "stock"
+  },
+  {
+   "start_s": 55.958,
+   "end_s": 57.667,
+   "shows": "Raphinha celebrating with glasses gesture",
+   "kind": "action"
+  },
+  {
+   "start_s": 57.667,
+   "end_s": 59.625,
+   "shows": "Raphinha and Zion with jersey",
+   "kind": "still"
+  },
+  {
+   "start_s": 59.625,
+   "end_s": 62.333,
+   "shows": "Raphinha celebrating pose",
+   "kind": "still"
+  }
+ ],
+ "shot_count": 24,
+ "average_shot_s": 2.597,
+ "longest_shot_s": 5.0,
+ "voice": {
+  "type": "human",
+  "gender": "male",
+  "words_per_minute_estimate": 175,
+  "tone": "narrative, emotional, engaging",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "sentimental dramatic background beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "mixed",
+  "position": "lower-middle",
+  "colours": "white with yellow highlights",
+  "highlight_style": "word-by-word yellow pop"
+ },
+ "text_overlays": [],
+ "cards_or_graphics": 0,
+ "framing": "split-screen: top half shows story footage, bottom half shows presenter talking into a microphone",
+ "ending": {
+  "last_words": "asked him to do.",
+  "last_frame": "Raphinha in blue Brazil jersey making the glasses celebration gesture with hands.",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "Why did Raphinha do the celebration against Australia today? Before today's match in Brisbane, Raphinha met an 11-year-old kid named Zion who had been diagnosed with a rare progressive genetic condition that affects his retina and is slowly taking away his vision. This kid traveled eight hours by train just to get the chance to meet his favorite player in the world, and when he finally got that moment with Raphinha, he made him one single request. But to understand why that request ended up meaning everything, you need to see what happened during the match first. Australia were genuinely giving Brazil problems and the game was not going their way until Raphinha got the opportunity to take an equalizing penalty kick, stepped up, and buried it into the back of the net. But what he did in the seconds right after scoring is the part nobody watching could explain. Raphinha turned around, brought both of his hands up to his face, and pretended like he was putting on a pair of glasses. Nobody in that stadium or watching from home knew what it meant, but before the game, Zion had asked Raphinha for one thing. If he scored, he wanted him to celebrate by pretending to put on glasses. And right there on the biggest stage without anyone in the crowd understanding why, Raphinha kept that promise to an 11-year-old kid who was slowly losing his eyesight, but got to watch his hero do exactly what he asked him to do.",
+ "retention_tricks": [
+  "open loop in hook asking why Raphinha did the celebration",
+  "storytelling arc introducing the sick child early",
+  "replays and visual pacing changes",
+  "payoff at the end revealing the promise made to the kid"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": true,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "Compelling human interest story about a sick fan meeting his idol",
+  "Clear narrative question posed in the hook answered at the end",
+  "Split-screen layout keeps both the narrator and the story footage visible at all times"
+ ],
+ "_meta": {
+  "source": "S12xk85PD-A",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

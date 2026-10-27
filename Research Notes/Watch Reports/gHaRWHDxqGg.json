@@ -1,0 +1,330 @@
+{
+ "length_s": 93.3,
+ "topic": "Why Cristiano Ronaldo was fined precisely 255 Euros by Portugal after a walkout incident.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "Why did Cristiano Ronaldo get FINED exactly ONLY €255 by Portugal?",
+  "first_frame": "Cristiano Ronaldo holding a match ball in a yellow Al Nassr kit",
+  "on_screen_text_0_3s": "Why did Cristiano Ronaldo get FINED exactly ONLY €255 by Portugal?",
+  "shots_in_first_3s": 3
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 1.7,
+   "shows": "Cristiano Ronaldo in Al Nassr yellow kit",
+   "kind": "action"
+  },
+  {
+   "start_s": 1.7,
+   "end_s": 4.9,
+   "shows": "Ronaldo walking and talking",
+   "kind": "action"
+  },
+  {
+   "start_s": 4.9,
+   "end_s": 6.8,
+   "shows": "Cidade do Futebol aerial view",
+   "kind": "stock"
+  },
+  {
+   "start_s": 6.8,
+   "end_s": 10.5,
+   "shows": "Document graphic about Portugal fines Ronaldo 255 Euros",
+   "kind": "text_card"
+  },
+  {
+   "start_s": 10.5,
+   "end_s": 12.1,
+   "shows": "Ronaldo on bench in blue jacket",
+   "kind": "stock"
+  },
+  {
+   "start_s": 12.1,
+   "end_s": 13.5,
+   "shows": "Coach Jorge Jesus",
+   "kind": "face"
+  },
+  {
+   "start_s": 13.5,
+   "end_s": 14.1,
+   "shows": "Ronaldo profile in Portugal kit",
+   "kind": "face"
+  },
+  {
+   "start_s": 14.1,
+   "end_s": 16.3,
+   "shows": "Meme pointing to head",
+   "kind": "stock"
+  },
+  {
+   "start_s": 16.3,
+   "end_s": 17.9,
+   "shows": "Ronaldo on bench",
+   "kind": "stock"
+  },
+  {
+   "start_s": 17.9,
+   "end_s": 19.6,
+   "shows": "Ronaldo in Portugal red kit",
+   "kind": "stock"
+  },
+  {
+   "start_s": 19.6,
+   "end_s": 22.9,
+   "shows": "Coach Jorge Jesus shouting",
+   "kind": "face"
+  },
+  {
+   "start_s": 22.9,
+   "end_s": 24.1,
+   "shows": "Ronaldo warming up smiling",
+   "kind": "action"
+  },
+  {
+   "start_s": 24.1,
+   "end_s": 25.8,
+   "shows": "Ronaldo walking away waving",
+   "kind": "action"
+  },
+  {
+   "start_s": 25.8,
+   "end_s": 27.4,
+   "shows": "Ronaldo and Al Nassr teammate with ball",
+   "kind": "action"
+  },
+  {
+   "start_s": 27.4,
+   "end_s": 28.7,
+   "shows": "Ronaldo close-up looking surprised",
+   "kind": "face"
+  },
+  {
+   "start_s": 28.7,
+   "end_s": 31.8,
+   "shows": "Ronaldo at press conference",
+   "kind": "face"
+  },
+  {
+   "start_s": 31.8,
+   "end_s": 36.0,
+   "shows": "Ronaldo standing in red kit",
+   "kind": "stock"
+  },
+  {
+   "start_s": 36.0,
+   "end_s": 39.0,
+   "shows": "Woman looking up confused meme",
+   "kind": "stock"
+  },
+  {
+   "start_s": 39.0,
+   "end_s": 41.2,
+   "shows": "FPF logo and training ground",
+   "kind": "stock"
+  },
+  {
+   "start_s": 41.2,
+   "end_s": 43.8,
+   "shows": "Aerial view of training facility",
+   "kind": "stock"
+  },
+  {
+   "start_s": 43.8,
+   "end_s": 48.2,
+   "shows": "Old TV showing player walking and training",
+   "kind": "stock"
+  },
+  {
+   "start_s": 48.2,
+   "end_s": 49.9,
+   "shows": "Dog smiling/shocked meme",
+   "kind": "stock"
+  },
+  {
+   "start_s": 49.9,
+   "end_s": 53.0,
+   "shows": "Ronaldo putting on captain armband in locker room",
+   "kind": "action"
+  },
+  {
+   "start_s": 53.0,
+   "end_s": 55.0,
+   "shows": "Old TV showing players walking off",
+   "kind": "stock"
+  },
+  {
+   "start_s": 55.0,
+   "end_s": 57.2,
+   "shows": "Training pitch with fans watching",
+   "kind": "stock"
+  },
+  {
+   "start_s": 57.2,
+   "end_s": 59.3,
+   "shows": "Ronaldo close-up kissing match ball",
+   "kind": "face"
+  },
+  {
+   "start_s": 59.3,
+   "end_s": 61.6,
+   "shows": "Graphic showing €510 fine",
+   "kind": "text_card"
+  },
+  {
+   "start_s": 61.6,
+   "end_s": 64.0,
+   "shows": "Ronaldo in Al Nassr yellow kit",
+   "kind": "action"
+  },
+  {
+   "start_s": 64.0,
+   "end_s": 65.7,
+   "shows": "Old TV showing Ronaldo walking out",
+   "kind": "stock"
+  },
+  {
+   "start_s": 65.7,
+   "end_s": 66.5,
+   "shows": "Ronaldo close-up blur",
+   "kind": "face"
+  },
+  {
+   "start_s": 66.5,
+   "end_s": 67.5,
+   "shows": "Ronaldo at press conference",
+   "kind": "face"
+  },
+  {
+   "start_s": 67.5,
+   "end_s": 73.3,
+   "shows": "Old TV showing Ronaldo in Portugal kit celebrating",
+   "kind": "stock"
+  },
+  {
+   "start_s": 73.3,
+   "end_s": 76.9,
+   "shows": "Ronaldo talking with staff at training",
+   "kind": "action"
+  },
+  {
+   "start_s": 76.9,
+   "end_s": 77.5,
+   "shows": "Man laughing meme",
+   "kind": "stock"
+  },
+  {
+   "start_s": 77.5,
+   "end_s": 80.9,
+   "shows": "Ronaldo running in training",
+   "kind": "action"
+  },
+  {
+   "start_s": 80.9,
+   "end_s": 82.6,
+   "shows": "Ronaldo celebrating in Al Nassr kit",
+   "kind": "action"
+  },
+  {
+   "start_s": 82.6,
+   "end_s": 83.2,
+   "shows": "Al Nassr fan celebrating",
+   "kind": "face"
+  },
+  {
+   "start_s": 83.2,
+   "end_s": 88.8,
+   "shows": "Ronaldo with money rain graphic",
+   "kind": "stock"
+  },
+  {
+   "start_s": 88.8,
+   "end_s": 91.5,
+   "shows": "Old TV showing Portugal training",
+   "kind": "stock"
+  },
+  {
+   "start_s": 91.5,
+   "end_s": 93.3,
+   "shows": "Ronaldo reacting in Portugal kit",
+   "kind": "face"
+  }
+ ],
+ "shot_count": 42,
+ "average_shot_s": 2.2,
+ "longest_shot_s": 5.8,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 195,
+  "tone": "energetic",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "dramatic documentary beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "mixed",
+  "position": "middle",
+  "colours": "white",
+  "highlight_style": "none"
+ },
+ "text_overlays": [
+  {
+   "at_s": 6.8,
+   "text": "October 2026 Portugal Fines Ronaldo 255 Euros for Walkout"
+  },
+  {
+   "at_s": 19.8,
+   "text": "COACH JORGE JESUS"
+  },
+  {
+   "at_s": 22.9,
+   "text": "30 MIN WARMING UP"
+  },
+  {
+   "at_s": 32.1,
+   "text": "CRISTIANO RONALDO PUNISH ME LIKE ANY OTHER PLAYER"
+  }
+ ],
+ "cards_or_graphics": 4,
+ "framing": "crop",
+ "ending": {
+  "last_words": "so they don't add fuel to the fire.",
+  "last_frame": "Ronaldo reacting in Portugal kit",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "Why did Cristiano Ronaldo get FINED exactly ONLY €255 by Portugal? So the Portuguese Football Association just fined Cristiano Ronaldo €255 for the whole ordeal that went on a few weeks ago involving Coach Jorge Jesus and Ronaldo. By now, you probably already know the whole drama, but in short, Ronaldo was on the bench for Portugal's Nations League match against Norway, and Coach Jorge Jesus tells him to warm up for 30 minutes, then never puts him in. Then Ronaldo eventually packed his bags after a few more disrespectful moments and broken promises. Ronaldo eventually explained on social media everything that happened and even suggested that he, just like any other player, should be punished for leaving camp early. But that decision activated a rule most fans have never heard of. The Portuguese Football Federation charged him under Article 160 of their disciplinary code, which says any called-up player who abandons national team activity without justification gets a 1 to 6-month suspension, and if they're a professional, a fine between 5 and 10 units of account. One unit of account in Portuguese football equals exactly €102. So since the minimum punishment is 5 units, the minimum fine is €510. But Ronaldo didn't even get the minimum sentence. After walking out, he publicly apologized and said he'd accept any punishment, which triggered Article 244, which says if a player confesses without reservations, every penalty range gets cut in half. So his fine range dropped in half, and the federation gave him the absolute floor. So since the minimum was 5 units, which equals €510, that got halved because of Ronaldo's good behavior, and half of that is €255, which at Ronaldo's Al Nassr salary, he earns in about 38 seconds. So Portugal likely didn't want to give him a heavy punishment, so they don't add fuel to the fire.",
+ "retention_tricks": [
+  "memes and pop culture references inserted frequently",
+  "fast-paced cutting averaging over two seconds per shot",
+  "math breakdown and rule reveal creates curiosity loop"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "Explains a bizarrely specific real-world trivia fact with clear step-by-step logic",
+  "Uses rapid visual variety including memes, archival clips, and text cards",
+  "Relates the tiny fine amount to Ronaldo's massive salary for comedic effect"
+ ],
+ "_meta": {
+  "source": "gHaRWHDxqGg",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

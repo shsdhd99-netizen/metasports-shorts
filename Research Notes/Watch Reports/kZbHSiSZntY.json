@@ -1,0 +1,97 @@
+{
+ "length_s": 37.8,
+ "topic": "A compilation of funny and bizarre interview moments where reporters ask ridiculous questions to NBA players.",
+ "lane": "moment",
+ "hook": {
+  "first_words": "Bro, these reporters are trolling NBA players with their questions.",
+  "first_frame": "Stephen Curry at a microphone during an All-Star media day press conference.",
+  "on_screen_text_0_3s": "bro these reporters are trolling nba players with their questions",
+  "shots_in_first_3s": 1
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 3.7,
+   "shows": "Stephen Curry speaking at a press conference",
+   "kind": "face"
+  },
+  {
+   "start_s": 3.7,
+   "end_s": 12.9,
+   "shows": "Basketball player with braids listening and reacting during an interview",
+   "kind": "face"
+  },
+  {
+   "start_s": 12.9,
+   "end_s": 25.0,
+   "shows": "Kevin Durant at a podium answering questions",
+   "kind": "face"
+  },
+  {
+   "start_s": 25.0,
+   "end_s": 37.8,
+   "shows": "Shaquille O'Neal at a press conference laughing",
+   "kind": "face"
+  }
+ ],
+ "shot_count": 4,
+ "average_shot_s": 9.45,
+ "longest_shot_s": 12.8,
+ "voice": {
+  "type": "human",
+  "gender": "male",
+  "words_per_minute_estimate": 140,
+  "tone": "casual, amused",
+  "original_audio_under_voice": true
+ },
+ "music": {
+  "present": true,
+  "style": "upbeat meme background music",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "mixed",
+  "position": "middle",
+  "colours": "white and green",
+  "highlight_style": "pop up words with color change"
+ },
+ "text_overlays": [],
+ "cards_or_graphics": 0,
+ "framing": "crop",
+ "ending": {
+  "last_words": "*laughs*",
+  "last_frame": "Shaquille O'Neal laughing hysterically at a press conference table.",
+  "loops_to_start": true,
+  "call_to_action": "none"
+ },
+ "script": "Bro these reporters are trolling NBA players with their questions. I'm not sure is your mom still with us? My mom alive? Yeah she's still alive. That's a weird question to ask somebody. To Kevin uh why do people call you KD? Um can I call you KD here? Yeah ok. My first name is Kevin, right? My last name is Durant with a D. Shaq let's just say that a uh snake bit your mom right up here right in the chest area, would you be willing to suck the venom out to win the title? No, but I will with your wife.",
+ "retention_tricks": [
+  "rapid sequence of funny interviews",
+  "shock value questions and unexpected punchlines",
+  "expressive facial reactions from players"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": false,
+  "ends_on_payoff": true,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "Absurd, cringe-worthy questions asked by journalists",
+  "Hilarious and deadpan reactions from top NBA stars",
+  "Punchy editing that jumps straight from one funny clip to the next"
+ ],
+ "_meta": {
+  "source": "kZbHSiSZntY",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}
