@@ -34,3 +34,8 @@ S05 and S07 are not on the channel yet. Judge S04/S06 at 3+ days (S03 was at 1.4
 - **Pattern so far [S, n=6]:** the two goalkeeper stories (S01, S03) are 15-30x the rest.
   - Both are one quirky object or moment (a note in a sock, a dance on the line).
   - S05 is also a goalkeeper cheat-sheet story, so it's a direct test of that pattern.
+
+## Tue Oct 27, 2026, about 5 PM ET: posted check
+- **The England player who kept Maradona's Hand of God shirt** (S08): posted Tue morning by the owner (id M40gpi_afJo), no-music version. It has 1,300 views on the same day.
+- **Goalkeepers who hid a cheat sheet on their water bottle** (S05): live (id DfDEyHM33is), 6,500 views.
+- **Next:** the FC Hub has no ready draft. "Ronaldo Moved The Coca-Cola Bottles" (S09, script only) needs a voice.

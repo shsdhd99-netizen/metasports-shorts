@@ -475,3 +475,8 @@ Public counts (`channel_check.py`, yt-dlp). No API token in the cloud (the owner
 **Retention flags:** none readable without the API or a new export.
 **Monday reminder:** export Studio > Content > Shorts (30 s) for both channels to get the exact "stayed to watch".
 **Lesson:** none (n=1 per side of the music test; a Short can still jump after day 1, as #48 did).
+
+## Tue Oct 27, 2026, about 5 PM ET: posted check
+- **Haliburton Threw An Alley-Oop To Himself** (#71): posted Tue morning by the owner (id lU6xSO1cAOY). It has 2,100 views on the same day. No-music side of the music test.
+- **Chuck Failed A Test With The Answers** (#70): 1,800 views. **Luka Just Did What Kobe Never Did** (#69): 1,200.
+- **Next:** "This Kid Felt Every Free Throw" (#72, music side), tonight about 6 PM or Wed 11 AM.
