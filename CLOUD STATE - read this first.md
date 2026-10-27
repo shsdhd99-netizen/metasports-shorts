@@ -10,6 +10,10 @@ Last updated: 2026-10-14 (newest section at the bottom). Branch: `main-329h3w` (
   - The key works in the main session (`Tools/.env`, git-ignored).
   - Flash-lite is the free model that answers reliably.
   - Trust it for transcripts, the shots in the first 3-5 s, and finding a quote in footage. Don't trust it for music or for total shot counts.
+- **Owner's live task list** (owner asked Oct 27: "write and keep a task list for me in the artifacts"): https://claude.ai/artifact/Ki1UXnbxsdykE4dy7BwyLT.
+  - Source `Tools/hub/owner_todo.html`. The tasks live in the `db` collection `tasks`.
+  - Keep it current with ArtifactData: add new owner tasks, and tick nothing on the owner's behalf.
+  - `Research Notes/Owner To-Do (Oct 26, 2026).md` is the older copy; the artifact wins.
 - **Name clash:** FC S09 is both the Krul idea (Idea Bank) and the Ronaldo Coca-Cola script folder. Renumber one before posting.
 
 ## Oct 24, 2026: the automatic routine (read this first)

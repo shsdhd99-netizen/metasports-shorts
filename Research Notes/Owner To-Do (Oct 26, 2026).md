@@ -1,5 +1,7 @@
 # Owner to-do (from Mon Oct 26, 2026)
 
+**Since Oct 27, the live list is the task-list page: https://claude.ai/artifact/Ki1UXnbxsdykE4dy7BwyLT. This file is an older copy.**
+
 Hubs: NBA https://claude.ai/artifact/EZrk8n855PyYpMFnMnMJd4 · FC https://claude.ai/artifact/LFsQtwomdpLAshoz4Xw62H
 
 ## Today (Mon Oct 26)

@@ -119,7 +119,14 @@ Two runs a day (scheduled tasks "MetaSports NBA daily run" and "MetaSports FC da
 - If it cannot pass today, do not ship it: Hub card `editing` with the reason. A late news Short is dropped, not posted late.
 
 ## E. Hub and schedule (10 min)
-- Hubs: NBA https://claude.ai/artifact/SAWcHwuAwBxJuyBQSs8a8U, FC https://claude.ai/artifact/2UVAcbNpKq6j4YXBEF8ge3.
+- Hubs (each account can open only its own):
+  - **The account the scheduled runs use** (the main session): NBA https://claude.ai/artifact/EZrk8n855PyYpMFnMnMJd4, FC https://claude.ai/artifact/LFsQtwomdpLAshoz4Xw62H.
+  - **The other account:** NBA https://claude.ai/artifact/SAWcHwuAwBxJuyBQSs8a8U, FC https://claude.ai/artifact/2UVAcbNpKq6j4YXBEF8ge3.
+  - Use the pair named in the scheduled task's prompt.
+- **Owner's task list** (same account as the first pair): https://claude.ai/artifact/Ki1UXnbxsdykE4dy7BwyLT, collection `tasks`.
+  - Doc fields: title, section now|post|setup|daily|later, order, when, channel NBA|FC|Both|GTA, detail, links[{label,url}], done, doneAt.
+  - When a Short goes on a Hub as ready, add or refresh its "Post: <title>" task in section `post`. Read first and pin `if_version`.
+  - Never untick or delete what the owner ticked.
   Upload a 1.5 Mbps copy as an asset (Artifact publish `asset: true`), then write the card (collection `shorts`: code, name, num,
   status `ready`, slot, slotLabel, versions [{label, assetId, note}], titles, tags, postNote). Read a card before writing it and
   pin every write with `if_version`.

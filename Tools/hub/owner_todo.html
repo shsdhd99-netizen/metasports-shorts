@@ -1,0 +1,260 @@
+<title>MetaSports To-Do</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Source+Sans+3:wght@400;600&display=swap">
+<style>
+/* Layout: one phone-width column, like a coach's clipboard: sections top to bottom, done items folded away at the end. */
+:root {
+  --bg: #eef1f4; --surface: #ffffff; --ink: #15202b; --muted: #5b6875; --line: #d5dce3;
+  --accent: #1e5bd8; --urgent: #c8322b; --nba: #c94c16; --fc: #17804f; --gta: #7a3cc2; --both: #3d4b59;
+  --chip-bg: #e7ecf1; --check: #1e5bd8;
+  --display: "Barlow Condensed", "Arial Narrow", "Roboto Condensed", sans-serif;
+  --body: "Source Sans 3", "Segoe UI", system-ui, -apple-system, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0f151b; --surface: #18212a; --ink: #e6edf3; --muted: #95a3b0; --line: #2a3642;
+    --accent: #7aa2ff; --urgent: #ff6b5e; --nba: #ff8a55; --fc: #43c784; --gta: #bb8eff; --both: #a9b6c2;
+    --chip-bg: #222d38; --check: #7aa2ff; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0f151b; --surface: #18212a; --ink: #e6edf3; --muted: #95a3b0; --line: #2a3642;
+  --accent: #7aa2ff; --urgent: #ff6b5e; --nba: #ff8a55; --fc: #43c784; --gta: #bb8eff; --both: #a9b6c2;
+  --chip-bg: #222d38; --check: #7aa2ff; color-scheme: dark;
+}
+body { background: var(--bg); color: var(--ink); font: 400 16px/1.45 var(--body); }
+.wrap { max-width: 640px; margin: 0 auto; padding-block: 20px 48px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  display: flex; flex-direction: column; gap: 22px; }
+header { display: flex; flex-direction: column; gap: 6px; }
+.eyebrow { font: 700 13px/1 var(--display); letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+h1 { margin: 0; font: 700 34px/1.05 var(--display); letter-spacing: .01em; text-wrap: balance; }
+.score { display: flex; align-items: center; gap: 12px; font: 600 15px/1 var(--display); letter-spacing: .06em;
+  text-transform: uppercase; color: var(--muted); font-variant-numeric: tabular-nums; }
+.bar { flex: 1; height: 6px; background: var(--line); border-radius: 3px; overflow: hidden; min-width: 60px; }
+.bar > i { display: block; height: 100%; width: 0; background: var(--accent); transition: width .3s ease; }
+.status { font-size: 14px; color: var(--muted); }
+section { display: flex; flex-direction: column; gap: 8px; }
+h2 { margin: 0; display: flex; align-items: baseline; gap: 8px; font: 700 18px/1.1 var(--display);
+  letter-spacing: .08em; text-transform: uppercase; }
+h2 .n { color: var(--muted); font-weight: 600; font-variant-numeric: tabular-nums; }
+h2.now { color: var(--urgent); }
+.list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+.task { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px;
+  display: grid; grid-template-columns: 28px 1fr; gap: 4px 10px; }
+.task.urgent { border-left: 4px solid var(--urgent); padding-left: 11px; }
+.task input { appearance: none; -webkit-appearance: none; width: 22px; height: 22px; margin: 1px 0 0; border: 2px solid var(--muted);
+  border-radius: 6px; background: var(--surface); cursor: pointer; display: grid; place-content: center; }
+.task input:checked { background: var(--check); border-color: var(--check); }
+.task input:checked::after { content: ""; width: 6px; height: 11px; border: solid var(--surface); border-width: 0 2.5px 2.5px 0;
+  transform: rotate(45deg) translate(-1px, -1px); }
+.task input:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+.task input:disabled { cursor: default; opacity: .6; }
+.body { min-width: 0; display: flex; flex-direction: column; gap: 6px; }
+.title { font-weight: 600; overflow-wrap: anywhere; }
+.done .title { color: var(--muted); text-decoration: line-through; }
+.meta { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip { font: 600 12px/1 var(--display); letter-spacing: .08em; text-transform: uppercase; padding: 4px 7px 3px;
+  border-radius: 4px; background: var(--chip-bg); color: var(--muted); }
+.chip.when { color: var(--ink); }
+.chip.urgent { color: var(--urgent); }
+.chip.NBA { color: var(--nba); } .chip.FC { color: var(--fc); } .chip.GTA { color: var(--gta); } .chip.Both { color: var(--both); }
+.detail { margin: 0; color: var(--muted); font-size: 15px; white-space: pre-line; overflow-wrap: anywhere; }
+.detail a, .links a { color: var(--accent); }
+.links { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 15px; }
+.routine { list-style: none; margin: 0; padding: 12px 14px; background: var(--surface); border: 1px solid var(--line);
+  border-radius: 10px; display: flex; flex-direction: column; gap: 10px; }
+.routine li { display: flex; flex-direction: column; gap: 2px; }
+.routine .title::before { content: "↻ "; color: var(--muted); }
+details.donebox > summary { cursor: pointer; font: 700 18px/1.1 var(--display); letter-spacing: .08em; text-transform: uppercase;
+  color: var(--muted); list-style: none; }
+details.donebox > summary::-webkit-details-marker { display: none; }
+details.donebox > summary::before { content: "▸ "; }
+details.donebox[open] > summary::before { content: "▾ "; }
+details.donebox > .list { margin-top: 8px; }
+form.add { display: grid; grid-template-columns: 1fr auto auto; gap: 8px; }
+form.add input, form.add select, form.add button { font: inherit; font-size: 15px; border-radius: 8px; border: 1px solid var(--line);
+  background: var(--surface); color: var(--ink); padding: 9px 10px; min-width: 0; }
+form.add button { background: var(--accent); border-color: var(--accent); color: var(--surface); font-weight: 600; cursor: pointer; }
+form.add button:disabled { opacity: .5; cursor: default; }
+@media (max-width: 460px) { form.add { grid-template-columns: 1fr 1fr; } form.add input { grid-column: 1 / -1; } }
+.empty { background: var(--surface); border: 1px dashed var(--line); border-radius: 10px; padding: 16px; color: var(--muted); }
+.foot { font-size: 13px; color: var(--muted); }
+@media (prefers-reduced-motion: reduce) { .bar > i { transition: none; } }
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">MetaSports · NBA + FC</div>
+    <h1>Your to-do</h1>
+    <div class="score"><span id="count">Loading…</span><span class="bar" aria-hidden="true"><i id="fill"></i></span></div>
+    <div class="status" id="status" role="status"></div>
+  </header>
+
+  <div id="board">
+    <div class="empty">Loading your tasks. They're kept in this page's database, so ticks show on every device, and Claude can add new ones.</div>
+  </div>
+
+  <section aria-labelledby="addh">
+    <h2 id="addh">Add a task</h2>
+    <form class="add" id="add">
+      <input id="add-title" name="title" placeholder="e.g. Send Claude the Studio export" maxlength="200" autocomplete="off" aria-label="Task">
+      <select id="add-section" name="section" aria-label="Section">
+        <option value="now">Do first</option>
+        <option value="post">Post</option>
+        <option value="setup">One-time setup</option>
+        <option value="later" selected>Later</option>
+      </select>
+      <button id="add-btn" type="submit" disabled>Add</button>
+    </form>
+  </section>
+
+  <p class="foot">Claude keeps this list up to date. Tick things off as you go; ask Claude in the session to add, change or remove anything.</p>
+</div>
+
+<script>
+(() => {
+  const SECTIONS = [
+    { key: "now", label: "Do first", urgent: true },
+    { key: "post", label: "Post next" },
+    { key: "setup", label: "One-time setup" },
+    { key: "daily", label: "Every day", routine: true },
+    { key: "later", label: "Later" },
+  ];
+  const CHANNELS = ["NBA", "FC", "Both", "GTA"];
+  const board = document.getElementById("board");
+  const statusEl = document.getElementById("status");
+  const countEl = document.getElementById("count");
+  const fillEl = document.getElementById("fill");
+  const form = document.getElementById("add");
+  const addBtn = document.getElementById("add-btn");
+  let db = null, readOnly = false, docs = [];
+  const pending = new Set();
+  let doneOpen = false;
+  try { doneOpen = localStorage.getItem("todo-done-open") === "1"; } catch (e) {}
+
+  const el = (tag, cls, text) => { const n = document.createElement(tag); if (cls) n.className = cls; if (text != null) n.textContent = text; return n; };
+  const safeUrl = (u) => { try { const x = new URL(String(u)); return /^https?:$/.test(x.protocol) ? x.href : null; } catch (e) { return null; } };
+  const say = (msg) => { statusEl.textContent = msg || ""; };
+
+  function taskNode(d) {
+    const t = d.data() || {};
+    const li = el("li", "task" + (t.done ? " done" : "") + (t.section === "now" && !t.done ? " urgent" : ""));
+    const box = document.createElement("input");
+    box.type = "checkbox"; box.id = "t-" + d.id; box.checked = !!t.done;
+    box.disabled = readOnly || pending.has(d.id) || !db;
+    box.setAttribute("aria-label", (t.done ? "Mark not done: " : "Mark done: ") + (t.title || "task"));
+    box.addEventListener("change", () => toggle(d.id, box.checked));
+    const body = el("div", "body");
+    const title = el("label", "title", t.title || "(untitled)"); title.htmlFor = box.id;
+    body.append(title);
+    const meta = el("div", "meta");
+    if (t.when) meta.append(el("span", "chip when" + (t.section === "now" && !t.done ? " urgent" : ""), t.when));
+    if (t.channel && CHANNELS.includes(t.channel)) meta.append(el("span", "chip " + t.channel, t.channel === "Both" ? "Both channels" : t.channel));
+    if (t.done && t.doneAt) { const dt = new Date(t.doneAt); if (!isNaN(dt)) meta.append(el("span", "chip", "Done " + dt.toLocaleDateString(undefined, { month: "short", day: "numeric" }))); }
+    if (meta.childNodes.length) body.append(meta);
+    if (t.detail) body.append(el("p", "detail", t.detail));
+    const links = Array.isArray(t.links) ? t.links : [];
+    const lw = el("div", "links");
+    for (const l of links) { const href = safeUrl(l && l.url); if (!href) continue; const a = el("a", null, (l.label || href)); a.href = href; a.target = "_blank"; a.rel = "noopener noreferrer"; lw.append(a); }
+    if (lw.childNodes.length) body.append(lw);
+    li.append(box, body);
+    return li;
+  }
+
+  function render() {
+    const byOrder = (a, b) => ((a.data().order ?? 999) - (b.data().order ?? 999)) || String(a.data().title || "").localeCompare(String(b.data().title || ""));
+    const checkable = docs.filter(d => (d.data() || {}).section !== "daily");
+    const done = checkable.filter(d => d.data().done);
+    const open = checkable.length - done.length;
+    countEl.textContent = checkable.length ? `${open} open · ${done.length} done` : "No tasks yet";
+    fillEl.style.width = checkable.length ? (100 * done.length / checkable.length).toFixed(1) + "%" : "0";
+    board.replaceChildren();
+    if (!docs.length) {
+      board.append(el("div", "empty", "No tasks yet. Claude adds them here, or add your own below."));
+      return;
+    }
+    for (const s of SECTIONS) {
+      const items = docs.filter(d => (d.data().section || "later") === s.key && (s.routine || !d.data().done)).sort(byOrder);
+      if (!items.length) continue;
+      const sec = el("section");
+      const h = el("h2", s.urgent ? "now" : null, s.label);
+      if (!s.routine) h.append(el("span", "n", String(items.length)));
+      sec.append(h);
+      if (s.routine) {
+        const ul = el("ul", "routine");
+        for (const d of items) {
+          const t = d.data(); const li = el("li");
+          li.append(el("span", "title", t.title || ""));
+          if (t.detail) li.append(el("span", "detail", t.detail));
+          ul.append(li);
+        }
+        sec.append(ul);
+      } else {
+        const ul = el("ul", "list");
+        for (const d of items) ul.append(taskNode(d));
+        sec.append(ul);
+      }
+      board.append(sec);
+    }
+    if (done.length) {
+      const det = el("details", "donebox"); det.open = doneOpen;
+      det.addEventListener("toggle", () => { doneOpen = det.open; try { localStorage.setItem("todo-done-open", det.open ? "1" : "0"); } catch (e) {} });
+      det.append(el("summary", null, `Done (${done.length})`));
+      const ul = el("ul", "list");
+      done.sort((a, b) => String(b.data().doneAt || "").localeCompare(String(a.data().doneAt || ""))).forEach(d => ul.append(taskNode(d)));
+      det.append(ul);
+      board.append(det);
+    }
+  }
+
+  async function toggle(id, value) {
+    if (!db || readOnly || pending.has(id)) return;
+    pending.add(id); render();
+    try {
+      await db.collection("tasks").doc(id).update({ done: value, doneAt: value ? new Date().toISOString() : null });
+      say(value ? "Marked done." : "Marked not done.");
+    } catch (e) {
+      if (e && e.code === "invalid_argument") { readOnly = true; say("You can view this list but not change it."); }
+      else say("Couldn't save that tick. Check your connection and try again.");
+    } finally { pending.delete(id); render(); }
+  }
+
+  form.addEventListener("submit", async (ev) => {
+    ev.preventDefault();
+    const title = document.getElementById("add-title").value.trim();
+    const section = document.getElementById("add-section").value;
+    if (!title || !db || readOnly) return;
+    addBtn.disabled = true;
+    try {
+      const maxOrder = docs.reduce((m, d) => Math.max(m, Number(d.data().order) || 0), 0);
+      await db.collection("tasks").add({ title, section, order: maxOrder + 1, done: false, doneAt: null, addedBy: "owner", added: new Date().toISOString() });
+      document.getElementById("add-title").value = "";
+      say("Added.");
+    } catch (e) {
+      if (e && e.code === "invalid_argument") { readOnly = true; say("You can view this list but not change it."); }
+      else if (e && e.code === "quota_exceeded") say("The list is full. Ask Claude to clear out old tasks.");
+      else say("Couldn't add that. Try again in a moment.");
+    } finally { addBtn.disabled = !db || readOnly; }
+  });
+
+  (async () => {
+    const claude = window.claude;
+    if (!claude || typeof claude.use !== "function") { countEl.textContent = "Offline copy"; board.replaceChildren(el("div", "empty", "Open this page in Claude to see your tasks.")); return; }
+    db = await claude.use("db");
+    if (!db) { countEl.textContent = "Not available"; board.replaceChildren(el("div", "empty", "Open this page in Claude while signed in to see your tasks.")); return; }
+    try {
+      const user = await claude.use("user");
+      const can = user && typeof user.can === "function" ? await user.can("data.write") : null;
+      if (can === false) { readOnly = true; say("You can view this list but not change it."); }
+    } catch (e) {}
+    addBtn.disabled = readOnly;
+    db.collection("tasks").onSnapshot(
+      (snap) => { docs = snap.docs.filter(d => d.exists); render(); },
+      () => { say("The list stopped updating. Reload the page to reconnect."); }
+    );
+  })();
+})();
+</script>
