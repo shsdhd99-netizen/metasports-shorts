@@ -1,0 +1,91 @@
+{
+ "length_s": 14.2,
+ "topic": "A basketball court wiper surprises the crowd and arena by pulling off an incredible dunk with a ball that rolled to him.",
+ "lane": "moment",
+ "hook": {
+  "first_words": "This guy was just wiping the court when a basketball suddenly rolled to him",
+  "first_frame": "A person cleaning the basketball court with a wiper, holding it in his hands on the court.",
+  "on_screen_text_0_3s": "THIS GUY WAS JUST WIPING THE COURT",
+  "shots_in_first_3s": 1
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 6.1,
+   "shows": "Court wiper standing on the court, picking up a basketball that rolled to him",
+   "kind": "action"
+  },
+  {
+   "start_s": 6.1,
+   "end_s": 10.1,
+   "shows": "Court wiper throwing down a powerful dunk on the basketball hoop",
+   "kind": "action"
+  },
+  {
+   "start_s": 10.1,
+   "end_s": 14.2,
+   "shows": "Replay angle of the court wiper doing another dunk",
+   "kind": "replay"
+  }
+ ],
+ "shot_count": 3,
+ "average_shot_s": 4.73,
+ "longest_shot_s": 6.1,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 210,
+  "tone": "enthusiastic",
+  "original_audio_under_voice": true
+ },
+ "music": {
+  "present": true,
+  "style": "upbeat instrumental background music",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 6,
+  "case": "ALL CAPS",
+  "position": "middle",
+  "colours": "white",
+  "highlight_style": "none"
+ },
+ "text_overlays": [],
+ "cards_or_graphics": 0,
+ "framing": "crop",
+ "ending": {
+  "last_words": "wasn't supposed to touch the ball.",
+  "last_frame": "The basketball dropping through the net after the dunk, crowd and court visible.",
+  "loops_to_start": true,
+  "call_to_action": "none"
+ },
+ "script": "This guy was just wiping the court when a basketball suddenly rolled to him. And once the crowd saw it, they started cheering because they wanted him to shoot it. But instead, he surprised everyone by showing off a hidden talent, throwing down dunks like it was nothing. He pulled off dunks that could win in the dunk contest, even though he wasn't supposed to touch the ball.",
+ "retention_tricks": [
+  "open loops",
+  "reveals",
+  "replays"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": true,
+  "promise_in_first_line": false,
+  "ends_on_payoff": true,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "Unexpected skill from an ordinary staff member",
+  "High-energy commentary paired with impressive athletic action",
+  "Replay angle highlighting the impressive dunk"
+ ],
+ "_meta": {
+  "source": "I9xlgRnHBq4",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}
