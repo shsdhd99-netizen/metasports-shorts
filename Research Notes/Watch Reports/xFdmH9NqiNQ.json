@@ -1,0 +1,319 @@
+{
+ "length_s": 68.25,
+ "topic": "How Tottenham turned around their awful start to the 2008-09 Premier League season after hiring Harry Redknapp.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "Teams that had awful starts to the season,",
+  "first_frame": "A football player running on the pitch with text overlay.",
+  "on_screen_text_0_3s": "Teams that had AWFUL STARTS TO THE SEASON",
+  "shots_in_first_3s": 3
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 0.42,
+   "shows": "football player running on pitch",
+   "kind": "action"
+  },
+  {
+   "start_s": 0.42,
+   "end_s": 0.83,
+   "shows": "football player running on pitch close up",
+   "kind": "action"
+  },
+  {
+   "start_s": 0.83,
+   "end_s": 1.75,
+   "shows": "football player kicking ball",
+   "kind": "action"
+  },
+  {
+   "start_s": 1.75,
+   "end_s": 3.0,
+   "shows": "tackle on pitch",
+   "kind": "action"
+  },
+  {
+   "start_s": 3.0,
+   "end_s": 4.5,
+   "shows": "players walking through tunnel with confetti",
+   "kind": "stock"
+  },
+  {
+   "start_s": 4.5,
+   "end_s": 5.92,
+   "shows": "vintage TV showing Tottenham celebration",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 5.92,
+   "end_s": 7.67,
+   "shows": "fans celebrating with trophy",
+   "kind": "stock"
+  },
+  {
+   "start_s": 7.67,
+   "end_s": 9.67,
+   "shows": "Luka Modric smiling in Tottenham kit",
+   "kind": "still"
+  },
+  {
+   "start_s": 9.67,
+   "end_s": 11.92,
+   "shows": "player celebrating waving shirt",
+   "kind": "stock"
+  },
+  {
+   "start_s": 11.92,
+   "end_s": 17.58,
+   "shows": "Luka Modric and Jonathan Woodgate looking disappointed",
+   "kind": "action"
+  },
+  {
+   "start_s": 17.58,
+   "end_s": 21.67,
+   "shows": "Juande Ramos coaching on touchline",
+   "kind": "action"
+  },
+  {
+   "start_s": 21.67,
+   "end_s": 22.92,
+   "shows": "Juande Ramos gesturing angrily",
+   "kind": "action"
+  },
+  {
+   "start_s": 22.92,
+   "end_s": 24.25,
+   "shows": "Tottenham player on pitch with ball",
+   "kind": "action"
+  },
+  {
+   "start_s": 24.25,
+   "end_s": 27.5,
+   "shows": "Jonathan Woodgate looking down",
+   "kind": "action"
+  },
+  {
+   "start_s": 27.5,
+   "end_s": 28.5,
+   "shows": "Juande Ramos celebrating",
+   "kind": "action"
+  },
+  {
+   "start_s": 28.5,
+   "end_s": 32.0,
+   "shows": "Harry Redknapp in jacket with money falling animation",
+   "kind": "stock"
+  },
+  {
+   "start_s": 32.0,
+   "end_s": 34.0,
+   "shows": "Harry Redknapp speaking into microphone",
+   "kind": "face"
+  },
+  {
+   "start_s": 34.0,
+   "end_s": 35.5,
+   "shows": "Harry Redknapp walking on touchline",
+   "kind": "action"
+  },
+  {
+   "start_s": 35.5,
+   "end_s": 37.17,
+   "shows": "Harry Redknapp talking to players in training",
+   "kind": "action"
+  },
+  {
+   "start_s": 37.17,
+   "end_s": 40.0,
+   "shows": "Harry Redknapp giving thumbs up",
+   "kind": "action"
+  },
+  {
+   "start_s": 40.0,
+   "end_s": 42.0,
+   "shows": "Tottenham players celebrating a goal",
+   "kind": "action"
+  },
+  {
+   "start_s": 42.0,
+   "end_s": 43.5,
+   "shows": "vintage TV showing goal",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 43.5,
+   "end_s": 46.25,
+   "shows": "Harry Redknapp celebrating and team huddle",
+   "kind": "action"
+  },
+  {
+   "start_s": 46.25,
+   "end_s": 47.92,
+   "shows": "teams walking out of tunnel at Arsenal",
+   "kind": "stock"
+  },
+  {
+   "start_s": 47.92,
+   "end_s": 48.92,
+   "shows": "David Bentley celebrating",
+   "kind": "action"
+  },
+  {
+   "start_s": 48.92,
+   "end_s": 50.67,
+   "shows": "Tottenham player looking frustrated",
+   "kind": "action"
+  },
+  {
+   "start_s": 50.67,
+   "end_s": 52.75,
+   "shows": "ball going into goal",
+   "kind": "replay"
+  },
+  {
+   "start_s": 52.75,
+   "end_s": 54.75,
+   "shows": "Tottenham team photo",
+   "kind": "still"
+  },
+  {
+   "start_s": 54.75,
+   "end_s": 58.25,
+   "shows": "Tottenham players celebrating winner",
+   "kind": "action"
+  },
+  {
+   "start_s": 58.25,
+   "end_s": 62.0,
+   "shows": "Harry Redknapp celebrating wildly",
+   "kind": "action"
+  },
+  {
+   "start_s": 62.0,
+   "end_s": 63.83,
+   "shows": "Harry Redknapp clapping",
+   "kind": "face"
+  },
+  {
+   "start_s": 63.83,
+   "end_s": 65.25,
+   "shows": "Harry Redknapp walking out for cup final",
+   "kind": "action"
+  },
+  {
+   "start_s": 65.25,
+   "end_s": 67.25,
+   "shows": "Premier League table screenshot",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 67.25,
+   "end_s": 68.25,
+   "shows": "Harry Redknapp shaking hands in boardroom",
+   "kind": "stock"
+  }
+ ],
+ "shot_count": 34,
+ "average_shot_s": 2.01,
+ "longest_shot_s": 5.67,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 195,
+  "tone": "engaging and dramatic",
+  "original_audio_under_voice": true
+ },
+ "music": {
+  "present": true,
+  "style": "dramatic cinematic beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "mixed",
+  "position": "middle",
+  "colours": "white",
+  "highlight_style": "none"
+ },
+ "text_overlays": [
+  {
+   "at_s": 0.0,
+   "text": "Teams that had AWFUL STARTS TO THE SEASON, but then turned it around"
+  },
+  {
+   "at_s": 3.0,
+   "text": "In two thousand eight, Tottenham looked like a club on the rise because they'd just won the League Cup, spent big on players like Luka Modrić, and fans expected a real push up the table."
+  },
+  {
+   "at_s": 12.0,
+   "text": "But eight games later, they'd end up in a spot that no Tottenham team has ever matched, before or since."
+  },
+  {
+   "at_s": 17.5,
+   "text": "Under manager Juande Ramos, Spurs went eight league games without a single win, picking up just two points and sitting dead last, which set the record for the worst start in the club's Premier League history."
+  },
+  {
+   "at_s": 27.5,
+   "text": "Ramos was sacked, and the club paid five million pounds to bring in Harry Redknapp from Portsmouth."
+  },
+  {
+   "at_s": 32.0,
+   "text": "But before Redknapp could even settle in, he was handed the exact fixtures you'd never want when your team is drowning, and if you're enjoying the content please hit the follow button."
+  },
+  {
+   "at_s": 40.0,
+   "text": "His first game, Spurs finally won by beating Bolton two nil to end a twelve game winless run across all competitions."
+  },
+  {
+   "at_s": 46.5,
+   "text": "Three days later they went to Arsenal, took an early lead, then fell behind four two, and scored twice deep into stoppage time to steal a four four draw at their biggest rivals."
+  },
+  {
+   "at_s": 54.7,
+   "text": "Then they beat Liverpool two one with a late winner, giving them seven points in seven days from the team that couldn't win in two months."
+  },
+  {
+   "at_s": 61.0,
+   "text": "And they didn't stop there, because Redknapp dragged them off the bottom and reached a cup final, then finished the season eighth in the league with fifty one points."
+  }
+ ],
+ "cards_or_graphics": 3,
+ "framing": "crop",
+ "ending": {
+  "last_words": "finished the season eighth in the league with fifty one points.",
+  "last_frame": "Harry Redknapp shaking hands in boardroom.",
+  "loops_to_start": false,
+  "call_to_action": "hit the follow button"
+ },
+ "script": "Teams that had awful starts to the season, but then turned it around. In two thousand eight, Tottenham looked like a club on the rise because they'd just won the League Cup, spent big on players like Luka Modrić, and fans expected a real push up the table. But eight games later, they'd end up in a spot that no Tottenham team has ever matched, before or since. Under manager Juande Ramos, Spurs went eight league games without a single win, picking up just two points and sitting dead last, which set the record for the worst start in the club's Premier League history. Ramos was sacked, and the club paid five million pounds to bring in Harry Redknapp from Portsmouth. But before Redknapp could even settle in, he was handed the exact fixtures you'd never want when your team is drowning, and if you're enjoying the content please hit the follow button. His first game, Spurs finally won by beating Bolton two nil to end a twelve game winless run across all competitions. Three days later they went to Arsenal, took an early lead, then fell behind four two, and scored twice deep into stoppage time to steal a four four draw at their biggest rivals. Then they beat Liverpool two one with a late winner, giving them seven points in seven days from the team that couldn't win in two months. And they didn't stop there, because Redknapp dragged them off the bottom and reached a cup final, then finished the season eighth in the league with fifty one points.",
+ "retention_tricks": [
+  "fast pacing with average shot length around 2 seconds",
+  "text overlays highlighting every sentence",
+  "mid-video call to action to maintain engagement",
+  "dramatic turnaround narrative arc"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": true,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "Strong storytelling structure detailing a dramatic football turnaround",
+  "High visual variety combining archive footage, TV frames, and press photos",
+  "Fast cuts and dynamic caption placement keeping viewer attention high"
+ ],
+ "_meta": {
+  "source": "xFdmH9NqiNQ",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

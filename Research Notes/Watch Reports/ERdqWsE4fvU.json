@@ -1,0 +1,120 @@
+{
+ "length_s": 24.0,
+ "topic": "A compilation of humorous AI-generated image morphs involving football players transitioning into unexpected objects and scenarios.",
+ "lane": "moment",
+ "hook": {
+  "first_words": "quero mais pegar você",
+  "first_frame": "A cartoonish giant goalkeeper wearing a yellow Manchester City jersey covering the entire goal, with Lionel Messi standing in front preparing to kick a football.",
+  "on_screen_text_0_3s": "TAT FUTEBOL",
+  "shots_in_first_3s": 1
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 5.0,
+   "shows": "Messi kicking a ball towards a giant, fat goalkeeper who catches it and morphs into a chef eating pizza.",
+   "kind": "action"
+  },
+  {
+   "start_s": 5.0,
+   "end_s": 7.0,
+   "shows": "The giant chef eating pizza in the goal.",
+   "kind": "still"
+  },
+  {
+   "start_s": 7.0,
+   "end_s": 9.9,
+   "shows": "Football player dribbling on the pitch, morphing into a surfer on a huge wave.",
+   "kind": "action"
+  },
+  {
+   "start_s": 9.9,
+   "end_s": 11.5,
+   "shows": "Surfer riding a wave.",
+   "kind": "still"
+  },
+  {
+   "start_s": 11.5,
+   "end_s": 16.5,
+   "shows": "Football players dribbling past each other, revealing a giant baby in a diaper sitting on the pitch.",
+   "kind": "action"
+  },
+  {
+   "start_s": 16.5,
+   "end_s": 19.5,
+   "shows": "Footballer dribbling past an older man on a training pitch.",
+   "kind": "action"
+  },
+  {
+   "start_s": 19.5,
+   "end_s": 24.0,
+   "shows": "An older man ice skating in an indoor rink.",
+   "kind": "still"
+  }
+ ],
+ "shot_count": 7,
+ "average_shot_s": 3.43,
+ "longest_shot_s": 5.0,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 110,
+  "tone": "playful",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "upbeat electronic remix",
+  "level_vs_voice": "loud",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": false,
+  "words_per_line": 0,
+  "case": "mixed",
+  "position": "bottom",
+  "colours": "unknown",
+  "highlight_style": "unknown"
+ },
+ "text_overlays": [
+  {
+   "at_s": 0.0,
+   "text": "TAT FUTEBOL"
+  }
+ ],
+ "cards_or_graphics": 0,
+ "framing": "crop",
+ "ending": {
+  "last_words": "lararanara",
+  "last_frame": "An older man ice skating inside an indoor hockey rink.",
+  "loops_to_start": true,
+  "call_to_action": "none"
+ },
+ "script": "quero mais pegar você ia ranara ia ranara ia ranara ia ranara",
+ "retention_tricks": [
+  "unexpected AI morphs (footballer to giant goalkeeper to chef)",
+  "fast-paced visual transitions",
+  "surreal humor"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": false,
+  "ends_on_payoff": false,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "Absurd AI-generated image transformations that catch viewers off guard",
+  "Seamless matching of football actions into completely different surreal settings",
+  "Energetic and catchy background music driving the pace of the edits"
+ ],
+ "_meta": {
+  "source": "ERdqWsE4fvU",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

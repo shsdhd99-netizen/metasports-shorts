@@ -13,7 +13,7 @@ Two layers:
   2. Gemini reads the scripts as text (about 15 per request, free tier) and labels the hook type, the payoff type, whether
      there is a twist, and the tone.
 Output: 'Research Notes/Watch Study/Script study (<date>).csv' and '... summary.md', plus 'Script Library (<date>).md' with
-the full narration of the 20 best-performing Shorts (by views vs their channel's median), for reference when writing.
+the full narration of the 15 best NBA and 5 best soccer Shorts (by views vs their channel's median), for reference when writing.
 Every label is [S] (model-coded or from a model's transcript). Transcripts of music-only or caption-only Shorts are skipped.
 """
 import argparse, csv, datetime, glob, json, os, re, statistics, sys, time
@@ -158,8 +158,10 @@ def main():
             out.append(f"| {k} | {dist(top, k)} | {dist(bot, k)} |")
     open(stem + " summary.md", "w", encoding="utf-8").write("\n".join(out) + "\n")
 
-    best = sorted([r for r in rows if r["group"] == "top"], key=lambda r: -r["x_median"])[:20]
-    lib = [f"# Script library ({today}): the 20 best-performing narrated scripts in our studies\n",
+    rank = lambda fam, n: sorted([r for r in rows if r["group"] == "top" and r["family"] == fam],
+                                 key=lambda r: -r["x_median"])[:n]
+    best = rank("nba", 15) + rank("soccer", 5)  # narrated channels only: the format survey's "scripts" are often lyrics
+    lib = [f"# Script library ({today}): the 15 best NBA and 5 best soccer narrated scripts in our studies\n",
            "Ranked by views against their own channel's median. Narration as Gemini transcribed it ([S]: small slips "
            "possible). For reference only: never copy a script; learn the shape.\n"]
     for r in best:

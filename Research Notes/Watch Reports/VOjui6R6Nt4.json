@@ -1,0 +1,126 @@
+{
+ "length_s": 23.0,
+ "topic": "A superfan who was kicked out of an arena for dancing shirtless returns 12 years later with his sons to welcome back Kevin Garnett.",
+ "lane": "moment",
+ "hook": {
+  "first_words": "This guy was the biggest Kevin Garnett fan,",
+  "first_frame": "A shirtless man with 'KG' written on his arm and back dancing in an arena crowd",
+  "on_screen_text_0_3s": "This guy was the biggest Kevin Garnett fan,",
+  "shots_in_first_3s": 2
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 2.0,
+   "shows": "Shirtless fan dancing in crowd with KG on his arm",
+   "kind": "action"
+  },
+  {
+   "start_s": 2.0,
+   "end_s": 7.0,
+   "shows": "Fan taking off shirt revealing 'WOLVES' on chest, being escorted out by security",
+   "kind": "action"
+  },
+  {
+   "start_s": 7.0,
+   "end_s": 9.5,
+   "shows": "Kevin Garnett smiling on court in Timberwolves uniform",
+   "kind": "face"
+  },
+  {
+   "start_s": 9.5,
+   "end_s": 12.0,
+   "shows": "Same fan in blue jersey with two sons in crowd pointing",
+   "kind": "face"
+  },
+  {
+   "start_s": 12.0,
+   "end_s": 15.0,
+   "shows": "Crowd cheering in arena",
+   "kind": "action"
+  },
+  {
+   "start_s": 15.0,
+   "end_s": 17.0,
+   "shows": "Fan and sons dancing in seats",
+   "kind": "action"
+  },
+  {
+   "start_s": 17.0,
+   "end_s": 20.5,
+   "shows": "Fan taking off shirt to reveal 'WELCOME HOME KG' painted on chest",
+   "kind": "action"
+  },
+  {
+   "start_s": 20.5,
+   "end_s": 23.0,
+   "shows": "Kevin Garnett smiling happily",
+   "kind": "face"
+  }
+ ],
+ "shot_count": 8,
+ "average_shot_s": 2.875,
+ "longest_shot_s": 5.0,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 175,
+  "tone": "enthusiastic narrative",
+  "original_audio_under_voice": true
+ },
+ "music": {
+  "present": true,
+  "style": "inspirational cinematic",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 5,
+  "case": "sentence",
+  "position": "middle",
+  "colours": "white with black outline",
+  "highlight_style": "yellow highlight on spoken word"
+ },
+ "text_overlays": [
+  {
+   "at_s": 9.5,
+   "text": "LIFETIME SHOW US YOUR MOVES"
+  }
+ ],
+ "cards_or_graphics": 0,
+ "framing": "crop",
+ "ending": {
+  "last_words": "which put the biggest smile on KG's face.",
+  "last_frame": "Kevin Garnett smiling broadly on the court",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "This guy was the biggest Kevin Garnett fan, so he wanted to honor him while hyping up the crowd. But for some reason, security stepped in and kicked him out of the arena. However, 12 years later, KG would return to play for Minnesota, and the fan was spotted again in the crowd. Everyone in the arena immediately recognized him, and his two sons were hyping him up to do his iconic dance. So they all danced together, as KG's biggest fan revealed a \"welcome home\" message, which put the biggest smile on KG's face.",
+ "retention_tricks": [
+  "reveal",
+  "recurrent character arc",
+  "fast pacing"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": false,
+  "ends_on_payoff": true,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "Emotional payoff after 12 years",
+  "Strong narrative arc with callback ending",
+  "Wholesome family involvement in the dance"
+ ],
+ "_meta": {
+  "source": "VOjui6R6Nt4",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

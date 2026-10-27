@@ -1,0 +1,272 @@
+{
+ "length_s": 63.3,
+ "topic": "Sheffield United's historically terrible Premier League starts and seasons.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "WORST starts to a new season in football history",
+  "first_frame": "A footballer sliding on grass during a match",
+  "on_screen_text_0_3s": "WORST starts to a new season in football history",
+  "shots_in_first_3s": 2
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 2.1,
+   "shows": "footballer sliding tackle",
+   "kind": "action"
+  },
+  {
+   "start_s": 2.1,
+   "end_s": 5.7,
+   "shows": "Sheffield United team celebrating with trophy",
+   "kind": "still"
+  },
+  {
+   "start_s": 5.7,
+   "end_s": 7.3,
+   "shows": "team staff and players smiling",
+   "kind": "still"
+  },
+  {
+   "start_s": 7.3,
+   "end_s": 8.5,
+   "shows": "footballer profile close-up",
+   "kind": "face"
+  },
+  {
+   "start_s": 8.5,
+   "end_s": 9.9,
+   "shows": "Premier League table graphic",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 9.9,
+   "end_s": 11.2,
+   "shows": "footballers hugging",
+   "kind": "action"
+  },
+  {
+   "start_s": 11.2,
+   "end_s": 12.7,
+   "shows": "footballer looking down disappointed",
+   "kind": "face"
+  },
+  {
+   "start_s": 12.7,
+   "end_s": 13.9,
+   "shows": "footballer wiping face with towel",
+   "kind": "face"
+  },
+  {
+   "start_s": 13.9,
+   "end_s": 16.6,
+   "shows": "Match graphic: Newcastle 8-0 Sheffield United",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 16.6,
+   "end_s": 18.6,
+   "shows": "footballer holding head in hands",
+   "kind": "face"
+  },
+  {
+   "start_s": 18.6,
+   "end_s": 19.9,
+   "shows": "footballers standing on pitch",
+   "kind": "still"
+  },
+  {
+   "start_s": 19.9,
+   "end_s": 21.9,
+   "shows": "Arsenal player dribbling past defender",
+   "kind": "action"
+  },
+  {
+   "start_s": 21.9,
+   "end_s": 24.2,
+   "shows": "player close-up reacting",
+   "kind": "face"
+  },
+  {
+   "start_s": 24.2,
+   "end_s": 26.6,
+   "shows": "manager talking at press conference",
+   "kind": "face"
+  },
+  {
+   "start_s": 26.6,
+   "end_s": 28.5,
+   "shows": "league table showing Sheffield United in last place",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 28.5,
+   "end_s": 29.5,
+   "shows": "team clapping fans",
+   "kind": "still"
+  },
+  {
+   "start_s": 29.5,
+   "end_s": 31.4,
+   "shows": "goal scored during match",
+   "kind": "action"
+  },
+  {
+   "start_s": 31.4,
+   "end_s": 33.6,
+   "shows": "team celebrating in huddle",
+   "kind": "action"
+  },
+  {
+   "start_s": 33.6,
+   "end_s": 34.6,
+   "shows": "players comforting each other",
+   "kind": "face"
+  },
+  {
+   "start_s": 34.6,
+   "end_s": 36.3,
+   "shows": "Steve Harvey looking confused",
+   "kind": "face"
+  },
+  {
+   "start_s": 36.3,
+   "end_s": 37.6,
+   "shows": "player squatting on pitch",
+   "kind": "face"
+  },
+  {
+   "start_s": 37.6,
+   "end_s": 39.9,
+   "shows": "player dribbling in box",
+   "kind": "action"
+  },
+  {
+   "start_s": 39.9,
+   "end_s": 42.6,
+   "shows": "manager looking serious in coat",
+   "kind": "face"
+  },
+  {
+   "start_s": 42.6,
+   "end_s": 44.9,
+   "shows": "players in white jackets on pitch",
+   "kind": "still"
+  },
+  {
+   "start_s": 44.9,
+   "end_s": 47.7,
+   "shows": "league table showing previous season",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 47.7,
+   "end_s": 48.9,
+   "shows": "player walking on pitch",
+   "kind": "face"
+  },
+  {
+   "start_s": 48.9,
+   "end_s": 50.9,
+   "shows": "player looking sad",
+   "kind": "face"
+  },
+  {
+   "start_s": 50.9,
+   "end_s": 53.0,
+   "shows": "goalkeeper with hand on head",
+   "kind": "face"
+  },
+  {
+   "start_s": 53.0,
+   "end_s": 55.2,
+   "shows": "manager speaking in interview",
+   "kind": "face"
+  },
+  {
+   "start_s": 55.2,
+   "end_s": 57.5,
+   "shows": "player sitting on pitch holding head",
+   "kind": "face"
+  },
+  {
+   "start_s": 57.5,
+   "end_s": 59.2,
+   "shows": "manager in puffer jacket",
+   "kind": "face"
+  },
+  {
+   "start_s": 59.2,
+   "end_s": 61.3,
+   "shows": "player with shirt over head",
+   "kind": "face"
+  },
+  {
+   "start_s": 61.3,
+   "end_s": 63.3,
+   "shows": "fan crying in stands",
+   "kind": "face"
+  }
+ ],
+ "shot_count": 33,
+ "average_shot_s": 1.9,
+ "longest_shot_s": 2.7,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 170,
+  "tone": "dramatic",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "dramatic cinematic orchestral",
+  "level_vs_voice": "equal",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "sentence",
+  "position": "middle",
+  "colours": "white",
+  "highlight_style": "none"
+ },
+ "text_overlays": [],
+ "cards_or_graphics": 4,
+ "framing": "crop",
+ "ending": {
+  "last_words": "stretching back over one hundred years.",
+  "last_frame": "A fan crying in the stands wiping his eye",
+  "loops_to_start": false,
+  "call_to_action": "please hit the follow button."
+ },
+ "script": "WORST starts to a new season in football history. Sheffield United got promoted to the Premier League back in 2023, and everyone knew they'd struggle, but they didn't just struggle. Their first ten games of the season brought them exactly one point, a single draw against Everton along with nine losses, including an 8-0 hammering at home to Newcastle. It was the beginning of a record the Premier League had never seen in over thirty years. After a loss to Arsenal in late October, Sheffield United officially had the worst start to a season in Premier League history through ten games, and they finished dead last on sixteen points and got relegated. They also let in 104 goals, the most any club has ever conceded in a single Premier League season. But breaking that record wasn't even the strangest part of this whole story. And if you're enjoying the video, please hit the follow button. This wasn't even the first time Sheffield United did it, because back in the 2020-21 season, that exact same club also took just one point from their opening ten games. So they hold the worst Premier League start ever, twice, completely by themselves. And that earlier side went even further, taking one point from their first thirteen matches. It's the worst start to any season in the entire history of English top-flight football, stretching back over one hundred years.",
+ "retention_tricks": [
+  "rapid shot changes under 2 seconds on average",
+  "promise of a strange twist later in the story",
+  "call to action midway through",
+  "dramatic visual statistics and league tables"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "compelling historical sports trivia about a unique record",
+  "fast-paced editing with high emotional impact clips",
+  "surprising revelation that the team broke the same record twice"
+ ],
+ "_meta": {
+  "source": "kRtYIn5BLLc",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

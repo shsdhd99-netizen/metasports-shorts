@@ -287,3 +287,13 @@ Tiers: [V] verified on our files or data, [S] supported by our numbers (small n)
   - **Soccer hits (Ahmed's Goal):** megastars in a current controversy.
   - **Soccer misses:** "Players who..." lists of lesser names.
 - **Changed:** the daily-run research step now applies a "stranger test" when it picks a story. Write-up: `Research Notes/Watch Study/Findings (Oct 27, 2026).md`.
+
+## Oct 27, 2026 (evening): formats and scripts, about 180 Shorts ([S])
+- **[S] News takes lose on every narrated channel:** "Is X about to...?", "are they doomed?" and injury or money questions. So do sentimental fan moments.
+- **[S] Lists with a clever frame win on the explainer channels.** Rebound Rewind: 7 of 10 hits are lists, 0 of 10 misses.
+- **[S] Scripts:**
+  - In NBA hits, line 1 is a bold claim or the scene: a number in 11% vs 23% of misses, a question in 15% vs 21%.
+  - Hits end on a twist or a punchline: 64% vs 52%.
+  - No hit asks for a follow.
+- **[S] Length doesn't differ within a channel.** Correction: the Oct 27 afternoon remark that "hit scripts are shorter" came from mixing channels.
+- **Changed:** the daily-run research step (news takes out, lists with a frame in, the script rules). Write-up: `Research Notes/Watch Study/Formats and Scripts (Oct 27, 2026).md`.

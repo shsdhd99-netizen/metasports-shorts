@@ -1,0 +1,96 @@
+{
+ "length_s": 9.567,
+ "topic": "A kid tries to copy LeBron James' chalk toss celebration on the street and slips.",
+ "lane": "moment",
+ "hook": {
+  "first_words": "unknown",
+  "first_frame": "A person on a street throwing a ball in the air with text on screen.",
+  "on_screen_text_0_3s": "Bro is NOT LeBron 😭",
+  "shots_in_first_3s": 1
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 6.133,
+   "shows": "A kid walking towards the camera throwing a ball and preparing to toss chalk on a street.",
+   "kind": "action"
+  },
+  {
+   "start_s": 6.133,
+   "end_s": 8.367,
+   "shows": "LeBron James doing his signature chalk toss celebration on an NBA court.",
+   "kind": "replay"
+  },
+  {
+   "start_s": 8.367,
+   "end_s": 9.567,
+   "shows": "The kid throwing chalk and slipping/falling on the street.",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 3,
+ "average_shot_s": 3.189,
+ "longest_shot_s": 6.133,
+ "voice": {
+  "type": "none",
+  "gender": "unknown",
+  "words_per_minute_estimate": 0,
+  "tone": "none",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "upbeat meme song",
+  "level_vs_voice": "loud",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": false,
+  "words_per_line": 0,
+  "case": "mixed",
+  "position": "middle",
+  "colours": [],
+  "highlight_style": "none"
+ },
+ "text_overlays": [
+  {
+   "at_s": 0.0,
+   "text": "Bro is NOT LeBron 😭"
+  }
+ ],
+ "cards_or_graphics": 0,
+ "framing": "crop",
+ "ending": {
+  "last_words": "unknown",
+  "last_frame": "The kid falling down on the street.",
+  "loops_to_start": true,
+  "call_to_action": "none"
+ },
+ "script": "",
+ "retention_tricks": [
+  "NBA celebrity comparison cutaway",
+  "slip/fall fail payoff",
+  "pattern interrupt with LeBron footage"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": false,
+  "ends_on_payoff": true,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "Hilarious expectation versus reality comparison with LeBron James",
+  "Abrupt cut to the NBA clip for comedic effect",
+  "Instant slapstick fail payoff at the end of the video"
+ ],
+ "_meta": {
+  "source": "kZ_2mVP4qQA",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

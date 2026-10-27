@@ -1,0 +1,256 @@
+{
+ "length_s": 67.5,
+ "topic": "Jayson Tatum's physical transformation in the 2021 offseason and how it changed his game.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "NBA players who showed up unrecognizable after",
+  "first_frame": "Basketball players on court during a game",
+  "on_screen_text_0_3s": "Players who showed up UNRECOGNIZABLE after!",
+  "shots_in_first_3s": 3
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 3.2,
+   "shows": "Basketball game action",
+   "kind": "action"
+  },
+  {
+   "start_s": 3.2,
+   "end_s": 4.6,
+   "shows": "TD Garden North Station aerial view",
+   "kind": "stock"
+  },
+  {
+   "start_s": 4.6,
+   "end_s": 7.6,
+   "shows": "Jayson Tatum gym photo and social media post",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 7.6,
+   "end_s": 9.5,
+   "shows": "Surprised fan reaction",
+   "kind": "reaction"
+  },
+  {
+   "start_s": 9.5,
+   "end_s": 11.7,
+   "shows": "Draft photo of Jayson Tatum with Adam Silver",
+   "kind": "still"
+  },
+  {
+   "start_s": 11.7,
+   "end_s": 14.1,
+   "shows": "Gym photos of Tatum working out",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 14.1,
+   "end_s": 16.7,
+   "shows": "Tatum lifting heavy dumbbells in gym",
+   "kind": "stock"
+  },
+  {
+   "start_s": 16.7,
+   "end_s": 19.3,
+   "shows": "Tatum post-game interview in Celtics jersey",
+   "kind": "face"
+  },
+  {
+   "start_s": 19.3,
+   "end_s": 20.9,
+   "shows": "Sweaty Tatum resting in gym",
+   "kind": "stock"
+  },
+  {
+   "start_s": 20.9,
+   "end_s": 23.6,
+   "shows": "Celtics fan being interviewed",
+   "kind": "face"
+  },
+  {
+   "start_s": 23.6,
+   "end_s": 26.6,
+   "shows": "Giannis Antetokounmpo progression comparison",
+   "kind": "stock"
+  },
+  {
+   "start_s": 26.6,
+   "end_s": 29.1,
+   "shows": "Leonardo DiCaprio pointing at TV meme",
+   "kind": "stock"
+  },
+  {
+   "start_s": 29.1,
+   "end_s": 30.5,
+   "shows": "Tatum driving past defender in game",
+   "kind": "action"
+  },
+  {
+   "start_s": 30.5,
+   "end_s": 31.9,
+   "shows": "Tatum driving to basket",
+   "kind": "action"
+  },
+  {
+   "start_s": 31.9,
+   "end_s": 33.6,
+   "shows": "Tatum shooting jumper over defender",
+   "kind": "action"
+  },
+  {
+   "start_s": 33.6,
+   "end_s": 35.5,
+   "shows": "Tatum close-up in Celtics jersey",
+   "kind": "face"
+  },
+  {
+   "start_s": 35.5,
+   "end_s": 38.0,
+   "shows": "Tatum celebrating on court",
+   "kind": "action"
+  },
+  {
+   "start_s": 38.0,
+   "end_s": 41.6,
+   "shows": "Tatum shooting free throw",
+   "kind": "action"
+  },
+  {
+   "start_s": 41.6,
+   "end_s": 44.1,
+   "shows": "Tatum in Celtics uniform",
+   "kind": "face"
+  },
+  {
+   "start_s": 44.1,
+   "end_s": 47.1,
+   "shows": "Crying man reaction meme",
+   "kind": "reaction"
+  },
+  {
+   "start_s": 47.1,
+   "end_s": 50.7,
+   "shows": "Tatum driving and dunking in game",
+   "kind": "action"
+  },
+  {
+   "start_s": 50.7,
+   "end_s": 52.7,
+   "shows": "Tatum lifting dumbbells in gym",
+   "kind": "stock"
+  },
+  {
+   "start_s": 52.7,
+   "end_s": 54.9,
+   "shows": "Team USA game action",
+   "kind": "action"
+  },
+  {
+   "start_s": 54.9,
+   "end_s": 56.6,
+   "shows": "Team USA players celebrating with gold medals",
+   "kind": "stock"
+  },
+  {
+   "start_s": 56.6,
+   "end_s": 58.9,
+   "shows": "Game action dunk",
+   "kind": "action"
+  },
+  {
+   "start_s": 58.9,
+   "end_s": 59.9,
+   "shows": "Tatum in Team USA practice gear",
+   "kind": "face"
+  },
+  {
+   "start_s": 59.9,
+   "end_s": 62.7,
+   "shows": "Tatum interview in Celtics jersey",
+   "kind": "face"
+  },
+  {
+   "start_s": 62.7,
+   "end_s": 64.0,
+   "shows": "Tatum lifting heavy dumbbells",
+   "kind": "stock"
+  },
+  {
+   "start_s": 64.0,
+   "end_s": 67.5,
+   "shows": "Tatum dunking and shooting highlights",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 29,
+ "average_shot_s": 2.3,
+ "longest_shot_s": 3.6,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 175,
+  "tone": "energetic",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "hip hop beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "sentence",
+  "position": "middle",
+  "colours": "white",
+  "highlight_style": "none"
+ },
+ "text_overlays": [
+  {
+   "at_s": 36.0,
+   "text": "26.4 POINTS PER GAME"
+  },
+  {
+   "at_s": 38.0,
+   "text": "ELITE"
+  }
+ ],
+ "cards_or_graphics": 3,
+ "framing": "crop",
+ "ending": {
+  "last_words": "is today.",
+  "last_frame": "Tatum dunking in a game",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "NBA players who showed up UNRECOGNIZABLE after! At the end of the summer in 2021, Jayson Tatum posted some gym photos on his social media, and honestly, nobody was ready for them. The skinny kid the Celtics drafted out of Duke was gone, because in these pictures he looked thick, he looked strong, and he was throwing around heavy dumbbells like they were nothing. People estimated he packed on around fifteen to twenty pounds of pure muscle in one offseason, and fans immediately started saying he was bulking up the exact same way Giannis Antetokounmpo did before he turned into a monster. But the reason he did this had nothing to do with the photos. See, up to this point, Tatum won games with his length and his smooth jumper instead of brute force, and that was actually costing him. The year before he averaged 26.4 points a game, which is elite, yet he only got to the free throw line about five times a night. For a scorer that good, that number was way too low, all because he was too slim to bully defenders and draw contact at the rim. But the timing of when he pulled this off is what makes it so impressive. Tatum barely had a summer to do any of this, since he spent most of it playing for Team USA and won a gold medal in Tokyo. So while everyone was hyping up the Giannis comparison, Tatum shrugged it off and said his body was just getting older and he was putting in the work. And that quiet transformation was the first real step toward him becoming the two-way superstar he is today.",
+ "retention_tricks": [
+  "fast-paced cuts averaging 2.3 seconds",
+  "meme and reaction inserts",
+  "zooms on gym photos and stats"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "Strong narrative arc contrasting Tatum's physical appearance with his gameplay stats",
+  "High visual variety combining basketball footage, gym photos, and meme reactions",
+  "Pacing matches the energetic voiceover and driving background beat"
+ ],
+ "_meta": {
+  "source": "NgmDFtFKa_A",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

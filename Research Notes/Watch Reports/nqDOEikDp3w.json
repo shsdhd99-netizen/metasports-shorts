@@ -1,0 +1,145 @@
+{
+ "length_s": 22.035,
+ "topic": "What NBA players do when they need to use the bathroom during a game",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "What happens when an NBA player has to use the bathroom during a game?",
+  "first_frame": "An NBA player in a Spurs jersey standing next to a tiled wall",
+  "on_screen_text_0_3s": "What happens when an NBA player has to use the bathroom during a game?",
+  "shots_in_first_3s": 3
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 1.0,
+   "shows": "An NBA player in a Spurs jersey standing by a wall in a hallway",
+   "kind": "action"
+  },
+  {
+   "start_s": 1.0,
+   "end_s": 3.0,
+   "shows": "The player walking down a hallway past a mirror",
+   "kind": "action"
+  },
+  {
+   "start_s": 3.0,
+   "end_s": 5.25,
+   "shows": "LeBron James arguing with a referee on the court",
+   "kind": "action"
+  },
+  {
+   "start_s": 5.25,
+   "end_s": 6.65,
+   "shows": "LeBron James pointing on the court",
+   "kind": "action"
+  },
+  {
+   "start_s": 6.65,
+   "end_s": 7.65,
+   "shows": "Stephen Curry walking in a tunnel",
+   "kind": "action"
+  },
+  {
+   "start_s": 7.65,
+   "end_s": 10.5,
+   "shows": "LeBron James and another player on the bench",
+   "kind": "action"
+  },
+  {
+   "start_s": 10.5,
+   "end_s": 12.5,
+   "shows": "A basketball player near the bench walking towards a trash can area",
+   "kind": "action"
+  },
+  {
+   "start_s": 12.5,
+   "end_s": 13.9,
+   "shows": "A player high-fiving fans while walking off",
+   "kind": "action"
+  },
+  {
+   "start_s": 13.9,
+   "end_s": 16.5,
+   "shows": "Blake Griffin celebrating on the court with a towel and cup",
+   "kind": "action"
+  },
+  {
+   "start_s": 16.5,
+   "end_s": 18.2,
+   "shows": "Paul Pierce walking on the court",
+   "kind": "action"
+  },
+  {
+   "start_s": 18.2,
+   "end_s": 19.65,
+   "shows": "Paul Pierce lying on the floor in pain with medical staff around him",
+   "kind": "action"
+  },
+  {
+   "start_s": 19.65,
+   "end_s": 22.035,
+   "shows": "Paul Pierce being wheeled away in a wheelchair",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 12,
+ "average_shot_s": 1.836,
+ "longest_shot_s": 2.65,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 175,
+  "tone": "engaging and casual",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "upbeat rhythmic background beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "sentence",
+  "position": "middle",
+  "colours": "white",
+  "highlight_style": "none"
+ },
+ "text_overlays": [],
+ "cards_or_graphics": 0,
+ "framing": "crop",
+ "ending": {
+  "last_words": "his pants.",
+  "last_frame": "Paul Pierce sitting in a wheelchair in a locker room corridor",
+  "loops_to_start": true,
+  "call_to_action": "none"
+ },
+ "script": "What happens when an NBA player has to use the bathroom during a game? You see, players can't waste a time out, so they usually signal to the coach or leave for the locker room. However, there's been cases where players needed to pee in secret, as there's been stories of players using trash cans, towels, and even cups just so they don't miss a single second of game time. But the craziest example has to be Paul Pierce, who faked an injury and had to use a wheelchair because he pooped his pants.",
+ "retention_tricks": [
+  "promise in first line",
+  "fast-paced cutting",
+  "curiosity loop about Paul Pierce at the end"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "Fast cuts matching the narrative pace",
+  "Engaging hook addressing a taboo and relatable topic",
+  "Surprising and funny payoff at the end involving Paul Pierce"
+ ],
+ "_meta": {
+  "source": "nqDOEikDp3w",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

@@ -1,0 +1,208 @@
+{
+ "length_s": 81.25,
+ "topic": "An animated breakdown of James Harden's career earnings, highlighting his entry into the 500 million dollar club after signing with the Cleveland Cavaliers.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "James Harden just became the fourth player in NBA history to enter the five hundred million dollar club.",
+  "first_frame": "An animated James Harden standing on a basketball court with a stack of money falling above him.",
+  "on_screen_text_0_3s": "none",
+  "shots_in_first_3s": 1
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 4.0,
+   "shows": "Animated James Harden on a basketball court with falling money stacks",
+   "kind": "animation"
+  },
+  {
+   "start_s": 4.0,
+   "end_s": 6.25,
+   "shows": "Animation of money stack burning in fire",
+   "kind": "animation"
+  },
+  {
+   "start_s": 6.25,
+   "end_s": 10.0,
+   "shows": "Animated James Harden on court with burning money",
+   "kind": "animation"
+  },
+  {
+   "start_s": 10.0,
+   "end_s": 16.0,
+   "shows": "Animated lineup of LeBron James, Kevin Durant, Steph Curry, and James Harden under '500M Club' header",
+   "kind": "animation"
+  },
+  {
+   "start_s": 16.0,
+   "end_s": 20.5,
+   "shows": "Animated James Harden next to a giant championship trophy",
+   "kind": "animation"
+  },
+  {
+   "start_s": 20.5,
+   "end_s": 24.75,
+   "shows": "Real footage of James Harden signing a jersey in a hallway",
+   "kind": "stock"
+  },
+  {
+   "start_s": 24.75,
+   "end_s": 28.0,
+   "shows": "Pie chart graphic breaking down career earnings by team with Harden caricatures below",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 28.0,
+   "end_s": 29.0,
+   "shows": "Animated James Harden and Donovan Mitchell dancing next to a Cavaliers jersey",
+   "kind": "animation"
+  },
+  {
+   "start_s": 29.0,
+   "end_s": 36.25,
+   "shows": "Real footage of James Harden on court with Cavaliers teammates in orange uniforms",
+   "kind": "stock"
+  },
+  {
+   "start_s": 36.25,
+   "end_s": 38.5,
+   "shows": "Pie chart of Harden earnings with teams",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 38.5,
+   "end_s": 42.25,
+   "shows": "Calendar graphic showing August 2026 with Harden and a Cavaliers cake",
+   "kind": "animation"
+  },
+  {
+   "start_s": 42.25,
+   "end_s": 45.0,
+   "shows": "Wider view of the August 2026 calendar graphic",
+   "kind": "animation"
+  },
+  {
+   "start_s": 45.0,
+   "end_s": 50.0,
+   "shows": "Real game footage of James Harden driving and shooting a basket",
+   "kind": "stock"
+  },
+  {
+   "start_s": 50.0,
+   "end_s": 54.75,
+   "shows": "Pie chart showing earnings breakdown with Cleveland Cavaliers leading at $136.2M",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 54.75,
+   "end_s": 58.75,
+   "shows": "Animated LeBron James and Mo Williams standing next to James Harden in Rockets jersey",
+   "kind": "animation"
+  },
+  {
+   "start_s": 58.75,
+   "end_s": 60.75,
+   "shows": "Animated James Harden and Donovan Mitchell in Cavaliers jerseys",
+   "kind": "animation"
+  },
+  {
+   "start_s": 60.75,
+   "end_s": 69.0,
+   "shows": "Montage of Peyton Watson and other NBA players dunking",
+   "kind": "stock"
+  },
+  {
+   "start_s": 69.0,
+   "end_s": 73.25,
+   "shows": "Animated lineup of players from Boston, Philadelphia, Detroit, and Orlando with a question mark trophy",
+   "kind": "animation"
+  },
+  {
+   "start_s": 73.25,
+   "end_s": 75.0,
+   "shows": "Animated Jaylen Brown and Joel Embiid dancing on court",
+   "kind": "animation"
+  },
+  {
+   "start_s": 75.0,
+   "end_s": 76.5,
+   "shows": "Animated James Harden and Donovan Mitchell",
+   "kind": "animation"
+  },
+  {
+   "start_s": 76.5,
+   "end_s": 81.25,
+   "shows": "Animated lineup of LeBron James, Kevin Durant, Steph Curry, and James Harden in 500M Club",
+   "kind": "animation"
+  }
+ ],
+ "shot_count": 21,
+ "average_shot_s": 3.87,
+ "longest_shot_s": 8.25,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 160,
+  "tone": "energetic sports commentator",
+  "original_audio_under_voice": true
+ },
+ "music": {
+  "present": true,
+  "style": "upbeat hip hop beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "mixed",
+  "position": "middle",
+  "colours": "white with black outline",
+  "highlight_style": "word by word pop"
+ },
+ "text_overlays": [
+  {
+   "at_s": 10.0,
+   "text": "500M Club"
+  },
+  {
+   "at_s": 38.5,
+   "text": "August 2026"
+  }
+ ],
+ "cards_or_graphics": 4,
+ "framing": "cropped",
+ "ending": {
+  "last_words": "or if they should have pushed harder for LeBron by trading one of their starters.",
+  "last_frame": "Animated players of the 500M Club standing together on green grass.",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "James Harden just became the fourth player in NBA history to enter the 500 million dollar club. The other players in the club are LeBron James, Kevin Durant, and Steph Curry. All four players are MVPs. But Harden is the only one so far without a ring or Finals MVP. Another interesting aspect to this is how he entered the $500 million club. He did this through his recent signing with the Cleveland Cavaliers. Harden just landed a 3-year, $97 million fully guaranteed contract to return to the Cavs. That deal includes a third-year player option and a 15% trade kicker. Harden turns 37 on August 26th, so the Cavs are ready to give about $100 million to a 37-40 year old Harden. The Cavs also became Harden's second-highest earning team, who paid him $136.2 million, behind the Rockets in first place who paid him $173.5 million. The Cavs were hoping to land James the summer, but they did to keep James. James Harden, not LeBron James. Which is why they ended up recently trading for Peyton Watson, who just came off of a 14 point per game season and is a young 6'8\" athletic upward-forward. A lot of teams in the East are playing with a chip on their shoulder this season with much to prove and to silence doubters. Let's see if the Cavs have made a good choice with Harden, or if they should have pushed harder for LeBron by trading one of their starters.",
+ "retention_tricks": [
+  "dynamic animations mixed with real NBA footage",
+  "visual pie charts and calendar graphics for stat breakdowns",
+  "pacing with quick cuts between characters and clips"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": false,
+  "ends_on_payoff": false,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "Engaging animated caricature style paired with real NBA highlights",
+  "Clear financial breakdown using pie charts and career milestones",
+  "Topical discussion around James Harden's contract and team history"
+ ],
+ "_meta": {
+  "source": "qsdQrwfPkv4",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

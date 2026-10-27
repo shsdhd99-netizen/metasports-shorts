@@ -1,0 +1,104 @@
+{
+ "length_s": 12.0,
+ "topic": "A street basketball player makes an impressive acrobatic shot reminiscent of an anime character.",
+ "lane": "moment",
+ "hook": {
+  "first_words": "none",
+  "first_frame": "A basketball court with players and onlookers, overlayed with text reading 'Bro THINKS he's Aomine 😭'.",
+  "on_screen_text_0_3s": "Bro THINKS he's Aomine 😭",
+  "shots_in_first_3s": 1
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 8.75,
+   "shows": "Basketball players on an outdoor court",
+   "kind": "action"
+  },
+  {
+   "start_s": 8.75,
+   "end_s": 10.5,
+   "shows": "Anime clip of a basketball shot",
+   "kind": "stock"
+  },
+  {
+   "start_s": 10.5,
+   "end_s": 12.0,
+   "shows": "Players and crowd celebrating the made basket",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 3,
+ "average_shot_s": 4.0,
+ "longest_shot_s": 8.75,
+ "voice": {
+  "type": "none",
+  "gender": "unknown",
+  "words_per_minute_estimate": 0,
+  "tone": "unknown",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "rap beat",
+  "level_vs_voice": "loud",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": false,
+  "words_per_line": 0,
+  "case": "unknown",
+  "position": "unknown",
+  "colours": [],
+  "highlight_style": "unknown"
+ },
+ "text_overlays": [
+  {
+   "at_s": 0.0,
+   "text": "Bro THINKS he's Aomine 😭"
+  },
+  {
+   "at_s": 10.25,
+   "text": "Bro definitely IS Aomine 😭"
+  },
+  {
+   "at_s": 11.5,
+   "text": "*TAKES NOTES*"
+  }
+ ],
+ "cards_or_graphics": 0,
+ "framing": "crop",
+ "ending": {
+  "last_words": "none",
+  "last_frame": "A man in a high-visibility vest taking notes with a clipboard.",
+  "loops_to_start": true,
+  "call_to_action": "none"
+ },
+ "script": "",
+ "retention_tricks": [
+  "anime comparison",
+  "slow motion replay",
+  "meme text overlay at the end"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": true,
+  "promise_in_first_line": false,
+  "ends_on_payoff": true,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "Compares real-life basketball move to an anime character",
+  "High-energy streetball action with dramatic camera work",
+  "Humorous payoff at the end with the note-taking meme"
+ ],
+ "_meta": {
+  "source": "byeKytrcuxU",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

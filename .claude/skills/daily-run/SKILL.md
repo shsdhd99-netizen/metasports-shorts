@@ -59,6 +59,16 @@ Two runs a day (scheduled tasks "MetaSports NBA daily run" and "MetaSports FC da
   posts on this channel (lanes below); a lane with 3 posts in a row below the channel median is retired until the Sunday review. A strong concept that got under 74% stayed may get ONE new edit (new first 3 s and frame 1, new title),
   never the same file again.
 - **Stranger test (Oct 27 watch study [S], `Research Notes/Watch Study/Findings (Oct 27, 2026).md`):** before scripting, ask whether someone who doesn't follow the sport would stop for it. Kids, family, giants, spectacle, the 3-4 biggest names, or a scandal about them pass. History trivia, role players' personality bits and "players who..." lists of lesser names don't. On Swishyyy, Hoopiverse and Ahmed's Goal, hits and misses had the same opening edit; the subject was the difference.
+- **Formats and scripts (Oct 27 study of about 180 Shorts [S], `Research Notes/Watch Study/Formats and Scripts (Oct 27, 2026).md`):**
+  - **Skip news takes:** "Is X about to...?" and "are they doomed?" were the most reliable losers on every narrated channel.
+    Post news only when it's a spectacle you can watch.
+  - **Lists with a clever frame win:** "at every age", "players who...", rankings. Run the weekly countdown now.
+  - **Scripts:**
+    - line 1 states the strange thing (for NBA, not a number or a question);
+    - turn early;
+    - end on a twist or a punchline, never a sentimental ending;
+    - no follow ask.
+  - **Shape reference:** `Research Notes/Watch Study/Script Library (2026-10-27).md`. Learn the shape; never copy.
 - **NBA lanes (Oct 26 overnight review) [S] `Research Notes/Similar Channels (Oct 26, 2026).md` §4:**
   - **About half are moments:** last night's funny, odd or skilful thing you can watch (game, bench, warm-up, fan, kid, mascot,
     broadcast desk), narrated: who, what, the reaction or payoff. Each moment needs **one fact the clip can't show** (YouTube's

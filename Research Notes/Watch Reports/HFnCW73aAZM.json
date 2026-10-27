@@ -1,0 +1,254 @@
+{
+ "length_s": 72.5,
+ "topic": "Whether Diego Simeone will build the most toxic defense in football history by signing Cristian Romero to Atletico Madrid.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "Is Diego Simeone about to build the most TOXIC defense with Cristian Romero?",
+  "first_frame": "Diego Simeone shouting on the touchline in a black suit.",
+  "on_screen_text_0_3s": "Is Diego Simeone ABOUT TO BUILD the MOST TOXIC defense with Cristian Romero?",
+  "shots_in_first_3s": 1
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 2.4,
+   "shows": "Diego Simeone gesticulating on the touchline",
+   "kind": "action"
+  },
+  {
+   "start_s": 2.4,
+   "end_s": 4.7,
+   "shows": "Cristian Romero stepping over an opponent",
+   "kind": "action"
+  },
+  {
+   "start_s": 4.7,
+   "end_s": 7.0,
+   "shows": "Cristian Romero kissing the World Cup trophy with graphics",
+   "kind": "still"
+  },
+  {
+   "start_s": 7.0,
+   "end_s": 8.1,
+   "shows": "Cristian Romero shouting in Argentina kit",
+   "kind": "still"
+  },
+  {
+   "start_s": 8.1,
+   "end_s": 13.7,
+   "shows": "Cristian Romero in Tottenham training and matches arguing with players",
+   "kind": "action"
+  },
+  {
+   "start_s": 13.7,
+   "end_s": 16.9,
+   "shows": "Cristian Romero arguing with a referee",
+   "kind": "action"
+  },
+  {
+   "start_s": 16.9,
+   "end_s": 19.5,
+   "shows": "Cristian Romero high kick tackle and throwing a ball",
+   "kind": "action"
+  },
+  {
+   "start_s": 19.5,
+   "end_s": 23.0,
+   "shows": "Diego Simeone speaking in a press conference",
+   "kind": "face"
+  },
+  {
+   "start_s": 23.0,
+   "end_s": 24.6,
+   "shows": "Diego Simeone walking outside a stadium",
+   "kind": "action"
+  },
+  {
+   "start_s": 24.6,
+   "end_s": 26.2,
+   "shows": "Diego Simeone celebrating aggressively",
+   "kind": "action"
+  },
+  {
+   "start_s": 26.2,
+   "end_s": 30.5,
+   "shows": "Atletico Madrid players arguing and tackling",
+   "kind": "action"
+  },
+  {
+   "start_s": 30.5,
+   "end_s": 32.9,
+   "shows": "Cristian Romero with money falling graphic",
+   "kind": "still"
+  },
+  {
+   "start_s": 32.9,
+   "end_s": 35.9,
+   "shows": "Cristian Romero training at Tottenham",
+   "kind": "action"
+  },
+  {
+   "start_s": 35.9,
+   "end_s": 37.9,
+   "shows": "Cristian Romero smiling in Tottenham kit",
+   "kind": "face"
+  },
+  {
+   "start_s": 37.9,
+   "end_s": 39.5,
+   "shows": "Cristian Romero smiling in training",
+   "kind": "action"
+  },
+  {
+   "start_s": 39.5,
+   "end_s": 41.0,
+   "shows": "Inter and Barcelona logos",
+   "kind": "still"
+  },
+  {
+   "start_s": 41.0,
+   "end_s": 43.7,
+   "shows": "Diego Simeone in press conference",
+   "kind": "face"
+  },
+  {
+   "start_s": 43.7,
+   "end_s": 45.6,
+   "shows": "Cristian Romero standing on pitch",
+   "kind": "action"
+  },
+  {
+   "start_s": 45.6,
+   "end_s": 47.6,
+   "shows": "Diego Simeone portrait",
+   "kind": "still"
+  },
+  {
+   "start_s": 47.6,
+   "end_s": 48.9,
+   "shows": "Diego Simeone celebrating",
+   "kind": "action"
+  },
+  {
+   "start_s": 48.9,
+   "end_s": 52.9,
+   "shows": "Cristian Romero portrait with missed matches stat graphic",
+   "kind": "still"
+  },
+  {
+   "start_s": 52.9,
+   "end_s": 55.8,
+   "shows": "Cristian Romero red card tackle on Casemiro",
+   "kind": "action"
+  },
+  {
+   "start_s": 55.8,
+   "end_s": 57.4,
+   "shows": "Cristian Romero arguing with referee",
+   "kind": "action"
+  },
+  {
+   "start_s": 57.4,
+   "end_s": 60.6,
+   "shows": "Cristian Romero portrait",
+   "kind": "still"
+  },
+  {
+   "start_s": 60.6,
+   "end_s": 63.2,
+   "shows": "Cristian Romero arguing with referee",
+   "kind": "action"
+  },
+  {
+   "start_s": 63.2,
+   "end_s": 64.6,
+   "shows": "Diego Simeone in coat",
+   "kind": "face"
+  },
+  {
+   "start_s": 64.6,
+   "end_s": 66.8,
+   "shows": "Diego Simeone shouting on touchline",
+   "kind": "action"
+  },
+  {
+   "start_s": 66.8,
+   "end_s": 69.2,
+   "shows": "Cristian Romero on pitch",
+   "kind": "action"
+  },
+  {
+   "start_s": 69.2,
+   "end_s": 72.5,
+   "shows": "Diego Simeone video inside old television monitor",
+   "kind": "stock"
+  }
+ ],
+ "shot_count": 29,
+ "average_shot_s": 2.5,
+ "longest_shot_s": 5.7,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 175,
+  "tone": "engaging and dramatic",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "dramatic cinematic beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "mixed",
+  "position": "lower-middle",
+  "colours": "white with some highlights",
+  "highlight_style": "word-by-word white highlight"
+ },
+ "text_overlays": [
+  {
+   "at_s": 51.0,
+   "text": "MISSED 6 MATCHES"
+  }
+ ],
+ "cards_or_graphics": 6,
+ "framing": "crop",
+ "ending": {
+  "last_words": "and yes, it could be exactly that.",
+  "last_frame": "Diego Simeone shouting inside an old TV set with football shirts on the wall behind.",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "Is Diego Simeone about to build the most toxic defense in football history with Cristian Romero? Cristian Romero is a World Cup winner and one of the best defenders on the planet, but he's also picked up six red cards during his time at Tottenham, which is more than any other Premier League player in that stretch. Referees know him well because he plays right on the edge of every single rule. But the red cards aren't the reason this move has people talking, they're just the warning label on it. Right now, Atletico Madrid want him badly, and their manager Diego Simeone is personally pushing for the deal even though his teams are famous for being some of the most combative, dark sides in world football. Atletico already made a bid worth around 30 million euros and Tottenham said no, so a bigger offer is being prepared, and Romero has already agreed personal terms while actually preferring Atletico over clubs like Inter and Barcelona. But once you hear what Simeone actually likes about him, this stops sounding like a normal transfer. Simeone doesn't want Romero in spite of the aggression, he wants him because of it. And this is the same Romero who this season alone missed six matches through suspension. He got sent off for a heavy challenge on Casemiro this season, and earlier in that same season he was fined 50,000 pounds by the FA for how he acted toward a referee after a different red card against Liverpool. So is Simeone about to build the most toxic defense in football history? If this deal happens, he's pairing the most-carded man in England with the darkest playstyle in Spain, and yes, it could be exactly that.",
+ "retention_tricks": [
+  "rapid cuts averaging 2.5 seconds",
+  "dynamic word-by-word captions",
+  "zooms and pan effects on still photos",
+  "open loop question in hook",
+  "stat callouts and graphic overlays"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "Strong narrative hook questioning if a 'toxic defense' is being built by combining two aggressive football personalities.",
+  "Fast-paced editing with frequent visual changes matching the energetic voiceover.",
+  "Clear supporting evidence using stats like Romero's red cards and suspension records."
+ ],
+ "_meta": {
+  "source": "HFnCW73aAZM",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}
