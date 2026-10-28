@@ -39,3 +39,22 @@ S05 and S07 are not on the channel yet. Judge S04/S06 at 3+ days (S03 was at 1.4
 - **The England player who kept Maradona's Hand of God shirt** (S08): posted Tue morning by the owner (id M40gpi_afJo), no-music version. It has 1,300 views on the same day.
 - **Goalkeepers who hid a cheat sheet on their water bottle** (S05): live (id DfDEyHM33is), 6,500 views.
 - **Next:** the FC Hub has no ready draft. "Ronaldo Moved The Coca-Cola Bottles" (S09, script only) needs a voice.
+
+## Wed Oct 28, 2026, 3:25 PM ET: posted check (public counts)
+| Short | Views now | Music |
+|---|---|---|
+| S01 The goalkeeper who hid a cheat sheet in his sock | 30,231 | |
+| S05 Goalkeepers who hid a cheat sheet on their water bottle | **27,172** (53 h live; 6.5K on Tue) | music |
+| S03 Goalkeepers who danced on the line to win a final | 15,487 | |
+| S08 The England player who kept Maradona's Hand of God shirt | 2,811 (~1.5 days) | no music |
+| S07 The team with worse odds than the Loch Ness monster | 2,318 | not confirmed |
+| S06 The player who scored 5 goals in 9 minutes | 2,041 | |
+| S02 Players who got in TROUBLE the day before a derby | 1,810 | |
+| S04 Players who got sent off in their very last game | 1,758 | |
+| S15 Barcelona paid a fortune for the player who knocked them out | 915 (posted Wed morning) | music |
+
+- **Pattern holds [S, n=9]:** the three goalkeeper-with-a-trick stories are 27-30K, 27K and 15K. Everything else is 1.7-2.8K.
+  - S05 went from 6.5K to 27K between Tuesday evening and Wednesday afternoon. It's the third day-2/3 breakout (S01, S03, S05).
+- **Next:** S16 Fabregas (Thu 8-9 AM, no music). The soccer music test so far: music S05 27K, S15 (too new) vs no music S08 2.8K.
+  - n is tiny and the topics differ, so no verdict [H].
+- **Idea to test:** a 4th goalkeeper story, since the pattern is 3 for 3.
