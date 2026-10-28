@@ -7,7 +7,7 @@ Last updated: 2026-10-14 (newest section at the bottom). Branch: `main-329h3w` (
 - **Real audio** (`Tools/nat_sound.py`; rule: NBA Playbook THE RULES §2 rule 11, soccer Playbook rule 1, daily-run skill):
   - #75 rookie: the live call "To him, Jayson Tatum for the win! Yes, sir!" over the winner. **Posted 6:03 PM by the owner (RPbRxmbMHms, the real-audio version: 22 s on YouTube).**
   - #76 Pierce (Thu 7-8 AM): his three quotes in his own voice, lip-synced. Gemini READY, QA PASS.
-  - S17 Krul (Fri 8-9 AM): "It's Umaña who steps up, and Krul has saved it!" with the music bed kept (music side). Worked folders: `_realaudio/` in each.
+  - S17 Krul (Fri 8-9 AM): "It's Umaña who steps up, and Krul has saved it!" with the music bed kept (music side). QA PASS, Gemini READY. Worked folders: `_realaudio/` in each.
   - Real-audio posts are their own test, outside the music test. Keep the narrated render as the copyright fallback.
 - **Footage deleted** (owner approved): about 16 GB of git-ignored src/clips/renders. Only #74, #75, #76, S16 and S17 keep src. Disk: 18 GB free.
 - **Morning runs now fire into this main session** (new scheduled tasks trig_015aH7sYHDcQigg1TMVq2DT2 research 3:43, trig_01TuURVZFYNsjWyqb2Maji9D NBA 4:41, trig_012tSMkzcY6cm1BPEn1zUYGU FC 5:39 ET). The old fresh-session ones are paused (not deleted): they couldn't push or record. If the owner ever adds the repo and keys to the environment, re-enable the old ones and delete these.
