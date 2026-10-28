@@ -497,3 +497,21 @@ Public counts (`channel_check.py`). No API token in the cloud: the Analytics sig
 
 **Format test:** closed (1 of 3 at 74%+). **Retention flags:** none readable.
 **Lesson:** none (n=1 per Short). The two weakest are both news-led, which fits the Oct 27 competitor study ([S], `Research Notes/Watch Study/Formats and Scripts (Oct 27, 2026).md`), but that's not a rule from our own data yet.
+
+## Wed Oct 28, 2026 (evening, 23:27 UTC): daily check (scheduled, read-only)
+Public counts (`channel_check.py`). No API token in the cloud: the Analytics sign-in is still pending (owner's task list). No new Studio export since Oct 24.
+- **Median of the last 7: 3,000** (normal before that: 4,600). Trend: DOWN, but up from 2,250 yesterday.
+
+| Short | Views | #42 FORMAT? | Note |
+|---|---|---|---|
+| This Kid Felt Every Free Throw (#72) | 20,000 | no (moment) | posted 7:17 AM today, about 16 h; music side; best since the 23K Oct 26 list Short |
+| Why SGA Ended His Own NBA Record | 8,300 | record variant | |
+| Haliburton Threw An Alley-Oop To Himself | 6,900 | no (moment) | 2,800 yesterday: still climbing on day 2 |
+| Chuck Failed A Test With The Answers (#70) | 3,000 | no (moment) | music side; 1,800 yesterday |
+| Caitlin Clark Did What No NBA Player Has | 2,700 | no | flat |
+| Luka Just Did What Kobe Never Did (#71) | 1,300 | no (news) | no-music side; flat |
+| This Rookie Was A Hero For One Overtime (#75) | 821 | no (moment) | posted 6:03 PM ET, under 1.5 h old; first **real-audio** post; judge at 72 h |
+
+**Format test:** closed (1 of 3 at 74%+). **Retention flags:** none readable (no API data).
+**Music test so far:** music #72 20,000 and #70 3,000 vs no music #71 1,300; #74 (no music) posts Fri. n=3, not a rule.
+**Lesson:** none (n<3). The two moment Shorts posted in the morning (#72, Haliburton) both kept climbing on day 2; worth watching, not a rule.
