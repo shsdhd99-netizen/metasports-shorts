@@ -1,0 +1,45 @@
+[
+ {
+  "take": 1,
+  "ok": false,
+  "score": -45.9,
+  "verdict": "CHECK",
+  "issues": [],
+  "wpm": 230,
+  "hnr": 7.8,
+  "jitter": 3.03,
+  "shimmer": 11.14,
+  "dur": 25.88,
+  "pitch_sd": 4.44,
+  "fixed": "fixed by sentence retake"
+ },
+ {
+  "take": 2,
+  "ok": false,
+  "score": -95.8,
+  "verdict": "REDO",
+  "issues": [
+   " 9.38s  script \"night he\" but heard \"90\""
+  ],
+  "wpm": 228,
+  "hnr": 7.9,
+  "jitter": 2.92,
+  "shimmer": 11.25,
+  "dur": 26.12,
+  "pitch_sd": 5.23,
+  "fixed": "fixed by sentence retake"
+ },
+ {
+  "take": 3,
+  "ok": true,
+  "score": 4.1,
+  "verdict": "CHECK",
+  "issues": [],
+  "wpm": 231,
+  "hnr": 8.0,
+  "jitter": 3.07,
+  "shimmer": 11.78,
+  "dur": 25.75,
+  "pitch_sd": 5.04
+ }
+]

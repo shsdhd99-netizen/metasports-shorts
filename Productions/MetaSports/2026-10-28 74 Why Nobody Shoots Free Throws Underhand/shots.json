@@ -1,0 +1,95 @@
+[
+ {
+  "clip": "U01.mp4",
+  "kind": "action",
+  "why": "Rick Barry (Warriors #24) sets up and shoots an underhand free throw (Warriors Archive footage via @Super70sSports)",
+  "start": 0.0
+ },
+ {
+  "clip": "U02.mp4",
+  "kind": "action",
+  "why": "The same free throw swishes through the net, close-up (same clip)",
+  "anchor": "Rick Barry shot",
+  "start": 3.04
+ },
+ {
+  "clip": "U03.mp4",
+  "kind": "action",
+  "why": "Barry, retired, in shirt and tie, sinks an underhand free throw with his eyes closed at a Bulls game (broadcast via @BruceBlitz)",
+  "anchor": "made about",
+  "start": 4.63
+ },
+ {
+  "clip": "U04.mp4",
+  "kind": "action",
+  "why": "Wilt Chamberlain in game action, Warriors (official @NBAHistory)",
+  "anchor": "So Wilt",
+  "start": 6.03
+ },
+ {
+  "clip": "U05.mp4",
+  "kind": "action",
+  "why": "The famous photo of Wilt holding the '100' sheet after the game (@NBAHistory). No video of the game exists.",
+  "anchor": "The night he",
+  "start": 8.91
+ },
+ {
+  "clip": "U06.mp4",
+  "kind": "action",
+  "why": "Newspaper headline 'Chamberlain Scores 100 Points; Warriors Down Knicks, 169-147' (@NBAHistory)",
+  "anchor": "he made",
+  "start": 10.43
+ },
+ {
+  "clip": "U07.mp4",
+  "kind": "action",
+  "why": "Wilt (#13) on court in later colour footage (@NBAHistory)",
+  "anchor": "Still a record",
+  "start": 11.92
+ },
+ {
+  "clip": "U08.mp4",
+  "kind": "face",
+  "why": "Wilt in a later interview (@NBAHistory) while the narration says he was too embarrassed to keep it",
+  "anchor": "Then he quit",
+  "start": 13.1
+ },
+ {
+  "clip": "U09.mp4",
+  "kind": "action",
+  "why": "Wilt shoots an overhand free throw and misses, rebound scramble (later career; broadcast via @pitlessball)",
+  "anchor": "So he went back",
+  "start": 15.31
+ },
+ {
+  "clip": "U10.mp4",
+  "kind": "face",
+  "why": "Rick Barry interview, his name on screen (@NBAHistory)",
+  "anchor": "Years later",
+  "start": 18.45
+ },
+ {
+  "clip": "U11.mp4",
+  "kind": "face",
+  "why": "Shaquille O'Neal talking on ESPN's halftime desk (ESPN via @MrBuckBuckNBA)",
+  "anchor": "Shaq said",
+  "start": 20.38
+ },
+ {
+  "clip": "U12.mp4",
+  "kind": "action",
+  "why": "Replay, closer: the '100' sheet (same photo as U05)",
+  "anchor": "of Wilt's",
+  "lead": 0.45,
+  "replay": true,
+  "start": 21.94
+ },
+ {
+  "clip": "U13.mp4",
+  "kind": "action",
+  "why": "Replay at 0.5x: Barry's underhand release (same clip as U01), the shot Wilt was too embarrassed to keep; ends on the payoff",
+  "anchor": "came from a shot",
+  "replay": true,
+  "start": 23.24
+ }
+]

@@ -79,7 +79,8 @@ def main():
             soft(65 <= total <= 85, f"length {total:.1f}s in 65-85 (Ahmed's network: median 77 s)", f"length {total:.1f}s (Ahmed's long Shorts run 61-101 s, median 77 s)")
         else:
             chk(50 <= total <= 59.9, f"length {total:.1f}s (story format, under 1 minute)",
-                f"length {total:.1f}s: the story format must stay under 60 s (a claimed Short over 1 minute is blocked worldwide)")
+                (f"length {total:.1f}s: the story format must stay under 60 s (a claimed Short over 1 minute is blocked worldwide)" if total > 59.9
+                 else f"length {total:.1f}s: too short for the story format (50-59.9 s); add a beat"))
             soft(total <= 59.5, f"length {total:.1f}s, clear of the 1-minute line", f"length {total:.1f}s is within 0.5 s of 1 minute: trim if it is cheap")
     else:
         chk(12 <= total <= 60, f"length {total:.1f}s", f"length {total:.1f}s (outside 12-60 s)")

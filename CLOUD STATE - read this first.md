@@ -10,6 +10,11 @@ Last updated: 2026-10-14 (newest section at the bottom). Branch: `main-329h3w` (
   - The key works in the main session (`Tools/.env`, git-ignored).
   - Flash-lite is the free model that answers reliably.
   - Trust it for transcripts, the shots in the first 3-5 s, and finding a quote in footage. Don't trust it for music or for total shot counts.
+- **Oct 28: own versions of the best library scripts** (owner: "rebuild the best nba/soccer scripts youve seen, and make your own video on the same topics"):
+  - **#74 "Why NBA Players Refuse This Free Throw":** CoachClank's topic, our Wilt angle.
+  - **S15 "Barcelona paid a fortune for the player who knocked them out":** Ahmed's Goal's topic, our Coutinho angle.
+  - Both: full QA PASS, Gemini pre-check READY, on the Hubs and the task list.
+  - Skipped as unusable: Swishyyy's TikTok-creator topics (other creators' footage).
 - **Owner's live task list** (owner asked Oct 27: "write and keep a task list for me in the artifacts"): https://claude.ai/artifact/Ki1UXnbxsdykE4dy7BwyLT.
   - Source `Tools/hub/owner_todo.html`. The tasks live in the `db` collection `tasks`.
   - Keep it current with ArtifactData: add new owner tasks, and tick nothing on the owner's behalf.

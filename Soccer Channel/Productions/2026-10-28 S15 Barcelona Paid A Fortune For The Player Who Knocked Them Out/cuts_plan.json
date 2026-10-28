@@ -1,0 +1,383 @@
+{
+ "sources": {
+  "U": "src/1558776195252006912.mp4",
+  "G": "src/2026410702555013326.mp4",
+  "N": "src/still_campnou.mp4",
+  "T": "src/still_thanks.mp4",
+  "P": "src/1297638252338438153.mp4",
+  "K": "src/1297639716041392128.mp4",
+  "V": "src/1135202123178762240.mp4"
+ },
+ "shots": [
+  {
+   "clip": "C01",
+   "src": "U",
+   "at": 53.0,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Coutinho (Bayern #10, name on his back) turns, hands raised, after scoring Bayern's eighth against Barcelona (UEFA's own highlights, 2-8, Lisbon, 14 Aug 2020)"
+  },
+  {
+   "clip": "C02",
+   "src": "G",
+   "at": 26.5,
+   "x": 0.5,
+   "kind": "action",
+   "anchor": "Back in",
+   "why": "Camp Nou crowd waving flags, early 2018 (Barcelona v Girona broadcast via @Briancelona)"
+  },
+  {
+   "clip": "C03",
+   "src": "G",
+   "at": 11.0,
+   "x": 0.42,
+   "kind": "face",
+   "anchor": "Barcelona signed",
+   "why": "Coutinho in Barcelona's shirt after his first LaLiga goal, Feb 2018 (same broadcast)"
+  },
+  {
+   "clip": "C04",
+   "src": "N",
+   "at": 0.0,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.55,
+   "kind": "action",
+   "anchor": "for a reported",
+   "overlay": [
+    {
+     "text": "€160M",
+     "size": 190,
+     "color": "orange",
+     "y": 230,
+     "start": 0.3,
+     "end": 9,
+     "sub": "REPORTED FEE, JAN 2018"
+    }
+   ],
+   "why": "FC Barcelona's own photo of Coutinho at Camp Nou on presentation day (@FCBarcelona, 7 Jan 2018), slow push-in"
+  },
+  {
+   "clip": "C04b",
+   "src": "G",
+   "at": 13.0,
+   "x": 0.42,
+   "kind": "face",
+   "anchor": "one of the most",
+   "why": "Coutinho, smiling and pointing, in Barcelona's shirt (Feb 2018 broadcast via @Briancelona)"
+  },
+  {
+   "clip": "C05",
+   "src": "G",
+   "at": 34.3,
+   "x": 0.5,
+   "kind": "face",
+   "anchor": "But it never",
+   "why": "Coutinho in Barcelona's shirt, Feb 2018 (Barcelona broadcast via @Briancelona)"
+  },
+  {
+   "clip": "V01",
+   "src": "V",
+   "at": 1.0,
+   "x": 0.62,
+   "kind": "action",
+   "anchor": "Meanwhile",
+   "why": "Virgil van Dijk (#4) carries the Champions League trophy, Madrid, 1 June 2019 (BT Sport via @footballontnt)"
+  },
+  {
+   "clip": "V02",
+   "src": "V",
+   "at": 9.0,
+   "x": 0.5,
+   "kind": "action",
+   "anchor": "and won the",
+   "why": "Van Dijk lifts the trophy in front of Liverpool's fans; Alisson in shot at the end (same clip)"
+  },
+  {
+   "clip": "C06",
+   "src": "P",
+   "at": 0.0,
+   "x": 0.5,
+   "kind": "action",
+   "anchor": "That summer",
+   "why": "Bayern's 2019/20 squad graphic from UEFA (@ChampionsLeague), as Barcelona loan Coutinho to Bayern"
+  },
+  {
+   "clip": "C06b",
+   "src": "K",
+   "at": 7.2,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "kind": "action",
+   "anchor": "who paid just",
+   "overlay": [
+    {
+     "text": "€8.5M",
+     "size": 190,
+     "color": "orange",
+     "y": 230,
+     "start": 0.3,
+     "end": 9,
+     "sub": "BAYERN'S LOAN FEE"
+    }
+   ],
+   "why": "Bayern's bench and staff in Lisbon, 2020 (BT Sport via @footballontnt)"
+  },
+  {
+   "clip": "C07",
+   "src": "U",
+   "at": 0.0,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "kind": "action",
+   "anchor": "Then, in August",
+   "why": "Bayern v Barcelona, Champions League quarter-final, Lisbon: the opening goal (UEFA highlights)"
+  },
+  {
+   "clip": "C08",
+   "src": "U",
+   "at": 3.4,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "kind": "action",
+   "anchor": "Barcelona met Bayern",
+   "why": "Bayern attack again (UEFA highlights)"
+  },
+  {
+   "clip": "C09",
+   "src": "U",
+   "at": 8.4,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "kind": "action",
+   "anchor": "Bayern destroyed",
+   "why": "Another Bayern goal, ter Stegen beaten (UEFA highlights)"
+  },
+  {
+   "clip": "C10",
+   "src": "U",
+   "at": 18.8,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "kind": "action",
+   "anchor": "It was the first",
+   "why": "Bayern score again (UEFA highlights)"
+  },
+  {
+   "clip": "C11",
+   "src": "U",
+   "at": 22.2,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "kind": "action",
+   "anchor": "conceded eight",
+   "overlay": [
+    {
+     "text": "8-2",
+     "size": 190,
+     "color": "white",
+     "y": 230,
+     "start": 0.3,
+     "end": 9,
+     "sub": "FIRST TIME SINCE 1946"
+    }
+   ],
+   "why": "Another Bayern goal (UEFA highlights)"
+  },
+  {
+   "clip": "C12",
+   "src": "U",
+   "at": 46.8,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "kind": "action",
+   "anchor": "And the man",
+   "why": "Bayern's last attack, the move that ends in Coutinho's second goal (UEFA highlights)"
+  },
+  {
+   "clip": "C13",
+   "src": "U",
+   "at": 36.0,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "kind": "action",
+   "anchor": "He came off",
+   "why": "Goalmouth action from Coutinho's late spell: the cross and header (UEFA highlights)"
+  },
+  {
+   "clip": "C14",
+   "src": "U",
+   "at": 40.8,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "kind": "action",
+   "anchor": "then scored",
+   "why": "Coutinho's first goal (UEFA highlights)"
+  },
+  {
+   "clip": "C15",
+   "src": "U",
+   "at": 49.6,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "kind": "action",
+   "anchor": "against the club",
+   "why": "Coutinho's second goal goes in: 8-2 (UEFA highlights)"
+  },
+  {
+   "clip": "C16",
+   "src": "U",
+   "at": 54.3,
+   "zoom": 1.2,
+   "x": 0.45,
+   "kind": "face",
+   "anchor": "He barely",
+   "replay": true,
+   "why": "Replay, closer: Coutinho's raised hands, not celebrating (same shot as C01)"
+  },
+  {
+   "clip": "C17",
+   "src": "K",
+   "at": 0.0,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "kind": "action",
+   "anchor": "Bayern went on",
+   "why": "The final whistle of the 2020 final, PSG 0-1 Bayern, Lisbon (BT Sport via @footballontnt)"
+  },
+  {
+   "clip": "C18",
+   "src": "K",
+   "at": 16.4,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "kind": "action",
+   "anchor": "and Coutinho played",
+   "why": "Bayern players celebrate the title (same broadcast)"
+  },
+  {
+   "clip": "C18b",
+   "src": "P",
+   "at": 3.6,
+   "zoom": 1.2,
+   "x": 0.5,
+   "kind": "action",
+   "anchor": "Bayern had the option",
+   "replay": true,
+   "overlay": [
+    {
+     "text": "€120M",
+     "size": 190,
+     "color": "orange",
+     "y": 230,
+     "start": 0.3,
+     "end": 9,
+     "sub": "BAYERN'S OPTION"
+    }
+   ],
+   "why": "Bayern's squad graphic again, closer (same as C06)"
+  },
+  {
+   "clip": "C18c",
+   "src": "K",
+   "at": 13.3,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "kind": "action",
+   "anchor": "They didn't",
+   "why": "Bayern's players on the Lisbon pitch after the final (BT Sport via @footballontnt)"
+  },
+  {
+   "clip": "C19",
+   "src": "G",
+   "at": 31.0,
+   "x": 0.5,
+   "kind": "face",
+   "anchor": "So he went back",
+   "why": "Coutinho in Barcelona's shirt (Barcelona broadcast via @Briancelona), as he goes back to Barcelona"
+  },
+  {
+   "clip": "C20",
+   "src": "T",
+   "at": 0.0,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.3,
+   "kind": "action",
+   "anchor": "who sold him",
+   "overlay": [
+    {
+     "text": "€20M",
+     "size": 190,
+     "color": "orange",
+     "y": 230,
+     "start": 0.3,
+     "end": 9,
+     "sub": "SOLD TO ASTON VILLA, 2022"
+    }
+   ],
+   "why": "FC Barcelona's own 'THANKS! COUTINHO' farewell graphic (@fcbarcelona_tr, 12 May 2022), slow push-in"
+  },
+  {
+   "clip": "C21",
+   "src": "N",
+   "at": 3.0,
+   "zoom": 1.15,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.55,
+   "kind": "action",
+   "anchor": "They paid",
+   "replay": true,
+   "overlay": [
+    {
+     "text": "€160M",
+     "size": 190,
+     "color": "orange",
+     "y": 230,
+     "start": 0.2,
+     "end": 9,
+     "sub": "PAID (REPORTED)"
+    }
+   ],
+   "why": "Back to the Camp Nou presentation photo, closer (same as C04)"
+  },
+  {
+   "clip": "C22",
+   "src": "T",
+   "at": 3.0,
+   "zoom": 1.15,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.3,
+   "kind": "action",
+   "anchor": "and got",
+   "replay": true,
+   "overlay": [
+    {
+     "text": "€20M",
+     "size": 190,
+     "color": "red",
+     "y": 230,
+     "start": 0.1,
+     "end": 9,
+     "sub": "GOT BACK"
+    }
+   ],
+   "why": "The farewell graphic again, closer (same as C20): the payoff"
+  }
+ ]
+}

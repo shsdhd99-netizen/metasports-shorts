@@ -1,0 +1,53 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Montserrat Black,86,&H00FFFFFF,&H00FFFFFF,&H00000000,&H99000000,0,0,0,0,95,100,1,0,1,6,3,5,70,70,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:01.34,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx78\fscy78\t(0,90,\fscx91\fscy91)}NBA PLAYERS REFUSE
+Dialogue: 0,0:00:01.34,0:00:01.80,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE FREE THROW
+Dialogue: 0,0:00:01.80,0:00:03.07,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx69\fscy69\t(0,90,\fscx80\fscy80)}THAT ACTUALLY WORKS.
+Dialogue: 0,0:00:03.07,0:00:03.65,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}RICK BARRY
+Dialogue: 0,0:00:03.65,0:00:03.99,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SHOT IT
+Dialogue: 0,0:00:03.99,0:00:04.82,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx70\fscy70\t(0,90,\fscx82\fscy82)}UNDERHAND AND MADE
+Dialogue: 0,0:00:04.82,0:00:06.06,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx84\fscy84\t(0,90,\fscx98\fscy98)}ABOUT 90 PERCENT.
+Dialogue: 0,0:00:06.06,0:00:07.05,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx71\fscy71\t(0,90,\fscx82\fscy82)}SO WILT CHAMBERLAIN,
+Dialogue: 0,0:00:07.05,0:00:07.74,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}A 51 PERCENT
+Dialogue: 0,0:00:07.74,0:00:08.15,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SHOOTER,
+Dialogue: 0,0:00:08.15,0:00:08.94,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TRIED IT TOO.
+Dialogue: 0,0:00:08.94,0:00:09.24,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE NIGHT
+Dialogue: 0,0:00:09.24,0:00:09.56,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HE SCORED
+Dialogue: 0,0:00:09.56,0:00:10.46,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}100 POINTS,
+Dialogue: 0,0:00:10.46,0:00:10.72,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HE MADE
+Dialogue: 0,0:00:10.72,0:00:11.95,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}28 FREE THROWS.
+Dialogue: 0,0:00:11.95,0:00:12.57,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}STILL A RECORD.
+Dialogue: 0,0:00:12.57,0:00:13.13,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}UNDERHAND.
+Dialogue: 0,0:00:13.13,0:00:13.68,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THEN HE QUIT.
+Dialogue: 0,0:00:13.68,0:00:13.95,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HE SAID HE
+Dialogue: 0,0:00:13.95,0:00:14.24,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WAS TOO
+Dialogue: 0,0:00:14.24,0:00:14.89,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx71\fscy71\t(0,90,\fscx82\fscy82)}EMBARRASSED TO KEEP
+Dialogue: 0,0:00:14.89,0:00:15.34,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SHOOTING IT.
+Dialogue: 0,0:00:15.34,0:00:15.69,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SO HE WENT
+Dialogue: 0,0:00:15.69,0:00:16.55,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx80\fscy80\t(0,90,\fscx93\fscy93)}BACK TO OVERHAND,
+Dialogue: 0,0:00:16.55,0:00:16.90,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND ONE
+Dialogue: 0,0:00:16.90,0:00:17.38,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SEASON HE MADE
+Dialogue: 0,0:00:17.38,0:00:18.48,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}JUST 38 PERCENT.
+Dialogue: 0,0:00:18.48,0:00:19.05,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}YEARS LATER,
+Dialogue: 0,0:00:19.05,0:00:19.71,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx78\fscy78\t(0,90,\fscx91\fscy91)}RICK BARRY OFFERED
+Dialogue: 0,0:00:19.71,0:00:20.41,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TO TEACH SHAQ.
+Dialogue: 0,0:00:20.41,0:00:20.78,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SHAQ SAID
+Dialogue: 0,0:00:20.78,0:00:21.11,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HE'D RATHER
+Dialogue: 0,0:00:21.11,0:00:21.97,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H002A2AFF&\fscx74\fscy74\t(0,90,\fscx86\fscy86)}SHOOT ZERO PERCENT.
+Dialogue: 0,0:00:21.97,0:00:22.75,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}28 OF WILT'S
+Dialogue: 0,0:00:22.75,0:00:23.42,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}100 POINTS CAME
+Dialogue: 0,0:00:23.42,0:00:23.89,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FROM A SHOT
+Dialogue: 0,0:00:23.89,0:00:24.24,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HE WAS TOO
+Dialogue: 0,0:00:24.24,0:00:24.57,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}EMBARRASSED
+Dialogue: 0,0:00:24.57,0:00:25.34,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TO KEEP.
