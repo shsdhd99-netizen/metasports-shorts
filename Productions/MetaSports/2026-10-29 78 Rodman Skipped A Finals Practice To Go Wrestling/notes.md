@@ -36,4 +36,4 @@
 - Risk: 4 s of NBC broadcast audio makes a Content ID claim more likely. If one blocks the Short, re-render without the burst (narrate the line instead).
 
 ## QA
-- Both versions (music, no music): `qa_short.py --profile story --full` PASS, 55.0 s. Warns left: talking head 58% (the story is about two people), hook has no number in the first 8 words (Ahmed's titles rarely do), one caption under 0.25 s at 33.47 s (the splice into Costas' line).
+- Both versions (music, no music): `qa_short.py --profile story --full` PASS, 55.0 s. Gemini pre-check (music version): READY (report: `Research Notes/Watch Reports/drafts/78_rodman_precheck.json`, tier [S]). Warns left: talking head 58% (the story is about two people), hook has no number in the first 8 words (Ahmed's titles rarely do), one caption under 0.25 s at 33.47 s (the splice into Costas' line).
