@@ -2,6 +2,27 @@
 Last updated: 2026-10-14 (newest section at the bottom). Branch: `main-329h3w` (draft PR #1). The user posts the videos; NEVER upload/publish or open YouTube Studio.
 **Owner, Oct 19 (standing until they say otherwise):** "you are able to run from my pc now, you do not need to look for cloud solutions." Prefer the PC when the session runs there. (Oct 26 overnight review: THE #42 FORMAT is one lane among several, not the lead; moments are about half of NBA Shorts. See House rules and `Research Notes/Rule Changes Applied (Oct 26, 2026).md`.) When the owner is away from the PC, source footage in the cloud yourself.
 
+## Oct 28, 2026: phone task list, 7-9 AM posting, three new Shorts (read this first)
+- **Owner asked (Oct 28):** make the to-do work on the phone and be more instructive; build new Shorts; first posts at 7-9 AM.
+- **Task list** (https://claude.ai/artifact/Ki1UXnbxsdykE4dy7BwyLT) is now phone-first:
+  - a **Now** tab shows one task at a time with numbered, tickable steps, Copy buttons and a big Done;
+  - **All tasks**, plus a **Note** tab that writes to collection `inbox` ({text, at, status new|read|done, reply}).
+  - Read new notes at the start of every run; set status and a one-line reply.
+  - Field shapes are in `.claude/skills/daily-run/SKILL.md` §E: `due` (a timed post joins Now an hour before), `steps`, `copy`, `why`, `mins`.
+- **Posting times (owner):** NBA 7-8 AM ET, FC 8-9 AM ET; 2nd posts (only when as strong) about 3 PM / 4 PM.
+  - Our evidence says the hour barely matters [S], and an early slot suits morning-after news.
+  - Routines moved: research 3:43 AM, NBA build 4:41 AM, FC build 5:39 AM ET; the stats check stays 7:07 PM.
+- **Routines still can't save their work:** both pushes on Oct 28 got 403s, and there's no voice key. Today's research file was recovered by hand.
+  - The owner's fix is the first task on the list (repo in Repositories, ELEVENLABS_API_KEY, new GEMINI_API_KEY).
+- **New Shorts (all full QA PASS, Gemini pre-check READY, on the Hubs and task list):**
+  - #75 "This Rookie Was A Hero For One Overtime": Brown Jr. ties it with 0.2 s left, Tatum wins at the OT buzzer. Music side. Today about 4 PM; skip it if missed.
+  - #76 "He Left The NBA Finals In A Wheelchair": Pierce, own take on CoachClank's 8.6M bathroom topic. No-music side. Thu 7-8 AM.
+  - S16 "The manager who told his team to stop scoring": Fabregas (the 2004 pizza), Como 4-1 Man Utd. No-music side. Thu 8-9 AM.
+  - Parked: the Ronaldo Coca-Cola Short, because there's no usable footage of the payoff (notes in its folder).
+- **Footage lesson:** UCL goal clips from beIN, ESPN and TRT on X return 403 (protected). CBS Sports Golazo clips and highlight reposts download.
+- **Disk:** the session's disk allowance ran out mid-render. Clear scratch copies after Hub uploads.
+  - Deleting old src/ footage in the repo was refused by the permission check, so ask the owner first.
+
 ## Oct 27, 2026: scheduled runs can't push; Gemini watcher live (read this first)
 - The 5:43 research, 6:41 NBA build and 9:39 FC build ran on Oct 27, but every push got a 403. The repo isn't one of the routine sessions' sources, and those sessions have no add_repo. Their commits were recovered from the session records into this branch (commit 365a4b4). The builds also had no `ELEVENLABS_API_KEY` in the environment, so they made scripts only.
   - Fix (owner): environment settings, add the repo under Repositories plus the ElevenLabs and Gemini keys.

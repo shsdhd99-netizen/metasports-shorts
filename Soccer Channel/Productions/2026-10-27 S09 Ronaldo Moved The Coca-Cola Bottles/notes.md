@@ -27,3 +27,8 @@ Copy-check: `Tools/copy_check.py` could not run (yt-dlp missing in the cloud). A
 ## To do when the key is set
 voice_take.py (3 takes) -> tighten_voice.py (end under 59.5 s) -> footage -> cuts.json with "promise": ["bottles","coca-cola","coke","water"] -> both versions -> qa_short.py --full -> Hub card.
 Tags idea (check `tags_fit.py --cap 150`): cristiano ronaldo, ronaldo coca cola, euro 2020, ronaldo agua, portugal hungary, football stories, soccer shorts
+
+## Oct 28 footage check (main session): HOLD
+- Press conference: ABC News on X 1404907985512566788 (44 s) has it, but it's a 720x405 band inside a vertical post (too small for most shots). Other posts are photos.
+- Portugal 3-0 Hungary goals: no downloadable video found (UEFA, Portugal and fan posts are photos). Without the payoff on footage this stays on hold, as the notes above say.
+- The download sits in `Soccer Channel/Productions/2026-10-29 S17 Ronaldo Moved Two Coca-Cola Bottles/src/` (git-ignored). If it's built, number it S17 (S09 clashes with the Krul idea).

@@ -48,3 +48,12 @@ no token in the cloud yet (needs `YT_REFRESH_TOKEN` / `YT_REFRESH_TOKEN_FC`).
   May 17 2026) has the sharpest SGA close-ups, but each lasts only 0.5-1 s between flash transitions (slow them 0.5-0.75x).
 - NBA: `Tools/nba_videos.py search --player <id>` finds a star's reels on every team site; the TBU podcast episodes have
   burned-in lower thirds (not usable).
+
+## Oct 28, 2026 (main session, owner's request)
+- Task list rebuilt for the phone (Now tab with steps and Copy buttons, Note tab for messages to Claude).
+- Posting times moved to 7-9 AM (owner), and the routines moved earlier. Both morning routines' pushes failed (403).
+  - The research file was recovered into `Research Notes/Daily Research/2026-10-28.md`.
+- Built #75 (rookie Brown Jr. / Tatum OT winner), #76 (Pierce wheelchair) and S16 (Fabregas stop scoring).
+  - All three: full QA PASS and Gemini READY, on the Hubs and the task list.
+- Posted (public channel): Nuggets kid (5.3K Wed morning) and S15 Barcelona (Wed morning).
+  - Underhand is due today (the morning post), #75 about 4 PM.

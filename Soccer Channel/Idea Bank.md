@@ -35,3 +35,4 @@
 
 **Oct 27 daily research:** picks S09 (Krul) and the Beckham/Argentina revenge idea (Next Ideas #2). Sources and cautions are in `Research Notes/Daily Research/2026-10-27.md`. Krul's "2 of 20 penalties" figure comes from one AP-based report; re-check before scripting. Frame Beckham's 2002 goal without claiming a grudge (FIFA quotes him saying there was none).
 | S15 (built Oct 28, ready) | Barcelona paid a fortune for the player who knocked them out | Coutinho: EUR 160M (reported) in, 2 goals in the 8-2 for Bayern, EUR 20M out | Backfired transfer (Ahmed's 1.9M topic, own angle) |
+| S16 (built Oct 28, ready Thu) | The manager who told his team to stop scoring | Fabregas (2004 pizza at Ferguson) tells Como to stop running at 4-0 v Man Utd, then regrets United's goal | Famous name + ironic regret (Ahmed's Fabregas/United stories) | CBS + highlights + Sky clip + photos | |

@@ -306,3 +306,11 @@ Tiers: [V] verified on our files or data, [S] supported by our numbers (small n)
   - Build it with official or original footage. Never retell their exact story or reuse their footage.
 - **First two:** #74 underhand free throws (Wilt) and S15 Coutinho 8-2.
 - Skip topics that are other creators' content (TikTok challenges): that footage isn't ours to use.
+
+## Oct 28, 2026: footage and tooling
+- [V] Champions League goal clips from beIN Sports, ESPN and TRT on X return HTTP 403 on download (protected media). Don't work around it.
+  - CBS Sports Golazo posts (the US rights holder) and highlight reposts did download.
+- [V] A dark broadcast close-up (a manager in a black jacket on a dark bench) fails qa_short's "frame 1 is lit".
+  - Photos made into push-in clips work well as frame 1 when the background isn't darkened (Tools: the S16 `src/still_*.mp4` recipe).
+- [V] A still photo shown twice in a row, or two near-static wide shots from one clip, fail "same footage". Cut to a close-up of the same person instead.
+- [H] An evergreen story is stronger when the subject's own words contradict each other on camera (#76 Pierce, 2019 vs 2026) than when a rumour is told as fact.
