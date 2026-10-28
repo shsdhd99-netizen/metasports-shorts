@@ -1,0 +1,281 @@
+{
+ "sources": {
+  "F": "src/1809180258051977400.mp4",
+  "A": "src/2075213076782014852.mp4"
+ },
+ "shots": [
+  {
+   "clip": "K01",
+   "src": "F",
+   "at": 0.0,
+   "x": 0.5,
+   "kind": "action",
+   "why": "The board shows 23: Krul waits to come on at the end of extra time, Netherlands v Costa Rica, 2014 World Cup QF (FIFA World Cup on X)",
+   "len": 2.63
+  },
+  {
+   "clip": "K02",
+   "src": "F",
+   "at": 37.0,
+   "x": 0.5,
+   "kind": "action",
+   "anchor": "Back in",
+   "why": "The Fonte Nova stadium, Netherlands v Costa Rica, wide (FIFA)",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "len": 1.9
+  },
+  {
+   "clip": "K03",
+   "src": "F",
+   "at": 35.0,
+   "x": 0.5,
+   "kind": "face",
+   "anchor": "played Costa",
+   "why": "Costa Rica captain Bryan Ruiz (FIFA)",
+   "len": 2.68
+  },
+  {
+   "clip": "K04",
+   "src": "F",
+   "at": 47.2,
+   "x": 0.5,
+   "kind": "face",
+   "anchor": "A hundred",
+   "why": "Wide: the pitch at the end of a goalless 120 minutes (FIFA)",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "len": 2.16
+  },
+  {
+   "clip": "K05",
+   "src": "F",
+   "at": 13.5,
+   "x": 0.5,
+   "kind": "action",
+   "anchor": "Then, in the",
+   "why": "Krul at the fourth official's board, wide (FIFA)",
+   "len": 2.02
+  },
+  {
+   "clip": "K06",
+   "src": "F",
+   "at": 26.0,
+   "x": 0.5,
+   "kind": "face",
+   "anchor": "Louis van Gaal",
+   "why": "Louis van Gaal on the Netherlands bench (FIFA)",
+   "len": 2.61
+  },
+  {
+   "clip": "K07",
+   "src": "F",
+   "at": 5.5,
+   "x": 0.5,
+   "kind": "face",
+   "anchor": "He took off",
+   "why": "Jasper Cillessen (#1) walks off (FIFA)",
+   "len": 2.31
+  },
+  {
+   "clip": "K08",
+   "src": "F",
+   "at": 18.5,
+   "x": 0.5,
+   "kind": "action",
+   "anchor": "and brought on",
+   "why": "Tim Krul (#23) runs on (FIFA)",
+   "len": 2.21
+  },
+  {
+   "clip": "K09",
+   "src": "F",
+   "at": 7.7,
+   "x": 0.5,
+   "kind": "face",
+   "anchor": "Cillessen hadn't",
+   "why": "Cillessen walking off, unhappy (FIFA)",
+   "len": 1.68
+  },
+  {
+   "clip": "K10",
+   "src": "F",
+   "at": 28.4,
+   "x": 0.5,
+   "kind": "face",
+   "anchor": "We said nothing",
+   "why": "Van Gaal on the bench, drinking water (FIFA)",
+   "len": 2.32
+  },
+  {
+   "clip": "K11",
+   "src": "F",
+   "at": 31.0,
+   "x": 0.5,
+   "kind": "face",
+   "anchor": "And here's",
+   "why": "Krul close-up before the shootout (FIFA)",
+   "len": 2.04
+  },
+  {
+   "clip": "K12",
+   "src": "F",
+   "at": 21.6,
+   "x": 0.5,
+   "kind": "face",
+   "anchor": "Krul had saved",
+   "why": "Krul running on, close (FIFA)",
+   "len": 2.48
+  },
+  {
+   "clip": "K13",
+   "src": "F",
+   "at": 43.0,
+   "x": 0.5,
+   "kind": "face",
+   "anchor": "But Van Gaal said",
+   "why": "Krul in goal during the shootout (FIFA)",
+   "len": 2.16
+  },
+  {
+   "clip": "K14",
+   "src": "F",
+   "at": 58.0,
+   "x": 0.5,
+   "kind": "face",
+   "anchor": "and they had studied",
+   "why": "Costa Rica's penalty taker (#4), head down (FIFA)",
+   "len": 2.27
+  },
+  {
+   "clip": "K15",
+   "src": "F",
+   "at": 45.4,
+   "x": 0.5,
+   "kind": "face",
+   "anchor": "So Krul walked",
+   "why": "Krul at the post, close (FIFA)",
+   "len": 1.67
+  },
+  {
+   "clip": "K16",
+   "src": "F",
+   "at": 32.8,
+   "x": 0.5,
+   "kind": "face",
+   "anchor": "and told them",
+   "why": "Krul close-up, licking his lips (FIFA)",
+   "len": 1.96
+  },
+  {
+   "clip": "K17",
+   "src": "F",
+   "at": 38.6,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "kind": "action",
+   "anchor": "He saved two",
+   "why": "Krul dives low to his left and saves Ruiz's penalty, then roars (FIFA)",
+   "len": 2.89
+  },
+  {
+   "clip": "K18",
+   "src": "F",
+   "at": 52.0,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "kind": "action",
+   "anchor": "The Netherlands won",
+   "why": "Krul saves Umana's penalty, the Dutch players run to him (FIFA)",
+   "len": 3.21
+  },
+  {
+   "clip": "K19",
+   "src": "A",
+   "at": 28.5,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "kind": "action",
+   "anchor": "Four days later",
+   "why": "Netherlands v Argentina semi-final shootout, Sao Paulo, July 9 2014 (TyC Sports broadcast via an X repost)",
+   "len": 2.73
+  },
+  {
+   "clip": "K20",
+   "src": "A",
+   "at": 12.0,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "kind": "action",
+   "anchor": "Nil-nil again",
+   "why": "Same shootout, behind-the-goal angle (TyC Sports via X)",
+   "len": 2.16
+  },
+  {
+   "clip": "K21",
+   "src": "F",
+   "at": 2.4,
+   "x": 0.5,
+   "kind": "action",
+   "anchor": "But this time",
+   "why": "The substitution board again (from the quarter-final): no substitutes left in the semi (FIFA)",
+   "len": 3.52
+  },
+  {
+   "clip": "K22",
+   "src": "F",
+   "at": 16.0,
+   "x": 0.5,
+   "kind": "face",
+   "anchor": "He couldn't",
+   "why": "Krul on the touchline (FIFA, quarter-final)",
+   "len": 1.44
+  },
+  {
+   "clip": "K23",
+   "src": "F",
+   "at": 9.1,
+   "x": 0.5,
+   "kind": "face",
+   "anchor": "Cillessen stayed",
+   "why": "Cillessen (#1), quarter-final footage (FIFA)",
+   "len": 2.98
+  },
+  {
+   "clip": "K24",
+   "src": "A",
+   "at": 9.0,
+   "x": 0.5,
+   "kind": "face",
+   "anchor": "Argentina won",
+   "why": "Argentina keeper Sergio Romero roars after a save (TyC Sports via X)",
+   "len": 1.45
+  },
+  {
+   "clip": "K25",
+   "src": "F",
+   "at": 0.0,
+   "speed": 0.7,
+   "x": 0.5,
+   "kind": "action",
+   "anchor": "The one time",
+   "replay": true,
+   "why": "Replay of the opening shot, slowed: Krul waiting at the board (FIFA)",
+   "len": 2.19
+  },
+  {
+   "clip": "K26",
+   "src": "F",
+   "at": 24.0,
+   "x": 0.5,
+   "kind": "face",
+   "anchor": "he had no substitutes",
+   "why": "Krul, the substitute Van Gaal couldn't use in the semi (FIFA, quarter-final footage)",
+   "len": 2.06
+  }
+ ]
+}
