@@ -1,0 +1,1107 @@
+[
+ {
+  "word": "The",
+  "start": 0.0,
+  "end": 0.093
+ },
+ {
+  "word": "manager",
+  "start": 0.139,
+  "end": 0.453
+ },
+ {
+  "word": "who",
+  "start": 0.488,
+  "end": 0.569
+ },
+ {
+  "word": "told",
+  "start": 0.615,
+  "end": 0.778
+ },
+ {
+  "word": "his",
+  "start": 0.813,
+  "end": 0.882
+ },
+ {
+  "word": "team",
+  "start": 0.917,
+  "end": 1.045
+ },
+ {
+  "word": "to",
+  "start": 1.08,
+  "end": 1.126
+ },
+ {
+  "word": "stop",
+  "start": 1.161,
+  "end": 1.324
+ },
+ {
+  "word": "scoring",
+  "start": 1.37,
+  "end": 1.718
+ },
+ {
+  "word": "against",
+  "start": 1.765,
+  "end": 1.962
+ },
+ {
+  "word": "Manchester",
+  "start": 2.009,
+  "end": 2.368
+ },
+ {
+  "word": "United.",
+  "start": 2.426,
+  "end": 2.81
+ },
+ {
+  "word": "Back",
+  "start": 2.82,
+  "end": 3.014
+ },
+ {
+  "word": "in",
+  "start": 3.061,
+  "end": 3.107
+ },
+ {
+  "word": "2004,",
+  "start": 3.154,
+  "end": 4.043
+ },
+ {
+  "word": "a",
+  "start": 4.069,
+  "end": 4.104
+ },
+ {
+  "word": "17",
+  "start": 4.185,
+  "end": 4.615
+ },
+ {
+  "word": "-year-old",
+  "start": 4.638,
+  "end": 4.94
+ },
+ {
+  "word": "Cesc",
+  "start": 4.975,
+  "end": 5.184
+ },
+ {
+  "word": "Fabregas,",
+  "start": 5.242,
+  "end": 5.846
+ },
+ {
+  "word": "who",
+  "start": 5.869,
+  "end": 5.939
+ },
+ {
+  "word": "would",
+  "start": 5.962,
+  "end": 6.078
+ },
+ {
+  "word": "later",
+  "start": 6.113,
+  "end": 6.31
+ },
+ {
+  "word": "captain",
+  "start": 6.357,
+  "end": 6.577
+ },
+ {
+  "word": "Arsenal,",
+  "start": 6.624,
+  "end": 7.042
+ },
+ {
+  "word": "was",
+  "start": 7.065,
+  "end": 7.169
+ },
+ {
+  "word": "in",
+  "start": 7.216,
+  "end": 7.262
+ },
+ {
+  "word": "the",
+  "start": 7.297,
+  "end": 7.367
+ },
+ {
+  "word": "Old",
+  "start": 7.436,
+  "end": 7.622
+ },
+ {
+  "word": "Trafford",
+  "start": 7.657,
+  "end": 7.994
+ },
+ {
+  "word": "tunnel,",
+  "start": 8.017,
+  "end": 8.284
+ },
+ {
+  "word": "when",
+  "start": 8.307,
+  "end": 8.4
+ },
+ {
+  "word": "a",
+  "start": 8.423,
+  "end": 8.446
+ },
+ {
+  "word": "slice",
+  "start": 8.504,
+  "end": 8.818
+ },
+ {
+  "word": "of",
+  "start": 8.841,
+  "end": 8.888
+ },
+ {
+  "word": "pizza",
+  "start": 8.934,
+  "end": 9.259
+ },
+ {
+  "word": "hit",
+  "start": 9.317,
+  "end": 9.433
+ },
+ {
+  "word": "Sir",
+  "start": 9.479,
+  "end": 9.572
+ },
+ {
+  "word": "Alex",
+  "start": 9.63,
+  "end": 9.874
+ },
+ {
+  "word": "Ferguson.",
+  "start": 9.932,
+  "end": 10.377
+ },
+ {
+  "word": "13",
+  "start": 10.377,
+  "end": 10.696
+ },
+ {
+  "word": "years",
+  "start": 10.731,
+  "end": 10.847
+ },
+ {
+  "word": "later,",
+  "start": 10.882,
+  "end": 11.114
+ },
+ {
+  "word": "he",
+  "start": 11.138,
+  "end": 11.184
+ },
+ {
+  "word": "admitted",
+  "start": 11.242,
+  "end": 11.497
+ },
+ {
+  "word": "on",
+  "start": 11.532,
+  "end": 11.59
+ },
+ {
+  "word": "TV",
+  "start": 11.637,
+  "end": 11.834
+ },
+ {
+  "word": "that",
+  "start": 11.962,
+  "end": 12.055
+ },
+ {
+  "word": "he",
+  "start": 12.09,
+  "end": 12.136
+ },
+ {
+  "word": "threw",
+  "start": 12.207,
+  "end": 12.439
+ },
+ {
+  "word": "it.",
+  "start": 12.497,
+  "end": 12.569
+ },
+ {
+  "word": "Today,",
+  "start": 12.578,
+  "end": 12.962
+ },
+ {
+  "word": "Fabregas",
+  "start": 12.996,
+  "end": 13.368
+ },
+ {
+  "word": "manages,",
+  "start": 13.426,
+  "end": 13.809
+ },
+ {
+  "word": "and",
+  "start": 13.832,
+  "end": 13.902
+ },
+ {
+  "word": "partly",
+  "start": 13.937,
+  "end": 14.181
+ },
+ {
+  "word": "owns,",
+  "start": 14.25,
+  "end": 14.517
+ },
+ {
+  "word": "Como,",
+  "start": 14.552,
+  "end": 15.028
+ },
+ {
+  "word": "a",
+  "start": 15.051,
+  "end": 15.086
+ },
+ {
+  "word": "club",
+  "start": 15.156,
+  "end": 15.318
+ },
+ {
+  "word": "that",
+  "start": 15.353,
+  "end": 15.446
+ },
+ {
+  "word": "went",
+  "start": 15.469,
+  "end": 15.574
+ },
+ {
+  "word": "bankrupt",
+  "start": 15.632,
+  "end": 16.027
+ },
+ {
+  "word": "twice,",
+  "start": 16.05,
+  "end": 16.595
+ },
+ {
+  "word": "and",
+  "start": 16.63,
+  "end": 16.723
+ },
+ {
+  "word": "was",
+  "start": 16.758,
+  "end": 16.828
+ },
+ {
+  "word": "playing",
+  "start": 16.874,
+  "end": 17.153
+ },
+ {
+  "word": "in",
+  "start": 17.188,
+  "end": 17.234
+ },
+ {
+  "word": "Italy's",
+  "start": 17.292,
+  "end": 17.536
+ },
+ {
+  "word": "fifth",
+  "start": 17.594,
+  "end": 17.756
+ },
+ {
+  "word": "division",
+  "start": 17.78,
+  "end": 18.082
+ },
+ {
+  "word": "the",
+  "start": 18.128,
+  "end": 18.198
+ },
+ {
+  "word": "year",
+  "start": 18.256,
+  "end": 18.36
+ },
+ {
+  "word": "United",
+  "start": 18.441,
+  "end": 18.825
+ },
+ {
+  "word": "last",
+  "start": 18.894,
+  "end": 19.126
+ },
+ {
+  "word": "won",
+  "start": 19.161,
+  "end": 19.266
+ },
+ {
+  "word": "the",
+  "start": 19.301,
+  "end": 19.37
+ },
+ {
+  "word": "Champions",
+  "start": 19.394,
+  "end": 19.742
+ },
+ {
+  "word": "League.",
+  "start": 19.8,
+  "end": 20.079
+ },
+ {
+  "word": "Last",
+  "start": 20.102,
+  "end": 20.357
+ },
+ {
+  "word": "week,",
+  "start": 20.404,
+  "end": 20.589
+ },
+ {
+  "word": "in",
+  "start": 20.613,
+  "end": 20.659
+ },
+ {
+  "word": "their",
+  "start": 20.682,
+  "end": 20.798
+ },
+ {
+  "word": "first",
+  "start": 20.845,
+  "end": 21.042
+ },
+ {
+  "word": "ever",
+  "start": 21.1,
+  "end": 21.24
+ },
+ {
+  "word": "Champions",
+  "start": 21.286,
+  "end": 21.588
+ },
+ {
+  "word": "League",
+  "start": 21.623,
+  "end": 21.762
+ },
+ {
+  "word": "season,",
+  "start": 21.785,
+  "end": 22.157
+ },
+ {
+  "word": "Como",
+  "start": 22.192,
+  "end": 22.459
+ },
+ {
+  "word": "hosted",
+  "start": 22.528,
+  "end": 22.853
+ },
+ {
+  "word": "Manchester",
+  "start": 22.888,
+  "end": 23.271
+ },
+ {
+  "word": "United.",
+  "start": 23.341,
+  "end": 23.747
+ },
+ {
+  "word": "Nico",
+  "start": 23.771,
+  "end": 23.979
+ },
+ {
+  "word": "Paz",
+  "start": 24.038,
+  "end": 24.293
+ },
+ {
+  "word": "scored",
+  "start": 24.351,
+  "end": 24.641
+ },
+ {
+  "word": "after",
+  "start": 24.664,
+  "end": 24.827
+ },
+ {
+  "word": "just",
+  "start": 24.873,
+  "end": 24.99
+ },
+ {
+  "word": "118",
+  "start": 25.024,
+  "end": 25.976
+ },
+ {
+  "word": "seconds.",
+  "start": 26.069,
+  "end": 26.592
+ },
+ {
+  "word": "Then",
+  "start": 26.627,
+  "end": 26.777
+ },
+ {
+  "word": "he",
+  "start": 26.824,
+  "end": 26.87
+ },
+ {
+  "word": "set",
+  "start": 26.963,
+  "end": 27.161
+ },
+ {
+  "word": "one",
+  "start": 27.219,
+  "end": 27.37
+ },
+ {
+  "word": "up.",
+  "start": 27.416,
+  "end": 27.579
+ },
+ {
+  "word": "Then",
+  "start": 27.602,
+  "end": 27.718
+ },
+ {
+  "word": "he",
+  "start": 27.753,
+  "end": 27.799
+ },
+ {
+  "word": "scored",
+  "start": 27.869,
+  "end": 28.171
+ },
+ {
+  "word": "again.",
+  "start": 28.206,
+  "end": 28.623
+ },
+ {
+  "word": "Then",
+  "start": 28.647,
+  "end": 28.774
+ },
+ {
+  "word": "it",
+  "start": 28.809,
+  "end": 28.856
+ },
+ {
+  "word": "was",
+  "start": 28.89,
+  "end": 28.972
+ },
+ {
+  "word": "four-nil.",
+  "start": 29.042,
+  "end": 29.611
+ },
+ {
+  "word": "And",
+  "start": 29.634,
+  "end": 29.715
+ },
+ {
+  "word": "that's",
+  "start": 29.75,
+  "end": 29.889
+ },
+ {
+  "word": "when",
+  "start": 29.912,
+  "end": 30.005
+ },
+ {
+  "word": "Fabregas",
+  "start": 30.052,
+  "end": 30.481
+ },
+ {
+  "word": "did",
+  "start": 30.528,
+  "end": 30.632
+ },
+ {
+  "word": "something",
+  "start": 30.679,
+  "end": 30.923
+ },
+ {
+  "word": "managers",
+  "start": 30.969,
+  "end": 31.294
+ },
+ {
+  "word": "never",
+  "start": 31.34,
+  "end": 31.503
+ },
+ {
+  "word": "do.",
+  "start": 31.573,
+  "end": 31.793
+ },
+ {
+  "word": "He",
+  "start": 31.816,
+  "end": 31.863
+ },
+ {
+  "word": "told",
+  "start": 31.921,
+  "end": 32.072
+ },
+ {
+  "word": "his",
+  "start": 32.107,
+  "end": 32.176
+ },
+ {
+  "word": "players",
+  "start": 32.211,
+  "end": 32.478
+ },
+ {
+  "word": "to",
+  "start": 32.513,
+  "end": 32.56
+ },
+ {
+  "word": "stop",
+  "start": 32.641,
+  "end": 32.919
+ },
+ {
+  "word": "running.",
+  "start": 33.012,
+  "end": 33.372
+ },
+ {
+  "word": "I",
+  "start": 33.407,
+  "end": 33.442
+ },
+ {
+  "word": "told",
+  "start": 33.535,
+  "end": 33.674
+ },
+ {
+  "word": "the",
+  "start": 33.697,
+  "end": 33.767
+ },
+ {
+  "word": "players",
+  "start": 33.79,
+  "end": 34.069
+ },
+ {
+  "word": "to",
+  "start": 34.104,
+  "end": 34.15
+ },
+ {
+  "word": "stop",
+  "start": 34.22,
+  "end": 34.487
+ },
+ {
+  "word": "running",
+  "start": 34.568,
+  "end": 34.812
+ },
+ {
+  "word": "and",
+  "start": 34.858,
+  "end": 34.928
+ },
+ {
+  "word": "stay",
+  "start": 34.986,
+  "end": 35.137
+ },
+ {
+  "word": "in",
+  "start": 35.16,
+  "end": 35.207
+ },
+ {
+  "word": "the",
+  "start": 35.241,
+  "end": 35.311
+ },
+ {
+  "word": "middle,",
+  "start": 35.358,
+  "end": 35.728
+ },
+ {
+  "word": "he",
+  "start": 35.754,
+  "end": 35.812
+ },
+ {
+  "word": "said.",
+  "start": 35.893,
+  "end": 36.253
+ },
+ {
+  "word": "At",
+  "start": 36.256,
+  "end": 36.383
+ },
+ {
+  "word": "four-nil,",
+  "start": 36.453,
+  "end": 36.976
+ },
+ {
+  "word": "we",
+  "start": 36.999,
+  "end": 37.068
+ },
+ {
+  "word": "could",
+  "start": 37.103,
+  "end": 37.219
+ },
+ {
+  "word": "manage",
+  "start": 37.254,
+  "end": 37.521
+ },
+ {
+  "word": "things",
+  "start": 37.544,
+  "end": 37.753
+ },
+ {
+  "word": "a",
+  "start": 37.788,
+  "end": 37.811
+ },
+ {
+  "word": "little.",
+  "start": 37.858,
+  "end": 38.171
+ },
+ {
+  "word": "In",
+  "start": 38.195,
+  "end": 38.299
+ },
+ {
+  "word": "stoppage",
+  "start": 38.345,
+  "end": 38.728
+ },
+ {
+  "word": "time,",
+  "start": 38.763,
+  "end": 38.995
+ },
+ {
+  "word": "United",
+  "start": 39.03,
+  "end": 39.355
+ },
+ {
+  "word": "pulled",
+  "start": 39.402,
+  "end": 39.599
+ },
+ {
+  "word": "one",
+  "start": 39.657,
+  "end": 39.831
+ },
+ {
+  "word": "back.",
+  "start": 39.878,
+  "end": 40.238
+ },
+ {
+  "word": "Their",
+  "start": 40.261,
+  "end": 40.377
+ },
+ {
+  "word": "manager",
+  "start": 40.4,
+  "end": 40.656
+ },
+ {
+  "word": "apologised",
+  "start": 40.69,
+  "end": 41.155
+ },
+ {
+  "word": "to",
+  "start": 41.178,
+  "end": 41.225
+ },
+ {
+  "word": "the",
+  "start": 41.271,
+  "end": 41.341
+ },
+ {
+  "word": "fans,",
+  "start": 41.387,
+  "end": 41.805
+ },
+ {
+  "word": "and",
+  "start": 41.828,
+  "end": 41.898
+ },
+ {
+  "word": "his",
+  "start": 41.944,
+  "end": 42.026
+ },
+ {
+  "word": "own",
+  "start": 42.072,
+  "end": 42.211
+ },
+ {
+  "word": "captain",
+  "start": 42.258,
+  "end": 42.548
+ },
+ {
+  "word": "reportedly",
+  "start": 42.595,
+  "end": 42.966
+ },
+ {
+  "word": "questioned",
+  "start": 43.024,
+  "end": 43.396
+ },
+ {
+  "word": "his",
+  "start": 43.419,
+  "end": 43.5
+ },
+ {
+  "word": "tactics.",
+  "start": 43.547,
+  "end": 44.197
+ },
+ {
+  "word": "United",
+  "start": 44.243,
+  "end": 44.533
+ },
+ {
+  "word": "were",
+  "start": 44.568,
+  "end": 44.661
+ },
+ {
+  "word": "now",
+  "start": 44.696,
+  "end": 44.824
+ },
+ {
+  "word": "seven",
+  "start": 44.917,
+  "end": 45.184
+ },
+ {
+  "word": "games",
+  "start": 45.242,
+  "end": 45.509
+ },
+ {
+  "word": "without",
+  "start": 45.532,
+  "end": 45.752
+ },
+ {
+  "word": "a",
+  "start": 45.787,
+  "end": 45.81
+ },
+ {
+  "word": "win,",
+  "start": 45.869,
+  "end": 46.205
+ },
+ {
+  "word": "their",
+  "start": 46.228,
+  "end": 46.368
+ },
+ {
+  "word": "worst",
+  "start": 46.414,
+  "end": 46.612
+ },
+ {
+  "word": "run",
+  "start": 46.67,
+  "end": 46.855
+ },
+ {
+  "word": "since",
+  "start": 46.902,
+  "end": 47.053
+ },
+ {
+  "word": "2015.",
+  "start": 47.076,
+  "end": 47.819
+ },
+ {
+  "word": "But",
+  "start": 47.842,
+  "end": 47.935
+ },
+ {
+  "word": "the",
+  "start": 47.958,
+  "end": 48.028
+ },
+ {
+  "word": "strangest",
+  "start": 48.075,
+  "end": 48.446
+ },
+ {
+  "word": "apology",
+  "start": 48.481,
+  "end": 48.876
+ },
+ {
+  "word": "came",
+  "start": 48.934,
+  "end": 49.073
+ },
+ {
+  "word": "from",
+  "start": 49.096,
+  "end": 49.189
+ },
+ {
+  "word": "the",
+  "start": 49.224,
+  "end": 49.294
+ },
+ {
+  "word": "man",
+  "start": 49.34,
+  "end": 49.479
+ },
+ {
+  "word": "who",
+  "start": 49.503,
+  "end": 49.596
+ },
+ {
+  "word": "won.",
+  "start": 49.665,
+  "end": 49.955
+ },
+ {
+  "word": "I",
+  "start": 49.979,
+  "end": 50.014
+ },
+ {
+  "word": "regret",
+  "start": 50.106,
+  "end": 50.42
+ },
+ {
+  "word": "the",
+  "start": 50.455,
+  "end": 50.524
+ },
+ {
+  "word": "last",
+  "start": 50.571,
+  "end": 50.757
+ },
+ {
+  "word": "ten",
+  "start": 50.78,
+  "end": 50.907
+ },
+ {
+  "word": "minutes,",
+  "start": 50.954,
+  "end": 51.267
+ },
+ {
+  "word": "Fabregas",
+  "start": 51.314,
+  "end": 51.72
+ },
+ {
+  "word": "said.",
+  "start": 51.767,
+  "end": 52.103
+ },
+ {
+  "word": "It",
+  "start": 52.127,
+  "end": 52.208
+ },
+ {
+  "word": "was",
+  "start": 52.254,
+  "end": 52.37
+ },
+ {
+  "word": "my",
+  "start": 52.452,
+  "end": 52.614
+ },
+ {
+  "word": "fault.",
+  "start": 52.707,
+  "end": 53.055
+ },
+ {
+  "word": "22",
+  "start": 53.079,
+  "end": 53.404
+ },
+ {
+  "word": "years",
+  "start": 53.462,
+  "end": 53.659
+ },
+ {
+  "word": "after",
+  "start": 53.694,
+  "end": 53.833
+ },
+ {
+  "word": "the",
+  "start": 53.868,
+  "end": 53.938
+ },
+ {
+  "word": "pizza,",
+  "start": 53.961,
+  "end": 54.332
+ },
+ {
+  "word": "his",
+  "start": 54.356,
+  "end": 54.437
+ },
+ {
+  "word": "only",
+  "start": 54.495,
+  "end": 54.716
+ },
+ {
+  "word": "regret",
+  "start": 54.785,
+  "end": 55.087
+ },
+ {
+  "word": "against",
+  "start": 55.122,
+  "end": 55.331
+ },
+ {
+  "word": "Manchester",
+  "start": 55.366,
+  "end": 55.679
+ },
+ {
+  "word": "United",
+  "start": 55.737,
+  "end": 56.051
+ },
+ {
+  "word": "was",
+  "start": 56.086,
+  "end": 56.167
+ },
+ {
+  "word": "letting",
+  "start": 56.225,
+  "end": 56.399
+ },
+ {
+  "word": "them",
+  "start": 56.422,
+  "end": 56.515
+ },
+ {
+  "word": "score.",
+  "start": 56.562,
+  "end": 56.994
+ }
+]
