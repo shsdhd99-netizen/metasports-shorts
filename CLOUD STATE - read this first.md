@@ -23,9 +23,9 @@ Last updated: 2026-10-14 (newest section at the bottom). Branch: `main-329h3w` (
 
 ## Oct 24, 2026: the automatic routine (read this first)
 - **Scheduled tasks (recreated Oct 26; the Oct 24 ones no longer exist):**
-  - "MetaSports daily research": 5:43 AM ET, research only. Writes `Research Notes/Daily Research/<date>.md`.
-  - "MetaSports NBA daily build": 6:41 AM ET, for the 11 AM slot.
-  - "MetaSports FC daily build": 9:39 AM ET, for the 12:30 PM slot. It skips the build when 3+ FC drafts are waiting.
+  - "MetaSports daily research": 3:43 AM ET (moved Oct 28 from 5:43), research only. Writes `Research Notes/Daily Research/<date>.md`.
+  - "MetaSports NBA daily build": 4:41 AM ET (moved Oct 28 from 6:41), for the 7-8 AM slot.
+  - "MetaSports FC daily build": 5:39 AM ET (moved Oct 28 from 9:39), for the 8-9 AM slot. It skips the build when 3+ FC drafts are waiting.
   - "MetaSports daily stats check": 7:07 PM ET.
   - All except the stats check run in fresh sessions, never post, and follow
   `.claude/skills/daily-run/SKILL.md` and log to `Research Notes/Daily Log.md`. The owner's posting plan: `UPLOAD SCHEDULE.md`.
@@ -53,7 +53,7 @@ The full rules: THE RULES at the top of `MetaSports - Playbook.md` (NBA, plus th
 - **NBA lanes:** moments you can watch are about half; the other half rotates the star paradox (THE #42 FORMAT, one lane now), same-day news (or none) and a weekly countdown test. Each moment needs one fact the clip can't show. Review the split after 10 moment posts.
 - **Editing:** footage first (frame 1 + one proof clip per beat, any number of sources, no filler). Frame 1 shows what line 1 is about, happening; line 1 is 11 words or fewer. Shot 1 at least 2.0 s; at most 2 shots in 3 s and 3 in 5 s; about 10-15 shots of about 2 s. Replay the key second once before the payoff (`"replay": true`). Crop wide plays to 3:4 (`--blurfit-aspect 0.75`). Proof on the footage, no emoji stickers, no forced loop: end on the payoff.
 - **Soccer:** ends under 59.5 s (about 230-250 words; cut, never add). Music bed vs none is an open A/B test: render both.
-- **Posting:** up to 2 per channel per day (the 2nd only if as strong, 6+ h later, never 3; owner asked Oct 26). NBA 11 AM ET, FC 12 PM ET, at least 1 h apart. News the morning after the game. Judge at 72 h; never re-upload.
+- **Posting:** up to 2 per channel per day (the 2nd only if as strong, 6+ h later, never 3; owner asked Oct 26). NBA 7-8 AM ET, FC 8-9 AM ET, 1 h apart (owner, Oct 28: first posts at 7-9 AM; 2nd posts about 3 PM / 4 PM). News the morning after the game. Judge at 72 h; never re-upload.
 - **Package:** a short statement title (wording is a small factor; no title scoring), 0-1 hashtag, empty description, tags optional (3-8, about 100-150 chars; never fill 500), one cover.
 - **Critic:** Script Critic v3 is advice, not a gate; only factual-accuracy checks block.
 - **Research tools:** `Tools/yt_watch.py` (needs a free `GEMINI_API_KEY` in the environment settings) and `Research Notes/Competitor Watchlist.csv`.

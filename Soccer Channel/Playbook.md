@@ -13,7 +13,7 @@
 4. **Every number sourced** in notes.md with its exact wording. Keep qualifiers. When sources disagree, write the line so it is true under both.
 5. **Real footage of the named person** on screen when the name is spoken. Stock is only for abstract lines. A recreation is labelled "recreation" on the picture.
 6. **Two renders per Short:** with the music bed (Ahmed's way) and without. The owner picks until the numbers decide. Log which one was posted in the Hub card and `Outcome Log.md`, or the A/B can't be read.
-7. **Cadence (Oct 26 overnight review):** one Short a day, at 12 PM ET, at least 1 hour after the NBA post (if NBA goes at 11:30, FC goes at 12:30 PM or later). [S] `Research Notes/Posting Study (Oct 26, 2026).md`. Ahmed runs 2 a day; his medians fell at 3.
+7. **Cadence (owner, Oct 28):** one Short a day at 8-9 AM ET, 1 hour after the NBA post (a 2nd, when as strong, about 4 PM). [S] `Research Notes/Posting Study (Oct 26, 2026).md`. Ahmed runs 2 a day; his medians fell at 3.
 8. **Never post.** Drafts only; the owner uploads.
 9. **No promo at the end** (owner, Oct 22: "that will instantly kill retention"). No "my next video", no "follow". The video stops on the payoff.
 10. **No dead air** (owner, Oct 22). Run `Tools/tighten_voice.py` on every voice before the cut list.
@@ -43,5 +43,5 @@
 | Captions | House style (white Montserrat caps) | `--caption-style ahmed` (TikTok Sans, white, centred, 2-3 words) |
 | Music | None by default (owner, Oct 14) | Bed vs none: an open A/B test; render both (Oct 26) |
 | Ending | Payoff, then stop. No forced loop (Oct 26) | Payoff is the last line. No teaser or follow ask (owner, Oct 22) |
-| Slot | 11 AM ET | 12 PM ET, at least 1 hour after NBA (Oct 26) |
+| Slot | 7-8 AM ET (Oct 28) | 8-9 AM ET, 1 hour after NBA (Oct 28) |
 | QA | `qa_short.py` (nba profile) | `qa_short.py` (story profile, automatic under `Soccer Channel/`) |

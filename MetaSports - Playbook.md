@@ -42,7 +42,7 @@ Rules marked "(FC too)" also apply to soccer. The full soccer rules are in `Socc
 
 ### 3. Posting and the package (Oct 26 overnight review; the daily plan is `UPLOAD SCHEDULE.md`)
 - **Up to 2 Shorts per channel per day (owner asked, Oct 26: 'is 1 short per day optimal?').** Post the 2nd only if it's as strong as the 1st, at least 6 h later; never 3. On our 2-post days, each post did as well as on 1-post days (4.1K vs 4.2K median), and the 2nd post did no worse. [S] Posting Study §1d. Limits: quality, and voice credits (about 2 Shorts a day total on the current ElevenLabs plan).
-- **Times:** NBA 11 AM ET, FC 12 PM ET. Post time matters little; a steady slot matters more. Keep the two channels at least 1 hour apart: if NBA moves to 11:30, FC goes at 12:30 PM or later. [S] Posting Study answers 1 and 3 (the 1 h gap is [H]).
+- **Times (owner, Oct 28):** first posts at 7-9 AM ET: NBA 7-8 AM, FC 8-9 AM. A 2nd post, when as strong, about 3 PM (NBA) / 4 PM (FC). Post time matters little; a steady slot matters more, and an early slot suits morning-after news. Keep the two channels at least 1 hour apart. [S] Posting Study answers 1 and 3 (the 1 h gap is [H]).
 - **News** goes up the morning after the game. [V YouTube] Posting Study §3.
 - **Judge a Short at 72 hours:** stayed % first, then views. Never at the next morning's check. [V] Posting Study §1g (#48: 25 views on day 0, then 14.6K on day 2).
 - **Never re-upload** a Short to "try again". Make a new cut. [V] YouTube's spam warning, Posting Study §3.
@@ -466,7 +466,7 @@ That argument in the comments is what spreads the Short.
 
 ## The recipe (what every MetaSports Short looks like now)
 
-**Length:** stories 22–40 seconds (about 90–170 words); quick moments 15–25 seconds. CoachClank's 31–45s Shorts have the best median, and his 8 biggest 2026 Shorts ran 22–34s (Research Notes/Round 3 - Deeper Findings.md). **Posting (Oct 26):** 11 AM ET, plus a 2nd at about 6 PM when it's as strong; never 3. Full rules: THE RULES §3 at the top and `UPLOAD SCHEDULE.md`. Never two Shorts from the same game on one day; re-run `copy_check.py` the morning of posting; log the go-live time on each Hub card.
+**Length:** stories 22–40 seconds (about 90–170 words); quick moments 15–25 seconds. CoachClank's 31–45s Shorts have the best median, and his 8 biggest 2026 Shorts ran 22–34s (Research Notes/Round 3 - Deeper Findings.md). **Posting (Oct 28):** 7-8 AM ET, plus a 2nd at about 3 PM when it's as strong; never 3. Full rules: THE RULES §3 at the top and `UPLOAD SCHEDULE.md`. Never two Shorts from the same game on one day; re-run `copy_check.py` the morning of posting; log the go-live time on each Hub card.
 
 **Voice:**
 - One AI voice, fast (~250 words/min).

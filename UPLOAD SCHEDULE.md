@@ -1,11 +1,14 @@
-# Upload schedule (from Oct 24, 2026; rules updated in the Oct 26 overnight review): follow it every day
+# Upload schedule (from Oct 24, 2026; times changed Oct 28 by the owner: first posts at 7-9 AM): follow it every day
 
 **Every day, both channels:**
 | Time (ET) | Channel | What to post |
 |---|---|---|
-| **11:00 AM** | MetaSports (NBA) | The NBA Hub card marked for today. News Shorts first: they go up the morning after the game. |
-| **12:00 PM** | MetaSports FC | The FC Hub card marked for today. Keep it at least 1 hour after the NBA post (if NBA goes at 11:30, FC goes at 12:30 PM or later). |
-| **6:00 PM** (only when a second NBA card is as strong as the first) | MetaSports (NBA) | An evergreen one (a record, not news), e.g. #60 Caitlin Clark. |
+| **7:00-8:00 AM** | MetaSports (NBA) | The NBA Hub card marked for today. News Shorts first: they go up the morning after the game. |
+| **8:00-9:00 AM** | MetaSports FC | The FC Hub card marked for today, 1 hour after the NBA post. |
+| **about 3:00 PM** (only when a second NBA card is as strong as the first) | MetaSports (NBA) | An evergreen one (a record, not news). |
+| **about 4:00 PM** (only when a second FC card is as strong) | MetaSports FC | 6+ hours after the morning soccer post. |
+
+The owner's task list (https://claude.ai/artifact/Ki1UXnbxsdykE4dy7BwyLT) shows each post on its "Now" tab an hour before its slot, with every step and Copy buttons.
 
 Post time matters little; a steady slot matters more (Oct 26 overnight review) [S] `Research Notes/Posting Study (Oct 26, 2026).md`.
 
