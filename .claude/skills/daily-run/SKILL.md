@@ -24,6 +24,7 @@ Two runs a day (scheduled tasks "MetaSports NBA daily run" and "MetaSports FC da
 - Work on branch `main-329h3w`; push there; never open or merge a PR.
 
 **NBA music-bed test (owner said yes, Oct 26):** NBA posts alternate music and no music, starting with #69 Luka (none) and #70 Barkley (music). Render both versions of every NBA Short, and mark on the Hub which one to post so the alternation holds. The bed is about 20 dB under the voice (`music.json`, bed_lu -20), from `Library/Music/` (ElevenLabs beds: no Content ID, no pay cut). Log music yes/no on every post in `Research Notes/Outcome Log.md`. Decide after 8 posts (4 each) on stayed %, judged at 72 h. Soccer keeps its own music A/B.
+**Real audio (owner, Oct 28: "for all clips that are viral, experiment with using the actual audio for the moment"):** for a moment with a live broadcast call, or a quote shot of someone speaking, also render a `_realaudio` version with `Tools/nat_sound.py` (NBA Playbook THE RULES §2 rule 11) and mark it as the one to post; keep the narrated render as the spare (copyright fallback). Real-audio posts are their own arm, not counted in the music test (so far #75 rookie and #76 Pierce; music test then stands at 2 with music, #70 #72, and 2 without, #71 #74).
 
 ## 0. Setup (5 min)
 1. `git fetch origin main-329h3w && git checkout main-329h3w && git pull --no-rebase origin main-329h3w`

@@ -37,6 +37,13 @@ Rules marked "(FC too)" also apply to soccer. The full soccer rules are in `Socc
 8. **Proof goes on the footage, never on a card:** words over the play (`Tools/overlay.py`), a circle on the broadcast's own scorebug (`broll.py circle`). (FC too.) [V] Why NBA Views Dropped §2: any card 66.1% vs none 72.6%. Owner, Oct 26.
 9. **No emoji stickers** on faces or footage. (FC too.) [S] Retention Upgrade §2b: 0 of 165 winner frames; seen on Hoopiverse's flops.
 10. **No forced loop.** End on the payoff. Loop into frame 1 only when that image is the payoff; never add a shot to loop. (FC too.) [S] Retention Upgrade §1b: no gain within either build period. Loops don't count as engaged views [V YouTube].
+11. **Real audio on viral moments (owner, Oct 28: "for all clips that are viral, experiment with using the actual audio for the moment").** (FC too.) [H] new test, n=0.
+    - **The live call:** cut our narration words over the key second and let the broadcast play it: the call and the roar, about 2-4 s, captioned (words marked `"live": true`). Then narration resumes. #75 rookie: "To him, Jayson Tatum for the win! Yes, sir!".
+    - **Real quotes:** when a shot shows someone saying a line, play their own voice, not our narrator reading it. Cut the quote shot from the same second as the words so the lips match (`at` = the first word's source time minus `lead`). #76 Pierce.
+    - **Crowd bed:** each clip's own sound runs quietly under the narration (`--bed-db -15` NBA; -26 when the clip is mostly commentary, e.g. soccer; mute a talking head's bed with `--clip-db P11=-40`).
+    - **How:** render with `assemble.py --no-music` (or with music for a music-side soccer Short), then `python Tools/nat_sound.py --folder <F>/_realaudio --video <render> --out final_live.mp4 --burst A-B`. Worked folders: `_realaudio` in #75, #76 and S17. QA allows up to 1.5 s of roar after a live word.
+    - **Risk:** broadcast audio raises the chance of a Content ID claim. Keep the narrated version on the Hub as the fallback; if a real-audio post is blocked, post the spare.
+    - **Measure:** log "real audio" in the Outcome Log and compare stayed % with narrated moment Shorts after 5 posts each.
 
 **Removed (Oct 26 overnight review). Don't use them anywhere:** "3+ cuts in the first 3 s", "a new image every second", "average shot 1.4-1.9 s", "no shot over 3 s", "evidence cards for any fact line", "6+ source clips", "at most 35% from one clip".
 

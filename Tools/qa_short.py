@@ -164,7 +164,9 @@ def main():
     soft(not replays, "no footage shown twice", f"the same footage appears twice (clip, shot, shot, overlap s): {replays}; mark an intentional replay with \"replay\": true")
     if not story:  # the story format ends on the payoff or the next-video teaser, not a loop
       soft(shots[-1]["clip"] == shots[0]["clip"], "loops to the first shot", "last shot is not the first clip (fine if the ending image serves the payoff; never add a sub-0.6 s shot just to loop)")
-    gaps = [(round(words[i]["end"], 2), round(words[i + 1]["start"] - words[i]["end"], 2)) for i in range(len(words) - 1) if words[i + 1]["start"] - words[i]["end"] > 0.6]
+    # a word marked "live" is the real broadcast call (Tools/nat_sound.py): the crowd roar after it may run up to 1.5 s
+    gaps = [(round(words[i]["end"], 2), round(words[i + 1]["start"] - words[i]["end"], 2)) for i in range(len(words) - 1)
+            if words[i + 1]["start"] - words[i]["end"] > (1.5 if words[i].get("live") else 0.6)]
     chk(not gaps, "no dead air inside the speech", f"dead air over 0.6 s inside the speech at (s, gap): {gaps}")
     r = subprocess.run(["ffmpeg", "-nostats", "-i", fin, "-af", "ebur128=peak=true", "-f", "null", "-"], capture_output=True, text=True).stderr
     m = re.findall(r"I:\s+(-?[\d.]+) LUFS", r)

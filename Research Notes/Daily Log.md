@@ -49,6 +49,13 @@ no token in the cloud yet (needs `YT_REFRESH_TOKEN` / `YT_REFRESH_TOKEN_FC`).
 - NBA: `Tools/nba_videos.py search --player <id>` finds a star's reels on every team site; the TBU podcast episodes have
   burned-in lower thirds (not usable).
 
+## Wed Oct 28, 2026, evening (main session, owner's request)
+- Owner: "yes, delete all footage / see how much of the to do list you can do yourself first / for all clips that are viral, experiment with using the actual audio for the moment".
+- Real-audio versions built and QA'd: #75 rookie (to post today), #76 Pierce (Thu), S17 Krul (Fri). Tool: `Tools/nat_sound.py`.
+- Deleted about 16 GB of old footage (git-ignored files only); kept src for #74, #75, #76, S16, S17.
+- To-do list, done by Claude: morning runs now fire into the main session (new scheduled tasks; the old fresh-session ones are paused), so they can push and record. Loch Ness question closed (left out of the music test). The environment task is now just an optional Gemini key swap.
+- Still the owner's: posting, the Studio export (vidIQ credits are 0 until Nov 5), the YouTube Analytics sign-in.
+
 ## Oct 28, 2026 (main session, owner's request)
 - Task list rebuilt for the phone (Now tab with steps and Copy buttons, Note tab for messages to Claude).
 - Posting times moved to 7-9 AM (owner), and the routines moved earlier. Both morning routines' pushes failed (403).

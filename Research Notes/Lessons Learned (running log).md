@@ -314,3 +314,14 @@ Tiers: [V] verified on our files or data, [S] supported by our numbers (small n)
   - Photos made into push-in clips work well as frame 1 when the background isn't darkened (Tools: the S16 `src/still_*.mp4` recipe).
 - [V] A still photo shown twice in a row, or two near-static wide shots from one clip, fail "same footage". Cut to a close-up of the same person instead.
 - [H] An evergreen story is stronger when the subject's own words contradict each other on camera (#76 Pierce, 2019 vs 2026) than when a rumour is told as fact.
+
+## Oct 28, 2026 (evening): real audio on viral moments (owner's idea)
+- **Owner:** "for all clips that are viral, experiment with using the actual audio for the moment". New tool `Tools/nat_sound.py`; rule in the NBA Playbook (THE RULES §2 rule 11) and the soccer Playbook. [H] no results yet.
+- [V] Built three: #75 rookie (the live "Jayson Tatum for the win! Yes, sir!" over the winner), #76 Pierce (his three quotes in his own voice, lip-synced), S17 Krul ("...and Krul has saved it!").
+- [V] Find the call with local speech-to-text (faster-whisper small.en, word times) on each source, and the make or save on a 0.2-0.5 s frame sheet. The call usually lands just before the ball does (rookie: "for the win" at 5.5 s, ball in at about 6.8 s).
+- [V] Lip sync: cut the quote shot so its first frame is the first word's source second minus the shot's lead. Off by 0.08 s, captions and voice drifted.
+- [V] Sources differ in loudness by up to 15 dB (ESPN 2019 clip vs a 2026 podcast), so each burst is levelled on its own. Levelling them together left Pierce's ESPN line at -32 dB and speech-to-text heard nothing.
+- [V] A commentary bed at -15 dB under our narrator is fine for a 20 s NBA moment. For a 55 s soccer story it means two English voices for the whole video, so the soccer bed goes to -26 dB.
+- [V] Gemini can't tell a quiet music bed (about 20 dB under the voice) from none: it said "no music" for our own music version. So it can't settle which S07 version was posted; S07 is left out of the soccer music test.
+- [S] Risk: broadcast audio can draw a Content ID claim more easily than pictures alone. Keep the narrated render as the spare.
+- **Housekeeping:** the owner approved deleting old footage; about 16 GB of src/clips/renders went (not in git). Only the 5 unposted Shorts keep their src.

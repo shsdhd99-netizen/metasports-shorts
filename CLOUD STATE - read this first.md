@@ -2,6 +2,18 @@
 Last updated: 2026-10-14 (newest section at the bottom). Branch: `main-329h3w` (draft PR #1). The user posts the videos; NEVER upload/publish or open YouTube Studio.
 **Owner, Oct 19 (standing until they say otherwise):** "you are able to run from my pc now, you do not need to look for cloud solutions." Prefer the PC when the session runs there. (Oct 26 overnight review: THE #42 FORMAT is one lane among several, not the lead; moments are about half of NBA Shorts. See House rules and `Research Notes/Rule Changes Applied (Oct 26, 2026).md`.) When the owner is away from the PC, source footage in the cloud yourself.
 
+## Oct 28, 2026 (evening): real audio, footage deleted, morning runs moved here (read this first)
+- **Owner:** "yes, delete all footage / see how much of the to do list you can do yourself first / for all clips that are viral, experiment with using the actual audio for the moment".
+- **Real audio** (`Tools/nat_sound.py`; rule: NBA Playbook THE RULES §2 rule 11, soccer Playbook rule 1, daily-run skill):
+  - #75 rookie: the live call "To him, Jayson Tatum for the win! Yes, sir!" over the winner. **Posted 6:03 PM by the owner (RPbRxmbMHms, the real-audio version: 22 s on YouTube).**
+  - #76 Pierce (Thu 7-8 AM): his three quotes in his own voice, lip-synced. Gemini READY, QA PASS.
+  - S17 Krul (Fri 8-9 AM): "It's Umaña who steps up, and Krul has saved it!" with the music bed kept (music side). Worked folders: `_realaudio/` in each.
+  - Real-audio posts are their own test, outside the music test. Keep the narrated render as the copyright fallback.
+- **Footage deleted** (owner approved): about 16 GB of git-ignored src/clips/renders. Only #74, #75, #76, S16 and S17 keep src. Disk: 18 GB free.
+- **Morning runs now fire into this main session** (new scheduled tasks trig_015aH7sYHDcQigg1TMVq2DT2 research 3:43, trig_01TuURVZFYNsjWyqb2Maji9D NBA 4:41, trig_012tSMkzcY6cm1BPEn1zUYGU FC 5:39 ET). The old fresh-session ones are paused (not deleted): they couldn't push or record. If the owner ever adds the repo and keys to the environment, re-enable the old ones and delete these.
+- **To-do list:** Loch Ness question closed (Gemini can't hear a -20 dB bed, so S07 leaves the music test). The environment task is now an optional Gemini key swap. vidIQ is linked to the NBA channel and has analytics (retention curves) but 0 credits until Nov 5.
+- **Fixed records:** #72 "This Kid Felt Every Free Throw" went up Wed 7:17 AM (not Tue night); 19.8K by 6 PM.
+
 ## Oct 28, 2026: phone task list, 7-9 AM posting, four new Shorts (read this first)
 - **Owner asked (Oct 28):** make the to-do work on the phone and be more instructive; build new Shorts; first posts at 7-9 AM.
 - **Task list** (https://claude.ai/artifact/Ki1UXnbxsdykE4dy7BwyLT) is now phone-first:

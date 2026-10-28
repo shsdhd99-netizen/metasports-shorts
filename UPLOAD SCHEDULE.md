@@ -28,15 +28,16 @@ title (Copy button), set "Not made for kids", add the pinned comment from the ca
 6. **Every Monday** (the task list reminds you): in YouTube Studio, Content tab, Shorts, export the table for both channels and send the two zips to a Claude
    session. "Stayed to watch" is only in Studio; it is the number that decides whether YouTube keeps pushing a Short.
 
-**The next four days (updated Wed Oct 28, 3 PM ET; the task list's Plan tab shows the same thing live):**
+**The next four days (updated Wed Oct 28, 6:30 PM ET; the task list's Plan tab shows the same thing live):**
 | Day | NBA 7-8 AM | Soccer 8-9 AM | Second post (6+ h later) |
 |---|---|---|---|
-| Wed Oct 28 | (missed; #72 "This Kid Felt Every Free Throw" went up Tue night) | **S15** Barcelona paid a fortune for the player who knocked them out (posted) | **#75** This Rookie Was A Hero For One Overtime, about 4 PM, music version. News: skip it if it misses today. |
-| Thu Oct 29 | **#76** He Left The NBA Finals In A Wheelchair (no-music version) | **S16** The manager who told his team to stop scoring (no-music version) | |
-| Fri Oct 30 | **#74** Why NBA Players Refuse This Free Throw (no-music version; evergreen, moved from Wed/Thu) | **S17** Goalkeepers who were subbed on just for the penalties (music version) | |
+| Wed Oct 28 | **#72** This Kid Felt Every Free Throw (posted 7:17 AM, music; 19.8K by 6 PM) | **S15** Barcelona paid a fortune for the player who knocked them out (posted) | **#75** This Rookie Was A Hero For One Overtime (posted 6:03 PM, the **real-audio** version) |
+| Thu Oct 29 | **#76** He Left The NBA Finals In A Wheelchair (**real-audio** version: Pierce's own voice) | **S16** The manager who told his team to stop scoring (no-music version) | |
+| Fri Oct 30 | **#74** Why NBA Players Refuse This Free Throw (no-music version; evergreen, moved from Wed/Thu) | **S17** Goalkeepers who were subbed on just for the penalties (**real-audio** version, music bed kept) | |
 | Sat Oct 31 | empty: the 4:41 AM NBA run builds one, if the environment is fixed | empty: the 5:39 AM soccer run builds one | |
 
-Music test after Friday: NBA 3 with music (#70, #72, #75) and 3 without (#71, #76, #74); soccer alternates S15 music, S16 none, S17 music.
+**Real audio (owner, Oct 28):** viral moments and quote shots now get a real-audio version (the live call or the person's own voice) and that's the one to post. It's its own test, outside the music test.
+Music test after Friday: NBA 2 with music (#70, #72) and 2 without (#71, #74); soccer alternates S15 music, S16 none, S17 music (its real-audio version keeps the music bed). S07 Loch Ness is left out (version unknown).
 
 **TikTok and Instagram: PAUSED (owner, Oct 26: YouTube first). Nothing below applies until you restart it.**
 
