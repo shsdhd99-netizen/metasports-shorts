@@ -103,7 +103,7 @@ section { display: flex; flex-direction: column; gap: 10px; }
 .rhythm .t::before { content: "↻ "; color: var(--muted); }
 
 /* ---- All: collapsible cards ---- */
-details.card { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; }
+details.card { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; scroll-margin-top: 16px; }
 details.card.urgent { border-left: 4px solid var(--urgent); }
 details.card > summary { list-style: none; cursor: pointer; padding: 12px 14px; min-height: 56px; display: grid;
   grid-template-columns: 1fr 20px; gap: 6px 10px; align-items: start; }
@@ -132,7 +132,7 @@ textarea { width: 100%; min-height: 120px; resize: vertical; }
 
 /* ---- Tab bar + toast ---- */
 nav.tabs { position: fixed; left: 0; right: 0; bottom: 0; z-index: 5; background: var(--surface); border-top: 1px solid var(--line);
-  display: grid; grid-template-columns: repeat(3, 1fr); padding-bottom: env(safe-area-inset-bottom, 0px);
+  display: grid; grid-template-columns: repeat(4, 1fr); padding-bottom: env(safe-area-inset-bottom, 0px);
   padding-left: env(safe-area-inset-left, 0px); padding-right: env(safe-area-inset-right, 0px); }
 .tab { height: var(--tabh); border: 0; background: none; cursor: pointer; display: flex; flex-direction: column; align-items: center;
   justify-content: center; gap: 3px; font: 700 13px/1 var(--display); letter-spacing: .1em; text-transform: uppercase; color: var(--muted);
@@ -146,6 +146,20 @@ nav.tabs { position: fixed; left: 0; right: 0; bottom: 0; z-index: 5; background
   gap: 10px; max-width: calc(100% - 32px); box-shadow: 0 6px 24px rgba(0,0,0,.25); }
 .toast .btn { min-height: 40px; background: transparent; border-color: transparent; color: var(--bg); text-decoration: underline; }
 .foot { font-size: 14px; color: var(--muted); }
+
+/* ---- Plan: the next four days, slot by slot ---- */
+.day { display: flex; flex-direction: column; gap: 8px; }
+.day h2 .n { text-transform: none; letter-spacing: 0; }
+.slot { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 10px 14px; min-height: 56px;
+  display: grid; grid-template-columns: 76px 1fr; gap: 4px 12px; align-items: center; text-align: left; width: 100%; cursor: pointer; }
+.slot .tm { font: 700 15px/1.1 var(--display); letter-spacing: .04em; color: var(--muted); font-variant-numeric: tabular-nums; }
+.slot .t { font-weight: 600; overflow-wrap: anywhere; min-width: 0; }
+.slot .meta { grid-column: 2; }
+.slot.empty { background: transparent; border-style: dashed; cursor: default; }
+.slot.empty .t { color: var(--muted); font-weight: 400; }
+.slot.posted { cursor: default; }
+.slot.posted .t { color: var(--muted); text-decoration: line-through; }
+.chip.ok { color: var(--ok); }
 @media (min-width: 720px) { .wrap { padding-top: 32px; } h1 { font-size: 38px; } }
 @media (prefers-reduced-motion: reduce) { .bar > i { transition: none; } }
 </style>
@@ -159,6 +173,7 @@ nav.tabs { position: fixed; left: 0; right: 0; bottom: 0; z-index: 5; background
 
   <main id="view-now" aria-live="polite"><div class="empty">Loading your tasks…</div></main>
   <main id="view-all" hidden></main>
+  <main id="view-plan" hidden></main>
   <main id="view-note" hidden>
     <section aria-labelledby="noteh">
       <h2 id="noteh">Write a note</h2>
@@ -181,6 +196,8 @@ nav.tabs { position: fixed; left: 0; right: 0; bottom: 0; z-index: 5; background
     <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>Now<span class="badge" id="badge" hidden></span></button>
   <button class="tab" role="tab" id="tab-all" data-view="all" aria-selected="false">
     <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6h11M9 12h11M9 18h11"/><path d="M4 6l1 1 2-2M4 12l1 1 2-2M4 18l1 1 2-2"/></svg>All tasks</button>
+  <button class="tab" role="tab" id="tab-plan" data-view="plan" aria-selected="false">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15" rx="2"/><path d="M3.5 10h17M8 3v4M16 3v4"/></svg>Plan</button>
   <button class="tab" role="tab" id="tab-note" data-view="note" aria-selected="false">
     <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v11H9l-5 4z"/></svg>Note</button>
 </nav>
@@ -372,10 +389,17 @@ nav.tabs { position: fixed; left: 0; right: 0; bottom: 0; z-index: 5; background
 
   // ---------- All ----------
   let openIds = new Set();
+  // Opens a task where its steps are: Now if it's due, otherwise its expanded card in All.
+  function openTask(id) {
+    if (queue().some(d => d.id === id)) { focusId = id; store.set("todo-focus", id); show("now"); return; }
+    openIds.add(id); show("all");
+    const c = [...document.querySelectorAll("#view-all details.card")].find(x => x.dataset.id === id);
+    if (c) c.scrollIntoView({ block: "start" });
+  }
   function card(d) {
     const t = T(d);
     const det = el("details", "card" + (t.done ? " done" : "") + (t.section === "now" && !t.done ? " urgent" : ""));
-    det.open = openIds.has(d.id);
+    det.open = openIds.has(d.id); det.dataset.id = d.id;
     det.addEventListener("toggle", () => { det.open ? openIds.add(d.id) : openIds.delete(d.id); });
     const sum = el("summary"); sum.append(el("span", "t", t.title || "(untitled)")); chips(t, sum); det.append(sum);
     const inner = el("div", "inner");
@@ -384,8 +408,8 @@ nav.tabs { position: fixed; left: 0; right: 0; bottom: 0; z-index: 5; background
     const b = el("button", "btn " + (t.done ? "" : "done"), t.done ? "Mark not done" : "✓ Mark done"); b.type = "button";
     b.disabled = readOnly || !db || pending.has(d.id);
     b.addEventListener("click", () => setDone(d.id, !t.done));
-    const go = el("button", "btn ghost", "Open in Now"); go.type = "button"; go.hidden = !!t.done || t.section === "daily";
-    go.addEventListener("click", () => { focusId = d.id; store.set("todo-focus", focusId); show("now"); });
+    const go = el("button", "btn ghost", "Open in Now"); go.type = "button"; go.hidden = !!t.done || !queue().some(x => x.id === d.id);
+    go.addEventListener("click", () => openTask(d.id));
     acts.append(b, go); inner.append(acts);
     det.append(inner);
     return det;
@@ -453,6 +477,58 @@ nav.tabs { position: fixed; left: 0; right: 0; bottom: 0; z-index: 5; background
     catch (e) { toast("Couldn't send. Try again in a moment."); $("notebtn").disabled = false; }
   });
 
+  // ---------- Plan ----------
+  // Two morning slots a day (NBA 7-8 AM, FC 8-9 AM, the owner's schedule from Oct 28); anything else is a 2nd post.
+  const SLOTS = [{ ch: "NBA", label: "7-8 AM" }, { ch: "FC", label: "8-9 AM" }];
+  const dayKey = (x) => x.getFullYear() + "-" + (x.getMonth() + 1) + "-" + x.getDate();
+  function renderPlan() {
+    const root = $("view-plan"); root.replaceChildren();
+    const posts = tasks.filter(d => T(d).section === "post");
+    const when = (t) => (t.done && t.doneAt) ? new Date(t.doneAt) : dueOf(t);
+    const today = new Date(); today.setHours(0, 0, 0, 0);
+    for (let i = 0; i < 4; i++) {
+      const day = new Date(today); day.setDate(today.getDate() + i);
+      const k = dayKey(day);
+      const items = posts.filter(d => { const w = when(T(d)); return w && !isNaN(w) && dayKey(w) === k; })
+        .sort((a, b) => when(T(a)) - when(T(b)));
+      const sec = el("section", "day");
+      const label = i === 0 ? "Today" : i === 1 ? "Tomorrow" : day.toLocaleDateString(undefined, { weekday: "long" });
+      const h = el("h2", null, label); h.append(el("span", "n", day.toLocaleDateString(undefined, { month: "short", day: "numeric" })));
+      sec.append(h);
+      const used = new Set();
+      const row = (d, tm) => {
+        const t = T(d); used.add(d.id);
+        const b = el(t.done ? "div" : "button", "slot" + (t.done ? " posted" : "")); if (!t.done) b.type = "button";
+        b.append(el("span", "tm", tm), el("span", "t", (t.title || "").replace(/^Post: /, "")));
+        const meta = el("div", "meta");
+        if (t.channel) meta.append(el("span", "chip " + t.channel, t.channel));
+        meta.append(el("span", "chip " + (t.done ? "ok" : "when"), t.done ? "Posted ✓" : "Ready to post"));
+        b.append(meta);
+        if (!t.done) b.addEventListener("click", () => openTask(d.id));
+        return b;
+      };
+      for (const s of SLOTS) {
+        const d = items.find(x => !used.has(x.id) && T(x).channel === s.ch && when(T(x)).getHours() < 12);
+        if (d) { sec.append(row(d, s.label)); continue; }
+        const e = el("div", "slot empty");
+        const past = i === 0 && new Date().getHours() >= 12;
+        e.append(el("span", "tm", s.label), el("span", "t", past ? "Nothing this morning" : s.ch + " slot empty: Claude builds one"));
+        const meta = el("div", "meta"); meta.append(el("span", "chip " + s.ch, s.ch)); e.append(meta);
+        sec.append(e);
+      }
+      for (const d of items) if (!used.has(d.id)) sec.append(row(d, when(T(d)).toLocaleTimeString(undefined, { hour: "numeric", minute: "2-digit" })));
+      root.append(sec);
+    }
+    const loose = posts.filter(d => !T(d).done && !dueOf(T(d)));
+    if (loose.length) {
+      const sec = el("section", "day"); sec.append(el("h2", null, "No date yet"));
+      for (const d of loose) { const b = el("button", "slot"); b.type = "button"; b.append(el("span", "tm", "—"), el("span", "t", (T(d).title || "").replace(/^Post: /, "")));
+        b.addEventListener("click", () => openTask(d.id)); sec.append(b); }
+      root.append(sec);
+    }
+    root.append(el("p", "foot", "Your rhythm: NBA 7-8 AM, soccer 8-9 AM, 1 hour apart. A second post only when it's as strong, 6+ hours later. Tap a Short to open its steps."));
+  }
+
   // ---------- shell ----------
   function render() {
     const checkable = tasks.filter(d => T(d).section !== "daily");
@@ -461,18 +537,18 @@ nav.tabs { position: fixed; left: 0; right: 0; bottom: 0; z-index: 5; background
     $("count").textContent = checkable.length ? `${nowN} to do now · ${checkable.length - done - nowN} later · ${done} done` : "No tasks yet";
     $("fill").style.width = checkable.length ? (100 * done / checkable.length).toFixed(1) + "%" : "0";
     const badge = $("badge"); badge.hidden = !nowN; badge.textContent = String(nowN);
-    if (view === "now") renderNow(); else if (view === "all") renderAll();
+    if (view === "now") renderNow(); else if (view === "all") renderAll(); else if (view === "plan") renderPlan();
     renderNotes();
   }
   function show(v) {
-    view = ["now", "all", "note"].includes(v) ? v : "now"; store.set("todo-view", view);
-    for (const k of ["now", "all", "note"]) { $("view-" + k).hidden = k !== view; $("tab-" + k).setAttribute("aria-selected", String(k === view)); }
-    $("h1").textContent = view === "now" ? "Do this now" : view === "all" ? "All tasks" : "Note to Claude";
+    view = ["now", "all", "plan", "note"].includes(v) ? v : "now"; store.set("todo-view", view);
+    for (const k of ["now", "all", "plan", "note"]) { $("view-" + k).hidden = k !== view; $("tab-" + k).setAttribute("aria-selected", String(k === view)); }
+    $("h1").textContent = view === "now" ? "Do this now" : view === "all" ? "All tasks" : view === "plan" ? "Upload plan" : "Note to Claude";
     render(); scrollTo(0, 0);
   }
   document.querySelectorAll(".tab").forEach(b => b.addEventListener("click", () => show(b.dataset.view)));
   const hash = (location.hash || "").slice(1);
-  show(["now", "all", "note"].includes(hash) ? hash : (store.get("todo-view") || "now"));
+  show(["now", "all", "plan", "note"].includes(hash) ? hash : (store.get("todo-view") || "now"));
   const draft = store.get("todo-note-draft"); if (draft) $("notetext").value = draft;
   let lastQueue = "";
   setInterval(() => { // timed tasks move into "Now" on their own; re-render only when the queue changes

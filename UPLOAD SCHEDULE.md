@@ -25,17 +25,18 @@ title (Copy button), set "Not made for kids", add the pinned comment from the ca
 3. At least 6 hours between two posts on the same channel (Oct 26 overnight review; was 4). The two channels at least 1 hour apart.
 4. 24 hours after posting, type the numbers into the card's Results box (views, "Stayed to watch" %). **Judge the Short at 72 hours, not the next morning** (Oct 26 overnight review): #48 had 25 views on day 0 and 14.6K on day 2. [V] Posting Study §1g.
 5. **Never delete and re-upload a Short** to try again. YouTube may flag it as spam. Ask for a new cut instead. [V] Posting Study §3.
-6. **Every Sunday:** in YouTube Studio, Content tab, Shorts, export the table for both channels and send the two zips to a Claude
+6. **Every Monday** (the task list reminds you): in YouTube Studio, Content tab, Shorts, export the table for both channels and send the two zips to a Claude
    session. "Stayed to watch" is only in Studio; it is the number that decides whether YouTube keeps pushing a Short.
 
-**The next four days:**
-| Day | NBA 11:00 AM | Soccer 12:00 PM | NBA 6:00 PM |
+**The next four days (updated Wed Oct 28, 3 PM ET; the task list's Plan tab shows the same thing live):**
+| Day | NBA 7-8 AM | Soccer 8-9 AM | Second post (6+ h later) |
 |---|---|---|---|
-| Sat Oct 24 | **#66 Why SGA Ended His Own NBA Record** (post now; the game was Thursday) | **S06** The player who scored 5 goals in 9 minutes (if not posted yet) | |
-| Sun Oct 25 | **#60** Caitlin Clark Did What No NBA Player Has (moved up: the morning run could not record) | **S05** Goalkeepers who hid a cheat sheet on their water bottle (music version) | **#68**, today's NBA news Short (made this afternoon) |
-| Mon Oct 26 | the new NBA news Short | **S07** The team with worse odds than the Loch Ness monster (no-music version) | |
-| Tue Oct 27 | the new NBA news Short | **S04** Players who got sent off in their very last game (music version) | |
-| Wed Oct 28 on | a new NBA Short every morning | a new soccer Short every day (S08 Hand of God shirt next) | |
+| Wed Oct 28 | (missed; #72 "This Kid Felt Every Free Throw" went up Tue night) | **S15** Barcelona paid a fortune for the player who knocked them out (posted) | **#75** This Rookie Was A Hero For One Overtime, about 4 PM, music version. News: skip it if it misses today. |
+| Thu Oct 29 | **#76** He Left The NBA Finals In A Wheelchair (no-music version) | **S16** The manager who told his team to stop scoring (no-music version) | |
+| Fri Oct 30 | **#74** Why NBA Players Refuse This Free Throw (no-music version; evergreen, moved from Wed/Thu) | **S17** Goalkeepers who were subbed on just for the penalties (music version) | |
+| Sat Oct 31 | empty: the 4:41 AM NBA run builds one, if the environment is fixed | empty: the 5:39 AM soccer run builds one | |
+
+Music test after Friday: NBA 3 with music (#70, #72, #75) and 3 without (#71, #76, #74); soccer alternates S15 music, S16 none, S17 music.
 
 **TikTok and Instagram: PAUSED (owner, Oct 26: YouTube first). Nothing below applies until you restart it.**
 
