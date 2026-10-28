@@ -1,0 +1,25 @@
+{
+ "sources": {
+  "P": "src/2047844166382616901.mp4",
+  "R": "src/1851795849426112671.mp4",
+  "T": "src/2047841390336315815.mp4",
+  "L": "src/2037001450169979246.mp4",
+  "M": "src/2104665697406341521.mp4",
+  "S1": "src/still_1.mp4",
+  "S2": "src/still_2.mp4",
+  "S3": "src/still_3.mp4"
+ },
+ "shots": [
+  {"clip": "B01", "src": "P", "at": 29.0, "blurfit": true, "blurfit_aspect": 0.75, "x": 0.55, "kind": "action", "why": "Bronny scores in the 2026 playoffs at Houston, assisted by LeBron ('Bronny James from his dad!'; NBA on Prime on X, Apr 25 2026)"},
+  {"clip": "B02", "src": "R", "at": 5.4, "blurfit": true, "blurfit_aspect": 0.75, "x": 0.6, "kind": "action", "anchor": "As a rookie", "why": "Bronny's first NBA basket as a rookie, Cleveland, Oct 30 2024 (NBA on X)"},
+  {"clip": "B03", "src": "P", "at": 9.0, "x": 0.45, "kind": "face", "anchor": "Last season", "why": "Bronny close-up, 2026 playoffs (NBA on Prime on X)"},
+  {"clip": "B04", "src": "T", "at": 4.6, "blurfit": true, "blurfit_aspect": 0.75, "x": 0.5, "kind": "action", "anchor": "From three", "why": "Bronny's pull-up three off a LeBron screen, 2026 playoffs (Steve Jones on X, Apr 25 2026)"},
+  {"clip": "B05", "src": "P", "at": 12.9, "blurfit": true, "blurfit_aspect": 0.75, "x": 0.45, "kind": "action", "anchor": "He played", "why": "Bronny bringing the ball up, 2026 playoffs at Houston (NBA on Prime on X)"},
+  {"clip": "B06", "src": "P", "at": 16.3, "blurfit": true, "blurfit_aspect": 0.75, "x": 0.5, "kind": "action", "anchor": "then eight more", "why": "Bronny driving, 2026 playoffs (NBA on Prime on X)"},
+  {"clip": "B07", "src": "L", "at": 0.62, "x": 0.5, "kind": "quote", "anchor": "Definitely a big", "lead": 0.1, "why": "Luka Doncic post-game, Mar 25 2026: 'Definitely a big improvement from last year.' His own voice, lip-synced (Khobi Price on X)"},
+  {"clip": "B08", "src": "M", "at": 12.0, "x": 0.45, "kind": "face", "anchor": "This month", "why": "Bronny at Lakers media day, Sept 28 2026, his third season (Khobi Price on X)"},
+  {"clip": "B09", "src": "S3", "at": 0.0, "kind": "face", "anchor": "On opening night", "why": "Bronny's 2026-27 media-day photo with a ball (NBA G League on X, Sept 29 2026); no video of his opening-night floater exists online"},
+  {"clip": "B10", "src": "S2", "at": 0.0, "kind": "face", "anchor": "So this season", "why": "Bronny's 2026-27 media-day photo, smiling with the ball (NBA G League on X)"},
+  {"clip": "B11", "src": "S1", "at": 0.0, "kind": "face", "anchor": "He just hasn't", "why": "Bronny's 2026-27 media-day photo, palms up: the shrug on 'he just hasn't played since' (NBA G League on X)"}
+ ]
+}

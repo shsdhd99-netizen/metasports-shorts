@@ -1,0 +1,439 @@
+[
+{
+"word": "Bronny",
+"start": 0.0,
+"end": 0.267
+},
+{
+"word": "James",
+"start": 0.325,
+"end": 0.569
+},
+{
+"word": "got",
+"start": 0.604,
+"end": 0.72
+},
+{
+"word": "better",
+"start": 0.766,
+"end": 0.964
+},
+{
+"word": "two",
+"start": 1.022,
+"end": 1.219
+},
+{
+"word": "years",
+"start": 1.289,
+"end": 1.486
+},
+{
+"word": "in",
+"start": 1.521,
+"end": 1.567
+},
+{
+"word": "a",
+"start": 1.602,
+"end": 1.625
+},
+{
+"word": "row.",
+"start": 1.695,
+"end": 1.985
+},
+{
+"word": "As",
+"start": 2.009,
+"end": 2.159
+},
+{
+"word": "a",
+"start": 2.206,
+"end": 2.229
+},
+{
+"word": "rookie,",
+"start": 2.287,
+"end": 2.589
+},
+{
+"word": "he",
+"start": 2.612,
+"end": 2.659
+},
+{
+"word": "made",
+"start": 2.717,
+"end": 2.856
+},
+{
+"word": "31%",
+"start": 2.902,
+"end": 3.599
+},
+{
+"word": "of",
+"start": 3.622,
+"end": 3.669
+},
+{
+"word": "his",
+"start": 3.704,
+"end": 3.773
+},
+{
+"word": "shots.",
+"start": 3.808,
+"end": 4.307
+},
+{
+"word": "Last",
+"start": 4.354,
+"end": 4.586
+},
+{
+"word": "season,",
+"start": 4.621,
+"end": 4.969
+},
+{
+"word": "41.",
+"start": 5.016,
+"end": 5.666
+},
+{
+"word": "From",
+"start": 5.689,
+"end": 5.84
+},
+{
+"word": "three,",
+"start": 5.909,
+"end": 6.2
+},
+{
+"word": "28%",
+"start": 6.223,
+"end": 6.85
+},
+{
+"word": "became",
+"start": 6.885,
+"end": 7.094
+},
+{
+"word": "39.",
+"start": 7.129,
+"end": 7.779
+},
+{
+"word": "He",
+"start": 7.802,
+"end": 7.86
+},
+{
+"word": "played",
+"start": 7.906,
+"end": 8.104
+},
+{
+"word": "42",
+"start": 8.139,
+"end": 8.475
+},
+{
+"word": "games",
+"start": 8.545,
+"end": 8.835
+},
+{
+"word": "instead",
+"start": 8.858,
+"end": 9.044
+},
+{
+"word": "of",
+"start": 9.067,
+"end": 9.114
+},
+{
+"word": "27,",
+"start": 9.149,
+"end": 9.729
+},
+{
+"word": "then",
+"start": 9.764,
+"end": 9.915
+},
+{
+"word": "eight",
+"start": 9.985,
+"end": 10.136
+},
+{
+"word": "more",
+"start": 10.182,
+"end": 10.391
+},
+{
+"word": "in",
+"start": 10.414,
+"end": 10.461
+},
+{
+"word": "the",
+"start": 10.484,
+"end": 10.554
+},
+{
+"word": "playoffs.",
+"start": 10.577,
+"end": 11.053
+},
+{
+"word": "Even",
+"start": 11.076,
+"end": 11.262
+},
+{
+"word": "Luka",
+"start": 11.308,
+"end": 11.552
+},
+{
+"word": "noticed.",
+"start": 11.622,
+"end": 12.04
+},
+{
+"word": "Definitely",
+"start": 12.26,
+"end": 13.14,
+"live": true
+},
+{
+"word": "a",
+"start": 13.14,
+"end": 13.24,
+"live": true
+},
+{
+"word": "big",
+"start": 13.24,
+"end": 13.36,
+"live": true
+},
+{
+"word": "improvement",
+"start": 13.36,
+"end": 13.64,
+"live": true
+},
+{
+"word": "from",
+"start": 13.64,
+"end": 13.9,
+"live": true
+},
+{
+"word": "last",
+"start": 13.9,
+"end": 14.06,
+"live": true
+},
+{
+"word": "year.",
+"start": 14.06,
+"end": 14.5,
+"live": true
+},
+{
+"word": "This",
+"start": 14.733,
+"end": 14.884
+},
+{
+"word": "month,",
+"start": 14.942,
+"end": 15.139
+},
+{
+"word": "the",
+"start": 15.162,
+"end": 15.244
+},
+{
+"word": "Lakers",
+"start": 15.29,
+"end": 15.511
+},
+{
+"word": "cut",
+"start": 15.557,
+"end": 15.662
+},
+{
+"word": "a",
+"start": 15.685,
+"end": 15.708
+},
+{
+"word": "first-round",
+"start": 15.801,
+"end": 16.184
+},
+{
+"word": "pick",
+"start": 16.231,
+"end": 16.405
+},
+{
+"word": "and",
+"start": 16.439,
+"end": 16.509
+},
+{
+"word": "kept",
+"start": 16.567,
+"end": 16.73
+},
+{
+"word": "Bronny.",
+"start": 16.765,
+"end": 17.159
+},
+{
+"word": "On",
+"start": 17.183,
+"end": 17.287
+},
+{
+"word": "opening",
+"start": 17.345,
+"end": 17.589
+},
+{
+"word": "night,",
+"start": 17.624,
+"end": 17.763
+},
+{
+"word": "he",
+"start": 17.786,
+"end": 17.833
+},
+{
+"word": "played",
+"start": 17.879,
+"end": 18.03
+},
+{
+"word": "seven",
+"start": 18.065,
+"end": 18.251
+},
+{
+"word": "minutes",
+"start": 18.285,
+"end": 18.518
+},
+{
+"word": "and",
+"start": 18.541,
+"end": 18.622
+},
+{
+"word": "took",
+"start": 18.657,
+"end": 18.796
+},
+{
+"word": "one",
+"start": 18.866,
+"end": 19.075
+},
+{
+"word": "shot.",
+"start": 19.121,
+"end": 19.493
+},
+{
+"word": "It",
+"start": 19.516,
+"end": 19.632
+},
+{
+"word": "went",
+"start": 19.69,
+"end": 19.864
+},
+{
+"word": "in.",
+"start": 19.911,
+"end": 20.12
+},
+{
+"word": "So",
+"start": 20.155,
+"end": 20.259
+},
+{
+"word": "this",
+"start": 20.329,
+"end": 20.457
+},
+{
+"word": "season,",
+"start": 20.491,
+"end": 20.828
+},
+{
+"word": "Bronny",
+"start": 20.863,
+"end": 21.107
+},
+{
+"word": "is",
+"start": 21.142,
+"end": 21.2
+},
+{
+"word": "shooting",
+"start": 21.234,
+"end": 21.455
+},
+{
+"word": "100%.",
+"start": 21.49,
+"end": 22.186
+},
+{
+"word": "He",
+"start": 22.21,
+"end": 22.279
+},
+{
+"word": "just",
+"start": 22.337,
+"end": 22.465
+},
+{
+"word": "hasn't",
+"start": 22.488,
+"end": 22.697
+},
+{
+"word": "played",
+"start": 22.72,
+"end": 22.906
+},
+{
+"word": "since.",
+"start": 22.953,
+"end": 23.373
+}
+]

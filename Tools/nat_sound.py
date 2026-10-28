@@ -13,6 +13,8 @@ under the narration of an already-rendered video (render it first with assemble.
   Make the window in the voice first: cut the narration words out and insert silence (see the #75 _realaudio folder).
   The same works for a real quote: play the speaker's own words in a window, with the quote shot cut from the same second
   of the source so the lips match (#76 _realaudio). Mark those words "live": true in words.json so captions show them.
+  A shot in cuts.json may carry "nat_at": the second of its source whose sound it plays (#78: Costas' line from the start of
+  the clip, over the face-off later in the same clip).
 Each burst is levelled on its own to --burst-lufs (clips can differ by 15 dB); the bed sits --bed-db under the bursts' overall
 level; the whole mix is then set to --target-lufs with a limiter.
 Broadcast audio raises the chance of a Content ID claim compared with footage alone: keep the original version as the fallback.
@@ -25,8 +27,8 @@ SR = 48000
 
 def pcm(path, start, dur):
     r = subprocess.run(["ffmpeg", "-v", "error", "-ss", f"{max(start, 0):.3f}", "-t", f"{dur:.3f}", "-i", path, "-vn", "-ac", "1",
-                        "-ar", str(SR), "-f", "f32le", "-"], capture_output=True, check=True)
-    a = np.frombuffer(r.stdout, dtype=np.float32).copy()
+                        "-ar", str(SR), "-f", "f32le", "-"], capture_output=True)
+    a = np.frombuffer(r.stdout, dtype=np.float32).copy() if r.returncode == 0 else np.zeros(0, np.float32)  # a photo clip has no sound
     n = int(round(dur * SR))
     return np.pad(a, (0, max(0, n - len(a))))[:n]
 
@@ -73,7 +75,7 @@ def main():
         if c.get("speed", 1.0) < 1.0 and prev:
             src, at = prev  # slowed replay: keep the live sound running
         else:
-            at = c["at"]
+            at = c.get("nat_at", c["at"])  # "nat_at": play the clip's sound from another second (a line said over other pictures)
         seg = pcm(src, at, t1 - t0)
         seg[:fade] *= np.linspace(0, 1, fade); seg[-fade:] *= np.linspace(1, 0, fade)
         i0 = int(round(t0 * SR)); nat[i0:i0 + len(seg)] += seg[:len(nat) - i0]

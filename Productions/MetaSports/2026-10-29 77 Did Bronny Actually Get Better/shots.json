@@ -1,0 +1,79 @@
+[
+ {
+  "clip": "B01.mp4",
+  "kind": "action",
+  "why": "Bronny scores in the 2026 playoffs at Houston, assisted by LeBron ('Bronny James from his dad!'; NBA on Prime on X, Apr 25 2026)",
+  "start": 0.0
+ },
+ {
+  "clip": "B02.mp4",
+  "kind": "action",
+  "why": "Bronny's first NBA basket as a rookie, Cleveland, Oct 30 2024 (NBA on X)",
+  "anchor": "As a rookie",
+  "start": 1.98
+ },
+ {
+  "clip": "B03.mp4",
+  "kind": "face",
+  "why": "Bronny close-up, 2026 playoffs (NBA on Prime on X)",
+  "anchor": "Last season",
+  "start": 4.32
+ },
+ {
+  "clip": "B04.mp4",
+  "kind": "action",
+  "why": "Bronny's pull-up three off a LeBron screen, 2026 playoffs (Steve Jones on X, Apr 25 2026)",
+  "anchor": "From three",
+  "start": 5.66
+ },
+ {
+  "clip": "B05.mp4",
+  "kind": "action",
+  "why": "Bronny bringing the ball up, 2026 playoffs at Houston (NBA on Prime on X)",
+  "anchor": "He played",
+  "start": 7.77
+ },
+ {
+  "clip": "B06.mp4",
+  "kind": "action",
+  "why": "Bronny driving, 2026 playoffs (NBA on Prime on X)",
+  "anchor": "then eight more",
+  "start": 9.73
+ },
+ {
+  "clip": "B07.mp4",
+  "kind": "quote",
+  "why": "Luka Doncic post-game, Mar 25 2026: 'Definitely a big improvement from last year.' His own voice, lip-synced (Khobi Price on X)",
+  "anchor": "Definitely a big",
+  "lead": 0.1,
+  "start": 12.16
+ },
+ {
+  "clip": "B08.mp4",
+  "kind": "face",
+  "why": "Bronny at Lakers media day, Sept 28 2026, his third season (Khobi Price on X)",
+  "anchor": "This month",
+  "start": 14.7
+ },
+ {
+  "clip": "B09.mp4",
+  "kind": "face",
+  "why": "Bronny's 2026-27 media-day photo with a ball (NBA G League on X, Sept 29 2026); no video of his opening-night floater exists online",
+  "anchor": "On opening night",
+  "start": 17.15
+ },
+ {
+  "clip": "B10.mp4",
+  "kind": "face",
+  "why": "Bronny's 2026-27 media-day photo, smiling with the ball (NBA G League on X)",
+  "anchor": "So this season",
+  "start": 20.12
+ },
+ {
+  "clip": "B11.mp4",
+  "kind": "face",
+  "why": "Bronny's 2026-27 media-day photo, palms up: the shrug on 'he just hasn't played since' (NBA G League on X)",
+  "anchor": "He just hasn't",
+  "start": 22.18
+ }
+]
