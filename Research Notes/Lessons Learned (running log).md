@@ -297,3 +297,12 @@ Tiers: [V] verified on our files or data, [S] supported by our numbers (small n)
   - No hit asks for a follow.
 - **[S] Length doesn't differ within a channel.** Correction: the Oct 27 afternoon remark that "hit scripts are shorter" came from mixing channels.
 - **Changed:** the daily-run research step (news takes out, lists with a frame in, the script rules). Write-up: `Research Notes/Watch Study/Formats and Scripts (Oct 27, 2026).md`.
+
+## Oct 28, 2026: owner direction, repurpose proven topics
+- **Owner:** "that is a known formula that works, repurposing already winning topics into your own formula."
+- **Standing method:**
+  - Take a topic that already won big on a competitor (the Script Library, the watch studies).
+  - Find our own angle and payoff, and write our own script from sources.
+  - Build it with official or original footage. Never retell their exact story or reuse their footage.
+- **First two:** #74 underhand free throws (Wilt) and S15 Coutinho 8-2.
+- Skip topics that are other creators' content (TikTok challenges): that footage isn't ours to use.
