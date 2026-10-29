@@ -4,7 +4,7 @@
 | Time (ET) | Channel | What to post |
 |---|---|---|
 | **7:00-8:00 AM** | MetaSports (NBA) | The NBA Hub card marked for today. News Shorts first: they go up the morning after the game. |
-| **8:00-9:00 AM** | MetaSports FC | The FC Hub card marked for today, 1 hour after the NBA post. |
+| **7:00-9:00 AM** | MetaSports FC | The FC Hub card marked for today. Same sitting as the NBA post is fine (owner asked Oct 29; the 1-hour gap was an untested guess). |
 | **about 3:00 PM** (only when a second NBA card is as strong as the first) | MetaSports (NBA) | An evergreen one (a record, not news). |
 | **about 4:00 PM** (only when a second FC card is as strong) | MetaSports FC | 6+ hours after the morning soccer post. |
 
@@ -22,19 +22,19 @@ title (Copy button), set "Not made for kids", add the pinned comment from the ca
 **Strict rules:**
 1. **Up to 2 Shorts per channel per day (owner asked, Oct 26: 'is 1 short per day optimal?').** Post the 2nd only if it's as strong as the 1st, at least 6 h later; never 3. On our 2-post days, each post did as well as on 1-post days (4.1K vs 4.2K median), and the 2nd post did no worse. [S] Posting Study §1d. Limits: quality, and voice credits (about 2 Shorts a day total on the current ElevenLabs plan).
 2. News goes up the morning after the game. A news Short that misses its day is skipped, not posted late (#63, a day late: 58% stayed vs 75-80% same day).
-3. At least 6 hours between two posts on the same channel (Oct 26 overnight review; was 4). The two channels at least 1 hour apart.
+3. At least 6 hours between two posts on the same channel (Oct 26 overnight review; was 4). The two channels can go up at the same time (Oct 29: the old 1-hour gap was a guess with no data behind it; the channels don't compete).
 4. 24 hours after posting, type the numbers into the card's Results box (views, "Stayed to watch" %). **Judge the Short at 72 hours, not the next morning** (Oct 26 overnight review): #48 had 25 views on day 0 and 14.6K on day 2. [V] Posting Study §1g.
 5. **Never delete and re-upload a Short** to try again. YouTube may flag it as spam. Ask for a new cut instead. [V] Posting Study §3.
 6. **Every Monday** (the task list reminds you): in YouTube Studio, Content tab, Shorts, export the table for both channels and send the two zips to a Claude
    session. "Stayed to watch" is only in Studio; it is the number that decides whether YouTube keeps pushing a Short.
 
-**The next four days (updated Thu Oct 29, 8:30 AM ET after the script review; the task list's Plan tab shows the same thing live):**
+**The next four days (updated Thu Oct 29, 6:10 PM ET; the task list and both Hubs match it):**
 | Day | NBA 7-8 AM | Soccer 8-9 AM | Second post (6+ h later) |
 |---|---|---|---|
 | Wed Oct 28 | **#72** This Kid Felt Every Free Throw (posted 7:17 AM, music; 19.8K by 6 PM) | **S15** Barcelona paid a fortune for the player who knocked them out (posted) | **#75** This Rookie Was A Hero For One Overtime (posted 6:03 PM, the **real-audio** version) |
-| Thu Oct 29 | **#76** He Left The NBA Finals In A Wheelchair (**real-audio** version: Pierce's own voice) | **S16** The manager who told his team to stop scoring (no-music version; title: the full line 1 "...against Manchester United") | **#79** Two Buzzer-Beaters From 40 And 50 Feet, about 3 PM (**real-audio** version), moved up from Fri so it's still news (review Oct 29) |
-| Fri Oct 30 | **#77** Bronny Is Shooting 100% This Season (real audio; moved from Thu 3 PM; true until the Lakers play Fri 10 PM ET) | **S17** Goalkeepers who were subbed on just for the penalties (**real-audio** version, music bed kept) | **#74** Why NBA Players Refuse This Free Throw, about 3 PM (no-music version; **re-cut Oct 29**: the wrong "Still a record." line removed) |
-| Sat Oct 31 | **#78** The NBA star who skipped a Finals practice to go wrestling (Ahmed-style TEST, music version) | **S18** The manager Barcelona soaked with sprinklers just got his revenge (no-music version) | |
+| Thu Oct 29 | **#76** He Left The NBA Finals In A Wheelchair (posted; 4.5K by 6 PM) | **S16** The manager who told his team to stop scoring (posted; 1.7K by 6 PM) | **#79** Two Buzzer-Beaters From 40 And 50 Feet (**real-audio** version): not up at 6 PM, so **post it tonight, before about 8 PM**, or skip it (news) |
+| Fri Oct 30 | **#77** Bronny Is Shooting 100% This Season (real audio; moved from Thu 3 PM; true until the Lakers play Fri 10 PM ET) | (same sitting) **S17** Goalkeepers who were subbed on just for the penalties (**real-audio** version, music bed kept) | **#74** Why NBA Players Refuse This Free Throw, about 3 PM (no-music version; **re-cut Oct 29**: the wrong "Still a record." line removed; the Hub has the new file since 6 PM Thu) |
+| Sat Oct 31 | **#78** The NBA star who skipped a Finals practice to go wrestling (Ahmed-style TEST, music version) | (same sitting) **S18** The manager Barcelona soaked with sprinklers got his revenge (no-music version; re-cut Oct 29, new file on the Hub since 6 PM Thu) | |
 
 **Real audio (owner, Oct 28):** viral moments and quote shots now get a real-audio version (the live call or the person's own voice) and that's the one to post. It's its own test, outside the music test.
 Music test after Friday: NBA 2 with music (#70, #72) and 2 without (#71, #74); soccer alternates S15 music, S16 none, S17 music (its real-audio version keeps the music bed). S07 Loch Ness is left out (version unknown).
