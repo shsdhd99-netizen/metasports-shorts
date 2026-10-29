@@ -33,6 +33,11 @@ Two runs a day (scheduled tasks "MetaSports NBA daily run" and "MetaSports FC da
 3. **No key?** Do steps A-C and write the script and notes only. Set the Hub card to `editing` with the note "needs the ElevenLabs
    key in the environment settings". Never fake a voice.
 4. Read the newest entries of `Research Notes/Daily Log.md` and this channel's lessons (below) before deciding anything.
+5. **Account 2 (owner, Oct 29: a second Claude account does research and production):** bring its work in with
+   `git fetch origin account2 && git merge --no-edit origin/account2` (skip if the branch doesn't exist yet), then read
+   `Research Notes/Account 2/Queue.md`. A `built` Short for this channel (QA PASS, DRAFT files) goes on the Hub and the task list
+   first, numbered then (rename its `A2 ...` folder to the next number); a `voice-ready` one is built before researching a new story.
+   Account 2's rules and hand-off format: `ACCOUNT 2 - START HERE.md`.
 
 ## A. Data and retention (10 min)
 - Analytics run 48-72 h behind: score a Short only once it is 72 h old; before that, use live view counts.
