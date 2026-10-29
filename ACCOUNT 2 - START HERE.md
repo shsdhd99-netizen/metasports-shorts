@@ -12,7 +12,7 @@ The owner is not technical and reads on a phone. Keep chat short and plain, and 
 
 ## 1. The owner's standing rules (never relax them)
 1. **Never post, schedule or replace a public video, and never open YouTube Studio.** Everything you make is a DRAFT; the owner posts.
-2. **Never print, commit or ask for an API key.** Keys live only in this account's environment settings, never in chat or files. Before any commit, check the staged diff: `git diff --cached | grep -c "AQ.Ab8"` must print 0.
+2. **Never print, commit or ask for an API key.** Keys live only in this account's environment settings, never in chat or files. Before any commit, check the staged diff: `git diff --cached | grep -c "AQ\\.Ab8"` must print 0.
 3. **No cookies with yt-dlp, and no DRM, paywall or protected-media workarounds.** If a download returns 403, or a player won't hand over a plain file (Sky Sports, Arsenal.com), drop that source and don't work around it.
 4. **Never invent a stat.** Every number in a script has a source and its exact words in `notes.md`. Keep qualifiers ("reportedly"). When sources disagree, word the line so it's true under both (example: "with time running out" when reports say both the 87th and 88th minute).
 5. **Gemini reports are tier [S]** (one model's view). Never claim you listened to anything yourself.
