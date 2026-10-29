@@ -64,3 +64,13 @@ no token in the cloud yet (needs `YT_REFRESH_TOKEN` / `YT_REFRESH_TOKEN_FC`).
   - All three: full QA PASS and Gemini READY, on the Hubs and the task list.
 - Posted (public channel): Nuggets kid (5.3K Wed morning) and S15 Barcelona (Wed morning).
   - Underhand is due today (the morning post), #75 about 4 PM.
+
+## Thu Oct 29, 2026 (main session: morning routines)
+- 06:20 UTC Bronny check: DNP again Wed (coach's decision, ESPN box score). #77 unchanged; posting Thu ~3 PM is cleared.
+- Research run: `Research Notes/Daily Research/2026-10-29.md` (top NBA pick: two long buzzer-beaters 20 minutes apart; soccer: Fleetwood beat Arsenal on penalties without practising them, Mourinho's Clásico return). Gemini watched the two biggest outliers.
+- NBA build: **#79 Two Buzzer-Beaters From 40 And 50 Feet**. Candidates: the buzzer-beater pair (verified video + two live calls), Jokić's 200th triple-double (no video found yet), Dybantsa's debut, Curry's 44. Picked the pair: a moment you can watch, real audio, and a box-score punchline (Jović 7 minutes; Edgecombe 1-for-6 from three, the 50-footer his only make).
+  - Footage: ESPN's public clips of both shots (the broadcasts' calls, a replay, a behind-the-shooter close-up), NBA on X as backup.
+  - Real-audio version 25.4 s (both calls in the announcers' voices, `nat_sound.py`, bed -28 dB); narrated spare 19.5 s. Both full QA PASS. Five clips had one-frame flashes from ESPN's encode, fixed with `deflash.py` (originals in `_check/preflash/`).
+  - Slot: Fri Oct 30 ~2 PM ET (today's two NBA slots are taken by #76 and #77). Hub card s79, task post-buzzer-beaters.
+- Note: `deflash.py` drops the audio track and decodes the whole file into memory; use it on cut clips, never on a long source (a 33 s 1080p source failed).
+

@@ -1,0 +1,87 @@
+[
+ {
+  "clip": "H01.mp4",
+  "kind": "action",
+  "why": "Edgecombe's arms go up as his 50-footer flies, behind-the-shooter close-up (ESPN clip, Oct 28 2026 at Indiana)",
+  "start": 0.0
+ },
+ {
+  "clip": "H02.mp4",
+  "kind": "face",
+  "why": "Jović (#5 JOVIC) walks off at half-time high-fiving, slowed to half speed (ESPN clip, at Atlanta)",
+  "anchor": "First, Miami's",
+  "start": 2.73
+ },
+ {
+  "clip": "H03.mp4",
+  "kind": "action",
+  "why": "Jović grabs the loose ball with about 2 seconds left and lets it go",
+  "anchor": "Loose ball",
+  "start": 4.21
+ },
+ {
+  "clip": "H04.mp4",
+  "kind": "action",
+  "why": "the 40-footer drops at the half-time buzzer",
+  "anchor": "and he hits",
+  "start": 5.91
+ },
+ {
+  "clip": "H05.mp4",
+  "kind": "action",
+  "why": "Indiana, end of the first half: Ubre's three falls short",
+  "anchor": "Twenty minutes later",
+  "start": 7.27
+ },
+ {
+  "clip": "H06.mp4",
+  "kind": "action",
+  "why": "Edgecombe grabs the rebound with 1.7 s left",
+  "anchor": "VJ Edgecombe grabs",
+  "start": 8.52
+ },
+ {
+  "clip": "H07.mp4",
+  "kind": "action",
+  "why": "the 50-foot heave",
+  "anchor": "He throws",
+  "start": 10.85
+ },
+ {
+  "clip": "H08.mp4",
+  "kind": "action",
+  "why": "it goes in; the referees signal three",
+  "anchor": "and it drops",
+  "start": 11.95
+ },
+ {
+  "clip": "H09.mp4",
+  "kind": "action",
+  "why": "replay from behind the basket: the ball drops in",
+  "anchor": "But here's",
+  "replay": true,
+  "start": 12.79
+ },
+ {
+  "clip": "H10.mp4",
+  "kind": "face",
+  "why": "Jović (#5) mobbed by teammates after the shot",
+  "anchor": "Jović played seven",
+  "start": 13.67
+ },
+ {
+  "clip": "H11.mp4",
+  "kind": "action",
+  "why": "floor-level angle of the play: Edgecombe (#77) grabs the miss",
+  "anchor": "And Edgecombe went",
+  "start": 15.49
+ },
+ {
+  "clip": "H12.mp4",
+  "kind": "action",
+  "why": "payoff: Edgecombe's arms up as the 50-footer flies (same close-up as frame 1, later seconds)",
+  "anchor": "His only make",
+  "replay": true,
+  "start": 17.41
+ }
+]
