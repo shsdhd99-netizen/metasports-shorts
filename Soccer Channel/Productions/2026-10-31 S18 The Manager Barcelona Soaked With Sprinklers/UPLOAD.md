@@ -11,4 +11,4 @@
 **Description:** empty.
 **Tags (optional, 87 characters):** mourinho, el clasico, real madrid, barcelona, mbappe, camp nou, sprinklers, inter 2010
 **Pinned comment:** Is this Mourinho's best revenge ever?
-54.3 s, full QA PASS (both versions).
+54.3 s, full QA PASS (both versions). Gemini pre-check (no-music version): READY (`Research Notes/Watch Reports/drafts/S18_mourinho_precheck.json`, tier [S]).
