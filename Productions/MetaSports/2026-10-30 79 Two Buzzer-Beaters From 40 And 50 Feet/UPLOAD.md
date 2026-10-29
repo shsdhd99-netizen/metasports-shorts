@@ -1,6 +1,8 @@
 # Upload package: #79 (DRAFT, awaiting approval)
 
-**Post:** Fri Oct 30, about 2 PM ET (second NBA post, 6+ h after #74).
+**Review, Oct 29: moved to TODAY, Thu Oct 29, about 3 PM ET** (the shots were Wednesday night; Friday 2 PM is about 62 h later, past the 36 h news window). Facts confirmed (ESPN box scores in notes.md).
+
+**Post (old slot):** Fri Oct 30, about 2 PM ET (second NBA post, 6+ h after #74).
 **Which file:** the real-audio version (both live calls: "and that one does count", "Oh, Edgecombe nails it at the buzzer"). The narrated version is the spare if YouTube flags the broadcast audio.
 
 **Title (pick 1):**

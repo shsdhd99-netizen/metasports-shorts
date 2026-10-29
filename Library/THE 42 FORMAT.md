@@ -84,3 +84,10 @@ The next 3 posts in this format were the test. **Success = 2 of 3 reach 74%+ sta
 | B3 | Harden's 2016-17: the most turnovers in one season | he led the league in assists that year | verify; a second Harden, so space it |
 | B4 | Kobe went 6-for-24 in Game 7 of the 2010 Finals | Finals MVP; 15 rebounds | verify; single-game variant |
 | B5 | Michael Jordan: "I've missed more than 9,000 shots" | he actually missed 12,345, and that's why he made 12,192 | verify (B-Ref FGA/FG); a quote variant |
+
+**Added Oct 29 (`Research Notes/New Finds (Oct 29, 2026).md` §B; verify on Basketball-Reference/Stathead before scripting; space each a week from the nearest similar post):**
+| # | Accusation | Flip | Status |
+|---|---|---|---|
+| B6 | Curry has missed more threes in the NBA Finals than anyone (233) | he's made the most Finals threes too (152; Klay next, 106) | verify; a week after #48 (Harden threes) |
+| B7 | Shaq missed 21 free throws in one Finals game (18 of 39, Game 2, 2000) | 39 attempts is the Finals record (next: 25) | "most missed" is derived: confirm on Stathead; a week after #74 |
+**Note (Oct 29 What's Working Now):** the format faded with reuse (stayed 84 -> 83 -> 73 -> 59%): leave 7+ days between format posts.

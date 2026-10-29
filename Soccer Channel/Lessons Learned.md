@@ -65,3 +65,9 @@
 - **[V] Even Ahmed's format sat at about 17K a Short for its first ~106 Shorts before jumping to 340K.** Our soccer rules are hypotheses until 20-30 Shorts.
 - **[V] A dark first frame slips past blackdetect.** S04's first 0.25 s was someone passing the camera (brightness 32 of 255). QA now gates on frame 1 brightness (good frames 70-115); S04 re-cut 0.3 s later and re-rendered.
 - **[H] One soccer Short a day.** S02 went out the same day as S01.
+
+## Oct 29, 2026 (nine posts in: `Research Notes/What's Working Now (Oct 29, 2026).md`)
+- **[V] The goalkeeper-shootout topic is the hit, not the title shape.** S01 30.2K, S05 27.2K, S03 15.5K: each a goalkeeper winning a famous shootout with a trick, then a twist. The six others (Zidane, Maradona, Lewandowski, Balotelli, Leicester, Coutinho) stayed at 0.9-2.9K despite bigger names. The Oct 23 "singular title" idea is refuted: S03 and S05 used plural titles.
+- **[V] Breakouts come on day 2-3 (4-10x the first count).** Judge at 72 h, never the next morning.
+- **[V] Check every "still the record" line on the day.** #74 said Wilt's 28 free throws was still the record; Adebayo made 36 in March 2026. S18 said Mourinho's 2010 celebration was a knee slide; it was a run with a raised finger (the slide was 2006).
+- **[V] A wrong line can come out of a finished render** without clips or a new voice: cut the video on the shot change and the audio at the nearest quiet point, both by the same length; extend the video cut until the old caption is gone (S18, #74, Oct 29).

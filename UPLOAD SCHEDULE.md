@@ -28,12 +28,12 @@ title (Copy button), set "Not made for kids", add the pinned comment from the ca
 6. **Every Monday** (the task list reminds you): in YouTube Studio, Content tab, Shorts, export the table for both channels and send the two zips to a Claude
    session. "Stayed to watch" is only in Studio; it is the number that decides whether YouTube keeps pushing a Short.
 
-**The next four days (updated Wed Oct 28, 6:30 PM ET; the task list's Plan tab shows the same thing live):**
+**The next four days (updated Thu Oct 29, 8:30 AM ET after the script review; the task list's Plan tab shows the same thing live):**
 | Day | NBA 7-8 AM | Soccer 8-9 AM | Second post (6+ h later) |
 |---|---|---|---|
 | Wed Oct 28 | **#72** This Kid Felt Every Free Throw (posted 7:17 AM, music; 19.8K by 6 PM) | **S15** Barcelona paid a fortune for the player who knocked them out (posted) | **#75** This Rookie Was A Hero For One Overtime (posted 6:03 PM, the **real-audio** version) |
-| Thu Oct 29 | **#76** He Left The NBA Finals In A Wheelchair (**real-audio** version: Pierce's own voice) | **S16** The manager who told his team to stop scoring (no-music version) | **#77** Did Bronny Actually Get Better? about 3 PM (real audio: Luka's voice), only after Claude checks Wednesday night's box score |
-| Fri Oct 30 | **#74** Why NBA Players Refuse This Free Throw (no-music version; evergreen, moved from Wed/Thu) | **S17** Goalkeepers who were subbed on just for the penalties (**real-audio** version, music bed kept) | **#79** Two Buzzer-Beaters From 40 And 50 Feet, about 2 PM (**real-audio** version: both live calls) |
+| Thu Oct 29 | **#76** He Left The NBA Finals In A Wheelchair (**real-audio** version: Pierce's own voice) | **S16** The manager who told his team to stop scoring (no-music version; title: the full line 1 "...against Manchester United") | **#79** Two Buzzer-Beaters From 40 And 50 Feet, about 3 PM (**real-audio** version), moved up from Fri so it's still news (review Oct 29) |
+| Fri Oct 30 | **#77** Bronny Is Shooting 100% This Season (real audio; moved from Thu 3 PM; true until the Lakers play Fri 10 PM ET) | **S17** Goalkeepers who were subbed on just for the penalties (**real-audio** version, music bed kept) | **#74** Why NBA Players Refuse This Free Throw, about 3 PM (no-music version; **re-cut Oct 29**: the wrong "Still a record." line removed) |
 | Sat Oct 31 | **#78** The NBA star who skipped a Finals practice to go wrestling (Ahmed-style TEST, music version) | **S18** The manager Barcelona soaked with sprinklers just got his revenge (no-music version) | |
 
 **Real audio (owner, Oct 28):** viral moments and quote shots now get a real-audio version (the live call or the person's own voice) and that's the one to post. It's its own test, outside the music test.

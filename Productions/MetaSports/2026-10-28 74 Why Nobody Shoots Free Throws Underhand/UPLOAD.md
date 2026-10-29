@@ -1,5 +1,7 @@
 # DRAFT - awaiting approval - Why NBA Players Refuse This Free Throw
 
+**Fact fix, Oct 29:** both files re-cut without the wrong line "Still a record." (Adebayo made 36 in March 2026). Now 24.7 s. Post either as before.
+
 **Post:** `DRAFT - awaiting approval - Why NBA Players Refuse This Free Throw (no music).mp4`. It's the no-music side of the test (the Nuggets kid is the music side). A music version is also in the folder.
 
 ## Title (pick one)

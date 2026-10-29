@@ -1,6 +1,8 @@
 # DRAFT - awaiting approval - S17 Goalkeepers who were subbed on just for the penalties
 
-**Post:** the music version (music side of the soccer test). A no-music version is also in the folder.
+**Review, Oct 29:** all facts confirmed; the strongest Short in the queue (goalkeeper series, 3 for 3). **Post the (real audio) file** (UPLOAD SCHEDULE, Oct 28; it keeps the music bed). Pinned comment: "Should Van Gaal have saved a sub for the semi?"
+
+**Post (old line):** the music version (music side of the soccer test). A no-music version is also in the folder.
 
 ## Title (pick one)
 1. Goalkeepers who were subbed on just for the penalties  ← my pick

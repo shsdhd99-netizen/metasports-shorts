@@ -1,5 +1,11 @@
 # S18 The manager Barcelona soaked with sprinklers just got his revenge (Oct 29, 2026; daily FC build)
 
+> **FACT FIX, Oct 29 (cloud review):** two lines cut from both DRAFT files (no new voice), now 51.9 s:
+> 1. "just like that night in 2010" was WRONG: in 2010 he ran on with his finger up (our own shot shows him standing); his Camp Nou knee slide was 2006 with Chelsea (Goal; 90min). Cut = shot M28 (video frames 1415-1458, audio 47.140-48.607 s).
+> 2. "Then came Sunday." would read as tomorrow on a Saturday post. Cut (video frames 836-863, audio 27.848-28.781 s).
+> words.json / captions.srt still hold the old timing: if re-rendered from clips, run Tools/word_edit.py with those two audio spans first.
+> Posted title: drop "just": "The manager Barcelona soaked with sprinklers got his revenge" (Script Review - FC queue, Oct 29).
+
 - **Lane:** comeback / revenge (311K theme) about a global name, tied to this week's match (Oct 25 Clásico).
 - **Concept (8 words):** Soaked by Barcelona's sprinklers, Mourinho returns and wins.
 - **Added value:** the 2010 sprinkler night and the 2026 Clásico in one story; the September sprinkler gift; the irony that Barcelona were chasing a Real Madrid record and Real Madrid stopped it.

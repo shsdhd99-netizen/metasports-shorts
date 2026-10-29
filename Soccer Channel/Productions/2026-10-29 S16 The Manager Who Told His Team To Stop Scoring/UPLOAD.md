@@ -2,8 +2,10 @@
 
 **Post:** `DRAFT - awaiting approval - S16 The manager who told his team to stop scoring (no music).mp4`. It's the no-music side of the soccer music test (Barcelona went up with music). A music version is also in the folder.
 
+**Review, Oct 29:** facts confirmed. He actually said "stop running", so: **title = the full spoken line 1**, "The manager who told his team to stop scoring against Manchester United" (adds the global name), and **pinned comment:** "'I told the players to stop running.' Respect, or disrespect?"
+
 ## Title (pick one)
-1. The manager who told his team to stop scoring  ← my pick
+1. The manager who told his team to stop scoring  ← old pick
 2. Fabregas told Como to stop running at 4-0
 3. The pizza thrower who humiliated Manchester United
 

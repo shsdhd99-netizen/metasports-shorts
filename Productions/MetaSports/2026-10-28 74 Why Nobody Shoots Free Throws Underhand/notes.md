@@ -1,4 +1,7 @@
 # #74 Why nobody shoots free throws underhand (Oct 28, 2026)
+
+> **FACT FIX, Oct 29 (cloud review):** "Still a record." was WRONG and is cut from both DRAFT files. Bam Adebayo made 36 of 43 free throws in his 83-point game on Mar 10, 2026, the new single-game record (Wikipedia, "Bam Adebayo's 83-point game": "36 made out of a possible 43"). Cut on the shot change into U07 (video frames 358-377, audio 11.885-12.552 s); both renders are now 24.7 s. The originals are in `_pre_factfix/` (git-ignored if large). words.json / captions.srt still hold the old timing: if this Short is ever re-rendered from clips, run `Tools/word_edit.py --edit 11.885-12.552` first.
+> Kept, minor: "So Wilt Chamberlain... tried it too" reads as if Wilt copied Barry; Wilt shot underhand in 1961-62, before Barry reached the NBA (1965). Cutting "So" would leave the burned caption "SO WILT CHAMBERLAIN" on screen, so it stays; don't repeat the order claim anywhere else.
 **Why this topic:** owner, Oct 28: "rebuild the best nba/soccer scripts youve seen, and make your own video on the same topics".
 CoachClank's "Why No One Shoots Underhand" got 10M views (Script Library, Oct 27). Our angle differs: Clank told the
 Rick Barry and Shaq story; ours centres on Wilt's 100-point night and his embarrassment. The script is our own; no wording copied.

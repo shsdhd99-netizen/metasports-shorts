@@ -43,3 +43,16 @@
 |---|---|---|---|---|---|
 | S18 (idea; no usable match footage on Oct 29: Sky/Arsenal players can't be downloaded plainly) | The team that didn't practise penalties beat the champions on penalties | League Two Fleetwood (18th) beat Arsenal 5-3 on pens at their own "Highbury" (Carabao Cup, Oct 27); manager: "I'm not going to blag that we had some meticulous penalties, we haven't"; 16-year-old Dowman sent off; first fourth-tier side to beat the champions in a domestic cup since Wrexham 1992 | Underdog (293K theme) + ironic payoff, this week's biggest shock | EFL/Carabao Cup clips on X (check rights) | |
 | ~~S19~~ MADE as production **S18** (Oct 29) | The manager Barcelona turned the sprinklers on came back and won at Camp Nou | Mourinho's first Clásico back: Real win 2-1 (Oct 25), Mbappé's 87th-minute winner (his 100th Real goal), Mourinho's knee slide; callback to the 2010 sprinklers (source needed); Real lead the all-time record 107-106 | Famous name + revenge (311K theme) + a hard number | LaLiga/Real Madrid highlights; 2010 Inter footage | |
+
+## Oct 29, 2026: goalkeeper series next (the series is 3 for 3: S01 30K, S05 27K, S03 15.5K; everything else 1-3K)
+Sources and exact quotes: `Research Notes/Script Review - FC queue (Oct 29, 2026).md` §6 and `Research Notes/New Finds (Oct 29, 2026).md` §C. All still need copy-check and an archive.org footage check on the PC.
+| Rank | Idea | Payoff | Footage lead |
+|---|---|---|---|
+| 1 | Goalkeepers who got the penalty rules changed (Emiliano Martínez: Mina 2021, the 2022 final) | the July 2023 law against distracting the kicker; say "after that final" (IFAB never named him) | full 2022 final shootout on archive.org |
+| 2 | Goalkeepers who watched five years of penalties (Čech, 2012 final) | Chelsea's first Champions League | 2012 final broadcast (check) |
+| 3 | Goalkeepers who refused to be subbed off (Kepa, 2019 League Cup final) | Chelsea lost; in 2022 he was subbed on for penalties, saved none of 11 and skied his own (mirror of S17: post after it) | 2019/2022 finals (check) |
+| 4 | Ricardo's gloves-off save (Euro 2004 v England) | then scored the winning penalty himself | Euro 2004 broadcast (check) |
+| 5 | Duckadam, 1986 European Cup final: saved all four | the career that ended months later | 1986 final (check) |
+| 6 | Bounou v Spain (2022): Spain had practised 1,000 penalties | Spain scored none | Fleetwood's "We haven't practiced (penalties) once" as the opener |
+| 7 | Goycochea, Italia 90 (four shootout saves) | couldn't stop the one in the final; the peeing ritual needs a first-hand quote first | 1990 broadcasts |
+Other series worth a test: "Managers who..." (Ferguson's boot and Beckham, 2003; S16/S18 already fit) and "Penalty takers who..." (Panenka bet his keeper a beer or chocolate on the chip; skip Zidane 2006, it's in S04).
