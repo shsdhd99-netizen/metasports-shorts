@@ -11,4 +11,4 @@
 **Description:** empty.
 **Tags (optional, 87 characters):** vj edgecombe, nikola jovic, buzzer beater, half court shot, sixers, miami heat, nba
 **Pinned comment:** Which was harder: Jović's 40-footer or Edgecombe's 50-footer?
-**Arm:** real audio (its own arm, outside the music test). 25.4 s, full QA PASS (both versions).
+**Arm:** real audio (its own arm, outside the music test). 25.4 s, full QA PASS (both versions). Gemini pre-check (real-audio version): READY (`Research Notes/Watch Reports/drafts/79_buzzer_beaters_real_audio_precheck.json`, tier [S]).
