@@ -515,3 +515,23 @@ Public counts (`channel_check.py`). No API token in the cloud: the Analytics sig
 **Format test:** closed (1 of 3 at 74%+). **Retention flags:** none readable (no API data).
 **Music test so far:** music #72 20,000 and #70 3,000 vs no music #71 1,300; #74 (no music) posts Fri. n=3, not a rule.
 **Lesson:** none (n<3). The two moment Shorts posted in the morning (#72, Haliburton) both kept climbing on day 2; worth watching, not a rule.
+
+## Thu Oct 29, 2026 (evening, 23:09 UTC): daily check (scheduled, read-only)
+Public counts (`channel_check.py`). No API token in the cloud: the Analytics sign-in is still pending (owner's task list). No new Studio export since Oct 24. vidIQ: 0 credits (resets Nov 5), not used.
+- **Median of the last 7: 4,100** (normal before that: 5,250). Trend: DOWN, but up from 3,000 yesterday and 2,250 the day before.
+
+| Short | Views | #42 FORMAT? | Note |
+|---|---|---|---|
+| This Kid Felt Every Free Throw (#72) | 23,000 | no (moment) | day 2; 20,000 yesterday; music side |
+| Haliburton Threw An Alley-Oop To Himself | 7,600 | no (moment) | day 3; 6,900 yesterday, slowing |
+| He Left The NBA Finals In A Wheelchair (#76) | 4,600 | no (story, real audio) | posted this morning, about 12 h; second **real-audio** post |
+| This Rookie Was A Hero For One Overtime (#75) | 4,100 | no (moment, real audio) | about 25 h; 821 at 1.5 h; first real-audio post; judge at 72 h (Sat evening) |
+| Chuck Failed A Test With The Answers (#70) | 3,200 | no (moment) | music side; flat (3,000) |
+| Caitlin Clark Did What No NBA Player Has | 2,700 | no | flat |
+| Luka Just Did What Kobe Never Did (#71) | 1,300 | no (news) | no-music side; flat |
+
+**Not posted yet:** #79 Two Buzzer-Beaters (real audio) was due today (moved up by the morning review); at 7:09 PM ET it isn't on the channel. Task left open; it's news, so skip it if it misses tonight.
+**Format test:** closed (1 of 3 at 74%+). **Retention flags:** none readable (no API data).
+**Music test so far:** music #72 23,000 and #70 3,200 vs no music #71 1,300; #74 (no music) posts Fri 3 PM. n=3, not a rule.
+**Real-audio test:** #75 4,100 (25 h) and #76 4,600 (12 h); no narrated twin of either was posted, so no comparison yet. n=2, not a rule.
+**Lesson:** none (n<3). Owner notes inbox: empty.
