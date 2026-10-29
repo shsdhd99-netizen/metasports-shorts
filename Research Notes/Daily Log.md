@@ -73,4 +73,7 @@ no token in the cloud yet (needs `YT_REFRESH_TOKEN` / `YT_REFRESH_TOKEN_FC`).
   - Real-audio version 25.4 s (both calls in the announcers' voices, `nat_sound.py`, bed -28 dB); narrated spare 19.5 s. Both full QA PASS. Five clips had one-frame flashes from ESPN's encode, fixed with `deflash.py` (originals in `_check/preflash/`).
   - Slot: Fri Oct 30 ~2 PM ET (today's two NBA slots are taken by #76 and #77). Hub card s79, task post-buzzer-beaters.
 - Note: `deflash.py` drops the audio track and decodes the whole file into memory; use it on cut clips, never on a long source (a 33 s 1080p source failed).
+- FC build: **S18 The manager Barcelona soaked with sprinklers just got his revenge** (Mourinho: 2010 sprinklers, the Sept 2026 sprinkler gift, the Oct 25 Clásico winner and knee slide; payoff: Barcelona were chasing Real Madrid's own 1968 record). 54.3 s, both versions full QA PASS; no-music side of the test. Sat Oct 31 8-9 AM. Hub card s18, task post-s18-mourinho.
+  - The research pick (Fleetwood beat Arsenal on penalties without practising them) failed the footage test: the free Sky highlights and Arsenal.com's player can't be downloaded plainly, ESPN has only a studio segment, and the only X video is a post-match interview. Kept in the Idea Bank.
+  - Footage: ESPN's public Clásico clips (incl. the knee slide), archive.org's full 2010 semi-final broadcast (the run onto the pitch; the spray itself isn't on it), Mixkit stock for the gift. Premier Sports' knee-slide video on X refused the download (403): not used.
 
