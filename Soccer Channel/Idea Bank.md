@@ -36,3 +36,10 @@
 **Oct 27 daily research:** picks S09 (Krul) and the Beckham/Argentina revenge idea (Next Ideas #2). Sources and cautions are in `Research Notes/Daily Research/2026-10-27.md`. Krul's "2 of 20 penalties" figure comes from one AP-based report; re-check before scripting. Frame Beckham's 2002 goal without claiming a grudge (FIFA quotes him saying there was none).
 | S15 (built Oct 28, ready) | Barcelona paid a fortune for the player who knocked them out | Coutinho: EUR 160M (reported) in, 2 goals in the 8-2 for Bayern, EUR 20M out | Backfired transfer (Ahmed's 1.9M topic, own angle) |
 | S16 (built Oct 28, ready Thu) | The manager who told his team to stop scoring | Fabregas (2004 pizza at Ferguson) tells Como to stop running at 4-0 v Man Utd, then regrets United's goal | Famous name + ironic regret (Ahmed's Fabregas/United stories) | CBS + highlights + Sky clip + photos | |
+
+**Oct 29 daily research** (sources and cautions: `Research Notes/Daily Research/2026-10-29.md`):
+
+| # | Working title (spoken line 1) | Story | Why it should work | Footage lead | Series |
+|---|---|---|---|---|---|
+| S18 | The team that didn't practise penalties beat the champions on penalties | League Two Fleetwood (18th) beat Arsenal 5-3 on pens at their own "Highbury" (Carabao Cup, Oct 27); manager: "I'm not going to blag that we had some meticulous penalties, we haven't"; 16-year-old Dowman sent off; first fourth-tier side to beat the champions in a domestic cup since Wrexham 1992 | Underdog (293K theme) + ironic payoff, this week's biggest shock | EFL/Carabao Cup clips on X (check rights) | |
+| S19 | The manager Barcelona turned the sprinklers on came back and won at Camp Nou | Mourinho's first Clásico back: Real win 2-1 (Oct 25), Mbappé's 87th-minute winner (his 100th Real goal), Mourinho's knee slide; callback to the 2010 sprinklers (source needed); Real lead the all-time record 107-106 | Famous name + revenge (311K theme) + a hard number | LaLiga/Real Madrid highlights; 2010 Inter footage | |

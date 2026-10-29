@@ -1,3 +1,5 @@
 date,video,model,length_s,lane,shot_count,average_shot_s,shots_in_first_3s,voice,music,cards,report
 2026-10-27,_Oahi9sBi1A,gemini-3.1-flash-lite,23.25,explainer,15,1.55,3,AI,True,3,Research Notes/Watch Reports/_Oahi9sBi1A.json
 2026-10-27,itGXIs3ju9M,gemini-3.5-flash-lite,20.04,explainer,12,1.67,3,AI,True,0,Research Notes/Watch Reports/itGXIs3ju9M.json
+2026-10-29,zXwHnwj_NR8,gemini-3.6-flash,10.0,moment,5,2.0,2,none,True,0,Research Notes/Watch Reports/zXwHnwj_NR8.json
+2026-10-29,iWD-Ni10p1w,gemini-3.5-flash,30.5,list,9,3.39,2,AI,True,0,Research Notes/Watch Reports/iWD-Ni10p1w.json
