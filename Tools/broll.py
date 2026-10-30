@@ -132,9 +132,10 @@ def cmd_cut(a):
         # 60 fps sources stay smooth down to 0.5x; -t still sets the clip's own length, so it uses len x speed of the source.
         slow = f"setpts=PTS/{a.speed:.3f}," if a.speed != 1.0 else ""
         dl = ""
-        if a.delogo:  # Oct 21: blur a TV channel bug (fractions of the source frame: x,y,w,h)
-            fx, fy, fw, fh = (float(v) for v in a.delogo.split(","))
-            dl = f"delogo=x={int(fx * w)}:y={int(fy * h)}:w={int(fw * w)}:h={int(fh * h)},"
+        if a.delogo:  # Oct 21: blur a TV channel bug (fractions of the source frame: x,y,w,h); Oct 30: several, split by ';'
+            for box in a.delogo.split(";"):
+                fx, fy, fw, fh = (float(v) for v in box.split(","))
+                dl += f"delogo=x={int(fx * w)}:y={int(fy * h)}:w={int(fw * w)}:h={int(fh * h)},"
         if a.blurfit:  # Oct 21 (story format): the whole wide frame, full width, over a blurred, darkened fill of itself
             fg_w = int(1080 * a.blurfit_width) // 2 * 2
             # Oct 26 2026 (retention study): --blurfit-aspect 0.75 keeps a 3:4 window of the wide frame (placed by --x) instead of
@@ -346,7 +347,7 @@ def main():
     p.add_argument("--blurfit", action="store_true", help="keep the whole wide frame: full width over a blurred fill (story format)")
     p.add_argument("--blurfit-width", dest="blurfit_width", type=float, default=1.0, help="foreground width share for --blurfit")
     p.add_argument("--blurfit-aspect", dest="blurfit_aspect", type=float, default=0.0, help="with --blurfit: keep only a w/h window (0.75 = 3:4) of the frame, placed by --x (Oct 26)")
-    p.add_argument("--delogo", help="blur a channel logo: x,y,w,h as fractions of the source frame, e.g. 0.85,0.02,0.13,0.14")
+    p.add_argument("--delogo", help="blur a channel logo: x,y,w,h as fractions of the source frame, e.g. 0.85,0.02,0.13,0.14; several boxes split by ';'")
     p = sub.add_parser("still"); p.add_argument("source"); p.add_argument("--len", type=float, default=5); p.add_argument("--out", required=True)
     p = sub.add_parser("page", help="a screenshot as a clip: push-in + red circle/box highlights")
     p.add_argument("source"); p.add_argument("--len", type=float, default=3); p.add_argument("--out", required=True)

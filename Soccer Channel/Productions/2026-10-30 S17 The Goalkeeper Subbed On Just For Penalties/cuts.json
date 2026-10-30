@@ -201,7 +201,8 @@
    "kind": "action",
    "anchor": "Four days later",
    "why": "Netherlands v Argentina semi-final shootout, Sao Paulo, July 9 2014 (TyC Sports broadcast via an X repost)",
-   "len": 2.73
+   "len": 2.73,
+   "delogo": "0.145,0.095,0.265,0.09;0.638,0.085,0.175,0.125;0.565,0.882,0.225,0.06;0.172,0.745,0.095,0.215"
   },
   {
    "clip": "K20",
@@ -213,7 +214,8 @@
    "kind": "action",
    "anchor": "Nil-nil again",
    "why": "Same shootout, behind-the-goal angle (TyC Sports via X)",
-   "len": 2.16
+   "len": 2.16,
+   "delogo": "0.145,0.095,0.265,0.09;0.638,0.085,0.175,0.125;0.565,0.882,0.225,0.06;0.172,0.745,0.095,0.215"
   },
   {
    "clip": "K21",
@@ -253,7 +255,8 @@
    "kind": "face",
    "anchor": "Argentina won",
    "why": "Argentina keeper Sergio Romero roars after a save (TyC Sports via X)",
-   "len": 1.45
+   "len": 1.45,
+   "delogo": "0.145,0.095,0.265,0.09;0.638,0.085,0.175,0.125;0.565,0.882,0.225,0.06;0.172,0.745,0.095,0.215"
   },
   {
    "clip": "K25",

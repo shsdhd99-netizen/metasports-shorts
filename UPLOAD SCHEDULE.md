@@ -28,13 +28,13 @@ title (Copy button), set "Not made for kids", add the pinned comment from the ca
 6. **Every Monday** (the task list reminds you): in YouTube Studio, Content tab, Shorts, export the table for both channels and send the two zips to a Claude
    session. "Stayed to watch" is only in Studio; it is the number that decides whether YouTube keeps pushing a Short.
 
-**The next four days (updated Thu Oct 29, 6:10 PM ET; the task list and both Hubs match it):**
+**The next four days (updated Fri Oct 30, 2 AM ET after the overnight edit pass; the task list and both Hubs match it):**
 | Day | NBA 7-8 AM | Soccer 8-9 AM | Second post (6+ h later) |
 |---|---|---|---|
 | Wed Oct 28 | **#72** This Kid Felt Every Free Throw (posted 7:17 AM, music; 19.8K by 6 PM) | **S15** Barcelona paid a fortune for the player who knocked them out (posted) | **#75** This Rookie Was A Hero For One Overtime (posted 6:03 PM, the **real-audio** version) |
-| Thu Oct 29 | **#76** He Left The NBA Finals In A Wheelchair (posted; 4.5K by 6 PM) | **S16** The manager who told his team to stop scoring (posted; 1.7K by 6 PM) | **#79** Two Buzzer-Beaters From 40 And 50 Feet (**real-audio** version): not up at 6 PM, so **post it tonight, before about 8 PM**, or skip it (news) |
-| Fri Oct 30 | **#77** Bronny Is Shooting 100% This Season (real audio; moved from Thu 3 PM; true until the Lakers play Fri 10 PM ET) | (same sitting) **S17** Goalkeepers who were subbed on just for the penalties (**real-audio** version, music bed kept) | **#74** Why NBA Players Refuse This Free Throw, about 3 PM (no-music version; **re-cut Oct 29**: the wrong "Still a record." line removed; the Hub has the new file since 6 PM Thu) |
-| Sat Oct 31 | **#78** The NBA star who skipped a Finals practice to go wrestling (Ahmed-style TEST, music version) | (same sitting) **S18** The manager Barcelona soaked with sprinklers got his revenge (no-music version; re-cut Oct 29, new file on the Hub since 6 PM Thu) | |
+| Thu Oct 29 | **#76** He Left The NBA Finals In A Wheelchair (posted; 4.5K by 6 PM) | **S16** The manager who told his team to stop scoring (posted; 1.7K by 6 PM) | **#78** The NBA star who skipped a Finals practice to go wrestling (posted Thu evening by the owner, instead of #79; Ahmed-style test, judge at 72 h). **#79** buzzer-beaters: skipped (Wednesday news, now too late) |
+| Fri Oct 30 | **#77** Bronny Is Shooting 100% This Season (real audio; **re-edited Oct 30** for retention: download the new file; true until the Lakers play Fri 10 PM ET) | (same sitting) **S17** Goalkeepers who were subbed on just for the penalties (**real-audio** version, music bed kept; **re-edited Oct 30**: TV logos blurred) | **#74** Why NBA Players Refuse This Free Throw, about 3 PM (no-music version; **re-cut Oct 29**: the wrong "Still a record." line removed; the Hub has the new file since 6 PM Thu) |
+| Sat Oct 31 | open: Friday's NBA daily build fills it (#78 went up Thursday) | (same sitting) **S18** The manager Barcelona soaked with sprinklers got his revenge (no-music version; re-cut Oct 29; **sound peak fixed Oct 30**: download the new file) | |
 
 **Real audio (owner, Oct 28):** viral moments and quote shots now get a real-audio version (the live call or the person's own voice) and that's the one to post. It's its own test, outside the music test.
 Music test after Friday: NBA 2 with music (#70, #72) and 2 without (#71, #74); soccer alternates S15 music, S16 none, S17 music (its real-audio version keeps the music bed). S07 Loch Ness is left out (version unknown).

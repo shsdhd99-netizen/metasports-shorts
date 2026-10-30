@@ -27,3 +27,12 @@
 - B07: Luka's presser video (Khobi Price on X), the quote in his own voice, lip-synced.
 - B08: Bronny at 2026 media day (Khobi Price on X, Sept 28 2026).
 - B09-B11: NBA G League's 2026 media-day photos (Sept 29 2026), slow push-in. No video of the opening-night floater is online (X, Yahoo checked), so the "this season" lines run over this season's photos.
+
+## Oct 30 re-edit (owner: "edit and QA everything else... for best retention and viewer comfort")
+Why: Gemini as a strict editor scored the first cut 5.5/10 [S]; on the frames: a crowded scramble in frame 1 (Bronny not recognisable), a 3-photo slideshow for the last 6.5 s, and an "uh" before Luka's quote (Whisper heard it too).
+- B01 is now P 8.6 s (Bronny, #9, walking back after his first playoff bucket, clear from frame 1); B03 moved to P 10.6 s (the closer, smiling face).
+- Big numbers over the stat lines: 31% (red, "AS A ROOKIE"), 41% (green, "LAST SEASON"), 28% then 39% ("FROM THREE"), "1 FOR 1" ("OPENING NIGHT") over the second photo, "100%" ("THIS SEASON") on the spoken word.
+- Luka's window starts at 0.94 s of his clip (after the "uh" at 0.82-0.92), burst levelled to -13 LUFS (was -15): `_build_realaudio.py`, then `nat_sound.py --burst 12.16-14.27 --bed-db -18 --clip-db B08=-40 --tail 0.06 --burst-lufs -13`.
+- B12 (new): **Bronny's extra shots after practice, Oct 10 2026, Dave McMenamin (ESPN) on X** (https://x.com/mcten/status/2109018959404212619), 23.6 s into the clip, 3:4 window, zoom 1.25: real moving footage of him shooting this season under "So this season, Bronny is shooting 100%." It is practice, not a game: the line is about his season numbers and the picture doesn't claim to be the game. Still no video of the opening-night floater exists online (ESPN's game page has 13 clips, none of Bronny).
+- B08 moved to 20.2 s of the media-day clip (he talks through the whole clip; no mic-down moment long enough).
+- Result: 23.3 s, full QA PASS, comfort audit clean (true peak -3.8 dBTP), Gemini precheck READY. Gemini editor re-score 5.5 (it moved on to the press-conference clip and the practice footage's phone quality).

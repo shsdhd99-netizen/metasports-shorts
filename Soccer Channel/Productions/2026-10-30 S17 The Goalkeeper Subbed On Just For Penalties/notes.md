@@ -13,3 +13,8 @@
 
 Footage: FIFA World Cup on X 1809180258051977400 (official); TyC Sports via an X repost (2075213076782014852) for the semi.
 The "didn't save a single penalty" line plays over Cillessen from the quarter-final, because no semi footage of him was downloadable.
+
+## Oct 30 re-edit (overnight edit pass)
+- The three semi-final shots (K19, K20, K24, TyC Sports broadcast via an X repost) showed TyC's logo, its pink "¿ENTRÓ O NO ENTRÓ?" banner, the @tycsports handle and a trophy bug. All blurred with `broll.py --delogo` (four boxes, now supported) in all three versions; picture otherwise unchanged. Real-audio version re-rendered (`assemble.py --folder _realaudio --caption-style ahmed --out-name final_music_voice.mp4`, then `nat_sound.py --burst 32.91-36.91 --tail 0.5 --bed-db -26`). Note: `_realaudio/cuts.json` sources are relative to `_realaudio/`; link `src` there (`ln -s ../src _realaudio/src`) before running nat_sound, or the live audio comes out silent.
+- Gemini strict editor [S]: 4.5 → 6.2. Not changed, on purpose: its advice to drop the plural "Goalkeepers who..." title (our three best soccer Shorts use it) and to cut "Back in 2014" (Ahmed's format). Still weak, no fix available: the substitution-board clip appears three times (open, "But this time...", the callback) because the only other semi-final footage is the TyC clip; the two wide pitch shots at 2 s and 6 s look alike.
+- Full QA PASS (all three), Gemini precheck READY (real audio).

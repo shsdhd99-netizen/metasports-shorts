@@ -170,7 +170,7 @@
    "blurfit_aspect": 0.75,
    "x": 0.2,
    "kind": "action",
-   "anchor": "It's Uma\u00f1a who",
+   "anchor": "It's Umaña who",
    "why": "Umana's penalty, wide: run-up and Krul's save, with the live call 'It's Umana who steps up, and Krul has saved it!' (FIFA). Real-audio version.",
    "lead": 0.05
   },
@@ -195,7 +195,8 @@
    "x": 0.5,
    "kind": "action",
    "anchor": "Four days later",
-   "why": "Netherlands v Argentina semi-final shootout, Sao Paulo, July 9 2014 (TyC Sports broadcast via an X repost)"
+   "why": "Netherlands v Argentina semi-final shootout, Sao Paulo, July 9 2014 (TyC Sports broadcast via an X repost). Oct 30: TyC Sports graphics blurred (delogo)",
+   "delogo": "0.145,0.095,0.265,0.09;0.638,0.085,0.175,0.125;0.565,0.882,0.225,0.06;0.172,0.745,0.095,0.215"
   },
   {
    "clip": "K20",
@@ -206,7 +207,8 @@
    "x": 0.5,
    "kind": "action",
    "anchor": "Nil-nil again",
-   "why": "Same shootout, behind-the-goal angle (TyC Sports via X)"
+   "why": "Same shootout, behind-the-goal angle (TyC Sports via X). Oct 30: TyC Sports graphics blurred (delogo)",
+   "delogo": "0.145,0.095,0.265,0.09;0.638,0.085,0.175,0.125;0.565,0.882,0.225,0.06;0.172,0.745,0.095,0.215"
   },
   {
    "clip": "K21",
@@ -242,7 +244,8 @@
    "x": 0.5,
    "kind": "face",
    "anchor": "Argentina won",
-   "why": "Argentina keeper Sergio Romero roars after a save (TyC Sports via X)"
+   "why": "Argentina keeper Sergio Romero roars after a save (TyC Sports via X). Oct 30: TyC Sports graphics blurred (delogo)",
+   "delogo": "0.145,0.095,0.265,0.09;0.638,0.085,0.175,0.125;0.565,0.882,0.225,0.06;0.172,0.745,0.095,0.215"
   },
   {
    "clip": "K25",

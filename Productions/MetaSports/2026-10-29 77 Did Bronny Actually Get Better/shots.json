@@ -1,28 +1,28 @@
 [
  {
   "clip": "B01.mp4",
-  "kind": "action",
-  "why": "Bronny scores in the 2026 playoffs at Houston, assisted by LeBron ('Bronny James from his dad!'; NBA on Prime on X, Apr 25 2026)",
+  "kind": "face",
+  "why": "Bronny (#9) walking back after his first playoff bucket, clear in frame from the first frame (NBA on Prime on X, Apr 25 2026). Oct 30 re-edit: the old opening scramble didn't show who it was",
   "start": 0.0
  },
  {
   "clip": "B02.mp4",
   "kind": "action",
-  "why": "Bronny's first NBA basket as a rookie, Cleveland, Oct 30 2024 (NBA on X)",
+  "why": "Bronny's first NBA basket as a rookie, Cleveland, Oct 30 2024 (NBA on X). Oct 30: the stat on screen as a big number (proof on footage)",
   "anchor": "As a rookie",
   "start": 1.98
  },
  {
   "clip": "B03.mp4",
   "kind": "face",
-  "why": "Bronny close-up, 2026 playoffs (NBA on Prime on X)",
+  "why": "Bronny close-up, smiling, 2026 playoffs (NBA on Prime on X). Oct 30: a later second of the same clip than the new opening shot. Oct 30: the stat on screen as a big number (proof on footage)",
   "anchor": "Last season",
   "start": 4.32
  },
  {
   "clip": "B04.mp4",
   "kind": "action",
-  "why": "Bronny's pull-up three off a LeBron screen, 2026 playoffs (Steve Jones on X, Apr 25 2026)",
+  "why": "Bronny's pull-up three off a LeBron screen, 2026 playoffs (Steve Jones on X, Apr 25 2026). Oct 30: the stat on screen as a big number (proof on footage)",
   "anchor": "From three",
   "start": 5.66
  },
@@ -43,37 +43,44 @@
  {
   "clip": "B07.mp4",
   "kind": "quote",
-  "why": "Luka Doncic post-game, Mar 25 2026: 'Definitely a big improvement from last year.' His own voice, lip-synced (Khobi Price on X)",
+  "why": "Luka Doncic post-game, Mar 25 2026: 'Definitely a big improvement from last year.' His own voice, lip-synced (Khobi Price on X) Oct 30: starts at 0.94 s, after an \"uh\"",
   "anchor": "Definitely a big",
-  "lead": 0.1,
+  "lead": 0.04,
   "start": 12.16
  },
  {
   "clip": "B08.mp4",
   "kind": "face",
-  "why": "Bronny at Lakers media day, Sept 28 2026, his third season (Khobi Price on X)",
+  "why": "Bronny at Lakers media day, Sept 28 2026, his third season (Khobi Price on X). Oct 30: a second where his mic is down, so his lips don't move under the narration",
   "anchor": "This month",
-  "start": 14.7
+  "start": 14.38
  },
  {
   "clip": "B09.mp4",
   "kind": "face",
   "why": "Bronny's 2026-27 media-day photo with a ball (NBA G League on X, Sept 29 2026); no video of his opening-night floater exists online",
   "anchor": "On opening night",
-  "start": 17.15
+  "start": 16.83
  },
  {
   "clip": "B10.mp4",
   "kind": "face",
-  "why": "Bronny's 2026-27 media-day photo, smiling with the ball (NBA G League on X)",
+  "why": "Bronny's 2026-27 media-day photo with the ball on his shoulder (NBA G League on X), with the box score's 1-for-1 (Basketball-Reference: Oct 21 2026, 1-1 FG). Oct 30: words over the picture instead of a bare photo",
+  "anchor": "and took one",
+  "start": 18.19
+ },
+ {
+  "clip": "B12.mp4",
+  "kind": "action",
+  "why": "Bronny's extra shots after practice, Oct 10 2026 (Dave McMenamin on X): moving footage of him shooting this season. '100%' pops on the spoken word. Oct 30 re-edit (was a still photo)",
   "anchor": "So this season",
-  "start": 20.12
+  "start": 19.8
  },
  {
   "clip": "B11.mp4",
   "kind": "face",
   "why": "Bronny's 2026-27 media-day photo, palms up: the shrug on 'he just hasn't played since' (NBA G League on X)",
   "anchor": "He just hasn't",
-  "start": 22.18
+  "start": 21.86
  }
 ]

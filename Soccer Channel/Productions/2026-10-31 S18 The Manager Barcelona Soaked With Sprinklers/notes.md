@@ -35,3 +35,8 @@
 - **2010:** archive.org "Inter Milan vs Barcelona 2010 Champions League" (full broadcast of the 2nd leg), the last 7 minutes: Mourinho's run onto the pitch and celebrations. The broadcast doesn't show the sprinkler spray itself, so M08/M09 show him celebrating on the pitch during those minutes.
 - **Stock:** Mixkit 19551, a garden sprinkler, for the gift line (no usable video of the gift: the BBC and TNT videos can't be downloaded plainly).
 - **Illustrative:** M10 (2010 semi celebrations for "won the final"), M11 (walking off in 2010 for "left in 2013"), M13/M14 (Mourinho at the 2026 Clásico for "in September"). Premier Sports' knee-slide video on X refused the download (403), so it is not used.
+
+## Oct 30 check (overnight edit pass)
+- The Oct 29 fact-fix re-cut was spliced straight into the DRAFT files and skipped the limiter: true peak +1.6 dBTP (no music) / +0.9 (music), a +1 dBFS sample peak at 17.7 s. Limited to -1.9 / -2.1 dBTP (audio only, picture untouched; pre-fix copies in `_check/prelimit/`, not in git).
+- Gemini strict editor [S] 4.5/10. Checked against the frames and not acted on: "video-game footage" at 28 s and 40 s is ESPN's real Clásico highlights (the sponsor boards fooled it); "cut the team news" and "the ending is circular" argue with the story's own payoff. Real but unfixed (no footage): 17-21 s is two 2010 walking shots under "won the final... became Real Madrid's manager... left in 2013"; a clip of the 2010 trophy lift would be better if one turns up.
+- Folder state: voice.mp3/words.json/shots here are the PRE-fix versions (54.3 s). Redo the two cuts with `Tools/word_edit.py` before any re-render.

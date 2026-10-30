@@ -107,6 +107,7 @@ There are two ways to use everything here:
 - **Status:** written and checked offline in the cloud (Oct 15). It hasn't run against your channel yet, because that needs your one-time sign-in on the PC.
 
 ## Newest changes (Oct 15, 2026)
+- **`comfort_audit.py <video> [--ass captions.ass]` (Oct 30):** viewer-comfort and retention check that qa_short.py doesn't do: loudness jumps, true peak over -1 dBTP, quiet holes, shot lengths, frozen picture, caption reading speed. Run it on every DRAFT, and always after editing a DRAFT file directly (S18's spliced fix peaked at +1.6 dBTP).
 - **`qa_short.py --full` is now the full gate.** It adds the two checks below. Standards and calibration: `Library/Editing and Sound Standards.md` §6.
 - **`footage_qc.py` (new):** per shot, using only the seconds each shot uses:
   - blow-up from the source (from `sources.csv`: warn over 2.0x, FAIL over 3.0x)
