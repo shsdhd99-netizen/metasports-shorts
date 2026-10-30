@@ -3,6 +3,19 @@
 One entry per channel per day, written by the daily runs (`.claude/skills/daily-run/SKILL.md`): data pulled, what was learned,
 research with sources, what was made, what changed in the rules or tools.
 
+## Fri Oct 30, 2026 (FC daily run; routine; no ElevenLabs key)
+
+**Note.** The FC routine fired Oct 27, 28 and 29 too, but those notifications only reached this session today; one run was done (today's), nothing back-filled.
+**Blocked.** `cloud_setup.sh`: `key: MISSING` (ElevenLabs), `gemini: MISSING`. Script and notes only; Hub card `editing`. No voice, render or QA, nothing faked. Long TikTok/IG cut not made (paused by the owner Oct 26; no voice anyway).
+**Data.** `yt_analytics.py --channel fc daily`: no token (YT_CLIENT_ID / YT_CLIENT_SECRET / YT_REFRESH_TOKEN_FC not in the environment). `shorts_dataset.py --report`: FC still only the 3 Shorts with Studio data (S01-S03), so no new rows to hand-fill; the newer posts need the owner's Studio export. Public counts (yt-dlp): S01 30K, S05 28K, S03 15K, S08 3.0K, S07 2.5K, S16 2.4K, S06 2.0K, S04 1.9K, S02 1.8K, S17 1.2K (today), S15 1.0K.
+**Learned.** Lessons Learned, Oct 30: non-goalkeeper ceiling (n=8, 1.0-3.0K) holds; S17 is the live test of whether "goalkeeper" or "a trick" drives the hits (judge Mon Nov 2).
+**Lane.** Last posts: S15 versus-own, S16 topical, S17 goalkeeper trick, S18 (Sat) revenge. Pick: topical question answered with a story. S08 Hand of God is already posted (M40gpi_afJo), so the next unmade fitting idea was S19 Rulli.
+**Research (sources and exact words in the S19 notes.md).** Rulli saved Ayari and Dunk as City (holders) beat Brighton 4-3 on pens, Oct 28 ([AP via ClickOnDetroit](https://www.clickondetroit.com/sports/2026/10/28/man-city-wins-penalty-shootout-to-advance-in-english-league-cup/), [SI](https://www.si.com/soccer/man-city-player-ratings-vs-brighton-survive-penalties-10-28-26)); 2021 final, 21 straight penalties then Rulli saved De Gea's, 11-10 ([SI 2021](https://www.si.com/soccer/2021/05/26/europa-league-final-villarreal-manchester-united-de-gea-penalty-kicks), [AP via KEYT](https://keyt.com/sports/2021/05/26/villarreal-defeats-manchester-united-in-dramatic-penalty-shootout-to-win-europa-league/), [AFP via Ahram](https://english.ahram.org.eg/News/413005.aspx)); City signed him Aug 2026 as Donnarumma's backup and had signed him in 2016 without him ever playing ([theScore](https://www.thescore.com/news/3578653)). copy_check: FRESH.
+**Footage.** UEFA's full shootout (X_NSB3CnHoo), Man City and EFL extended highlights (FYOQPzXc4T4, e9T4cngiGaw) exist, but YouTube refuses cloud downloads (bot check): download on the PC or find the clips on X.
+**Made.** `Soccer Channel/Productions/2026-11-01 S19 Man United's Penalty Nightmare Is Now Saving Man City/`: script.txt (186 words, ~50-52 s expected), notes.md, UPLOAD.md (music side of the A/B). Hub card s19 `editing` on the FC Hub named in the routine (2UVA...).
+**Idea Bank.** +S21 Higuita's scorpion kick at Wembley (1995; jailed 1993), +S22 Rogério Ceni's 131 goals as a goalkeeper; S19 marked scripted.
+**Noticed.** The routine's prompt still says 12 PM ET slots, a 2UVA Hub and long cuts; the daily-run skill (owner, Oct 26/28) says 8-9 AM ET, the LFsQ Hub for the main account and long cuts paused. Followed the skill on slots and long cuts; used the Hub the prompt names. That Hub's cards stop at S08 (S04-S07 still say `ready` with October slots).
+
 ## Tue Oct 27, 2026 (NBA daily run)
 
 **Blocked.** `cloud_setup.sh`: `key: MISSING` (no ElevenLabs key in the environment), so no voice and no render. No analytics tokens either (analytics: no token). Nothing faked.

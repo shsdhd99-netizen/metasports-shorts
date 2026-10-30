@@ -71,3 +71,7 @@
 - **[V] Breakouts come on day 2-3 (4-10x the first count).** Judge at 72 h, never the next morning.
 - **[V] Check every "still the record" line on the day.** #74 said Wilt's 28 free throws was still the record; Adebayo made 36 in March 2026. S18 said Mourinho's 2010 celebration was a knee slide; it was a run with a raised finger (the slide was 2006).
 - **[V] A wrong line can come out of a finished render** without clips or a new voice: cut the video on the shot change and the audio at the nearest quiet point, both by the same length; extend the video cut until the old caption is gone (S18, #74, Oct 29).
+
+## Oct 30, 2026 (FC daily run; public counts via `yt-dlp --flat-playlist`, 13:50 UTC; no Studio/API data: no token)
+- **[V, n=8 non-goalkeeper] The non-goalkeeper ceiling holds:** S08 Hand of God 3.0K (3 days), S15 Coutinho 1.0K (~2.5 days), S16 Fàbregas 2.4K (~1.5 days), S07 2.5K, S04 1.9K, S06 2.0K, S02 1.8K. The goalkeeper-shootout three: 30K, 28K, 15K. S15 used a topic that made Ahmed's Goal 1.9M and is our lowest: a topic proven on a big channel doesn't carry over to ours on its own [S, n=1].
+- **Open test:** S17 Krul (goalkeeper subbed on for penalties, posted Fri Oct 30 AM, 1.2K after a few hours) is the first goalkeeper-shootout Short since the pattern was named. Judge at 72 h (Mon Nov 2). If it stays under 10K, the hit was the *trick* (cheat sheet, dancing), not goalkeepers in general; S19 (Rulli, scripted today) has no trick, only a save, so it would then rank behind S21 Higuita (the scorpion kick is a trick you can see).
