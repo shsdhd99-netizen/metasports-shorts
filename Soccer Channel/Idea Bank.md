@@ -56,3 +56,10 @@ Sources and exact quotes: `Research Notes/Script Review - FC queue (Oct 29, 2026
 | 6 | Bounou v Spain (2022): Spain had practised 1,000 penalties | Spain scored none | Fleetwood's "We haven't practiced (penalties) once" as the opener |
 | 7 | Goycochea, Italia 90 (four shootout saves) | couldn't stop the one in the final; the peeing ritual needs a first-hand quote first | 1990 broadcasts |
 Other series worth a test: "Managers who..." (Ferguson's boot and Beckham, 2003; S16/S18 already fit) and "Penalty takers who..." (Panenka bet his keeper a beer or chocolate on the chip; skip Zidane 2006, it's in S04).
+
+**Oct 30 daily research** (sources and cautions: `Research Notes/Daily Research/2026-10-30.md`):
+
+| # | Working title (spoken line 1) | Story | Why it should work | Footage lead | Series |
+|---|---|---|---|---|---|
+| S19 (idea) | Goalkeepers who won a shootout by saving the other goalkeeper's penalty | Rulli: 2021 Europa League final, 21 straight penalties scored (his too), then he saves De Gea's: Villarreal 11-10 Man United. Oct 28, 2026: now Man City's backup, he saves Brighton's last two (Ayari, Dunk) after Kovačić missed: City through 4-3 (AP, SI) | Goalkeeper series (3 for 3); this week's news plus a famous final; payoff: United's old nightmare now keeps City alive | 2021 final broadcast (archive.org check); the City shootout on club/Carabao X posts (check) | goalkeepers |
+| S20 (idea) | The team that keeps losing penalty shootouts to the same club | Chelsea lose 6-5 on pens at Anfield (Oct 28, 2026; Fofana's kick into the Kop); 2022: 11-10 in the League Cup final (Kepa, subbed on for the shootout, saved none of 11 and skied his own) and 6-5 in the FA Cup final (AP, 2022 reports) | Versus a rival; hard-number irony (6-5 again); folds in goalkeeper idea #3 (Kepa) | 2022 finals highlights (check); Oct 28 clips (check). Verify the 2007 CL semi (4-1 pens) before saying "four times" | goalkeepers / rivals |
