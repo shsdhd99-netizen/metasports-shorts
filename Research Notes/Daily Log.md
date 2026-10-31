@@ -17,6 +17,16 @@ research with sources, what was made, what changed in the rules or tools.
 **Changed / noticed.**
 - Tags: `tags_fit.py` now caps at 150 characters (Oct 26 Posting Study rule); the scheduled task's prompt still says 490. Followed the tool.
 - This session's NBA Hub (artifact SAWcHwuAwBxJuyBQSs8a8U) has no cards after #68; the cards for #69-#79 seem to live on another account's Hub. The #80 card may need copying there.
+## Sat Oct 31, 2026 (FC daily run; routine; no ElevenLabs key)
+
+**Blocked.** `cloud_setup.sh`: `key: MISSING` (ElevenLabs), `gemini: MISSING`. Script and notes only; Hub card `editing`. No voice, render or QA, nothing faked. No long cut (paused by the owner Oct 26). Account 2: merged origin/account2 (its Oct 30 log only); its queue is empty.
+**Data.** Analytics: no token (YT_CLIENT_ID / YT_REFRESH_TOKEN_FC not set). `shorts_dataset.py`: FC rows unchanged (needs a Studio export). Public counts (yt-dlp, 13:45 UTC): **S17 Krul 5.4K** (~1 day; was 1.2K Fri), S08 3.1K, S16 2.7K, S15 1.0K (3 days), S01 30K, S05 28K, S03 15K. S18 Mourinho not up yet (Sat slot).
+**Learned.** No new lesson (nothing new has crossed 72 h). S17 is already 2x the non-goalkeeper ceiling at day 1: the goalkeeper-shootout pattern looks like 4 for 4; judge it at 72 h (Mon Nov 2).
+**Lane.** S18 revenge, S19 topical/goalkeeper (unvoiced), so today: secret object, not a goalkeeper (keeps the goalkeeper series at most 1 in 3).
+**Research.** Pelé paid to tie his laces (Idea Bank S06) checked and rejected for now: only secondary sources, conflicting fee and pact makers ([Wikipedia: Dassler brothers feud](https://en.wikipedia.org/wiki/Dassler_brothers_feud)). Pick: Messi's napkin contract, with the 2021 ending. Sources: [NPR via OPB](https://opb.org/article/2024/05/18/napkin-securing-lionel-messi-s-first-contract-fetches-nearly-1-million-at-auction), [SI 2012 book extract](https://www.si.com/soccer/2012/02/06/barca-extract), [90min](https://www.90min.com/lionel-messi-contract-napkin-sells-staggering-amount-auction), Barcelona's Aug 5 2021 statement ([Al Jazeera](https://www.aljazeera.com/sports/2021/8/5/messi-to-leave-barcelona-due-to-financial-structural-obstacles)), [AP via WJLA](https://wjla.com/news/nation-world/messi-breaks-down-says-he-wasnt-ready-to-leave-barcelona-08-08-2021). copy_check: FRESH.
+**Made.** `Soccer Channel/Productions/2026-11-02 S20 Barcelona Signed Messi On A Paper Napkin/`: script.txt (196 words, ~52-54 s expected), notes.md (claims with exact words, cautions, beats), UPLOAD.md (no-music side). Hub card s20 `editing`.
+**Idea Bank.** +S23 Begović's 13-second goal from his own box (Guinness), +S24 Ronaldo's 2003 audition v United; S06 Pelé caution added; idea S20 (Chelsea shootouts) relabelled since production S20 is the napkin.
+**Backlog needing a voice:** S09 Ronaldo Coca-Cola, S19 Rulli, S20 Messi napkin (3 scripts). The FC Hub has nothing ready after S18.
 
 ## Fri Oct 30, 2026 (FC daily run; routine; no ElevenLabs key)
 
