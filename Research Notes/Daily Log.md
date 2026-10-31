@@ -3,6 +3,21 @@
 One entry per channel per day, written by the daily runs (`.claude/skills/daily-run/SKILL.md`): data pulled, what was learned,
 research with sources, what was made, what changed in the rules or tools.
 
+## Sat Oct 31, 2026 (NBA daily run; routine; no ElevenLabs key)
+
+**Blocked.** `cloud_setup.sh`: `key: MISSING`, so no voice, render or QA; script, sources and cut plan only. Analytics: no token (YT_CLIENT_ID / YT_CLIENT_SECRET / YT_REFRESH_TOKEN missing), so `yt_analytics.py` and the dataset hand columns were not run. Nothing faked.
+**Context.** No NBA build or Oct 31 research had been pushed by 10:42 UTC (the last NBA commit was the Oct 30 research at 07:55 UTC; Oct 30's picks, Slawson/LeBron and Boozer, were never built and are now too old). Saturday's NBA slot was open (`UPLOAD SCHEDULE.md`).
+**Research (Fri Oct 30 games; AP recaps on ESPN, ESPN box scores).** Candidates:
+- **Warriors 112, Lakers 95** ([recap](https://www.espn.com/nba/recap?gameId=401909285)): Lakers led 38-15 after one (Luka 21 in the quarter), Warriors won the second by the same 38-15; first team in the shot clock era to trail by 23+ after one and be tied or better at half; largest win in that era by a team down 20+ after one (old best: Warriors by 14, Mar 4, 1976); Curry passed Dominique Wilkins for 18th all-time. Luka 37, Curry 31.
+- Mavericks 116, Rockets 111 ([recap](https://www.espn.com/nba/recap?gameId=401909283)): Irving 35 and Flagg 33 hand Houston its first loss; Durant (career 88% FT) missed two with 1:53 left; Irving's active FT streak now 54.
+- 76ers 98, Knicks 93 ([recap](https://www.espn.com/nba/recap/_/gameId/401909280)): LeBron (41) 20/9/8, late go-ahead fadeaway and a chase-down block on Anunoby.
+- Also: Murray 39 (Nuggets 127-120 Suns), Barnes 41 in a loss (Magic 121-114 Raptors), Pistons 5-1.
+**Pick:** the Warriors/Lakers mirror score: same-day news with a number gap, two household names, a pattern you can see on the scoreboard. Lane rotation: last six NBA builds were evergreen, moment, evergreen, news, evergreen, moment, so news is within 1 in 3. `copy_check.py "Lakers 38-15 Warriors same score"`: FRESH.
+**Made.** #80 "The Lakers Won A Quarter By 23 And Still Lost By 17": script (90 words, about 24 s; `script_lint.py`: only "after" repeated), notes with exact source words, cut plan from ESPN's public clips (all six downloadable today), UPLOAD.md. Hub card `shorts/n80` = `editing` ("needs the ElevenLabs key"). News: post Sat Oct 31 or drop it.
+**Changed / noticed.**
+- Tags: `tags_fit.py` now caps at 150 characters (Oct 26 Posting Study rule); the scheduled task's prompt still says 490. Followed the tool.
+- This session's NBA Hub (artifact SAWcHwuAwBxJuyBQSs8a8U) has no cards after #68; the cards for #69-#79 seem to live on another account's Hub. The #80 card may need copying there.
+
 ## Fri Oct 30, 2026 (FC daily run; routine; no ElevenLabs key)
 
 **Note.** The FC routine fired Oct 27, 28 and 29 too, but those notifications only reached this session today; one run was done (today's), nothing back-filled.
