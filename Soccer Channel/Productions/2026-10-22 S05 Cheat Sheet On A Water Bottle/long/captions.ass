@@ -1,0 +1,120 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,TikTok Sans SemiBold,80,&H00FFFFFF,&H00FFFFFF,&H00000000,&H99000000,0,0,0,0,100,100,0,0,1,3.2,1,5,70,70,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:02.13,Cap,,0,0,0,,{\pos(540,960)\blur0.5\fscx69\fscy69}Goalkeepers who hid a\NCHEAT SHEET on their water bottle
+Dialogue: 0,0:00:02.13,0:00:03.07,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Back in 2018,
+Dialogue: 0,0:00:03.07,0:00:03.52,Cap,,0,0,0,,{\pos(540,960)\blur0.5}England played
+Dialogue: 0,0:00:03.52,0:00:04.17,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Colombia at the
+Dialogue: 0,0:00:04.17,0:00:04.69,Cap,,0,0,0,,{\pos(540,960)\blur0.5}World Cup,
+Dialogue: 0,0:00:04.69,0:00:05.11,Cap,,0,0,0,,{\pos(540,960)\blur0.5}and England
+Dialogue: 0,0:00:05.11,0:00:05.76,Cap,,0,0,0,,{\pos(540,960)\blur0.5}had never won
+Dialogue: 0,0:00:05.76,0:00:06.21,Cap,,0,0,0,,{\pos(540,960)\blur0.5}a World Cup
+Dialogue: 0,0:00:06.21,0:00:06.99,Cap,,0,0,0,,{\pos(540,960)\blur0.5}penalty shootout.
+Dialogue: 0,0:00:06.99,0:00:07.36,Cap,,0,0,0,,{\pos(540,960)\blur0.5}They lost
+Dialogue: 0,0:00:07.36,0:00:08.18,Cap,,0,0,0,,{\pos(540,960)\blur0.5}in 1990,
+Dialogue: 0,0:00:08.18,0:00:09.03,Cap,,0,0,0,,{\pos(540,960)\blur0.5}in 1998,
+Dialogue: 0,0:00:09.03,0:00:10.16,Cap,,0,0,0,,{\pos(540,960)\blur0.5}and in 2006.
+Dialogue: 0,0:00:10.16,0:00:10.75,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Then, deep
+Dialogue: 0,0:00:10.75,0:00:11.69,Cap,,0,0,0,,{\pos(540,960)\blur0.5}into stoppage time,
+Dialogue: 0,0:00:11.69,0:00:12.63,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Yerry Mina headed
+Dialogue: 0,0:00:12.63,0:00:13.41,Cap,,0,0,0,,{\pos(540,960)\blur0.5}in an equalizer
+Dialogue: 0,0:00:13.41,0:00:14.11,Cap,,0,0,0,,{\pos(540,960)\blur0.5}for Colombia.
+Dialogue: 0,0:00:14.11,0:00:14.41,Cap,,0,0,0,,{\pos(540,960)\blur0.5}It went
+Dialogue: 0,0:00:14.41,0:00:15.36,Cap,,0,0,0,,{\pos(540,960)\blur0.5}to penalties again.
+Dialogue: 0,0:00:15.36,0:00:15.80,Cap,,0,0,0,,{\pos(540,960)\blur0.5}But England's
+Dialogue: 0,0:00:15.80,0:00:16.29,Cap,,0,0,0,,{\pos(540,960)\blur0.5}goalkeeper,
+Dialogue: 0,0:00:16.29,0:00:16.96,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Jordan Pickford,
+Dialogue: 0,0:00:16.96,0:00:17.72,Cap,,0,0,0,,{\pos(540,960)\blur0.5}had a secret.
+Dialogue: 0,0:00:17.72,0:00:18.05,Cap,,0,0,0,,{\pos(540,960)\blur0.5}His water
+Dialogue: 0,0:00:18.05,0:00:18.77,Cap,,0,0,0,,{\pos(540,960)\blur0.5}bottle had notes
+Dialogue: 0,0:00:18.77,0:00:19.06,Cap,,0,0,0,,{\pos(540,960)\blur0.5}on it,
+Dialogue: 0,0:00:19.06,0:00:19.34,Cap,,0,0,0,,{\pos(540,960)\blur0.5}showing
+Dialogue: 0,0:00:19.34,0:00:20.13,Cap,,0,0,0,,{\pos(540,960)\blur0.5}where each Colombian
+Dialogue: 0,0:00:20.13,0:00:20.68,Cap,,0,0,0,,{\pos(540,960)\blur0.5}player liked
+Dialogue: 0,0:00:20.68,0:00:21.16,Cap,,0,0,0,,{\pos(540,960)\blur0.5}to shoot.
+Dialogue: 0,0:00:21.16,0:00:21.48,Cap,,0,0,0,,{\pos(540,960)\blur0.5}And when he
+Dialogue: 0,0:00:21.48,0:00:21.99,Cap,,0,0,0,,{\pos(540,960)\blur0.5}walked past
+Dialogue: 0,0:00:21.99,0:00:22.75,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Colombia's keeper,
+Dialogue: 0,0:00:22.75,0:00:23.17,Cap,,0,0,0,,{\pos(540,960)\blur0.5}he covered it
+Dialogue: 0,0:00:23.17,0:00:23.78,Cap,,0,0,0,,{\pos(540,960)\blur0.5}with a towel.
+Dialogue: 0,0:00:23.78,0:00:24.30,Cap,,0,0,0,,{\pos(540,960)\blur0.5}England missed
+Dialogue: 0,0:00:24.30,0:00:25.08,Cap,,0,0,0,,{\pos(540,960)\blur0.5}their third kick.
+Dialogue: 0,0:00:25.08,0:00:25.38,Cap,,0,0,0,,{\pos(540,960)\blur0.5}But then
+Dialogue: 0,0:00:25.38,0:00:26.53,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Mateus Uribe smashed
+Dialogue: 0,0:00:26.53,0:00:27.34,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Colombia's next one
+Dialogue: 0,0:00:27.34,0:00:28.20,Cap,,0,0,0,,{\pos(540,960)\blur0.5}onto the crossbar.
+Dialogue: 0,0:00:28.20,0:00:29.16,Cap,,0,0,0,,{\pos(540,960)\blur0.5}And when Carlos Bacca
+Dialogue: 0,0:00:29.16,0:00:29.70,Cap,,0,0,0,,{\pos(540,960)\blur0.5}stepped up,
+Dialogue: 0,0:00:29.70,0:00:30.63,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Pickford dived,
+Dialogue: 0,0:00:30.63,0:00:30.94,Cap,,0,0,0,,{\pos(540,960)\blur0.5}threw up
+Dialogue: 0,0:00:30.94,0:00:31.31,Cap,,0,0,0,,{\pos(540,960)\blur0.5}his arm,
+Dialogue: 0,0:00:31.31,0:00:31.94,Cap,,0,0,0,,{\pos(540,960)\blur0.5}and saved it.
+Dialogue: 0,0:00:31.94,0:00:32.92,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Eric Dier scored,
+Dialogue: 0,0:00:32.92,0:00:33.31,Cap,,0,0,0,,{\pos(540,960)\blur0.5}and England
+Dialogue: 0,0:00:33.31,0:00:33.99,Cap,,0,0,0,,{\pos(540,960)\blur0.5}had finally won
+Dialogue: 0,0:00:33.99,0:00:34.56,Cap,,0,0,0,,{\pos(540,960)\blur0.5}a World Cup
+Dialogue: 0,0:00:34.56,0:00:35.03,Cap,,0,0,0,,{\pos(540,960)\blur0.5}shootout.
+Dialogue: 0,0:00:35.03,0:00:35.58,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Afterwards,
+Dialogue: 0,0:00:35.58,0:00:36.06,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Pickford said
+Dialogue: 0,0:00:36.06,0:00:37.23,Cap,,0,0,0,,{\pos(540,960)\blur0.5}only one Colombian,
+Dialogue: 0,0:00:37.23,0:00:38.10,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Radamel Falcao,
+Dialogue: 0,0:00:38.10,0:00:39.04,Cap,,0,0,0,,{\pos(540,960)\blur0.5}had shot differently
+Dialogue: 0,0:00:39.04,0:00:39.34,Cap,,0,0,0,,{\pos(540,960)\blur0.5}from what
+Dialogue: 0,0:00:39.34,0:00:40.06,Cap,,0,0,0,,{\pos(540,960)\blur0.5}he expected.
+Dialogue: 0,0:00:40.06,0:00:40.53,Cap,,0,0,0,,{\pos(540,960)\blur0.5}So Pickford
+Dialogue: 0,0:00:40.53,0:00:41.16,Cap,,0,0,0,,{\pos(540,960)\blur0.5}kept the trick.
+Dialogue: 0,0:00:41.16,0:00:41.70,Cap,,0,0,0,,{\pos(540,960)\blur0.5}In the Euro
+Dialogue: 0,0:00:41.70,0:00:42.50,Cap,,0,0,0,,{\pos(540,960)\blur0.5}2020 final
+Dialogue: 0,0:00:42.50,0:00:43.00,Cap,,0,0,0,,{\pos(540,960)\blur0.5}against Italy,
+Dialogue: 0,0:00:43.00,0:00:43.36,Cap,,0,0,0,,{\pos(540,960)\blur0.5}he had his
+Dialogue: 0,0:00:43.36,0:00:44.02,Cap,,0,0,0,,{\pos(540,960)\blur0.5}bottle again,
+Dialogue: 0,0:00:44.02,0:00:44.58,Cap,,0,0,0,,{\pos(540,960)\blur0.5}and he saved
+Dialogue: 0,0:00:44.58,0:00:45.23,Cap,,0,0,0,,{\pos(540,960)\blur0.5}two penalties,
+Dialogue: 0,0:00:45.23,0:00:46.13,Cap,,0,0,0,,{\pos(540,960)\blur0.5}from Andrea Belotti
+Dialogue: 0,0:00:46.13,0:00:47.02,Cap,,0,0,0,,{\pos(540,960)\blur0.5}and Jorginho,
+Dialogue: 0,0:00:47.02,0:00:47.53,Cap,,0,0,0,,{\pos(540,960)\blur0.5}but England
+Dialogue: 0,0:00:47.53,0:00:48.27,Cap,,0,0,0,,{\pos(540,960)\blur0.5}still lost.
+Dialogue: 0,0:00:48.27,0:00:48.65,Cap,,0,0,0,,{\pos(540,960)\blur0.5}But here's
+Dialogue: 0,0:00:48.65,0:00:49.38,Cap,,0,0,0,,{\pos(540,960)\blur0.5}the wild part.
+Dialogue: 0,0:00:49.38,0:00:49.88,Cap,,0,0,0,,{\pos(540,960)\blur0.5}This summer,
+Dialogue: 0,0:00:49.88,0:00:50.41,Cap,,0,0,0,,{\pos(540,960)\blur0.5}England played
+Dialogue: 0,0:00:50.41,0:00:51.19,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Argentina in the
+Dialogue: 0,0:00:51.19,0:00:52.21,Cap,,0,0,0,,{\pos(540,960)\blur0.5}World Cup semi-final,
+Dialogue: 0,0:00:52.21,0:00:52.67,Cap,,0,0,0,,{\pos(540,960)\blur0.5}and Pickford
+Dialogue: 0,0:00:52.67,0:00:53.18,Cap,,0,0,0,,{\pos(540,960)\blur0.5}had the bottle
+Dialogue: 0,0:00:53.18,0:00:53.68,Cap,,0,0,0,,{\pos(540,960)\blur0.5}ready one
+Dialogue: 0,0:00:53.68,0:00:54.19,Cap,,0,0,0,,{\pos(540,960)\blur0.5}more time,
+Dialogue: 0,0:00:54.19,0:00:54.64,Cap,,0,0,0,,{\pos(540,960)\blur0.5}with a note
+Dialogue: 0,0:00:54.64,0:00:55.50,Cap,,0,0,0,,{\pos(540,960)\blur0.5}on every Argentina
+Dialogue: 0,0:00:55.50,0:00:56.17,Cap,,0,0,0,,{\pos(540,960)\blur0.5}penalty taker.
+Dialogue: 0,0:00:56.17,0:00:57.10,Cap,,0,0,0,,{\pos(540,960)\blur0.5}But Argentina scored
+Dialogue: 0,0:00:57.10,0:00:57.94,Cap,,0,0,0,,{\pos(540,960)\blur0.5}in the 85th
+Dialogue: 0,0:00:57.94,0:00:58.89,Cap,,0,0,0,,{\pos(540,960)\blur0.5}and the 92nd
+Dialogue: 0,0:00:58.89,0:00:59.20,Cap,,0,0,0,,{\pos(540,960)\blur0.5}minute,
+Dialogue: 0,0:00:59.20,0:00:59.49,Cap,,0,0,0,,{\pos(540,960)\blur0.5}so there
+Dialogue: 0,0:00:59.49,0:01:00.38,Cap,,0,0,0,,{\pos(540,960)\blur0.5}was no shootout.
+Dialogue: 0,0:01:00.38,0:01:01.20,Cap,,0,0,0,,{\pos(540,960)\blur0.5}And after the game,
+Dialogue: 0,0:01:01.20,0:01:01.89,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Argentina found
+Dialogue: 0,0:01:01.89,0:01:02.30,Cap,,0,0,0,,{\pos(540,960)\blur0.5}his bottle
+Dialogue: 0,0:01:02.30,0:01:02.78,Cap,,0,0,0,,{\pos(540,960)\blur0.5}on the pitch,
+Dialogue: 0,0:01:02.78,0:01:03.16,Cap,,0,0,0,,{\pos(540,960)\blur0.5}and passed
+Dialogue: 0,0:01:03.16,0:01:03.76,Cap,,0,0,0,,{\pos(540,960)\blur0.5}it to Messi.
+Dialogue: 0,0:01:03.76,0:01:04.50,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Messi's own note
+Dialogue: 0,0:01:04.50,0:01:05.21,Cap,,0,0,0,,{\pos(540,960)\blur0.5}reportedly said,
+Dialogue: 0,0:01:05.21,0:01:05.88,Cap,,0,0,0,,{\pos(540,960)\blur0.5}fake left,
+Dialogue: 0,0:01:05.88,0:01:06.51,Cap,,0,0,0,,{\pos(540,960)\blur0.5}dive right.
+Dialogue: 0,0:01:06.51,0:01:06.79,Cap,,0,0,0,,{\pos(540,960)\blur0.5}But next
+Dialogue: 0,0:01:06.79,0:01:07.07,Cap,,0,0,0,,{\pos(540,960)\blur0.5}to one
+Dialogue: 0,0:01:07.07,0:01:07.52,Cap,,0,0,0,,{\pos(540,960)\blur0.5}player's name,
+Dialogue: 0,0:01:07.52,0:01:08.09,Cap,,0,0,0,,{\pos(540,960)\blur0.5}it just said,
+Dialogue: 0,0:01:08.09,0:01:09.30,Cap,,0,0,0,,{\pos(540,960)\blur0.5}feel on the day.

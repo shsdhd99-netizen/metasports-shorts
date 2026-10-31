@@ -1,0 +1,16 @@
+[
+ {
+  "name": "2026-10-05 30 How Many Steps Can G",
+  "dur": 24.31,
+  "voiced": 0.63,
+  "hnr": 7.8,
+  "jitter": 2.98,
+  "shimmer": 10.98,
+  "jumps": 0.0,
+  "clicks": 636.7,
+  "hf": 4.3,
+  "f0_med": 197.0,
+  "verdict": "PASS",
+  "problems": []
+ }
+]

@@ -1,0 +1,34 @@
+PASS
+  warn clips shorter than their shots (slowed/held by assemble, not looped): [('W2b.mp4', 18.6, 0.09)]
+  warn music track 'Dark build (suspense, reveals)' is a candidate the owner has not approved by ear
+  ok   every shot has a kind
+  ok   length 23.6s
+  ok   length 23.6s in 15-35
+  ok   voice starts at once
+  ok   opens on 'This'
+  ok   3 shots in first 3 s
+  ok   real action footage in first 3 s
+  ok   hook line has a name/number/stakes
+  ok   no shot too long
+  ok   average shot 1.5s
+  ok   most-used clip W2b.mp4 11%
+  ok   15 source clips
+  ok   talking head 29%
+  ok   b-roll 51%
+  ok   cards 19%
+  ok   no two cards in a row
+  ok   no repeated neighbours
+  ok   no footage shown twice
+  ok   loops to the first shot
+  ok   no dead air inside the speech
+  ok   loudness -14.6 LUFS
+  ok   no frozen footage
+  ok   no black frames
+  ok   quote shots play at normal speed (lip sync)
+  ok   no frozen holds
+  ok   music licence logged (eleven_suspense_01.mp3)
+  ok   music licence status: candidate, in use: #41 music version (owner has not listened)
+  ok   music bed -20.0 LU under the voice
+  ok   speech band clear of music: 41 dB (1-4 kHz, before ducking)
+  ok   every clip has a source-log row
+  ok   every clip verified against the narration

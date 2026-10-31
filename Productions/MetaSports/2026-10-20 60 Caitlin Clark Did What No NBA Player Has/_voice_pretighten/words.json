@@ -1,0 +1,502 @@
+[
+ {
+  "word": "Caitlin",
+  "start": 0.0,
+  "end": 0.313
+ },
+ {
+  "word": "Clark",
+  "start": 0.36,
+  "end": 0.534
+ },
+ {
+  "word": "did",
+  "start": 0.58,
+  "end": 0.697
+ },
+ {
+  "word": "something",
+  "start": 0.731,
+  "end": 0.952
+ },
+ {
+  "word": "no",
+  "start": 1.033,
+  "end": 1.207
+ },
+ {
+  "word": "NBA",
+  "start": 1.289,
+  "end": 1.602
+ },
+ {
+  "word": "player",
+  "start": 1.672,
+  "end": 1.962
+ },
+ {
+  "word": "has",
+  "start": 2.009,
+  "end": 2.101
+ },
+ {
+  "word": "ever",
+  "start": 2.229,
+  "end": 2.485
+ },
+ {
+  "word": "done.",
+  "start": 2.566,
+  "end": 3.146
+ },
+ {
+  "word": "45",
+  "start": 3.305,
+  "end": 3.677
+ },
+ {
+  "word": "points",
+  "start": 3.723,
+  "end": 3.955
+ },
+ {
+  "word": "and",
+  "start": 3.978,
+  "end": 4.048
+ },
+ {
+  "word": "10",
+  "start": 4.083,
+  "end": 4.234
+ },
+ {
+  "word": "assists,",
+  "start": 4.269,
+  "end": 4.838
+ },
+ {
+  "word": "in",
+  "start": 4.861,
+  "end": 4.965
+ },
+ {
+  "word": "under",
+  "start": 5.07,
+  "end": 5.302
+ },
+ {
+  "word": "30",
+  "start": 5.441,
+  "end": 5.743
+ },
+ {
+  "word": "minutes.",
+  "start": 5.813,
+  "end": 6.277
+ },
+ {
+  "word": "It",
+  "start": 6.312,
+  "end": 6.393
+ },
+ {
+  "word": "was",
+  "start": 6.417,
+  "end": 6.486
+ },
+ {
+  "word": "also",
+  "start": 6.521,
+  "end": 6.695
+ },
+ {
+  "word": "the",
+  "start": 6.742,
+  "end": 6.811
+ },
+ {
+  "word": "first",
+  "start": 6.846,
+  "end": 6.997
+ },
+ {
+  "word": "40-and-10",
+  "start": 7.055,
+  "end": 7.554
+ },
+ {
+  "word": "game",
+  "start": 7.612,
+  "end": 7.798
+ },
+ {
+  "word": "in",
+  "start": 7.821,
+  "end": 7.868
+ },
+ {
+  "word": "WNBA",
+  "start": 7.937,
+  "end": 8.39
+ },
+ {
+  "word": "history.",
+  "start": 8.46,
+  "end": 8.936
+ },
+ {
+  "word": "Thirty",
+  "start": 8.959,
+  "end": 9.215
+ },
+ {
+  "word": "seasons,",
+  "start": 9.273,
+  "end": 9.749
+ },
+ {
+  "word": "and",
+  "start": 9.772,
+  "end": 9.876
+ },
+ {
+  "word": "nobody",
+  "start": 9.969,
+  "end": 10.329
+ },
+ {
+  "word": "had",
+  "start": 10.376,
+  "end": 10.457
+ },
+ {
+  "word": "done",
+  "start": 10.503,
+  "end": 10.689
+ },
+ {
+  "word": "it.",
+  "start": 10.712,
+  "end": 10.979
+ },
+ {
+  "word": "But",
+  "start": 11.108,
+  "end": 11.236
+ },
+ {
+  "word": "here's",
+  "start": 11.282,
+  "end": 11.456
+ },
+ {
+  "word": "the",
+  "start": 11.48,
+  "end": 11.549
+ },
+ {
+  "word": "crazy",
+  "start": 11.584,
+  "end": 11.886
+ },
+ {
+  "word": "part.",
+  "start": 11.944,
+  "end": 12.327
+ },
+ {
+  "word": "Clark",
+  "start": 12.35,
+  "end": 12.559
+ },
+ {
+  "word": "has",
+  "start": 12.582,
+  "end": 12.652
+ },
+ {
+  "word": "had",
+  "start": 12.687,
+  "end": 12.768
+ },
+ {
+  "word": "at",
+  "start": 12.803,
+  "end": 12.849
+ },
+ {
+  "word": "least",
+  "start": 12.884,
+  "end": 13.0
+ },
+ {
+  "word": "six",
+  "start": 13.07,
+  "end": 13.314
+ },
+ {
+  "word": "games",
+  "start": 13.383,
+  "end": 13.697
+ },
+ {
+  "word": "with",
+  "start": 13.72,
+  "end": 13.813
+ },
+ {
+  "word": "30",
+  "start": 13.859,
+  "end": 14.068
+ },
+ {
+  "word": "points",
+  "start": 14.115,
+  "end": 14.347
+ },
+ {
+  "word": "and",
+  "start": 14.37,
+  "end": 14.44
+ },
+ {
+  "word": "10",
+  "start": 14.486,
+  "end": 14.637
+ },
+ {
+  "word": "assists.",
+  "start": 14.672,
+  "end": 15.206
+ },
+ {
+  "word": "Nobody",
+  "start": 15.253,
+  "end": 15.508
+ },
+ {
+  "word": "else",
+  "start": 15.543,
+  "end": 15.682
+ },
+ {
+  "word": "in",
+  "start": 15.705,
+  "end": 15.752
+ },
+ {
+  "word": "WNBA",
+  "start": 15.81,
+  "end": 16.297
+ },
+ {
+  "word": "history",
+  "start": 16.367,
+  "end": 16.669
+ },
+ {
+  "word": "has",
+  "start": 16.704,
+  "end": 16.774
+ },
+ {
+  "word": "done",
+  "start": 16.82,
+  "end": 16.924
+ },
+ {
+  "word": "it",
+  "start": 16.948,
+  "end": 16.994
+ },
+ {
+  "word": "more",
+  "start": 17.041,
+  "end": 17.157
+ },
+ {
+  "word": "than",
+  "start": 17.18,
+  "end": 17.284
+ },
+ {
+  "word": "once.",
+  "start": 17.366,
+  "end": 17.772
+ },
+ {
+  "word": "And",
+  "start": 17.795,
+  "end": 17.888
+ },
+ {
+  "word": "that",
+  "start": 17.923,
+  "end": 18.016
+ },
+ {
+  "word": "same",
+  "start": 18.085,
+  "end": 18.294
+ },
+ {
+  "word": "night,",
+  "start": 18.329,
+  "end": 18.503
+ },
+ {
+  "word": "she",
+  "start": 18.527,
+  "end": 18.608
+ },
+ {
+  "word": "became",
+  "start": 18.643,
+  "end": 18.852
+ },
+ {
+  "word": "the",
+  "start": 18.875,
+  "end": 18.945
+ },
+ {
+  "word": "fastest",
+  "start": 19.003,
+  "end": 19.409
+ },
+ {
+  "word": "player",
+  "start": 19.455,
+  "end": 19.746
+ },
+ {
+  "word": "in",
+  "start": 19.804,
+  "end": 19.85
+ },
+ {
+  "word": "WNBA",
+  "start": 19.908,
+  "end": 20.431
+ },
+ {
+  "word": "history",
+  "start": 20.5,
+  "end": 20.86
+ },
+ {
+  "word": "to",
+  "start": 20.918,
+  "end": 20.976
+ },
+ {
+  "word": "200",
+  "start": 21.069,
+  "end": 21.592
+ },
+ {
+  "word": "threes:",
+  "start": 21.661,
+  "end": 22.23
+ },
+ {
+  "word": "74",
+  "start": 22.37,
+  "end": 22.846
+ },
+ {
+  "word": "games.",
+  "start": 22.915,
+  "end": 23.403
+ },
+ {
+  "word": "The",
+  "start": 23.426,
+  "end": 23.519
+ },
+ {
+  "word": "old",
+  "start": 23.577,
+  "end": 23.693
+ },
+ {
+  "word": "record",
+  "start": 23.763,
+  "end": 23.983
+ },
+ {
+  "word": "was",
+  "start": 24.007,
+  "end": 24.076
+ },
+ {
+  "word": "81.",
+  "start": 24.146,
+  "end": 24.599
+ },
+ {
+  "word": "45",
+  "start": 24.657,
+  "end": 25.121
+ },
+ {
+  "word": "and",
+  "start": 25.179,
+  "end": 25.249
+ },
+ {
+  "word": "10,",
+  "start": 25.307,
+  "end": 25.551
+ },
+ {
+  "word": "in",
+  "start": 25.574,
+  "end": 25.62
+ },
+ {
+  "word": "29",
+  "start": 25.678,
+  "end": 26.027
+ },
+ {
+  "word": "minutes.",
+  "start": 26.073,
+  "end": 26.445
+ },
+ {
+  "word": "No",
+  "start": 26.514,
+  "end": 26.654
+ },
+ {
+  "word": "NBA",
+  "start": 26.735,
+  "end": 27.06
+ },
+ {
+  "word": "player",
+  "start": 27.13,
+  "end": 27.443
+ },
+ {
+  "word": "has",
+  "start": 27.501,
+  "end": 27.594
+ },
+ {
+  "word": "ever",
+  "start": 27.652,
+  "end": 27.849
+ },
+ {
+  "word": "done",
+  "start": 27.931,
+  "end": 28.128
+ },
+ {
+  "word": "that.",
+  "start": 28.163,
+  "end": 28.476
+ }
+]

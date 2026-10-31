@@ -1,0 +1,136 @@
+[
+ {
+  "clip": "v_tower.mp4",
+  "start": 0.0,
+  "in": 0.0,
+  "kind": "action",
+  "zoom": 0.06,
+  "why": "Heat night, the hook, and the loop"
+ },
+ {
+  "clip": "v_arena.mp4",
+  "start": 1.0,
+  "in": 0.2,
+  "kind": "action",
+  "zoom": 0.06,
+  "anchor": "become",
+  "why": "about to become Vice City"
+ },
+ {
+  "clip": "a_name.mp4",
+  "start": 1.68,
+  "in": 0.1,
+  "kind": "action",
+  "anchor": "But",
+  "why": "Steven Adams on screen for his name"
+ },
+ {
+  "clip": "v_lot.mp4",
+  "start": 3.6,
+  "in": 0.2,
+  "kind": "action",
+  "zoom": 0.06,
+  "anchor": "One night",
+  "why": "one night only"
+ },
+ {
+  "clip": "v_roof.mp4",
+  "start": 4.31,
+  "in": 0.2,
+  "kind": "action",
+  "anchor": "November eighteenth",
+  "why": "Welcome to Vice City sign"
+ },
+ {
+  "clip": "h_wide.mp4",
+  "start": 5.3,
+  "in": 0.3,
+  "kind": "action",
+  "zoom": 0.06,
+  "anchor": "court",
+  "why": "the arena, a court nobody has seen"
+ },
+ {
+  "clip": "v_city.mp4",
+  "start": 6.42,
+  "in": 0.2,
+  "kind": "action",
+  "zoom": 0.06,
+  "anchor": "uniform",
+  "why": "night footage for the unreleased uniform"
+ },
+ {
+  "clip": "p_night.mp4",
+  "start": 7.31,
+  "in": 0.3,
+  "kind": "card",
+  "anchor": "live",
+  "why": "poster says ESPN, November 18, 7PM EST"
+ },
+ {
+  "clip": "v_arena.mp4",
+  "start": 8.46,
+  "in": 1.6,
+  "kind": "action",
+  "zoom": 0.06,
+  "anchor": "night before",
+  "why": "the night before GTA 6"
+ },
+ {
+  "clip": "a_shoot.mp4",
+  "start": 10.36,
+  "in": 0.3,
+  "kind": "action",
+  "anchor": "Rockets center",
+  "why": "Adams, the Rockets center who joked"
+ },
+ {
+  "clip": "q_leagues.mp4",
+  "start": 12.32,
+  "in": 0.06,
+  "kind": "quote",
+  "anchor": "look at",
+  "why": "real line: look at all the leagues"
+ },
+ {
+  "clip": "q_leagues.mp4",
+  "start": 14.02,
+  "in": 2.44,
+  "kind": "quote",
+  "anchor": "watch them",
+  "why": "real line: watch them plummet"
+ },
+ {
+  "clip": "a_pod.mp4",
+  "start": 15.21,
+  "in": 0.3,
+  "kind": "face",
+  "anchor": "That is",
+  "why": "Adams at media day while his name is said again"
+ },
+ {
+  "clip": "q_coaches.mp4",
+  "start": 17.57,
+  "in": 0.22,
+  "kind": "quote",
+  "anchor": "coaching",
+  "why": "real line: coaching and scouts"
+ },
+ {
+  "clip": "v_roof.mp4",
+  "start": 20.11,
+  "in": 1.6,
+  "kind": "action",
+  "anchor": "bounces",
+  "why": "he says it bounces back in December"
+ },
+ {
+  "clip": "v_tower.mp4",
+  "start": 21.09,
+  "in": 1.8,
+  "kind": "action",
+  "zoom": 0.06,
+  "anchor": "Just for",
+  "why": "payoff: Just for November"
+ }
+]

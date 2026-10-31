@@ -1,0 +1,281 @@
+{
+ "length_s": 69.5,
+ "topic": "Can Andoni Iraola fix Liverpool after Arne Slot's disastrous season?",
+ "lane": "moment",
+ "hook": {
+  "first_words": "Can Iraola actually fix Liverpool?",
+  "first_frame": "A smiling football manager clapping his hands",
+  "on_screen_text_0_3s": "Can Iraola actually FIX LIVERPOOL?",
+  "shots_in_first_3s": 2
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 2.1,
+   "shows": "Manager smiling and clapping",
+   "kind": "face"
+  },
+  {
+   "start_s": 2.1,
+   "end_s": 4.5,
+   "shows": "Arne Slot in a Liverpool shirt",
+   "kind": "still"
+  },
+  {
+   "start_s": 4.5,
+   "end_s": 6.9,
+   "shows": "Liverpool players celebrating with the Premier League trophy",
+   "kind": "stock"
+  },
+  {
+   "start_s": 6.9,
+   "end_s": 9.5,
+   "shows": "Arne Slot shaking hands with an official",
+   "kind": "action"
+  },
+  {
+   "start_s": 9.5,
+   "end_s": 10.7,
+   "shows": "Arne Slot looking serious in a press conference",
+   "kind": "face"
+  },
+  {
+   "start_s": 10.7,
+   "end_s": 13.5,
+   "shows": "Alexander Isak smiling in the dressing room",
+   "kind": "face"
+  },
+  {
+   "start_s": 13.5,
+   "end_s": 15.0,
+   "shows": "Alexander Isak flexing in a Liverpool shirt",
+   "kind": "still"
+  },
+  {
+   "start_s": 15.0,
+   "end_s": 16.0,
+   "shows": "Florian Wirtz in a Liverpool shirt",
+   "kind": "still"
+  },
+  {
+   "start_s": 16.0,
+   "end_s": 18.2,
+   "shows": "Mohamed Salah looking sad and kissing a ball",
+   "kind": "face"
+  },
+  {
+   "start_s": 18.2,
+   "end_s": 20.0,
+   "shows": "Arne Slot looking concerned at a press conference",
+   "kind": "face"
+  },
+  {
+   "start_s": 20.0,
+   "end_s": 21.5,
+   "shows": "Arne Slot smiling in a Liverpool shirt",
+   "kind": "still"
+  },
+  {
+   "start_s": 21.5,
+   "end_s": 26.0,
+   "shows": "Andoni Iraola wearing a Liverpool scarf at Anfield",
+   "kind": "face"
+  },
+  {
+   "start_s": 26.0,
+   "end_s": 29.2,
+   "shows": "Andoni Iraola in a Liverpool training top",
+   "kind": "still"
+  },
+  {
+   "start_s": 29.2,
+   "end_s": 31.3,
+   "shows": "Andoni Iraola clapping on the pitch",
+   "kind": "action"
+  },
+  {
+   "start_s": 31.3,
+   "end_s": 33.0,
+   "shows": "Premier League table graphic showing Bournemouth 5th and Liverpool 6th",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 33.0,
+   "end_s": 34.3,
+   "shows": "Andoni Iraola explaining tactics with hand gestures",
+   "kind": "action"
+  },
+  {
+   "start_s": 34.3,
+   "end_s": 36.3,
+   "shows": "Mohamed Salah running with the ball in a match",
+   "kind": "action"
+  },
+  {
+   "start_s": 36.3,
+   "end_s": 37.7,
+   "shows": "Jurgen Klopp celebrating with hand on chest",
+   "kind": "face"
+  },
+  {
+   "start_s": 37.7,
+   "end_s": 38.6,
+   "shows": "Andoni Iraola shaking hands with someone at Melwood",
+   "kind": "action"
+  },
+  {
+   "start_s": 38.6,
+   "end_s": 40.6,
+   "shows": "Liverpool player doing a training drill",
+   "kind": "action"
+  },
+  {
+   "start_s": 40.6,
+   "end_s": 42.1,
+   "shows": "Players walking out of the tunnel at St James' Park",
+   "kind": "action"
+  },
+  {
+   "start_s": 42.1,
+   "end_s": 44.3,
+   "shows": "Andoni Iraola on the bench looking tense",
+   "kind": "face"
+  },
+  {
+   "start_s": 44.3,
+   "end_s": 45.9,
+   "shows": "Liverpool player with head in hands",
+   "kind": "face"
+  },
+  {
+   "start_s": 45.9,
+   "end_s": 47.6,
+   "shows": "Dominik Szoboszlai holding a football",
+   "kind": "face"
+  },
+  {
+   "start_s": 47.6,
+   "end_s": 50.7,
+   "shows": "Andoni Iraola shouting and gesturing on the touchline",
+   "kind": "action"
+  },
+  {
+   "start_s": 50.7,
+   "end_s": 54.6,
+   "shows": "Newcastle players celebrating and Liverpool player looking dejected",
+   "kind": "action"
+  },
+  {
+   "start_s": 54.6,
+   "end_s": 57.2,
+   "shows": "Andoni Iraola on the training ground with tactical grid overlay",
+   "kind": "still"
+  },
+  {
+   "start_s": 57.2,
+   "end_s": 59.7,
+   "shows": "Andoni Iraola watching from the touchline",
+   "kind": "face"
+  },
+  {
+   "start_s": 59.7,
+   "end_s": 62.1,
+   "shows": "Dominik Szoboszlai walking on the pitch",
+   "kind": "action"
+  },
+  {
+   "start_s": 62.1,
+   "end_s": 63.6,
+   "shows": "Dominik Szoboszlai pointing",
+   "kind": "face"
+  },
+  {
+   "start_s": 63.6,
+   "end_s": 65.5,
+   "shows": "Dominik Szoboszlai taking a penalty and scoring",
+   "kind": "action"
+  },
+  {
+   "start_s": 65.5,
+   "end_s": 67.5,
+   "shows": "Andoni Iraola clapping on the touchline",
+   "kind": "action"
+  },
+  {
+   "start_s": 67.5,
+   "end_s": 69.5,
+   "shows": "Andoni Iraola in a Liverpool scarf talking on the pitch",
+   "kind": "face"
+  }
+ ],
+ "shot_count": 33,
+ "average_shot_s": 2.1,
+ "longest_shot_s": 3.9,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 175,
+  "tone": "energetic storytelling",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "dramatic cinematic hip hop",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "mixed",
+  "position": "middle",
+  "colours": "white",
+  "highlight_style": "none"
+ },
+ "text_overlays": [
+  {
+   "at_s": 27.0,
+   "text": "ANDONI IRAOLA"
+  },
+  {
+   "at_s": 56.5,
+   "text": "LOST GOALS BATTLE"
+  }
+ ],
+ "cards_or_graphics": 2,
+ "framing": "crop",
+ "ending": {
+  "last_words": "Maybe. But it probably won't be overnight.",
+  "last_frame": "Andoni Iraola talking on the pitch at Anfield",
+  "loops_to_start": false,
+  "call_to_action": "hit the follow button"
+ },
+ "script": "Can Iraola actually fix Liverpool? Two years ago, Arne Slot took over Liverpool and won the Premier League title in his very first season, so everyone thought he was the perfect guy for the job. Then last year happened. Liverpool spent around 450 million pounds on players like Alexander Isak and Florian Wirtz, and somehow finished fifth with no trophies and 25 points behind the champions, so the club fired him. But the guy they brought in to clean up the mess had never coached a team anywhere close to this size. His name is Andoni Iraola, and he came from Bournemouth, a small club that finished sixth last season, just three points behind Liverpool. The idea was simple. Bring back that fast, high-pressing football that Jurgen Klopp used to play, and fans loved it while the players loved it even more. His first game was away at Newcastle. But ninety minutes at St James' Park exposed the exact same cracks that got the last manager fired. And if you're enjoying the content, please hit the follow button. Liverpool got outshot 20 to 13, had 39% of the ball, and lost the expected goals battle almost two to one. They were losing two to one deep into stoppage time and it looked completely done, until the ninety-ninth minute when Dominik stepped up and scored a penalty to rescue a two-two draw. So can Iraola fix Liverpool? Maybe. But it probably won't be overnight.",
+ "retention_tricks": [
+  "Fast-paced cuts averaging 2.1 seconds per shot",
+  "Open loop asking whether Iraola can fix Liverpool",
+  "Visual contrast using AI-generated or edited images of managers in rival kits",
+  "Tension building around the debut match result"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "High-energy narrative arc tracking the downfall of Slot and the high-stakes arrival of Iraola",
+  "Rapid editing rhythm paired with clean, highly readable kinetic captions",
+  "Compelling use of speculative football scenarios combined with real statistical context"
+ ],
+ "_meta": {
+  "source": "VNF87gLssU8",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

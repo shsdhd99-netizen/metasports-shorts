@@ -1,0 +1,109 @@
+[
+ {
+  "clip": "02_jside.mp4",
+  "kind": "action",
+  "zoom": 0.12,
+  "why": "Jokic with the ball",
+  "start": 0.0
+ },
+ {
+  "clip": "05_wdrive.mp4",
+  "anchor": "Russell",
+  "kind": "action",
+  "why": "Westbrook, Oklahoma City",
+  "start": 0.65
+ },
+ {
+  "clip": "06_wret.mp4",
+  "anchor": "Westbrook just",
+  "kind": "action",
+  "why": "Westbrook in Washington, after Oklahoma City",
+  "start": 2.92
+ },
+ {
+  "clip": "07_jback.mp4",
+  "anchor": "Nikola",
+  "kind": "action",
+  "why": "Jokic, name on the jersey",
+  "start": 3.89
+ },
+ {
+  "clip": "08_jnug.mp4",
+  "anchor": "Eleven",
+  "kind": "action",
+  "why": "Jokic 15 from behind",
+  "start": 5.96
+ },
+ {
+  "clip": "09_jast.mp4",
+  "anchor": "But he",
+  "kind": "action",
+  "why": "Jokic face, in a game",
+  "start": 6.59
+ },
+ {
+  "clip": "10_jwalk.mp4",
+  "anchor": "in just",
+  "kind": "action",
+  "why": "Jokic at media day",
+  "start": 8.27
+ },
+ {
+  "clip": "01_jhook.mp4",
+  "anchor": "About one",
+  "kind": "action",
+  "why": "Jokic dribbling, name on the jersey",
+  "start": 10.17
+ },
+ {
+  "clip": "16_wdunk.mp4",
+  "anchor": "Westbrook once",
+  "kind": "action",
+  "why": "Westbrook at the rim",
+  "start": 11.29
+ },
+ {
+  "clip": "12_wface.mp4",
+  "anchor": "still the",
+  "kind": "action",
+  "why": "Westbrook close-up",
+  "start": 13.39
+ },
+ {
+  "clip": "04_wopen.mp4",
+  "anchor": "And only",
+  "kind": "action",
+  "why": "Westbrook, arms up",
+  "start": 14.45
+ },
+ {
+  "clip": "13_oscar.mp4",
+  "anchor": "Oscar",
+  "kind": "action",
+  "why": "Oscar Robertson next to Westbrook",
+  "start": 15.46
+ },
+ {
+  "clip": "03_jpost.mp4",
+  "anchor": "Jokic even",
+  "kind": "action",
+  "why": "Jokic in the post",
+  "start": 17.36
+ },
+ {
+  "clip": "01_jhook.mp4",
+  "anchor": "on Christmas",
+  "in": 0.6,
+  "kind": "action",
+  "why": "Jokic with the ball, name on the jersey",
+  "start": 20.08
+ },
+ {
+  "clip": "02_jside.mp4",
+  "anchor": "At that",
+  "kind": "action",
+  "zoom": 0.1,
+  "why": "loop to the first Jokic shot",
+  "start": 22.31
+ }
+]

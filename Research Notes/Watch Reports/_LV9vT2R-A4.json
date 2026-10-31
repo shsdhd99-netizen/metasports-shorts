@@ -1,0 +1,308 @@
+{
+ "length_s": 65.5,
+ "topic": "Cristiano Ronaldo calling for lifetime bans for fans who mocked Diogo Jota's death at Rúben Neves.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "Why does Cristiano Ronaldo want some fans",
+  "first_frame": "Cristiano Ronaldo in a yellow Al-Nassr kit holding a ball in front of an advertising board.",
+  "on_screen_text_0_3s": "Why does Cristiano Ronaldo want some fans to get BANNED from attending matches?",
+  "shots_in_first_3s": 2
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 1.7,
+   "shows": "Cristiano Ronaldo in yellow Al-Nassr kit holding a ball near advertising boards",
+   "kind": "action"
+  },
+  {
+   "start_s": 1.7,
+   "end_s": 3.9,
+   "shows": "Cristiano Ronaldo holding ball and walking on pitch",
+   "kind": "action"
+  },
+  {
+   "start_s": 3.9,
+   "end_s": 5.0,
+   "shows": "Roadside crash site with conservation van and police",
+   "kind": "stock"
+  },
+  {
+   "start_s": 5.0,
+   "end_s": 6.7,
+   "shows": "Green car wreckage on roadside",
+   "kind": "stock"
+  },
+  {
+   "start_s": 6.7,
+   "end_s": 8.1,
+   "shows": "Diogo and André Jota in Porto jerseys",
+   "kind": "still"
+  },
+  {
+   "start_s": 8.1,
+   "end_s": 9.7,
+   "shows": "Diogo Jota holding Premier League trophy",
+   "kind": "still"
+  },
+  {
+   "start_s": 9.7,
+   "end_s": 11.0,
+   "shows": "Diogo Jota and Rúben Neves embracing in Wolves kit",
+   "kind": "still"
+  },
+  {
+   "start_s": 11.0,
+   "end_s": 12.7,
+   "shows": "Rúben Neves crying in Al-Hilal kit",
+   "kind": "face"
+  },
+  {
+   "start_s": 12.7,
+   "end_s": 14.6,
+   "shows": "Rúben Neves carrying coffin at funeral",
+   "kind": "still"
+  },
+  {
+   "start_s": 14.6,
+   "end_s": 16.0,
+   "shows": "Rúben Neves scoring header for Portugal",
+   "kind": "replay"
+  },
+  {
+   "start_s": 16.0,
+   "end_s": 18.0,
+   "shows": "Rúben Neves celebrating in number 21 Portugal shirt",
+   "kind": "action"
+  },
+  {
+   "start_s": 18.0,
+   "end_s": 19.0,
+   "shows": "Rúben Neves back view with number 21 and tattoo",
+   "kind": "still"
+  },
+  {
+   "start_s": 19.0,
+   "end_s": 21.6,
+   "shows": "Al-Taawoun FC stadium crowd waving flags",
+   "kind": "stock"
+  },
+  {
+   "start_s": 21.6,
+   "end_s": 23.8,
+   "shows": "Kevin Hart looking shocked in comedy clip",
+   "kind": "reaction_shot"
+  },
+  {
+   "start_s": 23.8,
+   "end_s": 25.8,
+   "shows": "Referee holding ball next to Wolves Park stand",
+   "kind": "action"
+  },
+  {
+   "start_s": 25.8,
+   "end_s": 26.6,
+   "shows": "Rúben Neves smiling in Al-Hilal blue kit",
+   "kind": "face"
+  },
+  {
+   "start_s": 26.6,
+   "end_s": 27.9,
+   "shows": "Crest logos of Al-Hilal and Al-Taawoun",
+   "kind": "graphic"
+  },
+  {
+   "start_s": 27.9,
+   "end_s": 29.8,
+   "shows": "Home crowd cheering in stadium",
+   "kind": "action"
+  },
+  {
+   "start_s": 29.8,
+   "end_s": 32.0,
+   "shows": "Rúben Neves walking on pitch in black kit",
+   "kind": "action"
+  },
+  {
+   "start_s": 32.0,
+   "end_s": 32.7,
+   "shows": "Diogo Jota in Liverpool kit",
+   "kind": "still"
+  },
+  {
+   "start_s": 32.7,
+   "end_s": 34.2,
+   "shows": "Diogo Jota in Liverpool tunnel",
+   "kind": "still"
+  },
+  {
+   "start_s": 34.2,
+   "end_s": 35.5,
+   "shows": "Rúben Neves applauding in blue Al-Hilal kit",
+   "kind": "action"
+  },
+  {
+   "start_s": 35.5,
+   "end_s": 36.9,
+   "shows": "Rúben Neves pointing finger on pitch",
+   "kind": "action"
+  },
+  {
+   "start_s": 36.9,
+   "end_s": 38.1,
+   "shows": "Rúben Neves and teammate clapping sarcastically",
+   "kind": "action"
+  },
+  {
+   "start_s": 38.1,
+   "end_s": 40.7,
+   "shows": "Rúben Neves pointing to eye and sky",
+   "kind": "action"
+  },
+  {
+   "start_s": 40.7,
+   "end_s": 42.4,
+   "shows": "Rúben Neves walking through mixed zone with reporters",
+   "kind": "moment"
+  },
+  {
+   "start_s": 42.4,
+   "end_s": 44.6,
+   "shows": "Rúben Neves applauding",
+   "kind": "replay"
+  },
+  {
+   "start_s": 44.6,
+   "end_s": 46.2,
+   "shows": "Steve Harvey looking shocked on Family Feud",
+   "kind": "reaction_shot"
+  },
+  {
+   "start_s": 46.2,
+   "end_s": 47.7,
+   "shows": "Cristiano Ronaldo being interviewed in yellow Al-Nassr kit",
+   "kind": "face"
+  },
+  {
+   "start_s": 47.7,
+   "end_s": 48.9,
+   "shows": "Cristiano Ronaldo walking on pitch in Portugal red kit",
+   "kind": "action"
+  },
+  {
+   "start_s": 48.9,
+   "end_s": 50.9,
+   "shows": "Portugal team kneeling in training gear including Jota and Neves",
+   "kind": "still"
+  },
+  {
+   "start_s": 50.9,
+   "end_s": 52.9,
+   "shows": "Rúben Neves pointing to eye on pitch",
+   "kind": "replay"
+  },
+  {
+   "start_s": 52.9,
+   "end_s": 54.9,
+   "shows": "News article headline about Cristiano Ronaldo calling for lifetime bans",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 54.9,
+   "end_s": 56.7,
+   "shows": "Diogo Jota looking down in Portugal training",
+   "kind": "moment"
+  },
+  {
+   "start_s": 56.7,
+   "end_s": 58.0,
+   "shows": "Diogo Jota posing in Portugal jersey",
+   "kind": "still"
+  },
+  {
+   "start_s": 58.0,
+   "end_s": 59.5,
+   "shows": "Cristiano Ronaldo sitting on pitch in red kit",
+   "kind": "moment"
+  },
+  {
+   "start_s": 59.5,
+   "end_s": 60.5,
+   "shows": "Cristiano Ronaldo looking solemn in Portugal red kit",
+   "kind": "face"
+  },
+  {
+   "start_s": 60.5,
+   "end_s": 62.9,
+   "shows": "Cristiano Ronaldo holding Portugal number 21 shirt with teammates",
+   "kind": "still"
+  },
+  {
+   "start_s": 62.9,
+   "end_s": 65.5,
+   "shows": "Diogo Jota smiling with trophy in red kit",
+   "kind": "still"
+  }
+ ],
+ "shot_count": 42,
+ "average_shot_s": 1.56,
+ "longest_shot_s": 3.7,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 175,
+  "tone": "dramatic, serious",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "dramatic cinematic orchestral",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "sentence",
+  "position": "middle",
+  "colours": "white",
+  "highlight_style": "none"
+ },
+ "text_overlays": [],
+ "cards_or_graphics": 1,
+ "framing": "blurred background",
+ "ending": {
+  "last_words": "a stadium forever.",
+  "last_frame": "Diogo Jota smiling with trophy in red kit.",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "Why does Cristiano Ronaldo want some fans to get BANNED from attending matches? Back in July last year, Diogo Jota died in a car crash alongside his brother André, and he was only twenty-eight years old. One of his closest friends in the world was a player called Rúben Neves, who carried Jota's coffin at the funeral. He was so close to him that he even switched to wearing the number twenty-one for Portugal just to honor him. But last Saturday, a stadium full of strangers found a way to turn that friendship into a weapon against him. Neves was playing a Saudi Pro League match for Al-Hilal against a team called Al-Taawoun, and during the game a section of the home crowd started chanting one word at him over and over. Jota. They were shouting his dead best friend's name to try and get in his head. Neves heard it and turned toward them, clapping back sarcastically before he pointed to his own eye and then up to the sky. After the game he walked past reporters and said, I hope they don't go to pray afterwards. But the person who reacted the loudest wasn't even standing on that field. Cristiano Ronaldo, who played with both Jota and Neves for Portugal, saw the video online and he was furious. He posted that the league had to punish this, saying, 'this is no longer football, and there have to be limits.' And that's exactly why Ronaldo wants them gone for good. He thinks mocking a grieving man over his dead friend crosses a line that should cost you your seat in a stadium forever.",
+ "retention_tricks": [
+  "open loop in the hook about Ronaldo wanting fans banned",
+  "reaction meme clips (Kevin Hart, Steve Harvey) inserted for emotional pacing",
+  "rapid shot changes averaging 1.5 seconds",
+  "dramatic build-up from tragedy to crowd provocation to Ronaldo's response"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": true,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "A compelling, emotional real-life narrative connecting friendship, tragedy, and football sportsmanship.",
+  "Fast pacing with varied visual media including archive footage, news screenshots, and reaction inserts.",
+  "High-stakes moral conflict involving global football star Cristiano Ronaldo taking a stand."
+ ],
+ "_meta": {
+  "source": "_LV9vT2R-A4",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

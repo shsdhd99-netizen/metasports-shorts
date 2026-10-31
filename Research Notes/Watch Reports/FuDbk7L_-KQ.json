@@ -1,0 +1,187 @@
+{
+ "length_s": 70.333,
+ "topic": "Humorous comparison showing how comically old LeBron James is by comparing his career and age to various historical events and retired players.",
+ "lane": "list",
+ "hook": {
+  "first_words": "LeBron James is so old",
+  "first_frame": "Animated LeBron James standing next to a podium with a young boy's head in a graduation cap.",
+  "on_screen_text_0_3s": "LeBron James is so Old 4",
+  "shots_in_first_3s": 1
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 6.0,
+   "shows": "LeBron James animated with a graduating kid at a podium",
+   "kind": "animation"
+  },
+  {
+   "start_s": 6.0,
+   "end_s": 9.25,
+   "shows": "A young man speaking into a microphone in a school hallway",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 9.25,
+   "end_s": 14.125,
+   "shows": "Animated Michael Jordan, LeBron James, and Cooper Flagg standing on a basketball court",
+   "kind": "animation"
+  },
+  {
+   "start_s": 14.125,
+   "end_s": 17.625,
+   "shows": "Animated LeBron James and Michael Jordan shaking hands",
+   "kind": "animation"
+  },
+  {
+   "start_s": 17.625,
+   "end_s": 20.75,
+   "shows": "Animated Michael Jordan, LeBron James, and Cooper Flagg on a basketball court",
+   "kind": "animation"
+  },
+  {
+   "start_s": 20.75,
+   "end_s": 25.5,
+   "shows": "Animated LeBron James shaking hands with an older NBA executive (Brendan Malone)",
+   "kind": "animation"
+  },
+  {
+   "start_s": 25.5,
+   "end_s": 29.5,
+   "shows": "Footage of an older NBA coach talking to LeBron James on the court",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 29.5,
+   "end_s": 36.875,
+   "shows": "Animated character running past Detroit Gems logo",
+   "kind": "animation"
+  },
+  {
+   "start_s": 36.875,
+   "end_s": 39.0,
+   "shows": "Animated LeBron James and Michael Jordan standing together",
+   "kind": "animation"
+  },
+  {
+   "start_s": 39.0,
+   "end_s": 42.75,
+   "shows": "Animated LeBron James and Michael Jordan on basketball court",
+   "kind": "animation"
+  },
+  {
+   "start_s": 42.75,
+   "end_s": 45.875,
+   "shows": "Animated LeBron James and Michael Jordan in front of green chalkboards with stats",
+   "kind": "animation"
+  },
+  {
+   "start_s": 45.875,
+   "end_s": 48.25,
+   "shows": "Animated LeBron James dribbling basketball against Michael Jordan",
+   "kind": "animation"
+  },
+  {
+   "start_s": 48.25,
+   "end_s": 53.25,
+   "shows": "Animated LeBron James standing next to Hall of Fame podium with other players' heads",
+   "kind": "animation"
+  },
+  {
+   "start_s": 53.25,
+   "end_s": 57.25,
+   "shows": "Carmelo Anthony speaking at podium in a black suit with sunglasses",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 57.25,
+   "end_s": 59.75,
+   "shows": "Animated LeBron James at Hall of Fame podium",
+   "kind": "animation"
+  },
+  {
+   "start_s": 59.75,
+   "end_s": 64.75,
+   "shows": "Animated LeBron James handing a torch to Bronny James",
+   "kind": "animation"
+  },
+  {
+   "start_s": 64.75,
+   "end_s": 68.75,
+   "shows": "LeBron James patting Bronny James on the head at an NBA event",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 68.75,
+   "end_s": 70.333,
+   "shows": "Animated LeBron James and Bronny James holding a torch",
+   "kind": "animation"
+  }
+ ],
+ "shot_count": 18,
+ "average_shot_s": 3.907,
+ "longest_shot_s": 5.95,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 175,
+  "tone": "comedic, energetic",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "upbeat, comedic meme background music",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 4,
+  "case": "mixed",
+  "position": "bottom",
+  "colours": "white",
+  "highlight_style": "none"
+ },
+ "text_overlays": [
+  {
+   "at_s": 0.0,
+   "text": "LeBron James is so Old 4"
+  }
+ ],
+ "cards_or_graphics": 4,
+ "framing": "blurred background",
+ "ending": {
+  "last_words": "before he entered the NBA.",
+  "last_frame": "Animated LeBron James and Bronny James standing on a Lakers court holding a torch.",
+  "loops_to_start": true,
+  "call_to_action": "none"
+ },
+ "script": "LeBron James is so old that Terrence Jackson has now graduated high school. LeBron is so old, he's closer to the age of Michael Jordan than he is to Cooper Flag. He is 7,987 days younger than Jordan, but 8,026 stays older than Cooper Flag. LeBron James is so old his old head coach was Brendan Malone, who was born in 1935, making him older than the entire NBA itself. He was the head coach of the Cavaliers in 2005. LeBron James is so old he played during the hand checking era as that became illegal in 2005, so he could have very well played in Jordan's era of defense, because he literally did and average 21 points per game with hand checking. LeBron James is so old, three players of his draft class of '03 are already in the Hall of Fame and fully retired. Chris Bosh, Dwyane Wade, and Carmelo Anthony, all of which were once his teammates at some point of his career. LeBron James is so old, it's pretty common knowledge that he was teammates with his own son, Bronny James. But did you know Bronny was born during LeBron's second NBA season, not before he entered the NBA?",
+ "retention_tricks": [
+  "rapid animation changes",
+  "meme video inserts",
+  "humorous exaggerated historical comparisons",
+  "looping narrative structure"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": false,
+  "ends_on_payoff": true,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "Absurd historical comparisons that make LeBron sound impossibly ancient",
+  "Fast-paced blending of custom animations, memes, and real NBA clips",
+  "Comedic timing and energetic narration delivering punchlines quickly"
+ ],
+ "_meta": {
+  "source": "FuDbk7L_-KQ",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

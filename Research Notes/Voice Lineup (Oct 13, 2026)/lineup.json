@@ -1,0 +1,67 @@
+[
+ {
+  "slot": 1,
+  "voice": "clone_C",
+  "dur": 15.0,
+  "wpm": 307,
+  "lufs_after": -16.7,
+  "gain_db": 14.5,
+  "hnr": 7.7,
+  "jitter": 2.67,
+  "shimmer": 10.42,
+  "f0_med": 200.0,
+  "heard": "An Instagram account said Cooper Flagg grew 2 inches this summer, so at media day a reporter asked, taller than last year, 6 '11\", not so fast. His team physical the day before, reported by Mark Stein, said 6 '10\", without shoes. And the NBA's website still lists him at 6 '9\", then 5 days later he claimed another quarter inch, 6 '10\", and a half with shoes. So is he 6 '11\"? Flagg's answer."
+ },
+ {
+  "slot": 2,
+  "voice": "posted_19",
+  "dur": 17.5,
+  "wpm": 263,
+  "lufs_after": -16.5,
+  "gain_db": 12.4,
+  "hnr": 6.9,
+  "jitter": 2.91,
+  "shimmer": 10.62,
+  "f0_med": 204.0,
+  "heard": "An Instagram account said Cooper Flagg grew 2 inches this summer, so at media day a reporter asked taller than last year? 6 '11? Not so fast. His team physical the day before, reported by Mark Stein, said 6 '10 without shoes. And the NBA's website still lists him at 6 '9. Then five days later, he claimed another quarter inch, 6 '10 and a half with shoes. So is he 6 '11? Flagg's answer."
+ },
+ {
+  "slot": 3,
+  "voice": "liam_v3",
+  "dur": 25.4,
+  "wpm": 181,
+  "lufs_after": -16.9,
+  "gain_db": 5.0,
+  "hnr": 8.2,
+  "jitter": 2.74,
+  "shimmer": 9.74,
+  "f0_med": 116.0,
+  "heard": "An Instagram account said Cooper Flagg grew two inches this summer, so at Media Day, a reporter asked, taller than last year, 6 '11\", not so fast. His team physical the day before, reported by Mark Stein, said 6 '10\", without shoes. And the NBA's website still lists him at 6 '9\". Then, five days later, he claimed another quarter inch, 6 '10\", and a half, with shoes. So is he 6 '11\"? Flag's answer."
+ },
+ {
+  "slot": 4,
+  "voice": "adam_v3",
+  "dur": 25.3,
+  "wpm": 176,
+  "lufs_after": -16.4,
+  "gain_db": 0.1,
+  "hnr": 9.1,
+  "jitter": 2.21,
+  "shimmer": 8.92,
+  "f0_med": 143.0,
+  "heard": "An Instagram account said Cooper Flagg grew 2 inches this summer, so at Media Day a reporter asked, taller than last year? 6 '11? Not so fast. His team physical the day before reported by Mark Stein said 6 '10 without shoes, and the NBA's website still lists him at 6 '9. Then five days later he claimed another quarter inch. 6 '10 .5 with shoes. So is he 6 '11? Flagg's answer."
+ },
+ {
+  "slot": 5,
+  "voice": "charlie_v3",
+  "dur": 25.2,
+  "wpm": 178,
+  "lufs_after": -16.7,
+  "gain_db": 3.3,
+  "hnr": 10.3,
+  "jitter": 3.13,
+  "shimmer": 10.19,
+  "f0_med": 127.0,
+  "heard": "An Instagram account said Cooper Flagg grew two inches this summer. So at media day, a reporter asked, taller than last year? 6 '11? Not so fast. His team physical the day before, reported by Mark Stein, said 6 '10 without shoes. And the NBA's website still lists him at 6 '9. Then, five days later, he claimed another quarter inch. 6 '10 .5 with shoes. So is he 6 '11? Flag's answer."
+ }
+]

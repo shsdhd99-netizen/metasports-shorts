@@ -1,0 +1,106 @@
+[
+ {
+  "clip": "S1o.mp4",
+  "kind": "face",
+  "start": 0.0,
+  "why": "Split: Knecht (top) over Bronny (bottom), Lakers Media Day 2024 (Lakers official). Words: #17 CUT / #55 KEPT"
+ },
+ {
+  "clip": "S2o.mp4",
+  "kind": "action",
+  "anchor": "In 2024",
+  "why": "Knecht (#4) walking onto the floor at 2024 Summer League, right after the draft (Lakers official). Words: #17 PICK",
+  "start": 2.81
+ },
+ {
+  "clip": "S3o.mp4",
+  "kind": "action",
+  "anchor": "and Bronny James",
+  "why": "Bronny (#9) at 2024 Summer League, right after the draft (Lakers official). Words: #55 PICK",
+  "start": 5.45
+ },
+ {
+  "clip": "S4o.mp4",
+  "kind": "action",
+  "anchor": "As a rookie",
+  "why": "Knecht (#4, KNECHT on the back) hits a three over Utah, Nov 2024, the 37-point game (Lakers official). Words: 9 THREES",
+  "start": 6.99
+ },
+ {
+  "clip": "S5o.mp4",
+  "kind": "face",
+  "anchor": "thirty-seven",
+  "why": "Knecht smiling after a three, same game. Words: 37 PTS",
+  "start": 9.26
+ },
+ {
+  "clip": "S6.mp4",
+  "kind": "action",
+  "anchor": "Bronny was",
+  "why": "LeBron (#23 JAMES) and Bronny (#9 JAMES JR.) on court together for the first time, Oct 22 2024 (Lakers official)",
+  "start": 10.43
+ },
+ {
+  "clip": "S7a.mp4",
+  "kind": "action",
+  "anchor": "But on Monday",
+  "why": "Lakers bench on its feet, Nov 2024 (same Knecht game)",
+  "start": 12.87
+ },
+ {
+  "clip": "S7bo.mp4",
+  "kind": "action",
+  "anchor": "sixteen players",
+  "why": "Knecht (#4), #29 and Bronny (#9) together at 2024 Summer League (Lakers official). Words: 16 PLAYERS / 15 SPOTS",
+  "start": 14.08
+ },
+ {
+  "clip": "S8.mp4",
+  "kind": "face",
+  "anchor": "They'd been",
+  "why": "Knecht at Lakers Media Day 2025 (Lakers official)",
+  "start": 16.1
+ },
+ {
+  "clip": "S9.mp4",
+  "kind": "action",
+  "anchor": "They even",
+  "why": "Knecht (#4) shooting a three vs the Clippers, Mar 2025, back with the Lakers after the cancelled Charlotte trade (Lakers official)",
+  "start": 18.0
+ },
+ {
+  "clip": "S10ao.mp4",
+  "kind": "action",
+  "anchor": "So they waived",
+  "why": "Knecht from behind (KNECHT 4) vs OKC, Nov 2024 (Lakers official). Words: WAIVED",
+  "start": 20.17
+ },
+ {
+  "clip": "S10bo.mp4",
+  "kind": "face",
+  "anchor": "$4.2 million",
+  "why": "Knecht at Media Day 2025 (Lakers official). Words: $4.2M OWED",
+  "start": 21.83
+ },
+ {
+  "clip": "S11.mp4",
+  "kind": "face",
+  "anchor": "And LeBron",
+  "why": "LeBron in a 76ers #23 PHILA jersey at Sixers media day, Sep 28 2026 (The Sporting News post on X)",
+  "start": 23.31
+ },
+ {
+  "clip": "S12.mp4",
+  "kind": "face",
+  "anchor": "His son",
+  "why": "Bronny in a Lakers #9 jersey, Media Day 2025",
+  "start": 25.11
+ },
+ {
+  "clip": "S13o.mp4",
+  "kind": "face",
+  "anchor": "The fifty-fifth pick outlasted",
+  "why": "Split again (Media Day 2024): loops to frame 1. Words: #55 KEPT / #17 CUT",
+  "start": 25.87
+ }
+]

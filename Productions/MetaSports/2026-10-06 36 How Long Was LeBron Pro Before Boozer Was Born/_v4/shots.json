@@ -1,0 +1,101 @@
+[
+    {
+        "clip":  "L1.mp4",
+        "kind":  "face",
+        "start":  0,
+        "why":  "Rookie LeBron #23 (NBA official rookie highlights): \u0027LeBron\u0027s teammate from his rookie year\u0027"
+    },
+    {
+        "clip":  "B1.mp4",
+        "kind":  "action",
+        "start":  1.56,
+        "why":  "Cameron Boozer #27 Grizzlies, Summer League (NBA post): \u0027now has a son in the NBA\u0027"
+    },
+    {
+        "clip":  "W1.mp4",
+        "kind":  "action",
+        "start":  3.5,
+        "why":  "Rookie LeBron #23 with a teammate (NBA official rookie highlights), words over footage: 75 STARTS"
+    },
+    {
+        "clip":  "W1b.mp4",
+        "kind":  "action",
+        "start":  4.8,
+        "why":  "Rookie LeBron #23 JAMES from behind (NBA official), no text"
+    },
+    {
+        "clip":  "L2.mp4",
+        "kind":  "action",
+        "start":  5.54,
+        "why":  "Rookie LeBron #23 fast break and dunk vs Blazers, Dec 2003, slowed 1.1x (NBA official): \u0027next to a teenage LeBron\u0027"
+    },
+    {
+        "clip":  "B2.mp4",
+        "kind":  "action",
+        "start":  7.71,
+        "why":  "Cameron #27 rising, Summer League (NBA post): \u0027This summer, Memphis\u0027"
+    },
+    {
+        "clip":  "D1.mp4",
+        "kind":  "action",
+        "start":  8.6,
+        "why":  "Cameron Boozer, Duke #12 dunk (ESPN post): \u0027drafted his son\u0027"
+    },
+    {
+        "clip":  "B3.mp4",
+        "kind":  "action",
+        "start":  9.9,
+        "why":  "Cameron #27 Grizzlies steal and run (NBA post): \u0027third overall\u0027"
+    },
+    {
+        "clip":  "J1.mp4",
+        "kind":  "face",
+        "start":  10.87,
+        "why":  "LeBron #23 Cavaliers face, 2007 Eastern Conference Finals G5 vs Pistons (NBAHistory post)"
+    },
+    {
+        "clip":  "J2.mp4",
+        "kind":  "action",
+        "start":  11.53,
+        "why":  "LeBron #23 dunk, 2007 ECF G5 (NBAHistory post): \u0027how long LeBron has been around\u0027"
+    },
+    {
+        "clip":  "J3.mp4",
+        "kind":  "face",
+        "start":  12.5,
+        "why":  "LeBron #23 flex, 2007 ECF G5 (NBAHistory post)"
+    },
+    {
+        "clip":  "W2.mp4",
+        "kind":  "action",
+        "start":  13.61,
+        "why":  "LeBron #23 vs Pistons, 2007 ECF G5 (NBAHistory), words over footage: 34 DAYS"
+    },
+    {
+        "clip":  "B4.mp4",
+        "kind":  "action",
+        "start":  15.26,
+        "why":  "Cameron #27 Grizzlies dunk (NBA post): \u0027the league\u0027s youngest player\u0027",
+        "zoom":  0.05
+    },
+    {
+        "clip":  "W3.mp4",
+        "kind":  "face",
+        "start":  17.17,
+        "why":  "LeBron #23 Sixers media day, words over footage: YEAR 24"
+    },
+    {
+        "clip":  "D2.mp4",
+        "kind":  "action",
+        "start":  19.14,
+        "why":  "Carlos Boozer in the stands watching Cameron at Duke (ESPN post): \u0027Two generations of Boozers\u0027",
+        "zoom":  0.05
+    },
+    {
+        "clip":  "S1.mp4",
+        "kind":  "face",
+        "start":  20.43,
+        "why":  "LeBron #23 Sixers media day, smiling (Sixers post): \u0027One LeBron\u0027",
+        "zoom":  0.05
+    }
+]

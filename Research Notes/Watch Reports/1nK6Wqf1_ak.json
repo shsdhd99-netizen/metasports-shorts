@@ -1,0 +1,327 @@
+{
+ "length_s": 67.29,
+ "topic": "An analysis of whether Shaedon Sharpe's meniscus injury actually helps the Portland Trail Blazers by clearing a crowded backcourt logjam.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "How much does the Shaedon Sharpe injury actually hurt Portland",
+  "first_frame": "Shaedon Sharpe driving to the basket during a game",
+  "on_screen_text_0_3s": "How much does the Shaedon Sharpe injury actually HURT Portland, or does it LOWKEY HELP?",
+  "shots_in_first_3s": 3
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 1.13,
+   "shows": "Shaedon Sharpe driving to the basket",
+   "kind": "action"
+  },
+  {
+   "start_s": 1.13,
+   "end_s": 2.4,
+   "shows": "Sharpe taking a hard fall on court",
+   "kind": "action"
+  },
+  {
+   "start_s": 2.4,
+   "end_s": 4.67,
+   "shows": "Players looking at fallen Sharpe",
+   "kind": "action"
+  },
+  {
+   "start_s": 4.67,
+   "end_s": 5.73,
+   "shows": "Shaedon Sharpe in Portland jersey portrait",
+   "kind": "still"
+  },
+  {
+   "start_s": 5.73,
+   "end_s": 7.1,
+   "shows": "Sharpe sitting at media day",
+   "kind": "still"
+  },
+  {
+   "start_s": 7.1,
+   "end_s": 9.1,
+   "shows": "Sharpe walking on court",
+   "kind": "stock"
+  },
+  {
+   "start_s": 9.1,
+   "end_s": 10.13,
+   "shows": "Vince McMahon looking serious",
+   "kind": "stock"
+  },
+  {
+   "start_s": 10.13,
+   "end_s": 11.7,
+   "shows": "Sharpe speaking at podium",
+   "kind": "face"
+  },
+  {
+   "start_s": 11.7,
+   "end_s": 13.97,
+   "shows": "Sharpe celebrating on court",
+   "kind": "action"
+  },
+  {
+   "start_s": 13.97,
+   "end_s": 15.67,
+   "shows": "Sharpe looking up during game",
+   "kind": "action"
+  },
+  {
+   "start_s": 15.67,
+   "end_s": 16.9,
+   "shows": "Portland Trail Blazers logo graphic",
+   "kind": "text_card"
+  },
+  {
+   "start_s": 16.9,
+   "end_s": 18.73,
+   "shows": "Sharpe speaking at press conference",
+   "kind": "face"
+  },
+  {
+   "start_s": 18.73,
+   "end_s": 20.97,
+   "shows": "Jon Bernthal looking shocked/intense",
+   "kind": "stock"
+  },
+  {
+   "start_s": 20.97,
+   "end_s": 22.73,
+   "shows": "Sharpe falling on court red jersey",
+   "kind": "action"
+  },
+  {
+   "start_s": 22.73,
+   "end_s": 24.3,
+   "shows": "Sharpe getting physical therapy/massaged",
+   "kind": "stock"
+  },
+  {
+   "start_s": 24.3,
+   "end_s": 26.53,
+   "shows": "NBA game broadcast on old TV",
+   "kind": "stock"
+  },
+  {
+   "start_s": 26.53,
+   "end_s": 27.97,
+   "shows": "Sharpe speaking at press conference",
+   "kind": "face"
+  },
+  {
+   "start_s": 27.97,
+   "end_s": 29.83,
+   "shows": "Sharpe getting ears checked / headphones",
+   "kind": "stock"
+  },
+  {
+   "start_s": 29.83,
+   "end_s": 30.9,
+   "shows": "Sharpe lying in bed resting",
+   "kind": "stock"
+  },
+  {
+   "start_s": 30.9,
+   "end_s": 32.93,
+   "shows": "Sharpe in hoodie speaking",
+   "kind": "face"
+  },
+  {
+   "start_s": 32.93,
+   "end_s": 34.63,
+   "shows": "Sharpe in jersey with falling money effect",
+   "kind": "stock"
+  },
+  {
+   "start_s": 34.63,
+   "end_s": 35.73,
+   "shows": "Homelander from The Boys looking intense",
+   "kind": "stock"
+  },
+  {
+   "start_s": 35.73,
+   "end_s": 38.33,
+   "shows": "Sharpe in Blazer warmup jacket",
+   "kind": "still"
+  },
+  {
+   "start_s": 38.33,
+   "end_s": 39.1,
+   "shows": "IShowSpeed looking shocked in room",
+   "kind": "stock"
+  },
+  {
+   "start_s": 39.1,
+   "end_s": 41.6,
+   "shows": "NBA game broadcast on old TV",
+   "kind": "stock"
+  },
+  {
+   "start_s": 41.6,
+   "end_s": 43.1,
+   "shows": "Sharpe speaking at press conference",
+   "kind": "face"
+  },
+  {
+   "start_s": 43.1,
+   "end_s": 43.53,
+   "shows": "Ja Morant smiling in Grizzlies jersey",
+   "kind": "still"
+  },
+  {
+   "start_s": 43.53,
+   "end_s": 45.57,
+   "shows": "Damian Lillard tapping wrist in Blazers jersey",
+   "kind": "still"
+  },
+  {
+   "start_s": 45.57,
+   "end_s": 46.97,
+   "shows": "Jrue Holiday running on court",
+   "kind": "action"
+  },
+  {
+   "start_s": 46.97,
+   "end_s": 47.93,
+   "shows": "Scoot Henderson in red jersey",
+   "kind": "still"
+  },
+  {
+   "start_s": 47.93,
+   "end_s": 49.63,
+   "shows": "Scoot Henderson looking intense during game",
+   "kind": "action"
+  },
+  {
+   "start_s": 49.63,
+   "end_s": 51.77,
+   "shows": "4-player graphic (Holiday, Morant, Lillard, Henderson)",
+   "kind": "text_card"
+  },
+  {
+   "start_s": 51.77,
+   "end_s": 53.63,
+   "shows": "Sharpe holding head in hands looking frustrated",
+   "kind": "action"
+  },
+  {
+   "start_s": 53.63,
+   "end_s": 56.1,
+   "shows": "Crying meme face close up",
+   "kind": "stock"
+  },
+  {
+   "start_s": 56.1,
+   "end_s": 58.63,
+   "shows": "Sharpe speaking in brown hoodie",
+   "kind": "face"
+  },
+  {
+   "start_s": 58.63,
+   "end_s": 59.8,
+   "shows": "Sharpe in Blazer warmup jacket",
+   "kind": "still"
+  },
+  {
+   "start_s": 59.8,
+   "end_s": 61.1,
+   "shows": "Sharpe in hoodie speaking",
+   "kind": "face"
+  },
+  {
+   "start_s": 61.1,
+   "end_s": 63.3,
+   "shows": "Ja Morant and Damian Lillard side-by-side graphic",
+   "kind": "text_card"
+  },
+  {
+   "start_s": 63.3,
+   "end_s": 64.6,
+   "shows": "Scoot Henderson looking intense during game",
+   "kind": "action"
+  },
+  {
+   "start_s": 64.6,
+   "end_s": 67.29,
+   "shows": "Coach press conference at podium",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 42,
+ "average_shot_s": 1.6,
+ "longest_shot_s": 2.7,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 175,
+  "tone": "analytical and engaging",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "dramatic hip-hop beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "mixed",
+  "position": "middle",
+  "colours": "white with occasional yellow highlights",
+  "highlight_style": "word-by-word colour change"
+ },
+ "text_overlays": [
+  {
+   "at_s": 4.67,
+   "text": "SHAEDON SHARPE"
+  },
+  {
+   "at_s": 14.0,
+   "text": "20.8 POINTS PER GAME"
+  },
+  {
+   "at_s": 50.0,
+   "text": "5 12 0 00"
+  }
+ ],
+ "cards_or_graphics": 4,
+ "framing": "zoom",
+ "ending": {
+  "last_words": "a rotation that actually makes sense.",
+  "last_frame": "Coach press conference at podium",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "How much does the Shaedon Sharpe injury actually HURT Portland, or does it LOWKEY HELP? Shaedon Sharpe just tore the meniscus in his right knee, and he's expected to miss about six months, which is brutal timing because he's only 23 years old and just wrapped up the best season of his career, averaging 20.8 points a game for the Portland Trail Blazers. But the six months on the sidelines is the part everyone will forget about a year from now. This is another major leg injury for a guy who has struggled to stay healthy, since last season he missed a huge chunk of games with a stress fracture in his other leg, and before that he needed surgery for a core muscle injury. So for a player Portland just handed a 4 year, 90 million dollar contract, that history is a real worry. But that worry is exactly why the reaction to this injury has been so strange. Portland's roster was already jammed before this, because over the offseason they traded for Ja Morant and got Damian Lillard back healthy, so when you add in Jrue Holiday and Scoot Henderson, you've suddenly got four quality guards all fighting for minutes at basically two spots, and Sharpe was already getting pushed to the bench. So even though losing a 20 point scorer hurts, several writers are quietly calling it a silver lining, because with Sharpe out, that logjam clears up on its own. Lillard and Morant can start, with Holiday and Henderson backing them up, and the new coach finally has a rotation that actually makes sense.",
+ "retention_tricks": [
+  "fast-paced cutting averaging under 2 seconds per shot",
+  "pop culture meme inserts (Vince McMahon, Jon Bernthal, Homelander, IShowSpeed)",
+  "dynamic word-by-word caption highlighting",
+  "zooms and graphic overlays"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "Provocative premise challenging conventional wisdom about a star player's injury",
+  "Relentless pacing with diverse meme and B-roll cutaways to maintain high engagement",
+  "Clear narrative structure moving from the bad news to the roster logjam silver lining"
+ ],
+ "_meta": {
+  "source": "1nK6Wqf1_ak",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

@@ -1,0 +1,102 @@
+{
+ "length_s": 9.54,
+ "topic": "A basketball player pulls off a move and celebrates, irritating opponents and viewers.",
+ "lane": "moment",
+ "hook": {
+  "first_words": "unknown",
+  "first_frame": "A basketball player in black with an orange V logo dribbling on an outdoor court.",
+  "on_screen_text_0_3s": "Bro mastered ragebait 😭",
+  "shots_in_first_3s": 1
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 3.75,
+   "shows": "Basketball players on outdoor court, one crosses over the other",
+   "kind": "action"
+  },
+  {
+   "start_s": 3.75,
+   "end_s": 4.75,
+   "shows": "Anime character with teal hair and angry expression",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 4.75,
+   "end_s": 9.0,
+   "shows": "Player shooting a basket and then doing a celebratory dance",
+   "kind": "action"
+  },
+  {
+   "start_s": 9.0,
+   "end_s": 9.54,
+   "shows": "LeBron James looking annoyed on his phone",
+   "kind": "screenshot"
+  }
+ ],
+ "shot_count": 4,
+ "average_shot_s": 2.385,
+ "longest_shot_s": 4.25,
+ "voice": {
+  "type": "none",
+  "gender": "unknown",
+  "words_per_minute_estimate": 0,
+  "tone": "unknown",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "rap remix / upbeat",
+  "level_vs_voice": "loud",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": false,
+  "words_per_line": 0,
+  "case": "unknown",
+  "position": "unknown",
+  "colours": [],
+  "highlight_style": "unknown"
+ },
+ "text_overlays": [
+  {
+   "at_s": 0.0,
+   "text": "Bro mastered ragebait 😭"
+  }
+ ],
+ "cards_or_graphics": 2,
+ "framing": "crop",
+ "ending": {
+  "last_words": "unknown",
+  "last_frame": "LeBron James looking annoyed looking at a phone screen.",
+  "loops_to_start": true,
+  "call_to_action": "none"
+ },
+ "script": "",
+ "retention_tricks": [
+  "Anime meme insert",
+  "Reaction meme at the end",
+  "Fast pacing"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": false,
+  "ends_on_payoff": true,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "Relatable and humorous reaction memes that amplify the video's theme.",
+  "High-energy basketball action clip that captures immediate attention.",
+  "Quick cuts keeping the viewer engaged throughout the short duration."
+ ],
+ "_meta": {
+  "source": "wfOHxN4b7oU",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

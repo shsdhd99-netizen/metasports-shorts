@@ -1,0 +1,15 @@
+Voice check: REDO   (103 words, 29.5s, 210 wpm)
+  REDO   2.52s  script "the" but heard "(nothing)"
+  REDO  12.06s  script "naz reid" but heard "nas reads"
+  note  16.30s  script "okoro" but heard "a"
+  note  27.22s  script "isn't" but heard "is in"
+  note  29.34s  script "" but heard "thanks"
+  note   5.24s  "plumlee" heard as "plumley" (close; check the name)
+  note  12.70s  "divincenzo reid" heard as "devin chinzo reed" (close; check the name)
+  note  18.06s  "day'ron sharpe" heard as "dearon sharp" (close; check the name)
+  note   8.31s  very quiet word "arms," (-13 dB)
+  note   8.64s  very quiet word "and" (-12 dB)
+  note  14.54s  very quiet word "both" (-13 dB)
+  note  15.43s  very quiet word "he" (-23 dB)
+  note  21.71s  very quiet word "on." (-12 dB)
+  heard: A screen is legal, shoving while you set one is a foul. NBA just showed referees exactly where the line is. Mason Plumley sets a screen. But he then extends his arms, and he pushes the on -ball defender. Foul, says the NBA. Next, Nas reads screens for Devin Chinzo. Reed then extends both arms, and he pushes a - Foul. Robert Williams. Foul. Dearon Sharp. Foul. But Isaiah Stewart makes contact on a screen too, and the NBA says play on. Why? This contact by Stewart does not affect Black's ability to play defense. The line is in contact. It's whether the defender can still play. Thanks

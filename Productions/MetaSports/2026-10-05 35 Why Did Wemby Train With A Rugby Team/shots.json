@@ -1,0 +1,124 @@
+[
+ {
+  "clip": "v1.mp4",
+  "start": 0.0,
+  "anchor": "Wembanyama",
+  "kind": "face",
+  "zoom": 0.1
+ },
+ {
+  "clip": "v2.mp4",
+  "start": 1.22,
+  "anchor": "four days",
+  "kind": "action"
+ },
+ {
+  "clip": "v3.mp4",
+  "start": 1.88,
+  "anchor": "pro rugby",
+  "kind": "action"
+ },
+ {
+  "clip": "v4.mp4",
+  "start": 2.59,
+  "anchor": "and only now",
+  "kind": "action"
+ },
+ {
+  "clip": "v6.mp4",
+  "start": 3.8,
+  "anchor": "Provence",
+  "kind": "action"
+ },
+ {
+  "clip": "v7.mp4",
+  "start": 4.54,
+  "anchor": "a French",
+  "kind": "action"
+ },
+ {
+  "clip": "v8.mp4",
+  "start": 5.81,
+  "anchor": "posted the",
+  "kind": "action"
+ },
+ {
+  "clip": "v9.mp4",
+  "start": 7.11,
+  "anchor": "Wemby, in",
+  "kind": "action"
+ },
+ {
+  "clip": "v10.mp4",
+  "start": 8.34,
+  "anchor": "Harrison",
+  "kind": "face"
+ },
+ {
+  "clip": "v11.mp4",
+  "start": 9.05,
+  "anchor": "He admits",
+  "kind": "action"
+ },
+ {
+  "clip": "v12.mp4",
+  "start": 10.85,
+  "anchor": "They hand",
+  "kind": "action"
+ },
+ {
+  "clip": "v13.mp4",
+  "start": 12.0,
+  "anchor": "Then the",
+  "kind": "action"
+ },
+ {
+  "clip": "v14.mp4",
+  "start": 13.59,
+  "anchor": "The coach",
+  "kind": "action"
+ },
+ {
+  "clip": "v15.mp4",
+  "start": 15.69,
+  "anchor": "strange",
+  "kind": "action"
+ },
+ {
+  "clip": "s1.mp4",
+  "start": 16.71,
+  "anchor": "Last summer",
+  "kind": "action"
+ },
+ {
+  "clip": "s2.mp4",
+  "start": 18.07,
+  "anchor": "Shaolin",
+  "kind": "action"
+ },
+ {
+  "clip": "v17.mp4",
+  "start": 18.88,
+  "anchor": "So why",
+  "kind": "action"
+ },
+ {
+  "clip": "g1.mp4",
+  "start": 19.8,
+  "anchor": "the training",
+  "kind": "quote"
+ },
+ {
+  "clip": "v16.mp4",
+  "start": 21.88,
+  "anchor": "good for",
+  "kind": "action"
+ },
+ {
+  "clip": "v1.mp4",
+  "start": 23.96,
+  "anchor": "new movement",
+  "kind": "face",
+  "in": 0.2
+ }
+]

@@ -1,0 +1,199 @@
+{
+ "length_s": 80.5,
+ "topic": "Ranking every NBA Rookie of the Year runner-up from 2016 to 2026 and debating who was better.",
+ "lane": "list",
+ "hook": {
+  "first_words": "What happened to every Rookie of the Year runner-up since 2016?",
+  "first_frame": "Animated caricature characters of 2026 rookies under '2026 1st 2nd' heading with text overlay 'Rookie of the Year Runners Up:'",
+  "on_screen_text_0_3s": "Rookie of the Year Runners Up:",
+  "shots_in_first_3s": 1
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 5.75,
+   "shows": "Caricature figures scrolling horizontally through draft years from 2026 backwards to 2016",
+   "kind": "animation"
+  },
+  {
+   "start_s": 5.75,
+   "end_s": 9.6,
+   "shows": "Karl-Anthony Towns and Kristaps Porzingis side-by-side photo comparison with stats",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 9.6,
+   "end_s": 11.9,
+   "shows": "2016 and 2017 cartoon characters",
+   "kind": "animation"
+  },
+  {
+   "start_s": 11.9,
+   "end_s": 16.0,
+   "shows": "Dario Saric dunk replay",
+   "kind": "replay"
+  },
+  {
+   "start_s": 16.0,
+   "end_s": 18.5,
+   "shows": "2018 cartoon characters (Ben Simmons and Donovan Mitchell)",
+   "kind": "animation"
+  },
+  {
+   "start_s": 18.5,
+   "end_s": 22.0,
+   "shows": "Donovan Mitchell game footage",
+   "kind": "replay"
+  },
+  {
+   "start_s": 22.0,
+   "end_s": 24.7,
+   "shows": "2019 cartoon characters (Luka Doncic and Trae Young)",
+   "kind": "animation"
+  },
+  {
+   "start_s": 24.7,
+   "end_s": 30.0,
+   "shows": "Luka Doncic draft/red carpet entrance",
+   "kind": "stock"
+  },
+  {
+   "start_s": 30.0,
+   "end_s": 32.7,
+   "shows": "2020 cartoon characters (Ja Morant and Kendrick Nunn)",
+   "kind": "animation"
+  },
+  {
+   "start_s": 32.7,
+   "end_s": 37.8,
+   "shows": "Ja Morant high-flying dunk",
+   "kind": "replay"
+  },
+  {
+   "start_s": 37.8,
+   "end_s": 44.4,
+   "shows": "2021 cartoon characters dancing animation",
+   "kind": "animation"
+  },
+  {
+   "start_s": 44.4,
+   "end_s": 49.9,
+   "shows": "Scotty Barnes dunk replay",
+   "kind": "replay"
+  },
+  {
+   "start_s": 49.9,
+   "end_s": 54.9,
+   "shows": "Scottie Barnes tunnel walk",
+   "kind": "stock"
+  },
+  {
+   "start_s": 54.9,
+   "end_s": 56.9,
+   "shows": "2023 cartoon characters (Paolo Banchero and Jalen Williams)",
+   "kind": "animation"
+  },
+  {
+   "start_s": 56.9,
+   "end_s": 60.0,
+   "shows": "Jalen Williams dancing animation",
+   "kind": "animation"
+  },
+  {
+   "start_s": 60.0,
+   "end_s": 63.3,
+   "shows": "2024 cartoon characters (Victor Wembanyama and Chet Holmgren)",
+   "kind": "animation"
+  },
+  {
+   "start_s": 63.3,
+   "end_s": 109.0,
+   "shows": "Chet Holmgren and Victor Wembanyama blocks/play",
+   "kind": "replay"
+  },
+  {
+   "start_s": 109.0,
+   "end_s": 112.9,
+   "shows": "2025 cartoon characters",
+   "kind": "animation"
+  },
+  {
+   "start_s": 112.9,
+   "end_s": 114.9,
+   "shows": "Stephon Castle highlight",
+   "kind": "replay"
+  },
+  {
+   "start_s": 114.9,
+   "end_s": 120.5,
+   "shows": "2026 cartoon characters dancing with legends",
+   "kind": "animation"
+  }
+ ],
+ "shot_count": 20,
+ "average_shot_s": 4.03,
+ "longest_shot_s": 45.7,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 175,
+  "tone": "energetic and analytical sports narrator",
+  "original_audio_under_voice": true
+ },
+ "music": {
+  "present": true,
+  "style": "upbeat hip-hop / trap beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": false,
+  "words_per_line": 0,
+  "case": "unknown",
+  "position": "unknown",
+  "colours": "none",
+  "highlight_style": "none"
+ },
+ "text_overlays": [
+  {
+   "at_s": 0.0,
+   "text": "Rookie of the Year Runners Up:"
+  }
+ ],
+ "cards_or_graphics": 1,
+ "framing": "cropped",
+ "ending": {
+  "last_words": "ever.",
+  "last_frame": "Animated caricatures of rookies and NBA legends dancing on a basketball court under '2026 1st 2nd' text.",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "What happened to every Rookie of the Year runner-up since 2016? In 2016, Karl-Anthony Towns won over Kristaps Porzingis. Porzingis eventually became an NBA champion. In 2017, Malcolm Brogdon won over Dario Saric. Probably the least star-studded matchup on this list. In 2018, was Ben Simmons over Donovan Mitchell. And career-wise, Mitchell has obviously aged much better. In 2019, was Luka Doncic over Trae Young. Luka, I would say, is easily the better player though. Both players became superstars. In 2020, was Ja Morant over Kendrick Nunn. And this one isn't even close long-term. Nunn only spent three seasons in the NBA, while Ja is already a perennial All-NBA player and an NBA champion. 2021 was LaMelo Ball over Anthony Edwards. And somehow five years later, they're now teammates in Minnesota. 2022 was Scottie Barnes over Evan Mobley, and just by fifteen voting points, Scottie won. Both players are good, and it's still just as close to this day on who was better. 2023 was Paolo Banchero over Jalen Williams. Jalen Dub has already become an All-NBA player and an NBA champion. 2024 was Victor Wembanyama over Chet Holmgren, two young centres who most recently faced off in the Western Conference Finals, who have been rivals since they both entered the NBA. 2025 was Stephon Castle over Zachary Risacher, with Castle getting ninety-two first-place votes, and most recently was Cooper Flagg beating Kon Knueppel in one of the closest Rookie of the Year races ever.",
+ "retention_tricks": [
+  "rapid year-by-year chronological progression",
+  "animated caricatures representing players",
+  "gameplay highlight clips inserted between rankings",
+  "visual contrast of player head-to-head comparisons"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": true,
+  "replay_of_key_moment": true,
+  "promise_in_first_line": true,
+  "ends_on_payoff": false,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "Engaging animated character avatars for every player across multiple draft classes",
+  "Seamless transitions between historical cartoon standings and real game highlights",
+  "Fascinating historical debate on who had the better career between winners and runners-up"
+ ],
+ "_meta": {
+  "source": "PIMrH4qSvAk",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

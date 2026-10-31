@@ -1,0 +1,1 @@
+2026-10-03 13 Is Kawhi Worth All T   REDO HNR   8.4 jit 2.60 shim 10.49 jumps/s 0.00 clicks/min 566.7 hf%  3.37 f0 220 dur 22.87  HNR 8.4 dB (noisy/robotic); jitter 2.6% (shaky); shimmer 10.49% (uneven loudness); 566.7 clicks/min

@@ -1,0 +1,50 @@
+{
+ "engine": "ffmpeg",
+ "out": "final.mp4",
+ "loop_fix": true,
+ "fits": [
+  {
+   "shot": 1,
+   "clip": "S1.mp4",
+   "fit": "slowed",
+   "factor": 1.044
+  },
+  {
+   "shot": 2,
+   "clip": "S2o.mp4",
+   "fit": "slowed",
+   "factor": 1.076
+  },
+  {
+   "shot": 5,
+   "clip": "S5o.mp4",
+   "fit": "slowed",
+   "factor": 1.05
+  },
+  {
+   "shot": 6,
+   "clip": "S6o.mp4",
+   "fit": "slowed",
+   "factor": 1.026
+  },
+  {
+   "shot": 7,
+   "clip": "S6bo.mp4",
+   "fit": "slowed",
+   "factor": 1.314
+  },
+  {
+   "shot": 8,
+   "clip": "S7.mp4",
+   "fit": "slowed",
+   "factor": 1.238
+  },
+  {
+   "shot": 11,
+   "clip": "S10.mp4",
+   "fit": "slowed",
+   "factor": 1.118
+  }
+ ],
+ "music": null
+}

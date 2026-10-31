@@ -1,0 +1,218 @@
+{
+ "length_s": 64.0,
+ "topic": "NBA star Jimmy Butler forcing his way out of the Minnesota Timberwolves by dominating starters in practice with the bench squad.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "NBA stars who BLEW UP their own team to FORCE their way out!",
+  "first_frame": "NBA basketball game action with players on the court",
+  "on_screen_text_0_3s": "NBA stars who BLEW UP their own team to FORCE their way out!",
+  "shots_in_first_3s": 2
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 3.0,
+   "shows": "NBA game footage under basket",
+   "kind": "action"
+  },
+  {
+   "start_s": 3.0,
+   "end_s": 6.0,
+   "shows": "Jimmy Butler in Bulls jersey portrait",
+   "kind": "still"
+  },
+  {
+   "start_s": 6.0,
+   "end_s": 8.0,
+   "shows": "Jimmy Butler with Timberwolves logo",
+   "kind": "still"
+  },
+  {
+   "start_s": 8.0,
+   "end_s": 11.0,
+   "shows": "Jimmy Butler and coach Tom Thibodeau at press conference",
+   "kind": "still"
+  },
+  {
+   "start_s": 11.0,
+   "end_s": 13.0,
+   "shows": "Jimmy Butler in All-Star warmup gear",
+   "kind": "still"
+  },
+  {
+   "start_s": 13.0,
+   "end_s": 17.0,
+   "shows": "Jimmy Butler and James Harden fighting for position, graphic overlay",
+   "kind": "action"
+  },
+  {
+   "start_s": 17.0,
+   "end_s": 19.0,
+   "shows": "Leonardo DiCaprio pointing meme",
+   "kind": "stock"
+  },
+  {
+   "start_s": 19.0,
+   "end_s": 21.0,
+   "shows": "Jimmy Butler interview closeup",
+   "kind": "face"
+  },
+  {
+   "start_s": 21.0,
+   "end_s": 25.0,
+   "shows": "Karl-Anthony Towns and Andrew Wiggins photos",
+   "kind": "still"
+  },
+  {
+   "start_s": 25.0,
+   "end_s": 29.0,
+   "shows": "Jimmy Butler interview closeup",
+   "kind": "face"
+  },
+  {
+   "start_s": 29.0,
+   "end_s": 33.0,
+   "shows": "Jimmy Butler in suit and GM talking to press",
+   "kind": "still"
+  },
+  {
+   "start_s": 33.0,
+   "end_s": 36.5,
+   "shows": "Wolves practice facility interior on TV screen",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 36.5,
+   "end_s": 38.0,
+   "shows": "Jimmy Butler gesturing during practice",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 38.0,
+   "end_s": 40.5,
+   "shows": "Man talking in interview",
+   "kind": "face"
+  },
+  {
+   "start_s": 40.5,
+   "end_s": 43.5,
+   "shows": "Timberwolves bench players celebrating in practice",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 43.5,
+   "end_s": 45.7,
+   "shows": "Scrimmage footage on TV screen",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 45.7,
+   "end_s": 48.0,
+   "shows": "Towns and Wiggins photos with grey background",
+   "kind": "still"
+  },
+  {
+   "start_s": 48.0,
+   "end_s": 50.0,
+   "shows": "Jimmy Butler running in red jersey on practice court",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 50.0,
+   "end_s": 52.0,
+   "shows": "Jimmy Butler yelling in Timberwolves jersey",
+   "kind": "still"
+  },
+  {
+   "start_s": 52.0,
+   "end_s": 54.5,
+   "shows": "Karl-Anthony Towns shocked expression on court",
+   "kind": "face"
+  },
+  {
+   "start_s": 54.5,
+   "end_s": 56.0,
+   "shows": "Jeff Teague interview",
+   "kind": "face"
+  },
+  {
+   "start_s": 56.0,
+   "end_s": 58.5,
+   "shows": "Jimmy Butler interview",
+   "kind": "face"
+  },
+  {
+   "start_s": 58.5,
+   "end_s": 60.5,
+   "shows": "Wolves GM press conference",
+   "kind": "still"
+  },
+  {
+   "start_s": 60.5,
+   "end_s": 64.0,
+   "shows": "Jimmy Butler in Philadelphia jersey pointing, Embiid and Simmons behind him",
+   "kind": "still"
+  }
+ ],
+ "shot_count": 24,
+ "average_shot_s": 2.67,
+ "longest_shot_s": 4.0,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 175,
+  "tone": "energetic storytelling",
+  "original_audio_under_voice": true
+ },
+ "music": {
+  "present": true,
+  "style": "suspenseful dramatic beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 2,
+  "case": "mixed",
+  "position": "middle",
+  "colours": "white",
+  "highlight_style": "none"
+ },
+ "text_overlays": [],
+ "cards_or_graphics": 0,
+ "framing": "crop",
+ "ending": {
+  "last_words": "to join Joel Embiid and Ben Simmons.",
+  "last_frame": "Jimmy Butler pointing in Sixers jersey with Embiid and Simmons",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "NBA stars who BLEW UP their own team to FORCE their way out! Jimmy Butler was one of the best two-way players in the NBA when Minnesota traded for him in twenty seventeen. He reunited with his old coach Tom Thibodeau and made the All-Star team, then dragged the Timberwolves to the playoffs for the first time since two thousand four. But the two young stars sitting next to him were about to become the reason he wanted out. He thought Karl-Anthony Towns and Andrew Wiggins were too soft and didn't compete hard enough, so that summer he turned down a four-year extension and asked to be traded. Then he stayed away from the team for the entire preseason while Minnesota refused to move him. But when he finally walked into that gym days before the opener, he did something so brutal that everyone knew his time there was basically over. He grabbed the third-string guys who were stuck at the end of the bench and put them up against the starters in a scrimmage. Then he beat Towns and Wiggins with those scrubs while screaming at the general manager, \"You need me. You can't win without me.\" Towns got so frustrated that he kicked the ball away! Teague said they were mesmerized while Butler walked out like he'd dropped a mic, and one month later Minnesota gave up and shipped him to Philadelphia to join Joel Embiid and Ben Simmons.",
+ "retention_tricks": [
+  "rapid hook with action footage",
+  "fast pacing with varied shot kinds",
+  "revealing archival scrimmage footage",
+  "dramatic voiceover delivery"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "Captures an infamous real-life NBA drama with authentic footage and photos",
+  "Fast-paced editing keeps viewer engaged through a detailed narrative arc",
+  "Strong character conflict between Butler and his young teammates drives the story"
+ ],
+ "_meta": {
+  "source": "j01sJvgoyU0",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

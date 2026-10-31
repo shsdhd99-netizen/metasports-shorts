@@ -1,0 +1,507 @@
+[
+ {
+  "word": "21",
+  "start": 0.0,
+  "end": 0.4
+ },
+ {
+  "word": "inches.",
+  "start": 0.431,
+  "end": 0.789
+ },
+ {
+  "word": "That",
+  "start": 0.831,
+  "end": 1.0
+ },
+ {
+  "word": "is",
+  "start": 1.041,
+  "end": 1.105
+ },
+ {
+  "word": "the",
+  "start": 1.146,
+  "end": 1.21
+ },
+ {
+  "word": "NBA",
+  "start": 1.262,
+  "end": 1.557
+ },
+ {
+  "word": "height",
+  "start": 1.599,
+  "end": 1.767
+ },
+ {
+  "word": "gap,",
+  "start": 1.799,
+  "end": 2.041
+ },
+ {
+  "word": "and",
+  "start": 2.062,
+  "end": 2.136
+ },
+ {
+  "word": "you",
+  "start": 2.168,
+  "end": 2.23
+ },
+ {
+  "word": "can",
+  "start": 2.262,
+  "end": 2.357
+ },
+ {
+  "word": "see",
+  "start": 2.41,
+  "end": 2.546
+ },
+ {
+  "word": "it",
+  "start": 2.588,
+  "end": 2.641
+ },
+ {
+  "word": "in",
+  "start": 2.683,
+  "end": 2.736
+ },
+ {
+  "word": "one",
+  "start": 2.788,
+  "end": 2.935
+ },
+ {
+  "word": "second.",
+  "start": 2.988,
+  "end": 3.335
+ },
+ {
+  "word": "NBA.com",
+  "start": 3.377,
+  "end": 3.998
+ },
+ {
+  "word": "lists",
+  "start": 4.051,
+  "end": 4.219
+ },
+ {
+  "word": "Wembanyama",
+  "start": 4.272,
+  "end": 4.892
+ },
+ {
+  "word": "at",
+  "start": 4.923,
+  "end": 5.007
+ },
+ {
+  "word": "seven",
+  "start": 5.06,
+  "end": 5.281
+ },
+ {
+  "word": "foot",
+  "start": 5.313,
+  "end": 5.461
+ },
+ {
+  "word": "four.",
+  "start": 5.502,
+  "end": 5.755
+ },
+ {
+  "word": "But",
+  "start": 5.776,
+  "end": 5.892
+ },
+ {
+  "word": "the",
+  "start": 5.923,
+  "end": 5.986
+ },
+ {
+  "word": "same",
+  "start": 6.029,
+  "end": 6.207
+ },
+ {
+  "word": "site",
+  "start": 6.239,
+  "end": 6.428
+ },
+ {
+  "word": "lists",
+  "start": 6.46,
+  "end": 6.639
+ },
+ {
+  "word": "Kawamura",
+  "start": 6.691,
+  "end": 7.354
+ },
+ {
+  "word": "at",
+  "start": 7.385,
+  "end": 7.48
+ },
+ {
+  "word": "five",
+  "start": 7.533,
+  "end": 7.722
+ },
+ {
+  "word": "foot",
+  "start": 7.743,
+  "end": 7.901
+ },
+ {
+  "word": "seven.",
+  "start": 7.953,
+  "end": 8.269
+ },
+ {
+  "word": "Basketball",
+  "start": 8.364,
+  "end": 8.806
+ },
+ {
+  "word": "Reference",
+  "start": 8.859,
+  "end": 9.153
+ },
+ {
+  "word": "says",
+  "start": 9.174,
+  "end": 9.332
+ },
+ {
+  "word": "the",
+  "start": 9.384,
+  "end": 9.448
+ },
+ {
+  "word": "same",
+  "start": 9.489,
+  "end": 9.669
+ },
+ {
+  "word": "two",
+  "start": 9.701,
+  "end": 9.816
+ },
+ {
+  "word": "numbers.",
+  "start": 9.858,
+  "end": 10.216
+ },
+ {
+  "word": "Seven",
+  "start": 10.247,
+  "end": 10.489
+ },
+ {
+  "word": "four.",
+  "start": 10.541,
+  "end": 10.815
+ },
+ {
+  "word": "Five",
+  "start": 10.868,
+  "end": 11.1
+ },
+ {
+  "word": "seven.",
+  "start": 11.131,
+  "end": 11.415
+ },
+ {
+  "word": "One",
+  "start": 11.447,
+  "end": 11.584
+ },
+ {
+  "word": "of",
+  "start": 11.604,
+  "end": 11.657
+ },
+ {
+  "word": "them",
+  "start": 11.7,
+  "end": 11.815
+ },
+ {
+  "word": "is",
+  "start": 11.857,
+  "end": 11.931
+ },
+ {
+  "word": "the",
+  "start": 11.983,
+  "end": 12.047
+ },
+ {
+  "word": "Spurs",
+  "start": 12.088,
+  "end": 12.341
+ },
+ {
+  "word": "center.",
+  "start": 12.362,
+  "end": 12.646
+ },
+ {
+  "word": "The",
+  "start": 12.677,
+  "end": 12.762
+ },
+ {
+  "word": "other",
+  "start": 12.804,
+  "end": 12.962
+ },
+ {
+  "word": "is",
+  "start": 13.014,
+  "end": 13.067
+ },
+ {
+  "word": "a",
+  "start": 13.109,
+  "end": 13.14
+ },
+ {
+  "word": "point",
+  "start": 13.193,
+  "end": 13.361
+ },
+ {
+  "word": "guard.",
+  "start": 13.403,
+  "end": 13.656
+ },
+ {
+  "word": "Wembanyama",
+  "start": 13.688,
+  "end": 14.393
+ },
+ {
+  "word": "is",
+  "start": 14.445,
+  "end": 14.539
+ },
+ {
+  "word": "two",
+  "start": 14.592,
+  "end": 14.719
+ },
+ {
+  "word": "hundred",
+  "start": 14.761,
+  "end": 14.939
+ },
+ {
+  "word": "thirty-five",
+  "start": 14.971,
+  "end": 15.36
+ },
+ {
+  "word": "pounds.",
+  "start": 15.392,
+  "end": 15.697
+ },
+ {
+  "word": "Kawamura",
+  "start": 15.739,
+  "end": 16.454
+ },
+ {
+  "word": "is",
+  "start": 16.507,
+  "end": 16.591
+ },
+ {
+  "word": "one",
+  "start": 16.644,
+  "end": 16.739
+ },
+ {
+  "word": "hundred",
+  "start": 16.77,
+  "end": 16.97
+ },
+ {
+  "word": "fifty-nine.",
+  "start": 17.012,
+  "end": 17.506
+ },
+ {
+  "word": "Stand",
+  "start": 17.581,
+  "end": 17.812
+ },
+ {
+  "word": "the",
+  "start": 17.853,
+  "end": 17.917
+ },
+ {
+  "word": "center",
+  "start": 17.958,
+  "end": 18.159
+ },
+ {
+  "word": "next",
+  "start": 18.211,
+  "end": 18.359
+ },
+ {
+  "word": "to",
+  "start": 18.38,
+  "end": 18.421
+ },
+ {
+  "word": "a",
+  "start": 18.474,
+  "end": 18.496
+ },
+ {
+  "word": "normal",
+  "start": 18.548,
+  "end": 18.79
+ },
+ {
+  "word": "man",
+  "start": 18.843,
+  "end": 18.99
+ },
+ {
+  "word": "and",
+  "start": 19.032,
+  "end": 19.106
+ },
+ {
+  "word": "the",
+  "start": 19.148,
+  "end": 19.211
+ },
+ {
+  "word": "gap",
+  "start": 19.253,
+  "end": 19.411
+ },
+ {
+  "word": "is",
+  "start": 19.464,
+  "end": 19.527
+ },
+ {
+  "word": "the",
+  "start": 19.58,
+  "end": 19.642
+ },
+ {
+  "word": "whole",
+  "start": 19.674,
+  "end": 19.822
+ },
+ {
+  "word": "picture.",
+  "start": 19.852,
+  "end": 20.221
+ },
+ {
+  "word": "Then",
+  "start": 20.253,
+  "end": 20.4
+ },
+ {
+  "word": "look",
+  "start": 20.452,
+  "end": 20.589
+ },
+ {
+  "word": "at",
+  "start": 20.621,
+  "end": 20.662
+ },
+ {
+  "word": "the",
+  "start": 20.684,
+  "end": 20.747
+ },
+ {
+  "word": "point",
+  "start": 20.778,
+  "end": 20.957
+ },
+ {
+  "word": "guard.",
+  "start": 20.989,
+  "end": 21.231
+ },
+ {
+  "word": "Seven",
+  "start": 21.273,
+  "end": 21.525
+ },
+ {
+  "word": "four",
+  "start": 21.578,
+  "end": 21.715
+ },
+ {
+  "word": "against",
+  "start": 21.746,
+  "end": 21.967
+ },
+ {
+  "word": "five",
+  "start": 22.009,
+  "end": 22.188
+ },
+ {
+  "word": "seven.",
+  "start": 22.22,
+  "end": 22.494
+ },
+ {
+  "word": "Twenty-one",
+  "start": 22.515,
+  "end": 22.914
+ },
+ {
+  "word": "inches.",
+  "start": 22.946,
+  "end": 23.272
+ },
+ {
+  "word": "That",
+  "start": 23.314,
+  "end": 23.472
+ },
+ {
+  "word": "is",
+  "start": 23.514,
+  "end": 23.577
+ },
+ {
+  "word": "the",
+  "start": 23.629,
+  "end": 23.704
+ },
+ {
+  "word": "whole",
+  "start": 23.735,
+  "end": 23.893
+ },
+ {
+  "word": "gap.",
+  "start": 23.924,
+  "end": 24.24
+ }
+]

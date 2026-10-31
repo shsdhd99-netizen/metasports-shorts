@@ -1,0 +1,49 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Montserrat Black,86,&H00FFFFFF,&H00FFFFFF,&H00000000,&H99000000,0,0,0,0,95,100,1,0,1,6,3,5,70,70,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.80,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}PAUL PIERCE LEFT
+Dialogue: 0,0:00:00.80,0:00:01.66,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE NBA FINALS
+Dialogue: 0,0:00:01.66,0:00:02.50,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN A WHEELCHAIR.
+Dialogue: 0,0:00:02.50,0:00:03.16,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}GAME 1,
+Dialogue: 0,0:00:03.16,0:00:04.06,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}2008,
+Dialogue: 0,0:00:04.06,0:00:04.98,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx77\fscy77\t(0,90,\fscx90\fscy90)}AGAINST THE LAKERS.
+Dialogue: 0,0:00:04.98,0:00:05.55,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HE WENT DOWN
+Dialogue: 0,0:00:05.55,0:00:06.21,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HOLDING HIS KNEE,
+Dialogue: 0,0:00:06.21,0:00:06.48,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND THEY
+Dialogue: 0,0:00:06.48,0:00:06.86,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WHEELED HIM
+Dialogue: 0,0:00:06.86,0:00:07.66,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx75\fscy75\t(0,90,\fscx87\fscy87)}TO THE LOCKER ROOM.
+Dialogue: 0,0:00:07.66,0:00:08.22,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}MINUTES LATER,
+Dialogue: 0,0:00:08.22,0:00:08.66,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HE JOGGED
+Dialogue: 0,0:00:08.66,0:00:09.17,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BACK OUT,
+Dialogue: 0,0:00:09.17,0:00:09.73,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SCORED 11
+Dialogue: 0,0:00:09.73,0:00:10.31,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}MORE POINTS,
+Dialogue: 0,0:00:10.31,0:00:11.21,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND BOSTON WON.
+Dialogue: 0,0:00:11.21,0:00:11.82,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HE WAS NAMED
+Dialogue: 0,0:00:11.82,0:00:12.91,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FINALS MVP.
+Dialogue: 0,0:00:12.91,0:00:13.53,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx77\fscy77\t(0,90,\fscx90\fscy90)}ELEVEN YEARS LATER,
+Dialogue: 0,0:00:13.53,0:00:14.15,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ON ESPN,
+Dialogue: 0,0:00:14.15,0:00:14.38,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HE MADE
+Dialogue: 0,0:00:14.38,0:00:14.98,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}A CONFESSION.
+Dialogue: 0,0:00:14.98,0:00:15.21,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}I JUST
+Dialogue: 0,0:00:15.21,0:00:15.50,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HAD TO GO
+Dialogue: 0,0:00:15.50,0:00:16.16,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TO THE BATHROOM.
+Dialogue: 0,0:00:16.16,0:00:16.49,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THIS YEAR,
+Dialogue: 0,0:00:16.49,0:00:17.14,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ON A PODCAST,
+Dialogue: 0,0:00:17.14,0:00:17.45,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HE TOOK
+Dialogue: 0,0:00:17.45,0:00:17.89,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IT BACK.
+Dialogue: 0,0:00:17.89,0:00:18.43,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WHO ASKED
+Dialogue: 0,0:00:18.43,0:00:19.17,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx72\fscy72\t(0,90,\fscx84\fscy84)}FOR THE WHEELCHAIR?
+Dialogue: 0,0:00:19.17,0:00:19.52,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WHY WOULD I
+Dialogue: 0,0:00:19.52,0:00:20.13,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx81\fscy81\t(0,90,\fscx94\fscy94)}TAKE A WHEELCHAIR
+Dialogue: 0,0:00:20.13,0:00:20.57,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TO GO USE
+Dialogue: 0,0:00:20.57,0:00:21.39,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE BATHROOM?

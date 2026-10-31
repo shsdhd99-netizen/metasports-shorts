@@ -1,0 +1,74 @@
+[
+ {
+  "clip": "R01.mp4",
+  "kind": "action",
+  "why": "Brown Jr.'s tying shot, clock :02.7 to :00.2, BKN 114-117 to 117-117 (NBA on X, Oct 27 2026); the make lands at about 2.4 s",
+  "start": 0.0
+ },
+ {
+  "clip": "R02.mp4",
+  "kind": "face",
+  "why": "Nets bench erupts after the tying shot, scorebug 117-117 :00.2 (NBA on X)",
+  "anchor": "His bench",
+  "start": 2.65
+ },
+ {
+  "clip": "R03.mp4",
+  "kind": "face",
+  "why": "Back of the jersey: BROWN JR. 0, teammates mob him (Brooklyn Nets on X, same play)",
+  "anchor": "Mikel Brown",
+  "start": 3.72
+ },
+ {
+  "clip": "R04.mp4",
+  "kind": "face",
+  "why": "Brown Jr. smiling at the referee, scorebug 117-117 :00.2 (NBA on X)",
+  "anchor": "couldn't stop",
+  "start": 6.15
+ },
+ {
+  "clip": "R05.mp4",
+  "kind": "face",
+  "why": "Jayson Tatum close-up walking back (NBC Sports Boston / Taylor Snow on X, same game, 3rd quarter)",
+  "anchor": "Then overtime",
+  "start": 7.21
+ },
+ {
+  "clip": "R06.mp4",
+  "kind": "action",
+  "why": "The final play, wide: White inbounds with 2.3 s left, BKN 124-123, Tatum brings it up (NBA on X)",
+  "anchor": "five more",
+  "lead": 0.46,
+  "start": 8.38
+ },
+ {
+  "clip": "R06B.mp4",
+  "kind": "action",
+  "why": "Same play, continuous, tighter frame: Tatum pulls up at the free-throw line, good at the buzzer, BOS 125-124 FINAL/OT (NBA on X)",
+  "anchor": "White inbounds",
+  "start": 12.2
+ },
+ {
+  "clip": "R07.mp4",
+  "kind": "action",
+  "why": "Replay of Tatum's release and make, slowed (NBA on X)",
+  "anchor": "and the Celtics",
+  "replay": true,
+  "start": 16.05
+ },
+ {
+  "clip": "R08.mp4",
+  "kind": "action",
+  "why": "Replay of Brown Jr.'s tying shot, slowed (NBA on X)",
+  "anchor": "The rookie's shot",
+  "replay": true,
+  "start": 17.42
+ },
+ {
+  "clip": "R09.mp4",
+  "kind": "face",
+  "why": "Tatum smiling, high-fives after the winner (NBA on X)",
+  "anchor": "For one overtime",
+  "start": 18.93
+ }
+]

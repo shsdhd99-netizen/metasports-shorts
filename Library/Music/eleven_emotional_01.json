@@ -1,0 +1,9 @@
+{
+ "prompt": "Instrumental emotional cinematic track for a short sports tribute, 78 BPM, soft felt piano chords, warm low strings, gentle lo-fi drum groove entering after eight seconds, nostalgic and hopeful. No vocals. Sparse and quiet in the midrange so narration stays clear. Swells gently near the end and resolves on a held chord.",
+ "model": "music_v1",
+ "seconds": 35.0,
+ "mood": "emotional",
+ "generated": "2026-10-14",
+ "licence": "ElevenLabs Music Terms, Starter plan: all online/offline commercial use except film, TV, radio, Studio Games; no attribution",
+ "licence_url": "https://elevenlabs.io/music-terms"
+}

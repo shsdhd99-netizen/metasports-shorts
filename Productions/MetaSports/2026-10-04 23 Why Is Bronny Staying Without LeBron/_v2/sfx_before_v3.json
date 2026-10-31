@@ -1,0 +1,6 @@
+[
+ {"sfx": "camera", "at": 5.12, "gain": -8, "why": "Bronny at the mic, nameplate on the table"},
+ {"sfx": "whoosh", "at": 8.19, "gain": -11, "why": "cut from the presser to the Lakers floor"},
+ {"sfx": "boom_cinematic", "at": 20.63, "gain": -10, "why": "sixteen for fifteen, the roster crunch"},
+ {"sfx": "ding", "at": 25.5, "gain": -17, "why": "somebody has to go"}
+]

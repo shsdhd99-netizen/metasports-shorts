@@ -1,0 +1,122 @@
+{
+ "length_s": 14.6,
+ "topic": "An explanation of why Russell Westbrook ignored a kid asking for an autograph because he was likely a reseller.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "Why did Russell Westbrook walk past this kid asking for an autograph?",
+  "first_frame": "Russell Westbrook stepping out of a black SUV at night on the street, surrounded by people.",
+  "on_screen_text_0_3s": "WHY DID RUSSELL WESTBROOK WALK PAST THIS KID ASKING FOR AN AUTOGRAPH?",
+  "shots_in_first_3s": 3
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 1.7,
+   "shows": "Russell Westbrook stepping out of a vehicle on a city street at night",
+   "kind": "action"
+  },
+  {
+   "start_s": 1.7,
+   "end_s": 3.4,
+   "shows": "Russell Westbrook walking past fans holding items out on the street",
+   "kind": "action"
+  },
+  {
+   "start_s": 3.4,
+   "end_s": 5.2,
+   "shows": "An NBA player in a camo jacket signing cards with a blue pen",
+   "kind": "action"
+  },
+  {
+   "start_s": 5.2,
+   "end_s": 7.9,
+   "shows": "An NBA player in a white t-shirt signing sports cards",
+   "kind": "action"
+  },
+  {
+   "start_s": 7.9,
+   "end_s": 9.2,
+   "shows": "An NBA player in a black shirt signing a card",
+   "kind": "action"
+  },
+  {
+   "start_s": 9.2,
+   "end_s": 10.4,
+   "shows": "Russell Westbrook signing jerseys for young fans in an arena",
+   "kind": "action"
+  },
+  {
+   "start_s": 10.4,
+   "end_s": 11.9,
+   "shows": "Russell Westbrook signing an item for a fan in a crowd",
+   "kind": "action"
+  },
+  {
+   "start_s": 11.9,
+   "end_s": 14.6,
+   "shows": "Russell Westbrook walking away and entering a building, ignoring fans",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 8,
+ "average_shot_s": 1.83,
+ "longest_shot_s": 2.7,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 215,
+  "tone": "informative and fast-paced",
+  "original_audio_under_voice": true
+ },
+ "music": {
+  "present": true,
+  "style": "upbeat rhythmic electronic beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "ALL CAPS",
+  "position": "middle",
+  "colours": "white with yellow highlight words",
+  "highlight_style": "word-by-word yellow highlight"
+ },
+ "text_overlays": [],
+ "cards_or_graphics": 0,
+ "framing": "crop",
+ "ending": {
+  "last_words": "What was going on.",
+  "last_frame": "Russell Westbrook walking through a glass doorway into a building.",
+  "loops_to_start": true,
+  "call_to_action": "none"
+ },
+ "script": "Why did Russell Westbrook walk past this kid asking for an autograph? NBA players are often warned about signing with blue pens because resellers can use those signatures to make copies with stamps. And Russ normally has no problem signing things for real fans. So when he ignored this kid, it seemed like he already knew what was going on.",
+ "retention_tricks": [
+  "open loop hook in the first sentence",
+  "fast pacing with average shot length under 2 seconds",
+  "b-roll visual examples showing players signing cards",
+  "positive counter-examples of Russ signing for kids"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": false,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "Strong hook presenting a mystery ('Why did Russell Westbrook walk past this kid...')",
+  "Fast cuts and varied footage keeping viewer retention high",
+  "Educational context explaining why players refuse autographs to resellers"
+ ],
+ "_meta": {
+  "source": "SpTrzZXwn64",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

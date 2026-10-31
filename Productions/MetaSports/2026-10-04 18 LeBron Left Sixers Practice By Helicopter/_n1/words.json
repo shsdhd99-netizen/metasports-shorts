@@ -1,0 +1,57 @@
+[
+ {
+  "word": "LeBron",
+  "start": 0.0,
+  "end": 0.299
+ },
+ {
+  "word": "James",
+  "start": 0.351,
+  "end": 0.515
+ },
+ {
+  "word": "just",
+  "start": 0.557,
+  "end": 0.68
+ },
+ {
+  "word": "walked",
+  "start": 0.712,
+  "end": 0.918
+ },
+ {
+  "word": "into",
+  "start": 0.949,
+  "end": 1.072
+ },
+ {
+  "word": "Sixers",
+  "start": 1.124,
+  "end": 1.392
+ },
+ {
+  "word": "media",
+  "start": 1.434,
+  "end": 1.65
+ },
+ {
+  "word": "day,",
+  "start": 1.702,
+  "end": 1.857
+ },
+ {
+  "word": "and",
+  "start": 1.877,
+  "end": 1.939
+ },
+ {
+  "word": "asked",
+  "start": 1.991,
+  "end": 2.166
+ },
+ {
+  "word": "this.",
+  "start": 2.186,
+  "end": 2.64
+ }
+]

@@ -1,0 +1,90 @@
+[
+ {
+  "clip": "b1c.mp4",
+  "anchor": "Nikola Jokic has",
+  "kind": "action",
+  "in": 0.0,
+  "zoom": 0.04,
+  "why": "Frame 1 = Jokic himself, close, as '198' appears in the captions (scorebug cropped off; critic Oct 14 edit 1)",
+  "start": 0.0
+ },
+ {
+  "clip": "a2.mp4",
+  "anchor": "Russell Westbrook retired",
+  "kind": "face",
+  "in": 0.0,
+  "why": "Westbrook, close, on his own name (a5 panned to an empty court after 0.5 s)",
+  "start": 1.99
+ },
+ {
+  "clip": "a3.mp4",
+  "anchor": "with the record",
+  "kind": "action",
+  "in": 0.0,
+  "why": "Westbrook in action on 'the record: 209'",
+  "start": 2.87
+ },
+ {
+  "clip": "b13.mp4",
+  "anchor": "Eleven ties it",
+  "kind": "action",
+  "in": 0.0,
+  "why": "Jokic passing: the chase",
+  "start": 4.02
+ },
+ {
+  "clip": "a1.mp4",
+  "anchor": "Westbrook needed",
+  "kind": "action",
+  "in": 0.0,
+  "why": "Westbrook (Wizards years): a long career",
+  "start": 5.32
+ },
+ {
+  "clip": "b2.mp4",
+  "anchor": "Jokic has played",
+  "kind": "action",
+  "in": 0.0,
+  "why": "Jokic in a game, on '810'",
+  "start": 7.04
+ },
+ {
+  "clip": "b7.mp4",
+  "anchor": "Last season, he",
+  "kind": "action",
+  "in": 0.0,
+  "why": "Jokic last season",
+  "start": 8.51
+ },
+ {
+  "clip": "b5.mp4",
+  "anchor": "in just 65",
+  "kind": "action",
+  "in": 0.25,
+  "why": "Jokic in action: the rate (in 0.25 skips a non-Jokic first frame)",
+  "start": 10.0
+ },
+ {
+  "clip": "b12.mp4",
+  "anchor": "At that pace",
+  "kind": "face",
+  "in": 0.0,
+  "why": "Jokic (media day) on the projection",
+  "start": 11.7
+ },
+ {
+  "clip": "c21_xmas.png",
+  "anchor": "Denver's twenty-seventh",
+  "kind": "card",
+  "why": "Readable proof: pace = about 23 games; game 27 = Fri Dec 25 at Golden State (B-Ref schedule; critic Oct 14 edit 4)",
+  "start": 13.48
+ },
+ {
+  "clip": "b1c.mp4",
+  "anchor": "Four games to",
+  "kind": "action",
+  "in": 0.0,
+  "why": "End on Jokic (critic edit 4) and loop into frame 1",
+  "start": 15.52
+ }
+]

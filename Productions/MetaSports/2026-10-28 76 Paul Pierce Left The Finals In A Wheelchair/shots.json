@@ -1,0 +1,92 @@
+[
+ {
+  "clip": "P01.mp4",
+  "kind": "action",
+  "why": "Pierce in a wheelchair in the TD Garden hallway, 2008 Finals Game 1 (ABC broadcast, via @SleeperCeltics on X)",
+  "start": 0.0
+ },
+ {
+  "clip": "P02.mp4",
+  "kind": "action",
+  "why": "Celtics v Lakers, Game 1 2008, wide (same broadcast)",
+  "anchor": "Game 1",
+  "start": 2.47
+ },
+ {
+  "clip": "P03.mp4",
+  "kind": "action",
+  "why": "Pierce on the floor holding his knee, helped up (same broadcast)",
+  "anchor": "He went down",
+  "start": 4.95
+ },
+ {
+  "clip": "P04.mp4",
+  "kind": "action",
+  "why": "Wheeled down the hallway toward the locker room (same broadcast)",
+  "anchor": "and they wheeled",
+  "start": 6.18
+ },
+ {
+  "clip": "P05.mp4",
+  "kind": "action",
+  "why": "Pierce jogs back onto the court to a standing ovation (same broadcast)",
+  "anchor": "Minutes later",
+  "start": 7.63
+ },
+ {
+  "clip": "P06.mp4",
+  "kind": "action",
+  "why": "Pierce hits a three after returning, 3rd quarter (same broadcast)",
+  "anchor": "scored 11",
+  "start": 9.14
+ },
+ {
+  "clip": "P07.mp4",
+  "kind": "action",
+  "why": "The final seconds of Game 1, Celtics win 98-88 (same broadcast)",
+  "anchor": "and Boston won",
+  "start": 10.28
+ },
+ {
+  "clip": "P08.mp4",
+  "kind": "face",
+  "why": "Pierce yelling after his three (same broadcast)",
+  "anchor": "He was named",
+  "start": 11.19
+ },
+ {
+  "clip": "P09.mp4",
+  "kind": "quote",
+  "why": "ESPN NBA Countdown, June 2019 (11 years to the day, per Michelle Beadle): Pierce says 'I have a confession to make' (via @Ballislife on X)",
+  "anchor": "Eleven years later",
+  "start": 12.88
+ },
+ {
+  "clip": "P10.mp4",
+  "kind": "quote",
+  "why": "Pierce close-up: 'I just had to go to the bathroom.' (same clip)",
+  "anchor": "I just had",
+  "start": 14.95
+ },
+ {
+  "clip": "P11.mp4",
+  "kind": "face",
+  "why": "Pierce on the NFG Show podcast, Feb 2026, laughing about the wheelchair (via @Fullcourtpass on X)",
+  "anchor": "This year",
+  "start": 16.13
+ },
+ {
+  "clip": "P12.mp4",
+  "kind": "quote",
+  "why": "Pierce: 'who asked for the wheelchair? Did y'all see me ask for a wheelchair?' (same clip)",
+  "anchor": "Who asked",
+  "start": 17.86
+ },
+ {
+  "clip": "P13.mp4",
+  "kind": "quote",
+  "why": "Pierce close-up: 'why would I take a wheelchair to go use the bathroom?' (same clip, about 26-41 s)",
+  "anchor": "Why would I",
+  "start": 19.14
+ }
+]

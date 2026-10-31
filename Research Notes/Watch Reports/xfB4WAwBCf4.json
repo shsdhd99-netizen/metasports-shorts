@@ -1,0 +1,263 @@
+{
+ "length_s": 63.13,
+ "topic": "Counting how many active NBA players remain from each draft class of the 2000s decade.",
+ "lane": "list",
+ "hook": {
+  "first_words": "How many NBA players are left from the 2000s?",
+  "first_frame": "Cartoon caricature of Paul George in a Celtics jersey with text overlay 'How Many 2000s NBA Players are left?' and '2010'.",
+  "on_screen_text_0_3s": "How Many 2000s NBA Players are left?",
+  "shots_in_first_3s": 1
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 8.8,
+   "shows": "Cartoon animation rewinding through NBA draft years from 2010 back to 2003, showing LeBron James, then forward to 2004 and 2005 with Chris Paul crossed out.",
+   "kind": "action"
+  },
+  {
+   "start_s": 8.8,
+   "end_s": 12.6,
+   "shows": "Multiple cartoon versions of Chris Paul wearing jerseys from every NBA team he played for, dancing on an arena court.",
+   "kind": "action"
+  },
+  {
+   "start_s": 12.6,
+   "end_s": 15.8,
+   "shows": "Cartoon Chris Paul in Clippers jersey holding his head in agony as tears stream down his face.",
+   "kind": "action"
+  },
+  {
+   "start_s": 15.8,
+   "end_s": 17.6,
+   "shows": "Cartoon Kyle Lowry in Raptors jersey with a question mark over his body under '2006'.",
+   "kind": "still"
+  },
+  {
+   "start_s": 17.6,
+   "end_s": 21.9,
+   "shows": "Live press conference footage of Kyle Lowry speaking into a microphone.",
+   "kind": "action"
+  },
+  {
+   "start_s": 21.9,
+   "end_s": 24.7,
+   "shows": "Cartoon lineup of 2007 draft class: Al Horford, Kevin Durant, Mike Conley, and Jeff Green.",
+   "kind": "still"
+  },
+  {
+   "start_s": 24.7,
+   "end_s": 26.1,
+   "shows": "Pixel arena graphic showing Golden State Warriors roster members with their ages floating above their heads.",
+   "kind": "other"
+  },
+  {
+   "start_s": 26.1,
+   "end_s": 30.1,
+   "shows": "Cartoon lineup of 2007 draft class panning right to reveal 2008 draft class.",
+   "kind": "action"
+  },
+  {
+   "start_s": 30.1,
+   "end_s": 31.4,
+   "shows": "Live game broadcast clip of Brook Lopez waving from the Clippers bench.",
+   "kind": "action"
+  },
+  {
+   "start_s": 31.4,
+   "end_s": 32.1,
+   "shows": "Cartoon lineup of the 2008 draft class.",
+   "kind": "still"
+  },
+  {
+   "start_s": 32.1,
+   "end_s": 34.1,
+   "shows": "Live broadcast clip of DeAndre Jordan celebrating and hugging a teammate in a Pelicans jersey.",
+   "kind": "action"
+  },
+  {
+   "start_s": 34.1,
+   "end_s": 40.0,
+   "shows": "Cartoon lineup of 2008 draft class highlighting unsigned free agents Russell Westbrook, Kevin Love, and Eric Gordon.",
+   "kind": "action"
+  },
+  {
+   "start_s": 40.0,
+   "end_s": 45.6,
+   "shows": "Cartoon lineup of 2009 draft class: Steph Curry, James Harden, DeMar DeRozan, Jrue Holiday, James Johnson, and Taj Gibson.",
+   "kind": "still"
+  },
+  {
+   "start_s": 45.6,
+   "end_s": 47.0,
+   "shows": "Cartoon LeBron James gifting a Lakers jersey to cartoon Taj Gibson in a Grizzlies uniform.",
+   "kind": "action"
+  },
+  {
+   "start_s": 47.0,
+   "end_s": 49.1,
+   "shows": "Cartoon Paul George in a Celtics #31 jersey under 2010.",
+   "kind": "still"
+  },
+  {
+   "start_s": 49.1,
+   "end_s": 52.7,
+   "shows": "Shaquille O'Neal photo in a Boston Celtics jersey with pixel basketball court backdrop.",
+   "kind": "still"
+  },
+  {
+   "start_s": 52.7,
+   "end_s": 54.4,
+   "shows": "Cartoon Paul George exploding in a burst of fire and smoke.",
+   "kind": "action"
+  },
+  {
+   "start_s": 54.4,
+   "end_s": 63.13,
+   "shows": "Camera panning across all draft classes from 2003 through 2010 to summarize total remaining players.",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 18,
+ "average_shot_s": 3.51,
+ "longest_shot_s": 8.8,
+ "voice": {
+  "type": "human",
+  "gender": "male",
+  "words_per_minute_estimate": 150,
+  "tone": "informative and conversational",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "bouncy retro hip-hop beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [
+  {
+   "at_s": 0.3,
+   "sound": "whoosh rewinding sound"
+  },
+  {
+   "at_s": 12.8,
+   "sound": "cheering crowd"
+  },
+  {
+   "at_s": 52.8,
+   "sound": "explosion blast"
+  },
+  {
+   "at_s": 55.6,
+   "sound": "swish transition"
+  }
+ ],
+ "captions": {
+  "present": false,
+  "words_per_line": "none",
+  "case": "none",
+  "position": "none",
+  "colours": "none",
+  "highlight_style": "none"
+ },
+ "text_overlays": [
+  {
+   "at_s": 0.0,
+   "text": "How Many 2000s NBA Players are left?"
+  },
+  {
+   "at_s": 0.0,
+   "text": "2010"
+  },
+  {
+   "at_s": 0.5,
+   "text": "2009"
+  },
+  {
+   "at_s": 0.7,
+   "text": "2008"
+  },
+  {
+   "at_s": 1.2,
+   "text": "2007"
+  },
+  {
+   "at_s": 1.5,
+   "text": "2006"
+  },
+  {
+   "at_s": 1.7,
+   "text": "2005"
+  },
+  {
+   "at_s": 2.0,
+   "text": "2004"
+  },
+  {
+   "at_s": 2.7,
+   "text": "2003"
+  },
+  {
+   "at_s": 6.0,
+   "text": "2004"
+  },
+  {
+   "at_s": 7.7,
+   "text": "2005"
+  },
+  {
+   "at_s": 16.2,
+   "text": "2006"
+  },
+  {
+   "at_s": 22.7,
+   "text": "2007"
+  },
+  {
+   "at_s": 29.2,
+   "text": "2008"
+  },
+  {
+   "at_s": 40.5,
+   "text": "2009"
+  },
+  {
+   "at_s": 47.5,
+   "text": "2010"
+  }
+ ],
+ "cards_or_graphics": 1,
+ "framing": "crop",
+ "ending": {
+  "last_words": "cause there's a lot of technicalities.",
+  "last_frame": "Cartoon Paul George in green Celtics jersey under '2010' text.",
+  "loops_to_start": true,
+  "call_to_action": "none"
+ },
+ "script": "How many NBA players are left from the 2000s? 2003, just LeBron James. 2004, nobody. 2005, no one. Chris Paul was the last player of the '05 draft class and he retired last season with the Clippers, and we all know how that one ended. 2006, Kyle Lowry technically signed a one-day contract with the Raptors, but he is officially retired. 2007, we have Kevin Durant, Al Horford still with the Warriors, Mike Conley, and Jeff Green. 2008, Brook Lopez is still on the Clippers, DeAndre Jordan signed a one-year deal with the Pelicans, Russell Westbrook, Kevin Love, and Eric Gordon are unsigned free agents, so they're technically not retired. 2009 has Steph Curry, James Harden, DeMar DeRozan, Jrue Holiday, James Johnson, and Taj Gibson. 2010, Paul George is the only active player from the 2010 draft class. The second to last one was John Wall, but he's definitely been since retired. So from the start of the first decade of the 2000s, there are only about 17 NBA players left depending on how you want to count it, cause there's a lot of technicalities.",
+ "retention_tricks": [
+  "Rapid chronological rewind through draft years in the opening 3 seconds",
+  "Humorous custom caricatures of famous players in unexpected or past jerseys",
+  "Seamless seamless looping ending leading back to the start question"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": true,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "Instantly engaging trivia question combined with dynamic animation and rapid year-by-year pacing.",
+  "Clever inside NBA jokes, humorous caricature expressions, and timely references to recent signings and retirements.",
+  "Perfect seamless loop where the ending statement directly answers and circles back to the opening hook question."
+ ],
+ "_meta": {
+  "source": "xfB4WAwBCf4",
+  "model": "gemini-3.7-flash",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

@@ -1,0 +1,21 @@
+[
+ {
+  "name": "2026-10-05 28 Why Is The NBA Cup A",
+  "dur": 23.84,
+  "voiced": 0.7,
+  "hnr": 8.8,
+  "jitter": 2.99,
+  "shimmer": 10.77,
+  "jumps": 0.0,
+  "clicks": 991.7,
+  "hf": 3.06,
+  "f0_med": 175.0,
+  "verdict": "REDO",
+  "problems": [
+   "HNR 8.8 dB (noisy/robotic)",
+   "jitter 2.99% (shaky)",
+   "shimmer 10.77% (uneven loudness)",
+   "991.7 clicks/min"
+  ]
+ }
+]

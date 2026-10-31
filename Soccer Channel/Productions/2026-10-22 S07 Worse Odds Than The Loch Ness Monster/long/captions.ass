@@ -1,0 +1,123 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,TikTok Sans SemiBold,80,&H00FFFFFF,&H00FFFFFF,&H00000000,&H99000000,0,0,0,0,100,100,0,0,1,3.2,1,5,70,70,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:02.80,Cap,,0,0,0,,{\pos(540,960)\blur0.5\fscx84\fscy84}The team with WORSE ODDS\Nthan the Loch Ness monster
+Dialogue: 0,0:00:02.80,0:00:03.84,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Back in 2015,
+Dialogue: 0,0:00:03.84,0:00:04.32,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Leicester City
+Dialogue: 0,0:00:04.32,0:00:04.78,Cap,,0,0,0,,{\pos(540,960)\blur0.5}had almost
+Dialogue: 0,0:00:04.78,0:00:05.50,Cap,,0,0,0,,{\pos(540,960)\blur0.5}been relegated from
+Dialogue: 0,0:00:05.50,0:00:06.21,Cap,,0,0,0,,{\pos(540,960)\blur0.5}the Premier League.
+Dialogue: 0,0:00:06.21,0:00:06.88,Cap,,0,0,0,,{\pos(540,960)\blur0.5}They were bottom
+Dialogue: 0,0:00:06.88,0:00:07.53,Cap,,0,0,0,,{\pos(540,960)\blur0.5}at Christmas,
+Dialogue: 0,0:00:07.53,0:00:08.27,Cap,,0,0,0,,{\pos(540,960)\blur0.5}and only survived
+Dialogue: 0,0:00:08.27,0:00:09.04,Cap,,0,0,0,,{\pos(540,960)\blur0.5}by winning seven
+Dialogue: 0,0:00:09.04,0:00:09.56,Cap,,0,0,0,,{\pos(540,960)\blur0.5}of their last
+Dialogue: 0,0:00:09.56,0:00:10.33,Cap,,0,0,0,,{\pos(540,960)\blur0.5}nine games.
+Dialogue: 0,0:00:10.33,0:00:10.79,Cap,,0,0,0,,{\pos(540,960)\blur0.5}So before
+Dialogue: 0,0:00:10.79,0:00:11.42,Cap,,0,0,0,,{\pos(540,960)\blur0.5}the next season,
+Dialogue: 0,0:00:11.42,0:00:12.00,Cap,,0,0,0,,{\pos(540,960)\blur0.5}bookmakers gave
+Dialogue: 0,0:00:12.00,0:00:12.61,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Leicester odds
+Dialogue: 0,0:00:12.61,0:00:13.71,Cap,,0,0,0,,{\pos(540,960)\blur0.5}of 5,000-1
+Dialogue: 0,0:00:13.71,0:00:14.05,Cap,,0,0,0,,{\pos(540,960)\blur0.5}to win
+Dialogue: 0,0:00:14.05,0:00:14.62,Cap,,0,0,0,,{\pos(540,960)\blur0.5}the league.
+Dialogue: 0,0:00:14.62,0:00:15.22,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Bookmakers gave
+Dialogue: 0,0:00:15.22,0:00:15.78,Cap,,0,0,0,,{\pos(540,960)\blur0.5}better odds
+Dialogue: 0,0:00:15.78,0:00:16.14,Cap,,0,0,0,,{\pos(540,960)\blur0.5}on finding
+Dialogue: 0,0:00:16.14,0:00:16.90,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Elvis alive,
+Dialogue: 0,0:00:16.90,0:00:17.47,Cap,,0,0,0,,{\pos(540,960)\blur0.5}and on finding
+Dialogue: 0,0:00:17.47,0:00:18.16,Cap,,0,0,0,,{\pos(540,960)\blur0.5}the Loch Ness
+Dialogue: 0,0:00:18.16,0:00:18.66,Cap,,0,0,0,,{\pos(540,960)\blur0.5}monster.
+Dialogue: 0,0:00:18.66,0:00:19.27,Cap,,0,0,0,,{\pos(540,960)\blur0.5}And when one
+Dialogue: 0,0:00:19.27,0:00:19.54,Cap,,0,0,0,,{\pos(540,960)\blur0.5}fan
+Dialogue: 0,0:00:19.54,0:00:20.03,Cap,,0,0,0,,{\pos(540,960)\blur0.5}put a pound
+Dialogue: 0,0:00:20.03,0:00:20.45,Cap,,0,0,0,,{\pos(540,960)\blur0.5}on Leicester
+Dialogue: 0,0:00:20.45,0:00:20.85,Cap,,0,0,0,,{\pos(540,960)\blur0.5}in a betting
+Dialogue: 0,0:00:20.85,0:00:21.09,Cap,,0,0,0,,{\pos(540,960)\blur0.5}shop,
+Dialogue: 0,0:00:21.09,0:00:21.74,Cap,,0,0,0,,{\pos(540,960)\blur0.5}the manager wrote,
+Dialogue: 0,0:00:21.74,0:00:22.72,Cap,,0,0,0,,{\pos(540,960)\blur0.5}pigs might fly,
+Dialogue: 0,0:00:22.72,0:00:23.42,Cap,,0,0,0,,{\pos(540,960)\blur0.5}on his slip.
+Dialogue: 0,0:00:23.42,0:00:24.05,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Leicester hired
+Dialogue: 0,0:00:24.05,0:00:24.99,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Claudio Ranieri,
+Dialogue: 0,0:00:24.99,0:00:25.49,Cap,,0,0,0,,{\pos(540,960)\blur0.5}a manager
+Dialogue: 0,0:00:25.49,0:00:26.11,Cap,,0,0,0,,{\pos(540,960)\blur0.5}who had been sacked
+Dialogue: 0,0:00:26.11,0:00:26.60,Cap,,0,0,0,,{\pos(540,960)\blur0.5}by Greece
+Dialogue: 0,0:00:26.60,0:00:27.17,Cap,,0,0,0,,{\pos(540,960)\blur0.5}after losing to
+Dialogue: 0,0:00:27.17,0:00:28.05,Cap,,0,0,0,,{\pos(540,960)\blur0.5}the Faroe Islands.
+Dialogue: 0,0:00:28.05,0:00:28.47,Cap,,0,0,0,,{\pos(540,960)\blur0.5}But Leicester
+Dialogue: 0,0:00:28.47,0:00:29.06,Cap,,0,0,0,,{\pos(540,960)\blur0.5}started winning,
+Dialogue: 0,0:00:29.06,0:00:29.32,Cap,,0,0,0,,{\pos(540,960)\blur0.5}and they
+Dialogue: 0,0:00:29.32,0:00:30.10,Cap,,0,0,0,,{\pos(540,960)\blur0.5}just didn't stop.
+Dialogue: 0,0:00:30.10,0:00:30.49,Cap,,0,0,0,,{\pos(540,960)\blur0.5}They lost
+Dialogue: 0,0:00:30.49,0:00:31.10,Cap,,0,0,0,,{\pos(540,960)\blur0.5}just three league
+Dialogue: 0,0:00:31.10,0:00:31.97,Cap,,0,0,0,,{\pos(540,960)\blur0.5}games all season.
+Dialogue: 0,0:00:31.97,0:00:32.49,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Their striker,
+Dialogue: 0,0:00:32.49,0:00:33.19,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Jamie Vardy,
+Dialogue: 0,0:00:33.19,0:00:33.64,Cap,,0,0,0,,{\pos(540,960)\blur0.5}used to play
+Dialogue: 0,0:00:33.64,0:00:34.42,Cap,,0,0,0,,{\pos(540,960)\blur0.5}non-league football
+Dialogue: 0,0:00:34.42,0:00:34.86,Cap,,0,0,0,,{\pos(540,960)\blur0.5}while working
+Dialogue: 0,0:00:34.86,0:00:35.57,Cap,,0,0,0,,{\pos(540,960)\blur0.5}as a technician,
+Dialogue: 0,0:00:35.57,0:00:36.60,Cap,,0,0,0,,{\pos(540,960)\blur0.5}making medical splints.
+Dialogue: 0,0:00:36.60,0:00:37.21,Cap,,0,0,0,,{\pos(540,960)\blur0.5}That season,
+Dialogue: 0,0:00:37.21,0:00:37.74,Cap,,0,0,0,,{\pos(540,960)\blur0.5}he scored
+Dialogue: 0,0:00:37.74,0:00:38.25,Cap,,0,0,0,,{\pos(540,960)\blur0.5}in eleven
+Dialogue: 0,0:00:38.25,0:00:39.03,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Premier League games
+Dialogue: 0,0:00:39.03,0:00:39.56,Cap,,0,0,0,,{\pos(540,960)\blur0.5}in a row,
+Dialogue: 0,0:00:39.56,0:00:40.21,Cap,,0,0,0,,{\pos(540,960)\blur0.5}a new record.
+Dialogue: 0,0:00:40.21,0:00:41.10,Cap,,0,0,0,,{\pos(540,960)\blur0.5}And Riyad Mahrez,
+Dialogue: 0,0:00:41.10,0:00:41.92,Cap,,0,0,0,,{\pos(540,960)\blur0.5}signed from France's
+Dialogue: 0,0:00:41.92,0:00:42.51,Cap,,0,0,0,,{\pos(540,960)\blur0.5}second division
+Dialogue: 0,0:00:42.51,0:00:42.95,Cap,,0,0,0,,{\pos(540,960)\blur0.5}for around
+Dialogue: 0,0:00:42.95,0:00:44.43,Cap,,0,0,0,,{\pos(540,960)\blur0.5}450,000 pounds,
+Dialogue: 0,0:00:44.43,0:00:44.93,Cap,,0,0,0,,{\pos(540,960)\blur0.5}was voted
+Dialogue: 0,0:00:44.93,0:00:45.58,Cap,,0,0,0,,{\pos(540,960)\blur0.5}player of the year
+Dialogue: 0,0:00:45.58,0:00:46.00,Cap,,0,0,0,,{\pos(540,960)\blur0.5}by the other
+Dialogue: 0,0:00:46.00,0:00:46.43,Cap,,0,0,0,,{\pos(540,960)\blur0.5}players.
+Dialogue: 0,0:00:46.43,0:00:47.10,Cap,,0,0,0,,{\pos(540,960)\blur0.5}In February,
+Dialogue: 0,0:00:47.10,0:00:47.44,Cap,,0,0,0,,{\pos(540,960)\blur0.5}they beat
+Dialogue: 0,0:00:47.44,0:00:48.00,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Manchester City
+Dialogue: 0,0:00:48.00,0:00:48.83,Cap,,0,0,0,,{\pos(540,960)\blur0.5}3-1 away.
+Dialogue: 0,0:00:48.83,0:00:49.26,Cap,,0,0,0,,{\pos(540,960)\blur0.5}And the fans
+Dialogue: 0,0:00:49.26,0:00:49.59,Cap,,0,0,0,,{\pos(540,960)\blur0.5}who had bet
+Dialogue: 0,0:00:49.59,0:00:49.78,Cap,,0,0,0,,{\pos(540,960)\blur0.5}on them
+Dialogue: 0,0:00:49.78,0:00:50.50,Cap,,0,0,0,,{\pos(540,960)\blur0.5}at five thousand
+Dialogue: 0,0:00:50.50,0:00:51.19,Cap,,0,0,0,,{\pos(540,960)\blur0.5}to one started
+Dialogue: 0,0:00:51.19,0:00:51.62,Cap,,0,0,0,,{\pos(540,960)\blur0.5}getting offers
+Dialogue: 0,0:00:51.62,0:00:52.29,Cap,,0,0,0,,{\pos(540,960)\blur0.5}to cash out.
+Dialogue: 0,0:00:52.29,0:00:52.70,Cap,,0,0,0,,{\pos(540,960)\blur0.5}One fan
+Dialogue: 0,0:00:52.70,0:00:53.26,Cap,,0,0,0,,{\pos(540,960)\blur0.5}had put fifty
+Dialogue: 0,0:00:53.26,0:00:53.98,Cap,,0,0,0,,{\pos(540,960)\blur0.5}pounds on Leicester,
+Dialogue: 0,0:00:53.98,0:00:54.27,Cap,,0,0,0,,{\pos(540,960)\blur0.5}to win
+Dialogue: 0,0:00:54.27,0:00:54.61,Cap,,0,0,0,,{\pos(540,960)\blur0.5}two hundred
+Dialogue: 0,0:00:54.61,0:00:55.44,Cap,,0,0,0,,{\pos(540,960)\blur0.5}and fifty thousand.
+Dialogue: 0,0:00:55.44,0:00:55.95,Cap,,0,0,0,,{\pos(540,960)\blur0.5}In March,
+Dialogue: 0,0:00:55.95,0:00:56.23,Cap,,0,0,0,,{\pos(540,960)\blur0.5}he took
+Dialogue: 0,0:00:56.23,0:00:57.09,Cap,,0,0,0,,{\pos(540,960)\blur0.5}seventy-two thousand
+Dialogue: 0,0:00:57.09,0:00:57.60,Cap,,0,0,0,,{\pos(540,960)\blur0.5}instead.
+Dialogue: 0,0:00:57.60,0:00:57.91,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Then,
+Dialogue: 0,0:00:57.91,0:00:58.36,Cap,,0,0,0,,{\pos(540,960)\blur0.5}on the 2nd
+Dialogue: 0,0:00:58.36,0:00:59.35,Cap,,0,0,0,,{\pos(540,960)\blur0.5}of May 2016,
+Dialogue: 0,0:00:59.35,0:00:59.99,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Tottenham drew
+Dialogue: 0,0:00:59.99,0:01:00.56,Cap,,0,0,0,,{\pos(540,960)\blur0.5}at Chelsea,
+Dialogue: 0,0:01:00.56,0:01:01.21,Cap,,0,0,0,,{\pos(540,960)\blur0.5}and Leicester City
+Dialogue: 0,0:01:01.21,0:01:01.96,Cap,,0,0,0,,{\pos(540,960)\blur0.5}were the champions
+Dialogue: 0,0:01:01.96,0:01:02.55,Cap,,0,0,0,,{\pos(540,960)\blur0.5}of England.
+Dialogue: 0,0:01:02.55,0:01:02.84,Cap,,0,0,0,,{\pos(540,960)\blur0.5}But here's
+Dialogue: 0,0:01:02.84,0:01:03.49,Cap,,0,0,0,,{\pos(540,960)\blur0.5}the wild part.
+Dialogue: 0,0:01:03.49,0:01:04.37,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Ladbrokes had taken
+Dialogue: 0,0:01:04.37,0:01:05.20,Cap,,0,0,0,,{\pos(540,960)\blur0.5}47 bets
+Dialogue: 0,0:01:05.20,0:01:05.89,Cap,,0,0,0,,{\pos(540,960)\blur0.5}at five thousand
+Dialogue: 0,0:01:05.89,0:01:06.35,Cap,,0,0,0,,{\pos(540,960)\blur0.5}to one.
+Dialogue: 0,0:01:06.35,0:01:06.85,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Around half
+Dialogue: 0,0:01:06.85,0:01:07.36,Cap,,0,0,0,,{\pos(540,960)\blur0.5}of those fans
+Dialogue: 0,0:01:07.36,0:01:07.77,Cap,,0,0,0,,{\pos(540,960)\blur0.5}had already
+Dialogue: 0,0:01:07.77,0:01:08.70,Cap,,0,0,0,,{\pos(540,960)\blur0.5}cashed out.

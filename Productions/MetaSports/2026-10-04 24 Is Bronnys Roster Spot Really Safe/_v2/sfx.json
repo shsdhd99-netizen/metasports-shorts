@@ -1,0 +1,6 @@
+[
+ {"sfx": "camera", "at": 4.16, "gain": -8, "why": "Bronny at the mic, nameplate reads Bronny James Jr."},
+ {"sfx": "whoosh", "at": 6.27, "gain": -11, "why": "cut from the presser to the Golden State game"},
+ {"sfx": "boom_cinematic", "at": 17.92, "gain": -10, "why": "one too many contracts"},
+ {"sfx": "ding", "at": 23.88, "gain": -17, "why": "sixteen-for-fifteen payoff"}
+]

@@ -1,0 +1,57 @@
+[
+ {
+  "word": "The",
+  "start": 0.0,
+  "end": 0.114
+ },
+ {
+  "word": "guarantee",
+  "start": 0.155,
+  "end": 0.485
+ },
+ {
+  "word": "protects",
+  "start": 0.526,
+  "end": 0.825
+ },
+ {
+  "word": "his",
+  "start": 0.846,
+  "end": 0.928
+ },
+ {
+  "word": "money.",
+  "start": 0.98,
+  "end": 1.237
+ },
+ {
+  "word": "That",
+  "start": 1.268,
+  "end": 1.423
+ },
+ {
+  "word": "shot",
+  "start": 1.475,
+  "end": 1.64
+ },
+ {
+  "word": "might",
+  "start": 1.681,
+  "end": 1.825
+ },
+ {
+  "word": "protect",
+  "start": 1.857,
+  "end": 2.125
+ },
+ {
+  "word": "his",
+  "start": 2.166,
+  "end": 2.248
+ },
+ {
+  "word": "spot.",
+  "start": 2.279,
+  "end": 2.64
+ }
+]

@@ -1,0 +1,164 @@
+{
+ "length_s": 21.65,
+ "topic": "A compilation of impressive or funny basketball tricks and moments being rated out of 10 by a bearded man holding a score card.",
+ "lane": "moment",
+ "hook": {
+  "first_words": "Wait for it",
+  "first_frame": "A wide aerial view of an indoor basketball court with a ball on the floor and a man walking toward it.",
+  "on_screen_text_0_3s": "Wait for it 😅 💀",
+  "shots_in_first_3s": 1
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 4.16,
+   "shows": "A man on an indoor court attempting to dribble or interact with a ball before walking away.",
+   "kind": "action"
+  },
+  {
+   "start_s": 4.16,
+   "end_s": 5.25,
+   "shows": "A bearded man holding a sign that says '8/10' and looking surprised.",
+   "kind": "face"
+  },
+  {
+   "start_s": 5.25,
+   "end_s": 8.16,
+   "shows": "Basketball players in a gym playing, one player attempts a trick shot.",
+   "kind": "action"
+  },
+  {
+   "start_s": 8.16,
+   "end_s": 9.16,
+   "shows": "The bearded man holding a sign that says '9/10'.",
+   "kind": "face"
+  },
+  {
+   "start_s": 9.16,
+   "end_s": 13.75,
+   "shows": "Basketball players on a court, one player attempts a spin/trick move.",
+   "kind": "action"
+  },
+  {
+   "start_s": 13.75,
+   "end_s": 14.66,
+   "shows": "The bearded man holding a sign that says '6/10' and scratching his head.",
+   "kind": "face"
+  },
+  {
+   "start_s": 14.66,
+   "end_s": 18.25,
+   "shows": "A young boy on a driveway dribbling and trying a basketball trick.",
+   "kind": "action"
+  },
+  {
+   "start_s": 18.25,
+   "end_s": 19.16,
+   "shows": "The bearded man holding a sign that says '5/10'.",
+   "kind": "face"
+  },
+  {
+   "start_s": 19.16,
+   "end_s": 21.25,
+   "shows": "A man doing an athletic basketball dunk outside.",
+   "kind": "action"
+  },
+  {
+   "start_s": 21.25,
+   "end_s": 21.65,
+   "shows": "The bearded man holding a sign that says '10/10' with an excited expression.",
+   "kind": "face"
+  }
+ ],
+ "shot_count": 10,
+ "average_shot_s": 2.165,
+ "longest_shot_s": 4.59,
+ "voice": {
+  "type": "none",
+  "gender": "unknown",
+  "words_per_minute_estimate": 0,
+  "tone": "unknown",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "upbeat hip hop / instrumental beat",
+  "level_vs_voice": "loud",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [
+  {
+   "at_s": 0.0,
+   "sound": "beat drop / background music start"
+  },
+  {
+   "at_s": 4.16,
+   "sound": "gasp sound effect"
+  },
+  {
+   "at_s": 8.16,
+   "sound": "gasp sound effect"
+  },
+  {
+   "at_s": 13.75,
+   "sound": "record scratch / funny noise"
+  },
+  {
+   "at_s": 18.25,
+   "sound": "funny cartoon sound effect"
+  },
+  {
+   "at_s": 21.25,
+   "sound": "cheering sound"
+  }
+ ],
+ "captions": {
+  "present": false,
+  "words_per_line": 0,
+  "case": "mixed",
+  "position": "bottom",
+  "colours": "none",
+  "highlight_style": "none"
+ },
+ "text_overlays": [
+  {
+   "at_s": 0.0,
+   "text": "Wait for it 😅 💀"
+  }
+ ],
+ "cards_or_graphics": 0,
+ "framing": "crop",
+ "ending": {
+  "last_words": "none",
+  "last_frame": "The bearded man holding up a 10/10 score card with a wide mouth and excited eyes.",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "",
+ "retention_tricks": [
+  "promise in first line (Wait for it)",
+  "reaction shots cutting between clips and the judge",
+  "scorecards building suspense and escalation",
+  "fast-paced cutting between basketball fails/tricks and judge scores"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": true,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "Engaging reaction shots providing immediate commentary on each clip via scorecards",
+  "Fast cuts between bizarre or impressive basketball clips and the judge's funny expressions",
+  "Clear rating progression from 8/10 down to 5/10 and finishing with a 10/10 payoff"
+ ],
+ "_meta": {
+  "source": "x9OEeRP6kgo",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

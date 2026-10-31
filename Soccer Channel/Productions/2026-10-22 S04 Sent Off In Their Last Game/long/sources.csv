@@ -1,0 +1,22 @@
+clip,kind,used_at_s,used_for_line,what_it_shows,source_url,source_account,source_date,source_in_s,source_out_s,crop,match_score,licence_risk,verified,verified_on,notes
+Z01.mp4,,,,,src/h_ref.mp4,,,66.3,68.9,x 0.5 zoom 1.0 y 0.5,,,,, | source 1280x720
+Z02.mp4,,,,,src/h_pre.mp4,,,0.3,1.7,x 0.5 zoom 1.0 y 0.5 blurfit,,,,, | source 1280x720
+Z03.mp4,,,,,src/h_intro.mp4,,,10.2,12.2,x 0.5 zoom 1.0 y 0.5,,,,, | source 1280x720
+Z07.mp4,,,,,src/h_intro.mp4,,,16.0,17.6,x 0.5 zoom 1.0 y 0.5,,,,, | source 1280x720
+Z10.mp4,,,,,src/h_pen.mp4,,,4.0,5.8,x 0.5 zoom 1.0 y 0.5,,,,, | source 1280x720
+Z12.mp4,,,,,src/h_rep.mp4,,,4.3,7.2,x 0.6 zoom 1.0 y 0.5,,,,, | source 1280x720
+Z13.mp4,,,,,src/h_rep.mp4,,,13.0,14.3,x 0.5 zoom 1.0 y 0.5,,,,, | source 1280x720
+Z14.mp4,,,,,src/h_mat.mp4,,,1.0,2.1,x 0.5 zoom 1.0 y 0.5 blurfit,,,,, | source 1280x720
+Z15.mp4,,,,,src/h_mat.mp4,,,4.6,6.1,x 0.5 zoom 1.0 y 0.5 blurfit,,,,, | source 1280x720
+Z17.mp4,,,,,src/h_head.mp4,,,0.0,1.4,x 0.5 zoom 1.0 y 0.5 blurfit,,,,, | source 1280x720
+Z19.mp4,,,,,src/h_head.mp4,,,13.4,15.2,x 0.45 zoom 1.0 y 0.5,,,,, | source 1280x720
+Z20.mp4,,,,,src/h_down.mp4,,,2.0,3.8,x 0.5 zoom 1.0 y 0.5 blurfit,,,,, | source 1280x720
+Z21.mp4,,,,,src/h_rep2.mp4,,,1.5,4.0,x 0.5 zoom 1.12 y 0.0,,,,, | source 1280x720
+Z22.mp4,,,,,src/h_rep2.mp4,,,3.6,4.9,x 0.45 zoom 1.12 y 0.0,,,,, | source 1280x720
+Z25b.mp4,,,,,src/h_ref.mp4,,,0.5,1.9,x 0.45 zoom 1.0 y 0.5,,,,, | source 1280x720
+Z25c.mp4,,,,,src/h_ref.mp4,,,7.2,9.3,x 0.5 zoom 1.0 y 0.5,,,,, | source 1280x720
+Z26.mp4,,,,,src/h_ref.mp4,,,10.0,12.0,x 0.5 zoom 1.0 y 0.5,,,,, | source 1280x720
+Z27.mp4,,,,,src/h_rep2.mp4,,,19.0,21.0,x 0.5 zoom 1.0 y 0.5,,,,, | source 1280x720
+Z28.mp4,,,,,src/h_ref.mp4,,,70.0,72.1,x 0.5 zoom 1.0 y 0.5,,,,, | source 1280x720
+Z32.mp4,,,,,src/h_grosso.mp4,,,3.6,5.4,x 0.5 zoom 1.0 y 0.5 blurfit,,,,, | source 1280x720
+Z33.mp4,,,,,src/h_rep2.mp4,,,37.0,38.4,x 0.5 zoom 1.0 y 0.5,,,,, | source 1280x720

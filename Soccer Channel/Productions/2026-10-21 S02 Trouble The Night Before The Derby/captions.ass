@@ -1,0 +1,116 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,TikTok Sans SemiBold,80,&H00FFFFFF,&H00FFFFFF,&H00000000,&H99000000,0,0,0,0,100,100,0,0,1,3.2,1,5,70,70,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:01.83,Cap,,0,0,0,,{\pos(540,960)\blur0.5\fscx98\fscy98}Players who got in TROUBLE\Nthe day before a derby
+Dialogue: 0,0:00:01.83,0:00:02.53,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Back in October
+Dialogue: 0,0:00:02.53,0:00:03.17,Cap,,0,0,0,,{\pos(540,960)\blur0.5}2011,
+Dialogue: 0,0:00:03.17,0:00:03.76,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Manchester City
+Dialogue: 0,0:00:03.76,0:00:04.35,Cap,,0,0,0,,{\pos(540,960)\blur0.5}were about to play
+Dialogue: 0,0:00:04.35,0:00:05.10,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Manchester United
+Dialogue: 0,0:00:05.10,0:00:05.88,Cap,,0,0,0,,{\pos(540,960)\blur0.5}at Old Trafford,
+Dialogue: 0,0:00:05.88,0:00:06.36,Cap,,0,0,0,,{\pos(540,960)\blur0.5}and up front
+Dialogue: 0,0:00:06.36,0:00:06.83,Cap,,0,0,0,,{\pos(540,960)\blur0.5}for City
+Dialogue: 0,0:00:06.83,0:00:08.00,Cap,,0,0,0,,{\pos(540,960)\blur0.5}was Mario Balotelli.
+Dialogue: 0,0:00:08.00,0:00:08.39,Cap,,0,0,0,,{\pos(540,960)\blur0.5}But just
+Dialogue: 0,0:00:08.39,0:00:09.29,Cap,,0,0,0,,{\pos(540,960)\blur0.5}before 1 a.m.
+Dialogue: 0,0:00:09.29,0:00:09.71,Cap,,0,0,0,,{\pos(540,960)\blur0.5}on the day
+Dialogue: 0,0:00:09.71,0:00:10.43,Cap,,0,0,0,,{\pos(540,960)\blur0.5}before the derby,
+Dialogue: 0,0:00:10.43,0:00:10.91,Cap,,0,0,0,,{\pos(540,960)\blur0.5}two fire
+Dialogue: 0,0:00:10.91,0:00:11.41,Cap,,0,0,0,,{\pos(540,960)\blur0.5}crews were called
+Dialogue: 0,0:00:11.41,0:00:11.98,Cap,,0,0,0,,{\pos(540,960)\blur0.5}to his house.
+Dialogue: 0,0:00:11.98,0:00:12.91,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Balotelli had four
+Dialogue: 0,0:00:12.91,0:00:13.49,Cap,,0,0,0,,{\pos(540,960)\blur0.5}friends over,
+Dialogue: 0,0:00:13.49,0:00:13.75,Cap,,0,0,0,,{\pos(540,960)\blur0.5}and they
+Dialogue: 0,0:00:13.75,0:00:14.09,Cap,,0,0,0,,{\pos(540,960)\blur0.5}were letting
+Dialogue: 0,0:00:14.09,0:00:14.77,Cap,,0,0,0,,{\pos(540,960)\blur0.5}off fireworks out
+Dialogue: 0,0:00:14.77,0:00:15.31,Cap,,0,0,0,,{\pos(540,960)\blur0.5}of the bathroom
+Dialogue: 0,0:00:15.31,0:00:15.72,Cap,,0,0,0,,{\pos(540,960)\blur0.5}window.
+Dialogue: 0,0:00:15.72,0:00:16.16,Cap,,0,0,0,,{\pos(540,960)\blur0.5}The towels
+Dialogue: 0,0:00:16.16,0:00:16.80,Cap,,0,0,0,,{\pos(540,960)\blur0.5}caught fire,
+Dialogue: 0,0:00:16.80,0:00:17.44,Cap,,0,0,0,,{\pos(540,960)\blur0.5}and the bathroom
+Dialogue: 0,0:00:17.44,0:00:17.70,Cap,,0,0,0,,{\pos(540,960)\blur0.5}went up
+Dialogue: 0,0:00:17.70,0:00:18.37,Cap,,0,0,0,,{\pos(540,960)\blur0.5}in flames.
+Dialogue: 0,0:00:18.37,0:00:18.89,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Firefighters
+Dialogue: 0,0:00:18.89,0:00:19.24,Cap,,0,0,0,,{\pos(540,960)\blur0.5}had to go
+Dialogue: 0,0:00:19.24,0:00:19.77,Cap,,0,0,0,,{\pos(540,960)\blur0.5}in with breathing
+Dialogue: 0,0:00:19.77,0:00:20.38,Cap,,0,0,0,,{\pos(540,960)\blur0.5}apparatus.
+Dialogue: 0,0:00:20.38,0:00:20.82,Cap,,0,0,0,,{\pos(540,960)\blur0.5}And reports
+Dialogue: 0,0:00:20.82,0:00:21.55,Cap,,0,0,0,,{\pos(540,960)\blur0.5}say Balotelli
+Dialogue: 0,0:00:21.55,0:00:22.19,Cap,,0,0,0,,{\pos(540,960)\blur0.5}even ran back
+Dialogue: 0,0:00:22.19,0:00:22.80,Cap,,0,0,0,,{\pos(540,960)\blur0.5}inside to grab
+Dialogue: 0,0:00:22.80,0:00:23.28,Cap,,0,0,0,,{\pos(540,960)\blur0.5}a suitcase
+Dialogue: 0,0:00:23.28,0:00:23.94,Cap,,0,0,0,,{\pos(540,960)\blur0.5}and some cash,
+Dialogue: 0,0:00:23.94,0:00:24.38,Cap,,0,0,0,,{\pos(540,960)\blur0.5}so the police
+Dialogue: 0,0:00:24.38,0:00:24.67,Cap,,0,0,0,,{\pos(540,960)\blur0.5}had to make
+Dialogue: 0,0:00:24.67,0:00:24.90,Cap,,0,0,0,,{\pos(540,960)\blur0.5}sure he
+Dialogue: 0,0:00:24.90,0:00:25.39,Cap,,0,0,0,,{\pos(540,960)\blur0.5}stayed out.
+Dialogue: 0,0:00:25.39,0:00:25.94,Cap,,0,0,0,,{\pos(540,960)\blur0.5}By the morning,
+Dialogue: 0,0:00:25.94,0:00:26.36,Cap,,0,0,0,,{\pos(540,960)\blur0.5}it was all
+Dialogue: 0,0:00:26.36,0:00:27.07,Cap,,0,0,0,,{\pos(540,960)\blur0.5}over the news.
+Dialogue: 0,0:00:27.07,0:00:27.94,Cap,,0,0,0,,{\pos(540,960)\blur0.5}But Balotelli checked
+Dialogue: 0,0:00:27.94,0:00:28.64,Cap,,0,0,0,,{\pos(540,960)\blur0.5}into a hotel,
+Dialogue: 0,0:00:28.64,0:00:29.39,Cap,,0,0,0,,{\pos(540,960)\blur0.5}and at 10 a.m.
+Dialogue: 0,0:00:29.39,0:00:29.69,Cap,,0,0,0,,{\pos(540,960)\blur0.5}he turned
+Dialogue: 0,0:00:29.69,0:00:30.12,Cap,,0,0,0,,{\pos(540,960)\blur0.5}up for training
+Dialogue: 0,0:00:30.12,0:00:30.58,Cap,,0,0,0,,{\pos(540,960)\blur0.5}like nothing
+Dialogue: 0,0:00:30.58,0:00:31.13,Cap,,0,0,0,,{\pos(540,960)\blur0.5}had happened.
+Dialogue: 0,0:00:31.13,0:00:32.13,Cap,,0,0,0,,{\pos(540,960)\blur0.5}And Roberto Mancini
+Dialogue: 0,0:00:32.13,0:00:32.71,Cap,,0,0,0,,{\pos(540,960)\blur0.5}still put him
+Dialogue: 0,0:00:32.71,0:00:33.23,Cap,,0,0,0,,{\pos(540,960)\blur0.5}in the team.
+Dialogue: 0,0:00:33.23,0:00:34.20,Cap,,0,0,0,,{\pos(540,960)\blur0.5}After 22 minutes,
+Dialogue: 0,0:00:34.20,0:00:35.25,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Balotelli scored.
+Dialogue: 0,0:00:35.25,0:00:35.57,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Then he
+Dialogue: 0,0:00:35.57,0:00:36.22,Cap,,0,0,0,,{\pos(540,960)\blur0.5}lifted his shirt
+Dialogue: 0,0:00:36.22,0:00:36.84,Cap,,0,0,0,,{\pos(540,960)\blur0.5}over his head
+Dialogue: 0,0:00:36.84,0:00:37.13,Cap,,0,0,0,,{\pos(540,960)\blur0.5}to show
+Dialogue: 0,0:00:37.13,0:00:38.02,Cap,,0,0,0,,{\pos(540,960)\blur0.5}a message underneath.
+Dialogue: 0,0:00:38.02,0:00:38.84,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Why always me?
+Dialogue: 0,0:00:38.84,0:00:39.48,Cap,,0,0,0,,{\pos(540,960)\blur0.5}The referee booked
+Dialogue: 0,0:00:39.48,0:00:39.88,Cap,,0,0,0,,{\pos(540,960)\blur0.5}him for it.
+Dialogue: 0,0:00:39.88,0:00:40.09,Cap,,0,0,0,,{\pos(540,960)\blur0.5}But it
+Dialogue: 0,0:00:40.09,0:00:41.24,Cap,,0,0,0,,{\pos(540,960)\blur0.5}got even crazier.
+Dialogue: 0,0:00:41.24,0:00:41.70,Cap,,0,0,0,,{\pos(540,960)\blur0.5}In the second
+Dialogue: 0,0:00:41.70,0:00:42.46,Cap,,0,0,0,,{\pos(540,960)\blur0.5}half, Balotelli
+Dialogue: 0,0:00:42.46,0:00:43.13,Cap,,0,0,0,,{\pos(540,960)\blur0.5}scored again,
+Dialogue: 0,0:00:43.13,0:00:43.65,Cap,,0,0,0,,{\pos(540,960)\blur0.5}and City
+Dialogue: 0,0:00:43.65,0:00:44.50,Cap,,0,0,0,,{\pos(540,960)\blur0.5}just kept going.
+Dialogue: 0,0:00:44.50,0:00:45.17,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Three, four,
+Dialogue: 0,0:00:45.17,0:00:46.11,Cap,,0,0,0,,{\pos(540,960)\blur0.5}five, six.
+Dialogue: 0,0:00:46.11,0:00:46.62,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Manchester City
+Dialogue: 0,0:00:46.62,0:00:47.59,Cap,,0,0,0,,{\pos(540,960)\blur0.5}won 6-1,
+Dialogue: 0,0:00:47.59,0:00:48.49,Cap,,0,0,0,,{\pos(540,960)\blur0.5}United's worst home
+Dialogue: 0,0:00:48.49,0:00:49.83,Cap,,0,0,0,,{\pos(540,960)\blur0.5}defeat since 1955,
+Dialogue: 0,0:00:49.83,0:00:50.34,Cap,,0,0,0,,{\pos(540,960)\blur0.5}and City went
+Dialogue: 0,0:00:50.34,0:00:50.96,Cap,,0,0,0,,{\pos(540,960)\blur0.5}five points clear
+Dialogue: 0,0:00:50.96,0:00:51.41,Cap,,0,0,0,,{\pos(540,960)\blur0.5}at the top.
+Dialogue: 0,0:00:51.41,0:00:51.80,Cap,,0,0,0,,{\pos(540,960)\blur0.5}But here's
+Dialogue: 0,0:00:51.80,0:00:52.52,Cap,,0,0,0,,{\pos(540,960)\blur0.5}the wild part.
+Dialogue: 0,0:00:52.52,0:00:52.91,Cap,,0,0,0,,{\pos(540,960)\blur0.5}That shirt
+Dialogue: 0,0:00:52.91,0:00:53.25,Cap,,0,0,0,,{\pos(540,960)\blur0.5}had nothing
+Dialogue: 0,0:00:53.25,0:00:53.61,Cap,,0,0,0,,{\pos(540,960)\blur0.5}to do with
+Dialogue: 0,0:00:53.61,0:00:54.17,Cap,,0,0,0,,{\pos(540,960)\blur0.5}the fire.
+Dialogue: 0,0:00:54.17,0:00:54.96,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Balotelli asked
+Dialogue: 0,0:00:54.96,0:00:55.42,Cap,,0,0,0,,{\pos(540,960)\blur0.5}the kit man
+Dialogue: 0,0:00:55.42,0:00:55.89,Cap,,0,0,0,,{\pos(540,960)\blur0.5}to print it
+Dialogue: 0,0:00:55.89,0:00:56.42,Cap,,0,0,0,,{\pos(540,960)\blur0.5}on the Monday
+Dialogue: 0,0:00:56.42,0:00:57.24,Cap,,0,0,0,,{\pos(540,960)\blur0.5}before the derby,
+Dialogue: 0,0:00:57.24,0:00:57.50,Cap,,0,0,0,,{\pos(540,960)\blur0.5}days
+Dialogue: 0,0:00:57.50,0:00:58.37,Cap,,0,0,0,,{\pos(540,960)\blur0.5}before any fire.
+Dialogue: 0,0:00:58.37,0:00:58.80,Cap,,0,0,0,,{\pos(540,960)\blur0.5}And the day
+Dialogue: 0,0:00:58.80,0:00:59.44,Cap,,0,0,0,,{\pos(540,960)\blur0.5}after the derby,
+Dialogue: 0,0:00:59.44,0:00:59.71,Cap,,0,0,0,,{\pos(540,960)\blur0.5}the man
+Dialogue: 0,0:00:59.71,0:01:00.17,Cap,,0,0,0,,{\pos(540,960)\blur0.5}whose bathroom
+Dialogue: 0,0:01:00.17,0:01:00.46,Cap,,0,0,0,,{\pos(540,960)\blur0.5}had caught
+Dialogue: 0,0:01:00.46,0:01:01.13,Cap,,0,0,0,,{\pos(540,960)\blur0.5}fire was telling
+Dialogue: 0,0:01:01.13,0:01:01.94,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Manchester to follow
+Dialogue: 0,0:01:01.94,0:01:03.03,Cap,,0,0,0,,{\pos(540,960)\blur0.5}the firework code.

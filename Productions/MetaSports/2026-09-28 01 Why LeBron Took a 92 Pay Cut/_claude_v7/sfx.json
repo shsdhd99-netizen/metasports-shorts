@@ -1,0 +1,28 @@
+[
+ {
+  "sfx": "cha_ching",
+  "at": 5.94,
+  "gain": -15,
+  "why": "salary table"
+ },
+ {
+  "sfx": "click",
+  "at": 9.0,
+  "gain": -10,
+  "why": "contract table"
+ },
+ {
+  "sfx": "camera",
+  "at": 16.81,
+  "gain": -12,
+  "len": 0.6,
+  "fade": 0.2,
+  "why": "Jaylen presser"
+ },
+ {
+  "sfx": "click",
+  "at": 17.82,
+  "gain": -10,
+  "why": "ESPN quote"
+ }
+]

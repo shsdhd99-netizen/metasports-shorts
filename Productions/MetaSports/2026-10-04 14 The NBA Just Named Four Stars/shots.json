@@ -1,0 +1,152 @@
+[
+ {
+  "clip": "B10_banchero_b.mp4",
+  "start": 0.0,
+  "anchor": "The NBA just",
+  "kind": "action",
+  "why": "The NBA just",
+  "zoom": 0.1
+ },
+ {
+  "clip": "B3_mitchell_push.mp4",
+  "start": 1.41,
+  "anchor": "in one video",
+  "kind": "action",
+  "why": "in one video"
+ },
+ {
+  "clip": "B12_brown_b.mp4",
+  "start": 1.99,
+  "anchor": "about one illegal",
+  "kind": "action",
+  "why": "about one illegal"
+ },
+ {
+  "clip": "B1_brown_push.mp4",
+  "start": 3.09,
+  "anchor": "Jaylen Brown.",
+  "kind": "action",
+  "why": "Jaylen Brown."
+ },
+ {
+  "clip": "B2_banchero_push.mp4",
+  "start": 3.97,
+  "anchor": "Paolo Banchero.",
+  "kind": "action",
+  "why": "Paolo Banchero."
+ },
+ {
+  "clip": "B11_mitchell_b.mp4",
+  "start": 5.05,
+  "anchor": "Donovan Mitchell.",
+  "kind": "action",
+  "why": "Donovan Mitchell.",
+  "in": 0.3
+ },
+ {
+  "clip": "B4_barrett_push.mp4",
+  "start": 5.89,
+  "anchor": "RJ Barrett.",
+  "kind": "action",
+  "why": "RJ Barrett."
+ },
+ {
+  "clip": "B12_brown_b.mp4",
+  "start": 6.71,
+  "anchor": "The move: shoving",
+  "kind": "action",
+  "why": "The move: shoving"
+ },
+ {
+  "clip": "B3_mitchell_push.mp4",
+  "start": 7.96,
+  "anchor": "with your free",
+  "kind": "action",
+  "why": "with your free"
+ },
+ {
+  "clip": "B7_george_wide.mp4",
+  "start": 9.41,
+  "anchor": "But the same",
+  "kind": "action",
+  "why": "But the same"
+ },
+ {
+  "clip": "B5_mccollum_legal.mp4",
+  "start": 11.18,
+  "anchor": "CJ McCollum,",
+  "kind": "action",
+  "why": "CJ McCollum,"
+ },
+ {
+  "clip": "B6_george_legal.mp4",
+  "start": 12.44,
+  "anchor": "Paul George,",
+  "kind": "action",
+  "why": "Paul George,"
+ },
+ {
+  "clip": "B13_george_b.mp4",
+  "start": 13.01,
+  "anchor": "only feeling",
+  "kind": "action",
+  "why": "only feeling"
+ },
+ {
+  "clip": "B8b_suggs.mp4",
+  "start": 13.97,
+  "anchor": "And it shows",
+  "kind": "action",
+  "why": "And it shows"
+ },
+ {
+  "clip": "B8_suggs_a.mp4",
+  "start": 15.85,
+  "anchor": "Jalen Suggs",
+  "kind": "action",
+  "why": "Jalen Suggs",
+  "in": 0.8
+ },
+ {
+  "clip": "B9_suggs_b.mp4",
+  "start": 16.41,
+  "anchor": "was whistled",
+  "kind": "action",
+  "why": "was whistled"
+ },
+ {
+  "clip": "B8_suggs_a.mp4",
+  "start": 17.65,
+  "anchor": "and it should",
+  "kind": "action",
+  "why": "and it should"
+ },
+ {
+  "clip": "c14_b.mp4",
+  "start": 18.74,
+  "anchor": "So the rule",
+  "kind": "card",
+  "why": "So the rule"
+ },
+ {
+  "clip": "B5_mccollum_legal.mp4",
+  "start": 21.47,
+  "anchor": "The first two",
+  "kind": "action",
+  "why": "The first two"
+ },
+ {
+  "clip": "B1_brown_push.mp4",
+  "start": 22.35,
+  "anchor": "The last two",
+  "kind": "action",
+  "why": "The last two"
+ },
+ {
+  "clip": "B10_banchero_b.mp4",
+  "start": 22.86,
+  "anchor": "are fouls.",
+  "kind": "action",
+  "why": "are fouls."
+ }
+]

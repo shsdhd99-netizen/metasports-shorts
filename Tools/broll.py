@@ -17,6 +17,8 @@ OFFICIAL = {"NBA", "ESPN", "House of Highlights", "Bleacher Report", "NBA on TNT
             "Oklahoma City Thunder", "Dallas Mavericks", "Boston Celtics", "Golden State Warriors", "Cleveland Cavaliers",
             "NBA on Prime", "NBC Sports", "ClutchPoints", "Sports Illustrated", "The Athletic", "Yahoo Sports"}
 FONT = "C\\:/Windows/Fonts/arialbd.ttf"
+if not os.path.exists("C:/Windows/Fonts/arialbd.ttf"):  # Linux: bundled font
+    FONT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "fonts", "Montserrat-Bold.ttf")
 
 
 def src(s):
@@ -125,13 +127,65 @@ def cmd_cut(a):
             path = section(s, max(0, a.at), a.at + a.len + 0.6, "bv*[height<=1080][vcodec^=avc1]/bv*[height<=1080][vcodec^=vp]/bv*[height<=1080][vcodec!^=av01]/bv*[vcodec!^=av01]", tmp)
             seek = []
         w, h, _ = probe(path)
-        vf = vertical(w, h, a.x, a.zoom, a.y) + (",hflip" if a.flip else "") + ",fps=30,format=yuv420p"
         os.makedirs(os.path.dirname(os.path.abspath(a.out)), exist_ok=True)
-        run(["ffmpeg", "-y", "-loglevel", "error", *seek, "-i", path, "-t", f"{a.len:.2f}", "-vf", vf, "-an",
-             "-c:v", "libx264", "-crf", "18", "-preset", "medium", a.out])
+        # Oct 24 2026: --speed 0.5 plays the source at half speed, so a 0.7 s close-up fills a 1.4 s line (#66's MVP-reel faces).
+        # 60 fps sources stay smooth down to 0.5x; -t still sets the clip's own length, so it uses len x speed of the source.
+        slow = f"setpts=PTS/{a.speed:.3f}," if a.speed != 1.0 else ""
+        dl = ""
+        if a.delogo:  # Oct 21: blur a TV channel bug (fractions of the source frame: x,y,w,h); Oct 30: several, split by ';'
+            for box in a.delogo.split(";"):
+                fx, fy, fw, fh = (float(v) for v in box.split(","))
+                dl += f"delogo=x={int(fx * w)}:y={int(fy * h)}:w={int(fw * w)}:h={int(fh * h)},"
+        if a.blurfit:  # Oct 21 (story format): the whole wide frame, full width, over a blurred, darkened fill of itself
+            fg_w = int(1080 * a.blurfit_width) // 2 * 2
+            # Oct 26 2026 (retention study): --blurfit-aspect 0.75 keeps a 3:4 window of the wide frame (placed by --x) instead of
+            # the whole 16:9 strip, so a play fills ~75% of the height rather than 32%. Keep plain --blurfit for graphics read whole.
+            fgcrop = (f"crop=ih*{a.blurfit_aspect:.3f}/{a.zoom:.3f}:ih/{a.zoom:.3f}:(iw-ih*{a.blurfit_aspect:.3f}/{a.zoom:.3f})*{a.x:.3f}:(ih-ih/{a.zoom:.3f})/2"
+                      if a.blurfit_aspect else f"crop=iw/{a.zoom:.3f}:ih/{a.zoom:.3f}")
+            fc = (f"[0:v]{slow}{dl}split[a][b];[a]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=24:2,"
+                  f"eq=brightness=-0.12[bg];[b]{fgcrop},scale={fg_w}:-2:flags=lanczos{',hflip' if a.flip else ''}[fg];"
+                  f"[bg][fg]overlay=(W-w)/2:(H-h)*{a.y:.3f},fps=30,format=yuv420p[v]")
+            run(["ffmpeg", "-y", "-loglevel", "error", *seek, "-i", path, "-t", f"{a.len:.2f}", "-filter_complex", fc,
+                 "-map", "[v]", "-an", "-c:v", "libx264", "-crf", "18", "-preset", "medium", a.out])
+        else:
+            vf = slow + dl + vertical(w, h, a.x, a.zoom, a.y) + (",hflip" if a.flip else "") + ",fps=30,format=yuv420p"
+            run(["ffmpeg", "-y", "-loglevel", "error", *seek, "-i", path, "-t", f"{a.len:.2f}", "-vf", vf, "-an",
+                 "-c:v", "libx264", "-crf", "18", "-preset", "medium", a.out])
         print(f"{a.out}  ({a.len:.1f}s from {a.at:.1f}s, source {w}x{h}{', upscaled' if h < 1080 else ''})")
+        log_cut(a, s, local, w, h)
     finally:
         shutil.rmtree(tmp, ignore_errors=True)
+
+
+def log_cut(a, s, local, w, h):
+    """Oct 14: every cut writes its source-log row (<production>/sources.csv; see Library/B-roll Sourcing Guide.md)."""
+    import csv
+    clip_dir = os.path.dirname(os.path.abspath(a.out))
+    folder = os.path.dirname(clip_dir) if os.path.basename(clip_dir) == "clips" else clip_dir
+    url = s
+    if local:
+        sid = os.path.splitext(os.path.basename(s))[0]
+        url = f"https://x.com/i/status/{sid}" if sid.isdigit() else os.path.relpath(os.path.abspath(s), folder)
+        meta = os.path.join(os.path.dirname(os.path.abspath(s)), "downloads.csv")  # written by x_clip.py
+        acct = date = text = ""
+        if os.path.exists(meta):
+            for r in csv.DictReader(open(meta, encoding="utf-8")):
+                if r.get("id") == sid:
+                    acct, date, text = r.get("account", ""), r.get("date", ""), r.get("text", "")
+    else:
+        acct = date = text = ""
+    p = os.path.join(folder, "sources.csv")
+    cols = ["clip", "kind", "used_at_s", "used_for_line", "what_it_shows", "source_url", "source_account", "source_date",
+            "source_in_s", "source_out_s", "crop", "match_score", "licence_risk", "verified", "verified_on", "notes"]
+    rows = list(csv.DictReader(open(p, encoding="utf-8-sig"))) if os.path.exists(p) else []
+    clip = os.path.basename(a.out)
+    rows = [r for r in rows if r.get("clip") != clip]
+    rows.append({"clip": clip, "source_url": url, "source_account": acct, "source_date": date, "source_in_s": f"{a.at:.1f}",
+                 "source_out_s": f"{a.at + a.len:.1f}", "crop": f"x {a.x} zoom {a.zoom} y {a.y}" + (" flipped" if a.flip else "") + (" blurfit" if getattr(a, "blurfit", False) else ""),
+                 "notes": (f"post text: {text[:120]}" if text else "") + (f" | source {w}x{h}" if w else ""), "verified": ""})
+    wr = csv.DictWriter(open(p, "w", encoding="utf-8", newline=""), fieldnames=cols)
+    wr.writeheader()
+    wr.writerows({k: r.get(k, "") for k in cols} for r in rows)
 
 
 def cmd_page(a):
@@ -289,6 +343,11 @@ def main():
     p.add_argument("--zoom", type=float, default=1.0); p.add_argument("--y", type=float, default=0.5)
     p.add_argument("--snap", action="store_true", help="start at the beginning of the camera shot that contains --at")
     p.add_argument("--flip", action="store_true", help="mirror left-right (fixes reversed text, e.g. an embroidery preview)")
+    p.add_argument("--speed", type=float, default=1.0, help="playback speed, e.g. 0.5 = half-speed slow motion (stretches a short close-up)")
+    p.add_argument("--blurfit", action="store_true", help="keep the whole wide frame: full width over a blurred fill (story format)")
+    p.add_argument("--blurfit-width", dest="blurfit_width", type=float, default=1.0, help="foreground width share for --blurfit")
+    p.add_argument("--blurfit-aspect", dest="blurfit_aspect", type=float, default=0.0, help="with --blurfit: keep only a w/h window (0.75 = 3:4) of the frame, placed by --x (Oct 26)")
+    p.add_argument("--delogo", help="blur a channel logo: x,y,w,h as fractions of the source frame, e.g. 0.85,0.02,0.13,0.14; several boxes split by ';'")
     p = sub.add_parser("still"); p.add_argument("source"); p.add_argument("--len", type=float, default=5); p.add_argument("--out", required=True)
     p = sub.add_parser("page", help="a screenshot as a clip: push-in + red circle/box highlights")
     p.add_argument("source"); p.add_argument("--len", type=float, default=3); p.add_argument("--out", required=True)

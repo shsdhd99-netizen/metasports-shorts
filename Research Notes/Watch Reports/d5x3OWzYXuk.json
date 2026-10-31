@@ -1,0 +1,157 @@
+{
+ "length_s": 26.0,
+ "topic": "The escalating point-value basketball trick shot war between YouTubers Jesser and Bodlefty.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "This shot is worth 27 points because",
+  "first_frame": "Jesser on an outdoor court holding a tall tube of nine taped basketballs.",
+  "on_screen_text_0_3s": "THIS SHOT IS",
+  "shots_in_first_3s": 1
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 3.48,
+   "shows": "Jesser throwing a taped tube of 9 basketballs on an outdoor basketball court.",
+   "kind": "action"
+  },
+  {
+   "start_s": 3.48,
+   "end_s": 5.48,
+   "shows": "A creator dressed in a Flintstone outfit catching/shooting a longer tube of basketballs.",
+   "kind": "action"
+  },
+  {
+   "start_s": 5.48,
+   "end_s": 6.64,
+   "shows": "Jesser in an indoor facility shooting a cylinder of pink basketballs towards stacked hoops.",
+   "kind": "action"
+  },
+  {
+   "start_s": 6.64,
+   "end_s": 10.08,
+   "shows": "Wide angle of stacked hoops on a wooden structure as the pink basketball cylinder drops through, counting up to 100 points.",
+   "kind": "action"
+  },
+  {
+   "start_s": 10.08,
+   "end_s": 11.0,
+   "shows": "Close up of Jesser pointing at the stack of basketball hoops.",
+   "kind": "action"
+  },
+  {
+   "start_s": 11.0,
+   "end_s": 11.96,
+   "shows": "Jesser and Bodlefty standing next to taped basketball cylinders in a gym.",
+   "kind": "action"
+  },
+  {
+   "start_s": 11.96,
+   "end_s": 16.0,
+   "shows": "Bodlefty throwing a giant tube into a basketball hoop with multiple nets attached outdoors.",
+   "kind": "action"
+  },
+  {
+   "start_s": 16.0,
+   "end_s": 17.96,
+   "shows": "Jesser talking on court next to the stacked basketball hoops.",
+   "kind": "action"
+  },
+  {
+   "start_s": 17.96,
+   "end_s": 19.72,
+   "shows": "Jesser shooting a long tube into a hoop setup indoors, scoring 150 points.",
+   "kind": "action"
+  },
+  {
+   "start_s": 19.72,
+   "end_s": 22.96,
+   "shows": "Bodlefty throwing an extremely long black-and-white taped cylinder outdoors for 216 points.",
+   "kind": "action"
+  },
+  {
+   "start_s": 22.96,
+   "end_s": 26.0,
+   "shows": "Jesser making a massive shot into a multi-story hoop tower worth 1,000 points.",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 11,
+ "average_shot_s": 2.36,
+ "longest_shot_s": 4.04,
+ "voice": {
+  "type": "human",
+  "gender": "male",
+  "words_per_minute_estimate": 254,
+  "tone": "energetic",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "upbeat hip-hop background beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "ALL CAPS",
+  "position": "middle",
+  "colours": "white text with black outline and yellow/green highlights",
+  "highlight_style": "word highlight"
+ },
+ "text_overlays": [
+  {
+   "at_s": 6.64,
+   "text": "Score counter counting up to 100"
+  },
+  {
+   "at_s": 11.0,
+   "text": "Numbered labels on basketball stacks"
+  },
+  {
+   "at_s": 18.9,
+   "text": "Score counter counting up to 150"
+  },
+  {
+   "at_s": 23.0,
+   "text": "ATTEMPTS: 16 and score counter counting up to 1015"
+  }
+ ],
+ "cards_or_graphics": 0,
+ "framing": "crop",
+ "ending": {
+  "last_words": "Jesser came back with a shot worth 1,000 points.",
+  "last_frame": "Jesser watching the giant tube pass through stacked hoops with score counter showing 1015 points.",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "This shot is worth 27 points because Jesser taped nine basketballs into one. But when another TikToker hit a 33 point shot, it turned into a war. So Jesser responded with a 100 point shot. But instead of taping 34 balls together, he used 10 hoops and five basketballs. Then Bodlefty raised the record to 126 points and even changed Jesser's name to Jerry. Jesser fired back by calling Bodlefty an old man before hitting a 150 point shot. After that everyone thought Bodlefty ended it with a 216 point shot, but months later Jesser came back with a shot worth 1,000 points.",
+ "retention_tricks": [
+  "open loops",
+  "pattern interrupts",
+  "reveals",
+  "visual score counter animation"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": true,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": false,
+  "ends_on_payoff": true,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "Clear narrative escalation that keeps the viewer curious about how high the score can go.",
+  "Fast pacing with dynamic clips showing visually absurd basketball contraptions.",
+  "On-screen graphic score counters that build suspense as each shot drops through the hoops."
+ ],
+ "_meta": {
+  "source": "d5x3OWzYXuk",
+  "model": "gemini-3.5-flash",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

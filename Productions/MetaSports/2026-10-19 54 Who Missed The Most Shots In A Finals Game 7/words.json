@@ -1,0 +1,307 @@
+[
+ {
+  "word": "Kobe",
+  "start": 0.0,
+  "end": 0.279
+ },
+ {
+  "word": "Bryant",
+  "start": 0.325,
+  "end": 0.604
+ },
+ {
+  "word": "missed",
+  "start": 0.65,
+  "end": 0.836
+ },
+ {
+  "word": "eighteen",
+  "start": 0.894,
+  "end": 1.231
+ },
+ {
+  "word": "shots",
+  "start": 1.312,
+  "end": 1.591
+ },
+ {
+  "word": "in",
+  "start": 1.614,
+  "end": 1.66
+ },
+ {
+  "word": "Game",
+  "start": 1.707,
+  "end": 1.858
+ },
+ {
+  "word": "7",
+  "start": 1.916,
+  "end": 2.148
+ },
+ {
+  "word": "of",
+  "start": 2.206,
+  "end": 2.252
+ },
+ {
+  "word": "the",
+  "start": 2.287,
+  "end": 2.357
+ },
+ {
+  "word": "2010",
+  "start": 2.403,
+  "end": 2.752
+ },
+ {
+  "word": "Finals.",
+  "start": 2.81,
+  "end": 3.344
+ },
+ {
+  "word": "6",
+  "start": 3.413,
+  "end": 3.622
+ },
+ {
+  "word": "for",
+  "start": 3.657,
+  "end": 3.727
+ },
+ {
+  "word": "24.",
+  "start": 3.762,
+  "end": 4.331
+ },
+ {
+  "word": "And",
+  "start": 4.354,
+  "end": 4.447
+ },
+ {
+  "word": "he",
+  "start": 4.516,
+  "end": 4.563
+ },
+ {
+  "word": "was",
+  "start": 4.609,
+  "end": 4.702
+ },
+ {
+  "word": "the",
+  "start": 4.748,
+  "end": 4.818
+ },
+ {
+  "word": "Finals",
+  "start": 4.911,
+  "end": 5.283
+ },
+ {
+  "word": "MVP.",
+  "start": 5.341,
+  "end": 6.06
+ },
+ {
+  "word": "Zero",
+  "start": 6.4,
+  "end": 6.713
+ },
+ {
+  "word": "for",
+  "start": 6.771,
+  "end": 6.852
+ },
+ {
+  "word": "six",
+  "start": 6.922,
+  "end": 7.131
+ },
+ {
+  "word": "from",
+  "start": 7.178,
+  "end": 7.282
+ },
+ {
+  "word": "three.",
+  "start": 7.352,
+  "end": 7.723
+ },
+ {
+  "word": "The",
+  "start": 7.746,
+  "end": 7.816
+ },
+ {
+  "word": "Lakers",
+  "start": 7.874,
+  "end": 8.153
+ },
+ {
+  "word": "still",
+  "start": 8.188,
+  "end": 8.443
+ },
+ {
+  "word": "won,",
+  "start": 8.524,
+  "end": 8.838
+ },
+ {
+  "word": "83",
+  "start": 8.907,
+  "end": 9.291
+ },
+ {
+  "word": "to",
+  "start": 9.314,
+  "end": 9.36
+ },
+ {
+  "word": "79.",
+  "start": 9.407,
+  "end": 10.196
+ },
+ {
+  "word": "So",
+  "start": 10.497,
+  "end": 10.636
+ },
+ {
+  "word": "did",
+  "start": 10.682,
+  "end": 10.775
+ },
+ {
+  "word": "Kobe",
+  "start": 10.822,
+  "end": 11.054
+ },
+ {
+  "word": "choke?",
+  "start": 11.1,
+  "end": 11.483
+ },
+ {
+  "word": "No.",
+  "start": 11.623,
+  "end": 12.006
+ },
+ {
+  "word": "He",
+  "start": 12.029,
+  "end": 12.099
+ },
+ {
+  "word": "grabbed",
+  "start": 12.157,
+  "end": 12.424
+ },
+ {
+  "word": "15",
+  "start": 12.47,
+  "end": 12.807
+ },
+ {
+  "word": "rebounds.",
+  "start": 12.877,
+  "end": 13.457
+ },
+ {
+  "word": "He",
+  "start": 13.481,
+  "end": 13.539
+ },
+ {
+  "word": "made",
+  "start": 13.585,
+  "end": 13.689
+ },
+ {
+  "word": "11",
+  "start": 13.713,
+  "end": 14.015
+ },
+ {
+  "word": "of",
+  "start": 14.049,
+  "end": 14.096
+ },
+ {
+  "word": "15",
+  "start": 14.119,
+  "end": 14.363
+ },
+ {
+  "word": "free",
+  "start": 14.409,
+  "end": 14.537
+ },
+ {
+  "word": "throws.",
+  "start": 14.56,
+  "end": 14.885
+ },
+ {
+  "word": "Kobe",
+  "start": 14.92,
+  "end": 15.141
+ },
+ {
+  "word": "missed",
+  "start": 15.176,
+  "end": 15.326
+ },
+ {
+  "word": "eighteen",
+  "start": 15.35,
+  "end": 15.582
+ },
+ {
+  "word": "shots",
+  "start": 15.605,
+  "end": 15.791
+ },
+ {
+  "word": "in",
+  "start": 15.814,
+  "end": 15.861
+ },
+ {
+  "word": "one",
+  "start": 15.919,
+  "end": 16.046
+ },
+ {
+  "word": "game,",
+  "start": 16.081,
+  "end": 16.395
+ },
+ {
+  "word": "and",
+  "start": 16.418,
+  "end": 16.534
+ },
+ {
+  "word": "still",
+  "start": 16.604,
+  "end": 16.789
+ },
+ {
+  "word": "won",
+  "start": 16.847,
+  "end": 16.975
+ },
+ {
+  "word": "the",
+  "start": 17.022,
+  "end": 17.091
+ },
+ {
+  "word": "title.",
+  "start": 17.126,
+  "end": 17.672
+ }
+]

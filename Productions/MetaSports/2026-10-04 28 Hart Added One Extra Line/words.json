@@ -1,0 +1,492 @@
+[
+ {
+  "word": "Josh",
+  "start": 0.0,
+  "end": 0.337
+ },
+ {
+  "word": "Hart",
+  "start": 0.383,
+  "end": 0.569
+ },
+ {
+  "word": "called",
+  "start": 0.615,
+  "end": 0.824
+ },
+ {
+  "word": "the",
+  "start": 0.848,
+  "end": 0.917
+ },
+ {
+  "word": "performance",
+  "start": 0.952,
+  "end": 1.44
+ },
+ {
+  "word": "fine.",
+  "start": 1.486,
+  "end": 1.846
+ },
+ {
+  "word": "But",
+  "start": 1.881,
+  "end": 2.02
+ },
+ {
+  "word": "he",
+  "start": 2.078,
+  "end": 2.136
+ },
+ {
+  "word": "added",
+  "start": 2.194,
+  "end": 2.426
+ },
+ {
+  "word": "one",
+  "start": 2.485,
+  "end": 2.635
+ },
+ {
+  "word": "extra",
+  "start": 2.67,
+  "end": 2.937
+ },
+ {
+  "word": "line.",
+  "start": 2.984,
+  "end": 3.262
+ },
+ {
+  "word": "He",
+  "start": 3.297,
+  "end": 3.367
+ },
+ {
+  "word": "had",
+  "start": 3.425,
+  "end": 3.541
+ },
+ {
+  "word": "just",
+  "start": 3.599,
+  "end": 3.796
+ },
+ {
+  "word": "watched",
+  "start": 3.855,
+  "end": 4.122
+ },
+ {
+  "word": "Jalen",
+  "start": 4.168,
+  "end": 4.516
+ },
+ {
+  "word": "Brunson",
+  "start": 4.563,
+  "end": 4.911
+ },
+ {
+  "word": "host",
+  "start": 4.969,
+  "end": 5.143
+ },
+ {
+  "word": "Saturday",
+  "start": 5.178,
+  "end": 5.503
+ },
+ {
+  "word": "Night",
+  "start": 5.55,
+  "end": 5.712
+ },
+ {
+  "word": "Live,",
+  "start": 5.77,
+  "end": 6.06
+ },
+ {
+  "word": "the",
+  "start": 6.084,
+  "end": 6.2
+ },
+ {
+  "word": "fifth",
+  "start": 6.258,
+  "end": 6.478
+ },
+ {
+  "word": "NBA",
+  "start": 6.525,
+  "end": 6.803
+ },
+ {
+  "word": "player",
+  "start": 6.838,
+  "end": 7.07
+ },
+ {
+  "word": "ever",
+  "start": 7.129,
+  "end": 7.291
+ },
+ {
+  "word": "to",
+  "start": 7.338,
+  "end": 7.384
+ },
+ {
+  "word": "do",
+  "start": 7.442,
+  "end": 7.546
+ },
+ {
+  "word": "it,",
+  "start": 7.616,
+  "end": 7.721
+ },
+ {
+  "word": "three",
+  "start": 7.744,
+  "end": 7.953
+ },
+ {
+  "word": "months",
+  "start": 7.988,
+  "end": 8.185
+ },
+ {
+  "word": "after",
+  "start": 8.22,
+  "end": 8.417
+ },
+ {
+  "word": "Finals",
+  "start": 8.464,
+  "end": 8.742
+ },
+ {
+  "word": "MVP.",
+  "start": 8.777,
+  "end": 9.276
+ },
+ {
+  "word": "Hart",
+  "start": 9.323,
+  "end": 9.543
+ },
+ {
+  "word": "showed",
+  "start": 9.59,
+  "end": 9.787
+ },
+ {
+  "word": "up",
+  "start": 9.81,
+  "end": 9.868
+ },
+ {
+  "word": "for",
+  "start": 9.903,
+  "end": 9.985
+ },
+ {
+  "word": "the",
+  "start": 10.019,
+  "end": 10.089
+ },
+ {
+  "word": "monologue.",
+  "start": 10.112,
+  "end": 10.67
+ },
+ {
+  "word": "Then",
+  "start": 10.728,
+  "end": 10.902
+ },
+ {
+  "word": "he",
+  "start": 10.96,
+  "end": 11.018
+ },
+ {
+  "word": "kept",
+  "start": 11.076,
+  "end": 11.239
+ },
+ {
+  "word": "going.",
+  "start": 11.273,
+  "end": 11.599
+ },
+ {
+  "word": "Hart",
+  "start": 11.622,
+  "end": 11.831
+ },
+ {
+  "word": "said",
+  "start": 11.877,
+  "end": 12.028
+ },
+ {
+  "word": "he",
+  "start": 12.075,
+  "end": 12.121
+ },
+ {
+  "word": "does",
+  "start": 12.179,
+  "end": 12.307
+ },
+ {
+  "word": "not",
+  "start": 12.342,
+  "end": 12.469
+ },
+ {
+  "word": "think",
+  "start": 12.504,
+  "end": 12.643
+ },
+ {
+  "word": "Brunson",
+  "start": 12.678,
+  "end": 12.957
+ },
+ {
+  "word": "has",
+  "start": 12.992,
+  "end": 13.108
+ },
+ {
+  "word": "a",
+  "start": 13.166,
+  "end": 13.189
+ },
+ {
+  "word": "future",
+  "start": 13.247,
+  "end": 13.514
+ },
+ {
+  "word": "in",
+  "start": 13.549,
+  "end": 13.595
+ },
+ {
+  "word": "acting.",
+  "start": 13.653,
+  "end": 13.99
+ },
+ {
+  "word": "Nobody",
+  "start": 14.037,
+  "end": 14.35
+ },
+ {
+  "word": "asked",
+  "start": 14.408,
+  "end": 14.582
+ },
+ {
+  "word": "for",
+  "start": 14.605,
+  "end": 14.687
+ },
+ {
+  "word": "that",
+  "start": 14.722,
+  "end": 14.826
+ },
+ {
+  "word": "sentence.",
+  "start": 14.884,
+  "end": 15.244
+ },
+ {
+  "word": "The",
+  "start": 15.279,
+  "end": 15.395
+ },
+ {
+  "word": "nice",
+  "start": 15.453,
+  "end": 15.639
+ },
+ {
+  "word": "review",
+  "start": 15.674,
+  "end": 15.917
+ },
+ {
+  "word": "was",
+  "start": 15.952,
+  "end": 16.045
+ },
+ {
+  "word": "already",
+  "start": 16.092,
+  "end": 16.324
+ },
+ {
+  "word": "enough.",
+  "start": 16.37,
+  "end": 16.672
+ },
+ {
+  "word": "The",
+  "start": 16.695,
+  "end": 16.811
+ },
+ {
+  "word": "extra",
+  "start": 16.869,
+  "end": 17.09
+ },
+ {
+  "word": "line",
+  "start": 17.136,
+  "end": 17.299
+ },
+ {
+  "word": "is",
+  "start": 17.322,
+  "end": 17.38
+ },
+ {
+  "word": "what",
+  "start": 17.427,
+  "end": 17.554
+ },
+ {
+  "word": "stuck.",
+  "start": 17.612,
+  "end": 17.938
+ },
+ {
+  "word": "A",
+  "start": 17.961,
+  "end": 18.019
+ },
+ {
+  "word": "champion",
+  "start": 18.088,
+  "end": 18.46
+ },
+ {
+  "word": "can",
+  "start": 18.506,
+  "end": 18.588
+ },
+ {
+  "word": "lift",
+  "start": 18.634,
+  "end": 18.773
+ },
+ {
+  "word": "the",
+  "start": 18.797,
+  "end": 18.866
+ },
+ {
+  "word": "trophy",
+  "start": 18.901,
+  "end": 19.168
+ },
+ {
+  "word": "in",
+  "start": 19.203,
+  "end": 19.261
+ },
+ {
+  "word": "June",
+  "start": 19.319,
+  "end": 19.563
+ },
+ {
+  "word": "and",
+  "start": 19.61,
+  "end": 19.726
+ },
+ {
+  "word": "still",
+  "start": 19.784,
+  "end": 19.993
+ },
+ {
+  "word": "hear",
+  "start": 20.051,
+  "end": 20.156
+ },
+ {
+  "word": "it",
+  "start": 20.19,
+  "end": 20.237
+ },
+ {
+  "word": "in",
+  "start": 20.26,
+  "end": 20.306
+ },
+ {
+  "word": "September.",
+  "start": 20.353,
+  "end": 20.875
+ },
+ {
+  "word": "His",
+  "start": 20.91,
+  "end": 21.05
+ },
+ {
+  "word": "teammate",
+  "start": 21.108,
+  "end": 21.398
+ },
+ {
+  "word": "can",
+  "start": 21.421,
+  "end": 21.514
+ },
+ {
+  "word": "win",
+  "start": 21.549,
+  "end": 21.653
+ },
+ {
+  "word": "a",
+  "start": 21.7,
+  "end": 21.723
+ },
+ {
+  "word": "title.",
+  "start": 21.769,
+  "end": 22.036
+ },
+ {
+  "word": "He",
+  "start": 22.06,
+  "end": 22.118
+ },
+ {
+  "word": "just",
+  "start": 22.176,
+  "end": 22.315
+ },
+ {
+  "word": "cannot",
+  "start": 22.361,
+  "end": 22.687
+ },
+ {
+  "word": "act.",
+  "start": 22.745,
+  "end": 23.128
+ }
+]

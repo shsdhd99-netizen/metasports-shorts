@@ -1,0 +1,100 @@
+{
+ "length_s": 17.0,
+ "topic": "A sports mascot uses a bald spectator's head as a target for a trick shot dart.",
+ "lane": "moment",
+ "hook": {
+  "first_words": "This mascot does the funniest thing at every game.",
+  "first_frame": "A mascot dressed as a bear is cutting a man's hair in the stands.",
+  "on_screen_text_0_3s": "This mascot does the funniest thing at every game.",
+  "shots_in_first_3s": 2
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 2.0,
+   "shows": "A bear mascot acting like a barber on a bald man in the stands.",
+   "kind": "action"
+  },
+  {
+   "start_s": 2.0,
+   "end_s": 8.7,
+   "shows": "A crowd and a bald man with a suction dart on his head reacting excitedly.",
+   "kind": "action"
+  },
+  {
+   "start_s": 8.7,
+   "end_s": 17.0,
+   "shows": "The bear mascot landing a second dart on the same man's head.",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 3,
+ "average_shot_s": 5.67,
+ "longest_shot_s": 8.3,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 170,
+  "tone": "enthusiastic",
+  "original_audio_under_voice": true
+ },
+ "music": {
+  "present": true,
+  "style": "upbeat background track",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 5,
+  "case": "sentence",
+  "position": "middle",
+  "colours": "white",
+  "highlight_style": "none"
+ },
+ "text_overlays": [
+  {
+   "at_s": 0.0,
+   "text": "BEAR CUTS"
+  },
+  {
+   "at_s": 0.0,
+   "text": "MYSTERY HAIRCUT FOR"
+  }
+ ],
+ "cards_or_graphics": 0,
+ "framing": "crop",
+ "ending": {
+  "last_words": "another trickshot!",
+  "last_frame": "A bald man with two darts on his head shouting in amazement.",
+  "loops_to_start": true,
+  "call_to_action": "none"
+ },
+ "script": "This mascot does the funniest thing at every game. You see, during timeouts, he finds bald people in the crowd to help him land trickshots, as he uses the bald heads as targets for his pop darts. But then Jazzbear went viral when he tricked the crowd into thinking he was done, as after he landed his first dart, he surprised everyone when he pulled out another one and landed another trickshot!",
+ "retention_tricks": [
+  "open loop",
+  "reveal",
+  "zoom"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "Engaging visual gag involving a crowd member",
+  "Surprise escalation at the end",
+  "Clear, fast-paced storytelling"
+ ],
+ "_meta": {
+  "source": "o9es0HRF5XM",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

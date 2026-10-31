@@ -1,0 +1,259 @@
+{
+ "length_s": 84.15,
+ "topic": "An analysis of Roberto De Zerbi's struggles at Tottenham Hotspur and whether he is about to get sacked.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "Is De Zerbi about to get SACKED soon?",
+  "first_frame": "Roberto De Zerbi celebrating passionately in a black t-shirt while a speaker/host is visible in the bottom half.",
+  "on_screen_text_0_3s": "Is De Zerbi about to get SACKED soon?",
+  "shots_in_first_3s": 3
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 2.11,
+   "shows": "De Zerbi celebrating on the touchline (top) and speaker in a blue shirt talking into a mic (bottom)",
+   "kind": "action"
+  },
+  {
+   "start_s": 2.11,
+   "end_s": 4.75,
+   "shows": "Tottenham stadium aerial view (top) and speaker talking (bottom)",
+   "kind": "stock"
+  },
+  {
+   "start_s": 4.75,
+   "end_s": 8.02,
+   "shows": "Sandro Tonali and Paul van Hecke in club gear (top) and speaker talking (bottom)",
+   "kind": "stock"
+  },
+  {
+   "start_s": 8.02,
+   "end_s": 11.66,
+   "shows": "De Zerbi smiling with WINS overlay and red X icon (top) and speaker talking (bottom)",
+   "kind": "action"
+  },
+  {
+   "start_s": 11.66,
+   "end_s": 14.05,
+   "shows": "De Zerbi standing on touchline at stadium (top) and speaker talking (bottom)",
+   "kind": "action"
+  },
+  {
+   "start_s": 14.05,
+   "end_s": 17.02,
+   "shows": "Graphic headline 'Spurs Suffer Worst Start in Premier League History' (top) and speaker talking (bottom)",
+   "kind": "text_card"
+  },
+  {
+   "start_s": 17.02,
+   "end_s": 20.62,
+   "shows": "De Zerbi celebrating/gesturing on touchline (top) and speaker talking (bottom)",
+   "kind": "action"
+  },
+  {
+   "start_s": 20.62,
+   "end_s": 22.88,
+   "shows": "De Zerbi at a press conference table with GNV and Serie A Tim branding (top) and speaker talking (bottom)",
+   "kind": "still"
+  },
+  {
+   "start_s": 22.88,
+   "end_s": 28.27,
+   "shows": "Match action and fans celebrating in Champions League game (top) and speaker talking (bottom)",
+   "kind": "replay"
+  },
+  {
+   "start_s": 28.27,
+   "end_s": 32.22,
+   "shows": "De Zerbi walking down tunnel/staff altercation (top) and speaker talking (bottom)",
+   "kind": "action"
+  },
+  {
+   "start_s": 32.22,
+   "end_s": 36.63,
+   "shows": "De Zerbi in blue Spurs training jacket on training pitch (top) and speaker talking (bottom)",
+   "kind": "action"
+  },
+  {
+   "start_s": 36.63,
+   "end_s": 39.52,
+   "shows": "Full stadium aerial view (top) and speaker talking (bottom)",
+   "kind": "stock"
+  },
+  {
+   "start_s": 39.52,
+   "end_s": 43.68,
+   "shows": "De Zerbi running across pitch celebrating (top) and speaker talking (bottom)",
+   "kind": "action"
+  },
+  {
+   "start_s": 43.68,
+   "end_s": 47.78,
+   "shows": "De Zerbi smiling (top left) and player unveiling kit (top right) and speaker talking (bottom)",
+   "kind": "stock"
+  },
+  {
+   "start_s": 47.78,
+   "end_s": 50.99,
+   "shows": "Tottenham players training drills (top) and speaker talking (bottom)",
+   "kind": "stock"
+  },
+  {
+   "start_s": 50.99,
+   "end_s": 53.25,
+   "shows": "Brentford match action and player celebration (top) and speaker talking (bottom)",
+   "kind": "action"
+  },
+  {
+   "start_s": 53.25,
+   "end_s": 57.17,
+   "shows": "Roberto De Zerbi press quote card 'We were not ready to fight the duels' (top) and speaker talking (bottom)",
+   "kind": "text_card"
+  },
+  {
+   "start_s": 57.17,
+   "end_s": 59.72,
+   "shows": "Pundit reacting and laughing on TV show (top) and speaker talking (bottom)",
+   "kind": "reaction_shot"
+  },
+  {
+   "start_s": 59.72,
+   "end_s": 63.3,
+   "shows": "Pundit talking on sports show with microphone (top) and speaker talking (bottom)",
+   "kind": "face"
+  },
+  {
+   "start_s": 63.3,
+   "end_s": 65.57,
+   "shows": "Kieran McKenna celebrating on pitch with medals (top) and speaker talking (bottom)",
+   "kind": "action"
+  },
+  {
+   "start_s": 65.57,
+   "end_s": 68.64,
+   "shows": "Kieran McKenna standing arms crossed in black top (top) and speaker talking (bottom)",
+   "kind": "still"
+  },
+  {
+   "start_s": 68.64,
+   "end_s": 69.83,
+   "shows": "Animal stock footage of crow and dog fighting (top) and speaker talking (bottom)",
+   "kind": "stock"
+  },
+  {
+   "start_s": 69.83,
+   "end_s": 72.68,
+   "shows": "Club CEO speaking in interview setup (top) and speaker talking (bottom)",
+   "kind": "face"
+  },
+  {
+   "start_s": 72.68,
+   "end_s": 17.52,
+   "shows": "Reality TV blonde woman laughing (top) and speaker talking (bottom)",
+   "kind": "stock"
+  },
+  {
+   "start_s": 17.52,
+   "end_s": 18.06,
+   "shows": "Tottenham Hotspur vs Coventry City match graphic badge (top) and speaker talking (bottom)",
+   "kind": "text_card"
+  },
+  {
+   "start_s": 18.06,
+   "end_s": 19.95,
+   "shows": "Crowd celebrating in stadium (top) and speaker talking (bottom)",
+   "kind": "action"
+  },
+  {
+   "start_s": 19.95,
+   "end_s": 22.06,
+   "shows": "De Zerbi in training jacket walking on pitch (top) and speaker talking (bottom)",
+   "kind": "action"
+  },
+  {
+   "start_s": 22.06,
+   "end_s": 24.15,
+   "shows": "De Zerbi looking serious at post-match press conference (top) and speaker talking (bottom)",
+   "kind": "still"
+  }
+ ],
+ "shot_count": 29,
+ "average_shot_s": 2.9,
+ "longest_shot_s": 5.27,
+ "voice": {
+  "type": "human",
+  "gender": "male",
+  "words_per_minute_estimate": 175,
+  "tone": "energetic, engaging, sports commentary",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "subtle suspenseful background beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 2,
+  "case": "mixed",
+  "position": "middle",
+  "colours": "white with occasional yellow highlight",
+  "highlight_style": "word-by-word highlight"
+ },
+ "text_overlays": [
+  {
+   "at_s": 0.0,
+   "text": "Is De Zerbi about to get SACKED soon?"
+  },
+  {
+   "at_s": 8.02,
+   "text": "WINS"
+  },
+  {
+   "at_s": 14.05,
+   "text": "Spurs Suffer Worst Start in Premier League History"
+  },
+  {
+   "at_s": 53.25,
+   "text": "ROBERTO DE ZERBI 'WE WERE NOT READY TO FIGHT THE DUELS.'"
+  }
+ ],
+ "cards_or_graphics": 4,
+ "framing": "split screen (top half archival video/stills/graphics, bottom half speaker talking in studio with mic)",
+ "ending": {
+  "last_words": "no amount of public backing is going to matter.",
+  "last_frame": "De Zerbi at press conference microphone with sponsor boards behind him (top), creator speaking into mic (bottom)",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "Is De Zerbi about to get SACKED soon? Tottenham spent over 300 million pounds this summer on players like Sandro Tonali and Paul van Hecke to push for Europe. And five games into the season, Spurs have zero wins, only three goals scored, and are sitting dead last in the Premier League in what is officially the worst start in the club's entire Premier League history. But this isn't the first time De Zerbi has found himself in this position. He got sacked at Palermo back in 2016, and then at Marseille after a Champions League exit to Club Brugge and a 5-0 loss to PSG, he left by mutual consent with reports saying that he'd completely lost the dressing room. So when Spurs hired him in March on a five-year deal as their third manager of the season, they needed him to keep them up and then rebuild from there. He did exactly that by picking up four points from the final three games to keep Spurs up, which earned him a full pre-season and 300 million pounds worth of new players. But the next season, things looked more or less the same for Tottenham. After the opening day 3-0 loss to Brentford, De Zerbi publicly called out his own defenders and Tonali for not being physically ready. Pundits immediately said he was shifting blame onto his players, and many people believe he is going to be the next Premier League manager sacked. While on top of this, Kieran McKenna, who's currently out of work, was spotted at a Spurs versus Everton game, which only added fuel. But the club's CEO did publicly back De Zerbi this week, so as of right now, he's safe. But their next league game is Coventry at home on October 17th, a team also sitting in the bottom three. And if Spurs can't start picking up wins soon, no amount of public backing is going to matter.",
+ "retention_tricks": [
+  "split screen format maintaining visual stimulus",
+  "rapid-fire cuts every 2-3 seconds",
+  "on-screen text highlights matching spoken words",
+  "archival footage and meme inserts"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": true,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "The split-screen layout keeps the viewer anchored to the host while dynamically illustrating every single stat and historical reference with relevant b-roll.",
+  "Fast pacing with varied visual types (action, news cards, reactions) prevents drop-off during a dense chronological narrative.",
+  "Strong narrative arc moving from crisis stats to historical sacking patterns, leading up to the pivotal upcoming fixture."
+ ],
+ "_meta": {
+  "source": "0qB2Z_A_emg",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

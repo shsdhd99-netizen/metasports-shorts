@@ -1,0 +1,31 @@
+[
+ {
+  "take": 1,
+  "ok": false,
+  "score": -193.4,
+  "verdict": "REDO",
+  "issues": [
+   "18.88s  script \"2\" but heard \"(nothing)\"",
+   "19.36s  script \"boozers 1\" but heard \"buzers won\""
+  ],
+  "wpm": 218,
+  "hnr": 9.8,
+  "jitter": 2.49,
+  "shimmer": 9.98,
+  "dur": 21.2,
+  "pitch_sd": 5.11
+ },
+ {
+  "take": 2,
+  "ok": true,
+  "score": 5.5,
+  "verdict": "PASS",
+  "issues": [],
+  "wpm": 215,
+  "hnr": 8.9,
+  "jitter": 2.78,
+  "shimmer": 10.07,
+  "dur": 21.55,
+  "pitch_sd": 5.25
+ }
+]

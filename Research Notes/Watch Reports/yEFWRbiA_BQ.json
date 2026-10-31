@@ -1,0 +1,271 @@
+{
+ "length_s": 67.45,
+ "topic": "The improbable rise of Duncan Robinson from an unrecruited Division 3 college player to an NBA star with a $90 million contract.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "This NBA player had almost no chance of ever going pro",
+  "first_frame": "Duncan Robinson celebrating on an NBA court.",
+  "on_screen_text_0_3s": "THIS NBA PLAYER HAD ALMOST NO CHANCE OF EVER GOING PRO BUT SOMEHOW HE STILL MADE IT",
+  "shots_in_first_3s": 2
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 1.5,
+   "shows": "Duncan Robinson celebrating on court during an NBA game",
+   "kind": "action"
+  },
+  {
+   "start_s": 1.5,
+   "end_s": 3.5,
+   "shows": "Duncan Robinson walking on court surrounded by teammates",
+   "kind": "action"
+  },
+  {
+   "start_s": 3.5,
+   "end_s": 5.25,
+   "shows": "Young Duncan Robinson during a local news interview",
+   "kind": "face"
+  },
+  {
+   "start_s": 5.25,
+   "end_s": 7.0,
+   "shows": "Duncan Robinson shooting a jump shot in high school jersey",
+   "kind": "action"
+  },
+  {
+   "start_s": 7.0,
+   "end_s": 9.25,
+   "shows": "Duncan Robinson walking on court in blue high school basketball uniform",
+   "kind": "action"
+  },
+  {
+   "start_s": 9.25,
+   "end_s": 11.75,
+   "shows": "High school basketball shot going through the hoop",
+   "kind": "action"
+  },
+  {
+   "start_s": 11.75,
+   "end_s": 13.25,
+   "shows": "Duncan Robinson running down court in high school game",
+   "kind": "action"
+  },
+  {
+   "start_s": 13.25,
+   "end_s": 15.75,
+   "shows": "Duncan Robinson driving to the basket in high school game",
+   "kind": "action"
+  },
+  {
+   "start_s": 15.75,
+   "end_s": 17.0,
+   "shows": "Player getting fouled during high school basketball game",
+   "kind": "action"
+  },
+  {
+   "start_s": 17.0,
+   "end_s": 19.5,
+   "shows": "Duncan Robinson high-fiving teammates in Williams College uniform",
+   "kind": "action"
+  },
+  {
+   "start_s": 19.5,
+   "end_s": 20.75,
+   "shows": "Williams College sign and historic campus building",
+   "kind": "still"
+  },
+  {
+   "start_s": 20.75,
+   "end_s": 22.25,
+   "shows": "Williams College basketball team photo",
+   "kind": "still"
+  },
+  {
+   "start_s": 22.25,
+   "end_s": 23.75,
+   "shows": "Close-up of young Duncan Robinson in Williams jersey",
+   "kind": "face"
+  },
+  {
+   "start_s": 23.75,
+   "end_s": 25.75,
+   "shows": "Duncan Robinson driving to hoop for Division 3 Williams College",
+   "kind": "action"
+  },
+  {
+   "start_s": 25.75,
+   "end_s": 27.75,
+   "shows": "Duncan Robinson shooting a three-pointer for Williams",
+   "kind": "action"
+  },
+  {
+   "start_s": 27.75,
+   "end_s": 30.25,
+   "shows": "Division 3 NCAA Tournament game action",
+   "kind": "action"
+  },
+  {
+   "start_s": 30.25,
+   "end_s": 32.75,
+   "shows": "Duncan Robinson speaking during a Big Ten Network interview",
+   "kind": "face"
+  },
+  {
+   "start_s": 32.75,
+   "end_s": 34.75,
+   "shows": "Duncan Robinson on court in Michigan Wolverines jersey",
+   "kind": "face"
+  },
+  {
+   "start_s": 34.75,
+   "end_s": 36.0,
+   "shows": "Duncan Robinson jogging on court in Michigan warm-up shirt",
+   "kind": "action"
+  },
+  {
+   "start_s": 36.0,
+   "end_s": 38.25,
+   "shows": "Michigan basketball NCAA Tournament gameplay",
+   "kind": "action"
+  },
+  {
+   "start_s": 38.25,
+   "end_s": 40.5,
+   "shows": "Duncan Robinson shooting three-pointer in NCAA tournament for Michigan",
+   "kind": "action"
+  },
+  {
+   "start_s": 40.5,
+   "end_s": 42.5,
+   "shows": "Michigan vs Villanova National Championship Game gameplay",
+   "kind": "action"
+  },
+  {
+   "start_s": 42.5,
+   "end_s": 45.0,
+   "shows": "2018 NBA Draft stage view",
+   "kind": "still"
+  },
+  {
+   "start_s": 45.0,
+   "end_s": 46.75,
+   "shows": "Duncan Robinson signing two-way contract with Miami Heat",
+   "kind": "action"
+  },
+  {
+   "start_s": 46.75,
+   "end_s": 48.75,
+   "shows": "Duncan Robinson shooting practice shots in Miami Heat arena",
+   "kind": "action"
+  },
+  {
+   "start_s": 48.75,
+   "end_s": 51.75,
+   "shows": "Duncan Robinson scoring in the NBA Finals for Miami Heat against Denver Nuggets",
+   "kind": "action"
+  },
+  {
+   "start_s": 51.75,
+   "end_s": 53.75,
+   "shows": "Duncan Robinson shooting a jump shot in NBA Finals",
+   "kind": "action"
+  },
+  {
+   "start_s": 53.75,
+   "end_s": 55.25,
+   "shows": "Duncan Robinson shooting three-pointer in 2020 NBA Finals against Lakers",
+   "kind": "action"
+  },
+  {
+   "start_s": 55.25,
+   "end_s": 58.75,
+   "shows": "Duncan Robinson hitting three-pointer against New York Knicks",
+   "kind": "action"
+  },
+  {
+   "start_s": 58.75,
+   "end_s": 100.75,
+   "shows": "Duncan Robinson press conference interview",
+   "kind": "face"
+  },
+  {
+   "start_s": 100.75,
+   "end_s": 104.0,
+   "shows": "Duncan Robinson signing his $90 million contract extension",
+   "kind": "action"
+  },
+  {
+   "start_s": 104.0,
+   "end_s": 106.0,
+   "shows": "Duncan Robinson dribbling ball for Williams College in Division 3",
+   "kind": "action"
+  },
+  {
+   "start_s": 106.0,
+   "end_s": 107.45,
+   "shows": "Duncan Robinson shooting jump shot in Miami Heat Vice jersey",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 33,
+ "average_shot_s": 2.04,
+ "longest_shot_s": 3.25,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 249,
+  "tone": "energetic, narrative, inspiring",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "upbeat rhythmic hip-hop beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "ALL CAPS",
+  "position": "middle",
+  "colours": "white with yellow highlight",
+  "highlight_style": "word-by-word"
+ },
+ "text_overlays": [],
+ "cards_or_graphics": 0,
+ "framing": "crop",
+ "ending": {
+  "last_words": "He went from Division 3 with no obvious path to the league to making NBA history.",
+  "last_frame": "Duncan Robinson launching a jump shot in blue Miami Heat jersey.",
+  "loops_to_start": true,
+  "call_to_action": "none"
+ },
+ "script": "This NBA player had almost no chance of ever going pro, but somehow he still made it. In 2010, Duncan Robinson was only 5'7\" as a high school freshman, barely got minutes, had no AAU experience, and came from a tiny New Hampshire town with around 1,000 people. By the time he finished high school, not one Division 1 school offered him a scholarship, and his only offer came from a Division 2 program. So instead, he went to Williams College, a Division 3 school with no athletic scholarships and basically no clear road to the NBA. But once he got there, everything changed. As a freshman, Robinson averaged 17 points while shooting 45% from three, carried Williams to the national championship game, and earned All-American honors. That's when Division 1 programs finally started paying attention, and he ended up transferring to Michigan as a walk-on with no promise that he would even play. But Robinson proved he belonged. In three seasons, he helped Michigan win two Big Ten titles and reach the 2018 national championship game against Villanova. Even after all that, every NBA team passed on him in the draft. So he signed a two-way deal with the Miami Heat for way less money than drafted rookies were making. But then his career exploded. In only his second season, Robinson broke Miami's franchise record with 270 three-pointers, started in the NBA Finals, and later became the fastest player ever to hit 1,000 career threes. Then in 2021, he signed a five-year, $90 million contract, the biggest deal ever for an undrafted player. He went from Division 3 with no obvious path to the league to making NBA history.",
+ "retention_tricks": [
+  "rapid visual cuts showing real archival footage at every stage of his career",
+  "escalating underdog narrative with specific stats (5'7\", D3, $90 million)",
+  "fast-paced AI voice track that maintains constant momentum"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "It presents an extreme underdog narrative with precise real-world stats at every stage (5'7\" freshman, Division 3 walk-on, undrafted, $90M contract).",
+  "It uses authentic archival video footage covering his journey from high school through D3 college, Michigan, and the NBA.",
+  "Fast, energetic narration with synchronized word-by-word highlighted captions keeps the viewer engaged from start to finish."
+ ],
+ "_meta": {
+  "source": "yEFWRbiA_BQ",
+  "model": "gemini-3.5-flash",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

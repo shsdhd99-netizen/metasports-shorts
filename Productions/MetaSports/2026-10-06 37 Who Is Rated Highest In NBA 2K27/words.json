@@ -1,0 +1,477 @@
+[
+ {
+  "word": "Three",
+  "start": 0.0,
+  "end": 0.209
+ },
+ {
+  "word": "players",
+  "start": 0.244,
+  "end": 0.476
+ },
+ {
+  "word": "tie",
+  "start": 0.511,
+  "end": 0.685
+ },
+ {
+  "word": "for",
+  "start": 0.708,
+  "end": 0.778
+ },
+ {
+  "word": "the",
+  "start": 0.813,
+  "end": 0.882
+ },
+ {
+  "word": "top",
+  "start": 0.917,
+  "end": 1.091
+ },
+ {
+  "word": "rating",
+  "start": 1.161,
+  "end": 1.335
+ },
+ {
+  "word": "in",
+  "start": 1.37,
+  "end": 1.416
+ },
+ {
+  "word": "NBA",
+  "start": 1.451,
+  "end": 1.753
+ },
+ {
+  "word": "2K27.",
+  "start": 1.811,
+  "end": 2.635
+ },
+ {
+  "word": "Shai",
+  "start": 2.67,
+  "end": 2.844
+ },
+ {
+  "word": "Gilgeous-Alexander,",
+  "start": 2.879,
+  "end": 3.855
+ },
+ {
+  "word": "Victor",
+  "start": 3.889,
+  "end": 4.145
+ },
+ {
+  "word": "Wembanyama",
+  "start": 4.191,
+  "end": 4.818
+ },
+ {
+  "word": "and",
+  "start": 4.853,
+  "end": 4.923
+ },
+ {
+  "word": "Nikola",
+  "start": 4.957,
+  "end": 5.201
+ },
+ {
+  "word": "Jokic,",
+  "start": 5.236,
+  "end": 5.642
+ },
+ {
+  "word": "all",
+  "start": 5.666,
+  "end": 5.828
+ },
+ {
+  "word": "ninety-seven.",
+  "start": 5.875,
+  "end": 6.362
+ },
+ {
+  "word": "Wembanyama",
+  "start": 6.385,
+  "end": 6.85
+ },
+ {
+  "word": "is",
+  "start": 6.885,
+  "end": 6.954
+ },
+ {
+  "word": "also",
+  "start": 6.989,
+  "end": 7.163
+ },
+ {
+  "word": "on",
+  "start": 7.221,
+  "end": 7.268
+ },
+ {
+  "word": "the",
+  "start": 7.291,
+  "end": 7.361
+ },
+ {
+  "word": "cover.",
+  "start": 7.384,
+  "end": 7.686
+ },
+ {
+  "word": "Luka",
+  "start": 7.721,
+  "end": 7.941
+ },
+ {
+  "word": "Doncic,",
+  "start": 7.976,
+  "end": 8.382
+ },
+ {
+  "word": "Jalen",
+  "start": 8.406,
+  "end": 8.638
+ },
+ {
+  "word": "Brunson",
+  "start": 8.673,
+  "end": 8.963
+ },
+ {
+  "word": "and",
+  "start": 9.009,
+  "end": 9.079
+ },
+ {
+  "word": "Giannis",
+  "start": 9.137,
+  "end": 9.404
+ },
+ {
+  "word": "Antetokounmpo",
+  "start": 9.462,
+  "end": 10.147
+ },
+ {
+  "word": "sit",
+  "start": 10.217,
+  "end": 10.379
+ },
+ {
+  "word": "one",
+  "start": 10.437,
+  "end": 10.565
+ },
+ {
+  "word": "point",
+  "start": 10.588,
+  "end": 10.728
+ },
+ {
+  "word": "behind",
+  "start": 10.763,
+  "end": 10.995
+ },
+ {
+  "word": "at",
+  "start": 11.03,
+  "end": 11.076
+ },
+ {
+  "word": "ninety-six.",
+  "start": 11.122,
+  "end": 11.657
+ },
+ {
+  "word": "Anthony",
+  "start": 11.691,
+  "end": 11.947
+ },
+ {
+  "word": "Edwards",
+  "start": 11.982,
+  "end": 12.167
+ },
+ {
+  "word": "is",
+  "start": 12.191,
+  "end": 12.237
+ },
+ {
+  "word": "ninety-five,",
+  "start": 12.272,
+  "end": 12.736
+ },
+ {
+  "word": "Cade",
+  "start": 12.771,
+  "end": 12.957
+ },
+ {
+  "word": "Cunningham",
+  "start": 12.98,
+  "end": 13.259
+ },
+ {
+  "word": "ninety-four,",
+  "start": 13.294,
+  "end": 13.712
+ },
+ {
+  "word": "then",
+  "start": 13.735,
+  "end": 13.851
+ },
+ {
+  "word": "six",
+  "start": 13.909,
+  "end": 14.06
+ },
+ {
+  "word": "players",
+  "start": 14.095,
+  "end": 14.269
+ },
+ {
+  "word": "tied",
+  "start": 14.292,
+  "end": 14.443
+ },
+ {
+  "word": "at",
+  "start": 14.466,
+  "end": 14.513
+ },
+ {
+  "word": "ninety-three,",
+  "start": 14.547,
+  "end": 14.942
+ },
+ {
+  "word": "including",
+  "start": 14.965,
+  "end": 15.232
+ },
+ {
+  "word": "Stephen",
+  "start": 15.256,
+  "end": 15.441
+ },
+ {
+  "word": "Curry",
+  "start": 15.476,
+  "end": 15.65
+ },
+ {
+  "word": "and",
+  "start": 15.697,
+  "end": 15.766
+ },
+ {
+  "word": "Kevin",
+  "start": 15.813,
+  "end": 15.987
+ },
+ {
+  "word": "Durant.",
+  "start": 16.022,
+  "end": 16.324
+ },
+ {
+  "word": "But",
+  "start": 16.347,
+  "end": 16.428
+ },
+ {
+  "word": "look",
+  "start": 16.451,
+  "end": 16.544
+ },
+ {
+  "word": "where",
+  "start": 16.568,
+  "end": 16.684
+ },
+ {
+  "word": "LeBron",
+  "start": 16.707,
+  "end": 16.927
+ },
+ {
+  "word": "landed.",
+  "start": 16.974,
+  "end": 17.253
+ },
+ {
+  "word": "Last",
+  "start": 17.276,
+  "end": 17.462
+ },
+ {
+  "word": "year",
+  "start": 17.485,
+  "end": 17.578
+ },
+ {
+  "word": "he",
+  "start": 17.624,
+  "end": 17.67
+ },
+ {
+  "word": "was",
+  "start": 17.694,
+  "end": 17.763
+ },
+ {
+  "word": "ninety-four,",
+  "start": 17.81,
+  "end": 18.228
+ },
+ {
+  "word": "a",
+  "start": 18.251,
+  "end": 18.297
+ },
+ {
+  "word": "top-ten",
+  "start": 18.355,
+  "end": 18.669
+ },
+ {
+  "word": "player.",
+  "start": 18.704,
+  "end": 18.947
+ },
+ {
+  "word": "Now",
+  "start": 18.971,
+  "end": 19.064
+ },
+ {
+  "word": "he's",
+  "start": 19.11,
+  "end": 19.214
+ },
+ {
+  "word": "sixteenth",
+  "start": 19.238,
+  "end": 19.563
+ },
+ {
+  "word": "at",
+  "start": 19.586,
+  "end": 19.632
+ },
+ {
+  "word": "ninety-one,",
+  "start": 19.667,
+  "end": 20.016
+ },
+ {
+  "word": "down",
+  "start": 20.039,
+  "end": 20.166
+ },
+ {
+  "word": "three",
+  "start": 20.201,
+  "end": 20.341
+ },
+ {
+  "word": "points",
+  "start": 20.375,
+  "end": 20.526
+ },
+ {
+  "word": "in",
+  "start": 20.55,
+  "end": 20.596
+ },
+ {
+  "word": "one",
+  "start": 20.642,
+  "end": 20.724
+ },
+ {
+  "word": "year.",
+  "start": 20.747,
+  "end": 20.921
+ },
+ {
+  "word": "Fifteen",
+  "start": 20.944,
+  "end": 21.177
+ },
+ {
+  "word": "players",
+  "start": 21.2,
+  "end": 21.362
+ },
+ {
+  "word": "are",
+  "start": 21.386,
+  "end": 21.455
+ },
+ {
+  "word": "rated",
+  "start": 21.478,
+  "end": 21.641
+ },
+ {
+  "word": "above",
+  "start": 21.676,
+  "end": 21.838
+ },
+ {
+  "word": "LeBron,",
+  "start": 21.862,
+  "end": 22.163
+ },
+ {
+  "word": "and",
+  "start": 22.187,
+  "end": 22.268
+ },
+ {
+  "word": "one",
+  "start": 22.326,
+  "end": 22.419
+ },
+ {
+  "word": "is",
+  "start": 22.442,
+  "end": 22.488
+ },
+ {
+  "word": "his",
+  "start": 22.523,
+  "end": 22.593
+ },
+ {
+  "word": "own",
+  "start": 22.616,
+  "end": 22.697
+ },
+ {
+  "word": "teammate,",
+  "start": 22.721,
+  "end": 22.999
+ },
+ {
+  "word": "Tyrese",
+  "start": 23.023,
+  "end": 23.324
+ },
+ {
+  "word": "Maxey.",
+  "start": 23.348,
+  "end": 23.731
+ }
+]

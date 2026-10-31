@@ -1,0 +1,305 @@
+{
+ "length_s": 77.0,
+ "topic": "How aggressive spending and financial mismanagement caused Málaga CF to rise rapidly to the Champions League before collapsing into Spain's lower divisions.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "Transfers that completely backfired. Back in twenty",
+  "first_frame": "Soccer player in a white Tottenham kit being tackled by an opponent in yellow.",
+  "on_screen_text_0_3s": "TRANSFERS THAT COMPLETELY BACKFIRED",
+  "shots_in_first_3s": 2
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 1.75,
+   "shows": "Football match tackle action with title hook overlay",
+   "kind": "action"
+  },
+  {
+   "start_s": 1.75,
+   "end_s": 3.7,
+   "shows": "Sheikh Abdullah Al-Thani walking indoors in a suit",
+   "kind": "face"
+  },
+  {
+   "start_s": 3.7,
+   "end_s": 6.95,
+   "shows": "Cutout portrait of Sheikh Abdullah Al-Thani against stadium background",
+   "kind": "still"
+  },
+  {
+   "start_s": 6.95,
+   "end_s": 8.95,
+   "shows": "Sheikh Abdullah Al-Thani walking outside through club gates",
+   "kind": "action"
+  },
+  {
+   "start_s": 8.95,
+   "end_s": 10.5,
+   "shows": "Santi Cazorla celebrating in Málaga kit beside club crest",
+   "kind": "still"
+  },
+  {
+   "start_s": 10.5,
+   "end_s": 11.65,
+   "shows": "Ruud van Nistelrooy in Málaga jersey",
+   "kind": "still"
+  },
+  {
+   "start_s": 11.65,
+   "end_s": 13.15,
+   "shows": "Manuel Pellegrini on the sideline in Málaga tracksuit",
+   "kind": "face"
+  },
+  {
+   "start_s": 13.15,
+   "end_s": 15.65,
+   "shows": "Málaga team lineup photo with '4TH IN SPAIN' text graphic",
+   "kind": "still"
+  },
+  {
+   "start_s": 15.65,
+   "end_s": 17.9,
+   "shows": "CRT retro TV setup displaying Málaga players celebrating on pitch",
+   "kind": "action"
+  },
+  {
+   "start_s": 17.9,
+   "end_s": 20.95,
+   "shows": "Isco and teammate embracing during celebration",
+   "kind": "action"
+  },
+  {
+   "start_s": 20.95,
+   "end_s": 22.15,
+   "shows": "CRT TV view showing Isco shouting in victory",
+   "kind": "action"
+  },
+  {
+   "start_s": 22.15,
+   "end_s": 24.4,
+   "shows": "Champions League Group C standings graphic",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 24.4,
+   "end_s": 27.4,
+   "shows": "Málaga squad celebrating knock-out stage qualification",
+   "kind": "action"
+  },
+  {
+   "start_s": 27.4,
+   "end_s": 28.65,
+   "shows": "Borussia Dortmund stadium banner and players entering pitch",
+   "kind": "action"
+  },
+  {
+   "start_s": 28.65,
+   "end_s": 30.15,
+   "shows": "Joaquín with hands over face in tension/disbelief",
+   "kind": "face"
+  },
+  {
+   "start_s": 30.15,
+   "end_s": 32.65,
+   "shows": "CRT TV view of Dortmund scoring controversial stoppage-time winner",
+   "kind": "action"
+  },
+  {
+   "start_s": 32.65,
+   "end_s": 34.95,
+   "shows": "Devastated Málaga defender falling inside the goal net",
+   "kind": "action"
+  },
+  {
+   "start_s": 34.95,
+   "end_s": 36.9,
+   "shows": "Isco standing with hands on hips looking dejected",
+   "kind": "face"
+  },
+  {
+   "start_s": 36.9,
+   "end_s": 39.15,
+   "shows": "Málaga players comforting each other after elimination",
+   "kind": "action"
+  },
+  {
+   "start_s": 39.15,
+   "end_s": 41.15,
+   "shows": "Sheikh Abdullah walking indoors speaking with executives",
+   "kind": "face"
+  },
+  {
+   "start_s": 41.15,
+   "end_s": 44.15,
+   "shows": "Málaga CF crest with text 'FAILED TO PAY' sliding over grid backdrop",
+   "kind": "still"
+  },
+  {
+   "start_s": 44.15,
+   "end_s": 46.4,
+   "shows": "UEFA press room stage with official logo banner",
+   "kind": "action"
+  },
+  {
+   "start_s": 46.4,
+   "end_s": 48.2,
+   "shows": "Michel Platini speaking into microphones at press conference",
+   "kind": "face"
+  },
+  {
+   "start_s": 48.2,
+   "end_s": 51.95,
+   "shows": "Newspaper headline card 'UEFA Bans Málaga from Europe'",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 51.95,
+   "end_s": 53.7,
+   "shows": "Sheikh Abdullah walking outside surrounded by handlers",
+   "kind": "face"
+  },
+  {
+   "start_s": 53.7,
+   "end_s": 55.2,
+   "shows": "Santi Cazorla in Arsenal shirt cutout",
+   "kind": "still"
+  },
+  {
+   "start_s": 55.2,
+   "end_s": 56.4,
+   "shows": "Isco giving thumbs up in Real Madrid kit",
+   "kind": "still"
+  },
+  {
+   "start_s": 56.4,
+   "end_s": 58.7,
+   "shows": "Manuel Pellegrini coaching in Manchester City gear",
+   "kind": "face"
+  },
+  {
+   "start_s": 58.7,
+   "end_s": 62.15,
+   "shows": "Málaga training session with players stretching and doing drills",
+   "kind": "action"
+  },
+  {
+   "start_s": 62.15,
+   "end_s": 66.15,
+   "shows": "Isco and Toulalan cutout graphic with raining euro banknotes",
+   "kind": "still"
+  },
+  {
+   "start_s": 66.15,
+   "end_s": 68.15,
+   "shows": "Sheikh Abdullah signing contract and shaking hands",
+   "kind": "action"
+  },
+  {
+   "start_s": 68.15,
+   "end_s": 70.15,
+   "shows": "Málaga coaching staff and players discussing tactics in training",
+   "kind": "action"
+  },
+  {
+   "start_s": 70.15,
+   "end_s": 72.9,
+   "shows": "Málaga players walking off training pitch",
+   "kind": "action"
+  },
+  {
+   "start_s": 72.9,
+   "end_s": 75.65,
+   "shows": "Ruud van Nistelrooy speaking into microphone during press conference",
+   "kind": "face"
+  },
+  {
+   "start_s": 75.65,
+   "end_s": 77.0,
+   "shows": "Sheikh Abdullah sipping from a glass of water at conference table",
+   "kind": "face"
+  }
+ ],
+ "shot_count": 35,
+ "average_shot_s": 2.2,
+ "longest_shot_s": 4.0,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 158,
+  "tone": "dramatic",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "dramatic ambient synth",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "sentence",
+  "position": "middle",
+  "colours": "white with black outline",
+  "highlight_style": "none"
+ },
+ "text_overlays": [
+  {
+   "at_s": 0.0,
+   "text": "TRANSFERS THAT COMPLETELY BACKFIRED"
+  },
+  {
+   "at_s": 14.6,
+   "text": "4TH IN SPAIN"
+  },
+  {
+   "at_s": 15.65,
+   "text": "M.SALAH 11 / OSCAR / Isco 3' (1-0)"
+  },
+  {
+   "at_s": 43.0,
+   "text": "FAILED TO PAY"
+  },
+  {
+   "at_s": 48.5,
+   "text": "December 21, 2012 - UEFA Bans Málaga from Europe"
+  }
+ ],
+ "cards_or_graphics": 4,
+ "framing": "crop",
+ "ending": {
+  "last_words": "top later tore the club apart.",
+  "last_frame": "Sheikh Abdullah Al-Thani lowering a drinking glass at a formal meeting table.",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "Transfers that completely backfired. Back in twenty ten, a Qatari royal named Sheikh Abdullah Al-Thani bought a struggling Spanish club called Málaga and immediately spent big on stars like Santi Cazorla and Ruud van Nistelrooy. Under manager Manuel Pellegrini, Málaga went from nearly bankrupt to fourth in Spain and into the Champions League for the first time ever. But the same money that built them is exactly what would tear them apart. In that first campaign, Málaga topped a group with AC Milan and Zenit without losing once, then knocked out Porto to reach the quarter-finals against Borussia Dortmund. Málaga were winning two to one late, and then Dortmund scored twice in stoppage time, one clearly offside, and knocked them out. But losing that game was nothing compared to what a group of accountants were about to do to them. All that spending had buried the club in debt, and because they failed to pay their players and taxes on time, UEFA banned them from Europe in December twenty twelve and fined them three hundred thousand euros, making Málaga the first big-name club ever punished under Financial Fair Play. To survive, they had to sell nearly everyone, so Cazorla joined Arsenal, Isco went to Real Madrid, and Pellegrini left to manage Manchester City. But look closely at those sales and you'll see the exact moment the club broke. Málaga sold Isco and Jérémy Toulalan alone for thirty one million euros, yet spent only a tenth of it on new players. By twenty eighteen, they were relegated, and they spent years falling as low as Spain's third division, all because the same transfers that lifted them to Europe's top later tore the club apart.",
+ "retention_tricks": [
+  "High-contrast hook title in the opening seconds",
+  "Foreshadowing open loops ('the same money that built them is exactly what would tear them apart')",
+  "Fast shot transitions matching narrated milestones",
+  "Emotional peaks (last-minute Champions League heartbreak before financial collapse)"
+ ],
+ "subject_visible_0_1s": false,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "Clear rise-and-fall narrative arc condensed into 77 seconds with strong stakes.",
+  "Brisk editing pace averaging roughly 2.2 seconds per visual asset to prevent viewer drop-off.",
+  "Effective integration of archival clips, press headlines, and cutouts reinforcing every factual claim."
+ ],
+ "_meta": {
+  "source": "uR2PUrwHOac",
+  "model": "gemini-3.7-flash",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

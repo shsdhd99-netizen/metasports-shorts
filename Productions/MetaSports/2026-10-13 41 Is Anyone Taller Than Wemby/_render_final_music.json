@@ -1,0 +1,32 @@
+{
+ "engine": "ffmpeg",
+ "out": "final_music.mp4",
+ "loop_fix": true,
+ "fits": [
+  {
+   "shot": 14,
+   "clip": "W2b.mp4",
+   "fit": "slowed",
+   "factor": 1.208
+  }
+ ],
+ "music": {
+  "track": "Library/Music/eleven_suspense_01.mp3",
+  "track_start": 6.52,
+  "in": 0.0,
+  "out": 22.987755,
+  "hit": 28.4,
+  "hit_on": 21.88,
+  "segment_lufs": -14.7,
+  "gain_db": -19.3,
+  "bed_lu": -20.0,
+  "gap_lift_db": 4.0,
+  "gaps": [
+   [
+    22.45,
+    22.99
+   ]
+  ],
+  "drops": []
+ }
+}

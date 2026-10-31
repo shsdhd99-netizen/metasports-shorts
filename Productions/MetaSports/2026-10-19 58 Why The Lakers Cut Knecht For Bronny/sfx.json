@@ -1,0 +1,23 @@
+[
+ {
+  "sfx": "camera",
+  "at": 2.9,
+  "why": "cut to the rookie press conference"
+ },
+ {
+  "sfx": "swish",
+  "at": 9.2,
+  "why": "Knecht's three drops through the net"
+ },
+ {
+  "sfx": "cha_ching",
+  "at": 21.86,
+  "why": "$4.2M OWED salary graphic"
+ },
+ {
+  "sfx": "whoosh_long",
+  "at": 25.75,
+  "len": 1.2,
+  "why": "into the payoff split"
+ }
+]

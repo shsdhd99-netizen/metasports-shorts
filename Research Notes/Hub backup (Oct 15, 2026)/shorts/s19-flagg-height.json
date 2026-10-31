@@ -1,0 +1,35 @@
+{
+  "about": "Flagg height: 6-8 draft page, 6-9 NBA site, 6-10 team physical, 'maybe 6-11'. Ends on his own answer 'not very accurate. I'm 6-10.'",
+  "covers": [
+    {
+      "assetId": "e2e8a2fbdabd13c731581767474c5248",
+      "label": "A (use this)"
+    }
+  ],
+  "name": "How tall is Cooper Flagg really",
+  "num": 19,
+  "pinned": "Is Flagg really 6-10, or is he already 6-11 and just not saying?",
+  "postNote": "v2 rebuilt Oct 5: ends on the real answer. No hook headline. Debate question is the pinned comment.",
+  "slot": 0,
+  "slotLabel": "Posted Oct 5-13 (see Outcome Log)",
+  "status": "posted",
+  "tags": "cooper flagg, cooper flagg height, how tall is cooper flagg, cooper flagg 6'10, cooper flagg 6'11, cooper flagg growth spurt, cooper flagg media day, cooper flagg grew, cooper flagg rookie of the year, cooper flagg mavericks, dallas mavericks, mavs media day 2026, dusty may, kyrie irving, marc stein, nba height, nba listed height, nba players height, nba media day 2026, nba preseason 2026, nba 2026-27, tallest nba players, nba news, nba shorts, basketball shorts, nba viral",
+  "title": "How Tall Is Cooper Flagg Really 😳",
+  "titles": [
+    "How Tall Is Cooper Flagg Really 😳",
+    "Why Cooper Flagg Grew An Inch In One Sentence 💀",
+    "Did Cooper Flagg Just Grow Another Inch 😭"
+  ],
+  "versions": [
+    {
+      "assetId": "44125e4a1ff7bb31046cdf0aac28bc11",
+      "label": "POST THIS ONE: with premise line 'Flagg: 6-8 to 6-11?' (A/B test)",
+      "note": "Same cut as the plain version plus a small persistent line at the top. A/B pair: #19 WITH the line (Tue Oct 6, 7:30 PM ET) vs #20 WITHOUT (Wed Oct 7). Compare stayed-to-watch at 48 h."
+    },
+    {
+      "assetId": "483d8a19264cb7c4113dfa935b5ff440",
+      "label": "Plain version (no line)",
+      "note": "Use only if you decide not to run the premise-line test."
+    }
+  ]
+}

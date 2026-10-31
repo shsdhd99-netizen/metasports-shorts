@@ -1,0 +1,176 @@
+{
+ "length_s": 39.25,
+ "topic": "A detailed recap of Klay Thompson's historic 37-point third quarter against the Sacramento Kings in 2015.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "This is one NBA moment we may never see again.",
+  "first_frame": "Close-up shot of Klay Thompson walking on court in a white Golden State Warriors jersey.",
+  "on_screen_text_0_3s": "THIS IS ONE NBA MOMENT WE MAY NEVER SEE AGAIN",
+  "shots_in_first_3s": 2
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 2.5,
+   "shows": "Close-up shot of Klay Thompson walking on the court.",
+   "kind": "face"
+  },
+  {
+   "start_s": 2.5,
+   "end_s": 4.0,
+   "shows": "Kings and Warriors players lining up on court.",
+   "kind": "action"
+  },
+  {
+   "start_s": 4.0,
+   "end_s": 5.0,
+   "shows": "Opening tip-off jump ball between Kings and Warriors.",
+   "kind": "action"
+  },
+  {
+   "start_s": 5.0,
+   "end_s": 7.0,
+   "shows": "Klay Thompson making a jump shot during the first half.",
+   "kind": "action"
+  },
+  {
+   "start_s": 7.0,
+   "end_s": 9.75,
+   "shows": "Klay Thompson high-fiving teammates while jogging down court.",
+   "kind": "action"
+  },
+  {
+   "start_s": 9.75,
+   "end_s": 11.75,
+   "shows": "Klay Thompson making a 3-pointer from the wing.",
+   "kind": "action"
+  },
+  {
+   "start_s": 11.75,
+   "end_s": 15.0,
+   "shows": "Klay Thompson dribbling and sinking a contested jumper.",
+   "kind": "action"
+  },
+  {
+   "start_s": 15.0,
+   "end_s": 18.0,
+   "shows": "Klay Thompson pulling up and making another jump shot.",
+   "kind": "action"
+  },
+  {
+   "start_s": 18.0,
+   "end_s": 19.75,
+   "shows": "Close-up of Klay Thompson looking pumped up on the court.",
+   "kind": "face"
+  },
+  {
+   "start_s": 19.75,
+   "end_s": 22.0,
+   "shows": "Klay Thompson shooting and making another long 3-pointer.",
+   "kind": "action"
+  },
+  {
+   "start_s": 22.0,
+   "end_s": 24.0,
+   "shows": "Klay Thompson driving to the rim for a fastbreak score.",
+   "kind": "action"
+  },
+  {
+   "start_s": 24.0,
+   "end_s": 26.75,
+   "shows": "Klay Thompson shooting a deep 3-pointer over defenders.",
+   "kind": "action"
+  },
+  {
+   "start_s": 26.75,
+   "end_s": 28.0,
+   "shows": "Warriors crowd standing and celebrating in excitement.",
+   "kind": "action"
+  },
+  {
+   "start_s": 28.0,
+   "end_s": 29.0,
+   "shows": "Steph Curry smiling and reacting on the Warriors bench.",
+   "kind": "face"
+  },
+  {
+   "start_s": 29.0,
+   "end_s": 33.75,
+   "shows": "Klay Thompson driving through defenders to finish another layup.",
+   "kind": "action"
+  },
+  {
+   "start_s": 33.75,
+   "end_s": 35.0,
+   "shows": "Klay Thompson high-fiving teammates at the end of the game.",
+   "kind": "action"
+  },
+  {
+   "start_s": 35.0,
+   "end_s": 39.25,
+   "shows": "Klay Thompson sitting on the bench drinking water and gesturing.",
+   "kind": "face"
+  }
+ ],
+ "shot_count": 17,
+ "average_shot_s": 2.31,
+ "longest_shot_s": 4.75,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 180,
+  "tone": "enthusiastic",
+  "original_audio_under_voice": true
+ },
+ "music": {
+  "present": true,
+  "style": "upbeat hip-hop beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "ALL CAPS",
+  "position": "middle",
+  "colours": "white text with black outline",
+  "highlight_style": "yellow highlight on active word"
+ },
+ "text_overlays": [],
+ "cards_or_graphics": 0,
+ "framing": "crop",
+ "ending": {
+  "last_words": "scoring stretches the NBA has ever seen.",
+  "last_frame": "Klay Thompson sitting on the bench talking and gesturing.",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "This is one NBA moment we may never see again. Back in January 2015, the Warriors were playing the Kings and Klay Thompson was having a decent game through the first half. But then the third quarter started and everything changed. Klay completely caught fire. He scored again and again while barely even putting the ball on the floor, taking just 11 dribbles the entire game in that quarter. He took 13 shots and made all 13 of them. And somehow that still wasn't the craziest part. Klay finished the quarter with 37 points, setting an NBA record. He hit 9 threes, made both of his free throws, and didn't miss a single shot. The crowd was losing it and even his teammates looked shocked. By the end of the night, Klay had 52 points in just 33 minutes while taking only 11 dribbles the entire game as the Warriors blew out Sacramento. And that 37-point quarter is still one of the most ridiculous scoring stretches the NBA has ever seen.",
+ "retention_tricks": [
+  "bold hook promising an unbelievable stat",
+  "rapid sequence of basket highlights matching the narrative",
+  "reaction cuts of teammates and crowd cheering",
+  "stat progression highlights to maintain intrigue"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "Recaps an iconic NBA performance using unbelievable real stats.",
+  "Fast-paced visual editing highlights every shot from the historic quarter.",
+  "Great inclusion of teammate and crowd reaction shots to amplify excitement."
+ ],
+ "_meta": {
+  "source": "NLpoM9KwEj4",
+  "model": "gemini-3.5-flash",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

@@ -1,0 +1,21 @@
+[
+ {
+  "name": "2026-10-05 27 Why Cant Teams Win B",
+  "dur": 24.73,
+  "voiced": 0.69,
+  "hnr": 7.7,
+  "jitter": 2.94,
+  "shimmer": 10.28,
+  "jumps": 0.0,
+  "clicks": 288.8,
+  "hf": 4.71,
+  "f0_med": 198.0,
+  "verdict": "REDO",
+  "problems": [
+   "HNR 7.7 dB (noisy/robotic)",
+   "jitter 2.94% (shaky)",
+   "shimmer 10.28% (uneven loudness)",
+   "288.8 clicks/min"
+  ]
+ }
+]

@@ -1,0 +1,263 @@
+{
+ "length_s": 72.3,
+ "topic": "Robert Lewandowski's misfortune of having the 2020 Ballon d'Or cancelled.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "Players who should've WON the Ballon d'Or",
+  "first_frame": "Robert Lewandowski and Lionel Messi seated at an awards ceremony",
+  "on_screen_text_0_3s": "Players who should've WON the Ballon d'Or but got UNLUCKY!",
+  "shots_in_first_3s": 1
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 3.0,
+   "shows": "Lewandowski and Messi at awards ceremony, cutting to creator in studio",
+   "kind": "face"
+  },
+  {
+   "start_s": 3.0,
+   "end_s": 5.6,
+   "shows": "Lewandowski in Bayern Munich kit with stadium background",
+   "kind": "stock"
+  },
+  {
+   "start_s": 5.6,
+   "end_s": 8.0,
+   "shows": "Lewandowski scoring goal footage",
+   "kind": "action"
+  },
+  {
+   "start_s": 8.0,
+   "end_s": 11.2,
+   "shows": "Lewandowski celebrating trophies with teammates",
+   "kind": "action"
+  },
+  {
+   "start_s": 11.2,
+   "end_s": 14.7,
+   "shows": "Lewandowski holding Champions League trophy",
+   "kind": "action"
+  },
+  {
+   "start_s": 14.7,
+   "end_s": 16.0,
+   "shows": "Anime character yelling (Vegeta)",
+   "kind": "stock"
+  },
+  {
+   "start_s": 16.0,
+   "end_s": 19.0,
+   "shows": "Lewandowski smiling in audience",
+   "kind": "stock"
+  },
+  {
+   "start_s": 19.0,
+   "end_s": 21.7,
+   "shows": "Vintage TV displaying UEFA and FIFA awards",
+   "kind": "stock"
+  },
+  {
+   "start_s": 21.7,
+   "end_s": 24.0,
+   "shows": "Reflecting surface of Ballon d'Or",
+   "kind": "stock"
+  },
+  {
+   "start_s": 24.0,
+   "end_s": 25.9,
+   "shows": "Creator speaking in studio",
+   "kind": "face"
+  },
+  {
+   "start_s": 25.9,
+   "end_s": 28.5,
+   "shows": "Golden Ballon d'Or trophy close up",
+   "kind": "stock"
+  },
+  {
+   "start_s": 28.5,
+   "end_s": 31.8,
+   "shows": "Ballon d'Or trophy with CANCELLED text overlay",
+   "kind": "text_card"
+  },
+  {
+   "start_s": 31.8,
+   "end_s": 34.9,
+   "shows": "Empty stadium during COVID pandemic",
+   "kind": "stock"
+  },
+  {
+   "start_s": 34.9,
+   "end_s": 37.4,
+   "shows": "Substitutes wearing masks in stands",
+   "kind": "stock"
+  },
+  {
+   "start_s": 37.4,
+   "end_s": 39.7,
+   "shows": "Creator speaking in studio",
+   "kind": "face"
+  },
+  {
+   "start_s": 39.7,
+   "end_s": 41.3,
+   "shows": "Vintage TV showing players on pitch",
+   "kind": "stock"
+  },
+  {
+   "start_s": 41.3,
+   "end_s": 42.6,
+   "shows": "Stadium aerial shot",
+   "kind": "stock"
+  },
+  {
+   "start_s": 42.6,
+   "end_s": 44.2,
+   "shows": "Jose Mourinho looking frustrated",
+   "kind": "stock"
+  },
+  {
+   "start_s": 44.2,
+   "end_s": 47.7,
+   "shows": "Lewandowski holding UEFA award",
+   "kind": "stock"
+  },
+  {
+   "start_s": 47.7,
+   "end_s": 48.5,
+   "shows": "Ballon d'Or reflecting surface",
+   "kind": "stock"
+  },
+  {
+   "start_s": 48.5,
+   "end_s": 53.2,
+   "shows": "Creator speaking in studio",
+   "kind": "face"
+  },
+  {
+   "start_s": 53.2,
+   "end_s": 56.1,
+   "shows": "Vintage TV showing audience clapping",
+   "kind": "stock"
+  },
+  {
+   "start_s": 56.1,
+   "end_s": 57.7,
+   "shows": "Lewandowski at podium speaking",
+   "kind": "stock"
+  },
+  {
+   "start_s": 57.7,
+   "end_s": 59.7,
+   "shows": "Lionel Messi holding Ballon d'Or",
+   "kind": "stock"
+  },
+  {
+   "start_s": 59.7,
+   "end_s": 62.0,
+   "shows": "Lionel Messi at podium speaking",
+   "kind": "stock"
+  },
+  {
+   "start_s": 62.0,
+   "end_s": 64.0,
+   "shows": "Lewandowski clapping in audience",
+   "kind": "stock"
+  },
+  {
+   "start_s": 64.0,
+   "end_s": 65.7,
+   "shows": "Messi speaking at podium",
+   "kind": "stock"
+  },
+  {
+   "start_s": 65.7,
+   "end_s": 67.3,
+   "shows": "SpongeBob looking sad/disappointed",
+   "kind": "stock"
+  },
+  {
+   "start_s": 67.3,
+   "end_s": 69.7,
+   "shows": "France Football magazine covers on stage",
+   "kind": "stock"
+  },
+  {
+   "start_s": 69.7,
+   "end_s": 72.3,
+   "shows": "Creator speaking in studio",
+   "kind": "face"
+  }
+ ],
+ "shot_count": 30,
+ "average_shot_s": 2.41,
+ "longest_shot_s": 4.7,
+ "voice": {
+  "type": "human",
+  "gender": "male",
+  "words_per_minute_estimate": 175,
+  "tone": "enthusiastic, storytelling",
+  "original_audio_under_voice": true
+ },
+ "music": {
+  "present": true,
+  "style": "dramatic documentary beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "sentence",
+  "position": "middle",
+  "colours": "white",
+  "highlight_style": "none"
+ },
+ "text_overlays": [
+  {
+   "at_s": 12.0,
+   "text": "TOP SCORER"
+  },
+  {
+   "at_s": 30.7,
+   "text": "CANCELLED"
+  }
+ ],
+ "cards_or_graphics": 2,
+ "framing": "crop",
+ "ending": {
+  "last_words": "rigorously respect.",
+  "last_frame": "Creator speaking in studio in front of blue neon light",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "Players who should've WON the Ballon d'Or, but got UNLUCKY! In the 2019 to 2020 season, Robert Lewandowski scored 55 goals in 47 games for Bayern Munich, winning the Bundesliga, the DFB-Pokal, and the Champions League, while finishing as the top scorer in all three of those competitions, which no player had ever done before. He was 31 and in the absolute prime of his career. UEFA named him their player of the year and FIFA named him the best, so the Ballon d'Or was supposed to be the final piece. But on July 20th, 2020, France Football made an announcement that changed everything. They cancelled the Ballon d'Or entirely for the first time since 1956, saying that COVID had disrupted the season too much to make a fair judgment since some leagues ended early while others kept playing. And look, they weren't completely wrong about the disruption because Ligue 1 in France did cancel its season. The thing that frustrated so many fans, though, is that FIFA and UEFA still gave out their awards that year with no issue, and only the Ballon d'Or decided it couldn't be done while Lewandowski was already 31 with a shrinking window to ever win this thing. But the moment that really made this feel permanent happened a year later. In 2021, Lewandowski finished second in the Ballon d'Or voting behind Messi, and during his acceptance speech, even Messi said Lewandowski deserved the 2020 award and that France Football should give it to him. They never did, though, and France Football officially confirmed they would not award it retroactively, saying they have regulations they rigorously respect.",
+ "retention_tricks": [
+  "quick cuts averaging under 2.5 seconds",
+  "archival meme inserts (Vegeta, SpongeBob)",
+  "dynamic zoom and scale changes on B-roll",
+  "on-screen text emphasis (TOP SCORER, CANCELLED)"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": false,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "Compelling sports injustice narrative featuring a universally liked player",
+  "Rapid editing pace with high visual variety including anime and meme cutaways",
+  "Clear structure explaining the stats, the cancellation, and the aftermath"
+ ],
+ "_meta": {
+  "source": "4qrUTObtSoA",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

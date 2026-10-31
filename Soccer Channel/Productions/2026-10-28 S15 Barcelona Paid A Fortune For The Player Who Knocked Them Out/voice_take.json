@@ -1,0 +1,51 @@
+[
+ {
+  "take": 1,
+  "ok": false,
+  "score": -94.2,
+  "verdict": "REDO",
+  "issues": [
+   " 2.70s  script \"back\" but heard \"(nothing)\""
+  ],
+  "wpm": 223,
+  "hnr": 9.2,
+  "jitter": 2.8,
+  "shimmer": 10.23,
+  "dur": 52.84,
+  "pitch_sd": 5.01,
+  "fixed": "fixed by sentence retake"
+ },
+ {
+  "take": 2,
+  "ok": false,
+  "score": -194.8,
+  "verdict": "REDO",
+  "issues": [
+   " 2.60s  script \"back\" but heard \"(nothing)\"",
+   "37.32s  script \"bayern\" but heard \"(nothing)\""
+  ],
+  "wpm": 224,
+  "hnr": 8.8,
+  "jitter": 2.88,
+  "shimmer": 10.7,
+  "dur": 52.45,
+  "pitch_sd": 5.07,
+  "fixed": "fixed by sentence retake"
+ },
+ {
+  "take": 3,
+  "ok": false,
+  "score": -94.8,
+  "verdict": "REDO",
+  "issues": [
+   " 2.66s  script \"back\" but heard \"(nothing)\""
+  ],
+  "wpm": 225,
+  "hnr": 8.7,
+  "jitter": 2.82,
+  "shimmer": 10.58,
+  "dur": 52.3,
+  "pitch_sd": 5.17,
+  "fixed": "fixed by sentence retake"
+ }
+]

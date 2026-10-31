@@ -1,0 +1,40 @@
+{
+  "about": "Flop technical foul has existed since 2023-24; the news is enforcement. Rule of thumb: reacting is legal, selling it costs a technical. Two caption versions for the A/B.",
+  "covers": [
+    {
+      "assetId": "5ee4f0186eb965bf642c455866310698",
+      "label": "A (use this)"
+    }
+  ],
+  "name": "Will the NBA finally punish flopping",
+  "num": 17,
+  "pinned": "Is the NBA about to call flops for real this season, or will it fade out by November?",
+  "postNote": "v2 rebuilt Oct 5. Post ONE version per account to compare; karaoke is untested. No hook headline. Debate question is the pinned comment.",
+  "slot": 0,
+  "slotLabel": "Posted Oct 5-13 (see Outcome Log)",
+  "status": "posted",
+  "tags": "nba flopping, nba flop, flopping technical foul, nba flop rule, nba flopping penalty, nba points of emphasis, nba points of emphasis 2026, nba referees, nba officiating, nba push offs, mark daigneault, thunder flopping, chris finch flopping, pascal siakam, deni avdija, nba rules explained, nba new rules 2026-27, nba technical foul, nba controversy, nba shorts, basketball shorts, nba viral, nba news, nba 2026-27, nba preseason 2026, nba rumors",
+  "title": "Is Flopping Already A Technical Foul 😳",
+  "titles": [
+    "Is Flopping Already A Technical Foul 😳",
+    "Why Flopping Is Already A Technical Foul 💀",
+    "How Does The NBA Judge A Flop 😭"
+  ],
+  "versions": [
+    {
+      "assetId": "0bf07adcd19a860ef7638dcb855e0fcf",
+      "label": "POST THIS ONE: CoachClank-style captions (small white, caption A/B)",
+      "note": "Same cut as the house version; only the caption style differs. Pair: #14 (house caps, Thu Oct 8) vs #17 (clank captions, Fri Oct 9). Compare stayed-to-watch at 48 h."
+    },
+    {
+      "assetId": "3d8dc8c29b0e031be4e17c9b2ec43673",
+      "label": "House captions (big ALL CAPS red/green)",
+      "note": "Use only if you skip the caption test."
+    },
+    {
+      "assetId": "081a6169ae461712bf7d1a8da817f2ad",
+      "label": "Karaoke captions (untested spare)",
+      "note": "Not part of the current test."
+    }
+  ]
+}

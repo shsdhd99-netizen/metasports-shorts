@@ -1,0 +1,115 @@
+{
+ "length_s": 20.0,
+ "topic": "LaMelo and Lonzo Ball playing against each other and how Lonzo plays defense against LaMelo.",
+ "lane": "moment",
+ "hook": {
+  "first_words": "This is what happens when LaMelo and Lonzo play each other!",
+  "first_frame": "Two basketball players facing each other on the court with text overlay.",
+  "on_screen_text_0_3s": "This is what happens when LaMelo and Lonzo play each other!",
+  "shots_in_first_3s": 1
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 2.75,
+   "shows": "LaMelo Ball dribbling against Lonzo Ball on court",
+   "kind": "action"
+  },
+  {
+   "start_s": 2.75,
+   "end_s": 5.12,
+   "shows": "LaMelo shooting a jump shot and walking away",
+   "kind": "action"
+  },
+  {
+   "start_s": 5.12,
+   "end_s": 7.85,
+   "shows": "LaMelo dribbling against another defender",
+   "kind": "action"
+  },
+  {
+   "start_s": 7.85,
+   "end_s": 9.87,
+   "shows": "Lonzo defending LaMelo aggressively",
+   "kind": "action"
+  },
+  {
+   "start_s": 9.87,
+   "end_s": 15.65,
+   "shows": "LaMelo trapped by Lonzo and passing the ball",
+   "kind": "action"
+  },
+  {
+   "start_s": 15.65,
+   "end_s": 17.65,
+   "shows": "Lonzo shooting a jump shot",
+   "kind": "action"
+  },
+  {
+   "start_s": 17.65,
+   "end_s": 20.0,
+   "shows": "Lonzo defending LaMelo in a game sequence",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 7,
+ "average_shot_s": 2.86,
+ "longest_shot_s": 5.78,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 175,
+  "tone": "engaging, sports commentary",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "upbeat hip-hop beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "mixed",
+  "position": "middle",
+  "colours": "white",
+  "highlight_style": "none"
+ },
+ "text_overlays": [],
+ "cards_or_graphics": 0,
+ "framing": "crop",
+ "ending": {
+  "last_words": "brother's moves.",
+  "last_frame": "LaMelo and Lonzo playing defense under the basket.",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "This is what happens when LaMelo and Lonzo play each other! You see, Melo claims no one can really guard him in the league, as his playstyle is very unique with how he moves with the ball. But against his big brother, he can't do anything. Every time LaMelo was guarded by Lonzo, he couldn't even get a shot up, forcing LaMelo to pass to his teammates. And Lonzo was able to play all this perfect defense because he knows all of his little brother's moves.",
+ "retention_tricks": [
+  "promise_in_first_line",
+  "zooms",
+  "fast cuts"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "Compelling matchup between two famous brothers in the NBA",
+  "Dynamic cuts highlighting defensive lockdown sequences",
+  "Clear narrative explaining why the older brother succeeds"
+ ],
+ "_meta": {
+  "source": "38sYyF_4MNI",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

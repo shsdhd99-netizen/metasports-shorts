@@ -1,0 +1,32 @@
+[
+ {
+  "take": 1,
+  "ok": false,
+  "score": -94.7,
+  "verdict": "REDO",
+  "issues": [
+   "19.21s  stretched/garbled word \"basket.\" (0.79s)"
+  ],
+  "wpm": 216,
+  "hnr": 8.8,
+  "jitter": 2.72,
+  "shimmer": 10.84,
+  "dur": 20.3,
+  "pitch_sd": 5.45
+ },
+ {
+  "take": 2,
+  "ok": false,
+  "score": -94.8,
+  "verdict": "REDO",
+  "issues": [
+   "17.90s  stretched/garbled word \"basket.\" (0.81s)"
+  ],
+  "wpm": 231,
+  "hnr": 8.7,
+  "jitter": 2.59,
+  "shimmer": 10.88,
+  "dur": 19.02,
+  "pitch_sd": 5.53
+ }
+]

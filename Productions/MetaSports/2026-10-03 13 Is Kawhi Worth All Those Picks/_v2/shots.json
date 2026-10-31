@@ -1,0 +1,107 @@
+[
+ {
+  "clip": "dunk_num.mp4",
+  "start": 0.0,
+  "in": 0.15,
+  "kind": "action",
+  "why": "Clippers 2 dunk, the hook"
+ },
+ {
+  "clip": "dunk_rim.mp4",
+  "start": 0.95,
+  "in": 0.3,
+  "kind": "action",
+  "why": "same Kawhi dunk, acquire and retain"
+ },
+ {
+  "clip": "studio.mp4",
+  "start": 2.15,
+  "in": 0.25,
+  "kind": "action",
+  "why": "Raptors 2, Kawhi Leonard"
+ },
+ {
+  "clip": "floor.mp4",
+  "start": 4.25,
+  "in": 0.15,
+  "kind": "action",
+  "why": "wide Raptors floor, September fourteenth, no portrait"
+ },
+ {
+  "clip": "floor.mp4",
+  "start": 6.3,
+  "in": 2.0,
+  "kind": "action",
+  "why": "wide floor, July ninth pause"
+ },
+ {
+  "clip": "floor_wood.mp4",
+  "start": 7.9,
+  "in": 0.08,
+  "kind": "action",
+  "why": "empty hardwood under Ingram and Dick, no jersey"
+ },
+ {
+  "clip": "studio.mp4",
+  "start": 9.27,
+  "in": 1.4,
+  "kind": "action",
+  "why": "Kawhi while the picks are listed"
+ },
+ {
+  "clip": "dunk_rim.mp4",
+  "start": 11.5,
+  "in": 2.0,
+  "kind": "action",
+  "why": "Kawhi dunk, pick swap"
+ },
+ {
+  "clip": "studio.mp4",
+  "start": 13.2,
+  "in": 2.3,
+  "kind": "action",
+  "why": "Raptors 2, Kawhi is thirty-five"
+ },
+ {
+  "clip": "g7.mp4",
+  "start": 14.35,
+  "in": 1.05,
+  "kind": "action",
+  "why": "Game 7, Raptors 2 corner shot"
+ },
+ {
+  "clip": "studio.mp4",
+  "start": 16.0,
+  "in": 0.0,
+  "kind": "action",
+  "why": "Raptors 2, lone title in 2019"
+ },
+ {
+  "clip": "dunk_rim.mp4",
+  "start": 17.2,
+  "in": 2.4,
+  "kind": "action",
+  "why": "Kawhi dunk under the fine, before Ballmer"
+ },
+ {
+  "clip": "floor_wood.mp4",
+  "start": 19.05,
+  "in": 0.35,
+  "kind": "action",
+  "why": "empty hardwood under Steve Ballmer, no face"
+ },
+ {
+  "clip": "dunk_drive.mp4",
+  "start": 20.7,
+  "in": 0.4,
+  "kind": "action",
+  "why": "Clippers action, forfeit, no player name"
+ },
+ {
+  "clip": "dunk_num.mp4",
+  "start": 22.5,
+  "in": 1.15,
+  "kind": "action",
+  "why": "loop, Clippers 2"
+ }
+]

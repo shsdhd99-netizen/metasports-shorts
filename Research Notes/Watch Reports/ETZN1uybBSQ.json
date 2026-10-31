@@ -1,0 +1,193 @@
+{
+ "length_s": 77.5,
+ "topic": "NBA records that could be broken next season.",
+ "lane": "list",
+ "hook": {
+  "first_words": "NBA Records that Could Be Broken Next Season",
+  "first_frame": "NBA cartoon players on stage with stats behind them.",
+  "on_screen_text_0_3s": "NBA Records that Could Be Broken Next Season: Top 3 Assists",
+  "shots_in_first_3s": 3
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 2.7,
+   "shows": "Cartoon NBA players on stage showing stats",
+   "kind": "stock"
+  },
+  {
+   "start_s": 2.7,
+   "end_s": 4.5,
+   "shows": "Cartoon LeBron and Kareem",
+   "kind": "stock"
+  },
+  {
+   "start_s": 4.5,
+   "end_s": 9.5,
+   "shows": "LeBron James sitting in a chair talking",
+   "kind": "other"
+  },
+  {
+   "start_s": 9.5,
+   "end_s": 13.6,
+   "shows": "Cartoon LeBron and Kareem",
+   "kind": "stock"
+  },
+  {
+   "start_s": 13.6,
+   "end_s": 17.9,
+   "shows": "Joel Embiid playing basketball",
+   "kind": "replay"
+  },
+  {
+   "start_s": 17.9,
+   "end_s": 23.3,
+   "shows": "Cartoon Kareem and Westbrook",
+   "kind": "stock"
+  },
+  {
+   "start_s": 23.3,
+   "end_s": 27.9,
+   "shows": "Russell Westbrook hugging Stephen Curry",
+   "kind": "replay"
+  },
+  {
+   "start_s": 27.9,
+   "end_s": 30.6,
+   "shows": "Cartoon Jokic and Westbrook",
+   "kind": "stock"
+  },
+  {
+   "start_s": 30.6,
+   "end_s": 35.8,
+   "shows": "Nikola Jokic holding a trophy",
+   "kind": "replay"
+  },
+  {
+   "start_s": 35.8,
+   "end_s": 40.6,
+   "shows": "Cartoon Westbrook, Curry, Shaq and DeRozan",
+   "kind": "stock"
+  },
+  {
+   "start_s": 40.6,
+   "end_s": 43.1,
+   "shows": "Shaquille O'Neal playing basketball",
+   "kind": "replay"
+  },
+  {
+   "start_s": 43.1,
+   "end_s": 45.4,
+   "shows": "Cartoon Curry, Shaq and DeRozan",
+   "kind": "stock"
+  },
+  {
+   "start_s": 45.4,
+   "end_s": 53.4,
+   "shows": "DeMar DeRozan basketball play",
+   "kind": "replay"
+  },
+  {
+   "start_s": 53.4,
+   "end_s": 55.4,
+   "shows": "Cartoon Curry, Shaq and DeRozan",
+   "kind": "stock"
+  },
+  {
+   "start_s": 55.4,
+   "end_s": 61.6,
+   "shows": "Stephen Curry on court",
+   "kind": "replay"
+  },
+  {
+   "start_s": 61.6,
+   "end_s": 67.2,
+   "shows": "Cartoon Curry, Shaq and DeRozan",
+   "kind": "stock"
+  },
+  {
+   "start_s": 67.2,
+   "end_s": 70.9,
+   "shows": "Cartoon LeBron and Jason Kidd",
+   "kind": "stock"
+  },
+  {
+   "start_s": 70.9,
+   "end_s": 74.0,
+   "shows": "Jason Kidd speaking",
+   "kind": "other"
+  },
+  {
+   "start_s": 74.0,
+   "end_s": 77.5,
+   "shows": "Cartoon LeBron and Jason Kidd",
+   "kind": "stock"
+  }
+ ],
+ "shot_count": 20,
+ "average_shot_s": 3.875,
+ "longest_shot_s": 8.0,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 175,
+  "tone": "energetic sports commentary",
+  "original_audio_under_voice": true
+ },
+ "music": {
+  "present": true,
+  "style": "upbeat electronic sports beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 4,
+  "case": "sentence",
+  "position": "lower-middle",
+  "colours": "white with yellow highlights",
+  "highlight_style": "word by word color change"
+ },
+ "text_overlays": [
+  {
+   "at_s": 0.0,
+   "text": "NBA Records that Could Be Broken Next Season: Top 3 Assists"
+  }
+ ],
+ "cards_or_graphics": 8,
+ "framing": "crop",
+ "ending": {
+  "last_words": "Jason Kidd is 12,091 assists.",
+  "last_frame": "Cartoon LeBron and Jason Kidd on stage.",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "NBA records that could be broken next season. Starting off, we have LeBron being just twenty-seven regular season wins away from breaking Kareem's record of the all-time regular season win leader. Kareem has 1,074 regular season wins. LeBron currently has 1,048. If he wins just twenty-seven games next season, that record will be his. Next, we have Nikola Jokic potentially eclipsing Russell Westbrook as the all-time triple-double leader. Westbrook is retired this week with the record at 209 career regular season triple-doubles. Jokic currently has 198. Therefore, eleven more will make Jokic the all-time triple-double leader. Moving on, we have a bit of a race to the top ten scoring leader. Shaq is tenth all-time currently for most points with 28,289. DeMar DeRozan is 26,711. So he's 1,586 points behind Shaq. And thus would only need to average 23 points per game this season to eclipse it. Passing Shaq is only half the problem. He's in a race with Steph Curry, who currently has 26,528 points, just 183 behind DeRozan. So even if Shaq is surpassed, these two will battle it out for most points until one retires. And to wrap things back to the king, LeBron is just 76 assists away from passing Jason Kidd for third all-time. LeBron has 12,016 assists. Jason Kidd has 12,091 assists.",
+ "retention_tricks": [
+  "rapid cuts",
+  "animated cartoon avatars with stats",
+  "video clips illustrating each stat",
+  "ranking progression"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": true,
+  "replay_of_key_moment": true,
+  "promise_in_first_line": true,
+  "ends_on_payoff": false,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "Fun cartoon animations mixed with real highlight clips of NBA legends.",
+  "Clear, concise stats explaining milestone races for next season.",
+  "Fast pacing and smooth transitions between different records."
+ ],
+ "_meta": {
+  "source": "ETZN1uybBSQ",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

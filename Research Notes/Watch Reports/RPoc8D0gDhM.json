@@ -1,0 +1,305 @@
+{
+ "length_s": 70.3,
+ "topic": "The story of Seth Curry overcoming being undrafted and spending years in the D-League to become an elite NBA shooter.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "Players nobody wanted, but refused to give up",
+  "first_frame": "Basketball game action with overlaid text: 'Players NOBODY Wanted but REFUSED TO GIVE UP!'",
+  "on_screen_text_0_3s": "Players NOBODY Wanted but REFUSED TO GIVE UP! 58 HAWKS 51 2nd Qtr",
+  "shots_in_first_3s": 3
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 3.2,
+   "shows": "Basketball game action, player falling on court",
+   "kind": "action"
+  },
+  {
+   "start_s": 3.2,
+   "end_s": 4.1,
+   "shows": "Seth Curry in Duke jersey looking serious",
+   "kind": "still"
+  },
+  {
+   "start_s": 4.1,
+   "end_s": 6.5,
+   "shows": "Seth Curry celebrating in Duke uniform",
+   "kind": "still"
+  },
+  {
+   "start_s": 6.5,
+   "end_s": 9.0,
+   "shows": "Dell Curry in Charlotte Hornets jersey",
+   "kind": "still"
+  },
+  {
+   "start_s": 9.0,
+   "end_s": 12.1,
+   "shows": "Stephen Curry shooting a three-pointer in game action",
+   "kind": "action"
+  },
+  {
+   "start_s": 12.1,
+   "end_s": 14.5,
+   "shows": "Seth Curry talking into microphone in podcast/interview",
+   "kind": "face"
+  },
+  {
+   "start_s": 14.5,
+   "end_s": 15.5,
+   "shows": "Seth Curry in Duke uniform running",
+   "kind": "still"
+  },
+  {
+   "start_s": 15.5,
+   "end_s": 16.7,
+   "shows": "Seth Curry talking in interview",
+   "kind": "face"
+  },
+  {
+   "start_s": 16.7,
+   "end_s": 18.0,
+   "shows": "Homelander from The Boys smiling widely",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 18.0,
+   "end_s": 19.5,
+   "shows": "New Orleans Pelicans logo on blurred basketball court",
+   "kind": "text_card"
+  },
+  {
+   "start_s": 19.5,
+   "end_s": 20.9,
+   "shows": "Seth Curry standing in New Orleans jersey",
+   "kind": "still"
+  },
+  {
+   "start_s": 20.9,
+   "end_s": 21.9,
+   "shows": "Seth Curry dribbling in New Orleans jersey",
+   "kind": "action"
+  },
+  {
+   "start_s": 21.9,
+   "end_s": 25.4,
+   "shows": "Seth Curry in New Orleans jersey looking up",
+   "kind": "action"
+  },
+  {
+   "start_s": 25.4,
+   "end_s": 26.5,
+   "shows": "Seth Curry shooting during Summer League game",
+   "kind": "action"
+  },
+  {
+   "start_s": 26.5,
+   "end_s": 29.0,
+   "shows": "Old television set playing Summer League footage",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 29.0,
+   "end_s": 30.5,
+   "shows": "Seth Curry running down court in Summer League",
+   "kind": "action"
+  },
+  {
+   "start_s": 30.5,
+   "end_s": 32.5,
+   "shows": "IShowSpeed screaming in shock",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 32.5,
+   "end_s": 34.6,
+   "shows": "Old TV showing basketball game footage",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 34.6,
+   "end_s": 37.3,
+   "shows": "Old TV showing D-League game footage",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 37.3,
+   "end_s": 39.1,
+   "shows": "Seth Curry dribbling in New Orleans jersey",
+   "kind": "still"
+  },
+  {
+   "start_s": 39.1,
+   "end_s": 40.5,
+   "shows": "Old TV showing game action",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 40.5,
+   "end_s": 41.8,
+   "shows": "Seth Curry talking in interview looking down",
+   "kind": "face"
+  },
+  {
+   "start_s": 41.8,
+   "end_s": 43.9,
+   "shows": "D-League and Santa Cruz Warriors logos",
+   "kind": "text_card"
+  },
+  {
+   "start_s": 43.9,
+   "end_s": 45.1,
+   "shows": "Erie BayHawks logo",
+   "kind": "text_card"
+  },
+  {
+   "start_s": 45.1,
+   "end_s": 47.6,
+   "shows": "Old TV showing D-League game action",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 47.6,
+   "end_s": 49.6,
+   "shows": "NBA commissioner at podium",
+   "kind": "still"
+  },
+  {
+   "start_s": 49.6,
+   "end_s": 51.5,
+   "shows": "Old TV showing game action",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 51.5,
+   "end_s": 53.6,
+   "shows": "Man with glasses wearing 'Just Say Yes' t-shirt looking shocked",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 53.6,
+   "end_s": 55.7,
+   "shows": "Sacramento Kings logo",
+   "kind": "text_card"
+  },
+  {
+   "start_s": 55.7,
+   "end_s": 57.2,
+   "shows": "Seth Curry smiling in Sacramento Kings jersey with headband",
+   "kind": "still"
+  },
+  {
+   "start_s": 57.2,
+   "end_s": 58.9,
+   "shows": "Seth Curry in interview holding drink",
+   "kind": "face"
+  },
+  {
+   "start_s": 58.9,
+   "end_s": 60.7,
+   "shows": "Seth Curry in Dallas Mavericks jersey with headband",
+   "kind": "still"
+  },
+  {
+   "start_s": 60.7,
+   "end_s": 62.4,
+   "shows": "Seth Curry sitting in locker room in Dallas gear",
+   "kind": "face"
+  },
+  {
+   "start_s": 62.4,
+   "end_s": 64.7,
+   "shows": "Seth Curry in interview",
+   "kind": "face"
+  },
+  {
+   "start_s": 64.7,
+   "end_s": 66.8,
+   "shows": "Seth Curry playing defense in Dallas jersey",
+   "kind": "action"
+  },
+  {
+   "start_s": 66.8,
+   "end_s": 67.8,
+   "shows": "Seth Curry in interview",
+   "kind": "face"
+  },
+  {
+   "start_s": 67.8,
+   "end_s": 70.3,
+   "shows": "Seth Curry shooting jump shot in Dallas jersey",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 37,
+ "average_shot_s": 1.9,
+ "longest_shot_s": 3.3,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 175,
+  "tone": "energetic and dramatic",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "dramatic cinematic beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "mixed",
+  "position": "middle",
+  "colours": "white with black outline",
+  "highlight_style": "pop-in word animation"
+ },
+ "text_overlays": [
+  {
+   "at_s": 0.0,
+   "text": "Players NOBODY Wanted but REFUSED TO GIVE UP!"
+  },
+  {
+   "at_s": 4.5,
+   "text": "SETH CURRY"
+  }
+ ],
+ "cards_or_graphics": 4,
+ "framing": "crop",
+ "ending": {
+  "last_words": "shooters the NBA has ever seen.",
+  "last_frame": "Seth Curry shooting jump shot in Dallas jersey",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "Players nobody wanted, but refused to give up! In 2013, a Duke guard named Seth Curry went undrafted, even though his father spent sixteen years in the NBA, and his older brother had just turned into one of the best shooters on the planet. Still, nobody would keep Seth around. But two summers later, he did something on a Vegas court that teams couldn't ignore anymore. Playing for the New Orleans Pelicans in the Las Vegas Summer League, Seth caught fire, dropping thirty points in his opener and twenty-five the next night, before he just kept going. Across his first five games, he averaged twenty-five points and led the whole Summer League in scoring, and he did it while living at the free-throw line and knocking down shots at a great clip. But there was a reason scouts still hesitated to bet on him, and it had nothing to do with those numbers. Because before Vegas, Seth had spent two long years buried in the D-League with the Santa Cruz Warriors and the Erie BayHawks, where he made the D-League All-Star team twice. The NBA only ever handed him ten-day contracts, and he never got much playing time. Then that summer flipped his entire career, because days after his tear, the Sacramento Kings gave him a two-year guaranteed deal, his first real NBA contract. The next year he signed with the Dallas Mavericks and finally became a full-time player. The guy nobody wanted didn't just squeak into the league, and he's still playing today, more than ten years later, sitting among the greatest three-point shooters the NBA has ever seen.",
+ "retention_tricks": [
+  "fast-paced cutting averaging under 2 seconds per shot",
+  "meme and pop culture insert reactions (Homelander, IShowSpeed)",
+  "retro TV frame filter for archival footage",
+  "dynamic word-by-word caption pop-ins"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "High-energy narrative arc contrasting rejection with eventual triumph",
+  "Effective use of internet culture memes and reaction shots to maintain high engagement",
+  "Strong visual variety mixing modern highlights, old photos, TV frames, and graphic cards"
+ ],
+ "_meta": {
+  "source": "RPoc8D0gDhM",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

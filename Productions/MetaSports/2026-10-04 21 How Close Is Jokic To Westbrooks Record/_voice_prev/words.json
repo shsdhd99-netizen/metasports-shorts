@@ -1,0 +1,442 @@
+[
+ {
+  "word": "Only",
+  "start": 0.0,
+  "end": 0.216
+ },
+ {
+  "word": "two",
+  "start": 0.256,
+  "end": 0.383
+ },
+ {
+  "word": "players",
+  "start": 0.433,
+  "end": 0.727
+ },
+ {
+  "word": "ever",
+  "start": 0.786,
+  "end": 0.983
+ },
+ {
+  "word": "passed",
+  "start": 1.032,
+  "end": 1.268
+ },
+ {
+  "word": "Oscar",
+  "start": 1.327,
+  "end": 1.563
+ },
+ {
+  "word": "Robertson's",
+  "start": 1.612,
+  "end": 2.005
+ },
+ {
+  "word": "triple-double",
+  "start": 2.044,
+  "end": 2.507
+ },
+ {
+  "word": "record.",
+  "start": 2.535,
+  "end": 2.861
+ },
+ {
+  "word": "One",
+  "start": 2.899,
+  "end": 3.087
+ },
+ {
+  "word": "just",
+  "start": 3.126,
+  "end": 3.273
+ },
+ {
+  "word": "retired.",
+  "start": 3.313,
+  "end": 3.735
+ },
+ {
+  "word": "Russell",
+  "start": 3.774,
+  "end": 4.01
+ },
+ {
+  "word": "Westbrook",
+  "start": 4.049,
+  "end": 4.324
+ },
+ {
+  "word": "finished",
+  "start": 4.373,
+  "end": 4.599
+ },
+ {
+  "word": "with",
+  "start": 4.62,
+  "end": 4.727
+ },
+ {
+  "word": "two",
+  "start": 4.757,
+  "end": 4.865
+ },
+ {
+  "word": "hundred",
+  "start": 4.914,
+  "end": 5.101
+ },
+ {
+  "word": "nine.",
+  "start": 5.14,
+  "end": 5.435
+ },
+ {
+  "word": "The",
+  "start": 5.465,
+  "end": 5.563
+ },
+ {
+  "word": "other",
+  "start": 5.612,
+  "end": 5.808
+ },
+ {
+  "word": "is",
+  "start": 5.868,
+  "end": 5.946
+ },
+ {
+  "word": "Nikola",
+  "start": 5.995,
+  "end": 6.232
+ },
+ {
+  "word": "Jokic,",
+  "start": 6.27,
+  "end": 6.772
+ },
+ {
+  "word": "at",
+  "start": 6.811,
+  "end": 6.89
+ },
+ {
+  "word": "one",
+  "start": 6.939,
+  "end": 7.067
+ },
+ {
+  "word": "ninety-eight.",
+  "start": 7.106,
+  "end": 7.598
+ },
+ {
+  "word": "Eleven",
+  "start": 7.637,
+  "end": 7.922
+ },
+ {
+  "word": "ties",
+  "start": 7.961,
+  "end": 8.187
+ },
+ {
+  "word": "it.",
+  "start": 8.236,
+  "end": 8.354
+ },
+ {
+  "word": "Twelve",
+  "start": 8.404,
+  "end": 8.639
+ },
+ {
+  "word": "breaks",
+  "start": 8.659,
+  "end": 8.895
+ },
+ {
+  "word": "it.",
+  "start": 8.944,
+  "end": 9.082
+ },
+ {
+  "word": "But",
+  "start": 9.121,
+  "end": 9.239
+ },
+ {
+  "word": "Jokic",
+  "start": 9.277,
+  "end": 9.524
+ },
+ {
+  "word": "had",
+  "start": 9.563,
+  "end": 9.652
+ },
+ {
+  "word": "thirty-four",
+  "start": 9.691,
+  "end": 10.044
+ },
+ {
+  "word": "triple-doubles",
+  "start": 10.083,
+  "end": 10.556
+ },
+ {
+  "word": "last",
+  "start": 10.595,
+  "end": 10.742
+ },
+ {
+  "word": "season,",
+  "start": 10.772,
+  "end": 11.057
+ },
+ {
+  "word": "in",
+  "start": 11.076,
+  "end": 11.145
+ },
+ {
+  "word": "just",
+  "start": 11.194,
+  "end": 11.352
+ },
+ {
+  "word": "sixty-five",
+  "start": 11.391,
+  "end": 11.823
+ },
+ {
+  "word": "games.",
+  "start": 11.853,
+  "end": 12.148
+ },
+ {
+  "word": "That's",
+  "start": 12.168,
+  "end": 12.345
+ },
+ {
+  "word": "about",
+  "start": 12.364,
+  "end": 12.541
+ },
+ {
+  "word": "one",
+  "start": 12.59,
+  "end": 12.718
+ },
+ {
+  "word": "every",
+  "start": 12.748,
+  "end": 12.895
+ },
+ {
+  "word": "two",
+  "start": 12.934,
+  "end": 13.032
+ },
+ {
+  "word": "games.",
+  "start": 13.082,
+  "end": 13.386
+ },
+ {
+  "word": "At",
+  "start": 13.406,
+  "end": 13.494
+ },
+ {
+  "word": "that",
+  "start": 13.524,
+  "end": 13.652
+ },
+ {
+  "word": "pace,",
+  "start": 13.701,
+  "end": 13.907
+ },
+ {
+  "word": "twelve",
+  "start": 13.927,
+  "end": 14.182
+ },
+ {
+  "word": "takes",
+  "start": 14.212,
+  "end": 14.379
+ },
+ {
+  "word": "about",
+  "start": 14.408,
+  "end": 14.575
+ },
+ {
+  "word": "twenty-three",
+  "start": 14.605,
+  "end": 15.027
+ },
+ {
+  "word": "games.",
+  "start": 15.067,
+  "end": 15.342
+ },
+ {
+  "word": "Last",
+  "start": 15.372,
+  "end": 15.528
+ },
+ {
+  "word": "Christmas",
+  "start": 15.558,
+  "end": 15.833
+ },
+ {
+  "word": "he",
+  "start": 15.882,
+  "end": 15.931
+ },
+ {
+  "word": "went",
+  "start": 15.971,
+  "end": 16.099
+ },
+ {
+  "word": "for",
+  "start": 16.129,
+  "end": 16.217
+ },
+ {
+  "word": "fifty-six,",
+  "start": 16.266,
+  "end": 16.777
+ },
+ {
+  "word": "sixteen",
+  "start": 16.816,
+  "end": 17.131
+ },
+ {
+  "word": "and",
+  "start": 17.17,
+  "end": 17.229
+ },
+ {
+  "word": "fifteen,",
+  "start": 17.268,
+  "end": 17.642
+ },
+ {
+  "word": "the",
+  "start": 17.681,
+  "end": 17.76
+ },
+ {
+  "word": "first",
+  "start": 17.809,
+  "end": 17.995
+ },
+ {
+  "word": "fifty-five,",
+  "start": 18.035,
+  "end": 18.468
+ },
+ {
+  "word": "fifteen,",
+  "start": 18.487,
+  "end": 18.782
+ },
+ {
+  "word": "fifteen",
+  "start": 18.811,
+  "end": 19.077
+ },
+ {
+  "word": "game",
+  "start": 19.116,
+  "end": 19.274
+ },
+ {
+  "word": "in",
+  "start": 19.303,
+  "end": 19.342
+ },
+ {
+  "word": "NBA",
+  "start": 19.381,
+  "end": 19.637
+ },
+ {
+  "word": "history.",
+  "start": 19.686,
+  "end": 20.02
+ },
+ {
+  "word": "This",
+  "start": 20.04,
+  "end": 20.168
+ },
+ {
+  "word": "Christmas",
+  "start": 20.207,
+  "end": 20.502
+ },
+ {
+  "word": "is",
+  "start": 20.551,
+  "end": 20.61
+ },
+ {
+  "word": "game",
+  "start": 20.649,
+  "end": 20.797
+ },
+ {
+  "word": "twenty-seven,",
+  "start": 20.817,
+  "end": 21.308
+ },
+ {
+  "word": "in",
+  "start": 21.327,
+  "end": 21.397
+ },
+ {
+  "word": "Golden",
+  "start": 21.446,
+  "end": 21.662
+ },
+ {
+  "word": "State.",
+  "start": 21.691,
+  "end": 21.927
+ },
+ {
+  "word": "Four",
+  "start": 21.947,
+  "end": 22.094
+ },
+ {
+  "word": "games",
+  "start": 22.144,
+  "end": 22.31
+ },
+ {
+  "word": "to",
+  "start": 22.33,
+  "end": 22.38
+ },
+ {
+  "word": "spare.",
+  "start": 22.408,
+  "end": 22.723
+ }
+]

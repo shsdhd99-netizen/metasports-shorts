@@ -1,0 +1,121 @@
+{
+ "length_s": 20.083,
+ "topic": "NBA player Boban Marjanovic intentionally misses a free throw so the entire arena gets free chicken.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "Why would an NBA player miss a free throw on purpose?",
+  "first_frame": "Boban Marjanovic shooting a free throw in an arena with a scoreboard showing 4:44.",
+  "on_screen_text_0_3s": "WHY WOULD AN NBA PLAYER MISS A FREE THROW ON PURPOSE?",
+  "shots_in_first_3s": 3
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 1.25,
+   "shows": "Boban Marjanovic shooting a free throw",
+   "kind": "action"
+  },
+  {
+   "start_s": 1.25,
+   "end_s": 2.0,
+   "shows": "The ball missing the rim and bouncing off the backboard",
+   "kind": "replay"
+  },
+  {
+   "start_s": 2.0,
+   "end_s": 3.125,
+   "shows": "Another angle of the missed free throw and rebound",
+   "kind": "action"
+  },
+  {
+   "start_s": 3.125,
+   "end_s": 5.125,
+   "shows": "A player shooting a free throw with fans holding a sign 'WHERE FLAVOR GETS ITS WINGS'",
+   "kind": "action"
+  },
+  {
+   "start_s": 5.125,
+   "end_s": 6.5,
+   "shows": "Fans in the arena cheering and waving free chicken signs",
+   "kind": "face"
+  },
+  {
+   "start_s": 6.5,
+   "end_s": 9.25,
+   "shows": "Boban Marjanovic shooting another free throw",
+   "kind": "action"
+  },
+  {
+   "start_s": 9.25,
+   "end_s": 16.75,
+   "shows": "Boban Marjanovic talking and reacting on the court",
+   "kind": "face"
+  },
+  {
+   "start_s": 16.75,
+   "end_s": 20.083,
+   "shows": "Boban Marjanovic intentionally missing the second free throw",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 8,
+ "average_shot_s": 2.51,
+ "longest_shot_s": 7.5,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 210,
+  "tone": "fast-paced, engaging",
+  "original_audio_under_voice": true
+ },
+ "music": {
+  "present": true,
+  "style": "upbeat rhythmic background beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "ALL CAPS",
+  "position": "middle",
+  "colours": "white",
+  "highlight_style": "none"
+ },
+ "text_overlays": [],
+ "cards_or_graphics": 0,
+ "framing": "crop",
+ "ending": {
+  "last_words": "and it made the entire arena's night",
+  "last_frame": "Boban Marjanovic walking away after shooting the free throw",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "Why would an NBA player miss a free throw on purpose? In this arena, if a player misses two straight free throws, every fan gets free chicken. So when Boban stepped to the line, he missed the first one by accident. But then he noticed the whole crowd was cheering for him to miss again. At that point, the Rockets were already out of playoff contention, so the shot didn't really matter. And because Boban is a man of the people, he intentionally missed the next free throw and it made the entire arena's night.",
+ "retention_tricks": [
+  "open loop in the first line ('Why would an NBA player miss a free throw on purpose?')",
+  "rapid-fire cuts every 1-2 seconds",
+  "close-up reaction shot of Boban smiling"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": true,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "Compelling hook posing a puzzling question about basketball rules and fan promotions.",
+  "Charismatic subject (Boban Marjanovic) whose joyful reaction drives the narrative.",
+  "Fast pacing with varied shot types combining live action, replays, and crowd reactions."
+ ],
+ "_meta": {
+  "source": "TrXPrOvdSEs",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

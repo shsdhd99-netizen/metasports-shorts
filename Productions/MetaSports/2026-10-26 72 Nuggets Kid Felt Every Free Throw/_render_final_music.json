@@ -1,0 +1,25 @@
+{
+ "engine": "ffmpeg",
+ "out": "final_music.mp4",
+ "loop_fix": true,
+ "fits": [],
+ "music": {
+  "track": "Library/Music/eleven_emotional_01.mp3",
+  "track_start": 0.0,
+  "in": 0.0,
+  "out": 21.498776,
+  "hit": null,
+  "hit_on": null,
+  "segment_lufs": -17.4,
+  "gain_db": -16.6,
+  "bed_lu": -20.0,
+  "gap_lift_db": 2.0,
+  "gaps": [
+   [
+    21.24,
+    21.5
+   ]
+  ],
+  "drops": []
+ }
+}

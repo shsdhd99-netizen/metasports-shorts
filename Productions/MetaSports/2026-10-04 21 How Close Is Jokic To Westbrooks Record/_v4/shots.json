@@ -1,0 +1,116 @@
+[
+ {
+  "clip": "b1cj.mp4",
+  "anchor": "Nikola Jokic has",
+  "kind": "action",
+  "in": 0.0,
+  "zoom": 0.04,
+  "why": "Frame 1 = Jokic himself, close, as '198' appears in the captions (scorebug cropped off; critic Oct 14 edit 1); captions lowered to 68% so 'HAS 198' clears his mouth (critic re-check Oct 14) | v4: b1cj = b1c trimmed to 0-1.6 s (b1c flashes another scene at 1.67 s); runs through \"198\"",
+  "start": 0.0,
+  "cap_y": 1305
+ },
+ {
+  "clip": "b6j.mp4",
+  "anchor": "triple-doubles.",
+  "kind": "action",
+  "in": 0.0,
+  "why": "v4 split: Jokic (#15 white, JOKIC on the back) with teammates under 'triple-doubles.'; b6j = b6 trimmed to 0-1.17 s, before the camera pans to a coach",
+  "start": 1.85
+ },
+ {
+  "clip": "a2.mp4",
+  "anchor": "Russell Westbrook retired",
+  "kind": "face",
+  "in": 0.0,
+  "why": "Westbrook, close, on his own name (a5 panned to an empty court after 0.5 s)",
+  "start": 3.04
+ },
+ {
+  "clip": "a3.mp4",
+  "anchor": "with the record",
+  "kind": "action",
+  "in": 0.04,
+  "why": "Westbrook in action on 'the record: 209'; in 0.04 skips a one-frame hoop/crowd flash (re-check)",
+  "start": 4.09
+ },
+ {
+  "clip": "b13c.mp4",
+  "anchor": "Eleven ties it",
+  "kind": "action",
+  "in": 0.0,
+  "why": "Jokic passing on 'Eleven ties it' (ends at 4.70 s: after that a Memphis player fills the frame; bottom 3% cropped to drop a source-text sliver)",
+  "start": 5.96
+ },
+ {
+  "clip": "b4c.mp4",
+  "anchor": "Twelve breaks it",
+  "kind": "face",
+  "in": 0.2,
+  "why": "Jokic close-up on 'Twelve breaks it' (critic re-check Oct 14; bottom 3% cropped)",
+  "start": 6.99
+ },
+ {
+  "clip": "a1L.mp4",
+  "anchor": "Westbrook needed",
+  "kind": "action",
+  "in": 0.0,
+  "why": "Westbrook (OKC tribute, then Wizards): a long career; ends at 7.00 s, before the clip's own cut to a Rockets frame at 1.70 s | v4: a1L = the same tribute post 0.2-2.8 s (OKC, Wizards, Rockets), long enough for the slower voice",
+  "start": 7.92
+ },
+ {
+  "clip": "b2.mp4",
+  "anchor": "Jokic has played",
+  "kind": "action",
+  "in": 0.0,
+  "why": "Jokic in a game, on '810'; starts at 7.00 s (re-check: avoids a1's Rockets frame)",
+  "start": 10.43
+ },
+ {
+  "clip": "b7L.mp4",
+  "anchor": "Last season, he",
+  "kind": "action",
+  "in": 0.0,
+  "why": "Jokic last season | v4: b7L = the same Houston post 1.9-4.2 s, one continuous angle (b7 crossed the post's internal cut)",
+  "start": 12.03
+ },
+ {
+  "clip": "b5c.mp4",
+  "anchor": "in just 65",
+  "kind": "action",
+  "in": 0.25,
+  "why": "Jokic in action: the rate (in 0.25 skips a non-Jokic first frame); bottom 3% cropped (source-text sliver)",
+  "start": 14.11
+ },
+ {
+  "clip": "b8.mp4",
+  "anchor": "About one every",
+  "kind": "action",
+  "in": 0.0,
+  "why": "v4 split: Jokic's own stat line on the broadcast lower third (JOKIC 32 PTS) under 'About one every two.'",
+  "start": 15.54
+ },
+ {
+  "clip": "b12L.mp4",
+  "anchor": "At that pace",
+  "kind": "face",
+  "in": 0.0,
+  "why": "Jokic (media day) on the projection | v4: b12L = the same media-day post 4.6-7.1 s, one continuous walk",
+  "start": 16.61
+ },
+ {
+  "clip": "c21_xmas.png",
+  "anchor": "Denver's twenty-seventh",
+  "kind": "card",
+  "why": "Readable proof: pace = about 23 games; game 27 = Fri Dec 25 at Golden State (B-Ref schedule; critic Oct 14 edit 4)",
+  "start": 18.93
+ },
+ {
+  "clip": "b1c.mp4",
+  "anchor": "Four games to",
+  "kind": "action",
+  "in": 0.0,
+  "why": "End on Jokic (critic edit 4) and loop into frame 1",
+  "start": 21.43,
+  "cap_y": 1305
+ }
+]

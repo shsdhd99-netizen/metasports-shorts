@@ -1,0 +1,276 @@
+{
+ "length_s": 69.3,
+ "topic": "How Shaquille O'Neal sacrificed the twilight of his career to try and win LeBron James a championship with the Cleveland Cavaliers.",
+ "lane": "other",
+ "hook": {
+  "first_words": "NBA legends who sacrificed everything for someone else's championship!",
+  "first_frame": "A basketball game clip with game score and clock visible.",
+  "on_screen_text_0_3s": "NBA legends who sacrificed everything for someone else's championship!",
+  "shots_in_first_3s": 1
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 3.7,
+   "shows": "Basketball game footage where a player falls on the court",
+   "kind": "action"
+  },
+  {
+   "start_s": 3.7,
+   "end_s": 6.5,
+   "shows": "Shaquille O'Neal holding a Lakers championship trophy and smiling",
+   "kind": "still"
+  },
+  {
+   "start_s": 6.5,
+   "end_s": 7.9,
+   "shows": "Shaquille O'Neal holding up a Phoenix Suns jersey at a press conference",
+   "kind": "still"
+  },
+  {
+   "start_s": 7.9,
+   "end_s": 12.9,
+   "shows": "Old TV showing Shaq playing in a Phoenix Suns uniform",
+   "kind": "stock"
+  },
+  {
+   "start_s": 12.9,
+   "end_s": 14.1,
+   "shows": "Cleveland Cavaliers logo with blurred basketball court background",
+   "kind": "stock"
+  },
+  {
+   "start_s": 14.1,
+   "end_s": 16.7,
+   "shows": "Old TV showing LeBron James driving to the basket",
+   "kind": "stock"
+  },
+  {
+   "start_s": 16.7,
+   "end_s": 18.5,
+   "shows": "Close-up of Vince McMahon looking serious",
+   "kind": "stock"
+  },
+  {
+   "start_s": 18.5,
+   "end_s": 20.0,
+   "shows": "Dwight Howard in Orlando Magic jersey yelling",
+   "kind": "still"
+  },
+  {
+   "start_s": 20.0,
+   "end_s": 21.5,
+   "shows": "Orlando Magic logo",
+   "kind": "stock"
+  },
+  {
+   "start_s": 21.5,
+   "end_s": 23.6,
+   "shows": "Old TV showing LeBron James speaking at a press conference",
+   "kind": "stock"
+  },
+  {
+   "start_s": 23.6,
+   "end_s": 25.5,
+   "shows": "Old TV showing LeBron James playing against Boston Celtics",
+   "kind": "stock"
+  },
+  {
+   "start_s": 25.5,
+   "end_s": 28.0,
+   "shows": "Crowd celebrating wildly indoors",
+   "kind": "stock"
+  },
+  {
+   "start_s": 28.0,
+   "end_s": 29.7,
+   "shows": "Shaquille O'Neal in Cleveland Cavaliers jersey number 33",
+   "kind": "still"
+  },
+  {
+   "start_s": 29.7,
+   "end_s": 31.9,
+   "shows": "Ben Wallace and Sasha Pavlovic in Cavaliers uniforms",
+   "kind": "still"
+  },
+  {
+   "start_s": 31.9,
+   "end_s": 33.6,
+   "shows": "Old TV showing Sasha Pavlovic on court",
+   "kind": "stock"
+  },
+  {
+   "start_s": 33.6,
+   "end_s": 35.3,
+   "shows": "Shaquille O'Neal speaking at a press conference with bow tie",
+   "kind": "still"
+  },
+  {
+   "start_s": 35.3,
+   "end_s": 36.5,
+   "shows": "Old TV showing Shaq playing for Cavaliers",
+   "kind": "stock"
+  },
+  {
+   "start_s": 36.5,
+   "end_s": 38.3,
+   "shows": "Close-up of Shaq's face talking seriously",
+   "kind": "still"
+  },
+  {
+   "start_s": 38.3,
+   "end_s": 40.3,
+   "shows": "Shaq in Cavaliers jersey looking intense",
+   "kind": "still"
+  },
+  {
+   "start_s": 40.3,
+   "end_s": 41.5,
+   "shows": "Shaq holding basketball in Cavaliers uniform with text 'SHAQ O'NEAL WIN A RING FOR THE KING'",
+   "kind": "stock"
+  },
+  {
+   "start_s": 41.5,
+   "end_s": 43.1,
+   "shows": "Old TV showing LeBron at press conference",
+   "kind": "stock"
+  },
+  {
+   "start_s": 43.1,
+   "end_s": 45.7,
+   "shows": "Old TV showing Shaq playing basketball in Cavaliers uniform",
+   "kind": "stock"
+  },
+  {
+   "start_s": 45.7,
+   "end_s": 47.7,
+   "shows": "Shaq's face talking",
+   "kind": "still"
+  },
+  {
+   "start_s": 47.7,
+   "end_s": 48.7,
+   "shows": "LeBron James and Shaq pointing at each other in Cavaliers uniforms",
+   "kind": "still"
+  },
+  {
+   "start_s": 48.7,
+   "end_s": 51.6,
+   "shows": "Old TV showing basketball play under the basket",
+   "kind": "stock"
+  },
+  {
+   "start_s": 51.6,
+   "end_s": 53.6,
+   "shows": "Boston Celtics logo",
+   "kind": "stock"
+  },
+  {
+   "start_s": 53.6,
+   "end_s": 56.7,
+   "shows": "Shaq lying in a hospital bed with IV and hairnet",
+   "kind": "still"
+  },
+  {
+   "start_s": 56.7,
+   "end_s": 59.2,
+   "shows": "Old TV showing basketball game action",
+   "kind": "stock"
+  },
+  {
+   "start_s": 59.2,
+   "end_s": 60.1,
+   "shows": "LeBron James and Shaq standing side by side on court",
+   "kind": "still"
+  },
+  {
+   "start_s": 60.1,
+   "end_s": 62.1,
+   "shows": "Old TV showing Chicago Bulls vs Cavaliers game",
+   "kind": "stock"
+  },
+  {
+   "start_s": 62.1,
+   "end_s": 64.0,
+   "shows": "Shaq in Cavaliers jersey looking focused",
+   "kind": "still"
+  },
+  {
+   "start_s": 64.0,
+   "end_s": 66.7,
+   "shows": "Shaq and LeBron standing together on court in Cavaliers uniforms",
+   "kind": "still"
+  },
+  {
+   "start_s": 66.7,
+   "end_s": 69.3,
+   "shows": "Shaq's face talking seriously",
+   "kind": "still"
+  }
+ ],
+ "shot_count": 33,
+ "average_shot_s": 2.1,
+ "longest_shot_s": 3.7,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 170,
+  "tone": "dramatic",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "dramatic cinematic orchestral",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 2,
+  "case": "sentence",
+  "position": "middle",
+  "colours": "white",
+  "highlight_style": "none"
+ },
+ "text_overlays": [
+  {
+   "at_s": 40.3,
+   "text": "SHAQ O'NEAL \"WIN A RING FOR THE KING.\""
+  }
+ ],
+ "cards_or_graphics": 0,
+ "framing": "crop",
+ "ending": {
+  "last_words": "Shaq never won another ring for the rest of his career.",
+  "last_frame": "Shaq in Cavaliers jersey #33 looking forward.",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "NBA legends who sacrificed everything for someone else's championship! Shaquille O'Neal had already won four championships by the time the Suns picked him up, but Phoenix never had a real plan for him, and his prime had clearly slipped away. Meanwhile in Cleveland, LeBron James had just watched his Cavaliers get eliminated from the Eastern Conference Finals by Dwight Howard and the Orlando Magic. But Cleveland was about to make a move nobody expected from a team that already won sixty-six games that season. The Cavaliers traded for Shaq, sending Ben Wallace, Sasha Pavlovic, and cash back to Phoenix, and the moment the thirty-seven-year-old arrived in Cleveland, he made his intentions clear. He said his motto was simple: \"Win a ring for the king,\" a direct reference to LeBron, and Shaq spent that season playing a supporting role, hoping to help LeBron win his first championship. But then one moment on the court changed everything. He went up for a shot against the Boston Celtics and severely injured his thumb, requiring surgery. And he recovered just in time for the playoffs. The Cavaliers took down the Chicago Bulls in the first round, then ran into the Celtics again, and this time Cleveland lost in the second round. Shaq never won another ring for the rest of his career.",
+ "retention_tricks": [
+  "pacing with rapid cuts",
+  "archival TV footage framed inside an old TV set",
+  "dramatic narrative arc about a legendary player chasing a final ring"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "Compelling storytelling about a legendary player taking a secondary role for a teammate",
+  "Strong use of nostalgic archival footage presented through a retro TV graphic",
+  "High emotional stakes and dramatic voiceover delivery"
+ ],
+ "_meta": {
+  "source": "-56spjs07xs",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

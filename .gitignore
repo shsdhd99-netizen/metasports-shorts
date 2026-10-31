@@ -2,7 +2,16 @@
 /*
 !/.gitignore
 !/CLOUD_HANDOFF.md
+!/CLOUD STATE - read this first.md
+!/ACCOUNT 2 - START HERE.md
+!/Posting Roadmap - Oct 2026.md
+!/Production Queue.md
+!/Production Queue - all ideas (Oct 14, 2026).csv
+!/Library/
 !/00 START HERE.md
+!/UPLOAD SCHEDULE.md
+!/DESKTOP SYNC - read on the PC.md
+!/OVERNIGHT LOG - resume here.md
 !/MetaSports - Playbook.md
 !/MetaSports - Scripts (Batch 2).md
 !/Tools Guide.md
@@ -36,3 +45,67 @@ Productions/**/_claude_build/
 !Productions/MetaSports/2026-09-28 01 Why LeBron Took a 92 Pay Cut/_broll_src/*.mp4
 !Productions/MetaSports/2026-09-28 01 Why LeBron Took a 92 Pay Cut/_claude_v3/clips/*.mp4
 !Productions/MetaSports/2026-09-28 01 Why LeBron Took a 92 Pay Cut/_claude_v3/shots_src/*.png
+
+# finished Shorts built in the cloud (small, upload-ready)
+!Productions/**/READY TO POST*.mp4
+!Productions/**/_claude_v4/clips/*.mp4
+!Productions/**/_claude_v4/shots_src/*.png
+!Productions/**/_claude_v4/storyboard.jpg
+!Productions/**/_claude_v4/preview_*.jpg
+!Productions/**/_claude_v4/cover_*.png
+!Productions/**/_claude_v4/clips/*.mp4
+!Productions/**/_claude_v4/shots_src/*.png
+!Productions/**/_claude_v4/storyboard.jpg
+!Productions/**/_claude_v4/preview_*.jpg
+!Productions/**/_claude_v4/cover_*.png
+!Productions/MetaSports/2026-10-03 1*/clips/*.mp4
+!Productions/MetaSports/2026-10-03 1*/shots_src/*.png
+!Productions/**/_claude_v6/clips/*.mp4
+!Productions/**/_claude_v6/shots_src/*.png
+!Productions/**/_claude_v6/storyboard.jpg
+!Productions/MetaSports/2026-10-03 1*/cover_*.png
+!Productions/MetaSports/2026-10-03 1*/UPLOAD.md
+
+# assemble.py scratch while rendering
+**/_shots_tmp/
+
+# Library: scratch from the music tests and the footage sheets stay local
+Library/Music/tests/work/
+Productions/**/_audit/clips/
+Productions/**/src/
+
+# YouTube Analytics API (Tools/yt_analytics.py): OAuth client file and tokens never go in git
+Tools/client_secret*.json
+**/yt_token*.json
+
+# Oct 19 2026: audition analysis WAVs are rebuilt from the MP3 takes by the scripts; keep them out of git
+Research Notes/Voice Audition*/takes/*.wav
+
+# A/B voice renders link the parent clips/src (symlinks, not committed)
+Productions/**/_designed/clips
+Productions/**/_designed/src
+Productions/**/_alex/clips
+Productions/**/_alex/src
+
+# Oct 21 2026: the soccer channel's own space (Soccer Channel/START HERE.md). Its drafts and card assets are kept; raw sources and clips stay local.
+!/Soccer Channel/
+!Soccer Channel/**/DRAFT - awaiting approval*.mp4
+!Soccer Channel/**/assets/*.png
+!Soccer Channel/**/assets/*.jpg
+Soccer Channel/**/src/
+Soccer Channel/**/clips/
+Soccer Channel/**/_check/
+Soccer Channel/**/take*_*/
+Soccer Channel/**/_voice_*/
+Soccer Channel/**/final_*.mp4
+!Soccer Channel/Brand/*.png
+!Soccer Channel/Brand/*.jpg
+
+# Oct 22 2026: footage contact sheets are rebuilt from src/ with broll.py; keep them out of git
+Soccer Channel/Productions/**/_sheets/
+Productions/**/_pre_tight/*.mp4
+
+# Oct 24 2026: NBA drafts made in the cloud are kept in git too, so the owner can download them; contact sheets stay local
+!Productions/**/DRAFT - awaiting approval*.mp4
+Productions/**/_sheets/
+Productions/**/_check/

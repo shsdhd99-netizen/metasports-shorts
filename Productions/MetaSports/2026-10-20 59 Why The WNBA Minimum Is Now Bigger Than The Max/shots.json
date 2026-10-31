@@ -1,0 +1,79 @@
+[
+ {
+  "clip": "S1.mp4",
+  "kind": "action",
+  "start": 0.0,
+  "zoom": 0.04,
+  "why": "All-Stars in 'Pay Us What You Owe Us' shirts at warm-ups, 2025 WNBA All-Star Game, Indianapolis, Jul 19 2025 (Ballislife post on X)"
+ },
+ {
+  "clip": "S2.mp4",
+  "kind": "face",
+  "anchor": "is now higher",
+  "why": "Same warm-ups on the arena screen, players in the shirts (Front Office Sports post on X)",
+  "start": 1.79
+ },
+ {
+  "clip": "S3.mp4",
+  "kind": "action",
+  "anchor": "Last season",
+  "why": "All-Stars warming up in the shirts (Ballislife)",
+  "start": 4.15
+ },
+ {
+  "clip": "S4o.mp4",
+  "kind": "action",
+  "anchor": "$249,244",
+  "why": "Arena screen, player in the shirt (Sports Illustrated post on X). Words: $249,244 / 2025 MAX SALARY",
+  "start": 6.01
+ },
+ {
+  "clip": "S5o.mp4",
+  "kind": "action",
+  "anchor": "This season",
+  "why": "2026 game: Storm at Fever, Jul 17 2026, wide (WNBA highlights on X). Words: $270,000 / 2026 MINIMUM",
+  "start": 7.67
+ },
+ {
+  "clip": "S6o.mp4",
+  "kind": "face",
+  "anchor": "In March",
+  "why": "Players in the shirts on the arena screen (SI). Words: 7 YEARS / NEW DEAL, MARCH 2026",
+  "start": 10.11
+ },
+ {
+  "clip": "S7o.mp4",
+  "kind": "action",
+  "anchor": "The salary cap",
+  "why": "2026 game, wide (WNBA highlights). Words: SALARY CAP $1.5M -> $7M",
+  "start": 12.34
+ },
+ {
+  "clip": "S8o.mp4",
+  "kind": "action",
+  "anchor": "And for the first",
+  "why": "2026 playoffs, Aces at Valkyries, Oct 2026 (NBA post on X, fan-angle footage). Words: FIRST TIME / IN 30 SEASONS",
+  "start": 15.08
+ },
+ {
+  "clip": "S9o.mp4",
+  "kind": "action",
+  "anchor": "can make over",
+  "why": "A'ja Wilson (#22 WILSON) running the floor at Portland, Jul 2026 (Las Vegas Aces post on X, cropped to clear its stat graphic). Words: $1,000,000+",
+  "start": 16.89
+ },
+ {
+  "clip": "S10o.mp4",
+  "kind": "action",
+  "anchor": "A'ja Wilson",
+  "why": "A'ja Wilson (#22 WILSON) with the ball, Aces at Valkyries, Oct 2026 playoffs (NBA post on X). Words: $1.4M / A'JA WILSON (REPORTED)",
+  "start": 18.65
+ },
+ {
+  "clip": "S11o.mp4",
+  "kind": "action",
+  "anchor": "Last year's max",
+  "why": "Back to the 2025 shirts (Ballislife): loops to frame 1. Words: $249K < $270K",
+  "start": 21.03
+ }
+]

@@ -1,0 +1,168 @@
+{
+ "sources": {
+  "J": "src/espn_jovic.mp4",
+  "E": "src/espn_edge.mp4"
+ },
+ "promise": [
+  "buzzer",
+  "feet",
+  "half"
+ ],
+ "shots": [
+  {
+   "clip": "H01",
+   "src": "E",
+   "at": 29.2,
+   "x": 0.4,
+   "kind": "action",
+   "why": "Edgecombe's arms go up as his 50-footer flies, behind-the-shooter close-up (ESPN clip, Oct 28 2026 at Indiana)",
+   "len": 3.03
+  },
+  {
+   "clip": "H02",
+   "src": "J",
+   "at": 12.2,
+   "x": 0.4,
+   "kind": "face",
+   "anchor": "First, Miami's",
+   "why": "Jović (#5 JOVIC) walks off at half-time high-fiving, slowed to half speed (ESPN clip, at Atlanta)",
+   "speed": 0.4,
+   "len": 1.84
+  },
+  {
+   "clip": "H03",
+   "src": "J",
+   "at": 2.42,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.3,
+   "kind": "action",
+   "anchor": "has a loose",
+   "why": "LIVE (Heat at Hawks broadcast call): Jović grabs the loose ball and lets it go from 40 feet",
+   "lead": 0.1,
+   "len": 2.82
+  },
+  {
+   "clip": "H04",
+   "src": "J",
+   "at": 4.94,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.6,
+   "kind": "action",
+   "anchor": "he got it",
+   "why": "LIVE: the 40-footer drops at the buzzer",
+   "lead": 0.0,
+   "len": 1.64
+  },
+  {
+   "clip": "H04B",
+   "src": "J",
+   "at": 6.28,
+   "anchor": "and that one",
+   "lead": 0.0,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "kind": "action",
+   "why": "LIVE: 'and that one does count', the crowd and the Heat bench",
+   "len": 2.07
+  },
+  {
+   "clip": "H05",
+   "src": "E",
+   "at": 1.0,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.45,
+   "kind": "action",
+   "anchor": "Twenty minutes later",
+   "why": "Indiana, end of the first half: Ubre's three falls short",
+   "len": 1.54
+  },
+  {
+   "clip": "H06",
+   "src": "E",
+   "at": 2.99,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.4,
+   "kind": "action",
+   "anchor": "VJ Edgecombe grabs",
+   "why": "Ubre's three falls short and Edgecombe grabs the rebound with 1.7 s left",
+   "len": 2.71
+  },
+  {
+   "clip": "H07",
+   "src": "E",
+   "at": 5.34,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.45,
+   "kind": "action",
+   "anchor": "half-court, that'll",
+   "why": "LIVE (76ers at Pacers broadcast call): the 50-foot heave",
+   "lead": 0.1,
+   "len": 2.36
+  },
+  {
+   "clip": "H08",
+   "src": "E",
+   "at": 7.4,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.6,
+   "kind": "action",
+   "anchor": "Oh, Edgecombe",
+   "why": "LIVE: 'Oh, Edgecombe nails it at the buzzer'",
+   "lead": 0.0,
+   "len": 3.35
+  },
+  {
+   "clip": "H09",
+   "src": "E",
+   "at": 26.8,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "kind": "action",
+   "replay": true,
+   "anchor": "But here's",
+   "why": "replay from behind the basket: the ball drops in",
+   "len": 1.18
+  },
+  {
+   "clip": "H10",
+   "src": "J",
+   "at": 9.0,
+   "x": 0.62,
+   "kind": "face",
+   "anchor": "Jović played seven",
+   "why": "Jović (#5) mobbed by teammates after the shot",
+   "len": 2.12
+  },
+  {
+   "clip": "H11",
+   "src": "E",
+   "at": 20.0,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.6,
+   "kind": "action",
+   "anchor": "And Edgecombe went",
+   "why": "floor-level angle of the play: Edgecombe (#77) grabs the miss",
+   "len": 2.22
+  },
+  {
+   "clip": "H12",
+   "src": "E",
+   "at": 30.6,
+   "x": 0.45,
+   "kind": "action",
+   "replay": true,
+   "anchor": "His only make",
+   "why": "payoff: Edgecombe's arms up as the 50-footer flies (same close-up as frame 1, later seconds)",
+   "len": 2.41
+  }
+ ]
+}

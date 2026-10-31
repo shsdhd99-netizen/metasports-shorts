@@ -1,0 +1,115 @@
+{
+ "length_s": 25.0,
+ "topic": "A compilation of incredible physical feats and stunts compared across different football players' avatars.",
+ "lane": "moment",
+ "hook": {
+  "first_words": "Você",
+  "first_frame": "A young man sitting between two chairs with colourful balloons underneath him, looking down towards them.",
+  "on_screen_text_0_3s": "none",
+  "shots_in_first_3s": 1
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 3.5,
+   "shows": "A man jumping and sitting on balloons placed between two chairs",
+   "kind": "action"
+  },
+  {
+   "start_s": 3.5,
+   "end_s": 7.1,
+   "shows": "A man doing parkour over soccer goals on a grassy field",
+   "kind": "action"
+  },
+  {
+   "start_s": 7.1,
+   "end_s": 10.7,
+   "shows": "A man doing backflips down a sand dune",
+   "kind": "action"
+  },
+  {
+   "start_s": 10.7,
+   "end_s": 14.2,
+   "shows": "Three acrobats diving through hoops simultaneously",
+   "kind": "action"
+  },
+  {
+   "start_s": 14.2,
+   "end_s": 17.7,
+   "shows": "A man doing a front flip off a platform onto a crash mat",
+   "kind": "action"
+  },
+  {
+   "start_s": 17.7,
+   "end_s": 21.2,
+   "shows": "Two men diving through a cutout hole in a wall",
+   "kind": "action"
+  },
+  {
+   "start_s": 21.2,
+   "end_s": 25.0,
+   "shows": "A man doing a backflip over a moving sports car",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 7,
+ "average_shot_s": 3.57,
+ "longest_shot_s": 3.8,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 120,
+  "tone": "hype",
+  "original_audio_under_voice": true
+ },
+ "music": {
+  "present": true,
+  "style": "phonk electronic beat",
+  "level_vs_voice": "loud",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": false,
+  "words_per_line": 0,
+  "case": "mixed",
+  "position": "bottom",
+  "colours": [],
+  "highlight_style": "none"
+ },
+ "text_overlays": [],
+ "cards_or_graphics": 7,
+ "framing": "crop",
+ "ending": {
+  "last_words": "garanta",
+  "last_frame": "A man in a red Portugal jersey landing a backflip after jumping over a red sports car.",
+  "loops_to_start": true,
+  "call_to_action": "none"
+ },
+ "script": "Você... quer mais garanta...",
+ "retention_tricks": [
+  "Fast cuts every few seconds",
+  "Elimination filter graphic at the top tracking characters",
+  "Slow-motion impact moments with purple meme reaction icon"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": true,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": false,
+  "ends_on_payoff": true,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "High-energy stunts matched with dramatic phork music beats",
+  "Interactive elimination indicator bar at the top tracking the progression",
+  "Diverse extreme physical feats from parkour to acrobatics"
+ ],
+ "_meta": {
+  "source": "DC66gtqWiRM",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

@@ -1,0 +1,16 @@
+[
+ {
+  "take": 1,
+  "ok": true,
+  "score": 5.1,
+  "verdict": "PASS",
+  "issues": [],
+  "wpm": 231,
+  "hnr": 8.6,
+  "jitter": 2.84,
+  "shimmer": 10.64,
+  "dur": 24.49,
+  "pitch_sd": 4.84,
+  "fixed": "fixed by sentence retake"
+ }
+]

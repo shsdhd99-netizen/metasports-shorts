@@ -1,0 +1,397 @@
+[
+ {
+  "word": "Charles",
+  "start": 0.0,
+  "end": 0.279
+ },
+ {
+  "word": "Barkley",
+  "start": 0.313,
+  "end": 0.557
+ },
+ {
+  "word": "just",
+  "start": 0.627,
+  "end": 0.755
+ },
+ {
+  "word": "failed",
+  "start": 0.789,
+  "end": 0.998
+ },
+ {
+  "word": "a",
+  "start": 1.033,
+  "end": 1.057
+ },
+ {
+  "word": "test",
+  "start": 1.103,
+  "end": 1.312
+ },
+ {
+  "word": "after",
+  "start": 1.347,
+  "end": 1.486
+ },
+ {
+  "word": "they",
+  "start": 1.521,
+  "end": 1.614
+ },
+ {
+  "word": "gave",
+  "start": 1.649,
+  "end": 1.8
+ },
+ {
+  "word": "him",
+  "start": 1.823,
+  "end": 1.892
+ },
+ {
+  "word": "the",
+  "start": 1.927,
+  "end": 1.997
+ },
+ {
+  "word": "answers.",
+  "start": 2.067,
+  "end": 2.844
+ },
+ {
+  "word": "On",
+  "start": 3.024,
+  "end": 3.163
+ },
+ {
+  "word": "Inside",
+  "start": 3.198,
+  "end": 3.477
+ },
+ {
+  "word": "the",
+  "start": 3.5,
+  "end": 3.57
+ },
+ {
+  "word": "NBA,",
+  "start": 3.628,
+  "end": 4.197
+ },
+ {
+  "word": "they",
+  "start": 4.232,
+  "end": 4.348
+ },
+ {
+  "word": "play",
+  "start": 4.394,
+  "end": 4.638
+ },
+ {
+  "word": "Who",
+  "start": 4.696,
+  "end": 4.824
+ },
+ {
+  "word": "He",
+  "start": 4.905,
+  "end": 4.975
+ },
+ {
+  "word": "Play",
+  "start": 5.044,
+  "end": 5.218
+ },
+ {
+  "word": "For.",
+  "start": 5.277,
+  "end": 5.555
+ },
+ {
+  "word": "They",
+  "start": 5.578,
+  "end": 5.671
+ },
+ {
+  "word": "show",
+  "start": 5.718,
+  "end": 5.857
+ },
+ {
+  "word": "a",
+  "start": 5.903,
+  "end": 5.927
+ },
+ {
+  "word": "player,",
+  "start": 5.973,
+  "end": 6.368
+ },
+ {
+  "word": "and",
+  "start": 6.391,
+  "end": 6.496
+ },
+ {
+  "word": "Chuck",
+  "start": 6.542,
+  "end": 6.751
+ },
+ {
+  "word": "names",
+  "start": 6.821,
+  "end": 7.064
+ },
+ {
+  "word": "his",
+  "start": 7.088,
+  "end": 7.181
+ },
+ {
+  "word": "team.",
+  "start": 7.239,
+  "end": 7.587
+ },
+ {
+  "word": "He",
+  "start": 7.622,
+  "end": 7.703
+ },
+ {
+  "word": "said",
+  "start": 7.749,
+  "end": 7.9
+ },
+ {
+  "word": "the",
+  "start": 7.924,
+  "end": 7.993
+ },
+ {
+  "word": "Chicago",
+  "start": 8.028,
+  "end": 8.434
+ },
+ {
+  "word": "Bulls.",
+  "start": 8.516,
+  "end": 9.003
+ },
+ {
+  "word": "Wrong.",
+  "start": 9.061,
+  "end": 9.561
+ },
+ {
+  "word": "His",
+  "start": 9.584,
+  "end": 9.7
+ },
+ {
+  "word": "own",
+  "start": 9.735,
+  "end": 9.839
+ },
+ {
+  "word": "co-hosts",
+  "start": 9.886,
+  "end": 10.327
+ },
+ {
+  "word": "said,",
+  "start": 10.396,
+  "end": 10.733
+ },
+ {
+  "word": "we",
+  "start": 10.756,
+  "end": 10.838
+ },
+ {
+  "word": "gave",
+  "start": 10.884,
+  "end": 11.047
+ },
+ {
+  "word": "him",
+  "start": 11.07,
+  "end": 11.139
+ },
+ {
+  "word": "the",
+  "start": 11.174,
+  "end": 11.244
+ },
+ {
+  "word": "answers,",
+  "start": 11.302,
+  "end": 11.72
+ },
+ {
+  "word": "and",
+  "start": 11.743,
+  "end": 11.836
+ },
+ {
+  "word": "he",
+  "start": 11.882,
+  "end": 11.929
+ },
+ {
+  "word": "still",
+  "start": 12.022,
+  "end": 12.265
+ },
+ {
+  "word": "failed",
+  "start": 12.335,
+  "end": 12.567
+ },
+ {
+  "word": "the",
+  "start": 12.59,
+  "end": 12.66
+ },
+ {
+  "word": "test.",
+  "start": 12.695,
+  "end": 13.02
+ },
+ {
+  "word": "Then",
+  "start": 13.043,
+  "end": 13.183
+ },
+ {
+  "word": "ESPN's",
+  "start": 13.252,
+  "end": 13.717
+ },
+ {
+  "word": "NBA",
+  "start": 13.763,
+  "end": 14.053
+ },
+ {
+  "word": "Today",
+  "start": 14.111,
+  "end": 14.297
+ },
+ {
+  "word": "crew",
+  "start": 14.355,
+  "end": 14.541
+ },
+ {
+  "word": "summed",
+  "start": 14.611,
+  "end": 14.831
+ },
+ {
+  "word": "it",
+  "start": 14.854,
+  "end": 14.901
+ },
+ {
+  "word": "up.",
+  "start": 14.959,
+  "end": 15.168
+ },
+ {
+  "word": "Charles",
+  "start": 15.203,
+  "end": 15.47
+ },
+ {
+  "word": "Barkley",
+  "start": 15.505,
+  "end": 15.737
+ },
+ {
+  "word": "has",
+  "start": 15.76,
+  "end": 15.83
+ },
+ {
+  "word": "forgotten",
+  "start": 15.864,
+  "end": 16.12
+ },
+ {
+  "word": "more",
+  "start": 16.178,
+  "end": 16.329
+ },
+ {
+  "word": "about",
+  "start": 16.352,
+  "end": 16.491
+ },
+ {
+  "word": "basketball",
+  "start": 16.538,
+  "end": 17.06
+ },
+ {
+  "word": "than",
+  "start": 17.084,
+  "end": 17.176
+ },
+ {
+  "word": "just",
+  "start": 17.234,
+  "end": 17.351
+ },
+ {
+  "word": "about",
+  "start": 17.374,
+  "end": 17.513
+ },
+ {
+  "word": "anybody",
+  "start": 17.571,
+  "end": 17.977
+ },
+ {
+  "word": "knows.",
+  "start": 18.036,
+  "end": 18.407
+ },
+ {
+  "word": "Unfortunately,",
+  "start": 18.43,
+  "end": 18.906
+ },
+ {
+  "word": "he's",
+  "start": 18.93,
+  "end": 19.034
+ },
+ {
+  "word": "forgotten",
+  "start": 19.057,
+  "end": 19.301
+ },
+ {
+  "word": "a",
+  "start": 19.336,
+  "end": 19.359
+ },
+ {
+  "word": "lot",
+  "start": 19.417,
+  "end": 19.568
+ },
+ {
+  "word": "about",
+  "start": 19.591,
+  "end": 19.754
+ },
+ {
+  "word": "basketball.",
+  "start": 19.789,
+  "end": 20.508
+ }
+]

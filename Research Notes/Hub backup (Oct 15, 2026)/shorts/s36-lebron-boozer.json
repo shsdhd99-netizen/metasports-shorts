@@ -1,0 +1,43 @@
+{
+  "about": "v3 REBUILT Oct 15 on the PC with sharp footage: rookie LeBron now from the NBA's own rookie-highlights video, Cameron and Carlos Boozer from NBA and ESPN posts, 3 new stat cards. Script and voice A (Alex) are the approved v2. 21.5 s, -14 LUFS, true peak -2.0 dB. No music, no effects.",
+  "covers": [
+    {
+      "assetId": "ef4e2ba8db65b7d29732f8ee2b4ca311",
+      "label": "A (use this)"
+    }
+  ],
+  "name": "How long was LeBron pro before Boozer was born",
+  "num": 36,
+  "pinned": "Carlos Boozer started 75 games next to rookie LeBron. Now his son is the youngest player in the league. Name a longer career link.",
+  "postNote": "NEEDS YOUR EAR and OK. v3 (top tab) replaces the fan-account clip. Honest limits: the three 2007 LeBron shots are from the 2007 EASTERN CONFERENCE FINALS vs Detroit (the line says 'the NBA Finals'; no sharper Finals source was found) and are 3x blown up and soft; the rookie fast break is motion-blurred. If you'd rather not run those 2007 shots under 'Finals', say so and I will cut the line or find another. Old v2 tabs still use the fan clip: do not post those.",
+  "status": "ready",
+  "tags": "lebron james, cameron boozer, carlos boozer, lebron james boozer, cameron boozer born 2007, oldest player in the nba, youngest player in the nba, lebron james 24th season, lebron james 2007 nba finals, lebron james rookie, carlos boozer cavaliers, memphis grizzlies, cameron boozer rookie, cameron boozer number 3 pick, 2026 nba draft, philadelphia 76ers lebron, lebron james sixers, nba facts, nba 2026-27, nba shorts, basketball shorts, nba",
+  "title": "LeBron's Rookie Teammate Now Has A Son In The NBA 😳",
+  "titles": [
+    "LeBron's Rookie Teammate Now Has A Son In The NBA 😳",
+    "LeBron Played With His Dad. Now There's The Son 😳",
+    "Two Generations Of Boozers. One LeBron 😳"
+  ],
+  "versions": [
+    {
+      "assetId": "be921e308ffb2462d204740ffcb75c30",
+      "label": "v3: sharp rookie clips, voice A (Alex), no music",
+      "note": "21.5 s. Footage log: _v3/sources.csv in the #36 folder. QA: all checks pass except an audio-clip false alarm (real peak -2.0 dB)."
+    },
+    {
+      "assetId": "56f483ff2b30358e92f967d38f059ca8",
+      "label": "v2 voice A (fan-account clip: do not post)",
+      "note": "Superseded by v3."
+    },
+    {
+      "assetId": "7f626036a95281e1dbade04660ecb4f3",
+      "label": "v2 voice F (fan-account clip: do not post)",
+      "note": "Superseded by v3."
+    },
+    {
+      "assetId": "2d0adb69c7f0656a74f031f0340f0dbb",
+      "label": "v1 (old script)",
+      "note": "Superseded: the old script failed the new critic (32/45)."
+    }
+  ]
+}

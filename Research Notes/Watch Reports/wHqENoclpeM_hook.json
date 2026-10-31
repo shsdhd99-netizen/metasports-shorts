@@ -1,0 +1,16 @@
+{
+ "cuts": [
+  1.0,
+  2.2
+ ],
+ "first_shot_shows": "Shaq standing in a gym next to a woman who is about to try lifting him.",
+ "first_words": "This UFC legend is about to try lifting Shaq",
+ "text_on_screen_0_3s": "THIS UFC LEGEND",
+ "music_or_beat_audible": true,
+ "cuts_merged": [
+  1.0,
+  2.2
+ ],
+ "shots_in_first_3s": 3,
+ "shots_in_first_5s": 3
+}

@@ -1,0 +1,102 @@
+{
+ "length_s": 8.0,
+ "topic": "A kid plays basketball with his dad in the living room and breaks his dad's ankles.",
+ "lane": "moment",
+ "hook": {
+  "first_words": "unknown",
+  "first_frame": "A kid playing basketball with his dad in a living room, with on-screen text 'Baptised his own FATHER 😭'",
+  "on_screen_text_0_3s": "Baptised his own FATHER 😭",
+  "shots_in_first_3s": 1
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 3.6,
+   "shows": "kid dribbling and crossing over his dad in the living room",
+   "kind": "action"
+  },
+  {
+   "start_s": 3.6,
+   "end_s": 5.0,
+   "shows": "animated character with binoculars looking shocked",
+   "kind": "stock"
+  },
+  {
+   "start_s": 5.0,
+   "end_s": 7.5,
+   "shows": "kid shooting and scoring while dad sits on the floor",
+   "kind": "action"
+  },
+  {
+   "start_s": 7.5,
+   "end_s": 8.0,
+   "shows": "close up of LeBron James looking serious",
+   "kind": "stock"
+  }
+ ],
+ "shot_count": 4,
+ "average_shot_s": 2.0,
+ "longest_shot_s": 3.6,
+ "voice": {
+  "type": "none",
+  "gender": "unknown",
+  "words_per_minute_estimate": 0,
+  "tone": "unknown",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "upbeat rap song",
+  "level_vs_voice": "loud",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": false,
+  "words_per_line": 0,
+  "case": "mixed",
+  "position": "middle",
+  "colours": [],
+  "highlight_style": "none"
+ },
+ "text_overlays": [
+  {
+   "at_s": 0.0,
+   "text": "Baptised his own FATHER 😭"
+  }
+ ],
+ "cards_or_graphics": 0,
+ "framing": "crop",
+ "ending": {
+  "last_words": "unknown",
+  "last_frame": "LeBron James looking serious",
+  "loops_to_start": true,
+  "call_to_action": "none"
+ },
+ "script": "",
+ "retention_tricks": [
+  "memes inserted mid-clip",
+  "zooms",
+  "fast cuts"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": false,
+  "ends_on_payoff": false,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "Relatable and humorous home basketball clip",
+  "Funny meme insertions (binoculars character and LeBron reaction)",
+  "Short and fast-paced editing"
+ ],
+ "_meta": {
+  "source": "e4WSUg0TOUk",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

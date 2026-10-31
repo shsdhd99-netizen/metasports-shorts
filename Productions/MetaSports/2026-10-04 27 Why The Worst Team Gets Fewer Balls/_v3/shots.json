@@ -1,0 +1,138 @@
+[
+ {
+  "clip": "03_balls.mp4",
+  "in": 0.05,
+  "kind": "action",
+  "zoom": 0.12,
+  "why": "A hand drops lottery ball 12 as the NBA takes it.",
+  "start": 0.0
+ },
+ {
+  "clip": "03_balls.mp4",
+  "in": 1.45,
+  "anchor": "a lottery",
+  "kind": "action",
+  "why": "Same drop, later in the clip, on the word lottery.",
+  "start": 0.81
+ },
+ {
+  "clip": "03_balls.mp4",
+  "in": 2.4,
+  "anchor": "from last",
+  "kind": "action",
+  "why": "The ball is still in frame while last place is named.",
+  "start": 1.49
+ },
+ {
+  "clip": "09_stairs.mp4",
+  "in": 0.2,
+  "anchor": "Miss the",
+  "kind": "action",
+  "why": "A player walking into the draft, which is what missing the playoffs leads to.",
+  "start": 2.28
+ },
+ {
+  "clip": "10_tube.mp4",
+  "in": 1.85,
+  "anchor": "the basement",
+  "kind": "action",
+  "why": "The tube of balls is the old basement prize.",
+  "start": 3.22
+ },
+ {
+  "clip": "10_tube.mp4",
+  "in": 0.6,
+  "anchor": "But the",
+  "kind": "action",
+  "why": "Several balls for the three worst records.",
+  "start": 4.65
+ },
+ {
+  "clip": "10_tube.mp4",
+  "in": 2.25,
+  "anchor": "get two",
+  "kind": "action",
+  "why": "Balls in the tube under two, then three.",
+  "start": 6.09
+ },
+ {
+  "clip": "10_tube.mp4",
+  "in": 0.35,
+  "anchor": "The seven",
+  "kind": "action",
+  "why": "The tube under the seven teams that get three.",
+  "start": 6.87
+ },
+ {
+  "clip": "03_balls.mp4",
+  "in": 0.85,
+  "anchor": "Five point",
+  "kind": "action",
+  "why": "One ball for the team that lost the most.",
+  "start": 8.92
+ },
+ {
+  "clip": "10_tube.mp4",
+  "in": 1.15,
+  "anchor": "Eight point",
+  "kind": "action",
+  "why": "More balls for the teams that won a few more.",
+  "start": 11.03
+ },
+ {
+  "clip": "03_balls.mp4",
+  "in": 2.15,
+  "anchor": "The league",
+  "kind": "action",
+  "why": "The single ball the league cut.",
+  "start": 13.03
+ },
+ {
+  "clip": "09_stairs.mp4",
+  "in": 0.1,
+  "anchor": "to push",
+  "kind": "action",
+  "why": "A player moving while the line says the cut is there to make teams win.",
+  "start": 13.96
+ },
+ {
+  "clip": "09_stairs.mp4",
+  "in": 1.5,
+  "anchor": "It starts",
+  "kind": "action",
+  "why": "Same walk, later in the clip, as the 2027 draft starts.",
+  "start": 15.17
+ },
+ {
+  "clip": "06_draft.mp4",
+  "in": 0.4,
+  "anchor": "and runs",
+  "kind": "action",
+  "why": "An unnamed player at the draft table through 2029.",
+  "start": 17.02
+ },
+ {
+  "clip": "05_pose.mp4",
+  "in": 0.3,
+  "anchor": "twenty twenty-six",
+  "kind": "action",
+  "why": "Wizards jersey during the 2026 drawing. His number 4 is not called number one.",
+  "start": 18.62
+ },
+ {
+  "clip": "11_tatum.mp4",
+  "in": 0.0,
+  "anchor": "still gave",
+  "kind": "card",
+  "why": "The card reads WASHINGTON WIZARDS through number one. It is not Tatum.",
+  "start": 19.77
+ },
+ {
+  "clip": "03_balls.mp4",
+  "in": 0.05,
+  "anchor": "Finish last",
+  "kind": "action",
+  "why": "Loop the opening ball under the worse ball.",
+  "start": 21.36
+ }
+]

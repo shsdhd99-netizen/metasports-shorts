@@ -1,0 +1,133 @@
+{
+ "length_s": 24.3,
+ "topic": "Explaining why NBA players don't use the underhand free throw technique despite its proven success.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "They were making fun of this player for shooting his free throws underhand.",
+  "first_frame": "A basketball player standing at the free throw line in an arena with fans in the background, with text overlay 'They were making fun of this player'.",
+  "on_screen_text_0_3s": "They were making fun of this player for shooting his free throws underhand.",
+  "shots_in_first_3s": 2
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 1.2,
+   "shows": "Basketball player at the free throw line about to shoot",
+   "kind": "action"
+  },
+  {
+   "start_s": 1.2,
+   "end_s": 3.2,
+   "shows": "Player shoots underhand free throw in game",
+   "kind": "action"
+  },
+  {
+   "start_s": 3.2,
+   "end_s": 6.1,
+   "shows": "Fans in stands laughing and mocking technique",
+   "kind": "action"
+  },
+  {
+   "start_s": 6.1,
+   "end_s": 8.5,
+   "shows": "Basketball player shooting underhand free throw again in game",
+   "kind": "action"
+  },
+  {
+   "start_s": 8.5,
+   "end_s": 10.1,
+   "shows": "NBA game free throw line shot",
+   "kind": "action"
+  },
+  {
+   "start_s": 10.1,
+   "end_s": 13.0,
+   "shows": "Rick Barry shooting underhand free throw archive footage",
+   "kind": "archive"
+  },
+  {
+   "start_s": 13.0,
+   "end_s": 15.2,
+   "shows": "Wilt Chamberlain shooting free throw",
+   "kind": "archive"
+  },
+  {
+   "start_s": 15.2,
+   "end_s": 17.6,
+   "shows": "Shaquille O'Neal shooting free throw in studio",
+   "kind": "action"
+  },
+  {
+   "start_s": 17.6,
+   "end_s": 20.8,
+   "shows": "Rick Barry underhand free throw archive footage",
+   "kind": "archive"
+  },
+  {
+   "start_s": 20.8,
+   "end_s": 24.3,
+   "shows": "Shaquille O'Neal talking in interview",
+   "kind": "face"
+  }
+ ],
+ "shot_count": 10,
+ "average_shot_s": 2.43,
+ "longest_shot_s": 3.2,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 175,
+  "tone": "engaging and informative",
+  "original_audio_under_voice": true
+ },
+ "music": {
+  "present": true,
+  "style": "upbeat rhythmic documentary beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "sentence",
+  "position": "lower-middle",
+  "colours": "white",
+  "highlight_style": "yellow highlight on active words"
+ },
+ "text_overlays": [],
+ "cards_or_graphics": 0,
+ "framing": "blurred background",
+ "ending": {
+  "last_words": "than look stupid on the court.",
+  "last_frame": "Shaquille O'Neal looking serious during an interview.",
+  "loops_to_start": true,
+  "call_to_action": "none"
+ },
+ "script": "They were making fun of this player for shooting his free throws underhand. Even though he made the free throws, the fans kept mocking his technique, so if the underhand free throw is so successful, why does no one use it in today's NBA? You see, after Rick Barry, the man who popularized it retired, he tried convincing Shaq to use it because he was one of the worst free throw shooters ever. And the underhand free throw helped Rick shoot 91% from the line! But Shaq said he'd rather miss every free throw than look stupid on the court.",
+ "retention_tricks": [
+  "rapid archive footage cuts",
+  "dynamic word highlighting on captions",
+  "question hook"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": false,
+  "ends_on_payoff": true,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "Strong narrative arc contrasting statistical success against social embarrassment",
+  "Quick pacing utilizing diverse archive footage and broadcast clips",
+  "Engaging quote payoff at the end that directly answers the central question"
+ ],
+ "_meta": {
+  "source": "duwsceT6GCs",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

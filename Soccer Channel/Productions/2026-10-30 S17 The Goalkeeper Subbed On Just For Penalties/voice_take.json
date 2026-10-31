@@ -1,0 +1,56 @@
+[
+ {
+  "take": 1,
+  "ok": false,
+  "score": -95.1,
+  "verdict": "REDO",
+  "issues": [
+   " 6.42s  script \"a 100 and 20\" but heard \"120\""
+  ],
+  "wpm": 229,
+  "hnr": 8.5,
+  "jitter": 2.84,
+  "shimmer": 11.14,
+  "dur": 52.5,
+  "pitch_sd": 5.31,
+  "fixed": "fixed by sentence retake"
+ },
+ {
+  "take": 2,
+  "ok": false,
+  "score": -895.8,
+  "verdict": "REDO",
+  "issues": [
+   " 6.42s  script \"a 100 and 20\" but heard \"120\"",
+   "13.76s  script \"cillessen\" but heard \"shillison\"",
+   "16.20s  script \"cillessen\" but heard \"shillison\"",
+   "28.26s  script \"them\" but heard \"him\"",
+   "32.04s  script \"won\" but heard \"1\""
+  ],
+  "wpm": 243,
+  "hnr": 8.0,
+  "jitter": 2.96,
+  "shimmer": 11.44,
+  "dur": 49.39,
+  "pitch_sd": 5.42
+ },
+ {
+  "take": 3,
+  "ok": false,
+  "score": -994.9,
+  "verdict": "REDO",
+  "issues": [
+   " 6.66s  script \"a 100 and 20\" but heard \"120\"",
+   "14.20s  script \"cillessen\" but heard \"kielissen\"",
+   "16.72s  script \"cillessen\" but heard \"silasen\"",
+   "21.58s  script \"krul\" but heard \"(nothing)\"",
+   "32.72s  script \"won\" but heard \"1\""
+  ],
+  "wpm": 237,
+  "hnr": 8.6,
+  "jitter": 2.71,
+  "shimmer": 10.95,
+  "dur": 50.78,
+  "pitch_sd": 5.19
+ }
+]

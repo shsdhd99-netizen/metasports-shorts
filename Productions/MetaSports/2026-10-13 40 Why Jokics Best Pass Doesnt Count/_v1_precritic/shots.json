@@ -1,0 +1,104 @@
+[
+ {
+  "clip": "R_close.mp4",
+  "anchor": "Nikola Jokic's",
+  "kind": "action",
+  "in": 0.25,
+  "zoom": 0.06,
+  "why": "Frame 1 = the object: Jokic with the ball on the baseline; the behind-the-back release lands at ~1.3 s, on 'pass ever'",
+  "start": 0.0
+ },
+ {
+  "clip": "M_close.mp4",
+  "anchor": "doesn't even count",
+  "kind": "face",
+  "in": 0.0,
+  "why": "His face on the paradox line: who threw it",
+  "start": 1.59
+ },
+ {
+  "clip": "M_pass.mp4",
+  "anchor": "No look",
+  "kind": "action",
+  "in": 0.4,
+  "why": "Broadcast angle of the same pass: no look, behind the back",
+  "start": 2.51
+ },
+ {
+  "clip": "R_wide.mp4",
+  "anchor": "Corner to corner",
+  "kind": "action",
+  "in": 0.05,
+  "why": "High replay angle: the ball crosses the whole baseline",
+  "start": 3.81
+ },
+ {
+  "clip": "R_shot.mp4",
+  "anchor": "Cam Johnson",
+  "kind": "action",
+  "in": 0.0,
+  "why": "Proof of the result: the corner three goes in",
+  "start": 4.65
+ },
+ {
+  "clip": "M_close.mp4",
+  "anchor": "A week later",
+  "kind": "face",
+  "in": 1.0,
+  "why": "Jokic, the person whose ranking it is",
+  "start": 6.06
+ },
+ {
+  "clip": "c_quote.png",
+  "anchor": "probably the best",
+  "kind": "card",
+  "why": "His exact words with the source (Denver Post, Oct 12): proves 'probably the best pass of his NBA career'",
+  "start": 7.82
+ },
+ {
+  "clip": "c_assists.png",
+  "anchor": "He has six",
+  "kind": "card",
+  "why": "Proof of 6,080 (StatMuse, checked Oct 13)",
+  "start": 9.6
+ },
+ {
+  "clip": "M_pass.mp4",
+  "anchor": "record book",
+  "kind": "action",
+  "in": 0.0,
+  "why": "Intentional replay: this pass = the would-be 6,081st",
+  "start": 11.28
+ },
+ {
+  "clip": "M_gym.mp4",
+  "anchor": "It happened in",
+  "kind": "action",
+  "in": 0.0,
+  "why": "BUFFALOES lettering on the court: a college gym (CU Events Center, Boulder)",
+  "start": 14.05
+ },
+ {
+  "clip": "K_wide.mp4",
+  "anchor": "And preseason assists",
+  "kind": "action",
+  "in": 0.0,
+  "why": "Third angle of the same preseason game (UTA-DEN broadcast)",
+  "start": 16.25
+ },
+ {
+  "clip": "c_6080.mp4",
+  "anchor": "So his total",
+  "kind": "card",
+  "why": "The answer as one number: still 6,080",
+  "start": 17.92
+ },
+ {
+  "clip": "R_close.mp4",
+  "anchor": "And his best one",
+  "kind": "action",
+  "in": 0.25,
+  "why": "Back to the opening image so the Short loops",
+  "start": 19.81
+ }
+]

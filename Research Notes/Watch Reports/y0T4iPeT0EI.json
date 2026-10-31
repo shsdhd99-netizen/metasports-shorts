@@ -1,0 +1,199 @@
+{
+ "length_s": 78,
+ "topic": "Explaining why Kobe Bryant wore number 8 and 24, and the math trick behind choosing number 8.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "NBA players who never got to wear the jersey number they actually wanted!",
+  "first_frame": "Basketball game footage above, creator speaking below with a microphone in a room with blue neon light.",
+  "on_screen_text_0_3s": "NBA players who never got to wear the jersey number they actually wanted!",
+  "shots_in_first_3s": 3
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 3.75,
+   "shows": "Basketball game footage with Kobe Bryant in action, split screen with creator talking",
+   "kind": "action"
+  },
+  {
+   "start_s": 3.75,
+   "end_s": 6.0,
+   "shows": "Kobe Bryant in high school basketball uniform celebrating",
+   "kind": "archive"
+  },
+  {
+   "start_s": 6.0,
+   "end_s": 7.75,
+   "shows": "Kobe Bryant in Lower Merion high school jersey number 24",
+   "kind": "archive"
+  },
+  {
+   "start_s": 7.75,
+   "end_s": 10.0,
+   "shows": "Kobe Bryant in high school jersey number 33",
+   "kind": "archive"
+  },
+  {
+   "start_s": 10.0,
+   "end_s": 11.75,
+   "shows": "Young Kobe with his dad Joe Jellybean Bryant",
+   "kind": "archive"
+  },
+  {
+   "start_s": 11.75,
+   "end_s": 13.75,
+   "shows": "High school cheerleaders and basketball court",
+   "kind": "archive"
+  },
+  {
+   "start_s": 13.75,
+   "end_s": 17.0,
+   "shows": "Young Kobe Bryant drafted into the NBA holding a Hornets cap",
+   "kind": "archive"
+  },
+  {
+   "start_s": 17.0,
+   "end_s": 19.0,
+   "shows": "Kobe Bryant being interviewed on draft night",
+   "kind": "archive"
+  },
+  {
+   "start_s": 19.0,
+   "end_s": 23.0,
+   "shows": "Kobe Bryant smiling in Lakers press conference",
+   "kind": "archive"
+  },
+  {
+   "start_s": 23.0,
+   "end_s": 28.75,
+   "shows": "Kareem Abdul-Jabbar jersey banner and retirement ceremony",
+   "kind": "archive"
+  },
+  {
+   "start_s": 28.75,
+   "end_s": 33.75,
+   "shows": "Kobe Bryant holding Lakers jersey in press conference",
+   "kind": "archive"
+  },
+  {
+   "start_s": 33.75,
+   "end_s": 37.5,
+   "shows": "Fred Roberts playing for the Lakers wearing number 31",
+   "kind": "archive"
+  },
+  {
+   "start_s": 37.5,
+   "end_s": 44.0,
+   "shows": "Fred Roberts in Lakers uniform, then Kobe holding jersey",
+   "kind": "archive"
+  },
+  {
+   "start_s": 44.0,
+   "end_s": 53.0,
+   "shows": "Kobe Bryant with Vanessa and Lakers staff at press conference",
+   "kind": "archive"
+  },
+  {
+   "start_s": 53.0,
+   "end_s": 57.25,
+   "shows": "Old VHS footage of Kobe playing at Adidas ABCD Camp",
+   "kind": "archive"
+  },
+  {
+   "start_s": 57.25,
+   "end_s": 59.5,
+   "shows": "Kobe Bryant wearing Adidas camp jersey 143",
+   "kind": "archive"
+  },
+  {
+   "start_s": 59.5,
+   "end_s": 63.0,
+   "shows": "Math equation graphic: 1 + 4 + 3 = 8",
+   "kind": "explainer"
+  },
+  {
+   "start_s": 63.0,
+   "end_s": 66.75,
+   "shows": "Kobe Bryant with youth team in Italy",
+   "kind": "archive"
+  },
+  {
+   "start_s": 66.75,
+   "end_s": 72.0,
+   "shows": "Kobe Bryant in Lakers jersey number 8 playing games",
+   "kind": "action"
+  },
+  {
+   "start_s": 72.0,
+   "end_s": 76.5,
+   "shows": "Kobe Bryant wearing number 24 on the Lakers",
+   "kind": "action"
+  },
+  {
+   "start_s": 76.5,
+   "end_s": 78.5,
+   "shows": "Staples Center rafters showing retired numbers 8 and 24",
+   "kind": "archive"
+  }
+ ],
+ "shot_count": 21,
+ "average_shot_s": 3.74,
+ "longest_shot_s": 5.75,
+ "voice": {
+  "type": "human",
+  "gender": "male",
+  "words_per_minute_estimate": 165,
+  "tone": "engaging, storytelling",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "suspenseful documentary background beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 2,
+  "case": "sentence",
+  "position": "middle",
+  "colours": "white and yellow",
+  "highlight_style": "word by word color change"
+ },
+ "text_overlays": [],
+ "cards_or_graphics": 1,
+ "framing": "zoom",
+ "ending": {
+  "last_words": "the Lakers eventually retired both of them.",
+  "last_frame": "Staples Center arena rafters showing retired jerseys 8, Hearn, and 24.",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "NBA players who never got to wear the jersey number they actually wanted! When Kobe Bryant was a freshman at Lower Merion High School, he wore number twenty-four, then switched to thirty-three as a tribute to his dad, Joe “Jellybean” Bryant, who wore that same number back in high school. So when the seventeen-year-old got traded to the Los Angeles Lakers on draft night in nineteen ninety-six, he wanted to bring his dad's number with him. But there was a problem he didn't see coming. Thirty-three was already hanging in the rafters because the Lakers had retired it six years earlier for Kareem Abdul-Jabbar. So okay, Kobe figures he'll just go back to twenty-four, the number he started with in high school, except a veteran named Fred Roberts was already wearing it on the roster. The Lakers released Roberts just five days after Kobe's first press conference, which means he barely missed his chance at getting twenty-four. Both jerseys that meant something to him were completely off the table, and a seventeen-year-old rookie had nothing to put on his back. But that's when Kobe did something only Kobe would do. He thought back to the Adidas ABCD Camp where he played as a high school star and remembered his jersey number was one forty-three. He added up the digits, one plus four plus three equals eight, which also happened to be the number he wore growing up in Italy. And that piece of math became one of the most iconic numbers in basketball history. Kobe wore number eight for ten straight seasons before he finally switched back to twenty-four, the number he wanted all along, and the Lakers eventually retired both of them.",
+ "retention_tricks": [
+  "split screen with dynamic archival photo/video footage",
+  "rapid cuts matching narration pace",
+  "math equation graphic visualization"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "Fascinating untold origin story behind iconic athlete numbers",
+  "Fast-paced archival visual evidence supporting every detail",
+  "Clever mathematical twist revealed midway through the story"
+ ],
+ "_meta": {
+  "source": "y0T4iPeT0EI",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

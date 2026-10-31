@@ -1,0 +1,1 @@
+2026-10-05 29 Why Do Big Men Never   REDO HNR   7.7 jit 3.11 shim 10.53 jumps/s 0.00 clicks/min 490.5 hf%  4.31 f0 185 dur 23.12  HNR 7.7 dB (noisy/robotic); jitter 3.11% (shaky); shimmer 10.53% (uneven loudness); 490.5 clicks/min

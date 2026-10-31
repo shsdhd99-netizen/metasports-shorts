@@ -1,0 +1,177 @@
+[
+ {
+  "clip": "02_jside.mp4",
+  "kind": "action",
+  "zoom": 0.12,
+  "why": "Jokic, Nuggets 15, ball in his hands",
+  "start": 0.0
+ },
+ {
+  "clip": "12_wface.mp4",
+  "in": 0.7,
+  "anchor": "Russell",
+  "kind": "action",
+  "why": "Westbrook face, OKC 0, while his name is spoken",
+  "start": 0.65
+ },
+ {
+  "clip": "04_wopen.mp4",
+  "in": 2.55,
+  "anchor": "two",
+  "kind": "action",
+  "why": "red 0, WESTBROOK readable, whole 209 card, ends before the clip loops",
+  "start": 1.22
+ },
+ {
+  "clip": "04_wopen.mp4",
+  "in": 1.88,
+  "anchor": "regular-season",
+  "kind": "action",
+  "why": "same red 0 back, different in, stays inside the clip",
+  "start": 1.8
+ },
+ {
+  "clip": "04_wopen.mp4",
+  "in": 2.18,
+  "anchor": "Westbrook just",
+  "kind": "action",
+  "why": "WESTBROOK 0 through the retirement line",
+  "start": 2.92
+ },
+ {
+  "clip": "03_jpost.mp4",
+  "in": 0.12,
+  "anchor": "Nikola",
+  "kind": "action",
+  "why": "Jokic in the post, not the hallway",
+  "start": 3.89
+ },
+ {
+  "clip": "01_jhook.mp4",
+  "in": 0.25,
+  "anchor": "at one",
+  "kind": "action",
+  "why": "JOKIC 15 readable under the whole 198 line",
+  "start": 4.62
+ },
+ {
+  "clip": "08_jnug.mp4",
+  "in": 0.08,
+  "anchor": "Eleven",
+  "kind": "action",
+  "why": "JOKIC 15, ends before the coach",
+  "start": 5.96
+ },
+ {
+  "clip": "09_jast.mp4",
+  "in": 0.15,
+  "anchor": "But he",
+  "kind": "action",
+  "why": "Jokic, Denver 15",
+  "start": 6.59
+ },
+ {
+  "clip": "10_jwalk.mp4",
+  "in": 0.3,
+  "anchor": "in just",
+  "kind": "action",
+  "why": "Jokic walking, Denver 15",
+  "start": 8.27
+ },
+ {
+  "clip": "01_jhook.mp4",
+  "in": 1.85,
+  "anchor": "About one",
+  "kind": "action",
+  "why": "Jokic, Nuggets 15, ball in his hands",
+  "start": 10.17
+ },
+ {
+  "clip": "16_wdunk.mp4",
+  "in": 0.2,
+  "anchor": "Westbrook once",
+  "kind": "action",
+  "why": "red 0 dunk, ends before the mic",
+  "start": 11.29
+ },
+ {
+  "clip": "04_wopen.mp4",
+  "in": 2.05,
+  "anchor": "in 2016-17",
+  "kind": "action",
+  "why": "WESTBROOK 0 on the forty-two season line",
+  "start": 12.37
+ },
+ {
+  "clip": "04_wopen.mp4",
+  "in": 1.92,
+  "anchor": "still the",
+  "kind": "action",
+  "why": "same back, different in, record line",
+  "start": 13.39
+ },
+ {
+  "clip": "04_wopen.mp4",
+  "in": 2.12,
+  "anchor": "And only",
+  "kind": "action",
+  "why": "WESTBROOK 0, not the Wizards 4",
+  "start": 14.45
+ },
+ {
+  "clip": "13_oscar.mp4",
+  "anchor": "Oscar",
+  "kind": "action",
+  "why": "Oscar Robertson at the mic",
+  "start": 15.46
+ },
+ {
+  "clip": "03_jpost.mp4",
+  "in": 0.18,
+  "anchor": "Jokic even",
+  "kind": "action",
+  "why": "Jokic in the post, ends before the bench",
+  "start": 17.36
+ },
+ {
+  "clip": "02_jside.mp4",
+  "in": 0.3,
+  "anchor": "fifty-six",
+  "kind": "action",
+  "why": "Jokic, Nuggets 15, ball in his hands",
+  "start": 18.04
+ },
+ {
+  "clip": "01_jhook.mp4",
+  "in": 0.4,
+  "anchor": "sixteen",
+  "kind": "action",
+  "why": "Jokic 15 through the assist line",
+  "start": 18.76
+ },
+ {
+  "clip": "01_jhook.mp4",
+  "in": 0.9,
+  "anchor": "on Christmas",
+  "kind": "action",
+  "why": "Jokic 15, different in from the shot before it",
+  "start": 20.08
+ },
+ {
+  "clip": "01_jhook.mp4",
+  "in": 0.15,
+  "anchor": "At that",
+  "kind": "action",
+  "why": "Jokic with the ball on the payoff setup",
+  "start": 22.31
+ },
+ {
+  "clip": "02_jside.mp4",
+  "in": 0.2,
+  "anchor": "twenty-one",
+  "kind": "action",
+  "zoom": 0.1,
+  "why": "loop to the first Jokic shot, ends before the floor",
+  "start": 23.68
+ }
+]

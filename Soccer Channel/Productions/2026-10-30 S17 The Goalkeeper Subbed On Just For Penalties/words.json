@@ -1,0 +1,997 @@
+[
+ {
+  "word": "Goalkeepers",
+  "start": 0.0,
+  "end": 0.453
+ },
+ {
+  "word": "who",
+  "start": 0.476,
+  "end": 0.546
+ },
+ {
+  "word": "were",
+  "start": 0.58,
+  "end": 0.673
+ },
+ {
+  "word": "subbed",
+  "start": 0.72,
+  "end": 0.987
+ },
+ {
+  "word": "on",
+  "start": 1.045,
+  "end": 1.161
+ },
+ {
+  "word": "just",
+  "start": 1.254,
+  "end": 1.428
+ },
+ {
+  "word": "for",
+  "start": 1.463,
+  "end": 1.533
+ },
+ {
+  "word": "the",
+  "start": 1.579,
+  "end": 1.649
+ },
+ {
+  "word": "penalties.",
+  "start": 1.672,
+  "end": 2.322
+ },
+ {
+  "word": "Back",
+  "start": 2.357,
+  "end": 2.554
+ },
+ {
+  "word": "in",
+  "start": 2.601,
+  "end": 2.659
+ },
+ {
+  "word": "2014,",
+  "start": 2.694,
+  "end": 3.46
+ },
+ {
+  "word": "the",
+  "start": 3.483,
+  "end": 3.553
+ },
+ {
+  "word": "Netherlands",
+  "start": 3.599,
+  "end": 3.936
+ },
+ {
+  "word": "played",
+  "start": 3.959,
+  "end": 4.11
+ },
+ {
+  "word": "Costa",
+  "start": 4.145,
+  "end": 4.423
+ },
+ {
+  "word": "Rica",
+  "start": 4.481,
+  "end": 4.795
+ },
+ {
+  "word": "in",
+  "start": 4.853,
+  "end": 4.899
+ },
+ {
+  "word": "a",
+  "start": 4.946,
+  "end": 4.969
+ },
+ {
+  "word": "World",
+  "start": 5.062,
+  "end": 5.317
+ },
+ {
+  "word": "Cup",
+  "start": 5.375,
+  "end": 5.561
+ },
+ {
+  "word": "quarter-final.",
+  "start": 5.619,
+  "end": 6.335
+ },
+ {
+  "word": "A",
+  "start": 6.34,
+  "end": 6.421
+ },
+ {
+  "word": "hundred",
+  "start": 6.514,
+  "end": 6.735
+ },
+ {
+  "word": "and",
+  "start": 6.758,
+  "end": 6.828
+ },
+ {
+  "word": "twenty",
+  "start": 6.862,
+  "end": 7.048
+ },
+ {
+  "word": "minutes,",
+  "start": 7.083,
+  "end": 7.443
+ },
+ {
+  "word": "nil-nil.",
+  "start": 7.536,
+  "end": 8.198
+ },
+ {
+  "word": "Then,",
+  "start": 8.201,
+  "end": 8.527
+ },
+ {
+  "word": "in",
+  "start": 8.55,
+  "end": 8.631
+ },
+ {
+  "word": "the",
+  "start": 8.654,
+  "end": 8.724
+ },
+ {
+  "word": "final",
+  "start": 8.759,
+  "end": 8.968
+ },
+ {
+  "word": "minute",
+  "start": 8.991,
+  "end": 9.153
+ },
+ {
+  "word": "of",
+  "start": 9.177,
+  "end": 9.223
+ },
+ {
+  "word": "extra",
+  "start": 9.281,
+  "end": 9.49
+ },
+ {
+  "word": "time,",
+  "start": 9.537,
+  "end": 9.873
+ },
+ {
+  "word": "Louis",
+  "start": 9.92,
+  "end": 10.117
+ },
+ {
+  "word": "van",
+  "start": 10.14,
+  "end": 10.256
+ },
+ {
+  "word": "Gaal",
+  "start": 10.314,
+  "end": 10.523
+ },
+ {
+  "word": "did",
+  "start": 10.57,
+  "end": 10.651
+ },
+ {
+  "word": "something",
+  "start": 10.686,
+  "end": 10.895
+ },
+ {
+  "word": "that",
+  "start": 10.918,
+  "end": 11.011
+ },
+ {
+  "word": "stunned",
+  "start": 11.081,
+  "end": 11.371
+ },
+ {
+  "word": "the",
+  "start": 11.394,
+  "end": 11.464
+ },
+ {
+  "word": "whole",
+  "start": 11.51,
+  "end": 11.742
+ },
+ {
+  "word": "stadium.",
+  "start": 11.766,
+  "end": 12.207
+ },
+ {
+  "word": "He",
+  "start": 12.23,
+  "end": 12.276
+ },
+ {
+  "word": "took",
+  "start": 12.323,
+  "end": 12.451
+ },
+ {
+  "word": "off",
+  "start": 12.485,
+  "end": 12.567
+ },
+ {
+  "word": "his",
+  "start": 12.602,
+  "end": 12.671
+ },
+ {
+  "word": "goalkeeper,",
+  "start": 12.718,
+  "end": 13.252
+ },
+ {
+  "word": "Jasper",
+  "start": 13.298,
+  "end": 13.67
+ },
+ {
+  "word": "Cillessen,",
+  "start": 13.716,
+  "end": 14.215
+ },
+ {
+  "word": "and",
+  "start": 14.239,
+  "end": 14.331
+ },
+ {
+  "word": "brought",
+  "start": 14.366,
+  "end": 14.552
+ },
+ {
+  "word": "on",
+  "start": 14.587,
+  "end": 14.657
+ },
+ {
+  "word": "Tim",
+  "start": 14.703,
+  "end": 14.854
+ },
+ {
+  "word": "Krul,",
+  "start": 14.924,
+  "end": 15.272
+ },
+ {
+  "word": "just",
+  "start": 15.33,
+  "end": 15.492
+ },
+ {
+  "word": "for",
+  "start": 15.516,
+  "end": 15.585
+ },
+ {
+  "word": "the",
+  "start": 15.62,
+  "end": 15.69
+ },
+ {
+  "word": "shootout.",
+  "start": 15.713,
+  "end": 16.119
+ },
+ {
+  "word": "Cillessen",
+  "start": 16.147,
+  "end": 16.53
+ },
+ {
+  "word": "hadn't",
+  "start": 16.623,
+  "end": 16.925
+ },
+ {
+  "word": "been",
+  "start": 16.959,
+  "end": 17.087
+ },
+ {
+  "word": "told.",
+  "start": 17.122,
+  "end": 17.505
+ },
+ {
+  "word": "We",
+  "start": 17.528,
+  "end": 17.61
+ },
+ {
+  "word": "said",
+  "start": 17.656,
+  "end": 17.795
+ },
+ {
+  "word": "nothing",
+  "start": 17.83,
+  "end": 18.027
+ },
+ {
+  "word": "to",
+  "start": 18.051,
+  "end": 18.097
+ },
+ {
+  "word": "Jasper,",
+  "start": 18.167,
+  "end": 18.701
+ },
+ {
+  "word": "Van",
+  "start": 18.759,
+  "end": 18.921
+ },
+ {
+  "word": "Gaal",
+  "start": 18.968,
+  "end": 19.142
+ },
+ {
+  "word": "admitted.",
+  "start": 19.188,
+  "end": 19.552
+ },
+ {
+  "word": "And",
+  "start": 19.552,
+  "end": 19.651
+ },
+ {
+  "word": "here's",
+  "start": 19.697,
+  "end": 19.848
+ },
+ {
+  "word": "the",
+  "start": 19.871,
+  "end": 19.941
+ },
+ {
+  "word": "strange",
+  "start": 19.976,
+  "end": 20.231
+ },
+ {
+  "word": "part.",
+  "start": 20.266,
+  "end": 20.525
+ },
+ {
+  "word": "At",
+  "start": 20.543,
+  "end": 20.659
+ },
+ {
+  "word": "Newcastle,",
+  "start": 20.728,
+  "end": 21.276
+ },
+ {
+  "word": "Krul",
+  "start": 21.296,
+  "end": 21.586
+ },
+ {
+  "word": "had",
+  "start": 21.632,
+  "end": 21.737
+ },
+ {
+  "word": "saved",
+  "start": 21.806,
+  "end": 22.085
+ },
+ {
+  "word": "just",
+  "start": 22.108,
+  "end": 22.236
+ },
+ {
+  "word": "two",
+  "start": 22.271,
+  "end": 22.445
+ },
+ {
+  "word": "of",
+  "start": 22.503,
+  "end": 22.549
+ },
+ {
+  "word": "twenty",
+  "start": 22.596,
+  "end": 22.793
+ },
+ {
+  "word": "penalties.",
+  "start": 22.851,
+  "end": 23.47
+ },
+ {
+  "word": "But",
+  "start": 23.475,
+  "end": 23.568
+ },
+ {
+  "word": "Van",
+  "start": 23.603,
+  "end": 23.777
+ },
+ {
+  "word": "Gaal",
+  "start": 23.835,
+  "end": 24.067
+ },
+ {
+  "word": "said",
+  "start": 24.148,
+  "end": 24.323
+ },
+ {
+  "word": "he",
+  "start": 24.357,
+  "end": 24.404
+ },
+ {
+  "word": "had",
+  "start": 24.462,
+  "end": 24.555
+ },
+ {
+  "word": "a",
+  "start": 24.578,
+  "end": 24.601
+ },
+ {
+  "word": "better",
+  "start": 24.671,
+  "end": 24.88
+ },
+ {
+  "word": "reach,",
+  "start": 24.973,
+  "end": 25.309
+ },
+ {
+  "word": "and",
+  "start": 25.333,
+  "end": 25.426
+ },
+ {
+  "word": "they",
+  "start": 25.46,
+  "end": 25.553
+ },
+ {
+  "word": "had",
+  "start": 25.577,
+  "end": 25.646
+ },
+ {
+  "word": "studied",
+  "start": 25.681,
+  "end": 25.971
+ },
+ {
+  "word": "every",
+  "start": 26.053,
+  "end": 26.273
+ },
+ {
+  "word": "Costa",
+  "start": 26.32,
+  "end": 26.54
+ },
+ {
+  "word": "Rica",
+  "start": 26.587,
+  "end": 26.784
+ },
+ {
+  "word": "taker.",
+  "start": 26.842,
+  "end": 27.248
+ },
+ {
+  "word": "So",
+  "start": 27.306,
+  "end": 27.446
+ },
+ {
+  "word": "Krul",
+  "start": 27.504,
+  "end": 27.736
+ },
+ {
+  "word": "walked",
+  "start": 27.782,
+  "end": 28.003
+ },
+ {
+  "word": "up",
+  "start": 28.026,
+  "end": 28.084
+ },
+ {
+  "word": "to",
+  "start": 28.119,
+  "end": 28.166
+ },
+ {
+  "word": "each",
+  "start": 28.224,
+  "end": 28.363
+ },
+ {
+  "word": "one",
+  "start": 28.421,
+  "end": 28.653
+ },
+ {
+  "word": "and",
+  "start": 28.676,
+  "end": 28.792
+ },
+ {
+  "word": "told",
+  "start": 28.851,
+  "end": 29.059
+ },
+ {
+  "word": "them",
+  "start": 29.094,
+  "end": 29.21
+ },
+ {
+  "word": "he",
+  "start": 29.268,
+  "end": 29.327
+ },
+ {
+  "word": "knew",
+  "start": 29.408,
+  "end": 29.535
+ },
+ {
+  "word": "where",
+  "start": 29.558,
+  "end": 29.675
+ },
+ {
+  "word": "they",
+  "start": 29.698,
+  "end": 29.791
+ },
+ {
+  "word": "were",
+  "start": 29.814,
+  "end": 29.907
+ },
+ {
+  "word": "going.",
+  "start": 29.942,
+  "end": 30.313
+ },
+ {
+  "word": "He",
+  "start": 30.336,
+  "end": 30.406
+ },
+ {
+  "word": "saved",
+  "start": 30.487,
+  "end": 30.743
+ },
+ {
+  "word": "two,",
+  "start": 30.777,
+  "end": 31.103
+ },
+ {
+  "word": "diving",
+  "start": 31.161,
+  "end": 31.451
+ },
+ {
+  "word": "low",
+  "start": 31.532,
+  "end": 31.741
+ },
+ {
+  "word": "to",
+  "start": 31.799,
+  "end": 31.846
+ },
+ {
+  "word": "his",
+  "start": 31.915,
+  "end": 31.985
+ },
+ {
+  "word": "left",
+  "start": 32.043,
+  "end": 32.217
+ },
+ {
+  "word": "both",
+  "start": 32.252,
+  "end": 32.426
+ },
+ {
+  "word": "times.",
+  "start": 32.461,
+  "end": 32.902
+ },
+ {
+  "word": "The",
+  "start": 32.925,
+  "end": 33.0
+ },
+ {
+  "word": "Netherlands",
+  "start": 33.046,
+  "end": 33.418
+ },
+ {
+  "word": "won",
+  "start": 33.464,
+  "end": 33.627
+ },
+ {
+  "word": "four-three,",
+  "start": 33.72,
+  "end": 34.335
+ },
+ {
+  "word": "and",
+  "start": 34.358,
+  "end": 34.474
+ },
+ {
+  "word": "Krul",
+  "start": 34.544,
+  "end": 34.776
+ },
+ {
+  "word": "was",
+  "start": 34.823,
+  "end": 34.915
+ },
+ {
+  "word": "a",
+  "start": 34.95,
+  "end": 34.974
+ },
+ {
+  "word": "national",
+  "start": 35.043,
+  "end": 35.357
+ },
+ {
+  "word": "hero.",
+  "start": 35.426,
+  "end": 35.798
+ },
+ {
+  "word": "Four",
+  "start": 35.833,
+  "end": 35.984
+ },
+ {
+  "word": "days",
+  "start": 36.018,
+  "end": 36.169
+ },
+ {
+  "word": "later,",
+  "start": 36.216,
+  "end": 36.494
+ },
+ {
+  "word": "they",
+  "start": 36.518,
+  "end": 36.622
+ },
+ {
+  "word": "met",
+  "start": 36.669,
+  "end": 36.773
+ },
+ {
+  "word": "Argentina",
+  "start": 36.82,
+  "end": 37.388
+ },
+ {
+  "word": "in",
+  "start": 37.435,
+  "end": 37.481
+ },
+ {
+  "word": "the",
+  "start": 37.516,
+  "end": 37.586
+ },
+ {
+  "word": "semi-final.",
+  "start": 37.609,
+  "end": 38.224
+ },
+ {
+  "word": "Nil-nil",
+  "start": 38.259,
+  "end": 38.689
+ },
+ {
+  "word": "again.",
+  "start": 38.747,
+  "end": 39.118
+ },
+ {
+  "word": "Penalties",
+  "start": 39.153,
+  "end": 39.641
+ },
+ {
+  "word": "again.",
+  "start": 39.687,
+  "end": 40.082
+ },
+ {
+  "word": "But",
+  "start": 40.117,
+  "end": 40.21
+ },
+ {
+  "word": "this",
+  "start": 40.244,
+  "end": 40.407
+ },
+ {
+  "word": "time,",
+  "start": 40.465,
+  "end": 40.802
+ },
+ {
+  "word": "Van",
+  "start": 40.825,
+  "end": 40.976
+ },
+ {
+  "word": "Gaal",
+  "start": 41.022,
+  "end": 41.231
+ },
+ {
+  "word": "had",
+  "start": 41.278,
+  "end": 41.347
+ },
+ {
+  "word": "already",
+  "start": 41.394,
+  "end": 41.603
+ },
+ {
+  "word": "used",
+  "start": 41.673,
+  "end": 41.893
+ },
+ {
+  "word": "all",
+  "start": 41.951,
+  "end": 42.125
+ },
+ {
+  "word": "three",
+  "start": 42.195,
+  "end": 42.427
+ },
+ {
+  "word": "of",
+  "start": 42.45,
+  "end": 42.497
+ },
+ {
+  "word": "his",
+  "start": 42.543,
+  "end": 42.613
+ },
+ {
+  "word": "substitutes.",
+  "start": 42.636,
+  "end": 43.31
+ },
+ {
+  "word": "He",
+  "start": 43.333,
+  "end": 43.379
+ },
+ {
+  "word": "couldn't",
+  "start": 43.414,
+  "end": 43.623
+ },
+ {
+  "word": "bring",
+  "start": 43.646,
+  "end": 43.786
+ },
+ {
+  "word": "Krul",
+  "start": 43.844,
+  "end": 44.099
+ },
+ {
+  "word": "on.",
+  "start": 44.192,
+  "end": 44.447
+ },
+ {
+  "word": "Cillessen",
+  "start": 44.471,
+  "end": 44.854
+ },
+ {
+  "word": "stayed",
+  "start": 44.947,
+  "end": 45.237
+ },
+ {
+  "word": "in",
+  "start": 45.272,
+  "end": 45.318
+ },
+ {
+  "word": "goal,",
+  "start": 45.388,
+  "end": 45.678
+ },
+ {
+  "word": "and",
+  "start": 45.702,
+  "end": 45.783
+ },
+ {
+  "word": "didn't",
+  "start": 45.818,
+  "end": 45.98
+ },
+ {
+  "word": "save",
+  "start": 46.015,
+  "end": 46.224
+ },
+ {
+  "word": "a",
+  "start": 46.247,
+  "end": 46.271
+ },
+ {
+  "word": "single",
+  "start": 46.363,
+  "end": 46.642
+ },
+ {
+  "word": "penalty.",
+  "start": 46.665,
+  "end": 47.13
+ },
+ {
+  "word": "Argentina",
+  "start": 47.153,
+  "end": 47.768
+ },
+ {
+  "word": "won.",
+  "start": 47.849,
+  "end": 48.279
+ },
+ {
+  "word": "The",
+  "start": 48.302,
+  "end": 48.384
+ },
+ {
+  "word": "one",
+  "start": 48.442,
+  "end": 48.581
+ },
+ {
+  "word": "time",
+  "start": 48.604,
+  "end": 48.778
+ },
+ {
+  "word": "Van",
+  "start": 48.801,
+  "end": 48.929
+ },
+ {
+  "word": "Gaal",
+  "start": 48.976,
+  "end": 49.196
+ },
+ {
+  "word": "needed",
+  "start": 49.254,
+  "end": 49.463
+ },
+ {
+  "word": "his",
+  "start": 49.498,
+  "end": 49.568
+ },
+ {
+  "word": "trick",
+  "start": 49.614,
+  "end": 49.765
+ },
+ {
+  "word": "again,",
+  "start": 49.8,
+  "end": 50.171
+ },
+ {
+  "word": "he",
+  "start": 50.195,
+  "end": 50.241
+ },
+ {
+  "word": "had",
+  "start": 50.288,
+  "end": 50.38
+ },
+ {
+  "word": "no",
+  "start": 50.462,
+  "end": 50.601
+ },
+ {
+  "word": "substitutes",
+  "start": 50.682,
+  "end": 51.182
+ },
+ {
+  "word": "left.",
+  "start": 51.228,
+  "end": 51.626
+ }
+]

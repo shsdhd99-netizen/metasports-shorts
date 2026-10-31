@@ -1,0 +1,268 @@
+{
+ "length_s": 65.17,
+ "topic": "The story of how Lionel Messi ended Argentina's 28-year trophy drought by winning the 2021 Copa América and 2022 World Cup.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "Argentina were once the kings of South America.",
+  "first_frame": "A footballer on pitch being tackled.",
+  "on_screen_text_0_3s": "Players who brought their country BACK TO GLORY",
+  "shots_in_first_3s": 2
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 1.93,
+   "shows": "Football match action tackle on the pitch",
+   "kind": "action"
+  },
+  {
+   "start_s": 1.93,
+   "end_s": 4.13,
+   "shows": "Gabriel Batistuta celebrating with the Copa América trophy",
+   "kind": "still"
+  },
+  {
+   "start_s": 4.13,
+   "end_s": 5.47,
+   "shows": "Retro TV frame with 1993 Copa América match clip",
+   "kind": "action"
+  },
+  {
+   "start_s": 5.47,
+   "end_s": 8.43,
+   "shows": "Gabriel Batistuta cutout graphic",
+   "kind": "still"
+  },
+  {
+   "start_s": 8.43,
+   "end_s": 10.53,
+   "shows": "Retro TV showing Batistuta celebrating a goal",
+   "kind": "action"
+  },
+  {
+   "start_s": 10.53,
+   "end_s": 11.97,
+   "shows": "1993 Argentina squad celebrating victory",
+   "kind": "action"
+  },
+  {
+   "start_s": 11.97,
+   "end_s": 14.07,
+   "shows": "Goalkeeper Goycochea holding trophy above his head",
+   "kind": "action"
+  },
+  {
+   "start_s": 14.07,
+   "end_s": 17.07,
+   "shows": "Coach and players hugging after trophy presentation",
+   "kind": "action"
+  },
+  {
+   "start_s": 17.07,
+   "end_s": 20.0,
+   "shows": "Batistuta looking disappointed on pitch",
+   "kind": "action"
+  },
+  {
+   "start_s": 20.0,
+   "end_s": 21.8,
+   "shows": "Young Lionel Messi sitting on bench",
+   "kind": "face"
+  },
+  {
+   "start_s": 21.8,
+   "end_s": 23.63,
+   "shows": "Portrait graphic of young Lionel Messi with text overlay",
+   "kind": "face"
+  },
+  {
+   "start_s": 23.63,
+   "end_s": 27.7,
+   "shows": "Young Messi running on pitch in Argentina jersey",
+   "kind": "action"
+  },
+  {
+   "start_s": 27.7,
+   "end_s": 29.93,
+   "shows": "Dejected Messi walking past World Cup trophy in 2014",
+   "kind": "face"
+  },
+  {
+   "start_s": 29.93,
+   "end_s": 32.97,
+   "shows": "Messi holding head in hands with LOST EVERY ONE graphic",
+   "kind": "still"
+  },
+  {
+   "start_s": 32.97,
+   "end_s": 35.13,
+   "shows": "Messi back view looking at scoreboard",
+   "kind": "action"
+  },
+  {
+   "start_s": 35.13,
+   "end_s": 37.77,
+   "shows": "Chile players celebrating as Messi stands heartbroken",
+   "kind": "action"
+  },
+  {
+   "start_s": 37.77,
+   "end_s": 40.5,
+   "shows": "Close-up shot of solemn Messi face",
+   "kind": "face"
+  },
+  {
+   "start_s": 40.5,
+   "end_s": 42.13,
+   "shows": "Rodrigo De Paul with arm around Messi",
+   "kind": "face"
+  },
+  {
+   "start_s": 42.13,
+   "end_s": 44.43,
+   "shows": "Emotional Messi face close up",
+   "kind": "face"
+  },
+  {
+   "start_s": 44.43,
+   "end_s": 45.73,
+   "shows": "Close-up of Copa América trophy",
+   "kind": "still"
+  },
+  {
+   "start_s": 45.73,
+   "end_s": 48.8,
+   "shows": "Argentina AFA vs Brazil CBF crest graphics",
+   "kind": "other"
+  },
+  {
+   "start_s": 48.8,
+   "end_s": 49.97,
+   "shows": "Neymar walking on pitch during 2021 final",
+   "kind": "action"
+  },
+  {
+   "start_s": 49.97,
+   "end_s": 52.93,
+   "shows": "Ángel Di María cutout graphic over stadium background",
+   "kind": "still"
+  },
+  {
+   "start_s": 52.93,
+   "end_s": 54.1,
+   "shows": "Di María running and celebrating goal",
+   "kind": "action"
+  },
+  {
+   "start_s": 54.1,
+   "end_s": 55.53,
+   "shows": "Argentina team hugging in celebration",
+   "kind": "action"
+  },
+  {
+   "start_s": 55.53,
+   "end_s": 56.47,
+   "shows": "Argentina fans celebrating in stand",
+   "kind": "action"
+  },
+  {
+   "start_s": 56.47,
+   "end_s": 58.13,
+   "shows": "Messi falling to his knees crying on final whistle",
+   "kind": "action"
+  },
+  {
+   "start_s": 58.13,
+   "end_s": 100.07,
+   "shows": "Teammates rushing to embrace Messi crying",
+   "kind": "action"
+  },
+  {
+   "start_s": 100.07,
+   "end_s": 102.0,
+   "shows": "Messi lifting 2021 Copa América trophy with team",
+   "kind": "action"
+  },
+  {
+   "start_s": 102.0,
+   "end_s": 105.17,
+   "shows": "Messi lifting 2022 World Cup trophy in Qatar",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 30,
+ "average_shot_s": 2.17,
+ "longest_shot_s": 4.07,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 150,
+  "tone": "dramatic, engaging, narrative",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "dramatic cinematic ambient",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "sentence",
+  "position": "middle",
+  "colours": "white text on dark box backdrop",
+  "highlight_style": "none"
+ },
+ "text_overlays": [
+  {
+   "at_s": 0.0,
+   "text": "Players who brought their country BACK TO GLORY"
+  },
+  {
+   "at_s": 22.5,
+   "text": "LIONEL MESSI"
+  },
+  {
+   "at_s": 31.8,
+   "text": "LOST EVERY ONE"
+  }
+ ],
+ "cards_or_graphics": 1,
+ "framing": "zoom",
+ "ending": {
+  "last_words": "he led them all the way to the World Cup title in Qatar.",
+  "last_frame": "Messi and Argentina team celebrating World Cup trophy victory.",
+  "loops_to_start": false,
+  "call_to_action": "if you're enjoying the content please hit the follow button."
+ },
+ "script": "Players who brought their country BACK TO GLORY. Argentina were once the kings of South America. In nineteen ninety-three, Gabriel Batistuta scored twice to beat Mexico two to one and win the Copa América in Ecuador, giving them their fourteenth title, and nobody thought it would be their last for a very long time. But that win was about to turn into the longest nightmare in Argentine football history. Year after year passed with nothing, and then in two thousand five, a young teen named Lionel Messi made his debut. He would go on to become the greatest player on the planet, however the trophies still didn't come. He lost the two thousand fourteen World Cup final, then reached three Copa América finals and lost every one of them. After sixteen years of Messi wearing that shirt, Argentina still had zero major trophies to show for it. But the place where that pain finally ended was the last place any Argentine ever wanted to be, and if you're enjoying the content please hit the follow button. It was two thousand twenty-one, and Argentina were facing Brazil in the Copa América final, in Brazil's own backyard. Ángel Di María lobbed the ball over the keeper in the twenty-second minute to make it one to nothing, and Argentina held on, so when the whistle blew, Messi fell to his knees and cried because twenty-eight years of pain were finally gone. He lifted a trophy for his country at last, and a year later he led them all the way to the World Cup title in Qatar.",
+ "retention_tricks": [
+  "open loops",
+  "fast pacing",
+  "text overlays",
+  "dramatic narrative arc",
+  "emotional footage transitions"
+ ],
+ "subject_visible_0_1s": false,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "High-emotion storytelling contrasting 28 years of heartbreak with ultimate victory.",
+  "Fast cut editing keeps viewer engagement high throughout the 65-second runtime.",
+  "Strong character narrative focused on Lionel Messi's journey and redemption."
+ ],
+ "_meta": {
+  "source": "2JvvvOJBakg",
+  "model": "gemini-3.6-flash",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

@@ -1,0 +1,111 @@
+[
+ {
+  "clip": "r1.mp4",
+  "start": 0.0,
+  "anchor": "Knicks center",
+  "kind": "action",
+  "zoom": 0.08
+ },
+ {
+  "clip": "r4.mp4",
+  "start": 0.8,
+  "anchor": "Robinson made",
+  "kind": "action"
+ },
+ {
+  "clip": "c_r29.mp4",
+  "start": 1.37,
+  "anchor": "twenty-nine",
+  "kind": "card"
+ },
+ {
+  "clip": "r2.mp4",
+  "start": 3.19,
+  "anchor": "A Hall",
+  "kind": "action"
+ },
+ {
+  "clip": "w2.mp4",
+  "start": 4.18,
+  "anchor": "fix it.",
+  "kind": "action"
+ },
+ {
+  "clip": "r3.mp4",
+  "start": 5.21,
+  "anchor": "Robinson said,",
+  "kind": "action"
+ },
+ {
+  "clip": "w1.mp4",
+  "start": 6.87,
+  "anchor": "That Hall",
+  "kind": "action"
+ },
+ {
+  "clip": "c_b90.mp4",
+  "start": 8.28,
+  "anchor": "Ninety",
+  "kind": "card"
+ },
+ {
+  "clip": "w3.mp4",
+  "start": 9.55,
+  "anchor": "fourth best",
+  "kind": "action"
+ },
+ {
+  "clip": "bb.mp4",
+  "start": 11.0,
+  "anchor": "Wilt Chamberlain",
+  "kind": "action"
+ },
+ {
+  "clip": "c_w28.mp4",
+  "start": 13.0,
+  "anchor": "Twenty-eight",
+  "kind": "card"
+ },
+ {
+  "clip": "bb2.mp4",
+  "start": 14.2,
+  "anchor": "Then he",
+  "kind": "action"
+ },
+ {
+  "clip": "s1.mp4",
+  "start": 15.95,
+  "anchor": "Shaq shot",
+  "kind": "action"
+ },
+ {
+  "clip": "c_s53.mp4",
+  "start": 16.43,
+  "anchor": "fifty-three",
+  "kind": "card"
+ },
+ {
+  "clip": "s2.mp4",
+  "start": 17.33,
+  "anchor": "His answer",
+  "kind": "action"
+ },
+ {
+  "clip": "s3.mp4",
+  "start": 18.88,
+  "anchor": "terrible",
+  "kind": "action"
+ },
+ {
+  "clip": "s1.mp4",
+  "start": 20.34,
+  "anchor": "Hall of Fame",
+  "kind": "action"
+ },
+ {
+  "clip": "r1.mp4",
+  "start": 21.67,
+  "anchor": "Thanks,",
+  "kind": "action"
+ }
+]

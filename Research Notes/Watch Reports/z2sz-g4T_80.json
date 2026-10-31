@@ -1,0 +1,259 @@
+{
+ "length_s": 66.25,
+ "topic": "The history and record attendance of Cristiano Ronaldo's Real Madrid unveiling in 2009.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "Most iconic UNVEILINGS in football history",
+  "first_frame": "A soccer player in a red jersey tackling an opponent in white.",
+  "on_screen_text_0_3s": "Most iconic UNVEILINGS in football history",
+  "shots_in_first_3s": 3
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 2.75,
+   "shows": "Soccer player tackling another player",
+   "kind": "action"
+  },
+  {
+   "start_s": 2.75,
+   "end_s": 4.75,
+   "shows": "Cristiano Ronaldo in a suit with money graphic",
+   "kind": "stock"
+  },
+  {
+   "start_s": 4.75,
+   "end_s": 5.75,
+   "shows": "Ronaldo shaking hands with club president",
+   "kind": "still"
+  },
+  {
+   "start_s": 5.75,
+   "end_s": 7.75,
+   "shows": "Ronaldo signing contract at desk",
+   "kind": "archive"
+  },
+  {
+   "start_s": 7.75,
+   "end_s": 8.75,
+   "shows": "Historical presentation press conference on TV set",
+   "kind": "stock"
+  },
+  {
+   "start_s": 8.75,
+   "end_s": 11.75,
+   "shows": "Ronaldo holding Ballon d'Or trophy",
+   "kind": "archive"
+  },
+  {
+   "start_s": 11.75,
+   "end_s": 14.75,
+   "shows": "Ronaldo running out at Santiago Bernabeu stadium",
+   "kind": "archive"
+  },
+  {
+   "start_s": 14.75,
+   "end_s": 16.5,
+   "shows": "Kevin Hart looking shocked",
+   "kind": "reaction"
+  },
+  {
+   "start_s": 16.5,
+   "end_s": 18.5,
+   "shows": "Crowd surrounding Ronaldo during presentation",
+   "kind": "archive"
+  },
+  {
+   "start_s": 18.5,
+   "end_s": 20.25,
+   "shows": "Ronaldo looking out from a car window",
+   "kind": "archive"
+  },
+  {
+   "start_s": 20.25,
+   "end_s": 21.75,
+   "shows": "Full stadium packed with fans",
+   "kind": "archive"
+  },
+  {
+   "start_s": 21.75,
+   "end_s": 23.75,
+   "shows": "Ronaldo walking on stage at stadium",
+   "kind": "archive"
+  },
+  {
+   "start_s": 23.75,
+   "end_s": 25.5,
+   "shows": "Ronaldo juggling ball on stage",
+   "kind": "archive"
+  },
+  {
+   "start_s": 25.5,
+   "end_s": 27.5,
+   "shows": "Ronaldo standing at podium with club officials",
+   "kind": "archive"
+  },
+  {
+   "start_s": 27.5,
+   "end_s": 28.75,
+   "shows": "Male journalist smiling",
+   "kind": "face"
+  },
+  {
+   "start_s": 28.75,
+   "end_s": 31.25,
+   "shows": "Newspaper article excerpt about Ronaldo unveiling",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 31.25,
+   "end_s": 32.75,
+   "shows": "Pitch invasion during presentation",
+   "kind": "archive"
+  },
+  {
+   "start_s": 32.75,
+   "end_s": 35.5,
+   "shows": "Ronaldo speaking into microphone with Champions League trophies",
+   "kind": "archive"
+  },
+  {
+   "start_s": 35.5,
+   "end_s": 36.75,
+   "shows": "Gopher standing upright",
+   "kind": "stock"
+  },
+  {
+   "start_s": 36.75,
+   "end_s": 39.75,
+   "shows": "Ronaldo in uniform graphic with grid background",
+   "kind": "graphics"
+  },
+  {
+   "start_s": 39.75,
+   "end_s": 43.5,
+   "shows": "Ronaldo clapping to fans in stadium",
+   "kind": "archive"
+  },
+  {
+   "start_s": 43.5,
+   "end_s": 45.5,
+   "shows": "Steve Harvey holding envelope on TV show",
+   "kind": "reaction"
+  },
+  {
+   "start_s": 45.5,
+   "end_s": 47.75,
+   "shows": "Ronaldo talking in press conference",
+   "kind": "archive"
+  },
+  {
+   "start_s": 47.75,
+   "end_s": 50.75,
+   "shows": "Wide angle of stadium crowd",
+   "kind": "archive"
+  },
+  {
+   "start_s": 50.75,
+   "end_s": 54.25,
+   "shows": "Diego Maradona presentation at Napoli",
+   "kind": "archive"
+  },
+  {
+   "start_s": 54.25,
+   "end_s": 55.75,
+   "shows": "Tobey Maguire looking surprised",
+   "kind": "reaction"
+  },
+  {
+   "start_s": 55.75,
+   "end_s": 59.5,
+   "shows": "Ronaldo smiling and cheering at press conference",
+   "kind": "archive"
+  },
+  {
+   "start_s": 59.5,
+   "end_s": 61.25,
+   "shows": "Kylian Mbappe presented at Real Madrid",
+   "kind": "archive"
+  },
+  {
+   "start_s": 61.25,
+   "end_s": 62.0,
+   "shows": "Mbappe raising arms to stadium",
+   "kind": "archive"
+  },
+  {
+   "start_s": 62.0,
+   "end_s": 64.25,
+   "shows": "Mbappe smiling and clapping",
+   "kind": "archive"
+  },
+  {
+   "start_s": 64.25,
+   "end_s": 66.25,
+   "shows": "Mbappe at podium with arms raised",
+   "kind": "archive"
+  }
+ ],
+ "shot_count": 31,
+ "average_shot_s": 2.14,
+ "longest_shot_s": 3.75,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 220,
+  "tone": "hype",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "dramatic cinematic beat",
+  "level_vs_voice": "quiet",
+  "starts_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "mixed",
+  "position": "middle",
+  "colours": "white",
+  "highlight_style": "none"
+ },
+ "text_overlays": [],
+ "cards_or_graphics": 1,
+ "framing": "crop",
+ "ending": {
+  "last_words": "since he only managed to tie it.",
+  "last_frame": "Mbappe standing at podium with arms raised.",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "Most iconic UNVEILINGS in football history. Real Madrid once paid ninety-four million euros for Cristiano Ronaldo, making him the most expensive footballer who had ever lived, and he was arriving from Manchester United as a Ballon d'Or winner. So the club threw him a presentation ceremony at the Santiago Bernabeu. But the size of the crowd that showed up is where this stops being a normal signing. On the sixth of July, 2009, eighty thousand fans packed the stadium just to watch one man walk onto a green carpet and kick a ball around for ten minutes, even though he hadn't played a single game yet. One journalist described the night as part coronation, part papal mass, and a dash of rock concert thrown in. And fans even stormed the pitch as Ronaldo told the crowd this was the completion of his boyhood dream. And here's the wild part, because eighty thousand people showing up for a guy in a suit was a bigger crowd than Real Madrid pulled for a lot of their actual matches that season. But the record he quietly set that night is the detail that still stuns people today. That eighty thousand broke a mark that had stood for twenty-five years, back when seventy-five thousand fans welcomed Diego Maradona to Napoli. And here's the part that gets people, because it's been more than fifteen years and no unveiling on earth has beaten it. When Real Madrid presented Kylian Mbappe in 2024, the whole world assumed he'd crush the record, and he didn't, since he only managed to tie it.",
+ "retention_tricks": [
+  "rapid cut rate",
+  "reaction meme clips",
+  "surprising stat reveal"
+ ],
+ "subject_visible_0_1s": false,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "Unbelievable historical statistics about fan attendance",
+  "Fast-paced editing with reaction meme cutaways",
+  "Compelling comparison between Ronaldo and Mbappe"
+ ],
+ "_meta": {
+  "source": "z2sz-g4T_80",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

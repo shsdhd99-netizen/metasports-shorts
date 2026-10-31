@@ -1,0 +1,265 @@
+{
+ "length_s": 86.63,
+ "topic": "UEFA is investigating FC Barcelona for payments made to Spain's referee chief over nearly two decades.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "Why is UEFA investigating FC Barcelona?",
+  "first_frame": "A confrontation between Real Madrid and Barcelona players on the pitch, with a man attempting to separate them.",
+  "on_screen_text_0_3s": "Why is UEFA INVESTIGATING FC Barcelona?",
+  "shots_in_first_3s": 3
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 1.933,
+   "shows": "Soccer players in a scuffle on the pitch, lower half shows presenter talking",
+   "kind": "replay"
+  },
+  {
+   "start_s": 1.933,
+   "end_s": 2.766,
+   "shows": "Close-up of young soccer player talking aggressively",
+   "kind": "replay"
+  },
+  {
+   "start_s": 2.766,
+   "end_s": 5.5,
+   "shows": "Empty stadium with lights and banner",
+   "kind": "stock"
+  },
+  {
+   "start_s": 5.5,
+   "end_s": 8.0,
+   "shows": "Jose Maria Enriquez Negreira walking outdoors with a woman",
+   "kind": "stock"
+  },
+  {
+   "start_s": 8.0,
+   "end_s": 10.0,
+   "shows": "Barcelona players walking with a trophy",
+   "kind": "stock"
+  },
+  {
+   "start_s": 10.0,
+   "end_s": 12.0,
+   "shows": "Empty locker room with red seating and Barcelona imagery",
+   "kind": "stock"
+  },
+  {
+   "start_s": 12.0,
+   "end_s": 14.166,
+   "shows": "Little blonde girl making a suspicious facial expression in a car",
+   "kind": "stock"
+  },
+  {
+   "start_s": 14.166,
+   "end_s": 16.166,
+   "shows": "Black-and-white photo of a referee",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 16.166,
+   "end_s": 19.5,
+   "shows": "Soccer referee showing a yellow card during a match",
+   "kind": "replay"
+  },
+  {
+   "start_s": 19.5,
+   "end_s": 23.5,
+   "shows": "Newspaper headline about Barcelona paying Spain's referee chief",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 23.5,
+   "end_s": 26.5,
+   "shows": "Jose Maria Enriquez Negreira sitting in a red sweater with falling money graphics",
+   "kind": "stock"
+  },
+  {
+   "start_s": 26.5,
+   "end_s": 28.0,
+   "shows": "Reporters surrounding someone with microphones and cameras",
+   "kind": "stock"
+  },
+  {
+   "start_s": 28.0,
+   "end_s": 31.833,
+   "shows": "Joan Laporta speaking at a podium with FC Barcelona branding",
+   "kind": "stock"
+  },
+  {
+   "start_s": 31.833,
+   "end_s": 33.666,
+   "shows": "Joan Laporta smiling and greeting people in a room",
+   "kind": "stock"
+  },
+  {
+   "start_s": 33.666,
+   "end_s": 36.0,
+   "shows": "Javier Tebas speaking into a microphone",
+   "kind": "stock"
+  },
+  {
+   "start_s": 36.0,
+   "end_s": 40.0,
+   "shows": "Soccer match play leading to a goal",
+   "kind": "replay"
+  },
+  {
+   "start_s": 40.0,
+   "end_s": 44.75,
+   "shows": "Barcelona players celebrating on stage with a trophy",
+   "kind": "stock"
+  },
+  {
+   "start_s": 44.75,
+   "end_s": 48.0,
+   "shows": "Gerard Pique and children on the pitch with a trophy",
+   "kind": "stock"
+  },
+  {
+   "start_s": 48.0,
+   "end_s": 51.0,
+   "shows": "Joan Laporta speaking at a podium again",
+   "kind": "stock"
+  },
+  {
+   "start_s": 51.0,
+   "end_s": 53.0,
+   "shows": "UEFA logo on a grassy field",
+   "kind": "stock"
+  },
+  {
+   "start_s": 53.0,
+   "end_s": 59.833,
+   "shows": "Aleksander Ceferin speaking at a UEFA event with quote text on screen",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 59.833,
+   "end_s": 61.833,
+   "shows": "Close-up of a person wearing glasses looking surprised or intense",
+   "kind": "stock"
+  },
+  {
+   "start_s": 61.833,
+   "end_s": 64.666,
+   "shows": "Real Madrid and UEFA logos side by side",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 64.666,
+   "end_s": 66.833,
+   "shows": "Florentino Perez looking serious",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 66.833,
+   "end_s": 72.5,
+   "shows": "Barcelona players celebrating with a trophy",
+   "kind": "stock"
+  },
+  {
+   "start_s": 72.5,
+   "end_s": 74.75,
+   "shows": "Joan Laporta speaking at a microphone",
+   "kind": "stock"
+  },
+  {
+   "start_s": 74.75,
+   "end_s": 76.75,
+   "shows": "UEFA logo sign on a building",
+   "kind": "stock"
+  },
+  {
+   "start_s": 76.75,
+   "end_s": 82.0,
+   "shows": "Jose Maria Enriquez Negreira walking with a woman, being filmed on a phone",
+   "kind": "stock"
+  },
+  {
+   "start_s": 82.0,
+   "end_s": 86.63,
+   "shows": "Empty stadium view panning across the pitch",
+   "kind": "stock"
+  }
+ ],
+ "shot_count": 29,
+ "average_shot_s": 2.99,
+ "longest_shot_s": 6.83,
+ "voice": {
+  "type": "human",
+  "gender": "male",
+  "words_per_minute_estimate": 175,
+  "tone": "investigative, dramatic, serious",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "suspenseful, rhythmic documentary beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "mixed",
+  "position": "middle",
+  "colours": "white with yellow highlight on key words",
+  "highlight_style": "word-by-word yellow color pop"
+ },
+ "text_overlays": [
+  {
+   "at_s": 0.0,
+   "text": "Why is UEFA INVESTIGATING FC Barcelona?"
+  },
+  {
+   "at_s": 19.8,
+   "text": "Barcelona Paid Spain's Referee Chief For 17 Years"
+  },
+  {
+   "at_s": 56.0,
+   "text": "ALEKSANDER CEFERIN \"THE SITUATION IS EXTREMELY SERIOUS...\" ONE OF THE MOST SERIOUS I HAVE SEEN."
+  },
+  {
+   "at_s": 65.0,
+   "text": "50,000 PAGES OF EVIDENCE"
+  }
+ ],
+ "cards_or_graphics": 4,
+ "framing": "crop",
+ "ending": {
+  "last_words": "but follow to stay updated.",
+  "last_frame": "Empty stadium view panning across the pitch with the presenter in the lower inset.",
+  "loops_to_start": false,
+  "call_to_action": "follow to stay updated"
+ },
+ "script": "Why is UEFA investigating FC Barcelona? For almost two decades, FC Barcelona was paying money to a man named José María Enríquez Negreira. Normally, this wouldn't be an issue. Clubs have a lot of people that they need to pay money to. But in this case, it was a little suspicious. You see, Negreira was the vice president of Spain's referee committee, so he oversaw officials calling their games. Between 2001 and 2018, Barcelona paid companies linked to Negreira around 8.4 million euros, which immediately sets off a red flag for anyone who sees that. Although the club has always said he was a consultant giving them reports on referees, but despite this explanation, not everyone was convinced that FC Barcelona were telling the truth. Prosecutors believe Barcelona was paying Negreira to influence match results in their favor, yet the prosecutors have a big problem because in Spain, the statute of limitations already expired, meaning Barcelona can't face any domestic sporting consequences. But that doesn't mean Barcelona are off the hook just yet because UEFA operates under its own rules, and their president made it very clear that under UEFA's regulations, nothing has expired and that they started looking into the situation a while back. But then today, this thing reached a whole new level. Real Madrid officially submitted a massive report to UEFA, reportedly around 50,000 pages of evidence, calling for Barcelona to be stripped of every title they won during those 17 years and banned from European competition entirely. Barcelona responded with a statement today saying, \"No new proceedings have been opened against them,\" while Negreira himself will likely never stand trial because his dementia has progressed to the point where he's medically unfit. So whether Barcelona are found guilty for this is remained to be seen, but follow to stay updated.",
+ "retention_tricks": [
+  "rapid-fire B-roll cuts every 2-3 seconds",
+  "meme and reaction inserts (suspicious girl, intense internet character)",
+  "highlighted keywords in captions",
+  "split screen with presenter talking head anchoring the bottom half"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": true,
+  "promise_in_first_line": false,
+  "ends_on_payoff": false,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "High-paced editing with frequent visual changes and meme cutaways",
+  "Compelling real-world sports corruption controversy narrative",
+  "Clear structure moving from historical facts to recent developments"
+ ],
+ "_meta": {
+  "source": "vBvtvHMUKVY",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

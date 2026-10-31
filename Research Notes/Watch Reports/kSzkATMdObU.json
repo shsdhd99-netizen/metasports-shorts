@@ -1,0 +1,169 @@
+{
+ "length_s": 24.0,
+ "topic": "NBA star lookalikes and parody comparisons versus the original players.",
+ "lane": "moment",
+ "hook": {
+  "first_words": "Kobe and Shaq?",
+  "first_frame": "A man in a Lakers jersey looking at the camera while another man prepares to shoot basketball behind him.",
+  "on_screen_text_0_3s": "Kobe and Shaq?",
+  "shots_in_first_3s": 1
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 2.5,
+   "shows": "Asian Kobe lookalike shooting a basketball while another man films in selfie mode",
+   "kind": "action"
+  },
+  {
+   "start_s": 2.5,
+   "end_s": 4.7,
+   "shows": "The two lookalikes smiling and laughing at the camera",
+   "kind": "face"
+  },
+  {
+   "start_s": 4.7,
+   "end_s": 6.7,
+   "shows": "Chinese Version text overlay and clip of the lookalikes",
+   "kind": "text_card"
+  },
+  {
+   "start_s": 6.7,
+   "end_s": 10.2,
+   "shows": "Original footage of Kobe and Shaq playing basketball",
+   "kind": "stock"
+  },
+  {
+   "start_s": 10.2,
+   "end_s": 14.6,
+   "shows": "Brazil Version Lamelo Ball lookalike dribbling and shooting on outdoor court",
+   "kind": "action"
+  },
+  {
+   "start_s": 14.6,
+   "end_s": 16.0,
+   "shows": "Brazil Version text over lookalike shooting",
+   "kind": "text_card"
+  },
+  {
+   "start_s": 16.0,
+   "end_s": 18.2,
+   "shows": "Original NBA footage of Lamelo Ball shooting",
+   "kind": "stock"
+  },
+  {
+   "start_s": 18.2,
+   "end_s": 21.7,
+   "shows": "Philippines Version LeBron and Luka lookalikes dancing outdoors",
+   "kind": "action"
+  },
+  {
+   "start_s": 21.7,
+   "end_s": 24.0,
+   "shows": "Original photo/video shoot of NBA players LeBron James and Luka Doncic",
+   "kind": "still"
+  }
+ ],
+ "shot_count": 9,
+ "average_shot_s": 2.67,
+ "longest_shot_s": 4.0,
+ "voice": {
+  "type": "none",
+  "gender": "unknown",
+  "words_per_minute_estimate": 0,
+  "tone": "unknown",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "Upbeat remix or meme background music",
+  "level_vs_voice": "loud",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [
+  {
+   "at_s": 3.3,
+   "sound": "Laughter"
+  }
+ ],
+ "captions": {
+  "present": false,
+  "words_per_line": 0,
+  "case": "mixed",
+  "position": "middle",
+  "colours": [],
+  "highlight_style": "none"
+ },
+ "text_overlays": [
+  {
+   "at_s": 0.5,
+   "text": "Kobe and Shaq?"
+  },
+  {
+   "at_s": 4.7,
+   "text": "Chinese Version"
+  },
+  {
+   "at_s": 6.7,
+   "text": "ORIGINAL"
+  },
+  {
+   "at_s": 10.7,
+   "text": "Lamelo Ball?"
+  },
+  {
+   "at_s": 14.7,
+   "text": "Brazil Version"
+  },
+  {
+   "at_s": 16.0,
+   "text": "ORIGINAL"
+  },
+  {
+   "at_s": 18.2,
+   "text": "LeBron and Luka?"
+  },
+  {
+   "at_s": 20.5,
+   "text": "Philippines Version"
+  },
+  {
+   "at_s": 21.7,
+   "text": "ORIGINAL"
+  }
+ ],
+ "cards_or_graphics": 0,
+ "framing": "blurred background",
+ "ending": {
+  "last_words": "none",
+  "last_frame": "LeBron and Luka standing side-by-side in Lakers uniforms.",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "",
+ "retention_tricks": [
+  "Side-by-side comparison of lookalikes vs original NBA stars",
+  "Quick cuts between different player parodies",
+  "Humorous lookalike casting (Chinese, Brazil, Philippines versions)"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": false,
+  "ends_on_payoff": true,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "Strong comedic value from matching international lookalikes with NBA superstars",
+  "Direct side-by-side comparison format between parody and original",
+  "Fast pacing keeping viewers engaged through multiple lookalike examples"
+ ],
+ "_meta": {
+  "source": "kSzkATMdObU",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

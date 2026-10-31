@@ -1,0 +1,522 @@
+{
+ "R4_A_alex_t1": {
+  "name": "R4_A_alex_t1",
+  "dur": 25.91,
+  "speech_s": 25.38,
+  "wpm": 227,
+  "gaps_over_0p3": 2.0,
+  "max_gap": 0.32,
+  "wer_clean": 9.8,
+  "wer_phone": 9.8,
+  "names_clean": {
+   "wembanyama": false,
+   "jamarion": false,
+   "jokic": true,
+   "antetokounmpo": false,
+   "giannis": false
+  },
+  "names_phone": {
+   "wembanyama": false,
+   "jamarion": false,
+   "jokic": true,
+   "antetokounmpo": false,
+   "giannis": false
+  },
+  "numbers_clean": {
+   "350": false,
+   "zero": false,
+   "7-5": false
+  },
+  "numbers_phone": {
+   "350": false,
+   "zero": false,
+   "7-5": false
+  },
+  "pitch_sd_semitones": 4.97,
+  "loudness_sd_db": 3.31,
+  "hnr": 7.9,
+  "jitter": 2.96,
+  "shimmer": 11.7,
+  "f0_med": 144.0,
+  "heard_clean": "Russell Westbrook needed 18 seasons to set the triple double record. Nikola Jokic could take it before Christmas. Westbrook retired this summer with 209. Jokic has won 98 in almost 500 fewer games. Last season he got one almost every other night. At that pace the 12 he needs take about 23 games and Denver's 27th game is Christmas Day at Golden State. Last Christmas he dropped 56, 16 and 15, a line nobody in NBA history had ever posted. This Christmas the record could already be his.",
+  "heard_phone": "Russell Westbrook needed 18 seasons to set the triple -double record. Nikola Jokic could take it before Christmas. Westbrook retired this summer with 209. Jokic has won 98 in almost 500 fewer games. Last season he got one almost every other night. At that pace the 12 he needs take about 23 games. And Denver's 27th game is Christmas Day at Golden State. Last Christmas he dropped 56, 16, and 15. A line nobody in NBA history had ever posted. This Christmas the record could already be his.",
+  "voice": "A_alex",
+  "voice_id": "yl2ZDV1MzN4HbQJbMihG",
+  "label": "A: Alex (Voice Library), house settings",
+  "settings": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.2
+  }
+ },
+ "R4_A_alex_t2": {
+  "name": "R4_A_alex_t2",
+  "dur": 25.68,
+  "speech_s": 25.34,
+  "wpm": 227,
+  "gaps_over_0p3": 2.0,
+  "max_gap": 0.32,
+  "wer_clean": 9.8,
+  "wer_phone": 9.8,
+  "names_clean": {
+   "wembanyama": false,
+   "jamarion": false,
+   "jokic": true,
+   "antetokounmpo": false,
+   "giannis": false
+  },
+  "names_phone": {
+   "wembanyama": false,
+   "jamarion": false,
+   "jokic": true,
+   "antetokounmpo": false,
+   "giannis": false
+  },
+  "numbers_clean": {
+   "350": false,
+   "zero": false,
+   "7-5": false
+  },
+  "numbers_phone": {
+   "350": false,
+   "zero": false,
+   "7-5": false
+  },
+  "pitch_sd_semitones": 5.24,
+  "loudness_sd_db": 3.33,
+  "hnr": 7.9,
+  "jitter": 3.12,
+  "shimmer": 11.76,
+  "f0_med": 158.0,
+  "heard_clean": "Russell Westbrook needed 18 seasons to set the triple double record. Nikola Jokic could take it before Christmas. Westbrook retired this summer with 209. Jokic has won 98 in almost 500 fewer games. Last season he got one almost every other night. At that pace, the 12 he needs take about 23 games. And Denver's 27th game is Christmas Day at Golden State. Last Christmas he dropped 56, 16 and 15. A line nobody in NBA history had ever posted. This Christmas the record could already be his.",
+  "heard_phone": "Russell Westbrook needed 18 seasons to set the triple double record. Nikola Jokic could take it before Christmas. Westbrook retired this summer with 209. Jokic has won 98 in almost 500 fewer games. Last season, he got one almost every other night. At that pace, the 12 he needs take about 23 games. And Denver's 27th game is Christmas Day. At Golden State, last Christmas, he dropped 56, 16, and 15. A line nobody in NBA history had ever posted. This Christmas, the record could already be his.",
+  "voice": "A_alex",
+  "voice_id": "yl2ZDV1MzN4HbQJbMihG",
+  "label": "A: Alex (Voice Library), house settings",
+  "settings": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.2
+  }
+ },
+ "R4_F_pv2_fixed_t1": {
+  "name": "R4_F_pv2_fixed_t1",
+  "dur": 26.19,
+  "speech_s": 26.16,
+  "wpm": 220,
+  "gaps_over_0p3": 1.0,
+  "max_gap": 0.38,
+  "wer_clean": 13.4,
+  "wer_phone": 9.8,
+  "names_clean": {
+   "wembanyama": false,
+   "jamarion": false,
+   "jokic": true,
+   "antetokounmpo": false,
+   "giannis": false
+  },
+  "names_phone": {
+   "wembanyama": false,
+   "jamarion": false,
+   "jokic": true,
+   "antetokounmpo": false,
+   "giannis": false
+  },
+  "numbers_clean": {
+   "350": false,
+   "zero": false,
+   "7-5": false
+  },
+  "numbers_phone": {
+   "350": false,
+   "zero": false,
+   "7-5": false
+  },
+  "pitch_sd_semitones": 4.66,
+  "loudness_sd_db": 3.3,
+  "hnr": 8.8,
+  "jitter": 2.58,
+  "shimmer": 9.98,
+  "f0_med": 202.0,
+  "heard_clean": "Russell Westbrook needed 18 seasons to set the triple -double record. Nikola Jokic could take it before Christmas. Westbrook retired this summer with 209. Jokic has 198 in almost 500 fewer games. Last season he got one almost every other night. At that pace, the 12 he needs take about 23 games. And Denver's 27th game is Christmas Day at Golden State. Last Christmas, he dropped 56, 16, and 15, a line nobody in NBA history had ever posted. This Christmas, the record could already be his. Thanks for watching.",
+  "heard_phone": "Russell Westbrook needed 18 seasons to set the triple double record. Nikola Jokic could take it before Christmas. Westbrook retired this summer with 209. Jokic has 198 in almost 500 fewer games. Last season he got one almost every other night. At that pace, the 12 he needs take about 23 games. And Denver's 27th game is Christmas Day at Golden State. Last Christmas he dropped 56, 16 and 15, a line nobody in NBA history had ever posted. This Christmas the record could already be his.",
+  "voice": "F_pv2_fixed",
+  "voice_id": "GDS7e7WiI4GqkoRxZAFG",
+  "label": "F: pham v2, fixed settings",
+  "settings": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.1
+  }
+ },
+ "R4_F_pv2_fixed_t2": {
+  "name": "R4_F_pv2_fixed_t2",
+  "dur": 24.66,
+  "speech_s": 24.36,
+  "wpm": 236,
+  "gaps_over_0p3": 1.0,
+  "max_gap": 0.32,
+  "wer_clean": 11.0,
+  "wer_phone": 11.0,
+  "names_clean": {
+   "wembanyama": false,
+   "jamarion": false,
+   "jokic": true,
+   "antetokounmpo": false,
+   "giannis": false
+  },
+  "names_phone": {
+   "wembanyama": false,
+   "jamarion": false,
+   "jokic": true,
+   "antetokounmpo": false,
+   "giannis": false
+  },
+  "numbers_clean": {
+   "350": false,
+   "zero": false,
+   "7-5": false
+  },
+  "numbers_phone": {
+   "350": false,
+   "zero": false,
+   "7-5": false
+  },
+  "pitch_sd_semitones": 3.81,
+  "loudness_sd_db": 2.93,
+  "hnr": 10.1,
+  "jitter": 2.6,
+  "shimmer": 9.88,
+  "f0_med": 211.0,
+  "heard_clean": "Russell Westbrook needed 18 seasons to set the triple -double record. Nikola Jokic could take it before Christmas. Westbrook retired this summer with 209. Jokic has won 98 in almost 500 fewer games. Last season, he got won almost every other night. At that pace, the 12 he needs take about 23 games. And Denver's 27th game is Christmas Day at Golden State. Last Christmas, he dropped 56, 16, and 15, a line nobody in NBA history had ever posted. This Christmas, the record could already be his.",
+  "heard_phone": "Russell Westbrook needed 18 seasons to set the triple -double record. Nikola Jokic could take it before Christmas. Westbrook retired this summer with 209. Jokic has won 98 in almost 500 fewer games. Last season, he got won almost every other night. At that pace, the 12 he needs take about 23 games. And Denver's 27th game is Christmas Day at Golden State. Last Christmas, he dropped 56, 16, and 15, a line nobody in NBA history had ever posted. This Christmas, the record could already be his.",
+  "voice": "F_pv2_fixed",
+  "voice_id": "GDS7e7WiI4GqkoRxZAFG",
+  "label": "F: pham v2, fixed settings",
+  "settings": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.1
+  }
+ },
+ "R4_P0_pv2_current_t1": {
+  "name": "R4_P0_pv2_current_t1",
+  "dur": 22.29,
+  "speech_s": 22.02,
+  "wpm": 262,
+  "gaps_over_0p3": 0.0,
+  "max_gap": 0.28,
+  "wer_clean": 11.0,
+  "wer_phone": 9.8,
+  "names_clean": {
+   "wembanyama": false,
+   "jamarion": false,
+   "jokic": true,
+   "antetokounmpo": false,
+   "giannis": false
+  },
+  "names_phone": {
+   "wembanyama": false,
+   "jamarion": false,
+   "jokic": true,
+   "antetokounmpo": false,
+   "giannis": false
+  },
+  "numbers_clean": {
+   "350": false,
+   "zero": false,
+   "7-5": false
+  },
+  "numbers_phone": {
+   "350": false,
+   "zero": false,
+   "7-5": false
+  },
+  "pitch_sd_semitones": 4.9,
+  "loudness_sd_db": 2.79,
+  "hnr": 8.4,
+  "jitter": 2.93,
+  "shimmer": 10.21,
+  "f0_med": 202.0,
+  "heard_clean": "Russell Westbrook needed 18 seasons to set the triple double record. Nikola Jokic could take it before Christmas. Westbrook retired this summer with 209. Jokic has won 98 in almost 500 fewer games. Last season, he got won almost every other night. At that pace, the 12 he needs take about 23 games, and Denver's 27th game is Christmas Day at Golden State. Last Christmas, he dropped 56, 16, and 15, a line nobody in NBA history had ever posted. This Christmas, the record could already be his.",
+  "heard_phone": "Russell Westbrook needed 18 seasons to set the triple double record. Nikola Jokic could take it before Christmas. Westbrook retired this summer with 209. Jokic has 198 in almost 500 fewer games. Last season he got one almost every other night. At that pace the 12 he needs take about 23 games. And Denver's 27th game is Christmas Day at Golden State. Last Christmas he dropped 56, 16, and 15. A line nobody in NBA history had ever posted. This Christmas the record could already be his.",
+  "voice": "P0_pv2_current",
+  "voice_id": "GDS7e7WiI4GqkoRxZAFG",
+  "label": "current production Pham (pham v2, Oct 5-14 settings)",
+  "settings": {
+   "stability": 0.65,
+   "similarity_boost": 0.7,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.15
+  }
+ },
+ "R4_P0_pv2_current_t2": {
+  "name": "R4_P0_pv2_current_t2",
+  "dur": 21.41,
+  "speech_s": 21.16,
+  "wpm": 272,
+  "gaps_over_0p3": 0.0,
+  "max_gap": 0.28,
+  "wer_clean": 9.8,
+  "wer_phone": 9.8,
+  "names_clean": {
+   "wembanyama": false,
+   "jamarion": false,
+   "jokic": true,
+   "antetokounmpo": false,
+   "giannis": false
+  },
+  "names_phone": {
+   "wembanyama": false,
+   "jamarion": false,
+   "jokic": true,
+   "antetokounmpo": false,
+   "giannis": false
+  },
+  "numbers_clean": {
+   "350": false,
+   "zero": false,
+   "7-5": false
+  },
+  "numbers_phone": {
+   "350": false,
+   "zero": false,
+   "7-5": false
+  },
+  "pitch_sd_semitones": 4.35,
+  "loudness_sd_db": 2.9,
+  "hnr": 7.9,
+  "jitter": 2.98,
+  "shimmer": 11.21,
+  "f0_med": 185.0,
+  "heard_clean": "Russell Westbrook needed 18 seasons to set the triple double record. Nikola Jokic could take it before Christmas. Westbrook retired this summer with 209. Jokic has won 98 in almost 500 fewer games. Last season he got one almost every other night. At that pace the 12 he needs take about 23 games and Denver's 27th game is Christmas Day at Golden State. Last Christmas he dropped 56, 16 and 15, a line nobody in NBA history had ever posted. This Christmas the record could already be his.",
+  "heard_phone": "Russell Westbrook needed 18 seasons to set the triple double record. Nikola Jokic could take it before Christmas. Westbrook retired this summer with 209. Jokic has won 98 in almost 500 fewer games. Last season he got one almost every other night. At that pace the 12 he needs take about 23 games and Denver's 27th game is Christmas Day at Golden State. Last Christmas he dropped 56, 16, and 15, a line nobody in NBA history had ever posted. This Christmas the record could already be his.",
+  "voice": "P0_pv2_current",
+  "voice_id": "GDS7e7WiI4GqkoRxZAFG",
+  "label": "current production Pham (pham v2, Oct 5-14 settings)",
+  "settings": {
+   "stability": 0.65,
+   "similarity_boost": 0.7,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.15
+  }
+ },
+ "R4_P1_pham_orig_t1": {
+  "name": "R4_P1_pham_orig_t1",
+  "dur": 28.28,
+  "speech_s": 28.04,
+  "wpm": 205,
+  "gaps_over_0p3": 2.0,
+  "max_gap": 0.46,
+  "wer_clean": 11.0,
+  "wer_phone": 14.6,
+  "names_clean": {
+   "wembanyama": false,
+   "jamarion": false,
+   "jokic": true,
+   "antetokounmpo": false,
+   "giannis": false
+  },
+  "names_phone": {
+   "wembanyama": false,
+   "jamarion": false,
+   "jokic": true,
+   "antetokounmpo": false,
+   "giannis": false
+  },
+  "numbers_clean": {
+   "350": false,
+   "zero": false,
+   "7-5": false
+  },
+  "numbers_phone": {
+   "350": false,
+   "zero": false,
+   "7-5": false
+  },
+  "pitch_sd_semitones": 4.44,
+  "loudness_sd_db": 3.16,
+  "hnr": 9.0,
+  "jitter": 2.81,
+  "shimmer": 9.49,
+  "f0_med": 182.0,
+  "heard_clean": "Russell Westbrook needed 18 seasons to set the triple -double record. Nikola Jokic could take it before Christmas. Westbrook retired this summer with 209. Jokic has 198 in almost 500 fewer games. Last season, he got one almost every other night. At that pace, the 12 he needs take about 23 games. And Denver's 27th game is Christmas Day at Golden State. Last Christmas, he dropped 56, 16, and 15, a line nobody in NBA history had ever posted. This Christmas, the record could already be his. is.",
+  "heard_phone": "Russell Westbrook needed 18 seasons to set the triple double record. Nikola Jokic could take it before Christmas. Westbrook retired this summer with 209. Jokic has 198 in almost 500 fewer games. Last season, he got one almost every other night. At that pace, the 12 he needs take about 23 games. And Denver's 27th game is Christmas Day at Golden State. Last Christmas, he dropped 56, 16 and 15, a line nobody in NBA history had ever posted. This Christmas, the record could already be his. Thank you very much.",
+  "voice": "P1_pham_orig",
+  "voice_id": "H2ovX6h6fD6dmyrg5SkI",
+  "label": "original 'Pham' clone (one 27 s sample), fixed settings",
+  "settings": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.1
+  }
+ },
+ "R4_P1_pham_orig_t2": {
+  "name": "R4_P1_pham_orig_t2",
+  "dur": 28.24,
+  "speech_s": 27.86,
+  "wpm": 207,
+  "gaps_over_0p3": 5.0,
+  "max_gap": 0.4,
+  "wer_clean": 9.8,
+  "wer_phone": 12.2,
+  "names_clean": {
+   "wembanyama": false,
+   "jamarion": false,
+   "jokic": true,
+   "antetokounmpo": false,
+   "giannis": false
+  },
+  "names_phone": {
+   "wembanyama": false,
+   "jamarion": false,
+   "jokic": true,
+   "antetokounmpo": false,
+   "giannis": false
+  },
+  "numbers_clean": {
+   "350": false,
+   "zero": false,
+   "7-5": false
+  },
+  "numbers_phone": {
+   "350": false,
+   "zero": false,
+   "7-5": false
+  },
+  "pitch_sd_semitones": 4.6,
+  "loudness_sd_db": 2.61,
+  "hnr": 8.7,
+  "jitter": 2.89,
+  "shimmer": 9.3,
+  "f0_med": 167.0,
+  "heard_clean": "Russell Westbrook needed 18 seasons to set the triple double record. Nikola Jokic could take it before Christmas. Westbrook retired this summer with 209. Jokic has won 98 in almost 500 fewer games. Last season he got one almost every other night. At that pace the 12 he needs take about 23 games. And Denver's 27th game is Christmas Day at Golden State. Last Christmas he dropped 56, 16, and 15, a line nobody in NBA history had ever posted. This Christmas the record could already be his.",
+  "heard_phone": "Russell Westbrook needed 18 seasons to set the triple -double record. Nikola Jokic could take it before Christmas. Westbrook retired this summer with 209. Jokic has won 98 in almost 500 fewer games. Last season he got one almost every other night. At that pace the 12 he needs take about 23 games. And Denver's 27th game is Christmas Day at Golden State. Last Christmas he dropped 56, 16, and 15. Aligned nobody in NBA history had ever posted. This Christmas the record could already be his.",
+  "voice": "P1_pham_orig",
+  "voice_id": "H2ovX6h6fD6dmyrg5SkI",
+  "label": "original 'Pham' clone (one 27 s sample), fixed settings",
+  "settings": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.1
+  }
+ },
+ "R4_N_pham_v3_t1": {
+  "name": "R4_N_pham_v3_t1",
+  "dur": 25.54,
+  "speech_s": 25.26,
+  "wpm": 228,
+  "gaps_over_0p3": 1.0,
+  "max_gap": 0.34,
+  "wer_clean": 9.8,
+  "wer_phone": 11.0,
+  "names_clean": {
+   "wembanyama": false,
+   "jamarion": false,
+   "jokic": true,
+   "antetokounmpo": false,
+   "giannis": false
+  },
+  "names_phone": {
+   "wembanyama": false,
+   "jamarion": false,
+   "jokic": true,
+   "antetokounmpo": false,
+   "giannis": false
+  },
+  "numbers_clean": {
+   "350": false,
+   "zero": false,
+   "7-5": false
+  },
+  "numbers_phone": {
+   "350": false,
+   "zero": false,
+   "7-5": false
+  },
+  "pitch_sd_semitones": 3.68,
+  "loudness_sd_db": 2.23,
+  "hnr": 8.3,
+  "jitter": 2.73,
+  "shimmer": 9.61,
+  "f0_med": 210.0,
+  "heard_clean": "Russell Westbrook needed 18 seasons to set the triple double record. Nikola Jokic could take it before Christmas. Westbrook retired this summer with 209. Jokic has 198 in almost 500 fewer games. Last season, he got one almost every other night. At that pace, the 12 he needs take about 23 games, and Denver's 27th game is Christmas Day at Golden State. Last Christmas, he dropped 56, 16, and 15, a line nobody in NBA history had ever posted. This Christmas, the record could already be his.",
+  "heard_phone": "Russell Westbrook needed 18 seasons to set the triple -double record. Nikola Jokic could take it before Christmas. Westbrook retired this summer with 209. Jokic has 198 in almost 500 fewer games. Last season he got one almost every other night. At that pace, the 12 he needs to take about 23 games. And Denver's 27th game is Christmas Day at Golden State. Last Christmas he dropped 56, 16 and 15, a line nobody in NBA history had ever posted. This Christmas the record could already be his.",
+  "voice": "N_pham_v3",
+  "voice_id": "61QfR1QEcJUskHn8yioH",
+  "label": "NEW clone 'Pham v3' (de-duplicated recordings), fixed settings",
+  "settings": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.1
+  }
+ },
+ "R4_N_pham_v3_t2": {
+  "name": "R4_N_pham_v3_t2",
+  "dur": 24.43,
+  "speech_s": 24.16,
+  "wpm": 238,
+  "gaps_over_0p3": 0.0,
+  "max_gap": 0.26,
+  "wer_clean": 9.8,
+  "wer_phone": 9.8,
+  "names_clean": {
+   "wembanyama": false,
+   "jamarion": false,
+   "jokic": true,
+   "antetokounmpo": false,
+   "giannis": false
+  },
+  "names_phone": {
+   "wembanyama": false,
+   "jamarion": false,
+   "jokic": true,
+   "antetokounmpo": false,
+   "giannis": false
+  },
+  "numbers_clean": {
+   "350": false,
+   "zero": false,
+   "7-5": false
+  },
+  "numbers_phone": {
+   "350": false,
+   "zero": false,
+   "7-5": false
+  },
+  "pitch_sd_semitones": 3.83,
+  "loudness_sd_db": 2.18,
+  "hnr": 8.3,
+  "jitter": 2.96,
+  "shimmer": 9.64,
+  "f0_med": 194.0,
+  "heard_clean": "Russell Westbrook needed 18 seasons to set the triple -double record. Nikola Jokic could take it before Christmas. Westbrook retired this summer with 209. Jokic has 198 in almost 500 fewer games. Last season, he got one almost every other night. At that pace, the 12 he needs take about 23 games, and Denver's 27th game is Christmas Day at Golden State. Last Christmas, he dropped 56, 16, and 15, a line nobody in NBA history had ever posted. This Christmas, the record could already be his.",
+  "heard_phone": "Russell Westbrook needed 18 seasons to set the triple -double record. Nikola Jokic could take it before Christmas. Westbrook retired this summer with 209. Jokic has 198 in almost 500 fewer games. Last season, he got one almost every other night. At that pace, the 12 he needs take about 23 games, and Denver's 27th game is Christmas Day at Golden State. Last Christmas, he dropped 56, 16, and 15, a line nobody in NBA history had ever posted. This Christmas, the record could already be his.",
+  "voice": "N_pham_v3",
+  "voice_id": "61QfR1QEcJUskHn8yioH",
+  "label": "NEW clone 'Pham v3' (de-duplicated recordings), fixed settings",
+  "settings": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.1
+  }
+ }
+}

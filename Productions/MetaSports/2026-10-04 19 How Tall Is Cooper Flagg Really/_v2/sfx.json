@@ -1,0 +1,6 @@
+[
+  {"sfx": "camera", "at": 4.66, "gain": -8, "why": "media-day presser"},
+  {"sfx": "dribble", "at": 14.32, "gain": -12, "why": "Flagg dribbling on screen"},
+  {"sfx": "whoosh", "at": 17.55, "gain": -11, "why": "turn into six-eleven"},
+  {"sfx": "ding", "at": 22.54, "gain": -17, "why": "the height ladder lands"}
+]

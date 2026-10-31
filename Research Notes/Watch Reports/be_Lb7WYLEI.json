@@ -1,0 +1,210 @@
+{
+ "length_s": 80.5,
+ "topic": "Reviewing the Kawhi Leonard Clippers era basketball seasons and achievements.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "Now that the Kawhi Clippers era is officially over,",
+  "first_frame": "Animated Kawhi Leonard players standing on a basketball court",
+  "on_screen_text_0_3s": "Reviewing the Kawhi Leonard Clippers Era:",
+  "shots_in_first_3s": 3
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 1.7,
+   "shows": "animated basketball players lined up on court",
+   "kind": "action"
+  },
+  {
+   "start_s": 1.7,
+   "end_s": 5.9,
+   "shows": "animated Kawhi players with season records moving",
+   "kind": "action"
+  },
+  {
+   "start_s": 5.9,
+   "end_s": 7.9,
+   "shows": "expectation comic meme of Kawhi and Paul George",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 7.9,
+   "end_s": 9.9,
+   "shows": "reality meme of Kawhi and Paul George on crutches",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 9.9,
+   "end_s": 13.9,
+   "shows": "animated players lineup walking left",
+   "kind": "action"
+  },
+  {
+   "start_s": 13.9,
+   "end_s": 17.9,
+   "shows": "chalkboard stats for Kawhi Leonard on Clippers",
+   "kind": "text_card"
+  },
+  {
+   "start_s": 17.9,
+   "end_s": 27.2,
+   "shows": "animated Paul George and opponents year by year",
+   "kind": "action"
+  },
+  {
+   "start_s": 27.2,
+   "end_s": 31.6,
+   "shows": "game footage of Devin Booker dunking",
+   "kind": "replay"
+  },
+  {
+   "start_s": 31.6,
+   "end_s": 37.2,
+   "shows": "Kawhi sitting on bench watching",
+   "kind": "replay"
+  },
+  {
+   "start_s": 37.2,
+   "end_s": 41.5,
+   "shows": "reality meme of Kawhi and Paul George on crutches",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 41.5,
+   "end_s": 48.7,
+   "shows": "game footage of Kawhi Leonard shot in Raptors uniform",
+   "kind": "replay"
+  },
+  {
+   "start_s": 48.7,
+   "end_s": 51.6,
+   "shows": "animated Paul George and teammates",
+   "kind": "action"
+  },
+  {
+   "start_s": 51.6,
+   "end_s": 54.9,
+   "shows": "animated Shai Gilgeous-Alexander and Paul George trade illustration",
+   "kind": "action"
+  },
+  {
+   "start_s": 54.9,
+   "end_s": 58.7,
+   "shows": "James Harden and Kawhi Leonard on bench",
+   "kind": "replay"
+  },
+  {
+   "start_s": 58.7,
+   "end_s": 65.7,
+   "shows": "close up of Kawhi Leonard looking sad on court",
+   "kind": "replay"
+  },
+  {
+   "start_s": 65.7,
+   "end_s": 67.9,
+   "shows": "Kawhi and Harden on bench",
+   "kind": "replay"
+  },
+  {
+   "start_s": 67.9,
+   "end_s": 69.1,
+   "shows": "chalkboard stats for Kawhi Leonard on Clippers",
+   "kind": "text_card"
+  },
+  {
+   "start_s": 69.1,
+   "end_s": 71.6,
+   "shows": "animated Kawhi with Raptors and draft picks",
+   "kind": "action"
+  },
+  {
+   "start_s": 71.6,
+   "end_s": 77.8,
+   "shows": "animated players lineup with new point guard",
+   "kind": "action"
+  },
+  {
+   "start_s": 77.8,
+   "end_s": 80.5,
+   "shows": "expectation and reality meme recap",
+   "kind": "screenshot"
+  }
+ ],
+ "shot_count": 20,
+ "average_shot_s": 4.02,
+ "longest_shot_s": 7.2,
+ "voice": {
+  "type": "human",
+  "gender": "male",
+  "words_per_minute_estimate": 175,
+  "tone": "conversational",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "upbeat hip hop beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": false,
+  "words_per_line": 0,
+  "case": "mixed",
+  "position": "middle",
+  "colours": [],
+  "highlight_style": "none"
+ },
+ "text_overlays": [
+  {
+   "at_s": 0.0,
+   "text": "Reviewing the Kawhi Leonard Clippers Era:"
+  },
+  {
+   "at_s": 6.0,
+   "text": "Expectation"
+  },
+  {
+   "at_s": 8.5,
+   "text": "Reality"
+  },
+  {
+   "at_s": 14.0,
+   "text": "Leonard on the Clippers:\n7 Seasons\n5 Post Season\n3 Series Wins\n1* WCF\n0 Finals"
+  }
+ ],
+ "cards_or_graphics": 3,
+ "framing": "crop",
+ "ending": {
+  "last_words": "of failure.",
+  "last_frame": "Reality meme of Kawhi and Paul George on crutches",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "Now that the Kawhi Leonard Clippers era is officially over, and looking back at it, this might be one of the worst win-now failures in NBA history. Kawhi spent seven seasons with the Clippers. From 2019 to 2026. Leonard on the Clippers: 7 seasons, 5 postseason, 3 series wins, 1 Western Conference Finals, 0 finals. Since the postseason experiences were underwhelming, they won just three playoff series in seven years. Their deepest run came in 2021 when the Clippers reached their first Western Conference Finals in franchise history. Which isn't a big deal, but Kawhi didn't even play in that series because he tore his ACL against Utah, meaning Kawhi himself never played past the second round as a Clipper. Compare that to his time in Toronto, where in just one single season in 2019, Kawhi won four playoff series and an NBA championship. Remember what the Clippers gave up to build this team? They traded Shai Gilgeous-Alexander and a massive amount of picks for Paul George. So Kawhi would stay there. The Clippers were consistently good, but injuries kept destroying their championship chances. So after seven seasons with just five playoff appearances, three series wins, one conference finals appearance, no NBA finals and no championships. And now the Kawhi era is going back to Toronto. The Clippers are technically younger and trying to retool, but considering expectations and everything that they lost after the scandal, I think you have to call this Kawhi Clippers era a failure.",
+ "retention_tricks": [
+  "rapid-fire cuts",
+  "meme visuals and animations",
+  "historical stats comparison"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": true,
+  "promise_in_first_line": false,
+  "ends_on_payoff": true,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "Engaging animated character illustrations paired with real stats",
+  "Humorous memes contrasting expectations with reality",
+  "Clear narrative structure reviewing a high-profile sports era"
+ ],
+ "_meta": {
+  "source": "be_Lb7WYLEI",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

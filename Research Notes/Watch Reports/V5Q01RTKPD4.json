@@ -1,0 +1,97 @@
+{
+ "length_s": 16.0,
+ "topic": "An analysis of a basketball play involving Grayson Allen showing why it should have been called a travel.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "Somebody sent me this video telling me this wasn't a travel.",
+  "first_frame": "Grason Allen holding the basketball on the court during a game.",
+  "on_screen_text_0_3s": "Somebody sent me this video telling me this wasn't a travel.",
+  "shots_in_first_3s": 2
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 2.1,
+   "shows": "Grayson Allen dribbling and moving with the ball on the basketball court",
+   "kind": "action"
+  },
+  {
+   "start_s": 2.1,
+   "end_s": 5.9,
+   "shows": "Replay zoom-in on Grayson Allen's feet during the gather step with a red circle highlighting footwork",
+   "kind": "replay"
+  },
+  {
+   "start_s": 5.9,
+   "end_s": 10.9,
+   "shows": "Action shot of Allen executing a pump fake and step-through move",
+   "kind": "action"
+  },
+  {
+   "start_s": 10.9,
+   "end_s": 16.0,
+   "shows": "Replay slow-motion view of Allen's pivot foot lifting, with a red circle highlighting the travel",
+   "kind": "replay"
+  }
+ ],
+ "shot_count": 4,
+ "average_shot_s": 4.0,
+ "longest_shot_s": 5.0,
+ "voice": {
+  "type": "human",
+  "gender": "male",
+  "words_per_minute_estimate": 165,
+  "tone": "analytical and educational",
+  "original_audio_under_voice": true
+ },
+ "music": {
+  "present": false,
+  "style": "none",
+  "level_vs_voice": "none",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "sentence",
+  "position": "middle",
+  "colours": "white",
+  "highlight_style": "none"
+ },
+ "text_overlays": [],
+ "cards_or_graphics": 0,
+ "framing": "crop",
+ "ending": {
+  "last_words": "not have counted!",
+  "last_frame": "Grayson Allen completing his jump shot towards the basket.",
+  "loops_to_start": true,
+  "call_to_action": "none"
+ },
+ "script": "Somebody sent me this video telling me this wasn't a travel. Here, Grayson Allen gathers the ball, taking a gather step which doesn't count. Then he takes his two legal steps on this pump fake move. He then goes for the step through, but here's where he actually travels. If you look closely, he lifts his pivot foot slightly before the step through motion, so the shot should not have counted!",
+ "retention_tricks": [
+  "replays",
+  "zooms",
+  "visual red circles highlighting key footwork details"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": true,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "Clear visual highlights using red circles to prove the traveling violation",
+  "Step-by-step breakdown of NBA footwork rules in plain English",
+  "Uses slow-motion replay of the key moment to make the explanation easy to follow"
+ ],
+ "_meta": {
+  "source": "V5Q01RTKPD4",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

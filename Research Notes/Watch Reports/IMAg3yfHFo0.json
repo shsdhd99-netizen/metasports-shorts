@@ -1,0 +1,160 @@
+{
+ "length_s": 27.25,
+ "topic": "A compilation of Pau Cubarsí celebrating a football victory with his girlfriend on the pitch.",
+ "lane": "moment",
+ "hook": {
+  "first_words": "none",
+  "first_frame": "Pau Cubarsí sitting on the grass with his girlfriend, holding a trophy.",
+  "on_screen_text_0_3s": "CUBARSI HIS GF SEE MY AWARD GIVE IT TO ME",
+  "shots_in_first_3s": 1
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 5.0,
+   "shows": "Cubarsí sitting on the pitch with his girlfriend, showing her the trophy and embracing.",
+   "kind": "action"
+  },
+  {
+   "start_s": 5.0,
+   "end_s": 13.5,
+   "shows": "They kiss, then embrace tightly while other players walk past.",
+   "kind": "action"
+  },
+  {
+   "start_s": 13.5,
+   "end_s": 14.7,
+   "shows": "A hand using a TV remote control to simulate a rewind effect over the scene.",
+   "kind": "action"
+  },
+  {
+   "start_s": 14.7,
+   "end_s": 17.8,
+   "shows": "They sit back up, smiling and laughing together.",
+   "kind": "action"
+  },
+  {
+   "start_s": 17.8,
+   "end_s": 27.25,
+   "shows": "They pose with the trophy while someone takes a photo of them.",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 5,
+ "average_shot_s": 5.45,
+ "longest_shot_s": 9.45,
+ "voice": {
+  "type": "none",
+  "gender": "unknown",
+  "words_per_minute_estimate": 0,
+  "tone": "unknown",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "Upbeat romantic pop song with pitched-up vocals",
+  "level_vs_voice": "loud",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "ALL CAPS",
+  "position": "middle",
+  "colours": [
+   "white",
+   "yellow",
+   "cyan"
+  ],
+  "highlight_style": "animated pop-up text matching dialogue cues"
+ },
+ "text_overlays": [
+  {
+   "at_s": 0.0,
+   "text": "CUBARSI / HIS GF"
+  },
+  {
+   "at_s": 1.7,
+   "text": "*SEE MY AWARD*"
+  },
+  {
+   "at_s": 2.7,
+   "text": "*GIVE IT TO ME*"
+  },
+  {
+   "at_s": 5.2,
+   "text": "*I KISS YOU*"
+  },
+  {
+   "at_s": 7.1,
+   "text": "*WAIT CAMERA ON*"
+  },
+  {
+   "at_s": 9.0,
+   "text": "*I DON'T CARE*"
+  },
+  {
+   "at_s": 10.7,
+   "text": "*KISS TIME*"
+  },
+  {
+   "at_s": 13.7,
+   "text": "*ENOUGH FOR NOW*"
+  },
+  {
+   "at_s": 16.2,
+   "text": "*HAPPY*"
+  },
+  {
+   "at_s": 19.2,
+   "text": "*PHOTO TIME*"
+  },
+  {
+   "at_s": 22.2,
+   "text": "*READYYY*"
+  },
+  {
+   "at_s": 24.5,
+   "text": "*LOVE*"
+  },
+  {
+   "at_s": 27.0,
+   "text": "SHE LOVES HIM"
+  }
+ ],
+ "cards_or_graphics": 0,
+ "framing": "crop",
+ "ending": {
+  "last_words": "none",
+  "last_frame": "Cubarsí and his girlfriend smiling while posing for a photo with the trophy.",
+  "loops_to_start": true,
+  "call_to_action": "none"
+ },
+ "script": "",
+ "retention_tricks": [
+  "Simulated TV remote rewind effect",
+  "On-screen simulated dialogue text in asterisks",
+  "Emoji overlays (blushing face, heart eyes)"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": false,
+  "ends_on_payoff": true,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "Heartwarming and relatable romantic moment captured after a major sports victory",
+  "Playful simulated dialogue text tracking the couple's interaction",
+  "Energetic music track that drives the pacing of the video"
+ ],
+ "_meta": {
+  "source": "IMAg3yfHFo0",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

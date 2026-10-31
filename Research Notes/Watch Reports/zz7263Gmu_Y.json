@@ -1,0 +1,166 @@
+{
+ "length_s": 78,
+ "topic": "An animated and video breakdown of why Miami Heat's Bam Adebayo allegedly punched teammate Tyler Herro.",
+ "lane": "moment",
+ "hook": {
+  "first_words": "According to the athletic Bam Adebayo punches former teammate Tyler Herro without hesitation leaving a small mark under his left eye.",
+  "first_frame": "An animated depiction of Tyler Herro and Bam Adebayo on a basketball court with text asking 'Why did Bam Adebayo punch Tyler Herro?'",
+  "on_screen_text_0_3s": "Why Did Bam Adebayo Punch Tyler Herro?",
+  "shots_in_first_3s": 2
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 1.0,
+   "shows": "animated basketball court with Bam Adebayo and Tyler Herro caricatures",
+   "kind": "animation"
+  },
+  {
+   "start_s": 1.0,
+   "end_s": 7.0,
+   "shows": "animated punch and aftermath with black eye",
+   "kind": "animation"
+  },
+  {
+   "start_s": 7.0,
+   "end_s": 11.0,
+   "shows": "phone screen with Instagram DMs",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 11.0,
+   "end_s": 19.0,
+   "shows": "phone screen scrolling through DMs",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 19.0,
+   "end_s": 26.0,
+   "shows": "mock video game fighting clip of Herro and Adebayo",
+   "kind": "action"
+  },
+  {
+   "start_s": 26.0,
+   "end_s": 33.0,
+   "shows": "real basketball game footage of Heat players shoving and falling",
+   "kind": "replay"
+  },
+  {
+   "start_s": 33.0,
+   "end_s": 40.0,
+   "shows": "animated scoreboard and players shaking hands",
+   "kind": "animation"
+  },
+  {
+   "start_s": 40.0,
+   "end_s": 44.0,
+   "shows": "fans sitting courtside at Summer League",
+   "kind": "stock"
+  },
+  {
+   "start_s": 44.0,
+   "end_s": 60.0,
+   "shows": "Tyler Herro in post-game interview",
+   "kind": "face"
+  },
+  {
+   "start_s": 60.0,
+   "end_s": 66.0,
+   "shows": "Tyler Herro holding paper slip in studio",
+   "kind": "face"
+  },
+  {
+   "start_s": 66.0,
+   "end_s": 72.0,
+   "shows": "Tyler Herro talking in studio setting",
+   "kind": "face"
+  },
+  {
+   "start_s": 72.0,
+   "end_s": 76.0,
+   "shows": "Bam Adebayo talking in studio setting",
+   "kind": "face"
+  },
+  {
+   "start_s": 76.0,
+   "end_s": 78.0,
+   "shows": "Tyler Herro and Bam Adebayo laughing in studio",
+   "kind": "face"
+  }
+ ],
+ "shot_count": 13,
+ "average_shot_s": 6.0,
+ "longest_shot_s": 16.0,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 160,
+  "tone": "casual and informative sports narrator",
+  "original_audio_under_voice": true
+ },
+ "music": {
+  "present": true,
+  "style": "upbeat hip-hop beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [
+  {
+   "at_s": 0.5,
+   "sound": "punch impact sound"
+  },
+  {
+   "at_s": 25.5,
+   "sound": "explosion sound effect"
+  }
+ ],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "mixed",
+  "position": "middle",
+  "colours": "white with yellow highlights",
+  "highlight_style": "word by word color change"
+ },
+ "text_overlays": [
+  {
+   "at_s": 0.0,
+   "text": "Why Did Bam Adebayo Punch Tyler Herro?"
+  }
+ ],
+ "cards_or_graphics": 3,
+ "framing": "cropped with blurred background and vertical framing",
+ "ending": {
+  "last_words": "Bam laughing and covering his face",
+  "last_frame": "Bam Adebayo laughing and covering his face with his hand",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "According to the Athletic, Bam Adebayo punches former teammate Tyler Herro without hesitation, leaving a small mark under his left eye. Allegedly and this is just a rumor, the fight happened because of this sleep DM between Tyler Herro and a random Miami Heat fan. The messages are kind of confusing, but to make a long story short, these messages are a discussion between Herro believing Bam was being treated as Miami's franchise player and being paid like one, while Hero got the short end of the stick when they lose. Hero believing Bam was inconsistent and overpaid gets the credit when they win and blame when they lose. This allegedly affected Bam so that they got physical when they met in person. Unclear if things are patched up privately, as say, but Hero just hours later on the same day saying positive things about the Heat organization and his teammates. All love in Miami. You know, I've seen a couple of the guys and the coaching staff, Chris Quinn, Spo, the front office guys. We're all good in Miami and you know, and for the sake of irony, here's an old clip of Bam saying he'll choose T as in Tyler Hero to save him in a street fight. Like if a fight breaks out, who's coming to save you? Not save you, but beat nexst to you. T, just cause we got the longest relationship.",
+ "retention_tricks": [
+  "question hook at the start",
+  "animated visual breakdown",
+  "social media screenshots",
+  "rapid-fire cuts between animations, memes, and interviews"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": true,
+  "promise_in_first_line": true,
+  "ends_on_payoff": false,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "Combines pop-culture sports animations with real receipts and interviews",
+  "Fast pacing keeps the viewer guessing about the real drama",
+  "Humorous editing blends memes and game footage seamlessly"
+ ],
+ "_meta": {
+  "source": "zz7263Gmu_Y",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

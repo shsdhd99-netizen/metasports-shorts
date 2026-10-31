@@ -1,0 +1,389 @@
+{
+ "length_s": 138.25,
+ "topic": "An explanation of the drama and fallout between Cristiano Ronaldo and Portugal coach Jorge Jesus after Ronaldo was left on the bench against Norway.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "So what EXACTLY happened between",
+  "first_frame": "Split-screen frame featuring Cristiano Ronaldo gesturing on the pitch at top and a male presenter talking at the bottom.",
+  "on_screen_text_0_3s": "So what EXACTLY happened between Cristiano RONALDO and Portugal?",
+  "shots_in_first_3s": 1
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 3.5,
+   "shows": "Cristiano Ronaldo gesturing in frustration on the pitch during a match.",
+   "kind": "action"
+  },
+  {
+   "start_s": 3.5,
+   "end_s": 7.0,
+   "shows": "Cristiano Ronaldo walking past Jorge Jesus and staff on the sidelines.",
+   "kind": "action"
+  },
+  {
+   "start_s": 7.0,
+   "end_s": 10.0,
+   "shows": "Jorge Jesus instructing a player on the touchline.",
+   "kind": "action"
+  },
+  {
+   "start_s": 10.0,
+   "end_s": 13.0,
+   "shows": "Al-Nassr team celebrating winning the league trophy with 'CHAMPIONS 2025-26' text.",
+   "kind": "action"
+  },
+  {
+   "start_s": 13.0,
+   "end_s": 16.5,
+   "shows": "Jorge Jesus standing with Al-Nassr and Portugal national team crest graphics behind him.",
+   "kind": "still"
+  },
+  {
+   "start_s": 16.5,
+   "end_s": 17.75,
+   "shows": "Close-up of Cristiano Ronaldo in a red Portugal jersey on the field.",
+   "kind": "action"
+  },
+  {
+   "start_s": 17.75,
+   "end_s": 19.25,
+   "shows": "Jorge Jesus presentation screen displaying 'VIEMOS PARA VENCER!'.",
+   "kind": "still"
+  },
+  {
+   "start_s": 19.25,
+   "end_s": 20.75,
+   "shows": "Ronaldo conversing with teammate Sadio Mane on the pitch.",
+   "kind": "action"
+  },
+  {
+   "start_s": 20.75,
+   "end_s": 24.75,
+   "shows": "Ronaldo lifting the Saudi League trophy with Al-Nassr teammates.",
+   "kind": "action"
+  },
+  {
+   "start_s": 24.75,
+   "end_s": 28.25,
+   "shows": "Wide field shot of a Nations League match between Portugal and Norway.",
+   "kind": "action"
+  },
+  {
+   "start_s": 28.25,
+   "end_s": 30.5,
+   "shows": "Split photo showing Cristiano Ronaldo and Jorge Jesus at a press backdrop.",
+   "kind": "still"
+  },
+  {
+   "start_s": 30.5,
+   "end_s": 33.0,
+   "shows": "Cristiano Ronaldo walking on the sidelines wearing a yellow training bib.",
+   "kind": "action"
+  },
+  {
+   "start_s": 33.0,
+   "end_s": 36.0,
+   "shows": "Ronaldo sitting on the substitutes' bench pouring water over his head.",
+   "kind": "action"
+  },
+  {
+   "start_s": 36.0,
+   "end_s": 39.5,
+   "shows": "Goncalo Ramos scoring a goal against Norway.",
+   "kind": "action"
+  },
+  {
+   "start_s": 39.5,
+   "end_s": 41.75,
+   "shows": "Goncalo Ramos celebrating with score graphic 2-1 overlay.",
+   "kind": "action"
+  },
+  {
+   "start_s": 41.75,
+   "end_s": 47.75,
+   "shows": "Ronaldo warming up, high-kicking, and stretching on the sideline.",
+   "kind": "action"
+  },
+  {
+   "start_s": 47.75,
+   "end_s": 49.75,
+   "shows": "Reaction meme clip of Kevin Hart looking confused and staring.",
+   "kind": "face"
+  },
+  {
+   "start_s": 49.75,
+   "end_s": 51.0,
+   "shows": "Jorge Jesus shouting instructions from the touchline.",
+   "kind": "action"
+  },
+  {
+   "start_s": 51.0,
+   "end_s": 53.75,
+   "shows": "Cristiano Ronaldo with graphic '0 MINUTES' printed above his head.",
+   "kind": "still"
+  },
+  {
+   "start_s": 53.75,
+   "end_s": 56.0,
+   "shows": "Ronaldo celebrating Euro 2016 triumph in excitement.",
+   "kind": "action"
+  },
+  {
+   "start_s": 56.0,
+   "end_s": 58.25,
+   "shows": "Ronaldo looking upward in his Portugal kit during team anthem.",
+   "kind": "action"
+  },
+  {
+   "start_s": 58.25,
+   "end_s": 103.0,
+   "shows": "Ronaldo sitting in a blue bench jacket and later heading straight down the tunnel.",
+   "kind": "action"
+  },
+  {
+   "start_s": 103.0,
+   "end_s": 105.0,
+   "shows": "Meme clip of a man with glasses looking intensely into the camera.",
+   "kind": "face"
+  },
+  {
+   "start_s": 105.0,
+   "end_s": 108.5,
+   "shows": "Jorge Jesus speaking into a microphone at a formal press conference.",
+   "kind": "action"
+  },
+  {
+   "start_s": 108.5,
+   "end_s": 110.75,
+   "shows": "Wide stage view of Jorge Jesus at a press presentation.",
+   "kind": "still"
+  },
+  {
+   "start_s": 110.75,
+   "end_s": 112.25,
+   "shows": "Jorge Jesus addressing reporters at a press conference podium.",
+   "kind": "action"
+  },
+  {
+   "start_s": 112.25,
+   "end_s": 117.0,
+   "shows": "Graphic card showing Jorge Jesus quote: 'THERE IS NO CASE OR CONFLICT BETWEEN ME AND CRIS.'",
+   "kind": "still"
+  },
+  {
+   "start_s": 117.0,
+   "end_s": 119.0,
+   "shows": "Close-up of Ronaldo looking emotional.",
+   "kind": "action"
+  },
+  {
+   "start_s": 119.0,
+   "end_s": 122.75,
+   "shows": "Match view followed by close-up of Ronaldo looking disappointed.",
+   "kind": "action"
+  },
+  {
+   "start_s": 122.75,
+   "end_s": 125.75,
+   "shows": "Goncalo Ramos with expected goals stat overlay '1.04 PORTUGAL XG'.",
+   "kind": "still"
+  },
+  {
+   "start_s": 125.75,
+   "end_s": 128.75,
+   "shows": "Erling Haaland smiling with expected goals stat overlay '2.52 NORWAY XG'.",
+   "kind": "still"
+  },
+  {
+   "start_s": 128.75,
+   "end_s": 132.75,
+   "shows": "Match gameplay footage from Portugal vs Norway.",
+   "kind": "action"
+  },
+  {
+   "start_s": 132.75,
+   "end_s": 134.5,
+   "shows": "Goncalo Ramos celebrating a goal for Portugal.",
+   "kind": "action"
+  },
+  {
+   "start_s": 134.5,
+   "end_s": 136.5,
+   "shows": "JonTron meme reaction clip saying 'didn't see it that way'.",
+   "kind": "face"
+  },
+  {
+   "start_s": 136.5,
+   "end_s": 138.75,
+   "shows": "Jorge Jesus speaking at press conference.",
+   "kind": "action"
+  },
+  {
+   "start_s": 138.75,
+   "end_s": 140.25,
+   "shows": "Ronaldo looking serious in green Portugal tracksuit.",
+   "kind": "action"
+  },
+  {
+   "start_s": 140.25,
+   "end_s": 142.25,
+   "shows": "Ronaldo stepping off team bus.",
+   "kind": "action"
+  },
+  {
+   "start_s": 142.25,
+   "end_s": 149.0,
+   "shows": "Newspaper headline graphic card: 'Ronaldo Walks Out on Portugal Camp After Jesus Snub'.",
+   "kind": "text_card"
+  },
+  {
+   "start_s": 149.0,
+   "end_s": 150.5,
+   "shows": "Portugal fans chanting in stadium stands.",
+   "kind": "action"
+  },
+  {
+   "start_s": 150.5,
+   "end_s": 154.0,
+   "shows": "Ronaldo smiling and celebrating in white Portugal jersey.",
+   "kind": "action"
+  },
+  {
+   "start_s": 154.0,
+   "end_s": 158.5,
+   "shows": "Ronaldo walking off the pitch towards tunnel at Manchester United.",
+   "kind": "action"
+  },
+  {
+   "start_s": 158.5,
+   "end_s": 164.0,
+   "shows": "Clip from Cristiano Ronaldo's interview with Piers Morgan.",
+   "kind": "action"
+  },
+  {
+   "start_s": 164.0,
+   "end_s": 166.75,
+   "shows": "Ronaldo shouting in joy in a Portugal shirt.",
+   "kind": "action"
+  },
+  {
+   "start_s": 166.75,
+   "end_s": 169.5,
+   "shows": "Ronaldo lifting Euro 2016 trophy with national team.",
+   "kind": "action"
+  },
+  {
+   "start_s": 169.5,
+   "end_s": 173.5,
+   "shows": "Ronaldo giving thumbs up with text overlay '234 CAPS 146 GOALS'.",
+   "kind": "still"
+  },
+  {
+   "start_s": 173.5,
+   "end_s": 176.25,
+   "shows": "Ronaldo celebrating with arms open in Portugal white shirt.",
+   "kind": "action"
+  },
+  {
+   "start_s": 176.25,
+   "end_s": 178.25,
+   "shows": "Ronaldo kissing Euro 2016 trophy.",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 47,
+ "average_shot_s": 2.94,
+ "longest_shot_s": 6.75,
+ "voice": {
+  "type": "human",
+  "gender": "male",
+  "words_per_minute_estimate": 160,
+  "tone": "analytical, storytelling, engaging",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "ambient dark suspense background track",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 4,
+  "case": "mixed",
+  "position": "middle",
+  "colours": "white with yellow highlight",
+  "highlight_style": "yellow font color for active words"
+ },
+ "text_overlays": [
+  {
+   "at_s": 10.0,
+   "text": "CHAMPIONS 2025-26"
+  },
+  {
+   "at_s": 40.0,
+   "text": "2-1"
+  },
+  {
+   "at_s": 52.5,
+   "text": "0 MINUTES"
+  },
+  {
+   "at_s": 112.25,
+   "text": "JORGE JESUS: 'THERE IS NO CASE OR CONFLICT BETWEEN ME AND CRIS.'"
+  },
+  {
+   "at_s": 123.75,
+   "text": "1.04 PORTUGAL XG"
+  },
+  {
+   "at_s": 126.5,
+   "text": "2.52 NORWAY XG"
+  },
+  {
+   "at_s": 142.5,
+   "text": "Ronaldo Walks Out on Portugal Camp After Jesus Snub - 'In due course, I will tell the Portuguese people the truth.'"
+  },
+  {
+   "at_s": 210.5,
+   "text": "234 CAPS 146 GOALS"
+  }
+ ],
+ "cards_or_graphics": 6,
+ "framing": "split screen top video bottom presenter",
+ "ending": {
+  "last_words": "deserves to have a proper send-off with Portugal.",
+  "last_frame": "Ronaldo kissing the UEFA Euro trophy.",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "So what EXACTLY happened between Cristiano RONALDO and Portugal? Ronaldo and Portugal's new coach, Jorge Jesus, actually go way back. Jesus coached him at Al-Nassr in Saudi Arabia for the 2025-26 season, and they won the league together. Then in July 2026, Jesus gets hired as Portugal's new head coach right after the World Cup. So this isn't some random coach. Ronaldo knows this guy, and given he's the only coach Ronaldo won the Saudi league with, it seemed like the two got along beforehand. But fast-forward a few months later, Portugal has a Nations League match against Norway, and before the game, Jesus tells Ronaldo that he's going to bring him on as a sub for the final 30 minutes. So Ronaldo doesn't complain, sits on the bench, and waits. The game kicks off, and Portugal takes the lead as Goncalo Ramos scores. So the team is up two-one. Then Ronaldo finally gets sent out to warm up as he's stretching, jogging along the sideline, and getting ready to come in while the cameras are on him. But then nothing happens. Jesus never puts him in. The 90 minutes run out, and Ronaldo never gets subbed in, so for the first time in over 18 years, Ronaldo was fully available for an international match and didn't play a single minute, causing Ronaldo to go straight into the tunnel and isolate himself during training. But then things go from bad to worse. Jesus holds a press conference ahead of Portugal's next game against Denmark. Reporters are grilling him about the Ronaldo situation, and Jesus doesn't hold back. He says there's no issue between him and Ronaldo, while he says no player is ever going to change his decisions and Ronaldo won't start against Denmark either. Now, in fairness, the Norway decision made sense, even if it did break a promise. Portugal only generated 1.04 expected goals that game, while Norway created 2.52 from 22 shots. The team was under pressure defensively and bringing on an attacker didn't fit the moment, and Goncalo Ramos had also scored. But Ronaldo clearly didn't see it that way. Within minutes of Jesus finishing that press conference, Ronaldo posted on Instagram. He said he was leaving the national team camp, and he added one line that sent the entire football world into a frenzy. He said, 'In due course, I will tell the Portuguese people the truth,' something that the entire world is now patiently waiting for as the post picked up over 250,000 likes within minutes. Now, some people are pointing out that this isn't the first time that Ronaldo has clashed with his team and left. In 2022, he did an explosive interview calling out Manchester United and Erik ten Hag, and his contract got terminated. But this time, it's way bigger because it's his own country. But whatever happens, I think most people will agree that the man who has 234 caps and 146 goals for Portugal and is one of the greatest athletes, not just in football, but all sports, deserves to have a proper send-off with Portugal.",
+ "retention_tricks": [
+  "open loops",
+  "pattern interrupts",
+  "stat reveals",
+  "split-screen presenter interaction"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "Split-screen design pairs a charismatic speaker with relevant archival clips.",
+  "Pop-culture meme inserts add unexpected humor to keep the audience engaged.",
+  "Logical, step-by-step narrative structure backed by stats and headlines builds intrigue."
+ ],
+ "_meta": {
+  "source": "AoV5iZoZSms",
+  "model": "gemini-3.5-flash",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

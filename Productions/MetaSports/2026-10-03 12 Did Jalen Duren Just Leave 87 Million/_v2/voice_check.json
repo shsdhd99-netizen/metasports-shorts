@@ -1,0 +1,62 @@
+{
+ "verdict": "REDO",
+ "wpm": 224,
+ "issues": [
+  "30.24s  script \"eighty 7\" but heard \"87\"",
+  "31.42s  script \"a 100 ninety\" but heard \"190\""
+ ],
+ "notes": [
+  " 2.08s  \"duren\" heard as \"duron\" (close; check the name)",
+  " 8.74s  \"duren\" heard as \"duron\" (close; check the name)",
+  "27.62s  \"2 100\" heard as \"200\" (close; check the name)",
+  "28.94s  \"20 2\" heard as \"22\" (close; check the name)",
+  "29.70s  \"duren\" heard as \"duron\" (close; check the name)",
+  " 5.28s  dragging sentence (145 wpm): Detroit offered five years and $200 million, fully guarantee",
+  " 8.69s  dragging sentence (132 wpm): Duren wanted the max, $287 million."
+ ],
+ "heard": "$87 million. That's what Jalen Duron just left on the table, and there's one number in this story nobody's talking about. Detroit offered five years and $200 million, fully guaranteed. Duron wanted the max, 287 million, so he skipped media day and the start of camp. Then a reported weight clause hit the talks. It was never put in writing, and it was removed. But Detroit still wouldn't budge, reportedly because of his quiet playoffs as the number one seed. The deadline was midnight. Now, the number nobody's talking about. His other option was a $9.6 million qualifying offer for one year. Instead, he signed the 200 million guaranteed at 22. So did Duron lose 87 million or just win 190?",
+ "mismatches": [
+  {
+   "at": 2.08,
+   "script": "duren",
+   "heard": "duron",
+   "similar": 0.8
+  },
+  {
+   "at": 8.74,
+   "script": "duren",
+   "heard": "duron",
+   "similar": 0.8
+  },
+  {
+   "at": 27.62,
+   "script": "2 100",
+   "heard": "200",
+   "similar": 0.86
+  },
+  {
+   "at": 28.94,
+   "script": "20 2",
+   "heard": "22",
+   "similar": 0.8
+  },
+  {
+   "at": 29.7,
+   "script": "duren",
+   "heard": "duron",
+   "similar": 0.8
+  },
+  {
+   "at": 30.24,
+   "script": "eighty 7",
+   "heard": "87",
+   "similar": 0.22
+  },
+  {
+   "at": 31.42,
+   "script": "a 100 ninety",
+   "heard": "190",
+   "similar": 0.31
+  }
+ ]
+}

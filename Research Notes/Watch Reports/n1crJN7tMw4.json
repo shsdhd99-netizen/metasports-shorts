@@ -1,0 +1,122 @@
+{
+ "length_s": 25.0,
+ "topic": "A compilation of failed stunts and flips with a celebrity game countdown overlay.",
+ "lane": "moment",
+ "hook": {
+  "first_words": "unknown",
+  "first_frame": "A man in a white t-shirt and black pants in an airport terminal preparing to jump in front of a digital kiosk.",
+  "on_screen_text_0_3s": "none",
+  "shots_in_first_3s": 1
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 4.5,
+   "shows": "A man attempting a backflip in an airport terminal and failing, landing on his back.",
+   "kind": "action"
+  },
+  {
+   "start_s": 4.5,
+   "end_s": 11.0,
+   "shows": "A woman attempting a backflip on a sand dune and failing.",
+   "kind": "action"
+  },
+  {
+   "start_s": 11.0,
+   "end_s": 14.0,
+   "shows": "A man jumping on a trampoline and doing a flip into a pool.",
+   "kind": "action"
+  },
+  {
+   "start_s": 14.0,
+   "end_s": 17.5,
+   "shows": "A man trying to cross a narrow beam over water and falling in.",
+   "kind": "action"
+  },
+  {
+   "start_s": 17.5,
+   "end_s": 20.5,
+   "shows": "A man attempting a balancing trick on a pole and falling over.",
+   "kind": "action"
+  },
+  {
+   "start_s": 20.5,
+   "end_s": 25.0,
+   "shows": "A shirtless man balancing on two poles outdoors holding a pose.",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 6,
+ "average_shot_s": 4.17,
+ "longest_shot_s": 6.5,
+ "voice": {
+  "type": "none",
+  "gender": "unknown",
+  "words_per_minute_estimate": 0,
+  "tone": "unknown",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "Upbeat electronic remix track",
+  "level_vs_voice": "loud",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [
+  {
+   "at_s": 1.7,
+   "sound": "Thud sound effect on fail"
+  },
+  {
+   "at_s": 10.6,
+   "sound": "Buzzer sound effect on elimination"
+  },
+  {
+   "at_s": 24.8,
+   "sound": "Digital fanfare sound effect"
+  }
+ ],
+ "captions": {
+  "present": false,
+  "words_per_line": 0,
+  "case": "mixed",
+  "position": "bottom",
+  "colours": [],
+  "highlight_style": "none"
+ },
+ "text_overlays": [],
+ "cards_or_graphics": 1,
+ "framing": "crop",
+ "ending": {
+  "last_words": "unknown",
+  "last_frame": "A shirtless martial artist balancing on two tall poles with a floating face icon in the corner.",
+  "loops_to_start": true,
+  "call_to_action": "none"
+ },
+ "script": "",
+ "retention_tricks": [
+  "Celebrity elimination game overlay at the top tracking fails",
+  "Fast-paced action cuts with fail moments",
+  "Sound effect cues for each eliminated celebrity icon"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": true,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": false,
+  "ends_on_payoff": true,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "Engaging elimination game overlay matching player icons to video fails",
+  "High-energy comedic wipeout and stunt clips",
+  "Well-timed sound effects that punctuate each failed attempt"
+ ],
+ "_meta": {
+  "source": "n1crJN7tMw4",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}
