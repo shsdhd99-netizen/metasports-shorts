@@ -212,9 +212,12 @@ def cmd_sheet(a):
         tiles = []
         for k, t in enumerate(ts):
             f = os.path.join(out, f"_t{k}.png")
-            subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", f"{max(0, t):.2f}", "-i", p, "-frames:v", "1", "-vf",
-                            f"scale=216:384,drawtext=text='{t:.1f}':x=4:y=4:fontsize=22:fontcolor=yellow:box=1:boxcolor=black", f])
+            subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", f"{max(0, t):.2f}", "-i", p, "-frames:v", "1", "-vf", "scale=216:384", f])
             if os.path.exists(f):
+                sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+                import sheetlib
+                from PIL import Image
+                sheetlib.label(Image.open(f), f"{t:.1f}").save(f)  # PIL label: ffmpeg drawtext has no font config here
                 tiles.append(f)
         if len(tiles) < 2:
             print("  could not read frames from", s["clip"]); continue

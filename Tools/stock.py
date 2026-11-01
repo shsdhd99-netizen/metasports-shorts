@@ -42,9 +42,12 @@ def cmd_search(a):
                 p = p if os.path.exists(p) and os.path.getsize(p) > 2000 else p.replace("_t.jpg", ".mp4")
                 jpg = os.path.join(tmp, f"{i}.jpg")
                 subprocess.run(["ffmpeg", "-v", "error", "-y", *(["-ss", "1"] if p.endswith(".mp4") else []), "-i", p, "-frames:v", "1", "-vf",
-                                f"scale=320:180:force_original_aspect_ratio=decrease,pad=320:180:(ow-iw)/2:(oh-ih)/2,"
-                                f"drawtext=text='{i}':x=4:y=4:fontsize=18:fontcolor=yellow:box=1:boxcolor=black", jpg])
+                                f"scale=320:180:force_original_aspect_ratio=decrease,pad=320:180:(ow-iw)/2:(oh-ih)/2", jpg])
                 if os.path.exists(jpg):
+                    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+                    import sheetlib  # PIL label: ffmpeg drawtext has no font config on this PC
+                    from PIL import Image
+                    sheetlib.label(Image.open(jpg), i, 18).save(jpg)
                     tiles.append(jpg)
         if tiles:
             cols = min(4, len(tiles))

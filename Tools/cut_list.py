@@ -18,7 +18,7 @@ of every shot, numbered, to check framing and that the named person is on screen
 Any broll.py cut option works as a key: x, y, zoom, blurfit, blurfit_width, delogo, flip, speed (0.5 = half-speed slow motion,
 to stretch a short close-up). "shot_zoom" becomes the shot's push-in in shots.json. "overlay": a Tools/overlay.py spec (list of
 lines, times relative to the clip) burns words over the clip right after it is cut, so a re-cut keeps them; the clean cut stays
-as clips/<clip>_raw.mp4. Fill every "len" from the anchors with Tools/fill_len.py. Every clip lands in clips/<clip>.mp4 and every cut is logged to sources.csv by broll.py.
+as _rawclips/<clip>_raw.mp4 (outside clips/ on purpose: assemble.py also ignores any *_raw* file in clips/). Fill every "len" from the anchors with Tools/fill_len.py. Every clip lands in clips/<clip>.mp4 and every cut is logged to sources.csv by broll.py.
 """
 import argparse, json, os, subprocess, sys
 
@@ -80,7 +80,8 @@ def main():
             if s.get("overlay"):  # Oct 24 2026: words over footage, re-applied whenever the clip is re-cut (no hand step to forget)
                 spec = os.path.join(F, "clips", f"_{s['clip']}_overlay.json")
                 json.dump(s["overlay"], open(spec, "w", encoding="utf-8"), ensure_ascii=False)
-                raw = out[:-4] + "_raw.mp4"
+                os.makedirs(os.path.join(F, "_rawclips"), exist_ok=True)  # NOT clips/: assemble.py maps clips/ to shots in sorted order
+                raw = os.path.join(F, "_rawclips", s["clip"] + "_raw.mp4")
                 os.replace(out, raw)
                 run([py, os.path.join(HERE, "overlay.py"), "--in", raw, "--out", out, "--spec", spec])
                 msg += f" + words: {' / '.join(x['text'] for x in s['overlay'])}"
@@ -132,19 +133,23 @@ def log_sources(F, plan, shots, words, total, verified):
 
 
 def sheet(F, shots, total):
+    """Contact sheet drawn with PIL (ffmpeg drawtext has no font config on this PC): one numbered middle frame per shot, 12 a row."""
+    from PIL import Image
+    sys.path.insert(0, HERE)
+    import sheetlib
     os.makedirs(os.path.join(F, "_check"), exist_ok=True)
     tiles = []
     for i, s in enumerate(shots):
         end = shots[i + 1]["start"] if i + 1 < len(shots) else total
         t = os.path.join(F, "_check", f"t{i:02d}.jpg")
         subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", f"{(end - s['start']) / 2:.2f}", "-i", os.path.join(F, "clips", s["clip"]),
-                        "-frames:v", "1", "-vf", f"scale=216:384,drawtext=text='{i} {s['clip'][:-4]}':x=4:y=4:fontsize=22:fontcolor=yellow:box=1:boxcolor=black", t])
-        tiles.append(t)
-    ins = sum((["-i", t] for t in tiles), [])
-    lay = "|".join(f"{(k % 12) * 216}_{(k // 12) * 384}" for k in range(len(tiles)))
-    subprocess.run(["ffmpeg", "-v", "error", "-y", *ins, "-filter_complex", "".join(f"[{k}]" for k in range(len(tiles))) +
-                    f"xstack=inputs={len(tiles)}:layout={lay}:fill=black", os.path.join(F, "_check", "sheet.jpg")])
-    print(f"  contact sheet: {os.path.join(F, '_check', 'sheet.jpg')}")
+                        "-frames:v", "1", "-vf", "scale=216:384", t])
+        im = Image.open(t).convert("RGB") if os.path.exists(t) else Image.new("RGB", (216, 384), "red")
+        sheetlib.label(im, f"{i} {s['clip'][:-4]}").save(t, quality=88)
+        tiles.append(Image.open(t))
+    out = os.path.join(F, "_check", "sheet.jpg")
+    sheetlib.grid(tiles, 12, out, tile=(216, 384))
+    print(f"  contact sheet: {out}")
 
 
 if __name__ == "__main__":
