@@ -1,0 +1,143 @@
+{
+ "length_s": 24.75,
+ "topic": "A compilation of funny and goofy moments featuring NBA player Scottie Barnes during interviews, live broadcasts, and stream dances.",
+ "lane": "moment",
+ "hook": {
+  "first_words": "Hey Scottie, we met last week.",
+  "first_frame": "Scottie Barnes sitting at a press conference table behind a microphone.",
+  "on_screen_text_0_3s": "hey Scottie we met last week",
+  "shots_in_first_3s": 2
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 1.75,
+   "shows": "Scottie Barnes sitting at a press conference table listening to a reporter's question.",
+   "kind": "face"
+  },
+  {
+   "start_s": 1.75,
+   "end_s": 5.25,
+   "shows": "Live TV reporter speaking into a microphone while Scottie Barnes eats lunch behind him and stares at the camera.",
+   "kind": "action"
+  },
+  {
+   "start_s": 5.25,
+   "end_s": 7.5,
+   "shows": "Scottie Barnes smiling and laughing at the press conference.",
+   "kind": "face"
+  },
+  {
+   "start_s": 7.5,
+   "end_s": 11.75,
+   "shows": "Live TV reporter reporting on contract extension while Scottie photobombs and makes goofy faces in the background.",
+   "kind": "action"
+  },
+  {
+   "start_s": 11.75,
+   "end_s": 13.25,
+   "shows": "Scottie Barnes responding at the press conference table.",
+   "kind": "face"
+  },
+  {
+   "start_s": 13.25,
+   "end_s": 14.0,
+   "shows": "Quick clip of Scottie Barnes standing behind reporter outside the venue.",
+   "kind": "action"
+  },
+  {
+   "start_s": 14.0,
+   "end_s": 14.75,
+   "shows": "Scottie Barnes stating he was bored at the press conference.",
+   "kind": "face"
+  },
+  {
+   "start_s": 14.75,
+   "end_s": 18.75,
+   "shows": "Scottie Barnes speaking into media scrum microphones and imitating Kawhi Leonard's laugh.",
+   "kind": "face"
+  },
+  {
+   "start_s": 18.75,
+   "end_s": 21.5,
+   "shows": "Scottie Barnes tripping and falling on the floor inside the arena tunnel in a red tracksuit.",
+   "kind": "action"
+  },
+  {
+   "start_s": 21.5,
+   "end_s": 24.75,
+   "shows": "Scottie Barnes wearing headphones doing a goofy dance in front of his computer gaming chair.",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 10,
+ "average_shot_s": 2.48,
+ "longest_shot_s": 4.25,
+ "voice": {
+  "type": "human",
+  "gender": "male",
+  "words_per_minute_estimate": 130,
+  "tone": "conversational",
+  "original_audio_under_voice": true
+ },
+ "music": {
+  "present": true,
+  "style": "upbeat hip-hop background music",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 18.75
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 2,
+  "case": "mixed",
+  "position": "middle",
+  "colours": [
+   "yellow",
+   "cyan",
+   "purple",
+   "green"
+  ],
+  "highlight_style": "word-by-word"
+ },
+ "text_overlays": [
+  {
+   "at_s": 3.25,
+   "text": "!!?"
+  }
+ ],
+ "cards_or_graphics": 0,
+ "framing": "blurred background",
+ "ending": {
+  "last_words": "goofy dance",
+  "last_frame": "Scottie Barnes dancing enthusiastically in his room while wearing a gaming headset.",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "Hey Scottie, we met last week. Scottie Barnes here behind us, just enjoying a little bit of lunch and people asking me if that was staged. The extension has gone through for 115 million dollars over two seasons. It was not staged at all. I don't know, I was bored to be honest. They can go on Google and look it up. Kawhi laugh. Falls. Goofy dance.",
+ "retention_tricks": [
+  "pattern interrupts",
+  "quick jump cuts",
+  "funny photobombs"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": false,
+  "ends_on_payoff": false,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "Authentic and funny photobombing reactions from an NBA player in live broadcast background clips.",
+  "Fast-paced editing contrasting quiet press conference moments with chaotic funny footage.",
+  "Humorous self-awareness and iconic funny moments like his Kawhi Leonard laugh impression."
+ ],
+ "_meta": {
+  "source": "HbGFCq4iLUk",
+  "model": "gemini-3.5-flash",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

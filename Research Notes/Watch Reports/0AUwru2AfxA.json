@@ -1,0 +1,145 @@
+{
+ "length_s": 20.0,
+ "topic": "A humorous look at NBA players if they literally looked like their nicknames.",
+ "lane": "list",
+ "hook": {
+  "first_words": "Bro, what if NBA players actually looked like their nicknames?",
+  "first_frame": "A basketball player (Steph Curry) wearing a chef hat.",
+  "on_screen_text_0_3s": "bro, what if NBA players actually looked like their nicknames",
+  "shots_in_first_3s": 2
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 2.5,
+   "shows": "Steph Curry with a chef hat (Chef Curry)",
+   "kind": "stock"
+  },
+  {
+   "start_s": 2.5,
+   "end_s": 3.9,
+   "shows": "LeBron James with a goat head (GOAT)",
+   "kind": "stock"
+  },
+  {
+   "start_s": 3.9,
+   "end_s": 5.6,
+   "shows": "Victor Wembanyama",
+   "kind": "stock"
+  },
+  {
+   "start_s": 5.6,
+   "end_s": 6.9,
+   "shows": "Victor Wembanyama as an alien",
+   "kind": "stock"
+  },
+  {
+   "start_s": 6.9,
+   "end_s": 8.7,
+   "shows": "James Harden",
+   "kind": "stock"
+  },
+  {
+   "start_s": 8.7,
+   "end_s": 10.2,
+   "shows": "James Harden as a bigfoot/beard creature",
+   "kind": "stock"
+  },
+  {
+   "start_s": 10.2,
+   "end_s": 12.0,
+   "shows": "Anthony Edwards",
+   "kind": "stock"
+  },
+  {
+   "start_s": 12.0,
+   "end_s": 13.5,
+   "shows": "Anthony Edwards as Ant-Man",
+   "kind": "stock"
+  },
+  {
+   "start_s": 13.5,
+   "end_s": 15.2,
+   "shows": "Kevin Durant",
+   "kind": "stock"
+  },
+  {
+   "start_s": 15.2,
+   "end_s": 16.6,
+   "shows": "Kevin Durant as a spider (Durantula)",
+   "kind": "stock"
+  },
+  {
+   "start_s": 16.6,
+   "end_s": 18.5,
+   "shows": "Kobe Bryant",
+   "kind": "stock"
+  },
+  {
+   "start_s": 18.5,
+   "end_s": 20.0,
+   "shows": "Kobe Bryant as a black mamba snake",
+   "kind": "stock"
+  }
+ ],
+ "shot_count": 12,
+ "average_shot_s": 1.67,
+ "longest_shot_s": 2.5,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 150,
+  "tone": "casual, curious",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "upbeat meme/trap beat",
+  "level_vs_voice": "equal",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "mixed",
+  "position": "middle",
+  "colours": "white and colored highlights",
+  "highlight_style": "word by word color change"
+ },
+ "text_overlays": [],
+ "cards_or_graphics": 0,
+ "framing": "crop",
+ "ending": {
+  "last_words": "Black Mamba",
+  "last_frame": "Kobe Bryant with a black mamba snake head dribbling the basketball",
+  "loops_to_start": true,
+  "call_to_action": "none"
+ },
+ "script": "Bro, what if NBA players actually looked like their nicknames? Victor Wembanyama, \"Alien\". James Harden, \"Beard\". Anthony Edwards, \"Ant-Man\". Kevin Durant, \"Durantula\". Kobe Bryant, \"Black Mamba\".",
+ "retention_tricks": [
+  "quick jump cuts to AI-generated hybrid images",
+  "promise in first line",
+  "rapid-fire list format"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "Creative AI image transformations matching famous basketball nicknames",
+  "Extremely fast pacing keeping attention high throughout the list",
+  "Familiar players and nicknames creating instant recognition and humor"
+ ],
+ "_meta": {
+  "source": "0AUwru2AfxA",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

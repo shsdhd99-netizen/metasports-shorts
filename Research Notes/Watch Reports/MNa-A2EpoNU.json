@@ -1,0 +1,126 @@
+{
+ "length_s": 53.645,
+ "topic": "A Minnesota Timberwolves fan recreates his famous shirtless jersey-removal celebration 12 years later.",
+ "lane": "moment",
+ "hook": {
+  "first_words": "still broken just",
+  "first_frame": "A man in a baseball cap tearing off his shirt at a basketball game with 2003 on screen",
+  "on_screen_text_0_3s": "2003",
+  "shots_in_first_3s": 1
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 5.167,
+   "shows": "A man in a baseball cap ripping off his shirt revealing painted writing on his chest in 2003",
+   "kind": "action"
+  },
+  {
+   "start_s": 5.167,
+   "end_s": 13.084,
+   "shows": "Security guards escorting the shirtless fan out of the arena",
+   "kind": "action"
+  },
+  {
+   "start_s": 13.084,
+   "end_s": 25.417,
+   "shows": "Fans cheering in the stands in 2015, featuring the same man wearing a jersey",
+   "kind": "action"
+  },
+  {
+   "start_s": 25.417,
+   "end_s": 43.125,
+   "shows": "The man ripping off his jersey again in 2015 to reveal 'Welcome Home KG' painted on his chest",
+   "kind": "action"
+  },
+  {
+   "start_s": 43.125,
+   "end_s": 47.667,
+   "shows": "Basketball player Kevin Garnett smiling and saluting the crowd",
+   "kind": "reaction"
+  },
+  {
+   "start_s": 47.667,
+   "end_s": 53.645,
+   "shows": "The fan dancing enthusiastically and Kevin Garnett watching with emotion",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 6,
+ "average_shot_s": 8.941,
+ "longest_shot_s": 17.708,
+ "voice": {
+  "type": "none",
+  "gender": "unknown",
+  "words_per_minute_estimate": 0,
+  "tone": "unknown",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "emotional pop song with vocals",
+  "level_vs_voice": "loud",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 4,
+  "case": "ALL CAPS",
+  "position": "bottom",
+  "colours": "white",
+  "highlight_style": "none"
+ },
+ "text_overlays": [
+  {
+   "at_s": 0.0,
+   "text": "2003"
+  },
+  {
+   "at_s": 9.458,
+   "text": "WE WANT YOU TO LEAVE THIS BUILDING"
+  },
+  {
+   "at_s": 13.5,
+   "text": "2015"
+  },
+  {
+   "at_s": 15.333,
+   "text": "LIFETIME SHOW US YOUR MOVES"
+  }
+ ],
+ "cards_or_graphics": 0,
+ "framing": "crop",
+ "ending": {
+  "last_words": "unknown",
+  "last_frame": "Basketball player Kevin Garnett smiling on the court",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "unknown",
+ "retention_tricks": [
+  "replays",
+  "temporal contrast (2003 vs 2015)",
+  "emotional payoff"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": true,
+  "promise_in_first_line": false,
+  "ends_on_payoff": true,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "Incredible time-jump parallel showing the exact same fan 12 years later",
+  "Strong emotional reaction from the athlete on the court",
+  "High-energy musical backing that matches the crowd and fan enthusiasm"
+ ],
+ "_meta": {
+  "source": "MNa-A2EpoNU",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

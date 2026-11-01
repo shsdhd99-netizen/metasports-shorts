@@ -1,0 +1,169 @@
+{
+ "length_s": 36.6,
+ "topic": "A compilation of NBA commentator Eric Collins getting hype over LaMelo Ball's incredible highlights and plays.",
+ "lane": "moment",
+ "hook": {
+  "first_words": "Bro I think there's really someone missing from Lamelo's game",
+  "first_frame": "A pixelated person talking in front of a teal background with Hornets.com branding.",
+  "on_screen_text_0_3s": "bro i think there's really someone missing from Lamelo's game",
+  "shots_in_first_3s": 2
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 1.5,
+   "shows": "Pixelated person talking",
+   "kind": "face"
+  },
+  {
+   "start_s": 1.5,
+   "end_s": 3.2,
+   "shows": "LaMelo Ball pointing at camera",
+   "kind": "face"
+  },
+  {
+   "start_s": 3.2,
+   "end_s": 6.1,
+   "shows": "Basketball game highlight shot",
+   "kind": "action"
+  },
+  {
+   "start_s": 6.1,
+   "end_s": 7.5,
+   "shows": "LaMelo Ball with no reaction",
+   "kind": "action"
+  },
+  {
+   "start_s": 7.5,
+   "end_s": 11.6,
+   "shows": "Basketball gameplay action",
+   "kind": "action"
+  },
+  {
+   "start_s": 11.6,
+   "end_s": 12.9,
+   "shows": "LaMelo Ball zero emotion close up",
+   "kind": "action"
+  },
+  {
+   "start_s": 12.9,
+   "end_s": 16.2,
+   "shows": "Basketball play and dunk",
+   "kind": "action"
+  },
+  {
+   "start_s": 16.2,
+   "end_s": 17.6,
+   "shows": "LaMelo Ball not impressed walking away",
+   "kind": "action"
+  },
+  {
+   "start_s": 17.6,
+   "end_s": 22.9,
+   "shows": "Basketball play with Eric Collins screaming commentary",
+   "kind": "action"
+  },
+  {
+   "start_s": 22.9,
+   "end_s": 29.1,
+   "shows": "LaMelo Ball highlight with Eric Collins screaming commentary",
+   "kind": "action"
+  },
+  {
+   "start_s": 29.1,
+   "end_s": 36.6,
+   "shows": "Brandon Miller / LaMelo Ball highlight with Eric Collins screaming commentary",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 11,
+ "average_shot_s": 3.3,
+ "longest_shot_s": 6.2,
+ "voice": {
+  "type": "human",
+  "gender": "male",
+  "words_per_minute_estimate": 160,
+  "tone": "hype, excited",
+  "original_audio_under_voice": true
+ },
+ "music": {
+  "present": true,
+  "style": "hip hop beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "sentence",
+  "position": "middle",
+  "colours": "white, teal, pink",
+  "highlight_style": "word by word color change"
+ },
+ "text_overlays": [
+  {
+   "at_s": 6.2,
+   "text": "*no reaction*"
+  },
+  {
+   "at_s": 11.7,
+   "text": "*zero emotion*"
+  },
+  {
+   "at_s": 16.2,
+   "text": "*not impressed*"
+  },
+  {
+   "at_s": 20.5,
+   "text": "Eric Collins"
+  },
+  {
+   "at_s": 27.2,
+   "text": "LOOK AT LAMELO!!"
+  },
+  {
+   "at_s": 30.0,
+   "text": "Brandon Miller"
+  },
+  {
+   "at_s": 35.2,
+   "text": "HUM DIDDLY DE!"
+  }
+ ],
+ "cards_or_graphics": 0,
+ "framing": "blurred background",
+ "ending": {
+  "last_words": "HUM DIDDLY DE!",
+  "last_frame": "LaMelo Ball running on court looking up",
+  "loops_to_start": true,
+  "call_to_action": "none"
+ },
+ "script": "Bro I think there's really someone missing from Lamelo's game",
+ "retention_tricks": [
+  "quick cuts",
+  "zooms",
+  "on-screen text reactions",
+  "sound effect screams from commentator"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "High energy basketball highlights paired with iconic screaming commentator audio",
+  "Fast paced editing with dynamic zooms and captions",
+  "Humorous contrast between LaMelo's stoic expressions and the commentator's extreme hype"
+ ],
+ "_meta": {
+  "source": "ndB7JqBoZYg",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

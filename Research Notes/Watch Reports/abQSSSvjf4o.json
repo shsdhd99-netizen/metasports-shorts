@@ -1,0 +1,399 @@
+{
+ "length_s": 69.17,
+ "topic": "Explaining why Wissam Ben Yedder was considered the most broken and overpowered player in EA Sports FIFA Ultimate Team history.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "Most BROKEN players in ultimate team history. If you played FIFA anytime between",
+  "first_frame": "A footballer kicking a ball towards the camera while other players tumble.",
+  "on_screen_text_0_3s": "Most BROKEN players in ultimate team history",
+  "shots_in_first_3s": 2
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 2.18,
+   "shows": "Football match action with players tumbling",
+   "kind": "action"
+  },
+  {
+   "start_s": 2.18,
+   "end_s": 3.74,
+   "shows": "Player in yellow Dortmund jersey juggling ball",
+   "kind": "action"
+  },
+  {
+   "start_s": 3.74,
+   "end_s": 5.5,
+   "shows": "FIFA 20 and FIFA 23 logos on a grid background",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 5.5,
+   "end_s": 7.96,
+   "shows": "In-game FIFA match gameplay",
+   "kind": "action"
+  },
+  {
+   "start_s": 7.96,
+   "end_s": 9.56,
+   "shows": "Wissam Ben Yedder in Monaco kit",
+   "kind": "face"
+  },
+  {
+   "start_s": 9.56,
+   "end_s": 11.96,
+   "shows": "Player celebrating in-game",
+   "kind": "action"
+  },
+  {
+   "start_s": 11.96,
+   "end_s": 13.0,
+   "shows": "Wissam Ben Yedder pointing in Monaco kit with RAT KING text overlay",
+   "kind": "still"
+  },
+  {
+   "start_s": 13.0,
+   "end_s": 14.96,
+   "shows": "Ben Yedder celebrating in real life",
+   "kind": "action"
+  },
+  {
+   "start_s": 14.96,
+   "end_s": 16.98,
+   "shows": "Ben Yedder celebration in-game",
+   "kind": "action"
+  },
+  {
+   "start_s": 16.98,
+   "end_s": 18.68,
+   "shows": "Wissam Ben Yedder face portrait",
+   "kind": "face"
+  },
+  {
+   "start_s": 18.68,
+   "end_s": 19.98,
+   "shows": "FIFA 22 gold card of Ben Yedder",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 19.98,
+   "end_s": 22.62,
+   "shows": "Futbin stat screen for Ben Yedder",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 22.62,
+   "end_s": 24.28,
+   "shows": "Ben Yedder scoring a goal in real life",
+   "kind": "action"
+  },
+  {
+   "start_s": 24.28,
+   "end_s": 26.06,
+   "shows": "Ben Yedder celebrating by jumping",
+   "kind": "action"
+  },
+  {
+   "start_s": 26.06,
+   "end_s": 28.56,
+   "shows": "Steve Harvey looking surprised with glowing red eyes",
+   "kind": "stock"
+  },
+  {
+   "start_s": 28.56,
+   "end_s": 30.06,
+   "shows": "Ben Yedder smiling and gesturing in Monaco kit",
+   "kind": "face"
+  },
+  {
+   "start_s": 30.06,
+   "end_s": 32.78,
+   "shows": "FIFA 20 card of Ben Yedder",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 32.78,
+   "end_s": 33.94,
+   "shows": "Goal celebration angle from inside net",
+   "kind": "action"
+  },
+  {
+   "start_s": 33.94,
+   "end_s": 35.64,
+   "shows": "Sevilla teammates celebrating together",
+   "kind": "action"
+  },
+  {
+   "start_s": 35.64,
+   "end_s": 37.06,
+   "shows": "Ben Yedder dribbling in Monaco kit",
+   "kind": "action"
+  },
+  {
+   "start_s": 37.06,
+   "end_s": 37.74,
+   "shows": "Ben Yedder in Sevilla white kit",
+   "kind": "face"
+  },
+  {
+   "start_s": 37.74,
+   "end_s": 39.22,
+   "shows": "Ben Yedder looking up in Sevilla red kit",
+   "kind": "face"
+  },
+  {
+   "start_s": 39.22,
+   "end_s": 42.66,
+   "shows": "FIFA gameplay showing goal from close range",
+   "kind": "action"
+  },
+  {
+   "start_s": 42.66,
+   "end_s": 44.46,
+   "shows": "Ben Yedder flexing in Monaco kit",
+   "kind": "face"
+  },
+  {
+   "start_s": 44.46,
+   "end_s": 45.86,
+   "shows": "Ben Yedder running on the pitch",
+   "kind": "action"
+  },
+  {
+   "start_s": 45.86,
+   "end_s": 48.06,
+   "shows": "99-rated Lionel Messi card",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 48.06,
+   "end_s": 49.96,
+   "shows": "Kevin Hart looking shocked",
+   "kind": "stock"
+  },
+  {
+   "start_s": 49.96,
+   "end_s": 51.86,
+   "shows": "Ben Yedder scoring past goalkeeper",
+   "kind": "action"
+  },
+  {
+   "start_s": 51.86,
+   "end_s": 52.92,
+   "shows": "RB Leipzig player looking up",
+   "kind": "face"
+  },
+  {
+   "start_s": 52.92,
+   "end_s": 54.96,
+   "shows": "97-rated TOTS Ben Yedder card stats",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 54.96,
+   "end_s": 57.56,
+   "shows": "Messi and Ronaldo 99 cards side by side",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 57.56,
+   "end_s": 59.5,
+   "shows": "Ben Yedder kicking a ball in match",
+   "kind": "action"
+  },
+  {
+   "start_s": 59.5,
+   "end_s": 60.96,
+   "shows": "Ben Yedder in suit in interview",
+   "kind": "face"
+  },
+  {
+   "start_s": 60.96,
+   "end_s": 62.16,
+   "shows": "Ben Yedder gesturing in Monaco kit",
+   "kind": "face"
+  },
+  {
+   "start_s": 62.16,
+   "end_s": 64.0,
+   "shows": "Ben Yedder celebrating by hitting head",
+   "kind": "action"
+  },
+  {
+   "start_s": 64.0,
+   "end_s": 65.2,
+   "shows": "Ben Yedder pointing finger up",
+   "kind": "face"
+  },
+  {
+   "start_s": 65.2,
+   "end_s": 67.06,
+   "shows": "97-rated TOTS Ben Yedder price tracker screen",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 67.06,
+   "end_s": 69.17,
+   "shows": "Ben Yedder clapping on pitch",
+   "kind": "face"
+  }
+ ],
+ "shot_count": 37,
+ "average_shot_s": 1.87,
+ "longest_shot_s": 3.74,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 175,
+  "tone": "energetic, storytelling, engaging",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "upbeat rhythmic electronic hype beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 2,
+  "case": "mixed",
+  "position": "middle",
+  "colours": "white with some red/yellow highlights",
+  "highlight_style": "word by word or phrase pop-up animation"
+ },
+ "text_overlays": [
+  {
+   "at_s": 0.0,
+   "text": "Most BROKEN players in ultimate team history"
+  },
+  {
+   "at_s": 2.25,
+   "text": "If you played FIFA"
+  },
+  {
+   "at_s": 3.1,
+   "text": "anytime between"
+  },
+  {
+   "at_s": 4.0,
+   "text": "FIFA 20 and FIFA 23"
+  },
+  {
+   "at_s": 5.5,
+   "text": "there's a good chance one little striker ruined your Weekend League."
+  },
+  {
+   "at_s": 8.0,
+   "text": "WISSAM BEN YEDDER"
+  },
+  {
+   "at_s": 8.16,
+   "text": "His name is Wissam Ben Yedder"
+  },
+  {
+   "at_s": 9.5,
+   "text": "and the community gave him a nickname that stuck for years."
+  },
+  {
+   "at_s": 12.0,
+   "text": "RAT KING"
+  },
+  {
+   "at_s": 13.0,
+   "text": "not because of his real-life career"
+  },
+  {
+   "at_s": 15.0,
+   "text": "but because of what he did inside Ultimate Team."
+  },
+  {
+   "at_s": 17.0,
+   "text": "On paper he made no sense"
+  },
+  {
+   "at_s": 18.68,
+   "text": "because his FIFA 22 gold card was only 83-rated with 83 pace"
+  },
+  {
+   "at_s": 22.62,
+   "text": "and he stood at just 5'7\" while weighing around 150 lbs."
+  },
+  {
+   "at_s": 26.06,
+   "text": "But those numbers on the front of his card were basically a trap for anyone defending against him."
+  },
+  {
+   "at_s": 30.06,
+   "text": "He felt faster than his pace and more agile than his stats"
+  },
+  {
+   "at_s": 33.0,
+   "text": "because that 83 pace played like it was in the 90s thanks to his crazy agility, balance, and dribbling."
+  },
+  {
+   "at_s": 37.74,
+   "text": "He also had a 5-star weak foot"
+  },
+  {
+   "at_s": 39.22,
+   "text": "so he finished clean off either foot whether he was inside the box or outside it."
+  },
+  {
+   "at_s": 42.66,
+   "text": "Some players even said that Yedder was the most overpowered finisher more than the 99-rated Messi he had the year before."
+  },
+  {
+   "at_s": 48.06,
+   "text": "But there's one price tag that proves exactly how far this obsession went."
+  },
+  {
+   "at_s": 51.86,
+   "text": "Back in FIFA 20, Yedder got a Team of the Season card that became worth more than 99 Messi and 99 Ronaldo."
+  },
+  {
+   "at_s": 57.56,
+   "text": "And even Yedder himself joked about it online, asking how many broken controllers this card would cause."
+  },
+  {
+   "at_s": 61.0,
+   "text": "A short, light striker most casual fans had never paid attention to ended up priced above the two greatest players alive, purely because he was simply so overpowered."
+  }
+ ],
+ "cards_or_graphics": 8,
+ "framing": "crop",
+ "ending": {
+  "last_words": "purely because he was simply so overpowered.",
+  "last_frame": "Ben Yedder clapping on the pitch in a Monaco kit.",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "Most broken players in Ultimate Team history. If you played FIFA anytime between FIFA 20 and FIFA 23, there's a good chance one little striker ruined your Weekend League. His name is Wissam Ben Yedder, and the community gave him a nickname that stuck for years. They called him the Rat King, not because of his real-life career, but because of what he did inside Ultimate Team. On paper he made no sense, because his FIFA 22 gold card was only 83-rated with 83 pace, and he stood at just 5 foot 7 while weighing around 150 pounds. But those numbers on the front of his card were basically a trap for anyone defending against him. He felt faster than his pace and more agile than his stats, because that 83 pace played like it was in the nineties thanks to his crazy agility, balance, and dribbling. He also had a 5-star weak foot, so he finished clean off either foot whether he was inside the box or outside it. Some players even said that Yedder was the most overpowered finisher, more than the 99-rated Messi he had the year before. But there's one price tag that proves exactly how far this obsession went. Back in FIFA 20, Yedder got a Team of the Season card that became worth more than 99 Messi and 99 Ronaldo. And even Yedder himself joked about it online, asking how many broken controllers this card would cause. A short, light striker most casual fans had never paid attention to ended up priced above the two greatest players alive, purely because he was simply so overpowered.",
+ "retention_tricks": [
+  "Fast-paced cutting every 1-2 seconds",
+  "Meme reaction inserts (Steve Harvey, Kevin Hart with glowing red eyes)",
+  "Text highlight pop-ups synchronized with voiceover",
+  "Curiosity loop about why an 83-rated card beat 99 Messi and Ronaldo"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": true,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "Rapid-fire visual pacing with frequent meme and gameplay inserts keeping attention high",
+  "Compelling underdog-to-overpowered narrative arc about a lesser-known player beating football legends in-game",
+  "Strong emotional hook relying on shared player trauma and community inside jokes like 'Rat King'"
+ ],
+ "_meta": {
+  "source": "abQSSSvjf4o",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

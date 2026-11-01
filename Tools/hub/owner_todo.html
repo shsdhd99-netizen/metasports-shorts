@@ -1,0 +1,571 @@
+<title>MetaSports To-Do</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Source+Sans+3:wght@400;600;700&display=swap">
+<style>
+/* Phone first, like a coach's clipboard: "Now" shows the one thing to do with numbered steps; "All" is the full board;
+   "Note" sends Claude a message. Bottom tab bar for the thumb; every tap target is at least 48 px. */
+:root {
+  --bg: #eef1f4; --surface: #ffffff; --sunk: #f5f7f9; --ink: #15202b; --muted: #5b6875; --line: #d5dce3;
+  --accent: #1e5bd8; --accent-ink: #ffffff; --ok: #17804f; --urgent: #c8322b;
+  --nba: #c94c16; --fc: #17804f; --gta: #7a3cc2; --both: #3d4b59; --chip-bg: #e7ecf1;
+  --display: "Barlow Condensed", "Arial Narrow", "Roboto Condensed", sans-serif;
+  --body: "Source Sans 3", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --tabh: 60px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0f151b; --surface: #18212a; --sunk: #131a21; --ink: #e6edf3; --muted: #95a3b0; --line: #2a3642;
+    --accent: #7aa2ff; --accent-ink: #0f151b; --ok: #43c784; --urgent: #ff6b5e;
+    --nba: #ff8a55; --fc: #43c784; --gta: #bb8eff; --both: #a9b6c2; --chip-bg: #222d38; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0f151b; --surface: #18212a; --sunk: #131a21; --ink: #e6edf3; --muted: #95a3b0; --line: #2a3642;
+  --accent: #7aa2ff; --accent-ink: #0f151b; --ok: #43c784; --urgent: #ff6b5e;
+  --nba: #ff8a55; --fc: #43c784; --gta: #bb8eff; --both: #a9b6c2; --chip-bg: #222d38; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+main { display: flex; flex-direction: column; gap: 22px; }
+body { background: var(--bg); color: var(--ink); font: 400 17px/1.45 var(--body); -webkit-text-size-adjust: 100%; }
+button, input, select, textarea { font: inherit; color: inherit; }
+.wrap { max-width: 640px; margin: 0 auto; display: flex; flex-direction: column; gap: 20px;
+  padding-block: 18px calc(var(--tabh) + 28px + env(safe-area-inset-bottom, 0px));
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+header { display: flex; flex-direction: column; gap: 6px; }
+.eyebrow { font: 700 13px/1 var(--display); letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+h1 { margin: 0; font: 700 32px/1.05 var(--display); letter-spacing: .01em; text-wrap: balance; }
+.score { display: flex; align-items: center; gap: 12px; font: 600 15px/1 var(--display); letter-spacing: .06em;
+  text-transform: uppercase; color: var(--muted); font-variant-numeric: tabular-nums; }
+.bar { flex: 1; height: 6px; background: var(--line); border-radius: 3px; overflow: hidden; min-width: 60px; }
+.bar > i { display: block; height: 100%; width: 0; background: var(--ok); transition: width .3s ease; }
+h2 { margin: 0; display: flex; align-items: baseline; gap: 8px; font: 700 18px/1.1 var(--display);
+  letter-spacing: .08em; text-transform: uppercase; }
+h2 .n { color: var(--muted); font-weight: 600; font-variant-numeric: tabular-nums; }
+h2.now { color: var(--urgent); }
+section { display: flex; flex-direction: column; gap: 10px; }
+.chip { font: 600 12px/1 var(--display); letter-spacing: .08em; text-transform: uppercase; padding: 5px 7px 4px;
+  border-radius: 4px; background: var(--chip-bg); color: var(--muted); white-space: nowrap; }
+.chip.when { color: var(--ink); } .chip.urgent { color: var(--urgent); }
+.chip.NBA { color: var(--nba); } .chip.FC { color: var(--fc); } .chip.GTA { color: var(--gta); } .chip.Both { color: var(--both); }
+.meta { display: flex; flex-wrap: wrap; gap: 6px; }
+.muted { color: var(--muted); }
+.empty { background: var(--surface); border: 1px dashed var(--line); border-radius: 12px; padding: 18px; color: var(--muted); }
+
+/* ---- Now: one card ---- */
+.focus { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 16px;
+  display: flex; flex-direction: column; gap: 14px; }
+.focus.urgent { border-top: 5px solid var(--urgent); }
+.focus .kicker { font: 700 13px/1 var(--display); letter-spacing: .12em; text-transform: uppercase; color: var(--accent); }
+.focus h3 { margin: 0; font: 700 26px/1.1 var(--display); text-wrap: balance; overflow-wrap: anywhere; }
+.why { margin: 0; color: var(--muted); font-size: 16px; overflow-wrap: anywhere; }
+.why b { color: var(--ink); font-weight: 600; }
+.detail { margin: 0; color: var(--muted); font-size: 16px; white-space: pre-line; overflow-wrap: anywhere; }
+.steps { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; border-top: 1px solid var(--line); }
+.step { display: grid; grid-template-columns: 34px 1fr; gap: 10px; align-items: start; padding: 12px 2px;
+  border-bottom: 1px solid var(--line); min-height: 52px; cursor: pointer; -webkit-tap-highlight-color: transparent; }
+.step .num { width: 30px; height: 30px; border-radius: 50%; border: 2px solid var(--muted); display: grid; place-items: center;
+  font: 700 15px/1 var(--display); color: var(--muted); font-variant-numeric: tabular-nums; }
+.step.on .num { background: var(--ok); border-color: var(--ok); color: var(--surface); }
+.step .txt { min-width: 0; overflow-wrap: anywhere; padding-top: 3px; }
+.step.on .txt { color: var(--muted); text-decoration: line-through; text-decoration-thickness: 1px; }
+.step[aria-disabled="true"] { cursor: default; }
+.copies { display: flex; flex-direction: column; gap: 8px; }
+.copy { background: var(--sunk); border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px;
+  display: grid; grid-template-columns: 1fr auto; gap: 4px 10px; align-items: center; }
+.copy .lab { font: 700 12px/1 var(--display); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); grid-column: 1 / -1; }
+.copy .val { min-width: 0; font-size: 15px; overflow-wrap: anywhere; user-select: all; -webkit-user-select: all; max-height: 7.5em; overflow: auto; }
+.btn { min-height: 48px; padding: 10px 16px; border-radius: 10px; border: 1px solid var(--line); background: var(--surface);
+  font-weight: 600; cursor: pointer; display: inline-flex; align-items: center; justify-content: center; gap: 8px; text-decoration: none;
+  color: var(--ink); -webkit-tap-highlight-color: transparent; }
+.btn.small { min-height: 44px; padding: 8px 14px; font-size: 15px; }
+.btn.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+.btn.done { background: var(--ok); border-color: var(--ok); color: var(--surface); font-size: 18px; }
+.btn.ghost { background: transparent; border-color: transparent; color: var(--muted); }
+.btn:disabled { opacity: .5; cursor: default; }
+.btn:focus-visible, .step:focus-visible, .tab:focus-visible, summary:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+.links { display: flex; flex-direction: column; gap: 8px; }
+.links .btn { justify-content: space-between; color: var(--accent); }
+.links .btn::after { content: "↗"; color: var(--muted); }
+.actions { display: grid; grid-template-columns: 1fr auto; gap: 8px; }
+.pager { display: flex; align-items: center; justify-content: space-between; gap: 8px; font: 600 14px/1 var(--display);
+  letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-variant-numeric: tabular-nums; }
+.rows { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+.row { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; min-height: 56px;
+  display: flex; flex-direction: column; gap: 6px; cursor: pointer; text-align: left; width: 100%; }
+.row .t { font-weight: 600; overflow-wrap: anywhere; }
+.rhythm { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 4px 14px; list-style: none; margin: 0; }
+.rhythm li { padding: 10px 0; border-bottom: 1px solid var(--line); display: flex; flex-direction: column; gap: 2px; }
+.rhythm li:last-child { border-bottom: 0; }
+.rhythm .t { font-weight: 600; }
+.rhythm .t::before { content: "↻ "; color: var(--muted); }
+
+/* ---- All: collapsible cards ---- */
+details.card { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; scroll-margin-top: 16px; }
+details.card.urgent { border-left: 4px solid var(--urgent); }
+details.card > summary { list-style: none; cursor: pointer; padding: 12px 14px; min-height: 56px; display: grid;
+  grid-template-columns: 1fr 20px; gap: 6px 10px; align-items: start; }
+details.card > summary::-webkit-details-marker { display: none; }
+details.card > summary::after { content: "▸"; color: var(--muted); grid-column: 2; grid-row: 1; }
+details.card[open] > summary::after { content: "▾"; }
+details.card .t { font-weight: 600; overflow-wrap: anywhere; min-width: 0; }
+details.card.done .t { color: var(--muted); text-decoration: line-through; }
+details.card .meta { grid-column: 1 / -1; }
+details.card .inner { padding: 0 14px 14px; display: flex; flex-direction: column; gap: 12px; }
+details.donebox > summary { cursor: pointer; font: 700 18px/1.1 var(--display); letter-spacing: .08em; text-transform: uppercase;
+  color: var(--muted); list-style: none; min-height: 44px; display: flex; align-items: center; }
+details.donebox > summary::-webkit-details-marker { display: none; }
+details.donebox > summary::before { content: "▸ "; margin-right: 4px; }
+details.donebox[open] > summary::before { content: "▾ "; }
+form.add { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+form.add input { grid-column: 1 / -1; }
+form.add input, form.add select, textarea { border-radius: 10px; border: 1px solid var(--line); background: var(--surface);
+  padding: 11px 12px; min-width: 0; min-height: 48px; font-size: 16px; }
+
+/* ---- Note ---- */
+textarea { width: 100%; min-height: 120px; resize: vertical; }
+.note { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; display: flex; flex-direction: column; gap: 6px; }
+.note .t { white-space: pre-wrap; overflow-wrap: anywhere; }
+.note .reply { border-left: 3px solid var(--accent); padding-left: 10px; color: var(--ink); white-space: pre-wrap; overflow-wrap: anywhere; }
+
+/* ---- Tab bar + toast ---- */
+nav.tabs { position: fixed; left: 0; right: 0; bottom: 0; z-index: 5; background: var(--surface); border-top: 1px solid var(--line);
+  display: grid; grid-template-columns: repeat(4, 1fr); padding-bottom: env(safe-area-inset-bottom, 0px);
+  padding-left: env(safe-area-inset-left, 0px); padding-right: env(safe-area-inset-right, 0px); }
+.tab { height: var(--tabh); border: 0; background: none; cursor: pointer; display: flex; flex-direction: column; align-items: center;
+  justify-content: center; gap: 3px; font: 700 13px/1 var(--display); letter-spacing: .1em; text-transform: uppercase; color: var(--muted);
+  -webkit-tap-highlight-color: transparent; position: relative; }
+.tab svg { width: 24px; height: 24px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.tab[aria-selected="true"] { color: var(--accent); }
+.tab .badge { position: absolute; top: 8px; left: calc(50% + 8px); min-width: 18px; height: 18px; padding: 0 5px; border-radius: 9px;
+  background: var(--urgent); color: var(--surface); font: 700 11px/18px var(--body); letter-spacing: 0; text-align: center; }
+.toast { position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(var(--tabh) + 14px + env(safe-area-inset-bottom, 0px));
+  z-index: 6; background: var(--ink); color: var(--bg); border-radius: 12px; padding: 8px 8px 8px 16px; display: flex; align-items: center;
+  gap: 10px; max-width: calc(100% - 32px); box-shadow: 0 6px 24px rgba(0,0,0,.25); }
+.toast .btn { min-height: 40px; background: transparent; border-color: transparent; color: var(--bg); text-decoration: underline; }
+.foot { font-size: 14px; color: var(--muted); }
+
+/* ---- Plan: the next four days, slot by slot ---- */
+.day { display: flex; flex-direction: column; gap: 8px; }
+.day h2 .n { text-transform: none; letter-spacing: 0; }
+.slot { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 10px 14px; min-height: 56px;
+  display: grid; grid-template-columns: 76px 1fr; gap: 4px 12px; align-items: center; text-align: left; width: 100%; cursor: pointer; }
+.slot .tm { font: 700 15px/1.1 var(--display); letter-spacing: .04em; color: var(--muted); font-variant-numeric: tabular-nums; }
+.slot .t { font-weight: 600; overflow-wrap: anywhere; min-width: 0; }
+.slot .meta { grid-column: 2; }
+.slot.empty { background: transparent; border-style: dashed; cursor: default; }
+.slot.empty .t { color: var(--muted); font-weight: 400; }
+.slot.posted { cursor: default; }
+.slot.posted .t { color: var(--muted); text-decoration: line-through; }
+.chip.ok { color: var(--ok); }
+@media (min-width: 720px) { .wrap { padding-top: 32px; } h1 { font-size: 38px; } }
+@media (prefers-reduced-motion: reduce) { .bar > i { transition: none; } }
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">MetaSports · NBA + FC</div>
+    <h1 id="h1">Do this now</h1>
+    <div class="score"><span id="count">Loading…</span><span class="bar" aria-hidden="true"><i id="fill"></i></span></div>
+  </header>
+
+  <main id="view-now" aria-live="polite"><div class="empty">Loading your tasks…</div></main>
+  <main id="view-all" hidden></main>
+  <main id="view-plan" hidden></main>
+  <main id="view-note" hidden>
+    <section aria-labelledby="noteh">
+      <h2 id="noteh">Write a note</h2>
+      <p class="detail">Type anything here: an idea for a Short, "I posted X", a question, a change you want. Claude reads these at the start of every run and answers below.</p>
+      <form id="noteform" class="copies">
+        <textarea id="notetext" maxlength="2000" placeholder="e.g. Posted the Barcelona one at 8:10. Can we do a Messi Short next?" aria-label="Note to Claude"></textarea>
+        <button class="btn primary" id="notebtn" type="submit" disabled>Send to Claude</button>
+      </form>
+    </section>
+    <section aria-labelledby="notesh">
+      <h2 id="notesh">Your notes</h2>
+      <div id="notes" class="rows"><div class="empty">No notes yet.</div></div>
+    </section>
+  </main>
+  <p class="foot">Claude keeps this list up to date. Tick steps as you go; ticks show on every device.</p>
+</div>
+
+<nav class="tabs" role="tablist" aria-label="Views">
+  <button class="tab" role="tab" id="tab-now" data-view="now" aria-selected="true">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>Now<span class="badge" id="badge" hidden></span></button>
+  <button class="tab" role="tab" id="tab-all" data-view="all" aria-selected="false">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6h11M9 12h11M9 18h11"/><path d="M4 6l1 1 2-2M4 12l1 1 2-2M4 18l1 1 2-2"/></svg>All tasks</button>
+  <button class="tab" role="tab" id="tab-plan" data-view="plan" aria-selected="false">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15" rx="2"/><path d="M3.5 10h17M8 3v4M16 3v4"/></svg>Plan</button>
+  <button class="tab" role="tab" id="tab-note" data-view="note" aria-selected="false">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v11H9l-5 4z"/></svg>Note</button>
+</nav>
+<div class="toast" id="toast" role="status" hidden><span id="toastmsg"></span><button class="btn" id="toastbtn" type="button" hidden>Undo</button></div>
+
+<script>
+(() => {
+  const SECTIONS = [
+    { key: "now", label: "Do first", urgent: true, rank: 1 },
+    { key: "post", label: "Post next", rank: 0 },
+    { key: "setup", label: "One-time setup", rank: 2 },
+    { key: "daily", label: "Every day", routine: true },
+    { key: "later", label: "Later", rank: 3 },
+  ];
+  const CHANNELS = ["NBA", "FC", "Both", "GTA"];
+  const SOON_MS = 60 * 60 * 1000; // a timed task joins "Now" an hour before its time
+  const $ = (id) => document.getElementById(id);
+  const el = (tag, cls, text) => { const n = document.createElement(tag); if (cls) n.className = cls; if (text != null) n.textContent = text; return n; };
+  const safeUrl = (u) => { try { const x = new URL(String(u)); return /^https?:$/.test(x.protocol) ? x.href : null; } catch (e) { return null; } };
+  const store = { get(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }, set(k, v) { try { localStorage.setItem(k, v); } catch (e) {} } };
+
+  let db = null, readOnly = false, tasks = [], notes = [], view = "now", focusId = store.get("todo-focus"), toastTimer = null;
+  const pending = new Set();
+
+  // ---------- helpers ----------
+  const T = (d) => d.data() || {};
+  const dueOf = (t) => { const x = t.due ? new Date(t.due) : null; return x && !isNaN(x) ? x : null; };
+  const isLater = (t) => { const x = dueOf(t); return !!x && x.getTime() - Date.now() > SOON_MS; };
+  const fmtDue = (x) => x.toLocaleString(undefined, { weekday: "short", hour: "numeric", minute: "2-digit" });
+  const rankOf = (t) => (SECTIONS.find(s => s.key === (t.section || "later")) || { rank: 3 }).rank;
+  function queue() {
+    // Order: posts due now, then "Do first", then other posts, setup, later; timed tasks wait until an hour before.
+    return tasks.filter(d => { const t = T(d); return !t.done && t.section !== "daily" && !isLater(t); })
+      .sort((a, b) => { const x = T(a), y = T(b);
+        const dx = dueOf(x), dy = dueOf(y);
+        const ax = dx ? -1 : rankOf(x), ay = dy ? -1 : rankOf(y);
+        return (ax - ay) || ((dx ? dx.getTime() : 0) - (dy ? dy.getTime() : 0)) || ((x.order ?? 999) - (y.order ?? 999)) || String(x.title || "").localeCompare(String(y.title || "")); });
+  }
+  const upcoming = () => tasks.filter(d => { const t = T(d); return !t.done && t.section !== "daily" && isLater(t); })
+    .sort((a, b) => dueOf(T(a)) - dueOf(T(b)));
+
+  function toast(msg, undo) {
+    $("toastmsg").textContent = msg; $("toast").hidden = false;
+    const b = $("toastbtn"); b.hidden = !undo; b.onclick = undo ? () => { hideToast(); undo(); } : null;
+    clearTimeout(toastTimer); toastTimer = setTimeout(hideToast, undo ? 7000 : 3500);
+  }
+  function hideToast() { $("toast").hidden = true; }
+
+  async function write(id, patch, okMsg, undo) {
+    if (!db || readOnly || pending.has(id)) return false;
+    pending.add(id); render();
+    try { await db.collection("tasks").doc(id).update(patch); if (okMsg) toast(okMsg, undo); return true; }
+    catch (e) {
+      if (e && (e.code === "invalid_argument" || e.code === "permission_denied")) { readOnly = true; toast("You can view this list but not change it."); }
+      else toast("Couldn't save. Check your connection and try again.");
+      return false;
+    } finally { pending.delete(id); render(); }
+  }
+  const setDone = (id, value) => write(id, { done: value, doneAt: value ? new Date().toISOString() : null },
+    value ? "Marked done." : "Back on the list.", value ? () => setDone(id, false) : null);
+
+  async function copyText(text, btn) {
+    let ok = false;
+    try { await navigator.clipboard.writeText(text); ok = true; } catch (e) {
+      try { const ta = el("textarea"); ta.value = text; ta.setAttribute("readonly", ""); ta.style.position = "fixed"; ta.style.opacity = "0";
+        document.body.append(ta); ta.select(); ok = document.execCommand("copy"); ta.remove(); } catch (e2) {}
+    }
+    if (ok) { const old = btn.textContent; btn.textContent = "Copied ✓"; setTimeout(() => { btn.textContent = old; }, 1600); }
+    else { const v = btn.parentElement.querySelector(".val"); if (v) { const r = document.createRange(); r.selectNodeContents(v); const s = getSelection(); s.removeAllRanges(); s.addRange(r); }
+      toast("Text selected: tap and hold it, then Copy."); }
+  }
+
+  function chips(t, wrap) {
+    const meta = el("div", "meta");
+    const due = dueOf(t);
+    if (due) meta.append(el("span", "chip when", fmtDue(due)));
+    else if (t.when) meta.append(el("span", "chip when" + (t.section === "now" && !t.done ? " urgent" : ""), t.when));
+    if (t.channel && CHANNELS.includes(t.channel)) meta.append(el("span", "chip " + t.channel, t.channel === "Both" ? "Both channels" : t.channel));
+    if (Number(t.mins) > 0) meta.append(el("span", "chip", "≈ " + Math.round(Number(t.mins)) + " min"));
+    if (t.done && t.doneAt) { const dt = new Date(t.doneAt); if (!isNaN(dt)) meta.append(el("span", "chip", "Done " + dt.toLocaleDateString(undefined, { month: "short", day: "numeric" }))); }
+    if (meta.childNodes.length) wrap.append(meta);
+  }
+
+  // The full instructions for one task: why, steps (tickable), copy blocks, links.
+  function instructions(d, wrap) {
+    const t = T(d);
+    if (t.why) { const p = el("p", "why"); p.append(el("b", null, "Why: "), document.createTextNode(String(t.why))); wrap.append(p); }
+    if (t.detail) wrap.append(el("p", "detail", t.detail));
+    const steps = Array.isArray(t.steps) ? t.steps.filter(s => typeof s === "string" && s.trim()) : [];
+    if (steps.length) {
+      const doneSteps = Array.isArray(t.stepsDone) ? t.stepsDone : [];
+      const ol = el("ol", "steps");
+      steps.forEach((s, i) => {
+        const on = !!doneSteps[i];
+        const li = el("li", "step" + (on ? " on" : ""));
+        li.setAttribute("role", "checkbox"); li.setAttribute("aria-checked", String(on)); li.tabIndex = 0;
+        const locked = readOnly || !db || pending.has(d.id) || t.done;
+        if (locked) li.setAttribute("aria-disabled", "true");
+        li.append(el("span", "num", on ? "✓" : String(i + 1)), el("span", "txt", s));
+        const flip = () => { if (locked) return; const next = steps.map((_, j) => j === i ? !on : !!doneSteps[j]);
+          write(d.id, { stepsDone: next }); };
+        li.addEventListener("click", flip);
+        li.addEventListener("keydown", (e) => { if (e.key === " " || e.key === "Enter") { e.preventDefault(); flip(); } });
+        ol.append(li);
+      });
+      wrap.append(ol);
+    }
+    const copies = (Array.isArray(t.copy) ? t.copy : []).filter(c => c && typeof c.text === "string" && c.text);
+    if (copies.length) {
+      const box = el("div", "copies");
+      for (const c of copies) {
+        const row = el("div", "copy");
+        row.append(el("span", "lab", c.label || "Copy"), el("span", "val", c.text));
+        const b = el("button", "btn small primary", "Copy"); b.type = "button";
+        b.setAttribute("aria-label", "Copy " + (c.label || "text"));
+        b.addEventListener("click", () => copyText(c.text, b));
+        row.append(b); box.append(row);
+      }
+      wrap.append(box);
+    }
+    const links = (Array.isArray(t.links) ? t.links : []).map(l => ({ label: l && l.label, href: safeUrl(l && l.url) })).filter(l => l.href);
+    if (links.length) {
+      const lw = el("div", "links");
+      for (const l of links) { const a = el("a", "btn", l.label || l.href); a.href = l.href; a.target = "_blank"; a.rel = "noopener noreferrer"; lw.append(a); }
+      wrap.append(lw);
+    }
+  }
+
+  // ---------- Now ----------
+  function renderNow() {
+    const root = $("view-now"); root.replaceChildren();
+    const q = queue();
+    const total = q.length;
+    let idx = q.findIndex(d => d.id === focusId);
+    if (idx < 0) idx = 0;
+    if (!total) {
+      root.append(el("div", "empty", "Nothing to do right now. Nice. Timed posts show up here an hour before their slot."));
+    } else {
+      const d = q[idx], t = T(d);
+      const card = el("article", "focus" + (t.section === "now" ? " urgent" : ""));
+      const top = el("div", "pager");
+      top.append(el("span", null, `Task ${idx + 1} of ${total}`));
+      const nav = el("span", "meta");
+      const prev = el("button", "btn small ghost", "‹ Back"); prev.type = "button"; prev.disabled = idx === 0;
+      const next = el("button", "btn small ghost", "Skip ›"); next.type = "button"; next.disabled = idx >= total - 1;
+      prev.addEventListener("click", () => { focusId = q[idx - 1].id; store.set("todo-focus", focusId); render(); scrollTo(0, 0); });
+      next.addEventListener("click", () => { focusId = q[idx + 1].id; store.set("todo-focus", focusId); render(); scrollTo(0, 0); });
+      nav.append(prev, next); top.append(nav); card.append(top);
+      card.append(el("span", "kicker", (SECTIONS.find(s => s.key === t.section) || {}).label || "Task"));
+      card.append(el("h3", null, t.title || "(untitled)"));
+      chips(t, card);
+      instructions(d, card);
+      const acts = el("div", "actions");
+      const done = el("button", "btn done", "✓ Mark done"); done.type = "button";
+      done.disabled = readOnly || !db || pending.has(d.id);
+      done.addEventListener("click", async () => { const nextId = q[idx + 1] ? q[idx + 1].id : null;
+        if (await setDone(d.id, true)) { focusId = nextId; store.set("todo-focus", focusId || ""); render(); scrollTo(0, 0); } });
+      acts.append(done);
+      card.append(acts);
+      root.append(card);
+
+      const rest = q.filter((_, i) => i !== idx).slice(0, 4);
+      if (rest.length) {
+        const sec = el("section"); sec.append(el("h2", null, "After that"));
+        const ul = el("ul", "rows");
+        for (const r of rest) { const rt = T(r); const li = el("li"); const b = el("button", "row"); b.type = "button";
+          b.append(el("span", "t", rt.title || "")); chips(rt, b);
+          b.addEventListener("click", () => { focusId = r.id; store.set("todo-focus", focusId); render(); scrollTo(0, 0); });
+          li.append(b); ul.append(li); }
+        sec.append(ul); root.append(sec);
+      }
+    }
+    const up = upcoming();
+    if (up.length) {
+      const sec = el("section"); sec.append(el("h2", null, "Coming up"));
+      const ul = el("ul", "rows");
+      for (const r of up) { const rt = T(r); const li = el("li", "row"); li.style.cursor = "default";
+        li.append(el("span", "t", rt.title || "")); chips(rt, li); ul.append(li); }
+      sec.append(ul); root.append(sec);
+    }
+    const daily = tasks.filter(d => T(d).section === "daily").sort((a, b) => (T(a).order ?? 999) - (T(b).order ?? 999));
+    if (daily.length) {
+      const sec = el("section"); sec.append(el("h2", null, "Your daily rhythm"));
+      const ul = el("ul", "rhythm");
+      for (const r of daily) { const rt = T(r); const li = el("li"); li.append(el("span", "t", rt.title || "")); if (rt.detail) li.append(el("span", "detail", rt.detail)); ul.append(li); }
+      sec.append(ul); root.append(sec);
+    }
+  }
+
+  // ---------- All ----------
+  let openIds = new Set();
+  // Opens a task where its steps are: Now if it's due, otherwise its expanded card in All.
+  function openTask(id) {
+    if (queue().some(d => d.id === id)) { focusId = id; store.set("todo-focus", id); show("now"); return; }
+    openIds.add(id); show("all");
+    const c = [...document.querySelectorAll("#view-all details.card")].find(x => x.dataset.id === id);
+    if (c) c.scrollIntoView({ block: "start" });
+  }
+  function card(d) {
+    const t = T(d);
+    const det = el("details", "card" + (t.done ? " done" : "") + (t.section === "now" && !t.done ? " urgent" : ""));
+    det.open = openIds.has(d.id); det.dataset.id = d.id;
+    det.addEventListener("toggle", () => { det.open ? openIds.add(d.id) : openIds.delete(d.id); });
+    const sum = el("summary"); sum.append(el("span", "t", t.title || "(untitled)")); chips(t, sum); det.append(sum);
+    const inner = el("div", "inner");
+    instructions(d, inner);
+    const acts = el("div", "actions");
+    const b = el("button", "btn " + (t.done ? "" : "done"), t.done ? "Mark not done" : "✓ Mark done"); b.type = "button";
+    b.disabled = readOnly || !db || pending.has(d.id);
+    b.addEventListener("click", () => setDone(d.id, !t.done));
+    const go = el("button", "btn ghost", "Open in Now"); go.type = "button"; go.hidden = !!t.done || !queue().some(x => x.id === d.id);
+    go.addEventListener("click", () => openTask(d.id));
+    acts.append(b, go); inner.append(acts);
+    det.append(inner);
+    return det;
+  }
+  function renderAll() {
+    const root = $("view-all"); root.replaceChildren();
+    const byOrder = (a, b) => ((T(a).order ?? 999) - (T(b).order ?? 999)) || String(T(a).title || "").localeCompare(String(T(b).title || ""));
+    for (const s of SECTIONS) {
+      const items = tasks.filter(d => (T(d).section || "later") === s.key && (s.routine || !T(d).done)).sort(byOrder);
+      if (!items.length) continue;
+      const sec = el("section");
+      const h = el("h2", s.urgent ? "now" : null, s.label); if (!s.routine) h.append(el("span", "n", String(items.length)));
+      sec.append(h);
+      if (s.routine) { const ul = el("ul", "rhythm"); for (const d of items) { const t = T(d); const li = el("li"); li.append(el("span", "t", t.title || "")); if (t.detail) li.append(el("span", "detail", t.detail)); ul.append(li); } sec.append(ul); }
+      else { const box = el("div", "rows"); for (const d of items) box.append(card(d)); sec.append(box); }
+      root.append(sec);
+    }
+    const done = tasks.filter(d => T(d).done && T(d).section !== "daily");
+    if (done.length) {
+      const det = el("details", "donebox"); det.open = store.get("todo-done-open") === "1";
+      det.addEventListener("toggle", () => store.set("todo-done-open", det.open ? "1" : "0"));
+      det.append(el("summary", null, `Done (${done.length})`));
+      const box = el("div", "rows");
+      done.sort((a, b) => String(T(b).doneAt || "").localeCompare(String(T(a).doneAt || ""))).forEach(d => box.append(card(d)));
+      det.append(box); root.append(det);
+    }
+    const sec = el("section"); sec.append(el("h2", null, "Add a task"));
+    const f = el("form", "add"); f.id = "add";
+    const inp = el("input"); inp.placeholder = "e.g. Record a crowd clip at the game"; inp.maxLength = 200; inp.autocomplete = "off"; inp.setAttribute("aria-label", "Task");
+    const sel = el("select"); sel.setAttribute("aria-label", "Section");
+    for (const [v, l] of [["now", "Do first"], ["post", "Post"], ["setup", "One-time setup"], ["later", "Later"]]) { const o = el("option", null, l); o.value = v; if (v === "later") o.selected = true; sel.append(o); }
+    const btn = el("button", "btn primary", "Add"); btn.type = "submit"; btn.disabled = !db || readOnly;
+    f.append(inp, sel, btn);
+    f.addEventListener("submit", async (ev) => {
+      ev.preventDefault(); const title = inp.value.trim(); if (!title || !db || readOnly) return; btn.disabled = true;
+      try { const maxOrder = tasks.reduce((m, d) => Math.max(m, Number(T(d).order) || 0), 0);
+        await db.collection("tasks").add({ title, section: sel.value, order: maxOrder + 1, done: false, doneAt: null, addedBy: "owner", added: new Date().toISOString() });
+        inp.value = ""; toast("Added."); }
+      catch (e) { toast(e && e.code === "quota_exceeded" ? "The list is full. Ask Claude to clear out old tasks." : "Couldn't add that. Try again."); }
+      finally { btn.disabled = !db || readOnly; }
+    });
+    sec.append(f); root.append(sec);
+  }
+
+  // ---------- Note ----------
+  function renderNotes() {
+    const root = $("notes"); root.replaceChildren();
+    if (!notes.length) { root.append(el("div", "empty", "No notes yet.")); return; }
+    for (const d of notes) {
+      const n = d.data() || {}; const box = el("div", "note");
+      const meta = el("div", "meta");
+      const at = n.at ? new Date(n.at) : null;
+      if (at && !isNaN(at)) meta.append(el("span", "chip", at.toLocaleString(undefined, { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" })));
+      meta.append(el("span", "chip " + (n.status === "new" || !n.status ? "urgent" : ""), n.status === "done" ? "Done" : n.status === "read" ? "Claude read it" : "Waiting for Claude"));
+      box.append(meta, el("div", "t", n.text || ""));
+      if (n.reply) box.append(el("div", "reply", n.reply));
+      root.append(box);
+    }
+  }
+  $("notetext").addEventListener("input", () => { $("notebtn").disabled = !db || readOnly || !$("notetext").value.trim(); store.set("todo-note-draft", $("notetext").value); });
+  $("noteform").addEventListener("submit", async (ev) => {
+    ev.preventDefault(); const text = $("notetext").value.trim(); if (!text || !db || readOnly) return;
+    $("notebtn").disabled = true;
+    try { await db.collection("inbox").add({ text, at: new Date().toISOString(), status: "new" }); $("notetext").value = ""; store.set("todo-note-draft", ""); toast("Sent. Claude reads it on the next run."); }
+    catch (e) { toast("Couldn't send. Try again in a moment."); $("notebtn").disabled = false; }
+  });
+
+  // ---------- Plan ----------
+  // Two morning slots a day (NBA 7-8 AM, FC 8-9 AM, the owner's schedule from Oct 28); anything else is a 2nd post.
+  const SLOTS = [{ ch: "NBA", label: "7-8 AM" }, { ch: "FC", label: "8-9 AM" }];
+  const dayKey = (x) => x.getFullYear() + "-" + (x.getMonth() + 1) + "-" + x.getDate();
+  function renderPlan() {
+    const root = $("view-plan"); root.replaceChildren();
+    const posts = tasks.filter(d => T(d).section === "post");
+    const when = (t) => (t.done && t.doneAt) ? new Date(t.doneAt) : dueOf(t);
+    const today = new Date(); today.setHours(0, 0, 0, 0);
+    for (let i = 0; i < 4; i++) {
+      const day = new Date(today); day.setDate(today.getDate() + i);
+      const k = dayKey(day);
+      const items = posts.filter(d => { const w = when(T(d)); return w && !isNaN(w) && dayKey(w) === k; })
+        .sort((a, b) => when(T(a)) - when(T(b)));
+      const sec = el("section", "day");
+      const label = i === 0 ? "Today" : i === 1 ? "Tomorrow" : day.toLocaleDateString(undefined, { weekday: "long" });
+      const h = el("h2", null, label); h.append(el("span", "n", day.toLocaleDateString(undefined, { month: "short", day: "numeric" })));
+      sec.append(h);
+      const used = new Set();
+      const row = (d, tm) => {
+        const t = T(d); used.add(d.id);
+        const b = el(t.done ? "div" : "button", "slot" + (t.done ? " posted" : "")); if (!t.done) b.type = "button";
+        b.append(el("span", "tm", tm), el("span", "t", (t.title || "").replace(/^Post: /, "")));
+        const meta = el("div", "meta");
+        if (t.channel) meta.append(el("span", "chip " + t.channel, t.channel));
+        meta.append(el("span", "chip " + (t.done ? "ok" : "when"), t.done ? "Posted ✓" : "Ready to post"));
+        b.append(meta);
+        if (!t.done) b.addEventListener("click", () => openTask(d.id));
+        return b;
+      };
+      for (const s of SLOTS) {
+        const d = items.find(x => !used.has(x.id) && T(x).channel === s.ch && when(T(x)).getHours() < 12);
+        if (d) { sec.append(row(d, s.label)); continue; }
+        const e = el("div", "slot empty");
+        const past = i === 0 && new Date().getHours() >= 12;
+        e.append(el("span", "tm", s.label), el("span", "t", past ? "Nothing this morning" : s.ch + " slot empty: Claude builds one"));
+        const meta = el("div", "meta"); meta.append(el("span", "chip " + s.ch, s.ch)); e.append(meta);
+        sec.append(e);
+      }
+      for (const d of items) if (!used.has(d.id)) sec.append(row(d, when(T(d)).toLocaleTimeString(undefined, { hour: "numeric", minute: "2-digit" })));
+      root.append(sec);
+    }
+    const loose = posts.filter(d => !T(d).done && !dueOf(T(d)));
+    if (loose.length) {
+      const sec = el("section", "day"); sec.append(el("h2", null, "No date yet"));
+      for (const d of loose) { const b = el("button", "slot"); b.type = "button"; b.append(el("span", "tm", "—"), el("span", "t", (T(d).title || "").replace(/^Post: /, "")));
+        b.addEventListener("click", () => openTask(d.id)); sec.append(b); }
+      root.append(sec);
+    }
+    root.append(el("p", "foot", "Your rhythm: NBA 7-8 AM, soccer 8-9 AM, 1 hour apart. A second post only when it's as strong, 6+ hours later. Tap a Short to open its steps."));
+  }
+
+  // ---------- shell ----------
+  function render() {
+    const checkable = tasks.filter(d => T(d).section !== "daily");
+    const done = checkable.filter(d => T(d).done).length;
+    const nowN = queue().length;
+    $("count").textContent = checkable.length ? `${nowN} to do now · ${checkable.length - done - nowN} later · ${done} done` : "No tasks yet";
+    $("fill").style.width = checkable.length ? (100 * done / checkable.length).toFixed(1) + "%" : "0";
+    const badge = $("badge"); badge.hidden = !nowN; badge.textContent = String(nowN);
+    if (view === "now") renderNow(); else if (view === "all") renderAll(); else if (view === "plan") renderPlan();
+    renderNotes();
+  }
+  function show(v) {
+    view = ["now", "all", "plan", "note"].includes(v) ? v : "now"; store.set("todo-view", view);
+    for (const k of ["now", "all", "plan", "note"]) { $("view-" + k).hidden = k !== view; $("tab-" + k).setAttribute("aria-selected", String(k === view)); }
+    $("h1").textContent = view === "now" ? "Do this now" : view === "all" ? "All tasks" : view === "plan" ? "Upload plan" : "Note to Claude";
+    render(); scrollTo(0, 0);
+  }
+  document.querySelectorAll(".tab").forEach(b => b.addEventListener("click", () => show(b.dataset.view)));
+  const hash = (location.hash || "").slice(1);
+  show(["now", "all", "plan", "note"].includes(hash) ? hash : (store.get("todo-view") || "now"));
+  const draft = store.get("todo-note-draft"); if (draft) $("notetext").value = draft;
+  let lastQueue = "";
+  setInterval(() => { // timed tasks move into "Now" on their own; re-render only when the queue changes
+    const sig = queue().map(d => d.id).join(",");
+    if (sig !== lastQueue) { lastQueue = sig; render(); }
+  }, 60 * 1000);
+
+  (async () => {
+    const claude = window.claude;
+    if (!claude || typeof claude.use !== "function") { $("count").textContent = "Offline copy"; $("view-now").replaceChildren(el("div", "empty", "Open this page in Claude to see your tasks.")); return; }
+    db = await claude.use("db");
+    if (!db) { $("count").textContent = "Not available"; $("view-now").replaceChildren(el("div", "empty", "Open this page in Claude while signed in to see your tasks.")); return; }
+    try { const user = await claude.use("user"); const can = user && typeof user.can === "function" ? await user.can("data.write") : null; if (can === false) readOnly = true; } catch (e) {}
+    $("notebtn").disabled = readOnly || !$("notetext").value.trim();
+    db.collection("tasks").onSnapshot((snap) => { tasks = snap.docs.filter(d => d.exists); render(); },
+      () => toast("The list stopped updating. Reload the page to reconnect."));
+    db.collection("inbox").orderBy("at", "desc").limit(30).onSnapshot((snap) => { notes = snap.docs.filter(d => d.exists); renderNotes(); }, () => {});
+  })();
+})();
+</script>

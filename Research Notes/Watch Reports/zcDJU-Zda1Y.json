@@ -1,0 +1,146 @@
+{
+ "length_s": 23.08,
+ "topic": "A humorous compilation of NBA players reacting with exaggerated loud noises and expressions.",
+ "lane": "moment",
+ "hook": {
+  "first_words": "ey yo bro where did these crazy sounds come from?",
+  "first_frame": "LeBron James sitting on a stool holding a basketball, yelling with his mouth wide open.",
+  "on_screen_text_0_3s": "ey yo bro where did these crazy sounds come from?",
+  "shots_in_first_3s": 2
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 1.15,
+   "shows": "LeBron James sitting and yelling while holding a basketball",
+   "kind": "face"
+  },
+  {
+   "start_s": 1.15,
+   "end_s": 2.87,
+   "shows": "Luka Doncic looking sideways in a Lakers jersey",
+   "kind": "face"
+  },
+  {
+   "start_s": 2.87,
+   "end_s": 6.83,
+   "shows": "Victor Wembanyama at a press conference yelling loudly into a microphone",
+   "kind": "face"
+  },
+  {
+   "start_s": 6.83,
+   "end_s": 8.87,
+   "shows": "IShowSpeed with headphones on, covering his mouth in shock",
+   "kind": "face"
+  },
+  {
+   "start_s": 8.87,
+   "end_s": 10.75,
+   "shows": "LeBron James in a Lakers jersey grabbing his head and yelling",
+   "kind": "face"
+  },
+  {
+   "start_s": 10.75,
+   "end_s": 13.91,
+   "shows": "Austin Reaves at a press conference laughing",
+   "kind": "face"
+  },
+  {
+   "start_s": 13.91,
+   "end_s": 18.51,
+   "shows": "Austin Reaves looking down and smiling during a press conference",
+   "kind": "face"
+  },
+  {
+   "start_s": 18.51,
+   "end_s": 22.07,
+   "shows": "Luka Doncic sitting at a press table looking serious",
+   "kind": "face"
+  },
+  {
+   "start_s": 22.07,
+   "end_s": 23.08,
+   "shows": "Luka Doncic laughing and covering his mouth at a press table",
+   "kind": "face"
+  }
+ ],
+ "shot_count": 9,
+ "average_shot_s": 2.56,
+ "longest_shot_s": 3.96,
+ "voice": {
+  "type": "human",
+  "gender": "male",
+  "words_per_minute_estimate": 160,
+  "tone": "casual and energetic",
+  "original_audio_under_voice": true
+ },
+ "music": {
+  "present": true,
+  "style": "upbeat meme trap beat",
+  "level_vs_voice": "loud",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [
+  {
+   "at_s": 3.47,
+   "sound": "loud monster roar"
+  },
+  {
+   "at_s": 8.79,
+   "sound": "screaming sound effect"
+  },
+  {
+   "at_s": 14.15,
+   "sound": "woo sound effect"
+  }
+ ],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "mixed",
+  "position": "middle",
+  "colours": "yellow, green, pink, white",
+  "highlight_style": "word by word color change"
+ },
+ "text_overlays": [
+  {
+   "at_s": 7.15,
+   "text": "*making Wemby taller*"
+  }
+ ],
+ "cards_or_graphics": 0,
+ "framing": "crop",
+ "ending": {
+  "last_words": "laugh",
+  "last_frame": "Luka Doncic laughing and covering his mouth at a press table.",
+  "loops_to_start": true,
+  "call_to_action": "none"
+ },
+ "script": "ey yo bro where did these crazy sounds come from?",
+ "retention_tricks": [
+  "rapid-fire cuts between different NBA players",
+  "zooms and shake effects on sound drops",
+  "meme sound effects synced with player expressions",
+  "hook asking an intriguing question in the first second"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "Fast pacing keeps viewers engaged through multiple funny clips",
+  "Strong audio-visual synchronization with roars and screams",
+  "Relatable and viral basketball personalities used for meme content"
+ ],
+ "_meta": {
+  "source": "zcDJU-Zda1Y",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

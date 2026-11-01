@@ -1,0 +1,115 @@
+{
+ "length_s": 25.0,
+ "topic": "A compilation of pool jumping stunts with a celebrity guessing game filter at the top.",
+ "lane": "moment",
+ "hook": {
+  "first_words": "unknown",
+  "first_frame": "A person lying in a swimming pool next to a treadmill with colored candies on it",
+  "on_screen_text_0_3s": "none",
+  "shots_in_first_3s": 1
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 4.0,
+   "shows": "person in pool with treadmill",
+   "kind": "action"
+  },
+  {
+   "start_s": 4.0,
+   "end_s": 8.0,
+   "shows": "woman jumping into pool with split",
+   "kind": "action"
+  },
+  {
+   "start_s": 8.0,
+   "end_s": 11.0,
+   "shows": "man jumping backwards into water",
+   "kind": "action"
+  },
+  {
+   "start_s": 11.0,
+   "end_s": 13.5,
+   "shows": "man backflipping into water",
+   "kind": "action"
+  },
+  {
+   "start_s": 13.5,
+   "end_s": 17.2,
+   "shows": "man jumping into pool",
+   "kind": "action"
+  },
+  {
+   "start_s": 17.2,
+   "end_s": 21.7,
+   "shows": "man sliding down glass into pool",
+   "kind": "action"
+  },
+  {
+   "start_s": 21.7,
+   "end_s": 25.0,
+   "shows": "speedboat moving on water",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 7,
+ "average_shot_s": 3.57,
+ "longest_shot_s": 4.5,
+ "voice": {
+  "type": "none",
+  "gender": "unknown",
+  "words_per_minute_estimate": 0,
+  "tone": "none",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "upbeat trending song",
+  "level_vs_voice": "loud",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": false,
+  "words_per_line": 0,
+  "case": "mixed",
+  "position": "middle",
+  "colours": "unknown",
+  "highlight_style": "unknown"
+ },
+ "text_overlays": [],
+ "cards_or_graphics": 0,
+ "framing": "crop",
+ "ending": {
+  "last_words": "unknown",
+  "last_frame": "speedboat moving on water with laughing emoji",
+  "loops_to_start": true,
+  "call_to_action": "none"
+ },
+ "script": "",
+ "retention_tricks": [
+  "celebrity guessing filter at the top eliminating wrong answers",
+  "fast-paced pool stunt clips",
+  "laughing emoji popping up"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": true,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": false,
+  "ends_on_payoff": false,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "Engaging celebrity guessing game filter at the top of the screen",
+  "High-energy pool jump stunts capturing viewer attention",
+  "Fast cuts between impressive physical feats"
+ ],
+ "_meta": {
+  "source": "nC50bC6-TGA",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

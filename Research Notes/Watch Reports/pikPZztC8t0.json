@@ -1,0 +1,219 @@
+{
+ "length_s": 66.25,
+ "topic": "Shane Duffy's disastrous start at Blackburn Rovers, where he scored three own goals and got sent off in his first two games.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "Worst starts a new player had with his club.",
+  "first_frame": "A footballer lying on the grass in white and blue kit, rolling and clutching his head.",
+  "on_screen_text_0_3s": "WORST STARTS A NEW PLAYER had with his club",
+  "shots_in_first_3s": 4
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 2.25,
+   "shows": "A football player in white and blue kit rolling on the pitch in pain",
+   "kind": "action"
+  },
+  {
+   "start_s": 2.25,
+   "end_s": 4.75,
+   "shows": "Shane Duffy running in Blackburn Rovers kit with club logo above",
+   "kind": "still"
+  },
+  {
+   "start_s": 4.75,
+   "end_s": 7.5,
+   "shows": "Duffy running in Ireland yellow kit",
+   "kind": "action"
+  },
+  {
+   "start_s": 7.5,
+   "end_s": 9.5,
+   "shows": "Duffy tackling Cristiano Ronaldo in international match",
+   "kind": "action"
+  },
+  {
+   "start_s": 9.5,
+   "end_s": 12.25,
+   "shows": "Close up of Duffy looking serious in Blackburn training kit",
+   "kind": "face"
+  },
+  {
+   "start_s": 12.25,
+   "end_s": 14.25,
+   "shows": "Aerial match footage of Duffy playing for Blackburn",
+   "kind": "action"
+  },
+  {
+   "start_s": 14.25,
+   "end_s": 15.75,
+   "shows": "Duffy looking frustrated with hands on head in Blackburn kit",
+   "kind": "face"
+  },
+  {
+   "start_s": 15.75,
+   "end_s": 17.75,
+   "shows": "Aerial shot of Wigan stadium",
+   "kind": "stock"
+  },
+  {
+   "start_s": 17.75,
+   "end_s": 21.0,
+   "shows": "Match footage showing Duffy scoring an own goal against Wigan",
+   "kind": "action"
+  },
+  {
+   "start_s": 21.0,
+   "end_s": 23.0,
+   "shows": "Blackburn badge graphic over grid background with score 3-0",
+   "kind": "text_card"
+  },
+  {
+   "start_s": 23.0,
+   "end_s": 27.75,
+   "shows": "Duffy looking down with hands on head, then phone screen showing Twitter account deleted",
+   "kind": "face"
+  },
+  {
+   "start_s": 27.75,
+   "end_s": 30.75,
+   "shows": "Close up of Duffy in training",
+   "kind": "face"
+  },
+  {
+   "start_s": 30.75,
+   "end_s": 33.0,
+   "shows": "Blackburn players shaking hands before Cardiff match",
+   "kind": "action"
+  },
+  {
+   "start_s": 33.0,
+   "end_s": 38.0,
+   "shows": "Match footage of Duffy scoring his second own goal against Cardiff",
+   "kind": "action"
+  },
+  {
+   "start_s": 38.0,
+   "end_s": 42.75,
+   "shows": "Split screen showing Duffy scoring his third own goal with header from a free kick",
+   "kind": "action"
+  },
+  {
+   "start_s": 42.75,
+   "end_s": 50.0,
+   "shows": "Match footage of Duffy kicking the ball away in frustration and getting a second yellow card",
+   "kind": "action"
+  },
+  {
+   "start_s": 50.0,
+   "end_s": 51.75,
+   "shows": "Red card graphic over stadium blur",
+   "kind": "text_card"
+  },
+  {
+   "start_s": 51.75,
+   "end_s": 55.75,
+   "shows": "Duffy looking serious in training",
+   "kind": "face"
+  },
+  {
+   "start_s": 55.75,
+   "end_s": 57.5,
+   "shows": "Duffy running in Blackburn kit",
+   "kind": "still"
+  },
+  {
+   "start_s": 57.5,
+   "end_s": 60.0,
+   "shows": "Jason Steele goalkeeper holding ball",
+   "kind": "still"
+  },
+  {
+   "start_s": 60.0,
+   "end_s": 63.75,
+   "shows": "Duffy in training with joint top scorer graphic",
+   "kind": "still"
+  },
+  {
+   "start_s": 63.75,
+   "end_s": 66.25,
+   "shows": "Cardiff fans applauding and Duffy walking off the pitch",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 22,
+ "average_shot_s": 3.01,
+ "longest_shot_s": 4.75,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 175,
+  "tone": "narrative, engaging, fast-paced",
+  "original_audio_under_voice": true
+ },
+ "music": {
+  "present": true,
+  "style": "dramatic cinematic beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "mixed",
+  "position": "middle",
+  "colours": "white",
+  "highlight_style": "none"
+ },
+ "text_overlays": [
+  {
+   "at_s": 0.0,
+   "text": "WORST STARTS A NEW PLAYER had with his club"
+  },
+  {
+   "at_s": 2.25,
+   "text": "Shane Duffy"
+  },
+  {
+   "at_s": 2.75,
+   "text": "was a center-back for Blackburn Rovers, fresh off playing for Ireland at Euro 2016. He was one of their most promising defenders, the kind of player Celtic and Premier League clubs were watching, but then over just a few days in August, his whole season unraveled. It started on a Saturday at Wigan, where in the 63rd minute, Duffy turned the ball into his own net and Blackburn lost three to nothing. The abuse online got so heavy that he deleted his personal Twitter account that very night. But that own goal would end up being the least of his problems. The following Wednesday, Blackburn traveled to Cardiff, and in the 14th minute, a shot smacked the post and Duffy accidentally stroked the rebound into his own empty net. Six minutes after that, a free kick floated in and he powered a header past his own keeper. Then deep in stoppage time, while chasing an equalizer, he kicked the ball away in frustration, picked up a second yellow, and got sent off. But the strangest part wasn't the red card or the own goals. And if you're enjoying the video please hit the follow button. Duffy had now beaten his own goalkeeper, Jason Steele, three times in under an hour of football, and that freak run made him the joint top scorer in the entire Championship. Cardiff's own fans gave him a standing ovation as he walked off."
+  }
+ ],
+ "cards_or_graphics": 3,
+ "framing": "crop",
+ "ending": {
+  "last_words": "walked off.",
+  "last_frame": "Duffy walking off the pitch with Cardiff fans applauding in the background.",
+  "loops_to_start": false,
+  "call_to_action": "please hit the follow button."
+ },
+ "script": "Worst starts a new player had with his club. Shane Duffy was a center-back for Blackburn Rovers, fresh off playing for Ireland at Euro 2016. He was one of their most promising defenders, the kind of player Celtic and Premier League clubs were watching, but then over just a few days in August, his whole season unraveled. It started on a Saturday at Wigan, where in the 63rd minute, Duffy turned the ball into his own net and Blackburn lost three to nothing. The abuse online got so heavy that he deleted his personal Twitter account that very night. But that own goal would end up being the least of his problems. The following Wednesday, Blackburn traveled to Cardiff, and in the 14th minute, a shot smacked the post and Duffy accidentally stroked the rebound into his own empty net. Six minutes after that, a free kick floated in and he powered a header past his own keeper. Then deep in stoppage time, while chasing an equalizer, he kicked the ball away in frustration, picked up a second yellow, and got sent off. But the strangest part wasn't the red card or the own goals. And if you're enjoying the video please hit the follow button. Duffy had now beaten his own goalkeeper, Jason Steele, three times in under an hour of football, and that freak run made him the joint top scorer in the entire Championship. Cardiff's own fans gave him a standing ovation as he walked off.",
+ "retention_tricks": [
+  "rapid hook with multiple short cuts",
+  "pacing with match replays",
+  "curiosity loop about the strangest part",
+  "call to action midpoint"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": true,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "Incredible and shocking true football stats",
+  "Fast editing pace matching the narration speed",
+  "Clear visual evidence for every unbelievable claim made in the story"
+ ],
+ "_meta": {
+  "source": "pikPZztC8t0",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

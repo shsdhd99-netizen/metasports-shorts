@@ -1,0 +1,254 @@
+{
+ "length_s": 69.0,
+ "topic": "Investigating whether Vinicius Jr ever actually considered leaving Real Madrid for Arsenal.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "Did Vini Jr ever ACTUALLY consider leaving",
+  "first_frame": "Vinicius Jr walking past fans at a stadium pitch exit",
+  "on_screen_text_0_3s": "Did Vini Jr ever ACTUALLY CONSIDER LEAVING",
+  "shots_in_first_3s": 3
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 2.5,
+   "shows": "Vinicius Jr walking through stadium tunnel past fans",
+   "kind": "action"
+  },
+  {
+   "start_s": 2.5,
+   "end_s": 4.25,
+   "shows": "Vinicius Jr laughing at a press conference",
+   "kind": "face"
+  },
+  {
+   "start_s": 4.25,
+   "end_s": 6.25,
+   "shows": "Vinicius Jr walking outside in casual clothes",
+   "kind": "action"
+  },
+  {
+   "start_s": 6.25,
+   "end_s": 8.0,
+   "shows": "Vinicius Jr walking in Real Madrid training gear",
+   "kind": "action"
+  },
+  {
+   "start_s": 8.0,
+   "end_s": 10.5,
+   "shows": "Vinicius Jr in Real Madrid jersey portrait graphic",
+   "kind": "still"
+  },
+  {
+   "start_s": 10.5,
+   "end_s": 12.0,
+   "shows": "Vinicius Jr talking inside a car",
+   "kind": "face"
+  },
+  {
+   "start_s": 12.0,
+   "end_s": 13.0,
+   "shows": "Vinicius Jr at Brazil press conference",
+   "kind": "face"
+  },
+  {
+   "start_s": 13.0,
+   "end_s": 15.0,
+   "shows": "Vinicius Jr talking to staff at training ground",
+   "kind": "action"
+  },
+  {
+   "start_s": 15.0,
+   "end_s": 16.5,
+   "shows": "Vinicius Jr smiling in training jersey",
+   "kind": "face"
+  },
+  {
+   "start_s": 16.5,
+   "end_s": 19.75,
+   "shows": "Vinicius Jr in car talking and gesturing",
+   "kind": "face"
+  },
+  {
+   "start_s": 19.75,
+   "end_s": 24.0,
+   "shows": "Mikel Arteta shaking hands with players in Arsenal facilities",
+   "kind": "action"
+  },
+  {
+   "start_s": 24.0,
+   "end_s": 25.5,
+   "shows": "Arsenal squad celebrating with Premier League trophy",
+   "kind": "still"
+  },
+  {
+   "start_s": 25.5,
+   "end_s": 28.0,
+   "shows": "Mikel Arteta sitting in interview chair",
+   "kind": "face"
+  },
+  {
+   "start_s": 28.0,
+   "end_s": 31.0,
+   "shows": "Vinicius Jr graphic with grid background",
+   "kind": "still"
+  },
+  {
+   "start_s": 31.0,
+   "end_s": 32.75,
+   "shows": "AS logo animation",
+   "kind": "text_card"
+  },
+  {
+   "start_s": 32.75,
+   "end_s": 35.0,
+   "shows": "Mikel Arteta at Arsenal press conference desk",
+   "kind": "face"
+  },
+  {
+   "start_s": 35.0,
+   "end_s": 37.5,
+   "shows": "Vinicius Jr Instagram profile screenshot showing zero posts",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 37.5,
+   "end_s": 39.5,
+   "shows": "Vinicius Jr in grey polo shirt indoors",
+   "kind": "action"
+  },
+  {
+   "start_s": 39.5,
+   "end_s": 41.0,
+   "shows": "Vinicius Jr Instagram profile closeup",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 41.0,
+   "end_s": 43.6,
+   "shows": "Vinicius Jr walking down stadium steps from behind",
+   "kind": "action"
+  },
+  {
+   "start_s": 43.6,
+   "end_s": 47.0,
+   "shows": "Vinicius Jr looking sad and thoughtful in Madrid gear",
+   "kind": "face"
+  },
+  {
+   "start_s": 47.0,
+   "end_s": 51.0,
+   "shows": "Real Madrid crest with salary figure text",
+   "kind": "still"
+  },
+  {
+   "start_s": 51.0,
+   "end_s": 53.5,
+   "shows": "Jose Mourinho portrait photo",
+   "kind": "still"
+  },
+  {
+   "start_s": 53.5,
+   "end_s": 55.0,
+   "shows": "Jose Mourinho in podcast interview",
+   "kind": "face"
+  },
+  {
+   "start_s": 55.0,
+   "end_s": 56.25,
+   "shows": "Jose Mourinho shaking hands in suit",
+   "kind": "action"
+  },
+  {
+   "start_s": 56.25,
+   "end_s": 59.0,
+   "shows": "Vinicius Jr celebrating at Santiago Bernabeu",
+   "kind": "still"
+  },
+  {
+   "start_s": 59.0,
+   "end_s": 61.25,
+   "shows": "Vinicius Jr sitting on ball at training ground",
+   "kind": "face"
+  },
+  {
+   "start_s": 61.25,
+   "end_s": 63.3,
+   "shows": "Vinicius Jr stretching at training",
+   "kind": "action"
+  },
+  {
+   "start_s": 63.3,
+   "end_s": 66.5,
+   "shows": "Mikel Arteta at press conference and Arsenal staff meeting",
+   "kind": "action"
+  },
+  {
+   "start_s": 66.5,
+   "end_s": 69.0,
+   "shows": "Vinicius Jr playing football at training ground",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 30,
+ "average_shot_s": 2.3,
+ "longest_shot_s": 4.5,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 175,
+  "tone": "engaging and dramatic",
+  "original_audio_under_voice": true
+ },
+ "music": {
+  "present": true,
+  "style": "dramatic cinematic beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 4,
+  "case": "mixed",
+  "position": "middle",
+  "colours": "white",
+  "highlight_style": "none"
+ },
+ "text_overlays": [],
+ "cards_or_graphics": 4,
+ "framing": "blurred background with 16:9 inset footage",
+ "ending": {
+  "last_words": "he wanted all along.",
+  "last_frame": "Vinicius Jr dribbling a football during a training session",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "Did Vini Jr ever ACTUALLY consider leaving Madrid, or was Arsenal completely played? Back in January of 2025, Real Madrid sat down with their star winger Vinicius Junior to offer him a new contract, and Vini Jr said no. Then he said no again. For eighteen months, Madrid kept improving the deal while Vini Jr kept turning it down, because he felt he deserved to be paid like one of the best players on the planet. But there was one club watching those rejections closely, waiting for the exact moment to strike. Arsenal had just won the Premier League, so they felt bold enough to chase a Madrid Galactico, entering talks with his camp and reportedly matching his wage demands. Spanish outlet AS even said some Arsenal players considered the transfer a done deal. Then Vini Jr wiped his entire Instagram history, an account with almost sixty-four million followers that suddenly showed zero posts, which is usually the sign of a player packing his bags. But the timing of that blackout is the part that tells you what was really going on. Within days, Madrid put a fresh offer on the table worth £18.5M a year, and new Madrid boss Jose Mourinho made it clear he wanted Vini as a key player, which helped pull him back in. Hours ago, Vini Jr signed a brand new six year contract keeping him at the Bernabeu until 2032. So did he ever truly consider leaving? Not really. Arsenal's interest was genuine, yet they were only ever the pressure that got Vini Jr the massive raise he wanted all along.",
+ "retention_tricks": [
+  "rapid hook questioning transfer rumours",
+  "quick shot pacing averaging over 2 cuts per second",
+  "dramatic reveal of Instagram blackout as false alarm",
+  "visual text cards and salary graphics for data points"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "A compelling transfer saga mystery involving two massive clubs keeps viewers hooked until the resolution.",
+  "Fast-paced editing with frequent visual changes matches the rapid narration style.",
+  "Using real screenshots like Vinicius Jr's blank Instagram profile adds credibility to the storytelling."
+ ],
+ "_meta": {
+  "source": "T6walwphFYY",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

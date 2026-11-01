@@ -1,10 +1,75 @@
 # CLOUD STATE (single source of truth for any agent or new chat; update as you go)
 Last updated: 2026-10-14 (newest section at the bottom). Branch: `main-329h3w` (draft PR #1). The user posts the videos; NEVER upload/publish or open YouTube Studio.
-**Owner, Oct 19 (standing until they say otherwise):** "you are able to run from my pc now, you do not need to look for cloud solutions." Prefer the PC when the session runs there. Lead with THE #42 FORMAT (what works), other formats allowed (`Library/THE 42 FORMAT.md`). When the owner is away from the PC, source footage in the cloud yourself.
+**Owner, Oct 19 (standing until they say otherwise):** "you are able to run from my pc now, you do not need to look for cloud solutions." Prefer the PC when the session runs there. (Oct 26 overnight review: THE #42 FORMAT is one lane among several, not the lead; moments are about half of NBA Shorts. See House rules and `Research Notes/Rule Changes Applied (Oct 26, 2026).md`.) When the owner is away from the PC, source footage in the cloud yourself.
+
+## Oct 28, 2026 (night): Bronny again + the first Ahmed-style NBA test (read this first)
+- **Owner:** "can we also work on a 'did bronny actually get better' short? aswell as that, a short in ahmed style for metasports clips? for test purposes".
+- **#77 "Did Bronny Actually Get Better?"** (23.6 s, real audio: Luka's own voice): FG% 31 to 41, 3P% 28 to 39, 27 to 42 games + 8 playoff games, kept over Knecht, opening night 1-for-1 in 7 minutes, then three DNPs. Payoff: "shooting 100%... he just hasn't played since." QA PASS, Gemini READY. Thu ~3 PM. **A reminder fires at 06:20 UTC Oct 29** to check the Lakers @ Clippers box score; if Bronny played, update the ending before the owner posts.
+- **#78 Rodman Ahmed-style test** (about 55 s, story format, title card, music + no-music): Rodman skipped a 1998 Finals practice for WCW Nitro, then 14 rebounds and 5-of-6 FTs in Game 4, Costas' real line in Game 6, Bash at the Beach vs Malone, WWE Hall of Fame 2026. Footage: NBC 1998 broadcasts from archive.org (Games 3, 4, 6), HD clips and WWE's HOF video from X. Sat 7-8 AM. **Done:** 55.0 s, both versions full QA PASS (`--profile story`), Hub card s78 + to-do task post-rodman. Bob Costas' 4-second Game 6 line plays in his own voice (`nat_sound.py --burst 33.84-37.72 --bed-db -30 --tail 0.1`, wrestling-source shots muted with `--clip-db`). QA fixes: 9 one-frame flashes in the 1998 archive clips removed with `Tools/deflash.py` (originals in `_check/preflash/`); three 720x480 face shots (K05, K08, K11B) were 4x blow-ups, now 3:4 blur-fit (`blurfit_aspect 0.75`, about 3x). Note: `footage_qc.py` only allows archive blow-ups up to 6x for folders under `Soccer Channel/`, so NBA story-format tests are held to 3x. **Render the music and no-music versions one after the other, never in parallel:** two `assemble.py` runs in one folder at once broke one render (0.2 s picture).
+
+## Oct 28, 2026 (evening): real audio, footage deleted, morning runs moved here (read this first)
+- **Owner:** "yes, delete all footage / see how much of the to do list you can do yourself first / for all clips that are viral, experiment with using the actual audio for the moment".
+- **Real audio** (`Tools/nat_sound.py`; rule: NBA Playbook THE RULES §2 rule 11, soccer Playbook rule 1, daily-run skill):
+  - #75 rookie: the live call "To him, Jayson Tatum for the win! Yes, sir!" over the winner. **Posted 6:03 PM by the owner (RPbRxmbMHms, the real-audio version: 22 s on YouTube).**
+  - #76 Pierce (Thu 7-8 AM): his three quotes in his own voice, lip-synced. Gemini READY, QA PASS.
+  - S17 Krul (Fri 8-9 AM): "It's Umaña who steps up, and Krul has saved it!" with the music bed kept (music side). QA PASS, Gemini READY. Worked folders: `_realaudio/` in each.
+  - Real-audio posts are their own test, outside the music test. Keep the narrated render as the copyright fallback.
+- **Footage deleted** (owner approved): about 16 GB of git-ignored src/clips/renders. Only #74, #75, #76, S16 and S17 keep src. Disk: 18 GB free.
+- **Morning runs now fire into this main session** (new scheduled tasks trig_015aH7sYHDcQigg1TMVq2DT2 research 3:43, trig_01TuURVZFYNsjWyqb2Maji9D NBA 4:41, trig_012tSMkzcY6cm1BPEn1zUYGU FC 5:39 ET). The old fresh-session ones are paused (not deleted): they couldn't push or record. If the owner ever adds the repo and keys to the environment, re-enable the old ones and delete these.
+- **To-do list:** Loch Ness question closed (Gemini can't hear a -20 dB bed, so S07 leaves the music test). The environment task is now an optional Gemini key swap. vidIQ is linked to the NBA channel and has analytics (retention curves) but 0 credits until Nov 5.
+- **Fixed records:** #72 "This Kid Felt Every Free Throw" went up Wed 7:17 AM (not Tue night); 19.8K by 6 PM.
+
+## Oct 28, 2026: phone task list, 7-9 AM posting, four new Shorts (read this first)
+- **Owner asked (Oct 28):** make the to-do work on the phone and be more instructive; build new Shorts; first posts at 7-9 AM.
+- **Task list** (https://claude.ai/artifact/Ki1UXnbxsdykE4dy7BwyLT) is now phone-first:
+  - a **Now** tab shows one task at a time with numbered, tickable steps, Copy buttons and a big Done;
+  - **All tasks**, plus a **Note** tab that writes to collection `inbox` ({text, at, status new|read|done, reply}).
+  - a **Plan** tab (added Oct 28 evening): the next four days as slots, NBA 7-8 AM and FC 8-9 AM, built from each post task's `due` (or `doneAt` once posted). An empty slot reads "Claude builds one", so keep `due` and `channel` set on every post task. Tapping a Short opens its steps (Now if it's due within the hour, else its card in All).
+  - Read new notes at the start of every run; set status and a one-line reply.
+  - Field shapes are in `.claude/skills/daily-run/SKILL.md` §E: `due` (a timed post joins Now an hour before), `steps`, `copy`, `why`, `mins`.
+- **Posting times (owner):** NBA 7-8 AM ET, FC 8-9 AM ET; 2nd posts (only when as strong) about 3 PM / 4 PM.
+  - Our evidence says the hour barely matters [S], and an early slot suits morning-after news.
+  - Routines moved: research 3:43 AM, NBA build 4:41 AM, FC build 5:39 AM ET; the stats check stays 7:07 PM.
+- **Routines still can't save their work:** both pushes on Oct 28 got 403s, and there's no voice key. Today's research file was recovered by hand.
+  - The owner's fix is the first task on the list (repo in Repositories, ELEVENLABS_API_KEY, new GEMINI_API_KEY).
+- **New Shorts (all full QA PASS, Gemini pre-check READY, on the Hubs and task list):**
+  - #75 "This Rookie Was A Hero For One Overtime": Brown Jr. ties it with 0.2 s left, Tatum wins at the OT buzzer. Music side. Today about 4 PM; skip it if missed.
+  - #76 "He Left The NBA Finals In A Wheelchair": Pierce, own take on CoachClank's 8.6M bathroom topic. No-music side. Thu 7-8 AM.
+  - S16 "The manager who told his team to stop scoring": Fabregas (the 2004 pizza), Como 4-1 Man Utd. No-music side. Thu 8-9 AM.
+  - S17 "Goalkeepers who were subbed on just for the penalties": Tim Krul, Netherlands v Costa Rica 2014. Music side. Fri 8-9 AM.
+  - #74 underhand moved to **Fri 7-8 AM** (no-music side): today went to the rookie news Short, Thursday to Pierce.
+  - **Saturday Oct 31 has no Short yet on either channel.** The morning routines build one if the environment fix is done; otherwise the main session builds them.
+  - Parked: the Ronaldo Coca-Cola Short, because there's no usable footage of the payoff (notes in its folder).
+- **Footage lesson:** UCL goal clips from beIN, ESPN and TRT on X return 403 (protected). CBS Sports Golazo clips and highlight reposts download.
+- **Disk:** the session's disk allowance ran out mid-render. Clear scratch copies after Hub uploads.
+  - Deleting old src/ footage in the repo was refused by the permission check, so ask the owner first.
+
+## Oct 27, 2026: scheduled runs can't push; Gemini watcher live (read this first)
+- The 5:43 research, 6:41 NBA build and 9:39 FC build ran on Oct 27, but every push got a 403. The repo isn't one of the routine sessions' sources, and those sessions have no add_repo. Their commits were recovered from the session records into this branch (commit 365a4b4). The builds also had no `ELEVENLABS_API_KEY` in the environment, so they made scripts only.
+  - Fix (owner): environment settings, add the repo under Repositories plus the ElevenLabs and Gemini keys.
+  - Fallback: point the routines at the main session with update_trigger `persistent_session_id`.
+- **Gemini** (`Tools/yt_watch.py`, `Tools/watch_study.py`; notes in `Research Notes/Gemini Uses (Oct 27, 2026).md`):
+  - The key works in the main session (`Tools/.env`, git-ignored).
+  - Flash-lite is the free model that answers reliably.
+  - Trust it for transcripts, the shots in the first 3-5 s, and finding a quote in footage. Don't trust it for music or for total shot counts.
+- **Oct 28: own versions of the best library scripts** (owner: "rebuild the best nba/soccer scripts youve seen, and make your own video on the same topics"):
+  - **#74 "Why NBA Players Refuse This Free Throw":** CoachClank's topic, our Wilt angle.
+  - **S15 "Barcelona paid a fortune for the player who knocked them out":** Ahmed's Goal's topic, our Coutinho angle.
+  - Both: full QA PASS, Gemini pre-check READY, on the Hubs and the task list.
+  - Skipped as unusable: Swishyyy's TikTok-creator topics (other creators' footage).
+- **Owner's live task list** (owner asked Oct 27: "write and keep a task list for me in the artifacts"): https://claude.ai/artifact/Ki1UXnbxsdykE4dy7BwyLT.
+  - Source `Tools/hub/owner_todo.html`. The tasks live in the `db` collection `tasks`.
+  - Keep it current with ArtifactData: add new owner tasks, and tick nothing on the owner's behalf.
+  - `Research Notes/Owner To-Do (Oct 26, 2026).md` is the older copy; the artifact wins.
+- **Name clash:** FC S09 is both the Krul idea (Idea Bank) and the Ronaldo Coca-Cola script folder. Renumber one before posting.
 
 ## Oct 24, 2026: the automatic routine (read this first)
-- **Two scheduled tasks** make one Short per channel per day (owner: "4 shorts every 2 days"): "MetaSports NBA daily run"
-  (6:41 AM ET, for the 11:00 AM ET slot) and "MetaSports FC daily run" (9:39 AM ET, next free 12:00 PM ET slot). Both follow
+- **Scheduled tasks (recreated Oct 26; the Oct 24 ones no longer exist):**
+  - "MetaSports daily research": 3:43 AM ET (moved Oct 28 from 5:43), research only. Writes `Research Notes/Daily Research/<date>.md`.
+  - "MetaSports NBA daily build": 4:41 AM ET (moved Oct 28 from 6:41), for the 7-8 AM slot.
+  - "MetaSports FC daily build": 5:39 AM ET (moved Oct 28 from 9:39), for the 8-9 AM slot. It skips the build when 3+ FC drafts are waiting.
+  - "MetaSports daily stats check": 7:07 PM ET.
+  - All except the stats check run in fresh sessions, never post, and follow
   `.claude/skills/daily-run/SKILL.md` and log to `Research Notes/Daily Log.md`. The owner's posting plan: `UPLOAD SCHEDULE.md`.
 - They need `ELEVENLABS_API_KEY` (and the YT_* tokens for retention curves) in the environment settings; without the key they write scripts only.
 - Soccer hook rules: `Research Notes/Why S02 and S03 Underperformed (Oct 24, 2026).md`. NBA drafts (`DRAFT - awaiting approval*.mp4`) are now kept in git.
@@ -24,8 +89,17 @@ https://claude.ai/artifact/EZrk8n855PyYpMFnMnMJd4. DB collection `shorts` (doc p
 ## Shorts status
 Posted by user (Oct 3-4): Wembanyama (24 s, record oddity: 79.5% stayed, 100.3% avg viewed, 20.6K views in ~10 h, rank 2/10) and #12 Duren (33 s, contract: 63% stayed, 59.7% avg viewed, 1.5K in 5.5 h, rank 8/10). See Outcome Log.md. Lane to favour: record/rule/oddity, one clear fact, 22-28 s, escalation, end on the payoff; de-prioritise contract/trade stories. Ready (in Hub, pushed): #1 LeBron pay cut (v6/v7), #11 Jordan push-off, #13 Kawhi picks (v3 re-synced), #14 NBA named four stars (tail fixed), #15 Heat Vice City + Adams, #16 Giannis vs Bucks in Vice City, #17 flopping crackdown (A house captions / B karaoke captions = A/B test), #18 LeBron helicopter (v2 Sixers footage; post before Oct 5 Sixers-Knicks), #19 Flagg height, #20 Bad Boys defense then vs now, #21 Jokic vs Westbrook record, #22 only one man can wear six (evergreen oddity), #23/#24/#25 Bronny (first season without LeBron + 16-for-15 roster spot; guaranteed deal does not guarantee a spot (overlaps #23: post one or a week apart); did he actually get better). Next up from the idea bank: ib02 screens (a week after #17), ib03 3-2-1 lottery, ib04 Hinkle, ib06 underhand, ib08 gather step, ib10 what players cannot wear, ib12 Giannis iguanas (post a day apart from other Heat Shorts). Idea bank: Research Notes/Idea Bank - Oct 4, 2026.md (+ idea_bank.json); top 12 are in the Hub ideas list (ids ib01-ib12). Same-story-family pairs (#15/#16, #11/#14/#17) must post a day apart.
 
-## House rules (summary)
-Real footage first (6+ clips before scripting), hook = real striking image + name/number line at 0.0 s, 3+ cuts in 3 s, 21-45 s, loop to the first shot, end on a comment-bait question, titles 4-7 words opening Why/How/What/Did/Is/He + one emoji, tags 440-490 chars, no description, one cover. Chat with the user: short, plain English, phone-friendly.
+## House rules (summary; rewritten in the Oct 26 overnight review)
+The full rules: THE RULES at the top of `MetaSports - Playbook.md` (NBA, plus the "FC too" ones) and `Soccer Channel/Playbook.md` (FC). Every change, old to new, with its evidence: `Research Notes/Rule Changes Applied (Oct 26, 2026).md`. These replace the "Lead with THE #42 FORMAT" note at the top of this file and the Oct 3 summary that stood here (it was wrong on clip count, cuts in 3 s, the loop, question endings and tags).
+- **Owner rules:** never post, schedule or upload; DRAFTs only. No cards (1.5 s max if one is unavoidable, never in the first 4 s). No promo, teaser or subscribe outro. No dead air. Never put API keys in docs. TikTok/Instagram cross-posting is paused.
+- **NBA lanes:** moments you can watch are about half; the other half rotates the star paradox (THE #42 FORMAT, one lane now), same-day news (or none) and a weekly countdown test. Each moment needs one fact the clip can't show. Review the split after 10 moment posts.
+- **Editing:** footage first (frame 1 + one proof clip per beat, any number of sources, no filler). Frame 1 shows what line 1 is about, happening; line 1 is 11 words or fewer. Shot 1 at least 2.0 s; at most 2 shots in 3 s and 3 in 5 s; about 10-15 shots of about 2 s. Replay the key second once before the payoff (`"replay": true`). Crop wide plays to 3:4 (`--blurfit-aspect 0.75`). Proof on the footage, no emoji stickers, no forced loop: end on the payoff.
+- **Soccer:** ends under 59.5 s (about 230-250 words; cut, never add). Music bed vs none is an open A/B test: render both.
+- **Posting:** up to 2 per channel per day (the 2nd only if as strong, 6+ h later, never 3; owner asked Oct 26). NBA 7-8 AM ET, FC 8-9 AM ET, 1 h apart (owner, Oct 28: first posts at 7-9 AM; 2nd posts about 3 PM / 4 PM). News the morning after the game. Judge at 72 h; never re-upload.
+- **Package:** a short statement title (wording is a small factor; no title scoring), 0-1 hashtag, empty description, tags optional (3-8, about 100-150 chars; never fill 500), one cover.
+- **Critic:** Script Critic v3 is advice, not a gate; only factual-accuracy checks block.
+- **Research tools:** `Tools/yt_watch.py` (needs a free `GEMINI_API_KEY` in the environment settings) and `Research Notes/Competitor Watchlist.csv`.
+- Chat with the user: short, plain English, phone-friendly.
 
 ## Critic process
 Before each batch of 3+ Shorts run an adversarial critic helper; log verdicts in `Research Notes/Critique Round 1 - Verdicts.md` style files; change only what evidence or a verified defect supports.
@@ -449,3 +523,40 @@ Research Notes/Round 9 - Competitor Shorts Watched (Oct 5, 2026).md. Findings (n
 - **Hub (2UVAcbNpKq6j4YXBEF8ge3):** S04 and S07 cards now "ready" with both versions (1.5 Mbps copies); to-do t3 and t5 ticked. No posting slots set for S04/S07.
 - **Tools:** `word_edit.py` (new); `cloud_setup.sh` now installs opencv, faster-whisper and PyAV < 14 (QA's footage check and speech check need them).
 - **Still open:** S08 (needs a voice: add `ELEVENLABS_API_KEY` to the cloud environment's settings, or record on the PC). Nothing posted.
+
+## Oct 26 (old account, session_01XKMeYvLBVPKo24a5sLxa5C; this account has the ElevenLabs key)
+- **Owner:** "usage is back can you catchup?", then "can you see why nba short views are down? i think its editing and bad retention rules in general" and "skip the cuts for other apps, id rather be successful on yt first".
+- **TikTok/Instagram long cuts: PAUSED by the owner.** The S04/S05/S07 `long/` folders stay as they are. Their source clips were never committed, so restarting one means re-sourcing from archive.org.
+- **NBA diagnosis:** `Research Notes/Why NBA Views Dropped (Oct 26, 2026).md`.
+  - Our editing rules lined up with the misses: fast openings (3+ cuts in 3 s), cards, too many shots.
+  - QA (NBA profile) and the `cloud-short` SKILL are changed to match ("OCT 26 EDITING RULES").
+  - A music-bed A/B is waiting on the owner's yes or no.
+- **#69 Luka Just Did What Kobe Never Did** (Sun Oct 25 game; slot Mon Oct 26 11 AM ET): v2 calm cut (post this) and v1, both QA PASS.
+  - **Hub:** this account's NBA Hub is EZrk8n855PyYpMFnMnMJd4 (doc `s69-...`). The new account's Hubs (SAWcHwuAwBxJuyBQSs8a8U, 2UVAcbNpKq6j4YXBEF8ge3) can't be opened from here.
+- **Stats (Oct 26 02:21 UTC):**
+  - MetaSports: 579 subs; last-7 median 5.4K.
+  - FC: 87 subs; S03 is up to 14K; S04 and S06 are live; S05 and S07 not yet.
+- **The daily stats routine** (trig_01V8xJ1ZGJ5gbtAon8MCHPxy) is re-enabled.
+- `Tools/fc_track.py`: fixed the crash when yt-dlp returns null.
+- **Owner, Oct 26: "cut cards completely, theyre a big distraction. if added, keep brief."** Both channels:
+  - QA warns on any card, fails a card over 1.5 s, and fails a card in the first 4 s.
+  - Both skills say it at the top.
+  - **S07 v2** (today's noon slot) is re-cut with no cards; its excerpts were re-downloaded from archive.org. In this account's FC Hub (LFsQtwomdpLAshoz4Xw62H, doc `s07-leicester-5000-1`). S05 is next.
+  - **S05 v2** (Tue) is patched with no cards: the new pictures are spliced into the finished render (`_patch_v2/build.py`), because the original clips were never committed. In the FC Hub (doc `s05-pickford-water-bottle`).
+
+
+## Oct 26, 2026 (overnight + morning)
+- **Overnight work:** studies, rules review, posting study and the retention/editing upgrade.
+  - Start with `Research Notes/Morning Brief (Oct 26, 2026).md`.
+  - Every rule change is listed in `Research Notes/Rule Changes Applied (Oct 26, 2026).md`.
+- **Owner decisions (Oct 26):**
+  - **YES:** NBA music-bed A/B (posts alternate; #69 none, #70 music).
+  - **YES:** daily auto-build of drafts.
+  - **Gemini key:** 'will do later'.
+- **Posted:** #69 Luka and S07 Leicester, Mon Oct 26 at about 12:45 AM ET. Both Hubs mark every posted Short with ytId and views (refreshed Oct 26).
+- **Ready drafts:**
+  - NBA: #70 Barkley (Mon about 4 PM, music version). #59 is stale; #61 and #65 are on hold.
+  - FC: S05 v2 music (Tue), S08 no-music (Wed 12:30 PM).
+- **Owner to-do:** `Research Notes/Owner To-Do (Oct 26, 2026).md`.
+
+- **Owner, Oct 26:** "refer to the title in a short manner instead of numbered shorts". In chat, name Shorts by a short title ("Chuck Failed A Test", "Hand Of God Shirt"), never by #NN or S0N. Folder numbers stay for files only.

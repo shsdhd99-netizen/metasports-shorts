@@ -1,0 +1,155 @@
+{
+ "length_s": 23.25,
+ "topic": "This video discusses James Harden's record for the most missed three-point shots in NBA history.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "James Harden has missed",
+  "first_frame": "James Harden dribbling a basketball on a court.",
+  "on_screen_text_0_3s": "JAMES HARDEN HAS MISSED MORE THREES THAN ANYONE IN NBA HISTORY.",
+  "shots_in_first_3s": 3
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 1.25,
+   "shows": "James Harden dribbling",
+   "kind": "action"
+  },
+  {
+   "start_s": 1.25,
+   "end_s": 2.0,
+   "shows": "James Harden shooting a three-pointer",
+   "kind": "action"
+  },
+  {
+   "start_s": 2.0,
+   "end_s": 3.0,
+   "shows": "James Harden shooting a three-pointer",
+   "kind": "action"
+  },
+  {
+   "start_s": 3.0,
+   "end_s": 4.75,
+   "shows": "James Harden shooting a three-pointer with a stat graphic overlay",
+   "kind": "action"
+  },
+  {
+   "start_s": 4.75,
+   "end_s": 6.0,
+   "shows": "James Harden dribbling",
+   "kind": "action"
+  },
+  {
+   "start_s": 6.0,
+   "end_s": 6.75,
+   "shows": "James Harden shooting a three-pointer",
+   "kind": "action"
+  },
+  {
+   "start_s": 6.75,
+   "end_s": 8.75,
+   "shows": "Steph Curry dribbling",
+   "kind": "action"
+  },
+  {
+   "start_s": 8.75,
+   "end_s": 10.75,
+   "shows": "Steph Curry with a stat graphic overlay",
+   "kind": "action"
+  },
+  {
+   "start_s": 10.75,
+   "end_s": 12.75,
+   "shows": "James Harden dribbling",
+   "kind": "action"
+  },
+  {
+   "start_s": 12.75,
+   "end_s": 14.75,
+   "shows": "James Harden walking on the court",
+   "kind": "action"
+  },
+  {
+   "start_s": 14.75,
+   "end_s": 16.0,
+   "shows": "James Harden looking at the camera",
+   "kind": "face"
+  },
+  {
+   "start_s": 16.0,
+   "end_s": 17.75,
+   "shows": "James Harden shooting a three-pointer",
+   "kind": "action"
+  },
+  {
+   "start_s": 17.75,
+   "end_s": 19.0,
+   "shows": "LeBron James shooting a three-pointer",
+   "kind": "action"
+  },
+  {
+   "start_s": 19.0,
+   "end_s": 21.5,
+   "shows": "James Harden dribbling",
+   "kind": "action"
+  },
+  {
+   "start_s": 21.5,
+   "end_s": 23.25,
+   "shows": "James Harden walking on the court",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 15,
+ "average_shot_s": 1.55,
+ "longest_shot_s": 2.5,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 160,
+  "tone": "informative",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "upbeat hip-hop",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "ALL CAPS",
+  "position": "middle",
+  "colours": "white",
+  "highlight_style": "none"
+ },
+ "text_overlays": [],
+ "cards_or_graphics": 3,
+ "framing": "crop",
+ "ending": {
+  "last_words": "9,323.",
+  "last_frame": "James Harden walking on the court with a stat graphic overlay.",
+  "loops_to_start": true,
+  "call_to_action": "none"
+ },
+ "script": "James Harden has missed more threes than anyone in NBA history. 5,933. And he's made more threes than anyone except Steph Curry. Second in misses is Curry: 5,825. In one season, Harden took 1,028 threes. The most ever. So is he a bad shooter? No. Harden makes 36% from three. LeBron makes 35%. Harden just shot more threes than anyone not named Curry: 9,323.",
+ "retention_tricks": [
+  "stat reveals",
+  "fast-paced editing",
+  "pattern interrupts"
+ ],
+ "what_makes_it_work": [
+  "Uses surprising statistics to hook the viewer immediately.",
+  "Fast-paced editing keeps the viewer engaged throughout the short duration.",
+  "Clear, concise narration provides context for the statistics presented."
+ ],
+ "_meta": {
+  "source": "_Oahi9sBi1A",
+  "model": "gemini-3.1-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

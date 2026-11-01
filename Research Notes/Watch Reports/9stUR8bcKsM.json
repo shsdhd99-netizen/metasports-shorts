@@ -1,0 +1,113 @@
+{
+ "length_s": 37.6,
+ "topic": "A compilation of incredible, rare football plays and catches.",
+ "lane": "moment",
+ "hook": {
+  "first_words": "unknown",
+  "first_frame": "Aerial shot of a football field with score ticker and text 'One in a million'.",
+  "on_screen_text_0_3s": "\"One in a million\"",
+  "shots_in_first_3s": 1
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 2.9,
+   "shows": "Football player catching a ball while falling in the end zone",
+   "kind": "action"
+  },
+  {
+   "start_s": 2.9,
+   "end_s": 11.5,
+   "shows": "Football player making a diving catch near the sideline",
+   "kind": "action"
+  },
+  {
+   "start_s": 11.5,
+   "end_s": 14.3,
+   "shows": "Football player diving for a catch in the end zone",
+   "kind": "action"
+  },
+  {
+   "start_s": 14.3,
+   "end_s": 18.2,
+   "shows": "Close-up angle of a player diving into the end zone",
+   "kind": "action"
+  },
+  {
+   "start_s": 18.2,
+   "end_s": 26.9,
+   "shows": "Player evading tacklers and running down the sideline",
+   "kind": "action"
+  },
+  {
+   "start_s": 26.9,
+   "end_s": 37.6,
+   "shows": "Wide angle view of player fielding ball and running past defenders",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 6,
+ "average_shot_s": 6.27,
+ "longest_shot_s": 8.7,
+ "voice": {
+  "type": "human",
+  "gender": "male",
+  "words_per_minute_estimate": 140,
+  "tone": "upbeat",
+  "original_audio_under_voice": true
+ },
+ "music": {
+  "present": true,
+  "style": "rap/hip-hop beat",
+  "level_vs_voice": "loud",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "mixed",
+  "position": "middle",
+  "colours": "white",
+  "highlight_style": "none"
+ },
+ "text_overlays": [
+  {
+   "at_s": 0.0,
+   "text": "\"One in a million\""
+  }
+ ],
+ "cards_or_graphics": 0,
+ "framing": "crop",
+ "ending": {
+  "last_words": "She work the damn",
+  "last_frame": "Player running down the sideline past defenders",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "She was so pretty. Central, pretty ass hoe. She could come in the. You're pretty ass hoe. She want to chill. You're pretty ass hoe. She want to chill. We just want to chill. So talking match up. Lambo. Is that 55 or 56? Grand bravo. A hundred grands though. Man, I swear to God. But I love her. She work the damn",
+ "retention_tricks": [
+  "rapid sequence of unbelievable plays",
+  "different camera angles"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": false,
+  "ends_on_payoff": false,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "High-energy hip-hop soundtrack synchronized with the action cuts",
+  "Jaw-dropping football plays back-to-back",
+  "Clean cuts highlighting spectacular athletic feats"
+ ],
+ "_meta": {
+  "source": "9stUR8bcKsM",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

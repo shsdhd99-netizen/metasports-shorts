@@ -1,0 +1,78 @@
+{
+ "length_s": 14.25,
+ "topic": "A 6'8 basketball player looks up in disbelief while talking to a 7'9 player on the court.",
+ "lane": "moment",
+ "hook": {
+  "first_words": "The guy in the headband is 6'8",
+  "first_frame": "A basketball player wearing a white headband looking up at a taller player in a Florida jersey.",
+  "on_screen_text_0_3s": "The guy in the headband is 6'8\"",
+  "shots_in_first_3s": 1
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 14.25,
+   "shows": "A 6'8 basketball player talking and looking up at a 7'9 Florida basketball player on the court.",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 1,
+ "average_shot_s": 14.25,
+ "longest_shot_s": 14.25,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 170,
+  "tone": "energetic",
+  "original_audio_under_voice": true
+ },
+ "music": {
+  "present": true,
+  "style": "upbeat background music",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 4,
+  "case": "mixed",
+  "position": "middle",
+  "colours": "white",
+  "highlight_style": "none"
+ },
+ "text_overlays": [],
+ "cards_or_graphics": 0,
+ "framing": "crop",
+ "ending": {
+  "last_words": "Uhh, Canada.",
+  "last_frame": "The 7'9 Florida player replying to the opponent on court.",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "The guy in the headband is 6'8 and he's never had to look up to talk to someone in his life, so he couldn't believe it when he met this 7'9 player. You're a freshman? Yeah. You're a big boy! Where you from? Where you from? Uhh, Canada.",
+ "retention_tricks": [
+  "open loops",
+  "height contrast visualization"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "Striking visual contrast between two extremely tall basketball players.",
+  "Humorous, authentic court audio of the players' interaction.",
+  "Clear narrator setup that hooks viewers immediately."
+ ],
+ "_meta": {
+  "source": "ViynHMEfThQ",
+  "model": "gemini-3.5-flash",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

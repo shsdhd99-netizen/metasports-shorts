@@ -1,0 +1,43 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Montserrat Black,86,&H00FFFFFF,&H00FFFFFF,&H00000000,&H99000000,0,0,0,0,95,100,1,0,1,6,3,5,70,70,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.49,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THIS ROOKIE
+Dialogue: 0,0:00:00.49,0:00:00.82,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TIED IT
+Dialogue: 0,0:00:00.82,0:00:01.38,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN BOSTON
+Dialogue: 0,0:00:01.38,0:00:02.26,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WITH 0.2 SECONDS
+Dialogue: 0,0:00:02.26,0:00:02.68,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}LEFT.
+Dialogue: 0,0:00:02.68,0:00:03.17,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HIS BENCH
+Dialogue: 0,0:00:03.17,0:00:03.75,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}LOST IT.
+Dialogue: 0,0:00:03.75,0:00:04.87,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}MIKEL BROWN JR.,
+Dialogue: 0,0:00:04.87,0:00:05.53,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE SIXTH PICK
+Dialogue: 0,0:00:05.53,0:00:06.18,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN THE DRAFT,
+Dialogue: 0,0:00:06.18,0:00:06.46,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}COULDN'T
+Dialogue: 0,0:00:06.46,0:00:07.25,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}STOP SMILING.
+Dialogue: 0,0:00:07.25,0:00:07.95,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THEN OVERTIME
+Dialogue: 0,0:00:07.95,0:00:08.84,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx80\fscy80\t(0,90,\fscx94\fscy94)}GAVE JAYSON TATUM
+Dialogue: 0,0:00:08.84,0:00:09.83,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx82\fscy82\t(0,90,\fscx95\fscy95)}FIVE MORE MINUTES.
+Dialogue: 0,0:00:09.83,0:00:10.81,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NETS UP ONE,
+Dialogue: 0,0:00:10.81,0:00:12.23,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}2.3 SECONDS LEFT.
+Dialogue: 0,0:00:12.23,0:00:12.92,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WHITE INBOUNDS
+Dialogue: 0,0:00:12.92,0:00:13.43,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TO TATUM.
+Dialogue: 0,0:00:13.43,0:00:13.76,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}PULL-UP
+Dialogue: 0,0:00:13.76,0:00:14.68,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AT THE BUZZER...
+Dialogue: 0,0:00:14.68,0:00:15.06,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}GOOD.
+Dialogue: 0,0:00:15.06,0:00:15.62,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TATUM FINISHED
+Dialogue: 0,0:00:15.62,0:00:16.08,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WITH 40,
+Dialogue: 0,0:00:16.08,0:00:16.68,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND THE CELTICS
+Dialogue: 0,0:00:16.68,0:00:17.45,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WON BY ONE.
+Dialogue: 0,0:00:17.45,0:00:18.08,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE ROOKIE'S SHOT
+Dialogue: 0,0:00:18.08,0:00:18.47,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WAS THE PLAY
+Dialogue: 0,0:00:18.47,0:00:18.96,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}OF THE NIGHT.
+Dialogue: 0,0:00:18.96,0:00:20.35,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx85\fscy85\t(0,90,\fscx98\fscy98)}FOR ONE OVERTIME.

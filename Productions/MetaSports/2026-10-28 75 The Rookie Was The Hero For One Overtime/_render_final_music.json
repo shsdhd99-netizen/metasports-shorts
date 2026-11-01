@@ -1,0 +1,25 @@
+{
+ "engine": "ffmpeg",
+ "out": "final_music.mp4",
+ "loop_fix": true,
+ "fits": [],
+ "music": {
+  "track": "Library/Music/eleven_hype_01.mp3",
+  "track_start": 0.0,
+  "in": 0.0,
+  "out": 20.349388,
+  "hit": null,
+  "hit_on": null,
+  "segment_lufs": -12.2,
+  "gain_db": -21.8,
+  "bed_lu": -20.0,
+  "gap_lift_db": 2.0,
+  "gaps": [
+   [
+    20.1,
+    20.35
+   ]
+  ],
+  "drops": []
+ }
+}

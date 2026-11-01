@@ -1,0 +1,289 @@
+{
+ "length_s": 65.5,
+ "topic": "The story of Abdelhak Nouri and why footballers wear the number 34 shirt in his honor.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "Players who refuse to let other players to be forgotten",
+  "first_frame": "A footballer running on a pitch with a slide tackle starting in the foreground",
+  "on_screen_text_0_3s": "Players who REFUSE to let other players to be FORGOTTEN",
+  "shots_in_first_3s": 1
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 2.8,
+   "shows": "A football match tackle on the grass",
+   "kind": "action"
+  },
+  {
+   "start_s": 2.8,
+   "end_s": 5.2,
+   "shows": "Ismael Saibari signing a contract",
+   "kind": "action"
+  },
+  {
+   "start_s": 5.2,
+   "end_s": 7.5,
+   "shows": "Ismael Saibari holding up a Bayern Munich shirt with number 34",
+   "kind": "action"
+  },
+  {
+   "start_s": 7.5,
+   "end_s": 9.0,
+   "shows": "Saibari walking in a corridor",
+   "kind": "action"
+  },
+  {
+   "start_s": 9.0,
+   "end_s": 10.0,
+   "shows": "Saibari in a Bayern kit smiling",
+   "kind": "action"
+  },
+  {
+   "start_s": 10.0,
+   "end_s": 12.8,
+   "shows": "Saibari sitting on a couch in Bayern kit",
+   "kind": "face"
+  },
+  {
+   "start_s": 12.8,
+   "end_s": 14.0,
+   "shows": "Saibari holding shirt with officials",
+   "kind": "face"
+  },
+  {
+   "start_s": 14.0,
+   "end_s": 16.2,
+   "shows": "Saibari unveiling a plaque or AED station",
+   "kind": "action"
+  },
+  {
+   "start_s": 16.2,
+   "end_s": 18.2,
+   "shows": "Ajax fans and players holding a banner with number 34 and Nouri's face",
+   "kind": "still"
+  },
+  {
+   "start_s": 18.2,
+   "end_s": 19.9,
+   "shows": "Frenkie de Jong and Nouri shaking hands in Ajax kit",
+   "kind": "action"
+  },
+  {
+   "start_s": 19.9,
+   "end_s": 21.0,
+   "shows": "Werder Bremen team huddle before match",
+   "kind": "action"
+  },
+  {
+   "start_s": 21.0,
+   "end_s": 23.2,
+   "shows": "Players walking out with mascots",
+   "kind": "action"
+  },
+  {
+   "start_s": 23.2,
+   "end_s": 24.8,
+   "shows": "Abdelhak Nouri celebrating with heart hands",
+   "kind": "face"
+  },
+  {
+   "start_s": 24.8,
+   "end_s": 27.2,
+   "shows": "Nouri collapsing on the pitch",
+   "kind": "action"
+  },
+  {
+   "start_s": 27.2,
+   "end_s": 28.5,
+   "shows": "Nouri making heart hands gesture",
+   "kind": "face"
+  },
+  {
+   "start_s": 28.5,
+   "end_s": 30.5,
+   "shows": "Nouri dribbling in an Ajax match",
+   "kind": "action"
+  },
+  {
+   "start_s": 30.5,
+   "end_s": 32.2,
+   "shows": "Nouri celebrating and embracing teammates",
+   "kind": "action"
+  },
+  {
+   "start_s": 32.2,
+   "end_s": 33.5,
+   "shows": "Frenkie de Jong in Barcelona kit",
+   "kind": "face"
+  },
+  {
+   "start_s": 33.5,
+   "end_s": 34.6,
+   "shows": "Matthijs de Ligt in Manchester United kit",
+   "kind": "face"
+  },
+  {
+   "start_s": 34.6,
+   "end_s": 37.6,
+   "shows": "Medical staff surrounding Nouri on the pitch",
+   "kind": "action"
+  },
+  {
+   "start_s": 37.6,
+   "end_s": 38.9,
+   "shows": "Medical staff holding a sheet over Nouri",
+   "kind": "action"
+  },
+  {
+   "start_s": 38.9,
+   "end_s": 41.5,
+   "shows": "Nouri lying on the ground",
+   "kind": "face"
+  },
+  {
+   "start_s": 41.5,
+   "end_s": 43.2,
+   "shows": "Nouri waving from a window",
+   "kind": "face"
+  },
+  {
+   "start_s": 43.2,
+   "end_s": 45.1,
+   "shows": "Nouri celebrating passionately",
+   "kind": "action"
+  },
+  {
+   "start_s": 45.1,
+   "end_s": 47.7,
+   "shows": "Nouri pointing to his name and number 34 on jersey",
+   "kind": "face"
+  },
+  {
+   "start_s": 47.7,
+   "end_s": 48.2,
+   "shows": "Saibari holding Bayern shirt with 34",
+   "kind": "still"
+  },
+  {
+   "start_s": 48.2,
+   "end_s": 48.9,
+   "shows": "Justin Kluivert holding up Nouri's Roma shirt",
+   "kind": "action"
+  },
+  {
+   "start_s": 48.9,
+   "end_s": 49.4,
+   "shows": "Donny van de Beek in Man United shirt with 34",
+   "kind": "face"
+  },
+  {
+   "start_s": 49.4,
+   "end_s": 51.9,
+   "shows": "Nouri in an interview",
+   "kind": "face"
+  },
+  {
+   "start_s": 51.9,
+   "end_s": 53.9,
+   "shows": "Justin Kluivert in Roma kit",
+   "kind": "face"
+  },
+  {
+   "start_s": 53.9,
+   "end_s": 56.9,
+   "shows": "Kluivert holding up Roma shirt with number 34 Nouri",
+   "kind": "action"
+  },
+  {
+   "start_s": 56.9,
+   "end_s": 58.4,
+   "shows": "Donny van de Beek talking to camera",
+   "kind": "face"
+  },
+  {
+   "start_s": 58.4,
+   "end_s": 59.9,
+   "shows": "Van de Beek playing for Man United",
+   "kind": "action"
+  },
+  {
+   "start_s": 59.9,
+   "end_s": 60.7,
+   "shows": "Van de Beek smiling in Man United kit",
+   "kind": "face"
+  },
+  {
+   "start_s": 60.7,
+   "end_s": 62.8,
+   "shows": "News article headline about Ajax retiring No34 shirt",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 62.8,
+   "end_s": 65.5,
+   "shows": "Johan Cruyff playing football for Ajax in historic footage",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 34,
+ "average_shot_s": 1.9,
+ "longest_shot_s": 3.0,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 170,
+  "tone": "empathetic and dramatic",
+  "original_audio_under_voice": true
+ },
+ "music": {
+  "present": true,
+  "style": "emotional piano and orchestral build",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "mixed",
+  "position": "middle",
+  "colours": "white",
+  "highlight_style": "drop shadow"
+ },
+ "text_overlays": [],
+ "cards_or_graphics": 1,
+ "framing": "crop",
+ "ending": {
+  "last_words": "Johan Cruyff",
+  "last_frame": "Johan Cruyff playing football for Ajax in historic footage",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "Ismael Saibari just joined Bayern Munich from PSV for around 50 million euros, and one of the first things he did was pick his shirt number. He didn't go for something normal like seven or ten, he chose thirty-four. But that number was already carrying a weight almost nobody at Bayern understood. Ajax were playing a pre-season friendly against Werder Bremen back in July of 2017 when their twenty-year-old midfielder, Abdelhak Nouri, collapsed on the pitch. Everyone called him Appie, and he was the jewel of the Ajax academy, coming up alongside future stars like Frenkie de Jong and Matthijs de Ligt. Appie went into cardiac arrest, and because a defibrillator wasn't used on him quickly enough, he'd already suffered severe, permanent brain damage. He survived, but he hasn't been able to move on his own since that day, and the number he wore for Ajax was thirty-four. But Saibari isn't the only one who quietly refused to let Appie fade away. When Justin Kluivert signed for Roma, he took thirty-four and dedicated his first goal to Appie. And when Donny van de Beek joined Manchester United, he chose it too. Ajax then retired the number completely, an honor they'd only ever given to Johan Cruyff.",
+ "retention_tricks": [
+  "open loop with the mystery of number 34",
+  "fast-paced cutting every 1 to 2 seconds",
+  "emotional narrative arc about a real tragedy"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "Connects a current transfer (Saibari to Bayern) to a deeply emotional football tragedy",
+  "Uses high-profile player examples (De Jong, De Ligt, Van de Beek) to anchor the narrative",
+  "Maintains a fast editing pace with steady emotional escalation"
+ ],
+ "_meta": {
+  "source": "cjqzT52070A",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

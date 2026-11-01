@@ -1,0 +1,226 @@
+[
+ {
+  "clip": "M01.mp4",
+  "kind": "action",
+  "why": "Mourinho's knee slide on the Camp Nou touchline after Mbappé's late winner, Oct 25 2026 (ESPN clip)",
+  "start": 0.0
+ },
+ {
+  "clip": "M02.mp4",
+  "kind": "action",
+  "why": "Camp Nou, the last seconds of Barcelona v Inter, Champions League semi-final 2nd leg, Apr 28 2010 (archive.org broadcast)",
+  "anchor": "Back in",
+  "start": 3.19
+ },
+ {
+  "clip": "M03.mp4",
+  "kind": "face",
+  "why": "Xavi, dejected at the final whistle (2010 broadcast)",
+  "anchor": "knocked Barcelona out",
+  "start": 5.12
+ },
+ {
+  "clip": "M04.mp4",
+  "kind": "face",
+  "why": "Pedro, dejected (2010 broadcast)",
+  "anchor": "at Camp Nou",
+  "start": 6.92
+ },
+ {
+  "clip": "M05.mp4",
+  "kind": "action",
+  "why": "Inter players celebrate on the pitch (2010)",
+  "anchor": "but went through",
+  "start": 9.25
+ },
+ {
+  "clip": "M06.mp4",
+  "kind": "action",
+  "why": "Mourinho runs onto the pitch, finger in the air (2010)",
+  "anchor": "Mourinho sprinted",
+  "start": 10.46
+ },
+ {
+  "clip": "M07.mp4",
+  "kind": "action",
+  "why": "Mourinho pointing to the sky in front of the crowd (2010)",
+  "anchor": "with his finger",
+  "start": 11.72
+ },
+ {
+  "clip": "M08.mp4",
+  "kind": "action",
+  "why": "Mourinho on the pitch, arms up (2010; the sprinklers came on during these celebrations, the broadcast doesn't show the spray)",
+  "anchor": "So Barcelona's",
+  "start": 12.78
+ },
+ {
+  "clip": "M09.mp4",
+  "kind": "action",
+  "why": "Mourinho celebrating with a player (2010)",
+  "anchor": "He didn't care",
+  "start": 15.08
+ },
+ {
+  "clip": "M10.mp4",
+  "kind": "action",
+  "why": "Mourinho walking among the Inter players (2010; illustrative for 'won the final')",
+  "anchor": "Weeks later",
+  "start": 17.1
+ },
+ {
+  "clip": "M11.mp4",
+  "kind": "face",
+  "why": "Mourinho walking away (2010; illustrative for leaving)",
+  "anchor": "and became Real",
+  "start": 18.42
+ },
+ {
+  "clip": "M12.mp4",
+  "kind": "face",
+  "why": "Mourinho back on the Real Madrid bench, Camp Nou, Oct 25 2026 (ESPN clip)",
+  "anchor": "But this summer",
+  "start": 21.14
+ },
+ {
+  "clip": "M13.mp4",
+  "kind": "face",
+  "why": "Mourinho standing on the bench, Clásico 2026 (illustrative for September)",
+  "anchor": "In September",
+  "start": 22.5
+ },
+ {
+  "clip": "M14.mp4",
+  "kind": "face",
+  "why": "Mourinho on the touchline (illustrative)",
+  "anchor": "an Italian journalist",
+  "start": 24.72
+ },
+ {
+  "clip": "M15.mp4",
+  "kind": "action",
+  "why": "stock: a garden sprinkler (Mixkit 19551), literal for the gift",
+  "anchor": "A garden sprinkler",
+  "start": 26.26
+ },
+ {
+  "clip": "M16.mp4",
+  "kind": "action",
+  "why": "Barcelona v Real Madrid at Camp Nou, Oct 25 2026 (ESPN highlights)",
+  "anchor": "Then came Sunday",
+  "start": 27.86
+ },
+ {
+  "clip": "M17.mp4",
+  "kind": "face",
+  "why": "Lamine Yamal (Barcelona) (ESPN highlights)",
+  "anchor": "Barcelona had won",
+  "start": 30.51
+ },
+ {
+  "clip": "M18.mp4",
+  "kind": "action",
+  "why": "Barcelona fans (ESPN clip)",
+  "anchor": "One more win",
+  "start": 32.52
+ },
+ {
+  "clip": "M19.mp4",
+  "kind": "face",
+  "why": "Real Madrid players (ESPN highlights)",
+  "anchor": "by Real Madrid",
+  "start": 34.84
+ },
+ {
+  "clip": "M20.mp4",
+  "kind": "face",
+  "why": "Andriy Lunin (#13), who played because Courtois had the flu (ESPN clip)",
+  "anchor": "Madrid's goalkeeper",
+  "start": 35.68
+ },
+ {
+  "clip": "M21.mp4",
+  "kind": "action",
+  "why": "Real Madrid bench (ESPN clip)",
+  "anchor": "Vinícius was",
+  "start": 38.05
+ },
+ {
+  "clip": "M22.mp4",
+  "kind": "action",
+  "why": "Mbappé's first goal celebration (ESPN clip)",
+  "anchor": "Mbappé scored.",
+  "start": 39.16
+ },
+ {
+  "clip": "M23.mp4",
+  "kind": "face",
+  "why": "Raphinha after his equaliser (ESPN clip)",
+  "anchor": "Raphinha equalised",
+  "start": 40.09
+ },
+ {
+  "clip": "M24.mp4",
+  "kind": "action",
+  "why": "the counter-attack before the winner (ESPN clip)",
+  "anchor": "Then, with time",
+  "start": 41.21
+ },
+ {
+  "clip": "M25.mp4",
+  "kind": "action",
+  "why": "Mbappé's winner (ESPN clip)",
+  "anchor": "Mbappé scored again",
+  "start": 42.39
+ },
+ {
+  "clip": "M26.mp4",
+  "kind": "action",
+  "why": "Real Madrid celebrate the winner (ESPN clip)",
+  "anchor": "His hundredth goal",
+  "start": 43.56
+ },
+ {
+  "clip": "M27.mp4",
+  "kind": "action",
+  "why": "replay: the knee slide, half speed",
+  "anchor": "And Mourinho dropped",
+  "replay": true,
+  "start": 45.14
+ },
+ {
+  "clip": "M28.mp4",
+  "kind": "action",
+  "why": "Mourinho in 2010, celebrating at Camp Nou",
+  "anchor": "just like that night",
+  "start": 47.16
+ },
+ {
+  "clip": "M29.mp4",
+  "kind": "face",
+  "why": "Mbappé smiling (ESPN clip)",
+  "anchor": "But here's the",
+  "start": 48.57
+ },
+ {
+  "clip": "M30.mp4",
+  "kind": "face",
+  "why": "Hansi Flick (Barcelona coach) on the touchline (ESPN clip)",
+  "anchor": "The record Barcelona",
+  "start": 49.64
+ },
+ {
+  "clip": "M31.mp4",
+  "kind": "action",
+  "why": "Mbappé and Diomande embrace (ESPN clip)",
+  "anchor": "belonged to Real",
+  "start": 50.85
+ },
+ {
+  "clip": "M32.mp4",
+  "kind": "action",
+  "why": "payoff: Real Madrid celebrate at Camp Nou (ESPN clip)",
+  "anchor": "And the team that",
+  "start": 51.91
+ }
+]

@@ -1,0 +1,115 @@
+{
+ "length_s": 25.0,
+ "topic": "A compilation of various parkour and stunt clips matched with a celebrity face-selection ranking overlay.",
+ "lane": "moment",
+ "hook": {
+  "first_words": "unknown",
+  "first_frame": "A man in an airport or lobby standing in front of a digital display, with celebrity profile pictures at the top.",
+  "on_screen_text_0_3s": "none",
+  "shots_in_first_3s": 1
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 5.0,
+   "shows": "A man doing a backflip in a public lobby in front of an interactive screen.",
+   "kind": "action"
+  },
+  {
+   "start_s": 5.0,
+   "end_s": 8.2,
+   "shows": "A man jumping over metal soccer goal posts outdoors.",
+   "kind": "action"
+  },
+  {
+   "start_s": 8.2,
+   "end_s": 11.0,
+   "shows": "A man on roller skates falling while attempting a trick on a trampoline.",
+   "kind": "action"
+  },
+  {
+   "start_s": 11.0,
+   "end_s": 13.5,
+   "shows": "Multiple people doing backflips simultaneously on a wet slide/slip-and-slide.",
+   "kind": "action"
+  },
+  {
+   "start_s": 13.5,
+   "end_s": 17.2,
+   "shows": "A young man doing a backflip on a pogo stick.",
+   "kind": "action"
+  },
+  {
+   "start_s": 17.2,
+   "end_s": 21.7,
+   "shows": "A man doing a backflip on a trampoline and flipping into a tent.",
+   "kind": "action"
+  },
+  {
+   "start_s": 21.7,
+   "end_s": 25.0,
+   "shows": "First-person POV running through a field of wooden or metal posts with a smiling blue emoji character.",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 7,
+ "average_shot_s": 3.57,
+ "longest_shot_s": 5.0,
+ "voice": {
+  "type": "none",
+  "gender": "unknown",
+  "words_per_minute_estimate": 0,
+  "tone": "unknown",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "upbeat rhythmic electronic dance track with vocals",
+  "level_vs_voice": "loud",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": false,
+  "words_per_line": 0,
+  "case": "mixed",
+  "position": "bottom",
+  "colours": [],
+  "highlight_style": "none"
+ },
+ "text_overlays": [],
+ "cards_or_graphics": 0,
+ "framing": "crop",
+ "ending": {
+  "last_words": "unknown",
+  "last_frame": "POV running through posts with emoji.",
+  "loops_to_start": true,
+  "call_to_action": "none"
+ },
+ "script": "",
+ "retention_tricks": [
+  "top ranking game mechanism tracking fails and successes",
+  "fast-paced stunt clips",
+  "first-person POV runner ending"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": true,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": false,
+  "ends_on_payoff": false,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "High-energy parkour and stunt clips that keep viewers watching",
+  "Interactive celebrity face-ranking game overlay at the top of the frame",
+  "Fast cuts and varied locations maintaining visual interest"
+ ],
+ "_meta": {
+  "source": "7zIMyZLzjqw",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

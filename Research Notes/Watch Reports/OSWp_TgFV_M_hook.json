@@ -1,0 +1,20 @@
+{
+ "cuts": [
+  1.2,
+  2.0,
+  2.5,
+  4.4
+ ],
+ "first_shot_shows": "A man wearing a Golden State Warriors jersey and talking to the camera",
+ "first_words": "Remember the guy who went viral for pretending to be Klay Thompson?",
+ "text_on_screen_0_3s": "REMEMBER THE GUY WHO WENT VIRAL FOR PRETENDING TO",
+ "music_or_beat_audible": true,
+ "cuts_merged": [
+  1.2,
+  2.0,
+  2.5,
+  4.4
+ ],
+ "shots_in_first_3s": 4,
+ "shots_in_first_5s": 5
+}

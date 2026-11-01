@@ -1,0 +1,121 @@
+{
+ "length_s": 25.1,
+ "topic": "Kobe Bryant's defensive abilities against Michael Jordan, LeBron James, and Stephen Curry.",
+ "lane": "moment",
+ "hook": {
+  "first_words": "This is proof that Kobe Bryant couldn't guard Stephen Curry when",
+  "first_frame": "Kobe Bryant sitting on the bench in a Los Angeles Lakers jersey with hands on knees",
+  "on_screen_text_0_3s": "THIS IS PROOF THAT KOBE BRYANT COULDN'T GUARD STEPHEN CURRY",
+  "shots_in_first_3s": 3
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 0.3,
+   "shows": "Kobe Bryant on bench",
+   "kind": "action"
+  },
+  {
+   "start_s": 0.3,
+   "end_s": 2.9,
+   "shows": "Kobe Bryant sitting on Lakers bench",
+   "kind": "action"
+  },
+  {
+   "start_s": 2.9,
+   "end_s": 3.1,
+   "shows": "Black screen with white text transition",
+   "kind": "text_card"
+  },
+  {
+   "start_s": 3.1,
+   "end_s": 7.1,
+   "shows": "Kobe Bryant guarding Michael Jordan",
+   "kind": "action"
+  },
+  {
+   "start_s": 7.1,
+   "end_s": 13.1,
+   "shows": "Kobe Bryant guarding LeBron James and blocking his shot",
+   "kind": "action"
+  },
+  {
+   "start_s": 13.1,
+   "end_s": 16.0,
+   "shows": "Close-up of Kobe Bryant sweating on the bench",
+   "kind": "face"
+  },
+  {
+   "start_s": 16.0,
+   "end_s": 22.0,
+   "shows": "Kobe Bryant playing defense on Stephen Curry who hits a three-pointer",
+   "kind": "action"
+  },
+  {
+   "start_s": 22.0,
+   "end_s": 25.1,
+   "shows": "Kobe Bryant and Stephen Curry smiling on the court",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 8,
+ "average_shot_s": 3.14,
+ "longest_shot_s": 6.0,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 175,
+  "tone": "hype, dramatic",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "dramatic hip-hop beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "ALL CAPS",
+  "position": "bottom",
+  "colours": "white and yellow",
+  "highlight_style": "word by word pop-up"
+ },
+ "text_overlays": [],
+ "cards_or_graphics": 0,
+ "framing": "blurred background",
+ "ending": {
+  "last_words": "Kobe respected Curry after that incredible shot.",
+  "last_frame": "Kobe Bryant and Stephen Curry walking and smiling on the basketball court",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "This is proof that Kobe Bryant couldn't guard Stephen Curry when... When Kobe Bryant guarded MJ, he blocked him and stripped the ball away from him. Same thing happened when Kobe guarded LeBron. LeBron attacked the basket, but Kobe met him at the rim and blocked the shot. But when Kobe guarded Stephen Curry, it was different. Kobe played tight defense the entire possession, yet Curry simply pulled up from 3 right over him and knocked it down. Kobe respected Curry after that incredible shot.",
+ "retention_tricks": [
+  "open loop in the first line",
+  "rapid cuts",
+  "dynamic captions"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "Strong hook that contrasts Kobe's defense against legends versus Steph Curry",
+  "High-energy pacing with iconic basketball clips",
+  "Resolution showing mutual respect between players at the end"
+ ],
+ "_meta": {
+  "source": "6D9MQ7wNEms",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

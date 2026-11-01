@@ -1,0 +1,95 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,TikTok Sans SemiBold,80,&H00FFFFFF,&H00FFFFFF,&H00000000,&H99000000,0,0,0,0,100,100,0,0,1,3.2,1,5,70,70,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:02.45,Cap,,0,0,0,,{\pos(540,960)\blur0.5\fscx71\fscy71}Barcelona paid a FORTUNE for the\Nplayer who KNOCKED THEM OUT
+Dialogue: 0,0:00:02.45,0:00:03.21,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Back in January
+Dialogue: 0,0:00:03.21,0:00:03.97,Cap,,0,0,0,,{\pos(540,960)\blur0.5}2018,
+Dialogue: 0,0:00:03.97,0:00:04.75,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Barcelona signed
+Dialogue: 0,0:00:04.75,0:00:05.57,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Philippe Coutinho
+Dialogue: 0,0:00:05.57,0:00:06.16,Cap,,0,0,0,,{\pos(540,960)\blur0.5}from Liverpool,
+Dialogue: 0,0:00:06.16,0:00:06.84,Cap,,0,0,0,,{\pos(540,960)\blur0.5}for a reported
+Dialogue: 0,0:00:06.84,0:00:08.62,Cap,,0,0,0,,{\pos(540,960)\blur0.5}160 million euros,
+Dialogue: 0,0:00:08.62,0:00:08.93,Cap,,0,0,0,,{\pos(540,960)\blur0.5}one of the
+Dialogue: 0,0:00:08.93,0:00:09.51,Cap,,0,0,0,,{\pos(540,960)\blur0.5}most expensive
+Dialogue: 0,0:00:09.51,0:00:10.28,Cap,,0,0,0,,{\pos(540,960)\blur0.5}transfers ever.
+Dialogue: 0,0:00:10.28,0:00:10.56,Cap,,0,0,0,,{\pos(540,960)\blur0.5}But it
+Dialogue: 0,0:00:10.56,0:00:11.17,Cap,,0,0,0,,{\pos(540,960)\blur0.5}never clicked.
+Dialogue: 0,0:00:11.17,0:00:11.60,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Meanwhile,
+Dialogue: 0,0:00:11.60,0:00:12.21,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Liverpool added
+Dialogue: 0,0:00:12.21,0:00:12.57,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Virgil van
+Dialogue: 0,0:00:12.57,0:00:13.45,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Dijk and Alisson,
+Dialogue: 0,0:00:13.45,0:00:13.79,Cap,,0,0,0,,{\pos(540,960)\blur0.5}and won
+Dialogue: 0,0:00:13.79,0:00:14.44,Cap,,0,0,0,,{\pos(540,960)\blur0.5}the Champions League
+Dialogue: 0,0:00:14.44,0:00:15.35,Cap,,0,0,0,,{\pos(540,960)\blur0.5}in 2019.
+Dialogue: 0,0:00:15.35,0:00:15.87,Cap,,0,0,0,,{\pos(540,960)\blur0.5}That summer,
+Dialogue: 0,0:00:15.87,0:00:16.36,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Barcelona
+Dialogue: 0,0:00:16.36,0:00:17.23,Cap,,0,0,0,,{\pos(540,960)\blur0.5}loaned Coutinho
+Dialogue: 0,0:00:17.23,0:00:18.05,Cap,,0,0,0,,{\pos(540,960)\blur0.5}to Bayern Munich,
+Dialogue: 0,0:00:18.05,0:00:18.39,Cap,,0,0,0,,{\pos(540,960)\blur0.5}who paid
+Dialogue: 0,0:00:18.39,0:00:19.34,Cap,,0,0,0,,{\pos(540,960)\blur0.5}just 8.5 million
+Dialogue: 0,0:00:19.34,0:00:20.23,Cap,,0,0,0,,{\pos(540,960)\blur0.5}euros to borrow him.
+Dialogue: 0,0:00:20.23,0:00:20.50,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Then,
+Dialogue: 0,0:00:20.50,0:00:21.50,Cap,,0,0,0,,{\pos(540,960)\blur0.5}in August 2020,
+Dialogue: 0,0:00:21.50,0:00:22.51,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Barcelona met Bayern
+Dialogue: 0,0:00:22.51,0:00:23.09,Cap,,0,0,0,,{\pos(540,960)\blur0.5}in the Champions
+Dialogue: 0,0:00:23.09,0:00:23.94,Cap,,0,0,0,,{\pos(540,960)\blur0.5}League quarter-final,
+Dialogue: 0,0:00:23.94,0:00:24.58,Cap,,0,0,0,,{\pos(540,960)\blur0.5}in Lisbon.
+Dialogue: 0,0:00:24.58,0:00:25.31,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Bayern destroyed
+Dialogue: 0,0:00:25.31,0:00:26.17,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Messi's Barcelona.
+Dialogue: 0,0:00:26.17,0:00:26.74,Cap,,0,0,0,,{\pos(540,960)\blur0.5}It was the first
+Dialogue: 0,0:00:26.74,0:00:27.39,Cap,,0,0,0,,{\pos(540,960)\blur0.5}time Barcelona
+Dialogue: 0,0:00:27.39,0:00:27.92,Cap,,0,0,0,,{\pos(540,960)\blur0.5}had conceded
+Dialogue: 0,0:00:27.92,0:00:28.39,Cap,,0,0,0,,{\pos(540,960)\blur0.5}eight goals
+Dialogue: 0,0:00:28.39,0:00:28.78,Cap,,0,0,0,,{\pos(540,960)\blur0.5}in a match
+Dialogue: 0,0:00:28.78,0:00:29.76,Cap,,0,0,0,,{\pos(540,960)\blur0.5}since 1946.
+Dialogue: 0,0:00:29.76,0:00:30.12,Cap,,0,0,0,,{\pos(540,960)\blur0.5}And the man
+Dialogue: 0,0:00:30.12,0:00:30.48,Cap,,0,0,0,,{\pos(540,960)\blur0.5}who finished
+Dialogue: 0,0:00:30.48,0:00:30.93,Cap,,0,0,0,,{\pos(540,960)\blur0.5}them off?
+Dialogue: 0,0:00:30.93,0:00:32.03,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Philippe Coutinho.
+Dialogue: 0,0:00:32.03,0:00:32.36,Cap,,0,0,0,,{\pos(540,960)\blur0.5}He came
+Dialogue: 0,0:00:32.36,0:00:32.95,Cap,,0,0,0,,{\pos(540,960)\blur0.5}off the bench,
+Dialogue: 0,0:00:32.95,0:00:33.24,Cap,,0,0,0,,{\pos(540,960)\blur0.5}set up
+Dialogue: 0,0:00:33.24,0:00:33.61,Cap,,0,0,0,,{\pos(540,960)\blur0.5}a goal,
+Dialogue: 0,0:00:33.61,0:00:34.04,Cap,,0,0,0,,{\pos(540,960)\blur0.5}then scored
+Dialogue: 0,0:00:34.04,0:00:34.55,Cap,,0,0,0,,{\pos(540,960)\blur0.5}two more,
+Dialogue: 0,0:00:34.55,0:00:35.14,Cap,,0,0,0,,{\pos(540,960)\blur0.5}against the club
+Dialogue: 0,0:00:35.14,0:00:35.49,Cap,,0,0,0,,{\pos(540,960)\blur0.5}that still
+Dialogue: 0,0:00:35.49,0:00:35.88,Cap,,0,0,0,,{\pos(540,960)\blur0.5}owned him.
+Dialogue: 0,0:00:35.88,0:00:36.76,Cap,,0,0,0,,{\pos(540,960)\blur0.5}He barely celebrated.
+Dialogue: 0,0:00:36.76,0:00:37.23,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Bayern went
+Dialogue: 0,0:00:37.23,0:00:37.64,Cap,,0,0,0,,{\pos(540,960)\blur0.5}on to win
+Dialogue: 0,0:00:37.64,0:00:38.41,Cap,,0,0,0,,{\pos(540,960)\blur0.5}the whole competition,
+Dialogue: 0,0:00:38.41,0:00:39.23,Cap,,0,0,0,,{\pos(540,960)\blur0.5}and Coutinho played
+Dialogue: 0,0:00:39.23,0:00:39.83,Cap,,0,0,0,,{\pos(540,960)\blur0.5}in the final.
+Dialogue: 0,0:00:39.83,0:00:40.17,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Bayern
+Dialogue: 0,0:00:40.17,0:00:40.69,Cap,,0,0,0,,{\pos(540,960)\blur0.5}had the option
+Dialogue: 0,0:00:40.69,0:00:41.19,Cap,,0,0,0,,{\pos(540,960)\blur0.5}to buy him
+Dialogue: 0,0:00:41.19,0:00:42.39,Cap,,0,0,0,,{\pos(540,960)\blur0.5}for 120 million
+Dialogue: 0,0:00:42.39,0:00:42.86,Cap,,0,0,0,,{\pos(540,960)\blur0.5}euros.
+Dialogue: 0,0:00:42.86,0:00:43.22,Cap,,0,0,0,,{\pos(540,960)\blur0.5}They didn't
+Dialogue: 0,0:00:43.22,0:00:43.62,Cap,,0,0,0,,{\pos(540,960)\blur0.5}take it.
+Dialogue: 0,0:00:43.62,0:00:44.05,Cap,,0,0,0,,{\pos(540,960)\blur0.5}So he went
+Dialogue: 0,0:00:44.05,0:00:44.93,Cap,,0,0,0,,{\pos(540,960)\blur0.5}back to Barcelona,
+Dialogue: 0,0:00:44.93,0:00:45.45,Cap,,0,0,0,,{\pos(540,960)\blur0.5}who sold him
+Dialogue: 0,0:00:45.45,0:00:46.08,Cap,,0,0,0,,{\pos(540,960)\blur0.5}to Aston Villa
+Dialogue: 0,0:00:46.08,0:00:46.83,Cap,,0,0,0,,{\pos(540,960)\blur0.5}two years later,
+Dialogue: 0,0:00:46.83,0:00:47.49,Cap,,0,0,0,,{\pos(540,960)\blur0.5}for 20 million
+Dialogue: 0,0:00:47.49,0:00:47.95,Cap,,0,0,0,,{\pos(540,960)\blur0.5}euros.
+Dialogue: 0,0:00:47.95,0:00:48.30,Cap,,0,0,0,,{\pos(540,960)\blur0.5}They paid
+Dialogue: 0,0:00:48.30,0:00:48.76,Cap,,0,0,0,,{\pos(540,960)\blur0.5}a reported
+Dialogue: 0,0:00:48.76,0:00:49.85,Cap,,0,0,0,,{\pos(540,960)\blur0.5}160 million
+Dialogue: 0,0:00:49.85,0:00:50.20,Cap,,0,0,0,,{\pos(540,960)\blur0.5}for the man
+Dialogue: 0,0:00:50.20,0:00:50.50,Cap,,0,0,0,,{\pos(540,960)\blur0.5}who knocked
+Dialogue: 0,0:00:50.50,0:00:50.90,Cap,,0,0,0,,{\pos(540,960)\blur0.5}them out,
+Dialogue: 0,0:00:50.90,0:00:51.22,Cap,,0,0,0,,{\pos(540,960)\blur0.5}and got
+Dialogue: 0,0:00:51.22,0:00:52.40,Cap,,0,0,0,,{\pos(540,960)\blur0.5}20 million back.

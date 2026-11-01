@@ -1,0 +1,163 @@
+{
+ "length_s": 23.25,
+ "topic": "The story of the guy who went viral for pretending to be Klay Thompson, sneaking into the arena, and getting banned for life.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "Remember the guy who went viral for pretending to be Klay Thompson",
+  "first_frame": "A man wearing a Golden State Warriors jersey smiling and talking to the camera outdoors.",
+  "on_screen_text_0_3s": "REMEMBER THE GUY WHO WENT VIRAL FOR PRETENDING TO BE KLAY THOMPSON",
+  "shots_in_first_3s": 3
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 1.0,
+   "shows": "The Klay Thompson imposter talking to camera in a jersey",
+   "kind": "face"
+  },
+  {
+   "start_s": 1.0,
+   "end_s": 2.0,
+   "shows": "Imposter posing with a fan on the street",
+   "kind": "still"
+  },
+  {
+   "start_s": 2.0,
+   "end_s": 2.5,
+   "shows": "Imposter posing with another fan holding a sign",
+   "kind": "still"
+  },
+  {
+   "start_s": 2.5,
+   "end_s": 3.5,
+   "shows": "Imposter playing basketball outside with fans",
+   "kind": "action"
+  },
+  {
+   "start_s": 3.5,
+   "end_s": 4.5,
+   "shows": "Imposter celebrating with fans",
+   "kind": "action"
+  },
+  {
+   "start_s": 4.5,
+   "end_s": 6.0,
+   "shows": "NBA players Stephen Curry and Kevin Durant smiling and reacting",
+   "kind": "action"
+  },
+  {
+   "start_s": 6.0,
+   "end_s": 7.75,
+   "shows": "Imposter talking to camera in a Warriors hoodie and headband",
+   "kind": "face"
+  },
+  {
+   "start_s": 7.75,
+   "end_s": 10.0,
+   "shows": "Barber shaving the imposter's beard in 2022",
+   "kind": "action"
+  },
+  {
+   "start_s": 10.0,
+   "end_s": 11.5,
+   "shows": "Imposter posing with fans outside an arena",
+   "kind": "action"
+  },
+  {
+   "start_s": 11.5,
+   "end_s": 12.75,
+   "shows": "Imposter talking to someone in a truck window",
+   "kind": "action"
+  },
+  {
+   "start_s": 12.75,
+   "end_s": 15.75,
+   "shows": "Imposter walking through security doors into the arena",
+   "kind": "action"
+  },
+  {
+   "start_s": 15.75,
+   "end_s": 17.5,
+   "shows": "Imposter walking down arena corridors",
+   "kind": "action"
+  },
+  {
+   "start_s": 17.5,
+   "end_s": 19.75,
+   "shows": "Imposter walking onto the empty Warriors court",
+   "kind": "action"
+  },
+  {
+   "start_s": 19.75,
+   "end_s": 21.75,
+   "shows": "Imposter shooting and making a basket on the court",
+   "kind": "action"
+  },
+  {
+   "start_s": 21.75,
+   "end_s": 23.25,
+   "shows": "Imposter receiving a lifetime ban paper outdoors",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 15,
+ "average_shot_s": 1.55,
+ "longest_shot_s": 2.25,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 210,
+  "tone": "energetic storytelling",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "dramatic upbeat beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 4,
+  "case": "ALL CAPS",
+  "position": "middle",
+  "colours": "white with yellow highlight",
+  "highlight_style": "word-by-word yellow highlight"
+ },
+ "text_overlays": [],
+ "cards_or_graphics": 0,
+ "framing": "blurred background",
+ "ending": {
+  "last_words": "and banned him for life.",
+  "last_frame": "The imposter holding his lifetime ban document outside with a blurred person.",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "Remember the guy who went viral for pretending to be Klay Thompson? At first he was just pranking some fans and even got reactions from the Warriors players. But when Golden State reached the finals again in 2022, he took the impersonation way further. It started with him trolling people outside the arena, but somehow security actually let him inside because he was covered in Warriors gear. They apparently thought he was Klay, and he ended up walking onto the court before the game. He even made a basket before the Warriors finally realized what happened and banned him for life.",
+ "retention_tricks": [
+  "rapid cut shots under 2 seconds",
+  "pacing aligned with fast narration",
+  "strong narrative arc from pranks to arena infiltration to ban"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": false,
+  "ends_on_payoff": true,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "Unbelievable true story about a superfan infiltrating an NBA court",
+  "Fast-paced editing with numerous archival clips and photos",
+  "Clear narrative escalation from fan pranks to lifetime arena ban"
+ ],
+ "_meta": {
+  "source": "OSWp_TgFV_M",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

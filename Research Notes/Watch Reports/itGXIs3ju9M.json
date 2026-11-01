@@ -1,0 +1,179 @@
+{
+ "length_s": 20.04,
+ "topic": "Victor Wembanyama's unusually poor shooting night in his rookie season opener, contrasted with his eventual Defensive Player of the Year achievement and full stat line.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "Victor Wembanyama just had the worst shooting night of his career.",
+  "first_frame": "Victor Wembanyama in a San Antonio Spurs jersey on the court.",
+  "on_screen_text_0_3s": "VICTOR WEMBANYAMA JUST HAD THE WORST SHOOTING NIGHT",
+  "shots_in_first_3s": 3
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 1.16,
+   "shows": "Victor Wembanyama talking/yelling on the court in Spurs uniform",
+   "kind": "face"
+  },
+  {
+   "start_s": 1.16,
+   "end_s": 1.96,
+   "shows": "Wide angle of Wembanyama dribbling basketball in arena",
+   "kind": "action"
+  },
+  {
+   "start_s": 1.96,
+   "end_s": 4.52,
+   "shows": "Wembanyama driving to the basket and shooting over defenders",
+   "kind": "action"
+  },
+  {
+   "start_s": 4.52,
+   "end_s": 5.68,
+   "shows": "Wembanyama running down the court during a game",
+   "kind": "face"
+  },
+  {
+   "start_s": 5.68,
+   "end_s": 7.6,
+   "shows": "Wembanyama holding up a trophy (Defensive Player of the Year)",
+   "kind": "action"
+  },
+  {
+   "start_s": 7.6,
+   "end_s": 8.44,
+   "shows": "Wembanyama walking on the court",
+   "kind": "action"
+  },
+  {
+   "start_s": 8.44,
+   "end_s": 10.12,
+   "shows": "Wembanyama dunking the basketball",
+   "kind": "action"
+  },
+  {
+   "start_s": 10.12,
+   "end_s": 12.68,
+   "shows": "Wembanyama taking a jump shot against defenders",
+   "kind": "action"
+  },
+  {
+   "start_s": 12.68,
+   "end_s": 13.96,
+   "shows": "Wembanyama attempting a dunk that gets blocked by a rookie",
+   "kind": "action"
+  },
+  {
+   "start_s": 13.96,
+   "end_s": 15.64,
+   "shows": "Wembanyama walking away on the court looking serious",
+   "kind": "face"
+  },
+  {
+   "start_s": 15.64,
+   "end_s": 17.2,
+   "shows": "Wembanyama blocking a shot near the rim",
+   "kind": "action"
+  },
+  {
+   "start_s": 17.2,
+   "end_s": 20.04,
+   "shows": "Wembanyama scoring a basket near the rim with defenders around",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 12,
+ "average_shot_s": 1.67,
+ "longest_shot_s": 2.56,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 195,
+  "tone": "energetic, storytelling, sports commentary",
+  "original_audio_under_voice": true
+ },
+ "music": {
+  "present": true,
+  "style": "dramatic hip-hop beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 2,
+  "case": "ALL CAPS",
+  "position": "middle",
+  "colours": "white and green highlights",
+  "highlight_style": "word-by-word highlight in green"
+ },
+ "text_overlays": [
+  {
+   "at_s": 0.3,
+   "text": "VICTOR WEMBANYAMA"
+  },
+  {
+   "at_s": 1.3,
+   "text": "JUST HAD THE WORST SHOOTING NIGHT OF HIS CAREER."
+  },
+  {
+   "at_s": 3.7,
+   "text": "1 FOR 13. OPENING NIGHT"
+  },
+  {
+   "at_s": 5.0,
+   "text": "THE FIRST UNANIMOUS DEFENSIVE PLAYER OF THE YEAR EVER."
+  },
+  {
+   "at_s": 8.0,
+   "text": "MARCH 2024, 10+ SHOTS OLD LOW: 3-13 AS A ROOKIE."
+  },
+  {
+   "at_s": 10.5,
+   "text": "TO START THE GAME 0 FOR 12 ON OPENING NIGHT, HE MISSED HIS FIRST 12 SHOTS,"
+  },
+  {
+   "at_s": 13.0,
+   "text": "AND A ROOKIE BLOCKED HIS DUNK."
+  },
+  {
+   "at_s": 14.0,
+   "text": "SO DID HE PLAY BADLY? NO."
+  },
+  {
+   "at_s": 15.7,
+   "text": "13 REB 6 BLK"
+  },
+  {
+   "at_s": 17.5,
+   "text": "1 FG + 10 FREE THROWS 12 PTS WITH ONE BASKET."
+  }
+ ],
+ "cards_or_graphics": 0,
+ "framing": "crop",
+ "ending": {
+  "last_words": "with one basket.",
+  "last_frame": "Wembanyama hanging on the rim after a dunk.",
+  "loops_to_start": true,
+  "call_to_action": "none"
+ },
+ "script": "Victor Wembanyama just had the worst shooting night of his career. 1 for 13, and he's the first unanimous Defensive Player of the Year ever. His old low was 3 for 13 as a rookie. On opening night, he missed his first 12 shots, and a rookie blocked his dunk. So did he play badly? No. Had 13 rebounds and 6 blocks, and he still scored 12 points with one basket.",
+ "retention_tricks": [
+  "fast-paced cutting under 2 seconds per shot",
+  "bold word-by-word green highlighting on captions",
+  "pivoting from a shocking low stat to an impressive recovery stat line",
+  "looping structure"
+ ],
+ "what_makes_it_work": [
+  "High-energy hook addressing a surprising negative stat about a superstar player",
+  "Rapid visual pacing with diverse gameplay clips and highlights",
+  "Surprise twist revealing that despite the terrible shooting night, his overall stat line was still dominant"
+ ],
+ "_meta": {
+  "source": "itGXIs3ju9M",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

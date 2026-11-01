@@ -19,12 +19,14 @@
   - runtime median 70-76 s (58-167 s);
   - 200-330 words at 228-282 wpm;
   - the voice starts at 0.00 and runs to the last frame.
+  - **Ours is shorter (Oct 26 overnight review):** under 60 s, ending before 59.5 s, about 230-250 words. YouTube's claim rule for Shorts over 1 minute decides it, not Ahmed.
 - [V] **Asides:** "You see,", "The thing is,", and first-person lines ("Honestly, I think...").
 
 ## Pictures
 - [V] **A new picture every 1.1-2.1 s.** The first picture holds about 2.5 s under the title card (0-1 cuts in the first 3 s).
 - [V] **Literal matching:** the named person is on screen when named. Abstract phrases get a literal picture.
 - [V] **Framing:** most shots are cropped full-frame. Wide clips sit over a blurred copy of themselves (our `--blurfit`).
+  - **Ours (Oct 26 overnight review) [S]:** crop a wide play to about 3:4 over the blur (`"blurfit_aspect": 0.75`) so the players stay big. Full width only for a graphic or text to read whole.
 - [V] **Ending:** the last picture shows the payoff.
 - [V] **Rough edges they accept:** soft 480p archive and watermarks. We don't copy the watermarks or other creators' captions.
 

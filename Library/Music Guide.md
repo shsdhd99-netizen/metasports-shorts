@@ -1,5 +1,7 @@
 # Music Guide (Oct 14, 2026)
 
+> **NBA music-bed test (owner said yes, Oct 26):** NBA posts alternate music and no music, starting with #69 Luka (none) and #70 Barkley (music). Render both versions of every NBA Short, and mark on the Hub which one to post so the alternation holds. The bed is about 20 dB under the voice (`music.json`, bed_lu -20), from `Library/Music/` (ElevenLabs beds: no Content ID, no pay cut). Log music yes/no on every post in `Research Notes/Outcome Log.md`. Decide after 8 posts (4 each) on stayed %, judged at 72 h. Soccer keeps its own music A/B.
+
 > **Owner decision, Oct 14 night: NO generic background bed by default.** Not the instrumental beds, stock music or AI-generated music below. Default is clean narration; effects only where the picture makes the sound; silence is valid. A real (commercial or trending) song goes in only through the platform's own music library (route A, `Library/Sound Library.md` §2) when it strengthens the story. This guide still applies if a bed is ever used on purpose: levels, placement, licences, tests. The ElevenLabs beds stay in the library, unused.
 
 *(Superseded the same night; see the box above.)* Music was briefly a planned part of every edit (owner decision, Oct 14 afternoon).

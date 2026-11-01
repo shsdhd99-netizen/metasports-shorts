@@ -1,0 +1,31 @@
+[
+ {
+  "take": 1,
+  "ok": false,
+  "score": -95.8,
+  "verdict": "REDO",
+  "issues": [
+   "17.94s  script \"his\" but heard \"(nothing)\""
+  ],
+  "wpm": 242,
+  "hnr": 8.0,
+  "jitter": 2.94,
+  "shimmer": 11.63,
+  "dur": 19.91,
+  "pitch_sd": 4.79,
+  "fixed": "fixed by sentence retake"
+ },
+ {
+  "take": 2,
+  "ok": true,
+  "score": 4.1,
+  "verdict": "CHECK",
+  "issues": [],
+  "wpm": 247,
+  "hnr": 8.0,
+  "jitter": 3.09,
+  "shimmer": 11.64,
+  "dur": 19.53,
+  "pitch_sd": 4.9
+ }
+]

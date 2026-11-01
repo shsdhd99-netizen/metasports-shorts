@@ -1,0 +1,196 @@
+{
+ "sources": {
+  "B": "src/1803116463382765709.mp4",
+  "R": "src/1696185535348269383.mp4",
+  "W": "src/837314735146164224.mp4",
+  "F": "src/1965891614964072677.mp4",
+  "S": "src/2028232028928274603.mp4"
+ },
+ "shots": [
+  {
+   "clip": "U01",
+   "src": "B",
+   "at": 0.0,
+   "x": 0.2,
+   "kind": "action",
+   "why": "Rick Barry (Warriors #24) sets up and shoots an underhand free throw (Warriors Archive footage via @Super70sSports)",
+   "len": 3.34
+  },
+  {
+   "clip": "U02",
+   "src": "B",
+   "at": 3.45,
+   "x": 0.35,
+   "kind": "action",
+   "anchor": "Rick Barry shot",
+   "why": "The same free throw swishes through the net, close-up (same clip)",
+   "len": 1.89
+  },
+  {
+   "clip": "U03",
+   "src": "R",
+   "at": 17.0,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.52,
+   "kind": "action",
+   "anchor": "made about",
+   "overlay": [
+    {
+     "text": "90%",
+     "size": 190,
+     "color": "orange",
+     "y": 230,
+     "start": 0.1,
+     "end": 9,
+     "sub": "BARRY'S CAREER, UNDERHAND"
+    }
+   ],
+   "why": "Barry, retired, in shirt and tie, sinks an underhand free throw with his eyes closed at a Bulls game (broadcast via @BruceBlitz)",
+   "len": 1.71
+  },
+  {
+   "clip": "U04",
+   "src": "W",
+   "at": 0.5,
+   "x": 0.6,
+   "kind": "action",
+   "anchor": "So Wilt",
+   "why": "Wilt Chamberlain in game action, Warriors (official @NBAHistory)",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "len": 3.17
+  },
+  {
+   "clip": "U05",
+   "src": "W",
+   "at": 16.6,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "kind": "action",
+   "anchor": "The night he",
+   "why": "The famous photo of Wilt holding the '100' sheet after the game (@NBAHistory). No video of the game exists.",
+   "len": 1.82
+  },
+  {
+   "clip": "U06",
+   "src": "W",
+   "at": 21.6,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "kind": "action",
+   "anchor": "he made",
+   "overlay": [
+    {
+     "text": "28 of 32",
+     "size": 170,
+     "color": "orange",
+     "y": 230,
+     "start": 0.1,
+     "end": 9,
+     "sub": "FREE THROWS THAT NIGHT"
+    }
+   ],
+   "why": "Newspaper headline 'Chamberlain Scores 100 Points; Warriors Down Knicks, 169-147' (@NBAHistory)",
+   "len": 1.8
+  },
+  {
+   "clip": "U07",
+   "src": "W",
+   "at": 37.6,
+   "x": 0.3,
+   "kind": "action",
+   "anchor": "Still a record",
+   "why": "Wilt (#13) on court in later colour footage (@NBAHistory)",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "len": 1.47
+  },
+  {
+   "clip": "U08",
+   "src": "W",
+   "at": 7.8,
+   "x": 0.5,
+   "kind": "face",
+   "anchor": "Then he quit",
+   "why": "Wilt in a later interview (@NBAHistory) while the narration says he was too embarrassed to keep it",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "len": 2.52
+  },
+  {
+   "clip": "U09",
+   "src": "F",
+   "at": 0.9,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.9,
+   "kind": "action",
+   "anchor": "So he went back",
+   "overlay": [
+    {
+     "text": "38%",
+     "size": 190,
+     "color": "red",
+     "y": 230,
+     "start": 2.0,
+     "end": 9,
+     "sub": "WILT'S FREE THROWS, 1967-68"
+    }
+   ],
+   "why": "Wilt shoots an overhand free throw and misses, rebound scramble (later career; broadcast via @pitlessball)",
+   "len": 3.43
+  },
+  {
+   "clip": "U10",
+   "src": "W",
+   "at": 43.0,
+   "x": 0.5,
+   "kind": "face",
+   "anchor": "Years later",
+   "why": "Rick Barry interview, his name on screen (@NBAHistory)",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "len": 2.23
+  },
+  {
+   "clip": "U11",
+   "src": "S",
+   "at": 18.0,
+   "x": 0.33,
+   "kind": "face",
+   "anchor": "Shaq said",
+   "why": "Shaquille O'Neal talking on ESPN's halftime desk (ESPN via @MrBuckBuckNBA)",
+   "len": 1.87
+  },
+  {
+   "clip": "U12",
+   "src": "W",
+   "at": 17.2,
+   "zoom": 1.25,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "kind": "action",
+   "anchor": "of Wilt's",
+   "lead": 0.45,
+   "replay": true,
+   "why": "Replay, closer: the '100' sheet (same photo as U05)",
+   "len": 1.6
+  },
+  {
+   "clip": "U13",
+   "src": "B",
+   "at": 1.6,
+   "speed": 0.5,
+   "x": 0.22,
+   "kind": "action",
+   "anchor": "came from a shot",
+   "replay": true,
+   "why": "Replay at 0.5x: Barry's underhand release (same clip as U01), the shot Wilt was too embarrassed to keep; ends on the payoff",
+   "len": 2.43
+  }
+ ]
+}

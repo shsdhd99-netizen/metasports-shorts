@@ -1,0 +1,32 @@
+{
+ "sources": {
+  "P1": "src/2114503800782291259.mp4",
+  "P2": "src/2114504427482833172.mp4",
+  "P3": "src/2114505122633957740.mp4",
+  "P4": "src/2114519135350886824.mp4",
+  "P5": "src/2114531374711681376.mp4"
+ },
+ "shots": [
+  {"clip": "H01", "src": "P3", "at": 1.0, "x": 0.5, "kind": "action",
+   "why": "Team camera: Haliburton gathers, tosses the ball up to himself and dunks it (Pacers on X, Oct 25 2026, at Nets)"},
+  {"clip": "H02", "src": "P3", "at": 4.0, "x": 0.5, "kind": "face", "anchor": "He missed",
+   "why": "Haliburton grinning after the self-oop, ABA Classic jersey (team camera, same post)"},
+  {"clip": "H03", "src": "P4", "at": 26.0, "x": 0.45, "kind": "face", "anchor": "tearing his",
+   "why": "Haliburton postgame, lower third 'TYRESE HALIBURTON 24 PTS' (Pacers on X, postgame)"},
+  {"clip": "H04", "src": "P1", "at": 1.6, "blurfit": true, "blurfit_aspect": 0.75, "x": 0.5, "y": 0.3, "kind": "action", "anchor": "Sunday in Brooklyn",
+   "why": "Broadcast: loose ball, Haliburton runs it out alone, bounces it up and dunks (Pacers on X, 3rd qtr 7:20-7:13, IND 83 BKN 68)"},
+  {"clip": "H05", "src": "P2", "at": 8.2, "x": 0.5, "kind": "face", "anchor": "The Pacers bench",
+   "why": "Pacers bench erupts, tongue out and arms out (Pacers on X, alternate angle)"},
+  {"clip": "H06", "src": "P5", "at": 17.0, "x": 0.5, "kind": "quote", "anchor": "His coach",
+   "why": "Rick Carlisle postgame, says 'He's back' at 17.5 s (Pacers on X)"},
+  {"clip": "H07", "src": "P2", "at": 4.4, "blurfit": true, "blurfit_aspect": 0.75, "x": 0.5, "y": 0.3, "kind": "action", "anchor": "Hali blamed",
+   "why": "Second angle of the self-oop in the ABA Classic jerseys (Pacers on X, alternate angle)"},
+  {"clip": "H08", "src": "P4", "at": 32.0, "x": 0.45, "kind": "quote", "anchor": "I feel like",
+   "why": "Haliburton postgame (the 'ABA jerseys... Dr. J' answer comes at 58-62 s of this interview)"},
+  {"clip": "H09", "src": "P2", "at": 0.0, "blurfit": true, "blurfit_aspect": 0.75, "x": 0.5, "y": 0.3, "kind": "action", "anchor": "The team Dr. J",
+   "overlay": [{"text": "THE NETS", "size": 190, "color": "0xFDB927", "y": 300, "start": 2.1, "end": 9, "sub": "DR. J'S 2 ABA TITLES:"}],
+   "why": "The Nets in their own classic jerseys, the loose-ball scramble before the play (Pacers on X). Dr. J won ABA titles with the Nets in 1974 and 1976 (Wikipedia)"},
+  {"clip": "H10", "src": "P3", "at": 2.3, "speed": 0.6, "x": 0.5, "kind": "action", "anchor": "The team he", "replay": true,
+   "why": "Replay of the self-oop dunk, slowed (team camera); ends on the payoff and loops to frame 1"}
+ ]
+}

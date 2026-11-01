@@ -8,7 +8,7 @@ Rules (from the retention research; each has burned a Short before):
   HOOK   first word on screen/spoken by 0.4 s; the first spoken word is not filler; >=3 different shots in the first 3 s;
          >=1 'action' shot (real footage of the story) in the first 3 s; the hook has a number/name/stakes.
   PACE   no shot longer than 3.0 s (quotes 4.0 s); average shot <= 1.9 s.
-  VISUAL <=35% of runtime on any single source clip; >=6 distinct source clips; <=45% of runtime talking head ('face'+'quote');
+  VISUAL (warnings since Oct 26) <=35% of runtime on any single source clip; >=6 distinct source clips; <=45% of runtime talking head ('face'+'quote');
          >=35% 'action' (b-roll that shows the story); cards <=25%; no 2 identical neighbours (same clip + same in-point).
   AUDIO  loudness -14 +-1.5 LUFS; no silence over 0.6 s inside the voice.
   LENGTH 18-35 s. Last shot repeats the first clip (loop).
@@ -17,6 +17,11 @@ Rules (from the retention research; each has burned a Short before):
          jump-back; found in 22 of 27 folders). Since then it slows small gaps (<=1.33x) and holds the last frame on big ones;
          a hold over 0.5 s fails (frozen picture). Renders made after the fix write _render.json.
   OPENING (warn only, HYPOTHESIS n=14) a card/screenshot in the first 4 s: the 4 most-viewed Oct posts had none before 7 s.
+Oct 26 2026 (Research Notes/Why NBA Views Dropped, 37 posted NBA Shorts with edit files) - NBA profile only, the soccer story
+format is unchanged: 2 or fewer shots in the first 3 s held 75.0% stayed vs 67.5% for 3+ (so 3+ is now the warning); a card in the
+first 4 s held 63.2% vs 72.0% (now a FAIL); any card 66.1% vs 72.6% (card share over 10% warns); 15 or fewer shots 75.0% vs 66.4%,
+so a shot is "too long" only over 6 s and the average-shot guideline is 1.8-3.0 s; the 6-clip and 35%-per-clip gates are warnings
+(they pushed cutaways from the one moment the story is about).
 Oct 14 2026 (Research Notes/Rules Audit): rules without support in our own data were DEMOTED from FAIL to warn: >=3 shots in the
 first 3 s, average shot <=2.6 s, talking head <=45%, b-roll >=35%, cards <=25%, last shot = first clip, and the 21 s length floor
 (old era: Shorts under 18 s had the BEST median, 32.8K, n=9). Removed: "turn word in first 40%" and "title starts with a name"
@@ -74,7 +79,8 @@ def main():
             soft(65 <= total <= 85, f"length {total:.1f}s in 65-85 (Ahmed's network: median 77 s)", f"length {total:.1f}s (Ahmed's long Shorts run 61-101 s, median 77 s)")
         else:
             chk(50 <= total <= 59.9, f"length {total:.1f}s (story format, under 1 minute)",
-                f"length {total:.1f}s: the story format must stay under 60 s (a claimed Short over 1 minute is blocked worldwide)")
+                (f"length {total:.1f}s: the story format must stay under 60 s (a claimed Short over 1 minute is blocked worldwide)" if total > 59.9
+                 else f"length {total:.1f}s: too short for the story format (50-59.9 s); add a beat"))
             soft(total <= 59.5, f"length {total:.1f}s, clear of the 1-minute line", f"length {total:.1f}s is within 0.5 s of 1 minute: trim if it is cheap")
     else:
         chk(12 <= total <= 60, f"length {total:.1f}s", f"length {total:.1f}s (outside 12-60 s)")
@@ -86,8 +92,13 @@ def main():
     in3 = [s for s, st, e, d in segs if st < 3.0]
     if story:  # Ahmed holds the first picture about 2.5 s under the title card (0-1 cuts in the first 3 s) [V]
         soft(len(in3) <= 3, f"{len(in3)} shots in first 3 s (title card holds)", f"{len(in3)} shots in first 3 s (story format holds the first picture ~2.5 s under the title)")
-    else:
-        soft(len(in3) >= 3, f"{len(in3)} shots in first 3 s", f"only {len(in3)} shots in first 3 s (guideline 3; shot length did not separate winners)")
+    else:  # Oct 26: 2 or fewer shots in the first 3 s held 75.0% stayed vs 67.5% for 3+ (n=7 vs 30) [V]
+        soft(len(in3) <= 2, f"{len(in3)} shots in first 3 s (the opening moment holds)", f"{len(in3)} shots in first 3 s: hold the opening moment (2 or fewer held 75.0% stayed vs 67.5%)")
+    # Oct 26 overnight (Research Notes/Retention and Editing Upgrade): <=3 shots in the first 5 s held 78.4% stayed vs 66.5% (n=10 vs 27) [V];
+    # shot 1 of 2.0 s+ held 77.6% vs 68.4% (n=6, [S]). Warnings, both channels.
+    in5 = [s for s, st, e, d in segs if st < 5.0]
+    soft(len(in5) <= 3, f"{len(in5)} shots in first 5 s", f"{len(in5)} shots in the first 5 s: hold the opening moment (3 or fewer held 78.4% stayed vs 66.5%)")
+    soft(segs[0][3] >= 2.0, f"shot 1 holds {segs[0][3]:.1f} s", f"shot 1 is only {segs[0][3]:.1f} s (2.0 s+ held 77.6% vs 68.4%, n=6)")
     chk(any(s.get("kind") == "action" for s in in3), "real action footage in first 3 s", "no 'action' footage in the first 3 s (a talking head or card hook gets swiped)")
     if story:  # Oct 24 2026 (Research Notes/Why S02 and S03 Underperformed): S01 (80% stayed) said its title object again at 19 s;
         # S03 (65%) only at 46 s, after 11 other names in its first 15 s. Guidelines, not gates (n=3).
@@ -110,20 +121,30 @@ def main():
         soft(len(names) <= 10, f"{len(names)} names in the first 15 s", f"{len(names)} different names in the first 15 s ({', '.join(sorted(names))}): one story, few names")
     hook = " ".join(w["word"] for w in words if w["start"] < 3.0)
     chk(bool(re.search(r"\d|[A-Z][a-z]+ [A-Z]|million|billion|percent|first|never|only|banned|illegal|rule|\b(one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen|twenty|thirty|forty|fifty|sixty|seventy|eighty|ninety|hundred)\b", hook, re.I)) , "hook line has a name/number/stakes", f"hook line weak: '{hook}'")
-    long_ = [(s["clip"], round(d, 1)) for s, _, _, d in segs if d > (4.5 if s.get("kind") == "quote" else 3.6)]
+    lim = (4.5 if story else 6.0)  # Oct 26: NBA shots may run; fewer, longer shots held better (Why NBA Views Dropped) [V]
+    long_ = [(s["clip"], round(d, 1)) for s, _, _, d in segs if d > (lim if s.get("kind") == "quote" else (3.6 if story else 6.0))]
     chk(not long_, "no shot too long", f"shots too long: {long_}")
     avg = total / len(segs)
-    soft(avg <= 2.6, f"average shot {avg:.1f}s", f"average shot {avg:.1f}s (guideline <=2.6)")
+    if story:
+        soft(avg <= 2.6, f"average shot {avg:.1f}s", f"average shot {avg:.1f}s (guideline <=2.6)")
+    else:
+        soft(1.8 <= avg <= 3.0, f"average shot {avg:.1f}s", f"average shot {avg:.1f}s (NBA guideline 1.8-3.0 s: 15 or fewer shots held 75.0% stayed vs 66.4%)")
     by = {}
     for s, _, _, d in segs:
         by[s["clip"]] = by.get(s["clip"], 0) + d
     top = max(by.items(), key=lambda x: x[1])
-    chk(top[1] / total <= 0.35, f"most-used clip {top[0]} {top[1]/total:.0%}", f"{top[0]} fills {top[1]/total:.0%} of the video (want <=35%): add more footage")
-    chk(len(by) >= 6, f"{len(by)} source clips", f"only {len(by)} source clips (want >=6)")
+    gate = soft  # Oct 26 overnight review: warnings on both channels ("footage first: never cut away to filler to reach a clip count")
+    gate(top[1] / total <= 0.35, f"most-used clip {top[0]} {top[1]/total:.0%}", f"{top[0]} fills {top[1]/total:.0%} of the video (want <=35%): add more footage")
+    gate(len(by) >= 6, f"{len(by)} source clips", f"only {len(by)} source clips (want >=6)")
     face = (kinds["face"] + kinds["quote"]) / total
     soft(face <= 0.45, f"talking head {face:.0%}", f"talking head {face:.0%} of runtime (guideline <=45%): is every claim proven on screen?")
     soft(kinds["action"] / total >= 0.35, f"b-roll {kinds['action']/total:.0%}", f"b-roll {kinds['action']/total:.0%} (guideline >=35%)")
-    soft(kinds["card"] / total <= 0.25, f"cards {kinds['card']/total:.0%}", f"cards {kinds['card']/total:.0%} (guideline <=25%)")
+    # Owner, Oct 26 2026 (both channels): "cut cards completely, theyre a big distraction. if added, keep brief".
+    # NBA data: any card 66.1% stayed vs 72.6% without (n=20 vs 17) [V]. A card is off by default; one that stays runs <= 1.5 s.
+    ncards = [s["clip"] for s, _, _, d in segs if s.get("kind") == "card"]
+    soft(not ncards, "no cards", f"{len(ncards)} card(s) {ncards}: cards are off by default (owner, Oct 26); put the proof on the footage")
+    long_cards = [(s["clip"], round(d, 1)) for s, _, _, d in segs if s.get("kind") == "card" and d > 1.5]
+    chk(not long_cards, "every card brief (<=1.5 s)", f"cards longer than 1.5 s: {long_cards} (owner, Oct 26: if a card is used, keep it brief)")
     two_cards = [i for i in range(1, len(shots)) if shots[i].get("kind") == "card" and shots[i - 1].get("kind") == "card"]
     soft(not two_cards, "no two cards in a row", f"two cards in a row at shots {two_cards} (the critic flags back-to-back reading)")
     dup = [i for i in range(1, len(shots)) if shots[i]["clip"] == shots[i - 1]["clip"] and shots[i].get("in") == shots[i - 1].get("in")]
@@ -143,7 +164,9 @@ def main():
     soft(not replays, "no footage shown twice", f"the same footage appears twice (clip, shot, shot, overlap s): {replays}; mark an intentional replay with \"replay\": true")
     if not story:  # the story format ends on the payoff or the next-video teaser, not a loop
       soft(shots[-1]["clip"] == shots[0]["clip"], "loops to the first shot", "last shot is not the first clip (fine if the ending image serves the payoff; never add a sub-0.6 s shot just to loop)")
-    gaps = [(round(words[i]["end"], 2), round(words[i + 1]["start"] - words[i]["end"], 2)) for i in range(len(words) - 1) if words[i + 1]["start"] - words[i]["end"] > 0.6]
+    # a word marked "live" is the real broadcast call (Tools/nat_sound.py): the crowd roar after it may run up to 1.5 s
+    gaps = [(round(words[i]["end"], 2), round(words[i + 1]["start"] - words[i]["end"], 2)) for i in range(len(words) - 1)
+            if words[i + 1]["start"] - words[i]["end"] > (1.5 if words[i].get("live") else 0.6)]
     chk(not gaps, "no dead air inside the speech", f"dead air over 0.6 s inside the speech at (s, gap): {gaps}")
     r = subprocess.run(["ffmpeg", "-nostats", "-i", fin, "-af", "ebur128=peak=true", "-f", "null", "-"], capture_output=True, text=True).stderr
     m = re.findall(r"I:\s+(-?[\d.]+) LUFS", r)
@@ -215,8 +238,8 @@ def main():
     else:
         chk(not short, "no clip replays", f"clip shorter than its shot = visible replay/jump-back (clip, at s, short by s): {short}; re-render with assemble.py (Oct 13+) or use longer clips")
     early_cards = [round(st, 1) for s, st, e, d in segs if s.get("kind") == "card" and st < 4.0]
-    if early_cards:
-        warn.append(f"card/screenshot in the first 4 s at {early_cards} s (HYPOTHESIS: the Oct posts that broke out had real footage/faces there)")
+    if early_cards:  # Oct 26: a card in the first 4 s held 63.2% stayed and 1.9K views vs 72.0% and 5.0K (NBA, n=9 vs 28) [V]; owner: no cards
+        bad.append(f"card/screenshot in the first 4 s at {early_cards} s (these held 63.2% stayed vs 72.0%; open on the real moment)")
     if tail < 0.1:
         bad.append(f"voice is cut off: last word ends {tail:.2f}s before the end (add 0.3 s tail: ffmpeg -af apad=pad_dur=0.3)")
     first8 = " ".join(w["word"] for w in words[:8]).lower()
@@ -227,7 +250,7 @@ def main():
         warn.append(f"shots under 0.6 s read as noise: {tiny}")
     if not os.path.exists(os.path.join(F, "notes.md")):
         warn.append("no notes.md (needs Lane, Concept, Added value, claim -> exact source quote)")
-    if avg < 1.3:
+    if avg < 1.3 and story:
         warn.append(f"average shot {avg:.1f}s is very fast; a 1.9 vs 2.8 s A/B is pending (HYPOTHESIS)")
     dur_voice = words[-1]["end"] - words[0]["start"]
     wpm = len(words) / dur_voice * 60 if dur_voice else 0

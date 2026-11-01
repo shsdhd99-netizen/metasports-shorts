@@ -1,0 +1,132 @@
+{
+ "length_s": 18.0,
+ "topic": "LeBron James showing fan-friendly moments versus reacting negatively when unexpectedly touched by a fan in Paris.",
+ "lane": "moment",
+ "hook": {
+  "first_words": "This is why you don't touch LeBron James",
+  "first_frame": "LeBron James sitting on the bench drinking from a black bottle while someone's hand touches his knee, with on-screen text 'THIS IS WHY YOU DON'T TOUCH'.",
+  "on_screen_text_0_3s": "THIS IS WHY YOU DON'T TOUCH LEBRON JAMES",
+  "shots_in_first_3s": 3
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 0.75,
+   "shows": "LeBron James sitting on the bench drinking from a black bottle while someone touches his leg",
+   "kind": "action"
+  },
+  {
+   "start_s": 0.75,
+   "end_s": 1.5,
+   "shows": "LeBron James drinking from his bottle on the bench (zoomed in)",
+   "kind": "face"
+  },
+  {
+   "start_s": 1.5,
+   "end_s": 3.6,
+   "shows": "LeBron James hugging a fan",
+   "kind": "action"
+  },
+  {
+   "start_s": 3.6,
+   "end_s": 4.6,
+   "shows": "LeBron James smiling taking a selfie with a young fan",
+   "kind": "face"
+  },
+  {
+   "start_s": 4.6,
+   "end_s": 5.4,
+   "shows": "LeBron James fixing a young fan's jersey",
+   "kind": "action"
+  },
+  {
+   "start_s": 5.4,
+   "end_s": 7.1,
+   "shows": "LeBron James celebrating and hugging a teammate/fan on the court",
+   "kind": "action"
+  },
+  {
+   "start_s": 7.1,
+   "end_s": 8.7,
+   "shows": "LeBron James high-fiving children fans walking by",
+   "kind": "action"
+  },
+  {
+   "start_s": 8.7,
+   "end_s": 11.7,
+   "shows": "LeBron James sitting on the bench drinking, looking stern after being touched",
+   "kind": "face"
+  },
+  {
+   "start_s": 11.7,
+   "end_s": 18.0,
+   "shows": "LeBron James in Paris outside a car, getting touched on the shoulder by a fan and reacting with 'Stop, don't do that'",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 9,
+ "average_shot_s": 2.0,
+ "longest_shot_s": 6.3,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 175,
+  "tone": "conversational and dramatic",
+  "original_audio_under_voice": true
+ },
+ "music": {
+  "present": true,
+  "style": "dramatic hip-hop beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "ALL CAPS",
+  "position": "middle",
+  "colours": "white",
+  "highlight_style": "none"
+ },
+ "text_overlays": [
+  {
+   "at_s": 11.7,
+   "text": "Makaveli75Paris"
+  }
+ ],
+ "cards_or_graphics": 0,
+ "framing": "crop",
+ "ending": {
+  "last_words": "Don't do that",
+  "last_frame": "LeBron James walking away waving his finger in disapproval",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "This is why you don't touch LeBron James. Even though LeBron usually shows love to his fans, there's one thing that instantly changes his mood. For more than 20 years, he's been great with fans who cheer for him and show respect. But once someone touches him, that friendly LeBron disappears real quick. Just ask this kid in Paris: LeBron, is it possible to take a picture please? Stop. Don't do that.",
+ "retention_tricks": [
+  "open loop in hook",
+  "rapid sequence of archival clips",
+  "zoom-ins"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "Strong hook with immediate visual contrast of LeBron's mood change",
+  "Fast-paced montage establishing his usual friendly persona before the dramatic payoff",
+  "Real, raw footage of the Paris interaction delivering on the hook's premise"
+ ],
+ "_meta": {
+  "source": "nOBhXfs-hHo",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

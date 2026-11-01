@@ -1,0 +1,248 @@
+{
+ "length_s": 70.15,
+ "topic": "Explaining the medical condition behind Jamal Musiala's sudden collapses on the football pitch.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "What's the medical condition",
+  "first_frame": "A footballer in a red kit holds his head and drops to the turf.",
+  "on_screen_text_0_3s": "What's the MEDICAL CONDITION that keeps MAKING Musiala COLLAPSE?",
+  "shots_in_first_3s": 5
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 0.73,
+   "shows": "Musiala collapsing on the pitch during a match",
+   "kind": "action"
+  },
+  {
+   "start_s": 0.73,
+   "end_s": 2.76,
+   "shows": "Musiala collapsing on the pitch, another player holding him",
+   "kind": "action"
+  },
+  {
+   "start_s": 2.76,
+   "end_s": 5.76,
+   "shows": "Jamal Musiala smiling portrait in Bayern Munich kit",
+   "kind": "still"
+  },
+  {
+   "start_s": 5.76,
+   "end_s": 8.0,
+   "shows": "Musiala in training bib warming up",
+   "kind": "action"
+  },
+  {
+   "start_s": 8.0,
+   "end_s": 9.23,
+   "shows": "Musiala running during a match",
+   "kind": "action"
+  },
+  {
+   "start_s": 9.23,
+   "end_s": 11.46,
+   "shows": "Old TV showing Musiala collapsed on pitch surrounded by teammates",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 11.46,
+   "end_s": 12.96,
+   "shows": "Musiala collapsing on pitch from another angle",
+   "kind": "action"
+  },
+  {
+   "start_s": 12.96,
+   "end_s": 14.76,
+   "shows": "Musiala looking dazed and touching his face",
+   "kind": "face"
+  },
+  {
+   "start_s": 14.76,
+   "end_s": 16.56,
+   "shows": "Thermometer graphic showing over 30 degrees",
+   "kind": "stock"
+  },
+  {
+   "start_s": 16.56,
+   "end_s": 18.76,
+   "shows": "Old TV showing players surrounding collapsed Musiala",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 18.76,
+   "end_s": 21.03,
+   "shows": "Musiala from behind walking on pitch in white kit",
+   "kind": "action"
+  },
+  {
+   "start_s": 21.03,
+   "end_s": 23.56,
+   "shows": "Wide shot of stadium with flags waving before a match",
+   "kind": "stock"
+  },
+  {
+   "start_s": 23.56,
+   "end_s": 25.56,
+   "shows": "Referee talking to player in Heidenheim kit",
+   "kind": "action"
+  },
+  {
+   "start_s": 25.56,
+   "end_s": 27.23,
+   "shows": "Musiala running on pitch in Bayern kit",
+   "kind": "action"
+  },
+  {
+   "start_s": 27.23,
+   "end_s": 29.0,
+   "shows": "Musiala celebrating with teammates",
+   "kind": "action"
+  },
+  {
+   "start_s": 29.0,
+   "end_s": 34.0,
+   "shows": "Musiala down on pitch with medical staff surrounding him",
+   "kind": "action"
+  },
+  {
+   "start_s": 34.0,
+   "end_s": 35.33,
+   "shows": "Musiala walking off pitch looking dazed talking to staff",
+   "kind": "face"
+  },
+  {
+   "start_s": 35.33,
+   "end_s": 37.33,
+   "shows": "Musiala walking off with trainer holding his arm",
+   "kind": "action"
+  },
+  {
+   "start_s": 37.33,
+   "end_s": 39.5,
+   "shows": "Replay of Musiala collapsing",
+   "kind": "replay"
+  },
+  {
+   "start_s": 39.5,
+   "end_s": 41.9,
+   "shows": "Musiala in training bib looking concerned",
+   "kind": "face"
+  },
+  {
+   "start_s": 41.9,
+   "end_s": 47.7,
+   "shows": "Musiala portrait graphic with stadium background",
+   "kind": "still"
+  },
+  {
+   "start_s": 47.7,
+   "end_s": 51.0,
+   "shows": "Musiala in red jersey pointing forward",
+   "kind": "action"
+  },
+  {
+   "start_s": 51.0,
+   "end_s": 56.1,
+   "shows": "Doctor in blue shirt and tie talking",
+   "kind": "stock"
+  },
+  {
+   "start_s": 56.1,
+   "end_s": 58.86,
+   "shows": "Replay of Musiala collapsing in pre-season friendly",
+   "kind": "replay"
+  },
+  {
+   "start_s": 58.86,
+   "end_s": 60.56,
+   "shows": "Musiala in red interview top talking",
+   "kind": "face"
+  },
+  {
+   "start_s": 60.56,
+   "end_s": 63.26,
+   "shows": "Musiala looking out window in training kit",
+   "kind": "face"
+  },
+  {
+   "start_s": 63.26,
+   "end_s": 65.26,
+   "shows": "Musiala close-up speaking in interview",
+   "kind": "face"
+  },
+  {
+   "start_s": 65.26,
+   "end_s": 67.76,
+   "shows": "Musiala walking off pitch with trainer",
+   "kind": "action"
+  },
+  {
+   "start_s": 67.76,
+   "end_s": 70.15,
+   "shows": "Musiala running and celebrating in black kit",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 29,
+ "average_shot_s": 2.42,
+ "longest_shot_s": 5.1,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 175,
+  "tone": "engaging, inquisitive, explanatory",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "dramatic rhythmic beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 2,
+  "case": "mixed",
+  "position": "middle",
+  "colours": "white",
+  "highlight_style": "pop-up word by word"
+ },
+ "text_overlays": [],
+ "cards_or_graphics": 3,
+ "framing": "blurred background",
+ "ending": {
+  "last_words": "for the time being.",
+  "last_frame": "Musiala running on the pitch during a match in a black kit.",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "What's the medical condition that keeps making Musiala collapse? So, Jamal Musiala is one of the brightest young stars in world football, a twenty-three-year-old who plays for Bayern Munich and is a key man for Germany. During a pre-season friendly against RB Leipzig, he suddenly collapsed on the pitch, and because it was hot that day, over thirty degrees Celsius, a lot of people just assumed the heat was getting to him. But the heat theory fell apart four days later at a different game where the weather wasn't the story at all. In another friendly against Heidenheim, Musiala came on as a substitute, and just minutes after stepping onto the field, he went down again. Players from both teams rushed over and formed a circle around him while the medical staff treated him, and even though he looked dazed, a staff member had to help him walk off the pitch. This made it two collapses in four days from a healthy young athlete, and nobody watching knew why. But Musiala himself was the one who finally ended the guessing, and what he revealed wasn't a muscle or a bone at all. He revealed that doctors had diagnosed him with something called absence seizures, which is a type of epileptic seizure that causes a brief, sudden lapse in awareness, usually lasting only a few seconds. A person basically stares blankly and stops what they're doing before snapping back to normal, which is why Musiala looked so out of it before recovering quickly. He says the condition is easily treatable and that there's no further health risk to his overall health, so that's why he's continuing to play football for the time being.",
+ "retention_tricks": [
+  "presents a mystery in the hook",
+  "rapid-fire cuts and replays",
+  "open loop explaining the mystery midway through",
+  "zooms and graphic inserts"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": true,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "Starts with a compelling mystery about a famous athlete collapsing twice.",
+  "Uses rapid editing and clear captioning to maintain high viewer engagement.",
+  "Delivers a definitive, surprising medical answer from the player himself."
+ ],
+ "_meta": {
+  "source": "2EUY_th5DLs",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

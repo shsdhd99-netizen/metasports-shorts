@@ -1,0 +1,11 @@
+{
+ "question": "This is a postgame interview. Give the start and end time (seconds) of every sentence where the speaker mentions the ABA, the throwback jerseys or Dr. J, and quote his exact words. Also: at what second does the lower-third name graphic first appear?",
+ "answer": "Here are the details requested:\n\n### **ABA / Throwback Jersey / Dr. J Mentions**\n\n1. **[00:58 - 01:00]**  \n   *Quote:* \"I think it was the ABA jerseys.\"\n\n2. **[01:00 - 01:02]**  \n   *Quote:* \"I felt like Dr. J or something.\"\n\n---\n\n### **Lower-Third Graphic Appearance**\n* The lower-third name graphic for Tyrese Haliburton first appears at **00:15** (15 seconds).",
+ "_meta": {
+  "source": "Productions/MetaSports/2026-10-26 71 Haliburton Threw An Alley-Oop To Himself/src/2114519135350886824.mp4",
+  "model": "gemini-3.6-flash",
+  "fps": 1.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

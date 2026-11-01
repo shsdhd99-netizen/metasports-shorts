@@ -418,3 +418,120 @@ Exact post times aren't readable from the cloud (YouTube blocks the per-video pa
 - #58 went from 3.6K to 17K in a day. It is a news story on a famous name (Bronny), with the owner's own title.
 - Like #42 (6.3K → 25K between day 1.5 and 3.5), a Short can break out on day 2.
 - So judge new posts at 3+ days, not at day 1.
+
+## Mon Oct 26, 2026, 02:21 UTC (catch-up check; the daily routine was paused Oct 23-25 while the owner's usage was out)
+Public counts (`channel_check.py`), no API token in the cloud, no new Studio export since Oct 24.
+- **96 Shorts listed, 579 subscribers.** Median of the last 7: **5,400** (normal before that: 4,400). Trend: UP.
+
+| Short | Views | #42 FORMAT? |
+|---|---|---|
+| **Who Has Missed The Most Threes In NBA History? (#48)** | **23,000** | **yes** (format post 1) |
+| Wemby Just Had The Worst Night Of His Career (#64) | 10,000 | **yes** (format post 2) |
+| Why SGA Ended His Own NBA Record (#66) | 6,500 | record variant |
+| Who Has Lost The Most Games In NBA History? (#52) | 5,400 | **yes** (format post 3) |
+| Why LeBron Isn't A Knick (#62) | 4,300 | no |
+| Caitlin Clark Did What No NBA Player Has (#60) | 2,000 | no |
+| All Three Williamses Got A Technical (#63) | 1,400 | no (posted a day late) |
+
+**Format test:** all 3 test posts are up. Studio (Oct 24): #48 83.3%, #64 72.6%, #52 59.1% stayed, so 1 of 3 reached 74%; by views #48 and #64 are the channel's two best of the week. The playbook already caps the format at 1 post in 3 (decay in posting order); nothing new to change.
+**Retention flags:** none readable without the API or a new export. **Monday reminder:** export Studio > Content > Shorts for both channels.
+**Lesson:** none new (n<3 per point).
+
+## Oct 26, 2026, 10:15 AM ET: posted check (public counts, RSS/yt-dlp)
+Posted since Oct 21 (time ET, views now; judge each at 72 h):
+| # | Title | Posted | Views |
+|---|---|---|---|
+| 64 | Wemby Just Had The Worst Night Of His Career 😳 | Wed Oct 21 11:50 AM | 10,795 |
+| 62 | Why LeBron Isn't A Knick 😳 | Wed Oct 21 7:59 PM | 4,307 |
+| 63 | All Three Williamses Got A Technical 😳 | Thu Oct 22 12:28 PM | 1,488 |
+| 52 | Who Has Lost The Most Games In NBA History? 😳 | Fri Oct 23 7:47 AM | 5,556 |
+| 66 | Why SGA Ended His Own NBA Record 😳 | Sat Oct 24 2:37 PM | 6,824 |
+| 60 | Caitlin Clark Did What No NBA Player Has 😳 | Sun Oct 25 11:04 AM | 2,510 |
+| 69 | Luka Just Did What Kobe Never Did 😳 (calm cut; music test: no-music side) | Mon Oct 26 12:47 AM | 1,212 (9 h) |
+
+- **Not posted (drafts):**
+  - #70 Barkley: ready; music version for the test.
+  - #59 WNBA minimum: ready, but the news is from Oct 20.
+  - #61 Paul George: hold.
+  - #65 LeBron answers a Knicks fan: hold.
+  - #68 Warriors 0-3: built, never on the Hub; the news is now stale.
+- **First data points under the Oct 26 rules:** #69 (calm cut, moment-adjacent news) and next #70 (moment lane, music). Read them at 72 h.
+
+## Mon Oct 26, 2026 (evening, 23:08 UTC): daily check (scheduled, read-only)
+Public counts (`channel_check.py`, yt-dlp). No API token in the cloud (the owner's one-time Analytics sign-in is still pending; phone steps were given in chat Oct 26), and no new Studio export since Oct 24. The RSS feed returned 404 tonight, so there are no exact upload times.
+- **124 Shorts listed, 581 subscribers.** Median of the last 7: **3,400** (normal before that: 5,250). Trend: DOWN. Part of the drop is that two of the 7 are under a day old.
+
+| Short | Views | #42 FORMAT? | Note |
+|---|---|---|---|
+| Why SGA Ended His Own NBA Record | 7,300 | record variant | best of the 7 |
+| Who Has Lost The Most Games In NBA History? | 5,500 | **yes** (format post 3) | |
+| Why LeBron Isn't A Knick | 4,300 | no | |
+| Caitlin Clark Did What No NBA Player Has | 2,500 | no | |
+| All Three Williamses Got A Technical | 1,400 | no | |
+| Chuck Failed A Test With The Answers | 1,200 | no (moment lane) | posted today; music side of the music test; judge at 72 h |
+| Luka Just Did What Kobe Never Did | 1,200 | no | about 22 h old; no-music side; flat since 9 h (1,212) |
+
+**Format test:** unchanged and closed. 1 of 3 test posts reached 74%+ stayed (Studio, Oct 24), so it was not proven. Since Oct 26 it is one lane among several.
+**Retention flags:** none readable without the API or a new export.
+**Monday reminder:** export Studio > Content > Shorts (30 s) for both channels to get the exact "stayed to watch".
+**Lesson:** none (n=1 per side of the music test; a Short can still jump after day 1, as #48 did).
+
+## Tue Oct 27, 2026, about 5 PM ET: posted check
+- **Haliburton Threw An Alley-Oop To Himself** (#71): posted Tue morning by the owner (id lU6xSO1cAOY). It has 2,100 views on the same day. No-music side of the music test.
+- **Chuck Failed A Test With The Answers** (#70): 1,800 views. **Luka Just Did What Kobe Never Did** (#69): 1,200.
+- **Next:** "This Kid Felt Every Free Throw" (#72, music side), tonight about 6 PM or Wed 11 AM.
+
+## Tue Oct 27, 2026 (evening, 23:11 UTC): daily check (scheduled, read-only)
+Public counts (`channel_check.py`). No API token in the cloud: the Analytics sign-in is still pending and is on the owner's task list. No new Studio export since Oct 24.
+- **Median of the last 7: 2,250** (normal before that: 4,600). Trend: DOWN.
+
+| Short | Views | #42 FORMAT? | Note |
+|---|---|---|---|
+| Why SGA Ended His Own NBA Record | 7,900 | record variant | best of the 7 |
+| Who Has Lost The Most Games In NBA History? | 5,500 | **yes** (format post 3) | |
+| Haliburton Threw An Alley-Oop To Himself | 2,800 | no (moment) | posted Tue morning; judge at 72 h (Fri) |
+| Caitlin Clark Did What No NBA Player Has | 2,700 | no | |
+| Chuck Failed A Test With The Answers | 1,800 | no (moment) | about 1.5 days old; music side |
+| All Three Williamses Got A Technical | 1,400 | no | |
+| Luka Just Did What Kobe Never Did | 1,200 | no (news) | about 2 days old; flat since 9 h; no-music side |
+
+**Format test:** closed (1 of 3 at 74%+). **Retention flags:** none readable.
+**Lesson:** none (n=1 per Short). The two weakest are both news-led, which fits the Oct 27 competitor study ([S], `Research Notes/Watch Study/Formats and Scripts (Oct 27, 2026).md`), but that's not a rule from our own data yet.
+
+## Wed Oct 28, 2026 (evening, 23:27 UTC): daily check (scheduled, read-only)
+Public counts (`channel_check.py`). No API token in the cloud: the Analytics sign-in is still pending (owner's task list). No new Studio export since Oct 24.
+- **Median of the last 7: 3,000** (normal before that: 4,600). Trend: DOWN, but up from 2,250 yesterday.
+
+| Short | Views | #42 FORMAT? | Note |
+|---|---|---|---|
+| This Kid Felt Every Free Throw (#72) | 20,000 | no (moment) | posted 7:17 AM today, about 16 h; music side; best since the 23K Oct 26 list Short |
+| Why SGA Ended His Own NBA Record | 8,300 | record variant | |
+| Haliburton Threw An Alley-Oop To Himself | 6,900 | no (moment) | 2,800 yesterday: still climbing on day 2 |
+| Chuck Failed A Test With The Answers (#70) | 3,000 | no (moment) | music side; 1,800 yesterday |
+| Caitlin Clark Did What No NBA Player Has | 2,700 | no | flat |
+| Luka Just Did What Kobe Never Did (#71) | 1,300 | no (news) | no-music side; flat |
+| This Rookie Was A Hero For One Overtime (#75) | 821 | no (moment) | posted 6:03 PM ET, under 1.5 h old; first **real-audio** post; judge at 72 h |
+
+**Format test:** closed (1 of 3 at 74%+). **Retention flags:** none readable (no API data).
+**Music test so far:** music #72 20,000 and #70 3,000 vs no music #71 1,300; #74 (no music) posts Fri. n=3, not a rule.
+**Lesson:** none (n<3). The two moment Shorts posted in the morning (#72, Haliburton) both kept climbing on day 2; worth watching, not a rule.
+
+## Thu Oct 29, 2026 (evening, 23:09 UTC): daily check (scheduled, read-only)
+Public counts (`channel_check.py`). No API token in the cloud: the Analytics sign-in is still pending (owner's task list). No new Studio export since Oct 24. vidIQ: 0 credits (resets Nov 5), not used.
+- **Median of the last 7: 4,100** (normal before that: 5,250). Trend: DOWN, but up from 3,000 yesterday and 2,250 the day before.
+
+| Short | Views | #42 FORMAT? | Note |
+|---|---|---|---|
+| This Kid Felt Every Free Throw (#72) | 23,000 | no (moment) | day 2; 20,000 yesterday; music side |
+| Haliburton Threw An Alley-Oop To Himself | 7,600 | no (moment) | day 3; 6,900 yesterday, slowing |
+| He Left The NBA Finals In A Wheelchair (#76) | 4,600 | no (story, real audio) | posted this morning, about 12 h; second **real-audio** post |
+| This Rookie Was A Hero For One Overtime (#75) | 4,100 | no (moment, real audio) | about 25 h; 821 at 1.5 h; first real-audio post; judge at 72 h (Sat evening) |
+| Chuck Failed A Test With The Answers (#70) | 3,200 | no (moment) | music side; flat (3,000) |
+| Caitlin Clark Did What No NBA Player Has | 2,700 | no | flat |
+| Luka Just Did What Kobe Never Did (#71) | 1,300 | no (news) | no-music side; flat |
+
+**Not posted yet:** #79 Two Buzzer-Beaters (real audio) was due today (moved up by the morning review); at 7:09 PM ET it isn't on the channel. Task left open; it's news, so skip it if it misses tonight.
+**Format test:** closed (1 of 3 at 74%+). **Retention flags:** none readable (no API data).
+**Music test so far:** music #72 23,000 and #70 3,200 vs no music #71 1,300; #74 (no music) posts Fri 3 PM. n=3, not a rule.
+**Real-audio test:** #75 4,100 (25 h) and #76 4,600 (12 h); no narrated twin of either was posted, so no comparison yet. n=2, not a rule.
+**Lesson:** none (n<3). Owner notes inbox: empty.

@@ -1,0 +1,97 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,TikTok Sans SemiBold,80,&H00FFFFFF,&H00FFFFFF,&H00000000,&H99000000,0,0,0,0,100,100,0,0,1,3.2,1,5,70,70,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:02.36,Cap,,0,0,0,,{\pos(540,960)\blur0.5\fscx72\fscy72}Goalkeepers who were subbed on\Njust for the PENALTIES
+Dialogue: 0,0:00:02.36,0:00:03.48,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Back in 2014,
+Dialogue: 0,0:00:03.48,0:00:03.96,Cap,,0,0,0,,{\pos(540,960)\blur0.5}the Netherlands
+Dialogue: 0,0:00:03.96,0:00:04.85,Cap,,0,0,0,,{\pos(540,960)\blur0.5}played Costa Rica
+Dialogue: 0,0:00:04.85,0:00:05.38,Cap,,0,0,0,,{\pos(540,960)\blur0.5}in a World
+Dialogue: 0,0:00:05.38,0:00:06.34,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Cup quarter-final.
+Dialogue: 0,0:00:06.34,0:00:06.76,Cap,,0,0,0,,{\pos(540,960)\blur0.5}A hundred
+Dialogue: 0,0:00:06.76,0:00:07.54,Cap,,0,0,0,,{\pos(540,960)\blur0.5}and twenty minutes,
+Dialogue: 0,0:00:07.54,0:00:08.20,Cap,,0,0,0,,{\pos(540,960)\blur0.5}nil-nil.
+Dialogue: 0,0:00:08.20,0:00:08.55,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Then,
+Dialogue: 0,0:00:08.55,0:00:08.99,Cap,,0,0,0,,{\pos(540,960)\blur0.5}in the final
+Dialogue: 0,0:00:08.99,0:00:09.54,Cap,,0,0,0,,{\pos(540,960)\blur0.5}minute of extra
+Dialogue: 0,0:00:09.54,0:00:09.92,Cap,,0,0,0,,{\pos(540,960)\blur0.5}time,
+Dialogue: 0,0:00:09.92,0:00:10.31,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Louis van
+Dialogue: 0,0:00:10.31,0:00:10.92,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Gaal did something
+Dialogue: 0,0:00:10.92,0:00:11.39,Cap,,0,0,0,,{\pos(540,960)\blur0.5}that stunned
+Dialogue: 0,0:00:11.39,0:00:12.23,Cap,,0,0,0,,{\pos(540,960)\blur0.5}the whole stadium.
+Dialogue: 0,0:00:12.23,0:00:12.48,Cap,,0,0,0,,{\pos(540,960)\blur0.5}He took
+Dialogue: 0,0:00:12.48,0:00:13.30,Cap,,0,0,0,,{\pos(540,960)\blur0.5}off his goalkeeper,
+Dialogue: 0,0:00:13.30,0:00:14.24,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Jasper Cillessen,
+Dialogue: 0,0:00:14.24,0:00:14.59,Cap,,0,0,0,,{\pos(540,960)\blur0.5}and brought
+Dialogue: 0,0:00:14.59,0:00:15.33,Cap,,0,0,0,,{\pos(540,960)\blur0.5}on Tim Krul,
+Dialogue: 0,0:00:15.33,0:00:15.62,Cap,,0,0,0,,{\pos(540,960)\blur0.5}just for
+Dialogue: 0,0:00:15.62,0:00:16.15,Cap,,0,0,0,,{\pos(540,960)\blur0.5}the shootout.
+Dialogue: 0,0:00:16.15,0:00:16.96,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Cillessen hadn't
+Dialogue: 0,0:00:16.96,0:00:17.53,Cap,,0,0,0,,{\pos(540,960)\blur0.5}been told.
+Dialogue: 0,0:00:17.53,0:00:17.83,Cap,,0,0,0,,{\pos(540,960)\blur0.5}We said
+Dialogue: 0,0:00:17.83,0:00:18.76,Cap,,0,0,0,,{\pos(540,960)\blur0.5}nothing to Jasper,
+Dialogue: 0,0:00:18.76,0:00:19.55,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Van Gaal admitted.
+Dialogue: 0,0:00:19.55,0:00:19.87,Cap,,0,0,0,,{\pos(540,960)\blur0.5}And here's
+Dialogue: 0,0:00:19.87,0:00:20.54,Cap,,0,0,0,,{\pos(540,960)\blur0.5}the strange part.
+Dialogue: 0,0:00:20.54,0:00:21.30,Cap,,0,0,0,,{\pos(540,960)\blur0.5}At Newcastle,
+Dialogue: 0,0:00:21.30,0:00:22.11,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Krul had saved
+Dialogue: 0,0:00:22.11,0:00:22.50,Cap,,0,0,0,,{\pos(540,960)\blur0.5}just two
+Dialogue: 0,0:00:22.50,0:00:23.48,Cap,,0,0,0,,{\pos(540,960)\blur0.5}of twenty penalties.
+Dialogue: 0,0:00:23.48,0:00:24.15,Cap,,0,0,0,,{\pos(540,960)\blur0.5}But Van Gaal
+Dialogue: 0,0:00:24.15,0:00:24.46,Cap,,0,0,0,,{\pos(540,960)\blur0.5}said he
+Dialogue: 0,0:00:24.46,0:00:24.97,Cap,,0,0,0,,{\pos(540,960)\blur0.5}had a better
+Dialogue: 0,0:00:24.97,0:00:25.33,Cap,,0,0,0,,{\pos(540,960)\blur0.5}reach,
+Dialogue: 0,0:00:25.33,0:00:25.58,Cap,,0,0,0,,{\pos(540,960)\blur0.5}and they
+Dialogue: 0,0:00:25.58,0:00:26.05,Cap,,0,0,0,,{\pos(540,960)\blur0.5}had studied
+Dialogue: 0,0:00:26.05,0:00:26.84,Cap,,0,0,0,,{\pos(540,960)\blur0.5}every Costa Rica
+Dialogue: 0,0:00:26.84,0:00:27.31,Cap,,0,0,0,,{\pos(540,960)\blur0.5}taker.
+Dialogue: 0,0:00:27.31,0:00:27.78,Cap,,0,0,0,,{\pos(540,960)\blur0.5}So Krul
+Dialogue: 0,0:00:27.78,0:00:28.12,Cap,,0,0,0,,{\pos(540,960)\blur0.5}walked up
+Dialogue: 0,0:00:28.12,0:00:28.68,Cap,,0,0,0,,{\pos(540,960)\blur0.5}to each one
+Dialogue: 0,0:00:28.68,0:00:29.09,Cap,,0,0,0,,{\pos(540,960)\blur0.5}and told
+Dialogue: 0,0:00:29.09,0:00:29.41,Cap,,0,0,0,,{\pos(540,960)\blur0.5}them he
+Dialogue: 0,0:00:29.41,0:00:29.81,Cap,,0,0,0,,{\pos(540,960)\blur0.5}knew where they
+Dialogue: 0,0:00:29.81,0:00:30.34,Cap,,0,0,0,,{\pos(540,960)\blur0.5}were going.
+Dialogue: 0,0:00:30.34,0:00:31.16,Cap,,0,0,0,,{\pos(540,960)\blur0.5}He saved two,
+Dialogue: 0,0:00:31.16,0:00:31.80,Cap,,0,0,0,,{\pos(540,960)\blur0.5}diving low
+Dialogue: 0,0:00:31.80,0:00:32.25,Cap,,0,0,0,,{\pos(540,960)\blur0.5}to his left
+Dialogue: 0,0:00:32.25,0:00:32.96,Cap,,0,0,0,,{\pos(540,960)\blur0.5}both times.
+Dialogue: 0,0:00:32.96,0:00:33.88,Cap,,0,0,0,,{\pos(540,960)\blur0.5}It's Umaña
+Dialogue: 0,0:00:33.88,0:00:35.02,Cap,,0,0,0,,{\pos(540,960)\blur0.5}who steps up,
+Dialogue: 0,0:00:35.02,0:00:35.72,Cap,,0,0,0,,{\pos(540,960)\blur0.5}and Krul
+Dialogue: 0,0:00:35.72,0:00:36.98,Cap,,0,0,0,,{\pos(540,960)\blur0.5}has saved it!
+Dialogue: 0,0:00:36.98,0:00:37.51,Cap,,0,0,0,,{\pos(540,960)\blur0.5}The Netherlands
+Dialogue: 0,0:00:37.51,0:00:38.41,Cap,,0,0,0,,{\pos(540,960)\blur0.5}won four-three,
+Dialogue: 0,0:00:38.41,0:00:38.87,Cap,,0,0,0,,{\pos(540,960)\blur0.5}and Krul
+Dialogue: 0,0:00:38.87,0:00:39.88,Cap,,0,0,0,,{\pos(540,960)\blur0.5}was a national hero.
+Dialogue: 0,0:00:39.88,0:00:40.57,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Four days later,
+Dialogue: 0,0:00:40.57,0:00:41.48,Cap,,0,0,0,,{\pos(540,960)\blur0.5}they met Argentina
+Dialogue: 0,0:00:41.48,0:00:42.31,Cap,,0,0,0,,{\pos(540,960)\blur0.5}in the semi-final.
+Dialogue: 0,0:00:42.31,0:00:43.20,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Nil-nil again.
+Dialogue: 0,0:00:43.20,0:00:44.17,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Penalties again.
+Dialogue: 0,0:00:44.17,0:00:44.88,Cap,,0,0,0,,{\pos(540,960)\blur0.5}But this time,
+Dialogue: 0,0:00:44.88,0:00:45.33,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Van Gaal
+Dialogue: 0,0:00:45.33,0:00:45.72,Cap,,0,0,0,,{\pos(540,960)\blur0.5}had already
+Dialogue: 0,0:00:45.72,0:00:46.50,Cap,,0,0,0,,{\pos(540,960)\blur0.5}used all three
+Dialogue: 0,0:00:46.50,0:00:47.38,Cap,,0,0,0,,{\pos(540,960)\blur0.5}of his substitutes.
+Dialogue: 0,0:00:47.38,0:00:47.70,Cap,,0,0,0,,{\pos(540,960)\blur0.5}He couldn't
+Dialogue: 0,0:00:47.70,0:00:48.52,Cap,,0,0,0,,{\pos(540,960)\blur0.5}bring Krul on.
+Dialogue: 0,0:00:48.52,0:00:49.32,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Cillessen stayed
+Dialogue: 0,0:00:49.32,0:00:49.75,Cap,,0,0,0,,{\pos(540,960)\blur0.5}in goal,
+Dialogue: 0,0:00:49.75,0:00:50.30,Cap,,0,0,0,,{\pos(540,960)\blur0.5}and didn't save
+Dialogue: 0,0:00:50.30,0:00:51.20,Cap,,0,0,0,,{\pos(540,960)\blur0.5}a single penalty.
+Dialogue: 0,0:00:51.20,0:00:52.35,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Argentina won.
+Dialogue: 0,0:00:52.35,0:00:52.85,Cap,,0,0,0,,{\pos(540,960)\blur0.5}The one time
+Dialogue: 0,0:00:52.85,0:00:53.55,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Van Gaal needed
+Dialogue: 0,0:00:53.55,0:00:54.24,Cap,,0,0,0,,{\pos(540,960)\blur0.5}his trick again,
+Dialogue: 0,0:00:54.24,0:00:54.73,Cap,,0,0,0,,{\pos(540,960)\blur0.5}he had no
+Dialogue: 0,0:00:54.73,0:00:55.93,Cap,,0,0,0,,{\pos(540,960)\blur0.5}substitutes left.

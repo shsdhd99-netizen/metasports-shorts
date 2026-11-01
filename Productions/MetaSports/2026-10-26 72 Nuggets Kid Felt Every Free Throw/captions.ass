@@ -1,0 +1,43 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Montserrat Black,86,&H00FFFFFF,&H00FFFFFF,&H00000000,&H99000000,0,0,0,0,95,100,1,0,1,6,3,5,70,70,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.53,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THIS KID
+Dialogue: 0,0:00:00.53,0:00:01.56,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx84\fscy84\t(0,90,\fscx97\fscy97)}FELT EVERY SECOND
+Dialogue: 0,0:00:01.56,0:00:02.30,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx82\fscy82\t(0,90,\fscx95\fscy95)}OF JAMAL MURRAY'S
+Dialogue: 0,0:00:02.30,0:00:03.06,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FREE THROWS.
+Dialogue: 0,0:00:03.06,0:00:03.37,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}DENVER
+Dialogue: 0,0:00:03.37,0:00:03.84,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HAD BEEN DOWN
+Dialogue: 0,0:00:03.84,0:00:04.34,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}23
+Dialogue: 0,0:00:04.34,0:00:04.93,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TO THE PELICANS
+Dialogue: 0,0:00:04.93,0:00:05.41,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AT HOME.
+Dialogue: 0,0:00:05.41,0:00:05.96,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NOW MURRAY
+Dialogue: 0,0:00:05.96,0:00:06.21,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WAS AT
+Dialogue: 0,0:00:06.21,0:00:06.73,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE LINE,
+Dialogue: 0,0:00:06.73,0:00:07.41,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}DOWN TWO,
+Dialogue: 0,0:00:07.41,0:00:08.87,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WITH 16.8 SECONDS
+Dialogue: 0,0:00:08.87,0:00:09.25,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}LEFT.
+Dialogue: 0,0:00:09.25,0:00:10.17,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE KID PRAYED.
+Dialogue: 0,0:00:10.17,0:00:10.88,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx78\fscy78\t(0,90,\fscx91\fscy91)}COVERED HIS MOUTH.
+Dialogue: 0,0:00:10.88,0:00:11.68,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FIRST FREE THROW,
+Dialogue: 0,0:00:11.68,0:00:12.11,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}GOOD.
+Dialogue: 0,0:00:12.11,0:00:12.95,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HE SCREAMED.
+Dialogue: 0,0:00:12.95,0:00:13.60,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SECOND ONE,
+Dialogue: 0,0:00:13.60,0:00:14.01,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}GOOD.
+Dialogue: 0,0:00:14.01,0:00:15.23,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TIED AT 126.
+Dialogue: 0,0:00:15.23,0:00:15.51,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HE LOOKED
+Dialogue: 0,0:00:15.51,0:00:16.48,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}CLOSE TO TEARS.
+Dialogue: 0,0:00:16.48,0:00:16.98,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}DENVER WON
+Dialogue: 0,0:00:16.98,0:00:17.82,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN OVERTIME,
+Dialogue: 0,0:00:17.82,0:00:19.65,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}141 TO 135,
+Dialogue: 0,0:00:19.65,0:00:20.18,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ITS BIGGEST
+Dialogue: 0,0:00:20.18,0:00:21.50,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx71\fscy71\t(0,90,\fscx82\fscy82)}HOME COMEBACK EVER.

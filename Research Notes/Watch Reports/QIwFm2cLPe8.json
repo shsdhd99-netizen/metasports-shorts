@@ -1,0 +1,126 @@
+{
+ "length_s": 24.6,
+ "topic": "A compilation of funny physical comedy skits and optical illusions with a top-of-screen football player elimination game running simultaneously.",
+ "lane": "moment",
+ "hook": {
+  "first_words": "unknown",
+  "first_frame": "A person holding vacuum attachments over two tall glasses of colored liquid.",
+  "on_screen_text_0_3s": "none",
+  "shots_in_first_3s": 1
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 5.2,
+   "shows": "A man using vacuum attachments to suck liquid out of two glasses.",
+   "kind": "action"
+  },
+  {
+   "start_s": 5.2,
+   "end_s": 8.5,
+   "shows": "Two men trying to jump over falling baseball bats.",
+   "kind": "action"
+  },
+  {
+   "start_s": 8.5,
+   "end_s": 11.7,
+   "shows": "A ghost prankster scaring a man in a hallway.",
+   "kind": "action"
+  },
+  {
+   "start_s": 11.7,
+   "end_s": 16.2,
+   "shows": "A man unzipping his jacket to reveal a speedboat moving across the water.",
+   "kind": "action"
+  },
+  {
+   "start_s": 16.2,
+   "end_s": 19.5,
+   "shows": "A football player taking a penalty shot past a moving mannequin goalkeeper.",
+   "kind": "action"
+  },
+  {
+   "start_s": 19.5,
+   "end_s": 24.6,
+   "shows": "Three men on a beach tossing water bottles onto a collapsible table.",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 6,
+ "average_shot_s": 4.1,
+ "longest_shot_s": 5.2,
+ "voice": {
+  "type": "none",
+  "gender": "unknown",
+  "words_per_minute_estimate": 0,
+  "tone": "unknown",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "upbeat rhythmic electronic dance beat",
+  "level_vs_voice": "loud",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [
+  {
+   "at_s": 1.2,
+   "sound": "vacuum sucking noise"
+  },
+  {
+   "at_s": 7.4,
+   "sound": "bat crash sound"
+  },
+  {
+   "at_s": 15.1,
+   "sound": "speedboat engine roar"
+  },
+  {
+   "at_s": 18.5,
+   "sound": "football kick impact"
+  }
+ ],
+ "captions": {
+  "present": false,
+  "words_per_line": 0,
+  "case": "mixed",
+  "position": "bottom",
+  "colours": [],
+  "highlight_style": "none"
+ },
+ "text_overlays": [],
+ "cards_or_graphics": 0,
+ "framing": "crop",
+ "ending": {
+  "last_words": "unknown",
+  "last_frame": "Three men jumping on a beach with a purple emoji overlay.",
+  "loops_to_start": true,
+  "call_to_action": "none"
+ },
+ "script": "",
+ "retention_tricks": [
+  "top ranking game elimination indicator across all clips",
+  "rapid-fire clip transitions every few seconds",
+  "surprising visual transitions like the jacket zipper to speedboat"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": true,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": false,
+  "ends_on_payoff": false,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "Fast-paced variety of funny clips keeps viewer attention high.",
+  "The football player elimination tracker at the top adds an ongoing guessing game.",
+  "High-energy background music drives the pacing of each clip."
+ ],
+ "_meta": {
+  "source": "QIwFm2cLPe8",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

@@ -1,0 +1,333 @@
+{
+ "sources": {
+  "L1": "src/e_lift_c.mp4",
+  "L2": "src/e_ran_c.mp4",
+  "L3": "src/e_t2_c.mp4",
+  "L4": "src/e_conf_c.mp4",
+  "NC": "src/newc15.mp4",
+  "WH": "src/whu15.mp4",
+  "LM": "src/leimun.mp4",
+  "CT": "src/ct_clean.mp4"
+ },
+ "shots": [
+  {
+   "clip": "B01",
+   "src": "L1",
+   "at": 17.5,
+   "x": 0.38,
+   "kind": "action",
+   "why": "Ranieri and Wes Morgan lift the Premier League trophy. Leicester 3-1 Everton, trophy day, 7 May 2016, Sky Sports broadcast (archive.org bpl-leicester-vs-everton-2015-2016; black bars cropped, Sky logo blurred)",
+   "len": 2.46
+  },
+  {
+   "clip": "B02",
+   "src": "NC",
+   "at": 128.2,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Leicester fans in the stands. Leicester 3-0 Newcastle, 2 May 2015 (the great escape), BBC MOTD highlights (archive.org)",
+   "anchor": "Back in 2015",
+   "len": 1.39
+  },
+  {
+   "clip": "B03",
+   "src": "NC",
+   "at": 134.0,
+   "blurfit": true,
+   "delogo": "0.86,0.03,0.12,0.12",
+   "kind": "action",
+   "why": "Leicester (blue) in a relegation fight. Leicester 3-0 Newcastle, 2 May 2015 (the great escape), BBC MOTD highlights (archive.org)",
+   "anchor": "Leicester City had almost",
+   "len": 1.7
+  },
+  {
+   "clip": "B04",
+   "src": "NC",
+   "at": 152.0,
+   "x": 0.55,
+   "kind": "action",
+   "why": "A Leicester player in front of the Premier League ball graphic. Leicester 3-0 Newcastle, 2 May 2015 (the great escape), BBC MOTD highlights (archive.org)",
+   "anchor": "from the Premier League",
+   "len": 1.12
+  },
+  {
+   "clip": "B05",
+   "still": "assets/card_escape.jpg",
+   "kind": "card",
+   "why": "Card: 20th of 20 on Christmas Day 2014; 7 wins in the last 9; finished 14th (Wikipedia, 2014-15 season)",
+   "anchor": "They were bottom",
+   "len": 1.48
+  },
+  {
+   "clip": "B06",
+   "src": "NC",
+   "at": 335.6,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Leicester players celebrate a goal. Leicester 3-0 Newcastle, 2 May 2015 (the great escape), BBC MOTD highlights (archive.org)",
+   "anchor": "and only survived",
+   "len": 1.94
+  },
+  {
+   "clip": "B07",
+   "src": "NC",
+   "at": 344.0,
+   "x": 0.4,
+   "kind": "action",
+   "why": "Albrighton (11) and teammates celebrate. Leicester 3-0 Newcastle, 2 May 2015 (the great escape), BBC MOTD highlights (archive.org)",
+   "anchor": "last nine games",
+   "len": 1.36
+  },
+  {
+   "clip": "B08",
+   "src": "WH",
+   "at": 240.0,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Leicester fans at the 2015-16 season opener. West Ham 1-2 Leicester, 15 Aug 2015, BBC MOTD highlights (archive.org)",
+   "anchor": "So before the next",
+   "len": 1.44
+  },
+  {
+   "clip": "B09",
+   "src": "WH",
+   "at": 138.0,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Marc Albrighton (11), Leicester's first game of 2015-16. West Ham 1-2 Leicester, 15 Aug 2015, BBC MOTD highlights (archive.org)",
+   "anchor": "bookmakers gave Leicester",
+   "len": 1.12
+  },
+  {
+   "clip": "B10",
+   "still": "assets/card_odds.jpg",
+   "kind": "card",
+   "why": "Card: Leicester to win the Premier League, 5,000-1 (AP, ESPN)",
+   "anchor": "odds of 5,000-1",
+   "len": 2.61
+  },
+  {
+   "clip": "B11",
+   "still": "assets/card_elvis.jpg",
+   "kind": "card",
+   "why": "Card: Elvis found alive 2,000-1 vs Leicester 5,000-1 (AP, 30 April 2016)",
+   "anchor": "Bookmakers gave better",
+   "len": 2.48
+  },
+  {
+   "clip": "B12",
+   "stock": 48822,
+   "at": 1.0,
+   "kind": "action",
+   "why": "ILLUSTRATIVE: a misty lake for the Loch Ness monster (Mixkit stock)",
+   "anchor": "and on finding the Loch",
+   "len": 2.21
+  },
+  {
+   "clip": "B13",
+   "stock": 18263,
+   "at": 1.0,
+   "kind": "action",
+   "why": "ILLUSTRATIVE: coins dropped into a hand, for the £1 bet (Mixkit stock)",
+   "anchor": "And when one fan",
+   "len": 1.96
+  },
+  {
+   "clip": "B14",
+   "still": "assets/slip_recreation.jpg",
+   "kind": "card",
+   "why": "RECREATION of the slip: £1 at 2000/1, 'Pigs might fly' (ABC News / ESPN: Betfred manager Neil Samways wrote it)",
+   "anchor": "in a betting shop",
+   "len": 3.19
+  },
+  {
+   "clip": "B15",
+   "src": "WH",
+   "at": 84.4,
+   "x": 0.6,
+   "kind": "face",
+   "why": "Claudio Ranieri on the touchline, his second game in charge. West Ham 1-2 Leicester, 15 Aug 2015, BBC MOTD highlights (archive.org)",
+   "anchor": "Leicester hired Claudio",
+   "len": 1.76
+  },
+  {
+   "clip": "B16",
+   "still": "assets/card_greece.jpg",
+   "kind": "card",
+   "why": "Card: Greece 0-1 Faroe Islands, 14 Nov 2014; Ranieri out the next day (AFP, UEFA.com)",
+   "anchor": "a manager who had",
+   "len": 2.06
+  },
+  {
+   "clip": "B17",
+   "src": "WH",
+   "at": 159.6,
+   "blurfit": true,
+   "delogo": "0.86,0.03,0.12,0.12",
+   "kind": "action",
+   "why": "Leicester score at West Ham. West Ham 1-2 Leicester, 15 Aug 2015, BBC MOTD highlights (archive.org)",
+   "anchor": "But Leicester started",
+   "len": 1.38
+  },
+  {
+   "clip": "B18",
+   "src": "WH",
+   "at": 185.6,
+   "x": 0.4,
+   "kind": "action",
+   "why": "Leicester players celebrate. West Ham 1-2 Leicester, 15 Aug 2015, BBC MOTD highlights (archive.org)",
+   "anchor": "and they just didn't",
+   "len": 1.39
+  },
+  {
+   "clip": "B19",
+   "src": "L3",
+   "at": 14.0,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Leicester players with the trophy. Leicester 3-1 Everton, trophy day, 7 May 2016, Sky Sports broadcast (archive.org bpl-leicester-vs-everton-2015-2016; black bars cropped, Sky logo blurred)",
+   "anchor": "They lost just three",
+   "len": 2.12
+  },
+  {
+   "clip": "B20",
+   "src": "LM",
+   "at": 176.0,
+   "x": 0.47,
+   "kind": "face",
+   "why": "Jamie Vardy celebrates his record goal. Leicester 1-1 Man United, 28 Nov 2015, BBC MOTD highlights (archive.org)",
+   "anchor": "Jamie Vardy scored",
+   "len": 1.11
+  },
+  {
+   "clip": "B21",
+   "page": "assets/motd_11games.png",
+   "width": 0.94,
+   "y": 0.15,
+   "kind": "card",
+   "why": "BBC MOTD graphic: Vardy's goals in 11 consecutive games (Leicester 1-1 Man United, 28 Nov 2015)",
+   "anchor": "in eleven Premier League",
+   "len": 2.74
+  },
+  {
+   "clip": "B22",
+   "still": "assets/card_mancity.jpg",
+   "kind": "card",
+   "why": "Card: Man City 1-3 Leicester, 6 Feb 2016: Huth 3', Mahrez 48', Huth 60', Agüero 87'",
+   "anchor": "In February",
+   "len": 2.48
+  },
+  {
+   "clip": "B23",
+   "src": "NC",
+   "at": 176.0,
+   "x": 0.5,
+   "kind": "action",
+   "why": "ILLUSTRATIVE: Leicester fans (2015). Leicester 3-0 Newcastle, 2 May 2015 (the great escape), BBC MOTD highlights (archive.org)",
+   "anchor": "And the fans who",
+   "len": 2.46
+  },
+  {
+   "clip": "B24",
+   "stock": 4915,
+   "at": 1.0,
+   "kind": "action",
+   "why": "ILLUSTRATIVE: hands on a phone, for the cash-out offers (Mixkit stock)",
+   "anchor": "started getting offers",
+   "len": 1.78
+  },
+  {
+   "clip": "B25",
+   "stock": 47735,
+   "at": 1.0,
+   "kind": "action",
+   "why": "ILLUSTRATIVE: stacks of coins growing (Mixkit stock)",
+   "anchor": "One fan had put",
+   "len": 2.03
+  },
+  {
+   "clip": "B26",
+   "still": "assets/card_bet50.jpg",
+   "kind": "card",
+   "why": "Card: £50 stake would have paid £250,000 (Ladbrokes, via Fox Sports / PokerNews)",
+   "anchor": "to win two hundred",
+   "len": 1.88
+  },
+  {
+   "clip": "B27",
+   "stock": 38406,
+   "at": 1.0,
+   "kind": "action",
+   "why": "ILLUSTRATIVE: stacks of gold coins, for the £72,335 cash-out (Mixkit stock)",
+   "anchor": "In March, he took",
+   "len": 2.31
+  },
+  {
+   "clip": "B28",
+   "src": "CT",
+   "at": 18.6,
+   "blurfit": true,
+   "kind": "action",
+   "why": "Hazard's equaliser. Chelsea 2-2 Tottenham, 2 May 2016, BBC MOTD highlights (archive.org; re-filmed off a TV, only the screen area used)",
+   "anchor": "Then, on the 2nd",
+   "len": 2.18
+  },
+  {
+   "clip": "B29",
+   "src": "CT",
+   "at": 29.5,
+   "blurfit": true,
+   "kind": "action",
+   "why": "The BBC caption: CHELSEA 2-2 TOTTENHAM. Chelsea 2-2 Tottenham, 2 May 2016, BBC MOTD highlights (archive.org; re-filmed off a TV, only the screen area used)",
+   "anchor": "Tottenham drew at",
+   "len": 1.45
+  },
+  {
+   "clip": "B30",
+   "src": "L2",
+   "at": 13.4,
+   "kind": "action",
+   "why": "Leicester players lift the trophy. Leicester 3-1 Everton, trophy day, 7 May 2016, Sky Sports broadcast (archive.org; black bars cropped, Sky logo blurred)",
+   "anchor": "and Leicester City were",
+   "x": 0.5,
+   "len": 2.02
+  },
+  {
+   "clip": "B31",
+   "src": "L4",
+   "at": 8.0,
+   "x": 0.45,
+   "kind": "action",
+   "why": "The trophy held up under confetti. Leicester 3-1 Everton, trophy day, 7 May 2016, Sky Sports broadcast (archive.org bpl-leicester-vs-everton-2015-2016; black bars cropped, Sky logo blurred)",
+   "anchor": "But here's the wild part",
+   "len": 1.41
+  },
+  {
+   "clip": "B32",
+   "still": "assets/card_ladbrokes.jpg",
+   "kind": "card",
+   "why": "Card: Ladbrokes took 47 bets at 5,000-1, settled 24 early (Ladbrokes officials via ESPN/CBS, May 2016)",
+   "anchor": "Ladbrokes had taken",
+   "len": 3.41
+  },
+  {
+   "clip": "B33",
+   "stock": 14669,
+   "at": 1.0,
+   "kind": "action",
+   "why": "ILLUSTRATIVE: a phone in a hand, for the fans who cashed out (Mixkit stock)",
+   "anchor": "Around half of those",
+   "len": 1.33
+  },
+  {
+   "clip": "B34",
+   "src": "L1",
+   "at": 27.0,
+   "blurfit": true,
+   "kind": "action",
+   "why": "Fireworks as Leicester lift the trophy. Leicester 3-1 Everton, trophy day, 7 May 2016, Sky Sports broadcast (archive.org bpl-leicester-vs-everton-2015-2016; black bars cropped, Sky logo blurred)",
+   "anchor": "had already cashed out",
+   "len": 1.66
+  }
+ ]
+}

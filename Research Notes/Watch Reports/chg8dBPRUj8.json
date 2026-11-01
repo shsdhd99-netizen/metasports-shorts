@@ -1,0 +1,133 @@
+{
+ "length_s": 36.25,
+ "topic": "An explainer on the college basketball game where Alabama played 3 vs 5 after ejections and injuries.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "Did you know there was a game that was played 3 vs 5?",
+  "first_frame": "A basketball court with players and referees, and on-screen text 'Did you know there was a game that was played 3 vs 5?'",
+  "on_screen_text_0_3s": "Did you know there was a game that was played 3 vs 5?",
+  "shots_in_first_3s": 1
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 2.15,
+   "shows": "Basketball court overview",
+   "kind": "action"
+  },
+  {
+   "start_s": 2.15,
+   "end_s": 5.95,
+   "shows": "Players on court during fight/scuffle",
+   "kind": "action"
+  },
+  {
+   "start_s": 5.95,
+   "end_s": 7.65,
+   "shows": "Wide shot of court and Alabama bench",
+   "kind": "action"
+  },
+  {
+   "start_s": 7.65,
+   "end_s": 12.65,
+   "shows": "Close-up of bench players coming onto court",
+   "kind": "action"
+  },
+  {
+   "start_s": 12.65,
+   "end_s": 15.65,
+   "shows": "Huddle of Alabama remaining players",
+   "kind": "action"
+  },
+  {
+   "start_s": 15.65,
+   "end_s": 19.65,
+   "shows": "Game action and player reacting",
+   "kind": "action"
+  },
+  {
+   "start_s": 19.65,
+   "end_s": 24.15,
+   "shows": "Player injured on the floor holding his leg",
+   "kind": "action"
+  },
+  {
+   "start_s": 24.15,
+   "end_s": 27.55,
+   "shows": "3 players on court for Alabama",
+   "kind": "action"
+  },
+  {
+   "start_s": 27.55,
+   "end_s": 32.65,
+   "shows": "Collin Sexton dribbling and shooting",
+   "kind": "action"
+  },
+  {
+   "start_s": 32.65,
+   "end_s": 36.25,
+   "shows": "Final score graphic and players walking off",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 10,
+ "average_shot_s": 3.63,
+ "longest_shot_s": 5.0,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 175,
+  "tone": "energetic narrative",
+  "original_audio_under_voice": true
+ },
+ "music": {
+  "present": true,
+  "style": "dramatic cinematic beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "sentence",
+  "position": "middle",
+  "colours": "white with yellow highlight on current word",
+  "highlight_style": "word-by-word yellow highlight"
+ },
+ "text_overlays": [],
+ "cards_or_graphics": 0,
+ "framing": "letterbox with blurred top and bottom background bars",
+ "ending": {
+  "last_words": "with just 3 players.",
+  "last_frame": "Players walking off the court with final score 25 Alabama 84, 14 Minnesota 89 FINAL",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "Did you know there was a game that was played 3 vs 5? You see, back in 2017, a fight broke out during this college basketball game. And during this fight, the Alabama bench came onto the court to defend their teammate, but leaving the bench meant they broke a rule, and they would all get ejected. And this left Alabama with just 5 players available on the team. However, a minute later, Alabama would go down to 4 men as someone would foul out. And if things couldn't get worse, an Alabama player gets injured, meaning there were only 3 players remaining. Now it's a 3v5, and Alabama is down 15 points. But out of nowhere, Collin Sexton starts hitting every shot he takes, bringing his team closer and closer. But sadly it wasn't enough, even though they outscored Minnesota with just 3 players.",
+ "retention_tricks": [
+  "promise in first line about an unusual sports scenario",
+  "escalating stakes (5 players -> 4 players -> 3 players)",
+  "dynamic word-by-word captions"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "Incredible true sports trivia hook",
+  "Rapid escalation of the team's disadvantage",
+  "High-energy commentary paired with dramatic footage"
+ ],
+ "_meta": {
+  "source": "chg8dBPRUj8",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

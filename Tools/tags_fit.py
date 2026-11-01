@@ -1,4 +1,5 @@
-"""Fit a Short's tags to YouTube's 500-character box, capped at 490 (owner, Oct 24 2026).
+"""Fit a Short's tags to YouTube's 500-character box. Default cap 150 since Oct 26 2026 (Posting Study: tags play a minimal role;
+3-8 tags, about 100-150 characters; never fill the 500). Was 490 (Oct 24).
 
   python Tools/tags_fit.py "sga, sga streak, wilt chamberlain record, ..."      # most important first
   python Tools/tags_fit.py --file tags.txt                                       # one tag per line or comma-separated
@@ -9,7 +10,7 @@ still fit), and prints the line to paste plus its count.
 """
 import argparse, sys
 
-CAP = 490
+CAP = 150
 
 
 def cost(tag):

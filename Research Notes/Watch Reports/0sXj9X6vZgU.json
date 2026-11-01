@@ -1,0 +1,275 @@
+{
+ "length_s": 66.8,
+ "topic": "NBA teams that got bought for insane amounts of money",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "NBA teams that got bought for",
+  "first_frame": "Basketball game court view with score bug at bottom",
+  "on_screen_text_0_3s": "NBA teams that got bought for INSANE AMOUNTS OF MONEY!",
+  "shots_in_first_3s": 1
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 3.1,
+   "shows": "Basketball game footage",
+   "kind": "action"
+  },
+  {
+   "start_s": 3.1,
+   "end_s": 6.0,
+   "shows": "Donald Sterling portrait",
+   "kind": "still"
+  },
+  {
+   "start_s": 6.0,
+   "end_s": 8.7,
+   "shows": "Donald Sterling on TV screen",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 8.7,
+   "end_s": 10.6,
+   "shows": "Donald Sterling with BANNED stamp",
+   "kind": "still"
+  },
+  {
+   "start_s": 10.6,
+   "end_s": 12.2,
+   "shows": "Donald Sterling interview clip",
+   "kind": "face"
+  },
+  {
+   "start_s": 12.2,
+   "end_s": 14.5,
+   "shows": "Basketball game footage on TV",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 14.5,
+   "end_s": 15.9,
+   "shows": "Stunned spectator face",
+   "kind": "face"
+  },
+  {
+   "start_s": 15.9,
+   "end_s": 16.9,
+   "shows": "Shelly Sterling portrait",
+   "kind": "still"
+  },
+  {
+   "start_s": 16.9,
+   "end_s": 18.6,
+   "shows": "Steve Ballmer interview close-up",
+   "kind": "face"
+  },
+  {
+   "start_s": 18.6,
+   "end_s": 19.9,
+   "shows": "Steve Ballmer portrait",
+   "kind": "still"
+  },
+  {
+   "start_s": 19.9,
+   "end_s": 21.6,
+   "shows": "Steve Ballmer interview close-up",
+   "kind": "face"
+  },
+  {
+   "start_s": 21.6,
+   "end_s": 22.9,
+   "shows": "IShowSpeed streaming reaction",
+   "kind": "face"
+  },
+  {
+   "start_s": 22.9,
+   "end_s": 24.6,
+   "shows": "Milwaukee Bucks logo",
+   "kind": "still"
+  },
+  {
+   "start_s": 24.6,
+   "end_s": 26.0,
+   "shows": "Milwaukee Bucks logo with money falling",
+   "kind": "stock"
+  },
+  {
+   "start_s": 26.0,
+   "end_s": 30.9,
+   "shows": "Newspaper article headline about Sterling buying Clippers",
+   "kind": "text_card"
+  },
+  {
+   "start_s": 30.9,
+   "end_s": 32.6,
+   "shows": "Steve Ballmer interview close-up",
+   "kind": "face"
+  },
+  {
+   "start_s": 32.6,
+   "end_s": 33.7,
+   "shows": "Oprah Winfrey portrait",
+   "kind": "still"
+  },
+  {
+   "start_s": 33.7,
+   "end_s": 36.0,
+   "shows": "Vince McMahon looking thoughtful",
+   "kind": "face"
+  },
+  {
+   "start_s": 36.0,
+   "end_s": 39.9,
+   "shows": "Forbes article about Clippers profit",
+   "kind": "text_card"
+  },
+  {
+   "start_s": 39.9,
+   "end_s": 42.6,
+   "shows": "Steve Ballmer interview close-up",
+   "kind": "face"
+  },
+  {
+   "start_s": 42.6,
+   "end_s": 45.5,
+   "shows": "Steve Ballmer sitting at game pointing at himself",
+   "kind": "face"
+  },
+  {
+   "start_s": 45.5,
+   "end_s": 46.6,
+   "shows": "Steve Ballmer laughing in chair interview",
+   "kind": "face"
+  },
+  {
+   "start_s": 46.6,
+   "end_s": 49.2,
+   "shows": "Seattle SuperSonics and Sacramento Kings logos",
+   "kind": "still"
+  },
+  {
+   "start_s": 49.2,
+   "end_s": 50.9,
+   "shows": "Steve Ballmer walking at game",
+   "kind": "face"
+  },
+  {
+   "start_s": 50.9,
+   "end_s": 52.6,
+   "shows": "Basketball game footage on TV",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 52.6,
+   "end_s": 54.6,
+   "shows": "Steve Ballmer sitting at game pointing at chest",
+   "kind": "face"
+  },
+  {
+   "start_s": 54.6,
+   "end_s": 55.6,
+   "shows": "Steve Ballmer interview close-up",
+   "kind": "face"
+  },
+  {
+   "start_s": 55.6,
+   "end_s": 58.2,
+   "shows": "Zinedine Zidane holding head in disbelief",
+   "kind": "face"
+  },
+  {
+   "start_s": 58.2,
+   "end_s": 59.9,
+   "shows": "Steve Ballmer smiling in interview",
+   "kind": "face"
+  },
+  {
+   "start_s": 59.9,
+   "end_s": 62.2,
+   "shows": "Steve Ballmer cheering passionately at Clippers game",
+   "kind": "face"
+  },
+  {
+   "start_s": 62.2,
+   "end_s": 64.7,
+   "shows": "Steve Ballmer interview close-up",
+   "kind": "face"
+  },
+  {
+   "start_s": 64.7,
+   "end_s": 66.8,
+   "shows": "Steve Ballmer crying tears of joy at game",
+   "kind": "face"
+  }
+ ],
+ "shot_count": 32,
+ "average_shot_s": 2.1,
+ "longest_shot_s": 4.9,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 210,
+  "tone": "engaging and fast-paced",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "dramatic documentary beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "sentence",
+  "position": "lower-middle",
+  "colours": "white with yellow highlight",
+  "highlight_style": "word-by-word colour change"
+ },
+ "text_overlays": [
+  {
+   "at_s": 0.0,
+   "text": "NBA teams that got bought for INSANE AMOUNTS OF MONEY!"
+  },
+  {
+   "at_s": 3.4,
+   "text": "A private recording of Los Angeles Clippers owner, Donald Sterling, making racist comments got leaked online, so the NBA banned him from the league for life and told him he had to sell his team. But the price that team ended up selling for is the part that stunned everyone. His wife handled the sale, and a former Microsoft CEO named Steve Ballmer won the bidding at two billion dollars, which shattered the record. Just weeks earlier the Milwaukee Bucks had sold for 550 million, and Sterling himself bought the Clippers back in 1981 for around twelve and a half million dollars, yet Ballmer even outbid a group that included Oprah Winfrey. To almost everyone watching this looked insane, because Forbes said the team only made about fifteen million dollars in profit the year before, so paying two billion felt like lighting money on fire. But Ballmer wasn't paying that number for the reason you'd expect. He had already tried and failed to buy the Seattle SuperSonics and the Sacramento Kings, and he was tired of losing, so he wanted a team so badly that he promised himself he would never get outbid again, no matter the price. But the people calling him crazy forgot one thing. The team he supposedly overpaid for is now worth around seven and a half billion dollars, because the purchase everyone laughed at instantly reset the value of every franchise in the league."
+  }
+ ],
+ "cards_or_graphics": 4,
+ "framing": "cropped",
+ "ending": {
+  "last_words": "value of every franchise in the league.",
+  "last_frame": "Steve Ballmer crying tears of joy at Clippers game",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "NBA teams that got bought for insane amounts of money! A private recording of the Los Angeles Clippers owner, Donald Sterling, making racist comments got leaked online, so the NBA banned him from the league for life and told him he had to sell his team. But the price that team ended up selling for is the part that stunned everyone. His wife handled the sale, and a former Microsoft CEO named Steve Ballmer won the bidding at two billion dollars, which shattered the record. Just weeks earlier the Milwaukee Bucks had sold for five hundred fifty million, and Sterling himself bought the Clippers back in 1981 for around twelve and a half million dollars, yet Ballmer even outbid a group that included Oprah Winfrey. To almost everyone watching this looked insane, because Forbes said the team only made about fifteen million dollars in profit the year before, so paying two billion felt like lighting money on fire. But Ballmer wasn't paying that number for the reason you'd expect. He had already tried and failed to buy the Seattle SuperSonics and the Sacramento Kings, and he was tired of losing, so he wanted a team so badly that he promised himself he would never get outbid again, no matter the price. But the people calling him crazy forgot one thing. The team he supposedly overpaid for is now worth around seven and a half billion dollars, because the purchase everyone laughed at instantly reset the value of every franchise in the league.",
+ "retention_tricks": [
+  "fast cuts every 2 seconds",
+  "word-by-word dynamic captions",
+  "high-stakes narrative arc with a twist ending",
+  "varied visual media types: game footage, portraits, newspaper clippings, memes"
+ ],
+ "subject_visible_0_1s": false,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "Compelling contrast between perceived overpayment and massive long-term financial payoff",
+  "Rapidly changing visual mix of memes, archival articles, and reaction clips keeping viewers hooked",
+  "Strong narrative payoff showing how a ridiculed purchase ultimately inflated the value of all NBA franchises"
+ ],
+ "_meta": {
+  "source": "0sXj9X6vZgU",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

@@ -1,0 +1,266 @@
+{
+ "length_s": 70.833,
+ "topic": "NBA players who won a title but forced their way out, starting with Kareem Abdul-Jabbar.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "NBA players who won a title, but still forced their way out of town.",
+  "first_frame": "Giannis Antetokounmpo in a Milwaukee Bucks jersey jumping on the court",
+  "on_screen_text_0_3s": "Players who won a title but still FORCED their way out!",
+  "shots_in_first_3s": 3
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 2.25,
+   "shows": "Giannis Antetokounmpo playing basketball",
+   "kind": "action"
+  },
+  {
+   "start_s": 2.25,
+   "end_s": 3.0,
+   "shows": "Giannis shooting/playing",
+   "kind": "action"
+  },
+  {
+   "start_s": 3.0,
+   "end_s": 6.0,
+   "shows": "Kareem Abdul-Jabbar playing in college in black and white",
+   "kind": "archive"
+  },
+  {
+   "start_s": 6.0,
+   "end_s": 9.0,
+   "shows": "Kareem holding up his Bucks jersey at the draft",
+   "kind": "archive"
+  },
+  {
+   "start_s": 9.0,
+   "end_s": 10.75,
+   "shows": "Kareem in Bucks uniform",
+   "kind": "archive"
+  },
+  {
+   "start_s": 10.75,
+   "end_s": 12.5,
+   "shows": "Kareem in action",
+   "kind": "archive"
+  },
+  {
+   "start_s": 12.5,
+   "end_s": 14.67,
+   "shows": "Kareem winning championship interview on old TV",
+   "kind": "archive"
+  },
+  {
+   "start_s": 14.67,
+   "end_s": 16.5,
+   "shows": "Kareem with championship trophy",
+   "kind": "archive"
+  },
+  {
+   "start_s": 16.5,
+   "end_s": 19.25,
+   "shows": "Kareem playing basketball on old TV",
+   "kind": "archive"
+  },
+  {
+   "start_s": 19.25,
+   "end_s": 21.0,
+   "shows": "Kareem standing in Bucks uniform",
+   "kind": "archive"
+  },
+  {
+   "start_s": 21.0,
+   "end_s": 22.5,
+   "shows": "Kareem holding trophy interviewed on court",
+   "kind": "archive"
+  },
+  {
+   "start_s": 22.5,
+   "end_s": 24.75,
+   "shows": "Jake Gyllenhaal shaking head meme",
+   "kind": "archive"
+  },
+  {
+   "start_s": 24.75,
+   "end_s": 27.0,
+   "shows": "Kareem on court in Bucks #33 jersey on old TV",
+   "kind": "archive"
+  },
+  {
+   "start_s": 27.0,
+   "end_s": 30.0,
+   "shows": "Kareem talking in front office meeting on old TV",
+   "kind": "archive"
+  },
+  {
+   "start_s": 30.0,
+   "end_s": 32.25,
+   "shows": "Kareem wearing Milwaukee warm-up jacket",
+   "kind": "archive"
+  },
+  {
+   "start_s": 32.25,
+   "end_s": 35.75,
+   "shows": "Kareem talking in interview",
+   "kind": "archive"
+  },
+  {
+   "start_s": 35.75,
+   "end_s": 37.25,
+   "shows": "Man shaking head meme",
+   "kind": "archive"
+  },
+  {
+   "start_s": 37.25,
+   "end_s": 38.75,
+   "shows": "Kareem in interview on old TV",
+   "kind": "archive"
+  },
+  {
+   "start_s": 38.75,
+   "end_s": 40.75,
+   "shows": "Bucks arena building exterior",
+   "kind": "archive"
+  },
+  {
+   "start_s": 40.75,
+   "end_s": 42.0,
+   "shows": "Jonah Hill clapping smiling meme",
+   "kind": "archive"
+  },
+  {
+   "start_s": 42.0,
+   "end_s": 43.5,
+   "shows": "Kareem looking up on sideline",
+   "kind": "archive"
+  },
+  {
+   "start_s": 43.5,
+   "end_s": 47.0,
+   "shows": "Kareem in interview talking",
+   "kind": "archive"
+  },
+  {
+   "start_s": 47.0,
+   "end_s": 49.5,
+   "shows": "Kareem standing in warm-up jacket",
+   "kind": "archive"
+  },
+  {
+   "start_s": 49.5,
+   "end_s": 50.0,
+   "shows": "Kareem talking in interview",
+   "kind": "archive"
+  },
+  {
+   "start_s": 50.0,
+   "end_s": 52.0,
+   "shows": "Kareem edit with Knicks logo",
+   "kind": "archive"
+  },
+  {
+   "start_s": 52.0,
+   "end_s": 57.75,
+   "shows": "Newspaper headline card about Kareem trade",
+   "kind": "text_card"
+  },
+  {
+   "start_s": 57.75,
+   "end_s": 59.0,
+   "shows": "Kareem in Knicks uniform edit",
+   "kind": "archive"
+  },
+  {
+   "start_s": 59.0,
+   "end_s": 60.5,
+   "shows": "Leonardo DiCaprio pointing at TV meme",
+   "kind": "archive"
+  },
+  {
+   "start_s": 60.5,
+   "end_s": 63.0,
+   "shows": "Kareem holding championship trophy with Lakers",
+   "kind": "archive"
+  },
+  {
+   "start_s": 63.0,
+   "end_s": 65.5,
+   "shows": "Kareem on Lakers celebrating on old TV",
+   "kind": "archive"
+  },
+  {
+   "start_s": 65.5,
+   "end_s": 68.75,
+   "shows": "Kareem shooting skyhook on grid background",
+   "kind": "archive"
+  },
+  {
+   "start_s": 68.75,
+   "end_s": 70.833,
+   "shows": "Kareem in Lakers jersey wearing goggles",
+   "kind": "archive"
+  }
+ ],
+ "shot_count": 31,
+ "average_shot_s": 2.28,
+ "longest_shot_s": 5.75,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 175,
+  "tone": "engaging",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "hip hop beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 2,
+  "case": "mixed",
+  "position": "middle",
+  "colours": "white",
+  "highlight_style": "pop-up single word"
+ },
+ "text_overlays": [],
+ "cards_or_graphics": 3,
+ "framing": "crop",
+ "ending": {
+  "last_words": "A record that stood for almost 40 years.",
+  "last_frame": "Kareem in Lakers jersey wearing goggles looking up",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "NBA players who won a title, but still forced their way out of town. The Milwaukee Bucks once drafted a 7-foot-2 kid out of UCLA with the very first pick back in 1969. His name was Kareem Abdul-Jabbar. And in just his second season, he handed Milwaukee its first ever championship. He won three MVP awards there, so he was already one of the best players the sport had ever seen, and he did it all in a tiny market. But the trophy he lifted was the exact thing that told him it was time to go. Right before the 1974 season started, Kareem quietly walked into the Bucks front office and asked to be traded. He didn't leak it to the press or cause a scene, he just told them privately so they could get the best deal possible behind closed doors. It wasn't about basketball for him, because a New York kid at heart, he said his lifestyle and Milwaukee's lifestyle simply didn't match. He wanted a bigger stage, and he named his spots: New York, Los Angeles, or Washington. But the city sitting at the very top of his list is the one he never got. Reports had him headed to the Knicks, but instead, on June 16th, 1975, Milwaukee shipped him to the Los Angeles Lakers for four players, and New York never happened. And here's the wild part. In Los Angeles, Kareem won five more championships and became the all-time leading scorer in NBA history, finishing his career with 38,387 points, a record that stood for almost 40 years.",
+ "retention_tricks": [
+  "quick cuts every 2 seconds",
+  "archive footage and historic photos",
+  "meme clips mixed in",
+  "dynamic centered pop-up captions"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "Strong narrative hook about star player movement",
+  "Pacing maintained by rapid archival photo and meme insertions",
+  "Fascinating historical deep-dive into Kareem's trade demands"
+ ],
+ "_meta": {
+  "source": "OfeoThchhYs",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

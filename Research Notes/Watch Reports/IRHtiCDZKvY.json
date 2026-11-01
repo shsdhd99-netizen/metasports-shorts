@@ -1,0 +1,134 @@
+{
+ "length_s": 28.25,
+ "topic": "A comparison of NBA players spinning basketballs on their fingers, culminating in Kobe Bryant spinning a baseball effortlessly.",
+ "lane": "list",
+ "hook": {
+  "first_words": "This is proof that Kobe Bryant was built different in NBA history",
+  "first_frame": "A blurry, shaky close-up of Steph Curry and others with text overlays.",
+  "on_screen_text_0_3s": "THIS IS PROOF THAT KOBE BRYANT WAS BUILT DIFFERENT IN NBA",
+  "shots_in_first_3s": 1
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 3.75,
+   "shows": "Steph Curry spinning a basketball on his finger while standing with teammates",
+   "kind": "action"
+  },
+  {
+   "start_s": 3.75,
+   "end_s": 7.125,
+   "shows": "Luka Doncic in a Lakers jersey spinning a basketball on his finger",
+   "kind": "action"
+  },
+  {
+   "start_s": 7.125,
+   "end_s": 11.25,
+   "shows": "Anthony Edwards spinning a basketball on his finger with numbered counter overlays",
+   "kind": "action"
+  },
+  {
+   "start_s": 11.25,
+   "end_s": 15.75,
+   "shows": "LaMelo Ball spinning a basketball on his finger and throwing it away",
+   "kind": "action"
+  },
+  {
+   "start_s": 15.75,
+   "end_s": 20.75,
+   "shows": "James Harden spinning a basketball on his finger during a game next to Joel Embiid",
+   "kind": "action"
+  },
+  {
+   "start_s": 20.75,
+   "end_s": 28.25,
+   "shows": "Kobe Bryant in a Dodgers hat and Lakers training gear catching and spinning a baseball on his finger",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 6,
+ "average_shot_s": 4.71,
+ "longest_shot_s": 7.5,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 210,
+  "tone": "hype, fast-paced",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "upbeat hip-hop beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "ALL CAPS",
+  "position": "middle",
+  "colours": "white",
+  "highlight_style": "pop-up word by word"
+ },
+ "text_overlays": [
+  {
+   "at_s": 8.0,
+   "text": "1"
+  },
+  {
+   "at_s": 9.0,
+   "text": "2"
+  },
+  {
+   "at_s": 9.75,
+   "text": "3"
+  },
+  {
+   "at_s": 10.5,
+   "text": "4"
+  },
+  {
+   "at_s": 11.75,
+   "text": "check mark"
+  },
+  {
+   "at_s": 15.0,
+   "text": "laughing emojis"
+  }
+ ],
+ "cards_or_graphics": 0,
+ "framing": "blurred background",
+ "ending": {
+  "last_words": "and he made it look effortless.",
+  "last_frame": "Kobe Bryant smiling and looking at the camera with a baseball spinning on his finger.",
+  "loops_to_start": true,
+  "call_to_action": "none"
+ },
+ "script": "This is proof that Kobe Bryant was built different in NBA history. When Luka Doncic was asked to spin the ball on his finger, he did it easily. Then Anthony Edwards took the challenge and even spun the ball using his middle finger. Also, LaMelo Ball can spin the ball effortlessly and even show off a few tricks. Even James Harden spun the ball during a game while trying to dodge Joel Embiid from stealing it. But Kobe was literally the goat. He challenged to throw a baseball into the air, catch it on his finger, and spin it, and he made it look effortless.",
+ "retention_tricks": [
+  "rapid-fire cuts between different star NBA players",
+  "progressive numbering counter during Anthony Edwards' clip",
+  "building up to the ultimate finale featuring Kobe Bryant doing a harder trick"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": true,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "Featuring multiple popular NBA superstars makes the comparison engaging",
+  "Escalating from basketballs to a baseball for the final legend Kobe Bryant",
+  "Fast pacing with dynamic captions and background music"
+ ],
+ "_meta": {
+  "source": "IRHtiCDZKvY",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

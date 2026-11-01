@@ -1,0 +1,109 @@
+{
+ "length_s": 14.7,
+ "topic": "Damian Lillard's surprised reaction to seeing the actual distance of his iconic buzzer-beater against the Thunder.",
+ "lane": "moment",
+ "hook": {
+  "first_words": "When Damian Lillard was trying to recreate",
+  "first_frame": "Damian Lillard standing on an NBA court holding a basketball looking down.",
+  "on_screen_text_0_3s": "When Damian Lillard was trying to recreate his iconic buzzer beater shot,",
+  "shots_in_first_3s": 3
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 1.95,
+   "shows": "Medium shot of Damian Lillard dribbling and looking down on the basketball court",
+   "kind": "action"
+  },
+  {
+   "start_s": 1.95,
+   "end_s": 3.0,
+   "shows": "Damian Lillard dribbling the basketball and walking into position",
+   "kind": "action"
+  },
+  {
+   "start_s": 3.0,
+   "end_s": 7.15,
+   "shows": "Damian Lillard standing on the floor marker looking toward the basket, then turning to look at the camera in disbelief",
+   "kind": "face"
+  },
+  {
+   "start_s": 7.15,
+   "end_s": 8.68,
+   "shows": "Archival game broadcast replay of Damian Lillard hitting the series-clinching 37-foot stepback three over Paul George",
+   "kind": "replay"
+  },
+  {
+   "start_s": 8.68,
+   "end_s": 11.0,
+   "shows": "Damian Lillard looking directly at the camera questioning the distance",
+   "kind": "face"
+  },
+  {
+   "start_s": 11.0,
+   "end_s": 14.7,
+   "shows": "Damian Lillard looking back toward the hoop and smiling/laughing with the basketball",
+   "kind": "face"
+  }
+ ],
+ "shot_count": 6,
+ "average_shot_s": 2.45,
+ "longest_shot_s": 4.15,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 253,
+  "tone": "engaging",
+  "original_audio_under_voice": true
+ },
+ "music": {
+  "present": true,
+  "style": "ambient trap beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "sentence",
+  "position": "middle",
+  "colours": "white text with dark outline",
+  "highlight_style": "none"
+ },
+ "text_overlays": [],
+ "cards_or_graphics": 0,
+ "framing": "cropped 9:16 vertical with blurred top and bottom borders on the game replay clip",
+ "ending": {
+  "last_words": "calling it a bad shot.",
+  "last_frame": "Damian Lillard smiling and spinning the basketball in his hands",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "When Damian Lillard was trying to recreate his iconic buzzer beater shot, he realized something. As when he got to the spot where the three was made, he couldn't believe this was actually how far his shot was, asking the camera if it was really that far away, and his reaction tells you that maybe Paul George was right calling it a bad shot.",
+ "retention_tricks": [
+  "open loop in hook ('he realized something')",
+  "cutaway to legendary archival NBA playoff footage",
+  "punchline payoff referencing Paul George's famous post-game interview quote"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": true,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "Ties into a universally known NBA meme regarding Paul George's 'bad shot' comment",
+  "Captures genuine, candid disbelief from an NBA superstar about his own historic shot",
+  "Compact 15-second pacing that delivers setup, proof clip, and humorous punchline seamlessly"
+ ],
+ "_meta": {
+  "source": "4n1WBUSdc_Y",
+  "model": "gemini-3.7-flash",
+  "fps": 4.0,
+  "watched": "2026-10-30",
+  "tier": "[S] model-observed, not measured"
+ }
+}

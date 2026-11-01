@@ -258,3 +258,77 @@ Tiers: [V] verified on our files or data, [S] supported by our numbers (small n)
 - **[V] White captions on light cards are unreadable.** Keep graphics above y=890 when the captions are centred at y=960.
 - **[V] Story-format QA profile:** `qa_short.py` uses 58-88 s and allows archive blow-up up to 6x (as a warning) for folders under `Soccer Channel/`. The NBA rules are unchanged.
 - **Soccer channel memory** lives in `Soccer Channel/` (START HERE, Playbook, Lessons Learned, Idea Bank, Outcome Log). The skill is `/story-short`.
+
+## Oct 26, 2026: why the NBA views dropped (owner: "i think its editing and bad retention rules")
+- **[V] It's us, not the niche.** Old era median 29K; new era 3.9K. Over the same months Ahmed's Basketball fell about 40%, not 90%, and our own new-era hits (#22, #03, #58, #48, #19) still got 21-32K. Full write-up: `Research Notes/Why NBA Views Dropped (Oct 26, 2026).md`.
+- **[V] The gate is "stayed to watch",** and only 13 of 40 new-era Shorts reached 74%.
+- **[V] Our own editing rules lined up with the misses** (37 posted Shorts with edit files):
+  - 3+ shots in the first 3 s: 67.5% stayed vs 75.0% for 2 or fewer.
+  - Any card: 66.1% vs 72.6% without.
+  - A card in the first 4 s: 63.2% vs 72.0%.
+  - 16+ shots: 66.4% vs 75.0% for 15 or fewer.
+  - Pace, word count and how many numbers are spoken showed no link.
+- **Changed:**
+  - QA, NBA profile: more than 2 shots in the first 3 s warns; a card in the first 4 s FAILS; card share over 10% warns; shots may run up to 6 s; the 6-clip and 35%-per-clip gates are warnings.
+  - `cloud-short` SKILL: the "OCT 26 EDITING RULES" box at the top.
+- **Lesson about rules:** several of these came from competitor averages or n=1, and became FAIL gates without our own data. A rule becomes a gate only after our own numbers back it.
+
+## Oct 26, 2026: Swishyyy (@swishyhoopz), the owner's pick
+- **[V]** 203 Shorts, 21.3K subs, median 41K.
+- **[V] Moments you can watch beat explainers.** Moments: median 48K overall and 78K in the newest 101, with all 18 of the 1M+ hits. Explainers, history and stats: 36K and 44K, with zero 1M+.
+- **[V]** Their weakest Shorts are history and stat narratives, which is our new-era lane. Several of their topics are the same as our old-era hits.
+- **Changed:** both skills now put "one moment you can watch" first (about 2 in 3 NBA Shorts). Write-up: `Research Notes/Channel Study - Swishyyy (Oct 26, 2026).md`.
+
+## Oct 27, 2026: Gemini watch study, hits vs misses on the same channel ([S], n about 10 per group per channel)
+- **[S] The editing basics don't separate hits from misses.** On Swishyyy, Hoopiverse and Ahmed's Goal, top and bottom Shorts had the same opening: 2 shots in the first 3 s, about 3 in the first 5 s, the subject on screen in second 1, no cards (NBA) and a line 1 of about 11 words. They are the entry ticket.
+- **[S] The subject separates them.**
+  - **NBA hits:** spectacle, kids, family, size and the biggest legends.
+  - **NBA misses:** history and trivia explainers, and fan-only personality bits about current role players.
+  - **Soccer hits (Ahmed's Goal):** megastars in a current controversy.
+  - **Soccer misses:** "Players who..." lists of lesser names.
+- **Changed:** the daily-run research step now applies a "stranger test" when it picks a story. Write-up: `Research Notes/Watch Study/Findings (Oct 27, 2026).md`.
+
+## Oct 27, 2026 (evening): formats and scripts, about 180 Shorts ([S])
+- **[S] News takes lose on every narrated channel:** "Is X about to...?", "are they doomed?" and injury or money questions. So do sentimental fan moments.
+- **[S] Lists with a clever frame win on the explainer channels.** Rebound Rewind: 7 of 10 hits are lists, 0 of 10 misses.
+- **[S] Scripts:**
+  - In NBA hits, line 1 is a bold claim or the scene: a number in 11% vs 23% of misses, a question in 15% vs 21%.
+  - Hits end on a twist or a punchline: 64% vs 52%.
+  - No hit asks for a follow.
+- **[S] Length doesn't differ within a channel.** Correction: the Oct 27 afternoon remark that "hit scripts are shorter" came from mixing channels.
+- **Changed:** the daily-run research step (news takes out, lists with a frame in, the script rules). Write-up: `Research Notes/Watch Study/Formats and Scripts (Oct 27, 2026).md`.
+
+## Oct 28, 2026: owner direction, repurpose proven topics
+- **Owner:** "that is a known formula that works, repurposing already winning topics into your own formula."
+- **Standing method:**
+  - Take a topic that already won big on a competitor (the Script Library, the watch studies).
+  - Find our own angle and payoff, and write our own script from sources.
+  - Build it with official or original footage. Never retell their exact story or reuse their footage.
+- **First two:** #74 underhand free throws (Wilt) and S15 Coutinho 8-2.
+- Skip topics that are other creators' content (TikTok challenges): that footage isn't ours to use.
+
+## Oct 28, 2026: footage and tooling
+- [V] Champions League goal clips from beIN Sports, ESPN and TRT on X return HTTP 403 on download (protected media). Don't work around it.
+  - CBS Sports Golazo posts (the US rights holder) and highlight reposts did download.
+- [V] A dark broadcast close-up (a manager in a black jacket on a dark bench) fails qa_short's "frame 1 is lit".
+  - Photos made into push-in clips work well as frame 1 when the background isn't darkened (Tools: the S16 `src/still_*.mp4` recipe).
+- [V] A still photo shown twice in a row, or two near-static wide shots from one clip, fail "same footage". Cut to a close-up of the same person instead.
+- [H] An evergreen story is stronger when the subject's own words contradict each other on camera (#76 Pierce, 2019 vs 2026) than when a rumour is told as fact.
+
+## Oct 28, 2026 (evening): real audio on viral moments (owner's idea)
+- **Owner:** "for all clips that are viral, experiment with using the actual audio for the moment". New tool `Tools/nat_sound.py`; rule in the NBA Playbook (THE RULES §2 rule 11) and the soccer Playbook. [H] no results yet.
+- [V] Built three: #75 rookie (the live "Jayson Tatum for the win! Yes, sir!" over the winner), #76 Pierce (his three quotes in his own voice, lip-synced), S17 Krul ("...and Krul has saved it!").
+- [V] Find the call with local speech-to-text (faster-whisper small.en, word times) on each source, and the make or save on a 0.2-0.5 s frame sheet. The call usually lands just before the ball does (rookie: "for the win" at 5.5 s, ball in at about 6.8 s).
+- [V] Lip sync: cut the quote shot so its first frame is the first word's source second minus the shot's lead. Off by 0.08 s, captions and voice drifted.
+- [V] Sources differ in loudness by up to 15 dB (ESPN 2019 clip vs a 2026 podcast), so each burst is levelled on its own. Levelling them together left Pierce's ESPN line at -32 dB and speech-to-text heard nothing.
+- [V] A commentary bed at -15 dB under our narrator is fine for a 20 s NBA moment. For a 55 s soccer story it means two English voices for the whole video, so the soccer bed goes to -26 dB.
+- [V] Gemini can't tell a quiet music bed (about 20 dB under the voice) from none: it said "no music" for our own music version. So it can't settle which S07 version was posted; S07 is left out of the soccer music test.
+- [S] Risk: broadcast audio can draw a Content ID claim more easily than pictures alone. Keep the narrated render as the spare.
+- **Housekeeping:** the owner approved deleting old footage; about 16 GB of src/clips/renders went (not in git). Only the 5 unposted Shorts keep their src.
+
+## Oct 30, 2026: overnight edit pass on the queue (owner: "edit and QA everything else... always edit for best retention and viewer comfort")
+- **New check, `Tools/comfort_audit.py`:** loudness jumps (momentary +7 LU in 0.5 s), true peak over -1 dBTP, quiet holes, shot lengths (under 0.45 s or over 4 s), frozen picture, caption reading speed. qa_short.py stays the gate; this finds comfort problems it doesn't measure. Its caption-speed line flags nearly every 2-3 word caption at our speech rate (22+ chars/s), so read it as context, not a fault list.
+- [V] **A DRAFT edited outside the pipeline skips the audio limiter.** S18's fact-fix re-cut (spliced straight into the DRAFT files on Oct 29) peaked at +1.6 dBTP (sample peak +1.1 dBFS at 17.7 s): it can crackle on phone speakers. Fixed with a limiter on the audio only. Rule: after any direct edit of a DRAFT file, run `comfort_audit.py` (true peak) before it goes on a Hub.
+- [V] **The morning review's re-cuts only reached the DRAFT files.** voice.mp3/words.json/shots in #74 and S18 here are still the pre-fix versions (media and some files differ between sessions), so a re-render from the folder would bring the removed lines back. Before re-rendering #74 or S18, redo the cut with `Tools/word_edit.py` first.
+- [S] Gemini as a strict "retention editor" (prompt in the Oct 30 Daily Log): scores before → after: #77 Bronny 5.5 → 5.5 (it moved on to new complaints), S17 Krul 4.5 → 6.2, #74 7.5, S18 4.5 (not re-edited). Useful for finding concrete moments (a static photo ending, a crowded first frame, a repeated clip, a TV logo), unreliable as a judge: it called ESPN's real Clásico clips "video-game footage" and asked to drop the plural "Goalkeepers who..." title that our three best soccer Shorts use. Verify every claim on the frames before acting.
+- [V] Clear wins applied: a recognisable face in frame 1 (#77 opened on a crowded scramble), big on-screen numbers for each stat (31% → 41%, 28% → 39%, 1 FOR 1, 100%), real moving footage instead of three stills at the payoff, cut a filler "uh" from a real quote (Whisper heard it; `faster_whisper` word times on padded trial cuts found where "definitely" starts), blur TV channel graphics (`broll.py --delogo` now takes several boxes split by ';').

@@ -1,0 +1,235 @@
+{
+ "length_s": 80.17,
+ "topic": "An analysis of the Los Angeles Clippers trade history and how they are supposedly doomed.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "The Clippers are doomed.",
+  "first_frame": "An illustrated basketball scene with characters representing Steve Ballmer and Kawhi Leonard near a potted broccoli plant.",
+  "on_screen_text_0_3s": "The Clippers are DOOMED!",
+  "shots_in_first_3s": 3
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 1.75,
+   "shows": "Steve Ballmer and Kawhi Leonard illustrations near a potted broccoli plant on a basketball court",
+   "kind": "animation"
+  },
+  {
+   "start_s": 1.75,
+   "end_s": 4.5,
+   "shows": "Kawhi Leonard and Paul George as pixelated superheroes with a Clippers logo",
+   "kind": "animation"
+  },
+  {
+   "start_s": 4.5,
+   "end_s": 6.75,
+   "shows": "Kawhi Leonard and Paul George standing on crutches in a hospital room",
+   "kind": "animation"
+  },
+  {
+   "start_s": 6.75,
+   "end_s": 10.25,
+   "shows": "Split-screen animation comparing Shai Gilgeous-Alexander and Paul George",
+   "kind": "animation"
+  },
+  {
+   "start_s": 10.25,
+   "end_s": 12.25,
+   "shows": "Kawhi Leonard holding a Canada goose on a basketball court",
+   "kind": "animation"
+  },
+  {
+   "start_s": 12.25,
+   "end_s": 14.25,
+   "shows": "Kawhi Leonard holding a goose next to two Clippers players at an NBA draft event",
+   "kind": "animation"
+  },
+  {
+   "start_s": 14.25,
+   "end_s": 18.25,
+   "shows": "Animated teacher pointing a stick at Steve Ballmer's head on a chalkboard",
+   "kind": "animation"
+  },
+  {
+   "start_s": 18.25,
+   "end_s": 22.0,
+   "shows": "Kawhi Leonard standing next to a muscular broccoli plant character",
+   "kind": "animation"
+  },
+  {
+   "start_s": 22.0,
+   "end_s": 23.5,
+   "shows": "Steve Ballmer and Kawhi Leonard by the broccoli plant on the court",
+   "kind": "animation"
+  },
+  {
+   "start_s": 23.5,
+   "end_s": 35.25,
+   "shows": "Chalkboard showing Clippers punishments with dollar bills falling",
+   "kind": "animation"
+  },
+  {
+   "start_s": 35.25,
+   "end_s": 37.0,
+   "shows": "Kawhi Leonard holding the Canada goose on the court",
+   "kind": "animation"
+  },
+  {
+   "start_s": 37.0,
+   "end_s": 43.5,
+   "shows": "Actual footage of Kawhi Leonard greeting people in a hallway",
+   "kind": "stock"
+  },
+  {
+   "start_s": 43.5,
+   "end_s": 46.25,
+   "shows": "Kawhi Leonard holding the goose next to two Clippers draft players",
+   "kind": "animation"
+  },
+  {
+   "start_s": 46.25,
+   "end_s": 48.75,
+   "shows": "Close-up of Kawhi Leonard holding the Canada goose",
+   "kind": "animation"
+  },
+  {
+   "start_s": 48.75,
+   "end_s": 51.75,
+   "shows": "Two Clippers players at the NBA draft",
+   "kind": "animation"
+  },
+  {
+   "start_s": 51.75,
+   "end_s": 52.5,
+   "shows": "Kawhi Leonard with the goose and draft players on court",
+   "kind": "animation"
+  },
+  {
+   "start_s": 52.5,
+   "end_s": 58.25,
+   "shows": "Actual footage of Kawhi Leonard greeting people",
+   "kind": "stock"
+  },
+  {
+   "start_s": 58.25,
+   "end_s": 61.75,
+   "shows": "Actual footage of Kawhi Leonard dribbling a basketball on the court",
+   "kind": "stock"
+  },
+  {
+   "start_s": 61.75,
+   "end_s": 63.75,
+   "shows": "Pixelated superheroes Kawhi Leonard and Paul George with Clippers logo",
+   "kind": "animation"
+  },
+  {
+   "start_s": 63.75,
+   "end_s": 66.0,
+   "shows": "Kawhi Leonard and Paul George on crutches in hospital",
+   "kind": "animation"
+  },
+  {
+   "start_s": 66.0,
+   "end_s": 67.5,
+   "shows": "Joel Embiid and Paul George in Sixers jerseys dancing",
+   "kind": "animation"
+  },
+  {
+   "start_s": 67.5,
+   "end_s": 74.75,
+   "shows": "Animation of Paul George inside a trash can across years 2023, 2022, 2021, 2020",
+   "kind": "animation"
+  },
+  {
+   "start_s": 74.75,
+   "end_s": 77.5,
+   "shows": "Split-screen animation of Paul George and Shai Gilgeous-Alexander",
+   "kind": "animation"
+  },
+  {
+   "start_s": 77.5,
+   "end_s": 80.17,
+   "shows": "Chalkboard showing punishments with dollar bills falling",
+   "kind": "animation"
+  }
+ ],
+ "shot_count": 24,
+ "average_shot_s": 3.34,
+ "longest_shot_s": 7.25,
+ "voice": {
+  "type": "human",
+  "gender": "male",
+  "words_per_minute_estimate": 170,
+  "tone": "humorous, energetic, commentary style",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "upbeat comedic hip-hop beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": false,
+  "words_per_line": 0,
+  "case": "unknown",
+  "position": "unknown",
+  "colours": "unknown",
+  "highlight_style": "unknown"
+ },
+ "text_overlays": [
+  {
+   "at_s": 0.0,
+   "text": "The Clippers are DOOMED!"
+  },
+  {
+   "at_s": 2.0,
+   "text": "Expectation"
+  },
+  {
+   "at_s": 4.5,
+   "text": "Reality"
+  },
+  {
+   "at_s": 24.0,
+   "text": "Clippers Punishments: $30 M Fine Steve Ballmer 1 Year Suspension Executives Suspended 5 Picks FORFEITED (2029-2033 1st Round)"
+  }
+ ],
+ "cards_or_graphics": 4,
+ "framing": "cropped",
+ "ending": {
+  "last_words": "cap",
+  "last_frame": "Chalkboard showing Clippers punishments with dollar bills falling",
+  "loops_to_start": true,
+  "call_to_action": "none"
+ },
+ "script": "The Clippers are doomed, cuz he just got even more catastrophic for the Clippers. It's not only the worst trade in NBA history, because it led to the Clippers losing Kawhi for catastrophic behavior. The NBA officially ruled that yes, the Clippers did circumvent the salary cap by helping Kawhi receive outside compensation from companies that did business with the team. The Clippers were fined $30 million. Steve Ballmer was suspended for one year. Executives suspended and the team had to forfeit 5 first-round draft picks from 2029 to 2033. Kawhi, though, he was only fined $700,000, the biggest win for him is no suspension. His contract was not voided, and that means his trade to the Raptors can now move forward. Toronto is expected to get Kawhi, and the Clippers receive Brandon Ingram, Grady Dick, and several first-round draft picks. But it is entirely possible, though being improbable, that the Clippers can undo their end of the deal and dump Kawhi for some more picks, since they just lost five of them. The George era was way worse than the Siakam and Leonard era. Paul George was basically cursed for a decade, and we can only blame the greed of billionaires trying to dodge the salary cap.",
+ "retention_tricks": [
+  "rapid-fire cuts",
+  "animated visual gags",
+  "pop-culture meme mashups",
+  "split screen comparisons"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": true,
+  "promise_in_first_line": false,
+  "ends_on_payoff": false,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "Humorous animated caricatures of NBA players and executives make the analysis entertaining.",
+  "Fast pacing and frequent visual shifts maintain viewer attention throughout.",
+  "A blend of satirical animation and actual footage grounds the comedic premise in real sports news."
+ ],
+ "_meta": {
+  "source": "IoCFGj4Fb1M",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

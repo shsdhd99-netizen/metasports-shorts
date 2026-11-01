@@ -1,0 +1,94 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,TikTok Sans SemiBold,80,&H00FFFFFF,&H00FFFFFF,&H00000000,&H99000000,0,0,0,0,100,100,0,0,1,3.2,1,5,70,70,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:02.53,Cap,,0,0,0,,{\pos(540,960)\blur0.5\fscx76\fscy76}The England player who kept\NMaradona's HAND OF GOD shirt
+Dialogue: 0,0:00:02.53,0:00:03.63,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Back in 1986,
+Dialogue: 0,0:00:03.63,0:00:04.21,Cap,,0,0,0,,{\pos(540,960)\blur0.5}England played
+Dialogue: 0,0:00:04.21,0:00:05.02,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Argentina in a
+Dialogue: 0,0:00:05.02,0:00:05.51,Cap,,0,0,0,,{\pos(540,960)\blur0.5}World Cup
+Dialogue: 0,0:00:05.51,0:00:06.20,Cap,,0,0,0,,{\pos(540,960)\blur0.5}quarter-final,
+Dialogue: 0,0:00:06.20,0:00:06.92,Cap,,0,0,0,,{\pos(540,960)\blur0.5}and Argentina
+Dialogue: 0,0:00:06.92,0:00:08.12,Cap,,0,0,0,,{\pos(540,960)\blur0.5}had Diego Maradona.
+Dialogue: 0,0:00:08.12,0:00:08.62,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Six minutes
+Dialogue: 0,0:00:08.62,0:00:09.17,Cap,,0,0,0,,{\pos(540,960)\blur0.5}into the second
+Dialogue: 0,0:00:09.17,0:00:09.45,Cap,,0,0,0,,{\pos(540,960)\blur0.5}half,
+Dialogue: 0,0:00:09.45,0:00:09.89,Cap,,0,0,0,,{\pos(540,960)\blur0.5}an England
+Dialogue: 0,0:00:09.89,0:00:10.52,Cap,,0,0,0,,{\pos(540,960)\blur0.5}midfielder called
+Dialogue: 0,0:00:10.52,0:00:11.17,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Steve Hodge
+Dialogue: 0,0:00:11.17,0:00:11.95,Cap,,0,0,0,,{\pos(540,960)\blur0.5}tried a back-pass
+Dialogue: 0,0:00:11.95,0:00:12.74,Cap,,0,0,0,,{\pos(540,960)\blur0.5}to his goalkeeper,
+Dialogue: 0,0:00:12.74,0:00:13.38,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Peter Shilton.
+Dialogue: 0,0:00:13.38,0:00:14.09,Cap,,0,0,0,,{\pos(540,960)\blur0.5}But Maradona
+Dialogue: 0,0:00:14.09,0:00:14.80,Cap,,0,0,0,,{\pos(540,960)\blur0.5}jumped and punched
+Dialogue: 0,0:00:14.80,0:00:15.13,Cap,,0,0,0,,{\pos(540,960)\blur0.5}the ball
+Dialogue: 0,0:00:15.13,0:00:15.62,Cap,,0,0,0,,{\pos(540,960)\blur0.5}into the net
+Dialogue: 0,0:00:15.62,0:00:16.26,Cap,,0,0,0,,{\pos(540,960)\blur0.5}with his hand.
+Dialogue: 0,0:00:16.26,0:00:16.75,Cap,,0,0,0,,{\pos(540,960)\blur0.5}The referee
+Dialogue: 0,0:00:16.75,0:00:17.49,Cap,,0,0,0,,{\pos(540,960)\blur0.5}gave the goal.
+Dialogue: 0,0:00:17.49,0:00:18.41,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Maradona later said
+Dialogue: 0,0:00:18.41,0:00:18.94,Cap,,0,0,0,,{\pos(540,960)\blur0.5}it was scored
+Dialogue: 0,0:00:18.94,0:00:19.25,Cap,,0,0,0,,{\pos(540,960)\blur0.5}a little
+Dialogue: 0,0:00:19.25,0:00:19.90,Cap,,0,0,0,,{\pos(540,960)\blur0.5}with his head,
+Dialogue: 0,0:00:19.90,0:00:20.45,Cap,,0,0,0,,{\pos(540,960)\blur0.5}and a little
+Dialogue: 0,0:00:20.45,0:00:20.99,Cap,,0,0,0,,{\pos(540,960)\blur0.5}with the hand
+Dialogue: 0,0:00:20.99,0:00:21.57,Cap,,0,0,0,,{\pos(540,960)\blur0.5}of God.
+Dialogue: 0,0:00:21.57,0:00:22.23,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Four minutes later,
+Dialogue: 0,0:00:22.23,0:00:22.76,Cap,,0,0,0,,{\pos(540,960)\blur0.5}he dribbled through
+Dialogue: 0,0:00:22.76,0:00:23.58,Cap,,0,0,0,,{\pos(540,960)\blur0.5}the England team
+Dialogue: 0,0:00:23.58,0:00:24.42,Cap,,0,0,0,,{\pos(540,960)\blur0.5}and scored again.
+Dialogue: 0,0:00:24.42,0:00:24.71,Cap,,0,0,0,,{\pos(540,960)\blur0.5}That one
+Dialogue: 0,0:00:24.71,0:00:25.08,Cap,,0,0,0,,{\pos(540,960)\blur0.5}was voted
+Dialogue: 0,0:00:25.08,0:00:25.44,Cap,,0,0,0,,{\pos(540,960)\blur0.5}the goal
+Dialogue: 0,0:00:25.44,0:00:26.08,Cap,,0,0,0,,{\pos(540,960)\blur0.5}of the century.
+Dialogue: 0,0:00:26.08,0:00:26.89,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Argentina won
+Dialogue: 0,0:00:26.89,0:00:27.74,Cap,,0,0,0,,{\pos(540,960)\blur0.5}2-1 and went
+Dialogue: 0,0:00:27.74,0:00:28.11,Cap,,0,0,0,,{\pos(540,960)\blur0.5}on to win
+Dialogue: 0,0:00:28.11,0:00:28.79,Cap,,0,0,0,,{\pos(540,960)\blur0.5}the World Cup.
+Dialogue: 0,0:00:28.79,0:00:28.99,Cap,,0,0,0,,{\pos(540,960)\blur0.5}But it
+Dialogue: 0,0:00:28.99,0:00:30.08,Cap,,0,0,0,,{\pos(540,960)\blur0.5}got even crazier.
+Dialogue: 0,0:00:30.08,0:00:30.81,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Under the stadium
+Dialogue: 0,0:00:30.81,0:00:31.44,Cap,,0,0,0,,{\pos(540,960)\blur0.5}after the game,
+Dialogue: 0,0:00:31.44,0:00:31.94,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Hodge saw
+Dialogue: 0,0:00:31.94,0:00:32.80,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Maradona and tugged
+Dialogue: 0,0:00:32.80,0:00:33.16,Cap,,0,0,0,,{\pos(540,960)\blur0.5}on his own
+Dialogue: 0,0:00:33.16,0:00:33.50,Cap,,0,0,0,,{\pos(540,960)\blur0.5}shirt,
+Dialogue: 0,0:00:33.50,0:00:34.20,Cap,,0,0,0,,{\pos(540,960)\blur0.5}as if to say,
+Dialogue: 0,0:00:34.20,0:00:34.67,Cap,,0,0,0,,{\pos(540,960)\blur0.5}any chance
+Dialogue: 0,0:00:34.67,0:00:35.35,Cap,,0,0,0,,{\pos(540,960)\blur0.5}of swapping?
+Dialogue: 0,0:00:35.35,0:00:35.96,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Maradona came
+Dialogue: 0,0:00:35.96,0:00:36.52,Cap,,0,0,0,,{\pos(540,960)\blur0.5}straight over,
+Dialogue: 0,0:00:36.52,0:00:36.97,Cap,,0,0,0,,{\pos(540,960)\blur0.5}made a little
+Dialogue: 0,0:00:36.97,0:00:37.56,Cap,,0,0,0,,{\pos(540,960)\blur0.5}prayer sign,
+Dialogue: 0,0:00:37.56,0:00:38.48,Cap,,0,0,0,,{\pos(540,960)\blur0.5}and they swapped.
+Dialogue: 0,0:00:38.48,0:00:39.09,Cap,,0,0,0,,{\pos(540,960)\blur0.5}So the England
+Dialogue: 0,0:00:39.09,0:00:39.66,Cap,,0,0,0,,{\pos(540,960)\blur0.5}player who set
+Dialogue: 0,0:00:39.66,0:00:40.02,Cap,,0,0,0,,{\pos(540,960)\blur0.5}up the hand
+Dialogue: 0,0:00:40.02,0:00:40.45,Cap,,0,0,0,,{\pos(540,960)\blur0.5}of God
+Dialogue: 0,0:00:40.45,0:00:40.80,Cap,,0,0,0,,{\pos(540,960)\blur0.5}went home
+Dialogue: 0,0:00:40.80,0:00:41.26,Cap,,0,0,0,,{\pos(540,960)\blur0.5}with the shirt
+Dialogue: 0,0:00:41.26,0:00:41.77,Cap,,0,0,0,,{\pos(540,960)\blur0.5}that scored it.
+Dialogue: 0,0:00:41.77,0:00:42.68,Cap,,0,0,0,,{\pos(540,960)\blur0.5}From 2002, it
+Dialogue: 0,0:00:42.68,0:00:43.23,Cap,,0,0,0,,{\pos(540,960)\blur0.5}was on show
+Dialogue: 0,0:00:43.23,0:00:44.00,Cap,,0,0,0,,{\pos(540,960)\blur0.5}at England's National
+Dialogue: 0,0:00:44.00,0:00:44.76,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Football Museum.
+Dialogue: 0,0:00:44.76,0:00:45.11,Cap,,0,0,0,,{\pos(540,960)\blur0.5}But here's
+Dialogue: 0,0:00:45.11,0:00:45.87,Cap,,0,0,0,,{\pos(540,960)\blur0.5}the wild part.
+Dialogue: 0,0:00:45.87,0:00:46.74,Cap,,0,0,0,,{\pos(540,960)\blur0.5}In 2022,
+Dialogue: 0,0:00:46.74,0:00:47.31,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Hodge sold
+Dialogue: 0,0:00:47.31,0:00:47.95,Cap,,0,0,0,,{\pos(540,960)\blur0.5}it at auction
+Dialogue: 0,0:00:47.95,0:00:50.06,Cap,,0,0,0,,{\pos(540,960)\blur0.5}for £7.1 million,
+Dialogue: 0,0:00:50.06,0:00:50.54,Cap,,0,0,0,,{\pos(540,960)\blur0.5}the most ever
+Dialogue: 0,0:00:50.54,0:00:50.82,Cap,,0,0,0,,{\pos(540,960)\blur0.5}paid
+Dialogue: 0,0:00:50.82,0:00:51.53,Cap,,0,0,0,,{\pos(540,960)\blur0.5}for a match-worn
+Dialogue: 0,0:00:51.53,0:00:52.06,Cap,,0,0,0,,{\pos(540,960)\blur0.5}sports shirt
+Dialogue: 0,0:00:52.06,0:00:52.85,Cap,,0,0,0,,{\pos(540,960)\blur0.5}at the time.

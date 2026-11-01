@@ -1,0 +1,145 @@
+{
+ "length_s": 22.3,
+ "topic": "Anthony Edwards enjoying his off-season in Paris with funny moments like calling the Eiffel Tower Walt Disney.",
+ "lane": "moment",
+ "hook": {
+  "first_words": "Bro Anthony Edwards is really enjoying this off season",
+  "first_frame": "Anthony Edwards holding a microphone on stage at night",
+  "on_screen_text_0_3s": "Bro Anthony Edwards is really enjoying this off season",
+  "shots_in_first_3s": 3
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 0.7,
+   "shows": "Anthony Edwards holding a microphone on stage",
+   "kind": "face"
+  },
+  {
+   "start_s": 0.7,
+   "end_s": 1.6,
+   "shows": "Anthony Edwards with mic and text overlay",
+   "kind": "face"
+  },
+  {
+   "start_s": 1.6,
+   "end_s": 2.7,
+   "shows": "Anthony Edwards posing with basketball players",
+   "kind": "action"
+  },
+  {
+   "start_s": 2.7,
+   "end_s": 3.9,
+   "shows": "Anthony Edwards posing with players on court",
+   "kind": "action"
+  },
+  {
+   "start_s": 3.9,
+   "end_s": 7.4,
+   "shows": "Anthony Edwards singing into microphone in a club",
+   "kind": "face"
+  },
+  {
+   "start_s": 7.4,
+   "end_s": 10.4,
+   "shows": "Anthony Edwards singing and talking into mic on stage",
+   "kind": "face"
+  },
+  {
+   "start_s": 10.4,
+   "end_s": 11.7,
+   "shows": "Eiffel Tower lit up at night",
+   "kind": "stock"
+  },
+  {
+   "start_s": 11.7,
+   "end_s": 12.1,
+   "shows": "Fast motion clip of Paris",
+   "kind": "stock"
+  },
+  {
+   "start_s": 12.1,
+   "end_s": 12.9,
+   "shows": "Walt Disney Pictures logo",
+   "kind": "text_card"
+  },
+  {
+   "start_s": 12.9,
+   "end_s": 15.6,
+   "shows": "Anthony Edwards talking outdoors at night",
+   "kind": "face"
+  },
+  {
+   "start_s": 15.6,
+   "end_s": 17.5,
+   "shows": "Anthony Edwards on a balcony talking to a woman",
+   "kind": "action"
+  },
+  {
+   "start_s": 17.5,
+   "end_s": 22.3,
+   "shows": "Anthony Edwards on stage with microphone talking and reacting",
+   "kind": "face"
+  }
+ ],
+ "shot_count": 12,
+ "average_shot_s": 1.86,
+ "longest_shot_s": 4.8,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 160,
+  "tone": "casual",
+  "original_audio_under_voice": true
+ },
+ "music": {
+  "present": true,
+  "style": "hip hop beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 2,
+  "case": "mixed",
+  "position": "middle",
+  "colours": "multi-coloured (white, green, pink, blue)",
+  "highlight_style": "word by word color change"
+ },
+ "text_overlays": [],
+ "cards_or_graphics": 1,
+ "framing": "blurred background",
+ "ending": {
+  "last_words": "ahhhhhhhhhh",
+  "last_frame": "Anthony Edwards on stage with microphone making a funny face",
+  "loops_to_start": true,
+  "call_to_action": "none"
+ },
+ "script": "Bro Anthony Edwards is really enjoying this off season. Don't fuck with Nike, you can send them fuckers home. *Paris* like Walt Disney. That's Walt Disney, Rudy. He even rizzed up a girl. Rizzing ahh.",
+ "retention_tricks": [
+  "rapid shot changes every 1-2 seconds",
+  "engaging celebrity subject",
+  "funny viral quote highlight (Eiffel tower as Walt Disney)"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": false,
+  "ends_on_payoff": true,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "High energy clips of NBA star Anthony Edwards during his offseason in Paris",
+  "Humorous moments like mistaking the Eiffel Tower for Walt Disney",
+  "Fast-paced editing style with dynamic word-by-word captions"
+ ],
+ "_meta": {
+  "source": "msauU7yZ1Us",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

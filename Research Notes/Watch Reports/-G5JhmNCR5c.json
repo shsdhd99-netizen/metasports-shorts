@@ -1,0 +1,250 @@
+{
+ "length_s": 71.185,
+ "topic": "Comparing soccer GOATs to NBA GOATs using player caricatures and highlights.",
+ "lane": "list",
+ "hook": {
+  "first_words": "Let's compare soccer slash football legends to NBA legends.",
+  "first_frame": "Caricatures of Lamine Yamal and Victor Wembanyama standing on a soccer field backdrop.",
+  "on_screen_text_0_3s": "Soccer GOATs vs NBA GOATs",
+  "shots_in_first_3s": 3
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 3.02,
+   "shows": "Caricatures of soccer and basketball players paired up.",
+   "kind": "other"
+  },
+  {
+   "start_s": 3.02,
+   "end_s": 5.56,
+   "shows": "Pelé and Michael Jordan caricature.",
+   "kind": "other"
+  },
+  {
+   "start_s": 5.56,
+   "end_s": 7.58,
+   "shows": "Pelé caricature dancing in stadium.",
+   "kind": "other"
+  },
+  {
+   "start_s": 7.58,
+   "end_s": 12.0,
+   "shows": "Archive footage of Pelé scoring a goal.",
+   "kind": "replay"
+  },
+  {
+   "start_s": 12.0,
+   "end_s": 14.98,
+   "shows": "Lionel Messi and LeBron James caricature.",
+   "kind": "other"
+  },
+  {
+   "start_s": 14.98,
+   "end_s": 21.32,
+   "shows": "Match footage of Lionel Messi scoring a goal.",
+   "kind": "replay"
+  },
+  {
+   "start_s": 21.32,
+   "end_s": 22.98,
+   "shows": "LeBron James caricature timeline with different jersey swaps.",
+   "kind": "other"
+  },
+  {
+   "start_s": 22.98,
+   "end_s": 26.66,
+   "shows": "Cristiano Ronaldo and Kobe Bryant caricature.",
+   "kind": "other"
+  },
+  {
+   "start_s": 26.66,
+   "end_s": 31.64,
+   "shows": "Cristiano Ronaldo match footage and goal.",
+   "kind": "replay"
+  },
+  {
+   "start_s": 31.64,
+   "end_s": 32.52,
+   "shows": "Caricature animation of Messi with soccer ball exploding.",
+   "kind": "other"
+  },
+  {
+   "start_s": 32.52,
+   "end_s": 35.7,
+   "shows": "LeBron and Kobe caricature on basketball court.",
+   "kind": "other"
+  },
+  {
+   "start_s": 35.7,
+   "end_s": 37.94,
+   "shows": "Neymar and Kyrie Irving caricature.",
+   "kind": "other"
+  },
+  {
+   "start_s": 37.94,
+   "end_s": 41.52,
+   "shows": "Photo of Lionel Messi and Neymar celebrating.",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 41.52,
+   "end_s": 42.94,
+   "shows": "LeBron James and Kyrie Irving caricature.",
+   "kind": "other"
+  },
+  {
+   "start_s": 42.94,
+   "end_s": 46.16,
+   "shows": "Neymar dancing animation and map graphic.",
+   "kind": "other"
+  },
+  {
+   "start_s": 46.16,
+   "end_s": 48.72,
+   "shows": "Erling Haaland and Giannis Antetokounmpo caricature.",
+   "kind": "other"
+  },
+  {
+   "start_s": 48.72,
+   "end_s": 53.68,
+   "shows": "Erling Haaland match footage and sliding goal.",
+   "kind": "replay"
+  },
+  {
+   "start_s": 53.68,
+   "end_s": 60.06,
+   "shows": "Mohamed Salah match footage dribbling.",
+   "kind": "replay"
+  },
+  {
+   "start_s": 60.06,
+   "end_s": 64.38,
+   "shows": "Lamine Yamal and Victor Wembanyama caricature.",
+   "kind": "other"
+  },
+  {
+   "start_s": 64.38,
+   "end_s": 71.185,
+   "shows": "Lamine Yamal match footage juggling and dribbling.",
+   "kind": "replay"
+  }
+ ],
+ "shot_count": 20,
+ "average_shot_s": 3.56,
+ "longest_shot_s": 6.78,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 175,
+  "tone": "enthusiastic and fast-paced",
+  "original_audio_under_voice": true
+ },
+ "music": {
+  "present": true,
+  "style": "upbeat rhythmic background beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": false,
+  "words_per_line": 0,
+  "case": "mixed",
+  "position": "bottom",
+  "colours": [],
+  "highlight_style": "none"
+ },
+ "text_overlays": [
+  {
+   "at_s": 0.0,
+   "text": "Soccer GOATs vs NBA GOATs"
+  },
+  {
+   "at_s": 0.72,
+   "text": "Mohamed Salah: Steph Curry"
+  },
+  {
+   "at_s": 1.18,
+   "text": "Erling Haaland: Giannis"
+  },
+  {
+   "at_s": 1.51,
+   "text": "Neymar: Kyrie Irving"
+  },
+  {
+   "at_s": 2.01,
+   "text": "Cristiano Ronaldo: Kobe"
+  },
+  {
+   "at_s": 2.31,
+   "text": "Bron James"
+  },
+  {
+   "at_s": 2.65,
+   "text": "Lionel Messi: LeBron Jam"
+  },
+  {
+   "at_s": 3.12,
+   "text": "Pele: Michael Jordan"
+  },
+  {
+   "at_s": 12.06,
+   "text": "Lionel Messi: LeBron James"
+  },
+  {
+   "at_s": 24.08,
+   "text": "Cristiano Ronaldo: Kobi"
+  },
+  {
+   "at_s": 35.88,
+   "text": "Neymar: Kyrie Irving"
+  },
+  {
+   "at_s": 46.26,
+   "text": "Erling Haaland: Giannis"
+  },
+  {
+   "at_s": 53.79,
+   "text": "Mohamed Salah: Steph Curry"
+  },
+  {
+   "at_s": 62.16,
+   "text": "Lamine Yamal: Wemby"
+  }
+ ],
+ "cards_or_graphics": 0,
+ "framing": "crop",
+ "ending": {
+  "last_words": "Lamine Yamal: Wemby",
+  "last_frame": "Caricatures of Lamine Yamal and Victor Wembanyama standing on a soccer field backdrop.",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "Let's compare soccer slash football legends to NBA legends. Pelé is like the Michael Jordan of soccer. He was the original GOAT of his generation, putting soccer on the map, and is regarded as the GOAT by people who watched both generations. Lionel Messi is like the LeBron James of football. He's considered the modern GOAT of his generation and has both longevity and a plethora of skills, like how LeBron can play all five positions. They also have a ton of records. Cristiano Ronaldo is like the Kobe Bryant of soccer. The greatest pure scorer/striker and the hardest worker. Messi was genetically gifted for soccer, but like Kobe, Ronaldo just made up for it with his intense work ethic. Neymar is like the Kyrie Irving of the sport. They both had opportunities to play with their generations' GOAT, Neymar and Messi versus LeBron and Kyrie, but on their own they never got to reach their full potential due to injuries. Erling Haaland is like peak Giannis Antetokounmpo. Both are modern freaks of nature, they overpower their opponents with size, speed, and raw dominance. Mohamed Salah is like Steph Curry of soccer. His cut and shift is very similar to Curry's offensive gravity pull on defense, which revolutionized the game. Lamine Yamal is the Wemby of football. At just 18 years old, he became Spain's youngest player to score a goal in the FIFA World Cup and has the potential to become the next face of the sport.",
+ "retention_tricks": [
+  "Rapid-fire comparisons",
+  "Character animations with famous player heads",
+  "Match highlight replays"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": true,
+  "promise_in_first_line": false,
+  "ends_on_payoff": false,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "Fun player caricature mashups connecting soccer and NBA legends.",
+  "Fast pacing with quick cuts between cartoon animations and real match highlights.",
+  "Engaging narrative style comparing player traits across sports."
+ ],
+ "_meta": {
+  "source": "-G5JhmNCR5c",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

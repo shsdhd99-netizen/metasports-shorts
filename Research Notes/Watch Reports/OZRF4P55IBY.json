@@ -1,0 +1,247 @@
+{
+ "length_s": 63.5,
+ "topic": "The financial difference between winning and losing Champions League qualifiers.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "How much money do teams that win their Champions League qualifier get?",
+  "first_frame": "A soccer player slide-tackling another player on the pitch.",
+  "on_screen_text_0_3s": "HOW MUCH MONEY DO TEAMS THAT WIN THEIR Champions League QUALIFIER GET?",
+  "shots_in_first_3s": 5
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 1.1,
+   "shows": "Soccer players on the pitch during a match",
+   "kind": "action"
+  },
+  {
+   "start_s": 1.1,
+   "end_s": 3.2,
+   "shows": "UEFA official holding the Champions League trophy",
+   "kind": "action"
+  },
+  {
+   "start_s": 3.2,
+   "end_s": 6.0,
+   "shows": "Center circle Champions League flag ceremony",
+   "kind": "action"
+  },
+  {
+   "start_s": 6.0,
+   "end_s": 7.8,
+   "shows": "Referee walking out with soccer ball",
+   "kind": "action"
+  },
+  {
+   "start_s": 7.8,
+   "end_s": 10.1,
+   "shows": "Soccer player clapping in uniform",
+   "kind": "action"
+  },
+  {
+   "start_s": 10.1,
+   "end_s": 12.8,
+   "shows": "Injured player on ground and referee showing red card",
+   "kind": "action"
+  },
+  {
+   "start_s": 12.8,
+   "end_s": 14.9,
+   "shows": "Players celebrating a goal",
+   "kind": "action"
+  },
+  {
+   "start_s": 14.9,
+   "end_s": 16.0,
+   "shows": "Champions League logo over grass",
+   "kind": "stock"
+  },
+  {
+   "start_s": 16.0,
+   "end_s": 18.1,
+   "shows": "36 teams get in text graphic on grid background",
+   "kind": "text_card"
+  },
+  {
+   "start_s": 18.1,
+   "end_s": 22.0,
+   "shows": "UEFA official walking through hallway in suit",
+   "kind": "stock"
+  },
+  {
+   "start_s": 22.0,
+   "end_s": 24.0,
+   "shows": "Soccer player celebrating high-fiving teammates",
+   "kind": "action"
+  },
+  {
+   "start_s": 24.0,
+   "end_s": 27.0,
+   "shows": "UEFA official talking outdoors",
+   "kind": "stock"
+  },
+  {
+   "start_s": 27.0,
+   "end_s": 29.8,
+   "shows": "Soccer players walking off pitch",
+   "kind": "action"
+  },
+  {
+   "start_s": 29.8,
+   "end_s": 31.7,
+   "shows": "Goalkeeper celebrating",
+   "kind": "action"
+  },
+  {
+   "start_s": 31.7,
+   "end_s": 33.1,
+   "shows": "Meme face reacting",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 33.1,
+   "end_s": 35.6,
+   "shows": "Player celebrating on pitch",
+   "kind": "action"
+  },
+  {
+   "start_s": 35.6,
+   "end_s": 37.8,
+   "shows": "UEFA logo with falling money animation",
+   "kind": "stock"
+  },
+  {
+   "start_s": 37.8,
+   "end_s": 39.7,
+   "shows": "Grid of all 36 Champions League club badges",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 39.7,
+   "end_s": 44.5,
+   "shows": "UEFA official speaking at microphone and in office",
+   "kind": "stock"
+  },
+  {
+   "start_s": 44.5,
+   "end_s": 45.9,
+   "shows": "UEFA official walking in hallway",
+   "kind": "stock"
+  },
+  {
+   "start_s": 45.9,
+   "end_s": 48.0,
+   "shows": "Soccer player clapping",
+   "kind": "action"
+  },
+  {
+   "start_s": 48.0,
+   "end_s": 50.7,
+   "shows": "UEFA official talking outdoors",
+   "kind": "stock"
+  },
+  {
+   "start_s": 50.7,
+   "end_s": 52.9,
+   "shows": "Goalkeeper looking disappointed",
+   "kind": "action"
+  },
+  {
+   "start_s": 52.9,
+   "end_s": 54.6,
+   "shows": "Manager looking angry",
+   "kind": "action"
+  },
+  {
+   "start_s": 54.6,
+   "end_s": 56.0,
+   "shows": "Disappointed player walking on pitch",
+   "kind": "action"
+  },
+  {
+   "start_s": 56.0,
+   "end_s": 58.1,
+   "shows": "Manager waving to fans dejectedly",
+   "kind": "action"
+  },
+  {
+   "start_s": 58.1,
+   "end_s": 60.0,
+   "shows": "UEFA official speaking at microphone",
+   "kind": "stock"
+  },
+  {
+   "start_s": 60.0,
+   "end_s": 61.4,
+   "shows": "Disappointed player on pitch",
+   "kind": "action"
+  },
+  {
+   "start_s": 61.4,
+   "end_s": 63.5,
+   "shows": "Money bags graphic comparing 4 million to 19 million",
+   "kind": "text_card"
+  }
+ ],
+ "shot_count": 29,
+ "average_shot_s": 2.19,
+ "longest_shot_s": 4.8,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 175,
+  "tone": "informative and engaging",
+  "original_audio_under_voice": true
+ },
+ "music": {
+  "present": true,
+  "style": "dramatic cinematic beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "sentence",
+  "position": "lower-middle",
+  "colours": "white",
+  "highlight_style": "bold white text word-by-word highlight"
+ },
+ "text_overlays": [],
+ "cards_or_graphics": 4,
+ "framing": "crop",
+ "ending": {
+  "last_words": "whether you pocket 4 million or nearly 19.",
+  "last_frame": "Money bags graphic showing 4 million vs 19 million.",
+  "loops_to_start": true,
+  "call_to_action": "none"
+ },
+ "script": "How much money do teams that WIN their Champions League QUALIFIER GET? So the Champions League is the biggest club competition in football, and just to get into it, teams that didn't clinch an auto-qualification have to survive a brutal qualifying stage where clubs battle through these play-off rounds every year hoping to reach the league phase, where thirty-six teams get in. But the way clubs actually get paid for this is nothing like what you'd expect. When a team actually wins their qualifier, they don't get handed a special prize for winning that specific match, and there's no bonus for beating your opponent in that tie, because the reward is something much bigger. Well, financially at least. By winning, you unlock a spot in the league phase, and that's where UEFA's money machine kicks in, since every one of those thirty-six clubs gets a guaranteed 18.62 million euros, which is around 16 million pounds. That money comes split into a 17.87 million euro down payment and a 150 thousand euro balance later. But one missed result in that qualifier can cost a club almost everything. Teams that lose in the play-offs and miss the league phase walk away with just 4.29 million euros. So one result decides whether you pocket 4 million or nearly 19.",
+ "retention_tricks": [
+  "rapid shot cuts every 1-3 seconds",
+  "money figures highlighted with graphics",
+  "high contrast comparison at the end"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "Strong hook addressing a high-stakes financial question in European football",
+  "Fast-paced editing with frequent visual changes matching the narration rhythm",
+  "Clear contrast between the financial outcome of winning versus losing qualifiers"
+ ],
+ "_meta": {
+  "source": "OZRF4P55IBY",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

@@ -1,0 +1,49 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Montserrat Black,86,&H00FFFFFF,&H00FFFFFF,&H00000000,&H99000000,0,0,0,0,95,100,1,0,1,6,3,5,70,70,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.60,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BRONNY JAMES
+Dialogue: 0,0:00:00.60,0:00:01.02,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}GOT BETTER
+Dialogue: 0,0:00:01.02,0:00:01.52,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TWO YEARS
+Dialogue: 0,0:00:01.52,0:00:02.01,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN A ROW.
+Dialogue: 0,0:00:02.01,0:00:02.61,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AS A ROOKIE,
+Dialogue: 0,0:00:02.61,0:00:03.62,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HE MADE 31%
+Dialogue: 0,0:00:03.62,0:00:04.35,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}OF HIS SHOTS.
+Dialogue: 0,0:00:04.35,0:00:05.02,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}LAST SEASON,
+Dialogue: 0,0:00:05.02,0:00:05.69,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}41.
+Dialogue: 0,0:00:05.69,0:00:06.22,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FROM THREE,
+Dialogue: 0,0:00:06.22,0:00:07.80,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}28% BECAME 39.
+Dialogue: 0,0:00:07.80,0:00:08.14,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HE PLAYED
+Dialogue: 0,0:00:08.14,0:00:08.86,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}42 GAMES
+Dialogue: 0,0:00:08.86,0:00:09.76,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}INSTEAD OF 27,
+Dialogue: 0,0:00:09.76,0:00:10.18,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THEN EIGHT
+Dialogue: 0,0:00:10.18,0:00:10.48,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}MORE IN
+Dialogue: 0,0:00:10.48,0:00:11.08,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE PLAYOFFS.
+Dialogue: 0,0:00:11.08,0:00:12.20,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx81\fscy81\t(0,90,\fscx94\fscy94)}EVEN LUKA NOTICED.
+Dialogue: 0,0:00:12.20,0:00:13.04,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}DEFINITELY A BIG
+Dialogue: 0,0:00:13.04,0:00:13.32,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IMPROVEMENT
+Dialogue: 0,0:00:13.32,0:00:14.41,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FROM LAST YEAR.
+Dialogue: 0,0:00:14.41,0:00:14.84,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THIS MONTH,
+Dialogue: 0,0:00:14.84,0:00:15.37,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE LAKERS CUT
+Dialogue: 0,0:00:15.37,0:00:16.12,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx82\fscy82\t(0,90,\fscx95\fscy95)}A FIRST-ROUND PICK
+Dialogue: 0,0:00:16.12,0:00:16.86,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND KEPT BRONNY.
+Dialogue: 0,0:00:16.86,0:00:17.47,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ON OPENING NIGHT,
+Dialogue: 0,0:00:17.47,0:00:17.75,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HE PLAYED
+Dialogue: 0,0:00:17.75,0:00:18.22,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SEVEN MINUTES
+Dialogue: 0,0:00:18.22,0:00:18.55,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND TOOK
+Dialogue: 0,0:00:18.55,0:00:19.20,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ONE SHOT.
+Dialogue: 0,0:00:19.20,0:00:19.84,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IT WENT IN.
+Dialogue: 0,0:00:19.84,0:00:20.54,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SO THIS SEASON,
+Dialogue: 0,0:00:20.54,0:00:20.82,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BRONNY
+Dialogue: 0,0:00:20.82,0:00:21.89,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IS SHOOTING 100%.
+Dialogue: 0,0:00:21.89,0:00:22.40,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HE JUST HASN'T
+Dialogue: 0,0:00:22.40,0:00:23.30,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}PLAYED SINCE.

@@ -1,0 +1,241 @@
+{
+ "length_s": 67.5,
+ "topic": "Explaining how Emiliano Martínez unexpectedly moved to Chelsea for 7.5 million pounds.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "How the heck did Emiliano Martínez end up at Chelsea?",
+  "first_frame": "Football player running on pitch with text overlay",
+  "on_screen_text_0_3s": "How did Emiliano Martínez END UP AT CHELSEA?",
+  "shots_in_first_3s": 3
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 1.5,
+   "shows": "football match action",
+   "kind": "action"
+  },
+  {
+   "start_s": 1.5,
+   "end_s": 3.0,
+   "shows": "Emiliano Martínez in Aston Villa yellow kit",
+   "kind": "face"
+  },
+  {
+   "start_s": 3.0,
+   "end_s": 6.0,
+   "shows": "Martínez with Argentina squad",
+   "kind": "still"
+  },
+  {
+   "start_s": 6.0,
+   "end_s": 8.7,
+   "shows": "Messi holding World Cup with Martínez behind",
+   "kind": "still"
+  },
+  {
+   "start_s": 8.7,
+   "end_s": 11.5,
+   "shows": "Aston Villa trophy celebration",
+   "kind": "still"
+  },
+  {
+   "start_s": 11.5,
+   "end_s": 13.7,
+   "shows": "Xabi Alonso press conference",
+   "kind": "face"
+  },
+  {
+   "start_s": 13.7,
+   "end_s": 16.7,
+   "shows": "Martínez in Chelsea kit with money graphics",
+   "kind": "still"
+  },
+  {
+   "start_s": 16.7,
+   "end_s": 19.9,
+   "shows": "Martínez being interviewed",
+   "kind": "face"
+  },
+  {
+   "start_s": 19.9,
+   "end_s": 22.7,
+   "shows": "Players walking out onto pitch",
+   "kind": "action"
+  },
+  {
+   "start_s": 22.7,
+   "end_s": 24.9,
+   "shows": "Martínez looking serious in Villa kit",
+   "kind": "face"
+  },
+  {
+   "start_s": 24.9,
+   "end_s": 27.3,
+   "shows": "Goalkeeper training drills on grass",
+   "kind": "action"
+  },
+  {
+   "start_s": 27.3,
+   "end_s": 30.1,
+   "shows": "Zion Suzuki graphic",
+   "kind": "still"
+  },
+  {
+   "start_s": 30.1,
+   "end_s": 32.5,
+   "shows": "Martínez walking on pitch blurred",
+   "kind": "action"
+  },
+  {
+   "start_s": 32.5,
+   "end_s": 34.6,
+   "shows": "Martínez holding ball in kit",
+   "kind": "still"
+  },
+  {
+   "start_s": 34.6,
+   "end_s": 36.0,
+   "shows": "Xabi Alonso coaching on training ground",
+   "kind": "action"
+  },
+  {
+   "start_s": 36.0,
+   "end_s": 37.9,
+   "shows": "Xabi Alonso interview",
+   "kind": "face"
+  },
+  {
+   "start_s": 37.9,
+   "end_s": 39.2,
+   "shows": "Xabi Alonso press conference",
+   "kind": "face"
+  },
+  {
+   "start_s": 39.2,
+   "end_s": 41.0,
+   "shows": "Xabi Alonso interview",
+   "kind": "face"
+  },
+  {
+   "start_s": 41.0,
+   "end_s": 46.1,
+   "shows": "Xabi Alonso walking and gesturing",
+   "kind": "action"
+  },
+  {
+   "start_s": 46.1,
+   "end_s": 49.5,
+   "shows": "Robert Sánchez in Chelsea kit",
+   "kind": "still"
+  },
+  {
+   "start_s": 49.5,
+   "end_s": 52.8,
+   "shows": "Match action and Sánchez conceding",
+   "kind": "action"
+  },
+  {
+   "start_s": 52.8,
+   "end_s": 55.2,
+   "shows": "Martínez in Villa kit",
+   "kind": "still"
+  },
+  {
+   "start_s": 55.2,
+   "end_s": 57.2,
+   "shows": "Martínez walking off holding trophy",
+   "kind": "action"
+  },
+  {
+   "start_s": 57.2,
+   "end_s": 60.0,
+   "shows": "Chelsea players celebrating",
+   "kind": "action"
+  },
+  {
+   "start_s": 60.0,
+   "end_s": 62.7,
+   "shows": "Martínez being interviewed",
+   "kind": "face"
+  },
+  {
+   "start_s": 62.7,
+   "end_s": 63.9,
+   "shows": "Xabi Alonso walking",
+   "kind": "action"
+  },
+  {
+   "start_s": 63.9,
+   "end_s": 67.5,
+   "shows": "Martínez with Argentina squad",
+   "kind": "still"
+  }
+ ],
+ "shot_count": 27,
+ "average_shot_s": 2.5,
+ "longest_shot_s": 5.1,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 175,
+  "tone": "energetic and inquisitive",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "dramatic cinematic beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 2,
+  "case": "sentence",
+  "position": "middle",
+  "colours": "white",
+  "highlight_style": "pop-up word by word"
+ },
+ "text_overlays": [
+  {
+   "at_s": 0.0,
+   "text": "How did Emiliano Martínez END UP AT CHELSEA?"
+  }
+ ],
+ "cards_or_graphics": 4,
+ "framing": "crop",
+ "ending": {
+  "last_words": "ended up at Chelsea for pocket change.",
+  "last_frame": "Martínez with Argentina squad",
+  "loops_to_start": false,
+  "call_to_action": "please hit the follow button."
+ },
+ "script": "How the heck did Emiliano Martínez end up at Chelsea? Emiliano Martínez is one of the best goalkeepers on the planet, having won the World Cup with Argentina in 2022, and last season he helped Aston Villa win the Europa League. So when Chelsea announced they'd signed him this week for just 7.5 million pounds, everyone did a double take. But the reason this transfer is so shocking has nothing to do with the price, and everything to do with what happened over one specific game. See, Villa had already moved on from Dibu, because they'd spent nearly 30 million pounds on a young Japanese keeper named Zion Suzuki to be their new number one, and Martínez was left out of their squad completely. His agents needed to find him a new club fast, but meanwhile over at Chelsea, manager Xabi Alonso kept telling everyone he was happy with his goalkeepers and wasn't looking to buy anyone. But one bad 90 minutes was about to blow that plan wide open, and if you're enjoying the video, please hit the follow button. Chelsea's current keeper Robert Sánchez had a rough game against Fulham, making an error in a 3-2 win that put him under massive pressure, so Martínez's agents saw the opening and pounced, offering him straight to Chelsea within hours. The wild part is that Chelsea aren't even in Europe this season, so Dibu chose to walk away from a Champions League club for no European football at all. And that's the answer to how a World Cup winner ended up at Chelsea for pocket change.",
+ "retention_tricks": [
+  "rapid shot cuts averaging 2.5 seconds",
+  "hook posing a surprising transfer mystery in first 3 seconds",
+  "call to action midway through video",
+  "contrasting narrative of world cup winner moving to non-European club"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "Compelling hook about an unexpected and shocking football transfer",
+  "Fast-paced visual storytelling with high-density archival footage and cutaways",
+  "Clear narrative arc explaining the chain reaction from Villa's new signing to Chelsea's keeper error"
+ ],
+ "_meta": {
+  "source": "waFSdP7r2LQ",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

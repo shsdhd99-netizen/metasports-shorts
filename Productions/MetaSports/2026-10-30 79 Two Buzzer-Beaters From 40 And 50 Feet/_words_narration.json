@@ -1,0 +1,397 @@
+[
+ {
+  "word": "Two",
+  "start": 0.0,
+  "end": 0.163
+ },
+ {
+  "word": "players",
+  "start": 0.209,
+  "end": 0.441
+ },
+ {
+  "word": "hit",
+  "start": 0.476,
+  "end": 0.557
+ },
+ {
+  "word": "buzzer-beaters",
+  "start": 0.604,
+  "end": 1.068
+ },
+ {
+  "word": "from",
+  "start": 1.091,
+  "end": 1.184
+ },
+ {
+  "word": "40",
+  "start": 1.254,
+  "end": 1.509
+ },
+ {
+  "word": "and",
+  "start": 1.556,
+  "end": 1.625
+ },
+ {
+  "word": "50",
+  "start": 1.683,
+  "end": 1.904
+ },
+ {
+  "word": "feet",
+  "start": 1.95,
+  "end": 2.101
+ },
+ {
+  "word": "on",
+  "start": 2.136,
+  "end": 2.206
+ },
+ {
+  "word": "Wednesday.",
+  "start": 2.264,
+  "end": 2.74
+ },
+ {
+  "word": "First,",
+  "start": 2.763,
+  "end": 2.995
+ },
+ {
+  "word": "Miami's",
+  "start": 3.019,
+  "end": 3.402
+ },
+ {
+  "word": "Nikola",
+  "start": 3.471,
+  "end": 3.738
+ },
+ {
+  "word": "Jović.",
+  "start": 3.808,
+  "end": 4.191
+ },
+ {
+  "word": "Loose",
+  "start": 4.238,
+  "end": 4.458
+ },
+ {
+  "word": "ball,",
+  "start": 4.505,
+  "end": 4.865
+ },
+ {
+  "word": "one",
+  "start": 4.911,
+  "end": 5.074
+ },
+ {
+  "word": "second",
+  "start": 5.097,
+  "end": 5.283
+ },
+ {
+  "word": "left",
+  "start": 5.317,
+  "end": 5.445
+ },
+ {
+  "word": "in",
+  "start": 5.48,
+  "end": 5.526
+ },
+ {
+  "word": "the",
+  "start": 5.55,
+  "end": 5.619
+ },
+ {
+  "word": "half,",
+  "start": 5.666,
+  "end": 5.921
+ },
+ {
+  "word": "and",
+  "start": 5.944,
+  "end": 6.026
+ },
+ {
+  "word": "he",
+  "start": 6.072,
+  "end": 6.118
+ },
+ {
+  "word": "hits",
+  "start": 6.211,
+  "end": 6.409
+ },
+ {
+  "word": "it",
+  "start": 6.432,
+  "end": 6.478
+ },
+ {
+  "word": "from",
+  "start": 6.502,
+  "end": 6.594
+ },
+ {
+  "word": "40",
+  "start": 6.653,
+  "end": 6.873
+ },
+ {
+  "word": "feet.",
+  "start": 6.943,
+  "end": 7.279
+ },
+ {
+  "word": "Twenty",
+  "start": 7.303,
+  "end": 7.5
+ },
+ {
+  "word": "minutes",
+  "start": 7.523,
+  "end": 7.721
+ },
+ {
+  "word": "later",
+  "start": 7.744,
+  "end": 7.918
+ },
+ {
+  "word": "in",
+  "start": 7.953,
+  "end": 7.999
+ },
+ {
+  "word": "Indiana,",
+  "start": 8.046,
+  "end": 8.51
+ },
+ {
+  "word": "VJ",
+  "start": 8.545,
+  "end": 8.928
+ },
+ {
+  "word": "Edgecombe",
+  "start": 8.951,
+  "end": 9.23
+ },
+ {
+  "word": "grabs",
+  "start": 9.265,
+  "end": 9.589
+ },
+ {
+  "word": "a",
+  "start": 9.613,
+  "end": 9.636
+ },
+ {
+  "word": "rebound",
+  "start": 9.706,
+  "end": 9.996
+ },
+ {
+  "word": "with",
+  "start": 10.019,
+  "end": 10.112
+ },
+ {
+  "word": "a",
+  "start": 10.135,
+  "end": 10.158
+ },
+ {
+  "word": "second",
+  "start": 10.216,
+  "end": 10.437
+ },
+ {
+  "word": "left.",
+  "start": 10.495,
+  "end": 10.855
+ },
+ {
+  "word": "He",
+  "start": 10.878,
+  "end": 10.925
+ },
+ {
+  "word": "throws",
+  "start": 10.971,
+  "end": 11.145
+ },
+ {
+  "word": "it",
+  "start": 11.168,
+  "end": 11.215
+ },
+ {
+  "word": "from",
+  "start": 11.238,
+  "end": 11.331
+ },
+ {
+  "word": "50",
+  "start": 11.401,
+  "end": 11.656
+ },
+ {
+  "word": "feet,",
+  "start": 11.714,
+  "end": 11.958
+ },
+ {
+  "word": "and",
+  "start": 11.981,
+  "end": 12.062
+ },
+ {
+  "word": "it",
+  "start": 12.12,
+  "end": 12.167
+ },
+ {
+  "word": "drops.",
+  "start": 12.225,
+  "end": 12.794
+ },
+ {
+  "word": "But",
+  "start": 12.817,
+  "end": 12.91
+ },
+ {
+  "word": "here's",
+  "start": 12.945,
+  "end": 13.107
+ },
+ {
+  "word": "the",
+  "start": 13.13,
+  "end": 13.2
+ },
+ {
+  "word": "funny",
+  "start": 13.223,
+  "end": 13.409
+ },
+ {
+  "word": "part.",
+  "start": 13.456,
+  "end": 13.665
+ },
+ {
+  "word": "Jović",
+  "start": 13.699,
+  "end": 13.99
+ },
+ {
+  "word": "played",
+  "start": 14.036,
+  "end": 14.257
+ },
+ {
+  "word": "seven",
+  "start": 14.326,
+  "end": 14.57
+ },
+ {
+  "word": "minutes",
+  "start": 14.605,
+  "end": 14.802
+ },
+ {
+  "word": "all",
+  "start": 14.849,
+  "end": 15.069
+ },
+ {
+  "word": "game.",
+  "start": 15.139,
+  "end": 15.499
+ },
+ {
+  "word": "And",
+  "start": 15.522,
+  "end": 15.603
+ },
+ {
+  "word": "Edgecombe",
+  "start": 15.661,
+  "end": 15.998
+ },
+ {
+  "word": "went",
+  "start": 16.021,
+  "end": 16.149
+ },
+ {
+  "word": "one",
+  "start": 16.219,
+  "end": 16.463
+ },
+ {
+  "word": "for",
+  "start": 16.509,
+  "end": 16.613
+ },
+ {
+  "word": "six",
+  "start": 16.683,
+  "end": 16.892
+ },
+ {
+  "word": "from",
+  "start": 16.927,
+  "end": 17.02
+ },
+ {
+  "word": "three.",
+  "start": 17.089,
+  "end": 17.415
+ },
+ {
+  "word": "His",
+  "start": 17.438,
+  "end": 17.542
+ },
+ {
+  "word": "only",
+  "start": 17.589,
+  "end": 17.763
+ },
+ {
+  "word": "make",
+  "start": 17.809,
+  "end": 18.053
+ },
+ {
+  "word": "came",
+  "start": 18.111,
+  "end": 18.332
+ },
+ {
+  "word": "from",
+  "start": 18.355,
+  "end": 18.448
+ },
+ {
+  "word": "50",
+  "start": 18.506,
+  "end": 18.761
+ },
+ {
+  "word": "feet.",
+  "start": 18.819,
+  "end": 19.214
+ }
+]

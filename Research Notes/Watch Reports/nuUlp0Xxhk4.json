@@ -1,0 +1,181 @@
+{
+ "length_s": 63.0,
+ "topic": "Comparing Klay Thompson to Ray Allen and whether Klay is Ray Allen 2.0.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "When Klay Thompson signed a two-year deal with the Heat, the immediate connection fans made was Ray Allen 2.0.",
+  "first_frame": "A cartoon illustration of Klay Thompson and Ray Allen in Heat jerseys dancing on a beach background.",
+  "on_screen_text_0_3s": "Is Klay Thompson Ray Allen 2.0?",
+  "shots_in_first_3s": 4
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 0.9,
+   "shows": "Cartoon Klay and Ray Allen dancing on a beach",
+   "kind": "stock"
+  },
+  {
+   "start_s": 0.9,
+   "end_s": 2.0,
+   "shows": "Close-up of cartoon Klay and Ray Allen",
+   "kind": "stock"
+  },
+  {
+   "start_s": 2.0,
+   "end_s": 6.0,
+   "shows": "Cartoon Klay and Ray Allen dancing on beach",
+   "kind": "stock"
+  },
+  {
+   "start_s": 6.0,
+   "end_s": 8.0,
+   "shows": "Cartoon coach Eric Spoelstra standing between Klay and Ray Allen",
+   "kind": "stock"
+  },
+  {
+   "start_s": 8.0,
+   "end_s": 11.0,
+   "shows": "Cartoon Klay and Ray Allen doing basketball moves",
+   "kind": "stock"
+  },
+  {
+   "start_s": 11.0,
+   "end_s": 14.0,
+   "shows": "Klay Thompson in a Heat jersey holding a basketball in a photo shoot",
+   "kind": "stock"
+  },
+  {
+   "start_s": 14.0,
+   "end_s": 18.0,
+   "shows": "Cartoon Ray Allen (Boston) and Klay Thompson (Warriors) dancing",
+   "kind": "stock"
+  },
+  {
+   "start_s": 18.0,
+   "end_s": 24.6,
+   "shows": "Ray Allen hitting the iconic game-winning three in the NBA Finals",
+   "kind": "replay"
+  },
+  {
+   "start_s": 24.6,
+   "end_s": 29.0,
+   "shows": "Chalkboard graphic comparing Klay and Ray Allen stats",
+   "kind": "text_card"
+  },
+  {
+   "start_s": 29.0,
+   "end_s": 37.6,
+   "shows": "Another angle of Ray Allen's clutch shot in the Finals",
+   "kind": "replay"
+  },
+  {
+   "start_s": 37.6,
+   "end_s": 39.9,
+   "shows": "Chalkboard graphic with player stats",
+   "kind": "text_card"
+  },
+  {
+   "start_s": 39.9,
+   "end_s": 42.0,
+   "shows": "Klay Thompson in Dallas jersey running on court",
+   "kind": "action"
+  },
+  {
+   "start_s": 42.0,
+   "end_s": 48.0,
+   "shows": "Klay Thompson playing for Dallas",
+   "kind": "action"
+  },
+  {
+   "start_s": 48.0,
+   "end_s": 49.3,
+   "shows": "Klay Thompson dribbling in Dallas uniform",
+   "kind": "action"
+  },
+  {
+   "start_s": 49.3,
+   "end_s": 54.2,
+   "shows": "Klay Thompson in Heat jersey posing with basketball",
+   "kind": "stock"
+  },
+  {
+   "start_s": 54.2,
+   "end_s": 57.3,
+   "shows": "Cartoon Klay between Bam Adebayo and teammate in Heat jerseys",
+   "kind": "stock"
+  },
+  {
+   "start_s": 57.3,
+   "end_s": 63.0,
+   "shows": "NBA game footage of a game-winning buzzer beater and celebration",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 17,
+ "average_shot_s": 3.7,
+ "longest_shot_s": 6.6,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 160,
+  "tone": "conversational and informative",
+  "original_audio_under_voice": true
+ },
+ "music": {
+  "present": true,
+  "style": "upbeat hip-hop beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": false,
+  "words_per_line": 0,
+  "case": "sentence",
+  "position": "bottom",
+  "colours": [],
+  "highlight_style": "none"
+ },
+ "text_overlays": [
+  {
+   "at_s": 0.0,
+   "text": "Is Klay Thompson Ray Allen 2.0?"
+  }
+ ],
+ "cards_or_graphics": 2,
+ "framing": "crop",
+ "ending": {
+  "last_words": "and Andrew Wiggins",
+  "last_frame": "Players celebrating on the court after a buzzer-beater.",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "When Klay Thompson signed a two-year deal with the Heat, the immediate connection fans made was Ray Allen 2.0. To be fair, there are similarities here. Both players are three-point shooting legends who come from a championship pedigree on the back end of their career to play a limited but important bench role to help space the floor and make big clutch shots when the time is right. As far as the numbers go, Allen was 37 and 38 during his time with Miami. The last two years of his 18-year career, and despite that, he still managed to play 79 and 73 games in each of the seasons and then put up a solid 10 points per game on roughly 40% three-point shooting. Klay Thompson is currently 36, so about a year younger, and just came off of a 12 point-per-game season in Dallas, playing 69 games on 38% three-point shooting. Klay himself says he's motivated to have a redemption season, so it's possible he can make a big splash with the Yiannis and Bans, who's getting most of the opposing defense's attention, but he is most likely going to come off the bench as a veteran guy behind Tim Hardaway Jr. and Andrew Wiggins.",
+ "retention_tricks": [
+  "rapid-fire cuts",
+  "cartoon character avatars of NBA players",
+  "archival game footage highlights",
+  "stat comparisons on chalkboard graphics"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": true,
+  "promise_in_first_line": true,
+  "ends_on_payoff": false,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "Engaging visual style combining retro pixel art cartoons with real NBA footage",
+  "Clear statistical comparison between Klay Thompson and Ray Allen's veteran years",
+  "Relevant and timely topic regarding Klay Thompson's career trajectory"
+ ],
+ "_meta": {
+  "source": "nuUlp0Xxhk4",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

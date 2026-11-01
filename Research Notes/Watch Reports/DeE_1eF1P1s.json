@@ -1,0 +1,229 @@
+{
+ "length_s": 93.5,
+ "topic": "The ongoing tension and investigation between the NBA and ESPN regarding Kawhi Leonard's trade and the salary cap.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "There's a standoff right now between ESPN and the NBA.",
+  "first_frame": "Animated character of a muscular broccoli in a pot next to an animated Kawhi Leonard figure.",
+  "on_screen_text_0_3s": "NBA vs ESPN: What's Going on with Kawhi?",
+  "shots_in_first_3s": 2
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 2.8,
+   "shows": "Animated broccoli character and Kawhi Leonard avatar",
+   "kind": "action"
+  },
+  {
+   "start_s": 2.8,
+   "end_s": 4.8,
+   "shows": "Kawhi Leonard avatar holding a goose in a basketball arena",
+   "kind": "action"
+  },
+  {
+   "start_s": 4.8,
+   "end_s": 7.5,
+   "shows": "NBA draft scene with animated characters",
+   "kind": "action"
+  },
+  {
+   "start_s": 7.5,
+   "end_s": 12.3,
+   "shows": "Steve Ballmer character with Kawhi Leonard avatar next to the broccoli pot",
+   "kind": "action"
+  },
+  {
+   "start_s": 12.3,
+   "end_s": 15.9,
+   "shows": "Animated character pointing at a US map on a chalkboard",
+   "kind": "action"
+  },
+  {
+   "start_s": 15.9,
+   "end_s": 20.3,
+   "shows": "Adam Silver speaking at Economic Club",
+   "kind": "face"
+  },
+  {
+   "start_s": 20.3,
+   "end_s": 21.9,
+   "shows": "Kawhi Leonard avatar holding goose in arena",
+   "kind": "action"
+  },
+  {
+   "start_s": 21.9,
+   "end_s": 22.5,
+   "shows": "NBA draft scene with Clippers players",
+   "kind": "action"
+  },
+  {
+   "start_s": 22.5,
+   "end_s": 27.2,
+   "shows": "Phone showing ESPN red background and logo",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 27.2,
+   "end_s": 32.2,
+   "shows": "Article headline on screen 'We stand by our (ongoing) reporting on Kawhi Leonard'",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 32.2,
+   "end_s": 34.3,
+   "shows": "Kawhi Leonard avatar holding goose in arena",
+   "kind": "action"
+  },
+  {
+   "start_s": 34.3,
+   "end_s": 37.3,
+   "shows": "NBA draft scene with Clippers players",
+   "kind": "action"
+  },
+  {
+   "start_s": 37.3,
+   "end_s": 39.5,
+   "shows": "Kawhi Leonard avatar holding goose in arena",
+   "kind": "action"
+  },
+  {
+   "start_s": 39.5,
+   "end_s": 41.8,
+   "shows": "Phone showing Steve Ballmer and another man",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 41.8,
+   "end_s": 47.4,
+   "shows": "Joe Smith speaking in a podcast setup",
+   "kind": "face"
+  },
+  {
+   "start_s": 47.4,
+   "end_s": 51.0,
+   "shows": "Phone collage showing Joe Smith and archival basketball clips",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 51.0,
+   "end_s": 53.6,
+   "shows": "Archival footage of Joe Smith drafted by the Warriors",
+   "kind": "replay"
+  },
+  {
+   "start_s": 53.6,
+   "end_s": 55.0,
+   "shows": "Joe Smith dunking in game",
+   "kind": "replay"
+  },
+  {
+   "start_s": 55.0,
+   "end_s": 58.7,
+   "shows": "Minnesota Timberwolves logo and graphic animation",
+   "kind": "action"
+  },
+  {
+   "start_s": 58.7,
+   "end_s": 60.4,
+   "shows": "Joe Smith speaking",
+   "kind": "face"
+  },
+  {
+   "start_s": 60.4,
+   "end_s": 113.3,
+   "shows": "Draft stage archival footage with David Stern",
+   "kind": "replay"
+  },
+  {
+   "start_s": 113.3,
+   "end_s": 114.9,
+   "shows": "Archival footage of Joe Smith drafted",
+   "kind": "replay"
+  },
+  {
+   "start_s": 114.9,
+   "end_s": 119.5,
+   "shows": "Archival emotional basketball executive hugging player",
+   "kind": "replay"
+  },
+  {
+   "start_s": 119.5,
+   "end_s": 122.9,
+   "shows": "Steve Ballmer character and Kawhi Leonard avatar by broccoli pot",
+   "kind": "action"
+  },
+  {
+   "start_s": 122.9,
+   "end_s": 133.5,
+   "shows": "Adam Silver speaking at Economic Club",
+   "kind": "face"
+  }
+ ],
+ "shot_count": 25,
+ "average_shot_s": 5.34,
+ "longest_shot_s": 52.9,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 175,
+  "tone": "investigative / dramatic",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "suspenseful / electronic beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 4,
+  "case": "mixed",
+  "position": "middle",
+  "colours": "white with yellow highlights",
+  "highlight_style": "word by word"
+ },
+ "text_overlays": [
+  {
+   "at_s": 0.0,
+   "text": "NBA vs ESPN: What's Going on with Kawhi?"
+  }
+ ],
+ "cards_or_graphics": 4,
+ "framing": "crop",
+ "ending": {
+  "last_words": "And we really hope you don't turn a blind eye and say there is no evidence if there is indeed some evidence.",
+  "last_frame": "Adam Silver speaking in a dark suit and red patterned tie.",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "There's a standoff right now between ESPN and the NBA. ESPN is reporting that after 11 months of investigating, the NBA has found no evidence proving Steve Ballmer essentially funneled sponsor money to Kawhi Leonard to circumvent the salary cap. But the NBA is pushing back, saying ESPN's report contains numerous and significant inaccuracies and that the investigation is still ongoing, meaning no final judgment has been made yet. Then ESPN doubled down as an ESPN spokesman sent this statement to The Athletic, stating we stand by our (ongoing) reporting on Kawhi Leonard, which include numerous attempts by ESPN to get comment from the NBA. ESPN's reporting also suggests that Kawhi Leonard's trade to Toronto is increasingly likely to eventually go through. So, although a possible punishment for the Clippers has not been ruled out, the last time something similar to this happened was when the Timberwolves tried to go around the salary cap in 2000. Joe Smith was a former number one overall pick, signed with Minnesota for way less money than he could have gotten elsewhere. But behind the scenes, Minnesota had secretly promised Smith a massive future contract once they obtained his bird rights. And most importantly, the NBA actually found evidence of that agreement in writing. David Stern absolutely hammered them. Five first-round picks were forfeited initially. They eventually got two back, so they lost three. They received a $3.5 million fine. Joe Smith's contract was voided and owner Glen Taylor and executive Kevin McHale were temporarily suspended from basketball operations. So, if the NBA ultimately finds that the Clippers really did circumvent the salary cap, we're hoping Adam Silver can do what David Stern did and actually enforce the rules, and we really hope you don't turn a blind eye and say there is no evidence if there is indeed some evidence.",
+ "retention_tricks": [
+  "rapid cuts",
+  "moving animated characters",
+  "archival footage inserts",
+  "zooming and panning on screenshots"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "Combines animated explainer visuals with real archival sports footage",
+  "Covers a major ongoing sports controversy with clear narrative stakes",
+  "Fast-paced editing keeping viewers engaged through audio-visual variety"
+ ],
+ "_meta": {
+  "source": "DeE_1eF1P1s",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

@@ -1,0 +1,977 @@
+[
+ {
+  "word": "Barcelona",
+  "start": 0.0,
+  "end": 0.453
+ },
+ {
+  "word": "paid",
+  "start": 0.488,
+  "end": 0.627
+ },
+ {
+  "word": "a",
+  "start": 0.65,
+  "end": 0.673
+ },
+ {
+  "word": "fortune",
+  "start": 0.766,
+  "end": 1.126
+ },
+ {
+  "word": "for",
+  "start": 1.161,
+  "end": 1.231
+ },
+ {
+  "word": "the",
+  "start": 1.254,
+  "end": 1.324
+ },
+ {
+  "word": "player",
+  "start": 1.358,
+  "end": 1.649
+ },
+ {
+  "word": "who",
+  "start": 1.695,
+  "end": 1.788
+ },
+ {
+  "word": "knocked",
+  "start": 1.846,
+  "end": 2.043
+ },
+ {
+  "word": "them",
+  "start": 2.067,
+  "end": 2.171
+ },
+ {
+  "word": "out.",
+  "start": 2.229,
+  "end": 2.451
+ },
+ {
+  "word": "Back",
+  "start": 2.451,
+  "end": 2.657
+ },
+ {
+  "word": "in",
+  "start": 2.703,
+  "end": 2.75
+ },
+ {
+  "word": "January",
+  "start": 2.796,
+  "end": 3.179
+ },
+ {
+  "word": "2018,",
+  "start": 3.214,
+  "end": 3.876
+ },
+ {
+  "word": "Barcelona",
+  "start": 3.969,
+  "end": 4.41
+ },
+ {
+  "word": "signed",
+  "start": 4.468,
+  "end": 4.712
+ },
+ {
+  "word": "Philippe",
+  "start": 4.747,
+  "end": 5.037
+ },
+ {
+  "word": "Coutinho",
+  "start": 5.072,
+  "end": 5.524
+ },
+ {
+  "word": "from",
+  "start": 5.571,
+  "end": 5.664
+ },
+ {
+  "word": "Liverpool,",
+  "start": 5.71,
+  "end": 6.14
+ },
+ {
+  "word": "for",
+  "start": 6.163,
+  "end": 6.279
+ },
+ {
+  "word": "a",
+  "start": 6.302,
+  "end": 6.326
+ },
+ {
+  "word": "reported",
+  "start": 6.384,
+  "end": 6.744
+ },
+ {
+  "word": "160 million",
+  "start": 6.836,
+  "end": 8.067
+ },
+ {
+  "word": "euros,",
+  "start": 8.125,
+  "end": 8.59
+ },
+ {
+  "word": "one",
+  "start": 8.624,
+  "end": 8.729
+ },
+ {
+  "word": "of",
+  "start": 8.752,
+  "end": 8.798
+ },
+ {
+  "word": "the",
+  "start": 8.822,
+  "end": 8.891
+ },
+ {
+  "word": "most",
+  "start": 8.926,
+  "end": 9.042
+ },
+ {
+  "word": "expensive",
+  "start": 9.089,
+  "end": 9.483
+ },
+ {
+  "word": "transfers",
+  "start": 9.507,
+  "end": 9.82
+ },
+ {
+  "word": "ever.",
+  "start": 9.878,
+  "end": 10.261
+ },
+ {
+  "word": "But",
+  "start": 10.28,
+  "end": 10.408
+ },
+ {
+  "word": "it",
+  "start": 10.454,
+  "end": 10.5
+ },
+ {
+  "word": "never",
+  "start": 10.558,
+  "end": 10.756
+ },
+ {
+  "word": "clicked.",
+  "start": 10.814,
+  "end": 11.151
+ },
+ {
+  "word": "Meanwhile,",
+  "start": 11.174,
+  "end": 11.569
+ },
+ {
+  "word": "Liverpool",
+  "start": 11.603,
+  "end": 11.94
+ },
+ {
+  "word": "added",
+  "start": 11.986,
+  "end": 12.172
+ },
+ {
+  "word": "Virgil",
+  "start": 12.207,
+  "end": 12.393
+ },
+ {
+  "word": "van",
+  "start": 12.428,
+  "end": 12.521
+ },
+ {
+  "word": "Dijk",
+  "start": 12.567,
+  "end": 12.764
+ },
+ {
+  "word": "and",
+  "start": 12.811,
+  "end": 12.88
+ },
+ {
+  "word": "Alisson,",
+  "start": 12.95,
+  "end": 13.426
+ },
+ {
+  "word": "and",
+  "start": 13.449,
+  "end": 13.542
+ },
+ {
+  "word": "won",
+  "start": 13.6,
+  "end": 13.751
+ },
+ {
+  "word": "the",
+  "start": 13.786,
+  "end": 13.856
+ },
+ {
+  "word": "Champions",
+  "start": 13.891,
+  "end": 14.192
+ },
+ {
+  "word": "League",
+  "start": 14.25,
+  "end": 14.413
+ },
+ {
+  "word": "in",
+  "start": 14.436,
+  "end": 14.483
+ },
+ {
+  "word": "2019.",
+  "start": 14.529,
+  "end": 15.351
+ },
+ {
+  "word": "That",
+  "start": 15.351,
+  "end": 15.508
+ },
+ {
+  "word": "summer,",
+  "start": 15.554,
+  "end": 15.833
+ },
+ {
+  "word": "Barcelona",
+  "start": 15.868,
+  "end": 16.286
+ },
+ {
+  "word": "loaned",
+  "start": 16.356,
+  "end": 16.634
+ },
+ {
+  "word": "Coutinho",
+  "start": 16.681,
+  "end": 17.145
+ },
+ {
+  "word": "to",
+  "start": 17.226,
+  "end": 17.273
+ },
+ {
+  "word": "Bayern",
+  "start": 17.342,
+  "end": 17.644
+ },
+ {
+  "word": "Munich,",
+  "start": 17.691,
+  "end": 18.027
+ },
+ {
+  "word": "who",
+  "start": 18.051,
+  "end": 18.143
+ },
+ {
+  "word": "paid",
+  "start": 18.202,
+  "end": 18.352
+ },
+ {
+  "word": "just",
+  "start": 18.387,
+  "end": 18.503
+ },
+ {
+  "word": "8.5 million",
+  "start": 18.55,
+  "end": 19.293
+ },
+ {
+  "word": "euros",
+  "start": 19.34,
+  "end": 19.583
+ },
+ {
+  "word": "to",
+  "start": 19.618,
+  "end": 19.665
+ },
+ {
+  "word": "borrow",
+  "start": 19.711,
+  "end": 19.967
+ },
+ {
+  "word": "him.",
+  "start": 20.025,
+  "end": 20.21
+ },
+ {
+  "word": "Then,",
+  "start": 20.234,
+  "end": 20.477
+ },
+ {
+  "word": "in",
+  "start": 20.501,
+  "end": 20.582
+ },
+ {
+  "word": "August",
+  "start": 20.628,
+  "end": 20.849
+ },
+ {
+  "word": "2020,",
+  "start": 20.872,
+  "end": 21.406
+ },
+ {
+  "word": "Barcelona",
+  "start": 21.499,
+  "end": 21.905
+ },
+ {
+  "word": "met",
+  "start": 21.952,
+  "end": 22.056
+ },
+ {
+  "word": "Bayern",
+  "start": 22.114,
+  "end": 22.463
+ },
+ {
+  "word": "in",
+  "start": 22.509,
+  "end": 22.556
+ },
+ {
+  "word": "the",
+  "start": 22.59,
+  "end": 22.66
+ },
+ {
+  "word": "Champions",
+  "start": 22.695,
+  "end": 23.043
+ },
+ {
+  "word": "League",
+  "start": 23.09,
+  "end": 23.287
+ },
+ {
+  "word": "quarter-final,",
+  "start": 23.31,
+  "end": 23.914
+ },
+ {
+  "word": "in",
+  "start": 23.937,
+  "end": 24.042
+ },
+ {
+  "word": "Lisbon.",
+  "start": 24.123,
+  "end": 24.553
+ },
+ {
+  "word": "Bayern",
+  "start": 24.576,
+  "end": 24.866
+ },
+ {
+  "word": "destroyed",
+  "start": 24.901,
+  "end": 25.272
+ },
+ {
+  "word": "Messi's",
+  "start": 25.307,
+  "end": 25.551
+ },
+ {
+  "word": "Barcelona.",
+  "start": 25.586,
+  "end": 26.167
+ },
+ {
+  "word": "It",
+  "start": 26.171,
+  "end": 26.252
+ },
+ {
+  "word": "was",
+  "start": 26.287,
+  "end": 26.357
+ },
+ {
+  "word": "the",
+  "start": 26.392,
+  "end": 26.461
+ },
+ {
+  "word": "first",
+  "start": 26.519,
+  "end": 26.717
+ },
+ {
+  "word": "time",
+  "start": 26.74,
+  "end": 26.937
+ },
+ {
+  "word": "Barcelona",
+  "start": 26.961,
+  "end": 27.344
+ },
+ {
+  "word": "had",
+  "start": 27.39,
+  "end": 27.46
+ },
+ {
+  "word": "conceded",
+  "start": 27.495,
+  "end": 27.843
+ },
+ {
+  "word": "eight",
+  "start": 27.924,
+  "end": 28.087
+ },
+ {
+  "word": "goals",
+  "start": 28.133,
+  "end": 28.354
+ },
+ {
+  "word": "in",
+  "start": 28.389,
+  "end": 28.435
+ },
+ {
+  "word": "a",
+  "start": 28.458,
+  "end": 28.482
+ },
+ {
+  "word": "match",
+  "start": 28.528,
+  "end": 28.76
+ },
+ {
+  "word": "since",
+  "start": 28.783,
+  "end": 28.923
+ },
+ {
+  "word": "1946.",
+  "start": 28.958,
+  "end": 29.724
+ },
+ {
+  "word": "And",
+  "start": 29.759,
+  "end": 29.84
+ },
+ {
+  "word": "the",
+  "start": 29.863,
+  "end": 29.933
+ },
+ {
+  "word": "man",
+  "start": 29.968,
+  "end": 30.095
+ },
+ {
+  "word": "who",
+  "start": 30.119,
+  "end": 30.188
+ },
+ {
+  "word": "finished",
+  "start": 30.235,
+  "end": 30.455
+ },
+ {
+  "word": "them",
+  "start": 30.478,
+  "end": 30.571
+ },
+ {
+  "word": "off?",
+  "start": 30.629,
+  "end": 30.92
+ },
+ {
+  "word": "Philippe",
+  "start": 30.928,
+  "end": 31.381
+ },
+ {
+  "word": "Coutinho.",
+  "start": 31.439,
+  "end": 32.007
+ },
+ {
+  "word": "He",
+  "start": 32.031,
+  "end": 32.089
+ },
+ {
+  "word": "came",
+  "start": 32.147,
+  "end": 32.321
+ },
+ {
+  "word": "off",
+  "start": 32.356,
+  "end": 32.46
+ },
+ {
+  "word": "the",
+  "start": 32.483,
+  "end": 32.553
+ },
+ {
+  "word": "bench,",
+  "start": 32.588,
+  "end": 32.89
+ },
+ {
+  "word": "set",
+  "start": 32.948,
+  "end": 33.11
+ },
+ {
+  "word": "up",
+  "start": 33.145,
+  "end": 33.203
+ },
+ {
+  "word": "a",
+  "start": 33.238,
+  "end": 33.261
+ },
+ {
+  "word": "goal,",
+  "start": 33.308,
+  "end": 33.586
+ },
+ {
+  "word": "then",
+  "start": 33.61,
+  "end": 33.737
+ },
+ {
+  "word": "scored",
+  "start": 33.784,
+  "end": 34.016
+ },
+ {
+  "word": "two",
+  "start": 34.039,
+  "end": 34.167
+ },
+ {
+  "word": "more,",
+  "start": 34.237,
+  "end": 34.527
+ },
+ {
+  "word": "against",
+  "start": 34.55,
+  "end": 34.759
+ },
+ {
+  "word": "the",
+  "start": 34.782,
+  "end": 34.852
+ },
+ {
+  "word": "club",
+  "start": 34.887,
+  "end": 35.107
+ },
+ {
+  "word": "that",
+  "start": 35.142,
+  "end": 35.235
+ },
+ {
+  "word": "still",
+  "start": 35.27,
+  "end": 35.432
+ },
+ {
+  "word": "owned",
+  "start": 35.49,
+  "end": 35.641
+ },
+ {
+  "word": "him.",
+  "start": 35.688,
+  "end": 35.862
+ },
+ {
+  "word": "He",
+  "start": 35.885,
+  "end": 35.932
+ },
+ {
+  "word": "barely",
+  "start": 35.99,
+  "end": 36.222
+ },
+ {
+  "word": "celebrated.",
+  "start": 36.257,
+  "end": 36.721
+ },
+ {
+  "word": "Bayern",
+  "start": 36.756,
+  "end": 37.023
+ },
+ {
+  "word": "went",
+  "start": 37.07,
+  "end": 37.186
+ },
+ {
+  "word": "on",
+  "start": 37.232,
+  "end": 37.337
+ },
+ {
+  "word": "to",
+  "start": 37.383,
+  "end": 37.43
+ },
+ {
+  "word": "win",
+  "start": 37.476,
+  "end": 37.616
+ },
+ {
+  "word": "the",
+  "start": 37.639,
+  "end": 37.708
+ },
+ {
+  "word": "whole",
+  "start": 37.743,
+  "end": 37.883
+ },
+ {
+  "word": "competition,",
+  "start": 37.906,
+  "end": 38.382
+ },
+ {
+  "word": "and",
+  "start": 38.405,
+  "end": 38.475
+ },
+ {
+  "word": "Coutinho",
+  "start": 38.51,
+  "end": 38.869
+ },
+ {
+  "word": "played",
+  "start": 38.939,
+  "end": 39.206
+ },
+ {
+  "word": "in",
+  "start": 39.229,
+  "end": 39.276
+ },
+ {
+  "word": "the",
+  "start": 39.311,
+  "end": 39.38
+ },
+ {
+  "word": "final.",
+  "start": 39.415,
+  "end": 39.798
+ },
+ {
+  "word": "Bayern",
+  "start": 39.833,
+  "end": 40.135
+ },
+ {
+  "word": "had",
+  "start": 40.17,
+  "end": 40.263
+ },
+ {
+  "word": "the",
+  "start": 40.297,
+  "end": 40.367
+ },
+ {
+  "word": "option",
+  "start": 40.425,
+  "end": 40.657
+ },
+ {
+  "word": "to",
+  "start": 40.692,
+  "end": 40.739
+ },
+ {
+  "word": "buy",
+  "start": 40.797,
+  "end": 40.971
+ },
+ {
+  "word": "him",
+  "start": 41.04,
+  "end": 41.133
+ },
+ {
+  "word": "for",
+  "start": 41.191,
+  "end": 41.284
+ },
+ {
+  "word": "120 million",
+  "start": 41.366,
+  "end": 42.341
+ },
+ {
+  "word": "euros.",
+  "start": 42.387,
+  "end": 42.84
+ },
+ {
+  "word": "They",
+  "start": 42.863,
+  "end": 42.968
+ },
+ {
+  "word": "didn't",
+  "start": 43.003,
+  "end": 43.2
+ },
+ {
+  "word": "take",
+  "start": 43.223,
+  "end": 43.467
+ },
+ {
+  "word": "it.",
+  "start": 43.513,
+  "end": 43.595
+ },
+ {
+  "word": "So",
+  "start": 43.618,
+  "end": 43.711
+ },
+ {
+  "word": "he",
+  "start": 43.78,
+  "end": 43.838
+ },
+ {
+  "word": "went",
+  "start": 43.885,
+  "end": 44.001
+ },
+ {
+  "word": "back",
+  "start": 44.047,
+  "end": 44.198
+ },
+ {
+  "word": "to",
+  "start": 44.245,
+  "end": 44.291
+ },
+ {
+  "word": "Barcelona,",
+  "start": 44.338,
+  "end": 44.907
+ },
+ {
+  "word": "who",
+  "start": 44.93,
+  "end": 45.023
+ },
+ {
+  "word": "sold",
+  "start": 45.092,
+  "end": 45.313
+ },
+ {
+  "word": "him",
+  "start": 45.348,
+  "end": 45.417
+ },
+ {
+  "word": "to",
+  "start": 45.452,
+  "end": 45.499
+ },
+ {
+  "word": "Aston",
+  "start": 45.545,
+  "end": 45.789
+ },
+ {
+  "word": "Villa",
+  "start": 45.824,
+  "end": 46.021
+ },
+ {
+  "word": "two",
+  "start": 46.079,
+  "end": 46.23
+ },
+ {
+  "word": "years",
+  "start": 46.3,
+  "end": 46.462
+ },
+ {
+  "word": "later,",
+  "start": 46.52,
+  "end": 46.81
+ },
+ {
+  "word": "for",
+  "start": 46.834,
+  "end": 46.927
+ },
+ {
+  "word": "20 million",
+  "start": 46.973,
+  "end": 47.449
+ },
+ {
+  "word": "euros.",
+  "start": 47.495,
+  "end": 47.925
+ },
+ {
+  "word": "They",
+  "start": 47.948,
+  "end": 48.053
+ },
+ {
+  "word": "paid",
+  "start": 48.088,
+  "end": 48.262
+ },
+ {
+  "word": "a",
+  "start": 48.297,
+  "end": 48.32
+ },
+ {
+  "word": "reported",
+  "start": 48.389,
+  "end": 48.715
+ },
+ {
+  "word": "160 million",
+  "start": 48.761,
+  "end": 49.794
+ },
+ {
+  "word": "for",
+  "start": 49.852,
+  "end": 49.922
+ },
+ {
+  "word": "the",
+  "start": 49.945,
+  "end": 50.015
+ },
+ {
+  "word": "man",
+  "start": 50.05,
+  "end": 50.177
+ },
+ {
+  "word": "who",
+  "start": 50.201,
+  "end": 50.282
+ },
+ {
+  "word": "knocked",
+  "start": 50.317,
+  "end": 50.479
+ },
+ {
+  "word": "them",
+  "start": 50.502,
+  "end": 50.607
+ },
+ {
+  "word": "out,",
+  "start": 50.653,
+  "end": 50.874
+ },
+ {
+  "word": "and",
+  "start": 50.897,
+  "end": 50.99
+ },
+ {
+  "word": "got",
+  "start": 51.037,
+  "end": 51.187
+ },
+ {
+  "word": "20 million",
+  "start": 51.222,
+  "end": 51.733
+ },
+ {
+  "word": "back.",
+  "start": 51.791,
+  "end": 52.154
+ }
+]

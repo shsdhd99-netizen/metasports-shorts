@@ -1,0 +1,227 @@
+{
+ "length_s": 75.0,
+ "topic": "An analysis of Brighton's surprising start to the Premier League season under their young manager Fabian Hürzeler.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "Could Brighton actually win the Premier League this season?",
+  "first_frame": "Football coach arguing/talking on the touchline in a stadium with fans in the background.",
+  "on_screen_text_0_3s": "Could Brighton actually WIN the Premier League this season?",
+  "shots_in_first_3s": 3
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 2.5,
+   "shows": "Football match touchline dispute",
+   "kind": "action"
+  },
+  {
+   "start_s": 2.5,
+   "end_s": 5.7,
+   "shows": "Brighton players celebrating on pitch",
+   "kind": "action"
+  },
+  {
+   "start_s": 5.7,
+   "end_s": 9.0,
+   "shows": "Brighton player celebrating + goals scored stat",
+   "kind": "action"
+  },
+  {
+   "start_s": 9.0,
+   "end_s": 10.0,
+   "shows": "Brighton goalkeeper + goals conceded stat",
+   "kind": "action"
+  },
+  {
+   "start_s": 10.0,
+   "end_s": 13.0,
+   "shows": "Brighton player celebrating vs Arsenal 3-0",
+   "kind": "action"
+  },
+  {
+   "start_s": 13.0,
+   "end_s": 17.5,
+   "shows": "Match action and injured player on grass",
+   "kind": "action"
+  },
+  {
+   "start_s": 17.5,
+   "end_s": 21.0,
+   "shows": "Brighton fans celebrating in stands",
+   "kind": "action"
+  },
+  {
+   "start_s": 21.0,
+   "end_s": 24.0,
+   "shows": "Fabian Hürzeler standing on pitch",
+   "kind": "still"
+  },
+  {
+   "start_s": 24.0,
+   "end_s": 26.5,
+   "shows": "Fabian Hürzeler at press conference with Monster energy drinks",
+   "kind": "action"
+  },
+  {
+   "start_s": 26.5,
+   "end_s": 30.5,
+   "shows": "Brighton players training in purple training kit",
+   "kind": "action"
+  },
+  {
+   "start_s": 30.5,
+   "end_s": 35.5,
+   "shows": "Match action goal against Sunderland",
+   "kind": "action"
+  },
+  {
+   "start_s": 35.5,
+   "end_s": 37.0,
+   "shows": "Referee giving red card",
+   "kind": "action"
+  },
+  {
+   "start_s": 37.0,
+   "end_s": 39.5,
+   "shows": "Hand petting a kitten",
+   "kind": "stock"
+  },
+  {
+   "start_s": 39.5,
+   "end_s": 42.0,
+   "shows": "Match action goal in stoppage time",
+   "kind": "action"
+  },
+  {
+   "start_s": 42.0,
+   "end_s": 44.0,
+   "shows": "Brighton players and fans celebrating win",
+   "kind": "action"
+  },
+  {
+   "start_s": 44.0,
+   "end_s": 49.0,
+   "shows": "Leicester City lifting Premier League trophy in 2016",
+   "kind": "archive"
+  },
+  {
+   "start_s": 49.0,
+   "end_s": 50.5,
+   "shows": "Person laughing/head in lap meme clip",
+   "kind": "stock"
+  },
+  {
+   "start_s": 50.5,
+   "end_s": 53.5,
+   "shows": "Brighton corner kick in match",
+   "kind": "action"
+  },
+  {
+   "start_s": 53.5,
+   "end_s": 56.5,
+   "shows": "Manager celebrating and Erling Haaland shouting",
+   "kind": "action"
+  },
+  {
+   "start_s": 56.5,
+   "end_s": 58.5,
+   "shows": "UEFA Conference League logo",
+   "kind": "still"
+  },
+  {
+   "start_s": 58.5,
+   "end_s": 63.0,
+   "shows": "Brighton players walking out of tunnel",
+   "kind": "action"
+  },
+  {
+   "start_s": 63.0,
+   "end_s": 66.5,
+   "shows": "Managers shaking hands on touchline",
+   "kind": "action"
+  },
+  {
+   "start_s": 66.5,
+   "end_s": 68.0,
+   "shows": "Smiling man in blue shirt meme clip",
+   "kind": "stock"
+  },
+  {
+   "start_s": 68.0,
+   "end_s": 75.0,
+   "shows": "Fabian Hürzeler applauding fans at end of match",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 24,
+ "average_shot_s": 3.125,
+ "longest_shot_s": 5.0,
+ "voice": {
+  "type": "human",
+  "gender": "male",
+  "words_per_minute_estimate": 175,
+  "tone": "enthusiastic and analytical",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "upbeat rhythmic background beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "mixed",
+  "position": "lower-middle",
+  "colours": "white with yellow highlights",
+  "highlight_style": "word-by-word colour change"
+ },
+ "text_overlays": [
+  {
+   "at_s": 6.2,
+   "text": "18 GOALS SCORED"
+  },
+  {
+   "at_s": 9.1,
+   "text": "5 GOALS CONCEDED"
+  }
+ ],
+ "cards_or_graphics": 4,
+ "framing": "split screen (talking head creator on bottom half, football footage/memes on top half)",
+ "ending": {
+  "last_words": "And those next three weeks will tell us everything.",
+  "last_frame": "Fabian Hürzeler applauding and clapping fans in stadium.",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "Could Brighton actually win the Premier League this season? Brighton are third in the Premier League with 13 points after six games, only two behind Man City and Arsenal, and they've scored 18 goals while conceding just five. They beat defending champions Arsenal 3-0 at home. And after that result, 14 out of 17 bookmakers slashed their odds to finish top six, which is insane to think about since The Guardian predicted them to finish ninth this year. While they have the youngest manager in the league in Fabian Hürzeler, who just locked in a contract extension through 2029. But even after a big win against Arsenal and an international break, they didn't slow down. Brighton went to Sunderland with only 38% possession and took the lead in the 53rd minute, then got a red card 4 minutes later. They were down to 10 men for over half an hour and still scored again in stoppage time to win 2-0. Title winners grind out results like that, and Leicester won the whole thing in 2015/16 at 5,000-to-one odds. So we know it's possible. But here's where things could come back to reality. Brighton's next three Premier League games are Crystal Palace, Liverpool away, then Man City away, and they're also playing in the Conference League this season, which means midweek European games with a squad that lost some key players over the summer window. On top of that, Hürzeler has managed 11 Premier League games in December and has never won a single one. So realistically, they're probably not winning the title, but a top four finish is genuinely on, and those next three weeks will tell us everything.",
+ "retention_tricks": [
+  "split screen talking head with dynamic B-roll/memes",
+  "rapid-fire cuts and stat callouts",
+  "meme clips inserted for comedic timing",
+  "word-by-word animated captions"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "Engaging split-screen layout keeps the viewer visually stimulated with relevant football clips and funny memes.",
+  "Strong narrative arc starting with an ambitious hook and building up statistical evidence before presenting realistic counter-arguments.",
+  "Fast pacing with smooth narration and dynamic captions that match the high-energy sports commentary style."
+ ],
+ "_meta": {
+  "source": "yiiBe-4q6uE",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

@@ -1,0 +1,447 @@
+[
+ {
+  "word": "Paul",
+  "start": 0.0,
+  "end": 0.232
+ },
+ {
+  "word": "Pierce",
+  "start": 0.29,
+  "end": 0.546
+ },
+ {
+  "word": "left",
+  "start": 0.592,
+  "end": 0.778
+ },
+ {
+  "word": "the",
+  "start": 0.801,
+  "end": 0.871
+ },
+ {
+  "word": "NBA",
+  "start": 0.917,
+  "end": 1.173
+ },
+ {
+  "word": "Finals",
+  "start": 1.242,
+  "end": 1.625
+ },
+ {
+  "word": "in",
+  "start": 1.66,
+  "end": 1.707
+ },
+ {
+  "word": "a",
+  "start": 1.741,
+  "end": 1.765
+ },
+ {
+  "word": "wheelchair.",
+  "start": 1.834,
+  "end": 2.438
+ },
+ {
+  "word": "Game",
+  "start": 2.496,
+  "end": 2.798
+ },
+ {
+  "word": "1,",
+  "start": 2.821,
+  "end": 3.135
+ },
+ {
+  "word": "2008,",
+  "start": 3.158,
+  "end": 4.017
+ },
+ {
+  "word": "against",
+  "start": 4.063,
+  "end": 4.319
+ },
+ {
+  "word": "the",
+  "start": 4.342,
+  "end": 4.412
+ },
+ {
+  "word": "Lakers.",
+  "start": 4.47,
+  "end": 4.957
+ },
+ {
+  "word": "He",
+  "start": 4.981,
+  "end": 5.027
+ },
+ {
+  "word": "went",
+  "start": 5.062,
+  "end": 5.19
+ },
+ {
+  "word": "down",
+  "start": 5.236,
+  "end": 5.48
+ },
+ {
+  "word": "holding",
+  "start": 5.55,
+  "end": 5.759
+ },
+ {
+  "word": "his",
+  "start": 5.793,
+  "end": 5.875
+ },
+ {
+  "word": "knee,",
+  "start": 5.944,
+  "end": 6.188
+ },
+ {
+  "word": "and",
+  "start": 6.211,
+  "end": 6.281
+ },
+ {
+  "word": "they",
+  "start": 6.316,
+  "end": 6.409
+ },
+ {
+  "word": "wheeled",
+  "start": 6.478,
+  "end": 6.734
+ },
+ {
+  "word": "him",
+  "start": 6.757,
+  "end": 6.827
+ },
+ {
+  "word": "to",
+  "start": 6.861,
+  "end": 6.908
+ },
+ {
+  "word": "the",
+  "start": 6.966,
+  "end": 7.036
+ },
+ {
+  "word": "locker",
+  "start": 7.082,
+  "end": 7.361
+ },
+ {
+  "word": "room.",
+  "start": 7.419,
+  "end": 7.639
+ },
+ {
+  "word": "Minutes",
+  "start": 7.663,
+  "end": 7.895
+ },
+ {
+  "word": "later,",
+  "start": 7.93,
+  "end": 8.197
+ },
+ {
+  "word": "he",
+  "start": 8.22,
+  "end": 8.278
+ },
+ {
+  "word": "jogged",
+  "start": 8.371,
+  "end": 8.638
+ },
+ {
+  "word": "back",
+  "start": 8.661,
+  "end": 8.824
+ },
+ {
+  "word": "out,",
+  "start": 8.893,
+  "end": 9.137
+ },
+ {
+  "word": "scored",
+  "start": 9.172,
+  "end": 9.427
+ },
+ {
+  "word": "11",
+  "start": 9.451,
+  "end": 9.683
+ },
+ {
+  "word": "more",
+  "start": 9.729,
+  "end": 9.868
+ },
+ {
+  "word": "points,",
+  "start": 9.903,
+  "end": 10.286
+ },
+ {
+  "word": "and",
+  "start": 10.31,
+  "end": 10.426
+ },
+ {
+  "word": "Boston",
+  "start": 10.484,
+  "end": 10.844
+ },
+ {
+  "word": "won.",
+  "start": 10.902,
+  "end": 11.192
+ },
+ {
+  "word": "He",
+  "start": 11.215,
+  "end": 11.262
+ },
+ {
+  "word": "was",
+  "start": 11.297,
+  "end": 11.378
+ },
+ {
+  "word": "named",
+  "start": 11.447,
+  "end": 11.749
+ },
+ {
+  "word": "Finals",
+  "start": 11.819,
+  "end": 12.156
+ },
+ {
+  "word": "MVP.",
+  "start": 12.214,
+  "end": 12.864
+ },
+ {
+  "word": "Eleven",
+  "start": 12.91,
+  "end": 13.142
+ },
+ {
+  "word": "years",
+  "start": 13.166,
+  "end": 13.282
+ },
+ {
+  "word": "later,",
+  "start": 13.317,
+  "end": 13.502
+ },
+ {
+  "word": "on",
+  "start": 13.526,
+  "end": 13.572
+ },
+ {
+  "word": "ESPN,",
+  "start": 13.665,
+  "end": 14.129
+ },
+ {
+  "word": "he",
+  "start": 14.153,
+  "end": 14.199
+ },
+ {
+  "word": "made",
+  "start": 14.234,
+  "end": 14.362
+ },
+ {
+  "word": "a",
+  "start": 14.385,
+  "end": 14.408
+ },
+ {
+  "word": "confession.",
+  "start": 14.431,
+  "end": 14.954
+ },
+ {
+  "word": "I",
+  "start": 14.977,
+  "end": 15.0
+ },
+ {
+  "word": "just",
+  "start": 15.07,
+  "end": 15.186
+ },
+ {
+  "word": "had",
+  "start": 15.209,
+  "end": 15.29
+ },
+ {
+  "word": "to",
+  "start": 15.314,
+  "end": 15.36
+ },
+ {
+  "word": "go",
+  "start": 15.395,
+  "end": 15.464
+ },
+ {
+  "word": "to",
+  "start": 15.499,
+  "end": 15.546
+ },
+ {
+  "word": "the",
+  "start": 15.581,
+  "end": 15.65
+ },
+ {
+  "word": "bathroom.",
+  "start": 15.685,
+  "end": 16.138
+ },
+ {
+  "word": "This",
+  "start": 16.161,
+  "end": 16.289
+ },
+ {
+  "word": "year,",
+  "start": 16.335,
+  "end": 16.463
+ },
+ {
+  "word": "on",
+  "start": 16.486,
+  "end": 16.533
+ },
+ {
+  "word": "a",
+  "start": 16.556,
+  "end": 16.579
+ },
+ {
+  "word": "podcast,",
+  "start": 16.614,
+  "end": 17.113
+ },
+ {
+  "word": "he",
+  "start": 17.136,
+  "end": 17.194
+ },
+ {
+  "word": "took",
+  "start": 17.264,
+  "end": 17.415
+ },
+ {
+  "word": "it",
+  "start": 17.45,
+  "end": 17.496
+ },
+ {
+  "word": "back.",
+  "start": 17.543,
+  "end": 17.868
+ },
+ {
+  "word": "Who",
+  "start": 17.891,
+  "end": 18.077
+ },
+ {
+  "word": "asked",
+  "start": 18.158,
+  "end": 18.39
+ },
+ {
+  "word": "for",
+  "start": 18.425,
+  "end": 18.506
+ },
+ {
+  "word": "the",
+  "start": 18.53,
+  "end": 18.599
+ },
+ {
+  "word": "wheelchair?",
+  "start": 18.622,
+  "end": 19.145
+ },
+ {
+  "word": "Why",
+  "start": 19.168,
+  "end": 19.284
+ },
+ {
+  "word": "would",
+  "start": 19.307,
+  "end": 19.423
+ },
+ {
+  "word": "I",
+  "start": 19.447,
+  "end": 19.47
+ },
+ {
+  "word": "take",
+  "start": 19.516,
+  "end": 19.632
+ },
+ {
+  "word": "a",
+  "start": 19.656,
+  "end": 19.679
+ },
+ {
+  "word": "wheelchair",
+  "start": 19.725,
+  "end": 20.097
+ },
+ {
+  "word": "to",
+  "start": 20.132,
+  "end": 20.178
+ },
+ {
+  "word": "go",
+  "start": 20.225,
+  "end": 20.306
+ },
+ {
+  "word": "use",
+  "start": 20.375,
+  "end": 20.55
+ },
+ {
+  "word": "the",
+  "start": 20.573,
+  "end": 20.643
+ },
+ {
+  "word": "bathroom?",
+  "start": 20.677,
+  "end": 21.223
+ }
+]

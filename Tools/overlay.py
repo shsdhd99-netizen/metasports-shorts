@@ -8,6 +8,9 @@ spec.json is a list of lines:
   or below y=1300.
 - "sub" is an optional small white label above the number.
 - Text pops in (0.12 s fade) and out (0.12 s fade); thick black outline keeps it readable on any footage.
+- Oct 26 2026 (countdown format): "x": "left" | "right" | a pixel number puts the text in a corner instead of the centre,
+  and "box": "0xFDB927" draws a solid badge behind it (e.g. {"text": "#3", "size": 120, "x": "left", "y": 230, "box": "0xFDB927",
+  "color": "black", "start": 0, "end": 9}) for a visible 3-2-1 counter.
 Needs ffmpeg with drawtext. Font: Windows Arial Bold.
 """
 import argparse, json, os, subprocess, tempfile
@@ -40,9 +43,13 @@ def main():
             color = COL.get(ln.get("subcolor", "white"), "white") if key == "sub" else COL.get(color_default, color_default)
             y = int(ln.get("y", 300) + dy)
             tfp = tf.replace("\\", "/").replace(":", "\\:")
+            xs = ln.get("x", "center")
+            xe = {"left": "70", "right": "w-text_w-70", "center": "(w-text_w)/2"}.get(xs, str(xs))
+            box = (f":box=1:boxcolor={COL.get(ln['box'], ln['box'])}@0.92:boxborderw={max(14, size // 6)}:borderw=0") if ln.get("box") and key == "text" \
+                else f":borderw={max(5, size // 22)}:bordercolor=black"
             filt.append(
-                f"drawtext=fontfile='{FONT}':textfile='{tfp}':expansion=none:fontsize={size}:fontcolor={color}:borderw={max(5, size // 22)}:bordercolor=black:"
-                f"x=(w-text_w)/2:y={y}:alpha='{alpha}'")
+                f"drawtext=fontfile='{FONT}':textfile='{tfp}':expansion=none:fontsize={size}:fontcolor={color}{box}:"
+                f"x={xe}:y={y}:alpha='{alpha}'")
     vf = ",".join(filt) if filt else "null"
     r = subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", a.src, "-vf", vf, "-c:v", "libx264", "-crf", "14", "-pix_fmt", "yuv420p", "-r", "30", "-an", a.out],
                        capture_output=True, text=True)

@@ -70,7 +70,7 @@ def main():
                 msg = run(cmd)
             else:
                 cmd = [py, os.path.join(HERE, "broll.py"), "cut", srcs[s["src"]], "--at", str(s["at"]), "--len", str(s["len"]), "--out", out]
-                for k in ("x", "y", "zoom", "delogo", "blurfit_width", "speed"):
+                for k in ("x", "y", "zoom", "delogo", "blurfit_width", "blurfit_aspect", "speed"):
                     if k in s:
                         cmd += [f"--{k.replace('_', '-')}", str(s[k])]
                 for k in ("blurfit", "flip"):
@@ -86,7 +86,7 @@ def main():
                 msg += f" + words: {' / '.join(x['text'] for x in s['overlay'])}"
             print(f"  {s['clip']}: {msg}")
         shot = {"clip": s["clip"] + ".mp4", "kind": s.get("kind", "action"), "why": s.get("why", "")}
-        for k in ("anchor", "lead"):
+        for k in ("anchor", "lead", "replay"):  # Oct 26: "replay": true marks an intentional replay of earlier footage (QA allows it)
             if k in s:
                 shot[k] = s[k]
         if "shot_zoom" in s:

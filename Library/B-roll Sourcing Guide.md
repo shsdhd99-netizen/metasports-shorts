@@ -9,7 +9,7 @@ This guide answers how we find, check, log and reuse footage for every Short.
 Evidence tiers: **[V]** verified on our own files or tests, **[S]** small-n support, **[H]** hypothesis, **[E]** external guidance.
 
 ## 1. The rules (they apply to every build)
-1. **Opening visual first.** Secure the strongest real image of the subject doing the thing *before* the script is final. If you can't get it, change the angle or park the idea (Creative System v3 footage-first gate). [S: 4/4 old hits opened on the subject or the exact moment]
+1. **Footage first (Oct 26 overnight review).** Before writing, secure frame 1 (the thing line 1 is about, happening) and one clip that proves each beat, from any number of sources. If you can't get frame 1, change the angle or park the idea. Never cut away to filler to reach a clip count. [S: 4/4 old hits opened on the subject or the exact moment; the old 6-clip gate pushed filler, `Research Notes/Why NBA Views Dropped (Oct 26, 2026).md` §3]
 2. **Every line gets footage that proves it.**
    - Exact player, game, event, reaction or moment beats generic basketball.
    - Generic footage is allowed only under a "what if" line, and never with a scorebug or jersey that contradicts the line.
@@ -18,7 +18,9 @@ Evidence tiers: **[V]** verified on our own files or tests, **[S]** small-n supp
    - When the clip IS the game being described, keep the scorebug and banners and circle the number when it's named (`broll.py circle`).
    - Crop the scorebug only when the shot is a stand-in. [S: Luka 126-125 / 1.5 s; Kobe 96-86 / "60 POINTS"]
 4. **Vary with purpose.**
-   - No clip shown twice except a deliberate loop or a marked replay. `qa_short.py` checks this.
+   - No clip shown twice except a marked replay (`"replay": true`; `cut_list.py` passes it through). `qa_short.py` checks this.
+   - Replay the key second once before the payoff: closer and/or at 0.5x (Oct 26 overnight review) [S].
+   - No forced loop: end on the payoff (Oct 26 overnight review).
    - Hold the payoff shot longest. [S]
 5. **Check every frame that ships**, at 30 fps around every cut.
    - One-frame flashes come from a clip's first frame or its own internal cut. [V: #21's two flashes]
@@ -31,6 +33,7 @@ Evidence tiers: **[V]** verified on our own files or tests, **[S]** small-n supp
    - **No upscaling pretence:** never run footage through an AI upscaler or sharpener and describe it as HD. A soft archive clip stays labelled as archive.
    - **No other creator's overlays,** watermarks, captions or channel logos in frame.
    - **No scorebug that contradicts the line** (rule 3).
+   - **Fill the frame (Oct 26 overnight review) [S]:** crop a wide play to about 3:4 over the blur (`broll.py cut --blurfit --blurfit-aspect 0.75 --x <pos>`). Never a full-width 16:9 strip over blur for a play; full width only for a graphic or text that must be read whole.
    - `footage_qc.py` measures the blow-up from the logged source size, flags soft shots, and lists the source's own internal cuts.
 8. **Never fabricate.**
    - No AI-generated footage of real players and no doctored images (#41 v1's pasted logo was rejected).
@@ -70,12 +73,12 @@ Write what it shows, not what you hoped.
 | **TikTok** (official NBA and team accounts) | the same clips, often vertical | yes, through the browser (`watch_short.py <url>` keeps the mp4) | same as X | Vertical-native clips |
 | **YouTube** (NBA, teams, press conferences, classic games) | full press conferences, classic games | **no from the cloud** ("sign in to confirm you're not a bot"). The owner's PC works (`broll.py cut <youtube id>`) | Same as above. Full classic games are often re-uploads: check the uploader | Press conferences, archive. Build on the PC or ask the owner for X links |
 | **NBA.com** (video, stats) | stats pages, some video | **no** (403 from the cloud) | NBA owned | Stats screenshots from the PC; use B-Ref from the cloud |
-| **Basketball-Reference, StatMuse, team sites** | stats, logs, schedules (screenshots for cards) | yes (`webshot.mjs`) | Factual data isn't copyrightable; the page design is. A screenshot quoted for commentary is low risk; name the source | Proof cards (the quote or number circled) |
+| **Basketball-Reference, StatMuse, team sites** | stats, logs, schedules | yes (`webshot.mjs`) | Factual data isn't copyrightable; the page design is. A screenshot quoted for commentary is low risk; name the source | Checking facts. The number goes on the footage as words (`overlay.py`), not on a card (Oct 26 overnight review) |
 | **Wikimedia Commons** | photos of players, arenas, historic scenes with stated licences (CC BY, CC BY-SA, public domain) | the API rate-limited us (429) once; retry later | **Attribution required** for CC BY/BY-SA (author, licence, link). Our no-description rule means the owner must allow a one-line credit in the description or pinned comment | Historic players with no usable video (Wilt) |
 | **archive.org** | old newsreels, radio, some broadcasts | yes | **Not automatically public domain**: many items are uploads of copyrighted broadcasts. Use only items marked public domain or with a clear licence | Pre-1970 moments (#43 Wilt: the "100-point" item is radio only) |
 | **Library of Congress, national archives** | public-domain photos | not tested | Mostly public domain (check each item) | Historic stills |
 | **Getty Images, AP, Imagn** | licensed photos and archival video, the cleanest rights | not tested; paid | Paid licence per use | Only if a key moment has no other source and the owner approves the cost |
-| **Our own cards** | number and quote cards, schedule cards | yes (`card.py`, `broll.py page`) | Ours | Proof of a number when no broadcast graphic shows it |
+| **Our own cards** | number and quote cards, schedule cards | yes (`card.py`, `broll.py page`) | Ours | Last resort only (owner, Oct 26: no cards): 1.5 s at most, never in the first 4 s |
 | **AI-generated video of real players** | — | — | **Never.** Fabrication and likeness risk | — |
 
 **Search patterns that worked:**
@@ -92,7 +95,7 @@ Add the date or the opponent to narrow it. Official accounts first.
   - Our use relies on **fair use**: short excerpts inside new commentary that explains a fact.
   - Fair use is a defence judged case by case, not a permission.
 - **What lowers the risk** (we already do all of these):
-  - short cuts (≤2-3 s each)
+  - short excerpts, each with our narration over it (a play may run 3-5 s; Oct 26 overnight review)
   - our own narration and analysis over every clip
   - crops and edits
   - no broadcast audio commentary (clips are cut without audio)
@@ -121,7 +124,7 @@ Add the date or the opponent to narrow it. Official accounts first.
 
 ## 6. When the key moment can't be sourced (honest alternatives)
 1. **A verified photo** of the moment (official, Wikimedia with its licence) with a slow push-in.
-2. **The proof as a card:** the box score, the quote or the schedule, with the source named.
+2. **The proof as words over related footage** (`overlay.py`): the number or the quote, with the source in notes.md. A card only as the last resort: 1.5 s at most, never in the first 4 s (owner, Oct 26).
 3. **A related verified moment**, labelled by the line as what it is ("Here's Wilt in 1962" not "Here's the 100-point game").
 4. **The subject's face** (media day, bench) under the line, with no claim it's the moment.
 5. **Park the idea** and name the blocker in the queue (#42: footage of LeBron misses; #43: identifiable Wilt film).

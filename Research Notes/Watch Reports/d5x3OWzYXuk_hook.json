@@ -1,0 +1,16 @@
+{
+ "cuts": [
+  3.5,
+  5.6
+ ],
+ "first_shot_shows": "A man on a basketball court playing with a tall stack of taped basketballs.",
+ "first_words": "This shot is worth 27 points because Jesser taped nine basketballs into one",
+ "text_on_screen_0_3s": "THIS SHOT IS WORTH 27 POINTS BECAUSE JESSER TAPED NINE BASKETBALLS INTO ONE",
+ "music_or_beat_audible": true,
+ "cuts_merged": [
+  3.5,
+  5.6
+ ],
+ "shots_in_first_3s": 1,
+ "shots_in_first_5s": 2
+}

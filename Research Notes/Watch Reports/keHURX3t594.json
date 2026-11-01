@@ -1,0 +1,115 @@
+{
+ "length_s": 21.25,
+ "topic": "An explanation of NBA players throwing the ball off opponents to keep possession, featuring a funny technical foul incident.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "When a player is falling out of bounds",
+  "first_frame": "Donovan Mitchell #45 in mid-air holding a basketball near Jalen Brunson.",
+  "on_screen_text_0_3s": "When a player is falling out of bounds, they usually throw it off an opponent to keep possession.",
+  "shots_in_first_3s": 1
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 3.7,
+   "shows": "Donovan Mitchell falling out of bounds and throwing the ball off opponent Jalen Brunson's legs.",
+   "kind": "action"
+  },
+  {
+   "start_s": 3.7,
+   "end_s": 5.9,
+   "shows": "LeBron James jumping out of bounds and hurling the ball at a Miami Heat player's legs.",
+   "kind": "action"
+  },
+  {
+   "start_s": 5.9,
+   "end_s": 8.0,
+   "shows": "LeBron James throwing the ball hard at a defender's stomach while stepping out of bounds.",
+   "kind": "action"
+  },
+  {
+   "start_s": 8.0,
+   "end_s": 11.1,
+   "shows": "LeBron James diving and throwing the ball at a player fallen on the court.",
+   "kind": "action"
+  },
+  {
+   "start_s": 11.1,
+   "end_s": 13.7,
+   "shows": "Magic player #3 throwing the ball at OG Anunoby lying on the ground behind the baseline.",
+   "kind": "action"
+  },
+  {
+   "start_s": 13.7,
+   "end_s": 18.0,
+   "shows": "Overhead wide shot showing OG Anunoby down on the floor and the Magic player standing with the ball.",
+   "kind": "replay"
+  },
+  {
+   "start_s": 18.0,
+   "end_s": 21.25,
+   "shows": "Close-up side angle of the Magic player winding up and throwing the ball directly into OG Anunoby.",
+   "kind": "replay"
+  }
+ ],
+ "shot_count": 7,
+ "average_shot_s": 3.04,
+ "longest_shot_s": 4.3,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 271,
+  "tone": "energetic commentary",
+  "original_audio_under_voice": true
+ },
+ "music": {
+  "present": true,
+  "style": "subtle hip-hop beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 4,
+  "case": "mixed",
+  "position": "middle",
+  "colours": "white with yellow highlight",
+  "highlight_style": "word-by-word active color change"
+ },
+ "text_overlays": [],
+ "cards_or_graphics": 0,
+ "framing": "crop",
+ "ending": {
+  "last_words": "a technical foul for it.",
+  "last_frame": "Close-up of Magic player #3 throwing the ball at OG Anunoby on the floor.",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "When a player is falling out of bounds, they usually throw it off an opponent to keep possession. Like when LeBron is in this situation, he goes full power to make sure the ball goes out of play. And this creates some funny moments because the players can't really avoid it. But I think what's even funnier is when Desmond Bane did it. You see, OG Anunoby is already out of bounds and Desmond Bane isn't close to losing his balance. However, he still throws the ball at OG and he receives a technical foul for it.",
+ "retention_tricks": [
+  "pattern interrupts",
+  "multi-angle replay",
+  "narrative build-up to a climax"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": true,
+  "promise_in_first_line": false,
+  "ends_on_payoff": true,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "Establishes a common basketball rule/tactic first before introducing an absurd, funny violation.",
+  "Uses high-profile highlights of stars like LeBron James to build initial visual interest.",
+  "Provides multiple camera angles of the climax moment to maximize humor and clarity."
+ ],
+ "_meta": {
+  "source": "keHURX3t594",
+  "model": "gemini-3.5-flash",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}
