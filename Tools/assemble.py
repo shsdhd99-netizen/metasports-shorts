@@ -9,6 +9,10 @@ your footage (videos or pictures), named in shot-list order: 01.mp4, 02.mp4, 03.
 Makes: final.mp4 (1080x1920, ready to upload), edit.drift (open it in Drift to tweak), preview_1-3.jpg, storyboard.jpg.
 Shot rhythm: a new shot at each sentence, kept between 1.2 and 4.5 seconds (CoachClank's biggest Shorts cut every 2-4 s).
 
+Clips: every media file in clips/ except names containing "_raw" (cut_list.py keeps clean copies of overlay shots in _rawclips/).
+Engine: Drift when installed, else ffmpeg. Force ffmpeg with --engine ffmpeg or env ASSEMBLE_ENGINE=ffmpeg (Drift once put flat green
+frames at the end of shots in two builds; qa_short.py now FAILs those).
+
 Optional files in the folder:
   shots.json    [{"clip": "01.mp4", "start": 0.0, "in": 0.4}, ...]   cuts synced to words ("in" = start inside the clip)
   sfx.json      [{"sfx": "swish", "at": 12.85, "gain": -14}, ...]    sound effects from Tools/sfx (see sfx/catalog.json)
@@ -452,8 +456,13 @@ def main():
     ap.add_argument("--caption-style", default="metasports", help="for --captions burn: metasports (old Shorts look), clank, or karaoke (Round 5 test)")
     ap.add_argument("--color-rule", dest="color_rule", choices=["card", "word", "none"], default="card",
                     help="caption colour rule (captions.py): card = old default, word = one coloured word per card (A/B), none = all white")
+    ap.add_argument("--engine", choices=["ffmpeg", "drift"], default=os.environ.get("ASSEMBLE_ENGINE", "").lower() or None,
+                    help="ffmpeg = never use Drift (also env ASSEMBLE_ENGINE=ffmpeg); drift/default = Drift when installed. "
+                         "Use ffmpeg if qa_short reports flat green/solid-colour frames from Drift")
     ap.add_argument("--no-export", action="store_true")
     a = ap.parse_args()
+    if a.engine not in (None, "ffmpeg", "drift"):
+        raise SystemExit(f"ASSEMBLE_ENGINE must be ffmpeg or drift, not {a.engine!r}")
     sys.stdout.reconfigure(encoding="utf-8")
     folder = os.path.abspath(a.folder)
     sys.path.insert(0, HERE)
@@ -466,7 +475,9 @@ def main():
         raise SystemExit(f"Missing {', '.join(missing)}. Make the voiceover first: python voiceover.py --script \"{os.path.join(folder, 'script.txt')}\"")
     clips_dir = os.path.join(folder, "clips")
     os.makedirs(clips_dir, exist_ok=True)
-    clips = sorted(p for p in glob.glob(os.path.join(clips_dir, "*")) if p.lower().endswith(MEDIA))
+    # Nov 1 2026: clean copies kept by cut_list.py ("*_raw*", now written to _rawclips/) never count as footage: an extra file in clips/
+    # shifts the clip-to-shot mapping when there is no shots.json.
+    clips = sorted(p for p in glob.glob(os.path.join(clips_dir, "*")) if p.lower().endswith(MEDIA) and "_raw" not in os.path.basename(p).lower())
     if not clips:
         raise SystemExit(f"Put your footage in {clips_dir} (named 01, 02, 03... in shot-list order), then run this again.")
     total = duration(voice)
@@ -487,8 +498,8 @@ def main():
         zooms = []
     print(f"Voice {total:.1f}s -> {len(shots)} shots from {len(set(clips))} clips")
 
-    if not os.path.exists(DRIFT):
-        print("Drift not found: using the ffmpeg engine")
+    if a.engine == "ffmpeg" or not os.path.exists(DRIFT):
+        print("ffmpeg engine forced (--engine / ASSEMBLE_ENGINE)" if a.engine == "ffmpeg" else "Drift not found: using the ffmpeg engine")
         ffmpeg_engine(folder, voice, shots, clips, ins, total, a, zooms)
         return
     d = Drift()

@@ -16,6 +16,7 @@ Rules (from the retention research; each has burned a Short before):
   CLIPS  (Oct 13 2026) no shot longer than what is left of its clip: assemble.py before Oct 13 LOOPED the clip (visible
          jump-back; found in 22 of 27 folders). Since then it slows small gaps (<=1.33x) and holds the last frame on big ones;
          a hold over 0.5 s fails (frozen picture). Renders made after the fix write _render.json.
+  RENDER (Nov 1 2026) FAIL on flat solid-green frames (>50% green) or 3+ consecutive frames of one flat non-black colour (Drift glitch).
   OPENING (warn only, HYPOTHESIS n=14) a card/screenshot in the first 4 s: the 4 most-viewed Oct posts had none before 7 s.
 Oct 26 2026 (Research Notes/Why NBA Views Dropped, 37 posted NBA Shorts with edit files) - NBA profile only, the soccer story
 format is unchanged: 2 or fewer shots in the first 3 s held 75.0% stayed vs 67.5% for 3+ (so 3+ is now the warning); a card in the
@@ -202,6 +203,27 @@ def main():
             if luma < 40:
                 dark.append((t0, round(luma)))
     chk(not dark, "frame 1 is lit", f"frame 1 is dark (time, brightness 0-255): {dark}; start the first clip later (a fade, wipe or someone passing the camera)")
+    # Nov 1 2026: the Drift engine twice put flat solid-green frames at the end of most shots (found by eye/frame check, not by QA).
+    # Sample 15 fps at 108x192: FAIL on any frame >50% green, or 3+ consecutive frames that are >95% one non-black colour.
+    flat = subprocess.run(["ffmpeg", "-v", "error", "-i", fin, "-vf", "fps=15,scale=108:192", "-f", "rawvideo", "-pix_fmt", "rgb24", "-"],
+                          capture_output=True).stdout
+    nf = len(flat) // (108 * 192 * 3)
+    if nf:
+        fr = np.frombuffer(flat[: nf * 108 * 192 * 3], np.uint8).reshape(nf, 192, 108, 3).astype(int)
+        r_, g_, b_ = fr[..., 0], fr[..., 1], fr[..., 2]
+        green = ((g_ > 120) & (r_ < 90) & (b_ < 90) & (g_ - r_ > 70)).mean(axis=(1, 2))
+        gbad = [round(i / 15, 2) for i in range(nf) if green[i] > 0.5]
+        px = np.concatenate([fr[:, :80], fr[:, 128:]], axis=1).reshape(nf, -1, 3)  # caption band (rows 42-67%) left out
+        runs, cur = [], 0
+        for i in range(nf):
+            med = np.median(px[i], axis=0)
+            same = bool(med.max() > 25 and (np.abs(px[i] - med).max(axis=1) <= 14).mean() > 0.95)  # >95% within a hair of one non-black colour
+            cur = cur + 1 if same else 0
+            if cur == 3:
+                runs.append(round((i - 2) / 15, 2))
+        chk(not gbad, "no flat green frames", f"flat solid-green frames at {gbad[:10]} s ({len(gbad)} frames): Drift engine glitch, re-render with "
+            "assemble.py --engine ffmpeg (or ASSEMBLE_ENGINE=ffmpeg)")
+        chk(not runs, "no solid-colour frames", f"solid-colour frames: 3+ consecutive frames of one flat colour starting at {runs[:10]} s: a broken render, re-render with assemble.py --engine ffmpeg")
     # Oct 24 2026: #66's last boom was still ringing when the video ended (-23 dBFS in the last 50 ms), an audible hard cut; S01's
     # promo cut left the same. Every other draft ends under -45 dBFS. Trim or fade the effect/music (sfx.json "len" + "fade").
     raw = subprocess.run(["ffmpeg", "-v", "error", "-sseof", "-0.05", "-i", fin, "-vn", "-ac", "1", "-ar", "48000", "-f", "f32le", "-"],
