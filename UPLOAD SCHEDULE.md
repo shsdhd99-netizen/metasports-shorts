@@ -84,7 +84,9 @@ Music test after Friday: NBA 2 with music (#70, #72) and 2 without (#71, #74); s
    competitor Shorts and our own drafts for the research runs. Never paste the key in chat.
 4. Optional (Nov 1), **auto-scheduling**: see below. Off until you say so.
 
-**Auto-scheduling (researched Nov 1; OFF until you turn it on):**
+**Auto-scheduling MODE B IS CHOSEN (owner, in chat, Nov 1 2026: "go with mode b"):** once `YT_UPLOAD_TOKEN` (and `_FC`) exist, a run may schedule EVERY Short that passes `qa_short.py --full` (FAIL-free, the known stereo clipping false alarm aside), at its slot in this file, with `Tools/yt_schedule.py --go`. Still never: post immediately, re-upload a file, schedule a non-DRAFT file, or schedule a Short whose claims have an open fact-check or whose footage is unverified. Log each in `Research Notes/Scheduled Uploads.csv` and on the Hub card. Until the owner runs `yt_auth.py`, there is no token and nothing can be scheduled.
+
+**Auto-scheduling (researched Nov 1):**
 - **What changed:** Google's upload reference (updated Oct 15, 2026) now says "Videos uploaded from unverified API projects are
   not restricted to private viewing mode", with a separate upload quota of 100 a day. Until then, uploads from a personal Google
   project were locked private, which is why we never did this.
