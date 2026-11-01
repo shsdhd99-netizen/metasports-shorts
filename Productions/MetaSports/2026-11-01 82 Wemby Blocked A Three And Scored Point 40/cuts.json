@@ -15,13 +15,13 @@
   {
    "clip": "W01",
    "src": "P",
-   "at": 5.36,
+   "at": 5.47,
    "blurfit": true,
    "blurfit_aspect": 0.75,
    "zoom": 1.15,
    "x": 0.45,
    "kind": "action",
-   "why": "THE BLOCK, live angle: Kuminga (white) rises for the step-back three, Wemby (#1 black) closes from the right and his hand meets the ball at about 0.15 s; the ball flies up and back (ESPN clip 50343302 'Victor Wembanyama throws down the hammer', Spurs vs Wolves Oct 31 2026; scorebug MIN 101 - 105 SAS, 4th 6:21)",
+   "why": "THE BLOCK, live angle: Kuminga (white) rises for the step-back three, Wemby (#1 black) closes from the right and the ball has just left his hands and Wemby's hand meets it at about 0.04 s; the ball flies up and back (ESPN clip 50343302 'Victor Wembanyama throws down the hammer', Spurs vs Wolves Oct 31 2026; scorebug MIN 101 - 105 SAS, 4th 6:21)",
    "len": 3.72
   },
   {
@@ -40,7 +40,7 @@
   {
    "clip": "W03",
    "src": "P",
-   "at": 5.33,
+   "at": 5.27,
    "speed": 0.5,
    "blurfit": true,
    "blurfit_aspect": 0.75,
@@ -101,14 +101,13 @@
   {
    "clip": "W07",
    "src": "F",
-   "at": 9.6,
-   "speed": 0.93,
+   "at": 8.97,
    "zoom": 1.2,
    "y": 0.0,
    "x": 0.62,
    "kind": "face",
    "anchor": "43 points",
-   "why": "Payoff: Wemby close-up, turns to show WEMBANYAMA 1 on his back (ESPN clip 50342995, same game; cropped above the scorebug)",
+   "why": "Payoff: Wemby close-up, turns to show WEMBANYAMA 1 on his back (ESPN clip 50342995, same game; one camera shot 8.92-12.85 s, cropped above the scorebug, ends before the dissolve)",
    "overlay": [
     {
      "text": "43 PTS",
@@ -116,7 +115,7 @@
      "color": "white",
      "y": 1380,
      "start": 0.0,
-     "end": 4.2
+     "end": 3.85
     },
     {
      "text": "6 BLK",
@@ -124,10 +123,10 @@
      "color": "orange",
      "y": 1580,
      "start": 0.0,
-     "end": 4.2
+     "end": 3.85
     }
    ],
-   "len": 4.1
+   "len": 3.85
   }
  ]
 }
