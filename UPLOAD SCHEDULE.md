@@ -31,7 +31,7 @@ title (Copy button), set "Not made for kids", add the pinned comment from the ca
 **Today and next (updated Sun Nov 1, 9 AM ET; the Hubs on this account match it):**
 | Day | NBA 7-8 AM | Soccer 7-9 AM | Second post (6+ h later) |
 |---|---|---|---|
-| Sun Nov 1 | **#74** Why NBA Players Refuse This Free Throw (no-music side; ready) | **S20** Barcelona Signed Messi On A Paper Napkin (no-music side; finishing now, post as soon as it's on the Hub) | **#82** Wemby blocked a three and scored point 40, about 2-3 PM (news: today only; real-audio version) |
+| Sun Nov 1 | **#82** Wemby blocked a three and scored point 40 (news: today only; real-audio version; finishing now, post as soon as it's on the Hub). (#74 went up Sat evening: 16K by Sun 9 AM) | **S20** Barcelona Signed Messi On A Paper Napkin (no-music side; finishing now, post as soon as it's on the Hub) | |
 | Mon Nov 2 | the 3:17 AM NBA run's Short, else **#73** Bones Hyland's fake-throw technical (music side) | the 4:23 AM FC run's Short, else **S09** Ronaldo moved the Coca-Cola bottles | |
 | Tue Nov 3 | **#67** Jordan made up an insult (or the run's Short) | **S19** Man United's penalty nightmare is saving Man City (goalkeeper lane) | |
 
