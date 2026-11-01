@@ -1,25 +1,32 @@
 clip,kind,used_at_s,used_for_line,what_it_shows,source_url,source_account,source_date,source_in_s,source_out_s,crop,match_score,licence_risk,verified,verified_on,notes
-N01.mp4,,,,,src/nap_sport.mp4,,,12.2,15.1,x 0.465 zoom 1.0 y 0.5 blurfit,,,,, | source 1024x436
-N02.mp4,,,,,src/rob_kid.mp4,,,7.0,9.4,x 0.4 zoom 1.0 y 0.5,,,,, | source 640x372
-N03.mp4,,,,,src/rob_kid.mp4,,,19.5,21.4,x 0.45 zoom 1.0 y 0.5,,,,, | source 640x372
-N04.mp4,,,,,src/stock_47504.mp4,Mixkit (stock),,1.0,2.6,x 0.5 zoom 1.0 y 0.5,,,,,"post text: Mixkit Free License; Stock: a syringe drawn from a vial, for the growth hormone treatment (Mixkit 47504; illustrative) | source 1280x720"
-N05.mp4,,,,,src/stock_18296.mp4,Mixkit (stock),,1.0,2.8,x 0.5 zoom 1.0 y 0.5,,,,,"post text: Mixkit Free License; Stock: counting dollar bills, for 'about a thousand dollars a month' (Mixkit 18296; illustrative) | source 1920x1080"
-N06.mp4,,,,,src/rob_newells.mp4,,,6.1,7.4,x 0.4 zoom 1.0 y 0.5,,,,, | source 640x372
-N07.mp4,,,,,src/rob_kids.mp4,,,43.0,44.8,x 0.5 zoom 1.0 y 0.5,,,,, | source 640x372
-N08.mp4,,,,,src/rob_kids.mp4,,,47.2,48.7,x 0.5 zoom 1.0 y 0.5,,,,, | source 640x372
-N09.mp4,,,,,src/lamasia_youth.mp4,,,45.2,46.7,x 0.45 zoom 1.0 y 0.5,,,,, | source 1280x720
-N10.mp4,,,,,src/rob_rexach.mp4,,,58.0,59.3,x 0.5 zoom 1.0 y 0.5 blurfit,,,,, | source 640x372
-N11.mp4,,,,,src/rob_rexach.mp4,,,65.9,67.7,x 0.4 zoom 1.0 y 0.5,,,,, | source 640x372
-N12.mp4,,,,,src/lamasia_youth.mp4,,,52.7,54.5,x 0.5 zoom 1.0 y 0.5,,,,, | source 1280x720
-N13.mp4,,,,,src/stock_46979.mp4,Mixkit (stock),,1.0,2.7,x 0.5 zoom 1.0 y 0.5,,,,,"post text: Mixkit Free License; Stock: an alarm clock on dollar bills, for 'tired of waiting' (Mixkit 46979; illustrative) | source 1280x720"
-N14.mp4,,,,,src/nap_bbc.mp4,,,8.2,9.8,x 0.5 zoom 1.0 y 0.5 blurfit,,,,, | source 1024x436
-N15.mp4,,,,,src/rob_rexach.mp4,,,11.0,13.4,x 0.45 zoom 1.0 y 0.5,,,,, | source 640x372
-N16.mp4,,,,,src/rob_lunch.mp4,,,40.6,42.0,x 0.6 zoom 1.0 y 0.5,,,,, | source 640x372
-N17.mp4,,,,,src/rob_lunch.mp4,,,59.7,61.1,x 0.5 zoom 1.0 y 0.5 blurfit,,,,, | source 640x372
-N18.mp4,,,,,src/rob_lunch.mp4,,,26.3,28.5,x 0.4 zoom 1.0 y 0.5,,,,, | source 640x372
-N19.mp4,,,,,src/nap_cnn.mp4,,,7.2,9.8,x 0.4 zoom 1.0 y 0.5,,,,, | source 1280x494
-N20.mp4,,,,,src/rob_lunch.mp4,,,34.7,36.7,x 0.5 zoom 1.0 y 0.5 blurfit,,,,, | source 640x372
-N21.mp4,,,,,src/bbc_feb.mp4,,,20.5,21.8,x 0.45 zoom 1.0 y 0.5,,,,, | source 1024x436
-N22.mp4,,,,,src/campnou.mp4,,,33.3,35.4,x 0.45 zoom 1.0 y 0.5,,,,, | source 1024x520
-N23.mp4,,,,,src/statement.mp4,,,3.0,5.5,x 0.5 zoom 1.0 y 0.5 blurfit,,,,, | source 1280x540
-N24.mp4,,,,,src/stock_17049.mp4,Mixkit (stock),,1.0,3.0,x 0.5 zoom 1.0 y 0.5,,,,,"post text: Mixkit Free License; Stock: a contract and pen, for 'agreed a new contract' (Mixkit 17049; illustrative) | source 1280x720"
+N01.mp4,action,0.00,Barcelona signed Lionel Messi on a paper napkin.,"The napkin itself, framed: Rexach's handwritten pledge to sign Messi (Bonhams video of the lot as aired by BBC Sportsday, 8 May 2024; archive.org TV News)",src/nap_sport.mp4,,,12.2,15.1,x 0.465 zoom 1.0 y 0.5 blurfit,,,,, | source 1024x436
+N02.mp4,face,2.59,"Back in 2000, Messi was a tiny kid","Messi as a child, family photo (Informe Robinson, Canal+ Spain, 'Lionel Messi' episode; archive.org)",src/rob_kid.mp4,,,7.0,9.4,x 0.4 zoom 1.0 y 0.5,,,,, | source 640x372
+N03.mp4,action,4.61,"from Rosario, in Argentina.","Rosario, Argentina: the National Flag Memorial (Informe Robinson)",src/rob_kid.mp4,,,19.5,21.4,x 0.45 zoom 1.0 y 0.5,,,,, | source 640x372
+N04.mp4,action,6.21,He needed growth hormone treatment.,"Stock: a syringe drawn from a vial, for the growth hormone treatment (Mixkit 47504; illustrative)",src/stock_47504.mp4,Mixkit (stock),,1.0,2.6,x 0.5 zoom 1.0 y 0.5,,,,,"post text: Mixkit Free License; Stock: a syringe drawn from a vial, for the growth hormone treatment (Mixkit 47504; illustrative) | source 1280x720"
+N05.mp4,action,7.54,About a thousand dollars a month.,"Stock: counting dollar bills, for 'about a thousand dollars a month' (Mixkit 18296; illustrative)",src/stock_18296.mp4,Mixkit (stock),,1.0,2.8,x 0.5 zoom 1.0 y 0.5,,,,,"post text: Mixkit Free License; Stock: counting dollar bills, for 'about a thousand dollars a month' (Mixkit 18296; illustrative) | source 1920x1080"
+N06.mp4,action,9.01,Newell's Old Boys,"The Newell's Old Boys gate sign, Rosario (Informe Robinson)",src/rob_newells.mp4,,,6.1,7.4,x 0.4 zoom 1.0 y 0.5,,,,, | source 640x372
+N07.mp4,action,10.03,and River Plate both wanted him.,"Young Messi in Newell's red and black, home video (Informe Robinson)",src/rob_kids.mp4,,,43.0,44.8,x 0.5 zoom 1.0 y 0.5,,,,, | source 640x372
+N08.mp4,action,11.49,Neither could afford it. So he went,"Young Messi playing for Newell's, home video (Informe Robinson)",src/rob_kids.mp4,,,47.2,48.7,x 0.5 zoom 1.0 y 0.5,,,,, | source 640x372
+N09.mp4,action,12.70,to Barcelona for a trial.,"Teenage Messi on the ball in a Barcelona youth game ('Young Lionel Messi at La Masia', archive.org; a little later than the 2000 trial: illustrative)",src/lamasia_youth.mp4,,,45.2,46.7,x 0.45 zoom 1.0 y 0.5,,,,, | source 1280x720
+N10.mp4,action,13.95,But the club was slow.,"Barcelona's training ground, the club's own pitches (Informe Robinson)",src/rob_rexach.mp4,,,58.0,59.3,x 0.5 zoom 1.0 y 0.5 blurfit,,,,, | source 640x372
+N11.mp4,action,14.94,Some of them said it would be ten or twelve,"Barcelona's youth training pitches, 'Camp no 3' sign (Informe Robinson)",src/rob_rexach.mp4,,,65.9,67.7,x 0.4 zoom 1.0 y 0.5,,,,, | source 640x372
+N12.mp4,action,16.39,years before they saw the benefit.,"Teenage Messi, number 15, in a Barcelona youth game ('Young Lionel Messi at La Masia', archive.org; illustrative)",src/lamasia_youth.mp4,,,52.7,54.5,x 0.5 zoom 1.0 y 0.5,,,,, | source 1280x720
+N13.mp4,action,17.89,His father was tired of waiting.,"Stock: an alarm clock on dollar bills, for 'tired of waiting' (Mixkit 46979; illustrative)",src/stock_46979.mp4,Mixkit (stock),,1.0,2.7,x 0.5 zoom 1.0 y 0.5,,,,,"post text: Mixkit Free License; Stock: an alarm clock on dollar bills, for 'tired of waiting' (Mixkit 46979; illustrative) | source 1280x720"
+N14.mp4,action,19.27,"So on the fourteenth of December,","The napkin's first line, 'En Barcelona a 14 de diciembre del 2000' (Bonhams video as aired by BBC News, 18 May 2024)",src/nap_bbc.mp4,,,8.2,9.8,x 0.5 zoom 1.0 y 0.5 blurfit,,,,, | source 1024x436
+N15.mp4,face,20.56,"Barcelona's sporting director, Carles Rexach,","Carles Rexach, interviewed (Informe Robinson; name caption shown earlier in the same interview)",src/rob_rexach.mp4,,,11.0,13.4,x 0.45 zoom 1.0 y 0.5,,,,, | source 640x372
+N16.mp4,face,22.68,met two of Messi's agents,"Josep Maria Minguella, one of the two at the lunch (Informe Robinson; named by caption at 31.5 s of the same source)",src/rob_lunch.mp4,,,40.6,42.0,x 0.6 zoom 1.0 y 0.5,,,,, | source 640x372
+N17.mp4,action,23.77,for lunch at a tennis club.,Tennis courts at the club shown by Informe Robinson in the napkin segment (illustrative for the tennis club lunch),src/rob_lunch.mp4,,,59.7,61.1,x 0.5 zoom 1.0 y 0.5 blurfit,,,,, | source 640x372
+N18.mp4,action,24.83,And he wrote the deal on a paper napkin.,The napkin close-up: 'Carles Rexach' in his own hand (Informe Robinson),src/rob_lunch.mp4,,,26.3,28.5,x 0.4 zoom 1.0 y 0.5,,,,, | source 640x372
+N19.mp4,action,26.70,"He agreed, ""regardless of any dissenting opinions"",","The napkin's middle lines, 'a pesar de algunas opiniones en contra' (Bonhams video as aired by CNN, 18 May 2024; archive.org TV News)",src/nap_cnn.mp4,,,7.2,9.8,x 0.4 zoom 1.0 y 0.5,,,,, | source 1280x494
+N20.mp4,action,29.03,to sign the player Lionel Messi.,The napkin: 'Lionel Messi' (Informe Robinson),src/rob_lunch.mp4,,,34.7,36.7,x 0.5 zoom 1.0 y 0.5 blurfit,,,,, | source 640x372
+N21.mp4,face,30.67,Messi was thirteen.,"Young Messi with a ball in a Barcelona shirt (Getty Images photo as aired by BBC News, 1 Feb 2024)",src/bbc_feb.mp4,,,20.5,21.8,x 0.45 zoom 1.0 y 0.5,,,,, | source 1024x436
+N22.mp4,face,31.64,He became Barcelona's all-time top scorer.,"Messi celebrating at Camp Nou (BBC Sportsday, 8 Aug 2021)",src/campnou.mp4,,,33.3,35.4,x 0.45 zoom 1.0 y 0.5,,,,, | source 1024x520
+N23.mp4,action,33.44,"Then, in 2021, Barcelona said","FC Barcelona's official statement of 5 Aug 2021 on screen (CNN Newsroom, 6 Aug 2021; archive.org TV News)",src/statement.mp4,,,3.0,5.5,x 0.5 zoom 1.0 y 0.5 blurfit,,,,, | source 1280x540
+N24.mp4,action,35.59,they had agreed a new contract with him.,"Stock: a contract and pen, for 'agreed a new contract' (Mixkit 17049; illustrative)",src/stock_17049.mp4,Mixkit (stock),,1.0,3.0,x 0.5 zoom 1.0 y 0.5,,,,,"post text: Mixkit Free License; Stock: a contract and pen, for 'agreed a new contract' (Mixkit 17049; illustrative) | source 1280x720"
+N25.mp4,action,37.33,"But under LaLiga's rules, they couldn't afford to register it.","Camp Nou's empty stands, 'Mes que un club' (BBC Sportsday, 8 Aug 2021)",src/campnou.mp4,,,4.0,6.9,x 0.5 zoom 1.0 y 0.5 blurfit,,,,, | source 1024x520
+N26.mp4,face,39.89,Messi left in tears.,"Messi in tears at his farewell press conference, 8 Aug 2021 (BBC News; archive.org TV News)",src/tears.mp4,,,3.0,4.4,x 0.5 zoom 1.0 y 0.5,,,,, | source 1024x520
+N27.mp4,action,40.96,"Three years later, that napkin","The framed napkin on show at Bonhams, London, 'The World's Most Famous Napkin' (BBC News, 18 May 2024)",src/nap_bbc.mp4,,,4.4,6.1,x 0.55 zoom 1.0 y 0.5,,,,, | source 1024x436
+N28.mp4,action,42.37,sold at auction for seven hundred and sixty-two thousand pounds.,"A Bonhams handler holds up the framed napkin (BBC News, 18 May 2024). Words: £762,400 (NPR/AP, 17 May 2024)",src/nap_bbc.mp4,,,35.6,38.8,x 0.33 zoom 1.0 y 0.5,,,,, | source 1024x436
+N29.mp4,action,45.31,Almost a million dollars.,"The napkin in its case at Bonhams (BBC News, 18 May 2024). Words: about $968,600 (NPR, 17 May 2024)",src/nap_bbc.mp4,,,27.6,29.2,x 0.52 zoom 1.0 y 0.5,,,,, | source 1024x436
+N30.mp4,face,46.57,Barcelona couldn't afford to keep Messi.,"Messi wipes his tears with a tissue, farewell press conference, 8 Aug 2021 (BBC News)",src/tears.mp4,,,29.2,31.0,x 0.5 zoom 1.0 y 0.5,,,,, | source 1024x520
+N31.mp4,action,48.06,But the napkin that signed him was worth a fortune.,"The napkin: 'Lionel Messi' in Rexach's hand (Bonhams video as aired by CNN, 18 May 2024)",src/nap_cnn.mp4,,,16.6,19.4,x 0.35 zoom 1.0 y 0.5,,,,, | source 1280x494
