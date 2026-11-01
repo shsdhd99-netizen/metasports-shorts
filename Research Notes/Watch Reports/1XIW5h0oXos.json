@@ -1,0 +1,228 @@
+{
+ "length_s": 60.0,
+ "topic": "How Shaq's powerful dunks forced the NBA to redesign basketball backboards and introduce breakaway rims.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "Shaq dunked so hard he changed",
+  "first_frame": "Archival footage of Shaq dunking and shattering a backboard.",
+  "on_screen_text_0_3s": "Shaq dunked so hard he changed the NBA. You see old",
+  "shots_in_first_3s": 2
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 2.75,
+   "shows": "Shaq dunking, shattering the glass backboard, and bringing down the rim.",
+   "kind": "action"
+  },
+  {
+   "start_s": 2.75,
+   "end_s": 6.0,
+   "shows": "3D animated diagram showing how old rims were bolted directly to glass backboards.",
+   "kind": "other"
+  },
+  {
+   "start_s": 6.0,
+   "end_s": 8.0,
+   "shows": "Basketball player dunking and shattering a backboard in slow motion.",
+   "kind": "action"
+  },
+  {
+   "start_s": 8.0,
+   "end_s": 9.5,
+   "shows": "Retro NBA footage of a player shattering a backboard.",
+   "kind": "action"
+  },
+  {
+   "start_s": 9.5,
+   "end_s": 13.75,
+   "shows": "High school basketball game where the entire hoop structure collapses onto the court.",
+   "kind": "action"
+  },
+  {
+   "start_s": 13.75,
+   "end_s": 15.0,
+   "shows": "College player dunking and shattering the backboard.",
+   "kind": "action"
+  },
+  {
+   "start_s": 15.0,
+   "end_s": 17.0,
+   "shows": "Michael Jordan shattering a backboard during an exhibition game.",
+   "kind": "action"
+  },
+  {
+   "start_s": 17.0,
+   "end_s": 20.5,
+   "shows": "Shaq dunking against the Nets and pulling down the entire backboard frame.",
+   "kind": "action"
+  },
+  {
+   "start_s": 20.5,
+   "end_s": 23.75,
+   "shows": "Shaq dunking against the Kings and collapsing the hydraulic goal system.",
+   "kind": "action"
+  },
+  {
+   "start_s": 23.75,
+   "end_s": 29.0,
+   "shows": "Arena staff pushing a backup basketball hoop onto the court.",
+   "kind": "action"
+  },
+  {
+   "start_s": 29.0,
+   "end_s": 30.5,
+   "shows": "TV graphic showing Shaq's stat line including 'Broken Backboards: 1'.",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 30.5,
+   "end_s": 33.25,
+   "shows": "Shaq standing in front of a tree sculpture made from rims he broke.",
+   "kind": "action"
+  },
+  {
+   "start_s": 33.25,
+   "end_s": 34.5,
+   "shows": "Factory worker using suction machinery to handle heavy glass backboards.",
+   "kind": "action"
+  },
+  {
+   "start_s": 34.5,
+   "end_s": 36.25,
+   "shows": "Worker assembling protective padding on a backboard frame.",
+   "kind": "action"
+  },
+  {
+   "start_s": 36.25,
+   "end_s": 38.75,
+   "shows": "3D diagram showing modern breakaway rim bolted to the steel support arm instead of glass.",
+   "kind": "other"
+  },
+  {
+   "start_s": 38.75,
+   "end_s": 42.25,
+   "shows": "Amar'e Stoudemire preparing on the Sports Science test set.",
+   "kind": "face"
+  },
+  {
+   "start_s": 42.25,
+   "end_s": 44.75,
+   "shows": "Amar'e Stoudemire dunking with maximum force on a test hoop.",
+   "kind": "action"
+  },
+  {
+   "start_s": 44.75,
+   "end_s": 49.0,
+   "shows": "Close-up slow motion replay of the modern breakaway rim flexing under 1000 lbs of force.",
+   "kind": "replay"
+  },
+  {
+   "start_s": 49.0,
+   "end_s": 50.0,
+   "shows": "Sports Science host pulling the trigger to drop a piano.",
+   "kind": "face"
+  },
+  {
+   "start_s": 50.0,
+   "end_s": 55.5,
+   "shows": "Piano dropped from a crane onto a modern hoop, smashing on impact while backboard stays whole.",
+   "kind": "action"
+  },
+  {
+   "start_s": 55.5,
+   "end_s": 57.5,
+   "shows": "Modern NBA game clip showing a powerful dunk without damaging the rim.",
+   "kind": "action"
+  },
+  {
+   "start_s": 57.5,
+   "end_s": 60.0,
+   "shows": "Another modern NBA game dunk holding up under impact.",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 22,
+ "average_shot_s": 2.73,
+ "longest_shot_s": 5.5,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 160,
+  "tone": "informative",
+  "original_audio_under_voice": true
+ },
+ "music": {
+  "present": true,
+  "style": "upbeat beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [
+  {
+   "at_s": 0.5,
+   "sound": "shattering glass"
+  },
+  {
+   "at_s": 11.5,
+   "sound": "structure crash"
+  },
+  {
+   "at_s": 50.5,
+   "sound": "piano smashing impact"
+  }
+ ],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "sentence",
+  "position": "lower-middle",
+  "colours": "white text on translucent black background",
+  "highlight_style": "none"
+ },
+ "text_overlays": [
+  {
+   "at_s": 4.75,
+   "text": "METAL PLATE"
+  },
+  {
+   "at_s": 36.75,
+   "text": "RIM BOLTED INTO ARM"
+  }
+ ],
+ "cards_or_graphics": 0,
+ "framing": "crop",
+ "ending": {
+  "last_words": "modern NBA hoop.",
+  "last_frame": "Player landing on court after dunking on a modern goal.",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "Shaq dunked so hard he changed the NBA. You see old backboards used to just be bolted to a metal plate, causing things like this to happen. It went from an amazing highlight to a huge safety hazard. From college players to Michael Jordan, they were all shattering backboards. But it wasn't just the backboard that was the problem. Players like Shaq were so powerful they brought the entire thing down. This caused every team to start bringing backups in the arena for moments like these or else the game would be cancelled. It happened so often Shaq even has a tree made up of all the rims he's broken, which forced the league to change how they made them, creating the Shaq proof breakaway rim attached to the arm. Sports Science would test the new rim with NBA center Amar'e Stoudemire. He was brought in to dunk with as much strength as he could, with his best attempt being a thousand pounds of force, and the backboard remained intact. They even went as far as dropping a piano right on the rim with 6,000 pounds of force and still the backboard didn't shatter. Since then, no NBA player has come close to breaking the backboard on the modern NBA hoop.",
+ "retention_tricks": [
+  "pattern interrupts",
+  "reveals",
+  "3D animation technical diagrams",
+  "extreme stunt testing (dropping piano)"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": true,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "Strong narrative hook connecting Shaquille O'Neal's physical dominance directly to an NBA equipment redesign.",
+  "Visually engaging mix of viral destruction clips, 3D technical animations, and extreme test footage like dropping a piano on a basketball hoop.",
+  "Clear, concise explanation that turns basketball history into an entertaining science and engineering story."
+ ],
+ "_meta": {
+  "source": "1XIW5h0oXos",
+  "model": "gemini-3.5-flash",
+  "fps": 4.0,
+  "watched": "2026-11-01",
+  "tier": "[S] model-observed, not measured"
+ }
+}

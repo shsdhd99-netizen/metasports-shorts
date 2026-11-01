@@ -18,8 +18,8 @@
    "at": 5.47,
    "blurfit": true,
    "blurfit_aspect": 0.75,
-   "zoom": 1.15,
-   "x": 0.45,
+   "zoom": 1.6,
+   "x": 0.42,
    "kind": "action",
    "why": "THE BLOCK, live angle: Kuminga (white) rises for the step-back three, Wemby (#1 black) closes from the right and the ball has just left his hands and Wemby's hand meets it at about 0.04 s; the ball flies up and back (ESPN clip 50343302 'Victor Wembanyama throws down the hammer', Spurs vs Wolves Oct 31 2026; scorebug MIN 101 - 105 SAS, 4th 6:21)",
    "len": 3.72
@@ -30,12 +30,13 @@
    "at": 2.7,
    "blurfit": true,
    "blurfit_aspect": 0.75,
-   "x": 0.4,
    "kind": "action",
    "anchor": "Kuminga pulled",
    "replay": true,
    "why": "Rewind: Kuminga brings it up and steps back on the left wing guarded by Fox (#4); scorebug MIN 101 - 105 SAS proves 'Spurs up four' (same ESPN clip)",
-   "len": 3.0
+   "len": 3.0,
+   "x": 0.4,
+   "zoom": 1.35
   },
   {
    "clip": "W03",
@@ -126,7 +127,7 @@
      "end": 3.85
     }
    ],
-   "len": 3.85
+   "len": 3.9
   }
  ]
 }
