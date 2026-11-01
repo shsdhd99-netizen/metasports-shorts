@@ -39,7 +39,7 @@ ROOT = `C:\Users\Admin\Documents\YouTube-Playbooks`. Run the tools from `ROOT\To
    - a short statement pointing at the moment or the claim ("He Pretended To Be Klay Thompson"), true to the video
    - no hashtag or one (#nba); no ALL-CAPS words
    - title wording is a small factor ([V] `Research Notes/Similar Channels (Oct 26, 2026).md` §1): don't score titles
-   - also write 3-8 optional tags (about 100-150 characters: names, team, event, misspellings), no description
+   - also write tags filled to 490 characters with Tools/tags_fit.py (names, team, event, misspellings, then wider topics; owner, Nov 1), no description
 8. **Save the package before the folder.** Write `script.txt` words and `notes.md` (titles, the shot list, the pinned comment, sources) into `Research Notes` first. Create `ROOT\Productions\MetaSports\<YYYY-MM-DD> <short title>\` only after step 4 still passes and frame 1 plus a proof clip per beat are named. Then:
    - `script.txt`: ONLY the words the voice says, in one paragraph.
      - Hard names as `{Giannis|YAH-nis}`. Captions show the left side; the voice says the right.

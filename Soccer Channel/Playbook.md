@@ -30,7 +30,7 @@
 13. **Posting and the package (Oct 26 overnight review) [V/S] `Research Notes/Posting Study (Oct 26, 2026).md`:**
     - Title = the spoken line 1, a short statement. Title wording is a small factor: no title scoring.
     - No hashtag or one (#football). Description empty.
-    - Tags optional: 3-8 relevant tags, about 100-150 characters (names, club, event, common misspellings). Never fill the 500 characters.
+    - Tags: fill the box to 490 characters (owner, Nov 1: "go back to filling"), most relevant first: the names, the team or club, the event, common misspellings, then wider topic tags. Check with `python Tools/tags_fit.py "tag1, tag2, ..."` (it counts the way YouTube does and stops at 490).
     - Judge a Short at 72 hours (S03 had 1.4K views at 10 h and 14.5K by day 3). Never re-upload a Short.
 14. **Research tools (Oct 26 overnight review):** `Research Notes/Competitor Watchlist.csv` (the channels we watch, soccer included) and `Tools/yt_watch.py` (Gemini watches a Short; needs a free `GEMINI_API_KEY` in the environment settings).
 15. **TikTok and Instagram cross-posting is paused** (owner, Oct 26: YouTube first).

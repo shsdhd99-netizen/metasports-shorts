@@ -150,8 +150,8 @@ How to work:
 - **`notes.md`:** lane, concept in 8 words, added value, copy-check, and a table of every line with its source and exact quote. Then the footage list (licence, what each clip is), and illustrative-shot warnings.
 - **`UPLOAD.md` (Oct 26 overnight review; [V] `Research Notes/Posting Study (Oct 26, 2026).md`):** title (= line 1, a short statement;
   plural or singular makes no difference; title wording is a small factor, so no title scoring); no hashtag or one (#football);
-  description empty; tags optional: 3-8 relevant tags, about 100-150 characters (names, club, event, misspellings), checked with
-  `python Tools/tags_fit.py --cap 150 "..."`, never the full 500; 3 alternative titles; post order (one soccer Short a day, 12 PM ET,
+  description empty; tags filled to 490 characters (owner, Nov 1: names, club, event, misspellings, then wider topics), checked with
+  `python Tools/tags_fit.py "..."`; 3 alternative titles; post order (one soccer Short a day, 12 PM ET,
   at least 1 hour after the NBA post); which version (music or no music).
 - **The draft files:** copy both renders as `DRAFT - awaiting approval - S<NN> <title> (music).mp4` and `(no music).mp4`.
 - **Update** `Soccer Channel/START HERE.md`, `Lessons Learned.md` and `Idea Bank.md`.

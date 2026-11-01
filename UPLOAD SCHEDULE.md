@@ -16,7 +16,7 @@ Post time matters little; a steady slot matters more (Oct 26 overnight review) [
 title (Copy button), set "Not made for kids", add the pinned comment from the card. Nothing is ever posted for you.
 - **Title:** the card's pick, a short statement. At most one hashtag (#nba or #football).
 - **Description:** leave it empty.
-- **Tags:** optional. Paste the card's 3-8 tags (about 100-150 characters), or leave the box empty. Never fill all 500 characters.
+- **Tags:** paste the card's tags; they fill the box to about 490 characters (your call, Nov 1: "go back to filling").
 - (Oct 26 overnight review) [V] YouTube Help: "tags play a minimal role"; Posting Study answers 4-6.
 
 **Strict rules:**

@@ -156,7 +156,7 @@ then `python Tools/assemble.py --folder "<folder>" [--caption-style clank|metasp
 Rules: Oct 26 overnight review ([V] `Research Notes/Posting Study (Oct 26, 2026).md`; [V] `Research Notes/Similar Channels (Oct 26, 2026).md` §1).
 - **Title:** 3 options, each a short statement pointing at the moment or the claim ("He Pretended To Be Klay Thompson"); true to the video. Title wording is a small factor: don't score titles and don't gate on them. No hashtag or one (#nba). No ALL-CAPS words.
 - **Description:** leave it empty.
-- **Tags (optional):** 3-8 relevant tags, about 100-150 characters: the names, the team, the event, common misspellings. Never fill the 500 characters. Check with `python Tools/tags_fit.py --cap 150 "tag1, tag2, ..."`.
+- **Tags:** fill the box to 490 characters (owner, Nov 1: "go back to filling"), most relevant first: the names, the team or club, the event, common misspellings, then wider topic tags. Check with `python Tools/tags_fit.py "tag1, tag2, ..."` (it counts the way YouTube does and stops at 490).
 - **Pinned comment:** the two-sided argument.
 - **Cover:** one, `python Tools/thumb.py --shape short` (keep the face visible; single quotes around text with $). The feed shows no custom thumbnails: 5 minutes at most.
 - **Slot:** `UPLOAD SCHEDULE.md` (NBA 11 AM ET; news the morning after the game). Write down the go-live time. Judge at 72 h.

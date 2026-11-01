@@ -56,7 +56,7 @@ Rules marked "(FC too)" also apply to soccer. The full soccer rules are in `Socc
 - **Title:** a short statement pointing at the moment ("He Pretended To Be Klay Thompson"). Title wording is a small factor: no title scoring and no title gates. [V] Similar Channels §1 (25,000 Shorts: questions 1.01x, "This/The" 1.06x).
 - **Title hashtags:** none, or one (#nba, or #football on FC). [S] Posting Study answer 6.
 - **Description:** leave it empty. [V] Posting Study §1f (empty 1.00x vs filled 1.00x).
-- **Tags are optional.** 3-8 relevant tags, about 100-150 characters: the names, the team, the event, common misspellings. Never fill the 500 characters. Check the count with `python Tools/tags_fit.py --cap 150 "tag1, tag2, ..."`. [V] YouTube Help: "tags play a minimal role"; Posting Study answer 4.
+- **Tags:** fill the box to 490 characters (owner, Nov 1: "go back to filling"), most relevant first: the names, the team or club, the event, common misspellings, then wider topic tags. Check with `python Tools/tags_fit.py "tag1, tag2, ..."` (it counts the way YouTube does and stops at 490).
 - **Pinned comment:** the two-sided argument (unchanged).
 
 ### 4. Script critic and QA (Oct 26 overnight review)
@@ -272,7 +272,7 @@ Changes to how we work:
 10. **Captions:** readable, clear of faces, action and overlay text; no lone-word cards. **Cards:** none (owner, Oct 26). If one is unavoidable: 1.5 s at most, never in the first 4 s. **No emoji stickers.** (Oct 26 overnight review; [V] Why NBA Views Dropped §2, [S] Retention Upgrade §2b.)
 11. **Sound:** no bed by default (owner, Oct 14; this line said otherwise until the Oct 26 overnight review). When a bed is used on purpose: chosen by story type, 20 dB under the voice, with the payoff marked by the music (silence, stop, swell or hit) and dropped under real quotes; the track logged in `music_library.csv` (`Library/Music Guide.md`). Effects only where the picture makes the sound, or on the single reveal. The voice at -14 LUFS; true peak ≤ -1 dBTP.
 12. **Render:** inspected end to end (frame sheet + transcript of the final audio). `qa_short.py` PASS, then Critic v2 PASS (a separate agent), then the owner's listen.
-13. **Package:** the title is a short statement of the premise and goes up **exactly** as written; no hashtag or one (#nba); 3-8 tags, about 100-150 characters, or none; no description; the debate question in the pinned comment (Oct 26 overnight review; THE RULES §3).
+13. **Package:** the title is a short statement of the premise and goes up **exactly** as written; no hashtag or one (#nba); tags filled to 490 characters (owner, Nov 1); no description; the debate question in the pinned comment (Oct 26 overnight review; THE RULES §3).
 
 ### 4. Scoring rubric (RETIRED for ranking, Oct 14 night: it put #40 first and #40 got 655 views; Script Critic v3 ranks the queue now; keep this only for feasibility notes)
 | Factor | Weight | 1 | 3 | 5 |
