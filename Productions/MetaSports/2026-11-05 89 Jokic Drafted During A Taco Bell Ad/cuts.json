@@ -1,0 +1,150 @@
+{
+ "sources": {
+  "D": "src/draft.mp4",
+  "J": "src/jok200.mp4",
+  "W": "src/wb.mp4",
+  "N": "src/nug.mp4"
+ },
+ "promise": [
+  "Taco",
+  "Bell"
+ ],
+ "shots": [
+  {
+   "clip": "A01",
+   "src": "D",
+   "at": 39.0,
+   "kind": "action",
+   "why": "ESPN 2014 draft broadcast: Taco Bell ad with the 'Nikola Jokic PF - Serbia' bar (pick 41)",
+   "blurfit": true,
+   "blurfit_width": 1.0,
+   "len": 2.82
+  },
+  {
+   "clip": "A02",
+   "src": "D",
+   "at": 42.0,
+   "kind": "action",
+   "why": "same broadcast, burrito ad, name bar at the bottom",
+   "anchor": "Pick forty-one",
+   "blurfit": true,
+   "blurfit_width": 1.0,
+   "len": 2.17
+  },
+  {
+   "clip": "A03",
+   "src": "D",
+   "at": 47.0,
+   "kind": "action",
+   "why": "same broadcast, next ad, name still on the bar",
+   "anchor": "the bottom",
+   "blurfit": true,
+   "blurfit_width": 1.0,
+   "len": 1.26
+  },
+  {
+   "clip": "A04",
+   "src": "J",
+   "at": 114.0,
+   "kind": "face",
+   "why": "Jokic close-up (NBA 200th video, Oct 28 2026)",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "Jokic says",
+   "len": 2.7
+  },
+  {
+   "clip": "A05",
+   "src": "J",
+   "at": 143.9,
+   "kind": "face",
+   "why": "Jokic with the broadcast graphic '2nd player in NBA history to reach 200 career triple doubles'",
+   "anchor": "But now",
+   "blurfit": true,
+   "blurfit_width": 1.0,
+   "len": 2.61
+  },
+  {
+   "clip": "A06",
+   "src": "W",
+   "at": 20.0,
+   "kind": "action",
+   "why": "Westbrook (OKC) game footage, NBA upload, illustrative",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "Only",
+   "len": 1.8
+  },
+  {
+   "clip": "A07",
+   "src": "W",
+   "at": 40.0,
+   "kind": "action",
+   "why": "Westbrook (OKC) game footage, illustrative",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "Westbrook needed",
+   "overlay": [
+    {
+     "text": "1,175 GAMES",
+     "size": 110,
+     "color": "orange",
+     "y": 300,
+     "start": 0.0,
+     "end": 1.8
+    }
+   ],
+   "len": 3.11
+  },
+  {
+   "clip": "A09",
+   "src": "J",
+   "at": 122.0,
+   "kind": "face",
+   "why": "Jokic (#15) on the Nuggets bench, Oct 28 2026",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "Jokic did",
+   "overlay": [
+    {
+     "text": "814 GAMES",
+     "size": 110,
+     "color": "orange",
+     "y": 300,
+     "start": 0.0,
+     "end": 1.8
+    }
+   ],
+   "len": 1.04
+  },
+  {
+   "clip": "A10",
+   "src": "J",
+   "at": 143.9,
+   "kind": "face",
+   "why": "replay: the 200 graphic, half speed",
+   "anchor": "eight fourteen",
+   "speed": 0.5,
+   "replay": true,
+   "blurfit": true,
+   "blurfit_width": 1.0,
+   "len": 2.01
+  },
+  {
+   "clip": "A11",
+   "src": "D",
+   "at": 41.0,
+   "kind": "action",
+   "why": "back to the draft-night name bar (payoff image)",
+   "anchor": "is chasing",
+   "replay": true,
+   "blurfit": true,
+   "blurfit_width": 1.0,
+   "len": 1.49
+  }
+ ]
+}

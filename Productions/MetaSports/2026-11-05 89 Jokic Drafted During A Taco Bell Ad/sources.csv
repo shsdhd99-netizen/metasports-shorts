@@ -1,0 +1,11 @@
+clip,kind,used_at_s,used_for_line,what_it_shows,source_url,source_account,source_date,source_in_s,source_out_s,crop,match_score,licence_risk,verified,verified_on,notes
+A01.mp4,action,0.00,Nikola Jokic was drafted during a Taco Bell commercial.,ESPN 2014 draft broadcast: Taco Bell ad with the 'Nikola Jokic PF - Serbia' bar (pick 41),src\draft.mp4,,,39.0,41.8,x 0.5 zoom 1.0 y 0.5 blurfit,,,yes,2026-11-01, | source 640x360
+A02.mp4,action,2.52,Pick forty-one showed up only as a name at,"same broadcast, burrito ad, name bar at the bottom",src\draft.mp4,,,42.0,44.2,x 0.5 zoom 1.0 y 0.5 blurfit,,,yes,2026-11-01, | source 640x360
+A03.mp4,action,4.38,the bottom of the screen.,"same broadcast, next ad, name still on the bar",src\draft.mp4,,,47.0,48.3,x 0.5 zoom 1.0 y 0.5 blurfit,,,yes,2026-11-01, | source 640x360
+A04.mp4,face,5.34,Jokic says he has never eaten Taco Bell because of it.,"Jokic close-up (NBA 200th video, Oct 28 2026)",src\jok200.mp4,,,114.0,116.7,x 0.5 zoom 1.0 y 0.5 blurfit,,,yes,2026-11-01, | source 1920x1080
+A05.mp4,face,7.75,But now he has more than two hundred triple-doubles.,Jokic with the broadcast graphic '2nd player in NBA history to reach 200 career triple doubles',src\jok200.mp4,,,143.9,146.5,x 0.5 zoom 1.0 y 0.5 blurfit,,,yes,2026-11-01, | source 1920x1080
+A06.mp4,action,10.06,Only Russell Westbrook has more.,"Westbrook (OKC) game footage, NBA upload, illustrative",src\wb.mp4,,,20.0,21.8,x 0.5 zoom 1.0 y 0.5 blurfit,,,yes,2026-11-01, | source 1280x720
+A07.mp4,action,11.56,Westbrook needed eleven seventy-five games to reach two hundred.,"Westbrook (OKC) game footage, illustrative",src\wb.mp4,,,40.0,43.1,x 0.5 zoom 1.0 y 0.5 blurfit,,,yes,2026-11-01, | source 1280x720
+A09.mp4,face,14.37,Jokic did it in,"Jokic (#15) on the Nuggets bench, Oct 28 2026",src\jok200.mp4,,,122.0,123.0,x 0.5 zoom 1.0 y 0.5 blurfit,,,yes,2026-11-01, | source 1920x1080
+A10.mp4,face,15.11,eight fourteen. The pick nobody watched,"replay: the 200 graphic, half speed",src\jok200.mp4,,,143.9,145.9,x 0.5 zoom 1.0 y 0.5 blurfit,,,yes,2026-11-01, | source 1920x1080
+A11.mp4,action,16.82,is chasing the record.,back to the draft-night name bar (payoff image),src\draft.mp4,,,41.0,42.5,x 0.5 zoom 1.0 y 0.5 blurfit,,,yes,2026-11-01, | source 640x360
