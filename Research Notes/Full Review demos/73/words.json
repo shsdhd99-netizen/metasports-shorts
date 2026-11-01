@@ -1,0 +1,398 @@
+[
+ {
+  "word": "Bones",
+  "start": 0.0,
+  "end": 0.313
+ },
+ {
+  "word": "Hyland",
+  "start": 0.36,
+  "end": 0.708
+ },
+ {
+  "word": "got",
+  "start": 0.755,
+  "end": 0.882
+ },
+ {
+  "word": "a",
+  "start": 0.917,
+  "end": 0.94
+ },
+ {
+  "word": "technical",
+  "start": 1.01,
+  "end": 1.37
+ },
+ {
+  "word": "for",
+  "start": 1.416,
+  "end": 1.509
+ },
+ {
+  "word": "a",
+  "start": 1.556,
+  "end": 1.579
+ },
+ {
+  "word": "fake",
+  "start": 1.637,
+  "end": 1.869
+ },
+ {
+  "word": "throw.",
+  "start": 1.892,
+  "end": 2.252
+ },
+ {
+  "word": "The",
+  "start": 2.276,
+  "end": 2.357
+ },
+ {
+  "word": "Wolves",
+  "start": 2.403,
+  "end": 2.67
+ },
+ {
+  "word": "led",
+  "start": 2.728,
+  "end": 2.902
+ },
+ {
+  "word": "Toronto",
+  "start": 2.949,
+  "end": 3.286
+ },
+ {
+  "word": "by",
+  "start": 3.332,
+  "end": 3.425
+ },
+ {
+  "word": "25",
+  "start": 3.495,
+  "end": 4.098
+ },
+ {
+  "word": "with",
+  "start": 4.168,
+  "end": 4.272
+ },
+ {
+  "word": "under",
+  "start": 4.319,
+  "end": 4.47
+ },
+ {
+  "word": "two",
+  "start": 4.528,
+  "end": 4.725
+ },
+ {
+  "word": "minutes",
+  "start": 4.783,
+  "end": 5.05
+ },
+ {
+  "word": "left.",
+  "start": 5.132,
+  "end": 5.584
+ },
+ {
+  "word": "Bones",
+  "start": 5.608,
+  "end": 5.851
+ },
+ {
+  "word": "got",
+  "start": 5.886,
+  "end": 5.991
+ },
+ {
+  "word": "called",
+  "start": 6.037,
+  "end": 6.235
+ },
+ {
+  "word": "for",
+  "start": 6.258,
+  "end": 6.351
+ },
+ {
+  "word": "a",
+  "start": 6.397,
+  "end": 6.42
+ },
+ {
+  "word": "foul,",
+  "start": 6.49,
+  "end": 6.838
+ },
+ {
+  "word": "grabbed",
+  "start": 6.873,
+  "end": 7.163
+ },
+ {
+  "word": "the",
+  "start": 7.187,
+  "end": 7.256
+ },
+ {
+  "word": "ball",
+  "start": 7.291,
+  "end": 7.488
+ },
+ {
+  "word": "and",
+  "start": 7.535,
+  "end": 7.605
+ },
+ {
+  "word": "cocked",
+  "start": 7.663,
+  "end": 7.883
+ },
+ {
+  "word": "it",
+  "start": 7.906,
+  "end": 7.953
+ },
+ {
+  "word": "back",
+  "start": 7.999,
+  "end": 8.243
+ },
+ {
+  "word": "like",
+  "start": 8.313,
+  "end": 8.429
+ },
+ {
+  "word": "he'd",
+  "start": 8.452,
+  "end": 8.568
+ },
+ {
+  "word": "fire",
+  "start": 8.638,
+  "end": 8.928
+ },
+ {
+  "word": "it",
+  "start": 8.951,
+  "end": 8.998
+ },
+ {
+  "word": "at",
+  "start": 9.033,
+  "end": 9.091
+ },
+ {
+  "word": "the",
+  "start": 9.125,
+  "end": 9.195
+ },
+ {
+  "word": "ref.",
+  "start": 9.265,
+  "end": 9.625
+ },
+ {
+  "word": "The",
+  "start": 9.648,
+  "end": 9.729
+ },
+ {
+  "word": "ref",
+  "start": 9.787,
+  "end": 9.938
+ },
+ {
+  "word": "said",
+  "start": 9.985,
+  "end": 10.124
+ },
+ {
+  "word": "something.",
+  "start": 10.17,
+  "end": 10.577
+ },
+ {
+  "word": "So",
+  "start": 10.612,
+  "end": 10.739
+ },
+ {
+  "word": "Bones",
+  "start": 10.821,
+  "end": 11.076
+ },
+ {
+  "word": "did",
+  "start": 11.111,
+  "end": 11.215
+ },
+ {
+  "word": "it",
+  "start": 11.25,
+  "end": 11.297
+ },
+ {
+  "word": "again,",
+  "start": 11.331,
+  "end": 11.715
+ },
+ {
+  "word": "grinning.",
+  "start": 11.784,
+  "end": 12.26
+ },
+ {
+  "word": "Whistle.",
+  "start": 12.283,
+  "end": 12.701
+ },
+ {
+  "word": "Technical.",
+  "start": 12.725,
+  "end": 13.235
+ },
+ {
+  "word": "His",
+  "start": 13.259,
+  "end": 13.352
+ },
+ {
+  "word": "eyes",
+  "start": 13.398,
+  "end": 13.526
+ },
+ {
+  "word": "went",
+  "start": 13.549,
+  "end": 13.677
+ },
+ {
+  "word": "huge.",
+  "start": 13.735,
+  "end": 14.164
+ },
+ {
+  "word": "Then,",
+  "start": 14.187,
+  "end": 14.431
+ },
+ {
+  "word": "while",
+  "start": 14.478,
+  "end": 14.652
+ },
+ {
+  "word": "Toronto",
+  "start": 14.675,
+  "end": 14.942
+ },
+ {
+  "word": "shot",
+  "start": 15.0,
+  "end": 15.151
+ },
+ {
+  "word": "the",
+  "start": 15.186,
+  "end": 15.256
+ },
+ {
+  "word": "free",
+  "start": 15.29,
+  "end": 15.441
+ },
+ {
+  "word": "throw,",
+  "start": 15.465,
+  "end": 15.743
+ },
+ {
+  "word": "he",
+  "start": 15.79,
+  "end": 15.848
+ },
+ {
+  "word": "and",
+  "start": 15.894,
+  "end": 15.964
+ },
+ {
+  "word": "the",
+  "start": 15.999,
+  "end": 16.068
+ },
+ {
+  "word": "ref",
+  "start": 16.115,
+  "end": 16.3
+ },
+ {
+  "word": "were",
+  "start": 16.335,
+  "end": 16.44
+ },
+ {
+  "word": "already",
+  "start": 16.475,
+  "end": 16.776
+ },
+ {
+  "word": "chatting,",
+  "start": 16.823,
+  "end": 17.194
+ },
+ {
+  "word": "all",
+  "start": 17.218,
+  "end": 17.392
+ },
+ {
+  "word": "smiles.",
+  "start": 17.45,
+  "end": 18.019
+ },
+ {
+  "word": "You",
+  "start": 18.18,
+  "end": 18.3,
+  "live": true
+ },
+ {
+  "word": "can't",
+  "start": 18.32,
+  "end": 18.66,
+  "live": true
+ },
+ {
+  "word": "be",
+  "start": 18.66,
+  "end": 18.84,
+  "live": true
+ },
+ {
+  "word": "mad",
+  "start": 18.84,
+  "end": 19.08,
+  "live": true
+ },
+ {
+  "word": "at",
+  "start": 19.08,
+  "end": 19.22,
+  "live": true
+ },
+ {
+  "word": "Bones.",
+  "start": 19.22,
+  "end": 19.54,
+  "live": true
+ }
+]
