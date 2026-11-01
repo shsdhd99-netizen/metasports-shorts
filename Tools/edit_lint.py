@@ -65,7 +65,7 @@ def main():
 
     # 4. small subject in the first 3 s
     for a0, b0, s in timeline:
-        if a0 < 3.0 and s.get("blurfit") and float(s.get("zoom", 1.0)) < 1.3 and not s.get("still") and not s.get("page"):
+        if a0 < 3.0 and s.get("blurfit") and float(s.get("zoom", 1.0)) < 1.3 and not s.get("still") and not s.get("page")                 and not any(k in str(s.get("why", "")).lower() for k in ("close-up", "closeup", "tight", "face to face")):  # a close broadcast angle is already big (Nov 1 Full Review)
             flags.append(f"SMALL SUBJECT: {s['clip']} (hook, {a0:.1f} s) is a wide blurfit at zoom {s.get('zoom', 1.0)}; "
                          "players are tiny. Try zoom 1.5+ centred on the subject or a closer angle.")
 

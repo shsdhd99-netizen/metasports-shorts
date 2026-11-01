@@ -1,0 +1,14 @@
+{
+ "track": "Library/Music/eleven_stats_01.mp3",
+ "start": 0.0,
+ "bed_lu": -20,
+ "gap_lift": 2,
+ "fade_out": 1.0,
+ "why": "NBA music-bed A/B: #74 (posting Sunday) is the no-music side, so #73 is the MUSIC side. 'Clever pulse' (playful plucked synth) for a funny moment, about 20 dB under the voice. The bed drops out under the live broadcast call at the end (music always drops under real audio).",
+ "drops": [
+  {
+   "at": 18.08,
+   "len": 1.8
+  }
+ ]
+}

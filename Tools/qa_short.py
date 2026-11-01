@@ -335,7 +335,8 @@ def main():
     # 2. Time-bound words ([S] #73: the line said "just" for a game 9 days old). A Short can post days after it is built.
     stale = sorted({w["word"].strip(".,!?\"'").lower() for w in words if w["word"].strip(".,!?\"'").lower() in
                     {"yesterday", "tonight", "today", "tomorrow"}} |
-                   ({"just (line 1)"} if any(w["word"].strip(".,!?\"'").lower() == "just" for w in words[:8]) else set()) |
+                   ({"just (line 1)"} if any(w["word"].strip(".,!?\"'").lower() == "just" and i + 1 < len(words) and re.fullmatch(r"\w+(ed|ew|ot|ade|ook|ave|ent|ame|aid|ound|un|ung|ew)", words[i + 1]["word"].strip(".,!?\"'").lower())
+                                   for i, w in enumerate(words[:8])) else set()) |
                    ({"last night"} if re.search(r"\blast night\b", " ".join(w["word"] for w in words).lower()) else set()))
     soft(not stale, "no time-bound wording", f"time-bound wording {stale}: fine for same-day news, wrong if the Short posts later (write time-free lines)")
     # 3. Same number twice on screen ([S] #48: orange counter plus a green caption repeating the number).
