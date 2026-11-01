@@ -1,0 +1,552 @@
+[
+ {
+  "word": "The",
+  "start": 0.0,
+  "end": 0.128
+ },
+ {
+  "word": "NBA",
+  "start": 0.197,
+  "end": 0.58
+ },
+ {
+  "word": "legend",
+  "start": 0.673,
+  "end": 0.952
+ },
+ {
+  "word": "who",
+  "start": 0.987,
+  "end": 1.057
+ },
+ {
+  "word": "made",
+  "start": 1.115,
+  "end": 1.231
+ },
+ {
+  "word": "up",
+  "start": 1.254,
+  "end": 1.312
+ },
+ {
+  "word": "an",
+  "start": 1.347,
+  "end": 1.393
+ },
+ {
+  "word": "insult",
+  "start": 1.44,
+  "end": 1.753
+ },
+ {
+  "word": "to",
+  "start": 1.776,
+  "end": 1.823
+ },
+ {
+  "word": "destroy",
+  "start": 1.892,
+  "end": 2.276
+ },
+ {
+  "word": "someone.",
+  "start": 2.345,
+  "end": 2.786
+ },
+ {
+  "word": "Back",
+  "start": 2.821,
+  "end": 2.995
+ },
+ {
+  "word": "in",
+  "start": 3.042,
+  "end": 3.1
+ },
+ {
+  "word": "March",
+  "start": 3.17,
+  "end": 3.39
+ },
+ {
+  "word": "1993,",
+  "start": 3.46,
+  "end": 4.47
+ },
+ {
+  "word": "a",
+  "start": 4.493,
+  "end": 4.54
+ },
+ {
+  "word": "Bullets",
+  "start": 4.609,
+  "end": 4.841
+ },
+ {
+  "word": "guard",
+  "start": 4.876,
+  "end": 5.062
+ },
+ {
+  "word": "named",
+  "start": 5.108,
+  "end": 5.259
+ },
+ {
+  "word": "LaBradford",
+  "start": 5.306,
+  "end": 5.735
+ },
+ {
+  "word": "Smith",
+  "start": 5.782,
+  "end": 6.06
+ },
+ {
+  "word": "scored",
+  "start": 6.107,
+  "end": 6.385
+ },
+ {
+  "word": "37",
+  "start": 6.455,
+  "end": 7.07
+ },
+ {
+  "word": "against",
+  "start": 7.094,
+  "end": 7.268
+ },
+ {
+  "word": "Michael",
+  "start": 7.291,
+  "end": 7.488
+ },
+ {
+  "word": "Jordan's",
+  "start": 7.523,
+  "end": 7.779
+ },
+ {
+  "word": "Bulls",
+  "start": 7.825,
+  "end": 8.092
+ },
+ {
+  "word": "in",
+  "start": 8.127,
+  "end": 8.173
+ },
+ {
+  "word": "Chicago.",
+  "start": 8.22,
+  "end": 8.789
+ },
+ {
+  "word": "It",
+  "start": 8.812,
+  "end": 8.905
+ },
+ {
+  "word": "was",
+  "start": 8.928,
+  "end": 8.998
+ },
+ {
+  "word": "the",
+  "start": 9.033,
+  "end": 9.102
+ },
+ {
+  "word": "best",
+  "start": 9.183,
+  "end": 9.392
+ },
+ {
+  "word": "game",
+  "start": 9.427,
+  "end": 9.567
+ },
+ {
+  "word": "of",
+  "start": 9.59,
+  "end": 9.636
+ },
+ {
+  "word": "his",
+  "start": 9.683,
+  "end": 9.764
+ },
+ {
+  "word": "career,",
+  "start": 9.811,
+  "end": 10.229
+ },
+ {
+  "word": "and",
+  "start": 10.252,
+  "end": 10.345
+ },
+ {
+  "word": "Washington",
+  "start": 10.391,
+  "end": 10.739
+ },
+ {
+  "word": "still",
+  "start": 10.786,
+  "end": 10.96
+ },
+ {
+  "word": "lost.",
+  "start": 11.006,
+  "end": 11.39
+ },
+ {
+  "word": "But",
+  "start": 11.413,
+  "end": 11.552
+ },
+ {
+  "word": "Jordan",
+  "start": 11.622,
+  "end": 11.924
+ },
+ {
+  "word": "claimed",
+  "start": 11.982,
+  "end": 12.284
+ },
+ {
+  "word": "that",
+  "start": 12.307,
+  "end": 12.4
+ },
+ {
+  "word": "after",
+  "start": 12.446,
+  "end": 12.725
+ },
+ {
+  "word": "the",
+  "start": 12.771,
+  "end": 12.841
+ },
+ {
+  "word": "game,",
+  "start": 12.899,
+  "end": 13.224
+ },
+ {
+  "word": "Smith",
+  "start": 13.259,
+  "end": 13.503
+ },
+ {
+  "word": "told",
+  "start": 13.549,
+  "end": 13.735
+ },
+ {
+  "word": "him,",
+  "start": 13.77,
+  "end": 13.932
+ },
+ {
+  "word": "nice",
+  "start": 14.002,
+  "end": 14.199
+ },
+ {
+  "word": "game,",
+  "start": 14.246,
+  "end": 14.478
+ },
+ {
+  "word": "Mike.",
+  "start": 14.501,
+  "end": 14.815
+ },
+ {
+  "word": "The",
+  "start": 14.838,
+  "end": 14.919
+ },
+ {
+  "word": "two",
+  "start": 14.942,
+  "end": 15.035
+ },
+ {
+  "word": "teams",
+  "start": 15.082,
+  "end": 15.244
+ },
+ {
+  "word": "played",
+  "start": 15.279,
+  "end": 15.441
+ },
+ {
+  "word": "again",
+  "start": 15.465,
+  "end": 15.72
+ },
+ {
+  "word": "the",
+  "start": 15.767,
+  "end": 15.836
+ },
+ {
+  "word": "very",
+  "start": 15.871,
+  "end": 16.022
+ },
+ {
+  "word": "next",
+  "start": 16.092,
+  "end": 16.254
+ },
+ {
+  "word": "night.",
+  "start": 16.312,
+  "end": 16.521
+ },
+ {
+  "word": "So",
+  "start": 16.544,
+  "end": 16.637
+ },
+ {
+  "word": "Jordan",
+  "start": 16.719,
+  "end": 16.986
+ },
+ {
+  "word": "reportedly",
+  "start": 17.055,
+  "end": 17.427
+ },
+ {
+  "word": "told",
+  "start": 17.473,
+  "end": 17.636
+ },
+ {
+  "word": "his",
+  "start": 17.671,
+  "end": 17.74
+ },
+ {
+  "word": "teammates",
+  "start": 17.775,
+  "end": 18.123
+ },
+ {
+  "word": "he'd",
+  "start": 18.158,
+  "end": 18.286
+ },
+ {
+  "word": "match",
+  "start": 18.332,
+  "end": 18.565
+ },
+ {
+  "word": "Smith's",
+  "start": 18.599,
+  "end": 18.843
+ },
+ {
+  "word": "37",
+  "start": 18.901,
+  "end": 19.389
+ },
+ {
+  "word": "in",
+  "start": 19.412,
+  "end": 19.459
+ },
+ {
+  "word": "the",
+  "start": 19.494,
+  "end": 19.563
+ },
+ {
+  "word": "first",
+  "start": 19.598,
+  "end": 19.761
+ },
+ {
+  "word": "half",
+  "start": 19.784,
+  "end": 19.912
+ },
+ {
+  "word": "alone.",
+  "start": 19.958,
+  "end": 20.364
+ },
+ {
+  "word": "By",
+  "start": 20.388,
+  "end": 20.504
+ },
+ {
+  "word": "half-time,",
+  "start": 20.562,
+  "end": 20.875
+ },
+ {
+  "word": "he",
+  "start": 20.899,
+  "end": 20.945
+ },
+ {
+  "word": "had",
+  "start": 21.003,
+  "end": 21.119
+ },
+ {
+  "word": "36.",
+  "start": 21.189,
+  "end": 21.734
+ },
+ {
+  "word": "He",
+  "start": 21.769,
+  "end": 21.827
+ },
+ {
+  "word": "finished",
+  "start": 21.874,
+  "end": 22.071
+ },
+ {
+  "word": "with",
+  "start": 22.094,
+  "end": 22.187
+ },
+ {
+  "word": "47",
+  "start": 22.234,
+  "end": 22.698
+ },
+ {
+  "word": "in",
+  "start": 22.721,
+  "end": 22.768
+ },
+ {
+  "word": "a",
+  "start": 22.826,
+  "end": 22.849
+ },
+ {
+  "word": "25",
+  "start": 22.884,
+  "end": 23.29
+ },
+ {
+  "word": "-point",
+  "start": 23.313,
+  "end": 23.522
+ },
+ {
+  "word": "blowout.",
+  "start": 23.58,
+  "end": 24.022
+ },
+ {
+  "word": "But",
+  "start": 24.045,
+  "end": 24.149
+ },
+ {
+  "word": "here's",
+  "start": 24.207,
+  "end": 24.463
+ },
+ {
+  "word": "the",
+  "start": 24.509,
+  "end": 24.579
+ },
+ {
+  "word": "wild",
+  "start": 24.637,
+  "end": 24.927
+ },
+ {
+  "word": "part.",
+  "start": 24.974,
+  "end": 25.241
+ },
+ {
+  "word": "Smith",
+  "start": 25.287,
+  "end": 25.543
+ },
+ {
+  "word": "never",
+  "start": 25.624,
+  "end": 25.833
+ },
+ {
+  "word": "said",
+  "start": 25.891,
+  "end": 26.1
+ },
+ {
+  "word": "it.",
+  "start": 26.135,
+  "end": 26.216
+ },
+ {
+  "word": "Jordan",
+  "start": 26.251,
+  "end": 26.46
+ },
+ {
+  "word": "later",
+  "start": 26.495,
+  "end": 26.657
+ },
+ {
+  "word": "admitted",
+  "start": 26.692,
+  "end": 26.924
+ },
+ {
+  "word": "he",
+  "start": 26.947,
+  "end": 26.994
+ },
+ {
+  "word": "made",
+  "start": 27.04,
+  "end": 27.156
+ },
+ {
+  "word": "the",
+  "start": 27.18,
+  "end": 27.249
+ },
+ {
+  "word": "whole",
+  "start": 27.296,
+  "end": 27.528
+ },
+ {
+  "word": "thing",
+  "start": 27.551,
+  "end": 27.714
+ },
+ {
+  "word": "up.",
+  "start": 27.783,
+  "end": 28.097
+ }
+]

@@ -1,0 +1,25 @@
+{
+ "engine": "ffmpeg",
+ "out": "final_narrated.mp4",
+ "loop_fix": true,
+ "fits": [],
+ "music": {
+  "track": "Library/Music/eleven_stats_01.mp3",
+  "track_start": 0.0,
+  "in": 0.0,
+  "out": 18.285714,
+  "hit": null,
+  "hit_on": null,
+  "segment_lufs": -18.7,
+  "gain_db": -15.3,
+  "bed_lu": -20.0,
+  "gap_lift_db": 2.0,
+  "gaps": [
+   [
+    18.02,
+    18.29
+   ]
+  ],
+  "drops": []
+ }
+}

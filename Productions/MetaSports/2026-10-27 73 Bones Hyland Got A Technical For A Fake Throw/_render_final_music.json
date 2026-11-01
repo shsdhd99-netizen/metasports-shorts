@@ -1,0 +1,31 @@
+{
+ "engine": "ffmpeg",
+ "out": "final_music.mp4",
+ "loop_fix": true,
+ "fits": [],
+ "music": {
+  "track": "Library/Music/eleven_stats_01.mp3",
+  "track_start": 0.0,
+  "in": 0.0,
+  "out": 19.879184,
+  "hit": null,
+  "hit_on": null,
+  "segment_lufs": -18.9,
+  "gain_db": -15.1,
+  "bed_lu": -20.0,
+  "gap_lift_db": 2.0,
+  "gaps": [
+   [
+    19.54,
+    19.88
+   ]
+  ],
+  "drops": [
+   [
+    18.08,
+    19.88
+   ]
+  ]
+ },
+ "nat_sound": "nat_sound.py on final_music_vo.mp4: burst 18.10-19.58, bed -20 dB, B06=-32"
+}
