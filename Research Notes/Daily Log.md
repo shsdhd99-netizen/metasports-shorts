@@ -3,6 +3,16 @@
 One entry per channel per day, written by the daily runs (`.claude/skills/daily-run/SKILL.md`): data pulled, what was learned,
 research with sources, what was made, what changed in the rules or tools.
 
+## Sun Nov 1, 2026, about 00:45 UTC (owner asked: "update the shorts hubs"; this account's Hubs)
+
+**Hubs updated** (this account's pair: NBA SAWcHwuAwBxJuyBQSs8a8U, FC 2UVAcbNpKq6j4YXBEF8ge3; the other account's EZrk/LFsQ Hubs and task list can't be opened from here).
+- Statuses and views from the public channel lists (yt-dlp, Nov 1 00:35 UTC; single-video pages and RSS were blocked): every posted Short now shows its public views; stayed % only where a Studio export has it (nothing since Oct 24).
+- NBA: new cards #69-#79 and the Boozer Short (made on the other account; its folder isn't in GitHub); **#74 "Why NBA Players Refuse This Free Throw" was never posted, so it is the one ready card (Sun Nov 1, 7-8 AM ET)**; #79 and #80 skipped (news windows passed); #73 and #67 stay scripts.
+- FC: S04-S08 posted with views, new cards S15-S18 (posted) and S09 (script); S19/S20 stay scripts. **Nothing ready to post on FC.**
+- TikTok/Instagram caption fields and S06's long-cut tab removed (cross-posting paused by the owner, Oct 26); the long cuts stay in GitHub.
+- Channel stats: NBA last-7 median 7.8K (up from about 3.4K a week ago; #72 24K, #77 23K); FC goalkeeper Shorts 4 of 4 at 9K+ (S01 30K, S05 28K, S03 15K after a late climb, S17 9K), every other FC Short 1-3K.
+- ElevenLabs: this session's key works; 83,440 credits left until Nov 19.
+
 ## Sat Oct 31, 2026 (NBA daily run; routine; no ElevenLabs key)
 
 **Blocked.** `cloud_setup.sh`: `key: MISSING`, so no voice, render or QA; script, sources and cut plan only. Analytics: no token (YT_CLIENT_ID / YT_CLIENT_SECRET / YT_REFRESH_TOKEN missing), so `yt_analytics.py` and the dataset hand columns were not run. Nothing faked.
