@@ -3,6 +3,19 @@
 One entry per channel per day, written by the daily runs (`.claude/skills/daily-run/SKILL.md`): data pulled, what was learned,
 research with sources, what was made, what changed in the rules or tools.
 
+## Sun Nov 1, 2026 (NBA daily run; routine; no ElevenLabs key)
+
+**Blocked.** `cloud_setup.sh`: `key: MISSING`, so no voice, render or QA; script, sources and cut plan only. Analytics: no token (YT_* missing); `yt_analytics.py` and the dataset hand columns not run. Nothing faked.
+**Context.** #74 holds the Sun 7-8 AM NBA slot (Hub sync, Nov 1 00:45 UTC). Tags are back to 490 characters (owner, Nov 1).
+**Research (Sat Oct 31 games; AP recaps on ESPN, ESPN box scores and play-by-play).** Candidates:
+- **Spurs 121, Timberwolves 111** ([recap](https://www.espn.com/nba/recap?gameId=401909901)): Wembanyama 43 points, 6 blocks, 17-34; "reaching 40 points for the 10th time in the regular season"; blocked Kuminga's three and dunked on the run for point 40 (play-by-play: block 6:20, dunk 6:15, Q4). Also threw the ball off the backboard to himself (AP).
+- Cavaliers 136, Bucks 111 ([recap](https://www.espn.com/nba/recap?gameId=401909900)): a 48-point second quarter, 72-46 at half.
+- Rockets 119, Thunder 98 ([recap](https://www.espn.com/nba/recap?gameId=401909902)): Smith Jr. 30, Smart 7 of 10 from three; OKC's first game without Holmgren (out 2+ months).
+- Blazers 112, Jazz 90 ([recap](https://www.espn.com/nba/recap?gameId=401909896)): a 17-0 first-quarter run. Maxey 38 without LeBron and Embiid (76ers 109-104 Hornets). Grizzlies still unbeaten (136-105 Kings).
+**Pick:** Wemby's block-to-40th-point sequence: one clip, one oddity, a household-name star, and the play is in one ESPN clip (50343302, frame-checked). Rotation: #79 moment and #80 news were both skipped, so a moment fits. Copy check: FRESH for the backboard angle; "TAKEN" for the block/dunk query was a false match (old unrelated Wemby dunks). The backboard self-pass wasn't picked: #71 Haliburton already did the alley-oop-to-himself idea.
+**Made.** #82 "Wemby Blocked A Three And Scored Point 40 Five Seconds Later" (numbered 82: the Hub's Boozer card already uses 81): script (65 words, about 17-20 s), notes with exact source words, cut plan, UPLOAD.md with tags at 486/490. Hub card `shorts/n82` = `editing` ("needs the ElevenLabs key"). News: post Sun Nov 1 or drop it.
+**Lesson.** None new: no measured data reachable from this session (no Studio export since Oct 24, no API token).
+
 ## Sun Nov 1, 2026, about 00:45 UTC (owner asked: "update the shorts hubs"; this account's Hubs)
 
 **Hubs updated** (this account's pair: NBA SAWcHwuAwBxJuyBQSs8a8U, FC 2UVAcbNpKq6j4YXBEF8ge3; the other account's EZrk/LFsQ Hubs and task list can't be opened from here).
