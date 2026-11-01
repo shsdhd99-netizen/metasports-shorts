@@ -268,6 +268,26 @@ def music_filter(m, idx, total, words):
     return chain, ms0, log
 
 
+def _tag(name):
+    """"" for the default final.mp4 (legacy temp names unchanged), else "_<name>" so temp files of different outputs never collide."""
+    b = os.path.splitext(os.path.basename(name))[0]
+    return "" if b == "final" else "_" + "".join(c if c.isalnum() or c in "-_" else "_" for c in b)
+
+
+def acquire_lock(folder, out_name):
+    """One render per output file per folder: a second run of the same --out-name stops instead of corrupting the first
+    (Oct 2026: two renders in one folder gave a 0.2 s picture). A lock older than 2 h is treated as stale."""
+    lock = os.path.join(folder, "_render" + _tag(out_name) + ".lock")
+    if os.path.exists(lock):
+        if time.time() - os.path.getmtime(lock) < 7200:
+            raise SystemExit(f"Another render of {out_name} is running in this folder ({os.path.basename(lock)}). "
+                             f"Wait for it, use a different --out-name, or delete the lock file if it crashed.")
+    open(lock, "w").write(str(os.getpid()))
+    import atexit
+    atexit.register(lambda: os.path.exists(lock) and os.remove(lock))
+    return lock
+
+
 def finish(folder, raw, final, total, style, music=None, hook_text=None):
     """Burn MetaSports captions and mix sound effects in one ffmpeg pass, then previews + storyboard."""
     sys.path.insert(0, HERE)
@@ -323,7 +343,7 @@ def finish(folder, raw, final, total, style, music=None, hook_text=None):
         parts.append(f"[vlift]{tail}[a]")
     amap = ["-map", "[a]", "-c:a", "aac", "-b:a", "192k"]
     fc = f"[0:v]{vf}[v]" + (";" + ";".join(parts) if parts else "")
-    tmp = os.path.join(folder, "_final_tmp.mp4")
+    tmp = os.path.join(folder, "_final_tmp" + _tag(final) + ".mp4")  # per-output temp name: two renders with different --out-name cannot collide
     ok = False
     for enc in (["-c:v", "h264_nvenc", "-preset", "p6", "-rc", "vbr", "-cq", "18", "-b:v", "14M", "-maxrate", "20M"],
                 ["-c:v", "libx264", "-crf", "18", "-preset", "veryfast"]):
@@ -353,7 +373,7 @@ def finish(folder, raw, final, total, style, music=None, hook_text=None):
 
 def ffmpeg_engine(folder, voice, shots, clips, ins, total, a, zooms=()):
     """No Drift (Linux/cloud): trim + scale/crop each shot with ffmpeg, concat, mux the voice, then finish()."""
-    tmp = os.path.join(folder, "_shots_tmp")
+    tmp = os.path.join(folder, "_shots_tmp" + _tag(a.out_name))
     os.makedirs(tmp, exist_ok=True)
     parts, fits = [], []
     k = 0
@@ -399,7 +419,7 @@ def ffmpeg_engine(folder, voice, shots, clips, ins, total, a, zooms=()):
         k += 1
     lst = os.path.join(tmp, "list.txt")
     open(lst, "w").write("".join(f"file '{p}'\n" for p in parts))
-    raw = os.path.join(folder, "final_nocap.mp4")
+    raw = os.path.join(folder, "final_nocap" + _tag(a.out_name) + ".mp4")
     inputs = ["-f", "concat", "-safe", "0", "-i", lst, "-i", voice]
     r = subprocess.run(["ffmpeg", "-y", "-loglevel", "error", *inputs, "-map", "0:v", "-map", "1:a", "-c:v", "copy",
                         "-c:a", "aac", "-b:a", "192k", "-t", f"{total:.3f}", raw], capture_output=True, text=True)
@@ -434,6 +454,7 @@ def main():
     a = ap.parse_args()
     sys.stdout.reconfigure(encoding="utf-8")
     folder = os.path.abspath(a.folder)
+    acquire_lock(folder, a.out_name)
     voice, words_p, srt = (os.path.join(folder, f) for f in ("voice.mp3", "words.json", "captions.srt"))
     missing = [os.path.basename(p) for p in (voice, words_p, srt) if not os.path.exists(p)]
     if missing:
@@ -515,8 +536,8 @@ def main():
                         open(os.path.join(folder, f"preview_{n}.jpg"), "wb").write(base64.b64decode(c["data"]))
         d.apply(("save_project", {"path": os.path.join(folder, "edit.drift")}))
         if not a.no_export:
-            final = os.path.join(folder, "final.mp4")
-            out = os.path.join(folder, "final_nocap.mp4") if burn else final
+            final = os.path.join(folder, a.out_name)
+            out = os.path.join(folder, "final_nocap" + _tag(a.out_name) + ".mp4") if burn else final
             # NVIDIA encoder first (fast even when the PC is busy), then x264 veryfast as a fallback
             for enc in ({"video": "h264_nvenc", "rate": "bitrate", "bitrate": 14000},
                         {"video": "h264", "crf": 18, "preset": "veryfast"}):

@@ -32,7 +32,11 @@ Read first (they win over this file when newer):
 ## The 9 steps (about 60-90 min a Short in the cloud)
 
 ### 1. Pick the story (10 min)
-- **What wins:** a GLOBAL star, plus a small human or absurd detail, plus a twist, plus an ironic or emotional payoff with a hard number.
+- **Nov 1 update (`Research Notes/Soccer Topic Study (Nov 1, 2026).md`, `Soccer Script Craft (Nov 1, 2026).md`) overrides the line below where they differ:**
+  - **Premise beats star.** All four goalkeeper-in-a-shootout Shorts got 15-30K; the other eight got 1-3K [V, n=12]. Star-name and money/transfer topics are at or below channel median across 8 competitor channels [V].
+  - **Pick a premise the viewer does not already know:** a goalkeeper with one odd device in a high-stakes shootout; second lane fan/kid/family. The odd thing goes in the title, the star in line 2.
+  - **One object, one timeline, 3 numbers or fewer, one undercut mid-story, an ending that flips the opening device, no money payoff, 190-250 words, 45-59 s.** Template and one sourced example: Script Craft §5-6. Candidate list: Topic Study §6.
+- **What wins (older rule, still true as a second filter):** a GLOBAL star, plus a small human or absurd detail, plus a twist, plus an ironic or emotional payoff with a hard number.
 - **Themes by Goal median:**
   - refused / defiant: 826K
   - records and oddities: 332K

@@ -19,7 +19,10 @@ What it does, and what it never does:
   python Tools/yt_schedule.py --channel nba --file "<DRAFT ....mp4>" --title "..." --tags "a, b, c" --at "2026-11-02 07:15"
       -> dry run: prints what it would send. Add --go to upload. --at is US Eastern time.
 
-ONE-TIME SETUP (owner, about 5 minutes per channel, no PC needed; same Google app as Tools/yt_analytics.py):
+ON THE PC (easiest, Nov 1): `python Tools/yt_auth.py --channel nba` (and `--channel fc`) opens the browser, you click Allow, and
+the token is saved to Tools/.env. Then skip the steps below.
+
+ONE-TIME SETUP FOR THE CLOUD (owner, about 5 minutes per channel, no PC needed; same Google app as Tools/yt_analytics.py):
   1. https://developers.google.com/oauthplayground -> gear icon -> "Use your own OAuth credentials" -> the client ID and secret.
   2. "Input your own scopes": https://www.googleapis.com/auth/youtube.upload
   3. Authorize APIs -> sign in -> pick the channel -> "Exchange authorization code for tokens".
@@ -38,6 +41,19 @@ TOKEN_URL = "https://oauth2.googleapis.com/token"
 UPLOAD_URL = "https://www.googleapis.com/upload/youtube/v3/videos?uploadType=resumable&part=snippet,status"
 ENV = {"nba": "YT_UPLOAD_TOKEN", "fc": "YT_UPLOAD_TOKEN_FC"}
 ET = ZoneInfo("America/New_York")
+
+
+def _load_env():
+    """Read Tools/.env (git-ignored) so the PC needs no environment settings; real environment variables win."""
+    path = os.path.join(HERE, ".env")
+    if os.path.exists(path):
+        for line in open(path, encoding="utf-8-sig"):
+            if "=" in line and not line.lstrip().startswith("#"):
+                k, v = line.rstrip("\r\n").split("=", 1)
+                os.environ.setdefault(k.strip(), v.strip())
+
+
+_load_env()
 
 
 def sha(path):

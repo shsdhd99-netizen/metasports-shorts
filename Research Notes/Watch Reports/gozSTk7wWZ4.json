@@ -1,0 +1,151 @@
+{
+ "length_s": 32.25,
+ "topic": "A compilation highlighting how massive Shaquille O'Neal is through comparisons with everyday objects, people, and clothes.",
+ "lane": "list",
+ "hook": {
+  "first_words": "Shaq is so big he makes everything look small.",
+  "first_frame": "Shaq holding an LSU cheerleader overhead with one arm.",
+  "on_screen_text_0_3s": "Shaq is so big",
+  "shots_in_first_3s": 2
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 2.5,
+   "shows": "Shaq lifting an LSU cheerleader easily above his head",
+   "kind": "action"
+  },
+  {
+   "start_s": 2.5,
+   "end_s": 5.5,
+   "shows": "Shaq eating two donuts at once on a late-night talk show",
+   "kind": "action"
+  },
+  {
+   "start_s": 5.5,
+   "end_s": 8.75,
+   "shows": "Shaq holding and drinking from a standard water bottle that looks miniature in his hands",
+   "kind": "action"
+  },
+  {
+   "start_s": 8.75,
+   "end_s": 11.0,
+   "shows": "Shaq eating a hot chicken wing in a single bite on Hot Ones",
+   "kind": "action"
+  },
+  {
+   "start_s": 11.0,
+   "end_s": 13.5,
+   "shows": "A human hand overlaying an outline of Shaq's hand print",
+   "kind": "action"
+  },
+  {
+   "start_s": 13.5,
+   "end_s": 16.25,
+   "shows": "A woman placing her hand over Shaq's hand impression plaque",
+   "kind": "action"
+  },
+  {
+   "start_s": 16.25,
+   "end_s": 18.0,
+   "shows": "Shaq showing off his Lakers championship ring on his fist inside a car",
+   "kind": "face"
+  },
+  {
+   "start_s": 18.0,
+   "end_s": 19.75,
+   "shows": "A normal person wearing Shaq's oversized championship ring",
+   "kind": "action"
+  },
+  {
+   "start_s": 19.75,
+   "end_s": 22.5,
+   "shows": "Shaq picking up comedian Kevin Hart off the ground like a child",
+   "kind": "action"
+  },
+  {
+   "start_s": 22.5,
+   "end_s": 24.0,
+   "shows": "Shaq holding a massive sandal next to his foot",
+   "kind": "action"
+  },
+  {
+   "start_s": 24.0,
+   "end_s": 26.0,
+   "shows": "A size 22 shoe placed right next to a regular size sneaker",
+   "kind": "action"
+  },
+  {
+   "start_s": 26.0,
+   "end_s": 28.75,
+   "shows": "Allen Iverson holding Shaq's shoe right next to his head in the locker room",
+   "kind": "action"
+  },
+  {
+   "start_s": 28.75,
+   "end_s": 32.25,
+   "shows": "Shaq cramming his large frame into a tiny black Smart car",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 13,
+ "average_shot_s": 2.48,
+ "longest_shot_s": 3.5,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 175,
+  "tone": "energetic",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "upbeat hip-hop background beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "sentence",
+  "position": "middle",
+  "colours": "white text on dark background",
+  "highlight_style": "none"
+ },
+ "text_overlays": [],
+ "cards_or_graphics": 0,
+ "framing": "blurred background",
+ "ending": {
+  "last_words": "getting into this tiny smart car.",
+  "last_frame": "Shaq squeezing into the driver seat of a Smart car",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "Shaq is so big he makes everything look small. Take a look at him eating these two donuts like a potato chip. However that's not all because Shaq drinks water bottles like it's a teacup. And this is him eating chicken wings like candy. But Shaq's hands are also a whopping 12 inches wide which is almost twice the size of the average person's. So this is what it looks like when someone puts on his championship ring. Next to Kevin Hart Shaq picks him up like a little toddler. And if that's not crazy enough he also wears size 22 shoes. For reference this is what his shoe looks like next to someone's head. Lastly this clip shows Shaq somehow getting into this tiny smart car.",
+ "retention_tricks": [
+  "rapid visual changes comparing Shaq to normal items",
+  "escalating absurd scale comparisons (water bottle, hand, ring, Kevin Hart, size 22 shoe, Smart car)",
+  "quick 2-3 second shot pacing"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "Relatable and humorous side-by-side scale comparisons highlighting Shaq's extreme physical proportions.",
+  "Fast-paced clip switching every 2 to 3 seconds keeps viewers engaged without downtime.",
+  "Clear, energetic narrator delivering surprising facts and specific measurements."
+ ],
+ "_meta": {
+  "source": "gozSTk7wWZ4",
+  "model": "gemini-3.5-flash",
+  "fps": 4.0,
+  "watched": "2026-11-01",
+  "tier": "[S] model-observed, not measured"
+ }
+}

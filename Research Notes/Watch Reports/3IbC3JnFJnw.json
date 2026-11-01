@@ -1,0 +1,157 @@
+{
+ "length_s": 28.0,
+ "topic": "Jimmy Butler got dreadlock extensions for NBA Media Day to troll the league into using his long-hair photo all season.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "Did you know Jimmy Butler got",
+  "first_frame": "Jimmy Butler walking onto the media stage with dreadlock extensions",
+  "on_screen_text_0_3s": "DID YOU KNOW JIMMY BUTLER GOT DREADLOCK EXTENSIONS IN THE 2022* OFF",
+  "shots_in_first_3s": 2
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 2.0,
+   "shows": "Jimmy Butler walking to press table with dreadlocks",
+   "kind": "action"
+  },
+  {
+   "start_s": 2.0,
+   "end_s": 4.0,
+   "shows": "Jimmy Butler sitting at press room microphone talking",
+   "kind": "face"
+  },
+  {
+   "start_s": 4.0,
+   "end_s": 5.6,
+   "shows": "Jimmy Butler getting hair braided in barber chair",
+   "kind": "action"
+  },
+  {
+   "start_s": 5.6,
+   "end_s": 7.2,
+   "shows": "Jimmy Butler sitting while hair stylist installs dreadlock extensions",
+   "kind": "action"
+  },
+  {
+   "start_s": 7.2,
+   "end_s": 9.0,
+   "shows": "Jimmy Butler shaved head close-up photo in Heat Culture jersey",
+   "kind": "face"
+  },
+  {
+   "start_s": 9.0,
+   "end_s": 10.2,
+   "shows": "Selfie video of Jimmy Butler touching dreadlock extensions",
+   "kind": "face"
+  },
+  {
+   "start_s": 10.2,
+   "end_s": 11.75,
+   "shows": "Jimmy Butler dribbling during Media Day photoshoot on white background",
+   "kind": "action"
+  },
+  {
+   "start_s": 11.75,
+   "end_s": 13.4,
+   "shows": "Jimmy Butler holding microphone in front of green screen",
+   "kind": "action"
+  },
+  {
+   "start_s": 13.4,
+   "end_s": 15.65,
+   "shows": "Jimmy Butler walking and talking on gym court with dreadlocks",
+   "kind": "action"
+  },
+  {
+   "start_s": 15.65,
+   "end_s": 17.4,
+   "shows": "Game highlight graphic screen featuring Jimmy Butler dreadlocks photo",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 17.4,
+   "end_s": 18.5,
+   "shows": "Jimmy Butler playing during an NBA game with short hair",
+   "kind": "action"
+  },
+  {
+   "start_s": 18.5,
+   "end_s": 19.7,
+   "shows": "Jimmy Butler sitting shirtless in gym shaking head",
+   "kind": "action"
+  },
+  {
+   "start_s": 19.7,
+   "end_s": 22.2,
+   "shows": "ESPN NBA All-Star voting list graphic",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 22.2,
+   "end_s": 28.0,
+   "shows": "ESPN broadcast graphic showing player headshots where Jimmy Butler has an NBA 2K game face instead",
+   "kind": "screenshot"
+  }
+ ],
+ "shot_count": 14,
+ "average_shot_s": 2.0,
+ "longest_shot_s": 5.8,
+ "voice": {
+  "type": "human",
+  "gender": "male",
+  "words_per_minute_estimate": 150,
+  "tone": "energetic",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "upbeat hip-hop background beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 2,
+  "case": "ALL CAPS",
+  "position": "middle",
+  "colours": "white with yellow highlight",
+  "highlight_style": "word-by-word yellow text highlight"
+ },
+ "text_overlays": [],
+ "cards_or_graphics": 3,
+ "framing": "crop",
+ "ending": {
+  "last_words": "used his NBA 2K face instead.",
+  "last_frame": "ESPN graphic showing Jimmy Butler's NBA 2K digital avatar graphic",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "Did you know Jimmy Butler got dreadlock extensions in the 2022 off-season just to troll the NBA? He rocked them all summer, then chopped them off right after NBA Media Day. That's because Media Day is when the NBA snaps the players' pictures they use for the whole season. So Jimmy basically tricked the NBA into using the dreadlock photo even though he didn't have them anymore. And it didn't stop there. When ESPN showed the All-Star frontcourt votes, every player had a normal headshot except Jimmy. They had enough and just used his NBA 2K face instead.",
+ "retention_tricks": [
+  "humorous storyline",
+  "behind-the-scenes visual proof",
+  "payoff reveal at the end with ESPN using a 2K face model"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "Compelling and funny premise about a famous athlete's prank.",
+  "Strong visual progression from hair installation to media day photos to TV graphics.",
+  "Hilarious payoff image of ESPN using an NBA 2K digital avatar graphic."
+ ],
+ "_meta": {
+  "source": "3IbC3JnFJnw",
+  "model": "gemini-3.6-flash",
+  "fps": 4.0,
+  "watched": "2026-11-01",
+  "tier": "[S] model-observed, not measured"
+ }
+}

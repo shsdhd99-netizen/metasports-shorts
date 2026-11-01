@@ -1,0 +1,106 @@
+[
+ {
+  "clip": "W01.mp4",
+  "kind": "action",
+  "why": "Flagg dunk in his April 2026 50-point game v Orlando (NBA highlights, illustrative of the rookie year)",
+  "start": 0.0
+ },
+ {
+  "clip": "W02.mp4",
+  "kind": "face",
+  "why": "Flagg on the court",
+  "anchor": "In two",
+  "start": 1.7
+ },
+ {
+  "clip": "W03.mp4",
+  "kind": "action",
+  "why": "Flagg finishes at the rim (overhead angle, same game)",
+  "anchor": "Points:",
+  "start": 2.71
+ },
+ {
+  "clip": "W04.mp4",
+  "kind": "action",
+  "why": "LeBron dunk, 2003-04 rookie season (NBA highlights)",
+  "anchor": "LeBron, 20.9",
+  "start": 4.22
+ },
+ {
+  "clip": "W05.mp4",
+  "kind": "face",
+  "why": "Flagg (#32) in traffic",
+  "anchor": "Rebounds:",
+  "start": 5.68
+ },
+ {
+  "clip": "W06.mp4",
+  "kind": "face",
+  "why": "LeBron close, rookie year",
+  "anchor": "LeBron, 5.5",
+  "start": 7.58
+ },
+ {
+  "clip": "W07.mp4",
+  "kind": "face",
+  "why": "LeBron close, 2004 Rookie Challenge",
+  "anchor": "But LeBron",
+  "start": 8.94
+ },
+ {
+  "clip": "W08.mp4",
+  "kind": "action",
+  "why": "LeBron with the ball, Cavs",
+  "anchor": "5.9",
+  "start": 10.18
+ },
+ {
+  "clip": "W09.mp4",
+  "kind": "action",
+  "why": "LeBron drives, rookie year",
+  "anchor": "And LeBron",
+  "start": 11.94
+ },
+ {
+  "clip": "W10.mp4",
+  "kind": "face",
+  "why": "Flagg close",
+  "anchor": "So is",
+  "start": 13.63
+ },
+ {
+  "clip": "W11.mp4",
+  "kind": "action",
+  "why": "LeBron finishing at the rim",
+  "anchor": "Not so",
+  "start": 15.74
+ },
+ {
+  "clip": "W12.mp4",
+  "kind": "action",
+  "why": "Flagg dunk",
+  "anchor": "But since",
+  "start": 16.58
+ },
+ {
+  "clip": "W12b.mp4",
+  "kind": "action",
+  "why": "Flagg jump shot",
+  "anchor": "led their",
+  "start": 18.65
+ },
+ {
+  "clip": "W13.mp4",
+  "kind": "face",
+  "why": "Michael Jordan, #23, rookie season 1984-85 (NBA 'Jordan Vault')",
+  "anchor": "Michael",
+  "start": 21.68
+ },
+ {
+  "clip": "W14.mp4",
+  "kind": "face",
+  "why": "Flagg close",
+  "anchor": "And Cooper",
+  "start": 22.32
+ }
+]

@@ -1,0 +1,99 @@
+[
+ {
+  "clip": "A01.mp4",
+  "kind": "action",
+  "why": "LeBron close, Lakers 2025-26 (NBA Top Plays)",
+  "start": 0.0
+ },
+ {
+  "clip": "A02.mp4",
+  "kind": "face",
+  "why": "LeBron under the basket, Lakers",
+  "anchor": "That is",
+  "start": 2.39
+ },
+ {
+  "clip": "A03.mp4",
+  "kind": "action",
+  "why": "Jason Kidd (#5, Nets) with the ball (NBA Top 45 assists)",
+  "anchor": "Kidd has",
+  "start": 4.17
+ },
+ {
+  "clip": "A04.mp4",
+  "kind": "face",
+  "why": "LeBron with the ball, Lakers",
+  "anchor": "LeBron has",
+  "start": 5.81
+ },
+ {
+  "clip": "A05.mp4",
+  "kind": "action",
+  "why": "LeBron driving",
+  "anchor": "At seven",
+  "start": 7.63
+ },
+ {
+  "clip": "A05b.mp4",
+  "kind": "action",
+  "why": "LeBron on the break",
+  "anchor": "LeBron catches",
+  "start": 8.95
+ },
+ {
+  "clip": "A06.mp4",
+  "kind": "action",
+  "why": "Stockton (#12 Jazz) with the ball",
+  "anchor": "Now look",
+  "start": 11.03
+ },
+ {
+  "clip": "A07.mp4",
+  "kind": "face",
+  "why": "John Stockton close",
+  "anchor": "Stockton",
+  "start": 12.17
+ },
+ {
+  "clip": "A08.mp4",
+  "kind": "face",
+  "why": "Chris Paul close, Clippers",
+  "anchor": "Paul",
+  "start": 12.77
+ },
+ {
+  "clip": "A09.mp4",
+  "kind": "action",
+  "why": "Jason Kidd, Nets",
+  "anchor": "Kidd.",
+  "start": 13.21
+ },
+ {
+  "clip": "A10.mp4",
+  "kind": "face",
+  "why": "Russell Westbrook close, OKC",
+  "anchor": "Westbrook",
+  "start": 13.62
+ },
+ {
+  "clip": "A11.mp4",
+  "kind": "action",
+  "why": "Chris Paul, Rockets",
+  "anchor": "Point guards",
+  "start": 14.15
+ },
+ {
+  "clip": "A12.mp4",
+  "kind": "action",
+  "why": "LeBron",
+  "anchor": "And then",
+  "start": 15.43
+ },
+ {
+  "clip": "A13.mp4",
+  "kind": "face",
+  "why": "LeBron close",
+  "anchor": "A forward",
+  "start": 16.28
+ }
+]
