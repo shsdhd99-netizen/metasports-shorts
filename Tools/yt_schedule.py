@@ -18,6 +18,10 @@ What it does, and what it never does:
 
   python Tools/yt_schedule.py --channel nba --file "<DRAFT ....mp4>" --title "..." --tags "a, b, c" --at "2026-11-02 07:15"
       -> dry run: prints what it would send. Add --go to upload. --at is US Eastern time.
+  python Tools/yt_schedule.py --channel nba --file "<DRAFT ....mp4>" --card "<Short folder>/UPLOAD.md" --at "..." [--dry-run]
+      -> reads title and tags from the upload card (Nov 1): `**Title:** ...` / `**Tags (N of 490):** ...` lines, or sections
+         `## Title (...)` / `## Tags (...)` followed by the next non-empty line. Refuses when either is empty or missing.
+         --title / --tags still work and win over the card. Without --go it is always a dry run; --dry-run says so explicitly.
 
 ON THE PC (easiest, Nov 1): `python Tools/yt_auth.py --channel nba` (and `--channel fc`) opens the browser, you click Allow, and
 the token is saved to Tools/.env. Then skip the steps below.
@@ -85,15 +89,62 @@ def access_token(channel):
         return json.load(r)["access_token"]
 
 
+def _clean(t):
+    t = t.strip().strip("`").strip()
+    t = t.replace("**", "").strip()
+    return t
+
+
+def parse_card(path):
+    """(title, tags_text) from an UPLOAD.md; understands `**Title:** x` / `**Tags (N of 490):** a, b` (or the same without bold) and
+    `## Title (...)` / `## Tags (...)` sections (the value is the next non-empty line that is not a lead-in ending in ':')."""
+    import re
+    lines = open(path, encoding="utf-8-sig").read().splitlines()
+    out = {}
+    for key in ("title", "tags"):
+        val = ""
+        for i, ln in enumerate(lines):
+            m = re.match(r"\s*\*\*\s*" + key + r"\b[^*]*?\*\*\s*:?\s*(.*)$", ln, re.I) or re.match(r"\s*\*\*\s*" + key + r"\b[^*]*?:\s*\*\*\s*(.*)$", ln, re.I)
+            m = m or re.match(r"\s*" + key + r"\s*(\([^)]*\))?\s*:\s*(\S.*)$", ln, re.I)  # plain `Title: x` / `Tags (n of 490): a, b`
+            if m:
+                val = _clean(m.group(m.lastindex))
+                break
+            if re.match(r"\s*#{1,6}\s*" + key + r"\b", ln, re.I):
+                for nxt in lines[i + 1:]:
+                    if nxt.strip().startswith("#"):
+                        break
+                    t = _clean(nxt)
+                    if not t or t.endswith(":") or t.lower().startswith("optional"):
+                        continue
+                    val = t
+                    break
+                break
+        if key == "title":
+            val = re.split(r"\s+\(alts?:", val, flags=re.I)[0].strip()  # "Title 😳  (alt: other / options)" -> the first title only
+        out[key] = val
+    return out["title"], out["tags"]
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--channel", choices=["nba", "fc"], required=True)
     ap.add_argument("--file", required=True)
-    ap.add_argument("--title", required=True)
+    ap.add_argument("--title", default="", help="title (or use --card)")
+    ap.add_argument("--card", help="UPLOAD.md to read the title and tags from (--title / --tags override it)")
+    ap.add_argument("--dry-run", dest="dry_run", action="store_true", help="print the parsed title and tag count; never uploads")
     ap.add_argument("--tags", default="", help="comma-separated (the card's line from tags_fit.py)")
     ap.add_argument("--at", required=True, help='publish time, US Eastern: "YYYY-MM-DD HH:MM"')
     ap.add_argument("--go", action="store_true", help="really upload (default: dry run)")
     a = ap.parse_args()
+    if a.card:
+        if not os.path.exists(a.card):
+            sys.exit(f"No such card: {a.card}")
+        ctitle, ctags = parse_card(a.card)
+        a.title, a.tags = a.title or ctitle, a.tags or ctags
+        print(f"card {os.path.basename(os.path.dirname(os.path.abspath(a.card)))}: title={a.title!r}, "
+              f"{len([t for t in a.tags.split(',') if t.strip()])} tag(s)")
+    if a.dry_run:
+        a.go = False
 
     name = os.path.basename(a.file)
     if not name.startswith("DRAFT"):
