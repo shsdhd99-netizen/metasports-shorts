@@ -236,6 +236,52 @@ def limit_colors(picks, share=0.35):
     return picks
 
 
+# Nov 1 2026 (Full Review): opt-in "word" colour rule. The default ("card") colours a whole card when it holds a number, a shock word or
+# a big-moment word. On our Shorts that coloured some function words ("no", "not", "until", "cut", "first") and a whole 2-3 word card.
+# "word" colours ONE token per card: a spoken number (green) or a conflict word (red), nothing else, at most 1 card in 4 and never two
+# in a row. Evidence tier [H]: our own Shorts all used the same caption look so colour can't be tested on our data, and in 128 Gemini-watched
+# competitor Shorts the better half of each channel used colour slightly LESS (39% vs 48%, not significant). Use it as an A/B, not a default.
+COLOR_RULE = "card"   # "card" (old default) | "word" | "none"; assemble.py --color-rule sets this
+CONFLICT = {"nobody", "nothing", "none", "zero", "worst", "lost", "lose", "losing", "missed", "banned", "illegal", "fired", "fake",
+            "wrong", "broke", "broken", "shattered", "airball", "bricked", "gone", "traded", "dumped", "died", "injured", "ejected",
+            "fined", "suspended", "booed", "technical", "stolen", "cheated", "lied", "refused", "sued", "benched"}
+
+
+def word_color_picks(texts, manual):
+    """[(colour or None, index of the token to colour or None)] per card for the "word" rule."""
+    picks = []
+    for t in texts:
+        toks = t.split()
+        manual_hit = None
+        for col in ("red", "green"):
+            for ph in manual.get(col, []):
+                ws = [re.sub(r"[^\w'%$-]+", "", x.lower()) for x in ph.split()]
+                for i in range(len(toks) - len(ws) + 1):
+                    if [bare(x) for x in toks[i:i + len(ws)]] == ws:
+                        manual_hit = (col, i)
+        if manual_hit:
+            picks.append(manual_hit)
+            continue
+        num = next((i for i, x in enumerate(toks) if re.search(r"\d", x) or is_numword(x)), None)
+        con = next((i for i, x in enumerate(toks) if bare(x) in CONFLICT), None)
+        if num is not None:
+            picks.append(("green", num))
+        elif con is not None:
+            picks.append(("red", con))
+        else:
+            picks.append((None, None))
+    last = -2
+    cap = max(1, len(picks) // 4)
+    used = 0
+    for i, (c, _) in enumerate(picks):
+        if c and (i - last < 2 or used >= cap):
+            picks[i] = (None, None)
+        elif c:
+            last = i
+            used += 1
+    return picks
+
+
 def ass_time(t):
     t = max(0.0, t)
     h, r = divmod(t, 3600)
@@ -275,7 +321,14 @@ def make_ass(words, style="metasports", manual=None, total=None, ys=None):
     else:
         cards = chunk(words, st)
     texts = [re.sub(r"\s+", " ", " ".join(w["word"] for w in c)).strip() for c in cards]
-    picks = limit_colors([card_color(t, manual) for t in texts]) if st["colors"] else [(None, 0)] * len(cards)
+    rule = manual.get("_color_rule") or COLOR_RULE
+    wpicks = word_color_picks(texts, manual) if (rule == "word" and st["colors"]) else None
+    if rule == "none":
+        picks = [(None, 0)] * len(cards)
+    elif wpicks is not None:
+        picks = [(c, 0) for c, _ in wpicks]
+    else:
+        picks = limit_colors([card_color(t, manual) for t in texts]) if st["colors"] else [(None, 0)] * len(cards)
     lines, events = [], []
     for k, card in enumerate(cards):
         text = " ".join(w["word"] for w in card)
@@ -292,6 +345,10 @@ def make_ass(words, style="metasports", manual=None, total=None, ys=None):
         if title and k == 0:
             shown = title
         col = picks[k][0]
+        wcol = None
+        if wpicks is not None and col and not (title and k == 0):
+            wcol = (col, wpicks[k][1])  # colour one word inline; the card itself stays white
+            col = None
         y = st["y"]
         for t0, cy in ys or []:
             if t0 <= start + 0.01:
@@ -305,6 +362,11 @@ def make_ass(words, style="metasports", manual=None, total=None, ys=None):
         elif fit < 1:
             tags += f"\\fscx{st['scalex'] * fit:.0f}\\fscy{100 * fit:.0f}"
         shown = shown.replace("{", "(").replace("}", ")").replace("\n", "\\N")
+        if wcol:  # "word" colour rule: one token inline, the rest of the card stays white
+            tk = shown.split(" ")
+            if wcol[1] is not None and wcol[1] < len(tk):
+                tk[wcol[1]] = "{\\c%s}%s{\\c&H00FFFFFF&}" % (RED if wcol[0] == "red" else GREEN, tk[wcol[1]])
+                shown = " ".join(tk)
         if st.get("kara"):  # one event per spoken word; the active word is highlighted, layout never moves
             toks = [re.sub(r"[{}]", "", w["word"]) for w in card]
             for wi, w in enumerate(card):
@@ -315,10 +377,10 @@ def make_ass(words, style="metasports", manual=None, total=None, ys=None):
                 hi = KARA_NUM if re.search(r"\d", toks[wi]) else KARA_HI
                 parts = [(f"{{\\c{hi}}}{t}{{\\c&H00FFFFFF&}}" if j == wi else t) for j, t in enumerate(toks)]
                 events.append(f"Dialogue: 0,{ass_time(ws)},{ass_time(we)},Cap,,0,0,0,,{{{tags}}}{' '.join(parts)}")
-            lines.append((start, end, shown, col))
+            lines.append((start, end, shown, col or (wcol[0] if wcol else None)))
             continue
         events.append(f"Dialogue: 0,{ass_time(start)},{ass_time(end)},Cap,,0,0,0,,{{{tags}}}{shown}")
-        lines.append((start, end, shown, col))
+        lines.append((start, end, shown, col or (wcol[0] if wcol else None)))
     head = f"""[Script Info]
 ScriptType: v4.00+
 PlayResX: 1080
@@ -387,6 +449,8 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--folder", help="Short folder (or _claude_build) with words.json")
     ap.add_argument("--style", default="metasports", choices=sorted(STYLES))
+    ap.add_argument("--color-rule", dest="color_rule", choices=["card", "word", "none"], default="card",
+                    help="card = old default (whole card coloured); word = one coloured word per card, 1 card in 4 (opt-in A/B); none = all white")
     ap.add_argument("--frame", type=float, help="render one test picture at this second")
     ap.add_argument("--video", help="video for --frame (default: final_nocap.mp4 in the folder)")
     ap.add_argument("--burn", help="video to burn captions onto")
@@ -399,6 +463,8 @@ def main():
         return
     if not a.folder:
         raise SystemExit("Give --folder (or --burn)")
+    global COLOR_RULE
+    COLOR_RULE = a.color_rule
     path, lines = build(os.path.abspath(a.folder), a.style)
     for s, e, t, c in lines:
         print(f"{s:6.2f}-{e:6.2f}  {t}{'  [' + c + ']' if c else ''}")

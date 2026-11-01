@@ -450,10 +450,15 @@ def main():
     ap.add_argument("--out-name", dest="out_name", default="final.mp4", help="output file name inside the folder")
     ap.add_argument("--captions", default="burn", help="burn (MetaSports look, default) or a Drift preset: subtitle, caption, hormozi, one-word-color")
     ap.add_argument("--caption-style", default="metasports", help="for --captions burn: metasports (old Shorts look), clank, or karaoke (Round 5 test)")
+    ap.add_argument("--color-rule", dest="color_rule", choices=["card", "word", "none"], default="card",
+                    help="caption colour rule (captions.py): card = old default, word = one coloured word per card (A/B), none = all white")
     ap.add_argument("--no-export", action="store_true")
     a = ap.parse_args()
     sys.stdout.reconfigure(encoding="utf-8")
     folder = os.path.abspath(a.folder)
+    sys.path.insert(0, HERE)
+    import captions as _cap
+    _cap.COLOR_RULE = a.color_rule
     acquire_lock(folder, a.out_name)
     voice, words_p, srt = (os.path.join(folder, f) for f in ("voice.mp3", "words.json", "captions.srt"))
     missing = [os.path.basename(p) for p in (voice, words_p, srt) if not os.path.exists(p)]
