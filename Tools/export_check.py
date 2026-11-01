@@ -102,24 +102,35 @@ def caption_width(ev, stl):
 
 
 def probe(path):
-    j = json.loads(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "stream=codec_type,width,height,duration,avg_frame_rate",
+    j = json.loads(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "stream=codec_type,width,height,duration,avg_frame_rate,channels",
                                    "-of", "json", path], capture_output=True, text=True).stdout)
     return {s["codec_type"]: s for s in j["streams"]}
 
 
 def pcm(path):
-    raw = subprocess.run(["ffmpeg", "-v", "error", "-i", path, "-ac", "1", "-ar", "48000", "-f", "f32le", "-"], capture_output=True).stdout
-    return np.frombuffer(raw, np.float32)
+    """Decoded samples at the file's own rate and channel layout, shape (n, channels).
+    Nov 1 2026: this used to force `-ac 1`; ffmpeg's stereo->mono downmix adds L and R (x0.707 each), so a stereo mix whose real
+    peak is -2 dBFS read +1 dBFS and 'clipped' (false alarm, 8 times in two days). Never downmix or resample before measuring."""
+    ch = probe(path).get("audio", {}).get("channels") or 1
+    raw = subprocess.run(["ffmpeg", "-v", "error", "-i", path, "-vn", "-f", "f32le", "-"], capture_output=True).stdout
+    x = np.frombuffer(raw, np.float32)
+    return x[: len(x) // ch * ch].reshape(-1, ch)
 
 
 def clipped_runs(x, thr=0.999, run=3):
-    hot = np.abs(x) >= thr
-    n, c = 0, 0
-    for h in hot:
-        c = c + 1 if h else 0
-        if c == run:
-            n += 1
-    return n, (20 * np.log10(np.abs(x).max() + 1e-12) if len(x) else -99)
+    """(number of runs of >= `run` consecutive full-scale samples in any channel, true sample peak in dBFS; matches volumedetect max_volume).
+    A peak at or above -0.3 dBFS also counts as one clipped run (hot enough to clip in a lossy re-encode)."""
+    x = np.abs(np.asarray(x)).reshape(len(x), -1)
+    n = 0
+    for c in range(x.shape[1]):
+        hot = np.concatenate([[0], (x[:, c] >= thr).astype(np.int8), [0]])
+        d = np.diff(hot)
+        starts, ends = np.where(d == 1)[0], np.where(d == -1)[0]
+        n += int(((ends - starts) >= run).sum())
+    pk = 20 * np.log10(x.max() + 1e-12) if x.size else -99
+    if n == 0 and pk >= -0.3:
+        n = 1
+    return n, pk
 
 
 def check(folder, video=None, stt=True):
@@ -186,12 +197,14 @@ def check(folder, video=None, stt=True):
     if stt:
         try:
             from faster_whisper import WhisperModel
-            wav = os.path.join("/tmp", f"_exp_{os.getpid()}.wav")
-            subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", fin, "-ac", "1", "-ar", "16000", wav], check=True)
+            # Nov 1 2026: faster-whisper's own decode_audio calls av.open(metadata_errors=...), which PyAV 19 removed
+            # (TypeError on this PC). Decode with ffmpeg ourselves and hand it a float32 array: independent of the PyAV version.
+            raw = subprocess.run(["ffmpeg", "-v", "error", "-i", fin, "-vn", "-ac", "1", "-ar", "16000", "-f", "f32le", "-"],
+                                 capture_output=True, check=True).stdout
+            audio = np.frombuffer(raw, np.float32)
             m = WhisperModel("small.en", device="cpu", compute_type="int8")
-            segs, _ = m.transcribe(wav, beam_size=5, language="en")
+            segs, _ = m.transcribe(audio, beam_size=5, language="en")
             heard = " ".join(s.text for s in segs)
-            os.remove(wav)
             d, n, r = diffs(numfold(toks(heard)), numfold(ref), "heard", "script")
             msg = f"the export says what the script says ({r:.0%} word match after number folding)"
             if n == 0:
