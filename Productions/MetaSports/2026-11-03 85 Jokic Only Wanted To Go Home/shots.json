@@ -1,0 +1,79 @@
+[
+ {
+  "clip": "W01.mp4",
+  "kind": "action",
+  "why": "Jokic at the 2023 Finals press conference as the parade day comes up (NBA/ABC feed) (his reaction: hand to forehead)",
+  "anchor": "Told",
+  "start": 0.0
+ },
+ {
+  "clip": "W02.mp4",
+  "kind": "face",
+  "why": "Jokic hand on head, same press conference",
+  "anchor": "He was",
+  "start": 2.91
+ },
+ {
+  "clip": "W03.mp4",
+  "kind": "action",
+  "why": "Sombor billboard 'Welcome home MVP' with horses (9NEWS/local TV via Basketball Action)",
+  "anchor": "family's",
+  "start": 4.33
+ },
+ {
+  "clip": "W04.mp4",
+  "kind": "face",
+  "why": "Jokic speaking at the Nuggets parade podium (official Denver Nuggets video)",
+  "anchor": "But at",
+  "start": 5.77
+ },
+ {
+  "clip": "W05.mp4",
+  "kind": "action",
+  "why": "Jokic walking in Sombor (9NEWS)",
+  "anchor": "Six days",
+  "start": 8.5
+ },
+ {
+  "clip": "W06.mp4",
+  "kind": "action",
+  "why": "Harness horses racing at the Sombor track",
+  "anchor": "track",
+  "start": 10.0
+ },
+ {
+  "clip": "W07.mp4",
+  "kind": "action",
+  "why": "Back of a 'Stala Dream Catcher Sombor' shirt at the track",
+  "anchor": "Dream",
+  "start": 11.17
+ },
+ {
+  "clip": "W08.mp4",
+  "kind": "face",
+  "why": "Jokic watching the races",
+  "anchor": "He watched",
+  "start": 11.99
+ },
+ {
+  "clip": "W09.mp4",
+  "kind": "action",
+  "why": "Jokic surrounded by cameras and fans at the track (illustrative of 'answered no reporters')",
+  "anchor": "and answered",
+  "start": 13.58
+ },
+ {
+  "clip": "W10.mp4",
+  "kind": "face",
+  "why": "Jokic hands over face, 2023 Finals press conference",
+  "anchor": "He said",
+  "start": 14.82
+ },
+ {
+  "clip": "W11.mp4",
+  "kind": "action",
+  "why": "Horse close-up at the track",
+  "anchor": "Never",
+  "start": 16.02
+ }
+]

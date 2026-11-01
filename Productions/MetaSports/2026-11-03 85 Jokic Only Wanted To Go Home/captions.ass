@@ -1,0 +1,34 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Montserrat Bold,58,&H00FFFFFF,&H00FFFFFF,&H00000000,&H99000000,0,0,0,0,100,100,0,0,1,3,1,5,70,70,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.58,Cap,,0,0,0,,{\pos(540,960)\blur0.6}Told his title
+Dialogue: 0,0:00:00.58,0:00:01.54,Cap,,0,0,0,,{\pos(540,960)\blur0.6}parade was Thursday,
+Dialogue: 0,0:00:01.54,0:00:02.94,Cap,,0,0,0,,{\pos(540,960)\blur0.6}Nikola Jokic said no.
+Dialogue: 0,0:00:02.94,0:00:03.47,Cap,,0,0,0,,{\pos(540,960)\blur0.6}He was worried
+Dialogue: 0,0:00:03.47,0:00:03.84,Cap,,0,0,0,,{\pos(540,960)\blur0.6}it would make
+Dialogue: 0,0:00:03.84,0:00:04.68,Cap,,0,0,0,,{\pos(540,960)\blur0.6}him miss his family's
+Dialogue: 0,0:00:04.68,0:00:05.80,Cap,,0,0,0,,{\pos(540,960)\blur0.6}horse races in Serbia.
+Dialogue: 0,0:00:05.80,0:00:06.53,Cap,,0,0,0,,{\pos(540,960)\blur0.6}But at the parade,
+Dialogue: 0,0:00:06.53,0:00:07.27,Cap,,0,0,0,,{\pos(540,960)\blur0.6}he told Denver
+Dialogue: 0,0:00:07.27,0:00:07.93,Cap,,0,0,0,,{\pos(540,960)\blur0.6}he did not want
+Dialogue: 0,0:00:07.93,0:00:08.53,Cap,,0,0,0,,{\pos(540,960)\blur0.6}to leave it.
+Dialogue: 0,0:00:08.53,0:00:09.60,Cap,,0,0,0,,{\pos(540,960)\blur0.6}Six days after the title,
+Dialogue: 0,0:00:09.60,0:00:10.32,Cap,,0,0,0,,{\pos(540,960)\blur0.6}he was at the track
+Dialogue: 0,0:00:10.32,0:00:10.97,Cap,,0,0,0,,{\pos(540,960)\blur0.6}in Sombor,
+Dialogue: 0,0:00:10.97,0:00:12.02,Cap,,0,0,0,,{\pos(540,960)\blur0.6}in a Dream Catcher shirt.
+Dialogue: 0,0:00:12.02,0:00:12.80,Cap,,0,0,0,,{\pos(540,960)\blur0.6}He watched every race
+Dialogue: 0,0:00:12.80,0:00:13.61,Cap,,0,0,0,,{\pos(540,960)\blur0.6}his family entered,
+Dialogue: 0,0:00:13.61,0:00:14.85,Cap,,0,0,0,,{\pos(540,960)\blur0.6}and answered no reporters.
+Dialogue: 0,0:00:14.85,0:00:15.17,Cap,,0,0,0,,{\pos(540,960)\blur0.6}He said
+Dialogue: 0,0:00:15.17,0:00:16.05,Cap,,0,0,0,,{\pos(540,960)\blur0.6}no to the parade.
+Dialogue: 0,0:00:16.05,0:00:17.22,Cap,,0,0,0,,{\pos(540,960)\blur0.6}Never to the horses.
