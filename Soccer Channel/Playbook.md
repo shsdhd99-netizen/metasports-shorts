@@ -1,5 +1,8 @@
 # Soccer channel playbook v2 (Nov 1, 2026): premise first
 
+**OWNER-APPROVED TESTS (Nov 1):** (1) the next two goalkeeper Shorts after S28 use an action-first opener (first story sentence over the action; title as on-screen text only); S25-S28 are the title-first control. (2) quiet-caption A/B: `--caption-style clank` and/or `--color-rule word` on two Shorts per channel; log the arm in UPLOAD.md. Details: `Research Notes/Full Review for Retention (Nov 2026).md` changes 5 and 8.
+
+
 **What changed (evidence: `Research Notes/Soccer Topic Study (Nov 1, 2026).md` and `Soccer Script Craft (Nov 1, 2026).md`):** the template was never the problem. All 12 posted FC Shorts use it; the four goalkeeper-in-a-shootout ones got 15-30K and the other eight got 1-3K [V, n=12]. Competitors agree in direction: goalkeeper is 1.3x a channel's own median and star-name / money / Messi stories are at or below it [V, 8 channels].
 - **Rule 0 (new):** pick a premise the viewer does not already know. Goalkeeper + one odd device + a big shootout first; fan/kid/family second (1.53x, untested for us). The odd thing goes in the title.
 - **Hold:** money/transfer payoffs (S15, S08), name-led, number-led and "most/worst" titles, records, two-timeline scripts, awards.

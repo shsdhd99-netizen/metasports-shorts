@@ -136,3 +136,8 @@ Both re-edits reuse the existing `voice.mp3` and `words.json` (no new ElevenLabs
 
 Honest read: the demos show the tools work and the picture is a little bigger and calmer. They do **not** show that views will rise: that is untestable before posting, and the review's finding is that the edit is not the lever. #73's hook was the only Short with a clearly fixable picture problem; S17 needed almost nothing. Known limits: K02's source is a wide stadium shot with no closer angle, so zoom 1.5 only fills the pitch more; the same Krul board clip still appears at the open, the callback and the replay (the only other footage is the TyC semi clip).
 Two environment notes found while building: (1) `qa_short --full`'s speech-to-text step is skipped on this PC (`open() got an unexpected keyword argument 'metadata_errors'`), so the export-vs-script speech check did not run on these renders; (2) `cut_list.py` prints a contact-sheet error (`_check/t00.jpg`, Fontconfig) in a folder outside the production tree; the clips and shots.json are correct, and I built the sheets by hand to verify the framing.
+
+## Owner decisions (Nov 1, 2026, in chat)
+- **Change 8 (quiet captions / colour-rule A/B): APPROVED.** Two Shorts per channel with `--caption-style clank` and/or `--color-rule word`, decide after about 8 Shorts. Log the arm in each UPLOAD.md ("Arm: clank / color-word / control") and in Outcome Log.
+- **Change 5 (action-first FC opener): APPROVED** for the next two goalkeeper Shorts after S28 (S25-S28 were already built title-first and are the control). Open on the first story sentence over the action; the title is on-screen text only.
+- Auto-scheduling stays mode B (every Short that passes QA, read-only guard rails in UPLOAD SCHEDULE.md).
