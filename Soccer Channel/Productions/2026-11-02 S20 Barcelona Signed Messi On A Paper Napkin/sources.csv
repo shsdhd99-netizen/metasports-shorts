@@ -1,0 +1,9 @@
+clip,kind,used_at_s,used_for_line,what_it_shows,source_url,source_account,source_date,source_in_s,source_out_s,crop,match_score,licence_risk,verified,verified_on,notes
+N01.mp4,,,,,src/nap_sport.mp4,,,12.2,15.1,x 0.465 zoom 1.0 y 0.5 blurfit,,,,, | source 1024x436
+N02.mp4,,,,,src/rob_kid.mp4,,,7.0,9.4,x 0.4 zoom 1.0 y 0.5,,,,, | source 640x372
+N03.mp4,,,,,src/rob_kid.mp4,,,19.5,21.4,x 0.45 zoom 1.0 y 0.5,,,,, | source 640x372
+N04.mp4,,,,,src/stock_47504.mp4,Mixkit (stock),,1.0,2.6,x 0.5 zoom 1.0 y 0.5,,,,,"post text: Mixkit Free License; Stock: a syringe drawn from a vial, for the growth hormone treatment (Mixkit 47504; illustrative) | source 1280x720"
+N05.mp4,,,,,src/stock_18296.mp4,Mixkit (stock),,1.0,2.8,x 0.5 zoom 1.0 y 0.5,,,,,"post text: Mixkit Free License; Stock: counting dollar bills, for 'about a thousand dollars a month' (Mixkit 18296; illustrative) | source 1920x1080"
+N06.mp4,,,,,src/rob_newells.mp4,,,6.1,7.4,x 0.4 zoom 1.0 y 0.5,,,,, | source 640x372
+N07.mp4,,,,,src/rob_kids.mp4,,,43.0,44.8,x 0.5 zoom 1.0 y 0.5,,,,, | source 640x372
+N08.mp4,,,,,src/rob_kids.mp4,,,47.2,48.7,x 0.5 zoom 1.0 y 0.5,,,,, | source 640x372

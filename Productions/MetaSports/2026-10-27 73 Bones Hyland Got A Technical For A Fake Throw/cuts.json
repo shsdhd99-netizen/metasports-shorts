@@ -155,22 +155,7 @@
    "kind": "face",
    "anchor": "he and the ref",
    "why": "Live: Fraher smiling face to face with Hyland, then laughing behind his hand (lower third BONES HYLAND TECHNICAL FOUL)",
-   "len": 2.64
-  },
-  {
-   "clip": "B11",
-   "src": "B",
-   "at": 50.0,
-   "nat_at": 30.48,
-   "blurfit": true,
-   "blurfit_aspect": 0.75,
-   "x": 0.413,
-   "y": 0.3,
-   "kind": "face",
-   "anchor": "You can't be mad",
-   "lead": 0.08,
-   "why": "Replay: Hyland grinning, ball in hand, hand on chest; LIVE broadcast call over it: 'You can't be mad at Bones.' (same broadcast, 30.6-31.9 s of the post)",
-   "len": 2.04
+   "len": 2.86
   }
  ]
 }
