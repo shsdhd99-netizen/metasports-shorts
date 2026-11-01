@@ -12,7 +12,7 @@ This is the second channel's own space. The NBA channel (MetaSports) keeps its o
 
 ## Status Nov 3-4 (S25, S26)
 - **S25 The England subs brought on only for penalties** (`Productions/2026-11-03 S25 ...`): built, QA PASS, 53.9 s, MUSIC side. DRAFT files in the folder, UPLOAD.md ready. Nothing posted or scheduled.
-- **S26 Goalkeepers who took their gloves off to save a penalty** (`Productions/2026-11-04 S26 ...`): see its folder; NO-MUSIC side of the A/B. Nothing posted or scheduled.
+- **S26 Goalkeepers who took their gloves off to save a penalty** (`Productions/2026-11-04 S26 ...`): built, QA PASS, 50.5 s, NO-MUSIC side of the A/B. DRAFT files + UPLOAD.md ready. Nothing posted or scheduled.
 
 ## What this channel is
 - **Name:** MetaSports FC.
