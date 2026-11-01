@@ -22,9 +22,9 @@
 Just outside the week: Swishyyy 789K (13.8x) and 747K (13.1x) on Oct 24; Football Goat 210K (4.1x) Oct 24; Hoopi 250K (3.7x) Oct 21.
 
 ## 2. Reading the channels (medians of the newest 30 on Nov 1)
-- Coach Clank's last 3x+ Short was Aug 20 (3.2M, 15.8x); its newest 30 stretch back to mid-July, so it posts rarely now. Its median is 202.5K, about 10x ours.
-- Swishyyy's median is 57K now (the watchlist said 65K); Hoopi 67K (watchlist 73K). Both channels have slipped about 10%, with a few huge Shorts each month carrying the average.
-- Football Pranz and Football Goat both still post "X VS Y VS ... Messi VS Ronaldo" elimination Shorts; 8 of Pranz's last 30 Shorts were 3x+, and Football Goat's 4 breakouts range 3-23x.
+- Coach Clank's newest 30 Shorts reach back to mid-July (about 3.5 months), and its most recent 3x+ Short in them is Aug 20 (3.2M, 15.8x). Its median is 202.5K.
+- Swishyyy's median is 57K now (the watchlist said 65K); Hoopi 67K (watchlist 73K), so both are about 10% lower than when the watchlist was written.
+- Football Pranz and Football Goat both still post "X VS Y VS ... Messi VS Ronaldo" elimination Shorts; 8 of Pranz's last 30 Shorts were 3x+, and Football Goat has 7 breakouts in its newest 30, 3-24x.
 
 ## 3. One lesson (supported by 3+ Shorts)
 **Ahmed's Goal ran a 3-Short award-cycle series (Kane's Ballon d'Or, rule changes, tied winners) in 3 consecutive days and all three broke out (8.0x, 5.6x, 4.0x).** Question-shaped titles ("Why is...", "What would happen if...") on one live topic. Tier [S]: one channel, three Shorts, titles only. For us: when a real event is live, three angles on it across one week is a pattern that worked for the biggest soccer-story channel, but our own soccer evidence says goalkeeper stories lead, so use it for a goalkeeper news hook, not for award-and-star topics (topic study: awards 0.92).
