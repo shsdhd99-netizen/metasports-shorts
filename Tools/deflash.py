@@ -21,15 +21,31 @@ def probe(path):
     return s["width"], s["height"], float(n) / float(d)
 
 
+def _read_frames(cmd, nbytes):
+    """Yield raw frames from an ffmpeg pipe one at a time (never the whole file in memory)."""
+    pr = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.DEVNULL)
+    try:
+        while True:
+            buf = pr.stdout.read(nbytes)
+            if len(buf) < nbytes:
+                break
+            yield buf
+    finally:
+        pr.stdout.close(); pr.wait()
+
+
 def flashes(path, ratio=2.5, floor=12.0):
-    raw = subprocess.run(["ffmpeg", "-v", "error", "-i", path, "-vf", "scale=96:170,format=gray", "-f", "rawvideo", "-"],
-                         capture_output=True).stdout
-    fr = np.frombuffer(raw, np.uint8).reshape(-1, 170, 96).astype(np.float32)
-    bad = []
-    for i in range(1, len(fr) - 1):
-        a = np.abs(fr[i] - fr[i - 1]).mean(); b = np.abs(fr[i + 1] - fr[i]).mean(); c = np.abs(fr[i + 1] - fr[i - 1]).mean()
-        if min(a, b) > floor and min(a, b) > ratio * max(c, 1.0):
-            bad.append(i)
+    cmd = ["ffmpeg", "-v", "error", "-i", path, "-vf", "scale=96:170,format=gray", "-f", "rawvideo", "-"]
+    bad, win = [], []  # sliding window of 3 small gray frames
+    for n, buf in enumerate(_read_frames(cmd, 96 * 170)):
+        win.append(np.frombuffer(buf, np.uint8).reshape(170, 96).astype(np.float32))
+        if len(win) > 3:
+            win.pop(0)
+        if len(win) == 3:
+            p, f, q = win
+            a = np.abs(f - p).mean(); b = np.abs(q - f).mean(); c = np.abs(q - p).mean()
+            if min(a, b) > floor and min(a, b) > ratio * max(c, 1.0):
+                bad.append(n - 1)
     return bad
 
 
@@ -42,13 +58,22 @@ def main():
     if "--check" in sys.argv or len(sys.argv) < 3 or sys.argv[2].startswith("--"):
         return
     out = sys.argv[2]
-    raw = subprocess.run(["ffmpeg", "-v", "error", "-i", src, "-f", "rawvideo", "-pix_fmt", "rgb24", "-"], capture_output=True).stdout
-    frames = np.frombuffer(raw, np.uint8).reshape(-1, h, w, 3).copy()
-    for i in bad:
-        frames[i] = frames[i - 1]
-    subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{w}x{h}", "-r", f"{fps:.5f}", "-i", "-",
-                    "-c:v", "libx264", "-crf", "15", "-preset", "veryfast", "-pix_fmt", "yuv420p", out], input=frames.tobytes(), check=True)
-    print(f"wrote {out} ({len(bad)} frame(s) replaced)")
+    badset = set(bad)
+    # Streamed: decode frame by frame, replace flashes with the previous frame, encode through a pipe. The audio is copied
+    # straight from the source (stream copy), so nothing is lost and nothing big sits in memory.
+    enc = subprocess.Popen(["ffmpeg", "-v", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{w}x{h}", "-r", f"{fps:.5f}", "-i", "-",
+                            "-i", src, "-map", "0:v", "-map", "1:a?", "-c:v", "libx264", "-crf", "15", "-preset", "veryfast",
+                            "-pix_fmt", "yuv420p", "-c:a", "copy", "-shortest", out], stdin=subprocess.PIPE)
+    prev = None
+    for i, buf in enumerate(_read_frames(["ffmpeg", "-v", "error", "-i", src, "-f", "rawvideo", "-pix_fmt", "rgb24", "-"], w * h * 3)):
+        if i in badset and prev is not None:
+            buf = prev
+        enc.stdin.write(buf)
+        prev = buf
+    enc.stdin.close()
+    if enc.wait():
+        raise SystemExit("ffmpeg could not write " + out)
+    print(f"wrote {out} ({len(bad)} frame(s) replaced, audio kept)")
 
 
 if __name__ == "__main__":

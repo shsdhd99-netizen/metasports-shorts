@@ -86,8 +86,14 @@ def segments(folder):
     return out
 
 
+def _profile_story():
+    """--profile story on the command line (same switch as qa_short.py) or env FOOTAGE_PROFILE=story."""
+    av = sys.argv
+    return ("--profile" in av and av[av.index("--profile") + 1:av.index("--profile") + 2] == ["story"]) or os.environ.get("FOOTAGE_PROFILE") == "story"
+
+
 def check(folder):
-    story = "Soccer Channel" in os.path.abspath(folder)  # story format (qa_short --profile story): archive footage allowed up to 6x
+    story = "Soccer Channel" in os.path.abspath(folder) or _profile_story()  # story format (qa_short --profile story): archive footage allowed up to 6x
     from deflash import flashes
     segs = segments(folder)
     res, bad, warn = [], [], []
