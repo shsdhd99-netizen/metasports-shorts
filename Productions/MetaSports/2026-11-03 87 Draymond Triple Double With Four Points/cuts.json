@@ -1,0 +1,195 @@
+{
+ "sources": {
+  "A": "src/dray2.mp4",
+  "B": "src/dray2.mp4",
+  "C": "src/dray.mp4"
+ },
+ "promise": [
+  "Draymond",
+  "triple-double"
+ ],
+ "shots": [
+  {
+   "clip": "W01",
+   "src": "B",
+   "at": 268.8,
+   "kind": "face",
+   "why": "Draymond Green close-up with the broadcast stat graphic (4 pts, 12 reb, 10 ast, 10 stl, franchise record), end of game",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "Draymond",
+   "overlay": [
+    {
+     "text": "4 POINTS",
+     "size": 110,
+     "color": "orange",
+     "y": 300,
+     "start": 1.3,
+     "end": 2.2
+    }
+   ],
+   "len": 2.45
+  },
+  {
+   "clip": "W02",
+   "src": "A",
+   "at": 80.0,
+   "kind": "action",
+   "why": "Draymond Green hands up on the sideline, #23 (same game, NBA film)",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "Twelve",
+   "overlay": [
+    {
+     "text": "12 REBOUNDS",
+     "size": 110,
+     "color": "orange",
+     "y": 300,
+     "start": 0,
+     "end": 0.9
+    },
+    {
+     "text": "10 ASSISTS",
+     "size": 110,
+     "color": "orange",
+     "y": 300,
+     "start": 0.9,
+     "end": 1.6
+    }
+   ],
+   "len": 1.96
+  },
+  {
+   "clip": "W03",
+   "src": "C",
+   "at": 134.0,
+   "kind": "action",
+   "why": "Draymond brings the ball up the floor after the steal (same game, NBA film)",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "Ten steals",
+   "overlay": [
+    {
+     "text": "10 STEALS",
+     "size": 110,
+     "color": "orange",
+     "y": 300,
+     "start": 0,
+     "end": 0.8
+    }
+   ],
+   "len": 1.16
+  },
+  {
+   "clip": "W04",
+   "src": "C",
+   "at": 135.0,
+   "kind": "action",
+   "why": "Draymond leads the break (same play)",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "That was",
+   "len": 1.25
+  },
+  {
+   "clip": "W04b",
+   "src": "C",
+   "at": 137.6,
+   "kind": "action",
+   "why": "Draymond finishes the break with a dunk (Feb 10 2017 at Memphis)",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "2017,",
+   "len": 1.89
+  },
+  {
+   "clip": "W05",
+   "src": "A",
+   "at": 201.3,
+   "kind": "face",
+   "why": "Draymond Green #23 hand up (NBA film)",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "No player",
+   "len": 1.46
+  },
+  {
+   "clip": "W06",
+   "src": "A",
+   "at": 126.2,
+   "kind": "face",
+   "why": "Draymond Green close-up, #23, after the dunk",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "had done",
+   "len": 2.24
+  },
+  {
+   "clip": "W07",
+   "src": "B",
+   "at": 270.6,
+   "kind": "face",
+   "why": "Draymond with the stat graphic: steals 10, franchise record",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "His ten steals",
+   "replay": true,
+   "len": 2.02
+  },
+  {
+   "clip": "W08",
+   "src": "A",
+   "at": 115.8,
+   "kind": "face",
+   "why": "Warriors bench celebrating (illustrative of the win)",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "The Warriors won",
+   "len": 1.45
+  },
+  {
+   "clip": "W09",
+   "src": "A",
+   "at": 259.0,
+   "kind": "face",
+   "why": "Draymond Green #23 from behind, Memphis, 4th quarter",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "His box",
+   "overlay": [
+    {
+     "text": "4 POINTS",
+     "size": 110,
+     "color": "orange",
+     "y": 300,
+     "start": 0.2,
+     "end": 1.5
+    }
+   ],
+   "len": 2.02
+  },
+  {
+   "clip": "W10",
+   "src": "B",
+   "at": 268.8,
+   "kind": "face",
+   "why": "Draymond Green with the stat graphic again (payoff)",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "His night",
+   "replay": true,
+   "len": 1.88
+  }
+ ]
+}
