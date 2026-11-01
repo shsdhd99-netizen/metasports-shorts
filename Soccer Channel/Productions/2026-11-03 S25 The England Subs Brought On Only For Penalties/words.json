@@ -1,0 +1,977 @@
+[
+ {
+  "word": "The",
+  "start": 0.0,
+  "end": 0.128
+ },
+ {
+  "word": "England",
+  "start": 0.186,
+  "end": 0.418
+ },
+ {
+  "word": "subs",
+  "start": 0.464,
+  "end": 0.708
+ },
+ {
+  "word": "brought",
+  "start": 0.755,
+  "end": 0.952
+ },
+ {
+  "word": "on",
+  "start": 0.987,
+  "end": 1.057
+ },
+ {
+  "word": "only",
+  "start": 1.138,
+  "end": 1.428
+ },
+ {
+  "word": "for",
+  "start": 1.486,
+  "end": 1.579
+ },
+ {
+  "word": "penalties.",
+  "start": 1.625,
+  "end": 2.264
+ },
+ {
+  "word": "Back",
+  "start": 2.31,
+  "end": 2.485
+ },
+ {
+  "word": "in",
+  "start": 2.531,
+  "end": 2.577
+ },
+ {
+  "word": "2021,",
+  "start": 2.612,
+  "end": 3.494
+ },
+ {
+  "word": "England",
+  "start": 3.527,
+  "end": 3.817
+ },
+ {
+  "word": "played",
+  "start": 3.864,
+  "end": 4.073
+ },
+ {
+  "word": "Italy",
+  "start": 4.131,
+  "end": 4.386
+ },
+ {
+  "word": "in",
+  "start": 4.433,
+  "end": 4.479
+ },
+ {
+  "word": "the",
+  "start": 4.514,
+  "end": 4.584
+ },
+ {
+  "word": "final",
+  "start": 4.653,
+  "end": 4.967
+ },
+ {
+  "word": "of",
+  "start": 5.013,
+  "end": 5.06
+ },
+ {
+  "word": "the",
+  "start": 5.094,
+  "end": 5.164
+ },
+ {
+  "word": "Euros,",
+  "start": 5.222,
+  "end": 5.582
+ },
+ {
+  "word": "at",
+  "start": 5.605,
+  "end": 5.687
+ },
+ {
+  "word": "Wembley.",
+  "start": 5.745,
+  "end": 6.186
+ },
+ {
+  "word": "After",
+  "start": 6.209,
+  "end": 6.441
+ },
+ {
+  "word": "extra",
+  "start": 6.499,
+  "end": 6.708
+ },
+ {
+  "word": "time,",
+  "start": 6.755,
+  "end": 7.08
+ },
+ {
+  "word": "it",
+  "start": 7.138,
+  "end": 7.242
+ },
+ {
+  "word": "was",
+  "start": 7.277,
+  "end": 7.37
+ },
+ {
+  "word": "still",
+  "start": 7.416,
+  "end": 7.695
+ },
+ {
+  "word": "level.",
+  "start": 7.776,
+  "end": 8.125
+ },
+ {
+  "word": "Then,",
+  "start": 8.148,
+  "end": 8.438
+ },
+ {
+  "word": "in",
+  "start": 8.473,
+  "end": 8.566
+ },
+ {
+  "word": "the",
+  "start": 8.601,
+  "end": 8.67
+ },
+ {
+  "word": "very",
+  "start": 8.728,
+  "end": 8.903
+ },
+ {
+  "word": "last",
+  "start": 8.961,
+  "end": 9.158
+ },
+ {
+  "word": "minute,",
+  "start": 9.204,
+  "end": 9.437
+ },
+ {
+  "word": "Gareth",
+  "start": 9.495,
+  "end": 9.738
+ },
+ {
+  "word": "Southgate",
+  "start": 9.762,
+  "end": 10.087
+ },
+ {
+  "word": "made",
+  "start": 10.11,
+  "end": 10.238
+ },
+ {
+  "word": "two",
+  "start": 10.273,
+  "end": 10.47
+ },
+ {
+  "word": "changes.",
+  "start": 10.528,
+  "end": 11.051
+ },
+ {
+  "word": "He",
+  "start": 11.074,
+  "end": 11.12
+ },
+ {
+  "word": "took",
+  "start": 11.167,
+  "end": 11.295
+ },
+ {
+  "word": "off",
+  "start": 11.341,
+  "end": 11.434
+ },
+ {
+  "word": "Kyle",
+  "start": 11.48,
+  "end": 11.712
+ },
+ {
+  "word": "Walker",
+  "start": 11.736,
+  "end": 11.968
+ },
+ {
+  "word": "and",
+  "start": 12.003,
+  "end": 12.072
+ },
+ {
+  "word": "Jordan",
+  "start": 12.107,
+  "end": 12.316
+ },
+ {
+  "word": "Henderson,",
+  "start": 12.351,
+  "end": 12.676
+ },
+ {
+  "word": "and",
+  "start": 12.699,
+  "end": 12.769
+ },
+ {
+  "word": "brought",
+  "start": 12.792,
+  "end": 12.955
+ },
+ {
+  "word": "on",
+  "start": 12.99,
+  "end": 13.036
+ },
+ {
+  "word": "Marcus",
+  "start": 13.106,
+  "end": 13.361
+ },
+ {
+  "word": "Rashford",
+  "start": 13.431,
+  "end": 13.791
+ },
+ {
+  "word": "and",
+  "start": 13.814,
+  "end": 13.884
+ },
+ {
+  "word": "Jadon",
+  "start": 13.93,
+  "end": 14.174
+ },
+ {
+  "word": "Sancho.",
+  "start": 14.243,
+  "end": 14.673
+ },
+ {
+  "word": "Not",
+  "start": 14.696,
+  "end": 14.847
+ },
+ {
+  "word": "to",
+  "start": 14.87,
+  "end": 14.917
+ },
+ {
+  "word": "win",
+  "start": 14.963,
+  "end": 15.068
+ },
+ {
+  "word": "the",
+  "start": 15.103,
+  "end": 15.172
+ },
+ {
+  "word": "game.",
+  "start": 15.219,
+  "end": 15.525
+ },
+ {
+  "word": "Just",
+  "start": 15.551,
+  "end": 15.702
+ },
+ {
+  "word": "to",
+  "start": 15.725,
+  "end": 15.772
+ },
+ {
+  "word": "take",
+  "start": 15.818,
+  "end": 15.958
+ },
+ {
+  "word": "penalties.",
+  "start": 15.992,
+  "end": 16.573
+ },
+ {
+  "word": "On",
+  "start": 16.596,
+  "end": 16.701
+ },
+ {
+  "word": "the",
+  "start": 16.724,
+  "end": 16.793
+ },
+ {
+  "word": "BBC,",
+  "start": 16.817,
+  "end": 17.2
+ },
+ {
+  "word": "commentator",
+  "start": 17.235,
+  "end": 17.595
+ },
+ {
+  "word": "Guy",
+  "start": 17.653,
+  "end": 17.815
+ },
+ {
+  "word": "Mowbray",
+  "start": 17.896,
+  "end": 18.268
+ },
+ {
+  "word": "had",
+  "start": 18.314,
+  "end": 18.384
+ },
+ {
+  "word": "even",
+  "start": 18.442,
+  "end": 18.639
+ },
+ {
+  "word": "feared",
+  "start": 18.732,
+  "end": 19.034
+ },
+ {
+  "word": "Italy",
+  "start": 19.081,
+  "end": 19.29
+ },
+ {
+  "word": "would",
+  "start": 19.324,
+  "end": 19.441
+ },
+ {
+  "word": "keep",
+  "start": 19.464,
+  "end": 19.603
+ },
+ {
+  "word": "the",
+  "start": 19.65,
+  "end": 19.719
+ },
+ {
+  "word": "ball,",
+  "start": 19.765,
+  "end": 20.032
+ },
+ {
+  "word": "to",
+  "start": 20.056,
+  "end": 20.125
+ },
+ {
+  "word": "stop",
+  "start": 20.207,
+  "end": 20.497
+ },
+ {
+  "word": "England",
+  "start": 20.567,
+  "end": 20.822
+ },
+ {
+  "word": "making",
+  "start": 20.868,
+  "end": 21.101
+ },
+ {
+  "word": "those",
+  "start": 21.135,
+  "end": 21.286
+ },
+ {
+  "word": "changes.",
+  "start": 21.31,
+  "end": 21.832
+ },
+ {
+  "word": "Years",
+  "start": 21.878,
+  "end": 22.099
+ },
+ {
+  "word": "earlier,",
+  "start": 22.145,
+  "end": 22.505
+ },
+ {
+  "word": "in",
+  "start": 22.529,
+  "end": 22.598
+ },
+ {
+  "word": "2014,",
+  "start": 22.645,
+  "end": 23.423
+ },
+ {
+  "word": "Louis",
+  "start": 23.492,
+  "end": 23.701
+ },
+ {
+  "word": "van",
+  "start": 23.759,
+  "end": 23.887
+ },
+ {
+  "word": "Gaal",
+  "start": 23.933,
+  "end": 24.154
+ },
+ {
+  "word": "had",
+  "start": 24.2,
+  "end": 24.27
+ },
+ {
+  "word": "done",
+  "start": 24.305,
+  "end": 24.421
+ },
+ {
+  "word": "something",
+  "start": 24.444,
+  "end": 24.676
+ },
+ {
+  "word": "similar,",
+  "start": 24.723,
+  "end": 25.083
+ },
+ {
+  "word": "bringing",
+  "start": 25.118,
+  "end": 25.373
+ },
+ {
+  "word": "on",
+  "start": 25.419,
+  "end": 25.478
+ },
+ {
+  "word": "a",
+  "start": 25.512,
+  "end": 25.536
+ },
+ {
+  "word": "goalkeeper",
+  "start": 25.594,
+  "end": 25.988
+ },
+ {
+  "word": "for",
+  "start": 26.023,
+  "end": 26.093
+ },
+ {
+  "word": "the",
+  "start": 26.128,
+  "end": 26.197
+ },
+ {
+  "word": "shootout,",
+  "start": 26.232,
+  "end": 26.662
+ },
+ {
+  "word": "and",
+  "start": 26.685,
+  "end": 26.789
+ },
+ {
+  "word": "it",
+  "start": 26.859,
+  "end": 26.929
+ },
+ {
+  "word": "worked.",
+  "start": 26.987,
+  "end": 27.428
+ },
+ {
+  "word": "Italy",
+  "start": 27.451,
+  "end": 27.741
+ },
+ {
+  "word": "kicked",
+  "start": 27.811,
+  "end": 28.043
+ },
+ {
+  "word": "first.",
+  "start": 28.113,
+  "end": 28.601
+ },
+ {
+  "word": "Berardi",
+  "start": 28.624,
+  "end": 28.949
+ },
+ {
+  "word": "scored.",
+  "start": 29.03,
+  "end": 29.483
+ },
+ {
+  "word": "Kane",
+  "start": 29.506,
+  "end": 29.773
+ },
+ {
+  "word": "scored.",
+  "start": 29.796,
+  "end": 30.231
+ },
+ {
+  "word": "Pickford",
+  "start": 30.254,
+  "end": 30.533
+ },
+ {
+  "word": "saved",
+  "start": 30.579,
+  "end": 30.788
+ },
+ {
+  "word": "Belotti's,",
+  "start": 30.812,
+  "end": 31.264
+ },
+ {
+  "word": "and",
+  "start": 31.288,
+  "end": 31.357
+ },
+ {
+  "word": "Harry",
+  "start": 31.404,
+  "end": 31.531
+ },
+ {
+  "word": "Maguire",
+  "start": 31.566,
+  "end": 31.938
+ },
+ {
+  "word": "put",
+  "start": 31.973,
+  "end": 32.112
+ },
+ {
+  "word": "England",
+  "start": 32.182,
+  "end": 32.46
+ },
+ {
+  "word": "ahead.",
+  "start": 32.507,
+  "end": 32.855
+ },
+ {
+  "word": "But",
+  "start": 32.89,
+  "end": 32.983
+ },
+ {
+  "word": "Bonucci",
+  "start": 33.006,
+  "end": 33.377
+ },
+ {
+  "word": "levelled",
+  "start": 33.459,
+  "end": 33.749
+ },
+ {
+  "word": "it.",
+  "start": 33.807,
+  "end": 33.888
+ },
+ {
+  "word": "Then",
+  "start": 33.911,
+  "end": 34.039
+ },
+ {
+  "word": "Rashford",
+  "start": 34.109,
+  "end": 34.422
+ },
+ {
+  "word": "walked",
+  "start": 34.457,
+  "end": 34.689
+ },
+ {
+  "word": "up,",
+  "start": 34.747,
+  "end": 34.887
+ },
+ {
+  "word": "and",
+  "start": 34.91,
+  "end": 34.98
+ },
+ {
+  "word": "hit",
+  "start": 35.026,
+  "end": 35.13
+ },
+ {
+  "word": "the",
+  "start": 35.165,
+  "end": 35.235
+ },
+ {
+  "word": "post.",
+  "start": 35.27,
+  "end": 35.676
+ },
+ {
+  "word": "Italy",
+  "start": 35.699,
+  "end": 35.943
+ },
+ {
+  "word": "scored",
+  "start": 35.99,
+  "end": 36.257
+ },
+ {
+  "word": "again.",
+  "start": 36.28,
+  "end": 36.663
+ },
+ {
+  "word": "Then",
+  "start": 36.686,
+  "end": 36.802
+ },
+ {
+  "word": "came",
+  "start": 36.849,
+  "end": 37.0
+ },
+ {
+  "word": "Sancho.",
+  "start": 37.035,
+  "end": 37.441
+ },
+ {
+  "word": "Donnarumma",
+  "start": 37.476,
+  "end": 37.998
+ },
+ {
+  "word": "saved",
+  "start": 38.056,
+  "end": 38.312
+ },
+ {
+  "word": "it.",
+  "start": 38.37,
+  "end": 38.463
+ },
+ {
+  "word": "England",
+  "start": 38.486,
+  "end": 38.741
+ },
+ {
+  "word": "were",
+  "start": 38.788,
+  "end": 38.892
+ },
+ {
+  "word": "nearly",
+  "start": 38.927,
+  "end": 39.194
+ },
+ {
+  "word": "out,",
+  "start": 39.252,
+  "end": 39.449
+ },
+ {
+  "word": "but",
+  "start": 39.473,
+  "end": 39.565
+ },
+ {
+  "word": "Pickford",
+  "start": 39.6,
+  "end": 39.855
+ },
+ {
+  "word": "saved",
+  "start": 39.902,
+  "end": 40.134
+ },
+ {
+  "word": "Jorginho's.",
+  "start": 40.157,
+  "end": 40.831
+ },
+ {
+  "word": "Then",
+  "start": 40.854,
+  "end": 40.993
+ },
+ {
+  "word": "Bukayo",
+  "start": 41.04,
+  "end": 41.423
+ },
+ {
+  "word": "Saka",
+  "start": 41.504,
+  "end": 41.783
+ },
+ {
+  "word": "stepped",
+  "start": 41.818,
+  "end": 42.061
+ },
+ {
+  "word": "up,",
+  "start": 42.119,
+  "end": 42.247
+ },
+ {
+  "word": "and",
+  "start": 42.27,
+  "end": 42.352
+ },
+ {
+  "word": "Donnarumma",
+  "start": 42.375,
+  "end": 42.804
+ },
+ {
+  "word": "saved",
+  "start": 42.851,
+  "end": 43.06
+ },
+ {
+  "word": "that",
+  "start": 43.083,
+  "end": 43.234
+ },
+ {
+  "word": "one",
+  "start": 43.292,
+  "end": 43.443
+ },
+ {
+  "word": "too.",
+  "start": 43.478,
+  "end": 43.791
+ },
+ {
+  "word": "Italy",
+  "start": 43.814,
+  "end": 44.093
+ },
+ {
+  "word": "won",
+  "start": 44.163,
+  "end": 44.372
+ },
+ {
+  "word": "3-2.",
+  "start": 44.43,
+  "end": 44.987
+ },
+ {
+  "word": "Afterwards,",
+  "start": 45.01,
+  "end": 45.475
+ },
+ {
+  "word": "Southgate",
+  "start": 45.51,
+  "end": 45.869
+ },
+ {
+  "word": "called",
+  "start": 45.893,
+  "end": 46.113
+ },
+ {
+  "word": "the",
+  "start": 46.136,
+  "end": 46.206
+ },
+ {
+  "word": "substitutions",
+  "start": 46.229,
+  "end": 46.752
+ },
+ {
+  "word": "a",
+  "start": 46.787,
+  "end": 46.81
+ },
+ {
+  "word": "gamble,",
+  "start": 46.891,
+  "end": 47.379
+ },
+ {
+  "word": "and",
+  "start": 47.402,
+  "end": 47.483
+ },
+ {
+  "word": "said",
+  "start": 47.53,
+  "end": 47.669
+ },
+ {
+  "word": "the",
+  "start": 47.692,
+  "end": 47.762
+ },
+ {
+  "word": "order",
+  "start": 47.808,
+  "end": 47.971
+ },
+ {
+  "word": "of",
+  "start": 48.006,
+  "end": 48.052
+ },
+ {
+  "word": "takers",
+  "start": 48.099,
+  "end": 48.424
+ },
+ {
+  "word": "had",
+  "start": 48.458,
+  "end": 48.528
+ },
+ {
+  "word": "been",
+  "start": 48.551,
+  "end": 48.656
+ },
+ {
+  "word": "set",
+  "start": 48.714,
+  "end": 48.888
+ },
+ {
+  "word": "before",
+  "start": 48.934,
+  "end": 49.167
+ },
+ {
+  "word": "the",
+  "start": 49.201,
+  "end": 49.271
+ },
+ {
+  "word": "match.",
+  "start": 49.318,
+  "end": 49.689
+ },
+ {
+  "word": "Van",
+  "start": 49.712,
+  "end": 49.887
+ },
+ {
+  "word": "Gaal's",
+  "start": 49.933,
+  "end": 50.188
+ },
+ {
+  "word": "substitute",
+  "start": 50.212,
+  "end": 50.688
+ },
+ {
+  "word": "saved",
+  "start": 50.722,
+  "end": 50.931
+ },
+ {
+  "word": "two",
+  "start": 50.955,
+  "end": 51.106
+ },
+ {
+  "word": "penalties.",
+  "start": 51.152,
+  "end": 51.651
+ },
+ {
+  "word": "Southgate's",
+  "start": 51.721,
+  "end": 52.162
+ },
+ {
+  "word": "two",
+  "start": 52.197,
+  "end": 52.336
+ },
+ {
+  "word": "substitutes",
+  "start": 52.394,
+  "end": 52.894
+ },
+ {
+  "word": "missed",
+  "start": 52.94,
+  "end": 53.149
+ },
+ {
+  "word": "theirs.",
+  "start": 53.184,
+  "end": 53.716
+ }
+]

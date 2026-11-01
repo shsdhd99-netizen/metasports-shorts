@@ -10,6 +10,10 @@ This is the second channel's own space. The NBA channel (MetaSports) keeps its o
 > - No cards (owner, Oct 26): 1.5 s at most if one is unavoidable, never in the first 4 s. TikTok and Instagram cross-posting is paused (owner, Oct 26).
 > - **The rules were reviewed on Oct 26 (overnight review).** Read `Playbook.md` (rules 1, 6-7 and 11-15) and `Research Notes/Rule Changes Applied (Oct 26, 2026).md` (repo root) before making a Short.
 
+## Status Nov 3-4 (S25, S26)
+- **S25 The England subs brought on only for penalties** (`Productions/2026-11-03 S25 ...`): built, QA PASS, 53.9 s, MUSIC side. DRAFT files in the folder, UPLOAD.md ready. Nothing posted or scheduled.
+- **S26 Goalkeepers who took their gloves off to save a penalty** (`Productions/2026-11-04 S26 ...`): see its folder; NO-MUSIC side of the A/B. Nothing posted or scheduled.
+
 ## What this channel is
 - **Name:** MetaSports FC.
   - Handle @MetaSportsFC, claimed by the owner Oct 22 (channel id UCIYlW84gYcChQtdys5L9pOg).
