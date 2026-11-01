@@ -4,7 +4,7 @@
 **Repurpose of:** #80 "The Lakers Led By 23 And Lost By 17" (built Oct 31 as same-day news, went stale). New hook: the never-happened record, no "last night" wording. Same sourced claims, re-voiced script, footage reused from #80's ESPN clips and re-cut with the review rules.
 **Title:** The Warriors Did Something No Team Had Done In The Shot Clock Era
 **Alternatives:** The Lakers Led By 23 After One Quarter And Lost By 17 / Down 23 After One Quarter, Tied By Halftime
-**Tags (warriors, of 490):** warriors, golden state warriors, warriors lakers, lakers warriors, luka doncic, luka doncic lakers, stephen curry, steph curry, curry, warriors comeback, biggest comeback, nba comeback, nba records, nba history, shot clock era, nba cup, lakers, los angeles lakers, nba halftime, nba highlights, warriors highlights, lakers highlights, warriors beat lakers, nba cup 2026, nba facts, nba shorts, nba news, basketball shorts, nba stats, nba quarter record
+**Tags (477 of 490):** warriors, golden state warriors, warriors lakers, lakers warriors, luka doncic, luka doncic lakers, stephen curry, steph curry, curry, warriors comeback, biggest comeback, nba comeback, nba records, nba history, shot clock era, nba cup, lakers, los angeles lakers, nba halftime, nba highlights, warriors highlights, lakers highlights, warriors beat lakers, nba cup 2026, nba facts, nba shorts, nba news, basketball shorts, nba stats, nba quarter record
 **Description:** empty. **Pinned comment:** Biggest comeback you have ever watched live?
 
 ## Claims (re-verified Nov 1 against ESPN summary API event 401909285 and the AP recap on ESPN)
