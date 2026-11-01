@@ -1,0 +1,521 @@
+{
+ "sources": {
+  "D": "src/dkxMW4K6xxA.mp4",
+  "Q": "src/li9qaVT8Kiw.mp4",
+  "M": "src/lyN-NXFsJXA.mp4",
+  "H": "src/hu1meVUoIKQ.mp4"
+ },
+ "promise": [
+  "leg",
+  "broke",
+  "injured",
+  "keeper",
+  "goalkeeper"
+ ],
+ "shots": [
+  {
+   "src": "D",
+   "at": 76.0,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Pumpido (#1) is hurt in a collision, Argentina v USSR 1990 (FIFA TV, The Understudy)",
+   "clip": "G01",
+   "len": 3.24
+  },
+  {
+   "src": "D",
+   "at": 70.0,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Argentina v USSR line-up, wide (FIFA TV)",
+   "anchor": "Back in",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "clip": "G02",
+   "len": 1.44
+  },
+  {
+   "src": "D",
+   "at": 10.0,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Argentina at Italia 90 (Maradona celebrating; illustrative, FIFA TV)",
+   "anchor": "Argentina went",
+   "clip": "G03",
+   "len": 1.8
+  },
+  {
+   "src": "D",
+   "at": 70.9,
+   "x": 0.5,
+   "kind": "face",
+   "why": "Argentina keeper in the line-up before the USSR game: Nery Pumpido (FIFA TV)",
+   "anchor": "with Nery",
+   "clip": "G04",
+   "speed": 0.35,
+   "len": 2.95
+  },
+  {
+   "src": "D",
+   "at": 72.0,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Argentina v USSR play, wide (FIFA TV)",
+   "anchor": "Then, in",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "clip": "G05",
+   "len": 1.96
+  },
+  {
+   "src": "D",
+   "at": 95.5,
+   "x": 0.5,
+   "kind": "action",
+   "why": "USSR attack, Argentina v USSR (FIFA TV)",
+   "anchor": "Soviet Union",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "clip": "G06",
+   "len": 1.03
+  },
+  {
+   "src": "D",
+   "at": 75.0,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Pumpido on the ground, the referee waves for help (FIFA TV)",
+   "anchor": "Pumpido broke",
+   "clip": "G07",
+   "len": 1.58
+  },
+  {
+   "src": "D",
+   "at": 79.2,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Pumpido on the stretcher (FIFA TV)",
+   "anchor": "Eleven",
+   "overlay": [
+    {
+     "text": "11TH MINUTE",
+     "size": 120,
+     "color": "orange",
+     "y": 300,
+     "start": 0.0,
+     "end": 0.9
+    }
+   ],
+   "clip": "G08",
+   "len": 1.22
+  },
+  {
+   "src": "D",
+   "at": 81.2,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Goycochea (#12) runs on (FIFA TV)",
+   "anchor": "His understudy",
+   "clip": "G09",
+   "len": 0.97
+  },
+  {
+   "src": "D",
+   "at": 81.6,
+   "x": 0.5,
+   "kind": "face",
+   "why": "Sergio Goycochea (#12) takes his place in goal (FIFA TV)",
+   "anchor": "Sergio",
+   "clip": "G10",
+   "len": 1.46
+  },
+  {
+   "src": "D",
+   "at": 19.3,
+   "x": 0.5,
+   "kind": "face",
+   "why": "Goycochea in goal, 1990 (FIFA TV)",
+   "anchor": "took over",
+   "clip": "G11",
+   "speed": 0.8,
+   "len": 1.98
+  },
+  {
+   "src": "Q",
+   "at": 120.0,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Quarter-final v Yugoslavia, Florence (FIFA full penalty shoot-out)",
+   "anchor": "quarter-final",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "clip": "G12",
+   "len": 1.08
+  },
+  {
+   "src": "Q",
+   "at": 60.0,
+   "x": 0.5,
+   "kind": "face",
+   "why": "Yugoslav player (FIFA)",
+   "anchor": "Yugoslavia,",
+   "clip": "G13",
+   "len": 1.61
+  },
+  {
+   "src": "Q",
+   "at": 0.3,
+   "x": 0.5,
+   "kind": "face",
+   "why": "Yugoslav keeper Ivkovic waits (FIFA)",
+   "anchor": "goalless",
+   "clip": "G14",
+   "len": 0.88
+  },
+  {
+   "src": "Q",
+   "at": 20.0,
+   "x": 0.5,
+   "kind": "action",
+   "why": "The shoot-out, wide (FIFA)",
+   "anchor": "so it",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "clip": "G15",
+   "len": 1.44
+  },
+  {
+   "src": "Q",
+   "at": 203.8,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Maradona runs up; Ivkovic dives (FIFA)",
+   "anchor": "Diego Maradona",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "clip": "G16",
+   "len": 1.6
+  },
+  {
+   "src": "Q",
+   "at": 279.0,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Troglio's kick misses (FIFA)",
+   "anchor": "Pedro Troglio",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "clip": "G17",
+   "len": 1.44
+  },
+  {
+   "src": "Q",
+   "at": 330.0,
+   "x": 0.5,
+   "kind": "face",
+   "why": "Yugoslav taker, head down (FIFA)",
+   "anchor": "Yugoslavia were",
+   "clip": "G18",
+   "len": 1.51
+  },
+  {
+   "src": "Q",
+   "at": 226.0,
+   "x": 0.5,
+   "kind": "face",
+   "why": "Maradona sits on the ground after his miss (FIFA)",
+   "anchor": "Goycochea told",
+   "clip": "G19",
+   "len": 1.74
+  },
+  {
+   "src": "Q",
+   "at": 437.0,
+   "x": 0.5,
+   "kind": "face",
+   "why": "Goycochea, smiling (FIFA)",
+   "anchor": "Relax,",
+   "clip": "G20",
+   "len": 1.77
+  },
+  {
+   "src": "M",
+   "at": 370.5,
+   "x": 0.5,
+   "kind": "face",
+   "why": "Goycochea close-up in the semi-final shoot-out (FIFA+)",
+   "anchor": "He later",
+   "clip": "G21",
+   "len": 2.91
+  },
+  {
+   "src": "Q",
+   "at": 355.7,
+   "x": 0.65,
+   "kind": "action",
+   "why": "Goycochea dives to save Brnovic's kick (FIFA)",
+   "anchor": "Then he",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "clip": "G22",
+   "len": 1.55
+  },
+  {
+   "src": "Q",
+   "at": 362.8,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Same save, behind the goal (FIFA)",
+   "anchor": "and saved Brnovic",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "clip": "G23",
+   "len": 1.26
+  },
+  {
+   "src": "Q",
+   "at": 430.0,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Yugoslavia's last kick, Hadzibegic sets the ball (FIFA)",
+   "anchor": "And with",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "clip": "G24",
+   "len": 1.6
+  },
+  {
+   "src": "Q",
+   "at": 445.0,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Goycochea dives left (FIFA)",
+   "anchor": "he flung",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "clip": "G25",
+   "len": 1.57
+  },
+  {
+   "src": "Q",
+   "at": 447.0,
+   "x": 0.5,
+   "kind": "face",
+   "why": "Goycochea, arm out, after the save (FIFA)",
+   "anchor": "and saved Hadzibegic",
+   "clip": "G26",
+   "len": 1.38
+  },
+  {
+   "src": "Q",
+   "at": 456.0,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Argentina celebrate going through (FIFA)",
+   "anchor": "Argentina were",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "clip": "G27",
+   "len": 1.42
+  },
+  {
+   "src": "M",
+   "at": 18.0,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Semi-final v Italy, Naples, wide (FIFA+)",
+   "anchor": "In the semi-final",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "clip": "G28",
+   "len": 1.18
+  },
+  {
+   "src": "M",
+   "at": 27.0,
+   "x": 0.5,
+   "kind": "face",
+   "why": "Italy player (FIFA+)",
+   "anchor": "against Italy",
+   "clip": "G29",
+   "len": 0.96
+  },
+  {
+   "src": "M",
+   "at": 90.0,
+   "x": 0.5,
+   "kind": "action",
+   "why": "San Paolo, night (FIFA+)",
+   "anchor": "in Naples",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "clip": "G30",
+   "len": 0.93
+  },
+  {
+   "src": "M",
+   "at": 99.0,
+   "x": 0.5,
+   "kind": "action",
+   "why": "San Paolo goal, night, shoot-out (FIFA+)",
+   "anchor": "it was level",
+   "blurfit": true,
+   "clip": "G31",
+   "blurfit_aspect": 0.75,
+   "len": 1.28
+  },
+  {
+   "src": "M",
+   "at": 80.0,
+   "x": 0.5,
+   "kind": "action",
+   "why": "The semi-final shoot-out, wide (FIFA+)",
+   "anchor": "and penalties",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "clip": "G32",
+   "len": 1.26
+  },
+  {
+   "src": "M",
+   "at": 308.4,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Donadoni's kick, wide (FIFA+)",
+   "anchor": "Goycochea saved",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "clip": "G33",
+   "len": 1.43
+  },
+  {
+   "src": "M",
+   "at": 310.9,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Goycochea dives and saves Donadoni's kick (FIFA+)",
+   "anchor": "Donadoni",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "clip": "G34",
+   "len": 0.97
+  },
+  {
+   "src": "M",
+   "at": 375.0,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Serena's kick, wide (FIFA+)",
+   "anchor": "Then he saved",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "clip": "G35",
+   "len": 1.19
+  },
+  {
+   "src": "M",
+   "at": 381.0,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Argentina celebrate (FIFA+)",
+   "anchor": "That made",
+   "overlay": [
+    {
+     "text": "4 SAVES",
+     "size": 150,
+     "color": "orange",
+     "y": 300,
+     "start": 0.0,
+     "end": 0.9
+    }
+   ],
+   "clip": "G36",
+   "len": 1.32
+  },
+  {
+   "src": "M",
+   "at": 288.0,
+   "x": 0.5,
+   "kind": "face",
+   "why": "Goycochea in goal, semi-final shoot-out (FIFA+)",
+   "anchor": "a record",
+   "clip": "G37",
+   "len": 1.72
+  },
+  {
+   "src": "H",
+   "at": 12.0,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Crowd with Argentina and German flags, 1990 final (FIFA TV)",
+   "anchor": "But here's",
+   "clip": "G38",
+   "len": 1.22
+  },
+  {
+   "src": "D",
+   "at": 171.0,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Goycochea and Maradona line up for the final (FIFA TV)",
+   "anchor": "In the final",
+   "clip": "G39",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "len": 1.44
+  },
+  {
+   "src": "D",
+   "at": 190.0,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Scoreboard: Argentina 0 Germany 1, Brehme 84' (FIFA TV)",
+   "anchor": "won one-nil",
+   "clip": "G40",
+   "blurfit": true,
+   "len": 1.21
+  },
+  {
+   "src": "H",
+   "at": 32.0,
+   "x": 0.5,
+   "kind": "face",
+   "why": "Andreas Brehme, final (FIFA TV)",
+   "anchor": "from a penalty",
+   "clip": "G41",
+   "len": 1.08
+  },
+  {
+   "src": "D",
+   "at": 76.0,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Replay of the opening shot: Pumpido goes down (FIFA TV)",
+   "anchor": "The keeper",
+   "speed": 0.7,
+   "replay": true,
+   "clip": "G42",
+   "len": 2.13
+  },
+  {
+   "src": "M",
+   "at": 382.0,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Argentina players mob Goycochea after the Italy shoot-out (FIFA+)",
+   "anchor": "had saved four",
+   "clip": "G43",
+   "len": 2.01
+  },
+  {
+   "src": "D",
+   "at": 199.9,
+   "x": 0.5,
+   "kind": "face",
+   "why": "Goycochea with his runner-up medal (FIFA TV)",
+   "anchor": "and lost",
+   "clip": "G44",
+   "len": 1.66
+  }
+ ]
+}
