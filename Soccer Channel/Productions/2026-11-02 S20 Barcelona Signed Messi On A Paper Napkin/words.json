@@ -2,971 +2,1121 @@
  {
   "word": "Barcelona",
   "start": 0.0,
-  "end": 0.484
+  "end": 0.511
  },
  {
   "word": "signed",
-  "start": 0.557,
-  "end": 0.824
- },
- {
-  "word": "Lionel",
-  "start": 0.885,
-  "end": 1.164
+  "start": 0.569,
+  "end": 0.848
  },
  {
   "word": "Messi",
-  "start": 1.212,
-  "end": 1.527
+  "start": 0.906,
+  "end": 1.184
  },
  {
   "word": "on",
-  "start": 1.588,
-  "end": 1.661
+  "start": 1.231,
+  "end": 1.289
  },
  {
   "word": "a",
-  "start": 1.696,
-  "end": 1.721
+  "start": 1.324,
+  "end": 1.347
  },
  {
   "word": "paper",
-  "start": 1.782,
-  "end": 2.048
+  "start": 1.393,
+  "end": 1.625
  },
  {
   "word": "napkin.",
-  "start": 2.109,
-  "end": 2.614
+  "start": 1.672,
+  "end": 2.174
  },
  {
   "word": "Back",
-  "start": 2.616,
-  "end": 2.809
+  "start": 2.174,
+  "end": 2.366
  },
  {
   "word": "in",
-  "start": 2.858,
-  "end": 2.906
+  "start": 2.412,
+  "end": 2.459
  },
  {
   "word": "2000,",
-  "start": 2.955,
-  "end": 3.526
- },
- {
-  "word": "Messi",
-  "start": 3.533,
-  "end": 3.777
- },
- {
-  "word": "was",
-  "start": 3.79,
-  "end": 3.887
- },
- {
-  "word": "a",
-  "start": 3.935,
-  "end": 3.959
- },
- {
-  "word": "tiny",
-  "start": 4.045,
-  "end": 4.359
- },
- {
-  "word": "kid",
-  "start": 4.42,
-  "end": 4.602
- },
- {
-  "word": "from",
-  "start": 4.638,
-  "end": 4.735
- },
- {
-  "word": "Rosario,",
-  "start": 4.784,
-  "end": 5.402
- },
- {
-  "word": "in",
-  "start": 5.426,
-  "end": 5.475
- },
- {
-  "word": "Argentina.",
-  "start": 5.523,
-  "end": 6.214
- },
- {
-  "word": "He",
-  "start": 6.238,
-  "end": 6.286
- },
- {
-  "word": "needed",
-  "start": 6.335,
-  "end": 6.553
- },
- {
-  "word": "growth",
-  "start": 6.601,
-  "end": 6.868
- },
- {
-  "word": "hormone",
-  "start": 6.892,
-  "end": 7.219
- },
- {
-  "word": "treatment.",
-  "start": 7.244,
-  "end": 7.571
- },
- {
-  "word": "About",
-  "start": 7.571,
-  "end": 7.837
- },
- {
-  "word": "a",
-  "start": 7.862,
-  "end": 7.886
- },
- {
-  "word": "thousand",
-  "start": 7.947,
-  "end": 8.262
- },
- {
-  "word": "dollars",
-  "start": 8.299,
-  "end": 8.517
- },
- {
-  "word": "a",
-  "start": 8.541,
-  "end": 8.565
- },
- {
-  "word": "month.",
-  "start": 8.613,
-  "end": 8.974
- },
- {
-  "word": "Newell's",
-  "start": 9.039,
-  "end": 9.389
- },
- {
-  "word": "Old",
-  "start": 9.45,
-  "end": 9.632
- },
- {
-  "word": "Boys",
-  "start": 9.681,
-  "end": 10.007
- },
- {
-  "word": "and",
-  "start": 10.056,
-  "end": 10.128
- },
- {
-  "word": "River",
-  "start": 10.201,
-  "end": 10.396
- },
- {
-  "word": "Plate",
-  "start": 10.444,
-  "end": 10.649
- },
- {
-  "word": "both",
-  "start": 10.686,
-  "end": 10.941
- },
- {
-  "word": "wanted",
-  "start": 11.001,
-  "end": 11.268
- },
- {
-  "word": "him.",
-  "start": 11.304,
-  "end": 11.498
- },
- {
-  "word": "Neither",
-  "start": 11.522,
-  "end": 11.765
- },
- {
-  "word": "could",
-  "start": 11.801,
-  "end": 11.922
- },
- {
-  "word": "afford",
-  "start": 11.947,
-  "end": 12.189
- },
- {
-  "word": "it.",
-  "start": 12.237,
-  "end": 12.31
- },
- {
-  "word": "So",
-  "start": 12.334,
-  "end": 12.419
- },
- {
-  "word": "he",
-  "start": 12.492,
-  "end": 12.541
- },
- {
-  "word": "went",
-  "start": 12.589,
-  "end": 12.71
- },
- {
-  "word": "to",
-  "start": 12.734,
-  "end": 12.783
- },
- {
-  "word": "Barcelona",
-  "start": 12.819,
-  "end": 13.291
- },
- {
-  "word": "for",
-  "start": 13.34,
-  "end": 13.425
- },
- {
-  "word": "a",
-  "start": 13.474,
-  "end": 13.498
- },
- {
-  "word": "trial.",
-  "start": 13.546,
-  "end": 13.971
- },
- {
-  "word": "But",
-  "start": 13.975,
-  "end": 14.085
- },
- {
-  "word": "the",
-  "start": 14.109,
-  "end": 14.182
- },
- {
-  "word": "club",
-  "start": 14.218,
-  "end": 14.411
- },
- {
-  "word": "was",
-  "start": 14.448,
-  "end": 14.532
- },
- {
-  "word": "slow.",
-  "start": 14.569,
-  "end": 14.945
- },
- {
-  "word": "Some",
-  "start": 14.969,
-  "end": 15.102
- },
- {
-  "word": "of",
-  "start": 15.126,
-  "end": 15.175
- },
- {
-  "word": "them",
-  "start": 15.199,
-  "end": 15.296
- },
- {
-  "word": "said",
-  "start": 15.357,
-  "end": 15.539
- },
- {
-  "word": "it",
-  "start": 15.563,
-  "end": 15.612
- },
- {
-  "word": "would",
-  "start": 15.636,
-  "end": 15.757
- },
- {
-  "word": "be",
-  "start": 15.781,
-  "end": 15.83
- },
- {
-  "word": "ten",
-  "start": 15.866,
-  "end": 16.023
- },
- {
-  "word": "or",
-  "start": 16.072,
-  "end": 16.12
- },
- {
-  "word": "twelve",
-  "start": 16.145,
-  "end": 16.375
- },
- {
-  "word": "years",
-  "start": 16.424,
-  "end": 16.763
- },
- {
-  "word": "before",
-  "start": 16.8,
-  "end": 17.005
- },
- {
-  "word": "they",
-  "start": 17.029,
-  "end": 17.126
- },
- {
-  "word": "saw",
-  "start": 17.163,
-  "end": 17.296
- },
- {
-  "word": "the",
-  "start": 17.344,
-  "end": 17.418
- },
- {
-  "word": "benefit.",
-  "start": 17.453,
-  "end": 17.896
- },
- {
-  "word": "His",
-  "start": 17.92,
-  "end": 18.029
- },
- {
-  "word": "father",
-  "start": 18.077,
-  "end": 18.332
- },
- {
-  "word": "was",
-  "start": 18.368,
-  "end": 18.453
- },
- {
-  "word": "tired",
-  "start": 18.514,
-  "end": 18.829
- },
- {
-  "word": "of",
-  "start": 18.853,
-  "end": 18.901
- },
- {
-  "word": "waiting.",
-  "start": 18.962,
-  "end": 19.277
- },
- {
-  "word": "So",
-  "start": 19.302,
-  "end": 19.374
- },
- {
-  "word": "on",
-  "start": 19.434,
-  "end": 19.495
- },
- {
-  "word": "the",
-  "start": 19.52,
-  "end": 19.592
- },
- {
-  "word": "fourteenth",
-  "start": 19.628,
-  "end": 20.017
- },
- {
-  "word": "of",
-  "start": 20.041,
-  "end": 20.089
- },
- {
-  "word": "December,",
-  "start": 20.138,
-  "end": 20.562
- },
- {
-  "word": "Barcelona's",
-  "start": 20.586,
-  "end": 21.082
- },
- {
-  "word": "sporting",
-  "start": 21.106,
-  "end": 21.398
- },
- {
-  "word": "director,",
-  "start": 21.422,
-  "end": 21.713
- },
- {
-  "word": "Carles",
-  "start": 21.737,
-  "end": 22.1
- },
- {
-  "word": "Rexach,",
-  "start": 22.173,
-  "end": 22.67
- },
- {
-  "word": "met",
-  "start": 22.707,
-  "end": 22.852
- },
- {
-  "word": "two",
-  "start": 22.888,
-  "end": 23.046
- },
- {
-  "word": "of",
-  "start": 23.106,
-  "end": 23.156
- },
- {
-  "word": "Messi's",
-  "start": 23.216,
-  "end": 23.47
- },
- {
-  "word": "agents",
-  "start": 23.495,
-  "end": 23.773
- },
- {
-  "word": "for",
-  "start": 23.797,
-  "end": 23.882
- },
- {
-  "word": "lunch",
-  "start": 23.931,
-  "end": 24.113
- },
- {
-  "word": "at",
-  "start": 24.137,
-  "end": 24.185
- },
- {
-  "word": "a",
-  "start": 24.221,
-  "end": 24.245
- },
- {
-  "word": "tennis",
-  "start": 24.294,
-  "end": 24.537
- },
- {
-  "word": "club.",
-  "start": 24.586,
-  "end": 24.839
- },
- {
-  "word": "And",
-  "start": 24.864,
-  "end": 24.936
- },
- {
-  "word": "he",
-  "start": 24.997,
-  "end": 25.046
- },
- {
-  "word": "wrote",
-  "start": 25.106,
-  "end": 25.301
- },
- {
-  "word": "the",
-  "start": 25.325,
-  "end": 25.397
- },
- {
-  "word": "deal",
-  "start": 25.457,
-  "end": 25.675
- },
- {
-  "word": "on",
-  "start": 25.736,
-  "end": 25.797
- },
- {
-  "word": "a",
-  "start": 25.833,
-  "end": 25.858
- },
- {
-  "word": "paper",
-  "start": 25.919,
-  "end": 26.161
- },
- {
-  "word": "napkin.",
-  "start": 26.221,
-  "end": 26.694
- },
- {
-  "word": "He",
-  "start": 26.73,
-  "end": 26.803
- },
- {
-  "word": "agreed,",
-  "start": 26.852,
-  "end": 27.288
- },
- {
-  "word": "\"regardless",
-  "start": 27.312,
-  "end": 27.833
- },
- {
-  "word": "of",
-  "start": 27.857,
-  "end": 27.906
- },
- {
-  "word": "any",
-  "start": 27.954,
-  "end": 28.112
- },
- {
-  "word": "dissenting",
-  "start": 28.16,
-  "end": 28.487
- },
- {
-  "word": "opinions\",",
-  "start": 28.524,
-  "end": 29.021
- },
- {
-  "word": "to",
-  "start": 29.057,
-  "end": 29.129
- },
- {
-  "word": "sign",
-  "start": 29.19,
-  "end": 29.421
- },
- {
-  "word": "the",
-  "start": 29.457,
-  "end": 29.529
- },
- {
-  "word": "player",
-  "start": 29.553,
-  "end": 29.844
+  "start": 2.505,
+  "end": 3.184
  },
  {
   "word": "Lionel",
-  "start": 29.918,
-  "end": 30.172
- },
- {
-  "word": "Messi.",
-  "start": 30.233,
-  "end": 30.669
+  "start": 3.249,
+  "end": 3.597
  },
  {
   "word": "Messi",
-  "start": 30.705,
-  "end": 30.948
+  "start": 3.655,
+  "end": 3.946
  },
  {
   "word": "was",
-  "start": 30.996,
-  "end": 31.08
+  "start": 4.004,
+  "end": 4.12
  },
  {
-  "word": "thirteen.",
-  "start": 31.141,
-  "end": 31.65
+  "word": "a",
+  "start": 4.166,
+  "end": 4.19
+ },
+ {
+  "word": "small",
+  "start": 4.282,
+  "end": 4.607
+ },
+ {
+  "word": "kid",
+  "start": 4.689,
+  "end": 4.874
+ },
+ {
+  "word": "in",
+  "start": 4.898,
+  "end": 4.944
+ },
+ {
+  "word": "Rosario,",
+  "start": 4.991,
+  "end": 5.525
+ },
+ {
+  "word": "Argentina.",
+  "start": 5.559,
+  "end": 6.233
  },
  {
   "word": "He",
-  "start": 31.674,
-  "end": 31.723
+  "start": 6.256,
+  "end": 6.326
  },
  {
-  "word": "became",
-  "start": 31.759,
-  "end": 31.977
+  "word": "needed",
+  "start": 6.372,
+  "end": 6.57
  },
  {
-  "word": "Barcelona's",
-  "start": 32.002,
-  "end": 32.438
+  "word": "growth",
+  "start": 6.628,
+  "end": 6.883
  },
  {
-  "word": "all-time",
-  "start": 32.486,
-  "end": 32.826
+  "word": "hormone",
+  "start": 6.906,
+  "end": 7.22
  },
  {
-  "word": "top",
-  "start": 32.85,
-  "end": 32.996
+  "word": "treatment.",
+  "start": 7.243,
+  "end": 7.649
  },
  {
-  "word": "scorer.",
-  "start": 33.02,
-  "end": 33.444
+  "word": "Reportedly,",
+  "start": 7.684,
+  "end": 8.265
  },
  {
-  "word": "Then,",
-  "start": 33.468,
-  "end": 33.808
- },
- {
-  "word": "in",
-  "start": 33.832,
-  "end": 33.916
- },
- {
-  "word": "2021,",
-  "start": 33.953,
-  "end": 34.836
- },
- {
-  "word": "Barcelona",
-  "start": 34.841,
-  "end": 35.327
- },
- {
-  "word": "said",
-  "start": 35.399,
-  "end": 35.58
- },
- {
-  "word": "they",
-  "start": 35.617,
-  "end": 35.714
- },
- {
-  "word": "had",
-  "start": 35.751,
-  "end": 35.824
- },
- {
-  "word": "agreed",
-  "start": 35.859,
-  "end": 36.26
+  "word": "about",
+  "start": 8.288,
+  "end": 8.532
  },
  {
   "word": "a",
-  "start": 36.295,
-  "end": 36.32
- },
- {
-  "word": "new",
-  "start": 36.392,
-  "end": 36.502
- },
- {
-  "word": "contract",
-  "start": 36.563,
-  "end": 36.938
- },
- {
-  "word": "with",
-  "start": 36.962,
-  "end": 37.071
- },
- {
-  "word": "him.",
-  "start": 37.108,
-  "end": 37.326
- },
- {
-  "word": "But",
-  "start": 37.362,
-  "end": 37.459
- },
- {
-  "word": "under",
-  "start": 37.507,
-  "end": 37.641
- },
- {
-  "word": "LaLiga's",
-  "start": 37.701,
-  "end": 38.09
- },
- {
-  "word": "rules,",
-  "start": 38.162,
-  "end": 38.514
- },
- {
-  "word": "they",
-  "start": 38.538,
-  "end": 38.647
- },
- {
-  "word": "couldn't",
-  "start": 38.684,
-  "end": 38.877
- },
- {
-  "word": "afford",
-  "start": 38.902,
-  "end": 39.216
- },
- {
-  "word": "to",
-  "start": 39.241,
-  "end": 39.289
- },
- {
-  "word": "register",
-  "start": 39.374,
-  "end": 39.738
- },
- {
-  "word": "it.",
-  "start": 39.799,
-  "end": 39.896
- },
- {
-  "word": "Messi",
-  "start": 39.92,
-  "end": 40.138
- },
- {
-  "word": "left",
-  "start": 40.198,
-  "end": 40.38
- },
- {
-  "word": "in",
-  "start": 40.428,
-  "end": 40.477
- },
- {
-  "word": "tears.",
-  "start": 40.525,
-  "end": 41.01
- },
- {
-  "word": "Three",
-  "start": 40.994,
-  "end": 41.144
- },
- {
-  "word": "years",
-  "start": 41.181,
-  "end": 41.362
- },
- {
-  "word": "later,",
-  "start": 41.423,
-  "end": 41.738
- },
- {
-  "word": "that",
-  "start": 41.786,
-  "end": 41.956
- },
- {
-  "word": "napkin",
-  "start": 42.017,
-  "end": 42.319
- },
- {
-  "word": "sold",
-  "start": 42.404,
-  "end": 42.659
- },
- {
-  "word": "at",
-  "start": 42.695,
-  "end": 42.743
- },
- {
-  "word": "auction",
-  "start": 42.792,
-  "end": 43.095
- },
- {
-  "word": "for",
-  "start": 43.143,
-  "end": 43.24
- },
- {
-  "word": "seven",
-  "start": 43.313,
-  "end": 43.568
- },
- {
-  "word": "hundred",
-  "start": 43.604,
-  "end": 43.81
- },
- {
-  "word": "and",
-  "start": 43.834,
-  "end": 43.907
- },
- {
-  "word": "sixty-two",
-  "start": 43.955,
-  "end": 44.355
+  "start": 8.555,
+  "end": 8.578
  },
  {
   "word": "thousand",
-  "start": 44.428,
-  "end": 44.767
+  "start": 8.636,
+  "end": 8.95
  },
  {
-  "word": "pounds.",
-  "start": 44.828,
-  "end": 45.349
- },
- {
-  "word": "Almost",
-  "start": 45.341,
-  "end": 45.559
+  "word": "dollars",
+  "start": 8.984,
+  "end": 9.228
  },
  {
   "word": "a",
-  "start": 45.596,
-  "end": 45.62
+  "start": 9.251,
+  "end": 9.275
  },
  {
-  "word": "million",
-  "start": 45.754,
-  "end": 46.069
+  "word": "month.",
+  "start": 9.321,
+  "end": 9.623
  },
  {
-  "word": "dollars.",
-  "start": 46.129,
-  "end": 46.566
+  "word": "Newell's",
+  "start": 9.669,
+  "end": 9.971
  },
  {
-  "word": "Barcelona",
-  "start": 46.602,
-  "end": 46.99
+  "word": "Old",
+  "start": 10.006,
+  "end": 10.134
  },
  {
-  "word": "couldn't",
-  "start": 47.026,
-  "end": 47.22
+  "word": "Boys",
+  "start": 10.169,
+  "end": 10.389
+ },
+ {
+  "word": "and",
+  "start": 10.412,
+  "end": 10.482
+ },
+ {
+  "word": "River",
+  "start": 10.54,
+  "end": 10.714
+ },
+ {
+  "word": "Plate",
+  "start": 10.749,
+  "end": 10.946
+ },
+ {
+  "word": "both",
+  "start": 10.981,
+  "end": 11.225
+ },
+ {
+  "word": "wanted",
+  "start": 11.283,
+  "end": 11.55
+ },
+ {
+  "word": "him.",
+  "start": 11.585,
+  "end": 11.713
+ },
+ {
+  "word": "Neither",
+  "start": 11.736,
+  "end": 11.956
+ },
+ {
+  "word": "could",
+  "start": 12.003,
+  "end": 12.119
  },
  {
   "word": "afford",
-  "start": 47.244,
-  "end": 47.451
+  "start": 12.142,
+  "end": 12.398
+ },
+ {
+  "word": "it.",
+  "start": 12.432,
+  "end": 12.514
+ },
+ {
+  "word": "So",
+  "start": 12.537,
+  "end": 12.618
+ },
+ {
+  "word": "Messi",
+  "start": 12.676,
+  "end": 12.85
+ },
+ {
+  "word": "went",
+  "start": 12.885,
+  "end": 12.99
  },
  {
   "word": "to",
-  "start": 47.475,
-  "end": 47.523
+  "start": 13.013,
+  "end": 13.059
  },
  {
-  "word": "keep",
-  "start": 47.559,
-  "end": 47.657
+  "word": "Barcelona",
+  "start": 13.094,
+  "end": 13.547
  },
  {
-  "word": "Messi.",
-  "start": 47.705,
-  "end": 48.069
- },
- {
-  "word": "But",
-  "start": 48.093,
-  "end": 48.201
- },
- {
-  "word": "the",
-  "start": 48.227,
-  "end": 48.299
- },
- {
-  "word": "napkin",
-  "start": 48.384,
-  "end": 48.687
- },
- {
-  "word": "that",
-  "start": 48.723,
-  "end": 48.82
- },
- {
-  "word": "signed",
-  "start": 48.892,
-  "end": 49.16
- },
- {
-  "word": "him",
-  "start": 49.184,
-  "end": 49.256
- },
- {
-  "word": "was",
-  "start": 49.292,
-  "end": 49.378
- },
- {
-  "word": "worth",
-  "start": 49.426,
-  "end": 49.584
+  "word": "for",
+  "start": 13.582,
+  "end": 13.663
  },
  {
   "word": "a",
-  "start": 49.62,
-  "end": 49.644
+  "start": 13.71,
+  "end": 13.733
+ },
+ {
+  "word": "trial.",
+  "start": 13.779,
+  "end": 14.151
+ },
+ {
+  "word": "But",
+  "start": 14.174,
+  "end": 14.267
+ },
+ {
+  "word": "the",
+  "start": 14.29,
+  "end": 14.36
+ },
+ {
+  "word": "club",
+  "start": 14.395,
+  "end": 14.58
+ },
+ {
+  "word": "was",
+  "start": 14.638,
+  "end": 14.731
+ },
+ {
+  "word": "slow.",
+  "start": 14.789,
+  "end": 15.149
+ },
+ {
+  "word": "According",
+  "start": 15.172,
+  "end": 15.416
+ },
+ {
+  "word": "to",
+  "start": 15.451,
+  "end": 15.498
+ },
+ {
+  "word": "one",
+  "start": 15.556,
+  "end": 15.648
+ },
+ {
+  "word": "of",
+  "start": 15.672,
+  "end": 15.718
+ },
+ {
+  "word": "the",
+  "start": 15.741,
+  "end": 15.811
+ },
+ {
+  "word": "men",
+  "start": 15.857,
+  "end": 15.962
+ },
+ {
+  "word": "who",
+  "start": 15.985,
+  "end": 16.055
+ },
+ {
+  "word": "brought",
+  "start": 16.09,
+  "end": 16.252
+ },
+ {
+  "word": "him",
+  "start": 16.275,
+  "end": 16.345
+ },
+ {
+  "word": "there,",
+  "start": 16.38,
+  "end": 16.6
+ },
+ {
+  "word": "Barcelona",
+  "start": 16.647,
+  "end": 17.123
+ },
+ {
+  "word": "said",
+  "start": 17.181,
+  "end": 17.344
+ },
+ {
+  "word": "it",
+  "start": 17.367,
+  "end": 17.413
+ },
+ {
+  "word": "would",
+  "start": 17.436,
+  "end": 17.552
+ },
+ {
+  "word": "be",
+  "start": 17.576,
+  "end": 17.645
+ },
+ {
+  "word": "ten",
+  "start": 17.703,
+  "end": 17.901
+ },
+ {
+  "word": "or",
+  "start": 17.936,
+  "end": 17.982
+ },
+ {
+  "word": "twelve",
+  "start": 18.017,
+  "end": 18.249
+ },
+ {
+  "word": "years",
+  "start": 18.296,
+  "end": 18.586
+ },
+ {
+  "word": "before",
+  "start": 18.621,
+  "end": 18.795
+ },
+ {
+  "word": "they",
+  "start": 18.818,
+  "end": 18.911
+ },
+ {
+  "word": "saw",
+  "start": 18.957,
+  "end": 19.12
+ },
+ {
+  "word": "the",
+  "start": 19.178,
+  "end": 19.248
+ },
+ {
+  "word": "benefit.",
+  "start": 19.294,
+  "end": 19.782
+ },
+ {
+  "word": "His",
+  "start": 19.805,
+  "end": 19.921
+ },
+ {
+  "word": "father",
+  "start": 19.979,
+  "end": 20.258
+ },
+ {
+  "word": "was",
+  "start": 20.305,
+  "end": 20.386
+ },
+ {
+  "word": "reportedly",
+  "start": 20.432,
+  "end": 20.746
+ },
+ {
+  "word": "tired",
+  "start": 20.792,
+  "end": 21.106
+ },
+ {
+  "word": "of",
+  "start": 21.129,
+  "end": 21.175
+ },
+ {
+  "word": "waiting.",
+  "start": 21.245,
+  "end": 21.64
+ },
+ {
+  "word": "So",
+  "start": 21.663,
+  "end": 21.756
+ },
+ {
+  "word": "on",
+  "start": 21.814,
+  "end": 21.872
+ },
+ {
+  "word": "the",
+  "start": 21.907,
+  "end": 21.976
+ },
+ {
+  "word": "fourteenth",
+  "start": 22.0,
+  "end": 22.313
+ },
+ {
+  "word": "of",
+  "start": 22.336,
+  "end": 22.383
+ },
+ {
+  "word": "December,",
+  "start": 22.418,
+  "end": 22.777
+ },
+ {
+  "word": "Barcelona's",
+  "start": 22.824,
+  "end": 23.323
+ },
+ {
+  "word": "Carles",
+  "start": 23.393,
+  "end": 23.637
+ },
+ {
+  "word": "Rexach",
+  "start": 23.706,
+  "end": 24.078
+ },
+ {
+  "word": "sat",
+  "start": 24.124,
+  "end": 24.298
+ },
+ {
+  "word": "down",
+  "start": 24.345,
+  "end": 24.472
+ },
+ {
+  "word": "to",
+  "start": 24.496,
+  "end": 24.554
+ },
+ {
+  "word": "lunch",
+  "start": 24.612,
+  "end": 24.798
+ },
+ {
+  "word": "at",
+  "start": 24.821,
+  "end": 24.867
+ },
+ {
+  "word": "a",
+  "start": 24.902,
+  "end": 24.925
+ },
+ {
+  "word": "tennis",
+  "start": 24.96,
+  "end": 25.181
+ },
+ {
+  "word": "club",
+  "start": 25.216,
+  "end": 25.39
+ },
+ {
+  "word": "with",
+  "start": 25.436,
+  "end": 25.506
+ },
+ {
+  "word": "two",
+  "start": 25.524,
+  "end": 25.664
+ },
+ {
+  "word": "of",
+  "start": 25.722,
+  "end": 25.768
+ },
+ {
+  "word": "the",
+  "start": 25.815,
+  "end": 25.884
+ },
+ {
+  "word": "men",
+  "start": 25.942,
+  "end": 26.128
+ },
+ {
+  "word": "behind",
+  "start": 26.198,
+  "end": 26.442
+ },
+ {
+  "word": "the",
+  "start": 26.488,
+  "end": 26.558
+ },
+ {
+  "word": "move.",
+  "start": 26.604,
+  "end": 26.937
+ },
+ {
+  "word": "And",
+  "start": 26.957,
+  "end": 27.05
+ },
+ {
+  "word": "he",
+  "start": 27.096,
+  "end": 27.154
+ },
+ {
+  "word": "wrote",
+  "start": 27.213,
+  "end": 27.41
+ },
+ {
+  "word": "the",
+  "start": 27.433,
+  "end": 27.503
+ },
+ {
+  "word": "deal",
+  "start": 27.561,
+  "end": 27.758
+ },
+ {
+  "word": "on",
+  "start": 27.816,
+  "end": 27.874
+ },
+ {
+  "word": "a",
+  "start": 27.909,
+  "end": 27.932
+ },
+ {
+  "word": "paper",
+  "start": 27.99,
+  "end": 28.199
+ },
+ {
+  "word": "napkin.",
+  "start": 28.257,
+  "end": 28.722
+ },
+ {
+  "word": "He",
+  "start": 28.745,
+  "end": 28.838
+ },
+ {
+  "word": "agreed,",
+  "start": 28.896,
+  "end": 29.321
+ },
+ {
+  "word": "\"regardless",
+  "start": 29.321,
+  "end": 29.83
+ },
+ {
+  "word": "of",
+  "start": 29.853,
+  "end": 29.899
+ },
+ {
+  "word": "any",
+  "start": 29.969,
+  "end": 30.12
+ },
+ {
+  "word": "dissenting",
+  "start": 30.166,
+  "end": 30.503
+ },
+ {
+  "word": "opinions\",",
+  "start": 30.526,
+  "end": 30.991
+ },
+ {
+  "word": "to",
+  "start": 31.025,
+  "end": 31.118
+ },
+ {
+  "word": "sign",
+  "start": 31.211,
+  "end": 31.49
+ },
+ {
+  "word": "the",
+  "start": 31.525,
+  "end": 31.594
+ },
+ {
+  "word": "player",
+  "start": 31.629,
+  "end": 31.873
+ },
+ {
+  "word": "Lionel",
+  "start": 31.943,
+  "end": 32.256
+ },
+ {
+  "word": "Messi.",
+  "start": 32.302,
+  "end": 32.697
+ },
+ {
+  "word": "Messi",
+  "start": 32.755,
+  "end": 33.045
+ },
+ {
+  "word": "was",
+  "start": 33.104,
+  "end": 33.22
+ },
+ {
+  "word": "thirteen.",
+  "start": 33.289,
+  "end": 33.858
+ },
+ {
+  "word": "A",
+  "start": 33.881,
+  "end": 33.905
+ },
+ {
+  "word": "formal",
+  "start": 33.974,
+  "end": 34.206
+ },
+ {
+  "word": "contract",
+  "start": 34.253,
+  "end": 34.578
+ },
+ {
+  "word": "followed.",
+  "start": 34.624,
+  "end": 34.996
+ },
+ {
+  "word": "He",
+  "start": 35.019,
+  "end": 35.066
+ },
+ {
+  "word": "became",
+  "start": 35.124,
+  "end": 35.367
+ },
+ {
+  "word": "Barcelona's",
+  "start": 35.391,
+  "end": 35.878
+ },
+ {
+  "word": "all-time",
+  "start": 35.913,
+  "end": 36.296
+ },
+ {
+  "word": "top",
+  "start": 36.319,
+  "end": 36.482
+ },
+ {
+  "word": "scorer,",
+  "start": 36.517,
+  "end": 36.935
+ },
+ {
+  "word": "with",
+  "start": 36.958,
+  "end": 37.063
+ },
+ {
+  "word": "six",
+  "start": 37.109,
+  "end": 37.272
+ },
+ {
+  "word": "hundred",
+  "start": 37.306,
+  "end": 37.48
+ },
+ {
+  "word": "and",
+  "start": 37.504,
+  "end": 37.573
+ },
+ {
+  "word": "seventy-two",
+  "start": 37.608,
+  "end": 38.026
+ },
+ {
+  "word": "goals.",
+  "start": 38.107,
+  "end": 38.572
+ },
+ {
+  "word": "Then,",
+  "start": 38.595,
+  "end": 38.955
+ },
+ {
+  "word": "in",
+  "start": 39.001,
+  "end": 39.106
+ },
+ {
+  "word": "2021,",
+  "start": 39.141,
+  "end": 39.97
+ },
+ {
+  "word": "Barcelona",
+  "start": 39.987,
+  "end": 40.393
+ },
+ {
+  "word": "said",
+  "start": 40.44,
+  "end": 40.544
+ },
+ {
+  "word": "they",
+  "start": 40.567,
+  "end": 40.66
+ },
+ {
+  "word": "had",
+  "start": 40.683,
+  "end": 40.753
+ },
+ {
+  "word": "agreed",
+  "start": 40.776,
+  "end": 41.055
+ },
+ {
+  "word": "a",
+  "start": 41.078,
+  "end": 41.101
+ },
+ {
+  "word": "new",
+  "start": 41.183,
+  "end": 41.287
+ },
+ {
+  "word": "contract",
+  "start": 41.334,
+  "end": 41.67
+ },
+ {
+  "word": "with",
+  "start": 41.694,
+  "end": 41.798
+ },
+ {
+  "word": "him.",
+  "start": 41.833,
+  "end": 41.984
+ },
+ {
+  "word": "But",
+  "start": 42.019,
+  "end": 42.111
+ },
+ {
+  "word": "financial",
+  "start": 42.158,
+  "end": 42.634
+ },
+ {
+  "word": "and",
+  "start": 42.692,
+  "end": 42.785
+ },
+ {
+  "word": "structural",
+  "start": 42.855,
+  "end": 43.168
+ },
+ {
+  "word": "obstacles",
+  "start": 43.249,
+  "end": 43.667
+ },
+ {
+  "word": "stopped",
+  "start": 43.702,
+  "end": 44.039
+ },
+ {
+  "word": "it.",
+  "start": 44.085,
+  "end": 44.178
+ },
+ {
+  "word": "Messi",
+  "start": 44.201,
+  "end": 44.422
+ },
+ {
+  "word": "cried",
+  "start": 44.491,
+  "end": 44.782
+ },
+ {
+  "word": "at",
+  "start": 44.805,
+  "end": 44.851
+ },
+ {
+  "word": "his",
+  "start": 44.886,
+  "end": 44.956
+ },
+ {
+  "word": "goodbye.",
+  "start": 44.991,
+  "end": 45.513
+ },
+ {
+  "word": "He",
+  "start": 45.536,
+  "end": 45.583
+ },
+ {
+  "word": "said",
+  "start": 45.618,
+  "end": 45.722
+ },
+ {
+  "word": "he",
+  "start": 45.745,
+  "end": 45.792
+ },
+ {
+  "word": "was",
+  "start": 45.827,
+  "end": 45.908
+ },
+ {
+  "word": "not",
+  "start": 46.001,
+  "end": 46.186
+ },
+ {
+  "word": "ready",
+  "start": 46.244,
+  "end": 46.395
+ },
+ {
+  "word": "to",
+  "start": 46.442,
+  "end": 46.488
+ },
+ {
+  "word": "leave.",
+  "start": 46.558,
+  "end": 46.879
+ },
+ {
+  "word": "Three",
+  "start": 46.885,
+  "end": 47.048
+ },
+ {
+  "word": "years",
+  "start": 47.071,
+  "end": 47.21
+ },
+ {
+  "word": "later,",
+  "start": 47.268,
+  "end": 47.547
+ },
+ {
+  "word": "that",
+  "start": 47.57,
+  "end": 47.698
+ },
+ {
+  "word": "napkin",
+  "start": 47.756,
+  "end": 48.023
+ },
+ {
+  "word": "sold",
+  "start": 48.104,
+  "end": 48.336
+ },
+ {
+  "word": "at",
+  "start": 48.371,
+  "end": 48.417
+ },
+ {
+  "word": "auction",
+  "start": 48.452,
+  "end": 48.719
+ },
+ {
+  "word": "for",
+  "start": 48.766,
+  "end": 48.847
+ },
+ {
+  "word": "seven",
+  "start": 48.916,
+  "end": 49.125
+ },
+ {
+  "word": "hundred",
+  "start": 49.16,
+  "end": 49.346
+ },
+ {
+  "word": "and",
+  "start": 49.369,
+  "end": 49.439
+ },
+ {
+  "word": "sixty-two",
+  "start": 49.485,
+  "end": 49.868
+ },
+ {
+  "word": "thousand",
+  "start": 49.927,
+  "end": 50.194
+ },
+ {
+  "word": "pounds.",
+  "start": 50.24,
+  "end": 50.762
+ },
+ {
+  "word": "Almost",
+  "start": 50.786,
+  "end": 51.018
+ },
+ {
+  "word": "a",
+  "start": 51.064,
+  "end": 51.088
+ },
+ {
+  "word": "million",
+  "start": 51.227,
+  "end": 51.564
+ },
+ {
+  "word": "dollars.",
+  "start": 51.61,
+  "end": 52.028
+ },
+ {
+  "word": "Money",
+  "start": 52.086,
+  "end": 52.237
+ },
+ {
+  "word": "problems",
+  "start": 52.272,
+  "end": 52.585
+ },
+ {
+  "word": "pushed",
+  "start": 52.632,
+  "end": 52.829
+ },
+ {
+  "word": "Messi",
+  "start": 52.852,
+  "end": 53.061
+ },
+ {
+  "word": "out",
+  "start": 53.119,
+  "end": 53.247
+ },
+ {
+  "word": "of",
+  "start": 53.282,
+  "end": 53.328
+ },
+ {
+  "word": "Barcelona.",
+  "start": 53.375,
+  "end": 53.978
+ },
+ {
+  "word": "But",
+  "start": 54.002,
+  "end": 54.094
+ },
+ {
+  "word": "the",
+  "start": 54.118,
+  "end": 54.187
+ },
+ {
+  "word": "napkin",
+  "start": 54.28,
+  "end": 54.629
+ },
+ {
+  "word": "that",
+  "start": 54.663,
+  "end": 54.756
+ },
+ {
+  "word": "brought",
+  "start": 54.791,
+  "end": 54.965
+ },
+ {
+  "word": "him",
+  "start": 55.0,
+  "end": 55.081
+ },
+ {
+  "word": "in",
+  "start": 55.151,
+  "end": 55.232
+ },
+ {
+  "word": "was",
+  "start": 55.29,
+  "end": 55.406
+ },
+ {
+  "word": "worth",
+  "start": 55.476,
+  "end": 55.662
+ },
+ {
+  "word": "a",
+  "start": 55.697,
+  "end": 55.72
  },
  {
   "word": "fortune.",
-  "start": 49.692,
-  "end": 50.23
+  "start": 55.824,
+  "end": 56.262
  }
 ]

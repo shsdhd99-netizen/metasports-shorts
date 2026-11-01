@@ -2,217 +2,260 @@
  {
   "clip": "N01.mp4",
   "kind": "action",
-  "why": "The napkin itself, framed: Rexach's handwritten pledge to sign Messi (Bonhams video of the lot as aired by BBC Sportsday, 8 May 2024; archive.org TV News)",
+  "why": "Frame 1: RECREATION of the napkin (the real one is a licensed photo, not used); wording per NPR/90min",
   "start": 0.0
  },
  {
   "clip": "N02.mp4",
   "kind": "face",
-  "why": "Messi as a child, family photo (Informe Robinson, Canal+ Spain, 'Lionel Messi' episode; archive.org)",
+  "why": "Messi, Barcelona no. 10, 2009 Clasico (archive.org La Liga highlights); illustrative, not 2000",
   "anchor": "Back in",
-  "start": 2.59
+  "start": 2.14
  },
  {
   "clip": "N03.mp4",
   "kind": "action",
-  "why": "Rosario, Argentina: the National Flag Memorial (Informe Robinson)",
-  "anchor": "from Rosario",
-  "start": 4.61
+  "why": "Stock (Mixkit 6652): kids' football; illustrative, not Messi",
+  "anchor": "small kid",
+  "start": 4.25
  },
  {
   "clip": "N04.mp4",
   "kind": "action",
-  "why": "Stock: a syringe drawn from a vial, for the growth hormone treatment (Mixkit 47504; illustrative)",
+  "why": "Stock syringe (growth hormone line)",
   "anchor": "He needed",
-  "start": 6.21
+  "start": 6.23
  },
  {
   "clip": "N05.mp4",
   "kind": "action",
-  "why": "Stock: counting dollar bills, for 'about a thousand dollars a month' (Mixkit 18296; illustrative)",
-  "anchor": "About a thousand",
-  "start": 7.54
+  "why": "Stock: gloved hands with a vial (treatment)",
+  "anchor": "Reportedly",
+  "start": 7.65
  },
  {
   "clip": "N06.mp4",
   "kind": "action",
-  "why": "The Newell's Old Boys gate sign, Rosario (Informe Robinson)",
-  "anchor": "Newell's Old Boys",
-  "start": 9.01
+  "why": "Stock: bills through a counter ($1,000 a month)",
+  "anchor": "a thousand",
+  "start": 8.53
  },
  {
   "clip": "N07.mp4",
   "kind": "action",
-  "why": "Young Messi in Newell's red and black, home video (Informe Robinson)",
-  "anchor": "and River Plate",
-  "start": 10.03
+  "why": "Stock: fans behind a fence (the two Argentine clubs; illustrative)",
+  "anchor": "Newell's",
+  "start": 9.64
  },
  {
   "clip": "N08.mp4",
   "kind": "action",
-  "why": "Young Messi playing for Newell's, home video (Informe Robinson)",
-  "anchor": "Neither could",
-  "start": 11.49
+  "why": "Stock: stacks of cash (could not afford it)",
+  "anchor": "Neither",
+  "start": 11.71
  },
  {
   "clip": "N09.mp4",
-  "kind": "action",
-  "why": "Teenage Messi on the ball in a Barcelona youth game ('Young Lionel Messi at La Masia', archive.org; a little later than the 2000 trial: illustrative)",
-  "anchor": "to Barcelona for",
-  "start": 12.7
- },
- {
-  "clip": "N10.mp4",
-  "kind": "action",
-  "why": "Barcelona's training ground, the club's own pitches (Informe Robinson)",
-  "anchor": "But the club",
-  "start": 13.95
+  "kind": "face",
+  "why": "Messi dribbling for Barcelona, 2009 Clasico (illustrative)",
+  "anchor": "So Messi",
+  "start": 12.51
  },
  {
   "clip": "N11.mp4",
   "kind": "action",
-  "why": "Barcelona's youth training pitches, 'Camp no 3' sign (Informe Robinson)",
-  "anchor": "Some of them",
-  "start": 14.94
+  "why": "Stock: empty stadium (the slow club)",
+  "anchor": "But",
+  "start": 14.14
  },
  {
   "clip": "N12.mp4",
   "kind": "action",
-  "why": "Teenage Messi, number 15, in a Barcelona youth game ('Young Lionel Messi at La Masia', archive.org; illustrative)",
-  "anchor": "years before",
-  "start": 16.39
+  "why": "Stock: two people at a paper (men who brought him)",
+  "anchor": "According",
+  "start": 15.14
  },
  {
   "clip": "N13.mp4",
-  "kind": "action",
-  "why": "Stock: an alarm clock on dollar bills, for 'tired of waiting' (Mixkit 46979; illustrative)",
-  "anchor": "His father",
-  "start": 17.89
+  "kind": "face",
+  "why": "Messi celebrating in a Barcelona shirt, 2009 (illustrative)",
+  "anchor": "Barcelona said",
+  "start": 16.62
  },
  {
   "clip": "N14.mp4",
   "kind": "action",
-  "why": "The napkin's first line, 'En Barcelona a 14 de diciembre del 2000' (Bonhams video as aired by BBC News, 18 May 2024)",
-  "anchor": "So on the fourteenth",
-  "start": 19.27
+  "why": "Stock: aerial stadium (years of waiting)",
+  "anchor": "would be",
+  "start": 17.41
  },
  {
   "clip": "N15.mp4",
-  "kind": "face",
-  "why": "Carles Rexach, interviewed (Informe Robinson; name caption shown earlier in the same interview)",
-  "anchor": "Barcelona's sporting director",
-  "start": 20.56
+  "kind": "action",
+  "why": "Stock: lone figure on a path, aerial (waiting); illustrative",
+  "anchor": "His father",
+  "start": 19.77
  },
  {
   "clip": "N16.mp4",
-  "kind": "face",
-  "why": "Josep Maria Minguella, one of the two at the lunch (Informe Robinson; named by caption at 31.5 s of the same source)",
-  "anchor": "met two of",
-  "start": 22.68
+  "kind": "action",
+  "why": "Stock: restaurant (the lunch)",
+  "anchor": "So on",
+  "start": 21.63
  },
  {
   "clip": "N17.mp4",
   "kind": "action",
-  "why": "Tennis courts at the club shown by Informe Robinson in the napkin segment (illustrative for the tennis club lunch)",
-  "anchor": "for lunch at",
-  "start": 23.77
+  "why": "Stock: stadium (Barcelona; Rexach not shown, no footage)",
+  "anchor": "Barcelona's",
+  "start": 22.79
  },
  {
   "clip": "N18.mp4",
   "kind": "action",
-  "why": "The napkin close-up: 'Carles Rexach' in his own hand (Informe Robinson)",
-  "anchor": "And he wrote",
-  "start": 24.83
+  "why": "Stock: meal on a table",
+  "anchor": "sat down",
+  "start": 24.09
  },
  {
   "clip": "N19.mp4",
   "kind": "action",
-  "why": "The napkin's middle lines, 'a pesar de algunas opiniones en contra' (Bonhams video as aired by CNN, 18 May 2024; archive.org TV News)",
-  "anchor": "He agreed",
-  "start": 26.7
+  "why": "Stock: tennis player (the tennis club)",
+  "anchor": "tennis",
+  "start": 24.93
  },
  {
   "clip": "N20.mp4",
   "kind": "action",
-  "why": "The napkin: 'Lionel Messi' (Informe Robinson)",
-  "anchor": "to sign the",
-  "start": 29.03
+  "why": "Stock: hands over a paper at a table",
+  "anchor": "behind",
+  "start": 26.17
  },
  {
   "clip": "N21.mp4",
-  "kind": "face",
-  "why": "Young Messi with a ball in a Barcelona shirt (Getty Images photo as aired by BBC News, 1 Feb 2024)",
-  "anchor": "Messi was thirteen",
-  "start": 30.67
+  "kind": "action",
+  "why": "Stock: hand writing by lamp (he wrote the deal)",
+  "anchor": "And",
+  "start": 26.93
  },
  {
   "clip": "N22.mp4",
-  "kind": "face",
-  "why": "Messi celebrating at Camp Nou (BBC Sportsday, 8 Aug 2021)",
-  "anchor": "He became",
-  "start": 31.64
+  "kind": "action",
+  "why": "Recreation, key words circled (wording per NPR/90min)",
+  "anchor": "He agreed",
+  "start": 28.71
  },
  {
   "clip": "N23.mp4",
-  "kind": "action",
-  "why": "FC Barcelona's official statement of 5 Aug 2021 on screen (CNN Newsroom, 6 Aug 2021; archive.org TV News)",
-  "anchor": "Then, in",
-  "start": 33.44
+  "kind": "face",
+  "why": "Messi smiling with Eto'o, Barcelona, 2009 (illustrative)",
+  "anchor": "Lionel",
+  "start": 31.91
  },
  {
   "clip": "N24.mp4",
   "kind": "action",
-  "why": "Stock: a contract and pen, for 'agreed a new contract' (Mixkit 17049; illustrative)",
-  "anchor": "they had agreed",
-  "start": 35.59
+  "why": "Stock kids' football (Messi at thirteen; illustrative, not Messi)",
+  "anchor": "Messi was",
+  "start": 32.73
  },
  {
   "clip": "N25.mp4",
   "kind": "action",
-  "why": "Camp Nou's empty stands, 'Mes que un club' (BBC Sportsday, 8 Aug 2021)",
-  "anchor": "But under",
-  "start": 37.33
+  "why": "Stock: signing a paper (formal contract)",
+  "anchor": "A formal",
+  "start": 33.85
  },
  {
   "clip": "N26.mp4",
-  "kind": "face",
-  "why": "Messi in tears at his farewell press conference, 8 Aug 2021 (BBC News; archive.org TV News)",
-  "anchor": "Messi left in",
-  "start": 39.89
+  "kind": "action",
+  "why": "Messi dribbling, Barcelona (2009)",
+  "anchor": "He became",
+  "start": 34.99
  },
  {
   "clip": "N27.mp4",
-  "kind": "action",
-  "why": "The framed napkin on show at Bonhams, London, 'The World's Most Famous Napkin' (BBC News, 18 May 2024)",
-  "anchor": "Three years later",
-  "start": 40.96
+  "kind": "face",
+  "why": "Messi celebrates with his shirt over his face, Barcelona 2009 (illustrative)",
+  "anchor": "all-time",
+  "start": 35.88
  },
  {
   "clip": "N28.mp4",
-  "kind": "action",
-  "why": "A Bonhams handler holds up the framed napkin (BBC News, 18 May 2024). Words: £762,400 (NPR/AP, 17 May 2024)",
-  "anchor": "sold at auction",
-  "start": 42.37
+  "kind": "face",
+  "why": "Messi running with the ball, Barcelona 2009",
+  "anchor": "with six",
+  "start": 36.93
  },
  {
   "clip": "N29.mp4",
   "kind": "action",
-  "why": "The napkin in its case at Bonhams (BBC News, 18 May 2024). Words: about $968,600 (NPR, 17 May 2024)",
-  "anchor": "Almost a million",
-  "start": 45.31
+  "why": "Stock: fans behind a fence (2021; illustrative)",
+  "anchor": "Then",
+  "start": 38.56
  },
  {
   "clip": "N30.mp4",
-  "kind": "face",
-  "why": "Messi wipes his tears with a tissue, farewell press conference, 8 Aug 2021 (BBC News)",
-  "anchor": "Barcelona couldn't afford",
-  "start": 46.57
+  "kind": "action",
+  "why": "Stock: pen on paper and a gavel (agreement)",
+  "anchor": "Barcelona said",
+  "start": 39.96
  },
  {
   "clip": "N31.mp4",
   "kind": "action",
-  "why": "The napkin: 'Lionel Messi' in Rexach's hand (Bonhams video as aired by CNN, 18 May 2024)",
-  "anchor": "But the napkin",
-  "start": 48.06
+  "why": "Stock: piles of cash (financial obstacles)",
+  "anchor": "But financial",
+  "start": 41.99
+ },
+ {
+  "clip": "N32.mp4",
+  "kind": "face",
+  "why": "Messi in tears at the Aug 8 2021 farewell press conference (@footballontnt on X)",
+  "anchor": "Messi cried",
+  "start": 44.17
+ },
+ {
+  "clip": "N33.mp4",
+  "kind": "face",
+  "why": "Messi at the farewell press conference (same post)",
+  "anchor": "He said",
+  "start": 45.51
+ },
+ {
+  "clip": "N34.mp4",
+  "kind": "action",
+  "why": "Stock: gavel and a book (auction)",
+  "anchor": "Three years",
+  "start": 46.85
+ },
+ {
+  "clip": "N35.mp4",
+  "kind": "action",
+  "why": "Recreation with the sold price (NPR/Bonhams)",
+  "anchor": "for seven",
+  "start": 48.74
+ },
+ {
+  "clip": "N36.mp4",
+  "kind": "action",
+  "why": "Stock: hands counting bills (almost a million dollars)",
+  "anchor": "Almost",
+  "start": 50.76
+ },
+ {
+  "clip": "N37.mp4",
+  "kind": "face",
+  "why": "Messi head down at the press conference (same post)",
+  "anchor": "Money problems",
+  "start": 52.06
+ },
+ {
+  "clip": "N38.mp4",
+  "kind": "action",
+  "why": "Recreation again as the payoff picture",
+  "anchor": "But the",
+  "replay": true,
+  "start": 53.97
  }
 ]

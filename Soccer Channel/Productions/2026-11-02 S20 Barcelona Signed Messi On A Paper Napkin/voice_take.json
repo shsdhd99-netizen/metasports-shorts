@@ -1,37 +1,15 @@
 [
  {
   "take": 1,
-  "ok": false,
-  "score": -195.5,
-  "verdict": "REDO",
-  "issues": [
-   " 7.70s  script \"a thousand\" but heard \"1\"",
-   "41.80s  script \"7 100 and sixty 2 thousand pounds\" but heard \"762 000\""
-  ],
-  "wpm": 239,
-  "hnr": 8.0,
-  "jitter": 2.85,
-  "shimmer": 10.53,
-  "dur": 49.05,
-  "pitch_sd": 5.15,
-  "fixed": "fixed by sentence retake"
- },
- {
-  "take": 2,
-  "ok": false,
-  "score": -395.4,
-  "verdict": "REDO",
-  "issues": [
-   " 7.92s  script \"a thousand\" but heard \"1\"",
-   " 8.12s  script \"\" but heard \"000\"",
-   " 9.16s  script \"newell's\" but heard \"nules\"",
-   "42.72s  script \"7 100 and sixty 2 thousand pounds\" but heard \"762 000\""
-  ],
-  "wpm": 233,
-  "hnr": 8.2,
-  "jitter": 2.92,
-  "shimmer": 10.95,
-  "dur": 50.18,
-  "pitch_sd": 5.23
+  "ok": true,
+  "score": 4.9,
+  "verdict": "CHECK",
+  "issues": [],
+  "wpm": 234,
+  "hnr": 8.4,
+  "jitter": 2.83,
+  "shimmer": 10.63,
+  "dur": 57.65,
+  "pitch_sd": 5.35
  }
 ]

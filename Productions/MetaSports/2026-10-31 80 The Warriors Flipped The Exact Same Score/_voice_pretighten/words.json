@@ -1,0 +1,477 @@
+[
+ {
+  "word": "The",
+  "start": 0.0,
+  "end": 0.128
+ },
+ {
+  "word": "Lakers",
+  "start": 0.186,
+  "end": 0.464
+ },
+ {
+  "word": "led",
+  "start": 0.499,
+  "end": 0.615
+ },
+ {
+  "word": "by",
+  "start": 0.65,
+  "end": 0.743
+ },
+ {
+  "word": "23",
+  "start": 0.824,
+  "end": 1.3
+ },
+ {
+  "word": "after",
+  "start": 1.37,
+  "end": 1.591
+ },
+ {
+  "word": "one",
+  "start": 1.66,
+  "end": 1.962
+ },
+ {
+  "word": "and",
+  "start": 1.985,
+  "end": 2.09
+ },
+ {
+  "word": "lost",
+  "start": 2.159,
+  "end": 2.392
+ },
+ {
+  "word": "by",
+  "start": 2.426,
+  "end": 2.531
+ },
+ {
+  "word": "17.",
+  "start": 2.612,
+  "end": 3.367
+ },
+ {
+  "word": "Luka",
+  "start": 3.506,
+  "end": 3.773
+ },
+ {
+  "word": "had",
+  "start": 3.82,
+  "end": 3.913
+ },
+ {
+  "word": "21",
+  "start": 3.959,
+  "end": 4.272
+ },
+ {
+  "word": "points",
+  "start": 4.365,
+  "end": 4.598
+ },
+ {
+  "word": "in",
+  "start": 4.621,
+  "end": 4.667
+ },
+ {
+  "word": "that",
+  "start": 4.69,
+  "end": 4.795
+ },
+ {
+  "word": "quarter",
+  "start": 4.853,
+  "end": 5.097
+ },
+ {
+  "word": "alone.",
+  "start": 5.143,
+  "end": 5.538
+ },
+ {
+  "word": "Then",
+  "start": 5.561,
+  "end": 5.666
+ },
+ {
+  "word": "the",
+  "start": 5.7,
+  "end": 5.77
+ },
+ {
+  "word": "second",
+  "start": 5.817,
+  "end": 6.037
+ },
+ {
+  "word": "quarter",
+  "start": 6.084,
+  "end": 6.304
+ },
+ {
+  "word": "ended",
+  "start": 6.362,
+  "end": 6.548
+ },
+ {
+  "word": "38",
+  "start": 6.594,
+  "end": 7.001
+ },
+ {
+  "word": "to",
+  "start": 7.024,
+  "end": 7.07
+ },
+ {
+  "word": "15.",
+  "start": 7.129,
+  "end": 7.674
+ },
+ {
+  "word": "For",
+  "start": 7.697,
+  "end": 7.825
+ },
+ {
+  "word": "Golden",
+  "start": 7.872,
+  "end": 8.139
+ },
+ {
+  "word": "State.",
+  "start": 8.197,
+  "end": 8.568
+ },
+ {
+  "word": "The",
+  "start": 8.591,
+  "end": 8.684
+ },
+ {
+  "word": "exact",
+  "start": 8.742,
+  "end": 9.114
+ },
+ {
+  "word": "same",
+  "start": 9.16,
+  "end": 9.369
+ },
+ {
+  "word": "score,",
+  "start": 9.404,
+  "end": 9.822
+ },
+ {
+  "word": "flipped.",
+  "start": 9.903,
+  "end": 10.344
+ },
+ {
+  "word": "It",
+  "start": 10.368,
+  "end": 10.472
+ },
+ {
+  "word": "was",
+  "start": 10.507,
+  "end": 10.588
+ },
+ {
+  "word": "53",
+  "start": 10.67,
+  "end": 11.099
+ },
+ {
+  "word": "to",
+  "start": 11.169,
+  "end": 11.215
+ },
+ {
+  "word": "53",
+  "start": 11.296,
+  "end": 11.796
+ },
+ {
+  "word": "at",
+  "start": 11.854,
+  "end": 11.923
+ },
+ {
+  "word": "halftime.",
+  "start": 11.993,
+  "end": 12.539
+ },
+ {
+  "word": "No",
+  "start": 12.562,
+  "end": 12.701
+ },
+ {
+  "word": "team",
+  "start": 12.771,
+  "end": 13.015
+ },
+ {
+  "word": "in",
+  "start": 13.061,
+  "end": 13.108
+ },
+ {
+  "word": "the",
+  "start": 13.142,
+  "end": 13.212
+ },
+ {
+  "word": "shot",
+  "start": 13.259,
+  "end": 13.468
+ },
+ {
+  "word": "clock",
+  "start": 13.491,
+  "end": 13.689
+ },
+ {
+  "word": "era",
+  "start": 13.77,
+  "end": 14.014
+ },
+ {
+  "word": "had",
+  "start": 14.06,
+  "end": 14.153
+ },
+ {
+  "word": "trailed",
+  "start": 14.188,
+  "end": 14.513
+ },
+ {
+  "word": "by",
+  "start": 14.536,
+  "end": 14.617
+ },
+ {
+  "word": "23",
+  "start": 14.699,
+  "end": 15.105
+ },
+ {
+  "word": "or",
+  "start": 15.163,
+  "end": 15.221
+ },
+ {
+  "word": "more",
+  "start": 15.279,
+  "end": 15.418
+ },
+ {
+  "word": "after",
+  "start": 15.442,
+  "end": 15.616
+ },
+ {
+  "word": "one",
+  "start": 15.697,
+  "end": 15.941
+ },
+ {
+  "word": "and",
+  "start": 15.976,
+  "end": 16.057
+ },
+ {
+  "word": "been",
+  "start": 16.092,
+  "end": 16.208
+ },
+ {
+  "word": "tied",
+  "start": 16.254,
+  "end": 16.568
+ },
+ {
+  "word": "or",
+  "start": 16.591,
+  "end": 16.661
+ },
+ {
+  "word": "better",
+  "start": 16.707,
+  "end": 16.893
+ },
+ {
+  "word": "by",
+  "start": 16.939,
+  "end": 17.021
+ },
+ {
+  "word": "halftime.",
+  "start": 17.09,
+  "end": 17.601
+ },
+ {
+  "word": "Luka",
+  "start": 17.624,
+  "end": 17.891
+ },
+ {
+  "word": "still",
+  "start": 17.949,
+  "end": 18.1
+ },
+ {
+  "word": "finished",
+  "start": 18.135,
+  "end": 18.333
+ },
+ {
+  "word": "with",
+  "start": 18.356,
+  "end": 18.449
+ },
+ {
+  "word": "37.",
+  "start": 18.495,
+  "end": 19.099
+ },
+ {
+  "word": "Curry",
+  "start": 19.134,
+  "end": 19.354
+ },
+ {
+  "word": "passed",
+  "start": 19.401,
+  "end": 19.621
+ },
+ {
+  "word": "Dominique",
+  "start": 19.645,
+  "end": 19.97
+ },
+ {
+  "word": "Wilkins",
+  "start": 19.993,
+  "end": 20.329
+ },
+ {
+  "word": "on",
+  "start": 20.364,
+  "end": 20.411
+ },
+ {
+  "word": "the",
+  "start": 20.434,
+  "end": 20.504
+ },
+ {
+  "word": "all-time",
+  "start": 20.55,
+  "end": 20.933
+ },
+ {
+  "word": "list.",
+  "start": 20.991,
+  "end": 21.351
+ },
+ {
+  "word": "And",
+  "start": 21.374,
+  "end": 21.467
+ },
+ {
+  "word": "no",
+  "start": 21.537,
+  "end": 21.665
+ },
+ {
+  "word": "team",
+  "start": 21.746,
+  "end": 21.92
+ },
+ {
+  "word": "down",
+  "start": 21.966,
+  "end": 22.117
+ },
+ {
+  "word": "20",
+  "start": 22.175,
+  "end": 22.35
+ },
+ {
+  "word": "or",
+  "start": 22.384,
+  "end": 22.431
+ },
+ {
+  "word": "more",
+  "start": 22.477,
+  "end": 22.64
+ },
+ {
+  "word": "after",
+  "start": 22.663,
+  "end": 22.849
+ },
+ {
+  "word": "one",
+  "start": 22.93,
+  "end": 23.127
+ },
+ {
+  "word": "has",
+  "start": 23.151,
+  "end": 23.244
+ },
+ {
+  "word": "won",
+  "start": 23.302,
+  "end": 23.453
+ },
+ {
+  "word": "by",
+  "start": 23.511,
+  "end": 23.604
+ },
+ {
+  "word": "more",
+  "start": 23.685,
+  "end": 23.929
+ },
+ {
+  "word": "in",
+  "start": 23.952,
+  "end": 23.998
+ },
+ {
+  "word": "the",
+  "start": 24.033,
+  "end": 24.103
+ },
+ {
+  "word": "shot",
+  "start": 24.138,
+  "end": 24.323
+ },
+ {
+  "word": "clock",
+  "start": 24.347,
+  "end": 24.544
+ },
+ {
+  "word": "era.",
+  "start": 24.637,
+  "end": 25.264
+ }
+]

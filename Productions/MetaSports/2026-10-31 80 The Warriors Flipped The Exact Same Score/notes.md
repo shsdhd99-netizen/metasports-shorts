@@ -1,4 +1,4 @@
-# #80 The Warriors flipped the exact same score (same-day news, number gap) - SCRIPT ONLY, NOT RENDERED
+# #80 The Warriors flipped the exact same score (same-day news, number gap) - BUILT Oct 31 (voice + render + QA PASS)
 
 Made by the NBA daily run, Sat Oct 31, 2026 (10:45 UTC). **Blocked:** `ELEVENLABS_API_KEY` is not in this session's environment
 (`cloud_setup.sh`: `key: MISSING`), so no voice, render or QA. No voice faked. No analytics tokens either (YT_* missing).
@@ -40,3 +40,31 @@ Script line check: every number above; "the shot clock era" kept on both record 
 
 ## Open checks before voicing
 - Confirm the Wilkins pass happened in this game in a second source (NBA.com or Warriors PR) if one is up.
+
+
+## Build log (Oct 31, 2026, build agent)
+Script v2 (original kept in `_script_v0_original.txt`): line 1 is now 11 words ("The Lakers led by 23 after one and lost by 17."), 25.2 s, 465 characters of voice (one take, HNR 8.1). Added "53 to 53 at halftime"; "tied or better" kept from AP; payoff last (the 20-or-more, shot clock era record line).
+Wilkins pass: still one source (AP on ESPN). Kept, attributed nowhere in speech; if a second source shows otherwise, cut that line with word_edit.py.
+
+### Claims table (all re-checked Oct 31 against ESPN summary API event 401909285 and the AP recap on ESPN)
+| Line | Source | Exact words / data |
+|---|---|---|
+| "Lakers led by 23 after one" | ESPN linescore | LAL 38, GSW 15 after Q1 (38-15 = 23) |
+| "lost by 17" | ESPN final | Warriors 112, Lakers 95 |
+| "Luka had 21 points in that quarter alone" | AP recap | "Doncic had 21 points on 7 for 12 shooting with five 3-pointers, five assists and a pair of steals through the first quarter as the Lakers raced ahead 38-15." |
+| "second quarter ended 38 to 15, for Golden State" | ESPN linescore + AP | GSW 15-38-32-27; "outscored the Lakers by the same 38-15 score in the second" |
+| "53 to 53 at halftime" | ESPN linescore | GSW 15+38 = 53; LAL 38+15 = 53 |
+| "No team in the shot clock era had trailed by 23 or more after one and been tied or better by halftime" | AP recap | "the first team in the shot clock era - including playoffs - to trail by 23 or more points at the end of the first quarter and be tied or better at halftime." |
+| "Luka still finished with 37" | AP + box score | "Doncic had 37 points, seven rebounds and five assists" (12-27 FG) |
+| "Curry passed Dominique Wilkins on the all-time list" | AP recap (single source) | "In the fourth, Curry passed Dominique Wilkins (26,668) for 18th place on the NBA's all-time scoring list." Overlay says "18TH / ALL-TIME SCORING" |
+| "no team down 20 or more after one has won by more in the shot clock era" | AP recap | "the largest margin of victory in the shot clock era for a team that trailed by 20 or more points at end of the first quarter" (previous best: Warriors over Bulls, Mar 4 1976, by 14) |
+Overlays: "38-15 LAKERS AFTER ONE", "21 PTS", "38-15 WARRIORS IN Q2", "Q1/Q2 38-15", "53-53 HALFTIME", "FIRST EVER / SHOT CLOCK ERA" (AP qualifier kept in the sub-label), "37 PTS", "18TH", "WON BY 17" (112-95).
+
+### Footage (ESPN public clip API, 1080p60, all game 401909285; src/ is git-ignored)
+50333448 recap (86 s), 50332790 Luka and-1, 50332985 Curry shimmy, 50333380 Curry clinic. Illustrative, flagged: H02/H07 Luka close-ups and H06 are Q1/Q3 footage under lines about Q1/Q3 totals; H05 is the crowd reacting at the end of the first half (bug 53-50 with 5.5 s left; not a proof shot of the tie, the 53-53 is the overlay and the linescore); H03/H08 Curry shimmy is a Q2 clip (bug 40-25 at start).
+Audio: limiter added after the render (decoded peak was 1.1); final -14.2 LUFS.
+
+### Not done
+Real-audio version: ESPN clips do carry live calls (shimmy clip: "Ten unanswered points by Golden State." 0-3 s, "His third triple of the ballgame" about 12 s, "Boys!" about 17 s), but none lines up with a script beat without re-cutting narration. Left for a follow-up if wanted (nat_sound.py recipe).
+Gemini pre-check said FIX ("narrator says The Mavericks", tier S). A local speech-to-text pass on the export reads "The Lakers led by 23 after 1 and lost by 17" and the whole script correctly, so the FIX is a false positive.
+Credits: 465 characters (one take). Before: 36,452 used; ceiling check passed (84,772 left minus 66,500 reserve).

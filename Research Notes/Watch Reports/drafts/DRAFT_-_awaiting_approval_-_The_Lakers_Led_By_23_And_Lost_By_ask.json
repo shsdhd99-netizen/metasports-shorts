@@ -1,0 +1,11 @@
+{
+ "question": "You are checking this YouTube Short before it is posted. Watch and listen to all of it. Report only problems you\nactually see or hear, with timestamps. 1) Voice: any word mispronounced, slurred, cut off or repeated; any glitch or robotic\nartifact. 2) Captions: any caption that does not match the words spoken, or is misspelled. 3) Sound: music or sound effects too\nloud over the voice; any jump in loudness. 4) Picture: any frozen, flashing or black frame; any 2+ seconds where nothing new\nhappens. 5) Mismatch: anything on screen that contradicts what the voice says (wrong player, team or number). 6) Is it clear\nwithin the first second what the Short is about? Write 'none' for a category with no problems. End with one line:\nVERDICT: READY or VERDICT: FIX (what).",
+ "answer": "Here is the quality check breakdown for this Short:\n\n1) **Voice:** none\n2) **Captions:** At 00:00, the caption reads \"THE LAKERS\", but the narrator says \"The Mavericks\".\n3) **Sound:** none\n4) **Picture:** none\n5) **Mismatch:** At 00:00–00:02 and 00:08, on-screen text graphics display \"LAKERS\" (and \"LAKERS AFTER ONE\"), which contradicts the voiceover stating \"The Mavericks\".\n6) **Is it clear within the first second what the Short is about?** Yes, it immediately hooks the viewer with a wild NBA score comeback stat.\n\nVERDICT: FIX (Correct the caption and on-screen graphics at 00:00–00:08 from \"Lakers\" to \"Mavericks\" to match the spoken audio).",
+ "_meta": {
+  "source": "Productions/MetaSports/2026-10-31 80 The Warriors Flipped The Exact Same Score/DRAFT - awaiting approval - The Lakers Led By 23 And Lost By 17 (no music).mp4",
+  "model": "gemini-3.6-flash",
+  "fps": 4.0,
+  "watched": "2026-10-31",
+  "tier": "[S] model-observed, not measured"
+ }
+}

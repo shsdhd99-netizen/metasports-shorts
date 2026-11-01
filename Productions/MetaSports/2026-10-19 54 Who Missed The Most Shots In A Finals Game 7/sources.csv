@@ -1,0 +1,12 @@
+clip,kind,used_at_s,used_for_line,what_it_shows,source_url,source_account,source_date,source_in_s,source_out_s,crop,match_score,licence_risk,verified,verified_on,notes
+S1.mp4,,,,,src\g7_extended.mp4,,,237.6,239.3,x 0.0 zoom 1.0 y 0.5,,,,, | source 1280x720
+S2.mp4,,,,,src\g7_extended.mp4,,,95.5,97.2,x 0.0 zoom 1.0 y 0.5,,,,, | source 1280x720
+S3.mp4,,,,,src\g7_extended.mp4,,,1488.0,1489.0,x 1.0 zoom 1.0 y 0.5,,,,, | source 1280x720
+S4.mp4,,,,,src\g7_extended.mp4,,,2625.0,2627.1,x 0.0 zoom 1.0 y 0.5,,,,, | source 1280x720
+S5.mp4,,,,,src\g7_extended.mp4,,,1222.2,1223.5,x 0.0 zoom 1.0 y 0.5,,,,, | source 1280x720
+S6.mp4,,,,,src\g7_extended.mp4,,,2610.7,2613.4,x 0.0 zoom 1.0 y 0.5,,,,, | source 1280x720
+S7.mp4,,,,,src\g7_extended.mp4,,,2580.9,2582.4,x 0.0 zoom 1.0 y 0.5,,,,, | source 1280x720
+S8.mp4,,,,,src\g7_extended.mp4,,,322.6,324.1,x 0.0 zoom 1.0 y 0.5,,,,, | source 1280x720
+S9.mp4,,,,,src\g7_extended.mp4,,,1886.6,1888.0,x 0.0 zoom 1.0 y 0.5,,,,, | source 1280x720
+S10.mp4,,,,,src\g7_extended.mp4,,,2504.8,2506.3,x 0.0 zoom 1.0 y 0.5,,,,, | source 1280x720
+S11.mp4,,,,,src\g7_extended.mp4,,,2637.6,2638.8,x 0.0 zoom 1.0 y 0.5,,,,, | source 1280x720
