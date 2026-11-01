@@ -7,6 +7,16 @@ The owner asked for a full review: "everything is up for debate". These rules re
 - **Sources** (in `Research Notes/`, all dated Oct 26, 2026): *Retention Upgrade* = `Retention and Editing Upgrade`; *Posting Study*; *Similar Channels*; *Why NBA Views Dropped*; *Rules Review*.
 - Every change, old rule to new: `Research Notes/Rule Changes Applied (Oct 26, 2026).md`.
 
+### 0. Full Review (Nov 1, 2026): what the review changed, and what it did not
+Source: `Research Notes/Full Review for Retention (Nov 2026).md` (tiers as above; n is small everywhere, read the tier).
+- **Premise and the first 1-3 s decide the Short, not the edit.** 15 of 16 of our Shorts with API curves have their steepest drop in the first 4 s, mostly not at a cut [V]. Inside six competitor channels the better and worse halves edit alike [S, n=128].
+- **NBA moment: voice 22 s or less** (QA warns past 24 s): median 10.0K vs 3.1K public views, n=8 vs 16 [V small]. Line 1 of 11 words or fewer: 8.0K vs 3.4K, n=18 vs 6 [V small].
+- **FC:** goalkeeper + odd device in a famous shootout is the only proven premise (4 of 4 at 15-30K; 0 of 8 others above 3.2K) [V n=12]. Voice 226-233 wpm is right (Ahmed's Goal 230) [S]. Open title-first stays the default; the next two goalkeeper Shorts test an action-first opener [H].
+- **Stop:** decorative SFX (one only for a visible event), punch-in zooms, freeze frames, arrows, emoji, colouring function words. [S] CoachClank's three biggest Shorts: plain white small captions, no SFX; competitors' median SFX per 10 s is 0.
+- **Picture:** footage big and moving from frame 1, no black fill, `edit_lint` flags fixed (it runs inside `qa_short`).
+- **Tools (opt-in, default unchanged):** `assemble.py --caption-style clank`, `--color-rule word|none`, `broll.py --fill-brightness`. A/B plan: 2 Shorts per channel each, decide after 8 [H].
+- **Hygiene:** time-free wording in line 1; one number on screen at a time; claim words (still/record/first/never/only/most) each get a dated source row.
+
 ### Owner rules (unchanged; never relax them)
 - Never post, schedule or upload anything. Every output is a DRAFT. The owner posts.
 - No cards. If one is truly unavoidable: 1.5 s at most, never in the first 4 s.

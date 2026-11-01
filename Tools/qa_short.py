@@ -365,6 +365,10 @@ def main():
                            capture_output=True, text=True, encoding="utf-8", errors="replace")
         lint = [l.strip()[5:].strip() for l in r.stdout.splitlines() if l.strip().startswith("FLAG")]
         soft(not lint, "edit_lint clean", f"edit_lint: {'; '.join(x[:140] for x in lint)}")
+    # 5. Absolute claims go stale ([V] #74 "still the record" was false; S18 knee slide). List them so each gets a dated source row in notes.md.
+    text_all = " ".join(w["word"] for w in words)
+    cw = sorted({m.lower() for m in re.findall(r"(still|record|ever|never|only|first|most|longest|youngest|oldest|every)", text_all, re.I)})
+    soft(not cw, "no absolute-claim words", f"absolute-claim words {cw}: each needs a source row in notes.md checked on the posting day (a 'still the record' line was false once)")
     if a.full:  # Oct 15: the footage and export checks (Library/Editing and Sound Standards.md section 6)
         sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
         import footage_qc, export_check

@@ -70,7 +70,7 @@ def main():
                 msg = run(cmd)
             else:
                 cmd = [py, os.path.join(HERE, "broll.py"), "cut", srcs[s["src"]], "--at", str(s["at"]), "--len", str(s["len"]), "--out", out]
-                for k in ("x", "y", "zoom", "delogo", "blurfit_width", "blurfit_aspect", "speed"):
+                for k in ("x", "y", "zoom", "delogo", "blurfit_width", "blurfit_aspect", "speed", "fill_brightness"):
                     if k in s:
                         cmd += [f"--{k.replace('_', '-')}", str(s[k])]
                 for k in ("blurfit", "flip"):

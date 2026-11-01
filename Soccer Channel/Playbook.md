@@ -8,6 +8,8 @@
 - **Queue order:** S19 Rulli, England's penalty subs, Ricardo's gloves, Goycochea, Kepa; one fan/kid test; S20 after; S09 held.
 - **Still guesses [H]:** whether the 4 hits are topic or timing; whether music helps. Judge after the next 3 goalkeeper Shorts.
 
+**Full Review (Nov 1, 2026), `Research Notes/Full Review for Retention (Nov 2026).md`:** S17 (a plain goalkeeper subbed on for penalties, no trick) reached 17K at 2 days, so the hit is goalkeepers in a famous shootout, not only a trick: 4 of 4 at 15-30K vs 0 of 8 others above 3.2K [V n=12]. Voice 226-233 wpm is right (Ahmed's Goal 230 wpm) [S]. No decorative SFX; quiet captions and `--color-rule word` are an A/B (2 Shorts), default unchanged. The next two goalkeeper Shorts test an action-first opener (title as on-screen text, first story sentence spoken over the action) against the title-first control [H]: the sharp dip at 2-3% of runtime is where the spoken title ends, but Ahmed's Goal also opens title-first in 26 of 36.
+
 # Soccer channel playbook (Oct 21, 2026; rules updated in the Oct 26 overnight review)
 
 **How to make a Short:** the step-by-step lives in the skill, `.claude/skills/story-short/SKILL.md`, so one copy stays current. The format itself, with evidence, is in `.claude/skills/story-short/FORMAT.md`.
