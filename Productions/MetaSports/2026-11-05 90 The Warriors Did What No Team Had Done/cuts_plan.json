@@ -1,0 +1,142 @@
+{
+ "sources": {
+  "R": "src/recap.mp4",
+  "L": "src/luka_and1.mp4",
+  "S": "src/curry_shimmy.mp4",
+  "C": "src/curry_clinic.mp4"
+ },
+ "promise": [
+  "shot",
+  "clock"
+ ],
+ "shots": [
+  {
+   "clip": "B01",
+   "src": "R",
+   "at": 10.5,
+   "kind": "action",
+   "why": "ESPN recap, Q1: scorebug LAL 31, GSW 14 (Lakers way up)",
+   "blurfit": true,
+   "blurfit_width": 1.0
+  },
+  {
+   "clip": "B02",
+   "src": "R",
+   "at": 17.4,
+   "kind": "face",
+   "why": "Luka celebrates, bug LAL 34 GSW 14 (Q1)",
+   "blurfit": true,
+   "blurfit_width": 1.0,
+   "anchor": "Down"
+  },
+  {
+   "clip": "B03",
+   "src": "R",
+   "at": 27.9,
+   "kind": "face",
+   "why": "Q2, bug 42-33: the Warriors closing",
+   "blurfit": true,
+   "blurfit_width": 1.0,
+   "anchor": "they were"
+  },
+  {
+   "clip": "B04",
+   "src": "L",
+   "at": 13.5,
+   "kind": "action",
+   "why": "Luka and-1 in Q1 (ESPN clip 50332790)",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "The Lakers",
+   "overlay": [
+    {
+     "text": "38-15",
+     "size": 110,
+     "color": "white",
+     "y": 300,
+     "start": 0.0,
+     "end": 1.6
+    }
+   ]
+  },
+  {
+   "clip": "B05",
+   "src": "S",
+   "at": 11.9,
+   "kind": "action",
+   "why": "Curry three in Q2, bench erupts (ESPN clip 50332985)",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "Golden State won",
+   "overlay": [
+    {
+     "text": "38-15",
+     "size": 110,
+     "color": "orange",
+     "y": 300,
+     "start": 0.0,
+     "end": 1.6
+    }
+   ]
+  },
+  {
+   "clip": "B06",
+   "src": "S",
+   "at": 11.9,
+   "kind": "face",
+   "why": "replay of the Curry three, half speed, closer",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "The exact",
+   "speed": 0.5,
+   "zoom": 1.3,
+   "replay": true
+  },
+  {
+   "clip": "B07",
+   "src": "R",
+   "at": 38.4,
+   "kind": "action",
+   "why": "end of first half, 53-50 on the bug, fans erupt",
+   "blurfit": true,
+   "anchor": "Fifty-three",
+   "overlay": [
+    {
+     "text": "53-53",
+     "size": 110,
+     "color": "white",
+     "y": 300,
+     "start": 0.0,
+     "end": 1.6
+    }
+   ],
+   "blurfit_width": 1.0
+  },
+  {
+   "clip": "B08",
+   "src": "C",
+   "at": 13.0,
+   "kind": "action",
+   "why": "Q4, Warriors pull away (ESPN clip 50333380)",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "Then Golden"
+  },
+  {
+   "clip": "B09",
+   "src": "R",
+   "at": 48.8,
+   "kind": "face",
+   "why": "Luka frustrated, Q3 (ESPN recap)",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "The team that",
+   "speed": 0.45
+  }
+ ]
+}

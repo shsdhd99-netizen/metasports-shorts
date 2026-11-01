@@ -1,0 +1,42 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Montserrat Black,86,&H00FFFFFF,&H00FFFFFF,&H00000000,&H99000000,0,0,0,0,95,100,1,0,1,6,3,5,70,70,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.53,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE WARRIORS
+Dialogue: 0,0:00:00.53,0:00:00.98,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}DID SOMETHING
+Dialogue: 0,0:00:00.98,0:00:01.38,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NO TEAM
+Dialogue: 0,0:00:01.38,0:00:01.73,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HAD DONE
+Dialogue: 0,0:00:01.73,0:00:02.08,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN THE SHOT
+Dialogue: 0,0:00:02.08,0:00:02.76,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}CLOCK ERA.
+Dialogue: 0,0:00:02.76,0:00:03.51,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx74\fscy74\t(0,90,\fscx86\fscy86)}DOWN {\c&H0040E33A&}TWENTY-THREE{\c&H00FFFFFF&}
+Dialogue: 0,0:00:03.51,0:00:04.21,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx78\fscy78\t(0,90,\fscx91\fscy91)}AFTER ONE QUARTER,
+Dialogue: 0,0:00:04.21,0:00:04.68,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THEY WERE TIED
+Dialogue: 0,0:00:04.68,0:00:05.42,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BY HALFTIME.
+Dialogue: 0,0:00:05.42,0:00:05.83,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE LAKERS
+Dialogue: 0,0:00:05.83,0:00:06.29,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WON THE FIRST
+Dialogue: 0,0:00:06.29,0:00:06.93,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx71\fscy71\t(0,90,\fscx83\fscy83)}QUARTER {\c&H0040E33A&}THIRTY-EIGHT{\c&H00FFFFFF&}
+Dialogue: 0,0:00:06.93,0:00:07.58,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TO FIFTEEN.
+Dialogue: 0,0:00:07.58,0:00:08.06,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}GOLDEN STATE
+Dialogue: 0,0:00:08.06,0:00:08.64,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WON THE SECOND
+Dialogue: 0,0:00:08.64,0:00:09.02,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}{\c&H0040E33A&}THIRTY-EIGHT{\c&H00FFFFFF&}
+Dialogue: 0,0:00:09.02,0:00:09.62,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TO FIFTEEN.
+Dialogue: 0,0:00:09.62,0:00:10.13,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE EXACT
+Dialogue: 0,0:00:10.13,0:00:10.88,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SAME SCORE,
+Dialogue: 0,0:00:10.88,0:00:11.38,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FLIPPED.
+Dialogue: 0,0:00:11.38,0:00:11.82,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}{\c&H0040E33A&}FIFTY-THREE{\c&H00FFFFFF&}
+Dialogue: 0,0:00:11.82,0:00:12.34,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TO FIFTY-THREE
+Dialogue: 0,0:00:12.34,0:00:12.97,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AT HALFTIME.
+Dialogue: 0,0:00:12.97,0:00:13.72,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx81\fscy81\t(0,90,\fscx95\fscy95)}THEN GOLDEN STATE
+Dialogue: 0,0:00:13.72,0:00:14.60,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx81\fscy81\t(0,90,\fscx94\fscy94)}WON BY {\c&H0040E33A&}SEVENTEEN.{\c&H00FFFFFF&}
+Dialogue: 0,0:00:14.60,0:00:14.87,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE TEAM
+Dialogue: 0,0:00:14.87,0:00:15.15,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THAT LED
+Dialogue: 0,0:00:15.15,0:00:16.68,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx68\fscy68\t(0,90,\fscx79\fscy79)}BY {\c&H0040E33A&}TWENTY-THREE{\c&H00FFFFFF&} LOST.
