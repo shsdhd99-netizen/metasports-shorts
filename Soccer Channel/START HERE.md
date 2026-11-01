@@ -13,7 +13,8 @@ This is the second channel's own space. The NBA channel (MetaSports) keeps its o
 ## Status Nov 5-6 (S27, S28)
 - **S27 The goalkeeper who only played because his teammate broke a leg** (`Productions/2026-11-05 S27 ...`): Goycochea, Italia 90. Built, QA PASS, 54.1 s, MUSIC side. DRAFT files in the folder, UPLOAD.md ready.
   Nothing posted or scheduled. The pee-on-the-pitch ritual was left out (not sourceable twice).
-- S28 line: see below once built.
+- **S28 The goalkeeper who refused to be substituted before a shootout** (`Productions/2026-11-06 S28 ...`): Kepa, 2019 League Cup final. Built, QA PASS, 51.9 s, NO-MUSIC side. DRAFT files in the folder, UPLOAD.md ready.
+  Nothing posted or scheduled. Footage: ESPN FC incident clips; shootout from an unofficial beIN re-upload (see notes.md).
 
 ## Status Nov 3-4 (S25, S26)
 - **S25 The England subs brought on only for penalties** (`Productions/2026-11-03 S25 ...`): built, QA PASS, 53.9 s, MUSIC side. DRAFT files in the folder, UPLOAD.md ready. Nothing posted or scheduled.
