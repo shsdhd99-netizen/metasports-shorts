@@ -1,3 +1,13 @@
+# Soccer channel playbook v2 (Nov 1, 2026): premise first
+
+**What changed (evidence: `Research Notes/Soccer Topic Study (Nov 1, 2026).md` and `Soccer Script Craft (Nov 1, 2026).md`):** the template was never the problem. All 12 posted FC Shorts use it; the four goalkeeper-in-a-shootout ones got 15-30K and the other eight got 1-3K [V, n=12]. Competitors agree in direction: goalkeeper is 1.3x a channel's own median and star-name / money / Messi stories are at or below it [V, 8 channels].
+- **Rule 0 (new):** pick a premise the viewer does not already know. Goalkeeper + one odd device + a big shootout first; fan/kid/family second (1.53x, untested for us). The odd thing goes in the title.
+- **Hold:** money/transfer payoffs (S15, S08), name-led, number-led and "most/worst" titles, records, two-timeline scripts, awards.
+- **Title tests:** "When..." (1.44x) and "the real reason..." (1.37x) openers are the best shapes on competitors [S]; A/B them against our "Goalkeepers who..." control.
+- **Length:** 45-59 s, 190-250 words. Under 45 s is 0.25-0.61x on competitors [V].
+- **Queue order:** S19 Rulli, England's penalty subs, Ricardo's gloves, Goycochea, Kepa; one fan/kid test; S20 after; S09 held.
+- **Still guesses [H]:** whether the 4 hits are topic or timing; whether music helps. Judge after the next 3 goalkeeper Shorts.
+
 # Soccer channel playbook (Oct 21, 2026; rules updated in the Oct 26 overnight review)
 
 **How to make a Short:** the step-by-step lives in the skill, `.claude/skills/story-short/SKILL.md`, so one copy stays current. The format itself, with evidence, is in `.claude/skills/story-short/FORMAT.md`.

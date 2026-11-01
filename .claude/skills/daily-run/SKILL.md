@@ -38,6 +38,7 @@ be edited from the runner session and is partly out of date:**
   15-minute job (the main session has the key and finishes these). Card `editing`, note "needs the ElevenLabs key".
 - **FC lanes (evidence, Nov 1):** goalkeeper stories went 4 of 4 at 9K+ (S01 30K, S05 28K, S03 15K, S17 9K) and every other FC
   Short 1-3K (n=8), so a goalkeeper story every other day; the other days rotate the remaining lanes.
+  - **Nov 1 lane order (Soccer Topic Study §5-7):** (1) goalkeeper/shootout with one odd device, 2 of every 3 posts; (2) fan/kid/family, 1 test per week; (3) everything else only if it passes the Script Craft "viewer does not already know it" test. Hold money/transfer, Messi-name-led, records, awards. Candidate queue (all web-sourced): S19 Rulli, England subs brought on for penalties (Euro 2020), Ricardo's gloves (Euro 2004), Goycochea 1990, Kepa refusing the sub (2019). Check the Topic Study table's "Caution" column before scripting.
 - **Tell the owner:** if a PushNotification tool is available, one line when the card is ready ("#82 ready on the NBA Hub, post 7-8 AM").
 - **Auto-scheduling (`Tools/yt_schedule.py`, Nov 1) stays unused** until the owner says it's on and the upload tokens exist.
 
