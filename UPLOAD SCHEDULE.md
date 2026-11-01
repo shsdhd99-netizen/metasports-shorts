@@ -28,13 +28,12 @@ title (Copy button), set "Not made for kids", add the pinned comment from the ca
 6. **Every Monday** (the task list reminds you): in YouTube Studio, Content tab, Shorts, export the table for both channels and send the two zips to a Claude
    session. "Stayed to watch" is only in Studio; it is the number that decides whether YouTube keeps pushing a Short.
 
-**The next four days (updated Fri Oct 30, 2 AM ET after the overnight edit pass; the task list and both Hubs match it):**
-| Day | NBA 7-8 AM | Soccer 8-9 AM | Second post (6+ h later) |
+**Today and next (updated Sun Nov 1, 9 AM ET; the Hubs on this account match it):**
+| Day | NBA 7-8 AM | Soccer 7-9 AM | Second post (6+ h later) |
 |---|---|---|---|
-| Wed Oct 28 | **#72** This Kid Felt Every Free Throw (posted 7:17 AM, music; 19.8K by 6 PM) | **S15** Barcelona paid a fortune for the player who knocked them out (posted) | **#75** This Rookie Was A Hero For One Overtime (posted 6:03 PM, the **real-audio** version) |
-| Thu Oct 29 | **#76** He Left The NBA Finals In A Wheelchair (posted; 4.5K by 6 PM) | **S16** The manager who told his team to stop scoring (posted; 1.7K by 6 PM) | **#78** The NBA star who skipped a Finals practice to go wrestling (posted Thu evening by the owner, instead of #79; Ahmed-style test, judge at 72 h). **#79** buzzer-beaters: skipped (Wednesday news, now too late) |
-| Fri Oct 30 | **#77** Bronny Is Shooting 100% This Season (real audio; **re-edited Oct 30** for retention: download the new file; true until the Lakers play Fri 10 PM ET) | (same sitting) **S17** Goalkeepers who were subbed on just for the penalties (**real-audio** version, music bed kept; **re-edited Oct 30**: TV logos blurred) | **#74** Why NBA Players Refuse This Free Throw, about 3 PM (no-music version; **re-cut Oct 29**: the wrong "Still a record." line removed; the Hub has the new file since 6 PM Thu) |
-| Sat Oct 31 | open: Friday's NBA daily build fills it (#78 went up Thursday) | (same sitting) **S18** The manager Barcelona soaked with sprinklers got his revenge (no-music version; re-cut Oct 29; **sound peak fixed Oct 30**: download the new file) | |
+| Sun Nov 1 | **#74** Why NBA Players Refuse This Free Throw (no-music side; ready) | **S20** Barcelona Signed Messi On A Paper Napkin (no-music side; finishing now, post as soon as it's on the Hub) | **#82** Wemby blocked a three and scored point 40, about 2-3 PM (news: today only; real-audio version) |
+| Mon Nov 2 | the 3:17 AM NBA run's Short, else **#73** Bones Hyland's fake-throw technical (music side) | the 4:23 AM FC run's Short, else **S09** Ronaldo moved the Coca-Cola bottles | |
+| Tue Nov 3 | **#67** Jordan made up an insult (or the run's Short) | **S19** Man United's penalty nightmare is saving Man City (goalkeeper lane) | |
 
 **Real audio (owner, Oct 28):** viral moments and quote shots now get a real-audio version (the live call or the person's own voice) and that's the one to post. It's its own test, outside the music test.
 Music test after Friday: NBA 2 with music (#70, #72) and 2 without (#71, #74); soccer alternates S15 music, S16 none, S17 music (its real-audio version keeps the music bed). S07 Loch Ness is left out (version unknown).
@@ -66,18 +65,35 @@ Music test after Friday: NBA 2 with music (#70, #72) and 2 without (#71, #74); s
    paste the name, bio and picture.
 3. Tell a Claude session the four usernames, so the Hubs and notes can link them.
 
-**What runs by itself (scheduled tasks, every day):**
-- **6:41 AM ET, MetaSports NBA daily run:** pulls the NBA channel's analytics and retention curves, logs them, researches last
-  night's games, makes the day's NBA Short (QA must pass), puts it on the NBA Hub for 11:00 AM, commits it.
-- **9:39 AM ET, MetaSports FC daily run:** the same for the soccer channel; its Short goes in the next free noon slot.
-- Each run writes what it pulled, found and changed in `Research Notes/Daily Log.md`. Sundays add a weekly review.
-- Both follow `.claude/skills/daily-run/SKILL.md`.
+**What runs by itself (scheduled tasks, every day; times moved Nov 1 so the Short is ready before you post):**
+- **3:17 AM ET, MetaSports NBA daily run:** researches last night's games (or finishes a waiting Short first), makes the day's
+  NBA Short (QA must pass), puts it on the NBA Hub for **7-8 AM the same morning**, logs, commits.
+- **4:23 AM ET, MetaSports FC daily run:** the same for soccer, on the FC Hub for **7-9 AM**. Goalkeeper stories every other day
+  (4 of 4 at 9K+; everything else 1-3K).
+- Each run writes what it pulled, found and changed in `Research Notes/Daily Log.md`. Both follow `.claude/skills/daily-run/SKILL.md`.
+- **Without the ElevenLabs key in the environment they can only write the script and gather footage** (that is what happened
+  Oct 30-Nov 1: #80, #82, S19, S20 came out as scripts). A Claude session that has the key then finishes them in about 20 minutes.
 
-**What only you can do (once):**
-1. Add `ELEVENLABS_API_KEY` in the cloud environment's settings (the environment menu in the session's title bar, then Edit), so
-   the automatic runs can record voices. Without it they write scripts only.
+**What only you can do (once, about 5 minutes):**
+1. **The key:** in the cloud environment's settings (the environment menu in the session's title bar, then Edit), add the
+   variable `ELEVENLABS_API_KEY` with your key. The next run picks it up; its log line will say `key: set`. Never paste it in chat.
 2. For retention curves: add `YT_CLIENT_ID`, `YT_CLIENT_SECRET`, `YT_REFRESH_TOKEN` (NBA channel) and `YT_REFRESH_TOKEN_FC`
    (soccer channel) the same way. One read-only sign-in per channel, no PC needed: the 4 steps are at the top of `Tools/yt_analytics.py` ("NO PC"). Publish the Google
    app first (OAuth consent screen, "Publish app"), or the sign-in expires after 7 days.
 3. Optional (Oct 26): add a free `GEMINI_API_KEY` the same way (make it at aistudio.google.com/apikey). Then `Tools/yt_watch.py` can watch
    competitor Shorts and our own drafts for the research runs. Never paste the key in chat.
+4. Optional (Nov 1), **auto-scheduling**: see below. Off until you say so.
+
+**Auto-scheduling (researched Nov 1; OFF until you turn it on):**
+- **What changed:** Google's upload reference (updated Oct 15, 2026) now says "Videos uploaded from unverified API projects are
+  not restricted to private viewing mode", with a separate upload quota of 100 a day. Until then, uploads from a personal Google
+  project were locked private, which is why we never did this.
+- **How it would work:** `Tools/yt_schedule.py` uploads an approved DRAFT as a *scheduled* video (private until its slot, then
+  YouTube makes it public by itself), with the title, tags, empty description, Sports, "not made for kids". You can still see,
+  change or delete it in the YouTube app (Library > Your videos) until it goes live. It refuses re-uploads, non-DRAFT files and
+  slots under 20 minutes away. It can't pin the comment (the API has no pin): you pin it after it's live, or skip it.
+- **To turn it on:** add an upload sign-in per channel (`YT_UPLOAD_TOKEN`, `YT_UPLOAD_TOKEN_FC`; steps at the top of
+  `Tools/yt_schedule.py`), then tell a session which mode you want: (a) each Short waits for your OK on its Hub card, or (b) the
+  runs schedule every Short that passes QA.
+- **No-setup option, today:** the YouTube app can schedule too. Upload 2 days of Shorts in one sitting and set each to
+  Visibility > Schedule (7:15 AM ET); the Hubs keep 2 days ready.

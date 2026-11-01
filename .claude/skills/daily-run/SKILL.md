@@ -23,6 +23,24 @@ Two runs a day (scheduled tasks "MetaSports NBA daily run" and "MetaSports FC da
   every change is listed in `Research Notes/Rule Changes Applied (Oct 26, 2026).md`.
 - Work on branch `main-329h3w`; push there; never open or merge a PR.
 
+**Nov 1 updates (owner: "make it more efficient, more useful"). These win over the scheduled task's prompt, whose text can only
+be edited from the runner session and is partly out of date:**
+- **Timing:** the runs now fire at 3:17 AM ET (NBA) and 4:23 AM ET (FC), so the Short is on the Hub before the 7 AM post.
+  The card's slot is TODAY: NBA 7:00-8:00 AM ET, FC 7:00-9:00 AM ET (the prompt's "11:00 AM" and "12:00 PM" slots are old).
+- **No long cut, no TikTok/Instagram captions** (paused Oct 26), whatever the prompt's step 5/6 says.
+- **Fast reads:** only the newest 2 Daily Log entries (`head -80 "Research Notes/Daily Log.md"`); skip `yt_analytics.py` and
+  `shorts_dataset.py` hand columns when the YT_* secrets are missing (one log line); public views from
+  `yt-dlp --flat-playlist --print "%(id)s %(view_count)s %(title)s" <channel>/shorts` (single-video pages and RSS are blocked).
+  Aim for under 90 minutes; skip anything that doesn't change today's Short.
+- **Backlog first:** if the Hub has no ready card for today and a Short of this channel is waiting (voiced or script-only, window
+  still open), finish it before researching a new one. `ls` the production folders without a `DRAFT - awaiting approval` file.
+- **No key? Prep everything else:** download and frame-check the footage and write `cuts_plan.json`, so voicing later is a
+  15-minute job (the main session has the key and finishes these). Card `editing`, note "needs the ElevenLabs key".
+- **FC lanes (evidence, Nov 1):** goalkeeper stories went 4 of 4 at 9K+ (S01 30K, S05 28K, S03 15K, S17 9K) and every other FC
+  Short 1-3K (n=8), so a goalkeeper story every other day; the other days rotate the remaining lanes.
+- **Tell the owner:** if a PushNotification tool is available, one line when the card is ready ("#82 ready on the NBA Hub, post 7-8 AM").
+- **Auto-scheduling (`Tools/yt_schedule.py`, Nov 1) stays unused** until the owner says it's on and the upload tokens exist.
+
 **NBA music-bed test (owner said yes, Oct 26):** NBA posts alternate music and no music, starting with #69 Luka (none) and #70 Barkley (music). Render both versions of every NBA Short, and mark on the Hub which one to post so the alternation holds. The bed is about 20 dB under the voice (`music.json`, bed_lu -20), from `Library/Music/` (ElevenLabs beds: no Content ID, no pay cut). Log music yes/no on every post in `Research Notes/Outcome Log.md`. Decide after 8 posts (4 each) on stayed %, judged at 72 h. Soccer keeps its own music A/B.
 **Real audio (owner, Oct 28: "for all clips that are viral, experiment with using the actual audio for the moment"):** for a moment with a live broadcast call, or a quote shot of someone speaking, also render a `_realaudio` version with `Tools/nat_sound.py` (NBA Playbook THE RULES §2 rule 11) and mark it as the one to post; keep the narrated render as the spare (copyright fallback). Real-audio posts are their own arm, not counted in the music test (so far #75 rookie and #76 Pierce; music test then stands at 2 with music, #70 #72, and 2 without, #71 #74).
 
@@ -159,8 +177,8 @@ Two runs a day (scheduled tasks "MetaSports NBA daily run" and "MetaSports FC da
   pin every write with `if_version`.
 - **Card text for TikTok and Instagram: PAUSED** with cross-posting (owner, Oct 26). Leave the `tiktok` and `instagram` fields empty.
 - Slots follow `UPLOAD SCHEDULE.md` (owner, Oct 28: first posts at 7-9 AM ET): up to 2 per channel per day (the 2nd only when as
-  strong). NBA at 7:00-8:00 AM ET (last night's news Short takes today's slot), soccer at 8:00-9:00 AM ET, 1 hour after the NBA
-  slot. A second slot (NBA about 3 PM, soccer about 4 PM) only for a Short as strong as the first, 6+ hours later; never 3. Keep at least 2 days of ready Shorts per channel; mark an unposted
+  strong). NBA at 7:00-8:00 AM ET (last night's news Short takes today's slot), soccer at 7:00-9:00 AM ET (same sitting is fine,
+  owner Oct 29). A second slot (NBA about 3 PM, soccer about 4 PM) only for a Short as strong as the first, 6+ hours later; never 3. Keep at least 2 days of ready Shorts per channel; mark an unposted
   news Short older than a day `skip`. Never re-slot or re-upload a posted Short; judge it at 72 h.
 - Commit (the `DRAFT - awaiting approval` files are kept in git) and push to `main-329h3w`. If the push is refused, pull with
   `--no-rebase`, merge (keep both sides of any doc), push again.
