@@ -1,0 +1,16 @@
+clip,kind,used_at_s,used_for_line,what_it_shows,source_url,source_account,source_date,source_in_s,source_out_s,crop,match_score,licence_risk,verified,verified_on,notes
+W01.mp4,action,0.00,Cooper Flagg's rookie year beat LeBron's.,"Flagg dunk in his April 2026 50-point game v Orlando (NBA highlights, illustrative of the rookie year)",src\flagg50.mp4,,,58.0,60.0,x 0.5 zoom 1.0 y 0.5 blurfit,,,yes,2026-11-01, | source 1920x1080
+W02.mp4,face,1.70,In two of three numbers.,Flagg on the court,src\flagg50.mp4,,,125.3,126.6,x 0.5 zoom 1.0 y 0.5 blurfit,,,yes,2026-11-01, | source 1920x1080
+W03.mp4,action,2.71,"Points: Flagg, 21.","Flagg finishes at the rim (overhead angle, same game)",src\flagg50.mp4,,,29.0,30.8,x 0.5 zoom 1.0 y 0.5 blurfit,,,yes,2026-11-01, | source 1920x1080
+W04.mp4,action,4.22,"LeBron, 20.9.","LeBron dunk, 2003-04 rookie season (NBA highlights)",src\lebron.mp4,,,119.5,121.2,x 0.5 zoom 1.0 y 0.5 blurfit,,,yes,2026-11-01, | source 1280x720
+W05.mp4,face,5.68,"Rebounds: Flagg, 6.7.",Flagg (#32) in traffic,src\flagg50.mp4,,,161.2,163.4,x 0.5 zoom 1.0 y 0.5 blurfit,,,yes,2026-11-01, | source 1920x1080
+W06.mp4,face,7.58,"LeBron, 5.5.","LeBron close, rookie year",src\lebron.mp4,,,171.5,173.2,x 0.5 zoom 1.0 y 0.5 blurfit,,,yes,2026-11-01, | source 1280x720
+W07.mp4,face,8.94,But LeBron won assists.,"LeBron close, 2004 Rookie Challenge",src\lebron.mp4,,,67.5,69.0,x 0.5 zoom 1.0 y 0.5 blurfit,,,yes,2026-11-01, | source 1280x720
+W08.mp4,action,10.18,5.9 to 4.5.,"LeBron with the ball, Cavs",src\lebron.mp4,,,23.5,25.6,x 0.5 zoom 1.0 y 0.5 blurfit,,,yes,2026-11-01, | source 1280x720
+W09.mp4,action,11.94,And LeBron played nine more games.,"LeBron drives, rookie year",src\lebron.mp4,,,75.5,77.5,x 0.5 zoom 1.0 y 0.5 blurfit,,,yes,2026-11-01, | source 1280x720
+W10.mp4,face,13.63,So is Flagg already better than LeBron was?,Flagg close,src\flagg50.mp4,,,244.0,246.4,x 0.5 zoom 1.0 y 0.5 blurfit,,,yes,2026-11-01, | source 1920x1080
+W11.mp4,action,15.74,Not so fast.,LeBron finishing at the rim,src\lebron.mp4,,,175.5,176.7,x 0.5 zoom 1.0 y 0.5 blurfit,,,yes,2026-11-01, | source 1280x720
+W12.mp4,action,16.58,"But since 1973, only two rookies have",Flagg dunk,src\flagg50.mp4,,,64.5,66.9,x 0.5 zoom 1.0 y 0.5 blurfit,,,yes,2026-11-01, | source 1920x1080
+W12b.mp4,action,18.65,"led their team in points, rebounds, assists and steals.",Flagg jump shot,src\flagg50.mp4,,,107.8,111.1,x 0.5 zoom 1.0 y 0.5 blurfit,,,yes,2026-11-01, | source 1920x1080
+W13.mp4,face,21.68,Michael Jordan.,"Michael Jordan, #23, rookie season 1984-85 (NBA 'Jordan Vault')",src\jordan.mp4,,,27.5,28.4,x 0.5 zoom 1.0 y 0.5 blurfit,,,yes,2026-11-01, | source 1280x720
+W14.mp4,face,22.32,And Cooper Flagg.,Flagg close,src\flagg50.mp4,,,127.0,128.7,x 0.5 zoom 1.0 y 0.5 blurfit,,,yes,2026-11-01, | source 1920x1080
