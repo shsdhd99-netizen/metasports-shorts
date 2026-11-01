@@ -4,7 +4,7 @@
 **Repurpose of:** our own hand-made Short JCJTfydGJkc (posted Dec 2025, 29K views, burned-in captions, so footage re-sourced raw). New hook: the pick was announced inside the ad; new angle: 200+ triple-doubles in 814 games vs Westbrook's 1,175.
 **Title:** Jokic Was Drafted During A Taco Bell Commercial
 **Alternatives:** The Pick Nobody Watched Is Chasing Westbrook's Record / Jokic Has Never Eaten Taco Bell Because Of His Draft
-**Tags (472 of 490):** 
+**Tags (472 of 490):** nikola jokic, jokic, jokic taco bell, taco bell draft, jokic draft, jokic 41st pick, nikola jokic draft, jokic triple doubles, jokic 200 triple doubles, russell westbrook, westbrook triple doubles, triple double record, denver nuggets, nuggets, nba draft 2014, nba draft, nba mvp, jokic mvp, jokic highlights, westbrook highlights, nba records, nba history, nba shorts, nba news, basketball shorts, nba facts, jokich, yokic, quesarito, jokic westbrook
 **Description:** empty. **Pinned comment:** Jokic or Westbrook: whose triple-double run is crazier?
 
 ## Claims
