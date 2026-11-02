@@ -1,0 +1,982 @@
+[
+ {
+  "word": "The",
+  "start": 0.0,
+  "end": 0.128
+ },
+ {
+  "word": "goalkeeper",
+  "start": 0.197,
+  "end": 0.708
+ },
+ {
+  "word": "who",
+  "start": 0.766,
+  "end": 0.882
+ },
+ {
+  "word": "only",
+  "start": 0.964,
+  "end": 1.161
+ },
+ {
+  "word": "played",
+  "start": 1.207,
+  "end": 1.405
+ },
+ {
+  "word": "because",
+  "start": 1.428,
+  "end": 1.625
+ },
+ {
+  "word": "his",
+  "start": 1.649,
+  "end": 1.73
+ },
+ {
+  "word": "teammate",
+  "start": 1.788,
+  "end": 2.206
+ },
+ {
+  "word": "broke",
+  "start": 2.229,
+  "end": 2.45
+ },
+ {
+  "word": "a",
+  "start": 2.473,
+  "end": 2.496
+ },
+ {
+  "word": "leg.",
+  "start": 2.566,
+  "end": 2.969
+ },
+ {
+  "word": "Back",
+  "start": 2.969,
+  "end": 3.166
+ },
+ {
+  "word": "in",
+  "start": 3.212,
+  "end": 3.259
+ },
+ {
+  "word": "1990,",
+  "start": 3.294,
+  "end": 4.071
+ },
+ {
+  "word": "Argentina",
+  "start": 4.106,
+  "end": 4.594
+ },
+ {
+  "word": "went",
+  "start": 4.652,
+  "end": 4.768
+ },
+ {
+  "word": "to",
+  "start": 4.803,
+  "end": 4.849
+ },
+ {
+  "word": "the",
+  "start": 4.907,
+  "end": 4.977
+ },
+ {
+  "word": "World",
+  "start": 5.047,
+  "end": 5.291
+ },
+ {
+  "word": "Cup",
+  "start": 5.349,
+  "end": 5.558
+ },
+ {
+  "word": "with",
+  "start": 5.604,
+  "end": 5.708
+ },
+ {
+  "word": "Nery",
+  "start": 5.767,
+  "end": 5.999
+ },
+ {
+  "word": "Pumpido",
+  "start": 6.045,
+  "end": 6.602
+ },
+ {
+  "word": "in",
+  "start": 6.66,
+  "end": 6.719
+ },
+ {
+  "word": "goal,",
+  "start": 6.8,
+  "end": 7.229
+ },
+ {
+  "word": "a",
+  "start": 7.253,
+  "end": 7.311
+ },
+ {
+  "word": "world",
+  "start": 7.404,
+  "end": 7.647
+ },
+ {
+  "word": "champion.",
+  "start": 7.694,
+  "end": 8.228
+ },
+ {
+  "word": "Then,",
+  "start": 8.251,
+  "end": 8.565
+ },
+ {
+  "word": "in",
+  "start": 8.599,
+  "end": 8.657
+ },
+ {
+  "word": "their",
+  "start": 8.692,
+  "end": 8.808
+ },
+ {
+  "word": "second",
+  "start": 8.866,
+  "end": 9.133
+ },
+ {
+  "word": "game,",
+  "start": 9.203,
+  "end": 9.505
+ },
+ {
+  "word": "against",
+  "start": 9.528,
+  "end": 9.784
+ },
+ {
+  "word": "the",
+  "start": 9.807,
+  "end": 9.876
+ },
+ {
+  "word": "Soviet",
+  "start": 9.911,
+  "end": 10.225
+ },
+ {
+  "word": "Union,",
+  "start": 10.306,
+  "end": 10.608
+ },
+ {
+  "word": "Pumpido",
+  "start": 10.642,
+  "end": 11.118
+ },
+ {
+  "word": "broke",
+  "start": 11.177,
+  "end": 11.374
+ },
+ {
+  "word": "his",
+  "start": 11.397,
+  "end": 11.49
+ },
+ {
+  "word": "leg.",
+  "start": 11.571,
+  "end": 11.896
+ },
+ {
+  "word": "Eleven",
+  "start": 11.92,
+  "end": 12.256
+ },
+ {
+  "word": "minutes",
+  "start": 12.303,
+  "end": 12.523
+ },
+ {
+  "word": "in.",
+  "start": 12.581,
+  "end": 12.814
+ },
+ {
+  "word": "His",
+  "start": 12.837,
+  "end": 12.964
+ },
+ {
+  "word": "understudy,",
+  "start": 13.023,
+  "end": 13.475
+ },
+ {
+  "word": "Sergio",
+  "start": 13.51,
+  "end": 13.835
+ },
+ {
+  "word": "Goycochea,",
+  "start": 13.905,
+  "end": 14.648
+ },
+ {
+  "word": "took",
+  "start": 14.671,
+  "end": 14.857
+ },
+ {
+  "word": "over",
+  "start": 14.915,
+  "end": 15.101
+ },
+ {
+  "word": "for",
+  "start": 15.159,
+  "end": 15.228
+ },
+ {
+  "word": "the",
+  "start": 15.263,
+  "end": 15.333
+ },
+ {
+  "word": "rest",
+  "start": 15.403,
+  "end": 15.577
+ },
+ {
+  "word": "of",
+  "start": 15.612,
+  "end": 15.658
+ },
+ {
+  "word": "the",
+  "start": 15.693,
+  "end": 15.762
+ },
+ {
+  "word": "tournament.",
+  "start": 15.797,
+  "end": 16.146
+ },
+ {
+  "word": "In",
+  "start": 16.169,
+  "end": 16.227
+ },
+ {
+  "word": "the",
+  "start": 16.262,
+  "end": 16.331
+ },
+ {
+  "word": "quarter-final",
+  "start": 16.355,
+  "end": 16.889
+ },
+ {
+  "word": "against",
+  "start": 16.923,
+  "end": 17.098
+ },
+ {
+  "word": "Yugoslavia,",
+  "start": 17.132,
+  "end": 17.887
+ },
+ {
+  "word": "it",
+  "start": 17.922,
+  "end": 18.038
+ },
+ {
+  "word": "finished",
+  "start": 18.096,
+  "end": 18.375
+ },
+ {
+  "word": "goalless,",
+  "start": 18.444,
+  "end": 19.002
+ },
+ {
+  "word": "so",
+  "start": 19.025,
+  "end": 19.153
+ },
+ {
+  "word": "it",
+  "start": 19.211,
+  "end": 19.257
+ },
+ {
+  "word": "went",
+  "start": 19.28,
+  "end": 19.396
+ },
+ {
+  "word": "to",
+  "start": 19.431,
+  "end": 19.478
+ },
+ {
+  "word": "penalties.",
+  "start": 19.547,
+  "end": 20.116
+ },
+ {
+  "word": "Diego",
+  "start": 20.163,
+  "end": 20.499
+ },
+ {
+  "word": "Maradona",
+  "start": 20.546,
+  "end": 21.01
+ },
+ {
+  "word": "missed.",
+  "start": 21.068,
+  "end": 21.44
+ },
+ {
+  "word": "Pedro",
+  "start": 21.463,
+  "end": 21.719
+ },
+ {
+  "word": "Troglio",
+  "start": 21.777,
+  "end": 22.16
+ },
+ {
+  "word": "missed.",
+  "start": 22.218,
+  "end": 22.578
+ },
+ {
+  "word": "Yugoslavia",
+  "start": 22.601,
+  "end": 23.135
+ },
+ {
+  "word": "were",
+  "start": 23.17,
+  "end": 23.263
+ },
+ {
+  "word": "on",
+  "start": 23.286,
+  "end": 23.332
+ },
+ {
+  "word": "the",
+  "start": 23.356,
+  "end": 23.425
+ },
+ {
+  "word": "brink.",
+  "start": 23.46,
+  "end": 23.774
+ },
+ {
+  "word": "Goycochea",
+  "start": 23.808,
+  "end": 24.366
+ },
+ {
+  "word": "told",
+  "start": 24.424,
+  "end": 24.551
+ },
+ {
+  "word": "Maradona,",
+  "start": 24.586,
+  "end": 25.144
+ },
+ {
+  "word": "Relax,",
+  "start": 25.248,
+  "end": 25.654
+ },
+ {
+  "word": "I'm",
+  "start": 25.678,
+  "end": 25.747
+ },
+ {
+  "word": "going",
+  "start": 25.771,
+  "end": 25.887
+ },
+ {
+  "word": "to",
+  "start": 25.91,
+  "end": 25.956
+ },
+ {
+  "word": "save",
+  "start": 26.014,
+  "end": 26.223
+ },
+ {
+  "word": "a",
+  "start": 26.247,
+  "end": 26.27
+ },
+ {
+  "word": "couple.",
+  "start": 26.328,
+  "end": 26.699
+ },
+ {
+  "word": "He",
+  "start": 26.723,
+  "end": 26.781
+ },
+ {
+  "word": "later",
+  "start": 26.85,
+  "end": 27.071
+ },
+ {
+  "word": "admitted",
+  "start": 27.117,
+  "end": 27.373
+ },
+ {
+  "word": "that",
+  "start": 27.396,
+  "end": 27.489
+ },
+ {
+  "word": "was",
+  "start": 27.524,
+  "end": 27.605
+ },
+ {
+  "word": "more",
+  "start": 27.675,
+  "end": 27.814
+ },
+ {
+  "word": "wishful",
+  "start": 27.849,
+  "end": 28.116
+ },
+ {
+  "word": "thinking",
+  "start": 28.185,
+  "end": 28.499
+ },
+ {
+  "word": "than",
+  "start": 28.534,
+  "end": 28.638
+ },
+ {
+  "word": "confidence.",
+  "start": 28.696,
+  "end": 29.312
+ },
+ {
+  "word": "Then",
+  "start": 29.335,
+  "end": 29.439
+ },
+ {
+  "word": "he",
+  "start": 29.462,
+  "end": 29.509
+ },
+ {
+  "word": "dived",
+  "start": 29.59,
+  "end": 29.88
+ },
+ {
+  "word": "low",
+  "start": 29.938,
+  "end": 30.078
+ },
+ {
+  "word": "to",
+  "start": 30.124,
+  "end": 30.171
+ },
+ {
+  "word": "his",
+  "start": 30.229,
+  "end": 30.298
+ },
+ {
+  "word": "right,",
+  "start": 30.356,
+  "end": 30.565
+ },
+ {
+  "word": "and",
+  "start": 30.589,
+  "end": 30.67
+ },
+ {
+  "word": "saved",
+  "start": 30.74,
+  "end": 30.983
+ },
+ {
+  "word": "Brnovic.",
+  "start": 31.018,
+  "end": 31.529
+ },
+ {
+  "word": "And",
+  "start": 31.552,
+  "end": 31.634
+ },
+ {
+  "word": "with",
+  "start": 31.68,
+  "end": 31.773
+ },
+ {
+  "word": "Yugoslavia's",
+  "start": 31.819,
+  "end": 32.319
+ },
+ {
+  "word": "last",
+  "start": 32.365,
+  "end": 32.574
+ },
+ {
+  "word": "kick,",
+  "start": 32.621,
+  "end": 32.83
+ },
+ {
+  "word": "he",
+  "start": 32.853,
+  "end": 32.899
+ },
+ {
+  "word": "flung",
+  "start": 33.027,
+  "end": 33.282
+ },
+ {
+  "word": "himself",
+  "start": 33.329,
+  "end": 33.584
+ },
+ {
+  "word": "to",
+  "start": 33.619,
+  "end": 33.665
+ },
+ {
+  "word": "his",
+  "start": 33.724,
+  "end": 33.793
+ },
+ {
+  "word": "left,",
+  "start": 33.851,
+  "end": 34.095
+ },
+ {
+  "word": "and",
+  "start": 34.118,
+  "end": 34.2
+ },
+ {
+  "word": "saved",
+  "start": 34.269,
+  "end": 34.536
+ },
+ {
+  "word": "Hadzibegic.",
+  "start": 34.559,
+  "end": 35.175
+ },
+ {
+  "word": "Argentina",
+  "start": 35.198,
+  "end": 35.72
+ },
+ {
+  "word": "were",
+  "start": 35.778,
+  "end": 35.895
+ },
+ {
+  "word": "through.",
+  "start": 35.918,
+  "end": 36.289
+ },
+ {
+  "word": "In",
+  "start": 36.313,
+  "end": 36.382
+ },
+ {
+  "word": "the",
+  "start": 36.417,
+  "end": 36.487
+ },
+ {
+  "word": "semi-final,",
+  "start": 36.522,
+  "end": 37.172
+ },
+ {
+  "word": "against",
+  "start": 37.195,
+  "end": 37.45
+ },
+ {
+  "word": "Italy,",
+  "start": 37.497,
+  "end": 37.833
+ },
+ {
+  "word": "in",
+  "start": 37.857,
+  "end": 37.961
+ },
+ {
+  "word": "Naples,",
+  "start": 38.042,
+  "end": 38.46
+ },
+ {
+  "word": "it",
+  "start": 38.484,
+  "end": 38.565
+ },
+ {
+  "word": "was",
+  "start": 38.6,
+  "end": 38.681
+ },
+ {
+  "word": "level",
+  "start": 38.762,
+  "end": 39.006
+ },
+ {
+  "word": "again,",
+  "start": 39.052,
+  "end": 39.436
+ },
+ {
+  "word": "and",
+  "start": 39.459,
+  "end": 39.552
+ },
+ {
+  "word": "penalties",
+  "start": 39.598,
+  "end": 39.97
+ },
+ {
+  "word": "again.",
+  "start": 40.004,
+  "end": 40.388
+ },
+ {
+  "word": "Goycochea",
+  "start": 40.422,
+  "end": 41.073
+ },
+ {
+  "word": "saved",
+  "start": 41.2,
+  "end": 41.525
+ },
+ {
+  "word": "Donadoni.",
+  "start": 41.549,
+  "end": 42.199
+ },
+ {
+  "word": "Then",
+  "start": 42.222,
+  "end": 42.326
+ },
+ {
+  "word": "he",
+  "start": 42.35,
+  "end": 42.396
+ },
+ {
+  "word": "saved",
+  "start": 42.431,
+  "end": 42.628
+ },
+ {
+  "word": "Serena.",
+  "start": 42.652,
+  "end": 43.093
+ },
+ {
+  "word": "That",
+  "start": 43.116,
+  "end": 43.244
+ },
+ {
+  "word": "made",
+  "start": 43.279,
+  "end": 43.418
+ },
+ {
+  "word": "four",
+  "start": 43.453,
+  "end": 43.65
+ },
+ {
+  "word": "saves,",
+  "start": 43.708,
+  "end": 44.114
+ },
+ {
+  "word": "a",
+  "start": 44.138,
+  "end": 44.173
+ },
+ {
+  "word": "record",
+  "start": 44.254,
+  "end": 44.44
+ },
+ {
+  "word": "for",
+  "start": 44.474,
+  "end": 44.556
+ },
+ {
+  "word": "a",
+  "start": 44.591,
+  "end": 44.614
+ },
+ {
+  "word": "single",
+  "start": 44.672,
+  "end": 44.962
+ },
+ {
+  "word": "World",
+  "start": 44.997,
+  "end": 45.194
+ },
+ {
+  "word": "Cup.",
+  "start": 45.252,
+  "end": 45.531
+ },
+ {
+  "word": "But",
+  "start": 45.554,
+  "end": 45.624
+ },
+ {
+  "word": "here's",
+  "start": 45.659,
+  "end": 45.821
+ },
+ {
+  "word": "the",
+  "start": 45.844,
+  "end": 45.914
+ },
+ {
+  "word": "wild",
+  "start": 45.949,
+  "end": 46.158
+ },
+ {
+  "word": "part.",
+  "start": 46.204,
+  "end": 46.457
+ },
+ {
+  "word": "In",
+  "start": 46.477,
+  "end": 46.546
+ },
+ {
+  "word": "the",
+  "start": 46.581,
+  "end": 46.651
+ },
+ {
+  "word": "final,",
+  "start": 46.697,
+  "end": 47.034
+ },
+ {
+  "word": "West",
+  "start": 47.069,
+  "end": 47.255
+ },
+ {
+  "word": "Germany",
+  "start": 47.301,
+  "end": 47.556
+ },
+ {
+  "word": "won",
+  "start": 47.615,
+  "end": 47.777
+ },
+ {
+  "word": "one-nil,",
+  "start": 47.905,
+  "end": 48.497
+ },
+ {
+  "word": "from",
+  "start": 48.52,
+  "end": 48.636
+ },
+ {
+  "word": "a",
+  "start": 48.683,
+  "end": 48.706
+ },
+ {
+  "word": "penalty.",
+  "start": 48.764,
+  "end": 49.275
+ },
+ {
+  "word": "The",
+  "start": 49.298,
+  "end": 49.379
+ },
+ {
+  "word": "keeper",
+  "start": 49.426,
+  "end": 49.635
+ },
+ {
+  "word": "who",
+  "start": 49.67,
+  "end": 49.751
+ },
+ {
+  "word": "only",
+  "start": 49.82,
+  "end": 49.983
+ },
+ {
+  "word": "played",
+  "start": 50.018,
+  "end": 50.18
+ },
+ {
+  "word": "because",
+  "start": 50.204,
+  "end": 50.366
+ },
+ {
+  "word": "of",
+  "start": 50.389,
+  "end": 50.436
+ },
+ {
+  "word": "a",
+  "start": 50.471,
+  "end": 50.494
+ },
+ {
+  "word": "broken",
+  "start": 50.529,
+  "end": 50.772
+ },
+ {
+  "word": "leg",
+  "start": 50.842,
+  "end": 51.098
+ },
+ {
+  "word": "had",
+  "start": 51.132,
+  "end": 51.214
+ },
+ {
+  "word": "saved",
+  "start": 51.283,
+  "end": 51.515
+ },
+ {
+  "word": "four",
+  "start": 51.562,
+  "end": 51.748
+ },
+ {
+  "word": "to",
+  "start": 51.783,
+  "end": 51.829
+ },
+ {
+  "word": "get",
+  "start": 51.852,
+  "end": 51.922
+ },
+ {
+  "word": "Argentina",
+  "start": 51.957,
+  "end": 52.421
+ },
+ {
+  "word": "there,",
+  "start": 52.479,
+  "end": 52.816
+ },
+ {
+  "word": "and",
+  "start": 52.839,
+  "end": 52.967
+ },
+ {
+  "word": "lost",
+  "start": 53.036,
+  "end": 53.315
+ },
+ {
+  "word": "it",
+  "start": 53.361,
+  "end": 53.408
+ },
+ {
+  "word": "to",
+  "start": 53.431,
+  "end": 53.478
+ },
+ {
+  "word": "one.",
+  "start": 53.57,
+  "end": 53.868
+ }
+]

@@ -1,5 +1,11 @@
 # Tools Guide
 
+> ## Nov 1, 2026: tool bug fixes
+> - **`cut_list.py`:** the clean copy of an overlay shot now goes to `_rawclips/<clip>_raw.mp4`, not `clips/`; `assemble.py` also ignores any `*_raw*` file in `clips/`. The contact sheet (`_check/sheet.jpg`) is drawn with PIL (`sheetlib.py`), since ffmpeg drawtext has no font config on this PC. Same for `footage_lib.py` sheets and `stock.py --sheet`.
+> - **`assemble.py --engine ffmpeg`** (or env `ASSEMBLE_ENGINE=ffmpeg`) never uses Drift. **`qa_short.py`** now FAILs flat green frames and 3+ frames of one flat colour (the Drift glitch).
+> - **`qa_short.py --full`:** the speech-to-text check runs again (PyAV 19 broke faster-whisper's audio decode; we decode with ffmpeg). The clipping check no longer false-alarms on stereo (it used a mono downmix, +3 dB); a real peak at or above -0.3 dBFS still fails.
+> - **`yt_schedule.py --card <UPLOAD.md>`** reads title and tags from the upload card (both layouts); `--dry-run` prints the parsed title and tag count.
+
 > ## Oct 22, 2026: no dead air
 > - **New `tighten_voice.py --folder F`** (owner: "make sure videos have no unnecessary pauses"):
 >   - cuts every silence over 0.09 s down to 0.06 s, measured on the audio itself (ffmpeg silencedetect at -38 dB), because TTS word timings swallow the pauses;

@@ -1,0 +1,42 @@
+{
+ "_note": "VOICE-READY pre-build (Oct 31 2026). Estimated start times assume ~255 wpm; cut_list.py/anchor_shots.py reset them from words.json after the voice. Copy to cuts.json after the voice exists. C01-C08 can be cut now; RN1-RN3 need src/record_night.mp4 (does not exist yet). est_* keys are planning only. C01 uses speed 0.8 because the face only lasts 1.7 s in the source: len is OUTPUT seconds (source used = len x speed = 1.68 s, 8.2-9.88; the source cuts away at 10.0).",
+ "sources": {
+  "M": "src/espn_curry_range_min.mp4",
+  "T": "src/espn_curry_trey_lal.mp4",
+  "C": "src/espn_curry_clinic_lal.mp4",
+  "H": "src/espn_curry_shimmy_lal.mp4",
+  "K": "src/espn_curry_cooking_lal_opener.mp4",
+  "G": "src/espn_gsw_lal_highlights.mp4",
+  "R": "src/record_night.mp4"
+ },
+ "promise": ["threes", "Curry", "record", "Ray Allen", "four thousand three hundredth"],
+ "shots": [
+  {"clip": "C01", "src": "M", "at": 8.2, "len": 2.1, "speed": 0.8, "x": 0.5, "kind": "face", "est_start": 0.0, "anchor": "No one",
+   "why": "Frame 1: Curry (#30) close-up smiling, Warriors at Timberwolves Oct 28 2026 (ESPN clip 50313021). Face holds 8.2-9.9 s only. ILLUSTRATIVE of the player",
+   "overlay": [{"text": "800+ AHEAD", "size": 150, "y": 300, "start": 0.1, "end": 2.1}]},
+  {"clip": "C02", "src": "T", "at": 11.0, "len": 2.4, "blurfit": true, "blurfit_aspect": 0.75, "x": 0.5, "kind": "action", "est_start": 2.1, "anchor": "threes",
+   "why": "Curry steps into a three, Lakers at Warriors Oct 30 2026 (ESPN clip 50332754). Check the release is on screen at 11.0-12.5 before cutting"},
+  {"clip": "RN1", "src": "R", "at": 0.0, "len": 2.0, "pending": true, "blurfit": true, "blurfit_aspect": 0.75, "x": 0.5, "kind": "action", "est_start": 4.5, "anchor": "On",
+   "why": "MILESTONE NIGHT (to come): build-up to the 4,300th three. ESPN clip of that game or NBA on X",
+   "overlay": [{"text": "4,300", "size": 260, "y": 300, "start": 0.2, "end": 2.0}]},
+  {"clip": "RN2", "src": "R", "at": 0.0, "len": 2.2, "pending": true, "blurfit": true, "blurfit_aspect": 0.75, "x": 0.5, "kind": "action", "est_start": 6.5, "anchor": "he made",
+   "why": "MILESTONE NIGHT (to come): the shot itself going in"},
+  {"clip": "RN3", "src": "R", "at": 0.0, "len": 2.0, "speed": 0.5, "shot_zoom": 1.3, "pending": true, "replay": true, "x": 0.5, "kind": "action", "est_start": 8.7, "anchor": "three-pointer",
+   "why": "REPLAY (the one replay): same shot as RN2 at half speed and 1.3x. Set at = RN2's at"},
+  {"clip": "C03", "src": "C", "at": 15.0, "len": 2.2, "x": 0.5, "kind": "action", "est_start": 10.7, "anchor": "The record",
+   "why": "Curry (#30) running up court, Lakers at Warriors Oct 30 2026 (ESPN clip 50333380). No Ray Allen footage from a league source, so the name is carried by the overlay",
+   "overlay": [{"text": "RAY ALLEN: 2,973", "size": 110, "y": 300, "start": 0.2, "end": 2.2}]},
+  {"clip": "C04", "src": "H", "at": 17.0, "len": 2.2, "x": 0.5, "kind": "action", "est_start": 13.5, "anchor": "He passed",
+   "why": "Curry (#30) celebrating with teammates (ESPN clip 50332985, Oct 30 2026). ILLUSTRATIVE: no public 2021 footage of the Dec 14 2021 shot",
+   "overlay": [{"text": "DEC 14, 2021", "size": 100, "y": 300, "start": 0.2, "end": 2.2}, {"text": "No. 2,974", "size": 70, "y": 460, "start": 0.2, "end": 2.2}]},
+  {"clip": "C05", "src": "M", "at": 10.0, "len": 2.2, "blurfit": true, "blurfit_aspect": 0.75, "x": 0.5, "kind": "action", "est_start": 17.0, "anchor": "Since then",
+   "why": "Curry dribbles and shoots a three, Warriors at Timberwolves Oct 28 2026 (ESPN clip 50313021). Different seconds from C01",
+   "overlay": [{"text": "1,300+ SINCE", "size": 120, "y": 300, "start": 0.2, "end": 2.2}]},
+  {"clip": "C06", "src": "K", "at": 46.3, "len": 2.3, "x": 0.5, "kind": "face", "est_start": 19.2, "anchor": "He has made",
+   "why": "Curry (#30) front face, Warriors at Lakers Oct 21 2026 opener (ESPN clip 50244237, 720p: check blow-up with footage_qc.py)",
+   "overlay": [{"text": "42.2% CAREER FROM DEEP", "size": 90, "y": 300, "start": 0.2, "end": 2.3}]},
+  {"clip": "C07", "src": "G", "at": 47.1, "len": 2.0, "speed": 0.7, "x": 0.5, "kind": "action", "est_start": 21.5, "anchor": "Second place",
+   "why": "PAYOFF image: Curry (#30) arms out, Warriors v Lakers Oct 30 2026 (ESPN highlights). Source shot lasts 47.3-48.6 s so slowed to 0.7. Fill the overlay with the night's gap",
+   "overlay": [{"text": "{GAP} BEHIND", "size": 130, "y": 300, "start": 0.2, "end": 2.0}]}
+ ]
+}

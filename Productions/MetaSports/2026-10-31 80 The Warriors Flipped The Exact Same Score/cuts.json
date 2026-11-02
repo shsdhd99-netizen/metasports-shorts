@@ -1,0 +1,257 @@
+{
+ "sources": {
+  "R": "src/recap.mp4",
+  "L": "src/luka_and1.mp4",
+  "S": "src/curry_shimmy.mp4",
+  "C": "src/curry_clinic.mp4"
+ },
+ "promise": [
+  "Lakers",
+  "23",
+  "lost"
+ ],
+ "shots": [
+  {
+   "clip": "H01",
+   "src": "L",
+   "at": 13.5,
+   "x": 0.5,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "kind": "action",
+   "anchor": "The Lakers led",
+   "why": "Luka drives and scores the and-1 in Q1 (ESPN clip 50332790)",
+   "overlay": [
+    {
+     "text": "38-15",
+     "size": 230,
+     "color": "orange",
+     "y": 330,
+     "start": 0.2,
+     "end": 3.2,
+     "sub": "LAKERS AFTER ONE"
+    }
+   ],
+   "len": 3.78
+  },
+  {
+   "clip": "H02",
+   "src": "R",
+   "at": 7.95,
+   "x": 0.55,
+   "speed": 0.5,
+   "kind": "face",
+   "anchor": "Luka had 21",
+   "why": "Luka close-up, Q1 (22 on the bug), half speed (ESPN recap 50333448)",
+   "overlay": [
+    {
+     "text": "21 PTS",
+     "size": 200,
+     "color": "orange",
+     "y": 330,
+     "start": 0.3,
+     "end": 1.9,
+     "sub": "LUKA IN Q1"
+    }
+   ],
+   "len": 2.35
+  },
+  {
+   "clip": "H03",
+   "src": "S",
+   "at": 11.9,
+   "x": 0.5,
+   "kind": "face",
+   "anchor": "Then the second",
+   "why": "Second quarter (bug 40-25 at its start): Curry's three and the bench erupt (ESPN clip 50332985)",
+   "overlay": [
+    {
+     "text": "38-15",
+     "size": 230,
+     "color": "green",
+     "y": 330,
+     "start": 1.3,
+     "end": 3.0,
+     "sub": "WARRIORS IN Q2"
+    }
+   ],
+   "len": 3.33
+  },
+  {
+   "clip": "H04",
+   "src": "L",
+   "at": 10.2,
+   "x": 0.5,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "kind": "face",
+   "anchor": "The exact same",
+   "why": "Luka looks up at the board in Q1 (25-14 bug), under the flipped score",
+   "overlay": [
+    {
+     "text": "38-15 LAKERS",
+     "size": 120,
+     "color": "orange",
+     "y": 330,
+     "start": 0.0,
+     "end": 1.9,
+     "sub": "Q1"
+    },
+    {
+     "text": "38-15 WARRIORS",
+     "size": 120,
+     "color": "green",
+     "y": 520,
+     "start": 0.7,
+     "end": 1.9,
+     "sub": "Q2"
+    }
+   ],
+   "len": 2.08
+  },
+  {
+   "clip": "H05",
+   "src": "R",
+   "at": 38.4,
+   "x": 0.72,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "kind": "action",
+   "anchor": "It was 53",
+   "why": "Warriors fans erupt at the end of the first half (53-50 on the bug with 5.5 s left, then the tie)",
+   "overlay": [
+    {
+     "text": "53-53",
+     "size": 230,
+     "color": "white",
+     "y": 330,
+     "start": 0.3,
+     "end": 2.2,
+     "sub": "HALFTIME"
+    }
+   ],
+   "len": 2.49
+  },
+  {
+   "clip": "H06",
+   "src": "R",
+   "at": 49.0,
+   "x": 0.35,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "kind": "face",
+   "anchor": "No team in",
+   "why": "Luka reacts to the Warriors run (Q3, ESPN recap)",
+   "overlay": [
+    {
+     "text": "FIRST EVER",
+     "size": 170,
+     "color": "white",
+     "y": 330,
+     "start": 0.2,
+     "end": 2.4,
+     "sub": "SHOT CLOCK ERA"
+    }
+   ],
+   "len": 3.18
+  },
+  {
+   "clip": "H06B",
+   "src": "R",
+   "at": 27.0,
+   "x": 0.5,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "kind": "action",
+   "anchor": "after one and",
+   "why": "Q2 (42-33 on the bug): the Warriors close in, Cup trophy behind (ESPN recap)",
+   "len": 2.48
+  },
+  {
+   "clip": "H07",
+   "src": "R",
+   "at": 70.6,
+   "x": 0.5,
+   "kind": "face",
+   "anchor": "Luka still",
+   "why": "Luka talks to the Warriors after a bucket in Q3 (ESPN recap)",
+   "overlay": [
+    {
+     "text": "37 PTS",
+     "size": 200,
+     "color": "orange",
+     "y": 330,
+     "start": 0.2,
+     "end": 2.0,
+     "sub": "LUKA"
+    }
+   ],
+   "len": 1.81
+  },
+  {
+   "clip": "H08",
+   "src": "S",
+   "at": 12.7,
+   "x": 0.5,
+   "kind": "face",
+   "anchor": "Curry passed",
+   "why": "Curry hits the shimmy after a three (ESPN clip 50332985)",
+   "overlay": [
+    {
+     "text": "18TH",
+     "size": 200,
+     "color": "green",
+     "y": 330,
+     "start": 0.2,
+     "end": 2.2,
+     "sub": "ALL-TIME SCORING"
+    }
+   ],
+   "len": 1.72
+  },
+  {
+   "clip": "H08B",
+   "src": "S",
+   "at": 12.7,
+   "x": 0.5,
+   "speed": 0.5,
+   "zoom": 1.25,
+   "replay": true,
+   "kind": "face",
+   "anchor": "all-time list",
+   "why": "replay of the shimmy at half speed, closer",
+   "len": 1.12
+  },
+  {
+   "clip": "H09",
+   "src": "C",
+   "at": 13.0,
+   "x": 0.5,
+   "kind": "face",
+   "anchor": "And no team",
+   "why": "Q4 (84-101 on the bug): Curry and the Warriors on the way to the 17-point win (ESPN clip 50333380)",
+   "overlay": [
+    {
+     "text": "WON BY 17",
+     "size": 190,
+     "color": "orange",
+     "y": 330,
+     "start": 0.4,
+     "end": 1.6,
+     "sub": "DOWN 23 AFTER ONE"
+    }
+   ],
+   "len": 2.08
+  },
+  {
+   "clip": "H09B",
+   "src": "C",
+   "at": 15.0,
+   "x": 0.5,
+   "kind": "face",
+   "anchor": "has won by",
+   "why": "Curry in transition, Q4 (101 for GSW)",
+   "len": 2.49
+  }
+ ]
+}

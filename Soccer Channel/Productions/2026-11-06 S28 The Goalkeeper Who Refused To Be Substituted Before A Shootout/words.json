@@ -1,0 +1,997 @@
+[
+ {
+  "word": "The",
+  "start": 0.0,
+  "end": 0.128
+ },
+ {
+  "word": "goalkeeper",
+  "start": 0.197,
+  "end": 0.65
+ },
+ {
+  "word": "who",
+  "start": 0.685,
+  "end": 0.766
+ },
+ {
+  "word": "refused",
+  "start": 0.836,
+  "end": 1.242
+ },
+ {
+  "word": "to",
+  "start": 1.265,
+  "end": 1.312
+ },
+ {
+  "word": "be",
+  "start": 1.358,
+  "end": 1.416
+ },
+ {
+  "word": "substituted",
+  "start": 1.44,
+  "end": 1.916
+ },
+ {
+  "word": "before",
+  "start": 1.962,
+  "end": 2.218
+ },
+ {
+  "word": "a",
+  "start": 2.241,
+  "end": 2.264
+ },
+ {
+  "word": "shootout.",
+  "start": 2.31,
+  "end": 2.759
+ },
+ {
+  "word": "Back",
+  "start": 2.785,
+  "end": 2.971
+ },
+ {
+  "word": "in",
+  "start": 3.017,
+  "end": 3.064
+ },
+ {
+  "word": "2019,",
+  "start": 3.099,
+  "end": 3.877
+ },
+ {
+  "word": "Chelsea",
+  "start": 3.923,
+  "end": 4.202
+ },
+ {
+  "word": "played",
+  "start": 4.236,
+  "end": 4.411
+ },
+ {
+  "word": "Manchester",
+  "start": 4.457,
+  "end": 4.817
+ },
+ {
+  "word": "City",
+  "start": 4.863,
+  "end": 5.061
+ },
+ {
+  "word": "in",
+  "start": 5.084,
+  "end": 5.13
+ },
+ {
+  "word": "the",
+  "start": 5.165,
+  "end": 5.235
+ },
+ {
+  "word": "League",
+  "start": 5.281,
+  "end": 5.456
+ },
+ {
+  "word": "Cup",
+  "start": 5.479,
+  "end": 5.618
+ },
+ {
+  "word": "final",
+  "start": 5.688,
+  "end": 5.978
+ },
+ {
+  "word": "at",
+  "start": 6.024,
+  "end": 6.082
+ },
+ {
+  "word": "Wembley.",
+  "start": 6.141,
+  "end": 6.582
+ },
+ {
+  "word": "Still",
+  "start": 6.617,
+  "end": 6.884
+ },
+ {
+  "word": "goalless,",
+  "start": 6.976,
+  "end": 7.499
+ },
+ {
+  "word": "deep",
+  "start": 7.592,
+  "end": 7.801
+ },
+ {
+  "word": "into",
+  "start": 7.847,
+  "end": 7.975
+ },
+ {
+  "word": "extra",
+  "start": 8.045,
+  "end": 8.288
+ },
+ {
+  "word": "time.",
+  "start": 8.323,
+  "end": 8.695
+ },
+ {
+  "word": "Chelsea's",
+  "start": 8.741,
+  "end": 9.078
+ },
+ {
+  "word": "goalkeeper,",
+  "start": 9.113,
+  "end": 9.519
+ },
+ {
+  "word": "Kepa",
+  "start": 9.554,
+  "end": 9.809
+ },
+ {
+  "word": "Arrizabalaga,",
+  "start": 9.844,
+  "end": 10.61
+ },
+ {
+  "word": "was",
+  "start": 10.645,
+  "end": 10.761
+ },
+ {
+  "word": "struggling",
+  "start": 10.796,
+  "end": 11.144
+ },
+ {
+  "word": "with",
+  "start": 11.179,
+  "end": 11.283
+ },
+ {
+  "word": "cramp.",
+  "start": 11.33,
+  "end": 11.667
+ },
+ {
+  "word": "So",
+  "start": 11.701,
+  "end": 11.794
+ },
+ {
+  "word": "his",
+  "start": 11.864,
+  "end": 11.957
+ },
+ {
+  "word": "manager,",
+  "start": 12.038,
+  "end": 12.468
+ },
+ {
+  "word": "Maurizio",
+  "start": 12.503,
+  "end": 12.862
+ },
+ {
+  "word": "Sarri,",
+  "start": 12.932,
+  "end": 13.28
+ },
+ {
+  "word": "got",
+  "start": 13.304,
+  "end": 13.443
+ },
+ {
+  "word": "a",
+  "start": 13.466,
+  "end": 13.489
+ },
+ {
+  "word": "substitute",
+  "start": 13.536,
+  "end": 13.942
+ },
+ {
+  "word": "ready",
+  "start": 13.965,
+  "end": 14.128
+ },
+ {
+  "word": "for",
+  "start": 14.174,
+  "end": 14.244
+ },
+ {
+  "word": "the",
+  "start": 14.279,
+  "end": 14.348
+ },
+ {
+  "word": "penalties:",
+  "start": 14.383,
+  "end": 14.964
+ },
+ {
+  "word": "Willy",
+  "start": 14.999,
+  "end": 15.208
+ },
+ {
+  "word": "Caballero.",
+  "start": 15.254,
+  "end": 15.927
+ },
+ {
+  "word": "A",
+  "start": 15.951,
+  "end": 15.974
+ },
+ {
+  "word": "shootout",
+  "start": 16.02,
+  "end": 16.311
+ },
+ {
+  "word": "specialist.",
+  "start": 16.345,
+  "end": 16.926
+ },
+ {
+  "word": "Three",
+  "start": 16.949,
+  "end": 17.112
+ },
+ {
+  "word": "years",
+  "start": 17.135,
+  "end": 17.274
+ },
+ {
+  "word": "earlier,",
+  "start": 17.309,
+  "end": 17.611
+ },
+ {
+  "word": "Caballero",
+  "start": 17.634,
+  "end": 18.075
+ },
+ {
+  "word": "had",
+  "start": 18.099,
+  "end": 18.168
+ },
+ {
+  "word": "saved",
+  "start": 18.215,
+  "end": 18.4
+ },
+ {
+  "word": "three",
+  "start": 18.435,
+  "end": 18.633
+ },
+ {
+  "word": "penalties",
+  "start": 18.667,
+  "end": 19.004
+ },
+ {
+  "word": "to",
+  "start": 19.039,
+  "end": 19.085
+ },
+ {
+  "word": "win",
+  "start": 19.132,
+  "end": 19.26
+ },
+ {
+  "word": "this",
+  "start": 19.306,
+  "end": 19.41
+ },
+ {
+  "word": "same",
+  "start": 19.445,
+  "end": 19.654
+ },
+ {
+  "word": "trophy",
+  "start": 19.677,
+  "end": 19.991
+ },
+ {
+  "word": "for",
+  "start": 20.037,
+  "end": 20.107
+ },
+ {
+  "word": "Manchester",
+  "start": 20.142,
+  "end": 20.478
+ },
+ {
+  "word": "City.",
+  "start": 20.536,
+  "end": 20.873
+ },
+ {
+  "word": "The",
+  "start": 20.896,
+  "end": 20.966
+ },
+ {
+  "word": "board",
+  "start": 21.001,
+  "end": 21.128
+ },
+ {
+  "word": "went",
+  "start": 21.152,
+  "end": 21.245
+ },
+ {
+  "word": "up",
+  "start": 21.268,
+  "end": 21.314
+ },
+ {
+  "word": "with",
+  "start": 21.337,
+  "end": 21.43
+ },
+ {
+  "word": "Kepa's",
+  "start": 21.465,
+  "end": 21.744
+ },
+ {
+  "word": "number.",
+  "start": 21.79,
+  "end": 22.162
+ },
+ {
+  "word": "And",
+  "start": 22.197,
+  "end": 22.289
+ },
+ {
+  "word": "Kepa",
+  "start": 22.336,
+  "end": 22.591
+ },
+ {
+  "word": "waved",
+  "start": 22.649,
+  "end": 22.893
+ },
+ {
+  "word": "it",
+  "start": 22.928,
+  "end": 22.974
+ },
+ {
+  "word": "away.",
+  "start": 23.009,
+  "end": 23.346
+ },
+ {
+  "word": "The",
+  "start": 23.369,
+  "end": 23.439
+ },
+ {
+  "word": "referee,",
+  "start": 23.509,
+  "end": 24.019
+ },
+ {
+  "word": "Jon",
+  "start": 24.089,
+  "end": 24.321
+ },
+ {
+  "word": "Moss,",
+  "start": 24.379,
+  "end": 24.704
+ },
+ {
+  "word": "asked",
+  "start": 24.728,
+  "end": 24.902
+ },
+ {
+  "word": "him",
+  "start": 24.925,
+  "end": 24.995
+ },
+ {
+  "word": "to",
+  "start": 25.018,
+  "end": 25.064
+ },
+ {
+  "word": "leave.",
+  "start": 25.122,
+  "end": 25.413
+ },
+ {
+  "word": "Kepa",
+  "start": 25.427,
+  "end": 25.671
+ },
+ {
+  "word": "still",
+  "start": 25.729,
+  "end": 25.903
+ },
+ {
+  "word": "refused.",
+  "start": 25.949,
+  "end": 26.599
+ },
+ {
+  "word": "Sarri",
+  "start": 26.623,
+  "end": 26.866
+ },
+ {
+  "word": "threw",
+  "start": 26.913,
+  "end": 27.052
+ },
+ {
+  "word": "down",
+  "start": 27.087,
+  "end": 27.192
+ },
+ {
+  "word": "a",
+  "start": 27.215,
+  "end": 27.238
+ },
+ {
+  "word": "water",
+  "start": 27.284,
+  "end": 27.505
+ },
+ {
+  "word": "bottle",
+  "start": 27.528,
+  "end": 27.714
+ },
+ {
+  "word": "and",
+  "start": 27.737,
+  "end": 27.807
+ },
+ {
+  "word": "nearly",
+  "start": 27.865,
+  "end": 28.062
+ },
+ {
+  "word": "marched",
+  "start": 28.132,
+  "end": 28.376
+ },
+ {
+  "word": "into",
+  "start": 28.399,
+  "end": 28.492
+ },
+ {
+  "word": "the",
+  "start": 28.55,
+  "end": 28.62
+ },
+ {
+  "word": "tunnel.",
+  "start": 28.643,
+  "end": 28.968
+ },
+ {
+  "word": "And",
+  "start": 28.991,
+  "end": 29.084
+ },
+ {
+  "word": "Kepa",
+  "start": 29.142,
+  "end": 29.386
+ },
+ {
+  "word": "stayed",
+  "start": 29.444,
+  "end": 29.711
+ },
+ {
+  "word": "on.",
+  "start": 29.769,
+  "end": 30.048
+ },
+ {
+  "word": "Then",
+  "start": 30.071,
+  "end": 30.21
+ },
+ {
+  "word": "came",
+  "start": 30.257,
+  "end": 30.419
+ },
+ {
+  "word": "the",
+  "start": 30.443,
+  "end": 30.512
+ },
+ {
+  "word": "shootout.",
+  "start": 30.547,
+  "end": 30.985
+ },
+ {
+  "word": "Jorginho",
+  "start": 30.997,
+  "end": 31.473
+ },
+ {
+  "word": "missed.",
+  "start": 31.531,
+  "end": 31.961
+ },
+ {
+  "word": "Chelsea's",
+  "start": 31.984,
+  "end": 32.297
+ },
+ {
+  "word": "keeper",
+  "start": 32.332,
+  "end": 32.576
+ },
+ {
+  "word": "let",
+  "start": 32.634,
+  "end": 32.75
+ },
+ {
+  "word": "Sergio",
+  "start": 32.82,
+  "end": 33.133
+ },
+ {
+  "word": "Aguero's",
+  "start": 33.157,
+  "end": 33.528
+ },
+ {
+  "word": "weak",
+  "start": 33.598,
+  "end": 33.772
+ },
+ {
+  "word": "penalty",
+  "start": 33.83,
+  "end": 34.19
+ },
+ {
+  "word": "go",
+  "start": 34.248,
+  "end": 34.352
+ },
+ {
+  "word": "under",
+  "start": 34.445,
+  "end": 34.677
+ },
+ {
+  "word": "him.",
+  "start": 34.736,
+  "end": 34.933
+ },
+ {
+  "word": "Then",
+  "start": 34.956,
+  "end": 35.072
+ },
+ {
+  "word": "he",
+  "start": 35.095,
+  "end": 35.142
+ },
+ {
+  "word": "saved",
+  "start": 35.223,
+  "end": 35.502
+ },
+ {
+  "word": "Leroy",
+  "start": 35.548,
+  "end": 35.815
+ },
+ {
+  "word": "Sane's.",
+  "start": 35.897,
+  "end": 36.291
+ },
+ {
+  "word": "But",
+  "start": 36.315,
+  "end": 36.407
+ },
+ {
+  "word": "it",
+  "start": 36.442,
+  "end": 36.489
+ },
+ {
+  "word": "wasn't",
+  "start": 36.535,
+  "end": 36.791
+ },
+ {
+  "word": "enough.",
+  "start": 36.849,
+  "end": 37.255
+ },
+ {
+  "word": "Raheem",
+  "start": 37.313,
+  "end": 37.557
+ },
+ {
+  "word": "Sterling",
+  "start": 37.615,
+  "end": 37.917
+ },
+ {
+  "word": "scored",
+  "start": 37.975,
+  "end": 38.242
+ },
+ {
+  "word": "the",
+  "start": 38.265,
+  "end": 38.335
+ },
+ {
+  "word": "last",
+  "start": 38.393,
+  "end": 38.613
+ },
+ {
+  "word": "kick,",
+  "start": 38.66,
+  "end": 38.927
+ },
+ {
+  "word": "and",
+  "start": 38.95,
+  "end": 39.043
+ },
+ {
+  "word": "City",
+  "start": 39.113,
+  "end": 39.333
+ },
+ {
+  "word": "won",
+  "start": 39.391,
+  "end": 39.565
+ },
+ {
+  "word": "four-three.",
+  "start": 39.658,
+  "end": 40.262
+ },
+ {
+  "word": "Kepa",
+  "start": 40.296,
+  "end": 40.529
+ },
+ {
+  "word": "was",
+  "start": 40.575,
+  "end": 40.668
+ },
+ {
+  "word": "fined",
+  "start": 40.749,
+  "end": 41.039
+ },
+ {
+  "word": "a",
+  "start": 41.063,
+  "end": 41.086
+ },
+ {
+  "word": "week's",
+  "start": 41.179,
+  "end": 41.399
+ },
+ {
+  "word": "wages.",
+  "start": 41.434,
+  "end": 41.864
+ },
+ {
+  "word": "Sarri",
+  "start": 41.922,
+  "end": 42.166
+ },
+ {
+  "word": "dropped",
+  "start": 42.224,
+  "end": 42.433
+ },
+ {
+  "word": "him",
+  "start": 42.456,
+  "end": 42.526
+ },
+ {
+  "word": "for",
+  "start": 42.56,
+  "end": 42.63
+ },
+ {
+  "word": "the",
+  "start": 42.653,
+  "end": 42.723
+ },
+ {
+  "word": "next",
+  "start": 42.758,
+  "end": 42.909
+ },
+ {
+  "word": "game.",
+  "start": 42.955,
+  "end": 43.292
+ },
+ {
+  "word": "Later",
+  "start": 43.315,
+  "end": 43.524
+ },
+ {
+  "word": "he",
+  "start": 43.559,
+  "end": 43.605
+ },
+ {
+  "word": "said,",
+  "start": 43.652,
+  "end": 43.884
+ },
+ {
+  "word": "I",
+  "start": 43.919,
+  "end": 43.954
+ },
+ {
+  "word": "am",
+  "start": 44.023,
+  "end": 44.093
+ },
+ {
+  "word": "not",
+  "start": 44.151,
+  "end": 44.267
+ },
+ {
+  "word": "proud",
+  "start": 44.313,
+  "end": 44.511
+ },
+ {
+  "word": "about",
+  "start": 44.534,
+  "end": 44.673
+ },
+ {
+  "word": "what",
+  "start": 44.697,
+  "end": 44.789
+ },
+ {
+  "word": "happened.",
+  "start": 44.836,
+  "end": 45.242
+ },
+ {
+  "word": "But",
+  "start": 45.265,
+  "end": 45.358
+ },
+ {
+  "word": "here's",
+  "start": 45.393,
+  "end": 45.556
+ },
+ {
+  "word": "the",
+  "start": 45.579,
+  "end": 45.649
+ },
+ {
+  "word": "strange",
+  "start": 45.672,
+  "end": 45.904
+ },
+ {
+  "word": "part.",
+  "start": 45.95,
+  "end": 46.241
+ },
+ {
+  "word": "He",
+  "start": 46.264,
+  "end": 46.31
+ },
+ {
+  "word": "wouldn't",
+  "start": 46.334,
+  "end": 46.519
+ },
+ {
+  "word": "make",
+  "start": 46.543,
+  "end": 46.67
+ },
+ {
+  "word": "way",
+  "start": 46.717,
+  "end": 46.891
+ },
+ {
+  "word": "for",
+  "start": 46.937,
+  "end": 47.007
+ },
+ {
+  "word": "the",
+  "start": 47.042,
+  "end": 47.111
+ },
+ {
+  "word": "man",
+  "start": 47.158,
+  "end": 47.309
+ },
+ {
+  "word": "who'd",
+  "start": 47.332,
+  "end": 47.483
+ },
+ {
+  "word": "saved",
+  "start": 47.518,
+  "end": 47.762
+ },
+ {
+  "word": "three",
+  "start": 47.808,
+  "end": 47.971
+ },
+ {
+  "word": "penalties",
+  "start": 48.017,
+  "end": 48.377
+ },
+ {
+  "word": "to",
+  "start": 48.412,
+  "end": 48.458
+ },
+ {
+  "word": "win",
+  "start": 48.516,
+  "end": 48.644
+ },
+ {
+  "word": "this",
+  "start": 48.679,
+  "end": 48.783
+ },
+ {
+  "word": "trophy.",
+  "start": 48.83,
+  "end": 49.294
+ },
+ {
+  "word": "He",
+  "start": 49.317,
+  "end": 49.387
+ },
+ {
+  "word": "saved",
+  "start": 49.457,
+  "end": 49.677
+ },
+ {
+  "word": "one,",
+  "start": 49.735,
+  "end": 50.037
+ },
+ {
+  "word": "and",
+  "start": 50.06,
+  "end": 50.165
+ },
+ {
+  "word": "lost",
+  "start": 50.235,
+  "end": 50.525
+ },
+ {
+  "word": "it",
+  "start": 50.571,
+  "end": 50.618
+ },
+ {
+  "word": "to",
+  "start": 50.641,
+  "end": 50.687
+ },
+ {
+  "word": "that",
+  "start": 50.734,
+  "end": 50.827
+ },
+ {
+  "word": "man's",
+  "start": 50.873,
+  "end": 51.094
+ },
+ {
+  "word": "old",
+  "start": 51.117,
+  "end": 51.233
+ },
+ {
+  "word": "club.",
+  "start": 51.279,
+  "end": 51.686
+ }
+]

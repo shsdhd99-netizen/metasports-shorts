@@ -1,0 +1,42 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Montserrat Black,86,&H00FFFFFF,&H00FFFFFF,&H00000000,&H99000000,0,0,0,0,95,100,1,0,1,6,3,5,70,70,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.74,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NIKOLA JOKIC
+Dialogue: 0,0:00:00.74,0:00:01.51,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx74\fscy74\t(0,90,\fscx86\fscy86)}WAS DRAFTED DURING
+Dialogue: 0,0:00:01.51,0:00:02.04,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}A TACO BELL
+Dialogue: 0,0:00:02.04,0:00:02.55,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}COMMERCIAL.
+Dialogue: 0,0:00:02.55,0:00:03.32,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}PICK FORTY-ONE
+Dialogue: 0,0:00:03.32,0:00:03.89,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SHOWED UP ONLY
+Dialogue: 0,0:00:03.89,0:00:04.33,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AS A NAME
+Dialogue: 0,0:00:04.33,0:00:04.74,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AT THE BOTTOM
+Dialogue: 0,0:00:04.74,0:00:05.38,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}OF THE SCREEN.
+Dialogue: 0,0:00:05.38,0:00:06.01,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}JOKIC SAYS
+Dialogue: 0,0:00:06.01,0:00:06.56,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HE HAS NEVER
+Dialogue: 0,0:00:06.56,0:00:07.23,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}EATEN TACO BELL
+Dialogue: 0,0:00:07.23,0:00:07.78,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BECAUSE OF IT.
+Dialogue: 0,0:00:07.78,0:00:08.30,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BUT NOW
+Dialogue: 0,0:00:08.30,0:00:08.74,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HE HAS MORE
+Dialogue: 0,0:00:08.74,0:00:09.31,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx79\fscy79\t(0,90,\fscx92\fscy92)}THAN TWO HUNDRED
+Dialogue: 0,0:00:09.31,0:00:10.09,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TRIPLE-DOUBLES.
+Dialogue: 0,0:00:10.09,0:00:11.03,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx61\fscy61\t(0,90,\fscx71\fscy71)}ONLY RUSSELL WESTBROOK
+Dialogue: 0,0:00:11.03,0:00:11.59,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HAS MORE.
+Dialogue: 0,0:00:11.59,0:00:12.24,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx79\fscy79\t(0,90,\fscx92\fscy92)}WESTBROOK NEEDED
+Dialogue: 0,0:00:12.24,0:00:13.06,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx76\fscy76\t(0,90,\fscx88\fscy88)}ELEVEN SEVENTY-FIVE
+Dialogue: 0,0:00:13.06,0:00:13.68,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}GAMES TO REACH
+Dialogue: 0,0:00:13.68,0:00:14.40,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TWO HUNDRED.
+Dialogue: 0,0:00:14.40,0:00:15.01,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}JOKIC DID IT
+Dialogue: 0,0:00:15.01,0:00:15.88,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx84\fscy84\t(0,90,\fscx98\fscy98)}IN EIGHT FOURTEEN.
+Dialogue: 0,0:00:15.88,0:00:16.22,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE PICK
+Dialogue: 0,0:00:16.22,0:00:16.85,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NOBODY WATCHED
+Dialogue: 0,0:00:16.85,0:00:17.22,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IS CHASING
+Dialogue: 0,0:00:17.22,0:00:17.93,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE RECORD.

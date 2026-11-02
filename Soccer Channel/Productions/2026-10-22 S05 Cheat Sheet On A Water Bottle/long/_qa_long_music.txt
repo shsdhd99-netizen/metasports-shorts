@@ -1,0 +1,68 @@
+FAIL
+  warn cards 27% (guideline <=25%)
+  warn two cards in a row at shots [37, 38, 39, 44, 45] (the critic flags back-to-back reading)
+  warn hook has no number or conflict/question word in the first 8 words: 'goalkeepers who hid a cheat sheet on their' (state the question the viewer needs answered by 1.5 s)
+  warn a background bed is baked in: the house default is none since Oct 14 night (Library/Sound Library.md); say why in PACKAGE.md
+  warn music track 'Story pulse (narrated football stories, full length)' is a candidate the owner has not approved by ear
+  warn footage: shot 1 A01.mp4: soft (edge contrast 42 vs this Short's median 289): motion blur or a poor encode
+  warn footage: shot 1 A01.mp4: very busy picture (90th-percentile frame change 38.3; top 10% of our clips): fast action, a whip pan or shake; check it reads on a phone
+  warn footage: shot 5 A05.mp4: soft (edge contrast 48 vs this Short's median 289): motion blur or a poor encode
+  warn footage: shot 6 A06.mp4: soft (edge contrast 74 vs this Short's median 289): motion blur or a poor encode
+  warn footage: shot 12 A12.mp4: soft (edge contrast 30 vs this Short's median 289): motion blur or a poor encode
+  warn footage: shot 13 A13.mp4: soft (edge contrast 22 vs this Short's median 289): motion blur or a poor encode
+  warn footage: shot 14 A14.mp4: soft (edge contrast 61 vs this Short's median 289): motion blur or a poor encode
+  warn footage: shot 19 A19.mp4: soft (edge contrast 70 vs this Short's median 289): motion blur or a poor encode
+  warn footage: shot 21 A21.mp4: soft (edge contrast 19 vs this Short's median 289): motion blur or a poor encode
+  warn footage: shot 27 A26.mp4: soft (edge contrast 23 vs this Short's median 289): motion blur or a poor encode
+  warn footage: shot 28 A27.mp4: soft (edge contrast 29 vs this Short's median 289): motion blur or a poor encode
+  warn footage: shot 30 A29.mp4: soft (edge contrast 97 vs this Short's median 289): motion blur or a poor encode
+  warn footage: shot 31 A30.mp4: blown up 2.67x (1280x720, crop zoom 1.0; house standard is a 1080p source, about 1.8x): note in PACKAGE.md that no better source exists
+  warn footage: shot 31 A30.mp4: soft (edge contrast 36 vs this Short's median 289): motion blur or a poor encode
+  warn footage: shot 32 A31.mp4: blown up 2.67x (1280x720, crop zoom 1.0; house standard is a 1080p source, about 1.8x): note in PACKAGE.md that no better source exists
+  warn footage: shot 32 A31.mp4: soft (edge contrast 21 vs this Short's median 289): motion blur or a poor encode
+  warn footage: shot 34 A32b.mp4: blown up 2.67x (1280x720, crop zoom 1.0; house standard is a 1080p source, about 1.8x): note in PACKAGE.md that no better source exists
+  warn footage: shot 35 A33.mp4: blown up 2.67x (1280x720, crop zoom 1.0; house standard is a 1080p source, about 1.8x): note in PACKAGE.md that no better source exists
+  warn footage: shot 35 A33.mp4: soft (edge contrast 63 vs this Short's median 289): motion blur or a poor encode
+  warn footage: shot 36 A34.mp4: soft (edge contrast 56 vs this Short's median 289): motion blur or a poor encode
+  warn footage: source size unknown for 2 clip(s) (A39.mp4, A40.mp4): cut new clips with broll.py cut (it logs it) or add 'source WxH' to their notes
+  warn export: the export says what the script says (94% word match after number folding); 16 difference(s) to listen for (speech-to-text mishears names): heard 'hit' vs script 'hid'; heard 'columbia' vs script 'colombia'; heard 'gary' vs script 'yerry'; heard 'columbia' vs script 'colombia'; heard 'columbia's' vs script 'colombia's'; heard 'mateuso ribi' vs script 'mateus uribe'; heard 'columbia's' vs script 'colombia's'; heard 'baca' vs script 'bacca'
+  ok   every shot has a kind
+  ok   length 69.3s (TikTok/Instagram long cut, over 1 minute)
+  ok   length 69.3s in 65-85 (Ahmed's network: median 77 s)
+  ok   voice starts at once
+  ok   opens on 'Goalkeepers'
+  ok   2 shots in first 3 s (title card holds)
+  ok   real action footage in first 3 s
+  ok   title promise (sheet bottle note notes) back at 18 s
+  ok   6 names in the first 15 s
+  ok   hook line has a name/number/stakes
+  ok   no shot too long
+  ok   average shot 1.5s
+  ok   most-used clip A07.mp4 5%
+  ok   46 source clips
+  ok   talking head 21%
+  ok   b-roll 52%
+  ok   no repeated neighbours
+  ok   no footage shown twice
+  ok   no dead air inside the speech
+  ok   loudness -14.6 LUFS
+  ok   no frozen footage
+  ok   no black frames
+  ok   frame 1 is lit
+  ok   sound has died away at the end
+  ok   quote shots play at normal speed (lip sync)
+  ok   no frozen holds
+  ok   music licence logged (eleven_story_01.mp3)
+  ok   music licence status: candidate (owner has not listened)
+  ok   music bed -20.0 LU under the voice
+  ok   speech band clear of music: 59 dB (1-4 kHz, before ducking)
+  ok   every clip has a source-log row
+  ok   export: captions match script.txt word for word (268 words)
+  ok   export: no overlapping captions
+  ok   export: every spoken word is captioned while it is said
+  ok   export: captions centred at 50%-50% of the height (house band 45-62%)
+  ok   export: widest caption about 696 px (under 715: clear of the right-hand buttons on YouTube, TikTok and Reels)
+  ok   export: picture and sound both 69.30 s
+  ok   export: voice.mp3: no clipping (peak -2.8 dBFS)
+  ok   export: export audio: no clipping (peak -2.0 dBFS)
+  FIX  clips not verified (watch them: player, uniform, scorebug, date match the line): ['A01.mp4', 'A02.mp4', 'A03.mp4', 'A04.mp4', 'A05.mp4', 'A06.mp4', 'A07.mp4', 'A08.mp4', 'A09.mp4', 'A10.mp4', 'A11.mp4', 'A12.mp4', 'A13.mp4', 'A14.mp4', 'A15.mp4', 'A16.mp4', 'A17.mp4', 'A18.mp4', 'A19.mp4', 'A20.mp4', 'A21.mp4', 'A22.mp4', 'A22b.mp4', 'A23.mp4', 'A24.mp4', 'A25.mp4', 'A26.mp4', 'A27.mp4', 'A28.mp4', 'A29.mp4', 'A30.mp4', 'A31.mp4', 'A32.mp4', 'A32b.mp4', 'A33.mp4', 'A34.mp4', 'A35.mp4', 'A36.mp4', 'A36b.mp4', 'A37.mp4', 'A38.mp4', 'A39.mp4', 'A40.mp4', 'A40b.mp4', 'A41.mp4', 'A41b.mp4']

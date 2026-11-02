@@ -8,6 +8,15 @@ description: >
   whole process", or "make N Shorts" in the cloud. Argument: a topic, or a number of Shorts to find topics for.
 ---
 
+> **Full Review (Nov 1, 2026) - read before building** (`Research Notes/Full Review for Retention (Nov 2026).md`; THE RULES §0 in `MetaSports - Playbook.md`):
+> 1. The edit is not what separates 3K from 30K; the **premise** and the **first 1-3 s** are. Run `python Tools/idea_gauge.py` on the idea and skip flop shapes (rules, record counts, hypotheticals, lesser-name lists).
+> 2. **NBA voice 22 s or less** (QA warns past 24 s) [V small]; line 1 is 11 words or fewer; FC stays 45-59 s. For FC, the next two goalkeeper Shorts are an A/B: open on the first story sentence over the action with the title as on-screen text only (change 5).
+> 3. Footage big and moving from frame 1; no black fill (`--fill-brightness 0` .. `-0.04` on `broll.py cut` / `"fill_brightness"` in cuts.json); `python Tools/edit_lint.py --folder <F>` runs inside `qa_short` and its flags are warnings to fix (zoom 1.5 on a small hook subject, full frame when a scorebug is the proof, no same angle 3x in the first 8 s).
+> 4. **No decorative SFX** (one only when it is the sound of a visible event). No punch-ins, freeze frames, arrows or emoji "because a winner has one": no evidence.
+> 5. Time-free wording in line 1 ("just", "yesterday", "tonight") unless it posts the same day; one number on screen at a time; every "still/record/first/never/only/most" line gets a source row checked on the posting day (`qa_short` lists them).
+> 6. Caption A/B in progress: build 2 Shorts per channel with `--caption-style clank` (NBA) and/or `--color-rule word` (`assemble.py`); log which in the Outcome Log. Default look unchanged.
+> 7. Judge at 72 h against the channel's last 10, not one number.
+
 # /cloud-short  (run from the repo root; the user is non-technical, keep chat short and plain)
 
 NEVER upload or publish anything and never open YouTube Studio. The user posts the files. Commit and push each finished Short.
@@ -156,7 +165,7 @@ then `python Tools/assemble.py --folder "<folder>" [--caption-style clank|metasp
 Rules: Oct 26 overnight review ([V] `Research Notes/Posting Study (Oct 26, 2026).md`; [V] `Research Notes/Similar Channels (Oct 26, 2026).md` §1).
 - **Title:** 3 options, each a short statement pointing at the moment or the claim ("He Pretended To Be Klay Thompson"); true to the video. Title wording is a small factor: don't score titles and don't gate on them. No hashtag or one (#nba). No ALL-CAPS words.
 - **Description:** leave it empty.
-- **Tags (optional):** 3-8 relevant tags, about 100-150 characters: the names, the team, the event, common misspellings. Never fill the 500 characters. Check with `python Tools/tags_fit.py --cap 150 "tag1, tag2, ..."`.
+- **Tags:** fill the box to 490 characters (owner, Nov 1: "go back to filling"), most relevant first: the names, the team or club, the event, common misspellings, then wider topic tags. Check with `python Tools/tags_fit.py "tag1, tag2, ..."` (it counts the way YouTube does and stops at 490).
 - **Pinned comment:** the two-sided argument.
 - **Cover:** one, `python Tools/thumb.py --shape short` (keep the face visible; single quotes around text with $). The feed shows no custom thumbnails: 5 minutes at most.
 - **Slot:** `UPLOAD SCHEDULE.md` (NBA 11 AM ET; news the morning after the game). Write down the go-live time. Judge at 72 h.

@@ -1,0 +1,138 @@
+{
+ "length_s": 30.6,
+ "topic": "An escalating competition of taping multiple basketballs together to make trick shots into vertically stacked hoops.",
+ "lane": "moment",
+ "hook": {
+  "first_words": "This shot actually counts for 30 points!",
+  "first_frame": "A person throwing a stack of basketballs attached vertically towards a basketball hoop indoors.",
+  "on_screen_text_0_3s": "This shot actually counts for 30 points!",
+  "shots_in_first_3s": 3
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 1.7,
+   "shows": "A man throwing a tall stack of taped pink basketballs into a basketball hoop.",
+   "kind": "action"
+  },
+  {
+   "start_s": 1.7,
+   "end_s": 2.9,
+   "shows": "A man standing next to a very tall stack of taped basketballs outdoors, with 6'3 on screen.",
+   "kind": "face"
+  },
+  {
+   "start_s": 2.9,
+   "end_s": 4.5,
+   "shows": "A man shooting a tall stack of basketballs on an outdoor court.",
+   "kind": "action"
+  },
+  {
+   "start_s": 4.5,
+   "end_s": 8.7,
+   "shows": "Another person in an orange outfit shooting a tall stack of basketballs outdoors.",
+   "kind": "action"
+  },
+  {
+   "start_s": 8.7,
+   "end_s": 10.7,
+   "shows": "A man holding a basketball in an indoor court with vertical hoops in the background.",
+   "kind": "face"
+  },
+  {
+   "start_s": 10.7,
+   "end_s": 15.1,
+   "shows": "A man shooting a ball into a tall tower of stacked rims indoors, with a counter counting up points.",
+   "kind": "action"
+  },
+  {
+   "start_s": 15.1,
+   "end_s": 18.5,
+   "shows": "Another man shooting a tall stack of basketballs on an outdoor court.",
+   "kind": "action"
+  },
+  {
+   "start_s": 18.5,
+   "end_s": 21.7,
+   "shows": "A man throwing a purple stack of basketballs into a tower of hoops indoors, with a point counter.",
+   "kind": "action"
+  },
+  {
+   "start_s": 21.7,
+   "end_s": 26.2,
+   "shows": "A man shooting an extremely tall stack of basketballs on an outdoor court.",
+   "kind": "action"
+  },
+  {
+   "start_s": 26.2,
+   "end_s": 30.6,
+   "shows": "A man shooting a ball into a very tall vertical structure of hoops indoors, with numbers rapidly increasing up to 1000.",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 10,
+ "average_shot_s": 3.06,
+ "longest_shot_s": 4.4,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 220,
+  "tone": "hype, fast-paced",
+  "original_audio_under_voice": true
+ },
+ "music": {
+  "present": true,
+  "style": "upbeat electronic energetic beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "sentence",
+  "position": "middle",
+  "colours": "white with black outline",
+  "highlight_style": "none"
+ },
+ "text_overlays": [
+  {
+   "at_s": 1.9,
+   "text": "6'3"
+  }
+ ],
+ "cards_or_graphics": 0,
+ "framing": "crop",
+ "ending": {
+  "last_words": "scored 1,000 points in one shot.",
+  "last_frame": "A man standing on a basketball court facing a tall tower of hoops while numbers tick up to 1000.",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "This shot actually counts for 30 points! And it's because Jesser taped 10 basketballs together. However, this TikToker would see it and decided to break the world record with a 33 point shot! Well, this ended up starting a war between the two of them. So Jesser created the 100 point shot using multiple rims instead and only using five balls. But immediately, Bodlefty set a new record of 126 points. Of course, it wouldn't stop there as Jesser made the 150 point shot! Bodlefty would answer back and people thought this would be the last shot as he scored 216 points. Until months later, Jesser released this video where he scored 1,000 points in one shot.",
+ "retention_tricks": [
+  "rapid escalation of numbers and stakes",
+  "counter overlay running upwards quickly",
+  "fast cuts between competing creators"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": false,
+  "ends_on_payoff": true,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "Escalating stakes that grow from 30 points all the way to 1,000 points.",
+  "Back-and-forth rivalry structure between creators creating direct competition.",
+  "Fast editing pace matched with energetic voiceover and on-screen counters."
+ ],
+ "_meta": {
+  "source": "RIzrGoqHAKQ",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-11-01",
+  "tier": "[S] model-observed, not measured"
+ }
+}

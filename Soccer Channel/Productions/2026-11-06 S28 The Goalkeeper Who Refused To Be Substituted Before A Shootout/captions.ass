@@ -1,0 +1,89 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,TikTok Sans SemiBold,80,&H00FFFFFF,&H00FFFFFF,&H00000000,&H99000000,0,0,0,0,100,100,0,0,1,3.2,1,5,70,70,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:02.79,Cap,,0,0,0,,{\pos(540,960)\blur0.5\fscx71\fscy71}The goalkeeper who refused to be\Nsubstituted before a SHOOTOUT
+Dialogue: 0,0:00:02.79,0:00:03.92,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Back in 2019,
+Dialogue: 0,0:00:03.92,0:00:04.46,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Chelsea played
+Dialogue: 0,0:00:04.46,0:00:05.08,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Manchester City
+Dialogue: 0,0:00:05.08,0:00:05.69,Cap,,0,0,0,,{\pos(540,960)\blur0.5}in the League Cup
+Dialogue: 0,0:00:05.69,0:00:06.62,Cap,,0,0,0,,{\pos(540,960)\blur0.5}final at Wembley.
+Dialogue: 0,0:00:06.62,0:00:07.85,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Still goalless, deep
+Dialogue: 0,0:00:07.85,0:00:08.74,Cap,,0,0,0,,{\pos(540,960)\blur0.5}into extra time.
+Dialogue: 0,0:00:08.74,0:00:09.55,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Chelsea's goalkeeper,
+Dialogue: 0,0:00:09.55,0:00:10.64,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Kepa Arrizabalaga,
+Dialogue: 0,0:00:10.64,0:00:11.18,Cap,,0,0,0,,{\pos(540,960)\blur0.5}was struggling
+Dialogue: 0,0:00:11.18,0:00:11.70,Cap,,0,0,0,,{\pos(540,960)\blur0.5}with cramp.
+Dialogue: 0,0:00:11.70,0:00:12.50,Cap,,0,0,0,,{\pos(540,960)\blur0.5}So his manager,
+Dialogue: 0,0:00:12.50,0:00:13.30,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Maurizio Sarri,
+Dialogue: 0,0:00:13.30,0:00:13.96,Cap,,0,0,0,,{\pos(540,960)\blur0.5}got a substitute
+Dialogue: 0,0:00:13.96,0:00:14.17,Cap,,0,0,0,,{\pos(540,960)\blur0.5}ready
+Dialogue: 0,0:00:14.17,0:00:15.00,Cap,,0,0,0,,{\pos(540,960)\blur0.5}for the penalties:
+Dialogue: 0,0:00:15.00,0:00:15.95,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Willy Caballero.
+Dialogue: 0,0:00:15.95,0:00:16.95,Cap,,0,0,0,,{\pos(540,960)\blur0.5}A shootout specialist.
+Dialogue: 0,0:00:16.95,0:00:17.63,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Three years earlier,
+Dialogue: 0,0:00:17.63,0:00:18.43,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Caballero had saved
+Dialogue: 0,0:00:18.43,0:00:19.04,Cap,,0,0,0,,{\pos(540,960)\blur0.5}three penalties
+Dialogue: 0,0:00:19.04,0:00:19.31,Cap,,0,0,0,,{\pos(540,960)\blur0.5}to win
+Dialogue: 0,0:00:19.31,0:00:20.04,Cap,,0,0,0,,{\pos(540,960)\blur0.5}this same trophy
+Dialogue: 0,0:00:20.04,0:00:20.90,Cap,,0,0,0,,{\pos(540,960)\blur0.5}for Manchester City.
+Dialogue: 0,0:00:20.90,0:00:21.15,Cap,,0,0,0,,{\pos(540,960)\blur0.5}The board
+Dialogue: 0,0:00:21.15,0:00:21.34,Cap,,0,0,0,,{\pos(540,960)\blur0.5}went up
+Dialogue: 0,0:00:21.34,0:00:22.20,Cap,,0,0,0,,{\pos(540,960)\blur0.5}with Kepa's number.
+Dialogue: 0,0:00:22.20,0:00:22.65,Cap,,0,0,0,,{\pos(540,960)\blur0.5}And Kepa
+Dialogue: 0,0:00:22.65,0:00:23.37,Cap,,0,0,0,,{\pos(540,960)\blur0.5}waved it away.
+Dialogue: 0,0:00:23.37,0:00:24.09,Cap,,0,0,0,,{\pos(540,960)\blur0.5}The referee,
+Dialogue: 0,0:00:24.09,0:00:24.73,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Jon Moss,
+Dialogue: 0,0:00:24.73,0:00:25.02,Cap,,0,0,0,,{\pos(540,960)\blur0.5}asked him
+Dialogue: 0,0:00:25.02,0:00:25.43,Cap,,0,0,0,,{\pos(540,960)\blur0.5}to leave.
+Dialogue: 0,0:00:25.43,0:00:26.62,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Kepa still refused.
+Dialogue: 0,0:00:26.62,0:00:27.21,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Sarri threw down
+Dialogue: 0,0:00:27.21,0:00:27.74,Cap,,0,0,0,,{\pos(540,960)\blur0.5}a water bottle
+Dialogue: 0,0:00:27.74,0:00:28.40,Cap,,0,0,0,,{\pos(540,960)\blur0.5}and nearly marched
+Dialogue: 0,0:00:28.40,0:00:28.99,Cap,,0,0,0,,{\pos(540,960)\blur0.5}into the tunnel.
+Dialogue: 0,0:00:28.99,0:00:29.44,Cap,,0,0,0,,{\pos(540,960)\blur0.5}And Kepa
+Dialogue: 0,0:00:29.44,0:00:30.07,Cap,,0,0,0,,{\pos(540,960)\blur0.5}stayed on.
+Dialogue: 0,0:00:30.07,0:00:30.44,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Then came
+Dialogue: 0,0:00:30.44,0:00:31.00,Cap,,0,0,0,,{\pos(540,960)\blur0.5}the shootout.
+Dialogue: 0,0:00:31.00,0:00:31.98,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Jorginho missed.
+Dialogue: 0,0:00:31.98,0:00:32.63,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Chelsea's keeper
+Dialogue: 0,0:00:32.63,0:00:33.60,Cap,,0,0,0,,{\pos(540,960)\blur0.5}let Sergio Aguero's
+Dialogue: 0,0:00:33.60,0:00:34.25,Cap,,0,0,0,,{\pos(540,960)\blur0.5}weak penalty
+Dialogue: 0,0:00:34.25,0:00:34.96,Cap,,0,0,0,,{\pos(540,960)\blur0.5}go under him.
+Dialogue: 0,0:00:34.96,0:00:35.55,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Then he saved
+Dialogue: 0,0:00:35.55,0:00:36.31,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Leroy Sane's.
+Dialogue: 0,0:00:36.31,0:00:36.53,Cap,,0,0,0,,{\pos(540,960)\blur0.5}But it
+Dialogue: 0,0:00:36.53,0:00:37.31,Cap,,0,0,0,,{\pos(540,960)\blur0.5}wasn't enough.
+Dialogue: 0,0:00:37.31,0:00:38.27,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Raheem Sterling scored
+Dialogue: 0,0:00:38.27,0:00:38.95,Cap,,0,0,0,,{\pos(540,960)\blur0.5}the last kick,
+Dialogue: 0,0:00:38.95,0:00:39.39,Cap,,0,0,0,,{\pos(540,960)\blur0.5}and City
+Dialogue: 0,0:00:39.39,0:00:40.30,Cap,,0,0,0,,{\pos(540,960)\blur0.5}won four-three.
+Dialogue: 0,0:00:40.30,0:00:41.06,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Kepa was fined
+Dialogue: 0,0:00:41.06,0:00:41.92,Cap,,0,0,0,,{\pos(540,960)\blur0.5}a week's wages.
+Dialogue: 0,0:00:41.92,0:00:42.56,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Sarri dropped him
+Dialogue: 0,0:00:42.56,0:00:43.31,Cap,,0,0,0,,{\pos(540,960)\blur0.5}for the next game.
+Dialogue: 0,0:00:43.31,0:00:43.92,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Later he said,
+Dialogue: 0,0:00:43.92,0:00:44.15,Cap,,0,0,0,,{\pos(540,960)\blur0.5}I am
+Dialogue: 0,0:00:44.15,0:00:44.53,Cap,,0,0,0,,{\pos(540,960)\blur0.5}not proud
+Dialogue: 0,0:00:44.53,0:00:45.27,Cap,,0,0,0,,{\pos(540,960)\blur0.5}about what happened.
+Dialogue: 0,0:00:45.27,0:00:45.58,Cap,,0,0,0,,{\pos(540,960)\blur0.5}But here's
+Dialogue: 0,0:00:45.58,0:00:46.26,Cap,,0,0,0,,{\pos(540,960)\blur0.5}the strange part.
+Dialogue: 0,0:00:46.26,0:00:46.54,Cap,,0,0,0,,{\pos(540,960)\blur0.5}He wouldn't
+Dialogue: 0,0:00:46.54,0:00:46.94,Cap,,0,0,0,,{\pos(540,960)\blur0.5}make way
+Dialogue: 0,0:00:46.94,0:00:47.33,Cap,,0,0,0,,{\pos(540,960)\blur0.5}for the man
+Dialogue: 0,0:00:47.33,0:00:48.02,Cap,,0,0,0,,{\pos(540,960)\blur0.5}who'd saved three
+Dialogue: 0,0:00:48.02,0:00:48.68,Cap,,0,0,0,,{\pos(540,960)\blur0.5}penalties to win
+Dialogue: 0,0:00:48.68,0:00:49.32,Cap,,0,0,0,,{\pos(540,960)\blur0.5}this trophy.
+Dialogue: 0,0:00:49.32,0:00:50.06,Cap,,0,0,0,,{\pos(540,960)\blur0.5}He saved one,
+Dialogue: 0,0:00:50.06,0:00:50.64,Cap,,0,0,0,,{\pos(540,960)\blur0.5}and lost it
+Dialogue: 0,0:00:50.64,0:00:51.12,Cap,,0,0,0,,{\pos(540,960)\blur0.5}to that man's
+Dialogue: 0,0:00:51.12,0:00:51.91,Cap,,0,0,0,,{\pos(540,960)\blur0.5}old club.

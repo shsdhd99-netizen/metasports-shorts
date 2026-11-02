@@ -1,0 +1,38 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Montserrat Black,86,&H00FFFFFF,&H00FFFFFF,&H00000000,&H99000000,0,0,0,0,95,100,1,0,1,6,3,5,70,70,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.93,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx73\fscy73\t(0,90,\fscx85\fscy85)}WEMBY JUST BLOCKED
+Dialogue: 0,0:00:00.93,0:00:01.30,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}A THREE
+Dialogue: 0,0:00:01.30,0:00:01.66,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND SCORED
+Dialogue: 0,0:00:01.66,0:00:02.72,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx82\fscy82\t(0,90,\fscx95\fscy95)}HIS 40TH POINT FIVE
+Dialogue: 0,0:00:02.72,0:00:03.45,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SECONDS LATER.
+Dialogue: 0,0:00:03.45,0:00:04.18,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx81\fscy81\t(0,90,\fscx94\fscy94)}KUMINGA PULLED UP
+Dialogue: 0,0:00:04.18,0:00:04.98,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FROM 24 FEET,
+Dialogue: 0,0:00:04.98,0:00:05.57,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WITH THE SPURS
+Dialogue: 0,0:00:05.57,0:00:06.15,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}UP FOUR.
+Dialogue: 0,0:00:06.15,0:00:06.41,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WEMBY
+Dialogue: 0,0:00:06.41,0:00:06.83,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}GOT A HAND
+Dialogue: 0,0:00:06.83,0:00:07.51,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ON IT ANYWAY.
+Dialogue: 0,0:00:07.51,0:00:07.95,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THEN HE BEAT
+Dialogue: 0,0:00:07.95,0:00:08.50,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}EVERYONE DOWN
+Dialogue: 0,0:00:08.50,0:00:09.11,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE FLOOR.
+Dialogue: 0,0:00:09.11,0:00:09.89,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}RUNNING DUNK.
+Dialogue: 0,0:00:09.89,0:00:10.61,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}POINT 40.
+Dialogue: 0,0:00:10.61,0:00:11.44,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HE WASN'T DONE.
+Dialogue: 0,0:00:11.44,0:00:12.12,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx84\fscy84\t(0,90,\fscx97\fscy97)}TWO MORE BLOCKS,
+Dialogue: 0,0:00:12.12,0:00:12.74,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THEN A THREE.
+Dialogue: 0,0:00:12.74,0:00:13.36,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}43 POINTS
+Dialogue: 0,0:00:13.36,0:00:14.22,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND 6 BLOCKS.
+Dialogue: 0,0:00:14.22,0:00:15.07,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HIS 10TH 40-POINT
+Dialogue: 0,0:00:15.07,0:00:15.41,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}GAME IN
+Dialogue: 0,0:00:15.41,0:00:16.42,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx74\fscy74\t(0,90,\fscx87\fscy87)}THE REGULAR SEASON.

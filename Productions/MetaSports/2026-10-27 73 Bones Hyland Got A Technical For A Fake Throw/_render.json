@@ -1,0 +1,8 @@
+{
+ "engine": "ffmpeg",
+ "out": "final.mp4",
+ "loop_fix": true,
+ "fits": [],
+ "music": null,
+ "nat_sound": "nat_sound.py on final_vo.mp4: burst 18.10-19.58, bed -20 dB, B06=-32"
+}

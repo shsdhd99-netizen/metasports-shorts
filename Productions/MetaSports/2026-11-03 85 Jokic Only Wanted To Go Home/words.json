@@ -1,0 +1,382 @@
+[
+ {
+  "word": "Told",
+  "start": 0.0,
+  "end": 0.209
+ },
+ {
+  "word": "his",
+  "start": 0.244,
+  "end": 0.313
+ },
+ {
+  "word": "title",
+  "start": 0.36,
+  "end": 0.557
+ },
+ {
+  "word": "parade",
+  "start": 0.58,
+  "end": 0.778
+ },
+ {
+  "word": "was",
+  "start": 0.801,
+  "end": 0.882
+ },
+ {
+  "word": "Thursday,",
+  "start": 0.952,
+  "end": 1.509
+ },
+ {
+  "word": "Nikola",
+  "start": 1.544,
+  "end": 1.823
+ },
+ {
+  "word": "Jokic",
+  "start": 1.881,
+  "end": 2.171
+ },
+ {
+  "word": "said",
+  "start": 2.218,
+  "end": 2.438
+ },
+ {
+  "word": "no.",
+  "start": 2.519,
+  "end": 2.902
+ },
+ {
+  "word": "He",
+  "start": 2.937,
+  "end": 2.995
+ },
+ {
+  "word": "was",
+  "start": 3.03,
+  "end": 3.111
+ },
+ {
+  "word": "worried",
+  "start": 3.17,
+  "end": 3.448
+ },
+ {
+  "word": "it",
+  "start": 3.471,
+  "end": 3.518
+ },
+ {
+  "word": "would",
+  "start": 3.541,
+  "end": 3.657
+ },
+ {
+  "word": "make",
+  "start": 3.692,
+  "end": 3.82
+ },
+ {
+  "word": "him",
+  "start": 3.843,
+  "end": 3.924
+ },
+ {
+  "word": "miss",
+  "start": 4.017,
+  "end": 4.226
+ },
+ {
+  "word": "his",
+  "start": 4.249,
+  "end": 4.319
+ },
+ {
+  "word": "family's",
+  "start": 4.365,
+  "end": 4.644
+ },
+ {
+  "word": "horse",
+  "start": 4.679,
+  "end": 4.841
+ },
+ {
+  "word": "races",
+  "start": 4.876,
+  "end": 5.12
+ },
+ {
+  "word": "in",
+  "start": 5.166,
+  "end": 5.213
+ },
+ {
+  "word": "Serbia.",
+  "start": 5.271,
+  "end": 5.782
+ },
+ {
+  "word": "But",
+  "start": 5.805,
+  "end": 5.898
+ },
+ {
+  "word": "at",
+  "start": 5.933,
+  "end": 6.014
+ },
+ {
+  "word": "the",
+  "start": 6.037,
+  "end": 6.107
+ },
+ {
+  "word": "parade,",
+  "start": 6.142,
+  "end": 6.502
+ },
+ {
+  "word": "he",
+  "start": 6.525,
+  "end": 6.571
+ },
+ {
+  "word": "told",
+  "start": 6.653,
+  "end": 6.873
+ },
+ {
+  "word": "Denver",
+  "start": 6.92,
+  "end": 7.198
+ },
+ {
+  "word": "he",
+  "start": 7.268,
+  "end": 7.314
+ },
+ {
+  "word": "did",
+  "start": 7.442,
+  "end": 7.593
+ },
+ {
+  "word": "not",
+  "start": 7.639,
+  "end": 7.755
+ },
+ {
+  "word": "want",
+  "start": 7.79,
+  "end": 7.906
+ },
+ {
+  "word": "to",
+  "start": 7.93,
+  "end": 7.976
+ },
+ {
+  "word": "leave",
+  "start": 8.046,
+  "end": 8.255
+ },
+ {
+  "word": "it.",
+  "start": 8.301,
+  "end": 8.464
+ },
+ {
+  "word": "Six",
+  "start": 8.533,
+  "end": 8.742
+ },
+ {
+  "word": "days",
+  "start": 8.8,
+  "end": 8.963
+ },
+ {
+  "word": "after",
+  "start": 8.998,
+  "end": 9.137
+ },
+ {
+  "word": "the",
+  "start": 9.183,
+  "end": 9.253
+ },
+ {
+  "word": "title,",
+  "start": 9.288,
+  "end": 9.578
+ },
+ {
+  "word": "he",
+  "start": 9.601,
+  "end": 9.647
+ },
+ {
+  "word": "was",
+  "start": 9.682,
+  "end": 9.752
+ },
+ {
+  "word": "at",
+  "start": 9.798,
+  "end": 9.891
+ },
+ {
+  "word": "the",
+  "start": 9.926,
+  "end": 9.996
+ },
+ {
+  "word": "track",
+  "start": 10.031,
+  "end": 10.263
+ },
+ {
+  "word": "in",
+  "start": 10.321,
+  "end": 10.367
+ },
+ {
+  "word": "Sombor,",
+  "start": 10.437,
+  "end": 10.948
+ },
+ {
+  "word": "in",
+  "start": 10.971,
+  "end": 11.075
+ },
+ {
+  "word": "a",
+  "start": 11.134,
+  "end": 11.157
+ },
+ {
+  "word": "Dream",
+  "start": 11.203,
+  "end": 11.401
+ },
+ {
+  "word": "Catcher",
+  "start": 11.447,
+  "end": 11.702
+ },
+ {
+  "word": "shirt.",
+  "start": 11.749,
+  "end": 11.993
+ },
+ {
+  "word": "He",
+  "start": 12.016,
+  "end": 12.062
+ },
+ {
+  "word": "watched",
+  "start": 12.109,
+  "end": 12.318
+ },
+ {
+  "word": "every",
+  "start": 12.364,
+  "end": 12.527
+ },
+ {
+  "word": "race",
+  "start": 12.596,
+  "end": 12.782
+ },
+ {
+  "word": "his",
+  "start": 12.805,
+  "end": 12.875
+ },
+ {
+  "word": "family",
+  "start": 12.933,
+  "end": 13.212
+ },
+ {
+  "word": "entered,",
+  "start": 13.281,
+  "end": 13.583
+ },
+ {
+  "word": "and",
+  "start": 13.606,
+  "end": 13.676
+ },
+ {
+  "word": "answered",
+  "start": 13.734,
+  "end": 14.024
+ },
+ {
+  "word": "no",
+  "start": 14.082,
+  "end": 14.199
+ },
+ {
+  "word": "reporters.",
+  "start": 14.268,
+  "end": 14.825
+ },
+ {
+  "word": "He",
+  "start": 14.849,
+  "end": 14.895
+ },
+ {
+  "word": "said",
+  "start": 14.942,
+  "end": 15.116
+ },
+ {
+  "word": "no",
+  "start": 15.174,
+  "end": 15.325
+ },
+ {
+  "word": "to",
+  "start": 15.394,
+  "end": 15.441
+ },
+ {
+  "word": "the",
+  "start": 15.499,
+  "end": 15.569
+ },
+ {
+  "word": "parade.",
+  "start": 15.592,
+  "end": 16.01
+ },
+ {
+  "word": "Never",
+  "start": 16.045,
+  "end": 16.23
+ },
+ {
+  "word": "to",
+  "start": 16.265,
+  "end": 16.312
+ },
+ {
+  "word": "the",
+  "start": 16.37,
+  "end": 16.439
+ },
+ {
+  "word": "horses.",
+  "start": 16.486,
+  "end": 16.997
+ }
+]

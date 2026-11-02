@@ -10,6 +10,15 @@ description: >
   Argument: a topic, an Idea Bank number (S03...), or a number of Shorts to make.
 ---
 
+> **Full Review (Nov 1, 2026) - read before building** (`Research Notes/Full Review for Retention (Nov 2026).md`; THE RULES §0 in `MetaSports - Playbook.md`):
+> 1. The edit is not what separates 3K from 30K; the **premise** and the **first 1-3 s** are. Run `python Tools/idea_gauge.py` on the idea and skip flop shapes (rules, record counts, hypotheticals, lesser-name lists).
+> 2. **FC length stays 45-59 s, 190-250 words, 226-233 wpm** (matches Ahmed's Goal 230 wpm). Goalkeeper + an odd device in a famous shootout is the proven premise (4 of 4 at 15-30K vs 0 of 8 others above 3.2K). A/B: the next two goalkeeper Shorts open on the first story sentence over the action, title as on-screen text only; the control keeps the spoken title.
+> 3. Footage big and moving from frame 1; no black fill (`--fill-brightness 0` .. `-0.04` on `broll.py cut` / `"fill_brightness"` in cuts.json); `python Tools/edit_lint.py --folder <F>` runs inside `qa_short` and its flags are warnings to fix (zoom 1.5 on a small hook subject, full frame when a scorebug is the proof, no same angle 3x in the first 8 s).
+> 4. **No decorative SFX** (one only when it is the sound of a visible event). No punch-ins, freeze frames, arrows or emoji "because a winner has one": no evidence.
+> 5. Time-free wording in line 1 ("just", "yesterday", "tonight") unless it posts the same day; one number on screen at a time; every "still/record/first/never/only/most" line gets a source row checked on the posting day (`qa_short` lists them).
+> 6. Caption A/B in progress: build 2 Shorts per channel with `--caption-style clank` (NBA) and/or `--color-rule word` (`assemble.py`); log which in the Outcome Log. Default look unchanged.
+> 7. Judge at 72 h against the channel's last 10, not one number.
+
 # /story-short: the story format, start to finish
 
 The owner is non-technical and often on a phone, so keep chat short and plain.
@@ -32,7 +41,11 @@ Read first (they win over this file when newer):
 ## The 9 steps (about 60-90 min a Short in the cloud)
 
 ### 1. Pick the story (10 min)
-- **What wins:** a GLOBAL star, plus a small human or absurd detail, plus a twist, plus an ironic or emotional payoff with a hard number.
+- **Nov 1 update (`Research Notes/Soccer Topic Study (Nov 1, 2026).md`, `Soccer Script Craft (Nov 1, 2026).md`) overrides the line below where they differ:**
+  - **Premise beats star.** All four goalkeeper-in-a-shootout Shorts got 15-30K; the other eight got 1-3K [V, n=12]. Star-name and money/transfer topics are at or below channel median across 8 competitor channels [V].
+  - **Pick a premise the viewer does not already know:** a goalkeeper with one odd device in a high-stakes shootout; second lane fan/kid/family. The odd thing goes in the title, the star in line 2.
+  - **One object, one timeline, 3 numbers or fewer, one undercut mid-story, an ending that flips the opening device, no money payoff, 190-250 words, 45-59 s.** Template and one sourced example: Script Craft §5-6. Candidate list: Topic Study §6.
+- **What wins (older rule, still true as a second filter):** a GLOBAL star, plus a small human or absurd detail, plus a twist, plus an ironic or emotional payoff with a hard number.
 - **Themes by Goal median:**
   - refused / defiant: 826K
   - records and oddities: 332K
@@ -150,8 +163,8 @@ How to work:
 - **`notes.md`:** lane, concept in 8 words, added value, copy-check, and a table of every line with its source and exact quote. Then the footage list (licence, what each clip is), and illustrative-shot warnings.
 - **`UPLOAD.md` (Oct 26 overnight review; [V] `Research Notes/Posting Study (Oct 26, 2026).md`):** title (= line 1, a short statement;
   plural or singular makes no difference; title wording is a small factor, so no title scoring); no hashtag or one (#football);
-  description empty; tags optional: 3-8 relevant tags, about 100-150 characters (names, club, event, misspellings), checked with
-  `python Tools/tags_fit.py --cap 150 "..."`, never the full 500; 3 alternative titles; post order (one soccer Short a day, 12 PM ET,
+  description empty; tags filled to 490 characters (owner, Nov 1: names, club, event, misspellings, then wider topics), checked with
+  `python Tools/tags_fit.py "..."`; 3 alternative titles; post order (one soccer Short a day, 12 PM ET,
   at least 1 hour after the NBA post); which version (music or no music).
 - **The draft files:** copy both renders as `DRAFT - awaiting approval - S<NN> <title> (music).mp4` and `(no music).mp4`.
 - **Update** `Soccer Channel/START HERE.md`, `Lessons Learned.md` and `Idea Bank.md`.

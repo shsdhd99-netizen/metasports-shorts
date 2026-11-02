@@ -1,0 +1,59 @@
+[
+ {
+  "clip": "W01.mp4",
+  "kind": "action",
+  "why": "Kobe #24 shoots over Pierce (NBA Entertainment 2010 Finals film; illustrative of his shooting that night)",
+  "anchor": "Kobe",
+  "start": 0.0
+ },
+ {
+  "clip": "W02.mp4",
+  "kind": "face",
+  "why": "Kobe head down (NBA film, illustrative)",
+  "anchor": "He made",
+  "start": 3.06
+ },
+ {
+  "clip": "W03.mp4",
+  "kind": "action",
+  "why": "Kobe and Gasol, Game 7 era (NBA film, illustrative of 'rebounds')",
+  "anchor": "But he",
+  "start": 4.31
+ },
+ {
+  "clip": "W04.mp4",
+  "kind": "face",
+  "why": "Kobe at the line, Game 7 broadcast (ABC), 4th quarter",
+  "anchor": "Eleven",
+  "start": 6.04
+ },
+ {
+  "clip": "W05.mp4",
+  "kind": "action",
+  "why": "Lakers celebrate (NBA film)",
+  "anchor": "The Lakers",
+  "start": 8.61
+ },
+ {
+  "clip": "W06.mp4",
+  "kind": "action",
+  "why": "Pau Gasol #16 shoots (NBA film, illustrative)",
+  "anchor": "Pau",
+  "start": 10.23
+ },
+ {
+  "clip": "W07.mp4",
+  "kind": "action",
+  "why": "Finals MVP trophy presentation, Game 7 broadcast (ABC)",
+  "anchor": "Kobe still",
+  "start": 12.73
+ },
+ {
+  "clip": "W08.mp4",
+  "kind": "action",
+  "why": "Kobe raises the Finals MVP trophy (Game 7 broadcast)",
+  "anchor": "Eighteen",
+  "replay": false,
+  "start": 14.35
+ }
+]

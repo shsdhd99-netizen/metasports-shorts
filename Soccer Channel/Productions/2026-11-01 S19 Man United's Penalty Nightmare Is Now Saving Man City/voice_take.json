@@ -1,0 +1,37 @@
+[
+ {
+  "take": 1,
+  "ok": false,
+  "score": -394.8,
+  "verdict": "REDO",
+  "issues": [
+   " 9.20s  script \"1 1\" but heard \"won all\"",
+   "24.10s  script \"he'd let\" but heard \"he led\"",
+   "31.62s  script \"20 second\" but heard \"22\"",
+   "39.00s  script \"rulli in\" but heard \"ruli and\""
+  ],
+  "wpm": 217,
+  "hnr": 8.7,
+  "jitter": 2.71,
+  "shimmer": 10.69,
+  "dur": 56.2,
+  "pitch_sd": 5.19
+ },
+ {
+  "take": 2,
+  "ok": false,
+  "score": -294.8,
+  "verdict": "REDO",
+  "issues": [
+   "31.00s  script \"20 second\" but heard \"22\"",
+   "38.60s  script \"rulli in\" but heard \"ruli and\"",
+   "39.56s  script \"they\" but heard \"(nothing)\""
+  ],
+  "wpm": 216,
+  "hnr": 8.7,
+  "jitter": 2.81,
+  "shimmer": 10.54,
+  "dur": 56.4,
+  "pitch_sd": 5.31
+ }
+]

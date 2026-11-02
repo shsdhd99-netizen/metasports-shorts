@@ -1,0 +1,263 @@
+{
+ "sources": {
+  "L": "src/lebron.mp4",
+  "K": "src/kidd.mp4",
+  "S": "src/stockton.mp4",
+  "P": "src/paul.mp4",
+  "W": "src/westbrook.mp4"
+ },
+ "promise": [
+  "assists",
+  "assist",
+  "Kidd"
+ ],
+ "shots": [
+  {
+   "clip": "A01",
+   "src": "L",
+   "at": 1079.0,
+   "kind": "action",
+   "why": "LeBron close, Lakers 2025-26 (NBA Top Plays)",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "overlay": [
+    {
+     "text": "40 ASSISTS BEHIND",
+     "size": 105,
+     "color": "orange",
+     "y": 300,
+     "start": 0.0,
+     "end": 1.6
+    }
+   ],
+   "len": 2.69
+  },
+  {
+   "clip": "A02",
+   "src": "L",
+   "at": 659.9,
+   "kind": "face",
+   "why": "LeBron under the basket, Lakers",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "That is",
+   "len": 2.09
+  },
+  {
+   "clip": "A03",
+   "src": "K",
+   "at": 101.9,
+   "kind": "action",
+   "why": "Jason Kidd (#5, Nets) with the ball (NBA Top 45 assists)",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "Kidd has",
+   "overlay": [
+    {
+     "text": "KIDD 12,091",
+     "size": 105,
+     "color": "orange",
+     "y": 300,
+     "start": 0.0,
+     "end": 1.6
+    }
+   ],
+   "len": 1.93
+  },
+  {
+   "clip": "A04",
+   "src": "L",
+   "at": 89.9,
+   "kind": "face",
+   "why": "LeBron with the ball, Lakers",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "LeBron has",
+   "overlay": [
+    {
+     "text": "LEBRON 12,051",
+     "size": 105,
+     "color": "orange",
+     "y": 300,
+     "start": 0.0,
+     "end": 1.6
+    }
+   ],
+   "len": 2.12
+  },
+  {
+   "clip": "A05",
+   "src": "L",
+   "at": 899.9,
+   "kind": "action",
+   "why": "LeBron driving",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "At seven",
+   "len": 1.61
+  },
+  {
+   "clip": "A05b",
+   "src": "L",
+   "at": 1083.5,
+   "kind": "action",
+   "why": "LeBron on the break",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "LeBron catches",
+   "len": 2.38
+  },
+  {
+   "clip": "A06",
+   "src": "S",
+   "at": 271.7,
+   "kind": "action",
+   "why": "Stockton (#12 Jazz) with the ball",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "Now look",
+   "overlay": [
+    {
+     "text": "TOP 5, ALL-TIME ASSISTS",
+     "size": 90,
+     "color": "white",
+     "y": 300,
+     "start": 0.0,
+     "end": 1.0
+    }
+   ],
+   "len": 1.45
+  },
+  {
+   "clip": "A07",
+   "src": "S",
+   "at": 356.7,
+   "kind": "face",
+   "why": "John Stockton close",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "Stockton",
+   "overlay": [
+    {
+     "text": "1. STOCKTON",
+     "size": 100,
+     "color": "orange",
+     "y": 300,
+     "start": 0.0,
+     "end": 0.9
+    }
+   ],
+   "len": 0.9
+  },
+  {
+   "clip": "A08",
+   "src": "P",
+   "at": 1125.3,
+   "kind": "face",
+   "why": "Chris Paul close, Clippers",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "Paul",
+   "overlay": [
+    {
+     "text": "2. PAUL",
+     "size": 100,
+     "color": "orange",
+     "y": 300,
+     "start": 0.0,
+     "end": 0.8
+    }
+   ],
+   "len": 0.74
+  },
+  {
+   "clip": "A09",
+   "src": "K",
+   "at": 100.2,
+   "kind": "action",
+   "why": "Jason Kidd, Nets",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "Kidd.",
+   "overlay": [
+    {
+     "text": "3. KIDD",
+     "size": 100,
+     "color": "orange",
+     "y": 300,
+     "start": 0.0,
+     "end": 0.8
+    }
+   ],
+   "len": 0.7
+  },
+  {
+   "clip": "A10",
+   "src": "W",
+   "at": 224.2,
+   "kind": "face",
+   "why": "Russell Westbrook close, OKC",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "Westbrook",
+   "overlay": [
+    {
+     "text": "5. WESTBROOK",
+     "size": 90,
+     "color": "orange",
+     "y": 300,
+     "start": 0.0,
+     "end": 1.0
+    }
+   ],
+   "len": 0.83
+  },
+  {
+   "clip": "A11",
+   "src": "P",
+   "at": 90.0,
+   "kind": "action",
+   "why": "Chris Paul, Rockets",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "Point guards",
+   "len": 1.59
+  },
+  {
+   "clip": "A12",
+   "src": "L",
+   "at": 902.9,
+   "kind": "action",
+   "why": "LeBron",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "And then",
+   "len": 1.15
+  },
+  {
+   "clip": "A13",
+   "src": "L",
+   "at": 663.0,
+   "kind": "face",
+   "why": "LeBron close",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "A forward",
+   "len": 1.34
+  }
+ ]
+}

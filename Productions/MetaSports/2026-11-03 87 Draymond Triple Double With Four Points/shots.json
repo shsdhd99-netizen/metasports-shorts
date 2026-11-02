@@ -1,0 +1,81 @@
+[
+ {
+  "clip": "W01.mp4",
+  "kind": "face",
+  "why": "Draymond Green close-up with the broadcast stat graphic (4 pts, 12 reb, 10 ast, 10 stl, franchise record), end of game",
+  "anchor": "Draymond",
+  "start": 0.0
+ },
+ {
+  "clip": "W02.mp4",
+  "kind": "action",
+  "why": "Draymond Green hands up on the sideline, #23 (same game, NBA film)",
+  "anchor": "Twelve",
+  "start": 2.15
+ },
+ {
+  "clip": "W03.mp4",
+  "kind": "action",
+  "why": "Draymond brings the ball up the floor after the steal (same game, NBA film)",
+  "anchor": "Ten steals",
+  "start": 3.81
+ },
+ {
+  "clip": "W04.mp4",
+  "kind": "action",
+  "why": "Draymond leads the break (same play)",
+  "anchor": "That was",
+  "start": 4.67
+ },
+ {
+  "clip": "W04b.mp4",
+  "kind": "action",
+  "why": "Draymond finishes the break with a dunk (Feb 10 2017 at Memphis)",
+  "anchor": "2017,",
+  "start": 5.62
+ },
+ {
+  "clip": "W05.mp4",
+  "kind": "face",
+  "why": "Draymond Green #23 hand up (NBA film)",
+  "anchor": "No player",
+  "start": 7.21
+ },
+ {
+  "clip": "W06.mp4",
+  "kind": "face",
+  "why": "Draymond Green close-up, #23, after the dunk",
+  "anchor": "had done",
+  "start": 8.37
+ },
+ {
+  "clip": "W07.mp4",
+  "kind": "face",
+  "why": "Draymond with the stat graphic: steals 10, franchise record",
+  "anchor": "His ten steals",
+  "replay": true,
+  "start": 10.31
+ },
+ {
+  "clip": "W08.mp4",
+  "kind": "face",
+  "why": "Warriors bench celebrating (illustrative of the win)",
+  "anchor": "The Warriors won",
+  "start": 12.03
+ },
+ {
+  "clip": "W09.mp4",
+  "kind": "face",
+  "why": "Draymond Green #23 from behind, Memphis, 4th quarter",
+  "anchor": "His box",
+  "start": 13.18
+ },
+ {
+  "clip": "W10.mp4",
+  "kind": "face",
+  "why": "Draymond Green with the stat graphic again (payoff)",
+  "anchor": "His night",
+  "replay": true,
+  "start": 14.9
+ }
+]

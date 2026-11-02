@@ -16,6 +16,7 @@ Rules (from the retention research; each has burned a Short before):
   CLIPS  (Oct 13 2026) no shot longer than what is left of its clip: assemble.py before Oct 13 LOOPED the clip (visible
          jump-back; found in 22 of 27 folders). Since then it slows small gaps (<=1.33x) and holds the last frame on big ones;
          a hold over 0.5 s fails (frozen picture). Renders made after the fix write _render.json.
+  RENDER (Nov 1 2026) FAIL on flat solid-green frames (>50% green) or 3+ consecutive frames of one flat non-black colour (Drift glitch).
   OPENING (warn only, HYPOTHESIS n=14) a card/screenshot in the first 4 s: the 4 most-viewed Oct posts had none before 7 s.
 Oct 26 2026 (Research Notes/Why NBA Views Dropped, 37 posted NBA Shorts with edit files) - NBA profile only, the soccer story
 format is unchanged: 2 or fewer shots in the first 3 s held 75.0% stayed vs 67.5% for 3+ (so 3+ is now the warning); a card in the
@@ -202,6 +203,27 @@ def main():
             if luma < 40:
                 dark.append((t0, round(luma)))
     chk(not dark, "frame 1 is lit", f"frame 1 is dark (time, brightness 0-255): {dark}; start the first clip later (a fade, wipe or someone passing the camera)")
+    # Nov 1 2026: the Drift engine twice put flat solid-green frames at the end of most shots (found by eye/frame check, not by QA).
+    # Sample 15 fps at 108x192: FAIL on any frame >50% green, or 3+ consecutive frames that are >95% one non-black colour.
+    flat = subprocess.run(["ffmpeg", "-v", "error", "-i", fin, "-vf", "fps=15,scale=108:192", "-f", "rawvideo", "-pix_fmt", "rgb24", "-"],
+                          capture_output=True).stdout
+    nf = len(flat) // (108 * 192 * 3)
+    if nf:
+        fr = np.frombuffer(flat[: nf * 108 * 192 * 3], np.uint8).reshape(nf, 192, 108, 3).astype(int)
+        r_, g_, b_ = fr[..., 0], fr[..., 1], fr[..., 2]
+        green = ((g_ > 120) & (r_ < 90) & (b_ < 90) & (g_ - r_ > 70)).mean(axis=(1, 2))
+        gbad = [round(i / 15, 2) for i in range(nf) if green[i] > 0.5]
+        px = np.concatenate([fr[:, :80], fr[:, 128:]], axis=1).reshape(nf, -1, 3)  # caption band (rows 42-67%) left out
+        runs, cur = [], 0
+        for i in range(nf):
+            med = np.median(px[i], axis=0)
+            same = bool(med.max() > 25 and (np.abs(px[i] - med).max(axis=1) <= 14).mean() > 0.95)  # >95% within a hair of one non-black colour
+            cur = cur + 1 if same else 0
+            if cur == 3:
+                runs.append(round((i - 2) / 15, 2))
+        chk(not gbad, "no flat green frames", f"flat solid-green frames at {gbad[:10]} s ({len(gbad)} frames): Drift engine glitch, re-render with "
+            "assemble.py --engine ffmpeg (or ASSEMBLE_ENGINE=ffmpeg)")
+        chk(not runs, "no solid-colour frames", f"solid-colour frames: 3+ consecutive frames of one flat colour starting at {runs[:10]} s: a broken render, re-render with assemble.py --engine ffmpeg")
     # Oct 24 2026: #66's last boom was still ringing when the video ended (-23 dBFS in the last 50 ms), an audible hard cut; S01's
     # promo cut left the same. Every other draft ends under -45 dBFS. Trim or fade the effect/music (sfx.json "len" + "fade").
     raw = subprocess.run(["ffmpeg", "-v", "error", "-sseof", "-0.05", "-i", fin, "-vn", "-ac", "1", "-ar", "48000", "-f", "f32le", "-"],
@@ -326,6 +348,50 @@ def main():
         chk(not miss, "every clip has a source-log row", f"clips missing from sources.csv: {miss}")
         unv = [c for c in used if c in logged and not str(logged[c].get("verified", "")).strip().lower().startswith(("y", "true", "1"))]
         chk(not unv, "every clip verified against the narration", f"clips not verified (watch them: player, uniform, scorebug, date match the line): {unv}")
+    # --- Nov 1 2026 Full Review (Research Notes/Full Review for Retention (Nov 2026).md). All warnings: none of them is a gate.
+    # 1. Length (NBA, [V small n]): voice of 22 s or less had median 10.0K public views vs 3.1K above (n=8 vs 16, posted NBA Shorts with files).
+    if not story:
+        vs = words[-1]["end"] - words[0]["start"]
+        soft(vs <= 24, f"voice {vs:.0f} s", f"voice runs {vs:.0f} s: our NBA Shorts at 22 s or less had median 10K views vs 3K above (n=8/16, Full Review); "
+             "cut the sentence that only adds colour unless the story needs the time")
+    # 2. Time-bound words ([S] #73: the line said "just" for a game 9 days old). A Short can post days after it is built.
+    stale = sorted({w["word"].strip(".,!?\"'").lower() for w in words if w["word"].strip(".,!?\"'").lower() in
+                    {"yesterday", "tonight", "today", "tomorrow"}} |
+                   ({"just (line 1)"} if any(w["word"].strip(".,!?\"'").lower() == "just" and i + 1 < len(words) and re.fullmatch(r"\w+(ed|ew|ot|ade|ook|ave|ent|ame|aid|ound|un|ung|ew)", words[i + 1]["word"].strip(".,!?\"'").lower())
+                                   for i, w in enumerate(words[:8])) else set()) |
+                   ({"last night"} if re.search(r"\blast night\b", " ".join(w["word"] for w in words).lower()) else set()))
+    soft(not stale, "no time-bound wording", f"time-bound wording {stale}: fine for same-day news, wrong if the Short posts later (write time-free lines)")
+    # 3. Same number twice on screen ([S] #48: orange counter plus a green caption repeating the number).
+    try:
+        cj = json.load(open(os.path.join(F, "cuts.json"), encoding="utf-8")).get("shots", [])
+        t0, dup_num = 0.0, []
+        ass = open(os.path.join(F, "captions.ass"), encoding="utf-8").read() if os.path.exists(os.path.join(F, "captions.ass")) else ""
+        cards = []
+        for ln in re.findall(r"^Dialogue: 0,([\d:.]+),([\d:.]+),.*?\}([^{}]*)(?:\{[^}]*\}[^{}]*)*$", ass, re.M):
+            h, m, sec = ln[0].split(":")
+            e = ln[1].split(":")
+            cards.append((int(h) * 3600 + int(m) * 60 + float(sec), int(e[0]) * 3600 + int(e[1]) * 60 + float(e[2]), ln[2]))
+        for s in cj:
+            for ov in s.get("overlay") or []:
+                nums = set(re.findall(r"\d[\d,.]*", str(ov.get("text", ""))))
+                a0, b0 = t0 + float(ov.get("start", 0)), t0 + float(ov.get("end", s.get("len", 0)))
+                for cs, ce, ctext in cards:
+                    if cs < b0 and ce > a0 and nums & set(re.findall(r"\d[\d,.]*", ctext)):
+                        dup_num.append((round(a0, 1), ov.get("text"), ctext.strip()))
+            t0 += float(s.get("len") or 0)
+        soft(not dup_num, "no number shown twice at once", f"the same number is on screen twice at the same time (overlay vs caption): {dup_num[:3]}; keep one")
+    except Exception:
+        pass
+    # 4. Picture lint (Tools/edit_lint.py): same angle 3x in the hook, 3:4 window cutting a cited scorebug, long closing hold, tiny hook subject.
+    if os.path.exists(os.path.join(F, "cuts.json")):
+        r = subprocess.run([sys.executable, os.path.join(os.path.dirname(os.path.abspath(__file__)), "edit_lint.py"), "--folder", F],
+                           capture_output=True, text=True, encoding="utf-8", errors="replace")
+        lint = [l.strip()[5:].strip() for l in r.stdout.splitlines() if l.strip().startswith("FLAG")]
+        soft(not lint, "edit_lint clean", f"edit_lint: {'; '.join(x[:140] for x in lint)}")
+    # 5. Absolute claims go stale ([V] #74 "still the record" was false; S18 knee slide). List them so each gets a dated source row in notes.md.
+    text_all = " ".join(w["word"] for w in words)
+    cw = sorted({m.lower() for m in re.findall(r"(still|record|ever|never|only|first|most|longest|youngest|oldest|every)", text_all, re.I)})
+    soft(not cw, "no absolute-claim words", f"absolute-claim words {cw}: each needs a source row in notes.md checked on the posting day (a 'still the record' line was false once)")
     if a.full:  # Oct 15: the footage and export checks (Library/Editing and Sound Standards.md section 6)
         sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
         import footage_qc, export_check

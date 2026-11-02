@@ -46,5 +46,5 @@ rather than padding the cut.
 
 **Before handing off:**
 - notes.md lists every claim with its source and exact quote;
-- UPLOAD.md is written (title = line 1, empty description, 0-1 hashtag, 3-8 tags or none, which version);
+- UPLOAD.md is written (title = line 1, empty description, 0-1 hashtag, tags filled to 490 characters with Tools/tags_fit.py, which version);
 - both DRAFT files exist.

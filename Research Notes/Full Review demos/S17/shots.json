@@ -1,0 +1,184 @@
+[
+ {
+  "clip": "K01.mp4",
+  "kind": "action",
+  "why": "The board shows 23: Krul waits to come on at the end of extra time, Netherlands v Costa Rica, 2014 World Cup QF (FIFA World Cup on X)",
+  "start": 0.0
+ },
+ {
+  "clip": "K02.mp4",
+  "kind": "action",
+  "why": "The Fonte Nova stadium, Netherlands v Costa Rica, wide (FIFA)",
+  "anchor": "Back in",
+  "start": 2.33
+ },
+ {
+  "clip": "K03.mp4",
+  "kind": "face",
+  "why": "Costa Rica captain Bryan Ruiz (FIFA)",
+  "anchor": "played Costa",
+  "start": 3.93
+ },
+ {
+  "clip": "K04.mp4",
+  "kind": "face",
+  "why": "Wide: the pitch at the end of a goalless 120 minutes (FIFA)",
+  "anchor": "A hundred",
+  "start": 6.31
+ },
+ {
+  "clip": "K05.mp4",
+  "kind": "action",
+  "why": "Krul at the fourth official's board, wide (FIFA)",
+  "anchor": "Then, in the",
+  "start": 8.17
+ },
+ {
+  "clip": "K06.mp4",
+  "kind": "face",
+  "why": "Louis van Gaal on the Netherlands bench (FIFA)",
+  "anchor": "Louis van Gaal",
+  "start": 9.89
+ },
+ {
+  "clip": "K07.mp4",
+  "kind": "face",
+  "why": "Jasper Cillessen (#1) walks off (FIFA)",
+  "anchor": "He took off",
+  "start": 12.2
+ },
+ {
+  "clip": "K08.mp4",
+  "kind": "action",
+  "why": "Tim Krul (#23) runs on (FIFA)",
+  "anchor": "and brought on",
+  "start": 14.21
+ },
+ {
+  "clip": "K09.mp4",
+  "kind": "face",
+  "why": "Cillessen walking off, unhappy (FIFA)",
+  "anchor": "Cillessen hadn't",
+  "start": 16.12
+ },
+ {
+  "clip": "K10.mp4",
+  "kind": "face",
+  "why": "Van Gaal on the bench, drinking water (FIFA)",
+  "anchor": "We said nothing",
+  "start": 17.5
+ },
+ {
+  "clip": "K11.mp4",
+  "kind": "face",
+  "why": "Krul close-up before the shootout (FIFA)",
+  "anchor": "And here's",
+  "start": 19.52
+ },
+ {
+  "clip": "K12.mp4",
+  "kind": "face",
+  "why": "Krul running on, close (FIFA)",
+  "anchor": "Krul had saved",
+  "start": 21.27
+ },
+ {
+  "clip": "K13.mp4",
+  "kind": "face",
+  "why": "Krul in goal during the shootout (FIFA)",
+  "anchor": "But Van Gaal said",
+  "start": 23.45
+ },
+ {
+  "clip": "K14.mp4",
+  "kind": "face",
+  "why": "Costa Rica's penalty taker (#4), head down (FIFA)",
+  "anchor": "and they had studied",
+  "start": 25.3
+ },
+ {
+  "clip": "K15.mp4",
+  "kind": "face",
+  "why": "Krul at the post, close (FIFA)",
+  "anchor": "So Krul walked",
+  "start": 27.28
+ },
+ {
+  "clip": "K16.mp4",
+  "kind": "face",
+  "why": "Krul close-up, licking his lips (FIFA)",
+  "anchor": "and told them",
+  "start": 28.65
+ },
+ {
+  "clip": "K17.mp4",
+  "kind": "action",
+  "why": "Krul dives low to his left and saves Ruiz's penalty, then roars (FIFA)",
+  "anchor": "He saved two",
+  "start": 30.31
+ },
+ {
+  "clip": "K18.mp4",
+  "kind": "action",
+  "why": "Krul saves Umana's penalty, the Dutch players run to him (FIFA)",
+  "anchor": "The Netherlands won",
+  "start": 32.89
+ },
+ {
+  "clip": "K19.mp4",
+  "kind": "action",
+  "why": "Netherlands v Argentina semi-final shootout, Sao Paulo, July 9 2014 (TyC Sports broadcast via an X repost)",
+  "anchor": "Four days later",
+  "start": 35.8
+ },
+ {
+  "clip": "K20.mp4",
+  "kind": "action",
+  "why": "Same shootout, behind-the-goal angle (TyC Sports via X)",
+  "anchor": "Nil-nil again",
+  "start": 38.23
+ },
+ {
+  "clip": "K21.mp4",
+  "kind": "action",
+  "why": "The substitution board again (from the quarter-final): no substitutes left in the semi (FIFA)",
+  "anchor": "But this time",
+  "start": 40.09
+ },
+ {
+  "clip": "K22.mp4",
+  "kind": "face",
+  "why": "Krul on the touchline (FIFA, quarter-final)",
+  "anchor": "He couldn't",
+  "start": 43.3
+ },
+ {
+  "clip": "K23.mp4",
+  "kind": "face",
+  "why": "Cillessen (#1), quarter-final footage (FIFA)",
+  "anchor": "Cillessen stayed",
+  "start": 44.44
+ },
+ {
+  "clip": "K24.mp4",
+  "kind": "face",
+  "why": "Argentina keeper Sergio Romero roars after a save (TyC Sports via X)",
+  "anchor": "Argentina won",
+  "start": 47.12
+ },
+ {
+  "clip": "K25.mp4",
+  "kind": "action",
+  "why": "Replay of the opening shot, slowed: Krul waiting at the board (FIFA)",
+  "anchor": "The one time",
+  "replay": true,
+  "start": 48.27
+ },
+ {
+  "clip": "K26.mp4",
+  "kind": "face",
+  "why": "Krul, the substitute Van Gaal couldn't use in the semi (FIFA, quarter-final footage)",
+  "anchor": "he had no substitutes",
+  "start": 50.16
+ }
+]

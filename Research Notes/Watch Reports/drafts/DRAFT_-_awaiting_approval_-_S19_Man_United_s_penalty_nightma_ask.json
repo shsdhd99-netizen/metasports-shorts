@@ -1,0 +1,11 @@
+{
+ "question": "You are checking this YouTube Short before it is posted. Watch and listen to all of it. Report only problems you\nactually see or hear, with timestamps. 1) Voice: any word mispronounced, slurred, cut off or repeated; any glitch or robotic\nartifact. 2) Captions: any caption that does not match the words spoken, or is misspelled. 3) Sound: music or sound effects too\nloud over the voice; any jump in loudness. 4) Picture: any frozen, flashing or black frame; any 2+ seconds where nothing new\nhappens. 5) Mismatch: anything on screen that contradicts what the voice says (wrong player, team or number). 6) Is it clear\nwithin the first second what the Short is about? Write 'none' for a category with no problems. End with one line:\nVERDICT: READY or VERDICT: FIX (what).",
+ "answer": "1) Voice: none\n2) Captions: none\n3) Sound: none\n4) Picture: none\n5) Mismatch: At 00:34–00:37, 00:51–00:54, and 00:55–00:57, the player shown in the Manchester City interview is Sergio Gómez, contradicting the narration about goalkeeper Gerónimo Rulli.\n6) Yes, the topic is clear within the first second from both the hook text and the opening voiceover.\n\nVERDICT: FIX (replace clips of Sergio Gómez with Gerónimo Rulli at 00:34–00:37 and 00:51–00:57).",
+ "_meta": {
+  "source": "Soccer Channel/Productions/2026-11-01 S19 Man United's Penalty Nightmare Is Now Saving Man City/DRAFT - awaiting approval - S19 Man United's penalty nightmare is now saving Man City (no music).mp4",
+  "model": "gemini-3.8-flash",
+  "fps": 4.0,
+  "watched": "2026-10-31",
+  "tier": "[S] model-observed, not measured"
+ }
+}

@@ -1,0 +1,297 @@
+[
+ {
+  "word": "Draymond",
+  "start": 0.0,
+  "end": 0.313
+ },
+ {
+  "word": "Green",
+  "start": 0.337,
+  "end": 0.499
+ },
+ {
+  "word": "had",
+  "start": 0.534,
+  "end": 0.615
+ },
+ {
+  "word": "a",
+  "start": 0.639,
+  "end": 0.662
+ },
+ {
+  "word": "triple-double",
+  "start": 0.731,
+  "end": 1.254
+ },
+ {
+  "word": "with",
+  "start": 1.289,
+  "end": 1.393
+ },
+ {
+  "word": "four",
+  "start": 1.451,
+  "end": 1.637
+ },
+ {
+  "word": "points.",
+  "start": 1.695,
+  "end": 2.171
+ },
+ {
+  "word": "Twelve",
+  "start": 2.179,
+  "end": 2.46
+ },
+ {
+  "word": "rebounds.",
+  "start": 2.495,
+  "end": 3.006
+ },
+ {
+  "word": "Ten",
+  "start": 3.064,
+  "end": 3.25
+ },
+ {
+  "word": "assists.",
+  "start": 3.296,
+  "end": 3.819
+ },
+ {
+  "word": "Ten",
+  "start": 3.842,
+  "end": 4.051
+ },
+ {
+  "word": "steals.",
+  "start": 4.132,
+  "end": 4.678
+ },
+ {
+  "word": "That",
+  "start": 4.701,
+  "end": 4.829
+ },
+ {
+  "word": "was",
+  "start": 4.852,
+  "end": 4.921
+ },
+ {
+  "word": "February",
+  "start": 4.98,
+  "end": 5.339
+ },
+ {
+  "word": "tenth,",
+  "start": 5.397,
+  "end": 5.63
+ },
+ {
+  "word": "2017,",
+  "start": 5.653,
+  "end": 6.28
+ },
+ {
+  "word": "in",
+  "start": 6.489,
+  "end": 6.558
+ },
+ {
+  "word": "Memphis.",
+  "start": 6.617,
+  "end": 7.174
+ },
+ {
+  "word": "No",
+  "start": 7.243,
+  "end": 7.371
+ },
+ {
+  "word": "player",
+  "start": 7.429,
+  "end": 7.661
+ },
+ {
+  "word": "in",
+  "start": 7.696,
+  "end": 7.743
+ },
+ {
+  "word": "NBA",
+  "start": 7.789,
+  "end": 8.033
+ },
+ {
+  "word": "history",
+  "start": 8.091,
+  "end": 8.37
+ },
+ {
+  "word": "had",
+  "start": 8.404,
+  "end": 8.486
+ },
+ {
+  "word": "done",
+  "start": 8.544,
+  "end": 8.706
+ },
+ {
+  "word": "it",
+  "start": 8.73,
+  "end": 8.776
+ },
+ {
+  "word": "without",
+  "start": 8.799,
+  "end": 9.031
+ },
+ {
+  "word": "points",
+  "start": 9.089,
+  "end": 9.38
+ },
+ {
+  "word": "as",
+  "start": 9.415,
+  "end": 9.507
+ },
+ {
+  "word": "one",
+  "start": 9.577,
+  "end": 9.705
+ },
+ {
+  "word": "of",
+  "start": 9.728,
+  "end": 9.774
+ },
+ {
+  "word": "the",
+  "start": 9.809,
+  "end": 9.879
+ },
+ {
+  "word": "three.",
+  "start": 9.937,
+  "end": 10.32
+ },
+ {
+  "word": "His",
+  "start": 10.343,
+  "end": 10.471
+ },
+ {
+  "word": "ten",
+  "start": 10.518,
+  "end": 10.68
+ },
+ {
+  "word": "steals",
+  "start": 10.738,
+  "end": 10.947
+ },
+ {
+  "word": "were",
+  "start": 10.97,
+  "end": 11.063
+ },
+ {
+  "word": "also",
+  "start": 11.087,
+  "end": 11.272
+ },
+ {
+  "word": "a",
+  "start": 11.342,
+  "end": 11.365
+ },
+ {
+  "word": "Warriors",
+  "start": 11.423,
+  "end": 11.783
+ },
+ {
+  "word": "record.",
+  "start": 11.83,
+  "end": 12.039
+ },
+ {
+  "word": "The",
+  "start": 12.062,
+  "end": 12.131
+ },
+ {
+  "word": "Warriors",
+  "start": 12.166,
+  "end": 12.398
+ },
+ {
+  "word": "won",
+  "start": 12.422,
+  "end": 12.503
+ },
+ {
+  "word": "by",
+  "start": 12.549,
+  "end": 12.607
+ },
+ {
+  "word": "fifteen.",
+  "start": 12.666,
+  "end": 13.188
+ },
+ {
+  "word": "His",
+  "start": 13.211,
+  "end": 13.35
+ },
+ {
+  "word": "box",
+  "start": 13.409,
+  "end": 13.629
+ },
+ {
+  "word": "score",
+  "start": 13.652,
+  "end": 13.885
+ },
+ {
+  "word": "says",
+  "start": 13.908,
+  "end": 14.059
+ },
+ {
+  "word": "four",
+  "start": 14.152,
+  "end": 14.372
+ },
+ {
+  "word": "points.",
+  "start": 14.442,
+  "end": 14.906
+ },
+ {
+  "word": "His",
+  "start": 14.929,
+  "end": 15.057
+ },
+ {
+  "word": "night",
+  "start": 15.115,
+  "end": 15.289
+ },
+ {
+  "word": "says",
+  "start": 15.324,
+  "end": 15.51
+ },
+ {
+  "word": "triple-double.",
+  "start": 15.545,
+  "end": 16.182
+ }
+]

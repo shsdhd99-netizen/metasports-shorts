@@ -143,7 +143,7 @@ def cmd_cut(a):
             fgcrop = (f"crop=ih*{a.blurfit_aspect:.3f}/{a.zoom:.3f}:ih/{a.zoom:.3f}:(iw-ih*{a.blurfit_aspect:.3f}/{a.zoom:.3f})*{a.x:.3f}:(ih-ih/{a.zoom:.3f})/2"
                       if a.blurfit_aspect else f"crop=iw/{a.zoom:.3f}:ih/{a.zoom:.3f}")
             fc = (f"[0:v]{slow}{dl}split[a][b];[a]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=24:2,"
-                  f"eq=brightness=-0.12[bg];[b]{fgcrop},scale={fg_w}:-2:flags=lanczos{',hflip' if a.flip else ''}[fg];"
+                  f"eq=brightness={a.fill_brightness:.2f}[bg];[b]{fgcrop},scale={fg_w}:-2:flags=lanczos{',hflip' if a.flip else ''}[fg];"
                   f"[bg][fg]overlay=(W-w)/2:(H-h)*{a.y:.3f},fps=30,format=yuv420p[v]")
             run(["ffmpeg", "-y", "-loglevel", "error", *seek, "-i", path, "-t", f"{a.len:.2f}", "-filter_complex", fc,
                  "-map", "[v]", "-an", "-c:v", "libx264", "-crf", "18", "-preset", "medium", a.out])
@@ -346,6 +346,8 @@ def main():
     p.add_argument("--speed", type=float, default=1.0, help="playback speed, e.g. 0.5 = half-speed slow motion (stretches a short close-up)")
     p.add_argument("--blurfit", action="store_true", help="keep the whole wide frame: full width over a blurred fill (story format)")
     p.add_argument("--blurfit-width", dest="blurfit_width", type=float, default=1.0, help="foreground width share for --blurfit")
+    p.add_argument("--fill-brightness", dest="fill_brightness", type=float, default=-0.12,
+                   help="with --blurfit: brightness shift of the blurred fill (default -0.12 = the old look; Nov 1 2026 Full Review: 0 to -0.04 keeps the top/bottom from reading as black bars)")
     p.add_argument("--blurfit-aspect", dest="blurfit_aspect", type=float, default=0.0, help="with --blurfit: keep only a w/h window (0.75 = 3:4) of the frame, placed by --x (Oct 26)")
     p.add_argument("--delogo", help="blur a channel logo: x,y,w,h as fractions of the source frame, e.g. 0.85,0.02,0.13,0.14; several boxes split by ';'")
     p = sub.add_parser("still"); p.add_argument("source"); p.add_argument("--len", type=float, default=5); p.add_argument("--out", required=True)

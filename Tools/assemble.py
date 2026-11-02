@@ -9,6 +9,10 @@ your footage (videos or pictures), named in shot-list order: 01.mp4, 02.mp4, 03.
 Makes: final.mp4 (1080x1920, ready to upload), edit.drift (open it in Drift to tweak), preview_1-3.jpg, storyboard.jpg.
 Shot rhythm: a new shot at each sentence, kept between 1.2 and 4.5 seconds (CoachClank's biggest Shorts cut every 2-4 s).
 
+Clips: every media file in clips/ except names containing "_raw" (cut_list.py keeps clean copies of overlay shots in _rawclips/).
+Engine: Drift when installed, else ffmpeg. Force ffmpeg with --engine ffmpeg or env ASSEMBLE_ENGINE=ffmpeg (Drift once put flat green
+frames at the end of shots in two builds; qa_short.py now FAILs those).
+
 Optional files in the folder:
   shots.json    [{"clip": "01.mp4", "start": 0.0, "in": 0.4}, ...]   cuts synced to words ("in" = start inside the clip)
   sfx.json      [{"sfx": "swish", "at": 12.85, "gain": -14}, ...]    sound effects from Tools/sfx (see sfx/catalog.json)
@@ -268,6 +272,26 @@ def music_filter(m, idx, total, words):
     return chain, ms0, log
 
 
+def _tag(name):
+    """"" for the default final.mp4 (legacy temp names unchanged), else "_<name>" so temp files of different outputs never collide."""
+    b = os.path.splitext(os.path.basename(name))[0]
+    return "" if b == "final" else "_" + "".join(c if c.isalnum() or c in "-_" else "_" for c in b)
+
+
+def acquire_lock(folder, out_name):
+    """One render per output file per folder: a second run of the same --out-name stops instead of corrupting the first
+    (Oct 2026: two renders in one folder gave a 0.2 s picture). A lock older than 2 h is treated as stale."""
+    lock = os.path.join(folder, "_render" + _tag(out_name) + ".lock")
+    if os.path.exists(lock):
+        if time.time() - os.path.getmtime(lock) < 7200:
+            raise SystemExit(f"Another render of {out_name} is running in this folder ({os.path.basename(lock)}). "
+                             f"Wait for it, use a different --out-name, or delete the lock file if it crashed.")
+    open(lock, "w").write(str(os.getpid()))
+    import atexit
+    atexit.register(lambda: os.path.exists(lock) and os.remove(lock))
+    return lock
+
+
 def finish(folder, raw, final, total, style, music=None, hook_text=None):
     """Burn MetaSports captions and mix sound effects in one ffmpeg pass, then previews + storyboard."""
     sys.path.insert(0, HERE)
@@ -323,7 +347,7 @@ def finish(folder, raw, final, total, style, music=None, hook_text=None):
         parts.append(f"[vlift]{tail}[a]")
     amap = ["-map", "[a]", "-c:a", "aac", "-b:a", "192k"]
     fc = f"[0:v]{vf}[v]" + (";" + ";".join(parts) if parts else "")
-    tmp = os.path.join(folder, "_final_tmp.mp4")
+    tmp = os.path.join(folder, "_final_tmp" + _tag(final) + ".mp4")  # per-output temp name: two renders with different --out-name cannot collide
     ok = False
     for enc in (["-c:v", "h264_nvenc", "-preset", "p6", "-rc", "vbr", "-cq", "18", "-b:v", "14M", "-maxrate", "20M"],
                 ["-c:v", "libx264", "-crf", "18", "-preset", "veryfast"]):
@@ -353,7 +377,7 @@ def finish(folder, raw, final, total, style, music=None, hook_text=None):
 
 def ffmpeg_engine(folder, voice, shots, clips, ins, total, a, zooms=()):
     """No Drift (Linux/cloud): trim + scale/crop each shot with ffmpeg, concat, mux the voice, then finish()."""
-    tmp = os.path.join(folder, "_shots_tmp")
+    tmp = os.path.join(folder, "_shots_tmp" + _tag(a.out_name))
     os.makedirs(tmp, exist_ok=True)
     parts, fits = [], []
     k = 0
@@ -399,7 +423,7 @@ def ffmpeg_engine(folder, voice, shots, clips, ins, total, a, zooms=()):
         k += 1
     lst = os.path.join(tmp, "list.txt")
     open(lst, "w").write("".join(f"file '{p}'\n" for p in parts))
-    raw = os.path.join(folder, "final_nocap.mp4")
+    raw = os.path.join(folder, "final_nocap" + _tag(a.out_name) + ".mp4")
     inputs = ["-f", "concat", "-safe", "0", "-i", lst, "-i", voice]
     r = subprocess.run(["ffmpeg", "-y", "-loglevel", "error", *inputs, "-map", "0:v", "-map", "1:a", "-c:v", "copy",
                         "-c:a", "aac", "-b:a", "192k", "-t", f"{total:.3f}", raw], capture_output=True, text=True)
@@ -430,17 +454,30 @@ def main():
     ap.add_argument("--out-name", dest="out_name", default="final.mp4", help="output file name inside the folder")
     ap.add_argument("--captions", default="burn", help="burn (MetaSports look, default) or a Drift preset: subtitle, caption, hormozi, one-word-color")
     ap.add_argument("--caption-style", default="metasports", help="for --captions burn: metasports (old Shorts look), clank, or karaoke (Round 5 test)")
+    ap.add_argument("--color-rule", dest="color_rule", choices=["card", "word", "none"], default="card",
+                    help="caption colour rule (captions.py): card = old default, word = one coloured word per card (A/B), none = all white")
+    ap.add_argument("--engine", choices=["ffmpeg", "drift"], default=os.environ.get("ASSEMBLE_ENGINE", "").lower() or None,
+                    help="ffmpeg = never use Drift (also env ASSEMBLE_ENGINE=ffmpeg); drift/default = Drift when installed. "
+                         "Use ffmpeg if qa_short reports flat green/solid-colour frames from Drift")
     ap.add_argument("--no-export", action="store_true")
     a = ap.parse_args()
+    if a.engine not in (None, "ffmpeg", "drift"):
+        raise SystemExit(f"ASSEMBLE_ENGINE must be ffmpeg or drift, not {a.engine!r}")
     sys.stdout.reconfigure(encoding="utf-8")
     folder = os.path.abspath(a.folder)
+    sys.path.insert(0, HERE)
+    import captions as _cap
+    _cap.COLOR_RULE = a.color_rule
+    acquire_lock(folder, a.out_name)
     voice, words_p, srt = (os.path.join(folder, f) for f in ("voice.mp3", "words.json", "captions.srt"))
     missing = [os.path.basename(p) for p in (voice, words_p, srt) if not os.path.exists(p)]
     if missing:
         raise SystemExit(f"Missing {', '.join(missing)}. Make the voiceover first: python voiceover.py --script \"{os.path.join(folder, 'script.txt')}\"")
     clips_dir = os.path.join(folder, "clips")
     os.makedirs(clips_dir, exist_ok=True)
-    clips = sorted(p for p in glob.glob(os.path.join(clips_dir, "*")) if p.lower().endswith(MEDIA))
+    # Nov 1 2026: clean copies kept by cut_list.py ("*_raw*", now written to _rawclips/) never count as footage: an extra file in clips/
+    # shifts the clip-to-shot mapping when there is no shots.json.
+    clips = sorted(p for p in glob.glob(os.path.join(clips_dir, "*")) if p.lower().endswith(MEDIA) and "_raw" not in os.path.basename(p).lower())
     if not clips:
         raise SystemExit(f"Put your footage in {clips_dir} (named 01, 02, 03... in shot-list order), then run this again.")
     total = duration(voice)
@@ -461,8 +498,8 @@ def main():
         zooms = []
     print(f"Voice {total:.1f}s -> {len(shots)} shots from {len(set(clips))} clips")
 
-    if not os.path.exists(DRIFT):
-        print("Drift not found: using the ffmpeg engine")
+    if a.engine == "ffmpeg" or not os.path.exists(DRIFT):
+        print("ffmpeg engine forced (--engine / ASSEMBLE_ENGINE)" if a.engine == "ffmpeg" else "Drift not found: using the ffmpeg engine")
         ffmpeg_engine(folder, voice, shots, clips, ins, total, a, zooms)
         return
     d = Drift()
@@ -515,8 +552,8 @@ def main():
                         open(os.path.join(folder, f"preview_{n}.jpg"), "wb").write(base64.b64decode(c["data"]))
         d.apply(("save_project", {"path": os.path.join(folder, "edit.drift")}))
         if not a.no_export:
-            final = os.path.join(folder, "final.mp4")
-            out = os.path.join(folder, "final_nocap.mp4") if burn else final
+            final = os.path.join(folder, a.out_name)
+            out = os.path.join(folder, "final_nocap" + _tag(a.out_name) + ".mp4") if burn else final
             # NVIDIA encoder first (fast even when the PC is busy), then x264 veryfast as a fallback
             for enc in ({"video": "h264_nvenc", "rate": "bitrate", "bitrate": 14000},
                         {"video": "h264", "crf": 18, "preset": "veryfast"}):

@@ -1,0 +1,73 @@
+[
+ {
+  "clip": "A01.mp4",
+  "kind": "action",
+  "why": "ESPN 2014 draft broadcast: Taco Bell ad with the 'Nikola Jokic PF - Serbia' bar (pick 41)",
+  "start": 0.0
+ },
+ {
+  "clip": "A02.mp4",
+  "kind": "action",
+  "why": "same broadcast, burrito ad, name bar at the bottom",
+  "anchor": "Pick forty-one",
+  "start": 2.52
+ },
+ {
+  "clip": "A03.mp4",
+  "kind": "action",
+  "why": "same broadcast, next ad, name still on the bar",
+  "anchor": "the bottom",
+  "start": 4.38
+ },
+ {
+  "clip": "A04.mp4",
+  "kind": "face",
+  "why": "Jokic close-up (NBA 200th video, Oct 28 2026)",
+  "anchor": "Jokic says",
+  "start": 5.34
+ },
+ {
+  "clip": "A05.mp4",
+  "kind": "face",
+  "why": "Jokic with the broadcast graphic '2nd player in NBA history to reach 200 career triple doubles'",
+  "anchor": "But now",
+  "start": 7.75
+ },
+ {
+  "clip": "A06.mp4",
+  "kind": "action",
+  "why": "Westbrook (OKC) game footage, NBA upload, illustrative",
+  "anchor": "Only",
+  "start": 10.06
+ },
+ {
+  "clip": "A07.mp4",
+  "kind": "action",
+  "why": "Westbrook (OKC) game footage, illustrative",
+  "anchor": "Westbrook needed",
+  "start": 11.56
+ },
+ {
+  "clip": "A09.mp4",
+  "kind": "face",
+  "why": "Jokic (#15) on the Nuggets bench, Oct 28 2026",
+  "anchor": "Jokic did",
+  "start": 14.37
+ },
+ {
+  "clip": "A10.mp4",
+  "kind": "face",
+  "why": "replay: the 200 graphic, half speed",
+  "anchor": "eight fourteen",
+  "replay": true,
+  "start": 15.11
+ },
+ {
+  "clip": "A11.mp4",
+  "kind": "action",
+  "why": "back to the draft-night name bar (payoff image)",
+  "anchor": "is chasing",
+  "replay": true,
+  "start": 16.82
+ }
+]

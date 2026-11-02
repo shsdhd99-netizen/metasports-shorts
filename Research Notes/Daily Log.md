@@ -3,6 +3,67 @@
 One entry per channel per day, written by the daily runs (`.claude/skills/daily-run/SKILL.md`): data pulled, what was learned,
 research with sources, what was made, what changed in the rules or tools.
 
+## Sun Nov 1, 2026 (NBA daily run; routine; no ElevenLabs key)
+
+**Blocked.** `cloud_setup.sh`: `key: MISSING`, so no voice, render or QA; script, sources and cut plan only. Analytics: no token (YT_* missing); `yt_analytics.py` and the dataset hand columns not run. Nothing faked.
+**Context.** #74 holds the Sun 7-8 AM NBA slot (Hub sync, Nov 1 00:45 UTC). Tags are back to 490 characters (owner, Nov 1).
+**Research (Sat Oct 31 games; AP recaps on ESPN, ESPN box scores and play-by-play).** Candidates:
+- **Spurs 121, Timberwolves 111** ([recap](https://www.espn.com/nba/recap?gameId=401909901)): Wembanyama 43 points, 6 blocks, 17-34; "reaching 40 points for the 10th time in the regular season"; blocked Kuminga's three and dunked on the run for point 40 (play-by-play: block 6:20, dunk 6:15, Q4). Also threw the ball off the backboard to himself (AP).
+- Cavaliers 136, Bucks 111 ([recap](https://www.espn.com/nba/recap?gameId=401909900)): a 48-point second quarter, 72-46 at half.
+- Rockets 119, Thunder 98 ([recap](https://www.espn.com/nba/recap?gameId=401909902)): Smith Jr. 30, Smart 7 of 10 from three; OKC's first game without Holmgren (out 2+ months).
+- Blazers 112, Jazz 90 ([recap](https://www.espn.com/nba/recap?gameId=401909896)): a 17-0 first-quarter run. Maxey 38 without LeBron and Embiid (76ers 109-104 Hornets). Grizzlies still unbeaten (136-105 Kings).
+**Pick:** Wemby's block-to-40th-point sequence: one clip, one oddity, a household-name star, and the play is in one ESPN clip (50343302, frame-checked). Rotation: #79 moment and #80 news were both skipped, so a moment fits. Copy check: FRESH for the backboard angle; "TAKEN" for the block/dunk query was a false match (old unrelated Wemby dunks). The backboard self-pass wasn't picked: #71 Haliburton already did the alley-oop-to-himself idea.
+**Made.** #82 "Wemby Blocked A Three And Scored Point 40 Five Seconds Later" (numbered 82: the Hub's Boozer card already uses 81): script (65 words, about 17-20 s), notes with exact source words, cut plan, UPLOAD.md with tags at 486/490. Hub card `shorts/n82` = `editing` ("needs the ElevenLabs key"). News: post Sun Nov 1 or drop it.
+**Lesson.** None new: no measured data reachable from this session (no Studio export since Oct 24, no API token).
+
+## Sun Nov 1, 2026, about 00:45 UTC (owner asked: "update the shorts hubs"; this account's Hubs)
+
+**Hubs updated** (this account's pair: NBA SAWcHwuAwBxJuyBQSs8a8U, FC 2UVAcbNpKq6j4YXBEF8ge3; the other account's EZrk/LFsQ Hubs and task list can't be opened from here).
+- Statuses and views from the public channel lists (yt-dlp, Nov 1 00:35 UTC; single-video pages and RSS were blocked): every posted Short now shows its public views; stayed % only where a Studio export has it (nothing since Oct 24).
+- NBA: new cards #69-#79 and the Boozer Short (made on the other account; its folder isn't in GitHub); **#74 "Why NBA Players Refuse This Free Throw" was never posted, so it is the one ready card (Sun Nov 1, 7-8 AM ET)**; #79 and #80 skipped (news windows passed); #73 and #67 stay scripts.
+- FC: S04-S08 posted with views, new cards S15-S18 (posted) and S09 (script); S19/S20 stay scripts. **Nothing ready to post on FC.**
+- TikTok/Instagram caption fields and S06's long-cut tab removed (cross-posting paused by the owner, Oct 26); the long cuts stay in GitHub.
+- Channel stats: NBA last-7 median 7.8K (up from about 3.4K a week ago; #72 24K, #77 23K); FC goalkeeper Shorts 4 of 4 at 9K+ (S01 30K, S05 28K, S03 15K after a late climb, S17 9K), every other FC Short 1-3K.
+- ElevenLabs: this session's key works; 83,440 credits left until Nov 19.
+
+## Sat Oct 31, 2026 (NBA daily run; routine; no ElevenLabs key)
+
+**Blocked.** `cloud_setup.sh`: `key: MISSING`, so no voice, render or QA; script, sources and cut plan only. Analytics: no token (YT_CLIENT_ID / YT_CLIENT_SECRET / YT_REFRESH_TOKEN missing), so `yt_analytics.py` and the dataset hand columns were not run. Nothing faked.
+**Context.** No NBA build or Oct 31 research had been pushed by 10:42 UTC (the last NBA commit was the Oct 30 research at 07:55 UTC; Oct 30's picks, Slawson/LeBron and Boozer, were never built and are now too old). Saturday's NBA slot was open (`UPLOAD SCHEDULE.md`).
+**Research (Fri Oct 30 games; AP recaps on ESPN, ESPN box scores).** Candidates:
+- **Warriors 112, Lakers 95** ([recap](https://www.espn.com/nba/recap?gameId=401909285)): Lakers led 38-15 after one (Luka 21 in the quarter), Warriors won the second by the same 38-15; first team in the shot clock era to trail by 23+ after one and be tied or better at half; largest win in that era by a team down 20+ after one (old best: Warriors by 14, Mar 4, 1976); Curry passed Dominique Wilkins for 18th all-time. Luka 37, Curry 31.
+- Mavericks 116, Rockets 111 ([recap](https://www.espn.com/nba/recap?gameId=401909283)): Irving 35 and Flagg 33 hand Houston its first loss; Durant (career 88% FT) missed two with 1:53 left; Irving's active FT streak now 54.
+- 76ers 98, Knicks 93 ([recap](https://www.espn.com/nba/recap/_/gameId/401909280)): LeBron (41) 20/9/8, late go-ahead fadeaway and a chase-down block on Anunoby.
+- Also: Murray 39 (Nuggets 127-120 Suns), Barnes 41 in a loss (Magic 121-114 Raptors), Pistons 5-1.
+**Pick:** the Warriors/Lakers mirror score: same-day news with a number gap, two household names, a pattern you can see on the scoreboard. Lane rotation: last six NBA builds were evergreen, moment, evergreen, news, evergreen, moment, so news is within 1 in 3. `copy_check.py "Lakers 38-15 Warriors same score"`: FRESH.
+**Made.** #80 "The Lakers Won A Quarter By 23 And Still Lost By 17": script (90 words, about 24 s; `script_lint.py`: only "after" repeated), notes with exact source words, cut plan from ESPN's public clips (all six downloadable today), UPLOAD.md. Hub card `shorts/n80` = `editing` ("needs the ElevenLabs key"). News: post Sat Oct 31 or drop it.
+**Changed / noticed.**
+- Tags: `tags_fit.py` now caps at 150 characters (Oct 26 Posting Study rule); the scheduled task's prompt still says 490. Followed the tool.
+- This session's NBA Hub (artifact SAWcHwuAwBxJuyBQSs8a8U) has no cards after #68; the cards for #69-#79 seem to live on another account's Hub. The #80 card may need copying there.
+## Sat Oct 31, 2026 (FC daily run; routine; no ElevenLabs key)
+
+**Blocked.** `cloud_setup.sh`: `key: MISSING` (ElevenLabs), `gemini: MISSING`. Script and notes only; Hub card `editing`. No voice, render or QA, nothing faked. No long cut (paused by the owner Oct 26). Account 2: merged origin/account2 (its Oct 30 log only); its queue is empty.
+**Data.** Analytics: no token (YT_CLIENT_ID / YT_REFRESH_TOKEN_FC not set). `shorts_dataset.py`: FC rows unchanged (needs a Studio export). Public counts (yt-dlp, 13:45 UTC): **S17 Krul 5.4K** (~1 day; was 1.2K Fri), S08 3.1K, S16 2.7K, S15 1.0K (3 days), S01 30K, S05 28K, S03 15K. S18 Mourinho not up yet (Sat slot).
+**Learned.** No new lesson (nothing new has crossed 72 h). S17 is already 2x the non-goalkeeper ceiling at day 1: the goalkeeper-shootout pattern looks like 4 for 4; judge it at 72 h (Mon Nov 2).
+**Lane.** S18 revenge, S19 topical/goalkeeper (unvoiced), so today: secret object, not a goalkeeper (keeps the goalkeeper series at most 1 in 3).
+**Research.** Pelé paid to tie his laces (Idea Bank S06) checked and rejected for now: only secondary sources, conflicting fee and pact makers ([Wikipedia: Dassler brothers feud](https://en.wikipedia.org/wiki/Dassler_brothers_feud)). Pick: Messi's napkin contract, with the 2021 ending. Sources: [NPR via OPB](https://opb.org/article/2024/05/18/napkin-securing-lionel-messi-s-first-contract-fetches-nearly-1-million-at-auction), [SI 2012 book extract](https://www.si.com/soccer/2012/02/06/barca-extract), [90min](https://www.90min.com/lionel-messi-contract-napkin-sells-staggering-amount-auction), Barcelona's Aug 5 2021 statement ([Al Jazeera](https://www.aljazeera.com/sports/2021/8/5/messi-to-leave-barcelona-due-to-financial-structural-obstacles)), [AP via WJLA](https://wjla.com/news/nation-world/messi-breaks-down-says-he-wasnt-ready-to-leave-barcelona-08-08-2021). copy_check: FRESH.
+**Made.** `Soccer Channel/Productions/2026-11-02 S20 Barcelona Signed Messi On A Paper Napkin/`: script.txt (196 words, ~52-54 s expected), notes.md (claims with exact words, cautions, beats), UPLOAD.md (no-music side). Hub card s20 `editing`.
+**Idea Bank.** +S23 Begović's 13-second goal from his own box (Guinness), +S24 Ronaldo's 2003 audition v United; S06 Pelé caution added; idea S20 (Chelsea shootouts) relabelled since production S20 is the napkin.
+**Backlog needing a voice:** S09 Ronaldo Coca-Cola, S19 Rulli, S20 Messi napkin (3 scripts). The FC Hub has nothing ready after S18.
+
+## Fri Oct 30, 2026 (FC daily run; routine; no ElevenLabs key)
+
+**Note.** The FC routine fired Oct 27, 28 and 29 too, but those notifications only reached this session today; one run was done (today's), nothing back-filled.
+**Blocked.** `cloud_setup.sh`: `key: MISSING` (ElevenLabs), `gemini: MISSING`. Script and notes only; Hub card `editing`. No voice, render or QA, nothing faked. Long TikTok/IG cut not made (paused by the owner Oct 26; no voice anyway).
+**Data.** `yt_analytics.py --channel fc daily`: no token (YT_CLIENT_ID / YT_CLIENT_SECRET / YT_REFRESH_TOKEN_FC not in the environment). `shorts_dataset.py --report`: FC still only the 3 Shorts with Studio data (S01-S03), so no new rows to hand-fill; the newer posts need the owner's Studio export. Public counts (yt-dlp): S01 30K, S05 28K, S03 15K, S08 3.0K, S07 2.5K, S16 2.4K, S06 2.0K, S04 1.9K, S02 1.8K, S17 1.2K (today), S15 1.0K.
+**Learned.** Lessons Learned, Oct 30: non-goalkeeper ceiling (n=8, 1.0-3.0K) holds; S17 is the live test of whether "goalkeeper" or "a trick" drives the hits (judge Mon Nov 2).
+**Lane.** Last posts: S15 versus-own, S16 topical, S17 goalkeeper trick, S18 (Sat) revenge. Pick: topical question answered with a story. S08 Hand of God is already posted (M40gpi_afJo), so the next unmade fitting idea was S19 Rulli.
+**Research (sources and exact words in the S19 notes.md).** Rulli saved Ayari and Dunk as City (holders) beat Brighton 4-3 on pens, Oct 28 ([AP via ClickOnDetroit](https://www.clickondetroit.com/sports/2026/10/28/man-city-wins-penalty-shootout-to-advance-in-english-league-cup/), [SI](https://www.si.com/soccer/man-city-player-ratings-vs-brighton-survive-penalties-10-28-26)); 2021 final, 21 straight penalties then Rulli saved De Gea's, 11-10 ([SI 2021](https://www.si.com/soccer/2021/05/26/europa-league-final-villarreal-manchester-united-de-gea-penalty-kicks), [AP via KEYT](https://keyt.com/sports/2021/05/26/villarreal-defeats-manchester-united-in-dramatic-penalty-shootout-to-win-europa-league/), [AFP via Ahram](https://english.ahram.org.eg/News/413005.aspx)); City signed him Aug 2026 as Donnarumma's backup and had signed him in 2016 without him ever playing ([theScore](https://www.thescore.com/news/3578653)). copy_check: FRESH.
+**Footage.** UEFA's full shootout (X_NSB3CnHoo), Man City and EFL extended highlights (FYOQPzXc4T4, e9T4cngiGaw) exist, but YouTube refuses cloud downloads (bot check): download on the PC or find the clips on X.
+**Made.** `Soccer Channel/Productions/2026-11-01 S19 Man United's Penalty Nightmare Is Now Saving Man City/`: script.txt (186 words, ~50-52 s expected), notes.md, UPLOAD.md (music side of the A/B). Hub card s19 `editing` on the FC Hub named in the routine (2UVA...).
+**Idea Bank.** +S21 Higuita's scorpion kick at Wembley (1995; jailed 1993), +S22 Rogério Ceni's 131 goals as a goalkeeper; S19 marked scripted.
+**Noticed.** The routine's prompt still says 12 PM ET slots, a 2UVA Hub and long cuts; the daily-run skill (owner, Oct 26/28) says 8-9 AM ET, the LFsQ Hub for the main account and long cuts paused. Followed the skill on slots and long cuts; used the Hub the prompt names. That Hub's cards stop at S08 (S04-S07 still say `ready` with October slots).
+
 ## Tue Oct 27, 2026 (NBA daily run)
 
 **Blocked.** `cloud_setup.sh`: `key: MISSING` (no ElevenLabs key in the environment), so no voice and no render. No analytics tokens either (analytics: no token). Nothing faked.

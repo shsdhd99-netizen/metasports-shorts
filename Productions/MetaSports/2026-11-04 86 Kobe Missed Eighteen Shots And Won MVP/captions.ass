@@ -1,0 +1,37 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Montserrat Black,86,&H00FFFFFF,&H00FFFFFF,&H00000000,&H99000000,0,0,0,0,95,100,1,0,1,6,3,5,70,70,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.92,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H002A2AFF&\fscx77\fscy77\t(0,90,\fscx89\fscy89)}KOBE BRYANT MISSED
+Dialogue: 0,0:00:00.92,0:00:01.85,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}EIGHTEEN SHOTS
+Dialogue: 0,0:00:01.85,0:00:02.37,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN GAME 7
+Dialogue: 0,0:00:02.37,0:00:03.09,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}OF THE FINALS.
+Dialogue: 0,0:00:03.09,0:00:03.40,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HE MADE
+Dialogue: 0,0:00:03.40,0:00:04.34,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx76\fscy76\t(0,90,\fscx89\fscy89)}SIX OF TWENTY-FOUR.
+Dialogue: 0,0:00:04.34,0:00:04.56,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BUT HE
+Dialogue: 0,0:00:04.56,0:00:05.04,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}PULLED DOWN
+Dialogue: 0,0:00:05.04,0:00:06.07,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx84\fscy84\t(0,90,\fscx98\fscy98)}FIFTEEN REBOUNDS.
+Dialogue: 0,0:00:06.07,0:00:06.41,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ELEVEN
+Dialogue: 0,0:00:06.41,0:00:07.00,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx75\fscy75\t(0,90,\fscx87\fscy87)}OF HIS TWENTY-THREE
+Dialogue: 0,0:00:07.00,0:00:07.59,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}POINTS CAME
+Dialogue: 0,0:00:07.59,0:00:08.27,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx70\fscy70\t(0,90,\fscx82\fscy82)}FROM THE FREE-THROW
+Dialogue: 0,0:00:08.27,0:00:08.64,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}LINE.
+Dialogue: 0,0:00:08.64,0:00:09.14,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE LAKERS
+Dialogue: 0,0:00:09.14,0:00:09.74,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BEAT BOSTON
+Dialogue: 0,0:00:09.74,0:00:10.26,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BY FOUR.
+Dialogue: 0,0:00:10.26,0:00:10.81,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}PAU GASOL
+Dialogue: 0,0:00:10.81,0:00:11.71,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx75\fscy75\t(0,90,\fscx87\fscy87)}HAD NINETEEN POINTS
+Dialogue: 0,0:00:11.71,0:00:12.76,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx63\fscy63\t(0,90,\fscx74\fscy74)}AND EIGHTEEN REBOUNDS.
+Dialogue: 0,0:00:12.76,0:00:13.22,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}KOBE STILL
+Dialogue: 0,0:00:13.22,0:00:14.38,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WON FINALS MVP.
+Dialogue: 0,0:00:14.38,0:00:15.18,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}EIGHTEEN MISSES.
+Dialogue: 0,0:00:15.18,0:00:16.05,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ONE TROPHY.

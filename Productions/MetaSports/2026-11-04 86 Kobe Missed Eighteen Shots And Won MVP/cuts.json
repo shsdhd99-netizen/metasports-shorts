@@ -1,0 +1,170 @@
+{
+ "sources": {
+  "D": "src/2hWQdJps0YM.mp4",
+  "G": "src/g7full.mp4"
+ },
+ "promise": [
+  "Kobe",
+  "MVP"
+ ],
+ "shots": [
+  {
+   "clip": "W01",
+   "src": "D",
+   "at": 1857.2,
+   "kind": "action",
+   "why": "Kobe #24 shoots over Pierce (NBA Entertainment 2010 Finals film; illustrative of his shooting that night)",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.6,
+   "anchor": "Kobe",
+   "overlay": [
+    {
+     "text": "18 MISSES",
+     "size": 110,
+     "color": "orange",
+     "y": 300,
+     "start": 1.0,
+     "end": 3.0
+    }
+   ],
+   "len": 3.36
+  },
+  {
+   "clip": "W02",
+   "src": "D",
+   "at": 2308.3,
+   "kind": "face",
+   "why": "Kobe head down (NBA film, illustrative)",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.4,
+   "anchor": "He made",
+   "overlay": [
+    {
+     "text": "6 OF 24",
+     "size": 110,
+     "color": "orange",
+     "y": 300,
+     "start": 0.4,
+     "end": 1.2
+    }
+   ],
+   "len": 1.55
+  },
+  {
+   "clip": "W03",
+   "src": "D",
+   "at": 1869.4,
+   "kind": "action",
+   "why": "Kobe and Gasol, Game 7 era (NBA film, illustrative of 'rebounds')",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "But he",
+   "overlay": [
+    {
+     "text": "15 REB",
+     "size": 110,
+     "color": "orange",
+     "y": 300,
+     "start": 0.4,
+     "end": 1.7
+    }
+   ],
+   "len": 2.03
+  },
+  {
+   "clip": "W04",
+   "src": "G",
+   "at": 7207.0,
+   "kind": "face",
+   "why": "Kobe at the line, Game 7 broadcast (ABC), 4th quarter",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "Eleven",
+   "zoom": 1.45,
+   "overlay": [
+    {
+     "text": "11 FROM THE LINE",
+     "size": 110,
+     "color": "orange",
+     "y": 300,
+     "start": 0.2,
+     "end": 2.2
+    }
+   ],
+   "len": 2.87
+  },
+  {
+   "clip": "W05",
+   "src": "D",
+   "at": 2410.0,
+   "kind": "action",
+   "why": "Lakers celebrate (NBA film)",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "The Lakers",
+   "overlay": [
+    {
+     "text": "WON BY 4",
+     "size": 110,
+     "color": "orange",
+     "y": 300,
+     "start": 0.2,
+     "end": 1.5
+    }
+   ],
+   "len": 1.93
+  },
+  {
+   "clip": "W06",
+   "src": "D",
+   "at": 1979.4,
+   "kind": "action",
+   "why": "Pau Gasol #16 shoots (NBA film, illustrative)",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.45,
+   "anchor": "Pau",
+   "overlay": [
+    {
+     "text": "GASOL 18 REB",
+     "size": 110,
+     "color": "orange",
+     "y": 300,
+     "start": 0.2,
+     "end": 2.2
+    }
+   ],
+   "len": 2.8
+  },
+  {
+   "clip": "W07",
+   "src": "G",
+   "at": 8351.0,
+   "kind": "action",
+   "why": "Finals MVP trophy presentation, Game 7 broadcast (ABC)",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "Kobe still",
+   "len": 1.92
+  },
+  {
+   "clip": "W08",
+   "src": "G",
+   "at": 8356.5,
+   "kind": "action",
+   "why": "Kobe raises the Finals MVP trophy (Game 7 broadcast)",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "Eighteen",
+   "replay": false,
+   "len": 2.08
+  }
+ ]
+}

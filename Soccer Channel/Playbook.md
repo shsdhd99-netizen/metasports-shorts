@@ -1,3 +1,18 @@
+# Soccer channel playbook v2 (Nov 1, 2026): premise first
+
+**OWNER-APPROVED TESTS (Nov 1):** (1) the next two goalkeeper Shorts after S28 use an action-first opener (first story sentence over the action; title as on-screen text only); S25-S28 are the title-first control. (2) quiet-caption A/B: `--caption-style clank` and/or `--color-rule word` on two Shorts per channel; log the arm in UPLOAD.md. Details: `Research Notes/Full Review for Retention (Nov 2026).md` changes 5 and 8.
+
+
+**What changed (evidence: `Research Notes/Soccer Topic Study (Nov 1, 2026).md` and `Soccer Script Craft (Nov 1, 2026).md`):** the template was never the problem. All 12 posted FC Shorts use it; the four goalkeeper-in-a-shootout ones got 15-30K and the other eight got 1-3K [V, n=12]. Competitors agree in direction: goalkeeper is 1.3x a channel's own median and star-name / money / Messi stories are at or below it [V, 8 channels].
+- **Rule 0 (new):** pick a premise the viewer does not already know. Goalkeeper + one odd device + a big shootout first; fan/kid/family second (1.53x, untested for us). The odd thing goes in the title.
+- **Hold:** money/transfer payoffs (S15, S08), name-led, number-led and "most/worst" titles, records, two-timeline scripts, awards.
+- **Title tests:** "When..." (1.44x) and "the real reason..." (1.37x) openers are the best shapes on competitors [S]; A/B them against our "Goalkeepers who..." control.
+- **Length:** 45-59 s, 190-250 words. Under 45 s is 0.25-0.61x on competitors [V].
+- **Queue order:** S19 Rulli, England's penalty subs, Ricardo's gloves, Goycochea, Kepa; one fan/kid test; S20 after; S09 held.
+- **Still guesses [H]:** whether the 4 hits are topic or timing; whether music helps. Judge after the next 3 goalkeeper Shorts.
+
+**Full Review (Nov 1, 2026), `Research Notes/Full Review for Retention (Nov 2026).md`:** S17 (a plain goalkeeper subbed on for penalties, no trick) reached 17K at 2 days, so the hit is goalkeepers in a famous shootout, not only a trick: 4 of 4 at 15-30K vs 0 of 8 others above 3.2K [V n=12]. Voice 226-233 wpm is right (Ahmed's Goal 230 wpm) [S]. No decorative SFX; quiet captions and `--color-rule word` are an A/B (2 Shorts), default unchanged. The next two goalkeeper Shorts test an action-first opener (title as on-screen text, first story sentence spoken over the action) against the title-first control [H]: the sharp dip at 2-3% of runtime is where the spoken title ends, but Ahmed's Goal also opens title-first in 26 of 36.
+
 # Soccer channel playbook (Oct 21, 2026; rules updated in the Oct 26 overnight review)
 
 **How to make a Short:** the step-by-step lives in the skill, `.claude/skills/story-short/SKILL.md`, so one copy stays current. The format itself, with evidence, is in `.claude/skills/story-short/FORMAT.md`.
@@ -30,7 +45,7 @@
 13. **Posting and the package (Oct 26 overnight review) [V/S] `Research Notes/Posting Study (Oct 26, 2026).md`:**
     - Title = the spoken line 1, a short statement. Title wording is a small factor: no title scoring.
     - No hashtag or one (#football). Description empty.
-    - Tags optional: 3-8 relevant tags, about 100-150 characters (names, club, event, common misspellings). Never fill the 500 characters.
+    - Tags: fill the box to 490 characters (owner, Nov 1: "go back to filling"), most relevant first: the names, the team or club, the event, common misspellings, then wider topic tags. Check with `python Tools/tags_fit.py "tag1, tag2, ..."` (it counts the way YouTube does and stops at 490).
     - Judge a Short at 72 hours (S03 had 1.4K views at 10 h and 14.5K by day 3). Never re-upload a Short.
 14. **Research tools (Oct 26 overnight review):** `Research Notes/Competitor Watchlist.csv` (the channels we watch, soccer included) and `Tools/yt_watch.py` (Gemini watches a Short; needs a free `GEMINI_API_KEY` in the environment settings).
 15. **TikTok and Instagram cross-posting is paused** (owner, Oct 26: YouTube first).

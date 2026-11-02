@@ -1,0 +1,85 @@
+{
+ "length_s": 14.3,
+ "topic": "A fan asks Steven Adams for an autograph, but Adams refuses until the fan says \"please\".",
+ "lane": "moment",
+ "hook": {
+  "first_words": "This guy doesn't sign autographs unless they say a specific word.",
+  "first_frame": "A boy holding a marker and cap, standing courtside in an arena near empty seats.",
+  "on_screen_text_0_3s": "This guy doesn't sign autographs unless they say a specific word.",
+  "shots_in_first_3s": 1
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 3.1,
+   "shows": "A young fan holding a marker waiting courtside as Steven Adams walks past.",
+   "kind": "action"
+  },
+  {
+   "start_s": 3.1,
+   "end_s": 14.3,
+   "shows": "POV angle from above as Steven Adams approaches the fan and negotiates for the word \"please\".",
+   "kind": "face"
+  }
+ ],
+ "shot_count": 2,
+ "average_shot_s": 7.15,
+ "longest_shot_s": 11.2,
+ "voice": {
+  "type": "human",
+  "gender": "male",
+  "words_per_minute_estimate": 130,
+  "tone": "casual and narrative",
+  "original_audio_under_voice": true
+ },
+ "music": {
+  "present": true,
+  "style": "upbeat background beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "sentence",
+  "position": "middle",
+  "colours": "white",
+  "highlight_style": "none"
+ },
+ "text_overlays": [],
+ "cards_or_graphics": 0,
+ "framing": "crop",
+ "ending": {
+  "last_words": "Here ya go mate!",
+  "last_frame": "Steven Adams holding out the signed cap to the fan.",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "This guy doesn't sign autographs unless they say a specific word. Steven Adams! What's up? Will you sign my hat? No. What do you say? What? What do you say? Please! Love it! Thank you! Here ya go mate!",
+ "retention_tricks": [
+  "hook with suspense about the \"specific word\"",
+  "pov angle shift creating intimacy and engagement",
+  "comedic standoff between NBA player and fan"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "Strong hook that establishes a mystery (the specific word)",
+  "Humorous interaction featuring a well-known NBA player (Steven Adams)",
+  "Satisfying payoff when the fan finally says \"please\" and gets the autograph"
+ ],
+ "_meta": {
+  "source": "Rv2qrBwPW7k",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-11-01",
+  "tier": "[S] model-observed, not measured"
+ }
+}

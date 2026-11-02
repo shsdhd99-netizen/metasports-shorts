@@ -1,0 +1,317 @@
+[
+ {
+  "word": "The",
+  "start": 0.0,
+  "end": 0.128
+ },
+ {
+  "word": "Warriors",
+  "start": 0.174,
+  "end": 0.488
+ },
+ {
+  "word": "did",
+  "start": 0.534,
+  "end": 0.65
+ },
+ {
+  "word": "something",
+  "start": 0.685,
+  "end": 0.894
+ },
+ {
+  "word": "no",
+  "start": 0.975,
+  "end": 1.126
+ },
+ {
+  "word": "team",
+  "start": 1.184,
+  "end": 1.347
+ },
+ {
+  "word": "had",
+  "start": 1.382,
+  "end": 1.463
+ },
+ {
+  "word": "done",
+  "start": 1.509,
+  "end": 1.707
+ },
+ {
+  "word": "in",
+  "start": 1.73,
+  "end": 1.776
+ },
+ {
+  "word": "the",
+  "start": 1.8,
+  "end": 1.869
+ },
+ {
+  "word": "shot",
+  "start": 1.892,
+  "end": 2.055
+ },
+ {
+  "word": "clock",
+  "start": 2.078,
+  "end": 2.287
+ },
+ {
+  "word": "era.",
+  "start": 2.357,
+  "end": 2.728
+ },
+ {
+  "word": "Down",
+  "start": 2.763,
+  "end": 2.984
+ },
+ {
+  "word": "twenty-three",
+  "start": 3.03,
+  "end": 3.471
+ },
+ {
+  "word": "after",
+  "start": 3.506,
+  "end": 3.669
+ },
+ {
+  "word": "one",
+  "start": 3.727,
+  "end": 3.866
+ },
+ {
+  "word": "quarter,",
+  "start": 3.901,
+  "end": 4.191
+ },
+ {
+  "word": "they",
+  "start": 4.214,
+  "end": 4.307
+ },
+ {
+  "word": "were",
+  "start": 4.331,
+  "end": 4.423
+ },
+ {
+  "word": "tied",
+  "start": 4.447,
+  "end": 4.656
+ },
+ {
+  "word": "by",
+  "start": 4.679,
+  "end": 4.772
+ },
+ {
+  "word": "halftime.",
+  "start": 4.865,
+  "end": 5.399
+ },
+ {
+  "word": "The",
+  "start": 5.422,
+  "end": 5.492
+ },
+ {
+  "word": "Lakers",
+  "start": 5.55,
+  "end": 5.805
+ },
+ {
+  "word": "won",
+  "start": 5.828,
+  "end": 5.933
+ },
+ {
+  "word": "the",
+  "start": 5.968,
+  "end": 6.037
+ },
+ {
+  "word": "first",
+  "start": 6.084,
+  "end": 6.258
+ },
+ {
+  "word": "quarter",
+  "start": 6.293,
+  "end": 6.513
+ },
+ {
+  "word": "thirty-eight",
+  "start": 6.571,
+  "end": 6.908
+ },
+ {
+  "word": "to",
+  "start": 6.931,
+  "end": 6.978
+ },
+ {
+  "word": "fifteen.",
+  "start": 7.024,
+  "end": 7.546
+ },
+ {
+  "word": "Golden",
+  "start": 7.581,
+  "end": 7.825
+ },
+ {
+  "word": "State",
+  "start": 7.86,
+  "end": 8.034
+ },
+ {
+  "word": "won",
+  "start": 8.057,
+  "end": 8.162
+ },
+ {
+  "word": "the",
+  "start": 8.208,
+  "end": 8.278
+ },
+ {
+  "word": "second",
+  "start": 8.336,
+  "end": 8.591
+ },
+ {
+  "word": "thirty-eight",
+  "start": 8.637,
+  "end": 8.997
+ },
+ {
+  "word": "to",
+  "start": 9.021,
+  "end": 9.067
+ },
+ {
+  "word": "fifteen.",
+  "start": 9.113,
+  "end": 9.601
+ },
+ {
+  "word": "The",
+  "start": 9.624,
+  "end": 9.717
+ },
+ {
+  "word": "exact",
+  "start": 9.775,
+  "end": 10.112
+ },
+ {
+  "word": "same",
+  "start": 10.135,
+  "end": 10.298
+ },
+ {
+  "word": "score,",
+  "start": 10.321,
+  "end": 10.785
+ },
+ {
+  "word": "flipped.",
+  "start": 10.881,
+  "end": 11.38
+ },
+ {
+  "word": "Fifty-three",
+  "start": 11.38,
+  "end": 11.794
+ },
+ {
+  "word": "to",
+  "start": 11.817,
+  "end": 11.864
+ },
+ {
+  "word": "fifty-three",
+  "start": 11.898,
+  "end": 12.316
+ },
+ {
+  "word": "at",
+  "start": 12.34,
+  "end": 12.398
+ },
+ {
+  "word": "halftime.",
+  "start": 12.456,
+  "end": 12.943
+ },
+ {
+  "word": "Then",
+  "start": 12.966,
+  "end": 13.129
+ },
+ {
+  "word": "Golden",
+  "start": 13.199,
+  "end": 13.454
+ },
+ {
+  "word": "State",
+  "start": 13.501,
+  "end": 13.698
+ },
+ {
+  "word": "won",
+  "start": 13.721,
+  "end": 13.814
+ },
+ {
+  "word": "by",
+  "start": 13.86,
+  "end": 13.93
+ },
+ {
+  "word": "seventeen.",
+  "start": 13.988,
+  "end": 14.58
+ },
+ {
+  "word": "The",
+  "start": 14.603,
+  "end": 14.673
+ },
+ {
+  "word": "team",
+  "start": 14.72,
+  "end": 14.836
+ },
+ {
+  "word": "that",
+  "start": 14.87,
+  "end": 14.963
+ },
+ {
+  "word": "led",
+  "start": 14.998,
+  "end": 15.114
+ },
+ {
+  "word": "by",
+  "start": 15.149,
+  "end": 15.242
+ },
+ {
+  "word": "twenty-three",
+  "start": 15.3,
+  "end": 15.869
+ },
+ {
+  "word": "lost.",
+  "start": 15.939,
+  "end": 16.46
+ }
+]

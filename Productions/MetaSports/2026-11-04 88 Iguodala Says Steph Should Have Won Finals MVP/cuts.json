@@ -1,0 +1,177 @@
+{
+ "sources": {
+  "G": "src/gq8KwOxV-0w.mp4",
+  "H": "src/6UisR8tteLY.mp4",
+  "Q": "src/QMZqOJAVCdU.mp4",
+  "T": "src/TAxHzH4FV8g.mp4"
+ },
+ "promise": [
+  "Iguodala",
+  "MVP"
+ ],
+ "shots": [
+  {
+   "clip": "A01",
+   "src": "G",
+   "at": 48.0,
+   "kind": "face",
+   "why": "Andre Iguodala, 2015 Finals MVP, post-title interview (ESPN/NBA, June 2015)",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "The",
+   "len": 2.93
+  },
+  {
+   "clip": "A02",
+   "src": "Q",
+   "at": 91.0,
+   "kind": "action",
+   "why": "Iguodala (#9) with the ball in the 2015 Finals (NBA minimovie)",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.72,
+   "anchor": "Andre",
+   "len": 1.67
+  },
+  {
+   "clip": "A03",
+   "src": "G",
+   "at": 60.0,
+   "kind": "face",
+   "why": "Iguodala interview, 2015 title night",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "16.3",
+   "overlay": [
+    {
+     "text": "16.3 PPG",
+     "size": 110,
+     "color": "orange",
+     "y": 300,
+     "start": 0.0,
+     "end": 1.3
+    }
+   ],
+   "len": 1.67
+  },
+  {
+   "clip": "A04",
+   "src": "Q",
+   "at": 87.0,
+   "kind": "face",
+   "why": "Steph Curry (#30) next to LeBron, 2015 Finals (NBA minimovie)",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "Steph",
+   "overlay": [
+    {
+     "text": "26.0 PPG",
+     "size": 110,
+     "color": "orange",
+     "y": 300,
+     "start": 0.0,
+     "end": 1.5
+    }
+   ],
+   "len": 1.93
+  },
+  {
+   "clip": "A05",
+   "src": "G",
+   "at": 57.0,
+   "kind": "face",
+   "why": "Iguodala interview, 2015 (illustrative of his Twitch comments; the Twitch video itself is not used)",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "Iguodala,",
+   "len": 1.7
+  },
+  {
+   "clip": "A06",
+   "src": "Q",
+   "at": 374.3,
+   "kind": "face",
+   "why": "Curry and Iguodala with the trophy, 2015 (NBA minimovie)",
+   "blurfit": true,
+   "blurfit_aspect": 1.0,
+   "x": 0.58,
+   "anchor": "They",
+   "len": 1.59
+  },
+  {
+   "clip": "A07",
+   "src": "Q",
+   "at": 93.0,
+   "kind": "action",
+   "why": "Iguodala (#9) with the ball, 2015 Finals (NBA minimovie); illustrative of Game 4 starting role",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.72,
+   "anchor": "But",
+   "len": 1.54
+  },
+  {
+   "clip": "A08",
+   "src": "Q",
+   "at": 271.5,
+   "kind": "action",
+   "why": "Warriors celebrate the title, Game 6 (NBA minimovie)",
+   "blurfit": true,
+   "blurfit_aspect": 1.0,
+   "x": 0.45,
+   "anchor": "and",
+   "len": 2.11
+  },
+  {
+   "clip": "A09",
+   "src": "H",
+   "at": 5.9,
+   "kind": "face",
+   "why": "Curry close-up after the 2022 title (ESPN broadcast)",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "Curry got",
+   "len": 1.65
+  },
+  {
+   "clip": "A10",
+   "src": "H",
+   "at": 83.0,
+   "kind": "face",
+   "why": "Curry with lower third: 2022 Bill Russell NBA Finals MVP (ESPN broadcast)",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "in",
+   "overlay": [
+    {
+     "text": "2022",
+     "size": 110,
+     "color": "orange",
+     "y": 300,
+     "start": 0.0,
+     "end": 1.0
+    }
+   ],
+   "len": 1.26
+  },
+  {
+   "clip": "A11",
+   "src": "G",
+   "at": 41.0,
+   "kind": "face",
+   "why": "Iguodala holding his Finals MVP trophy, 2015 (ESPN broadcast)",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.45,
+   "anchor": "Iguodala still",
+   "zoom": 1.4,
+   "len": 2.42
+  }
+ ]
+}

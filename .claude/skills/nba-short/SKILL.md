@@ -8,6 +8,15 @@ description: >
   asks for a MetaSports / NBA Short script. Argument: the moment or topic (optional).
 ---
 
+> **Full Review (Nov 1, 2026) - read before building** (`Research Notes/Full Review for Retention (Nov 2026).md`; THE RULES §0 in `MetaSports - Playbook.md`):
+> 1. The edit is not what separates 3K from 30K; the **premise** and the **first 1-3 s** are. Run `python Tools/idea_gauge.py` on the idea and skip flop shapes (rules, record counts, hypotheticals, lesser-name lists).
+> 2. **NBA voice 22 s or less** (QA warns past 24 s): shorter had median 10K public views vs 3K (n=8/16) [V small]. Line 1 is 11 words or fewer, a name or action first, the first number after the viewer has a picture.
+> 3. Footage big and moving from frame 1; no black fill (`--fill-brightness 0` .. `-0.04` on `broll.py cut` / `"fill_brightness"` in cuts.json); `python Tools/edit_lint.py --folder <F>` runs inside `qa_short` and its flags are warnings to fix (zoom 1.5 on a small hook subject, full frame when a scorebug is the proof, no same angle 3x in the first 8 s).
+> 4. **No decorative SFX** (one only when it is the sound of a visible event). No punch-ins, freeze frames, arrows or emoji "because a winner has one": no evidence.
+> 5. Time-free wording in line 1 ("just", "yesterday", "tonight") unless it posts the same day; one number on screen at a time; every "still/record/first/never/only/most" line gets a source row checked on the posting day (`qa_short` lists them).
+> 6. Caption A/B in progress: build 2 Shorts per channel with `--caption-style clank` (NBA) and/or `--color-rule word` (`assemble.py`); log which in the Outcome Log. Default look unchanged.
+> 7. Judge at 72 h against the channel's last 10, not one number.
+
 # /nba-short
 
 The user is not technical. Keep chat short, run the tools yourself and put the work in files.
@@ -39,7 +48,7 @@ ROOT = `C:\Users\Admin\Documents\YouTube-Playbooks`. Run the tools from `ROOT\To
    - a short statement pointing at the moment or the claim ("He Pretended To Be Klay Thompson"), true to the video
    - no hashtag or one (#nba); no ALL-CAPS words
    - title wording is a small factor ([V] `Research Notes/Similar Channels (Oct 26, 2026).md` §1): don't score titles
-   - also write 3-8 optional tags (about 100-150 characters: names, team, event, misspellings), no description
+   - also write tags filled to 490 characters with Tools/tags_fit.py (names, team, event, misspellings, then wider topics; owner, Nov 1), no description
 8. **Save the package before the folder.** Write `script.txt` words and `notes.md` (titles, the shot list, the pinned comment, sources) into `Research Notes` first. Create `ROOT\Productions\MetaSports\<YYYY-MM-DD> <short title>\` only after step 4 still passes and frame 1 plus a proof clip per beat are named. Then:
    - `script.txt`: ONLY the words the voice says, in one paragraph.
      - Hard names as `{Giannis|YAH-nis}`. Captions show the left side; the voice says the right.

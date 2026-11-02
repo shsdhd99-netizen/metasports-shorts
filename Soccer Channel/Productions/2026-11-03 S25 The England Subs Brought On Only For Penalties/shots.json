@@ -1,0 +1,345 @@
+[
+ {
+  "clip": "A01.mp4",
+  "kind": "face",
+  "why": "Rashford (sub) kicking in the shootout, bright wide: the title's promise; illustrative (shootout, not the 120th-minute change)",
+  "start": 0.0
+ },
+ {
+  "clip": "A02.mp4",
+  "kind": "action",
+  "why": "England players arm in arm, shootout",
+  "anchor": "Back in",
+  "start": 2.28
+ },
+ {
+  "clip": "A03.mp4",
+  "kind": "action",
+  "why": "Wide shot of a kick at Wembley",
+  "anchor": "England played",
+  "start": 3.5
+ },
+ {
+  "clip": "A04.mp4",
+  "kind": "action",
+  "why": "England line-up, Stones and Walker's side, Wembley",
+  "anchor": "in the final",
+  "start": 4.4
+ },
+ {
+  "clip": "A05.mp4",
+  "kind": "action",
+  "why": "Wide, England taker walking to the spot, Wembley",
+  "anchor": "at Wembley",
+  "start": 5.58
+ },
+ {
+  "clip": "A06.mp4",
+  "kind": "action",
+  "why": "Italy fans praying",
+  "anchor": "After extra",
+  "start": 6.18
+ },
+ {
+  "clip": "A07.mp4",
+  "kind": "face",
+  "why": "Southgate and staff",
+  "anchor": "Then, in",
+  "start": 8.12
+ },
+ {
+  "clip": "A08.mp4",
+  "kind": "face",
+  "why": "Gareth Southgate close-up in the technical area",
+  "anchor": "Gareth Southgate",
+  "start": 9.46
+ },
+ {
+  "clip": "A09.mp4",
+  "kind": "face",
+  "why": "Southgate talking to staff",
+  "anchor": "made two",
+  "start": 10.08
+ },
+ {
+  "clip": "A10.mp4",
+  "kind": "action",
+  "why": "Wide shootout shot (illustrative for the Walker/Henderson change)",
+  "anchor": "He took",
+  "start": 11.04
+ },
+ {
+  "clip": "A11.mp4",
+  "kind": "face",
+  "why": "Marcus Rashford close-up",
+  "anchor": "and brought on",
+  "start": 12.67
+ },
+ {
+  "clip": "A12.mp4",
+  "kind": "face",
+  "why": "Jadon Sancho close-up, number 17",
+  "anchor": "Jadon Sancho",
+  "start": 13.9
+ },
+ {
+  "clip": "A13.mp4",
+  "kind": "face",
+  "why": "Sancho in England kit before his kick",
+  "anchor": "Not to",
+  "start": 14.67
+ },
+ {
+  "clip": "A14.mp4",
+  "kind": "action",
+  "why": "Sancho, Rashford, Maguire and Kane arm in arm",
+  "anchor": "Just to",
+  "start": 15.52
+ },
+ {
+  "clip": "A15.mp4",
+  "kind": "face",
+  "why": "England fans in the stands",
+  "anchor": "On the",
+  "start": 16.57
+ },
+ {
+  "clip": "A16.mp4",
+  "kind": "face",
+  "why": "Italy's Bonucci fist (illustrative: no BBC commentary footage used)",
+  "anchor": "commentator",
+  "start": 17.2
+ },
+ {
+  "clip": "A17.mp4",
+  "kind": "action",
+  "why": "Wide shot of the pitch",
+  "anchor": "had even",
+  "start": 18.28
+ },
+ {
+  "clip": "A19.mp4",
+  "kind": "action",
+  "why": "Wide, England taker walking to the spot",
+  "anchor": "to stop",
+  "start": 20.03
+ },
+ {
+  "clip": "A20.mp4",
+  "kind": "action",
+  "why": "2014 Netherlands v Costa Rica extra time, wide",
+  "anchor": "Years earlier",
+  "start": 21.85
+ },
+ {
+  "clip": "A21.mp4",
+  "kind": "face",
+  "why": "Wesley Sneijder, 2014 World Cup quarter-final",
+  "anchor": "in 2014",
+  "start": 22.5
+ },
+ {
+  "clip": "A22.mp4",
+  "kind": "action",
+  "why": "Substitution board 23 for 1: Krul on for Cillessen (illustrative for Van Gaal)",
+  "anchor": "Louis van",
+  "start": 23.46
+ },
+ {
+  "clip": "A23.mp4",
+  "kind": "face",
+  "why": "Cillessen/keeper jogging on the touchline",
+  "anchor": "done something",
+  "start": 24.27
+ },
+ {
+  "clip": "A24.mp4",
+  "kind": "face",
+  "why": "Krul comes on, graphic Cillessen/Krul",
+  "anchor": "bringing on",
+  "start": 25.09
+ },
+ {
+  "clip": "A25.mp4",
+  "kind": "action",
+  "why": "Shootout, Netherlands bench",
+  "anchor": "for the",
+  "start": 25.99
+ },
+ {
+  "clip": "A26.mp4",
+  "kind": "face",
+  "why": "Krul roars after a save",
+  "anchor": "and it",
+  "start": 26.65
+ },
+ {
+  "clip": "A27.mp4",
+  "kind": "face",
+  "why": "Italy kicker, first kick, ball in hand",
+  "anchor": "Italy kicked",
+  "start": 27.42
+ },
+ {
+  "clip": "A28.mp4",
+  "kind": "action",
+  "why": "Berardi, Italy 11, taking his kick",
+  "anchor": "Berardi scored",
+  "start": 28.59
+ },
+ {
+  "clip": "A29.mp4",
+  "kind": "face",
+  "why": "Harry Kane, captain, from behind",
+  "anchor": "Kane scored",
+  "start": 29.48
+ },
+ {
+  "clip": "A30.mp4",
+  "kind": "action",
+  "why": "Belotti's kick saved: Pickford dives",
+  "anchor": "Pickford saved",
+  "start": 30.22
+ },
+ {
+  "clip": "A31.mp4",
+  "kind": "face",
+  "why": "Harry Maguire with the ball",
+  "anchor": "Harry Maguire",
+  "start": 31.37
+ },
+ {
+  "clip": "A32.mp4",
+  "kind": "face",
+  "why": "Bonucci with the ball, 10-shirt, before his kick",
+  "anchor": "But Bonucci",
+  "start": 32.86
+ },
+ {
+  "clip": "A33.mp4",
+  "kind": "action",
+  "why": "Rashford walking to the spot",
+  "anchor": "Then Rashford",
+  "start": 33.88
+ },
+ {
+  "clip": "A34.mp4",
+  "kind": "action",
+  "why": "Rashford hits the post",
+  "anchor": "and hit",
+  "start": 34.88
+ },
+ {
+  "clip": "A35.mp4",
+  "kind": "face",
+  "why": "Bernardeschi 20, Italy",
+  "anchor": "Italy scored",
+  "start": 35.67
+ },
+ {
+  "clip": "A36.mp4",
+  "kind": "action",
+  "why": "Sancho places the ball",
+  "anchor": "Then came",
+  "start": 36.66
+ },
+ {
+  "clip": "A37.mp4",
+  "kind": "action",
+  "why": "Donnarumma saves Sancho's kick",
+  "anchor": "Donnarumma saved",
+  "start": 37.45
+ },
+ {
+  "clip": "A38.mp4",
+  "kind": "action",
+  "why": "REPLAY of the Sancho save, half speed",
+  "anchor": "England were",
+  "replay": true,
+  "start": 38.46
+ },
+ {
+  "clip": "A39.mp4",
+  "kind": "action",
+  "why": "Pickford saves Jorginho's kick",
+  "anchor": "but Pickford",
+  "start": 39.44
+ },
+ {
+  "clip": "A40.mp4",
+  "kind": "face",
+  "why": "Bukayo Saka, 25, before his kick",
+  "anchor": "Then Bukayo",
+  "start": 40.82
+ },
+ {
+  "clip": "A41.mp4",
+  "kind": "action",
+  "why": "Saka walks up, wide",
+  "anchor": "stepped up",
+  "start": 41.79
+ },
+ {
+  "clip": "A42.mp4",
+  "kind": "action",
+  "why": "Donnarumma saves Saka's kick (kick and save wide)",
+  "anchor": "Donnarumma saved that",
+  "start": 42.34
+ },
+ {
+  "clip": "A43.mp4",
+  "kind": "action",
+  "why": "Italy staff hug at the final whistle",
+  "anchor": "Italy won",
+  "start": 43.78
+ },
+ {
+  "clip": "A44.mp4",
+  "kind": "face",
+  "why": "Southgate after the match",
+  "anchor": "Afterwards",
+  "start": 44.98
+ },
+ {
+  "clip": "A45.mp4",
+  "kind": "face",
+  "why": "Pickford in goal (illustrative for the substitutions line)",
+  "anchor": "substitutions",
+  "start": 46.2
+ },
+ {
+  "clip": "A47.mp4",
+  "kind": "face",
+  "why": "Southgate and staff",
+  "anchor": "the order",
+  "start": 47.66
+ },
+ {
+  "clip": "A48.mp4",
+  "kind": "face",
+  "why": "Krul in goal 2014",
+  "anchor": "Van Gaal's",
+  "start": 49.68
+ },
+ {
+  "clip": "A49.mp4",
+  "kind": "face",
+  "why": "Krul 2014",
+  "anchor": "saved two",
+  "start": 50.69
+ },
+ {
+  "clip": "A50.mp4",
+  "kind": "action",
+  "why": "Sancho and Rashford in the circle",
+  "anchor": "Southgate's two",
+  "start": 51.69
+ },
+ {
+  "clip": "A51.mp4",
+  "kind": "face",
+  "why": "Rashford hands on face after the miss",
+  "anchor": "missed theirs",
+  "start": 52.91
+ }
+]

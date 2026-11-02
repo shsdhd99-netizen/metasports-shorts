@@ -1,0 +1,87 @@
+[
+ {
+  "clip": "H01.mp4",
+  "kind": "action",
+  "why": "Luka drives and scores the and-1 in Q1 (ESPN clip 50332790)",
+  "anchor": "The Lakers led",
+  "start": 0.0
+ },
+ {
+  "clip": "H02.mp4",
+  "kind": "face",
+  "why": "Luka close-up, Q1 (22 on the bug), half speed (ESPN recap 50333448)",
+  "anchor": "Luka had 21",
+  "start": 3.48
+ },
+ {
+  "clip": "H03.mp4",
+  "kind": "face",
+  "why": "Second quarter (bug 40-25 at its start): Curry's three and the bench erupt (ESPN clip 50332985)",
+  "anchor": "Then the second",
+  "start": 5.53
+ },
+ {
+  "clip": "H04.mp4",
+  "kind": "face",
+  "why": "Luka looks up at the board in Q1 (25-14 bug), under the flipped score",
+  "anchor": "The exact same",
+  "start": 8.56
+ },
+ {
+  "clip": "H05.mp4",
+  "kind": "action",
+  "why": "Warriors fans erupt at the end of the first half (53-50 on the bug with 5.5 s left, then the tie)",
+  "anchor": "It was 53",
+  "start": 10.34
+ },
+ {
+  "clip": "H06.mp4",
+  "kind": "face",
+  "why": "Luka reacts to the Warriors run (Q3, ESPN recap)",
+  "anchor": "No team in",
+  "start": 12.53
+ },
+ {
+  "clip": "H06B.mp4",
+  "kind": "action",
+  "why": "Q2 (42-33 on the bug): the Warriors close in, Cup trophy behind (ESPN recap)",
+  "anchor": "after one and",
+  "start": 15.41
+ },
+ {
+  "clip": "H07.mp4",
+  "kind": "face",
+  "why": "Luka talks to the Warriors after a bucket in Q3 (ESPN recap)",
+  "anchor": "Luka still",
+  "start": 17.59
+ },
+ {
+  "clip": "H08.mp4",
+  "kind": "face",
+  "why": "Curry hits the shimmy after a three (ESPN clip 50332985)",
+  "anchor": "Curry passed",
+  "start": 19.1
+ },
+ {
+  "clip": "H08B.mp4",
+  "kind": "face",
+  "why": "replay of the shimmy at half speed, closer",
+  "anchor": "all-time list",
+  "replay": true,
+  "start": 20.52
+ },
+ {
+  "clip": "H09.mp4",
+  "kind": "face",
+  "why": "Q4 (84-101 on the bug): Curry and the Warriors on the way to the 17-point win (ESPN clip 50333380)",
+  "anchor": "And no team",
+  "start": 21.34
+ },
+ {
+  "clip": "H09B.mp4",
+  "kind": "face",
+  "why": "Curry in transition, Q4 (101 for GSW)",
+  "anchor": "has won by",
+  "start": 23.12
+ }
+]

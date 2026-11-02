@@ -1,0 +1,94 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,TikTok Sans SemiBold,80,&H00FFFFFF,&H00FFFFFF,&H00000000,&H99000000,0,0,0,0,100,100,0,0,1,3.2,1,5,70,70,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:02.31,Cap,,0,0,0,,{\pos(540,960)\blur0.5\fscx65\fscy65}The England subs brought on only for\NPENALTIES
+Dialogue: 0,0:00:02.31,0:00:03.53,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Back in 2021,
+Dialogue: 0,0:00:03.53,0:00:04.43,Cap,,0,0,0,,{\pos(540,960)\blur0.5}England played Italy
+Dialogue: 0,0:00:04.43,0:00:05.01,Cap,,0,0,0,,{\pos(540,960)\blur0.5}in the final
+Dialogue: 0,0:00:05.01,0:00:05.61,Cap,,0,0,0,,{\pos(540,960)\blur0.5}of the Euros,
+Dialogue: 0,0:00:05.61,0:00:06.21,Cap,,0,0,0,,{\pos(540,960)\blur0.5}at Wembley.
+Dialogue: 0,0:00:06.21,0:00:07.14,Cap,,0,0,0,,{\pos(540,960)\blur0.5}After extra time,
+Dialogue: 0,0:00:07.14,0:00:08.15,Cap,,0,0,0,,{\pos(540,960)\blur0.5}it was still level.
+Dialogue: 0,0:00:08.15,0:00:08.47,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Then,
+Dialogue: 0,0:00:08.47,0:00:08.96,Cap,,0,0,0,,{\pos(540,960)\blur0.5}in the very
+Dialogue: 0,0:00:08.96,0:00:09.49,Cap,,0,0,0,,{\pos(540,960)\blur0.5}last minute,
+Dialogue: 0,0:00:09.49,0:00:10.11,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Gareth Southgate
+Dialogue: 0,0:00:10.11,0:00:11.07,Cap,,0,0,0,,{\pos(540,960)\blur0.5}made two changes.
+Dialogue: 0,0:00:11.07,0:00:11.34,Cap,,0,0,0,,{\pos(540,960)\blur0.5}He took
+Dialogue: 0,0:00:11.34,0:00:12.00,Cap,,0,0,0,,{\pos(540,960)\blur0.5}off Kyle Walker
+Dialogue: 0,0:00:12.00,0:00:12.70,Cap,,0,0,0,,{\pos(540,960)\blur0.5}and Jordan Henderson,
+Dialogue: 0,0:00:12.70,0:00:12.99,Cap,,0,0,0,,{\pos(540,960)\blur0.5}and brought
+Dialogue: 0,0:00:12.99,0:00:13.81,Cap,,0,0,0,,{\pos(540,960)\blur0.5}on Marcus Rashford
+Dialogue: 0,0:00:13.81,0:00:14.70,Cap,,0,0,0,,{\pos(540,960)\blur0.5}and Jadon Sancho.
+Dialogue: 0,0:00:14.70,0:00:15.10,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Not to win
+Dialogue: 0,0:00:15.10,0:00:15.55,Cap,,0,0,0,,{\pos(540,960)\blur0.5}the game.
+Dialogue: 0,0:00:15.55,0:00:15.99,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Just to take
+Dialogue: 0,0:00:15.99,0:00:16.60,Cap,,0,0,0,,{\pos(540,960)\blur0.5}penalties.
+Dialogue: 0,0:00:16.60,0:00:17.23,Cap,,0,0,0,,{\pos(540,960)\blur0.5}On the BBC,
+Dialogue: 0,0:00:17.23,0:00:17.65,Cap,,0,0,0,,{\pos(540,960)\blur0.5}commentator
+Dialogue: 0,0:00:17.65,0:00:18.31,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Guy Mowbray
+Dialogue: 0,0:00:18.31,0:00:19.08,Cap,,0,0,0,,{\pos(540,960)\blur0.5}had even feared
+Dialogue: 0,0:00:19.08,0:00:19.65,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Italy would keep
+Dialogue: 0,0:00:19.65,0:00:20.06,Cap,,0,0,0,,{\pos(540,960)\blur0.5}the ball,
+Dialogue: 0,0:00:20.06,0:00:20.57,Cap,,0,0,0,,{\pos(540,960)\blur0.5}to stop
+Dialogue: 0,0:00:20.57,0:00:21.14,Cap,,0,0,0,,{\pos(540,960)\blur0.5}England making
+Dialogue: 0,0:00:21.14,0:00:21.88,Cap,,0,0,0,,{\pos(540,960)\blur0.5}those changes.
+Dialogue: 0,0:00:21.88,0:00:22.53,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Years earlier,
+Dialogue: 0,0:00:22.53,0:00:23.49,Cap,,0,0,0,,{\pos(540,960)\blur0.5}in 2014,
+Dialogue: 0,0:00:23.49,0:00:23.93,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Louis van
+Dialogue: 0,0:00:23.93,0:00:24.44,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Gaal had done
+Dialogue: 0,0:00:24.44,0:00:25.12,Cap,,0,0,0,,{\pos(540,960)\blur0.5}something similar,
+Dialogue: 0,0:00:25.12,0:00:25.42,Cap,,0,0,0,,{\pos(540,960)\blur0.5}bringing
+Dialogue: 0,0:00:25.42,0:00:26.02,Cap,,0,0,0,,{\pos(540,960)\blur0.5}on a goalkeeper
+Dialogue: 0,0:00:26.02,0:00:26.68,Cap,,0,0,0,,{\pos(540,960)\blur0.5}for the shootout,
+Dialogue: 0,0:00:26.68,0:00:27.45,Cap,,0,0,0,,{\pos(540,960)\blur0.5}and it worked.
+Dialogue: 0,0:00:27.45,0:00:28.62,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Italy kicked first.
+Dialogue: 0,0:00:28.62,0:00:29.51,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Berardi scored.
+Dialogue: 0,0:00:29.51,0:00:30.25,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Kane scored.
+Dialogue: 0,0:00:30.25,0:00:30.58,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Pickford
+Dialogue: 0,0:00:30.58,0:00:31.29,Cap,,0,0,0,,{\pos(540,960)\blur0.5}saved Belotti's,
+Dialogue: 0,0:00:31.29,0:00:31.97,Cap,,0,0,0,,{\pos(540,960)\blur0.5}and Harry Maguire
+Dialogue: 0,0:00:31.97,0:00:32.89,Cap,,0,0,0,,{\pos(540,960)\blur0.5}put England ahead.
+Dialogue: 0,0:00:32.89,0:00:33.46,Cap,,0,0,0,,{\pos(540,960)\blur0.5}But Bonucci
+Dialogue: 0,0:00:33.46,0:00:33.91,Cap,,0,0,0,,{\pos(540,960)\blur0.5}levelled it.
+Dialogue: 0,0:00:33.91,0:00:34.46,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Then Rashford
+Dialogue: 0,0:00:34.46,0:00:34.91,Cap,,0,0,0,,{\pos(540,960)\blur0.5}walked up,
+Dialogue: 0,0:00:34.91,0:00:35.16,Cap,,0,0,0,,{\pos(540,960)\blur0.5}and hit
+Dialogue: 0,0:00:35.16,0:00:35.70,Cap,,0,0,0,,{\pos(540,960)\blur0.5}the post.
+Dialogue: 0,0:00:35.70,0:00:36.69,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Italy scored again.
+Dialogue: 0,0:00:36.69,0:00:37.48,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Then came Sancho.
+Dialogue: 0,0:00:37.48,0:00:38.49,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Donnarumma saved it.
+Dialogue: 0,0:00:38.49,0:00:38.79,Cap,,0,0,0,,{\pos(540,960)\blur0.5}England
+Dialogue: 0,0:00:38.79,0:00:39.47,Cap,,0,0,0,,{\pos(540,960)\blur0.5}were nearly out,
+Dialogue: 0,0:00:39.47,0:00:39.90,Cap,,0,0,0,,{\pos(540,960)\blur0.5}but Pickford
+Dialogue: 0,0:00:39.90,0:00:40.85,Cap,,0,0,0,,{\pos(540,960)\blur0.5}saved Jorginho's.
+Dialogue: 0,0:00:40.85,0:00:41.82,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Then Bukayo Saka
+Dialogue: 0,0:00:41.82,0:00:42.27,Cap,,0,0,0,,{\pos(540,960)\blur0.5}stepped up,
+Dialogue: 0,0:00:42.27,0:00:43.08,Cap,,0,0,0,,{\pos(540,960)\blur0.5}and Donnarumma saved
+Dialogue: 0,0:00:43.08,0:00:43.81,Cap,,0,0,0,,{\pos(540,960)\blur0.5}that one too.
+Dialogue: 0,0:00:43.81,0:00:45.01,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Italy won 3-2.
+Dialogue: 0,0:00:45.01,0:00:45.51,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Afterwards,
+Dialogue: 0,0:00:45.51,0:00:46.14,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Southgate called
+Dialogue: 0,0:00:46.14,0:00:46.79,Cap,,0,0,0,,{\pos(540,960)\blur0.5}the substitutions
+Dialogue: 0,0:00:46.79,0:00:47.40,Cap,,0,0,0,,{\pos(540,960)\blur0.5}a gamble,
+Dialogue: 0,0:00:47.40,0:00:47.69,Cap,,0,0,0,,{\pos(540,960)\blur0.5}and said
+Dialogue: 0,0:00:47.69,0:00:48.01,Cap,,0,0,0,,{\pos(540,960)\blur0.5}the order
+Dialogue: 0,0:00:48.01,0:00:48.46,Cap,,0,0,0,,{\pos(540,960)\blur0.5}of takers
+Dialogue: 0,0:00:48.46,0:00:48.93,Cap,,0,0,0,,{\pos(540,960)\blur0.5}had been set
+Dialogue: 0,0:00:48.93,0:00:49.71,Cap,,0,0,0,,{\pos(540,960)\blur0.5}before the match.
+Dialogue: 0,0:00:49.71,0:00:50.21,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Van Gaal's
+Dialogue: 0,0:00:50.21,0:00:50.95,Cap,,0,0,0,,{\pos(540,960)\blur0.5}substitute saved
+Dialogue: 0,0:00:50.95,0:00:51.72,Cap,,0,0,0,,{\pos(540,960)\blur0.5}two penalties.
+Dialogue: 0,0:00:51.72,0:00:52.20,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Southgate's
+Dialogue: 0,0:00:52.20,0:00:52.94,Cap,,0,0,0,,{\pos(540,960)\blur0.5}two substitutes
+Dialogue: 0,0:00:52.94,0:00:53.94,Cap,,0,0,0,,{\pos(540,960)\blur0.5}missed theirs.

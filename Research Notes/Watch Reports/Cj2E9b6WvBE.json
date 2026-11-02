@@ -1,0 +1,158 @@
+{
+ "length_s": 22.3,
+ "topic": "An examination of why basketball fans and social media scrutinize and criticize Bronny James so heavily compared to how coaches view him.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "Why does no one like Bronny? See even though his dad is",
+  "first_frame": "Victor Wembanyama dunking over Bronny James on the court.",
+  "on_screen_text_0_3s": "WHY DOES NO ONE LIKE BRONNY? SEE EVEN THOUGH HIS DAD IS LEBRON JAMES",
+  "shots_in_first_3s": 3
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 1.4,
+   "shows": "Victor Wembanyama dunking over Bronny James",
+   "kind": "action"
+  },
+  {
+   "start_s": 1.4,
+   "end_s": 2.2,
+   "shows": "Victor Wembanyama driving past Bronny James",
+   "kind": "action"
+  },
+  {
+   "start_s": 2.2,
+   "end_s": 2.9,
+   "shows": "LeBron James celebrating on the bench",
+   "kind": "face"
+  },
+  {
+   "start_s": 2.9,
+   "end_s": 4.3,
+   "shows": "Bronny James turning over the ball amidst Warriors defenders",
+   "kind": "action"
+  },
+  {
+   "start_s": 4.3,
+   "end_s": 5.6,
+   "shows": "Bronny getting crossed over and stumbling defensively",
+   "kind": "action"
+  },
+  {
+   "start_s": 5.6,
+   "end_s": 7.1,
+   "shows": "Bronny missing a corner three-point attempt",
+   "kind": "action"
+  },
+  {
+   "start_s": 7.1,
+   "end_s": 9.3,
+   "shows": "Bronny James high-fiving LeBron on the sideline checking into the game",
+   "kind": "action"
+  },
+  {
+   "start_s": 9.3,
+   "end_s": 11.6,
+   "shows": "Bronny James shooting an airball in Summer League",
+   "kind": "action"
+  },
+  {
+   "start_s": 11.6,
+   "end_s": 12.4,
+   "shows": "Bronny poking the ball loose on defense for a steal",
+   "kind": "action"
+  },
+  {
+   "start_s": 12.4,
+   "end_s": 13.9,
+   "shows": "Bronny making a catch-and-shoot three-pointer",
+   "kind": "action"
+  },
+  {
+   "start_s": 13.9,
+   "end_s": 16.1,
+   "shows": "Bronny talking with coach/mentor on sideline",
+   "kind": "face"
+  },
+  {
+   "start_s": 16.1,
+   "end_s": 17.9,
+   "shows": "Close-up on Bronny James Jr. Lakers jersey back",
+   "kind": "other"
+  },
+  {
+   "start_s": 17.9,
+   "end_s": 20.0,
+   "shows": "Bronny playing on-ball defense against Spurs player",
+   "kind": "action"
+  },
+  {
+   "start_s": 20.0,
+   "end_s": 22.3,
+   "shows": "LeBron James doing his signature chalk toss pre-game ritual",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 14,
+ "average_shot_s": 1.59,
+ "longest_shot_s": 2.3,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 175,
+  "tone": "engaging",
+  "original_audio_under_voice": true
+ },
+ "music": {
+  "present": true,
+  "style": "dramatic ambient hip-hop instrumental",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 2,
+  "case": "ALL CAPS",
+  "position": "middle",
+  "colours": "white and yellow",
+  "highlight_style": "word by word color change"
+ },
+ "text_overlays": [],
+ "cards_or_graphics": 0,
+ "framing": "crop",
+ "ending": {
+  "last_words": "how long he can survive being Lebron's son.",
+  "last_frame": "LeBron James standing after chalk toss with arms out",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "Why does no one like Bronny? See even though his dad is LeBron James, people talk like he snuck into the league. Every box score becomes a meme the second it hits Twitter. Every time he checks in, fans pull phones out praying for a mistake. One bad airball loops for a week, but a tough steal or big three vanishes overnight. Coaches see a rookie guard learning defense and spacing, while the crowd sees just his last name. The question isn't if Bronny belongs in the NBA, it's how long he can survive being LeBron's son.",
+ "retention_tricks": [
+  "Provocative opening question",
+  "Fast cuts contrasting fails and highlights",
+  "Contrast between public memes and coach reality",
+  "Philosophical closing thesis"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": false,
+  "ends_on_payoff": true,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "Taps into a massive trending sports controversy with strong public opinions on both sides",
+  "Direct contrast between the virality of his mistakes vs the invisibility of his good plays",
+  "Rapid cuts every 1-2 seconds keep visual engagement high throughout the brief runtime"
+ ],
+ "_meta": {
+  "source": "Cj2E9b6WvBE",
+  "model": "gemini-3.7-flash",
+  "fps": 4.0,
+  "watched": "2026-11-01",
+  "tier": "[S] model-observed, not measured"
+ }
+}
