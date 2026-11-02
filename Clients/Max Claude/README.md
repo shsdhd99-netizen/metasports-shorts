@@ -26,3 +26,14 @@ name: ElevenLabs Creator (~$22/mo, professional voice clone), an avatar service 
 1. Owner reviews the site; then add pricing + PayPal links.
 2. When Max records: build his voice clone and avatar in his accounts, make the fingerprint lesson (see
    `HANDOVER - Account 1 Client AI Videos.md` for the build prompt), deliver files.
+
+## Nov 2 update 2
+- Not social-media specific (he doesn't know the use yet): copy says "for whatever you need" (classes, training, talks, sites).
+- PayPal button live at the bottom: https://www.paypal.me/vaughnpayne1 (no prices on the page yet).
+- **Free self-preview on the site** (section "Try it with my face", form `demo-request`): he takes/uploads one photo (compressed to
+  1600 px in the browser) and records ~60 s of voice in the browser (or uploads a voice memo), ticks consent, leaves contact.
+  Files land in Netlify → ondemand-studio → Forms → demo-request (tested Nov 2 with a dummy upload, then deleted).
+- **How to make his preview when it arrives:** ElevenLabs Instant Voice Clone from the recording (in an account he owns or that
+  we delete after); a talking-photo avatar from the photo (HeyGen photo avatar or similar); voice the fingerprint script
+  (`HANDOVER - Account 1 Client AI Videos.md`) and edit with our pipeline; 30-45 s, captioned, 16:9 and 9:16. Say it's preview
+  quality; the full version uses his 5-minute filmed recording. Delete his files on request (consent text promises it).

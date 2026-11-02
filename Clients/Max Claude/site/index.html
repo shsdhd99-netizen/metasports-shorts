@@ -88,7 +88,7 @@ footer{padding-block:28px 48px;color:var(--muted);font-size:.85rem;border-top:1p
     <span class="eyebrow">Prepared for Mr. Claude</span>
     <h1>Teach more. <em>Film less.</em></h1>
     <p class="lead">A digital double of you, for the weeks you can't get in front of a camera. Record yourself once, keep teaching live the way you do now, and send us the extra lessons as one line each. They come back as finished videos in your face and your voice.</p>
-    <div class="ctas"><a class="btn" href="#start">Reserve my setup →</a><a class="btn ghost" href="#demo">Watch a demo</a></div>
+    <div class="ctas"><a class="btn" href="#start">Reserve my setup →</a><a class="btn ghost" href="#try">Try it with my face</a></div>
   </div>
   <div class="phone" role="img" aria-label="Preview of a lesson video: Mr. Claude explaining fingerprints, with captions">
     <div class="screen"><span class="rec">Lesson 01</span><div class="face"></div><div class="print"></div><p class="cap">You just <b>signed your name.</b></p><div class="bar"></div></div>
@@ -98,10 +98,34 @@ footer{padding-block:28px 48px;color:var(--muted);font-size:.85rem;border-top:1p
 <section>
   <span class="eyebrow">What a one-time recording buys you</span>
   <div class="stats">
-    <div class="stat"><b>2.7M+</b><span class="muted">Views on the short videos our system has already made, across 148 Shorts.</span></div>
+    <div class="stat"><b>2.7M+</b><span class="muted">Views on the short videos this system has already made for our own channels, across 148 videos.</span></div>
     <div class="stat"><b>1×</b><span class="muted">You record your voice and face once. Use the camera only when you want to.</span></div>
     <div class="stat"><b>3–4 days</b><span class="muted">From your one-line topic to a finished video in your hands.</span></div>
   </div>
+</section>
+
+<section id="try">
+  <span class="eyebrow">Free preview · about 3 minutes of your time</span>
+  <h2>See yourself teach it, before you decide anything.</h2>
+  <p class="muted" style="max-width:62ch">Send one photo and one minute of your voice, right here on this page. We'll turn them into a short preview of you teaching the fingerprint lesson. It's preview quality, made from a photo; the full version uses your 5-minute recording and looks far more natural.</p>
+  <form id="demoForm" name="demo-request" method="POST" data-netlify="true" netlify-honeypot="company2" enctype="multipart/form-data" action="/thanks.html">
+    <input type="hidden" name="form-name" value="demo-request">
+    <p hidden><label>Leave empty <input name="company2"></label></p>
+    <div class="card"><h3>1 · Your photo</h3><p class="muted">Face the camera, good light in front of you, plain background, neutral expression with lips closed.</p>
+      <label for="photo">Take or choose a photo<input id="photo" name="photo" type="file" accept="image/*" capture="user" required></label>
+      <img id="photoPrev" alt="Your photo preview" hidden style="width:140px;border-radius:12px">
+    </div>
+    <div class="card"><h3>2 · One minute of your voice</h3><p class="muted">Tap record, then read this aloud in a quiet room, the way you'd explain it to a class:</p>
+      <p class="read">"Hi, I'm Max. Today I want to explain something most people get wrong. Your fingerprints have been the same since before you were born. They form in the womb, and not even identical twins share them. When you touch a glass, you leave a copy behind. Investigators dust it with powder, and the hidden print appears. A computer can search millions of prints in seconds, but a trained examiner always makes the final call. So next time you grab a door handle, remember: you just signed your name."</p>
+      <div class="ctas"><button type="button" class="btn" id="recBtn">● Record</button><span id="recStatus" class="muted" aria-live="polite" style="align-self:center"></span></div>
+      <audio id="recPlay" controls hidden style="width:100%"></audio>
+      <label for="voiceFile" class="muted" style="font-weight:500">Or upload a voice memo instead<input id="voiceFile" name="voice" type="file" accept="audio/*"></label>
+    </div>
+    <label style="display:flex;gap:10px;align-items:flex-start;font-weight:500"><input type="checkbox" name="consent" required style="width:auto;margin-top:5px"> I give permission to use this photo and voice recording only to make my private preview. Delete them if I ask.</label>
+    <label for="dcontact">Your email or phone, so we can send your preview<input id="dcontact" name="contact" required></label>
+    <button class="btn" type="submit" id="demoSend">Send for my free preview →</button>
+    <p id="demoMsg" class="muted" aria-live="polite"></p>
+  </form>
 </section>
 
 <section>
@@ -115,7 +139,7 @@ footer{padding-block:28px 48px;color:var(--muted);font-size:.85rem;border-top:1p
 <section>
   <span class="eyebrow">Built by people who measure attention</span>
   <h2>We already make short videos that hold viewers.</h2>
-  <p class="muted" style="max-width:62ch">Our own sports channels run on this exact system: researched scripts, fast captions, edits tested against real retention data. Together they have passed 2.7 million views. Here is one of ours, a 55-second story that reached 20,000 views. The same playbook goes into every lesson we make for you.</p>
+  <p class="muted" style="max-width:62ch">Our own sports channels run on this exact system: researched scripts, clear captions, edits tested against how long real viewers keep watching. Together they have passed 2.7 million views. Here is one of ours, a 55-second story that reached 20,000 views. The same playbook goes into every lesson we make for you.</p>
   <figure id="demo" style="margin:0;display:grid;gap:10px;justify-items:start"><video src="demo.mp4" poster="poster.jpg" controls playsinline preload="metadata" style="width:min(300px,100%);aspect-ratio:9/16;border-radius:22px;background:#000;box-shadow:0 24px 60px -28px rgba(15,18,20,.5)"></video><figcaption class="muted" style="font-size:.9rem">Demo: one of our soccer Shorts. Yours would be you, teaching your topic.</figcaption></figure>
 </section>
 
@@ -138,15 +162,15 @@ footer{padding-block:28px 48px;color:var(--muted);font-size:.85rem;border-top:1p
     <div class="step"><span class="n">01 · once</span><h3>Record your voice</h3><p class="muted">30–60 minutes reading aloud.</p></div>
     <div class="step"><span class="n">02 · once</span><h3>Record your face</h3><p class="muted">About 5 minutes on camera.</p></div>
     <div class="step"><span class="n">03 · any time</span><h3>Send a topic</h3><p class="muted">One line is enough.</p></div>
-    <div class="step"><span class="n">04 · 3–4 days</span><h3>Approve and post</h3><p class="muted">You keep the files.</p></div>
+    <div class="step"><span class="n">04 · 3–4 days</span><h3>Approve and use</h3><p class="muted">You keep the files, for whatever you need.</p></div>
   </div>
 </section>
 
 <section>
   <span class="eyebrow">Every video includes</span>
   <div class="grid2">
-    <div class="card"><h3>The files</h3><ul><li>Vertical 9:16 for TikTok, Reels and Shorts</li><li>Wide 16:9 on request</li><li>Captioned and clean versions</li></ul></div>
-    <div class="card"><h3>Ready to post</h3><ul><li>Three title options</li><li>Caption and hashtags</li><li>The script, with a source for every fact</li></ul></div>
+    <div class="card"><h3>The files</h3><ul><li>Wide 16:9 for screens, slides and classes</li><li>Vertical 9:16 for phones</li><li>Captioned and clean versions</li></ul></div>
+    <div class="card"><h3>Ready to use</h3><ul><li>A title and a short summary</li><li>A transcript for handouts or notes</li><li>The script, with a source for every fact</li></ul></div>
   </div>
 </section>
 
@@ -177,7 +201,7 @@ footer{padding-block:28px 48px;color:var(--muted);font-size:.85rem;border-top:1p
     <input type="hidden" name="form-name" value="video-request">
     <p hidden><label>Leave empty <input name="company"></label></p>
     <label for="topic">Your first topic<input id="topic" name="topic" required placeholder="How fingerprints catch criminals"></label>
-    <label for="use">Where will you post?<input id="use" name="use" placeholder="TikTok, Instagram, YouTube, class…"></label>
+    <label for="use">What might you use it for? (not sure yet is fine)<input id="use" name="use" placeholder="Class, training, a talk, a website, just trying it…"></label>
     <label for="volume">How many videos a month?<select id="volume" name="volume"><option>Just a few to start</option><option selected>About 1 a week</option><option>2 or more a week</option></select></label>
     <label for="notes">Anything to include or avoid?<textarea id="notes" name="notes" placeholder="Key points, your logo or colours…"></textarea></label>
     <label for="contact">Your email or phone<input id="contact" name="contact" required></label>
@@ -188,11 +212,52 @@ footer{padding-block:28px 48px;color:var(--muted);font-size:.85rem;border-top:1p
 <div class="final">
   <h2>More lessons, on your schedule.</h2>
   <p class="muted">Record once. Use it whenever it helps.</p>
-  <div class="ctas"><a class="btn" href="#start">Reserve my setup →</a><a hidden id="paypal" class="btn ghost" style="color:inherit;border-color:currentColor" href="PAYPAL_LINK" target="_blank" rel="noopener">Pay with PayPal</a></div>
-  <p hidden id="paypal-note" class="muted" style="font-size:.9rem">Ready to start? Pay securely with PayPal; you'll get a receipt by email.</p>
+  <div class="ctas"><a class="btn" href="#start">Reserve my setup →</a><a id="paypal" class="btn ghost" style="color:inherit;border-color:currentColor" href="https://www.paypal.me/vaughnpayne1" target="_blank" rel="noopener">Pay with PayPal</a></div>
+  <p id="paypal-note" class="muted" style="font-size:.9rem">Ready to start? Pay securely with PayPal; you'll get a receipt by email.</p>
 </div>
 
-<footer>Prepared for Mr. Claude · Every video is a draft until you approve it · Some apps ask creators to label AI-made video; we'll show you how.</footer>
+<footer>Prepared for Mr. Claude · Every video is a draft until you approve it · Your voice and likeness are only used with your permission.</footer>
 </main>
+<script>
+(function(){
+  var f=document.getElementById('demoForm'); if(!f) return;
+  var photoIn=document.getElementById('photo'), prev=document.getElementById('photoPrev');
+  var recBtn=document.getElementById('recBtn'), st=document.getElementById('recStatus'), play=document.getElementById('recPlay');
+  var voiceIn=document.getElementById('voiceFile'), msg=document.getElementById('demoMsg');
+  var photoBlob=null, voiceBlob=null, rec=null, chunks=[], timer=null, t0=0;
+  photoIn.addEventListener('change',function(){
+    var file=photoIn.files[0]; if(!file) return;
+    var img=new Image(); img.onload=function(){
+      var m=1600, k=Math.min(1,m/Math.max(img.width,img.height)), c=document.createElement('canvas');
+      c.width=Math.round(img.width*k); c.height=Math.round(img.height*k); c.getContext('2d').drawImage(img,0,0,c.width,c.height);
+      c.toBlob(function(b){photoBlob=b; prev.src=URL.createObjectURL(b); prev.hidden=false;},'image/jpeg',0.88);
+    }; img.src=URL.createObjectURL(file);
+  });
+  function stop(){ if(rec&&rec.state!=='inactive') rec.stop(); }
+  recBtn.addEventListener('click',function(){
+    if(rec&&rec.state==='recording'){stop();return;}
+    if(!navigator.mediaDevices||!window.MediaRecorder){st.textContent='Recording isn\'t supported here. Upload a voice memo below instead.';return;}
+    navigator.mediaDevices.getUserMedia({audio:{echoCancellation:false,noiseSuppression:false}}).then(function(stream){
+      chunks=[]; rec=new MediaRecorder(stream);
+      rec.ondataavailable=function(e){if(e.data.size)chunks.push(e.data);};
+      rec.onstop=function(){stream.getTracks().forEach(function(t){t.stop();}); clearInterval(timer);
+        voiceBlob=new Blob(chunks,{type:rec.mimeType||'audio/webm'}); play.src=URL.createObjectURL(voiceBlob); play.hidden=false;
+        recBtn.textContent='● Record again'; st.textContent='Recorded '+Math.round((Date.now()-t0)/1000)+' s. Play it back to check.';};
+      rec.start(); t0=Date.now(); recBtn.textContent='■ Stop';
+      timer=setInterval(function(){var s=Math.round((Date.now()-t0)/1000); st.textContent='Recording… '+s+' s (aim for 60)'; if(s>=150)stop();},500);
+    }).catch(function(){st.textContent='Microphone blocked. Allow it in your browser, or upload a voice memo below.';});
+  });
+  f.addEventListener('submit',function(e){
+    e.preventDefault();
+    if(!voiceBlob&&!(voiceIn.files&&voiceIn.files[0])){msg.textContent='Please record or upload your voice first.';return;}
+    var fd=new FormData(f);
+    if(photoBlob) fd.set('photo',photoBlob,'photo.jpg');
+    if(voiceBlob&&!(voiceIn.files&&voiceIn.files[0])){var ext=(voiceBlob.type.indexOf('mp4')>-1)?'m4a':'webm'; fd.set('voice',voiceBlob,'voice.'+ext);}
+    msg.textContent='Sending…'; document.getElementById('demoSend').disabled=true;
+    fetch('/',{method:'POST',body:fd}).then(function(r){ if(!r.ok) throw 0; location.href='/thanks.html'; })
+      .catch(function(){msg.textContent='That didn\'t send. Check your connection and try again.'; document.getElementById('demoSend').disabled=false;});
+  });
+})();
+</script>
 </body>
 </html>
