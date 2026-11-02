@@ -1,0 +1,13 @@
+clip,kind,used_at_s,used_for_line,what_it_shows,source_url,source_account,source_date,source_in_s,source_out_s,crop,match_score,licence_risk,verified,verified_on,notes
+J01.mp4,,,,,src/q1_17pts.mp4,,,1.0,4.1,x 0.5 zoom 1.25 y 0.3 blurfit,,,,, | source 1920x1080
+J02.mp4,,,,,src/intro.mp4,,,9.9,11.9,x 0.5 zoom 1.0 y 0.5 blurfit,,,,, | source 1920x1080
+J03.mp4,,,,,src/q1_id.mp4,,,5.4,7.3,x 0.5 zoom 1.0 y 0.5 blurfit,,,,, | source 1920x1080
+J04.mp4,,,,,src/pre_smith.mp4,,,8.6,10.9,x 0.5 zoom 1.0 y 0.5 blurfit,,,,, | source 1920x1080
+J05.mp4,,,,,src/intro.mp4,,,11.4,15.0,x 0.5 zoom 1.0 y 0.5 blurfit,,,,, | source 1920x1080
+J06.mp4,,,,,src/half.mp4,,,13.5,15.7,x 0.5 zoom 1.0 y 0.5 blurfit,,,,, | source 1920x1080
+J07.mp4,,,,,src/q1_smith22.mp4,,,3.4,5.3,x 0.5 zoom 1.0 y 0.5 blurfit,,,,, | source 1920x1080
+J08.mp4,,,,,src/table.mp4,,,27.9,29.9,x 0.5 zoom 1.0 y 0.5 blurfit,,,,, | source 1920x1080
+J09.mp4,,,,,src/half.mp4,,,3.6,5.5,x 0.5 zoom 1.0 y 0.5 blurfit,,,,, | source 1920x1080
+J10.mp4,,,,,src/q1_dunk.mp4,,,25.6,28.1,x 0.5 zoom 1.0 y 0.5 blurfit,,,,, | source 1920x1080
+J11.mp4,,,,,src/ht_leaders.mp4,,,2.4,4.1,x 0.5 zoom 1.0 y 0.5 blurfit,,,,, | source 1920x1080
+J12.mp4,,,,,src/final.mp4,,,14.2,16.8,x 0.5 zoom 1.0 y 0.5 blurfit,,,,, | source 1920x1080
