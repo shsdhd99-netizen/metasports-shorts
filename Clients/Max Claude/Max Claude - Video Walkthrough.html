@@ -40,6 +40,17 @@ th{font:500 .75rem var(--mono);text-transform:uppercase;letter-spacing:.06em;col
 .wrap{overflow-x:auto}
 .note{color:var(--muted);font-size:.95rem}
 .note b{color:var(--warn)}
+.btn{display:inline-block;background:var(--accent);color:var(--paper);font:600 1rem var(--body);padding:12px 18px;border-radius:8px;text-decoration:none;border:0;cursor:pointer}
+.btn:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.check{display:grid;gap:12px}
+.check a{display:grid;grid-template-columns:2rem 1fr;gap:12px;align-items:center;background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:14px 16px;color:var(--ink);text-decoration:none}
+.check a b{display:block}.check a span{color:var(--muted);font-size:.95rem}
+.box{width:1.6rem;height:1.6rem;border:2px solid var(--accent);border-radius:5px}
+form{display:grid;gap:14px}
+label{display:grid;gap:6px;font-weight:600}
+input,textarea,select{font:inherit;padding:12px;border:1px solid var(--line);border-radius:8px;background:var(--paper);color:var(--ink);width:100%}
+textarea{min-height:90px}
+.read{background:var(--tag);border-radius:8px;padding:14px;font-size:1rem}
 </style>
 </head>
 <body>
@@ -50,6 +61,16 @@ th{font:500 .75rem var(--mono);text-transform:uppercase;letter-spacing:.06em;col
   <h1>Your lessons, in your voice and your face, without filming every one</h1>
   <p class="lead">You record yourself once. After that, you send us a topic and get back a finished, high-quality video file: you on screen, your voice, captions, pictures and sound, ready to post anywhere.</p>
 </header>
+
+<section>
+  <span class="tag">Start here</span>
+  <h2>Your three to-dos</h2>
+  <div class="check">
+    <a href="#voice"><span class="box"></span><div><b>1. Record your voice</b><span>About 30–60 minutes, once. Guide below.</span></div></a>
+    <a href="#face"><span class="box"></span><div><b>2. Record your face</b><span>About 5 minutes on camera, once.</span></div></a>
+    <a href="#request"><span class="box"></span><div><b>3. Send your first topic</b><span>One line is enough. Use the form at the bottom.</span></div></a>
+  </div>
+</section>
 
 <section>
   <span class="tag">How it works</span>
@@ -92,23 +113,27 @@ th{font:500 .75rem var(--mono);text-transform:uppercase;letter-spacing:.06em;col
   <span class="tag">Your one-time recording</span>
   <h2>How to get the best quality</h2>
   <div class="grid2">
-    <div class="card"><b>Voice</b><ul><li>A quiet room with soft things around (a closet with clothes works)</li><li>A USB or lapel microphone, 15–20 cm from your mouth</li><li>Read naturally, the way you teach; vary your energy</li><li>30 minutes minimum; 1–2 hours gives the best clone</li></ul></div>
-    <div class="card"><b>Face</b><ul><li>Phone or camera at eye level, 4K if possible, landscape and steady</li><li>Light facing you (a window or a ring light), plain background</li><li>Talk to the lens for 2–5 minutes, small natural hand moves</li><li>Pause and close your lips between sentences</li></ul></div>
+    <div class="card" id="voice"><b>Voice</b><ul><li>A quiet room with soft things around (a closet with clothes works)</li><li>A USB or lapel microphone, 15–20 cm from your mouth</li><li>Read naturally, the way you teach; vary your energy</li><li>30 minutes minimum; 1–2 hours gives the best clone</li></ul></div>
+    <div class="card" id="face"><b>Face</b><ul><li>Phone or camera at eye level, 4K if possible, landscape and steady</li><li>Light facing you (a window or a ring light), plain background</li><li>Talk to the lens for 2–5 minutes, small natural hand moves</li><li>Pause and close your lips between sentences</li></ul></div>
   </div>
+  <div class="card"><b>Not sure what to say? Read this out loud</b><p class="read">"Hi, I'm Max. Today I want to explain something most people get wrong. It sounds simple, but the details matter. First, let's look at where it starts. Then I'll show you the part that surprised me most. By the end, you'll see it everywhere."</p><p class="note">Read it a few times in different moods (calm, excited, serious), then read any article or book aloud for the rest of the time.</p></div>
   <p class="note">You'll also record a short consent clip. The voice and avatar services require it, and it means only you can authorise your likeness.</p>
 </section>
 
-<section>
-  <span class="tag">Before we start</span>
-  <h2>Five questions for you</h2>
-  <div class="wrap"><table>
-    <tr><th>#</th><th>Question</th></tr>
-    <tr><td>1</td><td>What will you use the videos for first (lessons, promotion, social posts), and on which apps?</td></tr>
-    <tr><td>2</td><td>How many videos a week, and how long each (30–60 s, or longer)?</td></tr>
-    <tr><td>3</td><td>Your look: a logo, colours or a font we should use?</td></tr>
-    <tr><td>4</td><td>Topics you want covered first, and anything we must never say or show?</td></tr>
-    <tr><td>5</td><td>Who approves the drafts, and how fast do you need them?</td></tr>
-  </table></div>
+<section id="request">
+  <span class="tag">Send a topic</span>
+  <h2>Request a video</h2>
+  <form name="video-request" method="POST" data-netlify="true" netlify-honeypot="company" action="/thanks.html">
+    <input type="hidden" name="form-name" value="video-request">
+    <p hidden><label>Leave empty <input name="company"></label></p>
+    <label for="topic">Topic<input id="topic" name="topic" required placeholder="How fingerprints catch criminals"></label>
+    <label for="use">Where will you post it?<input id="use" name="use" placeholder="TikTok, Instagram, YouTube, class…"></label>
+    <label for="length">Length<select id="length" name="length"><option>30 seconds</option><option selected>45–60 seconds</option><option>Longer (1–2 minutes)</option></select></label>
+    <label for="deadline">When do you need it?<input id="deadline" name="deadline" type="date"></label>
+    <label for="notes">Anything to include or avoid?<textarea id="notes" name="notes" placeholder="Key points, words to avoid, your logo or colours…"></textarea></label>
+    <label for="contact">Your email or phone<input id="contact" name="contact" required></label>
+    <button class="btn" type="submit">Send request</button>
+  </form>
 </section>
 
 <section>
