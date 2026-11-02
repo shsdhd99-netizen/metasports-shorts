@@ -1,50 +1,77 @@
-# Handover: Account 1 starts AI videos for a client (Nov 2, 2026)
+# Handover: AI videos for Max Claude (for Account 1)
 
-Paste into a new Claude session on Account 1 (terminal, in this repo, branch `main-329h3w`, after `git pull --no-rebase`).
-Fill the CLIENT BRIEF first; nothing below works without it.
+**How to start (from your phone):** open Claude Code on Account 1, start a session on the repo
+`shsdhd99-netizen/metasports-shorts` (branch `main-329h3w`), and paste the prompt below. That's it.
 
-## CLIENT BRIEF (owner fills in)
-- Client / brand: ______  Niche: ______  Platform(s): YouTube Shorts / TikTok / Reels / other ______
-- Format: narrated story Short / explainer / product video / other ______  Length: ______
-- Voice: our Alex voice, a new ElevenLabs voice, or the client's own ______ (whose ElevenLabs account pays?)
-- Volume and deadline: ___ videos per ___, first delivery by ______
-- Footage: client's own files / stock / licensed / AI-generated ______ (who owns the rights?)
-- Brand rules: logo, colours, fonts, words to avoid, call to action ______
-- Delivery: files only, or posted to the client's channel (whose sign-in?) ______
-- Approval: who signs off, and how ______
+---
 
-## Prompt
+## The prompt to paste
+
 ```
-You are starting a new line of work for the owner: AI-made short videos for a client, built with the MetaSports pipeline.
-Read first: "HANDOVER - Account 1 Client AI Videos.md" (the brief), "00 START HERE.md", "Tools Guide.md",
-.claude/skills/story-short/SKILL.md, .claude/skills/cloud-short/SKILL.md, "Research Notes/Full Review for Retention (Nov 2026).md",
-"Research Notes/Editing Study (Nov 1, 2026).md". Those hold everything we learned making 100+ Shorts.
+New client: Max Claude. He wants short AI videos he can use for many things (lessons, promos, social posts).
+Start by making ONE example for him: a 45-second vertical video of a short forensic science lesson,
+"How Fingerprints Catch Criminals", made with our MetaSports Short pipeline.
 
-1. Set up a separate workspace: `Clients/<client>/` with its own Brand Kit.md (from the brief), Playbook.md, Idea Bank.md,
-   Productions/ and a client-specific skill `.claude/skills/client-<name>/SKILL.md` adapted from story-short. Never mix client
-   files, voices, music or tags with MetaSports; never post client work to our channels or ours to theirs.
-2. Reuse the tools as they are (voice_take, tighten_voice, captions, cut_list, assemble, qa_short, tags_fit, yt_watch for
-   competitor study with GEMINI_API_KEY); add brand options (logo corner, colours, font, end card only if the client wants
-   one) as opt-in settings, never changing MetaSports defaults.
-3. Research the client's niche the way we did ours: top channels' Shorts (yt_watch.py --channel <handle> --top 10), what
-   topics and edits win, measured; write Clients/<client>/Niche Study.md with evidence tiers.
-4. Make 2 pilot videos, full QA PASS, frames checked, in the client's brand; an UPLOAD.md each (title, caption, tags,
-   pinned comment). Put them in Clients/<client>/Productions/ as "DRAFT - awaiting approval - ...".
-5. Write Clients/<client>/Delivery.md: what was made, costs (ElevenLabs credits per video, Claude time), the plan for the
-   agreed volume, and what you need from the owner/client.
-Commit and push.
+Setup:
+- git pull --no-rebase origin main-329h3w. Run bash Tools/cloud_setup.sh (it says if the ElevenLabs key is set).
+- Make a folder Clients/Max Claude/ and keep everything for him there. Never mix his files with MetaSports.
+- Read the example script and notes in "HANDOVER - Account 1 Client AI Videos.md" (section "The example").
+- Our know-how is in .claude/skills/story-short/SKILL.md and "Research Notes/Full Review for Retention (Nov 2026).md".
 
-Rules: every output is a DRAFT the owner approves; never publish or schedule unless the owner turns that on for this client
-with the client's own sign-in; never print, commit or ask for keys (they live in Tools/.env or environment settings); only
-footage the client owns or that we can license or legally use; mark AI-made voice/visuals where a platform requires it;
-never invent facts; no model names in commits.
+Make the example:
+1. Voice: Tools/voice_take.py with the script (a clear, calm teacher voice; ask me if you want a different ElevenLabs voice).
+2. Pictures: free stock clips and images only (Mixkit, Pexels, Wikimedia Commons, public-domain FBI/NIST photos):
+   fingerprints, magnifying glass, lab, fingerprint powder and brush, a computer match screen. Write the source of each in sources.csv.
+3. Edit with our tools (cuts_plan -> fill_len -> cut_list -> assemble), big centred captions, the key word in each caption in colour,
+   light music under the voice, a new picture every 2-3 seconds, nothing after the last line.
+4. python Tools/qa_short.py --full must pass. Look at the first frame, the middle and the last frame yourself.
+5. Save it as "Clients/Max Claude/Productions/01 Fingerprints/DRAFT - Fingerprints Lesson.mp4", plus a short UPLOAD.md
+   (title, caption, 5 hashtags).
+6. Write "Clients/Max Claude/README.md" in plain words: what we can make for him, how long one takes, what it costs
+   (about 3,000 ElevenLabs credits a video), and the 5 questions below for him to answer.
+Commit and push to main-329h3w. Send me the video.
+
+Rules: never post or schedule anything; never print or commit keys; only free or licensed pictures; facts must be correct
+(sources in notes.md); say the voice is AI if a platform asks.
 ```
 
-## What Account 1 should know
-- The pipeline makes 20-60 s vertical videos: script -> ElevenLabs voice (auto retakes) -> footage cut list -> captions ->
-  render -> QA (`qa_short.py --full`) -> upload package. A finished Short costs about 3K ElevenLabs credits with retakes.
-- Proven retention rules (ours, measured): open on the thing itself in frame 1, line 1 under 11 words, few cuts in the first
-  5 s, a turn every 8-12 s, end on the payoff with nothing after. Details in the two research notes above.
-- Scheduling: `Tools/yt_schedule.py` + `Tools/yt_auth.py` can schedule to a channel the client signs in to, if wanted.
-- Keys on the PC: `Tools/.env` (ElevenLabs, Gemini, YouTube). Check whether the client's work should run on a separate
-  ElevenLabs account so MetaSports credits aren't used up.
+---
+
+## The example (the agent uses this)
+
+**Title:** How Fingerprints Catch Criminals 🔍
+
+**Script (about 45 seconds, ~120 words):**
+> Your fingerprints have been the same since before you were born.
+> They form in the womb, around the fourth month, and they never change.
+> Not even identical twins share them.
+> Every print has ridges that split, stop and loop. Experts call these details minutiae.
+> When you touch a glass, sweat and oil leave a copy of those ridges behind.
+> Investigators dust it with fine powder, and the hidden print appears.
+> Then a computer compares it against millions of prints in seconds.
+> But the computer only suggests a match. A trained examiner makes the final call.
+> So next time you grab a door handle, remember: you just signed your name.
+
+**Facts to check (notes.md):**
+- Ridges form before birth, around weeks 10-16, and stay the same for life.
+- Identical twins have different fingerprints.
+- "Minutiae" = ridge endings, splits (bifurcations) and dots.
+- Latent prints come from sweat and oils; powder makes them visible.
+- Computer systems (like the FBI's NGI) suggest candidates; a human examiner confirms.
+
+**Pictures, line by line:** a close-up fingertip → baby/ultrasound stock → two twins → a print with circled details →
+a hand on a glass → brush and powder revealing a print → a computer match screen → an examiner with a magnifier → a hand on a door handle.
+
+---
+
+## Questions for Max (answer them after he sees the example)
+1. What will he use these for first (lessons, ads, social posts)? Which apps?
+2. Whose voice: an AI voice, or his own voice cloned (needs his permission and a sample)?
+3. His look: logo, colours, font? Should his name or face appear?
+4. How many videos a week, and how long each?
+5. Does he want only the files, or should they be posted for him?
+
+## Good to know
+- One video costs about 3,000 ElevenLabs credits. Ideally Max gets his own ElevenLabs account, so MetaSports' credits aren't used.
+- If the session says "key: MISSING", add `ELEVENLABS_API_KEY` in the environment settings (environment menu → Edit). Never paste keys in chat.
+- Everything is a draft until you or Max approve it.
