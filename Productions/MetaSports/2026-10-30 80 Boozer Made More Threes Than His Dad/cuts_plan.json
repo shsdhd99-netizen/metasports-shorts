@@ -1,0 +1,148 @@
+{
+ "sources": {
+  "E": "src/espn_cam_td.mp4",
+  "D": "src/1985911140497424619.mp4",
+  "J": "src/jazz2008_g2.mp4",
+  "S": "src/2076009196248596739.mp4"
+ },
+ "shots": [
+  {
+   "clip": "BZ01",
+   "src": "S",
+   "at": 9.3,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Cameron Boozer (#27) in the Grizzlies' white jersey, running at the camera in slow motion: clear from the first frame (NBA on X, Summer League, Jul 11 2026)"
+  },
+  {
+   "clip": "BZ02",
+   "src": "D",
+   "at": 9.25,
+   "x": 0.5,
+   "speed": 0.9,
+   "kind": "face",
+   "anchor": "His dad is",
+   "why": "Carlos Boozer in the stands, cheering his son's dunk at Duke (ESPN on X, Nov 5 2025)"
+  },
+  {
+   "clip": "BZ03",
+   "src": "J",
+   "at": 896.6,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "kind": "action",
+   "anchor": "In 861",
+   "why": "Carlos Boozer (#5, BOOZER on his back) celebrating a Jazz playoff win at Houston, 2008 (archive.org: 2008 R1G2 Jazz vs Rockets highlights)",
+   "overlay": [
+    {
+     "text": "1 THREE",
+     "size": 170,
+     "color": "red",
+     "y": 230,
+     "start": 2.5,
+     "end": 9,
+     "sub": "CARLOS, IN 861 NBA GAMES"
+    }
+   ]
+  },
+  {
+   "clip": "BZ04",
+   "src": "E",
+   "at": 15.1,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.45,
+   "kind": "action",
+   "anchor": "On Thursday",
+   "why": "Cameron's first three of the night (Q1 8:35, assisted by Cedric Coward), Grizzlies at Blazers, Oct 29 2026 (ESPN game clip)",
+   "overlay": [
+    {
+     "text": "4 OF 5",
+     "size": 170,
+     "color": "green",
+     "y": 230,
+     "start": 1.6,
+     "end": 9,
+     "sub": "CAMERON'S THREES, THURSDAY"
+    }
+   ]
+  },
+  {
+   "clip": "BZ05",
+   "src": "E",
+   "at": 62.0,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.45,
+   "kind": "action",
+   "anchor": "And that wasn't",
+   "why": "Cameron's 26-foot three (Q2 2:22), same game (ESPN game clip)"
+  },
+  {
+   "clip": "BZ06",
+   "src": "E",
+   "at": 7.6,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "kind": "action",
+   "anchor": "for his first",
+   "why": "Cameron's pass for Zach Edey's dunk (Q1 11:28), one of his 12 assists (ESPN game clip)",
+   "overlay": [
+    {
+     "text": "TRIPLE-DOUBLE",
+     "size": 108,
+     "color": "green",
+     "y": 230,
+     "start": 0.3,
+     "end": 9,
+     "sub": "GAME 5, AGE 19"
+    }
+   ]
+  },
+  {
+   "clip": "BZ07",
+   "src": "J",
+   "at": 899.8,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "kind": "action",
+   "anchor": "His dad had",
+   "why": "Carlos Boozer (#5) with the Jazz bench after the 2008 Game 2 win (archive.org)",
+   "overlay": [
+    {
+     "text": "1 TRIPLE-DOUBLE",
+     "size": 104,
+     "color": "red",
+     "y": 230,
+     "start": 0.5,
+     "end": 9,
+     "sub": "CARLOS, IN 13 SEASONS"
+    }
+   ]
+  },
+  {
+   "clip": "BZ08",
+   "src": "E",
+   "at": 139.37,
+   "x": 0.4,
+   "speed": 0.55,
+   "kind": "face",
+   "anchor": "Cameron needed",
+   "why": "Cameron (#27) arms out after his fourth three, Thursday (ESPN game clip)",
+   "overlay": [
+    {
+     "text": "5 GAMES",
+     "size": 170,
+     "color": "green",
+     "y": 1480,
+     "start": 0.55,
+     "end": 9,
+     "sub": "CAMERON"
+    }
+   ]
+  }
+ ]
+}
