@@ -8,7 +8,15 @@
 ## The prompt to paste
 
 ```
-New client: Max Claude. He wants short AI videos he can use for many things (lessons, promos, social posts).
+New client (a paid commission): Max Claude. He wants HIGH-QUALITY short videos with HIS OWN cloned voice and HIS OWN face
+(an AI presenter of him), for many uses (lessons, promos, social posts). We deliver files only; we never post for him.
+His walkthrough page: https://claude.ai/artifact/3bJzdyTxjXfpDi1qVjgi1i (what he records, what he gets, 5 questions).
+
+Voice and face:
+- Voice: ElevenLabs Professional Voice Clone from his 30-120 min of clean recordings, in an ElevenLabs account in HIS name.
+- Face: an AI avatar of him (HeyGen digital twin or similar) from his 2-5 min on-camera recording + consent clip, in his account.
+- Until his recordings arrive, make the example with a stock ElevenLabs voice and a placeholder (no fake Max face), and say so.
+- His API keys go only in the environment settings or Tools/.env; never in chat or git.
 Start by making ONE example for him: a 45-second vertical video of a short forensic science lesson,
 "How Fingerprints Catch Criminals", made with our MetaSports Short pipeline.
 
@@ -22,10 +30,11 @@ Make the example:
 1. Voice: Tools/voice_take.py with the script (a clear, calm teacher voice; ask me if you want a different ElevenLabs voice).
 2. Pictures: free stock clips and images only (Mixkit, Pexels, Wikimedia Commons, public-domain FBI/NIST photos):
    fingerprints, magnifying glass, lab, fingerprint powder and brush, a computer match screen. Write the source of each in sources.csv.
-3. Edit with our tools (cuts_plan -> fill_len -> cut_list -> assemble), big centred captions, the key word in each caption in colour,
+3. Layout: his avatar talking at the start and end (full frame), B-roll in between with his avatar small in a corner
+   or as split screen; when the avatar isn't ready, B-roll only. Edit with our tools (cuts_plan -> fill_len -> cut_list -> assemble), big centred captions, the key word in each caption in colour,
    light music under the voice, a new picture every 2-3 seconds, nothing after the last line.
 4. python Tools/qa_short.py --full must pass. Look at the first frame, the middle and the last frame yourself.
-5. Save it as "Clients/Max Claude/Productions/01 Fingerprints/DRAFT - Fingerprints Lesson.mp4", plus a short UPLOAD.md
+5. Export 1080x1920 (and 1920x1080 if asked), captioned and clean versions. Save as "Clients/Max Claude/Productions/01 Fingerprints/DRAFT - Fingerprints Lesson.mp4", plus a short UPLOAD.md
    (title, caption, 5 hashtags).
 6. Write "Clients/Max Claude/README.md" in plain words: what we can make for him, how long one takes, what it costs
    (about 3,000 ElevenLabs credits a video), and the 5 questions below for him to answer.
@@ -64,9 +73,9 @@ a hand on a glass → brush and powder revealing a print → a computer match sc
 
 ---
 
-## Questions for Max (answer them after he sees the example)
+## Questions for Max (also on his walkthrough page)
 1. What will he use these for first (lessons, ads, social posts)? Which apps?
-2. Whose voice: an AI voice, or his own voice cloned (needs his permission and a sample)?
+2. (Decided: his own voice and face.) Has he recorded them yet?
 3. His look: logo, colours, font? Should his name or face appear?
 4. How many videos a week, and how long each?
 5. Does he want only the files, or should they be posted for him?
