@@ -5,6 +5,7 @@ face (AI avatar); we deliver files only, he posts. First example topic: a 45 s f
 
 ## Sales site (live)
 - **https://ondemand-studio.netlify.app** (brand "On Demand"). Source: `Clients/Max Claude/site/index.html` + `thanks.html`.
+- Nov 2 update: framed as a helpful tool (not a replacement); demo = our S17 Short (20K views, `site/demo.mp4` built from the S17 real-audio DRAFT at 540p); stat 2.7M+ views over 148 Shorts (both channels, Nov 2); PayPal button in the final block is `hidden` until the owner gives a PayPal.Me link (replace PAYPAL_LINK, remove `hidden` on #paypal and #paypal-note).
 - Sales tactics used: outcome headline, phone preview, "old way vs On Demand", our real view numbers as proof, 4-step process,
   guarantees (approve first, likeness stays his, sourced facts), low-friction CTA ("Reserve my setup" = a free draft script first),
   recording guide with a read-aloud script. No prices yet (owner paused pricing until the page is right).
