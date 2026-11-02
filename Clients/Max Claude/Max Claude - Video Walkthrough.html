@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Max Claude Video Studio</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Source+Sans+3:wght@400;600&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+/* Layout: a single readable column styled like a case file — evidence-tag labels, numbered steps only where order matters. */
+:root{
+  --bg:#f5f6f4; --paper:#ffffff; --ink:#1b2422; --muted:#5b6865; --line:#d9dfdc;
+  --accent:#1f6f62; --tag:#e7efe9; --warn:#a4512b;
+  --display:"Fraunces",Georgia,serif; --body:"Source Sans 3",system-ui,sans-serif; --mono:"IBM Plex Mono",ui-monospace,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#121816;--paper:#1a2220;--ink:#e6ece9;--muted:#9aa8a4;--line:#2c3734;--accent:#5fc2ae;--tag:#1f2d2a;--warn:#e08a63;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#121816;--paper:#1a2220;--ink:#e6ece9;--muted:#9aa8a4;--line:#2c3734;--accent:#5fc2ae;--tag:#1f2d2a;--warn:#e08a63;color-scheme:dark}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 var(--body);padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:32px 64px}
+main{max-width:720px;margin:0 auto;display:grid;gap:44px}
+h1,h2{font-family:var(--display);text-wrap:balance;line-height:1.15;margin:0}
+h1{font-size:clamp(2rem,6vw,3rem)}
+h2{font-size:1.5rem}
+p{margin:0}
+.tag{font:500 .75rem/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--accent);background:var(--tag);display:inline-block;padding:6px 9px;border-radius:3px}
+section{display:grid;gap:16px}
+.lead{font-size:1.15rem;color:var(--muted)}
+ol.steps{list-style:none;padding:0;margin:0;display:grid;gap:14px;counter-reset:s}
+ol.steps li{counter-increment:s;display:grid;grid-template-columns:2.4rem 1fr;gap:12px;align-items:start}
+ol.steps li::before{content:counter(s);font:700 1.2rem/2.4rem var(--display);text-align:center;border:1.5px solid var(--accent);color:var(--accent);border-radius:50%;width:2.4rem;height:2.4rem}
+ol.steps b{display:block}
+ol.steps span{color:var(--muted)}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:20px;display:grid;gap:12px;min-width:0}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+ul{margin:0;padding-left:1.2em;display:grid;gap:6px}
+.script{font-family:var(--body);border-left:3px solid var(--accent);padding-left:16px;display:grid;gap:8px}
+.script p{font-size:1.05rem}
+.time{font:500 .8rem var(--mono);color:var(--muted)}
+table{border-collapse:collapse;width:100%;font-size:.95rem}
+td,th{text-align:left;padding:10px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font:500 .75rem var(--mono);text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+.wrap{overflow-x:auto}
+.note{color:var(--muted);font-size:.95rem}
+.note b{color:var(--warn)}
+</style>
+</head>
+<body>
+
+<main>
+<header style="display:grid;gap:14px">
+  <span class="tag">Commission · For Max Claude</span>
+  <h1>Your lessons, in your voice and your face, without filming every one</h1>
+  <p class="lead">You record yourself once. After that, you send us a topic and get back a finished, high-quality video file: you on screen, your voice, captions, pictures and sound, ready to post anywhere.</p>
+</header>
+
+<section>
+  <span class="tag">How it works</span>
+  <h2>Four steps</h2>
+  <ol class="steps">
+    <li><div><b>Record your voice once (about 30–60 minutes)</b><span>We use it to build a professional clone of your voice. The more clean audio, the more natural it sounds.</span></div></li>
+    <li><div><b>Record your face once (about 5 minutes on camera)</b><span>We use it to build your digital presenter: you, talking, with natural mouth and head movement.</span></div></li>
+    <li><div><b>Send a topic</b><span>"How fingerprints catch criminals." One line is enough. We research it, write the script, and check every fact.</span></div></li>
+    <li><div><b>Approve and receive the files</b><span>You see a draft first. After your OK you get the final video files to keep and post wherever you like.</span></div></li>
+  </ol>
+</section>
+
+<section>
+  <span class="tag">Example · Exhibit 01</span>
+  <h2>A 45-second forensic science lesson</h2>
+  <p>This is the kind of video we'd make first. You appear on screen as the teacher; pictures of the evidence fill the screen as you talk.</p>
+  <div class="card">
+    <div class="script">
+      <p><span class="time">0:00</span> Your fingerprints have been the same since before you were born.</p>
+      <p><span class="time">0:04</span> They form in the womb, around the fourth month, and they never change. Not even identical twins share them.</p>
+      <p><span class="time">0:12</span> Every print has ridges that split, stop and loop. Experts call these details <i>minutiae</i>.</p>
+      <p><span class="time">0:19</span> When you touch a glass, sweat and oil leave a copy of those ridges behind. Investigators dust it with fine powder, and the hidden print appears.</p>
+      <p><span class="time">0:29</span> Then a computer compares it against millions of prints in seconds. But the computer only suggests a match. A trained examiner makes the final call.</p>
+      <p><span class="time">0:40</span> So next time you grab a door handle, remember: you just signed your name.</p>
+    </div>
+    <p class="note">On screen: you talking (the opening and the ending) · a fingertip close-up · twins · a print with the details circled · powder and brush revealing a print · a computer match screen · an examiner with a magnifier.</p>
+  </div>
+</section>
+
+<section>
+  <span class="tag">What you receive</span>
+  <h2>For every video</h2>
+  <div class="grid2">
+    <div class="card"><b>The video files</b><ul><li>Vertical 9:16 (TikTok, Reels, Shorts)</li><li>Wide 16:9 on request (YouTube, slides)</li><li>One with captions, one without</li></ul></div>
+    <div class="card"><b>Ready-to-post text</b><ul><li>Three title options</li><li>A caption and hashtags</li><li>The script and the sources behind each fact</li></ul></div>
+  </div>
+</section>
+
+<section>
+  <span class="tag">Your one-time recording</span>
+  <h2>How to get the best quality</h2>
+  <div class="grid2">
+    <div class="card"><b>Voice</b><ul><li>A quiet room with soft things around (a closet with clothes works)</li><li>A USB or lapel microphone, 15–20 cm from your mouth</li><li>Read naturally, the way you teach; vary your energy</li><li>30 minutes minimum; 1–2 hours gives the best clone</li></ul></div>
+    <div class="card"><b>Face</b><ul><li>Phone or camera at eye level, 4K if possible, landscape and steady</li><li>Light facing you (a window or a ring light), plain background</li><li>Talk to the lens for 2–5 minutes, small natural hand moves</li><li>Pause and close your lips between sentences</li></ul></div>
+  </div>
+  <p class="note">You'll also record a short consent clip. The voice and avatar services require it, and it means only you can authorise your likeness.</p>
+</section>
+
+<section>
+  <span class="tag">Before we start</span>
+  <h2>Five questions for you</h2>
+  <div class="wrap"><table>
+    <tr><th>#</th><th>Question</th></tr>
+    <tr><td>1</td><td>What will you use the videos for first (lessons, promotion, social posts), and on which apps?</td></tr>
+    <tr><td>2</td><td>How many videos a week, and how long each (30–60 s, or longer)?</td></tr>
+    <tr><td>3</td><td>Your look: a logo, colours or a font we should use?</td></tr>
+    <tr><td>4</td><td>Topics you want covered first, and anything we must never say or show?</td></tr>
+    <tr><td>5</td><td>Who approves the drafts, and how fast do you need them?</td></tr>
+  </table></div>
+</section>
+
+<section>
+  <span class="tag">Good to know</span>
+  <ul>
+    <li>Your voice and face clones stay in accounts in your name, so you own them and can switch them off any time.</li>
+    <li>Every fact is checked against a source before a video is made.</li>
+    <li>Some apps ask creators to label AI-made video; we'll tell you where and how.</li>
+    <li>Nothing is posted for you. You get the files and decide.</li>
+  </ul>
+</section>
+</main>
+</body>
+</html>
