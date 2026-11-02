@@ -88,26 +88,21 @@ footer{padding-block:28px 48px;color:var(--muted);font-size:.85rem;border-top:1p
     <span class="eyebrow">Prepared for Mr. Claude</span>
     <h1>Teach more. <em>Film less.</em></h1>
     <p class="lead">A digital double of you, for the weeks you can't get in front of a camera. Record yourself once, keep teaching live the way you do now, and send us the extra lessons as one line each. They come back as finished videos in your face and your voice.</p>
-    <div class="ctas"><a class="btn" href="#start">Reserve my setup →</a><a class="btn ghost" href="#try">Try it with my face</a></div>
+    <div class="ctas"><a class="btn" href="#start">Reserve my setup →</a><a class="btn ghost" href="#try">Try it free</a></div>
   </div>
   <div class="phone" role="img" aria-label="Preview of a lesson video: Mr. Claude explaining fingerprints, with captions">
     <div class="screen"><span class="rec">Lesson 01</span><div class="face"></div><div class="print"></div><p class="cap">You just <b>signed your name.</b></p><div class="bar"></div></div>
   </div>
 </header>
-
 <section>
-  <span class="eyebrow">What a one-time recording buys you</span>
-  <div class="stats">
-    <div class="stat"><b>2.7M+</b><span class="muted">Views on the short videos this system has already made for our own channels, across 148 videos.</span></div>
-    <div class="stat"><b>1×</b><span class="muted">You record your voice and face once. Use the camera only when you want to.</span></div>
-    <div class="stat"><b>3–4 days</b><span class="muted">From your one-line topic to a finished video in your hands.</span></div>
-  </div>
+    <h2>Built on a system with 2.7 million views.</h2>
+  <p class="muted" style="max-width:56ch">We make short videos for our own channels with the same tools. Here's one of ours.</p>
+  <figure id="demo" style="margin:0;display:grid;gap:10px;justify-items:start"><video src="demo.mp4" poster="poster.jpg" controls playsinline preload="metadata" style="width:min(300px,100%);aspect-ratio:9/16;border-radius:22px;background:#000;box-shadow:0 24px 60px -28px rgba(15,18,20,.5)"></video><figcaption class="muted" style="font-size:.9rem">Demo: one of our soccer Shorts. Yours would be you, teaching your topic.</figcaption></figure>
 </section>
-
 <section id="try">
-  <span class="eyebrow">Free preview · about 3 minutes of your time</span>
+  <span class="eyebrow">Free preview · 3 minutes</span>
   <h2>See yourself teach it, before you decide anything.</h2>
-  <p class="muted" style="max-width:62ch">Send one photo and one minute of your voice, right here on this page. We'll turn them into a short preview of you teaching the fingerprint lesson. It's preview quality, made from a photo; the full version uses your 5-minute recording and looks far more natural.</p>
+  <p class="muted" style="max-width:62ch">Send one photo and one minute of your voice, right here on this page. We'll send back a short clip of you teaching a forensic science lesson. It's a quick preview made from a photo; the full version looks far more natural.</p>
   <form id="demoForm" name="demo-request" method="POST" data-netlify="true" netlify-honeypot="company2" enctype="multipart/form-data" action="/thanks.html">
     <input type="hidden" name="form-name" value="demo-request">
     <p hidden><label>Leave empty <input name="company2"></label></p>
@@ -116,7 +111,7 @@ footer{padding-block:28px 48px;color:var(--muted);font-size:.85rem;border-top:1p
       <img id="photoPrev" alt="Your photo preview" hidden style="width:140px;border-radius:12px">
     </div>
     <div class="card"><h3>2 · One minute of your voice</h3><p class="muted">Tap record, then read this aloud in a quiet room, the way you'd explain it to a class:</p>
-      <p class="read">"Hi, I'm Max. Today I want to explain something most people get wrong. Your fingerprints have been the same since before you were born. They form in the womb, and not even identical twins share them. When you touch a glass, you leave a copy behind. Investigators dust it with powder, and the hidden print appears. A computer can search millions of prints in seconds, but a trained examiner always makes the final call. So next time you grab a door handle, remember: you just signed your name."</p>
+      <p class="read">"Here's something you do a hundred times a day without noticing. Every time you touch something, you leave your signature behind. Your fingerprints formed before you were born, and they will never change. Not even identical twins share them. Each one is a pattern of ridges that loop, split and stop, and those tiny details are what make it yours. Touch a glass, and the oils on your skin leave a perfect copy. An investigator brushes on a fine powder, and the invisible print appears. A computer can compare it against millions of prints in seconds. But the computer only suggests a match. A trained examiner makes the final call. So the next time you open a door, remember: you just signed your name."</p>
       <div class="ctas"><button type="button" class="btn" id="recBtn">● Record</button><span id="recStatus" class="muted" aria-live="polite" style="align-self:center"></span></div>
       <audio id="recPlay" controls hidden style="width:100%"></audio>
       <label for="voiceFile" class="muted" style="font-weight:500">Or upload a voice memo instead<input id="voiceFile" name="voice" type="file" accept="audio/*"></label>
@@ -127,37 +122,8 @@ footer{padding-block:28px 48px;color:var(--muted);font-size:.85rem;border-top:1p
     <p id="demoMsg" class="muted" aria-live="polite"></p>
   </form>
 </section>
-
 <section>
-  <h2>Keep what you love. Hand off the rest.</h2>
-  <div class="compare">
-    <div class="col"><h3>What you keep doing</h3><ul><li>Teaching live and in person</li><li>Filming yourself whenever you feel like it</li><li>Choosing the topics and the message</li><li>Approving every video</li></ul></div>
-    <div class="col win"><h3>What On Demand takes off your plate</h3><ul><li>Research and script, every fact sourced</li><li>Camera, light, retakes</li><li>Editing, captions, visuals and sound</li><li>Keeping content going on your busiest weeks</li></ul></div>
-  </div>
-</section>
-
-<section>
-  <span class="eyebrow">Built by people who measure attention</span>
-  <h2>We already make short videos that hold viewers.</h2>
-  <p class="muted" style="max-width:62ch">Our own sports channels run on this exact system: researched scripts, clear captions, edits tested against how long real viewers keep watching. Together they have passed 2.7 million views. Here is one of ours, a 55-second story that reached 20,000 views. The same playbook goes into every lesson we make for you.</p>
-  <figure id="demo" style="margin:0;display:grid;gap:10px;justify-items:start"><video src="demo.mp4" poster="poster.jpg" controls playsinline preload="metadata" style="width:min(300px,100%);aspect-ratio:9/16;border-radius:22px;background:#000;box-shadow:0 24px 60px -28px rgba(15,18,20,.5)"></video><figcaption class="muted" style="font-size:.9rem">Demo: one of our soccer Shorts. Yours would be you, teaching your topic.</figcaption></figure>
-</section>
-
-<section id="example">
-  <span class="eyebrow">Example lesson · 45 seconds</span>
-  <h2>How fingerprints catch criminals</h2>
-  <div class="script">
-    <p><span>0:00 · you, on camera</span>Your fingerprints have been the same since before you were born.</p>
-    <p><span>0:04</span>They form in the womb, around the fourth month. Not even identical twins share them.</p>
-    <p><span>0:12 · the print, details circled</span>Every print has ridges that split, stop and loop. Experts call them minutiae.</p>
-    <p><span>0:19 · powder reveals a print</span>Touch a glass and sweat leaves a copy behind. A fine powder makes it appear.</p>
-    <p><span>0:29 · the match screen</span>A computer searches millions of prints in seconds. A trained examiner makes the final call.</p>
-    <p><span>0:40 · you, on camera</span>So next time you grab a door handle, remember: you just signed your name.</p>
-  </div>
-</section>
-
-<section>
-  <h2>Four steps. You do two of them once.</h2>
+  <h2>How it works</h2>
   <div class="steps">
     <div class="step"><span class="n">01 · once</span><h3>Record your voice</h3><p class="muted">30–60 minutes reading aloud.</p></div>
     <div class="step"><span class="n">02 · once</span><h3>Record your face</h3><p class="muted">About 5 minutes on camera.</p></div>
@@ -165,34 +131,10 @@ footer{padding-block:28px 48px;color:var(--muted);font-size:.85rem;border-top:1p
     <div class="step"><span class="n">04 · 3–4 days</span><h3>Approve and use</h3><p class="muted">You keep the files, for whatever you need.</p></div>
   </div>
 </section>
-
 <section>
-  <span class="eyebrow">Every video includes</span>
-  <div class="grid2">
-    <div class="card"><h3>The files</h3><ul><li>Wide 16:9 for screens, slides and classes</li><li>Vertical 9:16 for phones</li><li>Captioned and clean versions</li></ul></div>
-    <div class="card"><h3>Ready to use</h3><ul><li>A title and a short summary</li><li>A transcript for handouts or notes</li><li>The script, with a source for every fact</li></ul></div>
-  </div>
+  <h2>What you get</h2>
+  <div class="card"><ul><li>Finished videos in your face and voice, wide and vertical</li><li>Researched scripts, every fact checked</li><li>Captioned and clean versions, plus a transcript</li><li>Nothing is final until you approve it</li><li>Your voice and likeness stay in accounts in your name</li></ul></div>
 </section>
-
-<section>
-  <span class="eyebrow">Your guarantees</span>
-  <div class="promise">
-    <div class="card"><h3>You approve first</h3><p class="muted">Nothing is final until you say so. Every video starts as a draft.</p></div>
-    <div class="card"><h3>Your likeness stays yours</h3><p class="muted">Your voice and face clones live in accounts in your name. Switch them off any time.</p></div>
-    <div class="card"><h3>Facts you can stand behind</h3><p class="muted">Every claim is checked against a source before it reaches your face.</p></div>
-  </div>
-</section>
-
-<section id="record">
-  <span class="eyebrow">Your one-time recording</span>
-  <h2>Ten minutes of prep for studio quality.</h2>
-  <div class="grid2">
-    <div class="card"><h3>Voice</h3><ul><li>A quiet room with soft things around (a closet with clothes works)</li><li>A USB or lapel mic, a hand's width from your mouth</li><li>Read the way you teach; vary your energy</li><li>30 minutes minimum; 1–2 hours sounds best</li></ul></div>
-    <div class="card"><h3>Face</h3><ul><li>Camera at eye level, 4K if you can, steady</li><li>Light in front of you, plain background</li><li>Talk to the lens for 2–5 minutes</li><li>Close your lips between sentences</li></ul></div>
-  </div>
-  <div class="card"><h3>Not sure what to say? Read this aloud.</h3><p class="read">"Hi, I'm Max. Today I want to explain something most people get wrong. It sounds simple, but the details matter. First, let's look at where it starts. Then I'll show you the part that surprised me most. By the end, you'll see it everywhere."</p><p class="muted">Read it in a few moods, then any book or article for the rest. You'll also record a short consent clip; the voice and avatar services require it.</p></div>
-</section>
-
 <section id="start">
   <span class="eyebrow">Reserve your setup</span>
   <h2>Tell us your first lesson.</h2>
@@ -208,11 +150,10 @@ footer{padding-block:28px 48px;color:var(--muted);font-size:.85rem;border-top:1p
     <button class="btn" type="submit">Reserve my setup →</button>
   </form>
 </section>
-
 <div class="final">
   <h2>More lessons, on your schedule.</h2>
   <p class="muted">Record once. Use it whenever it helps.</p>
-  <div class="ctas"><a class="btn" href="#start">Reserve my setup →</a><a id="paypal" class="btn ghost" style="color:inherit;border-color:currentColor" href="https://www.paypal.me/vaughnpayne1" target="_blank" rel="noopener">Pay with PayPal</a></div>
+  <div class="ctas"><a class="btn" href="#start">Reserve my setup →</a><a id="paypal" class="btn" style="background:transparent;color:var(--onDark);border:1px solid var(--onDark)" href="https://www.paypal.me/vaughnpayne1" target="_blank" rel="noopener">Pay with PayPal</a></div>
   <p id="paypal-note" class="muted" style="font-size:.9rem">Ready to start? Pay securely with PayPal; you'll get a receipt by email.</p>
 </div>
 
