@@ -9,7 +9,8 @@
   "T": "src/table.mp4",
   "U": "src/q1_dunk.mp4",
   "L": "src/ht_leaders.mp4",
-  "F": "src/final.mp4"
+  "F": "src/final.mp4",
+  "A": "src/p47.mp4"
  },
  "promise": [
   "insult",
@@ -18,28 +19,28 @@
  "shots": [
   {
    "clip": "J01",
-   "src": "Q",
-   "at": 1.0,
+   "src": "U",
+   "at": 25.7,
    "kind": "face",
-   "why": "Jordan #23 close, Bulls at Bullets, Mar 20 1993 (WGN broadcast)",
+   "why": "Jordan #23 close, first quarter at the Capital Centre, Mar 20 1993 (WGN)",
    "blurfit": true,
    "blurfit_aspect": 0.75,
    "x": 0.5,
    "fill_brightness": -0.02,
-   "zoom": 1.25,
-   "y": 0.3
+   "zoom": 1.3
   },
   {
    "clip": "J02",
-   "src": "I",
-   "at": 9.9,
+   "src": "U",
+   "at": 4.0,
    "kind": "action",
-   "why": "Jordan dunk in Chicago Stadium (WGN 1993 season open)",
+   "why": "Bulls vs Bullets, Capital Centre, Mar 20 1993 (WGN)",
    "anchor": "Back in",
    "blurfit": true,
    "blurfit_aspect": 0.75,
    "x": 0.5,
-   "fill_brightness": -0.02
+   "fill_brightness": -0.02,
+   "zoom": 1.3
   },
   {
    "clip": "J03",
@@ -61,15 +62,28 @@
    "why": "WGN graphic: LaBradford Smith, last night vs Bulls: career-high 37 pts (15-20 FG, 7-7 FT)",
    "anchor": "scored",
    "blurfit": true,
-   "blurfit_width": 1.0,
+   "fill_brightness": -0.02,
+   "blurfit_aspect": 1.333,
+   "x": 0.5
+  },
+  {
+   "clip": "J04b",
+   "src": "I",
+   "at": 12.0,
+   "kind": "action",
+   "why": "Bullets #7 guarding Jordan in Chicago Stadium (WGN intro)",
+   "anchor": "against",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
    "fill_brightness": -0.02
   },
   {
    "clip": "J05",
-   "src": "I",
-   "at": 11.4,
-   "kind": "action",
-   "why": "Bullets #7 guarding Jordan in Chicago Stadium (WGN intro; illustrative of Bulls vs Bullets in Chicago)",
+   "src": "T",
+   "at": 19.9,
+   "kind": "face",
+   "why": "Bullets bench, Mar 20 1993 (illustrative: Washington lost)",
    "anchor": "in Chicago",
    "blurfit": true,
    "blurfit_aspect": 0.75,
@@ -126,10 +140,10 @@
   },
   {
    "clip": "J10",
-   "src": "U",
-   "at": 25.6,
+   "src": "H",
+   "at": 11.3,
    "kind": "face",
-   "why": "Jordan #23 close walking, first quarter Mar 20 1993",
+   "why": "Jordan #23 facing camera, Mar 20 1993",
    "anchor": "he'd match",
    "blurfit": true,
    "blurfit_aspect": 0.75,
@@ -144,7 +158,20 @@
    "why": "WGN half-time graphic: M. Jordan 36 pts / 6 rebs",
    "anchor": "By half-time",
    "blurfit": true,
-   "blurfit_width": 1.0,
+   "fill_brightness": -0.02,
+   "blurfit_aspect": 1.333,
+   "x": 0.5
+  },
+  {
+   "clip": "J11b",
+   "src": "A",
+   "at": 1.0,
+   "kind": "action",
+   "why": "Bulls vs Bullets 3rd quarter Mar 20 1993 (Jordan scoring night)",
+   "anchor": "He finished",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
    "fill_brightness": -0.02
   },
   {
@@ -153,10 +180,11 @@
    "at": 14.2,
    "kind": "card",
    "why": "WGN final graphic: Bulls 126, Bullets 101",
-   "anchor": "He finished",
+   "anchor": "in a 25",
    "blurfit": true,
-   "blurfit_width": 1.0,
-   "fill_brightness": -0.02
+   "fill_brightness": -0.02,
+   "blurfit_aspect": 1.333,
+   "x": 0.5
   },
   {
    "clip": "J13",
@@ -185,14 +213,15 @@
   {
    "clip": "J15",
    "src": "I",
-   "at": 1.8,
+   "at": 1.4,
    "kind": "face",
    "why": "Jordan laughing courtside (WGN intro): the payoff, he made it up",
    "anchor": "Jordan later",
    "blurfit": true,
    "blurfit_aspect": 0.75,
    "x": 0.5,
-   "fill_brightness": -0.02
+   "fill_brightness": -0.02,
+   "speed": 0.62
   }
  ]
 }

@@ -32,3 +32,6 @@
 **Title options:**
 - The NBA Legend Who Made Up An Insult 😳 #nba
 - Why Jordan Made Up "Nice Game, Mike" 😳 #nba
+
+## Build (Nov 2, 2026, cloud)
+Voiced Oct 31 (28.2 s). Cut from the WGN broadcast of the Mar 20 1993 rematch in `src/`. WGN final graphic confirms Bulls 126, Bullets 101 (the script's "25-point blowout"); WGN pregame graphic confirms Smith's "career-high 37 pts (15-20 FGs, 7-7 FTs)" the night before; WGN half-time leaders: M. Jordan 36 pts. QA --full PASS on both versions. See UPLOAD.md.
