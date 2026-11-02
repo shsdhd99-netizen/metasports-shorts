@@ -10,7 +10,7 @@
 ```
 New client (a paid commission): Max Claude. He wants HIGH-QUALITY short videos with HIS OWN cloned voice and HIS OWN face
 (an AI presenter of him), for many uses (lessons, promos, social posts). We deliver files only; we never post for him.
-His walkthrough page: https://claude.ai/artifact/3bJzdyTxjXfpDi1qVjgi1i (what he records, what he gets, 5 questions).
+His sales site: https://ondemand-studio.netlify.app (source and all state: "Clients/Max Claude/README.md"). Call him "Mr. Claude".
 
 Voice and face:
 - Voice: ElevenLabs Professional Voice Clone from his 30-120 min of clean recordings, in an ElevenLabs account in HIS name.
