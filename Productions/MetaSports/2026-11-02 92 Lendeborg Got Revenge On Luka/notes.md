@@ -6,7 +6,7 @@
 - **Concept (8 words):** trash talk, humbled by 37, then scores 37.
 - **Added value:** puts three games side by side (opener quote, Friday's box score, Sunday's record) with the same number, which no recap did.
 - **Copy check:** FRESH ("Lendeborg Luka Doncic": top match 3.8K; "Lendeborg 37 points": 82 views).
-- 19.1 s, Alex voice plus 1.8 s of Lendeborg's own voice, 12 shots, no cards. Full QA PASS on both versions; comfort audit clean (true peak -3.8 dBTP, loudness spread 2.2 LU).
+- 19.1 s, Alex voice plus 1.8 s of Lendeborg's own voice, 12 shots, no cards. Full QA PASS on both versions; Gemini pre-check READY [S] (none in every category); comfort audit clean (true peak -3.8 dBTP, loudness spread 2.2 LU).
 
 ## Claims (every line, with its source)
 | Line | Source | Exact wording / value |
