@@ -535,3 +535,24 @@ Public counts (`channel_check.py`). No API token in the cloud: the Analytics sig
 **Music test so far:** music #72 23,000 and #70 3,200 vs no music #71 1,300; #74 (no music) posts Fri 3 PM. n=3, not a rule.
 **Real-audio test:** #75 4,100 (25 h) and #76 4,600 (12 h); no narrated twin of either was posted, so no comparison yet. n=2, not a rule.
 **Lesson:** none (n<3). Owner notes inbox: empty.
+
+## Sun Nov 1, 2026 (evening; run Mon Nov 2, 01:40 UTC): daily check (scheduled, read-only; ran late, the session was stalled Oct 30-Nov 2)
+Public counts (`channel_check.py`, 8:40 PM ET). API data: the PC's pull `Research Notes/Studio exports/api/daily 2026-11-01.csv` (no YT_* secrets in the cloud); it lags 1-2 days, so the newest three show 0 there. vidIQ not used (API data exists).
+- **Median of the last 7: 8,200** (normal before that: 6,150). Trend: UP. 622 subscribers.
+
+| Short | Views | #42 FORMAT? | Note |
+|---|---|---|---|
+| Bronny Is Shooting 100% This Season (#77) | 27,000 | no (story, real audio on the card) | posted Fri; re-edited Oct 30 for retention |
+| Cameron Boozer Outshot His Dad's Whole Career (#80, Oct 30 build) | 25,000 | no (record/family) | posted Fri; music side on the card; built with the comfort audit |
+| Why NBA Players Refuse This Free Throw (#74) | 24,000 | no (explainer) | posted Sat evening; no-music side on the card |
+| He Left The NBA Finals In A Wheelchair (#76) | 8,200 | no (story, real audio) | day 4 |
+| Wemby Blocked A Three And Scored Point 40 (#82) | 4,100 | no (moment) | scheduled by the PC, Sun 1 PM; under 1 day |
+| The NBA star who skipped a Finals practice to go wrestling (#78) | 3,100 | no (Ahmed-style test) | day 3: the test lost (scored Nov 1 on the PC) |
+| LeBron Is 40 Assists Behind Jason Kidd (#84) | 932 | no (record) | scheduled Sun 6:30 PM; about 2 h |
+
+**Which version went up** (music, no music, real audio) can't be seen from outside for #74, #77, #80; the Hub cards name the side marked to post.
+**Retention flags (API, Nov 1 pull, engaged ratio under 0.5 = likely under 60% stayed):** #76 Pierce 0.49, Luka 0.49, Chuck 0.46, SGA 0.49. Best: #75 rookie 0.615 (real audio).
+**FC (public):** S17 Krul 19,000 (goalkeeper lane now 5 of 5 at 9K+), S18 Mourinho 2,100, S19 Rulli 1,500 (under a day; goalkeeper lane, judge at 72 h).
+**Lesson [S], n=4, not a rule:** the four Shorts that went through the Oct 30 retention and comfort pass (#77 re-edit 27K, #80 25K, #74 24K, S17 re-edit 19K) all beat their channel's usual (NBA about 6K; S17 vs the goalkeeper lane's 9-30K is normal). Confounded by strong topics (Bronny, LeBron-era family story, CoachClank's 10M topic, goalkeeper lane), so it supports keeping `comfort_audit.py` in every build, not a rule change.
+**Owner notes inbox:** empty. Post tasks ticked tonight (all visibly live): #74, #77, #80, S17, S18.
+

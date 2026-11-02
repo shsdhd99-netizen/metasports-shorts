@@ -3,6 +3,16 @@
 One entry per channel per day, written by the daily runs (`.claude/skills/daily-run/SKILL.md`): data pulled, what was learned,
 research with sources, what was made, what changed in the rules or tools.
 
+## Mon Nov 2, 2026, 01:40 UTC (main session catch-up after a 2.5-day stall)
+
+**What happened.** This session's worker kept restarting from Fri Oct 30, 09:05 UTC to Mon Nov 2, 01:35 UTC, so 10 scheduled runs queued up unrun (FC build Oct 30, Oct 31, Nov 1; NBA build Oct 31, Nov 1; research Oct 31, Nov 1; stats Oct 30, Oct 31, Nov 1). Meanwhile the owner's PC session and the other account built and auto-scheduled both channels (`Research Notes/Scheduled Uploads.csv`): NBA twice a day through Thu Nov 5, FC daily through Fri Nov 6.
+**Done.**
+- #80 Boozer (built Oct 30, unfinished paperwork): notes.md with every claim's source, UPLOAD.md, DRAFTs committed. The owner posted it (o8UE_lsnZ9E, 25K). The other account's Hub lists it as #81, and #80 was reused for the Warriors Short; the folder and this account's card `s80-boozer-outshot-dad` say so.
+- This account's Hubs and task list: #74, #77, #80 (NBA) and S17, S18 (FC) marked posted with public views; their post tasks ticked (all visibly live). Inbox empty.
+- Stats check (the Nov 1 run): Outcome Log section above it. NBA last-7 median 8,200 (was 6,150); Bronny 27K, Boozer 25K, underhand 24K.
+**Skipped (stale, on purpose).** The older stats runs (superseded by the Nov 1 one), both research runs (their news windows passed; tomorrow's 3:43 AM run covers Monday's games) and all five builds: every NBA and FC slot through Thursday/Friday is already filled and scheduled, so a new build now would duplicate work and spend voice credits for nothing.
+**For the owner.** Two sets of daily runs now exist: this session's (research 3:43, NBA 4:41, FC 5:39 AM ET) and the other account's (NBA 3:17, FC 4:23 AM ET). While the queue is full, this session's builds will skip; say if you want them paused.
+
 ## Sun Nov 1, 2026 (NBA daily run; routine; no ElevenLabs key)
 
 **Blocked.** `cloud_setup.sh`: `key: MISSING`, so no voice, render or QA; script, sources and cut plan only. Analytics: no token (YT_* missing); `yt_analytics.py` and the dataset hand columns not run. Nothing faked.
