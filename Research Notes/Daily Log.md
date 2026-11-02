@@ -3,6 +3,15 @@
 One entry per channel per day, written by the daily runs (`.claude/skills/daily-run/SKILL.md`): data pulled, what was learned,
 research with sources, what was made, what changed in the rules or tools.
 
+## Mon Nov 2, 2026 (FC daily run; main session, with the voice key)
+
+**Context.** Inbox empty. FC is scheduled daily through Fri Nov 6 by the owner's PC (`Research Notes/Scheduled Uploads.csv`) and S25-S28 are built, so the queue is full: **no build** (trigger rule: 3+ ready, write 2 scripts and stop). This account's FC Hub has no new card; nothing to post from here.
+**Scripted (no voice, no render):**
+- **S29 "The goalkeeper who says Spain were scared of a shootout"** (goalkeeper lane + this week's news): Martinez's 2022 shootout trick, then his Oct 30 claims that Spain's players said "we can't go to penalties" and that he'd have won; Spain won 1-0 in extra time. Payoff: the shootout king lost the next World Cup final without facing a penalty. 193 words. Every Spain line is his claim ("he says"). Copy check TAKEN only from 2022 compilations; nobody told the 2026 angle.
+- **S31 "The baby Messi bathed beat him in a World Cup final"** (fan/kid lane, the Topic Study's next test): the 2007 charity-calendar bath photo, their first meeting in the 2026 final, the hug and Messi's advice; payoff: the baby took the world title off him. 212 words. Copy check **TAKEN** (the photo story itself: AP 427K, BeanymanSports 276K, fan edits 9M); the final is the new part. Owner's call.
+- Folders: `Soccer Channel/Productions/2026-11-07 S29 ...` and `2026-11-08 S31 ...` (script.txt, title_caption.txt, notes.md with every claim, exact quote and link). Footage not checked yet: the footage test comes before voicing.
+**Cautions logged.** 2007 photo month differs by source (Sept vs Dec), so "a few months old"; "11 saves" (Daily Star only) not used; Goal misprints the final as "2016".
+
 ## Mon Nov 2, 2026 (NBA daily run; main session, with the voice key)
 
 **Context.** NBA is scheduled through Thu Nov 5 by the owner's PC (`Research Notes/Scheduled Uploads.csv`; today #73 at 7:15 AM and #83 at 3:30 PM). Inbox: empty. No other session had built today's top research pick.
