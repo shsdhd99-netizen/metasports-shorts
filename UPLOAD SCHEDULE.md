@@ -31,7 +31,7 @@ title (Copy button), set "Not made for kids", add the pinned comment from the ca
 **Today and next (updated Sun Nov 1, 9 AM ET; the Hubs on this account match it):**
 | Day | NBA 7-8 AM | Soccer 7-9 AM | Second post (6+ h later) |
 |---|---|---|---|
-| Sun Nov 1 | **#82** Wemby blocked a three and scored point 40 (news: today only; real-audio version; finishing now, post as soon as it's on the Hub). (#74 went up Sat evening: 16K by Sun 9 AM) | **S20** Barcelona Signed Messi On A Paper Napkin (no-music side; finishing now, post as soon as it's on the Hub) | |
+| Sun Nov 1 | **#82** Wemby: SKIPPED (news window passed before it was finished). (#74 went up Sat evening: 16K by Sun 9 AM) | **S20** Barcelona Signed Messi On A Paper Napkin (no-music side; finishing now, post as soon as it's on the Hub) | |
 | Mon Nov 2 | **#73** Bones Hyland's fake-throw technical (scheduled on YouTube, 7:15 AM) | **S20** Messi napkin (scheduled, 12 PM) | **#83** Flagg vs LeBron (scheduled, 3:30 PM). Optional swap (main session, Nov 2): **#92** "This Rookie Told Luka He Sucks" (news, real audio, on the NBA Hub): only if #83 moves to Fri Nov 6; skip #92 if it misses today |
 | Tue Nov 3 | **#67** Jordan made up an insult (or the run's Short) | **S19** Man United's penalty nightmare is saving Man City (goalkeeper lane) | |
 
