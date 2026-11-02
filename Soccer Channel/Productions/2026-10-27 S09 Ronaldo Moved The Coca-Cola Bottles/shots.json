@@ -1,0 +1,255 @@
+[
+ {
+  "clip": "C01.mp4",
+  "kind": "action",
+  "why": "Ronaldo reaches for the two Coca-Cola bottles (Guardian/UEFA)",
+  "start": 0.0
+ },
+ {
+  "clip": "C02.mp4",
+  "kind": "action",
+  "why": "Ronaldo walks in to the Euro 2020 press table (UEFA via FootballWTF)",
+  "anchor": "Back in",
+  "start": 2.82
+ },
+ {
+  "clip": "C03.mp4",
+  "kind": "face",
+  "why": "Cristiano Ronaldo sits down (Guardian/UEFA)",
+  "anchor": "Cristiano",
+  "start": 4.19
+ },
+ {
+  "clip": "C04.mp4",
+  "kind": "action",
+  "why": "Budapest press room, Euro 2020 wall (UEFA)",
+  "anchor": "press conference",
+  "start": 5.92
+ },
+ {
+  "clip": "C05.mp4",
+  "kind": "face",
+  "why": "Ronaldo at the table (Guardian/UEFA)",
+  "anchor": "the day before",
+  "start": 7.29
+ },
+ {
+  "clip": "C06.mp4",
+  "kind": "action",
+  "why": "the two Coca-Cola bottles in front of him (Guardian/UEFA)",
+  "anchor": "In front",
+  "start": 9.1
+ },
+ {
+  "clip": "C07.mp4",
+  "kind": "stock",
+  "why": "a cola can (Mixkit, illustrative)",
+  "anchor": "And Coca-Cola was",
+  "start": 11.26
+ },
+ {
+  "clip": "C08.mp4",
+  "kind": "action",
+  "why": "Ronaldo in front of the sponsor wall (UEFA)",
+  "anchor": "official sponsor",
+  "start": 12.23
+ },
+ {
+  "clip": "C09.mp4",
+  "kind": "face",
+  "why": "Ronaldo at the table (Guardian/UEFA)",
+  "anchor": "Ronaldo looked",
+  "start": 13.78
+ },
+ {
+  "clip": "C10.mp4",
+  "kind": "action",
+  "why": "he lifts the bottles (Guardian/UEFA)",
+  "anchor": "He picked them",
+  "start": 15.11
+ },
+ {
+  "clip": "C11.mp4",
+  "kind": "action",
+  "why": "he moves them out of view (Guardian/UEFA)",
+  "anchor": "And he moved",
+  "start": 15.85
+ },
+ {
+  "clip": "C12.mp4",
+  "kind": "action",
+  "why": "Ronaldo holds up the water bottle (UEFA)",
+  "anchor": "Then he held",
+  "start": 17.81
+ },
+ {
+  "clip": "C14.mp4",
+  "kind": "stock",
+  "why": "someone on a phone (Mixkit, illustrative: the clip went everywhere)",
+  "anchor": "The clip",
+  "start": 20.77
+ },
+ {
+  "clip": "C15.mp4",
+  "kind": "stock",
+  "why": "scrolling a phone (Mixkit, illustrative)",
+  "anchor": "Headlines said",
+  "start": 22.01
+ },
+ {
+  "clip": "C16.mp4",
+  "kind": "stock",
+  "why": "a falling chart (Mixkit, illustrative, not Coca-Cola's chart)",
+  "anchor": "wiped billions",
+  "start": 23.31
+ },
+ {
+  "clip": "C17.mp4",
+  "kind": "face",
+  "why": "Ronaldo at the press conference (Guardian/UEFA)",
+  "anchor": "But that story",
+  "start": 24.96
+ },
+ {
+  "clip": "C18.mp4",
+  "kind": "stock",
+  "why": "stock screen (Mixkit, illustrative)",
+  "anchor": "Snopes found",
+  "start": 26.33
+ },
+ {
+  "clip": "C19.mp4",
+  "kind": "stock",
+  "why": "chart falling (Mixkit, illustrative)",
+  "anchor": "already falling",
+  "start": 28.14
+ },
+ {
+  "clip": "C20.mp4",
+  "kind": "stock",
+  "why": "stock screen (Mixkit, illustrative)",
+  "anchor": "And right around",
+  "start": 30.19
+ },
+ {
+  "clip": "C21.mp4",
+  "kind": "stock",
+  "why": "a chart ticks up (Mixkit, illustrative)",
+  "anchor": "briefly went up",
+  "start": 31.68
+ },
+ {
+  "clip": "C22.mp4",
+  "kind": "stock",
+  "why": "someone reading on a phone (Mixkit, illustrative)",
+  "anchor": "A tournament spokesperson",
+  "start": 32.61
+ },
+ {
+  "clip": "C23.mp4",
+  "kind": "stock",
+  "why": "a Coke bottle in hand (Mixkit, illustrative)",
+  "anchor": "drink preferences",
+  "start": 35.49
+ },
+ {
+  "clip": "C24.mp4",
+  "kind": "action",
+  "why": "water bottle and two Cokes on the table (Guardian/UEFA)",
+  "anchor": "players are offered",
+  "start": 36.77
+ },
+ {
+  "clip": "C25.mp4",
+  "kind": "stock",
+  "why": "cola poured from a can (Mixkit, illustrative)",
+  "anchor": "Coke, or",
+  "start": 38.04
+ },
+ {
+  "clip": "C26.mp4",
+  "kind": "stock",
+  "why": "a cola can (Mixkit, illustrative)",
+  "anchor": "But the bottles",
+  "start": 39.55
+ },
+ {
+  "clip": "C27.mp4",
+  "kind": "face",
+  "why": "Paul Pogba at his Euro 2020 press conference (archive.org twitter-1405083861730484228)",
+  "anchor": "At his own",
+  "start": 40.88
+ },
+ {
+  "clip": "C28.mp4",
+  "kind": "action",
+  "why": "the Heineken bottle in front of Pogba",
+  "anchor": "saw a bottle",
+  "start": 42.75
+ },
+ {
+  "clip": "C29.mp4",
+  "kind": "action",
+  "why": "Pogba picks up the Heineken and takes it off the table",
+  "anchor": "He picked it",
+  "start": 44.55
+ },
+ {
+  "clip": "C30.mp4",
+  "kind": "face",
+  "why": "Pogba, the beer gone, Cokes still there",
+  "anchor": "Other players",
+  "start": 46.45
+ },
+ {
+  "clip": "C31.mp4",
+  "kind": "stock",
+  "why": "someone holding a Coke bottle (Mixkit, illustrative)",
+  "anchor": "showing off",
+  "start": 48.13
+ },
+ {
+  "clip": "C32.mp4",
+  "kind": "action",
+  "why": "REPLAY 0.5x: Ronaldo grabs the bottles (Guardian/UEFA)",
+  "anchor": "But here's",
+  "replay": true,
+  "start": 49.93
+ },
+ {
+  "clip": "C33.mp4",
+  "kind": "stock",
+  "why": "a cola can (Mixkit, illustrative)",
+  "anchor": "Back in 2006",
+  "start": 51.12
+ },
+ {
+  "clip": "C34.mp4",
+  "kind": "face",
+  "why": "Cristiano Ronaldo, closer re-use of the sit-down (Guardian/UEFA)",
+  "anchor": "Ronaldo appeared",
+  "replay": true,
+  "start": 52.48
+ },
+ {
+  "clip": "C35.mp4",
+  "kind": "stock",
+  "why": "someone holding a Coke bottle (Mixkit, illustrative)",
+  "anchor": "for Coca-Cola",
+  "start": 54.03
+ },
+ {
+  "clip": "C36.mp4",
+  "kind": "action",
+  "why": "Ronaldo moving the bottles aside (UEFA)",
+  "anchor": "The man who",
+  "start": 54.9
+ },
+ {
+  "clip": "C37.mp4",
+  "kind": "stock",
+  "why": "a cola can, final picture (Mixkit, illustrative)",
+  "anchor": "had once",
+  "start": 56.2
+ }
+]

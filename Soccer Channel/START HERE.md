@@ -10,6 +10,9 @@ This is the second channel's own space. The NBA channel (MetaSports) keeps its o
 > - No cards (owner, Oct 26): 1.5 s at most if one is unavoidable, never in the first 4 s. TikTok and Instagram cross-posting is paused (owner, Oct 26).
 > - **The rules were reviewed on Oct 26 (overnight review).** Read `Playbook.md` (rules 1, 6-7 and 11-15) and `Research Notes/Rule Changes Applied (Oct 26, 2026).md` (repo root) before making a Short.
 
+## Status Nov 7 (S09, rebuilt Nov 2)
+- **S09 The player who moved two Coca-Cola bottles at the Euros** (`Productions/2026-10-27 S09 ...`): script revised to the Nov 1 rules (odd act in the title, money figures and the Hungary storyline cut, ending flips to his 2006 Coca-Cola ad), re-voiced, built, QA PASS, 58.0 s, MUSIC side. Slot Sat Nov 7. Not the goalkeeper lane. Nothing posted or scheduled.
+
 ## Status Nov 5-6 (S27, S28)
 - **S27 The goalkeeper who only played because his teammate broke a leg** (`Productions/2026-11-05 S27 ...`): Goycochea, Italia 90. Built, QA PASS, 54.1 s, MUSIC side. DRAFT files in the folder, UPLOAD.md ready.
   Nothing posted or scheduled. The pee-on-the-pitch ritual was left out (not sourceable twice).

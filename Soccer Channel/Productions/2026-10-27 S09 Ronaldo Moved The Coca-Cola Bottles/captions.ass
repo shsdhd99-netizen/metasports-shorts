@@ -1,0 +1,101 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,TikTok Sans SemiBold,80,&H00FFFFFF,&H00FFFFFF,&H00000000,&H99000000,0,0,0,0,100,100,0,0,1,3.2,1,5,70,70,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:02.85,Cap,,0,0,0,,{\pos(540,960)\blur0.5\fscx74\fscy74}The player who moved two\NCOCA-COLA bottles at the Euros
+Dialogue: 0,0:00:02.85,0:00:04.22,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Back in 2021,
+Dialogue: 0,0:00:04.22,0:00:05.22,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Cristiano Ronaldo
+Dialogue: 0,0:00:05.22,0:00:05.69,Cap,,0,0,0,,{\pos(540,960)\blur0.5}sat down
+Dialogue: 0,0:00:05.69,0:00:06.20,Cap,,0,0,0,,{\pos(540,960)\blur0.5}for a press
+Dialogue: 0,0:00:06.20,0:00:06.56,Cap,,0,0,0,,{\pos(540,960)\blur0.5}conference
+Dialogue: 0,0:00:06.56,0:00:07.32,Cap,,0,0,0,,{\pos(540,960)\blur0.5}in Budapest,
+Dialogue: 0,0:00:07.32,0:00:07.66,Cap,,0,0,0,,{\pos(540,960)\blur0.5}the day
+Dialogue: 0,0:00:07.66,0:00:08.45,Cap,,0,0,0,,{\pos(540,960)\blur0.5}before Portugal's
+Dialogue: 0,0:00:08.45,0:00:09.13,Cap,,0,0,0,,{\pos(540,960)\blur0.5}first game.
+Dialogue: 0,0:00:09.13,0:00:09.46,Cap,,0,0,0,,{\pos(540,960)\blur0.5}In front
+Dialogue: 0,0:00:09.46,0:00:09.69,Cap,,0,0,0,,{\pos(540,960)\blur0.5}of him
+Dialogue: 0,0:00:09.69,0:00:10.49,Cap,,0,0,0,,{\pos(540,960)\blur0.5}were two bottles
+Dialogue: 0,0:00:10.49,0:00:11.29,Cap,,0,0,0,,{\pos(540,960)\blur0.5}of Coca-Cola.
+Dialogue: 0,0:00:11.29,0:00:12.02,Cap,,0,0,0,,{\pos(540,960)\blur0.5}And Coca-Cola
+Dialogue: 0,0:00:12.02,0:00:12.67,Cap,,0,0,0,,{\pos(540,960)\blur0.5}was an official
+Dialogue: 0,0:00:12.67,0:00:13.10,Cap,,0,0,0,,{\pos(540,960)\blur0.5}sponsor
+Dialogue: 0,0:00:13.10,0:00:13.81,Cap,,0,0,0,,{\pos(540,960)\blur0.5}of the tournament.
+Dialogue: 0,0:00:13.81,0:00:14.45,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Ronaldo looked
+Dialogue: 0,0:00:14.45,0:00:15.14,Cap,,0,0,0,,{\pos(540,960)\blur0.5}at the bottles.
+Dialogue: 0,0:00:15.14,0:00:15.52,Cap,,0,0,0,,{\pos(540,960)\blur0.5}He picked
+Dialogue: 0,0:00:15.52,0:00:15.88,Cap,,0,0,0,,{\pos(540,960)\blur0.5}them up.
+Dialogue: 0,0:00:15.88,0:00:16.52,Cap,,0,0,0,,{\pos(540,960)\blur0.5}And he moved
+Dialogue: 0,0:00:16.52,0:00:16.85,Cap,,0,0,0,,{\pos(540,960)\blur0.5}them out
+Dialogue: 0,0:00:16.85,0:00:17.48,Cap,,0,0,0,,{\pos(540,960)\blur0.5}of the camera's
+Dialogue: 0,0:00:17.48,0:00:17.84,Cap,,0,0,0,,{\pos(540,960)\blur0.5}view.
+Dialogue: 0,0:00:17.84,0:00:18.30,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Then he held
+Dialogue: 0,0:00:18.30,0:00:18.79,Cap,,0,0,0,,{\pos(540,960)\blur0.5}up a bottle
+Dialogue: 0,0:00:18.79,0:00:19.24,Cap,,0,0,0,,{\pos(540,960)\blur0.5}of water,
+Dialogue: 0,0:00:19.24,0:00:19.64,Cap,,0,0,0,,{\pos(540,960)\blur0.5}and said
+Dialogue: 0,0:00:19.64,0:00:20.32,Cap,,0,0,0,,{\pos(540,960)\blur0.5}one word:
+Dialogue: 0,0:00:20.32,0:00:20.80,Cap,,0,0,0,,{\pos(540,960)\blur0.5}"Agua."
+Dialogue: 0,0:00:20.80,0:00:21.20,Cap,,0,0,0,,{\pos(540,960)\blur0.5}The clip
+Dialogue: 0,0:00:21.20,0:00:22.04,Cap,,0,0,0,,{\pos(540,960)\blur0.5}went everywhere.
+Dialogue: 0,0:00:22.04,0:00:23.18,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Headlines said Ronaldo
+Dialogue: 0,0:00:23.18,0:00:24.10,Cap,,0,0,0,,{\pos(540,960)\blur0.5}had wiped billions
+Dialogue: 0,0:00:24.10,0:00:24.99,Cap,,0,0,0,,{\pos(540,960)\blur0.5}off Coca-Cola.
+Dialogue: 0,0:00:24.99,0:00:25.72,Cap,,0,0,0,,{\pos(540,960)\blur0.5}But that story
+Dialogue: 0,0:00:25.72,0:00:26.36,Cap,,0,0,0,,{\pos(540,960)\blur0.5}fell apart.
+Dialogue: 0,0:00:26.36,0:00:27.02,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Snopes found
+Dialogue: 0,0:00:27.02,0:00:27.98,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Coca-Cola's stock
+Dialogue: 0,0:00:27.98,0:00:28.59,Cap,,0,0,0,,{\pos(540,960)\blur0.5}was already
+Dialogue: 0,0:00:28.59,0:00:29.32,Cap,,0,0,0,,{\pos(540,960)\blur0.5}falling before he
+Dialogue: 0,0:00:29.32,0:00:30.22,Cap,,0,0,0,,{\pos(540,960)\blur0.5}even sat down.
+Dialogue: 0,0:00:30.22,0:00:30.77,Cap,,0,0,0,,{\pos(540,960)\blur0.5}And right around
+Dialogue: 0,0:00:30.77,0:00:31.57,Cap,,0,0,0,,{\pos(540,960)\blur0.5}his press conference,
+Dialogue: 0,0:00:31.57,0:00:32.13,Cap,,0,0,0,,{\pos(540,960)\blur0.5}it briefly
+Dialogue: 0,0:00:32.13,0:00:32.64,Cap,,0,0,0,,{\pos(540,960)\blur0.5}went up.
+Dialogue: 0,0:00:32.64,0:00:33.12,Cap,,0,0,0,,{\pos(540,960)\blur0.5}A tournament
+Dialogue: 0,0:00:33.12,0:00:34.05,Cap,,0,0,0,,{\pos(540,960)\blur0.5}spokesperson simply
+Dialogue: 0,0:00:34.05,0:00:34.65,Cap,,0,0,0,,{\pos(540,960)\blur0.5}said everyone
+Dialogue: 0,0:00:34.65,0:00:35.21,Cap,,0,0,0,,{\pos(540,960)\blur0.5}is entitled
+Dialogue: 0,0:00:35.21,0:00:35.76,Cap,,0,0,0,,{\pos(540,960)\blur0.5}to their drink
+Dialogue: 0,0:00:35.76,0:00:36.45,Cap,,0,0,0,,{\pos(540,960)\blur0.5}preferences,
+Dialogue: 0,0:00:36.45,0:00:37.16,Cap,,0,0,0,,{\pos(540,960)\blur0.5}and that players
+Dialogue: 0,0:00:37.16,0:00:38.07,Cap,,0,0,0,,{\pos(540,960)\blur0.5}are offered water,
+Dialogue: 0,0:00:38.07,0:00:38.49,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Coke,
+Dialogue: 0,0:00:38.49,0:00:39.58,Cap,,0,0,0,,{\pos(540,960)\blur0.5}or Coke Zero.
+Dialogue: 0,0:00:39.58,0:00:40.21,Cap,,0,0,0,,{\pos(540,960)\blur0.5}But the bottles
+Dialogue: 0,0:00:40.21,0:00:40.91,Cap,,0,0,0,,{\pos(540,960)\blur0.5}kept moving.
+Dialogue: 0,0:00:40.91,0:00:41.45,Cap,,0,0,0,,{\pos(540,960)\blur0.5}At his own
+Dialogue: 0,0:00:41.45,0:00:42.12,Cap,,0,0,0,,{\pos(540,960)\blur0.5}press conference,
+Dialogue: 0,0:00:42.12,0:00:42.78,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Paul Pogba
+Dialogue: 0,0:00:42.78,0:00:43.40,Cap,,0,0,0,,{\pos(540,960)\blur0.5}saw a bottle
+Dialogue: 0,0:00:43.40,0:00:43.98,Cap,,0,0,0,,{\pos(540,960)\blur0.5}of Heineken
+Dialogue: 0,0:00:43.98,0:00:44.30,Cap,,0,0,0,,{\pos(540,960)\blur0.5}in front
+Dialogue: 0,0:00:44.30,0:00:44.58,Cap,,0,0,0,,{\pos(540,960)\blur0.5}of him.
+Dialogue: 0,0:00:44.58,0:00:44.95,Cap,,0,0,0,,{\pos(540,960)\blur0.5}He picked
+Dialogue: 0,0:00:44.95,0:00:45.28,Cap,,0,0,0,,{\pos(540,960)\blur0.5}it up,
+Dialogue: 0,0:00:45.28,0:00:45.73,Cap,,0,0,0,,{\pos(540,960)\blur0.5}and took it
+Dialogue: 0,0:00:45.73,0:00:46.48,Cap,,0,0,0,,{\pos(540,960)\blur0.5}off the table.
+Dialogue: 0,0:00:46.48,0:00:47.09,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Other players
+Dialogue: 0,0:00:47.09,0:00:47.75,Cap,,0,0,0,,{\pos(540,960)\blur0.5}started joking
+Dialogue: 0,0:00:47.75,0:00:48.16,Cap,,0,0,0,,{\pos(540,960)\blur0.5}about it,
+Dialogue: 0,0:00:48.16,0:00:48.66,Cap,,0,0,0,,{\pos(540,960)\blur0.5}showing off
+Dialogue: 0,0:00:48.66,0:00:49.31,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Coke bottles
+Dialogue: 0,0:00:49.31,0:00:49.96,Cap,,0,0,0,,{\pos(540,960)\blur0.5}of their own.
+Dialogue: 0,0:00:49.96,0:00:50.40,Cap,,0,0,0,,{\pos(540,960)\blur0.5}But here's
+Dialogue: 0,0:00:50.40,0:00:51.16,Cap,,0,0,0,,{\pos(540,960)\blur0.5}the wild part.
+Dialogue: 0,0:00:51.16,0:00:52.51,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Back in 2006,
+Dialogue: 0,0:00:52.51,0:00:53.39,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Ronaldo appeared
+Dialogue: 0,0:00:53.39,0:00:54.06,Cap,,0,0,0,,{\pos(540,960)\blur0.5}in a commercial
+Dialogue: 0,0:00:54.06,0:00:54.93,Cap,,0,0,0,,{\pos(540,960)\blur0.5}for Coca-Cola.
+Dialogue: 0,0:00:54.93,0:00:55.26,Cap,,0,0,0,,{\pos(540,960)\blur0.5}The man
+Dialogue: 0,0:00:55.26,0:00:55.73,Cap,,0,0,0,,{\pos(540,960)\blur0.5}who moved
+Dialogue: 0,0:00:55.73,0:00:56.23,Cap,,0,0,0,,{\pos(540,960)\blur0.5}the bottles
+Dialogue: 0,0:00:56.23,0:00:56.59,Cap,,0,0,0,,{\pos(540,960)\blur0.5}had once
+Dialogue: 0,0:00:56.59,0:00:58.00,Cap,,0,0,0,,{\pos(540,960)\blur0.5}been on the cans.
