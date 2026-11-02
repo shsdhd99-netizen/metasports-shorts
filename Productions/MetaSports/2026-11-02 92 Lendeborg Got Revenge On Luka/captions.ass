@@ -1,0 +1,42 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Montserrat Black,86,&H00FFFFFF,&H00FFFFFF,&H00000000,&H99000000,0,0,0,0,95,100,1,0,1,6,3,5,70,70,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.50,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN HIS FIRST
+Dialogue: 0,0:00:00.50,0:00:01.18,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NBA GAME,
+Dialogue: 0,0:00:01.18,0:00:01.86,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WARRIORS ROOKIE
+Dialogue: 0,0:00:01.86,0:00:02.97,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx66\fscy66\t(0,90,\fscx77\fscy77)}YAXEL LENDEBORG WENT
+Dialogue: 0,0:00:02.97,0:00:04.13,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AT LUKA DONCIC.
+Dialogue: 0,0:00:04.13,0:00:04.70,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}I WAS TELLING HIM,
+Dialogue: 0,0:00:04.70,0:00:05.13,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HE SUCKS.
+Dialogue: 0,0:00:05.13,0:00:05.43,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HE CAN'T
+Dialogue: 0,0:00:05.43,0:00:06.06,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SCORE ON ME.
+Dialogue: 0,0:00:06.06,0:00:06.92,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NINE DAYS LATER,
+Dialogue: 0,0:00:06.92,0:00:07.69,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THEY MET AGAIN.
+Dialogue: 0,0:00:07.69,0:00:08.08,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}LENDEBORG
+Dialogue: 0,0:00:08.08,0:00:08.75,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HAD 6 POINTS
+Dialogue: 0,0:00:08.75,0:00:09.81,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND 5 TURNOVERS.
+Dialogue: 0,0:00:09.81,0:00:11.17,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}LUKA HAD 37.
+Dialogue: 0,0:00:11.17,0:00:11.48,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THEN,
+Dialogue: 0,0:00:11.48,0:00:12.16,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TWO DAYS LATER,
+Dialogue: 0,0:00:12.16,0:00:12.43,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WITHOUT
+Dialogue: 0,0:00:12.43,0:00:12.96,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}STEPH CURRY,
+Dialogue: 0,0:00:12.96,0:00:13.60,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}LENDEBORG WENT
+Dialogue: 0,0:00:13.60,0:00:13.98,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}OFF FOR THE
+Dialogue: 0,0:00:13.98,0:00:14.51,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}MOST POINTS
+Dialogue: 0,0:00:14.51,0:00:15.09,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BY A WARRIORS
+Dialogue: 0,0:00:15.09,0:00:15.52,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ROOKIE SINCE
+Dialogue: 0,0:00:15.52,0:00:16.34,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}STEPH HIMSELF.
+Dialogue: 0,0:00:16.34,0:00:17.07,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}37.
+Dialogue: 0,0:00:17.07,0:00:17.57,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE EXACT
+Dialogue: 0,0:00:17.57,0:00:18.05,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NUMBER LUKA
+Dialogue: 0,0:00:18.05,0:00:19.10,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx76\fscy76\t(0,90,\fscx89\fscy89)}SCORED AGAINST HIM.

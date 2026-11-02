@@ -3,6 +3,13 @@
 One entry per channel per day, written by the daily runs (`.claude/skills/daily-run/SKILL.md`): data pulled, what was learned,
 research with sources, what was made, what changed in the rules or tools.
 
+## Mon Nov 2, 2026 (NBA daily run; main session, with the voice key)
+
+**Context.** NBA is scheduled through Thu Nov 5 by the owner's PC (`Research Notes/Scheduled Uploads.csv`; today #73 at 7:15 AM and #83 at 3:30 PM). Inbox: empty. No other session had built today's top research pick.
+**Built anyway, as an optional swap:** today's research pick 1 is news that dies tonight, and our best recent NBA Shorts are this type (Boozer 25K, Bronny 27K). #92 "This Rookie Told Luka He Sucks" can replace #83 (an evergreen) at 3:30 PM if the owner moves #83 to Fri Nov 6; otherwise it's skipped. Never three NBA posts in a day.
+**Made.** #92: Lendeborg told Luka "he sucks, he can't score on me" in his debut (his own voice, Slater's soundbite), had 6 points and 5 turnovers when Luka scored 37 on Friday, then scored 37 on Sunday without Curry: the most by a Warriors rookie since Curry's 42 in 2010 (AP). 19.1 s, 12 shots, real-audio version to post plus a music spare; full QA PASS on both, comfort audit clean. Hub card `s92-lendeborg-luka` (ready), task `post-lendeborg` (due 3:30 PM ET, marked optional). Sources and footage: the folder's notes.md.
+**Learned (craft, [S]).** QA and the comfort audit caught three things worth keeping in mind: the overlay number landed on a teammate (#20) for half a second until the shot was split; ESPN packages hide camera cuts near clip ends (slow the clip or trim before the cut); a real-audio quote needs its captions grouped into phrases, or single words flash for 0.2 s.
+
 ## Mon Nov 2, 2026 (FC daily run; routine; no ElevenLabs key; build skipped: queue full)
 
 **Build skipped on purpose.** FC is built and scheduled through Fri Nov 6 (`Research Notes/Scheduled Uploads.csv`: S20 today 12:00, S25 Tue, S26 Wed, S27 Thu, S28 Fri, all from the owner's PC), and `key: MISSING` here anyway. A new script would duplicate work; per the 01:40 UTC catch-up entry, builds skip while the queue is full. No Hub change (nothing new to put on it).
