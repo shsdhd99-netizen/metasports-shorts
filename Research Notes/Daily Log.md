@@ -3,6 +3,13 @@
 One entry per channel per day, written by the daily runs (`.claude/skills/daily-run/SKILL.md`): data pulled, what was learned,
 research with sources, what was made, what changed in the rules or tools.
 
+## Mon Nov 2, 2026 (FC daily run; routine; no ElevenLabs key; build skipped: queue full)
+
+**Build skipped on purpose.** FC is built and scheduled through Fri Nov 6 (`Research Notes/Scheduled Uploads.csv`: S20 today 12:00, S25 Tue, S26 Wed, S27 Thu, S28 Fri, all from the owner's PC), and `key: MISSING` here anyway. A new script would duplicate work; per the 01:40 UTC catch-up entry, builds skip while the queue is full. No Hub change (nothing new to put on it).
+**Data.** Analytics: no token (YT_CLIENT_ID / YT_REFRESH_TOKEN_FC not set); dataset FC rows unchanged (no Studio export since Oct 24). Public counts (yt-dlp, 09:30 UTC): **S17 Krul 20K at ~72 h**, S01 30K, S05 29K, S03 15K, S08 3.2K, S16 3.1K, S07 2.5K, S18 2.2K (~2 days), S19 Rulli 2.0K (~19 h), S06 2.0K, S04 1.9K, S02 1.8K, S15 1.1K.
+**Learned.** Lessons Learned, Nov 2: goalkeeper-shootout stories 4 of 4 at 15K+, every other FC Short under 3.3K; S17 shows the subject carries it without a visible trick. The full queue to Fri is goalkeeper-heavy (breaks the 1-in-3 rotation on purpose): judge each at 72 h; two in a row under 5K = bring the rotation back.
+**Research.** Today's research run already added the soccer picks (Martínez on the 2026 final, Kane's crossbar after the Ballon d'Or) to the Idea Bank with sources (`Research Notes/Daily Research/2026-11-02.md`); nothing added twice.
+
 ## Mon Nov 2, 2026, 01:40 UTC (main session catch-up after a 2.5-day stall)
 
 **What happened.** This session's worker kept restarting from Fri Oct 30, 09:05 UTC to Mon Nov 2, 01:35 UTC, so 10 scheduled runs queued up unrun (FC build Oct 30, Oct 31, Nov 1; NBA build Oct 31, Nov 1; research Oct 31, Nov 1; stats Oct 30, Oct 31, Nov 1). Meanwhile the owner's PC session and the other account built and auto-scheduled both channels (`Research Notes/Scheduled Uploads.csv`): NBA twice a day through Thu Nov 5, FC daily through Fri Nov 6.
