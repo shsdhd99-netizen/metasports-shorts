@@ -1,0 +1,128 @@
+{
+ "length_s": 11.25,
+ "topic": "A humorous brainrot-style meme edit of an older man attempting to dunk a balloon on a outdoor basketball hoop.",
+ "lane": "moment",
+ "hook": {
+  "first_words": "none",
+  "first_frame": "An older man in a tank top holding an orange balloon in front of a basketball hoop in the woods.",
+  "on_screen_text_0_3s": "Unc it's A BALLOON 😭",
+  "shots_in_first_3s": 1
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 3.8,
+   "shows": "Older man preparing to shoot an orange balloon at a hoop in the woods.",
+   "kind": "action"
+  },
+  {
+   "start_s": 3.8,
+   "end_s": 4.2,
+   "shows": "Fast Steph Curry shooting meme edit transition overlay.",
+   "kind": "other"
+  },
+  {
+   "start_s": 4.2,
+   "end_s": 5.8,
+   "shows": "Man dunking the balloon into the hoop with animated red M&M reaction.",
+   "kind": "action"
+  },
+  {
+   "start_s": 5.8,
+   "end_s": 8.2,
+   "shows": "Clip edit of a character punching a dummy with intense visual effects.",
+   "kind": "other"
+  },
+  {
+   "start_s": 8.2,
+   "end_s": 10.6,
+   "shows": "Man punching/hitting the star balloon under the basketball hoop.",
+   "kind": "action"
+  },
+  {
+   "start_s": 10.6,
+   "end_s": 11.25,
+   "shows": "Meme clip of a kid praying with a basketball hoop graphic edit overlay.",
+   "kind": "other"
+  }
+ ],
+ "shot_count": 6,
+ "average_shot_s": 1.88,
+ "longest_shot_s": 3.8,
+ "voice": {
+  "type": "none",
+  "gender": "none",
+  "words_per_minute_estimate": 0,
+  "tone": "none",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "High-energy meme edit soundtrack with bass boosted sound effects.",
+  "level_vs_voice": "loud",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [
+  {
+   "at_s": 0.0,
+   "sound": "groaning and grunting audio clips"
+  },
+  {
+   "at_s": 4.0,
+   "sound": "swish explosion sound effect"
+  },
+  {
+   "at_s": 6.0,
+   "sound": "anime screaming impact sound"
+  }
+ ],
+ "captions": {
+  "present": false,
+  "words_per_line": 0,
+  "case": "ALL CAPS",
+  "position": "middle",
+  "colours": "white",
+  "highlight_style": "none"
+ },
+ "text_overlays": [
+  {
+   "at_s": 0.0,
+   "text": "Unc it's A BALLOON 😭"
+  }
+ ],
+ "cards_or_graphics": 0,
+ "framing": "crop",
+ "ending": {
+  "last_words": "none",
+  "last_frame": "Meme edit of a boy praying with dark filter overlay.",
+  "loops_to_start": true,
+  "call_to_action": "none"
+ },
+ "script": "",
+ "retention_tricks": [
+  "pattern interrupts",
+  "rapid visual edits",
+  "meme overlays",
+  "intense sound effects"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": false,
+  "ends_on_payoff": false,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "Humorous contrast between intense athletic edits and a simple balloon.",
+  "Rapid meme cuts keep brainrot/Gen Z audiences entertained.",
+  "Relatable and funny overlay text frame the absurd situation instantly."
+ ],
+ "_meta": {
+  "source": "RsPTRAL-OBY",
+  "model": "gemini-3.6-flash",
+  "fps": 4.0,
+  "watched": "2026-11-02",
+  "tier": "[S] model-observed, not measured"
+ }
+}
