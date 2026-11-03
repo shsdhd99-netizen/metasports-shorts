@@ -53,3 +53,7 @@ name: ElevenLabs Creator (~$22/mo, professional voice clone), an avatar service 
 - Blocker: Hedra API wallet is $0 (key valid; web credits don't count). ~$1 funds all four clips (`work/hedra.py`).
   Free routes: SadTalker/EchoMimic on the PC's RTX 3060, or the owner uses Hedra/HeyGen free web credits (`HEDRA.md`).
 - Owner to do: revoke the Netlify token pasted in chat on Nov 3; add `NETLIFY_AUTH_TOKEN` to the environment.
+
+## Nov 3, 8 PM ET: preview with his talking face DONE (PC)
+- Both `00 Preview/PREVIEW - Fingerprints (16x9|9x16).mp4` now have his face talking at the start and end (SadTalker on the PC GPU, free, nothing uploaded). Files are on the PC only; the owner sends them to Max. Details and a script-accuracy note: `Productions/00 Preview/HANDOFF.md` (last section).
+- Netlify: the owner pasted a second token in chat on Nov 3; it is saved in `Tools/.env` on the PC (git-ignored). Revoke both chat tokens after the demo.
