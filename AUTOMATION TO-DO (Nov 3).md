@@ -55,8 +55,8 @@ Ordered. Do the top of each tag first. "Done when" is the check.
 4. **Monday only:** the two YouTube Studio exports (Shorts tab) for "Stayed to watch". Still manual; Studio has no API for it.
 
 ### [PC] no Claude credits, can start now
-5. **Daily analytics pull on a timer.** `Tools/daily_analytics.bat` exists. Done when it runs from Windows Task Scheduler at
-   7 PM every day and a commit appears with no session open.
+5. **Daily analytics pull on a timer. DONE:** the Windows task "MetaSports analytics" runs `Tools\daily_analytics.bat` daily at
+   3:20 AM and commits (last commit Nov 2 3:20). Only check that it still fires tomorrow.
 6. **Auto-schedule ready drafts on a timer.** `Tools/yt_schedule.py` works (tokens are in `Tools/.env`; Nov 3-5 are already scheduled).
    Done when any DRAFT with a passing QA line and an UPLOAD.md gets scheduled by script, with the guard rails unchanged.
 7. **Usage guard at the top of every run.** If weekly usage is over 90%, the run writes one "skipped, low usage" line and does only
