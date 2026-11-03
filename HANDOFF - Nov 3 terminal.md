@@ -8,6 +8,11 @@ Shorts under 59.5 s; no promo ending. Commit small and often; commits end with t
 Finish the automation to-do list autonomously in the terminal and use usage up to **99% weekly** (the 50% ceiling in `C:\Users\Admin\AGENTS.md`
 is raised for this run only). Weekly was 96% at 4 PM ET and resets **Wed Nov 4, 1 PM ET**; the 5-hour window is separate.
 
+## Read first (corrections)
+The to-do file's correction note applies: the cloud runs did continue (Nov 2 median 16,250, up); Nov 3 builds were skipped only because the
+cloud lost its voice key. The PC has `Tools/.env`, so build and voice here. **One builder only:** read `Research Notes/Automation Options
+(Nov 3, 2026).md` and check the newest `STATUS:` lines in the Daily Log before building a Short, so the terminal and the cloud don't both build.
+
 ## Order of work (stop at the first hard limit; everything is committed as you go)
 1. **Zero-credit PC items first** (to-do items 5, 6, 7): Task Scheduler entries for `Tools/daily_analytics.bat` (7 PM daily) and a
    ready-draft scheduler wrapper around `Tools/yt_schedule.py`; a usage-guard note in `.claude/skills/daily-run/SKILL.md`

@@ -7,7 +7,7 @@ Written for the owner (phone-friendly). Either Claude account can pick up any li
 
 **Not reliably. The machine works; the aim is the problem.** What the numbers say (Outcome Log, Nov 1 to 3):
 
-- NBA median is flat at about 4-6K views a Short since mid-October, with a 20K+ hit roughly 1 post in 10.
+- NBA median was about 4-6K a Short through Oct 30 (now rising, see the correction below), with a 20K+ hit roughly 1 post in 10.
   Soccer: only the goalkeeper lane hits (S01 30K, S05 28K, S17 19K); every other lane is 1-3K.
 - **Topic decides hits more than editing does.** The 171 Gemini reports show a channel's top and bottom Shorts are edited almost
   identically (3.77 vs 3.73 shots per 10 s). Our hits were topics (Bronny, Boozer/LeBron family story, CoachClank's 10M free-throw
@@ -15,9 +15,13 @@ Written for the owner (phone-friendly). Either Claude account can pick up any li
 - The retention flags (engaged ratio under 0.5) are on #76, Luka, Chuck and SGA: the openings lose people, not the middle.
 - Editing still has real faults to fix (Editing Study Nov 1): subject too small in the first frame, the same shot held for 8 s,
   scorebug cut in half, captions sitting on the players, a static last 4 s. These raise the floor; they won't make a 100K by themselves.
-- **The real stall:** nothing has been committed since Nov 2, 3:20 AM. The daily runs fire into one Claude session, and that
-  session ran out of weekly usage (main account: **96% used, resets Wed Nov 4, 1 PM ET**). Videos already scheduled on YouTube
-  keep going out through Thu Nov 5, so the channel doesn't go quiet, but nothing new is being made.
+- **CORRECTION (Nov 3, 5 PM, after pulling 31 newer commits):** the numbers above were from a stale local checkout. The cloud runs
+  kept going; the Nov 2 stats check says **last-7 median 16,250 (up), three Shorts at 26-28K, S17 22.5K**. So the trend is better
+  than "flat at 4-6K". The conclusion (topic decides hits; learn from data) stands.
+- **The real blocker:** the Nov 2 container reset wiped the voice and Gemini keys, so the Nov 3 NBA and FC builds were skipped
+  ("no voice key"). Fix: add the keys to the cloud environment settings (they survive resets), or build on the PC, where `Tools/.env`
+  has them. Main account usage is **96%, resets Wed Nov 4, 1 PM ET**. Nov 3-5 slots are already scheduled on YouTube.
+  See `Research Notes/Automation Options (Nov 3, 2026).md` (recommends option B now, C after two clean weeks; one builder only).
 
 ## 2. Can it learn as it automates? Yes, if learning is a script, not a mood
 
