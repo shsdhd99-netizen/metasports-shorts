@@ -3,7 +3,7 @@
 Branch `main-329h3w`. First: `git pull --no-rebase origin main-329h3w`. Rules unchanged from `HANDOFF - Nov 3 terminal.md`: never publish,
 never schedule outside `yt_schedule.py`'s guard rails, never open YouTube Studio, never print or commit keys, Shorts under 59.5 s, no promo
 ending, never delete and re-upload a Short, at most 2 posts a day per channel 6+ hours apart. Commits end with
-`Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>`. Do not commit untracked `clips/`, `voice_raw.mp3`, `_voice_*`, `src/`, `.url`.
+the Co-Authored-By line for the model actually running (the session states it; do not copy a fixed model name). Do not commit untracked `clips/`, `voice_raw.mp3`, `_voice_*`, `src/`, `.url`.
 
 ## 1. What is DONE (all committed and pushed; last commit `64ca199`)
 | Item | Result | Where |

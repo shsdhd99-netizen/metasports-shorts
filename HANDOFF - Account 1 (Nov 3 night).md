@@ -2,7 +2,7 @@
 
 Branch `main-329h3w`. First: `git pull --no-rebase origin main-329h3w`. Then run `python Tools/preflight.py` (zero credits, prints no secrets, writes `Research Notes/Preflight.md`).
 Rules unchanged: never publish, never open YouTube Studio, schedule only through `Tools/yt_schedule.py` guard rails, no keys in chat or git, Shorts under 59.5 s, no promo ending,
-never delete and re-upload, at most 2 posts a day per channel 6+ hours apart. Commits end with `Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>`.
+never delete and re-upload, at most 2 posts a day per channel 6+ hours apart. Commits end with the Co-Authored-By line for the model actually running (the session states it; do not copy a fixed model name).
 Do not commit untracked `clips/`, `src/`, `voice_raw.mp3`, `_voice_*`, the 97 MB DRAFT mp4s (the push fails).
 
 ## 1. State right now

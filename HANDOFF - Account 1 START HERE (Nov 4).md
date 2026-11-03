@@ -7,7 +7,7 @@ review the results and improve the system. The owner is away most of the time: a
 ## 0. Rules that never change
 Never publish, never open YouTube Studio, schedule only through `Tools/yt_schedule.py` guard rails (private + publishAt; slot 20 min to 30 days away; never re-upload a file; DRAFT file names only)
 and only as section 7 allows. Never print, commit or paste keys (`Tools/.env`). Shorts under 59.5 s, no promo ending, no stat without a source, at most 2 posts a day per channel 6+ hours apart,
-never delete and re-upload a Short. No mass-delete by name or glob (exact ids only). Commits end with `Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>`.
+never delete and re-upload a Short. No mass-delete by name or glob (exact ids only). Commits end with the Co-Authored-By line for the model actually running (the session states it; do not copy a fixed model name).
 Do not commit `clips/`, `src/`, `voice_raw.mp3`, `_voice_*`, `.url`, or any file over about 20 MB (the push fails; DRAFT mp4s are 90+ MB).
 Auto mode blocks creating persistent scheduled tasks and similar: ask the owner to run a script (like `Tools/register_tasks.ps1`); do not work around it.
 
