@@ -3,6 +3,15 @@
 One entry per channel per day, written by the daily runs (`.claude/skills/daily-run/SKILL.md`): data pulled, what was learned,
 research with sources, what was made, what changed in the rules or tools.
 
+## Tue Nov 3, 2026 (FC daily run; main session; build skipped: queue full, no voice key)
+
+**Context.** Inbox empty. This account's FC Hub has no card at "ready"; the owner's PC has FC scheduled daily through Fri Nov 6 (S25 today, S26-S28), so the queue is full. The voice key is also missing since the Nov 2 container reset (owner task `setup-keys` added this morning).
+**Scripted (no voice, no render):**
+- **S32 "The Hull City fan who walked home from Chile"** (fan lane, this week's news): Karl Bushby's 28-year walk from the tip of South America to Hull (ESPN, Wikipedia citing Sky). Payoff: the month he set off, Hull were bottom of the Football League's lowest division, heading for bankruptcy; he came home to a Premier League club. 196 words. Copy check: news clips only, nobody with the Hull angle. The 1998 table line needs a stronger second source before voicing.
+- **S30 "The Ballon d'Or winner who missed a penalty days later"** (penalty takers): Kane's Oct 31 night (trophy shown, penalty off the bar, lost the ball for the equaliser, late Silva draw, even Karl's last kick off the bar). Payoff: only his second miss in 27 Bundesliga penalties. 186 words. Sky and theScore read today; re-read Bundesliga.com before voicing.
+- Not scripted: Higuita's scorpion kick (S21) is heavily TAKEN (England's own upload 7.5M, 3.7M, a Netflix doc); S33 Carrick v Roma waits for tonight's result.
+- Folders: `Soccer Channel/Productions/2026-11-09 S32 ...` and `2026-11-10 S30 ...` (script.txt, title_caption.txt, notes.md with every claim, quote and link).
+
 ## Tue Nov 3, 2026 (NBA daily run; main session; build skipped: no voice key)
 
 **Context.** Inbox empty. NBA is scheduled by the owner's PC through Thu Nov 5 (today: "Draymond Green Had A Triple-Double With Four Points" 7:15 AM, "Jokic Said No To His Own Parade" 3:30 PM). The cloud container was reset on Nov 2: `ELEVENLABS_API_KEY`, the session key file and `Tools/.env` (Gemini) are all gone.
