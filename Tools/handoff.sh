@@ -26,4 +26,4 @@ has() { [ -n "${!1}" ] || grep -qs "^$1=." Tools/.env && echo "set" || echo "MIS
   echo "## Uncommitted here"
   git status --short | head -15 | sed 's/^/    /'
 } > "$OUT"
-git add "$OUT" && git commit -q -m "Handoff (auto) from $ACCT" && git push -q origin main-329h3w && echo "Handoff written and pushed: $OUT"
+git add -f "$OUT" && git commit -q -m "Handoff (auto) from $ACCT" && git push -q origin main-329h3w && echo "Handoff written and pushed: $OUT"
