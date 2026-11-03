@@ -7,3 +7,5 @@
 - Next: see `HANDOFF - Nov 4 resume 1-30 PM.md` section 2.
 
 - 2026-11-03 19:50 ET: S29 (FC, goalkeeper lane) built on the PC, both versions QA PASS, awaiting owner's ear and an A/B arm choice; slot Sat Nov 7 12:00 PM ET. Hub card not made. Voice used so far today about 1.6K characters on S29 (plan check: 49,630 of 121,224 used before).
+
+- 2026-11-03 20:20 ET: Account 1 handoff written (`HANDOFF - Account 1 (Nov 3 night).md`). Preflight OK, 6 warnings (no timers registered, USAGE.txt added, disk 27 GB).
