@@ -112,7 +112,7 @@ def main():
     if os.name == "nt":
         rc, out = run(["powershell", "-NoProfile", "-Command", "Get-ScheduledTask | Where-Object {$_.TaskName -like '*MetaSports*'} | ForEach-Object { $_.TaskName }"])
         names = out.splitlines() if rc == 0 else []
-        for need in ("MetaSports analytics", "MetaSports schedule ready AM", "MetaSports schedule ready PM", "MetaSports daily nba", "MetaSports daily fc"):
+        for need in ("MetaSports analytics", "MetaSports schedule ready AM", "MetaSports schedule ready PM", "MetaSports terminal resume"):
             add("OK" if need in names else "WARN", f"task {need}", "registered" if need in names else "NOT registered (owner: see the handoff)")
 
     # last analytics pull

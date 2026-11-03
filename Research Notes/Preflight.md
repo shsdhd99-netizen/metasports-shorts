@@ -1,6 +1,6 @@
-# Preflight (2026-11-03 17:10)
+# Preflight (2026-11-03 17:22)
 
-**PREFLIGHT OK (6 warnings)**
+**PREFLIGHT OK (3 warnings)**
 
 | Level | Check | Detail |
 |---|---|---|
@@ -24,11 +24,11 @@
 | OK | token nba analytics | refresh works |
 | OK | token fc analytics | refresh works |
 | OK | git | ## main-329h3w...origin/main-329h3w |
-| OK | BUILDER.txt | pc |
-| WARN | USAGE.txt | missing: headless runs cannot obey the usage guard (owner: write `weekly 40` and the date) |
+| OK | BUILDER.txt | cloud |
+| OK | USAGE.txt | weekly 2 used (owner said 98% left) 2026-11-03 20:15 ET (updated 0 h ago) |
 | OK | task MetaSports analytics | registered |
-| WARN | task MetaSports schedule ready AM | NOT registered (owner: see the handoff) |
-| WARN | task MetaSports schedule ready PM | NOT registered (owner: see the handoff) |
+| OK | task MetaSports schedule ready AM | registered |
+| OK | task MetaSports schedule ready PM | registered |
 | WARN | task MetaSports daily nba | NOT registered (owner: see the handoff) |
 | WARN | task MetaSports daily fc | NOT registered (owner: see the handoff) |
 | OK | analytics pull | newest daily file 2026-11-01 (2 d old) |

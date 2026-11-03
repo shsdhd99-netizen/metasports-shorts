@@ -11,3 +11,4 @@
 - 2026-11-03 20:20 ET: Account 1 handoff written (`HANDOFF - Account 1 (Nov 3 night).md`). Preflight OK, 6 warnings (no timers registered, USAGE.txt added, disk 27 GB).
 
 - 2026-11-03 22:00 ET: BUILDER=cloud. Routines trig_01PUCBRzwuJ1j1r3Y53GdfoY (NBA 3:17 AM ET) and trig_011nY5arZZHcgKkWQvcBkNKc (FC 4:23 AM ET) ENABLED, prompts point to `CLOUD DAILY RULES.md`. Cloud env still lacks keys until the owner runs `Tools/copy_cloud_env.ps1` and pastes them.
+- 2026-11-03 22:45 ET: tasks verified; Account 1 start-up list is in HANDOFF - Account 1 START HERE (Nov 4).md; backlog in Research Notes/Improvement Backlog.md.
