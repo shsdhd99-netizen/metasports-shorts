@@ -4,6 +4,10 @@ Usage: python copy_check.py "why no one shoots underhand free throws"
 Verdict: FRESH (nothing big found) / CROWDED (some versions) / TAKEN (a version already has 500K+ views)
 """
 import json, re, subprocess, sys
+try:
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")  # Windows console is cp1252; emoji titles crashed it (Nov 3)
+except AttributeError:
+    pass
 
 OFFICIAL = {"NBA", "ESPN", "House of Highlights", "Bleacher Report", "NBA on ESPN", "Sports Illustrated", "ClutchPoints"}
 STOP = {"the", "a", "an", "of", "in", "on", "for", "to", "not", "is", "and", "back", "why", "how", "what", "no", "one",
