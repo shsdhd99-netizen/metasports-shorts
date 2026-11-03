@@ -61,6 +61,10 @@ If weekly usage is over 90% (the session's `/usage`, or the number the owner las
 rules allow), commit, push, and exit cleanly. Never die mid-build for lack of credits: a run that can't finish skips instead.
 If usage can't be read, say so in the STATUS line and continue only with research and script notes (no voice, no render).
 
+## 0b. One builder (Nov 3)
+Read `Research Notes/BUILDER.txt` (`pc` or `cloud`). Build a Short only if it names where you are running; otherwise do the zero-credit steps
+(analytics, `learn.py`, schedule dry run) and write `STATUS: not the builder` in the Daily Log. Update `Research Notes/STATE.md` at the end.
+
 ## 0. Setup (5 min)
 1. `git fetch origin main-329h3w && git checkout main-329h3w && git pull --no-rebase origin main-329h3w`
    (if the repo is missing, attach `shsdhd99-netizen/metasports-shorts` and clone it first).
