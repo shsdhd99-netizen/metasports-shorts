@@ -3,6 +3,29 @@
 One entry per channel per day, written by the daily runs (`.claude/skills/daily-run/SKILL.md`): data pulled, what was learned,
 research with sources, what was made, what changed in the rules or tools.
 
+## Tue Nov 3, 2026, 14:40 UTC (owner: "save the pacers, and find the key. do more research aswell ... see if you are fully able to takeover these channels")
+
+**Key.** Not recoverable from here: no `ELEVENLABS_API_KEY` in the environment, no key file (the Nov 2 reset wiped the scratchpad), none in the repo or this session's history, no proxy-held credential (api.elevenlabs.io answers 401 without one), and no computer folder shared through Remote Control. Stand-ins failed: Everygen's subscription is inactive (402), vidIQ has 0 credits until Nov 5. The owner has to re-add it in the environment settings.
+**Pacers.** #93 started: script (96 words), claims table, 6 sources downloaded and contact sheets checked; gaps logged (no bench/street-clothes shot, no 106-104 scoreboard). A check-in at 17:30 UTC voices and finishes it if the key is back by then; otherwise it dies tonight.
+**Research.** Afternoon add-on in `Research Notes/Daily Research/2026-11-03.md`: three evergreen NBA picks (Rodman's banned No. 69 and house in Dallas, FRESH; Bubba Wells fouling out on purpose, known; the 0.3-second rule, partly taken).
+**Automation.** Assessment written: `Research Notes/Automation Options (Nov 3, 2026).md` (about 95% automatable after a 30-minute setup; recommend one-tap approval now, autopilot with a veto window after two clean weeks).
+
+## Tue Nov 3, 2026 (FC daily run; main session; build skipped: queue full, no voice key)
+
+**Context.** Inbox empty. This account's FC Hub has no card at "ready"; the owner's PC has FC scheduled daily through Fri Nov 6 (S25 today, S26-S28), so the queue is full. The voice key is also missing since the Nov 2 container reset (owner task `setup-keys` added this morning).
+**Scripted (no voice, no render):**
+- **S32 "The Hull City fan who walked home from Chile"** (fan lane, this week's news): Karl Bushby's 28-year walk from the tip of South America to Hull (ESPN, Wikipedia citing Sky). Payoff: the month he set off, Hull were bottom of the Football League's lowest division, heading for bankruptcy; he came home to a Premier League club. 196 words. Copy check: news clips only, nobody with the Hull angle. The 1998 table line needs a stronger second source before voicing.
+- **S30 "The Ballon d'Or winner who missed a penalty days later"** (penalty takers): Kane's Oct 31 night (trophy shown, penalty off the bar, lost the ball for the equaliser, late Silva draw, even Karl's last kick off the bar). Payoff: only his second miss in 27 Bundesliga penalties. 186 words. Sky and theScore read today; re-read Bundesliga.com before voicing.
+- Not scripted: Higuita's scorpion kick (S21) is heavily TAKEN (England's own upload 7.5M, 3.7M, a Netflix doc); S33 Carrick v Roma waits for tonight's result.
+- Folders: `Soccer Channel/Productions/2026-11-09 S32 ...` and `2026-11-10 S30 ...` (script.txt, title_caption.txt, notes.md with every claim, quote and link).
+
+## Tue Nov 3, 2026 (NBA daily run; main session; build skipped: no voice key)
+
+**Context.** Inbox empty. NBA is scheduled by the owner's PC through Thu Nov 5 (today: "Draymond Green Had A Triple-Double With Four Points" 7:15 AM, "Jokic Said No To His Own Parade" 3:30 PM). The cloud container was reset on Nov 2: `ELEVENLABS_API_KEY`, the session key file and `Tools/.env` (Gemini) are all gone.
+**Not built.** Today's research pick 1 (the Pacers played with six players and nearly beat the Hawks; FRESH, sources in `Research Notes/Daily Research/2026-11-03.md`) is news that dies tonight, both slots are taken, and without the voice key no Short can be recorded. No script written: a news script that can't be voiced today has no use tomorrow.
+**Owner task added:** "Add the voice and Gemini keys to the environment" (`setup-keys`, section Now, steps and copy blocks for the two variable names; never paste keys in chat).
+**Next open NBA slot:** Fri Nov 6, 7:15 AM. Once the keys are back, the Friday build can use an evergreen pick.
+
 ## Mon Nov 2, 2026 (FC daily run; main session, with the voice key)
 
 **Context.** Inbox empty. FC is scheduled daily through Fri Nov 6 by the owner's PC (`Research Notes/Scheduled Uploads.csv`) and S25-S28 are built, so the queue is full: **no build** (trigger rule: 3+ ready, write 2 scripts and stop). This account's FC Hub has no new card; nothing to post from here.
