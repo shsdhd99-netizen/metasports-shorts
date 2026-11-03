@@ -1,0 +1,61 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Montserrat Black,86,&H00FFFFFF,&H00FFFFFF,&H00000000,&H99000000,0,0,0,0,95,100,1,0,1,6,3,5,70,70,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.67,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE NBA
+Dialogue: 0,0:00:00.67,0:00:01.25,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx85\fscy85\t(0,90,\fscx99\fscy99)}LEGEND WHO MADE
+Dialogue: 0,0:00:01.25,0:00:01.78,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}UP AN INSULT
+Dialogue: 0,0:00:01.78,0:00:02.82,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx73\fscy73\t(0,90,\fscx84\fscy84)}TO DESTROY SOMEONE.
+Dialogue: 0,0:00:02.82,0:00:03.46,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BACK IN MARCH
+Dialogue: 0,0:00:03.46,0:00:04.49,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}1993,
+Dialogue: 0,0:00:04.49,0:00:04.88,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}A BULLETS
+Dialogue: 0,0:00:04.88,0:00:05.31,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}GUARD NAMED
+Dialogue: 0,0:00:05.31,0:00:06.11,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx83\fscy83\t(0,90,\fscx96\fscy96)}LABRADFORD SMITH
+Dialogue: 0,0:00:06.11,0:00:07.29,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx84\fscy84\t(0,90,\fscx98\fscy98)}SCORED 37 AGAINST
+Dialogue: 0,0:00:07.29,0:00:08.13,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx65\fscy65\t(0,90,\fscx75\fscy75)}MICHAEL JORDAN'S BULLS
+Dialogue: 0,0:00:08.13,0:00:08.81,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN CHICAGO.
+Dialogue: 0,0:00:08.81,0:00:09.18,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IT WAS THE
+Dialogue: 0,0:00:09.18,0:00:09.59,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BEST GAME
+Dialogue: 0,0:00:09.59,0:00:10.25,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}OF HIS CAREER,
+Dialogue: 0,0:00:10.25,0:00:10.79,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND WASHINGTON
+Dialogue: 0,0:00:10.79,0:00:11.41,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}STILL LOST.
+Dialogue: 0,0:00:11.41,0:00:11.98,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BUT JORDAN
+Dialogue: 0,0:00:11.98,0:00:12.45,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}CLAIMED THAT
+Dialogue: 0,0:00:12.45,0:00:13.26,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AFTER THE GAME,
+Dialogue: 0,0:00:13.26,0:00:14.00,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SMITH TOLD HIM,
+Dialogue: 0,0:00:14.00,0:00:14.50,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NICE GAME,
+Dialogue: 0,0:00:14.50,0:00:14.84,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}MIKE.
+Dialogue: 0,0:00:14.84,0:00:15.28,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE TWO TEAMS
+Dialogue: 0,0:00:15.28,0:00:15.77,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}PLAYED AGAIN
+Dialogue: 0,0:00:15.77,0:00:16.09,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE VERY
+Dialogue: 0,0:00:16.09,0:00:16.54,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NEXT NIGHT.
+Dialogue: 0,0:00:16.54,0:00:17.05,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SO JORDAN
+Dialogue: 0,0:00:17.05,0:00:17.67,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}REPORTEDLY TOLD
+Dialogue: 0,0:00:17.67,0:00:18.16,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HIS TEAMMATES
+Dialogue: 0,0:00:18.16,0:00:18.60,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HE'D MATCH
+Dialogue: 0,0:00:18.60,0:00:19.41,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SMITH'S 37
+Dialogue: 0,0:00:19.41,0:00:19.78,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN THE FIRST
+Dialogue: 0,0:00:19.78,0:00:20.39,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HALF ALONE.
+Dialogue: 0,0:00:20.39,0:00:20.90,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BY HALF-TIME,
+Dialogue: 0,0:00:20.90,0:00:21.77,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HE HAD 36.
+Dialogue: 0,0:00:21.77,0:00:22.09,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HE FINISHED
+Dialogue: 0,0:00:22.09,0:00:22.72,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WITH 47
+Dialogue: 0,0:00:22.72,0:00:23.31,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN A 25
+Dialogue: 0,0:00:23.31,0:00:24.05,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}-POINT BLOWOUT.
+Dialogue: 0,0:00:24.05,0:00:24.51,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BUT HERE'S
+Dialogue: 0,0:00:24.51,0:00:25.29,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE WILD PART.
+Dialogue: 0,0:00:25.29,0:00:25.89,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SMITH NEVER
+Dialogue: 0,0:00:25.89,0:00:26.25,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SAID IT.
+Dialogue: 0,0:00:26.25,0:00:26.69,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}JORDAN LATER
+Dialogue: 0,0:00:26.69,0:00:27.04,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ADMITTED HE
+Dialogue: 0,0:00:27.04,0:00:27.55,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}MADE THE WHOLE
+Dialogue: 0,0:00:27.55,0:00:28.24,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THING UP.

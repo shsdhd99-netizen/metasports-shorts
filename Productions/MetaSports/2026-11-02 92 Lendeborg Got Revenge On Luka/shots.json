@@ -1,0 +1,86 @@
+[
+ {
+  "clip": "L01.mp4",
+  "kind": "action",
+  "why": "Opener, Oct 21: Luka (#77) face to face with Lendeborg (#1, LENDEBORG on his back) after Luka's half-court buzzer-beater (ESPN game clip 'Luka Doncic lets Yaxel Lendeborg hear it')",
+  "start": 0.0
+ },
+ {
+  "clip": "L02.mp4",
+  "kind": "face",
+  "why": "Luka celebrating the half-court buzzer-beater, same clip",
+  "anchor": "went at Luka",
+  "start": 2.76
+ },
+ {
+  "clip": "L03.mp4",
+  "kind": "quote",
+  "why": "Lendeborg post-game, Oct 21, his own voice: 'I was telling him, he sucks. He can't score on me.' (Anthony Slater on X)",
+  "anchor": "I was telling",
+  "lead": 0.0,
+  "start": 4.13
+ },
+ {
+  "clip": "L04.mp4",
+  "kind": "action",
+  "why": "Fri Oct 30 rematch: Lendeborg (#1, black) on the floor as Luka (white) attacks (ESPN game clip)",
+  "anchor": "Nine days later",
+  "start": 6.03
+ },
+ {
+  "clip": "L05.mp4",
+  "kind": "face",
+  "why": "Lendeborg (#1, black) walking off, face visible, Fri Oct 30 (ESPN game package)",
+  "anchor": "Lendeborg had 6",
+  "start": 7.66
+ },
+ {
+  "clip": "L05B.mp4",
+  "kind": "face",
+  "why": "Lendeborg from behind, LENDEBORG 1 on his back, Fri Oct 30 (ESPN game package)",
+  "anchor": "and 5 turnovers",
+  "start": 8.72
+ },
+ {
+  "clip": "L06.mp4",
+  "kind": "action",
+  "why": "Luka (#77) arm up after a three, Fri Oct 30 (ESPN game package)",
+  "anchor": "Luka had 37",
+  "start": 9.78
+ },
+ {
+  "clip": "L07.mp4",
+  "kind": "face",
+  "why": "Steph Curry in a hoodie and cap, resting, cheering from the bench, Sun Nov 1 (NBA on X)",
+  "anchor": "Then two days",
+  "start": 11.14
+ },
+ {
+  "clip": "L08.mp4",
+  "kind": "action",
+  "why": "Lendeborg's step-back three vs the Clippers, Sun Nov 1 (ESPN game clip)",
+  "anchor": "Lendeborg went off",
+  "start": 12.93
+ },
+ {
+  "clip": "L09.mp4",
+  "kind": "face",
+  "why": "Steph Curry (#30) after a three, Fri Oct 30 (ESPN game clip)",
+  "anchor": "since Steph himself",
+  "start": 15.32
+ },
+ {
+  "clip": "L10.mp4",
+  "kind": "face",
+  "why": "Lendeborg (#1, white) close-up, Sun Nov 1 (NBA on X)",
+  "anchor": "37",
+  "start": 16.3
+ },
+ {
+  "clip": "L11.mp4",
+  "kind": "face",
+  "why": "Luka close-up, Fri Oct 30 (ESPN game clip)",
+  "anchor": "The exact number",
+  "start": 17.04
+ }
+]

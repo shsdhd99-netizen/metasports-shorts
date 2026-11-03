@@ -1,0 +1,18 @@
+clip,kind,used_at_s,used_for_line,what_it_shows,source_url,source_account,source_date,source_in_s,source_out_s,crop,match_score,licence_risk,verified,verified_on,notes
+J03.mp4,face,4.46,a Bullets guard named LaBradford Smith,LaBradford Smith close with the WGN name graphic '22 LaBradford Smith',src/q1_id.mp4,,,5.4,7.3,x 0.5 zoom 1.0 y 0.5 blurfit,,,yes,2026-11-02, | source 1920x1080
+J06.mp4,face,11.38,"But Jordan claimed that after the game,","Jordan close, Mar 20 1993",src/half.mp4,,,13.5,15.7,x 0.5 zoom 1.0 y 0.5 blurfit,,,yes,2026-11-02, | source 1920x1080
+J07.mp4,face,13.23,"Smith told him, nice game, Mike.","Smith #22 from behind, close (Mar 20 1993)",src/q1_smith22.mp4,,,3.4,5.3,x 0.5 zoom 1.0 y 0.5 blurfit,,,yes,2026-11-02, | source 1920x1080
+J08.mp4,action,14.81,The two teams played again the very next night.,"Tip-off at the Capital Centre, Mar 20 1993: the next night",src/table.mp4,,,27.9,29.9,x 0.5 zoom 1.0 y 0.5 blurfit,,,yes,2026-11-02, | source 1920x1080
+J09.mp4,face,16.51,So Jordan reportedly told his teammates,"Bulls huddle, Jordan #23 with teammates",src/half.mp4,,,3.6,5.5,x 0.5 zoom 1.0 y 0.5 blurfit,,,yes,2026-11-02, | source 1920x1080
+J13.mp4,face,24.02,But here's the wild part.,"Jordan with a towel on the bench, late in the blowout",src/final.mp4,,,2.3,3.8,x 0.5 zoom 1.0 y 0.5 blurfit,,,yes,2026-11-02, | source 1920x1080
+J14.mp4,face,25.26,Smith never said it.,Smith close (Mar 20 1993),src/q1_id.mp4,,,3.7,5.0,x 0.5 zoom 1.0 y 0.5 blurfit,,,yes,2026-11-02, | source 1920x1080
+J04.mp4,card,6.08,scored 37,"WGN graphic: LaBradford Smith, last night vs Bulls: career-high 37 pts (15-20 FG, 7-7 FT)",src/pre_smith.mp4,,,8.6,10.9,x 0.5 zoom 1.0 y 0.5 blurfit,,,yes,2026-11-02, | source 1920x1080
+J11.mp4,card,20.36,"By half-time, he had 36.",WGN half-time graphic: M. Jordan 36 pts / 6 rebs,src/ht_leaders.mp4,,,2.4,4.1,x 0.5 zoom 1.0 y 0.5 blurfit,,,yes,2026-11-02, | source 1920x1080
+J15.mp4,face,26.22,Jordan later admitted he made the whole thing up.,"Jordan laughing courtside (WGN intro): the payoff, he made it up",src/intro.mp4,,,1.4,3.9,x 0.5 zoom 1.0 y 0.5 blurfit,,,yes,2026-11-02, | source 1920x1080
+J02.mp4,action,2.79,"Back in March 1993,","Bulls vs Bullets, Capital Centre, Mar 20 1993 (WGN)",src/q1_dunk.mp4,,,4.0,6.0,x 0.5 zoom 1.3 y 0.5 blurfit,,,yes,2026-11-02, | source 1920x1080
+J04b.mp4,action,7.06,against Michael Jordan's Bulls,Bullets #7 guarding Jordan in Chicago Stadium (WGN intro),src/intro.mp4,,,12.0,13.3,x 0.5 zoom 1.0 y 0.5 blurfit,,,yes,2026-11-02, | source 1920x1080
+J05.mp4,face,8.10,"in Chicago. It was the best game of his career, and Washington still lost.","Bullets bench, Mar 20 1993 (illustrative: Washington lost)",src/table.mp4,,,19.9,23.5,x 0.5 zoom 1.0 y 0.5 blurfit,,,yes,2026-11-02, | source 1920x1080
+J11b.mp4,action,21.74,He finished with 47,Bulls vs Bullets 3rd quarter Mar 20 1993 (Jordan scoring night),src/p47.mp4,,,1.0,2.2,x 0.5 zoom 1.0 y 0.5 blurfit,,,yes,2026-11-02, | source 1920x1080
+J12.mp4,card,22.69,in a 25 -point blowout.,"WGN final graphic: Bulls 126, Bullets 101",src/final.mp4,,,14.2,15.8,x 0.5 zoom 1.0 y 0.5 blurfit,,,yes,2026-11-02, | source 1920x1080
+J01.mp4,face,0.00,The NBA legend who made up an insult to destroy someone.,"Jordan #23 close, first quarter at the Capital Centre, Mar 20 1993 (WGN)",src/q1_dunk.mp4,,,25.7,28.8,x 0.5 zoom 1.3 y 0.5 blurfit,,,yes,2026-11-02, | source 1920x1080
+J10.mp4,face,18.13,he'd match Smith's 37 in the first half alone.,"Jordan #23 facing camera, Mar 20 1993",src/half.mp4,,,11.3,13.8,x 0.5 zoom 1.0 y 0.5 blurfit,,,yes,2026-11-02, | source 1920x1080

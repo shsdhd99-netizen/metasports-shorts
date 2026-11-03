@@ -3,6 +3,52 @@
 One entry per channel per day, written by the daily runs (`.claude/skills/daily-run/SKILL.md`): data pulled, what was learned,
 research with sources, what was made, what changed in the rules or tools.
 
+## Tue Nov 3, 2026, 14:40 UTC (owner: "save the pacers, and find the key. do more research aswell ... see if you are fully able to takeover these channels")
+
+**Key.** Not recoverable from here: no `ELEVENLABS_API_KEY` in the environment, no key file (the Nov 2 reset wiped the scratchpad), none in the repo or this session's history, no proxy-held credential (api.elevenlabs.io answers 401 without one), and no computer folder shared through Remote Control. Stand-ins failed: Everygen's subscription is inactive (402), vidIQ has 0 credits until Nov 5. The owner has to re-add it in the environment settings.
+**Pacers.** #93 started: script (96 words), claims table, 6 sources downloaded and contact sheets checked; gaps logged (no bench/street-clothes shot, no 106-104 scoreboard). A check-in at 17:30 UTC voices and finishes it if the key is back by then; otherwise it dies tonight.
+**Research.** Afternoon add-on in `Research Notes/Daily Research/2026-11-03.md`: three evergreen NBA picks (Rodman's banned No. 69 and house in Dallas, FRESH; Bubba Wells fouling out on purpose, known; the 0.3-second rule, partly taken).
+**Automation.** Assessment written: `Research Notes/Automation Options (Nov 3, 2026).md` (about 95% automatable after a 30-minute setup; recommend one-tap approval now, autopilot with a veto window after two clean weeks).
+
+## Tue Nov 3, 2026 (FC daily run; main session; build skipped: queue full, no voice key)
+
+**Context.** Inbox empty. This account's FC Hub has no card at "ready"; the owner's PC has FC scheduled daily through Fri Nov 6 (S25 today, S26-S28), so the queue is full. The voice key is also missing since the Nov 2 container reset (owner task `setup-keys` added this morning).
+**Scripted (no voice, no render):**
+- **S32 "The Hull City fan who walked home from Chile"** (fan lane, this week's news): Karl Bushby's 28-year walk from the tip of South America to Hull (ESPN, Wikipedia citing Sky). Payoff: the month he set off, Hull were bottom of the Football League's lowest division, heading for bankruptcy; he came home to a Premier League club. 196 words. Copy check: news clips only, nobody with the Hull angle. The 1998 table line needs a stronger second source before voicing.
+- **S30 "The Ballon d'Or winner who missed a penalty days later"** (penalty takers): Kane's Oct 31 night (trophy shown, penalty off the bar, lost the ball for the equaliser, late Silva draw, even Karl's last kick off the bar). Payoff: only his second miss in 27 Bundesliga penalties. 186 words. Sky and theScore read today; re-read Bundesliga.com before voicing.
+- Not scripted: Higuita's scorpion kick (S21) is heavily TAKEN (England's own upload 7.5M, 3.7M, a Netflix doc); S33 Carrick v Roma waits for tonight's result.
+- Folders: `Soccer Channel/Productions/2026-11-09 S32 ...` and `2026-11-10 S30 ...` (script.txt, title_caption.txt, notes.md with every claim, quote and link).
+
+## Tue Nov 3, 2026 (NBA daily run; main session; build skipped: no voice key)
+
+**Context.** Inbox empty. NBA is scheduled by the owner's PC through Thu Nov 5 (today: "Draymond Green Had A Triple-Double With Four Points" 7:15 AM, "Jokic Said No To His Own Parade" 3:30 PM). The cloud container was reset on Nov 2: `ELEVENLABS_API_KEY`, the session key file and `Tools/.env` (Gemini) are all gone.
+**Not built.** Today's research pick 1 (the Pacers played with six players and nearly beat the Hawks; FRESH, sources in `Research Notes/Daily Research/2026-11-03.md`) is news that dies tonight, both slots are taken, and without the voice key no Short can be recorded. No script written: a news script that can't be voiced today has no use tomorrow.
+**Owner task added:** "Add the voice and Gemini keys to the environment" (`setup-keys`, section Now, steps and copy blocks for the two variable names; never paste keys in chat).
+**Next open NBA slot:** Fri Nov 6, 7:15 AM. Once the keys are back, the Friday build can use an evergreen pick.
+
+## Mon Nov 2, 2026 (FC daily run; main session, with the voice key)
+
+**Context.** Inbox empty. FC is scheduled daily through Fri Nov 6 by the owner's PC (`Research Notes/Scheduled Uploads.csv`) and S25-S28 are built, so the queue is full: **no build** (trigger rule: 3+ ready, write 2 scripts and stop). This account's FC Hub has no new card; nothing to post from here.
+**Scripted (no voice, no render):**
+- **S29 "The goalkeeper who says Spain were scared of a shootout"** (goalkeeper lane + this week's news): Martinez's 2022 shootout trick, then his Oct 30 claims that Spain's players said "we can't go to penalties" and that he'd have won; Spain won 1-0 in extra time. Payoff: the shootout king lost the next World Cup final without facing a penalty. 193 words. Every Spain line is his claim ("he says"). Copy check TAKEN only from 2022 compilations; nobody told the 2026 angle.
+- **S31 "The baby Messi bathed beat him in a World Cup final"** (fan/kid lane, the Topic Study's next test): the 2007 charity-calendar bath photo, their first meeting in the 2026 final, the hug and Messi's advice; payoff: the baby took the world title off him. 212 words. Copy check **TAKEN** (the photo story itself: AP 427K, BeanymanSports 276K, fan edits 9M); the final is the new part. Owner's call.
+- Folders: `Soccer Channel/Productions/2026-11-07 S29 ...` and `2026-11-08 S31 ...` (script.txt, title_caption.txt, notes.md with every claim, exact quote and link). Footage not checked yet: the footage test comes before voicing.
+**Cautions logged.** 2007 photo month differs by source (Sept vs Dec), so "a few months old"; "11 saves" (Daily Star only) not used; Goal misprints the final as "2016".
+
+## Mon Nov 2, 2026 (NBA daily run; main session, with the voice key)
+
+**Context.** NBA is scheduled through Thu Nov 5 by the owner's PC (`Research Notes/Scheduled Uploads.csv`; today #73 at 7:15 AM and #83 at 3:30 PM). Inbox: empty. No other session had built today's top research pick.
+**Built anyway, as an optional swap:** today's research pick 1 is news that dies tonight, and our best recent NBA Shorts are this type (Boozer 25K, Bronny 27K). #92 "This Rookie Told Luka He Sucks" can replace #83 (an evergreen) at 3:30 PM if the owner moves #83 to Fri Nov 6; otherwise it's skipped. Never three NBA posts in a day.
+**Made.** #92: Lendeborg told Luka "he sucks, he can't score on me" in his debut (his own voice, Slater's soundbite), had 6 points and 5 turnovers when Luka scored 37 on Friday, then scored 37 on Sunday without Curry: the most by a Warriors rookie since Curry's 42 in 2010 (AP). 19.1 s, 12 shots, real-audio version to post plus a music spare; full QA PASS on both, comfort audit clean. Hub card `s92-lendeborg-luka` (ready), task `post-lendeborg` (due 3:30 PM ET, marked optional). Sources and footage: the folder's notes.md.
+**Learned (craft, [S]).** QA and the comfort audit caught three things worth keeping in mind: the overlay number landed on a teammate (#20) for half a second until the shot was split; ESPN packages hide camera cuts near clip ends (slow the clip or trim before the cut); a real-audio quote needs its captions grouped into phrases, or single words flash for 0.2 s.
+
+## Mon Nov 2, 2026 (FC daily run; routine; no ElevenLabs key; build skipped: queue full)
+
+**Build skipped on purpose.** FC is built and scheduled through Fri Nov 6 (`Research Notes/Scheduled Uploads.csv`: S20 today 12:00, S25 Tue, S26 Wed, S27 Thu, S28 Fri, all from the owner's PC), and `key: MISSING` here anyway. A new script would duplicate work; per the 01:40 UTC catch-up entry, builds skip while the queue is full. No Hub change (nothing new to put on it).
+**Data.** Analytics: no token (YT_CLIENT_ID / YT_REFRESH_TOKEN_FC not set); dataset FC rows unchanged (no Studio export since Oct 24). Public counts (yt-dlp, 09:30 UTC): **S17 Krul 20K at ~72 h**, S01 30K, S05 29K, S03 15K, S08 3.2K, S16 3.1K, S07 2.5K, S18 2.2K (~2 days), S19 Rulli 2.0K (~19 h), S06 2.0K, S04 1.9K, S02 1.8K, S15 1.1K.
+**Learned.** Lessons Learned, Nov 2: goalkeeper-shootout stories 4 of 4 at 15K+, every other FC Short under 3.3K; S17 shows the subject carries it without a visible trick. The full queue to Fri is goalkeeper-heavy (breaks the 1-in-3 rotation on purpose): judge each at 72 h; two in a row under 5K = bring the rotation back.
+**Research.** Today's research run already added the soccer picks (Martínez on the 2026 final, Kane's crossbar after the Ballon d'Or) to the Idea Bank with sources (`Research Notes/Daily Research/2026-11-02.md`); nothing added twice.
+
 ## Mon Nov 2, 2026, 01:40 UTC (main session catch-up after a 2.5-day stall)
 
 **What happened.** This session's worker kept restarting from Fri Oct 30, 09:05 UTC to Mon Nov 2, 01:35 UTC, so 10 scheduled runs queued up unrun (FC build Oct 30, Oct 31, Nov 1; NBA build Oct 31, Nov 1; research Oct 31, Nov 1; stats Oct 30, Oct 31, Nov 1). Meanwhile the owner's PC session and the other account built and auto-scheduled both channels (`Research Notes/Scheduled Uploads.csv`): NBA twice a day through Thu Nov 5, FC daily through Fri Nov 6.

@@ -1,0 +1,25 @@
+{
+ "engine": "ffmpeg",
+ "out": "DRAFT - awaiting approval - The NBA Legend Who Made Up An Insult (music).mp4",
+ "loop_fix": true,
+ "fits": [],
+ "music": {
+  "track": "Library/Music/eleven_story_01.mp3",
+  "track_start": 0.0,
+  "in": 0.0,
+  "out": 28.238367,
+  "hit": null,
+  "hit_on": null,
+  "segment_lufs": -15.0,
+  "gain_db": -19.0,
+  "bed_lu": -20.0,
+  "gap_lift_db": 2.0,
+  "gaps": [
+   [
+    28.1,
+    28.24
+   ]
+  ],
+  "drops": []
+ }
+}

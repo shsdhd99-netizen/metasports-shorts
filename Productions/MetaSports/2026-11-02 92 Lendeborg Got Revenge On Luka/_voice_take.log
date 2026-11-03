@@ -1,0 +1,4 @@
+voice profile: Alex - Upbeat, Energetic and Clear (ElevenLabs Voice Library) (gate: HNR >= 7.0, jitter <= 3.4, shimmer <= 12.5)
+take 1: Done: voice.mp3 (17.2s, sped up x1.00) + captions.srt + words.json in /home/user/metasports-shorts/Productions/MetaSports/2026-11-02 92 Lendeborg Got Revenge On Luka/take1_3mccbgzw
+  take 1: PASS  check=PASS HNR 7.9 jitter 3.0 shimmer 11.55 17.53s  []
+USED take score 4.1 (passes the voice gate)

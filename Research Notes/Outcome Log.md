@@ -556,3 +556,23 @@ Public counts (`channel_check.py`, 8:40 PM ET). API data: the PC's pull `Researc
 **Lesson [S], n=4, not a rule:** the four Shorts that went through the Oct 30 retention and comfort pass (#77 re-edit 27K, #80 25K, #74 24K, S17 re-edit 19K) all beat their channel's usual (NBA about 6K; S17 vs the goalkeeper lane's 9-30K is normal). Confounded by strong topics (Bronny, LeBron-era family story, CoachClank's 10M topic, goalkeeper lane), so it supports keeping `comfort_audit.py` in every build, not a rule change.
 **Owner notes inbox:** empty. Post tasks ticked tonight (all visibly live): #74, #77, #80, S17, S18.
 
+
+## Mon Nov 2, 2026 (evening, 23:15 UTC): daily check (scheduled, read-only)
+Public counts (`channel_check.py`, about 6:15 PM ET; `fc_track.py` for FC). API data: no new pull since `Research Notes/Studio exports/api/daily 2026-11-01.csv` (no YT_* secrets in the cloud), so the retention flags below are last night's. vidIQ not used (API data exists).
+- **Median of the last 7: 16,250** (normal before that: 6,150). Trend: UP. 630 subscribers (+8 since last night).
+
+| Short | Views | #42 FORMAT? | Note |
+|---|---|---|---|
+| Why NBA Players Refuse This Free Throw (#74) | 28,000 | no (explainer) | day 2; +4K since last night |
+| Bronny Is Shooting 100% This Season (#77) | 28,000 | no (story, real audio) | day 3; now outdated (he's 1 for 2): a pinned update comment was suggested this morning |
+| Cameron Boozer Outshot His Dad's Whole Career (#80) | 26,000 | no (record/family) | day 3 |
+| Bones Hyland Got A Technical For A Fake Throw | 6,500 | no (moment) | scheduled by the PC, 7:15 AM today; about 11 h |
+| Wemby Blocked A Three And Scored Point 40 (#82) | 6,100 | no (moment) | day 2 |
+| LeBron Is 40 Assists Behind Jason Kidd (#84) | 1,600 | no (record) | day 1; slow |
+| Cooper Flagg's Rookie Year Beat LeBron's (#83) | 1,100 | no (record) | scheduled 3:30 PM today; under 3 h, judge after 48 h |
+
+**Not posted:** #92 "This Rookie Told Luka He Sucks" (the optional swap): #83 went up at 3:30 PM as scheduled, so #92 is skipped (news, a day old tomorrow). Its post task stays open and unticked, marked expired.
+**Format test:** closed (1 of 3 at 74%+). **Retention flags (API, Nov 1 pull, unchanged):** #76 Pierce 0.49, Luka 0.49, Chuck 0.46, SGA 0.49 engaged ratio (under 0.5 = likely under 60% stayed). Best: #75 rookie 0.615 (real audio).
+**FC (public):** S17 Krul 22,500 (+3.5K), S19 Rulli 2,850 (day 2), S18 Mourinho 2,400, S20 Messi napkin 518 (posted 12 PM today, about 7 h; not goalkeeper lane). 139 subscribers.
+**Lesson:** none new (yesterday's n=4 note on the comfort pass still stands; today adds no new kind of evidence).
+**Monday reminder:** the Studio export (Content > Shorts, both channels) is due; it's the only source of the exact "stayed to watch". **Owner notes inbox:** empty. No post task ticked tonight (Bones Hyland and #83 had no open task).

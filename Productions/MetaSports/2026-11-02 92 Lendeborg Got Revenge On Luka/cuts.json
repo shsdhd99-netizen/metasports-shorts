@@ -1,0 +1,200 @@
+{
+ "sources": {
+  "A": "src/espn_50244788.mp4",
+  "Q": "src/2113137207389352120.mp4",
+  "C": "src/espn_50332790.mp4",
+  "D": "src/espn_50333448.mp4",
+  "E": "src/2117106779997753358.mp4",
+  "F": "src/espn_50355054.mp4",
+  "G": "src/espn_50333380.mp4"
+ },
+ "shots": [
+  {
+   "clip": "L01",
+   "src": "A",
+   "at": 27.28,
+   "speed": 0.7,
+   "blurfit": true,
+   "blurfit_aspect": 1.0,
+   "x": 0.75,
+   "kind": "action",
+   "why": "Opener, Oct 21: Luka (#77) face to face with Lendeborg (#1, LENDEBORG on his back) after Luka's half-court buzzer-beater (ESPN game clip 'Luka Doncic lets Yaxel Lendeborg hear it')",
+   "len": 3.06
+  },
+  {
+   "clip": "L02",
+   "src": "A",
+   "at": 12.2,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.2,
+   "kind": "face",
+   "anchor": "went at Luka",
+   "why": "Luka celebrating the half-court buzzer-beater, same clip",
+   "len": 1.68
+  },
+  {
+   "clip": "L03",
+   "src": "Q",
+   "at": 58.6,
+   "x": 0.37,
+   "kind": "quote",
+   "anchor": "I was telling",
+   "lead": 0.0,
+   "why": "Lendeborg post-game, Oct 21, his own voice: 'I was telling him, he sucks. He can't score on me.' (Anthony Slater on X)",
+   "len": 2.19
+  },
+  {
+   "clip": "L04",
+   "src": "C",
+   "at": 12.2,
+   "blurfit": true,
+   "blurfit_aspect": 0.8,
+   "x": 0.27,
+   "kind": "action",
+   "anchor": "Nine days later",
+   "why": "Fri Oct 30 rematch: Lendeborg (#1, black) on the floor as Luka (white) attacks (ESPN game clip)",
+   "len": 1.93
+  },
+  {
+   "clip": "L05",
+   "src": "D",
+   "at": 28.45,
+   "speed": 0.5,
+   "x": 0.38,
+   "kind": "face",
+   "anchor": "Lendeborg had 6",
+   "why": "Lendeborg (#1, black) walking off, face visible, Fri Oct 30 (ESPN game package)",
+   "overlay": [
+    {
+     "text": "6 POINTS",
+     "size": 150,
+     "color": "red",
+     "y": 230,
+     "start": 0.5,
+     "end": 9
+    }
+   ],
+   "len": 1.37
+  },
+  {
+   "clip": "L05B",
+   "src": "D",
+   "at": 29.3,
+   "speed": 0.5,
+   "x": 0.25,
+   "kind": "face",
+   "anchor": "and 5 turnovers",
+   "why": "Lendeborg from behind, LENDEBORG 1 on his back, Fri Oct 30 (ESPN game package)",
+   "overlay": [
+    {
+     "text": "5 TURNOVERS",
+     "size": 115,
+     "color": "red",
+     "y": 230,
+     "start": 0.05,
+     "end": 9
+    }
+   ],
+   "len": 1.36
+  },
+  {
+   "clip": "L06",
+   "src": "D",
+   "at": 16.35,
+   "x": 0.53,
+   "kind": "action",
+   "anchor": "Luka had 37",
+   "why": "Luka (#77) arm up after a three, Fri Oct 30 (ESPN game package)",
+   "overlay": [
+    {
+     "text": "37",
+     "size": 220,
+     "color": "orange",
+     "y": 230,
+     "start": 0.6,
+     "end": 9,
+     "sub": "LUKA, FRIDAY"
+    }
+   ],
+   "len": 1.66
+  },
+  {
+   "clip": "L07",
+   "src": "E",
+   "at": 88.95,
+   "x": 0.25,
+   "kind": "face",
+   "anchor": "Then two days",
+   "why": "Steph Curry in a hoodie and cap, resting, cheering from the bench, Sun Nov 1 (NBA on X)",
+   "len": 2.09
+  },
+  {
+   "clip": "L08",
+   "src": "F",
+   "at": 14.3,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.3,
+   "kind": "action",
+   "anchor": "Lendeborg went off",
+   "why": "Lendeborg's step-back three vs the Clippers, Sun Nov 1 (ESPN game clip)",
+   "len": 2.69
+  },
+  {
+   "clip": "L09",
+   "src": "G",
+   "at": 15.4,
+   "x": 0.47,
+   "kind": "face",
+   "anchor": "since Steph himself",
+   "why": "Steph Curry (#30) after a three, Fri Oct 30 (ESPN game clip)",
+   "len": 1.29
+  },
+  {
+   "clip": "L10",
+   "src": "E",
+   "at": 87.5,
+   "x": 0.73,
+   "kind": "face",
+   "anchor": "37",
+   "why": "Lendeborg (#1, white) close-up, Sun Nov 1 (NBA on X)",
+   "overlay": [
+    {
+     "text": "37",
+     "size": 230,
+     "color": "green",
+     "y": 230,
+     "start": 0.0,
+     "end": 9,
+     "sub": "LENDEBORG, SUNDAY"
+    }
+   ],
+   "len": 1.03
+  },
+  {
+   "clip": "L11",
+   "src": "C",
+   "at": 10.0,
+   "speed": 0.62,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.52,
+   "kind": "face",
+   "anchor": "The exact number",
+   "why": "Luka close-up, Fri Oct 30 (ESPN game clip)",
+   "overlay": [
+    {
+     "text": "37",
+     "size": 230,
+     "color": "orange",
+     "y": 230,
+     "start": 0.0,
+     "end": 9,
+     "sub": "LUKA, FRIDAY"
+    }
+   ],
+   "len": 2.56
+  }
+ ]
+}
