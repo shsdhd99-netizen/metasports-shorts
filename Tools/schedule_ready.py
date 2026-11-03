@@ -9,7 +9,12 @@ and the owner can delete it in the YouTube app until then. It never opens Studio
 
   python Tools/schedule_ready.py            -> dry run: lists what it would schedule and why others are skipped
   python Tools/schedule_ready.py --go       -> really schedules (this is what the Task Scheduler entry runs)
-Writes one summary line to Research Notes/Schedule Ready Log.md each --go run.
+Writes one summary line to Research Notes/Schedule Ready Log.md each --go run, plus the reason for every skip.
+Slots under 6 h from another Short on the same channel (already in Scheduled Uploads.csv, or picked earlier in this run) are skipped.
+
+A/B pairs (Nov 3): a folder with a music and a no-music DRAFT is no longer always skipped. A card line `**Arm:** music`/`no-music`
+picks that file. With no Arm line it is still skipped (the arm is the owner's call) unless the run passes
+--default-arm no-music|music; then a card's `**Post:** MUSIC version`/`no-music version` line wins, else the default arm is used.
 """
 import argparse, datetime, glob, os, re, subprocess, sys
 from zoneinfo import ZoneInfo
@@ -24,6 +29,9 @@ MONTHS = {m: i for i, m in enumerate("Jan Feb Mar Apr May Jun Jul Aug Sep Oct No
 SLOT = re.compile(r"(?:target(?: slot)?|slot|post)\W{0,6}(?:[^.\n]{0,25}?)\b(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun)[a-z]*,?\s+"
                   r"([A-Z][a-z]{2})[a-z]*\s+(\d{1,2}),?\s+(?:about\s+)?(\d{1,2})(?::(\d{2}))?\s*(AM|PM)\b", re.I)
 QA = re.compile(r"QA[^\n]{0,40}\bPASS|qa_short[^\n]{0,30}PASS", re.I)
+ARM = re.compile(r"\*{0,2}Arm:?\*{0,2}:?\s*(no[- ]?music|music)\b", re.I)
+POSTARM = re.compile(r"\*{0,2}Post:?\*{0,2}:?\s*(no[- ]?music|music)\b", re.I)
+NOMUSIC = re.compile(r"no[- _]?music", re.I)
 FOLDERS = [("nba", os.path.join(ROOT, "Productions", "MetaSports")), ("fc", os.path.join(ROOT, "Soccer Channel", "Productions"))]
 
 
@@ -33,6 +41,46 @@ def slot_of(text, year):
         return None
     h = int(m.group(3)) % 12 + (12 if m.group(5).upper() == "PM" else 0)
     return datetime.datetime(year, MONTHS[m.group(1).title()], int(m.group(2)), h, int(m.group(4) or 0), tzinfo=ET)
+
+
+def pick_arm(drafts, text, default):
+    """Return (file, arm, None) or (None, None, why) for a folder with 2+ DRAFTs."""
+    m = ARM.search(text) or (default and POSTARM.search(text))  # Post: line only refines an opted-in default
+    arm = (m.group(1).lower().replace(" ", "-") if m else default)
+    if arm == "nomusic":
+        arm = "no-music"
+    if not arm:
+        return None, None, f"{len(drafts)} DRAFT files and no **Arm:** line (owner's call)"
+    nm = [f for f in drafts if NOMUSIC.search(os.path.basename(f))]
+    mu = [f for f in drafts if f not in nm]
+    pool = nm if arm == "no-music" else mu
+    if len(pool) != 1:
+        return None, None, f"{len(drafts)} DRAFT files; arm '{arm}' matches {len(pool)} of them"
+    return pool[0], arm, None
+
+
+GAP_H = 6  # rule: at most 2 posts a day per channel, 6+ hours apart
+
+
+def booked_slots():
+    """(channel, publish datetime ET, title) of everything already scheduled, from Scheduled Uploads.csv."""
+    import csv
+    out = []
+    if os.path.exists(ys.LOG):
+        for r in csv.DictReader(open(ys.LOG, encoding="utf-8")):
+            try:
+                t = datetime.datetime.strptime(r["publish_et"], "%Y-%m-%d %H:%M").replace(tzinfo=ET)
+            except (KeyError, ValueError):
+                continue
+            out.append((r.get("channel", ""), t, r.get("title", "")[:40]))
+    return out
+
+
+def clash(ch, slot, booked):
+    for c, t, who in booked:
+        if c == ch and abs((t - slot).total_seconds()) < GAP_H * 3600:
+            return f"slot {slot:%a %b %d %H:%M} is under {GAP_H} h from {who} ({t:%a %b %d %H:%M})"
+    return None
 
 
 def candidates():
@@ -45,10 +93,12 @@ def candidates():
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--go", action="store_true")
+    ap.add_argument("--default-arm", choices=["music", "no-music"], help="arm for A/B pairs with no **Arm:** line")
     ap.add_argument("--min-lead", type=int, default=120, help="minutes the slot must be away")
     a = ap.parse_args()
     now = datetime.datetime.now(ET)
     done, report = [], []
+    booked = booked_slots()
     for ch, d in candidates():
         name = os.path.basename(d)
         drafts = glob.glob(os.path.join(d, "DRAFT*.mp4"))
@@ -58,13 +108,18 @@ def main():
         text = open(card, encoding="utf-8-sig").read()
         slot = slot_of(text, now.year)
         title, tags = ys.parse_card(card)
-        why = None
+        why, arm = None, None
+        if len(drafts) > 1:
+            pick, arm, why = pick_arm(drafts, text, a.default_arm)
+            drafts = [pick] if pick else drafts
         if not slot or slot < now + datetime.timedelta(minutes=a.min_lead):
             continue  # old or unslotted folder: silent (not a candidate)
-        if len(drafts) != 1:
-            why = f"{len(drafts)} DRAFT files (ambiguous)"
+        if why:
+            pass
         elif ys.already(ys.sha(drafts[0])):
             continue  # already scheduled: silent
+        elif clash(ch, slot, booked):
+            why = clash(ch, slot, booked)
         elif re.search(r"\bHOLD\b", text):
             why = "card says HOLD"
         elif not QA.search(text):
@@ -83,7 +138,9 @@ def main():
         r = subprocess.run(cmd, capture_output=True, text=True, encoding="utf-8", errors="replace")
         out = (r.stdout + r.stderr).strip().splitlines()
         report.append(f"{'SCHEDULED' if a.go and r.returncode == 0 else 'would schedule' if r.returncode == 0 else 'REFUSED'} "
-                      f"{name} -> {slot:%a %b %d %H:%M} ET" + (f" ({out[-1][:160]})" if r.returncode else ""))
+                      f"{name} -> {slot:%a %b %d %H:%M} ET" + (f" [arm {arm}]" if arm else "") + (f" ({out[-1][:160]})" if r.returncode else ""))
+        if r.returncode == 0:
+            booked.append((ch, slot, name[:40]))  # later folders in this run must keep the gap too
         if a.go and r.returncode == 0:
             done.append(name)
     print("\n".join(report) or "nothing to do")
