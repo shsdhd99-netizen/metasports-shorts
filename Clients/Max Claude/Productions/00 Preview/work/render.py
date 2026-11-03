@@ -6,7 +6,7 @@ Shots come from SHOTS below (times are on the voice.mp3 timeline). Opening/closi
 slow push-in, unless the Hedra talking-head clips exist in work/ (open_talk.mp4 / close_talk.mp4 for 16x9,
 open_talk_9x16.mp4 / close_talk_9x16.mp4 for 9x16; a missing 9x16 clip falls back to a centre crop of the 16x9 one).
 """
-import json, os, re, subprocess, sys, tempfile
+import json, os, re, shutil, subprocess, sys, tempfile
 
 W = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(W)
@@ -50,6 +50,11 @@ SHOTS = [
 ]
 KEY = {"hundred", "signature", "born", "never", "twins", "ridges", "yours", "glass", "copy", "powder", "invisible",
        "computer", "millions", "seconds", "match", "examiner", "final", "door", "signed", "name"}
+
+
+def fpath(p):
+    """A path ffmpeg's filter parser accepts on Windows too (C:/x becomes C escaped-colon /x); unchanged on Linux."""
+    return p.replace(os.sep, "/").replace(":", r"\:")
 
 
 def run(cmd):
@@ -150,10 +155,10 @@ def render(fmt):
           f"[2:a]aresample=48000,atrim=0:{END},volume=-21dB,afade=t=in:d=1,afade=t=out:st={END - 1.2}:d=1.2[m];"
           f"[v][m]amix=inputs=2:duration=shortest:normalize=0,volume=4.2dB,alimiter=limit=0.8:level=false,atrim=0:{END}[a]")
     run(["ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", lst, "-i", os.path.join(W, "voice.mp3"),
-         "-i", MUSIC, "-filter_complex", f"[0:v]subtitles='{sub}':fontsdir='{FONT_DIR}'[vv];{af}",
+         "-i", MUSIC, "-filter_complex", f"[0:v]subtitles='{fpath(sub)}':fontsdir='{fpath(FONT_DIR)}'[vv];{af}",
          "-map", "[vv]", "-map", "[a]", "-t", f"{END}", "-c:v", "libx264", "-preset", "medium", "-crf", "18",
          "-pix_fmt", "yuv420p", "-r", str(FPS), "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", out])
-    subprocess.run(["rm", "-rf", tmp])
+    shutil.rmtree(tmp, ignore_errors=True)
     print("wrote", out)
 
 
