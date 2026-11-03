@@ -2,6 +2,12 @@
 Last updated: 2026-10-14 (newest section at the bottom). Branch: `main-329h3w` (draft PR #1). The user posts the videos; NEVER upload/publish or open YouTube Studio.
 **Owner, Oct 19 (standing until they say otherwise):** "you are able to run from my pc now, you do not need to look for cloud solutions." Prefer the PC when the session runs there. (Oct 26 overnight review: THE #42 FORMAT is one lane among several, not the lead; moments are about half of NBA Shorts. See House rules and `Research Notes/Rule Changes Applied (Oct 26, 2026).md`.) When the owner is away from the PC, source footage in the cloud yourself.
 
+## Nov 3, 2026: client job, Max Claude's preview video (read this first if the owner mentions Max / Mr. Claude)
+- Status and full instructions: `Clients/Max Claude/Productions/00 Preview/HANDOFF.md`. Skill: `/client-avatar-video`.
+- Built with his voice clone and photo placeholder; the talking-head clips are blocked on an empty Hedra API wallet
+  (~$1) or a free route (local SadTalker on the PC GPU, or the owner's free Hedra/HeyGen web credits).
+- His photo/voice are private: never commit or publish them. The Claude phone app can't save MP3/MP4 files.
+
 ## Oct 28, 2026 (night): Bronny again + the first Ahmed-style NBA test (read this first)
 - **Owner:** "can we also work on a 'did bronny actually get better' short? aswell as that, a short in ahmed style for metasports clips? for test purposes".
 - **#77 "Did Bronny Actually Get Better?"** (23.6 s, real audio: Luka's own voice): FG% 31 to 41, 3P% 28 to 39, 27 to 42 games + 8 playoff games, kept over Knecht, opening night 1-for-1 in 7 minutes, then three DNPs. Payoff: "shooting 100%... he just hasn't played since." QA PASS, Gemini READY. Thu ~3 PM. **A reminder fires at 06:20 UTC Oct 29** to check the Lakers @ Clippers box score; if Bronny played, update the ending before the owner posts.

@@ -15,27 +15,38 @@ FONT_DIR = os.path.join(REPO, "Tools/fonts")
 MUSIC = os.path.join(REPO, "Library/Music/eleven_story_01.mp3")
 PHOTO = os.path.join(ROOT, "input/photo.jpg")
 FPS = 30
-CLOSE_T0 = 39.12          # close.mp3 starts here on the voice timeline
-END = 43.20 + 0.25        # last word ends 43.20; 0.25 s tail, nothing after
+# Every cut is anchored to a word in words.json: (word index, lead in s before that word starts). Re-voicing the
+# narration (a new ElevenLabs take has different timing) only needs a new words.json; the cuts follow the words.
+WORDS = json.load(open(os.path.join(W, "words.json")))
+TAIL = 0.25               # after the last word; nothing else after it
+
+
+def at(i, lead):
+    return max(0.0, round(WORDS[i]["s"] - lead, 3))
+
+
+OPEN_END = at(11, 0.08)   # "Every": open.mp3 is voice.mp3 from 0 to here
+CLOSE_T0 = at(110, 0.13)  # "So": close.mp3 starts here on the voice timeline
+END = round(WORDS[-1]["e"] + TAIL, 3)
 
 # (start, src, source offset, framing x 0..1 for 9x16 crop, zoom start, zoom end)
 SHOTS = [
     (0.00, "OPEN", 0, 0.5, 1.00, 1.06),
-    (3.55, "mk_18308", 0.0, 0.55, 1.00, 1.06),   # finger touching frosted glass: "every time you touch something"
-    (6.85, "mk_15054", 2.0, 0.45, 1.00, 1.06),   # ultrasound print: "before you were born"
-    (10.98, "mk_12962", 2.0, "fit", 1.00, 1.05),    # two sisters: "identical twins"
-    (13.45, "mk_47323", 3.0, 0.5, 1.05, 1.12),   # glowing fingerprint: "pattern of ridges"
-    (17.77, "mk_13807", 0.0, 0.3, 1.00, 1.06),   # magnifying glass: "tiny details"
-    (20.95, "mk_18308", 9.0, 0.45, 1.00, 1.06),  # the mark left on glass: "touch a glass ... perfect copy"
-    (24.76, "mk_32791", 0.0, 0.2, 1.00, 1.05),  # investigator under UV
-    (27.44, "mk_32791", 7.0, 0.15, 1.25, 1.32),  # the print appears (close on the handprint)
-    (29.34, "mk_23678", 0.0, 0.6, 1.00, 1.05),   # fingerprint on a computer screen: "a computer can compare"
-    (31.66, "mk_47323", 9.0, 0.5, 1.00, 1.06),   # print data: "millions of prints in seconds"
-    (33.73, "mk_23678", 12.0, 0.72, 1.45, 1.52), # close on the monitor: "only suggests a match"
-    (36.34, "mk_4773", 3.0, 0.4, 1.00, 1.05),    # examiner at a microscope: "makes the final call"
+    (OPEN_END, "mk_18308", 0.0, 0.55, 1.00, 1.06),       # finger touching frosted glass: "every time you touch something"
+    (at(21, 0.13), "mk_15054", 2.0, 0.45, 1.00, 1.06),    # "Your": ultrasound print, "before you were born"
+    (at(33, 0.27), "mk_12962", 2.0, "fit", 1.00, 1.05),   # "Not": two sisters, "identical twins"
+    (at(39, 0.15), "mk_47323", 3.0, 0.5, 1.05, 1.12),     # "Each": glowing fingerprint, "pattern of ridges"
+    (at(51, 0.12), "mk_13807", 0.0, 0.3, 1.00, 1.06),     # "and those": magnifying glass, "tiny details"
+    (at(60, 0.15), "mk_18308", 9.0, 0.45, 1.00, 1.06),    # "Touch": the mark left on glass, "perfect copy"
+    (at(73, 0.12), "mk_32791", 0.0, 0.2, 1.00, 1.05),     # "An": investigator under UV
+    (at(80, 0.11), "mk_32791", 7.0, 0.15, 1.25, 1.32),    # "and the invisible": the print appears (close on the handprint)
+    (at(85, 0.14), "mk_23678", 0.0, 0.6, 1.00, 1.05),     # "A computer": fingerprint on a computer screen
+    (at(91, 0.06), "mk_47323", 9.0, 0.5, 1.00, 1.06),     # "millions": print data
+    (at(96, 0.08), "mk_23678", 12.0, 0.72, 1.45, 1.52),   # "But": close on the monitor, "only suggests a match"
+    (at(103, 0.13), "mk_4773", 3.0, 0.4, 1.00, 1.05),     # "A trained": examiner at a microscope
     (CLOSE_T0, "CLOSE", 0.0, 0.5, 1.06, 1.08),
-    (40.18, "mk_33712", 0.0, 0.4, 1.00, 1.04),   # door handle: "open a door"
-    (41.09, "CLOSE", 41.09 - CLOSE_T0, 0.5, 1.08, 1.12),
+    (at(115, 0.04), "mk_33712", 0.0, 0.4, 1.00, 1.04),    # "open": door handle, "open a door"
+    (at(118, 0.06), "CLOSE", at(118, 0.06) - CLOSE_T0, 0.5, 1.08, 1.12),  # "remember:" back on him, lips still in sync
 ]
 KEY = {"hundred", "signature", "born", "never", "twins", "ridges", "yours", "glass", "copy", "powder", "invisible",
        "computer", "millions", "seconds", "match", "examiner", "final", "door", "signed", "name"}
@@ -90,7 +101,7 @@ def shot(i, fmt, tmp):
 
 
 def ass(fmt, path):
-    words = json.load(open(os.path.join(W, "words.json")))
+    words = WORDS
     ow, oh = (1920, 1080) if fmt == "16x9" else (1080, 1920)
     size, y = (80, 1000) if fmt == "16x9" else (84, 1380)  # 16x9: below his chin in the talking shots
     head = f"""[Script Info]
