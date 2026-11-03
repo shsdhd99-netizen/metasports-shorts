@@ -1,5 +1,6 @@
 # Private cloud copy of the MetaSports work. Big media, keys and scrapes stay on the PC.
 /*
+!/HANDOFF - Nov 4 resume 1-30 PM.md
 !/.gitignore
 !/CLOUD_HANDOFF.md
 !/CLOUD STATE - read this first.md
@@ -110,3 +111,4 @@ Productions/**/_pre_tight/*.mp4
 Productions/**/_sheets/
 Productions/**/_check/
 Research Notes/Schedule Ready Last Run.txt
+Research Notes/Resume Last Run.txt
