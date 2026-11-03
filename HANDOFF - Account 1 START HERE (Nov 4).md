@@ -1,6 +1,6 @@
 # ACCOUNT 1: START HERE (written Tue Nov 3, 2026, about 10:30 PM ET; first used Wed Nov 4, 1:30 PM ET by the scheduled task "MetaSports terminal resume")
 
-You are Claude on the owner's Windows PC, in the repo `C:\Users\Admin\Documents\metasports-shorts` (Git Bash or PowerShell), branch `main-329h3w`, remote `shsdhd99-netizen/metasports-shorts`.
+You are the Claude account signed in on the owner's Windows PC terminal (the owner calls it account 2; the other account is 'account 1'/Account 2 branch in older files: the account that owns the cloud routines is the one this terminal uses, so RemoteTrigger works from here). Your job at 1:30 PM Wed is to START the automation on this account and CHECK that every part works (section 3A), then keep it healthy. You are on the owner's Windows PC, in the repo `C:\Users\Admin\Documents\metasports-shorts` (Git Bash or PowerShell), branch `main-329h3w`, remote `shsdhd99-netizen/metasports-shorts`.
 Roles: **cloud routines build** (BUILDER=cloud); **you** (PC terminal, Account 1) run the zero-credit chores, merge Account 2, fix what the cloud cannot do (YouTube-only footage, scheduling),
 review the results and improve the system. The owner is away most of the time: act, do not ask, except for the owner-only list in section 6.
 
@@ -31,6 +31,16 @@ Auto mode blocks creating persistent scheduled tasks and similar: ask the owner 
 `MetaSports analytics` daily 3:20 AM (commits CSVs) | `MetaSports schedule ready AM` 6:30 AM and `PM` 6:30 PM | `MetaSports terminal resume` once, Wed Nov 4 1:30 PM (this session) | `ClaudeDesktopStayAwake`.
 Cloud routines (enabled Nov 3, environment `env_016GURtEd17FS3mEXiKSjfM6`, repo attached, prompts point at `CLOUD DAILY RULES.md`): NBA `trig_01PUCBRzwuJ1j1r3Y53GdfoY` 3:17 AM ET,
 FC `trig_011nY5arZZHcgKkWQvcBkNKc` 4:23 AM ET. The owner said the cloud keys were pasted; that cannot be verified from the PC. Verify with the routine logs (section 3, step 3).
+
+## 3A. 1:30 PM MISSION: start the automation and prove it works (owner, Nov 3: "the start at 1:30pm should be to start automation on this account and check to see if everything works")
+Write every result into `Research Notes/Automation Check.md` as a table (check, result PASS/FAIL, evidence, fix) and a STATUS line in the Daily Log. Do these in order, then continue with section 3:
+1. **Local:** `python Tools/preflight.py`; the four tasks exist and last ran (`Get-ScheduledTask MetaSports* | Get-ScheduledTaskInfo`): `MetaSports analytics` LastRunTime Nov 4 3:20 AM and a commit "Daily analytics pull" in `git log`; `MetaSports schedule ready AM` ran 6:30 AM (`Research Notes/Schedule Ready Last Run.txt`, `Schedule Ready Log.md`).
+2. **Cloud routines, morning runs:** with RemoteTrigger (`select:RemoteTrigger` via ToolSearch) `get` both triggers (enabled true, next_run_at tomorrow), `list_runs`, `get_run_log` of the 3:17 and 4:23 AM sessions: repo cloned, preflight line, keys present, Short built or script-only, push succeeded, STATUS line in the Daily Log.
+3. **Start it now:** if a morning run failed or skipped only for a fixable reason (keys now present, repo attached), fire `RemoteTrigger run` for the NBA trigger, then the FC trigger (one at a time; wait for the first to finish; they spend the cloud account's credits, so run each at most once today and log the session ids). If the keys are still missing, do NOT fire; tell the owner exactly what to paste.
+4. **End-to-end proof of one Short:** after a cloud run finishes, confirm: pushed commit with a new Short folder, `qa_short` PASS line in its UPLOAD.md or notes, `Experiments.csv` row added (`python Tools/learn.py all`), Hub card (if the run had Hub access), and `python Tools/schedule_ready.py` (dry run) lists it or explains why not (two DRAFT files, slot, HOLD).
+5. **Scheduler proof:** run `python Tools/yt_schedule.py` in its dry run on one eligible DRAFT (no `--go`) and confirm it parses title, tags and slot; confirm `Research Notes/Scheduled Uploads.csv` has no duplicates for the same sha.
+6. **Account 2 branch / shared editing:** `git fetch origin` and confirm both branches and the cloud commits are visible; confirm a `CLAIM` line round-trips in `STATE.md`.
+7. **Write the verdict:** `AUTOMATION CHECK: PASS` or a numbered list of what is broken, owner-only items first. Then start the loop (section 4).
 
 ## 3. 1:30 PM start-up list (in order; commit small; write a STATUS line after each step)
 1. `cd /c/Users/Admin/Documents/metasports-shorts && git restore "Research Notes/Watch Reports/index.csv" 2>/dev/null; git pull --no-rebase origin main-329h3w`. Read the tail of
