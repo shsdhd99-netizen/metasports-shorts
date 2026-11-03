@@ -45,8 +45,8 @@ def hook_flags(first):
         f.append("reads as a list (2+ commas and 'and'): the penalty-list opening stayed 50%")
     if not re.search(ABSOLUTE, low):
         f.append("no absolute or curious claim word (only, every, never... until, just, first, last...): 73%+ stayed openings all had one")
-    if len(w) > 20:
-        f.append(f"{len(w)} words: one short sentence lands faster")
+    if len(w) >= 12:  # Nov 3 hook study (n=21, [S]): line 1 of 12+ words engaged 0.490 (n=6) vs 0.557 under 12 words (n=15)
+        f.append(f"{len(w)} words: line 1 of 12+ words engaged 0.490 vs 0.557 for under 12 (n=21 Shorts, Nov 3 hook study); cut to under 12")
     return f
 
 
