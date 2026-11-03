@@ -5,3 +5,5 @@
 - Scheduler timer (`Tools/schedule_ready.bat`): NOT registered yet (owner must run the schtasks lines). Resume task for Nov 4 1:30 PM: NOT registered yet.
 - Last learn run: `python Tools/learn.py all --fetch`; weights in `Learned Weights.md`.
 - Next: see `HANDOFF - Nov 4 resume 1-30 PM.md` section 2.
+
+- 2026-11-03 19:50 ET: S29 (FC, goalkeeper lane) built on the PC, both versions QA PASS, awaiting owner's ear and an A/B arm choice; slot Sat Nov 7 12:00 PM ET. Hub card not made. Voice used so far today about 1.6K characters on S29 (plan check: 49,630 of 121,224 used before).
