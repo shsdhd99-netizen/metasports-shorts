@@ -1,10 +1,11 @@
 # STATE (one page for any account/session; update at the end of every run)
-- Updated: 2026-11-03 17:00 ET by the terminal session.
-- Builder: see `BUILDER.txt` (provisional `pc`).
+- Updated: 2026-11-03 18:15 ET by PC account 1 (header refreshed; dated lines below are history).
+- Builder: `cloud` (see `BUILDER.txt`); routines NBA 3:17 AM ET, FC 4:23 AM ET.
 - Weekly usage last seen: unknown in terminal sessions (owner said "low" after the Nov 3 run; reset Wed Nov 4 1 PM ET). Ceiling for runs: 99% (owner, Nov 3).
-- Scheduler timer (`Tools/schedule_ready.bat`): NOT registered yet (owner must run the schtasks lines). Resume task for Nov 4 1:30 PM: NOT registered yet.
+- PC timers registered (verified Nov 3 22:45): analytics 3:20 AM, schedule ready 6:30 AM / 6:30 PM, terminal resume Wed Nov 4 1:30 PM.
 - Last learn run: `python Tools/learn.py all --fetch`; weights in `Learned Weights.md`.
-- Next: see `HANDOFF - Nov 4 resume 1-30 PM.md` section 2.
+- Next: `HANDOFF - latest.md`, then `HANDOFF - Account 1 START HERE (Nov 4).md` section 3A.
+- Open slots: NBA from Fri Nov 6 7:15 AM (no ready draft); FC Sat Nov 7 double-booked (S09 and S29, owner picks), Sun Nov 8 open.
 
 - 2026-11-03 19:50 ET: S29 (FC, goalkeeper lane) built on the PC, both versions QA PASS, awaiting owner's ear and an A/B arm choice; slot Sat Nov 7 12:00 PM ET. Hub card not made. Voice used so far today about 1.6K characters on S29 (plan check: 49,630 of 121,224 used before).
 
