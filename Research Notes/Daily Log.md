@@ -3,6 +3,13 @@
 One entry per channel per day, written by the daily runs (`.claude/skills/daily-run/SKILL.md`): data pulled, what was learned,
 research with sources, what was made, what changed in the rules or tools.
 
+## Tue Nov 3, 2026, 14:40 UTC (owner: "save the pacers, and find the key. do more research aswell ... see if you are fully able to takeover these channels")
+
+**Key.** Not recoverable from here: no `ELEVENLABS_API_KEY` in the environment, no key file (the Nov 2 reset wiped the scratchpad), none in the repo or this session's history, no proxy-held credential (api.elevenlabs.io answers 401 without one), and no computer folder shared through Remote Control. Stand-ins failed: Everygen's subscription is inactive (402), vidIQ has 0 credits until Nov 5. The owner has to re-add it in the environment settings.
+**Pacers.** #93 started: script (96 words), claims table, 6 sources downloaded and contact sheets checked; gaps logged (no bench/street-clothes shot, no 106-104 scoreboard). A check-in at 17:30 UTC voices and finishes it if the key is back by then; otherwise it dies tonight.
+**Research.** Afternoon add-on in `Research Notes/Daily Research/2026-11-03.md`: three evergreen NBA picks (Rodman's banned No. 69 and house in Dallas, FRESH; Bubba Wells fouling out on purpose, known; the 0.3-second rule, partly taken).
+**Automation.** Assessment written: `Research Notes/Automation Options (Nov 3, 2026).md` (about 95% automatable after a 30-minute setup; recommend one-tap approval now, autopilot with a veto window after two clean weeks).
+
 ## Tue Nov 3, 2026 (FC daily run; main session; build skipped: queue full, no voice key)
 
 **Context.** Inbox empty. This account's FC Hub has no card at "ready"; the owner's PC has FC scheduled daily through Fri Nov 6 (S25 today, S26-S28), so the queue is full. The voice key is also missing since the Nov 2 container reset (owner task `setup-keys` added this morning).
