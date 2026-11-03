@@ -1,0 +1,962 @@
+[
+ {
+  "word": "The",
+  "start": 0.0,
+  "end": 0.116
+ },
+ {
+  "word": "goalkeeper",
+  "start": 0.163,
+  "end": 0.534
+ },
+ {
+  "word": "who",
+  "start": 0.569,
+  "end": 0.65
+ },
+ {
+  "word": "says",
+  "start": 0.697,
+  "end": 0.882
+ },
+ {
+  "word": "Spain",
+  "start": 0.952,
+  "end": 1.277
+ },
+ {
+  "word": "were",
+  "start": 1.347,
+  "end": 1.451
+ },
+ {
+  "word": "scared",
+  "start": 1.474,
+  "end": 1.707
+ },
+ {
+  "word": "of",
+  "start": 1.73,
+  "end": 1.776
+ },
+ {
+  "word": "a",
+  "start": 1.8,
+  "end": 1.823
+ },
+ {
+  "word": "shootout.",
+  "start": 1.881,
+  "end": 2.392
+ },
+ {
+  "word": "Back",
+  "start": 2.415,
+  "end": 2.612
+ },
+ {
+  "word": "in",
+  "start": 2.659,
+  "end": 2.705
+ },
+ {
+  "word": "2022,",
+  "start": 2.752,
+  "end": 3.599
+ },
+ {
+  "word": "Emiliano",
+  "start": 3.634,
+  "end": 4.11
+ },
+ {
+  "word": "Martinez",
+  "start": 4.145,
+  "end": 4.609
+ },
+ {
+  "word": "helped",
+  "start": 4.679,
+  "end": 4.83
+ },
+ {
+  "word": "Argentina",
+  "start": 4.876,
+  "end": 5.329
+ },
+ {
+  "word": "win",
+  "start": 5.399,
+  "end": 5.573
+ },
+ {
+  "word": "the",
+  "start": 5.619,
+  "end": 5.689
+ },
+ {
+  "word": "World",
+  "start": 5.724,
+  "end": 5.898
+ },
+ {
+  "word": "Cup",
+  "start": 5.921,
+  "end": 6.037
+ },
+ {
+  "word": "final",
+  "start": 6.107,
+  "end": 6.397
+ },
+ {
+  "word": "on",
+  "start": 6.455,
+  "end": 6.525
+ },
+ {
+  "word": "penalties.",
+  "start": 6.583,
+  "end": 7.187
+ },
+ {
+  "word": "He",
+  "start": 7.21,
+  "end": 7.303
+ },
+ {
+  "word": "saved",
+  "start": 7.372,
+  "end": 7.651
+ },
+ {
+  "word": "Kingsley",
+  "start": 7.686,
+  "end": 7.988
+ },
+ {
+  "word": "Coman's",
+  "start": 8.034,
+  "end": 8.359
+ },
+ {
+  "word": "kick.",
+  "start": 8.417,
+  "end": 8.8
+ },
+ {
+  "word": "Then,",
+  "start": 8.824,
+  "end": 9.149
+ },
+ {
+  "word": "before",
+  "start": 9.183,
+  "end": 9.439
+ },
+ {
+  "word": "Tchouameni",
+  "start": 9.485,
+  "end": 10.066
+ },
+ {
+  "word": "stepped",
+  "start": 10.124,
+  "end": 10.379
+ },
+ {
+  "word": "up,",
+  "start": 10.437,
+  "end": 10.658
+ },
+ {
+  "word": "Martinez",
+  "start": 10.693,
+  "end": 11.111
+ },
+ {
+  "word": "threw",
+  "start": 11.157,
+  "end": 11.331
+ },
+ {
+  "word": "the",
+  "start": 11.378,
+  "end": 11.447
+ },
+ {
+  "word": "ball",
+  "start": 11.482,
+  "end": 11.645
+ },
+ {
+  "word": "away,",
+  "start": 11.691,
+  "end": 11.958
+ },
+ {
+  "word": "so",
+  "start": 11.981,
+  "end": 12.039
+ },
+ {
+  "word": "he",
+  "start": 12.086,
+  "end": 12.132
+ },
+ {
+  "word": "had",
+  "start": 12.156,
+  "end": 12.237
+ },
+ {
+  "word": "to",
+  "start": 12.26,
+  "end": 12.306
+ },
+ {
+  "word": "walk",
+  "start": 12.376,
+  "end": 12.585
+ },
+ {
+  "word": "over",
+  "start": 12.643,
+  "end": 12.864
+ },
+ {
+  "word": "and",
+  "start": 12.922,
+  "end": 13.003
+ },
+ {
+  "word": "fetch",
+  "start": 13.073,
+  "end": 13.305
+ },
+ {
+  "word": "it.",
+  "start": 13.363,
+  "end": 13.456
+ },
+ {
+  "word": "Tchouameni",
+  "start": 13.479,
+  "end": 14.187
+ },
+ {
+  "word": "fired",
+  "start": 14.28,
+  "end": 14.594
+ },
+ {
+  "word": "wide.",
+  "start": 14.652,
+  "end": 15.046
+ },
+ {
+  "word": "Argentina",
+  "start": 15.07,
+  "end": 15.615
+ },
+ {
+  "word": "won",
+  "start": 15.685,
+  "end": 15.836
+ },
+ {
+  "word": "4-2.",
+  "start": 15.917,
+  "end": 16.451
+ },
+ {
+  "word": "This",
+  "start": 16.474,
+  "end": 16.602
+ },
+ {
+  "word": "summer,",
+  "start": 16.637,
+  "end": 16.881
+ },
+ {
+  "word": "Argentina",
+  "start": 16.904,
+  "end": 17.334
+ },
+ {
+  "word": "were",
+  "start": 17.368,
+  "end": 17.473
+ },
+ {
+  "word": "back",
+  "start": 17.496,
+  "end": 17.624
+ },
+ {
+  "word": "in",
+  "start": 17.659,
+  "end": 17.705
+ },
+ {
+  "word": "the",
+  "start": 17.728,
+  "end": 17.798
+ },
+ {
+  "word": "final,",
+  "start": 17.844,
+  "end": 18.262
+ },
+ {
+  "word": "against",
+  "start": 18.286,
+  "end": 18.564
+ },
+ {
+  "word": "Spain.",
+  "start": 18.599,
+  "end": 18.994
+ },
+ {
+  "word": "Martinez",
+  "start": 19.017,
+  "end": 19.365
+ },
+ {
+  "word": "says",
+  "start": 19.4,
+  "end": 19.528
+ },
+ {
+  "word": "he",
+  "start": 19.563,
+  "end": 19.609
+ },
+ {
+  "word": "played",
+  "start": 19.667,
+  "end": 19.841
+ },
+ {
+  "word": "the",
+  "start": 19.865,
+  "end": 19.934
+ },
+ {
+  "word": "whole",
+  "start": 19.981,
+  "end": 20.155
+ },
+ {
+  "word": "tournament",
+  "start": 20.178,
+  "end": 20.468
+ },
+ {
+  "word": "with",
+  "start": 20.492,
+  "end": 20.585
+ },
+ {
+  "word": "a",
+  "start": 20.608,
+  "end": 20.631
+ },
+ {
+  "word": "broken",
+  "start": 20.677,
+  "end": 20.933
+ },
+ {
+  "word": "finger.",
+  "start": 20.991,
+  "end": 21.374
+ },
+ {
+  "word": "And",
+  "start": 21.397,
+  "end": 21.49
+ },
+ {
+  "word": "he",
+  "start": 21.537,
+  "end": 21.583
+ },
+ {
+  "word": "says",
+  "start": 21.641,
+  "end": 21.838
+ },
+ {
+  "word": "Spain",
+  "start": 21.885,
+  "end": 22.152
+ },
+ {
+  "word": "knew",
+  "start": 22.198,
+  "end": 22.291
+ },
+ {
+  "word": "exactly",
+  "start": 22.338,
+  "end": 22.79
+ },
+ {
+  "word": "who",
+  "start": 22.825,
+  "end": 22.907
+ },
+ {
+  "word": "was",
+  "start": 22.93,
+  "end": 23.011
+ },
+ {
+  "word": "waiting",
+  "start": 23.069,
+  "end": 23.313
+ },
+ {
+  "word": "for",
+  "start": 23.348,
+  "end": 23.417
+ },
+ {
+  "word": "them.",
+  "start": 23.464,
+  "end": 23.638
+ },
+ {
+  "word": "He",
+  "start": 23.661,
+  "end": 23.719
+ },
+ {
+  "word": "heard",
+  "start": 23.789,
+  "end": 23.917
+ },
+ {
+  "word": "their",
+  "start": 23.951,
+  "end": 24.068
+ },
+ {
+  "word": "players",
+  "start": 24.091,
+  "end": 24.335
+ },
+ {
+  "word": "say:",
+  "start": 24.369,
+  "end": 24.764
+ },
+ {
+  "word": "we",
+  "start": 24.787,
+  "end": 24.892
+ },
+ {
+  "word": "have",
+  "start": 24.973,
+  "end": 25.171
+ },
+ {
+  "word": "to",
+  "start": 25.194,
+  "end": 25.24
+ },
+ {
+  "word": "win",
+  "start": 25.321,
+  "end": 25.496
+ },
+ {
+  "word": "here.",
+  "start": 25.565,
+  "end": 25.879
+ },
+ {
+  "word": "We",
+  "start": 25.902,
+  "end": 25.983
+ },
+ {
+  "word": "can't",
+  "start": 26.03,
+  "end": 26.192
+ },
+ {
+  "word": "go",
+  "start": 26.227,
+  "end": 26.308
+ },
+ {
+  "word": "to",
+  "start": 26.355,
+  "end": 26.401
+ },
+ {
+  "word": "penalties.",
+  "start": 26.448,
+  "end": 27.005
+ },
+ {
+  "word": "The",
+  "start": 27.04,
+  "end": 27.109
+ },
+ {
+  "word": "final",
+  "start": 27.156,
+  "end": 27.4
+ },
+ {
+  "word": "went",
+  "start": 27.446,
+  "end": 27.574
+ },
+ {
+  "word": "to",
+  "start": 27.597,
+  "end": 27.643
+ },
+ {
+  "word": "extra",
+  "start": 27.701,
+  "end": 27.922
+ },
+ {
+  "word": "time,",
+  "start": 27.957,
+  "end": 28.305
+ },
+ {
+  "word": "still",
+  "start": 28.34,
+  "end": 28.584
+ },
+ {
+  "word": "goalless.",
+  "start": 28.654,
+  "end": 29.257
+ },
+ {
+  "word": "Then,",
+  "start": 29.28,
+  "end": 29.547
+ },
+ {
+  "word": "early",
+  "start": 29.617,
+  "end": 29.791
+ },
+ {
+  "word": "in",
+  "start": 29.814,
+  "end": 29.861
+ },
+ {
+  "word": "the",
+  "start": 29.884,
+  "end": 29.954
+ },
+ {
+  "word": "second",
+  "start": 29.977,
+  "end": 30.151
+ },
+ {
+  "word": "half",
+  "start": 30.198,
+  "end": 30.325
+ },
+ {
+  "word": "of",
+  "start": 30.372,
+  "end": 30.418
+ },
+ {
+  "word": "extra",
+  "start": 30.476,
+  "end": 30.65
+ },
+ {
+  "word": "time,",
+  "start": 30.685,
+  "end": 31.01
+ },
+ {
+  "word": "Ferran",
+  "start": 31.068,
+  "end": 31.428
+ },
+ {
+  "word": "Torres",
+  "start": 31.498,
+  "end": 31.835
+ },
+ {
+  "word": "scored.",
+  "start": 31.881,
+  "end": 32.299
+ },
+ {
+  "word": "Spain",
+  "start": 32.334,
+  "end": 32.671
+ },
+ {
+  "word": "won",
+  "start": 32.752,
+  "end": 32.914
+ },
+ {
+  "word": "1-0.",
+  "start": 33.007,
+  "end": 33.669
+ },
+ {
+  "word": "Argentina",
+  "start": 33.692,
+  "end": 34.238
+ },
+ {
+  "word": "never",
+  "start": 34.319,
+  "end": 34.54
+ },
+ {
+  "word": "got",
+  "start": 34.586,
+  "end": 34.714
+ },
+ {
+  "word": "their",
+  "start": 34.737,
+  "end": 34.853
+ },
+ {
+  "word": "shootout.",
+  "start": 34.888,
+  "end": 35.341
+ },
+ {
+  "word": "Martinez",
+  "start": 35.364,
+  "end": 35.736
+ },
+ {
+  "word": "says",
+  "start": 35.794,
+  "end": 35.979
+ },
+ {
+  "word": "one",
+  "start": 36.026,
+  "end": 36.119
+ },
+ {
+  "word": "of",
+  "start": 36.142,
+  "end": 36.188
+ },
+ {
+  "word": "Spain's",
+  "start": 36.212,
+  "end": 36.444
+ },
+ {
+  "word": "goalkeepers",
+  "start": 36.479,
+  "end": 36.862
+ },
+ {
+  "word": "even",
+  "start": 36.897,
+  "end": 37.048
+ },
+ {
+  "word": "told",
+  "start": 37.094,
+  "end": 37.326
+ },
+ {
+  "word": "him:",
+  "start": 37.373,
+  "end": 37.524
+ },
+ {
+  "word": "thank",
+  "start": 37.547,
+  "end": 37.779
+ },
+ {
+  "word": "God",
+  "start": 37.883,
+  "end": 38.116
+ },
+ {
+  "word": "they",
+  "start": 38.151,
+  "end": 38.255
+ },
+ {
+  "word": "won",
+  "start": 38.313,
+  "end": 38.452
+ },
+ {
+  "word": "the",
+  "start": 38.499,
+  "end": 38.568
+ },
+ {
+  "word": "match.",
+  "start": 38.627,
+  "end": 39.056
+ },
+ {
+  "word": "And",
+  "start": 39.079,
+  "end": 39.195
+ },
+ {
+  "word": "he's",
+  "start": 39.253,
+  "end": 39.346
+ },
+ {
+  "word": "sure",
+  "start": 39.404,
+  "end": 39.66
+ },
+ {
+  "word": "how",
+  "start": 39.706,
+  "end": 39.788
+ },
+ {
+  "word": "it",
+  "start": 39.822,
+  "end": 39.869
+ },
+ {
+  "word": "would",
+  "start": 39.892,
+  "end": 40.008
+ },
+ {
+  "word": "have",
+  "start": 40.031,
+  "end": 40.124
+ },
+ {
+  "word": "ended.",
+  "start": 40.147,
+  "end": 40.461
+ },
+ {
+  "word": "If",
+  "start": 40.484,
+  "end": 40.554
+ },
+ {
+  "word": "we",
+  "start": 40.588,
+  "end": 40.658
+ },
+ {
+  "word": "had",
+  "start": 40.681,
+  "end": 40.751
+ },
+ {
+  "word": "reached",
+  "start": 40.797,
+  "end": 40.972
+ },
+ {
+  "word": "penalties,",
+  "start": 40.995,
+  "end": 41.436
+ },
+ {
+  "word": "we",
+  "start": 41.471,
+  "end": 41.54
+ },
+ {
+  "word": "would",
+  "start": 41.564,
+  "end": 41.68
+ },
+ {
+  "word": "have",
+  "start": 41.703,
+  "end": 41.796
+ },
+ {
+  "word": "won.",
+  "start": 41.819,
+  "end": 42.098
+ },
+ {
+  "word": "I",
+  "start": 42.121,
+  "end": 42.156
+ },
+ {
+  "word": "felt",
+  "start": 42.249,
+  "end": 42.411
+ },
+ {
+  "word": "it",
+  "start": 42.446,
+  "end": 42.492
+ },
+ {
+  "word": "was",
+  "start": 42.516,
+  "end": 42.597
+ },
+ {
+  "word": "my",
+  "start": 42.667,
+  "end": 42.818
+ },
+ {
+  "word": "day.",
+  "start": 42.887,
+  "end": 43.166
+ },
+ {
+  "word": "But",
+  "start": 43.189,
+  "end": 43.27
+ },
+ {
+  "word": "here's",
+  "start": 43.305,
+  "end": 43.479
+ },
+ {
+  "word": "the",
+  "start": 43.503,
+  "end": 43.572
+ },
+ {
+  "word": "wild",
+  "start": 43.619,
+  "end": 43.862
+ },
+ {
+  "word": "part.",
+  "start": 43.92,
+  "end": 44.199
+ },
+ {
+  "word": "The",
+  "start": 44.222,
+  "end": 44.292
+ },
+ {
+  "word": "goalkeeper",
+  "start": 44.338,
+  "end": 44.722
+ },
+ {
+  "word": "who",
+  "start": 44.756,
+  "end": 44.838
+ },
+ {
+  "word": "won",
+  "start": 44.884,
+  "end": 45.0
+ },
+ {
+  "word": "a",
+  "start": 45.047,
+  "end": 45.07
+ },
+ {
+  "word": "World",
+  "start": 45.116,
+  "end": 45.325
+ },
+ {
+  "word": "Cup",
+  "start": 45.36,
+  "end": 45.511
+ },
+ {
+  "word": "on",
+  "start": 45.557,
+  "end": 45.604
+ },
+ {
+  "word": "penalties",
+  "start": 45.65,
+  "end": 46.022
+ },
+ {
+  "word": "lost",
+  "start": 46.068,
+  "end": 46.301
+ },
+ {
+  "word": "the",
+  "start": 46.324,
+  "end": 46.393
+ },
+ {
+  "word": "next",
+  "start": 46.451,
+  "end": 46.591
+ },
+ {
+  "word": "World",
+  "start": 46.626,
+  "end": 46.8
+ },
+ {
+  "word": "Cup",
+  "start": 46.823,
+  "end": 46.939
+ },
+ {
+  "word": "final",
+  "start": 46.985,
+  "end": 47.264
+ },
+ {
+  "word": "without",
+  "start": 47.311,
+  "end": 47.566
+ },
+ {
+  "word": "facing",
+  "start": 47.612,
+  "end": 47.926
+ },
+ {
+  "word": "a",
+  "start": 47.961,
+  "end": 47.984
+ },
+ {
+  "word": "single",
+  "start": 48.042,
+  "end": 48.321
+ },
+ {
+  "word": "one.",
+  "start": 48.379,
+  "end": 48.948
+ }
+]
