@@ -29,6 +29,10 @@ Already installed and working: Claude Code 2.1.316, git 2.55, Python 3.12.10, ff
 YT_UPLOAD_TOKEN(_FC)); never print it. The Windows task "MetaSports analytics" already runs `Tools\daily_analytics.bat` daily at 3:20 AM
 (to-do item 5 is DONE). "ClaudeUsageKillSwitch" is a past one-time task (no next run), not active.
 
+**Shortcut (Nov 3):** pasting multi-word commands into Git Bash garbled them (`^[[200~` bracketed-paste characters, branch `main-329h3w~`).
+Type this instead of steps 2-5: `bash Tools/terminal_start.sh` (after `cd /c/Users/Admin/Documents/metasports-shorts`). To fix pasting:
+`bind 'set enable-bracketed-paste off'`. Pasting the prompt into `claude` itself is fine.
+
 1. Open **Git Bash** (or Windows Terminal with a Git Bash tab). The repo scripts are bash and Python.
 2. `cd /c/Users/Admin/Documents/metasports-shorts`
 3. `git status -sb`. If `Research Notes/Watch Reports/index.csv` shows modified, run `git restore "Research Notes/Watch Reports/index.csv"`
