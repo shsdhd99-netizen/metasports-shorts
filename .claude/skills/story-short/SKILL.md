@@ -38,6 +38,14 @@ Read first (they win over this file when newer):
 - `SCRIPT.md` (template and two worked examples), `SOURCING.md` (where pictures come from, licences) and `QA.md` (the gates).
 - Moving to another Claude account: `PORTABLE.md`.
 
+## Topic rule first (Nov 3, from FC Playbook v2 and `Research Notes/Learned Weights.md`)
+Before step 1, read `Soccer Channel/Playbook.md` (v2: goalkeeper lane first, others only as flagged experiments) and the FC section of
+`Research Notes/Learned Weights.md`. Pick the topic like this: about 2 of every 3 FC builds are a goalkeeper in a famous shootout with one
+odd device (the ranked list of 20 sourced stories is `Research Notes/Soccer Topic Study (Nov 1, 2026).md` section 6, order in section 7);
+the rest are explicit one-variable experiments (fan/kid/family first). Money, transfer, Messi-led, number-led and award stories are held.
+A lane whose last 3 Shorts were under the FC median is paused (the weights file flags it). Log the lane for the new Short in
+`Research Notes/Experiments.csv` (`python Tools/learn.py ingest`). n is small (FC has 10 mature Shorts): treat weights as guesses until n>=5 per lane.
+
 ## The 9 steps (about 60-90 min a Short in the cloud)
 
 ### 1. Pick the story (10 min)
