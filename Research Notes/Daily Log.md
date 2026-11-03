@@ -225,3 +225,4 @@ STATUS: DONE all handoff items 1-4 incl. item 15 (daily-run reads Learned Weight
 - 20:20 ET step 8: added Tools/preflight.py and USAGE.txt; wrote the Account 1 handoff (HANDOFF - Account 1 (Nov 3 night).md).
 - 20:30 ET step 9: wrote Tools/run_daily.ps1 (unattended per-channel runner with preflight, BUILDER guard and lock). Not registered: the owner runs the schtasks lines in its header.
 - 22:00 ET step 10: owner: build in cloud so both accounts can edit. Set BUILDER.txt=cloud, wrote CLOUD DAILY RULES.md, BUILDER.md (cloud/PC split), PC Requests.md, Tools/copy_cloud_env.ps1; re-pointed and ENABLED the NBA (3:17 AM ET) and FC (4:23 AM ET) cloud routines (they were disabled since Nov 2). Owner-only left: paste keys into the cloud environment, Publish app (Google OAuth), register the PC timers.
+- 22:15 ET step 11: schtasks blocked again by auto mode even with owner OK; wrote Tools/register_tasks.ps1 (owner runs once) and EVERYTHING - index (Nov 3 night).md.
