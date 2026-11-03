@@ -96,6 +96,11 @@ If usage can't be read, say so in the STATUS line and continue only with researc
   one rule to keep, one to drop. Update the Hub's `channel/stats` insights and `UPLOAD SCHEDULE.md` if the best times moved.
 
 ## C. Research (20 min): logged with sources
+- **Learned Weights first (Nov 3, item 15):** run `python Tools/learn.py ingest --fetch` then `python Tools/learn.py report` (zero credits) and
+  read `Research Notes/Learned Weights.md` BEFORE picking a topic. The 70/30 rule: about 70% of builds come from lanes the file marks
+  ABOVE (or typical with a hit in the last 5); about 30% are explicit experiments that change ONE variable. A lane the file lists as
+  PAUSE (3 flops in a row, each under the channel median) is skipped until the Sunday review. A hit gets up to 3 follow-ups in the same lane
+  while it is hot. Rows marked n<5 are guesses: never build a rule on them. Fill the new Short's `lane` in `Research Notes/Experiments.csv`.
 - **Read THE RULES §1 in `MetaSports - Playbook.md` first (Oct 26 overnight review).** Pick today's lane from the dataset's last 6
   posts on this channel (lanes below); a lane with 3 posts in a row below the channel median is retired until the Sunday review. A strong concept that got under 74% stayed may get ONE new edit (new first 3 s and frame 1, new title),
   never the same file again.
