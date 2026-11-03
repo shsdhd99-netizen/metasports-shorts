@@ -7,4 +7,4 @@ chmod 600 /c/Users/Admin/.config/watch/.env 2>/dev/null && echo "watch .env: per
 python Tools/voiceover.py --check
 bash Tools/cloud_setup.sh
 git status -sb | head -1
-echo "Ready. Now run: claude --permission-mode acceptEdits"
+echo "Ready. Now run: bash Tools/claude_acct.sh 1   (or 2)"
