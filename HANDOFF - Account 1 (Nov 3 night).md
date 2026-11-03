@@ -6,7 +6,7 @@ never delete and re-upload, at most 2 posts a day per channel 6+ hours apart. Co
 Do not commit untracked `clips/`, `src/`, `voice_raw.mp3`, `_voice_*`, the 97 MB DRAFT mp4s (the push fails).
 
 ## 1. State right now
-- **Builder:** `Research Notes/BUILDER.txt` = `pc` (provisional, I set it because the cloud lost its voice key Nov 2). Read it before building. If Account 1 is the builder, the owner must say so and set it.
+- **Builder:** `Research Notes/BUILDER.txt` = **`cloud`** (owner, Nov 3 night: "build in cloud so both accounts can edit"). Rules for cloud runs, both accounts: `CLOUD DAILY RULES.md`; split of work and the PC request queue: `Research Notes/BUILDER.md`, `Research Notes/PC Requests.md`. The two cloud routines (NBA 3:17 AM ET `trig_01PUCBRzwuJ1j1r3Y53GdfoY`, FC 4:23 AM ET `trig_011nY5arZZHcgKkWQvcBkNKc`, environment `env_016GURtEd17FS3mEXiKSjfM6`) were re-pointed to that file and ENABLED Nov 3 6:15 PM ET. They will write scripts only until the keys are in the cloud environment.
 - **Usage:** `Research Notes/USAGE.txt` says weekly about 2% used (owner said 98% left, Nov 3 8:15 PM). The weekly reset is Wed Nov 4, 1 PM ET. Owner ceiling for these runs: 99%.
 - **Preflight (8:15 PM):** OK with 6 warnings. ffmpeg, yt-dlp, git, node fine. ElevenLabs 69,040 characters left (resets Nov 18). All four YouTube refresh tokens work. **Disk: 27 GB free on C: (98% full)**; clean old `src/` and `clips/` of finished Shorts before big batches.
 - **Scheduled tasks missing (the owner must register, the classifier blocks me):** `MetaSports schedule ready AM/PM` (lines in `Tools/schedule_ready.bat`), `MetaSports daily nba/fc` (see section 4), and the Wed 1:30 PM resume (`Tools/resume_terminal.ps1`, command in `HANDOFF - Nov 4 resume 1-30 PM.md`).
@@ -40,3 +40,7 @@ Do not commit untracked `clips/`, `src/`, `voice_raw.mp3`, `_voice_*`, the 97 MB
 
 ## 5. Files to read first
 `Research Notes/STATE.md`, `Research Notes/Preflight.md`, `Research Notes/Learned Weights.md`, `HANDOFF - Nov 4 resume 1-30 PM.md` (full improvement list), `HANDOFF - Nov 3 terminal.md`, `AUTOMATION TO-DO (Nov 3).md`, `.claude/skills/daily-run/SKILL.md`.
+
+## 6. Added after this handoff (Nov 3, 10 PM ET)
+- Cloud is the builder; routines enabled (above). **Owner must put the keys in the cloud environment settings:** run `powershell -File Tools\copy_cloud_env.ps1` (copies the 9 variables to the clipboard, prints names only, clears in 120 s) and paste into the environment variables. Without them the 3:17 and 4:23 AM runs only write scripts.
+- Still owner-only: register the PC tasks (analytics already exists; schedule-ready AM/PM; the PC no longer needs daily nba/fc tasks while the cloud builds), "Publish app" on the Google OAuth consent screen, the Monday Studio exports, `chmod 600` on the watch .env.
