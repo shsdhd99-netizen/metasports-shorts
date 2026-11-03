@@ -223,3 +223,4 @@ STATUS: DONE all handoff items 1-4 incl. item 15 (daily-run reads Learned Weight
 - 19:55 ET: S29 DRAFT mp4s are 97 MB each (local only; the push of them failed and was undone). Before putting S29 on the Hub, re-encode under 20 MB (the Hub cap, see how S18 was done on Oct 29). Pushed: everything else (commit 31e2a9c).
 - 20:10 ET step 7: owner: usage 98% left; task = prepare full automation (no videos): preflight check, unattended runners, usage file, runbook, pre-generated research/script backlog.
 - 20:20 ET step 8: added Tools/preflight.py and USAGE.txt; wrote the Account 1 handoff (HANDOFF - Account 1 (Nov 3 night).md).
+- 20:30 ET step 9: wrote Tools/run_daily.ps1 (unattended per-channel runner with preflight, BUILDER guard and lock). Not registered: the owner runs the schtasks lines in its header.

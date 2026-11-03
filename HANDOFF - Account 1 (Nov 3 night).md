@@ -32,7 +32,7 @@ Do not commit untracked `clips/`, `src/`, `voice_raw.mp3`, `_voice_*`, the 97 MB
 6. Item 12 (pre-build 6 Shorts as drafts) if credits allow; item 16 Sunday review.
 
 ## 4. Full-automation checklist (what is still missing)
-1. **Owner:** register the 3-5 scheduled tasks above. For unattended daily runs add two more with the same pattern as `Tools/resume_terminal.ps1` (a script that does `claude -p "<daily-run prompt>" --permission-mode acceptEdits`), one per channel, 06:45 and 07:30 ET. I have not written them yet; ask for them or write `Tools/run_daily.ps1` first.
+1. **Owner:** register the 3-5 scheduled tasks above. For unattended daily runs add two more with the same pattern as `Tools/resume_terminal.ps1` (a script that does `claude -p "<daily-run prompt>" --permission-mode acceptEdits`), one per channel, 06:45 and 07:30 ET. They are written: `Tools/run_daily.ps1 nba|fc` (preflight, BUILDER guard, lock, then `claude -p`); the two `schtasks` lines are in its header.
 2. **Owner:** pick ONE builder (cloud or PC); put cloud keys in the environment settings; **Publish app** on the Google OAuth consent screen (tokens made Nov 1 die about Nov 8 otherwise; preflight will catch it).
 3. **Owner:** `chmod 600 /c/Users/Admin/.config/watch/.env`; weekly Monday Studio exports ("stayed to watch").
 4. **Code gaps I know of:** `schedule_ready.py` cannot choose between a music and a no-music DRAFT (skips); no automatic re-encode under 20 MB for the Hub; no log rotation for `Research Notes/*Last Run.txt`; disk cleanup is manual.
