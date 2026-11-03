@@ -1,5 +1,6 @@
 # DRAFT - awaiting approval - S29 The goalkeeper who says Spain were scared of a shootout
 
+**Arm:** no-music (owner-approved Nov 3: S29 Saturday)
 **Post:** the NO-MUSIC version (`... (no music).mp4`) unless the music side of the A/B is due (S27 was the music side, S28 no music). Slot: Sat Nov 7, 12:00 PM ET (the FC slot after S28, Nov 6). 54.2 s, 192 words, voice Alex at ElevenLabs speed 1.15. QA PASS (both files, `qa_short --full`). Built on the PC (terminal session, Nov 3, BUILDER.txt = pc). Lane: goalkeeper/shootout + this week's news (Martinez's Oct 30 interview).
 
 ## Title (line 1 as a statement)

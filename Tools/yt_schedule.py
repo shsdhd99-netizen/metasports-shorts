@@ -36,6 +36,10 @@ ONE-TIME SETUP FOR THE CLOUD (owner, about 5 minutes per channel, no PC needed; 
 Standard library only.
 """
 import argparse, csv, datetime, hashlib, json, os, sys, urllib.error, urllib.parse, urllib.request
+try:
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace"); sys.stderr.reconfigure(encoding="utf-8", errors="replace")  # emoji titles crashed the Windows console (Nov 3)
+except AttributeError:
+    pass
 from zoneinfo import ZoneInfo
 
 HERE = os.path.dirname(os.path.abspath(__file__))

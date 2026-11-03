@@ -1,6 +1,6 @@
 # #94 The NBA Banned Dennis Rodman's Jersey Number (built Nov 3 on the PC, account 1)
 **Status:** 19.2 s, Alex voice, no music, 12 shots. QA: `qa_short --full` PASS (Nov 3, 19:40 ET); first, middle and last frames checked by eye.
-**HOLD: awaiting owner approval.** The PC timers skip this card while this line says HOLD. To let them schedule it, delete this line (or tell Claude "approve #94").
+**Approved by the owner Nov 3 evening** (the PC timer schedules it privately for the slot).
 **Slot:** Fri Nov 6, 7:15 AM ET (NBA's first slot that day; nothing else is scheduled then).
 **Title:** The NBA Banned Dennis Rodman's Jersey Number 😳
 **Alternatives:** Dallas Printed One Rodman Jersey The NBA Wouldn't Allow / The Rodman Jersey Mark Cuban Still Keeps

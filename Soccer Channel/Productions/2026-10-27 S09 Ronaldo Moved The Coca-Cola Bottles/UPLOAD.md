@@ -1,7 +1,8 @@
 # DRAFT - awaiting approval - S09 The player who moved two Coca-Cola bottles at the Euros
 
 **Length:** 58.0 s (voice 57.7 s), QA `--full` PASS on both versions (warnings only: archive blow-up, stock resolution, unapproved music candidate).
-**Slot:** next free FC slot after Fri Nov 6 = **Sat Nov 7, 12:00 PM ET** (S28 holds Fri Nov 6; the S29/S31 folder dates are script-only placeholders, nothing is built or scheduled for Nov 7). NOT scheduled, NOT posted: the owner uploads.
+**Slot:** Sun Nov 8, 12:00 PM ET (owner, Nov 3 evening: S29 Saturday, S09 Sunday).
+**Arm:** music (owner-approved Nov 3)
 **Post:** MUSIC version (`... (music).mp4`); the no-music file is the other side of the open A/B (S28 was the no-music side).
 **Caption arm:** control (default `--caption-style ahmed`). **Opener arm:** not in the action-first test (that is for goalkeeper Shorts only); title-first as usual.
 **Lane note:** not the goalkeeper lane (Topic Study ranks star+brand lowest). Revised per Script Craft §7; treat it as an "object beats star" data point, not a series.
