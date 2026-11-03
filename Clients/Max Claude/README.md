@@ -37,3 +37,8 @@ name: ElevenLabs Creator (~$22/mo, professional voice clone), an avatar service 
   we delete after); a talking-photo avatar from the photo (HeyGen photo avatar or similar); voice the fingerprint script
   (`HANDOVER - Account 1 Client AI Videos.md`) and edit with our pipeline; 30-45 s, captioned, 16:9 and 9:16. Say it's preview
   quality; the full version uses his 5-minute filmed recording. Delete his files on request (consent text promises it).
+
+## Nov 3: his demo form is in (owner); prep done, three blockers
+- Owner says Max has submitted the self-preview form (photo + voice). Files are in Netlify → ondemand-studio → Forms → demo-request; this session has no `NETLIFY_AUTH_TOKEN`, so they haven't been fetched yet.
+- Ready in `Clients/Max Claude/Productions/01 Fingerprints/`: fact-checked script (four lines corrected, see notes.md), 12 Mixkit clips, 3 fingerprint illustration clips drawn from maths (`make_print_graphics.py`: dusting reveal, real minutiae circled, partial-vs-stored match), and the line-by-line shot plan with his face at the start and end.
+- Blockers: (1) `NETLIFY_AUTH_TOKEN` in the environment (new token; delete the one pasted in chat on Nov 2), (2) `ELEVENLABS_API_KEY` for his instant voice clone, (3) an avatar service for the talking photo (HeyGen photo avatar or similar). Owner tasks for 1 and 3 are on the to-do list.
