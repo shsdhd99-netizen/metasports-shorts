@@ -3,6 +3,13 @@
 One entry per channel per day, written by the daily runs (`.claude/skills/daily-run/SKILL.md`): data pulled, what was learned,
 research with sources, what was made, what changed in the rules or tools.
 
+## Tue Nov 3, 2026 (NBA daily run; main session; build skipped: no voice key)
+
+**Context.** Inbox empty. NBA is scheduled by the owner's PC through Thu Nov 5 (today: "Draymond Green Had A Triple-Double With Four Points" 7:15 AM, "Jokic Said No To His Own Parade" 3:30 PM). The cloud container was reset on Nov 2: `ELEVENLABS_API_KEY`, the session key file and `Tools/.env` (Gemini) are all gone.
+**Not built.** Today's research pick 1 (the Pacers played with six players and nearly beat the Hawks; FRESH, sources in `Research Notes/Daily Research/2026-11-03.md`) is news that dies tonight, both slots are taken, and without the voice key no Short can be recorded. No script written: a news script that can't be voiced today has no use tomorrow.
+**Owner task added:** "Add the voice and Gemini keys to the environment" (`setup-keys`, section Now, steps and copy blocks for the two variable names; never paste keys in chat).
+**Next open NBA slot:** Fri Nov 6, 7:15 AM. Once the keys are back, the Friday build can use an evergreen pick.
+
 ## Mon Nov 2, 2026 (FC daily run; main session, with the voice key)
 
 **Context.** Inbox empty. FC is scheduled daily through Fri Nov 6 by the owner's PC (`Research Notes/Scheduled Uploads.csv`) and S25-S28 are built, so the queue is full: **no build** (trigger rule: 3+ ready, write 2 scripts and stop). This account's FC Hub has no new card; nothing to post from here.
