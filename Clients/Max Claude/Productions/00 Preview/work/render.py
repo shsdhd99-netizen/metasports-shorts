@@ -15,27 +15,27 @@ FONT_DIR = os.path.join(REPO, "Tools/fonts")
 MUSIC = os.path.join(REPO, "Library/Music/eleven_story_01.mp3")
 PHOTO = os.path.join(ROOT, "input/photo.jpg")
 FPS = 30
-CLOSE_T0 = 36.95          # close.mp3 starts here on the voice timeline
-END = 41.47 + 0.25        # last word ends 41.47; 0.25 s tail, nothing after
+CLOSE_T0 = 39.12          # close.mp3 starts here on the voice timeline
+END = 43.20 + 0.25        # last word ends 43.20; 0.25 s tail, nothing after
 
 # (start, src, source offset, framing x 0..1 for 9x16 crop, zoom start, zoom end)
 SHOTS = [
     (0.00, "OPEN", 0, 0.5, 1.00, 1.06),
-    (3.10, "mk_18308", 0.0, 0.55, 1.00, 1.06),   # finger touching frosted glass: "every time you touch something"
-    (6.25, "mk_15054", 2.0, 0.45, 1.00, 1.06),   # ultrasound print: "before you were born"
-    (9.95, "mk_12962", 2.0, "fit", 1.00, 1.05),    # two sisters: "identical twins"
-    (12.40, "mk_47323", 3.0, 0.5, 1.05, 1.12),   # glowing fingerprint: "pattern of ridges"
-    (15.85, "mk_13807", 0.0, 0.3, 1.00, 1.06),   # magnifying glass: "tiny details"
-    (19.05, "mk_18308", 9.0, 0.45, 1.00, 1.06),  # the mark left on glass: "touch a glass ... perfect copy"
-    (22.80, "mk_32791", 0.0, 0.2, 1.00, 1.05),  # investigator under UV
-    (25.85, "mk_32791", 7.0, 0.15, 1.25, 1.32),  # the print appears (close on the handprint)
-    (28.15, "mk_23678", 0.0, 0.6, 1.00, 1.05),   # fingerprint on a computer screen: "a computer can compare"
-    (30.00, "mk_47323", 9.0, 0.5, 1.00, 1.06),   # print data: "millions of prints in seconds"
-    (31.95, "mk_23678", 12.0, 0.72, 1.45, 1.52), # close on the monitor: "only suggests a match"
-    (34.35, "mk_4773", 3.0, 0.4, 1.00, 1.05),    # examiner at a microscope: "makes the final call"
+    (3.55, "mk_18308", 0.0, 0.55, 1.00, 1.06),   # finger touching frosted glass: "every time you touch something"
+    (6.85, "mk_15054", 2.0, 0.45, 1.00, 1.06),   # ultrasound print: "before you were born"
+    (10.98, "mk_12962", 2.0, "fit", 1.00, 1.05),    # two sisters: "identical twins"
+    (13.45, "mk_47323", 3.0, 0.5, 1.05, 1.12),   # glowing fingerprint: "pattern of ridges"
+    (17.77, "mk_13807", 0.0, 0.3, 1.00, 1.06),   # magnifying glass: "tiny details"
+    (20.95, "mk_18308", 9.0, 0.45, 1.00, 1.06),  # the mark left on glass: "touch a glass ... perfect copy"
+    (24.76, "mk_32791", 0.0, 0.2, 1.00, 1.05),  # investigator under UV
+    (27.44, "mk_32791", 7.0, 0.15, 1.25, 1.32),  # the print appears (close on the handprint)
+    (29.34, "mk_23678", 0.0, 0.6, 1.00, 1.05),   # fingerprint on a computer screen: "a computer can compare"
+    (31.66, "mk_47323", 9.0, 0.5, 1.00, 1.06),   # print data: "millions of prints in seconds"
+    (33.73, "mk_23678", 12.0, 0.72, 1.45, 1.52), # close on the monitor: "only suggests a match"
+    (36.34, "mk_4773", 3.0, 0.4, 1.00, 1.05),    # examiner at a microscope: "makes the final call"
     (CLOSE_T0, "CLOSE", 0.0, 0.5, 1.06, 1.08),
-    (38.00, "mk_33712", 0.0, 0.4, 1.00, 1.04),   # door handle: "open a door"
-    (39.15, "CLOSE", 39.15 - CLOSE_T0, 0.5, 1.08, 1.12),
+    (40.18, "mk_33712", 0.0, 0.4, 1.00, 1.04),   # door handle: "open a door"
+    (41.09, "CLOSE", 41.09 - CLOSE_T0, 0.5, 1.08, 1.12),
 ]
 KEY = {"hundred", "signature", "born", "never", "twins", "ridges", "yours", "glass", "copy", "powder", "invisible",
        "computer", "millions", "seconds", "match", "examiner", "final", "door", "signed", "name"}
@@ -92,7 +92,7 @@ def shot(i, fmt, tmp):
 def ass(fmt, path):
     words = json.load(open(os.path.join(W, "words.json")))
     ow, oh = (1920, 1080) if fmt == "16x9" else (1080, 1920)
-    size, y = (80, 950) if fmt == "16x9" else (84, 1380)
+    size, y = (80, 1000) if fmt == "16x9" else (84, 1380)  # 16x9: below his chin in the talking shots
     head = f"""[Script Info]
 ScriptType: v4.00+
 PlayResX: {ow}
