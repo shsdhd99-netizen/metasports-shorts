@@ -152,18 +152,22 @@ def report():
             lines += [f"## {name}", f"Only {len(rs)} mature Shorts with views: too few to weigh anything.", ""]
             continue
         med = st.median(r["_v"] for r in rs)
-        lines += [f"## {name}: n={len(rs)}, median {med:,.0f} views", "", "| Feature | Value | n | Median views | vs channel median | Read |", "|---|---|---|---|---|---|"]
+        lines += [f"## {name}: n={len(rs)}, median {med:,.0f} views", "", "| Feature | Value | n | Median views | vs channel median | Read | Engaged ratio (n) |", "|---|---|---|---|---|---|---|"]
         for dim, key in (("lane", "lane_c"), ("star in title", "star"), ("title shape", "title_shape"), ("length", "len_b"),
                          ("music", "music"), ("freshness", "fresh")):
-            groups = {}
+            groups, eng = {}, {}
             for r in rs:
                 if r[key]:
                     groups.setdefault(r[key], []).append(r["_v"])
+                    if num(r["engaged_ratio"]):
+                        eng.setdefault(r[key], []).append(num(r["engaged_ratio"]))
             for val, vs in sorted(groups.items(), key=lambda kv: -st.median(kv[1])):
+                ev = eng.get(val, [])
+                etxt = f"{st.median(ev):.3f} ({len(ev)})" if ev else "-"
                 m, n = st.median(vs), len(vs)
                 ratio = m / med if med else 0
                 read_ = "guess (n<5)" if n < 5 else "ABOVE" if ratio >= 1.5 else "BELOW" if ratio <= 0.67 else "typical"
-                lines.append(f"| {dim} | {val} | {n} | {m:,.0f} | {ratio:.2f}x | {read_} |")
+                lines.append(f"| {dim} | {val} | {n} | {m:,.0f} | {ratio:.2f}x | {read_} | {etxt} |")
                 if n >= 3:
                     leads.append((abs(ratio - 1) * n, f"{name}: {dim} \"{val}\" runs {ratio:.1f}x the channel median (n={n})."))
                 if n >= 5 and read_ in ("ABOVE", "BELOW"):
