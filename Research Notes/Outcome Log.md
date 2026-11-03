@@ -576,3 +576,19 @@ Public counts (`channel_check.py`, about 6:15 PM ET; `fc_track.py` for FC). API 
 **FC (public):** S17 Krul 22,500 (+3.5K), S19 Rulli 2,850 (day 2), S18 Mourinho 2,400, S20 Messi napkin 518 (posted 12 PM today, about 7 h; not goalkeeper lane). 139 subscribers.
 **Lesson:** none new (yesterday's n=4 note on the comfort pass still stands; today adds no new kind of evidence).
 **Monday reminder:** the Studio export (Content > Shorts, both channels) is due; it's the only source of the exact "stayed to watch". **Owner notes inbox:** empty. No post task ticked tonight (Bones Hyland and #83 had no open task).
+
+## Tue Nov 3, 2026 (evening, 23:10 UTC): daily check (scheduled, read-only)
+Public counts (`channel_check.py`). API data: still only the Nov 1 pull (no newer CSV from the PC).
+- **Median of the last 7: 4,300** (normal before that: 6,950). Trend: DOWN (the three 26-28K Shorts rolled out of the window). 631 subscribers.
+
+| Short | Views | #42 FORMAT? | Note |
+|---|---|---|---|
+| Why NBA Players Refuse This Free Throw (#74) | 29,000 | no (explainer) | still climbing |
+| Bones Hyland Got A Technical For A Fake Throw | 16,000 | no (moment) | day 2, strong |
+| Wemby Blocked A Three And Scored Point 40 (#82) | 6,400 | no | |
+| LeBron Is 40 Assists Behind Jason Kidd (#84) | 4,300 | no | |
+| Cooper Flagg's Rookie Year Beat LeBron's (#83) | 3,700 | no | day 1 |
+| Draymond Green Had A Triple-Double With Four Points | 1,000 | no | posted today 7:15 AM |
+| Jokic Said No To His Own Parade | 791 | no | posted today 3:30 PM |
+
+**Retention flags:** none new (no API pull since Nov 1). **Lesson:** none (n<3). **Owner notes inbox:** empty. No post task ticked.
