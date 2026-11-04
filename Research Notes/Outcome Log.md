@@ -592,3 +592,18 @@ Public counts (`channel_check.py`). API data: still only the Nov 1 pull (no newe
 | Jokic Said No To His Own Parade | 791 | no | posted today 3:30 PM |
 
 **Retention flags:** none new (no API pull since Nov 1). **Lesson:** none (n<3). **Owner notes inbox:** empty. No post task ticked.
+
+## Wed Nov 4, 2026 (evening, 23:10 UTC): daily check (scheduled, read-only)
+**First run with the API in the cloud** (`yt_analytics.py daily`, keys now in the environment). Public: last-7 median **3,250** (normal 7,000), DOWN.
+
+| Short | Views | Note |
+|---|---|---|
+| Bones Hyland Got A Technical For A Fake Throw | 18,000 | engaged 0.49 (FLAG: likely under 60% stayed) but avg 109% viewed |
+| LeBron Is 40 Assists Behind Jason Kidd | 8,800 | above normal |
+| Cooper Flagg's Rookie Year Beat LeBron's | 5,000 | |
+| Kobe Missed Eighteen Shots In Game 7 | 1,500 | posted today 7:15 AM |
+| Jokic Said No To His Own Parade | 1,300 | day 1 |
+| Iguodala Says Steph Should Have Won The 2015 Finals MVP | 1,100 | posted today 3:30 PM |
+| Draymond Green Had A Triple-Double With Four Points | 1,000 | day 1.5: weak |
+
+None follow THE #42 FORMAT. **Observation [S], n=4, not a rule:** the four evergreen history/stat Shorts scheduled Nov 3-4 (Draymond, Jokic, Kobe, Iguodala) are all at 1,000-1,500, while fresh moments/explainers (Bones 18K, free throw 29K) win. Inbox empty.
