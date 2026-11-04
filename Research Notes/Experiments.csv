@@ -1,161 +1,164 @@
-channel,video_id,posted,title,lane,star,fresh,title_shape,length_s,music,stayed_pct,avg_pct_viewed,engaged_ratio,views,views_date,source,notes
-fc,rjsig3vMYU4,,The manager Barcelona soaked with sprinklers got his revenge #football,,no star,,statement,,,,,,2700,2026-11-03,yt-dlp,
-fc,oeHLlOVX4ec,,Goalkeepers who were subbed on just for the penalties #football,,no star,,statement,,,,,,23000,2026-11-03,yt-dlp,
-fc,y2aDVIc9rfg,2026-10-22,Players who got in TROUBLE the day before a derby,story: mischief,no star,evergreen,statement,64,,56.16,81.86,0.535,1814,2026-11-01,dataset+api+yt-dlp,
-fc,Wcaa80VvBmU,2026-10-22,The goalkeeper who hid a cheat sheet in his sock,story: secret object,no star,evergreen,statement,60,,80.38,92.86,0.557,28199,2026-11-01,dataset+api+yt-dlp,
-fc,9GJgflHx7pE,2026-10-23,Goalkeepers who danced on the line to win a final,story: trick,no star,evergreen,statement,71,,64.68,82.92,0.608,15544,2026-11-01,dataset+api+yt-dlp,
-fc,ORnkQcenDd8,2026-10-24,The player who scored 5 goals in 9 minutes,,no star,,number,59,,,63.690000000000005,0.533,2043,2026-11-01,api+yt-dlp,
-fc,svDicOCeh7I,2026-10-25,Players who got sent off in their very last game,,no star,,statement,58,,,72.42,0.601,1962,2026-11-01,api+yt-dlp,
-fc,DfDEyHM33is,2026-10-26,Goalkeepers who hid a cheat sheet on their water bottle,,no star,,statement,60,,,96.53,0.553,28471,2026-11-01,api+yt-dlp,
-fc,7KriW5jkFVc,2026-10-26,The team with worse odds than the Loch Ness monster,,no star,,statement,56,,,79.33,0.528,2507,2026-11-01,api+yt-dlp,
-fc,M40gpi_afJo,2026-10-27,The England player who kept Maradona's Hand of God shirt,,star,,statement,53,,,74.62,0.604,3025,2026-11-01,api+yt-dlp,
-fc,WCeenVoseEM,2026-10-28,Barcelona paid a fortune for the player who knocked them out,,no star,,statement,53,,,68.41,0.554,1044,2026-11-01,api+yt-dlp,
-fc,vwySCjDCmF8,2026-10-29,The manager who told his team to stop scoring,,no star,,statement,58,,,64.68,0.587,2293,2026-11-01,api+yt-dlp,
-fc,BOsvemp6eTE,2026-11-01,Man United's Penalty Nightmare Is Now Saving Man City,,no star,,statement,,yes,,,,3000,2026-11-03,scheduled+yt-dlp,
-fc,ClFHN2NXXyU,2026-11-02,Barcelona Signed Messi On A Paper Napkin,,star,,statement,,no,,,,977,2026-11-03,scheduled+yt-dlp,
-fc,LgP8hGayRiE,2026-11-03,The England subs brought on only for penalties,,no star,,statement,,yes,,,,2000,2026-11-03,scheduled+yt-dlp,
-fc,vJb1PgdvECU,2026-11-04,Goalkeepers who took their gloves off to save a penalty,,no star,,statement,,no,,,,,,scheduled,
-fc,6-9L9sJhc1s,2026-11-05,,,no star,,statement,,yes,,,,,,scheduled,
-fc,wN54kSw6Sic,2026-11-06,,,no star,,statement,,no,,,,,,scheduled,
-nba,bTEidtZjVfM,,Why NBA Players Refuse This Free Throw 😳,,no star,,question,,,,,,29000,2026-11-03,yt-dlp,
-nba,o8UE_lsnZ9E,,Cameron Boozer Outshot His Dad's Whole Career 😳 #nba,,no star,,statement,,,,,,27000,2026-11-03,yt-dlp,
-nba,mLFrMCLU9rM,,Bronny Is Shooting 100% This Season 😭 #nba,,star,,number,,,,,,28000,2026-11-03,yt-dlp,
-nba,l3bgfNytp0Y,2025-11-08,Top 4 Funniest Sora AI doorbell videos🤣 #funny #viral #top5 #memes #ai #soraai #comedy,,no star,,statement,32,,100,38.42,,1,2026-10-14,all80+tracker+dataset+yt-dlp,
-nba,knBZz6xgTZ0,2025-11-09,Stadium Hack Gone Wrong 😂🍺 #ai #comedy #funny #shorts #football,,no star,,statement,15,,75,65.83,,10,2026-10-14,all80+tracker+dataset+yt-dlp,
-nba,OYd7-lwnudc,2025-11-09,POV: Snoop Dogg at Your Front Door 🚪💨 #ai #comedy #funny #soraai,,no star,,statement,14,,100,275.71,,4,2026-10-17,all80+tracker+dataset+yt-dlp,
-nba,sIL5vMDc2RM,2025-11-09,You Won’t Believe Why Snoop Got Pulled Over 😳💨 #ai #comedy #funny #soraai,,no star,,statement,16,,,,,3600,2026-10-14,all80+tracker+dataset+yt-dlp,
-nba,KyMyEchd1V8,2025-11-10,Squirrel Starts Nut Business… Then THIS Happened 🐿 #animals #Shorts #ai AnimalTok,,no star,,statement,20,,,,,6800,2026-10-14,all80+tracker+dataset+yt-dlp,
-nba,srDwbaimdAs,2025-11-11,Fishing Trip Gone Wild 😳 #shorts #funny #fishing #comedy,,no star,,statement,16,,,,,72,2026-10-21,all80+tracker+yt-dlp,
-nba,RXsFRXUi3nY,2025-11-11,This Yarn Love Story Hits HARD 💔 #shorts #storytime #ai,,no star,,statement,25,,,,,911,2026-10-14,all80+tracker+dataset+yt-dlp,
-nba,At1cNc7ykIE,2025-11-12,New AI App Is SCARY... 👀 #ai #sora #memes,,no star,,statement,25,,,,,1000,2026-10-14,all80+tracker+dataset+yt-dlp,
-nba,iFXKKkREY3o,2025-11-14,NBA Fan Did WHAT?! 😳 #nba #shorts #funny,,no star,,question,30,,,,,7300,2026-10-21,all80+tracker+yt-dlp,
-nba,ofZO-VUgKbQ,2025-11-15,The NBA Has Never Seen This Before 🤯 #wemby #nba #shorts,,star,,statement,29,,,,,0,2026-10-14,all80+tracker+dataset+yt-dlp,
-nba,daIsE50TcoQ,2025-11-16,Fans Noticed Something Strange on Curry… 👀 #nba #shorts #curry,,Curry,,statement,28,,,,,0,2026-10-14,all80+tracker+dataset+yt-dlp,
-nba,pr-JQuzAUxY,2025-11-17,Why Giannis Took The Ball From The Refs 👀 #nba #giannis #shorts,,Giannis,,statement,25,,66.67,75.57,,4,2026-10-14,all80+tracker+dataset+yt-dlp,
-nba,4Km3GInLXNQ,2025-11-20,LeBron Just Broke NBA History Tonight 👀 #nba #lebron #shorts,,star,,statement,28,,,,,5200,2026-10-21,all80+tracker+yt-dlp,
-nba,AMXRI1TXX0E,2025-11-22,Why Cooper Flagg Is Scaring NBA Defenders 👀 #nba #shorts #cooperflagg,,Flagg,,statement,27,,,,,1,2026-10-24,all80+tracker+dataset+yt-dlp,
-nba,7CniAq-eKaU,2025-11-23,Chris Paul Didn’t Deserve This Ending 😢 #ChrisPaul #NBA #Basketball,,no star,,statement,27,,,,,0,2026-10-24,all80+tracker+dataset+yt-dlp,
-nba,LtVnUM36j-Q,2025-11-23,Wemby Just Broke Basketball 🤯 #NBA #wembanyama #shorts,,Wemby,,statement,23,,,,,0,2026-10-14,all80+tracker+dataset+yt-dlp,
-nba,1b7XJVYSYh8,2025-11-25,Is Shai Gilgeous-Alexander Cheating the NBA? 😳 #NBA #Shorts #SGA,,Shai,,question,22,,100,98.32,,3,2026-10-24,all80+tracker+dataset+yt-dlp,
-nba,DzOSG1l5dLc,2025-11-28,Should Giannis Finally Leave the Bucks? #NBA #Giannis #Bucks,,Giannis,,question,18,,,,,12000,2026-10-14,all80+tracker+dataset+yt-dlp,
-nba,dDzA3RIBMYw,2025-11-29,Are The Lakers The Luckiest Team Ever? #NBA #Lakers #Basketball,,no star,,question,29,,,,,0,2026-10-14,all80+tracker+dataset+yt-dlp,
-nba,Cj2E9b6WvBE,2025-11-29,Why Does No One Like Bronny James? #NBA #Bronny #lakers,,Bronny,,question,23,,100,146.52,,4,2026-10-24,all80+tracker+dataset+yt-dlp,
-nba,IkF3fr78SMs,2025-12-01,Is Bronny James Really This Bad? 🤔 #Bronny #NBA #Lakers,,Bronny,,question,25,,50,73.08,,5,2026-10-24,all80+tracker+dataset+yt-dlp,
-nba,DeVpCe6IGSg,2025-12-02,Why Everyone Is Scared of Wemby 😳 #Wemby #NBA #NBAShorts,,Wemby,,statement,21,,100,93.9,,4,2026-10-14,all80+tracker+dataset+yt-dlp,
-nba,JCJTfydGJkc,2025-12-02,Drafted During a Taco Bell Ad… Now He Runs the NBA #NBA #NikolaJokic #shorts,,Jokic,,statement,29,,63.64,34.29,,11,2026-10-17,all80+tracker+dataset+yt-dlp,
-nba,RbWCzbEizOk,2025-12-03,What Happened to the Airless Basketball? #NBA #Basketball #Tech,,no star,,question,29,,0,,,1,2026-10-14,all80+tracker+dataset+yt-dlp,
-nba,c97-jCt0IaM,2025-12-19,The Truth About Steph Curry's Shot... #NBA #StephCurry #basketball,,Steph,,statement,19,,,,,33000,2026-10-14,all80+tracker+dataset+yt-dlp,
-nba,dFe8abJKMcY,2025-12-20,The NBA’s Most Hated MVP? 👀 #SGA #NBA #Basketball,,SGA,,question,22,,100,61.55,,3,2026-10-14,all80+tracker+dataset+yt-dlp,
-nba,GuViZy0_ryU,2025-12-21,The Rookie Who Earned LeBron’s Respect in One Possession #NBA #LeBron #Luka,,LeBron,,statement,28,,25,99.32,,5,2026-10-14,all80+tracker+dataset+yt-dlp,
-nba,u4Ng66RljJA,2025-12-21,Dillon Brooks vs LeBron Went Horribly Wrong #NBA #LeBron #Viral,,LeBron,,statement,23,,,,,0,2026-10-14,all80+tracker+dataset+yt-dlp,
-nba,Y-lsvflgmfY,2025-12-23,This Ref Is Going Viral for the Wildest Reason #Basketball #Viral #NBA,,no star,,statement,28,,,,,20000,2026-10-14,all80+tracker+dataset+yt-dlp,
-nba,ZJ0PNc-5Qbk,2025-12-24,The Best Christmas Game the NBA Ever Had 🎄👑 #NBA #LeBronJames #curry,,LeBron,,statement,20,,,,,21000,2026-10-14,all80+tracker+dataset+yt-dlp,
-nba,IDNj2P5exJ8,2025-12-25,Who Shaq Thinks Is Better Than LeBron #NBA #LeBron #shaq,,LeBron,,statement,30,,75,8.11,,4,2026-10-17,all80+tracker+dataset+yt-dlp,
-nba,y2ZD5aLKtyA,2025-12-27,The Rarest Moment in NBA History 🤯 #NBA #Basketball #Shorts,,no star,,statement,19,,100,105.5,,2,2026-10-24,all80+tracker+dataset+yt-dlp,
-nba,rtekLyud_FA,2025-12-28,Why Bronny James Won’t Shoot… #NBA #BronnyJames #Lakers,,Bronny,,statement,22,,34.62,54.41,,32,2026-10-17,all80+tracker+dataset+yt-dlp,
-nba,q8vZpzNaifQ,2025-12-29,Bronny James 1v1 With  NBA All-Star 🤯 #NBA #LeBron #Bronny,,Bronny,,statement,24,,84.27,82,,147,2026-10-14,all80+tracker+dataset+yt-dlp,
-nba,EUE1B0DV3Lw,2025-12-30,This Shot Started the Craziest Basketball War Ever 🏀🔥 #NBA #Basketball #shorts,,no star,,statement,24,,,,,34000,2026-10-14,all80+tracker+dataset+yt-dlp,
-nba,hJ9m5jZpAWw,2025-12-31,The Most Unselfish Star in NBA History 🤯 #NBA #Basketball #Spurs,,no star,,statement,27,,100,22.61,,1,2026-10-14,all80+tracker+dataset+yt-dlp,
-nba,GHBM_NKgLHI,2025-12-31,Sabrina Ionescu Got Locked Up 😳 #NBA #WNBA #Basketball,,no star,,statement,20,,33.33,94.89,,11,2026-10-17,all80+tracker+dataset+yt-dlp,
-nba,yZ5Hky-vYs8,2026-01-01,3 Plays That Turned Bronny Into a Starter #Bronny #NBA #lakers,,Bronny,,statement,16,,100,105.18,,2,2026-10-24,all80+tracker+dataset+yt-dlp,
-nba,OLBqzS7nqL4,2026-01-02,Why the WNBA Is a Joke 🤯 #nba #wnba #shorts,,no star,,statement,30,,100,119.19,,2,2026-10-14,all80+tracker+dataset+yt-dlp,
-nba,g9cxHAHWSIc,2026-01-04,The NBA’s Secret Disaster Draft Plan 🤯 #NBA #Basketball #lebron,,star,,statement,23,,100,82.3,,10,2026-10-17,all80+tracker+dataset+yt-dlp,
-nba,myvPkUnuEsw,2026-01-04,The NBA Once Traded a Player for a Copy Machine 🖨️  #basketball #nba #lebron,,star,,statement,24,,100,139.96,,2,2026-10-14,all80+tracker+dataset+yt-dlp,
-nba,pQVSDVIgQ1s,2026-01-11,The Most Unreal Ending in NBA History… Kobe’s Final Game 🐍 #NBA #Kobe #Mamba,,star,,statement,29,,100,100.72,,2,2026-10-24,all80+tracker+dataset+yt-dlp,
-nba,lMqzDejWlMs,2026-01-12,Wemby makes everything look small.. #Wemby #NBA #Basketball,,Wemby,,statement,25,,0,,,0,2026-10-14,all80+tracker+dataset+yt-dlp,
-nba,euYscYp0vC4,2026-01-13,Rudy Gobert Crossed the Line 😡 #NBA #Wemby #Spurs,,Wemby,,statement,20,,,,,14000,2026-10-14,all80+tracker+dataset+yt-dlp,
-nba,etHVxBaM0sE,2026-01-15,Why NBA Players Don’t Shoot at the End of Quarters #NBA #Shorts,,no star,,statement,25,,85.71,130.31,,14,2026-10-14,all80+tracker+dataset+yt-dlp,
-nba,tj4iLYfsNEQ,2026-01-15,Why Steph Curry Almost Never Dunks #NBA #Basketball #shorts,,Steph,,statement,20,,,,,28000,2026-10-14,all80+tracker+dataset+yt-dlp,
-nba,GjwCjDB61z0,2026-01-17,Only Steph Would Notice This.. #stephcurry #nba  #shorts,,Steph,,statement,20,,37.5,59.98,,8,2026-10-14,all80+tracker+dataset+yt-dlp,
-nba,0OKMHZSPAM4,2026-01-17,They Tried Everything to Stop Curry 🤯 #StephCurry #Basketball #Shorts,,Curry,,statement,20,,100,236.71,,6,2026-10-24,all80+tracker+dataset+yt-dlp,
-nba,4mdJwEwhV5k,2026-01-18,He Scored on His Own Basket on Purpose 😳 #NBA #JasonWilliams #shorts,,no star,,statement,16,,87.5,102.44,,13,2026-10-24,all80+tracker+dataset+yt-dlp,
-nba,j5FVY0Brh6A,2026-01-18,Is This the Craziest Play in Basketball History? 🤯 #Basketball #Shorts #Clutch,,no star,,question,15,,50,306.67,,5,2026-10-24,all80+tracker+dataset+yt-dlp,
-nba,iv7H2VvpiL0,2026-01-19,The Silent Basketball Is Back? 🟠#basketball #tech #viral,,no star,,question,20,,100,148,,2,2026-10-24,all80+tracker+dataset+yt-dlp,
-nba,fxW7Db6wGm4,2026-01-19,Steph And His Dad 🏀 #StephCurry #NBA #shorts,,Steph,,statement,10,,100,357,,4,2026-10-24,all80+tracker+dataset+yt-dlp,
-nba,aO3O13dlHqs,2026-01-21,This New NBA Rule Is Crazy.. 😳#NBA #GLeague #Basketball,,no star,,statement,17,,66.67,73.33,,4,2026-10-24,all80+tracker+dataset+yt-dlp,
-nba,h1vyhjIn2lE,2026-01-21,Why Everyone Hates Dillon Brooks 😤#DillonBrooks #NBA #JimmyButler,,no star,,statement,25,,57.14,97.92,,12,2026-10-17,all80+tracker+dataset+yt-dlp,
-nba,9YZpK7uqm2s,2026-01-23,The Most 200 IQ Play... #NBA #LukaDoncic #basketball,,Luka,,statement,16,,60,75.57,,6,2026-10-17,all80+tracker+dataset+yt-dlp,
-nba,Aw7N2zXpb7E,2026-01-24,NBA Players Are Doing THIS  😳#NBA #FreeThrow #Basketball,,no star,,statement,17,,75,108.85,,11,2026-10-14,all80+tracker+dataset+yt-dlp,
-nba,jQl8K9lnxXk,2026-01-24,Caitlin Clark’s Misunderstanding 😳#WNBA #nba  #Basketball,,Clark,,statement,19,,100,134.65,,14,2026-10-14,all80+tracker+dataset+yt-dlp,
-nba,fmUIHDOyqGI,2026-01-25,Luka's Cheat Code Exposed.. #NBA #LukaDoncic #Basketball,,Luka,,statement,16,,66.67,73.86,,9,2026-10-14,all80+tracker+dataset+yt-dlp,
-nba,A6DQ6xLiYbc,2026-01-26,Why NBA Players Stopped Shooting Underhand.. #NBA #Basketball #Shorts,,no star,,statement,22,,50,66.92,,8,2026-10-14,all80+tracker+dataset+yt-dlp,
-nba,l2dYYgd5lsg,2026-01-27,Why Steven Adams Won't Sign Autographs...,,no star,,statement,23,,50,73.43,,2,2026-10-14,all80+tracker+dataset+yt-dlp,
-nba,Oom6nHLw9iM,2026-01-27,What Happens To An NBA Court After A Game?,,no star,,question,24,,100,77.59,,4,2026-10-14,all80+tracker+dataset+yt-dlp,
-nba,dt8RcJlhkTQ,2026-01-28,He Scored on the Wrong Hoop 😳 #NBA #OKC #shorts,,no star,,statement,23,,100,92,,5,2026-10-14,all80+tracker+dataset+yt-dlp,
-nba,LH1t_7JC3qE,2026-02-01,Is It Possible To Dunk Without Jumping? #Basketball #Wemby #Shorts,,Wemby,,question,20,,71.43,67.43,,19,2026-10-14,all80+tracker+dataset+yt-dlp,
-nba,7n7YcwHDmWo,2026-02-01,The Most Dangerous Basketball Court 😳⛰️ #Basketball #Shorts #hoops,,no star,,statement,20,,75,69.02,,6,2026-10-17,all80+tracker+dataset+yt-dlp,
-nba,eW-YIZywgVg,2026-02-02,Can Bronny Actually Stick in the NBA? 🏀 #BronnyJames #NBA #Shorts,,Bronny,,question,29,,100,124.67,,4,2026-10-14,all80+tracker+dataset+yt-dlp,
-nba,rYMlzPDNyvw,2026-02-05,The Only 8-Point Play in NBA History 😳 #NBA #Basketball #Shorts,,no star,,statement,32,,72.73,63.64,,23,2026-10-17,all80+tracker+dataset+yt-dlp,
-nba,YUc_OzCCR1s,2026-02-06,Remember LaMelo Dropping 92?! 😳🏀 #LaMeloBall #Basketball #Shorts,,no star,,question,20,,100,74.98,,7,2026-10-17,all80+tracker+dataset+yt-dlp,
-nba,qyX-UqUH33w,2026-02-07,Westbrook Got Mad… Then He Understood 😳🏀 #NBA #Westbrook #shorts,,no star,,statement,20,,100,103.55,,8,2026-10-14,all80+tracker+dataset+yt-dlp,
-nba,wufqOsCahlQ,2026-02-08,Why the NBA Stopped Throwing Backboard Passes 🏀 #NBA #Basketball #Shorts,,no star,,statement,23,,71.43,110.43,,14,2026-10-17,all80+tracker+dataset+yt-dlp,
-nba,o0xeBigA9gA,2026-02-09,LeBron’s Warmup “Checklist” 👀 #NBA #LeBron #Shorts,,LeBron,,statement,22,,75,44.9,,4,2026-10-14,all80+tracker+dataset+yt-dlp,
-nba,YX3dl6fpdSM,2026-02-11,Jay Huff’s Dunk Habit Is Not Random 😳 #NBA #Basketball #Shorts,,no star,,statement,19,,75,80.18,,6,2026-10-14,all80+tracker+dataset+yt-dlp,
-nba,jQfhvFRrvCQ,2026-02-12,NBA Team Sells Tickets For $0...  #basketball #nba #shorts,,no star,,statement,21,,100,169.95,,8,2026-10-14,all80+tracker+dataset+yt-dlp,
-nba,bCkPPTfLU0k,2026-02-13,Ja Morant’s Clock Loophole 😳⏱️ #NBA #JaMorant #Shorts,,no star,,statement,24,,80,61.29,,6,2026-10-17,all80+tracker+dataset+yt-dlp,
-nba,T6G8eU4YscU,2026-02-14,Steph Curry VS Carnival Hoop..  #NBA #StephCurry #Shorts,,Steph,,statement,21,,66.67,94.12,,8,2026-10-14,all80+tracker+dataset+yt-dlp,
-nba,aCMYKHSrgUQ,2026-02-15,The Only Word In Spanish Ja Knows..  #nba #basketball #jamorant,,no star,,statement,17,,55.56,100.46,,14,2026-10-14,all80+tracker+dataset+yt-dlp,
-nba,ITtfoMsanjo,2026-02-18,He Finally Hit the Cleanest Swish Ever  #Basketball #Shorts #Hoops,,no star,,statement,18,,75,119.78,,14,2026-10-14,all80+tracker+dataset+yt-dlp,
-nba,cWOBthiwSPc,2026-02-21,This Foul Started an NBA Brawl 😳🥊 #NBA #Fight #Shorts,,no star,,statement,33,,62.5,138.45,,11,2026-10-14,all80+tracker+dataset+yt-dlp,
-nba,MlBGaSrtI8w,2026-02-21,Should the NBA Ban This Stat Padding? 😳 #NBA #Giannis #Shorts,,Giannis,,question,18,,70,72.44,,16,2026-10-14,all80+tracker+dataset+yt-dlp,
-nba,lefllK_7fo0,2026-02-22,The World’s Hardest Dunk 😳🏀 #Dunk #Basketball #Shorts,,no star,,statement,25,,50,121.8,,13,2026-10-14,all80+tracker+dataset+yt-dlp,
-nba,6TGSgOosuuA,2026-02-23,This NBA Player Sleeps On The FLOOR? #NBA #StevenAdams #Shorts,,no star,,question,24,,47.62,63.33,,24,2026-10-14,all80+tracker+dataset+yt-dlp,
-nba,GXLFoj7QBls,2026-10-03,Did Jalen Duren Just Leave $87 Million? 😳,contract,Duren,fresh,question,33,none,69.44,71.11,,2855,2026-10-14,tracker+dataset+yt-dlp,
-nba,9FLigGnYiXE,2026-10-03,How Did Nobody Vote Against Wemby? 🤯,rule,Wemby,fresh,question,24,none,80.16,103.96,,26986,2026-10-14,tracker+dataset+yt-dlp,
-nba,W9DuX2cYmyY,2026-10-04,Would Jordan's Last Shot Be a Foul Now? 😳,rule,Jordan,evergreen,question,25,none,56.25,75.07,0.444,45,2026-10-31,tracker+dataset+api+yt-dlp,
-nba,74hpWW4j5AM,2026-10-04,Why Two Men Can Still Wear Six 😳,rule,Russell/Bird,evergreen,statement,26,none,82.37,115.54,,31832,2026-10-17,tracker+dataset+yt-dlp,
-nba,_s1pK_f_MmQ,2026-10-04,LeBron Left Sixers Practice By Helicopter 😳,news,LeBron,fresh,statement,27,none,66.55,89.21,,2912,2026-10-17,tracker+dataset+yt-dlp,
-nba,AwmPdOf5cqc,2026-10-05,Is Bronny's Spot Really Safe? 😳,news,Bronny,fresh,question,29,none,68.42,97.11,0.55,5749,2026-10-31,tracker+dataset+api+yt-dlp,
-nba,BB5bimx-DJ8,2026-10-05,The NBA Final That Does Not Count 😳,rule,NBA Cup,evergreen,statement,23,none,51.48,72.64,0.497,2340,2026-10-31,tracker+dataset+api+yt-dlp,
-nba,O79rd7rj13w,2026-10-06,Did Bronny Actually Get Better 😳,stat,Bronny,fresh,statement,25,none,63.64,68.36,0.589,1950,2026-11-01,tracker+dataset+api+yt-dlp,
-nba,V8EoO4g7s_k,2026-10-06,How Tall Is Cooper Flagg Really 😳,size,Flagg,fresh,statement,22,none,74.04,100.93,0.515,22048,2026-11-01,tracker+dataset+api+yt-dlp,
-nba,Jbo4jxfz0yw,2026-10-06,Why Steven Adams Fears GTA 6 In November 😳,oddity,Adams,fresh,statement,23,none,66.23,94.74,0.536,6001,2026-10-31,tracker+dataset+api+yt-dlp,
-nba,RIcim5660vI,2026-10-07,Did The NBA Call Out Four Stars 😳,rule,stars,fresh,statement,24,none,63.12,115.29,0.579,1617,2026-11-01,tracker+dataset+api+yt-dlp,
-nba,3Mm0nxDct-s,2026-10-07,Why Giannis Faces The Bucks In Vice City 😳,oddity,Giannis,fresh,statement,26,none,65.94,80.24,0.578,2918,2026-11-01,tracker+dataset+api+yt-dlp,
-nba,iaRj9O1g-uA,2026-10-08,Did The NBA Just BAN Flopping?  😳,rule,flopping,fresh,question,29,none,70.88,81.41,0.594,6910,2026-11-01,tracker+dataset+api+yt-dlp,
-nba,HUpiKcW60lg,2026-10-08,How Many Picks Did Kawhi Cost? 😳,contract,Kawhi,evergreen,question,23,none,50.06,91.77,0.442,1887,2026-11-01,tracker+dataset+api+yt-dlp,
-nba,9LZbvH71oBI,2026-10-09,Why Did Wemby Train With A Rugby Team? 🏉,oddity,Wemby,fresh,question,26,none,61.3,78.54,0.543,2987,2026-11-01,tracker+dataset+api+yt-dlp,
-nba,1hxiFdH0ddA,2026-10-09,Why LeBron Took a 92% Pay Cut 😳,contract,LeBron,evergreen,statement,24,none,74.47,109.3,0.516,3990,2026-11-01,tracker+dataset+api+yt-dlp,
-nba,_ABYy6GqzTM,2026-10-10,Is Bad Boys Pistons Defense Illegal Now 😳?  #nba #basketball #sports,rule,Pistons,evergreen,question,27,none,47.82,64.57,0.465,1650,2026-11-01,tracker+dataset+api+yt-dlp,
-nba,21CMU55yJTE,2026-10-11,Why Is LeBron Playing Against His Son? 😳 #nba,news,LeBron,fresh,question,27,none,76.06,104.17,0.544,10434,2026-11-01,tracker+dataset+api+yt-dlp,
-nba,ekZ1vvq6tvM,2026-10-12,Why Won't Big Men Shoot Underhand? 😳 #nba,rule,underhand,evergreen,question,24,none,59.02,94.94,0.473,1905,2026-11-01,tracker+dataset+api+yt-dlp,
-nba,Ctm9TiDMl4k,2026-10-12,Are Three Of 2007's Top Four Picks Still Playing? 🤯 #basketball,history,2007 draft,evergreen,question,22,none,60.42,98.26,0.484,5626,2026-11-01,tracker+dataset+api+yt-dlp,
-nba,hde8nIE1J4Y,2026-10-13,How Old Is The Oldest Triple-Double Ever? 👴 #nba,record,Russell Westbrook,evergreen,question,23,none,77.01,113.08,0.561,8738,2026-11-01,tracker+dataset+api+yt-dlp,
-nba,J3dltjY1cJo,2026-10-13,Did Bronny Actually Get Better 😳 #nba,stat,Bronny,fresh,statement,25,none,63.16,78.53,0.553,197,2026-11-01,tracker+dataset+api+yt-dlp,
-nba,mqpMv7EH7b8,2026-10-14,Why Jokic's Best Pass Doesn't Count 😳 #nba,rule,Jokic,fresh,statement,22,none,80.96,99.71,0.57,1690,2026-11-01,tracker+dataset+api+yt-dlp,
-nba,Wn80c_nRQ9I,2026-10-14,Is Anyone Taller Than Wemby? 😳 #nba,size,Wemby,evergreen,question,24,none,74.85,86.86,0.587,9811,2026-11-01,tracker+dataset+api+yt-dlp,
-nba,FYsYrJ2fJbo,2026-10-15,Why Jokic's Best Pass Doesn't Count 😳 #nba #basketball,rule,Jokic,fresh,statement,24,none,79.36,97.99,0.599,6790,2026-11-01,tracker+dataset+api+yt-dlp,
-nba,p1lVXskwifQ,2026-10-15,Why Does An $8 Million Rookie Still Carry Bags? 😭 #nba,oddity,Flagg,fresh,question,21,none,69.68,87.4,0.577,10482,2026-11-01,tracker+dataset+api+yt-dlp,
-nba,FOzE-QbG6kY,2026-10-15,Jokic Could Break Westbrook's Record By Christmas 🎄,record,Jokic,fresh,statement,26,none,63.72,80.15,0.581,2670,2026-11-01,tracker+dataset+api+yt-dlp,
-nba,Ro0oa2VLlqA,2026-10-16,Who Has Missed The Most Shots In NBA History? 😳 #nba,record42,LeBron,evergreen,question,24,none,84.31,97.96,0.591,25624,2026-11-01,tracker+dataset+api+yt-dlp,
-nba,WWOX4wV-F6g,2026-10-17,Can LeBron Win A Title With A Fourth Team? 😳 #nba,news,LeBron,evergreen,question,22,none,63.46,99.27,0.509,3327,2026-11-01,tracker+dataset+api+yt-dlp,
-nba,pJ7PVc__b2k,2026-10-18,Did The NBA Plan LeBron's First Game? 😳 #nba #knicks,news,LeBron,fresh,question,24,none,68.49,99.25,0.546,4986,2026-11-01,tracker+dataset+api+yt-dlp,
-nba,dQ1i1xzNsPY,2026-10-18,LeBron's Rookie Teammate Now Has A Son In The NBA 😳 #nba #lebronjames,oddity,LeBron,evergreen,statement,22,none,73.72,87.45,0.563,7144,2026-11-01,tracker+dataset+api+yt-dlp,
-nba,TXCDxMFV2kk,2026-10-18,Who Actually Won Game 4 Of The Finals? 😳  #nba #knicks,rule,Brunson,late news,question,22,none,59.25,77.18,0.523,3821,2026-11-01,tracker+dataset+api+yt-dlp,
-nba,z63RYPffwZc,2026-10-19,He's Not Steve Kerr… But His Name Is Steve 😳 #nba #warriors,oddity,Kerr,fresh,statement,20,none,77.43,106.15,0.495,6541,2026-11-01,tracker+dataset+api+yt-dlp,
-nba,_Oahi9sBi1A,2026-10-20,Who Has Missed The Most Threes In NBA History? 😳,record42,Harden,evergreen,question,24,none,83.31,95.86,0.591,23875,2026-11-01,tracker+dataset+api+yt-dlp,
-nba,G3KU7EJFSn4,2026-10-20,The Lakers Just Saved Bronny 😳 #nba,news,Bronny,fresh,statement,29,none,75.03,105.32,0.536,23705,2026-11-01,tracker+dataset+api+yt-dlp,
-nba,VGxzguM39Qc,2026-10-20,The NBA Just Banned This Bet 😳 #nba,rule,betting,fresh,statement,27,none,71.11,84.86,0.559,2841,2026-11-01,tracker+dataset+api+yt-dlp,
-nba,itGXIs3ju9M,2026-10-21,Wemby Just Had The Worst Night Of His Career 😳 #nba,"THE #42 FORMAT, superstar",Wemby,fresh,statement,21,none,72.62,103.81,0.534,10812,2026-11-01,dataset+api+yt-dlp,
-nba,v-OsiBSHwPM,2026-10-21,Why LeBron Isn't A Knick 😳 #nba,"news explainer, superstar",LeBron,fresh,statement,32,none,71.46,91.69,0.578,4308,2026-11-01,dataset+api+yt-dlp,
-nba,zmhLUXlMmxk,2026-10-22,All Three Williamses Got A Technical 😳 #nba,game oddity,no star,late news,statement,27,none,57.55,88.05,0.533,1510,2026-11-01,dataset+api+yt-dlp,
-nba,MBadEFl3VTs,2026-10-23,Who Has Lost The Most Games In NBA History? 😳 #nba,"THE #42 FORMAT, older star",no star,evergreen,question,22,none,59.06,89.44,0.493,5607,2026-11-01,dataset+api+yt-dlp,
-nba,cBo01-uem4w,2026-10-24,Why SGA Ended His Own NBA Record 😳 #nba #sga #thunder,,star,,question,25,,,94.58,0.495,8411,2026-11-01,api+yt-dlp,
-nba,q5rCS_qVspk,2026-10-25,Caitlin Clark Did What No NBA Player Has 😳 #wnba #caitlinclark,,no star,,statement,29,,,77.39,0.584,2758,2026-11-01,api+yt-dlp,
-nba,qHeq-Yujpa0,2026-10-26,Chuck Failed A Test With The Answers 😭,,no star,,statement,21,,,112.1,0.455,3371,2026-11-01,api+yt-dlp,
-nba,6zkyycL3WcY,2026-10-26,Luka Just Did What Kobe Never Did 😳 #nba,,star,,statement,20,,,152.93,0.493,1335,2026-11-01,api+yt-dlp,
-nba,lU6xSO1cAOY,2026-10-27,Haliburton Threw An Alley-Oop To Himself 😳 #nba,,no star,,statement,22,,,110.59,0.575,7636,2026-11-01,api+yt-dlp,
-nba,RPbRxmbMHms,2026-10-28,This Rookie Was A Hero For One Overtime 😭 #nba,,no star,,statement,22,,,99.62,0.615,8409,2026-11-01,api+yt-dlp,
-nba,-sFQhpw-bQ0,2026-10-28,This Kid Felt Every Free Throw 😭 #nba,,no star,,statement,22,,,98.96,0.574,23911,2026-11-01,api+yt-dlp,
-nba,7TUcj1PfObo,2026-10-29,He Left The NBA Finals In A Wheelchair 💀 #nba,,no star,,statement,25,,,101.23,0.488,5897,2026-11-01,api+yt-dlp,
-nba,y5dxVvGGaMI,2026-10-30,The NBA star who skipped a Finals practice to go wrestling #nba,,no star,,statement,56,,,83.33,0.511,1085,2026-11-01,api+yt-dlp,
-nba,bW9XjIjY4Gg,2026-11-01,Wemby Blocked A Three And Scored Point 40 Five Seconds Later,,star,,number,,no,,,,6400,2026-11-03,scheduled+yt-dlp,
-nba,Viv9BG01pt0,2026-11-01,LeBron Is 40 Assists Behind Jason Kidd,,star,,number,,no,,,,4000,2026-11-03,scheduled+yt-dlp,
-nba,ypyY6KpZ7is,2026-11-02,Cooper Flagg's Rookie Year Beat LeBron's In Two Of Three Numbers,,star,,statement,,no,,,,3500,2026-11-03,scheduled+yt-dlp,
-nba,r3UXcgNP7ks,2026-11-02,Bones Hyland Got A Technical For A Fake Throw 😭,,no star,,statement,,,,,,15000,2026-11-03,scheduled+yt-dlp,
-nba,d3-PsGkZ_js,2026-11-03,Draymond Green Had A Triple-Double With Four Points,,star,,statement,,no,,,,1000,2026-11-03,scheduled+yt-dlp,
-nba,QZekYBk6ML4,2026-11-03,"Jokic Said No To His Own Parade, Never To His Horses",,star,,statement,,no,,,,625,2026-11-03,scheduled+yt-dlp,
-nba,-16mWmXHKxY,2026-11-04,Iguodala Says Steph Should Have Won The 2015 Finals MVP,,star,,number,,no,,,,,,scheduled,
-nba,pYEOSKOVWPE,2026-11-04,Kobe Missed Eighteen Shots In Game 7 And Still Won Finals MVP,,star,,number,,no,,,,,,scheduled,
-nba,Oap4e3wXcGw,2026-11-05,Jokic Was Drafted During A Taco Bell Commercial,,star,,statement,,no,,,,,,scheduled,
-nba,jY_6GdLH654,2026-11-05,The Warriors Did Something No Team Had Done In The Shot Clock Era,,no star,,statement,,no,,,,,,scheduled,
+channel,video_id,posted,title,lane,star,fresh,title_shape,length_s,music,stayed_pct,avg_pct_viewed,engaged_ratio,views,views_date,source,notes,shape,subs
+fc,y2aDVIc9rfg,2026-10-22,Players who got in TROUBLE the day before a derby,story: mischief,no star,evergreen,statement,64,,56.16,81.9,0.534,1820,2026-11-04,dataset+api+yt-dlp,,club story,4
+fc,Wcaa80VvBmU,2026-10-22,The goalkeeper who hid a cheat sheet in his sock,story: secret object,no star,evergreen,statement,60,,80.38,92.82,0.557,28281,2026-11-04,dataset+api+yt-dlp,,goalkeeper trick,86
+fc,9GJgflHx7pE,2026-10-23,Goalkeepers who danced on the line to win a final,story: trick,no star,evergreen,statement,71,,64.68,82.9,0.608,15550,2026-11-04,dataset+api+yt-dlp,,goalkeeper trick,11
+fc,ORnkQcenDd8,2026-10-24,The player who scored 5 goals in 9 minutes,,no star,,number,59,,,63.93,0.532,2051,2026-11-04,api+yt-dlp,,player record,1
+fc,svDicOCeh7I,2026-10-25,Players who got sent off in their very last game,,no star,,statement,58,,,72.48,0.602,1965,2026-11-04,api+yt-dlp,,club story,0
+fc,DfDEyHM33is,2026-10-26,Goalkeepers who hid a cheat sheet on their water bottle,,no star,,statement,60,,,96.07,0.554,29167,2026-11-04,api+yt-dlp,,goalkeeper trick,8
+fc,7KriW5jkFVc,2026-10-26,The team with worse odds than the Loch Ness monster,,no star,,statement,56,,,79.27,0.528,2512,2026-11-04,api+yt-dlp,,club story,2
+fc,M40gpi_afJo,2026-10-27,The England player who kept Maradona's Hand of God shirt,,star,,statement,53,,,73.58,0.598,3255,2026-11-04,api+yt-dlp,,club story,4
+fc,WCeenVoseEM,2026-10-28,Barcelona paid a fortune for the player who knocked them out,,no star,,statement,53,,,68.27,0.564,1146,2026-11-04,api+yt-dlp,,club story,3
+fc,vwySCjDCmF8,2026-10-29,The manager who told his team to stop scoring,,no star,,statement,58,,,66.72,0.598,3107,2026-11-04,api+yt-dlp,,manager,1
+fc,oeHLlOVX4ec,2026-10-30,Goalkeepers who were subbed on just for the penalties #football,,no star,,statement,56,,,87.07,0.621,20822,2026-11-04,yt-dlp+api,,goalkeeper trick,35
+fc,rjsig3vMYU4,2026-10-31,The manager Barcelona soaked with sprinklers got his revenge #football,,no star,,statement,52,,,72.99,0.561,2268,2026-11-04,yt-dlp+api,,manager,1
+fc,BOsvemp6eTE,2026-11-01,Man United's Penalty Nightmare Is Now Saving Man City,,no star,,statement,57,yes,,64.03,0.598,2080,2026-11-04,scheduled+yt-dlp+api,,club story,3
+fc,ClFHN2NXXyU,2026-11-02,Barcelona Signed Messi On A Paper Napkin,,star,,statement,,no,,,,1000,2026-11-04,scheduled+yt-dlp,,club story,
+fc,LgP8hGayRiE,2026-11-03,The England subs brought on only for penalties,,no star,,statement,,yes,,,,5600,2026-11-04,scheduled+yt-dlp,,goalkeeper trick,
+fc,vJb1PgdvECU,2026-11-04,Goalkeepers who took their gloves off to save a penalty,,no star,,statement,,no,,,,2300,2026-11-04,scheduled+yt-dlp,,goalkeeper trick,
+fc,6-9L9sJhc1s,2026-11-05,,,no star,,statement,,yes,,,,,,scheduled,,,
+fc,wN54kSw6Sic,2026-11-06,,,no star,,statement,,no,,,,,,scheduled,,,
+fc,HNWSiLaQ3Nw,2026-11-07,The goalkeeper who says Spain were scared of a shootout,,no star,,statement,,no,,,,,,scheduled,,goalkeeper trick,
+fc,BkmKTjuNNO0,2026-11-08,The player who moved two Coca-Cola bottles at the Euros,,no star,,statement,,yes,,,,,,scheduled,,player story,
+nba,l3bgfNytp0Y,2025-11-08,Top 4 Funniest Sora AI doorbell videos🤣 #funny #viral #top5 #memes #ai #soraai #comedy,,no star,,statement,32,,100,38.42,,1,2026-10-14,all80+tracker+dataset+yt-dlp,,,
+nba,knBZz6xgTZ0,2025-11-09,Stadium Hack Gone Wrong 😂🍺 #ai #comedy #funny #shorts #football,,no star,,statement,15,,75,65.83,,10,2026-10-14,all80+tracker+dataset+yt-dlp,,,
+nba,OYd7-lwnudc,2025-11-09,POV: Snoop Dogg at Your Front Door 🚪💨 #ai #comedy #funny #soraai,,no star,,statement,14,,100,275.71,,4,2026-10-17,all80+tracker+dataset+yt-dlp,,,
+nba,sIL5vMDc2RM,2025-11-09,You Won’t Believe Why Snoop Got Pulled Over 😳💨 #ai #comedy #funny #soraai,,no star,,statement,16,,,,,3600,2026-10-14,all80+tracker+dataset+yt-dlp,,,
+nba,KyMyEchd1V8,2025-11-10,Squirrel Starts Nut Business… Then THIS Happened 🐿 #animals #Shorts #ai AnimalTok,,no star,,statement,20,,,,,6800,2026-10-14,all80+tracker+dataset+yt-dlp,,,
+nba,srDwbaimdAs,2025-11-11,Fishing Trip Gone Wild 😳 #shorts #funny #fishing #comedy,,no star,,statement,16,,,,,72,2026-10-21,all80+tracker+yt-dlp,,,
+nba,RXsFRXUi3nY,2025-11-11,This Yarn Love Story Hits HARD 💔 #shorts #storytime #ai,,no star,,statement,25,,,,,911,2026-10-14,all80+tracker+dataset+yt-dlp,,,
+nba,At1cNc7ykIE,2025-11-12,New AI App Is SCARY... 👀 #ai #sora #memes,,no star,,statement,25,,,,,1000,2026-10-14,all80+tracker+dataset+yt-dlp,,,
+nba,iFXKKkREY3o,2025-11-14,NBA Fan Did WHAT?! 😳 #nba #shorts #funny,,no star,,question,30,,,,,7300,2026-10-21,all80+tracker+yt-dlp,,,
+nba,ofZO-VUgKbQ,2025-11-15,The NBA Has Never Seen This Before 🤯 #wemby #nba #shorts,,star,,statement,29,,,,,0,2026-10-14,all80+tracker+dataset+yt-dlp,,,
+nba,daIsE50TcoQ,2025-11-16,Fans Noticed Something Strange on Curry… 👀 #nba #shorts #curry,,Curry,,statement,28,,,,,0,2026-10-14,all80+tracker+dataset+yt-dlp,,,
+nba,pr-JQuzAUxY,2025-11-17,Why Giannis Took The Ball From The Refs 👀 #nba #giannis #shorts,,Giannis,,statement,25,,66.67,75.57,,4,2026-10-14,all80+tracker+dataset+yt-dlp,,,
+nba,4Km3GInLXNQ,2025-11-20,LeBron Just Broke NBA History Tonight 👀 #nba #lebron #shorts,,star,,statement,28,,,,,5200,2026-10-21,all80+tracker+yt-dlp,,,
+nba,AMXRI1TXX0E,2025-11-22,Why Cooper Flagg Is Scaring NBA Defenders 👀 #nba #shorts #cooperflagg,,Flagg,,statement,27,,,,,1,2026-10-24,all80+tracker+dataset+yt-dlp,,,
+nba,7CniAq-eKaU,2025-11-23,Chris Paul Didn’t Deserve This Ending 😢 #ChrisPaul #NBA #Basketball,,no star,,statement,27,,,,,0,2026-10-24,all80+tracker+dataset+yt-dlp,,,
+nba,LtVnUM36j-Q,2025-11-23,Wemby Just Broke Basketball 🤯 #NBA #wembanyama #shorts,,Wemby,,statement,23,,,,,0,2026-10-14,all80+tracker+dataset+yt-dlp,,,
+nba,1b7XJVYSYh8,2025-11-25,Is Shai Gilgeous-Alexander Cheating the NBA? 😳 #NBA #Shorts #SGA,,Shai,,question,22,,100,98.32,,3,2026-10-24,all80+tracker+dataset+yt-dlp,,,
+nba,DzOSG1l5dLc,2025-11-28,Should Giannis Finally Leave the Bucks? #NBA #Giannis #Bucks,,Giannis,,question,18,,,,,12000,2026-10-14,all80+tracker+dataset+yt-dlp,,,
+nba,dDzA3RIBMYw,2025-11-29,Are The Lakers The Luckiest Team Ever? #NBA #Lakers #Basketball,,no star,,question,29,,,,,0,2026-10-14,all80+tracker+dataset+yt-dlp,,,
+nba,Cj2E9b6WvBE,2025-11-29,Why Does No One Like Bronny James? #NBA #Bronny #lakers,,Bronny,,question,23,,100,146.52,,4,2026-10-24,all80+tracker+dataset+yt-dlp,,,
+nba,IkF3fr78SMs,2025-12-01,Is Bronny James Really This Bad? 🤔 #Bronny #NBA #Lakers,,Bronny,,question,25,,50,73.08,,5,2026-10-24,all80+tracker+dataset+yt-dlp,,,
+nba,DeVpCe6IGSg,2025-12-02,Why Everyone Is Scared of Wemby 😳 #Wemby #NBA #NBAShorts,,Wemby,,statement,21,,100,93.9,,4,2026-10-14,all80+tracker+dataset+yt-dlp,,,
+nba,JCJTfydGJkc,2025-12-02,Drafted During a Taco Bell Ad… Now He Runs the NBA #NBA #NikolaJokic #shorts,,Jokic,,statement,29,,63.64,34.29,,11,2026-10-17,all80+tracker+dataset+yt-dlp,,,
+nba,RbWCzbEizOk,2025-12-03,What Happened to the Airless Basketball? #NBA #Basketball #Tech,,no star,,question,29,,0,,,1,2026-10-14,all80+tracker+dataset+yt-dlp,,,
+nba,c97-jCt0IaM,2025-12-19,The Truth About Steph Curry's Shot... #NBA #StephCurry #basketball,,Steph,,statement,19,,,,,33000,2026-10-14,all80+tracker+dataset+yt-dlp,,,
+nba,dFe8abJKMcY,2025-12-20,The NBA’s Most Hated MVP? 👀 #SGA #NBA #Basketball,,SGA,,question,22,,100,61.55,,3,2026-10-14,all80+tracker+dataset+yt-dlp,,,
+nba,GuViZy0_ryU,2025-12-21,The Rookie Who Earned LeBron’s Respect in One Possession #NBA #LeBron #Luka,,LeBron,,statement,28,,25,99.32,,5,2026-10-14,all80+tracker+dataset+yt-dlp,,,
+nba,u4Ng66RljJA,2025-12-21,Dillon Brooks vs LeBron Went Horribly Wrong #NBA #LeBron #Viral,,LeBron,,statement,23,,,,,0,2026-10-14,all80+tracker+dataset+yt-dlp,,,
+nba,Y-lsvflgmfY,2025-12-23,This Ref Is Going Viral for the Wildest Reason #Basketball #Viral #NBA,,no star,,statement,28,,,,,20000,2026-10-14,all80+tracker+dataset+yt-dlp,,,
+nba,ZJ0PNc-5Qbk,2025-12-24,The Best Christmas Game the NBA Ever Had 🎄👑 #NBA #LeBronJames #curry,,LeBron,,statement,20,,,,,21000,2026-10-14,all80+tracker+dataset+yt-dlp,,,
+nba,IDNj2P5exJ8,2025-12-25,Who Shaq Thinks Is Better Than LeBron #NBA #LeBron #shaq,,LeBron,,statement,30,,75,8.11,,4,2026-10-17,all80+tracker+dataset+yt-dlp,,,
+nba,y2ZD5aLKtyA,2025-12-27,The Rarest Moment in NBA History 🤯 #NBA #Basketball #Shorts,,no star,,statement,19,,100,105.5,,2,2026-10-24,all80+tracker+dataset+yt-dlp,,,
+nba,rtekLyud_FA,2025-12-28,Why Bronny James Won’t Shoot… #NBA #BronnyJames #Lakers,,Bronny,,statement,22,,34.62,54.41,,32,2026-10-17,all80+tracker+dataset+yt-dlp,,,
+nba,q8vZpzNaifQ,2025-12-29,Bronny James 1v1 With  NBA All-Star 🤯 #NBA #LeBron #Bronny,,Bronny,,statement,24,,84.27,82,,147,2026-10-14,all80+tracker+dataset+yt-dlp,,,
+nba,EUE1B0DV3Lw,2025-12-30,This Shot Started the Craziest Basketball War Ever 🏀🔥 #NBA #Basketball #shorts,,no star,,statement,24,,,,,34000,2026-10-14,all80+tracker+dataset+yt-dlp,,,
+nba,hJ9m5jZpAWw,2025-12-31,The Most Unselfish Star in NBA History 🤯 #NBA #Basketball #Spurs,,no star,,statement,27,,100,22.61,,1,2026-10-14,all80+tracker+dataset+yt-dlp,,,
+nba,GHBM_NKgLHI,2025-12-31,Sabrina Ionescu Got Locked Up 😳 #NBA #WNBA #Basketball,,no star,,statement,20,,33.33,94.89,,11,2026-10-17,all80+tracker+dataset+yt-dlp,,,
+nba,yZ5Hky-vYs8,2026-01-01,3 Plays That Turned Bronny Into a Starter #Bronny #NBA #lakers,,Bronny,,statement,16,,100,105.18,,2,2026-10-24,all80+tracker+dataset+yt-dlp,,,
+nba,OLBqzS7nqL4,2026-01-02,Why the WNBA Is a Joke 🤯 #nba #wnba #shorts,,no star,,statement,30,,100,119.19,,2,2026-10-14,all80+tracker+dataset+yt-dlp,,,
+nba,g9cxHAHWSIc,2026-01-04,The NBA’s Secret Disaster Draft Plan 🤯 #NBA #Basketball #lebron,,star,,statement,23,,100,82.3,,10,2026-10-17,all80+tracker+dataset+yt-dlp,,,
+nba,myvPkUnuEsw,2026-01-04,The NBA Once Traded a Player for a Copy Machine 🖨️  #basketball #nba #lebron,,star,,statement,24,,100,139.96,,2,2026-10-14,all80+tracker+dataset+yt-dlp,,,
+nba,pQVSDVIgQ1s,2026-01-11,The Most Unreal Ending in NBA History… Kobe’s Final Game 🐍 #NBA #Kobe #Mamba,,star,,statement,29,,100,100.72,,2,2026-10-24,all80+tracker+dataset+yt-dlp,,,
+nba,lMqzDejWlMs,2026-01-12,Wemby makes everything look small.. #Wemby #NBA #Basketball,,Wemby,,statement,25,,0,,,0,2026-10-14,all80+tracker+dataset+yt-dlp,,,
+nba,euYscYp0vC4,2026-01-13,Rudy Gobert Crossed the Line 😡 #NBA #Wemby #Spurs,,Wemby,,statement,20,,,,,14000,2026-10-14,all80+tracker+dataset+yt-dlp,,,
+nba,etHVxBaM0sE,2026-01-15,Why NBA Players Don’t Shoot at the End of Quarters #NBA #Shorts,,no star,,statement,25,,85.71,130.31,,14,2026-10-14,all80+tracker+dataset+yt-dlp,,,
+nba,tj4iLYfsNEQ,2026-01-15,Why Steph Curry Almost Never Dunks #NBA #Basketball #shorts,,Steph,,statement,20,,,,,28000,2026-10-14,all80+tracker+dataset+yt-dlp,,,
+nba,GjwCjDB61z0,2026-01-17,Only Steph Would Notice This.. #stephcurry #nba  #shorts,,Steph,,statement,20,,37.5,59.98,,8,2026-10-14,all80+tracker+dataset+yt-dlp,,,
+nba,0OKMHZSPAM4,2026-01-17,They Tried Everything to Stop Curry 🤯 #StephCurry #Basketball #Shorts,,Curry,,statement,20,,100,236.71,,6,2026-10-24,all80+tracker+dataset+yt-dlp,,,
+nba,4mdJwEwhV5k,2026-01-18,He Scored on His Own Basket on Purpose 😳 #NBA #JasonWilliams #shorts,,no star,,statement,16,,87.5,102.44,,13,2026-10-24,all80+tracker+dataset+yt-dlp,,,
+nba,j5FVY0Brh6A,2026-01-18,Is This the Craziest Play in Basketball History? 🤯 #Basketball #Shorts #Clutch,,no star,,question,15,,50,306.67,,5,2026-10-24,all80+tracker+dataset+yt-dlp,,,
+nba,iv7H2VvpiL0,2026-01-19,The Silent Basketball Is Back? 🟠#basketball #tech #viral,,no star,,question,20,,100,148,,2,2026-10-24,all80+tracker+dataset+yt-dlp,,,
+nba,fxW7Db6wGm4,2026-01-19,Steph And His Dad 🏀 #StephCurry #NBA #shorts,,Steph,,statement,10,,100,357,,4,2026-10-24,all80+tracker+dataset+yt-dlp,,,
+nba,aO3O13dlHqs,2026-01-21,This New NBA Rule Is Crazy.. 😳#NBA #GLeague #Basketball,,no star,,statement,17,,66.67,73.33,,4,2026-10-24,all80+tracker+dataset+yt-dlp,,,
+nba,h1vyhjIn2lE,2026-01-21,Why Everyone Hates Dillon Brooks 😤#DillonBrooks #NBA #JimmyButler,,no star,,statement,25,,57.14,97.92,,12,2026-10-17,all80+tracker+dataset+yt-dlp,,,
+nba,9YZpK7uqm2s,2026-01-23,The Most 200 IQ Play... #NBA #LukaDoncic #basketball,,Luka,,statement,16,,60,75.57,,6,2026-10-17,all80+tracker+dataset+yt-dlp,,,
+nba,Aw7N2zXpb7E,2026-01-24,NBA Players Are Doing THIS  😳#NBA #FreeThrow #Basketball,,no star,,statement,17,,75,108.85,,11,2026-10-14,all80+tracker+dataset+yt-dlp,,,
+nba,jQl8K9lnxXk,2026-01-24,Caitlin Clark’s Misunderstanding 😳#WNBA #nba  #Basketball,,Clark,,statement,19,,100,134.65,,14,2026-10-14,all80+tracker+dataset+yt-dlp,,,
+nba,fmUIHDOyqGI,2026-01-25,Luka's Cheat Code Exposed.. #NBA #LukaDoncic #Basketball,,Luka,,statement,16,,66.67,73.86,,9,2026-10-14,all80+tracker+dataset+yt-dlp,,,
+nba,A6DQ6xLiYbc,2026-01-26,Why NBA Players Stopped Shooting Underhand.. #NBA #Basketball #Shorts,,no star,,statement,22,,50,66.92,,8,2026-10-14,all80+tracker+dataset+yt-dlp,,,
+nba,l2dYYgd5lsg,2026-01-27,Why Steven Adams Won't Sign Autographs...,,no star,,statement,23,,50,73.43,,2,2026-10-14,all80+tracker+dataset+yt-dlp,,,
+nba,Oom6nHLw9iM,2026-01-27,What Happens To An NBA Court After A Game?,,no star,,question,24,,100,77.59,,4,2026-10-14,all80+tracker+dataset+yt-dlp,,,
+nba,dt8RcJlhkTQ,2026-01-28,He Scored on the Wrong Hoop 😳 #NBA #OKC #shorts,,no star,,statement,23,,100,92,,5,2026-10-14,all80+tracker+dataset+yt-dlp,,,
+nba,LH1t_7JC3qE,2026-02-01,Is It Possible To Dunk Without Jumping? #Basketball #Wemby #Shorts,,Wemby,,question,20,,71.43,67.43,,19,2026-10-14,all80+tracker+dataset+yt-dlp,,,
+nba,7n7YcwHDmWo,2026-02-01,The Most Dangerous Basketball Court 😳⛰️ #Basketball #Shorts #hoops,,no star,,statement,20,,75,69.02,,6,2026-10-17,all80+tracker+dataset+yt-dlp,,,
+nba,eW-YIZywgVg,2026-02-02,Can Bronny Actually Stick in the NBA? 🏀 #BronnyJames #NBA #Shorts,,Bronny,,question,29,,100,124.67,,4,2026-10-14,all80+tracker+dataset+yt-dlp,,,
+nba,rYMlzPDNyvw,2026-02-05,The Only 8-Point Play in NBA History 😳 #NBA #Basketball #Shorts,,no star,,statement,32,,72.73,63.64,,23,2026-10-17,all80+tracker+dataset+yt-dlp,,,
+nba,YUc_OzCCR1s,2026-02-06,Remember LaMelo Dropping 92?! 😳🏀 #LaMeloBall #Basketball #Shorts,,no star,,question,20,,100,74.98,,7,2026-10-17,all80+tracker+dataset+yt-dlp,,,
+nba,qyX-UqUH33w,2026-02-07,Westbrook Got Mad… Then He Understood 😳🏀 #NBA #Westbrook #shorts,,no star,,statement,20,,100,103.55,,8,2026-10-14,all80+tracker+dataset+yt-dlp,,,
+nba,wufqOsCahlQ,2026-02-08,Why the NBA Stopped Throwing Backboard Passes 🏀 #NBA #Basketball #Shorts,,no star,,statement,23,,71.43,110.43,,14,2026-10-17,all80+tracker+dataset+yt-dlp,,,
+nba,o0xeBigA9gA,2026-02-09,LeBron’s Warmup “Checklist” 👀 #NBA #LeBron #Shorts,,LeBron,,statement,22,,75,44.9,,4,2026-10-14,all80+tracker+dataset+yt-dlp,,,
+nba,YX3dl6fpdSM,2026-02-11,Jay Huff’s Dunk Habit Is Not Random 😳 #NBA #Basketball #Shorts,,no star,,statement,19,,75,80.18,,6,2026-10-14,all80+tracker+dataset+yt-dlp,,,
+nba,jQfhvFRrvCQ,2026-02-12,NBA Team Sells Tickets For $0...  #basketball #nba #shorts,,no star,,statement,21,,100,169.95,,8,2026-10-14,all80+tracker+dataset+yt-dlp,,,
+nba,bCkPPTfLU0k,2026-02-13,Ja Morant’s Clock Loophole 😳⏱️ #NBA #JaMorant #Shorts,,no star,,statement,24,,80,61.29,,6,2026-10-17,all80+tracker+dataset+yt-dlp,,,
+nba,T6G8eU4YscU,2026-02-14,Steph Curry VS Carnival Hoop..  #NBA #StephCurry #Shorts,,Steph,,statement,21,,66.67,94.12,,8,2026-10-14,all80+tracker+dataset+yt-dlp,,,
+nba,aCMYKHSrgUQ,2026-02-15,The Only Word In Spanish Ja Knows..  #nba #basketball #jamorant,,no star,,statement,17,,55.56,100.46,,14,2026-10-14,all80+tracker+dataset+yt-dlp,,,
+nba,ITtfoMsanjo,2026-02-18,He Finally Hit the Cleanest Swish Ever  #Basketball #Shorts #Hoops,,no star,,statement,18,,75,119.78,,14,2026-10-14,all80+tracker+dataset+yt-dlp,,,
+nba,cWOBthiwSPc,2026-02-21,This Foul Started an NBA Brawl 😳🥊 #NBA #Fight #Shorts,,no star,,statement,33,,62.5,138.45,,11,2026-10-14,all80+tracker+dataset+yt-dlp,,,
+nba,MlBGaSrtI8w,2026-02-21,Should the NBA Ban This Stat Padding? 😳 #NBA #Giannis #Shorts,,Giannis,,question,18,,70,72.44,,16,2026-10-14,all80+tracker+dataset+yt-dlp,,,
+nba,lefllK_7fo0,2026-02-22,The World’s Hardest Dunk 😳🏀 #Dunk #Basketball #Shorts,,no star,,statement,25,,50,121.8,,13,2026-10-14,all80+tracker+dataset+yt-dlp,,,
+nba,6TGSgOosuuA,2026-02-23,This NBA Player Sleeps On The FLOOR? #NBA #StevenAdams #Shorts,,no star,,question,24,,47.62,63.33,,24,2026-10-14,all80+tracker+dataset+yt-dlp,,,
+nba,GXLFoj7QBls,2026-10-03,Did Jalen Duren Just Leave $87 Million? 😳,contract,Duren,fresh,question,33,none,69.44,71.11,,2855,2026-10-14,tracker+dataset+yt-dlp,,business,
+nba,9FLigGnYiXE,2026-10-03,How Did Nobody Vote Against Wemby? 🤯,rule,Wemby,fresh,question,24,none,80.16,103.96,,26986,2026-10-14,tracker+dataset+yt-dlp,,rule,
+nba,W9DuX2cYmyY,2026-10-04,Would Jordan's Last Shot Be a Foul Now? 😳,rule,Jordan,evergreen,question,25,none,56.25,75.07,0.444,45,2026-10-31,tracker+dataset+api+yt-dlp,,rule,0
+nba,74hpWW4j5AM,2026-10-04,Why Two Men Can Still Wear Six 😳,rule,Russell/Bird,evergreen,statement,26,none,82.37,115.54,,31832,2026-10-17,tracker+dataset+yt-dlp,,rule,
+nba,_s1pK_f_MmQ,2026-10-04,LeBron Left Sixers Practice By Helicopter 😳,news,LeBron,fresh,statement,27,none,66.55,89.21,,2912,2026-10-17,tracker+dataset+yt-dlp,,news,
+nba,AwmPdOf5cqc,2026-10-05,Is Bronny's Spot Really Safe? 😳,news,Bronny,fresh,question,29,none,68.42,97.11,0.55,5749,2026-10-31,tracker+dataset+api+yt-dlp,,family,2
+nba,BB5bimx-DJ8,2026-10-05,The NBA Final That Does Not Count 😳,rule,NBA Cup,evergreen,statement,23,none,51.48,72.64,0.497,2340,2026-10-31,tracker+dataset+api+yt-dlp,,rule,0
+nba,O79rd7rj13w,2026-10-06,Did Bronny Actually Get Better 😳,stat,Bronny,fresh,statement,25,none,63.64,68.36,0.589,1950,2026-11-01,tracker+dataset+api+yt-dlp,,family,0
+nba,V8EoO4g7s_k,2026-10-06,How Tall Is Cooper Flagg Really 😳,size,Flagg,fresh,statement,22,none,74.04,100.93,0.515,22048,2026-11-01,tracker+dataset+api+yt-dlp,,size,6
+nba,Jbo4jxfz0yw,2026-10-06,Why Steven Adams Fears GTA 6 In November 😳,oddity,Adams,fresh,statement,23,none,66.23,94.74,0.536,6001,2026-10-31,tracker+dataset+api+yt-dlp,,oddity,1
+nba,RIcim5660vI,2026-10-07,Did The NBA Call Out Four Stars 😳,rule,stars,fresh,statement,24,none,63.12,115.29,0.579,1617,2026-11-01,tracker+dataset+api+yt-dlp,,rule,1
+nba,3Mm0nxDct-s,2026-10-07,Why Giannis Faces The Bucks In Vice City 😳,oddity,Giannis,fresh,statement,26,none,65.94,80.24,0.578,2918,2026-11-01,tracker+dataset+api+yt-dlp,,oddity,1
+nba,iaRj9O1g-uA,2026-10-08,Did The NBA Just BAN Flopping?  😳,rule,flopping,fresh,question,29,none,70.88,81.41,0.594,6910,2026-11-01,tracker+dataset+api+yt-dlp,,rule,3
+nba,HUpiKcW60lg,2026-10-08,How Many Picks Did Kawhi Cost? 😳,contract,Kawhi,evergreen,question,23,none,50.06,91.77,0.442,1887,2026-11-01,tracker+dataset+api+yt-dlp,,business,2
+nba,9LZbvH71oBI,2026-10-09,Why Did Wemby Train With A Rugby Team? 🏉,oddity,Wemby,fresh,question,26,none,61.3,78.54,0.543,2987,2026-11-01,tracker+dataset+api+yt-dlp,,oddity,1
+nba,1hxiFdH0ddA,2026-10-09,Why LeBron Took a 92% Pay Cut 😳,contract,LeBron,evergreen,statement,24,none,74.47,109.3,0.516,3990,2026-11-01,tracker+dataset+api+yt-dlp,,business,5
+nba,_ABYy6GqzTM,2026-10-10,Is Bad Boys Pistons Defense Illegal Now 😳?  #nba #basketball #sports,rule,Pistons,evergreen,question,27,none,47.82,64.56,0.465,1653,2026-11-04,tracker+dataset+api+yt-dlp,,rule,0
+nba,21CMU55yJTE,2026-10-11,Why Is LeBron Playing Against His Son? 😳 #nba,news,LeBron,fresh,question,27,none,76.06,104.18,0.544,10436,2026-11-04,tracker+dataset+api+yt-dlp,,family,13
+nba,ekZ1vvq6tvM,2026-10-12,Why Won't Big Men Shoot Underhand? 😳 #nba,rule,underhand,evergreen,question,24,none,59.02,94.87,0.473,1906,2026-11-04,tracker+dataset+api+yt-dlp,,rule,0
+nba,Ctm9TiDMl4k,2026-10-12,Are Three Of 2007's Top Four Picks Still Playing? 🤯 #basketball,history,2007 draft,evergreen,question,22,none,60.42,98.26,0.484,5626,2026-11-04,tracker+dataset+api+yt-dlp,,history,0
+nba,hde8nIE1J4Y,2026-10-13,How Old Is The Oldest Triple-Double Ever? 👴 #nba,record,Russell Westbrook,evergreen,question,23,none,77.01,113.08,0.561,8738,2026-11-04,tracker+dataset+api+yt-dlp,,superlative,2
+nba,J3dltjY1cJo,2026-10-13,Did Bronny Actually Get Better 😳 #nba,stat,Bronny,fresh,statement,25,none,63.16,78.53,0.553,197,2026-11-04,tracker+dataset+api+yt-dlp,,family,0
+nba,mqpMv7EH7b8,2026-10-14,Why Jokic's Best Pass Doesn't Count 😳 #nba,rule,Jokic,fresh,statement,22,none,80.96,99.71,0.57,1690,2026-11-04,tracker+dataset+api+yt-dlp,,rule,0
+nba,Wn80c_nRQ9I,2026-10-14,Is Anyone Taller Than Wemby? 😳 #nba,size,Wemby,evergreen,question,24,none,74.85,86.85,0.587,9815,2026-11-04,tracker+dataset+api+yt-dlp,,size,3
+nba,FYsYrJ2fJbo,2026-10-15,Why Jokic's Best Pass Doesn't Count 😳 #nba #basketball,rule,Jokic,fresh,statement,24,none,79.36,97.98,0.599,6791,2026-11-04,tracker+dataset+api+yt-dlp,,rule,5
+nba,p1lVXskwifQ,2026-10-15,Why Does An $8 Million Rookie Still Carry Bags? 😭 #nba,oddity,Flagg,fresh,question,21,none,69.68,87.4,0.577,10483,2026-11-04,tracker+dataset+api+yt-dlp,,business,3
+nba,FOzE-QbG6kY,2026-10-15,Jokic Could Break Westbrook's Record By Christmas 🎄,record,Jokic,fresh,statement,26,none,63.72,80.15,0.581,2670,2026-11-04,tracker+dataset+api+yt-dlp,,superlative,2
+nba,Ro0oa2VLlqA,2026-10-16,Who Has Missed The Most Shots In NBA History? 😳 #nba,record42,LeBron,evergreen,question,24,none,84.31,97.96,0.591,25624,2026-11-04,tracker+dataset+api+yt-dlp,,superlative,13
+nba,WWOX4wV-F6g,2026-10-17,Can LeBron Win A Title With A Fourth Team? 😳 #nba,news,LeBron,evergreen,question,22,none,63.46,99.27,0.509,3327,2026-11-04,tracker+dataset+api+yt-dlp,,news,2
+nba,pJ7PVc__b2k,2026-10-18,Did The NBA Plan LeBron's First Game? 😳 #nba #knicks,news,LeBron,fresh,question,24,none,68.49,99.27,0.546,4996,2026-11-04,tracker+dataset+api+yt-dlp,,news,3
+nba,dQ1i1xzNsPY,2026-10-18,LeBron's Rookie Teammate Now Has A Son In The NBA 😳 #nba #lebronjames,oddity,LeBron,evergreen,statement,22,none,73.72,87.43,0.563,7146,2026-11-04,tracker+dataset+api+yt-dlp,,family,1
+nba,TXCDxMFV2kk,2026-10-18,Who Actually Won Game 4 Of The Finals? 😳  #nba #knicks,rule,Brunson,late news,question,22,none,59.25,77.18,0.523,3821,2026-11-04,tracker+dataset+api+yt-dlp,,rule,2
+nba,z63RYPffwZc,2026-10-19,He's Not Steve Kerr… But His Name Is Steve 😳 #nba #warriors,oddity,Kerr,fresh,statement,20,none,77.43,105.2,0.496,6832,2026-11-04,tracker+dataset+api+yt-dlp,,oddity,5
+nba,_Oahi9sBi1A,2026-10-20,Who Has Missed The Most Threes In NBA History? 😳,record42,Harden,evergreen,question,24,none,83.31,95.82,0.592,23889,2026-11-04,tracker+dataset+api+yt-dlp,,superlative,9
+nba,G3KU7EJFSn4,2026-10-20,The Lakers Just Saved Bronny 😳 #nba,news,Bronny,fresh,statement,29,none,75.03,105.3,0.536,23708,2026-11-04,tracker+dataset+api+yt-dlp,,family,19
+nba,VGxzguM39Qc,2026-10-20,The NBA Just Banned This Bet 😳 #nba,rule,betting,fresh,statement,27,none,71.11,84.86,0.559,2841,2026-11-04,tracker+dataset+api+yt-dlp,,rule,0
+nba,itGXIs3ju9M,2026-10-21,Wemby Just Had The Worst Night Of His Career 😳 #nba,"THE #42 FORMAT, superstar",Wemby,fresh,statement,21,none,72.62,103.81,0.534,10814,2026-11-04,dataset+api+yt-dlp,,superlative,3
+nba,v-OsiBSHwPM,2026-10-21,Why LeBron Isn't A Knick 😳 #nba,"news explainer, superstar",LeBron,fresh,statement,32,none,71.46,91.7,0.578,4309,2026-11-04,dataset+api+yt-dlp,,news,0
+nba,zmhLUXlMmxk,2026-10-22,All Three Williamses Got A Technical 😳 #nba,game oddity,no star,late news,statement,27,none,57.55,88.04,0.533,1514,2026-11-04,dataset+api+yt-dlp,,moment,1
+nba,MBadEFl3VTs,2026-10-23,Who Has Lost The Most Games In NBA History? 😳 #nba,"THE #42 FORMAT, older star",no star,evergreen,question,22,none,59.06,89.44,0.493,5607,2026-11-04,dataset+api+yt-dlp,,superlative,2
+nba,cBo01-uem4w,2026-10-24,Why SGA Ended His Own NBA Record 😳 #nba #sga #thunder,,star,,question,25,,,94.57,0.495,8415,2026-11-04,api+yt-dlp,,superlative,0
+nba,q5rCS_qVspk,2026-10-25,Caitlin Clark Did What No NBA Player Has 😳 #wnba #caitlinclark,,no star,,statement,29,,,77.39,0.584,2758,2026-11-04,api+yt-dlp,,superlative,1
+nba,qHeq-Yujpa0,2026-10-26,Chuck Failed A Test With The Answers 😭,,no star,,statement,21,,,110.64,0.455,3481,2026-11-04,api+yt-dlp,,history,1
+nba,6zkyycL3WcY,2026-10-26,Luka Just Did What Kobe Never Did 😳 #nba,,star,,statement,20,,,152.93,0.493,1334,2026-11-04,api+yt-dlp,,superlative,0
+nba,lU6xSO1cAOY,2026-10-27,Haliburton Threw An Alley-Oop To Himself 😳 #nba,,no star,,statement,22,,,110.63000000000001,0.575,7649,2026-11-04,api+yt-dlp,,moment,2
+nba,RPbRxmbMHms,2026-10-28,This Rookie Was A Hero For One Overtime 😭 #nba,,no star,,statement,22,,,97.76,0.615,10857,2026-11-04,api+yt-dlp,,moment,3
+nba,-sFQhpw-bQ0,2026-10-28,This Kid Felt Every Free Throw 😭 #nba,,no star,,statement,22,,,98.73,0.574,24168,2026-11-04,api+yt-dlp,,moment,6
+nba,7TUcj1PfObo,2026-10-29,He Left The NBA Finals In A Wheelchair 💀 #nba,,no star,,statement,25,,,99.87,0.496,8374,2026-11-04,api+yt-dlp,,history,2
+nba,mLFrMCLU9rM,2026-10-30,Bronny Is Shooting 100% This Season 😭 #nba,,star,,number,24,,,94.58,0.568,27846,2026-11-04,yt-dlp+api,,family,11
+nba,y5dxVvGGaMI,2026-10-30,The NBA star who skipped a Finals practice to go wrestling #nba,,no star,,statement,56,,,101.14000000000001,0.52,3312,2026-11-04,api+yt-dlp,,history,3
+nba,o8UE_lsnZ9E,2026-10-31,Cameron Boozer Outshot His Dad's Whole Career 😳 #nba,,no star,,statement,21,,,117.01000000000002,0.555,26285,2026-11-04,yt-dlp+api,,family,13
+nba,bTEidtZjVfM,2026-11-01,Why NBA Players Refuse This Free Throw 😳,,no star,,question,25,,,119.83,0.521,28803,2026-11-04,yt-dlp+api,,rule,13
+nba,bW9XjIjY4Gg,2026-11-01,Wemby Blocked A Three And Scored Point 40 Five Seconds Later,,star,,number,17,no,,99.06,0.602,5809,2026-11-04,scheduled+yt-dlp+api,,moment,1
+nba,Viv9BG01pt0,2026-11-01,LeBron Is 40 Assists Behind Jason Kidd,,star,,number,18,no,,97.47,0.488,1470,2026-11-04,scheduled+yt-dlp+api,,superlative,0
+nba,ypyY6KpZ7is,2026-11-02,Cooper Flagg's Rookie Year Beat LeBron's In Two Of Three Numbers,,star,,statement,24,no,,113.65,0.5,2,2026-11-04,scheduled+yt-dlp+api,,superlative,0
+nba,r3UXcgNP7ks,2026-11-02,Bones Hyland Got A Technical For A Fake Throw 😭,,no star,,statement,,,,,,18000,2026-11-04,scheduled+yt-dlp,,moment,
+nba,d3-PsGkZ_js,2026-11-03,Draymond Green Had A Triple-Double With Four Points,,star,,statement,,no,,,,1000,2026-11-04,scheduled+yt-dlp,,superlative,
+nba,QZekYBk6ML4,2026-11-03,"Jokic Said No To His Own Parade, Never To His Horses",,star,,statement,,no,,,,1200,2026-11-04,scheduled+yt-dlp,,history,
+nba,-16mWmXHKxY,2026-11-04,Iguodala Says Steph Should Have Won The 2015 Finals MVP,,star,,number,,no,,,,781,2026-11-04,scheduled+yt-dlp,,history,
+nba,pYEOSKOVWPE,2026-11-04,Kobe Missed Eighteen Shots In Game 7 And Still Won Finals MVP,,star,,number,,no,,,,1400,2026-11-04,scheduled+yt-dlp,,history,
+nba,Oap4e3wXcGw,2026-11-05,Jokic Was Drafted During A Taco Bell Commercial,,star,,statement,,no,,,,,,scheduled,,history,
+nba,jY_6GdLH654,2026-11-05,The Warriors Did Something No Team Had Done In The Shot Clock Era,,no star,,statement,,no,,,,,,scheduled,,superlative,
+nba,bY_OaVaO9M4,2026-11-06,The NBA Banned Dennis Rodman's Jersey Number 😳,,no star,,statement,,no,,,,,,scheduled,,rule,

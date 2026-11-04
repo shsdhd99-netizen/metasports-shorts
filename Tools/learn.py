@@ -19,8 +19,8 @@ RN = os.path.join(ROOT, "Research Notes")
 EXP = os.path.join(RN, "Experiments.csv")
 OUT = os.path.join(RN, "Learned Weights.md")
 COLS = ["channel", "video_id", "posted", "title", "lane", "star", "fresh", "title_shape", "length_s", "music", "stayed_pct",
-        "avg_pct_viewed", "engaged_ratio", "views", "views_date", "source", "notes"]
-HAND = ["lane", "star", "fresh", "title_shape", "music", "notes"]  # hand-filled values are kept on re-ingest
+        "avg_pct_viewed", "engaged_ratio", "views", "views_date", "source", "notes", "shape", "subs"]
+HAND = ["lane", "star", "fresh", "title_shape", "music", "notes", "shape"]  # shape = topic shape (Nov 4 taxonomy, Topic and Script Reset)  # hand-filled values are kept on re-ingest
 STARS = (r"LeBron|Bronny|Wemby|Wembanyama|Curry|Steph|Flagg|Jokic|Jokić|SGA|Shai|Giannis|Luka|Kawhi|Jordan|Kobe|Shaq|Durant|"
          r"Harden|Kidd|Draymond|Messi|Ronaldo|Zidane|Maradona|Pickford|Lewandowski|Mourinho|Fabregas|Fábregas|Klopp|Haaland")
 HANDLES = {"nba": "@MetaSportsClips", "fc": "@MetaSportsFC"}
@@ -76,7 +76,7 @@ def ingest(do_fetch):
     def put(vid, ch, **kw):
         row = rows.setdefault(vid, {c: "" for c in COLS} | {"video_id": vid, "channel": ch})
         for k, v in kw.items():
-            if v not in ("", None) and (not row.get(k) or k in ("views", "views_date", "stayed_pct", "avg_pct_viewed", "engaged_ratio") and k not in HAND):
+            if v not in ("", None) and (not row.get(k) or k in ("views", "views_date", "stayed_pct", "avg_pct_viewed", "engaged_ratio", "subs") and k not in HAND):
                 row[k] = str(v)
         row["source"] = "+".join(dict.fromkeys(filter(None, row["source"].split("+") + [kw.get("source", "")])))
         return row
@@ -103,7 +103,7 @@ def ingest(do_fetch):
                 for r in read(os.path.join(RN, "Studio exports", sub, f)):
                     if num(r.get("views")) is not None:
                         put(r["video_id"], ch, title=r["title"], posted=r["published"][:10], length_s=r["length_s"], views=r["views"],
-                            views_date=f[6:16], engaged_ratio=r["engaged_ratio"], avg_pct_viewed=r["averageViewPercentage"], source="api")
+                            views_date=f[6:16], engaged_ratio=r["engaged_ratio"], avg_pct_viewed=r["averageViewPercentage"], subs=r.get("subscribersGained", ""), source="api")
     if do_fetch:
         fetch(rows)
     for r in rows.values():  # derived features, only where blank
@@ -152,22 +152,26 @@ def report():
             lines += [f"## {name}", f"Only {len(rs)} mature Shorts with views: too few to weigh anything.", ""]
             continue
         med = st.median(r["_v"] for r in rs)
-        lines += [f"## {name}: n={len(rs)}, median {med:,.0f} views", "", "| Feature | Value | n | Median views | vs channel median | Read | Engaged ratio (n) |", "|---|---|---|---|---|---|---|"]
-        for dim, key in (("lane", "lane_c"), ("star in title", "star"), ("title shape", "title_shape"), ("length", "len_b"),
+        lines += [f"## {name}: n={len(rs)}, median {med:,.0f} views", "", "| Feature | Value | n | Median views | vs channel median | Read | Engaged ratio (n) | Subs per 1K views (n) |", "|---|---|---|---|---|---|---|---|"]
+        for dim, key in (("topic shape", "shape"), ("lane", "lane_c"), ("star in title", "star"), ("title shape", "title_shape"), ("length", "len_b"),
                          ("music", "music"), ("freshness", "fresh")):
-            groups, eng = {}, {}
+            groups, eng, sub = {}, {}, {}
             for r in rs:
-                if r[key]:
+                if r.get(key):
                     groups.setdefault(r[key], []).append(r["_v"])
+                    if num(r.get("subs")) is not None and r["_v"]:
+                        sub.setdefault(r[key], []).append((num(r["subs"]), r["_v"]))
                     if num(r["engaged_ratio"]):
                         eng.setdefault(r[key], []).append(num(r["engaged_ratio"]))
             for val, vs in sorted(groups.items(), key=lambda kv: -st.median(kv[1])):
                 ev = eng.get(val, [])
                 etxt = f"{st.median(ev):.3f} ({len(ev)})" if ev else "-"
+                sv = sub.get(val, [])  # pooled: API subscribers gained / public views of the group
+                stxt = f"{1000 * sum(a for a, _ in sv) / sum(b for _, b in sv):.2f} ({len(sv)})" if sv and sum(b for _, b in sv) else "-"
                 m, n = st.median(vs), len(vs)
                 ratio = m / med if med else 0
                 read_ = "guess (n<5)" if n < 5 else "ABOVE" if ratio >= 1.5 else "BELOW" if ratio <= 0.67 else "typical"
-                lines.append(f"| {dim} | {val} | {n} | {m:,.0f} | {ratio:.2f}x | {read_} | {etxt} |")
+                lines.append(f"| {dim} | {val} | {n} | {m:,.0f} | {ratio:.2f}x | {read_} | {etxt} | {stxt} |")
                 if n >= 3:
                     leads.append((abs(ratio - 1) * n, f"{name}: {dim} \"{val}\" runs {ratio:.1f}x the channel median (n={n})."))
                 if n >= 5 and read_ in ("ABOVE", "BELOW"):
