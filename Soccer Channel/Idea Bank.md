@@ -101,3 +101,18 @@ Other series worth a test: "Managers who..." (Ferguson's boot and Beckham, 2003;
 | S34 (idea, news: this week) | The captain who criticised his manager, then saved him | Bruno Fernandes, dropped by Carrick for criticising his tactics, scored a penalty and set up the equaliser in United's 3-2 comeback over Roma (Nov 3), ending a nine-game winless run against them; "If it was [a punishment], it was right" (ESPN). Carrick scored twice in the 2007 7-1 over Roma (S33 sources) | Versus their own (strongest lane); fresh; ironic payoff | Champions League highlights (check X) | managers |
 | S35 (idea) | The Ballon d'Or winner one game short of Ronaldo's record | Kane scored in 10 straight Champions League games; Ronaldo's record is 11; Kane didn't score v Atlético (Nov 3) (ESPN) | Record near-miss with two global names; pairs with S30 | Bayern X clips | records |
 
+
+**Nov 4 (PC account 1, "Topic and Script Reset"): goalkeeper-trick lane, 6 ideas, each with its OWN new fact (subs come from the first of a pattern, not repeats).**
+
+| # | Working title (spoken line 1) | Its own new fact | Status | copy_check |
+|---|---|---|---|---|
+| S21 | The goalkeeper who saved a shot with a scorpion kick at Wembley | first time he tried it in a real match; the linesman had flagged offside | **script + sources** (`Productions/2026-11-11 S21 ...`) | FRESH |
+| S22 | The goalkeeper who scored more goals than most strikers | first keeper to 100 goals; 2005 he was his title-winning team's top scorer (21) | **script + sources** (`Productions/2026-11-12 S22 ...`) | CROWDED (sharpen hook) |
+| S36 | The goalkeeper who got the penalty rules changed | his reply: "They did it too late" | **script + sources** (`Productions/2026-11-13 S36 ...`) | TAKEN (500K+ storyteller): last in queue, needs the "too late" angle up front |
+| S23 | The goalkeeper who scored after 13 seconds from his own box | Begović, Stoke v Southampton, 2 Nov 2013 (Guinness) | idea: sources to check | not run |
+| S37 | The goalkeeper who watched five years of the other team's penalties | Čech, 2012 final | idea: sources to check | not run |
+| S38 | The team that practised 1,000 penalties and scored none | Bounou v Spain 2022 | idea: sources to check (Luis Enrique's "1,000 penalties" quote) | not run |
+
+**Two experiments (one variable each), logged in Experiments.csv when built:**
+- E1 (pinned comment): S21 gets a pinned "Part 2: the keeper who scored 131 goals 👇" comment pointing to S22; compare subs per 1K views with the last 4 goalkeeper Shorts (1.49 per 1K).
+- E2 (length): S36 is built at its natural ~38 s instead of padding to the 50-59 s story profile; compare engaged ratio with S21/S22 (FC has no Short under 45 s yet).
