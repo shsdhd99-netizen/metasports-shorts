@@ -1,6 +1,6 @@
 # Studio Analytics Review, Nov 4, 2026 (research kickoff)
 
-Source: YouTube Studio, channel **MetaSports FC** (football Shorts, 145 subs), Oct 7 - Nov 3, 2026. Raw export (CSV) is in `Research Notes/Studio Export (Nov 4, 2026) MetaSports FC/`.
+Source: YouTube Studio, channel **MetaSports FC** (football Shorts, 145 subs), Oct 7 - Nov 3, 2026. Raw export (CSV) is in `Research Notes/Studio exports/Content 2026-10-07 to 2026-11-04 FC/`.
 **MetaSports Clips (NBA)** is NOT in this pull: its Studio is on a different Google account. Free public stats for it (channel_check, Nov 4): last 7 median 3,200 views vs normal 7,000, trend DOWN; Bones Hyland 18,000, LeBron/Kidd 8,800, Flagg 5,000; Kobe G7 1,400, Jokic parade 1,200, Draymond 1,000.
 
 ## Channel totals (28 days)
