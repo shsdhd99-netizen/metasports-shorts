@@ -139,3 +139,8 @@ preview quality: the full version uses his 5-minute filmed recording. Then updat
 - Result: real mouth shapes (rounded "o", lips closing on m/p) instead of SadTalker's fixed smile; both versions 45.77 s, -14.4 LUFS, 0 black frames. SadTalker clips kept in `C:/Users/Admin/apps/max_job/sadtalker_backup/`. 16:9 face is upscaled from 720 px: slightly soft full-screen. If the owner still wants better: Hedra (route A).
 
 - Nov 4: owner explicitly asked for a page to show Max from his phone: private artifact "Max's Preview" https://claude.ai/artifact/MCPph6oSJ2CZ6bixZVQQvm (owner-only; 720p copies of the LatentSync versions). Do not share it further without the owner.
+
+## Nov 4, ~6 PM ET: voice v2 + full-avatar Dreamina clips + LatentSync sync, measured (PC terminal)
+- Main file `PREVIEW - Fingerprints (9x16, full avatar, synced).mp4`; QA in `QA.md` (SyncNet offset -3 -> 0 frames after LatentSync + shifts 0.08 s A / 0.04 s B). Rebuild: `cd work; python build_full.py` (SYNC=0 for the unsynced Dreamina version, OUT=... to name a file). Sync clips: `work/dreamina/{A,B}_sync_9x16.mp4` (from `C:/Users/Admin/apps/max_job/full/*_sync.mp4`, lanczos to 1088x1920, 30 fps, +0.5 s tail).
+- Measuring lag: use LatentSync's SyncNet (`python -m eval.eval_sync_conf --video_path <muxed 25 fps mp4>`, weights fetched from ByteDance/LatentSync-1.5 into `checkpoints/auxiliary/`). Home-made envelope correlation was too noisy.
+- 16:9 version not built (optional).

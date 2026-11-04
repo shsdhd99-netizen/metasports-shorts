@@ -26,7 +26,7 @@ def at(i, lead):
 
 
 OPEN_END = at(11, 0.08)   # "Every": open.mp3 is voice.mp3 from 0 to here
-CLOSE_T0 = at(110, 0.13)  # "So": close.mp3 starts here on the voice timeline
+CLOSE_T0 = at(106, 0.13)  # "So": close.mp3 starts here on the voice timeline
 END = round(WORDS[-1]["e"] + TAIL, 3)
 
 # (start, src, source offset, framing x 0..1 for 9x16 crop, zoom start, zoom end)
@@ -36,20 +36,20 @@ SHOTS = [
     (at(21, 0.13), "mk_15054", 2.0, 0.45, 1.00, 1.06),    # "Your": ultrasound print, "before you were born"
     (at(33, 0.27), "mk_12962", 2.0, "fit", 1.00, 1.05),   # "Not": two sisters, "identical twins"
     (at(39, 0.15), "mk_47323", 3.0, 0.5, 1.05, 1.12),     # "Each": glowing fingerprint, "pattern of ridges"
-    (at(51, 0.12), "mk_13807", 0.0, 0.3, 1.00, 1.06),     # "and those": magnifying glass, "tiny details"
-    (at(60, 0.15), "mk_18308", 9.0, 0.45, 1.00, 1.06),    # "Touch": the mark left on glass, "perfect copy"
-    (at(73, 0.12), "mk_32791", 0.0, 0.2, 1.00, 1.05),     # "An": investigator under UV
-    (at(80, 0.11), "mk_32791", 7.0, 0.15, 1.25, 1.32),    # "and the invisible": the print appears (close on the handprint)
-    (at(85, 0.14), "mk_23678", 0.0, 0.6, 1.00, 1.05),     # "A computer": fingerprint on a computer screen
-    (at(91, 0.06), "mk_47323", 9.0, 0.5, 1.00, 1.06),     # "millions": print data
-    (at(96, 0.08), "mk_23678", 12.0, 0.72, 1.45, 1.52),   # "But": close on the monitor, "only suggests a match"
-    (at(103, 0.13), "mk_4773", 3.0, 0.4, 1.00, 1.05),     # "A trained": examiner at a microscope
+    (at(50, 0.12), "mk_13807", 0.0, 0.3, 1.00, 1.06),     # "and those": magnifying glass, "tiny details"
+    (at(59, 0.15), "mk_18308", 9.0, 0.45, 1.00, 1.06),    # "Touch": the mark left on glass, "perfect copy"
+    (at(70, 0.12), "mk_32791", 0.0, 0.2, 1.00, 1.05),     # "An": investigator under UV
+    (at(77, 0.11), "mk_32791", 7.0, 0.15, 1.25, 1.32),    # "and the invisible": the print appears (close on the handprint)
+    (at(82, 0.14), "mk_23678", 0.0, 0.6, 1.00, 1.05),     # "A computer": fingerprint on a computer screen
+    (at(92, 0.06), "mk_47323", 9.0, 0.5, 1.00, 1.06),     # "millions": print data
+    (at(94, 0.08), "mk_23678", 12.0, 0.72, 1.45, 1.52),   # "But": close on the monitor, "only suggests a match"
+    (at(98, 0.13), "mk_4773", 3.0, 0.4, 1.00, 1.05),     # "A trained": examiner at a microscope
     (CLOSE_T0, "CLOSE", 0.0, 0.5, 1.06, 1.08),
-    (at(115, 0.04), "mk_33712", 0.0, 0.4, 1.00, 1.04),    # "open": door handle, "open a door"
-    (at(118, 0.06), "CLOSE", at(118, 0.06) - CLOSE_T0, 0.5, 1.08, 1.12),  # "remember:" back on him, lips still in sync
+    (at(111, 0.04), "mk_33712", 0.0, 0.4, 1.00, 1.04),    # "open": door handle, "open a door"
+    (at(114, 0.06), "CLOSE", at(114, 0.06) - CLOSE_T0, 0.5, 1.08, 1.12),  # "remember:" back on him, lips still in sync
 ]
 KEY = {"hundred", "signature", "born", "never", "twins", "ridges", "yours", "glass", "copy", "powder", "invisible",
-       "computer", "millions", "seconds", "match", "examiner", "final", "door", "signed", "name"}
+       "computer", "database", "possible", "matches", "examiner", "final", "door", "signed", "name"}
 
 
 def fpath(p):

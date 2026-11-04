@@ -44,3 +44,8 @@ Layout: Max full frame for the first and last lines; in between, B-roll full fra
 - Face: a talking-photo avatar from his photo, lip-synced to his cloned voice; check the mouth on every line with consonants (p, b, m).
 - Edit with our pipeline; full QA; comfort audit; look at the first, middle and last frame.
 - Deliver: 9:16 captioned, 9:16 clean, 16:9 if wanted, plus a note saying it's preview quality (the full version uses his 5-minute filmed recording and a professional clone).
+
+## Second sources (checked Nov 4, 2026, WebSearch of nist.gov / ncbi.nlm.nih.gov)
+- Row 1 (formed in the womb, stay for life): NIST-hosted [Annotated bibliography on latent print analysis](https://www.nist.gov/document/annotated-bibliography-latent-print-analysispdf): prints are stable from formation in fetal life until death. (Script says only "formed before you were born", which matches.)
+- Row 2 (twins): [Fingerprint Recognition with Identical Twin Fingerprints, PMC3338710](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3338710/): twins' prints are not identical, only correlated.
+- Last rows (computer suggests, examiner decides): [NIST, Accuracy and reliability of forensic latent fingerprint decisions](https://www.nist.gov/document/113uleryfullibpcpdf) and PMC3299696: AFIS returns candidates, the examiner assesses each (ACE-V). No FBI-specific page found; "usually" wording kept.
