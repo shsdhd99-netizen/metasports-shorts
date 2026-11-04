@@ -267,3 +267,4 @@ STATUS: Automation check written to Research Notes/Automation Check.md: PC timer
   - T4: backlog list in the prompt is stale: #42 posted Oct 16, #36 v4 = the Oct 18 "LeBron's Rookie Teammate" Short, #10 script only, #45/#46 not on this PC; S09/S29 already QA PASS + armed. Nothing to rebuild.
   - T5: timers verified (all fired today); preflight OK; crosspost queue 18 Shorts; schedule_ready dry run: only #67 skipped (two DRAFTs, no Arm line: owner). learn.py now has subs per 1K (API subs; CTR is Studio-only, not added).
   - T6 "Claude photos" = Max Claude's avatar photos: in progress with the owner (Hedra, kit on Desktop). Max sent only one photo; ask him for 2-3 more (mouth closed, facing camera).
+- 2026-11-04 18:05 ET terminal: Task 1 Max video DONE (synced build, QA.md, copied to Desktop/Max avatar kit).

@@ -87,3 +87,6 @@
 - **[V] Manager/club-saga Shorts sit at 64-67% viewed and about 3K views** (Man Utd/City 64%, stop-scoring manager 67%); Barcelona sprinklers (89% viewed) still only 2.9K, so retention is not the whole story there: the premise was the limit.
 - **[S] 99% new viewers, 0% of watch time from subscribers.** There is no returning audience yet; 34% of watch time is on TV (caption size matters), 71% male, 35-44 largest.
 - **Studio pull method (works, no API token needed):** Chrome, Studio > Analytics > Content > Advanced mode > download icon > "Comma-separated values". Unzip into `Research Notes/Studio exports/`. The Chrome-signed-in account owns FC only; NBA's Studio is on the other Google account.
+
+## Nov 4, 2026 (clip repetition test: `Research Notes/FC Clip Repetition Study (Nov 4, 2026).md`)
+- **[V] Clip reuse inside a Short did NOT predict lower retention** in 15 FC Shorts (Spearman with % viewed +0.21, 95% CI -0.23 to +0.79; with views +0.46, CI -0.04 to +0.80). The two heaviest reusers (S17, S01) are top-4 winners. Topic shape explains the spread, not reuse. Still, `Tools/edit_lint.py` now flags a repeated source range, one source over 35% of runtime and same-angle back-to-back shots, as advice (selftest: `python Tools/edit_lint.py --selftest`). [H] Repeats might hurt in a way this data cannot show; test again with S26/S27/S29 vs S28 at 7 days.

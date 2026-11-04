@@ -154,6 +154,7 @@ How to work:
 - **Replay the key moment once, before the payoff,** when the footage has it: the same `src`/`at`, closer (`"zoom"`) and/or `"speed": 0.5`, marked `"replay": true` (`cut_list.py` passes it into shots.json; QA then allows the repeat). (Oct 26 overnight review) [S].
 - **Check the work:** the tool cuts everything, pins shots to words, warns on short clips, fills sources.csv and draws `_check/sheet.jpg`. LOOK at the sheet. Check framing, that the named person is on screen, and that no logo or burned-in text shows.
 - **Verify:** fix, re-run, then run `--verified` once you have looked at every tile.
+- **Reuse check (Nov 4):** do not show the same source range twice (only one intentional replay, marked `"replay": true` on the later shot), keep any one source file under 35% of the runtime, and do not cut two back-to-back shots from one source within 3 s of each other. `Tools/edit_lint.py` flags all three inside `qa_short`. Evidence tier [V]: in 15 FC Shorts reuse did not lower retention, so this is for variety, not a gate (`Research Notes/FC Clip Repetition Study (Nov 4, 2026).md`).
 
 ### 7. Sound, then render
 - **`sfx.json`:** 3-5 effects from `Tools/sfx/catalog.json`, only where the picture shows the sound. Each one is a different file, none before 1.0 s, at least 1.5 s apart.
