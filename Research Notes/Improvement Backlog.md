@@ -13,6 +13,9 @@ Tags: [Z] zero credit (PC script/doc) | [C] needs Claude credits | [O] owner dec
 - [ ] [A][Z] Cron-style lock: the timers and the cloud can both touch `Scheduled Uploads.csv`; add a git pull before and a retry after in `schedule_ready.bat` (it already pulls; add conflict handling).
 
 ## Videos (quality and growth)
+- [ ] [V][C] (Growth Study, Nov 3) ONE-variable test: NBA story Shorts at 30-35 s vs our usual 18-25 s, same lane; log `length` in Experiments.csv, 4 each, judge at 72 h on viewed-vs-swiped and views.
+- [ ] [V][C] (Growth Study, Nov 3) Hook + foreshadow: line 2 says what the ending is about (Hoyos). Try on 4 Shorts before making it a rule.
+- [ ] [V][O] (Growth Study, Nov 3) TikTok 60 s+ versions for Creator Rewards: only once a TikTok account nears 10K followers.
 - [ ] [V][C] Test ONE hook variable at a time: tension-first (no result in line 1) vs result-first, same lane, same length. The low-engagement openings (#76, Luka, Chuck, SGA) state the outcome in line 1; #75 (0.615) states a tension. n=21, a guess.
 - [ ] [V][Z] Fill `lane`, `fresh`, `music`, `frame1` for every Short in `Experiments.csv` at build time. Most rows have no lane, so the learner cannot rank lanes yet. Needs about 5 per lane.
 - [ ] [V][C] Editing: a closer second angle for wide plays (whole-frame shots keep the scorebug but shrink the player); caption position off the players; escalating counter (swishy style). See `Research Notes/Editing Study (Nov 1, 2026).md` section 5.

@@ -14,6 +14,7 @@ the 48-hour life of a Short). Tiers: **[V]** a platform employee on the record, 
 | [Jay Clouse: Jenny Hoyos interview](https://www.youtube.com/watch?v=As7abwNhG7Y) (Oct 2023, 5M views) | Shorts creator | scripting and editing [H/S] |
 | [Build Your Tribe: Head of Instagram](https://www.youtube.com/watch?v=b_MGyd8TKdQ) (Apr 2025) | Adam Mosseri | Instagram ranking [V] |
 | [Mike Yanda: new TikTok creators](https://www.youtube.com/watch?v=MGIBt_2zdaA) (Feb 2025) | TikTok coach | TikTok practice [H] |
+| [Marcus Jones: "I studied 5,400 Shorts"](https://www.youtube.com/watch?v=ryZt5pc2O5s) (Jun 2023) | data study | length and stay rate [S, correlational] |
 | [Alex Hormozi: social strategy for 2026](https://www.youtube.com/watch?v=dMZ-n2KSlxE) (Oct 2025) | business creator | volume/targeting [H] (mostly about selling, little used) |
 | TikTok profiles of 14 competitors via yt-dlp (today) | our measurement | cross-platform numbers [V] |
 | Web check for changes since Oct 25 ([iMore](https://www.imore.com/tiktok-says-its-making-algo-changes-keep-you-pages-fresh), [ttcalculator](https://ttcalculator.net/blog/tiktok-algorithm-changes-2026/), [SocialPilot IG](https://www.socialpilot.co/?p=563048), [Creatorflow](https://creatorflow.so/blog/instagram-algorithm/), [ppc.land](https://ppc.land/youtube-creators-report-drops-in-shorts-viewership-after-september-algorithm-change/), [OutlierKit](https://outlierkit.com/resources/youtube-shorts-algorithm/)) | press and blogs | **no confirmed algorithm change on any platform since Oct 25**; blog claims marked [H] |
@@ -75,7 +76,7 @@ Raw data: `Growth Study (Nov 3, 2026)/tiktok_competitors.tsv`. CoachClank, Swish
    for a plain one before voicing.
 3. **Hook + foreshadow** becomes a script check to try (not yet a rule): line 2 tells the viewer what the ending will be about. To test on 4+ Shorts, judged at 72 h.
 4. **Experiment (one variable): NBA length 30-35 s vs our usual 18-25 s.** Hoyos [H] says under 30 s needs 100%+ retention to take off; YouTube says it
-   normalises for length [V]. Our data: 20-30 s = 1.11x median (n=25), 30-45 s n=1 (a guess). Log `length` in Experiments.csv; decide after 4 each.
+   normalises for length [V]. Our data: 20-30 s = 1.11x median (n=25), 30-45 s n=1 (a guess). The 5,400-Shorts study (2023) found Shorts with 50-60 s of average view duration averaged the most views and top Shorts averaged ~80% viewed-vs-swiped, under 40% rarely passed 10K: correlational (good long Shorts hold people), so it supports testing, not a rule. Log `length` in Experiments.csv; decide after 4 each.
 5. **TikTok: 1-3 posts a day, no time-of-day fuss, reply to early comments** [H/S]; posting time doesn't matter on any platform [V].
 6. **Later (owner):** TikTok 60 s+ versions for Creator Rewards once an account is near 10K followers; Instagram Trial Reels to test hooks on non-followers.
 
