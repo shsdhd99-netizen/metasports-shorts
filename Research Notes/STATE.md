@@ -14,3 +14,4 @@
 - 2026-11-03 22:00 ET: BUILDER=cloud. Routines trig_01PUCBRzwuJ1j1r3Y53GdfoY (NBA 3:17 AM ET) and trig_011nY5arZZHcgKkWQvcBkNKc (FC 4:23 AM ET) ENABLED, prompts point to `CLOUD DAILY RULES.md`. Cloud env still lacks keys until the owner runs `Tools/copy_cloud_env.ps1` and pastes them.
 - 2026-11-03 22:45 ET: tasks verified; Account 1 start-up list is in HANDOFF - Account 1 START HERE (Nov 4).md; backlog in Research Notes/Improvement Backlog.md.
 - 2026-11-03 19:45 ET: #94 Rodman No. 69 BUILT on the PC (QA PASS), card on HOLD for the owner's OK; slot Fri Nov 6 7:15 AM ET. Next NBA slot open: Fri Nov 6 3:30 PM ET onward.
+- 2026-11-03 20:45 ET: PC gap-fill tasks registered (NBA 6:45 AM, FC 7:30 AM; build only if next_gap.py finds an uncovered slot). Next NBA gap: Fri Nov 6 3:30 PM (in range Thu morning). FC covered through Sun Nov 8.
