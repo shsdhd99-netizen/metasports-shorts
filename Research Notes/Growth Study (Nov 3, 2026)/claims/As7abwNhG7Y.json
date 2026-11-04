@@ -1,0 +1,100 @@
+[
+  {
+    "claim": "For optimal reach on YouTube Shorts without requiring >100% loop retention, aim for a video length around 34 seconds.",
+    "quote": "if a short is less than 30 seconds it needs to has to have over 100% retention or else it's not going to take off so that's why I like to make it slightly longer",
+    "platform": "YouTube Shorts",
+    "type": "editing",
+    "official": false
+  },
+  {
+    "claim": "Script spoken voiceover to a 5th-grade readability level or lower to maximize broad audience comprehension.",
+    "quote": "I'll put it in a readability Checker and then make sure that it's actually like understandable to at least like fifth grade or under",
+    "platform": "all",
+    "type": "hook",
+    "official": false
+  },
+  {
+    "claim": "Target 90%+ total retention on Shorts, which requires designing content that viewers rewatch or loop.",
+    "quote": "my average scroll through rate is 85% but my average retention is 95%... to have that like 90 plus percent retention... you need them to watch it again",
+    "platform": "YouTube Shorts",
+    "type": "algorithm mechanism",
+    "official": false
+  },
+  {
+    "claim": "Tailor video pacing and length per platform: YouTube Shorts prefers 30-35s story-driven clips, TikTok prefers 10-20s info-dense clips, and Instagram Reels requires heavy visual subtitles.",
+    "quote": "YouTube likes... a slower Pace more story... Tik Tok... liked 10 to 20 second videos... Instagram reals... a lot of those videos would be very Visual and would have like subtitles",
+    "platform": "all",
+    "type": "growth strategy",
+    "official": false
+  },
+  {
+    "claim": "Avoid industry/niche terminology (like 'business' or 'profit') because simple single words significantly increase readability difficulty and drop retention.",
+    "quote": "you can change the readability from fifth grade to like e8th grade by simply using the word business... instead of saying profit I just explain the definition of profit",
+    "platform": "all",
+    "type": "editing",
+    "official": false
+  },
+  {
+    "claim": "Include both a direct hook line and a explicit foreshadowing line within the first 3 seconds of spoken audio.",
+    "quote": "my Hooks and foreshadow I always do that in every video I do a hook and then I foreshadow which is two lines and that is usually 3 seconds or less",
+    "platform": "YouTube Shorts",
+    "type": "hook",
+    "official": false
+  },
+  {
+    "claim": "Trim dead air from the final second of a Short to eliminate drop-off spikes and significantly lift average retention metrics.",
+    "quote": "by removing that one second at the end it went from 83% to 88% and the video went flying and that that's why like every second counts on a short",
+    "platform": "YouTube Shorts",
+    "type": "editing",
+    "official": false
+  },
+  {
+    "claim": "High retention alone is not required for virality if viewer satisfaction and returning viewer rates are high.",
+    "quote": "I've had a short before where I had like 70% retention on the first 100K views... and it still got like 10 million views because it was like all returning viewers",
+    "platform": "YouTube Shorts",
+    "type": "algorithm mechanism",
+    "official": false
+  },
+  {
+    "claim": "Design the first frame visual hook to be completely understandable instantly without audio or title captions.",
+    "quote": "the hook needs to be very visual you need to understand it without even listening to it and it needs to be so simple... explain to a 5-year-old",
+    "platform": "all",
+    "type": "hook",
+    "official": false
+  },
+  {
+    "claim": "Use explicit structural mechanisms (like step lists or countdowns) so viewers anticipate the end and watch through.",
+    "quote": "saying there's three steps or there's three things we need to do... now the viewer knows that oh we're getting closer... they actually have a good expectation",
+    "platform": "all",
+    "type": "editing",
+    "official": false
+  },
+  {
+    "claim": "Transition smoothly from hook to narrative using action lines instead of dead-pacing intro phrases like 'let's get started'.",
+    "quote": "instead of saying let's get started I said so I cooked illegally... we need a pacing break without the pacing actually breaking",
+    "platform": "all",
+    "type": "editing",
+    "official": false
+  },
+  {
+    "claim": "Write story beats using 'But / Therefore' structure instead of sequential 'And then' statements to maintain narrative tension.",
+    "quote": "stories can't be stories without change... it just sounds so much more intriguing when you have like but and then so or but therefore",
+    "platform": "all",
+    "type": "editing",
+    "official": false
+  },
+  {
+    "claim": "Establish clear personal stakes ('why') or situational irony immediately in the hook to get viewers invested.",
+    "quote": "having like some sort of personal why or goal and irony too is pretty funny... I think that's what makes people invested",
+    "platform": "all",
+    "type": "hook",
+    "official": false
+  },
+  {
+    "claim": "Script and Lock the final line/ending reaction of the short before completing video editing to ensure a clean loop and resolution.",
+    "quote": "I find that one idea then I'll write my hook then I'll write the last line so I always know the last line when I'm going to film",
+    "platform": "all",
+    "type": "editing",
+    "official": false
+  }
+]

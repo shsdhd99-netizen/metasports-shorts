@@ -1,0 +1,44 @@
+[
+  {
+    "claim": "Shorts with an average view duration between 50 and 60 seconds get an average of about 4.1 million views.",
+    "quote": "shorts between an average view duration of 50 and 60 seconds on average got 4.1 million views",
+    "platform": "YouTube Shorts",
+    "type": "algorithm mechanism",
+    "official": false
+  },
+  {
+    "claim": "Longer shorts between 50 and 60 seconds perform better than shorter counterparts because they accumulate more total watch time.",
+    "quote": "if your content is really high quality you're going to have better results if you create a longer short between 50 and 60 seconds versus a shorter short",
+    "platform": "YouTube Shorts",
+    "type": "editing",
+    "official": false
+  },
+  {
+    "claim": "A Viewed vs. Swiped Away (VVSA) rate below 40% typically limits a short to under 10,000 views.",
+    "quote": "if you have a vvsa less than 40 like chances are your short is not going to get more than 10 000 views",
+    "platform": "YouTube Shorts",
+    "type": "hook",
+    "official": false
+  },
+  {
+    "claim": "Top-performing shorts in the study averaged an 80% Viewed vs. Swiped Away (VVSA) rate.",
+    "quote": "on average it's 80",
+    "platform": "YouTube Shorts",
+    "type": "hook",
+    "official": false
+  },
+  {
+    "claim": "Long-form videos generate more subscribers per 10,000 views (22 subs) compared to YouTube Shorts (17 subs).",
+    "quote": "per 10 000 views long form videos got 22 subscribers if a short got 10 000 views it was only going to get about 17 subscribers",
+    "platform": "YouTube Shorts",
+    "type": "growth strategy",
+    "official": false
+  },
+  {
+    "claim": "After proper monetization, YouTube Shorts earnings per thousand views increased from $0.027 to $0.061.",
+    "quote": "before shorts were probably monetized they were earning on average per thousand views about 0.27 cents now however after monetization they only got 0.061 cents",
+    "platform": "YouTube Shorts",
+    "type": "monetization",
+    "official": false
+  }
+]

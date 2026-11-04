@@ -103,6 +103,19 @@ def lint(path):
     words = [w for w in re.findall(r"[a-z']+", low) if w not in STOP and len(w) > 3]
     rep = sorted({w for w in words if words.count(w) >= 3})
     if rep: risks.append("repeated words (3+): " + ", ".join(rep))
+    # Readability (Growth Study, Nov 3 2026: Jenny Hoyos checks every script for about a 5th-grade level; one jargon word moved hers
+    # from grade 5 to 8). Flesch-Kincaid grade on the spoken words; capitalised names are skipped (a star's name is not jargon).
+    def syl(w):
+        w = w.lower().strip("'")
+        n = len(re.findall(r"[aeiouy]+", w)) - (1 if w.endswith("e") and not w.endswith(("le", "ee")) and len(w) > 3 else 0)
+        return max(1, n)
+    plain = [w for w in re.findall(r"[A-Za-z']+", disp) if not w[0].isupper()]
+    if plain and sents:
+        grade = 0.39 * (len(re.findall(r"[A-Za-z']+", disp)) / len(sents)) + 11.8 * (sum(map(syl, plain)) / len(plain)) - 15.59
+        out["reading_grade"] = round(grade, 1)
+        if grade > 6:
+            longw = sorted({w.lower() for w in plain if syl(w) >= 3}, key=lambda w: -syl(w))[:6]
+            risks.append(f"reading level about grade {grade:.1f} (aim 6 or under): swap the long words for plain ones: {', '.join(longw) or 'shorter sentences'}")
     try:
         dic = json.load(open(os.path.join(HERE, "pronunciation.json"), encoding="utf-8"))
         known = set(dic.get("default", {})) | set(dic.get("_notes", {}))

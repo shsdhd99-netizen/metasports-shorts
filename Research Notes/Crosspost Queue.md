@@ -4,105 +4,105 @@ Post the SAME file as YouTube. TikTok: add a trending sound only at very low vol
 
 - [ ] **Sun Nov 01, 05:00 PM ET** · MetaSports FC · `BOsvemp6eTE` · Man United's Penalty Nightmare Is Now Saving Man City
   - File: `Soccer Channel\Productions\2026-11-01 S19 Man United's Penalty Nightmare Is Now Saving Man City\DRAFT - awaiting approval - S19 Man United's Penalty Nightmare Is Now Saving Man City (music).mp4`
-  - TikTok caption: Man United's Penalty Nightmare Is Now Saving Man City. Best goalkeeper in a shootout right now? #football #soccer #footballstory #goalkeeper
+  - TikTok caption: Man United's Penalty Nightmare Is Now Saving Man City. Best goalkeeper in a shootout right now? #gernimorulli #rulli #geronimorulli #football
   - Instagram caption: Man United's Penalty Nightmare Is Now Saving Man City. Best goalkeeper in a shootout right now?
 
-    #football #soccer #footballstory #goalkeeper #reels
+    #gernimorulli #rulli #geronimorulli #football
 
 - [ ] **Sun Nov 01, 09:30 PM ET** · MetaSports (NBA) · `Viv9BG01pt0` · LeBron Is 40 Assists Behind Jason Kidd
   - File: `Productions\MetaSports\2026-11-01 84 LeBron 40 Assists Behind Kidd\DRAFT - awaiting approval - LeBron Is 40 Assists Behind Jason Kidd (no music).mp4`
-  - TikTok caption: LeBron Is 40 Assists Behind Jason Kidd. Is LeBron the best passing forward ever? #nba #basketball #nbahistory #hoops
+  - TikTok caption: LeBron Is 40 Assists Behind Jason Kidd. Is LeBron the best passing forward ever? #lebronjames #lebron #jasonkidd #nba
   - Instagram caption: LeBron Is 40 Assists Behind Jason Kidd. Is LeBron the best passing forward ever?
 
-    #nba #basketball #nbahistory #hoops #reels
+    #lebronjames #lebron #jasonkidd #nba
 
 - [ ] **Mon Nov 02, 10:15 AM ET** · MetaSports (NBA) · `r3UXcgNP7ks` · Bones Hyland Got A Technical For A Fake Throw
   - File: `Research Notes\Full Review demos\DRAFT - awaiting approval - Bones Hyland Got A Technical For A Fake Throw (review upgrade, color-word arm).mp4`
-  - TikTok caption: Bones Hyland Got A Technical For A Fake Throw. #nba #basketball #nbahistory #hoops
+  - TikTok caption: Bones Hyland Got A Technical For A Fake Throw. #nba
   - Instagram caption: Bones Hyland Got A Technical For A Fake Throw.
 
-    #nba #basketball #nbahistory #hoops #reels
+    #nba
 
 - [ ] **Mon Nov 02, 03:00 PM ET** · MetaSports FC · `ClFHN2NXXyU` · Barcelona Signed Messi On A Paper Napkin
   - File: `Soccer Channel\Productions\2026-11-02 S20 Barcelona Signed Messi On A Paper Napkin\DRAFT - awaiting approval - S20 Barcelona Signed Messi On A Paper Napkin (no music).mp4`
-  - TikTok caption: Barcelona Signed Messi On A Paper Napkin. Best signing in football history? #football #soccer #footballstory #goalkeeper
+  - TikTok caption: Barcelona Signed Messi On A Paper Napkin. Best signing in football history? #lionelmessi #messi #messinapkin #football
   - Instagram caption: Barcelona Signed Messi On A Paper Napkin. Best signing in football history?
 
-    #football #soccer #footballstory #goalkeeper #reels
+    #lionelmessi #messi #messinapkin #football
 
 - [ ] **Mon Nov 02, 06:30 PM ET** · MetaSports (NBA) · `ypyY6KpZ7is` · Cooper Flagg's Rookie Year Beat LeBron's In Two Of Three Numbers
   - File: `Productions\MetaSports\2026-11-01 83 Flagg vs LeBron Rookie Year\DRAFT - awaiting approval - Cooper Flaggs Rookie Year Beat LeBrons In Two Of Three Numbers (no music).mp4`
-  - TikTok caption: Cooper Flagg's Rookie Year Beat LeBron's In Two Of Three Numbers. Better rookie year: Flagg or LeBron? #nba #basketball #nbahistory #hoops
+  - TikTok caption: Cooper Flagg's Rookie Year Beat LeBron's In Two Of Three Numbers. Better rookie year: Flagg or LeBron? #cooperflagg #flagg #cooperflaggrookie #nba
   - Instagram caption: Cooper Flagg's Rookie Year Beat LeBron's In Two Of Three Numbers. Better rookie year: Flagg or LeBron?
 
-    #nba #basketball #nbahistory #hoops #reels
+    #cooperflagg #flagg #cooperflaggrookie #nba
 
 - [ ] **Tue Nov 03, 10:15 AM ET** · MetaSports (NBA) · `d3-PsGkZ_js` · Draymond Green Had A Triple-Double With Four Points
   - File: `Productions\MetaSports\2026-11-03 87 Draymond Triple Double With Four Points\DRAFT - awaiting approval - Draymond Green Had A Triple-Double With Four Points (no music).mp4`
-  - TikTok caption: Draymond Green Had A Triple-Double With Four Points. Best defensive game ever: Draymond's ten steals or something else? #nba #basketball #nbahistory #hoops
+  - TikTok caption: Draymond Green Had A Triple-Double With Four Points. Best defensive game ever: Draymond's ten steals or something else? #draymondgreen #draymondgreentripledouble #draymondtripledouble #nba
   - Instagram caption: Draymond Green Had A Triple-Double With Four Points. Best defensive game ever: Draymond's ten steals or something else?
 
-    #nba #basketball #nbahistory #hoops #reels
+    #draymondgreen #draymondgreentripledouble #draymondtripledouble #nba
 
 - [ ] **Tue Nov 03, 03:00 PM ET** · MetaSports FC · `LgP8hGayRiE` · The England subs brought on only for penalties
   - File: `Soccer Channel\Productions\2026-11-03 S25 The England Subs Brought On Only For Penalties\DRAFT - awaiting approval - S25 The England Subs Brought On Only For Penalties (music).mp4`
-  - TikTok caption: The England subs brought on only for penalties. Right call or wrong call, bringing them on just for the penalties? #football #soccer #footballstory #goalkeeper
+  - TikTok caption: The England subs brought on only for penalties. Right call or wrong call, bringing them on just for the penalties? #marcusrashford #rashford #jadonsancho #football
   - Instagram caption: The England subs brought on only for penalties. Right call or wrong call, bringing them on just for the penalties?
 
-    #football #soccer #footballstory #goalkeeper #reels
+    #marcusrashford #rashford #jadonsancho #football
 
 - [ ] **Tue Nov 03, 06:30 PM ET** · MetaSports (NBA) · `QZekYBk6ML4` · Jokic Said No To His Own Parade, Never To His Horses
   - File: `Productions\MetaSports\2026-11-03 85 Jokic Only Wanted To Go Home\DRAFT - awaiting approval - Jokic Said No To His Own Parade, Never To His Horses (no music).mp4`
-  - TikTok caption: Jokic Said No To His Own Parade, Never To His Horses. Greatest reason ever to skip a celebration, or was Jokic right? #nba #basketball #nbahistory #hoops
+  - TikTok caption: Jokic Said No To His Own Parade, Never To His Horses. Greatest reason ever to skip a celebration, or was Jokic right? #nikolajokic #jokic #jokichorses #nba
   - Instagram caption: Jokic Said No To His Own Parade, Never To His Horses. Greatest reason ever to skip a celebration, or was Jokic right?
 
-    #nba #basketball #nbahistory #hoops #reels
+    #nikolajokic #jokic #jokichorses #nba
 
 - [ ] **Wed Nov 04, 10:15 AM ET** · MetaSports (NBA) · `pYEOSKOVWPE` · Kobe Missed Eighteen Shots In Game 7 And Still Won Finals MVP
   - File: `Productions\MetaSports\2026-11-04 86 Kobe Missed Eighteen Shots And Won MVP\DRAFT - awaiting approval - Kobe Missed Eighteen Shots In Game 7 And Still Won Finals MVP (no music).mp4`
-  - TikTok caption: Kobe Missed Eighteen Shots In Game 7 And Still Won Finals MVP. Kobe or Gasol: who was the real Game 7 Finals MVP? #nba #basketball #nbahistory #hoops
+  - TikTok caption: Kobe Missed Eighteen Shots In Game 7 And Still Won Finals MVP. Kobe or Gasol: who was the real Game 7 Finals MVP? #kobebryant #kobe #kobebryantgame7 #nba
   - Instagram caption: Kobe Missed Eighteen Shots In Game 7 And Still Won Finals MVP. Kobe or Gasol: who was the real Game 7 Finals MVP?
 
-    #nba #basketball #nbahistory #hoops #reels
+    #kobebryant #kobe #kobebryantgame7 #nba
 
 - [ ] **Wed Nov 04, 03:00 PM ET** · MetaSports FC · `vJb1PgdvECU` · Goalkeepers who took their gloves off to save a penalty
   - File: `Soccer Channel\Productions\2026-11-04 S26 Goalkeepers Who Took Their Gloves Off To Save A Penalty\DRAFT - awaiting approval - S26 Goalkeepers Who Took Their Gloves Off To Save A Penalty (no music).mp4`
-  - TikTok caption: Goalkeepers who took their gloves off to save a penalty. Genius mind games or pure showboating? #football #soccer #footballstory #goalkeeper
+  - TikTok caption: Goalkeepers who took their gloves off to save a penalty. Genius mind games or pure showboating? #ricardo #ricardoportugal #portugalgoalkeeper #football
   - Instagram caption: Goalkeepers who took their gloves off to save a penalty. Genius mind games or pure showboating?
 
-    #football #soccer #footballstory #goalkeeper #reels
+    #ricardo #ricardoportugal #portugalgoalkeeper #football
 
 - [ ] **Wed Nov 04, 06:30 PM ET** · MetaSports (NBA) · `-16mWmXHKxY` · Iguodala Says Steph Should Have Won The 2015 Finals MVP
   - File: `Productions\MetaSports\2026-11-04 88 Iguodala Says Steph Should Have Won Finals MVP\DRAFT - awaiting approval - Iguodala Says Steph Should Have Won The 2015 Finals MVP (no music).mp4`
-  - TikTok caption: Iguodala Says Steph Should Have Won The 2015 Finals MVP. 2015 Finals MVP: Iguodala or Curry? #nba #basketball #nbahistory #hoops
+  - TikTok caption: Iguodala Says Steph Should Have Won The 2015 Finals MVP. 2015 Finals MVP: Iguodala or Curry? #andreiguodala #iguodala #iguodalafinalsmvp #nba
   - Instagram caption: Iguodala Says Steph Should Have Won The 2015 Finals MVP. 2015 Finals MVP: Iguodala or Curry?
 
-    #nba #basketball #nbahistory #hoops #reels
+    #andreiguodala #iguodala #iguodalafinalsmvp #nba
 
 - [ ] **Thu Nov 05, 10:15 AM ET** · MetaSports (NBA) · `Oap4e3wXcGw` · Jokic Was Drafted During A Taco Bell Commercial
   - File: `Productions\MetaSports\2026-11-05 89 Jokic Drafted During A Taco Bell Ad\DRAFT - awaiting approval - Jokic Was Drafted During A Taco Bell Commercial (no music).mp4`
-  - TikTok caption: Jokic Was Drafted During A Taco Bell Commercial. Jokic or Westbrook: whose triple-double run is crazier? #nba #basketball #nbahistory #hoops
+  - TikTok caption: Jokic Was Drafted During A Taco Bell Commercial. Jokic or Westbrook: whose triple-double run is crazier? #nikolajokic #jokic #jokictacobell #nba
   - Instagram caption: Jokic Was Drafted During A Taco Bell Commercial. Jokic or Westbrook: whose triple-double run is crazier?
 
-    #nba #basketball #nbahistory #hoops #reels
+    #nikolajokic #jokic #jokictacobell #nba
 
 - [ ] **Thu Nov 05, 03:00 PM ET** · MetaSports FC · `6-9L9sJhc1s` · 
   - File: `Soccer Channel\Productions\2026-11-05 S27 The Goalkeeper Who Only Played Because His Teammate Broke A Leg\DRAFT - awaiting approval - S27 The goalkeeper who only played because his teammate broke a leg (music).mp4`
-  - TikTok caption: . #football #soccer #footballstory #goalkeeper
+  - TikTok caption: . #football
   - Instagram caption: .
 
-    #football #soccer #footballstory #goalkeeper #reels
+    #football
 
 - [ ] **Thu Nov 05, 06:30 PM ET** · MetaSports (NBA) · `jY_6GdLH654` · The Warriors Did Something No Team Had Done In The Shot Clock Era
   - File: `Productions\MetaSports\2026-11-05 90 The Warriors Did What No Team Had Done\DRAFT - awaiting approval - The Warriors Did Something No Team Had Done In The Shot Clock Era (no music).mp4`
-  - TikTok caption: The Warriors Did Something No Team Had Done In The Shot Clock Era. Biggest comeback you have ever watched live? #nba #basketball #nbahistory #hoops
+  - TikTok caption: The Warriors Did Something No Team Had Done In The Shot Clock Era. Biggest comeback you have ever watched live? #warriors #goldenstatewarriors #warriorslakers #nba
   - Instagram caption: The Warriors Did Something No Team Had Done In The Shot Clock Era. Biggest comeback you have ever watched live?
 
-    #nba #basketball #nbahistory #hoops #reels
+    #warriors #goldenstatewarriors #warriorslakers #nba
 
 - [ ] **Fri Nov 06, 03:00 PM ET** · MetaSports FC · `wN54kSw6Sic` · 
   - File: `Soccer Channel\Productions\2026-11-06 S28 The Goalkeeper Who Refused To Be Substituted Before A Shootout\DRAFT - awaiting approval - S28 The goalkeeper who refused to be substituted before a shootout (no music).mp4`
-  - TikTok caption: . #football #soccer #footballstory #goalkeeper
+  - TikTok caption: . #football
   - Instagram caption: .
 
-    #football #soccer #footballstory #goalkeeper #reels
+    #football
