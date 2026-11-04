@@ -1,9 +1,9 @@
-# Handoff (auto), Wed Nov 04 2026, 15:41 EST, written by account: PC account 1
+# Handoff (auto), Wed Nov 04 2026, 16:36 EST, written by account: PC account 1
 
 Read this first, then `Research Notes/Daily Log.md` (newest entries) before building anything, so two sessions never build the same Short.
 
 ## Note from the last session
-Max site draft ready (owner: publish it); free avatar kit on Desktop (owner: Hedra/Dreamina sign-in, then Claude swaps clips)
+Full-automation prompt done: topic-shape reset (NBA family/moment, FC goalkeeper), FC scripts S21/S22/S36; next: Thu 6:45 gap-fill NBA Fri 3:30, Max avatar clips
 
 ## Keys on this machine (presence only)
 - ELEVENLABS_API_KEY: set
@@ -21,6 +21,13 @@ Max site draft ready (owner: publish it); free avatar kit on Desktop (owner: Hed
 - STATUS: Automation check written to Research Notes/Automation Check.md: PC timers PASS; cloud 3:17/4:23 runs both hit the weekly limit (reset 1 PM ET), cloud env still lacks YT secrets; routines not fired (queue full to Fri AM, Thu 6:45 gap-fill covers Fri 3:30 PM). Next: read Nov 5 cloud logs.
 
 ## Last 15 commits (any account)
+- Nov 04 16:36 Full-automation prompt run Nov 4: log, STATE, crosspost queue
+- Nov 04 16:35 FC: 6 goalkeeper-trick ideas (own new fact each) + 2 one-variable experiments; sourced scripts S21 Higuita, S22 Ceni, S36 Martinez (not voiced)
+- Nov 04 16:32 Topic and Script Reset: hand-labelled topic shapes (81 Shorts), learn.py reports shape + subs per 1K views; daily-run picks shape first (NBA family/moment, pause history/rule; FC goalkeeper trick)
+- Nov 04 16:27 Nov 4: FC Studio lessons, daily-run update, full-automation terminal prompt
+- Nov 04 16:21 Add Nov 4 Studio analytics export and review for MetaSports FC
+- Oct 19 02:32 Overnight log: Oct 19 merge status and verify explanation
+- Nov 04 15:41 Handoff (auto) from PC account 1
 - Nov 04 15:41 Max site: plain-English explainer, teacher uses, DIY comparison, FAQ (Netlify draft only); free avatar route; to-do cleanup
 - Nov 04 13:30 Handoff (auto) from PC account 2 (terminal)
 - Nov 04 13:30 Automation check Nov 4 1:30 PM: PC timers pass; cloud runs hit weekly limit, env lacks YT secrets
@@ -29,13 +36,6 @@ Max site draft ready (owner: publish it); free avatar kit on Desktop (owner: Hed
 - Nov 04 07:43 Nov 4 AM: overnight timers all ran; both channels' analytics (NBA newest week up); Max phone page; yt_analytics UTF-8 fix
 - Nov 04 06:30 Schedule ready drafts (script)
 - Nov 04 10:39 FC daily run Nov 4: skipped, queue full through Sun; backlog of 5 ideas logged
-- Nov 04 09:42 NBA daily run Nov 4: skipped, queue full through Fri AM (#94 Rodman)
-- Nov 04 08:45 Research Nov 4: correct the key note (keys are visible now)
-- Nov 04 08:45 Daily research Nov 4: no NBA games (evergreen Rodman picks); FC S34 Fernandes dropped then saved Carrick, S35 Kane one short of Ronaldo
-- Nov 03 20:03 Wake task so admin-made timers run while the PC sleeps (no admin needed); cross-post kit: free TikTok handles, profile pictures, bios, steps
-- Nov 03 19:58 Handoff (auto) from PC account 1
-- Nov 03 19:58 Growth Study: add the 5,400-Shorts data source; backlog: length test, hook+foreshadow test, TikTok 60 s+ later
-- Nov 03 19:58 Growth Study (Nov 3): platform algorithms from official/expert transcripts and competitor TikTok numbers; cross-post hashtags from each Short's tags; script_lint reading-level check
 
 ## Uncommitted here
      M "HANDOFF - latest.md"
