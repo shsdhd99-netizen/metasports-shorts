@@ -4,6 +4,10 @@
 
 **Owner, Oct 15:** #21 Jokic is ALREADY POSTED. No more work on it (the `_v6` folder stays on disk, unused). **#44 is POSTED (4.4K views at the Oct 15 read). #40 was uploaded twice (ids FYsYr... and mqpMv...): see `Research Notes/Posted Tracker (Oct 15, 2026).csv`. The Hub now shows stages: awaiting OK / editing / need footage / hold-out / posted. The Hub's 1 GB asset storage is FULL: delete superseded assets (owner OK) before the next upload.**
 
+## Nov 4 evening terminal update
+- **#95 Lendeborg peer pressure (Clippers Nov 1): BUILT, QA PASS, 22.6 s, no music, DRAFT, not uploaded.** `Productions/MetaSports/2026-11-05 95 A Rookie Chased 40 Because His Teammates Said So/` (DRAFT mp4, UPLOAD.md, cover.jpg). Late-news risk: post soon.
+- #96 Porzingis (out indefinitely, private) and #97 Warriors 0-3 to five straight: script + sources only, folders in `Productions/MetaSports/2026-11-05 96 ...` and `97 ...`; not built.
+
 ## STATUS BOARD, Oct 19 (newest; lead with THE #42 FORMAT, `Library/THE 42 FORMAT.md`; other formats allowed)
 Stages: script, voice, footage, edit, render, QA, owner approval. **Nothing is posted by me.** Voice A/B order for the next 4 format posts: Alex, Designed, Alex, Designed (both voices are rendered or narrated for every draft).
 

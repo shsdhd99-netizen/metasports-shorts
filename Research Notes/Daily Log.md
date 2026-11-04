@@ -268,3 +268,5 @@ STATUS: Automation check written to Research Notes/Automation Check.md: PC timer
   - T5: timers verified (all fired today); preflight OK; crosspost queue 18 Shorts; schedule_ready dry run: only #67 skipped (two DRAFTs, no Arm line: owner). learn.py now has subs per 1K (API subs; CTR is Studio-only, not added).
   - T6 "Claude photos" = Max Claude's avatar photos: in progress with the owner (Hedra, kit on Desktop). Max sent only one photo; ask him for 2-3 more (mouth closed, facing camera).
 - 2026-11-04 18:05 ET terminal: Task 1 Max video DONE (synced build, QA.md, copied to Desktop/Max avatar kit).
+- 2026-11-04 18:25 ET terminal: Task 3 a-c DONE (study + guard). S09/S29 already uploaded+scheduled by schedule_ready, so NOT re-cut (no replacing uploads).
+- 2026-11-04 ET terminal: Task 2 #95 Lendeborg peer-pressure DRAFT built, QA PASS (22.6 s, no music). Folder Productions/MetaSports/2026-11-05 95 ...; not uploaded.

@@ -16,3 +16,6 @@
 - 2026-11-03 22:45 ET: tasks verified; Account 1 start-up list is in HANDOFF - Account 1 START HERE (Nov 4).md; backlog in Research Notes/Improvement Backlog.md.
 - 2026-11-03 19:45 ET: #94 Rodman No. 69 BUILT on the PC (QA PASS), card on HOLD for the owner's OK; slot Fri Nov 6 7:15 AM ET. Next NBA slot open: Fri Nov 6 3:30 PM ET onward.
 - 2026-11-03 20:45 ET: PC gap-fill tasks registered (NBA 6:45 AM, FC 7:30 AM; build only if next_gap.py finds an uncovered slot). Next NBA gap: Fri Nov 6 3:30 PM (in range Thu morning). FC covered through Sun Nov 8.
+
+- 2026-11-04 ~19:00 ET (terminal, owner request): CLAIM: terminal built the Lendeborg Short (#95); BUILDER.txt left as `cloud`. #96 Porzingis and #97 Warriors streak = scripts + sources only (notes.md in their folders), not voiced, not built. FC clip-repetition study done (not supported at n=15) and edit_lint reuse guard shipped. Max Claude synced preview done (Clients/Max Claude/Productions/00 Preview/QA.md). S09/S29 are already uploaded and scheduled by schedule_ready, so NOT re-cut. Backlog items (schedule_ready --require-approved, hub_pack helper, learn.py subs columns): not done.
+
