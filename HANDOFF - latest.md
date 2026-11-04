@@ -1,9 +1,6 @@
-# Handoff (auto), Wed Nov 04 2026, 16:36 EST, written by account: PC account 1
+# Handoff (auto), Wed Nov 04 2026, 17:36 EST, written by account: PC account 1 (end)
 
 Read this first, then `Research Notes/Daily Log.md` (newest entries) before building anything, so two sessions never build the same Short.
-
-## Note from the last session
-Full-automation prompt done: topic-shape reset (NBA family/moment, FC goalkeeper), FC scripts S21/S22/S36; next: Thu 6:45 gap-fill NBA Fri 3:30, Max avatar clips
 
 ## Keys on this machine (presence only)
 - ELEVENLABS_API_KEY: set
@@ -21,6 +18,7 @@ Full-automation prompt done: topic-shape reset (NBA family/moment, FC goalkeeper
 - STATUS: Automation check written to Research Notes/Automation Check.md: PC timers PASS; cloud 3:17/4:23 runs both hit the weekly limit (reset 1 PM ET), cloud env still lacks YT secrets; routines not fired (queue full to Fri AM, Thu 6:45 gap-fill covers Fri 3:30 PM). Next: read Nov 5 cloud logs.
 
 ## Last 15 commits (any account)
+- Nov 04 16:36 Handoff (auto) from PC account 1
 - Nov 04 16:36 Full-automation prompt run Nov 4: log, STATE, crosspost queue
 - Nov 04 16:35 FC: 6 goalkeeper-trick ideas (own new fact each) + 2 one-variable experiments; sourced scripts S21 Higuita, S22 Ceni, S36 Martinez (not voiced)
 - Nov 04 16:32 Topic and Script Reset: hand-labelled topic shapes (81 Shorts), learn.py reports shape + subs per 1K views; daily-run picks shape first (NBA family/moment, pause history/rule; FC goalkeeper trick)
@@ -35,9 +33,12 @@ Full-automation prompt done: topic-shape reset (NBA family/moment, FC goalkeeper
 - Nov 04 07:43 Handoff (auto) from PC account 1
 - Nov 04 07:43 Nov 4 AM: overnight timers all ran; both channels' analytics (NBA newest week up); Max phone page; yt_analytics UTF-8 fix
 - Nov 04 06:30 Schedule ready drafts (script)
-- Nov 04 10:39 FC daily run Nov 4: skipped, queue full through Sun; backlog of 5 ideas logged
 
 ## Uncommitted here
+     M "Clients/Max Claude/Productions/00 Preview/work/render.py"
+     M "Clients/Max Claude/Productions/00 Preview/work/script.txt"
+     M "Clients/Max Claude/Productions/00 Preview/work/voice_id.txt"
+     M "Clients/Max Claude/Productions/00 Preview/work/words.json"
      M "HANDOFF - latest.md"
      M "Research Notes/Preflight.md"
     ?? "Productions/MetaSports/2026-10-31 80 The Warriors Flipped The Exact Same Score/DRAFT - awaiting approval - The Lakers Led By 23 And Lost By 17 (no music).mp4"
@@ -49,7 +50,3 @@ Full-automation prompt done: topic-shape reset (NBA family/moment, FC goalkeeper
     ?? "Productions/MetaSports/2026-11-03 87 Draymond Triple Double With Four Points/clips/"
     ?? "Productions/MetaSports/2026-11-03 87 Draymond Triple Double With Four Points/voice_raw.mp3"
     ?? "Productions/MetaSports/2026-11-03 DEMO - editing upgrade 73/_render.json"
-    ?? "Productions/MetaSports/2026-11-03 DEMO - editing upgrade 73/captions.ass"
-    ?? "Productions/MetaSports/2026-11-03 DEMO - editing upgrade 73/captions.srt"
-    ?? "Productions/MetaSports/2026-11-03 DEMO - editing upgrade 73/clips/"
-    ?? "Productions/MetaSports/2026-11-03 DEMO - editing upgrade 73/script.txt"
