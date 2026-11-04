@@ -3,6 +3,9 @@
 One entry per channel per day, written by the daily runs (`.claude/skills/daily-run/SKILL.md`): data pulled, what was learned,
 research with sources, what was made, what changed in the rules or tools.
 
+## Wed Nov 4, 2026 (FC daily run; main session; build skipped: queue full)
+FC is scheduled through Fri Nov 6, with S29 (Sat) and S09 (Sun) approved. Scripts already waiting: S30 Kane penalty, S31 baby Messi/Yamal, S32 Hull City walker; new research ideas S34 (Fernandes dropped, then saved Carrick) and S35 (Kane one game short of Ronaldo) are in the Idea Bank. No new scripts written today: five unbuilt ideas cover the next open days (Mon Nov 9 on). Inbox empty.
+
 ## Wed Nov 4, 2026 (NBA daily run; main session; build skipped: queue full)
 NBA is scheduled through Thu Nov 5 (2/day) and Fri Nov 6 7:15 AM has #94 Rodman (built on the PC, approved). No games Tuesday night, and the research's other evergreen pick (Bubba Wells fouling Rodman on purpose) would be a second Rodman Short the same day. Next open slots: Fri 3:30 PM (optional second post) and Sat 7:15 AM, which is better kept for Friday night's news. Inbox empty. Voice and Gemini keys now visible in this session.
 
