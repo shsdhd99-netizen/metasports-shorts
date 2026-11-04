@@ -1,9 +1,9 @@
-# Handoff (auto), Wed Nov 04 2026, 07:43 EST, written by account: PC account 1
+# Handoff (auto), Wed Nov 04 2026, 13:30 EST, written by account: PC account 2 (terminal)
 
 Read this first, then `Research Notes/Daily Log.md` (newest entries) before building anything, so two sessions never build the same Short.
 
 ## Note from the last session
-Done: Max phone page, analytics both channels (NBA up), timers proven overnight. Next: Thu 6:45 gap-fill builds NBA Fri 3:30 PM; owner: TikTok/IG accounts
+Automation check PARTIAL: PC pass, cloud limit-hit + missing YT secrets; next: check Nov 5 cloud logs
 
 ## Keys on this machine (presence only)
 - ELEVENLABS_API_KEY: set
@@ -18,8 +18,12 @@ Done: Max phone page, analytics both channels (NBA up), timers proven overnight.
 
 ## Newest STATUS lines (Daily Log)
 - STATUS: DONE all handoff items 1-4 incl. item 15 (daily-run reads Learned Weights). Stopped because the task list is complete, not on a usage limit; /usage was not readable here. Owner: register the two schtasks lines in Tools/schedule_ready.bat.
+- STATUS: Automation check written to Research Notes/Automation Check.md: PC timers PASS; cloud 3:17/4:23 runs both hit the weekly limit (reset 1 PM ET), cloud env still lacks YT secrets; routines not fired (queue full to Fri AM, Thu 6:45 gap-fill covers Fri 3:30 PM). Next: read Nov 5 cloud logs.
 
 ## Last 15 commits (any account)
+- Nov 04 13:30 Automation check Nov 4 1:30 PM: PC timers pass; cloud runs hit weekly limit, env lacks YT secrets
+- Nov 04 09:00 Automation check (script)
+- Nov 04 07:43 Handoff (auto) from PC account 1
 - Nov 04 07:43 Nov 4 AM: overnight timers all ran; both channels' analytics (NBA newest week up); Max phone page; yt_analytics UTF-8 fix
 - Nov 04 06:30 Schedule ready drafts (script)
 - Nov 04 10:39 FC daily run Nov 4: skipped, queue full through Sun; backlog of 5 ideas logged
@@ -32,9 +36,6 @@ Done: Max phone page, analytics both channels (NBA up), timers proven overnight.
 - Nov 03 19:58 Growth Study (Nov 3): platform algorithms from official/expert transcripts and competitor TikTok numbers; cross-post hashtags from each Short's tags; script_lint reading-level check
 - Nov 03 19:53 Max preview: LatentSync 1.5 lip sync on the PC (setup notes for Windows), both versions re-rendered
 - Nov 03 19:29 Two-week automation review: daily check script + 9 AM task (Nov 4-17, wakes PC, Claude only on FAIL); fix_task_wake.ps1 for the four admin-registered tasks that missed a run while the PC slept
-- Nov 03 19:25 Cross-posting resumed (owner): crosspost.py builds the TikTok/Instagram queue from what is on YouTube; schedule_ready timer refreshes it; skill and Playbook pause lifted
-- Nov 03 19:24 cleanup_builds.py: free working files of past Shorts (dry run default; keeps DRAFTs and tracked files); ran it: 5.15 GB
-- Nov 03 19:18 Handoff (auto) from PC account 1
 
 ## Uncommitted here
      M "HANDOFF - latest.md"
