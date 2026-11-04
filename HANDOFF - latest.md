@@ -1,9 +1,9 @@
-# Handoff (auto), Wed Nov 04 2026, 13:30 EST, written by account: PC account 2 (terminal)
+# Handoff (auto), Wed Nov 04 2026, 15:41 EST, written by account: PC account 1
 
 Read this first, then `Research Notes/Daily Log.md` (newest entries) before building anything, so two sessions never build the same Short.
 
 ## Note from the last session
-Automation check PARTIAL: PC pass, cloud limit-hit + missing YT secrets; next: check Nov 5 cloud logs
+Max site draft ready (owner: publish it); free avatar kit on Desktop (owner: Hedra/Dreamina sign-in, then Claude swaps clips)
 
 ## Keys on this machine (presence only)
 - ELEVENLABS_API_KEY: set
@@ -21,6 +21,8 @@ Automation check PARTIAL: PC pass, cloud limit-hit + missing YT secrets; next: c
 - STATUS: Automation check written to Research Notes/Automation Check.md: PC timers PASS; cloud 3:17/4:23 runs both hit the weekly limit (reset 1 PM ET), cloud env still lacks YT secrets; routines not fired (queue full to Fri AM, Thu 6:45 gap-fill covers Fri 3:30 PM). Next: read Nov 5 cloud logs.
 
 ## Last 15 commits (any account)
+- Nov 04 15:41 Max site: plain-English explainer, teacher uses, DIY comparison, FAQ (Netlify draft only); free avatar route; to-do cleanup
+- Nov 04 13:30 Handoff (auto) from PC account 2 (terminal)
 - Nov 04 13:30 Automation check Nov 4 1:30 PM: PC timers pass; cloud runs hit weekly limit, env lacks YT secrets
 - Nov 04 09:00 Automation check (script)
 - Nov 04 07:43 Handoff (auto) from PC account 1
@@ -34,8 +36,6 @@ Automation check PARTIAL: PC pass, cloud limit-hit + missing YT secrets; next: c
 - Nov 03 19:58 Handoff (auto) from PC account 1
 - Nov 03 19:58 Growth Study: add the 5,400-Shorts data source; backlog: length test, hook+foreshadow test, TikTok 60 s+ later
 - Nov 03 19:58 Growth Study (Nov 3): platform algorithms from official/expert transcripts and competitor TikTok numbers; cross-post hashtags from each Short's tags; script_lint reading-level check
-- Nov 03 19:53 Max preview: LatentSync 1.5 lip sync on the PC (setup notes for Windows), both versions re-rendered
-- Nov 03 19:29 Two-week automation review: daily check script + 9 AM task (Nov 4-17, wakes PC, Claude only on FAIL); fix_task_wake.ps1 for the four admin-registered tasks that missed a run while the PC slept
 
 ## Uncommitted here
      M "HANDOFF - latest.md"
