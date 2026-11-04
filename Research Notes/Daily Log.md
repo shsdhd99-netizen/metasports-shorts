@@ -3,6 +3,9 @@
 One entry per channel per day, written by the daily runs (`.claude/skills/daily-run/SKILL.md`): data pulled, what was learned,
 research with sources, what was made, what changed in the rules or tools.
 
+## Wed Nov 4, 2026 (NBA daily run; main session; build skipped: queue full)
+NBA is scheduled through Thu Nov 5 (2/day) and Fri Nov 6 7:15 AM has #94 Rodman (built on the PC, approved). No games Tuesday night, and the research's other evergreen pick (Bubba Wells fouling Rodman on purpose) would be a second Rodman Short the same day. Next open slots: Fri 3:30 PM (optional second post) and Sat 7:15 AM, which is better kept for Friday night's news. Inbox empty. Voice and Gemini keys now visible in this session.
+
 ## Tue Nov 3, 2026, 14:40 UTC (owner: "save the pacers, and find the key. do more research aswell ... see if you are fully able to takeover these channels")
 
 **Key.** Not recoverable from here: no `ELEVENLABS_API_KEY` in the environment, no key file (the Nov 2 reset wiped the scratchpad), none in the repo or this session's history, no proxy-held credential (api.elevenlabs.io answers 401 without one), and no computer folder shared through Remote Control. Stand-ins failed: Everygen's subscription is inactive (402), vidIQ has 0 credits until Nov 5. The owner has to re-add it in the environment settings.
