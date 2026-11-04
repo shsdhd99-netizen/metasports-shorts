@@ -23,7 +23,7 @@ Source: `Research Notes/Full Review for Retention (Nov 2026).md` (tiers as above
 - No promo, teaser or subscribe outro. The video stops on the payoff.
 - No dead air: run `Tools/tighten_voice.py` on every voice.
 - Never put API keys in docs, chat or git.
-- TikTok and Instagram cross-posting is paused (owner, Oct 26: YouTube first).
+- TikTok/Instagram RESUMED (owner, Nov 3: "start crossposting process"): post the SAME YouTube file; captions come from `python Tools/crosspost.py` (Research Notes/Crosspost Queue.md); still no separate long cut.
 
 ### 1. NBA lanes (Oct 26 overnight review)
 - **Moments: about half of all NBA Shorts.** A funny, odd or skilful thing you can watch: in a game, on the bench, in warm-ups, a fan, a kid, a mascot, the broadcast desk. Narrate who, what, and the reaction or payoff. [S] Similar Channels §1 and §4; Swishyyy's moments get about 1.8x its explainers (Retention Upgrade §1c). Ours is untested.

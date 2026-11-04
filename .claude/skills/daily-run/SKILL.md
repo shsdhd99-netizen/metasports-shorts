@@ -27,7 +27,7 @@ Two runs a day (scheduled tasks "MetaSports NBA daily run" and "MetaSports FC da
 - Never print, commit or ask for API keys or tokens. Keys come from the environment only.
 - Never invent a stat or a result. If data is missing, write "missing" and say why.
 - No promo or teaser at the end; no dead air; every Short under 60 s.
-- No cards (1.5 s at most if one is unavoidable, never in the first 4 s). TikTok and Instagram cross-posting is paused.
+- No cards (1.5 s at most if one is unavoidable, never in the first 4 s). TikTok/Instagram RESUMED (owner, Nov 3: "start crossposting process"): post the SAME YouTube file; captions come from `python Tools/crosspost.py` (Research Notes/Crosspost Queue.md); still no separate long cut.
 - **The rules changed in the Oct 26 overnight review.** THE RULES at the top of `MetaSports - Playbook.md` win over this file;
   every change is listed in `Research Notes/Rule Changes Applied (Oct 26, 2026).md`.
 - Work on branch `main-329h3w`; push there; never open or merge a PR.
@@ -36,7 +36,7 @@ Two runs a day (scheduled tasks "MetaSports NBA daily run" and "MetaSports FC da
 be edited from the runner session and is partly out of date:**
 - **Timing:** the runs now fire at 3:17 AM ET (NBA) and 4:23 AM ET (FC), so the Short is on the Hub before the 7 AM post.
   The card's slot is TODAY: NBA 7:00-8:00 AM ET, FC 7:00-9:00 AM ET (the prompt's "11:00 AM" and "12:00 PM" slots are old).
-- **No long cut, no TikTok/Instagram captions** (paused Oct 26), whatever the prompt's step 5/6 says.
+- **No long cut** (paused Oct 26), whatever the prompt's step 5/6 says. TikTok/Instagram RESUMED (owner, Nov 3: "start crossposting process"): post the SAME YouTube file; captions come from `python Tools/crosspost.py` (Research Notes/Crosspost Queue.md); still no separate long cut.
 - **Fast reads:** only the newest 2 Daily Log entries (`head -80 "Research Notes/Daily Log.md"`); skip `yt_analytics.py` and
   `shorts_dataset.py` hand columns when the YT_* secrets are missing (one log line); public views from
   `yt-dlp --flat-playlist --print "%(id)s %(view_count)s %(title)s" <channel>/shorts` (single-video pages and RSS are blocked).
@@ -157,7 +157,7 @@ Read `Research Notes/BUILDER.txt` (`pc` or `cloud`). Build a Short only if it na
   **Plus the TikTok/Instagram long cut (Oct 25):** in `<folder>/long/`, the same script with one or two extra sourced beats,
   re-voiced whole, 65-80 s (never under 62 s: TikTok pays only over 1 minute), music version only, `qa_short.py --long --full`
   PASS, saved as `DRAFT - awaiting approval - SNN <title> (TikTok-IG long, music).mp4`. Card version label "TikTok-IG long".
-- **NBA on TikTok/Instagram: PAUSED** (owner, Oct 26: YouTube first). No TikTok cuts until the owner says so.
+- **NBA and FC on TikTok/Instagram:** TikTok/Instagram RESUMED (owner, Nov 3: "start crossposting process"): post the SAME YouTube file; captions come from `python Tools/crosspost.py` (Research Notes/Crosspost Queue.md); still no separate long cut.
 - **Faster tools (Oct 24):** `Tools/frame_sheet.py SRC --from A --to B --every 0.5` (contact sheet in seconds) and
   `--cuts` (scene-change times: start and end shots between them, never inside a reel's dissolve); write `cuts_plan.json`, then
   `Tools/fill_len.py F` fills every len from the anchors; in cuts.json `"speed": 0.5` slows a short close-up and `"overlay": [...]`
@@ -201,7 +201,7 @@ Read `Research Notes/BUILDER.txt` (`pc` or `cloud`). Build a Short only if it na
   Upload a 1.5 Mbps copy as an asset (Artifact publish `asset: true`), then write the card (collection `shorts`: code, name, num,
   status `ready`, slot, slotLabel, versions [{label, assetId, note}], titles, tags, postNote). Read a card before writing it and
   pin every write with `if_version`.
-- **Card text for TikTok and Instagram: PAUSED** with cross-posting (owner, Oct 26). Leave the `tiktok` and `instagram` fields empty.
+- **Card text for TikTok and Instagram:** filled by `Tools/crosspost.py` after the YouTube upload; run it at the end of each build.
 - Slots follow `UPLOAD SCHEDULE.md` (owner, Oct 28: first posts at 7-9 AM ET): up to 2 per channel per day (the 2nd only when as
   strong). NBA at 7:00-8:00 AM ET (last night's news Short takes today's slot), soccer at 7:00-9:00 AM ET (same sitting is fine,
   owner Oct 29). A second slot (NBA about 3 PM, soccer about 4 PM) only for a Short as strong as the first, 6+ hours later; never 3. Keep at least 2 days of ready Shorts per channel; mark an unposted
