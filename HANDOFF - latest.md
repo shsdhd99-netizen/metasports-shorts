@@ -1,6 +1,9 @@
-# Handoff (auto), Wed Nov 04 2026, 17:36 EST, written by account: PC account 1 (end)
+# Handoff (auto), Wed Nov 04 2026, 18:21 EST, written by account: PC terminal (Max, FC study, #95)
 
 Read this first, then `Research Notes/Daily Log.md` (newest entries) before building anything, so two sessions never build the same Short.
+
+## Note from the last session
+Done: Max synced preview, FC repetition study+guard, #95 built. Next: build #96/#97 (scripts in folders), owner listens to waiting NBA Shorts.
 
 ## Keys on this machine (presence only)
 - ELEVENLABS_API_KEY: set
@@ -18,6 +21,11 @@ Read this first, then `Research Notes/Daily Log.md` (newest entries) before buil
 - STATUS: Automation check written to Research Notes/Automation Check.md: PC timers PASS; cloud 3:17/4:23 runs both hit the weekly limit (reset 1 PM ET), cloud env still lacks YT secrets; routines not fired (queue full to Fri AM, Thu 6:45 gap-fill covers Fri 3:30 PM). Next: read Nov 5 cloud logs.
 
 ## Last 15 commits (any account)
+- Nov 04 18:20 NBA #96 Porzingis and #97 Warriors streak: scripts and sources only (not built)
+- Nov 04 18:18 NBA draft #95: Lendeborg peer-pressure Short (QA PASS, not uploaded)
+- Nov 04 18:05 FC clip repetition study (not supported at n=15) and edit_lint reuse guard with selftest
+- Nov 04 18:03 Max Claude preview: LatentSync-synced full-avatar build, SyncNet QA, voice v2 script, second sources
+- Nov 04 17:36 Handoff (auto) from PC account 1 (end)
 - Nov 04 16:36 Handoff (auto) from PC account 1
 - Nov 04 16:36 Full-automation prompt run Nov 4: log, STATE, crosspost queue
 - Nov 04 16:35 FC: 6 goalkeeper-trick ideas (own new fact each) + 2 one-variable experiments; sourced scripts S21 Higuita, S22 Ceni, S36 Martinez (not voiced)
@@ -28,19 +36,13 @@ Read this first, then `Research Notes/Daily Log.md` (newest entries) before buil
 - Nov 04 15:41 Handoff (auto) from PC account 1
 - Nov 04 15:41 Max site: plain-English explainer, teacher uses, DIY comparison, FAQ (Netlify draft only); free avatar route; to-do cleanup
 - Nov 04 13:30 Handoff (auto) from PC account 2 (terminal)
-- Nov 04 13:30 Automation check Nov 4 1:30 PM: PC timers pass; cloud runs hit weekly limit, env lacks YT secrets
-- Nov 04 09:00 Automation check (script)
-- Nov 04 07:43 Handoff (auto) from PC account 1
-- Nov 04 07:43 Nov 4 AM: overnight timers all ran; both channels' analytics (NBA newest week up); Max phone page; yt_analytics UTF-8 fix
-- Nov 04 06:30 Schedule ready drafts (script)
 
 ## Uncommitted here
-     M "Clients/Max Claude/Productions/00 Preview/work/render.py"
-     M "Clients/Max Claude/Productions/00 Preview/work/script.txt"
-     M "Clients/Max Claude/Productions/00 Preview/work/voice_id.txt"
-     M "Clients/Max Claude/Productions/00 Preview/work/words.json"
      M "HANDOFF - latest.md"
+     M "Production Queue.md"
+     M "Research Notes/Daily Log.md"
      M "Research Notes/Preflight.md"
+     M "Research Notes/STATE.md"
     ?? "Productions/MetaSports/2026-10-31 80 The Warriors Flipped The Exact Same Score/DRAFT - awaiting approval - The Lakers Led By 23 And Lost By 17 (no music).mp4"
     ?? "Productions/MetaSports/2026-11-03 85 Jokic Only Wanted To Go Home/_voice_pretighten/"
     ?? "Productions/MetaSports/2026-11-03 85 Jokic Only Wanted To Go Home/_voice_prev/"
@@ -50,3 +52,4 @@ Read this first, then `Research Notes/Daily Log.md` (newest entries) before buil
     ?? "Productions/MetaSports/2026-11-03 87 Draymond Triple Double With Four Points/clips/"
     ?? "Productions/MetaSports/2026-11-03 87 Draymond Triple Double With Four Points/voice_raw.mp3"
     ?? "Productions/MetaSports/2026-11-03 DEMO - editing upgrade 73/_render.json"
+    ?? "Productions/MetaSports/2026-11-03 DEMO - editing upgrade 73/captions.ass"
