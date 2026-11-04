@@ -1,0 +1,5 @@
+[
+ {"sfx": "brick", "at": 10.9, "gain": -12, "len": 0.8, "fade": 0.2, "why": "first missed three (the word Missed, MISS overlay)"},
+ {"sfx": "thud", "at": 14.2, "gain": -14, "len": 0.6, "fade": 0.2, "why": "Kerr pulls him (hard cut to the bench shot)"},
+ {"sfx": "heartbeat", "at": 21.95, "gain": -16, "len": 0.5, "fade": 0.2, "why": "payoff: added nothing, 0-FOR-3"}
+]

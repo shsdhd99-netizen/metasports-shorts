@@ -1,0 +1,217 @@
+{
+ "sources": {
+  "H": "src/hl37.mp4",
+  "G": "src/hl120.mp4",
+  "P": "src/postgame.mp4"
+ },
+ "promise": [
+  "rookie",
+  "forty"
+ ],
+ "shots": [
+  {
+   "clip": "B01",
+   "src": "H",
+   "at": 145.8,
+   "kind": "face",
+   "why": "Lendeborg looks to the bench late in the game, Clippers at Warriors Nov 1 (Warriors team site highlights)",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.4,
+   "anchor": "His",
+   "len": 3.0
+  },
+  {
+   "clip": "B02",
+   "src": "H",
+   "at": 70.6,
+   "kind": "action",
+   "why": "Lendeborg (#1) hits a three in the Clippers game (Warriors site 37-pt highlights, 1:11)",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "Yaxel",
+   "overlay": [
+    {
+     "text": "37 PTS",
+     "size": 170,
+     "y": 300,
+     "start": 1.0,
+     "end": 2.4
+    }
+   ]
+  },
+  {
+   "clip": "B03",
+   "src": "G",
+   "at": 98.2,
+   "kind": "face",
+   "why": "Steph Curry, in a hoodie on the bench, sitting out (right knee injury management: Hoops Rumors Nov 2)",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.8,
+   "anchor": "Steph"
+  },
+  {
+   "clip": "B04",
+   "src": "G",
+   "at": 86.3,
+   "kind": "face",
+   "why": "Warriors bench cheering in the 3rd quarter",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.55,
+   "anchor": "The Warriors"
+  },
+  {
+   "clip": "B05",
+   "src": "G",
+   "at": 112.5,
+   "kind": "action",
+   "why": "4Q scorebug 94-116 (Warriors up 22, 5:28 left)",
+   "blurfit": true,
+   "blurfit_width": 1.0,
+   "anchor": "With the game",
+   "overlay": [
+    {
+     "text": "UP 22",
+     "size": 170,
+     "y": 300,
+     "start": 0.2,
+     "end": 1.4
+    }
+   ]
+  },
+  {
+   "clip": "B06",
+   "src": "G",
+   "at": 107.4,
+   "kind": "face",
+   "why": "Lendeborg in the 4th quarter, Warriors bench behind him",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.55,
+   "anchor": "he took",
+   "overlay": [
+    {
+     "text": "MISS",
+     "size": 190,
+     "y": 300,
+     "start": 0.7,
+     "end": 1.25
+    }
+   ]
+  },
+  {
+   "clip": "B07",
+   "src": "G",
+   "at": 104.2,
+   "kind": "action",
+   "why": "4Q wide, Warriors on the floor (92-108)",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "Another",
+   "overlay": [
+    {
+     "text": "MISS",
+     "size": 190,
+     "y": 300,
+     "start": 0.35,
+     "end": 1.2
+    }
+   ]
+  },
+  {
+   "clip": "B08",
+   "src": "H",
+   "at": 157.4,
+   "kind": "face",
+   "why": "Lendeborg looking at Clippers #28, 4Q",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.45,
+   "anchor": "A third",
+   "overlay": [
+    {
+     "text": "MISS",
+     "size": 190,
+     "y": 300,
+     "start": 0.7,
+     "end": 1.3
+    }
+   ]
+  },
+  {
+   "clip": "B09",
+   "src": "H",
+   "at": 148.7,
+   "kind": "face",
+   "why": "Steve Kerr (black jacket) at the Warriors bench beside Curry, 4Q",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.97,
+   "anchor": "Steve Kerr"
+  },
+  {
+   "clip": "B10",
+   "src": "P",
+   "at": 44.0,
+   "kind": "face",
+   "why": "Lendeborg postgame: 'I've never been a stat chaser in my life... falling into peer pressure like I did just now was pretty much bad on my part' (Warriors site postgame video 11/1, 0:44-0:52)",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "Afterward",
+   "overlay": [
+    {
+     "text": "PEER PRESSURE",
+     "size": 120,
+     "y": 300,
+     "start": 2.4,
+     "end": 3.4
+    }
+   ]
+  },
+  {
+   "clip": "B12",
+   "src": "H",
+   "at": 119.0,
+   "kind": "action",
+   "why": "Lendeborg (#1) celebrates a make, 3Q (Warriors site 37-pt highlights, 1:59)",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "He finished",
+   "overlay": [
+    {
+     "text": "37",
+     "size": 260,
+     "y": 300,
+     "start": 0.1,
+     "end": 1.0
+    }
+   ]
+  },
+  {
+   "clip": "B13",
+   "src": "G",
+   "at": 115.0,
+   "kind": "action",
+   "why": "4Q wide, Warriors up big (scorebug 94-114/116)",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "The three shots",
+   "overlay": [
+    {
+     "text": "0-FOR-3",
+     "size": 170,
+     "y": 300,
+     "start": 0.8,
+     "end": 2.5
+    }
+   ]
+  }
+ ]
+}

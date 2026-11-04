@@ -1,0 +1,86 @@
+[
+ {
+  "clip": "B01.mp4",
+  "kind": "face",
+  "why": "Lendeborg looks to the bench late in the game, Clippers at Warriors Nov 1 (Warriors team site highlights)",
+  "anchor": "His",
+  "start": 0.0
+ },
+ {
+  "clip": "B02.mp4",
+  "kind": "action",
+  "why": "Lendeborg (#1) hits a three in the Clippers game (Warriors site 37-pt highlights, 1:11)",
+  "anchor": "Yaxel",
+  "start": 2.98
+ },
+ {
+  "clip": "B03.mp4",
+  "kind": "face",
+  "why": "Steph Curry, in a hoodie on the bench, sitting out (right knee injury management: Hoops Rumors Nov 2)",
+  "anchor": "Steph",
+  "start": 5.62
+ },
+ {
+  "clip": "B04.mp4",
+  "kind": "face",
+  "why": "Warriors bench cheering in the 3rd quarter",
+  "anchor": "The Warriors",
+  "start": 6.74
+ },
+ {
+  "clip": "B05.mp4",
+  "kind": "action",
+  "why": "4Q scorebug 94-116 (Warriors up 22, 5:28 left)",
+  "anchor": "With the game",
+  "start": 8.89
+ },
+ {
+  "clip": "B06.mp4",
+  "kind": "face",
+  "why": "Lendeborg in the 4th quarter, Warriors bench behind him",
+  "anchor": "he took",
+  "start": 10.09
+ },
+ {
+  "clip": "B07.mp4",
+  "kind": "action",
+  "why": "4Q wide, Warriors on the floor (92-108)",
+  "anchor": "Another",
+  "start": 11.39
+ },
+ {
+  "clip": "B08.mp4",
+  "kind": "face",
+  "why": "Lendeborg looking at Clippers #28, 4Q",
+  "anchor": "A third",
+  "start": 12.62
+ },
+ {
+  "clip": "B09.mp4",
+  "kind": "face",
+  "why": "Steve Kerr (black jacket) at the Warriors bench beside Curry, 4Q",
+  "anchor": "Steve Kerr",
+  "start": 13.86
+ },
+ {
+  "clip": "B10.mp4",
+  "kind": "face",
+  "why": "Lendeborg postgame: 'I've never been a stat chaser in my life... falling into peer pressure like I did just now was pretty much bad on my part' (Warriors site postgame video 11/1, 0:44-0:52)",
+  "anchor": "Afterward",
+  "start": 15.49
+ },
+ {
+  "clip": "B12.mp4",
+  "kind": "action",
+  "why": "Lendeborg (#1) celebrates a make, 3Q (Warriors site 37-pt highlights, 1:59)",
+  "anchor": "He finished",
+  "start": 18.95
+ },
+ {
+  "clip": "B13.mp4",
+  "kind": "action",
+  "why": "4Q wide, Warriors up big (scorebug 94-114/116)",
+  "anchor": "The three shots",
+  "start": 20.02
+ }
+]
