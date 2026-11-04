@@ -1,39 +1,18 @@
-# Automation Check (daily, Nov 4-17, 2026; `python Tools/automation_review.py`, PC task 9:00 AM)
-A FAIL starts one Claude session to fix it (Tools/automation_review.ps1); its STATUS line goes in the Daily Log.
+# Automation Check (Wed Nov 4, 2026, 1:30 PM ET, PC terminal account)
 
-## Tue Nov 03, 2026 19:26 ET: FAIL
-| Result | Check | Evidence |
-|---|---|---|
-| FAIL | task MetaSports analytics | last ran Nov 02 03:20 (over 26 h ago), state Ready |
-| WARN | task MetaSports gapfill fc | has not run yet |
-| WARN | task MetaSports gapfill nba | has not run yet |
-| WARN | task MetaSports schedule ready AM | has not run yet |
-| PASS | task MetaSports schedule ready PM | ran Nov 03 18:30, result 0 |
-| PASS | task MetaSports terminal resume | one-shot; last never, result 267011 |
-| FAIL | task MetaSports automation review | not registered |
-| PASS | nba slots in the next 24 h | NO GAP nba in the next 24 h |
-| PASS | fc slots in the next 24 h | NO GAP fc in the next 24 h |
-| PASS | preflight | PREFLIGHT OK (1 warnings) |
-| PASS | disk C: | 28.5 GB free |
-| PASS | git pushed | 0 local commit(s) not on origin |
-| PASS | gapfill nba log | 2026-11-03 19:17:09 nothing to build (every slot in the next 54 h is covered); Claude not started |
-| WARN | gapfill fc log | no log yet |
+| # | Check | Result | Evidence | Fix |
+|---|---|---|---|---|
+| 1a | Preflight | PASS (1 warn) | keys set, tokens refresh (nba, fc, analytics), ElevenLabs 68,550 chars; disk 17 GB free | disk: owner decides what goes |
+| 1b | PC timers | PASS | analytics 3:20 (res 0), schedule ready AM 6:30, gapfill nba 6:45, gapfill fc 7:30, review 9:00 all ran Nov 4, result 0; PM + wake next 6:25/6:30 PM | none |
+| 1c | Analytics commit | PASS | newest daily file Nov 4 | none |
+| 2 | Cloud routines (get) | PASS | both enabled, next_run Nov 5 08:17 / 09:23 UTC | none |
+| 2 | Cloud morning runs | FAIL | NBA (08:17 UTC) and FC (09:23 UTC) both ended "weekly limit, resets 5pm UTC". NBA got 18 turns in (research only, nothing committed) then hit the limit. The 12:10 UTC retry also failed. list_runs shows no rows; logs read via session ids | limit reset at 1 PM ET; tomorrow's runs should work |
+| 2b | Cloud env keys | PARTIAL | ELEVENLABS key now set, Gemini set; preflight BLOCKED on YT_CLIENT_ID, YT_CLIENT_SECRET, YT_UPLOAD_TOKEN(_FC) in cloud | owner: run Tools/copy_cloud_env.ps1 and paste the YT values (cloud cannot schedule or pull analytics without them; builds still possible) |
+| 3 | Fire routines now | NOT FIRED | queue full through Fri AM; Fri Nov 6 3:30 PM NBA is the only gap and the Thu 6:45 AM PC gap-fill owns it; firing would risk a duplicate build and spend cloud credits right after a limit hit | rerun tomorrow's 3:17/4:23 runs, check logs Thu |
+| 4 | End-to-end proof of a cloud-built Short | NOT YET | no cloud build has completed since keys were pasted | Thu check |
+| 5 | Scheduler | PASS | Scheduled Uploads.csv: 19 rows, no duplicate sha or video id; last run scheduled #94 (Fri 7:15), S29 (Sat 12:00 no-music), S09 (Sun 12:00 music); dry run of schedule_ready skips only ambiguous two-DRAFT folders (#67) | owner: pick Arm for #67 |
+| 6 | Branches | PASS | origin has main-329h3w, account2 (last Oct 31), main; local clean vs origin | none |
+| 7 | CLAIM roundtrip | NOT TESTED | no CLAIM lines in STATE.md currently | skipped, no builder active |
 
-## Wed Nov 04, 2026 09:00 ET: PASS
-| Result | Check | Evidence |
-|---|---|---|
-| PASS | task MetaSports analytics | ran Nov 04 03:20, result 0 |
-| PASS | task MetaSports automation review | ran Nov 04 09:00, result 267009 |
-| PASS | task MetaSports gapfill fc | ran Nov 04 07:30, result 0 |
-| PASS | task MetaSports gapfill nba | ran Nov 04 06:45, result 0 |
-| PASS | task MetaSports schedule ready AM | ran Nov 04 06:30, result 0 |
-| PASS | task MetaSports schedule ready PM | ran Nov 03 18:30, result 0 |
-| PASS | task MetaSports terminal resume | one-shot; last never, result 267011 |
-| PASS | task MetaSports wake | ran Nov 04 06:25, result 0 |
-| PASS | nba slots in the next 24 h | NO GAP nba in the next 24 h |
-| PASS | fc slots in the next 24 h | NO GAP fc in the next 24 h |
-| PASS | preflight | PREFLIGHT OK (1 warnings) |
-| PASS | disk C: | 16.8 GB free |
-| PASS | git pushed | 0 local commit(s) not on origin |
-| PASS | gapfill nba log | 2026-11-04 06:45:07 nothing to build (every slot in the next 54 h is covered); Claude not started |
-| PASS | gapfill fc log | 2026-11-04 07:30:06 nothing to build (every slot in the next 54 h is covered); Claude not started |
+AUTOMATION CHECK: PARTIAL. PC side PASS. Cloud builds unproven: both morning runs died on the weekly limit and the cloud env still lacks the YouTube secrets.
+Owner-only: (1) paste YT_CLIENT_ID / YT_CLIENT_SECRET / YT_UPLOAD_TOKEN / YT_UPLOAD_TOKEN_FC into the cloud environment; (2) Arm for #67; (3) chmod 600 on watch .env.

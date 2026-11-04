@@ -256,3 +256,6 @@ STATUS: DONE all handoff items 1-4 incl. item 15 (daily-run reads Learned Weight
 - **Max:** owner asked for a phone-viewable page: private artifact "Max's Preview" (https://claude.ai/artifact/MCPph6oSJ2CZ6bixZVQQvm), both versions re-encoded to 6 MB (720p). Private to the owner; owner's explicit OK overrides the HANDOFF "no artifacts" rule for this one page.
 - Research: "Claude in Chrome" is not available in this terminal session; the two missing transcripts still hit YouTube 429 (retry from the cloud or later).
 - Owner leaving: PC put to sleep after the handoff; wake timers cover 9:00 review, 1:25/1:30 resume, 6:25/6:30 PM schedule.
+
+## Wed Nov 4, 2026 1:30 PM ET (PC terminal account)
+STATUS: Automation check written to Research Notes/Automation Check.md: PC timers PASS; cloud 3:17/4:23 runs both hit the weekly limit (reset 1 PM ET), cloud env still lacks YT secrets; routines not fired (queue full to Fri AM, Thu 6:45 gap-fill covers Fri 3:30 PM). Next: read Nov 5 cloud logs.
