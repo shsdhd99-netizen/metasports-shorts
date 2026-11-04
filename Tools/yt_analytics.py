@@ -43,6 +43,7 @@ it catches likely swipes but can't rank the top. Export the Studio "Content" tab
 Scopes: yt-analytics.readonly + youtube.readonly. It cannot upload, edit, delete or post anything.
 """
 import argparse, base64, csv, datetime, hashlib, http.server, json, os, secrets, sys, threading, urllib.parse, urllib.request, webbrowser
+sys.stdout.reconfigure(encoding="utf-8", errors="replace"); sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
