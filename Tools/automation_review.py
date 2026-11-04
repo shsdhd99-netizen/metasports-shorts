@@ -14,7 +14,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 OUT = os.path.join(ROOT, "Research Notes", "Automation Check.md")
 DAILY = {"MetaSports analytics", "MetaSports schedule ready AM", "MetaSports schedule ready PM", "MetaSports gapfill nba",
-         "MetaSports gapfill fc", "MetaSports automation review"}
+         "MetaSports gapfill fc", "MetaSports automation review", "MetaSports wake"}
 results = []
 
 
