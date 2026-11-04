@@ -100,9 +100,30 @@ Post the SAME file as YouTube. TikTok: add a trending sound only at very low vol
 
     #warriors #goldenstatewarriors #warriorslakers #nba
 
+- [ ] **Fri Nov 06, 10:15 AM ET** · MetaSports (NBA) · `bY_OaVaO9M4` · The NBA Banned Dennis Rodman's Jersey Number
+  - File: `Productions\MetaSports\2026-11-06 94 Rodman Number 69\DRAFT - awaiting approval - The NBA Banned Dennis Rodman's Jersey Number (no music).mp4`
+  - TikTok caption: The NBA Banned Dennis Rodman's Jersey Number. Should the NBA have let Rodman wear 69? #dennisrodman #rodman #rodman69 #nba
+  - Instagram caption: The NBA Banned Dennis Rodman's Jersey Number. Should the NBA have let Rodman wear 69?
+
+    #dennisrodman #rodman #rodman69 #nba
+
 - [ ] **Fri Nov 06, 03:00 PM ET** · MetaSports FC · `wN54kSw6Sic` · 
   - File: `Soccer Channel\Productions\2026-11-06 S28 The Goalkeeper Who Refused To Be Substituted Before A Shootout\DRAFT - awaiting approval - S28 The goalkeeper who refused to be substituted before a shootout (no music).mp4`
   - TikTok caption: . #football
   - Instagram caption: .
+
+    #football
+
+- [ ] **Sat Nov 07, 03:00 PM ET** · MetaSports FC · `HNWSiLaQ3Nw` · The goalkeeper who says Spain were scared of a shootout
+  - File: `Soccer Channel\Productions\2026-11-07 S29 The Goalkeeper Who Says Spain Were Scared Of A Shootout\DRAFT - awaiting approval - S29 The goalkeeper who says Spain were scared of a shootout (no music).mp4`
+  - TikTok caption: The goalkeeper who says Spain were scared of a shootout. #football
+  - Instagram caption: The goalkeeper who says Spain were scared of a shootout.
+
+    #football
+
+- [ ] **Sun Nov 08, 03:00 PM ET** · MetaSports FC · `BkmKTjuNNO0` · The player who moved two Coca-Cola bottles at the Euros
+  - File: `Soccer Channel\Productions\2026-10-27 S09 Ronaldo Moved The Coca-Cola Bottles\DRAFT - awaiting approval - S09 The player who moved two Coca-Cola bottles at the Euros (music).mp4`
+  - TikTok caption: The player who moved two Coca-Cola bottles at the Euros. #football
+  - Instagram caption: The player who moved two Coca-Cola bottles at the Euros.
 
     #football
