@@ -118,3 +118,9 @@ Other series worth a test: "Managers who..." (Ferguson's boot and Beckham, 2003;
 - E2 (length): S36 is built at its natural ~38 s instead of padding to the 50-59 s story profile; compare engaged ratio with S21/S22 (FC has no Short under 45 s yet).
 
 | S37 | Como 9-1 away at Lens (UCL, Nov 4) | records | needs 2nd source + footage |
+
+## Nov 5, 2026 (terminal, from the FC case study: idea supply is the risk, 6 of 6 goalkeeper hits)
+Copy-check today: **Grobbelaar "spaghetti legs" 1984 CROWDED; Dudek 2005 CROWDED; Krul 2014 TAKEN (a storyteller has 500K+); Hope Solo's gloves CROWDED.** Do not build them without a clearly new angle.
+- **New candidate: Van der Sar's penalty save on Anelka (2008 Champions League final)**: earned him the nickname "Van der Save"; United's own piece has his account (he dived to his right). Copy-check FRESH. **Correction logged:** a search result claimed he "pointed to his left to tell Anelka where he would shoot" at the 2007 Community Shield. That is unverified and wrong on the match (Anelka's penalty was in Moscow 2008; the 2007 Shield saves were Pizarro, Lampard, Wright-Phillips). Do not use the pointing claim. Needs: two sources for the dive direction, the shootout footage (UEFA/archive.org), and an angle that is a goalkeeper doing something odd, not just a save. Source: manutd.com "Edwin van der Sar reflects on the 2008 Champions League penalty shootout win over Chelsea".
+- **Idea-mining sources** that listed real shootout goalkeeper stories today: 90min "greatest goalkeeper performances in penalty shootouts"; GiveMeSport "10 best goalkeepers ever in penalty shootouts"; IFAB 2023 rule-change coverage (links to the Martinez rule story). Mine these for the odd device, then copy-check each.
+- **Queue to build first (by the case study):** S21 Higuita scorpion (FRESH), S30, S31 (TAKEN, the owner's call), S32 (second source for the 1998 table line), then Ricardo/Duckadam/Bounou from the Oct 29 table.

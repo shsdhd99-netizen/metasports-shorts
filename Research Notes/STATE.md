@@ -1,4 +1,16 @@
 # STATE (one page for any account/session; update at the end of every run)
+<!-- AUTO:START -->
+## AUTO (written by `python Tools/state.py`, 2026-11-05 10:37 local; do not edit by hand)
+- Builder: cloud
+- Preflight: PREFLIGHT OK (2 warnings)**
+- Disk free: 17.5 GB
+- NBA: 23,851 Shorts views/day (7-day), 488,299 in the last 90 days (4.9% of the 10M line), data to 2026-11-02
+- FC: 9,565 Shorts views/day (7-day), 120,771 in the last 90 days (1.2% of the 10M line), data to 2026-11-02
+- Next open slot: NBA GAP nba 2026-11-07 15:30 ET (Sat Nov 7, 03:30 PM ET); FC NO GAP fc in the next 54 h
+- Last scheduler lines: - 2026-11-04 18:30 ET: scheduled 0; skipped/refused 1. | - 2026-11-05 06:30 ET: scheduled 0; skipped/refused 1. | - 2026-11-05 06:47 ET: scheduled 1: 2026-11-05 95 A Rookie Chased 40 Because His Teammates Said So; skipped/refused 1.
+- Last cloud STATUS lines: STATUS: blocked, no build. BUILDER.txt = `cloud`; `cloud_setup.sh`: voice key set, Gemini set; `pref | STATUS: blocked, no build. `cloud_setup.sh`: voice key set, Gemini set; `preflight.py --quiet`: BLOC | STATUS: Automation check written to Research Notes/Automation Check.md: PC timers PASS; cloud 3:17/4
+- **Needs attention:** cloud routines: the last STATUS says blocked (keys missing in the cloud environment?)
+<!-- AUTO:END -->
 - Updated: 2026-11-04 17:30 ET by PC account 1 (full-automation prompt run).
 - Builder: `cloud` (see `BUILDER.txt`); routines NBA 3:17 AM ET, FC 4:23 AM ET.
 - Weekly usage last seen: unknown in terminal sessions (owner said "low" after the Nov 3 run; reset Wed Nov 4 1 PM ET). Ceiling for runs: 99% (owner, Nov 3).

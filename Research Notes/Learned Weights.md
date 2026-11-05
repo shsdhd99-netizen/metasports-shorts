@@ -68,4 +68,4 @@ Ratio 1.0 = typical for the channel. Views are public counts at the date in Expe
 - A lane flagged PAUSE below is skipped until the Sunday review.
 - **PAUSE** MetaSports (NBA) lane "rule": last 3 were under the channel median (6,794, 3,821, 2,842).
 
-Rows with a lane: 43 of 150 mature. Fill `lane` for new Shorts at build time.
+Rows with a lane: 88 of 150 mature. Fill `lane` for new Shorts at build time.
