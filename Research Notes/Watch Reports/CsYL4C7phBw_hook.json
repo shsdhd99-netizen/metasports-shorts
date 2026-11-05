@@ -1,0 +1,22 @@
+{
+ "cuts": [
+  1.0,
+  1.7,
+  2.8,
+  4.0,
+  5.2
+ ],
+ "first_shot_shows": "An overhead view of a room with a bed and stick figures with overlaid faces.",
+ "first_words": "John Walker's father died when he was 14",
+ "text_on_screen_0_3s": "JOHN WALKER'S",
+ "music_or_beat_audible": true,
+ "cuts_merged": [
+  1.0,
+  1.7,
+  2.8,
+  4.0,
+  5.2
+ ],
+ "shots_in_first_3s": 4,
+ "shots_in_first_5s": 5
+}

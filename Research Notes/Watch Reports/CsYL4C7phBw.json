@@ -1,0 +1,217 @@
+{
+ "length_s": 50.25,
+ "topic": "The story of how Johnnie Walker Scotch whisky became the world's best-selling brand starting from a 14-year-old's grocery store.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "John Walker's father died when he was 14",
+  "first_frame": "Top-down view of a bedroom with a stick figure character named John on a bed",
+  "on_screen_text_0_3s": "JOHN",
+  "shots_in_first_3s": 4
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 0.25,
+   "shows": "Top-down view of stick figure John on bed with text JOHN",
+   "kind": "other"
+  },
+  {
+   "start_s": 0.25,
+   "end_s": 1.0,
+   "shows": "Stick figure John standing in room with text WALKER'S",
+   "kind": "action"
+  },
+  {
+   "start_s": 1.0,
+   "end_s": 1.75,
+   "shows": "Stick figure father dying on bed with text FATHER DIED",
+   "kind": "action"
+  },
+  {
+   "start_s": 1.75,
+   "end_s": 3.0,
+   "shows": "John stick figure with 14 YEAR OLD speech bubble",
+   "kind": "action"
+  },
+  {
+   "start_s": 3.0,
+   "end_s": 4.0,
+   "shows": "John holding cash stack inside wooden room",
+   "kind": "action"
+  },
+  {
+   "start_s": 4.0,
+   "end_s": 5.25,
+   "shows": "John giving money to buy a grocery store",
+   "kind": "action"
+  },
+  {
+   "start_s": 5.25,
+   "end_s": 7.0,
+   "shows": "Kilmarnock text and Scotland flag overlay",
+   "kind": "other"
+  },
+  {
+   "start_s": 7.0,
+   "end_s": 10.0,
+   "shows": "John standing behind bar counter pouring whiskey glass",
+   "kind": "action"
+  },
+  {
+   "start_s": 10.0,
+   "end_s": 11.0,
+   "shows": "Person delivering barrel to store bar",
+   "kind": "action"
+  },
+  {
+   "start_s": 11.0,
+   "end_s": 15.5,
+   "shows": "Distillery environment showing inconsistent whisky flavor year to year",
+   "kind": "action"
+  },
+  {
+   "start_s": 15.5,
+   "end_s": 17.25,
+   "shows": "John pouring whiskey between barrels to blend them",
+   "kind": "action"
+  },
+  {
+   "start_s": 17.25,
+   "end_s": 20.75,
+   "shows": "John blending barrels inside store bar",
+   "kind": "action"
+  },
+  {
+   "start_s": 20.75,
+   "end_s": 22.25,
+   "shows": "John giving thumbs up next to consistent blended whisky glass",
+   "kind": "action"
+  },
+  {
+   "start_s": 22.25,
+   "end_s": 24.0,
+   "shows": "Multiple stick figures drinking whisky in store",
+   "kind": "action"
+  },
+  {
+   "start_s": 24.0,
+   "end_s": 25.0,
+   "shows": "Son Alexander stick figure appearing",
+   "kind": "action"
+  },
+  {
+   "start_s": 25.0,
+   "end_s": 27.0,
+   "shows": "Alexander with Johnnie Walker barrel in aging room",
+   "kind": "action"
+  },
+  {
+   "start_s": 27.0,
+   "end_s": 29.0,
+   "shows": "Grandson on cargo ship carrying crates of whisky",
+   "kind": "action"
+  },
+  {
+   "start_s": 29.0,
+   "end_s": 32.75,
+   "shows": "Square bottle fitting into wooden crate on ship",
+   "kind": "action"
+  },
+  {
+   "start_s": 32.75,
+   "end_s": 36.0,
+   "shows": "Johnnie Walker bottle with label tilted 24 degrees",
+   "kind": "action"
+  },
+  {
+   "start_s": 36.0,
+   "end_s": 37.0,
+   "shows": "Black Label box showing Striding Man logo",
+   "kind": "action"
+  },
+  {
+   "start_s": 37.0,
+   "end_s": 41.0,
+   "shows": "Business lunch setting with napkin sketch of Striding Man logo and 1908 graphic",
+   "kind": "action"
+  },
+  {
+   "start_s": 41.0,
+   "end_s": 43.0,
+   "shows": "Office background with Johnnie Walker bottle",
+   "kind": "action"
+  },
+  {
+   "start_s": 43.0,
+   "end_s": 47.5,
+   "shows": "Modern bar scene with globe showing 180 countries distribution",
+   "kind": "action"
+  },
+  {
+   "start_s": 47.5,
+   "end_s": 50.25,
+   "shows": "Cut back to young John blending barrels in his shop",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 24,
+ "average_shot_s": 2.09,
+ "longest_shot_s": 4.5,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 178,
+  "tone": "informative",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "upbeat narrative acoustic instrumental background",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 1,
+  "case": "ALL CAPS",
+  "position": "top",
+  "colours": "white",
+  "highlight_style": "none"
+ },
+ "text_overlays": [],
+ "cards_or_graphics": 0,
+ "framing": "crop",
+ "ending": {
+  "last_words": "needed to move inventory.",
+  "last_frame": "John blending barrels in his grocery shop",
+  "loops_to_start": true,
+  "call_to_action": "none"
+ },
+ "script": "John Walker's father died when he was 14 year old. The inheritance was just enough to buy a small grocery store in Kilmarnock, Scotland. Walker noticed that the whiskies he stocked tasted different every time a new batch arrived. Distilleries couldn't control the flavor from year to year, and customers kept complaining. So he started blending them himself, mixing barrels from different distilleries to create something consistent. It worked well enough that his whiskey outsold everything else in the store. His son Alexander expanded it into a proper brand, and his grandsons took it global. The square bottle was designed to fit more units in a shipping crate and reduce breakage, and the label was tilted at 24° so more text could fit on it. The Striding Man logo was sketched on a napkin during a business lunch in 1908 and never changed. None of it was designed by committee. Johnnie Walker is now the best-selling Scotch whisky in the world, sold in over 180 countries, and it started because a teenage boy needed to move inventory.",
+ "retention_tricks": [
+  "pattern interrupts with simple stick-figure animations",
+  "reveals of iconic design reasons (square bottle, 24-degree tilt)",
+  "seamless audio-visual loop back to start"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": false,
+  "ends_on_payoff": true,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "Reveals origin facts behind iconic design elements like the square bottle and tilted label",
+  "Simple cutout stick-figure animation makes historical storytelling engaging and easy to digest",
+  "Seamless loop connects the final line directly back to the beginning scene"
+ ],
+ "_meta": {
+  "source": "CsYL4C7phBw",
+  "model": "gemini-3.6-flash",
+  "fps": 4.0,
+  "watched": "2026-11-05",
+  "tier": "[S] model-observed, not measured"
+ }
+}
