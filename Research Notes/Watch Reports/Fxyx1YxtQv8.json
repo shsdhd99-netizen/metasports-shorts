@@ -1,0 +1,294 @@
+{
+ "length_s": 50.5,
+ "topic": "The story of how James Dyson invented the bagless vacuum cleaner and built a $20 billion company despite repeated rejections.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "In 1979, James Dyson bought",
+  "first_frame": "A stick figure character pointing inside a 1970s styled living room with '1979' text.",
+  "on_screen_text_0_3s": "IN 1979 JAMES DYSON A VACUUM CLEANER",
+  "shots_in_first_3s": 3
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 1.0,
+   "shows": "Stick figure character in 1970s living room introducing the year 1979.",
+   "kind": "action"
+  },
+  {
+   "start_s": 1.0,
+   "end_s": 2.0,
+   "shows": "Stick figure James Dyson standing next to a vintage vacuum cleaner.",
+   "kind": "action"
+  },
+  {
+   "start_s": 2.0,
+   "end_s": 3.0,
+   "shows": "Close-up of the vintage vacuum cleaner on the rug.",
+   "kind": "action"
+  },
+  {
+   "start_s": 3.0,
+   "end_s": 4.0,
+   "shows": "Vacuum cleaner head being pulled across carpet.",
+   "kind": "action"
+  },
+  {
+   "start_s": 4.0,
+   "end_s": 5.0,
+   "shows": "Close-up of dirty patch on carpet remaining due to loss of suction.",
+   "kind": "action"
+  },
+  {
+   "start_s": 5.0,
+   "end_s": 6.0,
+   "shows": "James Dyson stick figure taking apart vacuum cleaner components on carpet.",
+   "kind": "action"
+  },
+  {
+   "start_s": 6.0,
+   "end_s": 7.0,
+   "shows": "Close-up of James Dyson holding a dusty clogged vacuum bag.",
+   "kind": "action"
+  },
+  {
+   "start_s": 7.0,
+   "end_s": 8.0,
+   "shows": "Wide view of Dyson holding the clogged bag surrounded by disassembled parts.",
+   "kind": "action"
+  },
+  {
+   "start_s": 8.0,
+   "end_s": 9.0,
+   "shows": "Close-up of dirt spot on carpet pointed out with an arrow.",
+   "kind": "action"
+  },
+  {
+   "start_s": 9.0,
+   "end_s": 10.0,
+   "shows": "James Dyson standing with dust bag thinking of a solution.",
+   "kind": "action"
+  },
+  {
+   "start_s": 10.0,
+   "end_s": 12.0,
+   "shows": "James Dyson assembling a cardboard and tape vacuum prototype on the floor.",
+   "kind": "action"
+  },
+  {
+   "start_s": 12.0,
+   "end_s": 13.25,
+   "shows": "Close-up of the cardboard and duct tape vacuum prototype working.",
+   "kind": "action"
+  },
+  {
+   "start_s": 13.25,
+   "end_s": 14.0,
+   "shows": "James Dyson walking into his backyard workshop shed.",
+   "kind": "action"
+  },
+  {
+   "start_s": 14.0,
+   "end_s": 16.5,
+   "shows": "Workshop view with an animated counter going from 5000 to 5127 prototypes.",
+   "kind": "action"
+  },
+  {
+   "start_s": 16.5,
+   "end_s": 18.0,
+   "shows": "Pan across rows of failed vacuum prototypes stacked in the workshop.",
+   "kind": "action"
+  },
+  {
+   "start_s": 18.0,
+   "end_s": 19.0,
+   "shows": "James Dyson walking out of his backyard shed.",
+   "kind": "action"
+  },
+  {
+   "start_s": 19.0,
+   "end_s": 21.0,
+   "shows": "James Dyson outside his house running low on money.",
+   "kind": "action"
+  },
+  {
+   "start_s": 21.0,
+   "end_s": 22.0,
+   "shows": "James Dyson handing over a house agreement document for loans.",
+   "kind": "action"
+  },
+  {
+   "start_s": 22.0,
+   "end_s": 23.0,
+   "shows": "James Dyson trying to sell his bagless vacuums at a market stand.",
+   "kind": "action"
+  },
+  {
+   "start_s": 23.0,
+   "end_s": 24.5,
+   "shows": "Hoover representative waving no and turning down James Dyson.",
+   "kind": "action"
+  },
+  {
+   "start_s": 24.5,
+   "end_s": 26.5,
+   "shows": "Warehouse full of vacuum bag inventory with character counting cash.",
+   "kind": "action"
+  },
+  {
+   "start_s": 26.5,
+   "end_s": 27.75,
+   "shows": "James Dyson standing with his bagless vacuum in front of Hoover logo.",
+   "kind": "action"
+  },
+  {
+   "start_s": 27.75,
+   "end_s": 30.0,
+   "shows": "Electrolux representative shouting 'IMPOSSIBLE' at Dyson.",
+   "kind": "action"
+  },
+  {
+   "start_s": 30.0,
+   "end_s": 32.0,
+   "shows": "Vacuum cleaner factory floor with manufacturers rejecting the design.",
+   "kind": "action"
+  },
+  {
+   "start_s": 32.0,
+   "end_s": 34.0,
+   "shows": "James Dyson signing a licensing deal with a Japanese company.",
+   "kind": "action"
+  },
+  {
+   "start_s": 34.0,
+   "end_s": 37.0,
+   "shows": "James Dyson holding certificates outside the newly built Dyson factory building.",
+   "kind": "action"
+  },
+  {
+   "start_s": 37.0,
+   "end_s": 40.0,
+   "shows": "Display showroom featuring the Dyson DC01 vacuum and UK flag for 1993 launch.",
+   "kind": "action"
+  },
+  {
+   "start_s": 40.0,
+   "end_s": 43.0,
+   "shows": "Store shelves stacked with Dyson DC01 boxed products under a No. 1 banner.",
+   "kind": "action"
+  },
+  {
+   "start_s": 43.0,
+   "end_s": 45.5,
+   "shows": "Bathroom scene showing Dyson bladeless fan and hand dryer in action.",
+   "kind": "action"
+  },
+  {
+   "start_s": 45.5,
+   "end_s": 47.0,
+   "shows": "Character using the Dyson hair dryer in a modern bathroom.",
+   "kind": "action"
+  },
+  {
+   "start_s": 47.0,
+   "end_s": 50.5,
+   "shows": "Executive high-rise office showing an animated net worth bar reaching $20 Billion.",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 31,
+ "average_shot_s": 1.63,
+ "longest_shot_s": 3.0,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 180,
+  "tone": "informative",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "upbeat electronic background music",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 2,
+  "case": "ALL CAPS",
+  "position": "middle",
+  "colours": [
+   "white"
+  ],
+  "highlight_style": "pop-in"
+ },
+ "text_overlays": [
+  {
+   "at_s": 0.0,
+   "text": "1979"
+  },
+  {
+   "at_s": 15.0,
+   "text": "5,127"
+  },
+  {
+   "at_s": 21.0,
+   "text": "HOUSE LEASING AGREEMENT"
+  },
+  {
+   "at_s": 23.5,
+   "text": "HOOVER"
+  },
+  {
+   "at_s": 28.5,
+   "text": "Electrolux"
+  },
+  {
+   "at_s": 37.5,
+   "text": "DC01 1993"
+  },
+  {
+   "at_s": 40.5,
+   "text": "Britain's No.1 Best Selling Vacuum Cleaner"
+  },
+  {
+   "at_s": 49.0,
+   "text": "20 BILLION$"
+  }
+ ],
+ "cards_or_graphics": 2,
+ "framing": "crop",
+ "ending": {
+  "last_words": "is over 20 billion dollars today.",
+  "last_frame": "James Dyson sitting in skyscraper executive office behind a red bar showing 20 BILLION$.",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "In 1979, James Dyson bought a vacuum cleaner and immediately noticed it lost suction. He took it apart and found the bag clogged with dust, the very thing it was supposed to collect. He was convinced there was a better way. He built a prototype using cardboard and tape. It worked, so he spent the next 5 years building 5,127 prototypes in the shed behind his house, running out of money, borrowing against everything he owned. Then he tried to sell it. Hoover turned him down—they made too much money selling replacement bags to ever want a bagless vacuum. Electrolux told him it was impossible. Every major manufacturer said no. He eventually licensed it to a Japanese company, used the royalties to set up his own factory, and launched the DC01 in the UK in 1993. It became Britain's best-selling vacuum cleaner within two years. Then came bladeless fans, hand dryers, and a hair dryer that changed the beauty industry. James Dyson's net worth is over 20 billion dollars today.",
+ "retention_tricks": [
+  "rapid visual scene cuts",
+  "animated counters for prototype attempts and net worth",
+  "funny stick-figure animations combined with real photo cutouts"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": true,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": false,
+  "ends_on_payoff": true,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "Combined simple stick figure animation with real product images to make a historical story fun and visually dynamic.",
+  "Utilized animated numbers (5,127 prototypes and $20B net worth) to visually emphasize struggle and immense triumph.",
+  "Framed the story around dramatic conflict: extreme industry rejection turning into ultimate market dominance."
+ ],
+ "_meta": {
+  "source": "https://youtube.com/shorts/Fxyx1YxtQv8",
+  "model": "gemini-3.6-flash",
+  "fps": 4.0,
+  "watched": "2026-11-05",
+  "tier": "[S] model-observed, not measured"
+ }
+}
