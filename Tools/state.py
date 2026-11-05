@@ -58,6 +58,17 @@ def main():
         m = re.search(r"GAP \w+ (\d{4}-\d{2}-\d{2}) (\d{2}:\d{2})", g)
         if m and datetime.datetime.fromisoformat(f"{m.group(1)}T{m.group(2)}") - now < datetime.timedelta(hours=30):
             flags.append(f"{ch}: open slot within 30 h ({g})")
+    # dated reminders (Research Notes/Reminders.csv: date,text): flagged from 10 days before
+    rem = os.path.join(RN, "Reminders.csv")
+    if os.path.exists(rem):
+        for r in csv.DictReader(open(rem, encoding="utf-8")):
+            try:
+                due = datetime.date.fromisoformat(r["date"])
+            except ValueError:
+                continue
+            left = (due - now.date()).days
+            if left <= 10:
+                flags.append(f"REMINDER in {left} days ({r['date']}): {r['text']}")
     log = read(os.path.join(RN, "Daily Log.md"))
     cloud = [l.strip() for l in log.splitlines() if "cloud" in l.lower() and "STATUS" in l][-3:]
     if any("blocked" in l.lower() for l in cloud[-2:]):
