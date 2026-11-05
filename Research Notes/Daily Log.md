@@ -283,3 +283,6 @@ STATUS: Automation check written to Research Notes/Automation Check.md: PC timer
 
 ## Thu Nov 5, 09:42 UTC: NBA daily build (cloud)
 STATUS: skipped, no build. preflight OK now (keys present). next_gap nba: Fri Nov 6 3:30 PM ET, already covered by #96 Porzingis / #97 Warriors scripts + PC 6:45 AM gap-fill; building here would double-build. Inbox: no new notes. Banked for next gap: Klay OT game-winner (Heat 117-116 Clippers), see Daily Research 2026-11-05.
+
+## Thu Nov 5, 10:40 UTC: FC daily build (cloud)
+STATUS: skipped, no build. next_gap fc: NO GAP in 54 h (S09/S29 cover to Sun Nov 8; S31, S32, S30, S21, S22, S36 scripts exist for Nov 8-13), so the next 2 stories are already picked. New idea banked: S36b Como 9-1 at Lens (UCL Nov 4), needs a 2nd source. Inbox: no new notes.
