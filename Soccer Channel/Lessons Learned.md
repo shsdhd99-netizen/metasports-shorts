@@ -90,3 +90,7 @@
 
 ## Nov 4, 2026 (clip repetition test: `Research Notes/FC Clip Repetition Study (Nov 4, 2026).md`)
 - **[V] Clip reuse inside a Short did NOT predict lower retention** in 15 FC Shorts (Spearman with % viewed +0.21, 95% CI -0.23 to +0.79; with views +0.46, CI -0.04 to +0.80). The two heaviest reusers (S17, S01) are top-4 winners. Topic shape explains the spread, not reuse. Still, `Tools/edit_lint.py` now flags a repeated source range, one source over 35% of runtime and same-angle back-to-back shots, as advice (selftest: `python Tools/edit_lint.py --selftest`). [H] Repeats might hurt in a way this data cannot show; test again with S26/S27/S29 vs S28 at 7 days.
+
+## Nov 5, 2026 (FC cloud run; public counts via `yt-dlp --flat-playlist`, 09:30 UTC; no API token in the cloud)
+- **[V, n=6 goalkeeper/shootout vs 10 others] The goalkeeper/shootout run keeps working:** S25 England subs for penalties 11K (~2 days), S26 gloves off 8.5K (~1 day), with S17 23K, S05, S01, S03 all 15K+. The Nov 2 worry (series wearing out) has not happened yet: no two in a row under 5K.
+- **[S, n=2] The weak ones inside the lane are the news-tied ones:** S19 Rulli (goalkeeper, but hung on a League Cup shootout that week) is 3.7K at ~3.5 days, the lowest goalkeeper Short. S20 Messi napkin (biggest star, secret object, no goalkeeper) is 1.0K at ~3 days. A global star in a non-goalkeeper story still doesn't carry (now 0 of 10 outside the lane above 3.3K).

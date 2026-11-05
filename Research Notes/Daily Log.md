@@ -3,6 +3,12 @@
 One entry per channel per day, written by the daily runs (`.claude/skills/daily-run/SKILL.md`): data pulled, what was learned,
 research with sources, what was made, what changed in the rules or tools.
 
+## Thu Nov 5, 2026 (FC cloud run, 09:25 UTC; CLOUD DAILY RULES)
+
+STATUS: blocked, no build. BUILDER.txt = `cloud`; `cloud_setup.sh`: voice key set, Gemini set; `preflight.py --quiet`: BLOCKED (YT_CLIENT_ID, YT_CLIENT_SECRET, YT_UPLOAD_TOKEN, YT_UPLOAD_TOKEN_FC missing in this environment). Rule 4: script/notes only, no credits. Also `next_gap.py fc`: NO GAP in the next 54 h (FC covered through Sun Nov 8 by S09/S29; S31, S32, S30, S21, S22, S36 already scripted for Nov 8-13), so no new script either. The Nov 4 run's notification reached this session only today (not run separately).
+- Data: analytics no token; public counts (yt-dlp): S17 23K, S25 11K (~2 d), S26 8.5K (~1 d), S19 3.7K (~3.5 d), S18 2.9K, S20 1.0K (~3 d). `learn.py all`: Experiments.csv / Learned Weights.md refreshed (FC n=14, goalkeeper trick 10.3x the median, n=4 there: label backlog).
+- Learned: Lessons Learned Nov 5 (goalkeeper/shootout still delivering; S19's news hook and S20's star-without-goalkeeper are the weak ones).
+
 ## Thu Nov 5, 2026 (NBA cloud routine, account 2 session)
 
 STATUS: blocked, no build. `cloud_setup.sh`: voice key set, Gemini set; `preflight.py --quiet`: BLOCKED (YT_CLIENT_ID, YT_CLIENT_SECRET, YT_UPLOAD_TOKEN, YT_UPLOAD_TOKEN_FC missing in this session's environment). Per CLOUD DAILY RULES step 4: no credits spent. Next NBA gap (`next_gap.py`): Fri Nov 6 3:30 PM ET; #96 Porzingis and #97 Warriors streak scripts already exist for it, and the PC gap-fill (6:45 AM ET) covers it. Wed Nov 4's run in this session stopped at the weekly usage limit during research (nothing committed).
