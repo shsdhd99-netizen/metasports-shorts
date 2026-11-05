@@ -93,6 +93,13 @@ Post the SAME file as YouTube. TikTok: add a trending sound only at very low vol
 
     #football
 
+- [ ] **Thu Nov 05, 05:00 PM ET** · MetaSports FC · `CIzKqjm0CmE` · The goalkeeper who only played because his teammate broke a leg
+  - File: `Soccer Channel\Productions\2026-11-05 S27 The Goalkeeper Who Only Played Because His Teammate Broke A Leg\DRAFT - awaiting approval - S27 The goalkeeper who only played because his teammate broke a leg (no music).mp4`
+  - TikTok caption: The goalkeeper who only played because his teammate broke a leg. #football
+  - Instagram caption: The goalkeeper who only played because his teammate broke a leg.
+
+    #football
+
 - [ ] **Thu Nov 05, 06:30 PM ET** · MetaSports (NBA) · `jY_6GdLH654` · The Warriors Did Something No Team Had Done In The Shot Clock Era
   - File: `Productions\MetaSports\2026-11-05 90 The Warriors Did What No Team Had Done\DRAFT - awaiting approval - The Warriors Did Something No Team Had Done In The Shot Clock Era (no music).mp4`
   - TikTok caption: The Warriors Did Something No Team Had Done In The Shot Clock Era. Biggest comeback you have ever watched live? #warriors #goldenstatewarriors #warriorslakers #nba
@@ -113,6 +120,13 @@ Post the SAME file as YouTube. TikTok: add a trending sound only at very low vol
   - Instagram caption: .
 
     #football
+
+- [ ] **Fri Nov 06, 06:30 PM ET** · MetaSports (NBA) · `MM1y6yBSgLE` · His Teammates Talked A Rookie Into Chasing 40
+  - File: `Productions\MetaSports\2026-11-05 95 A Rookie Chased 40 Because His Teammates Said So\DRAFT - awaiting approval - A Rookie Chased 40 Because His Teammates Said So (no music).mp4`
+  - TikTok caption: His Teammates Talked A Rookie Into Chasing 40. Teammates yelling at him to get 40 with the game over: help or harm? #yaxellendeborg #lendeborg #yaxellendeborgwarriors #nba
+  - Instagram caption: His Teammates Talked A Rookie Into Chasing 40. Teammates yelling at him to get 40 with the game over: help or harm?
+
+    #yaxellendeborg #lendeborg #yaxellendeborgwarriors #nba
 
 - [ ] **Sat Nov 07, 03:00 PM ET** · MetaSports FC · `HNWSiLaQ3Nw` · The goalkeeper who says Spain were scared of a shootout
   - File: `Soccer Channel\Productions\2026-11-07 S29 The Goalkeeper Who Says Spain Were Scared Of A Shootout\DRAFT - awaiting approval - S29 The goalkeeper who says Spain were scared of a shootout (no music).mp4`
