@@ -3,8 +3,8 @@ Tags: [Z] zero credit (PC script/doc) | [C] needs Claude credits | [O] owner dec
 
 ## Automation
 - [x] (Nov 3, PC acct 1: `**Arm:**` line or opt-in `--default-arm`; music column not logged yet) [A][Z] `schedule_ready.py`: choose between a music and a no-music DRAFT by a rule (card says `**Arm:**`, else no-music) so A/B pairs stop being skipped. Log the arm in `Experiments.csv` (`music` column).
-- [ ] [A][Z] `schedule_ready.py`: write skips to `Research Notes/Schedule Ready Log.md` on `--go` too (today only the count is logged), and add a `--require-approved` mode (Hub card `approved: true`) for the day the owner wants option B strictly.
-- [ ] [A][Z] A `Tools/hub_pack` helper that re-encodes a DRAFT under 20 MB (crf 28, 96k audio) and verifies it with `qa_short`, so every Short can go on the Hub without a manual step.
+- [x] (2026-11-05, terminal) [A][Z] `schedule_ready.py`: write skips to `Research Notes/Schedule Ready Log.md` on `--go` too (today only the count is logged), and add a `--require-approved` mode (Hub card `approved: true`) for the day the owner wants option B strictly.
+- [x] (2026-11-05, terminal: Tools/hub_pack.py) [A][Z] A `Tools/hub_pack` helper that re-encodes a DRAFT under 20 MB (crf 28, 96k audio) and verifies it with `qa_short`, so every Short can go on the Hub without a manual step.
 - [ ] [A][Z] Log rotation / cleanup script: delete `src/` and `clips/` of Shorts posted 7+ days ago, list first, exact folders, owner-approved (disk 27 GB free).
 - [ ] [A][Z] `STATE.md` writer: `python Tools/state.py` updates weekly %, builder, last run times and open claims, so any account can read one page.
 - [ ] [A][Z] Make `Tools/learn.py` judge at exactly 72 h (stamp `judged_at`), add engaged ratio and stayed % as outcome columns, and write a per-lane streak table (PAUSE after 3 flops).

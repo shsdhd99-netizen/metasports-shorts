@@ -1,0 +1,130 @@
+{
+ "@swishyhoopz": {
+  "n": 30,
+  "median": 54000.0,
+  "mean": 212000,
+  "max": 1100000,
+  "min": 5000,
+  "subs": 21700
+ },
+ "@HoopiverseYT": {
+  "n": 30,
+  "median": 77500.0,
+  "mean": 316066,
+  "max": 4200000,
+  "min": 14000,
+  "subs": 16600
+ },
+ "@CoachClank": {
+  "n": 30,
+  "median": 299000.0,
+  "mean": 1547966,
+  "max": 26000000,
+  "min": 40000,
+  "subs": 146000
+ },
+ "@AhmedsBasketball": {
+  "n": 30,
+  "median": 82000.0,
+  "mean": 115816,
+  "max": 583000,
+  "min": 2300,
+  "subs": 122000
+ },
+ "@AhmedsGoal": {
+  "n": 30,
+  "median": 125500.0,
+  "mean": 226966,
+  "max": 1100000,
+  "min": 43000,
+  "subs": 426000
+ },
+ "@ReboundRewind": {
+  "n": 30,
+  "median": 121500.0,
+  "mean": 173966,
+  "max": 997000,
+  "min": 59000,
+  "subs": 237000
+ },
+ "@docbooo": {
+  "n": 30,
+  "median": 69000.0,
+  "mean": 595716,
+  "max": 7400000,
+  "min": 1600,
+  "subs": 29100
+ },
+ "@ChazNBA": {
+  "n": 30,
+  "median": 198500.0,
+  "mean": 329166,
+  "max": 1800000,
+  "min": 60000,
+  "subs": 673000
+ },
+ "@breakawayclips": {
+  "n": 30,
+  "median": 102000.0,
+  "mean": 425933,
+  "max": 5200000,
+  "min": 3400,
+  "subs": 122000
+ },
+ "@GlobalHoopss": {
+  "n": 30,
+  "median": 113000.0,
+  "mean": 742133,
+  "max": 9500000,
+  "min": 31000,
+  "subs": 288000
+ },
+ "@roycebball": {
+  "n": 30,
+  "median": 716500.0,
+  "mean": 4599336,
+  "max": 42000000,
+  "min": 1100,
+  "subs": 62300
+ },
+ "@Ftblpranz": {
+  "n": 30,
+  "median": 257500.0,
+  "mean": 613800,
+  "max": 2200000,
+  "min": 46000,
+  "subs": 200000
+ },
+ "@footballgoat7": {
+  "n": 30,
+  "median": 44000.0,
+  "mean": 114180,
+  "max": 1100000,
+  "min": 5400,
+  "subs": 243000
+ },
+ "@TAT_futbol": {
+  "n": 30,
+  "median": 259000.0,
+  "mean": 1635400,
+  "max": 13000000,
+  "min": 54000,
+  "subs": 310000
+ },
+ "@MetaSportsClips": {
+  "n": 30,
+  "median": 7250.0,
+  "mean": 9660,
+  "max": 29000,
+  "min": 1000,
+  "subs": 634
+ },
+ "@MetaSportsFC": {
+  "n": 16,
+  "median": 3150.0,
+  "mean": 9337,
+  "max": 30000,
+  "min": 1100,
+  "subs": 151
+ }
+}

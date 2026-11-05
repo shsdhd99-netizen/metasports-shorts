@@ -19,11 +19,12 @@ for d in F.folders():
     if sid not in VID: continue
     v = VID[sid]; t = tab[v]; dl = daily.get(v, {})
     views = int(t["Views"]); dur = float(t["Duration"]); avd = float(t["Watch time (hours)"]) * 3600 / views
-    pct = float(dl["averageViewPercentage"]) if dl.get("averageViewPercentage") else 100 * avd / dur
+    api_pct = bool(dl.get("averageViewPercentage"))
+    pct = float(dl["averageViewPercentage"]) if api_pct else 100 * avd / dur
     shots = json.load(open(os.path.join(d, "cuts.json"), encoding="utf-8"))["shots"]; st = F.load_starts(d)
     r = F.reuse(shots, st, dur)
     mp4 = F.draft(d); vis = F.visual_repeats(mp4) if mp4 else (None, 0, None)
-    rows.append(dict(sid=sid, v=v, views=views, pct=pct, subs=int(t["Subscribers"]), subs1k=1000 * int(t["Subscribers"]) / views, dur=dur, **r, vis=vis[0], vframes=vis[1], d=d, st=st, cshots=shots))
+    rows.append(dict(sid=sid, v=v, api_pct=api_pct, views=views, pct=pct, subs=int(t["Subscribers"]), subs1k=1000 * int(t["Subscribers"]) / views, dur=dur, **r, vis=vis[0], vframes=vis[1], d=d, st=st, cshots=shots))
 print("| Short | views | avg % viewed | subs | shots | mean shot s | overlapping pairs (unexcused) | min gap s | max one-source share | consecutive same-source | visual repeats (of frames) |")
 print("|---|---|---|---|---|---|---|---|---|---|---|")
 for r in rows:
@@ -44,6 +45,16 @@ for name in ("n_unexcused", "overlap_pairs", "max_src_share", "consec_same", "me
     for yn in ("pct", "views", "subs1k"):
         y = [r[yn] for r in rows]; lo, hi = boot(x, y)
         print(f"spearman({name}, {yn}) = {spear(x, y):+.2f}  95% bootstrap CI [{lo:+.2f}, {hi:+.2f}]")
+# Sensitivity (Nov 5): rows whose % viewed is derived from watch time (no API value yet: S20, S25) are not comparable with API values
+# (S25 derived 59% vs Studio 92%). Re-run on API-only rows, and inside the goalkeeper lane to control topic.
+GK = {"S01", "S03", "S05", "S17", "S25"}
+for label, sub in (("API-only % viewed", [r for r in rows if r["api_pct"]]), ("goalkeeper lane (views only)", [r for r in rows if r["sid"] in GK])):
+    print(f"### {label}: n = {len(sub)}")
+    ys = ("pct", "views") if label.startswith("API") else ("views",)
+    for name in ("n_unexcused", "overlap_pairs", "max_src_share"):
+        for yn in ys:
+            x = [r[name] for r in sub]; y = [r[yn] for r in sub]; lo, hi = boot(x, y)
+            print(f"spearman({name}, {yn}) = {spear(x, y):+.2f}  95% CI [{lo:+.2f}, {hi:+.2f}]")
 # retention curves: where do the drops fall, and is a repeated shot on screen there?
 print("\n### Retention drops vs repeated shots (per Short, windows of 5% of runtime)")
 print("| Short | biggest drop windows (second marks) | repeated-shot starts inside them | steepest 5% windows holding a repeated shot | share of all windows holding a repeat |")

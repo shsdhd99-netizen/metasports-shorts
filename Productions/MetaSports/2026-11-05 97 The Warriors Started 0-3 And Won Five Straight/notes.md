@@ -12,3 +12,5 @@
 | Lendeborg 172 points through eight games, third-most by a Warriors rookie in that span | NBA.com recap Nov 2 |
 ## Footage
 Warriors site (nba.com): highlights vs Suns (Nov 2), Clippers (Nov 1), Lakers (Oct 30), Minnesota (Oct 28), Denver (Oct 26); see Tools/nba_videos.py search --team 1610612744.
+## Update Nov 5 (terminal)
+The Warriors host the Heat tonight (Thu Nov 5) with a chance at six straight (Heat visit Chase Center, per a Nov 3 article). **Do not voice until the result is known.** If they win: "won six straight" (and re-check the record, 6-3). If they lose: reframe as "won five straight, then..." only if there is a story; otherwise drop. Use `overlay.py count` for the streak number and for the 37-win line.

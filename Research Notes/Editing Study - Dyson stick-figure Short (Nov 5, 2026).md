@@ -18,3 +18,9 @@ Source: Gemini watch report `Watch Reports/Fxyx1YxtQv8.json` (tier [S], model-ob
 
 ## What we don't take
 The stick-figure animation style. It's their look, and making it needs image generation per shot. Keep real footage.
+
+## Added by the PC terminal, Nov 5, 2026
+- **Views checked (the study said "not checked"):** `yt-dlp` Nov 5: **2,731,573 views, 101,956 likes (3.7% of views), 410 comments**, uploaded Apr 18, 2026 on a 57K-subscriber channel (PureBusiness). So the format is a proven hit for its channel, not a lucky one-off. Tier [V] for the numbers; the editing observations stay [S].
+- **Takeaway 1 shipped:** `python Tools/overlay.py` now takes a counting number: `{"count": {"to": 5127, "dur": 1.3}, "size": 200, "color": "orange", "y": 300, "start": 0.4, "end": 3.5, "sub": "PROTOTYPES"}` (runs up with commas, then holds). Tested on a clip (18 -> 32 -> 37 PTS). Rule added to `.claude/skills/cloud-short/SKILL.md` section 5.
+- Takeaways 2-4 are rules for the next builds and are in `Research Notes/Queue Review (Nov 5, 2026).md` section 3.
+- Not taken: the stick-figure look, as the study said.
