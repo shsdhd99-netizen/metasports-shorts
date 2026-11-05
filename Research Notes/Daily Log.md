@@ -3,6 +3,10 @@
 One entry per channel per day, written by the daily runs (`.claude/skills/daily-run/SKILL.md`): data pulled, what was learned,
 research with sources, what was made, what changed in the rules or tools.
 
+## Thu Nov 5, 2026 (NBA cloud routine, account 2 session)
+
+STATUS: blocked, no build. `cloud_setup.sh`: voice key set, Gemini set; `preflight.py --quiet`: BLOCKED (YT_CLIENT_ID, YT_CLIENT_SECRET, YT_UPLOAD_TOKEN, YT_UPLOAD_TOKEN_FC missing in this session's environment). Per CLOUD DAILY RULES step 4: no credits spent. Next NBA gap (`next_gap.py`): Fri Nov 6 3:30 PM ET; #96 Porzingis and #97 Warriors streak scripts already exist for it, and the PC gap-fill (6:45 AM ET) covers it. Wed Nov 4's run in this session stopped at the weekly usage limit during research (nothing committed).
+
 ## Wed Nov 4, 2026 (FC daily run; main session; build skipped: queue full)
 FC is scheduled through Fri Nov 6, with S29 (Sat) and S09 (Sun) approved. Scripts already waiting: S30 Kane penalty, S31 baby Messi/Yamal, S32 Hull City walker; new research ideas S34 (Fernandes dropped, then saved Carrick) and S35 (Kane one game short of Ronaldo) are in the Idea Bank. No new scripts written today: five unbuilt ideas cover the next open days (Mon Nov 9 on). Inbox empty.
 
