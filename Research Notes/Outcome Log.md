@@ -607,3 +607,16 @@ Public counts (`channel_check.py`). API data: still only the Nov 1 pull (no newe
 | Draymond Green Had A Triple-Double With Four Points | 1,000 | day 1.5: weak |
 
 None follow THE #42 FORMAT. **Observation [S], n=4, not a rule:** the four evergreen history/stat Shorts scheduled Nov 3-4 (Draymond, Jokic, Kobe, Iguodala) are all at 1,000-1,500, while fresh moments/explainers (Bones 18K, free throw 29K) win. Inbox empty.
+
+## Thu Nov 5, 2026 (daily stats, API `daily 2026-11-05.csv`)
+| Short | Age | Views | Avg % viewed | Engaged | Flag |
+|---|---|---|---|---|---|
+| Finals practice to go wrestling | 6 d | 3,432 | 100.5% | 0.52 | sharp drop at 3% of runtime |
+| Jokic said no to his own parade | 2 d | 1,149 | 98.4% | 0.48 | engaged < 0.5 |
+| Draymond triple-double with four points | 2 d | 1,086 | 91.9% | 0.52 | |
+| Jokic drafted during a Taco Bell ad | 0 d | 2 | | | too new |
+| Warriors 23 down, tied by half | 0 d | 0 | | | too new / scheduled |
+| Rookie chasing 40; Iguodala; Kobe 18 misses; Rodman 69 | 0-1 d | 0 | | | scheduled, not live yet |
+None of these is a #42-format post, so the format test has no new data. Channel best is still "Why NBA Players Refuse This Free Throw" (29.2K, 119% viewed).
+Lesson [S, n=3]: the new history/rule Shorts hold viewers (92-100% viewed) but get shown less (1-3.4K in 2-6 d), the same pattern as Nov 3. No rule change (n<3 of a kind).
+Inbox: no new owner notes.
