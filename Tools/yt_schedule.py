@@ -126,6 +126,13 @@ def parse_card(path):
         if key == "title":
             val = re.split(r"\s+\(alts?:", val, flags=re.I)[0].strip()  # "Title 😳  (alt: other / options)" -> the first title only
         out[key] = val
+    if not out["title"]:  # Nov 5: soccer cards title the file in the H1 ("# DRAFT - awaiting approval - S27 The goalkeeper who ..."); the missing parse uploaded two Shorts titled "unknown"
+        for ln in lines:
+            m = re.match(r"#\s+DRAFT\s*-\s*awaiting approval\s*-\s*(?:S\d+\s+)?(.+)$", ln, re.I)
+            if m:
+                t = m.group(1).strip()
+                out["title"] = t[:1].upper() + t[1:]
+                break
     return out["title"], out["tags"]
 
 
@@ -194,6 +201,9 @@ def main():
             vid = json.load(r)
     except urllib.error.HTTPError as e:
         sys.exit(f"YouTube refused it ({e.code}): {e.read().decode(errors='replace')[:400]}")
+    got = ((vid.get("snippet") or {}).get("title") or "").strip()
+    if got != a.title.strip():  # Nov 5: YouTube's own reply must carry the title we sent; if not, say so loudly and still log the id
+        print(f"WARNING: YouTube replied with title {got!r}, expected {a.title!r}. Fix it in Studio NOW: https://studio.youtube.com/video/{vid['id']}/edit", file=sys.stderr)
     new = not os.path.exists(LOG)
     with open(LOG, "a", newline="", encoding="utf-8") as f:
         w = csv.writer(f)

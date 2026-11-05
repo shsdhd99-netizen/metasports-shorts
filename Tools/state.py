@@ -69,6 +69,12 @@ def main():
             left = (due - now.date()).days
             if left <= 10:
                 flags.append(f"REMINDER in {left} days ({r['date']}): {r['text']}")
+    try:  # Nov 5: placeholder/mismatched titles on YouTube (needs the read-only tokens in the environment; skipped silently if absent)
+        ta = subprocess.run([sys.executable, os.path.join(ROOT, "Tools", "title_audit.py")], capture_output=True, text=True, encoding="utf-8", errors="replace", timeout=120)
+        if ta.returncode == 1:
+            flags.append("titles: " + "; ".join(l.strip()[:110] for l in ta.stdout.strip().splitlines()[:3]))
+    except Exception:
+        pass
     log = read(os.path.join(RN, "Daily Log.md"))
     cloud = [l.strip() for l in log.splitlines() if "cloud" in l.lower() and "STATUS" in l][-3:]
     if any("blocked" in l.lower() for l in cloud[-2:]):
