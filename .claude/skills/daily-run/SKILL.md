@@ -106,6 +106,11 @@ Read `Research Notes/BUILDER.txt` (`pc` or `cloud`). Build a Short only if it na
 - **Sundays:** the weekly review. Rank the week's Shorts by stayed % and views; top 3 and bottom 3, each with a reason;
   one rule to keep, one to drop. Update the Hub's `channel/stats` insights and `UPLOAD SCHEDULE.md` if the best times moved.
 
+## C0. Nov 5, 2026 case-study rules (apply before C; evidence in the two case studies and `Master Index - Studies and Rules (Nov 5, 2026).md`)
+- Build only from shapes the data supports: NBA family, watchable curiosity, moment, live star record chase (70%); one-variable experiments (30%) using `python Tools/next_arm.py nba`. Paused shapes (rule, history, news explainer, manager, off-niche) are reframed or dropped: `idea_gauge.py --shape`.
+- Same-day or morning-after only for moments and news. Counting number on the proof (`overlay.py count`), literal picture per phrase, hold the payoff number 3 s.
+- The two numbers to move: median views per Short at 72 h and subs per 1K views (NBA 0.43, FC 1.36). Targets and monetization lines are in `CLOUD DAILY RULES.md`.
+
 ## C. Research (20 min): logged with sources
 - **Learned Weights first (Nov 3, item 15):** run `python Tools/learn.py ingest --fetch` then `python Tools/learn.py report` (zero credits) and
   read `Research Notes/Learned Weights.md` BEFORE picking a topic. The 70/30 rule: about 70% of builds come from lanes the file marks

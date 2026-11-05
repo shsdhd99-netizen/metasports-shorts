@@ -18,5 +18,14 @@ Follow the skill with `fc`; read the same viral note and `Soccer Channel/Playboo
 
 - Clip reuse (Nov 4): same source range twice, one source over 35% of runtime, or same angle back-to-back are flagged by `edit_lint`; fix them with more sources (evidence: reuse did not hurt retention, so advice only).
 
+## Nov 5 case-study rules (`Research Notes/Case Study - MetaSports NBA (Nov 5, 2026).md`, `... FC ...`, master list in `Master Index - Studies and Rules (Nov 5, 2026).md`)
+- **Shapes:** NBA 70% family / watchable curiosity / moment / live star record chase; paused shapes (rule, history, news explainer, manager, off-niche) only as an explicit experiment. Run `python Tools/idea_gauge.py --shape <shape> ...`; a paused shape comes back REFRAME. FC: goalkeeper-does-something-odd stays the 70%; each Short needs its own new sourced fact and no sequel of a trick already shown.
+- **Speed:** a news or moment Short is built from last night's games and goes out the morning after; do not build from week-old stories (late news median 0.4x).
+- **One test arm per build:** `python Tools/next_arm.py nba` says which arm (length 30-35 s, foreshadow, tension-first, control); log it with `--log`. Judge at 72 h.
+- **Proof:** a counting number (`overlay.py` `"count"`) for the proof number, a literal picture per phrase, hold the payoff number for the last 3 s, no card in the first 4 s.
+- **Targets:** NBA 7-day average 35K views a day by Dec 5, subs per 1K views 0.6; FC 20K a day by Dec 5, subs per 1K at least 1.0. Monetization lines: 1,000 subs, 3M (lower tier) and 10M (full) Shorts views in a rolling 90 days; check with `python Tools/channel_totals.py` weekly.
+- **The Hub is not full** (NBA Hub 20 MB, FC Hub 106 MB of 1 GB on Nov 5); `Tools/hub_pack.py` shrinks a draft under 20 MB.
+- **State:** end every run with `python Tools/state.py` (rewrites the AUTO block of STATE.md and lists what needs attention).
+
 ## Owner's rules, never relax them
 Never publish or replace a video; never open YouTube Studio; scheduling only via `Tools/yt_schedule.py` guard rails for a Short the owner approved; never print, commit or ask for keys or tokens; never invent a stat; no teaser or promo at the end; no dead air; every Short under 59.5 s; at most 2 posts a day per channel, 6+ hours apart. If the ElevenLabs key is missing write the script only and say so on the Hub card. End with 3-5 plain lines for the owner: what was made, its slot, QA result, what you learned, what only the owner can do.

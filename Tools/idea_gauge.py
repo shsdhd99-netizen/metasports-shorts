@@ -63,10 +63,14 @@ def score(ans):
     return v, pct, total, hard, [(k, f) for _, k in fixes for kk, _, _, f in Q if kk == k][:3]
 
 
+PAUSED_SHAPES = {"rule", "history", "news explainer", "news", "manager", "off-niche"}  # Nov 5, 2026: Learned Weights + case study
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--title", default="")
     ap.add_argument("--lane", default="")
+    ap.add_argument("--shape", default="", help="topic shape (family, moment, superlative, rule, history, news, goalkeeper trick, ...): paused shapes are reframed")
     ap.add_argument("--answers", default="")
     ap.add_argument("--list", action="store_true")
     ap.add_argument("--backtest", action="store_true")
@@ -86,7 +90,12 @@ def main():
             print(f"{v:5} {pct:3.0f}%  {views:>8}  {title[:70]}")
         return
     v, pct, total, hard, fixes = score(a.answers)
+    paused = a.shape.strip().lower() in PAUSED_SHAPES
+    if paused and v == "GO":
+        v = "REFRAME"
     print(f"{a.title or '(idea)'} [{a.lane}]: {v}  ({pct:.0f}% of {MAXS} points)")
+    if paused:
+        print(f"  PAUSED SHAPE '{a.shape}' (Nov 4-5 data: median 0.5-0.6x the channel; Topic and Script Reset): reframe it as a family story, a watchable curiosity, a moment or a live star chase, or drop it. Only an explicit one-variable experiment may override.")
     for h in hard:
         print("  HARD STOP:", h)
     if v != "GO":
