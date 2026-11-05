@@ -111,6 +111,9 @@ Read `Research Notes/BUILDER.txt` (`pc` or `cloud`). Build a Short only if it na
 - Same-day or morning-after only for moments and news. Counting number on the proof (`overlay.py count`), literal picture per phrase, hold the payoff number 3 s.
 - The two numbers to move: median views per Short at 72 h and subs per 1K views (NBA 0.43, FC 1.36). Targets and monetization lines are in `CLOUD DAILY RULES.md`.
 
+## C00. BUILD GATE (owner, Nov 5, 2026)
+Before D, run `python Tools/build_gate.py <nba|fc> --shape <shape> --score <gauge pct> --fresh`. DO NOT BUILD means write the reasons in the Daily Log and stop; no Short is better than a weak one (open slot, unpaused shape, gauge 80%+, FRESH, no claim).
+
 ## C. Research (20 min): logged with sources
 - **Learned Weights first (Nov 3, item 15):** run `python Tools/learn.py ingest --fetch` then `python Tools/learn.py report` (zero credits) and
   read `Research Notes/Learned Weights.md` BEFORE picking a topic. The 70/30 rule: about 70% of builds come from lanes the file marks

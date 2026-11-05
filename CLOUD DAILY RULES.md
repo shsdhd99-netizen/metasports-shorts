@@ -27,5 +27,8 @@ Follow the skill with `fc`; read the same viral note and `Soccer Channel/Playboo
 - **The Hub is not full** (NBA Hub 20 MB, FC Hub 106 MB of 1 GB on Nov 5); `Tools/hub_pack.py` shrinks a draft under 20 MB.
 - **State:** end every run with `python Tools/state.py` (rewrites the AUTO block of STATE.md and lists what needs attention).
 
+## BUILD GATE (owner, Nov 5, 2026): skipping is the default
+Do not build a Short unless ALL hold: an uncovered slot (`next_gap.py`; the autopilot gap-fill builds first), an unpaused shape, `idea_gauge` at least 80% with no HARD STOP, a FRESH `copy_check`, and no other claim. Run `python Tools/build_gate.py <nba|fc> --shape <shape> --score <pct> --fresh`; BUILD or DO NOT BUILD is binding unless the owner asks for the Short in chat (`--owner-request`). Goal: channels that run themselves with high retention and millions of views. Posting cadence and its tests: `Research Notes/Posting Cadence Review (Nov 5, 2026).md`.
+
 ## Owner's rules, never relax them
 Never publish or replace a video; never open YouTube Studio; scheduling only via `Tools/yt_schedule.py` guard rails for a Short the owner approved; never print, commit or ask for keys or tokens; never invent a stat; no teaser or promo at the end; no dead air; every Short under 59.5 s; at most 2 posts a day per channel, 6+ hours apart. If the ElevenLabs key is missing write the script only and say so on the Hub card. End with 3-5 plain lines for the owner: what was made, its slot, QA result, what you learned, what only the owner can do.
