@@ -51,7 +51,7 @@ def main():
                     tfk = os.path.join(tmp, f"t{i}c{k}.txt"); open(tfk, "w", encoding="utf-8").write(txt)
                     a0 = st + k / 30.0; a1 = (st + (k + 1) / 30.0) if k < nfr else en
                     size = ln.get("size", 160); color = COL.get(ln.get("color", "white"), ln.get("color", "white"))
-                    tfp = tfk.replace("\\", "/").replace(":", "\:")
+                    tfp = tfk.replace("\\", "/").replace(":", "\\:")
                     xs = ln.get("x", "center"); xe = {"left": "70", "right": "w-text_w-70", "center": "(w-text_w)/2"}.get(xs, str(xs))
                     filt.append(f"drawtext=fontfile='{FONT}':textfile='{tfp}':expansion=none:fontsize={size}:fontcolor={color}:"
                                 f"borderw={max(5, size // 22)}:bordercolor=black:x={xe}:y={int(ln.get('y', 300))}:"
