@@ -4,7 +4,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Mr. Claude, On Demand</title>
-<meta name="description" content="Your face, your voice, your lessons. Finished videos without ever filming again.">
+<meta name="description" content="Your first AI video of you teaching: a first draft made with free tools, and how it gets better.">
+<meta name="robots" content="noindex">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap">
 <style>
 /* Layout: one calm column on a bone-white page; the hero is a quiet statement beside a phone frame "playing" his lesson. */
@@ -81,31 +82,91 @@ summary{font-weight:600;cursor:pointer}
 details p{margin-top:10px}
 footer{padding-block:28px 48px;color:var(--muted);font-size:.85rem;border-top:1px solid var(--line)}
 @media (max-width:820px){.hero,.compare,.grid2,.promise{grid-template-columns:1fr}.steps{grid-template-columns:1fr 1fr}.stats{grid-template-columns:1fr}.hero{gap:36px}}
+
+.vid{justify-self:center;width:min(300px,100%);display:grid;gap:10px}
+.vid video{width:100%;aspect-ratio:9/16;border-radius:26px;background:#000;box-shadow:0 30px 80px -30px rgba(15,18,20,.5),0 0 0 1px var(--line)}
+.vid small{color:var(--muted);text-align:center}
+.wide{max-width:760px;width:100%;aspect-ratio:16/9;border-radius:18px;background:#000;box-shadow:0 24px 60px -28px rgba(15,18,20,.5)}
+.three{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.n3{font:500 .8rem var(--mono);color:var(--accent)}
+.tbl{width:100%;border-collapse:separate;border-spacing:0;border:1px solid var(--line);border-radius:18px;overflow:hidden;background:var(--paper)}
+.tbl th,.tbl td{text-align:left;padding:14px 16px;border-bottom:1px solid var(--line);vertical-align:top;font-size:.98rem}
+.tbl th{font:500 .72rem var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--muted);background:var(--bg)}
+.tbl tr:last-child td{border-bottom:0}
+.tbl td:last-child{background:var(--soft)}
+.note{background:var(--soft);border-radius:14px;padding:16px 18px;max-width:70ch}
+@media (max-width:820px){.three{grid-template-columns:1fr}.tbl th,.tbl td{padding:10px 10px;font-size:.9rem}}
 </style>
 </head>
 <body>
 <main>
-<nav><b>On Demand</b><span class="ctas"><a class="btn ghost" href="#faq">Questions</a><a class="btn ghost" href="#start">Start</a></span></nav>
+<nav><b>On Demand</b><span class="ctas"><a class="btn ghost" href="#how">How it works</a><a class="btn ghost" href="#better">Getting better</a><a class="btn ghost" href="#start">Start</a></span></nav>
 
 <header class="section hero">
   <div style="display:grid;gap:26px">
-    <span class="eyebrow">Prepared for Mr. Claude</span>
-    <h1>Teach more. <em>Film less.</em></h1>
-    <p class="lead">A digital double of you, for the weeks you can't get in front of a camera. Record yourself once, keep teaching live the way you do now, and send us the extra lessons as one line each. They come back as finished videos in your face and your voice.</p>
-    <div class="ctas"><a class="btn" href="#start">Reserve my setup →</a><a class="btn ghost" href="#try">Try it free</a></div>
+    <span class="eyebrow">Made for Mr. Claude &middot; a first draft</span>
+    <h1>That's you. <em>Teaching.</em></h1>
+    <p class="lead">Press play. A computer made this video from one photo and one phone voice memo that you sent. You never stood in front of a camera. It is a first draft, built with free tools, and it only gets better from here.</p>
+    <div class="ctas"><a class="btn" href="#start">I want more of these &rarr;</a><a class="btn ghost" href="#how">Wait, how is this possible?</a></div>
   </div>
-  <div class="phone" role="img" aria-label="Preview of a lesson video: Mr. Claude explaining fingerprints, with captions">
-    <div class="screen"><span class="rec">Lesson 01</span><div class="face"></div><div class="print"></div><p class="cap">You just <b>signed your name.</b></p><div class="bar"></div></div>
+  <div class="vid">
+    <video src="media/max-preview-vertical.mp4" poster="media/max-poster.jpg" controls playsinline preload="metadata" aria-label="A 44-second lesson, How Fingerprints Catch Criminals, with Mr. Claude's face and voice, made by AI"></video>
+    <small>44 seconds &middot; "How Fingerprints Catch Criminals" &middot; turn your sound on</small>
   </div>
 </header>
-<section id="plain">
-  <span class="eyebrow">New to AI? Start here</span>
-  <h2>What this is, in plain English.</h2>
-  <div class="grid2">
-    <div class="card"><h3>A video double of you</h3><p class="muted">We record your voice and your face once. After that, a computer can make new videos of you explaining things, saying the words we write together, in your own voice. You never have to set up a camera again.</p></div>
-    <div class="card"><h3>You don't touch the technology</h3><p class="muted">No apps to learn, no accounts to figure out, no editing. You tell us a topic in one sentence (an email or a text is fine). We write it, check every fact, make the video and send it to you to approve.</p></div>
+<section id="how">
+  <span class="eyebrow">New to AI? Read this first</span>
+  <h2>How a computer made a video of you.</h2>
+  <p class="muted" style="max-width:62ch">No camera crew and no editing software on your side. Three separate jobs were done by three separate tools, and we put them together and checked the result.</p>
+  <div class="three">
+    <div class="card"><span class="n3">1 &middot; THE VOICE</span><h3>It learned your voice</h3><p class="muted">You sent a voice memo of about a minute. A voice program listened and learned how you sound, a bit like a very good impressionist. Then it read our script out loud in that voice.</p></div>
+    <div class="card"><span class="n3">2 &middot; THE FACE</span><h3>It animated your photo</h3><p class="muted">You sent one photo. A second program moves the face in that photo (lips, cheeks, a little head motion) so the mouth matches the words. A third step fine-tunes the lips so they line up with each sound.</p></div>
+    <div class="card"><span class="n3">3 &middot; THE WRITING</span><h3>We wrote and checked it</h3><p class="muted">We wrote the script, checked every fact against reliable sources, picked the pictures, added captions and music, and made sure the length was right. You did none of that.</p></div>
   </div>
-  <p class="muted" style="max-width:62ch">Think of it like a substitute who teaches exactly the way you would: same face, same voice, same words you signed off on. It doesn't replace you in the room. It covers the lessons you never have time to film.</p>
+  <div class="note"><b>Is it really "you"?</b> It is your photo, a computer copy of your voice, and words you can approve. You never recorded those lines. That is why every video needs your approval before it goes anywhere, and why the small <b>"AI"</b> label in the corner stays on. We think being open about it is the right way to do this.</div>
+</section>
+<section id="honest">
+  <span class="eyebrow">The honest part</span>
+  <h2>What to expect from this draft.</h2>
+  <div class="compare">
+    <div class="col win"><h3>What already works</h3><ul>
+      <li>It is clearly your face, in your own classroom</li>
+      <li>The words are fact-checked and in plain language</li>
+      <li>The lips follow the words (we measured it with a lip-sync checker)</li>
+      <li>Captions, pictures and music are done for you</li>
+      <li>Made in a few hours, with free tools and no budget</li>
+    </ul></div>
+    <div class="col"><h3>What is still rough</h3><ul>
+      <li>The voice is close but not perfect: it was copied from a short phone memo with some room noise</li>
+      <li>The mouth is a little soft, and your head moves less than it would in real life</li>
+      <li>It started from one photo, so the face can look slightly stiff</li>
+      <li>A small "AI" label sits in the top corner (it comes with the tool, and we think it should stay)</li>
+    </ul></div>
+  </div>
+</section>
+<section id="better">
+  <span class="eyebrow">Where it goes from here</span>
+  <h2>This is the free version. Here is what a real budget buys.</h2>
+  <p class="muted" style="max-width:66ch">Everything you just watched was made without spending money, so we were limited to free tools and your phone files. Once there is a budget (or once you decide to go ahead and we receive payment), we can use better tools and better source material. The upgrades, in plain terms:</p>
+  <table class="tbl">
+    <thead><tr><th>Part of the video</th><th>This draft (free)</th><th>With a budget</th></tr></thead>
+    <tbody>
+      <tr><td><b>Your voice</b></td><td>Copied from a one-minute phone memo</td><td>Copied from a clean 2 to 5 minute recording: closer to the real you, warmer, fewer small glitches</td></tr>
+      <tr><td><b>Your face</b></td><td>One photo, gently animated</td><td>Built from a short video of you: natural head, eye and hand movement, a sharper mouth</td></tr>
+      <tr><td><b>Picture quality</b></td><td>Free tools, limited resolution</td><td>Higher quality settings and more computing time for each video</td></tr>
+      <tr><td><b>Pictures and diagrams</b></td><td>Stock clips and simple drawings</td><td>Custom diagrams and animations for your lessons, your own classroom clips, your logo and colours</td></tr>
+      <tr><td><b>Formats</b></td><td>Phone (vertical) and widescreen</td><td>A set of lessons with intros and outros, ready for class or your own channel</td></tr>
+      <tr><td><b>Speed</b></td><td>Made by hand, one at a time</td><td>A steady routine: send one line, get a finished video in 3 to 4 days</td></tr>
+    </tbody>
+  </table>
+  <p class="muted" style="max-width:66ch">We will tell you the price in writing before you pay anything. Looking at this page or filling in a form costs nothing and commits you to nothing.</p>
+  <div class="ctas"><a class="btn" href="#start">Reserve my setup &rarr;</a><a class="btn ghost" href="#feedback">Tell us what to fix first</a></div>
+</section>
+<section id="wide">
+  <span class="eyebrow">For the classroom projector</span>
+  <h2>Same video, widescreen.</h2>
+  <video class="wide" src="media/max-preview-wide.mp4" poster="media/max-poster.jpg" controls playsinline preload="none" aria-label="Widescreen version of the same lesson"></video>
+  <p class="muted">Want the full-quality files to keep? Ask us and we will send them.</p>
 </section>
 <section id="uses">
   <span class="eyebrow">Ideas for a teacher</span>
@@ -142,14 +203,14 @@ footer{padding-block:28px 48px;color:var(--muted);font-size:.85rem;border-top:1p
   </div>
 </section>
 <section>
-    <h2>Built on a system with 2.8 million views.</h2>
-  <p class="muted" style="max-width:56ch">We make short videos for our own channels with the same tools. Here's one of ours.</p>
+    <h2>The same system runs our own channels: 2.8 million views.</h2>
+  <p class="muted" style="max-width:56ch">We make short videos for our own channels with the same scripting, editing and fact-checking process. Here is one of ours, to show the pace and polish. Yours would be you, teaching your topic.</p>
   <figure id="demo" style="margin:0;display:grid;gap:10px;justify-items:start"><video src="demo.mp4" poster="poster.jpg" controls playsinline preload="metadata" style="width:min(300px,100%);aspect-ratio:9/16;border-radius:22px;background:#000;box-shadow:0 24px 60px -28px rgba(15,18,20,.5)"></video><figcaption class="muted" style="font-size:.9rem">Demo: one of our soccer Shorts. Yours would be you, teaching your topic.</figcaption></figure>
 </section>
 <section id="try">
-  <span class="eyebrow">Free preview · 3 minutes</span>
-  <h2>See yourself teach it, before you decide anything.</h2>
-  <p class="muted" style="max-width:62ch">Send one photo and one minute of your voice, right here on this page. We'll send back a short clip of you teaching a forensic science lesson. It's a quick preview made from a photo; the full version looks far more natural.</p>
+  <span class="eyebrow">Want a second, better take?</span>
+  <h2>Send a fresh photo and voice and we will redo it.</h2>
+  <p class="muted" style="max-width:62ch">The draft above came from your first photo and voice memo. Better inputs make a big difference: a photo facing the camera with your mouth closed, and a minute or two read aloud close to the phone in a quiet room. Send them here and we will redo the video for free.</p>
   <form id="demoForm" name="demo-request" method="POST" data-netlify="true" netlify-honeypot="company2" enctype="multipart/form-data" action="/thanks.html">
     <input type="hidden" name="form-name" value="demo-request">
     <p hidden><label>Leave empty <input name="company2"></label></p>
@@ -158,7 +219,7 @@ footer{padding-block:28px 48px;color:var(--muted);font-size:.85rem;border-top:1p
       <img id="photoPrev" alt="Your photo preview" hidden style="width:140px;border-radius:12px">
     </div>
     <div class="card"><h3>2 · One minute of your voice</h3><p class="muted">Tap record, then read this aloud in a quiet room, the way you'd explain it to a class:</p>
-      <p class="read">"Here's something you do a hundred times a day without noticing. Every time you touch something, you leave your signature behind. Your fingerprints formed before you were born, and they will never change. Not even identical twins share them. Each one is a pattern of ridges that loop, split and stop, and those tiny details are what make it yours. Touch a glass, and the oils on your skin leave a perfect copy. An investigator brushes on a fine powder, and the invisible print appears. A computer can compare it against millions of prints in seconds. But the computer only suggests a match. A trained examiner makes the final call. So the next time you open a door, remember: you just signed your name."</p>
+      <p class="read">"Here's something you do a hundred times a day without noticing. Every time you touch something, you leave your signature behind. Your fingerprints formed before you were born, and they will never change. Not even identical twins share them. Each one is a pattern of ridges that split and stop, and those tiny details are what make it yours. Touch a glass, and the moisture and oil leave a copy. An investigator brushes on a fine powder, and the invisible print appears. A computer searches a database of stored prints and suggests possible matches. For crime scene prints, a trained examiner usually makes the final call. So the next time you open a door, remember: you just signed your name."</p>
       <div class="ctas"><button type="button" class="btn" id="recBtn">● Record</button><span id="recStatus" class="muted" aria-live="polite" style="align-self:center"></span></div>
       <audio id="recPlay" controls hidden style="width:100%"></audio>
       <label for="voiceFile" class="muted" style="font-weight:500">Or upload a voice memo instead<input id="voiceFile" name="voice" type="file" accept="audio/*"></label>
@@ -186,6 +247,9 @@ footer{padding-block:28px 48px;color:var(--muted);font-size:.85rem;border-top:1p
   <span class="eyebrow">Questions people ask</span>
   <h2>The honest answers.</h2>
   <div class="faq">
+    <details><summary>Is this the final quality?</summary><p class="muted">No. It is a first draft made for free, so you can judge the idea. The table above shows what gets better with a budget: a cleaner voice copy, a face built from a short video of you, a sharper picture and custom visuals.</p></details>
+    <details><summary>What will it cost?</summary><p class="muted">We will tell you the price in writing before you pay anything. Nothing on this page charges you.</p></details>
+    <details><summary>Where does this video get posted?</summary><p class="muted">Nowhere unless you say so. This page is private, and students, parents and anyone else only see what you approve.</p></details>
     <details><summary>Will it really look and sound like me?</summary><p class="muted">The cloned voice is usually very close to the real thing. The face depends on what we start from: a quick preview made from one photo is good, and the full version, made from a 5-minute video of you, is much more natural. You see it before you pay for anything beyond setup.</p></details>
     <details><summary>Do I need to know anything about AI?</summary><p class="muted">No. You record once (we send you simple step-by-step instructions), then you just send topics. Everything technical is our job.</p></details>
     <details><summary>Is my face and voice safe?</summary><p class="muted">They're only used to make videos you've approved. The voice and face models are kept in accounts in your name, so you own them. If you ever stop, we delete our copies.</p></details>
@@ -194,6 +258,18 @@ footer{padding-block:28px 48px;color:var(--muted);font-size:.85rem;border-top:1p
     <details><summary>Should I tell my students it's AI?</summary><p class="muted">We recommend it, and it can be a lesson in itself. Each video can carry a small "made with AI, approved by Mr. Claude" note if you like.</p></details>
     <details><summary>How long does a video take?</summary><p class="muted">Usually 3–4 days from your topic to the finished video.</p></details>
   </div>
+</section>
+<section id="feedback">
+  <span class="eyebrow">Your say</span>
+  <h2>What should we fix first?</h2>
+  <p class="muted" style="max-width:56ch">Watched it? Tell us what felt off, what you liked, and what you would use it for. One line is plenty.</p>
+  <form name="draft-feedback" method="POST" data-netlify="true" netlify-honeypot="company3" action="/thanks.html">
+    <input type="hidden" name="form-name" value="draft-feedback">
+    <p hidden><label>Leave empty <input name="company3"></label></p>
+    <label for="fbtext">Your thoughts<textarea id="fbtext" name="feedback" required placeholder="The voice sounds... / The best part was... / I would use it for..."></textarea></label>
+    <label for="fbcontact">Your email or phone (optional)<input id="fbcontact" name="contact"></label>
+    <button class="btn" type="submit">Send feedback &rarr;</button>
+  </form>
 </section>
 <section id="start">
   <span class="eyebrow">Reserve your setup</span>
@@ -217,7 +293,7 @@ footer{padding-block:28px 48px;color:var(--muted);font-size:.85rem;border-top:1p
   <p id="paypal-note" class="muted" style="font-size:.9rem">Ready to start? Pay securely with PayPal; you'll get a receipt by email.</p>
 </div>
 
-<footer>Prepared for Mr. Claude · Every video is a draft until you approve it · Your voice and likeness are only used with your permission.</footer>
+<footer>Prepared for Mr. Claude &middot; A private first draft &middot; Every video is a draft until you approve it &middot; Your photo, voice and likeness are only used with your permission and deleted if you ask &middot; Videos carry a small "AI" label.</footer>
 </main>
 <script>
 (function(){
