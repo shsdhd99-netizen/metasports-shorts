@@ -160,7 +160,7 @@ def main():
     if not (now + datetime.timedelta(minutes=20) <= when <= now + datetime.timedelta(days=30)):
         sys.exit(f"Refused: the slot must be 20 minutes to 30 days from now (it is {when:%a %b %d %H:%M} ET).")
     tags = [t.strip() for t in a.tags.split(",") if t.strip()]
-    if not a.title.strip():
+    if not a.title.strip() or a.title.strip().lower() in ("unknown", "untitled", "none"):
         sys.exit("Refused: the title is empty (a bad UPLOAD.md parse uploaded two Shorts titled 'unknown' on Nov 1). Nothing was uploaded.")
     if not tags:
         sys.exit("Refused: no tags given (the card's tag line is required). Nothing was uploaded.")
