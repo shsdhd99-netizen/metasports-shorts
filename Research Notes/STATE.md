@@ -19,3 +19,5 @@
 
 - 2026-11-04 ~19:00 ET (terminal, owner request): CLAIM: terminal built the Lendeborg Short (#95); BUILDER.txt left as `cloud`. #96 Porzingis and #97 Warriors streak = scripts + sources only (notes.md in their folders), not voiced, not built. FC clip-repetition study done (not supported at n=15) and edit_lint reuse guard shipped. Max Claude synced preview done (Clients/Max Claude/Productions/00 Preview/QA.md). S09/S29 are already uploaded and scheduled by schedule_ready, so NOT re-cut. Backlog items (schedule_ready --require-approved, hub_pack helper, learn.py subs columns): not done.
 - 2026-11-05 04:30 ET (cloud FC run): preflight BLOCKED (YT_* secrets missing in the cloud env; voice and Gemini keys now set). No FC gap within 54 h, no build. Public: S25 11K, S26 8.5K, S19 3.7K, S20 1.0K. Learned Weights refreshed.
+- 2026-11-05 PC account 1 CLAIM: NBA gap Fri Nov 6 3:30 PM ET filled by finishing existing #95 (Lendeborg peer pressure; already built, QA PASS re-run Nov 5). No new build.
+- 2026-11-05 PC account 1: #95 scheduled for Fri Nov 6 3:30 PM ET (gap closed). NBA next open: Sat Nov 7.
