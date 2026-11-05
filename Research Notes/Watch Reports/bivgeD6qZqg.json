@@ -1,0 +1,194 @@
+{
+ "length_s": 61.5,
+ "topic": "The story of how YETI coolers were invented by two brothers and built a multi-billion dollar brand.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "Roy and Ryan Siders kept destroying their coolers",
+  "first_frame": "A boat on the ocean with two stick figures with human heads and a blue cooler.",
+  "on_screen_text_0_3s": "ROY AND RYAN SIDERS KEPT DESTROYING THEIR COOLERS",
+  "shots_in_first_3s": 8
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 1.25,
+   "shows": "Two brothers on a boat with a broken cooler",
+   "kind": "stock"
+  },
+  {
+   "start_s": 1.25,
+   "end_s": 2.75,
+   "shows": "A broken blue cooler cracking",
+   "kind": "stock"
+  },
+  {
+   "start_s": 2.75,
+   "end_s": 4.25,
+   "shows": "Brothers fishing on a boat",
+   "kind": "stock"
+  },
+  {
+   "start_s": 4.25,
+   "end_s": 5.0,
+   "shows": "Texas desert landscape",
+   "kind": "stock"
+  },
+  {
+   "start_s": 5.0,
+   "end_s": 6.5,
+   "shows": "Hunter in the field with calendar animation",
+   "kind": "stock"
+  },
+  {
+   "start_s": 6.5,
+   "end_s": 10.0,
+   "shows": "Cheap plastic cooler breaking in the heat",
+   "kind": "stock"
+  },
+  {
+   "start_s": 10.0,
+   "end_s": 12.0,
+   "shows": "Cooler handle breaking off in the desert",
+   "kind": "stock"
+  },
+  {
+   "start_s": 12.0,
+   "end_s": 13.5,
+   "shows": "Cooler aisle in a retail store",
+   "kind": "stock"
+  },
+  {
+   "start_s": 13.5,
+   "end_s": 15.75,
+   "shows": "Backyard barbecue setup",
+   "kind": "stock"
+  },
+  {
+   "start_s": 15.75,
+   "end_s": 18.0,
+   "shows": "Boat in August heat with thermometer animation",
+   "kind": "stock"
+  },
+  {
+   "start_s": 18.0,
+   "end_s": 20.0,
+   "shows": "Brothers deciding to build their own cooler",
+   "kind": "stock"
+  },
+  {
+   "start_s": 20.0,
+   "end_s": 26.0,
+   "shows": "Rotomolding factory floor",
+   "kind": "stock"
+  },
+  {
+   "start_s": 26.0,
+   "end_s": 27.0,
+   "shows": "Yeti cooler cross-section showing thick walls",
+   "kind": "stock"
+  },
+  {
+   "start_s": 27.0,
+   "end_s": 32.5,
+   "shows": "Yeti cooler holding ice on a boat",
+   "kind": "stock"
+  },
+  {
+   "start_s": 32.5,
+   "end_s": 38.0,
+   "shows": "Comparing Yeti and cheap coolers in a retail store",
+   "kind": "stock"
+  },
+  {
+   "start_s": 38.0,
+   "end_s": 47.5,
+   "shows": "Selling direct at trade shows and to guides/outfitters",
+   "kind": "stock"
+  },
+  {
+   "start_s": 47.5,
+   "end_s": 50.0,
+   "shows": "Mainstream consumers discovering Yeti at a barbecue",
+   "kind": "stock"
+  },
+  {
+   "start_s": 50.0,
+   "end_s": 54.0,
+   "shows": "Yeti on a boat with fishermen",
+   "kind": "stock"
+  },
+  {
+   "start_s": 54.0,
+   "end_s": 57.25,
+   "shows": "Yeti expanding into drinkware and bags",
+   "kind": "stock"
+  },
+  {
+   "start_s": 57.25,
+   "end_s": 61.5,
+   "shows": "NASDAQ opening bell and IPO valuation screen",
+   "kind": "stock"
+  }
+ ],
+ "shot_count": 20,
+ "average_shot_s": 3.075,
+ "longest_shot_s": 9.5,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 215,
+  "tone": "fast, energetic, storytelling",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "upbeat electronic corporate background track",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 2,
+  "case": "ALL CAPS",
+  "position": "middle",
+  "colours": "white",
+  "highlight_style": "none"
+ },
+ "text_overlays": [],
+ "cards_or_graphics": 4,
+ "framing": "crop",
+ "ending": {
+  "last_words": "Valuation of 1.7 billion dollars.",
+  "last_frame": "Yeti IPO screen with $1.7 billion valuation text and falling cash graphics.",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "Roy and Ryan Siders kept destroying their coolers. The brothers were avid fishermen and hunters in Texas who spent days in the field with cheap plastic coolers that cracked, let ice melt in hours, and fell apart under real use. Every cooler on the market was built for a backyard barbecue, not for two days on a boat in August heat. In 2006, they decided to build one themselves. They went to the same rotomolding factories that made commercial marine equipment and had a cooler built to those specs. Walls thick enough to hold ice for days, a lid that sealed properly, and latches that didn't snap off. It weighed significantly more than anything else on the market and cost significantly more, too. Outdoor retailers passed. So the brothers sold direct, mostly at trade shows and to guides and outfitters who immediately understood what they were looking at. Word spread through hunting and fishing communities before it reached anyone else. By the time mainstream consumers discovered Yeti, it had already become the default cooler among people who used coolers seriously. The brand extended into drinkware, bags, and soft coolers. In 2018, Yeti went public at a valuation of $1.7 billion.",
+ "retention_tricks": [
+  "rapid cut rate in the first 3 seconds",
+  "dynamic word-by-word captions",
+  "animated text highlights and arrows",
+  "pop-up stick figure animations with meme face cutouts"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": false,
+  "ends_on_payoff": true,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "Engaging stick-figure visual narrative with meme heads making it highly entertaining.",
+  "Pacing is extremely fast with constant visual movement and zero dead air.",
+  "Clear problem-solution arc explaining how a niche product became a billion-dollar brand."
+ ],
+ "_meta": {
+  "source": "bivgeD6qZqg",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-11-05",
+  "tier": "[S] model-observed, not measured"
+ }
+}

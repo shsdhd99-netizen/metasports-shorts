@@ -1,0 +1,21 @@
+{
+ "cuts": [
+  0.1,
+  1.4,
+  2.4,
+  3.2,
+  5.5
+ ],
+ "first_shot_shows": "An animated stick figure representation of Fidel Castro in a jeep.",
+ "first_words": "Fidel Castro seized the Bacardi distillery in 1960 and thought he'd taken everything",
+ "text_on_screen_0_3s": "FIDEL CASTRO",
+ "music_or_beat_audible": true,
+ "cuts_merged": [
+  1.4,
+  2.4,
+  3.2,
+  5.5
+ ],
+ "shots_in_first_3s": 3,
+ "shots_in_first_5s": 4
+}
