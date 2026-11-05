@@ -288,3 +288,4 @@ STATUS: skipped, no build. preflight OK now (keys present). next_gap nba: Fri No
 
 ## Thu Nov 5, 10:40 UTC: FC daily build (cloud)
 STATUS: skipped, no build. next_gap fc: NO GAP in 54 h (S09/S29 cover to Sun Nov 8; S31, S32, S30, S21, S22, S36 scripts exist for Nov 8-13), so the next 2 stories are already picked. New idea banked: S37 Como 9-1 at Lens (UCL Nov 4), needs a 2nd source. Inbox: no new notes.
+- 2026-11-05 PC terminal: Max site rebuilt (Netlify DRAFT 6aec97f9...), 16:9 preview made, queue review + backlog tools (schedule_ready, hub_pack, overlay count, cleanup_list).
