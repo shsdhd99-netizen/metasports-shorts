@@ -9,7 +9,8 @@ and the owner can delete it in the YouTube app until then. It never opens Studio
 
   python Tools/schedule_ready.py            -> dry run: lists what it would schedule and why others are skipped
   python Tools/schedule_ready.py --go       -> really schedules (this is what the Task Scheduler entry runs)
-Writes one summary line to Research Notes/Schedule Ready Log.md each --go run, plus the reason for every skip.
+Writes one summary line to Research Notes/Schedule Ready Log.md each --go run, plus the reason for every skip (also on --go since Nov 5).
+--require-approved (Nov 5): only schedules cards that carry `**Approved:** yes`.
 Slots under 6 h from another Short on the same channel (already in Scheduled Uploads.csv, or picked earlier in this run) are skipped.
 
 A/B pairs (Nov 3): a folder with a music and a no-music DRAFT is no longer always skipped. A card line `**Arm:** music`/`no-music`
@@ -94,6 +95,8 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--go", action="store_true")
     ap.add_argument("--default-arm", choices=["music", "no-music"], help="arm for A/B pairs with no **Arm:** line")
+    ap.add_argument("--require-approved", action="store_true",
+                    help="strict mode (option B): only cards with a line `**Approved:** yes` (the owner's OK, mirrors Hub approved:true) are scheduled")
     ap.add_argument("--min-lead", type=int, default=120, help="minutes the slot must be away")
     a = ap.parse_args()
     now = datetime.datetime.now(ET)
@@ -122,6 +125,8 @@ def main():
             why = clash(ch, slot, booked)
         elif re.search(r"\bHOLD\b", text):
             why = "card says HOLD"
+        elif a.require_approved and not re.search(r"\*\*Approved:\*\*\s*(yes|true)", text, re.I):
+            why = "--require-approved: no `**Approved:** yes` line on the card"
         elif not QA.search(text):
             why = "no passing QA line in the card"
         elif not (title and tags):
@@ -147,6 +152,9 @@ def main():
     if a.go:
         log = os.path.join(ROOT, "Research Notes", "Schedule Ready Log.md")
         with open(log, "a", encoding="utf-8") as f:
+            for r_ in report:  # Nov 5: every skip/refusal is logged with its reason, not only the count
+                if r_.startswith(("skip", "REFUSED")):
+                    f.write(f"  - {now:%Y-%m-%d %H:%M} {r_}\n")
             f.write(f"- {now:%Y-%m-%d %H:%M} ET: scheduled {len(done)}" + (": " + "; ".join(done) if done else "") +
                     f"; skipped/refused {len([r for r in report if r.startswith(('skip', 'REFUSED'))])}.\n")
 

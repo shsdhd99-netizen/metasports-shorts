@@ -11,6 +11,10 @@ spec.json is a list of lines:
 - Oct 26 2026 (countdown format): "x": "left" | "right" | a pixel number puts the text in a corner instead of the centre,
   and "box": "0xFDB927" draws a solid badge behind it (e.g. {"text": "#3", "size": 120, "x": "left", "y": 230, "box": "0xFDB927",
   "color": "black", "start": 0, "end": 9}) for a visible 3-2-1 counter.
+- Nov 5 2026 (counting numbers, from the Dyson stick-figure study: "under every number, show it counting up"): add
+  "count": {"to": 5127, "from": 0, "dur": 1.2, "prefix": "", "suffix": ""} to a line (leave "text" out): the number runs from "from" to
+  "to" over "dur" seconds starting at "start" (ease-out), with thousands commas, then holds until "end". e.g.
+  {"count": {"to": 5127, "dur": 1.3}, "size": 200, "color": "orange", "y": 300, "start": 0.4, "end": 3.5, "sub": "PROTOTYPES"}
 Needs ffmpeg with drawtext. Font: Windows Arial Bold.
 """
 import argparse, json, os, subprocess, tempfile
@@ -35,7 +39,23 @@ def main():
         fade = 0.12
         alpha = f"if(lt(t,{st}),0,if(lt(t,{st + fade}),(t-{st})/{fade},if(lt(t,{en - fade}),1,if(lt(t,{en}),({en}-t)/{fade},0))))"
         for key, size_default, color_default, dy in (("sub", 62, "white", -(ln.get('size', 160) * 0.62 + 20)), ("text", ln.get("size", 160), ln.get("color", "white"), 0)):
-            if key not in ln:
+            if key not in ln and not (key == "text" and "count" in ln):
+                continue
+            if key == "text" and "count" in ln:
+                cnt = ln["count"]; v0, v1 = float(cnt.get("from", 0)), float(cnt["to"]); dur = float(cnt.get("dur", 1.2))
+                nfr = max(2, int(round(dur * 30)))
+                for k in range(nfr + 1):
+                    e = 1 - (1 - k / nfr) ** 3
+                    val = int(round(v0 + (v1 - v0) * e))
+                    txt = f"{cnt.get('prefix', '')}{val:,}{cnt.get('suffix', '')}"
+                    tfk = os.path.join(tmp, f"t{i}c{k}.txt"); open(tfk, "w", encoding="utf-8").write(txt)
+                    a0 = st + k / 30.0; a1 = (st + (k + 1) / 30.0) if k < nfr else en
+                    size = ln.get("size", 160); color = COL.get(ln.get("color", "white"), ln.get("color", "white"))
+                    tfp = tfk.replace("\\", "/").replace(":", "\:")
+                    xs = ln.get("x", "center"); xe = {"left": "70", "right": "w-text_w-70", "center": "(w-text_w)/2"}.get(xs, str(xs))
+                    filt.append(f"drawtext=fontfile='{FONT}':textfile='{tfp}':expansion=none:fontsize={size}:fontcolor={color}:"
+                                f"borderw={max(5, size // 22)}:bordercolor=black:x={xe}:y={int(ln.get('y', 300))}:"
+                                f"alpha='{alpha}':enable='between(t,{a0:.4f},{a1:.4f})'")
                 continue
             tf = os.path.join(tmp, f"t{i}{key}.txt")
             open(tf, "w", encoding="utf-8").write(ln[key])
