@@ -5,7 +5,8 @@
 
 Prints BUILD or DO NOT BUILD with every reason. BUILD needs ALL of:
   1. an uncovered slot: `next_gap.py <channel>` reports a GAP (the autopilot's 6:45/7:30 AM gap-fill runs first; do not double-build), or --owner-request;
-  2. a shape that is not paused (rule, history, news explainer, manager, off-niche) unless --experiment names ONE variable;
+  2. a PROVEN lane, or a TEST lane with --experiment naming ONE variable that differs from the last attempt (Tools/test_log.py); FC has no banned shapes;
+  5. not in AUTOPILOT TEST MODE (Research Notes/AUTOPILOT_TEST.txt) unless --owner-request;
   3. an idea_gauge score of 80% or more (`idea_gauge.py` percent), no HARD STOP, and a FRESH copy-check (you assert it with --fresh);
   4. nobody else holds the build (BUILDER.txt says cloud/pc matching --builder, or no CLAIM line for this slot in STATE.md).
 --owner-request (the owner asked for this Short in chat) skips 1 only. The goal is channels that run themselves with high retention and millions of views,
@@ -14,7 +15,7 @@ so a weak or redundant Short costs a slot, the voice credits and the channel's s
 import argparse, os, re, subprocess, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-PAUSED = {"rule", "history", "news explainer", "news", "manager", "off-niche"}
+PAUSED = {"nba": {"rule", "history", "news explainer", "news", "off-niche"}, "fc": set()}  # Nov 5: FC has no paused shapes (owner: do not limit FC to goalkeepers)
 
 
 def main():
@@ -24,6 +25,7 @@ def main():
     ap.add_argument("--score", type=float, required=True, help="idea_gauge percent")
     ap.add_argument("--fresh", action="store_true", help="copy_check said FRESH")
     ap.add_argument("--owner-request", action="store_true")
+    ap.add_argument("--autopilot", action="store_true", help="the scheduled autopilot run (PC gap-fill 6:45/7:30 or the cloud routines): exempt from AUTOPILOT TEST MODE")
     ap.add_argument("--experiment", help="the ONE variable this build tests (allows a paused shape)")
     ap.add_argument("--builder", default="pc", choices=["pc", "cloud"])
     a = ap.parse_args()
@@ -36,10 +38,22 @@ def main():
         why_ok.append("owner asked for it (slot rule skipped): " + gap)
     else:
         why_not.append("no uncovered slot (" + gap + "); the autopilot gap-fill covers new gaps")
-    if a.shape.lower() in PAUSED and not a.experiment:
-        why_not.append(f"shape '{a.shape}' is paused (0.5-0.6x the channel); name one variable with --experiment or pick another shape")
+    sys.path.insert(0, os.path.join(ROOT, "Tools"))
+    try:
+        import test_log as TL
+        st = TL.lane_status(a.channel).get(a.shape, None)
+    except Exception:
+        st = None
+    proven = bool(st and st[3] == "PROVEN")
+    needs_angle = a.shape.lower() in PAUSED[a.channel] or (st is not None and not proven)
+    if needs_angle and not a.experiment:
+        why_not.append(f"lane '{a.shape}' is not proven yet: it is a TEST lane, so name the ONE variable you change from the last attempt with --experiment (and log it with test_log.py add)")
+    elif needs_angle and st and a.experiment.strip().lower() == st[1].strip().lower():
+        why_not.append(f"the experiment variable repeats the last attempt in this lane ({st[1]!r}): change something else")
     else:
-        why_ok.append(f"shape '{a.shape}' ok" + (f" (experiment: {a.experiment})" if a.experiment else ""))
+        why_ok.append(f"lane '{a.shape}' " + ("PROVEN" if proven else "new lane (test)") if not needs_angle else f"test lane '{a.shape}' changing: {a.experiment}")
+    if os.path.exists(os.path.join(ROOT, "Research Notes", "AUTOPILOT_TEST.txt")) and not (a.owner_request or a.autopilot):
+        why_not.append("AUTOPILOT TEST MODE (owner, Nov 5): terminal sessions do not build Shorts; only the autopilot builds unless the owner says so")
     if a.score < 80:
         why_not.append(f"gauge score {a.score:.0f}% is under 80%")
     else:

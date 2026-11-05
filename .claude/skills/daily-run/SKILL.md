@@ -1,4 +1,7 @@
 ---
+
+> **OVERRIDE (owner, Nov 5, 2026): FC is NOT limited to goalkeeper stories.** Goalkeeper-odd-device stories are the PROVEN lane (6 of 6 above 10K): keep making them. Every other lane is a TEST lane: try it, change ONE variable each attempt, write down what happened (`Tools/test_log.py`), and keep a lane if it works. Nothing is banned for ever; a lane is retired only after 5 attempts with 3 different changes that all stayed under the channel median. Policy: `Research Notes/Test and Learn Policy (Nov 5, 2026).md`. Any older line below that says "goalkeeper first", "goalkeeper only" or "others only as flagged experiments" is superseded.
+
 name: daily-run
 description: >
   The automatic daily MetaSports run, one channel per run (nba or fc): pull analytics and retention curves, learn from yesterday's
@@ -112,7 +115,7 @@ Read `Research Notes/BUILDER.txt` (`pc` or `cloud`). Build a Short only if it na
 - The two numbers to move: median views per Short at 72 h and subs per 1K views (NBA 0.43, FC 1.36). Targets and monetization lines are in `CLOUD DAILY RULES.md`.
 
 ## C00. BUILD GATE (owner, Nov 5, 2026)
-Before D, run `python Tools/build_gate.py <nba|fc> --shape <shape> --score <gauge pct> --fresh`. DO NOT BUILD means write the reasons in the Daily Log and stop; no Short is better than a weak one (open slot, unpaused shape, gauge 80%+, FRESH, no claim).
+Before D, run `python Tools/build_gate.py <nba|fc> --shape <shape> --score <gauge pct> --fresh --autopilot` (scheduled runs only; interactive sessions are blocked during the autopilot test). DO NOT BUILD means write the reasons in the Daily Log and stop; no Short is better than a weak one (open slot, unpaused shape, gauge 80%+, FRESH, no claim).
 
 ## C. Research (20 min): logged with sources
 - **Learned Weights first (Nov 3, item 15):** run `python Tools/learn.py ingest --fetch` then `python Tools/learn.py report` (zero credits) and
@@ -223,6 +226,12 @@ Before D, run `python Tools/build_gate.py <nba|fc> --shape <shape> --score <gaug
   news Short older than a day `skip`. Never re-slot or re-upload a posted Short; judge it at 72 h.
 - Commit (the `DRAFT - awaiting approval` files are kept in git) and push to `main-329h3w`. If the push is refused, pull with
   `--no-rebase`, merge (keep both sides of any doc), push again.
+
+## F0. Every day (owner, Nov 5, 2026): learn and improve
+1. `python Tools/test_log.py result ...` for every Short that reached 72 h (views, stayed/engaged, one written lesson); `python Tools/test_log.py status` shows PROVEN / TESTING / RETIRED lanes.
+2. `python Tools/qa_audit.py`, then change ONE QA check (add, tighten, loosen, or move it earlier into `precut_lint.py`) and add one line to `Research Notes/QA Changelog.md`.
+3. `python Tools/idea_triage.py list`: keep at most 5 candidates per channel; notes and trash for the rest.
+4. `python Tools/state.py` (STATE.md AUTO block) before stopping.
 
 ## F. Report (3-5 plain lines)
 What was made, its slot, QA result, what you learned today, and anything only the owner can do.

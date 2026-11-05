@@ -4,7 +4,7 @@ Built Nov 5, 2026 from the repo. Start with the two case studies, then the rules
 
 ## 1. Where to find what
 
-### Case studies and the Nov 4-5 work (5)
+### Case studies and the Nov 4-5 work (6)
 | File | What it is | KB |
 |---|---|---|
 | `Research Notes/Case Study - MetaSports FC (Nov 5, 2026).md` | Case study: MetaSports FC (soccer story Shorts), Nov 5, 2026 | 9 |
@@ -12,6 +12,7 @@ Built Nov 5, 2026 from the repo. Start with the two case studies, then the rules
 | `Research Notes/Editing Study - Dyson stick-figure Short (Nov 5, 2026).md` | Editing study: the Dyson stick-figure Short (Fxyx1YxtQv8), watched Nov 5, 2026 | 2 |
 | `Research Notes/FC Clip Repetition Study (Nov 4, 2026).md` | FC Clip Repetition Study (Nov 4, 2026) | 10 |
 | `Research Notes/Queue Review (Nov 5, 2026).md` | Queue review (Thu Nov 5, 2026, PC terminal) | 5 |
+| `Research Notes/Queue Review v3 (Nov 5, 2026).md` | Queue review, Nov 5, 2026 (after Style v3) | 2 |
 
 ### Monetization, policy and platform mechanics (5)
 | File | What it is | KB |
@@ -74,7 +75,7 @@ Built Nov 5, 2026 from the repo. Start with the two case studies, then the rules
 ### Rules, playbooks and process (the rules themselves are digested below) (19)
 | File | What it is | KB |
 |---|---|---|
-| `CLOUD DAILY RULES.md` | Cloud daily-run rules (read FIRST by the NBA and FC routines; edited by either account through git; Nov 3, 202 | 4 |
+| `CLOUD DAILY RULES.md` | Cloud daily-run rules (read FIRST by the NBA and FC routines; edited by either account through git; Nov 3, 202 | 7 |
 | `MetaSports - Playbook.md` | MetaSports — The Playbook | 53 |
 | `Research Notes/Audit of Our Rules (Oct 24, 2026).md` | Audit of our rules (Oct 24, 2026) | 6 |
 | `Research Notes/Content Principles Evaluation (Oct 15, 2026).md` | content-principles evaluation (Oct 15, 2026) | 2 |
@@ -127,7 +128,7 @@ Built Nov 5, 2026 from the repo. Start with the two case studies, then the rules
 | `Research Notes/Round 9 - Topic Selection (Oct 10, 2026).md` | Round 9 — Topic selection (Oct 10, 2026) | 15 |
 | `Research Notes/Script Review - FC queue (Oct 29, 2026).md` | Script review: FC queue (Thu Oct 29, 2026, about 7:50 AM ET) | 16 |
 | `Research Notes/Script Review - NBA queue (Oct 29, 2026).md` | Script Review: NBA queue (Oct 29, 2026) | 15 |
-| `Soccer Channel/Idea Bank.md` | Idea bank (Oct 21, 2026) | 20 |
+| `Soccer Channel/Idea Bank.md` | Idea bank (Oct 21, 2026) | 22 |
 
 ### Critiques and reviews of individual Shorts (12)
 | File | What it is | KB |
@@ -161,7 +162,7 @@ Built Nov 5, 2026 from the repo. Start with the two case studies, then the rules
 | `HANDOFF - Nov 3 terminal.md` | Handoff, Tue Nov 3 2026 (desktop session -> owner's Claude terminal) | 5 |
 | `HANDOFF - Nov 4 resume 1-30 PM.md` | Handoff for the next terminal session (written Tue Nov 3, 2026, 4:40 PM ET; resume Wed Nov 4, 1:30 PM ET) | 8 |
 | `HANDOFF - Terminal Nov 4 evening (Max, Warriors, FC repeats).md` | TERMINAL HANDOFF, Wed Nov 4 2026 evening (owner away about 1 hour; bypass permissions ON) | 16 |
-| `HANDOFF - latest.md` | Handoff (auto), Wed Nov 04 2026, 18:21 EST, written by account: PC terminal (Max, FC study, #95) | 3 |
+| `HANDOFF - latest.md` | Handoff (auto), Thu Nov 05 2026, 15:38 UTC, written by account: app account 2 | 3 |
 | `HANDOVER - Account 1 Client AI Videos.md` | Handover: AI videos for Max Claude (for Account 1) | 5 |
 | `OVERNIGHT LOG - resume here.md` | Overnight log: resume here (Oct 14, 2026, about 11:55 PM ET) | 18 |
 | `PROMPT - Full Automation Terminal (Nov 4).md` | PROMPT: finish everything and automate both channels (paste into a Claude Code terminal in this repo) | 7 |
@@ -182,7 +183,7 @@ Built Nov 5, 2026 from the repo. Start with the two case studies, then the rules
 | `Research Notes/PC Requests.md` | PC requests (cloud writes, PC fulfils). One line each; the PC marks DONE with the date. | 0 |
 | `Research Notes/Preflight.md` | Preflight (2026-11-05 09:00) | 1 |
 | `Research Notes/Refinement Backlog (Oct 10, 2026).md` | Refinement backlog (Oct 10, 2026) | 12 |
-| `Research Notes/STATE.md` | STATE (one page for any account/session; update at the end of every run) | 3 |
+| `Research Notes/STATE.md` | STATE (one page for any account/session; update at the end of every run) | 4 |
 | `Research Notes/Schedule Ready Log.md` | Schedule Ready Log.md | 0 |
 | `Research Notes/Sources.md` | Sources | 6 |
 | `Research Notes/The Original Brief (expanded prompt).md` | Two-Channel YouTube Build: MetaSportsClips (AI NBA Shorts) + New Commentary Channel | 11 |
@@ -190,16 +191,25 @@ Built Nov 5, 2026 from the repo. Start with the two case studies, then the rules
 | `Roadmap - Next 90 Days.md` | Roadmap: Next 90 Days (Sep 28 → Dec 27, 2026) | 7 |
 | `Soccer Channel/START HERE.md` | Soccer channel: START HERE (updated Oct 26, 2026) | 8 |
 
-### Other (9)
+### Other (18)
 | File | What it is | KB |
 |---|---|---|
 | `CLAUDE.md` | Start here (every session, any account, app or terminal) | 0 |
+| `Research Notes/Efficiency Review (Nov 5, 2026).md` | Where time and tokens go in building a Short, and what would save them (Nov 5, 2026) [H: estimates from this s | 3 |
+| `Research Notes/Idea Candidates.md` | Idea candidates and notes (auto-written by Tools/idea_triage.py) | 0 |
 | `Research Notes/Improve Next (Oct 10, 2026).md` | Improve next (Oct 10, 2026) | 5 |
+| `Research Notes/Master Index - Studies and Rules (Nov 5, 2026).md` | Master index: every study, rule and tool (Nov 5, 2026) | 39 |
 | `Research Notes/Oct 5 - Two to post.md` | Oct 5 — two to post | 2 |
 | `Research Notes/Opening Night Deep Dive (Oct 21, 2026).md` | Opening night deep dive (games of Oct 20, 2026; read Oct 21, 14:00-16:00 UTC) | 4 |
 | `Research Notes/Plan - 42 format, voice, retention (Oct 19, 2026).md` | The plan, Oct 19, 2026: one proven format, the best voice, retention every day | 9 |
+| `Research Notes/Posting Cadence Review (Nov 5, 2026).md` | Why 2 NBA + 1 FC a day, and what to test (Nov 5, 2026) | 3 |
+| `Research Notes/Posting Plan (Nov 5, 2026).md` | Posting plan: how many Shorts a day on each channel (Nov 5, 2026) | 5 |
+| `Research Notes/QA Audit.md` | QA audit (auto-written by Tools/qa_audit.py) | 3 |
+| `Research Notes/QA Changelog.md` | QA changelog (one line per day: what changed, why, evidence). Owner rule, Nov 5: QA is improved every single d | 0 |
 | `Research Notes/Short 22 footage.md` | Short 22 footage | 6 |
 | `Research Notes/Shot Clock 14 - Clip Search (Oct 10, 2026).md` | Shot clock 14 — clip search (Oct 10, 2026) | 1 |
+| `Research Notes/Style v3 - Story Hooks from PureBusiness (Nov 5, 2026).md` | Style v3: story scripts and editing, learned from @PureBusinesshorts (Nov 5, 2026) | 3 |
+| `Research Notes/Test and Learn Policy (Nov 5, 2026).md` | Test and learn policy (owner, Nov 5, 2026) | 3 |
 | `Soccer Channel/Channel Setup.md` | Channel setup (Oct 21, 2026) | 2 |
 | `Tools Guide.md` | Tools Guide | 29 |
 
@@ -214,9 +224,12 @@ Built Nov 5, 2026 from the repo. Start with the two case studies, then the rules
 - Weekly usage ceiling and the "one builder at a time" claim lines in STATE.md. [AGENTS.md, BUILDER]
 
 ### B. What to make (premise first: the first 1-3 seconds and the subject decide a Short)
-- **NBA lanes:** about half moments (something you can watch, plus one fact the clip can't show); the rest rotates: family stories, watchable curiosities ("why do players do X"), live star record chases, same-day news (morning after or not at all), weekly countdown test. **Paused shapes:** rules/"why isn't X allowed", history retold, news explainers, "is X doomed?", pure record counts, lesser-name lists. [Playbook, Topic and Script Reset, Learned Weights]
+- **NBA lanes:** about half moments (something you can watch, plus one fact the clip can't show); the rest rotates: family stories, watchable curiosities ("why do players do X"), live star record chases, same-day news (morning after or not at all), weekly countdown test. **Weak NBA shapes are TEST lanes, not bans** (rules/"why isn't X allowed", history retold, news explainers, "is X doomed?", pure record counts, lesser-name lists): reframe and change one variable per attempt. [Playbook, Topic and Script Reset, Learned Weights]
 - **Stranger test:** would someone who does not follow the sport stop for it? Kids, family, giants, spectacle, the top 3-4 names, a scandal about them: yes. Trivia and role-player stories: no. [Watch Study]
-- **FC:** a goalkeeper doing something sneaky or odd in a famous shootout is the proven premise (6 of 6 above 10K); each new story needs its own new sourced fact; no sequels of a trick already shown; other shapes are 30% experiments, one variable each. [Soccer Channel/Playbook, Lessons Learned]
+- **FC (owner, Nov 5: NOT limited to goalkeepers):** goalkeeper-does-something-odd is the PROVEN lane (6 of 6 above 10K): keep making them. Every other lane is a TEST lane: one variable changed per attempt, logged in `Tools/test_log.py`, a written lesson after 72 h; PROVEN / TESTING / RETIRED states; nothing banned for ever. Each story needs its own new sourced fact; no sequel of a trick already shown. [Test and Learn Policy (Nov 5, 2026)]
+- **Build gate (owner, Nov 5: skipping is the default):** `Tools/build_gate.py`: open slot, a PROVEN lane or a logged one-variable test, gauge 80%+, FRESH copy-check, no other claim. **Autopilot test:** terminal/app sessions do not build Shorts (`Research Notes/AUTOPILOT_TEST.txt`); only the PC autopilot does, unless the owner says so. Skipped ideas: top 5 per channel stay as candidates, the rest notes or trash (`Tools/idea_triage.py`).
+- **Posting (owner, Nov 5):** up to 3 per channel per day, never closer than 6 h; the number per day is a credit-neutral alternating test from Nov 9 (`Posting Plan (Nov 5, 2026).md`).
+- **QA improves daily:** `Tools/qa_audit.py` + one change per day logged in `QA Changelog.md`; `Tools/precut_lint.py` before cutting.
 - **Gauge every idea** (`idea_gauge.py`) and **copy-check it** (`copy_check.py`) before scripting; reframe flop shapes or drop them; never retell a bigger channel's story. [Idea Gauging]
 - **70/30:** 70% of builds from shapes above the channel median, 30% single-variable experiments; a lane with 3 flops in a row is paused until the Sunday review. [Learned Weights]
 - **Facts:** every claim word (still/record/first/never/only/most) has a dated source row in notes.md; two sources for numbers; say only what the team or a primary source said; sensitive/health topics only with the official statement. [Playbook §4, Lessons Learned]
@@ -260,7 +273,9 @@ Built Nov 5, 2026 from the repo. Start with the two case studies, then the rules
 | `anchor_shots.py` | Pin every shot to the words it illustrates, so a script rewrite never leaves pictures one slot late. |
 | `assemble.py` | Assembles a MetaSports Short in CutWire Drift (free editor), fully automatic, no window needed. |
 | `automation_review.py` | Daily automation review for the two-week proving period (Nov 4-17, 2026; owner: "make sure automation is reviewed and tested |
+| `backfill_lane.py` | Backfill `shape` (and an empty `lane`) in Research Notes/Experiments.csv from the title (Nov 5, 2026; backlog item). |
 | `broll.py` | Find and cut B-roll for a Short (free: yt-dlp + ffmpeg). Claude runs this for you inside /assemble. |
+| `build_gate.py` | Build gate (Nov 5, 2026, owner: "don't build any Shorts unless it is currently useful, the autopilot is working, or it gets a high rating"). |
 | `captions.py` | Burned-in captions for MetaSports Shorts, in the look of your old Shorts (or Coach Clank's). |
 | `card.py` | Evidence card: screenshot a web page, crop the headline and the one line that matters, put a red box on it, make the 9:16 clip. |
 | `channel_check.py` | Weekly MetaSports check (free). Compares your newest Shorts to your normal and logs it. |
@@ -287,16 +302,21 @@ Built Nov 5, 2026 from the repo. Start with the two case studies, then the rules
 | `hub_cleanup_plan.py` | Build the Hub cleanup writes (ArtifactData batch) from the backup + the Oct 15 metrics CSV. Prints nothing destructive: |
 | `hub_pack.py` | Pack a DRAFT for the Hub: re-encode under the 20 MiB asset cap and verify it with qa_short (Nov 5, 2026; backlog item). |
 | `idea_gauge.py` | Idea gauge (Nov 1, 2026): score a Short idea BEFORE any work is spent, and say GO, FIX (with the exact fix) or SKIP. |
+| `idea_triage.py` | Idea triage (Nov 5, 2026; owner: "anything that gets skipped: the strongest ones stay as possible ideas, anything else is notes or trashed") |
 | `learn.py` | The learning loop as a script, not a mood (Nov 3, 2026; automation to-do items 2 and 8). Zero Claude credits. |
+| `max_site_deploy.py` | Deploy Max Claude's private site (Nov 5, 2026). |
 | `music_gen.py` | Generate an instrumental music bed with ElevenLabs Music (POST /v1/music) and log its licence. |
 | `music_scan.py` | Measure candidate background tracks (no listening needed for the numbers; listening still decides). |
 | `nat_sound.py` | Real-audio ("nat sound") mix for moment Shorts (Oct 28 2026; owner: "for all clips that are viral, experiment with using the |
 | `nba_videos.py` | Find and download official NBA team-site clips (NBA.com) at 1280x720, no account, works from the cloud. |
+| `next_arm.py` | Which one-variable test arm should the next NBA Short use? (Nov 5, 2026; backlog tests from the Growth Study and Case Study) |
 | `next_gap.py` | Find the next posting slot that has NOTHING ready, per channel (Nov 3, 2026; zero Claude credits). |
 | `overlay.py` | Words/numbers over real footage (no static card, no picture). |
 | `pc_cut.py` | Cut every YouTube moment a cloud session found, in one go (run this on the PC, where YouTube downloads work). |
 | `pointer.py` | Red circle (and optional arrow) on the detail that makes the story, for an opening A/B test. Works on a finished video. |
+| `precut_lint.py` | Pre-cut lint (Nov 5, 2026): catches, BEFORE cutting, the problems that cost #95 five re-cuts and that qa_audit shows firing in most Shorts. |
 | `preflight.py` | Preflight for unattended runs (Nov 3, 2026). Zero Claude credits, prints no secrets, uploads nothing. |
+| `qa_audit.py` | QA audit (Nov 5, 2026; owner: "make sure QA is always up to date and improved every single day"). |
 | `qa_short.py` | Quality gate. Run BEFORE delivering any Short. Exit code 1 = do not ship, fix the listed items. |
 | `rate_short.py` | Viral-formula rating for every queued Short (0-100) from the strict critics' 9-item scorecards, plus a post-priority that weighs topic power |
 | `retake_sentence.py` | Re-record ONE sentence of a finished voice and splice it in, instead of paying for a whole new take (Oct 24, 2026). |
@@ -311,11 +331,13 @@ Built Nov 5, 2026 from the repo. Start with the two case studies, then the rules
 | `shorts_dataset.py` | One table of every Short's features and results, so rules come from data (Oct 24 2026 audit). |
 | `shot_strip.py` | Every shot as it is used: its first, middle and last frame, 3 tiles a shot, 6 shots a row (Oct 24 2026; was a scratch helper). |
 | `splice_voice.py` | Build voice.mp3 + words.json from narration pieces and real quote cuts (real audio from a clip). |
+| `state.py` | One-page STATE writer plus health check (Nov 5, 2026; backlog items "STATE.md writer" and "routine health check"). |
 | `stock.py` | Free stock video for abstract lines ("the phone rang", "a children's charity"): Mixkit (Mixkit Free License: |
 | `story_card.py` | Evidence cards for the story format, as full 9:16 frames for broll.py `still` shots (soccer channel, Oct 22, 2026). |
 | `storyboard.py` | Storyboard check: the picture on screen for every caption card, so you can see if words and footage match. |
 | `sync_verify.py` | Merge the cloud copy (this repo) back into the desktop project folder safely, then prove it worked. |
 | `tags_fit.py` | Fit a Short's tags to YouTube's 500-character box, filled to 490 (owner, Nov 1 2026: "go back to filling"; it was 150 from |
+| `test_log.py` | Test-and-learn log (Nov 5, 2026; owner: "be willing to try new things, learn from errors; stick with what works, test what doesn't until it  |
 | `test_yt_analytics.py` | Offline test of yt_analytics.py `daily` + `report` with API-shaped FIXTURE data (not real channel numbers). |
 | `thumb.py` | Thumbnail maker (run with: py -3.14 thumb.py ...). |
 | `tighten_voice.py` | Take the dead air out of a finished voice track (owner, Oct 22 2026: "make sure videos have no unnecessary pauses"). |

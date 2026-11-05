@@ -18,6 +18,16 @@ import schedule_ready as sr  # slot parser and folder list (same rules as the sc
 
 ET = ZoneInfo("America/New_York")
 GRID = {"nba": [(7, 15), (15, 30)], "fc": [(12, 0)]}
+# Nov 5, 2026 posting TEST (Research Notes/Posting Plan (Nov 5, 2026).md): while Research Notes/POSTING_TEST.txt exists, days alternate so the
+# ElevenLabs budget stays the same: EVEN dates NBA 2 + FC 1 (the old grid), ODD dates NBA 1 + FC 2 (FC at 12:00 and 18:00 ET). A slot is only
+# filled when an idea passes Tools/build_gate.py; an unfilled slot is simply skipped (skipping beats a weak Short).
+TEST_ODD = {"nba": [(7, 15)], "fc": [(12, 0), (18, 0)]}
+
+
+def grid_for(ch, date):
+    if os.path.exists(os.path.join(ROOT, "Research Notes", "POSTING_TEST.txt")) and date >= datetime.date(2026, 11, 9) and date.toordinal() % 2 == 1:
+        return TEST_ODD[ch]
+    return GRID[ch]
 
 
 def covered(ch, now):
@@ -46,7 +56,7 @@ def main():
     have = covered(a.channel, now)
     day = now.date()
     for i in range(4):
-        for h, m in GRID[a.channel]:
+        for h, m in grid_for(a.channel, day + datetime.timedelta(days=i)):
             t = datetime.datetime.combine(day + datetime.timedelta(days=i), datetime.time(h, m), tzinfo=ET)
             if now + datetime.timedelta(hours=a.min_lead) <= t <= now + datetime.timedelta(hours=a.hours):
                 if f"{t:%Y-%m-%d %H:%M}" not in have:

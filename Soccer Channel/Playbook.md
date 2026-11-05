@@ -1,5 +1,8 @@
 # Soccer channel playbook v2 (Nov 1, 2026): premise first
 
+> **OVERRIDE (owner, Nov 5, 2026): FC is NOT limited to goalkeeper stories.** Goalkeeper-odd-device stories are the PROVEN lane (6 of 6 above 10K): keep making them. Every other lane is a TEST lane: try it, change ONE variable each attempt, write down what happened (`Tools/test_log.py`), and keep a lane if it works. Nothing is banned for ever; a lane is retired only after 5 attempts with 3 different changes that all stayed under the channel median. Policy: `Research Notes/Test and Learn Policy (Nov 5, 2026).md`. Any older line below that says "goalkeeper first", "goalkeeper only" or "others only as flagged experiments" is superseded.
+
+
 **OWNER-APPROVED TESTS (Nov 1):** (1) the next two goalkeeper Shorts after S28 use an action-first opener (first story sentence over the action; title as on-screen text only); S25-S28 are the title-first control. (2) quiet-caption A/B: `--caption-style clank` and/or `--color-rule word` on two Shorts per channel; log the arm in UPLOAD.md. Details: `Research Notes/Full Review for Retention (Nov 2026).md` changes 5 and 8.
 
 

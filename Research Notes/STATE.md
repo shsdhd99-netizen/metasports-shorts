@@ -1,9 +1,9 @@
 # STATE (one page for any account/session; update at the end of every run)
 <!-- AUTO:START -->
-## AUTO (written by `python Tools/state.py`, 2026-11-05 10:37 local; do not edit by hand)
+## AUTO (written by `python Tools/state.py`, 2026-11-05 11:17 local; do not edit by hand)
 - Builder: cloud
 - Preflight: PREFLIGHT OK (2 warnings)**
-- Disk free: 17.5 GB
+- Disk free: 17.4 GB
 - NBA: 23,851 Shorts views/day (7-day), 488,299 in the last 90 days (4.9% of the 10M line), data to 2026-11-02
 - FC: 9,565 Shorts views/day (7-day), 120,771 in the last 90 days (1.2% of the 10M line), data to 2026-11-02
 - Next open slot: NBA GAP nba 2026-11-07 15:30 ET (Sat Nov 7, 03:30 PM ET); FC NO GAP fc in the next 54 h

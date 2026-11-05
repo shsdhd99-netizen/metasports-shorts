@@ -63,7 +63,7 @@ def score(ans):
     return v, pct, total, hard, [(k, f) for _, k in fixes for kk, _, _, f in Q if kk == k][:3]
 
 
-PAUSED_SHAPES = {"rule", "history", "news explainer", "news", "manager", "off-niche"}  # Nov 5, 2026: Learned Weights + case study
+PAUSED_SHAPES = {"rule", "history", "news explainer", "news", "off-niche"}  # NBA test lanes (FC has none)  # Nov 5, 2026: Learned Weights + case study
 
 
 def main():

@@ -60,7 +60,7 @@ def pick_arm(drafts, text, default):
     return pool[0], arm, None
 
 
-GAP_H = 6  # rule: at most 2 posts a day per channel, 6+ hours apart
+GAP_H = 6  # rule (Nov 5): at most 3 posts a day per channel, 6+ hours apart (the spacing itself caps a day at 3 inside 7 AM-9 PM)
 
 
 def booked_slots():

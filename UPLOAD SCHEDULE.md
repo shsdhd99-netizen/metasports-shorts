@@ -1,5 +1,8 @@
 # Upload schedule (from Oct 24, 2026; times changed Oct 28 by the owner: first posts at 7-9 AM): follow it every day
 
+> **Nov 5, 2026 (owner): up to 3 Shorts per channel per day, never more, and always spread out (at least 6 hours apart, for example 7:30 AM, 1:30 PM and 7:30 PM ET).** The number per day is a TEST (`Research Notes/Posting Plan (Nov 5, 2026).md`): days alternate 1, 2 and 3 posts, each post must pass the build gate, and the plan is chosen from per-post 72 h views, total daily views and cannibalization. Older lines below that say "never 3" or "up to 2" are superseded.
+
+
 **Every day, both channels:**
 | Time (ET) | Channel | What to post |
 |---|---|---|

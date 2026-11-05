@@ -1,0 +1,39 @@
+{
+ "cand": [
+  {
+   "ch": "fc",
+   "idea": "Van der Sar 2008 Anelka save (the Van der Save)",
+   "score": 82.0,
+   "shape": "goalkeeper trick",
+   "source": "manutd.com",
+   "date": "2026-11-05"
+  },
+  {
+   "ch": "nba",
+   "idea": "Curry passes Oscar Robertson on the scoring list (live chase)",
+   "score": 84.0,
+   "shape": "superlative",
+   "source": "",
+   "date": "2026-11-05"
+  }
+ ],
+ "notes": [
+  {
+   "ch": "nba",
+   "idea": "Klay OT game-winner Heat 117-116 Clippers",
+   "score": 72.0,
+   "shape": "moment",
+   "source": "",
+   "date": "2026-11-05"
+  },
+  {
+   "ch": "fc",
+   "idea": "Hull fan walked home from Chile (S32)",
+   "score": 76.0,
+   "shape": "fan/kid",
+   "source": "",
+   "date": "2026-11-05"
+  }
+ ],
+ "trashed": 1
+}

@@ -1,4 +1,7 @@
 ---
+
+> **OVERRIDE (owner, Nov 5, 2026): FC is NOT limited to goalkeeper stories.** Goalkeeper-odd-device stories are the PROVEN lane (6 of 6 above 10K): keep making them. Every other lane is a TEST lane: try it, change ONE variable each attempt, write down what happened (`Tools/test_log.py`), and keep a lane if it works. Nothing is banned for ever; a lane is retired only after 5 attempts with 3 different changes that all stayed under the channel median. Policy: `Research Notes/Test and Learn Policy (Nov 5, 2026).md`. Any older line below that says "goalkeeper first", "goalkeeper only" or "others only as flagged experiments" is superseded.
+
 name: story-short
 description: >
   Make a story Short under 60 s (it must end before 59.5 s) in the format of Ahmed's Goal / Ahmed's Basketball / Ahmeds Business (the network with 1.3B views):
