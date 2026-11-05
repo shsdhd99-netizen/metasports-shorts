@@ -117,4 +117,4 @@ Other series worth a test: "Managers who..." (Ferguson's boot and Beckham, 2003;
 - E1 (pinned comment): S21 gets a pinned "Part 2: the keeper who scored 131 goals 👇" comment pointing to S22; compare subs per 1K views with the last 4 goalkeeper Shorts (1.49 per 1K).
 - E2 (length): S36 is built at its natural ~38 s instead of padding to the 50-59 s story profile; compare engaged ratio with S21/S22 (FC has no Short under 45 s yet).
 
-| S36 | Como 9-1 away at Lens (UCL, Nov 4) | records | needs 2nd source + footage |
+| S37 | Como 9-1 away at Lens (UCL, Nov 4) | records | needs 2nd source + footage |
