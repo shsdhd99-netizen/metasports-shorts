@@ -1,5 +1,6 @@
 # #95 His teammates talked a rookie into chasing forty (Lendeborg, Clippers Nov 1) - lane: watchable odd moment + one fact the clip can't show (the bench urging, the 0-for-3, his quote)
 **Status:** 22.6 s, voice Alex, no music, DRAFT built Nov 4 on the PC (terminal). Not uploaded, not scheduled. **Late-news risk:** the game was Sun Nov 1; it reads as a moment, not news, but post it soon (late news median 0.39x on this channel).
+**Slot:** Fri Nov 6, 3:30 PM ET. **QA PASS** (qa_short --full re-run Nov 5, PC account 1; warnings advisory only).
 **Gauge:** GO 92% (answers a2 b1 c2 d2 e1 f2 g2 h2 i3 j1); copy-check FRESH (only Yapping Hoops 671 views and PlayTime Hoops 132 views).
 **Title:** His Teammates Talked A Rookie Into Chasing 40
 **Alternatives:** The Rookie Who Missed Three Threes Chasing 40 / Lendeborg Fell For Peer Pressure

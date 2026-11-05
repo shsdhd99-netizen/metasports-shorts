@@ -1,0 +1,417 @@
+[
+ {
+  "word": "His",
+  "start": 0.0,
+  "end": 0.151
+ },
+ {
+  "word": "teammates",
+  "start": 0.197,
+  "end": 0.546
+ },
+ {
+  "word": "talked",
+  "start": 0.58,
+  "end": 0.813
+ },
+ {
+  "word": "a",
+  "start": 0.848,
+  "end": 0.871
+ },
+ {
+  "word": "rookie",
+  "start": 0.94,
+  "end": 1.231
+ },
+ {
+  "word": "into",
+  "start": 1.254,
+  "end": 1.37
+ },
+ {
+  "word": "chasing",
+  "start": 1.416,
+  "end": 1.718
+ },
+ {
+  "word": "forty,",
+  "start": 1.776,
+  "end": 2.159
+ },
+ {
+  "word": "and",
+  "start": 2.183,
+  "end": 2.299
+ },
+ {
+  "word": "it",
+  "start": 2.357,
+  "end": 2.415
+ },
+ {
+  "word": "backfired.",
+  "start": 2.485,
+  "end": 3.216
+ },
+ {
+  "word": "Yaxel",
+  "start": 3.239,
+  "end": 3.622
+ },
+ {
+  "word": "Lendeborg",
+  "start": 3.68,
+  "end": 4.087
+ },
+ {
+  "word": "had",
+  "start": 4.122,
+  "end": 4.214
+ },
+ {
+  "word": "thirty-seven",
+  "start": 4.272,
+  "end": 4.737
+ },
+ {
+  "word": "points",
+  "start": 4.795,
+  "end": 5.004
+ },
+ {
+  "word": "against",
+  "start": 5.027,
+  "end": 5.201
+ },
+ {
+  "word": "the",
+  "start": 5.224,
+  "end": 5.294
+ },
+ {
+  "word": "Clippers,",
+  "start": 5.317,
+  "end": 5.759
+ },
+ {
+  "word": "with",
+  "start": 5.793,
+  "end": 5.933
+ },
+ {
+  "word": "Steph",
+  "start": 5.968,
+  "end": 6.223
+ },
+ {
+  "word": "Curry",
+  "start": 6.258,
+  "end": 6.525
+ },
+ {
+  "word": "sitting",
+  "start": 6.583,
+  "end": 6.815
+ },
+ {
+  "word": "out.",
+  "start": 6.885,
+  "end": 7.14
+ },
+ {
+  "word": "The",
+  "start": 7.163,
+  "end": 7.245
+ },
+ {
+  "word": "Warriors",
+  "start": 7.291,
+  "end": 7.57
+ },
+ {
+  "word": "bench",
+  "start": 7.616,
+  "end": 7.79
+ },
+ {
+  "word": "started",
+  "start": 7.814,
+  "end": 8.046
+ },
+ {
+  "word": "yelling",
+  "start": 8.127,
+  "end": 8.394
+ },
+ {
+  "word": "at",
+  "start": 8.429,
+  "end": 8.475
+ },
+ {
+  "word": "him",
+  "start": 8.51,
+  "end": 8.58
+ },
+ {
+  "word": "to",
+  "start": 8.626,
+  "end": 8.673
+ },
+ {
+  "word": "get",
+  "start": 8.707,
+  "end": 8.812
+ },
+ {
+  "word": "forty.",
+  "start": 8.882,
+  "end": 9.288
+ },
+ {
+  "word": "So",
+  "start": 9.323,
+  "end": 9.427
+ },
+ {
+  "word": "he",
+  "start": 9.497,
+  "end": 9.543
+ },
+ {
+  "word": "took",
+  "start": 9.601,
+  "end": 9.741
+ },
+ {
+  "word": "a",
+  "start": 9.776,
+  "end": 9.799
+ },
+ {
+  "word": "three.",
+  "start": 9.857,
+  "end": 10.24
+ },
+ {
+  "word": "Missed.",
+  "start": 10.31,
+  "end": 10.867
+ },
+ {
+  "word": "Another",
+  "start": 10.89,
+  "end": 11.239
+ },
+ {
+  "word": "three.",
+  "start": 11.297,
+  "end": 11.633
+ },
+ {
+  "word": "Missed.",
+  "start": 11.668,
+  "end": 12.179
+ },
+ {
+  "word": "A",
+  "start": 12.202,
+  "end": 12.26
+ },
+ {
+  "word": "third.",
+  "start": 12.365,
+  "end": 12.806
+ },
+ {
+  "word": "Missed.",
+  "start": 12.864,
+  "end": 13.34
+ },
+ {
+  "word": "Steve",
+  "start": 13.375,
+  "end": 13.619
+ },
+ {
+  "word": "Kerr",
+  "start": 13.642,
+  "end": 13.781
+ },
+ {
+  "word": "pulled",
+  "start": 13.816,
+  "end": 14.025
+ },
+ {
+  "word": "him",
+  "start": 14.048,
+  "end": 14.118
+ },
+ {
+  "word": "after",
+  "start": 14.164,
+  "end": 14.338
+ },
+ {
+  "word": "that",
+  "start": 14.385,
+  "end": 14.513
+ },
+ {
+  "word": "one.",
+  "start": 14.582,
+  "end": 14.78
+ },
+ {
+  "word": "Afterward,",
+  "start": 14.803,
+  "end": 15.244
+ },
+ {
+  "word": "Lendeborg",
+  "start": 15.291,
+  "end": 15.662
+ },
+ {
+  "word": "said",
+  "start": 15.708,
+  "end": 15.883
+ },
+ {
+  "word": "he",
+  "start": 15.929,
+  "end": 15.976
+ },
+ {
+  "word": "has",
+  "start": 16.01,
+  "end": 16.103
+ },
+ {
+  "word": "never",
+  "start": 16.196,
+  "end": 16.393
+ },
+ {
+  "word": "been",
+  "start": 16.44,
+  "end": 16.556
+ },
+ {
+  "word": "a",
+  "start": 16.579,
+  "end": 16.602
+ },
+ {
+  "word": "stat",
+  "start": 16.649,
+  "end": 16.916
+ },
+ {
+  "word": "chaser,",
+  "start": 16.974,
+  "end": 17.45
+ },
+ {
+  "word": "and",
+  "start": 17.473,
+  "end": 17.554
+ },
+ {
+  "word": "called",
+  "start": 17.601,
+  "end": 17.798
+ },
+ {
+  "word": "it",
+  "start": 17.821,
+  "end": 17.868
+ },
+ {
+  "word": "peer",
+  "start": 17.914,
+  "end": 18.089
+ },
+ {
+  "word": "pressure.",
+  "start": 18.147,
+  "end": 18.576
+ },
+ {
+  "word": "He",
+  "start": 18.599,
+  "end": 18.681
+ },
+ {
+  "word": "finished",
+  "start": 18.739,
+  "end": 18.971
+ },
+ {
+  "word": "on",
+  "start": 18.994,
+  "end": 19.052
+ },
+ {
+  "word": "thirty-seven.",
+  "start": 19.099,
+  "end": 19.737
+ },
+ {
+  "word": "The",
+  "start": 19.76,
+  "end": 19.83
+ },
+ {
+  "word": "three",
+  "start": 19.876,
+  "end": 20.027
+ },
+ {
+  "word": "shots",
+  "start": 20.051,
+  "end": 20.26
+ },
+ {
+  "word": "he",
+  "start": 20.283,
+  "end": 20.329
+ },
+ {
+  "word": "took",
+  "start": 20.387,
+  "end": 20.527
+ },
+ {
+  "word": "to",
+  "start": 20.561,
+  "end": 20.608
+ },
+ {
+  "word": "get",
+  "start": 20.643,
+  "end": 20.736
+ },
+ {
+  "word": "to",
+  "start": 20.759,
+  "end": 20.805
+ },
+ {
+  "word": "forty",
+  "start": 20.875,
+  "end": 21.2
+ },
+ {
+  "word": "added",
+  "start": 21.258,
+  "end": 21.525
+ },
+ {
+  "word": "nothing.",
+  "start": 21.583,
+  "end": 22.059
+ }
+]
