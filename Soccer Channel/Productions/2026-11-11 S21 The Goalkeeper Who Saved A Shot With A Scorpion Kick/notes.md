@@ -12,3 +12,9 @@ Topic shape: goalkeeper trick (Topic and Script Reset, Nov 2026). New fact (line
 | Linesman's flag up for offside, play continued | Daily Mail 2015; BBC 2025 ("the linesman put his flag up - but play continued") |
 
 Footage: the save is widely on YouTube (Sky broadcast). Find a clean upload before building. Run `copy_check.py` (famous topic).
+
+## Style v3 rewrite (cloud, Nov 5): `script.txt` (old one in `script_v2_old.txt`)
+- Line 1 is a name + verb + object (no "The goalkeeper who..."); the misread at about 8 s ("wasn't showing off; waiting five years"); the hidden fact = the offside flag; the last line ties back to line 1.
+- No new facts: every line maps to the table above. "Waiting for that ball for five years" = the Goal.com 2012 quote ("the ball that I had been waiting for five years"). "Referee missed it" = BBC/Daily Mail "flag up, play continued".
+- About 180 words, so 171 words; at our voice speed that may run under the 50 s floor. If it does, add back ONE sourced line from the old script ("The game was a friendly, and Robson's side were already laughing about it" is NOT sourced, so instead use: "England against Colombia, a friendly, at Wembley.").
+- Title (line 1): "René Higuita saved a shot at Wembley with his heels"
