@@ -142,6 +142,7 @@ def main():
     ap.add_argument("--file", required=True)
     ap.add_argument("--title", default="", help="title (or use --card)")
     ap.add_argument("--card", help="UPLOAD.md to read the title and tags from (--title / --tags override it)")
+    ap.add_argument("--allow-duplicate", dest="allow_duplicate", action="store_true", help="owner asked for a replacement upload of the same Short")
     ap.add_argument("--dry-run", dest="dry_run", action="store_true", help="print the parsed title and tag count; never uploads")
     ap.add_argument("--tags", default="", help="comma-separated (the card's line from tags_fit.py)")
     ap.add_argument("--at", required=True, help='publish time, US Eastern: "YYYY-MM-DD HH:MM"')
@@ -174,6 +175,14 @@ def main():
     if len(a.title) > 100:
         sys.exit("Refused: YouTube titles are 100 characters at most.")
     digest = sha(a.file)
+    # Nov 5: a second upload of the same Short folder (even another version of the file) needs the owner's explicit --allow-duplicate
+    try:
+        folder_key = os.path.dirname(os.path.relpath(a.file, ROOT)).lower()
+        for r_ in csv.DictReader(open(LOG, encoding="utf-8")):
+            if os.path.dirname(r_["file"]).lower() == folder_key and not getattr(a, "allow_duplicate", False):
+                sys.exit(f"Refused: this Short folder already has an upload ({r_['video_id']}, {r_['publish_et']}). Pass --allow-duplicate only when the owner asked for a replacement.")
+    except FileNotFoundError:
+        pass
     prev = already(digest)
     if prev:
         sys.exit(f"Refused: this exact file was already scheduled ({prev['video_id']}, {prev['publish_et']}). Never re-upload.")
