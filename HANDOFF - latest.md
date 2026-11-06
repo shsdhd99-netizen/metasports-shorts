@@ -1,9 +1,19 @@
-# Handoff (auto), Fri Nov 06 2026, 15:36 UTC, written by account: app (cloud)
+# Handoff (auto), Fri Nov 06 2026, 16:19 UTC, written by account: app account 1 (CLOUD)
 
 Read this first, then `Research Notes/Daily Log.md` (newest entries) before building anything, so two sessions never build the same Short.
 
 ## Note from the last session
-Read TERMINAL TO-DO (Nov 6).md first: Klay for Sat 7:15, #92 QA, S30 Kane Mon, S21 Tue. New study: stayed% is the lever, pace >230 wpm, hold the payoff at the end. Skill edits proposed, not applied.
+Team protocol live: labels A1/A2/A3/CLOUD, Tools/team.py (inbox/claim/done/status/say/board), TEAM HANDOFF.md, A3 queue. #98 Klay unblocked (sources in notes.md): A1 build for Sat 7:15 AM.
+
+## Team board (who is doing what; full board: `TEAM BOARD.md`, protocol: `TEAM HANDOFF.md`)
+| Account | Role | Now | Next | Done today | Unread | Updated |
+|---|---|---|---|---|---|---|
+| **A1** | Builder | - | - | 0 | 2 | never |
+| **A2** | Builder (backup) | - | - | 0 | 2 | never |
+| **A3** | Prep + Review | - | - | 0 | 1 | never |
+| **CLOUD** | Research + scheduled runs | two-week plan + team setup done | daily research 3:43 AM, stats 6:08 PM | 0 | 0 | Fri Nov 6, 11:17 AM ET |
+
+- nothing claimed
 
 ## Keys on this machine (presence only)
 - ELEVENLABS_API_KEY: set
@@ -24,21 +34,21 @@ Read TERMINAL TO-DO (Nov 6).md first: Klay for Sat 7:15, #92 QA, S30 Kane Mon, S
 - STATUS: blocked, no build. `cloud_setup.sh`: voice key set, Gemini set; `preflight.py --quiet`: BLOCKED (YT_CLIENT_ID, YT_CLIENT_SECRET, YT_UPLOAD_TOKEN, YT_UPLOAD_TOKEN_FC missing in this session's environment). Per CLOUD DAILY RULES step 4: no credits spent. Next NBA gap (`next_gap.py`): Fri Nov 6 3:30 PM ET; #96 Porzingis and #97 Warriors streak scripts already exist for it, and the PC gap-fill (6:45 AM ET) covers it. Wed Nov 4's run in this session stopped at the weekly usage limit during research (nothing committed).
 
 ## Last 15 commits (any account)
+- Nov 06 16:19 [CLOUD] Note: the app (CLOUD) runs on Account 1's usage
+- Nov 06 16:19 [CLOUD] #98 Klay: sources found (AP x2, NBA.com), blocker cleared
+- Nov 06 16:19 [CLOUD Research + scheduled runs] team: message to BUILDER
+- Nov 06 16:18 [CLOUD] .gitignore: allow Team/, TEAM BOARD/HANDOFF, prep handoff, owner and terminal to-dos
+- Nov 06 16:17 [CLOUD Research + scheduled runs] team: message to BUILDER
+- Nov 06 16:17 [CLOUD Research + scheduled runs] team: message to A3
+- Nov 06 16:17 [CLOUD Research + scheduled runs] team: status: two-week plan + team setup done
+- Nov 06 16:17 [CLOUD] Team protocol: labelled accounts (A1/A2/A3/CLOUD), team.py messages/claims/status/board, A3 plan, owner check-off list
+- Nov 06 16:13 Watch reports: Ahmed's Goal Ballon d'Or tie, Ahmed's Basketball gave up millions
+- Nov 06 16:13 Account 3 = prep + review in its own repo copy; handoff no longer overwrites across accounts and pulls before push
+- Nov 06 15:36 Handoff (auto) from app (cloud)
 - Nov 06 15:36 Script and retention study, autopilot skill edit proposal, terminal to-do
 - Nov 06 15:24 Handoff (auto) from app (cloud)
 - Nov 06 15:23 Two-week plan (Nov 7-20): weigh every built Short, slot the paid-for drafts, research of what hits now
 - Nov 06 15:16 New schedule from hit data: Klay to Sat 7:15 AM, keeper lane kept, scores for every queued Short
-- Nov 06 09:00 Automation check (script)
-- Nov 06 06:47 Daily Log: Nov 6 PC NBA gap-fill skipped (Klay block unsourced)
-- Nov 06 10:40 Daily Log: Nov 6 FC build skipped (queue full)
-- Nov 06 09:42 Daily Log: Nov 6 NBA build skipped (PC owns the slot)
-- Nov 06 09:25 Handoff (auto) from app account 1 (cloud FC routine)
-- Nov 06 09:25 FC cloud run Nov 6: blocked (YT secrets missing), no FC gap; S25 23K at 72 h; lessons, weights, log, STATE
-- Nov 06 08:45 Daily research Nov 6: competitor outliers
-- Nov 06 08:44 Daily research Nov 6: Klay blocks Steph, Warriors 6 straight, Como 9-1
-- Nov 06 08:19 NBA cloud routine Nov 6: STATUS blocked (YouTube tokens missing in this environment), no build
-- Nov 05 18:30 Schedule ready drafts (script)
-- Nov 05 23:10 Daily stats Nov 5
 
 ## Uncommitted here
      M "HANDOFF - latest.md"
