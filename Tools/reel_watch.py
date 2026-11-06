@@ -56,8 +56,15 @@ def playlist(url, limit):
     return urls
 
 
+def body_of(text):
+    m = re.search(r"##\s*Transcript|Verbatim Transcript", text)
+    b = text[m.end():] if m else text
+    return re.sub(r"_Source:[^
+]*|```|\[\d\d:\d\d\]", " ", b)
+
+
 def categorise(text):
-    low = text.lower()
+    low = body_of(text).lower()
     score = {c: len(re.findall(p, low)) for c, p in CATS.items()}
     best = max(score.values())
     if best < 2:
@@ -67,7 +74,7 @@ def categorise(text):
 
 
 def summary(text):
-    t = re.sub(r"\s+", " ", re.sub(r"^#.*$|^- .*$", "", text, flags=re.M)).strip()
+    t = re.sub(r"\s+", " ", body_of(text)).strip()
     m = re.search(r"Verbatim Transcript\s*(.{40,300})", t)
     return (m.group(1) if m else t[:260]).strip()
 
