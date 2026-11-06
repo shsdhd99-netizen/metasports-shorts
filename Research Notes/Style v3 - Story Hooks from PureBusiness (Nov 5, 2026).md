@@ -31,3 +31,6 @@ Length 50-62 s, about 160-190 wpm (slower than ours). They still hold attention 
 - Last line: short, present tense, echoes line 1 ("He still has the napkin." / "The number is still banned.").
 - Edit: 4-5 cuts in the first 5 s, then about 2 s; name on screen at 0-3 s; a rival's logo or face at the "no" beat.
 - A/B: the next 4 story Shorts in v3 vs our last 4; judge by Viewed % and average % viewed in Studio.
+
+## Nov 6 correction from our own FC data
+Our 4 best FC Shorts (15-29K) all open "The goalkeeper who..." / "Goalkeepers who...". So for FC keep that title frame and use the v3 moves only inside the script (the misread, the hidden fact, a reason for each "no", the short echo at the end). S21 is the one test of the name-first opener.

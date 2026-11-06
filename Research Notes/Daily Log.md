@@ -308,3 +308,6 @@ STATUS: skipped, no build. next_gap fc: NO GAP in 54 h (S29 Sat, S09 Sun schedul
 
 ## Fri Nov 6: NBA gap-fill (PC account 1)
 STATUS: skipped, no build. Gap Sat Nov 7 3:30 PM ET still open. Klay-blocks-Steph: ESPN clip downloaded (Productions/MetaSports/2026-11-07 98 ...), but Daily Research has no source URLs and no second source found, so no verifiable fact beyond the ESPN title; rules forbid unsourced stats. Next builder: find the AP/ESPN recap URL (Klay return, Nov 5-6 game) or build #97 (update to six straight, 120-100 vs Heat). Also cleared a stale UU index flag on Preflight.md (no conflict markers).
+
+## Fri Nov 6, ~11:00 UTC: re-plan (owner asked for a new schedule)
+STATUS: re-planned, nothing uploaded or changed on YouTube. Freed Sat 7:15 AM (moved #67 Jordan to filler) so the PC gap-fill builds the Klay block for it (fresh, 36 h window). New schedule + scores: `Research Notes/New Schedule (Nov 6, 2026).md`. FC: keep keeper stories (they are the top 4); S21 moved up to Mon Nov 9.
