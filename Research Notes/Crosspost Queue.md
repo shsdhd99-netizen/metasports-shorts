@@ -121,12 +121,33 @@ Post the SAME file as YouTube. TikTok: add a trending sound only at very low vol
 
     #football
 
+- [ ] **Fri Nov 06, 04:35 PM ET** · MetaSports FC · `tXAQ1r12Fnw` · The goalkeeper who refused to be substituted before a shootout
+  - File: `Soccer Channel\Productions\2026-11-06 S28 The Goalkeeper Who Refused To Be Substituted Before A Shootout\DRAFT - awaiting approval - S28 The goalkeeper who refused to be substituted before a shootout (music).mp4`
+  - TikTok caption: The goalkeeper who refused to be substituted before a shootout. #football
+  - Instagram caption: The goalkeeper who refused to be substituted before a shootout.
+
+    #football
+
 - [ ] **Fri Nov 06, 06:30 PM ET** · MetaSports (NBA) · `MM1y6yBSgLE` · His Teammates Talked A Rookie Into Chasing 40
   - File: `Productions\MetaSports\2026-11-05 95 A Rookie Chased 40 Because His Teammates Said So\DRAFT - awaiting approval - A Rookie Chased 40 Because His Teammates Said So (no music).mp4`
   - TikTok caption: His Teammates Talked A Rookie Into Chasing 40. Teammates yelling at him to get 40 with the game over: help or harm? #yaxellendeborg #lendeborg #yaxellendeborgwarriors #nba
   - Instagram caption: His Teammates Talked A Rookie Into Chasing 40. Teammates yelling at him to get 40 with the game over: help or harm?
 
     #yaxellendeborg #lendeborg #yaxellendeborgwarriors #nba
+
+- [ ] **Fri Nov 06, 10:30 PM ET** · MetaSports FC · `m_HnsJrkvIQ` · The Ballon d'Or winner who missed a penalty days later
+  - File: `Soccer Channel\Productions\2026-11-10 S30 The Ballon d'Or Winner Who Missed A Penalty Days Later\DRAFT - awaiting approval - S30 The Ballon d'Or winner who missed a penalty days later (no music).mp4`
+  - TikTok caption: The Ballon d'Or winner who missed a penalty days later. Would you rather win the Ballon d'Or and miss the penalty, or win nothing and score? #harrykane #kaneballondor #ballondor2026 #football
+  - Instagram caption: The Ballon d'Or winner who missed a penalty days later. Would you rather win the Ballon d'Or and miss the penalty, or win nothing and score?
+
+    #harrykane #kaneballondor #ballondor2026 #football
+
+- [ ] **Fri Nov 06, 10:30 PM ET** · MetaSports (NBA) · `5dp81kNOClU` · This Rookie Told Luka He Sucks
+  - File: `Productions\MetaSports\2026-11-02 92 Lendeborg Got Revenge On Luka\DRAFT - awaiting approval - This Rookie Told Luka He Sucks (real audio, no music).mp4`
+  - TikTok caption: This Rookie Told Luka He Sucks. Did Lendeborg get his revenge, or does Luka still win this? #yaxellendeborg #lendeborg #lukadoncic #nba
+  - Instagram caption: This Rookie Told Luka He Sucks. Did Lendeborg get his revenge, or does Luka still win this?
+
+    #yaxellendeborg #lendeborg #lukadoncic #nba
 
 - [ ] **Sat Nov 07, 03:00 PM ET** · MetaSports FC · `HNWSiLaQ3Nw` · The goalkeeper who says Spain were scared of a shootout
   - File: `Soccer Channel\Productions\2026-11-07 S29 The Goalkeeper Who Says Spain Were Scared Of A Shootout\DRAFT - awaiting approval - S29 The goalkeeper who says Spain were scared of a shootout (no music).mp4`
@@ -141,3 +162,17 @@ Post the SAME file as YouTube. TikTok: add a trending sound only at very low vol
   - Instagram caption: The player who moved two Coca-Cola bottles at the Euros.
 
     #football
+
+- [ ] **Wed Nov 11, 10:15 AM ET** · MetaSports (NBA) · `4HTpeGn6GAs` · The NBA Legend Who Made Up An Insult  nba
+  - File: `Productions\MetaSports\2026-10-24 67 Jordan Made Up An Insult To Destroy Someone\DRAFT - awaiting approval - The NBA Legend Who Made Up An Insult (no music).mp4`
+  - TikTok caption: The NBA Legend Who Made Up An Insult  nba. Jordan made up the insult to get himself going. Genius competitor, or just petty? #michaeljordan #labradfordsmith #nicegamemike #nba
+  - Instagram caption: The NBA Legend Who Made Up An Insult  nba. Jordan made up the insult to get himself going. Genius competitor, or just petty?
+
+    #michaeljordan #labradfordsmith #nicegamemike #nba
+
+- [ ] **Sat Nov 14, 10:15 AM ET** · MetaSports (NBA) · `2IXZEfVeUTE` · The WNBA Minimum Is Now Bigger Than The Max
+  - File: `Productions\MetaSports\2026-10-20 59 Why The WNBA Minimum Is Now Bigger Than The Max\DRAFT - awaiting approval - 59 WNBA minimum beats last year's max v2 (no music).mp4`
+  - TikTok caption: The WNBA Minimum Is Now Bigger Than The Max. 2025 max salary: $249,244. 2026 minimum: $270,000. Overdue, or too fast? #wnbasalary #wnbaminimumsalary #wnbamaxsalary #nba
+  - Instagram caption: The WNBA Minimum Is Now Bigger Than The Max. 2025 max salary: $249,244. 2026 minimum: $270,000. Overdue, or too fast?
+
+    #wnbasalary #wnbaminimumsalary #wnbamaxsalary #nba

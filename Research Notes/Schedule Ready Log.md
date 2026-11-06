@@ -7,3 +7,6 @@
 - 2026-11-05 18:30 ET: scheduled 0; skipped/refused 1.
   - 2026-11-06 06:30 skip 2026-10-24 67 Jordan Made Up An Insult To Destroy Someone: 2 DRAFT files and no **Arm:** line (owner's call)
 - 2026-11-06 06:30 ET: scheduled 0; skipped/refused 1.
+  - 2026-11-06 18:30 skip 2026-10-21 65 LeBron Answers A Knicks Heckler: card says HOLD
+  - 2026-11-06 18:30 skip 2026-10-30 79 Two Buzzer-Beaters From 40 And 50 Feet: title or tags missing
+- 2026-11-06 18:30 ET: scheduled 2: 2026-10-20 59 Why The WNBA Minimum Is Now Bigger Than The Max; 2026-10-24 67 Jordan Made Up An Insult To Destroy Someone; skipped/refused 2.
