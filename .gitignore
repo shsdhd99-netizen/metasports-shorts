@@ -26,6 +26,14 @@
 !/Tools/
 !/Productions/
 !/.claude/
+!/Team/
+!/TEAM BOARD.md
+!/TEAM HANDOFF.md
+!/HANDOFF - latest.md
+!/HANDOFF - prep (account 3).md
+!/OWNER TO-DO*.md
+!/TERMINAL TO-DO*.md
+!/CLAUDE.md
 
 # never commit keys or caches
 Tools/.env
