@@ -5,6 +5,12 @@ research with sources, what was made, what changed in the rules or tools.
 
 STATUS: PC account 1 NBA gap-fill, Nov 5: filled Fri Nov 6 3:30 PM ET by scheduling the already-built #95 (Lendeborg peer pressure; QA PASS re-run, private + publishAt via schedule_ready). No new build, no credits spent.
 
+## Fri Nov 6, 2026 (FC cloud run, 09:25 UTC; CLOUD DAILY RULES)
+
+STATUS: blocked, no build. BUILDER.txt = `cloud`; voice and Gemini keys set; `preflight.py --quiet`: BLOCKED (YT_CLIENT_ID, YT_CLIENT_SECRET, YT_UPLOAD_TOKEN, YT_UPLOAD_TOKEN_FC missing in this environment). `next_gap.py fc`: NO GAP in 54 h. No credits spent.
+- Data: public counts: S25 23K (~72 h), S17 23K, S26 16K (~2 d), S19 3.8K, S18 2.9K, S20 1.2K, S27 1.0K (~21 h). `learn.py all` refreshed: FC "goalkeeper trick" n=5, 8.0x the median.
+- Learned: Lessons Learned Nov 6 (5 of 5 goalkeeper/shootout Shorts at 15K+ at 72 h; S27, a goalkeeper story without a shootout, is the next check).
+
 ## Fri Nov 6, 2026 (NBA cloud routine, account 2 session)
 
 STATUS: blocked, no build. Voice and Gemini keys set; `preflight.py --quiet`: BLOCKED (YT_CLIENT_ID, YT_CLIENT_SECRET, YT_UPLOAD_TOKEN, YT_UPLOAD_TOKEN_FC missing in this session's environment), so no credits spent (CLOUD DAILY RULES step 4). Next NBA gap: Sat Nov 7 3:30 PM ET, in range of the PC gap-fill (6:45 AM ET). Same block as Nov 5: this routine's session needs the four YouTube secrets to ever build.
