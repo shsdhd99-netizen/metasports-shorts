@@ -1,5 +1,11 @@
 # Upload package: S18 (DRAFT, awaiting approval)
 
+<!-- package fix Nov 6 2026 (see Research Notes/Held Shorts Fix Report) -->
+**Title:** The Manager Barcelona Soaked With Sprinklers Got His Revenge
+**Tags (490 max):** mourinho, jose mourinho, mourinho real madrid, mourinho barcelona, mourinho camp nou, mourinho sprinklers, mourinho knee slide, mourinho revenge, el clasico, el clasico 2026, real madrid, real madrid vs barcelona, barcelona vs real madrid, barcelona 1-2 real madrid, mbappe, kylian mbappe, mbappe 100th goal, mbappe winner, camp nou, sprinklers, inter 2010, inter barcelona 2010, inter milan, champions league 2010, raphinha, courtois, lunin, la liga, la liga 2026
+**Slot:** originally Sat Oct 31, 8-9 AM ET (passed); needs a new slot. HOLD: no source links; voice/words/captions are the pre-fix versions.
+
+
 **Post:** Sat Oct 31, 8-9 AM ET (1 h after the NBA post).
 **Fact fix, Oct 29:** both files re-cut without two wrong/stale lines ("just like that night in 2010", "Then came Sunday."). Now 51.9 s.
 **Which file:** the **no-music** version (music test: S15 music, S16 none, S17 music, S18 none). The music version is the spare.

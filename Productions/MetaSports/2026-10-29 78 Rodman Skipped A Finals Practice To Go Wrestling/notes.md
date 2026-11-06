@@ -37,3 +37,9 @@
 
 ## QA
 - Both versions (music, no music): `qa_short.py --profile story --full` PASS, 55.0 s. Gemini pre-check (music version): READY (report: `Research Notes/Watch Reports/drafts/78_rodman_precheck.json`, tier [S]). Warns left: talking head 58% (the story is about two people), hook has no number in the first 8 words (Ahmed's titles rarely do), one caption under 0.25 s at 33.47 s (the splice into Costas' line).
+
+
+## Source links (added Nov 6 2026, found by web search)
+- Rodman skipped practice after Game 3, flew to Nitro: https://www.si.com/wrestling/2020/04/27/dennis-rodman-wcw-nitro-1998-nba-finals-practice
+- Fined $10,000 by the NBA, agent says Bulls gave permission for Nitro: https://www.espn.com/wwe/story/_/id/45457722/say-hello-bad-guys-nwo-book-marc-raimondi-dennis-rodman-karl-malone-wcw
+- WWE Hall of Fame 2026 induction: https://www.espn.com/nba/story/_/id/48257957/sources-dennis-rodman-inducted-wwe-hall-fame

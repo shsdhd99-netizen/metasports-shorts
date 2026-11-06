@@ -36,3 +36,9 @@ Why: Gemini as a strict editor scored the first cut 5.5/10 [S]; on the frames: a
 - B12 (new): **Bronny's extra shots after practice, Oct 10 2026, Dave McMenamin (ESPN) on X** (https://x.com/mcten/status/2109018959404212619), 23.6 s into the clip, 3:4 window, zoom 1.25: real moving footage of him shooting this season under "So this season, Bronny is shooting 100%." It is practice, not a game: the line is about his season numbers and the picture doesn't claim to be the game. Still no video of the opening-night floater exists online (ESPN's game page has 13 clips, none of Bronny).
 - B08 moved to 20.2 s of the media-day clip (he talks through the whole clip; no mic-down moment long enough).
 - Result: 23.3 s, full QA PASS, comfort audit clean (true peak -3.8 dBTP), Gemini precheck READY. Gemini editor re-score 5.5 (it moved on to the press-conference clip and the practice footage's phone quality).
+
+
+## Source links (added Nov 6 2026, found by web search)
+- Lakers waive Dalton Knecht, keep Bronny (AP on NBA.com, Oct 20 2026): https://www.nba.com/news/lakers-waive-former-1st-round-pick-dalton-knecht-ahead-of-opening-night
+- Same, The Athletic (Oct 19 2026): https://www.nytimes.com/athletic/7705098/2026/10/19/dalton-knecht-waived-bronny-james-lakers-nba-2026
+- Stat lines still rest on Basketball-Reference (no direct URL re-verified today). Claims about games after Oct 28 are NOT re-checked.

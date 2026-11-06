@@ -40,3 +40,11 @@
 - The Oct 29 fact-fix re-cut was spliced straight into the DRAFT files and skipped the limiter: true peak +1.6 dBTP (no music) / +0.9 (music), a +1 dBFS sample peak at 17.7 s. Limited to -1.9 / -2.1 dBTP (audio only, picture untouched; pre-fix copies in `_check/prelimit/`, not in git).
 - Gemini strict editor [S] 4.5/10. Checked against the frames and not acted on: "video-game footage" at 28 s and 40 s is ESPN's real Clásico highlights (the sponsor boards fooled it); "cut the team news" and "the ending is circular" argue with the story's own payoff. Real but unfixed (no footage): 17-21 s is two 2010 walking shots under "won the final... became Real Madrid's manager... left in 2013"; a clip of the 2010 trophy lift would be better if one turns up.
 - Folder state: voice.mp3/words.json/shots here are the PRE-fix versions (54.3 s). Redo the two cuts with `Tools/word_edit.py` before any re-render.
+
+
+## Source links (added Nov 6 2026, found by web search)
+- 2026 Clasico, Mourinho knee slide (BBC, Oct 26 2026): https://www.bbc.com/sport/football/articles/cr3wvz20pglqo
+- Same match, recreating the 2010 moment (The Independent): https://www.the-independent.com/sport/football/jose-mourinho-real-madrid-barcelona-el-classico-knee-slide-b3073246.html
+- 2010 sprinklers at Camp Nou (Marca, 2020): https://www.marca.com/en/football/barcelona/2020/04/28/5ea7545f22601dfc028b459b.html
+- 2010 semi-final moments incl. sprinklers (Inter.it): https://www.inter.it/en/news/2020-04-28-10-unforgettable-moments-from-barcelona-inter
+- Match report, Courtois flu, Lunin, 88th-min winner (Real Madrid / beIN): https://www.beinsports.com/en-us/soccer/la-liga/articles/barcelona-1-2-real-madrid-mbappe-at-the-double-as-mourinho-gets-clasico-win-2026-10-25
