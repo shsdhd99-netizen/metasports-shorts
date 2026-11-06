@@ -38,43 +38,41 @@ def save(key, val):
     open(ENV, "w", encoding="utf-8").write("\n".join(out) + "\n")
 
 
+PLAYGROUND = "https://developers.google.com/oauthplayground"  # the only redirect registered for our Google client (loopback gives redirect_uri_mismatch, Nov 6)
+
+
 def main():
+    """Two steps, like yt_auth.py:
+      1. python Tools/yt_manage_auth.py nba            -> opens Google's sign-in. Choose the channel owner's account, Allow (Advanced > Go to ... if warned).
+         You land on the OAuth Playground page: click NOTHING there; copy the full address from the address bar (it contains code=...).
+      2. python Tools/yt_manage_auth.py nba --code "<that address>"   -> saves YT_MANAGE_TOKEN (nba) or YT_MANAGE_TOKEN_FC (fc)."""
     ch = (sys.argv[1] if len(sys.argv) > 1 else "").lower()
     if ch not in ("nba", "fc"):
         sys.exit(__doc__)
     e = env(); cid, sec = e["YT_CLIENT_ID"], e["YT_CLIENT_SECRET"]
-    verifier = secrets.token_urlsafe(64)
-    challenge = base64.urlsafe_b64encode(hashlib.sha256(verifier.encode()).digest()).rstrip(b"=").decode()
-    state = secrets.token_urlsafe(16); got = {}
-
-    class H(http.server.BaseHTTPRequestHandler):
-        def do_GET(self):
-            got.update({k: v[0] for k, v in urllib.parse.parse_qs(urllib.parse.urlparse(self.path).query).items()})
-            self.send_response(200); self.send_header("Content-Type", "text/plain; charset=utf-8"); self.end_headers()
-            self.wfile.write(b"MetaSports: access granted. You can close this tab and go back to the terminal.")
-        def log_message(self, *a): pass
-
-    srv = http.server.HTTPServer(("127.0.0.1", 0), H)
-    redirect = f"http://127.0.0.1:{srv.server_port}"
-    url = "https://accounts.google.com/o/oauth2/v2/auth?" + urllib.parse.urlencode({
-        "client_id": cid, "redirect_uri": redirect, "response_type": "code", "scope": SCOPE, "state": state,
-        "code_challenge": challenge, "code_challenge_method": "S256", "access_type": "offline", "prompt": "consent"})
-    print(f"Opening the Google sign-in page for the {ch.upper()} channel. Choose the account that OWNS that channel, then press Allow.")
-    if "--print-url" in sys.argv:
-        print(url[:120] + "..."); return
-    threading.Thread(target=srv.handle_request, daemon=True).start()
-    webbrowser.open(url)
-    for _ in range(600):  # wait up to 10 minutes
-        if got.get("code"):
-            break
-        import time; time.sleep(1)
-    if got.get("state") != state or not got.get("code"):
-        sys.exit("No consent received (timed out or the state did not match). Run it again.")
-    data = urllib.parse.urlencode({"client_id": cid, "client_secret": sec, "code": got["code"], "code_verifier": verifier,
-                                   "redirect_uri": redirect, "grant_type": "authorization_code"}).encode()
-    tok = json.load(urllib.request.urlopen(urllib.request.Request("https://oauth2.googleapis.com/token", data=data), timeout=60))
+    code = ""
+    if "--code" in sys.argv:
+        code = sys.argv[sys.argv.index("--code") + 1].strip()
+    if not code:
+        url = "https://accounts.google.com/o/oauth2/v2/auth?" + urllib.parse.urlencode({
+            "client_id": cid, "redirect_uri": PLAYGROUND, "response_type": "code", "scope": SCOPE,
+            "access_type": "offline", "prompt": "consent", "state": "metasports"})
+        print(f"Sign in as the owner of the {ch.upper()} channel and press Allow. On the page you land on, click nothing: copy its address.")
+        if "--print-url" in sys.argv:
+            print(url[:120] + "..."); return
+        webbrowser.open(url)
+        return
+    if "code=" in code:
+        code = urllib.parse.parse_qs(urllib.parse.urlparse(code).query).get("code", [""])[0]
+    code = urllib.parse.unquote(code)
+    data = urllib.parse.urlencode({"client_id": cid, "client_secret": sec, "code": code,
+                                   "redirect_uri": PLAYGROUND, "grant_type": "authorization_code"}).encode()
+    try:
+        tok = json.load(urllib.request.urlopen(urllib.request.Request("https://oauth2.googleapis.com/token", data=data), timeout=60))
+    except urllib.error.HTTPError as ex:
+        sys.exit("Google refused the code (it works once and expires in minutes; run step 1 again): " + ex.read().decode()[:200])
     if not tok.get("refresh_token"):
-        sys.exit("Google returned no refresh token. Remove the app at myaccount.google.com/permissions and run this again.")
+        sys.exit("Google returned no refresh token. Remove the app at myaccount.google.com/permissions and run step 1 again.")
     req = urllib.request.Request("https://www.googleapis.com/youtube/v3/channels?part=snippet&mine=true", headers={"Authorization": "Bearer " + tok["access_token"]})
     title = json.load(urllib.request.urlopen(req, timeout=60))["items"][0]["snippet"]["title"]
     save("YT_MANAGE_TOKEN" if ch == "nba" else "YT_MANAGE_TOKEN_FC", tok["refresh_token"])
