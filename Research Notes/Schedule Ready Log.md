@@ -5,3 +5,5 @@
 - 2026-11-05 06:47 ET: scheduled 1: 2026-11-05 95 A Rookie Chased 40 Because His Teammates Said So; skipped/refused 1.
   - 2026-11-05 18:30 skip 2026-10-24 67 Jordan Made Up An Insult To Destroy Someone: 2 DRAFT files and no **Arm:** line (owner's call)
 - 2026-11-05 18:30 ET: scheduled 0; skipped/refused 1.
+  - 2026-11-06 06:30 skip 2026-10-24 67 Jordan Made Up An Insult To Destroy Someone: 2 DRAFT files and no **Arm:** line (owner's call)
+- 2026-11-06 06:30 ET: scheduled 0; skipped/refused 1.

@@ -305,3 +305,6 @@ STATUS: skipped, no build. next_gap nba: Sat Nov 7 3:30 PM ET; the PC gap-fill (
 
 ## Fri Nov 6, 10:40 UTC: FC daily build (cloud)
 STATUS: skipped, no build. next_gap fc: NO GAP in 54 h (S29 Sat, S09 Sun scheduled). Next 2 stories already scripted and source-checked: S21 Higuita (Style v3 rewrite, Nov 5) and S30 Kane. The PC build order stands: S21, S30, S31, S32. Inbox: no new notes.
+
+## Fri Nov 6: NBA gap-fill (PC account 1)
+STATUS: skipped, no build. Gap Sat Nov 7 3:30 PM ET still open. Klay-blocks-Steph: ESPN clip downloaded (Productions/MetaSports/2026-11-07 98 ...), but Daily Research has no source URLs and no second source found, so no verifiable fact beyond the ESPN title; rules forbid unsourced stats. Next builder: find the AP/ESPN recap URL (Klay return, Nov 5-6 game) or build #97 (update to six straight, 120-100 vs Heat). Also cleared a stale UU index flag on Preflight.md (no conflict markers).

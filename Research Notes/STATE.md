@@ -1,15 +1,15 @@
 # STATE (one page for any account/session; update at the end of every run)
 <!-- AUTO:START -->
-## AUTO (written by `python Tools/state.py`, 2026-11-05 11:17 local; do not edit by hand)
+## AUTO (written by `python Tools/state.py`, 2026-11-06 06:30 local; do not edit by hand)
 - Builder: cloud
-- Preflight: PREFLIGHT OK (2 warnings)**
-- Disk free: 17.4 GB
+- Preflight: PREFLIGHT BLOCKED: key YT_CLIENT_ID; key YT_CLIENT_SECRET; key YT_UPLOAD_TOKEN; key YT_UPLOAD_TOKEN_FC (4 warnings)**
+- Disk free: 16.6 GB
 - NBA: 23,851 Shorts views/day (7-day), 488,299 in the last 90 days (4.9% of the 10M line), data to 2026-11-02
 - FC: 9,565 Shorts views/day (7-day), 120,771 in the last 90 days (1.2% of the 10M line), data to 2026-11-02
 - Next open slot: NBA GAP nba 2026-11-07 15:30 ET (Sat Nov 7, 03:30 PM ET); FC NO GAP fc in the next 54 h
-- Last scheduler lines: - 2026-11-04 18:30 ET: scheduled 0; skipped/refused 1. | - 2026-11-05 06:30 ET: scheduled 0; skipped/refused 1. | - 2026-11-05 06:47 ET: scheduled 1: 2026-11-05 95 A Rookie Chased 40 Because His Teammates Said So; skipped/refused 1.
+- Last scheduler lines: - 2026-11-05 06:47 ET: scheduled 1: 2026-11-05 95 A Rookie Chased 40 Because His Teammates Said So; skipped/refused 1. | - 2026-11-05 18:30 ET: scheduled 0; skipped/refused 1. | - 2026-11-06 06:30 ET: scheduled 0; skipped/refused 1.
 - Last cloud STATUS lines: STATUS: blocked, no build. BUILDER.txt = `cloud`; `cloud_setup.sh`: voice key set, Gemini set; `pref | STATUS: blocked, no build. `cloud_setup.sh`: voice key set, Gemini set; `preflight.py --quiet`: BLOC | STATUS: Automation check written to Research Notes/Automation Check.md: PC timers PASS; cloud 3:17/4
-- **Needs attention:** cloud routines: the last STATUS says blocked (keys missing in the cloud environment?)
+- **Needs attention:** preflight: PREFLIGHT BLOCKED: key YT_CLIENT_ID; key YT_CLIENT_SECRET; key YT_UPLOAD_TOKEN; key YT_UPLOAD_TOKEN_FC (4 warnings)**; cloud routines: the last STATUS says blocked (keys missing in the cloud environment?)
 <!-- AUTO:END -->
 - Updated: 2026-11-04 17:30 ET by PC account 1 (full-automation prompt run).
 - Builder: `cloud` (see `BUILDER.txt`); routines NBA 3:17 AM ET, FC 4:23 AM ET.
@@ -34,3 +34,5 @@
 - 2026-11-05 PC account 1 CLAIM: NBA gap Fri Nov 6 3:30 PM ET filled by finishing existing #95 (Lendeborg peer pressure; already built, QA PASS re-run Nov 5). No new build.
 - 2026-11-05 PC account 1: #95 scheduled for Fri Nov 6 3:30 PM ET (gap closed). NBA next open: Sat Nov 7.
 - 2026-11-06 04:30 ET (cloud FC run): preflight BLOCKED (YT_* secrets still missing in the cloud env). No FC gap within 54 h, no build. S25 23K at 72 h; goalkeeper trick n=5, 8.0x.
+- 2026-11-06 PC account 1 CLAIM: NBA gap Sat Nov 7 3:30 PM ET, building Klay blocked Steph (folder Productions/MetaSports/2026-11-07 98 Klay Blocked Steph On His Return).
+- 2026-11-06 PC account 1: RELEASED claim on NBA gap Sat Nov 7 3:30 PM ET. Klay-blocks-Steph has footage (folder 2026-11-07 98, src/espn.mp4) but no verifiable source for facts; not built. #96/#97 are script-only alternatives (#97 needs 'six straight' update). Gap still open.
