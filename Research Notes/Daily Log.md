@@ -5,6 +5,10 @@ research with sources, what was made, what changed in the rules or tools.
 
 STATUS: PC account 1 NBA gap-fill, Nov 5: filled Fri Nov 6 3:30 PM ET by scheduling the already-built #95 (Lendeborg peer pressure; QA PASS re-run, private + publishAt via schedule_ready). No new build, no credits spent.
 
+## Fri Nov 6, 2026 (NBA cloud routine, account 2 session)
+
+STATUS: blocked, no build. Voice and Gemini keys set; `preflight.py --quiet`: BLOCKED (YT_CLIENT_ID, YT_CLIENT_SECRET, YT_UPLOAD_TOKEN, YT_UPLOAD_TOKEN_FC missing in this session's environment), so no credits spent (CLOUD DAILY RULES step 4). Next NBA gap: Sat Nov 7 3:30 PM ET, in range of the PC gap-fill (6:45 AM ET). Same block as Nov 5: this routine's session needs the four YouTube secrets to ever build.
+
 ## Thu Nov 5, 2026 (FC cloud run, 09:25 UTC; CLOUD DAILY RULES)
 
 STATUS: blocked, no build. BUILDER.txt = `cloud`; `cloud_setup.sh`: voice key set, Gemini set; `preflight.py --quiet`: BLOCKED (YT_CLIENT_ID, YT_CLIENT_SECRET, YT_UPLOAD_TOKEN, YT_UPLOAD_TOKEN_FC missing in this environment). Rule 4: script/notes only, no credits. Also `next_gap.py fc`: NO GAP in the next 54 h (FC covered through Sun Nov 8 by S09/S29; S31, S32, S30, S21, S22, S36 already scripted for Nov 8-13), so no new script either. The Nov 4 run's notification reached this session only today (not run separately).
