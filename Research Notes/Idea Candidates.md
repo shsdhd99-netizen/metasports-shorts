@@ -17,3 +17,8 @@ Trashed so far: 3.
 
 ## FC notes
 - 75% S21 Higuita scorpion (Style v3 test): needs a sharper angle and a clean 1995 clip (2026-11-06)
+
+## Nov 6, 2026: from the butterfly-effect / "almost" study (`Deep Study - Butterfly Effect and Similar Breakouts (Nov 6, 2026).md`)
+- N1 Steph Curry's bad ankles are why the Warriors got Kevin Durant (cheap 2012 extension + the 2016 cap jump). Every link sourced; copy-check.
+- N2 One request from Kawhi gave OKC a championship (PG to the Clippers -> SGA + picks -> the 2025 title). Copy-check against NBA on ESPN's "Paul George effect".
+- N3 Kobe was drafted by Charlotte (traded for Divac). Famous: copy-check hard.

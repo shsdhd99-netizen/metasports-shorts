@@ -129,3 +129,5 @@ Copy-check today: **Grobbelaar "spaghetti legs" 1984 CROWDED; Dudek 2005 CROWDED
 
 | S39 | The club that found three superstars for almost nothing (Leicester: Mahrez, Kante, Vardy) | bargain/money gap (NEW lane test, xeysfc study Nov 6) | needs 2+ sources for every fee |
 | S40 | The club that turned £4.5M into £115M (Brighton, Caicedo + others) | bargain/money gap (lane test) | needs 2+ sources |
+| S41 | The goalkeeper who only became a legend because Arsenal's keeper got hurt (Leno injury -> Emi Martinez -> World Cup Golden Glove) | keeper + butterfly (FtblJuan study, Nov 6) | could replace S36 (TAKEN); every link sourced |
+| S42 | The keeper who got his chance from an injury in a Champions League final (Casillas, 2002) | keeper + butterfly | sources first |
