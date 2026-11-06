@@ -9,6 +9,9 @@ Account 3 runs in its own copy of the repo (`~/Documents/metasports-prep`, made 
 - Never `git add -A`. Add only the files you wrote, by path. `git pull --no-rebase` before every push; never force-push.
 - No keys in chat or git. The usual owner rules apply: never post, never open Studio, never invent a stat, keep qualifiers.
 
+## Team protocol (label A3; see `TEAM HANDOFF.md`)
+Start: `python Tools/team.py inbox` (act, then `--ack`). Before each item: `team.py claim "<task>"`. After: `team.py done "<task>: <file>"`. After a review: `team.py say BUILDER "REVIEW <folder>: GO" or "FIX: ..."`. After prepping: `team.py say BUILDER "PREP ready: <folder>"`.
+
 ## The loop (in this order, every session)
 1. **Review every new DRAFT** (one the builder pushed in the last 48 h with no `REVIEW.md` next to it):
    - extract frames at 0.3, 1, 2, 3, 5 s, then every 5 s, plus the last 1 s (`ffmpeg`), and LOOK at them;
