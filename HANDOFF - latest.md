@@ -1,9 +1,9 @@
-# Handoff (auto), Fri Nov 06 2026, 15:24 UTC, written by account: app (cloud)
+# Handoff (auto), Fri Nov 06 2026, 15:36 UTC, written by account: app (cloud)
 
 Read this first, then `Research Notes/Daily Log.md` (newest entries) before building anything, so two sessions never build the same Short.
 
 ## Note from the last session
-Two-week plan written (Research Notes/Two-Week Plan (Nov 7-20, 2026).md); built drafts slotted Nov 8-14 at 7:15 AM. PC next: build Klay for Sat 7:15 AM, full QA on #92, build S30 Kane for Mon 12 PM and S21 for Tue.
+Read TERMINAL TO-DO (Nov 6).md first: Klay for Sat 7:15, #92 QA, S30 Kane Mon, S21 Tue. New study: stayed% is the lever, pace >230 wpm, hold the payoff at the end. Skill edits proposed, not applied.
 
 ## Keys on this machine (presence only)
 - ELEVENLABS_API_KEY: set
@@ -24,6 +24,8 @@ Two-week plan written (Research Notes/Two-Week Plan (Nov 7-20, 2026).md); built 
 - STATUS: blocked, no build. `cloud_setup.sh`: voice key set, Gemini set; `preflight.py --quiet`: BLOCKED (YT_CLIENT_ID, YT_CLIENT_SECRET, YT_UPLOAD_TOKEN, YT_UPLOAD_TOKEN_FC missing in this session's environment). Per CLOUD DAILY RULES step 4: no credits spent. Next NBA gap (`next_gap.py`): Fri Nov 6 3:30 PM ET; #96 Porzingis and #97 Warriors streak scripts already exist for it, and the PC gap-fill (6:45 AM ET) covers it. Wed Nov 4's run in this session stopped at the weekly usage limit during research (nothing committed).
 
 ## Last 15 commits (any account)
+- Nov 06 15:36 Script and retention study, autopilot skill edit proposal, terminal to-do
+- Nov 06 15:24 Handoff (auto) from app (cloud)
 - Nov 06 15:23 Two-week plan (Nov 7-20): weigh every built Short, slot the paid-for drafts, research of what hits now
 - Nov 06 15:16 New schedule from hit data: Klay to Sat 7:15 AM, keeper lane kept, scores for every queued Short
 - Nov 06 09:00 Automation check (script)
@@ -37,8 +39,6 @@ Two-week plan written (Research Notes/Two-Week Plan (Nov 7-20, 2026).md); built 
 - Nov 06 08:19 NBA cloud routine Nov 6: STATUS blocked (YouTube tokens missing in this environment), no build
 - Nov 05 18:30 Schedule ready drafts (script)
 - Nov 05 23:10 Daily stats Nov 5
-- Nov 05 15:04 What-matters-vs-wait research, project charter, advisor memo, duplicate-upload guard, short watcher
-- Nov 05 13:08 S27 re-uploaded with proper title (no-music file); parse_card reads soccer H1 titles; read-back check; title_audit
 
 ## Uncommitted here
      M "HANDOFF - latest.md"
