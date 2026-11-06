@@ -1,17 +1,17 @@
-# Handoff (auto), Fri Nov 06 2026, 16:19 UTC, written by account: app account 1 (CLOUD)
+# Handoff (auto), Fri Nov 06 2026, 15:33 EST, written by account: PC account 1
 
 Read this first, then `Research Notes/Daily Log.md` (newest entries) before building anything, so two sessions never build the same Short.
 
 ## Note from the last session
-Team protocol live: labels A1/A2/A3/CLOUD, Tools/team.py (inbox/claim/done/status/say/board), TEAM HANDOFF.md, A3 queue. #98 Klay unblocked (sources in notes.md): A1 build for Sat 7:15 AM.
+tools qa_final/queue_rank/reel_watch built; daily-run rewritten; 5 queued Shorts HOLD; see PC to Cloud note
 
 ## Team board (who is doing what; full board: `TEAM BOARD.md`, protocol: `TEAM HANDOFF.md`)
 | Account | Role | Now | Next | Done today | Unread | Updated |
 |---|---|---|---|---|---|---|
-| **A1** | Builder | - | - | 0 | 2 | never |
+| **A1** | Builder | idle: #92 + S30 scheduled for 7:30 PM | next: watch the 7:30 results | 2 | 2 | Fri Nov 6, 1:28 PM ET |
 | **A2** | Builder (backup) | - | - | 0 | 2 | never |
-| **A3** | Prep + Review | - | - | 0 | 1 | never |
-| **CLOUD** | Research + scheduled runs | two-week plan + team setup done | daily research 3:43 AM, stats 6:08 PM | 0 | 0 | Fri Nov 6, 11:17 AM ET |
+| **A3** | Prep + Review | - | - | 0 | 3 | never |
+| **CLOUD** | Research + scheduled runs | two-week plan + team setup done | daily research 3:43 AM, stats 6:08 PM | 0 | 1 | Fri Nov 6, 11:17 AM ET |
 
 - nothing claimed
 
@@ -23,7 +23,7 @@ Team protocol live: labels A1/A2/A3/CLOUD, Tools/team.py (inbox/claim/done/statu
 - YT_REFRESH_TOKEN_FC: set
 - YT_UPLOAD_TOKEN: set
 - YT_UPLOAD_TOKEN_FC: set
-- NETLIFY_AUTH_TOKEN: MISSING
+- NETLIFY_AUTH_TOKEN: set
 - HEYGEN_API_KEY: MISSING
 
 ## Newest STATUS lines (Daily Log)
@@ -34,21 +34,35 @@ Team protocol live: labels A1/A2/A3/CLOUD, Tools/team.py (inbox/claim/done/statu
 - STATUS: blocked, no build. `cloud_setup.sh`: voice key set, Gemini set; `preflight.py --quiet`: BLOCKED (YT_CLIENT_ID, YT_CLIENT_SECRET, YT_UPLOAD_TOKEN, YT_UPLOAD_TOKEN_FC missing in this session's environment). Per CLOUD DAILY RULES step 4: no credits spent. Next NBA gap (`next_gap.py`): Fri Nov 6 3:30 PM ET; #96 Porzingis and #97 Warriors streak scripts already exist for it, and the PC gap-fill (6:45 AM ET) covers it. Wed Nov 4's run in this session stopped at the weekly usage limit during research (nothing committed).
 
 ## Last 15 commits (any account)
-- Nov 06 16:19 [CLOUD] Note: the app (CLOUD) runs on Account 1's usage
-- Nov 06 16:19 [CLOUD] #98 Klay: sources found (AP x2, NBA.com), blocker cleared
-- Nov 06 16:19 [CLOUD Research + scheduled runs] team: message to BUILDER
-- Nov 06 16:18 [CLOUD] .gitignore: allow Team/, TEAM BOARD/HANDOFF, prep handoff, owner and terminal to-dos
-- Nov 06 16:17 [CLOUD Research + scheduled runs] team: message to BUILDER
-- Nov 06 16:17 [CLOUD Research + scheduled runs] team: message to A3
-- Nov 06 16:17 [CLOUD Research + scheduled runs] team: status: two-week plan + team setup done
-- Nov 06 16:17 [CLOUD] Team protocol: labelled accounts (A1/A2/A3/CLOUD), team.py messages/claims/status/board, A3 plan, owner check-off list
-- Nov 06 16:13 Watch reports: Ahmed's Goal Ballon d'Or tie, Ahmed's Basketball gave up millions
-- Nov 06 16:13 Account 3 = prep + review in its own repo copy; handoff no longer overwrites across accounts and pulls before push
-- Nov 06 15:36 Handoff (auto) from app (cloud)
-- Nov 06 15:36 Script and retention study, autopilot skill edit proposal, terminal to-do
-- Nov 06 15:24 Handoff (auto) from app (cloud)
-- Nov 06 15:23 Two-week plan (Nov 7-20): weigh every built Short, slot the paid-for drafts, research of what hits now
-- Nov 06 15:16 New schedule from hit data: Klay to Sat 7:15 AM, keeper lane kept, scores for every queued Short
+- Nov 06 15:33 PC to cloud handoff: tools, QA findings, asks
+- Nov 06 15:33 [A1 Builder] team: message to CLOUD
+- Nov 06 15:27 reel_watch: categorise on transcript body only
+- Nov 06 15:27 reel_watch: categorise on the transcript body only
+- Nov 06 15:19 reel_watch (queue, categorise, index) for the reel inbox
+- Nov 06 14:43 reel_read tool (transcript + Gemini watch ladder); yt_manage_auth channel-lookup error handling
+- Nov 06 14:35 Skills: finish check uses qa_final and queue_rank
+- Nov 06 14:35 daily-run rewrite (approved), yt_manage_auth two-step flow, essay_check tool
+- Nov 06 14:25 Merge branch 'main-329h3w' of https://github.com/shsdhd99-netizen/metasports-shorts into main-329h3w
+- Nov 06 14:25 Add qa_final (SHIP/FIX/HOLD) and queue_rank (score + slot waiting Shorts)
+- Nov 06 19:04 [CLOUD] Deep study: butterfly-effect Short (3.7M) + vidIQ sweep of similar breakouts; new 'almost' and 'promise' lanes, ideas N1-N3, S41-S42
+- Nov 06 19:03 [CLOUD Research + scheduled runs] team: message to A3
+- Nov 06 14:02 Schedule v2: style-test plan from the xeysfc study
+- Nov 06 18:55 [CLOUD] Deep study: xeysfc scouting Short (1.1M, 900x its channel), new FC money-gap lane test S39/S40
+- Nov 06 18:55 [CLOUD Research + scheduled runs] team: message to A3
 
 ## Uncommitted here
      M "HANDOFF - latest.md"
+     M "Research Notes/Daily Log.md"
+     M "Research Notes/Preflight.md"
+     M "Research Notes/Queue Rank.md"
+    ?? "Productions/MetaSports/2026-10-29 77 Did Bronny Actually Get Better/qa_final.json"
+    ?? "Productions/MetaSports/2026-10-29 78 Rodman Skipped A Finals Practice To Go Wrestling/qa_final.json"
+    ?? "Productions/MetaSports/2026-10-31 80 The Warriors Flipped The Exact Same Score/DRAFT - awaiting approval - The Lakers Led By 23 And Lost By 17 (no music).mp4"
+    ?? "Productions/MetaSports/2026-10-31 80 The Warriors Flipped The Exact Same Score/qa_final.json"
+    ?? "Productions/MetaSports/2026-11-03 85 Jokic Only Wanted To Go Home/_voice_pretighten/"
+    ?? "Productions/MetaSports/2026-11-03 85 Jokic Only Wanted To Go Home/_voice_prev/"
+    ?? "Productions/MetaSports/2026-11-03 85 Jokic Only Wanted To Go Home/clips/"
+    ?? "Productions/MetaSports/2026-11-03 85 Jokic Only Wanted To Go Home/voice_raw.mp3"
+    ?? "Productions/MetaSports/2026-11-03 87 Draymond Triple Double With Four Points/_voice_pretighten/"
+    ?? "Productions/MetaSports/2026-11-03 87 Draymond Triple Double With Four Points/clips/"
+    ?? "Productions/MetaSports/2026-11-03 87 Draymond Triple Double With Four Points/voice_raw.mp3"
