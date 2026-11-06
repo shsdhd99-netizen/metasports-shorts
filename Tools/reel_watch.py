@@ -59,8 +59,7 @@ def playlist(url, limit):
 def body_of(text):
     m = re.search(r"##\s*Transcript|Verbatim Transcript", text)
     b = text[m.end():] if m else text
-    return re.sub(r"_Source:[^
-]*|```|\[\d\d:\d\d\]", " ", b)
+    return re.sub(r"_Source:[^\n]*|```|\[\d\d:\d\d\]", " ", b)
 
 
 def categorise(text):
