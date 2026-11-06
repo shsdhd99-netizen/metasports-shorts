@@ -74,7 +74,13 @@ def main():
     if not tok.get("refresh_token"):
         sys.exit("Google returned no refresh token. Remove the app at myaccount.google.com/permissions and run step 1 again.")
     req = urllib.request.Request("https://www.googleapis.com/youtube/v3/channels?part=snippet&mine=true", headers={"Authorization": "Bearer " + tok["access_token"]})
-    title = json.load(urllib.request.urlopen(req, timeout=60))["items"][0]["snippet"]["title"]
+    try:
+        items = json.load(urllib.request.urlopen(req, timeout=60)).get("items", [])
+    except urllib.error.HTTPError as ex:
+        sys.exit("Signed in, but YouTube refused the channel lookup (%s): %s. Run step 1 again and, if Google asks which channel/account, choose the channel's own (brand) account." % (ex.code, ex.read().decode()[:200]))
+    if not items:
+        sys.exit("Signed in, but this Google account has no YouTube channel. Run step 1 again with the account/brand channel that owns it.")
+    title = items[0]["snippet"]["title"]
     save("YT_MANAGE_TOKEN" if ch == "nba" else "YT_MANAGE_TOKEN_FC", tok["refresh_token"])
     print(f"Saved. Channel found: {title!r}. Edit with: python Tools/yt_edit.py {ch} show <video_id>")
 
