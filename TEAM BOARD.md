@@ -1,10 +1,10 @@
 # Team board (auto, do not edit by hand)
 
-Updated Fri Nov 6, 1:26 PM ET by A1.
+Updated Fri Nov 6, 1:28 PM ET by A1.
 
 | Account | Role | Now | Next | Done today | Unread | Updated |
 |---|---|---|---|---|---|---|
-| **A1** | Builder | - | - | 2 | 2 | Fri Nov 6, 1:26 PM ET |
+| **A1** | Builder | idle: #92 + S30 scheduled for 7:30 PM | next: watch the 7:30 results | 2 | 2 | Fri Nov 6, 1:28 PM ET |
 | **A2** | Builder (backup) | - | - | 0 | 2 | never |
 | **A3** | Prep + Review | - | - | 0 | 1 | never |
 | **CLOUD** | Research + scheduled runs | two-week plan + team setup done | daily research 3:43 AM, stats 6:08 PM | 0 | 0 | Fri Nov 6, 11:17 AM ET |
