@@ -64,3 +64,6 @@ ROOT = `C:\Users\Admin\Documents\YouTube-Playbooks`. Run the tools from `ROOT\To
    - Ask: "Make the voiceover now? (about N ElevenLabs characters)". On yes, run it without `--dry-run`.
    - If `Tools\.env` is missing, point the user to the 2-minute setup in `ROOT\Tools Guide.md`. Never ask for the key in chat.
 10. **Finish with 3 lines:** the folder, the title pick, and the next step ("drop the clips in the clips folder, then type /assemble"), plus the slot from `UPLOAD SCHEDULE.md` (NBA 11 AM ET; news the morning after the game). Never post it yourself.
+
+## Finish check (Nov 6, 2026)
+Before calling a Short done: `python Tools/qa_final.py "<folder>"` must say SHIP (portion QA + retention gate + file checks), then `python Tools/queue_rank.py` gives it its slot. Cover: `python Tools/thumb.py --shape short`. Pin text goes in UPLOAD.md; `python Tools/pin_helper.py` lists what to pin.

@@ -181,3 +181,6 @@ How to work:
 - **The draft files:** copy both renders as `DRAFT - awaiting approval - S<NN> <title> (music).mp4` and `(no music).mp4`.
 - **Update** `Soccer Channel/START HERE.md`, `Lessons Learned.md` and `Idea Bank.md`.
 - **Commit and push** (media is git-ignored except the DRAFT files). Report to the owner in 5-8 short lines. Never post.
+
+## Finish check (Nov 6, 2026)
+Before calling a Short done: `python Tools/qa_final.py "<folder>"` must say SHIP (portion QA + retention gate + file checks), then `python Tools/queue_rank.py` gives it its slot. Cover: `python Tools/thumb.py --shape short`. Pin text goes in UPLOAD.md; `python Tools/pin_helper.py` lists what to pin.

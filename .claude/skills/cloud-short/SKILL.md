@@ -184,3 +184,6 @@ Report in 3-4 plain lines: what is finished, what is still missing (and why), th
 - YouTube video downloads: blocked (bot check). Preview frames and search still work.
 - `Tools/.env` holds only the voice id; the key lives in the environment's settings. After a key is pasted in chat by mistake, tell the user to rotate it.
 - Free alternatives to vidIQ: yt-dlp metadata (views, dates, channel stats via `channel_check.py`), `fresh_moments.py`, `copy_check.py`, Google Trends, YouTube Studio's own Research tab.
+
+## Finish check (Nov 6, 2026)
+Before calling a Short done: `python Tools/qa_final.py "<folder>"` must say SHIP (portion QA + retention gate + file checks), then `python Tools/queue_rank.py` gives it its slot. Cover: `python Tools/thumb.py --shape short`. Pin text goes in UPLOAD.md; `python Tools/pin_helper.py` lists what to pin.
