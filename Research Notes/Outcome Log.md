@@ -620,3 +620,17 @@ None follow THE #42 FORMAT. **Observation [S], n=4, not a rule:** the four everg
 None of these is a #42-format post, so the format test has no new data. Channel best is still "Why NBA Players Refuse This Free Throw" (29.2K, 119% viewed).
 Lesson [S, n=3]: the new history/rule Shorts hold viewers (92-100% viewed) but get shown less (1-3.4K in 2-6 d), the same pattern as Nov 3. No rule change (n<3 of a kind).
 Inbox: no new owner notes.
+
+## Fri Nov 6, 2026 (daily stats, API `daily 2026-11-06.csv`)
+| Short | Published (UTC) | Views | Avg % viewed | Engaged | Flag |
+|---|---|---|---|---|---|
+| His teammates talked a rookie into chasing 40 (#95) | Nov 6 20:30 | - | - | - | live today |
+| This rookie told Luka he sucks (#92) | scheduled Nov 6, 7:30 PM ET | - | - | - | goes live tonight |
+| The NBA banned Dennis Rodman's jersey number (#94) | Nov 6 12:15 | - | - | - | live today |
+| The Warriors did something no team had done (#90) | Nov 5 20:30 | 0 | - | - | data lag |
+| Jokic was drafted during a Taco Bell commercial (#89) | Nov 5 12:15 | 2 | 102.8% | 0.50 | data lag |
+| Iguodala says Steph should have won Finals MVP (#88) | Nov 4 20:30 | **5,431** | 104.7% | 0.49 | engaged < 0.5 |
+| Kobe missed 18 shots and won Finals MVP (#86) | Nov 4 12:15 | 2,659 | 92.9% | 0.56 | |
+Best this week: Iguodala (5.4K in 2 days). Bones Hyland is now 19.5K (flag: engaged 0.50). None is a #42-format post, so the format test has no new data.
+Lesson [S, n=2, no rule change]: among the Nov 1 history batch, the one with a live superstar angle (Steph) is at about 2x the others at the same age.
+Inbox: no new owner notes. #92 was uploaded for tonight 7:30 PM ET, so its Sun 7:15 AM slot is free again (next_gap now shows it).
