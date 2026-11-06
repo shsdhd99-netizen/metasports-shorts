@@ -108,7 +108,7 @@ def parse_card(path):
     for key in ("title", "tags"):
         val = ""
         for i, ln in enumerate(lines):
-            m = re.match(r"\s*\*\*\s*" + key + r"\b[^*]*?\*\*\s*:?\s*(.*)$", ln, re.I) or re.match(r"\s*\*\*\s*" + key + r"\b[^*]*?:\s*\*\*\s*(.*)$", ln, re.I)
+            m = re.match(r"\s*(?:[-*]\s+)?\*\*\s*" + key + r"\b[^*]*?\*\*\s*:?\s*(.*)$", ln, re.I) or re.match(r"\s*(?:[-*]\s+)?\*\*\s*" + key + r"\b[^*]*?:\s*\*\*\s*(.*)$", ln, re.I)
             m = m or re.match(r"\s*" + key + r"\s*(\([^)]*\))?\s*:\s*(\S.*)$", ln, re.I)  # plain `Title: x` / `Tags (n of 490): a, b`
             if m:
                 val = _clean(m.group(m.lastindex))
