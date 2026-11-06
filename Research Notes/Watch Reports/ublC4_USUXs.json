@@ -1,0 +1,301 @@
+{
+ "length_s": 74.0,
+ "topic": "How Shaquille O'Neal voluntarily sacrificed $20 million in contract money with the Miami Heat to build a championship-winning roster in 2006.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "NBA players who gave up MILLIONS of dollars",
+  "first_frame": "NBA players in an intense on-court scuffle during an ESPN broadcast",
+  "on_screen_text_0_3s": "NBA players who gave up MILLIONS of dollars and it actually PAID OFF!",
+  "shots_in_first_3s": 1
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 3.5,
+   "shows": "Footage of NBA players involved in an on-court scuffle",
+   "kind": "action"
+  },
+  {
+   "start_s": 3.5,
+   "end_s": 6.75,
+   "shows": "Shaquille O'Neal in his purple Los Angeles Lakers jersey (#34)",
+   "kind": "still"
+  },
+  {
+   "start_s": 6.75,
+   "end_s": 8.5,
+   "shows": "Archival footage of Shaq playing in the 2004 NBA Finals",
+   "kind": "action"
+  },
+  {
+   "start_s": 8.5,
+   "end_s": 10.0,
+   "shows": "Shaquille O'Neal standing next to Kobe Bryant on court",
+   "kind": "still"
+  },
+  {
+   "start_s": 10.0,
+   "end_s": 12.5,
+   "shows": "Vintage TV set playing black-and-white image of Shaq and Kobe",
+   "kind": "other"
+  },
+  {
+   "start_s": 12.5,
+   "end_s": 15.5,
+   "shows": "Shaq seated on the Lakers bench with a towel on his head",
+   "kind": "still"
+  },
+  {
+   "start_s": 15.5,
+   "end_s": 18.25,
+   "shows": "Cutout of Shaq wearing a maroon Miami Heat jersey (#32)",
+   "kind": "still"
+  },
+  {
+   "start_s": 18.25,
+   "end_s": 20.0,
+   "shows": "Game footage of young Dwyane Wade scoring under the basket",
+   "kind": "action"
+  },
+  {
+   "start_s": 20.0,
+   "end_s": 21.0,
+   "shows": "Dwyane Wade seen from behind in his Heat jersey (#3)",
+   "kind": "still"
+  },
+  {
+   "start_s": 21.0,
+   "end_s": 22.5,
+   "shows": "Meme clip of a guy wearing a durag looking shocked",
+   "kind": "other"
+  },
+  {
+   "start_s": 22.5,
+   "end_s": 24.0,
+   "shows": "Vintage TV graphic playing archival footage of Shaq",
+   "kind": "other"
+  },
+  {
+   "start_s": 24.0,
+   "end_s": 26.75,
+   "shows": "Miami Heat General Manager Pat Riley speaking at a press conference",
+   "kind": "face"
+  },
+  {
+   "start_s": 26.75,
+   "end_s": 28.75,
+   "shows": "Pat Riley standing close to Shaq and looking up at him",
+   "kind": "still"
+  },
+  {
+   "start_s": 28.75,
+   "end_s": 30.0,
+   "shows": "Graphic featuring '$120M' in big bold text",
+   "kind": "text_card"
+  },
+  {
+   "start_s": 30.0,
+   "end_s": 33.0,
+   "shows": "Game footage of Shaq in his Heat jersey walking down court",
+   "kind": "action"
+  },
+  {
+   "start_s": 33.0,
+   "end_s": 35.0,
+   "shows": "Pat Riley smiling close up with text overlay '$100 million'",
+   "kind": "face"
+  },
+  {
+   "start_s": 35.0,
+   "end_s": 38.75,
+   "shows": "Vintage TV set playing Miami Heat game footage",
+   "kind": "other"
+  },
+  {
+   "start_s": 38.75,
+   "end_s": 40.75,
+   "shows": "Cartoon clip from Family Guy of Brian the dog gasping at ice cream",
+   "kind": "other"
+  },
+  {
+   "start_s": 40.75,
+   "end_s": 43.5,
+   "shows": "Vintage TV mockup playing a Shaq interview segment",
+   "kind": "face"
+  },
+  {
+   "start_s": 43.5,
+   "end_s": 45.25,
+   "shows": "Close-up of Pat Riley talking animatedly into a microphone",
+   "kind": "face"
+  },
+  {
+   "start_s": 45.25,
+   "end_s": 46.75,
+   "shows": "Gary Payton posing in a Miami Heat jersey (#20)",
+   "kind": "still"
+  },
+  {
+   "start_s": 46.75,
+   "end_s": 48.75,
+   "shows": "Miami Heat teammates Gary Payton, Antoine Walker, and Udonis Haslem",
+   "kind": "still"
+  },
+  {
+   "start_s": 48.75,
+   "end_s": 50.75,
+   "shows": "Jason Williams (#55) celebrating with arms raised alongside Pat Riley",
+   "kind": "action"
+  },
+  {
+   "start_s": 50.75,
+   "end_s": 52.5,
+   "shows": "Vintage TV screen displaying 'WORLD CHAMPIONS!' board sign",
+   "kind": "other"
+  },
+  {
+   "start_s": 52.5,
+   "end_s": 54.0,
+   "shows": "Miami Heat players lining up during free throw game action",
+   "kind": "action"
+  },
+  {
+   "start_s": 54.0,
+   "end_s": 56.75,
+   "shows": "Aerial footage of arena plaza during the 2006 NBA Finals",
+   "kind": "stock"
+  },
+  {
+   "start_s": 56.75,
+   "end_s": 58.5,
+   "shows": "TV set showing 2006 NBA Finals score graphic with Dallas up 2-0",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 58.5,
+   "end_s": 101.0,
+   "shows": "Dwyane Wade going up for an aggressive dunk in black Heat jersey",
+   "kind": "action"
+  },
+  {
+   "start_s": 101.0,
+   "end_s": 104.5,
+   "shows": "Shaq hugging teammates as broadcast graphic displays MIA WINS 4-2",
+   "kind": "action"
+  },
+  {
+   "start_s": 104.5,
+   "end_s": 106.0,
+   "shows": "Shaq smiling with Larry O'Brien trophy graphic overlay",
+   "kind": "still"
+  },
+  {
+   "start_s": 106.0,
+   "end_s": 108.75,
+   "shows": "Shaq smiling in Lakers jersey wearing championship cap",
+   "kind": "still"
+  },
+  {
+   "start_s": 108.75,
+   "end_s": 110.75,
+   "shows": "Killer Bean animated police officer meme clip pointing finger",
+   "kind": "other"
+  },
+  {
+   "start_s": 110.75,
+   "end_s": 114.0,
+   "shows": "Emotional Shaquille O'Neal holding the trophy during postgame interview",
+   "kind": "face"
+  }
+ ],
+ "shot_count": 33,
+ "average_shot_s": 2.24,
+ "longest_shot_s": 3.75,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 175,
+  "tone": "dramatic, engaging, narrative",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "upbeat energetic hip-hop beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [
+  {
+   "at_s": 0.0,
+   "sound": "whoosh transition"
+  },
+  {
+   "at_s": 10.0,
+   "sound": "tv static click"
+  },
+  {
+   "at_s": 21.0,
+   "sound": "pop sound effect"
+  },
+  {
+   "at_s": 28.75,
+   "sound": "impact bass drop"
+  },
+  {
+   "at_s": 38.75,
+   "sound": "gasp effect"
+  },
+  {
+   "at_s": 108.75,
+   "sound": "accent hit sound"
+  }
+ ],
+ "captions": {
+  "present": true,
+  "words_per_line": 4,
+  "case": "mixed",
+  "position": "middle",
+  "colours": "white text with yellow highlights",
+  "highlight_style": "active word highlight"
+ },
+ "text_overlays": [
+  {
+   "at_s": 28.75,
+   "text": "$120M"
+  }
+ ],
+ "cards_or_graphics": 3,
+ "framing": "cropped 9:16 with blurred backgrounds and vintage TV frames",
+ "ending": {
+  "last_words": "just to make sure he could win one more.",
+  "last_frame": "Shaquille O'Neal holding the 2006 NBA Championship trophy while wearing a Heat finals hat",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "NBA players who gave up MILLIONS of dollars and it actually PAID OFF! In 2004, Shaquille O'Neal demanded a trade from the Lakers after the front office refused to give him a max contract extension, and the tension between him and Kobe Bryant had gotten so bad that the two could barely coexist on the same team. So the Lakers traded Shaq to the Miami Heat, where he'd play alongside a young Dwyane Wade. But what Shaq did next completely contradicted everything that just happened in LA. After his first season in Miami, Pat Riley sat Shaq down and gave him two options. Option one was a $120 million extension, but the roster stays thin. Option two was $100 million, and Riley gets enough cap space to surround him and Wade with real players. Shaq looked at $20 million sitting on the table, walked away from it, and told Riley he needed to win. So Riley went to work, bringing in Gary Payton and Antoine Walker while keeping Udonis Haslem to build out a roster that actually had depth. But the part that makes this story hit different is what happened next. In the 2006 NBA Finals against Dallas, the Heat went down 0-2 before Wade took over and dropped forty-two points in Game three, and Miami rattled off four straight wins to take the championship. Shaq got his fourth ring, and the guy who left the Lakers partly because they wouldn't pay him enough became the guy who voluntarily gave up $20 million just to make sure he could win one more.",
+ "retention_tricks": [
+  "Pop culture meme clips (Family Guy, Killer Bean) used as unexpected pattern interrupts.",
+  "Constant visual changes every 1-3 seconds using vintage TV frames and highlight cutouts.",
+  "High stakes financial contrast ($120M vs $100M) paired with dramatic championship storytelling."
+ ],
+ "subject_visible_0_1s": false,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "Framing a famous sports story around a huge financial sacrifice creates high intrigue.",
+  "Fast pace and well-timed meme clips maintain engagement throughout the 74-second runtime.",
+  "A satisfying narrative arc that directly connects Shaq's $20 million pay cut to winning his 4th NBA ring."
+ ],
+ "_meta": {
+  "source": "https://www.youtube.com/shorts/ublC4_USUXs",
+  "model": "gemini-3.5-flash",
+  "fps": 4.0,
+  "watched": "2026-11-06",
+  "tier": "[S] model-observed, not measured"
+ }
+}

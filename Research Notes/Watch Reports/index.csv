@@ -28,3 +28,5 @@ date,video,model,length_s,lane,shot_count,average_shot_s,shots_in_first_3s,voice
 2026-11-05,https://youtube.com/shorts/Fxyx1YxtQv8,gemini-3.6-flash,50.5,explainer,31,1.63,3,AI,True,2,Research Notes/Watch Reports/Fxyx1YxtQv8.json
 2026-11-06,https://www.youtube.com/shorts/Ca6yhOHtqtM,gemini-3.5-flash-lite,,,,,,,,,Research Notes/Watch Reports/Ca6yhOHtqtM.json
 2026-11-06,https://www.youtube.com/shorts/WjUwIj9pA5I,gemini-3.6-flash,69.0,explainer,23,3.0,2,human,True,1,Research Notes/Watch Reports/WjUwIj9pA5I.json
+2026-11-06,https://www.youtube.com/shorts/JCvmvhCIvSI,gemini-3.6-flash,62.3,explainer,26,2.4,2,human,True,2,Research Notes/Watch Reports/JCvmvhCIvSI.json
+2026-11-06,https://www.youtube.com/shorts/ublC4_USUXs,gemini-3.5-flash,74.0,explainer,33,2.24,1,AI,True,3,Research Notes/Watch Reports/ublC4_USUXs.json
