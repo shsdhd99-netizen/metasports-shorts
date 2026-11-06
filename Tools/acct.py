@@ -14,7 +14,7 @@ account is used: every run is logged (account, time, first 80 chars of the task)
 stop using an account you want to keep a reserve on. Needs no keys. Headless runs cannot answer prompts, so give them tasks that need no questions.
 Limit: Anthropic's terms apply to each account separately; this tool only chooses which of YOUR OWN logged-in accounts runs a task.
 """
-import argparse, concurrent.futures as cf, csv, datetime as dt, glob, json, os, re, subprocess, sys, time
+import argparse, concurrent.futures as cf, csv, datetime as dt, glob, json, os, re, shutil, subprocess, sys, time
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 HOME = os.path.expanduser("~")
@@ -109,7 +109,7 @@ def run(n, task, timeout=3000):
     env = dict(os.environ, CLAUDE_CONFIG_DIR=cdir(n), MS_ACCOUNT=f"A{n}")
     env.pop("CLAUDE_CODE_OAUTH_TOKEN", None)
     log(n, task)
-    r = subprocess.run(["claude", "-p", "--dangerously-skip-permissions", task], cwd=ROOT, env=env, capture_output=True, text=True, encoding="utf-8", errors="replace", timeout=timeout)
+    r = subprocess.run([shutil.which("claude") or shutil.which("claude.cmd") or "claude", "-p", "--dangerously-skip-permissions", task], cwd=ROOT, env=env, capture_output=True, text=True, encoding="utf-8", errors="replace", timeout=timeout, stdin=subprocess.DEVNULL)
     out = (r.stdout or "") + (r.stderr or "")
     if LIMIT_RE.search(out[:600]) and len(out) < 800:
         return None, out, mark_limited(n, out)
