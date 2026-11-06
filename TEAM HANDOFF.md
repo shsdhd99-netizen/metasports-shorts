@@ -7,7 +7,7 @@ Read this once. Each session's start prompt repeats the short version, plus its 
 | **A1** | Account 1 | **Builder**: voice, render, QA, Hub card, schedule | PC, `Documents/metasports-shorts` | runs at the same time as A2 |
 | **A2** | Account 2 | **Builder (backup)**, when A1 is out of usage | same folder as A1 | runs at the same time as A1 |
 | **A3** | Account 3 (new Pro) | **Prep + Review**: scripts, sources, footage plans, draft reviews, 72-h judgments, approved tool fixes | PC, its own copy `Documents/metasports-prep` | voices, renders, uploads, touches slots |
-| **CLOUD** | the claude.ai app session | research run (3:43 AM ET), stats (6:08 PM ET), re-plans, studies, what the owner asks from the phone | cloud | builds anything that needs YouTube footage |
+| **CLOUD** | the claude.ai app session (on **Account 1's** usage) | research run (3:43 AM ET), stats (6:08 PM ET), re-plans, studies, what the owner asks from the phone | cloud | builds anything that needs YouTube footage |
 Start on the PC: Desktop icons **Claude A1 - Builder**, **Claude A2 - Builder backup**, **Claude A3 - Prep and Review** (from `Tools/make_shortcuts.bat`), or `bash Tools/claude_acct.sh 1|2|3`.
 
 ## How they talk (`python Tools/team.py ...`, everything goes through git under `Team/`)
