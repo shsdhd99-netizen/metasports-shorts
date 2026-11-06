@@ -1,39 +1,63 @@
 {
  "cand": [
   {
-   "ch": "fc",
-   "idea": "Van der Sar 2008 Anelka save (the Van der Save)",
-   "score": 82.0,
-   "shape": "goalkeeper trick",
-   "source": "manutd.com",
-   "date": "2026-11-05"
+   "ch": "nba",
+   "idea": "Klay blocked Steph in his return (#98, Sat 7:15 AM)",
+   "score": 92.0,
+   "shape": "moment",
+   "source": "Productions/MetaSports/2026-11-07 98/notes.md",
+   "date": "2026-11-06"
   },
   {
    "ch": "nba",
-   "idea": "Curry passes Oscar Robertson on the scoring list (live chase)",
-   "score": 84.0,
+   "idea": "List 1: who has missed the most free throws in NBA history (Mon 7:15 AM)",
+   "score": 83.0,
+   "shape": "superlative",
+   "source": "Basketball-Reference career leaders",
+   "date": "2026-11-06"
+  },
+  {
+   "ch": "nba",
+   "idea": "Curry passes DeRozan (16th all-time scoring), when it happens",
+   "score": 83.0,
    "shape": "superlative",
    "source": "",
-   "date": "2026-11-05"
+   "date": "2026-11-06"
+  },
+  {
+   "ch": "nba",
+   "idea": "LeBron passes Kidd for 3rd all-time assists, when it happens",
+   "score": 83.0,
+   "shape": "superlative",
+   "source": "",
+   "date": "2026-11-06"
+  },
+  {
+   "ch": "nba",
+   "idea": "Lendeborg Part 3 after a 30+ game",
+   "score": 83.0,
+   "shape": "family",
+   "source": "",
+   "date": "2026-11-06"
   }
  ],
  "notes": [
   {
    "ch": "nba",
-   "idea": "Klay OT game-winner Heat 117-116 Clippers",
-   "score": 72.0,
-   "shape": "moment",
+   "idea": "List 2: most turnovers (only if List 1 reaches the NBA median at 72 h)",
+   "score": 75.0,
+   "shape": "superlative",
    "source": "",
-   "date": "2026-11-05"
+   "date": "2026-11-06"
   },
   {
    "ch": "fc",
-   "idea": "Hull fan walked home from Chile (S32)",
-   "score": 76.0,
-   "shape": "fan/kid",
+   "idea": "S21 Higuita scorpion (Style v3 test): needs a sharper angle and a clean 1995 clip",
+   "score": 75.0,
+   "shape": "goalkeeper trick",
    "source": "",
-   "date": "2026-11-05"
+   "date": "2026-11-06"
   }
  ],
- "trashed": 1
+ "trashed": 3
 }

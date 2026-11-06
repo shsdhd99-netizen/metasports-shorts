@@ -1,5 +1,7 @@
 # Autopilot schedule, Fri Nov 6 to Fri Nov 20, 2026: DRAFT for the owner (written Nov 6 by the PC terminal)
 
+> **SUPERSEDED Nov 6 by `Autopilot Schedule v2 (Nov 9-22, 2026).md`** (selective: only ideas rated 10+/12 get a slot). Kept for the tonight table and the Studio-access section.
+
 Merges `Two-Week Plan (Nov 7-20, 2026).md` (cloud), the posting test (`Posting Plan (Nov 5, 2026).md`), the test-and-learn policy and tonight's 7:30 PM slot test. **Nothing here is scheduled except what is marked ON YOUTUBE.** Times ET. Every slot is filled only if the idea passes `build_gate.py` (80%+, FRESH, proven lane or a logged one-variable test); an empty slot is skipped and counted.
 
 ## 0. Tonight (done, on YouTube, private until publish)
