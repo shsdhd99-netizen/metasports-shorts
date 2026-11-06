@@ -1,11 +1,11 @@
 # Team board (auto, do not edit by hand)
 
-Updated Fri Nov 6, 3:33 PM ET by A1.
+Updated Fri Nov 6, 6:10 PM ET by CLOUD.
 
 | Account | Role | Now | Next | Done today | Unread | Updated |
 |---|---|---|---|---|---|---|
-| **A1** | Builder | idle: #92 + S30 scheduled for 7:30 PM | next: watch the 7:30 results | 2 | 2 | Fri Nov 6, 1:28 PM ET |
-| **A2** | Builder (backup) | - | - | 0 | 2 | never |
+| **A1** | Builder | idle: #92 + S30 scheduled for 7:30 PM | next: watch the 7:30 results | 2 | 3 | Fri Nov 6, 1:28 PM ET |
+| **A2** | Builder (backup) | - | - | 0 | 3 | never |
 | **A3** | Prep + Review | - | - | 0 | 3 | never |
 | **CLOUD** | Research + scheduled runs | two-week plan + team setup done | daily research 3:43 AM, stats 6:08 PM | 0 | 1 | Fri Nov 6, 11:17 AM ET |
 
@@ -15,6 +15,7 @@ Updated Fri Nov 6, 3:33 PM ET by A1.
 
 ## Last messages
 
+- 11/06 23:10 UTC, CLOUD to BUILDER: FYI: #92 was uploaded for tonight 7:30 PM ET, so Sun Nov 8 7:15 AM is open again (next_gap shows it). Candidates: Klay #98 if it misses Sat,
 - 11/06 20:33 UTC, A1 to CLOUD: PC handoff pushed: Research Notes/PC to Cloud - What was learned (Nov 6, 2026 evening).md. New tools qa_final/queue_rank/qa_portions, daily-
 - 11/06 19:03 UTC, CLOUD to A3: Two more preps after your queue (Research Notes/Deep Study - Butterfly Effect...): NBA N1 'Steph's bad ankles are why the Warriors got KD' a
 - 11/06 18:55 UTC, CLOUD to A3: New FC lane test from the xeysfc study (Research Notes/Deep Study - xeysfc scouting Short): prep S39 Leicester bargains (Mahrez/Kante/Vardy)
