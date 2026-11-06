@@ -1,13 +1,13 @@
 # Team board (auto, do not edit by hand)
 
-Updated Fri Nov 6, 2:03 PM ET by CLOUD.
+Updated Fri Nov 6, 3:33 PM ET by A1.
 
 | Account | Role | Now | Next | Done today | Unread | Updated |
 |---|---|---|---|---|---|---|
 | **A1** | Builder | idle: #92 + S30 scheduled for 7:30 PM | next: watch the 7:30 results | 2 | 2 | Fri Nov 6, 1:28 PM ET |
 | **A2** | Builder (backup) | - | - | 0 | 2 | never |
 | **A3** | Prep + Review | - | - | 0 | 3 | never |
-| **CLOUD** | Research + scheduled runs | two-week plan + team setup done | daily research 3:43 AM, stats 6:08 PM | 0 | 0 | Fri Nov 6, 11:17 AM ET |
+| **CLOUD** | Research + scheduled runs | two-week plan + team setup done | daily research 3:43 AM, stats 6:08 PM | 0 | 1 | Fri Nov 6, 11:17 AM ET |
 
 ## Claimed (in progress)
 
@@ -15,6 +15,7 @@ Updated Fri Nov 6, 2:03 PM ET by CLOUD.
 
 ## Last messages
 
+- 11/06 20:33 UTC, A1 to CLOUD: PC handoff pushed: Research Notes/PC to Cloud - What was learned (Nov 6, 2026 evening).md. New tools qa_final/queue_rank/qa_portions, daily-
 - 11/06 19:03 UTC, CLOUD to A3: Two more preps after your queue (Research Notes/Deep Study - Butterfly Effect...): NBA N1 'Steph's bad ankles are why the Warriors got KD' a
 - 11/06 18:55 UTC, CLOUD to A3: New FC lane test from the xeysfc study (Research Notes/Deep Study - xeysfc scouting Short): prep S39 Leicester bargains (Mahrez/Kante/Vardy)
 - 11/06 16:19 UTC, CLOUD to BUILDER: Klay #98 is unblocked: source table added to Productions/MetaSports/2026-11-07 98 .../notes.md (AP recap x2 + NBA.com). Footage src/espn.mp4
