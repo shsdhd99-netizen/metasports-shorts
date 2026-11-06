@@ -1,0 +1,229 @@
+{
+ "length_s": 69.0,
+ "topic": "How the 2024 Ballon d'Or winner leak and Real Madrid's boycott forced France Football to enforce absolute secrecy around award winners.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "Ballon d'Or ceremonies that caused the rules",
+  "first_frame": "Split-screen frame featuring Rodri walking at the ceremony on top and the narrator speaking on the bottom with bold subtitle text.",
+  "on_screen_text_0_3s": "Ballon d'Or CEREMONIES that caused the RULES to be CHANGED",
+  "shots_in_first_3s": 2
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 2.75,
+   "shows": "Split screen of Rodri at the Ballon d'Or ceremony on top and narrator talking at bottom.",
+   "kind": "action"
+  },
+  {
+   "start_s": 2.75,
+   "end_s": 4.75,
+   "shows": "Wide high-angle shot of the glowing theater stage at the ceremony.",
+   "kind": "stock"
+  },
+  {
+   "start_s": 4.75,
+   "end_s": 8.0,
+   "shows": "Close-up of Rodri holding his 2024 Ballon d'Or trophy with a 1ST badge overlay.",
+   "kind": "face"
+  },
+  {
+   "start_s": 8.0,
+   "end_s": 10.75,
+   "shows": "Vinícius Jr wearing a Real Madrid jersey pointing to his head with a 2ND badge overlay.",
+   "kind": "face"
+  },
+  {
+   "start_s": 10.75,
+   "end_s": 13.5,
+   "shows": "George Weah on stage opening the winner envelope.",
+   "kind": "action"
+  },
+  {
+   "start_s": 13.5,
+   "end_s": 17.75,
+   "shows": "France Football magazine logo graphic with blur transition.",
+   "kind": "text_card"
+  },
+  {
+   "start_s": 17.75,
+   "end_s": 21.5,
+   "shows": "Narrator speaking to camera in front of glowing background LED lighting.",
+   "kind": "face"
+  },
+  {
+   "start_s": 21.5,
+   "end_s": 23.75,
+   "shows": "Vintage TV set displaying emotional clip of Rodri putting his hands over his face.",
+   "kind": "replay"
+  },
+  {
+   "start_s": 23.75,
+   "end_s": 26.25,
+   "shows": "Anime character gesturing a secret signal.",
+   "kind": "other"
+  },
+  {
+   "start_s": 26.25,
+   "end_s": 31.0,
+   "shows": "Grid background with a news headline graphic detailing Real Madrid's boycott.",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 31.0,
+   "end_s": 34.25,
+   "shows": "Real Madrid players celebrating with a trophy, with Florentino Pérez headshot floating overlay.",
+   "kind": "still"
+  },
+  {
+   "start_s": 34.25,
+   "end_s": 36.75,
+   "shows": "Narrator speaking directly to camera.",
+   "kind": "face"
+  },
+  {
+   "start_s": 36.75,
+   "end_s": 39.5,
+   "shows": "Vintage TV frame displaying ceremony attendees applauding.",
+   "kind": "action"
+  },
+  {
+   "start_s": 39.5,
+   "end_s": 41.0,
+   "shows": "SpongeBob sitting alone at a booth meme clip.",
+   "kind": "other"
+  },
+  {
+   "start_s": 41.0,
+   "end_s": 46.0,
+   "shows": "Florentino Pérez waving and addressing a press conference podium.",
+   "kind": "face"
+  },
+  {
+   "start_s": 46.0,
+   "end_s": 49.75,
+   "shows": "Florentino Pérez looking thoughtful with big text graphics summarizing his quote.",
+   "kind": "text_card"
+  },
+  {
+   "start_s": 49.75,
+   "end_s": 51.25,
+   "shows": "Bubbles from Trailer Park Boys reading a paper in disbelief meme clip.",
+   "kind": "other"
+  },
+  {
+   "start_s": 51.25,
+   "end_s": 52.25,
+   "shows": "Pyrotechnics on stage at the award ceremony.",
+   "kind": "action"
+  },
+  {
+   "start_s": 52.25,
+   "end_s": 54.75,
+   "shows": "Narrator explaining the aftermath.",
+   "kind": "face"
+  },
+  {
+   "start_s": 54.75,
+   "end_s": 58.75,
+   "shows": "Vintage TV set displaying Vincent Garcia speaking in an interview.",
+   "kind": "face"
+  },
+  {
+   "start_s": 58.75,
+   "end_s": 61.0,
+   "shows": "Ronaldinho on stage holding the envelope.",
+   "kind": "action"
+  },
+  {
+   "start_s": 61.0,
+   "end_s": 64.5,
+   "shows": "Ousmane Dembélé receiving hugs from teammates at the ceremony.",
+   "kind": "action"
+  },
+  {
+   "start_s": 64.5,
+   "end_s": 69.0,
+   "shows": "Narrator giving concluding remarks to camera.",
+   "kind": "face"
+  }
+ ],
+ "shot_count": 23,
+ "average_shot_s": 3.0,
+ "longest_shot_s": 5.0,
+ "voice": {
+  "type": "human",
+  "gender": "male",
+  "words_per_minute_estimate": 165,
+  "tone": "dramatic",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "ambient electronic background synth",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "mixed",
+  "position": "lower-middle",
+  "colours": [
+   "white",
+   "yellow"
+  ],
+  "highlight_style": "yellow background or text highlight on emphasis words"
+ },
+ "text_overlays": [
+  {
+   "at_s": 5.5,
+   "text": "1ST BALLON D'OR 2024"
+  },
+  {
+   "at_s": 8.25,
+   "text": "2ND JUST 41 POINTS BEHIND"
+  },
+  {
+   "at_s": 46.5,
+   "text": "FLORENTINO PEREZ / JOURNALISTS FROM SMALLER COUNTRIES HAD TOO MUCH INFLUENCE"
+  }
+ ],
+ "cards_or_graphics": 1,
+ "framing": "crop",
+ "ending": {
+  "last_words": "to protect the winner's identity at all costs until the announcement.",
+  "last_frame": "Narrator talking directly to camera.",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "Ballon d'Or ceremonies that caused the rules to be changed. A few years ago in October 2024, Rodri beat Vinícius Jr. for the Ballon d'Or by just 41 points, which was one of the tightest finishes in recent memory, and the result was supposed to be a surprise until the announcement because for the first time ever, France Football decided that the winner would not be told in advance. Prior to this, France Football typically let the winners know within a week of the award, yet this one was supposed to be kept a secret with a select few insiders knowing who won. But somehow the winner leaked, and Real Madrid found hours before the show that Vinícius lost. So the entire club, ranging from the president to the players, all refused to go and straight up skipped the ceremony. Millions of people watched an awards show where the runners-up club didn't even bother showing up. Then a few weeks later, Real Madrid's president, Florentino Pérez, gave a speech criticizing the voting system, saying journalists from smaller countries had too much influence over the result, and that made headlines everywhere. So for 2025, France Football doubled down on secrecy even further. The editor-in-chief, Vincent Garcia, said he was the only person who knew the winner, and the result was announced live on stage by Ronaldinho, which was the first time anyone found out Ousmane Dembelé had won. And now the standard rule is for France Football to protect the winner's identity at all costs until the announcement.",
+ "retention_tricks": [
+  "zooms",
+  "reveals",
+  "pattern interrupts",
+  "vintage TV graphics frames",
+  "pop culture meme clips"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": true,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "Strong narrative hook about dramatic rule changes in football's biggest individual award.",
+  "High-pacing edit combining news headlines, press clips, and pop culture meme reactions.",
+  "Framing historical sports drama like a heist story with leaks and extreme secrecy."
+ ],
+ "_meta": {
+  "source": "https://www.youtube.com/shorts/WjUwIj9pA5I",
+  "model": "gemini-3.6-flash",
+  "fps": 4.0,
+  "watched": "2026-11-06",
+  "tier": "[S] model-observed, not measured"
+ }
+}

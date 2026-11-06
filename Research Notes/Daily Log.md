@@ -314,3 +314,6 @@ STATUS: re-planned, nothing uploaded or changed on YouTube. Freed Sat 7:15 AM (m
 
 ## Fri Nov 6, ~11:45 UTC: two-week plan
 STATUS: plan written, `Research Notes/Two-Week Plan (Nov 7-20, 2026).md`. Slotted the built drafts so no credits are wasted: #92 Sun 7:15 AM, #79 Mon 7:15, #67 Wed 7:15 (no music), #65 Thu 7:15, #59 Sat Nov 14 7:15. #61 out. Renamed the #92/#79 real-audio drafts to "(real audio, no music)" so schedule_ready can pick them. #92 still needs full QA on the PC (clips are not in the cloud). FC order: S30 Kane Mon, S21 Tue, new keeper Wed, S22 Thu, S31 Fri. AUTO test starts Sat Nov 7.
+
+## Fri Nov 6, ~12:30 UTC: study + handoff (cloud)
+STATUS: wrote `Research Notes/Script and Retention Study (Nov 6, 2026).md` (stayed 74%+ = 3.6x views; editing variables move stayed by 3 pts or less; pace above 230 wpm helps; hits keep a 0.88 audience ratio at 90% vs 0.65), `Research Notes/Autopilot Skill - Proposed Edits (Nov 6, 2026).md` (not applied; owner to OK) and `TERMINAL TO-DO (Nov 6).md`. Gemini watches of 7 competitor outliers still running (503 retries).
