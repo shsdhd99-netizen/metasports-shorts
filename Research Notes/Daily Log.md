@@ -302,3 +302,6 @@ STATUS: skipped, no build. next_gap fc: NO GAP in 54 h (S09/S29 cover to Sun Nov
 
 ## Fri Nov 6, 09:42 UTC: NBA daily build (cloud)
 STATUS: skipped, no build. next_gap nba: Sat Nov 7 3:30 PM ET; the PC gap-fill (Fri 6:45 AM ET) owns that slot per the PC Queue Review (Nov 5), so building here would double-build. Pick for it (Daily Research 2026-11-06): Klay blocked Steph in his return (ESPN video 50395931), a petty moment, ahead of #97 (now "six straight"). Inbox: no new notes.
+
+## Fri Nov 6, 10:40 UTC: FC daily build (cloud)
+STATUS: skipped, no build. next_gap fc: NO GAP in 54 h (S29 Sat, S09 Sun scheduled). Next 2 stories already scripted and source-checked: S21 Higuita (Style v3 rewrite, Nov 5) and S30 Kane. The PC build order stands: S21, S30, S31, S32. Inbox: no new notes.
