@@ -1,9 +1,9 @@
-# Handoff (auto), Fri Nov 06 2026, 15:33 EST, written by account: PC account 1
+# Handoff (auto), Fri Nov 06 2026, 16:43 EST, written by account: PC account 1
 
 Read this first, then `Research Notes/Daily Log.md` (newest entries) before building anything, so two sessions never build the same Short.
 
 ## Note from the last session
-tools qa_final/queue_rank/reel_watch built; daily-run rewritten; 5 queued Shorts HOLD; see PC to Cloud note
+Nov 6 night: qa_final/queue_rank/acct/reel tools, daily-run rewrite+PC exception, fee settlement, footage candidates; Klay #98 gap for Sat 7:15 is for the 6:45 AM gap-fill
 
 ## Team board (who is doing what; full board: `TEAM BOARD.md`, protocol: `TEAM HANDOFF.md`)
 | Account | Role | Now | Next | Done today | Unread | Updated |
@@ -34,27 +34,27 @@ tools qa_final/queue_rank/reel_watch built; daily-run rewritten; 5 queued Shorts
 - STATUS: blocked, no build. `cloud_setup.sh`: voice key set, Gemini set; `preflight.py --quiet`: BLOCKED (YT_CLIENT_ID, YT_CLIENT_SECRET, YT_UPLOAD_TOKEN, YT_UPLOAD_TOKEN_FC missing in this session's environment). Per CLOUD DAILY RULES step 4: no credits spent. Next NBA gap (`next_gap.py`): Fri Nov 6 3:30 PM ET; #96 Porzingis and #97 Warriors streak scripts already exist for it, and the PC gap-fill (6:45 AM ET) covers it. Wed Nov 4's run in this session stopped at the weekly usage limit during research (nothing committed).
 
 ## Last 15 commits (any account)
+- Nov 06 16:43 Queue rank refresh
+- Nov 06 16:42 Ideas note: pinned official footage candidates for N1 and F1
+- Nov 06 16:42 daily-run: PC gap-fill exception; fee settlement for F1/F2
+- Nov 06 16:40 Research: 10 NBA + 10 FC ideas rated on the 12-point bar (Nov 6 night)
+- Nov 06 16:38 Deep-dive MetaSports case study (monetization math, ops audit, risks, actions)
+- Nov 06 16:34 Held Shorts: card titles/tags/slots, source links, fix report
+- Nov 06 15:46 acct.py: use claude.cmd, no stdin wait
+- Nov 06 15:46 acct.py: one terminal, three accounts (status/run/auto/fanout)
+- Nov 06 15:33 Handoff (auto) from PC account 1
 - Nov 06 15:33 PC to cloud handoff: tools, QA findings, asks
 - Nov 06 15:33 [A1 Builder] team: message to CLOUD
 - Nov 06 15:27 reel_watch: categorise on transcript body only
 - Nov 06 15:27 reel_watch: categorise on the transcript body only
 - Nov 06 15:19 reel_watch (queue, categorise, index) for the reel inbox
 - Nov 06 14:43 reel_read tool (transcript + Gemini watch ladder); yt_manage_auth channel-lookup error handling
-- Nov 06 14:35 Skills: finish check uses qa_final and queue_rank
-- Nov 06 14:35 daily-run rewrite (approved), yt_manage_auth two-step flow, essay_check tool
-- Nov 06 14:25 Merge branch 'main-329h3w' of https://github.com/shsdhd99-netizen/metasports-shorts into main-329h3w
-- Nov 06 14:25 Add qa_final (SHIP/FIX/HOLD) and queue_rank (score + slot waiting Shorts)
-- Nov 06 19:04 [CLOUD] Deep study: butterfly-effect Short (3.7M) + vidIQ sweep of similar breakouts; new 'almost' and 'promise' lanes, ideas N1-N3, S41-S42
-- Nov 06 19:03 [CLOUD Research + scheduled runs] team: message to A3
-- Nov 06 14:02 Schedule v2: style-test plan from the xeysfc study
-- Nov 06 18:55 [CLOUD] Deep study: xeysfc scouting Short (1.1M, 900x its channel), new FC money-gap lane test S39/S40
-- Nov 06 18:55 [CLOUD Research + scheduled runs] team: message to A3
 
 ## Uncommitted here
      M "HANDOFF - latest.md"
      M "Research Notes/Daily Log.md"
      M "Research Notes/Preflight.md"
-     M "Research Notes/Queue Rank.md"
+     M "Research Notes/STATE.md"
     ?? "Productions/MetaSports/2026-10-29 77 Did Bronny Actually Get Better/qa_final.json"
     ?? "Productions/MetaSports/2026-10-29 78 Rodman Skipped A Finals Practice To Go Wrestling/qa_final.json"
     ?? "Productions/MetaSports/2026-10-31 80 The Warriors Flipped The Exact Same Score/DRAFT - awaiting approval - The Lakers Led By 23 And Lost By 17 (no music).mp4"
