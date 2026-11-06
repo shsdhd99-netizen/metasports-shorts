@@ -1,0 +1,345 @@
+{
+ "sources": {
+  "B": "src/uq0oSAdEgvQ.mp4",
+  "D": "src/FuchTqOLYPw.mp4",
+  "L": "src/qK32EAZLRDs.mp4"
+ },
+ "promise": [
+  "Ballon",
+  "penalty",
+  "missed",
+  "crossbar"
+ ],
+ "shots": [
+  {
+   "clip": "K01",
+   "src": "B",
+   "at": 3.0,
+   "kind": "action",
+   "why": "FC Bayern official: 'Ballon d'Or WINNER' graphic with Kane (FC Bayern YouTube upload)",
+   "anchor": "The",
+   "x": 0.5,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "len": 2.88
+  },
+  {
+   "clip": "K02",
+   "src": "B",
+   "at": 24.0,
+   "kind": "action",
+   "why": "Kane holds the Ballon d'Or with his family on the Allianz Arena pitch (FC Bayern)",
+   "anchor": "Last month",
+   "x": 0.5,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "len": 2.46
+  },
+  {
+   "clip": "K03",
+   "src": "B",
+   "at": 56.0,
+   "kind": "face",
+   "why": "Kane smiling at the ceremony (FC Bayern)",
+   "anchor": "beating",
+   "x": 0.5,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "overlay": [
+    {
+     "text": "BY 28 POINTS",
+     "size": 110,
+     "color": "white",
+     "y": 300,
+     "start": 0.2,
+     "end": 2.2
+    }
+   ],
+   "len": 3.04
+  },
+  {
+   "clip": "K04",
+   "src": "B",
+   "at": 8.0,
+   "kind": "action",
+   "why": "Kane beside the goal with the trophy before the match (FC Bayern)",
+   "anchor": "Five days later",
+   "x": 0.5,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "len": 3.1
+  },
+  {
+   "clip": "K05",
+   "src": "B",
+   "at": 60.0,
+   "kind": "face",
+   "why": "Kane with the Ballon d'Or and family on the pitch (FC Bayern)",
+   "anchor": "right before",
+   "x": 0.5,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "len": 2.61
+  },
+  {
+   "clip": "K06",
+   "src": "B",
+   "at": 80.0,
+   "kind": "face",
+   "why": "Kane with microphone and the trophy (FC Bayern)",
+   "anchor": "It was Kane's",
+   "x": 0.5,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "len": 2.15
+  },
+  {
+   "clip": "K07",
+   "src": "B",
+   "at": 104.0,
+   "kind": "face",
+   "why": "Kane close with the trophy (FC Bayern)",
+   "anchor": "Kane even walked",
+   "x": 0.5,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "len": 2.69
+  },
+  {
+   "clip": "K08",
+   "src": "D",
+   "at": 27.0,
+   "kind": "action",
+   "why": "Borussia Dortmund official highlights: Dortmund players, first half",
+   "anchor": "Dortmund thought",
+   "x": 0.5,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "len": 3.78
+  },
+  {
+   "clip": "K09",
+   "src": "D",
+   "at": 52.6,
+   "kind": "face",
+   "why": "BVB official highlights: Laimer celebrates, 1-0 (yellow score label)",
+   "anchor": "Then Bayern took",
+   "x": 0.5,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "len": 1.38
+  },
+  {
+   "clip": "K10",
+   "src": "L",
+   "at": 18.7,
+   "kind": "face",
+   "why": "Bundesliga official highlights: referee points (penalty awarded after handball)",
+   "anchor": "Then, early",
+   "x": 0.5,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "len": 2.59
+  },
+  {
+   "clip": "K11",
+   "src": "L",
+   "at": 20.5,
+   "kind": "action",
+   "why": "Bundesliga highlights: players in the box before the penalty (wide)",
+   "anchor": "Kane, who",
+   "x": 0.62,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "zoom": 1.5,
+   "len": 2.37
+  },
+  {
+   "clip": "K13",
+   "src": "L",
+   "at": 22.6,
+   "kind": "action",
+   "why": "Bundesliga highlights: after the kick (wide); label CROSSBAR is the match fact",
+   "anchor": "and hit",
+   "x": 0.62,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "zoom": 1.5,
+   "overlay": [
+    {
+     "text": "CROSSBAR",
+     "size": 150,
+     "color": "white",
+     "y": 300,
+     "start": 0.1,
+     "end": 1.6
+    }
+   ],
+   "len": 1.26
+  },
+  {
+   "clip": "K14",
+   "src": "D",
+   "at": 95.0,
+   "kind": "face",
+   "why": "BVB official highlights: Guirassy (#9) after Dortmund's equaliser",
+   "anchor": "Three minutes",
+   "x": 0.5,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "len": 2.41
+  },
+  {
+   "clip": "K15",
+   "src": "D",
+   "at": 98.5,
+   "kind": "action",
+   "why": "BVB official highlights: Dortmund players, 1-1 label",
+   "anchor": "Dortmund equalised",
+   "x": 0.5,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "len": 2.16
+  },
+  {
+   "clip": "K16",
+   "src": "D",
+   "at": 127.4,
+   "kind": "face",
+   "why": "BVB official highlights: Upamecano (#2) after his goal",
+   "anchor": "He set up",
+   "x": 0.5,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "len": 1.96
+  },
+  {
+   "clip": "K17",
+   "src": "D",
+   "at": 113.4,
+   "kind": "action",
+   "why": "BVB official highlights: goalmouth scramble, Bayern lead restored",
+   "anchor": "and Bayern led",
+   "x": 0.5,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "len": 1.19
+  },
+  {
+   "clip": "K18",
+   "src": "D",
+   "at": 162.0,
+   "kind": "action",
+   "why": "BVB official highlights: last-minute build-up, Dortmund substitutes",
+   "anchor": "Then, in the last",
+   "x": 0.5,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "len": 2.31
+  },
+  {
+   "clip": "K19",
+   "src": "D",
+   "at": 198.2,
+   "kind": "face",
+   "why": "BVB official post-match interview: Fabio Silva (name caption on screen)",
+   "anchor": "Fabio Silva",
+   "x": 0.5,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "len": 1.53
+  },
+  {
+   "clip": "K20",
+   "src": "D",
+   "at": 171.0,
+   "kind": "action",
+   "why": "BVB official highlights: Bayern attack, final seconds (wide)",
+   "anchor": "With the last kick",
+   "x": 0.5,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "overlay": [
+    {
+     "text": "2-2",
+     "size": 190,
+     "color": "white",
+     "y": 300,
+     "start": 2.95,
+     "end": 3.6
+    }
+   ],
+   "len": 3.84
+  },
+  {
+   "clip": "K22",
+   "src": "D",
+   "at": 144.0,
+   "kind": "action",
+   "why": "BVB official highlights: wide shot, second half",
+   "anchor": "Bayern missed",
+   "x": 0.5,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "len": 2.82
+  },
+  {
+   "clip": "K23",
+   "src": "D",
+   "at": 136.0,
+   "kind": "action",
+   "why": "BVB official highlights: wide shot, second half",
+   "anchor": "Dortmund stayed",
+   "x": 0.5,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "len": 2.1
+  },
+  {
+   "clip": "K24",
+   "src": "B",
+   "at": 72.0,
+   "kind": "face",
+   "why": "Kane speaking at the presentation (FC Bayern)",
+   "anchor": "But here's",
+   "x": 0.5,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "len": 1.26
+  },
+  {
+   "clip": "K25",
+   "src": "B",
+   "at": 108.0,
+   "kind": "face",
+   "why": "Kane with the Ballon d'Or at the presentation (FC Bayern)",
+   "anchor": "Kane had missed",
+   "x": 0.5,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "overlay": [
+    {
+     "text": "2 MISSES IN 27",
+     "size": 100,
+     "color": "white",
+     "y": 300,
+     "start": 0.2,
+     "end": 3.0
+    }
+   ],
+   "len": 3.04
+  },
+  {
+   "clip": "K26",
+   "src": "B",
+   "at": 116.0,
+   "kind": "face",
+   "why": "Kane with the Ballon d'Or and his children (FC Bayern); the payoff image",
+   "anchor": "One of them",
+   "x": 0.5,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "len": 3.36
+  }
+ ]
+}
