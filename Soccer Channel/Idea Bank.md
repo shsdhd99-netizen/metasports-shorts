@@ -126,3 +126,6 @@ Copy-check today: **Grobbelaar "spaghetti legs" 1984 CROWDED; Dudek 2005 CROWDED
 - **Queue to build first (by the case study):** S21 Higuita scorpion (FRESH), S30, S31 (TAKEN, the owner's call), S32 (second source for the 1998 table line), then Ricardo/Duckadam/Bounou from the Oct 29 table.
 
 | S38 | Milan lost 0-2 at home to Ferencvaros (UEL, Nov 5) | giant beaten | needs angle + 2 sources |
+
+| S39 | The club that found three superstars for almost nothing (Leicester: Mahrez, Kante, Vardy) | bargain/money gap (NEW lane test, xeysfc study Nov 6) | needs 2+ sources for every fee |
+| S40 | The club that turned £4.5M into £115M (Brighton, Caicedo + others) | bargain/money gap (lane test) | needs 2+ sources |
