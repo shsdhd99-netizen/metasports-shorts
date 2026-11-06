@@ -72,3 +72,8 @@ Other copy-checks run, not tabled (all TAKEN/CROWDED, skip): Steph ankles to Dur
 - **Mahrez from Le Havre (2014):** **£350,000 (Sky Sports) or £400,000 (FootballPredictions.NET)**: say "under £500,000" unless a primary source settles it.
 - **Squad cost total:** about **£54.4m** for the title squad is one source's estimate (FootballPredictions.NET); Okazaki (£7m from Mainz) was the costliest recruit per Sky Sports. A total needs a second source before F2 can be rated 10.
 - Net effect on ratings: **F1 Brighton/Caicedo stays 10** (use £4.5m and "up to £115m"); **F2 Leicester stays 8** until the squad total has a second source (all three headline fees are now settled).
+
+## Footage candidates pinned by yt-dlp search (PC, Nov 6 night; official channels only; NOT yet checked frame by frame: use frame_sheet.py before scripting)
+- **N1 Kobe draft:** NBA (official) "AI, Kobe, Steve Nash & Every Other 1st Round Pick from 1996 Draft!" 13:16, https://www.youtube.com/watch?v=O7ILSv_CiXY (find the pick-13 segment); NBA (official) "1996 NBA Draft Class Career Highlights (Kobe, Iverson, Nash)" 19:25, https://www.youtube.com/watch?v=5-TJhroUe3Y. Third-party uploads (NBA Moments, Lakers Lovers) are not official: do not use.
+- **F1 Caicedo (Brighton years):** Official Brighton & Hove Albion FC "Moises Caicedo 22/23 Premier League Best Moments So Far!" 2:19, https://www.youtube.com/watch?v=qdQwu9ExxmE. **Chelsea years:** Chelsea Football Club official "ALL ANGLES | Moises Caicedo scores a halfway line STUNNER" 1:56, https://www.youtube.com/watch?v=jepehD3nT0Q. Sky Sports and NBC clips are broadcaster property: skip.
+- Rule reminder: a pinned URL is not clearance; the clip must show the claim and be cut under 59.5 s with a fact the clip cannot show.
