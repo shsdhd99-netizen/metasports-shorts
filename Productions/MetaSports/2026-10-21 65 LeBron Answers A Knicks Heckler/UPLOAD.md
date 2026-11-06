@@ -1,5 +1,7 @@
 # UPLOAD: #65 LeBron Just Answered A Knicks Fan (opening night)
 
+**Slot:** Thu Nov 12, 7:15 AM ET (Nov 6 two-week plan: credits already spent, so it goes out as a planned 7:15 AM post). **Arm:** no music (single draft).
+
 **ON HOLD (Oct 21, second QA): don't post.** The moment is now taken on YouTube: Chaz NBA has 546K views on "LeBron has words for Knicks fan 'I'm not from the west coast, I'm from...'" with LeBron's real audio, and ours narrates the quote. It is also the same game as #62, which goes up instead. Details: `Research Notes/Second QA and Posting Schedule (Oct 21, 2026).md`.
 
 **DRAFT, on hold. Not posted, not scheduled.**

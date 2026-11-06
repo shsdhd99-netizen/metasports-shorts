@@ -1,4 +1,6 @@
 # New schedule built on what actually hits (Fri Nov 6, 2026, cloud)
+
+> **Superseded for the schedule by `Two-Week Plan (Nov 7-20, 2026).md`** (same day, owner rule: Shorts that already used credits go out). The score card below still applies; #79, #92 and #67 are now slotted.
 Evidence: our own API data (`Studio exports/api/daily 2026-11-05.csv`, `api FC/daily 2026-11-06.csv`). Tier [V] for the view counts; the "why" is [S].
 
 ## What hits on our channels

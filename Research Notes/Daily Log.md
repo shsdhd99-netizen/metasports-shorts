@@ -311,3 +311,6 @@ STATUS: skipped, no build. Gap Sat Nov 7 3:30 PM ET still open. Klay-blocks-Step
 
 ## Fri Nov 6, ~11:00 UTC: re-plan (owner asked for a new schedule)
 STATUS: re-planned, nothing uploaded or changed on YouTube. Freed Sat 7:15 AM (moved #67 Jordan to filler) so the PC gap-fill builds the Klay block for it (fresh, 36 h window). New schedule + scores: `Research Notes/New Schedule (Nov 6, 2026).md`. FC: keep keeper stories (they are the top 4); S21 moved up to Mon Nov 9.
+
+## Fri Nov 6, ~11:45 UTC: two-week plan
+STATUS: plan written, `Research Notes/Two-Week Plan (Nov 7-20, 2026).md`. Slotted the built drafts so no credits are wasted: #92 Sun 7:15 AM, #79 Mon 7:15, #67 Wed 7:15 (no music), #65 Thu 7:15, #59 Sat Nov 14 7:15. #61 out. Renamed the #92/#79 real-audio drafts to "(real audio, no music)" so schedule_ready can pick them. #92 still needs full QA on the PC (clips are not in the cloud). FC order: S30 Kane Mon, S21 Tue, new keeper Wed, S22 Thu, S31 Fri. AUTO test starts Sat Nov 7.

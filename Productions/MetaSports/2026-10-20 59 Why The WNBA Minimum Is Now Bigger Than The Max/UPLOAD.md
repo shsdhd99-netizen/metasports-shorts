@@ -1,5 +1,7 @@
 # UPLOAD: #59 The WNBA Minimum Is Now Bigger Than The Max (WNBA, money)
 
+**Slot:** Sat Nov 14, 7:15 AM ET (Nov 6 two-week plan: credits already spent, so it goes out as a planned 7:15 AM post). **Arm:** no music (single draft; check the CBA line is still true before it goes out).
+
 **DRAFT, awaiting your approval. Not posted, not scheduled.**
 **File:** `DRAFT - awaiting approval - 59 WNBA minimum beats last year's max (no music).mp4` (same as `final.mp4`, 23.8 s, 1080x1920). Video files are not in git; rebuild with `python Tools/assemble.py --folder "<this folder>" --no-music` after re-cutting from `src/` (every in-point and crop is in `sources.csv`).
 **Timing:** evergreen through the 2026-27 offseason; the WNBA Finals are on now (Dream vs Valkyries), so WNBA interest is high this week.

@@ -3,7 +3,7 @@
 **Status:** 28.2 s, voice already recorded (Oct 31 take, no new credits), 17 shots, no SFX. `qa_short --full` PASS on both versions. Nothing uploaded or scheduled.
 **Arm:** control (default captions, `--color-rule card`, metasports style). Also the NBA **story-format test** (Ahmed's Basketball shape, title read as line 1).
 **Versions:** `DRAFT - awaiting approval - The NBA Legend Who Made Up An Insult (no music).mp4` (post this one; NBA default is no bed) and `(music).mp4` (spare, `eleven_story_01` bed at -20 LU; track not yet approved by ear).
-**Slot:** none for now (evergreen filler; Nov 6 re-plan gave Sat 7:15 AM to the fresh Klay moment). Use it only on a day with no fresh moment.
+**Slot:** Wed Nov 11, 7:15 AM ET (Nov 6 two-week plan: credits already spent). **Arm:** no music (our data: no-music n=23 avg 5.6K; music n=2, too few).
 
 - **Title:** The NBA Legend Who Made Up An Insult 😳 #nba
 - **Other titles:** Why Jordan Made Up "Nice Game, Mike" 😳 #nba / Jordan Invented An Insult Just To Score 47

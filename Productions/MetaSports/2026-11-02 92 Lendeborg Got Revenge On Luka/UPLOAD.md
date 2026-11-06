@@ -1,5 +1,7 @@
 # Upload: This Rookie Told Luka He Sucks (DRAFT, not posted)
 
+**Slot:** Sun Nov 8, 7:15 AM ET (Nov 6 two-week plan: credits already spent, so it goes out as a planned 7:15 AM post). **Arm:** no music (the real-audio version; renamed with 'no music' so the scheduler can pick it. QA: export checks clean in the cloud, Nov 6; full folder QA to re-run on the PC, where the clips are).
+
 - **Title:** This Rookie Told Luka He Sucks 😭
 - **Other titles:** He Told Luka He Sucks, Then Scored 37 😳 / Lendeborg Got Revenge On Luka 😳
 - **Description:** empty.
