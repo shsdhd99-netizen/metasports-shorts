@@ -56,3 +56,13 @@ Written to `Research Notes/Research Requests (Nov 6, 2026).md`: eight concrete p
 
 ## 7. How we judge the two weeks (Dec 3 read)
 Share of gate-passing slots filled; median 72 h views of scheduled Shorts vs the channel medians (NBA 6.8K, FC 2.5K); number of hits (15K+); a skipped slot is a success if its best idea was under 10. Not "slots filled".
+
+## 8. Update Nov 6 evening: style-test plan from the xeysfc deep study (CLOUD, commit 90e16a3)
+One variable per Short, each logged in `Test Log.csv` before the build. A test slot is filled only if the idea still rates 10+.
+| Test | Variable | Where | Slot | Judge at 72 h |
+|---|---|---|---|---|
+| Lane: bargain scouting (S39 Leicester's recruitment: Mahrez, Kante, Vardy) | the money-gap premise | FC | first free FC 12:00 PM from Wed Nov 11 (needs 2 sources for each fee) | vs FC median 2.5K and the 23.7K number-gap Short |
+| Edit A: on-screen name tag when each person appears | name tags | NBA, a person-heavy story (Klay/Steph #98 is the model) | the next planned NBA 7:15 AM after List 1 | avg % viewed vs the channel baseline |
+| Edit B: archive footage in a CRT-TV frame instead of blur-fit | footage frame | FC (old 1990s/2000s clips: Higuita S21 is the natural fit) | an FC slot once S21 clears 10 | same |
+| Script C: rapid-fire payoff list as the last 4-5 s, biggest name last | ending device | NBA draft-steals idea (one team or one scout only) or FC S40 Brighton/Caicedo | after S39 reads | same |
+Rules kept: under 60 s, no third-party reaction-meme inserts, every number sourced twice. The Allow (edit access) is not needed for any of this.
