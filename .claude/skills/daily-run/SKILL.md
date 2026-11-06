@@ -21,6 +21,7 @@ Goal (owner): channels that run themselves with high retention and millions of v
 
 ## 2. Who builds what (check first)
 - Read `Research Notes/BUILDER.txt` (`pc` or `cloud`) and today's Daily Log: build only if it names where you run and nobody holds a CLAIM for the slot (`Tools/team.py status`). Otherwise do the zero-credit steps and write `STATUS: not the builder`.
+- **Exception (the PC safety net):** the PC gap-fill runs (6:45 AM NBA, 7:30 AM FC, `Tools/run_daily.ps1`) tell you "Build ONE Short for this open slot". When `next_gap.py` shows that GAP and nobody holds a claim, build it even if BUILDER.txt says `cloud`: the cloud cannot build without the YouTube keys, and an empty slot costs more than a double check. Claim the slot first (`team.py claim`); if a claim or a new DRAFT for it appeared after the pull, build nothing.
 - PC: everything that needs YouTube footage and all renders. Cloud: research, copy-checks, scripts, source tables, cut plans from ESPN/archive.org, and NBA moment builds from ESPN clips only when the PC is offline. No ElevenLabs key: stop at script + notes (never fake a voice).
 - Usage guard: weekly usage above 90% (or unreadable) means zero-credit steps only (analytics, `queue_rank.py`, schedule dry run), one STATUS line, exit.
 - Setup: `git pull --no-rebase origin main-329h3w`, `bash Tools/cloud_setup.sh` (cloud), read `HANDOFF - latest.md` and the newest 2 Daily Log entries. `AUTOPILOT_TEST.txt` present = interactive terminal sessions do not build; scheduled runs pass `--autopilot`.

@@ -63,3 +63,12 @@ Other copy-checks run, not tabled (all TAKEN/CROWDED, skip): Steph ankles to Dur
 5. Re-run copy-check with the angle phrase (not the topic) for Bielsa and Liverpool; promote either only on a FRESH angle.
 6. Do not build N9, N10, F9, F10 until sourced; trash N10.
 7. Add N1-N4 and F1-F4 to `Idea Candidates.md` via `idea_triage.py add` only at 10 (N1, F1, F2); the rest stay notes.
+
+## Fee settlement (PC terminal, Nov 6 night, from web search: confirm against the cited pages before a script)
+- **Caicedo to Brighton (Jan/Feb 2021):** reported **£4.5m** (not official; no source found for £4m). Use "a reported £4.5 million" in any script.
+- **Caicedo to Chelsea (Aug 2023):** **£115m**, structure initial £100m plus £15m add-ons, not officially disclosed by Chelsea (Sky Sports, ESPN, CBS, BBC-type reports). Say "up to £115 million".
+- **Vardy from Fleetwood (2012):** **£1m** (Sky Sports; two sources agree). Not £1.1m.
+- **Kante from Caen (2015):** **£5.6m** (Sky Sports and others). One Goal.com piece says £8.1m: treat as an outlier, do not use.
+- **Mahrez from Le Havre (2014):** **£350,000 (Sky Sports) or £400,000 (FootballPredictions.NET)**: say "under £500,000" unless a primary source settles it.
+- **Squad cost total:** about **£54.4m** for the title squad is one source's estimate (FootballPredictions.NET); Okazaki (£7m from Mainz) was the costliest recruit per Sky Sports. A total needs a second source before F2 can be rated 10.
+- Net effect on ratings: **F1 Brighton/Caicedo stays 10** (use £4.5m and "up to £115m"); **F2 Leicester stays 8** until the squad total has a second source (all three headline fees are now settled).
