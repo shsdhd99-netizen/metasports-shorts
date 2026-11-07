@@ -29,3 +29,5 @@
 | `espn_50363500.mp4`, `espn_50363980.mp4`, `espn_50362648.mp4`, `espn_50362908.mp4` | Slawson block, Huff block, Huff and-1, Alexander-Walker and-1 |
 
 **Gaps before cutting:** no shot of the Pacers' bench or of the injured players in street clothes (for "eleven sat out"), and no 106-104 / 1:36 scoreboard shot. Look on the Pacers' and Hawks' X accounts and the NBA's recap posts; if none, show the six on the floor and put the numbers in overlays.
+
+**Queue:** no (Nov 7 auto queue: trash in the Nov 6 queue review (told by others / weak))

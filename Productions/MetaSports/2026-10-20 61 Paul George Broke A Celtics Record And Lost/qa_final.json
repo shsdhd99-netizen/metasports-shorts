@@ -1,0 +1,19 @@
+{
+ "fails": 4,
+ "warns": 2,
+ "verdict": "HOLD",
+ "qa_score": 0,
+ "predicted_score": 53,
+ "predicted_views": 6193,
+ "fail_list": [
+  "SCRIPT: notes.md has 0 source link(s); every Short needs at least 2 sources; line 1 has 10 words (rule: 11 or fewer); 71 words, about 19 s at 225 wpm (target ",
+  "VOICE: voice check issues: ['21.77s  stretched/garbled word \"loss.\" (0.75s)']; pace 216 wpm (range 205-270); tail after the last word 0.33 s (want 0.15-0.4)",
+  "FOOTAGE: no cuts.json / cuts_plan.json",
+  "qa_short --full: FAIL | FIX  footage: shot 1: clip missing (S1.mp4) | FIX  footage: shot 2: clip missing (S2.mp4) | FIX  footage: shot 3: clip missing (S3o.mp4) | FIX  footage: shot 4: clip missing (S4o.mp4) | FIX  footage: shot 5: clip missing (S5.mp4) | FIX  footage: shot 6: clip missing (S6o.mp4) | FIX  footage: "
+ ],
+ "warn_list": [
+  "EDIT: shot 1 holds 1.3 s; edit_lint clean; 0 shot(s) under 0.6 s",
+  "PACKAGE: slot not noted; no cover image (cover.jpg); title ok: Paul George Broke A Celtics Record And Lost \ud83d\ude33"
+ ],
+ "at": "2026-11-07T15:01"
+}

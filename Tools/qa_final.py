@@ -8,7 +8,11 @@ One command, one verdict: SHIP / FIX / HOLD.
   3. extra finished-file checks that nothing else does: the file is 1080x1920 H.264/AAC, 15-59.5 s (Shorts ceiling is 60 s: we keep it under 59.5),
      under 250 MB, the first frame is not black, the last frame is not black, the audio is stereo/mono and not clipped, the title is <= 100 chars with no
      placeholder, tags fit 500 chars, the card has a pinned comment, a cover and a slot, and sources.csv has no unverified row.
+  4. (Nov 7) never twice: FAIL if the title is already live; the slot: FAIL on a 6 h clash or a 4th post, WARN if in the past; FAIL on time-bound
+     words ("last night") more than 30 h before the slot; WARN when the card's test arms don't match what was built; the lab's predicted score
+     (WARN under 35 = filler only). qa_short --full now runs on the DRAFT itself (it used to need final.mp4 and was silently skipped).
 Verdict: any FAIL = HOLD (do not schedule); only WARNs = FIX if three or more, otherwise SHIP with the warnings listed; none = SHIP.
+QA score = 100 - 30 per FAIL - 4 per WARN (the queue uses it with the predicted score).
 Writes <folder>/qa_final.json (read by queue_rank.py) and appends one line to Research Notes/QA Changelog-style log "QA Final Log.csv".
 """
 import argparse, csv, datetime, glob, json, os, re, subprocess, sys
@@ -16,6 +20,11 @@ import argparse, csv, datetime, glob, json, os, re, subprocess, sys
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
+sys.path.insert(0, HERE)
+
+
+def norm_title(t):
+    return " ".join(re.findall(r"[a-z0-9']+", (t or "").lower()))
 
 
 def run(cmd):
@@ -59,8 +68,8 @@ def main():
         if m and m.group(2) != "LIVE":
             {"FAIL": fails, "WARN": warns, "PASS": oks}[m.group(1)].append(f"{m.group(2)}: {m.group(3)[:150]}")
 
-    if os.path.exists(os.path.join(F, "shots.json")) and os.path.exists(os.path.join(F, "final.mp4")):
-        rc, out = run([sys.executable, os.path.join(HERE, "qa_short.py"), "--folder", F, "--full"])
+    if os.path.exists(os.path.join(F, "shots.json")):  # Nov 7 fix: it used to need final.mp4, which builds rename to DRAFT*.mp4, so it never ran
+        rc, out = run([sys.executable, os.path.join(HERE, "qa_short.py"), "--folder", F, "--video", video, "--full"])
         if rc != 0:
             fails.append("qa_short --full: " + " | ".join(l.strip() for l in out.splitlines() if re.search(r"FAIL|FIX", l))[:300])
         else:
@@ -112,13 +121,64 @@ def main():
     else:
         warns.append("SOURCES: no sources.csv")
 
+    # ---- Nov 7 deeper checks: the things that have actually gone wrong or that the lab says matter
+    txt = open(card, encoding="utf-8-sig").read() if os.path.exists(card) else ""
+    title = locals().get("title") or ""
+    import schedule_ready as sr, queue_rank as qr, lab
+    slot = sr.slot_of(txt, datetime.date.today().year) if txt else None
+    now = datetime.datetime.now(sr.ET)
+    # (a) already live on YouTube: never upload twice (the Nov 5-6 "unknown" duplicates)
+    try:
+        if title and qr.already_posted([title], qr.posted_titles()):
+            fails.append("LIVE: a video with this title is already on the channel (never upload twice)")
+    except Exception:
+        pass
+    # (b) the slot: in the past, or under 6 h from another Short of the channel, or a 4th post that day
+    if slot:
+        if slot < now:
+            warns.append(f"SLOT: {slot:%a %b %d %H:%M} is in the past: take a new slot (queue_rank.py --apply)")
+        else:
+            c = sr.clash(ch, slot, [b for b in sr.booked_slots() if norm_title(b[2]) != norm_title(title)[:40]])
+            if c:
+                fails.append(f"SLOT: {c}")
+    # (c) time-bound words vs the slot: "last night" posted two days later is false
+    script = open(os.path.join(F, "script.txt"), encoding="utf-8").read() if os.path.exists(os.path.join(F, "script.txt")) else ""
+    tb = re.findall(r"\b(last night|tonight|yesterday|this morning|on (?:monday|tuesday|wednesday|thursday|friday|saturday|sunday) night)\b", script, re.I)
+    vm = os.path.join(F, "voice.mp3")
+    if tb and slot and os.path.exists(vm):
+        made = datetime.datetime.fromtimestamp(os.path.getmtime(vm), sr.ET)
+        if (slot - made).total_seconds() > 30 * 3600:
+            fails.append(f"STALE: the script says '{tb[0]}' but the slot is {(slot - made).total_seconds() / 3600:.0f} h after the voice was made: rewrite the line or drop the Short")
+    # (d) the test arms on the card vs what was built (the lab counts what was BUILT, so a mismatch silently flips the arm)
+    m = re.search(r"\*\*Arms:\*\*\s*(.+)", txt)
+    if m:
+        try:
+            T = lab.tests()
+            row = lab.folder_row(F, slot.hour + slot.minute / 60 if slot else None)
+            for tid, arm in re.findall(r"([\w-]+)=([AB])", m.group(1)):
+                t = next((x for x in T["live"] + T["queue"] if x["id"] == tid), None)
+                if t and t["kind"] == "ab" and row.get(t["feature"]) is not None and row.get(t["feature"]) != t["arms"][arm]:
+                    warns.append(f"ARMS: the card says {tid}={arm} ({t['labels'][arm]}) but the build is the other arm: rebuild that part or change the card")
+        except Exception as e:
+            warns.append(f"ARMS: could not check ({e})")
+    # (e) the lab's prediction (a ranking aid, not a gate): weak premises are flagged so the queue can push them to filler slots
+    pred = None
+    try:
+        pred = lab.predict_folder(F)
+        msg = f"PREDICT: score {pred['score']}/100, about {pred['predicted']:,} views at 72 h" + (f" ({'; '.join(pred['why'][:3])})" if pred["why"] else "")
+        (warns if pred["score"] < 35 else oks).append(msg + (": weak premise, filler slot only" if pred["score"] < 35 else ""))
+    except Exception as e:
+        oks.append(f"PREDICT: not available ({e})")
+    qa_score = max(0, 100 - 30 * len(fails) - 4 * len(warns))
     verdict = "HOLD" if fails else ("FIX" if len(warns) >= 3 else "SHIP")
     print(f"QA FINAL: {os.path.basename(F)}  [{ch}]  {os.path.basename(video)}")
-    print(f"  VERDICT: {verdict}   ({len(fails)} fail, {len(warns)} warn, {len(oks)} pass)")
+    print(f"  VERDICT: {verdict}   ({len(fails)} fail, {len(warns)} warn, {len(oks)} pass)   QA score {qa_score}/100" + (f"   predicted {pred['score']}/100" if pred else ""))
     for tag, lst in (("FAIL", fails), ("WARN", warns)):
         for m in lst:
             print(f"  {tag}  {m}")
-    json.dump({"fails": len(fails), "warns": len(warns), "verdict": verdict, "at": datetime.datetime.now().isoformat(timespec="minutes")}, open(os.path.join(F, "qa_final.json"), "w"))
+    json.dump({"fails": len(fails), "warns": len(warns), "verdict": verdict, "qa_score": qa_score, "predicted_score": pred["score"] if pred else None,
+               "predicted_views": pred["predicted"] if pred else None, "fail_list": fails, "warn_list": warns,
+               "at": datetime.datetime.now().isoformat(timespec="minutes")}, open(os.path.join(F, "qa_final.json"), "w"), indent=1)
     log = os.path.join(ROOT, "Research Notes", "QA Final Log.csv")
     new = not os.path.exists(log)
     with open(log, "a", newline="", encoding="utf-8") as f:

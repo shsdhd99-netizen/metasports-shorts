@@ -1,5 +1,8 @@
 # Tools (MetaSports)
 
+> **Nov 7, 2026 (later): the queue, QA sweep, Hub sync and roadmap.** `queue_rank.py` v2 plans every slot of the next 7 days (`Research Notes/Auto Queue.md`, `--apply` writes slots into READY cards); `qa_sweep.py` runs qa_final on every waiting draft and reads back every scheduled upload on YouTube (`Research Notes/QA Board.md`); `hub_sync.py` turns the repo's state into Hub/task writes (results, posted, slot labels, missing cards, UP NEXT); `roadmap.py` rewrites the LIVE STATUS block of the roadmap; `lab.py predict --folder F` scores a Short before voicing (backtested daily). Map: `Research Notes/Tools, Scoring and QA (Nov 7, 2026).md`.
+
+
 > **Nov 7, 2026: `lab.py` (the lab).** Tests that run, log and score themselves, plus a repeatable study of every part of a Short. `python lab.py auto` (daily: measure every Short, score the live tests in `Research Notes/Lab/tests.json`, write `Scoreboard.md` and a study with a Rule check); `python lab.py assign nba|fc --folder F` (the arms the next Short must use; writes the card's `**Arms:**` line); `python lab.py study --part edit|script|package|topic|length` (the same study for any part). `next_arm.py` now calls it. Also Nov 7: QA no longer fails on a short tag list or a missing pinned comment, and the 35%-one-source / cut-count / shot-length lints are gone (Theory Ranking C2).
 
 

@@ -212,7 +212,16 @@ def features(r, d, fname, lab):
     # topic
     f["topic_family_kid"] = bool(FAMILY.search(title + " " + (sents[0] if sents else ""))) if ch == "nba" else None
     f["topic_record_list"] = bool(LIST.search(title)) if ch == "nba" else None
-    f["topic_shootout"] = bool(SHOOTOUT.search(title + " " + " ".join(sents[:3]))) if ch == "fc" else None
+    lane_line = ""
+    for nm in ("notes.md", "UPLOAD.md"):
+        pth = os.path.join(d, nm) if d else ""
+        if pth and os.path.exists(pth):
+            m = re.search(r"\*\*Lane[^*]*:\*\*\s*(.+)", open(pth, encoding="utf-8-sig").read())
+            if m:
+                lane_line = m.group(1)
+                break
+    # FC lane: the folder's own Lane line says "shootout" (builders write it); else the title; labels.csv wins for posted Shorts
+    f["topic_shootout"] = (bool(re.search(r"shoot-?out", lane_line, re.I)) if lane_line else bool(SHOOTOUT.search(title))) if ch == "fc" else None
     f["topic_countdown"] = bool(re.search(r"\b(\d|three|five) times\b|\btop (\d|five|three)\b", title, re.I))
     # script
     w = rm.word_feats(os.path.join(d, "words.json")) if d else {}
@@ -238,6 +247,7 @@ def features(r, d, fname, lab):
                  last_shot_len=round(lens[-1], 2), replays=s.get("replays") or sum(1 for x in sj if x.get("replay")))
         f["edit_cards"] = any(x.get("kind") == "card" for x in sj)
     f["edit_shots"] = s.get("n_shots")
+    f["edit_shots_le15"] = (s["n_shots"] <= 15) if s.get("n_shots") else None
     f["edit_shots_first3_le2"] = (s["shots_first3"] <= 2) if s.get("n_shots") else None
     f["edit_shot1_ge2"] = (s["shot1_len"] >= 2.0) if s.get("n_shots") else None
     f["edit_median_shot"] = s.get("median_shot")
@@ -474,12 +484,139 @@ def study(part="all", channel=None, write=True):
         else:
             status = "SCRAP STANDS (no effect)" if v == "no sign" else "REVISIT: it may matter"
         lines.append(f"| {rule} | `{feat}` | {ch} | {res} | **{status}** |")
+    lines += [""] + scorer_report(load_rows())
     text = "\n".join(lines) + "\n"
     if write:
         p = os.path.join(LAB, f"Study - {part} ({today():%Y-%m-%d}).md")
         open(p, "w", encoding="utf-8").write(text)
         print(f"lab study: wrote {os.path.relpath(p, ROOT)}")
     return text
+
+
+# ---------------------------------------------------------------- predictor (Nov 7: "go more in depth with the scoring")
+# Predicted views = the channel median x the product of each feature's effect, where an effect is the ratio of median views with vs
+# without the feature, SHRUNK toward 1 by its sample size (n_small / (n_small + K)), and applied relative to how common the feature is
+# (so a feature most Shorts have adds little). Only features with a reason to matter are used (topic + the backed rules); the
+# leave-one-out backtest below says honestly how well this ranks Shorts. Score 0-100 = 50 + 25 x log2(predicted / channel median).
+MODEL = {"nba": ["topic_family_kid", "topic_record_list", "topic_countdown", "len_le25", "script_line1_le11", "pkg_opener_whw", "pkg_morning", "edit_shots_le15"],
+         "fc": ["topic_shootout", "script_line1_le11", "script_payoff_number", "pkg_morning"]}
+K = 6
+
+
+def fit(rows, ch):
+    R = [r for r in rows if r["channel"] == ch and r.get("views") is not None]
+    base = med([r["views"] for r in R]) or 1
+    model = {}
+    for f in MODEL[ch]:
+        yes = [r["views"] for r in R if r.get(f) is True]
+        no = [r["views"] for r in R if r.get(f) is False]
+        if min(len(yes), len(no)) < 4:  # under 4 on a side, a feature is mostly the topic it rides with: leave it out
+            continue
+        eff = math.log(max(1, med(yes)) / max(1, med(no))) * min(len(yes), len(no)) / (min(len(yes), len(no)) + K)
+        model[f] = (eff, len(yes) / (len(yes) + len(no)), len(yes), len(no))
+    return base, model
+
+
+def predict_row(fitted, r):
+    base, model = fitted
+    lp, why = math.log(base), []
+    for f, (eff, p, ny, nn) in model.items():
+        x = r.get(f)
+        if x is None:
+            continue
+        c = eff * ((1 if x is True else 0) - p)
+        lp += c
+        if abs(c) >= 0.05:
+            why.append(f"{f}={'yes' if x is True else 'no'} {math.exp(c):.2f}x")
+    pv = math.exp(lp)
+    return pv, max(0, min(100, round(50 + 25 * math.log2(pv / base)))), why
+
+
+def backtest(rows, ch):
+    R = [r for r in rows if r["channel"] == ch and r.get("views") is not None]
+    pairs = []
+    for i, r in enumerate(R):
+        fitted = fit(R[:i] + R[i + 1:], ch)
+        pairs.append((predict_row(fitted, r)[0], r["views"]))
+    if len(pairs) < 8:
+        return None
+    rho = spearman([a for a, _ in pairs], [b for _, b in pairs])
+    base = med([b for _, b in pairs])
+    top = sorted(pairs, key=lambda x: -x[0])[: max(1, len(pairs) // 3)]
+    bot = sorted(pairs, key=lambda x: x[0])[: max(1, len(pairs) // 3)]
+    return dict(n=len(pairs), rho=rho, top_hit=sum(v > base for _, v in top) / len(top), bot_hit=sum(v > base for _, v in bot) / len(bot),
+                top_med=med([v for _, v in top]), bot_med=med([v for _, v in bot]))
+
+
+def spearman(a, b):
+    def rk(v):
+        o = sorted(range(len(v)), key=lambda i: v[i]); r = [0] * len(v)
+        for k, i in enumerate(o):
+            r[i] = k
+        return r
+    x, y = rk(a), rk(b)
+    n = len(a); mx, my = sum(x) / n, sum(y) / n
+    c = sum((i - mx) * (j - my) for i, j in zip(x, y)); vx = sum((i - mx) ** 2 for i in x) ** .5; vy = sum((j - my) ** 2 for j in y) ** .5
+    return round(c / (vx * vy), 2) if vx and vy else None
+
+
+def folder_row(d, slot_hour=None):
+    """A pseudo-row for a folder that isn't posted yet (draft, prep or plan), so the same features and model can score it."""
+    ch = "fc" if "Soccer Channel" in os.path.abspath(d) else "nba"
+    title, _, ctext = card(d)
+    if not title:
+        title = re.sub(r"^\d{4}-\d{2}-\d{2}\s+(A2\s+)?(S?\d+\s+)?", "", os.path.basename(d))
+    L = None
+    vids = glob.glob(os.path.join(d, "DRAFT*.mp4"))
+    if vids:
+        try:
+            import subprocess
+            L = float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", vids[0]], text=True).strip())
+        except Exception:
+            L = None
+    if L is None:
+        w = rm.word_feats(os.path.join(d, "words.json"))
+        if w.get("voice_s"):
+            L = w["voice_s"] + 0.4
+        elif os.path.exists(os.path.join(d, "script.txt")):
+            n = len(re.sub(r"\{[^|}]*\|([^}]*)\}", r"\1", open(os.path.join(d, "script.txt"), encoding="utf-8").read()).split())
+            L = n / (225 if ch == "nba" else 230) * 60 + 0.6
+    if slot_hour is None:
+        try:
+            import schedule_ready as sr
+            sl = sr.slot_of(ctext or "", today().year)
+            slot_hour = sl.hour + sl.minute / 60 if sl else None
+        except Exception:
+            slot_hour = None
+    r = dict(channel=ch, title=title, length_s=L, hour_et=slot_hour if slot_hour is not None else (7.25 if ch == "nba" else 12.0))
+    f = features(r, d, "", None)
+    r.update(f)
+    return r
+
+
+def predict_folder(d, rows=None, slot_hour=None):
+    rows = rows if rows is not None else load_rows()
+    r = folder_row(d, slot_hour)
+    pv, sc, why = predict_row(fit(rows, r["channel"]), r)
+    return dict(channel=r["channel"], title=r["title"], predicted=round(pv), score=sc, why=why, length_s=r.get("length_s"))
+
+
+def scorer_report(rows):
+    lines = ["## How good is the scorer? (leave-one-out backtest: each Short predicted from all the others)", "",
+             "| Channel | n | Rank correlation (predicted vs real) | Top third beat the median | Bottom third beat the median | Median views top / bottom third | Features used (effect, n yes/no) |",
+             "|---|---|---|---|---|---|---|"]
+    for ch in ("nba", "fc"):
+        b = backtest(rows, ch)
+        base, model = fit(rows, ch)
+        feats = "; ".join(f"`{f}` {math.exp(e):.2f}x ({ny}/{nn})" for f, (e, p, ny, nn) in sorted(model.items(), key=lambda x: -abs(x[1][0])))
+        if b:
+            lines.append(f"| {ch.upper()} | {b['n']} | **{b['rho']}** | {b['top_hit']*100:.0f}% | {b['bot_hit']*100:.0f}% | {fn(b['top_med'])} / {fn(b['bot_med'])} | {feats or '-'} |")
+        else:
+            lines.append(f"| {ch.upper()} | too few | - | - | - | - | {feats or '-'} |")
+    lines += ["", "Read: a rank correlation of 0.3+ means the score is a useful filter; under 0.2 means rank by topic judgement and wait for more data. "
+              "The effects are shrunk toward 1x when n is small, so new features move the score slowly.", ""]
+    return lines
+
 
 
 # ---------------------------------------------------------------- tests
@@ -635,7 +772,7 @@ def assign(ch, folder=None):
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("cmd", choices=["measure", "study", "assign", "score", "auto"])
+    ap.add_argument("cmd", choices=["measure", "study", "assign", "score", "auto", "predict"])
     ap.add_argument("ch", nargs="?")
     ap.add_argument("--part", default="all", choices=["all"] + list(PARTS))
     ap.add_argument("--channel", choices=["nba", "fc"])
@@ -651,6 +788,12 @@ def main():
         if a.ch not in ("nba", "fc"):
             raise SystemExit("usage: lab.py assign nba|fc [--folder F]")
         assign(a.ch, a.folder)
+    elif a.cmd == "predict":
+        if not a.folder:
+            raise SystemExit("usage: lab.py predict --folder F")
+        p = predict_folder(a.folder)
+        print(f"lab predict: {p['title'][:60]} [{p['channel']}] score {p['score']}/100, about {p['predicted']:,} views at 72 h"
+              + (f" ({'; '.join(p['why'])})" if p['why'] else " (no feature moves it)"))
     elif a.cmd == "score":
         measure(quiet=True)
         score(apply=not a.no_apply)

@@ -13,3 +13,5 @@
 ## Footage (official Warriors site, downloaded to src/, git-ignored)
 src/wiz30.mp4 (3/16 highlights 102 s), src/camp.mp4 (training camp day 1), src/suns.mp4 (Nov 2 highlights, scorebug 116-113 for "five straight"). Verify every Porzingis shot: close-ups at 56.7 s and 1:23.5 of wiz30.mp4 were checked and are NOT clearly him.
 **Re-check on the day:** any Porzingis update; if he returns, drop the Short.
+
+**Queue:** no (Nov 7 auto queue: health topic without an official update, and trash in the Nov 6 queue review)

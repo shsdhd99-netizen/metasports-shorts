@@ -36,3 +36,9 @@ time,channel,folder,verdict,fails,warns
 2026-11-06 16:34,fc,2026-10-29 S16 The Manager Who Told His Team To Stop Scoring,FIX,0,4
 2026-11-06 16:34,fc,2026-10-31 S18 The Manager Barcelona Soaked With Sprinklers,FIX,0,3
 2026-11-07 14:44,nba,2026-11-07 99 Luka Scored 53 For His Sixth 40 In Seven,SHIP,0,2
+2026-11-07 14:59,nba,2026-11-07 99 Luka Scored 53 For His Sixth 40 In Seven,SHIP,0,2
+2026-11-07 15:00,nba,2026-10-19 53 Why You Cant Bet On The Opening Tip,HOLD,2,3
+2026-11-07 15:00,nba,2026-10-19 58 Why The Lakers Cut Knecht For Bronny,HOLD,3,2
+2026-11-07 15:01,nba,2026-10-20 61 Paul George Broke A Celtics Record And Lost,HOLD,4,2
+2026-11-07 15:01,nba,2026-10-21 65 LeBron Answers A Knicks Heckler,HOLD,3,3
+2026-11-07 15:01,nba,2026-10-30 79 Two Buzzer-Beaters From 40 And 50 Feet,HOLD,3,4

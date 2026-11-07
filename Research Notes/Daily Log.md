@@ -5,6 +5,10 @@ research with sources, what was made, what changed in the rules or tools.
 
 STATUS: PC account 1 NBA gap-fill, Nov 5: filled Fri Nov 6 3:30 PM ET by scheduling the already-built #95 (Lendeborg peer pressure; QA PASS re-run, private + publishAt via schedule_ready). No new build, no credits spent.
 
+## Sat Nov 7, 2026 (owner: deeper tools, scoring, QA; auto queue; Hub + roadmap auto-update, 15:15 UTC)
+
+STATUS: built and ran. Scoring: `lab.py predict` (shrunk feature effects, 0-100, leave-one-out backtest: NBA rho 0.29, FC too few). QA: qa_final now runs qa_short on the DRAFT (was silently skipped: no final.mp4 anywhere), plus never-twice, slot clash, stale wording, arm match, prediction and a QA score; `qa_sweep.py` (QA Board: 1 SHIP, 5 HOLD; all 11 scheduled uploads match YouTube). Auto queue: `queue_rank.py` v2 plans 7 days (Sun 7:15 AM NBA is EMPTY: nothing NBA is prepped; FC Mon has S38 + S43 to build by Sun 4 PM / 10 PM). Hubs: `hub_sync.py` applied 79 writes (results refreshed, Lendeborg marked posted, 12 missing posted cards added, UP NEXT cards). Roadmap: `roadmap.py` LIVE STATUS (NBA 650 subs, 1K ~Jan 17; FC 183, 500 ~Jan 5). Marked #93, #96, #97 `**Queue:** no`. Guide: `Research Notes/Tools, Scoring and QA (Nov 7, 2026).md`. Stats routine prompt now runs lab, QA sweep, queue, Hub sync and roadmap daily.
+
 ## Sat Nov 7, 2026 (owner: rules rewrite + the lab, 14:50 UTC)
 
 STATUS: owner approved all of the Theory Ranking. Rules rewritten (Playbook THE RULES Nov 7, Soccer Playbook v3; old text archived), QA fixed (tags and pinned comment never FAIL; 35%/cut-count/shot-length/b-roll lints removed; NBA length warn 18-27 s; payoff-held warn), and the lab built: `Tools/lab.py` measures 84 Shorts, scores 6 live tests (3 per channel) daily, studies any part (`--part edit` etc.) and re-checks every rule. First Rule check: line 1 <=11 words, NBA family lane and NBA <=25 s SUPPORTED; pace >230 wpm overruled (not a rule); NBA morning posts flagged REVISIT. Prompts of the NBA build, FC build and stats routines updated. Record: `Research Notes/Rule Changes Applied (Nov 7, 2026).md`.

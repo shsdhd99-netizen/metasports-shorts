@@ -1,0 +1,19 @@
+{
+ "fails": 3,
+ "warns": 3,
+ "verdict": "HOLD",
+ "qa_score": 0,
+ "predicted_score": 57,
+ "predicted_views": 6864,
+ "fail_list": [
+  "SCRIPT: notes.md has 0 source link(s); every Short needs at least 2 sources; line 1 has 17 words (rule: 11 or fewer); 78 words, about 21 s at 225 wpm (target ",
+  "FOOTAGE: no cuts.json / cuts_plan.json",
+  "qa_short --full: FAIL | FIX  footage: shot 1: clip missing (S01.mp4) | FIX  footage: shot 2: clip missing (S02.mp4) | FIX  footage: shot 3: clip missing (S03.mp4) | FIX  footage: shot 4: clip missing (S04.mp4) | FIX  footage: shot 5: clip missing (S05.mp4) | FIX  footage: shot 6: clip missing (S06o.mp4) | FIX  foota"
+ ],
+ "warn_list": [
+  "VOICE: voice take verdict CHECK; pace 229 wpm (range 205-270); tail after the last word 0.33 s (want 0.15-0.4)",
+  "EDIT: shot 1 holds 1.8 s; edit_lint clean; 0 shot(s) under 0.6 s",
+  "PACKAGE: no cover image (cover.jpg); title ok: LeBron Just Answered A Knicks Fan \ud83d\ude33; 22 tags, 393 characters (fill to about 490 with Tools/tags_fit.py)"
+ ],
+ "at": "2026-11-07T15:01"
+}

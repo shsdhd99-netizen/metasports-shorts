@@ -1,0 +1,20 @@
+{
+ "fails": 3,
+ "warns": 4,
+ "verdict": "HOLD",
+ "qa_score": 0,
+ "predicted_score": 47,
+ "predicted_views": 5172,
+ "fail_list": [
+  "PACKAGE: title missing or a placeholder; 7 tags, 83 characters (fill to about 490 with Tools/tags_fit.py); no cover image (cover.jpg)",
+  "qa_short --full: FAIL | FIX  footage: shot 1: clip missing (H01.mp4) | FIX  footage: shot 2: clip missing (H02.mp4) | FIX  footage: shot 3: clip missing (H03.mp4) | FIX  footage: shot 4: clip missing (H04.mp4) | FIX  footage: shot 5: clip missing (H04B.mp4) | FIX  footage: shot 6: clip missing (H05.mp4) | FIX  foota",
+  "CARD: no real title"
+ ],
+ "warn_list": [
+  "SCRIPT: claim words ['first', 'only'] in the script but only 2 source links; 6 lint risks (first: hook: opens with a number ('Two'): number-led openings staye",
+  "VOICE: 1 pause(s) over 0.6 s (longest 0.62 s after 'Oh,'); voice take verdict CHECK; pace 206 wpm (range 205-270)",
+  "FOOTAGE: source J (src/espn_jovic.mp4) could not be probed (missing?); source E (src/espn_edge.mp4) could not be probed (missing?); 4 repeated source range(s) ",
+  "EDIT: CLIP REUSE: 4 repeated source range(s) (H03~H04, H04~H04B, H06~H07, H07~H08): the same footage shows twice. Use another source/angle, or mark the one "
+ ],
+ "at": "2026-11-07T15:01"
+}
