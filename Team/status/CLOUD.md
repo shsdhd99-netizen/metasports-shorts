@@ -1,7 +1,7 @@
 # CLOUD · Research + scheduled runs
 
-- **Updated:** Fri Nov 6, 10:19 PM ET
+- **Updated:** Sat Nov 7, 4:42 AM ET
 - **Day:** 2026-11-07
-- **Now:** PC handoff Nov 7 + TikTok review + queue_rank fix
+- **Now:** NBA Sat Nov 7 3:30 PM slot: Luka 53 build (#99)
 - **Next:** 3:43 AM ET research run
 - **Done today:**
