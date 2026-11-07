@@ -1,15 +1,15 @@
-# Handoff (auto), Sat Nov 07 2026, 18:00 UTC, written by account: app account 1 (CLOUD)
+# Handoff (auto), Sat Nov 07 2026, 18:09 UTC, written by account: app account 1 (CLOUD)
 
 Read this first, then `Research Notes/Daily Log.md` (newest entries) before building anything, so two sessions never build the same Short.
 
 ## Note from the last session
-Tracker now inside both Hubs (Performance + Coming up + jump bar), refreshed 8:37 AM / 7:13 PM ET by 'MetaSports tracker refresh'; handoff now carries HANDOFF - playbook.md (how-tos, backend ideas). Next: owner's answer on one merged Hub (idea 1) and on storing the SAT detail
+Owner away; cloud can't reach the PC. Open questions pushed to TERMINAL TO-DO (Nov 7).md items 11-15 + team message to BUILDER
 
 ## Team board (who is doing what; full board: `TEAM BOARD.md`, protocol: `TEAM HANDOFF.md`)
 | Account | Role | Now | Next | Done today | Unread | Updated |
 |---|---|---|---|---|---|---|
-| **A1** | Builder | - | next: watch the 7:30 results | 2 | 15 | Sat Nov 7, 7:31 AM ET |
-| **A2** | Builder (backup) | owner's private project | free for builds | 2 | 1 | Sat Nov 7, 12:03 PM ET |
+| **A1** | Builder | - | next: watch the 7:30 results | 2 | 16 | Sat Nov 7, 7:31 AM ET |
+| **A2** | Builder (backup) | owner's private project | free for builds | 2 | 2 | Sat Nov 7, 12:03 PM ET |
 | **A3** | Prep + Review | - | - | 0 | 10 | never |
 | **CLOUD** | Research + scheduled runs | - | 3:43 AM ET research run | 1 | 1 | Sat Nov 7, 5:10 AM ET |
 
@@ -139,6 +139,9 @@ Last edited Sat Nov 7, 2026 by the CLOUD session (owner asked: "make your handof
 - STATUS: blocked, no build (3rd day). Voice and Gemini keys set; `preflight.py --quiet`: BLOCKED (YT_CLIENT_ID, YT_CLIENT_SECRET, YT_UPLOAD_TOKEN, YT_UPLOAD_TOKEN_FC missing in this session's environment); no credits spent. Next NBA gap: Sat Nov 7 3:30 PM ET, in range of the PC gap-fill (6:45 AM ET).
 
 ## Last 15 commits (any account)
+- Nov 07 18:09 [CLOUD Research + scheduled runs] team: message to BUILDER
+- Nov 07 18:09 [CLOUD] Terminal to-do: open questions the cloud couldn't settle (Hub render check, A2 Hubs, website spec, owner decisions)
+- Nov 07 18:00 Handoff (auto) from app account 1 (CLOUD)
 - Nov 07 18:00 [CLOUD] Tracker built into both Shorts Hubs (performance, coming up, jump bar); handoff playbook (how-tos, backend ideas) included in every handoff
 - Nov 07 17:54 [CLOUD] Shorts tracker (owner's request): Tools/short_tracker.py merges API pulls, Studio stayed %, public counts and the schedule into the tracker dashboard's data
 - Nov 07 17:41 Handoff (auto) from app account 1 (CLOUD)
@@ -151,9 +154,6 @@ Last edited Sat Nov 7, 2026 by the CLOUD session (owner asked: "make your handof
 - Nov 07 11:59 [A2 Builder (backup)] team: message to ALL
 - Nov 07 11:59 [A2 Builder (backup)] team: done: #99 Luka: fix Oct 31->Oct 30 label, re-render, QA, schedule Sat
 - Nov 07 11:58 [A2 Builder (backup)] #99 Luka: fix Oct 30 label, re-render, qa_final SHIP, scheduled Sat 3:30 PM ET
-- Nov 07 11:56 [A2 Builder (backup)] team: claim: #99 Luka: fix Oct 31->Oct 30 label, re-render, QA, schedule Sat
-- Nov 07 11:06 [A2 Builder (backup)] Handoff (auto) from PC account 2
-- Nov 07 11:05 [A2 Builder (backup)] team: read 9 message(s)
 
 ## Uncommitted here
      M "HANDOFF - latest.md"
