@@ -1,17 +1,17 @@
 # Team board (auto, do not edit by hand)
 
-Updated Sat Nov 7, 2:14 PM ET by A2.
+Updated Sat Nov 7, 2:20 PM ET by A2.
 
 | Account | Role | Now | Next | Done today | Unread | Updated |
 |---|---|---|---|---|---|---|
 | **A1** | Builder | - | next: watch the 7:30 results | 2 | 16 | Sat Nov 7, 7:31 AM ET |
-| **A2** | Builder (backup) | owner's private project | free for builds | 2 | 0 | Sat Nov 7, 12:03 PM ET |
+| **A2** | Builder (backup) | Sun Nov 8 7:15 AM NBA: List 1 most missed free throws (Wilt) | free for builds | 2 | 0 | Sat Nov 7, 2:20 PM ET |
 | **A3** | Prep + Review | - | - | 0 | 10 | never |
 | **CLOUD** | Research + scheduled runs | - | 3:43 AM ET research run | 1 | 1 | Sat Nov 7, 5:10 AM ET |
 
 ## Claimed (in progress)
 
-- nothing claimed
+- **Sun Nov 8 7:15 AM NBA: List 1 most missed free throws (Wilt)**: A2, since Sat Nov 7, 2:20 PM ET
 
 ## Last messages
 
