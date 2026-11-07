@@ -1,3 +1,5 @@
+> **LIVE ON YOUTUBE (checked Nov 7 against the API daily files): already posted. Do not fix, re-schedule or re-upload this one.**
+
 # DRAFT - awaiting approval - S17 Goalkeepers who were subbed on just for the penalties
 
 **Review, Oct 29:** all facts confirmed; the strongest Short in the queue (goalkeeper series, 3 for 3). **Post the (real audio) file** (UPLOAD SCHEDULE, Oct 28; it keeps the music bed). Pinned comment: "Should Van Gaal have saved a sub for the semi?"

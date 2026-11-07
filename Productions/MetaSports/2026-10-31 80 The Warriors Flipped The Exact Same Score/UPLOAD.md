@@ -1,3 +1,5 @@
+> **LIVE ON YOUTUBE (checked Nov 7 against the API daily files): already posted. Do not fix, re-schedule or re-upload this one.**
+
 DRAFT - built, QA PASS (full), not posted. Post: "DRAFT - awaiting approval - The Lakers Led By 23 And Lost By 17 (no music).mp4" (25.2 s).
 
 <!-- package fix Nov 6 2026 (see Research Notes/Held Shorts Fix Report) -->

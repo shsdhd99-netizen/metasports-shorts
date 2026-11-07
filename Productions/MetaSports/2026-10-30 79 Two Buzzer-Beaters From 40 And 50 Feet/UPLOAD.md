@@ -1,6 +1,6 @@
 # Upload package: #79 (DRAFT, awaiting approval)
 
-**Slot:** Mon Nov 9, 7:15 AM ET (Nov 6 two-week plan: credits already spent, so it goes out as a planned 7:15 AM post). **Arm:** no music (the real-audio version, renamed with 'no music' so the scheduler picks it over the narrated spare).
+**Slot:** Sun Nov 8, 7:15 AM ET (moved up Nov 7: #92 went out Fri, so Sun opened; Nov 6 two-week plan: credits already spent, so it goes out as a planned 7:15 AM post). **Arm:** no music (the real-audio version, renamed with 'no music' so the scheduler picks it over the narrated spare).
 
 **Review, Oct 29: moved to TODAY, Thu Oct 29, about 3 PM ET** (the shots were Wednesday night; Friday 2 PM is about 62 h later, past the 36 h news window). Facts confirmed (ESPN box scores in notes.md).
 

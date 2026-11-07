@@ -1,3 +1,5 @@
+> **LIVE ON YOUTUBE (checked Nov 7 against the API daily files): already posted. Do not fix, re-schedule or re-upload this one.**
+
 # Upload package: S18 (DRAFT, awaiting approval)
 
 <!-- package fix Nov 6 2026 (see Research Notes/Held Shorts Fix Report) -->
