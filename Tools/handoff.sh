@@ -15,6 +15,7 @@ has() { [ -n "${!1}" ] || grep -qs "^$1=." Tools/.env && echo "set" || echo "MIS
   [ -n "$NOTE" ] && { echo "## Note from the last session"; echo "$NOTE"; echo; }
   [ "$OUT" = "HANDOFF - latest.md" ] && [ -f "HANDOFF - prep (account 3).md" ] && { echo "Prepped scripts and draft reviews from Account 3: \`HANDOFF - prep (account 3).md\` (build PREP-ready folders first; apply each REVIEW.md before a Short is scheduled)."; echo; }
   if [ -f "TEAM BOARD.md" ]; then echo "## Team board (who is doing what; full board: \`TEAM BOARD.md\`, protocol: \`TEAM HANDOFF.md\`)"; sed -n '/^| Account/,/^$/p' "TEAM BOARD.md"; sed -n '/^## Claimed/,/^## Last/p' "TEAM BOARD.md" | grep "^- "; echo; fi
+  if [ -f "HANDOFF - playbook.md" ]; then echo "---"; echo; sed '1s/^# /## /; 2,$s/^### /#### /; 2,$s/^## /### /' "HANDOFF - playbook.md"; echo; echo "---"; echo; fi   # owner facts, how-tos, backend ideas (hand-written)
   echo "## Keys on this machine (presence only)"
   for k in ELEVENLABS_API_KEY GEMINI_API_KEY YT_CLIENT_ID YT_REFRESH_TOKEN YT_REFRESH_TOKEN_FC YT_UPLOAD_TOKEN YT_UPLOAD_TOKEN_FC NETLIFY_AUTH_TOKEN HEYGEN_API_KEY; do
     echo "- $k: $(has $k)"

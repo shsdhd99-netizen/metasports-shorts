@@ -212,6 +212,12 @@ def main():
     for name, rows in (("shorts", shorts), ("history", history), ("retention", curves_out), ("upcoming", upcoming)):
         with open(os.path.join(OUT, f"{name}.json"), "w", encoding="utf-8") as f:
             json.dump(rows, f, ensure_ascii=False, separators=(",", ":"))
+    for ch in CHANNELS:  # one file per Hub (the Hubs' Performance section reads it; Tools/hub_tracker_block.html)
+        hub = {"channel": ch, "updated_utc": stamp,
+               "shorts": [x for x in shorts if x["channel"] == ch], "history": [x for x in history if x["channel"] == ch],
+               "retention": [x for x in curves_out if x["channel"] == ch], "upcoming": [x for x in upcoming if x["channel"] == ch]}
+        with open(os.path.join(OUT, f"hub_{ch}.json"), "w", encoding="utf-8") as f:
+            json.dump(hub, f, ensure_ascii=False, separators=(",", ":"))
     print(f"tracker {stamp} UTC: {len(shorts)} Shorts, {len(history)} history points, {len(curves_out)} curve points, "
           f"{len(upcoming)} upcoming, {sum(1 for s in shorts if s['stayed_pct'] is not None)} with Studio stayed %")
 
