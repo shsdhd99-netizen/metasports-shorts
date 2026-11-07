@@ -1,14 +1,14 @@
-# Preflight (2026-11-06 06:45)
+# Preflight (2026-11-07 03:15)
 
 **PREFLIGHT OK (2 warnings)**
 
 | Level | Check | Detail |
 |---|---|---|
-| OK | ffmpeg | ffmpeg version 8.1.2-full_build-www.gyan.dev Copyright (c) 2 |
+| OK | ffmpeg | ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FF |
 | OK | yt-dlp | 2026.10.26 |
-| OK | git | git version 2.55.0.windows.5 |
-| OK | node | v24.16.0 |
-| WARN | disk free | 18 GB on C: (a render needs about 1-3 GB; clips and src pile up) |
+| OK | git | git version 2.43.0 |
+| OK | node | v22.23.4 |
+| WARN | disk free | 21 GB on / (a render needs about 1-3 GB; clips and src pile up) |
 | OK | key ELEVENLABS_API_KEY | set |
 | OK | key ELEVENLABS_VOICE_ID | set |
 | OK | key GEMINI_API_KEY | set |
@@ -18,16 +18,12 @@
 | OK | key YT_REFRESH_TOKEN_FC | set |
 | OK | key YT_UPLOAD_TOKEN | set |
 | OK | key YT_UPLOAD_TOKEN_FC | set |
-| OK | ElevenLabs credit | 67,649 characters left of 121,224 (resets Nov 18); a Short uses 1.2K-4K with retakes |
+| OK | ElevenLabs credit | 66,596 characters left of 121,224 (resets Nov 18); a Short uses 1.2K-4K with retakes |
 | OK | token nba | refresh works |
 | OK | token fc | refresh works |
 | OK | token nba analytics | refresh works |
 | OK | token fc analytics | refresh works |
 | OK | git | ## main-329h3w...origin/main-329h3w |
 | OK | BUILDER.txt | cloud |
-| WARN | USAGE.txt | weekly 2 used (owner said 98% left) 2026-11-03 20:15 ET (updated 62 h ago) |
-| OK | task MetaSports analytics | registered |
-| OK | task MetaSports schedule ready AM | registered |
-| OK | task MetaSports schedule ready PM | registered |
-| OK | task MetaSports terminal resume | registered |
-| OK | analytics pull | newest daily file 2026-11-05 (1 d old) |
+| WARN | USAGE.txt | weekly 2 used (owner said 98% left) 2026-11-03 20:15 ET (updated 77 h ago) |
+| OK | analytics pull | newest daily file 2026-11-06 (1 d old) |
