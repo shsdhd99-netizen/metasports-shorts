@@ -98,3 +98,7 @@
 ## Nov 6, 2026 (FC cloud run; public counts via `yt-dlp --flat-playlist`, 09:30 UTC)
 - **[V] S25 England subs for penalties reached 23K at ~72 h** (11K at day 2), level with S17. Goalkeeper/shootout stories at 72 h+: 5 of 5 at 15K+ (S01 30K, S05 29K, S17 23K, S25 23K, S03 15K); S19 Rulli 3.8K is the one inside the lane that missed (news hook). `learn.py`: "goalkeeper trick" now n=5, 8.0x the channel median (23,300 vs 2,914): the first FC feature past the n<5 guess line.
 - Watch: S26 gloves off 16K at ~2 days (on track); S27 "only played because his teammate broke a leg" 1.0K after ~21 h, a goalkeeper story with no shootout and no trick: judge Sun Nov 8.
+
+## Nov 7, 2026 (FC cloud run; public counts via `yt-dlp --flat-playlist`, 09:30 UTC)
+- **[S, n=2 vs 6] Inside the goalkeeper lane, the shootout is what carries it.** S28 "refused to be substituted before a shootout" 24K after ~1 day; S27 "only played because his teammate broke a leg" (a goalkeeper story with no shootout or penalty) 1.3K after ~2 days. With S19 Rulli (3.8K, news-tied shootout) the two misses in the lane both lack an on-screen shootout moment of their own. `learn.py`: "goalkeeper trick" n=6, 6.5x the channel median (19,548 vs 3,016).
+- S30 Ballon d'Or winner's missed penalty (non-goalkeeper) 1.9K after ~12 h: judge Mon Nov 9.

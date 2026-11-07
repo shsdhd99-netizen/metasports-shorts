@@ -5,6 +5,12 @@ research with sources, what was made, what changed in the rules or tools.
 
 STATUS: PC account 1 NBA gap-fill, Nov 5: filled Fri Nov 6 3:30 PM ET by scheduling the already-built #95 (Lendeborg peer pressure; QA PASS re-run, private + publishAt via schedule_ready). No new build, no credits spent.
 
+## Sat Nov 7, 2026 (FC cloud run, 09:25 UTC; CLOUD DAILY RULES + daily-run skill of Nov 6)
+
+STATUS: blocked, no build. Voice and Gemini keys set; `preflight.py --quiet`: BLOCKED (YT_CLIENT_ID, YT_CLIENT_SECRET, YT_UPLOAD_TOKEN, YT_UPLOAD_TOKEN_FC missing in this environment). `next_gap.py fc`: NO GAP in 54 h. The skill's "no gap: prep the next two ideas" is already met (S21, S22, S36 scripted past the scheduled S31/S32/S30), so nothing new written. No credits spent.
+- Data: public counts: S28 24K (~1 d), S25 24K, S26 19K, S19 3.8K, S30 1.9K (~12 h), S27 1.3K (~2 d), S20 1.2K. `learn.py all` refreshed (goalkeeper trick n=6, 6.5x).
+- Learned: Lessons Learned Nov 7 (the shootout moment carries the goalkeeper lane; S27 without one missed).
+
 ## Sat Nov 7, 2026 (NBA cloud routine, account 2 session)
 
 STATUS: blocked, no build (3rd day). Voice and Gemini keys set; `preflight.py --quiet`: BLOCKED (YT_CLIENT_ID, YT_CLIENT_SECRET, YT_UPLOAD_TOKEN, YT_UPLOAD_TOKEN_FC missing in this session's environment); no credits spent. Next NBA gap: Sat Nov 7 3:30 PM ET, in range of the PC gap-fill (6:45 AM ET).
