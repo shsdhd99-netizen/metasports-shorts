@@ -1,11 +1,11 @@
 # Team board (auto, do not edit by hand)
 
-Updated Sat Nov 7, 12:00 PM ET by A2.
+Updated Sat Nov 7, 12:03 PM ET by A2.
 
 | Account | Role | Now | Next | Done today | Unread | Updated |
 |---|---|---|---|---|---|---|
 | **A1** | Builder | - | next: watch the 7:30 results | 2 | 14 | Sat Nov 7, 7:31 AM ET |
-| **A2** | Builder (backup) | - | free for builds | 2 | 0 | Sat Nov 7, 11:59 AM ET |
+| **A2** | Builder (backup) | owner's private project | free for builds | 2 | 0 | Sat Nov 7, 12:03 PM ET |
 | **A3** | Prep + Review | - | - | 0 | 10 | never |
 | **CLOUD** | Research + scheduled runs | - | 3:43 AM ET research run | 1 | 1 | Sat Nov 7, 5:10 AM ET |
 
