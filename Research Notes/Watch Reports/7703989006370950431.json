@@ -1,0 +1,168 @@
+{
+ "length_s": 63.0,
+ "topic": "An analysis of basketball player Eli Ellis's playstyle and why high-volume scoring without defense or elite size limits his role at higher levels.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "If you were to Google Eli Ellis you would see that he's a high volume scorer",
+  "first_frame": "Basketball court footage of Eli Ellis dribbling near the top of the key with a top overlay reading 'ELI ELLIS DOESN'T HAVE A ROLE IN BASKETBALL'.",
+  "on_screen_text_0_3s": "ELI ELLIS DOESN'T HAVE A ROLE IN BASKETBALL",
+  "shots_in_first_3s": 1
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 7.25,
+   "shows": "Eli Ellis dribbling, driving, and shooting a pull-up jumper in an Overtime Elite game.",
+   "kind": "action"
+  },
+  {
+   "start_s": 7.25,
+   "end_s": 10.25,
+   "shows": "Eli Ellis pulling up for a deep three-pointer.",
+   "kind": "action"
+  },
+  {
+   "start_s": 10.25,
+   "end_s": 13.5,
+   "shows": "Eli Ellis driving past defenders into the paint for a layup.",
+   "kind": "action"
+  },
+  {
+   "start_s": 13.5,
+   "end_s": 16.85,
+   "shows": "Eli Ellis taking a long-range three-pointer from the left wing.",
+   "kind": "action"
+  },
+  {
+   "start_s": 16.85,
+   "end_s": 21.5,
+   "shows": "Eli Ellis making a move in transition and launching another jumper.",
+   "kind": "action"
+  },
+  {
+   "start_s": 21.5,
+   "end_s": 25.0,
+   "shows": "Eli Ellis shooting a step-back three over a defender.",
+   "kind": "action"
+  },
+  {
+   "start_s": 25.0,
+   "end_s": 30.0,
+   "shows": "Eli Ellis dribbling fast down court and shooting a pull-up off the bounce.",
+   "kind": "action"
+  },
+  {
+   "start_s": 30.0,
+   "end_s": 34.75,
+   "shows": "Eli Ellis isolating at the top of the key and shooting a contestant three.",
+   "kind": "action"
+  },
+  {
+   "start_s": 34.75,
+   "end_s": 39.0,
+   "shows": "Eli Ellis driving fastbreak for a high-arcing layup attempt.",
+   "kind": "action"
+  },
+  {
+   "start_s": 39.0,
+   "end_s": 42.25,
+   "shows": "Eli Ellis pulling up for a mid-range jumper on the wing.",
+   "kind": "action"
+  },
+  {
+   "start_s": 42.25,
+   "end_s": 46.25,
+   "shows": "Eli Ellis attempting to drive through crowded defense.",
+   "kind": "action"
+  },
+  {
+   "start_s": 46.25,
+   "end_s": 51.5,
+   "shows": "Eli Ellis working off a screen to shoot a step-back jumper.",
+   "kind": "action"
+  },
+  {
+   "start_s": 51.5,
+   "end_s": 53.75,
+   "shows": "Eli Ellis pulling up for a transition three-pointer.",
+   "kind": "action"
+  },
+  {
+   "start_s": 53.75,
+   "end_s": 59.25,
+   "shows": "Eli Ellis pushing the pace in transition and taking a contested jump shot.",
+   "kind": "action"
+  },
+  {
+   "start_s": 59.25,
+   "end_s": 63.0,
+   "shows": "Eli Ellis losing control of the ball and falling to the court under heavy defensive pressure.",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 15,
+ "average_shot_s": 4.2,
+ "longest_shot_s": 7.25,
+ "voice": {
+  "type": "human",
+  "gender": "male",
+  "words_per_minute_estimate": 170,
+  "tone": "opinionated, analytical, provocative",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": false,
+  "style": "none",
+  "level_vs_voice": "none",
+  "starts_at_s": null
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": false,
+  "words_per_line": null,
+  "case": null,
+  "position": null,
+  "colours": null,
+  "highlight_style": null
+ },
+ "text_overlays": [
+  {
+   "at_s": 0.0,
+   "text": "ELI ELLIS DOESN'T HAVE A ROLE IN BASKETBALL"
+  }
+ ],
+ "cards_or_graphics": 0,
+ "framing": "blurred background",
+ "ending": {
+  "last_words": "Eli Ellis's role on the basketball floor doesn't exist.",
+  "last_frame": "Eli Ellis falling onto the hardwood after a contested drive into the lane.",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "If you were to Google Eli Ellis, you would see that he's a high-volume scorer. High-volume scorer means absolutely nothing except a guy who's been given a bunch of shots. When Eli Ellis got to South Carolina, they didn't give him a bunch of shots. So now all of a sudden he's just a scorer. And then Eli Ellis was only 6-foot, he can't score on everybody, so he's just kind of a scorer. And then Eli Ellis doesn't play any defense, so he's a one-trick pony. But I thought Eli Ellis was a 32-point-a-game scorer, and he was the Overtime Elite greatest player ever. I thought that Eli Ellis was supposed to be a star. I thought Eli Ellis was a 4-star recruit. 60 days from today Eli Ellis will be in the portal asking a mid-major university if they're gonna let him take 30 shots for their team. There's no such thing as a high-volume scorer. It's just a guy taking a bunch of shots. Eli Ellis's role on the basketball floor doesn't exist.",
+ "retention_tricks": [
+  "bold opening hot-take text banner",
+  "relentless stream of shooting highlights matching the commentary",
+  "escalating critique building to a final thesis statement"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": false,
+  "ends_on_payoff": true,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "The provocative claim in the opening title immediately hooks fans of high school basketball scouting.",
+  "Continuous game highlights reinforce the speaker's argument about shot selection and volume shooting.",
+  "Unfiltered, direct narrative commentary subverts typical hype-compilation tropes to create high engagement."
+ ],
+ "_meta": {
+  "source": "/tmp/claude-0/-home-user-metasports-shorts/bc228739-3662-5759-8934-674d6d03bfcf/scratchpad/tt/media/7703989006370950431.mp4",
+  "model": "gemini-3.6-flash",
+  "fps": 4.0,
+  "watched": "2026-11-07",
+  "tier": "[S] model-observed, not measured"
+ }
+}
