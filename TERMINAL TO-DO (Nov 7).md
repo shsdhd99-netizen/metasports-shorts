@@ -25,3 +25,15 @@ Open slots below are from `Research Notes/Coming Out.md` (11:59 AM ET) and `Tool
 10. [ ] Run `Tools/copy_cloud_env.ps1` so the owner can paste `YT_CLIENT_ID`, `YT_CLIENT_SECRET`, `YT_UPLOAD_TOKEN`, `YT_UPLOAD_TOKEN_FC` into the cloud environment settings themselves. Never print them in chat and never commit them. Tell the owner when it's ready.
 
 ## Owner decisions still open (ask, don't do): see `OWNER TO-DO (Nov 6).md` items 5-11.
+
+## Added Sat Nov 7 afternoon (CLOUD): things the cloud couldn't settle, for the terminal
+The owner is away from home; the PC terminal is on. The cloud can't reach the PC (no Remote Control folder shared), so these come through git.
+11. [ ] **Check the new Hub sections render.** Both Hubs got a jump bar, "How the Shorts are doing" and "Coming up" (`Tools/hub_tracker_block.py`; data = each Hub's db doc `tracker/current`). The cloud checked the code but couldn't view them live. Open NBA https://claude.ai/artifact/SAWcHwuAwBxJuyBQSs8a8U and FC https://claude.ai/artifact/2UVAcbNpKq6j4YXBEF8ge3 (Account 1). If a section says "could not load the numbers" or a chart is blank, fix it in `Tools/hub_tracker_block.py`, re-run it on the Hub's index.html and republish. Message CLOUD with what you found.
+12. [ ] **The other account's Hubs** (NBA EZrk8n855PyYpMFnMnMJd4, FC LFsQtwomdpLAshoz4Xw62H) can only be opened by Account 2. When A2 runs: apply the same block (`python Tools/hub_tracker_block.py <their index.html> nba|fc <other hub url> <out>`), upload `Research Notes/Tracker/hub_<ch>.json` there and set `tracker/current`. Skip it if the owner says those Hubs are retired.
+13. [ ] **The owner's website: no spec anywhere in the repo.** The owner wants the Shorts Hub to be "an all in one place, similar to how I want the website". Search the PC (outside the repo too: Desktop, Documents, the On Demand / Netlify site folders, `Clients/`) for notes on that website. Write what you find in `Research Notes/Website notes.md`; if nothing, add it to the owner's questions (item 15).
+14. [ ] **The cloud runs are blocked at preflight** (YouTube secrets missing in the cloud environment, 4th day). Item 10 above: run `Tools/copy_cloud_env.ps1` so the owner can paste the values into the cloud environment settings when they're back.
+15. [ ] **Owner's decisions to ask when they're back (don't decide for them):**
+    - Merge the NBA and FC Hubs into one Shorts Hub with channel tabs (idea 1 in `HANDOFF - playbook.md`)? The cloud recommends yes, keeping the old Hubs until they switch.
+    - The owner shared a personal detail (their SAT result) and asked for it in the handoff; the cloud's safety check blocked saving it to the shared repo. Ask whether they really want it stored where all accounts read it; store it only on a clear yes.
+    - Pause the cloud FC/NBA build routines while preflight is blocked, or keep them running as zero-credit data runs?
+    - New Studio export (Content > Shorts, both channels): the newest is Nov 4 (FC) and Oct 24 (NBA), so "stayed %" on the Hubs is stale for every newer Short.
