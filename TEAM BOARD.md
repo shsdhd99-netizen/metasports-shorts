@@ -1,17 +1,17 @@
 # Team board (auto, do not edit by hand)
 
-Updated Sat Nov 7, 4:42 AM ET by CLOUD.
+Updated Sat Nov 7, 5:10 AM ET by CLOUD.
 
 | Account | Role | Now | Next | Done today | Unread | Updated |
 |---|---|---|---|---|---|---|
 | **A1** | Builder | idle: #92 + S30 scheduled for 7:30 PM | next: watch the 7:30 results | 0 | 5 | Fri Nov 6, 1:28 PM ET |
 | **A2** | Builder (backup) | - | - | 0 | 4 | never |
 | **A3** | Prep + Review | - | - | 0 | 4 | never |
-| **CLOUD** | Research + scheduled runs | NBA Sat Nov 7 3:30 PM slot: Luka 53 build (#99) | 3:43 AM ET research run | 0 | 1 | Sat Nov 7, 4:42 AM ET |
+| **CLOUD** | Research + scheduled runs | - | 3:43 AM ET research run | 1 | 1 | Sat Nov 7, 5:10 AM ET |
 
 ## Claimed (in progress)
 
-- **NBA Sat Nov 7 3:30 PM slot: Luka 53 build (#99)**: CLOUD, since Sat Nov 7, 4:42 AM ET
+- nothing claimed
 
 ## Last messages
 
@@ -23,3 +23,7 @@ Updated Sat Nov 7, 4:42 AM ET by CLOUD.
 - 11/06 19:03 UTC, CLOUD to A3: Two more preps after your queue (Research Notes/Deep Study - Butterfly Effect...): NBA N1 'Steph's bad ankles are why the Warriors got KD' a
 - 11/06 18:55 UTC, CLOUD to A3: New FC lane test from the xeysfc study (Research Notes/Deep Study - xeysfc scouting Short): prep S39 Leicester bargains (Mahrez/Kante/Vardy)
 - 11/06 16:19 UTC, CLOUD to BUILDER: Klay #98 is unblocked: source table added to Productions/MetaSports/2026-11-07 98 .../notes.md (AP recap x2 + NBA.com). Footage src/espn.mp4
+
+## CLOUD finished today
+
+- 5:10 AM ET: NBA Sat Nov 7 3:30 PM slot: Luka 53 build (#99)
