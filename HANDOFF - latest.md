@@ -1,14 +1,14 @@
-# Handoff (auto), Sat Nov 07 2026, 10:45 UTC, written by account: app account 1 (cloud FC routine)
+# Handoff (auto), Sat Nov 07 2026, 06:46 EST, written by account: PC account 1
 
 Read this first, then `Research Notes/Daily Log.md` (newest entries) before building anything, so two sessions never build the same Short.
 
 ## Note from the last session
-Nov 7: #99 Luka built for Sat 3:30 PM (PC/owner schedules); FC no gap, prepped S38 Bounou + S43 Van der Sar (11/12); next: PC voices S38 for Mon 12 PM
+Nov 7 NBA gap: no build; #99 Luka covers 3:30 PM but qa_final=FIX (12-word line 1), needs fix then schedule_ready --go
 
 ## Team board (who is doing what; full board: `TEAM BOARD.md`, protocol: `TEAM HANDOFF.md`)
 | Account | Role | Now | Next | Done today | Unread | Updated |
 |---|---|---|---|---|---|---|
-| **A1** | Builder | idle: #92 + S30 scheduled for 7:30 PM | next: watch the 7:30 results | 0 | 7 | Fri Nov 6, 1:28 PM ET |
+| **A1** | Builder | idle: #92 + S30 scheduled for 7:30 PM | next: watch the 7:30 results | 0 | 7 | Sat Nov 7, 6:46 AM ET |
 | **A2** | Builder (backup) | - | - | 0 | 5 | never |
 | **A3** | Prep + Review | - | - | 0 | 5 | never |
 | **CLOUD** | Research + scheduled runs | - | 3:43 AM ET research run | 1 | 0 | Sat Nov 7, 5:10 AM ET |
@@ -23,7 +23,7 @@ Nov 7: #99 Luka built for Sat 3:30 PM (PC/owner schedules); FC no gap, prepped S
 - YT_REFRESH_TOKEN_FC: set
 - YT_UPLOAD_TOKEN: set
 - YT_UPLOAD_TOKEN_FC: set
-- NETLIFY_AUTH_TOKEN: MISSING
+- NETLIFY_AUTH_TOKEN: set
 - HEYGEN_API_KEY: MISSING
 
 ## Newest STATUS lines (Daily Log)
@@ -34,6 +34,11 @@ Nov 7: #99 Luka built for Sat 3:30 PM (PC/owner schedules); FC no gap, prepped S
 - STATUS: blocked, no build. Voice and Gemini keys set; `preflight.py --quiet`: BLOCKED (YT_CLIENT_ID, YT_CLIENT_SECRET, YT_UPLOAD_TOKEN, YT_UPLOAD_TOKEN_FC missing in this session's environment), so no credits spent (CLOUD DAILY RULES step 4). Next NBA gap: Sat Nov 7 3:30 PM ET, in range of the PC gap-fill (6:45 AM ET). Same block as Nov 5: this routine's session needs the four YouTube secrets to ever build.
 
 ## Last 15 commits (any account)
+- Nov 07 06:46 PC NBA gap-fill Nov 7: no build, #99 covers slot but QA says FIX
+- Nov 07 06:46 [A1 Builder] team: status:
+- Nov 07 06:46 Merge origin main-329h3w
+- Nov 07 06:46 PC local notes before pull
+- Nov 07 10:45 Handoff (auto) from app account 1 (cloud FC routine)
 - Nov 07 10:45 [CLOUD Research + scheduled runs] team: message to A1
 - Nov 07 10:45 [CLOUD Research + scheduled runs] team: read 1 message(s)
 - Nov 07 10:45 FC run Nov 7: no gap in 54 h; prepped S38 Bounou (1,000 penalties) and S43 Van der Sar (Chelsea's plan), both 11/12 FRESH; idea_triage keeps hand-written sections
@@ -44,11 +49,20 @@ Nov 7: #99 Luka built for Sat 3:30 PM (PC/owner schedules); FC no gap, prepped S
 - Nov 07 10:10 NBA cloud build Nov 7: #99 Luka 40 in six of seven (DRAFT, QA PASS + SHIP), Hub + post task, cut_list count-overlay fix, Daily Log
 - Nov 07 09:42 [CLOUD Research + scheduled runs] team: claim: NBA Sat Nov 7 3:30 PM slot: Luka 53 build (#99)
 - Nov 07 09:25 Handoff (auto) from app account 1 (cloud FC routine)
-- Nov 07 09:25 FC cloud run Nov 7: blocked (YT secrets missing), no FC gap; S28 24K in a day, S27 1.3K; lessons, weights, log, STATE
-- Nov 07 08:46 [CLOUD] Daily research Nov 7: LeBron booed in Cleveland (8 pts), Luka 53, S41/S39 sourced, serial outliers
-- Nov 07 08:46 [CLOUD Research + scheduled runs] team: message to BUILDER
-- Nov 07 08:19 NBA cloud routine Nov 7: STATUS blocked (YouTube tokens missing in this environment), no build
-- Nov 07 03:22 [CLOUD] Watch reports: TikTok page videos (Gemini)
 
 ## Uncommitted here
      M "HANDOFF - latest.md"
+     M "Productions/MetaSports/2026-11-07 99 Luka Scored 53 For His Sixth 40 In Seven/qa_final.json"
+    ?? "Productions/MetaSports/2026-10-29 77 Did Bronny Actually Get Better/qa_final.json"
+    ?? "Productions/MetaSports/2026-10-29 78 Rodman Skipped A Finals Practice To Go Wrestling/qa_final.json"
+    ?? "Productions/MetaSports/2026-10-31 80 The Warriors Flipped The Exact Same Score/DRAFT - awaiting approval - The Lakers Led By 23 And Lost By 17 (no music).mp4"
+    ?? "Productions/MetaSports/2026-10-31 80 The Warriors Flipped The Exact Same Score/qa_final.json"
+    ?? "Productions/MetaSports/2026-11-03 85 Jokic Only Wanted To Go Home/_voice_pretighten/"
+    ?? "Productions/MetaSports/2026-11-03 85 Jokic Only Wanted To Go Home/_voice_prev/"
+    ?? "Productions/MetaSports/2026-11-03 85 Jokic Only Wanted To Go Home/clips/"
+    ?? "Productions/MetaSports/2026-11-03 85 Jokic Only Wanted To Go Home/voice_raw.mp3"
+    ?? "Productions/MetaSports/2026-11-03 87 Draymond Triple Double With Four Points/_voice_pretighten/"
+    ?? "Productions/MetaSports/2026-11-03 87 Draymond Triple Double With Four Points/clips/"
+    ?? "Productions/MetaSports/2026-11-03 87 Draymond Triple Double With Four Points/voice_raw.mp3"
+    ?? "Productions/MetaSports/2026-11-03 DEMO - editing upgrade 73/_render.json"
+    ?? "Productions/MetaSports/2026-11-03 DEMO - editing upgrade 73/captions.ass"
