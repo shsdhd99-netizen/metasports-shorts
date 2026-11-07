@@ -1,16 +1,16 @@
-# Handoff (auto), Sat Nov 07 2026, 15:11 UTC, written by account: app account 1 (cloud)
+# Handoff (auto), Sat Nov 07 2026, 15:36 UTC, written by account: app account 1 (cloud)
 
 Read this first, then `Research Notes/Daily Log.md` (newest entries) before building anything, so two sessions never build the same Short.
 
 ## Note from the last session
-Nov 7: predictor + QA sweep + auto queue + Hub sync + roadmap built and run; next: build the queue's BUILD slots (S38/S43 for Mon)
+Efficiency pass done: build.py, pre-voice gate, shared anchors, espn_clip, tool_check, quieter footage QA. Next: builders use build.py; S38/S43 need UPLOAD.md + voice on the PC.
 
 ## Team board (who is doing what; full board: `TEAM BOARD.md`, protocol: `TEAM HANDOFF.md`)
 | Account | Role | Now | Next | Done today | Unread | Updated |
 |---|---|---|---|---|---|---|
-| **A1** | Builder | - | next: watch the 7:30 results | 2 | 10 | Sat Nov 7, 7:31 AM ET |
-| **A2** | Builder (backup) | - | - | 0 | 8 | never |
-| **A3** | Prep + Review | - | - | 0 | 8 | never |
+| **A1** | Builder | - | next: watch the 7:30 results | 2 | 11 | Sat Nov 7, 7:31 AM ET |
+| **A2** | Builder (backup) | - | - | 0 | 9 | never |
+| **A3** | Prep + Review | - | - | 0 | 9 | never |
 | **CLOUD** | Research + scheduled runs | - | 3:43 AM ET research run | 1 | 0 | Sat Nov 7, 5:10 AM ET |
 
 - nothing claimed
@@ -34,6 +34,9 @@ Nov 7: predictor + QA sweep + auto queue + Hub sync + roadmap built and run; nex
 - STATUS: blocked, no build (3rd day). Voice and Gemini keys set; `preflight.py --quiet`: BLOCKED (YT_CLIENT_ID, YT_CLIENT_SECRET, YT_UPLOAD_TOKEN, YT_UPLOAD_TOKEN_FC missing in this session's environment); no credits spent. Next NBA gap: Sat Nov 7 3:30 PM ET, in range of the PC gap-fill (6:45 AM ET).
 
 ## Last 15 commits (any account)
+- Nov 07 15:36 [CLOUD Research + scheduled runs] team: message to ALL
+- Nov 07 15:35 Efficiency pass: build.py, pre-voice gate, shared anchors, ESPN clips, tool check
+- Nov 07 15:11 Handoff (auto) from app account 1 (cloud)
 - Nov 07 15:11 [CLOUD Research + scheduled runs] team: message to ALL
 - Nov 07 15:11 Scoring, QA, auto queue, Hub sync and roadmap (Nov 7, owner request)
 - Nov 07 14:50 Handoff (auto) from app account 1 (cloud)
@@ -46,9 +49,6 @@ Nov 7: predictor + QA sweep + auto queue + Hub sync + roadmap built and run; nex
 - Nov 07 07:31 Handoff (auto) from PC account 1
 - Nov 07 07:31 [A1 Builder] team: done: FC Mon Nov 9 12:00 S21 Higuita build
 - Nov 07 07:31 [A1 Builder] team: claim: FC Mon Nov 9 12:00 S21 Higuita build
-- Nov 07 07:31 [A1 Builder] team: done: -h
-- Nov 07 07:30 [A1 Builder] team: claim: -h
-- Nov 07 07:30 [A1 Builder] team: status:
 
 ## Uncommitted here
      M "HANDOFF - latest.md"
