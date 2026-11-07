@@ -1,87 +1,87 @@
 {
- "length_s": 20.7,
- "topic": "Rating clips of NBA superstars playing against kids from 1 to 10.",
+ "length_s": 20.5,
+ "topic": "A rating of NBA players playing 1-on-1 against young kids on the basketball court.",
  "lane": "list",
  "hook": {
   "first_words": "none",
-  "first_frame": "James Harden dribbling between his legs guarded by a young kid in a gym.",
-  "on_screen_text_0_3s": "none",
+  "first_frame": "James Harden dribbling a basketball in front of a young boy inside a gym.",
+  "on_screen_text_0_3s": "@thefumble",
   "shots_in_first_3s": 1
  },
  "shots": [
   {
    "start_s": 0.0,
    "end_s": 5.4,
-   "shows": "James Harden crosses up a kid at a basketball camp and drives in for a dunk",
+   "shows": "James Harden dribbling against a young defender and driving to score.",
    "kind": "action"
   },
   {
    "start_s": 5.4,
-   "end_s": 6.4,
-   "shows": "Creator holding up a paper sign reading '5/10' with a shrug gesture",
+   "end_s": 6.5,
+   "shows": "Man holding a paper sign reading '5/10' smiling at the camera.",
    "kind": "face"
   },
   {
-   "start_s": 6.4,
-   "end_s": 10.9,
-   "shows": "Joel Embiid jumps over a small child on a court and dunks the ball",
+   "start_s": 6.5,
+   "end_s": 11.0,
+   "shows": "NBA player step-overs and nutmegs a kid on an outdoor basketball court to dunk.",
    "kind": "action"
   },
   {
-   "start_s": 10.9,
+   "start_s": 11.0,
    "end_s": 12.0,
-   "shows": "Creator holds up a '4/10' sign and gives a thumbs down",
+   "shows": "Man holding a sign reading '4/10' while giving a thumbs down.",
    "kind": "face"
   },
   {
    "start_s": 12.0,
-   "end_s": 14.2,
-   "shows": "Kobe Bryant dribbles playfully with a toddler who steals the ball",
+   "end_s": 14.0,
+   "shows": "Kobe Bryant playing gently with a toddler dribbling between his legs.",
    "kind": "action"
   },
   {
-   "start_s": 14.2,
-   "end_s": 15.2,
-   "shows": "Creator holds up a '6/10' sign scratching his head with an amused grin",
+   "start_s": 14.0,
+   "end_s": 15.0,
+   "shows": "Man holding a sign reading '6/10' scratching his head with a cheeky smile.",
    "kind": "face"
   },
   {
-   "start_s": 15.2,
-   "end_s": 19.9,
-   "shows": "A kid dribbles through DeMarcus Cousins' legs and finishes a reverse layup",
+   "start_s": 15.0,
+   "end_s": 20.0,
+   "shows": "A young kid dribbles around an adult player, nutmegs him, and dunks on the rim.",
    "kind": "action"
   },
   {
-   "start_s": 19.9,
-   "end_s": 20.7,
-   "shows": "Creator excitedly raises a '10/10' sign and shouts 'Wow!'",
+   "start_s": 20.0,
+   "end_s": 20.5,
+   "shows": "Man holding a sign reading '10/10' shouting 'Wow!' with extreme excitement.",
    "kind": "face"
   }
  ],
  "shot_count": 8,
- "average_shot_s": 2.59,
+ "average_shot_s": 2.56,
  "longest_shot_s": 5.4,
  "voice": {
   "type": "human",
   "gender": "male",
-  "words_per_minute_estimate": 12,
-  "tone": "expressive and reactive",
+  "words_per_minute_estimate": 10,
+  "tone": "excited",
   "original_audio_under_voice": true
  },
  "music": {
   "present": true,
-  "style": "hip hop and urban background tracks inside clip audio",
-  "level_vs_voice": "equal",
+  "style": "upbeat background music",
+  "level_vs_voice": "loud",
   "starts_at_s": 0.0
  },
  "sound_effects": [],
  "captions": {
   "present": false,
-  "words_per_line": "none",
-  "case": "sentence",
-  "position": "middle",
-  "colours": "none",
-  "highlight_style": "none"
+  "words_per_line": null,
+  "case": null,
+  "position": null,
+  "colours": null,
+  "highlight_style": null
  },
  "text_overlays": [
   {
@@ -89,47 +89,31 @@
    "text": "@thefumble"
   },
   {
-   "at_s": 5.4,
-   "text": "5/10"
-  },
-  {
-   "at_s": 6.4,
+   "at_s": 6.5,
    "text": "@nbcsphilly"
-  },
-  {
-   "at_s": 10.9,
-   "text": "4/10"
   },
   {
    "at_s": 12.0,
    "text": "@nba"
   },
   {
-   "at_s": 14.2,
-   "text": "6/10"
-  },
-  {
-   "at_s": 15.2,
+   "at_s": 15.0,
    "text": "@kramos013"
-  },
-  {
-   "at_s": 19.9,
-   "text": "10/10"
   }
  ],
  "cards_or_graphics": 0,
  "framing": "crop",
  "ending": {
   "last_words": "Wow!",
-  "last_frame": "Creator holding a handwritten 10/10 paper sign smiling broadly.",
+  "last_frame": "Man holding 10/10 paper sign with his mouth open in awe.",
   "loops_to_start": false,
   "call_to_action": "none"
  },
- "script": "Mmm. Mmm. Mmm. Wow!",
+ "script": "Wow!",
  "retention_tricks": [
-  "predictable scorecard pattern",
-  "increasing payoff building up to a 10/10 clip",
-  "humorous juxtaposition of NBA giants vs tiny kids"
+  "pattern interrupts",
+  "ranking concept",
+  "surprising final twist"
  ],
  "subject_visible_0_1s": true,
  "devices": {
@@ -140,15 +124,15 @@
   "reaction_shot": true
  },
  "what_makes_it_work": [
-  "Repetitive, easy-to-follow scorecard structure keeps viewers watching to see what gets the top score.",
-  "Humorous clips of NBA superstars bullying kids contrasted with the final clip where a kid embarrasses an NBA star.",
-  "Lively, expressive facial reactions between each clip add human charm with minimal dialogue needed."
+  "Fast-paced structure alternating clips of famous basketball players with immediate rating score reactions.",
+  "Wholesome and entertaining clips of NBA stars interacting with young fans.",
+  "Subverted expectations in the final clip where the kid scores on the pro player, earning the 10/10 rating."
  ],
  "_meta": {
-  "source": "HgSyu5Vpgio",
-  "model": "gemini-3.8-flash",
+  "source": "https://www.youtube.com/shorts/HgSyu5Vpgio",
+  "model": "gemini-3.6-flash",
   "fps": 4.0,
-  "watched": "2026-10-30",
+  "watched": "2026-11-07",
   "tier": "[S] model-observed, not measured"
  }
 }
