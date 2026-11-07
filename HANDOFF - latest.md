@@ -1,17 +1,17 @@
-# Handoff (auto), Sat Nov 07 2026, 11:06 EST, written by account: PC account 2
+# Handoff (auto), Sat Nov 07 2026, 12:03 EST, written by account: PC account 2
 
 Read this first, then `Research Notes/Daily Log.md` (newest entries) before building anything, so two sessions never build the same Short.
 
 ## Note from the last session
-A2 was moved to the owner's private side project; no MetaSports build. #99 Luka (Sat 3:30 PM) still NOT scheduled: dry run OK, local qa_final HOLD only because cloud clips are missing on the PC; BUILDER told.
+#99 Luka fixed (Oct 30 label), re-rendered, SHIP, scheduled Sat 3:30 PM. New Tools/coming_out.py (Desktop list of release times). Open: Sun 7:15 AM NBA empty; S43 Mon 6 PM; Klay #98.
 
 ## Team board (who is doing what; full board: `TEAM BOARD.md`, protocol: `TEAM HANDOFF.md`)
 | Account | Role | Now | Next | Done today | Unread | Updated |
 |---|---|---|---|---|---|---|
-| **A1** | Builder | - | next: watch the 7:30 results | 2 | 12 | Sat Nov 7, 7:31 AM ET |
-| **A2** | Builder (backup) | owner's private side project (not MetaSports) | free for builds | 1 | 0 | Sat Nov 7, 11:05 AM ET |
-| **A3** | Prep + Review | - | - | 0 | 9 | never |
-| **CLOUD** | Research + scheduled runs | - | 3:43 AM ET research run | 1 | 0 | Sat Nov 7, 5:10 AM ET |
+| **A1** | Builder | - | next: watch the 7:30 results | 2 | 14 | Sat Nov 7, 7:31 AM ET |
+| **A2** | Builder (backup) | owner's private project | free for builds | 2 | 0 | Sat Nov 7, 12:03 PM ET |
+| **A3** | Prep + Review | - | - | 0 | 10 | never |
+| **CLOUD** | Research + scheduled runs | - | 3:43 AM ET research run | 1 | 1 | Sat Nov 7, 5:10 AM ET |
 
 - nothing claimed
 
@@ -34,6 +34,14 @@ A2 was moved to the owner's private side project; no MetaSports build. #99 Luka 
 - STATUS: blocked, no build (3rd day). Voice and Gemini keys set; `preflight.py --quiet`: BLOCKED (YT_CLIENT_ID, YT_CLIENT_SECRET, YT_UPLOAD_TOKEN, YT_UPLOAD_TOKEN_FC missing in this session's environment); no credits spent. Next NBA gap: Sat Nov 7 3:30 PM ET, in range of the PC gap-fill (6:45 AM ET).
 
 ## Last 15 commits (any account)
+- Nov 07 12:03 [A2 Builder (backup)] team: status: owner's private project
+- Nov 07 12:00 [A2 Builder (backup)] coming_out.py: Desktop + repo list of what goes live when; refreshed after every schedule_ready --go
+- Nov 07 12:00 [A2 Builder (backup)] team: message to BUILDER
+- Nov 07 11:59 [A2 Builder (backup)] team: message to ALL
+- Nov 07 11:59 [A2 Builder (backup)] team: done: #99 Luka: fix Oct 31->Oct 30 label, re-render, QA, schedule Sat
+- Nov 07 11:58 [A2 Builder (backup)] #99 Luka: fix Oct 30 label, re-render, qa_final SHIP, scheduled Sat 3:30 PM ET
+- Nov 07 11:56 [A2 Builder (backup)] team: claim: #99 Luka: fix Oct 31->Oct 30 label, re-render, QA, schedule Sat
+- Nov 07 11:06 [A2 Builder (backup)] Handoff (auto) from PC account 2
 - Nov 07 11:05 [A2 Builder (backup)] team: read 9 message(s)
 - Nov 07 11:05 [A2 Builder (backup)] team: status: owner's private side project (not MetaSports)
 - Nov 07 10:57 [A2 Builder (backup)] team: message to BUILDER
@@ -41,18 +49,12 @@ A2 was moved to the owner's private side project; no MetaSports build. #99 Luka 
 - Nov 07 10:56 [A2 Builder (backup)] team: claim: #99 Luka schedule for Sat 3:30 PM
 - Nov 07 10:55 [A2 Builder (backup)] Handoff (auto) from PC account 2 (start)
 - Nov 07 10:55 [A2 Builder (backup)] team: status: starting a session
-- Nov 07 15:36 Handoff (auto) from app account 1 (cloud)
-- Nov 07 15:36 [CLOUD Research + scheduled runs] team: message to ALL
-- Nov 07 15:35 Efficiency pass: build.py, pre-voice gate, shared anchors, ESPN clips, tool check
-- Nov 07 15:11 Handoff (auto) from app account 1 (cloud)
-- Nov 07 15:11 [CLOUD Research + scheduled runs] team: message to ALL
-- Nov 07 15:11 Scoring, QA, auto queue, Hub sync and roadmap (Nov 7, owner request)
-- Nov 07 14:50 Handoff (auto) from app account 1 (cloud)
-- Nov 07 14:50 [CLOUD Research + scheduled runs] team: message to ALL
 
 ## Uncommitted here
      M "HANDOFF - latest.md"
-     M "Productions/MetaSports/2026-11-07 99 Luka Scored 53 For His Sixth 40 In Seven/qa_final.json"
+     M "Productions/MetaSports/2026-11-07 99 Luka Scored 53 For His Sixth 40 In Seven/DRAFT - awaiting approval - Luka Has Scored 40 In Six Of His Last Seven Games (no music).mp4"
+     M "Productions/MetaSports/2026-11-07 99 Luka Scored 53 For His Sixth 40 In Seven/captions.ass"
+     M "Productions/MetaSports/2026-11-07 99 Luka Scored 53 For His Sixth 40 In Seven/clips/_L11_overlay.json"
      M "Research Notes/QA Final Log.csv"
     ?? "Productions/MetaSports/2026-10-29 77 Did Bronny Actually Get Better/qa_final.json"
     ?? "Productions/MetaSports/2026-10-29 78 Rodman Skipped A Finals Practice To Go Wrestling/qa_final.json"
@@ -64,5 +66,3 @@ A2 was moved to the owner's private side project; no MetaSports build. #99 Luka 
     ?? "Productions/MetaSports/2026-11-03 85 Jokic Only Wanted To Go Home/voice_raw.mp3"
     ?? "Productions/MetaSports/2026-11-03 87 Draymond Triple Double With Four Points/_voice_pretighten/"
     ?? "Productions/MetaSports/2026-11-03 87 Draymond Triple Double With Four Points/clips/"
-    ?? "Productions/MetaSports/2026-11-03 87 Draymond Triple Double With Four Points/voice_raw.mp3"
-    ?? "Productions/MetaSports/2026-11-03 DEMO - editing upgrade 73/_render.json"
