@@ -111,7 +111,8 @@ Other series worth a test: "Managers who..." (Ferguson's boot and Beckham, 2003;
 | S36 | The goalkeeper who got the penalty rules changed | his reply: "They did it too late" | **script + sources** (`Productions/2026-11-13 S36 ...`) | TAKEN (500K+ storyteller): last in queue, needs the "too late" angle up front |
 | S23 | The goalkeeper who scored after 13 seconds from his own box | Begović, Stoke v Southampton, 2 Nov 2013 (Guinness) | idea: sources to check | not run |
 | S37 | The goalkeeper who watched five years of the other team's penalties | Čech, 2012 final | idea: sources to check | not run |
-| S38 | The team that practised 1,000 penalties and scored none | Bounou v Spain 2022 | idea: sources to check (Luis Enrique's "1,000 penalties" quote) | not run |
+| S38 | The goalkeeper who beat a team that practised 1,000 penalties | Bounou v Spain 2022 | **PREP: ready to voice** (Nov 7): script 215 words, 13 sourced claims (Sky/Opta, Goal, AP, BBC, RFEF), FIFA footage `yF5mHzhRBWE`; FRESH; rated 11/12 | not run |
+| S43 | The goalkeeper who found out Chelsea's secret penalty plan | Van der Sar v Anelka, 2008 UCL final | **PREP: ready to voice** (Nov 7): script 226 words, sourced (ESPN, Wikipedia, CNN, Guardian, Van der Sar via GiveMeSport/JOE), TNT/UEFA footage `z-QliFMvpqI`; FRESH; rated 11/12 | not run |
 
 **Two experiments (one variable each), logged in Experiments.csv when built:**
 - E1 (pinned comment): S21 gets a pinned "Part 2: the keeper who scored 131 goals 👇" comment pointing to S22; compare subs per 1K views with the last 4 goalkeeper Shorts (1.49 per 1K).

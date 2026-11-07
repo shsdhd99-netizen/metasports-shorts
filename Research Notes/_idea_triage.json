@@ -39,6 +39,22 @@
    "shape": "family",
    "source": "",
    "date": "2026-11-06"
+  },
+  {
+   "ch": "fc",
+   "idea": "S38 The goalkeeper who beat a team that practised 1,000 penalties (Bounou v Spain 2022; rated 11/12; script + sources ready)",
+   "score": 92.0,
+   "shape": "goalkeeper trick",
+   "source": "https://www.skysports.com/football/morocco-vs-spain/report/463019",
+   "date": "2026-11-07"
+  },
+  {
+   "ch": "fc",
+   "idea": "S43 The goalkeeper who found out Chelsea's secret penalty plan (Van der Sar v Anelka 2008; rated 11/12; script + sources ready)",
+   "score": 92.0,
+   "shape": "goalkeeper trick",
+   "source": "https://www.espn.com/soccer/story/_/id/37475605/penalty-shootouts-champions-league-other-cups-tournaments-decided-science",
+   "date": "2026-11-07"
   }
  ],
  "notes": [

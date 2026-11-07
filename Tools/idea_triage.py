@@ -32,7 +32,25 @@ def render(d):
         for n in [n for n in d["notes"] if n["ch"] == ch]:
             out.append(f"- {n['score']:.0f}% {n['idea']} ({n['date']})")
         out.append("")
+    out += kept_sections()
     open(MD, "w", encoding="utf-8").write("\n".join(out))
+
+
+GENERATED = {"## NBA candidates", "## NBA notes", "## FC candidates", "## FC notes"}
+
+
+def kept_sections():
+    """Hand-written '## ...' sections in the old file (not the four generated ones) are carried over unchanged (Nov 7 fix:
+    a re-render used to delete them, e.g. the N1-N3 butterfly ideas)."""
+    if not os.path.exists(MD):
+        return []
+    keep, on = [], False
+    for line in open(MD, encoding="utf-8").read().split("\n"):
+        if line.startswith("## "):
+            on = line.strip() not in GENERATED
+        if on:
+            keep.append(line)
+    return keep
 
 
 def main():

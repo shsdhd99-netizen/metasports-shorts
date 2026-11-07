@@ -5,6 +5,10 @@ research with sources, what was made, what changed in the rules or tools.
 
 STATUS: PC account 1 NBA gap-fill, Nov 5: filled Fri Nov 6 3:30 PM ET by scheduling the already-built #95 (Lendeborg peer pressure; QA PASS re-run, private + publishAt via schedule_ready). No new build, no credits spent.
 
+## Sat Nov 7, 2026 (FC main-session run, 10:39 UTC; daily-run skill of Nov 6)
+
+AUTO: FC no gap in the next 54 h (`next_gap.py fc`; Sat S29 and Sun S09 are on YouTube; Mon 12 PM is just past 54 h). FC Hub: 0 cards ready. Task-list inbox: empty. Prepped the next two ideas (script + sources, no voice): **S38 Bounou v Spain** ("practised 1,000 penalties", 215 words) and **S43 Van der Sar v Anelka** ("Chelsea's secret penalty plan", 226 words), both goalkeeper-penalty lane, FRESH, rated 11/12, official footage found (FIFA `yF5mHzhRBWE`; TNT `z-QliFMvpqI`). Livakovic/Japan TAKEN, Cech 2012 CROWDED. `preflight.py --quiet`: OK in this main session (the YouTube keys exist here; only the fresh-session routines lack them). Next: the PC voices and cuts S38 for Mon Nov 9 12 PM.
+
 ## Sat Nov 7, 2026 (NBA cloud build, 09:41 UTC; daily-run skill of Nov 6)
 
 AUTO: built #99 "Luka Has Scored 40 In Six Of His Last Seven Games" for the Sat 3:30 PM ET gap (`next_gap.py nba`; Sat 7:15 AM was missed, Klay #98 not built). DRAFT only, not scheduled from the cloud.

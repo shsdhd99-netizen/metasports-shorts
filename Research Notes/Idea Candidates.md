@@ -14,6 +14,8 @@ Trashed so far: 3.
 - 75% List 2: most turnovers (only if List 1 reaches the NBA median at 72 h) (2026-11-06)
 
 ## FC candidates
+- **92%** S38 The goalkeeper who beat a team that practised 1,000 penalties (Bounou v Spain 2022; rated 11/12; script + sources ready) [goalkeeper trick] (2026-11-07) https://www.skysports.com/football/morocco-vs-spain/report/463019
+- **92%** S43 The goalkeeper who found out Chelsea's secret penalty plan (Van der Sar v Anelka 2008; rated 11/12; script + sources ready) [goalkeeper trick] (2026-11-07) https://www.espn.com/soccer/story/_/id/37475605/penalty-shootouts-champions-league-other-cups-tournaments-decided-science
 
 ## FC notes
 - 75% S21 Higuita scorpion (Style v3 test): needs a sharper angle and a clean 1995 clip (2026-11-06)
