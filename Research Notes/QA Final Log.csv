@@ -7,3 +7,31 @@ time,channel,folder,verdict,fails,warns
 2026-11-07 10:03,nba,2026-11-07 99 Luka Scored 53 For His Sixth 40 In Seven,FIX,0,3
 2026-11-07 10:06,nba,2026-11-07 99 Luka Scored 53 For His Sixth 40 In Seven,SHIP,0,2
 2026-11-07 06:46,nba,2026-11-07 99 Luka Scored 53 For His Sixth 40 In Seven,FIX,0,3
+2026-11-06 14:24,fc,2026-11-10 S30 The Ballon d'Or Winner Who Missed A Penalty Days Later,HOLD,2,3
+2026-11-06 14:24,fc,2026-11-10 S30 The Ballon d'Or Winner Who Missed A Penalty Days Later,FIX,0,3
+2026-11-06 15:18,nba,2026-10-29 77 Did Bronny Actually Get Better,HOLD,3,3
+2026-11-06 15:18,nba,2026-10-31 80 The Warriors Flipped The Exact Same Score,HOLD,2,4
+2026-11-06 15:18,nba,2026-10-29 78 Rodman Skipped A Finals Practice To Go Wrestling,HOLD,3,3
+2026-11-06 15:18,fc,2026-10-29 S16 The Manager Who Told His Team To Stop Scoring,HOLD,1,4
+2026-11-06 15:19,fc,2026-10-31 S18 The Manager Barcelona Soaked With Sprinklers,HOLD,3,3
+2026-11-06 16:31,nba,2026-10-29 77 Did Bronny Actually Get Better,HOLD,3,3
+2026-11-06 16:32,nba,2026-10-31 80 The Warriors Flipped The Exact Same Score,HOLD,2,4
+2026-11-06 16:32,nba,2026-10-29 78 Rodman Skipped A Finals Practice To Go Wrestling,HOLD,3,3
+2026-11-06 16:32,fc,2026-10-29 S16 The Manager Who Told His Team To Stop Scoring,HOLD,1,4
+2026-11-06 16:32,fc,2026-10-31 S18 The Manager Barcelona Soaked With Sprinklers,HOLD,3,3
+2026-11-06 16:33,nba,2026-10-29 77 Did Bronny Actually Get Better,HOLD,3,3
+2026-11-06 16:33,nba,2026-10-31 80 The Warriors Flipped The Exact Same Score,HOLD,2,4
+2026-11-06 16:33,nba,2026-10-29 78 Rodman Skipped A Finals Practice To Go Wrestling,HOLD,3,3
+2026-11-06 16:33,fc,2026-10-29 S16 The Manager Who Told His Team To Stop Scoring,HOLD,1,4
+2026-11-06 16:33,fc,2026-10-31 S18 The Manager Barcelona Soaked With Sprinklers,HOLD,3,3
+2026-11-06 16:33,nba,2026-10-29 77 Did Bronny Actually Get Better,HOLD,2,3
+2026-11-06 16:33,nba,2026-10-31 80 The Warriors Flipped The Exact Same Score,FIX,0,4
+2026-11-06 16:33,nba,2026-10-29 78 Rodman Skipped A Finals Practice To Go Wrestling,HOLD,2,3
+2026-11-06 16:33,fc,2026-10-29 S16 The Manager Who Told His Team To Stop Scoring,FIX,0,4
+2026-11-06 16:33,fc,2026-10-31 S18 The Manager Barcelona Soaked With Sprinklers,HOLD,1,3
+2026-11-06 16:33,nba,2026-10-29 77 Did Bronny Actually Get Better,HOLD,2,3
+2026-11-06 16:34,nba,2026-10-29 77 Did Bronny Actually Get Better,HOLD,1,4
+2026-11-06 16:34,nba,2026-10-31 80 The Warriors Flipped The Exact Same Score,FIX,0,4
+2026-11-06 16:34,nba,2026-10-29 78 Rodman Skipped A Finals Practice To Go Wrestling,HOLD,1,4
+2026-11-06 16:34,fc,2026-10-29 S16 The Manager Who Told His Team To Stop Scoring,FIX,0,4
+2026-11-06 16:34,fc,2026-10-31 S18 The Manager Barcelona Soaked With Sprinklers,FIX,0,3
