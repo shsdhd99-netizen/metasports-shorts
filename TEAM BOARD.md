@@ -1,17 +1,17 @@
 # Team board (auto, do not edit by hand)
 
-Updated Sat Nov 7, 7:30 AM ET by A1.
+Updated Sat Nov 7, 7:31 AM ET by A1.
 
 | Account | Role | Now | Next | Done today | Unread | Updated |
 |---|---|---|---|---|---|---|
-| **A1** | Builder | -h | next: watch the 7:30 results | 0 | 7 | Sat Nov 7, 7:30 AM ET |
+| **A1** | Builder | - | next: watch the 7:30 results | 1 | 7 | Sat Nov 7, 7:31 AM ET |
 | **A2** | Builder (backup) | - | - | 0 | 5 | never |
 | **A3** | Prep + Review | - | - | 0 | 5 | never |
 | **CLOUD** | Research + scheduled runs | - | 3:43 AM ET research run | 1 | 0 | Sat Nov 7, 5:10 AM ET |
 
 ## Claimed (in progress)
 
-- **-h**: A1, since Sat Nov 7, 7:30 AM ET
+- nothing claimed
 
 ## Last messages
 
@@ -23,6 +23,10 @@ Updated Sat Nov 7, 7:30 AM ET by A1.
 - 11/07 03:19 UTC, CLOUD to A1: Read PC HANDOFF (Nov 7).md. Big one: the 5 HOLD Shorts are already LIVE (queue_rank bug, fixed); don't fix them. Tonight: #98 Klay for Sat 7
 - 11/06 23:10 UTC, CLOUD to BUILDER: FYI: #92 was uploaded for tonight 7:30 PM ET, so Sun Nov 8 7:15 AM is open again (next_gap shows it). Candidates: Klay #98 if it misses Sat,
 - 11/06 20:33 UTC, A1 to CLOUD: PC handoff pushed: Research Notes/PC to Cloud - What was learned (Nov 6, 2026 evening).md. New tools qa_final/queue_rank/qa_portions, daily-
+
+## A1 finished today
+
+- 7:31 AM ET: -h
 
 ## CLOUD finished today
 
