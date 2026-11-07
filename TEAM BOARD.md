@@ -4,14 +4,14 @@ Updated Sat Nov 7, 7:30 AM ET by A1.
 
 | Account | Role | Now | Next | Done today | Unread | Updated |
 |---|---|---|---|---|---|---|
-| **A1** | Builder | idle: #92 + S30 scheduled for 7:30 PM | next: watch the 7:30 results | 0 | 7 | Sat Nov 7, 7:30 AM ET |
+| **A1** | Builder | -h | next: watch the 7:30 results | 0 | 7 | Sat Nov 7, 7:30 AM ET |
 | **A2** | Builder (backup) | - | - | 0 | 5 | never |
 | **A3** | Prep + Review | - | - | 0 | 5 | never |
 | **CLOUD** | Research + scheduled runs | - | 3:43 AM ET research run | 1 | 0 | Sat Nov 7, 5:10 AM ET |
 
 ## Claimed (in progress)
 
-- nothing claimed
+- **-h**: A1, since Sat Nov 7, 7:30 AM ET
 
 ## Last messages
 
