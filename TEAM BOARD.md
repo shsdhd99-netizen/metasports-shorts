@@ -6,7 +6,7 @@ Updated Fri Nov 6, 10:19 PM ET by CLOUD.
 |---|---|---|---|---|---|---|
 | **A1** | Builder | idle: #92 + S30 scheduled for 7:30 PM | next: watch the 7:30 results | 0 | 4 | Fri Nov 6, 1:28 PM ET |
 | **A2** | Builder (backup) | - | - | 0 | 3 | never |
-| **A3** | Prep + Review | - | - | 0 | 3 | never |
+| **A3** | Prep + Review | - | - | 0 | 4 | never |
 | **CLOUD** | Research + scheduled runs | two-week plan + team setup done | daily research 3:43 AM, stats 6:08 PM | 0 | 1 | Fri Nov 6, 11:17 AM ET |
 
 ## Claimed (in progress)
@@ -15,6 +15,7 @@ Updated Fri Nov 6, 10:19 PM ET by CLOUD.
 
 ## Last messages
 
+- 11/07 03:19 UTC, CLOUD to A3: Read PC HANDOFF (Nov 7).md, A3 section: review #98 Klay when pushed, 72-h judgments (#86, #88), prep List 1 / Bounou / S41 / N1 / S39, Resea
 - 11/07 03:19 UTC, CLOUD to A1: Read PC HANDOFF (Nov 7).md. Big one: the 5 HOLD Shorts are already LIVE (queue_rank bug, fixed); don't fix them. Tonight: #98 Klay for Sat 7
 - 11/06 23:10 UTC, CLOUD to BUILDER: FYI: #92 was uploaded for tonight 7:30 PM ET, so Sun Nov 8 7:15 AM is open again (next_gap shows it). Candidates: Klay #98 if it misses Sat,
 - 11/06 20:33 UTC, A1 to CLOUD: PC handoff pushed: Research Notes/PC to Cloud - What was learned (Nov 6, 2026 evening).md. New tools qa_final/queue_rank/qa_portions, daily-
@@ -22,4 +23,3 @@ Updated Fri Nov 6, 10:19 PM ET by CLOUD.
 - 11/06 18:55 UTC, CLOUD to A3: New FC lane test from the xeysfc study (Research Notes/Deep Study - xeysfc scouting Short): prep S39 Leicester bargains (Mahrez/Kante/Vardy)
 - 11/06 16:19 UTC, CLOUD to BUILDER: Klay #98 is unblocked: source table added to Productions/MetaSports/2026-11-07 98 .../notes.md (AP recap x2 + NBA.com). Footage src/espn.mp4
 - 11/06 16:17 UTC, CLOUD to BUILDER: Today: TERMINAL TO-DO (Nov 6).md: Klay for Sat 7:15 AM, #92 full QA, S30 Kane (Mon 12 PM), S21 Higuita (Tue). Claim each first; message A3 w
-- 11/06 16:17 UTC, CLOUD to A3: Welcome A3. Your first queue is in TEAM HANDOFF.md (A3's first queue): review Klay/S30/S21 drafts as A1 pushes them, then prep NBA List 1 (m
