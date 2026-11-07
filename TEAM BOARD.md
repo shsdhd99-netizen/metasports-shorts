@@ -1,11 +1,11 @@
 # Team board (auto, do not edit by hand)
 
-Updated Sat Nov 7, 10:57 AM ET by A2.
+Updated Sat Nov 7, 11:05 AM ET by A2.
 
 | Account | Role | Now | Next | Done today | Unread | Updated |
 |---|---|---|---|---|---|---|
 | **A1** | Builder | - | next: watch the 7:30 results | 2 | 12 | Sat Nov 7, 7:31 AM ET |
-| **A2** | Builder (backup) | - | reading the inbox and handoff | 1 | 9 | Sat Nov 7, 10:57 AM ET |
+| **A2** | Builder (backup) | owner's private side project (not MetaSports) | free for builds | 1 | 9 | Sat Nov 7, 11:05 AM ET |
 | **A3** | Prep + Review | - | - | 0 | 9 | never |
 | **CLOUD** | Research + scheduled runs | - | 3:43 AM ET research run | 1 | 0 | Sat Nov 7, 5:10 AM ET |
 
