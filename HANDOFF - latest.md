@@ -1,17 +1,17 @@
-# Handoff (auto), Fri Nov 06 2026, 16:43 EST, written by account: PC account 1
+# Handoff (auto), Sat Nov 07 2026, 03:19 UTC, written by account: app account 1 (CLOUD)
 
 Read this first, then `Research Notes/Daily Log.md` (newest entries) before building anything, so two sessions never build the same Short.
 
 ## Note from the last session
-Nov 6 night: qa_final/queue_rank/acct/reel tools, daily-run rewrite+PC exception, fee settlement, footage candidates; Klay #98 gap for Sat 7:15 is for the 6:45 AM gap-fill
+Read PC HANDOFF (Nov 7).md: Klay #98 for Sat 7:15 AM, S21 for Mon 12 PM, #79 Sun 7:15; queue_rank no longer offers live Shorts; A3 queue + background jobs listed.
 
 ## Team board (who is doing what; full board: `TEAM BOARD.md`, protocol: `TEAM HANDOFF.md`)
 | Account | Role | Now | Next | Done today | Unread | Updated |
 |---|---|---|---|---|---|---|
-| **A1** | Builder | idle: #92 + S30 scheduled for 7:30 PM | next: watch the 7:30 results | 2 | 2 | Fri Nov 6, 1:28 PM ET |
-| **A2** | Builder (backup) | - | - | 0 | 2 | never |
-| **A3** | Prep + Review | - | - | 0 | 3 | never |
-| **CLOUD** | Research + scheduled runs | two-week plan + team setup done | daily research 3:43 AM, stats 6:08 PM | 0 | 1 | Fri Nov 6, 11:17 AM ET |
+| **A1** | Builder | idle: #92 + S30 scheduled for 7:30 PM | next: watch the 7:30 results | 0 | 4 | Fri Nov 6, 1:28 PM ET |
+| **A2** | Builder (backup) | - | - | 0 | 3 | never |
+| **A3** | Prep + Review | - | - | 0 | 4 | never |
+| **CLOUD** | Research + scheduled runs | PC handoff Nov 7 + TikTok review + queue_rank fix | 3:43 AM ET research run | 0 | 1 | Fri Nov 6, 10:19 PM ET |
 
 - nothing claimed
 
@@ -23,7 +23,7 @@ Nov 6 night: qa_final/queue_rank/acct/reel tools, daily-run rewrite+PC exception
 - YT_REFRESH_TOKEN_FC: set
 - YT_UPLOAD_TOKEN: set
 - YT_UPLOAD_TOKEN_FC: set
-- NETLIFY_AUTH_TOKEN: set
+- NETLIFY_AUTH_TOKEN: MISSING
 - HEYGEN_API_KEY: MISSING
 
 ## Newest STATUS lines (Daily Log)
@@ -34,35 +34,22 @@ Nov 6 night: qa_final/queue_rank/acct/reel tools, daily-run rewrite+PC exception
 - STATUS: blocked, no build. `cloud_setup.sh`: voice key set, Gemini set; `preflight.py --quiet`: BLOCKED (YT_CLIENT_ID, YT_CLIENT_SECRET, YT_UPLOAD_TOKEN, YT_UPLOAD_TOKEN_FC missing in this session's environment). Per CLOUD DAILY RULES step 4: no credits spent. Next NBA gap (`next_gap.py`): Fri Nov 6 3:30 PM ET; #96 Porzingis and #97 Warriors streak scripts already exist for it, and the PC gap-fill (6:45 AM ET) covers it. Wed Nov 4's run in this session stopped at the weekly usage limit during research (nothing committed).
 
 ## Last 15 commits (any account)
+- Nov 07 03:19 [CLOUD Research + scheduled runs] team: status: PC handoff Nov 7 + TikTok review + queue_rank fix
+- Nov 07 03:19 [CLOUD Research + scheduled runs] team: message to A3
+- Nov 07 03:19 [CLOUD Research + scheduled runs] team: message to A1
+- Nov 07 03:19 [CLOUD] PC handoff Nov 7; TikTok page review; #79 to Sun 7:15 AM; mark 6 live Shorts' cards LIVE so nobody re-fixes them
+- Nov 07 03:17 [CLOUD] queue_rank + schedule_ready: never offer or upload a Short that is already live (owner also posts by hand); title match on the newest API daily files of both channels
+- Nov 06 18:30 Schedule ready drafts (script)
+- Nov 06 23:10 [CLOUD Research + scheduled runs] team: message to BUILDER
+- Nov 06 23:10 [CLOUD] Daily stats Nov 6; #92 slot corrected (uploaded for tonight 7:30 PM ET)
+- Nov 06 16:43 Handoff (auto) from PC account 1
 - Nov 06 16:43 Queue rank refresh
 - Nov 06 16:42 Ideas note: pinned official footage candidates for N1 and F1
 - Nov 06 16:42 daily-run: PC gap-fill exception; fee settlement for F1/F2
 - Nov 06 16:40 Research: 10 NBA + 10 FC ideas rated on the 12-point bar (Nov 6 night)
 - Nov 06 16:38 Deep-dive MetaSports case study (monetization math, ops audit, risks, actions)
 - Nov 06 16:34 Held Shorts: card titles/tags/slots, source links, fix report
-- Nov 06 15:46 acct.py: use claude.cmd, no stdin wait
-- Nov 06 15:46 acct.py: one terminal, three accounts (status/run/auto/fanout)
-- Nov 06 15:33 Handoff (auto) from PC account 1
-- Nov 06 15:33 PC to cloud handoff: tools, QA findings, asks
-- Nov 06 15:33 [A1 Builder] team: message to CLOUD
-- Nov 06 15:27 reel_watch: categorise on transcript body only
-- Nov 06 15:27 reel_watch: categorise on the transcript body only
-- Nov 06 15:19 reel_watch (queue, categorise, index) for the reel inbox
-- Nov 06 14:43 reel_read tool (transcript + Gemini watch ladder); yt_manage_auth channel-lookup error handling
 
 ## Uncommitted here
      M "HANDOFF - latest.md"
-     M "Research Notes/Daily Log.md"
      M "Research Notes/Preflight.md"
-     M "Research Notes/STATE.md"
-    ?? "Productions/MetaSports/2026-10-29 77 Did Bronny Actually Get Better/qa_final.json"
-    ?? "Productions/MetaSports/2026-10-29 78 Rodman Skipped A Finals Practice To Go Wrestling/qa_final.json"
-    ?? "Productions/MetaSports/2026-10-31 80 The Warriors Flipped The Exact Same Score/DRAFT - awaiting approval - The Lakers Led By 23 And Lost By 17 (no music).mp4"
-    ?? "Productions/MetaSports/2026-10-31 80 The Warriors Flipped The Exact Same Score/qa_final.json"
-    ?? "Productions/MetaSports/2026-11-03 85 Jokic Only Wanted To Go Home/_voice_pretighten/"
-    ?? "Productions/MetaSports/2026-11-03 85 Jokic Only Wanted To Go Home/_voice_prev/"
-    ?? "Productions/MetaSports/2026-11-03 85 Jokic Only Wanted To Go Home/clips/"
-    ?? "Productions/MetaSports/2026-11-03 85 Jokic Only Wanted To Go Home/voice_raw.mp3"
-    ?? "Productions/MetaSports/2026-11-03 87 Draymond Triple Double With Four Points/_voice_pretighten/"
-    ?? "Productions/MetaSports/2026-11-03 87 Draymond Triple Double With Four Points/clips/"
-    ?? "Productions/MetaSports/2026-11-03 87 Draymond Triple Double With Four Points/voice_raw.mp3"
