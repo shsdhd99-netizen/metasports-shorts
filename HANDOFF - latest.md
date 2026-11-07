@@ -1,15 +1,12 @@
-# Handoff (auto), Sat Nov 07 2026, 15:36 UTC, written by account: app account 1 (cloud)
+# Handoff (auto), Sat Nov 07 2026, 10:55 EST, written by account: PC account 2 (start)
 
 Read this first, then `Research Notes/Daily Log.md` (newest entries) before building anything, so two sessions never build the same Short.
-
-## Note from the last session
-Efficiency pass done: build.py, pre-voice gate, shared anchors, espn_clip, tool_check, quieter footage QA. Next: builders use build.py; S38/S43 need UPLOAD.md + voice on the PC.
 
 ## Team board (who is doing what; full board: `TEAM BOARD.md`, protocol: `TEAM HANDOFF.md`)
 | Account | Role | Now | Next | Done today | Unread | Updated |
 |---|---|---|---|---|---|---|
 | **A1** | Builder | - | next: watch the 7:30 results | 2 | 11 | Sat Nov 7, 7:31 AM ET |
-| **A2** | Builder (backup) | - | - | 0 | 9 | never |
+| **A2** | Builder (backup) | starting a session | reading the inbox and handoff | 0 | 9 | Sat Nov 7, 10:55 AM ET |
 | **A3** | Prep + Review | - | - | 0 | 9 | never |
 | **CLOUD** | Research + scheduled runs | - | 3:43 AM ET research run | 1 | 0 | Sat Nov 7, 5:10 AM ET |
 
@@ -23,7 +20,7 @@ Efficiency pass done: build.py, pre-voice gate, shared anchors, espn_clip, tool_
 - YT_REFRESH_TOKEN_FC: set
 - YT_UPLOAD_TOKEN: set
 - YT_UPLOAD_TOKEN_FC: set
-- NETLIFY_AUTH_TOKEN: MISSING
+- NETLIFY_AUTH_TOKEN: set
 - HEYGEN_API_KEY: MISSING
 
 ## Newest STATUS lines (Daily Log)
@@ -34,6 +31,8 @@ Efficiency pass done: build.py, pre-voice gate, shared anchors, espn_clip, tool_
 - STATUS: blocked, no build (3rd day). Voice and Gemini keys set; `preflight.py --quiet`: BLOCKED (YT_CLIENT_ID, YT_CLIENT_SECRET, YT_UPLOAD_TOKEN, YT_UPLOAD_TOKEN_FC missing in this session's environment); no credits spent. Next NBA gap: Sat Nov 7 3:30 PM ET, in range of the PC gap-fill (6:45 AM ET).
 
 ## Last 15 commits (any account)
+- Nov 07 10:55 [A2 Builder (backup)] team: status: starting a session
+- Nov 07 15:36 Handoff (auto) from app account 1 (cloud)
 - Nov 07 15:36 [CLOUD Research + scheduled runs] team: message to ALL
 - Nov 07 15:35 Efficiency pass: build.py, pre-voice gate, shared anchors, ESPN clips, tool check
 - Nov 07 15:11 Handoff (auto) from app account 1 (cloud)
@@ -47,8 +46,20 @@ Efficiency pass done: build.py, pre-voice gate, shared anchors, espn_clip, tool_
 - Nov 07 09:00 Automation check (script)
 - Nov 07 07:31 FC gap Mon Nov 9 12:00: skipped, S21 gauge 36%
 - Nov 07 07:31 Handoff (auto) from PC account 1
-- Nov 07 07:31 [A1 Builder] team: done: FC Mon Nov 9 12:00 S21 Higuita build
-- Nov 07 07:31 [A1 Builder] team: claim: FC Mon Nov 9 12:00 S21 Higuita build
 
 ## Uncommitted here
      M "HANDOFF - latest.md"
+    ?? "Productions/MetaSports/2026-10-29 77 Did Bronny Actually Get Better/qa_final.json"
+    ?? "Productions/MetaSports/2026-10-29 78 Rodman Skipped A Finals Practice To Go Wrestling/qa_final.json"
+    ?? "Productions/MetaSports/2026-10-31 80 The Warriors Flipped The Exact Same Score/DRAFT - awaiting approval - The Lakers Led By 23 And Lost By 17 (no music).mp4"
+    ?? "Productions/MetaSports/2026-10-31 80 The Warriors Flipped The Exact Same Score/qa_final.json"
+    ?? "Productions/MetaSports/2026-11-03 85 Jokic Only Wanted To Go Home/_voice_pretighten/"
+    ?? "Productions/MetaSports/2026-11-03 85 Jokic Only Wanted To Go Home/_voice_prev/"
+    ?? "Productions/MetaSports/2026-11-03 85 Jokic Only Wanted To Go Home/clips/"
+    ?? "Productions/MetaSports/2026-11-03 85 Jokic Only Wanted To Go Home/voice_raw.mp3"
+    ?? "Productions/MetaSports/2026-11-03 87 Draymond Triple Double With Four Points/_voice_pretighten/"
+    ?? "Productions/MetaSports/2026-11-03 87 Draymond Triple Double With Four Points/clips/"
+    ?? "Productions/MetaSports/2026-11-03 87 Draymond Triple Double With Four Points/voice_raw.mp3"
+    ?? "Productions/MetaSports/2026-11-03 DEMO - editing upgrade 73/_render.json"
+    ?? "Productions/MetaSports/2026-11-03 DEMO - editing upgrade 73/captions.ass"
+    ?? "Productions/MetaSports/2026-11-03 DEMO - editing upgrade 73/captions.srt"
