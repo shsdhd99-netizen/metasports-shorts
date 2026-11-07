@@ -321,3 +321,5 @@ STATUS: plan written, `Research Notes/Two-Week Plan (Nov 7-20, 2026).md`. Slotte
 
 ## Fri Nov 6, ~12:30 UTC: study + handoff (cloud)
 STATUS: wrote `Research Notes/Script and Retention Study (Nov 6, 2026).md` (stayed 74%+ = 3.6x views; editing variables move stayed by 3 pts or less; pace above 230 wpm helps; hits keep a 0.88 audience ratio at 90% vs 0.65), `Research Notes/Autopilot Skill - Proposed Edits (Nov 6, 2026).md` (not applied; owner to OK) and `TERMINAL TO-DO (Nov 6).md`. Gemini watches of 7 competitor outliers still running (503 retries).
+
+- 2026-11-06 (weekly_review.py): STATUS: wrote `Weekly Review 2026-11-06.md`.

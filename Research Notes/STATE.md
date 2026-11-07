@@ -1,15 +1,15 @@
 # STATE (one page for any account/session; update at the end of every run)
 <!-- AUTO:START -->
-## AUTO (written by `python Tools/state.py`, 2026-11-06 06:30 local; do not edit by hand)
+## AUTO (written by `python Tools/state.py`, 2026-11-07 06:30 local; do not edit by hand)
 - Builder: cloud
-- Preflight: PREFLIGHT BLOCKED: key YT_CLIENT_ID; key YT_CLIENT_SECRET; key YT_UPLOAD_TOKEN; key YT_UPLOAD_TOKEN_FC (4 warnings)**
-- Disk free: 16.6 GB
+- Preflight: PREFLIGHT OK (2 warnings)**
+- Disk free: 14.3 GB
 - NBA: 23,851 Shorts views/day (7-day), 488,299 in the last 90 days (4.9% of the 10M line), data to 2026-11-02
 - FC: 9,565 Shorts views/day (7-day), 120,771 in the last 90 days (1.2% of the 10M line), data to 2026-11-02
-- Next open slot: NBA GAP nba 2026-11-07 15:30 ET (Sat Nov 7, 03:30 PM ET); FC NO GAP fc in the next 54 h
-- Last scheduler lines: - 2026-11-05 06:47 ET: scheduled 1: 2026-11-05 95 A Rookie Chased 40 Because His Teammates Said So; skipped/refused 1. | - 2026-11-05 18:30 ET: scheduled 0; skipped/refused 1. | - 2026-11-06 06:30 ET: scheduled 0; skipped/refused 1.
-- Last cloud STATUS lines: STATUS: blocked, no build. BUILDER.txt = `cloud`; `cloud_setup.sh`: voice key set, Gemini set; `pref | STATUS: blocked, no build. `cloud_setup.sh`: voice key set, Gemini set; `preflight.py --quiet`: BLOC | STATUS: Automation check written to Research Notes/Automation Check.md: PC timers PASS; cloud 3:17/4
-- **Needs attention:** preflight: PREFLIGHT BLOCKED: key YT_CLIENT_ID; key YT_CLIENT_SECRET; key YT_UPLOAD_TOKEN; key YT_UPLOAD_TOKEN_FC (4 warnings)**; cloud routines: the last STATUS says blocked (keys missing in the cloud environment?)
+- Next open slot: NBA GAP nba 2026-11-07 15:30 ET (Sat Nov 7, 03:30 PM ET); FC GAP fc 2026-11-09 12:00 ET (Mon Nov 9, 12:00 PM ET)
+- Last scheduler lines: - 2026-11-06 06:30 ET: scheduled 0; skipped/refused 1. | - 2026-11-06 18:30 ET: scheduled 2: 2026-10-20 59 Why The WNBA Minimum Is Now Bigger Than The Max; 2026-10-24 67 Jordan  | - 2026-11-07 06:30 ET: scheduled 0; skipped/refused 2.
+- Last cloud STATUS lines: STATUS: blocked, no build. `cloud_setup.sh`: voice key set, Gemini set; `preflight.py --quiet`: BLOC | STATUS: Automation check written to Research Notes/Automation Check.md: PC timers PASS; cloud 3:17/4 | STATUS: plan written, `Research Notes/Two-Week Plan (Nov 7-20, 2026).md`. Slotted the built drafts s
+- **Needs attention:** nba: open slot within 30 h (GAP nba 2026-11-07 15:30 ET (Sat Nov 7, 03:30 PM ET))
 <!-- AUTO:END -->
 - Updated: 2026-11-04 17:30 ET by PC account 1 (full-automation prompt run).
 - Builder: `cloud` (see `BUILDER.txt`); routines NBA 3:17 AM ET, FC 4:23 AM ET.
