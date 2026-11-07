@@ -5,7 +5,7 @@ Updated Sat Nov 7, 2:20 PM ET by A2.
 | Account | Role | Now | Next | Done today | Unread | Updated |
 |---|---|---|---|---|---|---|
 | **A1** | Builder | - | next: watch the 7:30 results | 2 | 16 | Sat Nov 7, 7:31 AM ET |
-| **A2** | Builder (backup) | S38 Bounou Mon Nov 9 12 PM FC + S43 Mon 6 PM FC | free for builds | 2 | 0 | Sat Nov 7, 2:20 PM ET |
+| **A2** | Builder (backup) | now: building Sun 7:15 AM NBA List 1, then S38/S43 | next: tidy-ups, A2 Hubs | 2 | 0 | Sat Nov 7, 2:20 PM ET |
 | **A3** | Prep + Review | - | - | 0 | 10 | never |
 | **CLOUD** | Research + scheduled runs | - | 3:43 AM ET research run | 1 | 1 | Sat Nov 7, 5:10 AM ET |
 
