@@ -1,13 +1,13 @@
 # Team board (auto, do not edit by hand)
 
-Updated Sat Nov 7, 5:10 AM ET by CLOUD.
+Updated Sat Nov 7, 5:45 AM ET by CLOUD.
 
 | Account | Role | Now | Next | Done today | Unread | Updated |
 |---|---|---|---|---|---|---|
 | **A1** | Builder | idle: #92 + S30 scheduled for 7:30 PM | next: watch the 7:30 results | 0 | 6 | Fri Nov 6, 1:28 PM ET |
 | **A2** | Builder (backup) | - | - | 0 | 5 | never |
 | **A3** | Prep + Review | - | - | 0 | 5 | never |
-| **CLOUD** | Research + scheduled runs | - | 3:43 AM ET research run | 1 | 1 | Sat Nov 7, 5:10 AM ET |
+| **CLOUD** | Research + scheduled runs | - | 3:43 AM ET research run | 1 | 0 | Sat Nov 7, 5:10 AM ET |
 
 ## Claimed (in progress)
 
