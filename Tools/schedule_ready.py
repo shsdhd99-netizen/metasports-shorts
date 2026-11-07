@@ -102,6 +102,8 @@ def main():
     now = datetime.datetime.now(ET)
     done, report = [], []
     booked = booked_slots()
+    import queue_rank as qr  # Nov 7: refuse anything already live on YouTube (the owner also posts by hand)
+    posted = qr.posted_titles()
     for ch, d in candidates():
         name = os.path.basename(d)
         drafts = glob.glob(os.path.join(d, "DRAFT*.mp4"))
@@ -121,6 +123,8 @@ def main():
             pass
         elif ys.already(ys.sha(drafts[0])):
             continue  # already scheduled: silent
+        elif qr.already_posted([title or "", re.sub(r"^\S+ \S+ ", "", name)] + [os.path.basename(x) for x in drafts], posted):
+            why = "already live on YouTube (title matches a posted video): never re-upload"
         elif clash(ch, slot, booked):
             why = clash(ch, slot, booked)
         elif re.search(r"\bHOLD\b", text):

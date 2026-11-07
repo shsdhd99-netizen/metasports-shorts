@@ -44,6 +44,36 @@ def norm(s):
     return re.sub(r"[^a-z0-9]+", " ", s.lower()).strip()
 
 
+STOP = {"the", "and", "who", "his", "her", "for", "nba", "was", "with", "that", "this", "music", "draft", "awaiting", "approval", "real",
+        "audio", "version", "just", "did", "has", "had", "are", "from", "into", "out", "its", "their", "they", "him", "shorts"}
+
+
+def toks(s):
+    return {w for w in norm(s).split() if len(w) > 2 and w not in STOP}
+
+
+def posted_titles():
+    """Titles already live or scheduled on YouTube, from the newest API daily files of both channels (Nov 7 fix: the owner also posts by
+    hand, so Scheduled Uploads.csv alone missed them and the ranker offered already-posted Shorts for new slots)."""
+    out = []
+    for sub in ("api", "api FC"):
+        files = sorted(glob.glob(os.path.join(RN, "Studio exports", sub, "daily *.csv")))
+        if files:
+            out += [toks(r.get("title", "")) for r in csv.DictReader(open(files[-1], encoding="utf-8"))]
+    return [t for t in out if t]
+
+
+def already_posted(names, posted):
+    for n in names:
+        t = toks(n)
+        if not t:
+            continue
+        for p in posted:
+            if len(t & p) >= 3 and len(t & p) / len(t | p) >= 0.6:  # Jaccard: near-identical titles only (a 'Part 2' list must pass)
+                return True
+    return False
+
+
 def booked():
     out, titles = [], set()
     global SCHED_DIRS
@@ -119,6 +149,7 @@ def qa_of(ch, d, video, run_qa):
 
 def waiting(now, run_qa):
     bk, titles = booked()
+    posted = posted_titles()
     med, base = lane_medians()
     global LANES
     LANES = list(med.keys())
@@ -139,6 +170,8 @@ def waiting(now, run_qa):
             title = re.sub(r"^\d{4}-\d{2}-\d{2}\s+", "", os.path.basename(d))
         if not title or norm(title) in titles or "HOLD" in text.upper().split("\n")[0]:
             continue
+        if already_posted([title, re.sub(r"^\S+ \S+ ", "", os.path.basename(d))] + [os.path.basename(x) for x in drafts], posted):
+            continue  # live or scheduled already (posted by hand or by another run): never offer it for a new slot
         nom = [x for x in drafts if re.search(r"no[- ]?music", x, re.I)]
         video = (nom or drafts)[0]
         script = open(os.path.join(d, "script.txt"), encoding="utf-8").read() if os.path.exists(os.path.join(d, "script.txt")) else ""
