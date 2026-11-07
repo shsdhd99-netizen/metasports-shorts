@@ -37,3 +37,5 @@
 - 2026-11-06 PC account 1 CLAIM: NBA gap Sat Nov 7 3:30 PM ET, building Klay blocked Steph (folder Productions/MetaSports/2026-11-07 98 Klay Blocked Steph On His Return).
 - 2026-11-06 PC account 1: RELEASED claim on NBA gap Sat Nov 7 3:30 PM ET. Klay-blocks-Steph has footage (folder 2026-11-07 98, src/espn.mp4) but no verifiable source for facts; not built. #96/#97 are script-only alternatives (#97 needs 'six straight' update). Gap still open.
 - 2026-11-07 04:30 ET (cloud FC run): preflight BLOCKED (YT_* secrets still missing in the cloud env). No FC gap within 54 h, no build. S28 24K in a day; S27 (no shootout) 1.3K.
+
+- 2026-11-07 PC account 1: NBA Sat Nov 7 3:30 PM ET slot NOT built by PC; #99 Luka (cloud) is the draft for it but qa_final = FIX (line 1 is 12 words, voice CHECK, footage not probeable on PC). Not scheduled. Needs a fix or an owner OK, then schedule_ready.py --go.

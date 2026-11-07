@@ -342,3 +342,6 @@ STATUS: plan written, `Research Notes/Two-Week Plan (Nov 7-20, 2026).md`. Slotte
 STATUS: wrote `Research Notes/Script and Retention Study (Nov 6, 2026).md` (stayed 74%+ = 3.6x views; editing variables move stayed by 3 pts or less; pace above 230 wpm helps; hits keep a 0.88 audience ratio at 90% vs 0.65), `Research Notes/Autopilot Skill - Proposed Edits (Nov 6, 2026).md` (not applied; owner to OK) and `TERMINAL TO-DO (Nov 6).md`. Gemini watches of 7 competitor outliers still running (503 retries).
 
 - 2026-11-06 (weekly_review.py): STATUS: wrote `Weekly Review 2026-11-06.md`.
+
+## Sat Nov 7, ~06:50 ET: NBA gap-fill (PC account 1)
+STATUS: no build. The Sat Nov 7 3:30 PM slot already has a cloud-built DRAFT (#99 Luka, no music), so building a second Short would double-build. `qa_final.py` on #99 says FIX (0 fail, 3 warn): line 1 is 12 words (rule 11 or fewer), voice take verdict CHECK (pace 236 wpm OK), and source clips are not on this PC so footage could not be probed. Not scheduled (SHIP required). Next builder: trim line 1 by one word, re-voice, re-render and re-run qa_final, then `schedule_ready.py --go` before 3:30 PM ET; if the owner accepts the 12-word hook as is, schedule as is. Also cleared the stale UU flag on Preflight.md again (took the incoming report) and merged the local QA Final Log rows.
