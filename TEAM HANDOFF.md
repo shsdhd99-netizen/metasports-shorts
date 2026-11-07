@@ -50,4 +50,4 @@ Full rules: `Research Notes/ACCOUNT 3 - Prep and Review.md`.
 - Build **PREP-ready folders** (`PREP: ready to voice` on line 1 of notes.md) before researching anything new.
 - Apply a folder's **REVIEW.md** fixes before it's scheduled. If you disagree, reply with `say A3`.
 - Claim before building; `done` after pushing; tell A3 when a DRAFT is pushed.
-- Today's list: `TERMINAL TO-DO (Nov 6).md`.
+- Today's list: `TERMINAL TO-DO (Nov 7).md` (Nov 6 list kept for history).
