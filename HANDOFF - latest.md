@@ -1,28 +1,28 @@
-# Handoff (auto), Sat Nov 07 2026, 09:25 UTC, written by account: app account 1 (cloud FC routine)
+# Handoff (auto), Sat Nov 07 2026, 10:45 UTC, written by account: app account 1 (cloud FC routine)
 
 Read this first, then `Research Notes/Daily Log.md` (newest entries) before building anything, so two sessions never build the same Short.
 
 ## Note from the last session
-FC Nov 7: blocked at preflight (YT secrets missing in cloud env), no FC gap; lessons/weights updated
+Nov 7: #99 Luka built for Sat 3:30 PM (PC/owner schedules); FC no gap, prepped S38 Bounou + S43 Van der Sar (11/12); next: PC voices S38 for Mon 12 PM
 
 ## Team board (who is doing what; full board: `TEAM BOARD.md`, protocol: `TEAM HANDOFF.md`)
 | Account | Role | Now | Next | Done today | Unread | Updated |
 |---|---|---|---|---|---|---|
-| **A1** | Builder | idle: #92 + S30 scheduled for 7:30 PM | next: watch the 7:30 results | 0 | 5 | Fri Nov 6, 1:28 PM ET |
-| **A2** | Builder (backup) | - | - | 0 | 4 | never |
-| **A3** | Prep + Review | - | - | 0 | 4 | never |
-| **CLOUD** | Research + scheduled runs | PC handoff Nov 7 + TikTok review + queue_rank fix | 3:43 AM ET research run | 0 | 1 | Fri Nov 6, 10:19 PM ET |
+| **A1** | Builder | idle: #92 + S30 scheduled for 7:30 PM | next: watch the 7:30 results | 0 | 7 | Fri Nov 6, 1:28 PM ET |
+| **A2** | Builder (backup) | - | - | 0 | 5 | never |
+| **A3** | Prep + Review | - | - | 0 | 5 | never |
+| **CLOUD** | Research + scheduled runs | - | 3:43 AM ET research run | 1 | 0 | Sat Nov 7, 5:10 AM ET |
 
 - nothing claimed
 
 ## Keys on this machine (presence only)
 - ELEVENLABS_API_KEY: set
 - GEMINI_API_KEY: set
-- YT_CLIENT_ID: MISSING
-- YT_REFRESH_TOKEN: MISSING
-- YT_REFRESH_TOKEN_FC: MISSING
-- YT_UPLOAD_TOKEN: MISSING
-- YT_UPLOAD_TOKEN_FC: MISSING
+- YT_CLIENT_ID: set
+- YT_REFRESH_TOKEN: set
+- YT_REFRESH_TOKEN_FC: set
+- YT_UPLOAD_TOKEN: set
+- YT_UPLOAD_TOKEN_FC: set
 - NETLIFY_AUTH_TOKEN: MISSING
 - HEYGEN_API_KEY: MISSING
 
@@ -34,21 +34,21 @@ FC Nov 7: blocked at preflight (YT secrets missing in cloud env), no FC gap; les
 - STATUS: blocked, no build. Voice and Gemini keys set; `preflight.py --quiet`: BLOCKED (YT_CLIENT_ID, YT_CLIENT_SECRET, YT_UPLOAD_TOKEN, YT_UPLOAD_TOKEN_FC missing in this session's environment), so no credits spent (CLOUD DAILY RULES step 4). Next NBA gap: Sat Nov 7 3:30 PM ET, in range of the PC gap-fill (6:45 AM ET). Same block as Nov 5: this routine's session needs the four YouTube secrets to ever build.
 
 ## Last 15 commits (any account)
+- Nov 07 10:45 [CLOUD Research + scheduled runs] team: message to A1
+- Nov 07 10:45 [CLOUD Research + scheduled runs] team: read 1 message(s)
+- Nov 07 10:45 FC run Nov 7: no gap in 54 h; prepped S38 Bounou (1,000 penalties) and S43 Van der Sar (Chelsea's plan), both 11/12 FRESH; idea_triage keeps hand-written sections
+- Nov 07 10:10 Watch Reports: Nov 7 re-runs of ERdqWsE4fvU and HgSyu5Vpgio (pinned-comment / levers research)
+- Nov 07 10:10 [CLOUD Research + scheduled runs] team: message to A3
+- Nov 07 10:10 [CLOUD Research + scheduled runs] team: message to BUILDER
+- Nov 07 10:10 [CLOUD Research + scheduled runs] team: done: NBA Sat Nov 7 3:30 PM slot: Luka 53 build (#99)
+- Nov 07 10:10 NBA cloud build Nov 7: #99 Luka 40 in six of seven (DRAFT, QA PASS + SHIP), Hub + post task, cut_list count-overlay fix, Daily Log
+- Nov 07 09:42 [CLOUD Research + scheduled runs] team: claim: NBA Sat Nov 7 3:30 PM slot: Luka 53 build (#99)
+- Nov 07 09:25 Handoff (auto) from app account 1 (cloud FC routine)
 - Nov 07 09:25 FC cloud run Nov 7: blocked (YT secrets missing), no FC gap; S28 24K in a day, S27 1.3K; lessons, weights, log, STATE
 - Nov 07 08:46 [CLOUD] Daily research Nov 7: LeBron booed in Cleveland (8 pts), Luka 53, S41/S39 sourced, serial outliers
 - Nov 07 08:46 [CLOUD Research + scheduled runs] team: message to BUILDER
 - Nov 07 08:19 NBA cloud routine Nov 7: STATUS blocked (YouTube tokens missing in this environment), no build
 - Nov 07 03:22 [CLOUD] Watch reports: TikTok page videos (Gemini)
-- Nov 07 03:22 [CLOUD] Research: pinned comments (no reach effect) and small levers, with official sources and our own correlations
-- Nov 07 03:20 [CLOUD] Preflight report (Nov 7 check)
-- Nov 07 03:19 Handoff (auto) from app account 1 (CLOUD)
-- Nov 07 03:19 [CLOUD Research + scheduled runs] team: status: PC handoff Nov 7 + TikTok review + queue_rank fix
-- Nov 07 03:19 [CLOUD Research + scheduled runs] team: message to A3
-- Nov 07 03:19 [CLOUD Research + scheduled runs] team: message to A1
-- Nov 07 03:19 [CLOUD] PC handoff Nov 7; TikTok page review; #79 to Sun 7:15 AM; mark 6 live Shorts' cards LIVE so nobody re-fixes them
-- Nov 07 03:17 [CLOUD] queue_rank + schedule_ready: never offer or upload a Short that is already live (owner also posts by hand); title match on the newest API daily files of both channels
-- Nov 06 18:30 Schedule ready drafts (script)
-- Nov 06 23:10 [CLOUD Research + scheduled runs] team: message to BUILDER
 
 ## Uncommitted here
      M "HANDOFF - latest.md"
