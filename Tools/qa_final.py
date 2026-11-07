@@ -100,8 +100,7 @@ def main():
         elif len(title) > 100:
             fails.append(f"CARD: title {len(title)} chars (limit 100)")
         txt = open(card, encoding="utf-8-sig").read()
-        if not re.search(r"pinned comment", txt, re.I):
-            warns.append("CARD: no pinned comment")
+        pass  # Nov 7 (R5): the pinned comment is optional (no reach effect); a source line or "Part 2" when used
     else:
         fails.append("CARD: no UPLOAD.md")
     sp = os.path.join(F, "sources.csv")

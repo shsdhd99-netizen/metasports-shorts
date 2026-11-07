@@ -5,6 +5,10 @@ research with sources, what was made, what changed in the rules or tools.
 
 STATUS: PC account 1 NBA gap-fill, Nov 5: filled Fri Nov 6 3:30 PM ET by scheduling the already-built #95 (Lendeborg peer pressure; QA PASS re-run, private + publishAt via schedule_ready). No new build, no credits spent.
 
+## Sat Nov 7, 2026 (owner: rules rewrite + the lab, 14:50 UTC)
+
+STATUS: owner approved all of the Theory Ranking. Rules rewritten (Playbook THE RULES Nov 7, Soccer Playbook v3; old text archived), QA fixed (tags and pinned comment never FAIL; 35%/cut-count/shot-length/b-roll lints removed; NBA length warn 18-27 s; payoff-held warn), and the lab built: `Tools/lab.py` measures 84 Shorts, scores 6 live tests (3 per channel) daily, studies any part (`--part edit` etc.) and re-checks every rule. First Rule check: line 1 <=11 words, NBA family lane and NBA <=25 s SUPPORTED; pace >230 wpm overruled (not a rule); NBA morning posts flagged REVISIT. Prompts of the NBA build, FC build and stats routines updated. Record: `Research Notes/Rule Changes Applied (Nov 7, 2026).md`.
+
 ## Sat Nov 7, 2026 (FC main-session run, 10:39 UTC; daily-run skill of Nov 6)
 
 AUTO: FC no gap in the next 54 h (`next_gap.py fc`; Sat S29 and Sun S09 are on YouTube; Mon 12 PM is just past 54 h). FC Hub: 0 cards ready. Task-list inbox: empty. Prepped the next two ideas (script + sources, no voice): **S38 Bounou v Spain** ("practised 1,000 penalties", 215 words) and **S43 Van der Sar v Anelka** ("Chelsea's secret penalty plan", 226 words), both goalkeeper-penalty lane, FRESH, rated 11/12, official footage found (FIFA `yF5mHzhRBWE`; TNT `z-QliFMvpqI`). Livakovic/Japan TAKEN, Cech 2012 CROWDED. `preflight.py --quiet`: OK in this main session (the YouTube keys exist here; only the fresh-session routines lack them). Next: the PC voices and cuts S38 for Mon Nov 9 12 PM.

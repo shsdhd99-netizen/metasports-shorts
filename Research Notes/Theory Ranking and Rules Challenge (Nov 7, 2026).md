@@ -1,5 +1,7 @@
 # Theory ranking and rules challenge (Sat Nov 7, 2026, cloud)
 
+> **APPLIED Nov 7 (owner: "approve all").** What changed and where: `Research Notes/Rule Changes Applied (Nov 7, 2026).md`. One proposal was overruled by the new lab the same day: A8 (pace over 230 wpm) is not a rule. The theories in section 1 are now re-checked daily by `python Tools/lab.py auto` (Rule check in `Research Notes/Lab/Study - all (<date>).md`).
+
 Owner: "combine all research notes into theories, rank which ones are most important to add to rules, test, or scrap. then, rank every part of our videos the same way. challenge my current rules aswell to be fixed."
 
 **What I read:**

@@ -200,13 +200,13 @@ def package_portion(F):
         p.ok(f"title ok: {title[:60]}")
     n = len([x for x in tags.split(",") if x.strip()])
     ln = len(tags)
-    if n < 10:
-        p.fail(f"{n} tags parsed (need 15+)")
+    if n == 0:
+        p.fail("no tags parsed (the scheduler needs some; run Tools/tags_fit.py)")
     elif ln > 490:
         p.fail(f"tags are {ln} characters (limit 490)")
-    else:
-        (p.ok if ln >= 380 else p.warn)(f"{n} tags, {ln} characters (fill the box to about 490)")
-    (p.ok if re.search(r"pinned comment", t, re.I) else p.warn)("pinned comment " + ("present" if re.search(r"pinned comment", t, re.I) else "missing"))
+    else:  # Nov 7 (R2): tags have no measured reach effect, so a short list is a warning, never a FAIL; tags_fit.py fills the box
+        (p.ok if ln >= 380 else p.warn)(f"{n} tags, {ln} characters (fill to about 490 with Tools/tags_fit.py)")
+    p.ok("pinned comment " + ("present" if re.search(r"pinned comment", t, re.I) else "none (optional since Nov 7: a source line or 'Part 2' only)"))
     (p.ok if re.search(r"slot", t, re.I) else p.warn)("slot " + ("noted" if re.search(r"slot", t, re.I) else "not noted"))
     (p.ok if re.search(r"QA[^\n]{0,40}PASS|PASS[^\n]{0,40}QA", t) else p.fail)("QA PASS line " + ("present" if re.search(r"QA[^\n]{0,40}PASS|PASS[^\n]{0,40}QA", t) else "missing (the scheduler refuses a card without it)"))
     if not glob.glob(os.path.join(F, "cover*")) and not glob.glob(os.path.join(F, "_hub", "cover*")):
@@ -230,7 +230,7 @@ def live_portion(F, ch, vid):
     v = d[0]; title, tags = ys.parse_card(os.path.join(F, "UPLOAD.md"))
     (p.ok if v["snippet"]["title"].strip() == title.strip() else p.fail)(f"YouTube title {v['snippet']['title'][:50]!r}" + ("" if v["snippet"]["title"].strip() == title.strip() else f" != card {title[:50]!r}"))
     nt = len(v["snippet"].get("tags", []))
-    (p.ok if nt >= 10 else p.fail)(f"{nt} tags on YouTube")
+    (p.ok if nt >= 10 else p.warn)(f"{nt} tags on YouTube")
     p.ok(f"privacy {v['status']['privacyStatus']}" + (f", publishAt {v['status'].get('publishAt')}" if v["status"].get("publishAt") else ""))
     return p
 

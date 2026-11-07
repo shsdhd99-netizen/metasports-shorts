@@ -58,15 +58,12 @@ def main():
         if cum < 3.0:
             n3 += 1
         cum += l
-    if n3 > 2 and plan.get("style") != "v3":
-        warn.append(f"{n3} shots start in the first 3 s (NBA rule: at most 2; set \"style\": \"v3\" for the FC v3 opener)")
+    # Nov 7 (C2): the cut-count rule for the first 3 s was scrapped (no effect: lab study, edit_shots_first3_le2)
     try:
         import fc_reuse
         r = fc_reuse.reuse(shots)
         if r["n_unexcused"]:
             warn.append(f"{r['n_unexcused']} repeated source range(s) (edit_lint reuse rule)")
-        if r["max_src_share"] > 0.35:
-            warn.append(f"one source is {r['max_src_share']*100:.0f}% of the runtime (limit 35%)")
     except Exception:
         pass
     print(f"precut_lint: {os.path.basename(os.path.abspath(F))}: {len(shots)} shots, {t:.1f} s")

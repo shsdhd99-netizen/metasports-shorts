@@ -17,13 +17,14 @@ Post time matters little; a steady slot matters more (Oct 26 overnight review) [
 
 **How to post (2 minutes each):** open the Hub, play the video, tap Download, upload it as a Short in the YouTube app, paste the
 title (Copy button), set "Not made for kids", add the pinned comment from the card. Nothing is ever posted for you.
-- **Title:** the card's pick, a short statement. At most one hashtag (#nba or #football).
+- **Title:** the card's pick: short and searchable (a statement or a Why/How/What question, Playbook P1, Nov 7). At most one hashtag (#nba or #football).
 - **Description:** leave it empty.
-- **Tags:** paste the card's tags; they fill the box to about 490 characters (your call, Nov 1: "go back to filling").
+- **Tags:** paste the card's tags; they fill the box to about 490 characters (your call, Nov 1: "go back to filling"). Optional for you if the app has no box.
+- **Pinned comment:** optional since Nov 7 (no reach effect): post the card's source line if it has one.
 - (Oct 26 overnight review) [V] YouTube Help: "tags play a minimal role"; Posting Study answers 4-6.
 
 **Strict rules:**
-1. **Up to 2 Shorts per channel per day (owner asked, Oct 26: 'is 1 short per day optimal?').** Post the 2nd only if it's as strong as the 1st, at least 6 h later; never 3. On our 2-post days, each post did as well as on 1-post days (4.1K vs 4.2K median), and the 2nd post did no worse. [S] Posting Study §1d. Limits: quality, and voice credits (about 2 Shorts a day total on the current ElevenLabs plan).
+1. **Up to 3 Shorts per channel per day, at least 6 h apart, only when each is as strong (owner, Nov 5; Playbook P2, Nov 7).** The grid: NBA 7:15 AM and 3:30 PM, FC 12 PM ET (`next_gap.py`). Whether a 2nd post costs views per post is the live lab test `nba-cadence` (`Research Notes/Lab/Scoreboard.md`).
 2. News goes up the morning after the game. A news Short that misses its day is skipped, not posted late (#63, a day late: 58% stayed vs 75-80% same day).
 3. At least 6 hours between two posts on the same channel (Oct 26 overnight review; was 4). The two channels can go up at the same time (Oct 29: the old 1-hour gap was a guess with no data behind it; the channels don't compete).
 4. 24 hours after posting, type the numbers into the card's Results box (views, "Stayed to watch" %). **Judge the Short at 72 hours, not the next morning** (Oct 26 overnight review): #48 had 25 views on day 0 and 14.6K on day 2. [V] Posting Study §1g.

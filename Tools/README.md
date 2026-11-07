@@ -1,5 +1,8 @@
 # Tools (MetaSports)
 
+> **Nov 7, 2026: `lab.py` (the lab).** Tests that run, log and score themselves, plus a repeatable study of every part of a Short. `python lab.py auto` (daily: measure every Short, score the live tests in `Research Notes/Lab/tests.json`, write `Scoreboard.md` and a study with a Rule check); `python lab.py assign nba|fc --folder F` (the arms the next Short must use; writes the card's `**Arms:**` line); `python lab.py study --part edit|script|package|topic|length` (the same study for any part). `next_arm.py` now calls it. Also Nov 7: QA no longer fails on a short tag list or a missing pinned comment, and the 35%-one-source / cut-count / shot-length lints are gone (Theory Ranking C2).
+
+
 > **Oct 13, 2026:** see the "Oct 13 changes" box at the top of `../Tools Guide.md` (assemble no-loop fix, new QA checks, pointer.py, critic_v2.md, voice_fx silence-only trimming).
 
 Run these from this folder. In File Explorer: open Tools, click the address bar, type cmd, Enter.

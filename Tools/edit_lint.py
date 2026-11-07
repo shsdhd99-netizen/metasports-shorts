@@ -34,13 +34,8 @@ def reuse_flags(shots, starts=None):
         pairs = ", ".join(f"{a}~{b}" for a, b, _ in r["unexcused"][:6])
         out.append(f"CLIP REUSE: {r['n_unexcused']} repeated source range(s) ({pairs}{' ...' if r['n_unexcused'] > 6 else ''}): the same footage shows twice. "
                    "Use another source/angle, or mark the one intentional replay with \"replay\": true.")
-    if r["max_src_share"] > 0.35:
-        out.append(f"ONE SOURCE: {r['max_src']} is on screen {r['max_src_share']*100:.0f}% of the runtime (limit 35%). Add footage from a second source.")
-    tl, _ = fc_reuse.timeline(shots, starts)
-    near = [(tl[i - 1]["clip"], tl[i]["clip"]) for i in range(1, len(tl))
-            if tl[i]["src"] and tl[i]["src"] == tl[i - 1]["src"] and not tl[i]["still"] and abs(tl[i]["at"] - tl[i - 1]["at"]) < 3.0 and not tl[i]["replay"]]
-    if near:
-        out.append(f"SAME ANGLE BACK-TO-BACK: {len(near)} pair(s) of consecutive shots from one source within 3 s of each other ({near[0][0]}, {near[0][1]}...).")
+    # Nov 7 (Theory Ranking R11/C2): the "one source over 35%" and "same angle back-to-back" flags were removed: no effect on our data
+    # (FC reuse vs % viewed +0.21, n=15; S17 was 90% one source and got 23.7K), and they forced re-cuts. `python Tools/lab.py study --part edit` re-checks it.
     return out
 
 

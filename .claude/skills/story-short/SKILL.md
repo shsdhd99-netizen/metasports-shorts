@@ -13,6 +13,8 @@ description: >
   Argument: a topic, an Idea Bank number (S03...), or a number of Shorts to make.
 ---
 
+> **NOV 7, 2026 (owner approved the Theory Ranking): this block wins over every override below.** Rules: `Soccer Channel/Playbook.md` v3 (F1-F6) and THE RULES in `MetaSports - Playbook.md`. In short: the proven lane is **a famous penalty shootout + one odd act (keeper or takers)**; a famous moment beats a famous name; one new premise a week is the `fc-premise` test; **before scripting run `python Tools/lab.py assign fc --folder "<folder>"` and build every arm it prints** (it logs them; the lab scores them daily). Scrapped: cut-count/shot-length/clip-count/one-source rules, the debate-question pinned comment (optional now: a source line), "global names only", 3-8 tags (tags are filled to about 490 by `tags_fit.py`; a short list only warns). FC posts at 12 PM ET.
+
 > **Full Review (Nov 1, 2026) - read before building** (`Research Notes/Full Review for Retention (Nov 2026).md`; THE RULES §0 in `MetaSports - Playbook.md`):
 > 1. The edit is not what separates 3K from 30K; the **premise** and the **first 1-3 s** are. Run `python Tools/idea_gauge.py` on the idea and skip flop shapes (rules, record counts, hypotheticals, lesser-name lists).
 > 2. **FC length stays 45-59 s, 190-250 words, 226-233 wpm** (matches Ahmed's Goal 230 wpm). Goalkeeper + an odd device in a famous shootout is the proven premise (4 of 4 at 15-30K vs 0 of 8 others above 3.2K). A/B: the next two goalkeeper Shorts open on the first story sentence over the action, title as on-screen text only; the control keeps the spoken title.
@@ -42,7 +44,7 @@ Read first (they win over this file when newer):
 - Moving to another Claude account: `PORTABLE.md`.
 
 ## Topic rule first (Nov 3, from FC Playbook v2 and `Research Notes/Learned Weights.md`)
-Before step 1, read `Soccer Channel/Playbook.md` (v2: goalkeeper lane first, others only as flagged experiments) and the FC section of
+Before step 1, read `Soccer Channel/Playbook.md` (v3, Nov 7: rules F1-F6) and the FC section of
 `Research Notes/Learned Weights.md`. Pick the topic like this: about 2 of every 3 FC builds are a goalkeeper in a famous shootout with one
 odd device (the ranked list of 20 sourced stories is `Research Notes/Soccer Topic Study (Nov 1, 2026).md` section 6, order in section 7);
 the rest are explicit one-variable experiments (fan/kid/family first). Money, transfer, Messi-led, number-led and award stories are held.

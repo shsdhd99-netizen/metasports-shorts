@@ -2,11 +2,13 @@
 name: nba-short
 description: >
   Write a ready-to-voice MetaSports (MetaSportsClips) AI NBA story Short in the CoachClank-proven
-  style (22–40s stories or 15–25s moments, fast AI voice, scene/rule/opinion opener, turn, an ending on the payoff; the debate question goes in the pinned comment). It finds
+  style (22–40s stories or 15–25s moments, fast AI voice, scene/rule/opinion opener, turn, an ending on the payoff; pinned comment optional since Nov 7). It finds
   fresh moments, copy-checks the topic, verifies facts, writes a short title, saves an
   ElevenLabs-ready script and offers to make the voiceover. Use when the user types /nba-short or
   asks for a MetaSports / NBA Short script. Argument: the moment or topic (optional).
 ---
+
+> **NOV 7, 2026 (owner approved the Theory Ranking): this block wins over everything below.** Rules: THE RULES in `MetaSports - Playbook.md` (N1-N3, S1-S3, E1-E7, P1-P5). In short: lanes in order are family/kid/rookie, last night's moment you can watch, "Who has ___ the most in NBA history?" lists and star chases; **20-25 s**; line 1 is 11 words or fewer; no music; title is short and searchable (a statement or Why/How/What, as the `nba-opener` test assigns); **pinned comment optional (a source line), no debate question**; tags filled by `tags_fit.py`. **Before scripting run `python Tools/lab.py assign nba --folder "<folder>"` and build every arm it prints.** Scrapped: cut-count/shot-length/clip-count/one-source rules, pace targets, the 30-35 s test.
 
 > **Full Review (Nov 1, 2026) - read before building** (`Research Notes/Full Review for Retention (Nov 2026).md`; THE RULES §0 in `MetaSports - Playbook.md`):
 > 1. The edit is not what separates 3K from 30K; the **premise** and the **first 1-3 s** are. Run `python Tools/idea_gauge.py` on the idea and skip flop shapes (rules, record counts, hypotheticals, lesser-name lists).

@@ -1,5 +1,8 @@
 # Test and learn policy (owner, Nov 5, 2026)
 
+> **Nov 7, 2026 update (owner: "auto run and log tests yourself with a score on them"):** one-variable tests now run through the lab, not by hand. `Research Notes/Lab/tests.json` holds at most **3 live tests per channel** (the rest queue). `python Tools/lab.py assign <ch> --folder F` hands out the next arm; arms are detected from the files, so no Short is logged as "unknown" again; `python Tools/lab.py auto` (daily) scores every test (score = the chance a B Short beats an A Short, 50 = no difference; decided at 6+ per arm with p 0.2 or less, or closed as NO DIFFERENCE at 12) and starts the next queued test. A decided test names the rule it changes. Lane states (PROVEN / TESTING / RETIRED) below still apply; the lab's lane tests feed them.
+
+
 > "You are not limited to goalkeepers on FC. Be willing to try new things and learn from errors. Goalkeeper stories are good, so keep doing them, but see what else works as well. Stick with what works, test what doesn't until it works. Keep getting more efficient. Make sure QA is improved every single day."
 
 ## 1. Lanes (topic shapes) have three states

@@ -8,7 +8,7 @@ Rules (from the retention research; each has burned a Short before):
   HOOK   first word on screen/spoken by 0.4 s; the first spoken word is not filler; >=3 different shots in the first 3 s;
          >=1 'action' shot (real footage of the story) in the first 3 s; the hook has a number/name/stakes.
   PACE   no shot longer than 3.0 s (quotes 4.0 s); average shot <= 1.9 s.
-  VISUAL (warnings since Oct 26) <=35% of runtime on any single source clip; >=6 distinct source clips; <=45% of runtime talking head ('face'+'quote');
+  VISUAL (Nov 7: the 35%-one-clip, 6-clip, talking-head and b-roll share guidelines were removed, see Theory Ranking C2; the rest below stays)
          >=35% 'action' (b-roll that shows the story); cards <=25%; no 2 identical neighbours (same clip + same in-point).
   AUDIO  loudness -14 +-1.5 LUFS; no silence over 0.6 s inside the voice.
   LENGTH 18-35 s. Last shot repeats the first clip (loop).
@@ -85,20 +85,14 @@ def main():
             soft(total <= 59.5, f"length {total:.1f}s, clear of the 1-minute line", f"length {total:.1f}s is within 0.5 s of 1 minute: trim if it is cheap")
     else:
         chk(12 <= total <= 60, f"length {total:.1f}s", f"length {total:.1f}s (outside 12-60 s)")
-        soft(15 <= total <= 35, f"length {total:.1f}s in 15-35", f"length {total:.1f}s (length follows the story; our old era had no length effect, 10-33 s)")
+        # Nov 7 (R12, lab len_le25): NBA Shorts of 25 s or less had 7.1K vs 3.0K views; target 20-25 s, warn outside 18-27 s
+        soft(18 <= total <= 27, f"length {total:.1f}s in 18-27 (target 20-25)", f"length {total:.1f}s: NBA target is 20-25 s (25 s or less: 7.1K vs 3.0K views, lab study)")
     first = words[0]
     chk(first["start"] <= 0.4, "voice starts at once", f"first word at {first['start']}s (want <=0.4)")
     fw = re.sub(r"[^a-z']", "", first["word"].lower())
     chk(fw not in FILLER, f"opens on '{first['word']}'", f"opens on filler word '{first['word']}' (start on the name/number/stakes)")
     in3 = [s for s, st, e, d in segs if st < 3.0]
-    if story:  # Ahmed holds the first picture about 2.5 s under the title card (0-1 cuts in the first 3 s) [V]
-        soft(len(in3) <= 3, f"{len(in3)} shots in first 3 s (title card holds)", f"{len(in3)} shots in first 3 s (story format holds the first picture ~2.5 s under the title)")
-    else:  # Oct 26: 2 or fewer shots in the first 3 s held 75.0% stayed vs 67.5% for 3+ (n=7 vs 30) [V]
-        soft(len(in3) <= 2, f"{len(in3)} shots in first 3 s (the opening moment holds)", f"{len(in3)} shots in first 3 s: hold the opening moment (2 or fewer held 75.0% stayed vs 67.5%)")
-    # Oct 26 overnight (Research Notes/Retention and Editing Upgrade): <=3 shots in the first 5 s held 78.4% stayed vs 66.5% (n=10 vs 27) [V];
-    # shot 1 of 2.0 s+ held 77.6% vs 68.4% (n=6, [S]). Warnings, both channels.
-    in5 = [s for s, st, e, d in segs if st < 5.0]
-    soft(len(in5) <= 3, f"{len(in5)} shots in first 5 s", f"{len(in5)} shots in the first 5 s: hold the opening moment (3 or fewer held 78.4% stayed vs 66.5%)")
+    # Nov 7 (C2): the cut-count checks for the first 3 s / 5 s were removed (no effect in the lab study); shot 1 at 2 s+ stays as house style.
     soft(segs[0][3] >= 2.0, f"shot 1 holds {segs[0][3]:.1f} s", f"shot 1 is only {segs[0][3]:.1f} s (2.0 s+ held 77.6% vs 68.4%, n=6)")
     chk(any(s.get("kind") == "action" for s in in3), "real action footage in first 3 s", "no 'action' footage in the first 3 s (a talking head or card hook gets swiped)")
     if story:  # Oct 24 2026 (Research Notes/Why S02 and S03 Underperformed): S01 (80% stayed) said its title object again at 19 s;
@@ -125,21 +119,8 @@ def main():
     lim = (4.5 if story else 6.0)  # Oct 26: NBA shots may run; fewer, longer shots held better (Why NBA Views Dropped) [V]
     long_ = [(s["clip"], round(d, 1)) for s, _, _, d in segs if d > (lim if s.get("kind") == "quote" else (3.6 if story else 6.0))]
     chk(not long_, "no shot too long", f"shots too long: {long_}")
-    avg = total / len(segs)
-    if story:
-        soft(avg <= 2.6, f"average shot {avg:.1f}s", f"average shot {avg:.1f}s (guideline <=2.6)")
-    else:
-        soft(1.8 <= avg <= 3.0, f"average shot {avg:.1f}s", f"average shot {avg:.1f}s (NBA guideline 1.8-3.0 s: 15 or fewer shots held 75.0% stayed vs 66.4%)")
-    by = {}
-    for s, _, _, d in segs:
-        by[s["clip"]] = by.get(s["clip"], 0) + d
-    top = max(by.items(), key=lambda x: x[1])
-    gate = soft  # Oct 26 overnight review: warnings on both channels ("footage first: never cut away to filler to reach a clip count")
-    gate(top[1] / total <= 0.35, f"most-used clip {top[0]} {top[1]/total:.0%}", f"{top[0]} fills {top[1]/total:.0%} of the video (want <=35%): add more footage")
-    gate(len(by) >= 6, f"{len(by)} source clips", f"only {len(by)} source clips (want >=6)")
-    face = (kinds["face"] + kinds["quote"]) / total
-    soft(face <= 0.45, f"talking head {face:.0%}", f"talking head {face:.0%} of runtime (guideline <=45%): is every claim proven on screen?")
-    soft(kinds["action"] / total >= 0.35, f"b-roll {kinds['action']/total:.0%}", f"b-roll {kinds['action']/total:.0%} (guideline >=35%)")
+    # Nov 7 (C2): average-shot, one-clip-35%, 6-clip, talking-head and b-roll share guidelines removed: no effect on our data
+    # (lab study --part edit re-checks them). Kept: real action in the first 3 s, no shot too long, no repeated neighbours.
     # Owner, Oct 26 2026 (both channels): "cut cards completely, theyre a big distraction. if added, keep brief".
     # NBA data: any card 66.1% stayed vs 72.6% without (n=20 vs 17) [V]. A card is off by default; one that stays runs <= 1.5 s.
     ncards = [s["clip"] for s, _, _, d in segs if s.get("kind") == "card"]
@@ -163,8 +144,8 @@ def main():
                 replays.append((s["clip"], j + 1, k + 1, round(ov, 2)))
         used.setdefault(s["clip"], []).append((a0, a1, k))
     soft(not replays, "no footage shown twice", f"the same footage appears twice (clip, shot, shot, overlap s): {replays}; mark an intentional replay with \"replay\": true")
-    if not story:  # the story format ends on the payoff or the next-video teaser, not a loop
-      soft(shots[-1]["clip"] == shots[0]["clip"], "loops to the first shot", "last shot is not the first clip (fine if the ending image serves the payoff; never add a sub-0.6 s shot just to loop)")
+    # Nov 7 (R6): end on the payoff, held about 2 s or more; a natural loop into frame 1 is a lab test (nba-loop / fc-loop), never a forced extra shot
+    soft(segs[-1][3] >= 1.8, f"last shot holds {segs[-1][3]:.1f} s (payoff held)", f"last shot is only {segs[-1][3]:.1f} s: hold the payoff on screen about 2-3 s")
     # a word marked "live" is the real broadcast call (Tools/nat_sound.py): the crowd roar after it may run up to 1.5 s
     gaps = [(round(words[i]["end"], 2), round(words[i + 1]["start"] - words[i]["end"], 2)) for i in range(len(words) - 1)
             if words[i + 1]["start"] - words[i]["end"] > (1.5 if words[i].get("live") else 0.6)]
@@ -272,8 +253,6 @@ def main():
         warn.append(f"shots under 0.6 s read as noise: {tiny}")
     if not os.path.exists(os.path.join(F, "notes.md")):
         warn.append("no notes.md (needs Lane, Concept, Added value, claim -> exact source quote)")
-    if avg < 1.3 and story:
-        warn.append(f"average shot {avg:.1f}s is very fast; a 1.9 vs 2.8 s A/B is pending (HYPOTHESIS)")
     dur_voice = words[-1]["end"] - words[0]["start"]
     wpm = len(words) / dur_voice * 60 if dur_voice else 0
     if not 200 <= wpm <= 265:  # Oct 14 night: our old hits' own voice recordings measured 206-252 wpm (median 220; audit section 11); new-era posts 224-250. Display words: digits count as one word, so number-heavy scripts read low
@@ -350,10 +329,7 @@ def main():
         chk(not unv, "every clip verified against the narration", f"clips not verified (watch them: player, uniform, scorebug, date match the line): {unv}")
     # --- Nov 1 2026 Full Review (Research Notes/Full Review for Retention (Nov 2026).md). All warnings: none of them is a gate.
     # 1. Length (NBA, [V small n]): voice of 22 s or less had median 10.0K public views vs 3.1K above (n=8 vs 16, posted NBA Shorts with files).
-    if not story:
-        vs = words[-1]["end"] - words[0]["start"]
-        soft(vs <= 24, f"voice {vs:.0f} s", f"voice runs {vs:.0f} s: our NBA Shorts at 22 s or less had median 10K views vs 3K above (n=8/16, Full Review); "
-             "cut the sentence that only adds colour unless the story needs the time")
+    # (Nov 7: the voice-length warning is folded into the 18-27 s length check above.)
     # 2. Time-bound words ([S] #73: the line said "just" for a game 9 days old). A Short can post days after it is built.
     stale = sorted({w["word"].strip(".,!?\"'").lower() for w in words if w["word"].strip(".,!?\"'").lower() in
                     {"yesterday", "tonight", "today", "tomorrow"}} |

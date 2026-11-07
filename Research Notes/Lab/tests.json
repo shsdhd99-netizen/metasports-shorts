@@ -1,0 +1,288 @@
+{
+ "updated": "2026-11-07",
+ "about": "Live tests, at most 3 per channel (owner approved Nov 7). Edit with care: `python Tools/lab.py score` closes decided tests and starts the next queued one for that channel. kind 'ab' = two arms of one feature; 'lane' = one group vs every other Short of the channel in the same window. Features are columns of Research Notes/Lab/shorts.csv (detected from the files); a feature no file shows is read from the card's `**Arms:** <test>=A|B` line, which `lab.py assign <ch> --folder F` writes.",
+ "rules": {
+  "min_n": 6,
+  "max_n": 12,
+  "adopt": 0.7,
+  "drop": 0.3,
+  "p": 0.2
+ },
+ "live": [
+  {
+   "id": "nba-lists",
+   "channel": "nba",
+   "kind": "lane",
+   "feature": "topic_record_list",
+   "arms": {
+    "A": false,
+    "B": true
+   },
+   "labels": {
+    "A": "every other NBA Short",
+    "B": "'Who has ___ the most in NBA history?' list"
+   },
+   "question": "Are record lists a hit lane we can repeat?",
+   "start": "2026-10-01",
+   "window_days": 30,
+   "min_n": 6,
+   "max_n": 10,
+   "how": {
+    "A": "-",
+    "B": "a 'Who has ___ the most in NBA history?' list from Basketball-Reference career leaders, numbered 'Part N'; copy-check it"
+   },
+   "rule": "Playbook THE RULES N2 (NBA lanes)",
+   "lane_shapes": [
+    "superlative",
+    "record list",
+    "list"
+   ]
+  },
+  {
+   "id": "nba-opener",
+   "channel": "nba",
+   "kind": "ab",
+   "feature": "pkg_opener_whw",
+   "arms": {
+    "A": false,
+    "B": true
+   },
+   "labels": {
+    "A": "title opens on a name or noun",
+    "B": "title opens with Why/How/What/Who"
+   },
+   "question": "Do Why/How/What/Who titles get more views?",
+   "start": "2026-11-08",
+   "how": {
+    "A": "open the title on the name or the thing ('Bronny Is Shooting 100%...')",
+    "B": "open the title with Why, How, What or Who ('Why NBA Players Refuse...'); same length, still searchable"
+   },
+   "rule": "Playbook THE RULES P1 (title)"
+  },
+  {
+   "id": "nba-cadence",
+   "channel": "nba",
+   "kind": "ab",
+   "feature": "pkg_two_a_day",
+   "arms": {
+    "A": false,
+    "B": true
+   },
+   "labels": {
+    "A": "a 1-post day",
+    "B": "a 2+-post day"
+   },
+   "question": "Does a second post on the same day cost views per post?",
+   "start": "2026-11-09",
+   "min_n": 8,
+   "max_n": 14,
+   "how": {
+    "A": "the Posting Plan decides the day, not the builder",
+    "B": "the Posting Plan decides the day, not the builder"
+   },
+   "rule": "Playbook THE RULES P3 (posts per day)",
+   "builder": false
+  },
+  {
+   "id": "fc-premise",
+   "channel": "fc",
+   "kind": "lane",
+   "feature": "topic_shootout",
+   "arms": {
+    "A": true,
+    "B": false
+   },
+   "labels": {
+    "A": "penalty-shootout Shorts",
+    "B": "a new non-shootout premise"
+   },
+   "question": "Can a new premise (a star's relative, kept his promise, one-mistake chain, bargain scouting, fans beat the club) match our shootout Shorts?",
+   "start": "2026-11-08",
+   "window_days": 30,
+   "min_n": 5,
+   "max_n": 10,
+   "how": {
+    "A": "-",
+    "B": "one new premise a week from the Theory Ranking B2 list; two sources; copy-check FRESH"
+   },
+   "rule": "Soccer Playbook F1 (lanes)",
+   "lane_shapes": [
+    "*"
+   ]
+  },
+  {
+   "id": "fc-opener",
+   "channel": "fc",
+   "kind": "ab",
+   "feature": "script_title_first",
+   "arms": {
+    "A": true,
+    "B": false
+   },
+   "filter": {
+    "topic_shootout": true
+   },
+   "labels": {
+    "A": "title-first (the spoken title is line 1)",
+    "B": "action-first (the title on screen only; line 1 is the first story sentence)"
+   },
+   "question": "Does opening on the action keep more viewers than reading the title first?",
+   "start": "2026-11-08",
+   "how": {
+    "A": "line 1 = the spoken title, then 'Back in...'",
+    "B": "line 1 = the first story sentence over the action; the title stays on screen as text"
+   },
+   "rule": "Soccer Playbook F3 (opening)"
+  },
+  {
+   "id": "fc-music",
+   "channel": "fc",
+   "kind": "ab",
+   "feature": "pkg_music_arm",
+   "arms": {
+    "A": "no music",
+    "B": "music"
+   },
+   "labels": {
+    "A": "no music",
+    "B": "quiet music bed"
+   },
+   "question": "Does the quiet music bed help?",
+   "start": "2026-10-22",
+   "how": {
+    "A": "upload the (no music) file",
+    "B": "upload the (music) file"
+   },
+   "rule": "Soccer Playbook F5 (music)"
+  }
+ ],
+ "queue": [
+  {
+   "id": "nba-loop",
+   "channel": "nba",
+   "kind": "ab",
+   "feature": "edit_loop",
+   "arms": {
+    "A": false,
+    "B": true
+   },
+   "labels": {
+    "A": "ends on the payoff only",
+    "B": "the last frame/line flows into frame 1"
+   },
+   "question": "Does a natural loop add views (replays count since Mar 2025)?",
+   "how": {
+    "A": "end on the held payoff",
+    "B": "end on a frame from the same source and second as frame 1 (or set \"loop\": true in cuts.json); never add a shot just to loop"
+   },
+   "rule": "Playbook THE RULES E6 (ending)"
+  },
+  {
+   "id": "nba-countup",
+   "channel": "nba",
+   "kind": "ab",
+   "feature": "edit_count_up",
+   "arms": {
+    "A": false,
+    "B": true
+   },
+   "labels": {
+    "A": "static numbers",
+    "B": "count-up numbers on the proof"
+   },
+   "question": "Do counting numbers on the footage hold viewers better?",
+   "how": {
+    "A": "overlay numbers as plain text",
+    "B": "use an overlay with \"count\": {\"to\": N} on the payoff number"
+   },
+   "rule": "Playbook THE RULES E5 (proof on footage)"
+  },
+  {
+   "id": "nba-foreshadow",
+   "channel": "nba",
+   "kind": "ab",
+   "feature": "manual_foreshadow",
+   "arms": {
+    "A": false,
+    "B": true
+   },
+   "labels": {
+    "A": "line 2 tells the story",
+    "B": "line 2 says what the ending is about"
+   },
+   "question": "Does a foreshadow in line 2 keep viewers to the payoff?",
+   "how": {
+    "A": "line 2 continues the story",
+    "B": "line 2 says what the ending will reveal ('...and the last one is the strangest')"
+   },
+   "rule": "Playbook THE RULES S2 (script)"
+  },
+  {
+   "id": "nba-countdown",
+   "channel": "nba",
+   "kind": "lane",
+   "feature": "topic_countdown",
+   "arms": {
+    "A": false,
+    "B": true
+   },
+   "window_days": 30,
+   "min_n": 4,
+   "max_n": 8,
+   "labels": {
+    "A": "every other NBA Short",
+    "B": "'3 times [star] did X' countdown"
+   },
+   "question": "Is a weekly superstar countdown a hit lane?",
+   "how": {
+    "A": "-",
+    "B": "'3 times [superstar] did X', #3 to #1, the best last"
+   },
+   "rule": "Playbook THE RULES N2 (NBA lanes)",
+   "lane_shapes": [
+    "countdown"
+   ]
+  },
+  {
+   "id": "fc-loop",
+   "channel": "fc",
+   "kind": "ab",
+   "feature": "edit_loop",
+   "arms": {
+    "A": false,
+    "B": true
+   },
+   "labels": {
+    "A": "ends on the payoff only",
+    "B": "the last frame/line flows into frame 1"
+   },
+   "question": "Does a natural loop add views on 55 s stories?",
+   "how": {
+    "A": "end on the held payoff",
+    "B": "end on a frame that flows into frame 1; never add a shot just to loop"
+   },
+   "rule": "Soccer Playbook F4 (ending)"
+  },
+  {
+   "id": "fc-style-v3",
+   "channel": "fc",
+   "kind": "ab",
+   "feature": "manual_style_v3",
+   "arms": {
+    "A": false,
+    "B": true
+   },
+   "labels": {
+    "A": "our story script",
+    "B": "Style v3 moves (misread by 8 s, 'what nobody knew' by 15 s, a reason for every 'no')"
+   },
+   "question": "Do the PureBusiness script moves keep more viewers?",
+   "how": {
+    "A": "our usual script",
+    "B": "apply Style v3 (Research Notes/Style v3 - Story Hooks from PureBusiness)"
+   },
+   "rule": "Soccer Playbook F2 (script)"
+  }
+ ],
+ "done": []
+}

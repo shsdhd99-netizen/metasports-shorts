@@ -12,7 +12,7 @@ Prints BUILD or DO NOT BUILD with every reason. BUILD needs ALL of:
 --owner-request (the owner asked for this Short in chat) skips 1 only. The goal is channels that run themselves with high retention and millions of views,
 so a weak or redundant Short costs a slot, the voice credits and the channel's signal; skipping is the default.
 """
-import argparse, os, re, subprocess, sys
+import json, argparse, os, re, subprocess, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PAUSED = {"nba": {"rule", "history", "news explainer", "news", "off-niche"}, "fc": set()}  # Nov 5: FC has no paused shapes (owner: do not limit FC to goalkeepers)
@@ -46,6 +46,15 @@ def main():
         st = None
     proven = bool(st and st[3] == "PROVEN")
     needs_angle = a.shape.lower() in PAUSED[a.channel] or (st is not None and not proven)
+    if needs_angle and not a.experiment:  # Nov 7: a live lab lane test counts as the logged variable (Research Notes/Lab/tests.json)
+        try:
+            T = json.load(open(os.path.join(ROOT, "Research Notes", "Lab", "tests.json"), encoding="utf-8"))
+            hit = next((t for t in T["live"] if t["channel"] == a.channel and t["kind"] == "lane"
+                        and ("*" in t.get("lane_shapes", []) or a.shape.lower() in [x.lower() for x in t.get("lane_shapes", [])])), None)
+        except Exception:
+            hit = None
+        if hit:
+            a.experiment = f"lab test {hit['id']} (arm B: {hit['labels']['B']})"
     if needs_angle and not a.experiment:
         why_not.append(f"lane '{a.shape}' is not proven yet: it is a TEST lane, so name the ONE variable you change from the last attempt with --experiment (and log it with test_log.py add)")
     elif needs_angle and st and a.experiment.strip().lower() == st[1].strip().lower():
@@ -71,6 +80,9 @@ def main():
         print("  ok  ", w)
     for w in why_not:
         print("  NO  ", w)
+    if not why_not:  # Nov 7: every build carries the live test arms; build them exactly
+        subprocess.run([sys.executable, os.path.join(ROOT, "Tools", "lab.py"), "assign", a.channel])
+        print("  then: python Tools/lab.py assign " + a.channel + " --folder \"<folder>\"  (logs the arms on the card)")
     sys.exit(0 if not why_not else 1)
 
 
