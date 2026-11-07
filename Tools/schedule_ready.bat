@@ -8,7 +8,7 @@ git pull --no-rebase --autostash
 python Tools\schedule_ready.py --go >> "Research Notes\Schedule Ready Last Run.txt" 2>&1
 REM Nov 3: refresh the TikTok/Instagram cross-post queue from what is now on YouTube
 python Tools\crosspost.py >> "Research Notes\Schedule Ready Last Run.txt" 2>&1
-git add "Research Notes/Scheduled Uploads.csv" "Research Notes/Schedule Ready Log.md" "Research Notes/Crosspost Queue.md"
+git add "Research Notes/Scheduled Uploads.csv" "Research Notes/Schedule Ready Log.md" "Research Notes/Crosspost Queue.md" "Research Notes/Coming Out.md"
 git commit -m "Schedule ready drafts (script)" -m "Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>"
 REM Nov 5: the cloud may have pushed meanwhile; .gitattributes merge=union keeps both sides of the log/CSV files, so pull and retry once
 git push || (git pull --no-rebase --autostash && git push)

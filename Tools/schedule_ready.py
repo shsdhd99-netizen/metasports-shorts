@@ -161,6 +161,10 @@ def main():
                     f.write(f"  - {now:%Y-%m-%d %H:%M} {r_}\n")
             f.write(f"- {now:%Y-%m-%d %H:%M} ET: scheduled {len(done)}" + (": " + "; ".join(done) if done else "") +
                     f"; skipped/refused {len([r for r in report if r.startswith(('skip', 'REFUSED'))])}.\n")
+        try:  # Nov 7: refresh the Desktop "COMING OUT" list so the owner always knows what goes live when
+            subprocess.run([sys.executable, os.path.join(HERE, "coming_out.py")], capture_output=True, timeout=60)
+        except Exception:
+            pass
 
 
 if __name__ == "__main__":
