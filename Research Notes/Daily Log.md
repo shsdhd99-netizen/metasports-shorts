@@ -5,6 +5,15 @@ research with sources, what was made, what changed in the rules or tools.
 
 STATUS: PC account 1 NBA gap-fill, Nov 5: filled Fri Nov 6 3:30 PM ET by scheduling the already-built #95 (Lendeborg peer pressure; QA PASS re-run, private + publishAt via schedule_ready). No new build, no credits spent.
 
+## Sat Nov 7, 2026 (NBA cloud build, 09:41 UTC; daily-run skill of Nov 6)
+
+AUTO: built #99 "Luka Has Scored 40 In Six Of His Last Seven Games" for the Sat 3:30 PM ET gap (`next_gap.py nba`; Sat 7:15 AM was missed, Klay #98 not built). DRAFT only, not scheduled from the cloud.
+- Story: Lakers 124-118 Blazers (Nov 6): Luka 53, 20 in the 3rd, his 11th career 50-point game and 4th as a Laker; 40+ in six of seven, seven straight 35/5/5/5; the one miss was 37 at GS (Oct 31). Sources: AP via CBS/WTOP, ESPN box scores (notes.md).
+- Build: 73 words, Alex voice 18.8 s after tighten, 12 shots from 6 ESPN clips, count-up overlays, no music. `qa_short --full` PASS, `qa_final` SHIP (0 fail, 2 warn).
+- Hub: `shorts/s99-luka-53` status ready (1080p + 720p). Task `post-luka-53` due 3:30 PM ET, with a "skip if the PC already scheduled it" step.
+- Tool fix: `cut_list.py` no longer crashes on count overlays (prints the count's target).
+- Hand-off: the card has Slot + Arm + QA PASS, so the PC's 6:30 AM ET `schedule_ready.py --go` can upload it (no NBA clash on Sat); if the PC is off, the owner posts by hand from the task.
+
 ## Sat Nov 7, 2026 (FC cloud run, 09:25 UTC; CLOUD DAILY RULES + daily-run skill of Nov 6)
 
 STATUS: blocked, no build. Voice and Gemini keys set; `preflight.py --quiet`: BLOCKED (YT_CLIENT_ID, YT_CLIENT_SECRET, YT_UPLOAD_TOKEN, YT_UPLOAD_TOKEN_FC missing in this environment). `next_gap.py fc`: NO GAP in 54 h. The skill's "no gap: prep the next two ideas" is already met (S21, S22, S36 scripted past the scheduled S31/S32/S30), so nothing new written. No credits spent.

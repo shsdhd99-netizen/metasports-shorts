@@ -1,0 +1,87 @@
+[
+ {
+  "clip": "L01.mp4",
+  "kind": "action",
+  "why": "frame 1: overhead camera, Luka scores over Portland Nov 6 (ESPN 50404602)",
+  "anchor": "Luka",
+  "start": 0.0
+ },
+ {
+  "clip": "L02.mp4",
+  "kind": "face",
+  "why": "Luka close-up v Portland Nov 6 (ESPN 50405530)",
+  "anchor": "last seven games",
+  "start": 2.14
+ },
+ {
+  "clip": "L03.mp4",
+  "kind": "action",
+  "why": "Luka drives v Portland Nov 6 (ESPN 50404602)",
+  "anchor": "Last night it",
+  "start": 3.27
+ },
+ {
+  "clip": "L04.mp4",
+  "kind": "action",
+  "why": "Luka (#77) with the ball against Portland",
+  "anchor": "against",
+  "start": 4.52
+ },
+ {
+  "clip": "L05.mp4",
+  "kind": "action",
+  "why": "Luka hits a three just before halftime (Lakers v Portland Nov 6)",
+  "anchor": "A three",
+  "start": 5.21
+ },
+ {
+  "clip": "L06.mp4",
+  "kind": "action",
+  "why": "Luka and the Lakers in the third quarter v Portland",
+  "anchor": "Twenty",
+  "start": 6.72
+ },
+ {
+  "clip": "L07.mp4",
+  "kind": "face",
+  "why": "Luka (#77) smiling v Toronto Nov 2, 45 points (ESPN 50355574)",
+  "anchor": "It was",
+  "start": 8.24
+ },
+ {
+  "clip": "L08.mp4",
+  "kind": "face",
+  "why": "Luka (#77, Lakers jersey) close-up at Sacramento Nov 5",
+  "anchor": "and his",
+  "start": 10.02
+ },
+ {
+  "clip": "L09.mp4",
+  "kind": "face",
+  "why": "Luka close-up v Toronto Nov 2, 45 points (ESPN 50355574)",
+  "anchor": "That's",
+  "start": 11.26
+ },
+ {
+  "clip": "L10.mp4",
+  "kind": "face",
+  "why": "Luka close-up v Miami Nov 3, 42 points (ESPN 50365402)",
+  "anchor": "five rebounds",
+  "start": 13.56
+ },
+ {
+  "clip": "L11.mp4",
+  "kind": "action",
+  "why": "Luka at Golden State Oct 31, the 37-point game (ESPN 50332790)",
+  "anchor": "And the",
+  "start": 15.7
+ },
+ {
+  "clip": "L12.mp4",
+  "kind": "face",
+  "why": "intentional loop: same close-up as frame 1, so the Short loops",
+  "anchor": "Thirty-seven",
+  "replay": true,
+  "start": 18.03
+ }
+]
