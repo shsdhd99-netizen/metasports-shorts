@@ -1,15 +1,15 @@
-# Handoff (auto), Sat Nov 07 2026, 12:03 EST, written by account: PC account 2
+# Handoff (auto), Sat Nov 07 2026, 17:41 UTC, written by account: app account 1 (CLOUD)
 
 Read this first, then `Research Notes/Daily Log.md` (newest entries) before building anything, so two sessions never build the same Short.
 
 ## Note from the last session
-#99 Luka fixed (Oct 30 label), re-rendered, SHIP, scheduled Sat 3:30 PM. New Tools/coming_out.py (Desktop list of release times). Open: Sun 7:15 AM NBA empty; S43 Mon 6 PM; Klay #98.
+Owner asked for a terminal to-do: TERMINAL TO-DO (Nov 7).md pushed + BUILDER messaged. First: Sun 7:15 AM NBA gap, then S38/S43 for Mon
 
 ## Team board (who is doing what; full board: `TEAM BOARD.md`, protocol: `TEAM HANDOFF.md`)
 | Account | Role | Now | Next | Done today | Unread | Updated |
 |---|---|---|---|---|---|---|
-| **A1** | Builder | - | next: watch the 7:30 results | 2 | 14 | Sat Nov 7, 7:31 AM ET |
-| **A2** | Builder (backup) | owner's private project | free for builds | 2 | 0 | Sat Nov 7, 12:03 PM ET |
+| **A1** | Builder | - | next: watch the 7:30 results | 2 | 15 | Sat Nov 7, 7:31 AM ET |
+| **A2** | Builder (backup) | owner's private project | free for builds | 2 | 1 | Sat Nov 7, 12:03 PM ET |
 | **A3** | Prep + Review | - | - | 0 | 10 | never |
 | **CLOUD** | Research + scheduled runs | - | 3:43 AM ET research run | 1 | 1 | Sat Nov 7, 5:10 AM ET |
 
@@ -18,12 +18,12 @@ Read this first, then `Research Notes/Daily Log.md` (newest entries) before buil
 ## Keys on this machine (presence only)
 - ELEVENLABS_API_KEY: set
 - GEMINI_API_KEY: set
-- YT_CLIENT_ID: set
-- YT_REFRESH_TOKEN: set
-- YT_REFRESH_TOKEN_FC: set
-- YT_UPLOAD_TOKEN: set
-- YT_UPLOAD_TOKEN_FC: set
-- NETLIFY_AUTH_TOKEN: set
+- YT_CLIENT_ID: MISSING
+- YT_REFRESH_TOKEN: MISSING
+- YT_REFRESH_TOKEN_FC: MISSING
+- YT_UPLOAD_TOKEN: MISSING
+- YT_UPLOAD_TOKEN_FC: MISSING
+- NETLIFY_AUTH_TOKEN: MISSING
 - HEYGEN_API_KEY: MISSING
 
 ## Newest STATUS lines (Daily Log)
@@ -34,6 +34,9 @@ Read this first, then `Research Notes/Daily Log.md` (newest entries) before buil
 - STATUS: blocked, no build (3rd day). Voice and Gemini keys set; `preflight.py --quiet`: BLOCKED (YT_CLIENT_ID, YT_CLIENT_SECRET, YT_UPLOAD_TOKEN, YT_UPLOAD_TOKEN_FC missing in this session's environment); no credits spent. Next NBA gap: Sat Nov 7 3:30 PM ET, in range of the PC gap-fill (6:45 AM ET).
 
 ## Last 15 commits (any account)
+- Nov 07 17:41 [CLOUD Research + scheduled runs] team: message to BUILDER
+- Nov 07 17:41 [CLOUD] Terminal to-do for Sat Nov 7 (owner's request): fill Sun 7:15 AM NBA gap, S38 + S43 for Mon, S31 angle, tidy-ups, cloud env unblock
+- Nov 07 12:03 [A2 Builder (backup)] Handoff (auto) from PC account 2
 - Nov 07 12:03 [A2 Builder (backup)] team: status: owner's private project
 - Nov 07 12:00 [A2 Builder (backup)] coming_out.py: Desktop + repo list of what goes live when; refreshed after every schedule_ready --go
 - Nov 07 12:00 [A2 Builder (backup)] team: message to BUILDER
@@ -46,23 +49,6 @@ Read this first, then `Research Notes/Daily Log.md` (newest entries) before buil
 - Nov 07 11:05 [A2 Builder (backup)] team: status: owner's private side project (not MetaSports)
 - Nov 07 10:57 [A2 Builder (backup)] team: message to BUILDER
 - Nov 07 10:57 [A2 Builder (backup)] team: done: #99 Luka schedule for Sat 3:30 PM
-- Nov 07 10:56 [A2 Builder (backup)] team: claim: #99 Luka schedule for Sat 3:30 PM
-- Nov 07 10:55 [A2 Builder (backup)] Handoff (auto) from PC account 2 (start)
-- Nov 07 10:55 [A2 Builder (backup)] team: status: starting a session
 
 ## Uncommitted here
      M "HANDOFF - latest.md"
-     M "Productions/MetaSports/2026-11-07 99 Luka Scored 53 For His Sixth 40 In Seven/DRAFT - awaiting approval - Luka Has Scored 40 In Six Of His Last Seven Games (no music).mp4"
-     M "Productions/MetaSports/2026-11-07 99 Luka Scored 53 For His Sixth 40 In Seven/captions.ass"
-     M "Productions/MetaSports/2026-11-07 99 Luka Scored 53 For His Sixth 40 In Seven/clips/_L11_overlay.json"
-     M "Research Notes/QA Final Log.csv"
-    ?? "Productions/MetaSports/2026-10-29 77 Did Bronny Actually Get Better/qa_final.json"
-    ?? "Productions/MetaSports/2026-10-29 78 Rodman Skipped A Finals Practice To Go Wrestling/qa_final.json"
-    ?? "Productions/MetaSports/2026-10-31 80 The Warriors Flipped The Exact Same Score/DRAFT - awaiting approval - The Lakers Led By 23 And Lost By 17 (no music).mp4"
-    ?? "Productions/MetaSports/2026-10-31 80 The Warriors Flipped The Exact Same Score/qa_final.json"
-    ?? "Productions/MetaSports/2026-11-03 85 Jokic Only Wanted To Go Home/_voice_pretighten/"
-    ?? "Productions/MetaSports/2026-11-03 85 Jokic Only Wanted To Go Home/_voice_prev/"
-    ?? "Productions/MetaSports/2026-11-03 85 Jokic Only Wanted To Go Home/clips/"
-    ?? "Productions/MetaSports/2026-11-03 85 Jokic Only Wanted To Go Home/voice_raw.mp3"
-    ?? "Productions/MetaSports/2026-11-03 87 Draymond Triple Double With Four Points/_voice_pretighten/"
-    ?? "Productions/MetaSports/2026-11-03 87 Draymond Triple Double With Four Points/clips/"
