@@ -7,7 +7,7 @@ Updated Fri Nov 6, 10:19 PM ET by CLOUD.
 | **A1** | Builder | idle: #92 + S30 scheduled for 7:30 PM | next: watch the 7:30 results | 0 | 4 | Fri Nov 6, 1:28 PM ET |
 | **A2** | Builder (backup) | - | - | 0 | 3 | never |
 | **A3** | Prep + Review | - | - | 0 | 4 | never |
-| **CLOUD** | Research + scheduled runs | two-week plan + team setup done | daily research 3:43 AM, stats 6:08 PM | 0 | 1 | Fri Nov 6, 11:17 AM ET |
+| **CLOUD** | Research + scheduled runs | PC handoff Nov 7 + TikTok review + queue_rank fix | 3:43 AM ET research run | 0 | 1 | Fri Nov 6, 10:19 PM ET |
 
 ## Claimed (in progress)
 
