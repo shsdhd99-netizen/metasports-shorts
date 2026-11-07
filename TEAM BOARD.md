@@ -4,14 +4,14 @@ Updated Sat Nov 7, 7:31 AM ET by A1.
 
 | Account | Role | Now | Next | Done today | Unread | Updated |
 |---|---|---|---|---|---|---|
-| **A1** | Builder | FC Mon Nov 9 12:00 S21 Higuita build | next: watch the 7:30 results | 1 | 7 | Sat Nov 7, 7:31 AM ET |
+| **A1** | Builder | - | next: watch the 7:30 results | 2 | 7 | Sat Nov 7, 7:31 AM ET |
 | **A2** | Builder (backup) | - | - | 0 | 5 | never |
 | **A3** | Prep + Review | - | - | 0 | 5 | never |
 | **CLOUD** | Research + scheduled runs | - | 3:43 AM ET research run | 1 | 0 | Sat Nov 7, 5:10 AM ET |
 
 ## Claimed (in progress)
 
-- **FC Mon Nov 9 12:00 S21 Higuita build**: A1, since Sat Nov 7, 7:31 AM ET
+- nothing claimed
 
 ## Last messages
 
@@ -27,6 +27,7 @@ Updated Sat Nov 7, 7:31 AM ET by A1.
 ## A1 finished today
 
 - 7:31 AM ET: -h
+- 7:31 AM ET: FC Mon Nov 9 12:00 S21 Higuita build
 
 ## CLOUD finished today
 
