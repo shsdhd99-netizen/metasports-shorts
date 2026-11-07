@@ -1,101 +1,107 @@
 {
- "length_s": 24.0,
- "topic": "A compilation of humorous AI-generated image morphs involving football players transitioning into unexpected objects and scenarios.",
- "lane": "moment",
+ "length_s": 24.2,
+ "topic": "A humorous football meme compilation contrasting skill moves and fouls with absurd AI-generated follow-up scenarios.",
+ "lane": "other",
  "hook": {
-  "first_words": "quero mais pegar você",
-  "first_frame": "A cartoonish giant goalkeeper wearing a yellow Manchester City jersey covering the entire goal, with Lionel Messi standing in front preparing to kick a football.",
-  "on_screen_text_0_3s": "TAT FUTEBOL",
+  "first_words": "Hoje eu não quero mais pegar você",
+  "first_frame": "Messi lining up a free kick against an absurdly obese goalkeeper filling the entire goal.",
+  "on_screen_text_0_3s": "none",
   "shots_in_first_3s": 1
  },
  "shots": [
   {
    "start_s": 0.0,
-   "end_s": 5.0,
-   "shows": "Messi kicking a ball towards a giant, fat goalkeeper who catches it and morphs into a chef eating pizza.",
+   "end_s": 4.95,
+   "shows": "Messi shoots a free kick towards an AI-generated gigantic goalkeeper who catches the ball and brings it to his mouth.",
    "kind": "action"
   },
   {
-   "start_s": 5.0,
-   "end_s": 7.0,
-   "shows": "The giant chef eating pizza in the goal.",
+   "start_s": 4.95,
+   "end_s": 6.95,
+   "shows": "AI-generated image of the giant goalkeeper dressed as a chef eating pizza in front of the goal.",
    "kind": "still"
   },
   {
-   "start_s": 7.0,
-   "end_s": 9.9,
-   "shows": "Football player dribbling on the pitch, morphing into a surfer on a huge wave.",
+   "start_s": 6.95,
+   "end_s": 9.7,
+   "shows": "Bellingham performs a slick skill dribble past defender Lacroix.",
    "kind": "action"
   },
   {
-   "start_s": 9.9,
-   "end_s": 11.5,
-   "shows": "Surfer riding a wave.",
+   "start_s": 9.7,
+   "end_s": 11.45,
+   "shows": "AI-generated image of Lacroix surfing inside a massive ocean barrel wave.",
    "kind": "still"
   },
   {
-   "start_s": 11.5,
-   "end_s": 16.5,
-   "shows": "Football players dribbling past each other, revealing a giant baby in a diaper sitting on the pitch.",
+   "start_s": 11.45,
+   "end_s": 14.65,
+   "shows": "A winger cuts back sharply near the corner flag, causing the defender to slip onto the ground.",
    "kind": "action"
   },
   {
-   "start_s": 16.5,
-   "end_s": 19.5,
-   "shows": "Footballer dribbling past an older man on a training pitch.",
+   "start_s": 14.65,
+   "end_s": 16.65,
+   "shows": "AI-generated image of the defender sitting on the grass wearing an adult diaper and baby bonnet.",
+   "kind": "still"
+  },
+  {
+   "start_s": 16.65,
+   "end_s": 19.45,
+   "shows": "Neymar executes a ball roll and flick past an elderly opponent during a friendly training session.",
    "kind": "action"
   },
   {
-   "start_s": 19.5,
-   "end_s": 24.0,
-   "shows": "An older man ice skating in an indoor rink.",
+   "start_s": 19.45,
+   "end_s": 24.2,
+   "shows": "AI-generated image of the elderly man figure skating on an ice rink.",
    "kind": "still"
   }
  ],
- "shot_count": 7,
- "average_shot_s": 3.43,
- "longest_shot_s": 5.0,
+ "shot_count": 8,
+ "average_shot_s": 3.03,
+ "longest_shot_s": 4.95,
  "voice": {
-  "type": "AI",
+  "type": "human",
   "gender": "male",
-  "words_per_minute_estimate": 110,
-  "tone": "playful",
+  "words_per_minute_estimate": 45,
+  "tone": "deep, pitched-down Brazilian funk singing",
   "original_audio_under_voice": false
  },
  "music": {
   "present": true,
-  "style": "upbeat electronic remix",
-  "level_vs_voice": "loud",
+  "style": "Slowed and reverb Brazilian phonk/funk",
+  "level_vs_voice": "equal",
   "starts_at_s": 0.0
  },
  "sound_effects": [],
  "captions": {
   "present": false,
-  "words_per_line": 0,
-  "case": "mixed",
-  "position": "bottom",
-  "colours": "unknown",
-  "highlight_style": "unknown"
+  "words_per_line": "none",
+  "case": "none",
+  "position": "none",
+  "colours": "none",
+  "highlight_style": "none"
  },
  "text_overlays": [
   {
    "at_s": 0.0,
-   "text": "TAT FUTEBOL"
+   "text": "TAT FUTE 1"
   }
  ],
  "cards_or_graphics": 0,
  "framing": "crop",
  "ending": {
-  "last_words": "lararanara",
-  "last_frame": "An older man ice skating inside an indoor hockey rink.",
-  "loops_to_start": true,
+  "last_words": "Laraia laraia",
+  "last_frame": "Full shot of the elderly man posed as an ice skater on a rink.",
+  "loops_to_start": false,
   "call_to_action": "none"
  },
- "script": "quero mais pegar você ia ranara ia ranara ia ranara ia ranara",
+ "script": "Hoje eu não quero mais pegar você. Quero... porque... quer essa... pica... E laraia laraia... pica... E laraia laraia... pica... E laraia laraia...",
  "retention_tricks": [
-  "unexpected AI morphs (footballer to giant goalkeeper to chef)",
-  "fast-paced visual transitions",
-  "surreal humor"
+  "Pattern of real/edited football action followed immediately by unexpected AI image punchline",
+  "Rhythmic synchronization between the song beat drop and the reveal of each punchline image",
+  "Surreal visual humor that keeps the viewer guessing what absurd situation comes next"
  ],
  "subject_visible_0_1s": true,
  "devices": {
@@ -106,15 +112,15 @@
   "reaction_shot": false
  },
  "what_makes_it_work": [
-  "Absurd AI-generated image transformations that catch viewers off guard",
-  "Seamless matching of football actions into completely different surreal settings",
-  "Energetic and catchy background music driving the pace of the edits"
+  "Predictable comedic structure (action setup followed by absurd AI-generated punchline) sets clear expectations that reward viewer curiosity.",
+  "High contrast between intense athletic moments and ridiculous situations (surfing, diapers, ice skating) creates instant comedic value.",
+  "Hypnotic slowed funk soundtrack drives the editing rhythm and keeps pacing punchy."
  ],
  "_meta": {
-  "source": "ERdqWsE4fvU",
-  "model": "gemini-3.5-flash-lite",
+  "source": "https://www.youtube.com/shorts/ERdqWsE4fvU",
+  "model": "gemini-3.8-flash",
   "fps": 4.0,
-  "watched": "2026-10-27",
+  "watched": "2026-11-07",
   "tier": "[S] model-observed, not measured"
  }
 }

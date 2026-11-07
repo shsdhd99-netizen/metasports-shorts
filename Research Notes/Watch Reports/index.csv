@@ -34,3 +34,5 @@ date,video,model,length_s,lane,shot_count,average_shot_s,shots_in_first_3s,voice
 2026-11-06,https://www.youtube.com/shorts/ZKdQAH88zL8,gemini-3.6-flash,74.5,explainer,23,3.24,3,AI,True,3,Research Notes/Watch Reports/ZKdQAH88zL8.json
 2026-11-07,/tmp/claude-0/-home-user-metasports-shorts/bc228739-3662-5759-8934-674d6d03bfcf/scratchpad/tt/media/7703989006370950431.mp4,gemini-3.6-flash,63.0,explainer,15,4.2,1,human,False,0,Research Notes/Watch Reports/7703989006370950431.json
 2026-11-07,/tmp/claude-0/-home-user-metasports-shorts/bc228739-3662-5759-8934-674d6d03bfcf/scratchpad/tt/media/7703246553342954783.mp4,gemini-3.5-flash,62.25,explainer,13,4.79,1,AI,True,0,Research Notes/Watch Reports/7703246553342954783.json
+2026-11-07,https://www.youtube.com/shorts/ERdqWsE4fvU,gemini-3.8-flash,24.2,other,8,3.03,1,human,True,0,Research Notes/Watch Reports/ERdqWsE4fvU.json
+2026-11-07,https://www.youtube.com/shorts/HgSyu5Vpgio,gemini-3.6-flash,20.5,list,8,2.56,1,human,True,0,Research Notes/Watch Reports/HgSyu5Vpgio.json

@@ -84,7 +84,7 @@ def main():
                 raw = os.path.join(F, "_rawclips", s["clip"] + "_raw.mp4")
                 os.replace(out, raw)
                 run([py, os.path.join(HERE, "overlay.py"), "--in", raw, "--out", out, "--spec", spec])
-                msg += f" + words: {' / '.join(x['text'] for x in s['overlay'])}"
+                msg += f" + words: {' / '.join(x.get('text') or str(x.get('count', {}).get('to', '')) for x in s['overlay'])}"
             print(f"  {s['clip']}: {msg}")
         shot = {"clip": s["clip"] + ".mp4", "kind": s.get("kind", "action"), "why": s.get("why", "")}
         for k in ("anchor", "lead", "replay"):  # Oct 26: "replay": true marks an intentional replay of earlier footage (QA allows it)

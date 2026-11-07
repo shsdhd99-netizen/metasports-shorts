@@ -10,3 +10,10 @@ Goal: the autopilot only fills a slot with a 10+/12 idea (`Autopilot Schedule v2
 7. A manager oddity with a visible object or gesture (we tried 2; change the hook, not the lane).
 8. One NBA family or watchable-curiosity story (our NBA family median is 25K; the underhand free throw got 29K) that nobody has posted yet.
 For each: title idea (10 words max), line 1 (11 words max), the two sources with quotes, the footage plan (which official channel, which timestamp), copy-check verdict, 12-point rating.
+
+## Delivered (cloud FC run, Sat Nov 7)
+Request 1 (goalkeeper oddity in a famous shootout), two premises at **11/12**, both written as PREP folders (script + claims table + footage plan, no voice):
+- **S38 The goalkeeper who beat a team that practised 1,000 penalties** (Bounou v Spain, 2022). Sources: Sky Sports/Opta and Goal (Luis Enrique's "at least 1,000 penalties" homework; Spain the 2nd team ever to score none in a World Cup shootout), AP (his "take Bounou out" line), BBC, RFEF. Footage: FIFA `yF5mHzhRBWE` (full shootout), FIFA full match `ci4vyd6PsNg`. `copy_check`: FRESH. Folder `Soccer Channel/Productions/2026-11-14 S38 ...`.
+- **S43 The goalkeeper who found out Chelsea's secret penalty plan** (Van der Sar v Anelka, 2008 final). Sources: ESPN (Palacios-Huerta's database; Chelsea's first six all to his left; the point), Wikipedia/CNN/Guardian (shootout), Van der Sar's own account (GiveMeSport, JOE). Footage: TNT Sports `z-QliFMvpqI` (full shootout), UEFA `GieEKm5HI8o`, `YtzHAkcjHv4`. `copy_check`: FRESH. Folder `Soccer Channel/Productions/2026-11-17 S43 ...`.
+- Checked and dropped: **Livakovic v Japan 2022: TAKEN** (a 500K+ telling); **Cech 2012: CROWDED**. **Duckadam 1986: FRESH** (reserve; needs footage and a second source for the career-ending illness).
+For Mon Nov 9 12 PM FC (international break, evergreen): S38 is the 10+ premise; it needs the PC to cut the FIFA footage and voice it (about 1,750 credits).

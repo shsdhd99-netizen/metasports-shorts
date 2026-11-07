@@ -5,6 +5,25 @@ research with sources, what was made, what changed in the rules or tools.
 
 STATUS: PC account 1 NBA gap-fill, Nov 5: filled Fri Nov 6 3:30 PM ET by scheduling the already-built #95 (Lendeborg peer pressure; QA PASS re-run, private + publishAt via schedule_ready). No new build, no credits spent.
 
+## Sat Nov 7, 2026 (FC main-session run, 10:39 UTC; daily-run skill of Nov 6)
+
+AUTO: FC no gap in the next 54 h (`next_gap.py fc`; Sat S29 and Sun S09 are on YouTube; Mon 12 PM is just past 54 h). FC Hub: 0 cards ready. Task-list inbox: empty. Prepped the next two ideas (script + sources, no voice): **S38 Bounou v Spain** ("practised 1,000 penalties", 215 words) and **S43 Van der Sar v Anelka** ("Chelsea's secret penalty plan", 226 words), both goalkeeper-penalty lane, FRESH, rated 11/12, official footage found (FIFA `yF5mHzhRBWE`; TNT `z-QliFMvpqI`). Livakovic/Japan TAKEN, Cech 2012 CROWDED. `preflight.py --quiet`: OK in this main session (the YouTube keys exist here; only the fresh-session routines lack them). Next: the PC voices and cuts S38 for Mon Nov 9 12 PM.
+
+## Sat Nov 7, 2026 (NBA cloud build, 09:41 UTC; daily-run skill of Nov 6)
+
+AUTO: built #99 "Luka Has Scored 40 In Six Of His Last Seven Games" for the Sat 3:30 PM ET gap (`next_gap.py nba`; Sat 7:15 AM was missed, Klay #98 not built). DRAFT only, not scheduled from the cloud.
+- Story: Lakers 124-118 Blazers (Nov 6): Luka 53, 20 in the 3rd, his 11th career 50-point game and 4th as a Laker; 40+ in six of seven, seven straight 35/5/5/5; the one miss was 37 at GS (Oct 31). Sources: AP via CBS/WTOP, ESPN box scores (notes.md).
+- Build: 73 words, Alex voice 18.8 s after tighten, 12 shots from 6 ESPN clips, count-up overlays, no music. `qa_short --full` PASS, `qa_final` SHIP (0 fail, 2 warn).
+- Hub: `shorts/s99-luka-53` status ready (1080p + 720p). Task `post-luka-53` due 3:30 PM ET, with a "skip if the PC already scheduled it" step.
+- Tool fix: `cut_list.py` no longer crashes on count overlays (prints the count's target).
+- Hand-off: the card has Slot + Arm + QA PASS, so the PC's 6:30 AM ET `schedule_ready.py --go` can upload it (no NBA clash on Sat); if the PC is off, the owner posts by hand from the task.
+
+## Sat Nov 7, 2026 (FC cloud run, 09:25 UTC; CLOUD DAILY RULES + daily-run skill of Nov 6)
+
+STATUS: blocked, no build. Voice and Gemini keys set; `preflight.py --quiet`: BLOCKED (YT_CLIENT_ID, YT_CLIENT_SECRET, YT_UPLOAD_TOKEN, YT_UPLOAD_TOKEN_FC missing in this environment). `next_gap.py fc`: NO GAP in 54 h. The skill's "no gap: prep the next two ideas" is already met (S21, S22, S36 scripted past the scheduled S31/S32/S30), so nothing new written. No credits spent.
+- Data: public counts: S28 24K (~1 d), S25 24K, S26 19K, S19 3.8K, S30 1.9K (~12 h), S27 1.3K (~2 d), S20 1.2K. `learn.py all` refreshed (goalkeeper trick n=6, 6.5x).
+- Learned: Lessons Learned Nov 7 (the shootout moment carries the goalkeeper lane; S27 without one missed).
+
 ## Sat Nov 7, 2026 (NBA cloud routine, account 2 session)
 
 STATUS: blocked, no build (3rd day). Voice and Gemini keys set; `preflight.py --quiet`: BLOCKED (YT_CLIENT_ID, YT_CLIENT_SECRET, YT_UPLOAD_TOKEN, YT_UPLOAD_TOKEN_FC missing in this session's environment); no credits spent. Next NBA gap: Sat Nov 7 3:30 PM ET, in range of the PC gap-fill (6:45 AM ET).
