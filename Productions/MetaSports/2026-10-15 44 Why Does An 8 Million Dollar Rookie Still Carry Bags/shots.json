@@ -1,0 +1,91 @@
+[
+ {
+  "clip": "M0.mp4",
+  "kind": "face",
+  "in": 0.0,
+  "zoom": 0.03,
+  "why": "Frame 1: Flagg close-up at Mavericks media day (NBA post; 864x1080 source, 1.78x)",
+  "start": 0.0
+ },
+ {
+  "clip": "A2.mp4",
+  "anchor": "carry the bags",
+  "kind": "action",
+  "in": 0.0,
+  "why": "Flagg signing autographs for fans in Macao, same trip (not the bag-carrying itself)",
+  "start": 1.58
+ },
+ {
+  "clip": "C1.mp4",
+  "anchor": "eight million dollars",
+  "kind": "card",
+  "in": 0.0,
+  "why": "CBS Sports headline: card sells for $8.04 million",
+  "start": 3.73
+ },
+ {
+  "clip": "D1.mp4",
+  "anchor": "He's the reigning",
+  "kind": "action",
+  "in": 0.0,
+  "why": "Flagg dunk vs Cavs, Mar 13 2026 (NBA post), his Rookie of the Year season",
+  "start": 4.75
+ },
+ {
+  "clip": "A3.mp4",
+  "anchor": "In Macao this",
+  "kind": "action",
+  "in": 0.0,
+  "why": "Fans at the railings for his autograph in Macao (exactly the line)",
+  "start": 6.09
+ },
+ {
+  "clip": "C2.mp4",
+  "anchor": "And on that same",
+  "kind": "card",
+  "in": 0.0,
+  "why": "ESPN's exact words on the bag-carrying, typeset with attribution (no video of it found)",
+  "start": 9.22
+ },
+ {
+  "clip": "A1.mp4",
+  "anchor": "Why Technically",
+  "kind": "face",
+  "in": 0.0,
+  "why": "Flagg in Macao (NBA post), same trip; NBA burned captions cropped off",
+  "start": 12.58
+ },
+ {
+  "clip": "D0.mp4",
+  "anchor": "until he plays",
+  "kind": "action",
+  "in": 0.0,
+  "why": "Flagg (#32) driving vs Cavs, Mar 13 2026: his first season",
+  "start": 14.18
+ },
+ {
+  "clip": "D2.mp4",
+  "anchor": "game of his second",
+  "kind": "face",
+  "in": 0.0,
+  "why": "Flagg close-up, same game",
+  "start": 14.98
+ },
+ {
+  "clip": "C3.mp4",
+  "anchor": "Flagg says he",
+  "kind": "card",
+  "in": 0.0,
+  "why": "Flagg's exact quote to ESPN, typeset with attribution",
+  "start": 16.04
+ },
+ {
+  "clip": "A4.mp4",
+  "anchor": "But yeah",
+  "kind": "action",
+  "in": 0.0,
+  "zoom": 0.04,
+  "why": "Payoff: Flagg grinning with a teammate (not named) in front of the Macao skyline, the same trip",
+  "start": 18.4
+ }
+]

@@ -1,0 +1,31 @@
+[
+ {
+  "take": 1,
+  "ok": false,
+  "score": -195.2,
+  "verdict": "REDO",
+  "issues": [
+   "38.84s  script \"esteban cambiasso\" but heard \"a stab on can be ah so\"",
+   "54.62s  script \"his\" but heard \"(nothing)\""
+  ],
+  "wpm": 235,
+  "hnr": 8.5,
+  "jitter": 2.94,
+  "shimmer": 10.97,
+  "dur": 69.59,
+  "pitch_sd": 5.2
+ },
+ {
+  "take": 2,
+  "ok": true,
+  "score": 4.4,
+  "verdict": "CHECK",
+  "issues": [],
+  "wpm": 247,
+  "hnr": 8.1,
+  "jitter": 2.88,
+  "shimmer": 11.16,
+  "dur": 66.01,
+  "pitch_sd": 5.14
+ }
+]

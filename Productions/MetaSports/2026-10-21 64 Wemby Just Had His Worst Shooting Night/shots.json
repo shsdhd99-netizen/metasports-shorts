@@ -1,0 +1,100 @@
+[
+ {
+  "clip": "S00.mp4",
+  "kind": "face",
+  "why": "Wembanyama close-up, front on, opening night vs OKC, 2nd quarter 6:40 (ESPN clip of the NBC broadcast)",
+  "start": 0.0,
+  "zoom": 0.045
+ },
+ {
+  "clip": "S02.mp4",
+  "kind": "action",
+  "why": "Wembanyama (#1) with the ball at the top, 3rd quarter 3:10, before a missed three (Legion Hoops compilation)",
+  "anchor": "just had",
+  "start": 1.19
+ },
+ {
+  "clip": "S02b.mp4",
+  "kind": "action",
+  "anchor": "shooting night",
+  "why": "Wembanyama (#1) drives into the lane and misses, 1st quarter 6:35 (same compilation)",
+  "start": 2.03
+ },
+ {
+  "clip": "S03o.mp4",
+  "kind": "action",
+  "why": "Another Wembanyama miss, 3rd quarter 2:00 (same compilation). Words: 1 FOR 13, OPENING NIGHT",
+  "anchor": "1 for",
+  "start": 3.52
+ },
+ {
+  "clip": "S04.mp4",
+  "kind": "face",
+  "why": "Wembanyama close-up in a Spurs jersey (NBA's DPOY reel, 2025-26 season)",
+  "anchor": "And he's",
+  "start": 4.59
+ },
+ {
+  "clip": "S05o.mp4",
+  "kind": "action",
+  "why": "Wembanyama lifting the DPOY trophy at the Frost Bank Center, Apr 2026 (NBA post). Words: 1ST UNANIMOUS DEFENSIVE PLAYER OF THE YEAR",
+  "anchor": "Defensive Player",
+  "start": 5.75
+ },
+ {
+  "clip": "S06.mp4",
+  "kind": "action",
+  "why": "Rookie Wembanyama (#1, black) running the floor vs Golden State, Mar 11 2024 (Spurs highlights)",
+  "anchor": "His old low",
+  "start": 7.58
+ },
+ {
+  "clip": "S07o.mp4",
+  "kind": "action",
+  "why": "Rookie Wembanyama (#1) tips in at the rim vs Golden State, Mar 11 2024 (Spurs highlights). Words: OLD LOW 3-13, MARCH 2024, 10+ SHOTS",
+  "anchor": "for 13,",
+  "start": 8.54
+ },
+ {
+  "clip": "S08o.mp4",
+  "kind": "action",
+  "why": "Wembanyama (#1) misses a jumper, 2nd quarter 8:43 (compilation). Words: 0 FOR 12, TO START THE GAME",
+  "anchor": "On opening night",
+  "start": 10.34
+ },
+ {
+  "clip": "S09d.mp4",
+  "kind": "action",
+  "why": "Thunder rookie Aday Mara blocks Wembanyama's dunk, 3rd quarter 4:22 (ClutchPoints post)",
+  "anchor": "and a rookie",
+  "start": 12.7
+ },
+ {
+  "clip": "S12.mp4",
+  "kind": "face",
+  "why": "Wembanyama (#1 WEMBANYAMA) close, 2nd quarter 7:04 (Spurs post)",
+  "anchor": "So did he",
+  "start": 14.06
+ },
+ {
+  "clip": "S11o.mp4",
+  "kind": "action",
+  "why": "Wembanyama (#1) blocks Holmgren (#7), close replay (Spurs post). Words: 13 REB, 6 BLK",
+  "anchor": "He had 13",
+  "start": 15.64
+ },
+ {
+  "clip": "S13o.mp4",
+  "kind": "action",
+  "why": "Replay of his only basket: Wembanyama (#1) calls for the lob from Fox (#4), end of the 3rd quarter (ESPN clip of the NBC broadcast). Words: 12 PTS, 1 FG + 10 FREE THROWS",
+  "anchor": "And he still",
+  "start": 17.38
+ },
+ {
+  "clip": "S14.mp4",
+  "kind": "action",
+  "why": "His only basket: Wembanyama catches the lob and dunks, 3rd quarter 0.0 (ESPN 'Wemby snaps 0-for-12 start with alley-oop')",
+  "anchor": "with one basket",
+  "start": 18.74
+ }
+]

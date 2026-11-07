@@ -1,0 +1,677 @@
+{
+ "R5n_A_v2_t1": {
+  "name": "R5n_A_v2_t1",
+  "dur": 23.27,
+  "speech_s": 22.72,
+  "wpm": 214,
+  "gaps_over_0p3": 5.0,
+  "max_gap": 0.42,
+  "wer_clean": 16.7,
+  "wer_phone": 16.7,
+  "names_clean": {
+   "wembanyama": false,
+   "jamarion": false,
+   "jokic": false,
+   "antetokounmpo": false,
+   "giannis": false
+  },
+  "names_phone": {
+   "wembanyama": false,
+   "jamarion": false,
+   "jokic": false,
+   "antetokounmpo": false,
+   "giannis": false
+  },
+  "numbers_clean": {
+   "350": false,
+   "zero": false,
+   "7-5": false
+  },
+  "numbers_phone": {
+   "350": false,
+   "zero": false,
+   "7-5": false
+  },
+  "pitch_sd_semitones": 5.11,
+  "loudness_sd_db": 3.33,
+  "hnr": 8.6,
+  "jitter": 2.75,
+  "shimmer": 11.07,
+  "f0_med": 154.0,
+  "heard_clean": "LeBron James has missed more shots than anyone in NBA history. 15 ,541, and he's the all -time leading scorer. The old record was Kobe's 14 ,481 misses. LeBron passed it in October 2024, the same night he first played with his son. So is he a worst shooter? No, LeBron makes 51%. Kobe made 45. LeBron just shot more than anyone ever. 31 ,502 times.",
+  "heard_phone": "LeBron James has missed more shots than anyone in NBA history. 15 ,541, and he's the all -time leading scorer. The old record was Kobe's 14 ,481 misses. LeBron passed it in October 2024, the same night he first played with his son, so is he a worst shooter? No, LeBron makes 51%, Kobe made 45. LeBron just shot more than anyone ever. 31 ,502 times.",
+  "stretch": 1.0,
+  "source": "R5_A_v2_t1",
+  "label": "Alex, multilingual v2, speed 1.2 (CONTROL: the #42 and #44 voice)"
+ },
+ "R5n_A_v2_t2": {
+  "name": "R5n_A_v2_t2",
+  "dur": 22.94,
+  "speech_s": 22.54,
+  "wpm": 216,
+  "gaps_over_0p3": 5.0,
+  "max_gap": 0.46,
+  "wer_clean": 16.7,
+  "wer_phone": 16.7,
+  "names_clean": {
+   "wembanyama": false,
+   "jamarion": false,
+   "jokic": false,
+   "antetokounmpo": false,
+   "giannis": false
+  },
+  "names_phone": {
+   "wembanyama": false,
+   "jamarion": false,
+   "jokic": false,
+   "antetokounmpo": false,
+   "giannis": false
+  },
+  "numbers_clean": {
+   "350": false,
+   "zero": false,
+   "7-5": false
+  },
+  "numbers_phone": {
+   "350": false,
+   "zero": false,
+   "7-5": false
+  },
+  "pitch_sd_semitones": 5.42,
+  "loudness_sd_db": 3.27,
+  "hnr": 9.1,
+  "jitter": 2.61,
+  "shimmer": 11.03,
+  "f0_med": 152.0,
+  "heard_clean": "LeBron James has missed more shots than anyone in NBA history. 15 ,541, and he's the all -time leading scorer. The old record was Kobe's 14 ,481 misses. LeBron passed it in October 2024, the same night he first played with his son. So is he a worst shooter? No, LeBron makes 51%, Kobe made 45. LeBron just shot more than anyone ever, 31 ,502 times.",
+  "heard_phone": "LeBron James has missed more shots than anyone in NBA history. 15 ,541, and he's the all -time leading scorer. The old record was Kobe's 14 ,481 misses. LeBron passed it in October 2024, the same night he first played with his son. So is he a worst shooter? No, LeBron makes 51%, Kobe made 45. LeBron just shot more than anyone ever. 31 ,502 times.",
+  "stretch": 1.0,
+  "source": "R5_A_v2_t2",
+  "label": "Alex, multilingual v2, speed 1.2 (CONTROL: the #42 and #44 voice)"
+ },
+ "R5n_A_v3_t1": {
+  "name": "R5n_A_v3_t1",
+  "dur": 23.27,
+  "speech_s": 22.94,
+  "wpm": 212,
+  "gaps_over_0p3": 6.0,
+  "max_gap": 0.48,
+  "wer_clean": 16.7,
+  "wer_phone": 15.2,
+  "names_clean": {
+   "wembanyama": false,
+   "jamarion": false,
+   "jokic": false,
+   "antetokounmpo": false,
+   "giannis": false
+  },
+  "names_phone": {
+   "wembanyama": false,
+   "jamarion": false,
+   "jokic": false,
+   "antetokounmpo": false,
+   "giannis": false
+  },
+  "numbers_clean": {
+   "350": false,
+   "zero": false,
+   "7-5": false
+  },
+  "numbers_phone": {
+   "350": false,
+   "zero": false,
+   "7-5": false
+  },
+  "pitch_sd_semitones": 5.35,
+  "loudness_sd_db": 2.54,
+  "hnr": 7.9,
+  "jitter": 3.23,
+  "shimmer": 11.85,
+  "f0_med": 151.0,
+  "heard_clean": "LeBron James has missed more shots than anyone in NBA history. 15 ,541. And he's the all -time leading scorer. The old record was Kobe's 14 ,481 misses. LeBron passed it in October 2024, the same night he first played with his son. So is he a worst shooter? No, LeBron makes 51%. Kobe made 45. LeBron just shot more than anyone ever. 31 ,502 times.",
+  "heard_phone": "LeBron James has missed more shots than anyone in NBA history. 15 ,541. And he's the all -time leading scorer. The old record was Kobe's. 14 ,481 misses. LeBron passed it in October 2024, the same night he first played with his son. So is he a worse shooter? No, LeBron makes 51%. Kobe made 45. LeBron just shot more than anyone ever. 31 ,502 times.",
+  "stretch": 1.346,
+  "source": "R5_A_v3_t1",
+  "label": "Alex, Eleven v3"
+ },
+ "R5n_A_v3_t2": {
+  "name": "R5n_A_v3_t2",
+  "dur": 23.27,
+  "speech_s": 22.98,
+  "wpm": 211,
+  "gaps_over_0p3": 3.0,
+  "max_gap": 0.38,
+  "wer_clean": 16.7,
+  "wer_phone": 16.7,
+  "names_clean": {
+   "wembanyama": false,
+   "jamarion": false,
+   "jokic": false,
+   "antetokounmpo": false,
+   "giannis": false
+  },
+  "names_phone": {
+   "wembanyama": false,
+   "jamarion": false,
+   "jokic": false,
+   "antetokounmpo": false,
+   "giannis": false
+  },
+  "numbers_clean": {
+   "350": false,
+   "zero": false,
+   "7-5": false
+  },
+  "numbers_phone": {
+   "350": false,
+   "zero": false,
+   "7-5": false
+  },
+  "pitch_sd_semitones": 4.83,
+  "loudness_sd_db": 2.1,
+  "hnr": 8.4,
+  "jitter": 3.02,
+  "shimmer": 10.57,
+  "f0_med": 153.0,
+  "heard_clean": "LeBron James has missed more shots than anyone in NBA history. 15 ,541, and he's the all -time leading score. The old record was Kobe's, 14 ,481 misses. LeBron passed it in October 2024, the same night he first played with his son. So is he a worst shooter? No, LeBron makes 51%. Kobe made 45. LeBron just shot more than anyone ever, 31 ,502 times.",
+  "heard_phone": "LeBron James has missed more shots than anyone in NBA history. 15 ,541. And he's the all -time leading scorer. The old record was Kobe. 14 ,481 misses. LeBron passed it in October 2024, the same night he first played with his son. So is he a worst shooter? No, LeBron makes 51%. Kobe made 45. LeBron just shot more than anyone ever. 31 ,502 times.",
+  "stretch": 1.248,
+  "source": "R5_A_v3_t2",
+  "label": "Alex, Eleven v3"
+ },
+ "R5n_A_v4_t1": {
+  "name": "R5n_A_v4_t1",
+  "dur": 23.28,
+  "speech_s": 22.96,
+  "wpm": 212,
+  "gaps_over_0p3": 6.0,
+  "max_gap": 0.52,
+  "wer_clean": 16.7,
+  "wer_phone": 16.7,
+  "names_clean": {
+   "wembanyama": false,
+   "jamarion": false,
+   "jokic": false,
+   "antetokounmpo": false,
+   "giannis": false
+  },
+  "names_phone": {
+   "wembanyama": false,
+   "jamarion": false,
+   "jokic": false,
+   "antetokounmpo": false,
+   "giannis": false
+  },
+  "numbers_clean": {
+   "350": false,
+   "zero": false,
+   "7-5": false
+  },
+  "numbers_phone": {
+   "350": false,
+   "zero": false,
+   "7-5": false
+  },
+  "pitch_sd_semitones": 5.07,
+  "loudness_sd_db": 3.8,
+  "hnr": 8.3,
+  "jitter": 2.93,
+  "shimmer": 12.74,
+  "f0_med": 164.0,
+  "heard_clean": "LeBron James has missed more shots than anyone in NBA history. 15 ,541. And he's the all -time leading scorer. The old record was Kobe's, 14 ,481 misses. LeBron passed it in October 2024, the same night he first played with his son. So is he a worst shooter? No, LeBron makes 51%. Kobe made 45. LeBron just shot more than anyone ever. 31 ,502 times.",
+  "heard_phone": "LeBron James has missed more shots than anyone in NBA history. 15 ,541. And he's the all -time leading scorer. The old record was Kobe's. 14 ,481 misses. LeBron passed it in October 2024, the same night he first played with his son. So is he a worst shooter? No, LeBron makes 51%. Kobe made 45. LeBron just shot more than anyone ever. 31 ,502 times.",
+  "stretch": 1.342,
+  "source": "R5_A_v4_t1",
+  "label": "Alex, Eleven v4"
+ },
+ "R5n_D_v2_t1": {
+  "name": "R5n_D_v2_t1",
+  "dur": 23.14,
+  "speech_s": 22.86,
+  "wpm": 213,
+  "gaps_over_0p3": 8.0,
+  "max_gap": 0.64,
+  "wer_clean": 16.7,
+  "wer_phone": 30.3,
+  "names_clean": {
+   "wembanyama": false,
+   "jamarion": false,
+   "jokic": false,
+   "antetokounmpo": false,
+   "giannis": false
+  },
+  "names_phone": {
+   "wembanyama": false,
+   "jamarion": false,
+   "jokic": false,
+   "antetokounmpo": false,
+   "giannis": false
+  },
+  "numbers_clean": {
+   "350": false,
+   "zero": false,
+   "7-5": false
+  },
+  "numbers_phone": {
+   "350": false,
+   "zero": false,
+   "7-5": false
+  },
+  "pitch_sd_semitones": 2.47,
+  "loudness_sd_db": 4.3,
+  "hnr": 12.5,
+  "jitter": 2.07,
+  "shimmer": 10.19,
+  "f0_med": 155.0,
+  "heard_clean": "LeBron James has missed more shots than anyone in NBA history. 15 ,541, and he's the all -time leading scorer. The old record was Kobe's 14 ,481 misses. LeBron passed it in October 2024, the same night he first played with his son. So is he a worst shooter? No, LeBron makes 51%, Kobe made 45. LeBron just shot more than anyone ever. 31 ,502 times. times.",
+  "heard_phone": "LeBron James has missed more shots than anyone in NBA history. 15 ,541, and he's the all -time leading scorer. The old record was Kobe, 14 ,481 misses. LeBron passed it in October 2024, the same night he first played with his son. So is he a worst shooter? No, LeBron makes 51%, Kobe made 45. LeBron just shot more than anyone ever, 31 ,502 times. Thank you so much for watching. Have a great day.",
+  "stretch": 1.0,
+  "source": "R5_D_v2_t1",
+  "label": "Deuce - Sports Podcast (library, young American), v2, speed 1.2"
+ },
+ "R5n_D_v4_t1": {
+  "name": "R5n_D_v4_t1",
+  "dur": 23.27,
+  "speech_s": 22.9,
+  "wpm": 212,
+  "gaps_over_0p3": 5.0,
+  "max_gap": 0.58,
+  "wer_clean": 16.7,
+  "wer_phone": 16.7,
+  "names_clean": {
+   "wembanyama": false,
+   "jamarion": false,
+   "jokic": false,
+   "antetokounmpo": false,
+   "giannis": false
+  },
+  "names_phone": {
+   "wembanyama": false,
+   "jamarion": false,
+   "jokic": false,
+   "antetokounmpo": false,
+   "giannis": false
+  },
+  "numbers_clean": {
+   "350": false,
+   "zero": false,
+   "7-5": false
+  },
+  "numbers_phone": {
+   "350": false,
+   "zero": false,
+   "7-5": false
+  },
+  "pitch_sd_semitones": 3.67,
+  "loudness_sd_db": 4.62,
+  "hnr": 11.3,
+  "jitter": 2.5,
+  "shimmer": 12.99,
+  "f0_med": 162.0,
+  "heard_clean": "LeBron James has missed more shots than anyone in NBA history. 15 ,541, and he's the all -time leading scorer. The old record was Kobe's, 14 ,481 misses. LeBron passed it in October 2024, the same night he first played with his son. So is he a worst shooter? No, LeBron makes 51%, Kobe made 45. LeBron just shot more than anyone ever, 31 ,502 times.",
+  "heard_phone": "LeBron James has missed more shots than anyone in NBA history. 15 ,541. And he's the all -time leading scorer. The old record was Kobe's, 14 ,481 misses. LeBron passed it in October 2024, the same night he first played with his son. So is he a worst shooter? No, LeBron makes 51%. Kobe made 45. LeBron just shot more than anyone, ever. 31 ,502 times.",
+  "stretch": 1.288,
+  "source": "R5_D_v4_t1",
+  "label": "Deuce, Eleven v4"
+ },
+ "R5n_F_v2_t1": {
+  "name": "R5n_F_v2_t1",
+  "dur": 22.56,
+  "speech_s": 22.36,
+  "wpm": 217,
+  "gaps_over_0p3": 4.0,
+  "max_gap": 0.46,
+  "wer_clean": 16.7,
+  "wer_phone": 22.7,
+  "names_clean": {
+   "wembanyama": false,
+   "jamarion": false,
+   "jokic": false,
+   "antetokounmpo": false,
+   "giannis": false
+  },
+  "names_phone": {
+   "wembanyama": false,
+   "jamarion": false,
+   "jokic": false,
+   "antetokounmpo": false,
+   "giannis": false
+  },
+  "numbers_clean": {
+   "350": false,
+   "zero": false,
+   "7-5": false
+  },
+  "numbers_phone": {
+   "350": false,
+   "zero": false,
+   "7-5": false
+  },
+  "pitch_sd_semitones": 5.05,
+  "loudness_sd_db": 2.72,
+  "hnr": 9.1,
+  "jitter": 2.64,
+  "shimmer": 9.65,
+  "f0_med": 210.0,
+  "heard_clean": "LeBron James has missed more shots than anyone in NBA history. 15 ,541, and he's the all -time leading scorer. The old record was Kobe's 14 ,481 misses. LeBron passed it in October 2024, the same night he first played with his son. So is he a worst shooter? No, LeBron makes 51%. Kobe made 45. LeBron just shot more than anyone, ever. 31 ,502 times. times.",
+  "heard_phone": "LeBron James has missed more shots than anyone in NBA history. 15 ,541, and he's the all -time leading scorer. The old record was Kobe, 14 ,481 misses. LeBron passed it in October 2024, the same night he first played with his son. So is he a worst shooter? No, LeBron makes 51%. Kobe made 45. LeBron just shot more than anyone, ever. 31 ,502 times. Thank you. Thank you. Bye.",
+  "stretch": 1.0,
+  "source": "R5_F_v2_t1",
+  "label": "pham v2 (our clone of the old channel narration), v2, speed 1.1"
+ },
+ "R5n_F_v4_t1": {
+  "name": "R5n_F_v4_t1",
+  "dur": 23.27,
+  "speech_s": 22.94,
+  "wpm": 212,
+  "gaps_over_0p3": 3.0,
+  "max_gap": 0.48,
+  "wer_clean": 16.7,
+  "wer_phone": 22.7,
+  "names_clean": {
+   "wembanyama": false,
+   "jamarion": false,
+   "jokic": false,
+   "antetokounmpo": false,
+   "giannis": false
+  },
+  "names_phone": {
+   "wembanyama": false,
+   "jamarion": false,
+   "jokic": false,
+   "antetokounmpo": false,
+   "giannis": false
+  },
+  "numbers_clean": {
+   "350": false,
+   "zero": false,
+   "7-5": false
+  },
+  "numbers_phone": {
+   "350": false,
+   "zero": false,
+   "7-5": false
+  },
+  "pitch_sd_semitones": 4.66,
+  "loudness_sd_db": 2.48,
+  "hnr": 9.2,
+  "jitter": 2.83,
+  "shimmer": 9.54,
+  "f0_med": 205.0,
+  "heard_clean": "LeBron James has missed more shots than anyone in NBA history. 15 ,541. And he's the all -time leading scorer. The old record was Kobe's, 14 ,481 misses. LeBron passed it in October 2024, the same night he first played with his son. So is he a worst shooter? No, LeBron makes 51%. Kobe made 45. LeBron just shot more than anyone ever. 31 ,502 times.",
+  "heard_phone": "LeBron James has missed more shots than anyone in NBA history. 15 ,541. And he's the all -time leading scorer. The old record was Kobe, 14 ,481 misses. LeBron passed it in October 2024, the same night he first played with his son. So is he a worst shooter? No, LeBron makes 51%. Kobe made 45. LeBron just shot more than anyone ever. 31 ,502 times. Thank you for watching. Bye.",
+  "stretch": 1.183,
+  "source": "R5_F_v4_t1",
+  "label": "pham v2 clone, Eleven v4"
+ },
+ "R5n_L_v2_t1": {
+  "name": "R5n_L_v2_t1",
+  "dur": 21.53,
+  "speech_s": 21.08,
+  "wpm": 231,
+  "gaps_over_0p3": 8.0,
+  "max_gap": 0.48,
+  "wer_clean": 18.2,
+  "wer_phone": 16.7,
+  "names_clean": {
+   "wembanyama": false,
+   "jamarion": false,
+   "jokic": false,
+   "antetokounmpo": false,
+   "giannis": false
+  },
+  "names_phone": {
+   "wembanyama": false,
+   "jamarion": false,
+   "jokic": false,
+   "antetokounmpo": false,
+   "giannis": false
+  },
+  "numbers_clean": {
+   "350": false,
+   "zero": false,
+   "7-5": false
+  },
+  "numbers_phone": {
+   "350": false,
+   "zero": false,
+   "7-5": false
+  },
+  "pitch_sd_semitones": 3.45,
+  "loudness_sd_db": 3.79,
+  "hnr": 10.4,
+  "jitter": 2.72,
+  "shimmer": 10.0,
+  "f0_med": 139.0,
+  "heard_clean": "LeBron James has missed more shots than anyone in NBA history, 15 ,541, and he's the all -time leading scorer. The old record was Kobe's, 14 ,481 misses. LeBron passed it in October 2024, the same night he first played with his son, so was he a worst shooter? No, LeBron makes 51%, Kobe made 45. LeBron just shot more than anyone, ever, 31 ,502 times.",
+  "heard_phone": "LeBron James has missed more shots than anyone in NBA history. 15 ,541, and he's the all -time leading scorer. The old record was Kobe's, 14 ,481 misses. LeBron passed it in October 2024, the same night he first played with his son. So is he a worst shooter? No, LeBron makes 51%, Kobe made 45. LeBron just shot more than anyone, ever, 31 ,502 times.",
+  "stretch": 1.0,
+  "source": "R5_L_v2_t1",
+  "label": "Liam - Viral Short-Form (library, 443M chars/yr), v2, speed 1.2"
+ },
+ "R5n_L_v4_t1": {
+  "name": "R5n_L_v4_t1",
+  "dur": 23.27,
+  "speech_s": 22.88,
+  "wpm": 212,
+  "gaps_over_0p3": 6.0,
+  "max_gap": 0.52,
+  "wer_clean": 16.7,
+  "wer_phone": 21.2,
+  "names_clean": {
+   "wembanyama": false,
+   "jamarion": false,
+   "jokic": false,
+   "antetokounmpo": false,
+   "giannis": false
+  },
+  "names_phone": {
+   "wembanyama": false,
+   "jamarion": false,
+   "jokic": false,
+   "antetokounmpo": false,
+   "giannis": false
+  },
+  "numbers_clean": {
+   "350": false,
+   "zero": false,
+   "7-5": false
+  },
+  "numbers_phone": {
+   "350": false,
+   "zero": false,
+   "7-5": false
+  },
+  "pitch_sd_semitones": 4.16,
+  "loudness_sd_db": 3.62,
+  "hnr": 9.9,
+  "jitter": 3.07,
+  "shimmer": 11.08,
+  "f0_med": 138.0,
+  "heard_clean": "LeBron James has missed more shots than anyone in NBA history. 15 ,541. And he's the all -time leading scorer. The old record was Kobe's, 14 ,481 misses. LeBron passed it in October 2024, the same night he first played with his son. So is he a worst shooter? No, LeBron makes 51%, Kobe made 45. LeBron just shot more than anyone ever, 31 ,502 times.",
+  "heard_phone": "LeBron James has missed more shots than anyone in NBA history. 15 ,541. And he's the all -time leading scorer. The old record was Kobe's. 14 ,481 misses. LeBron passed it in October 2024, the same night he first played with his son. So is he a worst shooter? No, LeBron makes 51%. Kobe made 45. LeBron just shot more than anyone ever. 31 ,502 times. Thank you very much.",
+  "stretch": 1.28,
+  "source": "R5_L_v4_t1",
+  "label": "Liam - Viral Short-Form, Eleven v4"
+ },
+ "R5n_N_v4_t1": {
+  "name": "R5n_N_v4_t1",
+  "dur": 23.26,
+  "speech_s": 23.06,
+  "wpm": 211,
+  "gaps_over_0p3": 2.0,
+  "max_gap": 0.48,
+  "wer_clean": 16.7,
+  "wer_phone": 16.7,
+  "names_clean": {
+   "wembanyama": false,
+   "jamarion": false,
+   "jokic": false,
+   "antetokounmpo": false,
+   "giannis": false
+  },
+  "names_phone": {
+   "wembanyama": false,
+   "jamarion": false,
+   "jokic": false,
+   "antetokounmpo": false,
+   "giannis": false
+  },
+  "numbers_clean": {
+   "350": false,
+   "zero": false,
+   "7-5": false
+  },
+  "numbers_phone": {
+   "350": false,
+   "zero": false,
+   "7-5": false
+  },
+  "pitch_sd_semitones": 4.35,
+  "loudness_sd_db": 5.89,
+  "hnr": 9.4,
+  "jitter": 2.08,
+  "shimmer": 10.81,
+  "f0_med": 131.0,
+  "heard_clean": "LeBron James has missed more shots than anyone in NBA history. 15 ,541. And he's the all -time leading scorer. The old record was Kobe's. 14 ,481 misses. LeBron passed it in October 2024, the same night he first played with his son. So is he a worst shooter? No. LeBron makes 51%. Kobe made 45. LeBron just shot more than anyone ever. 31 ,502 times. times.",
+  "heard_phone": "LeBron James has missed more shots than anyone in NBA history, 15 ,541, and he's the all -time leaving scorer. The old record was Kobe's, 14 ,481 misses. LeBron passed it in October 2024, the same night he first played with his son. So is he a worst shooter? No. LeBron makes 51%. Kobe made 45. LeBron just shot more than anyone ever, 31 ,502 times.",
+  "stretch": 1.234,
+  "source": "R5_N_v4_t1",
+  "label": "Ninja - Engaging Sports (library, young American), Eleven v4"
+ },
+ "R5n_N_v4_t2": {
+  "name": "R5n_N_v4_t2",
+  "dur": 23.27,
+  "speech_s": 23.1,
+  "wpm": 210,
+  "gaps_over_0p3": 2.0,
+  "max_gap": 0.54,
+  "wer_clean": 16.7,
+  "wer_phone": 16.7,
+  "names_clean": {
+   "wembanyama": false,
+   "jamarion": false,
+   "jokic": false,
+   "antetokounmpo": false,
+   "giannis": false
+  },
+  "names_phone": {
+   "wembanyama": false,
+   "jamarion": false,
+   "jokic": false,
+   "antetokounmpo": false,
+   "giannis": false
+  },
+  "numbers_clean": {
+   "350": false,
+   "zero": false,
+   "7-5": false
+  },
+  "numbers_phone": {
+   "350": false,
+   "zero": false,
+   "7-5": false
+  },
+  "pitch_sd_semitones": 4.56,
+  "loudness_sd_db": 5.98,
+  "hnr": 9.2,
+  "jitter": 2.4,
+  "shimmer": 11.11,
+  "f0_med": 135.0,
+  "heard_clean": "LeBron James has missed more shots than anyone in NBA history. 15 ,541. And he's the all -time leaving scorer. The old record was Kobe's, 14 ,481 misses. LeBron passed it in October 2024, the same night he first played with his son. So is he a worst shooter? No, LeBron makes 51%. Kobe made 45. LeBron just shot more than anyone ever. 31 ,502 times. times.",
+  "heard_phone": "LeBron James has missed more shots than anyone in NBA history, 15 ,541, and he's the all -time leaving scorer. The old record was Kobe's, 14 ,481 misses. LeBron passed it in October 2024, the same night he first played with his son. So is he a worst shooter? No. LeBron makes 51%, Kobe made 45. LeBron just shot more than anyone ever, 31 ,502 times.",
+  "stretch": 1.25,
+  "source": "R5_N_v4_t2",
+  "label": "Ninja - Engaging Sports (library, young American), Eleven v4"
+ },
+ "R5n_Z_v4_t1": {
+  "name": "R5n_Z_v4_t1",
+  "dur": 23.28,
+  "speech_s": 22.94,
+  "wpm": 212,
+  "gaps_over_0p3": 4.0,
+  "max_gap": 0.52,
+  "wer_clean": 16.7,
+  "wer_phone": 18.2,
+  "names_clean": {
+   "wembanyama": false,
+   "jamarion": false,
+   "jokic": false,
+   "antetokounmpo": false,
+   "giannis": false
+  },
+  "names_phone": {
+   "wembanyama": false,
+   "jamarion": false,
+   "jokic": false,
+   "antetokounmpo": false,
+   "giannis": false
+  },
+  "numbers_clean": {
+   "350": false,
+   "zero": false,
+   "7-5": false
+  },
+  "numbers_phone": {
+   "350": false,
+   "zero": false,
+   "7-5": false
+  },
+  "pitch_sd_semitones": 4.94,
+  "loudness_sd_db": 3.92,
+  "hnr": 9.8,
+  "jitter": 3.05,
+  "shimmer": 10.25,
+  "f0_med": 183.0,
+  "heard_clean": "LeBron James has missed more shots than anyone in NBA history. 15 ,541, and he's the all -time leading scorer. The old record was Kobe's, 14 ,481 misses. LeBron passed it in October 2024, the same night he first played with his son. So is he a worst shooter? No, LeBron makes 51%, Kobe made 45. LeBron just shot more than anyone ever, 31 ,502 times.",
+  "heard_phone": "LeBron James has missed more shots than anyone in NBA history. 15 ,541, and he's the all -time leading scorer. The old record was Kobe's, 14 ,481 misses. LeBron passed it in October 2024, the same night he first played with his son. So is he a worst shooter? No, LeBron makes 51%. Kobe made 45. LeBron just shot more than anyone ever, 31 ,502 times. Bye.",
+  "stretch": 1.265,
+  "source": "R5_Z_v4_t1",
+  "label": "our designed voice (text-to-voice, owned by the account), Eleven v4"
+ },
+ "R5n_Z_v4_t2": {
+  "name": "R5n_Z_v4_t2",
+  "dur": 23.27,
+  "speech_s": 22.94,
+  "wpm": 212,
+  "gaps_over_0p3": 5.0,
+  "max_gap": 0.48,
+  "wer_clean": 16.7,
+  "wer_phone": 16.7,
+  "names_clean": {
+   "wembanyama": false,
+   "jamarion": false,
+   "jokic": false,
+   "antetokounmpo": false,
+   "giannis": false
+  },
+  "names_phone": {
+   "wembanyama": false,
+   "jamarion": false,
+   "jokic": false,
+   "antetokounmpo": false,
+   "giannis": false
+  },
+  "numbers_clean": {
+   "350": false,
+   "zero": false,
+   "7-5": false
+  },
+  "numbers_phone": {
+   "350": false,
+   "zero": false,
+   "7-5": false
+  },
+  "pitch_sd_semitones": 5.12,
+  "loudness_sd_db": 3.83,
+  "hnr": 9.9,
+  "jitter": 3.03,
+  "shimmer": 10.76,
+  "f0_med": 182.0,
+  "heard_clean": "LeBron James has missed more shots than anyone in NBA history. 15 ,541, and he's the all -time leading scorer. The old record was Kobe's, 14 ,481 misses. LeBron passed it in October 2024, the same night he first played with his son. So is he a worst shooter? No, LeBron makes 51%, Kobe made 45. LeBron just shot more than anyone ever, 31 ,502 times.",
+  "heard_phone": "LeBron James has missed more shots than anyone in NBA history. 15 ,541, and he's the all -time leading scorer. The old record was Kobe's, 14 ,481 misses. LeBron passed it in October 2024, the same night he first played with his son. So is he a worst shooter? No, LeBron makes 51%, Kobe made 45. LeBron just shot more than anyone ever, 31 ,502 times.",
+  "stretch": 1.247,
+  "source": "R5_Z_v4_t2",
+  "label": "our designed voice (text-to-voice, owned by the account), Eleven v4"
+ }
+}

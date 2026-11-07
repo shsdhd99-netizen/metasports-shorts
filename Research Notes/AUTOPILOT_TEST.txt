@@ -1,0 +1,1 @@
+AUTOPILOT TEST MODE (owner, Nov 5, 2026): terminal/app sessions do NOT build Shorts. They only improve tools, QA, studies and analysis, unless the owner says so in chat. The PC autopilot (timers, gap-fill 6:45/7:30 AM) builds and schedules. Delete this file to end the test.

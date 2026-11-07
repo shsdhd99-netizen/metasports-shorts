@@ -1,0 +1,88 @@
+[
+ {
+  "clip": "B01.mp4",
+  "kind": "action",
+  "why": "Broadcast replay close-up: Bones Hyland (#8 WOLVES) cocks the ball back over his head toward the ref, eyes wide (Raptors at Timberwolves, Sun Oct 25 2026; MrBuckBuckNBA repost of the broadcast)",
+  "start": 0.0
+ },
+ {
+  "clip": "B02.mp4",
+  "kind": "action",
+  "why": "Live wide shot, score TOR 89 / MIN 114, 4th, 1:47 to 1:44 [zoomed hook, score carried by on-screen text]",
+  "anchor": "The Wolves led",
+  "start": 2.25
+ },
+ {
+  "clip": "B02b.mp4",
+  "kind": "action",
+  "why": "Live wide shot, score TOR 89 / MIN 114, 4th, 1:47 to 1:44 [zoomed hook, score carried by on-screen text]",
+  "anchor": "with under",
+  "lead": 0.11,
+  "start": 4.06
+ },
+ {
+  "clip": "B03.mp4",
+  "kind": "action",
+  "why": "The foul: Raptors shot at the rim, clock stops at 1:38, Hyland (#8) ends up with the ball",
+  "anchor": "Bones got called",
+  "start": 5.58
+ },
+ {
+  "clip": "B04.mp4",
+  "kind": "action",
+  "why": "Live tight shot: HYLAND 8 cocks the ball back by his head, then turns grinning with the ball (scorebug 1:38)",
+  "anchor": "cocked it back",
+  "start": 7.63
+ },
+ {
+  "clip": "B05.mp4",
+  "kind": "face",
+  "why": "Live: referee Pat Fraher talking to Hyland at the sideline",
+  "anchor": "The ref said",
+  "start": 9.62
+ },
+ {
+  "clip": "B06.mp4",
+  "kind": "action",
+  "why": "Replay of the key second at half speed: arm cocked over his head, grinning, the ref with the whistle in his mouth (same replay as shot 1)",
+  "anchor": "So Bones did",
+  "replay": true,
+  "start": 10.58
+ },
+ {
+  "clip": "B07.mp4",
+  "kind": "face",
+  "why": "Replay: the ref with the whistle in his mouth, then pointing at Hyland",
+  "anchor": "Whistle",
+  "start": 12.25
+ },
+ {
+  "clip": "B08.mp4",
+  "kind": "face",
+  "why": "Replay: Hyland's eyes go huge, ball in hand",
+  "anchor": "His eyes",
+  "start": 13.23
+ },
+ {
+  "clip": "B09.mp4",
+  "kind": "action",
+  "why": "Live wide: a Raptor shoots the technical free throw (score goes 89 to 90)",
+  "anchor": "Toronto shot",
+  "start": 14.65
+ },
+ {
+  "clip": "B10.mp4",
+  "kind": "face",
+  "why": "Live: Fraher smiling face to face with Hyland, then laughing behind his hand (lower third BONES HYLAND TECHNICAL FOUL)",
+  "anchor": "he and the ref",
+  "start": 15.76
+ },
+ {
+  "clip": "B11.mp4",
+  "kind": "face",
+  "why": "Replay: Hyland grinning, ball in hand, hand on chest; LIVE broadcast call over it: 'You can't be mad at Bones.' (same broadcast, 30.6-31.9 s of the post)",
+  "anchor": "You can't be mad",
+  "lead": 0.08,
+  "start": 18.1
+ }
+]

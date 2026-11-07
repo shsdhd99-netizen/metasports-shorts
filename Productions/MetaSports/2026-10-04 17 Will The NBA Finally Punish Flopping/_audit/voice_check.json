@@ -1,0 +1,52 @@
+{
+ "verdict": "CHECK",
+ "wpm": 235,
+ "issues": [],
+ "notes": [
+  "15.10s  script \"daigneault\" but heard \"danyos\"",
+  "17.34s  script \"flailing\" but heard \"floating off the fouling\"",
+  " 1.84s  \"20 20 3\" heard as \"2023\" (close; check the name)",
+  "14.60s  \"thunder coach\" heard as \"thundercoach\" (close; check the name)",
+  "19.46s  \"bait\" heard as \"beat\" (close; check the name)",
+  "22.44s  \"siakam\" heard as \"siakoum\" (close; check the name)"
+ ],
+ "heard": "Flopping has been a technical foul in the NBA since 2023, but NBC Sports calls the enforcement inconsistent at best. Now the NBA has posted a video of last season's flops and says refs will call more technicals. The test is STEM, secondary, theatrical, exaggerated movement, but there's a catch. The NBA is also cracking down on push -offs. Thundercoach Mark Danyos says if defenders know that, they might be just floating off the fouling to try to beat those calls. A head snap isn't a flop. Neither is Pascal Siakoum sitting down after a jumper. Reacting to contact is legal. Selling it costs a technical foul and a free throw.",
+ "mismatches": [
+  {
+   "at": 1.84,
+   "script": "20 20 3",
+   "heard": "2023",
+   "similar": 0.89
+  },
+  {
+   "at": 14.6,
+   "script": "thunder coach",
+   "heard": "thundercoach",
+   "similar": 1.0
+  },
+  {
+   "at": 15.1,
+   "script": "daigneault",
+   "heard": "danyos",
+   "similar": 0.38
+  },
+  {
+   "at": 17.34,
+   "script": "flailing",
+   "heard": "floating off the fouling",
+   "similar": 0.55
+  },
+  {
+   "at": 19.46,
+   "script": "bait",
+   "heard": "beat",
+   "similar": 0.75
+  },
+  {
+   "at": 22.44,
+   "script": "siakam",
+   "heard": "siakoum",
+   "similar": 0.77
+  }
+ ]
+}

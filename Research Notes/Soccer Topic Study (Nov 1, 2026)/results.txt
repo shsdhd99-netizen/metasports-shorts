@@ -1,0 +1,531 @@
+# Soccer Topic Study: computed tables (Nov 1, 2026)
+
+| Channel | Shorts pulled | English, settled (analysed) | channel median views | with duration |
+|---|---|---|---|---|
+| AhmedsGoal | 1394 | 1366 | 277K | 1366 |
+| FootyFacts | 1039 | 653 | 70K | 0 |
+| FootballfactsUpdate | 131 | 103 | 224K | 0 |
+| Offsideman | 100 | 95 | 185K | 95 |
+| 411Football | 607 | 602 | 332K | 0 |
+| FootballStoriesEN | 183 | 178 | 15K | 0 |
+| FootballUntoldStory | 165 | 160 | 22K | 0 |
+| PedTalksFutbol | 429 | 413 | 2K | 413 |
+| TheAthleticFC_Tifo | 1287 | 1282 | 129K | 1282 |
+| StatmanDave | 32 | 32 | 21K | 32 |
+
+## Topics: 8 story/facts channels pooled
+
+| Category | n | channels | median views/ch-median | median time-adj | rest time-adj | in top 10% (base 10%) | share of all top-10% (vs share of all) | channel-balanced median (ch>1.0 / ch n>=5) |
+|---|---|---|---|---|---|---|---|---|
+| tactics/analysis/stats | 41 | 6 | 1.36 | **1.37** | 1.00 | 12% | 1% (vs 1%) | 1.31 (3/3) |
+| goalkeeper | 67 | 8 | 1.44 | **1.30** | 1.00 | 16% | 3% (vs 2%) | 1.41 (3/4) |
+| conflict/revenge/rivalry | 311 | 8 | 1.15 | **1.12** | 0.98 | 11% | 10% (vs 9%) | 1.05 (4/7) |
+| fan/kid story | 117 | 8 | 1.12 | **1.11** | 1.00 | 14% | 5% (vs 3%) | 1.53 (4/5) |
+| family/WAGs | 116 | 8 | 1.12 | **1.11** | 1.00 | 9% | 3% (vs 3%) | 1.11 (3/5) |
+| debate/prediction/ranking | 157 | 7 | 1.05 | **1.10** | 1.00 | 6% | 3% (vs 4%) | 1.07 (4/7) |
+| World Cup/national team | 351 | 8 | 1.00 | **1.05** | 0.99 | 9% | 9% (vs 10%) | 1.17 (4/7) |
+| referee/rules/VAR | 106 | 7 | 0.71 | **1.04** | 1.00 | 9% | 3% (vs 3%) | 1.07 (3/6) |
+| secret/object/ritual/superstition | 146 | 8 | 1.09 | **1.02** | 1.00 | 14% | 6% (vs 4%) | 1.00 (3/7) |
+| club history/origins | 42 | 7 | 1.07 | **1.02** | 1.00 | 7% | 1% (vs 1%) | 1.02 (2/4) |
+| Ronaldo (Cristiano) | 249 | 8 | 1.00 | **1.00** | 1.00 | 8% | 5% (vs 7%) | 1.01 (4/8) |
+| other megastar | 390 | 8 | 0.94 | **1.00** | 1.00 | 9% | 10% (vs 11%) | 0.98 (3/8) |
+| manager/coach | 168 | 8 | 1.19 | **1.00** | 1.00 | 7% | 3% (vs 5%) | 1.07 (3/6) |
+| crime/scandal/ban | 84 | 7 | 1.03 | **1.00** | 1.00 | 7% | 2% (vs 2%) | 1.00 (2/5) |
+| funny/banter | 162 | 8 | 1.14 | **1.00** | 1.00 | 9% | 4% (vs 5%) | 1.00 (2/5) |
+| names a star (Messi/Ronaldo/other) | 683 | 8 | 0.93 | **1.00** | 1.00 | 9% | 17% (vs 19%) | 0.97 (2/8) |
+| record/number | 220 | 8 | 0.94 | **1.00** | 1.00 | 8% | 5% (vs 6%) | 1.00 (1/6) |
+| names a club | 311 | 8 | 0.91 | **0.97** | 1.00 | 8% | 7% (vs 9%) | 0.93 (2/8) |
+| downfall/flop/almost | 259 | 7 | 0.87 | **0.96** | 1.00 | 11% | 8% (vs 7%) | 1.00 (3/6) |
+| underdog/rise | 226 | 7 | 1.08 | **0.96** | 1.00 | 10% | 6% (vs 6%) | 0.98 (1/4) |
+| awards/Ballon d'Or/trophies | 112 | 8 | 0.88 | **0.92** | 1.00 | 8% | 3% (vs 3%) | 0.87 (2/5) |
+| tragedy/injury/health | 159 | 8 | 0.99 | **0.88** | 1.00 | 9% | 4% (vs 4%) | 0.84 (1/6) |
+| Messi | 98 | 8 | 0.91 | **0.87** | 1.00 | 9% | 3% (vs 3%) | 0.97 (3/8) |
+| money/transfer/contract | 235 | 8 | 0.93 | **0.87** | 1.00 | 9% | 6% (vs 7%) | 0.91 (1/6) |
+
+Top examples (time-adjusted ratio, views, channel):
+- **tactics/analysis/stats**: "Barça’s New Midfield Is Unfair" (71K, 27.3x, PedTalksFutbol); "South Korea's Crazy Tactic Leaves World Cup Spies Baffled 🤯⚽️ #football #soccer " (5.1M, 17.5x, FootyFacts); "Players who became the BEST after CHANGING POSITIONS" (5.7M, 14.1x, AhmedsGoal); "Players who changed positions so they could play longer" (2.2M, 6.7x, AhmedsGoal); "Haaland's Lazy Tactic That Leaves Opponents Shook! #football #soccer #shorts" (391K, 5.9x, FootyFacts)
+- **goalkeeper**: "The True Definition of a Goalkeeper #football #soccerupdates #shorts" (12.0M, 266.7x, FootyFacts); "Every Match New Gloves for Donnarumma | #donnaruma #goalkeeper #gloves #shorts #" (4.4M, 176.0x, FootballUntoldStory); "The Chillest Goalkeeper On Earth: Wojciech Szczęsny 🚬⚽ #football #soccer #shorts" (26.0M, 161.5x, FootyFacts); "Wojciech Szczęsny: The Chillest Goalkeeper Without a Care in the World! #footbal" (3.3M, 51.6x, FootyFacts); "Roberto Carlos & Ronaldinho Trick Oliver Kahn #football #soccer #shorts" (4.1M, 39.0x, FootyFacts)
+- **conflict/revenge/rivalry**: "Football Skills That Are Considered Insults to Opponents & Banned by FIFA😳⚽ #foo" (1.9M, 55.9x, FootyFacts); "Detektif Selai Stroberi: Skandal Pique vs Shakira #football #sepakbola #beritabo" (5.0M, 44.6x, FootyFacts); "Ronaldhino Mocked on Live TV #ronaldhinho #ronaldino #brazilianfootballer #footb" (802K, 32.1x, FootballUntoldStory); "The Chaotic Story of Balotelli vs. Mourinho at Inter Milan! ⚽😜 #football #soccer" (7.4M, 26.1x, FootyFacts); "World Cup players who got rejected by their own country but then got revenge!" (4.6M, 22.9x, AhmedsGoal)
+- **fan/kid story**: "Most Random Football Fan Moments #football #soccer #shorts" (3.5M, 79.5x, FootyFacts); "Lamine Yamal's Little Brother is Spain's Mascot ⚽🔥🇪🇸 #football #soccer #shorts" (3.3M, 51.6x, FootyFacts); "Every Chelsea fan used to be in love with her" (385K, 32.1x, AhmedsGoal); "5 Children of World-Class Soccer Players Ready to Take the World by Storm! ⚽️🔥#s" (2.0M, 23.0x, FootyFacts); "N'Golo Kanté: The Little Engine That Shredded Billions! #football #footballnews " (1.3M, 11.6x, FootyFacts)
+- **family/WAGs**: "The foul that ended Haaland's Dad's Career" (1.1M, 91.7x, AhmedsGoal); "Lamine Yamal's Little Brother is Spain's Mascot ⚽🔥🇪🇸 #football #soccer #shorts" (3.3M, 51.6x, FootyFacts); "Ronaldo Junior Chooses Manchester United! CR7's Heir Ready to Shake the World Ag" (1.1M, 34.4x, FootyFacts); "Carlos Tevez's "Crazy" Lesson to His Daughter! #football #soccer #footballnews #" (2.5M, 27.8x, FootyFacts); "All of Neymar Junior's partners!😳" (3.0M, 20.1x, 411Football)
+- **debate/prediction/ranking**: "Detektif Selai Stroberi: Skandal Pique vs Shakira #football #sepakbola #beritabo" (5.0M, 44.6x, FootyFacts); "The Chaotic Story of Balotelli vs. Mourinho at Inter Milan! ⚽😜 #football #soccer" (7.4M, 26.1x, FootyFacts); "Who is Cristiano Junior's real mother?🤔" (5.9M, 12.4x, 411Football); "Why Gordon Looks Better At Barca" (25K, 8.9x, PedTalksFutbol); "Players who got better after LEAVING their club" (3.3M, 8.2x, AhmedsGoal)
+- **World Cup/national team**: "What happened to North Korea after the World Cup?" (9.4M, 671.4x, AhmedsGoal); "When Your Brain Logs Out During the World Cup Final! A True Story That Will Make" (9.6M, 300.0x, FootyFacts); "CR7's Iconic Wink at the 2006 World Cup! #football #soccer #shorts" (13.0M, 228.1x, FootyFacts); "When "Super Mario" Silenced a Nation! #football #soccer #footballnews #shorts #b" (10.0M, 68.0x, FootyFacts); "This World Cup Elimination Was Heartbreaking" (848K, 65.2x, AhmedsGoal)
+- **referee/rules/VAR**: "The NEW penalty rule in football!🏁" (3.9M, 60.0x, 411Football); "5 Roberto Carlos Goals That Defy the Laws of Physics! #football #soccer #footbal" (4.3M, 39.1x, FootyFacts); "How small shin pads are you allowed to wear?🤔" (1.4M, 29.8x, 411Football); "Football products that are too good to be allowed!😳" (7.9M, 25.6x, 411Football); "Footballers who changed the rules😱" (3.9M, 15.8x, 411Football)
+- **secret/object/ritual/superstition**: "Every Match New Gloves for Donnarumma | #donnaruma #goalkeeper #gloves #shorts #" (4.4M, 176.0x, FootballUntoldStory); "Every Cristiano Ronaldo hairstyle!💇🏻‍♂️" (5.1M, 108.5x, 411Football); "Not Just a Celebration, This Is Adebayor's Heartbreak! 💔⚽ #football #soccer #foo" (4.6M, 41.8x, FootyFacts); "How small shin pads are you allowed to wear?🤔" (1.4M, 29.8x, 411Football); "Barça’s Hidden Weakness!👀 #shorts" (63K, 24.2x, PedTalksFutbol)
+- **club history/origins**: "Items that are banned in football stadiums!😱❌" (7.0M, 18.8x, 411Football); "Promise in the Stadium Corridor: Mourinho & Drogba's Love Story #football #short" (470K, 5.2x, FootyFacts); "Players who were called a waste of money but proved everyone wrong" (958K, 4.6x, AhmedsGoal); "World 5 Most Beautiful Football Stadium #footballstadium #football #stadium #mos" (113K, 4.5x, FootballUntoldStory); "Footballers who invented their own skill move!🤩" (2.5M, 4.3x, 411Football)
+- **Ronaldo (Cristiano)**: "CR7's Iconic Wink at the 2006 World Cup! #football #soccer #shorts" (13.0M, 228.1x, FootyFacts); "Every Cristiano Ronaldo hairstyle!💇🏻‍♂️" (5.1M, 108.5x, 411Football); "All of Ronaldo's girls😳" (17.0M, 89.5x, 411Football); "A Homeless Man Gave Ronaldo a Bugatti!" (828K, 51.8x, FootballStoriesEN); "Ronaldo Junior Chooses Manchester United! CR7's Heir Ready to Shake the World Ag" (1.1M, 34.4x, FootyFacts)
+- **other megastar**: "Perdana Menteri Spanyol Pasang Badan Buat Lamine Yamal ⚽🇵🇸 #sepakbola #beritabol" (11.0M, 200.0x, FootyFacts); "Balotelli: Between Talent and Brain Chaos #football #footballnews #soccer #short" (12.0M, 107.1x, FootyFacts); "The foul that ended Haaland's Dad's Career" (1.1M, 91.7x, AhmedsGoal); "The Reason Why Gavi Ignores the Princess of Spain" (967K, 56.9x, FootballStoriesEN); "Lamine Yamal's Little Brother is Spain's Mascot ⚽🔥🇪🇸 #football #soccer #shorts" (3.3M, 51.6x, FootyFacts)
+- **manager/coach**: "Pep Saw Something" (225K, 112.5x, PedTalksFutbol); "The Coach Was Wrong to Put Him in Goal 😂⚽ #football #soccer #shorts" (5.1M, 79.7x, FootyFacts); "The Chaotic Story of Balotelli vs. Mourinho at Inter Milan! ⚽😜 #football #soccer" (7.4M, 26.1x, FootyFacts); "Inzaghi, the Striker Who "Can't Play Football" But Is Feared by Coaches! 👻⚽ #foo" (1.9M, 21.1x, FootyFacts); "Carlo Ancelotti’s Sweet Revenge 🏆⚽ 🔥 #football #soccer #shorts" (4.0M, 19.0x, FootyFacts)
+- **crime/scandal/ban**: "Football Skills That Are Considered Insults to Opponents & Banned by FIFA😳⚽ #foo" (1.9M, 55.9x, FootyFacts); "Items that are banned in football stadiums!😱❌" (7.0M, 18.8x, 411Football); "Why Madrid Banned Arnold For Parking His Car #football #realmadrid #bmw #footbal" (358K, 14.3x, FootballUntoldStory); "TEAMS THAT GOT SUED BY THEIR OWN SPONSOR" (4.1M, 12.4x, AhmedsGoal); "Di Maria Almost Goes to Jail?! David Luiz's Craziest Prank! #football #soccer #f" (1.0M, 12.3x, FootyFacts)
+- **funny/banter**: "Cherki: God-Tier Skills But Hilarious Antics 😂⚽ Football Facts #football #soccer" (16.0M, 313.7x, FootyFacts); "When Your Brain Logs Out During the World Cup Final! A True Story That Will Make" (9.6M, 300.0x, FootyFacts); "The Coach Was Wrong to Put Him in Goal 😂⚽ #football #soccer #shorts" (5.1M, 79.7x, FootyFacts); "Rayan Cherki: Bro Satu Ini Pemenang Mutlaknya! 😂⚽ #football #sepakbola #shorts" (4.0M, 78.4x, FootyFacts); "The Craziest Coach Actions on the Sideline ⚽️😂 #football #soccer #shorts" (675K, 12.7x, FootyFacts)
+- **names a star (Messi/Ronaldo/other)**: "Wait For The Messi #messi #hakim #greeneffect #greenscreen #footballshorts #celi" (9.1M, 919.2x, FootballUntoldStory); "CR7's Iconic Wink at the 2006 World Cup! #football #soccer #shorts" (13.0M, 228.1x, FootyFacts); "Perdana Menteri Spanyol Pasang Badan Buat Lamine Yamal ⚽🇵🇸 #sepakbola #beritabol" (11.0M, 200.0x, FootyFacts); "Nike Loses Messi Over Trivial Issues #football #soccer #footballnews #ball #shor" (13.0M, 118.2x, FootyFacts); "Every Cristiano Ronaldo hairstyle!💇🏻‍♂️" (5.1M, 108.5x, 411Football)
+- **record/number**: "Most High Stake Matches Of All Time" (802K, 66.8x, AhmedsGoal); "The SHORTEST goalkeeper ever?" (253K, 18.1x, AhmedsGoal); "Iconic shirt numbers that were almost never worn" (5.0M, 14.6x, AhmedsGoal); "These footballers never drink alcohol😳" (1.8M, 13.8x, 411Football); "THINGS THAT MAY NEVER HAPPEN AGAIN IN FOOTBALL HISTORY" (4.2M, 13.5x, AhmedsGoal)
+- **names a club**: "Park Ji-Sung: Manchester United's Shadow Hero! #football #soccer #ball #shorts #" (12.0M, 91.6x, FootyFacts); "Why did Al Nassr change their logo🤔" (2.2M, 45.4x, 411Football); "Ronaldo Junior Chooses Manchester United! CR7's Heir Ready to Shake the World Ag" (1.1M, 34.4x, FootyFacts); "Every Chelsea fan used to be in love with her" (385K, 32.1x, AhmedsGoal); "Real Madrid: The Cruel Club That's Always Right 🤍👑 #football #soccer #ball #shor" (3.7M, 31.1x, FootyFacts)
+- **downfall/flop/almost**: "What happened to North Korea after the World Cup?" (9.4M, 671.4x, AhmedsGoal); "WORST Performances in football HISTORY   ep 5" (3.4M, 261.5x, AhmedsGoal); "From League 1 Failure to Tarkam King! #football #soccer #footballnews #ball #sho" (16.0M, 142.9x, FootyFacts); "Worst Performances In Football History ep. 2" (473K, 39.4x, AhmedsGoal); "PLAYERS WHO USED TO BE STARS BUT FELL OFF" (10.0M, 34.6x, AhmedsGoal)
+- **underdog/rise**: "Colombian Legend Who Became a Hero 🇨🇴⚽ #football #srilanka #ball #footballnews #" (12.0M, 100.0x, FootyFacts); ""The World's Underrated African Master 🇳🇬✨" #football #soccer #ball #shorts" (3.9M, 32.5x, FootyFacts); "Mereka Pensiun, Nyesal, Lalu COMEBACK! 😱⚽ #football #sepakbola #bola #shorts #be" (2.5M, 29.1x, FootyFacts); "King Polo: The Money-Making King of Village Soccer 🤑⚽ #football #soccer #shorts" (1.6M, 28.1x, FootyFacts); "How Ronaldo became so good looking🤩" (9.9M, 16.3x, 411Football)
+- **awards/Ballon d'Or/trophies**: "Why the World Cup trophy is NOT made out of GOLD!😳" (21.0M, 26.5x, 411Football); "What happens to the World Cup trophy from the previous winners" (6.7M, 25.0x, AhmedsGoal); "The most CONTROVERSIAL Puskas Award? (FIFA Goal Of The Year)" (278K, 19.9x, AhmedsGoal); "Players that would've WON the Ballon d'Or if Messi and Ronaldo didn't play footb" (5.2M, 17.7x, AhmedsGoal); "Real Madrid's Epic Champions League Miracle 2022 🔥🏆 #soccer #football #shorts" (3.3M, 9.0x, FootyFacts)
+- **tragedy/injury/health**: "This World Cup Elimination Was Heartbreaking" (848K, 65.2x, AhmedsGoal); "A Homeless Man Gave Ronaldo a Bugatti!" (828K, 51.8x, FootballStoriesEN); "Ahn Jung-hwan: The World Cup Goal That Ruined His Career! 💔🇰🇷 #football #soccer " (3.8M, 42.2x, FootyFacts); "Not Just a Celebration, This Is Adebayor's Heartbreak! 💔⚽ #football #soccer #foo" (4.6M, 41.8x, FootyFacts); "Why Ronaldo and Irina ACTUALLY broke up!💔😢" (3.9M, 28.5x, 411Football)
+- **Messi**: "Wait For The Messi #messi #hakim #greeneffect #greenscreen #footballshorts #celi" (9.1M, 919.2x, FootballUntoldStory); "Nike Loses Messi Over Trivial Issues #football #soccer #footballnews #ball #shor" (13.0M, 118.2x, FootyFacts); "Players that would've WON the Ballon d'Or if Messi and Ronaldo didn't play footb" (5.2M, 17.7x, AhmedsGoal); "The Reason Lionel Messi Blocked the Tattoo on His Left Leg 😱" (6.8M, 16.9x, FootballfactsUpdate); "Why Messi hates to speak english🏴󠁧󠁢󠁥󠁮󠁧󠁿😰" (1.4M, 11.9x, 411Football)
+- **money/transfer/contract**: "He made over $1 MILLION by losing" (5.4M, 385.7x, AhmedsGoal); "The King of Tarkam with a Fantastic Salary #football #football #footballnews #sh" (2.4M, 75.0x, FootyFacts); "The King of Tarkam From Mali With Fantastic Pay 🤔💵🔥#football #soccer #ball #foot" (1.6M, 51.6x, FootyFacts); "They Sold Him in His PRIME 😶 #shorts" (58K, 32.2x, PedTalksFutbol); "Why Ronaldo and Irina ACTUALLY broke up!💔😢" (3.9M, 28.5x, 411Football)
+
+## Topics: story/facts channels WITHOUT Ahmed's Goal (does it hold outside Ahmed?)
+
+| Category | n | channels | median views/ch-median | median time-adj | rest time-adj | in top 10% (base 10%) | share of all top-10% (vs share of all) | channel-balanced median (ch>1.0 / ch n>=5) |
+|---|---|---|---|---|---|---|---|---|
+| tactics/analysis/stats | 23 | 5 | 1.93 | **1.52** | 0.99 | 13% | 1% (vs 1%) | 2.81 (2/2) |
+| goalkeeper | 63 | 7 | 1.51 | **1.29** | 0.98 | 14% | 4% (vs 3%) | 1.41 (3/4) |
+| manager/coach | 93 | 7 | 1.26 | **1.15** | 0.99 | 9% | 4% (vs 4%) | 1.15 (3/5) |
+| family/WAGs | 99 | 7 | 1.06 | **1.11** | 0.98 | 9% | 4% (vs 4%) | 1.06 (2/4) |
+| World Cup/national team | 204 | 7 | 1.09 | **1.08** | 0.97 | 8% | 7% (vs 9%) | 1.18 (4/6) |
+| downfall/flop/almost | 74 | 6 | 1.11 | **1.08** | 0.99 | 8% | 3% (vs 3%) | 1.08 (3/5) |
+| fan/kid story | 91 | 7 | 1.07 | **1.08** | 1.00 | 14% | 6% (vs 4%) | 1.34 (3/4) |
+| crime/scandal/ban | 48 | 6 | 1.13 | **1.07** | 0.99 | 6% | 1% (vs 2%) | 1.11 (2/4) |
+| referee/rules/VAR | 53 | 6 | 0.98 | **1.05** | 1.00 | 15% | 4% (vs 2%) | 1.15 (3/5) |
+| debate/prediction/ranking | 121 | 6 | 1.03 | **1.04** | 0.98 | 5% | 3% (vs 5%) | 0.97 (3/6) |
+| club history/origins | 31 | 6 | 1.07 | **1.04** | 0.99 | 10% | 1% (vs 1%) | 1.04 (2/3) |
+| conflict/revenge/rivalry | 186 | 7 | 1.00 | **1.03** | 0.99 | 7% | 6% (vs 8%) | 0.95 (3/6) |
+| secret/object/ritual/superstition | 128 | 7 | 1.14 | **1.02** | 0.99 | 12% | 7% (vs 6%) | 1.03 (3/6) |
+| Ronaldo (Cristiano) | 240 | 7 | 0.93 | **1.00** | 0.99 | 7% | 8% (vs 11%) | 1.00 (3/7) |
+| other megastar | 374 | 7 | 0.95 | **1.00** | 0.99 | 9% | 15% (vs 17%) | 0.96 (2/7) |
+| names a club | 256 | 7 | 1.00 | **0.99** | 1.00 | 9% | 11% (vs 12%) | 0.98 (2/7) |
+| funny/banter | 141 | 7 | 1.07 | **0.98** | 1.00 | 9% | 6% (vs 6%) | 0.97 (1/4) |
+| names a star (Messi/Ronaldo/other) | 652 | 7 | 0.93 | **0.96** | 1.00 | 8% | 25% (vs 30%) | 0.96 (1/7) |
+| underdog/rise | 66 | 6 | 1.11 | **0.89** | 1.00 | 12% | 4% (vs 3%) | 0.99 (1/3) |
+| tragedy/injury/health | 105 | 7 | 1.14 | **0.89** | 1.00 | 12% | 6% (vs 5%) | 0.83 (1/5) |
+| record/number | 89 | 7 | 0.87 | **0.88** | 1.00 | 2% | 1% (vs 4%) | 1.00 (1/5) |
+| money/transfer/contract | 116 | 7 | 0.97 | **0.86** | 1.00 | 9% | 5% (vs 5%) | 0.94 (1/5) |
+| Messi | 91 | 7 | 0.91 | **0.85** | 1.00 | 9% | 4% (vs 4%) | 0.94 (2/7) |
+| awards/Ballon d'Or/trophies | 43 | 7 | 0.79 | **0.85** | 1.00 | 5% | 1% (vs 2%) | 0.86 (1/4) |
+
+Top examples (time-adjusted ratio, views, channel):
+- **tactics/analysis/stats**: "Barça’s New Midfield Is Unfair" (71K, 27.3x, PedTalksFutbol); "South Korea's Crazy Tactic Leaves World Cup Spies Baffled 🤯⚽️ #football #soccer " (5.1M, 17.5x, FootyFacts); "Haaland's Lazy Tactic That Leaves Opponents Shook! #football #soccer #shorts" (391K, 5.9x, FootyFacts)
+- **goalkeeper**: "The True Definition of a Goalkeeper #football #soccerupdates #shorts" (12.0M, 266.7x, FootyFacts); "Every Match New Gloves for Donnarumma | #donnaruma #goalkeeper #gloves #shorts #" (4.4M, 176.0x, FootballUntoldStory); "The Chillest Goalkeeper On Earth: Wojciech Szczęsny 🚬⚽ #football #soccer #shorts" (26.0M, 161.5x, FootyFacts)
+- **manager/coach**: "Pep Saw Something" (225K, 112.5x, PedTalksFutbol); "The Coach Was Wrong to Put Him in Goal 😂⚽ #football #soccer #shorts" (5.1M, 79.7x, FootyFacts); "The Chaotic Story of Balotelli vs. Mourinho at Inter Milan! ⚽😜 #football #soccer" (7.4M, 26.1x, FootyFacts)
+- **family/WAGs**: "Lamine Yamal's Little Brother is Spain's Mascot ⚽🔥🇪🇸 #football #soccer #shorts" (3.3M, 51.6x, FootyFacts); "Ronaldo Junior Chooses Manchester United! CR7's Heir Ready to Shake the World Ag" (1.1M, 34.4x, FootyFacts); "Carlos Tevez's "Crazy" Lesson to His Daughter! #football #soccer #footballnews #" (2.5M, 27.8x, FootyFacts)
+- **World Cup/national team**: "When Your Brain Logs Out During the World Cup Final! A True Story That Will Make" (9.6M, 300.0x, FootyFacts); "CR7's Iconic Wink at the 2006 World Cup! #football #soccer #shorts" (13.0M, 228.1x, FootyFacts); "When "Super Mario" Silenced a Nation! #football #soccer #footballnews #shorts #b" (10.0M, 68.0x, FootyFacts)
+- **downfall/flop/almost**: "From League 1 Failure to Tarkam King! #football #soccer #footballnews #ball #sho" (16.0M, 142.9x, FootyFacts); "The worst hairstyles in football history!😳" (9.8M, 17.3x, 411Football); "Player nearly DIED after Scoring a Goal?" (248K, 16.5x, FootballStoriesEN)
+- **fan/kid story**: "Most Random Football Fan Moments #football #soccer #shorts" (3.5M, 79.5x, FootyFacts); "Lamine Yamal's Little Brother is Spain's Mascot ⚽🔥🇪🇸 #football #soccer #shorts" (3.3M, 51.6x, FootyFacts); "5 Children of World-Class Soccer Players Ready to Take the World by Storm! ⚽️🔥#s" (2.0M, 23.0x, FootyFacts)
+- **crime/scandal/ban**: "Football Skills That Are Considered Insults to Opponents & Banned by FIFA😳⚽ #foo" (1.9M, 55.9x, FootyFacts); "Items that are banned in football stadiums!😱❌" (7.0M, 18.8x, 411Football); "Why Madrid Banned Arnold For Parking His Car #football #realmadrid #bmw #footbal" (358K, 14.3x, FootballUntoldStory)
+- **referee/rules/VAR**: "The NEW penalty rule in football!🏁" (3.9M, 60.0x, 411Football); "5 Roberto Carlos Goals That Defy the Laws of Physics! #football #soccer #footbal" (4.3M, 39.1x, FootyFacts); "How small shin pads are you allowed to wear?🤔" (1.4M, 29.8x, 411Football)
+- **debate/prediction/ranking**: "Detektif Selai Stroberi: Skandal Pique vs Shakira #football #sepakbola #beritabo" (5.0M, 44.6x, FootyFacts); "The Chaotic Story of Balotelli vs. Mourinho at Inter Milan! ⚽😜 #football #soccer" (7.4M, 26.1x, FootyFacts); "Who is Cristiano Junior's real mother?🤔" (5.9M, 12.4x, 411Football)
+- **club history/origins**: "Items that are banned in football stadiums!😱❌" (7.0M, 18.8x, 411Football); "Promise in the Stadium Corridor: Mourinho & Drogba's Love Story #football #short" (470K, 5.2x, FootyFacts); "World 5 Most Beautiful Football Stadium #footballstadium #football #stadium #mos" (113K, 4.5x, FootballUntoldStory)
+- **conflict/revenge/rivalry**: "Football Skills That Are Considered Insults to Opponents & Banned by FIFA😳⚽ #foo" (1.9M, 55.9x, FootyFacts); "Detektif Selai Stroberi: Skandal Pique vs Shakira #football #sepakbola #beritabo" (5.0M, 44.6x, FootyFacts); "Ronaldhino Mocked on Live TV #ronaldhinho #ronaldino #brazilianfootballer #footb" (802K, 32.1x, FootballUntoldStory)
+- **secret/object/ritual/superstition**: "Every Match New Gloves for Donnarumma | #donnaruma #goalkeeper #gloves #shorts #" (4.4M, 176.0x, FootballUntoldStory); "Every Cristiano Ronaldo hairstyle!💇🏻‍♂️" (5.1M, 108.5x, 411Football); "Not Just a Celebration, This Is Adebayor's Heartbreak! 💔⚽ #football #soccer #foo" (4.6M, 41.8x, FootyFacts)
+- **Ronaldo (Cristiano)**: "CR7's Iconic Wink at the 2006 World Cup! #football #soccer #shorts" (13.0M, 228.1x, FootyFacts); "Every Cristiano Ronaldo hairstyle!💇🏻‍♂️" (5.1M, 108.5x, 411Football); "All of Ronaldo's girls😳" (17.0M, 89.5x, 411Football)
+- **other megastar**: "Perdana Menteri Spanyol Pasang Badan Buat Lamine Yamal ⚽🇵🇸 #sepakbola #beritabol" (11.0M, 200.0x, FootyFacts); "Balotelli: Between Talent and Brain Chaos #football #footballnews #soccer #short" (12.0M, 107.1x, FootyFacts); "The Reason Why Gavi Ignores the Princess of Spain" (967K, 56.9x, FootballStoriesEN)
+- **names a club**: "Park Ji-Sung: Manchester United's Shadow Hero! #football #soccer #ball #shorts #" (12.0M, 91.6x, FootyFacts); "Why did Al Nassr change their logo🤔" (2.2M, 45.4x, 411Football); "Ronaldo Junior Chooses Manchester United! CR7's Heir Ready to Shake the World Ag" (1.1M, 34.4x, FootyFacts)
+- **funny/banter**: "Cherki: God-Tier Skills But Hilarious Antics 😂⚽ Football Facts #football #soccer" (16.0M, 313.7x, FootyFacts); "When Your Brain Logs Out During the World Cup Final! A True Story That Will Make" (9.6M, 300.0x, FootyFacts); "The Coach Was Wrong to Put Him in Goal 😂⚽ #football #soccer #shorts" (5.1M, 79.7x, FootyFacts)
+- **names a star (Messi/Ronaldo/other)**: "Wait For The Messi #messi #hakim #greeneffect #greenscreen #footballshorts #celi" (9.1M, 919.2x, FootballUntoldStory); "CR7's Iconic Wink at the 2006 World Cup! #football #soccer #shorts" (13.0M, 228.1x, FootyFacts); "Perdana Menteri Spanyol Pasang Badan Buat Lamine Yamal ⚽🇵🇸 #sepakbola #beritabol" (11.0M, 200.0x, FootyFacts)
+- **underdog/rise**: "Colombian Legend Who Became a Hero 🇨🇴⚽ #football #srilanka #ball #footballnews #" (12.0M, 100.0x, FootyFacts); ""The World's Underrated African Master 🇳🇬✨" #football #soccer #ball #shorts" (3.9M, 32.5x, FootyFacts); "Mereka Pensiun, Nyesal, Lalu COMEBACK! 😱⚽ #football #sepakbola #bola #shorts #be" (2.5M, 29.1x, FootyFacts)
+- **tragedy/injury/health**: "A Homeless Man Gave Ronaldo a Bugatti!" (828K, 51.8x, FootballStoriesEN); "Ahn Jung-hwan: The World Cup Goal That Ruined His Career! 💔🇰🇷 #football #soccer " (3.8M, 42.2x, FootyFacts); "Not Just a Celebration, This Is Adebayor's Heartbreak! 💔⚽ #football #soccer #foo" (4.6M, 41.8x, FootyFacts)
+- **record/number**: "These footballers never drink alcohol😳" (1.8M, 13.8x, 411Football); "Why Mbappe never use his pace anymore!🤔" (1.2M, 8.8x, 411Football); "Why will South Africa never be good at football😱" (2.3M, 7.6x, 411Football)
+- **money/transfer/contract**: "The King of Tarkam with a Fantastic Salary #football #football #footballnews #sh" (2.4M, 75.0x, FootyFacts); "The King of Tarkam From Mali With Fantastic Pay 🤔💵🔥#football #soccer #ball #foot" (1.6M, 51.6x, FootyFacts); "They Sold Him in His PRIME 😶 #shorts" (58K, 32.2x, PedTalksFutbol)
+- **Messi**: "Wait For The Messi #messi #hakim #greeneffect #greenscreen #footballshorts #celi" (9.1M, 919.2x, FootballUntoldStory); "Nike Loses Messi Over Trivial Issues #football #soccer #footballnews #ball #shor" (13.0M, 118.2x, FootyFacts); "The Reason Lionel Messi Blocked the Tattoo on His Left Leg 😱" (6.8M, 16.9x, FootballfactsUpdate)
+- **awards/Ballon d'Or/trophies**: "Why the World Cup trophy is NOT made out of GOLD!😳" (21.0M, 26.5x, 411Football); "Real Madrid's Epic Champions League Miracle 2022 🔥🏆 #soccer #football #shorts" (3.3M, 9.0x, FootyFacts); "Nedved’s 2003 Ballon d’Or & The Lost Champions League Final #football #footballn" (111K, 3.4x, FootyFacts)
+
+## Topics: Ahmed's Goal only
+
+| Category | n | channels | median views/ch-median | median time-adj | rest time-adj | in top 10% (base 10%) | share of all top-10% (vs share of all) | channel-balanced median (ch>1.0 / ch n>=5) |
+|---|---|---|---|---|---|---|---|---|
+| Ronaldo (Cristiano) | 9 | 1 | 1.73 | **1.84** | 1.00 | 22% | 1% (vs 1%) | 1.84 (1/1) |
+| fan/kid story | 26 | 1 | 1.39 | **1.56** | 1.00 | 12% | 2% (vs 2%) | 1.56 (1/1) |
+| other megastar | 16 | 1 | 0.58 | **1.55** | 1.00 | 12% | 1% (vs 1%) | 1.55 (1/1) |
+| names a star (Messi/Ronaldo/other) | 31 | 1 | 0.92 | **1.47** | 1.00 | 13% | 3% (vs 2%) | 1.47 (1/1) |
+| conflict/revenge/rivalry | 125 | 1 | 1.51 | **1.46** | 0.98 | 17% | 15% (vs 9%) | 1.46 (1/1) |
+| family/WAGs | 17 | 1 | 1.38 | **1.43** | 1.00 | 12% | 1% (vs 1%) | 1.43 (1/1) |
+| debate/prediction/ranking | 36 | 1 | 1.17 | **1.16** | 1.00 | 8% | 2% (vs 3%) | 1.16 (1/1) |
+| awards/Ballon d'Or/trophies | 69 | 1 | 1.00 | **1.13** | 1.00 | 10% | 5% (vs 5%) | 1.13 (1/1) |
+| funny/banter | 21 | 1 | 1.31 | **1.12** | 1.00 | 10% | 1% (vs 2%) | 1.12 (1/1) |
+| tactics/analysis/stats | 18 | 1 | 1.13 | **1.11** | 1.00 | 11% | 1% (vs 1%) | 1.11 (1/1) |
+| referee/rules/VAR | 53 | 1 | 0.58 | **1.00** | 1.00 | 4% | 1% (vs 4%) | 1.00 (0/1) |
+| record/number | 131 | 1 | 0.99 | **1.00** | 1.00 | 11% | 11% (vs 10%) | 1.00 (0/1) |
+| manager/coach | 75 | 1 | 1.18 | **0.99** | 1.00 | 5% | 3% (vs 5%) | 0.99 (0/1) |
+| underdog/rise | 160 | 1 | 1.01 | **0.96** | 1.00 | 9% | 11% (vs 12%) | 0.96 (0/1) |
+| secret/object/ritual/superstition | 18 | 1 | 0.66 | **0.93** | 1.00 | 22% | 3% (vs 1%) | 0.93 (0/1) |
+| crime/scandal/ban | 36 | 1 | 0.94 | **0.93** | 1.00 | 8% | 2% (vs 3%) | 0.93 (0/1) |
+| club history/origins | 11 | 1 | 0.88 | **0.92** | 1.00 | 0% | 0% (vs 1%) | 0.92 (0/1) |
+| downfall/flop/almost | 185 | 1 | 0.74 | **0.91** | 1.00 | 12% | 16% (vs 14%) | 0.91 (0/1) |
+| World Cup/national team | 147 | 1 | 0.73 | **0.90** | 1.00 | 11% | 12% (vs 11%) | 0.90 (0/1) |
+| tragedy/injury/health | 54 | 1 | 0.96 | **0.87** | 1.00 | 4% | 1% (vs 4%) | 0.87 (0/1) |
+| money/transfer/contract | 119 | 1 | 0.86 | **0.87** | 1.00 | 8% | 7% (vs 9%) | 0.87 (0/1) |
+| names a club | 55 | 1 | 0.60 | **0.86** | 1.00 | 4% | 1% (vs 4%) | 0.86 (0/1) |
+
+Top examples (time-adjusted ratio, views, channel):
+- **Ronaldo (Cristiano)**: "Players that would've WON the Ballon d'Or if Messi and Ronaldo didn't play footb" (5.2M, 17.7x, AhmedsGoal); "What exactly happened between Cristiano Ronaldo and Portugal?" (1.9M, 10.2x, AhmedsGoal); "Why did Cristiano Ronaldo get fined exactly only two hundred fifty five euros by" (562K, 3.1x, AhmedsGoal)
+- **fan/kid story**: "Every Chelsea fan used to be in love with her" (385K, 32.1x, AhmedsGoal); "500,000 Fans Wanted Ramos PUNISHED For Doing THIS" (88K, 6.3x, AhmedsGoal); "Moments that made EVERY football fan ARGUE" (1.7M, 5.0x, AhmedsGoal)
+- **other megastar**: "The foul that ended Haaland's Dad's Career" (1.1M, 91.7x, AhmedsGoal); "500,000 Fans Wanted Ramos PUNISHED For Doing THIS" (88K, 6.3x, AhmedsGoal); "What's going to happen to the Paraguay senator that abused Mbappe" (793K, 2.8x, AhmedsGoal)
+- **names a star (Messi/Ronaldo/other)**: "The foul that ended Haaland's Dad's Career" (1.1M, 91.7x, AhmedsGoal); "Players that would've WON the Ballon d'Or if Messi and Ronaldo didn't play footb" (5.2M, 17.7x, AhmedsGoal); "What exactly happened between Cristiano Ronaldo and Portugal?" (1.9M, 10.2x, AhmedsGoal)
+- **conflict/revenge/rivalry**: "World Cup players who got rejected by their own country but then got revenge!" (4.6M, 22.9x, AhmedsGoal); "World cup teammates who didn't like each other but had to win together" (3.8M, 13.7x, AhmedsGoal); "PLAYERS WHO REFUSED TO PLAY IN MATCHES" (4.7M, 13.0x, AhmedsGoal)
+- **family/WAGs**: "The foul that ended Haaland's Dad's Career" (1.1M, 91.7x, AhmedsGoal); "Players whose ENTIRE FAMILY basically went PRO" (2.4M, 9.3x, AhmedsGoal); "BROTHERS THAT BOTH WENT PRO TOGETHER" (1.5M, 4.0x, AhmedsGoal)
+- **debate/prediction/ranking**: "Players who got better after LEAVING their club" (3.3M, 8.2x, AhmedsGoal); "Players who played WAY BETTER under a DIFFERENT MANAGER" (2.3M, 6.6x, AhmedsGoal); "PLAYERS THAT GOT WAY BETTER AFTER LEAVING" (1.8M, 6.2x, AhmedsGoal)
+- **awards/Ballon d'Or/trophies**: "What happens to the World Cup trophy from the previous winners" (6.7M, 25.0x, AhmedsGoal); "The most CONTROVERSIAL Puskas Award? (FIFA Goal Of The Year)" (278K, 19.9x, AhmedsGoal); "Players that would've WON the Ballon d'Or if Messi and Ronaldo didn't play footb" (5.2M, 17.7x, AhmedsGoal)
+- **funny/banter**: "PLAYERS WHO WERE DISRESPECTED BUT GOT THE LAST LAUGH" (3.0M, 10.9x, AhmedsGoal); "STRANGEST RETIREMENTS IN FOOTBALL HISTORY" (2.1M, 7.2x, AhmedsGoal); "FOOTBALL PLAYERS WHO MADE THE WEIRDEST CONTRACT DEMANDS" (1.9M, 4.6x, AhmedsGoal)
+- **tactics/analysis/stats**: "Players who became the BEST after CHANGING POSITIONS" (5.7M, 14.1x, AhmedsGoal); "Players who changed positions so they could play longer" (2.2M, 6.7x, AhmedsGoal); "Players who became the BEST after switching POSITIONS episode 5" (1.5M, 3.8x, AhmedsGoal)
+- **referee/rules/VAR**: "WORST VAR MISTAKES Episode 5" (148K, 7.0x, AhmedsGoal); "WORST VAR Decisions in HISTORY Episode" (429K, 4.8x, AhmedsGoal); "Games that NEEDED VAR" (1.4M, 3.4x, AhmedsGoal)
+- **record/number**: "Most High Stake Matches Of All Time" (802K, 66.8x, AhmedsGoal); "The SHORTEST goalkeeper ever?" (253K, 18.1x, AhmedsGoal); "Iconic shirt numbers that were almost never worn" (5.0M, 14.6x, AhmedsGoal)
+- **manager/coach**: "Players who played WAY BETTER under a DIFFERENT MANAGER" (2.3M, 6.6x, AhmedsGoal); "World cup players and coaches who were angry with each other" (1.2M, 6.0x, AhmedsGoal); "Things that only one manager in football history has ever done" (951K, 4.7x, AhmedsGoal)
+- **underdog/rise**: "Players who became the BEST after CHANGING POSITIONS" (5.7M, 14.1x, AhmedsGoal); "Greatest COMEBACKS in World Cup HISTORY" (2.0M, 12.6x, AhmedsGoal); "ENEMIES WHO BECAME TEAMMATES THEN ENEMIES AGAIN" (4.7M, 12.3x, AhmedsGoal)
+- **secret/object/ritual/superstition**: "Iconic shirt numbers that were almost never worn" (5.0M, 14.6x, AhmedsGoal); "Iconic shirt numbers that almost were NEVER worn" (2.6M, 12.6x, AhmedsGoal); "CURSED Football Teams" (149K, 11.5x, AhmedsGoal)
+- **crime/scandal/ban**: "TEAMS THAT GOT SUED BY THEIR OWN SPONSOR" (4.1M, 12.4x, AhmedsGoal); "PLAYERS WHO SUED THEIR OWN TEAM" (2.8M, 6.5x, AhmedsGoal); "TEAMS THAT GOT CAUGHT CHEATING" (1.5M, 5.1x, AhmedsGoal)
+- **club history/origins**: "Players who were called a waste of money but proved everyone wrong" (958K, 4.6x, AhmedsGoal); "Players who were called flops but became World Cup heroes" (407K, 2.2x, AhmedsGoal); "Why didn't Ronaldo play against Norway" (298K, 1.6x, AhmedsGoal)
+- **downfall/flop/almost**: "What happened to North Korea after the World Cup?" (9.4M, 671.4x, AhmedsGoal); "WORST Performances in football HISTORY   ep 5" (3.4M, 261.5x, AhmedsGoal); "Worst Performances In Football History ep. 2" (473K, 39.4x, AhmedsGoal)
+- **World Cup/national team**: "What happened to North Korea after the World Cup?" (9.4M, 671.4x, AhmedsGoal); "This World Cup Elimination Was Heartbreaking" (848K, 65.2x, AhmedsGoal); "Did you know North Korea almost own the world cup" (363K, 30.2x, AhmedsGoal)
+- **tragedy/injury/health**: "This World Cup Elimination Was Heartbreaking" (848K, 65.2x, AhmedsGoal); "Most broken players in Ultimate Team history" (1.2M, 4.7x, AhmedsGoal); "Most broken players in FIFA ultimate team history" (833K, 4.0x, AhmedsGoal)
+- **money/transfer/contract**: "He made over $1 MILLION by losing" (5.4M, 385.7x, AhmedsGoal); "Most useless transfers in football history" (3.6M, 12.8x, AhmedsGoal); "TEAMS THAT GOT SUED BY THEIR OWN SPONSOR" (4.1M, 12.4x, AhmedsGoal)
+- **names a club**: "Every Chelsea fan used to be in love with her" (385K, 32.1x, AhmedsGoal); "How the heck did Emiliano Martinez just end up at Chelsea" (1.2M, 5.0x, AhmedsGoal); "What PUNISHMENT is Man City going to face?" (645K, 3.5x, AhmedsGoal)
+
+## Topics: FOOTY FACTS only (English era)
+
+| Category | n | channels | median views/ch-median | median time-adj | rest time-adj | in top 10% (base 10%) | share of all top-10% (vs share of all) | channel-balanced median (ch>1.0 / ch n>=5) |
+|---|---|---|---|---|---|---|---|---|
+| money/transfer/contract | 14 | 1 | 3.32 | **6.02** | 0.97 | 29% | 6% (vs 2%) | 6.02 (1/1) |
+| crime/scandal/ban | 10 | 1 | 4.25 | **3.62** | 0.99 | 10% | 2% (vs 2%) | 3.62 (1/1) |
+| underdog/rise | 19 | 1 | 6.20 | **3.50** | 0.97 | 21% | 6% (vs 3%) | 3.50 (1/1) |
+| downfall/flop/almost | 12 | 1 | 4.34 | **3.07** | 0.98 | 17% | 3% (vs 2%) | 3.07 (1/1) |
+| manager/coach | 42 | 1 | 2.24 | **3.01** | 0.97 | 12% | 8% (vs 6%) | 3.01 (1/1) |
+| World Cup/national team | 47 | 1 | 1.89 | **2.15** | 0.95 | 19% | 14% (vs 7%) | 2.15 (1/1) |
+| fan/kid story | 25 | 1 | 1.07 | **1.53** | 0.98 | 12% | 5% (vs 4%) | 1.53 (1/1) |
+| awards/Ballon d'Or/trophies | 8 | 1 | 0.69 | **1.50** | 0.99 | 0% | 0% (vs 1%) | 1.50 (1/1) |
+| goalkeeper | 34 | 1 | 1.56 | **1.45** | 0.97 | 18% | 9% (vs 5%) | 1.45 (1/1) |
+| conflict/revenge/rivalry | 69 | 1 | 0.89 | **1.26** | 0.97 | 10% | 11% (vs 11%) | 1.26 (1/1) |
+| debate/prediction/ranking | 42 | 1 | 0.69 | **1.07** | 0.97 | 5% | 3% (vs 6%) | 1.07 (1/1) |
+| Ronaldo (Cristiano) | 45 | 1 | 0.53 | **1.03** | 0.97 | 7% | 5% (vs 7%) | 1.03 (1/1) |
+| Messi | 17 | 1 | 1.46 | **1.00** | 0.99 | 6% | 2% (vs 3%) | 1.00 (0/1) |
+| other megastar | 139 | 1 | 1.01 | **1.00** | 0.97 | 7% | 15% (vs 21%) | 1.00 (0/1) |
+| family/WAGs | 16 | 1 | 1.09 | **1.00** | 0.99 | 19% | 5% (vs 2%) | 1.00 (0/1) |
+| names a star (Messi/Ronaldo/other) | 188 | 1 | 0.90 | **1.00** | 0.97 | 7% | 22% (vs 29%) | 1.00 (0/1) |
+| names a club | 90 | 1 | 0.69 | **0.98** | 0.99 | 6% | 8% (vs 14%) | 0.98 (0/1) |
+| referee/rules/VAR | 14 | 1 | 0.75 | **0.97** | 1.00 | 7% | 2% (vs 2%) | 0.97 (0/1) |
+| funny/banter | 57 | 1 | 0.76 | **0.95** | 1.00 | 7% | 6% (vs 9%) | 0.95 (0/1) |
+| secret/object/ritual/superstition | 26 | 1 | 1.15 | **0.85** | 1.00 | 15% | 6% (vs 4%) | 0.85 (0/1) |
+| tragedy/injury/health | 56 | 1 | 1.24 | **0.85** | 1.00 | 7% | 6% (vs 9%) | 0.85 (0/1) |
+| record/number | 7 | 1 | 0.91 | **0.49** | 1.00 | 0% | 0% (vs 1%) | 0.49 (0/1) |
+
+Top examples (time-adjusted ratio, views, channel):
+- **money/transfer/contract**: "The King of Tarkam with a Fantastic Salary #football #football #footballnews #sh" (2.4M, 75.0x, FootyFacts); "The King of Tarkam From Mali With Fantastic Pay 🤔💵🔥#football #soccer #ball #foot" (1.6M, 51.6x, FootyFacts); "King Polo: The Money-Making King of Village Soccer 🤑⚽ #football #soccer #shorts" (1.6M, 28.1x, FootyFacts)
+- **crime/scandal/ban**: "Football Skills That Are Considered Insults to Opponents & Banned by FIFA😳⚽ #foo" (1.9M, 55.9x, FootyFacts); "Di Maria Almost Goes to Jail?! David Luiz's Craziest Prank! #football #soccer #f" (1.0M, 12.3x, FootyFacts); "The Dirtiest World Cup Scandal & The Tragic Fate of Ahn Jung-hwan ⚽💥😱 #football " (2.0M, 10.1x, FootyFacts)
+- **underdog/rise**: "Colombian Legend Who Became a Hero 🇨🇴⚽ #football #srilanka #ball #footballnews #" (12.0M, 100.0x, FootyFacts); ""The World's Underrated African Master 🇳🇬✨" #football #soccer #ball #shorts" (3.9M, 32.5x, FootyFacts); "Mereka Pensiun, Nyesal, Lalu COMEBACK! 😱⚽ #football #sepakbola #bola #shorts #be" (2.5M, 29.1x, FootyFacts)
+- **downfall/flop/almost**: "From League 1 Failure to Tarkam King! #football #soccer #footballnews #ball #sho" (16.0M, 142.9x, FootyFacts); "The Fall of Barcelona in the Ronald Koeman Era & Suarez's Grudge 💔⚽ #shorts" (2.0M, 13.4x, FootyFacts); "Di Maria Almost Goes to Jail?! David Luiz's Craziest Prank! #football #soccer #f" (1.0M, 12.3x, FootyFacts)
+- **manager/coach**: "The Coach Was Wrong to Put Him in Goal 😂⚽ #football #soccer #shorts" (5.1M, 79.7x, FootyFacts); "The Chaotic Story of Balotelli vs. Mourinho at Inter Milan! ⚽😜 #football #soccer" (7.4M, 26.1x, FootyFacts); "Inzaghi, the Striker Who "Can't Play Football" But Is Feared by Coaches! 👻⚽ #foo" (1.9M, 21.1x, FootyFacts)
+- **World Cup/national team**: "When Your Brain Logs Out During the World Cup Final! A True Story That Will Make" (9.6M, 300.0x, FootyFacts); "CR7's Iconic Wink at the 2006 World Cup! #football #soccer #shorts" (13.0M, 228.1x, FootyFacts); "When "Super Mario" Silenced a Nation! #football #soccer #footballnews #shorts #b" (10.0M, 68.0x, FootyFacts)
+- **fan/kid story**: "Most Random Football Fan Moments #football #soccer #shorts" (3.5M, 79.5x, FootyFacts); "Lamine Yamal's Little Brother is Spain's Mascot ⚽🔥🇪🇸 #football #soccer #shorts" (3.3M, 51.6x, FootyFacts); "5 Children of World-Class Soccer Players Ready to Take the World by Storm! ⚽️🔥#s" (2.0M, 23.0x, FootyFacts)
+- **awards/Ballon d'Or/trophies**: "Real Madrid's Epic Champions League Miracle 2022 🔥🏆 #soccer #football #shorts" (3.3M, 9.0x, FootyFacts); "Nedved’s 2003 Ballon d’Or & The Lost Champions League Final #football #footballn" (111K, 3.4x, FootyFacts); "The Greatest Champions League Karma & The Myth of Mourinho’s 2010 Bus ⚽🔥 #soccer" (127K, 2.4x, FootyFacts)
+- **goalkeeper**: "The True Definition of a Goalkeeper #football #soccerupdates #shorts" (12.0M, 266.7x, FootyFacts); "The Chillest Goalkeeper On Earth: Wojciech Szczęsny 🚬⚽ #football #soccer #shorts" (26.0M, 161.5x, FootyFacts); "Wojciech Szczęsny: The Chillest Goalkeeper Without a Care in the World! #footbal" (3.3M, 51.6x, FootyFacts)
+- **conflict/revenge/rivalry**: "Football Skills That Are Considered Insults to Opponents & Banned by FIFA😳⚽ #foo" (1.9M, 55.9x, FootyFacts); "Detektif Selai Stroberi: Skandal Pique vs Shakira #football #sepakbola #beritabo" (5.0M, 44.6x, FootyFacts); "The Chaotic Story of Balotelli vs. Mourinho at Inter Milan! ⚽😜 #football #soccer" (7.4M, 26.1x, FootyFacts)
+- **debate/prediction/ranking**: "Detektif Selai Stroberi: Skandal Pique vs Shakira #football #sepakbola #beritabo" (5.0M, 44.6x, FootyFacts); "The Chaotic Story of Balotelli vs. Mourinho at Inter Milan! ⚽😜 #football #soccer" (7.4M, 26.1x, FootyFacts); "When the GOAT Became a Spectator for Juninho! 🤯🎯 #shorts" (410K, 6.4x, FootyFacts)
+- **Ronaldo (Cristiano)**: "CR7's Iconic Wink at the 2006 World Cup! #football #soccer #shorts" (13.0M, 228.1x, FootyFacts); "Ronaldo Junior Chooses Manchester United! CR7's Heir Ready to Shake the World Ag" (1.1M, 34.4x, FootyFacts); "CR7 Was Once the Star of an Energy Drink Advertisement in Bali #football #soccer" (3.1M, 20.0x, FootyFacts)
+- **Messi**: "Nike Loses Messi Over Trivial Issues #football #soccer #footballnews #ball #shor" (13.0M, 118.2x, FootyFacts); "From Facing Messi & Ronaldo to Becoming Persib Bandung's Mainstay #football #lat" (330K, 8.9x, FootyFacts); "Is Messi FIFA’s Golden Boy?! The Biggest VAR Scandal of the Century! 🚨🔥 #footbal" (448K, 6.2x, FootyFacts)
+- **other megastar**: "Perdana Menteri Spanyol Pasang Badan Buat Lamine Yamal ⚽🇵🇸 #sepakbola #beritabol" (11.0M, 200.0x, FootyFacts); "Balotelli: Between Talent and Brain Chaos #football #footballnews #soccer #short" (12.0M, 107.1x, FootyFacts); "Lamine Yamal's Little Brother is Spain's Mascot ⚽🔥🇪🇸 #football #soccer #shorts" (3.3M, 51.6x, FootyFacts)
+- **family/WAGs**: "Lamine Yamal's Little Brother is Spain's Mascot ⚽🔥🇪🇸 #football #soccer #shorts" (3.3M, 51.6x, FootyFacts); "Ronaldo Junior Chooses Manchester United! CR7's Heir Ready to Shake the World Ag" (1.1M, 34.4x, FootyFacts); "Carlos Tevez's "Crazy" Lesson to His Daughter! #football #soccer #footballnews #" (2.5M, 27.8x, FootyFacts)
+- **names a star (Messi/Ronaldo/other)**: "CR7's Iconic Wink at the 2006 World Cup! #football #soccer #shorts" (13.0M, 228.1x, FootyFacts); "Perdana Menteri Spanyol Pasang Badan Buat Lamine Yamal ⚽🇵🇸 #sepakbola #beritabol" (11.0M, 200.0x, FootyFacts); "Nike Loses Messi Over Trivial Issues #football #soccer #footballnews #ball #shor" (13.0M, 118.2x, FootyFacts)
+- **names a club**: "Park Ji-Sung: Manchester United's Shadow Hero! #football #soccer #ball #shorts #" (12.0M, 91.6x, FootyFacts); "Ronaldo Junior Chooses Manchester United! CR7's Heir Ready to Shake the World Ag" (1.1M, 34.4x, FootyFacts); "Real Madrid: The Cruel Club That's Always Right 🤍👑 #football #soccer #ball #shor" (3.7M, 31.1x, FootyFacts)
+- **referee/rules/VAR**: "5 Roberto Carlos Goals That Defy the Laws of Physics! #football #soccer #footbal" (4.3M, 39.1x, FootyFacts); "Is Messi FIFA’s Golden Boy?! The Biggest VAR Scandal of the Century! 🚨🔥 #footbal" (448K, 6.2x, FootyFacts); "Roberto Carlos's Goal That Defied the Laws of Physics! ⚽💥 #football #soccer #sho" (138K, 2.1x, FootyFacts)
+- **funny/banter**: "Cherki: God-Tier Skills But Hilarious Antics 😂⚽ Football Facts #football #soccer" (16.0M, 313.7x, FootyFacts); "When Your Brain Logs Out During the World Cup Final! A True Story That Will Make" (9.6M, 300.0x, FootyFacts); "The Coach Was Wrong to Put Him in Goal 😂⚽ #football #soccer #shorts" (5.1M, 79.7x, FootyFacts)
+- **secret/object/ritual/superstition**: "Not Just a Celebration, This Is Adebayor's Heartbreak! 💔⚽ #football #soccer #foo" (4.6M, 41.8x, FootyFacts); "CR7 Was Once the Star of an Energy Drink Advertisement in Bali #football #soccer" (3.1M, 20.0x, FootyFacts); "Footballer Goes Viral for Hair That Touches His Feet! 😱⚽️ #football #soccer #sho" (1.1M, 16.7x, FootyFacts)
+- **tragedy/injury/health**: "Ahn Jung-hwan: The World Cup Goal That Ruined His Career! 💔🇰🇷 #football #soccer " (3.8M, 42.2x, FootyFacts); "Not Just a Celebration, This Is Adebayor's Heartbreak! 💔⚽ #football #soccer #foo" (4.6M, 41.8x, FootyFacts); "Marcelo Kicked Out Over One Spontaneous Remark! 💔⚽ #football #soccer #shorts" (1.6M, 22.9x, FootyFacts)
+- **record/number**: "Michael Olise: The Ultimate Definition of Not Giving a Damn & Most Flat Personal" (456K, 6.9x, FootyFacts); "Buffon vs Casillas, Who Is the Greatest Goalkeeper of All Time? #football #socce" (106K, 3.3x, FootyFacts); "The Unwritten Rules of PS Rental: Never Choose Inter Milan 💀🔥 #football #bola #s" (197K, 1.7x, FootyFacts)
+
+## Title shapes: 8 story/facts channels pooled
+
+| Category | n | channels | median views/ch-median | median time-adj | rest time-adj | in top 10% (base 10%) | share of all top-10% (vs share of all) | channel-balanced median (ch>1.0 / ch n>=5) |
+|---|---|---|---|---|---|---|---|---|
+| starts 'When' | 77 | 6 | 1.48 | **1.44** | 1.00 | 10% | 2% (vs 2%) | 3.87 (2/2) |
+| 'fake but real' / 'you didn't know' / 'real reason' / 'untold' framing | 64 | 8 | 1.42 | **1.37** | 1.00 | 12% | 2% (vs 2%) | 1.38 (3/4) |
+| starts 'What/Who/Which' | 114 | 8 | 1.07 | **1.20** | 1.00 | 11% | 4% (vs 3%) | 1.08 (3/4) |
+| words: 15+ | 37 | 5 | 1.05 | **1.08** | 1.00 | 3% | 0% (vs 1%) | 0.91 (0/1) |
+| words: 11-14 | 315 | 8 | 1.12 | **1.06** | 1.00 | 14% | 12% (vs 9%) | 1.03 (3/5) |
+| starts 'Why' | 237 | 8 | 0.93 | **1.05** | 0.99 | 7% | 5% (vs 7%) | 1.11 (4/7) |
+| 1+ CAPS word (title not all caps) | 706 | 7 | 0.98 | **1.02** | 0.98 | 12% | 23% (vs 20%) | 0.98 (3/7) |
+| plural-led ('Players who...') | 864 | 6 | 1.12 | **1.02** | 0.98 | 10% | 25% (vs 24%) | 1.07 (2/3) |
+| question (? or Why/How/What/Who/Is/Did/Can...) | 720 | 8 | 0.88 | **1.00** | 1.00 | 8% | 17% (vs 20%) | 0.98 (3/8) |
+| statement (no question) | 2850 | 8 | 1.01 | **1.00** | 1.00 | 10% | 83% (vs 80%) | 0.99 (2/8) |
+| emoji | 1236 | 7 | 1.09 | **1.00** | 1.00 | 10% | 35% (vs 35%) | 1.03 (4/7) |
+| hashtag | 1095 | 5 | 0.94 | **1.00** | 1.00 | 11% | 33% (vs 31%) | 0.99 (1/3) |
+| words: 7-10 | 1615 | 8 | 1.05 | **1.00** | 0.97 | 9% | 43% (vs 45%) | 1.00 (4/8) |
+| ALL-CAPS title | 576 | 3 | 1.19 | **0.99** | 1.00 | 8% | 13% (vs 16%) | 0.98 (0/1) |
+| words: <=6 | 1603 | 8 | 0.92 | **0.95** | 1.02 | 10% | 45% (vs 45%) | 0.91 (0/8) |
+| name-led (star/club/manager first) | 277 | 8 | 0.91 | **0.93** | 1.00 | 8% | 6% (vs 8%) | 0.95 (0/6) |
+| number-led | 69 | 7 | 0.91 | **0.91** | 1.00 | 10% | 2% (vs 2%) | 0.86 (1/5) |
+| starts 'How' | 108 | 8 | 0.87 | **0.89** | 1.00 | 9% | 3% (vs 3%) | 0.87 (0/4) |
+| superlative-led (Most/Craziest/Worst...) | 405 | 7 | 0.81 | **0.88** | 1.00 | 11% | 12% (vs 11%) | 0.86 (1/6) |
+| vague hype word (crazy/insane/wild/shocking) | 225 | 7 | 0.84 | **0.86** | 1.00 | 9% | 6% (vs 6%) | 0.84 (1/5) |
+| singular 'The X who/that...' | 38 | 6 | 0.61 | **0.84** | 1.00 | 8% | 1% (vs 1%) | 1.03 (3/4) |
+| 'The day/night/time...' | 14 | 5 | 1.15 | **0.62** | 1.00 | 7% | 0% (vs 0%) | 0.52 (0/1) |
+
+Top examples (time-adjusted ratio, views, channel):
+- **starts 'When'**: "When Your Brain Logs Out During the World Cup Final! A True Story That Will Make" (9.6M, 300.0x, FootyFacts); "When "Super Mario" Silenced a Nation! #football #soccer #footballnews #shorts #b" (10.0M, 68.0x, FootyFacts); "When Ronaldinho Frustrated Salgado In El Clásico #football #soccer #shorts" (1.6M, 31.4x, FootyFacts)
+- **'fake but real' / 'you didn't know' / 'real reason' / 'untold' framing**: "The Reason Why Gavi Ignores the Princess of Spain" (967K, 56.9x, FootballStoriesEN); "The Truth About the "Rigged" World Cup Claims #shorts" (82K, 43.2x, PedTalksFutbol); "You didn't know this about Celine Dept😱" (11.0M, 17.2x, 411Football)
+- **starts 'What/Who/Which'**: "What happened to North Korea after the World Cup?" (9.4M, 671.4x, AhmedsGoal); "What if a Female Footballer Gets Pregnant in the Middle of the Season? 👶" (2.5M, 147.1x, FootballStoriesEN); "What happens to the World Cup trophy from the previous winners" (6.7M, 25.0x, AhmedsGoal)
+- **words: 15+**: "When Your Brain Logs Out During the World Cup Final! A True Story That Will Make" (9.6M, 300.0x, FootyFacts); "World cup teams that looked incredible in the group stage but then collapsed in " (640K, 3.2x, AhmedsGoal); "Why did Cristiano Ronaldo get fined exactly only two hundred fifty five euros by" (562K, 3.1x, AhmedsGoal)
+- **words: 11-14**: "What if a Female Footballer Gets Pregnant in the Middle of the Season? 👶" (2.5M, 147.1x, FootballStoriesEN); "Football Skills That Are Considered Insults to Opponents & Banned by FIFA😳⚽ #foo" (1.9M, 55.9x, FootyFacts); "Wojciech Szczęsny: The Chillest Goalkeeper Without a Care in the World! #footbal" (3.3M, 51.6x, FootyFacts)
+- **starts 'Why'**: "Why did Al Nassr change their logo🤔" (2.2M, 45.4x, 411Football); "Why Ronaldo and Irina ACTUALLY broke up!💔😢" (3.9M, 28.5x, 411Football); "Why the World Cup trophy is NOT made out of GOLD!😳" (21.0M, 26.5x, 411Football)
+- **1+ CAPS word (title not all caps)**: "He made over $1 MILLION by losing" (5.4M, 385.7x, AhmedsGoal); "WORST Performances in football HISTORY   ep 5" (3.4M, 261.5x, AhmedsGoal); "No STRIKERS from La Masia?  #shorts" (328K, 182.2x, PedTalksFutbol)
+- **plural-led ('Players who...')**: "PLAYERS WHO USED TO BE STARS BUT FELL OFF" (10.0M, 34.6x, AhmedsGoal); "World Cup players who got rejected by their own country but then got revenge!" (4.6M, 22.9x, AhmedsGoal); "Moments that changed football forever episode 7" (254K, 18.1x, AhmedsGoal)
+- **question (? or Why/How/What/Who/Is/Did/Can...)**: "What happened to North Korea after the World Cup?" (9.4M, 671.4x, AhmedsGoal); "No STRIKERS from La Masia?  #shorts" (328K, 182.2x, PedTalksFutbol); "What if a Female Footballer Gets Pregnant in the Middle of the Season? 👶" (2.5M, 147.1x, FootballStoriesEN)
+- **statement (no question)**: "Wait For The Messi #messi #hakim #greeneffect #greenscreen #footballshorts #celi" (9.1M, 919.2x, FootballUntoldStory); "Forbidden Things in Football" (10.0M, 666.7x, FootballStoriesEN); "He made over $1 MILLION by losing" (5.4M, 385.7x, AhmedsGoal)
+- **emoji**: "Cherki: God-Tier Skills But Hilarious Antics 😂⚽ Football Facts #football #soccer" (16.0M, 313.7x, FootyFacts); "When Your Brain Logs Out During the World Cup Final! A True Story That Will Make" (9.6M, 300.0x, FootyFacts); "Perdana Menteri Spanyol Pasang Badan Buat Lamine Yamal ⚽🇵🇸 #sepakbola #beritabol" (11.0M, 200.0x, FootyFacts)
+- **hashtag**: "Wait For The Messi #messi #hakim #greeneffect #greenscreen #footballshorts #celi" (9.1M, 919.2x, FootballUntoldStory); "Cherki: God-Tier Skills But Hilarious Antics 😂⚽ Football Facts #football #soccer" (16.0M, 313.7x, FootyFacts); "When Your Brain Logs Out During the World Cup Final! A True Story That Will Make" (9.6M, 300.0x, FootyFacts)
+- **words: 7-10**: "What happened to North Korea after the World Cup?" (9.4M, 671.4x, AhmedsGoal); "He made over $1 MILLION by losing" (5.4M, 385.7x, AhmedsGoal); "Cherki: God-Tier Skills But Hilarious Antics 😂⚽ Football Facts #football #soccer" (16.0M, 313.7x, FootyFacts)
+- **ALL-CAPS title**: "PLAYERS WHO USED TO BE STARS BUT FELL OFF" (10.0M, 34.6x, AhmedsGoal); "FOOTBALL PLAYERS WHO GOT IN TROUBLE FOR THE SILLIEST REASONS" (5.9M, 15.6x, AhmedsGoal); "PLAYERS WHO RETIRED WAY TOO YOUNG" (4.2M, 14.7x, AhmedsGoal)
+- **words: <=6**: "Wait For The Messi #messi #hakim #greeneffect #greenscreen #footballshorts #celi" (9.1M, 919.2x, FootballUntoldStory); "Forbidden Things in Football" (10.0M, 666.7x, FootballStoriesEN); "The True Definition of a Goalkeeper #football #soccerupdates #shorts" (12.0M, 266.7x, FootyFacts)
+- **name-led (star/club/manager first)**: "CR7's Iconic Wink at the 2006 World Cup! #football #soccer #shorts" (13.0M, 228.1x, FootyFacts); "Balotelli: Between Talent and Brain Chaos #football #footballnews #soccer #short" (12.0M, 107.1x, FootyFacts); "Ronaldo Junior Chooses Manchester United! CR7's Heir Ready to Shake the World Ag" (1.1M, 34.4x, FootyFacts)
+- **number-led**: "2006 World Cup: When the Gods Descended to Earth! 🏆🔥 #football #soccer #shorts" (5.6M, 50.5x, FootyFacts); "3 Most Absurd Football Gear! 🤯⚽ #football #footballnews #shorts" (2.6M, 39.4x, FootyFacts); "5 Roberto Carlos Goals That Defy the Laws of Physics! #football #soccer #footbal" (4.3M, 39.1x, FootyFacts)
+- **starts 'How'**: "How small shin pads are you allowed to wear?🤔" (1.4M, 29.8x, 411Football); "How Egypt was almost one of the best national teams" (244K, 17.4x, AhmedsGoal); "How Ronaldo became so good looking🤩" (9.9M, 16.3x, 411Football)
+- **superlative-led (Most/Craziest/Worst...)**: "WORST Performances in football HISTORY   ep 5" (3.4M, 261.5x, AhmedsGoal); "The most famous people Ishowspeed has met😳" (16.0M, 128.0x, 411Football); "Most Random Football Fan Moments #football #soccer #shorts" (3.5M, 79.5x, FootyFacts)
+- **vague hype word (crazy/insane/wild/shocking)**: "CRAZIEST moments in football history" (1.4M, 73.7x, AhmedsGoal); "Footballer's with the craziest pets!😳" (3.9M, 41.7x, 411Football); "Carlos Tevez's "Crazy" Lesson to His Daughter! #football #soccer #footballnews #" (2.5M, 27.8x, FootyFacts)
+- **singular 'The X who/that...'**: "The foul that ended Haaland's Dad's Career" (1.1M, 91.7x, AhmedsGoal); "The HUGE PROBLEM that Andriy Lunin just created..." (231K, 16.5x, AhmedsGoal); "The Only Supporter Who Came When Away 1,500 KM #football #soccer #footballnews #" (1.1M, 6.1x, FootyFacts)
+- **'The day/night/time...'**: "The Moment Zlatan 'Suffered' Because of Mourinho 😢⚽ #football #soccer #shorts" (858K, 3.7x, FootyFacts); "The day Ronaldo nearly lost his life!😱" (1.3M, 3.2x, 411Football); "The Day Young Neymar Changed FIFA Rules 😱" (1.2M, 2.9x, FootballfactsUpdate)
+
+## Title shapes: WITHOUT Ahmed's Goal
+
+| Category | n | channels | median views/ch-median | median time-adj | rest time-adj | in top 10% (base 10%) | share of all top-10% (vs share of all) | channel-balanced median (ch>1.0 / ch n>=5) |
+|---|---|---|---|---|---|---|---|---|
+| starts 'When' | 75 | 5 | 1.48 | **1.76** | 0.98 | 11% | 4% (vs 3%) | 3.87 (2/2) |
+| words: 11-14 | 116 | 7 | 1.62 | **1.51** | 0.97 | 16% | 9% (vs 5%) | 1.32 (3/4) |
+| starts 'What/Who/Which' | 91 | 7 | 1.07 | **1.10** | 0.98 | 11% | 5% (vs 4%) | 1.06 (2/3) |
+| plural-led ('Players who...') | 143 | 5 | 1.19 | **1.08** | 0.98 | 12% | 8% (vs 6%) | 1.08 (2/2) |
+| starts 'Why' | 212 | 7 | 0.92 | **1.04** | 0.98 | 8% | 8% (vs 10%) | 1.02 (3/6) |
+| 'fake but real' / 'you didn't know' / 'real reason' / 'untold' framing | 44 | 7 | 1.06 | **1.03** | 1.00 | 14% | 3% (vs 2%) | 1.04 (2/3) |
+| 1+ CAPS word (title not all caps) | 244 | 6 | 1.12 | **1.03** | 0.98 | 11% | 12% (vs 11%) | 0.97 (2/6) |
+| words: 7-10 | 912 | 7 | 1.05 | **1.02** | 0.96 | 9% | 37% (vs 41%) | 1.00 (4/7) |
+| question (? or Why/How/What/Who/Is/Did/Can...) | 582 | 7 | 0.91 | **1.00** | 1.00 | 9% | 23% (vs 26%) | 0.97 (2/7) |
+| statement (no question) | 1622 | 7 | 1.03 | **1.00** | 1.00 | 10% | 77% (vs 74%) | 0.98 (2/7) |
+| emoji | 1236 | 7 | 1.09 | **1.00** | 0.98 | 10% | 57% (vs 56%) | 1.03 (4/7) |
+| hashtag | 1093 | 4 | 0.94 | **1.00** | 0.98 | 11% | 53% (vs 50%) | 0.99 (1/3) |
+| words: <=6 | 1169 | 7 | 0.90 | **0.94** | 1.05 | 10% | 54% (vs 53%) | 0.87 (0/7) |
+| name-led (star/club/manager first) | 272 | 7 | 0.92 | **0.93** | 1.00 | 8% | 10% (vs 12%) | 0.93 (0/5) |
+| number-led | 64 | 6 | 1.00 | **0.90** | 1.00 | 9% | 3% (vs 3%) | 0.78 (1/4) |
+| starts 'How' | 73 | 7 | 0.86 | **0.86** | 1.00 | 10% | 3% (vs 3%) | 0.86 (0/3) |
+| superlative-led (Most/Craziest/Worst...) | 110 | 6 | 0.84 | **0.84** | 1.00 | 8% | 4% (vs 5%) | 0.85 (1/5) |
+| vague hype word (crazy/insane/wild/shocking) | 111 | 6 | 0.83 | **0.83** | 1.00 | 7% | 4% (vs 5%) | 0.82 (1/4) |
+| singular 'The X who/that...' | 30 | 5 | 0.70 | **0.82** | 1.00 | 3% | 0% (vs 1%) | 1.02 (2/3) |
+| 'The day/night/time...' | 14 | 5 | 1.15 | **0.62** | 1.00 | 7% | 0% (vs 1%) | 0.52 (0/1) |
+
+Top examples (time-adjusted ratio, views, channel):
+- **starts 'When'**: "When Your Brain Logs Out During the World Cup Final! A True Story That Will Make" (9.6M, 300.0x, FootyFacts); "When "Super Mario" Silenced a Nation! #football #soccer #footballnews #shorts #b" (10.0M, 68.0x, FootyFacts)
+- **words: 11-14**: "What if a Female Footballer Gets Pregnant in the Middle of the Season? 👶" (2.5M, 147.1x, FootballStoriesEN); "Football Skills That Are Considered Insults to Opponents & Banned by FIFA😳⚽ #foo" (1.9M, 55.9x, FootyFacts)
+- **starts 'What/Who/Which'**: "What if a Female Footballer Gets Pregnant in the Middle of the Season? 👶" (2.5M, 147.1x, FootballStoriesEN); "What PHONES does footballers use?🤔" (5.8M, 22.0x, 411Football)
+- **plural-led ('Players who...')**: "Footballers who changed the rules😱" (3.9M, 15.8x, 411Football); "Footballers who put God in front of everything else🙏🏻" (1.6M, 15.0x, 411Football)
+- **starts 'Why'**: "Why did Al Nassr change their logo🤔" (2.2M, 45.4x, 411Football); "Why Ronaldo and Irina ACTUALLY broke up!💔😢" (3.9M, 28.5x, 411Football)
+- **'fake but real' / 'you didn't know' / 'real reason' / 'untold' framing**: "The Reason Why Gavi Ignores the Princess of Spain" (967K, 56.9x, FootballStoriesEN); "The Truth About the "Rigged" World Cup Claims #shorts" (82K, 43.2x, PedTalksFutbol)
+- **1+ CAPS word (title not all caps)**: "No STRIKERS from La Masia?  #shorts" (328K, 182.2x, PedTalksFutbol); "The NEW penalty rule in football!🏁" (3.9M, 60.0x, 411Football)
+- **words: 7-10**: "Cherki: God-Tier Skills But Hilarious Antics 😂⚽ Football Facts #football #soccer" (16.0M, 313.7x, FootyFacts); "CR7's Iconic Wink at the 2006 World Cup! #football #soccer #shorts" (13.0M, 228.1x, FootyFacts)
+- **question (? or Why/How/What/Who/Is/Did/Can...)**: "No STRIKERS from La Masia?  #shorts" (328K, 182.2x, PedTalksFutbol); "What if a Female Footballer Gets Pregnant in the Middle of the Season? 👶" (2.5M, 147.1x, FootballStoriesEN)
+- **statement (no question)**: "Wait For The Messi #messi #hakim #greeneffect #greenscreen #footballshorts #celi" (9.1M, 919.2x, FootballUntoldStory); "Forbidden Things in Football" (10.0M, 666.7x, FootballStoriesEN)
+- **emoji**: "Cherki: God-Tier Skills But Hilarious Antics 😂⚽ Football Facts #football #soccer" (16.0M, 313.7x, FootyFacts); "When Your Brain Logs Out During the World Cup Final! A True Story That Will Make" (9.6M, 300.0x, FootyFacts)
+- **hashtag**: "Wait For The Messi #messi #hakim #greeneffect #greenscreen #footballshorts #celi" (9.1M, 919.2x, FootballUntoldStory); "Cherki: God-Tier Skills But Hilarious Antics 😂⚽ Football Facts #football #soccer" (16.0M, 313.7x, FootyFacts)
+- **words: <=6**: "Wait For The Messi #messi #hakim #greeneffect #greenscreen #footballshorts #celi" (9.1M, 919.2x, FootballUntoldStory); "Forbidden Things in Football" (10.0M, 666.7x, FootballStoriesEN)
+- **name-led (star/club/manager first)**: "CR7's Iconic Wink at the 2006 World Cup! #football #soccer #shorts" (13.0M, 228.1x, FootyFacts); "Balotelli: Between Talent and Brain Chaos #football #footballnews #soccer #short" (12.0M, 107.1x, FootyFacts)
+- **number-led**: "2006 World Cup: When the Gods Descended to Earth! 🏆🔥 #football #soccer #shorts" (5.6M, 50.5x, FootyFacts); "3 Most Absurd Football Gear! 🤯⚽ #football #footballnews #shorts" (2.6M, 39.4x, FootyFacts)
+- **starts 'How'**: "How small shin pads are you allowed to wear?🤔" (1.4M, 29.8x, 411Football); "How Ronaldo became so good looking🤩" (9.9M, 16.3x, 411Football)
+- **superlative-led (Most/Craziest/Worst...)**: "The most famous people Ishowspeed has met😳" (16.0M, 128.0x, 411Football); "Most Random Football Fan Moments #football #soccer #shorts" (3.5M, 79.5x, FootyFacts)
+- **vague hype word (crazy/insane/wild/shocking)**: "Footballer's with the craziest pets!😳" (3.9M, 41.7x, 411Football); "Carlos Tevez's "Crazy" Lesson to His Daughter! #football #soccer #footballnews #" (2.5M, 27.8x, FootyFacts)
+- **singular 'The X who/that...'**: "The Only Supporter Who Came When Away 1,500 KM #football #soccer #footballnews #" (1.1M, 6.1x, FootyFacts); "The Shark Who Almost Sank #shorts" (7K, 3.7x, PedTalksFutbol)
+- **'The day/night/time...'**: "The Moment Zlatan 'Suffered' Because of Mourinho 😢⚽ #football #soccer #shorts" (858K, 3.7x, FootyFacts); "The day Ronaldo nearly lost his life!😱" (1.3M, 3.2x, 411Football)
+
+## Title shapes: Ahmed's Goal only
+
+| Category | n | channels | median views/ch-median | median time-adj | rest time-adj | in top 10% (base 10%) | share of all top-10% (vs share of all) | channel-balanced median (ch>1.0 / ch n>=5) |
+|---|---|---|---|---|---|---|---|---|
+| 'fake but real' / 'you didn't know' / 'real reason' / 'untold' framing | 20 | 1 | 2.19 | **1.71** | 1.00 | 10% | 1% (vs 1%) | 1.71 (1/1) |
+| starts 'What/Who/Which' | 23 | 1 | 1.30 | **1.59** | 1.00 | 13% | 2% (vs 2%) | 1.59 (1/1) |
+| starts 'Why' | 25 | 1 | 1.00 | **1.27** | 1.00 | 0% | 0% (vs 2%) | 1.27 (1/1) |
+| singular 'The X who/that...' | 8 | 1 | 0.05 | **1.12** | 1.00 | 25% | 1% (vs 1%) | 1.12 (1/1) |
+| question (? or Why/How/What/Who/Is/Did/Can...) | 138 | 1 | 0.80 | **1.03** | 1.00 | 7% | 7% (vs 10%) | 1.03 (1/1) |
+| 1+ CAPS word (title not all caps) | 462 | 1 | 0.91 | **1.02** | 0.97 | 12% | 40% (vs 34%) | 1.02 (1/1) |
+| plural-led ('Players who...') | 721 | 1 | 1.12 | **1.00** | 1.00 | 10% | 54% (vs 53%) | 1.00 (0/1) |
+| statement (no question) | 1228 | 1 | 1.01 | **1.00** | 1.03 | 10% | 93% (vs 90%) | 1.00 (0/1) |
+| words: <=6 | 434 | 1 | 0.99 | **1.00** | 1.00 | 9% | 30% (vs 32%) | 1.00 (0/1) |
+| words: 7-10 | 703 | 1 | 1.01 | **1.00** | 0.99 | 10% | 52% (vs 51%) | 1.00 (0/1) |
+| ALL-CAPS title | 571 | 1 | 1.19 | **0.98** | 1.00 | 8% | 34% (vs 42%) | 0.98 (0/1) |
+| words: 11-14 | 199 | 1 | 0.97 | **0.93** | 1.00 | 12% | 18% (vs 15%) | 0.93 (0/1) |
+| starts 'How' | 35 | 1 | 0.88 | **0.93** | 1.00 | 9% | 2% (vs 3%) | 0.93 (0/1) |
+| superlative-led (Most/Craziest/Worst...) | 295 | 1 | 0.79 | **0.91** | 1.00 | 12% | 25% (vs 22%) | 0.91 (0/1) |
+| words: 15+ | 30 | 1 | 0.99 | **0.91** | 1.00 | 0% | 0% (vs 2%) | 0.91 (0/1) |
+| vague hype word (crazy/insane/wild/shocking) | 114 | 1 | 0.95 | **0.87** | 1.00 | 11% | 9% (vs 8%) | 0.87 (0/1) |
+
+Top examples (time-adjusted ratio, views, channel):
+- **'fake but real' / 'you didn't know' / 'real reason' / 'untold' framing**: "Things in football that sound FAKE but are 100% REAL" (2.6M, 8.7x, AhmedsGoal); "Football scores that look FAKE but are 100% REAL Episode 3" (3.2M, 8.5x, AhmedsGoal)
+- **starts 'What/Who/Which'**: "What happened to North Korea after the World Cup?" (9.4M, 671.4x, AhmedsGoal); "What happens to the World Cup trophy from the previous winners" (6.7M, 25.0x, AhmedsGoal)
+- **starts 'Why'**: "Why is UEFA investigating FC Barcelona?" (624K, 3.3x, AhmedsGoal); "Why did Cristiano Ronaldo get fined exactly only two hundred fifty five euros by" (562K, 3.1x, AhmedsGoal)
+- **singular 'The X who/that...'**: "The foul that ended Haaland's Dad's Career" (1.1M, 91.7x, AhmedsGoal); "The HUGE PROBLEM that Andriy Lunin just created..." (231K, 16.5x, AhmedsGoal)
+- **question (? or Why/How/What/Who/Is/Did/Can...)**: "What happened to North Korea after the World Cup?" (9.4M, 671.4x, AhmedsGoal); "Can Bayer Leverkusen Solve This Problem?" (818K, 58.4x, AhmedsGoal)
+- **1+ CAPS word (title not all caps)**: "He made over $1 MILLION by losing" (5.4M, 385.7x, AhmedsGoal); "WORST Performances in football HISTORY   ep 5" (3.4M, 261.5x, AhmedsGoal)
+- **plural-led ('Players who...')**: "PLAYERS WHO USED TO BE STARS BUT FELL OFF" (10.0M, 34.6x, AhmedsGoal); "World Cup players who got rejected by their own country but then got revenge!" (4.6M, 22.9x, AhmedsGoal)
+- **statement (no question)**: "He made over $1 MILLION by losing" (5.4M, 385.7x, AhmedsGoal); "WORST Performances in football HISTORY   ep 5" (3.4M, 261.5x, AhmedsGoal)
+- **words: <=6**: "CRAZIEST moments in football history" (1.4M, 73.7x, AhmedsGoal); "This World Cup Elimination Was Heartbreaking" (848K, 65.2x, AhmedsGoal)
+- **words: 7-10**: "What happened to North Korea after the World Cup?" (9.4M, 671.4x, AhmedsGoal); "He made over $1 MILLION by losing" (5.4M, 385.7x, AhmedsGoal)
+- **ALL-CAPS title**: "PLAYERS WHO USED TO BE STARS BUT FELL OFF" (10.0M, 34.6x, AhmedsGoal); "FOOTBALL PLAYERS WHO GOT IN TROUBLE FOR THE SILLIEST REASONS" (5.9M, 15.6x, AhmedsGoal)
+- **words: 11-14**: "What happens to the World Cup trophy from the previous winners" (6.7M, 25.0x, AhmedsGoal); "World Cup players who got rejected by their own country but then got revenge!" (4.6M, 22.9x, AhmedsGoal)
+- **starts 'How'**: "How Egypt was almost one of the best national teams" (244K, 17.4x, AhmedsGoal); "How Clubs DISCOVERED Their LEGENDS - Episode 2" (2.6M, 6.3x, AhmedsGoal)
+- **superlative-led (Most/Craziest/Worst...)**: "WORST Performances in football HISTORY   ep 5" (3.4M, 261.5x, AhmedsGoal); "CRAZIEST moments in football history" (1.4M, 73.7x, AhmedsGoal)
+- **words: 15+**: "World cup teams that looked incredible in the group stage but then collapsed in " (640K, 3.2x, AhmedsGoal); "Why did Cristiano Ronaldo get fined exactly only two hundred fifty five euros by" (562K, 3.1x, AhmedsGoal)
+- **vague hype word (crazy/insane/wild/shocking)**: "CRAZIEST moments in football history" (1.4M, 73.7x, AhmedsGoal); "CRAZIEST Performances in Football HISTORY" (481K, 16.6x, AhmedsGoal)
+
+## Title shapes: analysis channels (Tifo/The Athletic FC, Statman Dave)
+
+| Category | n | channels | median views/ch-median | median time-adj | rest time-adj | in top 10% (base 10%) | share of all top-10% (vs share of all) | channel-balanced median (ch>1.0 / ch n>=5) |
+|---|---|---|---|---|---|---|---|---|
+| vague hype word (crazy/insane/wild/shocking) | 8 | 2 | 0.30 | **1.26** | 1.00 | 0% | 0% (vs 1%) | 1.24 (1/1) |
+| starts 'Why' | 400 | 2 | 1.26 | **1.14** | 0.94 | 12% | 37% (vs 30%) | 1.24 (2/2) |
+| question (? or Why/How/What/Who/Is/Did/Can...) | 1008 | 2 | 1.15 | **1.05** | 0.72 | 10% | 79% (vs 77%) | 0.96 (1/2) |
+| starts 'How' | 193 | 2 | 1.06 | **1.01** | 1.00 | 9% | 14% (vs 15%) | 0.94 (1/2) |
+| words: <=6 | 354 | 2 | 1.10 | **1.00** | 0.99 | 9% | 25% (vs 27%) | 1.00 (0/1) |
+| hashtag | 1121 | 1 | 1.07 | **1.00** | 1.00 | 7% | 59% (vs 85%) | 1.00 (0/1) |
+| words: 7-10 | 895 | 2 | 1.00 | **1.00** | 0.98 | 11% | 72% (vs 68%) | 0.96 (0/2) |
+| ALL-CAPS title | 8 | 1 | 0.95 | **0.95** | 1.00 | 0% | 0% (vs 1%) | 0.95 (0/1) |
+| starts 'When' | 11 | 1 | 0.91 | **0.84** | 1.00 | 0% | 0% (vs 1%) | 0.84 (0/1) |
+| superlative-led (Most/Craziest/Worst...) | 30 | 1 | 0.84 | **0.79** | 1.00 | 7% | 2% (vs 2%) | 0.79 (0/1) |
+| starts 'What/Who/Which' | 141 | 2 | 0.71 | **0.72** | 1.01 | 9% | 10% (vs 11%) | 0.72 (0/1) |
+| statement (no question) | 306 | 2 | 0.46 | **0.72** | 1.05 | 9% | 21% (vs 23%) | 0.86 (0/2) |
+| number-led | 13 | 1 | 0.41 | **0.71** | 1.00 | 23% | 2% (vs 1%) | 0.71 (0/1) |
+| name-led (star/club/manager first) | 59 | 1 | 0.67 | **0.70** | 1.00 | 7% | 3% (vs 4%) | 0.70 (0/1) |
+| 1+ CAPS word (title not all caps) | 88 | 2 | 0.19 | **0.69** | 1.00 | 12% | 8% (vs 7%) | 0.85 (1/2) |
+| emoji | 245 | 1 | 0.14 | **0.62** | 1.03 | 13% | 24% (vs 19%) | 0.62 (0/1) |
+| singular 'The X who/that...' | 11 | 2 | 0.88 | **0.56** | 1.00 | 0% | 0% (vs 1%) | 0.47 (0/1) |
+| words: 11-14 | 63 | 2 | 0.35 | **0.41** | 1.00 | 6% | 3% (vs 5%) | 0.75 (1/2) |
+| 'fake but real' / 'you didn't know' / 'real reason' / 'untold' framing | 31 | 2 | 0.36 | **0.36** | 1.00 | 16% | 4% (vs 2%) | 0.35 (0/1) |
+
+Top examples (time-adjusted ratio, views, channel):
+- **vague hype word (crazy/insane/wild/shocking)**: "The Craziest World Cup Of All Time | #worldcup #football" (109K, 2.4x, TheAthleticFC_Tifo); "Are Chelsea in trouble without Reece James?" (72K, 2.2x, TheAthleticFC_Tifo)
+- **starts 'Why'**: "Why inverted fullbacks have become so popular" (729K, 56.1x, TheAthleticFC_Tifo); "Why Every Footballer Wants To Live HERE... 💰🏡 | #premierleague #property" (1.0M, 27.0x, TheAthleticFC_Tifo)
+- **question (? or Why/How/What/Who/Is/Did/Can...)**: "Has Pep Guardiola invented a new formation?" (2.2M, 68.8x, TheAthleticFC_Tifo); "Why inverted fullbacks have become so popular" (729K, 56.1x, TheAthleticFC_Tifo)
+- **starts 'How'**: "How Kai Havertz fits in at Arsenal" (413K, 31.8x, TheAthleticFC_Tifo); "How Footballers FORCE Transfers 😡" (589K, 26.8x, TheAthleticFC_Tifo)
+- **words: <=6**: "Guess The Player From Their Celebration | #premierleague #championsleague" (4.9M, 29.7x, TheAthleticFC_Tifo); "How Footballers FORCE Transfers 😡" (589K, 26.8x, TheAthleticFC_Tifo)
+- **hashtag**: "Guess The Player From Their Celebration | #premierleague #championsleague" (4.9M, 29.7x, TheAthleticFC_Tifo); "Why Every Footballer Wants To Live HERE... 💰🏡 | #premierleague #property" (1.0M, 27.0x, TheAthleticFC_Tifo)
+- **words: 7-10**: "Has Pep Guardiola invented a new formation?" (2.2M, 68.8x, TheAthleticFC_Tifo); "Why inverted fullbacks have become so popular" (729K, 56.1x, TheAthleticFC_Tifo)
+- **ALL-CAPS title**: "THE BUILD UP BENEFITS OF INVERTED FULL BACKS" (53K, 2.5x, StatmanDave); "WHAT JEREMIE FRIMPONG COULD BRING TO MAN UTD" (32K, 1.5x, StatmanDave)
+- **starts 'When'**: "When Will An African Nation Win The World Cup? | #worldcup #football" (190K, 2.1x, TheAthleticFC_Tifo); "When Will Guardiola Leave Man City? | #premierleague #mancity" (206K, 1.3x, TheAthleticFC_Tifo)
+- **superlative-led (Most/Craziest/Worst...)**: "The Worst Stadium In The Premier League Is… 🏟️❌👀" (466K, 16.1x, TheAthleticFC_Tifo); "The Worst Team At The 2026 World Cup | #worldcup #football" (310K, 7.0x, TheAthleticFC_Tifo)
+- **starts 'What/Who/Which'**: "What's the difference between pressing and counter-pressing?" (430K, 19.5x, TheAthleticFC_Tifo); "What does Declan Rice actually do?" (153K, 11.8x, TheAthleticFC_Tifo)
+- **statement (no question)**: "Fans FORCE Team To Change Club's Kit 💪" (589K, 45.3x, TheAthleticFC_Tifo); "Guess The Player From Their Celebration | #premierleague #championsleague" (4.9M, 29.7x, TheAthleticFC_Tifo)
+- **number-led**: "14 Facts About The 2026 World Cup That Sound Fake | #worldcup #football" (643K, 14.3x, TheAthleticFC_Tifo); "9 World Cup Stats That Sound Fake | #worldcup2026 #football" (197K, 4.2x, TheAthleticFC_Tifo)
+- **name-led (star/club/manager first)**: "Buffon Creates The Perfect Goalkeeper | #football #soccer" (1.6M, 14.8x, TheAthleticFC_Tifo); "Arsenal's New Secret Weapon | #arsenal #premierleague" (753K, 6.7x, TheAthleticFC_Tifo)
+- **1+ CAPS word (title not all caps)**: "Fans FORCE Team To Change Club's Kit 💪" (589K, 45.3x, TheAthleticFC_Tifo); "Why Every Footballer Wants To Live HERE... 💰🏡 | #premierleague #property" (1.0M, 27.0x, TheAthleticFC_Tifo)
+- **emoji**: "Fans FORCE Team To Change Club's Kit 💪" (589K, 45.3x, TheAthleticFC_Tifo); "Why Every Footballer Wants To Live HERE... 💰🏡 | #premierleague #property" (1.0M, 27.0x, TheAthleticFC_Tifo)
+- **singular 'The X who/that...'**: "The Tactics That Have Made Julian Nagelsmann One Of Europe’s Best Coaches…" (58K, 2.8x, StatmanDave); "The New World Cup Rule That Changes Everything | #worldcup #football" (125K, 2.7x, TheAthleticFC_Tifo)
+- **words: 11-14**: "Why Ruben Amorim's 3-4-2-1 Is PERFECT For Manchester United" (368K, 17.5x, StatmanDave); "Why Andoni Iraola’s UNIQUE PRESS IS THE BEST In the Premier League…" (155K, 7.4x, StatmanDave)
+- **'fake but real' / 'you didn't know' / 'real reason' / 'untold' framing**: "14 Facts About The 2026 World Cup That Sound Fake | #worldcup #football" (643K, 14.3x, TheAthleticFC_Tifo); "The Reason Dominik Szoboszlai Has Tiny Feet!? 😳 | #liverpool #premierleague" (191K, 6.0x, TheAthleticFC_Tifo)
+
+## Topics: analysis channels (Tifo/The Athletic FC, Statman Dave)
+
+| Category | n | channels | median views/ch-median | median time-adj | rest time-adj | in top 10% (base 10%) | share of all top-10% (vs share of all) | channel-balanced median (ch>1.0 / ch n>=5) |
+|---|---|---|---|---|---|---|---|---|
+| tragedy/injury/health | 16 | 1 | 0.81 | **1.28** | 1.00 | 6% | 1% (vs 1%) | 1.28 (1/1) |
+| goalkeeper | 20 | 2 | 0.75 | **1.22** | 1.00 | 15% | 2% (vs 2%) | 1.31 (1/1) |
+| tactics/analysis/stats | 115 | 2 | 1.40 | **1.22** | 0.98 | 15% | 13% (vs 9%) | 1.70 (2/2) |
+| downfall/flop/almost | 27 | 1 | 1.12 | **1.20** | 1.00 | 26% | 5% (vs 2%) | 1.20 (1/1) |
+| other megastar | 92 | 2 | 1.01 | **1.18** | 0.99 | 12% | 8% (vs 7%) | 1.23 (1/1) |
+| manager/coach | 211 | 2 | 1.40 | **1.13** | 0.97 | 10% | 16% (vs 16%) | 1.48 (2/2) |
+| club history/origins | 32 | 1 | 0.98 | **1.12** | 1.00 | 19% | 5% (vs 2%) | 1.12 (1/1) |
+| money/transfer/contract | 141 | 2 | 0.88 | **1.08** | 1.00 | 13% | 15% (vs 11%) | 0.96 (1/2) |
+| awards/Ballon d'Or/trophies | 22 | 2 | 1.07 | **1.03** | 1.00 | 0% | 0% (vs 2%) | 0.98 (0/1) |
+| names a club | 548 | 2 | 1.18 | **1.02** | 0.98 | 8% | 34% (vs 42%) | 1.02 (1/2) |
+| names a star (Messi/Ronaldo/other) | 122 | 2 | 0.75 | **1.02** | 1.00 | 11% | 10% (vs 9%) | 1.03 (1/1) |
+| family/WAGs | 8 | 1 | 0.83 | **1.00** | 1.00 | 0% | 0% (vs 1%) | 1.00 (0/1) |
+| underdog/rise | 46 | 1 | 0.82 | **0.90** | 1.00 | 4% | 2% (vs 4%) | 0.90 (0/1) |
+| record/number | 33 | 1 | 0.84 | **0.85** | 1.00 | 3% | 1% (vs 3%) | 0.85 (0/1) |
+| World Cup/national team | 179 | 2 | 0.67 | **0.84** | 1.00 | 10% | 14% (vs 14%) | 0.85 (0/1) |
+| funny/banter | 8 | 1 | 0.69 | **0.80** | 1.00 | 25% | 2% (vs 1%) | 0.80 (0/1) |
+| conflict/revenge/rivalry | 75 | 2 | 0.74 | **0.80** | 1.00 | 1% | 1% (vs 6%) | 0.80 (0/1) |
+| debate/prediction/ranking | 52 | 1 | 0.76 | **0.79** | 1.00 | 8% | 3% (vs 4%) | 0.79 (0/1) |
+| secret/object/ritual/superstition | 56 | 1 | 0.59 | **0.76** | 1.00 | 14% | 6% (vs 4%) | 0.76 (0/1) |
+| referee/rules/VAR | 22 | 1 | 0.62 | **0.76** | 1.00 | 14% | 2% (vs 2%) | 0.76 (0/1) |
+| crime/scandal/ban | 10 | 1 | 0.72 | **0.71** | 1.00 | 20% | 2% (vs 1%) | 0.71 (0/1) |
+| fan/kid story | 39 | 1 | 0.34 | **0.50** | 1.00 | 5% | 2% (vs 3%) | 0.50 (0/1) |
+| Messi | 24 | 1 | 0.25 | **0.40** | 1.00 | 8% | 2% (vs 2%) | 0.40 (0/1) |
+| Ronaldo (Cristiano) | 10 | 1 | 0.11 | **0.24** | 1.00 | 0% | 0% (vs 1%) | 0.24 (0/1) |
+
+Top examples (time-adjusted ratio, views, channel):
+- **tragedy/injury/health**: "Why Are ACL Injuries The WORST? 🩼🤕 | #footballshorts #premierleague" (339K, 7.7x, TheAthleticFC_Tifo); "Why Aston Villa's Atmosphere Is So Poor | #footballshorts" (138K, 2.1x, TheAthleticFC_Tifo)
+- **goalkeeper**: "Buffon Creates The Perfect Goalkeeper | #football #soccer" (1.6M, 14.8x, TheAthleticFC_Tifo); "Why Onana is a game-changer goalkeeper for Man Utd" (182K, 11.4x, TheAthleticFC_Tifo)
+- **tactics/analysis/stats**: "Has Pep Guardiola invented a new formation?" (2.2M, 68.8x, TheAthleticFC_Tifo); "Has Pep Guardiola invented a new position?" (1.2M, 31.6x, TheAthleticFC_Tifo)
+- **downfall/flop/almost**: "The Worst Stadium In The Premier League Is… 🏟️❌👀" (466K, 16.1x, TheAthleticFC_Tifo); "What Happened To These 2022 World Cup Stars? | #worldcup #football" (507K, 11.0x, TheAthleticFC_Tifo)
+- **other megastar**: "Why Jobe Bellingham Changed The Name On His Shirt | #efl #premierleague" (831K, 26.0x, TheAthleticFC_Tifo); "Where would David Beckham play now?" (541K, 18.7x, TheAthleticFC_Tifo)
+- **manager/coach**: "Has Pep Guardiola invented a new formation?" (2.2M, 68.8x, TheAthleticFC_Tifo); "Has Pep Guardiola invented a new position?" (1.2M, 31.6x, TheAthleticFC_Tifo)
+- **club history/origins**: "Has Pep Guardiola invented a new formation?" (2.2M, 68.8x, TheAthleticFC_Tifo); "Has Pep Guardiola invented a new position?" (1.2M, 31.6x, TheAthleticFC_Tifo)
+- **money/transfer/contract**: "How Footballers FORCE Transfers 😡" (589K, 26.8x, TheAthleticFC_Tifo); "Why Man Utd are signing Rasmus Hojlund" (490K, 22.3x, TheAthleticFC_Tifo)
+- **awards/Ballon d'Or/trophies**: "Could Michael Olise Win The Ballon d'Or? | #bayern #soccer" (407K, 3.4x, TheAthleticFC_Tifo); "How Does Ballon d'Or Voting Actually Work? 🤨 🏆 | #premierleague #ucl" (91K, 2.6x, TheAthleticFC_Tifo)
+- **names a club**: "How Kai Havertz fits in at Arsenal" (413K, 31.8x, TheAthleticFC_Tifo); "Why Man Utd are signing Rasmus Hojlund" (490K, 22.3x, TheAthleticFC_Tifo)
+- **names a star (Messi/Ronaldo/other)**: "Why Jobe Bellingham Changed The Name On His Shirt | #efl #premierleague" (831K, 26.0x, TheAthleticFC_Tifo); "Where would David Beckham play now?" (541K, 18.7x, TheAthleticFC_Tifo)
+- **family/WAGs**: "Would Vini Jr. Be Worth It For Arsenal? | #arsenal #premierleague" (339K, 2.6x, TheAthleticFC_Tifo); "Why Real Madrid Haven't Offered Vinicius Jr A New Contract | #realmadrid #footba" (139K, 2.2x, TheAthleticFC_Tifo)
+- **underdog/rise**: "The Reason Dominik Szoboszlai Has Tiny Feet!? 😳 | #liverpool #premierleague" (191K, 6.0x, TheAthleticFC_Tifo); "Why Has Nobody Tried To Sign Ivan Toney? | #premierleague #england" (771K, 3.9x, TheAthleticFC_Tifo)
+- **record/number**: "Why is Jude Bellingham suddenly the best player ever?" (388K, 12.9x, TheAthleticFC_Tifo); "Guardiola's Old Assistant To Break English Football Record? 😲🔵  | #manchestercit" (140K, 2.9x, TheAthleticFC_Tifo)
+- **World Cup/national team**: "USA Fans' Message To Iran At The World Cup | #soccer #worldcup" (1.1M, 23.4x, TheAthleticFC_Tifo); "14 Facts About The 2026 World Cup That Sound Fake | #worldcup #football" (643K, 14.3x, TheAthleticFC_Tifo)
+- **funny/banter**: "Was Tottenham's high line genius or stupid? #tottenham #premierleague" (204K, 8.5x, TheAthleticFC_Tifo); "Why This Weird Kick-Off Routine Is Taking Over | #worldcup #football" (198K, 4.1x, TheAthleticFC_Tifo)
+- **conflict/revenge/rivalry**: "Why Man City Struggled Against Chelsea | #ManCity #Chelsea" (423K, 3.5x, TheAthleticFC_Tifo); "Why Arsenal Struggled Against Man Utd | #arsenal #manchesterunited" (451K, 2.6x, TheAthleticFC_Tifo)
+- **debate/prediction/ranking**: "How Arteta's Tactical Tweak Made PSG Better | #arsenal #championsleague" (776K, 16.9x, TheAthleticFC_Tifo); "Football Agents Rank Best & Worst Summer Transfers 👀 | #footballshorts #football" (172K, 4.8x, TheAthleticFC_Tifo)
+- **secret/object/ritual/superstition**: "Fans FORCE Team To Change Club's Kit 💪" (589K, 45.3x, TheAthleticFC_Tifo); "Guess The Player From Their Celebration | #premierleague #championsleague" (4.9M, 29.7x, TheAthleticFC_Tifo)
+- **referee/rules/VAR**: "Why Illegal Streaming Is So Popular | #premierleague #footballnews" (468K, 15.6x, TheAthleticFC_Tifo); "What Is Pep Guardiola's '1000 Pass' Rule? | #mancity #premierleague" (1.4M, 8.7x, TheAthleticFC_Tifo)
+- **crime/scandal/ban**: "Why Some Betting Bans Are Longer Than Others 👀 ❌ | #premierleague #newcastle" (196K, 8.2x, TheAthleticFC_Tifo); "How Sandro Tonali Is Spending His 10-Month Ban | #nufc #premierleague" (531K, 5.3x, TheAthleticFC_Tifo)
+- **fan/kid story**: "Fans FORCE Team To Change Club's Kit 💪" (589K, 45.3x, TheAthleticFC_Tifo); "USA Fans' Message To Iran At The World Cup | #soccer #worldcup" (1.1M, 23.4x, TheAthleticFC_Tifo)
+- **Messi**: "Why Messi's Relationship With Argentina's Squad Is So Special | #messi #worldcup" (320K, 6.0x, TheAthleticFC_Tifo); "4 Messi World Cup Stats That Don't Make Sense | #worldcup #messi" (452K, 4.1x, TheAthleticFC_Tifo)
+- **Ronaldo (Cristiano)**: "Is The Criticism Getting To Cristiano Ronaldo? | #cristianoronaldo #worldcup2026" (81K, 1.5x, TheAthleticFC_Tifo); "Asking Argentina Fans About Cristiano Ronaldo | #portugal #argentina" (97K, 1.4x, TheAthleticFC_Tifo)
+
+## Duration buckets (all 10 channels, Shorts with a known duration)
+
+| Category | n | channels | median views/ch-median | median time-adj | rest time-adj | in top 10% (base 10%) | share of all top-10% (vs share of all) | channel-balanced median (ch>1.0 / ch n>=5) |
+|---|---|---|---|---|---|---|---|---|
+| 120 s+ | 121 | 5 | 1.31 | **1.33** | 0.99 | 12% | 5% (vs 4%) | 1.59 (4/4) |
+| 45-59 s | 804 | 5 | 1.18 | **1.08** | 0.97 | 11% | 27% (vs 25%) | 1.06 (3/4) |
+| 90-119 s | 418 | 5 | 1.13 | **1.04** | 0.99 | 11% | 15% (vs 13%) | 0.94 (1/4) |
+| 60-74 s | 997 | 5 | 0.91 | **0.97** | 1.00 | 10% | 31% (vs 31%) | 0.96 (1/5) |
+| 75-89 s | 696 | 5 | 1.00 | **0.96** | 1.00 | 9% | 19% (vs 22%) | 0.81 (1/4) |
+| 30-44 s | 113 | 4 | 0.25 | **0.61** | 1.00 | 7% | 3% (vs 4%) | 0.59 (0/1) |
+| <30 s | 39 | 1 | 0.23 | **0.25** | 1.00 | 10% | 1% (vs 1%) | 0.25 (0/1) |
+
+Top examples (time-adjusted ratio, views, channel):
+- **120 s+**: "Pep Saw Something" (225K, 112.5x, PedTalksFutbol); "Barça’s New Midfield Is Unfair" (71K, 27.3x, PedTalksFutbol)
+- **45-59 s**: "Has Pep Guardiola invented a new formation?" (2.2M, 68.8x, TheAthleticFC_Tifo); "Can Bayer Leverkusen Solve This Problem?" (818K, 58.4x, AhmedsGoal)
+- **90-119 s**: "WORST Performances in football HISTORY   ep 5" (3.4M, 261.5x, AhmedsGoal); "The Truth About the "Rigged" World Cup Claims #shorts" (82K, 43.2x, PedTalksFutbol)
+- **60-74 s**: "What happened to North Korea after the World Cup?" (9.4M, 671.4x, AhmedsGoal); "He made over $1 MILLION by losing" (5.4M, 385.7x, AhmedsGoal)
+- **75-89 s**: "No STRIKERS from La Masia?  #shorts" (328K, 182.2x, PedTalksFutbol); "Most High Stake Matches Of All Time" (802K, 66.8x, AhmedsGoal)
+- **30-44 s**: "Why Jobe Bellingham Changed The Name On His Shirt | #efl #premierleague" (831K, 26.0x, TheAthleticFC_Tifo); "USA Fans' Message To Iran At The World Cup | #soccer #worldcup" (1.1M, 23.4x, TheAthleticFC_Tifo)
+- **<30 s**: "Buffon Creates The Perfect Goalkeeper | #football #soccer" (1.6M, 14.8x, TheAthleticFC_Tifo); "Morgan Rogers Creates The Perfect Midfielder | #football #soccer" (264K, 5.6x, TheAthleticFC_Tifo)
+
+## Duration buckets: Ahmed's Goal only
+
+| Category | n | channels | median views/ch-median | median time-adj | rest time-adj | in top 10% (base 10%) | share of all top-10% (vs share of all) | channel-balanced median (ch>1.0 / ch n>=5) |
+|---|---|---|---|---|---|---|---|---|
+| 120 s+ | 25 | 1 | 2.18 | **1.82** | 1.00 | 24% | 4% (vs 2%) | 1.82 (1/1) |
+| 90-119 s | 238 | 1 | 1.32 | **1.24** | 0.96 | 13% | 23% (vs 17%) | 1.24 (1/1) |
+| 75-89 s | 517 | 1 | 1.06 | **0.96** | 1.00 | 9% | 33% (vs 38%) | 0.96 (0/1) |
+| 60-74 s | 557 | 1 | 0.82 | **0.94** | 1.02 | 9% | 38% (vs 41%) | 0.94 (0/1) |
+| 45-59 s | 25 | 1 | 0.05 | **0.87** | 1.00 | 8% | 1% (vs 2%) | 0.87 (0/1) |
+
+Top examples (time-adjusted ratio, views, channel):
+- **120 s+**: "What exactly happened between Cristiano Ronaldo and Portugal?" (1.9M, 10.2x, AhmedsGoal); "UNEXPECTED TEAMS THAT ALMOST BECAME CHAMPIONS Episode 10" (2.8M, 7.7x, AhmedsGoal)
+- **90-119 s**: "WORST Performances in football HISTORY   ep 5" (3.4M, 261.5x, AhmedsGoal); "PLAYERS WHO USED TO BE STARS BUT FELL OFF" (10.0M, 34.6x, AhmedsGoal)
+- **75-89 s**: "Most High Stake Matches Of All Time" (802K, 66.8x, AhmedsGoal); "Worst Performances In Football History ep. 2" (473K, 39.4x, AhmedsGoal)
+- **60-74 s**: "What happened to North Korea after the World Cup?" (9.4M, 671.4x, AhmedsGoal); "He made over $1 MILLION by losing" (5.4M, 385.7x, AhmedsGoal)
+- **45-59 s**: "Can Bayer Leverkusen Solve This Problem?" (818K, 58.4x, AhmedsGoal); "Biggest MISTAKES in Football HISTORY - Episode 1" (1.1M, 5.6x, AhmedsGoal)
+
+## Duration buckets: story/facts channels without Ahmed
+
+| Category | n | channels | median views/ch-median | median time-adj | rest time-adj | in top 10% (base 10%) | share of all top-10% (vs share of all) | channel-balanced median (ch>1.0 / ch n>=5) |
+|---|---|---|---|---|---|---|---|---|
+| 120 s+ | 86 | 2 | 1.28 | **1.28** | 0.96 | 10% | 18% (vs 17%) | 1.30 (2/2) |
+| 75-89 s | 118 | 2 | 1.05 | **1.02** | 0.99 | 11% | 26% (vs 23%) | 0.78 (1/2) |
+| 90-119 s | 140 | 2 | 0.86 | **0.95** | 1.00 | 9% | 24% (vs 28%) | 0.93 (0/2) |
+| 60-74 s | 148 | 2 | 0.91 | **0.94** | 1.00 | 9% | 28% (vs 29%) | 0.76 (0/2) |
+| 45-59 s | 13 | 2 | 1.18 | **0.90** | 1.00 | 15% | 4% (vs 3%) | 1.02 (1/1) |
+
+Top examples (time-adjusted ratio, views, channel):
+- **120 s+**: "Pep Saw Something" (225K, 112.5x, PedTalksFutbol); "Barça’s New Midfield Is Unfair" (71K, 27.3x, PedTalksFutbol)
+- **75-89 s**: "No STRIKERS from La Masia?  #shorts" (328K, 182.2x, PedTalksFutbol); "Nico Williams’ Career Took a Turn… Fast #shorts" (91K, 50.6x, PedTalksFutbol)
+- **90-119 s**: "The Truth About the "Rigged" World Cup Claims #shorts" (82K, 43.2x, PedTalksFutbol); "What If Messi Won It Again? #shorts" (19K, 10.0x, PedTalksFutbol)
+- **60-74 s**: "They Sold Him in His PRIME 😶 #shorts" (58K, 32.2x, PedTalksFutbol); "Does Yamal need to be HUMBLE? #lamineyamal #yamal #barcelona #soccer #futbol #fo" (58K, 20.4x, PedTalksFutbol)
+- **45-59 s**: "The Defender Barca Misjudged #shorts" (14K, 6.4x, PedTalksFutbol); "This Player Shocked Everyone 😱 - Gareth Bale" (350K, 2.5x, Offsideman)
+
+## Recency check (views / channel median by age quintile, newest first)
+
+- AhmedsGoal: 0.80 | 1.26 | 1.13 | 1.29 | 0.08  (newest -> oldest)
+- FootyFacts: 2.26 | 0.73 | 1.59 | 1.94 | 0.46  (newest -> oldest)
+- FootballfactsUpdate: 0.44 | 0.44 | 1.62 | 1.42 | 5.13  (newest -> oldest)
+- Offsideman: 0.22 | 0.31 | 1.31 | 1.43 | 1.28  (newest -> oldest)
+- 411Football: 0.29 | 0.84 | 1.06 | 1.86 | 0.91  (newest -> oldest)
+- FootballStoriesEN: 0.57 | 1.40 | 1.00 | 0.93 | 0.87  (newest -> oldest)
+- FootballUntoldStory: 0.38 | 1.30 | 1.44 | 1.09 | 0.27  (newest -> oldest)
+- PedTalksFutbol: 1.32 | 0.84 | 0.86 | 0.77 | 1.25  (newest -> oldest)
+- TheAthleticFC_Tifo: 0.74 | 1.09 | 1.43 | 1.27 | 0.19  (newest -> oldest)
+- StatmanDave: 0.24 | 1.24 | 0.81 | 1.36 | 1.36  (newest -> oldest)

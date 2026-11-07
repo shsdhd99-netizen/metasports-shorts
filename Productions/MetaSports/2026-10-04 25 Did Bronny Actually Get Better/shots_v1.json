@@ -1,0 +1,123 @@
+[
+ {
+  "clip": "c01.mp4",
+  "start": 0,
+  "why": "Bronnys three-point",
+  "kind": "action",
+  "zoom": 0.12
+ },
+ {
+  "clip": "c02.mp4",
+  "start": 1.0,
+  "why": "from twenty-eight",
+  "kind": "action"
+ },
+ {
+  "clip": "c03.mp4",
+  "start": 1.7,
+  "why": "thirty-nine",
+  "kind": "action"
+ },
+ {
+  "clip": "c04.mp4",
+  "start": 2.43,
+  "why": "did he get better",
+  "kind": "action"
+ },
+ {
+  "clip": "c05.mp4",
+  "start": 3.73,
+  "why": "Supporters say yes",
+  "kind": "action"
+ },
+ {
+  "clip": "c10.mp4",
+  "start": 4.69,
+  "why": "forty-one from field",
+  "kind": "action"
+ },
+ {
+  "clip": "c06.mp4",
+  "start": 5.75,
+  "why": "up from thirty-one",
+  "kind": "action"
+ },
+ {
+  "clip": "c09.mp4",
+  "start": 6.43,
+  "why": "nearly three points",
+  "kind": "action"
+ },
+ {
+  "clip": "c07.mp4",
+  "start": 7.54,
+  "why": "over 42 games",
+  "kind": "action"
+ },
+ {
+  "clip": "c08.mp4",
+  "start": 8.65,
+  "why": "But critics",
+  "kind": "action"
+ },
+ {
+  "clip": "c11.mp4",
+  "start": 9.99,
+  "why": "started just one",
+  "kind": "action"
+ },
+ {
+  "clip": "c14.mp4",
+  "start": 11.4,
+  "why": "under nine minutes",
+  "kind": "action"
+ },
+ {
+  "clip": "c15.mp4",
+  "start": 13.0,
+  "why": "turnovers up",
+  "kind": "action"
+ },
+ {
+  "clip": "q1.mp4",
+  "start": 15.0,
+  "why": "quote prove myself",
+  "kind": "quote"
+ },
+ {
+  "clip": "c13.mp4",
+  "start": 17.08,
+  "why": "deal guaranteed",
+  "kind": "face"
+ },
+ {
+  "clip": "c16.mp4",
+  "start": 18.4,
+  "why": "guaranteed",
+  "kind": "action"
+ },
+ {
+  "clip": "q2.mp4",
+  "start": 19.12,
+  "why": "quote ready to play",
+  "kind": "quote"
+ },
+ {
+  "clip": "c02.mp4",
+  "start": 20.44,
+  "why": "So is 39 percent real",
+  "kind": "action"
+ },
+ {
+  "clip": "c05.mp4",
+  "start": 21.8,
+  "why": "forty-two small games",
+  "kind": "action"
+ },
+ {
+  "clip": "c01.mp4",
+  "start": 22.5,
+  "why": "loop",
+  "kind": "action"
+ }
+]

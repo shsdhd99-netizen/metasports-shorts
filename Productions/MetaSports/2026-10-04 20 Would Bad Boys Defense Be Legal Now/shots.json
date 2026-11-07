@@ -1,0 +1,145 @@
+[
+ {
+  "clip": "O5.mp4",
+  "start": 0.0,
+  "why": "hook scuffle",
+  "kind": "action",
+  "zoom": 0.12
+ },
+ {
+  "clip": "O7.mp4",
+  "start": 1.54,
+  "why": "Laimbeer",
+  "kind": "action",
+  "anchor": "Bad Boy Pistons"
+ },
+ {
+  "clip": "O4.mp4",
+  "start": 2.25,
+  "why": "Dumars",
+  "kind": "action",
+  "anchor": "allowed per game"
+ },
+ {
+  "clip": "O3.mp4",
+  "start": 2.83,
+  "why": "Isiah",
+  "kind": "action",
+  "anchor": "in the 1989",
+  "zoom": 0.05
+ },
+ {
+  "clip": "M7.mp4",
+  "start": 4.19,
+  "why": "modern",
+  "kind": "action",
+  "anchor": "Nobody defends"
+ },
+ {
+  "clip": "K3.mp4",
+  "start": 6.04,
+  "why": "Knicks trophy",
+  "kind": "action",
+  "anchor": "Last season's champion"
+ },
+ {
+  "clip": "K1.mp4",
+  "start": 7.13,
+  "why": "Knicks D Bridges",
+  "kind": "action",
+  "anchor": "allowed a hundred"
+ },
+ {
+  "clip": "M1.mp4",
+  "start": 8.12,
+  "why": "refs rule",
+  "kind": "action",
+  "anchor": "Now the NBA",
+  "zoom": 0.06
+ },
+ {
+  "clip": "M6.mp4",
+  "start": 9.41,
+  "why": "grab cutter",
+  "kind": "action",
+  "anchor": "call grabbing"
+ },
+ {
+  "clip": "M2.mp4",
+  "start": 10.24,
+  "why": "bump dribbler",
+  "kind": "action",
+  "anchor": "and bumping"
+ },
+ {
+  "clip": "Q3.mp4",
+  "start": 11.37,
+  "why": "quote NBA narrator",
+  "kind": "quote",
+  "anchor": "he makes"
+ },
+ {
+  "clip": "O1.mp4",
+  "start": 14.37,
+  "why": "pace",
+  "kind": "action",
+  "anchor": "But Detroit played"
+ },
+ {
+  "clip": "C89.mp4",
+  "start": 15.15,
+  "why": "B-Ref 1989 Detroit",
+  "kind": "card",
+  "anchor": "eighty-nine"
+ },
+ {
+  "clip": "C26.mp4",
+  "start": 16.48,
+  "why": "B-Ref 2026 Knicks",
+  "kind": "card",
+  "anchor": "The Knicks, ninety-six"
+ },
+ {
+  "clip": "K2.mp4",
+  "start": 17.58,
+  "why": "per 100",
+  "kind": "action",
+  "anchor": "Per hundred"
+ },
+ {
+  "clip": "C89.mp4",
+  "start": 18.5,
+  "why": "DRtg 104.5",
+  "kind": "card",
+  "anchor": "Detroit allowed"
+ },
+ {
+  "clip": "C26.mp4",
+  "start": 20.08,
+  "why": "DRtg 104.9",
+  "kind": "card",
+  "anchor": "The Knicks, one-oh-four-point-nine"
+ },
+ {
+  "clip": "O7.mp4",
+  "start": 21.48,
+  "why": "1989",
+  "kind": "action",
+  "anchor": "Best defense of"
+ },
+ {
+  "clip": "K4.mp4",
+  "start": 22.77,
+  "why": "2026",
+  "kind": "action",
+  "anchor": "best defense of 2026"
+ },
+ {
+  "clip": "O5.mp4",
+  "start": 24.21,
+  "why": "loop payoff",
+  "kind": "action",
+  "anchor": "Four tenths",
+  "zoom": 0.12
+ }
+]

@@ -1,0 +1,467 @@
+[
+ {
+  "word": "The",
+  "start": 0.0,
+  "end": 0.122
+ },
+ {
+  "word": "Miami",
+  "start": 0.172,
+  "end": 0.447
+ },
+ {
+  "word": "Heat",
+  "start": 0.498,
+  "end": 0.619
+ },
+ {
+  "word": "are",
+  "start": 0.639,
+  "end": 0.731
+ },
+ {
+  "word": "about",
+  "start": 0.751,
+  "end": 0.914
+ },
+ {
+  "word": "to",
+  "start": 0.944,
+  "end": 0.985
+ },
+ {
+  "word": "become",
+  "start": 1.026,
+  "end": 1.229
+ },
+ {
+  "word": "Vice",
+  "start": 1.269,
+  "end": 1.421
+ },
+ {
+  "word": "City.",
+  "start": 1.442,
+  "end": 1.685
+ },
+ {
+  "word": "But",
+  "start": 1.705,
+  "end": 1.837
+ },
+ {
+  "word": "Steven",
+  "start": 1.878,
+  "end": 2.142
+ },
+ {
+  "word": "Adams",
+  "start": 2.182,
+  "end": 2.376
+ },
+ {
+  "word": "says",
+  "start": 2.396,
+  "end": 2.558
+ },
+ {
+  "word": "that",
+  "start": 2.599,
+  "end": 2.72
+ },
+ {
+  "word": "is",
+  "start": 2.761,
+  "end": 2.823
+ },
+ {
+  "word": "just",
+  "start": 2.863,
+  "end": 3.005
+ },
+ {
+  "word": "for",
+  "start": 3.035,
+  "end": 3.116
+ },
+ {
+  "word": "November.",
+  "start": 3.167,
+  "end": 3.604
+ },
+ {
+  "word": "One",
+  "start": 3.634,
+  "end": 3.787
+ },
+ {
+  "word": "night",
+  "start": 3.817,
+  "end": 3.979
+ },
+ {
+  "word": "only,",
+  "start": 4.03,
+  "end": 4.294
+ },
+ {
+  "word": "November",
+  "start": 4.345,
+  "end": 4.68
+ },
+ {
+  "word": "eighteenth,",
+  "start": 4.721,
+  "end": 5.106
+ },
+ {
+  "word": "on",
+  "start": 5.137,
+  "end": 5.228
+ },
+ {
+  "word": "a",
+  "start": 5.259,
+  "end": 5.279
+ },
+ {
+  "word": "court",
+  "start": 5.329,
+  "end": 5.503
+ },
+ {
+  "word": "nobody",
+  "start": 5.553,
+  "end": 5.787
+ },
+ {
+  "word": "has",
+  "start": 5.827,
+  "end": 5.919
+ },
+ {
+  "word": "seen,",
+  "start": 5.959,
+  "end": 6.192
+ },
+ {
+  "word": "in",
+  "start": 6.234,
+  "end": 6.324
+ },
+ {
+  "word": "a",
+  "start": 6.365,
+  "end": 6.386
+ },
+ {
+  "word": "uniform",
+  "start": 6.446,
+  "end": 6.771
+ },
+ {
+  "word": "never",
+  "start": 6.811,
+  "end": 6.985
+ },
+ {
+  "word": "worn,",
+  "start": 7.035,
+  "end": 7.289
+ },
+ {
+  "word": "live",
+  "start": 7.34,
+  "end": 7.512
+ },
+ {
+  "word": "on",
+  "start": 7.542,
+  "end": 7.604
+ },
+ {
+  "word": "ESPN.",
+  "start": 7.654,
+  "end": 8.132
+ },
+ {
+  "word": "That's",
+  "start": 8.152,
+  "end": 8.344
+ },
+ {
+  "word": "the",
+  "start": 8.385,
+  "end": 8.446
+ },
+ {
+  "word": "night",
+  "start": 8.487,
+  "end": 8.599
+ },
+ {
+  "word": "before",
+  "start": 8.628,
+  "end": 8.832
+ },
+ {
+  "word": "Grand",
+  "start": 8.872,
+  "end": 9.025
+ },
+ {
+  "word": "Theft",
+  "start": 9.055,
+  "end": 9.218
+ },
+ {
+  "word": "Auto",
+  "start": 9.248,
+  "end": 9.401
+ },
+ {
+  "word": "six",
+  "start": 9.451,
+  "end": 9.593
+ },
+ {
+  "word": "comes",
+  "start": 9.644,
+  "end": 9.806
+ },
+ {
+  "word": "out.",
+  "start": 9.847,
+  "end": 10.04
+ },
+ {
+  "word": "And",
+  "start": 10.06,
+  "end": 10.172
+ },
+ {
+  "word": "one",
+  "start": 10.222,
+  "end": 10.355
+ },
+ {
+  "word": "Rockets",
+  "start": 10.385,
+  "end": 10.639
+ },
+ {
+  "word": "center",
+  "start": 10.659,
+  "end": 10.852
+ },
+ {
+  "word": "joked",
+  "start": 10.903,
+  "end": 11.096
+ },
+ {
+  "word": "about",
+  "start": 11.126,
+  "end": 11.288
+ },
+ {
+  "word": "exactly",
+  "start": 11.329,
+  "end": 11.654
+ },
+ {
+  "word": "this.",
+  "start": 11.705,
+  "end": 12.222
+ },
+ {
+  "word": "look",
+  "start": 12.348,
+  "end": 12.448
+ },
+ {
+  "word": "at",
+  "start": 12.488,
+  "end": 12.628
+ },
+ {
+  "word": "all",
+  "start": 13.088,
+  "end": 13.188
+ },
+ {
+  "word": "the",
+  "start": 13.228,
+  "end": 13.308
+ },
+ {
+  "word": "leagues,",
+  "start": 13.368,
+  "end": 13.688
+ },
+ {
+  "word": "and",
+  "start": 13.908,
+  "end": 14.008
+ },
+ {
+  "word": "watch",
+  "start": 14.048,
+  "end": 14.228
+ },
+ {
+  "word": "them",
+  "start": 14.248,
+  "end": 14.388
+ },
+ {
+  "word": "plummet,",
+  "start": 14.448,
+  "end": 14.748
+ },
+ {
+  "word": "mate.",
+  "start": 14.808,
+  "end": 14.988
+ },
+ {
+  "word": "That",
+  "start": 15.238,
+  "end": 15.399
+ },
+ {
+  "word": "is",
+  "start": 15.434,
+  "end": 15.497
+ },
+ {
+  "word": "Rockets",
+  "start": 15.55,
+  "end": 15.792
+ },
+ {
+  "word": "center",
+  "start": 15.809,
+  "end": 16.024
+ },
+ {
+  "word": "Steven",
+  "start": 16.068,
+  "end": 16.291
+ },
+ {
+  "word": "Adams",
+  "start": 16.327,
+  "end": 16.514
+ },
+ {
+  "word": "at",
+  "start": 16.541,
+  "end": 16.595
+ },
+ {
+  "word": "media",
+  "start": 16.64,
+  "end": 16.854
+ },
+ {
+  "word": "day.",
+  "start": 16.898,
+  "end": 17.238
+ },
+ {
+  "word": "The",
+  "start": 17.361,
+  "end": 17.596
+ },
+ {
+  "word": "coaching",
+  "start": 17.596,
+  "end": 17.832
+ },
+ {
+  "word": "and",
+  "start": 17.832,
+  "end": 18.067
+ },
+ {
+  "word": "scouts",
+  "start": 18.067,
+  "end": 18.303
+ },
+ {
+  "word": "are",
+  "start": 18.303,
+  "end": 18.538
+ },
+ {
+  "word": "gonna",
+  "start": 18.538,
+  "end": 18.774
+ },
+ {
+  "word": "be",
+  "start": 18.774,
+  "end": 19.009
+ },
+ {
+  "word": "horrendous,",
+  "start": 19.009,
+  "end": 19.245
+ },
+ {
+  "word": "mate.",
+  "start": 19.245,
+  "end": 19.481
+ },
+ {
+  "word": "He",
+  "start": 19.711,
+  "end": 19.826
+ },
+ {
+  "word": "says",
+  "start": 19.874,
+  "end": 20.018
+ },
+ {
+  "word": "it",
+  "start": 20.056,
+  "end": 20.104
+ },
+ {
+  "word": "bounces",
+  "start": 20.142,
+  "end": 20.391
+ },
+ {
+  "word": "back",
+  "start": 20.429,
+  "end": 20.573
+ },
+ {
+  "word": "in",
+  "start": 20.621,
+  "end": 20.669
+ },
+ {
+  "word": "December.",
+  "start": 20.707,
+  "end": 21.071
+ },
+ {
+  "word": "Just",
+  "start": 21.119,
+  "end": 21.301
+ },
+ {
+  "word": "for",
+  "start": 21.329,
+  "end": 21.416
+ },
+ {
+  "word": "November.",
+  "start": 21.464,
+  "end": 21.933
+ }
+]

@@ -1,0 +1,249 @@
+{
+ "length_s": 72.5,
+ "topic": "Supercomputer prediction of the UEFA Champions League winner for the upcoming season.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "Who did the Super Computer predict to win this year's CHAMPIONS LEAGUE",
+  "first_frame": "A soccer player sliding on the grass during a match with text overlay 'Who did the Super Computer predict'",
+  "on_screen_text_0_3s": "Who did the Super Computer predict To win this year's CHAMPIONS LEAGUE",
+  "shots_in_first_3s": 2
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 1.75,
+   "shows": "Soccer player sliding tackle on the pitch",
+   "kind": "action"
+  },
+  {
+   "start_s": 1.75,
+   "end_s": 3.5,
+   "shows": "Soccer player celebrating holding a trophy",
+   "kind": "action"
+  },
+  {
+   "start_s": 3.5,
+   "end_s": 6.0,
+   "shows": "Referee placing a Champions League ball on its stand",
+   "kind": "action"
+  },
+  {
+   "start_s": 6.0,
+   "end_s": 8.0,
+   "shows": "Arsenal player walking on the pitch",
+   "kind": "face"
+  },
+  {
+   "start_s": 8.0,
+   "end_s": 10.75,
+   "shows": "Opta stats perform logo",
+   "kind": "text_card"
+  },
+  {
+   "start_s": 10.75,
+   "end_s": 13.0,
+   "shows": "Matrix digital rain animation",
+   "kind": "stock"
+  },
+  {
+   "start_s": 13.0,
+   "end_s": 14.75,
+   "shows": "Simulation line graph on green background",
+   "kind": "other"
+  },
+  {
+   "start_s": 14.75,
+   "end_s": 16.75,
+   "shows": "Crowd celebrating in stadium",
+   "kind": "other"
+  },
+  {
+   "start_s": 16.75,
+   "end_s": 19.25,
+   "shows": "Referee and players applauding in line",
+   "kind": "action"
+  },
+  {
+   "start_s": 19.25,
+   "end_s": 21.75,
+   "shows": "Zinedine Zidane holding the Champions League trophy",
+   "kind": "face"
+  },
+  {
+   "start_s": 21.75,
+   "end_s": 24.75,
+   "shows": "Paris Saint-Germain logo on background",
+   "kind": "still"
+  },
+  {
+   "start_s": 24.75,
+   "end_s": 28.0,
+   "shows": "PSG players celebrating with trophy",
+   "kind": "action"
+  },
+  {
+   "start_s": 28.0,
+   "end_s": 30.75,
+   "shows": "View from stands of a soccer match goal",
+   "kind": "other"
+  },
+  {
+   "start_s": 30.75,
+   "end_s": 32.75,
+   "shows": "Opta probability table showing PSG fifth",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 32.75,
+   "end_s": 36.0,
+   "shows": "PSG players standing on the pitch",
+   "kind": "face"
+  },
+  {
+   "start_s": 36.0,
+   "end_s": 38.0,
+   "shows": "Ousmane Dembele looking serious",
+   "kind": "face"
+  },
+  {
+   "start_s": 38.0,
+   "end_s": 39.0,
+   "shows": "Steve Harvey holding a card looking confused",
+   "kind": "reaction_shot"
+  },
+  {
+   "start_s": 39.0,
+   "end_s": 42.0,
+   "shows": "PSG player praying on the pitch",
+   "kind": "face"
+  },
+  {
+   "start_s": 42.0,
+   "end_s": 43.75,
+   "shows": "Bayern Munich logo",
+   "kind": "still"
+  },
+  {
+   "start_s": 43.75,
+   "end_s": 47.25,
+   "shows": "Bayern Munich player celebrating a goal",
+   "kind": "action"
+  },
+  {
+   "start_s": 47.25,
+   "end_s": 51.5,
+   "shows": "Manchester City logo and Opta stats table",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 51.5,
+   "end_s": 54.75,
+   "shows": "Erling Haaland celebrating in blue jersey",
+   "kind": "action"
+  },
+  {
+   "start_s": 54.75,
+   "end_s": 58.0,
+   "shows": "Jamal Musiala celebrating in red jersey",
+   "kind": "action"
+  },
+  {
+   "start_s": 58.0,
+   "end_s": 62.0,
+   "shows": "Arsenal player looking disappointed",
+   "kind": "face"
+  },
+  {
+   "start_s": 62.0,
+   "end_s": 63.75,
+   "shows": "Arsenal goalkeeper walking",
+   "kind": "face"
+  },
+  {
+   "start_s": 63.75,
+   "end_s": 66.25,
+   "shows": "Opta table showing Arsenal ranked #1",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 66.25,
+   "end_s": 68.75,
+   "shows": "Arsenal player jumping over advertising board",
+   "kind": "action"
+  },
+  {
+   "start_s": 68.75,
+   "end_s": 71.5,
+   "shows": "Zinedine Zidane holding the Champions League trophy",
+   "kind": "face"
+  },
+  {
+   "start_s": 71.5,
+   "end_s": 72.5,
+   "shows": "Arsenal players lifting trophy",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 29,
+ "average_shot_s": 2.5,
+ "longest_shot_s": 3.75,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 175,
+  "tone": "fast-paced, analytical, engaging sports commentary",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "upbeat electronic tension building background beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "sentence",
+  "position": "middle",
+  "colours": "white",
+  "highlight_style": "none"
+ },
+ "text_overlays": [],
+ "cards_or_graphics": 5,
+ "framing": "crop",
+ "ending": {
+  "last_words": "season is Arsenal.",
+  "last_frame": "Arsenal players lifting a trophy together",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "Who did the Super Computer predict to win this year's CHAMPIONS LEAGUE? So this season's Champions League kicks off on September eighth, and before a single ball gets kicked, the data company Opta already ran the entire tournament through their supercomputer ten thousand times. Every simulation played out fully, right through to the final in Madrid this June. But the team sitting at the top of those results is a team that would actually make history if the computer is right. Paris Saint-Germain are the defending champions who've won it two years straight, and just months ago they beat Arsenal in the final on penalties, so you'd assume a team like that would be the clear favourite. Instead, the supercomputer placed them fifth, giving them only a 7.1 percent chance of a third title in a row. But the margins of the top teams is actually razor thin, and if you're enjoying the video so far, please hit the follow button. Bayern Munich landed in second by winning the whole thing in 19.4 percent of the simulations, while Manchester City sat third as the only other side given more than a 10 percent shot. That leaves a massive drop between the top few clubs and the rest of the field. The strange thing is that the team edging Bayern out for first place has never won this trophy across its entire history. They came painfully close last year and lost that final on penalties, and the supercomputer still made them its number one pick, winning in 20.9 percent of every simulation. The club predicted to finally lift the Champions League this season is Arsenal.",
+ "retention_tricks": [
+  "pacing with rapid shot changes",
+  "ranking reveal structure",
+  "visual data tables",
+  "mid-video subscription CTA with emotional character reaction",
+  "contrasting past defeat with current prediction"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": true,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "Clear ranking countdown structure builds curiosity",
+  "Use of trusted data analytics from Opta adds credibility",
+  "High-energy pacing and seamless B-roll matching the narration"
+ ],
+ "_meta": {
+  "source": "fuZShJr0aSk",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

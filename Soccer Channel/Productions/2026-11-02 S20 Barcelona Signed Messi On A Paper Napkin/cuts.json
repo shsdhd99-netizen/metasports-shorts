@@ -1,0 +1,423 @@
+{
+ "sources": {
+  "C": "src/clasico09_hl.mp4",
+  "T": "src/1424315098378739713.mp4",
+  "K": "src/mk_6652.mp4",
+  "M20834": "src/mk_20834.mp4",
+  "M33734": "src/mk_33734.mp4",
+  "M45703": "src/mk_45703.mp4",
+  "M9585": "src/mk_9585.mp4",
+  "M47517": "src/mk_47517.mp4",
+  "M738": "src/mk_738.mp4",
+  "M14190": "src/mk_14190.mp4",
+  "M23115": "src/mk_23115.mp4",
+  "M4262": "src/mk_4262.mp4",
+  "M48514": "src/mk_48514.mp4",
+  "M29050": "src/mk_29050.mp4",
+  "M30312": "src/mk_30312.mp4",
+  "M32457": "src/mk_32457.mp4",
+  "M877": "src/mk_877.mp4",
+  "M241": "src/mk_241.mp4",
+  "M16139": "src/mk_16139.mp4",
+  "M47687": "src/mk_47687.mp4",
+  "M47005": "src/mk_47005.mp4",
+  "M46820": "src/mk_46820.mp4",
+  "M24061": "src/mk_24061.mp4"
+ },
+ "shots": [
+  {
+   "clip": "N01",
+   "still": "assets/napkin_f1.jpg",
+   "kind": "action",
+   "why": "Frame 1: RECREATION of the napkin (the real one is a licensed photo, not used); wording per NPR/90min",
+   "len": 2.44
+  },
+  {
+   "clip": "N02",
+   "src": "C",
+   "at": 2.0,
+   "x": 0.7,
+   "kind": "face",
+   "why": "Messi, Barcelona no. 10, 2009 Clasico (archive.org La Liga highlights); illustrative, not 2000",
+   "anchor": "Back in",
+   "len": 2.41
+  },
+  {
+   "clip": "N03",
+   "src": "K",
+   "at": 3.0,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Stock (Mixkit 6652): kids' football; illustrative, not Messi",
+   "anchor": "small kid",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "len": 2.27
+  },
+  {
+   "clip": "N04",
+   "src": "M20834",
+   "at": 0.5,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Stock syringe (growth hormone line)",
+   "anchor": "He needed",
+   "len": 1.73
+  },
+  {
+   "clip": "N05",
+   "src": "M33734",
+   "at": 0.8,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Stock: gloved hands with a vial (treatment)",
+   "anchor": "Reportedly",
+   "len": 1.17
+  },
+  {
+   "clip": "N06",
+   "src": "M45703",
+   "at": 0.5,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Stock: bills through a counter ($1,000 a month)",
+   "anchor": "a thousand",
+   "len": 1.41
+  },
+  {
+   "clip": "N07",
+   "src": "M9585",
+   "at": 3.0,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Stock: fans behind a fence (the two Argentine clubs; illustrative)",
+   "anchor": "Newell's",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "len": 2.37
+  },
+  {
+   "clip": "N08",
+   "src": "M47517",
+   "at": 0.5,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Stock: stacks of cash (could not afford it)",
+   "anchor": "Neither",
+   "len": 1.1
+  },
+  {
+   "clip": "N09",
+   "src": "C",
+   "at": 47.5,
+   "x": 0.5,
+   "kind": "face",
+   "why": "Messi dribbling for Barcelona, 2009 Clasico (illustrative)",
+   "anchor": "So Messi",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "len": 1.94
+  },
+  {
+   "clip": "N11",
+   "src": "M14190",
+   "at": 0.0,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Stock: empty stadium (the slow club)",
+   "anchor": "But",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "len": 1.3
+  },
+  {
+   "clip": "N12",
+   "src": "M23115",
+   "at": 0.5,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Stock: two people at a paper (men who brought him)",
+   "anchor": "According",
+   "len": 1.77
+  },
+  {
+   "clip": "N13",
+   "src": "C",
+   "at": 65.0,
+   "x": 0.5,
+   "kind": "face",
+   "why": "Messi celebrating in a Barcelona shirt, 2009 (illustrative)",
+   "anchor": "Barcelona said",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "len": 1.09
+  },
+  {
+   "clip": "N14",
+   "src": "M4262",
+   "at": 0.5,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Stock: aerial stadium (years of waiting)",
+   "anchor": "would be",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "len": 2.67
+  },
+  {
+   "clip": "N15",
+   "src": "M48514",
+   "at": 1.0,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Stock: lone figure on a path, aerial (waiting); illustrative",
+   "anchor": "His father",
+   "len": 2.16
+  },
+  {
+   "clip": "N16",
+   "src": "M29050",
+   "at": 1.0,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Stock: restaurant (the lunch)",
+   "anchor": "So on",
+   "len": 1.46
+  },
+  {
+   "clip": "N17",
+   "src": "M30312",
+   "at": 0.0,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Stock: stadium (Barcelona; Rexach not shown, no footage)",
+   "anchor": "Barcelona's",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "len": 1.6
+  },
+  {
+   "clip": "N18",
+   "src": "M32457",
+   "at": 1.0,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Stock: meal on a table",
+   "anchor": "sat down",
+   "len": 1.14
+  },
+  {
+   "clip": "N19",
+   "src": "M877",
+   "at": 1.0,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Stock: tennis player (the tennis club)",
+   "anchor": "tennis",
+   "len": 1.54
+  },
+  {
+   "clip": "N20",
+   "src": "M241",
+   "at": 1.0,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Stock: hands over a paper at a table",
+   "anchor": "behind",
+   "len": 1.06
+  },
+  {
+   "clip": "N21",
+   "src": "M16139",
+   "at": 1.0,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Stock: hand writing by lamp (he wrote the deal)",
+   "anchor": "And",
+   "len": 2.09
+  },
+  {
+   "clip": "N22",
+   "still": "assets/napkin_f2.jpg",
+   "kind": "action",
+   "why": "Recreation, key words circled (wording per NPR/90min)",
+   "anchor": "He agreed",
+   "len": 3.5
+  },
+  {
+   "clip": "N23",
+   "src": "C",
+   "at": 114.0,
+   "x": 0.5,
+   "kind": "face",
+   "why": "Messi smiling with Eto'o, Barcelona, 2009 (illustrative)",
+   "anchor": "Lionel",
+   "len": 1.11
+  },
+  {
+   "clip": "N24",
+   "src": "K",
+   "at": 9.0,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Stock kids' football (Messi at thirteen; illustrative, not Messi)",
+   "anchor": "Messi was",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "len": 1.43
+  },
+  {
+   "clip": "N25",
+   "src": "M23115",
+   "at": 5.0,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Stock: signing a paper (formal contract)",
+   "anchor": "A formal",
+   "len": 1.44
+  },
+  {
+   "clip": "N26",
+   "src": "C",
+   "at": 61.0,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Messi dribbling, Barcelona (2009)",
+   "anchor": "He became",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "len": 1.19
+  },
+  {
+   "clip": "N27",
+   "src": "C",
+   "at": 112.0,
+   "x": 0.5,
+   "kind": "face",
+   "why": "Messi celebrates with his shirt over his face, Barcelona 2009 (illustrative)",
+   "anchor": "all-time",
+   "len": 1.35
+  },
+  {
+   "clip": "N28",
+   "src": "C",
+   "at": 55.0,
+   "x": 0.5,
+   "kind": "face",
+   "why": "Messi running with the ball, Barcelona 2009",
+   "anchor": "with six",
+   "overlay": [
+    {
+     "text": "672 goals",
+     "size": 150,
+     "color": "orange",
+     "y": 330,
+     "start": 0.0,
+     "end": 1.8
+    }
+   ],
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "len": 1.94
+  },
+  {
+   "clip": "N29",
+   "src": "M9585",
+   "at": 12.0,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Stock: fans behind a fence (2021; illustrative)",
+   "anchor": "Then",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "len": 1.69
+  },
+  {
+   "clip": "N30",
+   "src": "M47687",
+   "at": 0.5,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Stock: pen on paper and a gavel (agreement)",
+   "anchor": "Barcelona said",
+   "len": 2.33
+  },
+  {
+   "clip": "N31",
+   "src": "M47005",
+   "at": 0.0,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Stock: piles of cash (financial obstacles)",
+   "anchor": "But financial",
+   "len": 2.48
+  },
+  {
+   "clip": "N32",
+   "src": "T",
+   "at": 0.0,
+   "x": 0.5,
+   "kind": "face",
+   "why": "Messi in tears at the Aug 8 2021 farewell press conference (@footballontnt on X)",
+   "anchor": "Messi cried",
+   "len": 1.64
+  },
+  {
+   "clip": "N33",
+   "src": "T",
+   "at": 12.0,
+   "x": 0.5,
+   "kind": "face",
+   "why": "Messi at the farewell press conference (same post)",
+   "anchor": "He said",
+   "len": 1.65
+  },
+  {
+   "clip": "N34",
+   "src": "M46820",
+   "at": 0.5,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Stock: gavel and a book (auction)",
+   "anchor": "Three years",
+   "len": 2.18
+  },
+  {
+   "clip": "N35",
+   "still": "assets/napkin_f3.jpg",
+   "kind": "action",
+   "why": "Recreation with the sold price (NPR/Bonhams)",
+   "anchor": "for seven",
+   "len": 2.32
+  },
+  {
+   "clip": "N36",
+   "src": "M24061",
+   "at": 0.5,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Stock: hands counting bills (almost a million dollars)",
+   "anchor": "Almost",
+   "len": 1.6
+  },
+  {
+   "clip": "N37",
+   "src": "T",
+   "at": 20.0,
+   "x": 0.5,
+   "kind": "face",
+   "why": "Messi head down at the press conference (same post)",
+   "anchor": "Money problems",
+   "len": 2.22
+  },
+  {
+   "clip": "N38",
+   "still": "assets/napkin_f1.jpg",
+   "kind": "action",
+   "why": "Recreation again as the payoff picture",
+   "anchor": "But the",
+   "replay": true,
+   "len": 2.89
+  }
+ ]
+}

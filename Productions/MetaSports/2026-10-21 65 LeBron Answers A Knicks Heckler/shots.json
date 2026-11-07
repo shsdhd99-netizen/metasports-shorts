@@ -1,0 +1,93 @@
+[
+ {
+  "clip": "S01.mp4",
+  "kind": "face",
+  "why": "LeBron James (PHILA) talking toward the stands, 2nd quarter 54.5, Sixers 50 Knicks 56 on the scorebug (ClutchPoints post of the NBC broadcast)",
+  "start": 0.0,
+  "zoom": 0.05
+ },
+ {
+  "clip": "S02.mp4",
+  "kind": "action",
+  "why": "Fan video from the MSG stands: LeBron (#23 PHILA) facing the fans (BrickCenter post)",
+  "anchor": "in Madison Square",
+  "start": 1.77
+ },
+ {
+  "clip": "S03.mp4",
+  "kind": "face",
+  "why": "LeBron talking, same NBC close camera (ClutchPoints post)",
+  "anchor": "Ain't nothing",
+  "start": 2.88
+ },
+ {
+  "clip": "S04.mp4",
+  "kind": "action",
+  "why": "Fan video: LeBron gesturing at the fans (BrickCenter post)",
+  "anchor": "I'm not from",
+  "start": 4.66
+ },
+ {
+  "clip": "S05.mp4",
+  "kind": "face",
+  "why": "LeBron talking, NBC close camera, second shot (ClutchPoints post)",
+  "anchor": "I'm from Ohio",
+  "start": 5.94
+ },
+ {
+  "clip": "S06o.mp4",
+  "kind": "action",
+  "why": "Fan video: LeBron (#23 JAMES) turning back to the game. Words: DOWN 6, SIXERS 50, KNICKS 56",
+  "anchor": "When he said",
+  "start": 7.4
+ },
+ {
+  "clip": "S07.mp4",
+  "kind": "action",
+  "why": "Sixers fast break, 3rd quarter 8:30, Knicks 63-58 (76ers post of the NBC broadcast)",
+  "anchor": "Early in the third",
+  "start": 9.29
+ },
+ {
+  "clip": "S08.mp4",
+  "kind": "action",
+  "why": "Replay: LeBron (#23) finishes the alley-oop (ESPN clip of the NBC broadcast)",
+  "anchor": "scored three",
+  "start": 10.35
+ },
+ {
+  "clip": "S09o.mp4",
+  "kind": "action",
+  "why": "LeBron's running layup, 3rd quarter 7:12-7:10 (NBA post). Words: 3 STRAIGHT LEBRON BUCKETS IN 73 SECONDS",
+  "anchor": "in 73",
+  "start": 11.57
+ },
+ {
+  "clip": "S10o.mp4",
+  "kind": "face",
+  "why": "LeBron (#23 PHILA) close-up, scorebug 64-63 at 7:07 (NBA post). Words: FIRST LEAD SINCE THE 1ST QUARTER",
+  "anchor": "That gave Philly",
+  "start": 12.75
+ },
+ {
+  "clip": "S11.mp4",
+  "kind": "action",
+  "why": "Jaylen Brown's three at the 3rd-quarter buzzer, 00.2 left (ESPN clip)",
+  "anchor": "Then he set up",
+  "start": 14.96
+ },
+ {
+  "clip": "S12o.mp4",
+  "kind": "face",
+  "why": "LeBron's postgame interview at MSG (NBA post). Words: FINAL, SIXERS 106, KNICKS 100",
+  "anchor": "Sixers 106",
+  "start": 16.75
+ },
+ {
+  "clip": "S01.mp4",
+  "kind": "face",
+  "why": "Loop: back to the opening close-up",
+  "anchor": "Ain't nothing soft in the Midwest.",
+  "start": 19.49
+ }
+]

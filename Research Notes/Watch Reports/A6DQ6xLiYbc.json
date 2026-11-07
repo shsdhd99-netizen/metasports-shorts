@@ -1,0 +1,139 @@
+{
+ "length_s": 22.0,
+ "topic": "Why NBA players stopped shooting underhand free throws despite their high accuracy.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "Ever wonder why underhand free throws disappeared?",
+  "first_frame": "A basketball player standing at the free-throw line with a red circle around the ball.",
+  "on_screen_text_0_3s": "EVER WONDER WHY UNDERHAND FREE THROWS DISAPPEARED?",
+  "shots_in_first_3s": 2
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 2.1,
+   "shows": "Basketball player at the free-throw line preparing to shoot underhand",
+   "kind": "action"
+  },
+  {
+   "start_s": 2.1,
+   "end_s": 4.8,
+   "shows": "Rick Barry shooting an underhand free throw in historical footage",
+   "kind": "archival"
+  },
+  {
+   "start_s": 4.8,
+   "end_s": 6.2,
+   "shows": "Historical NBA players watching from the court",
+   "kind": "archival"
+  },
+  {
+   "start_s": 6.2,
+   "end_s": 8.0,
+   "shows": "Wilt Chamberlain practicing underhand free throws",
+   "kind": "archival"
+  },
+  {
+   "start_s": 8.0,
+   "end_s": 11.2,
+   "shows": "Wilt Chamberlain shooting underhand free throws in a game",
+   "kind": "archival"
+  },
+  {
+   "start_s": 11.2,
+   "end_s": 13.0,
+   "shows": "Wilt Chamberlain shooting and making an underhand free throw",
+   "kind": "archival"
+  },
+  {
+   "start_s": 13.0,
+   "end_s": 14.9,
+   "shows": "Wilt Chamberlain walking on the court",
+   "kind": "archival"
+  },
+  {
+   "start_s": 14.9,
+   "end_s": 16.7,
+   "shows": "Rick Barry sitting and talking in an interview",
+   "kind": "face"
+  },
+  {
+   "start_s": 16.7,
+   "end_s": 18.5,
+   "shows": "Shaquille O'Neal shooting a traditional free throw",
+   "kind": "action"
+  },
+  {
+   "start_s": 18.5,
+   "end_s": 20.2,
+   "shows": "Shaquille O'Neal missing a free throw",
+   "kind": "action"
+  },
+  {
+   "start_s": 20.2,
+   "end_s": 22.0,
+   "shows": "Shaquille O'Neal smiling and dancing in yellow jersey",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 11,
+ "average_shot_s": 2.0,
+ "longest_shot_s": 3.2,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 210,
+  "tone": "informative and engaging",
+  "original_audio_under_voice": true
+ },
+ "music": {
+  "present": true,
+  "style": "upbeat rhythmic background beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 2,
+  "case": "ALL CAPS",
+  "position": "middle",
+  "colours": "white and red highlight",
+  "highlight_style": "word by word red highlighting"
+ },
+ "text_overlays": [],
+ "cards_or_graphics": 0,
+ "framing": "crop",
+ "ending": {
+  "last_words": "to shoot underhand.",
+  "last_frame": "Shaquille O'Neal smiling in his yellow jersey on the court.",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "Ever wonder why underhand free throws disappeared? Rick Barry shot them underhand and hit 91%. Almost nobody copied it. He even convinced Wilt Chamberlain to try it, and Wilt shot about 11 percentage points better. Then Wilt stopped the next year, not because it stopped working, he said it made him look like a girl. Rick tried convincing Shaq too, one of the worst free throw shooters ever. Shaq said he'd rather miss every shot because he was too cool to shoot underhand.",
+ "retention_tricks": [
+  "open loops",
+  "historical archive footage",
+  "dynamic captions"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "Compelling historical statistics contrasting player performance.",
+  "Relatable and humorous quotes from NBA legends.",
+  "Fast pacing with smooth archival footage transitions."
+ ],
+ "_meta": {
+  "source": "A6DQ6xLiYbc",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-11-01",
+  "tier": "[S] model-observed, not measured"
+ }
+}

@@ -1,0 +1,39 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Montserrat Black,86,&H00FFFFFF,&H00FFFFFF,&H00000000,&H99000000,0,0,0,0,95,100,1,0,1,6,3,5,70,70,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.53,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}DRAYMOND GREEN
+Dialogue: 0,0:00:00.53,0:00:01.29,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx75\fscy75\t(0,90,\fscx87\fscy87)}HAD A TRIPLE-DOUBLE
+Dialogue: 0,0:00:01.29,0:00:02.18,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx85\fscy85\t(0,90,\fscx99\fscy99)}WITH {\c&H0040E33A&}FOUR{\c&H00FFFFFF&} POINTS.
+Dialogue: 0,0:00:02.18,0:00:03.06,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx83\fscy83\t(0,90,\fscx96\fscy96)}TWELVE REBOUNDS.
+Dialogue: 0,0:00:03.06,0:00:03.84,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}{\c&H0040E33A&}TEN{\c&H00FFFFFF&} ASSISTS.
+Dialogue: 0,0:00:03.84,0:00:04.70,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TEN STEALS.
+Dialogue: 0,0:00:04.70,0:00:05.40,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx78\fscy78\t(0,90,\fscx90\fscy90)}THAT WAS FEBRUARY
+Dialogue: 0,0:00:05.40,0:00:05.65,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TENTH,
+Dialogue: 0,0:00:05.65,0:00:06.49,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}{\c&H0040E33A&}2017,{\c&H00FFFFFF&}
+Dialogue: 0,0:00:06.49,0:00:07.24,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN MEMPHIS.
+Dialogue: 0,0:00:07.24,0:00:07.70,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NO PLAYER
+Dialogue: 0,0:00:07.70,0:00:08.09,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN NBA
+Dialogue: 0,0:00:08.09,0:00:08.73,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HISTORY HAD DONE
+Dialogue: 0,0:00:08.73,0:00:09.09,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IT WITHOUT
+Dialogue: 0,0:00:09.09,0:00:09.73,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}POINTS AS {\c&H0040E33A&}ONE{\c&H00FFFFFF&}
+Dialogue: 0,0:00:09.73,0:00:10.34,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}OF THE THREE.
+Dialogue: 0,0:00:10.34,0:00:10.74,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HIS {\c&H0040E33A&}TEN{\c&H00FFFFFF&}
+Dialogue: 0,0:00:10.74,0:00:11.34,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}STEALS WERE ALSO
+Dialogue: 0,0:00:11.34,0:00:12.06,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx76\fscy76\t(0,90,\fscx88\fscy88)}A WARRIORS RECORD.
+Dialogue: 0,0:00:12.06,0:00:12.42,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE WARRIORS
+Dialogue: 0,0:00:12.42,0:00:13.21,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WON BY {\c&H0040E33A&}FIFTEEN.{\c&H00FFFFFF&}
+Dialogue: 0,0:00:13.21,0:00:13.65,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HIS BOX
+Dialogue: 0,0:00:13.65,0:00:14.15,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SCORE SAYS
+Dialogue: 0,0:00:14.15,0:00:14.93,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FOUR POINTS.
+Dialogue: 0,0:00:14.93,0:00:15.32,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HIS NIGHT
+Dialogue: 0,0:00:15.32,0:00:16.40,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx78\fscy78\t(0,90,\fscx90\fscy90)}SAYS TRIPLE-DOUBLE.

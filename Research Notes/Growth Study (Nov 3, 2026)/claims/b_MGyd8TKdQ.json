@@ -1,0 +1,100 @@
+[
+  {
+    "claim": "Direct message shares to individuals and total watch time are the top metrics driving algorithmic distribution on Instagram Reels.",
+    "quote": "what do you tell people when they ask you what focus on shares... sending a post to another human... the third metric... watch time",
+    "platform": "Instagram",
+    "type": "algorithm mechanism",
+    "official": true
+  },
+  {
+    "claim": "Instagram evaluates total watch time alongside watch rate, ensuring longer videos are not inherently penalized for lower percentage completion.",
+    "quote": "we definitely don't want to just penalize things because they're longer... what matters more is just the over amount of time watch",
+    "platform": "Instagram",
+    "type": "algorithm mechanism",
+    "official": true
+  },
+  {
+    "claim": "Contrary to creator belief, hashtags do not significantly increase reach on Instagram and are not a primary growth lever.",
+    "quote": "hashtags are no longer a primary way to increase your reach on Instagram... it's just not an important thing for for reach",
+    "platform": "Instagram",
+    "type": "packaging (title, caption, thumbnail, cover)",
+    "official": true
+  },
+  {
+    "claim": "Instagram's algorithm parses video context using keyframe visual analysis (16 to 128+ frames), audio transcription, and captions, prioritizing captions heavily.",
+    "quote": "take key frames from the video... transcribe the audio into text... right now it's disproportionately looking at the caption relative to the video relative to the audio",
+    "platform": "Instagram",
+    "type": "packaging (title, caption, thumbnail, cover)",
+    "official": true
+  },
+  {
+    "claim": "Instagram does not intentionally suppress organic reach to force creators into purchasing advertisements.",
+    "quote": "People think that we suppress reach to get people to buy ads it doesn't make any sense... we are more than happy to grow engagement",
+    "platform": "Instagram",
+    "type": "algorithm mechanism",
+    "official": true
+  },
+  {
+    "claim": "Engaging or replying to DMs right before or after posting does not directly trigger an algorithmic reach boost.",
+    "quote": "does the algorithm reward me for that activity not directly indirectly it could happen... the way the ranking system works is it doesn't know that that's why",
+    "platform": "Instagram",
+    "type": "posting",
+    "official": true
+  },
+  {
+    "claim": "Taking a break from posting for over a month causes a drop in initial post performance due to audience data signal decay rather than an account penalty.",
+    "quote": "once you get to about a month... you probably realized most of that unfortunate loss in that first month or two... it's a byproduct of how we build things",
+    "platform": "Instagram",
+    "type": "posting",
+    "official": true
+  },
+  {
+    "claim": "Instagram actively prioritizes original content creators over aggregator accounts by swapping original posts into recommendation slots.",
+    "quote": "ideally the person who came up with the thing and made the thing gets more views than the person who found your thing",
+    "platform": "Instagram",
+    "type": "growth strategy",
+    "official": true
+  },
+  {
+    "claim": "Instagram never downranks or filters aggressive or borderline content sent to existing followers, restricting recommendation filters strictly to unconnected non-followers.",
+    "quote": "We do not downrank content from people you follow because we think it might be offensive... ever... but if we just show you a post for some Rando... we take more precautions",
+    "platform": "Instagram",
+    "type": "algorithm mechanism",
+    "official": true
+  },
+  {
+    "claim": "Sudden, dramatic single-day reach drops are typically caused by real-world event shifts and seasonality changes rather than major algorithm updates.",
+    "quote": "small changes go out every day... If you see a huge swing in what's going on... it's probably more there was a huge change in the world",
+    "platform": "Instagram",
+    "type": "algorithm mechanism",
+    "official": true
+  },
+  {
+    "claim": "Direct messaging a post 1-on-1 is algorithmically valued relatively equally to sharing a post to Stories due to high recipient intent and notification responses.",
+    "quote": "I think they're valued relatively equally... when you send a message to one person... phone's going to Bing and she's going to open it up",
+    "platform": "Instagram",
+    "type": "algorithm mechanism",
+    "official": true
+  },
+  {
+    "claim": "Using a banned or blocked hashtag will not cause an account strike or penalty; it simply prevents the hashtag from displaying as a hyperlink.",
+    "quote": "it's not a Content violation and basically what will happen is it just won't turn into a link... it's not a strike",
+    "platform": "Instagram",
+    "type": "packaging (title, caption, thumbnail, cover)",
+    "official": true
+  },
+  {
+    "claim": "Smaller niche creators can monetize effectively through Partner Ads, allowing brands to license top-performing content and run targeted ads directly.",
+    "quote": "partner ads allow you to create content as a Creator... can help shift more dollars from the biggest craters to the little ones",
+    "platform": "Instagram",
+    "type": "monetization",
+    "official": true
+  },
+  {
+    "claim": "Unconnected recommendations in the main feed are the primary business vehicle for creators to reach non-followers on Instagram.",
+    "quote": "recommendations was really just an the only viable way to maintain feed... your average crator reaches way more people in feed",
+    "platform": "Instagram",
+    "type": "growth strategy",
+    "official": true
+  }
+]

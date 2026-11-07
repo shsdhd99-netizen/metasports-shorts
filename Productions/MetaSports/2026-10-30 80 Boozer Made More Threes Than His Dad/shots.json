@@ -1,0 +1,57 @@
+[
+ {
+  "clip": "BZ01.mp4",
+  "kind": "action",
+  "why": "Cameron Boozer (#27) in the Grizzlies' white jersey, running at the camera in slow motion: clear from the first frame (NBA on X, Summer League, Jul 11 2026)",
+  "start": 0.0
+ },
+ {
+  "clip": "BZ02.mp4",
+  "kind": "face",
+  "why": "Carlos Boozer in the stands, cheering his son's dunk at Duke (ESPN on X, Nov 5 2025)",
+  "anchor": "His dad is",
+  "start": 2.68
+ },
+ {
+  "clip": "BZ03.mp4",
+  "kind": "action",
+  "why": "Carlos Boozer (#5, BOOZER on his back) celebrating a Jazz playoff win at Houston, 2008 (archive.org: 2008 R1G2 Jazz vs Rockets highlights)",
+  "anchor": "In 861",
+  "start": 5.08
+ },
+ {
+  "clip": "BZ04.mp4",
+  "kind": "action",
+  "why": "Cameron's first three of the night (Q1 8:35, assisted by Cedric Coward), Grizzlies at Blazers, Oct 29 2026 (ESPN game clip)",
+  "anchor": "On Thursday",
+  "start": 8.21
+ },
+ {
+  "clip": "BZ05.mp4",
+  "kind": "action",
+  "why": "Cameron's 26-foot three (Q2 2:22), same game (ESPN game clip)",
+  "anchor": "And that wasn't",
+  "start": 11.45
+ },
+ {
+  "clip": "BZ06.mp4",
+  "kind": "action",
+  "why": "Cameron's pass for Zach Edey's dunk (Q1 11:28), one of his 12 assists (ESPN game clip)",
+  "anchor": "for his first",
+  "start": 14.24
+ },
+ {
+  "clip": "BZ07.mp4",
+  "kind": "action",
+  "why": "Carlos Boozer (#5) with the Jazz bench after the 2008 Game 2 win (archive.org)",
+  "anchor": "His dad had",
+  "start": 16.26
+ },
+ {
+  "clip": "BZ08.mp4",
+  "kind": "face",
+  "why": "Cameron (#27) arms out after his fourth three, Thursday (ESPN game clip)",
+  "anchor": "Cameron needed",
+  "start": 18.42
+ }
+]

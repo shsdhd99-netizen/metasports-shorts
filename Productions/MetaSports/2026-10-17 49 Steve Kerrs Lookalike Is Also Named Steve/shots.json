@@ -1,0 +1,65 @@
+[
+ {
+  "clip": "G1.mp4",
+  "start": 0.0,
+  "kind": "face",
+  "zoom": 0.04
+ },
+ {
+  "clip": "S1.mp4",
+  "anchor": "But his name",
+  "kind": "face",
+  "start": 1.39
+ },
+ {
+  "clip": "G2.mp4",
+  "anchor": "Steve Gillis teaches",
+  "kind": "face",
+  "start": 2.81
+ },
+ {
+  "clip": "G3.mp4",
+  "anchor": "At his first",
+  "kind": "face",
+  "start": 5.16
+ },
+ {
+  "clip": "G4.mp4",
+  "anchor": "the arena put",
+  "kind": "face",
+  "start": 7.02,
+  "zoom": 0.06
+ },
+ {
+  "clip": "G5.mp4",
+  "anchor": "Twice",
+  "kind": "face",
+  "zoom": 0.03,
+  "start": 8.97
+ },
+ {
+  "clip": "K1.mp4",
+  "anchor": "The TV broadcast",
+  "kind": "face",
+  "start": 9.72
+ },
+ {
+  "clip": "K5.mp4",
+  "anchor": "His own sons",
+  "kind": "face",
+  "start": 12.5
+ },
+ {
+  "clip": "K6.mp4",
+  "anchor": "So what did",
+  "kind": "face",
+  "start": 15.74
+ },
+ {
+  "clip": "K4.mp4",
+  "anchor": "I just thought",
+  "kind": "face",
+  "start": 17.58,
+  "zoom": 0.03
+ }
+]

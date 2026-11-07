@@ -1,0 +1,9 @@
+{
+ "prompt": "Instrumental storytelling bed for a 70-second football documentary short told by a narrator, 95 BPM, curious and slightly mysterious mood, soft plucked synth and light pizzicato motif, muted kick, gentle hi-hat ticks, warm sub bass, steady and even from start to end with no big drops, no risers and no silence, sparse midrange so a voice can talk over it. No vocals.",
+ "model": "music_v1",
+ "seconds": 75.0,
+ "mood": "stats",
+ "generated": "2026-10-21",
+ "licence": "ElevenLabs Music Terms, Starter plan: all online/offline commercial use except film, TV, radio, Studio Games; no attribution",
+ "licence_url": "https://elevenlabs.io/music-terms"
+}

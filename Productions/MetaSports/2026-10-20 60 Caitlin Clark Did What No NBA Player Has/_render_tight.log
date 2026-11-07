@@ -1,0 +1,13 @@
+Voice 28.2s -> 16 shots from 16 clips
+Drift not found: using the ffmpeg engine
+  note: shot 4 (S4ao.mp4) is 0.07 s longer than its clip: slowed to fit
+  note: shot 12 (S11o.mp4) is 0.10 s longer than its clip: slowed to fit
+  note: shot 13 (S12ao.mp4) is 0.23 s longer than its clip: slowed to fit
+  note: shot 14 (S12bo.mp4) is 0.10 s longer than its clip: slowed to fit
+  final pass with h264_nvenc failed: [h264_nvenc @ 0x5563e19a1580] Cannot load libcuda.so.1
+[vost#0:0/h264_nvenc @ 0x5563e19a1180] Error while opening encoder - maybe incorrect parameters such as bit_rate, rate, width or height.
+Error while filtering: Operation not permitted
+[out#0/mp4 @ 0x5563e19a0400] Nothing was written into output file, because at least one of its streams received no packets.
+
+  captions burned (metasports) + 4 sound effect(s), voice lifted +11.1 dB to -14 LUFS, effects mixed under it
+Done: /home/user/metasports-shorts/Productions/MetaSports/2026-10-20 60 Caitlin Clark Did What No NBA Player Has/final.mp4 (28.2s)

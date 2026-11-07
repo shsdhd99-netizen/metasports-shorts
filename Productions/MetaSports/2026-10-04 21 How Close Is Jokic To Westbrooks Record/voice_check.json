@@ -1,0 +1,25 @@
+{
+ "verdict": "PASS",
+ "wpm": 224,
+ "issues": [],
+ "notes": [
+  " 0.00s  dragging sentence (152 wpm): Nikola Jokic has 198 triple-doubles.",
+  " 5.35s  dragging sentence (142 wpm): Westbrook needed 1,301 games.",
+  " 7.07s  dragging sentence (167 wpm): Jokic has played 810."
+ ],
+ "heard": "Nikola Jokic has 198 triple doubles. Russell Westbrook retired with the record 209. 11 ties it, 12 breaks it. Westbrook needed 1 ,301 games. Jokic has played 810. Last season he had 34 triple doubles in just 65 games, about one every two. At that pace, 12 takes about 23 games. Denver's 27th game is Christmas Day at Golden State. Four games to spare.",
+ "mismatches": [
+  {
+   "at": 12.78,
+   "script": "20 3",
+   "heard": "23",
+   "similar": 1.0
+  },
+  {
+   "at": 13.8,
+   "script": "20 7",
+   "heard": "27",
+   "similar": 1.0
+  }
+ ]
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "claim": "YouTube Shorts algorithm relies on an exploratory seed audience to test videos, and lack of initial engagement causes traffic to drop off.",
+    "quote": "there are parts of the algorithm that try and find people find creators and audience and sometimes those algorithms will go and effectively find a seed audience",
+    "platform": "YouTube Shorts",
+    "type": "algorithm mechanism",
+    "official": true
+  },
+  {
+    "claim": "YouTube Shorts view counts require an intentional threshold of watching or specific action, rather than just scrolling past the first frame.",
+    "quote": "what we try and do with a view is have it encode for your intent of watching that thing so that creators feel like that view has some meaningful threshold",
+    "platform": "YouTube Shorts",
+    "type": "algorithm mechanism",
+    "official": true
+  },
+  {
+    "claim": "YouTube Shorts remains strictly focused on a maximum duration of 60 seconds and under.",
+    "quote": "to date I'd say that we are going to remain focused on 60 and under.",
+    "platform": "YouTube Shorts",
+    "type": "algorithm mechanism",
+    "official": true
+  },
+  {
+    "claim": "Custom thumbnail uploads are not supported for Shorts because most traffic comes from the swipe feed where thumbnails are rarely seen.",
+    "quote": "being in the shelf on Shorts is not really where most of the traffic comes from on Shorts it's being in the feed",
+    "platform": "YouTube Shorts",
+    "type": "packaging",
+    "official": true
+  },
+  {
+    "claim": "Time of day of posting does not factor into YouTube Shorts algorithm optimization.",
+    "quote": "Does the time of day play any factor? No, it's not something that we think about optimizing for.",
+    "platform": "YouTube Shorts",
+    "type": "posting",
+    "official": true
+  },
+  {
+    "claim": "There is no posting quantity threshold (like 5 or 10 Shorts a day) that unlocks algorithmic distribution.",
+    "quote": "there is nothing in our systems that's like when you hit the five video or 10 Short threshold per day that you somehow unlock a secret",
+    "platform": "YouTube Shorts",
+    "type": "growth strategy",
+    "official": true
+  },
+  {
+    "claim": "Deleting and reposting underperforming Shorts carries a risk of being flagged as spam by platform systems.",
+    "quote": "I would not advise that. I've heard people talk about this as a growth hack... I think that there is a risk there that that gets seen as spam in our systems.",
+    "platform": "YouTube Shorts",
+    "type": "growth strategy",
+    "official": true
+  },
+  {
+    "claim": "Hashtags are not required on YouTube Shorts, but creators should consider using them for topics or real-world events.",
+    "quote": "If the question is are they required: no, of course not. Are they meaningful? I think they they could be",
+    "platform": "YouTube Shorts",
+    "type": "packaging",
+    "official": true
+  }
+]

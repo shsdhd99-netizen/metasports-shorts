@@ -1,0 +1,55 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Montserrat Black,86,&H00FFFFFF,&H00FFFFFF,&H00000000,&H99000000,0,0,0,0,95,100,1,0,1,6,3,5,70,70,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.71,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THREE PLAYERS TIE
+Dialogue: 0,0:00:00.71,0:00:01.16,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FOR THE TOP
+Dialogue: 0,0:00:01.16,0:00:01.81,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}RATING IN NBA
+Dialogue: 0,0:00:01.81,0:00:02.67,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}2K27.
+Dialogue: 0,0:00:02.67,0:00:03.89,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SHAI GILGEOUS-ALEXANDER,
+Dialogue: 0,0:00:03.89,0:00:04.85,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}VICTOR WEMBANYAMA
+Dialogue: 0,0:00:04.85,0:00:05.67,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND NIKOLA JOKIC,
+Dialogue: 0,0:00:05.67,0:00:06.38,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ALL NINETY-SEVEN.
+Dialogue: 0,0:00:06.38,0:00:07.22,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WEMBANYAMA IS ALSO
+Dialogue: 0,0:00:07.22,0:00:07.72,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ON THE COVER.
+Dialogue: 0,0:00:07.72,0:00:08.41,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}LUKA DONCIC,
+Dialogue: 0,0:00:08.41,0:00:09.01,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}JALEN BRUNSON
+Dialogue: 0,0:00:09.01,0:00:10.22,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND GIANNIS ANTETOKOUNMPO
+Dialogue: 0,0:00:10.22,0:00:10.59,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SIT ONE
+Dialogue: 0,0:00:10.59,0:00:11.03,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}POINT BEHIND
+Dialogue: 0,0:00:11.03,0:00:11.69,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AT NINETY-SIX.
+Dialogue: 0,0:00:11.69,0:00:12.19,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ANTHONY EDWARDS
+Dialogue: 0,0:00:12.19,0:00:12.77,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IS NINETY-FIVE,
+Dialogue: 0,0:00:12.77,0:00:13.29,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}CADE CUNNINGHAM
+Dialogue: 0,0:00:13.29,0:00:13.73,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NINETY-FOUR,
+Dialogue: 0,0:00:13.73,0:00:14.10,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THEN SIX
+Dialogue: 0,0:00:14.10,0:00:14.47,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}PLAYERS TIED
+Dialogue: 0,0:00:14.47,0:00:14.96,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AT NINETY-THREE,
+Dialogue: 0,0:00:14.96,0:00:15.26,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}INCLUDING
+Dialogue: 0,0:00:15.26,0:00:15.70,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}STEPHEN CURRY
+Dialogue: 0,0:00:15.70,0:00:16.35,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND KEVIN DURANT.
+Dialogue: 0,0:00:16.35,0:00:16.57,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BUT LOOK
+Dialogue: 0,0:00:16.57,0:00:17.28,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WHERE LEBRON LANDED.
+Dialogue: 0,0:00:17.28,0:00:17.62,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}LAST YEAR
+Dialogue: 0,0:00:17.62,0:00:18.25,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HE WAS NINETY-FOUR,
+Dialogue: 0,0:00:18.25,0:00:18.97,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}A TOP-TEN PLAYER.
+Dialogue: 0,0:00:18.97,0:00:19.59,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NOW HE'S SIXTEENTH
+Dialogue: 0,0:00:19.59,0:00:20.04,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AT NINETY-ONE,
+Dialogue: 0,0:00:20.04,0:00:20.55,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}DOWN THREE POINTS
+Dialogue: 0,0:00:20.55,0:00:20.94,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN ONE YEAR.
+Dialogue: 0,0:00:20.94,0:00:21.39,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FIFTEEN PLAYERS
+Dialogue: 0,0:00:21.39,0:00:21.68,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ARE RATED
+Dialogue: 0,0:00:21.68,0:00:22.19,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ABOVE LEBRON,
+Dialogue: 0,0:00:22.19,0:00:22.44,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND ONE
+Dialogue: 0,0:00:22.44,0:00:22.72,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IS HIS OWN
+Dialogue: 0,0:00:22.72,0:00:23.02,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TEAMMATE,
+Dialogue: 0,0:00:23.02,0:00:24.06,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TYRESE MAXEY.

@@ -1,0 +1,134 @@
+[
+ {
+  "clip": "J2.mp4",
+  "start": 0.0,
+  "in": 0.35,
+  "kind": "action",
+  "zoom": 0.12
+ },
+ {
+  "clip": "R1.mp4",
+  "start": 0.89,
+  "in": 0.4,
+  "kind": "action",
+  "anchor": "Bryon"
+ },
+ {
+  "clip": "J3.mp4",
+  "start": 1.65,
+  "in": 0.5,
+  "kind": "action",
+  "anchor": "to win"
+ },
+ {
+  "clip": "SW.mp4",
+  "start": 2.6,
+  "in": 0.6,
+  "kind": "action",
+  "anchor": "Finals"
+ },
+ {
+  "clip": "J1.mp4",
+  "start": 4.1,
+  "in": 0.35,
+  "kind": "action",
+  "anchor": "Now"
+ },
+ {
+  "clip": "BO.mp4",
+  "start": 6.84,
+  "in": 0.4,
+  "kind": "action",
+  "anchor": "Four"
+ },
+ {
+  "clip": "PX.mp4",
+  "start": 8.69,
+  "in": 0.8,
+  "kind": "action",
+  "anchor": "full"
+ },
+ {
+  "clip": "BO.mp4",
+  "start": 9.42,
+  "in": 0.35,
+  "kind": "action",
+  "anchor": "But if"
+ },
+ {
+  "clip": "PX.mp4",
+  "start": 10.71,
+  "in": 1.55,
+  "kind": "action",
+  "anchor": "fully extends"
+ },
+ {
+  "clip": "J2.mp4",
+  "start": 12.46,
+  "in": 1.0,
+  "kind": "action",
+  "anchor": "ESPN"
+ },
+ {
+  "clip": "BO.mp4",
+  "start": 15.35,
+  "in": 0.3,
+  "kind": "action",
+  "anchor": "But the"
+ },
+ {
+  "clip": "BO.mp4",
+  "start": 16.51,
+  "in": 0.45,
+  "kind": "action",
+  "anchor": "Jaylen"
+ },
+ {
+  "clip": "BO.mp4",
+  "start": 17.29,
+  "in": 0.38,
+  "kind": "action",
+  "anchor": "Kelly"
+ },
+ {
+  "clip": "BA.mp4",
+  "start": 18.69,
+  "in": 0.55,
+  "kind": "action",
+  "anchor": "RJ"
+ },
+ {
+  "clip": "BM.mp4",
+  "start": 19.57,
+  "in": 0.55,
+  "kind": "action",
+  "anchor": "Evan"
+ },
+ {
+  "clip": "BA.mp4",
+  "start": 20.52,
+  "in": 1.2,
+  "kind": "action",
+  "anchor": "Both"
+ },
+ {
+  "clip": "J2.mp4",
+  "start": 22.32,
+  "in": 0.5,
+  "kind": "action",
+  "anchor": "Jordan's"
+ },
+ {
+  "clip": "BO.mp4",
+  "start": 23.4,
+  "in": 0.42,
+  "kind": "action",
+  "anchor": "Jaylen Brown's"
+ },
+ {
+  "clip": "J2.mp4",
+  "start": 24.52,
+  "in": 1.65,
+  "kind": "action"
+ }
+]

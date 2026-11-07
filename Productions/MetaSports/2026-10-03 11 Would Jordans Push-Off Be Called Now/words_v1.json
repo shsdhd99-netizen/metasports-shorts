@@ -1,0 +1,607 @@
+[
+ {
+  "word": "Michael",
+  "start": 0.0,
+  "end": 0.256
+ },
+ {
+  "word": "Jordan",
+  "start": 0.298,
+  "end": 0.503
+ },
+ {
+  "word": "pushed",
+  "start": 0.554,
+  "end": 0.8
+ },
+ {
+  "word": "off",
+  "start": 0.83,
+  "end": 0.934
+ },
+ {
+  "word": "Bryon",
+  "start": 0.985,
+  "end": 1.199
+ },
+ {
+  "word": "Russell",
+  "start": 1.251,
+  "end": 1.508
+ },
+ {
+  "word": "to",
+  "start": 1.548,
+  "end": 1.59
+ },
+ {
+  "word": "win",
+  "start": 1.63,
+  "end": 1.733
+ },
+ {
+  "word": "the",
+  "start": 1.753,
+  "end": 1.815
+ },
+ {
+  "word": "1998",
+  "start": 1.846,
+  "end": 2.4
+ },
+ {
+  "word": "Finals,",
+  "start": 2.44,
+  "end": 2.789
+ },
+ {
+  "word": "and",
+  "start": 2.809,
+  "end": 2.923
+ },
+ {
+  "word": "no",
+  "start": 2.984,
+  "end": 3.097
+ },
+ {
+  "word": "foul",
+  "start": 3.168,
+  "end": 3.343
+ },
+ {
+  "word": "was",
+  "start": 3.394,
+  "end": 3.486
+ },
+ {
+  "word": "called.",
+  "start": 3.537,
+  "end": 3.917
+ },
+ {
+  "word": "Now",
+  "start": 3.989,
+  "end": 4.122
+ },
+ {
+  "word": "the",
+  "start": 4.173,
+  "end": 4.246
+ },
+ {
+  "word": "NBA",
+  "start": 4.297,
+  "end": 4.584
+ },
+ {
+  "word": "just",
+  "start": 4.635,
+  "end": 4.778
+ },
+ {
+  "word": "rewrote",
+  "start": 4.84,
+  "end": 5.209
+ },
+ {
+  "word": "how",
+  "start": 5.24,
+  "end": 5.352
+ },
+ {
+  "word": "refs",
+  "start": 5.425,
+  "end": 5.609
+ },
+ {
+  "word": "call",
+  "start": 5.65,
+  "end": 5.794
+ },
+ {
+  "word": "that",
+  "start": 5.845,
+  "end": 5.948
+ },
+ {
+  "word": "exact",
+  "start": 5.988,
+  "end": 6.266
+ },
+ {
+  "word": "move.",
+  "start": 6.326,
+  "end": 6.675
+ },
+ {
+  "word": "It's",
+  "start": 6.768,
+  "end": 6.931
+ },
+ {
+  "word": "the",
+  "start": 6.973,
+  "end": 7.034
+ },
+ {
+  "word": "Four",
+  "start": 7.075,
+  "end": 7.27
+ },
+ {
+  "word": "F's:",
+  "start": 7.362,
+  "end": 7.66
+ },
+ {
+  "word": "feeling,",
+  "start": 7.732,
+  "end": 8.132
+ },
+ {
+  "word": "firming,",
+  "start": 8.234,
+  "end": 8.634
+ },
+ {
+  "word": "force,",
+  "start": 8.726,
+  "end": 9.136
+ },
+ {
+  "word": "and",
+  "start": 9.198,
+  "end": 9.331
+ },
+ {
+  "word": "full",
+  "start": 9.382,
+  "end": 9.556
+ },
+ {
+  "word": "extension.",
+  "start": 9.598,
+  "end": 10.1
+ },
+ {
+  "word": "A",
+  "start": 10.152,
+  "end": 10.213
+ },
+ {
+  "word": "ball",
+  "start": 10.265,
+  "end": 10.408
+ },
+ {
+  "word": "handler",
+  "start": 10.459,
+  "end": 10.695
+ },
+ {
+  "word": "can",
+  "start": 10.736,
+  "end": 10.828
+ },
+ {
+  "word": "feel",
+  "start": 10.869,
+  "end": 11.023
+ },
+ {
+  "word": "a",
+  "start": 11.053,
+  "end": 11.075
+ },
+ {
+  "word": "defender,",
+  "start": 11.115,
+  "end": 11.546
+ },
+ {
+  "word": "or",
+  "start": 11.597,
+  "end": 11.731
+ },
+ {
+  "word": "firm",
+  "start": 11.792,
+  "end": 11.987
+ },
+ {
+  "word": "up",
+  "start": 12.028,
+  "end": 12.11
+ },
+ {
+  "word": "in",
+  "start": 12.151,
+  "end": 12.202
+ },
+ {
+  "word": "front",
+  "start": 12.254,
+  "end": 12.397
+ },
+ {
+  "word": "of",
+  "start": 12.418,
+  "end": 12.469
+ },
+ {
+  "word": "him.",
+  "start": 12.52,
+  "end": 12.674
+ },
+ {
+  "word": "But",
+  "start": 12.694,
+  "end": 12.817
+ },
+ {
+  "word": "if",
+  "start": 12.838,
+  "end": 12.899
+ },
+ {
+  "word": "the",
+  "start": 12.93,
+  "end": 12.992
+ },
+ {
+  "word": "arm",
+  "start": 13.043,
+  "end": 13.186
+ },
+ {
+  "word": "hits",
+  "start": 13.228,
+  "end": 13.361
+ },
+ {
+  "word": "with",
+  "start": 13.382,
+  "end": 13.495
+ },
+ {
+  "word": "force,",
+  "start": 13.546,
+  "end": 13.813
+ },
+ {
+  "word": "or",
+  "start": 13.843,
+  "end": 13.935
+ },
+ {
+  "word": "fully",
+  "start": 13.987,
+  "end": 14.212
+ },
+ {
+  "word": "extends,",
+  "start": 14.263,
+  "end": 14.653
+ },
+ {
+  "word": "it's",
+  "start": 14.683,
+  "end": 14.838
+ },
+ {
+  "word": "an",
+  "start": 14.858,
+  "end": 14.909
+ },
+ {
+  "word": "offensive",
+  "start": 14.95,
+  "end": 15.35
+ },
+ {
+  "word": "foul.",
+  "start": 15.391,
+  "end": 15.73
+ },
+ {
+  "word": "So",
+  "start": 15.75,
+  "end": 15.842
+ },
+ {
+  "word": "would",
+  "start": 15.884,
+  "end": 15.996
+ },
+ {
+  "word": "Jordan",
+  "start": 16.037,
+  "end": 16.253
+ },
+ {
+  "word": "get",
+  "start": 16.284,
+  "end": 16.386
+ },
+ {
+  "word": "whistled?",
+  "start": 16.427,
+  "end": 16.796
+ },
+ {
+  "word": "ESPN",
+  "start": 16.837,
+  "end": 17.216
+ },
+ {
+  "word": "says",
+  "start": 17.268,
+  "end": 17.432
+ },
+ {
+  "word": "no,",
+  "start": 17.493,
+  "end": 17.73
+ },
+ {
+  "word": "because",
+  "start": 17.75,
+  "end": 18.006
+ },
+ {
+  "word": "he",
+  "start": 18.026,
+  "end": 18.078
+ },
+ {
+  "word": "didn't",
+  "start": 18.139,
+  "end": 18.355
+ },
+ {
+  "word": "use",
+  "start": 18.396,
+  "end": 18.539
+ },
+ {
+  "word": "force",
+  "start": 18.58,
+  "end": 18.867
+ },
+ {
+  "word": "or",
+  "start": 18.909,
+  "end": 19.042
+ },
+ {
+  "word": "fully",
+  "start": 19.103,
+  "end": 19.339
+ },
+ {
+  "word": "extend",
+  "start": 19.39,
+  "end": 19.616
+ },
+ {
+  "word": "his",
+  "start": 19.657,
+  "end": 19.739
+ },
+ {
+  "word": "arm.",
+  "start": 19.78,
+  "end": 19.985
+ },
+ {
+  "word": "But",
+  "start": 20.006,
+  "end": 20.139
+ },
+ {
+  "word": "the",
+  "start": 20.159,
+  "end": 20.221
+ },
+ {
+  "word": "league's",
+  "start": 20.272,
+  "end": 20.488
+ },
+ {
+  "word": "own",
+  "start": 20.508,
+  "end": 20.611
+ },
+ {
+  "word": "examples",
+  "start": 20.642,
+  "end": 21.0
+ },
+ {
+  "word": "are",
+  "start": 21.042,
+  "end": 21.144
+ },
+ {
+  "word": "Jaylen",
+  "start": 21.185,
+  "end": 21.431
+ },
+ {
+  "word": "Brown",
+  "start": 21.472,
+  "end": 21.667
+ },
+ {
+  "word": "shoving",
+  "start": 21.708,
+  "end": 21.965
+ },
+ {
+  "word": "Kelly",
+  "start": 22.005,
+  "end": 22.19
+ },
+ {
+  "word": "Oubre",
+  "start": 22.241,
+  "end": 22.446
+ },
+ {
+  "word": "in",
+  "start": 22.477,
+  "end": 22.518
+ },
+ {
+  "word": "the",
+  "start": 22.559,
+  "end": 22.621
+ },
+ {
+  "word": "chest,",
+  "start": 22.652,
+  "end": 22.939
+ },
+ {
+  "word": "and",
+  "start": 22.959,
+  "end": 23.092
+ },
+ {
+  "word": "RJ",
+  "start": 23.153,
+  "end": 23.349
+ },
+ {
+  "word": "Barrett",
+  "start": 23.41,
+  "end": 23.636
+ },
+ {
+  "word": "knocking",
+  "start": 23.677,
+  "end": 23.933
+ },
+ {
+  "word": "Evan",
+  "start": 23.984,
+  "end": 24.138
+ },
+ {
+  "word": "Mobley",
+  "start": 24.179,
+  "end": 24.394
+ },
+ {
+  "word": "backward.",
+  "start": 24.446,
+  "end": 24.907
+ },
+ {
+  "word": "Both",
+  "start": 24.928,
+  "end": 25.102
+ },
+ {
+  "word": "are",
+  "start": 25.133,
+  "end": 25.215
+ },
+ {
+  "word": "fouls",
+  "start": 25.255,
+  "end": 25.492
+ },
+ {
+  "word": "now.",
+  "start": 25.543,
+  "end": 25.799
+ },
+ {
+  "word": "So",
+  "start": 25.871,
+  "end": 25.973
+ },
+ {
+  "word": "under",
+  "start": 26.025,
+  "end": 26.189
+ },
+ {
+  "word": "the",
+  "start": 26.23,
+  "end": 26.291
+ },
+ {
+  "word": "new",
+  "start": 26.343,
+  "end": 26.445
+ },
+ {
+  "word": "rule,",
+  "start": 26.496,
+  "end": 26.743
+ },
+ {
+  "word": "Jordan's",
+  "start": 26.814,
+  "end": 27.112
+ },
+ {
+  "word": "shot",
+  "start": 27.132,
+  "end": 27.306
+ },
+ {
+  "word": "is",
+  "start": 27.348,
+  "end": 27.41
+ },
+ {
+  "word": "clean,",
+  "start": 27.461,
+  "end": 27.768
+ },
+ {
+  "word": "but",
+  "start": 27.819,
+  "end": 27.953
+ },
+ {
+  "word": "Jaylen",
+  "start": 28.004,
+  "end": 28.25
+ },
+ {
+  "word": "Brown's",
+  "start": 28.291,
+  "end": 28.568
+ },
+ {
+  "word": "isn't.",
+  "start": 28.609,
+  "end": 29.04
+ }
+]

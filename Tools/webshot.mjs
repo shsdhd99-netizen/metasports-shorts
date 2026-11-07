@@ -24,12 +24,17 @@ const marks = argv.flatMap((a, i) => a === '--mark' ? [argv[i + 1]] : []);
 const cellSels = argv.flatMap((a, i) => a === '--cells' ? [argv[i + 1]] : []);
 if (!url) { console.error('give --url'); process.exit(2); }
 
-const BROWSER = ['C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe',
-                 'C:/Program Files/Google/Chrome/Application/chrome.exe'].find(p => fs.existsSync(p));
+const BROWSER = [process.env.BROWSER_PATH, 'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe',
+                 'C:/Program Files/Google/Chrome/Application/chrome.exe', '/opt/pw-browsers/chromium/chrome',
+                 '/usr/bin/chromium', '/usr/bin/chromium-browser', '/usr/bin/google-chrome'].find(p => p && fs.existsSync(p))
+  || (fs.existsSync('/opt/pw-browsers') ? fs.readdirSync('/opt/pw-browsers').filter(d => d.startsWith('chromium-'))
+      .map(d => `/opt/pw-browsers/${d}/chrome-linux/chrome`).find(p => fs.existsSync(p)) : undefined);
+if (!BROWSER) { console.error('No browser found: set BROWSER_PATH'); process.exit(2); }
+const LINUX = process.platform === 'linux';
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 const port = 9300 + Math.floor(Math.random() * 600);
 const prof = fs.mkdtempSync(path.join(os.tmpdir(), 'webshot-'));
-const proc = spawn(BROWSER, [`--remote-debugging-port=${port}`, `--user-data-dir=${prof}`, '--headless=new', '--disable-gpu',
+const proc = spawn(BROWSER, [`--remote-debugging-port=${port}`, `--user-data-dir=${prof}`, '--headless=new', '--disable-gpu', ...(LINUX ? ['--no-sandbox', '--disable-dev-shm-usage'] : []),
   '--hide-scrollbars', '--no-first-run', '--no-default-browser-check', '--mute-audio', '--disable-notifications',
   `--window-size=${W},${H}`, 'about:blank'], { stdio: 'ignore' });
 

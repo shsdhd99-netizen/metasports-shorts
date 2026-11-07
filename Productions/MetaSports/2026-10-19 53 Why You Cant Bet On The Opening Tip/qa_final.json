@@ -1,0 +1,18 @@
+{
+ "fails": 2,
+ "warns": 3,
+ "verdict": "HOLD",
+ "qa_score": 28,
+ "predicted_score": 37,
+ "predicted_views": 3967,
+ "fail_list": [
+  "FOOTAGE: no cuts.json / cuts_plan.json",
+  "qa_short --full: FAIL | FIX  footage: shot 1: clip missing (S1.mp4) | FIX  footage: shot 2: clip missing (S2o.mp4) | FIX  footage: shot 3: clip missing (S3.mp4) | FIX  footage: shot 4: clip missing (S4.mp4) | FIX  footage: shot 5: clip missing (S5o.mp4) | FIX  footage: shot 6: clip missing (S6o.mp4) | FIX  footage: "
+ ],
+ "warn_list": [
+  "SCRIPT: line 1 has 13 words (rule: 11 or fewer); claim words ['only'] in the script but only 2 source links; 94 words, about 25 s at 225 wpm (target 15-33 s)",
+  "VOICE: voice take verdict CHECK; pace 216 wpm (range 205-270); tail after the last word 0.35 s (want 0.15-0.4)",
+  "PACKAGE: slot not noted; no cover image (cover.jpg); title ok: Why You Can't Bet On The Opening Tip \ud83d\ude33"
+ ],
+ "at": "2026-11-07T15:00"
+}

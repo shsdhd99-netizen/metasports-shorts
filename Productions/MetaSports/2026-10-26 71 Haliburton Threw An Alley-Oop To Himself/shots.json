@@ -1,0 +1,72 @@
+[
+ {
+  "clip": "H01.mp4",
+  "kind": "action",
+  "why": "Team camera: Haliburton gathers, tosses the ball up to himself and dunks it (Pacers on X, Oct 25 2026, at Nets)",
+  "start": 0.0
+ },
+ {
+  "clip": "H02.mp4",
+  "kind": "face",
+  "why": "Haliburton grinning after the self-oop, ABA Classic jersey (team camera, same post)",
+  "anchor": "He missed",
+  "start": 2.62
+ },
+ {
+  "clip": "H03.mp4",
+  "kind": "face",
+  "why": "Haliburton postgame, lower third 'TYRESE HALIBURTON 24 PTS' (Pacers on X, postgame)",
+  "anchor": "tearing his",
+  "start": 4.23
+ },
+ {
+  "clip": "H04.mp4",
+  "kind": "action",
+  "why": "Broadcast: loose ball, Haliburton runs it out alone, bounces it up and dunks (Pacers on X, 3rd qtr 7:20-7:13, IND 83 BKN 68)",
+  "anchor": "Sunday in Brooklyn",
+  "start": 7.25
+ },
+ {
+  "clip": "H05.mp4",
+  "kind": "face",
+  "why": "Pacers bench erupts, tongue out and arms out (Pacers on X, alternate angle)",
+  "anchor": "The Pacers bench",
+  "start": 10.84
+ },
+ {
+  "clip": "H06.mp4",
+  "kind": "quote",
+  "why": "Rick Carlisle postgame, says 'He's back' at 17.5 s (Pacers on X)",
+  "anchor": "His coach",
+  "start": 12.28
+ },
+ {
+  "clip": "H07.mp4",
+  "kind": "action",
+  "why": "Second angle of the self-oop in the ABA Classic jerseys (Pacers on X, alternate angle)",
+  "anchor": "Hali blamed",
+  "start": 13.59
+ },
+ {
+  "clip": "H08.mp4",
+  "kind": "quote",
+  "why": "Haliburton postgame (the 'ABA jerseys... Dr. J' answer comes at 58-62 s of this interview)",
+  "anchor": "I feel like",
+  "start": 15.86
+ },
+ {
+  "clip": "H09.mp4",
+  "kind": "action",
+  "why": "The Nets in their own classic jerseys, the loose-ball scramble before the play (Pacers on X). Dr. J won ABA titles with the Nets in 1974 and 1976 (Wikipedia)",
+  "anchor": "The team Dr. J",
+  "start": 17.29
+ },
+ {
+  "clip": "H10.mp4",
+  "kind": "action",
+  "why": "Replay of the self-oop dunk, slowed (team camera); ends on the payoff and loops to frame 1",
+  "anchor": "The team he",
+  "replay": true,
+  "start": 20.16
+ }
+]

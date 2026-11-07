@@ -1,0 +1,62 @@
+{
+ "A_alex": {
+  "take_similarity": 0.989,
+  "similarity_to_old_narration": 0.738,
+  "wpm": [
+   227,
+   227
+  ],
+  "pitch_sd": [
+   4.97,
+   5.24
+  ]
+ },
+ "F_pv2_fixed": {
+  "take_similarity": 0.973,
+  "similarity_to_old_narration": 0.954,
+  "wpm": [
+   220,
+   236
+  ],
+  "pitch_sd": [
+   4.66,
+   3.81
+  ]
+ },
+ "P0_pv2_current": {
+  "take_similarity": 0.992,
+  "similarity_to_old_narration": 0.96,
+  "wpm": [
+   262,
+   272
+  ],
+  "pitch_sd": [
+   4.9,
+   4.35
+  ]
+ },
+ "P1_pham_orig": {
+  "take_similarity": 0.982,
+  "similarity_to_old_narration": 0.966,
+  "wpm": [
+   205,
+   207
+  ],
+  "pitch_sd": [
+   4.44,
+   4.6
+  ]
+ },
+ "N_pham_v3": {
+  "take_similarity": 0.979,
+  "similarity_to_old_narration": 0.915,
+  "wpm": [
+   228,
+   238
+  ],
+  "pitch_sd": [
+   3.68,
+   3.83
+  ]
+ }
+}

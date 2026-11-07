@@ -1,0 +1,32 @@
+[
+ {
+  "take": 1,
+  "ok": false,
+  "score": -95.9,
+  "verdict": "REDO",
+  "issues": [
+   " 6.54s  script \"1 ninety 8\" but heard \"won 98\""
+  ],
+  "wpm": 222,
+  "hnr": 7.9,
+  "jitter": 2.94,
+  "shimmer": 11.44,
+  "dur": 23.85,
+  "pitch_sd": 4.89
+ },
+ {
+  "take": 2,
+  "ok": false,
+  "score": -96.0,
+  "verdict": "REDO",
+  "issues": [
+   " 6.32s  script \"1 ninety 8\" but heard \"won 98\""
+  ],
+  "wpm": 212,
+  "hnr": 8.0,
+  "jitter": 3.09,
+  "shimmer": 12.41,
+  "dur": 24.91,
+  "pitch_sd": 4.78
+ }
+]

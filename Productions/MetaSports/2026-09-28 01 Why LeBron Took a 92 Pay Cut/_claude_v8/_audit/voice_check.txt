@@ -1,0 +1,11 @@
+Voice check: REDO   (86 words, 23.1s, 224 wpm)
+  REDO   7.70s  script "ninety 2" but heard "92"
+  REDO   9.80s  script "20 fourth" but heard "24th"
+  note   3.06s  script "" but heard "dollars"
+  note   6.92s  script "" but heard "dollars"
+  note  15.66s  script "" but heard "dollars"
+  note  14.18s  "jaylen" heard as "jalen" (close; check the name)
+  note  17.78s  "50 7" heard as "57" (close; check the name)
+  note  18.84s  "50 4" heard as "54" (close; check the name)
+  note  19.39s  rushed sentence (358 wpm): So why did LeBron do it?
+  heard: LeBron James is making exactly the NBA minimum. 3 .88 million dollars. The least a 10 year veteran can be paid. Last season, the Lakers paid him 52 million dollars. That's a 92 % pay cut for a four time MVP in his 24th season. But that's not even the crazy part. ESPN listed forwards at his level. His new teammate Jalen Brown makes 57 million dollars. About 15 times more. Jimmy Butler, 57. Paul George, 54. So why did LeBron do it? He wrote, I'm not going for money. I still want to sacrifice.

@@ -1,0 +1,32 @@
+[
+ {
+  "take": 1,
+  "ok": false,
+  "score": -295.4,
+  "verdict": "REDO",
+  "issues": [
+   "54.02s  script \"back\" but heard \"(nothing)\"",
+   "21.27s  stretched/garbled word \"\"Agua.\"\" (0.86s)",
+   "59.94s  stretched/garbled word \"cans.\" (0.88s)"
+  ],
+  "wpm": 207,
+  "hnr": 8.2,
+  "jitter": 2.73,
+  "shimmer": 10.99,
+  "dur": 61.12,
+  "pitch_sd": 5.13
+ },
+ {
+  "take": 2,
+  "ok": true,
+  "score": 5.1,
+  "verdict": "CHECK",
+  "issues": [],
+  "wpm": 215,
+  "hnr": 8.6,
+  "jitter": 2.69,
+  "shimmer": 10.76,
+  "dur": 58.91,
+  "pitch_sd": 5.04
+ }
+]

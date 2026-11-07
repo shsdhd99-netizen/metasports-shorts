@@ -1,0 +1,1 @@
+POSTING TEST ON (owner, Nov 5, 2026), from Mon Nov 9: odd dates NBA 1 + FC 2 (FC 12:00 and 18:00 ET), even dates NBA 2 + FC 1; credit-neutral. Slots are filled only by ideas that pass Tools/build_gate.py. Plan and decision rule: Research Notes/Posting Plan (Nov 5, 2026).md. Delete this file to return to the old grid.

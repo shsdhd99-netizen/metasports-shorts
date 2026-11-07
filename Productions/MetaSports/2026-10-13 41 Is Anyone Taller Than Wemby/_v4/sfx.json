@@ -1,0 +1,14 @@
+[
+ {
+  "sfx": "whoosh",
+  "at": 5.349,
+  "gain": -12,
+  "why": "jump to the listed-height card"
+ },
+ {
+  "sfx": "boom",
+  "at": 22.639,
+  "gain": -16,
+  "why": "Sharp's 0 appears on the card ('zero')"
+ }
+]

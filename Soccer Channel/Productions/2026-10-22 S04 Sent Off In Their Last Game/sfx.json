@@ -1,0 +1,6 @@
+[
+ {"sfx": "punch", "at": 31.31, "why": "the headbutt lands on screen (Z23, contact about 0.5 s in; punch peak 0.12 s into the file)"},
+ {"sfx": "whoosh_long", "at": 44.68, "why": "into the payoff: 'But here's the wild part' (peak lands on the cut at 45.90)"},
+ {"sfx": "click", "at": 49.19, "why": "the voting card appears"},
+ {"sfx": "ding", "at": 52.40, "why": "the Golden Ball card appears with Zidane's name highlighted"}
+]

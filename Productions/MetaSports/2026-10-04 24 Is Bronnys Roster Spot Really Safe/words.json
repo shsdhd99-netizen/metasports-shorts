@@ -1,0 +1,552 @@
+[
+ {
+  "word": "A",
+  "start": 0.0,
+  "end": 0.063
+ },
+ {
+  "word": "guaranteed",
+  "start": 0.135,
+  "end": 0.549
+ },
+ {
+  "word": "deal",
+  "start": 0.591,
+  "end": 0.767
+ },
+ {
+  "word": "does",
+  "start": 0.819,
+  "end": 0.944
+ },
+ {
+  "word": "not",
+  "start": 0.996,
+  "end": 1.12
+ },
+ {
+  "word": "guarantee",
+  "start": 1.172,
+  "end": 1.566
+ },
+ {
+  "word": "a",
+  "start": 1.597,
+  "end": 1.629
+ },
+ {
+  "word": "roster",
+  "start": 1.67,
+  "end": 1.94
+ },
+ {
+  "word": "spot.",
+  "start": 1.981,
+  "end": 2.272
+ },
+ {
+  "word": "The",
+  "start": 2.292,
+  "end": 2.375
+ },
+ {
+  "word": "Lakers",
+  "start": 2.427,
+  "end": 2.655
+ },
+ {
+  "word": "have",
+  "start": 2.686,
+  "end": 2.801
+ },
+ {
+  "word": "sixteen",
+  "start": 2.853,
+  "end": 3.174
+ },
+ {
+  "word": "players",
+  "start": 3.215,
+  "end": 3.464
+ },
+ {
+  "word": "for",
+  "start": 3.496,
+  "end": 3.589
+ },
+ {
+  "word": "fifteen",
+  "start": 3.651,
+  "end": 3.973
+ },
+ {
+  "word": "spots,",
+  "start": 4.003,
+  "end": 4.336
+ },
+ {
+  "word": "and",
+  "start": 4.377,
+  "end": 4.502
+ },
+ {
+  "word": "one",
+  "start": 4.574,
+  "end": 4.781
+ },
+ {
+  "word": "is",
+  "start": 4.823,
+  "end": 4.916
+ },
+ {
+  "word": "Bronny",
+  "start": 4.968,
+  "end": 5.227
+ },
+ {
+  "word": "James.",
+  "start": 5.29,
+  "end": 5.704
+ },
+ {
+  "word": "Until",
+  "start": 5.726,
+  "end": 5.974
+ },
+ {
+  "word": "June",
+  "start": 6.037,
+  "end": 6.223
+ },
+ {
+  "word": "twenty-ninth,",
+  "start": 6.254,
+  "end": 6.794
+ },
+ {
+  "word": "only",
+  "start": 6.835,
+  "end": 7.022
+ },
+ {
+  "word": "about",
+  "start": 7.053,
+  "end": 7.24
+ },
+ {
+  "word": "$1.3 million",
+  "start": 7.292,
+  "end": 8.173
+ },
+ {
+  "word": "of",
+  "start": 8.215,
+  "end": 8.257
+ },
+ {
+  "word": "his",
+  "start": 8.298,
+  "end": 8.381
+ },
+ {
+  "word": "$2.3 million",
+  "start": 8.422,
+  "end": 9.314
+ },
+ {
+  "word": "was",
+  "start": 9.366,
+  "end": 9.501
+ },
+ {
+  "word": "guaranteed.",
+  "start": 9.553,
+  "end": 10.072
+ },
+ {
+  "word": "The",
+  "start": 10.102,
+  "end": 10.185
+ },
+ {
+  "word": "Lakers",
+  "start": 10.237,
+  "end": 10.497
+ },
+ {
+  "word": "locked",
+  "start": 10.549,
+  "end": 10.756
+ },
+ {
+  "word": "in",
+  "start": 10.787,
+  "end": 10.839
+ },
+ {
+  "word": "the",
+  "start": 10.871,
+  "end": 10.932
+ },
+ {
+  "word": "rest.",
+  "start": 10.974,
+  "end": 11.202
+ },
+ {
+  "word": "But",
+  "start": 11.223,
+  "end": 11.337
+ },
+ {
+  "word": "Yahoo",
+  "start": 11.378,
+  "end": 11.648
+ },
+ {
+  "word": "says",
+  "start": 11.7,
+  "end": 11.845
+ },
+ {
+  "word": "his",
+  "start": 11.886,
+  "end": 11.96
+ },
+ {
+  "word": "name",
+  "start": 12.001,
+  "end": 12.136
+ },
+ {
+  "word": "has",
+  "start": 12.156,
+  "end": 12.25
+ },
+ {
+  "word": "surfaced",
+  "start": 12.291,
+  "end": 12.633
+ },
+ {
+  "word": "as",
+  "start": 12.664,
+  "end": 12.748
+ },
+ {
+  "word": "a",
+  "start": 12.799,
+  "end": 12.82
+ },
+ {
+  "word": "possible",
+  "start": 12.872,
+  "end": 13.214
+ },
+ {
+  "word": "trade",
+  "start": 13.245,
+  "end": 13.432
+ },
+ {
+  "word": "or",
+  "start": 13.463,
+  "end": 13.515
+ },
+ {
+  "word": "waiver",
+  "start": 13.567,
+  "end": 13.805
+ },
+ {
+  "word": "option.",
+  "start": 13.857,
+  "end": 14.199
+ },
+ {
+  "word": "And",
+  "start": 14.221,
+  "end": 14.334
+ },
+ {
+  "word": "rival",
+  "start": 14.386,
+  "end": 14.615
+ },
+ {
+  "word": "executives",
+  "start": 14.656,
+  "end": 15.05
+ },
+ {
+  "word": "reportedly",
+  "start": 15.102,
+  "end": 15.527
+ },
+ {
+  "word": "expect",
+  "start": 15.579,
+  "end": 15.839
+ },
+ {
+  "word": "Dalton",
+  "start": 15.87,
+  "end": 16.108
+ },
+ {
+  "word": "Knecht,",
+  "start": 16.139,
+  "end": 16.377
+ },
+ {
+  "word": "a",
+  "start": 16.399,
+  "end": 16.429
+ },
+ {
+  "word": "first-round",
+  "start": 16.502,
+  "end": 16.876
+ },
+ {
+  "word": "pick,",
+  "start": 16.917,
+  "end": 17.114
+ },
+ {
+  "word": "to",
+  "start": 17.135,
+  "end": 17.187
+ },
+ {
+  "word": "be",
+  "start": 17.239,
+  "end": 17.322
+ },
+ {
+  "word": "the",
+  "start": 17.353,
+  "end": 17.414
+ },
+ {
+  "word": "odd",
+  "start": 17.466,
+  "end": 17.601
+ },
+ {
+  "word": "man",
+  "start": 17.643,
+  "end": 17.767
+ },
+ {
+  "word": "out.",
+  "start": 17.819,
+  "end": 18.017
+ },
+ {
+  "word": "So",
+  "start": 18.068,
+  "end": 18.172
+ },
+ {
+  "word": "what",
+  "start": 18.224,
+  "end": 18.359
+ },
+ {
+  "word": "does",
+  "start": 18.39,
+  "end": 18.504
+ },
+ {
+  "word": "Bronny",
+  "start": 18.545,
+  "end": 18.783
+ },
+ {
+  "word": "have?",
+  "start": 18.836,
+  "end": 19.053
+ },
+ {
+  "word": "Two",
+  "start": 19.105,
+  "end": 19.25
+ },
+ {
+  "word": "point",
+  "start": 19.302,
+  "end": 19.468
+ },
+ {
+  "word": "nine",
+  "start": 19.509,
+  "end": 19.676
+ },
+ {
+  "word": "points",
+  "start": 19.717,
+  "end": 19.955
+ },
+ {
+  "word": "in",
+  "start": 19.997,
+  "end": 20.059
+ },
+ {
+  "word": "under",
+  "start": 20.112,
+  "end": 20.256
+ },
+ {
+  "word": "nine",
+  "start": 20.298,
+  "end": 20.454
+ },
+ {
+  "word": "minutes.",
+  "start": 20.485,
+  "end": 20.837
+ },
+ {
+  "word": "And",
+  "start": 20.868,
+  "end": 20.962
+ },
+ {
+  "word": "Luka",
+  "start": 21.003,
+  "end": 21.179
+ },
+ {
+  "word": "Doncic,",
+  "start": 21.231,
+  "end": 21.595
+ },
+ {
+  "word": "last",
+  "start": 21.646,
+  "end": 21.833
+ },
+ {
+  "word": "March:",
+  "start": 21.885,
+  "end": 22.32
+ },
+ {
+  "word": "It",
+  "start": 22.458,
+  "end": 22.675
+ },
+ {
+  "word": "was",
+  "start": 22.675,
+  "end": 22.891
+ },
+ {
+  "word": "probably",
+  "start": 22.891,
+  "end": 23.108
+ },
+ {
+  "word": "one",
+  "start": 23.108,
+  "end": 23.325
+ },
+ {
+  "word": "of",
+  "start": 23.325,
+  "end": 23.541
+ },
+ {
+  "word": "the",
+  "start": 23.541,
+  "end": 23.758
+ },
+ {
+  "word": "most",
+  "start": 23.758,
+  "end": 23.975
+ },
+ {
+  "word": "important",
+  "start": 23.975,
+  "end": 24.191
+ },
+ {
+  "word": "shots",
+  "start": 24.191,
+  "end": 24.408
+ },
+ {
+  "word": "of",
+  "start": 24.408,
+  "end": 24.625
+ },
+ {
+  "word": "the",
+  "start": 24.625,
+  "end": 24.841
+ },
+ {
+  "word": "game.",
+  "start": 24.841,
+  "end": 25.058
+ },
+ {
+  "word": "The",
+  "start": 25.178,
+  "end": 25.292
+ },
+ {
+  "word": "guarantee",
+  "start": 25.333,
+  "end": 25.663
+ },
+ {
+  "word": "protects",
+  "start": 25.704,
+  "end": 26.003
+ },
+ {
+  "word": "his",
+  "start": 26.024,
+  "end": 26.106
+ },
+ {
+  "word": "money.",
+  "start": 26.158,
+  "end": 26.415
+ },
+ {
+  "word": "That",
+  "start": 26.446,
+  "end": 26.601
+ },
+ {
+  "word": "shot",
+  "start": 26.653,
+  "end": 26.818
+ },
+ {
+  "word": "might",
+  "start": 26.859,
+  "end": 27.003
+ },
+ {
+  "word": "protect",
+  "start": 27.035,
+  "end": 27.303
+ },
+ {
+  "word": "his",
+  "start": 27.344,
+  "end": 27.426
+ },
+ {
+  "word": "spot.",
+  "start": 27.457,
+  "end": 27.818
+ }
+]

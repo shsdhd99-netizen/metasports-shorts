@@ -1,0 +1,241 @@
+{
+ "length_s": 71.3,
+ "topic": "Barcelona's 2014-15 Champions League run is discussed as the most difficult path in history, having beaten the reigning champions of England, France, Germany, and Italy.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "Most difficult paths in Champions League history.",
+  "first_frame": "Football match action shot with players in red and blue kits on a pitch under stadium lights.",
+  "on_screen_text_0_3s": "MOST DIFFICULT PATHS in Champions League history",
+  "shots_in_first_3s": 1
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 2.1,
+   "shows": "Football match action clip",
+   "kind": "action"
+  },
+  {
+   "start_s": 2.1,
+   "end_s": 5.0,
+   "shows": "Barcelona players celebrating with the Champions League trophy",
+   "kind": "action"
+  },
+  {
+   "start_s": 5.0,
+   "end_s": 8.3,
+   "shows": "Barcelona team photo with FC Barcelona badge overlay",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 8.3,
+   "end_s": 9.2,
+   "shows": "Lionel Messi celebrating with teammates",
+   "kind": "action"
+  },
+  {
+   "start_s": 9.2,
+   "end_s": 12.0,
+   "shows": "Lionel Messi walking out onto the pitch with mascots",
+   "kind": "action"
+  },
+  {
+   "start_s": 12.0,
+   "end_s": 15.6,
+   "shows": "Luis Suarez graphic with fire background effect",
+   "kind": "stock"
+  },
+  {
+   "start_s": 15.6,
+   "end_s": 19.9,
+   "shows": "Match footage shown inside an old television set graphic",
+   "kind": "other"
+  },
+  {
+   "start_s": 19.9,
+   "end_s": 23.3,
+   "shows": "Lionel Messi close-up looking intense",
+   "kind": "face"
+  },
+  {
+   "start_s": 23.3,
+   "end_s": 25.6,
+   "shows": "PSG and Barcelona players walking out of the tunnel",
+   "kind": "action"
+  },
+  {
+   "start_s": 25.6,
+   "end_s": 28.7,
+   "shows": "Neymar and Luis Suarez graphics with stadium background",
+   "kind": "stock"
+  },
+  {
+   "start_s": 28.7,
+   "end_s": 30.9,
+   "shows": "Match action footage of Neymar and other players",
+   "kind": "action"
+  },
+  {
+   "start_s": 30.9,
+   "end_s": 32.9,
+   "shows": "Players shaking hands on the pitch",
+   "kind": "action"
+  },
+  {
+   "start_s": 32.9,
+   "end_s": 36.9,
+   "shows": "Lionel Messi dribbling and celebrating",
+   "kind": "action"
+  },
+  {
+   "start_s": 36.9,
+   "end_s": 37.9,
+   "shows": "Messi celebrating with Neymar",
+   "kind": "action"
+  },
+  {
+   "start_s": 37.9,
+   "end_s": 41.0,
+   "shows": "Messi goal action against Bayern Munich where Boateng falls",
+   "kind": "action"
+  },
+  {
+   "start_s": 41.0,
+   "end_s": 43.1,
+   "shows": "Trophy in sunlight celebration",
+   "kind": "action"
+  },
+  {
+   "start_s": 43.1,
+   "end_s": 48.6,
+   "shows": "Players walking out and shaking hands footage loop",
+   "kind": "action"
+  },
+  {
+   "start_s": 48.6,
+   "end_s": 51.0,
+   "shows": "Lionel Messi close-up looking serious",
+   "kind": "face"
+  },
+  {
+   "start_s": 51.0,
+   "end_s": 54.3,
+   "shows": "Luis Suarez celebrating with trophy",
+   "kind": "action"
+  },
+  {
+   "start_s": 54.3,
+   "end_s": 56.1,
+   "shows": "Steve Harvey looking serious and confused",
+   "kind": "face"
+  },
+  {
+   "start_s": 56.1,
+   "end_s": 58.5,
+   "shows": "Manchester City players lifting the Premier League trophy",
+   "kind": "action"
+  },
+  {
+   "start_s": 58.5,
+   "end_s": 59.6,
+   "shows": "Barcelona player celebrating goal",
+   "kind": "action"
+  },
+  {
+   "start_s": 59.6,
+   "end_s": 61.6,
+   "shows": "PSG players celebrating with Ligue 1 trophy",
+   "kind": "action"
+  },
+  {
+   "start_s": 61.6,
+   "end_s": 63.2,
+   "shows": "Bayern Munich team celebrating with Bundesliga trophy",
+   "kind": "action"
+  },
+  {
+   "start_s": 63.2,
+   "end_s": 65.7,
+   "shows": "Gianluigi Buffon and Juventus team celebrating with Serie A trophy",
+   "kind": "action"
+  },
+  {
+   "start_s": 65.7,
+   "end_s": 66.8,
+   "shows": "Match action clip of Messi",
+   "kind": "action"
+  },
+  {
+   "start_s": 66.8,
+   "end_s": 71.3,
+   "shows": "Montage of Barcelona, Manchester City, PSG, Bayern, and Juventus trophy lifts",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 27,
+ "average_shot_s": 2.64,
+ "longest_shot_s": 4.1,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 175,
+  "tone": "enthusiastic and informative",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "dramatic cinematic beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 2,
+  "case": "sentence",
+  "position": "middle",
+  "colours": "white",
+  "highlight_style": "pop-up word by word"
+ },
+ "text_overlays": [
+  {
+   "at_s": 0.0,
+   "text": "MOST DIFFICULT PATHS in Champions League history"
+  }
+ ],
+ "cards_or_graphics": 0,
+ "framing": "crop",
+ "ending": {
+  "last_words": "one after another.",
+  "last_frame": "Gianluigi Buffon and Juventus team celebrating with confetti falling.",
+  "loops_to_start": false,
+  "call_to_action": "please hit the follow button."
+ },
+ "script": "Most difficult paths in Champions League history. People love arguing about which Champions League winner had the easiest road, but Barcelona in the 2014-2015 season had the exact opposite. Their run kicked off in the round of sixteen against Manchester City, where Luis Suarez scored twice inside the first 30 minutes at the Etihad before Ivan Rakitic settled the tie in the second leg back in Spain for a 3-1 aggregate win. But knocking out City was somehow the gentlest part of what came next. Next came Paris Saint-Germain in the quarter-final, where Neymar and Suarez pulled them apart across two legs for a 5-1 win that included a Neymar double in the return game. Then it was Bayern Munich in the semi-final, and at the Camp Nou, Lionel Messi delivered one of the greatest individual displays the competition has ever seen, including that goal where he sat Jerome Boateng on the floor. Barca took the tie 5-3 and reached the final in Berlin. But if you line up all four of these opponents side by side, you'll see the pattern that makes this run almost impossible to repeat, and if you're enjoying the video, please hit the follow button. Barcelona beat Juventus 3-1 to lift the trophy and seal the treble, and here's the part almost nobody points out. Manchester City were the reigning Premier League champions when Barca knocked them out. PSG were the reigning champions of Ligue 1, Bayern held the Bundesliga crown, and Juventus were the sitting Serie A champions. So in a single run, Barcelona knocked out the reigning champion of England, France, Germany, and Italy, one after another.",
+ "retention_tricks": [
+  "rapid cuts and varied visual styles (stock, action, retro TV frames)",
+  "hook framing a surprising historical stat",
+  "open loop building up through each round of the tournament",
+  "mid-video call to action prompt"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "compelling statistical revelation about defeating four reigning domestic champions in one run",
+  "fast pacing with engaging football highlights matching the narration rhythm",
+  "clear storytelling structure stepping through round of 16, quarters, semis, and final"
+ ],
+ "_meta": {
+  "source": "yG7WcOxJRSU",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

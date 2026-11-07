@@ -1,0 +1,5 @@
+Voice check: PASS   (79 words, 21.1s, 224 wpm)
+  note   0.18s  "oden" heard as "odin" (close; check the name)
+  note  16.48s  "oden" heard as "odin" (close; check the name)
+  note  16.48s  dragging sentence (156 wpm): Oden played 105 games.
+  heard: Greg Odin went first in the 2007 draft and played 105 games. The next three picks are still in the NBA. Kevin Durant went second to the Seattle SuperSonics, a team that no longer exists. Now he's a Houston rocket. Al Horford went third. He's now the second oldest player in the league, behind only LeBron. Mike Conley went fourth. He signed with the Celtics this summer. Odin played 105 games. The three picks right after him have played 3 ,610.

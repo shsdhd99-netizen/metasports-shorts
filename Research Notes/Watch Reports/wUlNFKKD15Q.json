@@ -1,0 +1,127 @@
+{
+ "length_s": 28.3,
+ "topic": "A humorous montage of NBA players Anthony Edwards and LaMelo Ball in interviews and funny moments.",
+ "lane": "moment",
+ "hook": {
+  "first_words": "bro I think this NBA duo is gonna be fun to watch in the league",
+  "first_frame": "Anthony Edwards and LaMelo Ball posing in Timberwolves jerseys against a blue backdrop",
+  "on_screen_text_0_3s": "bro i think this NBA duo is gonna be fun to watch in the league",
+  "shots_in_first_3s": 3
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 1.7,
+   "shows": "Anthony Edwards and LaMelo Ball posing in Timberwolves jerseys",
+   "kind": "face"
+  },
+  {
+   "start_s": 1.7,
+   "end_s": 3.6,
+   "shows": "Anthony Edwards and LaMelo Ball laughing and tapping fists at a table",
+   "kind": "face"
+  },
+  {
+   "start_s": 3.6,
+   "end_s": 7.9,
+   "shows": "LaMelo Ball during a post-game interview making funny faces",
+   "kind": "face"
+  },
+  {
+   "start_s": 7.9,
+   "end_s": 12.1,
+   "shows": "Anthony Edwards resting his chin on his hand in an interview",
+   "kind": "face"
+  },
+  {
+   "start_s": 12.1,
+   "end_s": 18.5,
+   "shows": "LaMelo Ball smiling and laughing during a press conference",
+   "kind": "face"
+  },
+  {
+   "start_s": 18.5,
+   "end_s": 20.3,
+   "shows": "Anthony Edwards listening attentively at a press conference",
+   "kind": "face"
+  },
+  {
+   "start_s": 20.3,
+   "end_s": 23.9,
+   "shows": "Anthony Edwards talking during a press conference",
+   "kind": "face"
+  },
+  {
+   "start_s": 23.9,
+   "end_s": 26.9,
+   "shows": "Charles Barkley talking on a sports television show",
+   "kind": "face"
+  },
+  {
+   "start_s": 26.9,
+   "end_s": 28.3,
+   "shows": "Anthony Edwards wearing headphones on the court",
+   "kind": "face"
+  }
+ ],
+ "shot_count": 9,
+ "average_shot_s": 3.1,
+ "longest_shot_s": 4.3,
+ "voice": {
+  "type": "none",
+  "gender": "unknown",
+  "words_per_minute_estimate": 0,
+  "tone": "unknown",
+  "original_audio_under_voice": true
+ },
+ "music": {
+  "present": true,
+  "style": "upbeat hip hop / meme background beat",
+  "level_vs_voice": "equal",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "mixed",
+  "position": "middle",
+  "colours": "white and green",
+  "highlight_style": "word-by-word highlight in green or red"
+ },
+ "text_overlays": [],
+ "cards_or_graphics": 0,
+ "framing": "crop",
+ "ending": {
+  "last_words": "bring ya a**!",
+  "last_frame": "Anthony Edwards talking into a headset microphone on the court",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "bro i think this NBA duo is gonna be fun to watch in the league",
+ "retention_tricks": [
+  "rapid cuts between different funny interview moments",
+  "dynamic word-by-word caption highlighting",
+  "zooms and face-cam close-ups"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "Engaging clips featuring popular NBA personalities Anthony Edwards and LaMelo Ball",
+  "Humorous and unfiltered interview moments that appeal to basketball fans",
+  "Fast pacing with dynamic captions and background music"
+ ],
+ "_meta": {
+  "source": "wUlNFKKD15Q",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

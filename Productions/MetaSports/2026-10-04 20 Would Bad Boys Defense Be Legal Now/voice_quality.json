@@ -1,0 +1,40 @@
+[
+ {
+  "name": "2026-10-04 20 Would Bad Boys D#0",
+  "dur": 11.28,
+  "voiced": 0.74,
+  "hnr": 7.5,
+  "jitter": 3.22,
+  "shimmer": 12.17,
+  "jumps": 0.0,
+  "clicks": 617.1,
+  "hf": 4.1,
+  "f0_med": 184.0,
+  "verdict": "REDO",
+  "problems": [
+   "HNR 7.5 dB (noisy/robotic)",
+   "jitter 3.22% (shaky)",
+   "shimmer 12.17% (uneven loudness)",
+   "617.1 clicks/min"
+  ]
+ },
+ {
+  "name": "2026-10-04 20 Would Bad Boys D#2",
+  "dur": 11.0,
+  "voiced": 0.66,
+  "hnr": 7.8,
+  "jitter": 2.87,
+  "shimmer": 10.95,
+  "jumps": 0.0,
+  "clicks": 627.0,
+  "hf": 2.62,
+  "f0_med": 206.0,
+  "verdict": "REDO",
+  "problems": [
+   "HNR 7.8 dB (noisy/robotic)",
+   "jitter 2.87% (shaky)",
+   "shimmer 10.95% (uneven loudness)",
+   "627.0 clicks/min"
+  ]
+ }
+]

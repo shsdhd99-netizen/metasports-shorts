@@ -1,0 +1,21 @@
+R3_P1_ref            17.83s wpm 237 WER   3.4/  3.4 pitchSD 4.83 loudSD 3.0 HNR 7.8 gaps>.3 2
+R3_X1_ref            19.04s wpm 224 WER   0.0/  3.4 pitchSD 5.19 loudSD 3.59 HNR 8.2 gaps>.3 4
+R3_X3_ref            18.72s wpm 227 WER   5.2/  5.2 pitchSD 4.75 loudSD 3.97 HNR 7.8 gaps>.3 7
+R3_X4_ref            19.69s wpm 215 WER   1.7/  1.7 pitchSD 4.43 loudSD 3.09 HNR 10.2 gaps>.3 8
+R3_X5_ref             22.8s wpm 184 WER   3.4/  6.9 pitchSD 5.27 loudSD 2.91 HNR 8.6 gaps>.3 5
+R3_P0_story_t1       18.16s wpm 265 WER   7.8/  7.8 pitchSD 4.88 loudSD 2.91 HNR 8.5 gaps>.3 0
+R3_P0_story_t2       18.02s wpm 267 WER   3.9/  5.2 pitchSD 3.8 loudSD 2.63 HNR 8.9 gaps>.3 0
+R3_P1_story_t1       21.55s wpm 224 WER   3.9/  3.9 pitchSD 4.62 loudSD 2.87 HNR 8.7 gaps>.3 1
+R3_P1_story_t2       20.71s wpm 232 WER   3.9/  3.9 pitchSD 5.05 loudSD 2.77 HNR 9.8 gaps>.3 0
+R3_X1_story_t1       20.94s wpm 229 WER   5.2/  3.9 pitchSD 4.9 loudSD 3.33 HNR 8.1 gaps>.3 1
+R3_X1_story_t2       21.41s wpm 226 WER   3.9/  3.9 pitchSD 5.39 loudSD 3.63 HNR 7.6 gaps>.3 1
+R3_X3_story_t1       21.32s wpm 227 WER   3.9/  5.2 pitchSD 4.69 loudSD 4.29 HNR 8.3 gaps>.3 9
+R3_X3_story_t2       21.46s wpm 225 WER   5.2/  6.5 pitchSD 4.75 loudSD 4.86 HNR 7.8 gaps>.3 8
+R3_X4_story_t1        22.2s wpm 217 WER   3.9/  3.9 pitchSD 3.84 loudSD 3.38 HNR 10.5 gaps>.3 7
+R3_X4_story_t2       22.85s wpm 211 WER   5.2/  5.2 pitchSD 3.86 loudSD 3.32 HNR 10.9 gaps>.3 8
+Loaded the voice encoder model on cpu in 0.03 seconds.
+P0_clone_prod {'take_similarity': 0.983, 'wpm_t1_t2': [265, 267], 'pitch_sd_t1_t2': [4.88, 3.8], 'similarity_to_old_voice': 0.95}
+P1_clone_fixed {'take_similarity': 0.98, 'wpm_t1_t2': [224, 232], 'pitch_sd_t1_t2': [4.62, 5.05], 'similarity_to_old_voice': 0.969}
+X1_alex_s12 {'take_similarity': 0.99, 'wpm_t1_t2': [229, 226], 'pitch_sd_t1_t2': [4.9, 5.39], 'similarity_to_old_voice': 0.719}
+X3_lucan_s12 {'take_similarity': 0.976, 'wpm_t1_t2': [227, 225], 'pitch_sd_t1_t2': [4.69, 4.75], 'similarity_to_old_voice': 0.706}
+X4_jon_s12 {'take_similarity': 0.991, 'wpm_t1_t2': [217, 211], 'pitch_sd_t1_t2': [3.84, 3.86], 'similarity_to_old_voice': 0.636}

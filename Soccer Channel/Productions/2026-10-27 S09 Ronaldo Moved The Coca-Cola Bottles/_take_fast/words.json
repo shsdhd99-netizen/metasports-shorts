@@ -1,0 +1,952 @@
+[
+ {
+  "word": "The",
+  "start": 0.0,
+  "end": 0.104
+ },
+ {
+  "word": "player",
+  "start": 0.139,
+  "end": 0.372
+ },
+ {
+  "word": "who",
+  "start": 0.406,
+  "end": 0.476
+ },
+ {
+  "word": "moved",
+  "start": 0.522,
+  "end": 0.685
+ },
+ {
+  "word": "two",
+  "start": 0.708,
+  "end": 0.848
+ },
+ {
+  "word": "Coca-Cola",
+  "start": 0.917,
+  "end": 1.358
+ },
+ {
+  "word": "bottles",
+  "start": 1.405,
+  "end": 1.707
+ },
+ {
+  "word": "at",
+  "start": 1.753,
+  "end": 1.846
+ },
+ {
+  "word": "the",
+  "start": 1.869,
+  "end": 1.939
+ },
+ {
+  "word": "Euros.",
+  "start": 1.997,
+  "end": 2.438
+ },
+ {
+  "word": "Back",
+  "start": 2.473,
+  "end": 2.659
+ },
+ {
+  "word": "in",
+  "start": 2.705,
+  "end": 2.752
+ },
+ {
+  "word": "2021,",
+  "start": 2.798,
+  "end": 3.715
+ },
+ {
+  "word": "Cristiano",
+  "start": 3.738,
+  "end": 4.18
+ },
+ {
+  "word": "Ronaldo",
+  "start": 4.226,
+  "end": 4.621
+ },
+ {
+  "word": "sat",
+  "start": 4.702,
+  "end": 4.888
+ },
+ {
+  "word": "down",
+  "start": 4.934,
+  "end": 5.074
+ },
+ {
+  "word": "for",
+  "start": 5.108,
+  "end": 5.178
+ },
+ {
+  "word": "a",
+  "start": 5.213,
+  "end": 5.236
+ },
+ {
+  "word": "press",
+  "start": 5.283,
+  "end": 5.457
+ },
+ {
+  "word": "conference",
+  "start": 5.503,
+  "end": 5.782
+ },
+ {
+  "word": "in",
+  "start": 5.805,
+  "end": 5.851
+ },
+ {
+  "word": "Budapest,",
+  "start": 5.898,
+  "end": 6.478
+ },
+ {
+  "word": "the",
+  "start": 6.502,
+  "end": 6.571
+ },
+ {
+  "word": "day",
+  "start": 6.641,
+  "end": 6.769
+ },
+ {
+  "word": "before",
+  "start": 6.815,
+  "end": 7.024
+ },
+ {
+  "word": "Portugal's",
+  "start": 7.07,
+  "end": 7.442
+ },
+ {
+  "word": "first",
+  "start": 7.488,
+  "end": 7.709
+ },
+ {
+  "word": "game.",
+  "start": 7.755,
+  "end": 8.115
+ },
+ {
+  "word": "In",
+  "start": 8.139,
+  "end": 8.231
+ },
+ {
+  "word": "front",
+  "start": 8.266,
+  "end": 8.382
+ },
+ {
+  "word": "of",
+  "start": 8.406,
+  "end": 8.452
+ },
+ {
+  "word": "him",
+  "start": 8.498,
+  "end": 8.568
+ },
+ {
+  "word": "were",
+  "start": 8.603,
+  "end": 8.707
+ },
+ {
+  "word": "two",
+  "start": 8.742,
+  "end": 8.905
+ },
+ {
+  "word": "bottles",
+  "start": 8.963,
+  "end": 9.242
+ },
+ {
+  "word": "of",
+  "start": 9.276,
+  "end": 9.322
+ },
+ {
+  "word": "Coca-Cola.",
+  "start": 9.369,
+  "end": 10.019
+ },
+ {
+  "word": "And",
+  "start": 10.054,
+  "end": 10.158
+ },
+ {
+  "word": "Coca-Cola",
+  "start": 10.205,
+  "end": 10.727
+ },
+ {
+  "word": "was",
+  "start": 10.785,
+  "end": 10.878
+ },
+ {
+  "word": "an",
+  "start": 10.913,
+  "end": 10.959
+ },
+ {
+  "word": "official",
+  "start": 10.994,
+  "end": 11.308
+ },
+ {
+  "word": "sponsor",
+  "start": 11.354,
+  "end": 11.726
+ },
+ {
+  "word": "of",
+  "start": 11.761,
+  "end": 11.807
+ },
+ {
+  "word": "the",
+  "start": 11.842,
+  "end": 11.911
+ },
+ {
+  "word": "tournament.",
+  "start": 11.946,
+  "end": 12.283
+ },
+ {
+  "word": "Ronaldo",
+  "start": 12.318,
+  "end": 12.655
+ },
+ {
+  "word": "looked",
+  "start": 12.724,
+  "end": 12.875
+ },
+ {
+  "word": "at",
+  "start": 12.898,
+  "end": 12.945
+ },
+ {
+  "word": "the",
+  "start": 12.968,
+  "end": 13.038
+ },
+ {
+  "word": "bottles.",
+  "start": 13.072,
+  "end": 13.514
+ },
+ {
+  "word": "He",
+  "start": 13.537,
+  "end": 13.583
+ },
+ {
+  "word": "picked",
+  "start": 13.63,
+  "end": 13.781
+ },
+ {
+  "word": "them",
+  "start": 13.804,
+  "end": 13.897
+ },
+ {
+  "word": "up.",
+  "start": 13.966,
+  "end": 14.129
+ },
+ {
+  "word": "And",
+  "start": 14.152,
+  "end": 14.233
+ },
+ {
+  "word": "he",
+  "start": 14.268,
+  "end": 14.315
+ },
+ {
+  "word": "moved",
+  "start": 14.384,
+  "end": 14.593
+ },
+ {
+  "word": "them",
+  "start": 14.617,
+  "end": 14.709
+ },
+ {
+  "word": "out",
+  "start": 14.733,
+  "end": 14.826
+ },
+ {
+  "word": "of",
+  "start": 14.849,
+  "end": 14.895
+ },
+ {
+  "word": "the",
+  "start": 14.918,
+  "end": 14.988
+ },
+ {
+  "word": "camera's",
+  "start": 15.011,
+  "end": 15.325
+ },
+ {
+  "word": "view.",
+  "start": 15.371,
+  "end": 15.72
+ },
+ {
+  "word": "Then",
+  "start": 15.743,
+  "end": 15.87
+ },
+ {
+  "word": "he",
+  "start": 15.894,
+  "end": 15.94
+ },
+ {
+  "word": "held",
+  "start": 15.998,
+  "end": 16.161
+ },
+ {
+  "word": "up",
+  "start": 16.196,
+  "end": 16.254
+ },
+ {
+  "word": "a",
+  "start": 16.288,
+  "end": 16.312
+ },
+ {
+  "word": "bottle",
+  "start": 16.358,
+  "end": 16.555
+ },
+ {
+  "word": "of",
+  "start": 16.579,
+  "end": 16.625
+ },
+ {
+  "word": "water,",
+  "start": 16.706,
+  "end": 17.055
+ },
+ {
+  "word": "and",
+  "start": 17.078,
+  "end": 17.171
+ },
+ {
+  "word": "said",
+  "start": 17.217,
+  "end": 17.368
+ },
+ {
+  "word": "one",
+  "start": 17.438,
+  "end": 17.682
+ },
+ {
+  "word": "word:",
+  "start": 17.728,
+  "end": 18.181
+ },
+ {
+  "word": "\"Agua.\"",
+  "start": 18.204,
+  "end": 18.761
+ },
+ {
+  "word": "The",
+  "start": 18.785,
+  "end": 18.877
+ },
+ {
+  "word": "clip",
+  "start": 18.912,
+  "end": 19.109
+ },
+ {
+  "word": "went",
+  "start": 19.167,
+  "end": 19.307
+ },
+ {
+  "word": "everywhere.",
+  "start": 19.4,
+  "end": 20.05
+ },
+ {
+  "word": "Headlines",
+  "start": 20.085,
+  "end": 20.456
+ },
+ {
+  "word": "said",
+  "start": 20.479,
+  "end": 20.595
+ },
+ {
+  "word": "Ronaldo",
+  "start": 20.642,
+  "end": 20.967
+ },
+ {
+  "word": "had",
+  "start": 21.025,
+  "end": 21.095
+ },
+ {
+  "word": "wiped",
+  "start": 21.141,
+  "end": 21.35
+ },
+ {
+  "word": "billions",
+  "start": 21.431,
+  "end": 21.791
+ },
+ {
+  "word": "off",
+  "start": 21.838,
+  "end": 21.907
+ },
+ {
+  "word": "Coca-Cola.",
+  "start": 21.954,
+  "end": 22.581
+ },
+ {
+  "word": "But",
+  "start": 22.604,
+  "end": 22.685
+ },
+ {
+  "word": "that",
+  "start": 22.709,
+  "end": 22.859
+ },
+ {
+  "word": "story",
+  "start": 22.906,
+  "end": 23.161
+ },
+ {
+  "word": "fell",
+  "start": 23.219,
+  "end": 23.347
+ },
+ {
+  "word": "apart.",
+  "start": 23.394,
+  "end": 23.777
+ },
+ {
+  "word": "Snopes",
+  "start": 23.823,
+  "end": 24.137
+ },
+ {
+  "word": "found",
+  "start": 24.195,
+  "end": 24.357
+ },
+ {
+  "word": "Coca-Cola's",
+  "start": 24.404,
+  "end": 24.868
+ },
+ {
+  "word": "stock",
+  "start": 24.891,
+  "end": 25.135
+ },
+ {
+  "word": "was",
+  "start": 25.181,
+  "end": 25.251
+ },
+ {
+  "word": "already",
+  "start": 25.298,
+  "end": 25.518
+ },
+ {
+  "word": "falling",
+  "start": 25.576,
+  "end": 25.89
+ },
+ {
+  "word": "before",
+  "start": 25.924,
+  "end": 26.133
+ },
+ {
+  "word": "he",
+  "start": 26.157,
+  "end": 26.203
+ },
+ {
+  "word": "even",
+  "start": 26.261,
+  "end": 26.459
+ },
+ {
+  "word": "sat",
+  "start": 26.505,
+  "end": 26.691
+ },
+ {
+  "word": "down.",
+  "start": 26.749,
+  "end": 27.097
+ },
+ {
+  "word": "A",
+  "start": 27.12,
+  "end": 27.155
+ },
+ {
+  "word": "tournament",
+  "start": 27.202,
+  "end": 27.445
+ },
+ {
+  "word": "spokesperson",
+  "start": 27.469,
+  "end": 27.979
+ },
+ {
+  "word": "simply",
+  "start": 28.049,
+  "end": 28.281
+ },
+ {
+  "word": "said",
+  "start": 28.328,
+  "end": 28.479
+ },
+ {
+  "word": "everyone",
+  "start": 28.548,
+  "end": 28.85
+ },
+ {
+  "word": "is",
+  "start": 28.873,
+  "end": 28.931
+ },
+ {
+  "word": "entitled",
+  "start": 28.978,
+  "end": 29.454
+ },
+ {
+  "word": "to",
+  "start": 29.477,
+  "end": 29.524
+ },
+ {
+  "word": "their",
+  "start": 29.57,
+  "end": 29.686
+ },
+ {
+  "word": "drink",
+  "start": 29.733,
+  "end": 29.907
+ },
+ {
+  "word": "preferences.",
+  "start": 29.953,
+  "end": 30.603
+ },
+ {
+  "word": "But",
+  "start": 30.65,
+  "end": 30.801
+ },
+ {
+  "word": "the",
+  "start": 30.824,
+  "end": 30.894
+ },
+ {
+  "word": "bottles",
+  "start": 30.963,
+  "end": 31.3
+ },
+ {
+  "word": "kept",
+  "start": 31.346,
+  "end": 31.497
+ },
+ {
+  "word": "moving.",
+  "start": 31.544,
+  "end": 31.927
+ },
+ {
+  "word": "At",
+  "start": 31.95,
+  "end": 32.066
+ },
+ {
+  "word": "his",
+  "start": 32.113,
+  "end": 32.194
+ },
+ {
+  "word": "own",
+  "start": 32.229,
+  "end": 32.333
+ },
+ {
+  "word": "press",
+  "start": 32.38,
+  "end": 32.565
+ },
+ {
+  "word": "conference,",
+  "start": 32.612,
+  "end": 33.03
+ },
+ {
+  "word": "Paul",
+  "start": 33.111,
+  "end": 33.308
+ },
+ {
+  "word": "Pogba",
+  "start": 33.378,
+  "end": 33.703
+ },
+ {
+  "word": "saw",
+  "start": 33.761,
+  "end": 33.924
+ },
+ {
+  "word": "a",
+  "start": 33.959,
+  "end": 33.982
+ },
+ {
+  "word": "bottle",
+  "start": 34.017,
+  "end": 34.237
+ },
+ {
+  "word": "of",
+  "start": 34.26,
+  "end": 34.307
+ },
+ {
+  "word": "Heineken",
+  "start": 34.353,
+  "end": 34.69
+ },
+ {
+  "word": "in",
+  "start": 34.725,
+  "end": 34.771
+ },
+ {
+  "word": "front",
+  "start": 34.806,
+  "end": 34.934
+ },
+ {
+  "word": "of",
+  "start": 34.957,
+  "end": 35.004
+ },
+ {
+  "word": "him.",
+  "start": 35.05,
+  "end": 35.166
+ },
+ {
+  "word": "He",
+  "start": 35.189,
+  "end": 35.236
+ },
+ {
+  "word": "picked",
+  "start": 35.282,
+  "end": 35.456
+ },
+ {
+  "word": "it",
+  "start": 35.48,
+  "end": 35.526
+ },
+ {
+  "word": "up,",
+  "start": 35.572,
+  "end": 35.7
+ },
+ {
+  "word": "and",
+  "start": 35.723,
+  "end": 35.793
+ },
+ {
+  "word": "took",
+  "start": 35.828,
+  "end": 35.944
+ },
+ {
+  "word": "it",
+  "start": 35.967,
+  "end": 36.014
+ },
+ {
+  "word": "off",
+  "start": 36.037,
+  "end": 36.13
+ },
+ {
+  "word": "the",
+  "start": 36.153,
+  "end": 36.223
+ },
+ {
+  "word": "table.",
+  "start": 36.257,
+  "end": 36.687
+ },
+ {
+  "word": "Other",
+  "start": 36.722,
+  "end": 36.919
+ },
+ {
+  "word": "players",
+  "start": 36.954,
+  "end": 37.175
+ },
+ {
+  "word": "started",
+  "start": 37.198,
+  "end": 37.418
+ },
+ {
+  "word": "joking",
+  "start": 37.465,
+  "end": 37.766
+ },
+ {
+  "word": "about",
+  "start": 37.813,
+  "end": 38.045
+ },
+ {
+  "word": "it,",
+  "start": 38.08,
+  "end": 38.161
+ },
+ {
+  "word": "showing",
+  "start": 38.184,
+  "end": 38.416
+ },
+ {
+  "word": "off",
+  "start": 38.451,
+  "end": 38.521
+ },
+ {
+  "word": "Coke",
+  "start": 38.579,
+  "end": 38.741
+ },
+ {
+  "word": "bottles",
+  "start": 38.765,
+  "end": 39.008
+ },
+ {
+  "word": "of",
+  "start": 39.043,
+  "end": 39.09
+ },
+ {
+  "word": "their",
+  "start": 39.125,
+  "end": 39.252
+ },
+ {
+  "word": "own.",
+  "start": 39.31,
+  "end": 39.543
+ },
+ {
+  "word": "But",
+  "start": 39.577,
+  "end": 39.67
+ },
+ {
+  "word": "here's",
+  "start": 39.705,
+  "end": 39.868
+ },
+ {
+  "word": "the",
+  "start": 39.891,
+  "end": 39.961
+ },
+ {
+  "word": "wild",
+  "start": 39.995,
+  "end": 40.204
+ },
+ {
+  "word": "part.",
+  "start": 40.239,
+  "end": 40.495
+ },
+ {
+  "word": "Back",
+  "start": 40.518,
+  "end": 40.692
+ },
+ {
+  "word": "in",
+  "start": 40.738,
+  "end": 40.785
+ },
+ {
+  "word": "2006,",
+  "start": 40.831,
+  "end": 41.656
+ },
+ {
+  "word": "Ronaldo",
+  "start": 41.737,
+  "end": 42.062
+ },
+ {
+  "word": "appeared",
+  "start": 42.12,
+  "end": 42.433
+ },
+ {
+  "word": "in",
+  "start": 42.468,
+  "end": 42.515
+ },
+ {
+  "word": "a",
+  "start": 42.55,
+  "end": 42.573
+ },
+ {
+  "word": "commercial",
+  "start": 42.619,
+  "end": 42.956
+ },
+ {
+  "word": "for",
+  "start": 43.002,
+  "end": 43.072
+ },
+ {
+  "word": "Coca-Cola.",
+  "start": 43.13,
+  "end": 43.757
+ },
+ {
+  "word": "The",
+  "start": 43.78,
+  "end": 43.85
+ },
+ {
+  "word": "man",
+  "start": 43.885,
+  "end": 43.978
+ },
+ {
+  "word": "who",
+  "start": 44.001,
+  "end": 44.07
+ },
+ {
+  "word": "moved",
+  "start": 44.117,
+  "end": 44.279
+ },
+ {
+  "word": "the",
+  "start": 44.303,
+  "end": 44.372
+ },
+ {
+  "word": "bottles",
+  "start": 44.419,
+  "end": 44.709
+ },
+ {
+  "word": "had",
+  "start": 44.732,
+  "end": 44.802
+ },
+ {
+  "word": "once",
+  "start": 44.86,
+  "end": 44.988
+ },
+ {
+  "word": "been",
+  "start": 45.011,
+  "end": 45.104
+ },
+ {
+  "word": "on",
+  "start": 45.127,
+  "end": 45.173
+ },
+ {
+  "word": "the",
+  "start": 45.208,
+  "end": 45.278
+ },
+ {
+  "word": "cans.",
+  "start": 45.324,
+  "end": 45.882
+ }
+]

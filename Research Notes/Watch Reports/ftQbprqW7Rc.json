@@ -1,0 +1,187 @@
+{
+ "length_s": 77.25,
+ "topic": "The story of former FC Barcelona captain Gică Popescu, who was sent to prison for tax evasion and money laundering related to player transfers.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "Players who got sent to PRISON!",
+  "first_frame": "Football players walking out onto the pitch with a referee, alongside a creator talking into a microphone in the lower half.",
+  "on_screen_text_0_3s": "Players who got sent to PRISON!",
+  "shots_in_first_3s": 1
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 5.75,
+   "shows": "Historical football footage and creator talking",
+   "kind": "stock"
+  },
+  {
+   "start_s": 5.75,
+   "end_s": 8.5,
+   "shows": "Football players hugging",
+   "kind": "stock"
+  },
+  {
+   "start_s": 8.5,
+   "end_s": 11.5,
+   "shows": "Gheorghe Popescu being interviewed on TV",
+   "kind": "stock"
+  },
+  {
+   "start_s": 11.5,
+   "end_s": 13.75,
+   "shows": "Football match action",
+   "kind": "stock"
+  },
+  {
+   "start_s": 13.75,
+   "end_s": 16.5,
+   "shows": "Old TV news report showing Popescu",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 16.5,
+   "end_s": 18.75,
+   "shows": "Fans cheering in stadium",
+   "kind": "stock"
+  },
+  {
+   "start_s": 18.75,
+   "end_s": 21.75,
+   "shows": "Popescu walking out of a building with paparazzi",
+   "kind": "stock"
+  },
+  {
+   "start_s": 21.75,
+   "end_s": 28.5,
+   "shows": "Paul Codrea playing in match and club logos",
+   "kind": "stock"
+  },
+  {
+   "start_s": 28.5,
+   "end_s": 31.75,
+   "shows": "Snowy stadium and Kevin Hart reaction meme",
+   "kind": "stock"
+  },
+  {
+   "start_s": 31.75,
+   "end_s": 37.5,
+   "shows": "Florin Bratu playing and lifting trophy",
+   "kind": "stock"
+  },
+  {
+   "start_s": 37.5,
+   "end_s": 40.0,
+   "shows": "Football match action",
+   "kind": "stock"
+  },
+  {
+   "start_s": 40.0,
+   "end_s": 45.5,
+   "shows": "Newspaper headline about Popescu and a meme face",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 45.5,
+   "end_s": 51.75,
+   "shows": "Archive footage outside building and match stadium view",
+   "kind": "stock"
+  },
+  {
+   "start_s": 51.75,
+   "end_s": 57.25,
+   "shows": "Building exterior and Popescu interview",
+   "kind": "stock"
+  },
+  {
+   "start_s": 57.25,
+   "end_s": 59.75,
+   "shows": "Old TV news files",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 59.75,
+   "end_s": 63.5,
+   "shows": "Popescu walking outside and a student smiling with textbook meme",
+   "kind": "stock"
+  },
+  {
+   "start_s": 63.5,
+   "end_s": 70.0,
+   "shows": "Graphic with 'APPEAL' and a red cross, and a prairie dog looking meme",
+   "kind": "stock"
+  },
+  {
+   "start_s": 70.0,
+   "end_s": 72.0,
+   "shows": "TV screen showing trial document list",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 72.0,
+   "end_s": 77.25,
+   "shows": "Political assembly and Popescu in suit",
+   "kind": "stock"
+  }
+ ],
+ "shot_count": 19,
+ "average_shot_s": 4.07,
+ "longest_shot_s": 6.5,
+ "voice": {
+  "type": "human",
+  "gender": "male",
+  "words_per_minute_estimate": 160,
+  "tone": "engaging, narrative",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "suspenseful documentary background beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "mixed",
+  "position": "middle",
+  "colours": "white with yellow highlights",
+  "highlight_style": "active word highlighting in yellow"
+ },
+ "text_overlays": [],
+ "cards_or_graphics": 4,
+ "framing": "split screen with 16:9 archival or meme footage on top and creator in a 1:1 square on bottom",
+ "ending": {
+  "last_words": "He was the favorite to win it.",
+  "last_frame": "Popescu in a suit looking serious in front of a stadium background.",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "Players who got sent to PRISON! Gheorghe Popescu, better known as Gica Popescu, was the captain of FC Barcelona and one of the greatest players Romania has ever produced. And after retiring, he stayed deeply connected to Romanian football. Between 1999 and 2005, he got involved in a scheme surrounding 12 different player-transfers from Romanian clubs to foreign clubs. But this wasn't some behind-the-scenes disagreement over agent fees. When Paul Codrea got transferred from Dinamo București to Genoa in 2001, the Italian club paid $2.56 million, but Dinamo București reported that they received 70,000. When Florin Bratu got transferred to Galatasaray, the Turkish club paid 2.75 million, but Rapid București reported 100,000. The money that wasn't being reported was funneled through offshore companies, and Popescu was right in the middle of all of it. Prosecutors estimated that the state lost 1.7 million euros in taxes, while clubs lost around 10 million euros total. And in 2014, Romania's Court of Appeal sentenced Popescu to 3 years and 1 month in prison for tax evasion and money-laundering. He originally had a suspended sentence, meaning he wouldn't have served any time, but he appealed, and the appeals court came back even harder and gave him actual prison time. But here's a detail that makes the story unforgettable. That sentence was handed down on March 4th, and the election for the president of the Romanian Football Association was scheduled for March 5th. He was the favorite to win it.",
+ "retention_tricks": [
+  "split screen layout keeping visual motion on top",
+  "frequent meme pop-ups",
+  "cliffhanger ending about the timing of the prison sentence"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": false,
+  "ends_on_payoff": true,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "Compelling true-crime football story with high stakes and an ironic twist ending",
+  "Dynamic editing with constant meme insertions and archival footage changes",
+  "Clear narration pace matched with word-by-word highlighted captions"
+ ],
+ "_meta": {
+  "source": "ftQbprqW7Rc",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

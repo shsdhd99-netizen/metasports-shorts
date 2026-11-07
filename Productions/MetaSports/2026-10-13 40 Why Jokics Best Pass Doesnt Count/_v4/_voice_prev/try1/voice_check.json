@@ -1,0 +1,66 @@
+{
+ "verdict": "CHECK",
+ "wpm": 214,
+ "issues": [],
+ "notes": [
+  " 2.56s  \"jokic\" heard as \"yokeech\" (close; check the name)",
+  "10.48s  \"jokic\" heard as \"yokeech\" (close; check the name)",
+  "16.78s  \"preseason\" heard as \"pre season\" (close; check the name)",
+  "19.24s  \"preseason\" heard as \"pre season\" (close; check the name)",
+  "16.25s  very quiet word \"It\" (-11 dB)",
+  "17.80s  very quiet word \"in\" (-12 dB)",
+  "19.15s  very quiet word \"And\" (-13 dB)",
+  "22.77s  very quiet word \"and\" (-12 dB)"
+ ],
+ "heard": "This pass doesn't even count. A week later, Yokeech said it was probably the best pass of his NBA career. No look, behind the back, corner to corner. Cam Johnson buries the three, Yokeech has 6 ,080 assists in the record book. So this should be number 6 ,081. It isn't, it happened in a pre -season game, in a college gym in Boulder, and pre -season assists never go in the book. So his total still reads 6 ,080, not 81.",
+ "mismatches": [
+  {
+   "at": 2.56,
+   "script": "jokic",
+   "heard": "yokeech",
+   "similar": 0.77
+  },
+  {
+   "at": 10.48,
+   "script": "jokic",
+   "heard": "yokeech",
+   "similar": 0.77
+  },
+  {
+   "at": 11.24,
+   "script": "thousand and eighty",
+   "heard": "080",
+   "similar": 1.0
+  },
+  {
+   "at": 14.42,
+   "script": "thousand and eighty 1",
+   "heard": "081",
+   "similar": 1.0
+  },
+  {
+   "at": 16.78,
+   "script": "preseason",
+   "heard": "pre season",
+   "similar": 1.0
+  },
+  {
+   "at": 19.24,
+   "script": "preseason",
+   "heard": "pre season",
+   "similar": 1.0
+  },
+  {
+   "at": 22.34,
+   "script": "thousand and eighty",
+   "heard": "080",
+   "similar": 1.0
+  },
+  {
+   "at": 23.34,
+   "script": "eighty 1",
+   "heard": "81",
+   "similar": 1.0
+  }
+ ]
+}

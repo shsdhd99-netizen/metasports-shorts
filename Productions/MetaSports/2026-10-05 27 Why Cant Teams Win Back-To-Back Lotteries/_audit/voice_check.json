@@ -1,0 +1,68 @@
+{
+ "verdict": "REDO",
+ "wpm": 248,
+ "issues": [
+  "10.94s  script \"point\" but heard \"(nothing)\""
+ ],
+ "notes": [
+  " 4.26s  \"19 ninety 2\" heard as \"1992\" (close; check the name)",
+  " 7.12s  \"sixty 6\" heard as \"66\" (close; check the name)",
+  " 8.58s  \"20 13\" heard as \"2013\" (close; check the name)",
+  " 9.32s  \"20 14\" heard as \"2014\" (close; check the name)",
+  "12.72s  \"20 7\" heard as \"27\" (close; check the name)",
+  "13.70s  \"team's\" heard as \"teams\" (close; check the name)",
+  "20.00s  \"a j dybantsa\" heard as \"aj dibant's saw\" (close; check the name)",
+  " 3.19s  very quiet word \"it.\" (-17 dB)"
+ ],
+ "heard": "Two years in a row, one team beat the lottery. Now the NBA has banned it. Orlando took Shaq in 1992, then won again a year later, with one ball in 66. Cleveland did it in 2013 and 2014. The second time at 1 .7%. Starting with the 20 -27 draft, no teams pick can be first two years in a row or top five three years running and the Wizards just used up their turn. They won this year's lottery and took AJ DiBant's saw. So next May, even if the Wizards ball comes up first, they cannot pick first.",
+ "mismatches": [
+  {
+   "at": 4.26,
+   "script": "19 ninety 2",
+   "heard": "1992",
+   "similar": 1.0
+  },
+  {
+   "at": 7.12,
+   "script": "sixty 6",
+   "heard": "66",
+   "similar": 1.0
+  },
+  {
+   "at": 8.58,
+   "script": "20 13",
+   "heard": "2013",
+   "similar": 1.0
+  },
+  {
+   "at": 9.32,
+   "script": "20 14",
+   "heard": "2014",
+   "similar": 1.0
+  },
+  {
+   "at": 10.94,
+   "script": "point",
+   "heard": "",
+   "similar": 0.0
+  },
+  {
+   "at": 12.72,
+   "script": "20 7",
+   "heard": "27",
+   "similar": 1.0
+  },
+  {
+   "at": 13.7,
+   "script": "team's",
+   "heard": "teams",
+   "similar": 0.91
+  },
+  {
+   "at": 20.0,
+   "script": "a j dybantsa",
+   "heard": "aj dibant's saw",
+   "similar": 0.78
+  }
+ ]
+}

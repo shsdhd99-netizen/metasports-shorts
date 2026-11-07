@@ -1,0 +1,6 @@
+[
+ {"sfx": "whoosh", "at": 1.00, "gain": -11, "why": "cut to the arena at night"},
+ {"sfx": "click", "at": 7.31, "gain": -10, "why": "the Vice City poster"},
+ {"sfx": "camera", "at": 12.32, "gain": -8, "why": "Adams at the mic"},
+ {"sfx": "whoosh_long", "at": 21.09, "gain": -17, "why": "cut back to the tower for the November payoff"}
+]

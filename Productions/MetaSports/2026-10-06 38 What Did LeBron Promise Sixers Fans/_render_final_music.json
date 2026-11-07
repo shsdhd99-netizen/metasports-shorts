@@ -1,0 +1,39 @@
+{
+ "engine": "ffmpeg",
+ "out": "final_music.mp4",
+ "loop_fix": true,
+ "fits": [
+  {
+   "shot": 4,
+   "clip": "c_16.mp4",
+   "fit": "slowed",
+   "factor": 1.26
+  },
+  {
+   "shot": 19,
+   "clip": "L5.mp4",
+   "fit": "slowed",
+   "factor": 1.221
+  },
+  {
+   "shot": 20,
+   "clip": "Qquote.mp4",
+   "fit": "slowed",
+   "factor": 1.094
+  }
+ ],
+ "music": {
+  "track": "Library/Music/eleven_emotional_01.mp3",
+  "track_start": 4.0,
+  "in": 0.0,
+  "out": 20.15,
+  "hit": null,
+  "hit_on": null,
+  "segment_lufs": -16.9,
+  "gain_db": -18.1,
+  "bed_lu": -21.0,
+  "gap_lift_db": 3.0,
+  "gaps": [],
+  "drops": []
+ }
+}

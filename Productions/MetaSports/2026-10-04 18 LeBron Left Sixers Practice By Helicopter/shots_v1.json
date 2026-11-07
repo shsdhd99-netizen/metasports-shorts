@@ -1,0 +1,126 @@
+[
+ {
+  "clip": "H_dunk.mp4",
+  "start": 0,
+  "why": "LeBron dunk hook",
+  "kind": "action",
+  "zoom": 0.1
+ },
+ {
+  "clip": "H_face76.mp4",
+  "start": 0.75,
+  "why": "LeBron 76 logo",
+  "kind": "action",
+  "zoom": 0.08
+ },
+ {
+  "clip": "H_james.mp4",
+  "start": 1.5,
+  "why": "LeBron close-up",
+  "kind": "action",
+  "zoom": 0.06
+ },
+ {
+  "clip": "Q1_placard.mp4",
+  "start": 2.45,
+  "why": "you guys know who I am",
+  "kind": "quote"
+ },
+ {
+  "clip": "H_pistons.mp4",
+  "start": 3.95,
+  "why": "signed M",
+  "kind": "action",
+  "zoom": 0.06
+ },
+ {
+  "clip": "H_layup.mp4",
+  "start": 4.95,
+  "why": "",
+  "kind": "action"
+ },
+ {
+  "clip": "H_30.mp4",
+  "start": 5.8,
+  "why": "one promise",
+  "kind": "action",
+  "zoom": 0.06
+ },
+ {
+  "clip": "Q2_second.mp4",
+  "start": 7.02,
+  "why": "didnt leave my family",
+  "kind": "quote"
+ },
+ {
+  "clip": "H_26.mp4",
+  "start": 10.07,
+  "why": "Philly title drought",
+  "kind": "action",
+  "zoom": 0.06
+ },
+ {
+  "clip": "H_32.mp4",
+  "start": 11.2,
+  "why": "1983",
+  "kind": "action"
+ },
+ {
+  "clip": "H_46.mp4",
+  "start": 12.3,
+  "why": "Knicks swept them",
+  "kind": "action",
+  "zoom": 0.06
+ },
+ {
+  "clip": "H_20.mp4",
+  "start": 13.3,
+  "why": "four games",
+  "kind": "action"
+ },
+ {
+  "clip": "HE1.mp4",
+  "start": 14.4,
+  "why": "next day helicopter",
+  "kind": "action",
+  "zoom": 0.05
+ },
+ {
+  "clip": "HE2.mp4",
+  "start": 15.4,
+  "why": "left practice in a helicopter",
+  "kind": "action"
+ },
+ {
+  "clip": "HE3.mp4",
+  "start": 16.6,
+  "why": "45 min to NY",
+  "kind": "action"
+ },
+ {
+  "clip": "Q3_maxey.mp4",
+  "start": 18.16,
+  "why": "Maxey on the curb",
+  "kind": "quote"
+ },
+ {
+  "clip": "H_rox.mp4",
+  "start": 20.74,
+  "why": "all in on Philly",
+  "kind": "action",
+  "zoom": 0.06
+ },
+ {
+  "clip": "H_52.mp4",
+  "start": 21.64,
+  "why": "or just flying through",
+  "kind": "action"
+ },
+ {
+  "clip": "H_dunk.mp4",
+  "start": 22.54,
+  "why": "loop to first shot",
+  "kind": "action",
+  "zoom": 0.1
+ }
+]

@@ -1,0 +1,55 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Montserrat Black,86,&H00FFFFFF,&H00FFFFFF,&H00000000,&H99000000,0,0,0,0,95,100,1,0,1,6,3,5,70,70,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.88,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}RUSSELL WESTBROOK
+Dialogue: 0,0:00:00.88,0:00:01.74,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NEEDED EIGHTEEN
+Dialogue: 0,0:00:01.74,0:00:02.40,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SEASONS TO SET
+Dialogue: 0,0:00:02.40,0:00:02.98,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE TRIPLE-DOUBLE
+Dialogue: 0,0:00:02.98,0:00:03.38,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}RECORD.
+Dialogue: 0,0:00:03.38,0:00:04.06,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NIKOLA JOKIC
+Dialogue: 0,0:00:04.06,0:00:04.47,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}COULD TAKE IT
+Dialogue: 0,0:00:04.47,0:00:05.26,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BEFORE CHRISTMAS.
+Dialogue: 0,0:00:05.26,0:00:06.00,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WESTBROOK RETIRED
+Dialogue: 0,0:00:06.00,0:00:06.38,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THIS SUMMER
+Dialogue: 0,0:00:06.38,0:00:06.68,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WITH TWO
+Dialogue: 0,0:00:06.68,0:00:07.37,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HUNDRED AND NINE.
+Dialogue: 0,0:00:07.37,0:00:08.19,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}JOKIC HAS ONE
+Dialogue: 0,0:00:08.19,0:00:08.77,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NINETY-EIGHT,
+Dialogue: 0,0:00:08.77,0:00:09.08,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN ALMOST
+Dialogue: 0,0:00:09.08,0:00:09.53,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FIVE HUNDRED
+Dialogue: 0,0:00:09.53,0:00:10.31,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FEWER GAMES.
+Dialogue: 0,0:00:10.31,0:00:10.94,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}LAST SEASON,
+Dialogue: 0,0:00:10.94,0:00:11.34,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HE GOT ONE
+Dialogue: 0,0:00:11.34,0:00:11.57,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ALMOST
+Dialogue: 0,0:00:11.57,0:00:12.19,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}EVERY OTHER NIGHT.
+Dialogue: 0,0:00:12.19,0:00:12.74,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AT THAT PACE,
+Dialogue: 0,0:00:12.74,0:00:13.07,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE TWELVE
+Dialogue: 0,0:00:13.07,0:00:13.55,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HE NEEDS TAKE
+Dialogue: 0,0:00:13.55,0:00:14.34,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ABOUT TWENTY-THREE
+Dialogue: 0,0:00:14.34,0:00:14.80,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}GAMES,
+Dialogue: 0,0:00:14.80,0:00:15.24,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND DENVER'S
+Dialogue: 0,0:00:15.24,0:00:16.03,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TWENTY-SEVENTH GAME
+Dialogue: 0,0:00:16.03,0:00:16.78,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IS CHRISTMAS DAY,
+Dialogue: 0,0:00:16.78,0:00:17.64,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AT GOLDEN STATE.
+Dialogue: 0,0:00:17.64,0:00:18.17,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}LAST CHRISTMAS,
+Dialogue: 0,0:00:18.17,0:00:18.51,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HE DROPPED
+Dialogue: 0,0:00:18.51,0:00:19.06,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FIFTY-SIX,
+Dialogue: 0,0:00:19.06,0:00:19.43,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SIXTEEN
+Dialogue: 0,0:00:19.43,0:00:20.02,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND FIFTEEN,
+Dialogue: 0,0:00:20.02,0:00:20.67,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}A LINE NOBODY
+Dialogue: 0,0:00:20.67,0:00:21.30,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN NBA HISTORY
+Dialogue: 0,0:00:21.30,0:00:22.14,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HAD EVER POSTED.
+Dialogue: 0,0:00:22.14,0:00:22.65,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THIS CHRISTMAS,
+Dialogue: 0,0:00:22.65,0:00:22.99,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE RECORD
+Dialogue: 0,0:00:22.99,0:00:23.53,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}COULD ALREADY
+Dialogue: 0,0:00:23.53,0:00:24.71,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BE HIS.

@@ -1,0 +1,16 @@
+[
+ {
+  "name": "2026-10-05 32 Why Did Spurs Lose A",
+  "dur": 23.98,
+  "voiced": 0.67,
+  "hnr": 8.0,
+  "jitter": 2.62,
+  "shimmer": 10.43,
+  "jumps": 0.0,
+  "clicks": 397.9,
+  "hf": 4.91,
+  "f0_med": 195.0,
+  "verdict": "PASS",
+  "problems": []
+ }
+]

@@ -1,0 +1,234 @@
+{
+ "length_s": 52.25,
+ "topic": "How Fidel Castro nationalized Bacardi's Cuban distillery in 1960, but failed to take the secret yeast strain that made Bacardi rum unique.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "Fidel Castro seized the Bacardi",
+  "first_frame": "Animated stick figure with Fidel Castro's head driving a military jeep.",
+  "on_screen_text_0_3s": "FIDEL CASTRO SEIZED THE BACARDI DISTILLERY IN 1960",
+  "shots_in_first_3s": 3
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 1.0,
+   "shows": "Animated Fidel Castro driving a military jeep.",
+   "kind": "other"
+  },
+  {
+   "start_s": 1.0,
+   "end_s": 2.0,
+   "shows": "Fidel Castro and armed soldiers arriving at the Bacardi distillery building.",
+   "kind": "other"
+  },
+  {
+   "start_s": 2.0,
+   "end_s": 3.0,
+   "shows": "Exterior of Bacardi distillery in 1960.",
+   "kind": "other"
+  },
+  {
+   "start_s": 3.0,
+   "end_s": 4.25,
+   "shows": "Close-up of Castro and stick figure soldiers in the jeep.",
+   "kind": "other"
+  },
+  {
+   "start_s": 4.25,
+   "end_s": 5.5,
+   "shows": "Castro and soldiers celebrating in front of the distillery building.",
+   "kind": "other"
+  },
+  {
+   "start_s": 5.5,
+   "end_s": 7.5,
+   "shows": "Inside the factory with equipment and rum bottles.",
+   "kind": "other"
+  },
+  {
+   "start_s": 7.5,
+   "end_s": 8.75,
+   "shows": "Stick figure holding the Cuban flag inside the nationalized factory.",
+   "kind": "other"
+  },
+  {
+   "start_s": 8.75,
+   "end_s": 10.25,
+   "shows": "Castro figure standing next to a Bacardi bottle on the assembly line.",
+   "kind": "other"
+  },
+  {
+   "start_s": 10.25,
+   "end_s": 15.5,
+   "shows": "Bacardi family member figure on a boat smuggling a flask of yeast strain.",
+   "kind": "other"
+  },
+  {
+   "start_s": 15.5,
+   "end_s": 16.75,
+   "shows": "Facundo Bacardi stick figure in a room of wooden rum barrels.",
+   "kind": "other"
+  },
+  {
+   "start_s": 16.75,
+   "end_s": 18.25,
+   "shows": "Distillery lab table with flasks and yeast strain magnification graphic.",
+   "kind": "other"
+  },
+  {
+   "start_s": 18.25,
+   "end_s": 20.75,
+   "shows": "Bacardi rum barrels with text Santiago de Cuba 1862.",
+   "kind": "other"
+  },
+  {
+   "start_s": 20.75,
+   "end_s": 27.0,
+   "shows": "Filtering rum through charcoal barrel with calendar showing nearly 100 years.",
+   "kind": "other"
+  },
+  {
+   "start_s": 27.0,
+   "end_s": 28.5,
+   "shows": "Castro trying to produce rum inside the seized factory.",
+   "kind": "other"
+  },
+  {
+   "start_s": 28.5,
+   "end_s": 30.5,
+   "shows": "Cuban soldier holding a box of government-produced Caney rum.",
+   "kind": "other"
+  },
+  {
+   "start_s": 30.5,
+   "end_s": 32.75,
+   "shows": "Character tasting the Cuban rum and reacting negatively.",
+   "kind": "other"
+  },
+  {
+   "start_s": 32.75,
+   "end_s": 34.75,
+   "shows": "Bacardi character with crate of rum in Puerto Rico.",
+   "kind": "other"
+  },
+  {
+   "start_s": 34.75,
+   "end_s": 36.0,
+   "shows": "Exterior of Bacardi facility with Mexico and Bahamas text overlays.",
+   "kind": "other"
+  },
+  {
+   "start_s": 36.0,
+   "end_s": 38.5,
+   "shows": "Bacardi character selling rum to customer, highlighting the bat logo.",
+   "kind": "other"
+  },
+  {
+   "start_s": 38.5,
+   "end_s": 42.75,
+   "shows": "Fruit bats hanging in distillery rafters transitioning into the Bacardi bat logo.",
+   "kind": "other"
+  },
+  {
+   "start_s": 42.75,
+   "end_s": 46.5,
+   "shows": "Casa Bacardi facility with globe graphic showing global presence.",
+   "kind": "other"
+  },
+  {
+   "start_s": 46.5,
+   "end_s": 51.5,
+   "shows": "Original distillery in Cuba operated by Cuban government soldier.",
+   "kind": "other"
+  },
+  {
+   "start_s": 51.5,
+   "end_s": 52.25,
+   "shows": "Close-up of fruit bats still hanging in the rafters.",
+   "kind": "other"
+  }
+ ],
+ "shot_count": 23,
+ "average_shot_s": 2.27,
+ "longest_shot_s": 6.25,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 155,
+  "tone": "engaging",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "upbeat background instrumental",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 1,
+  "case": "ALL CAPS",
+  "position": "top",
+  "colours": [
+   "white"
+  ],
+  "highlight_style": "none"
+ },
+ "text_overlays": [
+  {
+   "at_s": 2.5,
+   "text": "1960"
+  },
+  {
+   "at_s": 18.5,
+   "text": "SANTIAGO DE CUBA"
+  },
+  {
+   "at_s": 19.5,
+   "text": "1862"
+  },
+  {
+   "at_s": 34.75,
+   "text": "MEXICO"
+  },
+  {
+   "at_s": 43.25,
+   "text": "NOW LARGEST"
+  }
+ ],
+ "cards_or_graphics": 0,
+ "framing": "crop",
+ "ending": {
+  "last_words": "The bats are still there.",
+  "last_frame": "Fruit bats hanging upside down in rafters.",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "Fidel Castro seized the Bacardi distillery in 1960 and thought he'd taken everything—the facilities, the equipment, the brand—all nationalized overnight. What he didn't know was that the Bacardi family had already smuggled out the only thing that actually mattered out of Cuba: the yeast strain. Facundo Bacardi had cultivated a specific yeast in Santiago de Cuba since 1862, filtering rum through charcoal and refining the recipe for nearly 100 years. Without it, the flavor couldn't be replicated. Castro tried—the Cuban government produced their own rum from the seized distillery and couldn't match it. The Bacardi family rebuilt in Puerto Rico, Mexico, and the Bahamas and kept selling. The bat on the label? A colony that had lived in the rafters of the original distillery became the logo. Bacardi is now the largest privately owned spirits company in the world. The original distillery in Santiago de Cuba still exists—the Cuban government still runs it. The bats are still there.",
+ "retention_tricks": [
+  "Open loop introducing secret smuggled element at 0:10",
+  "Fast graphic animations combining stick figures with real photography",
+  "Satisfying historical resolution ending with a fun callback to the bats"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": false,
+  "ends_on_payoff": true,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "Clever use of simple stick-figure character animations over real photos makes historical storytelling highly engaging.",
+  "Fast-paced narrative with a plot twist: Castro seized everything except the one tiny organism (the yeast) that mattered.",
+  "Informative origin story explaining both brand survival and the origin of the iconic bat logo."
+ ],
+ "_meta": {
+  "source": "HPmN1t0l2c4",
+  "model": "gemini-3.6-flash",
+  "fps": 4.0,
+  "watched": "2026-11-05",
+  "tier": "[S] model-observed, not measured"
+ }
+}

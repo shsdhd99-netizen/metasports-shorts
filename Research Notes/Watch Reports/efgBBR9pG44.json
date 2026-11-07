@@ -1,0 +1,101 @@
+{
+ "length_s": 45.0,
+ "topic": "A compilation of incredible one-in-a-million football kick returns.",
+ "lane": "moment",
+ "hook": {
+  "first_words": "One in a million return",
+  "first_frame": "Football field with score bug showing Washington 7, Chargers 10",
+  "on_screen_text_0_3s": "\"One in a million return\"",
+  "shots_in_first_3s": 1
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 10.75,
+   "shows": "Chargers punt return touchdown",
+   "kind": "action"
+  },
+  {
+   "start_s": 10.75,
+   "end_s": 21.25,
+   "shows": "Falcons punt return touchdown",
+   "kind": "action"
+  },
+  {
+   "start_s": 21.25,
+   "end_s": 32.5,
+   "shows": "Jaguars kick return touchdown",
+   "kind": "action"
+  },
+  {
+   "start_s": 32.5,
+   "end_s": 45.0,
+   "shows": "Washington kick return touchdown",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 4,
+ "average_shot_s": 11.25,
+ "longest_shot_s": 12.5,
+ "voice": {
+  "type": "human",
+  "gender": "male",
+  "words_per_minute_estimate": 90,
+  "tone": "singing / rap music",
+  "original_audio_under_voice": true
+ },
+ "music": {
+  "present": true,
+  "style": "Hip hop rap song",
+  "level_vs_voice": "loud",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": false,
+  "words_per_line": 0,
+  "case": "mixed",
+  "position": "bottom",
+  "colours": "unknown",
+  "highlight_style": "none"
+ },
+ "text_overlays": [
+  {
+   "at_s": 0.0,
+   "text": "\"One in a million return\""
+  }
+ ],
+ "cards_or_graphics": 0,
+ "framing": "crop",
+ "ending": {
+  "last_words": "down",
+  "last_frame": "Football player running down sideline toward 30 yard line",
+  "loops_to_start": true,
+  "call_to_action": "none"
+ },
+ "script": "One in a million return",
+ "retention_tricks": [
+  "multiple clips of incredible football plays",
+  "fast-paced highlights"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": false,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "High-energy hip-hop soundtrack synchronized with game highlights",
+  "Engaging hook in the first seconds setting up the theme",
+  "Compilation of multiple unbelievable football return plays"
+ ],
+ "_meta": {
+  "source": "efgBBR9pG44",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

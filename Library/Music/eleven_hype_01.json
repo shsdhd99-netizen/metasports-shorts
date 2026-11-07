@@ -1,0 +1,9 @@
+{
+ "prompt": "Instrumental modern trap beat for an NBA highlights short, 140 BPM half-time feel, punchy 808 sub bass, crisp rolling hi-hats, sparse dark synth stabs, energetic and confident. No vocals. No busy lead melody in the midrange so a narrator stays clear on top. Constant energy, short build in the last four seconds, ends on a hard stop.",
+ "model": "music_v1",
+ "seconds": 30.0,
+ "mood": "hype",
+ "generated": "2026-10-14",
+ "licence": "ElevenLabs Music Terms, Starter plan: all online/offline commercial use except film, TV, radio, Studio Games; no attribution",
+ "licence_url": "https://elevenlabs.io/music-terms"
+}

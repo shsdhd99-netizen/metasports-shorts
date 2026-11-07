@@ -1,0 +1,192 @@
+{
+ "sources": {
+  "B": "src/2114573587965444188.mp4"
+ },
+ "promise": [
+  "technical",
+  "fake",
+  "throw"
+ ],
+ "shots": [
+  {
+   "clip": "B01",
+   "src": "B",
+   "at": 43.85,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.36,
+   "y": 0.3,
+   "kind": "action",
+   "why": "Broadcast replay close-up: Bones Hyland (#8 WOLVES) cocks the ball back over his head toward the ref, eyes wide (Raptors at Timberwolves, Sun Oct 25 2026; MrBuckBuckNBA repost of the broadcast)",
+   "len": 2.55
+  },
+  {
+   "clip": "B02",
+   "src": "B",
+   "at": 0.0,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "y": 0.3,
+   "kind": "action",
+   "anchor": "The Wolves led",
+   "why": "Live wide shot, score TOR 89 / MIN 114, 4th, 1:47 to 1:44 [zoomed hook, score carried by on-screen text]",
+   "overlay": [
+    {
+     "text": "WOLVES UP 25",
+     "size": 110,
+     "y": 250,
+     "start": 0.1,
+     "end": 1.81
+    }
+   ],
+   "len": 1.81,
+   "zoom": 1.5
+  },
+  {
+   "clip": "B02b",
+   "src": "B",
+   "at": 1.81,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.55,
+   "y": 0.3,
+   "kind": "action",
+   "why": "Live wide shot, score TOR 89 / MIN 114, 4th, 1:47 to 1:44 [zoomed hook, score carried by on-screen text]",
+   "len": 1.82,
+   "zoom": 1.75,
+   "anchor": "with under",
+   "lead": 0.11
+  },
+  {
+   "clip": "B03",
+   "src": "B",
+   "at": 8.6,
+   "blurfit": true,
+   "blurfit_aspect": 0,
+   "x": 0.292,
+   "y": 0.3,
+   "kind": "action",
+   "anchor": "Bones got called",
+   "why": "The foul: Raptors shot at the rim, clock stops at 1:38, Hyland (#8) ends up with the ball",
+   "len": 2.36
+  },
+  {
+   "clip": "B04",
+   "src": "B",
+   "at": 16.58,
+   "blurfit": true,
+   "blurfit_aspect": 0,
+   "x": 0.413,
+   "y": 0.3,
+   "kind": "action",
+   "anchor": "cocked it back",
+   "why": "Live tight shot: HYLAND 8 cocks the ball back by his head, then turns grinning with the ball (scorebug 1:38)",
+   "len": 2.29
+  },
+  {
+   "clip": "B05",
+   "src": "B",
+   "at": 25.45,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.673,
+   "y": 0.3,
+   "kind": "face",
+   "anchor": "The ref said",
+   "why": "Live: referee Pat Fraher talking to Hyland at the sideline",
+   "len": 1.26
+  },
+  {
+   "clip": "B06",
+   "src": "B",
+   "at": 45.1,
+   "speed": 0.5,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "y": 0.3,
+   "kind": "action",
+   "anchor": "So Bones did",
+   "replay": true,
+   "why": "Replay of the key second at half speed: arm cocked over his head, grinning, the ref with the whistle in his mouth (same replay as shot 1)",
+   "len": 1.97
+  },
+  {
+   "clip": "B07",
+   "src": "B",
+   "at": 46.1,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.71,
+   "y": 0.3,
+   "kind": "face",
+   "anchor": "Whistle",
+   "why": "Replay: the ref with the whistle in his mouth, then pointing at Hyland",
+   "overlay": [
+    {
+     "text": "TECHNICAL",
+     "size": 120,
+     "y": 250,
+     "start": 0.35,
+     "end": 0.95
+    }
+   ],
+   "len": 1.28
+  },
+  {
+   "clip": "B08",
+   "src": "B",
+   "at": 47.5,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.535,
+   "y": 0.3,
+   "kind": "face",
+   "anchor": "His eyes",
+   "why": "Replay: Hyland's eyes go huge, ball in hand",
+   "len": 1.72
+  },
+  {
+   "clip": "B09",
+   "src": "B",
+   "at": 34.1,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.552,
+   "y": 0.3,
+   "kind": "action",
+   "anchor": "Toronto shot",
+   "why": "Live wide: a Raptor shoots the technical free throw (score goes 89 to 90)",
+   "len": 1.41
+  },
+  {
+   "clip": "B10",
+   "src": "B",
+   "at": 28.2,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.535,
+   "y": 0.3,
+   "kind": "face",
+   "anchor": "he and the ref",
+   "why": "Live: Fraher smiling face to face with Hyland, then laughing behind his hand (lower third BONES HYLAND TECHNICAL FOUL)",
+   "len": 2.64
+  },
+  {
+   "clip": "B11",
+   "src": "B",
+   "at": 50.0,
+   "nat_at": 30.48,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.413,
+   "y": 0.3,
+   "kind": "face",
+   "anchor": "You can't be mad",
+   "lead": 0.08,
+   "why": "Replay: Hyland grinning, ball in hand, hand on chest; LIVE broadcast call over it: 'You can't be mad at Bones.' (same broadcast, 30.6-31.9 s of the post)",
+   "len": 2.04
+  }
+ ]
+}

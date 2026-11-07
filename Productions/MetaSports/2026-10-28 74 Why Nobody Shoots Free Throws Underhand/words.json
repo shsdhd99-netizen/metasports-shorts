@@ -1,0 +1,492 @@
+[
+ {
+  "word": "NBA",
+  "start": 0.0,
+  "end": 0.372
+ },
+ {
+  "word": "players",
+  "start": 0.43,
+  "end": 0.778
+ },
+ {
+  "word": "refuse",
+  "start": 0.848,
+  "end": 1.312
+ },
+ {
+  "word": "the",
+  "start": 1.335,
+  "end": 1.405
+ },
+ {
+  "word": "free",
+  "start": 1.44,
+  "end": 1.579
+ },
+ {
+  "word": "throw",
+  "start": 1.602,
+  "end": 1.765
+ },
+ {
+  "word": "that",
+  "start": 1.8,
+  "end": 1.892
+ },
+ {
+  "word": "actually",
+  "start": 1.939,
+  "end": 2.31
+ },
+ {
+  "word": "works.",
+  "start": 2.368,
+  "end": 3.017
+ },
+ {
+  "word": "Rick",
+  "start": 3.068,
+  "end": 3.231
+ },
+ {
+  "word": "Barry",
+  "start": 3.289,
+  "end": 3.579
+ },
+ {
+  "word": "shot",
+  "start": 3.649,
+  "end": 3.858
+ },
+ {
+  "word": "it",
+  "start": 3.881,
+  "end": 3.927
+ },
+ {
+  "word": "underhand",
+  "start": 3.986,
+  "end": 4.473
+ },
+ {
+  "word": "and",
+  "start": 4.531,
+  "end": 4.601
+ },
+ {
+  "word": "made",
+  "start": 4.659,
+  "end": 4.798
+ },
+ {
+  "word": "about",
+  "start": 4.821,
+  "end": 5.042
+ },
+ {
+  "word": "90 percent.",
+  "start": 5.135,
+  "end": 6.017
+ },
+ {
+  "word": "So",
+  "start": 6.064,
+  "end": 6.203
+ },
+ {
+  "word": "Wilt",
+  "start": 6.261,
+  "end": 6.458
+ },
+ {
+  "word": "Chamberlain,",
+  "start": 6.505,
+  "end": 7.027
+ },
+ {
+  "word": "a",
+  "start": 7.051,
+  "end": 7.074
+ },
+ {
+  "word": "51 percent",
+  "start": 7.143,
+  "end": 7.689
+ },
+ {
+  "word": "shooter,",
+  "start": 7.736,
+  "end": 8.13
+ },
+ {
+  "word": "tried",
+  "start": 8.154,
+  "end": 8.421
+ },
+ {
+  "word": "it",
+  "start": 8.455,
+  "end": 8.513
+ },
+ {
+  "word": "too.",
+  "start": 8.548,
+  "end": 8.907
+ },
+ {
+  "word": "The",
+  "start": 8.936,
+  "end": 9.028
+ },
+ {
+  "word": "night",
+  "start": 9.087,
+  "end": 9.214
+ },
+ {
+  "word": "he",
+  "start": 9.237,
+  "end": 9.284
+ },
+ {
+  "word": "scored",
+  "start": 9.319,
+  "end": 9.539
+ },
+ {
+  "word": "100",
+  "start": 9.563,
+  "end": 9.946
+ },
+ {
+  "word": "points,",
+  "start": 9.992,
+  "end": 10.422
+ },
+ {
+  "word": "he",
+  "start": 10.456,
+  "end": 10.515
+ },
+ {
+  "word": "made",
+  "start": 10.573,
+  "end": 10.7
+ },
+ {
+  "word": "28",
+  "start": 10.723,
+  "end": 11.199
+ },
+ {
+  "word": "free",
+  "start": 11.245,
+  "end": 11.408
+ },
+ {
+  "word": "throws.",
+  "start": 11.443,
+  "end": 11.919
+ },
+ {
+  "word": "Still",
+  "start": 11.954,
+  "end": 12.163
+ },
+ {
+  "word": "a",
+  "start": 12.198,
+  "end": 12.221
+ },
+ {
+  "word": "record.",
+  "start": 12.267,
+  "end": 12.546
+ },
+ {
+  "word": "Underhand.",
+  "start": 12.569,
+  "end": 13.103
+ },
+ {
+  "word": "Then",
+  "start": 13.126,
+  "end": 13.254
+ },
+ {
+  "word": "he",
+  "start": 13.289,
+  "end": 13.335
+ },
+ {
+  "word": "quit.",
+  "start": 13.405,
+  "end": 13.66
+ },
+ {
+  "word": "He",
+  "start": 13.684,
+  "end": 13.73
+ },
+ {
+  "word": "said",
+  "start": 13.765,
+  "end": 13.858
+ },
+ {
+  "word": "he",
+  "start": 13.881,
+  "end": 13.927
+ },
+ {
+  "word": "was",
+  "start": 13.951,
+  "end": 14.02
+ },
+ {
+  "word": "too",
+  "start": 14.078,
+  "end": 14.194
+ },
+ {
+  "word": "embarrassed",
+  "start": 14.241,
+  "end": 14.601
+ },
+ {
+  "word": "to",
+  "start": 14.624,
+  "end": 14.67
+ },
+ {
+  "word": "keep",
+  "start": 14.717,
+  "end": 14.845
+ },
+ {
+  "word": "shooting",
+  "start": 14.891,
+  "end": 15.181
+ },
+ {
+  "word": "it.",
+  "start": 15.239,
+  "end": 15.321
+ },
+ {
+  "word": "So",
+  "start": 15.344,
+  "end": 15.413
+ },
+ {
+  "word": "he",
+  "start": 15.46,
+  "end": 15.506
+ },
+ {
+  "word": "went",
+  "start": 15.53,
+  "end": 15.646
+ },
+ {
+  "word": "back",
+  "start": 15.692,
+  "end": 15.855
+ },
+ {
+  "word": "to",
+  "start": 15.889,
+  "end": 15.936
+ },
+ {
+  "word": "overhand,",
+  "start": 15.994,
+  "end": 16.528
+ },
+ {
+  "word": "and",
+  "start": 16.551,
+  "end": 16.633
+ },
+ {
+  "word": "one",
+  "start": 16.702,
+  "end": 16.876
+ },
+ {
+  "word": "season",
+  "start": 16.9,
+  "end": 17.12
+ },
+ {
+  "word": "he",
+  "start": 17.155,
+  "end": 17.201
+ },
+ {
+  "word": "made",
+  "start": 17.236,
+  "end": 17.341
+ },
+ {
+  "word": "just",
+  "start": 17.376,
+  "end": 17.503
+ },
+ {
+  "word": "38 percent.",
+  "start": 17.55,
+  "end": 18.409
+ },
+ {
+  "word": "Years",
+  "start": 18.479,
+  "end": 18.687
+ },
+ {
+  "word": "later,",
+  "start": 18.734,
+  "end": 18.989
+ },
+ {
+  "word": "Rick",
+  "start": 19.047,
+  "end": 19.187
+ },
+ {
+  "word": "Barry",
+  "start": 19.233,
+  "end": 19.43
+ },
+ {
+  "word": "offered",
+  "start": 19.488,
+  "end": 19.686
+ },
+ {
+  "word": "to",
+  "start": 19.709,
+  "end": 19.756
+ },
+ {
+  "word": "teach",
+  "start": 19.802,
+  "end": 19.976
+ },
+ {
+  "word": "Shaq.",
+  "start": 20.011,
+  "end": 20.371
+ },
+ {
+  "word": "Shaq",
+  "start": 20.406,
+  "end": 20.615
+ },
+ {
+  "word": "said",
+  "start": 20.661,
+  "end": 20.754
+ },
+ {
+  "word": "he'd",
+  "start": 20.777,
+  "end": 20.87
+ },
+ {
+  "word": "rather",
+  "start": 20.893,
+  "end": 21.056
+ },
+ {
+  "word": "shoot",
+  "start": 21.114,
+  "end": 21.311
+ },
+ {
+  "word": "zero",
+  "start": 21.358,
+  "end": 21.602
+ },
+ {
+  "word": "percent.",
+  "start": 21.66,
+  "end": 21.95
+ },
+ {
+  "word": "28",
+  "start": 21.973,
+  "end": 22.368
+ },
+ {
+  "word": "of",
+  "start": 22.391,
+  "end": 22.437
+ },
+ {
+  "word": "Wilt's",
+  "start": 22.495,
+  "end": 22.704
+ },
+ {
+  "word": "100",
+  "start": 22.751,
+  "end": 22.983
+ },
+ {
+  "word": "points",
+  "start": 23.018,
+  "end": 23.239
+ },
+ {
+  "word": "came",
+  "start": 23.273,
+  "end": 23.401
+ },
+ {
+  "word": "from",
+  "start": 23.424,
+  "end": 23.517
+ },
+ {
+  "word": "a",
+  "start": 23.552,
+  "end": 23.575
+ },
+ {
+  "word": "shot",
+  "start": 23.633,
+  "end": 23.854
+ },
+ {
+  "word": "he",
+  "start": 23.889,
+  "end": 23.935
+ },
+ {
+  "word": "was",
+  "start": 23.97,
+  "end": 24.04
+ },
+ {
+  "word": "too",
+  "start": 24.074,
+  "end": 24.191
+ },
+ {
+  "word": "embarrassed",
+  "start": 24.237,
+  "end": 24.55
+ },
+ {
+  "word": "to",
+  "start": 24.574,
+  "end": 24.62
+ },
+ {
+  "word": "keep.",
+  "start": 24.69,
+  "end": 25.074
+ }
+]

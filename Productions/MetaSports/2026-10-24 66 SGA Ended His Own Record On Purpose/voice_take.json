@@ -1,0 +1,30 @@
+[
+ {
+  "take": 1,
+  "ok": false,
+  "score": -95.8,
+  "verdict": "REDO",
+  "issues": [
+   " 0.35s  stretched/garbled word \"Gilgeous-Alexander\" (2.75s)"
+  ],
+  "wpm": 193,
+  "hnr": 8.0,
+  "jitter": 2.92,
+  "shimmer": 11.78,
+  "dur": 25.49,
+  "pitch_sd": 5.41
+ },
+ {
+  "take": 2,
+  "ok": true,
+  "score": 4.5,
+  "verdict": "CHECK",
+  "issues": [],
+  "wpm": 196,
+  "hnr": 8.2,
+  "jitter": 2.93,
+  "shimmer": 11.28,
+  "dur": 25.15,
+  "pitch_sd": 5.45
+ }
+]

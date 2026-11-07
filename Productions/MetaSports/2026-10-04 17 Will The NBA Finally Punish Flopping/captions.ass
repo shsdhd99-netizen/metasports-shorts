@@ -1,0 +1,43 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Montserrat Bold,58,&H00FFFFFF,&H00FFFFFF,&H00000000,&H99000000,0,0,0,0,100,100,0,0,1,3,1,5,70,70,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:01.06,Cap,,0,0,0,,{\pos(540,960)\blur0.6}Flopping has been a technical
+Dialogue: 0,0:00:01.06,0:00:01.74,Cap,,0,0,0,,{\pos(540,960)\blur0.6}foul in the NBA
+Dialogue: 0,0:00:01.74,0:00:02.67,Cap,,0,0,0,,{\pos(540,960)\blur0.6}since twenty twenty-three.
+Dialogue: 0,0:00:02.67,0:00:03.43,Cap,,0,0,0,,{\pos(540,960)\blur0.6}But NBC Sports
+Dialogue: 0,0:00:03.43,0:00:04.21,Cap,,0,0,0,,{\pos(540,960)\blur0.6}calls the enforcement
+Dialogue: 0,0:00:04.21,0:00:05.29,Cap,,0,0,0,,{\pos(540,960)\blur0.6}inconsistent at best.
+Dialogue: 0,0:00:05.29,0:00:05.88,Cap,,0,0,0,,{\pos(540,960)\blur0.6}Now the NBA
+Dialogue: 0,0:00:05.88,0:00:06.56,Cap,,0,0,0,,{\pos(540,960)\blur0.6}has posted a video
+Dialogue: 0,0:00:06.56,0:00:07.49,Cap,,0,0,0,,{\pos(540,960)\blur0.6}of last season's flops,
+Dialogue: 0,0:00:07.49,0:00:08.07,Cap,,0,0,0,,{\pos(540,960)\blur0.6}and says refs
+Dialogue: 0,0:00:08.07,0:00:09.12,Cap,,0,0,0,,{\pos(540,960)\blur0.6}will call more technicals.
+Dialogue: 0,0:00:09.12,0:00:09.99,Cap,,0,0,0,,{\pos(540,960)\blur0.6}The test is STEM:
+Dialogue: 0,0:00:09.99,0:00:11.07,Cap,,0,0,0,,{\pos(540,960)\blur0.6}secondary, theatrical,
+Dialogue: 0,0:00:11.07,0:00:11.91,Cap,,0,0,0,,{\pos(540,960)\blur0.6}exaggerated movement.
+Dialogue: 0,0:00:11.91,0:00:12.66,Cap,,0,0,0,,{\pos(540,960)\blur0.6}But there's a catch.
+Dialogue: 0,0:00:12.66,0:00:13.47,Cap,,0,0,0,,{\pos(540,960)\blur0.6}The NBA is also
+Dialogue: 0,0:00:13.47,0:00:14.56,Cap,,0,0,0,,{\pos(540,960)\blur0.6}cracking down on push-offs.
+Dialogue: 0,0:00:14.56,0:00:15.52,Cap,,0,0,0,,{\pos(540,960)\blur0.6}Thunder coach Mark Daigneault
+Dialogue: 0,0:00:15.52,0:00:16.73,Cap,,0,0,0,,{\pos(540,960)\blur0.6}says if defenders know that,
+Dialogue: 0,0:00:16.73,0:00:17.42,Cap,,0,0,0,,{\pos(540,960)\blur0.6}they might
+Dialogue: 0,0:00:17.42,0:00:19.13,Cap,,0,0,0,,{\pos(540,960)\blur0.6}be just flailing to try
+Dialogue: 0,0:00:19.13,0:00:20.61,Cap,,0,0,0,,{\pos(540,960)\blur0.6}to bait those calls.
+Dialogue: 0,0:00:20.61,0:00:21.17,Cap,,0,0,0,,{\pos(540,960)\blur0.6}A head snap
+Dialogue: 0,0:00:21.17,0:00:21.86,Cap,,0,0,0,,{\pos(540,960)\blur0.6}isn't a flop.
+Dialogue: 0,0:00:21.86,0:00:23.07,Cap,,0,0,0,,{\pos(540,960)\blur0.6}Neither is Pascal Siakam
+Dialogue: 0,0:00:23.07,0:00:24.30,Cap,,0,0,0,,{\pos(540,960)\blur0.6}sitting down after a jumper.
+Dialogue: 0,0:00:24.30,0:00:25.64,Cap,,0,0,0,,{\pos(540,960)\blur0.6}Reacting to contact is legal.
+Dialogue: 0,0:00:25.64,0:00:26.32,Cap,,0,0,0,,{\pos(540,960)\blur0.6}Selling it costs
+Dialogue: 0,0:00:26.32,0:00:27.12,Cap,,0,0,0,,{\pos(540,960)\blur0.6}a technical foul
+Dialogue: 0,0:00:27.12,0:00:28.16,Cap,,0,0,0,,{\pos(540,960)\blur0.6}and a free throw.

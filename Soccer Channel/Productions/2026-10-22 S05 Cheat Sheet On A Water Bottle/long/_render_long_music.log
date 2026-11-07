@@ -1,0 +1,10 @@
+Voice 69.3s -> 46 shots from 46 clips
+Drift not found: using the ffmpeg engine
+  music: Library/Music/eleven_story_01.mp3 from 0.0s, bed -20.0 LU under the voice (gain -19.5 dB), 1 gap lift(s), 0 drop(s)
+  final pass with h264_nvenc failed: [h264_nvenc @ 0x55f811fea7c0] Cannot load libcuda.so.1
+[vost#0:0/h264_nvenc @ 0x55f811fea3c0] Error while opening encoder - maybe incorrect parameters such as bit_rate, rate, width or height.
+Error while filtering: Operation not permitted
+[out#0/mp4 @ 0x55f811fe9600] Nothing was written into output file, because at least one of its streams received no packets.
+
+  captions burned (ahmed) + 5 sound effect(s), voice lifted +10.6 dB to -14 LUFS, effects mixed under it
+Done: /home/user/metasports-shorts/Soccer Channel/Productions/2026-10-22 S05 Cheat Sheet On A Water Bottle/long/final_long_music.mp4 (69.3s)

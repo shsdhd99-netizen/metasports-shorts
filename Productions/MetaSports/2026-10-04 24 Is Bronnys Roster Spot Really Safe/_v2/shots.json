@@ -1,0 +1,122 @@
+[
+ {
+  "clip": "war_name.mp4",
+  "start": 0.0,
+  "in": 0.0,
+  "kind": "action",
+  "zoom": 0.12,
+  "why": "guaranteed deal, JAMES JR 9"
+ },
+ {
+  "clip": "hou_nine.mp4",
+  "start": 0.75,
+  "in": 0.0,
+  "kind": "action",
+  "anchor": "does not",
+  "why": "does not guarantee, Bronny 9"
+ },
+ {
+  "clip": "nets_w.mp4",
+  "start": 1.46,
+  "in": 0.0,
+  "kind": "action",
+  "anchor": "roster spot",
+  "why": "Lakers floor"
+ },
+ {
+  "clip": "war_fist.mp4",
+  "start": 2.59,
+  "in": 0.0,
+  "kind": "action",
+  "anchor": "sixteen players",
+  "why": "sixteen for fifteen, Bronny 9"
+ },
+ {
+  "clip": "md_a.mp4",
+  "start": 4.16,
+  "in": 0.0,
+  "kind": "face",
+  "anchor": "one is",
+  "why": "Bronny James nameplate"
+ },
+ {
+  "clip": "hou_play.mp4",
+  "start": 5.12,
+  "in": 0.0,
+  "kind": "action",
+  "anchor": "Until October",
+  "why": "October deadline, Lakers"
+ },
+ {
+  "clip": "war_swish.mp4",
+  "start": 6.27,
+  "in": 0.6,
+  "kind": "action",
+  "anchor": "against Golden",
+  "why": "Golden State, Bronny 9"
+ },
+ {
+  "clip": "war_rim.mp4",
+  "start": 7.96,
+  "in": 0.0,
+  "kind": "action",
+  "anchor": "But Yahoo",
+  "why": "his name, Bronny 9 at the rim"
+ },
+ {
+  "clip": "md_b.mp4",
+  "start": 10.9,
+  "in": 0.2,
+  "kind": "face",
+  "anchor": "Bronny is",
+  "why": "Bronny not insulated"
+ },
+ {
+  "clip": "hou_nine.mp4",
+  "start": 12.35,
+  "in": 1.5,
+  "kind": "action",
+  "anchor": "He averaged",
+  "why": "2.9 points, Bronny 9"
+ },
+ {
+  "clip": "lob_b9.mp4",
+  "start": 14.65,
+  "in": 0.0,
+  "kind": "action",
+  "anchor": "forty-two games",
+  "why": "42 games and eight playoff games"
+ },
+ {
+  "clip": "hou_play.mp4",
+  "start": 17.92,
+  "in": 1.2,
+  "kind": "action",
+  "anchor": "one too many",
+  "why": "one too many contracts"
+ },
+ {
+  "clip": "md_c.mp4",
+  "start": 19.28,
+  "in": 0.2,
+  "kind": "face",
+  "anchor": "ESPN says",
+  "why": "2.3 million, Bronny at the mic"
+ },
+ {
+  "clip": "hou_nine.mp4",
+  "start": 22.05,
+  "in": 2.0,
+  "kind": "action",
+  "anchor": "A guaranteed",
+  "why": "deal does not remove him"
+ },
+ {
+  "clip": "war_name.mp4",
+  "start": 23.88,
+  "in": 1.8,
+  "kind": "action",
+  "anchor": "sixteen-for-fifteen",
+  "why": "crunch payoff and loop"
+ }
+]

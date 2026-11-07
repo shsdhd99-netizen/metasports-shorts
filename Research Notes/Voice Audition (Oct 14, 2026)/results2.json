@@ -1,0 +1,479 @@
+{
+ "L1_larry": {
+  "name": "L1_larry",
+  "dur": 24.71,
+  "speech_s": 24.2,
+  "wpm": 171,
+  "gaps_over_0p3": 8.0,
+  "max_gap": 0.76,
+  "wer_clean": 6.9,
+  "wer_phone": 0.0,
+  "names_clean": {
+   "wembanyama": true,
+   "jamarion": false,
+   "jokic": true,
+   "antetokounmpo": true,
+   "giannis": true
+  },
+  "names_phone": {
+   "wembanyama": true,
+   "jamarion": true,
+   "jokic": true,
+   "antetokounmpo": true,
+   "giannis": true
+  },
+  "numbers_clean": {
+   "350": true,
+   "zero": true,
+   "7-5": true
+  },
+  "numbers_phone": {
+   "350": true,
+   "zero": true,
+   "7-5": true
+  },
+  "pitch_sd_semitones": 5.41,
+  "loudness_sd_db": 3.27,
+  "hnr": 8.4,
+  "jitter": 3.03,
+  "shimmer": 10.26,
+  "f0_med": 165.0,
+  "heard_clean": "Victor Wemba\u00f1ama is not the tallest man in this story. Jomarian Sharp is listed seven foot five and he's never played an NBA game that counts. Dallas cut him twice. The Clippers cut him in September. Even Nikola Jokic and Giannis Antetokunpo never faced him in a game that counts. So what's missing? Three point tries last season. Wemba\u00f1ama 350. Sharp in the G -League zero.",
+  "heard_phone": "Victor Wembanyama is not the tallest man in this story. Jamarian Sharp is listed seven foot five and he's never played an NBA game that counts. Dallas cut him twice. The Clippers cut him in September. Even Nikola Jokic and Giannis Antitokunpo never faced him in a game that counts. So what's missing? Three -point tries last season. Wembanyama 350. Sharp in the G -League zero.",
+  "voice_id": "fIGaHjfrR8KmMy0vGEVJ",
+  "label": "Larry - High-Energy Social Media (american, 101K clones)",
+  "model": "eleven_multilingual_v2",
+  "settings": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.1
+  },
+  "chars": 401
+ },
+ "L2_alex": {
+  "name": "L2_alex",
+  "dur": 21.73,
+  "speech_s": 21.16,
+  "wpm": 196,
+  "gaps_over_0p3": 4.0,
+  "max_gap": 0.7,
+  "wer_clean": 0.0,
+  "wer_phone": 1.7,
+  "names_clean": {
+   "wembanyama": true,
+   "jamarion": true,
+   "jokic": true,
+   "antetokounmpo": true,
+   "giannis": true
+  },
+  "names_phone": {
+   "wembanyama": true,
+   "jamarion": true,
+   "jokic": true,
+   "antetokounmpo": true,
+   "giannis": true
+  },
+  "numbers_clean": {
+   "350": true,
+   "zero": true,
+   "7-5": true
+  },
+  "numbers_phone": {
+   "350": true,
+   "zero": true,
+   "7-5": true
+  },
+  "pitch_sd_semitones": 5.36,
+  "loudness_sd_db": 3.29,
+  "hnr": 8.4,
+  "jitter": 2.98,
+  "shimmer": 10.97,
+  "f0_med": 171.0,
+  "heard_clean": "Victor Wembanyama is not the tallest man in this story. Jamarian Sharp is listed seven foot five and he's never played an NBA game that counts. Dallas cut him twice. The Clippers cut him in September. Even Nikola Jokic and Giannis Antitokunpo never faced him in a game that counts. So what's missing? Three point tries last season. Wembanyama 350, Sharp in the G League, zero.",
+  "heard_phone": "Victor Wembanyama is not the tallest man in this story. Jamarian Sharp is listed 7 '5 and he's never played an NBA game that counts. Dallas cut him twice. The Clippers cut him in September. Even Nikola Jokic and Giannis Antitokunpo never faced him in a game that counts. So what's missing? 3 point tries last season. Wembanyama 350, Sharp in the G -League 0.",
+  "voice_id": "yl2ZDV1MzN4HbQJbMihG",
+  "label": "Alex - Upbeat, Energetic and Clear (american, 1.2M clones)",
+  "model": "eleven_multilingual_v2",
+  "settings": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.1
+  },
+  "chars": 401
+ },
+ "L3_dan": {
+  "name": "L3_dan",
+  "dur": 27.45,
+  "speech_s": 26.92,
+  "wpm": 154,
+  "gaps_over_0p3": 8.0,
+  "max_gap": 1.0,
+  "wer_clean": 1.7,
+  "wer_phone": 1.7,
+  "names_clean": {
+   "wembanyama": false,
+   "jamarion": true,
+   "jokic": true,
+   "antetokounmpo": true,
+   "giannis": true
+  },
+  "names_phone": {
+   "wembanyama": false,
+   "jamarion": true,
+   "jokic": true,
+   "antetokounmpo": false,
+   "giannis": false
+  },
+  "numbers_clean": {
+   "350": true,
+   "zero": true,
+   "7-5": true
+  },
+  "numbers_phone": {
+   "350": true,
+   "zero": true,
+   "7-5": true
+  },
+  "pitch_sd_semitones": 4.54,
+  "loudness_sd_db": 3.52,
+  "hnr": 11.1,
+  "jitter": 2.64,
+  "shimmer": 8.85,
+  "f0_med": 157.0,
+  "heard_clean": "Victor Wimbanyama is not the tallest man in this story. Jamarian Sharp is listed 7 '5 and he's never played an NBA game that counts. Dallas cut him twice. The Clippers cut him in September. Even Nikola Jokic and Yannis Antetokunpo never faced him in a game that counts. So what's missing? 3 -point tries last season. Wimbanyama 350. Sharp in the G -League 0.",
+  "heard_phone": "Victor Wimbanyama is not the tallest man in this story. Jamarian Sharp is listed seven foot five and he's never played an NBA game that counts. Dallas cut him twice. The Clippers cut him in September. Even Nikola Jokic and Yana Santatokunpo never faced him in a game that counts. So what's missing? Three point tries last season. Wimbanyama 350. Sharp in the G -League zero.",
+  "voice_id": "9F4C8ztpNUmXkdDDbz3J",
+  "label": "Dan - Upbeat, Dynamic and Friendly (american, 867K clones)",
+  "model": "eleven_multilingual_v2",
+  "settings": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.1
+  },
+  "chars": 401
+ },
+ "L4_titan": {
+  "name": "L4_titan",
+  "dur": 21.92,
+  "speech_s": 21.4,
+  "wpm": 193,
+  "gaps_over_0p3": 8.0,
+  "max_gap": 0.6,
+  "wer_clean": 1.7,
+  "wer_phone": 1.7,
+  "names_clean": {
+   "wembanyama": false,
+   "jamarion": true,
+   "jokic": true,
+   "antetokounmpo": true,
+   "giannis": true
+  },
+  "names_phone": {
+   "wembanyama": false,
+   "jamarion": true,
+   "jokic": true,
+   "antetokounmpo": true,
+   "giannis": true
+  },
+  "numbers_clean": {
+   "350": true,
+   "zero": true,
+   "7-5": true
+  },
+  "numbers_phone": {
+   "350": true,
+   "zero": true,
+   "7-5": true
+  },
+  "pitch_sd_semitones": 3.86,
+  "loudness_sd_db": 4.35,
+  "hnr": 8.2,
+  "jitter": 2.86,
+  "shimmer": 11.54,
+  "f0_med": 118.0,
+  "heard_clean": "Victor Wimbanyama is not the tallest man in this story. Jamarian Sharp is listed seven foot five and he's never played an NBA game that counts. Dallas cut him twice. The Clippers cut him in September. Even Nikola Jokic and Yanis Antetokumpo never faced him in a game that counts. So what's missing? Three point tries last season. Wimbanyama, 350. Sharp in the G League, zero.",
+  "heard_phone": "Victor Wimbanyama is not the tallest man in this story. Jamarian Sharp is listed seven foot five and he's never played an NBA game that counts. Dallas cut him twice. The Clippers cut him in September. Even Nikola Jokic and Yanis Antetokunpo never faced him in a game that counts. So what's missing? Three point tries last season. Wimbanyama 350. Sharp in the G -League zero.",
+  "voice_id": "dtSEyYGNJqjrtBArPCVZ",
+  "label": "Titan - Deep, Bold, and Powerful (american, 583K clones)",
+  "model": "eleven_multilingual_v2",
+  "settings": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.1
+  },
+  "chars": 401
+ },
+ "L5_adam": {
+  "name": "L5_adam",
+  "dur": 24.94,
+  "speech_s": 24.44,
+  "wpm": 169,
+  "gaps_over_0p3": 8.0,
+  "max_gap": 0.96,
+  "wer_clean": 1.7,
+  "wer_phone": 3.4,
+  "names_clean": {
+   "wembanyama": false,
+   "jamarion": false,
+   "jokic": true,
+   "antetokounmpo": true,
+   "giannis": true
+  },
+  "names_phone": {
+   "wembanyama": false,
+   "jamarion": false,
+   "jokic": true,
+   "antetokounmpo": false,
+   "giannis": true
+  },
+  "numbers_clean": {
+   "350": true,
+   "zero": true,
+   "7-5": true
+  },
+  "numbers_phone": {
+   "350": true,
+   "zero": true,
+   "7-5": true
+  },
+  "pitch_sd_semitones": 3.0,
+  "loudness_sd_db": 4.19,
+  "hnr": 7.7,
+  "jitter": 3.68,
+  "shimmer": 11.09,
+  "f0_med": 91.0,
+  "heard_clean": "Victor Wimbanyama is not the tallest man in this story. Jamerian Sharp is listed 7 '5\", and he's never played an NBA game that counts. Dallas cut him twice. The Clippers cut him in September. Even Nikola Jokic and Yannis Antetokunpo never faced him in a game that counts. So what's missing? 3 -point tries last season, Wimbanyama 350, Sharp in the G -League, 0.",
+  "heard_phone": "Victor Wimbanyama is not the tallest man in this story. Jamerian Sharp is listed seven foot five and he's never played an NBA game that counts. Dallas cut him twice. The Clippers cut him in September. Even Nikola Jokic and Yanisanta Tokumpo never faced him in a game that counts. So what's missing? Three point tries last season. Wimbanyama, 350. Sharp in the G -League, zero.",
+  "voice_id": "bfGb7JTLUnZebZRiFYyq",
+  "label": "Adam - Distinct, Deep and Engaging (american, 508K clones)",
+  "model": "eleven_multilingual_v2",
+  "settings": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.1
+  },
+  "chars": 401
+ },
+ "L6_tomas": {
+  "name": "L6_tomas",
+  "dur": 22.38,
+  "speech_s": 21.78,
+  "wpm": 190,
+  "gaps_over_0p3": 7.0,
+  "max_gap": 0.64,
+  "wer_clean": 3.4,
+  "wer_phone": 5.2,
+  "names_clean": {
+   "wembanyama": true,
+   "jamarion": true,
+   "jokic": true,
+   "antetokounmpo": true,
+   "giannis": true
+  },
+  "names_phone": {
+   "wembanyama": true,
+   "jamarion": true,
+   "jokic": true,
+   "antetokounmpo": true,
+   "giannis": true
+  },
+  "numbers_clean": {
+   "350": true,
+   "zero": true,
+   "7-5": true
+  },
+  "numbers_phone": {
+   "350": true,
+   "zero": true,
+   "7-5": true
+  },
+  "pitch_sd_semitones": 3.61,
+  "loudness_sd_db": 4.57,
+  "hnr": 8.1,
+  "jitter": 2.32,
+  "shimmer": 11.16,
+  "f0_med": 122.0,
+  "heard_clean": "Victor Wembanyama is not the tallest man in the story. Jamarian Sharp is listed seven foot five and he's never played an NBA game that counts. Dallas cut him twice, the Clippers cut him in September. Even Nikola Jokic and Yanis Antitokunpo never faced him in a game that counts. So what's missing? Three point tries last season. Wembanyama 350, Sharp in the G -League zero.",
+  "heard_phone": "Victor Wembanyama is not the tallest man in the story. Jamarian Sharp is listed 7 '5\", and he's never played an NBA game that counts. Dallas cut him twice, the Clippers cut him in September. Even Nikola Jokic and Yanis Antitokunpo never faced him in a game that counts. So, what's missing? Three -point tries last season. Wembanyama 350. Sharp in the G -League 0.",
+  "voice_id": "8sGzMkj2HZn6rYwGx6G0",
+  "label": "Tomas - Energetic and Quick Speaker (american, 11K clones)",
+  "model": "eleven_multilingual_v2",
+  "settings": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.1
+  },
+  "chars": 401
+ },
+ "L7_tyler": {
+  "name": "L7_tyler",
+  "dur": 26.33,
+  "speech_s": 25.88,
+  "wpm": 160,
+  "gaps_over_0p3": 6.0,
+  "max_gap": 0.72,
+  "wer_clean": 3.4,
+  "wer_phone": 1.7,
+  "names_clean": {
+   "wembanyama": true,
+   "jamarion": true,
+   "jokic": true,
+   "antetokounmpo": true,
+   "giannis": true
+  },
+  "names_phone": {
+   "wembanyama": true,
+   "jamarion": true,
+   "jokic": true,
+   "antetokounmpo": false,
+   "giannis": true
+  },
+  "numbers_clean": {
+   "350": true,
+   "zero": true,
+   "7-5": true
+  },
+  "numbers_phone": {
+   "350": true,
+   "zero": true,
+   "7-5": true
+  },
+  "pitch_sd_semitones": 3.68,
+  "loudness_sd_db": 5.44,
+  "hnr": 7.4,
+  "jitter": 1.84,
+  "shimmer": 10.34,
+  "f0_med": 126.0,
+  "heard_clean": "Victor Wembanyama is not the tallest man in this story. Jamarian Sharp is listed seven foot five and he's never played an NBA game that counts. Dallas cut him twice. The Clippers cut him in September. Even Nikola Jokic and Yanis Antetokumpo never faced him in a game that counts. So what's missing? Three point tries last season. Wembanyama 350, Sharp in the G League, zero. Pro.",
+  "heard_phone": "Victor Wembanyama is not the tallest man in this story. Jamarian Sharp is listed seven foot five and he's never played an NBA game that counts. Dallas cut him twice. The Clippers cut him in September. Even Nikola Jokic and Yanis Antetekumpo never faced him in a game that counts. So what's missing? Three point tries last season. Wembanyama 350, Sharp in the G -League zero.",
+  "voice_id": "GyIXYY876myKNtA1j8NI",
+  "label": "Tyler - Energetic Arena Announcer (canadian, 11K clones)",
+  "model": "eleven_multilingual_v2",
+  "settings": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.1
+  },
+  "chars": 401
+ },
+ "L8_lucan": {
+  "name": "L8_lucan",
+  "dur": 22.15,
+  "speech_s": 21.66,
+  "wpm": 191,
+  "gaps_over_0p3": 9.0,
+  "max_gap": 0.64,
+  "wer_clean": 1.7,
+  "wer_phone": 1.7,
+  "names_clean": {
+   "wembanyama": true,
+   "jamarion": true,
+   "jokic": true,
+   "antetokounmpo": true,
+   "giannis": true
+  },
+  "names_phone": {
+   "wembanyama": true,
+   "jamarion": true,
+   "jokic": true,
+   "antetokounmpo": true,
+   "giannis": true
+  },
+  "numbers_clean": {
+   "350": true,
+   "zero": true,
+   "7-5": true
+  },
+  "numbers_phone": {
+   "350": true,
+   "zero": true,
+   "7-5": true
+  },
+  "pitch_sd_semitones": 4.99,
+  "loudness_sd_db": 4.08,
+  "hnr": 8.8,
+  "jitter": 3.26,
+  "shimmer": 12.33,
+  "f0_med": 117.0,
+  "heard_clean": "Victor Wembenyama is not the tallest man in this story. Jamarian Sharp is listed seven foot five and he's never played an NBA game that counts. Dallas cut him twice. The Clippers cut him in September. Even Nikola Jokic and Yanis Antitokunampou never faced him in a game that counts. So what's missing? Three point tries last season. Wembenyama 350, Sharp in the G League, zero.",
+  "heard_phone": "Victor Wembenyama is not the tallest man in this story. Jamarian Sharp is listed seven foot five and he's never played an NBA game that counts. Dallas cut him twice. The Clippers cut him in September. Even Nikola Jokic and Yanis Antitokunampo never faced him in a game that counts. So what's missing? Three point tries last season. Wembenyama, 350. Sharp in the G -League, zero.",
+  "voice_id": "15CVCzDByBinCIoCblXo",
+  "label": "Lucan Rook - Energetic Male (american, 356K clones)",
+  "model": "eleven_multilingual_v2",
+  "settings": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.1
+  },
+  "chars": 401
+ },
+ "L9_jon": {
+  "name": "L9_jon",
+  "dur": 23.87,
+  "speech_s": 23.38,
+  "wpm": 177,
+  "gaps_over_0p3": 8.0,
+  "max_gap": 0.72,
+  "wer_clean": 3.4,
+  "wer_phone": 1.7,
+  "names_clean": {
+   "wembanyama": true,
+   "jamarion": true,
+   "jokic": true,
+   "antetokounmpo": true,
+   "giannis": true
+  },
+  "names_phone": {
+   "wembanyama": true,
+   "jamarion": true,
+   "jokic": true,
+   "antetokounmpo": true,
+   "giannis": true
+  },
+  "numbers_clean": {
+   "350": true,
+   "zero": true,
+   "7-5": true
+  },
+  "numbers_phone": {
+   "350": true,
+   "zero": true,
+   "7-5": true
+  },
+  "pitch_sd_semitones": 4.28,
+  "loudness_sd_db": 3.07,
+  "hnr": 10.7,
+  "jitter": 3.66,
+  "shimmer": 8.96,
+  "f0_med": 113.0,
+  "heard_clean": "Victor Wembanyama is not the tallest man in this story. Jamarian Sharp is listed 7 '5 and he's never played an NBA game that counts. Dallas cut him twice. The Clippers cut him in September. Even Nikola Jokic and Yanis Antitokunmumpo never faced him in a game that counts. So what's missing? Three -point tries last season. Wembanyama 350. Sharp in the G -League 0.",
+  "heard_phone": "Victor Wembenyama is not the tallest man in this story. Jamarian Sharp is listed seven foot five and he's never played an NBA game that counts. Dallas cut him twice. The Clippers cut him in September. Even Nikola Jokic and Yanis Antitokunmumpo never faced him in a game that counts. So what's missing? Three -point tries last season. Wembenyama 350. Sharp in the G -League zero.",
+  "voice_id": "MFZUKuGQUsGJPQjTS4wC",
+  "label": "Jon - Warm and Grounded Storyteller (american, 827K clones)",
+  "model": "eleven_multilingual_v2",
+  "settings": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.1
+  },
+  "chars": 401
+ }
+}

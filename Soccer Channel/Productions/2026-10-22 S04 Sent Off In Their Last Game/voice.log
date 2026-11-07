@@ -1,0 +1,9 @@
+voice profile: Alex - Upbeat, Energetic and Clear (ElevenLabs Voice Library) (gate: HNR >= 7.0, jitter <= 3.4, shimmer <= 12.5)
+take 1: Done: voice.mp3 (57.8s, sped up x1.00) + captions.srt + words.json in /home/user/metasports-shorts/Soccer Channel/Productions/2026-10-22 S04 Sent Off In Their Last Game/take1_3090c8dx
+  take 1: FAIL  check=REDO HNR 8.5 jitter 2.86 shimmer 11.24 58.07s  ['51.96s  script "before" but heard "(nothing)"']
+take 2: Done: voice.mp3 (58.3s, sped up x1.00) + captions.srt + words.json in /home/user/metasports-shorts/Soccer Channel/Productions/2026-10-22 S04 Sent Off In Their Last Game/take2__p9qv2zu
+  take 2: FAIL  check=REDO HNR 8.4 jitter 3.02 shimmer 11.52 58.58s  ['10.54s  script "after" but heard "(nothing)"']
+take 3: Done: voice.mp3 (59.7s, sped up x1.00) + captions.srt + words.json in /home/user/metasports-shorts/Soccer Channel/Productions/2026-10-22 S04 Sent Off In Their Last Game/take3_0tewyeyu
+  take 3: FAIL  check=REDO HNR 8.4 jitter 2.93 shimmer 11.05 60.02s  ['53.68s  script "before" but heard "(nothing)"']
+USED take score -95.2 (STILL FAILS the gate: listen before posting)
+2026-10-22 S04 Sent Off In Their Last Game: 58.12s -> 57.65s (0.45s of pauses removed, tail 0.25s). Originals in _voice_pretighten/. Re-run cut_list.py, then assemble.py.

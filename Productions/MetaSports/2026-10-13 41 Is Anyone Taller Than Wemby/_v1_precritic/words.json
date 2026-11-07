@@ -1,0 +1,487 @@
+[
+ {
+  "word": "This",
+  "start": 0.0,
+  "end": 0.182
+ },
+ {
+  "word": "man",
+  "start": 0.236,
+  "end": 0.355
+ },
+ {
+  "word": "is",
+  "start": 0.408,
+  "end": 0.473
+ },
+ {
+  "word": "listed",
+  "start": 0.527,
+  "end": 0.774
+ },
+ {
+  "word": "taller",
+  "start": 0.795,
+  "end": 1.032
+ },
+ {
+  "word": "than",
+  "start": 1.064,
+  "end": 1.161
+ },
+ {
+  "word": "Victor",
+  "start": 1.204,
+  "end": 1.419
+ },
+ {
+  "word": "Wembanyama.",
+  "start": 1.462,
+  "end": 2.171
+ },
+ {
+  "word": "And",
+  "start": 2.193,
+  "end": 2.301
+ },
+ {
+  "word": "he's",
+  "start": 2.344,
+  "end": 2.472
+ },
+ {
+  "word": "never",
+  "start": 2.526,
+  "end": 2.719
+ },
+ {
+  "word": "played",
+  "start": 2.763,
+  "end": 2.945
+ },
+ {
+  "word": "an",
+  "start": 2.967,
+  "end": 3.02
+ },
+ {
+  "word": "NBA",
+  "start": 3.053,
+  "end": 3.3
+ },
+ {
+  "word": "game",
+  "start": 3.354,
+  "end": 3.515
+ },
+ {
+  "word": "that",
+  "start": 3.537,
+  "end": 3.623
+ },
+ {
+  "word": "counts.",
+  "start": 3.666,
+  "end": 4.02
+ },
+ {
+  "word": "Seven-foot-five.",
+  "start": 4.074,
+  "end": 4.816
+ },
+ {
+  "word": "Jamarion",
+  "start": 4.859,
+  "end": 5.246
+ },
+ {
+  "word": "Sharp.",
+  "start": 5.3,
+  "end": 5.59
+ },
+ {
+  "word": "Twenty",
+  "start": 5.622,
+  "end": 5.848
+ },
+ {
+  "word": "twenty-four:",
+  "start": 5.891,
+  "end": 6.396
+ },
+ {
+  "word": "Dallas",
+  "start": 6.439,
+  "end": 6.74
+ },
+ {
+  "word": "brings",
+  "start": 6.783,
+  "end": 6.977
+ },
+ {
+  "word": "him",
+  "start": 7.009,
+  "end": 7.084
+ },
+ {
+  "word": "to",
+  "start": 7.117,
+  "end": 7.159
+ },
+ {
+  "word": "camp.",
+  "start": 7.213,
+  "end": 7.471
+ },
+ {
+  "word": "Waived.",
+  "start": 7.504,
+  "end": 7.869
+ },
+ {
+  "word": "Zero",
+  "start": 7.933,
+  "end": 8.181
+ },
+ {
+  "word": "minutes",
+  "start": 8.234,
+  "end": 8.46
+ },
+ {
+  "word": "that",
+  "start": 8.493,
+  "end": 8.611
+ },
+ {
+  "word": "count.",
+  "start": 8.665,
+  "end": 8.955
+ },
+ {
+  "word": "Twenty",
+  "start": 8.987,
+  "end": 9.213
+ },
+ {
+  "word": "twenty-five:",
+  "start": 9.256,
+  "end": 9.782
+ },
+ {
+  "word": "Dallas",
+  "start": 9.815,
+  "end": 10.116
+ },
+ {
+  "word": "again.",
+  "start": 10.169,
+  "end": 10.46
+ },
+ {
+  "word": "Waived",
+  "start": 10.514,
+  "end": 10.793
+ },
+ {
+  "word": "again.",
+  "start": 10.825,
+  "end": 11.105
+ },
+ {
+  "word": "Zero.",
+  "start": 11.158,
+  "end": 11.61
+ },
+ {
+  "word": "This",
+  "start": 11.643,
+  "end": 11.814
+ },
+ {
+  "word": "summer,",
+  "start": 11.846,
+  "end": 12.094
+ },
+ {
+  "word": "the",
+  "start": 12.116,
+  "end": 12.18
+ },
+ {
+  "word": "Clippers",
+  "start": 12.223,
+  "end": 12.524
+ },
+ {
+  "word": "signed",
+  "start": 12.545,
+  "end": 12.771
+ },
+ {
+  "word": "him.",
+  "start": 12.804,
+  "end": 12.954
+ },
+ {
+  "word": "In",
+  "start": 12.975,
+  "end": 13.072
+ },
+ {
+  "word": "September,",
+  "start": 13.126,
+  "end": 13.577
+ },
+ {
+  "word": "they",
+  "start": 13.599,
+  "end": 13.706
+ },
+ {
+  "word": "cut",
+  "start": 13.749,
+  "end": 13.9
+ },
+ {
+  "word": "him.",
+  "start": 13.943,
+  "end": 14.115
+ },
+ {
+  "word": "Still",
+  "start": 14.169,
+  "end": 14.383
+ },
+ {
+  "word": "zero.",
+  "start": 14.437,
+  "end": 14.77
+ },
+ {
+  "word": "And",
+  "start": 14.792,
+  "end": 14.9
+ },
+ {
+  "word": "it's",
+  "start": 14.954,
+  "end": 15.071
+ },
+ {
+  "word": "not",
+  "start": 15.115,
+  "end": 15.244
+ },
+ {
+  "word": "his",
+  "start": 15.276,
+  "end": 15.372
+ },
+ {
+  "word": "defense.",
+  "start": 15.416,
+  "end": 15.813
+ },
+ {
+  "word": "Last",
+  "start": 15.845,
+  "end": 16.05
+ },
+ {
+  "word": "season,",
+  "start": 16.093,
+  "end": 16.394
+ },
+ {
+  "word": "he",
+  "start": 16.426,
+  "end": 16.491
+ },
+ {
+  "word": "was",
+  "start": 16.533,
+  "end": 16.652
+ },
+ {
+  "word": "the",
+  "start": 16.706,
+  "end": 16.77
+ },
+ {
+  "word": "G",
+  "start": 16.813,
+  "end": 16.878
+ },
+ {
+  "word": "League's",
+  "start": 16.974,
+  "end": 17.179
+ },
+ {
+  "word": "Defensive",
+  "start": 17.211,
+  "end": 17.619
+ },
+ {
+  "word": "Player",
+  "start": 17.641,
+  "end": 17.856
+ },
+ {
+  "word": "of",
+  "start": 17.888,
+  "end": 17.931
+ },
+ {
+  "word": "the",
+  "start": 17.963,
+  "end": 18.028
+ },
+ {
+  "word": "Year.",
+  "start": 18.07,
+  "end": 18.361
+ },
+ {
+  "word": "That's",
+  "start": 18.394,
+  "end": 18.608
+ },
+ {
+  "word": "three",
+  "start": 18.651,
+  "end": 18.844
+ },
+ {
+  "word": "cuts,",
+  "start": 18.877,
+  "end": 19.135
+ },
+ {
+  "word": "and",
+  "start": 19.156,
+  "end": 19.264
+ },
+ {
+  "word": "zero",
+  "start": 19.318,
+  "end": 19.544
+ },
+ {
+  "word": "minutes",
+  "start": 19.587,
+  "end": 19.834
+ },
+ {
+  "word": "that",
+  "start": 19.866,
+  "end": 19.984
+ },
+ {
+  "word": "count.",
+  "start": 20.038,
+  "end": 20.35
+ },
+ {
+  "word": "On",
+  "start": 20.382,
+  "end": 20.49
+ },
+ {
+  "word": "Monday,",
+  "start": 20.544,
+  "end": 20.856
+ },
+ {
+  "word": "Toronto",
+  "start": 20.887,
+  "end": 21.167
+ },
+ {
+  "word": "gave",
+  "start": 21.22,
+  "end": 21.36
+ },
+ {
+  "word": "him",
+  "start": 21.393,
+  "end": 21.479
+ },
+ {
+  "word": "one",
+  "start": 21.544,
+  "end": 21.682
+ },
+ {
+  "word": "more",
+  "start": 21.715,
+  "end": 21.855
+ },
+ {
+  "word": "camp.",
+  "start": 21.898,
+  "end": 22.188
+ },
+ {
+  "word": "The",
+  "start": 22.209,
+  "end": 22.306
+ },
+ {
+  "word": "season",
+  "start": 22.349,
+  "end": 22.586
+ },
+ {
+  "word": "starts",
+  "start": 22.629,
+  "end": 22.866
+ },
+ {
+  "word": "next",
+  "start": 22.919,
+  "end": 23.091
+ },
+ {
+  "word": "week.",
+  "start": 23.123,
+  "end": 23.338
+ },
+ {
+  "word": "Seven-foot-five.",
+  "start": 23.37,
+  "end": 24.134
+ },
+ {
+  "word": "NBA",
+  "start": 24.166,
+  "end": 24.445
+ },
+ {
+  "word": "minutes",
+  "start": 24.499,
+  "end": 24.746
+ },
+ {
+  "word": "that",
+  "start": 24.779,
+  "end": 24.907
+ },
+ {
+  "word": "count:",
+  "start": 24.962,
+  "end": 25.219
+ },
+ {
+  "word": "still",
+  "start": 25.273,
+  "end": 25.488
+ },
+ {
+  "word": "zero.",
+  "start": 25.542,
+  "end": 25.929
+ }
+]

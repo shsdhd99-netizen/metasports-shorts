@@ -1,0 +1,274 @@
+{
+ "length_s": 62.3,
+ "topic": "An explanation of the Ballon d'Or tiebreaker rules and what happens if two players finish with identical vote counts.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "What would happen if 2 players were TIED for the Ballon d'Or?",
+  "first_frame": "Host standing below a three-panel split image of Neymar, Cristiano Ronaldo, and Lionel Messi.",
+  "on_screen_text_0_3s": "What would happen if 2 players were TIED for the Ballon d'Or?",
+  "shots_in_first_3s": 2
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 2.5,
+   "shows": "Host introducing the question over a FIFA TV split shot of Neymar, Ronaldo, and Messi.",
+   "kind": "face"
+  },
+  {
+   "start_s": 2.5,
+   "end_s": 4.5,
+   "shows": "Footage of the golden Ballon d'Or trophy on stage during a ceremony.",
+   "kind": "clip"
+  },
+  {
+   "start_s": 4.5,
+   "end_s": 8.8,
+   "shows": "Host explaining how 100 international judges rank top 10 players.",
+   "kind": "face"
+  },
+  {
+   "start_s": 8.8,
+   "end_s": 11.5,
+   "shows": "Ballon d'Or trophy with '15 POINTS' text overlay.",
+   "kind": "still"
+  },
+  {
+   "start_s": 11.5,
+   "end_s": 13.75,
+   "shows": "Retro TV screen displaying award hosts on stage.",
+   "kind": "clip"
+  },
+  {
+   "start_s": 13.75,
+   "end_s": 16.0,
+   "shows": "'1 POINT' text graphic blurring into a wide shot of an ornate ceremony hall.",
+   "kind": "clip"
+  },
+  {
+   "start_s": 16.0,
+   "end_s": 18.8,
+   "shows": "Karim Benzema adjusting his suit as he stands up in an auditorium.",
+   "kind": "clip"
+  },
+  {
+   "start_s": 18.8,
+   "end_s": 21.8,
+   "shows": "Host explaining what happens if two players tie in points.",
+   "kind": "face"
+  },
+  {
+   "start_s": 21.8,
+   "end_s": 24.5,
+   "shows": "Zinedine Zidane standing at the podium holding an award envelope.",
+   "kind": "clip"
+  },
+  {
+   "start_s": 24.5,
+   "end_s": 27.0,
+   "shows": "Host giving a numerical example of tiebreaker points.",
+   "kind": "face"
+  },
+  {
+   "start_s": 27.0,
+   "end_s": 30.25,
+   "shows": "Lionel Messi celebrating in an Inter Miami shirt with '32 1ST-PLACE VOTES' on screen.",
+   "kind": "clip"
+  },
+  {
+   "start_s": 30.25,
+   "end_s": 31.8,
+   "shows": "Cristiano Ronaldo smiling in an Al Nassr shirt with '28 1ST-PLACE VOTES' graphic.",
+   "kind": "clip"
+  },
+  {
+   "start_s": 31.8,
+   "end_s": 33.5,
+   "shows": "GTA San Andreas CJ walking meme clip ('here we go again').",
+   "kind": "clip"
+  },
+  {
+   "start_s": 33.5,
+   "end_s": 35.0,
+   "shows": "Antoine Griezmann on a vintage TV screen.",
+   "kind": "clip"
+  },
+  {
+   "start_s": 35.0,
+   "end_s": 37.5,
+   "shows": "Football referee making a VAR signal gesture with large 'VAR' text overlay.",
+   "kind": "clip"
+  },
+  {
+   "start_s": 37.5,
+   "end_s": 40.5,
+   "shows": "TV screen showing player rankings graphics (Mbappe, Griezmann, Ronaldo).",
+   "kind": "clip"
+  },
+  {
+   "start_s": 40.5,
+   "end_s": 42.0,
+   "shows": "Close-up of Lionel Messi looking upward attentively.",
+   "kind": "clip"
+  },
+  {
+   "start_s": 42.0,
+   "end_s": 43.5,
+   "shows": "Close-up of Cristiano Ronaldo looking serious.",
+   "kind": "clip"
+  },
+  {
+   "start_s": 43.5,
+   "end_s": 45.75,
+   "shows": "Host asking viewers to follow if they enjoy the video.",
+   "kind": "face"
+  },
+  {
+   "start_s": 45.75,
+   "end_s": 47.75,
+   "shows": "Wide stage display of player rankings at ceremony.",
+   "kind": "clip"
+  },
+  {
+   "start_s": 47.75,
+   "end_s": 49.75,
+   "shows": "Close-up of Lionel Messi smiling at gala.",
+   "kind": "clip"
+  },
+  {
+   "start_s": 49.75,
+   "end_s": 52.5,
+   "shows": "Classic Spider-Man pointing at Spider-Man cartoon meme.",
+   "kind": "clip"
+  },
+  {
+   "start_s": 52.5,
+   "end_s": 54.0,
+   "shows": "Stage ceremony backdrop showing final Ballon d'Or standings.",
+   "kind": "clip"
+  },
+  {
+   "start_s": 54.0,
+   "end_s": 56.25,
+   "shows": "Thanos saying 'IMPOSSIBLE' meme clip.",
+   "kind": "clip"
+  },
+  {
+   "start_s": 56.25,
+   "end_s": 58.25,
+   "shows": "Karim Benzema proudly lifting the Ballon d'Or trophy.",
+   "kind": "clip"
+  },
+  {
+   "start_s": 58.25,
+   "end_s": 62.3,
+   "shows": "France Football logo card outlining the final tiebreaker decision rule.",
+   "kind": "still"
+  }
+ ],
+ "shot_count": 26,
+ "average_shot_s": 2.4,
+ "longest_shot_s": 4.3,
+ "voice": {
+  "type": "human",
+  "gender": "male",
+  "words_per_minute_estimate": 168,
+  "tone": "informative",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "subtle synth background beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [
+  {
+   "at_s": 0.0,
+   "sound": "whoosh transition"
+  },
+  {
+   "at_s": 8.8,
+   "sound": "whoosh sound"
+  },
+  {
+   "at_s": 27.0,
+   "sound": "whoosh transition"
+  },
+  {
+   "at_s": 35.0,
+   "sound": "whoosh sound"
+  }
+ ],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "sentence",
+  "position": "lower-middle",
+  "colours": [
+   "white"
+  ],
+  "highlight_style": "none"
+ },
+ "text_overlays": [
+  {
+   "at_s": 9.5,
+   "text": "15 POINTS"
+  },
+  {
+   "at_s": 14.0,
+   "text": "1 POINT"
+  },
+  {
+   "at_s": 27.5,
+   "text": "32 1ST-PLACE VOTES"
+  },
+  {
+   "at_s": 30.5,
+   "text": "28 1ST-PLACE VOTES"
+  },
+  {
+   "at_s": 35.0,
+   "text": "VAR"
+  },
+  {
+   "at_s": 54.0,
+   "text": "IMPOSSIBLE"
+  }
+ ],
+ "cards_or_graphics": 2,
+ "framing": "crop",
+ "ending": {
+  "last_words": "the editor-in-chief of France Football just picks the winner themselves, and you can't appeal it.",
+  "last_frame": "France Football logo with subtitle text 'appeal it.'",
+  "loops_to_start": false,
+  "call_to_action": "if you're enjoying the video, please hit the follow button"
+ },
+ "script": "What would happen if 2 players were TIED for the Ballon d'Or? So the Ballon d'Or voting works like this. 100 judges from around the world each pick their top 10 players and rank them, where your first pick gets 15 points, second gets 12, third gets 10, and it keeps going down all the way to 1 point for 10th place. Add up all the points, and whoever has the most wins. Now, let's say 2 players end up with the exact same total. The first thing they check is who got more first-place votes. So if both players scored 847 points and Player A got 32 first-place votes while Player B only got 28, Player A wins. If they're still tied after that, they move to whoever gets the most second place votes, then third place votes, then fourth, literally going through every single ranking until someone comes out ahead. But what if 2 players are perfectly tied on all of that? Well, first, if you're enjoying the video, please hit the follow button. Second of all, with 100 journalists voting across 10 spots each, the chances of 2 players matching on total points and every single voting position is very close to being mathematically impossible. But if it somehow did happen, the editor-in-chief of France Football just picks the winner themselves, and you can't appeal it.",
+ "retention_tricks": [
+  "Poses a compelling 'what-if' question in the first second.",
+  "Uses visual examples with top stars like Messi, Ronaldo, and Benzema.",
+  "Integrates popular internet memes (GTA CJ, VAR, Spider-Man, Thanos) to refresh visual interest.",
+  "Builds curiosity by layering multiple tiebreaker scenarios leading up to the final ultimate rule."
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": true,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "Addresses a rare, intriguing sports rule question that football fans are naturally curious about.",
+  "Breaks down complex point structures and tiebreakers step-by-step with clear on-screen graphics.",
+  "Maintains high pacing with rapid cutaways to iconic players, award gala footage, and popular meme clips."
+ ],
+ "_meta": {
+  "source": "https://www.youtube.com/shorts/JCvmvhCIvSI",
+  "model": "gemini-3.6-flash",
+  "fps": 4.0,
+  "watched": "2026-11-06",
+  "tier": "[S] model-observed, not measured"
+ }
+}

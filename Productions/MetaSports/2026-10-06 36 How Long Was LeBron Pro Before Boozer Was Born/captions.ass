@@ -1,0 +1,60 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Montserrat Black,86,&H00FFFFFF,&H00FFFFFF,&H00000000,&H99000000,0,0,0,0,95,100,1,0,1,6,3,5,70,70,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.55,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}LEBRON PLAYED
+Dialogue: 0,0:00:00.55,0:00:00.98,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN THE FINALS
+Dialogue: 0,0:00:00.98,0:00:01.52,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BEFORE THIS ROOKIE
+Dialogue: 0,0:00:01.52,0:00:01.95,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WAS BORN.
+Dialogue: 0,0:00:01.95,0:00:02.54,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}CAMERON BOOZER,
+Dialogue: 0,0:00:02.54,0:00:02.96,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE GRIZZLIES'
+Dialogue: 0,0:00:02.96,0:00:03.32,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NUMBER THREE
+Dialogue: 0,0:00:03.32,0:00:03.56,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}PICK OUT
+Dialogue: 0,0:00:03.56,0:00:03.91,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}OF DUKE,
+Dialogue: 0,0:00:03.91,0:00:04.25,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WAS BORN
+Dialogue: 0,0:00:04.25,0:00:04.92,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}JULY EIGHTEENTH,
+Dialogue: 0,0:00:04.92,0:00:05.74,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TWO THOUSAND SEVEN.
+Dialogue: 0,0:00:05.74,0:00:06.42,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}LEBRON'S FINALS
+Dialogue: 0,0:00:06.42,0:00:06.84,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ENDED JUNE
+Dialogue: 0,0:00:06.84,0:00:07.29,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FOURTEENTH,
+Dialogue: 0,0:00:07.29,0:00:07.65,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THIRTY-FOUR
+Dialogue: 0,0:00:07.65,0:00:08.16,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}DAYS EARLIER.
+Dialogue: 0,0:00:08.16,0:00:08.70,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HE HAD DEBUTED
+Dialogue: 0,0:00:08.70,0:00:08.92,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN TWO
+Dialogue: 0,0:00:08.92,0:00:09.46,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THOUSAND THREE,
+Dialogue: 0,0:00:09.46,0:00:09.81,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THREE YEARS
+Dialogue: 0,0:00:09.81,0:00:10.22,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND EIGHT MONTHS
+Dialogue: 0,0:00:10.22,0:00:10.68,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BEFORE CAMERON
+Dialogue: 0,0:00:10.68,0:00:11.06,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ARRIVED.
+Dialogue: 0,0:00:11.06,0:00:11.48,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NOW CAMERON
+Dialogue: 0,0:00:11.48,0:00:11.90,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IS THE LEAGUE'S
+Dialogue: 0,0:00:11.90,0:00:12.43,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}YOUNGEST PLAYER,
+Dialogue: 0,0:00:12.43,0:00:12.82,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ONE OF ONLY
+Dialogue: 0,0:00:12.82,0:00:13.16,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TEN BORN
+Dialogue: 0,0:00:13.16,0:00:13.35,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN TWO
+Dialogue: 0,0:00:13.35,0:00:13.90,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THOUSAND SEVEN,
+Dialogue: 0,0:00:13.90,0:00:14.36,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND LEBRON,
+Dialogue: 0,0:00:14.36,0:00:14.98,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN YEAR TWENTY-FOUR,
+Dialogue: 0,0:00:14.98,0:00:15.59,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IS THE OLDEST.
+Dialogue: 0,0:00:15.59,0:00:16.08,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BUT THE STRANGEST
+Dialogue: 0,0:00:16.08,0:00:16.42,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}PART IS WHO
+Dialogue: 0,0:00:16.42,0:00:16.81,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}LEBRON PLAYED
+Dialogue: 0,0:00:16.81,0:00:17.30,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WITH BACK THEN.
+Dialogue: 0,0:00:17.30,0:00:17.84,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}CARLOS BOOZER,
+Dialogue: 0,0:00:17.84,0:00:18.40,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}CAMERON'S FATHER,
+Dialogue: 0,0:00:18.40,0:00:19.00,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}STARTED SEVENTY-FIVE
+Dialogue: 0,0:00:19.00,0:00:19.41,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}GAMES BESIDE
+Dialogue: 0,0:00:19.41,0:00:19.82,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ROOKIE LEBRON
+Dialogue: 0,0:00:19.82,0:00:20.26,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN CLEVELAND.
+Dialogue: 0,0:00:20.26,0:00:20.39,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NOW
+Dialogue: 0,0:00:20.39,0:00:21.00,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THAT TEAMMATE'S SON
+Dialogue: 0,0:00:21.00,0:00:21.84,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IS THE ROOKIE.

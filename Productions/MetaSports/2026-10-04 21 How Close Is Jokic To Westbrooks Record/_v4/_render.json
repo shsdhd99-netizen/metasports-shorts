@@ -1,0 +1,38 @@
+{
+ "engine": "ffmpeg",
+ "out": "final.mp4",
+ "loop_fix": true,
+ "fits": [
+  {
+   "shot": 1,
+   "clip": "b1cj.mp4",
+   "fit": "slowed",
+   "factor": 1.156
+  },
+  {
+   "shot": 10,
+   "clip": "b5c.mp4",
+   "fit": "slowed",
+   "factor": 1.059
+  }
+ ],
+ "music": {
+  "track": "Library/Music/eleven_hype_01.mp3",
+  "track_start": 6.06,
+  "in": 0.0,
+  "out": 23.013878,
+  "hit": 27.5,
+  "hit_on": 21.436,
+  "segment_lufs": -12.1,
+  "gain_db": -22.9,
+  "bed_lu": -21.0,
+  "gap_lift_db": 3.0,
+  "gaps": [
+   [
+    22.68,
+    23.01
+   ]
+  ],
+  "drops": []
+ }
+}

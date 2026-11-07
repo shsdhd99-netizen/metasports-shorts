@@ -1,0 +1,253 @@
+{
+ "length_s": 130.8,
+ "topic": "Exploring whether former NBA player Enes Kanter Freedom could or should play in the WNBA.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "The WNBA is entering a rather nebulous situation.",
+  "first_frame": "An animated basketball court graphic with three cartoon player caricatures.",
+  "on_screen_text_0_3s": "Should Enes Kanter Freedom Play in the WNBA?",
+  "shots_in_first_3s": 3
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 4.15,
+   "shows": "Animated basketball court with player caricatures",
+   "kind": "stock"
+  },
+  {
+   "start_s": 4.15,
+   "end_s": 5.4,
+   "shows": "Enes Kanter Freedom talking to camera in t-shirt",
+   "kind": "face"
+  },
+  {
+   "start_s": 5.4,
+   "end_s": 7.95,
+   "shows": "Enes Kanter Freedom with long hair in suit speaking into microphone",
+   "kind": "face"
+  },
+  {
+   "start_s": 7.95,
+   "end_s": 8.65,
+   "shows": "Enes Kanter Freedom standing on outdoor court holding basketball",
+   "kind": "face"
+  },
+  {
+   "start_s": 8.65,
+   "end_s": 9.6,
+   "shows": "Enes Kanter Freedom sitting at table looking at paper",
+   "kind": "face"
+  },
+  {
+   "start_s": 9.6,
+   "end_s": 11.0,
+   "shows": "Enes Kanter Freedom in red hoodie talking to camera",
+   "kind": "face"
+  },
+  {
+   "start_s": 11.0,
+   "end_s": 11.9,
+   "shows": "Close up of document about WNBA draft",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 11.9,
+   "end_s": 12.95,
+   "shows": "Enes Kanter Freedom reading paper at table",
+   "kind": "face"
+  },
+  {
+   "start_s": 12.95,
+   "end_s": 14.85,
+   "shows": "Retro video game style animated basketball player 1979",
+   "kind": "stock"
+  },
+  {
+   "start_s": 14.85,
+   "end_s": 19.0,
+   "shows": "Retro video game style animated basketball player 1969",
+   "kind": "stock"
+  },
+  {
+   "start_s": 19.0,
+   "end_s": 23.0,
+   "shows": "Retro video game style animated basketball player 1977",
+   "kind": "stock"
+  },
+  {
+   "start_s": 23.0,
+   "end_s": 26.0,
+   "shows": "Retro video game style animated basketball player 1979",
+   "kind": "stock"
+  },
+  {
+   "start_s": 26.0,
+   "end_s": 30.65,
+   "shows": "Retro video game style animated basketball player 1977",
+   "kind": "stock"
+  },
+  {
+   "start_s": 30.65,
+   "end_s": 33.15,
+   "shows": "Historical footage of Lusia Harris on court",
+   "kind": "stock"
+  },
+  {
+   "start_s": 33.15,
+   "end_s": 35.95,
+   "shows": "Older woman speaking in interview",
+   "kind": "face"
+  },
+  {
+   "start_s": 35.95,
+   "end_s": 40.95,
+   "shows": "Black and white vintage basketball game footage",
+   "kind": "stock"
+  },
+  {
+   "start_s": 40.95,
+   "end_s": 45.65,
+   "shows": "Vintage basketball player running on court",
+   "kind": "stock"
+  },
+  {
+   "start_s": 45.65,
+   "end_s": 50.65,
+   "shows": "Older woman speaking in interview",
+   "kind": "face"
+  },
+  {
+   "start_s": 50.65,
+   "end_s": 52.3,
+   "shows": "Historical medal ceremony footage",
+   "kind": "stock"
+  },
+  {
+   "start_s": 52.3,
+   "end_s": 53.5,
+   "shows": "Newspaper clipping about Lusia Harris NBA draft",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 53.5,
+   "end_s": 56.1,
+   "shows": "Enes Kanter Freedom sitting at table smiling",
+   "kind": "face"
+  },
+  {
+   "start_s": 56.1,
+   "end_s": 58.5,
+   "shows": "Enes Kanter Freedom signing document with fountain pen",
+   "kind": "action"
+  },
+  {
+   "start_s": 58.5,
+   "end_s": 60.3,
+   "shows": "Enes Kanter Freedom talking to camera",
+   "kind": "face"
+  },
+  {
+   "start_s": 60.3,
+   "end_s": 61.85,
+   "shows": "Enes Kanter Freedom standing up from table",
+   "kind": "action"
+  },
+  {
+   "start_s": 61.85,
+   "end_s": 103.85,
+   "shows": "Clips repeated: Enes Kanter Freedom speaking, signing documents, outdoor basketball",
+   "kind": "stock"
+  },
+  {
+   "start_s": 103.85,
+   "end_s": 114.85,
+   "shows": "Enes Kanter Freedom in red hoodie and reading document",
+   "kind": "face"
+  },
+  {
+   "start_s": 114.85,
+   "end_s": 117.85,
+   "shows": "Enes Kanter Freedom shooting basketball on outdoor court",
+   "kind": "action"
+  },
+  {
+   "start_s": 117.85,
+   "end_s": 124.0,
+   "shows": "Animated basketball court with player caricatures",
+   "kind": "stock"
+  },
+  {
+   "start_s": 124.0,
+   "end_s": 130.8,
+   "shows": "Enes Kanter Freedom playing basketball indoors with woman",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 29,
+ "average_shot_s": 4.51,
+ "longest_shot_s": 41.5,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 175,
+  "tone": "humorous, analytical, provocative",
+  "original_audio_under_voice": true
+ },
+ "music": {
+  "present": true,
+  "style": "upbeat electronic pop",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "ALL CAPS",
+  "position": "middle",
+  "colours": "white with yellow accents",
+  "highlight_style": "word-by-word yellow highlight"
+ },
+ "text_overlays": [
+  {
+   "at_s": 0.0,
+   "text": "Should Enes Kanter Freedom Play in the WNBA?"
+  }
+ ],
+ "cards_or_graphics": 2,
+ "framing": "crop",
+ "ending": {
+  "last_words": "prevent her from playing there.",
+  "last_frame": "Enes Kanter Freedom playing basketball indoors.",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "The WNBA is entering a rather nebulous situation. And after former NBA players Enes Kanter Freedom and Lois White announced their intention to declare for the 2027 WNBA draft, amid the debate over transgender athletes, but here is something that gets overlooked in this debate: the NBA itself isn't technically called the Men's National Basketball Association. And as far as the league's official rules go, women are not categorically prohibited from competing in the NBA. In fact, a woman has actually been drafted before. Her name was Lusia Harris, nicknamed the Queen of Basketball. And in 1977, the New Orleans Jazz selected her in the seventh round of the NBA draft. Harris never attended training camp, largely because she was pregnant at the time, but her selection demonstrates an important distinction: the NBA can essentially function as an open competitive division, if you're good enough to make the NBA roster, your sex or gender doesn't inherently have to qualify you. So here is one possible solution to this debate: instead of determining someone's gender identity and which division they could compete in, the leagues could establish objective eligibility standards designed to preserve the competitive purpose for each division's league. That doesn't mean they're banned from professional basketball, but that they should play in the division that they're good enough to play for. And so hypothetically, even if Enes Kanter Freedom genuinely identified as a transgender woman, she wouldn't necessarily need to be eligible for the WNBA in order to play professional basketball as a woman, if she were still good enough to make an NBA or G-League roster, nothing about being a woman would inherently prevent her from playing there.",
+ "retention_tricks": [
+  "animated character intro",
+  "rapid-fire historical clips",
+  "memes and pop-culture cross-dressing imagery",
+  "high-speed narrative delivery"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": true,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "Provocative premise tackling a controversial current sports debate using absurd hypothetical scenarios.",
+  "Fast-paced editing combining memes, retro video game animations, and archival footage.",
+  "Engaging delivery supported by dynamic word-by-word captions and upbeat background music."
+ ],
+ "_meta": {
+  "source": "Cahxt3UnBfA",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

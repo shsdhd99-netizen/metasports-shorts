@@ -1,0 +1,15 @@
+{
+ "track": "Library/Music/eleven_stats_01.mp3",
+ "start": 0.0,
+ "bed_lu": -12,
+ "gap_lift": 2,
+ "drops": [
+  {
+   "at": 14.809,
+   "len": 0.3
+  }
+ ],
+ "out": 22.664,
+ "fade_out": 0.5,
+ "why": "TEST T2 (not for posting): CoachClank-like bed level. Their bed sits about 2.5-5 dB under the voice in gaps; ours is -20 LU (-16 in gaps). Here -12 LU under speech, -10 in gaps. Same track, drops and stop as #40 v4."
+}

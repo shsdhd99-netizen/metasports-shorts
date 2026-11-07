@@ -1,0 +1,90 @@
+{
+ "length_s": 16.5,
+ "topic": "UFC legend Zhang Weili effortlessly lifts NBA legend Shaquille O'Neal in the gym, shocking him.",
+ "lane": "moment",
+ "hook": {
+  "first_words": "This UFC legend is about to try lifting Shaq",
+  "first_frame": "Shaq standing in a gym posing while Zhang Weili approaches to lift him with text on screen.",
+  "on_screen_text_0_3s": "THIS UFC LEGEND IS ABOUT TO TRY LIFTING SHAQ",
+  "shots_in_first_3s": 1
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 13.0,
+   "shows": "Zhang Weili bending down and successfully lifting Shaq in the gym.",
+   "kind": "action"
+  },
+  {
+   "start_s": 13.0,
+   "end_s": 16.5,
+   "shows": "Shaq reacting in utter shock and laughing after being lifted.",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 2,
+ "average_shot_s": 8.25,
+ "longest_shot_s": 13.0,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 200,
+  "tone": "energetic and astonished",
+  "original_audio_under_voice": true
+ },
+ "music": {
+  "present": true,
+  "style": "upbeat viral short background track with dramatic swell",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [
+  {
+   "at_s": 13.0,
+   "sound": "heavy grunt / strain sound"
+  }
+ ],
+ "captions": {
+  "present": true,
+  "words_per_line": 4,
+  "case": "ALL CAPS",
+  "position": "middle",
+  "colours": "white",
+  "highlight_style": "word-by-word bold white highlight"
+ },
+ "text_overlays": [],
+ "cards_or_graphics": 0,
+ "framing": "crop",
+ "ending": {
+  "last_words": "Shaq and Weili celebrating and fist bumping",
+  "last_frame": "Shaq smiling and posing with Weili in the gym with a skull emoji overlay",
+  "loops_to_start": true,
+  "call_to_action": "none"
+ },
+ "script": "This UFC legend is about to try lifting Shaq, and even Shaq didn't believe she could pull it off. He's over 300 pounds and stands 7'1, while Zhang Weili is only 5'4 and around 125 pounds. But this was the moment she completely shocked him.",
+ "retention_tricks": [
+  "promise_in_first_line",
+  "size comparison stats (7'1 vs 5'4)",
+  "emoji overlay on reaction"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "Extreme size contrast between the two athletes creates immediate intrigue",
+  "High-stakes physical feat performed effortlessly by the smaller fighter",
+  "Genuine, priceless reaction of shock and joy from Shaquille O'Neal"
+ ],
+ "_meta": {
+  "source": "wHqENoclpeM",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

@@ -1,0 +1,28 @@
+[
+ {
+  "take": 1,
+  "ok": false,
+  "score": -94.4,
+  "raw_wpm": 294,
+  "stretch": 1.0,
+  "issues": [
+   "10.46s  script \"the\" but heard \"(nothing)\""
+  ],
+  "hnr": 8.9,
+  "jitter": 2.51,
+  "shimmer": 10.41
+ },
+ {
+  "take": 2,
+  "ok": false,
+  "score": -94.2,
+  "raw_wpm": 289,
+  "stretch": 1.0,
+  "issues": [
+   "10.66s  script \"the\" but heard \"(nothing)\""
+  ],
+  "hnr": 9.0,
+  "jitter": 2.38,
+  "shimmer": 10.13
+ }
+]

@@ -1,0 +1,123 @@
+[
+ {
+  "clip": "as_gap.mp4",
+  "start": 0.0,
+  "in": 0.0,
+  "kind": "action",
+  "zoom": 0.12,
+  "anchor": "21",
+  "why": "Wembanyama over a normal man, the one-second gap"
+ },
+ {
+  "clip": "post_gap.mp4",
+  "start": 0.8,
+  "in": 0.0,
+  "kind": "action",
+  "anchor": "That is",
+  "why": "Spurs 1 over a shorter defender"
+ },
+ {
+  "clip": "rim_one.mp4",
+  "start": 2.03,
+  "in": 0.0,
+  "kind": "action",
+  "anchor": "and you",
+  "why": "Wembanyama 1 at the rim"
+ },
+ {
+  "clip": "blk_name.mp4",
+  "start": 3.35,
+  "in": 0.0,
+  "kind": "action",
+  "anchor": "NBA.com",
+  "why": "jersey says Wembanyama while his name is spoken"
+ },
+ {
+  "clip": "kawa_face.mp4",
+  "start": 5.75,
+  "in": 0.0,
+  "kind": "face",
+  "anchor": "But the",
+  "why": "Grizzlies 17 face while Kawamura is spoken"
+ },
+ {
+  "clip": "post_gap.mp4",
+  "start": 8.33,
+  "in": 1.5,
+  "kind": "action",
+  "anchor": "Basketball",
+  "why": "same listed gap, in-game size"
+ },
+ {
+  "clip": "as_gap.mp4",
+  "start": 10.22,
+  "in": 2.4,
+  "kind": "action",
+  "anchor": "Seven four",
+  "why": "seven four, the tall end"
+ },
+ {
+  "clip": "rim_one.mp4",
+  "start": 11.42,
+  "in": 0.0,
+  "kind": "action",
+  "anchor": "One of",
+  "why": "Spurs center at the rim"
+ },
+ {
+  "clip": "kawa_face.mp4",
+  "start": 12.65,
+  "in": 0.0,
+  "kind": "face",
+  "anchor": "The other",
+  "why": "Grizzlies 17, the point guard"
+ },
+ {
+  "clip": "wem_face.mp4",
+  "start": 13.66,
+  "in": 0.0,
+  "kind": "face",
+  "anchor": "Wembanyama is",
+  "why": "Wembanyama face on his name and the weight"
+ },
+ {
+  "clip": "kawa_face.mp4",
+  "start": 15.71,
+  "in": 0.4,
+  "kind": "face",
+  "anchor": "Kawamura is",
+  "why": "Grizzlies 17 face on the second Kawamura line"
+ },
+ {
+  "clip": "as_gap.mp4",
+  "start": 17.55,
+  "in": 0.4,
+  "kind": "action",
+  "anchor": "Stand the",
+  "why": "center next to a normal man"
+ },
+ {
+  "clip": "kawa_face.mp4",
+  "start": 20.22,
+  "in": 1.0,
+  "kind": "face",
+  "anchor": "Then look",
+  "why": "the point guard"
+ },
+ {
+  "clip": "post_gap.mp4",
+  "start": 21.24,
+  "in": 0.0,
+  "kind": "action",
+  "anchor": "Seven four against",
+  "why": "seven four against five seven"
+ },
+ {
+  "clip": "as_gap.mp4",
+  "start": 22.48,
+  "in": 1.9,
+  "kind": "action",
+  "anchor": "Twenty-one",
+  "why": "loop the gap on the payoff"
+ }
+]

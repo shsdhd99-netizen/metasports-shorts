@@ -1,0 +1,18 @@
+- 2026-11-03 18:30 ET: scheduled 0; skipped/refused 4.
+- 2026-11-04 06:30 ET: scheduled 3: 2026-11-06 94 Rodman Number 69; 2026-10-27 S09 Ronaldo Moved The Coca-Cola Bottles; 2026-11-07 S29 The Goalkeeper Who Says Spain Were Scared Of A Shootout; skipped/refused 1.
+- 2026-11-04 18:30 ET: scheduled 0; skipped/refused 1.
+- 2026-11-05 06:30 ET: scheduled 0; skipped/refused 1.
+- 2026-11-05 06:47 ET: scheduled 1: 2026-11-05 95 A Rookie Chased 40 Because His Teammates Said So; skipped/refused 1.
+  - 2026-11-05 18:30 skip 2026-10-24 67 Jordan Made Up An Insult To Destroy Someone: 2 DRAFT files and no **Arm:** line (owner's call)
+- 2026-11-05 18:30 ET: scheduled 0; skipped/refused 1.
+  - 2026-11-06 06:30 skip 2026-10-24 67 Jordan Made Up An Insult To Destroy Someone: 2 DRAFT files and no **Arm:** line (owner's call)
+- 2026-11-06 06:30 ET: scheduled 0; skipped/refused 1.
+  - 2026-11-06 18:30 skip 2026-10-21 65 LeBron Answers A Knicks Heckler: card says HOLD
+  - 2026-11-06 18:30 skip 2026-10-30 79 Two Buzzer-Beaters From 40 And 50 Feet: title or tags missing
+- 2026-11-06 18:30 ET: scheduled 2: 2026-10-20 59 Why The WNBA Minimum Is Now Bigger Than The Max; 2026-10-24 67 Jordan Made Up An Insult To Destroy Someone; skipped/refused 2.
+  - 2026-11-07 06:30 skip 2026-10-21 65 LeBron Answers A Knicks Heckler: card says HOLD
+  - 2026-11-07 06:30 skip 2026-10-30 79 Two Buzzer-Beaters From 40 And 50 Feet: title or tags missing
+- 2026-11-07 06:30 ET: scheduled 0; skipped/refused 2.
+  - 2026-11-07 11:58 skip 2026-10-21 65 LeBron Answers A Knicks Heckler: card says HOLD
+  - 2026-11-07 11:58 skip 2026-10-30 79 Two Buzzer-Beaters From 40 And 50 Feet: title or tags missing
+- 2026-11-07 11:58 ET: scheduled 1: 2026-11-07 99 Luka Scored 53 For His Sixth 40 In Seven; skipped/refused 2.

@@ -1,0 +1,57 @@
+[
+ {
+  "word": "16",
+  "start": 0.0,
+  "end": 0.34
+ },
+ {
+  "word": "Lakers,",
+  "start": 0.382,
+  "end": 0.671
+ },
+ {
+  "word": "15",
+  "start": 0.701,
+  "end": 0.99
+ },
+ {
+  "word": "spots,",
+  "start": 1.021,
+  "end": 1.289
+ },
+ {
+  "word": "and",
+  "start": 1.32,
+  "end": 1.434
+ },
+ {
+  "word": "one",
+  "start": 1.485,
+  "end": 1.578
+ },
+ {
+  "word": "of",
+  "start": 1.609,
+  "end": 1.65
+ },
+ {
+  "word": "them",
+  "start": 1.681,
+  "end": 1.794
+ },
+ {
+  "word": "is",
+  "start": 1.846,
+  "end": 1.928
+ },
+ {
+  "word": "Bronny",
+  "start": 1.97,
+  "end": 2.217
+ },
+ {
+  "word": "James.",
+  "start": 2.269,
+  "end": 2.64
+ }
+]

@@ -1,0 +1,317 @@
+{
+ "length_s": 67.3,
+ "topic": "NBA trades where both teams thought they won, focusing on the LeBron James, Kevin Love, and Andrew Wiggins 2014 trade.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "NBA trades where both teams thought they won!",
+  "first_frame": "A basketball player dribbling the ball on the court with spectators watching in the background.",
+  "on_screen_text_0_3s": "NBA trades where BOTH TEAMS thought they won!",
+  "shots_in_first_3s": 2
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 2.1,
+   "shows": "basketball player on court dribbling",
+   "kind": "action"
+  },
+  {
+   "start_s": 2.1,
+   "end_s": 3.7,
+   "shows": "LeBron James at press conference wearing sunglasses",
+   "kind": "face"
+  },
+  {
+   "start_s": 3.7,
+   "end_s": 5.0,
+   "shows": "LeBron James in Miami Heat jersey",
+   "kind": "still"
+  },
+  {
+   "start_s": 5.0,
+   "end_s": 6.1,
+   "shows": "Cleveland Cavaliers logo with blurred basketball court",
+   "kind": "still"
+  },
+  {
+   "start_s": 6.1,
+   "end_s": 7.5,
+   "shows": "LeBron James in Cleveland Cavaliers jersey",
+   "kind": "still"
+  },
+  {
+   "start_s": 7.5,
+   "end_s": 8.8,
+   "shows": "Kevin Love in Minnesota Timberwolves jersey",
+   "kind": "still"
+  },
+  {
+   "start_s": 8.8,
+   "end_s": 12.2,
+   "shows": "Kevin Love shouting in Timberwolves jersey",
+   "kind": "still"
+  },
+  {
+   "start_s": 12.2,
+   "end_s": 13.6,
+   "shows": "Minnesota Timberwolves logo on court background",
+   "kind": "still"
+  },
+  {
+   "start_s": 13.6,
+   "end_s": 16.0,
+   "shows": "a young man in white tank top looking surprised on a bed",
+   "kind": "face"
+  },
+  {
+   "start_s": 16.0,
+   "end_s": 18.9,
+   "shows": "Kevin Love in Timberwolves jersey standing on court",
+   "kind": "still"
+  },
+  {
+   "start_s": 18.9,
+   "end_s": 20.7,
+   "shows": "Kevin Love at press conference in striped sweater",
+   "kind": "face"
+  },
+  {
+   "start_s": 20.7,
+   "end_s": 21.9,
+   "shows": "man with beard looking shocked",
+   "kind": "face"
+  },
+  {
+   "start_s": 21.9,
+   "end_s": 23.4,
+   "shows": "Cleveland Cavaliers logo",
+   "kind": "still"
+  },
+  {
+   "start_s": 23.4,
+   "end_s": 25.0,
+   "shows": "Andrew Wiggins holding Cavaliers jersey at press conference",
+   "kind": "face"
+  },
+  {
+   "start_s": 25.0,
+   "end_s": 27.2,
+   "shows": "Anthony Bennett in Cavaliers jersey",
+   "kind": "still"
+  },
+  {
+   "start_s": 27.2,
+   "end_s": 27.9,
+   "shows": "Thaddeus Young playing basketball on old TV screen",
+   "kind": "replay"
+  },
+  {
+   "start_s": 27.9,
+   "end_s": 29.2,
+   "shows": "Thaddeus Young running on court on old TV screen",
+   "kind": "replay"
+  },
+  {
+   "start_s": 29.2,
+   "end_s": 30.0,
+   "shows": "Homelander character smiling",
+   "kind": "face"
+  },
+  {
+   "start_s": 30.0,
+   "end_s": 31.9,
+   "shows": "Vince McMahon looking serious",
+   "kind": "face"
+  },
+  {
+   "start_s": 31.9,
+   "end_s": 34.2,
+   "shows": "man in grey hoodie speaking",
+   "kind": "face"
+  },
+  {
+   "start_s": 34.2,
+   "end_s": 36.5,
+   "shows": "man in grey hoodie looking closely",
+   "kind": "face"
+  },
+  {
+   "start_s": 36.5,
+   "end_s": 38.1,
+   "shows": "bald man in plaid shirt looking unimpressed",
+   "kind": "face"
+  },
+  {
+   "start_s": 38.1,
+   "end_s": 39.6,
+   "shows": "man in grey hoodie speaking",
+   "kind": "face"
+  },
+  {
+   "start_s": 39.6,
+   "end_s": 42.0,
+   "shows": "man crying",
+   "kind": "face"
+  },
+  {
+   "start_s": 42.0,
+   "end_s": 43.6,
+   "shows": "basketball game on old TV screen",
+   "kind": "replay"
+  },
+  {
+   "start_s": 43.6,
+   "end_s": 45.9,
+   "shows": "crowd celebrating in a bar",
+   "kind": "action"
+  },
+  {
+   "start_s": 45.9,
+   "end_s": 48.6,
+   "shows": "Andrew Wiggins and Anthony Bennett in Timberwolves jerseys from behind",
+   "kind": "still"
+  },
+  {
+   "start_s": 48.6,
+   "end_s": 50.5,
+   "shows": "man in grey hoodie looking thoughtful",
+   "kind": "face"
+  },
+  {
+   "start_s": 50.5,
+   "end_s": 51.9,
+   "shows": "man in suit at press conference speaking into microphone",
+   "kind": "face"
+  },
+  {
+   "start_s": 51.9,
+   "end_s": 53.5,
+   "shows": "basketball game on old TV screen",
+   "kind": "replay"
+  },
+  {
+   "start_s": 53.5,
+   "end_s": 55.5,
+   "shows": "LeBron James and Kevin Love embracing and crying in joy",
+   "kind": "face"
+  },
+  {
+   "start_s": 55.5,
+   "end_s": 57.6,
+   "shows": "Kevin Love defending Stephen Curry on court",
+   "kind": "action"
+  },
+  {
+   "start_s": 57.6,
+   "end_s": 59.5,
+   "shows": "basketball game ending seconds on old TV screen",
+   "kind": "replay"
+  },
+  {
+   "start_s": 59.5,
+   "end_s": 61.0,
+   "shows": "man in suit at press conference speaking into microphone",
+   "kind": "face"
+  },
+  {
+   "start_s": 61.0,
+   "end_s": 62.1,
+   "shows": "man in grey hoodie speaking",
+   "kind": "face"
+  },
+  {
+   "start_s": 62.1,
+   "end_s": 63.6,
+   "shows": "man in grey hoodie looking thoughtful",
+   "kind": "face"
+  },
+  {
+   "start_s": 63.6,
+   "end_s": 65.0,
+   "shows": "basketball player holding championship trophy",
+   "kind": "still"
+  },
+  {
+   "start_s": 65.0,
+   "end_s": 66.0,
+   "shows": "Minnesota Timberwolves logo",
+   "kind": "still"
+  },
+  {
+   "start_s": 66.0,
+   "end_s": 67.3,
+   "shows": "basketball player celebrating with championship trophy reflection",
+   "kind": "still"
+  }
+ ],
+ "shot_count": 42,
+ "average_shot_s": 1.6,
+ "longest_shot_s": 2.9,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 195,
+  "tone": "energetic story-teller",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "dramatic cinematic beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "mixed",
+  "position": "middle",
+  "colours": "white",
+  "highlight_style": "none"
+ },
+ "text_overlays": [
+  {
+   "at_s": 9.5,
+   "text": "26 POINTS A GAME"
+  },
+  {
+   "at_s": 11.5,
+   "text": "12 REBS PER GAME"
+  }
+ ],
+ "cards_or_graphics": 4,
+ "framing": "blurred background",
+ "ending": {
+  "last_words": "for Golden State.",
+  "last_frame": "A basketball player smiling and hugging the championship trophy with a reflection of the team on it.",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "NBA trades where both teams thought they won! In the summer of 2014, LeBron James left Miami and went back home to Cleveland. And the superstar he wanted to team up with was Kevin Love, a three-time All-Star averaging 26 points and 12 rebounds a game for the Minnesota Timberwolves. But actually pulling this trade off got complicated fast. Love had missed the playoffs all six years in Minnesota and already told the team he was leaving, so the Wolves had to move him. Cleveland offered Andrew Wiggins, the number one overall pick that year, along with former number one pick Anthony Bennett and Thaddeus Young came over from Philadelphia in the three-team deal. But there was one weird problem. A rare rule meant the trade couldn't officially happen until thirty days after Wiggins signed his rookie deal, so everyone just had to wait. But the moment it finally went through, both fanbases thought they had just robbed the other one. Cleveland got an A-plus, and Minnesota fans were happy too because they landed two former number one picks to build their future around. So on paper both teams thought they won. Then reality hit, and in 2016 Love helped LeBron win Cleveland its first ever title, with his forgotten defensive stop on Stephen Curry in Game Seven basically sealing it. Meanwhile, none of Minnesota's pieces stuck, and as for Wiggins, he did eventually turn into a steal and win a championship, just not for Minnesota, because he did it for Golden State.",
+ "retention_tricks": [
+  "rapid shot changes averaging 1.6 seconds",
+  "memes and reaction clips interspersed",
+  "promise in first line about trades where both teams thought they won",
+  "plot twist reveal about how the players actually panned out"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": true,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "Fast-paced editing with diverse visual media including memes, TV clips, and player photos",
+  "Engaging narrative arc following a major trade and its unexpected long-term outcomes",
+  "Clear thematic contrast between what fans thought at the time versus reality"
+ ],
+ "_meta": {
+  "source": "8OiTFI45Xbo",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

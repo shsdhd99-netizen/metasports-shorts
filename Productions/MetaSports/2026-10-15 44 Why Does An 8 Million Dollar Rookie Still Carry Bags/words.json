@@ -1,0 +1,412 @@
+[
+ {
+  "word": "Cooper",
+  "start": 0.0,
+  "end": 0.244
+ },
+ {
+  "word": "Flagg's",
+  "start": 0.279,
+  "end": 0.58
+ },
+ {
+  "word": "teammates",
+  "start": 0.615,
+  "end": 0.998
+ },
+ {
+  "word": "still",
+  "start": 1.033,
+  "end": 1.289
+ },
+ {
+  "word": "make",
+  "start": 1.335,
+  "end": 1.463
+ },
+ {
+  "word": "him",
+  "start": 1.486,
+  "end": 1.556
+ },
+ {
+  "word": "carry",
+  "start": 1.614,
+  "end": 1.811
+ },
+ {
+  "word": "the",
+  "start": 1.858,
+  "end": 1.927
+ },
+ {
+  "word": "bags.",
+  "start": 1.985,
+  "end": 2.508
+ },
+ {
+  "word": "His",
+  "start": 2.531,
+  "end": 2.67
+ },
+ {
+  "word": "rookie",
+  "start": 2.728,
+  "end": 2.937
+ },
+ {
+  "word": "card",
+  "start": 2.972,
+  "end": 3.17
+ },
+ {
+  "word": "just",
+  "start": 3.216,
+  "end": 3.332
+ },
+ {
+  "word": "sold",
+  "start": 3.355,
+  "end": 3.553
+ },
+ {
+  "word": "for",
+  "start": 3.599,
+  "end": 3.68
+ },
+ {
+  "word": "eight",
+  "start": 3.762,
+  "end": 3.924
+ },
+ {
+  "word": "million",
+  "start": 3.971,
+  "end": 4.226
+ },
+ {
+  "word": "dollars.",
+  "start": 4.284,
+  "end": 4.76
+ },
+ {
+  "word": "He's",
+  "start": 4.783,
+  "end": 4.888
+ },
+ {
+  "word": "the",
+  "start": 4.911,
+  "end": 4.981
+ },
+ {
+  "word": "reigning",
+  "start": 5.039,
+  "end": 5.283
+ },
+ {
+  "word": "Rookie",
+  "start": 5.329,
+  "end": 5.526
+ },
+ {
+  "word": "of",
+  "start": 5.561,
+  "end": 5.608
+ },
+ {
+  "word": "the",
+  "start": 5.642,
+  "end": 5.712
+ },
+ {
+  "word": "Year.",
+  "start": 5.759,
+  "end": 6.095
+ },
+ {
+  "word": "In",
+  "start": 6.118,
+  "end": 6.211
+ },
+ {
+  "word": "Macao",
+  "start": 6.246,
+  "end": 6.536
+ },
+ {
+  "word": "this",
+  "start": 6.571,
+  "end": 6.699
+ },
+ {
+  "word": "month,",
+  "start": 6.757,
+  "end": 6.954
+ },
+ {
+  "word": "fans",
+  "start": 6.978,
+  "end": 7.245
+ },
+ {
+  "word": "packed",
+  "start": 7.291,
+  "end": 7.512
+ },
+ {
+  "word": "the",
+  "start": 7.535,
+  "end": 7.605
+ },
+ {
+  "word": "railings",
+  "start": 7.651,
+  "end": 8.022
+ },
+ {
+  "word": "just",
+  "start": 8.104,
+  "end": 8.266
+ },
+ {
+  "word": "to",
+  "start": 8.29,
+  "end": 8.336
+ },
+ {
+  "word": "get",
+  "start": 8.382,
+  "end": 8.475
+ },
+ {
+  "word": "his",
+  "start": 8.51,
+  "end": 8.58
+ },
+ {
+  "word": "autograph.",
+  "start": 8.626,
+  "end": 9.23
+ },
+ {
+  "word": "And",
+  "start": 9.253,
+  "end": 9.358
+ },
+ {
+  "word": "on",
+  "start": 9.416,
+  "end": 9.486
+ },
+ {
+  "word": "that",
+  "start": 9.521,
+  "end": 9.637
+ },
+ {
+  "word": "same",
+  "start": 9.706,
+  "end": 9.915
+ },
+ {
+  "word": "trip,",
+  "start": 9.95,
+  "end": 10.217
+ },
+ {
+  "word": "a",
+  "start": 10.24,
+  "end": 10.275
+ },
+ {
+  "word": "few",
+  "start": 10.357,
+  "end": 10.508
+ },
+ {
+  "word": "Mavericks",
+  "start": 10.577,
+  "end": 10.925
+ },
+ {
+  "word": "veterans",
+  "start": 10.96,
+  "end": 11.297
+ },
+ {
+  "word": "had",
+  "start": 11.343,
+  "end": 11.46
+ },
+ {
+  "word": "him",
+  "start": 11.494,
+  "end": 11.564
+ },
+ {
+  "word": "carrying",
+  "start": 11.622,
+  "end": 11.924
+ },
+ {
+  "word": "bags.",
+  "start": 12.017,
+  "end": 12.574
+ },
+ {
+  "word": "Why?",
+  "start": 12.609,
+  "end": 13.097
+ },
+ {
+  "word": "Technically,",
+  "start": 13.131,
+  "end": 13.514
+ },
+ {
+  "word": "he's",
+  "start": 13.538,
+  "end": 13.642
+ },
+ {
+  "word": "still",
+  "start": 13.665,
+  "end": 13.816
+ },
+ {
+  "word": "a",
+  "start": 13.84,
+  "end": 13.863
+ },
+ {
+  "word": "rookie",
+  "start": 13.921,
+  "end": 14.176
+ },
+ {
+  "word": "until",
+  "start": 14.211,
+  "end": 14.35
+ },
+ {
+  "word": "he",
+  "start": 14.385,
+  "end": 14.432
+ },
+ {
+  "word": "plays",
+  "start": 14.467,
+  "end": 14.641
+ },
+ {
+  "word": "the",
+  "start": 14.675,
+  "end": 14.745
+ },
+ {
+  "word": "first",
+  "start": 14.792,
+  "end": 14.977
+ },
+ {
+  "word": "game",
+  "start": 15.012,
+  "end": 15.175
+ },
+ {
+  "word": "of",
+  "start": 15.198,
+  "end": 15.244
+ },
+ {
+  "word": "his",
+  "start": 15.279,
+  "end": 15.349
+ },
+ {
+  "word": "second",
+  "start": 15.384,
+  "end": 15.616
+ },
+ {
+  "word": "season.",
+  "start": 15.674,
+  "end": 16.045
+ },
+ {
+  "word": "Flagg",
+  "start": 16.069,
+  "end": 16.301
+ },
+ {
+  "word": "says",
+  "start": 16.347,
+  "end": 16.463
+ },
+ {
+  "word": "he",
+  "start": 16.498,
+  "end": 16.545
+ },
+ {
+  "word": "can",
+  "start": 16.58,
+  "end": 16.661
+ },
+ {
+  "word": "sometimes",
+  "start": 16.73,
+  "end": 17.067
+ },
+ {
+  "word": "sneak",
+  "start": 17.09,
+  "end": 17.241
+ },
+ {
+  "word": "by",
+  "start": 17.288,
+  "end": 17.427
+ },
+ {
+  "word": "without",
+  "start": 17.485,
+  "end": 17.694
+ },
+ {
+  "word": "them",
+  "start": 17.717,
+  "end": 17.822
+ },
+ {
+  "word": "remembering.",
+  "start": 17.868,
+  "end": 18.402
+ },
+ {
+  "word": "\"But",
+  "start": 18.426,
+  "end": 18.565
+ },
+ {
+  "word": "yeah,",
+  "start": 18.611,
+  "end": 18.971
+ },
+ {
+  "word": "they",
+  "start": 19.006,
+  "end": 19.122
+ },
+ {
+  "word": "definitely",
+  "start": 19.18,
+  "end": 19.563
+ },
+ {
+  "word": "try.\"",
+  "start": 19.61,
+  "end": 20.295
+ }
+]

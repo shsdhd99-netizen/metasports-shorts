@@ -1,0 +1,114 @@
+{
+ "length_s": 16.25,
+ "topic": "An NBA reporter who gets treated like part of the team when they win.",
+ "lane": "moment",
+ "hook": {
+  "first_words": "This guy has the best job in the NBA,",
+  "first_frame": "An NBA reporter standing with players holding a towel.",
+  "on_screen_text_0_3s": "This guy has the best job in the NBA,",
+  "shots_in_first_3s": 2
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 2.167,
+   "shows": "NBA reporter holding microphone surrounded by players holding a towel",
+   "kind": "face"
+  },
+  {
+   "start_s": 2.167,
+   "end_s": 4.167,
+   "shows": "Reporter being jokingly choked and neck-rubbed by players",
+   "kind": "action"
+  },
+  {
+   "start_s": 4.167,
+   "end_s": 5.708,
+   "shows": "Reporter talking into microphone smiling",
+   "kind": "face"
+  },
+  {
+   "start_s": 5.708,
+   "end_s": 9.167,
+   "shows": "Reporter interviewing player while other players drape towels over him",
+   "kind": "action"
+  },
+  {
+   "start_s": 9.167,
+   "end_s": 10.5,
+   "shows": "Reporter wearing a team hoodie being interviewed/gregarious with players",
+   "kind": "action"
+  },
+  {
+   "start_s": 10.5,
+   "end_s": 12.167,
+   "shows": "Reporter talking with players in uniforms",
+   "kind": "action"
+  },
+  {
+   "start_s": 12.167,
+   "end_s": 16.25,
+   "shows": "Players surprising reporter with custom t-shirt featuring his face",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 7,
+ "average_shot_s": 2.32,
+ "longest_shot_s": 4.08,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 175,
+  "tone": "upbeat",
+  "original_audio_under_voice": true
+ },
+ "music": {
+  "present": true,
+  "style": "upbeat background beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "mixed",
+  "position": "middle",
+  "colours": "white",
+  "highlight_style": "none"
+ },
+ "text_overlays": [],
+ "cards_or_graphics": 0,
+ "framing": "crop",
+ "ending": {
+  "last_words": "with his own custom shirt!",
+  "last_frame": "Reporter smiling wearing custom shirt with players laughing behind him",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "This guy has the best job in the NBA, because every time his team wins, he gets to interview them and just have fun. Like when the Thunder put a bunch of towels on him as he asked questions. Or when they gave him a full outfit like he was going to play for them. But I think the coolest thing that's happened to him is when the Thunder surprised him with his own custom shirt!",
+ "retention_tricks": [
+  "quick cuts every 2-4 seconds",
+  "visual escalation ending in the final surprise reveal"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "Compelling premise about an enviable reporter job",
+  "Pace of clips matching the upbeat voiceover",
+  "Payoff ending with the custom shirt surprise"
+ ],
+ "_meta": {
+  "source": "JGcnOe_wn6k",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

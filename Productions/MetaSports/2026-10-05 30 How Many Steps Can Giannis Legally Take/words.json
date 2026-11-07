@@ -1,0 +1,502 @@
+[
+ {
+  "word": "Giannis",
+  "start": 0.0,
+  "end": 0.403
+ },
+ {
+  "word": "looks",
+  "start": 0.434,
+  "end": 0.578
+ },
+ {
+  "word": "like",
+  "start": 0.599,
+  "end": 0.712
+ },
+ {
+  "word": "he",
+  "start": 0.733,
+  "end": 0.785
+ },
+ {
+  "word": "takes",
+  "start": 0.826,
+  "end": 1.002
+ },
+ {
+  "word": "three",
+  "start": 1.022,
+  "end": 1.178
+ },
+ {
+  "word": "steps.",
+  "start": 1.208,
+  "end": 1.518
+ },
+ {
+  "word": "It's",
+  "start": 1.539,
+  "end": 1.694
+ },
+ {
+  "word": "legal.",
+  "start": 1.745,
+  "end": 2.034
+ },
+ {
+  "word": "Here's",
+  "start": 2.086,
+  "end": 2.303
+ },
+ {
+  "word": "why.",
+  "start": 2.334,
+  "end": 2.603
+ },
+ {
+  "word": "The",
+  "start": 2.634,
+  "end": 2.726
+ },
+ {
+  "word": "count",
+  "start": 2.767,
+  "end": 2.923
+ },
+ {
+  "word": "only",
+  "start": 2.964,
+  "end": 3.109
+ },
+ {
+  "word": "starts",
+  "start": 3.15,
+  "end": 3.398
+ },
+ {
+  "word": "when",
+  "start": 3.418,
+  "end": 3.521
+ },
+ {
+  "word": "he",
+  "start": 3.542,
+  "end": 3.584
+ },
+ {
+  "word": "gathers",
+  "start": 3.614,
+  "end": 3.893
+ },
+ {
+  "word": "the",
+  "start": 3.924,
+  "end": 3.986
+ },
+ {
+  "word": "ball.",
+  "start": 4.017,
+  "end": 4.276
+ },
+ {
+  "word": "That",
+  "start": 4.317,
+  "end": 4.482
+ },
+ {
+  "word": "landing",
+  "start": 4.534,
+  "end": 4.761
+ },
+ {
+  "word": "foot",
+  "start": 4.802,
+  "end": 4.937
+ },
+ {
+  "word": "is",
+  "start": 4.967,
+  "end": 5.029
+ },
+ {
+  "word": "free.",
+  "start": 5.081,
+  "end": 5.38
+ },
+ {
+  "word": "Rule",
+  "start": 5.504,
+  "end": 5.701
+ },
+ {
+  "word": "ten,",
+  "start": 5.742,
+  "end": 6.031
+ },
+ {
+  "word": "section",
+  "start": 6.093,
+  "end": 6.351
+ },
+ {
+  "word": "thirteen:",
+  "start": 6.382,
+  "end": 6.805
+ },
+ {
+  "word": "the",
+  "start": 6.837,
+  "end": 6.919
+ },
+ {
+  "word": "first",
+  "start": 6.96,
+  "end": 7.126
+ },
+ {
+  "word": "step",
+  "start": 7.146,
+  "end": 7.301
+ },
+ {
+  "word": "is",
+  "start": 7.352,
+  "end": 7.435
+ },
+ {
+  "word": "the",
+  "start": 7.477,
+  "end": 7.538
+ },
+ {
+  "word": "next",
+  "start": 7.58,
+  "end": 7.745
+ },
+ {
+  "word": "foot",
+  "start": 7.766,
+  "end": 7.9
+ },
+ {
+  "word": "to",
+  "start": 7.931,
+  "end": 7.983
+ },
+ {
+  "word": "touch",
+  "start": 8.024,
+  "end": 8.189
+ },
+ {
+  "word": "the",
+  "start": 8.23,
+  "end": 8.293
+ },
+ {
+  "word": "floor",
+  "start": 8.324,
+  "end": 8.488
+ },
+ {
+  "word": "after",
+  "start": 8.53,
+  "end": 8.696
+ },
+ {
+  "word": "the",
+  "start": 8.736,
+  "end": 8.799
+ },
+ {
+  "word": "gather.",
+  "start": 8.83,
+  "end": 9.181
+ },
+ {
+  "word": "So",
+  "start": 9.274,
+  "end": 9.388
+ },
+ {
+  "word": "it's",
+  "start": 9.439,
+  "end": 9.532
+ },
+ {
+  "word": "gather,",
+  "start": 9.573,
+  "end": 9.842
+ },
+ {
+  "word": "step",
+  "start": 9.863,
+  "end": 10.038
+ },
+ {
+  "word": "one,",
+  "start": 10.1,
+  "end": 10.286
+ },
+ {
+  "word": "step",
+  "start": 10.327,
+  "end": 10.503
+ },
+ {
+  "word": "two.",
+  "start": 10.544,
+  "end": 10.75
+ },
+ {
+  "word": "Three",
+  "start": 10.813,
+  "end": 11.039
+ },
+ {
+  "word": "footfalls,",
+  "start": 11.07,
+  "end": 11.556
+ },
+ {
+  "word": "zero",
+  "start": 11.618,
+  "end": 11.845
+ },
+ {
+  "word": "violations.",
+  "start": 11.886,
+  "end": 12.444
+ },
+ {
+  "word": "A",
+  "start": 12.475,
+  "end": 12.527
+ },
+ {
+  "word": "fourth",
+  "start": 12.62,
+  "end": 12.867
+ },
+ {
+  "word": "is",
+  "start": 12.919,
+  "end": 13.012
+ },
+ {
+  "word": "a",
+  "start": 13.053,
+  "end": 13.084
+ },
+ {
+  "word": "travel.",
+  "start": 13.126,
+  "end": 13.467
+ },
+ {
+  "word": "The",
+  "start": 13.487,
+  "end": 13.58
+ },
+ {
+  "word": "league's",
+  "start": 13.631,
+  "end": 13.848
+ },
+ {
+  "word": "own",
+  "start": 13.9,
+  "end": 14.034
+ },
+ {
+  "word": "referees",
+  "start": 14.086,
+  "end": 14.468
+ },
+ {
+  "word": "even",
+  "start": 14.531,
+  "end": 14.695
+ },
+ {
+  "word": "posted",
+  "start": 14.737,
+  "end": 14.995
+ },
+ {
+  "word": "one",
+  "start": 15.046,
+  "end": 15.16
+ },
+ {
+  "word": "they",
+  "start": 15.191,
+  "end": 15.326
+ },
+ {
+  "word": "missed.",
+  "start": 15.377,
+  "end": 15.656
+ },
+ {
+  "word": "And",
+  "start": 15.676,
+  "end": 15.79
+ },
+ {
+  "word": "this",
+  "start": 15.842,
+  "end": 15.976
+ },
+ {
+  "word": "season's",
+  "start": 16.017,
+  "end": 16.296
+ },
+ {
+  "word": "new",
+  "start": 16.337,
+  "end": 16.431
+ },
+ {
+  "word": "referee",
+  "start": 16.482,
+  "end": 16.782
+ },
+ {
+  "word": "points",
+  "start": 16.823,
+  "end": 17.019
+ },
+ {
+  "word": "of",
+  "start": 17.05,
+  "end": 17.101
+ },
+ {
+  "word": "emphasis?",
+  "start": 17.143,
+  "end": 17.546
+ },
+ {
+  "word": "Push-offs,",
+  "start": 17.587,
+  "end": 18.01
+ },
+ {
+  "word": "screens,",
+  "start": 18.041,
+  "end": 18.402
+ },
+ {
+  "word": "straight-line",
+  "start": 18.454,
+  "end": 18.919
+ },
+ {
+  "word": "contact.",
+  "start": 18.95,
+  "end": 19.332
+ },
+ {
+  "word": "Traveling",
+  "start": 19.352,
+  "end": 19.714
+ },
+ {
+  "word": "isn't",
+  "start": 19.766,
+  "end": 19.931
+ },
+ {
+  "word": "on",
+  "start": 19.952,
+  "end": 20.004
+ },
+ {
+  "word": "the",
+  "start": 20.024,
+  "end": 20.086
+ },
+ {
+  "word": "list.",
+  "start": 20.127,
+  "end": 20.344
+ },
+ {
+  "word": "So",
+  "start": 20.365,
+  "end": 20.458
+ },
+ {
+  "word": "when",
+  "start": 20.499,
+  "end": 20.602
+ },
+ {
+  "word": "Giannis",
+  "start": 20.633,
+  "end": 20.86
+ },
+ {
+  "word": "drives",
+  "start": 20.891,
+  "end": 21.077
+ },
+ {
+  "word": "in",
+  "start": 21.108,
+  "end": 21.149
+ },
+ {
+  "word": "Miami,",
+  "start": 21.18,
+  "end": 21.501
+ },
+ {
+  "word": "count",
+  "start": 21.542,
+  "end": 21.759
+ },
+ {
+  "word": "it.",
+  "start": 21.811,
+  "end": 21.955
+ },
+ {
+  "word": "Gather,",
+  "start": 21.996,
+  "end": 22.327
+ },
+ {
+  "word": "one,",
+  "start": 22.378,
+  "end": 22.585
+ },
+ {
+  "word": "two.",
+  "start": 22.605,
+  "end": 22.895
+ },
+ {
+  "word": "Nothing",
+  "start": 22.947,
+  "end": 23.225
+ },
+ {
+  "word": "more",
+  "start": 23.267,
+  "end": 23.422
+ },
+ {
+  "word": "is",
+  "start": 23.473,
+  "end": 23.556
+ },
+ {
+  "word": "legal.",
+  "start": 23.608,
+  "end": 24.0
+ }
+]

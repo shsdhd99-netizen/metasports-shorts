@@ -1,0 +1,56 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Montserrat Black,86,&H00FFFFFF,&H00FFFFFF,&H00000000,&H99000000,0,0,0,0,95,100,1,0,1,6,3,5,70,70,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.54,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}KNICKS CENTER
+Dialogue: 0,0:00:00.54,0:00:01.24,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}MITCHELL ROBINSON
+Dialogue: 0,0:00:01.24,0:00:01.85,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}MADE TWENTY-NINE
+Dialogue: 0,0:00:01.85,0:00:02.15,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}PERCENT
+Dialogue: 0,0:00:02.15,0:00:02.66,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}OF HIS PLAYOFF
+Dialogue: 0,0:00:02.66,0:00:03.22,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FREE THROWS.
+Dialogue: 0,0:00:03.22,0:00:03.60,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}A HALL OF
+Dialogue: 0,0:00:03.60,0:00:04.11,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FAMER OFFERED
+Dialogue: 0,0:00:04.11,0:00:04.62,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TO FIX IT.
+Dialogue: 0,0:00:04.62,0:00:05.24,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}UNDERHAND.
+Dialogue: 0,0:00:05.24,0:00:05.89,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ROBINSON SAID,
+Dialogue: 0,0:00:05.89,0:00:06.21,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NAH,
+Dialogue: 0,0:00:06.21,0:00:06.90,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SILLY AS HELL.
+Dialogue: 0,0:00:06.90,0:00:07.61,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THAT HALL OF FAMER
+Dialogue: 0,0:00:07.61,0:00:08.31,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IS RICK BARRY.
+Dialogue: 0,0:00:08.31,0:00:08.92,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NINETY PERCENT
+Dialogue: 0,0:00:08.92,0:00:09.58,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FOR HIS CAREER,
+Dialogue: 0,0:00:09.58,0:00:10.09,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FOURTH BEST
+Dialogue: 0,0:00:10.09,0:00:11.03,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN NBA HISTORY.
+Dialogue: 0,0:00:11.03,0:00:11.68,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WILT CHAMBERLAIN
+Dialogue: 0,0:00:11.68,0:00:11.96,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}USED IT
+Dialogue: 0,0:00:11.96,0:00:12.22,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE NIGHT
+Dialogue: 0,0:00:12.22,0:00:12.57,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HE SCORED
+Dialogue: 0,0:00:12.57,0:00:13.03,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}A HUNDRED.
+Dialogue: 0,0:00:13.03,0:00:13.53,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TWENTY-EIGHT
+Dialogue: 0,0:00:13.53,0:00:14.23,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}OF THIRTY-TWO.
+Dialogue: 0,0:00:14.23,0:00:14.78,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THEN HE QUIT,
+Dialogue: 0,0:00:14.78,0:00:15.10,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BECAUSE HE
+Dialogue: 0,0:00:15.10,0:00:15.42,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FELT LIKE
+Dialogue: 0,0:00:15.42,0:00:15.98,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}A SISSY.
+Dialogue: 0,0:00:15.98,0:00:16.46,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SHAQ SHOT
+Dialogue: 0,0:00:16.46,0:00:17.36,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FIFTY-THREE PERCENT.
+Dialogue: 0,0:00:17.36,0:00:17.81,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HIS ANSWER
+Dialogue: 0,0:00:17.81,0:00:18.30,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TO BARRY:
+Dialogue: 0,0:00:18.30,0:00:18.72,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}I'D RATHER
+Dialogue: 0,0:00:18.72,0:00:19.29,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BE A TERRIBLE
+Dialogue: 0,0:00:19.29,0:00:19.72,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FREE THROW
+Dialogue: 0,0:00:19.72,0:00:20.19,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SHOOTER WHO'S
+Dialogue: 0,0:00:20.19,0:00:20.55,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN THE HALL
+Dialogue: 0,0:00:20.55,0:00:20.86,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}OF FAME
+Dialogue: 0,0:00:20.86,0:00:21.70,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN FIFTEEN MINUTES.
+Dialogue: 0,0:00:21.70,0:00:22.05,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THANKS,
+Dialogue: 0,0:00:22.05,0:00:23.15,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BUT NO THANKS.

@@ -1,0 +1,5 @@
+file '/home/user/metasports-shorts/Productions/MetaSports/2026-10-04 20 Would Bad Boys Defense Be Legal Now/_splice/p0.wav'
+file '/home/user/metasports-shorts/Productions/MetaSports/2026-10-04 20 Would Bad Boys Defense Be Legal Now/_splice/gap.wav'
+file '/home/user/metasports-shorts/Productions/MetaSports/2026-10-04 20 Would Bad Boys Defense Be Legal Now/_splice/p1.wav'
+file '/home/user/metasports-shorts/Productions/MetaSports/2026-10-04 20 Would Bad Boys Defense Be Legal Now/_splice/gap.wav'
+file '/home/user/metasports-shorts/Productions/MetaSports/2026-10-04 20 Would Bad Boys Defense Be Legal Now/_splice/p2.wav'

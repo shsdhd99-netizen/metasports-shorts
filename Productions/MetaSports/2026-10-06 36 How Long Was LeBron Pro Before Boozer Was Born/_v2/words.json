@@ -1,0 +1,382 @@
+[
+ {
+  "word": "LeBron's",
+  "start": 0.0,
+  "end": 0.406
+ },
+ {
+  "word": "teammate",
+  "start": 0.441,
+  "end": 0.778
+ },
+ {
+  "word": "from",
+  "start": 0.801,
+  "end": 0.894
+ },
+ {
+  "word": "his",
+  "start": 0.929,
+  "end": 0.998
+ },
+ {
+  "word": "rookie",
+  "start": 1.068,
+  "end": 1.312
+ },
+ {
+  "word": "year",
+  "start": 1.358,
+  "end": 1.509
+ },
+ {
+  "word": "now",
+  "start": 1.591,
+  "end": 1.834
+ },
+ {
+  "word": "has",
+  "start": 1.904,
+  "end": 2.043
+ },
+ {
+  "word": "a",
+  "start": 2.078,
+  "end": 2.101
+ },
+ {
+  "word": "son",
+  "start": 2.148,
+  "end": 2.299
+ },
+ {
+  "word": "in",
+  "start": 2.334,
+  "end": 2.38
+ },
+ {
+  "word": "the",
+  "start": 2.403,
+  "end": 2.473
+ },
+ {
+  "word": "NBA.",
+  "start": 2.531,
+  "end": 3.204
+ },
+ {
+  "word": "Carlos",
+  "start": 3.529,
+  "end": 3.901
+ },
+ {
+  "word": "Boozer",
+  "start": 3.959,
+  "end": 4.214
+ },
+ {
+  "word": "started",
+  "start": 4.261,
+  "end": 4.493
+ },
+ {
+  "word": "seventy-five",
+  "start": 4.563,
+  "end": 5.166
+ },
+ {
+  "word": "games",
+  "start": 5.213,
+  "end": 5.526
+ },
+ {
+  "word": "next",
+  "start": 5.573,
+  "end": 5.712
+ },
+ {
+  "word": "to",
+  "start": 5.735,
+  "end": 5.782
+ },
+ {
+  "word": "a",
+  "start": 5.84,
+  "end": 5.863
+ },
+ {
+  "word": "teenage",
+  "start": 5.921,
+  "end": 6.293
+ },
+ {
+  "word": "LeBron",
+  "start": 6.351,
+  "end": 6.722
+ },
+ {
+  "word": "in",
+  "start": 6.769,
+  "end": 6.815
+ },
+ {
+  "word": "Cleveland.",
+  "start": 6.873,
+  "end": 7.57
+ },
+ {
+  "word": "This",
+  "start": 7.735,
+  "end": 7.921
+ },
+ {
+  "word": "summer,",
+  "start": 7.955,
+  "end": 8.269
+ },
+ {
+  "word": "Memphis",
+  "start": 8.327,
+  "end": 8.582
+ },
+ {
+  "word": "drafted",
+  "start": 8.629,
+  "end": 8.931
+ },
+ {
+  "word": "his",
+  "start": 8.977,
+  "end": 9.047
+ },
+ {
+  "word": "son,",
+  "start": 9.093,
+  "end": 9.395
+ },
+ {
+  "word": "Cameron,",
+  "start": 9.441,
+  "end": 9.906
+ },
+ {
+  "word": "third",
+  "start": 9.929,
+  "end": 10.219
+ },
+ {
+  "word": "overall.",
+  "start": 10.277,
+  "end": 10.881
+ },
+ {
+  "word": "And",
+  "start": 10.904,
+  "end": 10.997
+ },
+ {
+  "word": "here's",
+  "start": 11.044,
+  "end": 11.206
+ },
+ {
+  "word": "how",
+  "start": 11.229,
+  "end": 11.299
+ },
+ {
+  "word": "long",
+  "start": 11.357,
+  "end": 11.508
+ },
+ {
+  "word": "LeBron",
+  "start": 11.555,
+  "end": 11.798
+ },
+ {
+  "word": "has",
+  "start": 11.833,
+  "end": 11.903
+ },
+ {
+  "word": "been",
+  "start": 11.926,
+  "end": 12.031
+ },
+ {
+  "word": "around:",
+  "start": 12.054,
+  "end": 12.507
+ },
+ {
+  "word": "he",
+  "start": 12.53,
+  "end": 12.588
+ },
+ {
+  "word": "played",
+  "start": 12.646,
+  "end": 12.855
+ },
+ {
+  "word": "in",
+  "start": 12.878,
+  "end": 12.925
+ },
+ {
+  "word": "the",
+  "start": 12.948,
+  "end": 13.018
+ },
+ {
+  "word": "NBA",
+  "start": 13.052,
+  "end": 13.261
+ },
+ {
+  "word": "Finals",
+  "start": 13.319,
+  "end": 13.598
+ },
+ {
+  "word": "thirty-four",
+  "start": 13.644,
+  "end": 13.958
+ },
+ {
+  "word": "days",
+  "start": 14.004,
+  "end": 14.179
+ },
+ {
+  "word": "before",
+  "start": 14.213,
+  "end": 14.387
+ },
+ {
+  "word": "Cameron",
+  "start": 14.434,
+  "end": 14.701
+ },
+ {
+  "word": "was",
+  "start": 14.724,
+  "end": 14.794
+ },
+ {
+  "word": "born.",
+  "start": 14.852,
+  "end": 15.258
+ },
+ {
+  "word": "Now",
+  "start": 15.293,
+  "end": 15.432
+ },
+ {
+  "word": "Cameron",
+  "start": 15.502,
+  "end": 15.769
+ },
+ {
+  "word": "is",
+  "start": 15.792,
+  "end": 15.85
+ },
+ {
+  "word": "the",
+  "start": 15.885,
+  "end": 15.955
+ },
+ {
+  "word": "youngest",
+  "start": 16.048,
+  "end": 16.326
+ },
+ {
+  "word": "player",
+  "start": 16.361,
+  "end": 16.593
+ },
+ {
+  "word": "in",
+  "start": 16.628,
+  "end": 16.675
+ },
+ {
+  "word": "the",
+  "start": 16.709,
+  "end": 16.779
+ },
+ {
+  "word": "league.",
+  "start": 16.826,
+  "end": 17.174
+ },
+ {
+  "word": "LeBron,",
+  "start": 17.197,
+  "end": 17.592
+ },
+ {
+  "word": "in",
+  "start": 17.615,
+  "end": 17.662
+ },
+ {
+  "word": "year",
+  "start": 17.72,
+  "end": 17.824
+ },
+ {
+  "word": "twenty-four,",
+  "start": 17.859,
+  "end": 18.358
+ },
+ {
+  "word": "is",
+  "start": 18.381,
+  "end": 18.474
+ },
+ {
+  "word": "the",
+  "start": 18.521,
+  "end": 18.59
+ },
+ {
+  "word": "oldest.",
+  "start": 18.66,
+  "end": 19.136
+ },
+ {
+  "word": "Two",
+  "start": 19.171,
+  "end": 19.322
+ },
+ {
+  "word": "generations",
+  "start": 19.38,
+  "end": 19.844
+ },
+ {
+  "word": "of",
+  "start": 19.879,
+  "end": 19.925
+ },
+ {
+  "word": "Boozers.",
+  "start": 19.972,
+  "end": 20.436
+ },
+ {
+  "word": "One",
+  "start": 20.46,
+  "end": 20.634
+ },
+ {
+  "word": "LeBron.",
+  "start": 20.68,
+  "end": 21.249
+ }
+]

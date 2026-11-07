@@ -1,0 +1,148 @@
+{
+ "sources": {
+  "K1": "src/2114202459593716037.mp4",
+  "K2": "src/2114226923773866480.mp4"
+ },
+ "shots": [
+  {
+   "clip": "K01",
+   "src": "K1",
+   "at": 5.1,
+   "x": 0.4,
+   "kind": "action",
+   "why": "The young Nuggets fan screaming with his fists clenched after Murray's free throw (NBA on X, Pelicans at Nuggets, Sat Oct 24 2026) (the kid's reaction is the moment this Short is about)",
+   "len": 3.33
+  },
+  {
+   "clip": "K02",
+   "src": "K1",
+   "at": 15.4,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "y": 0.3,
+   "kind": "action",
+   "anchor": "Denver had",
+   "why": "Nuggets vs Pelicans in Denver, late 4th quarter (same post)",
+   "len": 2.64
+  },
+  {
+   "clip": "K03",
+   "src": "K1",
+   "at": 0.0,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.4,
+   "y": 0.3,
+   "kind": "action",
+   "anchor": "Now Murray",
+   "why": "Jamal Murray at the line for the first free throw (scorebug NOP 126 DEN 124, 16.8 left), framed tight on Murray",
+   "zoom": 1.5,
+   "len": 2.3
+  },
+  {
+   "clip": "K04",
+   "src": "K1",
+   "at": 11.0,
+   "speed": 0.5,
+   "x": 0.45,
+   "kind": "face",
+   "anchor": "with 16.8",
+   "why": "Murray close-up at the line, slowed",
+   "len": 2.15
+  },
+  {
+   "clip": "K05",
+   "src": "K2",
+   "at": 1.6,
+   "blurfit": true,
+   "blurfit_aspect": 0.8,
+   "x": 0.5,
+   "y": 0.3,
+   "kind": "face",
+   "anchor": "The kid prayed",
+   "why": "Split screen: Murray at the line above, the kid praying with his hands over his mouth below (NBA on X)",
+   "len": 1.93
+  },
+  {
+   "clip": "K06",
+   "src": "K1",
+   "at": 2.0,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.4,
+   "y": 0.3,
+   "kind": "action",
+   "anchor": "First free throw",
+   "why": "First free throw goes in",
+   "len": 1.53
+  },
+  {
+   "clip": "K07",
+   "src": "K1",
+   "at": 8.8,
+   "x": 0.4,
+   "kind": "face",
+   "anchor": "He screamed",
+   "why": "The kid screaming",
+   "len": 1.14
+  },
+  {
+   "clip": "K08",
+   "src": "K1",
+   "at": 12.5,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.4,
+   "y": 0.3,
+   "kind": "action",
+   "anchor": "Second one",
+   "why": "Second free throw goes in",
+   "len": 1.37
+  },
+  {
+   "clip": "K09",
+   "src": "K2",
+   "at": 7.3,
+   "blurfit": true,
+   "blurfit_aspect": 0.8,
+   "x": 0.5,
+   "y": 0.3,
+   "kind": "action",
+   "anchor": "Tied at",
+   "why": "Split screen after the second free throw: scorebug NOP 126 DEN 126, the kid reacting below",
+   "len": 1.52
+  },
+  {
+   "clip": "K10",
+   "src": "K1",
+   "at": 22.7,
+   "x": 0.4,
+   "kind": "face",
+   "anchor": "He looked",
+   "why": "The kid covering his face, close to tears",
+   "len": 1.55
+  },
+  {
+   "clip": "K11",
+   "src": "K1",
+   "at": 19.0,
+   "x": 0.45,
+   "kind": "action",
+   "anchor": "Denver won",
+   "why": "Denver fans celebrating, then the kid looking up",
+   "len": 3.47
+  },
+  {
+   "clip": "K12",
+   "src": "K1",
+   "at": 23.85,
+   "speed": 0.83,
+   "x": 0.4,
+   "kind": "face",
+   "anchor": "its biggest",
+   "why": "The kid clapping and looking up; ends on him and loops to frame 1",
+   "len": 2.21
+  }
+ ]
+}

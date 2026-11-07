@@ -1,0 +1,99 @@
+[
+ {
+  "clip": "v1.mp4",
+  "anchor": "The Spurs",
+  "kind": "action",
+  "zoom": 0.1,
+  "start": 0.0
+ },
+ {
+  "clip": "c1.mp4",
+  "anchor": "twenty-nine",
+  "kind": "card",
+  "start": 1.52
+ },
+ {
+  "clip": "w1.mp4",
+  "anchor": "And lost",
+  "kind": "quote",
+  "start": 2.37
+ },
+ {
+  "clip": "v4.mp4",
+  "anchor": "They hit",
+  "kind": "action",
+  "start": 3.02
+ },
+ {
+  "clip": "v5.mp4",
+  "anchor": "threes",
+  "kind": "action",
+  "start": 4.36
+ },
+ {
+  "clip": "v6.mp4",
+  "anchor": "and led by",
+  "kind": "action",
+  "start": 5.29
+ },
+ {
+  "clip": "v7.mp4",
+  "anchor": "But the Knicks",
+  "kind": "action",
+  "start": 6.83
+ },
+ {
+  "clip": "v8.mp4",
+  "anchor": "San Antonio",
+  "kind": "action",
+  "start": 8.17
+ },
+ {
+  "clip": "v9.mp4",
+  "anchor": "from deep",
+  "kind": "action",
+  "start": 9.87
+ },
+ {
+  "clip": "v10.mp4",
+  "anchor": "Since nineteen",
+  "kind": "action",
+  "start": 11.0
+ },
+ {
+  "clip": "c2.mp4",
+  "anchor": "more than twenty-four",
+  "kind": "card",
+  "start": 13.14
+ },
+ {
+  "clip": "v11.mp4",
+  "anchor": "Then Brunson",
+  "kind": "action",
+  "start": 14.97
+ },
+ {
+  "clip": "v12.mp4",
+  "anchor": "But OG",
+  "kind": "action",
+  "start": 17.25
+ },
+ {
+  "clip": "v13.mp4",
+  "anchor": "A hundred",
+  "kind": "action",
+  "start": 20.11
+ },
+ {
+  "clip": "v14.mp4",
+  "anchor": "The biggest",
+  "kind": "action",
+  "start": 21.64
+ },
+ {
+  "clip": "v1.mp4",
+  "start": 23.52,
+  "kind": "action",
+  "why": "loop tail"
+ }
+]

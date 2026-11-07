@@ -1,0 +1,13 @@
+Voice 20.8s -> 11 shots from 11 clips
+Drift not found: using the ffmpeg engine
+  note: shot 5 (S5.mp4) is 0.43 s longer than its clip: slowed to fit
+  note: shot 8 (S8o.mp4) is 0.33 s longer than its clip: slowed to fit
+  note: shot 9 (S9o.mp4) is 0.33 s longer than its clip: slowed to fit
+  note: shot 10 (S10.mp4) is 0.17 s longer than its clip: slowed to fit
+  final pass with h264_nvenc failed: [h264_nvenc @ 0x55fe65404540] Cannot load libcuda.so.1
+[vost#0:0/h264_nvenc @ 0x55fe65404140] Error while opening encoder - maybe incorrect parameters such as bit_rate, rate, width or height.
+Error while filtering: Operation not permitted
+[out#0/mp4 @ 0x55fe654033c0] Nothing was written into output file, because at least one of its streams received no packets.
+
+  captions burned (metasports) + 4 sound effect(s), voice lifted +11.8 dB to -14 LUFS, effects mixed under it
+Done: /home/user/metasports-shorts/Productions/MetaSports/2026-10-19 52 Who Has Lost The Most Games Ever/final.mp4 (20.8s)

@@ -1,0 +1,78 @@
+[
+ {
+  "name": "2026-10-05 26 How Is A Screen #0",
+  "dur": 6.48,
+  "voiced": 0.67,
+  "hnr": 7.8,
+  "jitter": 2.57,
+  "shimmer": 10.45,
+  "jumps": 0.0,
+  "clicks": 138.8,
+  "hf": 4.25,
+  "f0_med": 219.0,
+  "verdict": "REDO",
+  "problems": [
+   "HNR 7.8 dB (noisy/robotic)",
+   "jitter 2.57% (shaky)",
+   "shimmer 10.45% (uneven loudness)",
+   "138.8 clicks/min"
+  ]
+ },
+ {
+  "name": "2026-10-05 26 How Is A Screen #2",
+  "dur": 2.64,
+  "voiced": 0.66,
+  "hnr": 6.5,
+  "jitter": 2.78,
+  "shimmer": 11.85,
+  "jumps": 0.0,
+  "clicks": 909.4,
+  "hf": 7.29,
+  "f0_med": 173.0,
+  "verdict": "REDO",
+  "problems": [
+   "HNR 6.5 dB (noisy/robotic)",
+   "jitter 2.78% (shaky)",
+   "shimmer 11.85% (uneven loudness)",
+   "909.4 clicks/min"
+  ]
+ },
+ {
+  "name": "2026-10-05 26 How Is A Screen #4",
+  "dur": 5.76,
+  "voiced": 0.54,
+  "hnr": 7.0,
+  "jitter": 2.79,
+  "shimmer": 11.35,
+  "jumps": 0.0,
+  "clicks": 749.7,
+  "hf": 2.88,
+  "f0_med": 226.0,
+  "verdict": "REDO",
+  "problems": [
+   "HNR 7.0 dB (noisy/robotic)",
+   "jitter 2.79% (shaky)",
+   "shimmer 11.35% (uneven loudness)",
+   "749.7 clicks/min"
+  ]
+ },
+ {
+  "name": "2026-10-05 26 How Is A Screen #6",
+  "dur": 2.63,
+  "voiced": 0.7,
+  "hnr": 7.7,
+  "jitter": 2.94,
+  "shimmer": 10.68,
+  "jumps": 0.0,
+  "clicks": 182.4,
+  "hf": 4.19,
+  "f0_med": 193.0,
+  "verdict": "REDO",
+  "problems": [
+   "HNR 7.7 dB (noisy/robotic)",
+   "jitter 2.94% (shaky)",
+   "shimmer 10.68% (uneven loudness)",
+   "182.4 clicks/min"
+  ]
+ }
+]

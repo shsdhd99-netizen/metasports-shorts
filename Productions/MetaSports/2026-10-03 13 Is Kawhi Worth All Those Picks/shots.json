@@ -1,0 +1,128 @@
+[
+ {
+  "clip": "V02_kawhi_dunk.mp4",
+  "start": 0.0,
+  "kind": "action",
+  "in": 0.1,
+  "zoom": 0.1
+ },
+ {
+  "clip": "V07_intuit_dome_ceremony.mp4",
+  "start": 0.8,
+  "kind": "action",
+  "anchor": "first-round"
+ },
+ {
+  "clip": "V01_kawhi_clippers_face.mp4",
+  "start": 1.31,
+  "kind": "face",
+  "anchor": "from the"
+ },
+ {
+  "clip": "c13_a_1.mp4",
+  "start": 1.99,
+  "kind": "card",
+  "anchor": "$30"
+ },
+ {
+  "clip": "V08_ballmer.mp4",
+  "start": 3.31,
+  "kind": "action",
+  "anchor": "suspended"
+ },
+ {
+  "clip": "V09_kawhi_clippers_dribble.mp4",
+  "start": 4.56,
+  "kind": "action",
+  "anchor": "all over"
+ },
+ {
+  "clip": "V05_kawhi_clippers_debut.mp4",
+  "start": 5.41,
+  "kind": "action",
+  "anchor": "Kawhi"
+ },
+ {
+  "clip": "V03_kawhi_raptors_photoshoot.mp4",
+  "start": 6.08,
+  "kind": "action",
+  "anchor": "Then"
+ },
+ {
+  "clip": "c13_c_1.mp4",
+  "start": 7.41,
+  "kind": "card",
+  "anchor": "Brandon"
+ },
+ {
+  "clip": "V11_g7_celebration.mp4",
+  "start": 8.59,
+  "kind": "action",
+  "anchor": "and two"
+ },
+ {
+  "clip": "V12_g7_dribble.mp4",
+  "start": 9.68,
+  "kind": "action",
+  "anchor": "Eight days"
+ },
+ {
+  "clip": "c13_ext.mp4",
+  "start": 11.44,
+  "kind": "card",
+  "anchor": "a $115"
+ },
+ {
+  "clip": "V05_kawhi_clippers_debut.mp4",
+  "start": 13.19,
+  "kind": "action",
+  "anchor": "after a",
+  "in": 0.0
+ },
+ {
+  "clip": "V02_kawhi_dunk.mp4",
+  "start": 13.95,
+  "kind": "action",
+  "anchor": "27.9",
+  "in": 0.3
+ },
+ {
+  "clip": "V04_kawhi_g7_shot.mp4",
+  "start": 15.38,
+  "kind": "action",
+  "anchor": "But"
+ },
+ {
+  "clip": "V07_intuit_dome_ceremony.mp4",
+  "start": 16.61,
+  "kind": "action",
+  "anchor": "ESPN",
+  "in": 0.0
+ },
+ {
+  "clip": "c13_b_1.mp4",
+  "start": 17.34,
+  "kind": "card",
+  "anchor": "ten"
+ },
+ {
+  "clip": "V09_kawhi_clippers_dribble.mp4",
+  "start": 18.78,
+  "kind": "action",
+  "anchor": "to get"
+ },
+ {
+  "clip": "V10_kawhi_raptors_pose.mp4",
+  "start": 19.67,
+  "kind": "action",
+  "anchor": "Ten"
+ },
+ {
+  "clip": "V02_kawhi_dunk.mp4",
+  "start": 20.83,
+  "kind": "action",
+  "anchor": "Toronto's",
+  "in": 0.1,
+  "zoom": 0.1
+ }
+]

@@ -1,0 +1,477 @@
+[
+ {
+  "word": "Flopping",
+  "start": 0.0,
+  "end": 0.341
+ },
+ {
+  "word": "has",
+  "start": 0.388,
+  "end": 0.472
+ },
+ {
+  "word": "been",
+  "start": 0.511,
+  "end": 0.624
+ },
+ {
+  "word": "a",
+  "start": 0.643,
+  "end": 0.671
+ },
+ {
+  "word": "rule.",
+  "start": 0.71,
+  "end": 0.936
+ },
+ {
+  "word": "The",
+  "start": 0.965,
+  "end": 1.05
+ },
+ {
+  "word": "penalty",
+  "start": 1.088,
+  "end": 1.371
+ },
+ {
+  "word": "is",
+  "start": 1.418,
+  "end": 1.494
+ },
+ {
+  "word": "a",
+  "start": 1.532,
+  "end": 1.561
+ },
+ {
+  "word": "technical",
+  "start": 1.608,
+  "end": 1.929
+ },
+ {
+  "word": "foul.",
+  "start": 1.976,
+  "end": 2.232
+ },
+ {
+  "word": "But",
+  "start": 2.251,
+  "end": 2.364
+ },
+ {
+  "word": "not",
+  "start": 2.402,
+  "end": 2.516
+ },
+ {
+  "word": "every",
+  "start": 2.563,
+  "end": 2.714
+ },
+ {
+  "word": "fall",
+  "start": 2.762,
+  "end": 2.913
+ },
+ {
+  "word": "is",
+  "start": 2.96,
+  "end": 3.026
+ },
+ {
+  "word": "a",
+  "start": 3.065,
+  "end": 3.092
+ },
+ {
+  "word": "flop.",
+  "start": 3.131,
+  "end": 3.395
+ },
+ {
+  "word": "The",
+  "start": 3.414,
+  "end": 3.509
+ },
+ {
+  "word": "test",
+  "start": 3.556,
+  "end": 3.755
+ },
+ {
+  "word": "is",
+  "start": 3.802,
+  "end": 3.868
+ },
+ {
+  "word": "secondary,",
+  "start": 3.916,
+  "end": 4.37
+ },
+ {
+  "word": "theatrical,",
+  "start": 4.389,
+  "end": 4.918
+ },
+ {
+  "word": "exaggerated",
+  "start": 4.947,
+  "end": 5.439
+ },
+ {
+  "word": "movement.",
+  "start": 5.476,
+  "end": 5.788
+ },
+ {
+  "word": "Refs",
+  "start": 5.845,
+  "end": 6.034
+ },
+ {
+  "word": "will",
+  "start": 6.063,
+  "end": 6.186
+ },
+ {
+  "word": "call",
+  "start": 6.223,
+  "end": 6.375
+ },
+ {
+  "word": "more",
+  "start": 6.422,
+  "end": 6.555
+ },
+ {
+  "word": "technicals",
+  "start": 6.583,
+  "end": 6.951
+ },
+ {
+  "word": "when",
+  "start": 6.99,
+  "end": 7.103
+ },
+ {
+  "word": "a",
+  "start": 7.141,
+  "end": 7.169
+ },
+ {
+  "word": "defender",
+  "start": 7.216,
+  "end": 7.509
+ },
+ {
+  "word": "exaggerates",
+  "start": 7.557,
+  "end": 7.973
+ },
+ {
+  "word": "contact",
+  "start": 8.02,
+  "end": 8.371
+ },
+ {
+  "word": "and",
+  "start": 8.408,
+  "end": 8.484
+ },
+ {
+  "word": "theatrically",
+  "start": 8.531,
+  "end": 8.966
+ },
+ {
+  "word": "falls.",
+  "start": 9.013,
+  "end": 9.345
+ },
+ {
+  "word": "Timberwolves",
+  "start": 9.364,
+  "end": 9.827
+ },
+ {
+  "word": "coach",
+  "start": 9.856,
+  "end": 10.035
+ },
+ {
+  "word": "Chris",
+  "start": 10.063,
+  "end": 10.215
+ },
+ {
+  "word": "Finch",
+  "start": 10.262,
+  "end": 10.441
+ },
+ {
+  "word": "says",
+  "start": 10.47,
+  "end": 10.64
+ },
+ {
+  "word": "just",
+  "start": 10.697,
+  "end": 10.858
+ },
+ {
+  "word": "stop",
+  "start": 10.877,
+  "end": 11.066
+ },
+ {
+  "word": "rewarding",
+  "start": 11.113,
+  "end": 11.407
+ },
+ {
+  "word": "the",
+  "start": 11.435,
+  "end": 11.491
+ },
+ {
+  "word": "flopping.",
+  "start": 11.51,
+  "end": 11.842
+ },
+ {
+  "word": "The",
+  "start": 11.861,
+  "end": 11.936
+ },
+ {
+  "word": "league",
+  "start": 11.984,
+  "end": 12.154
+ },
+ {
+  "word": "posted",
+  "start": 12.182,
+  "end": 12.409
+ },
+ {
+  "word": "a",
+  "start": 12.437,
+  "end": 12.456
+ },
+ {
+  "word": "video",
+  "start": 12.494,
+  "end": 12.731
+ },
+ {
+  "word": "of",
+  "start": 12.778,
+  "end": 12.835
+ },
+ {
+  "word": "2025-26",
+  "start": 12.882,
+  "end": 13.904
+ },
+ {
+  "word": "flops.",
+  "start": 13.941,
+  "end": 14.234
+ },
+ {
+  "word": "Thunder",
+  "start": 14.263,
+  "end": 14.499
+ },
+ {
+  "word": "coach",
+  "start": 14.537,
+  "end": 14.717
+ },
+ {
+  "word": "Mark",
+  "start": 14.764,
+  "end": 14.934
+ },
+ {
+  "word": "Daigneault",
+  "start": 14.981,
+  "end": 15.313
+ },
+ {
+  "word": "says",
+  "start": 15.36,
+  "end": 15.502
+ },
+ {
+  "word": "they",
+  "start": 15.531,
+  "end": 15.615
+ },
+ {
+  "word": "might",
+  "start": 15.654,
+  "end": 15.777
+ },
+ {
+  "word": "be",
+  "start": 15.814,
+  "end": 15.871
+ },
+ {
+  "word": "flailing",
+  "start": 15.918,
+  "end": 16.23
+ },
+ {
+  "word": "to",
+  "start": 16.268,
+  "end": 16.306
+ },
+ {
+  "word": "try",
+  "start": 16.344,
+  "end": 16.448
+ },
+ {
+  "word": "to",
+  "start": 16.485,
+  "end": 16.524
+ },
+ {
+  "word": "bait",
+  "start": 16.571,
+  "end": 16.703
+ },
+ {
+  "word": "those",
+  "start": 16.741,
+  "end": 16.892
+ },
+ {
+  "word": "calls.",
+  "start": 16.92,
+  "end": 17.195
+ },
+ {
+  "word": "In",
+  "start": 17.223,
+  "end": 17.318
+ },
+ {
+  "word": "that",
+  "start": 17.355,
+  "end": 17.469
+ },
+ {
+  "word": "video,",
+  "start": 17.517,
+  "end": 17.819
+ },
+ {
+  "word": "Pascal Siakam",
+  "start": 17.866,
+  "end": 18.444
+ },
+ {
+  "word": "sitting",
+  "start": 18.5,
+  "end": 18.699
+ },
+ {
+  "word": "down",
+  "start": 18.746,
+  "end": 18.897
+ },
+ {
+  "word": "after",
+  "start": 18.926,
+  "end": 19.086
+ },
+ {
+  "word": "a",
+  "start": 19.125,
+  "end": 19.152
+ },
+ {
+  "word": "jumper",
+  "start": 19.2,
+  "end": 19.427
+ },
+ {
+  "word": "is",
+  "start": 19.474,
+  "end": 19.55
+ },
+ {
+  "word": "not",
+  "start": 19.597,
+  "end": 19.711
+ },
+ {
+  "word": "a",
+  "start": 19.739,
+  "end": 19.758
+ },
+ {
+  "word": "flop.",
+  "start": 19.786,
+  "end": 20.071
+ },
+ {
+  "word": "A",
+  "start": 20.089,
+  "end": 20.137
+ },
+ {
+  "word": "Deni Avdija",
+  "start": 20.203,
+  "end": 21.139
+ },
+ {
+  "word": "head",
+  "start": 21.187,
+  "end": 21.3
+ },
+ {
+  "word": "snap",
+  "start": 21.328,
+  "end": 21.508
+ },
+ {
+  "word": "after",
+  "start": 21.555,
+  "end": 21.725
+ },
+ {
+  "word": "minimal",
+  "start": 21.772,
+  "end": 22.0
+ },
+ {
+  "word": "contact",
+  "start": 22.037,
+  "end": 22.34
+ },
+ {
+  "word": "is",
+  "start": 22.387,
+  "end": 22.473
+ },
+ {
+  "word": "not",
+  "start": 22.52,
+  "end": 22.633
+ },
+ {
+  "word": "a",
+  "start": 22.671,
+  "end": 22.691
+ },
+ {
+  "word": "flop.",
+  "start": 22.718,
+  "end": 23.04
+ }
+]

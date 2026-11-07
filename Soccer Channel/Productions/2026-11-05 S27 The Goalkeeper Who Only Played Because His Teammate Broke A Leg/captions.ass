@@ -1,0 +1,91 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,TikTok Sans SemiBold,80,&H00FFFFFF,&H00FFFFFF,&H00000000,&H99000000,0,0,0,0,100,100,0,0,1,3.2,1,5,70,70,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:02.97,Cap,,0,0,0,,{\pos(540,960)\blur0.5\fscx59\fscy59}The goalkeeper who only played because\Nhis teammate broke a LEG
+Dialogue: 0,0:00:02.97,0:00:04.11,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Back in 1990,
+Dialogue: 0,0:00:04.11,0:00:04.80,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Argentina went
+Dialogue: 0,0:00:04.80,0:00:05.60,Cap,,0,0,0,,{\pos(540,960)\blur0.5}to the World Cup
+Dialogue: 0,0:00:05.60,0:00:06.66,Cap,,0,0,0,,{\pos(540,960)\blur0.5}with Nery Pumpido
+Dialogue: 0,0:00:06.66,0:00:07.25,Cap,,0,0,0,,{\pos(540,960)\blur0.5}in goal,
+Dialogue: 0,0:00:07.25,0:00:08.25,Cap,,0,0,0,,{\pos(540,960)\blur0.5}a world champion.
+Dialogue: 0,0:00:08.25,0:00:08.60,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Then,
+Dialogue: 0,0:00:08.60,0:00:09.20,Cap,,0,0,0,,{\pos(540,960)\blur0.5}in their second
+Dialogue: 0,0:00:09.20,0:00:09.81,Cap,,0,0,0,,{\pos(540,960)\blur0.5}game, against
+Dialogue: 0,0:00:09.81,0:00:10.64,Cap,,0,0,0,,{\pos(540,960)\blur0.5}the Soviet Union,
+Dialogue: 0,0:00:10.64,0:00:11.40,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Pumpido broke
+Dialogue: 0,0:00:11.40,0:00:11.92,Cap,,0,0,0,,{\pos(540,960)\blur0.5}his leg.
+Dialogue: 0,0:00:11.92,0:00:12.84,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Eleven minutes in.
+Dialogue: 0,0:00:12.84,0:00:13.51,Cap,,0,0,0,,{\pos(540,960)\blur0.5}His understudy,
+Dialogue: 0,0:00:13.51,0:00:14.67,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Sergio Goycochea,
+Dialogue: 0,0:00:14.67,0:00:15.16,Cap,,0,0,0,,{\pos(540,960)\blur0.5}took over
+Dialogue: 0,0:00:15.16,0:00:15.61,Cap,,0,0,0,,{\pos(540,960)\blur0.5}for the rest
+Dialogue: 0,0:00:15.61,0:00:16.17,Cap,,0,0,0,,{\pos(540,960)\blur0.5}of the tournament.
+Dialogue: 0,0:00:16.17,0:00:16.92,Cap,,0,0,0,,{\pos(540,960)\blur0.5}In the quarter-final
+Dialogue: 0,0:00:16.92,0:00:17.92,Cap,,0,0,0,,{\pos(540,960)\blur0.5}against Yugoslavia,
+Dialogue: 0,0:00:17.92,0:00:19.02,Cap,,0,0,0,,{\pos(540,960)\blur0.5}it finished goalless,
+Dialogue: 0,0:00:19.02,0:00:19.28,Cap,,0,0,0,,{\pos(540,960)\blur0.5}so it
+Dialogue: 0,0:00:19.28,0:00:20.16,Cap,,0,0,0,,{\pos(540,960)\blur0.5}went to penalties.
+Dialogue: 0,0:00:20.16,0:00:21.46,Cap,,0,0,0,,{\pos(540,960)\blur0.5\fscx98\fscy98}Diego Maradona missed.
+Dialogue: 0,0:00:21.46,0:00:22.60,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Pedro Troglio missed.
+Dialogue: 0,0:00:22.60,0:00:23.17,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Yugoslavia
+Dialogue: 0,0:00:23.17,0:00:23.81,Cap,,0,0,0,,{\pos(540,960)\blur0.5}were on the brink.
+Dialogue: 0,0:00:23.81,0:00:24.42,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Goycochea
+Dialogue: 0,0:00:24.42,0:00:25.25,Cap,,0,0,0,,{\pos(540,960)\blur0.5}told Maradona,
+Dialogue: 0,0:00:25.25,0:00:25.91,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Relax, I'm going
+Dialogue: 0,0:00:25.91,0:00:26.25,Cap,,0,0,0,,{\pos(540,960)\blur0.5}to save
+Dialogue: 0,0:00:26.25,0:00:26.72,Cap,,0,0,0,,{\pos(540,960)\blur0.5}a couple.
+Dialogue: 0,0:00:26.72,0:00:27.40,Cap,,0,0,0,,{\pos(540,960)\blur0.5}He later admitted
+Dialogue: 0,0:00:27.40,0:00:27.85,Cap,,0,0,0,,{\pos(540,960)\blur0.5}that was more
+Dialogue: 0,0:00:27.85,0:00:28.53,Cap,,0,0,0,,{\pos(540,960)\blur0.5}wishful thinking
+Dialogue: 0,0:00:28.53,0:00:29.34,Cap,,0,0,0,,{\pos(540,960)\blur0.5}than confidence.
+Dialogue: 0,0:00:29.34,0:00:29.59,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Then he
+Dialogue: 0,0:00:29.59,0:00:30.12,Cap,,0,0,0,,{\pos(540,960)\blur0.5}dived low
+Dialogue: 0,0:00:30.12,0:00:30.59,Cap,,0,0,0,,{\pos(540,960)\blur0.5}to his right,
+Dialogue: 0,0:00:30.59,0:00:31.55,Cap,,0,0,0,,{\pos(540,960)\blur0.5}and saved Brnovic.
+Dialogue: 0,0:00:31.55,0:00:32.37,Cap,,0,0,0,,{\pos(540,960)\blur0.5}And with Yugoslavia's
+Dialogue: 0,0:00:32.37,0:00:32.85,Cap,,0,0,0,,{\pos(540,960)\blur0.5}last kick,
+Dialogue: 0,0:00:32.85,0:00:33.62,Cap,,0,0,0,,{\pos(540,960)\blur0.5}he flung himself
+Dialogue: 0,0:00:33.62,0:00:34.12,Cap,,0,0,0,,{\pos(540,960)\blur0.5}to his left,
+Dialogue: 0,0:00:34.12,0:00:35.20,Cap,,0,0,0,,{\pos(540,960)\blur0.5}and saved Hadzibegic.
+Dialogue: 0,0:00:35.20,0:00:35.78,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Argentina
+Dialogue: 0,0:00:35.78,0:00:36.31,Cap,,0,0,0,,{\pos(540,960)\blur0.5}were through.
+Dialogue: 0,0:00:36.31,0:00:37.20,Cap,,0,0,0,,{\pos(540,960)\blur0.5}In the semi-final,
+Dialogue: 0,0:00:37.20,0:00:37.86,Cap,,0,0,0,,{\pos(540,960)\blur0.5}against Italy,
+Dialogue: 0,0:00:37.86,0:00:38.48,Cap,,0,0,0,,{\pos(540,960)\blur0.5}in Naples,
+Dialogue: 0,0:00:38.48,0:00:39.05,Cap,,0,0,0,,{\pos(540,960)\blur0.5}it was level
+Dialogue: 0,0:00:39.05,0:00:39.46,Cap,,0,0,0,,{\pos(540,960)\blur0.5}again,
+Dialogue: 0,0:00:39.46,0:00:40.42,Cap,,0,0,0,,{\pos(540,960)\blur0.5}and penalties again.
+Dialogue: 0,0:00:40.42,0:00:41.20,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Goycochea
+Dialogue: 0,0:00:41.20,0:00:42.22,Cap,,0,0,0,,{\pos(540,960)\blur0.5}saved Donadoni.
+Dialogue: 0,0:00:42.22,0:00:42.43,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Then he
+Dialogue: 0,0:00:42.43,0:00:43.12,Cap,,0,0,0,,{\pos(540,960)\blur0.5}saved Serena.
+Dialogue: 0,0:00:43.12,0:00:43.45,Cap,,0,0,0,,{\pos(540,960)\blur0.5}That made
+Dialogue: 0,0:00:43.45,0:00:44.14,Cap,,0,0,0,,{\pos(540,960)\blur0.5}four saves,
+Dialogue: 0,0:00:44.14,0:00:44.47,Cap,,0,0,0,,{\pos(540,960)\blur0.5}a record
+Dialogue: 0,0:00:44.47,0:00:45.00,Cap,,0,0,0,,{\pos(540,960)\blur0.5}for a single
+Dialogue: 0,0:00:45.00,0:00:45.55,Cap,,0,0,0,,{\pos(540,960)\blur0.5}World Cup.
+Dialogue: 0,0:00:45.55,0:00:45.84,Cap,,0,0,0,,{\pos(540,960)\blur0.5}But here's
+Dialogue: 0,0:00:45.84,0:00:46.48,Cap,,0,0,0,,{\pos(540,960)\blur0.5}the wild part.
+Dialogue: 0,0:00:46.48,0:00:47.07,Cap,,0,0,0,,{\pos(540,960)\blur0.5}In the final,
+Dialogue: 0,0:00:47.07,0:00:47.62,Cap,,0,0,0,,{\pos(540,960)\blur0.5}West Germany
+Dialogue: 0,0:00:47.62,0:00:48.52,Cap,,0,0,0,,{\pos(540,960)\blur0.5}won one-nil,
+Dialogue: 0,0:00:48.52,0:00:49.30,Cap,,0,0,0,,{\pos(540,960)\blur0.5}from a penalty.
+Dialogue: 0,0:00:49.30,0:00:49.67,Cap,,0,0,0,,{\pos(540,960)\blur0.5}The keeper
+Dialogue: 0,0:00:49.67,0:00:50.02,Cap,,0,0,0,,{\pos(540,960)\blur0.5}who only
+Dialogue: 0,0:00:50.02,0:00:50.39,Cap,,0,0,0,,{\pos(540,960)\blur0.5}played because
+Dialogue: 0,0:00:50.39,0:00:50.84,Cap,,0,0,0,,{\pos(540,960)\blur0.5}of a broken
+Dialogue: 0,0:00:50.84,0:00:51.56,Cap,,0,0,0,,{\pos(540,960)\blur0.5}leg had saved
+Dialogue: 0,0:00:51.56,0:00:51.96,Cap,,0,0,0,,{\pos(540,960)\blur0.5}four to get
+Dialogue: 0,0:00:51.96,0:00:52.84,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Argentina there,
+Dialogue: 0,0:00:52.84,0:00:53.36,Cap,,0,0,0,,{\pos(540,960)\blur0.5}and lost
+Dialogue: 0,0:00:53.36,0:00:54.09,Cap,,0,0,0,,{\pos(540,960)\blur0.5}it to one.

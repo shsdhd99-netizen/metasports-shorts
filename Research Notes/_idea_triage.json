@@ -1,0 +1,79 @@
+{
+ "cand": [
+  {
+   "ch": "nba",
+   "idea": "Klay blocked Steph in his return (#98, Sat 7:15 AM)",
+   "score": 92.0,
+   "shape": "moment",
+   "source": "Productions/MetaSports/2026-11-07 98/notes.md",
+   "date": "2026-11-06"
+  },
+  {
+   "ch": "nba",
+   "idea": "List 1: who has missed the most free throws in NBA history (Mon 7:15 AM)",
+   "score": 83.0,
+   "shape": "superlative",
+   "source": "Basketball-Reference career leaders",
+   "date": "2026-11-06"
+  },
+  {
+   "ch": "nba",
+   "idea": "Curry passes DeRozan (16th all-time scoring), when it happens",
+   "score": 83.0,
+   "shape": "superlative",
+   "source": "",
+   "date": "2026-11-06"
+  },
+  {
+   "ch": "nba",
+   "idea": "LeBron passes Kidd for 3rd all-time assists, when it happens",
+   "score": 83.0,
+   "shape": "superlative",
+   "source": "",
+   "date": "2026-11-06"
+  },
+  {
+   "ch": "nba",
+   "idea": "Lendeborg Part 3 after a 30+ game",
+   "score": 83.0,
+   "shape": "family",
+   "source": "",
+   "date": "2026-11-06"
+  },
+  {
+   "ch": "fc",
+   "idea": "S38 The goalkeeper who beat a team that practised 1,000 penalties (Bounou v Spain 2022; rated 11/12; script + sources ready)",
+   "score": 92.0,
+   "shape": "goalkeeper trick",
+   "source": "https://www.skysports.com/football/morocco-vs-spain/report/463019",
+   "date": "2026-11-07"
+  },
+  {
+   "ch": "fc",
+   "idea": "S43 The goalkeeper who found out Chelsea's secret penalty plan (Van der Sar v Anelka 2008; rated 11/12; script + sources ready)",
+   "score": 92.0,
+   "shape": "goalkeeper trick",
+   "source": "https://www.espn.com/soccer/story/_/id/37475605/penalty-shootouts-champions-league-other-cups-tournaments-decided-science",
+   "date": "2026-11-07"
+  }
+ ],
+ "notes": [
+  {
+   "ch": "nba",
+   "idea": "List 2: most turnovers (only if List 1 reaches the NBA median at 72 h)",
+   "score": 75.0,
+   "shape": "superlative",
+   "source": "",
+   "date": "2026-11-06"
+  },
+  {
+   "ch": "fc",
+   "idea": "S21 Higuita scorpion (Style v3 test): needs a sharper angle and a clean 1995 clip",
+   "score": 75.0,
+   "shape": "goalkeeper trick",
+   "source": "",
+   "date": "2026-11-06"
+  }
+ ],
+ "trashed": 3
+}

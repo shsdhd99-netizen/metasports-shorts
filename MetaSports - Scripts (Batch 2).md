@@ -1,3 +1,5 @@
+> **HISTORICAL (Sep 2026 PC batch).** Current queue: `Production Queue.md`.
+
 # MetaSports: 10 Ready Scripts (Batch 2, refined)
 
 *Refined on Sep 27, 2026 with the Round 3 data. Rescheduled Sep 30, after the missed Sep 28–29 slots.*

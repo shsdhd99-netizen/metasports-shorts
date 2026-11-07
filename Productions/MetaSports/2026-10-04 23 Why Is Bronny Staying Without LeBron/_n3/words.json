@@ -1,0 +1,42 @@
+[
+ {
+  "word": "Christmas",
+  "start": 0.0,
+  "end": 0.418
+ },
+ {
+  "word": "Day.",
+  "start": 0.464,
+  "end": 0.731
+ },
+ {
+  "word": "LeBron",
+  "start": 0.801,
+  "end": 1.138
+ },
+ {
+  "word": "James",
+  "start": 1.196,
+  "end": 1.463
+ },
+ {
+  "word": "versus",
+  "start": 1.509,
+  "end": 1.788
+ },
+ {
+  "word": "LeBron",
+  "start": 1.834,
+  "end": 2.125
+ },
+ {
+  "word": "James",
+  "start": 2.171,
+  "end": 2.392
+ },
+ {
+  "word": "Junior.",
+  "start": 2.426,
+  "end": 2.879
+ }
+]

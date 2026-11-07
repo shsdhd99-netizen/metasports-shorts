@@ -1,0 +1,111 @@
+[
+ {
+  "clip": "a1.mp4",
+  "start": 0.0,
+  "why": "Sixteen Lakers",
+  "kind": "action",
+  "zoom": 0.12
+ },
+ {
+  "clip": "a2.mp4",
+  "start": 0.9,
+  "why": "fifteen spots",
+  "kind": "action"
+ },
+ {
+  "clip": "a3.mp4",
+  "start": 1.8,
+  "why": "Bronny James",
+  "kind": "action"
+ },
+ {
+  "clip": "a4.mp4",
+  "start": 2.77,
+  "why": "LeBron left (LeBron shown)",
+  "kind": "action"
+ },
+ {
+  "clip": "a5.mp4",
+  "start": 4.0,
+  "why": "Bronny stayed",
+  "kind": "action"
+ },
+ {
+  "clip": "a6.mp4",
+  "start": 4.69,
+  "why": "media day",
+  "kind": "face"
+ },
+ {
+  "clip": "a7.mp4",
+  "start": 6.73,
+  "why": "Feels like he's not here",
+  "kind": "quote"
+ },
+ {
+  "clip": "a8.mp4",
+  "start": 8.1,
+  "why": "But pressure",
+  "kind": "action"
+ },
+ {
+  "clip": "a9.mp4",
+  "start": 9.09,
+  "why": "2.3M guaranteed",
+  "kind": "action"
+ },
+ {
+  "clip": "b2.mp4",
+  "start": 10.9,
+  "why": "2.9 points",
+  "kind": "action"
+ },
+ {
+  "clip": "b1.mp4",
+  "start": 12.1,
+  "why": "42 games",
+  "kind": "action"
+ },
+ {
+  "clip": "b3.mp4",
+  "start": 13.5,
+  "why": "Lakers must trim",
+  "kind": "action"
+ },
+ {
+  "clip": "b9.mp4",
+  "start": 15.0,
+  "why": "Oct 21",
+  "kind": "action"
+ },
+ {
+  "clip": "b6.mp4",
+  "start": 16.26,
+  "why": "his name",
+  "kind": "face"
+ },
+ {
+  "clip": "q2.mp4",
+  "start": 17.94,
+  "why": "real name is LeBron",
+  "kind": "quote"
+ },
+ {
+  "clip": "b5.mp4",
+  "start": 20.46,
+  "why": "Fifteen spots",
+  "kind": "action"
+ },
+ {
+  "clip": "a5.mp4",
+  "start": 21.4,
+  "why": "Without LeBron",
+  "kind": "action"
+ },
+ {
+  "clip": "a1.mp4",
+  "start": 22.4,
+  "why": "loop",
+  "kind": "action"
+ }
+]

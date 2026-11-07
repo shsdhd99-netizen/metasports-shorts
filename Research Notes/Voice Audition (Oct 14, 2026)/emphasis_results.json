@@ -1,0 +1,78 @@
+{
+ "part1_ready_shorts": {
+  "40 Why Jokics Best Pass Doesnt Count": {
+   "number_words": 11,
+   "loudness_vs_other_db": -0.39,
+   "pitch_vs_other_semitones": -2.72
+  },
+  "41 Is Anyone Taller Than Wemby": {
+   "number_words": 7,
+   "loudness_vs_other_db": -0.22,
+   "pitch_vs_other_semitones": 2.7
+  },
+  "21 How Close Is Jokic To Westbrooks Record": {
+   "number_words": 14,
+   "loudness_vs_other_db": -0.06,
+   "pitch_vs_other_semitones": 0.77
+  },
+  "38 What Did LeBron Promise Sixers Fans": {
+   "number_words": 13,
+   "loudness_vs_other_db": 0.15,
+   "pitch_vs_other_semitones": -0.24
+  }
+ },
+ "part2_variants": {
+  "V0_production": {
+   "chars": 479,
+   "seconds": 17.84,
+   "wpm": 289,
+   "pause_before_Not_s": 0.18,
+   "wer": 16.2,
+   "prominence": {
+    "number_words": 8,
+    "loudness_vs_other_db": -0.47,
+    "pitch_vs_other_semitones": -1.79
+   },
+   "heard": "This pass doesn't even count. A week later, Yokic said it was probably the best pass of his NBA career. No look, behind the back, corner to corner, Cam Johnson buries the three. Yokic has 6 ,080 assists in the record book, so this should be number 6 ,081. It isn't. It happened in a pre -season game in a college gym in Boulder, and pre -season assists never go in the book, so his total still reads 6 ,080, not 81."
+  },
+  "V1_ellipsis": {
+   "chars": 481,
+   "seconds": 17.88,
+   "wpm": 289,
+   "pause_before_Not_s": 0.22,
+   "wer": 16.2,
+   "prominence": {
+    "number_words": 8,
+    "loudness_vs_other_db": -0.68,
+    "pitch_vs_other_semitones": -0.2
+   },
+   "heard": "This pass doesn't even count. A week later, Yokic said it was probably the best pass of his NBA career. No look, behind the back. Corner to corner, Cam Johnson buries the three. Yokic has 6 ,080 assists in the record book, so this should be number 6 ,081. It isn't. It happened in a pre -season game in a college gym in Boulder, and pre -season assists never go in the book. So his total still reads 6 ,080, not 81."
+  },
+  "V2_expressive": {
+   "chars": 479,
+   "seconds": 17.42,
+   "wpm": 296,
+   "pause_before_Not_s": 0.16,
+   "wer": 16.2,
+   "prominence": {
+    "number_words": 8,
+    "loudness_vs_other_db": -1.2,
+    "pitch_vs_other_semitones": -2.54
+   },
+   "heard": "This pass doesn't even count. A week later, Yokic said it was probably the best pass of his NBA career. No look. Behind the back, corner to corner. Cam Johnson buries the three. Yokic has 6 ,080 assists in the record book, so this should be number 6 ,081. It isn't. It happened in a pre -season game, in a college gym in Boulder, and pre -season assists never go in the book, so his total still reads 6 ,080, not 81."
+  },
+  "V3_ellipsis_expressive": {
+   "chars": 481,
+   "seconds": 16.92,
+   "wpm": 305,
+   "pause_before_Not_s": 0.24,
+   "wer": 16.2,
+   "prominence": {
+    "number_words": 8,
+    "loudness_vs_other_db": -0.04,
+    "pitch_vs_other_semitones": 0.27
+   },
+   "heard": "This pass doesn't even count. A week later, Yokic said it was probably the best pass of his NBA career. No look. Behind the back, corner to corner, Cam Johnson buries the three. Yokic has 6 ,080 assists in the record book, so this should be number 6 ,081. It isn't. It happened in a pre -season game, in a college gym in Boulder, and pre -season assists never go in the book, so his total still reads 6 ,080, not 81."
+  }
+ }
+}

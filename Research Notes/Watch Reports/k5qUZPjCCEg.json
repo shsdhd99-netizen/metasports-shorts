@@ -1,0 +1,85 @@
+{
+ "length_s": 15.1,
+ "topic": "A basketball player accidentally scores a full-court shot after misreading the clock, mistaking a minute and twenty seconds for 1.2 seconds left.",
+ "lane": "moment",
+ "hook": {
+  "first_words": "This is what happens when you misread the game clock.",
+  "first_frame": "A basketball player wearing black jersey #2 is throwing a basketball full court towards the hoop.",
+  "on_screen_text_0_3s": "THIS IS WHAT HAPPENS WHEN YOU MISREAD THE GAME CLOCK",
+  "shots_in_first_3s": 1
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 10.1,
+   "shows": "Basketball player shoots full court from a rebound",
+   "kind": "action"
+  },
+  {
+   "start_s": 10.1,
+   "end_s": 15.1,
+   "shows": "The ball goes in, player walks away arguing while coach yells",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 2,
+ "average_shot_s": 7.55,
+ "longest_shot_s": 10.1,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 240,
+  "tone": "energetic storytelling",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "dramatic suspenseful beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "ALL CAPS",
+  "position": "middle",
+  "colours": "white",
+  "highlight_style": "none"
+ },
+ "text_overlays": [],
+ "cards_or_graphics": 0,
+ "framing": "crop",
+ "ending": {
+  "last_words": "While his coach was already yelling at him.",
+  "last_frame": "Player in jersey #2 walking on court talking with his hands, coach in background yelling.",
+  "loops_to_start": true,
+  "call_to_action": "none"
+ },
+ "script": "This is what happens when you misread the game clock. After grabbing the rebound, this kid thought there were only 1.2 seconds left, so he instantly shot the ball from full court. But there was actually a minute and twenty seconds still left in the quarter. Somehow the shot went in anyway. And instead of celebrating, he had to explain himself while his coach was already yelling at him.",
+ "retention_tricks": [
+  "Open loop (misread clock hook)",
+  "Climax (full-court shot goes in)",
+  "Punchline payoff (coach yelling)"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "Relatable and humorous mistake captured on video",
+  "Surprising and improbable full-court shot outcome",
+  "Comedic timing of the coach's angry reaction at the end"
+ ],
+ "_meta": {
+  "source": "k5qUZPjCCEg",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

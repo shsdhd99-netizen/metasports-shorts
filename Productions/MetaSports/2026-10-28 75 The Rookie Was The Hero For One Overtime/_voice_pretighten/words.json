@@ -1,0 +1,357 @@
+[
+ {
+  "word": "This",
+  "start": 0.0,
+  "end": 0.186
+ },
+ {
+  "word": "rookie",
+  "start": 0.244,
+  "end": 0.453
+ },
+ {
+  "word": "tied",
+  "start": 0.488,
+  "end": 0.72
+ },
+ {
+  "word": "it",
+  "start": 0.743,
+  "end": 0.789
+ },
+ {
+  "word": "in",
+  "start": 0.824,
+  "end": 0.882
+ },
+ {
+  "word": "Boston",
+  "start": 0.952,
+  "end": 1.347
+ },
+ {
+  "word": "with",
+  "start": 1.382,
+  "end": 1.486
+ },
+ {
+  "word": "0.2",
+  "start": 1.533,
+  "end": 1.846
+ },
+ {
+  "word": "seconds",
+  "start": 1.916,
+  "end": 2.183
+ },
+ {
+  "word": "left.",
+  "start": 2.264,
+  "end": 2.659
+ },
+ {
+  "word": "His",
+  "start": 2.682,
+  "end": 2.833
+ },
+ {
+  "word": "bench",
+  "start": 2.902,
+  "end": 3.111
+ },
+ {
+  "word": "lost",
+  "start": 3.17,
+  "end": 3.483
+ },
+ {
+  "word": "it.",
+  "start": 3.553,
+  "end": 3.704
+ },
+ {
+  "word": "Mikel",
+  "start": 3.75,
+  "end": 4.005
+ },
+ {
+  "word": "Brown",
+  "start": 4.052,
+  "end": 4.307
+ },
+ {
+  "word": "Jr.,",
+  "start": 4.377,
+  "end": 4.83
+ },
+ {
+  "word": "the",
+  "start": 4.865,
+  "end": 4.934
+ },
+ {
+  "word": "sixth",
+  "start": 5.027,
+  "end": 5.283
+ },
+ {
+  "word": "pick",
+  "start": 5.329,
+  "end": 5.492
+ },
+ {
+  "word": "in",
+  "start": 5.526,
+  "end": 5.573
+ },
+ {
+  "word": "the",
+  "start": 5.608,
+  "end": 5.677
+ },
+ {
+  "word": "draft,",
+  "start": 5.712,
+  "end": 6.142
+ },
+ {
+  "word": "couldn't",
+  "start": 6.177,
+  "end": 6.432
+ },
+ {
+  "word": "stop",
+  "start": 6.455,
+  "end": 6.664
+ },
+ {
+  "word": "smiling.",
+  "start": 6.711,
+  "end": 7.221
+ },
+ {
+  "word": "Then",
+  "start": 7.245,
+  "end": 7.396
+ },
+ {
+  "word": "overtime",
+  "start": 7.442,
+  "end": 7.906
+ },
+ {
+  "word": "gave",
+  "start": 7.953,
+  "end": 8.127
+ },
+ {
+  "word": "Jayson",
+  "start": 8.173,
+  "end": 8.44
+ },
+ {
+  "word": "Tatum",
+  "start": 8.487,
+  "end": 8.742
+ },
+ {
+  "word": "five",
+  "start": 8.835,
+  "end": 9.125
+ },
+ {
+  "word": "more",
+  "start": 9.16,
+  "end": 9.311
+ },
+ {
+  "word": "minutes.",
+  "start": 9.346,
+  "end": 9.764
+ },
+ {
+  "word": "Nets",
+  "start": 9.834,
+  "end": 10.101
+ },
+ {
+  "word": "up",
+  "start": 10.182,
+  "end": 10.31
+ },
+ {
+  "word": "one,",
+  "start": 10.403,
+  "end": 10.751
+ },
+ {
+  "word": "2.3",
+  "start": 10.809,
+  "end": 11.39
+ },
+ {
+  "word": "seconds",
+  "start": 11.436,
+  "end": 11.727
+ },
+ {
+  "word": "left.",
+  "start": 11.808,
+  "end": 12.203
+ },
+ {
+  "word": "White",
+  "start": 12.226,
+  "end": 12.446
+ },
+ {
+  "word": "inbounds",
+  "start": 12.481,
+  "end": 12.876
+ },
+ {
+  "word": "to",
+  "start": 12.922,
+  "end": 12.98
+ },
+ {
+  "word": "Tatum.",
+  "start": 13.038,
+  "end": 13.398
+ },
+ {
+  "word": "Pull-up",
+  "start": 13.433,
+  "end": 13.723
+ },
+ {
+  "word": "at",
+  "start": 13.758,
+  "end": 13.805
+ },
+ {
+  "word": "the",
+  "start": 13.828,
+  "end": 13.898
+ },
+ {
+  "word": "buzzer...",
+  "start": 13.944,
+  "end": 14.408
+ },
+ {
+  "word": "Good.",
+  "start": 14.675,
+  "end": 15.105
+ },
+ {
+  "word": "Tatum",
+  "start": 15.372,
+  "end": 15.627
+ },
+ {
+  "word": "finished",
+  "start": 15.686,
+  "end": 15.906
+ },
+ {
+  "word": "with",
+  "start": 15.929,
+  "end": 16.022
+ },
+ {
+  "word": "40,",
+  "start": 16.069,
+  "end": 16.371
+ },
+ {
+  "word": "and",
+  "start": 16.394,
+  "end": 16.463
+ },
+ {
+  "word": "the",
+  "start": 16.498,
+  "end": 16.568
+ },
+ {
+  "word": "Celtics",
+  "start": 16.591,
+  "end": 16.939
+ },
+ {
+  "word": "won",
+  "start": 16.986,
+  "end": 17.148
+ },
+ {
+  "word": "by",
+  "start": 17.195,
+  "end": 17.334
+ },
+ {
+  "word": "one.",
+  "start": 17.427,
+  "end": 17.74
+ },
+ {
+  "word": "The",
+  "start": 17.764,
+  "end": 17.833
+ },
+ {
+  "word": "rookie's",
+  "start": 17.868,
+  "end": 18.089
+ },
+ {
+  "word": "shot",
+  "start": 18.124,
+  "end": 18.356
+ },
+ {
+  "word": "was",
+  "start": 18.391,
+  "end": 18.472
+ },
+ {
+  "word": "the",
+  "start": 18.507,
+  "end": 18.576
+ },
+ {
+  "word": "play",
+  "start": 18.6,
+  "end": 18.751
+ },
+ {
+  "word": "of",
+  "start": 18.785,
+  "end": 18.832
+ },
+ {
+  "word": "the",
+  "start": 18.867,
+  "end": 18.936
+ },
+ {
+  "word": "night.",
+  "start": 18.983,
+  "end": 19.25
+ },
+ {
+  "word": "For",
+  "start": 19.273,
+  "end": 19.401
+ },
+ {
+  "word": "one",
+  "start": 19.459,
+  "end": 19.668
+ },
+ {
+  "word": "overtime.",
+  "start": 19.726,
+  "end": 20.666
+ }
+]

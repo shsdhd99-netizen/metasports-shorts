@@ -1,0 +1,1377 @@
+[
+ {
+  "word": "Players",
+  "start": 0.0,
+  "end": 0.372
+ },
+ {
+  "word": "who",
+  "start": 0.395,
+  "end": 0.464
+ },
+ {
+  "word": "got",
+  "start": 0.511,
+  "end": 0.627
+ },
+ {
+  "word": "sent",
+  "start": 0.708,
+  "end": 0.917
+ },
+ {
+  "word": "off",
+  "start": 0.964,
+  "end": 1.08
+ },
+ {
+  "word": "in",
+  "start": 1.115,
+  "end": 1.161
+ },
+ {
+  "word": "their",
+  "start": 1.184,
+  "end": 1.312
+ },
+ {
+  "word": "very",
+  "start": 1.37,
+  "end": 1.637
+ },
+ {
+  "word": "last",
+  "start": 1.707,
+  "end": 1.974
+ },
+ {
+  "word": "game.",
+  "start": 2.032,
+  "end": 2.332
+ },
+ {
+  "word": "Back",
+  "start": 2.332,
+  "end": 2.491
+ },
+ {
+  "word": "in",
+  "start": 2.538,
+  "end": 2.584
+ },
+ {
+  "word": "2006,",
+  "start": 2.631,
+  "end": 3.385
+ },
+ {
+  "word": "Zinedine",
+  "start": 3.42,
+  "end": 3.838
+ },
+ {
+  "word": "Zidane",
+  "start": 3.861,
+  "end": 4.186
+ },
+ {
+  "word": "had",
+  "start": 4.209,
+  "end": 4.291
+ },
+ {
+  "word": "already",
+  "start": 4.349,
+  "end": 4.685
+ },
+ {
+  "word": "announced",
+  "start": 4.72,
+  "end": 5.069
+ },
+ {
+  "word": "that",
+  "start": 5.092,
+  "end": 5.185
+ },
+ {
+  "word": "the",
+  "start": 5.208,
+  "end": 5.278
+ },
+ {
+  "word": "World",
+  "start": 5.336,
+  "end": 5.568
+ },
+ {
+  "word": "Cup",
+  "start": 5.637,
+  "end": 5.858
+ },
+ {
+  "word": "would",
+  "start": 5.905,
+  "end": 6.021
+ },
+ {
+  "word": "be",
+  "start": 6.044,
+  "end": 6.102
+ },
+ {
+  "word": "the",
+  "start": 6.125,
+  "end": 6.195
+ },
+ {
+  "word": "last",
+  "start": 6.264,
+  "end": 6.543
+ },
+ {
+  "word": "tournament",
+  "start": 6.578,
+  "end": 6.868
+ },
+ {
+  "word": "of",
+  "start": 6.903,
+  "end": 6.949
+ },
+ {
+  "word": "his",
+  "start": 6.996,
+  "end": 7.066
+ },
+ {
+  "word": "career.",
+  "start": 7.112,
+  "end": 7.542
+ },
+ {
+  "word": "And",
+  "start": 7.565,
+  "end": 7.658
+ },
+ {
+  "word": "France",
+  "start": 7.704,
+  "end": 7.925
+ },
+ {
+  "word": "made",
+  "start": 7.948,
+  "end": 8.064
+ },
+ {
+  "word": "it",
+  "start": 8.087,
+  "end": 8.134
+ },
+ {
+  "word": "all",
+  "start": 8.168,
+  "end": 8.285
+ },
+ {
+  "word": "the",
+  "start": 8.308,
+  "end": 8.377
+ },
+ {
+  "word": "way",
+  "start": 8.401,
+  "end": 8.482
+ },
+ {
+  "word": "to",
+  "start": 8.528,
+  "end": 8.575
+ },
+ {
+  "word": "the",
+  "start": 8.621,
+  "end": 8.691
+ },
+ {
+  "word": "final",
+  "start": 8.737,
+  "end": 9.086
+ },
+ {
+  "word": "against",
+  "start": 9.144,
+  "end": 9.399
+ },
+ {
+  "word": "Italy,",
+  "start": 9.434,
+  "end": 9.782
+ },
+ {
+  "word": "in",
+  "start": 9.805,
+  "end": 9.91
+ },
+ {
+  "word": "Berlin.",
+  "start": 9.956,
+  "end": 10.386
+ },
+ {
+  "word": "After",
+  "start": 10.409,
+  "end": 10.63
+ },
+ {
+  "word": "seven",
+  "start": 10.676,
+  "end": 10.885
+ },
+ {
+  "word": "minutes,",
+  "start": 10.92,
+  "end": 11.175
+ },
+ {
+  "word": "Zidane",
+  "start": 11.245,
+  "end": 11.605
+ },
+ {
+  "word": "stepped",
+  "start": 11.651,
+  "end": 11.918
+ },
+ {
+  "word": "up",
+  "start": 11.965,
+  "end": 12.058
+ },
+ {
+  "word": "to",
+  "start": 12.093,
+  "end": 12.139
+ },
+ {
+  "word": "take",
+  "start": 12.185,
+  "end": 12.301
+ },
+ {
+  "word": "a",
+  "start": 12.325,
+  "end": 12.348
+ },
+ {
+  "word": "penalty",
+  "start": 12.394,
+  "end": 12.719
+ },
+ {
+  "word": "against",
+  "start": 12.754,
+  "end": 12.928
+ },
+ {
+  "word": "Gianluigi",
+  "start": 12.963,
+  "end": 13.451
+ },
+ {
+  "word": "Buffon.",
+  "start": 13.497,
+  "end": 13.938
+ },
+ {
+  "word": "But",
+  "start": 13.962,
+  "end": 14.031
+ },
+ {
+  "word": "instead",
+  "start": 14.055,
+  "end": 14.322
+ },
+ {
+  "word": "of",
+  "start": 14.356,
+  "end": 14.403
+ },
+ {
+  "word": "smashing",
+  "start": 14.461,
+  "end": 14.902
+ },
+ {
+  "word": "it,",
+  "start": 14.96,
+  "end": 15.053
+ },
+ {
+  "word": "he",
+  "start": 15.076,
+  "end": 15.123
+ },
+ {
+  "word": "chipped",
+  "start": 15.158,
+  "end": 15.332
+ },
+ {
+  "word": "it",
+  "start": 15.355,
+  "end": 15.401
+ },
+ {
+  "word": "down",
+  "start": 15.436,
+  "end": 15.575
+ },
+ {
+  "word": "the",
+  "start": 15.599,
+  "end": 15.668
+ },
+ {
+  "word": "middle.",
+  "start": 15.703,
+  "end": 15.962
+ },
+ {
+  "word": "The",
+  "start": 15.974,
+  "end": 16.056
+ },
+ {
+  "word": "ball",
+  "start": 16.102,
+  "end": 16.276
+ },
+ {
+  "word": "hit",
+  "start": 16.334,
+  "end": 16.439
+ },
+ {
+  "word": "the",
+  "start": 16.462,
+  "end": 16.532
+ },
+ {
+  "word": "underside",
+  "start": 16.578,
+  "end": 16.845
+ },
+ {
+  "word": "of",
+  "start": 16.868,
+  "end": 16.915
+ },
+ {
+  "word": "the",
+  "start": 16.938,
+  "end": 17.008
+ },
+ {
+  "word": "crossbar,",
+  "start": 17.031,
+  "end": 17.53
+ },
+ {
+  "word": "bounced",
+  "start": 17.576,
+  "end": 17.89
+ },
+ {
+  "word": "over",
+  "start": 17.913,
+  "end": 18.041
+ },
+ {
+  "word": "the",
+  "start": 18.099,
+  "end": 18.169
+ },
+ {
+  "word": "line,",
+  "start": 18.227,
+  "end": 18.528
+ },
+ {
+  "word": "and",
+  "start": 18.552,
+  "end": 18.656
+ },
+ {
+  "word": "France",
+  "start": 18.726,
+  "end": 19.016
+ },
+ {
+  "word": "were",
+  "start": 19.039,
+  "end": 19.155
+ },
+ {
+  "word": "winning.",
+  "start": 19.19,
+  "end": 19.55
+ },
+ {
+  "word": "Twelve",
+  "start": 19.573,
+  "end": 19.794
+ },
+ {
+  "word": "minutes",
+  "start": 19.817,
+  "end": 20.003
+ },
+ {
+  "word": "later,",
+  "start": 20.026,
+  "end": 20.27
+ },
+ {
+  "word": "Marco",
+  "start": 20.34,
+  "end": 20.583
+ },
+ {
+  "word": "Materazzi",
+  "start": 20.618,
+  "end": 21.129
+ },
+ {
+  "word": "headed",
+  "start": 21.187,
+  "end": 21.384
+ },
+ {
+  "word": "in",
+  "start": 21.419,
+  "end": 21.466
+ },
+ {
+  "word": "the",
+  "start": 21.501,
+  "end": 21.57
+ },
+ {
+  "word": "equalizer.",
+  "start": 21.628,
+  "end": 22.197
+ },
+ {
+  "word": "The",
+  "start": 22.22,
+  "end": 22.302
+ },
+ {
+  "word": "game",
+  "start": 22.348,
+  "end": 22.499
+ },
+ {
+  "word": "went",
+  "start": 22.522,
+  "end": 22.627
+ },
+ {
+  "word": "to",
+  "start": 22.65,
+  "end": 22.696
+ },
+ {
+  "word": "extra",
+  "start": 22.754,
+  "end": 22.963
+ },
+ {
+  "word": "time,",
+  "start": 23.01,
+  "end": 23.324
+ },
+ {
+  "word": "and",
+  "start": 23.325,
+  "end": 23.43
+ },
+ {
+  "word": "Zidane",
+  "start": 23.465,
+  "end": 23.778
+ },
+ {
+  "word": "almost",
+  "start": 23.813,
+  "end": 24.057
+ },
+ {
+  "word": "won",
+  "start": 24.103,
+  "end": 24.266
+ },
+ {
+  "word": "it",
+  "start": 24.301,
+  "end": 24.347
+ },
+ {
+  "word": "with",
+  "start": 24.37,
+  "end": 24.463
+ },
+ {
+  "word": "a",
+  "start": 24.486,
+  "end": 24.51
+ },
+ {
+  "word": "header,",
+  "start": 24.568,
+  "end": 24.858
+ },
+ {
+  "word": "but",
+  "start": 24.881,
+  "end": 24.986
+ },
+ {
+  "word": "Buffon",
+  "start": 25.032,
+  "end": 25.404
+ },
+ {
+  "word": "tipped",
+  "start": 25.473,
+  "end": 25.671
+ },
+ {
+  "word": "it",
+  "start": 25.694,
+  "end": 25.74
+ },
+ {
+  "word": "over",
+  "start": 25.763,
+  "end": 25.88
+ },
+ {
+  "word": "the",
+  "start": 25.926,
+  "end": 25.996
+ },
+ {
+  "word": "bar.",
+  "start": 26.03,
+  "end": 26.402
+ },
+ {
+  "word": "Then,",
+  "start": 26.425,
+  "end": 26.681
+ },
+ {
+  "word": "in",
+  "start": 26.704,
+  "end": 26.762
+ },
+ {
+  "word": "the",
+  "start": 26.785,
+  "end": 26.855
+ },
+ {
+  "word": "110th",
+  "start": 26.913,
+  "end": 27.575
+ },
+ {
+  "word": "minute,",
+  "start": 27.633,
+  "end": 27.9
+ },
+ {
+  "word": "Zidane",
+  "start": 27.923,
+  "end": 28.283
+ },
+ {
+  "word": "and",
+  "start": 28.306,
+  "end": 28.376
+ },
+ {
+  "word": "Materazzi",
+  "start": 28.399,
+  "end": 28.863
+ },
+ {
+  "word": "exchanged",
+  "start": 28.91,
+  "end": 29.281
+ },
+ {
+  "word": "a",
+  "start": 29.305,
+  "end": 29.328
+ },
+ {
+  "word": "few",
+  "start": 29.374,
+  "end": 29.49
+ },
+ {
+  "word": "words.",
+  "start": 29.537,
+  "end": 30.001
+ },
+ {
+  "word": "Zidane",
+  "start": 30.082,
+  "end": 30.466
+ },
+ {
+  "word": "walked",
+  "start": 30.489,
+  "end": 30.709
+ },
+ {
+  "word": "away.",
+  "start": 30.733,
+  "end": 31.069
+ },
+ {
+  "word": "Then",
+  "start": 31.093,
+  "end": 31.197
+ },
+ {
+  "word": "he",
+  "start": 31.22,
+  "end": 31.267
+ },
+ {
+  "word": "turned",
+  "start": 31.302,
+  "end": 31.464
+ },
+ {
+  "word": "around",
+  "start": 31.487,
+  "end": 31.696
+ },
+ {
+  "word": "and",
+  "start": 31.731,
+  "end": 31.801
+ },
+ {
+  "word": "headbutted",
+  "start": 31.859,
+  "end": 32.149
+ },
+ {
+  "word": "Materazzi",
+  "start": 32.172,
+  "end": 32.637
+ },
+ {
+  "word": "right",
+  "start": 32.73,
+  "end": 32.915
+ },
+ {
+  "word": "in",
+  "start": 32.939,
+  "end": 32.985
+ },
+ {
+  "word": "the",
+  "start": 33.031,
+  "end": 33.101
+ },
+ {
+  "word": "chest.",
+  "start": 33.159,
+  "end": 33.589
+ },
+ {
+  "word": "The",
+  "start": 33.612,
+  "end": 33.682
+ },
+ {
+  "word": "referee",
+  "start": 33.728,
+  "end": 33.983
+ },
+ {
+  "word": "hadn't",
+  "start": 34.007,
+  "end": 34.158
+ },
+ {
+  "word": "even",
+  "start": 34.181,
+  "end": 34.297
+ },
+ {
+  "word": "seen",
+  "start": 34.343,
+  "end": 34.529
+ },
+ {
+  "word": "it.",
+  "start": 34.587,
+  "end": 34.68
+ },
+ {
+  "word": "But",
+  "start": 34.703,
+  "end": 34.808
+ },
+ {
+  "word": "the",
+  "start": 34.831,
+  "end": 34.901
+ },
+ {
+  "word": "fourth",
+  "start": 34.924,
+  "end": 35.086
+ },
+ {
+  "word": "official",
+  "start": 35.11,
+  "end": 35.33
+ },
+ {
+  "word": "had.",
+  "start": 35.388,
+  "end": 35.678
+ },
+ {
+  "word": "Through",
+  "start": 35.702,
+  "end": 35.876
+ },
+ {
+  "word": "the",
+  "start": 35.899,
+  "end": 35.969
+ },
+ {
+  "word": "referee's",
+  "start": 36.004,
+  "end": 36.282
+ },
+ {
+  "word": "headset,",
+  "start": 36.305,
+  "end": 36.631
+ },
+ {
+  "word": "he",
+  "start": 36.654,
+  "end": 36.7
+ },
+ {
+  "word": "said:",
+  "start": 36.77,
+  "end": 37.083
+ },
+ {
+  "word": "Horacio,",
+  "start": 37.13,
+  "end": 37.711
+ },
+ {
+  "word": "Horacio,",
+  "start": 37.734,
+  "end": 38.361
+ },
+ {
+  "word": "I",
+  "start": 38.384,
+  "end": 38.431
+ },
+ {
+  "word": "saw",
+  "start": 38.535,
+  "end": 38.756
+ },
+ {
+  "word": "it.",
+  "start": 38.814,
+  "end": 38.942
+ },
+ {
+  "word": "And",
+  "start": 38.965,
+  "end": 39.046
+ },
+ {
+  "word": "Zidane",
+  "start": 39.069,
+  "end": 39.441
+ },
+ {
+  "word": "was",
+  "start": 39.464,
+  "end": 39.557
+ },
+ {
+  "word": "shown",
+  "start": 39.603,
+  "end": 39.812
+ },
+ {
+  "word": "a",
+  "start": 39.847,
+  "end": 39.87
+ },
+ {
+  "word": "red",
+  "start": 39.998,
+  "end": 40.195
+ },
+ {
+  "word": "card.",
+  "start": 40.254,
+  "end": 40.66
+ },
+ {
+  "word": "So",
+  "start": 40.683,
+  "end": 40.764
+ },
+ {
+  "word": "one",
+  "start": 40.822,
+  "end": 40.904
+ },
+ {
+  "word": "of",
+  "start": 40.927,
+  "end": 40.973
+ },
+ {
+  "word": "the",
+  "start": 40.997,
+  "end": 41.066
+ },
+ {
+  "word": "greatest",
+  "start": 41.124,
+  "end": 41.391
+ },
+ {
+  "word": "players",
+  "start": 41.426,
+  "end": 41.67
+ },
+ {
+  "word": "of",
+  "start": 41.693,
+  "end": 41.74
+ },
+ {
+  "word": "all",
+  "start": 41.775,
+  "end": 41.984
+ },
+ {
+  "word": "time",
+  "start": 42.054,
+  "end": 42.332
+ },
+ {
+  "word": "walked",
+  "start": 42.379,
+  "end": 42.611
+ },
+ {
+  "word": "off",
+  "start": 42.634,
+  "end": 42.739
+ },
+ {
+  "word": "the",
+  "start": 42.773,
+  "end": 42.843
+ },
+ {
+  "word": "pitch",
+  "start": 42.901,
+  "end": 43.133
+ },
+ {
+  "word": "for",
+  "start": 43.156,
+  "end": 43.226
+ },
+ {
+  "word": "the",
+  "start": 43.261,
+  "end": 43.331
+ },
+ {
+  "word": "last",
+  "start": 43.423,
+  "end": 43.714
+ },
+ {
+  "word": "time,",
+  "start": 43.749,
+  "end": 44.097
+ },
+ {
+  "word": "right",
+  "start": 44.143,
+  "end": 44.283
+ },
+ {
+  "word": "past",
+  "start": 44.317,
+  "end": 44.515
+ },
+ {
+  "word": "the",
+  "start": 44.538,
+  "end": 44.608
+ },
+ {
+  "word": "World",
+  "start": 44.631,
+  "end": 44.782
+ },
+ {
+  "word": "Cup",
+  "start": 44.805,
+  "end": 44.91
+ },
+ {
+  "word": "trophy.",
+  "start": 44.944,
+  "end": 45.409
+ },
+ {
+  "word": "And",
+  "start": 45.432,
+  "end": 45.513
+ },
+ {
+  "word": "without",
+  "start": 45.548,
+  "end": 45.792
+ },
+ {
+  "word": "him,",
+  "start": 45.838,
+  "end": 46.036
+ },
+ {
+  "word": "France",
+  "start": 46.105,
+  "end": 46.361
+ },
+ {
+  "word": "lost",
+  "start": 46.384,
+  "end": 46.535
+ },
+ {
+  "word": "the",
+  "start": 46.558,
+  "end": 46.628
+ },
+ {
+  "word": "shootout",
+  "start": 46.651,
+  "end": 46.976
+ },
+ {
+  "word": "5-3.",
+  "start": 47.034,
+  "end": 47.603
+ },
+ {
+  "word": "Italy",
+  "start": 47.626,
+  "end": 47.905
+ },
+ {
+  "word": "were",
+  "start": 47.963,
+  "end": 48.102
+ },
+ {
+  "word": "world",
+  "start": 48.149,
+  "end": 48.451
+ },
+ {
+  "word": "champions.",
+  "start": 48.497,
+  "end": 49.124
+ },
+ {
+  "word": "But",
+  "start": 49.147,
+  "end": 49.252
+ },
+ {
+  "word": "here's",
+  "start": 49.298,
+  "end": 49.53
+ },
+ {
+  "word": "the",
+  "start": 49.553,
+  "end": 49.623
+ },
+ {
+  "word": "wild",
+  "start": 49.681,
+  "end": 49.925
+ },
+ {
+  "word": "part.",
+  "start": 49.971,
+  "end": 50.262
+ },
+ {
+  "word": "The",
+  "start": 50.285,
+  "end": 50.355
+ },
+ {
+  "word": "next",
+  "start": 50.389,
+  "end": 50.552
+ },
+ {
+  "word": "morning,",
+  "start": 50.587,
+  "end": 50.819
+ },
+ {
+  "word": "FIFA",
+  "start": 50.842,
+  "end": 51.109
+ },
+ {
+  "word": "announced",
+  "start": 51.144,
+  "end": 51.423
+ },
+ {
+  "word": "the",
+  "start": 51.446,
+  "end": 51.516
+ },
+ {
+  "word": "best",
+  "start": 51.608,
+  "end": 51.829
+ },
+ {
+  "word": "player",
+  "start": 51.887,
+  "end": 52.154
+ },
+ {
+  "word": "of",
+  "start": 52.201,
+  "end": 52.247
+ },
+ {
+  "word": "the",
+  "start": 52.282,
+  "end": 52.351
+ },
+ {
+  "word": "whole",
+  "start": 52.41,
+  "end": 52.653
+ },
+ {
+  "word": "tournament.",
+  "start": 52.677,
+  "end": 53.06
+ },
+ {
+  "word": "Most",
+  "start": 53.095,
+  "end": 53.257
+ },
+ {
+  "word": "of",
+  "start": 53.28,
+  "end": 53.327
+ },
+ {
+  "word": "the",
+  "start": 53.362,
+  "end": 53.431
+ },
+ {
+  "word": "journalists",
+  "start": 53.466,
+  "end": 53.745
+ },
+ {
+  "word": "had",
+  "start": 53.768,
+  "end": 53.838
+ },
+ {
+  "word": "voted",
+  "start": 53.896,
+  "end": 54.128
+ },
+ {
+  "word": "before",
+  "start": 54.151,
+  "end": 54.337
+ },
+ {
+  "word": "the",
+  "start": 54.36,
+  "end": 54.43
+ },
+ {
+  "word": "final",
+  "start": 54.476,
+  "end": 54.732
+ },
+ {
+  "word": "was",
+  "start": 54.778,
+  "end": 54.859
+ },
+ {
+  "word": "over,",
+  "start": 54.917,
+  "end": 55.242
+ },
+ {
+  "word": "before",
+  "start": 55.266,
+  "end": 55.475
+ },
+ {
+  "word": "the",
+  "start": 55.498,
+  "end": 55.567
+ },
+ {
+  "word": "headbutt.",
+  "start": 55.614,
+  "end": 56.043
+ },
+ {
+  "word": "And",
+  "start": 56.044,
+  "end": 56.129
+ },
+ {
+  "word": "the",
+  "start": 56.163,
+  "end": 56.233
+ },
+ {
+  "word": "winner",
+  "start": 56.303,
+  "end": 56.546
+ },
+ {
+  "word": "was",
+  "start": 56.616,
+  "end": 56.721
+ },
+ {
+  "word": "Zinedine",
+  "start": 56.802,
+  "end": 57.255
+ },
+ {
+  "word": "Zidane,",
+  "start": 57.278,
+  "end": 57.766
+ },
+ {
+  "word": "with",
+  "start": 57.789,
+  "end": 57.894
+ },
+ {
+  "word": "2,012",
+  "start": 57.928,
+  "end": 58.753
+ },
+ {
+  "word": "points.",
+  "start": 58.788,
+  "end": 59.24
+ },
+ {
+  "word": "Italy's",
+  "start": 59.275,
+  "end": 59.577
+ },
+ {
+  "word": "captain,",
+  "start": 59.623,
+  "end": 59.937
+ },
+ {
+  "word": "Fabio",
+  "start": 59.983,
+  "end": 60.262
+ },
+ {
+  "word": "Cannavaro,",
+  "start": 60.308,
+  "end": 60.854
+ },
+ {
+  "word": "got",
+  "start": 60.889,
+  "end": 61.017
+ },
+ {
+  "word": "1,977.",
+  "start": 61.086,
+  "end": 62.816
+ },
+ {
+  "word": "Just",
+  "start": 62.839,
+  "end": 62.979
+ },
+ {
+  "word": "35",
+  "start": 63.025,
+  "end": 63.42
+ },
+ {
+  "word": "points",
+  "start": 63.455,
+  "end": 63.675
+ },
+ {
+  "word": "between",
+  "start": 63.71,
+  "end": 64.0
+ },
+ {
+  "word": "them.",
+  "start": 64.035,
+  "end": 64.198
+ },
+ {
+  "word": "The",
+  "start": 64.221,
+  "end": 64.291
+ },
+ {
+  "word": "man",
+  "start": 64.325,
+  "end": 64.418
+ },
+ {
+  "word": "who",
+  "start": 64.442,
+  "end": 64.511
+ },
+ {
+  "word": "got",
+  "start": 64.546,
+  "end": 64.639
+ },
+ {
+  "word": "sent",
+  "start": 64.685,
+  "end": 64.813
+ },
+ {
+  "word": "off",
+  "start": 64.848,
+  "end": 64.918
+ },
+ {
+  "word": "in",
+  "start": 64.952,
+  "end": 64.999
+ },
+ {
+  "word": "the",
+  "start": 65.022,
+  "end": 65.092
+ },
+ {
+  "word": "World",
+  "start": 65.115,
+  "end": 65.266
+ },
+ {
+  "word": "Cup",
+  "start": 65.289,
+  "end": 65.394
+ },
+ {
+  "word": "final",
+  "start": 65.463,
+  "end": 65.742
+ },
+ {
+  "word": "was",
+  "start": 65.777,
+  "end": 65.858
+ },
+ {
+  "word": "named",
+  "start": 65.904,
+  "end": 66.044
+ },
+ {
+  "word": "the",
+  "start": 66.067,
+  "end": 66.137
+ },
+ {
+  "word": "best",
+  "start": 66.195,
+  "end": 66.369
+ },
+ {
+  "word": "player",
+  "start": 66.404,
+  "end": 66.601
+ },
+ {
+  "word": "of",
+  "start": 66.636,
+  "end": 66.682
+ },
+ {
+  "word": "the",
+  "start": 66.717,
+  "end": 66.787
+ },
+ {
+  "word": "World",
+  "start": 66.833,
+  "end": 67.065
+ },
+ {
+  "word": "Cup.",
+  "start": 67.123,
+  "end": 67.436
+ }
+]

@@ -1,0 +1,72 @@
+{
+ "L1_larry": {
+  "number_loudness_vs_other_db": -0.46,
+  "similarity_to_old_voice": 0.747,
+  "similarity_to_coachclank": 0.686
+ },
+ "L2_alex": {
+  "number_loudness_vs_other_db": 0.87,
+  "similarity_to_old_voice": 0.747,
+  "similarity_to_coachclank": 0.73
+ },
+ "L3_dan": {
+  "number_loudness_vs_other_db": -1.09,
+  "similarity_to_old_voice": 0.728,
+  "similarity_to_coachclank": 0.7
+ },
+ "L4_titan": {
+  "number_loudness_vs_other_db": 0.34,
+  "similarity_to_old_voice": 0.738,
+  "similarity_to_coachclank": 0.686
+ },
+ "L5_adam": {
+  "number_loudness_vs_other_db": -0.96,
+  "similarity_to_old_voice": 0.588,
+  "similarity_to_coachclank": 0.55
+ },
+ "L6_tomas": {
+  "number_loudness_vs_other_db": -1.39,
+  "similarity_to_old_voice": 0.734,
+  "similarity_to_coachclank": 0.788
+ },
+ "L7_tyler": {
+  "number_loudness_vs_other_db": -0.77,
+  "similarity_to_old_voice": 0.735,
+  "similarity_to_coachclank": 0.775
+ },
+ "L8_lucan": {
+  "number_loudness_vs_other_db": -0.47,
+  "similarity_to_old_voice": 0.651,
+  "similarity_to_coachclank": 0.662
+ },
+ "L9_jon": {
+  "number_loudness_vs_other_db": -0.05,
+  "similarity_to_old_voice": 0.621,
+  "similarity_to_coachclank": 0.596
+ },
+ "A3_clone_raw_names": {
+  "number_loudness_vs_other_db": 0.47,
+  "similarity_to_old_voice": 0.938,
+  "similarity_to_coachclank": 0.724
+ },
+ "A_clone_prod": {
+  "number_loudness_vs_other_db": -0.33,
+  "similarity_to_old_voice": 0.949,
+  "similarity_to_coachclank": 0.729
+ },
+ "B_clone_expressive": {
+  "number_loudness_vs_other_db": 0.02,
+  "similarity_to_old_voice": 0.952,
+  "similarity_to_coachclank": 0.731
+ },
+ "C_clone_v3": {
+  "number_loudness_vs_other_db": 0.04,
+  "similarity_to_old_voice": 0.891,
+  "similarity_to_coachclank": 0.735
+ },
+ "G_liam_v3": {
+  "number_loudness_vs_other_db": -2.3,
+  "similarity_to_old_voice": 0.658,
+  "similarity_to_coachclank": 0.676
+ }
+}

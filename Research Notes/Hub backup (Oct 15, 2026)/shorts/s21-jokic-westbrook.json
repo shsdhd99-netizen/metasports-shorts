@@ -1,0 +1,50 @@
+{
+  "about": "REWRITTEN Oct 14 night (Script Critic v3, 39/45): opens on two stars and a deadline; ends on a Christmas callback (56-16-15 last Christmas, the record this Christmas). No background music.",
+  "covers": [
+    {
+      "assetId": "dc9879e8a3b86c44efedf4ceffb83052",
+      "label": "A (use this)"
+    }
+  ],
+  "name": "How close is Jokic to Westbrook's record",
+  "num": 21,
+  "pinned": "Westbrook needed 18 seasons. Jokic needs about 23 games. Does he get it before Christmas?",
+  "postNote": "POSTED by the owner (Oct 15 note). No more work on it.",
+  "slot": 0,
+  "slotLabel": "Posted by the owner (Oct 15)",
+  "status": "posted",
+  "tags": "jokic westbrook triple double record, nikola jokic, russell westbrook, nikola jokic triple doubles, most triple doubles in nba history, career triple doubles record, jokic 198 triple doubles, westbrook 209 triple doubles, denver nuggets, nba records, nba record chase, nba shorts",
+  "title": "Jokic Could Break Westbrook's Record By Christmas 🎄",
+  "titles": [
+    "Jokic Could Break Westbrook's Record By Christmas 🎄",
+    "Can Jokic Pass Westbrook Before Christmas? 😳",
+    "Westbrook Took 18 Years. Jokic Needs Weeks 😳"
+  ],
+  "versions": [
+    {
+      "assetId": "7473dd2b78bb46435ba9ef9eb5d75077",
+      "label": "NEW v5: rewritten, voice A (Alex), no music",
+      "note": "24.7 s, -14.4 LUFS. Script Critic v3 APPROVE 39/45."
+    },
+    {
+      "assetId": "4da39728651236c545df027e7a5a7ded",
+      "label": "NEW v5: rewritten, voice F (old voice, fixed), no music",
+      "note": "25.8 s, -14.8 LUFS. Same script and footage."
+    },
+    {
+      "assetId": "9796c1bddb9e3a1896e2ea14d5bcd873",
+      "label": "v4 (old script, Alex + music)",
+      "note": "Superseded by v5: the old script failed the new critic (30/45)."
+    },
+    {
+      "assetId": "952e7c9c98918a4f840264cc841282b7",
+      "label": "v3.1 + music (old voice, old script)",
+      "note": "Superseded."
+    },
+    {
+      "assetId": "b434b9ea40afefbcf2f572959f1ace65",
+      "label": "v3.1, no music (old voice, old script)",
+      "note": "Superseded."
+    }
+  ]
+}

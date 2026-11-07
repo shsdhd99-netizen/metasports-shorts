@@ -1,0 +1,19 @@
+{
+ "engine": "ffmpeg",
+ "out": "final.mp4",
+ "loop_fix": true,
+ "fits": [
+  {
+   "shot": 9,
+   "clip": "M_pass.mp4",
+   "fit": "slowed",
+   "factor": 1.258
+  },
+  {
+   "shot": 13,
+   "clip": "R_close.mp4",
+   "fit": "slowed",
+   "factor": 1.054
+  }
+ ]
+}

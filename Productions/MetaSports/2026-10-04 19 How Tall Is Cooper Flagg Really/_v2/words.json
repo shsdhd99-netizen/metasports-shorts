@@ -1,0 +1,517 @@
+[
+ {
+  "word": "Cooper",
+  "start": 0.0,
+  "end": 0.285
+ },
+ {
+  "word": "Flagg",
+  "start": 0.336,
+  "end": 0.53
+ },
+ {
+  "word": "grew",
+  "start": 0.56,
+  "end": 0.692
+ },
+ {
+  "word": "an",
+  "start": 0.733,
+  "end": 0.784
+ },
+ {
+  "word": "inch",
+  "start": 0.835,
+  "end": 0.987
+ },
+ {
+  "word": "in",
+  "start": 1.018,
+  "end": 1.069
+ },
+ {
+  "word": "one",
+  "start": 1.12,
+  "end": 1.242
+ },
+ {
+  "word": "sentence.",
+  "start": 1.283,
+  "end": 1.659
+ },
+ {
+  "word": "His",
+  "start": 1.68,
+  "end": 1.802
+ },
+ {
+  "word": "draft",
+  "start": 1.842,
+  "end": 2.067
+ },
+ {
+  "word": "page",
+  "start": 2.087,
+  "end": 2.26
+ },
+ {
+  "word": "listed",
+  "start": 2.291,
+  "end": 2.545
+ },
+ {
+  "word": "six-eight.",
+  "start": 2.597,
+  "end": 3.014
+ },
+ {
+  "word": "The",
+  "start": 3.034,
+  "end": 3.125
+ },
+ {
+  "word": "NBA's",
+  "start": 3.167,
+  "end": 3.492
+ },
+ {
+  "word": "site",
+  "start": 3.512,
+  "end": 3.716
+ },
+ {
+  "word": "still",
+  "start": 3.746,
+  "end": 3.94
+ },
+ {
+  "word": "lists",
+  "start": 3.991,
+  "end": 4.185
+ },
+ {
+  "word": "six-nine.",
+  "start": 4.205,
+  "end": 4.673
+ },
+ {
+  "word": "Until",
+  "start": 4.693,
+  "end": 4.907
+ },
+ {
+  "word": "media",
+  "start": 4.958,
+  "end": 5.172
+ },
+ {
+  "word": "day.",
+  "start": 5.213,
+  "end": 5.365
+ },
+ {
+  "word": "I'm",
+  "start": 5.386,
+  "end": 5.508
+ },
+ {
+  "word": "six-ten",
+  "start": 5.559,
+  "end": 5.864
+ },
+ {
+  "word": "with",
+  "start": 5.905,
+  "end": 6.017
+ },
+ {
+  "word": "no",
+  "start": 6.058,
+  "end": 6.139
+ },
+ {
+  "word": "shoes.",
+  "start": 6.19,
+  "end": 6.516
+ },
+ {
+  "word": "Listed",
+  "start": 6.546,
+  "end": 6.811
+ },
+ {
+  "word": "at",
+  "start": 6.831,
+  "end": 6.882
+ },
+ {
+  "word": "his",
+  "start": 6.923,
+  "end": 7.005
+ },
+ {
+  "word": "physical",
+  "start": 7.035,
+  "end": 7.341
+ },
+ {
+  "word": "yesterday.",
+  "start": 7.392,
+  "end": 7.799
+ },
+ {
+  "word": "I",
+  "start": 7.819,
+  "end": 7.849
+ },
+ {
+  "word": "was",
+  "start": 7.9,
+  "end": 7.992
+ },
+ {
+  "word": "like",
+  "start": 8.033,
+  "end": 8.165
+ },
+ {
+  "word": "six-nine",
+  "start": 8.196,
+  "end": 8.552
+ },
+ {
+  "word": "last",
+  "start": 8.583,
+  "end": 8.735
+ },
+ {
+  "word": "year,",
+  "start": 8.776,
+  "end": 8.909
+ },
+ {
+  "word": "so",
+  "start": 8.929,
+  "end": 9.021
+ },
+ {
+  "word": "definitely",
+  "start": 9.072,
+  "end": 9.428
+ },
+ {
+  "word": "taller.",
+  "start": 9.468,
+  "end": 9.795
+ },
+ {
+  "word": "That's",
+  "start": 9.845,
+  "end": 10.059
+ },
+ {
+  "word": "one",
+  "start": 10.11,
+  "end": 10.252
+ },
+ {
+  "word": "summer,",
+  "start": 10.283,
+  "end": 10.568
+ },
+ {
+  "word": "one",
+  "start": 10.66,
+  "end": 10.813
+ },
+ {
+  "word": "inch,",
+  "start": 10.853,
+  "end": 11.057
+ },
+ {
+  "word": "for",
+  "start": 11.098,
+  "end": 11.22
+ },
+ {
+  "word": "the",
+  "start": 11.261,
+  "end": 11.322
+ },
+ {
+  "word": "reigning",
+  "start": 11.373,
+  "end": 11.586
+ },
+ {
+  "word": "Rookie",
+  "start": 11.627,
+  "end": 11.82
+ },
+ {
+  "word": "of",
+  "start": 11.851,
+  "end": 11.892
+ },
+ {
+  "word": "the",
+  "start": 11.923,
+  "end": 11.983
+ },
+ {
+  "word": "Year,",
+  "start": 12.025,
+  "end": 12.248
+ },
+ {
+  "word": "who",
+  "start": 12.268,
+  "end": 12.381
+ },
+ {
+  "word": "scored",
+  "start": 12.431,
+  "end": 12.655
+ },
+ {
+  "word": "a",
+  "start": 12.676,
+  "end": 12.696
+ },
+ {
+  "word": "career-high",
+  "start": 12.747,
+  "end": 13.205
+ },
+ {
+  "word": "fifty-one",
+  "start": 13.256,
+  "end": 13.643
+ },
+ {
+  "word": "against",
+  "start": 13.664,
+  "end": 13.856
+ },
+ {
+  "word": "Orlando,",
+  "start": 13.898,
+  "end": 14.315
+ },
+ {
+  "word": "the",
+  "start": 14.346,
+  "end": 14.427
+ },
+ {
+  "word": "only",
+  "start": 14.478,
+  "end": 14.631
+ },
+ {
+  "word": "teenager",
+  "start": 14.671,
+  "end": 14.987
+ },
+ {
+  "word": "to",
+  "start": 15.028,
+  "end": 15.068
+ },
+ {
+  "word": "score",
+  "start": 15.109,
+  "end": 15.313
+ },
+ {
+  "word": "fifty",
+  "start": 15.343,
+  "end": 15.557
+ },
+ {
+  "word": "or",
+  "start": 15.608,
+  "end": 15.659
+ },
+ {
+  "word": "more.",
+  "start": 15.7,
+  "end": 15.914
+ },
+ {
+  "word": "Even",
+  "start": 15.965,
+  "end": 16.137
+ },
+ {
+  "word": "his",
+  "start": 16.168,
+  "end": 16.239
+ },
+ {
+  "word": "trainer",
+  "start": 16.28,
+  "end": 16.493
+ },
+ {
+  "word": "would",
+  "start": 16.535,
+  "end": 16.657
+ },
+ {
+  "word": "not",
+  "start": 16.687,
+  "end": 16.778
+ },
+ {
+  "word": "confirm",
+  "start": 16.82,
+  "end": 17.074
+ },
+ {
+  "word": "he'd",
+  "start": 17.105,
+  "end": 17.217
+ },
+ {
+  "word": "grown.",
+  "start": 17.248,
+  "end": 17.553
+ },
+ {
+  "word": "But",
+  "start": 17.583,
+  "end": 17.696
+ },
+ {
+  "word": "then",
+  "start": 17.726,
+  "end": 17.838
+ },
+ {
+  "word": "a",
+  "start": 17.879,
+  "end": 17.899
+ },
+ {
+  "word": "reporter",
+  "start": 17.95,
+  "end": 18.286
+ },
+ {
+  "word": "asked",
+  "start": 18.337,
+  "end": 18.52
+ },
+ {
+  "word": "about",
+  "start": 18.551,
+  "end": 18.714
+ },
+ {
+  "word": "six-eleven.",
+  "start": 18.754,
+  "end": 19.324
+ },
+ {
+  "word": "Not",
+  "start": 19.386,
+  "end": 19.538
+ },
+ {
+  "word": "very",
+  "start": 19.589,
+  "end": 19.783
+ },
+ {
+  "word": "accurate,",
+  "start": 19.834,
+  "end": 20.2
+ },
+ {
+  "word": "he",
+  "start": 20.22,
+  "end": 20.271
+ },
+ {
+  "word": "said.",
+  "start": 20.322,
+  "end": 20.576
+ },
+ {
+  "word": "So,",
+  "start": 20.627,
+  "end": 20.77
+ },
+ {
+  "word": "no",
+  "start": 20.801,
+  "end": 20.903
+ },
+ {
+  "word": "shoes,",
+  "start": 20.963,
+  "end": 21.218
+ },
+ {
+  "word": "maybe",
+  "start": 21.248,
+  "end": 21.442
+ },
+ {
+  "word": "I'm",
+  "start": 21.473,
+  "end": 21.554
+ },
+ {
+  "word": "six-eleven.",
+  "start": 21.595,
+  "end": 22.104
+ },
+ {
+  "word": "I",
+  "start": 22.124,
+  "end": 22.155
+ },
+ {
+  "word": "don't",
+  "start": 22.206,
+  "end": 22.317
+ },
+ {
+  "word": "know.",
+  "start": 22.338,
+  "end": 22.542
+ },
+ {
+  "word": "Six-eight,",
+  "start": 22.572,
+  "end": 22.939
+ },
+ {
+  "word": "six-nine,",
+  "start": 22.959,
+  "end": 23.335
+ },
+ {
+  "word": "six-ten,",
+  "start": 23.356,
+  "end": 23.712
+ },
+ {
+  "word": "now",
+  "start": 23.743,
+  "end": 23.845
+ },
+ {
+  "word": "maybe",
+  "start": 23.896,
+  "end": 24.089
+ },
+ {
+  "word": "six-eleven.",
+  "start": 24.13,
+  "end": 24.72
+ }
+]

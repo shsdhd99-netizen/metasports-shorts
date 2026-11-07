@@ -1,0 +1,94 @@
+[
+ {
+  "clip": "hinkle_wide.mp4",
+  "start": 0.0,
+  "in": 0.05,
+  "kind": "action",
+  "zoom": 0.12
+ },
+ {
+  "clip": "hinkle_render.mp4",
+  "start": 1.54,
+  "in": 2.3,
+  "kind": "action",
+  "anchor": "will host"
+ },
+ {
+  "clip": "hinkle_night.mp4",
+  "start": 2.71,
+  "in": 0.2,
+  "kind": "action",
+  "anchor": "But"
+ },
+ {
+  "clip": "hinkle_board.mp4",
+  "start": 4.11,
+  "in": 0.05,
+  "kind": "action",
+  "anchor": "Hinkle"
+ },
+ {
+  "clip": "hinkle_night.mp4",
+  "start": 6.2,
+  "in": 2.1,
+  "kind": "action",
+  "anchor": "It did"
+ },
+ {
+  "clip": "hinkle_render.mp4",
+  "start": 8.88,
+  "in": 3.05,
+  "kind": "action",
+  "anchor": "The NBA"
+ },
+ {
+  "clip": "vegas_court.mp4",
+  "start": 10.87,
+  "in": 0.3,
+  "kind": "action",
+  "anchor": "For three"
+ },
+ {
+  "clip": "cup_home.mp4",
+  "start": 12.67,
+  "in": 0.15,
+  "kind": "action",
+  "anchor": "This year"
+ },
+ {
+  "clip": "cup_final.mp4",
+  "start": 14.63,
+  "in": 0.35,
+  "kind": "action",
+  "anchor": "Only the"
+ },
+ {
+  "clip": "hinkle_render.mp4",
+  "start": 15.9,
+  "in": 2.45,
+  "kind": "action",
+  "anchor": "It leaves"
+ },
+ {
+  "clip": "hinkle_wide.mp4",
+  "start": 17.7,
+  "in": 0.08,
+  "kind": "action",
+  "anchor": "Nine thousand"
+ },
+ {
+  "clip": "cup_group.mp4",
+  "start": 19.75,
+  "in": 0.15,
+  "kind": "action",
+  "anchor": "Every other"
+ },
+ {
+  "clip": "hinkle_wide.mp4",
+  "start": 21.35,
+  "in": 0.0,
+  "kind": "action",
+  "zoom": 0.08,
+  "anchor": "This one"
+ }
+]

@@ -1,0 +1,391 @@
+{
+ "sources": {
+  "U": "src/shootout2021.mp4",
+  "C": "src/city2026.mp4"
+ },
+ "promise": [
+  "save",
+  "saved",
+  "saving",
+  "penalty",
+  "penalties"
+ ],
+ "shots": [
+  {
+   "clip": "R01",
+   "src": "U",
+   "at": 908.7,
+   "kind": "action",
+   "why": "Rulli on the ground with De Gea's kick saved: the title's promise (UEFA full shootout, 2021 Europa League final)",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.72,
+   "zoom": 1.5,
+   "len": 3.1
+  },
+  {
+   "clip": "R02",
+   "src": "U",
+   "at": 830.0,
+   "kind": "face",
+   "why": "Rulli in goal, UEFA.tv full shootout",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "Back in"
+  },
+  {
+   "clip": "R03",
+   "src": "U",
+   "at": 776.0,
+   "kind": "action",
+   "why": "Wide shot with the shootout scoreboard graphic",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "Villarreal in"
+  },
+  {
+   "clip": "R04",
+   "src": "U",
+   "at": 794.0,
+   "kind": "action",
+   "why": "A United penalty, wide",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "1-1"
+  },
+  {
+   "clip": "R05",
+   "src": "U",
+   "at": 824.0,
+   "kind": "action",
+   "why": "Another penalty scored (21 in a row)",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "And nobody"
+  },
+  {
+   "clip": "R06",
+   "src": "U",
+   "at": 836.0,
+   "kind": "action",
+   "why": "A kick in the middle of the shootout",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "Five each"
+  },
+  {
+   "clip": "R07",
+   "src": "U",
+   "at": 806.0,
+   "kind": "face",
+   "why": "Villarreal's bench celebrates a scored kick",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "Every outfield"
+  },
+  {
+   "clip": "R08",
+   "src": "U",
+   "at": 842.0,
+   "kind": "face",
+   "why": "Rulli's face before the goalkeepers' kicks",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "So it came"
+  },
+  {
+   "clip": "R09",
+   "src": "U",
+   "at": 890.0,
+   "kind": "action",
+   "why": "Rulli from behind with the ball on the spot",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "Rulli stepped"
+  },
+  {
+   "clip": "R10",
+   "src": "U",
+   "at": 902.0,
+   "kind": "face",
+   "why": "De Gea's face before his kick",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "Then David"
+  },
+  {
+   "clip": "R11",
+   "src": "U",
+   "at": 782.0,
+   "kind": "face",
+   "why": "De Gea beside the referee",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "He hadn't saved"
+  },
+  {
+   "clip": "R12",
+   "src": "U",
+   "at": 848.0,
+   "kind": "action",
+   "why": "A United kick, wide",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "In fact"
+  },
+  {
+   "clip": "R13",
+   "src": "U",
+   "at": 872.0,
+   "kind": "action",
+   "why": "The goal after a kick",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "He'd let"
+  },
+  {
+   "clip": "R14",
+   "src": "U",
+   "at": 906.4,
+   "kind": "action",
+   "why": "REPLAY of the key second: De Gea's kick and Rulli's dive and save",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.72,
+   "anchor": "Rulli dived",
+   "replay": true,
+   "zoom": 1.5
+  },
+  {
+   "clip": "R15",
+   "src": "U",
+   "at": 911.9,
+   "kind": "action",
+   "why": "Villarreal players run to celebrate",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "11-10"
+  },
+  {
+   "clip": "R16",
+   "src": "U",
+   "at": 920.0,
+   "kind": "action",
+   "why": "Villarreal pile-on, trophy night",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "Villarreal's first"
+  },
+  {
+   "clip": "R17",
+   "src": "U",
+   "at": 752.0,
+   "kind": "face",
+   "why": "United players devastated",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "Twenty-one"
+  },
+  {
+   "clip": "R17b",
+   "src": "U",
+   "at": 878.0,
+   "kind": "action",
+   "why": "Villarreal fans celebrating",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "ended United's"
+  },
+  {
+   "clip": "R18",
+   "src": "C",
+   "at": 513.0,
+   "kind": "action",
+   "why": "City players hug the keeper in magenta (League Cup tie v Brighton, Oct 28 2026; illustrative for 'signed Rulli')",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "This summer"
+  },
+  {
+   "clip": "R19",
+   "src": "C",
+   "at": 401.0,
+   "kind": "action",
+   "why": "Etihad wide, the League Cup tie v Brighton",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "In October"
+  },
+  {
+   "clip": "R20",
+   "src": "C",
+   "at": 414.0,
+   "kind": "face",
+   "why": "City touchline",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "home to"
+  },
+  {
+   "clip": "R21",
+   "src": "C",
+   "at": 388.4,
+   "kind": "action",
+   "why": "A City goal in the 2-2 draw",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "They came"
+  },
+  {
+   "clip": "R22",
+   "src": "C",
+   "at": 427.0,
+   "kind": "action",
+   "why": "City equaliser",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "draw"
+  },
+  {
+   "clip": "R23",
+   "src": "C",
+   "at": 453.0,
+   "kind": "action",
+   "why": "Shootout scoreboard graphic",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "Another shootout"
+  },
+  {
+   "clip": "R24",
+   "src": "C",
+   "at": 485.9,
+   "kind": "action",
+   "why": "City's fourth kick saved, graphic shows the red cross",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "Mateo"
+  },
+  {
+   "clip": "R24b",
+   "src": "C",
+   "at": 472.9,
+   "kind": "action",
+   "why": "A City kick in the shootout",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "had his"
+  },
+  {
+   "clip": "R25",
+   "src": "C",
+   "at": 492.4,
+   "kind": "action",
+   "why": "Brighton's kick, graphic shows the miss",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "Then Rulli"
+  },
+  {
+   "clip": "R26",
+   "src": "C",
+   "at": 498.9,
+   "kind": "action",
+   "why": "Scoreboard: City 4, Brighton 3",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "Then he"
+  },
+  {
+   "clip": "R27",
+   "src": "C",
+   "at": 510.4,
+   "kind": "action",
+   "why": "City celebrate",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "City won"
+  },
+  {
+   "clip": "R28",
+   "src": "C",
+   "at": 505.3,
+   "kind": "face",
+   "why": "The touchline after the shootout",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "But here's"
+  },
+  {
+   "clip": "R29",
+   "src": "C",
+   "at": 516.4,
+   "kind": "action",
+   "why": "City celebration, illustrative of the 2016 signing line",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "City had",
+   "overlay": [
+    {
+     "text": "SIGNED 2016",
+     "size": 120,
+     "color": "orange",
+     "y": 300,
+     "start": 0.0,
+     "end": 2.0
+    }
+   ]
+  },
+  {
+   "clip": "R30",
+   "src": "C",
+   "at": 508.4,
+   "kind": "action",
+   "why": "City celebration, illustrative",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "He left",
+   "overlay": [
+    {
+     "text": "0 GAMES",
+     "size": 150,
+     "color": "orange",
+     "y": 300,
+     "start": 0.0,
+     "end": 1.8
+    }
+   ],
+   "len": 2.46
+  }
+ ]
+}

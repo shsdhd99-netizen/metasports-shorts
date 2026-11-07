@@ -1,0 +1,53 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Montserrat Black,86,&H00FFFFFF,&H00FFFFFF,&H00000000,&H99000000,0,0,0,0,95,100,1,0,1,6,3,5,70,70,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.51,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE WARRIORS
+Dialogue: 0,0:00:00.51,0:00:01.70,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}JUST STARTED 0-3
+Dialogue: 0,0:00:01.70,0:00:02.17,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FOR THE FIRST
+Dialogue: 0,0:00:02.17,0:00:02.48,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TIME
+Dialogue: 0,0:00:02.48,0:00:03.47,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN 19 YEARS.
+Dialogue: 0,0:00:03.47,0:00:03.77,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE LAST
+Dialogue: 0,0:00:03.77,0:00:04.33,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TIME IT HAPPENED,
+Dialogue: 0,0:00:04.33,0:00:04.83,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}STEPH CURRY
+Dialogue: 0,0:00:04.83,0:00:05.18,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WAS STILL
+Dialogue: 0,0:00:05.18,0:00:05.84,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN COLLEGE.
+Dialogue: 0,0:00:05.84,0:00:06.92,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BACK IN 2007,
+Dialogue: 0,0:00:06.92,0:00:07.44,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}GOLDEN STATE
+Dialogue: 0,0:00:07.44,0:00:08.10,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}LOST ITS FIRST
+Dialogue: 0,0:00:08.10,0:00:08.85,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SIX GAMES,
+Dialogue: 0,0:00:08.85,0:00:09.25,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WHILE CURRY
+Dialogue: 0,0:00:09.25,0:00:09.88,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx84\fscy84\t(0,90,\fscx98\fscy98)}WAS A SOPHOMORE
+Dialogue: 0,0:00:09.88,0:00:10.55,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AT DAVIDSON.
+Dialogue: 0,0:00:10.55,0:00:11.24,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN HIS 17
+Dialogue: 0,0:00:11.24,0:00:11.98,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SEASONS SINCE,
+Dialogue: 0,0:00:11.98,0:00:12.33,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THEY NEVER
+Dialogue: 0,0:00:12.33,0:00:13.26,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}STARTED 0-3.
+Dialogue: 0,0:00:13.26,0:00:13.82,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SO IS CURRY
+Dialogue: 0,0:00:13.82,0:00:14.36,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE PROBLEM?
+Dialogue: 0,0:00:14.36,0:00:14.72,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NO.
+Dialogue: 0,0:00:14.72,0:00:15.06,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HE SCORED
+Dialogue: 0,0:00:15.06,0:00:16.08,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}23 AND 24
+Dialogue: 0,0:00:16.08,0:00:16.46,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN THE FIRST
+Dialogue: 0,0:00:16.46,0:00:17.18,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TWO LOSSES.
+Dialogue: 0,0:00:17.18,0:00:17.80,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx80\fscy80\t(0,90,\fscx93\fscy93)}THEN THE WARRIORS
+Dialogue: 0,0:00:17.80,0:00:18.46,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BLEW A 12
+Dialogue: 0,0:00:18.46,0:00:19.05,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}-POINT LEAD
+Dialogue: 0,0:00:19.05,0:00:19.49,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN THE LAST
+Dialogue: 0,0:00:19.49,0:00:19.86,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FOUR MINUTES
+Dialogue: 0,0:00:19.86,0:00:20.58,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AGAINST MEMPHIS.
+Dialogue: 0,0:00:20.58,0:00:21.26,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND ON SATURDAY,
+Dialogue: 0,0:00:21.26,0:00:21.73,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}CURRY SAT
+Dialogue: 0,0:00:21.73,0:00:22.11,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}OUT TO REST
+Dialogue: 0,0:00:22.11,0:00:22.52,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HIS KNEE.
+Dialogue: 0,0:00:22.52,0:00:23.29,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}19 YEARS.
+Dialogue: 0,0:00:23.29,0:00:24.14,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}0-3.

@@ -1,0 +1,132 @@
+{
+ "sources": {
+  "P": "src/espn_50343302.mp4",
+  "B": "src/espn_50342108.mp4",
+  "F": "src/espn_50342995.mp4"
+ },
+ "promise": [
+  "block",
+  "blocked",
+  "blocks",
+  "40",
+  "40th"
+ ],
+ "shots": [
+  {
+   "clip": "W01",
+   "src": "P",
+   "at": 5.47,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "zoom": 1.15,
+   "x": 0.45,
+   "kind": "action",
+   "why": "THE BLOCK, live angle: Kuminga (white) rises for the step-back three, Wemby (#1 black) closes from the right and the ball has just left his hands and Wemby's hand meets it at about 0.04 s; the ball flies up and back (ESPN clip 50343302 'Victor Wembanyama throws down the hammer', Spurs vs Wolves Oct 31 2026; scorebug MIN 101 - 105 SAS, 4th 6:21)",
+   "len": 3.72
+  },
+  {
+   "clip": "W02",
+   "src": "P",
+   "at": 2.7,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.4,
+   "kind": "action",
+   "anchor": "Kuminga pulled",
+   "replay": true,
+   "why": "Rewind: Kuminga brings it up and steps back on the left wing guarded by Fox (#4); scorebug MIN 101 - 105 SAS proves 'Spurs up four' (same ESPN clip)",
+   "len": 3.0
+  },
+  {
+   "clip": "W03",
+   "src": "P",
+   "at": 5.27,
+   "speed": 0.5,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "zoom": 1.25,
+   "x": 0.453,
+   "kind": "action",
+   "anchor": "Wemby got a",
+   "replay": true,
+   "why": "The contact at half speed, closer: Wemby's hand on Kuminga's three (the key second, replayed once)",
+   "len": 1.66
+  },
+  {
+   "clip": "W04",
+   "src": "P",
+   "at": 8.85,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.17,
+   "kind": "action",
+   "anchor": "Then he beat",
+   "why": "Wemby outruns everyone up the floor, takes Harper's pass and rises for the running dunk at the rim (live angle, 4th 6:19-6:17)",
+   "len": 2.68
+  },
+  {
+   "clip": "W05",
+   "src": "P",
+   "at": 17.8,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "kind": "action",
+   "anchor": "Point 40",
+   "why": "Overhead rim-cam replay of the same dunk: the ball goes through with Wemby on the rim = his 40th point (ESPN play-by-play 6:15, 101-107)",
+   "overlay": [
+    {
+     "text": "POINT 40",
+     "size": 190,
+     "color": "orange",
+     "y": 300,
+     "start": 0.0,
+     "end": 1.85
+    }
+   ],
+   "len": 1.84
+  },
+  {
+   "clip": "W06",
+   "src": "B",
+   "at": 13.25,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.45,
+   "kind": "action",
+   "anchor": "Two more blocks",
+   "why": "Close-up replay of a Wemby block on Beringer's drive in this game (ESPN clip 50342108 'elevates for the big-time block'; NOTE: that block was in the 1st quarter, not one of the two late ones, which have no clip; no scorebug in this angle)",
+   "len": 1.6
+  },
+  {
+   "clip": "W07",
+   "src": "F",
+   "at": 8.97,
+   "zoom": 1.2,
+   "y": 0.0,
+   "x": 0.62,
+   "kind": "face",
+   "anchor": "43 points",
+   "why": "Payoff: Wemby close-up, turns to show WEMBANYAMA 1 on his back (ESPN clip 50342995, same game; one camera shot 8.92-12.85 s, cropped above the scorebug, ends before the dissolve)",
+   "overlay": [
+    {
+     "text": "43 PTS",
+     "size": 170,
+     "color": "white",
+     "y": 1380,
+     "start": 0.0,
+     "end": 3.85
+    },
+    {
+     "text": "6 BLK",
+     "size": 170,
+     "color": "orange",
+     "y": 1580,
+     "start": 0.0,
+     "end": 3.85
+    }
+   ],
+   "len": 3.85
+  }
+ ]
+}

@@ -1,0 +1,126 @@
+{
+ "sources": {
+  "N": "src/XkhdXcVwxCQ.mp4",
+  "C": "src/BUBh3_B-WXo.mp4",
+  "H": "src/uQTA83bz_gY.mp4"
+ },
+ "promise": [
+  "shot"
+ ],
+ "shots": [
+  {
+   "clip": "B01",
+   "src": "N",
+   "at": 70.5,
+   "kind": "face",
+   "why": "Rodman holding the real No. 69 Mavericks jersey at his Dallas press conference (frame 1: the banned number, his face)",
+   "len": 2.56
+  },
+  {
+   "clip": "B02",
+   "src": "H",
+   "at": 240.5,
+   "kind": "action",
+   "why": "Rodman in a Mavericks jersey, in-game (2000)",
+   "anchor": "When Dallas",
+   "len": 1.52
+  },
+  {
+   "clip": "B03",
+   "src": "N",
+   "at": 74.0,
+   "kind": "face",
+   "why": "the 69 jersey, close: he asked for 69",
+   "anchor": "sixty-nine.",
+   "len": 0.86
+  },
+  {
+   "clip": "B04",
+   "src": "N",
+   "at": 76.5,
+   "kind": "face",
+   "why": "the one 69 jersey that was printed",
+   "anchor": "The Mavericks",
+   "len": 1.25
+  },
+  {
+   "clip": "B05",
+   "src": "C",
+   "at": 162.5,
+   "kind": "face",
+   "why": "Commissioner David Stern at a podium: the league said no",
+   "anchor": "The league",
+   "len": 1.16
+  },
+  {
+   "clip": "B06",
+   "src": "N",
+   "at": 56.5,
+   "kind": "face",
+   "why": "RODMAN 70 on his back, Mavericks",
+   "anchor": "So he",
+   "len": 1.17
+  },
+  {
+   "clip": "B07",
+   "src": "C",
+   "at": 204.5,
+   "kind": "face",
+   "why": "Mark Cuban",
+   "anchor": "Mark Cuban",
+   "len": 2.21
+  },
+  {
+   "clip": "B08",
+   "src": "H",
+   "at": 96.0,
+   "kind": "action",
+   "why": "Mavericks game action, 2000",
+   "anchor": "The Mavs",
+   "blurfit": true,
+   "blurfit_width": 1.0,
+   "len": 2.04
+  },
+  {
+   "clip": "B09",
+   "src": "H",
+   "at": 144.5,
+   "kind": "action",
+   "why": "Rodman No. 70 on court with the Dallas scorebug",
+   "anchor": "With Rodman,",
+   "blurfit": true,
+   "blurfit_width": 1.0,
+   "len": 1.82
+  },
+  {
+   "clip": "B10",
+   "src": "H",
+   "at": 298.0,
+   "kind": "face",
+   "why": "Rodman, jersey off, walking off the floor through the crowd (ejected)",
+   "anchor": "He was",
+   "len": 1.33
+  },
+  {
+   "clip": "B11",
+   "src": "H",
+   "at": 24.5,
+   "kind": "face",
+   "why": "TV news report with Rodman's photo inset: released",
+   "anchor": "Five weeks",
+   "blurfit": true,
+   "blurfit_width": 1.0,
+   "len": 2.16
+  },
+  {
+   "clip": "B12",
+   "src": "N",
+   "at": 71.0,
+   "kind": "face",
+   "why": "back to Rodman holding the 69 jersey: the only thing Dallas kept (loops to frame 1)",
+   "anchor": "The only",
+   "len": 2.97,
+   "replay": true
+  }
+ ]
+}

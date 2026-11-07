@@ -1,0 +1,270 @@
+{
+ "length_s": 68.6,
+ "topic": "How a carpenter named Leigh Herbert placed a 5-pound bet on Leicester City to win the 2015-16 Premier League at 5000/1 odds and won over 20,000 pounds.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "Craziest predictions in football history.",
+  "first_frame": "A football player in blue sliding on the pitch during a match.",
+  "on_screen_text_0_3s": "CRAZIEST PREDICTIONS in football history",
+  "shots_in_first_3s": 3
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 2.1,
+   "shows": "Football match collision and slide tackle",
+   "kind": "action"
+  },
+  {
+   "start_s": 2.1,
+   "end_s": 4.1,
+   "shows": "Leigh Herbert smiling in front of trees",
+   "kind": "still"
+  },
+  {
+   "start_s": 4.1,
+   "end_s": 6.0,
+   "shows": "Camping holiday aerial view with tents and car",
+   "kind": "stock"
+  },
+  {
+   "start_s": 6.0,
+   "end_s": 6.9,
+   "shows": "People sitting around a campfire while camping",
+   "kind": "stock"
+  },
+  {
+   "start_s": 6.9,
+   "end_s": 8.5,
+   "shows": "Leigh Herbert interviewed on television screen",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 8.5,
+   "end_s": 12.2,
+   "shows": "Betting slip for Leicester City 5000/1",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 12.2,
+   "end_s": 13.9,
+   "shows": "King Power Stadium exterior",
+   "kind": "stock"
+  },
+  {
+   "start_s": 13.9,
+   "end_s": 15.8,
+   "shows": "Claudio Ranieri speaking at microphone",
+   "kind": "face"
+  },
+  {
+   "start_s": 15.8,
+   "end_s": 17.5,
+   "shows": "Elvis Presley performing live",
+   "kind": "stock"
+  },
+  {
+   "start_s": 17.5,
+   "end_s": 19.8,
+   "shows": "Claudio Ranieri walking in suit and tie",
+   "kind": "face"
+  },
+  {
+   "start_s": 19.8,
+   "end_s": 21.8,
+   "shows": "Leicester City players in dressing room",
+   "kind": "face"
+  },
+  {
+   "start_s": 21.8,
+   "end_s": 23.9,
+   "shows": "Premier League standings table showing Leicester in 14th",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 23.9,
+   "end_s": 25.3,
+   "shows": "Football player on the grass holding his face",
+   "kind": "action"
+  },
+  {
+   "start_s": 25.3,
+   "end_s": 27.8,
+   "shows": "Leicester City manager coaching players on pitch",
+   "kind": "action"
+  },
+  {
+   "start_s": 27.8,
+   "end_s": 30.7,
+   "shows": "King Power Stadium pitch view through goal net",
+   "kind": "stock"
+  },
+  {
+   "start_s": 30.7,
+   "end_s": 32.4,
+   "shows": "Leicester player walking on pitch",
+   "kind": "action"
+  },
+  {
+   "start_s": 32.4,
+   "end_s": 35.0,
+   "shows": "Manchester United players lifting trophy",
+   "kind": "action"
+  },
+  {
+   "start_s": 35.0,
+   "end_s": 38.6,
+   "shows": "Manchester City players lifting trophy",
+   "kind": "action"
+  },
+  {
+   "start_s": 38.6,
+   "end_s": 40.5,
+   "shows": "Jamie Vardy running and kicking ball",
+   "kind": "action"
+  },
+  {
+   "start_s": 40.5,
+   "end_s": 42.9,
+   "shows": "Michael Rosen meme smiling and nodding",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 42.9,
+   "end_s": 45.1,
+   "shows": "Leicester players celebrating and hugging",
+   "kind": "action"
+  },
+  {
+   "start_s": 45.1,
+   "end_s": 48.9,
+   "shows": "Leicester City team squad photo with Claudio Ranieri overlay",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 48.9,
+   "end_s": 50.3,
+   "shows": "Riyad Mahrez celebrating on pitch",
+   "kind": "action"
+  },
+  {
+   "start_s": 50.3,
+   "end_s": 52.9,
+   "shows": "Jamie Vardy and Riyad Mahrez graphics",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 52.9,
+   "end_s": 54.6,
+   "shows": "Leicester players waving on pitch with mascots",
+   "kind": "action"
+  },
+  {
+   "start_s": 54.6,
+   "end_s": 56.4,
+   "shows": "Football match action shot with ball in air",
+   "kind": "action"
+  },
+  {
+   "start_s": 56.4,
+   "end_s": 59.1,
+   "shows": "Claudio Ranieri lifting Premier League trophy with players",
+   "kind": "action"
+  },
+  {
+   "start_s": 59.1,
+   "end_s": 61.5,
+   "shows": "Female sports presenter holding phone",
+   "kind": "face"
+  },
+  {
+   "start_s": 61.5,
+   "end_s": 64.0,
+   "shows": "Leigh Herbert smiling in front of trees",
+   "kind": "still"
+  },
+  {
+   "start_s": 64.0,
+   "end_s": 66.6,
+   "shows": "Leigh Herbert interviewed on television screen",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 66.6,
+   "end_s": 68.6,
+   "shows": "Mobile phone screen showing potential returns over 25,000 pounds",
+   "kind": "screenshot"
+  }
+ ],
+ "shot_count": 31,
+ "average_shot_s": 2.2,
+ "longest_shot_s": 3.6,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 175,
+  "tone": "enthusiastic and engaging",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "upbeat rhythmic electronic background beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "mixed",
+  "position": "middle",
+  "colours": "white",
+  "highlight_style": "none"
+ },
+ "text_overlays": [
+  {
+   "at_s": 0.0,
+   "text": "CRAZIEST PREDICTIONS in football history"
+  },
+  {
+   "at_s": 3.0,
+   "text": "LEIGH HERBERT"
+  }
+ ],
+ "cards_or_graphics": 8,
+ "framing": "crop",
+ "ending": {
+  "last_words": "turned into over 20,000 pounds.",
+  "last_frame": "Mobile phone screen showing potential returns of 25,005.00 pounds on a betting app.",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "Craziest predictions in football history. So a carpenter named Leigh Herbert was on a camping holiday one summer, and after a few drinks, he put 5 pounds on his boyhood club Leicester City to win the Premier League at odds of 5000 to one. To show you how insane that is, bookies were offering those exact same odds on Elvis being found alive. But there's a reason a bet that stupid was actually the safest read on this team. The season before, they finished fourteenth and sat in the bottom three for most of that year, fully expected to get relegated. And this is a club that in 132 years had never once won the top flight. Meanwhile the title only ever went to the rich giants, because since the year 2000 just four wealthy clubs had ever lifted it. But the moment the season kicked off, Leicester started making those bookmakers sweat. And if you're enjoying the video, please hit the follow button. A group of rejects led by Claudio Ranieri won 23 games and lost only three, while Jamie Vardy and Riyad Mahrez tore defenses apart. And on May 2nd of 2016, the title was mathematically theirs. Bookmakers called it the biggest upset in betting history and lost around 11 million dollars between them. And Leigh? That nervous 5-pound bet, part of which he cashed out early because the pressure got to him, turned into over 20,000 pounds.",
+ "retention_tricks": [
+  "fast-paced cutting every 2 seconds",
+  "text overlays with pop-up animation",
+  "meme insertion for comedic effect",
+  "archive footage and betting slip reveals",
+  "open loop regarding how much money Leigh won"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "Compelling underdog sports narrative with incredible odds comparison to Elvis",
+  "Rapid visual pacing with diverse B-roll, memes, and authentic betting screenshots",
+  "Clear storytelling structure following the bettor from camping trip to massive payout"
+ ],
+ "_meta": {
+  "source": "SD8TRO2a2G8",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

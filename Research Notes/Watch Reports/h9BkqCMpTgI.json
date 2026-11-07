@@ -1,0 +1,115 @@
+{
+ "length_s": 24.25,
+ "topic": "NBA teammates helping players get triple-doubles, and instances where it goes wrong.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "When a player is close to a triple-double, their teammates usually try to help them get that last stat they need.",
+  "first_frame": "Basketball court overview with game action and text 'When a player'",
+  "on_screen_text_0_3s": "When a player is close to a triple-double, their teammates usually try to help",
+  "shots_in_first_3s": 3
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 4.25,
+   "shows": "basketball game action with player dribbling",
+   "kind": "action"
+  },
+  {
+   "start_s": 4.25,
+   "end_s": 8.5,
+   "shows": "basketball game action on red court",
+   "kind": "action"
+  },
+  {
+   "start_s": 8.5,
+   "end_s": 12.75,
+   "shows": "basketball player shooting on court",
+   "kind": "action"
+  },
+  {
+   "start_s": 12.75,
+   "end_s": 15.75,
+   "shows": "basketball player reacting with hands up",
+   "kind": "action"
+  },
+  {
+   "start_s": 15.75,
+   "end_s": 18.75,
+   "shows": "basketball game action with Lakers players",
+   "kind": "action"
+  },
+  {
+   "start_s": 18.75,
+   "end_s": 21.75,
+   "shows": "LeBron James talking to coach",
+   "kind": "face"
+  },
+  {
+   "start_s": 21.75,
+   "end_s": 24.25,
+   "shows": "LeBron James securing rebound",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 7,
+ "average_shot_s": 3.46,
+ "longest_shot_s": 4.25,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 190,
+  "tone": "casual and informative",
+  "original_audio_under_voice": true
+ },
+ "music": {
+  "present": true,
+  "style": "upbeat background beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 4,
+  "case": "sentence",
+  "position": "middle",
+  "colours": "white",
+  "highlight_style": "none"
+ },
+ "text_overlays": [],
+ "cards_or_graphics": 0,
+ "framing": "crop",
+ "ending": {
+  "last_words": "rebound to complete his triple-double.",
+  "last_frame": "LeBron James holding basketball on court",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "When a player is close to a triple-double, their teammates usually try to help them get that last stat they need. Like when the Rockets literally didn't touch the ball, so Kevin Porter Jr. could get his triple-double. Or even when Giannis just did it himself and missed a shot on purpose to get his last rebound. But I think what's funnier is when a teammate forgets this unwritten rule, because Austin Reaves kept grabbing boards, not knowing LeBron was one away! LeBron even jokingly told the coach to keep Reaves on the bench, but eventually LeBron got his rebound to complete his triple-double.",
+ "retention_tricks": [
+  "rapid multi-clip editing",
+  "captions highlighting words in sync with voice",
+  "narrative arc from general rule to specific funny exception"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "Engaging topic covering funny unwritten NBA rules",
+  "Fast-paced visual examples matching every sentence",
+  "Humorous resolution featuring LeBron James"
+ ],
+ "_meta": {
+  "source": "h9BkqCMpTgI",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

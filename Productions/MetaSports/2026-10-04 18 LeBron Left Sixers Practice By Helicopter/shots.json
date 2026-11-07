@@ -1,0 +1,141 @@
+[
+ {
+  "clip": "H_dunk.mp4",
+  "start": 0.0,
+  "why": "LeBron dunk hook",
+  "kind": "action",
+  "zoom": 0.1
+ },
+ {
+  "clip": "H_face76.mp4",
+  "start": 0.75,
+  "why": "LeBron 76 logo",
+  "kind": "action",
+  "zoom": 0.08
+ },
+ {
+  "clip": "S1_sixers_lebron.mp4",
+  "start": 1.5,
+  "why": "LeBron close-up (Sixers LeBron, replaces Lakers footage)",
+  "kind": "action",
+  "zoom": 0.06
+ },
+ {
+  "clip": "Q1_placard.mp4",
+  "start": 2.45,
+  "why": "you guys know who I am",
+  "kind": "quote"
+ },
+ {
+  "clip": "S2_sixers_lebron.mp4",
+  "start": 3.95,
+  "why": "signed M (Sixers LeBron, replaces Lakers footage)",
+  "kind": "action",
+  "zoom": 0.06
+ },
+ {
+  "clip": "S3_sixers_lebron.mp4",
+  "start": 4.89,
+  "why": " (Sixers LeBron, replaces Lakers footage)",
+  "kind": "action"
+ },
+ {
+  "clip": "S4_sixers_lebron.mp4",
+  "start": 5.68,
+  "why": "one promise (Sixers LeBron, replaces Lakers footage)",
+  "kind": "action",
+  "zoom": 0.06
+ },
+ {
+  "clip": "Q2_second.mp4",
+  "start": 6.82,
+  "why": "didnt leave my family",
+  "kind": "quote"
+ },
+ {
+  "clip": "S5_sixers_lebron.mp4",
+  "start": 10.0,
+  "why": "Philly hasnt won a title",
+  "kind": "action",
+  "zoom": 0.06
+ },
+ {
+  "clip": "S6_sixers_lebron.mp4",
+  "start": 11.0,
+  "why": "since 1983",
+  "kind": "action"
+ },
+ {
+  "clip": "S1_sixers_lebron.mp4",
+  "start": 12.2,
+  "in": 0.6,
+  "why": "Knicks swept them",
+  "kind": "action",
+  "zoom": 0.08
+ },
+ {
+  "clip": "S3_sixers_lebron.mp4",
+  "start": 13.6,
+  "in": 0.6,
+  "why": "in four games",
+  "kind": "action"
+ },
+ {
+  "clip": "HE1.mp4",
+  "start": 14.55,
+  "why": "The next day",
+  "kind": "action"
+ },
+ {
+  "clip": "HE2.mp4",
+  "start": 15.6,
+  "why": "left practice in a helicopter",
+  "kind": "action"
+ },
+ {
+  "clip": "HE3.mp4",
+  "start": 16.75,
+  "why": "forty-five minutes to NY",
+  "kind": "action"
+ },
+ {
+  "clip": "M1_maxey.mp4",
+  "start": 18.05,
+  "why": "Teammate Tyrese Maxey",
+  "kind": "action"
+ },
+ {
+  "clip": "M2_maxey.mp4",
+  "start": 19.65,
+  "why": "whose car broke down that day had the line",
+  "kind": "action"
+ },
+ {
+  "clip": "Q3_maxey.mp4",
+  "start": 21.2,
+  "why": "Maxey on the curb",
+  "kind": "quote"
+ },
+ {
+  "clip": "S4_sixers_lebron.mp4",
+  "start": 23.73,
+  "why": "all in on Philly",
+  "kind": "action",
+  "zoom": 0.06,
+  "in": 0.0
+ },
+ {
+  "clip": "S2_sixers_lebron.mp4",
+  "start": 24.63,
+  "why": "or just flying through",
+  "kind": "action",
+  "in": 0.0
+ },
+ {
+  "clip": "H_dunk.mp4",
+  "start": 25.53,
+  "why": "loop to first shot",
+  "kind": "action",
+  "zoom": 0.1
+ }
+]

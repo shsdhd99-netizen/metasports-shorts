@@ -1,0 +1,138 @@
+{
+ "length_s": 24.0,
+ "topic": "Basketball trick shooter proves his unbelievable skills are real through increasingly crazy challenges.",
+ "lane": "moment",
+ "hook": {
+  "first_words": "This guy is so good at basketball, he can never miss a shot.",
+  "first_frame": "A basketball player shooting a jump shot towards a hoop covered in metal spikes on an outdoor court.",
+  "on_screen_text_0_3s": "This guy is so good at basketball, he can never miss a shot.",
+  "shots_in_first_3s": 2
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 1.5,
+   "shows": "Player shooting a basketball into a spiked hoop outdoors.",
+   "kind": "action"
+  },
+  {
+   "start_s": 1.5,
+   "end_s": 2.7,
+   "shows": "Player shooting a basketball outside a building against a pole.",
+   "kind": "action"
+  },
+  {
+   "start_s": 2.7,
+   "end_s": 3.9,
+   "shows": "Player sitting outdoors holding a basketball.",
+   "kind": "face"
+  },
+  {
+   "start_s": 3.9,
+   "end_s": 5.9,
+   "shows": "Player shooting basketball past a wooden pole.",
+   "kind": "action"
+  },
+  {
+   "start_s": 5.9,
+   "end_s": 8.0,
+   "shows": "Player shooting a basketball from a moving boat.",
+   "kind": "action"
+  },
+  {
+   "start_s": 8.0,
+   "end_s": 9.9,
+   "shows": "Player shooting a basketball from the back of a moving truck in the desert.",
+   "kind": "action"
+  },
+  {
+   "start_s": 9.9,
+   "end_s": 12.1,
+   "shows": "Player shooting a basketball through a wind turbine.",
+   "kind": "action"
+  },
+  {
+   "start_s": 12.1,
+   "end_s": 14.6,
+   "shows": "Player shooting a basketball from a car driving on a wall inside a wooden cylinder.",
+   "kind": "action"
+  },
+  {
+   "start_s": 14.6,
+   "end_s": 17.5,
+   "shows": "Player shooting a basketball from a helicopter onto a rooftop court.",
+   "kind": "action"
+  },
+  {
+   "start_s": 17.5,
+   "end_s": 19.9,
+   "shows": "Player holding gummy bears and a water bottle, talking to the camera.",
+   "kind": "face"
+  },
+  {
+   "start_s": 19.9,
+   "end_s": 24.0,
+   "shows": "Player shooting a gummy bear into a water bottle on the ground.",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 11,
+ "average_shot_s": 2.18,
+ "longest_shot_s": 4.1,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 170,
+  "tone": "energetic, storytelling",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "upbeat electronic instrumental",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 2,
+  "case": "mixed",
+  "position": "middle",
+  "colours": "white",
+  "highlight_style": "none"
+ },
+ "text_overlays": [],
+ "cards_or_graphics": 0,
+ "framing": "crop",
+ "ending": {
+  "last_words": "Which proved he understands it now.",
+  "last_frame": "Player walking away after successfully shooting a gummy bear into a water bottle on the ground.",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "This guy is so good at basketball, he can never miss a shot. It got to a point where his shots were so crazy, people thought he was faking them. So to prove everyone wrong, he partnered with Red Bull to create even better trick shots. He started by making a shot through a wind turbine, even going as far as making a shot in a moving car. But the crazier they got, the more people thought the videos were fake. So to show everyone his true skill, Lethal Shooter decided he would use gummy bears to shoot them into a water bottle, which proved he understands it now.",
+ "retention_tricks": [
+  "rapid-fire sequence of increasingly extreme trick shots",
+  "high-production-value stunts (boat, helicopter, desert truck, wind turbine)"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": false,
+  "ends_on_payoff": true,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "Escalating stakes with increasingly impossible-looking basketball shots.",
+  "High-profile brand collaboration with Red Bull lending credibility to the stunts.",
+  "Humorous resolution where the pro shooter proves himself with a tiny gummy bear trick."
+ ],
+ "_meta": {
+  "source": "Xry25aRK_pE",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

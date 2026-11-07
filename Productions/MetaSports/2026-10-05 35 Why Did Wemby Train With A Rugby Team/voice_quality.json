@@ -1,0 +1,16 @@
+[
+ {
+  "name": "2026-10-05 35 Why Did Wemby Tr#0",
+  "dur": 19.69,
+  "voiced": 0.69,
+  "hnr": 8.1,
+  "jitter": 2.88,
+  "shimmer": 11.48,
+  "jumps": 0.0,
+  "clicks": 344.4,
+  "hf": 3.4,
+  "f0_med": 175.0,
+  "verdict": "PASS",
+  "problems": []
+ }
+]

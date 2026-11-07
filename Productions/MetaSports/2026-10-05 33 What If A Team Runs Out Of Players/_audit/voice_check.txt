@@ -1,0 +1,10 @@
+Voice check: REDO   (96 words, 23.0s, 250 wpm)
+  REDO  21.38s  script "a 100 19" but heard "119"
+  note   6.84s  script "kaman" but heard "cummins"
+  note   4.26s  "l a" heard as "la" (close; check the name)
+  note   7.84s  "farmar" heard as "farmer" (close; check the name)
+  note  10.06s  "sacre" heard as "sacred" (close; check the name)
+  note  20.88s  "l a" heard as "la" (close; check the name)
+  note  22.24s  "a 100 8" heard as "108" (close; check the name)
+  note   2.03s  dragging sentence (163 wpm): February twenty fourteen, Lakers at Cleveland.
+  heard: He fouled out, but the rule says he can't leave. February 2014, Lakers at Cleveland. LA had eight players available. Nick Young got hurt, Chris Cummins fouled out, Jordan Farmer cramped up. That left five. Then Robert Sacred picked up his sixth foul. But rule three says no team may be reduced to less than five players. So he stayed in and the Lakers were hit with a technical foul. Any more fouls, and it would cost another technical every time. He never fouled again, and LA won 119 to 108.

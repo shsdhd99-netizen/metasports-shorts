@@ -1,0 +1,382 @@
+{
+ "sources": {
+  "L": "src/lewy.mp4"
+ },
+ "shots": [
+  {
+   "clip": "L01",
+   "src": "L",
+   "at": 15.0,
+   "len": 2.4,
+   "x": 0.5,
+   "shot_zoom": 0.05,
+   "kind": "action",
+   "why": "Lewandowski's acrobatic volley, the fifth goal. Bayern 5-1 Wolfsburg, 22 Sept 2015 (highlights video on archive.org)"
+  },
+  {
+   "clip": "L02",
+   "src": "L",
+   "at": 71.4,
+   "len": 1.3,
+   "x": 0.45,
+   "kind": "face",
+   "anchor": "Back in 2015",
+   "why": "Robert Lewandowski close-up",
+   "zoom": 1.3,
+   "y": 0.05
+  },
+  {
+   "clip": "L03",
+   "src": "L",
+   "at": 29.5,
+   "len": 1.6,
+   "x": 0.5,
+   "kind": "action",
+   "anchor": "Bayern Munich were",
+   "why": "Wolfsburg players in green (Draxler 10)"
+  },
+  {
+   "clip": "L04",
+   "src": "L",
+   "at": 193.4,
+   "len": 1.4,
+   "x": 0.5,
+   "kind": "action",
+   "anchor": "and Pep Guardiola",
+   "why": "The Bayern bench"
+  },
+  {
+   "clip": "L05",
+   "src": "L",
+   "at": 81.6,
+   "len": 1.6,
+   "x": 0.5,
+   "kind": "face",
+   "anchor": "Robert Lewandowski on",
+   "why": "LEWANDOWSKI 9, back to camera"
+  },
+  {
+   "clip": "L06",
+   "src": "L",
+   "at": 42.0,
+   "len": 0.9,
+   "blurfit": true,
+   "kind": "action",
+   "anchor": "By half-time",
+   "why": "Wolfsburg's goal (Caligiuri), first half"
+  },
+  {
+   "clip": "L07",
+   "src": "L",
+   "at": 44.0,
+   "len": 1.9,
+   "zoom": 1.2,
+   "x": 0.5,
+   "kind": "action",
+   "anchor": "Bayern were losing",
+   "why": "The ball in Bayern's net: 0-1"
+  },
+  {
+   "clip": "L08",
+   "src": "L",
+   "at": 187.2,
+   "len": 1.9,
+   "x": 0.5,
+   "kind": "action",
+   "anchor": "So Guardiola sent",
+   "why": "Lewandowski with teammates"
+  },
+  {
+   "clip": "L09",
+   "src": "L",
+   "at": 63.5,
+   "len": 0.9,
+   "blurfit": true,
+   "kind": "action",
+   "anchor": "Six minutes later",
+   "why": "Bayern attack"
+  },
+  {
+   "clip": "L10",
+   "src": "L",
+   "at": 65.6,
+   "len": 2.2,
+   "zoom": 1.3,
+   "x": 0.5,
+   "kind": "action",
+   "anchor": "he slid in",
+   "why": "Goal 1 from close range"
+  },
+  {
+   "clip": "L11",
+   "src": "L",
+   "at": 84.0,
+   "len": 1.1,
+   "blurfit": true,
+   "kind": "action",
+   "anchor": "58 seconds after",
+   "why": "Build-up to goal 2"
+  },
+  {
+   "clip": "L12",
+   "src": "L",
+   "at": 86.4,
+   "len": 1.7,
+   "kind": "action",
+   "anchor": "he scored again",
+   "why": "Goal 2 from outside the box, keeper beaten",
+   "blurfit": true
+  },
+  {
+   "clip": "L13",
+   "src": "L",
+   "at": 110.0,
+   "len": 1.5,
+   "blurfit": true,
+   "kind": "action",
+   "anchor": "Two minutes later, he hit",
+   "why": "Goal 3 build-up: the shot hits the post"
+  },
+  {
+   "clip": "L14",
+   "src": "L",
+   "at": 120.4,
+   "len": 1.4,
+   "zoom": 1.3,
+   "x": 0.5,
+   "kind": "action",
+   "anchor": "the keeper saved",
+   "why": "The keeper saves the rebound"
+  },
+  {
+   "clip": "L15",
+   "src": "L",
+   "at": 124.4,
+   "len": 1.9,
+   "zoom": 1.2,
+   "x": 0.5,
+   "kind": "action",
+   "anchor": "and Lewandowski smashed",
+   "why": "Goal 3 goes in (behind-goal angle)"
+  },
+  {
+   "clip": "L16",
+   "src": "L",
+   "at": 150.0,
+   "len": 2.3,
+   "x": 0.5,
+   "kind": "face",
+   "anchor": "That was the fastest",
+   "why": "Bayern players celebrate"
+  },
+  {
+   "clip": "L17",
+   "stock": 32808,
+   "at": 1.0,
+   "len": 1.5,
+   "kind": "action",
+   "anchor": "three minutes and 22",
+   "why": "A stopwatch (stock, Mixkit)"
+  },
+  {
+   "clip": "L18",
+   "src": "L",
+   "at": 185.4,
+   "len": 1.1,
+   "x": 0.4,
+   "kind": "face",
+   "anchor": "But he wasn't done",
+   "why": "Lewandowski points to the crowd"
+  },
+  {
+   "clip": "L19",
+   "src": "L",
+   "at": 136.0,
+   "len": 1.8,
+   "zoom": 1.2,
+   "x": 0.5,
+   "kind": "action",
+   "anchor": "Two minutes later, he volleyed",
+   "why": "Goal 4, a volley"
+  },
+  {
+   "clip": "L20",
+   "src": "L",
+   "at": 164.6,
+   "len": 2.1,
+   "zoom": 1.2,
+   "x": 0.5,
+   "kind": "action",
+   "anchor": "Then came a fifth",
+   "why": "Goal 5, the acrobatic volley (match angle)"
+  },
+  {
+   "clip": "L21",
+   "src": "L",
+   "at": 75.2,
+   "len": 1.6,
+   "x": 0.5,
+   "kind": "face",
+   "anchor": "Lewandowski said that",
+   "why": "Lewandowski turns away after a goal",
+   "zoom": 1.3,
+   "y": 0.05
+  },
+  {
+   "clip": "L22",
+   "stock": 14190,
+   "at": 1.0,
+   "len": 2.1,
+   "kind": "action",
+   "anchor": "he looked up",
+   "why": "A stadium (stock, Mixkit)"
+  },
+  {
+   "clip": "L23",
+   "still": "assets/card_goals.jpg",
+   "len": 2.6,
+   "kind": "card",
+   "anchor": "Five goals in eight",
+   "why": "Card: the five goal minutes, 51-60 (bundesliga.com)"
+  },
+  {
+   "clip": "L24",
+   "src": "L",
+   "at": 196.6,
+   "len": 2.4,
+   "x": 0.5,
+   "kind": "face",
+   "anchor": "Guardiola said that",
+   "why": "Guardiola smiling, hands together"
+  },
+  {
+   "clip": "L25",
+   "src": "L",
+   "at": 191.0,
+   "len": 1.9,
+   "x": 0.5,
+   "kind": "action",
+   "anchor": "had he ever seen",
+   "why": "Bayern players celebrate together"
+  },
+  {
+   "clip": "L26",
+   "src": "L",
+   "at": 205.0,
+   "len": 1.7,
+   "blurfit": true,
+   "kind": "action",
+   "anchor": "And it almost",
+   "why": "Bayern attack later in the game"
+  },
+  {
+   "clip": "L27",
+   "src": "L",
+   "at": 210.5,
+   "len": 1.1,
+   "blurfit": true,
+   "kind": "action",
+   "anchor": "Later in the game",
+   "why": "Lewandowski shoots"
+  },
+  {
+   "clip": "L28",
+   "src": "L",
+   "at": 213.0,
+   "len": 2.0,
+   "zoom": 1.2,
+   "x": 0.5,
+   "kind": "action",
+   "anchor": "Wolfsburg cleared",
+   "why": "Wolfsburg clear one off the line"
+  },
+  {
+   "clip": "L29",
+   "still": "assets/card_six.jpg",
+   "len": 3.8,
+   "kind": "card",
+   "anchor": "If it had gone",
+   "why": "Card: Bundesliga record, six goals, Dieter Müller 1977"
+  },
+  {
+   "clip": "L29b",
+   "src": "L",
+   "at": 100.0,
+   "len": 1.6,
+   "blurfit": true,
+   "kind": "action",
+   "anchor": "set back in",
+   "why": "The Allianz Arena crowd (wide)"
+  },
+  {
+   "clip": "L30",
+   "src": "L",
+   "at": 57.6,
+   "len": 1.4,
+   "x": 0.5,
+   "kind": "action",
+   "anchor": "Bayern won",
+   "why": "Bayern players celebrate"
+  },
+  {
+   "clip": "L31",
+   "at": 175.0,
+   "len": 2.4,
+   "kind": "action",
+   "anchor": "But here's the",
+   "why": "Bayern on the ball (wide)",
+   "src": "L",
+   "blurfit": true
+  },
+  {
+   "clip": "L32",
+   "still": "assets/card_rec0.jpg",
+   "len": 3.1,
+   "kind": "card",
+   "anchor": "Guinness gave",
+   "why": "Card: four Guinness World Records (guinnessworldrecords.com)"
+  },
+  {
+   "clip": "L32b",
+   "still": "assets/card_rec1.jpg",
+   "len": 1.1,
+   "kind": "card",
+   "anchor": "the fastest hat-trick",
+   "why": "Card: fastest hat-trick highlighted"
+  },
+  {
+   "clip": "L33",
+   "still": "assets/card_rec2.jpg",
+   "len": 1.2,
+   "kind": "card",
+   "anchor": "the fastest four",
+   "why": "Card: fastest four goals highlighted"
+  },
+  {
+   "clip": "L34",
+   "still": "assets/card_rec3.jpg",
+   "len": 1.2,
+   "kind": "card",
+   "anchor": "the fastest five",
+   "why": "Card: fastest five goals highlighted"
+  },
+  {
+   "clip": "L35",
+   "still": "assets/card_rec4.jpg",
+   "len": 2.9,
+   "kind": "card",
+   "anchor": "and the most goals",
+   "why": "Card: most goals by a substitute highlighted"
+  },
+  {
+   "clip": "L36",
+   "src": "L",
+   "at": 145.6,
+   "len": 2.4,
+   "x": 0.5,
+   "kind": "face",
+   "anchor": "All from a",
+   "why": "Lewandowski celebrating, close"
+  }
+ ]
+}

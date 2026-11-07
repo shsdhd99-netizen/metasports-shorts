@@ -1,0 +1,527 @@
+[
+ {
+  "word": "The",
+  "start": 0.0,
+  "end": 0.14
+ },
+ {
+  "word": "NBA",
+  "start": 0.194,
+  "end": 0.474
+ },
+ {
+  "word": "just",
+  "start": 0.549,
+  "end": 0.721
+ },
+ {
+  "word": "named",
+  "start": 0.764,
+  "end": 0.958
+ },
+ {
+  "word": "four",
+  "start": 1.011,
+  "end": 1.195
+ },
+ {
+  "word": "stars",
+  "start": 1.249,
+  "end": 1.496
+ },
+ {
+  "word": "in",
+  "start": 1.529,
+  "end": 1.582
+ },
+ {
+  "word": "one",
+  "start": 1.636,
+  "end": 1.754
+ },
+ {
+  "word": "video",
+  "start": 1.776,
+  "end": 2.012
+ },
+ {
+  "word": "about",
+  "start": 2.066,
+  "end": 2.281
+ },
+ {
+  "word": "one",
+  "start": 2.346,
+  "end": 2.497
+ },
+ {
+  "word": "illegal",
+  "start": 2.519,
+  "end": 2.809
+ },
+ {
+  "word": "move.",
+  "start": 2.862,
+  "end": 3.217
+ },
+ {
+  "word": "Jaylen",
+  "start": 3.325,
+  "end": 3.627
+ },
+ {
+  "word": "Brown.",
+  "start": 3.67,
+  "end": 4.015
+ },
+ {
+  "word": "Paolo",
+  "start": 4.079,
+  "end": 4.401
+ },
+ {
+  "word": "Banchero.",
+  "start": 4.456,
+  "end": 5.155
+ },
+ {
+  "word": "Donovan",
+  "start": 5.252,
+  "end": 5.628
+ },
+ {
+  "word": "Mitchell.",
+  "start": 5.671,
+  "end": 6.037
+ },
+ {
+  "word": "RJ",
+  "start": 6.091,
+  "end": 6.328
+ },
+ {
+  "word": "Barrett.",
+  "start": 6.403,
+  "end": 6.737
+ },
+ {
+  "word": "The",
+  "start": 6.769,
+  "end": 6.877
+ },
+ {
+  "word": "league",
+  "start": 6.931,
+  "end": 7.146
+ },
+ {
+  "word": "says",
+  "start": 7.167,
+  "end": 7.351
+ },
+ {
+  "word": "all",
+  "start": 7.404,
+  "end": 7.555
+ },
+ {
+  "word": "four",
+  "start": 7.608,
+  "end": 7.781
+ },
+ {
+  "word": "committed",
+  "start": 7.835,
+  "end": 8.114
+ },
+ {
+  "word": "offensive",
+  "start": 8.136,
+  "end": 8.491
+ },
+ {
+  "word": "fouls.",
+  "start": 8.512,
+  "end": 8.911
+ },
+ {
+  "word": "But",
+  "start": 8.964,
+  "end": 9.104
+ },
+ {
+  "word": "the",
+  "start": 9.137,
+  "end": 9.202
+ },
+ {
+  "word": "same",
+  "start": 9.256,
+  "end": 9.449
+ },
+ {
+  "word": "video",
+  "start": 9.481,
+  "end": 9.707
+ },
+ {
+  "word": "shows",
+  "start": 9.761,
+  "end": 9.987
+ },
+ {
+  "word": "what's",
+  "start": 10.019,
+  "end": 10.181
+ },
+ {
+  "word": "still",
+  "start": 10.202,
+  "end": 10.407
+ },
+ {
+  "word": "legal.",
+  "start": 10.461,
+  "end": 10.816
+ },
+ {
+  "word": "The",
+  "start": 10.891,
+  "end": 10.998
+ },
+ {
+  "word": "move",
+  "start": 11.052,
+  "end": 11.235
+ },
+ {
+  "word": "is",
+  "start": 11.267,
+  "end": 11.332
+ },
+ {
+  "word": "the",
+  "start": 11.375,
+  "end": 11.439
+ },
+ {
+  "word": "off-arm",
+  "start": 11.493,
+  "end": 11.806
+ },
+ {
+  "word": "push-off,",
+  "start": 11.848,
+  "end": 12.301
+ },
+ {
+  "word": "using",
+  "start": 12.343,
+  "end": 12.548
+ },
+ {
+  "word": "your",
+  "start": 12.58,
+  "end": 12.677
+ },
+ {
+  "word": "free",
+  "start": 12.72,
+  "end": 12.882
+ },
+ {
+  "word": "arm",
+  "start": 12.914,
+  "end": 13.043
+ },
+ {
+  "word": "to",
+  "start": 13.086,
+  "end": 13.129
+ },
+ {
+  "word": "shove",
+  "start": 13.183,
+  "end": 13.355
+ },
+ {
+  "word": "a",
+  "start": 13.387,
+  "end": 13.409
+ },
+ {
+  "word": "defender",
+  "start": 13.452,
+  "end": 13.807
+ },
+ {
+  "word": "and",
+  "start": 13.861,
+  "end": 13.937
+ },
+ {
+  "word": "make",
+  "start": 13.979,
+  "end": 14.119
+ },
+ {
+  "word": "space",
+  "start": 14.152,
+  "end": 14.388
+ },
+ {
+  "word": "for",
+  "start": 14.409,
+  "end": 14.507
+ },
+ {
+  "word": "a",
+  "start": 14.549,
+  "end": 14.572
+ },
+ {
+  "word": "shot.",
+  "start": 14.614,
+  "end": 14.904
+ },
+ {
+  "word": "CJ",
+  "start": 14.959,
+  "end": 15.238
+ },
+ {
+  "word": "McCollum",
+  "start": 15.314,
+  "end": 15.755
+ },
+ {
+  "word": "firmed",
+  "start": 15.809,
+  "end": 16.024
+ },
+ {
+  "word": "up,",
+  "start": 16.067,
+  "end": 16.197
+ },
+ {
+  "word": "and",
+  "start": 16.218,
+  "end": 16.304
+ },
+ {
+  "word": "Paul",
+  "start": 16.347,
+  "end": 16.508
+ },
+ {
+  "word": "George",
+  "start": 16.562,
+  "end": 16.82
+ },
+ {
+  "word": "only",
+  "start": 16.863,
+  "end": 17.057
+ },
+ {
+  "word": "felt",
+  "start": 17.1,
+  "end": 17.262
+ },
+ {
+  "word": "the",
+  "start": 17.294,
+  "end": 17.359
+ },
+ {
+  "word": "defender.",
+  "start": 17.402,
+  "end": 17.832
+ },
+ {
+  "word": "No",
+  "start": 17.854,
+  "end": 17.972
+ },
+ {
+  "word": "force,",
+  "start": 18.036,
+  "end": 18.327
+ },
+ {
+  "word": "no",
+  "start": 18.349,
+  "end": 18.445
+ },
+ {
+  "word": "full",
+  "start": 18.499,
+  "end": 18.65
+ },
+ {
+  "word": "extension.",
+  "start": 18.693,
+  "end": 19.145
+ },
+ {
+  "word": "Then",
+  "start": 19.178,
+  "end": 19.306
+ },
+ {
+  "word": "there's",
+  "start": 19.328,
+  "end": 19.5
+ },
+ {
+  "word": "Jalen",
+  "start": 19.533,
+  "end": 19.759
+ },
+ {
+  "word": "Suggs.",
+  "start": 19.813,
+  "end": 20.156
+ },
+ {
+  "word": "He",
+  "start": 20.178,
+  "end": 20.264
+ },
+ {
+  "word": "was",
+  "start": 20.308,
+  "end": 20.404
+ },
+ {
+  "word": "called",
+  "start": 20.458,
+  "end": 20.651
+ },
+ {
+  "word": "for",
+  "start": 20.673,
+  "end": 20.759
+ },
+ {
+  "word": "an",
+  "start": 20.791,
+  "end": 20.845
+ },
+ {
+  "word": "offensive",
+  "start": 20.878,
+  "end": 21.211
+ },
+ {
+  "word": "foul,",
+  "start": 21.244,
+  "end": 21.491
+ },
+ {
+  "word": "and",
+  "start": 21.513,
+  "end": 21.609
+ },
+ {
+  "word": "the",
+  "start": 21.641,
+  "end": 21.706
+ },
+ {
+  "word": "NBA",
+  "start": 21.76,
+  "end": 22.018
+ },
+ {
+  "word": "now",
+  "start": 22.083,
+  "end": 22.223
+ },
+ {
+  "word": "says",
+  "start": 22.276,
+  "end": 22.46
+ },
+ {
+  "word": "it",
+  "start": 22.514,
+  "end": 22.567
+ },
+ {
+  "word": "should",
+  "start": 22.599,
+  "end": 22.739
+ },
+ {
+  "word": "have",
+  "start": 22.761,
+  "end": 22.846
+ },
+ {
+  "word": "been",
+  "start": 22.869,
+  "end": 22.986
+ },
+ {
+  "word": "a",
+  "start": 23.009,
+  "end": 23.03
+ },
+ {
+  "word": "no-call.",
+  "start": 23.084,
+  "end": 23.46
+ },
+ {
+  "word": "So",
+  "start": 23.492,
+  "end": 23.6
+ },
+ {
+  "word": "the",
+  "start": 23.644,
+  "end": 23.708
+ },
+ {
+  "word": "whole",
+  "start": 23.74,
+  "end": 23.88
+ },
+ {
+  "word": "rule",
+  "start": 23.901,
+  "end": 24.052
+ },
+ {
+  "word": "comes",
+  "start": 24.074,
+  "end": 24.246
+ },
+ {
+  "word": "down",
+  "start": 24.279,
+  "end": 24.419
+ },
+ {
+  "word": "to",
+  "start": 24.45,
+  "end": 24.504
+ },
+ {
+  "word": "one",
+  "start": 24.569,
+  "end": 24.698
+ },
+ {
+  "word": "word:",
+  "start": 24.73,
+  "end": 24.967
+ },
+ {
+  "word": "force.",
+  "start": 25.021,
+  "end": 25.44
+ }
+]

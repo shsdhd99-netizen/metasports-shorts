@@ -1,0 +1,412 @@
+[
+ {
+  "word": "Philly",
+  "start": 0.0,
+  "end": 0.287
+ },
+ {
+  "word": "hasn't",
+  "start": 0.331,
+  "end": 0.552
+ },
+ {
+  "word": "reached",
+  "start": 0.585,
+  "end": 0.773
+ },
+ {
+  "word": "a",
+  "start": 0.807,
+  "end": 0.828
+ },
+ {
+  "word": "conference",
+  "start": 0.884,
+  "end": 1.215
+ },
+ {
+  "word": "final",
+  "start": 1.236,
+  "end": 1.447
+ },
+ {
+  "word": "since",
+  "start": 1.49,
+  "end": 1.667
+ },
+ {
+  "word": "two",
+  "start": 1.689,
+  "end": 1.811
+ },
+ {
+  "word": "thousand",
+  "start": 1.866,
+  "end": 2.165
+ },
+ {
+  "word": "one.",
+  "start": 2.23,
+  "end": 2.451
+ },
+ {
+  "word": "LeBron",
+  "start": 2.506,
+  "end": 2.805
+ },
+ {
+  "word": "James",
+  "start": 2.86,
+  "end": 3.081
+ },
+ {
+  "word": "was",
+  "start": 3.114,
+  "end": 3.214
+ },
+ {
+  "word": "sixteen.",
+  "start": 3.269,
+  "end": 3.744
+ },
+ {
+  "word": "Since",
+  "start": 3.765,
+  "end": 3.998
+ },
+ {
+  "word": "then,",
+  "start": 4.019,
+  "end": 4.174
+ },
+ {
+  "word": "they've",
+  "start": 4.196,
+  "end": 4.395
+ },
+ {
+  "word": "lost",
+  "start": 4.428,
+  "end": 4.616
+ },
+ {
+  "word": "in",
+  "start": 4.649,
+  "end": 4.693
+ },
+ {
+  "word": "round",
+  "start": 4.737,
+  "end": 4.903
+ },
+ {
+  "word": "two",
+  "start": 4.947,
+  "end": 5.102
+ },
+ {
+  "word": "eight",
+  "start": 5.179,
+  "end": 5.366
+ },
+ {
+  "word": "times.",
+  "start": 5.399,
+  "end": 5.775
+ },
+ {
+  "word": "The",
+  "start": 5.797,
+  "end": 5.885
+ },
+ {
+  "word": "last",
+  "start": 5.941,
+  "end": 6.129
+ },
+ {
+  "word": "was",
+  "start": 6.173,
+  "end": 6.272
+ },
+ {
+  "word": "this",
+  "start": 6.316,
+  "end": 6.46
+ },
+ {
+  "word": "May:",
+  "start": 6.526,
+  "end": 6.769
+ },
+ {
+  "word": "the",
+  "start": 6.813,
+  "end": 6.901
+ },
+ {
+  "word": "Knicks",
+  "start": 6.946,
+  "end": 7.133
+ },
+ {
+  "word": "swept",
+  "start": 7.155,
+  "end": 7.409
+ },
+ {
+  "word": "them,",
+  "start": 7.442,
+  "end": 7.608
+ },
+ {
+  "word": "and",
+  "start": 7.63,
+  "end": 7.718
+ },
+ {
+  "word": "game",
+  "start": 7.773,
+  "end": 7.962
+ },
+ {
+  "word": "one",
+  "start": 8.005,
+  "end": 8.149
+ },
+ {
+  "word": "was",
+  "start": 8.182,
+  "end": 8.281
+ },
+ {
+  "word": "a",
+  "start": 8.337,
+  "end": 8.359
+ },
+ {
+  "word": "thirty-nine",
+  "start": 8.414,
+  "end": 8.834
+ },
+ {
+  "word": "point",
+  "start": 8.867,
+  "end": 9.055
+ },
+ {
+  "word": "blowout.",
+  "start": 9.088,
+  "end": 9.507
+ },
+ {
+  "word": "Then",
+  "start": 9.529,
+  "end": 9.662
+ },
+ {
+  "word": "LeBron",
+  "start": 9.717,
+  "end": 9.993
+ },
+ {
+  "word": "signed",
+  "start": 10.048,
+  "end": 10.247
+ },
+ {
+  "word": "at",
+  "start": 10.281,
+  "end": 10.336
+ },
+ {
+  "word": "forty-one,",
+  "start": 10.379,
+  "end": 10.822
+ },
+ {
+  "word": "next",
+  "start": 10.854,
+  "end": 11.053
+ },
+ {
+  "word": "to",
+  "start": 11.076,
+  "end": 11.131
+ },
+ {
+  "word": "Embiid",
+  "start": 11.196,
+  "end": 11.484
+ },
+ {
+  "word": "and",
+  "start": 11.539,
+  "end": 11.617
+ },
+ {
+  "word": "Maxey.",
+  "start": 11.672,
+  "end": 12.18
+ },
+ {
+  "word": "Embiid",
+  "start": 12.212,
+  "end": 12.511
+ },
+ {
+  "word": "has",
+  "start": 12.555,
+  "end": 12.654
+ },
+ {
+  "word": "missed",
+  "start": 12.71,
+  "end": 12.897
+ },
+ {
+  "word": "more",
+  "start": 12.93,
+  "end": 13.063
+ },
+ {
+  "word": "than",
+  "start": 13.085,
+  "end": 13.196
+ },
+ {
+  "word": "half",
+  "start": 13.251,
+  "end": 13.416
+ },
+ {
+  "word": "their",
+  "start": 13.46,
+  "end": 13.582
+ },
+ {
+  "word": "games",
+  "start": 13.615,
+  "end": 13.825
+ },
+ {
+  "word": "the",
+  "start": 13.869,
+  "end": 13.936
+ },
+ {
+  "word": "last",
+  "start": 13.979,
+  "end": 14.134
+ },
+ {
+  "word": "three",
+  "start": 14.167,
+  "end": 14.355
+ },
+ {
+  "word": "years.",
+  "start": 14.399,
+  "end": 14.708
+ },
+ {
+  "word": "Philadelphia",
+  "start": 14.741,
+  "end": 15.249
+ },
+ {
+  "word": "hasn't",
+  "start": 15.304,
+  "end": 15.548
+ },
+ {
+  "word": "won",
+  "start": 15.58,
+  "end": 15.691
+ },
+ {
+  "word": "a",
+  "start": 15.735,
+  "end": 15.757
+ },
+ {
+  "word": "title",
+  "start": 15.802,
+  "end": 16.044
+ },
+ {
+  "word": "since",
+  "start": 16.078,
+  "end": 16.276
+ },
+ {
+  "word": "nineteen",
+  "start": 16.32,
+  "end": 16.662
+ },
+ {
+  "word": "eighty-three.",
+  "start": 16.718,
+  "end": 17.237
+ },
+ {
+  "word": "At",
+  "start": 17.27,
+  "end": 17.392
+ },
+ {
+  "word": "media",
+  "start": 17.447,
+  "end": 17.69
+ },
+ {
+  "word": "day,",
+  "start": 17.745,
+  "end": 17.932
+ },
+ {
+  "word": "LeBron",
+  "start": 17.977,
+  "end": 18.275
+ },
+ {
+  "word": "named",
+  "start": 18.33,
+  "end": 18.507
+ },
+ {
+  "word": "the",
+  "start": 18.529,
+  "end": 18.595
+ },
+ {
+  "word": "one",
+  "start": 18.65,
+  "end": 18.794
+ },
+ {
+  "word": "round",
+  "start": 18.827,
+  "end": 19.015
+ },
+ {
+  "word": "he",
+  "start": 19.07,
+  "end": 19.125
+ },
+ {
+  "word": "won't",
+  "start": 19.18,
+  "end": 19.357
+ },
+ {
+  "word": "lose",
+  "start": 19.402,
+  "end": 19.589
+ },
+ {
+  "word": "in.",
+  "start": 19.633,
+  "end": 19.92
+ }
+]

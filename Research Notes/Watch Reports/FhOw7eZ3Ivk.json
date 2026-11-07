@@ -1,0 +1,277 @@
+{
+ "length_s": 76.25,
+ "topic": "An overview of chief scout Sven Mislintat's incredible talent scouting record for Borussia Dortmund.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "Football clubs that are the best at scouting players!",
+  "first_frame": "Close-up action shot of football players grappling during a match.",
+  "on_screen_text_0_3s": "Football clubs that are the BEST at SCOUTING players!",
+  "shots_in_first_3s": 2
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 2.75,
+   "shows": "Football players grappling in an action clip.",
+   "kind": "action"
+  },
+  {
+   "start_s": 2.75,
+   "end_s": 5.75,
+   "shows": "Photo of Sven Mislintat over a grid background.",
+   "kind": "still"
+  },
+  {
+   "start_s": 5.75,
+   "end_s": 7.25,
+   "shows": "Sven Mislintat looking to the side at night.",
+   "kind": "face"
+  },
+  {
+   "start_s": 7.25,
+   "end_s": 9.25,
+   "shows": "Feet playing street football at night.",
+   "kind": "action"
+  },
+  {
+   "start_s": 9.25,
+   "end_s": 12.0,
+   "shows": "CRT TV playing a match clip of Lech Poznan.",
+   "kind": "stock"
+  },
+  {
+   "start_s": 12.0,
+   "end_s": 13.0,
+   "shows": "Sven Mislintat walking inside a stadium.",
+   "kind": "action"
+  },
+  {
+   "start_s": 13.0,
+   "end_s": 15.5,
+   "shows": "Young Robert Lewandowski holding a Lech Poznan shirt.",
+   "kind": "still"
+  },
+  {
+   "start_s": 15.5,
+   "end_s": 16.5,
+   "shows": "Young Lewandowski giving an interview.",
+   "kind": "face"
+  },
+  {
+   "start_s": 16.5,
+   "end_s": 19.25,
+   "shows": "Lewandowski celebrating a goal for Lech Poznan.",
+   "kind": "action"
+  },
+  {
+   "start_s": 19.25,
+   "end_s": 23.0,
+   "shows": "Lewandowski and Sven Mislintat side-by-side graphic.",
+   "kind": "still"
+  },
+  {
+   "start_s": 23.0,
+   "end_s": 24.75,
+   "shows": "Retro TV clip of Lewandowski speaking.",
+   "kind": "stock"
+  },
+  {
+   "start_s": 24.75,
+   "end_s": 27.75,
+   "shows": "Lewandowski dribbling past a goalkeeper.",
+   "kind": "action"
+  },
+  {
+   "start_s": 27.75,
+   "end_s": 30.5,
+   "shows": "Lewandowski celebrating in blue jersey.",
+   "kind": "action"
+  },
+  {
+   "start_s": 30.5,
+   "end_s": 32.25,
+   "shows": "Retro TV clip of young Lewandowski signing a document.",
+   "kind": "stock"
+  },
+  {
+   "start_s": 32.25,
+   "end_s": 35.0,
+   "shows": "Lewandowski presented in Dortmund kit.",
+   "kind": "still"
+  },
+  {
+   "start_s": 35.0,
+   "end_s": 37.25,
+   "shows": "Barack Obama speaking and gesturing meme clip.",
+   "kind": "face"
+  },
+  {
+   "start_s": 37.25,
+   "end_s": 40.25,
+   "shows": "Portrait of Michael Zorc.",
+   "kind": "still"
+  },
+  {
+   "start_s": 40.25,
+   "end_s": 42.5,
+   "shows": "John Travolta looking around confused (Pulp Fiction meme).",
+   "kind": "face"
+  },
+  {
+   "start_s": 42.5,
+   "end_s": 48.25,
+   "shows": "Lewandowski signing autographs and greeting fans at Dortmund.",
+   "kind": "action"
+  },
+  {
+   "start_s": 48.25,
+   "end_s": 51.0,
+   "shows": "Sven Mislintat looking upwards outdoors.",
+   "kind": "face"
+  },
+  {
+   "start_s": 51.0,
+   "end_s": 53.75,
+   "shows": "Young Ousmane Dembele portrait in Rennes kit.",
+   "kind": "still"
+  },
+  {
+   "start_s": 53.75,
+   "end_s": 56.0,
+   "shows": "Dembele celebrating with a knee slide for Rennes.",
+   "kind": "action"
+  },
+  {
+   "start_s": 56.0,
+   "end_s": 58.75,
+   "shows": "Dembele in Dortmund kit portrait.",
+   "kind": "still"
+  },
+  {
+   "start_s": 58.75,
+   "end_s": 61.0,
+   "shows": "Retro TV displaying Dembele dribbling for Dortmund.",
+   "kind": "stock"
+  },
+  {
+   "start_s": 61.0,
+   "end_s": 62.5,
+   "shows": "IShowSpeed looking around meme clip.",
+   "kind": "face"
+  },
+  {
+   "start_s": 62.5,
+   "end_s": 66.0,
+   "shows": "Lewandowski celebrating for Bayern Munich.",
+   "kind": "action"
+  },
+  {
+   "start_s": 66.0,
+   "end_s": 70.25,
+   "shows": "Dembele holding up Barcelona jersey #11.",
+   "kind": "still"
+  },
+  {
+   "start_s": 70.25,
+   "end_s": 72.0,
+   "shows": "Aubameyang and Sven Mislintat photo graphic.",
+   "kind": "still"
+  },
+  {
+   "start_s": 72.0,
+   "end_s": 73.75,
+   "shows": "Jadon Sancho and Sven Mislintat photo graphic.",
+   "kind": "still"
+  },
+  {
+   "start_s": 73.75,
+   "end_s": 75.0,
+   "shows": "Jude Bellingham and Sven Mislintat photo graphic.",
+   "kind": "still"
+  },
+  {
+   "start_s": 75.0,
+   "end_s": 76.25,
+   "shows": "Erling Haaland and Sven Mislintat photo graphic.",
+   "kind": "still"
+  }
+ ],
+ "shot_count": 31,
+ "average_shot_s": 2.46,
+ "longest_shot_s": 5.75,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 165,
+  "tone": "energetic, narrative, informative",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "upbeat hip-hop background beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 2,
+  "case": "sentence",
+  "position": "middle",
+  "colours": "white",
+  "highlight_style": "none"
+ },
+ "text_overlays": [
+  {
+   "at_s": 0.0,
+   "text": "Football clubs that are the BEST at SCOUTING players!"
+  },
+  {
+   "at_s": 4.75,
+   "text": "Sven Mislintat"
+  },
+  {
+   "at_s": 38.75,
+   "text": "Michael Zorc"
+  },
+  {
+   "at_s": 51.25,
+   "text": "Ousmane Dembele"
+  }
+ ],
+ "cards_or_graphics": 0,
+ "framing": "crop",
+ "ending": {
+  "last_words": "and Haaland for 20.",
+  "last_frame": "Photo graphic of Erling Haaland alongside Sven Mislintat.",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "Football clubs that are the best at scouting players! Back in 2010, a scout named Sven Mislintat traveled to Poland to watch a little known striker playing for Lech Poznań in a league that almost nobody in European football cared about, and while he was there he spotted a forward named Robert Lewandowski who was scoring goals at a rate that made no sense for the level he was playing at, but that trip quietly set up one of the biggest transfer heists in football history. When the summer window came around, Lewandowski was not a name any major club was fighting over, and even though every top side in Germany had the chance to sign him, most passed without a second thought, and Dortmund took him for just €4.5 million. Even their own fans had no idea who he was, and when sporting director Michael Zorc announced the signing, the reaction was basically 'who did we just buy?' But grabbing a future world-class striker for that price was only half of what made Mislintat's eyes so ridiculous. Three years later, the same scout watched a teenage French winger named Ousmane Dembele tearing defenses apart at Rennes, and even though he had barely played one full season, Dortmund signed him for 15 million and watched him become the most exciting young player in Europe within 12 months. So here's the payoff: Lewandowski left and became one of the greatest strikers who ever lived, Dembele was sold to Barcelona for 125 million after one season, and that same eye brought in Aubameyang for 13 million, Sancho for 8, Bellingham for 23, and Haaland for 20.",
+ "retention_tricks": [
+  "pattern interrupts",
+  "reveals",
+  "zooms",
+  "pop-culture meme inserts"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "High-energy AI narration highlighting astonishing financial ROI on football transfers.",
+  "Clever use of popular meme reaction clips (Barack Obama, John Travolta, IShowSpeed) to maintain engagement.",
+  "Rapid succession listing of world-class talents (Lewandowski, Dembele, Aubameyang, Sancho, Bellingham, Haaland) builds an impressive narrative climax."
+ ],
+ "_meta": {
+  "source": "https://www.youtube.com/shorts/FhOw7eZ3Ivk",
+  "model": "gemini-3.6-flash",
+  "fps": 4.0,
+  "watched": "2026-11-06",
+  "tier": "[S] model-observed, not measured"
+ }
+}

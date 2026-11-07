@@ -1,3 +1,90 @@
+<!-- AUTO:STATUS -->
+## LIVE STATUS (auto, Sat Nov 07, 10:11 AM ET; `python Tools/roadmap.py` rewrites this block daily)
+
+The plan below it is history (Sep 2026). What runs the channels now: THE RULES (Nov 7) in `MetaSports - Playbook.md`, the auto queue (`Research Notes/Auto Queue.md`), the lab (`Research Notes/Lab/Scoreboard.md`) and the QA board (`Research Notes/QA Board.md`).
+
+### MetaSports (NBA) (data to 2026-11-04)
+
+| Now | |
+|---|---|
+| Subscribers | 650 (+5.0 a day, 28-day average) |
+| Views a day | 23,416 (7-day) vs 15,041 (28-day): up 56% |
+| Views, last 90 days | 518,353 |
+
+| Milestone | Needs | Now | Reached at today's pace (7-day) |
+|---|---|---|---|
+| 500 subscribers | 500 | 650 | reached |
+| 1,000 subscribers | 1,000 | 650 | Jan 17, 2027 |
+| Fan funding (3M Shorts views / 90 days) | 33,333 a day | 23,416 a day (70%) | needs 1.4x the current pace |
+| Partner Program today (10M / 90 days) | 111,111 a day | 23,416 a day (21%) | needs 4.7x the current pace |
+| New applicants from Feb 1, 2027 (20M / 90 days) | 222,222 a day | 23,416 a day (11%) | needs 9.5x the current pace |
+
+### MetaSports FC (data to 2026-11-04)
+
+| Now | |
+|---|---|
+| Subscribers | 183 (+5.4 a day, 28-day average) |
+| Views a day | 8,249 (7-day) vs 5,119 (28-day): up 61% |
+| Views, last 90 days | 143,331 |
+
+| Milestone | Needs | Now | Reached at today's pace (7-day) |
+|---|---|---|---|
+| 500 subscribers | 500 | 183 | Jan 05, 2027 |
+| 1,000 subscribers | 1,000 | 183 | Apr 09, 2027 |
+| Fan funding (3M Shorts views / 90 days) | 33,333 a day | 8,249 a day (25%) | needs 4.0x the current pace |
+| Partner Program today (10M / 90 days) | 111,111 a day | 8,249 a day (7%) | needs 13.5x the current pace |
+| New applicants from Feb 1, 2027 (20M / 90 days) | 222,222 a day | 8,249 a day (4%) | needs 26.9x the current pace |
+
+### The next 7 days (auto queue)
+
+| Slot (ET) | Ch | What | Short | Score |
+|---|---|---|---|---|
+| Sat Nov 07 03:30 PM | nba | PINNED | Luka Has Scored 40 In Six Of His Last Seven Games | 45 |
+| Sun Nov 08 07:15 AM | nba | EMPTY | - | - |
+| Sun Nov 08 03:30 PM | nba | MOMENT | last night's best moment | - |
+| Sun Nov 08 12:00 PM | fc | ON YOUTUBE | The player who moved two Coca-Cola bottles at the Euros | - |
+| Mon Nov 09 07:15 AM | nba | IDEA | List 1: who has missed the most free throws in NBA hist | 46 |
+| Mon Nov 09 12:00 PM | fc | BUILD | The Goalkeeper Who Beat A Team That Practised 1000 Pena | 77 |
+| Mon Nov 09 06:00 PM | fc | BUILD | The Goalkeeper Who Found Out Chelsea's Secret Penalty P | 77 |
+| Tue Nov 10 07:15 AM | nba | IDEA | Curry passes DeRozan (16th all-time scoring), when it h | 46 |
+| Tue Nov 10 03:30 PM | nba | MOMENT | last night's best moment | - |
+| Tue Nov 10 12:00 PM | fc | BUILD | The Baby Messi Bathed Beat Him In A World Cup Final | 43 |
+| Wed Nov 11 07:15 AM | nba | ON YOUTUBE | The NBA Legend Who Made Up An Insult 😳 #nba | - |
+| Wed Nov 11 12:00 PM | fc | BUILD (filler) | The Hull City Fan Who Walked Home From Chile | 43 |
+| Wed Nov 11 06:00 PM | fc | BUILD (filler) | The Goalkeeper Who Saved A Shot With A Scorpion Kick | 43 |
+| Thu Nov 12 07:15 AM | nba | IDEA | LeBron passes Kidd for 3rd all-time assists, when it ha | 46 |
+| Thu Nov 12 03:30 PM | nba | MOMENT | last night's best moment | - |
+| Thu Nov 12 12:00 PM | fc | BUILD (filler) | The Goalkeeper Who Scored More Goals Than Most Strikers | 43 |
+| Fri Nov 13 07:15 AM | nba | IDEA | Lendeborg Part 3 after a 30+ game | 46 |
+| Fri Nov 13 12:00 PM | fc | BUILD (filler) | The Goalkeeper Who Got The Penalty Rules Changed | 43 |
+| Fri Nov 13 06:00 PM | fc | EMPTY | - | - |
+
+Held by QA: Why You Can't Bet On The Opening Tip 😳 (FOOTAGE: no cuts.json / cuts_plan.json); Why The Lakers Kept Bronny Over Knecht 😳 (SCRIPT: notes.md has 1 source link(s); every Short needs at ); Paul George Broke A Celtics Record And L (SCRIPT: notes.md has 0 source link(s); every Short needs at ); LeBron Just Answered A Knicks Fan 😳 (SCRIPT: notes.md has 0 source link(s); every Short needs at ); Two Buzzer-Beaters From 40 And 50 Feet (PACKAGE: title missing or a placeholder; 7 tags, 83 characte)
+
+### Live tests (the lab scores them daily)
+
+| Test | Question | A | B | Score | p | Avg % | Status | Next |
+|---|---|---|---|---|---|---|---|---|
+| `nba-lists` | Are record lists a hit lane we can repeat? | every other NBA Short: 5,629 (n=49) | 'Who has ___ the most in NBA history?' list: 23,952 (n=3) | 78 | 0.12 | 98% vs 96% | **RUNNING** | needs 3 more (+11 waiting for 72 h) |
+| `nba-opener` | Do Why/How/What/Who titles get more views? | title opens on a name or noun: - (n=0) | title opens with Why/How/What/Who: - (n=0) | - | - | - | **RUNNING** | needs 6 more (+2 waiting for 72 h) |
+| `nba-cadence` | Does a second post on the same day cost views per post? | a 1-post day: - (n=0) | a 2+-post day: - (n=0) | - | - | - | **RUNNING** | needs 8 more (+2 waiting for 72 h) |
+| `fc-premise` | Can a new premise (a star's relative, kept his promise, one-mistake chain, bargain scouting, fans beat the club) match our shootout Shorts? | penalty-shootout Shorts: 24,230 (n=4) | a new non-shootout premise: - (n=0) | - | - | - | **RUNNING** | needs 5 more (+5 waiting for 72 h) |
+| `fc-opener` | Does opening on the action keep more viewers than reading the title first? | title-first (the spoken title is line 1): - (n=0) | action-first (the title on screen only; line 1 is the first story sentence): - (n=0) | - | - | - | **RUNNING** | needs 6 more |
+| `fc-music` | Does the quiet music bed help? | no music: 1,085 (n=1) | quiet music bed: 3,337 (n=1) | 100 | - | 71% vs 64% | **RUNNING** | needs 5 more (+7 waiting for 72 h) |
+
+
+### Rules the data questions (fixed or dropped on Sunday)
+
+- C6 scrapped: posting before 10 AM ET (nba): **REVISIT: it may matter**
+
+### QA
+
+- Waiting drafts: 1 SHIP, 0 FIX, 5 HOLD (see `Research Notes/QA Board.md`).
+- On YouTube: 2 upload(s) with a FAIL. ; 
+
+<!-- /AUTO:STATUS -->
+
+
 # Roadmap: Next 90 Days (Sep 28 → Dec 27, 2026)
 
 *Round 3. It's built from:*

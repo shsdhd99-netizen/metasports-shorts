@@ -1,0 +1,547 @@
+[
+ {
+  "word": "Flopping",
+  "start": 0.0,
+  "end": 0.33
+ },
+ {
+  "word": "has",
+  "start": 0.368,
+  "end": 0.452
+ },
+ {
+  "word": "been",
+  "start": 0.491,
+  "end": 0.604
+ },
+ {
+  "word": "a",
+  "start": 0.632,
+  "end": 0.651
+ },
+ {
+  "word": "technical",
+  "start": 0.689,
+  "end": 1.009
+ },
+ {
+  "word": "foul",
+  "start": 1.056,
+  "end": 1.226
+ },
+ {
+  "word": "in",
+  "start": 1.254,
+  "end": 1.301
+ },
+ {
+  "word": "the",
+  "start": 1.32,
+  "end": 1.377
+ },
+ {
+  "word": "NBA",
+  "start": 1.424,
+  "end": 1.688
+ },
+ {
+  "word": "since",
+  "start": 1.735,
+  "end": 1.905
+ },
+ {
+  "word": "twenty",
+  "start": 1.923,
+  "end": 2.131
+ },
+ {
+  "word": "twenty-three.",
+  "start": 2.16,
+  "end": 2.641
+ },
+ {
+  "word": "But",
+  "start": 2.669,
+  "end": 2.792
+ },
+ {
+  "word": "NBC",
+  "start": 2.829,
+  "end": 3.074
+ },
+ {
+  "word": "Sports",
+  "start": 3.159,
+  "end": 3.404
+ },
+ {
+  "word": "calls",
+  "start": 3.433,
+  "end": 3.621
+ },
+ {
+  "word": "the",
+  "start": 3.65,
+  "end": 3.706
+ },
+ {
+  "word": "enforcement",
+  "start": 3.754,
+  "end": 4.159
+ },
+ {
+  "word": "inconsistent",
+  "start": 4.206,
+  "end": 4.706
+ },
+ {
+  "word": "at",
+  "start": 4.744,
+  "end": 4.8
+ },
+ {
+  "word": "best.",
+  "start": 4.848,
+  "end": 5.206
+ },
+ {
+  "word": "Now",
+  "start": 5.29,
+  "end": 5.423
+ },
+ {
+  "word": "the",
+  "start": 5.47,
+  "end": 5.536
+ },
+ {
+  "word": "NBA",
+  "start": 5.573,
+  "end": 5.828
+ },
+ {
+  "word": "has",
+  "start": 5.875,
+  "end": 5.969
+ },
+ {
+  "word": "posted",
+  "start": 6.017,
+  "end": 6.262
+ },
+ {
+  "word": "a",
+  "start": 6.281,
+  "end": 6.299
+ },
+ {
+  "word": "video",
+  "start": 6.328,
+  "end": 6.516
+ },
+ {
+  "word": "of",
+  "start": 6.564,
+  "end": 6.601
+ },
+ {
+  "word": "last",
+  "start": 6.649,
+  "end": 6.809
+ },
+ {
+  "word": "season's",
+  "start": 6.837,
+  "end": 7.101
+ },
+ {
+  "word": "flops,",
+  "start": 7.129,
+  "end": 7.459
+ },
+ {
+  "word": "and",
+  "start": 7.488,
+  "end": 7.592
+ },
+ {
+  "word": "says",
+  "start": 7.639,
+  "end": 7.808
+ },
+ {
+  "word": "refs",
+  "start": 7.874,
+  "end": 8.054
+ },
+ {
+  "word": "will",
+  "start": 8.072,
+  "end": 8.176
+ },
+ {
+  "word": "call",
+  "start": 8.214,
+  "end": 8.355
+ },
+ {
+  "word": "more",
+  "start": 8.402,
+  "end": 8.535
+ },
+ {
+  "word": "technicals.",
+  "start": 8.572,
+  "end": 9.072
+ },
+ {
+  "word": "The",
+  "start": 9.119,
+  "end": 9.214
+ },
+ {
+  "word": "test",
+  "start": 9.252,
+  "end": 9.44
+ },
+ {
+  "word": "is",
+  "start": 9.487,
+  "end": 9.544
+ },
+ {
+  "word": "STEM:",
+  "start": 9.563,
+  "end": 9.903
+ },
+ {
+  "word": "secondary,",
+  "start": 9.987,
+  "end": 10.496
+ },
+ {
+  "word": "theatrical,",
+  "start": 10.534,
+  "end": 11.024
+ },
+ {
+  "word": "exaggerated",
+  "start": 11.071,
+  "end": 11.543
+ },
+ {
+  "word": "movement.",
+  "start": 11.581,
+  "end": 11.883
+ },
+ {
+  "word": "But",
+  "start": 11.911,
+  "end": 12.034
+ },
+ {
+  "word": "there's",
+  "start": 12.062,
+  "end": 12.251
+ },
+ {
+  "word": "a",
+  "start": 12.278,
+  "end": 12.298
+ },
+ {
+  "word": "catch.",
+  "start": 12.335,
+  "end": 12.646
+ },
+ {
+  "word": "The",
+  "start": 12.665,
+  "end": 12.76
+ },
+ {
+  "word": "NBA",
+  "start": 12.807,
+  "end": 13.052
+ },
+ {
+  "word": "is",
+  "start": 13.1,
+  "end": 13.174
+ },
+ {
+  "word": "also",
+  "start": 13.222,
+  "end": 13.42
+ },
+ {
+  "word": "cracking",
+  "start": 13.467,
+  "end": 13.741
+ },
+ {
+  "word": "down",
+  "start": 13.778,
+  "end": 13.91
+ },
+ {
+  "word": "on",
+  "start": 13.948,
+  "end": 14.005
+ },
+ {
+  "word": "push-offs.",
+  "start": 14.043,
+  "end": 14.524
+ },
+ {
+  "word": "Thunder",
+  "start": 14.561,
+  "end": 14.778
+ },
+ {
+  "word": "coach",
+  "start": 14.806,
+  "end": 14.966
+ },
+ {
+  "word": "Mark",
+  "start": 15.013,
+  "end": 15.146
+ },
+ {
+  "word": "Daigneault",
+  "start": 15.193,
+  "end": 15.504
+ },
+ {
+  "word": "says",
+  "start": 15.523,
+  "end": 15.655
+ },
+ {
+  "word": "if",
+  "start": 15.702,
+  "end": 15.759
+ },
+ {
+  "word": "defenders",
+  "start": 15.796,
+  "end": 16.117
+ },
+ {
+  "word": "know",
+  "start": 16.146,
+  "end": 16.24
+ },
+ {
+  "word": "that,",
+  "start": 16.287,
+  "end": 16.56
+ },
+ {
+  "word": "they",
+  "start": 16.734,
+  "end": 17.076
+ },
+ {
+  "word": "might",
+  "start": 17.076,
+  "end": 17.418
+ },
+ {
+  "word": "be",
+  "start": 17.418,
+  "end": 17.76
+ },
+ {
+  "word": "just",
+  "start": 17.76,
+  "end": 18.101
+ },
+ {
+  "word": "flailing",
+  "start": 18.101,
+  "end": 18.443
+ },
+ {
+  "word": "to",
+  "start": 18.443,
+  "end": 18.785
+ },
+ {
+  "word": "try",
+  "start": 18.785,
+  "end": 19.127
+ },
+ {
+  "word": "to",
+  "start": 19.127,
+  "end": 19.469
+ },
+ {
+  "word": "bait",
+  "start": 19.469,
+  "end": 19.811
+ },
+ {
+  "word": "those",
+  "start": 19.811,
+  "end": 20.152
+ },
+ {
+  "word": "calls.",
+  "start": 20.152,
+  "end": 20.494
+ },
+ {
+  "word": "A",
+  "start": 20.614,
+  "end": 20.668
+ },
+ {
+  "word": "head",
+  "start": 20.742,
+  "end": 20.871
+ },
+ {
+  "word": "snap",
+  "start": 20.903,
+  "end": 21.107
+ },
+ {
+  "word": "isn't",
+  "start": 21.171,
+  "end": 21.374
+ },
+ {
+  "word": "a",
+  "start": 21.407,
+  "end": 21.428
+ },
+ {
+  "word": "flop.",
+  "start": 21.46,
+  "end": 21.76
+ },
+ {
+  "word": "Neither",
+  "start": 21.857,
+  "end": 22.103
+ },
+ {
+  "word": "is",
+  "start": 22.146,
+  "end": 22.199
+ },
+ {
+  "word": "Pascal",
+  "start": 22.243,
+  "end": 22.553
+ },
+ {
+  "word": "Siakam",
+  "start": 22.606,
+  "end": 23.014
+ },
+ {
+  "word": "sitting",
+  "start": 23.068,
+  "end": 23.292
+ },
+ {
+  "word": "down",
+  "start": 23.324,
+  "end": 23.475
+ },
+ {
+  "word": "after",
+  "start": 23.517,
+  "end": 23.7
+ },
+ {
+  "word": "a",
+  "start": 23.742,
+  "end": 23.764
+ },
+ {
+  "word": "jumper.",
+  "start": 23.817,
+  "end": 24.172
+ },
+ {
+  "word": "Reacting",
+  "start": 24.3,
+  "end": 24.653
+ },
+ {
+  "word": "to",
+  "start": 24.686,
+  "end": 24.739
+ },
+ {
+  "word": "contact",
+  "start": 24.793,
+  "end": 25.114
+ },
+ {
+  "word": "is",
+  "start": 25.167,
+  "end": 25.232
+ },
+ {
+  "word": "legal.",
+  "start": 25.285,
+  "end": 25.585
+ },
+ {
+  "word": "Selling",
+  "start": 25.639,
+  "end": 25.918
+ },
+ {
+  "word": "it",
+  "start": 25.95,
+  "end": 26.014
+ },
+ {
+  "word": "costs",
+  "start": 26.057,
+  "end": 26.292
+ },
+ {
+  "word": "a",
+  "start": 26.325,
+  "end": 26.357
+ },
+ {
+  "word": "technical",
+  "start": 26.41,
+  "end": 26.764
+ },
+ {
+  "word": "foul",
+  "start": 26.817,
+  "end": 27.064
+ },
+ {
+  "word": "and",
+  "start": 27.117,
+  "end": 27.182
+ },
+ {
+  "word": "a",
+  "start": 27.214,
+  "end": 27.235
+ },
+ {
+  "word": "free",
+  "start": 27.278,
+  "end": 27.449
+ },
+ {
+  "word": "throw.",
+  "start": 27.471,
+  "end": 27.814
+ }
+]

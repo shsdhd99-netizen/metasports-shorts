@@ -1,0 +1,22 @@
+{"promise": ["bottles", "coca-cola", "coke", "water"],
+ "status": "plan only, not run through cut_list.py; no voice yet so no anchors or times",
+ "shots": [
+  {"anchor": "Ronaldo moved two", "src": "src/footballwtf.mp4", "at": 0.0, "len": 2.4, "zoom": 1.3, "why": "frame 1: bottles on the table, Ronaldo arriving (the promise)"},
+  {"anchor": "Back in June", "src": "src/footballwtf.mp4", "at": 1.5, "len": 1.8, "zoom": 1.3, "why": "Ronaldo at the press table, Budapest sign"},
+  {"anchor": "It was the day before", "src": "src/guardian.mp4", "at": 3.0, "len": 1.8, "zoom": 1.25, "why": "same room, sponsor wall"},
+  {"anchor": "On the table", "src": "src/footballwtf.mp4", "at": 4.4, "len": 1.5, "zoom": 1.6, "x": 0.1, "why": "the two bottles"},
+  {"anchor": "Coca-Cola was an official sponsor", "src": "src/guardian.mp4", "at": 7.4, "len": 1.5, "why": "sponsor wall behind him"},
+  {"anchor": "Ronaldo looked at the bottles", "src": "src/footballwtf.mp4", "at": 7.4, "len": 1.5, "zoom": 1.3},
+  {"anchor": "He picked them up", "src": "src/footballwtf.mp4", "at": 8.9, "len": 1.5, "zoom": 1.4, "why": "hands on bottles"},
+  {"anchor": "moved them out", "src": "src/footballwtf.mp4", "at": 10.4, "len": 2.5, "zoom": 1.3, "why": "bottles pushed aside"},
+  {"anchor": "Then he held up", "src": "src/footballwtf.mp4", "at": 15.5, "len": 2.0, "zoom": 1.3, "why": "water bottle raised"},
+  {"anchor": "But the clip went everywhere", "stock": "TBD phone scrolling", "illustrative": true},
+  {"anchor": "Headlines said", "overlay": "$4bn wiped off (headlines)", "src": "src/guardian.mp4", "at": 3.0, "len": 2.0},
+  {"anchor": "The Guardian reported", "overlay": "$242bn -> $238bn (Guardian)", "src": "src/footballwtf.mp4", "at": 2.9, "len": 3.0},
+  {"anchor": "Snopes found", "stock": "TBD stock chart falling", "illustrative": true},
+  {"anchor": "A Euro twenty twenty spokesperson", "src": "src/guardian.mp4", "at": 17.8, "len": 2.0, "why": "water bottle, sponsor wall"},
+  {"anchor": "Ronaldo played Hungary", "MISSING": "Portugal v Hungary Jun 15 2021 footage; none free"},
+  {"anchor": "Portugal won three-nil", "MISSING": "goals footage; fallback is a 1.5 s scoreline card or flagged illustrative Ronaldo goals"},
+  {"anchor": "One man moved two bottles", "src": "src/footballwtf.mp4", "at": 9.5, "len": 2.0, "zoom": 1.3, "replay": true, "speed": 0.5, "why": "replay of the move before the payoff"},
+  {"anchor": "The stock fell", "src": "src/footballwtf.mp4", "at": 16.4, "len": 2.0, "zoom": 1.3, "why": "payoff on the water bottle"}
+ ]}

@@ -1,0 +1,62 @@
+{
+ "P0_clone_prod": {
+  "take_similarity": 0.983,
+  "wpm_t1_t2": [
+   265,
+   267
+  ],
+  "pitch_sd_t1_t2": [
+   4.88,
+   3.8
+  ],
+  "similarity_to_old_voice": 0.95
+ },
+ "P1_clone_fixed": {
+  "take_similarity": 0.98,
+  "wpm_t1_t2": [
+   224,
+   232
+  ],
+  "pitch_sd_t1_t2": [
+   4.62,
+   5.05
+  ],
+  "similarity_to_old_voice": 0.969
+ },
+ "X1_alex_s12": {
+  "take_similarity": 0.99,
+  "wpm_t1_t2": [
+   229,
+   226
+  ],
+  "pitch_sd_t1_t2": [
+   4.9,
+   5.39
+  ],
+  "similarity_to_old_voice": 0.719
+ },
+ "X3_lucan_s12": {
+  "take_similarity": 0.976,
+  "wpm_t1_t2": [
+   227,
+   225
+  ],
+  "pitch_sd_t1_t2": [
+   4.69,
+   4.75
+  ],
+  "similarity_to_old_voice": 0.706
+ },
+ "X4_jon_s12": {
+  "take_similarity": 0.991,
+  "wpm_t1_t2": [
+   217,
+   211
+  ],
+  "pitch_sd_t1_t2": [
+   3.84,
+   3.86
+  ],
+  "similarity_to_old_voice": 0.636
+ }
+}

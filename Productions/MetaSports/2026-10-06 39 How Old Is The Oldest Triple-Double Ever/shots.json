@@ -1,0 +1,115 @@
+[
+ {
+  "clip": "A_ovsmile.mp4",
+  "start": 0.0,
+  "anchor": "The oldest",
+  "kind": "action",
+  "why": "The oldest",
+  "zoom": 0.1
+ },
+ {
+  "clip": "Y_22.mp4",
+  "start": 1.59,
+  "anchor": "lasted",
+  "kind": "action",
+  "why": "lasted"
+ },
+ {
+  "clip": "M1.mp4",
+  "start": 2.61,
+  "anchor": "Karl Malone",
+  "kind": "action",
+  "why": "Karl Malone"
+ },
+ {
+  "clip": "Y_malone.mp4",
+  "start": 3.5,
+  "anchor": "at forty",
+  "kind": "action",
+  "why": "at forty"
+ },
+ {
+  "clip": "M3.mp4",
+  "start": 5.39,
+  "anchor": "back in",
+  "kind": "action",
+  "why": "back in"
+ },
+ {
+  "clip": "B_mavface.mp4",
+  "start": 6.43,
+  "anchor": "Then LeBron",
+  "kind": "action",
+  "why": "Then LeBron"
+ },
+ {
+  "clip": "Y_r1.mp4",
+  "start": 8.12,
+  "anchor": "Forty-one years, forty-four",
+  "kind": "action",
+  "why": "Forty-one years, forty-four"
+ },
+ {
+  "clip": "B_layup.mp4",
+  "start": 9.58,
+  "anchor": "He broke",
+  "kind": "action",
+  "why": "He broke"
+ },
+ {
+  "clip": "Y_r2.mp4",
+  "start": 10.95,
+  "anchor": "Forty-one years, seventy-nine",
+  "kind": "action",
+  "why": "Forty-one years, seventy-nine"
+ },
+ {
+  "clip": "B_face2.mp4",
+  "start": 12.35,
+  "anchor": "Eleven days",
+  "kind": "action",
+  "why": "Eleven days"
+ },
+ {
+  "clip": "Y_r3.mp4",
+  "start": 13.64,
+  "anchor": "Forty-one years, ninety",
+  "kind": "action",
+  "why": "Forty-one years, ninety"
+ },
+ {
+  "clip": "Y_46.mp4",
+  "start": 14.82,
+  "anchor": "Three records",
+  "kind": "action",
+  "why": "Three records"
+ },
+ {
+  "clip": "K_msg.mp4",
+  "start": 16.11,
+  "anchor": "Opening night",
+  "kind": "action",
+  "why": "Opening night"
+ },
+ {
+  "clip": "Y_294.mp4",
+  "start": 18.0,
+  "anchor": "LeBron will",
+  "kind": "action",
+  "why": "LeBron will"
+ },
+ {
+  "clip": "L_sixers2.mp4",
+  "start": 20.14,
+  "anchor": "Any triple-double",
+  "kind": "action",
+  "why": "Any triple-double"
+ },
+ {
+  "clip": "A_ovsmile.mp4",
+  "start": 21.64,
+  "anchor": "the oldest ever",
+  "kind": "action",
+  "why": "the oldest ever"
+ }
+]

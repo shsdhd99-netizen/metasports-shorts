@@ -1,0 +1,14 @@
+[
+ {
+  "sfx": "whoosh",
+  "at": 5.1,
+  "gain": -14,
+  "why": "to the quote"
+ },
+ {
+  "sfx": "click",
+  "at": 13.6,
+  "gain": -10,
+  "why": "turn: but"
+ }
+]

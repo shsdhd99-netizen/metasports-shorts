@@ -54,3 +54,6 @@ ROOT = `C:\Users\Admin\Documents\YouTube-Playbooks`. Run from `ROOT\Tools` with 
 7. **Live tweaks (optional).**
    - If Drift is open with Settings → Agent access on, use the `drift-live` tools: `catalog`, then `search`, then `apply`. Check the result with `capture`.
    - Never delete or overwrite the user's clips.
+
+## Finish check (Nov 6, 2026)
+Before calling a Short done: `python Tools/qa_final.py "<folder>"` must say SHIP (portion QA + retention gate + file checks), then `python Tools/queue_rank.py` gives it its slot. Cover: `python Tools/thumb.py --shape short`. Pin text goes in UPLOAD.md; `python Tools/pin_helper.py` lists what to pin.

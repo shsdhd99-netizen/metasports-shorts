@@ -1,0 +1,93 @@
+[
+ {
+  "clip": "V02_kawhi_dunk.mp4",
+  "start": 0.0,
+  "why": "synced to word 'The'",
+  "in": 0.1,
+  "zoom": 0.1
+ },
+ {
+  "clip": "V01_kawhi_clippers_face.mp4",
+  "start": 1.1,
+  "why": "Kawhi face (Clippers) on 'acquire and retain'"
+ },
+ {
+  "clip": "V03_kawhi_raptors_photoshoot.mp4",
+  "start": 2.2,
+  "why": "synced to word 'Now'"
+ },
+ {
+  "clip": "V04_kawhi_g7_shot.mp4",
+  "start": 4.93,
+  "why": "synced to word 'Kawhi'"
+ },
+ {
+  "clip": "V05_kawhi_clippers_debut.mp4",
+  "start": 7.01,
+  "why": "synced to word 'then'"
+ },
+ {
+  "clip": "c13_c_1.mp4",
+  "start": 8.33,
+  "why": "synced to word 'This'"
+ },
+ {
+  "clip": "V06_gradey_dick.mp4",
+  "start": 9.97,
+  "why": "synced to word 'Gradey'"
+ },
+ {
+  "clip": "V10_kawhi_raptors_pose.mp4",
+  "start": 10.74,
+  "why": "synced to word 'unprotected'",
+  "in": 0.0
+ },
+ {
+  "clip": "V07_intuit_dome_ceremony.mp4",
+  "start": 13.37,
+  "why": "synced to word 'But'"
+ },
+ {
+  "clip": "c13_b_1.mp4",
+  "start": 14.27,
+  "why": "synced to word 'Five'"
+ },
+ {
+  "clip": "V07_intuit_dome_ceremony.mp4",
+  "start": 15.37,
+  "why": "synced to word 'taken'",
+  "in": 0.3
+ },
+ {
+  "clip": "c13_a_1.mp4",
+  "start": 16.81,
+  "why": "synced to word '$30 million'"
+ },
+ {
+  "clip": "V08_ballmer.mp4",
+  "start": 19.01,
+  "why": "synced to word 'owner'"
+ },
+ {
+  "clip": "V09_kawhi_clippers_dribble.mp4",
+  "start": 19.87,
+  "why": "synced to word 'over'"
+ },
+ {
+  "clip": "V10_kawhi_raptors_pose.mp4",
+  "start": 20.98,
+  "why": "synced to word 'Now'"
+ },
+ {
+  "clip": "V11_g7_celebration.mp4",
+  "start": 21.99,
+  "why": "synced to word 'So'"
+ },
+ {
+  "clip": "V02_kawhi_dunk.mp4",
+  "start": 23.45,
+  "why": "synced to word 'or'",
+  "in": 0.1,
+  "zoom": 0.1
+ }
+]

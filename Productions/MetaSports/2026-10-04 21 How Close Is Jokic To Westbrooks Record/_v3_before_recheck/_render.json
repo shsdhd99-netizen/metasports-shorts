@@ -1,0 +1,31 @@
+{
+ "engine": "ffmpeg",
+ "out": "final.mp4",
+ "loop_fix": true,
+ "fits": [
+  {
+   "shot": 1,
+   "clip": "b1c.mp4",
+   "fit": "slowed",
+   "factor": 1.047
+  },
+  {
+   "shot": 7,
+   "clip": "b7.mp4",
+   "fit": "slowed",
+   "factor": 1.146
+  },
+  {
+   "shot": 8,
+   "clip": "b5.mp4",
+   "fit": "slowed",
+   "factor": 1.259
+  },
+  {
+   "shot": 9,
+   "clip": "b12.mp4",
+   "fit": "slowed",
+   "factor": 1.187
+  }
+ ]
+}

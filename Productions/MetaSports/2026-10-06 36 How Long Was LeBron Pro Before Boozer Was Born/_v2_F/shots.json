@@ -1,0 +1,122 @@
+[
+ {
+  "clip": "l2bg.mp4",
+  "kind": "action",
+  "in": 0.0,
+  "zoom": 0.04,
+  "why": "Frame 1 = rookie LeBron (Cavs #23, 2003-04 broadcast) on 'LeBron's teammate from his rookie year'",
+  "start": 0.0
+ },
+ {
+  "clip": "b3bg.mp4",
+  "anchor": "now has a",
+  "kind": "action",
+  "in": 0.0,
+  "why": "Cameron Boozer #27 Grizzlies (summer league) on 'now has a son in the NBA'",
+  "start": 1.58
+ },
+ {
+  "clip": "c_75.mp4",
+  "anchor": "Carlos Boozer started",
+  "kind": "card",
+  "in": 0.0,
+  "why": "Proof card: Carlos Boozer, 2003-04 Cavs, 75 starts (B-Ref) over Cavs footage",
+  "start": 3.04
+ },
+ {
+  "clip": "k2bg_df.mp4",
+  "anchor": "next to a",
+  "kind": "action",
+  "in": 0.0,
+  "why": "Teenage LeBron, Cavs #23, rookie season | deflashed (Tools/deflash.py): lone washed-out frame(s) replaced",
+  "start": 4.95
+ },
+ {
+  "clip": "b1.mp4",
+  "anchor": "This summer, Memphis",
+  "kind": "action",
+  "in": 0.0,
+  "why": "Cameron #27 dunking in Grizzlies summer league, on \"This summer, Memphis\"",
+  "start": 6.69
+ },
+ {
+  "clip": "d4.mp4",
+  "anchor": "drafted his son",
+  "kind": "action",
+  "in": 0.0,
+  "why": "Cameron (Duke #12) dunk: the player Memphis drafted",
+  "start": 7.59
+ },
+ {
+  "clip": "b2.mp4",
+  "anchor": "third overall",
+  "kind": "action",
+  "in": 0.0,
+  "why": "Cameron in Grizzlies summer league on 'third overall'",
+  "start": 8.82
+ },
+ {
+  "clip": "a1_df.mp4",
+  "anchor": "And here's how",
+  "kind": "face",
+  "in": 0.0,
+  "why": "LeBron in 2007, the Finals year | deflashed (Tools/deflash.py): lone washed-out frame(s) replaced",
+  "start": 9.57
+ },
+ {
+  "clip": "e1bg_df.mp4",
+  "anchor": "LeBron has been",
+  "kind": "action",
+  "in": 0.0,
+  "why": "LeBron #23 Cavs dunk, 2007 playoffs: how long he has been around | deflashed (Tools/deflash.py): lone washed-out frame(s) replaced",
+  "start": 10.35
+ },
+ {
+  "clip": "a1bj.mp4",
+  "anchor": "he played in",
+  "kind": "face",
+  "in": 0.0,
+  "why": "LeBron at the 2007 Finals (ends before the clip's own cut at 1.5 s)",
+  "start": 11.34
+ },
+ {
+  "clip": "c_34_df.mp4",
+  "anchor": "thirty-four days",
+  "kind": "card",
+  "in": 0.0,
+  "why": "Proof card: 34 days, June 14 to July 18, 2007, over 2007 Finals footage | deflashed (Tools/deflash.py): lone washed-out frame(s) replaced",
+  "start": 12.59
+ },
+ {
+  "clip": "b4.mp4",
+  "anchor": "Now Cameron is",
+  "kind": "action",
+  "in": 0.0,
+  "why": "Cameron #27 Grizzlies dunk: the youngest player",
+  "start": 14.44
+ },
+ {
+  "clip": "c_24.mp4",
+  "anchor": "LeBron, in year",
+  "kind": "card",
+  "in": 0.0,
+  "why": "Proof card: YEAR 24, LeBron oldest in the league, over Sixers media day",
+  "start": 16.34
+ },
+ {
+  "clip": "d2.mp4",
+  "anchor": "Two generations",
+  "kind": "action",
+  "in": 0.0,
+  "why": "Both Boozers in one frame: Cameron (Duke #12) on court, Carlos watching from the stands",
+  "start": 18.15
+ },
+ {
+  "clip": "s1bg.mp4",
+  "anchor": "One LeBron",
+  "kind": "face",
+  "in": 0.6,
+  "why": "Payoff on LeBron today (Sixers #23, media day), smiling",
+  "start": 19.57
+ }
+]

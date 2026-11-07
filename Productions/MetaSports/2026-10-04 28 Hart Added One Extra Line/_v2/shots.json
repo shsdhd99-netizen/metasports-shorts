@@ -1,0 +1,106 @@
+[
+ {
+  "clip": "06_snl.mp4",
+  "in": 0.4,
+  "kind": "action",
+  "zoom": 0.12,
+  "why": "Brunson performing on the SNL stage. Open and loop.",
+  "start": 0.0
+ },
+ {
+  "clip": "13_snl2.mp4",
+  "in": 0.3,
+  "anchor": "Saturday",
+  "kind": "action",
+  "why": "Second angle of Brunson through the fifth-player setup.",
+  "start": 1.18
+ },
+ {
+  "clip": "13_snl2.mp4",
+  "in": 1.8,
+  "anchor": "fifth",
+  "kind": "action",
+  "why": "Same stage, later in the clip.",
+  "start": 2.44
+ },
+ {
+  "clip": "04_trophy.mp4",
+  "in": 0.35,
+  "anchor": "three months",
+  "kind": "action",
+  "why": "The trophy is up. The holder's face is not identified.",
+  "start": 3.72
+ },
+ {
+  "clip": "01_hart.mp4",
+  "in": 0.2,
+  "anchor": "But at",
+  "kind": "face",
+  "why": "Hart at the Knicks mics on media day.",
+  "start": 5.68
+ },
+ {
+  "clip": "02_sny.mp4",
+  "in": 0.45,
+  "anchor": "Josh Hart",
+  "kind": "face",
+  "why": "Wider Hart when his name is spoken.",
+  "start": 7.71
+ },
+ {
+  "clip": "07_side.mp4",
+  "in": 0.15,
+  "anchor": "I do",
+  "kind": "face",
+  "why": "Closer Hart under the acting line.",
+  "start": 9.32
+ },
+ {
+  "clip": "01_hart.mp4",
+  "in": 1.7,
+  "anchor": "already called",
+  "kind": "face",
+  "why": "Hart again, later in the clip, for the fine half of the quote.",
+  "start": 11.24
+ },
+ {
+  "clip": "02_sny.mp4",
+  "in": 2.2,
+  "anchor": "Nobody asked",
+  "kind": "face",
+  "why": "Wider podium. Different in from the name shot.",
+  "start": 12.81
+ },
+ {
+  "clip": "01_hart.mp4",
+  "in": 3.1,
+  "anchor": "Hart had",
+  "kind": "face",
+  "why": "Hart's face while his name is spoken.",
+  "start": 14.49
+ },
+ {
+  "clip": "13_snl2.mp4",
+  "in": 0.85,
+  "anchor": "the monologue",
+  "kind": "action",
+  "why": "Brunson on the monologue stage. Hart's name is on the previous shot.",
+  "start": 15.1
+ },
+ {
+  "clip": "04_trophy.mp4",
+  "in": 0.5,
+  "anchor": "A champion",
+  "kind": "action",
+  "why": "Trophy raised under the June line.",
+  "start": 16.03
+ },
+ {
+  "clip": "06_snl.mp4",
+  "in": 0.4,
+  "anchor": "Brunson hosted",
+  "kind": "action",
+  "why": "Loop. Brunson on stage under Hart's last line.",
+  "start": 19.09
+ }
+]

@@ -1,0 +1,308 @@
+{
+ "length_s": 70.25,
+ "topic": "How Barcelona scores many goals without a natural striker under Hansi Flick",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "How are Barcelona scoring so many goals this season without using a natural striker?",
+  "first_frame": "A referee and Raphinha arguing closely",
+  "on_screen_text_0_3s": "How are Barcelona scoring so many goals this season without using a natural striker?",
+  "shots_in_first_3s": 3
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 1.5,
+   "shows": "Referee arguing with Raphinha on field",
+   "kind": "action"
+  },
+  {
+   "start_s": 1.5,
+   "end_s": 3.5,
+   "shows": "Close-up of Raphinha talking back",
+   "kind": "face"
+  },
+  {
+   "start_s": 3.5,
+   "end_s": 4.67,
+   "shows": "Players training on field",
+   "kind": "action"
+  },
+  {
+   "start_s": 4.67,
+   "end_s": 5.92,
+   "shows": "Lewandowski celebrating",
+   "kind": "action"
+  },
+  {
+   "start_s": 5.92,
+   "end_s": 7.92,
+   "shows": "Lewandowski waving to crowd",
+   "kind": "action"
+  },
+  {
+   "start_s": 7.92,
+   "end_s": 9.58,
+   "shows": "Marcus Rashford celebrating",
+   "kind": "action"
+  },
+  {
+   "start_s": 9.58,
+   "end_s": 11.92,
+   "shows": "Graphic of Lewandowski and Rashford",
+   "kind": "stock"
+  },
+  {
+   "start_s": 11.92,
+   "end_s": 13.5,
+   "shows": "Ferran Torres celebrating",
+   "kind": "action"
+  },
+  {
+   "start_s": 13.5,
+   "end_s": 14.67,
+   "shows": "Ferran holding PSG jersey",
+   "kind": "still"
+  },
+  {
+   "start_s": 14.67,
+   "end_s": 15.67,
+   "shows": "Hansi Flick walking on pitch",
+   "kind": "face"
+  },
+  {
+   "start_s": 15.67,
+   "end_s": 18.5,
+   "shows": "Players training with cones",
+   "kind": "action"
+  },
+  {
+   "start_s": 18.5,
+   "end_s": 19.83,
+   "shows": "Kevin Hart looking shocked",
+   "kind": "face"
+  },
+  {
+   "start_s": 19.83,
+   "end_s": 21.92,
+   "shows": "Hansi Flick in training gear",
+   "kind": "face"
+  },
+  {
+   "start_s": 21.92,
+   "end_s": 23.17,
+   "shows": "Hansi Flick at press conference",
+   "kind": "face"
+  },
+  {
+   "start_s": 23.17,
+   "end_s": 25.5,
+   "shows": "Julian Alvarez celebrating",
+   "kind": "action"
+  },
+  {
+   "start_s": 25.5,
+   "end_s": 27.17,
+   "shows": "Diego Simeone at press conference",
+   "kind": "face"
+  },
+  {
+   "start_s": 27.17,
+   "end_s": 29.67,
+   "shows": "Article headline about Alvarez transfer",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 29.67,
+   "end_s": 31.08,
+   "shows": "Hansi Flick on training ground",
+   "kind": "face"
+  },
+  {
+   "start_s": 31.08,
+   "end_s": 32.75,
+   "shows": "Player doing headers in training",
+   "kind": "action"
+  },
+  {
+   "start_s": 32.75,
+   "end_s": 34.67,
+   "shows": "Barcelona and Elche crests",
+   "kind": "stock"
+  },
+  {
+   "start_s": 34.67,
+   "end_s": 36.25,
+   "shows": "Raphinha walking out of tunnel",
+   "kind": "action"
+  },
+  {
+   "start_s": 36.25,
+   "end_s": 37.67,
+   "shows": "Tactical lineup graphic",
+   "kind": "stock"
+  },
+  {
+   "start_s": 37.67,
+   "end_s": 39.92,
+   "shows": "Raphinha scoring a goal",
+   "kind": "action"
+  },
+  {
+   "start_s": 39.92,
+   "end_s": 41.67,
+   "shows": "Fermin Lopez celebrating",
+   "kind": "action"
+  },
+  {
+   "start_s": 41.67,
+   "end_s": 44.08,
+   "shows": "Fermin Lopez scoring",
+   "kind": "action"
+  },
+  {
+   "start_s": 44.08,
+   "end_s": 45.67,
+   "shows": "Steve Harvey looking confused",
+   "kind": "face"
+  },
+  {
+   "start_s": 45.67,
+   "end_s": 46.83,
+   "shows": "Hansi Flick shouting on touchline",
+   "kind": "face"
+  },
+  {
+   "start_s": 46.83,
+   "end_s": 49.08,
+   "shows": "Yamal dribbling past defenders",
+   "kind": "action"
+  },
+  {
+   "start_s": 49.08,
+   "end_s": 50.5,
+   "shows": "Graphic of 5-0 scoreline",
+   "kind": "stock"
+  },
+  {
+   "start_s": 50.5,
+   "end_s": 52.42,
+   "shows": "Raphinha celebrating on knees",
+   "kind": "action"
+  },
+  {
+   "start_s": 52.42,
+   "end_s": 54.17,
+   "shows": "Match action creating a chance",
+   "kind": "action"
+  },
+  {
+   "start_s": 54.17,
+   "end_s": 56.58,
+   "shows": "Player passing the ball",
+   "kind": "action"
+  },
+  {
+   "start_s": 56.58,
+   "end_s": 58.58,
+   "shows": "Pedri with ball",
+   "kind": "action"
+  },
+  {
+   "start_s": 58.58,
+   "end_s": 60.08,
+   "shows": "Yamal running with ball",
+   "kind": "action"
+  },
+  {
+   "start_s": 60.08,
+   "end_s": 62.67,
+   "shows": "High press leading to goal",
+   "kind": "action"
+  },
+  {
+   "start_s": 62.67,
+   "end_s": 64.83,
+   "shows": "Raphinha dribbling past goalkeeper",
+   "kind": "action"
+  },
+  {
+   "start_s": 64.83,
+   "end_s": 66.83,
+   "shows": "Raphinha and teammate celebrating",
+   "kind": "action"
+  },
+  {
+   "start_s": 66.83,
+   "end_s": 68.58,
+   "shows": "Player scoring a header",
+   "kind": "action"
+  },
+  {
+   "start_s": 68.58,
+   "end_s": 70.25,
+   "shows": "Hansi Flick celebrating on bench",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 39,
+ "average_shot_s": 1.8,
+ "longest_shot_s": 2.58,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 175,
+  "tone": "energetic and analytical",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "dramatic cinematic beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "sentence",
+  "position": "middle",
+  "colours": "white",
+  "highlight_style": "none"
+ },
+ "text_overlays": [],
+ "cards_or_graphics": 4,
+ "framing": "zoom",
+ "ending": {
+  "last_words": "without ever needing a real striker.",
+  "last_frame": "Hansi Flick celebrating on bench",
+  "loops_to_start": false,
+  "call_to_action": "please hit the follow button."
+ },
+ "script": "How are Barcelona scoring so many goals this season without using a natural striker? This summer, Barcelona lost every striker on their roster, because Robert Lewandowski left for free and Marcus Rashford's loan ended, and those two alone took thirty-one goals with them. Their other forward, Ferran Torres, left for PSG as well, which left coach Hansi Flick with zero players who actually play as a natural number nine. But his first move to fix it ran straight into a wall he couldn't get past. First, he tried the normal way by chasing Atlético Madrid's Julián Alvarez, but Atlético shut the door instantly and refused to sell even for two hundred million euros. So Flick stopped hunting for a striker and built an attack without one, and in Barcelona's opening game against Elche, he shoved his captain Raphinha into the middle as a fake striker. Raphinha scored twice and set up another goal, while Fermín López, a midfielder, came flying into the box and grabbed two more himself. But the reason this keeps working has nothing to do with luck, and if you're enjoying the video, please hit the follow button. Barcelona won five to nothing with only seven shots on target while creating nine gigantic chances. Flick keeps his forwards constantly swapping positions while his midfielders sprint in from deep, so defenders never know who to grab, and then his players press high and steal the ball right next to the goal. That means Barcelona keep attacking a defense that's already scrambled and out of shape, which is exactly how they score this many goals without ever needing a real striker.",
+ "retention_tricks": [
+  "Fast cuts every 1.5-2 seconds",
+  "Meme face reaction inserts (Kevin Hart, Steve Harvey)",
+  "Call to action mid-video",
+  "Dynamic tactical graphics and lineups"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "Engaging narrative hook addressing an apparent contradiction in football tactics",
+  "Rapid pacing with frequent visual pattern interrupts like meme reactions",
+  "Clear tactical explanation of how a false-nine system works in practice"
+ ],
+ "_meta": {
+  "source": "wcIlA48MpvQ",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "verdict": "CHECK",
+ "wpm": 226,
+ "issues": [],
+ "notes": [
+  " 8.12s  \"gradey\" heard as \"grady\" (close; check the name)",
+  "10.72s  \"30 5\" heard as \"35\" (close; check the name)",
+  "15.41s  rushed sentence (352 wpm): But that's not even the crazy part.",
+  "20.86s  dragging sentence (141 wpm): Toronto's first-round price: two."
+ ],
+ "heard": "The NBA took five first -round picks from the Clippers, fined them $30 million, and suspended their owner for a year, all over how they paid Kawhi Leonard. Then Toronto traded for him anyway. Brandon Ingram, Grady Dick, and two first -round picks. Eight days later, it gave the 35 -year -old a $115 million extension after a career -high 27 .9 points a game. But that's not even the crazy part. ESPN counts 10 first -round picks the Clippers spent to get and keep him. 10 first -round picks out. Toronto's first -round price, two.",
+ "mismatches": [
+  {
+   "at": 8.12,
+   "script": "gradey",
+   "heard": "grady",
+   "similar": 0.91
+  },
+  {
+   "at": 10.72,
+   "script": "30 5",
+   "heard": "35",
+   "similar": 0.8
+  }
+ ]
+}

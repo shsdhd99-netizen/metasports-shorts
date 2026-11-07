@@ -1,0 +1,134 @@
+[
+ {
+  "clip": "d3.mp4",
+  "anchor": "A father",
+  "why": "hook: LeBron and Bronny on court together, JAMES JR 9 (Oct 22 2024 debut)",
+  "kind": "action",
+  "zoom": 0.1,
+  "start": 0.0
+ },
+ {
+  "clip": "d2.mp4",
+  "anchor": "played in the same",
+  "why": "same game: LeBron 23 and Bronny",
+  "kind": "action",
+  "start": 1.0
+ },
+ {
+  "clip": "d4.mp4",
+  "anchor": "until LeBron",
+  "why": "LeBron and Bronny James, debut",
+  "kind": "action",
+  "start": 2.17
+ },
+ {
+  "clip": "p1.mp4",
+  "anchor": "They were teammates",
+  "why": "LeBron Lakers action",
+  "kind": "action",
+  "start": 3.49
+ },
+ {
+  "clip": "lp.mp4",
+  "anchor": "and LeBron called",
+  "why": "LeBron face, Lakers presser",
+  "kind": "face",
+  "start": 4.88
+ },
+ {
+  "clip": "S1_sixers_lebron.mp4",
+  "anchor": "Then LeBron left",
+  "why": "LeBron in Sixers jersey",
+  "kind": "action",
+  "zoom": 0.06,
+  "start": 7.17
+ },
+ {
+  "clip": "a6.mp4",
+  "anchor": "and Bronny stayed",
+  "why": "Bronny at Lakers media day",
+  "kind": "face",
+  "start": 8.49
+ },
+ {
+  "clip": "qa.mp4",
+  "anchor": "Feels like",
+  "why": "REAL AUDIO: Feels like he's not here",
+  "kind": "quote",
+  "start": 9.55
+ },
+ {
+  "clip": "a9.mp4",
+  "anchor": "But that's",
+  "why": "Bronny face",
+  "kind": "action",
+  "start": 10.87
+ },
+ {
+  "clip": "S2_sixers_lebron.mp4",
+  "anchor": "On Christmas",
+  "why": "LeBron Sixers",
+  "kind": "action",
+  "start": 12.57
+ },
+ {
+  "clip": "c_christmas.mp4",
+  "anchor": "and LeBron will",
+  "why": "NBA.com Sixers card: for the first time",
+  "kind": "card",
+  "start": 14.59
+ },
+ {
+  "clip": "d2.mp4",
+  "anchor": "in an NBA game",
+  "why": "LeBron and Bronny",
+  "kind": "action",
+  "in": 0.2,
+  "start": 16.31
+ },
+ {
+  "clip": "b6.mp4",
+  "anchor": "Bronny says his",
+  "why": "Bronny media day",
+  "kind": "face",
+  "start": 18.09
+ },
+ {
+  "clip": "qb.mp4",
+  "anchor": "You guys",
+  "why": "REAL AUDIO: you guys know me as Bronny, my real name is LeBron",
+  "kind": "quote",
+  "start": 20.21
+ },
+ {
+  "clip": "qb.mp4",
+  "anchor": "I'm, my",
+  "why": "same quote, second half",
+  "kind": "quote",
+  "in": 1.6,
+  "zoom": 0.08,
+  "start": 21.69
+ },
+ {
+  "clip": "S4_sixers_lebron.mp4",
+  "anchor": "Christmas Day.",
+  "why": "LeBron Sixers",
+  "kind": "action",
+  "start": 23.36
+ },
+ {
+  "clip": "S5_sixers_lebron.mp4",
+  "anchor": "LeBron James versus",
+  "why": "LeBron Sixers",
+  "kind": "action",
+  "start": 24.16
+ },
+ {
+  "clip": "d3.mp4",
+  "anchor": "Junior.",
+  "why": "loop: JAMES JR 9",
+  "kind": "action",
+  "in": 0.6,
+  "start": 25.79
+ }
+]

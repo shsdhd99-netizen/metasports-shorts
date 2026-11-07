@@ -1,0 +1,136 @@
+[
+ {
+  "clip": "H1.mp4",
+  "anchor": "This man",
+  "kind": "action",
+  "in": 1.4,
+  "zoom": 0.05,
+  "why": "Frame 1 = the object: Sharp, standing, reaching up to the fans' rail at 2025 Summer League (his height is the story)",
+  "start": 0.0
+ },
+ {
+  "clip": "W1.mp4",
+  "anchor": "Victor Wembanyama",
+  "kind": "face",
+  "in": 0.0,
+  "why": "The reference everyone knows: Wembanyama (Spurs media day, Sep 28 2026)",
+  "start": 1.17
+ },
+ {
+  "clip": "R_dunk.mp4",
+  "anchor": "And he's never played",
+  "kind": "action",
+  "in": 0.0,
+  "why": "Sharp (#33) in a Raptors Summer League game: he plays, but not in games that count",
+  "start": 2.16
+ },
+ {
+  "clip": "c_listed.png",
+  "anchor": "Seven-foot-five. Jamarion",
+  "kind": "card",
+  "zoom": 0.04,
+  "why": "Proof of the paradox: listed 7-5 (Basketball-Reference) vs 7-4 (Fox Sports), labelled 'listed, not measured'",
+  "start": 4.04
+ },
+ {
+  "clip": "p_dal.png",
+  "anchor": "Twenty twenty-four",
+  "kind": "face",
+  "zoom": 0.06,
+  "why": "Sharp in a Dallas #33 uniform (photo: Kevin Jairaj-Imagn via HoopsHype)",
+  "start": 5.59
+ },
+ {
+  "clip": "c_tally1.png",
+  "anchor": "Zero minutes that count",
+  "kind": "card",
+  "why": "The measure, row 1: 2024 Dallas, waived, 0",
+  "start": 7.9
+ },
+ {
+  "clip": "p_dal25.png",
+  "anchor": "Twenty twenty-five",
+  "kind": "face",
+  "zoom": 0.05,
+  "why": "2025 Mavericks Summer League practice (Cox Pavilion), Sharp shooting",
+  "start": 8.96
+ },
+ {
+  "clip": "H2.mp4",
+  "anchor": "Waived again",
+  "kind": "action",
+  "in": 0.0,
+  "why": "Same summer, same team: the 2025 Summer League tunnel clip",
+  "start": 10.48
+ },
+ {
+  "clip": "p_clip.png",
+  "anchor": "This summer",
+  "kind": "face",
+  "zoom": 0.05,
+  "why": "Sharp in a Clippers jersey (Bleacher Report image, Aug 10 2026; text cropped off)",
+  "start": 11.61
+ },
+ {
+  "clip": "H3.mp4",
+  "anchor": "In September",
+  "kind": "action",
+  "in": 0.0,
+  "why": "Sharp alone, reaching up: still waiting for a minute that counts",
+  "start": 12.95
+ },
+ {
+  "clip": "R_close.mp4",
+  "anchor": "And it's not his defense",
+  "kind": "face",
+  "in": 0.0,
+  "why": "His face (Raptors Summer League, Jul 2026)",
+  "start": 14.76
+ },
+ {
+  "clip": "p_dunk.png",
+  "anchor": "Last season",
+  "kind": "face",
+  "zoom": 0.06,
+  "why": "Sharp #33 (Raptors Summer League photo)",
+  "start": 15.82
+ },
+ {
+  "clip": "c_dpoy.png",
+  "anchor": "G League's Defensive",
+  "kind": "card",
+  "why": "Proof: NBA G League Defensive Player of the Year graphic (NBAPR, Apr 2 2026)",
+  "start": 16.78
+ },
+ {
+  "clip": "c_tally3.png",
+  "anchor": "That's three cuts",
+  "kind": "card",
+  "why": "The measure, complete: three chances, total 0",
+  "start": 18.36
+ },
+ {
+  "clip": "R_close.mp4",
+  "anchor": "On Monday",
+  "kind": "face",
+  "in": 1.0,
+  "why": "Toronto: Sharp in Raptors red",
+  "start": 20.35
+ },
+ {
+  "clip": "R_back.mp4",
+  "anchor": "The season starts",
+  "kind": "action",
+  "in": 0.0,
+  "why": "'33 SHARP' on his back",
+  "start": 22.18
+ },
+ {
+  "clip": "H1.mp4",
+  "anchor": "Seven-foot-five. NBA",
+  "kind": "action",
+  "in": 0.0,
+  "why": "Back to the opening image so the Short loops",
+  "start": 23.34
+ }
+]

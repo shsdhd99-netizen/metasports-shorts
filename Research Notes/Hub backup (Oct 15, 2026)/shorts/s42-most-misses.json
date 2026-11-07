@@ -1,0 +1,31 @@
+{
+  "about": "RENDERED Oct 15, voice A (Alex), no music. 23.5 s, -14 LUFS, true peak -1.9 dB. Footage: official NBA YouTube (LeBron's record and the Oct 22 2024 Bronny game), a fan post for the opening airball, the NBA's Kobe video, plus two of our own stat cards (Basketball-Reference). Every clip was frame-checked; the Kobe clips are 720p blown up 2.7x (no sharper copy exists).",
+  "covers": [
+    {
+      "assetId": "bbc970f13f8f6499e03583822e77556f",
+      "label": "A: LeBron and Bronny"
+    }
+  ],
+  "name": "Who has missed the most shots ever",
+  "num": 42,
+  "pinned": "Regular season: LeBron 15,541 misses, Kobe 14,481. Does volume make the misses a flex or a flaw?",
+  "postNote": "NEEDS YOUR EAR and OK before posting. A second music test (the commercial song '4 Raws', EsDeeKid) is rendered on the PC but not here: the Hub's 1 GB file storage is full. Known limits: the opening shot is wide (LeBron small); Kobe is soft; a QA audio check flags 'clipping' but it is a mono-downmix false alarm (real peak -2 dB, zero clipped samples). Post time 6-11 AM ET.",
+  "status": "ready",
+  "tags": "lebron james, most missed shots nba, lebron missed shots record, kobe bryant missed shots, lebron passes kobe, nba records, lebron all time leading scorer, lebron field goal attempts, lebron shooting percentage, kobe vs lebron, nba history, sixers lebron",
+  "title": "Who Has Missed The Most Shots In NBA History? 😳",
+  "titles": [
+    "Who Has Missed The Most Shots In NBA History? 😳"
+  ],
+  "versions": [
+    {
+      "assetId": "f57ef91d2484f34e5ae827ed7d2d0ce7",
+      "label": "v1: voice A (Alex), no music (post this one)",
+      "note": "23.5 s. Frame 1 is a LeBron airball (silent, no rim sound). Cards: 50.7% vs 44.7%, then 31,502 vs Kareem 28,307."
+    },
+    {
+      "assetId": "b11f83f13bda777ec2e1a82eb23e6fdd",
+      "label": "MUSIC TEST: free-for-profit type beat",
+      "note": "Same edit with a type beat at -21 dB under the voice (Downloads/music, 'free for profit' per its title; licence unverified, Content ID risk unknown). A test only: the owner's Oct 14 rule is no baked-in music unless you say yes for this video."
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+[
+ {
+  "clip": "B01.mp4",
+  "kind": "action",
+  "why": "ESPN recap, Q1: scorebug LAL 31, GSW 14 (Lakers way up)",
+  "start": 0.0
+ },
+ {
+  "clip": "B02.mp4",
+  "kind": "face",
+  "why": "Luka celebrates, bug LAL 34 GSW 14 (Q1)",
+  "anchor": "Down",
+  "start": 2.73
+ },
+ {
+  "clip": "B03.mp4",
+  "kind": "face",
+  "why": "Q2, bug 42-33: the Warriors closing",
+  "anchor": "they were",
+  "start": 4.18
+ },
+ {
+  "clip": "B04.mp4",
+  "kind": "action",
+  "why": "Luka and-1 in Q1 (ESPN clip 50332790)",
+  "anchor": "The Lakers",
+  "start": 5.39
+ },
+ {
+  "clip": "B05.mp4",
+  "kind": "action",
+  "why": "Curry three in Q2, bench erupts (ESPN clip 50332985)",
+  "anchor": "Golden State won",
+  "start": 7.55
+ },
+ {
+  "clip": "B06.mp4",
+  "kind": "face",
+  "why": "replay of the Curry three, half speed, closer",
+  "anchor": "The exact",
+  "replay": true,
+  "start": 9.59
+ },
+ {
+  "clip": "B07.mp4",
+  "kind": "action",
+  "why": "end of first half, 53-50 on the bug, fans erupt",
+  "anchor": "Fifty-three",
+  "start": 11.35
+ },
+ {
+  "clip": "B08.mp4",
+  "kind": "action",
+  "why": "Q4, Warriors pull away (ESPN clip 50333380)",
+  "anchor": "Then Golden",
+  "start": 12.94
+ },
+ {
+  "clip": "B09.mp4",
+  "kind": "face",
+  "why": "Luka frustrated, Q3 (ESPN recap)",
+  "anchor": "The team that",
+  "start": 14.57
+ }
+]

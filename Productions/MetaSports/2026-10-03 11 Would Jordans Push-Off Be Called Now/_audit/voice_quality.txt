@@ -1,0 +1,1 @@
+2026-10-03 11 Would Jordans Push-O   REDO HNR   9.2 jit 2.66 shim 10.53 jumps/s 0.00 clicks/min 429.9 hf%  3.18 f0 196 dur 26.94  HNR 9.2 dB (noisy/robotic); jitter 2.66% (shaky); shimmer 10.53% (uneven loudness); 429.9 clicks/min

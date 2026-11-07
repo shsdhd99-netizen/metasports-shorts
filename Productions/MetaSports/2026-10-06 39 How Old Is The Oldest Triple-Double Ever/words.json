@@ -1,0 +1,467 @@
+[
+ {
+  "word": "The",
+  "start": 0.0,
+  "end": 0.126
+ },
+ {
+  "word": "oldest",
+  "start": 0.182,
+  "end": 0.422
+ },
+ {
+  "word": "triple-double",
+  "start": 0.444,
+  "end": 0.899
+ },
+ {
+  "word": "in",
+  "start": 0.922,
+  "end": 0.968
+ },
+ {
+  "word": "NBA",
+  "start": 1.002,
+  "end": 1.264
+ },
+ {
+  "word": "history",
+  "start": 1.321,
+  "end": 1.561
+ },
+ {
+  "word": "lasted",
+  "start": 1.617,
+  "end": 1.868
+ },
+ {
+  "word": "twenty-two",
+  "start": 1.89,
+  "end": 2.232
+ },
+ {
+  "word": "years.",
+  "start": 2.289,
+  "end": 2.596
+ },
+ {
+  "word": "Karl",
+  "start": 2.642,
+  "end": 2.836
+ },
+ {
+  "word": "Malone",
+  "start": 2.87,
+  "end": 3.155
+ },
+ {
+  "word": "owned",
+  "start": 3.189,
+  "end": 3.36
+ },
+ {
+  "word": "it,",
+  "start": 3.394,
+  "end": 3.508
+ },
+ {
+  "word": "at",
+  "start": 3.53,
+  "end": 3.644
+ },
+ {
+  "word": "forty",
+  "start": 3.69,
+  "end": 3.895
+ },
+ {
+  "word": "years,",
+  "start": 3.928,
+  "end": 4.168
+ },
+ {
+  "word": "a",
+  "start": 4.19,
+  "end": 4.225
+ },
+ {
+  "word": "hundred",
+  "start": 4.305,
+  "end": 4.521
+ },
+ {
+  "word": "twenty-seven",
+  "start": 4.555,
+  "end": 4.988
+ },
+ {
+  "word": "days",
+  "start": 5.022,
+  "end": 5.182
+ },
+ {
+  "word": "old,",
+  "start": 5.227,
+  "end": 5.387
+ },
+ {
+  "word": "back",
+  "start": 5.42,
+  "end": 5.58
+ },
+ {
+  "word": "in",
+  "start": 5.615,
+  "end": 5.671
+ },
+ {
+  "word": "two",
+  "start": 5.706,
+  "end": 5.808
+ },
+ {
+  "word": "thousand",
+  "start": 5.854,
+  "end": 6.116
+ },
+ {
+  "word": "three.",
+  "start": 6.149,
+  "end": 6.423
+ },
+ {
+  "word": "Then",
+  "start": 6.457,
+  "end": 6.593
+ },
+ {
+  "word": "LeBron",
+  "start": 6.64,
+  "end": 6.912
+ },
+ {
+  "word": "James",
+  "start": 6.958,
+  "end": 7.163
+ },
+ {
+  "word": "broke",
+  "start": 7.198,
+  "end": 7.379
+ },
+ {
+  "word": "it",
+  "start": 7.402,
+  "end": 7.46
+ },
+ {
+  "word": "in",
+  "start": 7.493,
+  "end": 7.539
+ },
+ {
+  "word": "February.",
+  "start": 7.584,
+  "end": 8.108
+ },
+ {
+  "word": "Forty-one",
+  "start": 8.154,
+  "end": 8.518
+ },
+ {
+  "word": "years,",
+  "start": 8.552,
+  "end": 8.849
+ },
+ {
+  "word": "forty-four",
+  "start": 8.883,
+  "end": 9.259
+ },
+ {
+  "word": "days.",
+  "start": 9.304,
+  "end": 9.577
+ },
+ {
+  "word": "He",
+  "start": 9.612,
+  "end": 9.679
+ },
+ {
+  "word": "broke",
+  "start": 9.714,
+  "end": 9.884
+ },
+ {
+  "word": "his",
+  "start": 9.908,
+  "end": 9.998
+ },
+ {
+  "word": "own",
+  "start": 10.032,
+  "end": 10.135
+ },
+ {
+  "word": "record",
+  "start": 10.17,
+  "end": 10.375
+ },
+ {
+  "word": "again",
+  "start": 10.397,
+  "end": 10.556
+ },
+ {
+  "word": "in",
+  "start": 10.591,
+  "end": 10.637
+ },
+ {
+  "word": "March.",
+  "start": 10.67,
+  "end": 10.944
+ },
+ {
+  "word": "Forty-one",
+  "start": 10.978,
+  "end": 11.297
+ },
+ {
+  "word": "years,",
+  "start": 11.331,
+  "end": 11.604
+ },
+ {
+  "word": "seventy-nine",
+  "start": 11.65,
+  "end": 12.048
+ },
+ {
+  "word": "days.",
+  "start": 12.083,
+  "end": 12.344
+ },
+ {
+  "word": "Eleven",
+  "start": 12.379,
+  "end": 12.618
+ },
+ {
+  "word": "days",
+  "start": 12.652,
+  "end": 12.789
+ },
+ {
+  "word": "later,",
+  "start": 12.823,
+  "end": 13.051
+ },
+ {
+  "word": "a",
+  "start": 13.073,
+  "end": 13.108
+ },
+ {
+  "word": "third",
+  "start": 13.153,
+  "end": 13.324
+ },
+ {
+  "word": "time.",
+  "start": 13.358,
+  "end": 13.631
+ },
+ {
+  "word": "Forty-one",
+  "start": 13.666,
+  "end": 13.973
+ },
+ {
+  "word": "years,",
+  "start": 14.007,
+  "end": 14.258
+ },
+ {
+  "word": "ninety",
+  "start": 14.303,
+  "end": 14.52
+ },
+ {
+  "word": "days.",
+  "start": 14.553,
+  "end": 14.815
+ },
+ {
+  "word": "Three",
+  "start": 14.85,
+  "end": 15.032
+ },
+ {
+  "word": "records",
+  "start": 15.066,
+  "end": 15.306
+ },
+ {
+  "word": "in",
+  "start": 15.34,
+  "end": 15.385
+ },
+ {
+  "word": "forty-six",
+  "start": 15.419,
+  "end": 15.761
+ },
+ {
+  "word": "days.",
+  "start": 15.807,
+  "end": 16.102
+ },
+ {
+  "word": "Opening",
+  "start": 16.137,
+  "end": 16.421
+ },
+ {
+  "word": "night",
+  "start": 16.455,
+  "end": 16.626
+ },
+ {
+  "word": "is",
+  "start": 16.66,
+  "end": 16.741
+ },
+ {
+  "word": "October",
+  "start": 16.786,
+  "end": 17.06
+ },
+ {
+  "word": "twentieth,",
+  "start": 17.093,
+  "end": 17.423
+ },
+ {
+  "word": "at",
+  "start": 17.446,
+  "end": 17.515
+ },
+ {
+  "word": "the",
+  "start": 17.549,
+  "end": 17.617
+ },
+ {
+  "word": "Knicks.",
+  "start": 17.651,
+  "end": 17.992
+ },
+ {
+  "word": "LeBron",
+  "start": 18.027,
+  "end": 18.254
+ },
+ {
+  "word": "will",
+  "start": 18.289,
+  "end": 18.392
+ },
+ {
+  "word": "be",
+  "start": 18.426,
+  "end": 18.494
+ },
+ {
+  "word": "forty-one",
+  "start": 18.528,
+  "end": 18.836
+ },
+ {
+  "word": "years,",
+  "start": 18.858,
+  "end": 19.074
+ },
+ {
+  "word": "two",
+  "start": 19.109,
+  "end": 19.212
+ },
+ {
+  "word": "hundred",
+  "start": 19.246,
+  "end": 19.439
+ },
+ {
+  "word": "ninety-four",
+  "start": 19.462,
+  "end": 19.77
+ },
+ {
+  "word": "days",
+  "start": 19.803,
+  "end": 19.929
+ },
+ {
+  "word": "old.",
+  "start": 19.963,
+  "end": 20.145
+ },
+ {
+  "word": "Any",
+  "start": 20.168,
+  "end": 20.293
+ },
+ {
+  "word": "triple-double",
+  "start": 20.327,
+  "end": 20.76
+ },
+ {
+  "word": "he",
+  "start": 20.795,
+  "end": 20.84
+ },
+ {
+  "word": "records",
+  "start": 20.885,
+  "end": 21.124
+ },
+ {
+  "word": "from",
+  "start": 21.147,
+  "end": 21.238
+ },
+ {
+  "word": "now",
+  "start": 21.272,
+  "end": 21.375
+ },
+ {
+  "word": "on",
+  "start": 21.432,
+  "end": 21.524
+ },
+ {
+  "word": "is",
+  "start": 21.569,
+  "end": 21.637
+ },
+ {
+  "word": "the",
+  "start": 21.671,
+  "end": 21.739
+ },
+ {
+  "word": "oldest",
+  "start": 21.774,
+  "end": 21.979
+ },
+ {
+  "word": "ever.",
+  "start": 22.024,
+  "end": 22.32
+ }
+]

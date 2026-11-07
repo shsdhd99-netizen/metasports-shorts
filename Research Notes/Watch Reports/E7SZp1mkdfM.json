@@ -1,0 +1,314 @@
+{
+ "length_s": 71.6,
+ "topic": "Why FIFA fired Chief Operating Officer Kevin Lamour after he exposed President Gianni Infantino's secret $20 billion World Cup sell-off plan.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "Why did FIFA just FIRE one of their most IMPORTANT members?",
+  "first_frame": "A football match replay showing a clash between players, with overlay text.",
+  "on_screen_text_0_3s": "Why did FIFA just FIRE one of their most IMPORTANT members?",
+  "shots_in_first_3s": 3
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 1.6,
+   "shows": "A football match with players colliding",
+   "kind": "action"
+  },
+  {
+   "start_s": 1.6,
+   "end_s": 2.7,
+   "shows": "A football player walking past a fallen opponent on the pitch",
+   "kind": "action"
+  },
+  {
+   "start_s": 2.7,
+   "end_s": 3.9,
+   "shows": "A news anchor in front of a stadium background",
+   "kind": "face"
+  },
+  {
+   "start_s": 3.9,
+   "end_s": 5.9,
+   "shows": "Kevin Lamour sitting in an audience",
+   "kind": "face"
+  },
+  {
+   "start_s": 5.9,
+   "end_s": 8.5,
+   "shows": "FIFA officials holding a banner outdoors",
+   "kind": "still"
+  },
+  {
+   "start_s": 8.5,
+   "end_s": 10.2,
+   "shows": "Gianni Infantino sitting at a press conference",
+   "kind": "face"
+  },
+  {
+   "start_s": 10.2,
+   "end_s": 11.5,
+   "shows": "Kevin Lamour smiling in the stands",
+   "kind": "face"
+  },
+  {
+   "start_s": 11.5,
+   "end_s": 12.7,
+   "shows": "FIFA officials walking out of a tunnel",
+   "kind": "stock"
+  },
+  {
+   "start_s": 12.7,
+   "end_s": 14.6,
+   "shows": "Kevin Lamour and Gianni Infantino posing together",
+   "kind": "still"
+  },
+  {
+   "start_s": 14.6,
+   "end_s": 15.9,
+   "shows": "Gianni Infantino being hugged from behind",
+   "kind": "face"
+  },
+  {
+   "start_s": 15.9,
+   "end_s": 17.8,
+   "shows": "Gianni Infantino speaking at a podium",
+   "kind": "face"
+  },
+  {
+   "start_s": 17.8,
+   "end_s": 19.0,
+   "shows": "Gianni Infantino with hand on heart",
+   "kind": "face"
+  },
+  {
+   "start_s": 19.0,
+   "end_s": 21.0,
+   "shows": "An upset man crying",
+   "kind": "face"
+  },
+  {
+   "start_s": 21.0,
+   "end_s": 22.3,
+   "shows": "Gianni Infantino speaking with a scarf",
+   "kind": "face"
+  },
+  {
+   "start_s": 22.3,
+   "end_s": 23.7,
+   "shows": "Gianni Infantino holding the World Cup trophy",
+   "kind": "face"
+  },
+  {
+   "start_s": 23.7,
+   "end_s": 25.5,
+   "shows": "Gianni Infantino gesturing at a podium",
+   "kind": "face"
+  },
+  {
+   "start_s": 25.5,
+   "end_s": 27.7,
+   "shows": "The World Cup trophy on a grid background",
+   "kind": "text_card"
+  },
+  {
+   "start_s": 27.7,
+   "end_s": 30.6,
+   "shows": "Gianni Infantino holding the trophy with Donald Trump",
+   "kind": "still"
+  },
+  {
+   "start_s": 30.6,
+   "end_s": 32.0,
+   "shows": "Abstract golden trophy close-up",
+   "kind": "stock"
+  },
+  {
+   "start_s": 32.0,
+   "end_s": 34.1,
+   "shows": "The World Cup trophy with dollar bills flying",
+   "kind": "stock"
+  },
+  {
+   "start_s": 34.1,
+   "end_s": 35.8,
+   "shows": "Someone signing a document",
+   "kind": "stock"
+  },
+  {
+   "start_s": 35.8,
+   "end_s": 37.3,
+   "shows": "Gianni Infantino shouting on stage with microphone",
+   "kind": "face"
+  },
+  {
+   "start_s": 37.3,
+   "end_s": 38.6,
+   "shows": "Lionel Messi and teammates holding the World Cup",
+   "kind": "action"
+  },
+  {
+   "start_s": 38.6,
+   "end_s": 40.4,
+   "shows": "Kevin Lamour looking serious in a suit",
+   "kind": "face"
+  },
+  {
+   "start_s": 40.4,
+   "end_s": 42.7,
+   "shows": "Associated Press news article headline screenshot",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 42.7,
+   "end_s": 45.0,
+   "shows": "Gianni Infantino at a podium",
+   "kind": "face"
+  },
+  {
+   "start_s": 45.0,
+   "end_s": 47.7,
+   "shows": "Kevin Lamour sitting with a grid and text overlay",
+   "kind": "face"
+  },
+  {
+   "start_s": 47.7,
+   "end_s": 49.6,
+   "shows": "Steve Harvey looking confused holding a card",
+   "kind": "face"
+  },
+  {
+   "start_s": 49.6,
+   "end_s": 51.2,
+   "shows": "Gianni Infantino talking passionately outdoors",
+   "kind": "face"
+  },
+  {
+   "start_s": 51.2,
+   "end_s": 52.8,
+   "shows": "Gianni Infantino with hands over face",
+   "kind": "face"
+  },
+  {
+   "start_s": 52.8,
+   "end_s": 54.8,
+   "shows": "UEFA officials talking",
+   "kind": "face"
+  },
+  {
+   "start_s": 54.8,
+   "end_s": 57.1,
+   "shows": "News article: UEFA threatens World Cup boycott",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 57.1,
+   "end_s": 59.2,
+   "shows": "Kevin Lamour speaking at a microphone",
+   "kind": "face"
+  },
+  {
+   "start_s": 59.2,
+   "end_s": 60.5,
+   "shows": "Gianni Infantino greeting people outdoors",
+   "kind": "face"
+  },
+  {
+   "start_s": 60.5,
+   "end_s": 61.9,
+   "shows": "Gianni Infantino shaking hands angrily",
+   "kind": "action"
+  },
+  {
+   "start_s": 61.9,
+   "end_s": 64.6,
+   "shows": "News article about Kevin Lamour leaving FIFA",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 64.6,
+   "end_s": 66.6,
+   "shows": "Kevin Lamour at an event",
+   "kind": "face"
+  },
+  {
+   "start_s": 66.6,
+   "end_s": 67.5,
+   "shows": "Kevin Lamour looking serious",
+   "kind": "face"
+  },
+  {
+   "start_s": 67.5,
+   "end_s": 69.9,
+   "shows": "The FIFA World Cup trophy rotating",
+   "kind": "stock"
+  },
+  {
+   "start_s": 69.9,
+   "end_s": 71.6,
+   "shows": "Gianni Infantino with head in hands",
+   "kind": "face"
+  }
+ ],
+ "shot_count": 40,
+ "average_shot_s": 1.79,
+ "longest_shot_s": 2.9,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 195,
+  "tone": "investigative and dramatic",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "suspenseful documentary beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "mixed",
+  "position": "middle",
+  "colours": "white",
+  "highlight_style": "pop-in"
+ },
+ "text_overlays": [],
+ "cards_or_graphics": 4,
+ "framing": "crop",
+ "ending": {
+  "last_words": "and the people in charge made sure he paid for it.",
+  "last_frame": "Gianni Infantino with his head in his hands looking stressed.",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "Why did FIFA just fire one of their most important members? Meet Kevin Lamour. He was FIFA's Chief Operating Officer, the third most powerful person in the entire organization, and one of President Gianni Infantino's most trusted allies. These two go way back because they worked together at UEFA, and Lamour even helped campaign for Infantino to become FIFA president back in 2016. But the thing that would tear their friendship apart was hidden inside a plan almost nobody was supposed to see. In late July, FIFA quietly announced a plan called FIFA Forward Enterprise, and the idea was to sell off about 20% of a new company that would control the rights to the World Cup, valuing it at $20 billion dollars. Basically, they wanted to hand a piece of the biggest tournament on the planet over to private investors. Lamour was furious, so he went public and told the Associated Press that staff had been deceived and that this was the project of just one person, adding that if speaking out cost him his job, so be it. But saying those words out loud lit a fuse that reached all the way to the top. The deal was already falling apart because UEFA's 55 member nations had voted to threaten a full boycott of future World Cups. Then Lamour spoke out from the inside, and that same night Infantino was forced to scrap the whole thing. 17 days later, FIFA fired Kevin Lamour. So the reason one of FIFA's most important members got fired is simple: he told the truth about selling the World Cup, it worked, and the people in charge made sure he paid for it.",
+ "retention_tricks": [
+  "fast-paced cutting averaging under 2 seconds per shot",
+  "text pop-ups matching spoken keywords",
+  "use of meme reactions like Steve Harvey",
+  "news article headlines as visual proof"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "Starts with a compelling question about high-level corruption inside FIFA",
+  "Uses real news headlines and credible sources to back up the narrative",
+  "Maintains high visual variety with rapid cuts between archival footage, articles, and reactions"
+ ],
+ "_meta": {
+  "source": "E7SZp1mkdfM",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

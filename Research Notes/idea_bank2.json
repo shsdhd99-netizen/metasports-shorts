@@ -1,0 +1,583 @@
+[
+ {
+  "id": "ib36",
+  "title": "Why Did The Spurs Lose A 29-Point Finals Lead? 😳",
+  "lane": "rule/record oddity",
+  "hook": "The Spurs led the Finals by 29. The old comeback record was 24.",
+  "turn": "Then the Knicks cut it down, and it came to a missed Brunson three.",
+  "payoff": "Anunoby tipped it in with 1.2 seconds left. 107-106, biggest comeback in Finals history, by five points.",
+  "sources": [
+   "https://www.nba.com/news/knicks-complete-nba-finals-record-29-point-comeback-to-seal-game-4-win-over-spurs"
+  ],
+  "inspiration_url": "https://www.youtube.com/shorts/gD0bACmHMLo",
+  "inspiration_views": 7142939,
+  "footage": "official NBA/team X posts and NBA YouTube (download via Tools/x_clip.py); Game 4 clips from NBA X",
+  "score": 4,
+  "expected_tier": "B",
+  "risk": "Low. Verify the old-record holder (24) and date (Wed Jun 10) in the nba.com recap.",
+  "status": "built #32 (in Production Queue.md)",
+  "status_checked": "2026-10-13"
+ },
+ {
+  "id": "ib37",
+  "title": "Did One Game Get 3 Billion Views? 🤯",
+  "lane": "surprise-fact",
+  "hook": "One basketball game got three billion views online.",
+  "turn": "That is not the series. That is one game.",
+  "payoff": "Game 4 of the Knicks-Spurs Finals hit 3 billion; the series hit 8 billion, both records.",
+  "sources": [
+   "https://www.nba.com/news/nba-finals-spurs-knicks-game-4-viewership"
+  ],
+  "inspiration_url": "https://www.youtube.com/shorts/gD0bACmHMLo",
+  "inspiration_views": 7142939,
+  "footage": "official NBA/team X posts and NBA YouTube (download via Tools/x_clip.py); NBA X clip + evidence card",
+  "score": 3,
+  "expected_tier": "B",
+  "risk": "Low. Our date for Game 4 is June 10; the fetched page showed June 12, recheck.",
+  "status": "open (not built; re-check freshness before use)",
+  "status_checked": "2026-10-13"
+ },
+ {
+  "id": "ib38",
+  "title": "Did LeBron Just Pass Jordan In 30-Point Games? 😳",
+  "lane": "rule/record oddity",
+  "hook": "LeBron has more 30-point games than Michael Jordan.",
+  "turn": "672 to 671, if you count the way one outlet does.",
+  "payoff": "One game. Then Wilt is far back at 557. Check what the count includes before you voice it.",
+  "sources": [
+   "https://thesource.com/2026/07/31/lebron-james-nba-records-76ers-2026-27/",
+   "https://www.basketball-reference.com/leaders/pts_30_career.html"
+  ],
+  "inspiration_url": "https://www.youtube.com/shorts/ETZN1uybBSQ",
+  "inspiration_views": 675890,
+  "footage": "archive.org / X: Sixers posts of LeBron scoring; evidence card from b-ref",
+  "score": 4,
+  "expected_tier": "B",
+  "risk": "Medium. Secondary source only; regular season vs incl. playoffs may flip the 672/671.",
+  "status": "open (not built; re-check freshness before use)",
+  "status_checked": "2026-10-13"
+ },
+ {
+  "id": "ib39",
+  "title": "How Old Is The Oldest Triple-Double Ever? 👴",
+  "lane": "rule/record oddity",
+  "hook": "The oldest triple-double used to belong to Karl Malone.",
+  "turn": "It stood 22 years at 40 years, 127 days.",
+  "payoff": "LeBron broke it in Feb 2026 and is 41 now. Confirm his exact age that night.",
+  "sources": [
+   "https://thesource.com/2026/07/31/lebron-james-nba-records-76ers-2026-27/",
+   "https://www.basketball-reference.com/players/j/jamesle01.html"
+  ],
+  "inspiration_url": "https://www.youtube.com/shorts/ETZN1uybBSQ",
+  "inspiration_views": 675890,
+  "footage": "official NBA/team X posts and NBA YouTube (download via Tools/x_clip.py); Feb 2026 LeBron triple-double clip, official X",
+  "score": 3,
+  "expected_tier": "B",
+  "risk": "Medium. Needs a primary check of the date and age.",
+  "status": "built #39 (in Production Queue.md)",
+  "status_checked": "2026-10-13"
+ },
+ {
+  "id": "ib40",
+  "title": "Can LeBron Win Titles With Four Teams? 🏆",
+  "lane": "rule/record oddity",
+  "hook": "No player has ever won titles with four franchises.",
+  "turn": "Robert Horry, John Salley and Danny Green stopped at three.",
+  "payoff": "LeBron, now on the Sixers, can be the first. Also the oldest Finals MVP ever (Kareem 38y 54d).",
+  "sources": [
+   "https://thesource.com/2026/07/31/lebron-james-nba-records-76ers-2026-27/",
+   "https://www.basketball-reference.com/leaders/titles_career.html"
+  ],
+  "inspiration_url": "https://www.youtube.com/shorts/ETZN1uybBSQ",
+  "inspiration_views": 675890,
+  "footage": "official NBA/team X posts and NBA YouTube (download via Tools/x_clip.py); Sixers X posts of LeBron + archive Horry clips",
+  "score": 4,
+  "expected_tier": "B",
+  "risk": "Medium. Confirm Horry/Salley/Green counts and that LeBron has titles with three teams.",
+  "status": "open (not built; re-check freshness before use)",
+  "status_checked": "2026-10-13"
+ },
+ {
+  "id": "ib41",
+  "title": "How Long Was LeBron Pro Before Boozer Existed? 😳",
+  "lane": "surprise-fact-with-payoff",
+  "hook": "LeBron was already in the NBA when this rookie was not born.",
+  "turn": "Cameron Boozer, the league's youngest player, was born July 18, 2007.",
+  "payoff": "LeBron debuted in 2003. He was four years into the NBA before Boozer's first birthday clock started.",
+  "sources": [
+   "https://www.hoopsrumors.com/2026/10/oldest-youngest-players-on-nba-rosters-for-2026-27.html",
+   "https://www.basketball-reference.com/players/j/jamesle01.html"
+  ],
+  "inspiration_url": "https://www.youtube.com/shorts/FuDbk7L_-KQ",
+  "inspiration_views": 738993,
+  "footage": "official NBA/team X posts and NBA YouTube (download via Tools/x_clip.py); Sixers/Grizzlies X posts; archive.org 2003 clips",
+  "score": 5,
+  "expected_tier": "A",
+  "risk": "Low. Simple math, two primary pages. Check LeBron's debut date on b-ref.",
+  "status": "built #36 (in Production Queue.md)",
+  "status_checked": "2026-10-13"
+ },
+ {
+  "id": "ib42",
+  "title": "Are Three Of 2007's Top Four Picks Still Playing? 🤯",
+  "lane": "surprise-fact-with-payoff",
+  "hook": "Three of the top four picks in the 2007 draft are still in the NBA.",
+  "turn": "Not Oden. Durant at 2, Horford at 3 and Conley at 4.",
+  "payoff": "Durant on the Rockets, Horford on the Warriors, Conley on the Celtics, 19-20 years later.",
+  "sources": [
+   "https://www.hoopsrumors.com/2026/10/oldest-youngest-players-on-nba-rosters-for-2026-27.html",
+   "https://www.basketball-reference.com/draft/NBA_2007.html"
+  ],
+  "inspiration_url": "https://www.youtube.com/shorts/xfB4WAwBCf4",
+  "inspiration_views": 853756,
+  "footage": "official NBA/team X posts and NBA YouTube (download via Tools/x_clip.py); team X posts; archive.org 2007 draft night",
+  "score": 4,
+  "expected_tier": "B",
+  "risk": "Low-medium. Confirm draft order (my memory) and that all three are on opening-night rosters.",
+  "status": "posted (#34)",
+  "status_checked": "2026-10-13"
+ },
+ {
+  "id": "ib43",
+  "title": "Why Is Nobody 18 On Opening Night? 🍼",
+  "lane": "surprise-fact",
+  "hook": "Opening night has no 18-year-old this year.",
+  "turn": "Last season had a few.",
+  "payoff": "The youngest, Cameron Boozer, was born July 18, 2007. Cooper Flagg, last year's youngest, is only 11th now.",
+  "sources": [
+   "https://www.hoopsrumors.com/2026/10/oldest-youngest-players-on-nba-rosters-for-2026-27.html"
+  ],
+  "inspiration_url": "https://www.youtube.com/shorts/FuDbk7L_-KQ",
+  "inspiration_views": 738993,
+  "footage": "official NBA/team X posts and NBA YouTube (download via Tools/x_clip.py); Grizzlies/Mavs X",
+  "score": 2,
+  "expected_tier": "C",
+  "risk": "Low. Weak hook.",
+  "status": "open (not built; re-check freshness before use)",
+  "status_checked": "2026-10-13"
+ },
+ {
+  "id": "ib44",
+  "title": "Is Horford Really The 13th To Play 20 Seasons? 🐐",
+  "lane": "rule/record oddity",
+  "hook": "Al Horford is about to play a 20th season.",
+  "turn": "Only twelve others ever did.",
+  "payoff": "Horford will be 13th, at 40, with Golden State. Quote: 'pretty special'.",
+  "sources": [
+   "https://www.staradvertiser.com/2026/10/02/sports/golden-states-horford-pushes-on-to-20th-season/"
+  ],
+  "inspiration_url": "https://www.youtube.com/shorts/gYGXxbMcCgY",
+  "inspiration_views": 160424,
+  "footage": "official NBA/team X posts and NBA YouTube (download via Tools/x_clip.py); NBA X Horford clip (has quote)",
+  "score": 3,
+  "expected_tier": "B",
+  "risk": "Low.",
+  "status": "open (not built; re-check freshness before use)",
+  "status_checked": "2026-10-13"
+ },
+ {
+  "id": "ib45",
+  "title": "Why Did Wemby Train With A Rugby Team? 🏉",
+  "lane": "surprise-fact-with-payoff",
+  "hook": "Wembanyama spent four days with a French rugby club.",
+  "turn": "Provence Rugby, Pro D2, with Harrison Barnes beside him.",
+  "payoff": "He said it was good for the vestibular system and new strength. Year 4 starts Oct 20.",
+  "sources": [
+   "https://sportando.basketball/en/wembanyama-trains-with-a-rugby-team-spends-four-days-with-provence-rugby/",
+   "https://www.si.com/nba/spurs/onsi/san-antonio-spurs-media-day-notebook-victor-wembanyama-conditioning-rugby-training-more"
+  ],
+  "inspiration_url": "https://www.youtube.com/shorts/Wh19WV5lYGc",
+  "inspiration_views": 738172,
+  "footage": "official NBA/team X posts and NBA YouTube (download via Tools/x_clip.py); Spurs X media-day clip (real voice)",
+  "score": 4,
+  "expected_tier": "A",
+  "risk": "Low. Wemby content proven (26K). Confirm the quote word-for-word in the clip.",
+  "status": "posted (#35)",
+  "status_checked": "2026-10-13"
+ },
+ {
+  "id": "ib46",
+  "title": "What Did Wemby Say About Losing Sleep? 😳",
+  "lane": "real-voice",
+  "hook": "Wemby lost sleep over the Finals.",
+  "turn": "He said it at media day.",
+  "payoff": "Quote must come from the Spurs clip. YouTube title: 'Wemby talks losing sleep over Finals'.",
+  "sources": [
+   "https://www.youtube.com/watch?v=biIEnrOXOw4"
+  ],
+  "inspiration_url": "https://www.youtube.com/shorts/Wh19WV5lYGc",
+  "inspiration_views": 738172,
+  "footage": "official NBA/team X posts and NBA YouTube (download via Tools/x_clip.py); Spurs/NBA media day clip",
+  "score": 3,
+  "expected_tier": "B",
+  "risk": "Medium. Quote not read yet.",
+  "status": "open (not built; re-check freshness before use)",
+  "status_checked": "2026-10-13"
+ },
+ {
+  "id": "ib47",
+  "title": "What Did LeBron Promise Sixers Fans? 🗣️",
+  "lane": "real-voice",
+  "hook": "LeBron said one sentence at Sixers media day.",
+  "turn": "'I didn't leave my family to lose in the second round.'",
+  "payoff": "Voice the real clip, then the stakes: oldest MVP-pace titles chase at 41.",
+  "sources": [
+   "https://www.espn.com/nba/story/_/id/50023689/nba-2026-media-day-sights-sounds-highlights"
+  ],
+  "inspiration_url": "https://www.youtube.com/shorts/Y3uZ9csCyP8",
+  "inspiration_views": 512749,
+  "footage": "official NBA/team X posts and NBA YouTube (download via Tools/x_clip.py); Sixers X media-day clip",
+  "score": 4,
+  "expected_tier": "A",
+  "risk": "Medium. Quote is from ESPN text; check audio before use.",
+  "status": "built #38 (in Production Queue.md)",
+  "status_checked": "2026-10-13"
+ },
+ {
+  "id": "ib48",
+  "title": "Why Does Kawhi Say He Needs Pressure? 🔥",
+  "lane": "real-voice",
+  "hook": "Kawhi Leonard is back in Toronto.",
+  "turn": "'I need pressure. I need a winning situation.'",
+  "payoff": "He won the 2019 title there. Use his clip for the line.",
+  "sources": [
+   "https://www.espn.com/nba/story/_/id/50023689/nba-2026-media-day-sights-sounds-highlights"
+  ],
+  "inspiration_url": "https://www.youtube.com/shorts/Udj-CrPFLH0",
+  "inspiration_views": 202486,
+  "footage": "official NBA/team X posts and NBA YouTube (download via Tools/x_clip.py); Raptors/NBA X clip",
+  "score": 3,
+  "expected_tier": "B",
+  "risk": "Low.",
+  "status": "open (not built; re-check freshness before use)",
+  "status_checked": "2026-10-13"
+ },
+ {
+  "id": "ib49",
+  "title": "Why Did Jimmy Butler Get New Piercings? 💎",
+  "lane": "funny/real-voice",
+  "hook": "Jimmy Butler showed up at media day with diamond earrings.",
+  "turn": "He got them while rehabbing an ACL.",
+  "payoff": "He said he was bored, and had to keep the piercings in for a year.",
+  "sources": [
+   "https://wsvn.com/sports/miami-heat/jimmy-butler-new-piercings/"
+  ],
+  "inspiration_url": "https://www.youtube.com/shorts/Wh19WV5lYGc",
+  "inspiration_views": 738172,
+  "footage": "official NBA/team X posts and NBA YouTube (download via Tools/x_clip.py); Warriors X",
+  "score": 2,
+  "expected_tier": "C",
+  "risk": "Low-medium. Warriors vs Heat attribution in sources conflicts; use Warriors X.",
+  "status": "open (not built; re-check freshness before use)",
+  "status_checked": "2026-10-13"
+ },
+ {
+  "id": "ib50",
+  "title": "Who Is Rated Highest In NBA 2K27? 🎮",
+  "lane": "surprise-fact",
+  "hook": "Three players tie for the top 2K27 rating.",
+  "turn": "Jokic, Gilgeous-Alexander and Wembanyama are all 97.",
+  "payoff": "Giannis, Brunson and Doncic sit one point behind at 96.",
+  "sources": [
+   "https://www.nba.com/news/nba-2k27-top-100-player-ratings-announced"
+  ],
+  "inspiration_url": "https://www.youtube.com/shorts/N_i463sjSK8",
+  "inspiration_views": 556928,
+  "footage": "2K official X/YouTube, ratings card",
+  "score": 4,
+  "expected_tier": "A",
+  "risk": "Low. Confirm on nba.2k.com Top 100.",
+  "status": "built #37 (in Production Queue.md)",
+  "status_checked": "2026-10-13"
+ },
+ {
+  "id": "ib51",
+  "title": "How Many Players Does 2K Rate Above LeBron? 🎮",
+  "lane": "surprise-fact",
+  "hook": "2K27 rates 15 players above LeBron.",
+  "turn": "It ends his streak.",
+  "payoff": "Name the streak from the source, then his rating.",
+  "sources": [
+   "https://sports.yahoo.com/articles/15-players-nba-2k27-rated-185454075.html",
+   "https://www.nba.com/news/nba-2k27-top-100-player-ratings-announced"
+  ],
+  "inspiration_url": "https://www.youtube.com/shorts/N_i463sjSK8",
+  "inspiration_views": 556928,
+  "footage": "2K official X, ratings card",
+  "score": 4,
+  "expected_tier": "B",
+  "risk": "Medium. Streak and number unverified beyond Yahoo headline.",
+  "status": "open (not built; re-check freshness before use)",
+  "status_checked": "2026-10-13"
+ },
+ {
+  "id": "ib52",
+  "title": "Did 2K Rate Dybantsa Above Boozer? 🎮",
+  "lane": "surprise-fact",
+  "hook": "Rookie ratings are out.",
+  "turn": "AJ Dybantsa, Darryn Peterson and Cameron Boozer.",
+  "payoff": "Numbers not verified; fill from nba.2k.com.",
+  "sources": [
+   "https://athlonsports.com/sports-video-games/nba-2k27-player-ratings-aj-dybantsa-darryn-peterson-and-cameron-boozer-ovrs"
+  ],
+  "inspiration_url": "https://www.youtube.com/shorts/N_i463sjSK8",
+  "inspiration_views": 556928,
+  "footage": "2K official X",
+  "score": 3,
+  "expected_tier": "B",
+  "risk": "Medium. Numbers missing.",
+  "status": "open (not built; re-check freshness before use)",
+  "status_checked": "2026-10-13"
+ },
+ {
+  "id": "ib53",
+  "title": "Is Seattle Getting An NBA Team Back? 🌧️",
+  "lane": "surprise-fact",
+  "hook": "The NBA is formally exploring two new teams.",
+  "turn": "Seattle and Las Vegas, for 2028-29.",
+  "payoff": "Twenty-three of 30 governors must approve; one Western team would move East; decision due by end of 2026.",
+  "sources": [
+   "https://pr.nba.com/nba-board-of-governors-potential-expansion-las-vegas-seattle"
+  ],
+  "inspiration_url": "https://www.youtube.com/shorts/xfB4WAwBCf4",
+  "inspiration_views": 853756,
+  "footage": "NBA X / archive.org SuperSonics clips",
+  "score": 3,
+  "expected_tier": "B",
+  "risk": "Medium. News lane; may be stale by posting.",
+  "status": "open (not built; re-check freshness before use)",
+  "status_checked": "2026-10-13"
+ },
+ {
+  "id": "ib54",
+  "title": "What Happens If A Team Runs Out Of Players? 🧱",
+  "lane": "rule/oddity",
+  "hook": "Five players foul out and the team has nobody left.",
+  "turn": "The rule keeps the last one in the game.",
+  "payoff": "He is charged a technical for each further foul. Verify wording in the rulebook.",
+  "sources": [
+   "https://official.nba.com/rulebook/"
+  ],
+  "inspiration_url": "https://www.youtube.com/shorts/h9BkqCMpTgI",
+  "inspiration_views": 6454691,
+  "footage": "archive.org rulebook explainer; footage of a foul-out game",
+  "score": 4,
+  "expected_tier": "A",
+  "risk": "Medium. Wording must be checked against 2026-27 rulebook.",
+  "status": "built #33, blocked: corrupt clip + replay, needs new footage",
+  "status_checked": "2026-10-13"
+ },
+ {
+  "id": "ib55",
+  "title": "How Many Technicals Get A Star Suspended? 🟨",
+  "lane": "rule/oddity",
+  "hook": "There is a technical-foul number that costs a star a game.",
+  "turn": "Sixteen in the regular season (check).",
+  "payoff": "Seven in the playoffs (check). Name a player nearing it.",
+  "sources": [
+   "https://official.nba.com/"
+  ],
+  "inspiration_url": "https://www.youtube.com/shorts/h9BkqCMpTgI",
+  "inspiration_views": 6454691,
+  "footage": "X posts of technicals",
+  "score": 3,
+  "expected_tier": "B",
+  "risk": "Medium. Numbers from memory, verify.",
+  "status": "open (not built; re-check freshness before use)",
+  "status_checked": "2026-10-13"
+ },
+ {
+  "id": "ib56",
+  "title": "Why Is Hanging On The Rim A Foul? 🏀",
+  "lane": "rule/oddity",
+  "hook": "Grab the rim and the referee can T you.",
+  "turn": "Unless you are preventing injury.",
+  "payoff": "Check rulebook text.",
+  "sources": [
+   "https://official.nba.com/rulebook/"
+  ],
+  "inspiration_url": "https://www.youtube.com/shorts/h9BkqCMpTgI",
+  "inspiration_views": 6454691,
+  "footage": "archive.org dunk clips",
+  "score": 2,
+  "expected_tier": "C",
+  "risk": "Medium.",
+  "status": "open (not built; re-check freshness before use)",
+  "status_checked": "2026-10-13"
+ },
+ {
+  "id": "ib57",
+  "title": "Did A Coach Just Challenge Zion Publicly? 😳",
+  "lane": "real-voice",
+  "hook": "Pelicans coach Jamahl Mosley posed one question to Zion.",
+  "turn": "'How do you make your teammates better?'",
+  "payoff": "Voice the real clip; do not add attacks.",
+  "sources": [
+   "https://www.espn.com/nba/story/_/id/50023689/nba-2026-media-day-sights-sounds-highlights"
+  ],
+  "inspiration_url": "https://www.youtube.com/shorts/1ibDA34hUwA",
+  "inspiration_views": 432250,
+  "footage": "official NBA/team X posts and NBA YouTube (download via Tools/x_clip.py); Pelicans X",
+  "score": 3,
+  "expected_tier": "B",
+  "risk": "Medium. Player-criticism framing; keep neutral.",
+  "status": "open (not built; re-check freshness before use)",
+  "status_checked": "2026-10-13"
+ },
+ {
+  "id": "ib58",
+  "title": "Why Did Chris Paul Retire Without A Ring? 😳",
+  "lane": "surprise-fact",
+  "hook": "Chris Paul has retired.",
+  "turn": "Along with Kyle Lowry and Garrett Temple.",
+  "payoff": "Verify date, seasons and Paul's playoff record before voicing.",
+  "sources": [
+   "https://www.hoopsrumors.com/2026/10/oldest-youngest-players-on-nba-rosters-for-2026-27.html"
+  ],
+  "inspiration_url": "https://www.youtube.com/shorts/fv5aBKe_LKE",
+  "inspiration_views": 1500000,
+  "footage": "archive.org / X Paul career clips",
+  "score": 3,
+  "expected_tier": "B",
+  "risk": "Medium. Retirement per Hoops Rumors only.",
+  "status": "open (not built; re-check freshness before use)",
+  "status_checked": "2026-10-13"
+ },
+ {
+  "id": "ib59",
+  "title": "Did The First Preseason Whistle Change Everything? 🔔",
+  "lane": "rule/oddity",
+  "hook": "The first preseason foul of 2026 was a new call.",
+  "turn": "Oct 3, Raptors-Heat, Quebec City: Scottie Barnes, off-arm push-off.",
+  "payoff": "The league announced it in late September. Overlaps made #11.",
+  "sources": [
+   "https://www.si.com/nba/heat-raptors-preseason-game-showed-off-one-key-rule-change"
+  ],
+  "inspiration_url": "https://www.youtube.com/shorts/h9BkqCMpTgI",
+  "inspiration_views": 6454691,
+  "footage": "X clip of the foul",
+  "score": 3,
+  "expected_tier": "B",
+  "risk": "Medium. Close to our #11.",
+  "status": "open (not built; re-check freshness before use)",
+  "status_checked": "2026-10-13"
+ },
+ {
+  "id": "ib60",
+  "title": "Who Has Missed The Most Shots In NBA History? 😳",
+  "lane": "surprise-fact-with-payoff",
+  "hook": "The record for missed field goals was once Kobe's 14,481.",
+  "turn": "LeBron passed it in October 2024.",
+  "payoff": "He has 14,482 then; now more. The record means you played forever.",
+  "sources": [
+   "https://thesource.com/2026/07/31/lebron-james-nba-records-76ers-2026-27/",
+   "https://www.basketball-reference.com/players/j/jamesle01.html"
+  ],
+  "inspiration_url": "https://www.youtube.com/shorts/ETZN1uybBSQ",
+  "inspiration_views": 675890,
+  "footage": "archive.org/X LeBron clips",
+  "score": 4,
+  "expected_tier": "B",
+  "risk": "Low-medium. Update the current total on b-ref.",
+  "status": "open (not built; re-check freshness before use)",
+  "status_checked": "2026-10-13"
+ },
+ {
+  "id": "ib61",
+  "title": "Can LeBron Pass Kidd In Eleven Games? 🎯",
+  "lane": "rule/record oddity",
+  "hook": "LeBron is 75 assists from third all-time.",
+  "turn": "Jason Kidd is ahead at 12,091.",
+  "payoff": "At his rate it is about 11 games. Overlaps IB 'LeBron point guard'.",
+  "sources": [
+   "https://x.com/BBallGround/status/2088540941481099311",
+   "https://www.basketball-reference.com/leaders/ast_career.html"
+  ],
+  "inspiration_url": "https://www.youtube.com/shorts/ETZN1uybBSQ",
+  "inspiration_views": 675890,
+  "footage": "X/Sixers",
+  "score": 4,
+  "expected_tier": "B",
+  "risk": "Low. Verify totals.",
+  "status": "open (not built; re-check freshness before use)",
+  "status_checked": "2026-10-13"
+ },
+ {
+  "id": "ib62",
+  "title": "Why Is LeBron Chasing Kareem In Wins? 🏆",
+  "lane": "rule/record oddity",
+  "hook": "LeBron is 27 wins short of Kareem.",
+  "turn": "1,048 against 1,074.",
+  "payoff": "Verify what Kareem's record means (regular season).",
+  "sources": [
+   "https://thesource.com/2026/07/31/lebron-james-nba-records-76ers-2026-27/",
+   "https://www.basketball-reference.com/leaders/wins_career.html"
+  ],
+  "inspiration_url": "https://www.youtube.com/shorts/ETZN1uybBSQ",
+  "inspiration_views": 675890,
+  "footage": "archive.org",
+  "score": 3,
+  "expected_tier": "B",
+  "risk": "Medium.",
+  "status": "open (not built; re-check freshness before use)",
+  "status_checked": "2026-10-13"
+ },
+ {
+  "id": "ib63",
+  "title": "Can LeBron Reach 45,000 Points This Year? 🏀",
+  "lane": "rule/record oddity",
+  "hook": "LeBron needs 1,560 points to reach 45,000.",
+  "turn": "That is about 75 games at last year's 20.9.",
+  "payoff": "The Sixers play 82. Verify.",
+  "sources": [
+   "https://thesource.com/2026/07/31/lebron-james-nba-records-76ers-2026-27/",
+   "https://www.basketball-reference.com/players/j/jamesle01.html"
+  ],
+  "inspiration_url": "https://www.youtube.com/shorts/ETZN1uybBSQ",
+  "inspiration_views": 675890,
+  "footage": "X/Sixers",
+  "score": 3,
+  "expected_tier": "B",
+  "risk": "Low.",
+  "status": "open (not built; re-check freshness before use)",
+  "status_checked": "2026-10-13"
+ },
+ {
+  "id": "ib64",
+  "title": "Did Brunson Actually Miss The Winner? 😳",
+  "lane": "surprise-fact-with-payoff",
+  "hook": "The Game 4 winner is not credited to Brunson's shot.",
+  "turn": "His three hit the front rim.",
+  "payoff": "Anunoby tipped it in at 1.2 seconds. 107-106.",
+  "sources": [
+   "https://www.nba.com/news/knicks-complete-nba-finals-record-29-point-comeback-to-seal-game-4-win-over-spurs"
+  ],
+  "inspiration_url": "https://www.youtube.com/shorts/gD0bACmHMLo",
+  "inspiration_views": 7142939,
+  "footage": "official NBA/team X posts and NBA YouTube (download via Tools/x_clip.py); NBA X",
+  "score": 3,
+  "expected_tier": "B",
+  "risk": "Low.",
+  "status": "open (not built; re-check freshness before use)",
+  "status_checked": "2026-10-13"
+ },
+ {
+  "id": "ib65",
+  "title": "Is Horford The Only Other 40-Year-Old? 👴",
+  "lane": "surprise-fact",
+  "hook": "Only two active players are in their 40s.",
+  "turn": "LeBron and Horford.",
+  "payoff": "LeBron turns 42 before year-end; Chris Paul and Lowry are gone.",
+  "sources": [
+   "https://www.hoopsrumors.com/2026/10/oldest-youngest-players-on-nba-rosters-for-2026-27.html"
+  ],
+  "inspiration_url": "https://www.youtube.com/shorts/FuDbk7L_-KQ",
+  "inspiration_views": 738993,
+  "footage": "official NBA/team X posts and NBA YouTube (download via Tools/x_clip.py); X",
+  "score": 3,
+  "expected_tier": "B",
+  "risk": "Low. Check Horford's age (40y 54d).",
+  "status": "open (not built; re-check freshness before use)",
+  "status_checked": "2026-10-13"
+ }
+]

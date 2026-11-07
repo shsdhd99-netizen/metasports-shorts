@@ -1,0 +1,99 @@
+[
+ {
+  "clip": "H01.mp4",
+  "kind": "action",
+  "why": "Edgecombe's arms go up as his 50-footer flies, behind-the-shooter close-up (ESPN clip, Oct 28 2026 at Indiana)",
+  "start": 0.0
+ },
+ {
+  "clip": "H02.mp4",
+  "kind": "face",
+  "why": "Jović (#5 JOVIC) walks off at half-time high-fiving, slowed to half speed (ESPN clip, at Atlanta)",
+  "anchor": "First, Miami's",
+  "start": 2.73
+ },
+ {
+  "clip": "H03.mp4",
+  "kind": "action",
+  "why": "LIVE (Heat at Hawks broadcast call): Jović grabs the loose ball and lets it go from 40 feet",
+  "anchor": "has a loose",
+  "lead": 0.1,
+  "start": 4.28
+ },
+ {
+  "clip": "H04.mp4",
+  "kind": "action",
+  "why": "LIVE: the 40-footer drops at the buzzer",
+  "anchor": "he got it",
+  "lead": 0.0,
+  "start": 6.79
+ },
+ {
+  "clip": "H04B.mp4",
+  "kind": "action",
+  "why": "LIVE: 'and that one does count', the crowd and the Heat bench",
+  "anchor": "and that one",
+  "lead": 0.0,
+  "start": 8.13
+ },
+ {
+  "clip": "H05.mp4",
+  "kind": "action",
+  "why": "Indiana, end of the first half: Ubre's three falls short",
+  "anchor": "Twenty minutes later",
+  "start": 9.91
+ },
+ {
+  "clip": "H06.mp4",
+  "kind": "action",
+  "why": "Ubre's three falls short and Edgecombe grabs the rebound with 1.7 s left",
+  "anchor": "VJ Edgecombe grabs",
+  "start": 11.15
+ },
+ {
+  "clip": "H07.mp4",
+  "kind": "action",
+  "why": "LIVE (76ers at Pacers broadcast call): the 50-foot heave",
+  "anchor": "half-court, that'll",
+  "lead": 0.1,
+  "start": 13.56
+ },
+ {
+  "clip": "H08.mp4",
+  "kind": "action",
+  "why": "LIVE: 'Oh, Edgecombe nails it at the buzzer'",
+  "anchor": "Oh, Edgecombe",
+  "lead": 0.0,
+  "start": 15.62
+ },
+ {
+  "clip": "H09.mp4",
+  "kind": "action",
+  "why": "replay from behind the basket: the ball drops in",
+  "anchor": "But here's",
+  "replay": true,
+  "start": 18.67
+ },
+ {
+  "clip": "H10.mp4",
+  "kind": "face",
+  "why": "Jović (#5) mobbed by teammates after the shot",
+  "anchor": "Jović played seven",
+  "start": 19.55
+ },
+ {
+  "clip": "H11.mp4",
+  "kind": "action",
+  "why": "floor-level angle of the play: Edgecombe (#77) grabs the miss",
+  "anchor": "And Edgecombe went",
+  "start": 21.38
+ },
+ {
+  "clip": "H12.mp4",
+  "kind": "action",
+  "why": "payoff: Edgecombe's arms up as the 50-footer flies (same close-up as frame 1, later seconds)",
+  "anchor": "His only make",
+  "replay": true,
+  "start": 23.29
+ }
+]

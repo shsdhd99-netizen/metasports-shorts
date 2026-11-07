@@ -1,0 +1,109 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,TikTok Sans SemiBold,80,&H00FFFFFF,&H00FFFFFF,&H00000000,&H99000000,0,0,0,0,100,100,0,0,1,3.2,1,5,70,70,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:02.31,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Players who got SENT OFF\Nin their very last game
+Dialogue: 0,0:00:02.31,0:00:03.37,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Back in 2006,
+Dialogue: 0,0:00:03.37,0:00:04.15,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Zinedine Zidane
+Dialogue: 0,0:00:04.15,0:00:04.92,Cap,,0,0,0,,{\pos(540,960)\blur0.5}had already announced
+Dialogue: 0,0:00:04.92,0:00:05.81,Cap,,0,0,0,,{\pos(540,960)\blur0.5}that the World Cup
+Dialogue: 0,0:00:05.81,0:00:06.20,Cap,,0,0,0,,{\pos(540,960)\blur0.5}would be the
+Dialogue: 0,0:00:06.20,0:00:06.85,Cap,,0,0,0,,{\pos(540,960)\blur0.5}last tournament
+Dialogue: 0,0:00:06.85,0:00:07.53,Cap,,0,0,0,,{\pos(540,960)\blur0.5}of his career.
+Dialogue: 0,0:00:07.53,0:00:08.01,Cap,,0,0,0,,{\pos(540,960)\blur0.5}And France
+Dialogue: 0,0:00:08.01,0:00:08.22,Cap,,0,0,0,,{\pos(540,960)\blur0.5}made it
+Dialogue: 0,0:00:08.22,0:00:08.66,Cap,,0,0,0,,{\pos(540,960)\blur0.5}all the way
+Dialogue: 0,0:00:08.66,0:00:09.24,Cap,,0,0,0,,{\pos(540,960)\blur0.5}to the final
+Dialogue: 0,0:00:09.24,0:00:09.85,Cap,,0,0,0,,{\pos(540,960)\blur0.5}against Italy,
+Dialogue: 0,0:00:09.85,0:00:10.51,Cap,,0,0,0,,{\pos(540,960)\blur0.5}in Berlin.
+Dialogue: 0,0:00:10.51,0:00:11.42,Cap,,0,0,0,,{\pos(540,960)\blur0.5}After seven minutes,
+Dialogue: 0,0:00:11.42,0:00:12.01,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Zidane stepped
+Dialogue: 0,0:00:12.01,0:00:12.33,Cap,,0,0,0,,{\pos(540,960)\blur0.5}up to take
+Dialogue: 0,0:00:12.33,0:00:13.00,Cap,,0,0,0,,{\pos(540,960)\blur0.5}a penalty against
+Dialogue: 0,0:00:13.00,0:00:14.03,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Gianluigi Buffon.
+Dialogue: 0,0:00:14.03,0:00:14.38,Cap,,0,0,0,,{\pos(540,960)\blur0.5}But instead
+Dialogue: 0,0:00:14.38,0:00:15.13,Cap,,0,0,0,,{\pos(540,960)\blur0.5}of smashing it,
+Dialogue: 0,0:00:15.13,0:00:15.55,Cap,,0,0,0,,{\pos(540,960)\blur0.5}he chipped it
+Dialogue: 0,0:00:15.55,0:00:16.19,Cap,,0,0,0,,{\pos(540,960)\blur0.5}down the middle.
+Dialogue: 0,0:00:16.19,0:00:16.54,Cap,,0,0,0,,{\pos(540,960)\blur0.5}The ball
+Dialogue: 0,0:00:16.54,0:00:17.06,Cap,,0,0,0,,{\pos(540,960)\blur0.5}hit the underside
+Dialogue: 0,0:00:17.06,0:00:17.78,Cap,,0,0,0,,{\pos(540,960)\blur0.5}of the crossbar,
+Dialogue: 0,0:00:17.78,0:00:18.06,Cap,,0,0,0,,{\pos(540,960)\blur0.5}bounced
+Dialogue: 0,0:00:18.06,0:00:18.73,Cap,,0,0,0,,{\pos(540,960)\blur0.5}over the line,
+Dialogue: 0,0:00:18.73,0:00:19.20,Cap,,0,0,0,,{\pos(540,960)\blur0.5}and France
+Dialogue: 0,0:00:19.20,0:00:19.74,Cap,,0,0,0,,{\pos(540,960)\blur0.5}were winning.
+Dialogue: 0,0:00:19.74,0:00:20.44,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Twelve minutes later,
+Dialogue: 0,0:00:20.44,0:00:21.48,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Marco Materazzi headed
+Dialogue: 0,0:00:21.48,0:00:22.29,Cap,,0,0,0,,{\pos(540,960)\blur0.5}in the equalizer.
+Dialogue: 0,0:00:22.29,0:00:22.70,Cap,,0,0,0,,{\pos(540,960)\blur0.5}The game went
+Dialogue: 0,0:00:22.70,0:00:23.36,Cap,,0,0,0,,{\pos(540,960)\blur0.5}to extra time,
+Dialogue: 0,0:00:23.36,0:00:23.89,Cap,,0,0,0,,{\pos(540,960)\blur0.5}and Zidane
+Dialogue: 0,0:00:23.89,0:00:24.53,Cap,,0,0,0,,{\pos(540,960)\blur0.5}almost won it
+Dialogue: 0,0:00:24.53,0:00:25.20,Cap,,0,0,0,,{\pos(540,960)\blur0.5}with a header,
+Dialogue: 0,0:00:25.20,0:00:25.75,Cap,,0,0,0,,{\pos(540,960)\blur0.5}but Buffon
+Dialogue: 0,0:00:25.75,0:00:26.04,Cap,,0,0,0,,{\pos(540,960)\blur0.5}tipped it
+Dialogue: 0,0:00:26.04,0:00:26.63,Cap,,0,0,0,,{\pos(540,960)\blur0.5}over the bar.
+Dialogue: 0,0:00:26.63,0:00:26.96,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Then,
+Dialogue: 0,0:00:26.96,0:00:27.79,Cap,,0,0,0,,{\pos(540,960)\blur0.5}in the 110th
+Dialogue: 0,0:00:27.79,0:00:28.07,Cap,,0,0,0,,{\pos(540,960)\blur0.5}minute,
+Dialogue: 0,0:00:28.07,0:00:29.03,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Zidane and Materazzi
+Dialogue: 0,0:00:29.03,0:00:29.39,Cap,,0,0,0,,{\pos(540,960)\blur0.5}exchanged
+Dialogue: 0,0:00:29.39,0:00:30.11,Cap,,0,0,0,,{\pos(540,960)\blur0.5}a few words.
+Dialogue: 0,0:00:30.11,0:00:30.96,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Zidane walked away.
+Dialogue: 0,0:00:30.96,0:00:31.40,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Then he turned
+Dialogue: 0,0:00:31.40,0:00:32.12,Cap,,0,0,0,,{\pos(540,960)\blur0.5}around and headbutted
+Dialogue: 0,0:00:32.12,0:00:32.90,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Materazzi right
+Dialogue: 0,0:00:32.90,0:00:33.51,Cap,,0,0,0,,{\pos(540,960)\blur0.5}in the chest.
+Dialogue: 0,0:00:33.51,0:00:34.30,Cap,,0,0,0,,{\pos(540,960)\blur0.5}The referee hadn't
+Dialogue: 0,0:00:34.30,0:00:34.91,Cap,,0,0,0,,{\pos(540,960)\blur0.5}even seen it.
+Dialogue: 0,0:00:34.91,0:00:35.38,Cap,,0,0,0,,{\pos(540,960)\blur0.5}But the fourth
+Dialogue: 0,0:00:35.38,0:00:36.02,Cap,,0,0,0,,{\pos(540,960)\blur0.5}official had,
+Dialogue: 0,0:00:36.02,0:00:36.46,Cap,,0,0,0,,{\pos(540,960)\blur0.5}and Zidane
+Dialogue: 0,0:00:36.46,0:00:36.77,Cap,,0,0,0,,{\pos(540,960)\blur0.5}was shown
+Dialogue: 0,0:00:36.77,0:00:37.48,Cap,,0,0,0,,{\pos(540,960)\blur0.5}a red card.
+Dialogue: 0,0:00:37.48,0:00:37.73,Cap,,0,0,0,,{\pos(540,960)\blur0.5}So one
+Dialogue: 0,0:00:37.73,0:00:38.21,Cap,,0,0,0,,{\pos(540,960)\blur0.5}of the greatest
+Dialogue: 0,0:00:38.21,0:00:38.71,Cap,,0,0,0,,{\pos(540,960)\blur0.5}players of all
+Dialogue: 0,0:00:38.71,0:00:39.22,Cap,,0,0,0,,{\pos(540,960)\blur0.5}time walked
+Dialogue: 0,0:00:39.22,0:00:39.63,Cap,,0,0,0,,{\pos(540,960)\blur0.5}off the pitch
+Dialogue: 0,0:00:39.63,0:00:40.09,Cap,,0,0,0,,{\pos(540,960)\blur0.5}for the last
+Dialogue: 0,0:00:40.09,0:00:40.48,Cap,,0,0,0,,{\pos(540,960)\blur0.5}time,
+Dialogue: 0,0:00:40.48,0:00:40.87,Cap,,0,0,0,,{\pos(540,960)\blur0.5}right past
+Dialogue: 0,0:00:40.87,0:00:41.35,Cap,,0,0,0,,{\pos(540,960)\blur0.5}the World Cup
+Dialogue: 0,0:00:41.35,0:00:41.80,Cap,,0,0,0,,{\pos(540,960)\blur0.5}trophy.
+Dialogue: 0,0:00:41.80,0:00:42.56,Cap,,0,0,0,,{\pos(540,960)\blur0.5}And without him,
+Dialogue: 0,0:00:42.56,0:00:43.25,Cap,,0,0,0,,{\pos(540,960)\blur0.5}France lost
+Dialogue: 0,0:00:43.25,0:00:44.42,Cap,,0,0,0,,{\pos(540,960)\blur0.5}the shootout 5-3.
+Dialogue: 0,0:00:44.42,0:00:44.79,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Italy
+Dialogue: 0,0:00:44.79,0:00:45.93,Cap,,0,0,0,,{\pos(540,960)\blur0.5}were world champions.
+Dialogue: 0,0:00:45.93,0:00:46.26,Cap,,0,0,0,,{\pos(540,960)\blur0.5}But here's
+Dialogue: 0,0:00:46.26,0:00:46.92,Cap,,0,0,0,,{\pos(540,960)\blur0.5}the wild part.
+Dialogue: 0,0:00:46.92,0:00:47.45,Cap,,0,0,0,,{\pos(540,960)\blur0.5}The next morning,
+Dialogue: 0,0:00:47.45,0:00:47.95,Cap,,0,0,0,,{\pos(540,960)\blur0.5}FIFA announced
+Dialogue: 0,0:00:47.95,0:00:48.29,Cap,,0,0,0,,{\pos(540,960)\blur0.5}the best
+Dialogue: 0,0:00:48.29,0:00:48.71,Cap,,0,0,0,,{\pos(540,960)\blur0.5}player of the
+Dialogue: 0,0:00:48.71,0:00:49.23,Cap,,0,0,0,,{\pos(540,960)\blur0.5}whole tournament.
+Dialogue: 0,0:00:49.23,0:00:49.64,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Most of the
+Dialogue: 0,0:00:49.64,0:00:50.43,Cap,,0,0,0,,{\pos(540,960)\blur0.5}journalists had voted
+Dialogue: 0,0:00:50.43,0:00:51.11,Cap,,0,0,0,,{\pos(540,960)\blur0.5}before the final
+Dialogue: 0,0:00:51.11,0:00:51.67,Cap,,0,0,0,,{\pos(540,960)\blur0.5}was over,
+Dialogue: 0,0:00:51.67,0:00:52.47,Cap,,0,0,0,,{\pos(540,960)\blur0.5}before the headbutt.
+Dialogue: 0,0:00:52.47,0:00:53.04,Cap,,0,0,0,,{\pos(540,960)\blur0.5}And the winner
+Dialogue: 0,0:00:53.04,0:00:54.17,Cap,,0,0,0,,{\pos(540,960)\blur0.5}was Zinedine Zidane.
+Dialogue: 0,0:00:54.17,0:00:54.42,Cap,,0,0,0,,{\pos(540,960)\blur0.5}The man
+Dialogue: 0,0:00:54.42,0:00:54.88,Cap,,0,0,0,,{\pos(540,960)\blur0.5}who got sent
+Dialogue: 0,0:00:54.88,0:00:55.17,Cap,,0,0,0,,{\pos(540,960)\blur0.5}off in the
+Dialogue: 0,0:00:55.17,0:00:55.50,Cap,,0,0,0,,{\pos(540,960)\blur0.5}World Cup
+Dialogue: 0,0:00:55.50,0:00:56.15,Cap,,0,0,0,,{\pos(540,960)\blur0.5}final was named
+Dialogue: 0,0:00:56.15,0:00:56.51,Cap,,0,0,0,,{\pos(540,960)\blur0.5}the best
+Dialogue: 0,0:00:56.51,0:00:57.01,Cap,,0,0,0,,{\pos(540,960)\blur0.5}player of the
+Dialogue: 0,0:00:57.01,0:00:57.91,Cap,,0,0,0,,{\pos(540,960)\blur0.5}World Cup.

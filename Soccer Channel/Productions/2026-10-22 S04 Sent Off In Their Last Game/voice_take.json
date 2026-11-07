@@ -1,0 +1,47 @@
+[
+ {
+  "take": 1,
+  "ok": false,
+  "score": -95.2,
+  "verdict": "REDO",
+  "issues": [
+   "51.96s  script \"before\" but heard \"(nothing)\""
+  ],
+  "wpm": 260,
+  "hnr": 8.5,
+  "jitter": 2.86,
+  "shimmer": 11.24,
+  "dur": 58.07,
+  "pitch_sd": 5.05
+ },
+ {
+  "take": 2,
+  "ok": false,
+  "score": -95.4,
+  "verdict": "REDO",
+  "issues": [
+   "10.54s  script \"after\" but heard \"(nothing)\""
+  ],
+  "wpm": 257,
+  "hnr": 8.4,
+  "jitter": 3.02,
+  "shimmer": 11.52,
+  "dur": 58.58,
+  "pitch_sd": 4.98
+ },
+ {
+  "take": 3,
+  "ok": false,
+  "score": -95.3,
+  "verdict": "REDO",
+  "issues": [
+   "53.68s  script \"before\" but heard \"(nothing)\""
+  ],
+  "wpm": 251,
+  "hnr": 8.4,
+  "jitter": 2.93,
+  "shimmer": 11.05,
+  "dur": 60.02,
+  "pitch_sd": 5.35
+ }
+]

@@ -1,0 +1,114 @@
+{
+ "length_s": 25.0,
+ "topic": "A montage of visual trick transitions where people interact with elements like water, the moon, mirrors, and portals.",
+ "lane": "moment",
+ "hook": {
+  "first_words": "unknown",
+  "first_frame": "A man wearing a pink cap and white t-shirt stands outdoors in front of a wall with a tripod and hose, smiling at the camera.",
+  "on_screen_text_0_3s": "none",
+  "shots_in_first_3s": 1
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 3.6,
+   "shows": "A man pretending to cut a stream of water with scissors.",
+   "kind": "action"
+  },
+  {
+   "start_s": 3.6,
+   "end_s": 7.5,
+   "shows": "A man peeling the moon off a window and putting it onto a pie pan.",
+   "kind": "action"
+  },
+  {
+   "start_s": 7.5,
+   "end_s": 13.0,
+   "shows": "A woman jumping through a bucket and emerging on a grassy field.",
+   "kind": "action"
+  },
+  {
+   "start_s": 13.0,
+   "end_s": 17.5,
+   "shows": "A man on a beach spinning a wheel that reveals a roller coaster behind it.",
+   "kind": "action"
+  },
+  {
+   "start_s": 17.5,
+   "end_s": 20.3,
+   "shows": "A man walking through a door and instantly multiplying into several people falling down.",
+   "kind": "action"
+  },
+  {
+   "start_s": 20.3,
+   "end_s": 25.0,
+   "shows": "First-person perspective jumping through a hula hoop portal onto grass.",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 6,
+ "average_shot_s": 4.17,
+ "longest_shot_s": 5.5,
+ "voice": {
+  "type": "none",
+  "gender": "unknown",
+  "words_per_minute_estimate": 0,
+  "tone": "unknown",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "Upbeat electronic remix beat",
+  "level_vs_voice": "loud",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [
+  {
+   "at_s": 0.0,
+   "sound": "Whoosh and water splash sound effects matching visuals"
+  }
+ ],
+ "captions": {
+  "present": false,
+  "words_per_line": 0,
+  "case": "mixed",
+  "position": "bottom",
+  "colours": [],
+  "highlight_style": "none"
+ },
+ "text_overlays": [],
+ "cards_or_graphics": 0,
+ "framing": "crop",
+ "ending": {
+  "last_words": "unknown",
+  "last_frame": "POV hands touching the ground after falling through a portal.",
+  "loops_to_start": true,
+  "call_to_action": "none"
+ },
+ "script": "",
+ "retention_tricks": [
+  "Fast cuts",
+  "Visual illusion transitions",
+  "Top header elimination game icons tracking progress"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": true,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": false,
+  "ends_on_payoff": true,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "Seamless visual trick transitions that create optical illusions",
+  "High-energy background music matched to visual actions",
+  "Elimination tracker at the top adding gamification"
+ ],
+ "_meta": {
+  "source": "5M3U1p8yZv0",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

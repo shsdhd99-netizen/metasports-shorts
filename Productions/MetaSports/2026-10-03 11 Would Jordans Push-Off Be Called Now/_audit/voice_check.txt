@@ -1,0 +1,8 @@
+Voice check: CHECK   (109 words, 26.6s, 245 wpm)
+  note   0.92s  script "bryon" but heard "brian"
+  note   9.00s  "jordan's" heard as "jordans" (close; check the name)
+  note  13.90s  "jaylen" heard as "jalen" (close; check the name)
+  note  15.12s  "oubre" heard as "ubre" (close; check the name)
+  note  23.72s  "jordan's" heard as "jordans" (close; check the name)
+  note  24.88s  "jaylen" heard as "jalen" (close; check the name)
+  heard: Michael Jordan pushed off Brian Russell to win the 1998 Finals and no foul was called. Now the NBA is cracking down on push -offs. Feel and firm are legal. Force and full extension are fouls, so would Jordans be called today? ESPN says no, but that's not even the crazy part. One of the league's own foul examples is Jalen Brown, shoving Kelly Ubre in the chest. Brown was called for 10 offensive fouls in one playoff series, twice as many as anyone else. Then the NBA fined him $50 ,000 for criticizing the refs. So by ESPN's read, Jordans push -off is legal and Jalen Brown's is the league's example.

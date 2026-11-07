@@ -1,0 +1,522 @@
+[
+ {
+  "word": "Only",
+  "start": 0.0,
+  "end": 0.197
+ },
+ {
+  "word": "two",
+  "start": 0.232,
+  "end": 0.337
+ },
+ {
+  "word": "NBA",
+  "start": 0.383,
+  "end": 0.627
+ },
+ {
+  "word": "players",
+  "start": 0.662,
+  "end": 0.882
+ },
+ {
+  "word": "are",
+  "start": 0.917,
+  "end": 0.998
+ },
+ {
+  "word": "still",
+  "start": 1.022,
+  "end": 1.161
+ },
+ {
+  "word": "allowed",
+  "start": 1.207,
+  "end": 1.382
+ },
+ {
+  "word": "to",
+  "start": 1.405,
+  "end": 1.451
+ },
+ {
+  "word": "wear",
+  "start": 1.486,
+  "end": 1.579
+ },
+ {
+  "word": "number",
+  "start": 1.614,
+  "end": 1.753
+ },
+ {
+  "word": "six.",
+  "start": 1.811,
+  "end": 2.136
+ },
+ {
+  "word": "One",
+  "start": 2.183,
+  "end": 2.322
+ },
+ {
+  "word": "is",
+  "start": 2.345,
+  "end": 2.392
+ },
+ {
+  "word": "24.",
+  "start": 2.426,
+  "end": 2.902
+ },
+ {
+  "word": "The",
+  "start": 2.926,
+  "end": 3.007
+ },
+ {
+  "word": "other",
+  "start": 3.053,
+  "end": 3.193
+ },
+ {
+  "word": "is",
+  "start": 3.228,
+  "end": 3.286
+ },
+ {
+  "word": "thirty-eight.",
+  "start": 3.32,
+  "end": 3.727
+ },
+ {
+  "word": "Bill",
+  "start": 3.75,
+  "end": 3.913
+ },
+ {
+  "word": "Russell",
+  "start": 3.959,
+  "end": 4.18
+ },
+ {
+  "word": "won",
+  "start": 4.203,
+  "end": 4.296
+ },
+ {
+  "word": "eleven",
+  "start": 4.342,
+  "end": 4.586
+ },
+ {
+  "word": "titles,",
+  "start": 4.621,
+  "end": 4.923
+ },
+ {
+  "word": "so",
+  "start": 4.946,
+  "end": 5.039
+ },
+ {
+  "word": "in",
+  "start": 5.097,
+  "end": 5.143
+ },
+ {
+  "word": "2022",
+  "start": 5.19,
+  "end": 5.84
+ },
+ {
+  "word": "the",
+  "start": 5.886,
+  "end": 5.956
+ },
+ {
+  "word": "league",
+  "start": 5.991,
+  "end": 6.13
+ },
+ {
+  "word": "retired",
+  "start": 6.153,
+  "end": 6.432
+ },
+ {
+  "word": "six",
+  "start": 6.49,
+  "end": 6.664
+ },
+ {
+  "word": "for",
+  "start": 6.711,
+  "end": 6.78
+ },
+ {
+  "word": "every",
+  "start": 6.815,
+  "end": 6.931
+ },
+ {
+  "word": "team.",
+  "start": 6.966,
+  "end": 7.221
+ },
+ {
+  "word": "But",
+  "start": 7.245,
+  "end": 7.361
+ },
+ {
+  "word": "players",
+  "start": 7.396,
+  "end": 7.639
+ },
+ {
+  "word": "already",
+  "start": 7.674,
+  "end": 7.872
+ },
+ {
+  "word": "wearing",
+  "start": 7.906,
+  "end": 8.115
+ },
+ {
+  "word": "it",
+  "start": 8.15,
+  "end": 8.197
+ },
+ {
+  "word": "kept",
+  "start": 8.231,
+  "end": 8.44
+ },
+ {
+  "word": "it.",
+  "start": 8.475,
+  "end": 8.579
+ },
+ {
+  "word": "Jaylin",
+  "start": 8.614,
+  "end": 8.928
+ },
+ {
+  "word": "Williams,",
+  "start": 8.974,
+  "end": 9.264
+ },
+ {
+  "word": "of",
+  "start": 9.287,
+  "end": 9.334
+ },
+ {
+  "word": "the",
+  "start": 9.369,
+  "end": 9.438
+ },
+ {
+  "word": "Thunder,",
+  "start": 9.485,
+  "end": 9.787
+ },
+ {
+  "word": "says",
+  "start": 9.81,
+  "end": 9.961
+ },
+ {
+  "word": "his",
+  "start": 9.984,
+  "end": 10.054
+ },
+ {
+  "word": "dad",
+  "start": 10.1,
+  "end": 10.239
+ },
+ {
+  "word": "picked",
+  "start": 10.274,
+  "end": 10.437
+ },
+ {
+  "word": "it.",
+  "start": 10.472,
+  "end": 10.565
+ },
+ {
+  "word": "my",
+  "start": 10.736,
+  "end": 10.898
+ },
+ {
+  "word": "dad",
+  "start": 10.898,
+  "end": 11.061
+ },
+ {
+  "word": "was",
+  "start": 11.061,
+  "end": 11.223
+ },
+ {
+  "word": "the",
+  "start": 11.223,
+  "end": 11.385
+ },
+ {
+  "word": "one",
+  "start": 11.385,
+  "end": 11.548
+ },
+ {
+  "word": "that",
+  "start": 11.548,
+  "end": 11.71
+ },
+ {
+  "word": "picked",
+  "start": 11.71,
+  "end": 11.872
+ },
+ {
+  "word": "the",
+  "start": 11.872,
+  "end": 12.035
+ },
+ {
+  "word": "number,",
+  "start": 12.035,
+  "end": 12.197
+ },
+ {
+  "word": "so",
+  "start": 12.197,
+  "end": 12.36
+ },
+ {
+  "word": "there",
+  "start": 12.36,
+  "end": 12.522
+ },
+ {
+  "word": "was",
+  "start": 12.522,
+  "end": 12.684
+ },
+ {
+  "word": "no",
+  "start": 12.684,
+  "end": 12.847
+ },
+ {
+  "word": "thought",
+  "start": 12.847,
+  "end": 13.009
+ },
+ {
+  "word": "going",
+  "start": 13.009,
+  "end": 13.171
+ },
+ {
+  "word": "into",
+  "start": 13.171,
+  "end": 13.334
+ },
+ {
+  "word": "it.",
+  "start": 13.334,
+  "end": 13.496
+ },
+ {
+  "word": "The",
+  "start": 13.627,
+  "end": 13.697
+ },
+ {
+  "word": "league",
+  "start": 13.744,
+  "end": 13.883
+ },
+ {
+  "word": "retired",
+  "start": 13.906,
+  "end": 14.185
+ },
+ {
+  "word": "six",
+  "start": 14.22,
+  "end": 14.371
+ },
+ {
+  "word": "a",
+  "start": 14.406,
+  "end": 14.428
+ },
+ {
+  "word": "month",
+  "start": 14.464,
+  "end": 14.579
+ },
+ {
+  "word": "later.",
+  "start": 14.614,
+  "end": 14.847
+ },
+ {
+  "word": "DeAndre",
+  "start": 14.87,
+  "end": 15.207
+ },
+ {
+  "word": "Jordan,",
+  "start": 15.265,
+  "end": 15.497
+ },
+ {
+  "word": "of",
+  "start": 15.52,
+  "end": 15.566
+ },
+ {
+  "word": "the",
+  "start": 15.59,
+  "end": 15.659
+ },
+ {
+  "word": "Pelicans,",
+  "start": 15.683,
+  "end": 16.089
+ },
+ {
+  "word": "re-signed",
+  "start": 16.136,
+  "end": 16.484
+ },
+ {
+  "word": "this",
+  "start": 16.507,
+  "end": 16.6
+ },
+ {
+  "word": "summer",
+  "start": 16.623,
+  "end": 16.786
+ },
+ {
+  "word": "for",
+  "start": 16.821,
+  "end": 16.89
+ },
+ {
+  "word": "two",
+  "start": 16.937,
+  "end": 17.03
+ },
+ {
+  "word": "more",
+  "start": 17.063,
+  "end": 17.18
+ },
+ {
+  "word": "years.",
+  "start": 17.215,
+  "end": 17.494
+ },
+ {
+  "word": "Whoever",
+  "start": 17.517,
+  "end": 17.784
+ },
+ {
+  "word": "retires",
+  "start": 17.831,
+  "end": 18.109
+ },
+ {
+  "word": "last",
+  "start": 18.143,
+  "end": 18.329
+ },
+ {
+  "word": "takes",
+  "start": 18.353,
+  "end": 18.527
+ },
+ {
+  "word": "six",
+  "start": 18.55,
+  "end": 18.713
+ },
+ {
+  "word": "with",
+  "start": 18.748,
+  "end": 18.841
+ },
+ {
+  "word": "him.",
+  "start": 18.875,
+  "end": 19.026
+ },
+ {
+  "word": "Odds",
+  "start": 19.05,
+  "end": 19.259
+ },
+ {
+  "word": "are,",
+  "start": 19.282,
+  "end": 19.433
+ },
+ {
+  "word": "it's",
+  "start": 19.456,
+  "end": 19.56
+ },
+ {
+  "word": "the",
+  "start": 19.584,
+  "end": 19.653
+ },
+ {
+  "word": "twenty-four-year-old",
+  "start": 19.688,
+  "end": 20.186
+ },
+ {
+  "word": "whose",
+  "start": 20.211,
+  "end": 20.337
+ },
+ {
+  "word": "dad",
+  "start": 20.361,
+  "end": 20.512
+ },
+ {
+  "word": "picked",
+  "start": 20.547,
+  "end": 20.686
+ },
+ {
+  "word": "it",
+  "start": 20.71,
+  "end": 20.756
+ },
+ {
+  "word": "without",
+  "start": 20.779,
+  "end": 20.965
+ },
+ {
+  "word": "thinking.",
+  "start": 20.989,
+  "end": 21.337
+ }
+]

@@ -1,0 +1,250 @@
+{
+ "sources": {
+  "F": "src/flagg50.mp4",
+  "L": "src/lebron.mp4",
+  "J": "src/jordan.mp4"
+ },
+ "promise": [
+  "rookie",
+  "year"
+ ],
+ "shots": [
+  {
+   "clip": "W01",
+   "src": "F",
+   "at": 58.0,
+   "kind": "action",
+   "why": "Flagg dunk in his April 2026 50-point game v Orlando (NBA highlights, illustrative of the rookie year)",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "len": 2.0
+  },
+  {
+   "clip": "W02",
+   "src": "F",
+   "at": 125.3,
+   "kind": "face",
+   "why": "Flagg on the court",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "In two",
+   "len": 1.31
+  },
+  {
+   "clip": "W03",
+   "src": "F",
+   "at": 29.0,
+   "kind": "action",
+   "why": "Flagg finishes at the rim (overhead angle, same game)",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "Points:",
+   "overlay": [
+    {
+     "text": "FLAGG 21",
+     "size": 110,
+     "color": "orange",
+     "y": 300,
+     "start": 0.0,
+     "end": 1.5
+    }
+   ],
+   "len": 1.81
+  },
+  {
+   "clip": "W04",
+   "src": "L",
+   "at": 119.5,
+   "kind": "action",
+   "why": "LeBron dunk, 2003-04 rookie season (NBA highlights)",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "LeBron, 20.9",
+   "overlay": [
+    {
+     "text": "LEBRON 20.9",
+     "size": 110,
+     "color": "orange",
+     "y": 300,
+     "start": 0.0,
+     "end": 1.5
+    }
+   ],
+   "len": 1.75
+  },
+  {
+   "clip": "W05",
+   "src": "F",
+   "at": 161.2,
+   "kind": "face",
+   "why": "Flagg (#32) in traffic",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "Rebounds:",
+   "overlay": [
+    {
+     "text": "FLAGG 6.7",
+     "size": 110,
+     "color": "orange",
+     "y": 300,
+     "start": 0.0,
+     "end": 1.5
+    }
+   ],
+   "len": 2.2
+  },
+  {
+   "clip": "W06",
+   "src": "L",
+   "at": 171.5,
+   "kind": "face",
+   "why": "LeBron close, rookie year",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "LeBron, 5.5",
+   "overlay": [
+    {
+     "text": "LEBRON 5.5",
+     "size": 110,
+     "color": "orange",
+     "y": 300,
+     "start": 0.0,
+     "end": 1.5
+    }
+   ],
+   "len": 1.66
+  },
+  {
+   "clip": "W07",
+   "src": "L",
+   "at": 67.5,
+   "kind": "face",
+   "why": "LeBron close, 2004 Rookie Challenge",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "But LeBron",
+   "len": 1.54
+  },
+  {
+   "clip": "W08",
+   "src": "L",
+   "at": 23.5,
+   "kind": "action",
+   "why": "LeBron with the ball, Cavs",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "5.9",
+   "overlay": [
+    {
+     "text": "LEBRON 5.9",
+     "size": 100,
+     "color": "orange",
+     "y": 260,
+     "start": 0.0,
+     "end": 1.7
+    },
+    {
+     "text": "FLAGG 4.5",
+     "size": 100,
+     "color": "white",
+     "y": 380,
+     "start": 0.6,
+     "end": 1.7
+    }
+   ],
+   "len": 2.06
+  },
+  {
+   "clip": "W09",
+   "src": "L",
+   "at": 75.5,
+   "kind": "action",
+   "why": "LeBron drives, rookie year",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "And LeBron",
+   "len": 2.0
+  },
+  {
+   "clip": "W10",
+   "src": "F",
+   "at": 244.0,
+   "kind": "face",
+   "why": "Flagg close",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "So is",
+   "len": 2.4
+  },
+  {
+   "clip": "W11",
+   "src": "L",
+   "at": 175.5,
+   "kind": "action",
+   "why": "LeBron finishing at the rim",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "Not so",
+   "len": 1.15
+  },
+  {
+   "clip": "W12",
+   "src": "F",
+   "at": 64.5,
+   "kind": "action",
+   "why": "Flagg dunk",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "But since",
+   "len": 2.37
+  },
+  {
+   "clip": "W12b",
+   "src": "F",
+   "at": 107.8,
+   "kind": "action",
+   "why": "Flagg jump shot",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "led their",
+   "len": 3.33
+  },
+  {
+   "clip": "W13",
+   "src": "J",
+   "at": 27.5,
+   "kind": "face",
+   "why": "Michael Jordan, #23, rookie season 1984-85 (NBA 'Jordan Vault')",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "Michael",
+   "len": 0.94
+  },
+  {
+   "clip": "W14",
+   "src": "F",
+   "at": 127.0,
+   "kind": "face",
+   "why": "Flagg close",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "anchor": "And Cooper",
+   "len": 1.71
+  }
+ ]
+}

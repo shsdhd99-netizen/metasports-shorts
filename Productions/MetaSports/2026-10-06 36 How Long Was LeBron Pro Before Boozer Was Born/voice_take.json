@@ -1,0 +1,49 @@
+[
+ {
+  "take": 1,
+  "ok": false,
+  "score": -192.8,
+  "verdict": "REDO",
+  "issues": [
+   " 4.38s  script \"eighteenth 2 thousand 7\" but heard \"18th 2007\"",
+   " 6.76s  script \"fourteenth 30 4\" but heard \"14th 34\""
+  ],
+  "wpm": 290,
+  "hnr": 10.8,
+  "jitter": 2.88,
+  "shimmer": 10.74,
+  "dur": 21.8
+ },
+ {
+  "take": 2,
+  "ok": false,
+  "score": -292.7,
+  "verdict": "REDO",
+  "issues": [
+   " 4.28s  script \"eighteenth 2 thousand 7\" but heard \"18th 2007\"",
+   " 6.64s  script \"fourteenth 30 4\" but heard \"14th 34\"",
+   "21.66s  script \"\" but heard \"you\""
+  ],
+  "wpm": 286,
+  "hnr": 11.0,
+  "jitter": 2.89,
+  "shimmer": 11.05,
+  "dur": 22.13
+ },
+ {
+  "take": 3,
+  "ok": false,
+  "score": -293.1,
+  "verdict": "REDO",
+  "issues": [
+   " 4.44s  script \"eighteenth 2 thousand 7\" but heard \"18th 2007\"",
+   " 6.68s  script \"fourteenth 30 4\" but heard \"14th 34\"",
+   "11.02s  script \"now\" but heard \"(nothing)\""
+  ],
+  "wpm": 293,
+  "hnr": 10.6,
+  "jitter": 2.78,
+  "shimmer": 11.33,
+  "dur": 21.62
+ }
+]

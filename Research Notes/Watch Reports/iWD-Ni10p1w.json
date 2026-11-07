@@ -1,0 +1,127 @@
+{
+ "length_s": 30.5,
+ "topic": "A compilation of funny and bizarre basketball moments featuring NBA star James Harden.",
+ "lane": "list",
+ "hook": {
+  "first_words": "James Harden has to be the funniest player",
+  "first_frame": "James Harden riding on a Chicago Bulls player's back during a basketball game",
+  "on_screen_text_0_3s": "James Harden has to be the funniest player of all time.",
+  "shots_in_first_3s": 2
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 2.5,
+   "shows": "James Harden jumping onto and riding a Chicago Bulls player's back on the court.",
+   "kind": "action"
+  },
+  {
+   "start_s": 2.5,
+   "end_s": 4.4,
+   "shows": "James Harden spinning a basketball on his finger during a live NBA game.",
+   "kind": "action"
+  },
+  {
+   "start_s": 4.4,
+   "end_s": 8.4,
+   "shows": "James Harden jogging casually on defense and getting a clean block on DeMar DeRozan.",
+   "kind": "action"
+  },
+  {
+   "start_s": 8.4,
+   "end_s": 11.1,
+   "shows": "James Harden attempting to block his own Los Angeles Clippers teammate's jump shot.",
+   "kind": "action"
+  },
+  {
+   "start_s": 11.1,
+   "end_s": 16.9,
+   "shows": "James Harden crouching near the bench area and stepping in to steal the ball during play.",
+   "kind": "action"
+  },
+  {
+   "start_s": 16.9,
+   "end_s": 20.6,
+   "shows": "James Harden walking slowly with the ball and letting an opposing player strip it away.",
+   "kind": "action"
+  },
+  {
+   "start_s": 20.6,
+   "end_s": 24.6,
+   "shows": "James Harden running in an oversized light-blue Rockets uniform during pre-game.",
+   "kind": "action"
+  },
+  {
+   "start_s": 24.6,
+   "end_s": 28.1,
+   "shows": "James Harden slamming the ball into the court in frustration, causing it to bounce back up and hit him in the face.",
+   "kind": "action"
+  },
+  {
+   "start_s": 28.1,
+   "end_s": 30.5,
+   "shows": "Josh Hart staring in complete confusion at James Harden after the ball bounce incident.",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 9,
+ "average_shot_s": 3.39,
+ "longest_shot_s": 5.8,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 180,
+  "tone": "humorous",
+  "original_audio_under_voice": true
+ },
+ "music": {
+  "present": true,
+  "style": "upbeat hip-hop beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 4,
+  "case": "sentence",
+  "position": "middle",
+  "colours": "white text on black background box",
+  "highlight_style": "none"
+ },
+ "text_overlays": [],
+ "cards_or_graphics": 0,
+ "framing": "blurred background",
+ "ending": {
+  "last_words": "absolutely confused!",
+  "last_frame": "Close-up shot of Josh Hart looking extremely bewildered",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "James Harden has to be the funniest player of all time. Like this dude never took the game seriously. Watch him not even trying on defense, but he somehow gets the cleanest block of all time. And when he does decide to play defense, it's on his own teammate! Anytime he has a defensive highlight, there's always something extra on top, like why is this guy on the bench, then he gets a steal. Or how about this play where he just lets the other team get the ball for no reason. This one isn't even a play, but who remembers the time he put on a fat suit to get traded. And of course, you can't forget the moment where he spikes the ball in frustration hitting himself, which leaves Josh Hart absolutely confused!",
+ "retention_tricks": [
+  "pattern interrupts",
+  "curiosity loops",
+  "reaction payoffs"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "Highlights highly recognizable viral NBA meme moments that drive high engagement and comments.",
+  "Fast-paced editing switches clips every few seconds to maintain visual interest.",
+  "Concludes with an iconic reaction frame from Josh Hart that provides a comedic payoff."
+ ],
+ "_meta": {
+  "source": "iWD-Ni10p1w",
+  "model": "gemini-3.5-flash",
+  "fps": 4.0,
+  "watched": "2026-10-29",
+  "tier": "[S] model-observed, not measured"
+ }
+}

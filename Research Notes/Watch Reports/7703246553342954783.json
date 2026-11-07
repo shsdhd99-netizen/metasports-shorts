@@ -1,0 +1,160 @@
+{
+ "length_s": 62.25,
+ "topic": "An analysis explaining why college prospect Yaxel Lendeborg resembles Jonathan Kuminga and highlighting concerns about his fit with the Warriors' complex system.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "Yaxel Lendeborg is just Jonathan Kuminga 2.0",
+  "first_frame": "Jonathan Kuminga driving to the basket during a Golden State Warriors game.",
+  "on_screen_text_0_3s": "YAXEL LENDEBORG IS JUST JONATHAN KUMINGA 2.0",
+  "shots_in_first_3s": 1
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 6.4,
+   "shows": "Jonathan Kuminga driving inside and scoring through defense.",
+   "kind": "action"
+  },
+  {
+   "start_s": 6.4,
+   "end_s": 11.9,
+   "shows": "Close-up slow-motion tracking shot of Kuminga driving baseline.",
+   "kind": "replay"
+  },
+  {
+   "start_s": 11.9,
+   "end_s": 17.2,
+   "shows": "Wide court angle of Warriors offensive play with Kuminga driving.",
+   "kind": "action"
+  },
+  {
+   "start_s": 17.2,
+   "end_s": 22.5,
+   "shows": "Broadcast view of Warriors fast break and dunk attempt.",
+   "kind": "action"
+  },
+  {
+   "start_s": 22.5,
+   "end_s": 27.9,
+   "shows": "Carl's Cam low court angle of Kuminga diving out of bounds to save the ball.",
+   "kind": "action"
+  },
+  {
+   "start_s": 27.9,
+   "end_s": 32.9,
+   "shows": "Kuminga driving into the lane against Sacramento Kings defender.",
+   "kind": "action"
+  },
+  {
+   "start_s": 32.9,
+   "end_s": 38.9,
+   "shows": "Warriors half-court set leading to a rim attack.",
+   "kind": "action"
+  },
+  {
+   "start_s": 38.9,
+   "end_s": 43.5,
+   "shows": "Baseline camera view of Kuminga attacking the rim through contact.",
+   "kind": "action"
+  },
+  {
+   "start_s": 43.5,
+   "end_s": 49.5,
+   "shows": "Warriors possession showing ball movement around the perimeter.",
+   "kind": "action"
+  },
+  {
+   "start_s": 49.5,
+   "end_s": 52.7,
+   "shows": "Fast break transition play with Warriors driving against Suns defense.",
+   "kind": "action"
+  },
+  {
+   "start_s": 52.7,
+   "end_s": 55.3,
+   "shows": "Turnover and fall in the key during a crowded drive.",
+   "kind": "action"
+  },
+  {
+   "start_s": 55.3,
+   "end_s": 58.9,
+   "shows": "Full court transition play leading to a contested layup.",
+   "kind": "action"
+  },
+  {
+   "start_s": 58.9,
+   "end_s": 62.25,
+   "shows": "Defensive block and hustle play at the rim.",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 13,
+ "average_shot_s": 4.79,
+ "longest_shot_s": 6.4,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 155,
+  "tone": "informative",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "hip hop beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": false,
+  "words_per_line": 0,
+  "case": "ALL CAPS",
+  "position": "bottom",
+  "colours": [],
+  "highlight_style": "none"
+ },
+ "text_overlays": [
+  {
+   "at_s": 0.0,
+   "text": "YAXEL LENDEBORG IS JUST JONATHAN KUMINGA 2.0"
+  },
+  {
+   "at_s": 22.5,
+   "text": "CARL'S CAM"
+  }
+ ],
+ "cards_or_graphics": 0,
+ "framing": "crop",
+ "ending": {
+  "last_words": "and he's going to be expected to set screens, slip, and play defense.",
+  "last_frame": "Warriors defensive contest at the rim near the basket.",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "Yaxel Lendeborg is just Jonathan Kuminga 2.0. Yaxel Lendeborg is a 6'9 power forward who doesn't have high IQ, he's pure athleticism and hustle. That's exactly who the Warriors just traded away with Jonathan Kuminga. The only difference is that Yaxel Lendeborg is older than Jonathan Kuminga. Yaxel Lendeborg failed out of high school, he had to go to JUCO and transfer D-1 to UAB, and then transfer to the University of Michigan just so that he could get in the spotlight. Yaxel Lendeborg was 24 years old playing college basketball, so he's not a star, he's just a guy who's been around longer than anybody else. Grades, learning, and IQ on the basketball court have always been Yaxel Lendeborg's downfall. So now he's going to join the Golden State Warriors, who have the most complex offensive system in the league, and he's going to be expected to set screens, slip, and play defense.",
+ "retention_tricks": [
+  "bold claim opening",
+  "constant dynamic basketball highlights",
+  "clear player comparison storytelling"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "Strong comparison hook grabs basketball fans' attention immediately.",
+  "High-action NBA highlight footage maintains visual momentum throughout the voiceover.",
+  "Concise biographical breakdown delivers clear arguments supporting the creator's thesis."
+ ],
+ "_meta": {
+  "source": "/tmp/claude-0/-home-user-metasports-shorts/bc228739-3662-5759-8934-674d6d03bfcf/scratchpad/tt/media/7703246553342954783.mp4",
+  "model": "gemini-3.5-flash",
+  "fps": 4.0,
+  "watched": "2026-11-07",
+  "tier": "[S] model-observed, not measured"
+ }
+}

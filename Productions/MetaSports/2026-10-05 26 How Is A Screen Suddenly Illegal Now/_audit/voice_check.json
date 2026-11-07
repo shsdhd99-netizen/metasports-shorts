@@ -1,0 +1,72 @@
+{
+ "verdict": "REDO",
+ "wpm": 210,
+ "issues": [
+  " 2.52s  script \"the\" but heard \"(nothing)\"",
+  "12.06s  script \"naz reid\" but heard \"nas reads\""
+ ],
+ "notes": [
+  "16.30s  script \"okoro\" but heard \"a\"",
+  "27.22s  script \"isn't\" but heard \"is in\"",
+  "29.34s  script \"\" but heard \"thanks\"",
+  " 5.24s  \"plumlee\" heard as \"plumley\" (close; check the name)",
+  "12.70s  \"divincenzo reid\" heard as \"devin chinzo reed\" (close; check the name)",
+  "18.06s  \"day'ron sharpe\" heard as \"dearon sharp\" (close; check the name)",
+  " 8.31s  very quiet word \"arms,\" (-13 dB)",
+  " 8.64s  very quiet word \"and\" (-12 dB)",
+  "14.54s  very quiet word \"both\" (-13 dB)",
+  "15.43s  very quiet word \"he\" (-23 dB)",
+  "21.71s  very quiet word \"on.\" (-12 dB)"
+ ],
+ "heard": "A screen is legal, shoving while you set one is a foul. NBA just showed referees exactly where the line is. Mason Plumley sets a screen. But he then extends his arms, and he pushes the on -ball defender. Foul, says the NBA. Next, Nas reads screens for Devin Chinzo. Reed then extends both arms, and he pushes a - Foul. Robert Williams. Foul. Dearon Sharp. Foul. But Isaiah Stewart makes contact on a screen too, and the NBA says play on. Why? This contact by Stewart does not affect Black's ability to play defense. The line is in contact. It's whether the defender can still play. Thanks",
+ "mismatches": [
+  {
+   "at": 2.52,
+   "script": "the",
+   "heard": "",
+   "similar": 0.0
+  },
+  {
+   "at": 5.24,
+   "script": "plumlee",
+   "heard": "plumley",
+   "similar": 0.86
+  },
+  {
+   "at": 12.06,
+   "script": "naz reid",
+   "heard": "nas reads",
+   "similar": 0.67
+  },
+  {
+   "at": 12.7,
+   "script": "divincenzo reid",
+   "heard": "devin chinzo reed",
+   "similar": 0.76
+  },
+  {
+   "at": 16.3,
+   "script": "okoro",
+   "heard": "a",
+   "similar": 0.0
+  },
+  {
+   "at": 18.06,
+   "script": "day'ron sharpe",
+   "heard": "dearon sharp",
+   "similar": 0.83
+  },
+  {
+   "at": 27.22,
+   "script": "isn't",
+   "heard": "is in",
+   "similar": 0.67
+  },
+  {
+   "at": 29.34,
+   "script": "",
+   "heard": "thanks",
+   "similar": 0.0
+  }
+ ]
+}

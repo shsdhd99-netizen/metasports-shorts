@@ -1,0 +1,12 @@
+Voice check: REDO   (95 words, 22.8s, 250 wpm)
+  REDO  12.48s  script "a" but heard "(nothing)"
+  note  16.06s  script "shaq" but heard "shack"
+  note   0.00s  "knicks" heard as "nick's" (close; check the name)
+  note   1.32s  "20 9" heard as "29" (close; check the name)
+  note   8.30s  "ninety" heard as "90" (close; check the name)
+  note  11.08s  "wilt" heard as "will" (close; check the name)
+  note  13.02s  "20 8" heard as "28" (close; check the name)
+  note  13.58s  "30 2" heard as "32" (close; check the name)
+  note  16.36s  "50 3" heard as "53" (close; check the name)
+  note   3.22s  rushed sentence (356 wpm): A Hall of Famer offered to fix it.
+  heard: Nick's center, Mitchell Robinson, made 29 % of his playoff free throws. A Hall of Famer offered to fix it, underhand. Robinson said, nah, silly as hell. That Hall of Famer is Rick Barry. 90 % for his career, fourth best in NBA history. Will Chamberlain used it the night he scored 100, 28 of 32. Then he quit because he felt like a sissy. Shack shot 53%. His answer to Barry, I'd rather be a terrible free throw shooter who's in the Hall of Fame in 15 minutes. Thanks, but no thanks.

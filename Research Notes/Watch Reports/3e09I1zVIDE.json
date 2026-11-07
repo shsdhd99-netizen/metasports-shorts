@@ -1,0 +1,199 @@
+{
+ "length_s": 61.5,
+ "topic": "Jimmy Butler and the Miami Heat were fined $15,000 each because Butler celebrated a teammate's three-pointer too enthusiastically from the bench.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "Players who got in trouble for the silliest reasons.",
+  "first_frame": "A basketball court with players and a narrator at the bottom.",
+  "on_screen_text_0_3s": "Players who got in TROUBLE for the SILLIEST reasons!",
+  "shots_in_first_3s": 3
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 2.2,
+   "shows": "basketball game replay with the narrator in the lower half",
+   "kind": "replay"
+  },
+  {
+   "start_s": 2.2,
+   "end_s": 4.9,
+   "shows": "basketball game footage with the narrator",
+   "kind": "action"
+  },
+  {
+   "start_s": 4.9,
+   "end_s": 8.0,
+   "shows": "Trae Young on court with the narrator below",
+   "kind": "action"
+  },
+  {
+   "start_s": 8.0,
+   "end_s": 12.7,
+   "shows": "Jimmy Butler on the bench with the narrator below",
+   "kind": "action"
+  },
+  {
+   "start_s": 12.7,
+   "end_s": 16.0,
+   "shows": "graphic of Jimmy Butler with money flying",
+   "kind": "still"
+  },
+  {
+   "start_s": 16.0,
+   "end_s": 19.1,
+   "shows": "game footage and narrator",
+   "kind": "action"
+  },
+  {
+   "start_s": 19.1,
+   "end_s": 24.0,
+   "shows": "Max Strus graphic and Butler celebrating on bench",
+   "kind": "action"
+  },
+  {
+   "start_s": 24.0,
+   "end_s": 26.9,
+   "shows": "Butler talking on sideline",
+   "kind": "action"
+  },
+  {
+   "start_s": 26.9,
+   "end_s": 29.5,
+   "shows": "Austin Powers GIF",
+   "kind": "stock"
+  },
+  {
+   "start_s": 29.5,
+   "end_s": 34.0,
+   "shows": "game ending celebration",
+   "kind": "action"
+  },
+  {
+   "start_s": 34.0,
+   "end_s": 36.0,
+   "shows": "Butler on bench and narrator",
+   "kind": "action"
+  },
+  {
+   "start_s": 36.0,
+   "end_s": 40.5,
+   "shows": "Butler graphic with headline",
+   "kind": "still"
+  },
+  {
+   "start_s": 40.5,
+   "end_s": 42.6,
+   "shows": "meme clip of man talking",
+   "kind": "stock"
+  },
+  {
+   "start_s": 42.6,
+   "end_s": 45.6,
+   "shows": "arena wide shot",
+   "kind": "still"
+  },
+  {
+   "start_s": 45.6,
+   "end_s": 48.7,
+   "shows": "Butler sitting on bench",
+   "kind": "action"
+  },
+  {
+   "start_s": 48.7,
+   "end_s": 51.9,
+   "shows": "Butler and Strus graphics",
+   "kind": "still"
+  },
+  {
+   "start_s": 51.9,
+   "end_s": 55.2,
+   "shows": "press conference TV screen",
+   "kind": "still"
+  },
+  {
+   "start_s": 55.2,
+   "end_s": 58.8,
+   "shows": "Jimmy Butler graphic with quote",
+   "kind": "still"
+  },
+  {
+   "start_s": 58.8,
+   "end_s": 60.0,
+   "shows": "press conference with Max Strus and Butler",
+   "kind": "action"
+  },
+  {
+   "start_s": 60.0,
+   "end_s": 61.5,
+   "shows": "Chris Tucker crying meme",
+   "kind": "stock"
+  }
+ ],
+ "shot_count": 20,
+ "average_shot_s": 3.07,
+ "longest_shot_s": 4.7,
+ "voice": {
+  "type": "human",
+  "gender": "male",
+  "words_per_minute_estimate": 175,
+  "tone": "energetic and casual",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "upbeat hip-hop beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 2,
+  "case": "sentence",
+  "position": "middle",
+  "colours": "white with yellow accents",
+  "highlight_style": "word by word color change"
+ },
+ "text_overlays": [
+  {
+   "at_s": 38.0,
+   "text": "OBSCENE GESTURE"
+  }
+ ],
+ "cards_or_graphics": 7,
+ "framing": "split screen (top half video clip, bottom half talking head)",
+ "ending": {
+  "last_words": "I celebrate, I get fined.",
+  "last_frame": "Chris Tucker crying meme",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "Players who got in trouble for the silliest reasons! It's game five of the 2022 NBA playoffs. The Miami Heat are trying to close out the Atlanta Hawks in the first round. And Jimmy Butler can't even play because he's sitting on the bench in street clothes nursing a knee injury. But what he does from that bench ends up costing him $15,000. With under two minutes left in the first half, Max Strus hits a huge three-pointer, and Butler jumps off the bench and starts doing this thrusting dance celebration on the sideline that the Heat's social media team loved so much they immediately posted a gif of it on their official account. Miami goes on to win 97 to 94 and clinch the entire series, so everything seems great. But two days later, the NBA sends Butler a $15,000 fine for making an obscene gesture from the bench area. The Heat organization also got hit with their own $15,000 fine for posting the clip on social media. So, a guy who wasn't even in uniform that night somehow cost his team a combined $30,000 by being too happy for his teammate. When reporters asked Butler about it in practice, he looked right at the camera and said, \"It's Spo's fault. He always says to celebrate everybody else's success.\" Max goes on a 10-nothing run. I celebrate, I get fined.",
+ "retention_tricks": [
+  "split screen layout keeping narrator visible throughout",
+  "rapid shot changes every few seconds",
+  "syncing captions word by word with narration",
+  "ending with a humorous punchline and meme"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": true,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "Unusual and humorous hook about getting fined for celebrating",
+  "Constant visual variety using split screen, game clips, and memes",
+  "Engaging delivery with quotes and humorous resolution"
+ ],
+ "_meta": {
+  "source": "3e09I1zVIDE",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

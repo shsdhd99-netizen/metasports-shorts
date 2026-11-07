@@ -1,0 +1,114 @@
+[
+ {
+  "clip": "S1.mp4",
+  "kind": "face",
+  "start": 0.0,
+  "zoom": 0.04,
+  "why": "Paul George on the floor, grimacing, Celtics debut at Detroit, Oct 20 2026 (ESPN NBA post on X)"
+ },
+ {
+  "clip": "S2.mp4",
+  "kind": "action",
+  "anchor": "debut",
+  "why": "Paul George (#13 GEORGE) catch-and-shoot three in front of the Celtics bench (NBA post on X)",
+  "start": 1.32
+ },
+ {
+  "clip": "S3o.mp4",
+  "kind": "action",
+  "anchor": "38",
+  "why": "The ball dropping through the net (same NBA post). Words: 38 PTS",
+  "start": 2.66
+ },
+ {
+  "clip": "S4o.mp4",
+  "kind": "action",
+  "anchor": "Nobody",
+  "why": "Paul George (#13 GEORGE) rising for a three, close angle. Words: MOST EVER IN A CELTICS DEBUT",
+  "start": 3.66
+ },
+ {
+  "clip": "S5.mp4",
+  "kind": "action",
+  "anchor": "first game",
+  "why": "The same three in flight and through the net",
+  "start": 4.9
+ },
+ {
+  "clip": "S6o.mp4",
+  "kind": "action",
+  "anchor": "still lost",
+  "why": "Pistons fans going wild after Robinson's 4th-quarter three (NBA on NBC post; scorebug blurred). Words: STILL LOST",
+  "start": 6.6
+ },
+ {
+  "clip": "S7o.mp4",
+  "kind": "action",
+  "anchor": "They led",
+  "why": "Paul George (#13 GEORGE) shoots a three in the 3rd quarter, Boston up big (ESPN post, cropped above the scorebug). Words: BOSTON LED BY 22",
+  "start": 7.47
+ },
+ {
+  "clip": "S8o.mp4",
+  "kind": "action",
+  "anchor": "in the third",
+  "why": "Celtics possession, 3rd quarter (ESPN post, cropped above the scorebug). Words: 3RD QUARTER",
+  "start": 8.69
+ },
+ {
+  "clip": "S9o.mp4",
+  "kind": "action",
+  "anchor": "Then the Pistons",
+  "why": "Pistons attack, 4th quarter 7:46, BOS 99-92 on the bug (NBA on NBC). Words: 23-0 PISTONS RUN",
+  "start": 9.57
+ },
+ {
+  "clip": "S10o.mp4",
+  "kind": "action",
+  "anchor": "Boston sat",
+  "why": "Pistons possession, 4th 7:41, bug shows BOS 99 (NBA on NBC). Words: BOSTON STUCK ON 99",
+  "start": 11.58
+ },
+ {
+  "clip": "S11.mp4",
+  "kind": "action",
+  "anchor": "Duncan",
+  "why": "Duncan Robinson's three, 99-92 to 99-95, 4th 7:34 (NBA on NBC)",
+  "start": 13.65
+ },
+ {
+  "clip": "S12o.mp4",
+  "kind": "face",
+  "anchor": "of his",
+  "why": "Duncan Robinson (#55 ROBINSON) celebrates with the bench (NBA on NBC). Words: 15 IN THE 4TH",
+  "start": 14.77
+ },
+ {
+  "clip": "S13o.mp4",
+  "kind": "action",
+  "anchor": "Jayson",
+  "why": "Jayson Tatum (#0 TATUM) with the ball (NBA post). Words: 6-FOR-23",
+  "start": 15.81
+ },
+ {
+  "clip": "S14o.mp4",
+  "kind": "action",
+  "anchor": "Pistons 121",
+  "why": "Pistons moving the ball during the 4th-quarter run (NBA on NBC; scorebug blurred). Words: 121-113 FINAL",
+  "start": 17.55
+ },
+ {
+  "clip": "S15o.mp4",
+  "kind": "action",
+  "anchor": "The best debut",
+  "why": "Paul George (#13 GEORGE) with the ball (ESPN post, cropped above the scorebug). Words: 38 PTS, BEST CELTICS DEBUT EVER",
+  "start": 19.83
+ },
+ {
+  "clip": "S1.mp4",
+  "kind": "face",
+  "anchor": "ended in a loss",
+  "why": "Back to George on the floor: loops to frame 1",
+  "start": 21.2
+ }
+]

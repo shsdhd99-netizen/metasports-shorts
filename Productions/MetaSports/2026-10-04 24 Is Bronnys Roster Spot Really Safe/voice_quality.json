@@ -1,0 +1,40 @@
+[
+ {
+  "name": "2026-10-04 24 Is Bronnys Roste#0",
+  "dur": 22.34,
+  "voiced": 0.71,
+  "hnr": 7.3,
+  "jitter": 3.07,
+  "shimmer": 10.39,
+  "jumps": 0.0,
+  "clicks": 419.0,
+  "hf": 4.4,
+  "f0_med": 191.0,
+  "verdict": "REDO",
+  "problems": [
+   "HNR 7.3 dB (noisy/robotic)",
+   "jitter 3.07% (shaky)",
+   "shimmer 10.39% (uneven loudness)",
+   "419.0 clicks/min"
+  ]
+ },
+ {
+  "name": "2026-10-04 24 Is Bronnys Roste#2",
+  "dur": 2.64,
+  "voiced": 0.53,
+  "hnr": 5.7,
+  "jitter": 3.1,
+  "shimmer": 11.83,
+  "jumps": 0.0,
+  "clicks": 1453.4,
+  "hf": 7.09,
+  "f0_med": 200.0,
+  "verdict": "REDO",
+  "problems": [
+   "HNR 5.7 dB (noisy/robotic)",
+   "jitter 3.1% (shaky)",
+   "shimmer 11.83% (uneven loudness)",
+   "1453.4 clicks/min"
+  ]
+ }
+]

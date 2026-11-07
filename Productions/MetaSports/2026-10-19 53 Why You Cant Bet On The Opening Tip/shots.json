@@ -1,0 +1,93 @@
+[
+ {
+  "clip": "S1.mp4",
+  "kind": "action",
+  "start": 0.0,
+  "zoom": 0.08,
+  "why": "Opening tip, Cavaliers at Pacers, Dec 31 2022 (Pacers official, Hield clip): referee tosses, the jump. Frame 1"
+ },
+ {
+  "clip": "S2o.mp4",
+  "kind": "action",
+  "anchor": "The league",
+  "why": "Tip setup, Lakers at Pelicans 2019 (Lakers official). Words: OPENING TIP / BANNED",
+  "start": 3.0
+ },
+ {
+  "clip": "S3.mp4",
+  "kind": "action",
+  "anchor": "Same for",
+  "why": "A missed shot at the rim, Cavaliers at Nuggets 2020 (Cavaliers official; score stays 0-0). Officials' name strip blurred",
+  "start": 4.53
+ },
+ {
+  "clip": "S4.mp4",
+  "kind": "action",
+  "anchor": "and on unders",
+  "why": "Wide play, Cavaliers at Pacers, game clock and bench in shot (same Pacers clip as S1, later camera). No readable numbers",
+  "start": 6.84
+ },
+ {
+  "clip": "S5o.mp4",
+  "kind": "face",
+  "anchor": "Why?",
+  "why": "Jontay Porter at Raptors practice, Jan 29 2024 (Raptors official). Words: JONTAY PORTER",
+  "start": 9.78
+ },
+ {
+  "clip": "S6o.mp4",
+  "kind": "action",
+  "anchor": "In March",
+  "why": "Toronto skyline at dusk, the March 20 2024 date card in the Raptors' Open Gym episode. Words: MARCH 20 / 2024",
+  "start": 11.31
+ },
+ {
+  "clip": "S7o.mp4",
+  "kind": "action",
+  "anchor": "he played",
+  "why": "Porter #34 (PORTER on the back) on court, Raptors home game, Open Gym Mar 2024 (not the Mar 20 game). Words: LESS THAN 3 MIN",
+  "start": 12.71
+ },
+ {
+  "clip": "S8.mp4",
+  "kind": "face",
+  "anchor": "said he felt",
+  "why": "Porter pregame, looking down, Open Gym Mar 2024",
+  "start": 13.97
+ },
+ {
+  "clip": "S9o.mp4",
+  "kind": "face",
+  "anchor": "A bettor",
+  "why": "Porter in profile, Open Gym interview. Words: $80,000 BET HE'D COME UP SHORT",
+  "start": 15.62
+ },
+ {
+  "clip": "S10o.mp4",
+  "kind": "face",
+  "anchor": "It would",
+  "why": "Porter frontal, Open Gym interview. Words: $1.1M WOULD HAVE PAID",
+  "start": 18.37
+ },
+ {
+  "clip": "S11o.mp4",
+  "kind": "face",
+  "anchor": "The NBA banned",
+  "why": "Porter at Raptors practice, Jan 29 2024. Words: BANNED FOR LIFE",
+  "start": 20.77
+ },
+ {
+  "clip": "S12o.mp4",
+  "kind": "action",
+  "anchor": "And this season",
+  "why": "Bucks at Pacers, Oct 2026 (this season), wide play. Words: UNDER PARLAYS GONE",
+  "start": 22.55
+ },
+ {
+  "clip": "S13.mp4",
+  "kind": "action",
+  "anchor": "Right along",
+  "why": "Opening tip, Bucks at Pacers, Oct 2026 (Pacers official): loops to the frame-1 tip",
+  "start": 24.95
+ }
+]

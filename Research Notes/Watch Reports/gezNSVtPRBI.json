@@ -1,0 +1,301 @@
+{
+ "length_s": 84.5,
+ "topic": "The story of Wayman Tisdale, an NBA star who had a successful dual career as a contemporary jazz bassist.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "NBA players who started the CRAZIEST retirement gigs!",
+  "first_frame": "A split screen showing a bassist in a gold shirt on top and a man talking to a microphone on the bottom.",
+  "on_screen_text_0_3s": "NBA players who started the CRAZIEST retirement gigs!",
+  "shots_in_first_3s": 1
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 2.5,
+   "shows": "A man playing bass guitar on stage (top) and narrator speaking (bottom)",
+   "kind": "stock"
+  },
+  {
+   "start_s": 2.5,
+   "end_s": 3.9,
+   "shows": "Boyhood photo of Wayman Tisdale (top) and narrator (bottom)",
+   "kind": "still"
+  },
+  {
+   "start_s": 3.9,
+   "end_s": 5.9,
+   "shows": "Adult Wayman Tisdale playing acoustic guitar in church (top) and narrator (bottom)",
+   "kind": "stock"
+  },
+  {
+   "start_s": 5.9,
+   "end_s": 7.9,
+   "shows": "Younger photo of Wayman Tisdale smiling (top) and narrator (bottom)",
+   "kind": "still"
+  },
+  {
+   "start_s": 7.9,
+   "end_s": 9.9,
+   "shows": "Wayman Tisdale getting on a bus (top) and narrator (bottom)",
+   "kind": "stock"
+  },
+  {
+   "start_s": 9.9,
+   "end_s": 11.6,
+   "shows": "Wayman Tisdale playing bass guitar live (top) and narrator (bottom)",
+   "kind": "stock"
+  },
+  {
+   "start_s": 11.6,
+   "end_s": 14.6,
+   "shows": "Close-up of Wayman Tisdale's hands playing bass guitar (top) and narrator (bottom)",
+   "kind": "stock"
+  },
+  {
+   "start_s": 14.6,
+   "end_s": 18.5,
+   "shows": "Wayman Tisdale singing and playing acoustic guitar in church (top) and narrator (bottom)",
+   "kind": "stock"
+  },
+  {
+   "start_s": 18.5,
+   "end_s": 20.7,
+   "shows": "Wayman Tisdale playing bass guitar live (top) and narrator (bottom)",
+   "kind": "stock"
+  },
+  {
+   "start_s": 20.7,
+   "end_s": 22.5,
+   "shows": "Basketball game footage, Wayman Tisdale running (top) and narrator (bottom)",
+   "kind": "stock"
+  },
+  {
+   "start_s": 22.5,
+   "end_s": 23.5,
+   "shows": "Wayman Tisdale in a junior high basketball jersey (top) and narrator (bottom)",
+   "kind": "stock"
+  },
+  {
+   "start_s": 23.5,
+   "end_s": 25.5,
+   "shows": "Shaquille O'Neal looking surprised in an interview (top) and narrator (bottom)",
+   "kind": "reaction_shot"
+  },
+  {
+   "start_s": 25.5,
+   "end_s": 26.9,
+   "shows": "Wayman Tisdale playing college basketball (top) and narrator (bottom)",
+   "kind": "stock"
+  },
+  {
+   "start_s": 26.9,
+   "end_s": 29.1,
+   "shows": "Oklahoma basketball team huddle with cheerleaders (top) and narrator (bottom)",
+   "kind": "stock"
+  },
+  {
+   "start_s": 29.1,
+   "end_s": 31.6,
+   "shows": "Wayman Tisdale playing basketball on court (top) and narrator (bottom)",
+   "kind": "stock"
+  },
+  {
+   "start_s": 31.6,
+   "end_s": 32.9,
+   "shows": "Newspaper headline 'Record-Smash' (top) and narrator (bottom)",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 32.9,
+   "end_s": 35.8,
+   "shows": "Old TV showing newspaper clipping 'Tisdale, Ewing All-America for Third' (top) and narrator (bottom)",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 35.8,
+   "end_s": 40.1,
+   "shows": "Wayman Tisdale in college jersey with stat overlay 'WAYMAN TISDALE 2,661 POINTS' (top) and narrator (bottom)",
+   "kind": "stock"
+  },
+  {
+   "start_s": 40.1,
+   "end_s": 43.6,
+   "shows": "Close-up of Wayman Tisdale smiling in Indiana Pacers jersey (top) and narrator (bottom)",
+   "kind": "stock"
+  },
+  {
+   "start_s": 43.6,
+   "end_s": 46.0,
+   "shows": "Old TV showing Wayman Tisdale in NBA game (top) and narrator (bottom)",
+   "kind": "stock"
+  },
+  {
+   "start_s": 46.0,
+   "end_s": 48.4,
+   "shows": "Wayman Tisdale performing music on stage with crowd in background (top) and narrator (bottom)",
+   "kind": "stock"
+  },
+  {
+   "start_s": 48.4,
+   "end_s": 51.6,
+   "shows": "Wayman Tisdale talking with his college coach on the basketball court (top) and narrator (bottom)",
+   "kind": "stock"
+  },
+  {
+   "start_s": 51.6,
+   "end_s": 55.0,
+   "shows": "Wayman Tisdale singing and playing acoustic guitar in church (top) and narrator (bottom)",
+   "kind": "stock"
+  },
+  {
+   "start_s": 55.0,
+   "end_s": 57.6,
+   "shows": "Wayman Tisdale playing bass guitar live in gold shirt (top) and narrator (bottom)",
+   "kind": "stock"
+  },
+  {
+   "start_s": 57.6,
+   "end_s": 59.5,
+   "shows": "Album cover 'Wayman Tisdale Power Forward' (top) and narrator (bottom)",
+   "kind": "still"
+  },
+  {
+   "start_s": 59.5,
+   "end_s": 61.5,
+   "shows": "Wayman Tisdale celebrating after a basketball play (top) and narrator (bottom)",
+   "kind": "stock"
+  },
+  {
+   "start_s": 61.5,
+   "end_s": 63.6,
+   "shows": "Wayman Tisdale singing on stage with backup singers (top) and narrator (bottom)",
+   "kind": "stock"
+  },
+  {
+   "start_s": 63.6,
+   "end_s": 65.9,
+   "shows": "Wayman Tisdale performing live in Phoenix Suns jersey (top) and narrator (bottom)",
+   "kind": "stock"
+  },
+  {
+   "start_s": 65.9,
+   "end_s": 67.5,
+   "shows": "Promotional photo of Wayman Tisdale holding a bass guitar (top) and narrator (bottom)",
+   "kind": "still"
+  },
+  {
+   "start_s": 67.5,
+   "end_s": 68.6,
+   "shows": "Album cover 'Wayman Tisdale' (top) and narrator (bottom)",
+   "kind": "still"
+  },
+  {
+   "start_s": 68.6,
+   "end_s": 69.6,
+   "shows": "Wayman Tisdale playing live on stage with another musician (top) and narrator (bottom)",
+   "kind": "stock"
+  },
+  {
+   "start_s": 69.6,
+   "end_s": 71.6,
+   "shows": "Wayman Tisdale performing live, crowd clapping (top) and narrator (bottom)",
+   "kind": "stock"
+  },
+  {
+   "start_s": 71.6,
+   "end_s": 74.0,
+   "shows": "Old TV showing newspaper headline 'Tisdale undergoes cancer treatment' (top) and narrator (bottom)",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 74.0,
+   "end_s": 75.3,
+   "shows": "Wayman Tisdale playing bass guitar sitting down (top) and narrator (bottom)",
+   "kind": "stock"
+  },
+  {
+   "start_s": 75.3,
+   "end_s": 77.0,
+   "shows": "Prosthetic leg in sneaker walking on carpet (top) and narrator (bottom)",
+   "kind": "stock"
+  },
+  {
+   "start_s": 77.0,
+   "end_s": 79.5,
+   "shows": "Black and white portrait of Wayman Tisdale holding bass guitar (top) and narrator (bottom)",
+   "kind": "still"
+  },
+  {
+   "start_s": 79.5,
+   "end_s": 84.5,
+   "shows": "Wayman Tisdale performing live in Phoenix Suns jersey and white hat (top) and narrator (bottom)",
+   "kind": "stock"
+  }
+ ],
+ "shot_count": 38,
+ "average_shot_s": 2.2,
+ "longest_shot_s": 4.3,
+ "voice": {
+  "type": "human",
+  "gender": "male",
+  "words_per_minute_estimate": 210,
+  "tone": "engaging and enthusiastic",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "upbeat rhythmic background beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 2,
+  "case": "mixed",
+  "position": "bottom",
+  "colours": "white with yellow accents",
+  "highlight_style": "word-by-word highlight in yellow"
+ },
+ "text_overlays": [
+  {
+   "at_s": 35.8,
+   "text": "WAYMAN TISDALE 2,661 POINTS"
+  }
+ ],
+ "cards_or_graphics": 4,
+ "framing": "split screen with 16:9 archival video/photo on top and creator facing camera on bottom",
+ "ending": {
+  "last_words": "to fully chase.",
+  "last_frame": "Wayman Tisdale performing live on stage singing into a microphone in a Phoenix Suns jersey.",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "NBA players who started the CRAZIEST retirement gigs! When Wayman Tisdale was a kid, his dad, a pastor in Tulsa, bought all three of his sons Mickey Mouse guitars, hoping at least one of them would pick up music. And Wayman was the one who got hooked. He started teaching himself bass guitar after falling in love with watching the bass players at his father's church, and he played there every single Sunday growing up because music was always his first love. But then his body had different plans for him. In junior high, Tisdale grew 24 inches and suddenly became one of the best basketball players in the States, which led him to the University of Oklahoma, where he became the first freshman ever named a First Team AP All-American, and then did it again as a sophomore and a junior. He still holds Oklahoma's all-time scoring record with 2,661 points, got drafted second overall in 1985 by the Indiana Pacers, and played 12 years in the NBA across three teams. And during all of this, he never once stopped playing bass, to the point where his college coach actually moved Sunday practices to the evening just so Tisdale could drive to Tulsa and play at his dad's church that morning. But here's what most people don't realize about his music career. His debut album dropped in 1995 while he was still on the Phoenix Suns roster, and it hit number four on the Billboard jazz chart. After he retired in '97, he went all in, and multiple albums hit number one on Billboard's contemporary jazz chart as he headlined festivals worldwide. Then, in 2007, he was diagnosed with bone cancer, and he kept performing even after losing part of his right leg. But on May 15th, 2009, Tisdale passed away at just 44 years old, only 12 years into the career he'd been waiting his whole life to fully chase.",
+ "retention_tricks": [
+  "split screen format keeping a dynamic visual on top",
+  "rapid shot changes every 2 seconds",
+  "surprise biographical twist revealed progressively",
+  "emotional storytelling with dramatic pacing"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "Compelling juxtaposition between elite NBA career and professional jazz musician success",
+  "Fast-paced visual editing with high archival footage density",
+  "Emotional and inspiring narrative arc that keeps viewers hooked until the end"
+ ],
+ "_meta": {
+  "source": "gezNSVtPRBI",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

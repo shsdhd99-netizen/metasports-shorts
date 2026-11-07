@@ -1,0 +1,224 @@
+{
+ "length_s": 48.0,
+ "topic": "How the San Antonio Spurs went from worst in the NBA to champions in just two years by drafting Tim Duncan.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "This team went from being one of the worst in the NBA to winning a championship just two years later.",
+  "first_frame": "A basketball player in a San Antonio Spurs jersey dribbling the ball down the court in an arena filled with spectators.",
+  "on_screen_text_0_3s": "THIS TEAM WENT FROM BEING ONE OF THE WORST IN THE NBA TO WINNING A CHAMPIONSHIP JUST TWO YEARS LATER",
+  "shots_in_first_3s": 3
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 1.5,
+   "shows": "A Spurs player dribbling down the court",
+   "kind": "action"
+  },
+  {
+   "start_s": 1.5,
+   "end_s": 2.7,
+   "shows": "A Spurs player dunking the basketball",
+   "kind": "action"
+  },
+  {
+   "start_s": 2.7,
+   "end_s": 3.9,
+   "shows": "Basketball players on the court during a game",
+   "kind": "action"
+  },
+  {
+   "start_s": 3.9,
+   "end_s": 5.5,
+   "shows": "David Robinson dribbling past defenders",
+   "kind": "action"
+  },
+  {
+   "start_s": 5.5,
+   "end_s": 6.5,
+   "shows": "A graphic showing Spurs 20-62 record for 1996-97 season",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 6.5,
+   "end_s": 8.9,
+   "shows": "Basketball players playing during a game",
+   "kind": "action"
+  },
+  {
+   "start_s": 8.9,
+   "end_s": 11.7,
+   "shows": "Two players talking face-to-face on the court",
+   "kind": "action"
+  },
+  {
+   "start_s": 11.7,
+   "end_s": 15.6,
+   "shows": "David Stern holding up the Spurs logo card at the draft lottery",
+   "kind": "stock"
+  },
+  {
+   "start_s": 15.6,
+   "end_s": 17.5,
+   "shows": "Tim Duncan being selected as the first pick",
+   "kind": "stock"
+  },
+  {
+   "start_s": 17.5,
+   "end_s": 19.1,
+   "shows": "Tim Duncan shaking hands with NBA officials",
+   "kind": "stock"
+  },
+  {
+   "start_s": 19.1,
+   "end_s": 20.9,
+   "shows": "Tim Duncan blocking a shot during a rookie season game",
+   "kind": "action"
+  },
+  {
+   "start_s": 20.9,
+   "end_s": 22.8,
+   "shows": "A graphic showing Spurs 56-26 record for 1997-98 season",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 22.8,
+   "end_s": 24.0,
+   "shows": "Tim Duncan being interviewed",
+   "kind": "face"
+  },
+  {
+   "start_s": 24.0,
+   "end_s": 25.6,
+   "shows": "Tim Duncan speaking in an interview",
+   "kind": "face"
+  },
+  {
+   "start_s": 25.6,
+   "end_s": 28.6,
+   "shows": "David Stern speaking at a podium about the 1999 shortened season",
+   "kind": "stock"
+  },
+  {
+   "start_s": 28.6,
+   "end_s": 30.5,
+   "shows": "A Spurs player dunking the ball during a game",
+   "kind": "action"
+  },
+  {
+   "start_s": 30.5,
+   "end_s": 34.6,
+   "shows": "Spurs players in action and celebrating during a game",
+   "kind": "action"
+  },
+  {
+   "start_s": 34.6,
+   "end_s": 36.0,
+   "shows": "A graphic showing Spurs 37-13 record for 1998-99 season",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 36.0,
+   "end_s": 37.6,
+   "shows": "Tim Duncan and David Robinson standing side by side on the court",
+   "kind": "face"
+  },
+  {
+   "start_s": 37.6,
+   "end_s": 39.1,
+   "shows": "David Robinson and Tim Duncan wearing All-Star Weekend jerseys",
+   "kind": "face"
+  },
+  {
+   "start_s": 39.1,
+   "end_s": 41.5,
+   "shows": "Spurs team huddle during a game",
+   "kind": "action"
+  },
+  {
+   "start_s": 41.5,
+   "end_s": 42.7,
+   "shows": "Spurs players contesting a shot at the basket",
+   "kind": "action"
+  },
+  {
+   "start_s": 42.7,
+   "end_s": 44.6,
+   "shows": "Spurs players celebrating on the court",
+   "kind": "action"
+  },
+  {
+   "start_s": 44.6,
+   "end_s": 46.1,
+   "shows": "Spurs players celebrating with the championship trophy",
+   "kind": "action"
+  },
+  {
+   "start_s": 46.1,
+   "end_s": 48.0,
+   "shows": "Tim Duncan holding the Finals MVP trophy and being interviewed",
+   "kind": "face"
+  }
+ ],
+ "shot_count": 25,
+ "average_shot_s": 1.92,
+ "longest_shot_s": 3.9,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 240,
+  "tone": "energetic",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "upbeat hip-hop beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "ALL CAPS",
+  "position": "middle",
+  "colours": "white",
+  "highlight_style": "none"
+ },
+ "text_overlays": [],
+ "cards_or_graphics": 4,
+ "framing": "crop",
+ "ending": {
+  "last_words": "with Tim Duncan taking home Finals MVP.",
+  "last_frame": "Tim Duncan holding the Finals MVP trophy while being interviewed on the court.",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "This team went from being one of the worst in the NBA to winning a championship just two years later. In 1997, the Spurs finished 20-62 after David Robinson missed most of the season with an injury. But that terrible year ended up changing the franchise forever because San Antonio was so bad they landed near the top of the draft lottery and eventually won the number one pick. With it, they selected Tim Duncan and the turnaround happened almost immediately. In Duncan's rookie season, the Spurs jumped from 20 wins to 56 and made the playoffs. They didn't win it all that year, but the next season was completely different. The 1999 season was shortened to 50 games because of a lockout, and San Antonio started just 6-14. But then they went on a ridiculous run, winning 31 of their final 36 games and finishing with the best record in the league. In the playoffs, Duncan and David Robinson, known as the Twin Towers, dominated. The Spurs swept both the Lakers and Trail Blazers, then beat the Knicks in the finals. Just two years after winning only 20 games, San Antonio became NBA champions with Tim Duncan taking home Finals MVP.",
+ "retention_tricks": [
+  "fast-paced cuts every 1-2 seconds",
+  "promising a dramatic turnaround in the hook",
+  "showing stat graphics for before and after comparisons",
+  "dynamic zoom and movement on archival footage"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "Compelling narrative arc going from rock bottom to champions in two years",
+  "Rapid-fire pacing with concise historical facts and stats",
+  "Nostalgic archival footage of legendary players like Tim Duncan and David Robinson"
+ ],
+ "_meta": {
+  "source": "rE6zgKC53s8",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

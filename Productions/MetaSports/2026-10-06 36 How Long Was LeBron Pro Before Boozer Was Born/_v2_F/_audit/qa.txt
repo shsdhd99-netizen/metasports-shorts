@@ -1,0 +1,31 @@
+PASS
+  warn only 2 shots in first 3 s (guideline 3; shot length did not separate winners)
+  warn cards 27% (guideline <=25%)
+  warn last shot is not the first clip (fine if the ending image serves the payoff; never add a sub-0.6 s shot just to loop)
+  warn clips shorter than their shots (slowed/held by assemble, not looped): [('c_34_df.mp4', 12.6, 0.35), ('b4.mp4', 14.4, 0.1)]
+  warn card/screenshot in the first 4 s at [3.0] s (HYPOTHESIS: the Oct posts that broke out had real footage/faces there)
+  warn hook has no number or conflict/question word in the first 8 words: 'lebron's teammate from his rookie year now has' (state the question the viewer needs answered by 1.5 s)
+  ok   every shot has a kind
+  ok   length 20.7s
+  ok   length 20.7s in 15-35
+  ok   voice starts at once
+  ok   opens on 'LeBron's'
+  ok   real action footage in first 3 s
+  ok   hook line has a name/number/stakes
+  ok   no shot too long
+  ok   average shot 1.4s
+  ok   most-used clip c_75.mp4 9%
+  ok   15 source clips
+  ok   talking head 15%
+  ok   b-roll 58%
+  ok   no two cards in a row
+  ok   no repeated neighbours
+  ok   no footage shown twice
+  ok   no dead air inside the speech
+  ok   loudness -14.4 LUFS
+  ok   no frozen footage
+  ok   no black frames
+  ok   quote shots play at normal speed (lip sync)
+  ok   no frozen holds
+  ok   every clip has a source-log row
+  ok   every clip verified against the narration

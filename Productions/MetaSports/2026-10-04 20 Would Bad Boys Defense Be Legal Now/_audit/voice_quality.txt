@@ -1,0 +1,2 @@
+2026-10-04 20 Would Bad Boys D#0     REDO HNR   7.5 jit 3.22 shim 12.17 jumps/s 0.00 clicks/min 617.1 hf%  4.10 f0 184 dur 11.28  HNR 7.5 dB (noisy/robotic); jitter 3.22% (shaky); shimmer 12.17% (uneven loudness); 617.1 clicks/min
+2026-10-04 20 Would Bad Boys D#2     REDO HNR   7.8 jit 2.87 shim 10.95 jumps/s 0.00 clicks/min 627.0 hf%  2.62 f0 206 dur 11.0  HNR 7.8 dB (noisy/robotic); jitter 2.87% (shaky); shimmer 10.95% (uneven loudness); 627.0 clicks/min

@@ -1,0 +1,1027 @@
+[
+ {
+  "word": "The",
+  "start": 0.0,
+  "end": 0.104
+ },
+ {
+  "word": "manager",
+  "start": 0.139,
+  "end": 0.418
+ },
+ {
+  "word": "Barcelona",
+  "start": 0.464,
+  "end": 0.952
+ },
+ {
+  "word": "soaked",
+  "start": 1.033,
+  "end": 1.277
+ },
+ {
+  "word": "with",
+  "start": 1.3,
+  "end": 1.405
+ },
+ {
+  "word": "sprinklers",
+  "start": 1.44,
+  "end": 1.95
+ },
+ {
+  "word": "just",
+  "start": 2.043,
+  "end": 2.218
+ },
+ {
+  "word": "got",
+  "start": 2.264,
+  "end": 2.45
+ },
+ {
+  "word": "his",
+  "start": 2.485,
+  "end": 2.554
+ },
+ {
+  "word": "revenge.",
+  "start": 2.612,
+  "end": 3.17
+ },
+ {
+  "word": "Back",
+  "start": 3.216,
+  "end": 3.39
+ },
+ {
+  "word": "in",
+  "start": 3.437,
+  "end": 3.483
+ },
+ {
+  "word": "2010,",
+  "start": 3.529,
+  "end": 4.11
+ },
+ {
+  "word": "José",
+  "start": 4.133,
+  "end": 4.365
+ },
+ {
+  "word": "Mourinho's",
+  "start": 4.412,
+  "end": 4.772
+ },
+ {
+  "word": "Inter",
+  "start": 4.83,
+  "end": 5.074
+ },
+ {
+  "word": "knocked",
+  "start": 5.155,
+  "end": 5.375
+ },
+ {
+  "word": "Barcelona",
+  "start": 5.399,
+  "end": 5.863
+ },
+ {
+  "word": "out",
+  "start": 5.921,
+  "end": 6.084
+ },
+ {
+  "word": "of",
+  "start": 6.107,
+  "end": 6.153
+ },
+ {
+  "word": "the",
+  "start": 6.188,
+  "end": 6.258
+ },
+ {
+  "word": "Champions",
+  "start": 6.293,
+  "end": 6.676
+ },
+ {
+  "word": "League,",
+  "start": 6.722,
+  "end": 6.931
+ },
+ {
+  "word": "at",
+  "start": 6.954,
+  "end": 7.07
+ },
+ {
+  "word": "Camp",
+  "start": 7.117,
+  "end": 7.314
+ },
+ {
+  "word": "Nou.",
+  "start": 7.396,
+  "end": 7.709
+ },
+ {
+  "word": "Inter",
+  "start": 7.732,
+  "end": 7.941
+ },
+ {
+  "word": "lost",
+  "start": 8.011,
+  "end": 8.29
+ },
+ {
+  "word": "the",
+  "start": 8.324,
+  "end": 8.394
+ },
+ {
+  "word": "game",
+  "start": 8.44,
+  "end": 8.661
+ },
+ {
+  "word": "1-0,",
+  "start": 8.707,
+  "end": 9.253
+ },
+ {
+  "word": "but",
+  "start": 9.276,
+  "end": 9.381
+ },
+ {
+  "word": "went",
+  "start": 9.427,
+  "end": 9.567
+ },
+ {
+  "word": "through",
+  "start": 9.613,
+  "end": 9.81
+ },
+ {
+  "word": "on",
+  "start": 9.845,
+  "end": 9.915
+ },
+ {
+  "word": "aggregate.",
+  "start": 9.973,
+  "end": 10.472
+ },
+ {
+  "word": "Mourinho",
+  "start": 10.495,
+  "end": 10.844
+ },
+ {
+  "word": "sprinted",
+  "start": 10.902,
+  "end": 11.238
+ },
+ {
+  "word": "onto",
+  "start": 11.273,
+  "end": 11.389
+ },
+ {
+  "word": "the",
+  "start": 11.436,
+  "end": 11.505
+ },
+ {
+  "word": "pitch",
+  "start": 11.54,
+  "end": 11.726
+ },
+ {
+  "word": "with",
+  "start": 11.749,
+  "end": 11.842
+ },
+ {
+  "word": "his",
+  "start": 11.865,
+  "end": 11.935
+ },
+ {
+  "word": "finger",
+  "start": 11.993,
+  "end": 12.237
+ },
+ {
+  "word": "in",
+  "start": 12.295,
+  "end": 12.353
+ },
+ {
+  "word": "the",
+  "start": 12.388,
+  "end": 12.457
+ },
+ {
+  "word": "air.",
+  "start": 12.515,
+  "end": 12.771
+ },
+ {
+  "word": "So",
+  "start": 12.806,
+  "end": 12.899
+ },
+ {
+  "word": "Barcelona's",
+  "start": 12.968,
+  "end": 13.456
+ },
+ {
+  "word": "ground",
+  "start": 13.479,
+  "end": 13.688
+ },
+ {
+  "word": "staff",
+  "start": 13.723,
+  "end": 13.92
+ },
+ {
+  "word": "turned",
+  "start": 13.967,
+  "end": 14.176
+ },
+ {
+  "word": "the",
+  "start": 14.199,
+  "end": 14.269
+ },
+ {
+  "word": "sprinklers",
+  "start": 14.303,
+  "end": 14.71
+ },
+ {
+  "word": "on.",
+  "start": 14.768,
+  "end": 15.1
+ },
+ {
+  "word": "He",
+  "start": 15.106,
+  "end": 15.176
+ },
+ {
+  "word": "didn't",
+  "start": 15.222,
+  "end": 15.396
+ },
+ {
+  "word": "care.",
+  "start": 15.431,
+  "end": 15.779
+ },
+ {
+  "word": "He",
+  "start": 15.803,
+  "end": 15.849
+ },
+ {
+  "word": "kept",
+  "start": 15.895,
+  "end": 16.023
+ },
+ {
+  "word": "celebrating",
+  "start": 16.058,
+  "end": 16.499
+ },
+ {
+  "word": "in",
+  "start": 16.534,
+  "end": 16.58
+ },
+ {
+  "word": "the",
+  "start": 16.604,
+  "end": 16.673
+ },
+ {
+  "word": "spray.",
+  "start": 16.696,
+  "end": 17.103
+ },
+ {
+  "word": "Weeks",
+  "start": 17.126,
+  "end": 17.312
+ },
+ {
+  "word": "later,",
+  "start": 17.347,
+  "end": 17.614
+ },
+ {
+  "word": "he",
+  "start": 17.649,
+  "end": 17.707
+ },
+ {
+  "word": "won",
+  "start": 17.765,
+  "end": 17.892
+ },
+ {
+  "word": "the",
+  "start": 17.927,
+  "end": 17.997
+ },
+ {
+  "word": "final",
+  "start": 18.032,
+  "end": 18.392
+ },
+ {
+  "word": "and",
+  "start": 18.45,
+  "end": 18.542
+ },
+ {
+  "word": "became",
+  "start": 18.589,
+  "end": 18.914
+ },
+ {
+  "word": "Real",
+  "start": 18.96,
+  "end": 19.169
+ },
+ {
+  "word": "Madrid's",
+  "start": 19.204,
+  "end": 19.483
+ },
+ {
+  "word": "manager.",
+  "start": 19.529,
+  "end": 20.005
+ },
+ {
+  "word": "He",
+  "start": 20.028,
+  "end": 20.086
+ },
+ {
+  "word": "left",
+  "start": 20.145,
+  "end": 20.319
+ },
+ {
+  "word": "in",
+  "start": 20.365,
+  "end": 20.412
+ },
+ {
+  "word": "2013.",
+  "start": 20.446,
+  "end": 21.168
+ },
+ {
+  "word": "But",
+  "start": 21.171,
+  "end": 21.252
+ },
+ {
+  "word": "this",
+  "start": 21.276,
+  "end": 21.392
+ },
+ {
+  "word": "summer,",
+  "start": 21.438,
+  "end": 21.775
+ },
+ {
+  "word": "he",
+  "start": 21.81,
+  "end": 21.879
+ },
+ {
+  "word": "came",
+  "start": 21.937,
+  "end": 22.123
+ },
+ {
+  "word": "back.",
+  "start": 22.158,
+  "end": 22.535
+ },
+ {
+  "word": "In",
+  "start": 22.535,
+  "end": 22.625
+ },
+ {
+  "word": "September,",
+  "start": 22.66,
+  "end": 23.055
+ },
+ {
+  "word": "before",
+  "start": 23.078,
+  "end": 23.275
+ },
+ {
+  "word": "his",
+  "start": 23.299,
+  "end": 23.368
+ },
+ {
+  "word": "first",
+  "start": 23.415,
+  "end": 23.589
+ },
+ {
+  "word": "Champions",
+  "start": 23.624,
+  "end": 23.949
+ },
+ {
+  "word": "League",
+  "start": 23.995,
+  "end": 24.158
+ },
+ {
+  "word": "game",
+  "start": 24.181,
+  "end": 24.39
+ },
+ {
+  "word": "back,",
+  "start": 24.425,
+  "end": 24.749
+ },
+ {
+  "word": "an",
+  "start": 24.749,
+  "end": 24.85
+ },
+ {
+  "word": "Italian",
+  "start": 24.885,
+  "end": 25.175
+ },
+ {
+  "word": "journalist",
+  "start": 25.21,
+  "end": 25.489
+ },
+ {
+  "word": "handed",
+  "start": 25.512,
+  "end": 25.709
+ },
+ {
+  "word": "him",
+  "start": 25.733,
+  "end": 25.802
+ },
+ {
+  "word": "a",
+  "start": 25.825,
+  "end": 25.849
+ },
+ {
+  "word": "gift.",
+  "start": 25.895,
+  "end": 26.267
+ },
+ {
+  "word": "A",
+  "start": 26.29,
+  "end": 26.325
+ },
+ {
+  "word": "garden",
+  "start": 26.394,
+  "end": 26.603
+ },
+ {
+  "word": "sprinkler,",
+  "start": 26.638,
+  "end": 27.021
+ },
+ {
+  "word": "with",
+  "start": 27.045,
+  "end": 27.137
+ },
+ {
+  "word": "a",
+  "start": 27.161,
+  "end": 27.184
+ },
+ {
+  "word": "bow",
+  "start": 27.265,
+  "end": 27.486
+ },
+ {
+  "word": "on",
+  "start": 27.555,
+  "end": 27.66
+ },
+ {
+  "word": "it.",
+  "start": 27.718,
+  "end": 27.869
+ },
+ {
+  "word": "Then",
+  "start": 27.892,
+  "end": 28.043
+ },
+ {
+  "word": "came",
+  "start": 28.101,
+  "end": 28.264
+ },
+ {
+  "word": "Sunday.",
+  "start": 28.31,
+  "end": 28.775
+ },
+ {
+  "word": "His",
+  "start": 28.798,
+  "end": 28.879
+ },
+ {
+  "word": "first",
+  "start": 28.926,
+  "end": 29.077
+ },
+ {
+  "word": "Clásico",
+  "start": 29.111,
+  "end": 29.529
+ },
+ {
+  "word": "back,",
+  "start": 29.587,
+  "end": 29.901
+ },
+ {
+  "word": "at",
+  "start": 29.924,
+  "end": 30.029
+ },
+ {
+  "word": "Camp",
+  "start": 30.075,
+  "end": 30.214
+ },
+ {
+  "word": "Nou.",
+  "start": 30.284,
+  "end": 30.542
+ },
+ {
+  "word": "Barcelona",
+  "start": 30.542,
+  "end": 30.923
+ },
+ {
+  "word": "had",
+  "start": 30.958,
+  "end": 31.028
+ },
+ {
+  "word": "won",
+  "start": 31.063,
+  "end": 31.214
+ },
+ {
+  "word": "all",
+  "start": 31.283,
+  "end": 31.469
+ },
+ {
+  "word": "nine",
+  "start": 31.55,
+  "end": 31.782
+ },
+ {
+  "word": "league",
+  "start": 31.829,
+  "end": 32.038
+ },
+ {
+  "word": "games.",
+  "start": 32.084,
+  "end": 32.514
+ },
+ {
+  "word": "One",
+  "start": 32.549,
+  "end": 32.688
+ },
+ {
+  "word": "more",
+  "start": 32.711,
+  "end": 32.827
+ },
+ {
+  "word": "win",
+  "start": 32.862,
+  "end": 33.025
+ },
+ {
+  "word": "would",
+  "start": 33.06,
+  "end": 33.176
+ },
+ {
+  "word": "break",
+  "start": 33.199,
+  "end": 33.35
+ },
+ {
+  "word": "a",
+  "start": 33.385,
+  "end": 33.408
+ },
+ {
+  "word": "record",
+  "start": 33.466,
+  "end": 33.652
+ },
+ {
+  "word": "set",
+  "start": 33.687,
+  "end": 33.861
+ },
+ {
+  "word": "in",
+  "start": 33.895,
+  "end": 33.942
+ },
+ {
+  "word": "1968,",
+  "start": 33.988,
+  "end": 34.836
+ },
+ {
+  "word": "by",
+  "start": 34.871,
+  "end": 34.952
+ },
+ {
+  "word": "Real",
+  "start": 35.022,
+  "end": 35.219
+ },
+ {
+  "word": "Madrid.",
+  "start": 35.254,
+  "end": 35.683
+ },
+ {
+  "word": "Madrid's",
+  "start": 35.707,
+  "end": 35.985
+ },
+ {
+  "word": "goalkeeper,",
+  "start": 36.009,
+  "end": 36.392
+ },
+ {
+  "word": "Thibaut",
+  "start": 36.438,
+  "end": 36.717
+ },
+ {
+  "word": "Courtois,",
+  "start": 36.74,
+  "end": 37.262
+ },
+ {
+  "word": "had",
+  "start": 37.355,
+  "end": 37.541
+ },
+ {
+  "word": "the",
+  "start": 37.576,
+  "end": 37.646
+ },
+ {
+  "word": "flu.",
+  "start": 37.704,
+  "end": 38.052
+ },
+ {
+  "word": "Vinícius",
+  "start": 38.075,
+  "end": 38.447
+ },
+ {
+  "word": "was",
+  "start": 38.47,
+  "end": 38.54
+ },
+ {
+  "word": "suspended.",
+  "start": 38.575,
+  "end": 39.167
+ },
+ {
+  "word": "Mbappé",
+  "start": 39.19,
+  "end": 39.561
+ },
+ {
+  "word": "scored.",
+  "start": 39.631,
+  "end": 40.084
+ },
+ {
+  "word": "Raphinha",
+  "start": 40.119,
+  "end": 40.49
+ },
+ {
+  "word": "equalised.",
+  "start": 40.548,
+  "end": 41.222
+ },
+ {
+  "word": "Then,",
+  "start": 41.245,
+  "end": 41.489
+ },
+ {
+  "word": "with",
+  "start": 41.523,
+  "end": 41.64
+ },
+ {
+  "word": "time",
+  "start": 41.674,
+  "end": 41.895
+ },
+ {
+  "word": "running",
+  "start": 41.918,
+  "end": 42.116
+ },
+ {
+  "word": "out,",
+  "start": 42.162,
+  "end": 42.383
+ },
+ {
+  "word": "Mbappé",
+  "start": 42.417,
+  "end": 42.777
+ },
+ {
+  "word": "scored",
+  "start": 42.847,
+  "end": 43.149
+ },
+ {
+  "word": "again.",
+  "start": 43.172,
+  "end": 43.567
+ },
+ {
+  "word": "His",
+  "start": 43.59,
+  "end": 43.718
+ },
+ {
+  "word": "hundredth",
+  "start": 43.776,
+  "end": 44.078
+ },
+ {
+  "word": "goal",
+  "start": 44.124,
+  "end": 44.298
+ },
+ {
+  "word": "for",
+  "start": 44.356,
+  "end": 44.438
+ },
+ {
+  "word": "Real",
+  "start": 44.507,
+  "end": 44.693
+ },
+ {
+  "word": "Madrid.",
+  "start": 44.739,
+  "end": 45.171
+ },
+ {
+  "word": "And",
+  "start": 45.171,
+  "end": 45.263
+ },
+ {
+  "word": "Mourinho",
+  "start": 45.298,
+  "end": 45.588
+ },
+ {
+  "word": "dropped",
+  "start": 45.67,
+  "end": 45.925
+ },
+ {
+  "word": "to",
+  "start": 45.948,
+  "end": 45.995
+ },
+ {
+  "word": "his",
+  "start": 46.064,
+  "end": 46.157
+ },
+ {
+  "word": "knees",
+  "start": 46.227,
+  "end": 46.459
+ },
+ {
+  "word": "on",
+  "start": 46.494,
+  "end": 46.552
+ },
+ {
+  "word": "the",
+  "start": 46.587,
+  "end": 46.657
+ },
+ {
+  "word": "touchline,",
+  "start": 46.68,
+  "end": 47.133
+ },
+ {
+  "word": "just",
+  "start": 47.191,
+  "end": 47.365
+ },
+ {
+  "word": "like",
+  "start": 47.411,
+  "end": 47.539
+ },
+ {
+  "word": "that",
+  "start": 47.562,
+  "end": 47.69
+ },
+ {
+  "word": "night",
+  "start": 47.748,
+  "end": 47.91
+ },
+ {
+  "word": "in",
+  "start": 47.934,
+  "end": 47.98
+ },
+ {
+  "word": "2010.",
+  "start": 48.026,
+  "end": 48.596
+ },
+ {
+  "word": "But",
+  "start": 48.605,
+  "end": 48.721
+ },
+ {
+  "word": "here's",
+  "start": 48.767,
+  "end": 48.988
+ },
+ {
+  "word": "the",
+  "start": 49.011,
+  "end": 49.081
+ },
+ {
+  "word": "wild",
+  "start": 49.127,
+  "end": 49.359
+ },
+ {
+  "word": "part.",
+  "start": 49.406,
+  "end": 49.652
+ },
+ {
+  "word": "The",
+  "start": 49.668,
+  "end": 49.738
+ },
+ {
+  "word": "record",
+  "start": 49.796,
+  "end": 49.993
+ },
+ {
+  "word": "Barcelona",
+  "start": 50.028,
+  "end": 50.4
+ },
+ {
+  "word": "were",
+  "start": 50.435,
+  "end": 50.527
+ },
+ {
+  "word": "chasing",
+  "start": 50.551,
+  "end": 50.829
+ },
+ {
+  "word": "belonged",
+  "start": 50.876,
+  "end": 51.143
+ },
+ {
+  "word": "to",
+  "start": 51.166,
+  "end": 51.212
+ },
+ {
+  "word": "Real",
+  "start": 51.294,
+  "end": 51.445
+ },
+ {
+  "word": "Madrid.",
+  "start": 51.479,
+  "end": 51.921
+ },
+ {
+  "word": "And",
+  "start": 51.944,
+  "end": 52.025
+ },
+ {
+  "word": "the",
+  "start": 52.06,
+  "end": 52.13
+ },
+ {
+  "word": "team",
+  "start": 52.164,
+  "end": 52.304
+ },
+ {
+  "word": "that",
+  "start": 52.339,
+  "end": 52.431
+ },
+ {
+  "word": "stopped",
+  "start": 52.466,
+  "end": 52.733
+ },
+ {
+  "word": "them",
+  "start": 52.757,
+  "end": 52.907
+ },
+ {
+  "word": "was",
+  "start": 52.989,
+  "end": 53.128
+ },
+ {
+  "word": "Real",
+  "start": 53.209,
+  "end": 53.442
+ },
+ {
+  "word": "Madrid.",
+  "start": 53.5,
+  "end": 54.019
+ }
+]

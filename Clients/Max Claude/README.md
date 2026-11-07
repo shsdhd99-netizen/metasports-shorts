@@ -1,0 +1,73 @@
+# Mr. Claude (Max Claude): commission, state on Nov 2, 2026
+
+**Client:** Max Claude, addressed as "Mr. Claude". Commission: high-quality AI videos with HIS OWN cloned voice and HIS OWN
+face (AI avatar); we deliver files only, he posts. First example topic: a 45 s forensic science lesson, "How Fingerprints Catch Criminals".
+
+## Sales site (live)
+- **https://ondemand-studio.netlify.app** (brand "On Demand"). Source: `Clients/Max Claude/site/index.html` + `thanks.html`.
+- Nov 2 update: framed as a helpful tool (not a replacement); demo = our S17 Short (20K views, `site/demo.mp4` built from the S17 real-audio DRAFT at 540p); stat 2.7M+ views over 148 Shorts (both channels, Nov 2); PayPal button in the final block is `hidden` until the owner gives a PayPal.Me link (replace PAYPAL_LINK, remove `hidden` on #paypal and #paypal-note).
+- Sales tactics used: outcome headline, phone preview, "old way vs On Demand", our real view numbers as proof, 4-step process,
+  guarantees (approve first, likeness stays his, sourced facts), low-friction CTA ("Reserve my setup" = a free draft script first),
+  recording guide with a read-aloud script. No prices yet (owner paused pricing until the page is right).
+- Netlify site id `795688f4-76fa-4c8f-b0fd-2a405dbb7415`. Visitor login protection turned OFF; form detection ON.
+- **Leads:** Netlify → project ondemand-studio → Forms → `video-request` (add an email under Form notifications).
+- **Deploy an update:** zip index.html + thanks.html, then
+  `curl -X POST -H "Authorization: Bearer $NETLIFY_AUTH_TOKEN" -H "Content-Type: application/zip" --data-binary @site.zip https://api.netlify.com/api/v1/sites/795688f4-76fa-4c8f-b0fd-2a405dbb7415/deploys`
+  The token must come from the environment (`NETLIFY_AUTH_TOKEN`), never chat or git. The owner should rotate the token
+  that was pasted in chat on Nov 2.
+
+## Pricing proposal (PAUSED; owner decides; PayPal invoices)
+Setup $300 (voice clone + avatar + test video) · single video $150 (≤60 s) · Starter 4/mo $450 · Growth 8/mo $800 ·
+Pro 16/mo $1,400 · add-ons: rush 48 h +$50, 16:9 copy +$40, extra revision +$25, 60-120 s +$75. 50% deposit on setup.
+Basis (Nov 2 research): freelance avatar videos ~$150-400 simple, $300-900+ custom; packages $200-700/mo. His tools in his
+name: ElevenLabs Creator (~$22/mo, professional voice clone), an avatar service such as HeyGen (~$29+/mo; check plan limits).
+
+## Next
+1. Owner reviews the site; then add pricing + PayPal links.
+2. When Max records: build his voice clone and avatar in his accounts, make the fingerprint lesson (see
+   `HANDOVER - Account 1 Client AI Videos.md` for the build prompt), deliver files.
+
+## Nov 2 update 2
+- Not social-media specific (he doesn't know the use yet): copy says "for whatever you need" (classes, training, talks, sites).
+- PayPal button live at the bottom: https://www.paypal.me/vaughnpayne1 (no prices on the page yet).
+- **Free self-preview on the site** (section "Try it with my face", form `demo-request`): he takes/uploads one photo (compressed to
+  1600 px in the browser) and records ~60 s of voice in the browser (or uploads a voice memo), ticks consent, leaves contact.
+  Files land in Netlify → ondemand-studio → Forms → demo-request (tested Nov 2 with a dummy upload, then deleted).
+- **How to make his preview when it arrives:** ElevenLabs Instant Voice Clone from the recording (in an account he owns or that
+  we delete after); a talking-photo avatar from the photo (HeyGen photo avatar or similar); voice the fingerprint script
+  (`HANDOVER - Account 1 Client AI Videos.md`) and edit with our pipeline; 30-45 s, captioned, 16:9 and 9:16. Say it's preview
+  quality; the full version uses his 5-minute filmed recording. Delete his files on request (consent text promises it).
+
+## Nov 3: his demo form is in (owner); prep done, three blockers
+- Owner says Max has submitted the self-preview form (photo + voice). Files are in Netlify → ondemand-studio → Forms → demo-request; this session has no `NETLIFY_AUTH_TOKEN`, so they haven't been fetched yet.
+- Ready in `Clients/Max Claude/Productions/01 Fingerprints/`: fact-checked script (four lines corrected, see notes.md), 12 Mixkit clips, 3 fingerprint illustration clips drawn from maths (`make_print_graphics.py`: dusting reveal, real minutiae circled, partial-vs-stored match), and the line-by-line shot plan with his face at the start and end.
+- Blockers: (1) `NETLIFY_AUTH_TOKEN` in the environment (new token; delete the one pasted in chat on Nov 2), (2) `ELEVENLABS_API_KEY` for his instant voice clone, (3) an avatar service for the talking photo (HeyGen photo avatar or similar). Owner tasks for 1 and 3 are on the to-do list.
+- Nov 3, 15:30 UTC: his demo-request submission (14:41 UTC, consent ticked) fetched with a Netlify token the owner pasted in chat (kept only in Claude's temporary folder; owner task to delete it after the demo). Files are in `Productions/01 Fingerprints/src/max/` (git-ignored, never committed): a 1200x1600 selfie (frontal, well lit, classroom background: good for a talking photo) and a 52.7 s voice memo. The memo is quiet (speech mostly -50 to -35 dB) with room noise; `voice_clean.wav` is a denoised, levelled copy for the instant clone. If the clone sounds muffled, ask him to re-record closer to the phone in a quiet room.
+- Still needed: an ElevenLabs key (owner can create a new one in their account) for the clone; a talking-photo service (HeyGen free plan for the demo: about 1 minute of Avatar IV a month, watermarked, 720p; Hedra free plan as backup). The free tiers have no API, so the owner makes the two talking clips in the web app from his photo and the audio Claude sends.
+
+## Nov 3 (evening): preview built with his voice; talking clips still missing
+- Full state and how to finish: **`Productions/00 Preview/HANDOFF.md`**. Method: skill `.claude/skills/client-avatar-video/`.
+- Done: his inputs fetched (1 submission, 0 spam), narration rebuilt with his voice clone (43.4 s), Mixkit clips, both
+  versions rendered and QA'd with his photo as a placeholder at start/end (-14.2 LUFS, no black frames, captions clear of
+  his mouth). Sent to the owner as placeholder versions.
+- Blocker: Hedra API wallet is $0 (key valid; web credits don't count). ~$1 funds all four clips (`work/hedra.py`).
+  Free routes: SadTalker/EchoMimic on the PC's RTX 3060, or the owner uses Hedra/HeyGen free web credits (`HEDRA.md`).
+- Owner to do: revoke the Netlify token pasted in chat on Nov 3; add `NETLIFY_AUTH_TOKEN` to the environment.
+
+## Nov 3, 8 PM ET: preview with his talking face DONE (PC)
+- Both `00 Preview/PREVIEW - Fingerprints (16x9|9x16).mp4` now have his face talking at the start and end (SadTalker on the PC GPU, free, nothing uploaded). Files are on the PC only; the owner sends them to Max. Details and a script-accuracy note: `Productions/00 Preview/HANDOFF.md` (last section).
+- Netlify: the owner pasted a second token in chat on Nov 3; it is saved in `Tools/.env` on the PC (git-ignored). Revoke both chat tokens after the demo.
+
+## Nov 5, 2026: widescreen version + site rebuilt for Max (DRAFT, not published)
+- Widescreen: `Productions/00 Preview/PREVIEW - Fingerprints (16x9, blurred sides, synced).mp4` (1920x1080, 12.9 MB; the 9:16 synced video centred over a blurred copy). Also on the Desktop in "Max avatar kit".
+- Site (`site/index.html`, source in git; videos in `site/media/` are git-ignored): rebuilt for someone who has never used AI. The hero is Max's own preview video (4.6 MB 720p vertical) and a widescreen copy lower down. New sections: "How a computer made a video of you" (voice, face, writing, in plain words), "The honest part" (what works, what is still rough), "This is the free version, here is what a real budget buys" (voice from a 2-5 minute clean recording, face from a short video of him, higher quality settings, custom diagrams and clips, formats, speed) with the line "we will tell you the price in writing before you pay anything". Also: feedback form (`draft-feedback`), three new FAQ answers, the read-aloud text now matches the corrected script, `noindex`, no prices invented.
+- Deployed as a **Netlify draft only** (production is unchanged): https://6aec97f929df325183d2356d--ondemand-studio.netlify.app . To publish: Netlify > Deploys > that deploy > "Publish deploy" (or API restore); say "publish it" to the terminal. Videos were not put on the live URL because Max agreed only to a private preview; the draft URL is unguessable but public to anyone who has it.
+- Old page saved as `index_before_nov5.html.bak` (git-ignored copy).
+
+## Nov 5, 2026 (evening): site is now PRIVATE, quote added, better-inputs form
+- **Privacy:** the live site https://ondemand-studio.netlify.app now shows only a password box. The real page, the quote and Max's videos are AES-256-GCM encrypted files decrypted in the browser with the password (Netlify's free plan has no site password and zip uploads do not bundle edge functions, so this is the free way to get real privacy). The password is `MAX_SITE_PASSWORD` in `Tools/.env` (git-ignored) and is in the owner's to-do file; give it to Max yourself. Rebuild/redeploy: `python Tools/max_site_deploy.py draft|prod` (Tools/max_site_protect.mjs builds the encrypted files). Earlier unprotected preview deploys of the new page were deleted. Old production deploy permalinks from Nov 2 (the older public page, no Max video) still exist.
+- **Quote (on the site and `site/quote.html`):** setup $129 (voice + face + first full video, 2 revision rounds, refund of the setup if unhappy after two rounds); $45 per video; Lesson Pack $149/month for 4; Class Pack $259/month for 8; extras +$20 (60-120 s), +$15 diagram, +$25 rush, $10 third revision; $65 deposit via PayPal.me. Internal reasoning and sensitivity: `PRICING - internal notes (Nov 5, 2026).md`. **Owner to confirm the prices.**
+- **Better inputs form** (`inputs-upload`): 3-5 photos, a 2-5 minute recording (record in the browser or upload), an optional 30-90 s video, a shared-folder link, with plain instructions and three passages to read. Forms registered at deploy: inputs-upload, video-request, draft-feedback (old `demo-request` still holds his Nov 3 submission).
+- The owner has a few photos to add (ask where they are).
+
+- **Nov 5 (later): FRIEND PRICES** (owner: he is a friend): setup $59 (normal $129), $29 per video (normal $45), Lesson Pack 4 for $99, Class Pack 8 for $169, deposit $30; extras +$15 / +$10 / +$20, third revision $8; normal prices shown crossed out; locked 12 months. Reasoning and hourly maths: `PRICING - internal notes (Nov 5, 2026).md`. The live private site was redeployed with these prices.

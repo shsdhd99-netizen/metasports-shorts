@@ -1,0 +1,182 @@
+{
+ "length_s": 70.0,
+ "topic": "An explainer examining the dispute between Spain and Morocco over hosting the 2030 World Cup final and how FIFA actually picks the venue.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "Where should the final of the 2030 World Cup be played?",
+  "first_frame": "A soccer player placing a ball on the pitch with text overlay.",
+  "on_screen_text_0_3s": "Where should the FINAL of the 2030 World Cup be PLAYED?",
+  "shots_in_first_3s": 2
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 2.5,
+   "shows": "Soccer players on a pitch and Gianni Infantino holding a FIFA sign",
+   "kind": "action"
+  },
+  {
+   "start_s": 2.5,
+   "end_s": 6.0,
+   "shows": "Gianni Infantino and national soccer team squads",
+   "kind": "action"
+  },
+  {
+   "start_s": 6.0,
+   "end_s": 9.0,
+   "shows": "Spain and Morocco crests and a man talking on television",
+   "kind": "stock"
+  },
+  {
+   "start_s": 9.0,
+   "end_s": 14.0,
+   "shows": "Stadium view and construction of a new stadium in Casablanca",
+   "kind": "stock"
+  },
+  {
+   "start_s": 14.0,
+   "end_s": 18.0,
+   "shows": "Renderings of the massive Casablanca stadium",
+   "kind": "stock"
+  },
+  {
+   "start_s": 18.0,
+   "end_s": 22.0,
+   "shows": "Architect talking and stadium blueprints on a screen",
+   "kind": "action"
+  },
+  {
+   "start_s": 22.0,
+   "end_s": 25.0,
+   "shows": "Spanish football officials speaking and at podiums",
+   "kind": "action"
+  },
+  {
+   "start_s": 25.0,
+   "end_s": 30.0,
+   "shows": "Article text and views of Santiago Bernabeu and Camp Nou stadiums",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 30.0,
+   "end_s": 33.0,
+   "shows": "Kevin Hart reaction face and Spanish federation official speaking",
+   "kind": "reaction"
+  },
+  {
+   "start_s": 33.0,
+   "end_s": 39.0,
+   "shows": "Spain crest animation, Spanish fans celebrating, and Portugal flag",
+   "kind": "stock"
+  },
+  {
+   "start_s": 39.0,
+   "end_s": 44.0,
+   "shows": "Moroccan fans, soccer players walking out, and Spanish official holding shirt",
+   "kind": "stock"
+  },
+  {
+   "start_s": 44.0,
+   "end_s": 48.0,
+   "shows": "Moroccan official speaking and construction of Casablanca stadium",
+   "kind": "action"
+  },
+  {
+   "start_s": 48.0,
+   "end_s": 52.0,
+   "shows": "Rendered stadium match and Moroccan fans celebrating",
+   "kind": "stock"
+  },
+  {
+   "start_s": 52.0,
+   "end_s": 56.0,
+   "shows": "IFAB rulebook and Steve Harvey reaction face with laser eyes",
+   "kind": "reaction"
+  },
+  {
+   "start_s": 56.0,
+   "end_s": 60.0,
+   "shows": "Argentine fans celebrating and crowded stadium",
+   "kind": "stock"
+  },
+  {
+   "start_s": 60.0,
+   "end_s": 64.0,
+   "shows": "Opening ceremony in Portugal and Spanish fans celebrating",
+   "kind": "stock"
+  },
+  {
+   "start_s": 64.0,
+   "end_s": 67.0,
+   "shows": "Construction workers posing with a flag in a stadium",
+   "kind": "stock"
+  },
+  {
+   "start_s": 67.0,
+   "end_s": 70.0,
+   "shows": "Gianni Infantino with officials and the World Cup trophy",
+   "kind": "stock"
+  }
+ ],
+ "shot_count": 18,
+ "average_shot_s": 3.89,
+ "longest_shot_s": 5.0,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 185,
+  "tone": "fast-paced, analytical, engaging",
+  "original_audio_under_voice": true
+ },
+ "music": {
+  "present": true,
+  "style": "tension-building dramatic cinematic beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 2,
+  "case": "mixed",
+  "position": "middle",
+  "colours": "white with yellow highlights",
+  "highlight_style": "yellow highlight on active word"
+ },
+ "text_overlays": [],
+ "cards_or_graphics": 3,
+ "framing": "crop",
+ "ending": {
+  "last_words": "and ultimately its own discretion.",
+  "last_frame": "The golden World Cup trophy in its case.",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "Where should the final of the 2030 World Cup be played? The 2030 World Cup is being co-hosted by Spain, Portugal, and Morocco, and right now Spain and Morocco are in a serious tug of war over who gets the final. Morocco is spending around half a billion dollars on a brand new stadium outside Casablanca that will hold 115,000 people, making it the biggest football stadium in the world, and their architect literally said it was designed and made for the 2030 final. Spain fired back through their federation president, Rafael Louzán, who said it would be inexplicable if the final wasn't held in Spain, at the Santiago Bernabéu or Camp Nou. But Spain isn't leaning on stadium size to win this, and their real angle is far bolder. Louzán says Spain carries 55% organizational weight of this whole tournament and that the World Cup was basically born as a Spain and Portugal bid with Morocco joining later. So since he's hosting the most matches, he feels the final should follow the weight. Morocco's side just points at the numbers, because their stadium is bigger than anything Spain has, and a final in Casablanca would be only the second time in history that an African city hosts a World Cup final. But once you look at FIFA's own rulebook, you realize why neither side can actually prove they're right. FIFA has published exactly how it evaluates stadiums for capacity and safety, yet it has never published a single rule for how it picks the stadium that hosts the final. So FIFA informally decides the final through technical checks, private consultation with the host countries, and ultimately its own discretion.",
+ "retention_tricks": [
+  "Fast pacing with short average shot duration",
+  "Reaction face memes (Kevin Hart, Steve Harvey) for humor and pattern interrupt",
+  "Bold text highlighting active words in captions",
+  "Open loop regarding how FIFA actually makes the decision"
+ ],
+ "subject_visible_0_1s": false,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "Clear narrative tension between Spain and Morocco over hosting rights",
+  "Strong visual variety using stadium renders, architectural plans, and meme reactions",
+  "Surprising concluding reveal that FIFA has no official written rule for picking the final venue"
+ ],
+ "_meta": {
+  "source": "Q18qPxmlOQc",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

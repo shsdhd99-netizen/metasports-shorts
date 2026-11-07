@@ -1,0 +1,517 @@
+[
+ {
+  "word": "A",
+  "start": 0.0,
+  "end": 0.067
+ },
+ {
+  "word": "screen",
+  "start": 0.123,
+  "end": 0.358
+ },
+ {
+  "word": "is",
+  "start": 0.402,
+  "end": 0.47
+ },
+ {
+  "word": "legal.",
+  "start": 0.525,
+  "end": 0.827
+ },
+ {
+  "word": "Shoving",
+  "start": 0.872,
+  "end": 1.151
+ },
+ {
+  "word": "while",
+  "start": 1.173,
+  "end": 1.307
+ },
+ {
+  "word": "you",
+  "start": 1.33,
+  "end": 1.396
+ },
+ {
+  "word": "set",
+  "start": 1.441,
+  "end": 1.575
+ },
+ {
+  "word": "one",
+  "start": 1.631,
+  "end": 1.765
+ },
+ {
+  "word": "is",
+  "start": 1.81,
+  "end": 1.9
+ },
+ {
+  "word": "a",
+  "start": 1.955,
+  "end": 1.989
+ },
+ {
+  "word": "foul.",
+  "start": 2.089,
+  "end": 2.402
+ },
+ {
+  "word": "The",
+  "start": 2.424,
+  "end": 2.513
+ },
+ {
+  "word": "NBA",
+  "start": 2.569,
+  "end": 2.86
+ },
+ {
+  "word": "just",
+  "start": 2.916,
+  "end": 3.061
+ },
+ {
+  "word": "showed",
+  "start": 3.083,
+  "end": 3.274
+ },
+ {
+  "word": "referees",
+  "start": 3.318,
+  "end": 3.676
+ },
+ {
+  "word": "exactly",
+  "start": 3.732,
+  "end": 4.156
+ },
+ {
+  "word": "where",
+  "start": 4.2,
+  "end": 4.346
+ },
+ {
+  "word": "the",
+  "start": 4.379,
+  "end": 4.447
+ },
+ {
+  "word": "line",
+  "start": 4.503,
+  "end": 4.726
+ },
+ {
+  "word": "is.",
+  "start": 4.759,
+  "end": 5.005
+ },
+ {
+  "word": "Mason",
+  "start": 5.05,
+  "end": 5.318
+ },
+ {
+  "word": "Plumlee",
+  "start": 5.363,
+  "end": 5.72
+ },
+ {
+  "word": "sets",
+  "start": 5.765,
+  "end": 5.955
+ },
+ {
+  "word": "a",
+  "start": 5.988,
+  "end": 6.01
+ },
+ {
+  "word": "screen.",
+  "start": 6.056,
+  "end": 6.48
+ },
+ {
+  "word": "But",
+  "start": 6.672,
+  "end": 7.0
+ },
+ {
+  "word": "he",
+  "start": 7.0,
+  "end": 7.329
+ },
+ {
+  "word": "then",
+  "start": 7.329,
+  "end": 7.657
+ },
+ {
+  "word": "extends",
+  "start": 7.657,
+  "end": 7.985
+ },
+ {
+  "word": "his",
+  "start": 7.985,
+  "end": 8.314
+ },
+ {
+  "word": "arms,",
+  "start": 8.314,
+  "end": 8.642
+ },
+ {
+  "word": "and",
+  "start": 8.642,
+  "end": 8.97
+ },
+ {
+  "word": "he",
+  "start": 8.97,
+  "end": 9.299
+ },
+ {
+  "word": "pushes",
+  "start": 9.299,
+  "end": 9.627
+ },
+ {
+  "word": "the",
+  "start": 9.627,
+  "end": 9.955
+ },
+ {
+  "word": "on-ball",
+  "start": 9.955,
+  "end": 10.284
+ },
+ {
+  "word": "defender,",
+  "start": 10.284,
+  "end": 10.612
+ },
+ {
+  "word": "Foul,",
+  "start": 10.822,
+  "end": 11.13
+ },
+ {
+  "word": "says",
+  "start": 11.157,
+  "end": 11.283
+ },
+ {
+  "word": "the",
+  "start": 11.301,
+  "end": 11.365
+ },
+ {
+  "word": "NBA.",
+  "start": 11.391,
+  "end": 11.699
+ },
+ {
+  "word": "Next,",
+  "start": 11.744,
+  "end": 11.97
+ },
+ {
+  "word": "Naz",
+  "start": 12.016,
+  "end": 12.178
+ },
+ {
+  "word": "Reid",
+  "start": 12.224,
+  "end": 12.35
+ },
+ {
+  "word": "screens",
+  "start": 12.377,
+  "end": 12.585
+ },
+ {
+  "word": "for",
+  "start": 12.612,
+  "end": 12.703
+ },
+ {
+  "word": "DiVincenzo.",
+  "start": 12.748,
+  "end": 13.462
+ },
+ {
+  "word": "Reid",
+  "start": 13.641,
+  "end": 13.939
+ },
+ {
+  "word": "then",
+  "start": 13.939,
+  "end": 14.237
+ },
+ {
+  "word": "extends",
+  "start": 14.237,
+  "end": 14.535
+ },
+ {
+  "word": "both",
+  "start": 14.535,
+  "end": 14.832
+ },
+ {
+  "word": "arms,",
+  "start": 14.832,
+  "end": 15.13
+ },
+ {
+  "word": "and",
+  "start": 15.13,
+  "end": 15.428
+ },
+ {
+  "word": "he",
+  "start": 15.428,
+  "end": 15.726
+ },
+ {
+  "word": "pushes",
+  "start": 15.726,
+  "end": 16.024
+ },
+ {
+  "word": "Okoro",
+  "start": 16.024,
+  "end": 16.321
+ },
+ {
+  "word": "Foul.",
+  "start": 16.651,
+  "end": 16.966
+ },
+ {
+  "word": "Robert",
+  "start": 17.004,
+  "end": 17.206
+ },
+ {
+  "word": "Williams.",
+  "start": 17.229,
+  "end": 17.574
+ },
+ {
+  "word": "Foul.",
+  "start": 17.663,
+  "end": 17.956
+ },
+ {
+  "word": "Day'Ron Sharpe.",
+  "start": 18.024,
+  "end": 18.623
+ },
+ {
+  "word": "Foul.",
+  "start": 18.743,
+  "end": 19.119
+ },
+ {
+  "word": "But",
+  "start": 19.238,
+  "end": 19.336
+ },
+ {
+  "word": "Isaiah",
+  "start": 19.373,
+  "end": 19.584
+ },
+ {
+  "word": "Stewart",
+  "start": 19.599,
+  "end": 19.839
+ },
+ {
+  "word": "makes",
+  "start": 19.876,
+  "end": 20.011
+ },
+ {
+  "word": "contact",
+  "start": 20.041,
+  "end": 20.289
+ },
+ {
+  "word": "on",
+  "start": 20.311,
+  "end": 20.356
+ },
+ {
+  "word": "a",
+  "start": 20.386,
+  "end": 20.401
+ },
+ {
+  "word": "screen",
+  "start": 20.431,
+  "end": 20.603
+ },
+ {
+  "word": "too,",
+  "start": 20.642,
+  "end": 20.866
+ },
+ {
+  "word": "and",
+  "start": 20.881,
+  "end": 20.971
+ },
+ {
+  "word": "the",
+  "start": 21.001,
+  "end": 21.046
+ },
+ {
+  "word": "NBA",
+  "start": 21.083,
+  "end": 21.309
+ },
+ {
+  "word": "says",
+  "start": 21.346,
+  "end": 21.481
+ },
+ {
+  "word": "play",
+  "start": 21.519,
+  "end": 21.669
+ },
+ {
+  "word": "on.",
+  "start": 21.714,
+  "end": 21.924
+ },
+ {
+  "word": "Why?",
+  "start": 21.999,
+  "end": 22.411
+ },
+ {
+  "word": "This",
+  "start": 22.593,
+  "end": 22.935
+ },
+ {
+  "word": "contact",
+  "start": 22.935,
+  "end": 23.277
+ },
+ {
+  "word": "by",
+  "start": 23.277,
+  "end": 23.618
+ },
+ {
+  "word": "Stewart",
+  "start": 23.618,
+  "end": 23.96
+ },
+ {
+  "word": "does",
+  "start": 23.96,
+  "end": 24.302
+ },
+ {
+  "word": "not",
+  "start": 24.302,
+  "end": 24.643
+ },
+ {
+  "word": "affect",
+  "start": 24.643,
+  "end": 24.985
+ },
+ {
+  "word": "Black's",
+  "start": 24.985,
+  "end": 25.327
+ },
+ {
+  "word": "ability",
+  "start": 25.327,
+  "end": 25.668
+ },
+ {
+  "word": "to",
+  "start": 25.668,
+  "end": 26.01
+ },
+ {
+  "word": "play",
+  "start": 26.01,
+  "end": 26.352
+ },
+ {
+  "word": "defense,",
+  "start": 26.352,
+  "end": 26.693
+ },
+ {
+  "word": "The",
+  "start": 26.853,
+  "end": 26.994
+ },
+ {
+  "word": "line",
+  "start": 27.048,
+  "end": 27.254
+ },
+ {
+  "word": "isn't",
+  "start": 27.275,
+  "end": 27.459
+ },
+ {
+  "word": "contact.",
+  "start": 27.491,
+  "end": 27.902
+ },
+ {
+  "word": "It's",
+  "start": 27.924,
+  "end": 28.054
+ },
+ {
+  "word": "whether",
+  "start": 28.087,
+  "end": 28.303
+ },
+ {
+  "word": "the",
+  "start": 28.346,
+  "end": 28.411
+ },
+ {
+  "word": "defender",
+  "start": 28.444,
+  "end": 28.747
+ },
+ {
+  "word": "can",
+  "start": 28.789,
+  "end": 28.898
+ },
+ {
+  "word": "still",
+  "start": 28.941,
+  "end": 29.125
+ },
+ {
+  "word": "play.",
+  "start": 29.169,
+  "end": 29.493
+ }
+]

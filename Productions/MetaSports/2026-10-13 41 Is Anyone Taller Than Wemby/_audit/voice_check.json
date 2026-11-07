@@ -1,0 +1,39 @@
+{
+ "verdict": "CHECK",
+ "wpm": 235,
+ "issues": [],
+ "notes": [
+  " 1.42s  \"wembanyama\" heard as \"wembun yama\" (close; check the name)",
+  " 4.46s  \"jamarion\" heard as \"jamarian\" (close; check the name)",
+  " 8.56s  \"the\" heard as \"\" (close; check the name)",
+  "18.88s  \"wembanyama 3 100 and 50\" heard as \"wembun yama 350\" (close; check the name)",
+  "17.46s  dragging sentence (165 wpm): Three-point tries last season: Wembanyama, three hundred and"
+ ],
+ "heard": "This man is listed taller than Victor Wembun -Yama, and he's never played an NBA game that counts. Jamarian Sharp listed 7 '5, Dallas brought him to camp twice, cut him twice. Clippers signed him this summer, cut him in September. On Monday, Toronto gave him one more camp, and it's not his defense. He led the G -League in blocks and won defensive player of the year. The knock on him is offense. 3 point tries last season. Wembun -Yama 350, Sharp in the G -League, 0.",
+ "mismatches": [
+  {
+   "at": 1.42,
+   "script": "wembanyama",
+   "heard": "wembun yama",
+   "similar": 0.9
+  },
+  {
+   "at": 4.46,
+   "script": "jamarion",
+   "heard": "jamarian",
+   "similar": 0.88
+  },
+  {
+   "at": 8.56,
+   "script": "the",
+   "heard": "",
+   "similar": 1.0
+  },
+  {
+   "at": 18.88,
+   "script": "wembanyama 3 100 and 50",
+   "heard": "wembun yama 350",
+   "similar": 0.75
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+  "about": "Malone's record lasted 22 years; LeBron broke it three times in 46 days.",
+  "covers": [
+    {
+      "assetId": "18b4a3dcc43df303c204c58afec36575",
+      "label": "A (use this)"
+    }
+  ],
+  "name": "How old is the oldest triple-double ever",
+  "num": 39,
+  "pinned": "LeBron has broken the oldest-triple-double record three times in 46 days. Will he get one in the opener at the Knicks on Oct 20, or does it wait?",
+  "postNote": "Posted Oct 13. Critic v2 ran after posting (Oct 14): stand-in shots and a scorebug from another opponent; lessons logged. Do not re-post.",
+  "slot": 0,
+  "slotLabel": "Posted Oct 13 (23:49 UTC); see the Outcome Log",
+  "status": "posted",
+  "tags": "oldest triple double in nba history, lebron james oldest triple double, lebron james triple double record, karl malone triple double, lebron james 41 years old, lebron james triple doubles, oldest player triple double, nba records, nba age records, lebron james records, lebron james 2026-27, lebron james sixers, sixers opening night, sixers knicks opening night, nba longevity record, lakers lebron james 2026, nba shorts, basketball shorts, nba",
+  "title": "How Old Is The Oldest Triple-Double Ever? 👴",
+  "titles": [
+    "How Old Is The Oldest Triple-Double Ever? 👴",
+    "Did LeBron Break The Same Record Three Times? 😳",
+    "Why Is LeBron's Record Still Getting Older? 🤯"
+  ],
+  "versions": [
+    {
+      "assetId": "92a1aa15c7719aa3d65fcb96a645fd98",
+      "label": "POST THIS",
+      "note": "Passes qa_short.py (Oct 13)."
+    }
+  ]
+}

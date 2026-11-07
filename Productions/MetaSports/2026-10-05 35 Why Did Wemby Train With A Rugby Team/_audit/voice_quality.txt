@@ -1,0 +1,1 @@
+2026-10-05 35 Why Did Wemby Tr#0     PASS HNR   8.1 jit 2.88 shim 11.48 jumps/s 0.00 clicks/min 344.4 hf%  3.40 f0 175 dur 19.69  

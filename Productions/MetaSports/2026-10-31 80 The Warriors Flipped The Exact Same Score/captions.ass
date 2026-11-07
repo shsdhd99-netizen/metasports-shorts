@@ -1,0 +1,56 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Montserrat Black,86,&H00FFFFFF,&H00FFFFFF,&H00000000,&H99000000,0,0,0,0,95,100,1,0,1,6,3,5,70,70,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.50,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE LAKERS
+Dialogue: 0,0:00:00.50,0:00:01.37,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}LED BY 23
+Dialogue: 0,0:00:01.37,0:00:01.99,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AFTER ONE
+Dialogue: 0,0:00:01.99,0:00:02.43,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND LOST
+Dialogue: 0,0:00:02.43,0:00:03.51,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BY 17.
+Dialogue: 0,0:00:03.51,0:00:03.82,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}LUKA
+Dialogue: 0,0:00:03.82,0:00:04.62,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HAD 21 POINTS
+Dialogue: 0,0:00:04.62,0:00:05.14,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN THAT QUARTER
+Dialogue: 0,0:00:05.14,0:00:05.56,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ALONE.
+Dialogue: 0,0:00:05.56,0:00:06.08,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THEN THE SECOND
+Dialogue: 0,0:00:06.08,0:00:06.59,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}QUARTER ENDED
+Dialogue: 0,0:00:06.59,0:00:07.70,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}38 TO 15.
+Dialogue: 0,0:00:07.70,0:00:08.59,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx84\fscy84\t(0,90,\fscx98\fscy98)}FOR GOLDEN STATE.
+Dialogue: 0,0:00:08.59,0:00:09.16,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE EXACT
+Dialogue: 0,0:00:09.16,0:00:09.90,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SAME SCORE,
+Dialogue: 0,0:00:09.90,0:00:10.37,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FLIPPED.
+Dialogue: 0,0:00:10.37,0:00:11.17,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IT WAS 53
+Dialogue: 0,0:00:11.17,0:00:11.85,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TO 53
+Dialogue: 0,0:00:11.85,0:00:12.56,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AT HALFTIME.
+Dialogue: 0,0:00:12.56,0:00:13.06,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NO TEAM
+Dialogue: 0,0:00:13.06,0:00:13.49,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN THE SHOT
+Dialogue: 0,0:00:13.49,0:00:14.06,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}CLOCK ERA
+Dialogue: 0,0:00:14.06,0:00:14.54,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HAD TRAILED
+Dialogue: 0,0:00:14.54,0:00:15.16,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BY 23
+Dialogue: 0,0:00:15.16,0:00:15.44,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}OR MORE
+Dialogue: 0,0:00:15.44,0:00:15.98,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AFTER ONE
+Dialogue: 0,0:00:15.98,0:00:16.59,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND BEEN TIED
+Dialogue: 0,0:00:16.59,0:00:16.94,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}OR BETTER
+Dialogue: 0,0:00:16.94,0:00:17.62,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BY HALFTIME.
+Dialogue: 0,0:00:17.62,0:00:18.14,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}LUKA STILL
+Dialogue: 0,0:00:18.14,0:00:19.13,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FINISHED WITH 37.
+Dialogue: 0,0:00:19.13,0:00:19.64,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}CURRY PASSED
+Dialogue: 0,0:00:19.64,0:00:20.36,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx82\fscy82\t(0,90,\fscx95\fscy95)}DOMINIQUE WILKINS
+Dialogue: 0,0:00:20.36,0:00:20.99,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ON THE ALL-TIME
+Dialogue: 0,0:00:20.99,0:00:21.37,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}LIST.
+Dialogue: 0,0:00:21.37,0:00:21.97,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND NO TEAM
+Dialogue: 0,0:00:21.97,0:00:22.38,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}DOWN 20
+Dialogue: 0,0:00:22.38,0:00:22.66,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}OR MORE
+Dialogue: 0,0:00:22.66,0:00:23.15,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AFTER ONE
+Dialogue: 0,0:00:23.15,0:00:23.51,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HAS WON
+Dialogue: 0,0:00:23.51,0:00:23.95,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BY MORE
+Dialogue: 0,0:00:23.95,0:00:24.35,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN THE SHOT
+Dialogue: 0,0:00:24.35,0:00:25.24,Cap,,0,0,0,,{\pos(540,1100)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}CLOCK ERA.

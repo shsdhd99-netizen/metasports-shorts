@@ -1,0 +1,146 @@
+{
+ "length_s": 53.047,
+ "topic": "An intense basketball game highlights dramatic plays, last-second shots, and crowd reactions.",
+ "lane": "moment",
+ "hook": {
+  "first_words": "unknown",
+  "first_frame": "Basketball court overview with players in motion and score overlay",
+  "on_screen_text_0_3s": "none",
+  "shots_in_first_3s": 3
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 7.75,
+   "shows": "Basketball game play with missed shot",
+   "kind": "action"
+  },
+  {
+   "start_s": 7.75,
+   "end_s": 10.0,
+   "shows": "Close-up of player looking up",
+   "kind": "face"
+  },
+  {
+   "start_s": 10.0,
+   "end_s": 15.75,
+   "shows": "Free throw shot and score update",
+   "kind": "action"
+  },
+  {
+   "start_s": 15.75,
+   "end_s": 29.875,
+   "shows": "Fast break and game-winning basket with crowd celebration",
+   "kind": "action"
+  },
+  {
+   "start_s": 29.875,
+   "end_s": 31.625,
+   "shows": "Player celebrating running down the court",
+   "kind": "face"
+  },
+  {
+   "start_s": 31.625,
+   "end_s": 33.875,
+   "shows": "Coach celebrating passionately",
+   "kind": "face"
+  },
+  {
+   "start_s": 33.875,
+   "end_s": 35.75,
+   "shows": "Fan celebrating excitedly",
+   "kind": "face"
+  },
+  {
+   "start_s": 35.75,
+   "end_s": 37.375,
+   "shows": "LeBron James sitting dejected on the bench",
+   "kind": "face"
+  },
+  {
+   "start_s": 37.375,
+   "end_s": 51.25,
+   "shows": "Replay of the final sequence leading to the winning basket and crowd celebration",
+   "kind": "replay"
+  },
+  {
+   "start_s": 51.25,
+   "end_s": 53.047,
+   "shows": "Fan in Lakers jersey smiling and holding up a finger",
+   "kind": "face"
+  }
+ ],
+ "shot_count": 10,
+ "average_shot_s": 5.3,
+ "longest_shot_s": 14.125,
+ "voice": {
+  "type": "none",
+  "gender": "unknown",
+  "words_per_minute_estimate": 0,
+  "tone": "unknown",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "dramatic hip-hop / stadium hype",
+  "level_vs_voice": "loud",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": false,
+  "words_per_line": 0,
+  "case": "mixed",
+  "position": "bottom",
+  "colours": [],
+  "highlight_style": "none"
+ },
+ "text_overlays": [
+  {
+   "at_s": 0.0,
+   "text": "LAKERS 113 BULLS 110"
+  },
+  {
+   "at_s": 4.25,
+   "text": "*AIRBALL*"
+  },
+  {
+   "at_s": 14.0,
+   "text": "*MADE 2 FT*"
+  }
+ ],
+ "cards_or_graphics": 0,
+ "framing": "cropped",
+ "ending": {
+  "last_words": "unknown",
+  "last_frame": "Fan smiling and pointing up in the crowd",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "",
+ "retention_tricks": [
+  "replay",
+  "reaction shots",
+  "dramatic game ending"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": true,
+  "promise_in_first_line": false,
+  "ends_on_payoff": true,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "Clutch game-winning play in the final seconds",
+  "Emotional fan and player reactions",
+  "High-energy background music building tension"
+ ],
+ "_meta": {
+  "source": "-Sz0vn5wuAU",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

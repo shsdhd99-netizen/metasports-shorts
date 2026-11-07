@@ -1,0 +1,415 @@
+{
+ "sources": {
+  "C": "src/clean.mp4",
+  "GA": "src/wc06_ger_arg.mp4",
+  "AS": "src/wc06_arg_scg.mp4"
+ },
+ "shots": [
+  {
+   "clip": "A01",
+   "src": "C",
+   "at": 255.3,
+   "len": 2.3,
+   "x": 0.45,
+   "kind": "face",
+   "shot_zoom": 0.06,
+   "why": "Lehmann bends down to his sock by the advertising board between Argentina's kicks (shootout broadcast, Berlin, Jun 30 2006)"
+  },
+  {
+   "clip": "A02",
+   "src": "C",
+   "at": 292.9,
+   "len": 1.3,
+   "kind": "action",
+   "anchor": "Back in 2006",
+   "why": "The 2006 World Cup ball on the penalty spot"
+  },
+  {
+   "clip": "A03",
+   "src": "C",
+   "at": 182.8,
+   "len": 1.6,
+   "kind": "action",
+   "anchor": "Germany hosted",
+   "why": "German fans with flags in the Berlin stadium"
+  },
+  {
+   "clip": "A04",
+   "src": "C",
+   "at": 383.5,
+   "len": 1.5,
+   "kind": "action",
+   "anchor": "and in the quarterfinal",
+   "why": "The Olympiastadion in Berlin from above"
+  },
+  {
+   "clip": "A05",
+   "src": "C",
+   "at": 167.9,
+   "len": 1.2,
+   "kind": "action",
+   "anchor": "Argentina in Berlin",
+   "why": "Argentina's players arm in arm during the shootout"
+  },
+  {
+   "clip": "A06",
+   "src": "C",
+   "at": 32.0,
+   "len": 2.7,
+   "blurfit": true,
+   "kind": "card",
+   "anchor": "After 120 minutes",
+   "why": "Broadcast graphic: GERMANY 1-1 ARGENTINA, Klose 80', Ayala 49'"
+  },
+  {
+   "clip": "A07",
+   "src": "C",
+   "at": 40.9,
+   "len": 1.5,
+   "kind": "action",
+   "anchor": "so the game went",
+   "why": "Germany's players line up arm in arm for penalties"
+  },
+  {
+   "clip": "A08",
+   "src": "C",
+   "at": 178.8,
+   "len": 1.2,
+   "x": 0.45,
+   "kind": "face",
+   "anchor": "But Germany's keeper",
+   "why": "Jens Lehmann in goal with the ball"
+  },
+  {
+   "clip": "A09",
+   "src": "C",
+   "at": 162.9,
+   "len": 1.6,
+   "kind": "face",
+   "shot_zoom": 0.05,
+   "anchor": "Jens Lehmann",
+   "why": "Jens Lehmann close-up in goal"
+  },
+  {
+   "clip": "A10",
+   "still": "assets/kopke_9x16.jpg",
+   "len": 1.9,
+   "kind": "face",
+   "anchor": "His goalkeeping coach",
+   "why": "Andreas Köpke, Germany goalkeeping coach (photo 2018, Julia Engel, CC BY-SA 4.0, credited on screen)"
+  },
+  {
+   "clip": "A11",
+   "src": "C",
+   "at": 81.4,
+   "len": 2.3,
+   "kind": "action",
+   "anchor": "had studied where",
+   "why": "Argentina's Julio Cruz places the ball before his penalty"
+  },
+  {
+   "clip": "A12",
+   "stock": 4198,
+   "at": 1.0,
+   "len": 1.4,
+   "kind": "action",
+   "anchor": "and the tips ended",
+   "why": "A hotel room (stock, Mixkit)"
+  },
+  {
+   "clip": "A13",
+   "len": 2.0,
+   "kind": "card",
+   "anchor": "a tiny page",
+   "why": "Recreation of the note (labelled 'recreation'): the names that were on it",
+   "still": "assets/note_f1.jpg"
+  },
+  {
+   "clip": "A14",
+   "src": "GA",
+   "at": 2.9,
+   "len": 1.2,
+   "x": 0.3,
+   "kind": "face",
+   "anchor": "Riquelme",
+   "why": "Juan Román Riquelme (#10) takes a corner in this quarterfinal (2006 all-goals video)",
+   "zoom": 1.3,
+   "y": 0.15
+  },
+  {
+   "clip": "A15",
+   "src": "C",
+   "at": 335.0,
+   "len": 1.25,
+   "kind": "face",
+   "anchor": "Heinze",
+   "why": "Gabriel Heinze (#6, name on his back) during the shootout"
+  },
+  {
+   "clip": "A16",
+   "src": "AS",
+   "at": 55.3,
+   "len": 1.45,
+   "x": 0.56,
+   "kind": "face",
+   "anchor": "Even Messi",
+   "why": "Lionel Messi (#19) at the 2006 World Cup, broadcast name caption '19 LIONEL MESSI'",
+   "zoom": 1.3,
+   "y": 0.15
+  },
+  {
+   "clip": "A17",
+   "kind": "action",
+   "anchor": "Lehmann tucked",
+   "src": "C",
+   "at": 256.0,
+   "len": 1.7,
+   "x": 0.48,
+   "y": 0.8,
+   "zoom": 1.6,
+   "why": "Close crop: Lehmann's hand at his sock by the advertising board (the moment in A01, zoomed in like a TV replay)"
+  },
+  {
+   "clip": "A18",
+   "src": "C",
+   "at": 172.8,
+   "len": 1.45,
+   "kind": "face",
+   "anchor": "And before Argentina's",
+   "why": "Argentina's Roberto Ayala waits to take his kick"
+  },
+  {
+   "clip": "A19",
+   "len": 1.5,
+   "kind": "card",
+   "anchor": "he kept pulling",
+   "why": "Recreated note, close on the names",
+   "still": "assets/note_f2.jpg"
+  },
+  {
+   "clip": "A20",
+   "src": "C",
+   "at": 190.8,
+   "len": 1.45,
+   "blurfit": true,
+   "kind": "action",
+   "anchor": "right in front of",
+   "why": "The packed stadium behind the goal during the shootout"
+  },
+  {
+   "clip": "A21",
+   "src": "C",
+   "at": 164.6,
+   "len": 1.45,
+   "kind": "face",
+   "anchor": "But there was one",
+   "why": "Lehmann close-up"
+  },
+  {
+   "clip": "A22",
+   "src": "C",
+   "at": 326.8,
+   "len": 2.25,
+   "kind": "action",
+   "anchor": "Only two of the",
+   "why": "Argentina's substitutes watching the shootout"
+  },
+  {
+   "clip": "A23",
+   "src": "C",
+   "at": 195.7,
+   "len": 1.4,
+   "x": 0.45,
+   "kind": "action",
+   "anchor": "He saved Roberto",
+   "why": "Replay: Lehmann dives to save Ayala's penalty"
+  },
+  {
+   "clip": "A24",
+   "src": "C",
+   "at": 251.4,
+   "len": 2.05,
+   "blurfit": true,
+   "kind": "action",
+   "anchor": "and he nearly saved",
+   "why": "Maxi Rodríguez's penalty: Lehmann dives the right way but it goes in"
+  },
+  {
+   "clip": "A25",
+   "src": "C",
+   "at": 229.9,
+   "len": 1.9,
+   "kind": "face",
+   "anchor": "Then came the kick",
+   "why": "Esteban Cambiasso (#5) and Gabriel Heinze before Argentina's fifth kick",
+   "x": 0.5
+  },
+  {
+   "clip": "A26",
+   "src": "C",
+   "at": 232.0,
+   "len": 1.6,
+   "x": 0.6,
+   "kind": "face",
+   "anchor": "Esteban Cambiasso walked",
+   "why": "Esteban Cambiasso (#5, name on his back)"
+  },
+  {
+   "clip": "A27",
+   "len": 1.6,
+   "kind": "card",
+   "anchor": "and his name was",
+   "why": "Recreated note: the empty lines where Cambiasso's name is not",
+   "still": "assets/note_f3.jpg"
+  },
+  {
+   "clip": "A28",
+   "src": "C",
+   "at": 257.3,
+   "len": 1.6,
+   "kind": "action",
+   "anchor": "So Lehmann pulled",
+   "why": "Lehmann walks back past the photographers after going to his sock"
+  },
+  {
+   "clip": "A29",
+   "src": "C",
+   "at": 259.3,
+   "len": 1.6,
+   "kind": "face",
+   "anchor": "He read it",
+   "why": "Lehmann at the post, looking down"
+  },
+  {
+   "clip": "A30",
+   "src": "C",
+   "at": 99.0,
+   "len": 1.75,
+   "x": 0.4,
+   "kind": "face",
+   "anchor": "like he knew",
+   "why": "Lehmann close-up in goal"
+  },
+  {
+   "clip": "A31",
+   "src": "C",
+   "at": 338.85,
+   "len": 1.0,
+   "blurfit": true,
+   "kind": "action",
+   "anchor": "Cambiasso shot",
+   "why": "Cambiasso's penalty, wide shot"
+  },
+  {
+   "clip": "A32",
+   "src": "C",
+   "at": 339.85,
+   "len": 1.15,
+   "x": 0.72,
+   "zoom": 1.5,
+   "kind": "action",
+   "anchor": "and Lehmann saved",
+   "why": "Punch-in: Lehmann saves Cambiasso's penalty"
+  },
+  {
+   "clip": "A33",
+   "src": "GA",
+   "at": 25.4,
+   "len": 1.25,
+   "blurfit": true,
+   "delogo": "0.8,0.015,0.14,0.08",
+   "kind": "card",
+   "anchor": "Germany won",
+   "why": "Lehmann hugged by a teammate, graphic GERMANY 4-2 ARGENTINA PENALTIES"
+  },
+  {
+   "clip": "A34",
+   "src": "C",
+   "at": 316.8,
+   "len": 1.2,
+   "x": 0.38,
+   "kind": "face",
+   "anchor": "But here's the wild",
+   "why": "Chancellor Angela Merkel celebrates in the stands"
+  },
+  {
+   "clip": "A35",
+   "src": "C",
+   "at": 364.9,
+   "len": 0.9,
+   "kind": "action",
+   "anchor": "After the game",
+   "why": "Full-time graphic: GERMANY WINS 4-2 ON PENALTY SHOOT OUT, German bench celebrating",
+   "blurfit": true
+  },
+  {
+   "clip": "A36",
+   "stock": 23923,
+   "at": 1.0,
+   "len": 2.2,
+   "kind": "action",
+   "anchor": "Lehmann found the note",
+   "why": "A locker room corridor (stock, Mixkit)"
+  },
+  {
+   "clip": "A37",
+   "stock": 21480,
+   "at": 0.5,
+   "len": 1.1,
+   "kind": "action",
+   "anchor": "next to his socks",
+   "why": "Feet in socks (stock, Mixkit)"
+  },
+  {
+   "clip": "A38",
+   "stock": 30219,
+   "at": 0.5,
+   "len": 2.2,
+   "kind": "action",
+   "anchor": "Months later",
+   "why": "Power lines: an energy company (stock, Mixkit)"
+  },
+  {
+   "clip": "A39",
+   "stock": 47015,
+   "at": 0.5,
+   "len": 1.6,
+   "kind": "action",
+   "anchor": "bought it for",
+   "why": "Counting euro notes (stock, Mixkit)"
+  },
+  {
+   "clip": "A40",
+   "stock": 48264,
+   "at": 0.5,
+   "len": 1.4,
+   "kind": "action",
+   "anchor": "at a charity auction",
+   "why": "Children running (stock, Mixkit)"
+  },
+  {
+   "clip": "A41",
+   "stock": 46985,
+   "at": 0.5,
+   "len": 1.05,
+   "kind": "action",
+   "anchor": "One million euros",
+   "why": "Euro notes in hand (stock, Mixkit)"
+  },
+  {
+   "clip": "A42",
+   "len": 2.4,
+   "kind": "card",
+   "anchor": "for a page from",
+   "why": "Recreated note with a 1,000,000 euro price tag",
+   "still": "assets/note_f4.jpg"
+  }
+ ],
+ "promise": [
+  "sheet",
+  "paper",
+  "note",
+  "sock",
+  "page"
+ ]
+}

@@ -1,0 +1,1022 @@
+[
+ {
+  "word": "Goalkeepers",
+  "start": 0.0,
+  "end": 0.453
+ },
+ {
+  "word": "who",
+  "start": 0.476,
+  "end": 0.546
+ },
+ {
+  "word": "took",
+  "start": 0.592,
+  "end": 0.72
+ },
+ {
+  "word": "their",
+  "start": 0.755,
+  "end": 0.882
+ },
+ {
+  "word": "gloves",
+  "start": 0.906,
+  "end": 1.126
+ },
+ {
+  "word": "off",
+  "start": 1.173,
+  "end": 1.289
+ },
+ {
+  "word": "to",
+  "start": 1.324,
+  "end": 1.37
+ },
+ {
+  "word": "save",
+  "start": 1.416,
+  "end": 1.591
+ },
+ {
+  "word": "a",
+  "start": 1.614,
+  "end": 1.637
+ },
+ {
+  "word": "penalty.",
+  "start": 1.683,
+  "end": 2.191
+ },
+ {
+  "word": "Back",
+  "start": 2.191,
+  "end": 2.361
+ },
+ {
+  "word": "in",
+  "start": 2.407,
+  "end": 2.454
+ },
+ {
+  "word": "2004,",
+  "start": 2.5,
+  "end": 3.51
+ },
+ {
+  "word": "Portugal",
+  "start": 3.568,
+  "end": 3.928
+ },
+ {
+  "word": "played",
+  "start": 3.986,
+  "end": 4.195
+ },
+ {
+  "word": "England",
+  "start": 4.242,
+  "end": 4.497
+ },
+ {
+  "word": "in",
+  "start": 4.544,
+  "end": 4.59
+ },
+ {
+  "word": "the",
+  "start": 4.625,
+  "end": 4.694
+ },
+ {
+  "word": "quarter-final",
+  "start": 4.729,
+  "end": 5.24
+ },
+ {
+  "word": "of",
+  "start": 5.298,
+  "end": 5.345
+ },
+ {
+  "word": "the",
+  "start": 5.379,
+  "end": 5.449
+ },
+ {
+  "word": "Euros,",
+  "start": 5.519,
+  "end": 5.879
+ },
+ {
+  "word": "in",
+  "start": 5.902,
+  "end": 5.96
+ },
+ {
+  "word": "Lisbon.",
+  "start": 6.03,
+  "end": 6.482
+ },
+ {
+  "word": "It",
+  "start": 6.506,
+  "end": 6.599
+ },
+ {
+  "word": "finished",
+  "start": 6.645,
+  "end": 6.889
+ },
+ {
+  "word": "2-2,",
+  "start": 6.908,
+  "end": 7.581
+ },
+ {
+  "word": "so",
+  "start": 7.686,
+  "end": 7.767
+ },
+ {
+  "word": "it",
+  "start": 7.837,
+  "end": 7.883
+ },
+ {
+  "word": "went",
+  "start": 7.906,
+  "end": 8.034
+ },
+ {
+  "word": "to",
+  "start": 8.057,
+  "end": 8.104
+ },
+ {
+  "word": "penalties.",
+  "start": 8.15,
+  "end": 8.696
+ },
+ {
+  "word": "Beckham",
+  "start": 8.777,
+  "end": 9.09
+ },
+ {
+  "word": "missed",
+  "start": 9.183,
+  "end": 9.427
+ },
+ {
+  "word": "for",
+  "start": 9.45,
+  "end": 9.543
+ },
+ {
+  "word": "England.",
+  "start": 9.613,
+  "end": 9.926
+ },
+ {
+  "word": "Rui",
+  "start": 9.961,
+  "end": 10.159
+ },
+ {
+  "word": "Costa",
+  "start": 10.217,
+  "end": 10.553
+ },
+ {
+  "word": "missed",
+  "start": 10.6,
+  "end": 10.797
+ },
+ {
+  "word": "for",
+  "start": 10.82,
+  "end": 10.902
+ },
+ {
+  "word": "Portugal.",
+  "start": 10.948,
+  "end": 11.389
+ },
+ {
+  "word": "It",
+  "start": 11.412,
+  "end": 11.529
+ },
+ {
+  "word": "stayed",
+  "start": 11.587,
+  "end": 11.865
+ },
+ {
+  "word": "tight,",
+  "start": 11.912,
+  "end": 12.202
+ },
+ {
+  "word": "all",
+  "start": 12.225,
+  "end": 12.353
+ },
+ {
+  "word": "the",
+  "start": 12.376,
+  "end": 12.446
+ },
+ {
+  "word": "way",
+  "start": 12.469,
+  "end": 12.539
+ },
+ {
+  "word": "to",
+  "start": 12.562,
+  "end": 12.608
+ },
+ {
+  "word": "sudden",
+  "start": 12.655,
+  "end": 12.852
+ },
+ {
+  "word": "death.",
+  "start": 12.899,
+  "end": 13.173
+ },
+ {
+  "word": "Then,",
+  "start": 13.196,
+  "end": 13.382
+ },
+ {
+  "word": "with",
+  "start": 13.405,
+  "end": 13.509
+ },
+ {
+  "word": "the",
+  "start": 13.532,
+  "end": 13.602
+ },
+ {
+  "word": "shootout",
+  "start": 13.625,
+  "end": 13.904
+ },
+ {
+  "word": "in",
+  "start": 13.927,
+  "end": 13.974
+ },
+ {
+  "word": "sudden",
+  "start": 14.032,
+  "end": 14.252
+ },
+ {
+  "word": "death,",
+  "start": 14.31,
+  "end": 14.577
+ },
+ {
+  "word": "Darius",
+  "start": 14.601,
+  "end": 14.914
+ },
+ {
+  "word": "Vassell",
+  "start": 14.961,
+  "end": 15.297
+ },
+ {
+  "word": "walked",
+  "start": 15.378,
+  "end": 15.68
+ },
+ {
+  "word": "up",
+  "start": 15.75,
+  "end": 15.878
+ },
+ {
+  "word": "to",
+  "start": 15.924,
+  "end": 15.971
+ },
+ {
+  "word": "take",
+  "start": 16.04,
+  "end": 16.249
+ },
+ {
+  "word": "England's",
+  "start": 16.272,
+  "end": 16.539
+ },
+ {
+  "word": "kick.",
+  "start": 16.598,
+  "end": 16.928
+ },
+ {
+  "word": "And",
+  "start": 16.938,
+  "end": 17.019
+ },
+ {
+  "word": "Portugal's",
+  "start": 17.065,
+  "end": 17.379
+ },
+ {
+  "word": "goalkeeper,",
+  "start": 17.402,
+  "end": 17.82
+ },
+ {
+  "word": "Ricardo,",
+  "start": 17.843,
+  "end": 18.308
+ },
+ {
+  "word": "did",
+  "start": 18.331,
+  "end": 18.47
+ },
+ {
+  "word": "something",
+  "start": 18.505,
+  "end": 18.725
+ },
+ {
+  "word": "strange.",
+  "start": 18.783,
+  "end": 19.352
+ },
+ {
+  "word": "He",
+  "start": 19.375,
+  "end": 19.445
+ },
+ {
+  "word": "tore",
+  "start": 19.503,
+  "end": 19.689
+ },
+ {
+  "word": "off",
+  "start": 19.712,
+  "end": 19.793
+ },
+ {
+  "word": "his",
+  "start": 19.828,
+  "end": 19.909
+ },
+ {
+  "word": "gloves,",
+  "start": 19.944,
+  "end": 20.351
+ },
+ {
+  "word": "and",
+  "start": 20.374,
+  "end": 20.455
+ },
+ {
+  "word": "threw",
+  "start": 20.513,
+  "end": 20.687
+ },
+ {
+  "word": "them",
+  "start": 20.734,
+  "end": 20.827
+ },
+ {
+  "word": "to",
+  "start": 20.85,
+  "end": 20.896
+ },
+ {
+  "word": "the",
+  "start": 20.954,
+  "end": 21.024
+ },
+ {
+  "word": "side",
+  "start": 21.059,
+  "end": 21.245
+ },
+ {
+  "word": "of",
+  "start": 21.268,
+  "end": 21.314
+ },
+ {
+  "word": "the",
+  "start": 21.337,
+  "end": 21.407
+ },
+ {
+  "word": "goal.",
+  "start": 21.454,
+  "end": 21.778
+ },
+ {
+  "word": "Bare",
+  "start": 21.778,
+  "end": 22.04
+ },
+ {
+  "word": "hands.",
+  "start": 22.086,
+  "end": 22.528
+ },
+ {
+  "word": "Against",
+  "start": 22.551,
+  "end": 22.818
+ },
+ {
+  "word": "a",
+  "start": 22.853,
+  "end": 22.876
+ },
+ {
+  "word": "penalty.",
+  "start": 22.934,
+  "end": 23.445
+ },
+ {
+  "word": "He",
+  "start": 23.468,
+  "end": 23.514
+ },
+ {
+  "word": "jumped",
+  "start": 23.607,
+  "end": 23.805
+ },
+ {
+  "word": "to",
+  "start": 23.828,
+  "end": 23.874
+ },
+ {
+  "word": "his",
+  "start": 23.932,
+  "end": 24.002
+ },
+ {
+  "word": "left,",
+  "start": 24.072,
+  "end": 24.327
+ },
+ {
+  "word": "and",
+  "start": 24.35,
+  "end": 24.432
+ },
+ {
+  "word": "saved",
+  "start": 24.501,
+  "end": 24.815
+ },
+ {
+  "word": "it.",
+  "start": 24.873,
+  "end": 24.949
+ },
+ {
+  "word": "Then",
+  "start": 24.949,
+  "end": 25.07
+ },
+ {
+  "word": "Ricardo",
+  "start": 25.117,
+  "end": 25.395
+ },
+ {
+  "word": "did",
+  "start": 25.442,
+  "end": 25.535
+ },
+ {
+  "word": "something",
+  "start": 25.569,
+  "end": 25.778
+ },
+ {
+  "word": "even",
+  "start": 25.825,
+  "end": 25.999
+ },
+ {
+  "word": "stranger.",
+  "start": 26.057,
+  "end": 26.556
+ },
+ {
+  "word": "He",
+  "start": 26.58,
+  "end": 26.638
+ },
+ {
+  "word": "walked",
+  "start": 26.696,
+  "end": 26.939
+ },
+ {
+  "word": "up",
+  "start": 26.974,
+  "end": 27.044
+ },
+ {
+  "word": "to",
+  "start": 27.079,
+  "end": 27.125
+ },
+ {
+  "word": "take",
+  "start": 27.172,
+  "end": 27.311
+ },
+ {
+  "word": "the",
+  "start": 27.334,
+  "end": 27.404
+ },
+ {
+  "word": "next",
+  "start": 27.439,
+  "end": 27.555
+ },
+ {
+  "word": "penalty",
+  "start": 27.59,
+  "end": 27.891
+ },
+ {
+  "word": "himself.",
+  "start": 27.926,
+  "end": 28.381
+ },
+ {
+  "word": "He",
+  "start": 28.4,
+  "end": 28.47
+ },
+ {
+  "word": "said",
+  "start": 28.528,
+  "end": 28.691
+ },
+ {
+  "word": "he",
+  "start": 28.737,
+  "end": 28.784
+ },
+ {
+  "word": "used",
+  "start": 28.853,
+  "end": 28.993
+ },
+ {
+  "word": "to",
+  "start": 29.016,
+  "end": 29.062
+ },
+ {
+  "word": "practise",
+  "start": 29.109,
+  "end": 29.376
+ },
+ {
+  "word": "penalties,",
+  "start": 29.399,
+  "end": 29.898
+ },
+ {
+  "word": "and",
+  "start": 29.921,
+  "end": 30.003
+ },
+ {
+  "word": "it",
+  "start": 30.038,
+  "end": 30.084
+ },
+ {
+  "word": "wasn't",
+  "start": 30.13,
+  "end": 30.386
+ },
+ {
+  "word": "his",
+  "start": 30.409,
+  "end": 30.49
+ },
+ {
+  "word": "first",
+  "start": 30.572,
+  "end": 30.862
+ },
+ {
+  "word": "in",
+  "start": 30.897,
+  "end": 30.943
+ },
+ {
+  "word": "a",
+  "start": 30.978,
+  "end": 31.001
+ },
+ {
+  "word": "competitive",
+  "start": 31.036,
+  "end": 31.466
+ },
+ {
+  "word": "match.",
+  "start": 31.5,
+  "end": 31.953
+ },
+ {
+  "word": "He",
+  "start": 31.976,
+  "end": 32.058
+ },
+ {
+  "word": "sized",
+  "start": 32.116,
+  "end": 32.441
+ },
+ {
+  "word": "up",
+  "start": 32.476,
+  "end": 32.557
+ },
+ {
+  "word": "David",
+  "start": 32.603,
+  "end": 32.87
+ },
+ {
+  "word": "James,",
+  "start": 32.928,
+  "end": 33.312
+ },
+ {
+  "word": "and",
+  "start": 33.335,
+  "end": 33.439
+ },
+ {
+  "word": "hit",
+  "start": 33.509,
+  "end": 33.637
+ },
+ {
+  "word": "it",
+  "start": 33.671,
+  "end": 33.718
+ },
+ {
+  "word": "low,",
+  "start": 33.776,
+  "end": 34.136
+ },
+ {
+  "word": "past",
+  "start": 34.159,
+  "end": 34.507
+ },
+ {
+  "word": "him.",
+  "start": 34.554,
+  "end": 34.786
+ },
+ {
+  "word": "6-5.",
+  "start": 34.856,
+  "end": 35.549
+ },
+ {
+  "word": "Portugal",
+  "start": 35.554,
+  "end": 35.902
+ },
+ {
+  "word": "were",
+  "start": 35.96,
+  "end": 36.111
+ },
+ {
+  "word": "through.",
+  "start": 36.157,
+  "end": 36.506
+ },
+ {
+  "word": "Ricardo",
+  "start": 36.552,
+  "end": 36.877
+ },
+ {
+  "word": "later",
+  "start": 36.958,
+  "end": 37.167
+ },
+ {
+  "word": "said",
+  "start": 37.202,
+  "end": 37.307
+ },
+ {
+  "word": "he",
+  "start": 37.33,
+  "end": 37.376
+ },
+ {
+  "word": "saw",
+  "start": 37.411,
+  "end": 37.539
+ },
+ {
+  "word": "Vassell",
+  "start": 37.597,
+  "end": 37.91
+ },
+ {
+  "word": "coming,",
+  "start": 37.98,
+  "end": 38.293
+ },
+ {
+  "word": "and",
+  "start": 38.317,
+  "end": 38.386
+ },
+ {
+  "word": "decided",
+  "start": 38.421,
+  "end": 38.793
+ },
+ {
+  "word": "on",
+  "start": 38.839,
+  "end": 38.897
+ },
+ {
+  "word": "a",
+  "start": 38.943,
+  "end": 38.967
+ },
+ {
+  "word": "little",
+  "start": 39.036,
+  "end": 39.199
+ },
+ {
+  "word": "crazy",
+  "start": 39.222,
+  "end": 39.582
+ },
+ {
+  "word": "act.",
+  "start": 39.652,
+  "end": 39.896
+ },
+ {
+  "word": "Just",
+  "start": 39.93,
+  "end": 40.058
+ },
+ {
+  "word": "mind",
+  "start": 40.104,
+  "end": 40.313
+ },
+ {
+  "word": "games.",
+  "start": 40.36,
+  "end": 40.813
+ },
+ {
+  "word": "He",
+  "start": 40.848,
+  "end": 40.917
+ },
+ {
+  "word": "wanted",
+  "start": 40.964,
+  "end": 41.173
+ },
+ {
+  "word": "extra",
+  "start": 41.231,
+  "end": 41.416
+ },
+ {
+  "word": "motivation,",
+  "start": 41.44,
+  "end": 41.95
+ },
+ {
+  "word": "and",
+  "start": 41.974,
+  "end": 42.055
+ },
+ {
+  "word": "to",
+  "start": 42.101,
+  "end": 42.148
+ },
+ {
+  "word": "confuse",
+  "start": 42.206,
+  "end": 42.624
+ },
+ {
+  "word": "the",
+  "start": 42.647,
+  "end": 42.717
+ },
+ {
+  "word": "taker.",
+  "start": 42.752,
+  "end": 43.088
+ },
+ {
+  "word": "He",
+  "start": 43.111,
+  "end": 43.158
+ },
+ {
+  "word": "was",
+  "start": 43.204,
+  "end": 43.286
+ },
+ {
+  "word": "very",
+  "start": 43.367,
+  "end": 43.587
+ },
+ {
+  "word": "happy",
+  "start": 43.646,
+  "end": 43.866
+ },
+ {
+  "word": "it",
+  "start": 43.901,
+  "end": 43.947
+ },
+ {
+  "word": "worked.",
+  "start": 44.005,
+  "end": 44.377
+ },
+ {
+  "word": "Years",
+  "start": 44.412,
+  "end": 44.632
+ },
+ {
+  "word": "later,",
+  "start": 44.667,
+  "end": 44.841
+ },
+ {
+  "word": "they",
+  "start": 44.865,
+  "end": 44.957
+ },
+ {
+  "word": "became",
+  "start": 44.981,
+  "end": 45.224
+ },
+ {
+  "word": "team-mates",
+  "start": 45.271,
+  "end": 45.712
+ },
+ {
+  "word": "at",
+  "start": 45.747,
+  "end": 45.805
+ },
+ {
+  "word": "Leicester.",
+  "start": 45.851,
+  "end": 46.211
+ },
+ {
+  "word": "And",
+  "start": 46.235,
+  "end": 46.316
+ },
+ {
+  "word": "Vassell",
+  "start": 46.362,
+  "end": 46.664
+ },
+ {
+  "word": "told",
+  "start": 46.734,
+  "end": 46.92
+ },
+ {
+  "word": "him",
+  "start": 46.954,
+  "end": 47.036
+ },
+ {
+  "word": "he",
+  "start": 47.117,
+  "end": 47.187
+ },
+ {
+  "word": "was",
+  "start": 47.233,
+  "end": 47.326
+ },
+ {
+  "word": "already",
+  "start": 47.372,
+  "end": 47.605
+ },
+ {
+  "word": "nervous",
+  "start": 47.674,
+  "end": 47.941
+ },
+ {
+  "word": "before",
+  "start": 47.976,
+  "end": 48.173
+ },
+ {
+  "word": "the",
+  "start": 48.197,
+  "end": 48.266
+ },
+ {
+  "word": "kick,",
+  "start": 48.301,
+  "end": 48.51
+ },
+ {
+  "word": "and",
+  "start": 48.533,
+  "end": 48.603
+ },
+ {
+  "word": "it",
+  "start": 48.649,
+  "end": 48.696
+ },
+ {
+  "word": "got",
+  "start": 48.731,
+  "end": 48.87
+ },
+ {
+  "word": "worse",
+  "start": 48.94,
+  "end": 49.218
+ },
+ {
+  "word": "when",
+  "start": 49.242,
+  "end": 49.334
+ },
+ {
+  "word": "the",
+  "start": 49.358,
+  "end": 49.427
+ },
+ {
+  "word": "gloves",
+  "start": 49.462,
+  "end": 49.694
+ },
+ {
+  "word": "came",
+  "start": 49.729,
+  "end": 49.927
+ },
+ {
+  "word": "off.",
+  "start": 49.961,
+  "end": 50.235
+ }
+]

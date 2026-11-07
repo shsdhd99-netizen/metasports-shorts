@@ -1,0 +1,9 @@
+Voice check: REDO   (91 words, 22.2s, 246 wpm)
+  REDO   3.86s  script "nineteenth look at" but heard "19th okay"
+  REDO  16.94s  script "and" but heard "(nothing)"
+  REDO  21.44s  script "yeah" but heard "(nothing)"
+  REDO   4.96s  odd 0.44s pause mid-sentence after "at"
+  note   0.00s  "steven" heard as "stephen" (close; check the name)
+  note  12.46s  rushed sentence (355 wpm): Most of the boys will get it done, but hopefully they finish
+  note  18.48s  very quiet word "mate." (-17 dB)
+  heard: Stephen Adams says every pro league is about to plummet. The reason, Grand Theft Auto 6, out November 19th. Okay, all the leagues and watch them plummet, mate. The night before it drops, the heat play a game as Vice City. Adams was joking, mostly. Most of the boys will get it done, but hopefully they finish game. Then he got to the coaches and scouts. The coaching scouts are gonna be horrendous, mate. Just for November, but it should bounce back in December, hopefully. Should be good.

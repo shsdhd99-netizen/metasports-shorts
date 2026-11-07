@@ -1,0 +1,142 @@
+{
+ "length_s": 16.25,
+ "topic": "Shaquille O'Neal attempts the Reflex Stick Challenge and struggles badly before finally succeeding.",
+ "lane": "moment",
+ "hook": {
+  "first_words": "Recently, Shaq did the Reflex Stick Challenge and here's how it went.",
+  "first_frame": "Shaquille O'Neal standing next to a woman in front of a reflex stick challenge machine.",
+  "on_screen_text_0_3s": "Recently, Shaq did the Reflex Stick Challenge and here's how it went.",
+  "shots_in_first_3s": 1
+ },
+ "shots": [
+  {
+   "start_s": 0,
+   "end_s": 3.25,
+   "shows": "Shaq standing in front of the reflex machine with a woman nearby",
+   "kind": "action"
+  },
+  {
+   "start_s": 3.25,
+   "end_s": 16.25,
+   "shows": "Shaq attempting to catch falling reflex sticks repeatedly",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 2,
+ "average_shot_s": 8.13,
+ "longest_shot_s": 13.0,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 220,
+  "tone": "casual",
+  "original_audio_under_voice": true
+ },
+ "music": {
+  "present": false,
+  "style": "none",
+  "level_vs_voice": "none",
+  "starts_at_s": 0
+ },
+ "sound_effects": [
+  {
+   "at_s": 4.1,
+   "sound": "stick dropping sound"
+  },
+  {
+   "at_s": 5.0,
+   "sound": "stick dropping sound"
+  },
+  {
+   "at_s": 5.5,
+   "sound": "stick dropping sound"
+  },
+  {
+   "at_s": 6.8,
+   "sound": "stick dropping sound"
+  },
+  {
+   "at_s": 8.0,
+   "sound": "stick dropping sound"
+  },
+  {
+   "at_s": 10.0,
+   "sound": "stick dropping sound"
+  },
+  {
+   "at_s": 10.7,
+   "sound": "stick dropping sound"
+  },
+  {
+   "at_s": 12.3,
+   "sound": "stick dropping sound"
+  },
+  {
+   "at_s": 14.0,
+   "sound": "stick dropping sound"
+  },
+  {
+   "at_s": 15.0,
+   "sound": "stick catch sound"
+  }
+ ],
+ "captions": {
+  "present": true,
+  "words_per_line": 4,
+  "case": "sentence",
+  "position": "middle",
+  "colours": "white",
+  "highlight_style": "none"
+ },
+ "text_overlays": [
+  {
+   "at_s": 5.25,
+   "text": "*Unc is cooked*"
+  },
+  {
+   "at_s": 7.75,
+   "text": "(laughing)"
+  },
+  {
+   "at_s": 13.5,
+   "text": "*Thinking about Chuck's rings*"
+  },
+  {
+   "at_s": 15.0,
+   "text": "*Finally gets one*"
+  }
+ ],
+ "cards_or_graphics": 0,
+ "framing": "crop",
+ "ending": {
+  "last_words": "Finally gets one",
+  "last_frame": "Shaq holding up a caught stick and smiling triumphantly.",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "Recently, Shaq did the Reflex Stick Challenge and here's how it went.",
+ "retention_tricks": [
+  "promise_in_first_line",
+  "ends_on_payoff"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "Famous subject in humorous pajamas failing repeatedly at a simple task",
+  "Relatable frustration building up over multiple attempts",
+  "Triumphant payoff at the very end of the video"
+ ],
+ "_meta": {
+  "source": "91enE-yvVxU",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

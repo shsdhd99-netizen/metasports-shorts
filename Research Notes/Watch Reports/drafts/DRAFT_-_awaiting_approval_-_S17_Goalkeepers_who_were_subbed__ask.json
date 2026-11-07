@@ -1,0 +1,11 @@
+{
+ "question": "You are checking this YouTube Short before it is posted. Watch and listen to all of it. Report only problems you\nactually see or hear, with timestamps. 1) Voice: any word mispronounced, slurred, cut off or repeated; any glitch or robotic\nartifact. 2) Captions: any caption that does not match the words spoken, or is misspelled. 3) Sound: music or sound effects too\nloud over the voice; any jump in loudness. 4) Picture: any frozen, flashing or black frame; any 2+ seconds where nothing new\nhappens. 5) Mismatch: anything on screen that contradicts what the voice says (wrong player, team or number). 6) Is it clear\nwithin the first second what the Short is about? Write 'none' for a category with no problems. End with one line:\nVERDICT: READY or VERDICT: FIX (what).",
+ "answer": "Here is the breakdown of the review:\n\n1) **Voice:** None  \n2) **Captions:** None  \n3) **Sound:** None  \n4) **Picture:** None  \n5) **Mismatch:** None  \n6) **First second clarity:** Yes, it is immediately clear that the Short is about goalkeepers brought on specifically for penalty shootouts.  \n\nVERDICT: READY",
+ "_meta": {
+  "source": "Soccer Channel/Productions/2026-10-30 S17 The Goalkeeper Subbed On Just For Penalties/DRAFT - awaiting approval - S17 Goalkeepers who were subbed on just for the penalties (real audio).mp4",
+  "model": "gemini-3.6-flash",
+  "fps": 4.0,
+  "watched": "2026-10-30",
+  "tier": "[S] model-observed, not measured"
+ }
+}

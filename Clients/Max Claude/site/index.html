@@ -1,0 +1,403 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Mr. Claude, On Demand</title>
+<meta name="description" content="Your first AI video of you teaching: a first draft made with free tools, and how it gets better.">
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Layout: one calm column on a bone-white page; the hero is a quiet statement beside a phone frame "playing" his lesson. */
+:root{
+  --bg:#fbfaf7; --paper:#ffffff; --ink:#0f1214; --muted:#5f666b; --line:#e6e3dc; --accent:#0e6b5c; --soft:#eef4f1; --dark:#0f1214; --onDark:#f5f3ee;
+  --serif:"Instrument Serif",Georgia,serif; --sans:"Inter Tight",system-ui,sans-serif; --mono:"JetBrains Mono",ui-monospace,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0d0f10;--paper:#151819;--ink:#f2f0eb;--muted:#9aa2a6;--line:#262b2d;--accent:#5cc7b1;--soft:#14201d;--dark:#f2f0eb;--onDark:#0d0f10;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0d0f10;--paper:#151819;--ink:#f2f0eb;--muted:#9aa2a6;--line:#262b2d;--accent:#5cc7b1;--soft:#14201d;--dark:#f2f0eb;--onDark:#0d0f10;color-scheme:dark}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 var(--sans);-webkit-font-smoothing:antialiased;padding-left:max(18px,env(safe-area-inset-left,0px));padding-right:max(18px,env(safe-area-inset-right,0px))}
+main{max-width:1040px;margin:0 auto}
+h1,h2,h3{font-family:var(--serif);font-weight:400;line-height:1.04;margin:0;text-wrap:balance;letter-spacing:-.01em}
+h1{font-size:clamp(2.8rem,8vw,5.4rem)}
+h2{font-size:clamp(2rem,5vw,3.2rem)}
+h3{font-size:1.6rem}
+p{margin:0}
+em{font-style:italic;color:var(--accent)}
+.eyebrow{font:500 .72rem var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.muted{color:var(--muted)}
+section{padding-block:72px;border-top:1px solid var(--line);display:grid;gap:28px}
+nav{display:flex;justify-content:space-between;align-items:center;padding-block:20px}
+nav b{font-family:var(--serif);font-size:1.4rem;font-weight:400}
+.btn{display:inline-flex;align-items:center;gap:10px;background:var(--dark);color:var(--onDark);font:600 1rem var(--sans);padding:15px 22px;border-radius:999px;text-decoration:none;border:0;cursor:pointer;transition:transform .2s}
+.btn:hover{transform:translateY(-2px)}
+.btn.ghost{background:transparent;color:var(--ink);border:1px solid var(--line)}
+.btn:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible,a:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.hero{display:grid;grid-template-columns:1.25fr .75fr;gap:48px;align-items:center;padding-block:40px 80px;border:0}
+.hero .lead{font-size:1.25rem;color:var(--muted);max-width:34ch}
+.ctas{display:flex;flex-wrap:wrap;gap:12px}
+.phone{justify-self:center;width:min(280px,100%);aspect-ratio:9/19;border-radius:38px;background:#0b0d0e;padding:10px;box-shadow:0 30px 80px -30px rgba(15,18,20,.45),0 0 0 1px var(--line)}
+.screen{position:relative;height:100%;border-radius:30px;overflow:hidden;background:radial-gradient(120% 80% at 50% 25%,#2c3b37 0%,#121817 60%,#0b0d0e 100%)}
+.face{position:absolute;left:50%;top:20%;transform:translateX(-50%);width:46%;aspect-ratio:1;border-radius:50%;background:radial-gradient(circle at 50% 38%,#d9c3a9 0 34%,transparent 35%),radial-gradient(ellipse at 50% 100%,#2f4a44 0 55%,transparent 56%);opacity:.95}
+.print{position:absolute;left:50%;bottom:30%;transform:translateX(-50%);width:62%;aspect-ratio:1;border-radius:50%;background:repeating-radial-gradient(ellipse at 50% 60%,transparent 0 5px,rgba(120,220,195,.55) 5px 6.5px);mask:radial-gradient(ellipse 48% 56% at 50% 55%,#000 60%,transparent 62%);-webkit-mask:radial-gradient(ellipse 48% 56% at 50% 55%,#000 60%,transparent 62%);animation:scan 4s ease-in-out infinite}
+@keyframes scan{50%{opacity:.4}}
+.cap{position:absolute;left:8%;right:8%;bottom:14%;text-align:center;font:800 1.05rem/1.2 var(--sans);color:#fff;text-shadow:0 2px 8px rgba(0,0,0,.6)}
+.cap b{color:#7ee2c9}
+.rec{position:absolute;top:16px;left:16px;font:500 .62rem var(--mono);color:#fff;letter-spacing:.1em;display:flex;align-items:center;gap:6px}
+.rec::before{content:"";width:7px;height:7px;border-radius:50%;background:#e5484d}
+.bar{position:absolute;left:12px;right:12px;bottom:8px;height:3px;background:rgba(255,255,255,.2);border-radius:3px;overflow:hidden}
+.bar::after{content:"";display:block;height:100%;width:62%;background:#fff}
+@media (prefers-reduced-motion:reduce){.print{animation:none}.btn{transition:none}}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.stat b{display:block;font-family:var(--serif);font-size:clamp(2.4rem,6vw,3.6rem);font-weight:400;line-height:1}
+.compare{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.col{border:1px solid var(--line);border-radius:18px;padding:26px;display:grid;gap:14px;align-content:start;background:var(--paper)}
+.col.win{background:var(--soft);border-color:transparent}
+.col ul{list-style:none;padding:0;margin:0;display:grid;gap:10px}
+.col li{display:grid;grid-template-columns:1.4rem 1fr;gap:8px}
+.col li::before{content:"–";color:var(--muted)}
+.col.win li::before{content:"✓";color:var(--accent);font-weight:700}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.step{display:grid;gap:8px;align-content:start}
+.step .n{font:500 .8rem var(--mono);color:var(--accent)}
+.script{display:grid;gap:12px;max-width:62ch}
+.script p{font-family:var(--serif);font-size:1.45rem;line-height:1.3}
+.script span{font:500 .72rem var(--mono);color:var(--muted);display:block;margin-bottom:2px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:24px;display:grid;gap:12px;align-content:start;min-width:0}
+.card ul{margin:0;padding-left:1.1em;display:grid;gap:6px}
+.read{font-family:var(--serif);font-size:1.25rem;line-height:1.35;background:var(--soft);border-radius:12px;padding:16px}
+.promise{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+form{display:grid;gap:14px;max-width:620px}
+label{display:grid;gap:6px;font-weight:600;font-size:.95rem}
+input,textarea,select{font:inherit;padding:14px;border:1px solid var(--line);border-radius:12px;background:var(--paper);color:var(--ink);width:100%}
+textarea{min-height:100px}
+.final{background:var(--dark);color:var(--onDark);border-radius:28px;padding:56px clamp(22px,5vw,64px);display:grid;gap:22px;border:0;margin-block:40px 72px}
+.final .btn{background:var(--onDark);color:var(--dark)}
+.final .muted{color:inherit;opacity:.7}
+.faq{display:grid;gap:10px;max-width:70ch}
+details{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:16px 18px}
+summary{font-weight:600;cursor:pointer}
+details p{margin-top:10px}
+footer{padding-block:28px 48px;color:var(--muted);font-size:.85rem;border-top:1px solid var(--line)}
+@media (max-width:820px){.hero,.compare,.grid2,.promise{grid-template-columns:1fr}.steps{grid-template-columns:1fr 1fr}.stats{grid-template-columns:1fr}.hero{gap:36px}}
+
+.vid{justify-self:center;width:min(300px,100%);display:grid;gap:10px}
+.vid video{width:100%;aspect-ratio:9/16;border-radius:26px;background:#000;box-shadow:0 30px 80px -30px rgba(15,18,20,.5),0 0 0 1px var(--line)}
+.vid small{color:var(--muted);text-align:center}
+.wide{max-width:760px;width:100%;aspect-ratio:16/9;border-radius:18px;background:#000;box-shadow:0 24px 60px -28px rgba(15,18,20,.5)}
+.three{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.n3{font:500 .8rem var(--mono);color:var(--accent)}
+.tbl{width:100%;border-collapse:separate;border-spacing:0;border:1px solid var(--line);border-radius:18px;overflow:hidden;background:var(--paper)}
+.tbl th,.tbl td{text-align:left;padding:14px 16px;border-bottom:1px solid var(--line);vertical-align:top;font-size:.98rem}
+.tbl th{font:500 .72rem var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--muted);background:var(--bg)}
+.tbl tr:last-child td{border-bottom:0}
+.tbl td:last-child{background:var(--soft)}
+.note{background:var(--soft);border-radius:14px;padding:16px 18px;max-width:70ch}
+@media (max-width:820px){.three{grid-template-columns:1fr}.tbl th,.tbl td{padding:10px 10px;font-size:.9rem}}
+</style>
+</head>
+<body>
+<main>
+<nav><b>On Demand</b><span class="ctas"><a class="btn ghost" href="#how">How it works</a><a class="btn ghost" href="#better">Getting better</a><a class="btn ghost" href="#quote">Quote</a><a class="btn ghost" href="#start">Start</a></span></nav>
+
+<header class="section hero">
+  <div style="display:grid;gap:26px">
+    <span class="eyebrow">Made for Mr. Claude &middot; a first draft</span>
+    <h1>That's you. <em>Teaching.</em></h1>
+    <p class="lead">Press play. A computer made this video from one photo and one phone voice memo that you sent. You never stood in front of a camera. It is a first draft, built with free tools, and it only gets better from here.</p>
+    <div class="ctas"><a class="btn" href="#start">I want more of these &rarr;</a><a class="btn ghost" href="#how">Wait, how is this possible?</a></div>
+  </div>
+  <div class="vid">
+    <video src="media/max-preview-vertical.mp4" poster="media/max-poster.jpg" controls playsinline preload="metadata" aria-label="A 44-second lesson, How Fingerprints Catch Criminals, with Mr. Claude's face and voice, made by AI"></video>
+    <small>44 seconds &middot; "How Fingerprints Catch Criminals" &middot; turn your sound on</small>
+  </div>
+</header>
+<section id="how">
+  <span class="eyebrow">New to AI? Read this first</span>
+  <h2>How a computer made a video of you.</h2>
+  <p class="muted" style="max-width:62ch">No camera crew and no editing software on your side. Three separate jobs were done by three separate tools, and we put them together and checked the result.</p>
+  <div class="three">
+    <div class="card"><span class="n3">1 &middot; THE VOICE</span><h3>It learned your voice</h3><p class="muted">You sent a voice memo of about a minute. A voice program listened and learned how you sound, a bit like a very good impressionist. Then it read our script out loud in that voice.</p></div>
+    <div class="card"><span class="n3">2 &middot; THE FACE</span><h3>It animated your photo</h3><p class="muted">You sent one photo. A second program moves the face in that photo (lips, cheeks, a little head motion) so the mouth matches the words. A third step fine-tunes the lips so they line up with each sound.</p></div>
+    <div class="card"><span class="n3">3 &middot; THE WRITING</span><h3>We wrote and checked it</h3><p class="muted">We wrote the script, checked every fact against reliable sources, picked the pictures, added captions and music, and made sure the length was right. You did none of that.</p></div>
+  </div>
+  <div class="note"><b>Is it really "you"?</b> It is your photo, a computer copy of your voice, and words you can approve. You never recorded those lines. That is why every video needs your approval before it goes anywhere, and why the small <b>"AI"</b> label in the corner stays on. We think being open about it is the right way to do this.</div>
+</section>
+<section id="honest">
+  <span class="eyebrow">The honest part</span>
+  <h2>What to expect from this draft.</h2>
+  <div class="compare">
+    <div class="col win"><h3>What already works</h3><ul>
+      <li>It is clearly your face, in your own classroom</li>
+      <li>The words are fact-checked and in plain language</li>
+      <li>The lips follow the words (we measured it with a lip-sync checker)</li>
+      <li>Captions, pictures and music are done for you</li>
+      <li>Made in a few hours, with free tools and no budget</li>
+    </ul></div>
+    <div class="col"><h3>What is still rough</h3><ul>
+      <li>The voice is close but not perfect: it was copied from a short phone memo with some room noise</li>
+      <li>The mouth is a little soft, and your head moves less than it would in real life</li>
+      <li>It started from one photo, so the face can look slightly stiff</li>
+      <li>A small "AI" label sits in the top corner (it comes with the tool, and we think it should stay)</li>
+    </ul></div>
+  </div>
+</section>
+<section id="better">
+  <span class="eyebrow">Where it goes from here</span>
+  <h2>This is the free version. Here is what a real budget buys.</h2>
+  <p class="muted" style="max-width:66ch">Everything you just watched was made without spending money, so we were limited to free tools and your phone files. Once there is a budget (or once you decide to go ahead and we receive payment), we can use better tools and better source material. The upgrades, in plain terms:</p>
+  <table class="tbl">
+    <thead><tr><th>Part of the video</th><th>This draft (free)</th><th>With a budget</th></tr></thead>
+    <tbody>
+      <tr><td><b>Your voice</b></td><td>Copied from a one-minute phone memo</td><td>Copied from a clean 2 to 5 minute recording: closer to the real you, warmer, fewer small glitches</td></tr>
+      <tr><td><b>Your face</b></td><td>One photo, gently animated</td><td>Built from a short video of you: natural head, eye and hand movement, a sharper mouth</td></tr>
+      <tr><td><b>Picture quality</b></td><td>Free tools, limited resolution</td><td>Higher quality settings and more computing time for each video</td></tr>
+      <tr><td><b>Pictures and diagrams</b></td><td>Stock clips and simple drawings</td><td>Custom diagrams and animations for your lessons, your own classroom clips, your logo and colours</td></tr>
+      <tr><td><b>Formats</b></td><td>Phone (vertical) and widescreen</td><td>A set of lessons with intros and outros, ready for class or your own channel</td></tr>
+      <tr><td><b>Speed</b></td><td>Made by hand, one at a time</td><td>A steady routine: send one line, get a finished video in 3 to 4 days</td></tr>
+    </tbody>
+  </table>
+  <p class="muted" style="max-width:66ch">Prices are in the quote just below. Looking at this page or filling in a form costs nothing and commits you to nothing.</p>
+  <div class="ctas"><a class="btn" href="#start">Reserve my setup &rarr;</a><a class="btn ghost" href="#feedback">Tell us what to fix first</a></div>
+</section>
+<section id="quote">
+  <span class="eyebrow">Your quote</span>
+  <h2>What it costs, and exactly what you get.</h2>
+  <p class="muted" style="max-width:66ch">Simple prices, nothing hidden. You pay a one-time setup to build your voice and face, then either per video or a monthly pack. These are <b>friend prices</b> for Mr. Claude, locked for 12 months (the normal prices are shown crossed out so you can see the discount). Prices are in US dollars. Nothing is charged until you say yes.</p>
+  <div class="grid2">
+    <div class="card"><span class="n3">STEP 1 &middot; ONCE</span><h3>Setup: <s class="muted">$129</s> $59</h3>
+      <ul>
+        <li>Your voice copy, built from a clean recording</li>
+        <li>Your face model, built from your photos (and a short video if you send one)</li>
+        <li>Your look: captions, colours, a short intro and outro</li>
+        <li><b>Your first full video included</b> (up to 60 seconds, vertical and widescreen), with 2 rounds of changes</li>
+        <li>If you are not happy after those two rounds, we refund the setup fee</li>
+      </ul></div>
+    <div class="card"><span class="n3">STEP 2 &middot; ONGOING</span><h3>Pick how you want to pay</h3>
+      <ul>
+        <li><b>Pay as you go: <s class="muted">$45</s> $29 per video</b></li>
+        <li><b>Lesson Pack: <s class="muted">$149</s> $99 a month</b> for 4 videos ($25 each)</li>
+        <li><b>Class Pack: <s class="muted">$259</s> $169 a month</b> for 8 videos ($21 each)</li>
+        <li>Packs renew monthly, cancel any time before the next month starts, unused videos carry over one month</li>
+      </ul></div>
+  </div>
+  <table class="tbl">
+    <thead><tr><th>Every video includes</th><th>Details</th></tr></thead>
+    <tbody>
+      <tr><td><b>A researched script</b></td><td>You send one line. We write it at a student-friendly reading level and check every fact against reliable sources. You approve the words before we make anything.</td></tr>
+      <tr><td><b>Your voice and face</b></td><td>Up to 60 seconds, in your voice, with your face reading it.</td></tr>
+      <tr><td><b>Pictures, captions and sound</b></td><td>Fitting stock clips or custom drawings, captions on screen, light background music.</td></tr>
+      <tr><td><b>Two formats</b></td><td>Vertical for phones and widescreen for the classroom screen, plus a captions file and a transcript.</td></tr>
+      <tr><td><b>Two rounds of changes</b></td><td>Tell us what to fix; we redo it. A third round is $8.</td></tr>
+      <tr><td><b>Delivery</b></td><td>3 to 4 days from your topic to the finished video, sent as a private link plus a download.</td></tr>
+    </tbody>
+  </table>
+  <table class="tbl">
+    <thead><tr><th>Optional extras</th><th>Price</th></tr></thead>
+    <tbody>
+      <tr><td>Longer video, 60 to 120 seconds</td><td>+ $15</td></tr>
+      <tr><td>Custom diagram or animation for a key idea</td><td>+ $10 each</td></tr>
+      <tr><td>Rush delivery in 24 hours</td><td>+ $20</td></tr>
+      <tr><td>Rebuild your face and voice later from better recordings</td><td>free once, in your first 60 days</td></tr>
+    </tbody>
+  </table>
+  <div class="note"><b>How the money works.</b> Setup: half ($30) to start, the rest ($29) when your first video is ready. Packs and videos are paid in advance by PayPal; you get a receipt each time. You own every finished video. If you stop, we delete your photos, voice and face model when you ask.</div>
+  <div class="note"><b>What happens next.</b> 1) You say yes and pay the $30 start. 2) You send the better photos and recording (the next section). 3) Within about 5 days we send your first full video. 4) You tell us what to change, we change it twice if needed. 5) You choose pay-as-you-go or a pack.</div>
+  <div class="ctas"><a class="btn" href="https://www.paypal.me/vaughnpayne1/30USD" target="_blank" rel="noopener">Start now: pay the $30 deposit</a><a class="btn ghost" href="quote.html" target="_blank">Open the printable quote</a><a class="btn ghost" href="#start">Or ask a question first</a></div>
+</section>
+<section id="wide">
+  <span class="eyebrow">For the classroom projector</span>
+  <h2>Same video, widescreen.</h2>
+  <video class="wide" src="media/max-preview-wide.mp4" poster="media/max-poster.jpg" controls playsinline preload="none" aria-label="Widescreen version of the same lesson"></video>
+  <p class="muted">Want the full-quality files to keep? Ask us and we will send them.</p>
+</section>
+<section id="uses">
+  <span class="eyebrow">Ideas for a teacher</span>
+  <h2>Where it saves you hours.</h2>
+  <div class="promise">
+    <div class="card"><h3>Sub days</h3><p class="muted">Leave a lesson in your own voice instead of a worksheet.</p></div>
+    <div class="card"><h3>Flipped class</h3><p class="muted">Students watch the 2-minute explainer at home; class time is for practice.</p></div>
+    <div class="card"><h3>Re-teach and catch-up</h3><p class="muted">Absent students get the same lesson, from you, not a stranger on the internet.</p></div>
+    <div class="card"><h3>Parents and open house</h3><p class="muted">A friendly welcome video or a course overview, made once and reused every year.</p></div>
+    <div class="card"><h3>Review before tests</h3><p class="muted">Short recaps of each unit students can rewatch as often as they need.</p></div>
+    <div class="card"><h3>Your own channel, later</h3><p class="muted">If you ever want to share your teaching online, the videos are already made.</p></div>
+  </div>
+</section>
+<section id="why">
+  <span class="eyebrow">Why On Demand</span>
+  <h2>Why not just use an AI app yourself?</h2>
+  <p class="muted" style="max-width:62ch">You could. The apps exist, and we'll be honest about that. Here's the difference.</p>
+  <div class="compare">
+    <div class="col"><h3>Doing it yourself</h3><ul>
+      <li>A monthly subscription for each tool: one for the voice, one for the face, one for editing</li>
+      <li>Learning each one, and redoing it when they change</li>
+      <li>Writing and fact-checking every script yourself</li>
+      <li>Finding pictures and footage, adding captions, fixing the timing</li>
+      <li>Hours per video before it looks right</li>
+    </ul></div>
+    <div class="col win"><h3>With On Demand</h3><ul>
+      <li>One sentence from you; a finished video back</li>
+      <li>Scripts researched and checked, written to hold attention</li>
+      <li>Pictures, footage, captions and sound, all done</li>
+      <li>Made with the same system behind our own channels (2.8 million views)</li>
+      <li>You approve everything; nothing goes anywhere without your OK</li>
+      <li>One person you can text, not a help-desk</li>
+    </ul></div>
+  </div>
+</section>
+<section>
+    <h2>The same system runs our own channels: 2.8 million views.</h2>
+  <p class="muted" style="max-width:56ch">We make short videos for our own channels with the same scripting, editing and fact-checking process. Here is one of ours, to show the pace and polish. Yours would be you, teaching your topic.</p>
+  <figure id="demo" style="margin:0;display:grid;gap:10px;justify-items:start"><video src="demo.mp4" poster="poster.jpg" controls playsinline preload="metadata" style="width:min(300px,100%);aspect-ratio:9/16;border-radius:22px;background:#000;box-shadow:0 24px 60px -28px rgba(15,18,20,.5)"></video><figcaption class="muted" style="font-size:.9rem">Demo: one of our soccer Shorts. Yours would be you, teaching your topic.</figcaption></figure>
+</section>
+<section id="try">
+  <span class="eyebrow">The most important step</span>
+  <h2>Send us better photos and a better recording.</h2>
+  <p class="muted" style="max-width:66ch">The draft above came from one photo and a short phone memo, so it is the worst version you will ever see. Three simple changes make the biggest difference, and they take about 10 minutes.</p>
+  <div class="grid2">
+    <div class="card"><h3>Photos (3 to 5)</h3>
+      <ul><li>Face the camera, shoulders square, phone at eye height</li><li>Good light on your face (a window in front of you is perfect), no light behind you</li><li>Plain, uncluttered background</li><li><b>Mouth closed, relaxed</b> in at least two; one natural smile is fine</li><li>No hats, sunglasses or hair across the eyes</li></ul></div>
+    <div class="card"><h3>Your voice (2 to 5 minutes)</h3>
+      <ul><li>A quiet room with soft things around (a closet or a car is great), no fan or music</li><li>Phone about a hand-width from your mouth, not on speaker</li><li>Read the three passages below in your normal teaching voice: warm, not rushed</li><li>If you make a mistake, pause, then re-read the sentence; no need to start over</li></ul></div>
+  </div>
+  <div class="card"><h3>Optional: a short video of you (30 to 90 seconds)</h3><p class="muted">Talk to the camera the way you would in class: explain anything you like. This lets us build a much more natural face, with real head and hand movement.</p></div>
+  <details open><summary>Read these three passages out loud</summary>
+    <p class="read" style="margin-top:12px"><b>1. Explain it.</b> "Here's something you do a hundred times a day without noticing. Every time you touch something, you leave your signature behind. Your fingerprints formed before you were born, and they will never change. Not even identical twins share them. Each one is a pattern of ridges that split and stop, and those tiny details are what make it yours."</p>
+    <p class="read" style="margin-top:10px"><b>2. Talk to the class.</b> "Alright, everybody, eyes up here. Today we are going to try something a little different. I want you to think about what you already know, and then I want you to prove me wrong. Ready? Let's go."</p>
+    <p class="read" style="margin-top:10px"><b>3. A few numbers and names.</b> "In nineteen ninety-eight, three hundred and forty-two students joined us from twelve different schools. The lab is open Monday through Thursday, from seven fifteen until four thirty. Questions go to Mister Claude, in room two oh four."</p>
+  </details>
+  <form id="demoForm" name="inputs-upload" method="POST" data-netlify="true" netlify-honeypot="company2" enctype="multipart/form-data" action="/thanks.html">
+    <input type="hidden" name="form-name" value="inputs-upload">
+    <p hidden><label>Leave empty <input name="company2"></label></p>
+    <div class="card"><h3>1 &middot; Your photos</h3>
+      <label for="photo_1">Photo 1 (required)<input id="photo_1" name="photo_1" type="file" accept="image/*" required></label>
+      <label for="photo_2">Photo 2<input id="photo_2" name="photo_2" type="file" accept="image/*"></label>
+      <label for="photo_3">Photo 3<input id="photo_3" name="photo_3" type="file" accept="image/*"></label>
+      <label for="photo_4">Photo 4 (optional)<input id="photo_4" name="photo_4" type="file" accept="image/*"></label>
+      <label for="photo_5">Photo 5 (optional)<input id="photo_5" name="photo_5" type="file" accept="image/*"></label>
+    </div>
+    <div class="card"><h3>2 &middot; Your voice</h3><p class="muted">Tap record and read the three passages, or upload a recording you already made.</p>
+      <div class="ctas"><button type="button" class="btn" id="recBtn">&#9679; Record</button><span id="recStatus" class="muted" aria-live="polite" style="align-self:center"></span></div>
+      <audio id="recPlay" controls hidden style="width:100%"></audio>
+      <label for="voiceFile" class="muted" style="font-weight:500">Or upload a recording (voice memo, m4a, mp3, wav)<input id="voiceFile" name="voice" type="file" accept="audio/*"></label>
+    </div>
+    <div class="card"><h3>3 &middot; Optional: a short video</h3>
+      <label for="videoFile" class="muted" style="font-weight:500">Upload a 30 to 90 second video of you talking<input id="videoFile" name="video" type="file" accept="video/*"></label>
+      <p class="muted" style="font-size:.9rem">Files too big to send here? Put them in a shared folder (Google Drive, iCloud, Dropbox) and paste the link below.</p>
+      <label for="links">A link to a shared folder (optional)<input id="links" name="links" placeholder="https://..."></label>
+    </div>
+    <label style="display:flex;gap:10px;align-items:flex-start;font-weight:500"><input type="checkbox" name="consent" required style="width:auto;margin-top:5px"> I give permission to use these photos, recordings and video only to make my private videos. Delete them if I ask.</label>
+    <label for="dcontact">Your email or phone, so we can reach you<input id="dcontact" name="contact" required></label>
+    <button class="btn" type="submit" id="demoSend">Send my photos and recording &rarr;</button>
+    <p id="demoMsg" class="muted" aria-live="polite"></p>
+  </form>
+</section>
+<section>
+  <h2>How it works</h2>
+  <div class="steps">
+    <div class="step"><span class="n">01 · once</span><h3>Record your voice</h3><p class="muted">2 to 5 minutes reading aloud.</p></div>
+    <div class="step"><span class="n">02 · once</span><h3>Send photos (and a short video)</h3><p class="muted">About 10 minutes in all.</p></div>
+    <div class="step"><span class="n">03 · any time</span><h3>Send a topic</h3><p class="muted">One line is enough.</p></div>
+    <div class="step"><span class="n">04 · 3–4 days</span><h3>Approve and use</h3><p class="muted">You keep the files, for whatever you need.</p></div>
+  </div>
+</section>
+<section>
+  <h2>What you get</h2>
+  <div class="card"><ul><li>Finished videos in your face and voice, wide and vertical</li><li>Researched scripts, every fact checked</li><li>Captioned and clean versions, plus a transcript</li><li>Nothing is final until you approve it</li><li>Your voice and likeness stay in accounts in your name</li></ul></div>
+</section>
+<section id="faq">
+  <span class="eyebrow">Questions people ask</span>
+  <h2>The honest answers.</h2>
+  <div class="faq">
+    <details><summary>Is this the final quality?</summary><p class="muted">No. It is a first draft made for free, so you can judge the idea. The table above shows what gets better with a budget: a cleaner voice copy, a face built from a short video of you, a sharper picture and custom visuals.</p></details>
+    <details><summary>What will it cost?</summary><p class="muted">Setup is $59 (your voice, your face and your first full video), a friend price. After that, $29 a video, or $99 a month for 4 videos, or $169 a month for 8. Everything is on the quote above. Nothing is charged until you say yes.</p></details>
+    <details><summary>Where does this video get posted?</summary><p class="muted">Nowhere unless you say so. This page is private, and students, parents and anyone else only see what you approve.</p></details>
+    <details><summary>Will it really look and sound like me?</summary><p class="muted">The cloned voice is usually very close to the real thing. The face depends on what we start from: a quick preview made from one photo is good, and the full version, made from a 5-minute video of you, is much more natural. You see it before you pay for anything beyond setup.</p></details>
+    <details><summary>Do I need to know anything about AI?</summary><p class="muted">No. You record once (we send you simple step-by-step instructions), then you just send topics. Everything technical is our job.</p></details>
+    <details><summary>Is my face and voice safe?</summary><p class="muted">They're only used to make videos you've approved. The voice and face models are kept in accounts in your name, so you own them. If you ever stop, we delete our copies.</p></details>
+    <details><summary>Who owns the videos?</summary><p class="muted">You do. You get the files and can use them in class, online, or anywhere else.</p></details>
+    <details><summary>What if I don't like a video?</summary><p class="muted">Tell us what to change. Nothing is final until you say it is.</p></details>
+    <details><summary>Should I tell my students it's AI?</summary><p class="muted">We recommend it, and it can be a lesson in itself. Each video can carry a small "made with AI, approved by Mr. Claude" note if you like.</p></details>
+    <details><summary>How long does a video take?</summary><p class="muted">Usually 3–4 days from your topic to the finished video.</p></details>
+  </div>
+</section>
+<section id="feedback">
+  <span class="eyebrow">Your say</span>
+  <h2>What should we fix first?</h2>
+  <p class="muted" style="max-width:56ch">Watched it? Tell us what felt off, what you liked, and what you would use it for. One line is plenty.</p>
+  <form name="draft-feedback" method="POST" data-netlify="true" netlify-honeypot="company3" action="/thanks.html">
+    <input type="hidden" name="form-name" value="draft-feedback">
+    <p hidden><label>Leave empty <input name="company3"></label></p>
+    <label for="fbtext">Your thoughts<textarea id="fbtext" name="feedback" required placeholder="The voice sounds... / The best part was... / I would use it for..."></textarea></label>
+    <label for="fbcontact">Your email or phone (optional)<input id="fbcontact" name="contact"></label>
+    <button class="btn" type="submit">Send feedback &rarr;</button>
+  </form>
+</section>
+<section id="start">
+  <span class="eyebrow">Reserve your setup</span>
+  <h2>Tell us your first lesson.</h2>
+  <p class="muted" style="max-width:56ch">We'll reply with your recording links and a draft of your first video's script, so you can see the quality before you record anything.</p>
+  <form name="video-request" method="POST" data-netlify="true" netlify-honeypot="company" action="/thanks.html">
+    <input type="hidden" name="form-name" value="video-request">
+    <p hidden><label>Leave empty <input name="company"></label></p>
+    <label for="topic">Your first topic<input id="topic" name="topic" required placeholder="How fingerprints catch criminals"></label>
+    <label for="use">What might you use it for? (not sure yet is fine)<input id="use" name="use" placeholder="Class, training, a talk, a website, just trying it…"></label>
+    <label for="volume">How many videos a month?<select id="volume" name="volume"><option>Just a few to start</option><option selected>About 1 a week</option><option>2 or more a week</option></select></label>
+    <label for="notes">Anything to include or avoid?<textarea id="notes" name="notes" placeholder="Key points, your logo or colours…"></textarea></label>
+    <label for="contact">Your email or phone<input id="contact" name="contact" required></label>
+    <button class="btn" type="submit">Reserve my setup →</button>
+  </form>
+</section>
+<div class="final">
+  <h2>More lessons, on your schedule.</h2>
+  <p class="muted">Record once. Use it whenever it helps.</p>
+  <div class="ctas"><a class="btn" href="#start">Reserve my setup →</a><a id="paypal" class="btn" style="background:transparent;color:var(--onDark);border:1px solid var(--onDark)" href="https://www.paypal.me/vaughnpayne1/30USD" target="_blank" rel="noopener">Pay the $30 deposit</a></div>
+  <p id="paypal-note" class="muted" style="font-size:.9rem">Ready to start? The deposit is $30 (half of the $59 setup). Pay securely with PayPal; you will get a receipt by email.</p>
+</div>
+
+<footer>Prepared for Mr. Claude &middot; A private first draft &middot; Every video is a draft until you approve it &middot; Your photo, voice and likeness are only used with your permission and deleted if you ask &middot; Videos carry a small "AI" label.</footer>
+</main>
+<script>
+(function(){
+  var f=document.getElementById('demoForm'); if(!f) return;
+  var recBtn=document.getElementById('recBtn'), st=document.getElementById('recStatus'), play=document.getElementById('recPlay');
+  var voiceIn=document.getElementById('voiceFile'), msg=document.getElementById('demoMsg');
+  var voiceBlob=null, rec=null, chunks=[], timer=null, t0=0;
+  function stop(){ if(rec&&rec.state!=='inactive') rec.stop(); }
+  recBtn.addEventListener('click',function(){
+    if(rec&&rec.state==='recording'){stop();return;}
+    if(!navigator.mediaDevices||!window.MediaRecorder){st.textContent='Recording is not supported here. Upload a voice memo below instead.';return;}
+    navigator.mediaDevices.getUserMedia({audio:{echoCancellation:false,noiseSuppression:false}}).then(function(stream){
+      chunks=[]; rec=new MediaRecorder(stream);
+      rec.ondataavailable=function(e){if(e.data.size)chunks.push(e.data);};
+      rec.onstop=function(){stream.getTracks().forEach(function(t){t.stop();}); clearInterval(timer);
+        voiceBlob=new Blob(chunks,{type:rec.mimeType||'audio/webm'}); play.src=URL.createObjectURL(voiceBlob); play.hidden=false;
+        recBtn.textContent='\u25CF Record again'; st.textContent='Recorded '+Math.round((Date.now()-t0)/1000)+' s. Play it back to check.';};
+      rec.start(); t0=Date.now(); recBtn.textContent='\u25A0 Stop';
+      timer=setInterval(function(){var s=Math.round((Date.now()-t0)/1000); st.textContent='Recording... '+s+' s (aim for 120 to 300)'; if(s>=330)stop();},500);
+    }).catch(function(){st.textContent='Microphone blocked. Allow it in your browser, or upload a voice memo below.';});
+  });
+  function shrink(file){ return new Promise(function(res){
+    var img=new Image(); img.onload=function(){
+      var m=1800,k=Math.min(1,m/Math.max(img.width,img.height)),c=document.createElement('canvas');
+      c.width=Math.round(img.width*k); c.height=Math.round(img.height*k); c.getContext('2d').drawImage(img,0,0,c.width,c.height);
+      c.toBlob(function(b){res(b);},'image/jpeg',0.9); };
+    img.onerror=function(){res(file);}; img.src=URL.createObjectURL(file); }); }
+  f.addEventListener('submit',function(e){
+    e.preventDefault();
+    if(!voiceBlob&&!(voiceIn.files&&voiceIn.files[0])){msg.textContent='Please record or upload your voice first.';return;}
+    var fd=new FormData(f), jobs=[];
+    ['photo_1','photo_2','photo_3','photo_4','photo_5'].forEach(function(n){
+      var inp=document.getElementById(n); if(inp&&inp.files&&inp.files[0]){ jobs.push(shrink(inp.files[0]).then(function(b){fd.set(n,b,n+'.jpg');})); } });
+    if(voiceBlob&&!(voiceIn.files&&voiceIn.files[0])){var ext=(voiceBlob.type.indexOf('mp4')>-1)?'m4a':'webm'; fd.set('voice',voiceBlob,'voice.'+ext);}
+    msg.textContent='Sending... (large files can take a minute)'; document.getElementById('demoSend').disabled=true;
+    Promise.all(jobs).then(function(){ return fetch('/',{method:'POST',body:fd}); })
+      .then(function(r){ if(!r.ok) throw 0; location.href='/thanks.html'; })
+      .catch(function(){msg.textContent='That did not send. Try fewer or smaller files, or paste a shared-folder link instead.'; document.getElementById('demoSend').disabled=false;});
+  });
+})();
+</script>
+</body>
+</html>

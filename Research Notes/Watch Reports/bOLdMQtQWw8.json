@@ -1,0 +1,90 @@
+{
+ "length_s": 20.25,
+ "topic": "Former NBA player Mike Miller demonstrates his shooting superiority against a college player at age 40.",
+ "lane": "moment",
+ "hook": {
+  "first_words": "This clip shows the gap between an NBA player and a college hooper.",
+  "first_frame": "An indoor basketball court with two players facing each other, and a large mural on the back wall.",
+  "on_screen_text_0_3s": "THIS CLIP SHOWS THE GAP BETWEEN AN NBA PLAYER AND A COLLEGE HOOPER",
+  "shots_in_first_3s": 1
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 6.25,
+   "shows": "Mike Miller shooting over a defender in an indoor gym",
+   "kind": "action"
+  },
+  {
+   "start_s": 6.25,
+   "end_s": 13.75,
+   "shows": "Mike Miller dribbling past a defender and shooting a jumper",
+   "kind": "action"
+  },
+  {
+   "start_s": 13.75,
+   "end_s": 20.25,
+   "shows": "Mike Miller using a pump fake, fading away, scoring, and trash-talking",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 3,
+ "average_shot_s": 6.75,
+ "longest_shot_s": 7.5,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 210,
+  "tone": "energetic",
+  "original_audio_under_voice": true
+ },
+ "music": {
+  "present": true,
+  "style": "upbeat rhythmic background beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "ALL CAPS",
+  "position": "middle",
+  "colours": "white",
+  "highlight_style": "none"
+ },
+ "text_overlays": [],
+ "cards_or_graphics": 0,
+ "framing": "crop",
+ "ending": {
+  "last_words": "He was still on another level.",
+  "last_frame": "Mike Miller walking away smiling and talking trash on the basketball court.",
+  "loops_to_start": true,
+  "call_to_action": "none"
+ },
+ "script": "This clip shows the gap between an NBA player and a college hooper. Mike Miller was already retired and forty years old when a Division 1 player challenged him, probably thinking he had a real chance. But even at forty, Mike showed the same skill that got him into the NBA in the first place. He kept knocking down shot after shot, even catching him with a pump fake before fading away at the basket. And after not missing a shot, he started talking trash and proved he was still on another level.",
+ "retention_tricks": [
+  "bold uppercase captions flashing rapidly",
+  "continuous high-paced action without dull moments"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "High-stakes individual challenge between generations",
+  "Unexpected dominance by the older retired player",
+  "Engaging narrative arc from challenge to trash talk"
+ ],
+ "_meta": {
+  "source": "bOLdMQtQWw8",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

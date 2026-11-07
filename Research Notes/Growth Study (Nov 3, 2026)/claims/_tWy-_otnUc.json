@@ -1,0 +1,100 @@
+[
+  {
+    "claim": "Creators have exactly one second (the first frame) to grab viewer attention before they swipe away.",
+    "quote": "I really do think you have one second to hook someone, especially on Shorts.",
+    "platform": "YouTube Shorts",
+    "type": "hook",
+    "official": false
+  },
+  {
+    "claim": "Structure hooks using a 3-step formula: visual shock factor, content expectation, and setup for the ending outcome.",
+    "quote": "first thing is shock... visual shock factor. And then I follow that by establishing expectations of what the content's going to be about... third thing is giving an expectation of what's to happen at the end.",
+    "platform": "YouTube Shorts",
+    "type": "hook",
+    "official": false
+  },
+  {
+    "claim": "MYTH BUST: Likes, comments, and shares do not correlate with video performance; retention, watch time, and swipe rates do.",
+    "quote": "likes, comments, shares, at least for my channel from those calculations, didn't really affect video performance. What did affect video performance were... viewed versus swiped away, retention, watch time",
+    "platform": "YouTube Shorts",
+    "type": "algorithm mechanism",
+    "official": false
+  },
+  {
+    "claim": "MYTH BUST: Custom thumbnails do not affect Shorts performance or algorithm reach because 99.9% of traffic comes from the feed.",
+    "quote": "Thumbnails are not important because 99.9% of the views are coming from the Shorts Feed... As far as video performance, thumbnails do not matter.",
+    "platform": "YouTube Shorts",
+    "type": "packaging (title, caption, thumbnail, cover)",
+    "official": false
+  },
+  {
+    "claim": "The 'Viewed vs. Swiped Away' metric is the primary indicator of whether a Short succeeded or failed.",
+    "quote": "That metric around viewed versus swiped away is a great one... the one they're pointing out, wondering why it didn't perform well the percentage of people that swiped away was just much higher.",
+    "platform": "YouTube Shorts",
+    "type": "algorithm mechanism",
+    "official": true
+  },
+  {
+    "claim": "MYTH BUST: Longer Shorts (60s) do not automatically beat shorter Shorts (15s); the algorithm normalizes metrics for video duration.",
+    "quote": "What we try and do in recommendations is, independent of duration figure out if somebody really enjoyed the video so that we can, you might say, normalise for duration a bit",
+    "platform": "YouTube Shorts",
+    "type": "algorithm mechanism",
+    "official": true
+  },
+  {
+    "claim": "YouTube's algorithm optimizes recommendation systems for 'valued watch time' derived from viewer satisfaction modeling and surveys.",
+    "quote": "We really try to estimate not only did the viewer complete the video or watch it to a high degree, but did they value it afterwards?",
+    "platform": "YouTube Shorts",
+    "type": "algorithm mechanism",
+    "official": true
+  },
+  {
+    "claim": "MYTH BUST: Cramming maximum information into a 60-second video dilutes the core message and reduces overall view performance.",
+    "quote": "There are a few creators who think, Oh, I'm going to be viral on Shorts if I give as much information as possible... Then, you're just going to dilute your message.",
+    "platform": "YouTube Shorts",
+    "type": "growth strategy",
+    "official": false
+  },
+  {
+    "claim": "MYTH BUST: Simply clipping up long-form footage underperforms relative to content custom-built for short-form video formats.",
+    "quote": "doing it once and then cutting it down... I think it tends to perform not as good as when you're purposeful about making content that stands on its own",
+    "platform": "YouTube Shorts",
+    "type": "growth strategy",
+    "official": true
+  },
+  {
+    "claim": "Cut raw audio/video to strip out all empty pauses (DIT selects) before adding visual effects or music overlay.",
+    "quote": "selects... is basically just the video trimmed to what it will be without any visual effects or music... raw footage without the empty pauses",
+    "platform": "all",
+    "type": "editing",
+    "official": false
+  },
+  {
+    "claim": "Maximize content reach by grounding concepts in primitive, universally relatable human needs and experiences.",
+    "quote": "I think of ideas that are very primitive... relatable because we all have to drink water we all have to eat food. Every human experiences this experience.",
+    "platform": "all",
+    "type": "growth strategy",
+    "official": false
+  },
+  {
+    "claim": "YouTube is actively experimenting with feed duration coherence, grouping fast-paced punchy short videos together separate from longer-form Shorts.",
+    "quote": "We're starting to experiment with some coherence around the Feed like sometimes faster paced and really punchy and then sometimes a little slower paced and longer videos",
+    "platform": "YouTube Shorts",
+    "type": "algorithm mechanism",
+    "official": true
+  },
+  {
+    "claim": "For shorter videos (~15s), design the edit specifically to orchestrate visual tricks or loops that force repeat viewings.",
+    "quote": "a lot of creators craft and architect a video where... not only do you want to get past the first loop you also want to go and watch it again",
+    "platform": "YouTube Shorts",
+    "type": "editing",
+    "official": true
+  },
+  {
+    "claim": "Keep short-form and long-form videos on the same channel unless there is a complete disconnect in target audience or topic.",
+    "quote": "If it's a complete disconnect like if your shorter videos are just about cats and your longer videos are about aerial photography... sometimes they prefer a separate channel.",
+    "platform": "YouTube Shorts",
+    "type": "growth strategy",
+    "official": true
+  }
+]

@@ -1,0 +1,21 @@
+[
+ {
+  "name": "2026-10-04 14 The NBA Just Named F",
+  "dur": 23.82,
+  "voiced": 0.68,
+  "hnr": 9.0,
+  "jitter": 2.7,
+  "shimmer": 10.42,
+  "jumps": 0.0,
+  "clicks": 680.0,
+  "hf": 3.31,
+  "f0_med": 199.0,
+  "verdict": "REDO",
+  "problems": [
+   "HNR 9.0 dB (noisy/robotic)",
+   "jitter 2.7% (shaky)",
+   "shimmer 10.42% (uneven loudness)",
+   "680.0 clicks/min"
+  ]
+ }
+]

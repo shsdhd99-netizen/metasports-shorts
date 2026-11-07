@@ -1,0 +1,447 @@
+[
+ {
+  "word": "Ninety-two",
+  "start": 0.0,
+  "end": 0.417
+ },
+ {
+  "word": "point",
+  "start": 0.47,
+  "end": 0.651
+ },
+ {
+  "word": "nine.",
+  "start": 0.705,
+  "end": 1.015
+ },
+ {
+  "word": "That",
+  "start": 1.068,
+  "end": 1.207
+ },
+ {
+  "word": "is",
+  "start": 1.239,
+  "end": 1.293
+ },
+ {
+  "word": "what",
+  "start": 1.325,
+  "end": 1.432
+ },
+ {
+  "word": "the",
+  "start": 1.453,
+  "end": 1.517
+ },
+ {
+  "word": "Bad",
+  "start": 1.571,
+  "end": 1.709
+ },
+ {
+  "word": "Boy",
+  "start": 1.763,
+  "end": 1.891
+ },
+ {
+  "word": "Pistons",
+  "start": 1.944,
+  "end": 2.243
+ },
+ {
+  "word": "allowed",
+  "start": 2.275,
+  "end": 2.5
+ },
+ {
+  "word": "per",
+  "start": 2.532,
+  "end": 2.639
+ },
+ {
+  "word": "game",
+  "start": 2.692,
+  "end": 2.841
+ },
+ {
+  "word": "in",
+  "start": 2.862,
+  "end": 2.906
+ },
+ {
+  "word": "the",
+  "start": 2.938,
+  "end": 3.001
+ },
+ {
+  "word": "1989",
+  "start": 3.033,
+  "end": 3.643
+ },
+ {
+  "word": "playoffs.",
+  "start": 3.696,
+  "end": 4.166
+ },
+ {
+  "word": "Nobody",
+  "start": 4.219,
+  "end": 4.529
+ },
+ {
+  "word": "defends",
+  "start": 4.572,
+  "end": 4.85
+ },
+ {
+  "word": "like",
+  "start": 4.882,
+  "end": 5.01
+ },
+ {
+  "word": "that",
+  "start": 5.031,
+  "end": 5.16
+ },
+ {
+  "word": "anymore,",
+  "start": 5.202,
+  "end": 5.598
+ },
+ {
+  "word": "right?",
+  "start": 5.693,
+  "end": 6.014
+ },
+ {
+  "word": "Last",
+  "start": 6.067,
+  "end": 6.259
+ },
+ {
+  "word": "season's",
+  "start": 6.291,
+  "end": 6.58
+ },
+ {
+  "word": "champion",
+  "start": 6.613,
+  "end": 6.912
+ },
+ {
+  "word": "Knicks",
+  "start": 6.943,
+  "end": 7.125
+ },
+ {
+  "word": "allowed",
+  "start": 7.157,
+  "end": 7.392
+ },
+ {
+  "word": "a",
+  "start": 7.413,
+  "end": 7.435
+ },
+ {
+  "word": "hundred",
+  "start": 7.488,
+  "end": 7.691
+ },
+ {
+  "word": "and",
+  "start": 7.712,
+  "end": 7.776
+ },
+ {
+  "word": "one.",
+  "start": 7.83,
+  "end": 8.108
+ },
+ {
+  "word": "Now",
+  "start": 8.15,
+  "end": 8.279
+ },
+ {
+  "word": "the",
+  "start": 8.321,
+  "end": 8.396
+ },
+ {
+  "word": "NBA",
+  "start": 8.439,
+  "end": 8.717
+ },
+ {
+  "word": "just",
+  "start": 8.77,
+  "end": 8.909
+ },
+ {
+  "word": "told",
+  "start": 8.93,
+  "end": 9.09
+ },
+ {
+  "word": "refs",
+  "start": 9.144,
+  "end": 9.326
+ },
+ {
+  "word": "to",
+  "start": 9.347,
+  "end": 9.389
+ },
+ {
+  "word": "call",
+  "start": 9.443,
+  "end": 9.582
+ },
+ {
+  "word": "grabbing",
+  "start": 9.635,
+  "end": 9.902
+ },
+ {
+  "word": "a",
+  "start": 9.945,
+  "end": 9.966
+ },
+ {
+  "word": "cutter",
+  "start": 10.009,
+  "end": 10.233
+ },
+ {
+  "word": "and",
+  "start": 10.265,
+  "end": 10.33
+ },
+ {
+  "word": "bumping",
+  "start": 10.372,
+  "end": 10.618
+ },
+ {
+  "word": "a",
+  "start": 10.661,
+  "end": 10.682
+ },
+ {
+  "word": "dribbler.",
+  "start": 10.724,
+  "end": 11.28
+ },
+ {
+  "word": "he",
+  "start": 11.398,
+  "end": 11.718
+ },
+ {
+  "word": "makes",
+  "start": 11.718,
+  "end": 12.038
+ },
+ {
+  "word": "contact",
+  "start": 12.038,
+  "end": 12.358
+ },
+ {
+  "word": "that",
+  "start": 12.358,
+  "end": 12.678
+ },
+ {
+  "word": "is",
+  "start": 12.678,
+  "end": 12.998
+ },
+ {
+  "word": "clearly",
+  "start": 12.998,
+  "end": 13.318
+ },
+ {
+  "word": "more",
+  "start": 13.318,
+  "end": 13.638
+ },
+ {
+  "word": "than",
+  "start": 13.638,
+  "end": 13.958
+ },
+ {
+  "word": "marginal.",
+  "start": 13.958,
+  "end": 14.278
+ },
+ {
+  "word": "But",
+  "start": 14.398,
+  "end": 14.543
+ },
+ {
+  "word": "Detroit",
+  "start": 14.579,
+  "end": 14.904
+ },
+ {
+  "word": "played",
+  "start": 14.941,
+  "end": 15.13
+ },
+ {
+  "word": "eighty-nine",
+  "start": 15.176,
+  "end": 15.592
+ },
+ {
+  "word": "possessions",
+  "start": 15.619,
+  "end": 16.035
+ },
+ {
+  "word": "a",
+  "start": 16.072,
+  "end": 16.099
+ },
+ {
+  "word": "game.",
+  "start": 16.144,
+  "end": 16.433
+ },
+ {
+  "word": "The",
+  "start": 16.515,
+  "end": 16.623
+ },
+ {
+  "word": "Knicks,",
+  "start": 16.668,
+  "end": 16.904
+ },
+ {
+  "word": "ninety-six.",
+  "start": 16.94,
+  "end": 17.528
+ },
+ {
+  "word": "Per",
+  "start": 17.61,
+  "end": 17.763
+ },
+ {
+  "word": "hundred",
+  "start": 17.808,
+  "end": 18.026
+ },
+ {
+  "word": "possessions,",
+  "start": 18.052,
+  "end": 18.505
+ },
+ {
+  "word": "Detroit",
+  "start": 18.532,
+  "end": 18.831
+ },
+ {
+  "word": "allowed",
+  "start": 18.858,
+  "end": 19.084
+ },
+ {
+  "word": "one-oh-four-point-five.",
+  "start": 19.129,
+  "end": 20.043
+ },
+ {
+  "word": "The",
+  "start": 20.106,
+  "end": 20.206
+ },
+ {
+  "word": "Knicks,",
+  "start": 20.251,
+  "end": 20.477
+ },
+ {
+  "word": "one-oh-four-point-nine.",
+  "start": 20.513,
+  "end": 21.381
+ },
+ {
+  "word": "Best",
+  "start": 21.508,
+  "end": 21.698
+ },
+ {
+  "word": "defense",
+  "start": 21.725,
+  "end": 21.96
+ },
+ {
+  "word": "of",
+  "start": 21.988,
+  "end": 22.033
+ },
+ {
+  "word": "1989,",
+  "start": 22.078,
+  "end": 22.72
+ },
+ {
+  "word": "best",
+  "start": 22.802,
+  "end": 22.973
+ },
+ {
+  "word": "defense",
+  "start": 23.001,
+  "end": 23.254
+ },
+ {
+  "word": "of",
+  "start": 23.281,
+  "end": 23.317
+ },
+ {
+  "word": "2026.",
+  "start": 23.362,
+  "end": 24.158
+ },
+ {
+  "word": "Four",
+  "start": 24.24,
+  "end": 24.421
+ },
+ {
+  "word": "tenths",
+  "start": 24.466,
+  "end": 24.674
+ },
+ {
+  "word": "of",
+  "start": 24.701,
+  "end": 24.747
+ },
+ {
+  "word": "a",
+  "start": 24.792,
+  "end": 24.81
+ },
+ {
+  "word": "point",
+  "start": 24.855,
+  "end": 25.009
+ },
+ {
+  "word": "apart.",
+  "start": 25.036,
+  "end": 25.398
+ }
+]

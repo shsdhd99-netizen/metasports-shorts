@@ -1,0 +1,96 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,TikTok Sans SemiBold,80,&H00FFFFFF,&H00FFFFFF,&H00000000,&H99000000,0,0,0,0,100,100,0,0,1,3.2,1,5,70,70,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:02.19,Cap,,0,0,0,,{\pos(540,960)\blur0.5\fscx75\fscy75}Goalkeepers who took their\NGLOVES OFF to save a PENALTY
+Dialogue: 0,0:00:02.19,0:00:03.57,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Back in 2004,
+Dialogue: 0,0:00:03.57,0:00:04.24,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Portugal played
+Dialogue: 0,0:00:04.24,0:00:04.54,Cap,,0,0,0,,{\pos(540,960)\blur0.5}England
+Dialogue: 0,0:00:04.54,0:00:05.30,Cap,,0,0,0,,{\pos(540,960)\blur0.5}in the quarter-final
+Dialogue: 0,0:00:05.30,0:00:05.90,Cap,,0,0,0,,{\pos(540,960)\blur0.5}of the Euros,
+Dialogue: 0,0:00:05.90,0:00:06.51,Cap,,0,0,0,,{\pos(540,960)\blur0.5}in Lisbon.
+Dialogue: 0,0:00:06.51,0:00:07.69,Cap,,0,0,0,,{\pos(540,960)\blur0.5}It finished 2-2,
+Dialogue: 0,0:00:07.69,0:00:08.06,Cap,,0,0,0,,{\pos(540,960)\blur0.5}so it went
+Dialogue: 0,0:00:08.06,0:00:08.78,Cap,,0,0,0,,{\pos(540,960)\blur0.5}to penalties.
+Dialogue: 0,0:00:08.78,0:00:09.45,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Beckham missed
+Dialogue: 0,0:00:09.45,0:00:09.96,Cap,,0,0,0,,{\pos(540,960)\blur0.5}for England.
+Dialogue: 0,0:00:09.96,0:00:10.60,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Rui Costa
+Dialogue: 0,0:00:10.60,0:00:11.41,Cap,,0,0,0,,{\pos(540,960)\blur0.5}missed for Portugal.
+Dialogue: 0,0:00:11.41,0:00:12.22,Cap,,0,0,0,,{\pos(540,960)\blur0.5}It stayed tight,
+Dialogue: 0,0:00:12.22,0:00:12.56,Cap,,0,0,0,,{\pos(540,960)\blur0.5}all the way
+Dialogue: 0,0:00:12.56,0:00:13.20,Cap,,0,0,0,,{\pos(540,960)\blur0.5}to sudden death.
+Dialogue: 0,0:00:13.20,0:00:13.40,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Then,
+Dialogue: 0,0:00:13.40,0:00:13.93,Cap,,0,0,0,,{\pos(540,960)\blur0.5}with the shootout
+Dialogue: 0,0:00:13.93,0:00:14.60,Cap,,0,0,0,,{\pos(540,960)\blur0.5}in sudden death,
+Dialogue: 0,0:00:14.60,0:00:15.38,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Darius Vassell
+Dialogue: 0,0:00:15.38,0:00:15.92,Cap,,0,0,0,,{\pos(540,960)\blur0.5}walked up
+Dialogue: 0,0:00:15.92,0:00:16.27,Cap,,0,0,0,,{\pos(540,960)\blur0.5}to take
+Dialogue: 0,0:00:16.27,0:00:16.94,Cap,,0,0,0,,{\pos(540,960)\blur0.5}England's kick.
+Dialogue: 0,0:00:16.94,0:00:17.40,Cap,,0,0,0,,{\pos(540,960)\blur0.5}And Portugal's
+Dialogue: 0,0:00:17.40,0:00:17.84,Cap,,0,0,0,,{\pos(540,960)\blur0.5}goalkeeper,
+Dialogue: 0,0:00:17.84,0:00:18.33,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Ricardo,
+Dialogue: 0,0:00:18.33,0:00:19.38,Cap,,0,0,0,,{\pos(540,960)\blur0.5}did something strange.
+Dialogue: 0,0:00:19.38,0:00:19.71,Cap,,0,0,0,,{\pos(540,960)\blur0.5}He tore
+Dialogue: 0,0:00:19.71,0:00:20.37,Cap,,0,0,0,,{\pos(540,960)\blur0.5}off his gloves,
+Dialogue: 0,0:00:20.37,0:00:20.85,Cap,,0,0,0,,{\pos(540,960)\blur0.5}and threw them
+Dialogue: 0,0:00:20.85,0:00:21.27,Cap,,0,0,0,,{\pos(540,960)\blur0.5}to the side
+Dialogue: 0,0:00:21.27,0:00:21.78,Cap,,0,0,0,,{\pos(540,960)\blur0.5}of the goal.
+Dialogue: 0,0:00:21.78,0:00:22.55,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Bare hands.
+Dialogue: 0,0:00:22.55,0:00:23.47,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Against a penalty.
+Dialogue: 0,0:00:23.47,0:00:23.83,Cap,,0,0,0,,{\pos(540,960)\blur0.5}He jumped
+Dialogue: 0,0:00:23.83,0:00:24.35,Cap,,0,0,0,,{\pos(540,960)\blur0.5}to his left,
+Dialogue: 0,0:00:24.35,0:00:24.95,Cap,,0,0,0,,{\pos(540,960)\blur0.5}and saved it.
+Dialogue: 0,0:00:24.95,0:00:25.44,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Then Ricardo
+Dialogue: 0,0:00:25.44,0:00:25.82,Cap,,0,0,0,,{\pos(540,960)\blur0.5}did something
+Dialogue: 0,0:00:25.82,0:00:26.58,Cap,,0,0,0,,{\pos(540,960)\blur0.5}even stranger.
+Dialogue: 0,0:00:26.58,0:00:26.97,Cap,,0,0,0,,{\pos(540,960)\blur0.5}He walked
+Dialogue: 0,0:00:26.97,0:00:27.33,Cap,,0,0,0,,{\pos(540,960)\blur0.5}up to take
+Dialogue: 0,0:00:27.33,0:00:27.59,Cap,,0,0,0,,{\pos(540,960)\blur0.5}the next
+Dialogue: 0,0:00:27.59,0:00:28.40,Cap,,0,0,0,,{\pos(540,960)\blur0.5}penalty himself.
+Dialogue: 0,0:00:28.40,0:00:28.74,Cap,,0,0,0,,{\pos(540,960)\blur0.5}He said
+Dialogue: 0,0:00:28.74,0:00:29.02,Cap,,0,0,0,,{\pos(540,960)\blur0.5}he used
+Dialogue: 0,0:00:29.02,0:00:29.92,Cap,,0,0,0,,{\pos(540,960)\blur0.5}to practise penalties,
+Dialogue: 0,0:00:29.92,0:00:30.41,Cap,,0,0,0,,{\pos(540,960)\blur0.5}and it wasn't
+Dialogue: 0,0:00:30.41,0:00:30.90,Cap,,0,0,0,,{\pos(540,960)\blur0.5}his first
+Dialogue: 0,0:00:30.90,0:00:31.50,Cap,,0,0,0,,{\pos(540,960)\blur0.5}in a competitive
+Dialogue: 0,0:00:31.50,0:00:31.98,Cap,,0,0,0,,{\pos(540,960)\blur0.5}match.
+Dialogue: 0,0:00:31.98,0:00:32.48,Cap,,0,0,0,,{\pos(540,960)\blur0.5}He sized
+Dialogue: 0,0:00:32.48,0:00:33.34,Cap,,0,0,0,,{\pos(540,960)\blur0.5}up David James,
+Dialogue: 0,0:00:33.34,0:00:33.67,Cap,,0,0,0,,{\pos(540,960)\blur0.5}and hit
+Dialogue: 0,0:00:33.67,0:00:34.16,Cap,,0,0,0,,{\pos(540,960)\blur0.5}it low,
+Dialogue: 0,0:00:34.16,0:00:34.86,Cap,,0,0,0,,{\pos(540,960)\blur0.5}past him.
+Dialogue: 0,0:00:34.86,0:00:35.55,Cap,,0,0,0,,{\pos(540,960)\blur0.5}6-5.
+Dialogue: 0,0:00:35.55,0:00:36.55,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Portugal were through.
+Dialogue: 0,0:00:36.55,0:00:37.20,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Ricardo later
+Dialogue: 0,0:00:37.20,0:00:37.60,Cap,,0,0,0,,{\pos(540,960)\blur0.5}said he saw
+Dialogue: 0,0:00:37.60,0:00:38.32,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Vassell coming,
+Dialogue: 0,0:00:38.32,0:00:38.84,Cap,,0,0,0,,{\pos(540,960)\blur0.5}and decided
+Dialogue: 0,0:00:38.84,0:00:39.22,Cap,,0,0,0,,{\pos(540,960)\blur0.5}on a little
+Dialogue: 0,0:00:39.22,0:00:39.93,Cap,,0,0,0,,{\pos(540,960)\blur0.5}crazy act.
+Dialogue: 0,0:00:39.93,0:00:40.85,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Just mind games.
+Dialogue: 0,0:00:40.85,0:00:41.23,Cap,,0,0,0,,{\pos(540,960)\blur0.5}He wanted
+Dialogue: 0,0:00:41.23,0:00:41.97,Cap,,0,0,0,,{\pos(540,960)\blur0.5}extra motivation,
+Dialogue: 0,0:00:41.97,0:00:42.65,Cap,,0,0,0,,{\pos(540,960)\blur0.5}and to confuse
+Dialogue: 0,0:00:42.65,0:00:43.11,Cap,,0,0,0,,{\pos(540,960)\blur0.5}the taker.
+Dialogue: 0,0:00:43.11,0:00:43.90,Cap,,0,0,0,,{\pos(540,960)\blur0.5}He was very happy
+Dialogue: 0,0:00:43.90,0:00:44.41,Cap,,0,0,0,,{\pos(540,960)\blur0.5}it worked.
+Dialogue: 0,0:00:44.41,0:00:44.87,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Years later,
+Dialogue: 0,0:00:44.87,0:00:45.75,Cap,,0,0,0,,{\pos(540,960)\blur0.5\fscx95\fscy95}they became team-mates
+Dialogue: 0,0:00:45.75,0:00:46.23,Cap,,0,0,0,,{\pos(540,960)\blur0.5}at Leicester.
+Dialogue: 0,0:00:46.23,0:00:46.73,Cap,,0,0,0,,{\pos(540,960)\blur0.5}And Vassell
+Dialogue: 0,0:00:46.73,0:00:47.23,Cap,,0,0,0,,{\pos(540,960)\blur0.5}told him he
+Dialogue: 0,0:00:47.23,0:00:47.98,Cap,,0,0,0,,{\pos(540,960)\blur0.5}was already nervous
+Dialogue: 0,0:00:47.98,0:00:48.53,Cap,,0,0,0,,{\pos(540,960)\blur0.5}before the kick,
+Dialogue: 0,0:00:48.53,0:00:48.73,Cap,,0,0,0,,{\pos(540,960)\blur0.5}and it
+Dialogue: 0,0:00:48.73,0:00:49.24,Cap,,0,0,0,,{\pos(540,960)\blur0.5}got worse
+Dialogue: 0,0:00:49.24,0:00:49.73,Cap,,0,0,0,,{\pos(540,960)\blur0.5}when the gloves
+Dialogue: 0,0:00:49.73,0:00:50.46,Cap,,0,0,0,,{\pos(540,960)\blur0.5}came off.

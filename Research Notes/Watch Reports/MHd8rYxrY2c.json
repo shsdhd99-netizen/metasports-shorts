@@ -1,0 +1,139 @@
+{
+ "length_s": 24.583,
+ "topic": "Steph Curry playing basketball in Korea against exaggerated defenses.",
+ "lane": "moment",
+ "hook": {
+  "first_words": "Steph Curry played basketball in Korea",
+  "first_frame": "Steph Curry dribbling a basketball on court with a defender closing in",
+  "on_screen_text_0_3s": "Steph Curry played basketball in Korea and they had no idea how to stop him.",
+  "shots_in_first_3s": 3
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 0.792,
+   "shows": "Steph Curry dribbling past a defender",
+   "kind": "action"
+  },
+  {
+   "start_s": 0.792,
+   "end_s": 1.833,
+   "shows": "Defender sliding in front of Steph",
+   "kind": "action"
+  },
+  {
+   "start_s": 1.833,
+   "end_s": 3.708,
+   "shows": "Steph falling down while dribbling",
+   "kind": "action"
+  },
+  {
+   "start_s": 3.708,
+   "end_s": 6.208,
+   "shows": "Korean comedian/player pulling out 20-arm gear",
+   "kind": "action"
+  },
+  {
+   "start_s": 6.208,
+   "end_s": 7.458,
+   "shows": "20-arm defense facing Steph",
+   "kind": "action"
+  },
+  {
+   "start_s": 7.458,
+   "end_s": 12.083,
+   "shows": "Giant mascot and giant arms blocking Steph",
+   "kind": "action"
+  },
+  {
+   "start_s": 12.083,
+   "end_s": 14.167,
+   "shows": "Basketball hoop spinning",
+   "kind": "action"
+  },
+  {
+   "start_s": 14.167,
+   "end_s": 17.042,
+   "shows": "Normal-sized player shooting into 3x larger hoop",
+   "kind": "action"
+  },
+  {
+   "start_s": 17.042,
+   "end_s": 19.833,
+   "shows": "Steph shooting and hoop spinning rapidly",
+   "kind": "action"
+  },
+  {
+   "start_s": 19.833,
+   "end_s": 20.958,
+   "shows": "Opponent shooting with tilted hoop board",
+   "kind": "action"
+  },
+  {
+   "start_s": 20.958,
+   "end_s": 24.583,
+   "shows": "Steph shooting game-winning shot into normal hoop",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 11,
+ "average_shot_s": 2.235,
+ "longest_shot_s": 4.625,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 175,
+  "tone": "energetic and entertaining",
+  "original_audio_under_voice": true
+ },
+ "music": {
+  "present": true,
+  "style": "upbeat comedic action beats",
+  "level_vs_voice": "equal",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 4,
+  "case": "sentence",
+  "position": "middle",
+  "colours": "white",
+  "highlight_style": "pop-up word by word"
+ },
+ "text_overlays": [],
+ "cards_or_graphics": 0,
+ "framing": "crop",
+ "ending": {
+  "last_words": "that shocked everyone.",
+  "last_frame": "Basketball going through the net",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "Steph Curry played basketball in Korea and they had no idea how to stop him. Instead of playing fair, this guy pulled out a device with 20 arms to defend Curry. And another teammate showed up with a 12-foot inflatable defender to block all of Steph's shots. If that wasn't enough, they built a basketball hoop three times the normal size so they could make every single shot. They even went as far as making Curry's hoop spin. But none of it mattered as Curry was still unstoppable and he hit the last shot that shocked everyone.",
+ "retention_tricks": [
+  "quick cuts every 2 seconds",
+  "escalating absurd visual gags (20 arms, giant inflatable, giant hoop, spinning hoop)",
+  "suspense built around whether Curry can score against rigged odds"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": false,
+  "ends_on_payoff": true,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "Absurd escalating comedic gimmicks keep viewer engaged",
+  "High-energy voiceover pairs with fast-paced comedic editing",
+  "Satisfying payoff when Curry overcomes all obstacles at the end"
+ ],
+ "_meta": {
+  "source": "MHd8rYxrY2c",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-11-01",
+  "tier": "[S] model-observed, not measured"
+ }
+}

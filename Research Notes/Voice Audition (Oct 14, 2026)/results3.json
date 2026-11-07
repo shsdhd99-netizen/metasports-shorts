@@ -1,0 +1,826 @@
+{
+ "R3_P1_ref": {
+  "name": "R3_P1_ref",
+  "dur": 17.83,
+  "speech_s": 17.48,
+  "wpm": 237,
+  "gaps_over_0p3": 2.0,
+  "max_gap": 0.54,
+  "wer_clean": 3.4,
+  "wer_phone": 3.4,
+  "names_clean": {
+   "wembanyama": true,
+   "jamarion": true,
+   "jokic": true,
+   "antetokounmpo": true,
+   "giannis": true
+  },
+  "names_phone": {
+   "wembanyama": true,
+   "jamarion": true,
+   "jokic": true,
+   "antetokounmpo": true,
+   "giannis": true
+  },
+  "numbers_clean": {
+   "350": true,
+   "zero": true,
+   "7-5": true
+  },
+  "numbers_phone": {
+   "350": true,
+   "zero": true,
+   "7-5": true
+  },
+  "pitch_sd_semitones": 4.83,
+  "loudness_sd_db": 3.0,
+  "hnr": 7.8,
+  "jitter": 2.98,
+  "shimmer": 11.03,
+  "f0_med": 171.0,
+  "heard_clean": "Victor Wembanyama is not the tallest man in this story. Jamarian Sharp is listed 7 '5 and he's never played an NBA game that counts. Dallas cut him twice. The Clippers cut him in September. Even Nikola Jokic and Yanis Antitokumpo never faced him in a game that counts. So what's missing? 3 -point tries last season. Wembanyama 350. Sharp in the G -League 0.",
+  "heard_phone": "Victor Wembanyama is not the tallest man in this story. Jamarian Sharp is listed 7 '5 and he's never played an NBA game that counts. Dallas cut him twice. The Clippers cut him in September. Even Nikola Jokic and Yanis Antitokunpo never faced him in a game that counts. So what's missing? Three -point tries last season. Wembanyama 350. Sharp in the G -League 0.",
+  "voice": "P1_clone_fixed",
+  "voice_id": "GDS7e7WiI4GqkoRxZAFG",
+  "label": "clone 'pham v2', stability .5, speed 1.1",
+  "model": "eleven_multilingual_v2",
+  "settings": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.1
+  },
+  "script": "REF",
+  "chars": 401
+ },
+ "R3_X1_ref": {
+  "name": "R3_X1_ref",
+  "dur": 19.04,
+  "speech_s": 18.48,
+  "wpm": 224,
+  "gaps_over_0p3": 4.0,
+  "max_gap": 0.64,
+  "wer_clean": 0.0,
+  "wer_phone": 3.4,
+  "names_clean": {
+   "wembanyama": true,
+   "jamarion": true,
+   "jokic": true,
+   "antetokounmpo": false,
+   "giannis": true
+  },
+  "names_phone": {
+   "wembanyama": true,
+   "jamarion": true,
+   "jokic": true,
+   "antetokounmpo": false,
+   "giannis": true
+  },
+  "numbers_clean": {
+   "350": true,
+   "zero": true,
+   "7-5": true
+  },
+  "numbers_phone": {
+   "350": true,
+   "zero": true,
+   "7-5": true
+  },
+  "pitch_sd_semitones": 5.19,
+  "loudness_sd_db": 3.59,
+  "hnr": 8.2,
+  "jitter": 2.9,
+  "shimmer": 11.07,
+  "f0_med": 163.0,
+  "heard_clean": "Victor Wembanyama is not the tallest man in this story. Jamarian Sharp is listed seven foot five and he's never played an NBA game that counts. Dallas cut him twice. The Clippers cut him in September. Even Nikola Jokic and Giannis Entetokunpo never faced him in a game that counts. So what's missing? Three point tries last season. Wembanyama 350, Sharp in the G -League zero.",
+  "heard_phone": "Victor Wembanyama is not the tallest man in this story. Jamarian Sharp is listed 7 '5 and he's never played an NBA game that counts. Dallas cut him twice. The Clippers cut him in September. Even Nikola Jokic and Yanis Entetokunpo never faced him in a game that counts. So what's missing? 3 point tries last season. Wembanyama 350. Sharp in the G -League 0.",
+  "voice": "X1_alex_s12",
+  "voice_id": "yl2ZDV1MzN4HbQJbMihG",
+  "label": "Alex (library), speed 1.2",
+  "model": "eleven_multilingual_v2",
+  "settings": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.2
+  },
+  "script": "REF",
+  "chars": 401
+ },
+ "R3_X3_ref": {
+  "name": "R3_X3_ref",
+  "dur": 18.72,
+  "speech_s": 18.24,
+  "wpm": 227,
+  "gaps_over_0p3": 7.0,
+  "max_gap": 0.5,
+  "wer_clean": 5.2,
+  "wer_phone": 5.2,
+  "names_clean": {
+   "wembanyama": true,
+   "jamarion": true,
+   "jokic": true,
+   "antetokounmpo": true,
+   "giannis": true
+  },
+  "names_phone": {
+   "wembanyama": false,
+   "jamarion": true,
+   "jokic": true,
+   "antetokounmpo": false,
+   "giannis": true
+  },
+  "numbers_clean": {
+   "350": true,
+   "zero": true,
+   "7-5": true
+  },
+  "numbers_phone": {
+   "350": true,
+   "zero": true,
+   "7-5": true
+  },
+  "pitch_sd_semitones": 4.75,
+  "loudness_sd_db": 3.97,
+  "hnr": 7.8,
+  "jitter": 3.57,
+  "shimmer": 12.15,
+  "f0_med": 123.0,
+  "heard_clean": "Victor Wembanyama is not the tallest man in this story. Jamarian Sharp is listed seven foot five, and he's never played an NBA game that counts. Dallas cut him twice. The Clippers cut him in September. Even Nikolay Okic and Yanisantitokumpo never faced him in a game that counts. So what's missing? Three point tries last season. Wembanyama 350. Sharp in the G League, zero.",
+  "heard_phone": "Victor Rembunyama is not the tallest man in this story. Jamarian Sharp is listed seven foot five. He's never played an NBA game that counts. Dallas cut him twice. The Clippers cut him in September. Even Nikolay Okic and Yanisanta Takumpo never faced him in a game that counts. So what's missing? Three point tries last season. Rembunyama 350. Sharp in the G -League zero.",
+  "voice": "X3_lucan_s12",
+  "voice_id": "15CVCzDByBinCIoCblXo",
+  "label": "Lucan Rook (library), speed 1.2",
+  "model": "eleven_multilingual_v2",
+  "settings": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.2
+  },
+  "script": "REF",
+  "chars": 401
+ },
+ "R3_X4_ref": {
+  "name": "R3_X4_ref",
+  "dur": 19.69,
+  "speech_s": 19.28,
+  "wpm": 215,
+  "gaps_over_0p3": 8.0,
+  "max_gap": 0.64,
+  "wer_clean": 1.7,
+  "wer_phone": 1.7,
+  "names_clean": {
+   "wembanyama": true,
+   "jamarion": true,
+   "jokic": true,
+   "antetokounmpo": true,
+   "giannis": true
+  },
+  "names_phone": {
+   "wembanyama": true,
+   "jamarion": true,
+   "jokic": true,
+   "antetokounmpo": true,
+   "giannis": true
+  },
+  "numbers_clean": {
+   "350": true,
+   "zero": true,
+   "7-5": true
+  },
+  "numbers_phone": {
+   "350": true,
+   "zero": true,
+   "7-5": true
+  },
+  "pitch_sd_semitones": 4.43,
+  "loudness_sd_db": 3.09,
+  "hnr": 10.2,
+  "jitter": 3.75,
+  "shimmer": 9.64,
+  "f0_med": 113.0,
+  "heard_clean": "Victor Wembanyama is not the tallest man in this story. Jamarian Sharp is listed 7 '5\", and he's never played an NBA game that counts. Dallas cut him twice, the Clippers cut him in September. Even Nikola Jokic and Giannis Antitokunumpo never faced him in a game that counts. So what's missing? Three -point tries last season, Wembanyama 350, Sharp in the G -League 0.",
+  "heard_phone": "Victor Wembanyama is not the tallest man in the story. Jamarian Sharp is listed seven foot five. He's never played an NBA game that counts. Dallas cut him twice. The Clippers cut him in September. Even Nikola Jokic and Giannis Antitokunupo never faced him in a game that counts. So what's missing? Three point tries last season. Wembanyama 350, Sharp in the G -League zero.",
+  "voice": "X4_jon_s12",
+  "voice_id": "MFZUKuGQUsGJPQjTS4wC",
+  "label": "Jon (library), speed 1.2",
+  "model": "eleven_multilingual_v2",
+  "settings": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.2
+  },
+  "script": "REF",
+  "chars": 401
+ },
+ "R3_X5_ref": {
+  "name": "R3_X5_ref",
+  "dur": 22.8,
+  "speech_s": 22.5,
+  "wpm": 184,
+  "gaps_over_0p3": 5.0,
+  "max_gap": 0.4,
+  "wer_clean": 3.4,
+  "wer_phone": 6.9,
+  "names_clean": {
+   "wembanyama": false,
+   "jamarion": true,
+   "jokic": true,
+   "antetokounmpo": false,
+   "giannis": true
+  },
+  "names_phone": {
+   "wembanyama": false,
+   "jamarion": true,
+   "jokic": true,
+   "antetokounmpo": false,
+   "giannis": true
+  },
+  "numbers_clean": {
+   "350": true,
+   "zero": true,
+   "7-5": true
+  },
+  "numbers_phone": {
+   "350": true,
+   "zero": true,
+   "7-5": true
+  },
+  "pitch_sd_semitones": 5.27,
+  "loudness_sd_db": 2.91,
+  "hnr": 8.6,
+  "jitter": 2.7,
+  "shimmer": 10.35,
+  "f0_med": 150.0,
+  "heard_clean": "Victor Wimbanyama is not the tallest man in this story. Jamarion Sharp is listed seven foot five, and he's never played an NBA game that counts. Dallas cut him twice, the Clippers cut him in September, even Nikola Jokic and Yanisanta Takumpo never faced him in a game that counts. So what's missing? Three point tries last season. Wimbanyama, 350. Sharp in the G -League, zero.",
+  "heard_phone": "Victor Wimbanyama is not the tallest man in this story. Jamarion Sharp is listed 7 foot 5, and he's never played an NBA game that counts. Dallas cut him twice, the Clippers cut him in September, even Nikola Jokic and Yanis onto the Kumpo never faced him in a game that counts. So what's missing? 3 point tries last season. Wimbanyama 350. Sharp in the G -League? Zero.",
+  "voice": "X5_alex_v3",
+  "voice_id": "yl2ZDV1MzN4HbQJbMihG",
+  "label": "Alex (library) on eleven_v3",
+  "model": "eleven_v3",
+  "settings": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true
+  },
+  "script": "REF",
+  "chars": 401
+ },
+ "R3_P0_story_t1": {
+  "name": "R3_P0_story_t1",
+  "dur": 18.16,
+  "speech_s": 17.9,
+  "wpm": 265,
+  "gaps_over_0p3": 0.0,
+  "max_gap": 0.2,
+  "wer_clean": 7.8,
+  "wer_phone": 7.8,
+  "names_clean": {
+   "wembanyama": false,
+   "jamarion": false,
+   "jokic": false,
+   "antetokounmpo": false,
+   "giannis": false
+  },
+  "names_phone": {
+   "wembanyama": false,
+   "jamarion": false,
+   "jokic": false,
+   "antetokounmpo": false,
+   "giannis": false
+  },
+  "numbers_clean": {
+   "350": false,
+   "zero": false,
+   "7-5": false
+  },
+  "numbers_phone": {
+   "350": false,
+   "zero": false,
+   "7-5": false
+  },
+  "pitch_sd_semitones": 4.88,
+  "loudness_sd_db": 2.91,
+  "hnr": 8.5,
+  "jitter": 2.63,
+  "shimmer": 10.34,
+  "f0_med": 211.0,
+  "heard_clean": "Stephen Curry just pulled one of the wildest sneaker moves the NBA has ever seen. In his first game after leaving Under Armour, he stepped on the court wearing Nike Kobe's. Not customs, not tributes, actual Kobe's. Fans noticed instantly. People courtside were pointing at his feet before he even touched the ball. But the craziest part, Under Armour executives were in the arena, watching him hoop an arrival brand, and Curry still dropped 30 like nothing happened.",
+  "heard_phone": "Stephen Curry just pulled one of the wildest sneaker moves the NBA has ever seen. In his first game after leaving Under Armour, he stepped on the court wearing Nike Kobe's. Not customs, not tributes, actual Kobe's. Fans noticed instantly. People courtside were pointing at his feet before he even touched the ball. But the craziest part, Under Armour executives were in the arena, watching him hoop an arrival brand, and Curry still dropped 30 like nothing happened.",
+  "voice": "P0_clone_prod",
+  "voice_id": "GDS7e7WiI4GqkoRxZAFG",
+  "label": "clone 'pham v2', production settings",
+  "model": "eleven_multilingual_v2",
+  "settings": {
+   "stability": 0.65,
+   "similarity_boost": 0.7,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.15
+  },
+  "script": "STORY",
+  "chars": 468
+ },
+ "R3_P0_story_t2": {
+  "name": "R3_P0_story_t2",
+  "dur": 18.02,
+  "speech_s": 17.76,
+  "wpm": 267,
+  "gaps_over_0p3": 0.0,
+  "max_gap": 0.24,
+  "wer_clean": 3.9,
+  "wer_phone": 5.2,
+  "names_clean": {
+   "wembanyama": false,
+   "jamarion": false,
+   "jokic": false,
+   "antetokounmpo": false,
+   "giannis": false
+  },
+  "names_phone": {
+   "wembanyama": false,
+   "jamarion": false,
+   "jokic": false,
+   "antetokounmpo": false,
+   "giannis": false
+  },
+  "numbers_clean": {
+   "350": false,
+   "zero": false,
+   "7-5": false
+  },
+  "numbers_phone": {
+   "350": false,
+   "zero": false,
+   "7-5": false
+  },
+  "pitch_sd_semitones": 3.8,
+  "loudness_sd_db": 2.63,
+  "hnr": 8.9,
+  "jitter": 2.89,
+  "shimmer": 10.58,
+  "f0_med": 187.0,
+  "heard_clean": "Stephen Curry just pulled one of the wildest sneaker moves the NBA has ever seen. In his first game after leaving Under Armour, he stepped on the court wearing Nike Kobe's, not customs, not tributes, actual Kobe's. Fans noticed instantly, people courtside were pointing at his feet before he even touched the ball. But the craziest part? Under Armour executives were in the arena, watching him hoop in a rival brand. And Curry still dropped 30 like nothing happened.",
+  "heard_phone": "Steve and Curry just pulled one of the wildest sneaker moves the NBA has ever seen. In his first game after leaving Under Armour, he stepped on the court wearing Nike Kobe's. Not customs, not tributes, actual Kobe's. Fans noticed instantly. People courtside were pointing at his feet before he even touched the ball. But the craziest part? Under Armour executives were in the arena watching him hoop in a rival brand. And Curry still dropped 30 like nothing happened.",
+  "voice": "P0_clone_prod",
+  "voice_id": "GDS7e7WiI4GqkoRxZAFG",
+  "label": "clone 'pham v2', production settings",
+  "model": "eleven_multilingual_v2",
+  "settings": {
+   "stability": 0.65,
+   "similarity_boost": 0.7,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.15
+  },
+  "script": "STORY",
+  "chars": 468
+ },
+ "R3_P1_story_t1": {
+  "name": "R3_P1_story_t1",
+  "dur": 21.55,
+  "speech_s": 21.2,
+  "wpm": 224,
+  "gaps_over_0p3": 1.0,
+  "max_gap": 0.36,
+  "wer_clean": 3.9,
+  "wer_phone": 3.9,
+  "names_clean": {
+   "wembanyama": false,
+   "jamarion": false,
+   "jokic": false,
+   "antetokounmpo": false,
+   "giannis": false
+  },
+  "names_phone": {
+   "wembanyama": false,
+   "jamarion": false,
+   "jokic": false,
+   "antetokounmpo": false,
+   "giannis": false
+  },
+  "numbers_clean": {
+   "350": false,
+   "zero": false,
+   "7-5": false
+  },
+  "numbers_phone": {
+   "350": false,
+   "zero": false,
+   "7-5": false
+  },
+  "pitch_sd_semitones": 4.62,
+  "loudness_sd_db": 2.87,
+  "hnr": 8.7,
+  "jitter": 2.8,
+  "shimmer": 10.05,
+  "f0_med": 209.0,
+  "heard_clean": "Stephen Curry just pulled one of the wildest sneaker moves the NBA has ever seen. In his first game after leaving Under Armour, he stepped on the court wearing Nike Kobe's, not customs, not tributes, actual Kobe's. Fans noticed instantly, people courtside were pointing at his feet before he even touched the ball. But the craziest part? Under Armour executives were in the arena, watching him hoop in a rival brand, and Curry still dropped 30 like nothing happened.",
+  "heard_phone": "Stephen Curry just pulled one of the wildest sneaker moves the NBA has ever seen. In his first game after leaving Under Armour, he stepped on the court wearing Nike Kobe, not customs, not tribute, actual Kobe. Fans noticed instantly, people courtside were pointing at his feet before he even touched the ball. But the craziest part? Under Armour executives were in the arena, watching him hoop in a rival brand, and Curry still dropped 30 like nothing happened.",
+  "voice": "P1_clone_fixed",
+  "voice_id": "GDS7e7WiI4GqkoRxZAFG",
+  "label": "clone 'pham v2', stability .5, speed 1.1",
+  "model": "eleven_multilingual_v2",
+  "settings": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.1
+  },
+  "script": "STORY",
+  "chars": 468
+ },
+ "R3_P1_story_t2": {
+  "name": "R3_P1_story_t2",
+  "dur": 20.71,
+  "speech_s": 20.44,
+  "wpm": 232,
+  "gaps_over_0p3": 0.0,
+  "max_gap": 0.26,
+  "wer_clean": 3.9,
+  "wer_phone": 3.9,
+  "names_clean": {
+   "wembanyama": false,
+   "jamarion": false,
+   "jokic": false,
+   "antetokounmpo": false,
+   "giannis": false
+  },
+  "names_phone": {
+   "wembanyama": false,
+   "jamarion": false,
+   "jokic": false,
+   "antetokounmpo": false,
+   "giannis": false
+  },
+  "numbers_clean": {
+   "350": false,
+   "zero": false,
+   "7-5": false
+  },
+  "numbers_phone": {
+   "350": false,
+   "zero": false,
+   "7-5": false
+  },
+  "pitch_sd_semitones": 5.05,
+  "loudness_sd_db": 2.77,
+  "hnr": 9.8,
+  "jitter": 2.7,
+  "shimmer": 9.17,
+  "f0_med": 210.0,
+  "heard_clean": "Stephen Curry just pulled one of the wildest sneaker moves the NBA has ever seen. In his first game after leaving Under Armour, he stepped on the court wearing Nike Kobe's. Not customs, not tributes, actual Kobe's. Fans noticed instantly. People courtside were pointing at his feet before he even touched the ball. But the craziest part? Under Armour executives were in the arena, watching him hoop in a rival brand. and Curry still dropped 30 like nothing happened.",
+  "heard_phone": "Stephen Curry just pulled one of the wildest sneaker moves the NBA has ever seen. In his first game after leaving Under Armour, he stepped on the court wearing Nike Kobe's. Not customs, not tributes, actual Kobe's. Fans noticed instantly. People courtside were pointing at his feet before he even touched the ball. But the craziest part, Under Armour executives were in the arena, watching him hoop in a rival brand. And Curry still dropped 30 like nothing happened.",
+  "voice": "P1_clone_fixed",
+  "voice_id": "GDS7e7WiI4GqkoRxZAFG",
+  "label": "clone 'pham v2', stability .5, speed 1.1",
+  "model": "eleven_multilingual_v2",
+  "settings": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.1
+  },
+  "script": "STORY",
+  "chars": 468
+ },
+ "R3_X1_story_t1": {
+  "name": "R3_X1_story_t1",
+  "dur": 20.94,
+  "speech_s": 20.7,
+  "wpm": 229,
+  "gaps_over_0p3": 1.0,
+  "max_gap": 0.32,
+  "wer_clean": 5.2,
+  "wer_phone": 3.9,
+  "names_clean": {
+   "wembanyama": false,
+   "jamarion": false,
+   "jokic": false,
+   "antetokounmpo": false,
+   "giannis": false
+  },
+  "names_phone": {
+   "wembanyama": false,
+   "jamarion": false,
+   "jokic": false,
+   "antetokounmpo": false,
+   "giannis": false
+  },
+  "numbers_clean": {
+   "350": false,
+   "zero": false,
+   "7-5": false
+  },
+  "numbers_phone": {
+   "350": false,
+   "zero": false,
+   "7-5": false
+  },
+  "pitch_sd_semitones": 4.9,
+  "loudness_sd_db": 3.33,
+  "hnr": 8.1,
+  "jitter": 2.78,
+  "shimmer": 11.54,
+  "f0_med": 151.0,
+  "heard_clean": "Stephen Curry just pulled one of the wildest sneaker moves that NBA has ever seen. In his first game after leaving Under Armour, he stepped on the court wearing Nike Kobe's, not customs, not tributes, actual Kobe's. Fans noticed instantly, people courtside were pointing at his feet before he even touched the ball. But the craziest part? Under Armour executives were in the arena, watching him hoop in a rival brand, and Curry still dropped 30 like nothing happened.",
+  "heard_phone": "Stephen Curry just pulled one of the wildest sneaker moves the NBA has ever seen. In his first game after leaving Under Armour, he stepped on the court wearing Nike Kobe. Not customs, not tributes, actual Kobe. Fans noticed instantly, people courtside were pointing at his feet before he even touched the ball. But the craziest part? Under Armour executives were in the arena, watching him hoop in a rival brand. And Curry still dropped 30 like nothing happened.",
+  "voice": "X1_alex_s12",
+  "voice_id": "yl2ZDV1MzN4HbQJbMihG",
+  "label": "Alex (library), speed 1.2",
+  "model": "eleven_multilingual_v2",
+  "settings": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.2
+  },
+  "script": "STORY",
+  "chars": 468
+ },
+ "R3_X1_story_t2": {
+  "name": "R3_X1_story_t2",
+  "dur": 21.41,
+  "speech_s": 20.94,
+  "wpm": 226,
+  "gaps_over_0p3": 1.0,
+  "max_gap": 0.32,
+  "wer_clean": 3.9,
+  "wer_phone": 3.9,
+  "names_clean": {
+   "wembanyama": false,
+   "jamarion": false,
+   "jokic": false,
+   "antetokounmpo": false,
+   "giannis": false
+  },
+  "names_phone": {
+   "wembanyama": false,
+   "jamarion": false,
+   "jokic": false,
+   "antetokounmpo": false,
+   "giannis": false
+  },
+  "numbers_clean": {
+   "350": false,
+   "zero": false,
+   "7-5": false
+  },
+  "numbers_phone": {
+   "350": false,
+   "zero": false,
+   "7-5": false
+  },
+  "pitch_sd_semitones": 5.39,
+  "loudness_sd_db": 3.63,
+  "hnr": 7.6,
+  "jitter": 2.93,
+  "shimmer": 11.33,
+  "f0_med": 155.0,
+  "heard_clean": "Stephen Curry just pulled one of the wildest sneaker moves the NBA has ever seen in his first game after leaving Under Armour. He stepped on the court wearing Nike Kobe's, not customs, not tributes, actual Kobe's. Fans noticed instantly, people courtside were pointing at his feet before he even touched the ball. But the craziest part, Under Armour executives were in the arena watching him hoop in a rival brand and Curry still dropped 30 like nothing happened.",
+  "heard_phone": "Stephen Curry just pulled one of the wildest sneaker moves the NBA has ever seen in his first game after leaving Under Armour. He stepped on the court wearing Nike Kobe's, not customs, not tributes, actual Kobe's. Fans noticed instantly, people courtside were pointing at his feet before he even touched the ball. But the craziest part, Under Armour executives were in the arena, watching him hoop in a rival brand. And Curry still dropped 30 like nothing happened.",
+  "voice": "X1_alex_s12",
+  "voice_id": "yl2ZDV1MzN4HbQJbMihG",
+  "label": "Alex (library), speed 1.2",
+  "model": "eleven_multilingual_v2",
+  "settings": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.2
+  },
+  "script": "STORY",
+  "chars": 468
+ },
+ "R3_X3_story_t1": {
+  "name": "R3_X3_story_t1",
+  "dur": 21.32,
+  "speech_s": 20.9,
+  "wpm": 227,
+  "gaps_over_0p3": 9.0,
+  "max_gap": 0.54,
+  "wer_clean": 3.9,
+  "wer_phone": 5.2,
+  "names_clean": {
+   "wembanyama": false,
+   "jamarion": false,
+   "jokic": false,
+   "antetokounmpo": false,
+   "giannis": false
+  },
+  "names_phone": {
+   "wembanyama": false,
+   "jamarion": false,
+   "jokic": false,
+   "antetokounmpo": false,
+   "giannis": false
+  },
+  "numbers_clean": {
+   "350": false,
+   "zero": false,
+   "7-5": false
+  },
+  "numbers_phone": {
+   "350": false,
+   "zero": false,
+   "7-5": false
+  },
+  "pitch_sd_semitones": 4.69,
+  "loudness_sd_db": 4.29,
+  "hnr": 8.3,
+  "jitter": 3.51,
+  "shimmer": 12.18,
+  "f0_med": 115.0,
+  "heard_clean": "Stephen Curry just pulled one of the wildest sneaker moves the NBA has ever seen. In his first game after leaving Under Armour, he stepped on the court wearing Nike Kobe's. Not customs, not tributes, actual Kobe's. Fans noticed instantly, people courtside were pointing at his feet before he even touched the ball. But the craziest part? Under Armour executives were in the arena, watching him hoop in a rival brand. And Curry still dropped 30 like nothing happened.",
+  "heard_phone": "Stephen Curry just pulled one of the wildest sneaker moves the NBA has ever seen. In his first game after leaving Under Armour, he stepped on the court wearing Nike Kobe's, not customs, not tributes, actual Kobe's. Fans noticed instantly, people courtside were pointing at his feet before he even touched the ball. The craziest part, Under Armour executives were in the arena watching him hoop in a rival brand and Curry still dropped 30 like nothing happened.",
+  "voice": "X3_lucan_s12",
+  "voice_id": "15CVCzDByBinCIoCblXo",
+  "label": "Lucan Rook (library), speed 1.2",
+  "model": "eleven_multilingual_v2",
+  "settings": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.2
+  },
+  "script": "STORY",
+  "chars": 468
+ },
+ "R3_X3_story_t2": {
+  "name": "R3_X3_story_t2",
+  "dur": 21.46,
+  "speech_s": 21.1,
+  "wpm": 225,
+  "gaps_over_0p3": 8.0,
+  "max_gap": 0.58,
+  "wer_clean": 5.2,
+  "wer_phone": 6.5,
+  "names_clean": {
+   "wembanyama": false,
+   "jamarion": false,
+   "jokic": false,
+   "antetokounmpo": false,
+   "giannis": false
+  },
+  "names_phone": {
+   "wembanyama": false,
+   "jamarion": false,
+   "jokic": false,
+   "antetokounmpo": false,
+   "giannis": false
+  },
+  "numbers_clean": {
+   "350": false,
+   "zero": false,
+   "7-5": false
+  },
+  "numbers_phone": {
+   "350": false,
+   "zero": false,
+   "7-5": false
+  },
+  "pitch_sd_semitones": 4.75,
+  "loudness_sd_db": 4.86,
+  "hnr": 7.8,
+  "jitter": 3.3,
+  "shimmer": 12.5,
+  "f0_med": 112.0,
+  "heard_clean": "Stephen Curry just pulled one of that wildest sneaker moves the NBA has ever seen. In his first game after leaving Under Armour, he stepped on the court wearing Nike Kobe's. Not customs, not tributes, actual Kobe's. Fans noticed instantly, people courtside were pointing at his feet before he even touched the ball. But the craziest part? Under Armour executives were in the arena, watching him hoop in a rival brand. And Curry still dropped 30 like nothing happened.",
+  "heard_phone": "Stephen Curry just pulled one of that wildest sneaker moves the NBA has ever seen. In his first game after leaving Under Armour, he stepped on the court wearing Nike Kobe's. Not customs, not tributes, actual Kobe's. Fans noticed instantly, people courtside were pointing at his feet before he even touched the ball. The craziest part, Under Armour executives were in the arena, watching him hoop in a rival brand. Curry still dropped 30 like nothing happened.",
+  "voice": "X3_lucan_s12",
+  "voice_id": "15CVCzDByBinCIoCblXo",
+  "label": "Lucan Rook (library), speed 1.2",
+  "model": "eleven_multilingual_v2",
+  "settings": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.2
+  },
+  "script": "STORY",
+  "chars": 468
+ },
+ "R3_X4_story_t1": {
+  "name": "R3_X4_story_t1",
+  "dur": 22.2,
+  "speech_s": 21.82,
+  "wpm": 217,
+  "gaps_over_0p3": 7.0,
+  "max_gap": 0.72,
+  "wer_clean": 3.9,
+  "wer_phone": 3.9,
+  "names_clean": {
+   "wembanyama": false,
+   "jamarion": false,
+   "jokic": false,
+   "antetokounmpo": false,
+   "giannis": false
+  },
+  "names_phone": {
+   "wembanyama": false,
+   "jamarion": false,
+   "jokic": false,
+   "antetokounmpo": false,
+   "giannis": false
+  },
+  "numbers_clean": {
+   "350": false,
+   "zero": false,
+   "7-5": false
+  },
+  "numbers_phone": {
+   "350": false,
+   "zero": false,
+   "7-5": false
+  },
+  "pitch_sd_semitones": 3.84,
+  "loudness_sd_db": 3.38,
+  "hnr": 10.5,
+  "jitter": 3.66,
+  "shimmer": 9.97,
+  "f0_med": 99.0,
+  "heard_clean": "Stephen Curry just pulled one of the wildest sneaker moves the NBA has ever seen. In his first game after leaving Under Armour, he stepped on the court wearing Nike Kobe's, not customs, not tributes, actual Kobe's. Fans noticed instantly. People courtside were pointing at his feet before he even touched the ball, but the craziest part? Under Armour executives were in the arena, watching him hoop in a rival brand, and Curry still dropped 30, like nothing happened.",
+  "heard_phone": "Stephen Curry just pulled one of the wildest sneaker moves the NBA has ever seen. In his first game after leaving under Armour, he stepped on the court wearing Nike Kobe's, not customs, not tributes, actual Kobe's. Fans noticed instantly. People courtside were pointing at his feet before he even touched the ball, but the craziest part? Under Armour executives were in the arena, watching him hoop in a rival brand, and Curry still dropped 30 like nothing happened.",
+  "voice": "X4_jon_s12",
+  "voice_id": "MFZUKuGQUsGJPQjTS4wC",
+  "label": "Jon (library), speed 1.2",
+  "model": "eleven_multilingual_v2",
+  "settings": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.2
+  },
+  "script": "STORY",
+  "chars": 468
+ },
+ "R3_X4_story_t2": {
+  "name": "R3_X4_story_t2",
+  "dur": 22.85,
+  "speech_s": 22.42,
+  "wpm": 211,
+  "gaps_over_0p3": 8.0,
+  "max_gap": 0.68,
+  "wer_clean": 5.2,
+  "wer_phone": 5.2,
+  "names_clean": {
+   "wembanyama": false,
+   "jamarion": false,
+   "jokic": false,
+   "antetokounmpo": false,
+   "giannis": false
+  },
+  "names_phone": {
+   "wembanyama": false,
+   "jamarion": false,
+   "jokic": false,
+   "antetokounmpo": false,
+   "giannis": false
+  },
+  "numbers_clean": {
+   "350": false,
+   "zero": false,
+   "7-5": false
+  },
+  "numbers_phone": {
+   "350": false,
+   "zero": false,
+   "7-5": false
+  },
+  "pitch_sd_semitones": 3.86,
+  "loudness_sd_db": 3.32,
+  "hnr": 10.9,
+  "jitter": 3.78,
+  "shimmer": 9.77,
+  "f0_med": 100.0,
+  "heard_clean": "Stephen Curry just pulled one of the wildest sneaker moves the NBA has ever seen. In his first game after leaving Under Armour, he stepped on the court wearing Nike Kobe's. Not customs, not tributes, actual Kobe's. Fans noticed instantly, people courtside were pointing at his feet before he even touched the ball. The craziest part? Under Armour executives were in the arena, watching him hoop in a rival brand, and Curry still dropped 30 like nothing happened.",
+  "heard_phone": "Stephen Curry just pulled one of the wildest sneaker moves the NBA has ever seen. In his first game after leaving under Armour, he stepped on the court wearing Nike Kobe's. Not customs, not tributes, actual Kobe's. Fans noticed instantly, people courtside were pointing at his feet before he even touched the ball. The craziest part? Under Armour executives were in the arena, watching him hoop in a rival brand, and Curry still dropped 30 like nothing happened.",
+  "voice": "X4_jon_s12",
+  "voice_id": "MFZUKuGQUsGJPQjTS4wC",
+  "label": "Jon (library), speed 1.2",
+  "model": "eleven_multilingual_v2",
+  "settings": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.2
+  },
+  "script": "STORY",
+  "chars": 468
+ }
+}

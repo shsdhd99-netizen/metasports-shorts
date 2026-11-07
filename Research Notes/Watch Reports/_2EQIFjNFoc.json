@@ -1,0 +1,211 @@
+{
+ "length_s": 34.0,
+ "topic": "LeBron James pulls an NBA rookie prank on his son Bronny by filling his car with cereal before their first game together.",
+ "lane": "moment",
+ "hook": {
+  "first_words": "In the NBA, rookies are usually pranked by teammates to welcome them to the league,",
+  "first_frame": "A person opening a car door loaded with packing peanuts or cereal in an underground garage.",
+  "on_screen_text_0_3s": "In the NBA, rookies are usually pranked by teammates to welcome them to the league,",
+  "shots_in_first_3s": 3
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 1.0,
+   "shows": "A person opening a car door with cereal falling out",
+   "kind": "action"
+  },
+  {
+   "start_s": 1.0,
+   "end_s": 2.2,
+   "shows": "A car filled with cereal pouring out as door opens",
+   "kind": "action"
+  },
+  {
+   "start_s": 2.2,
+   "end_s": 3.2,
+   "shows": "A basketball player walking in a parking garage near a Porsche",
+   "kind": "action"
+  },
+  {
+   "start_s": 3.2,
+   "end_s": 5.2,
+   "shows": "A car covered entirely in colorful sticky notes",
+   "kind": "action"
+  },
+  {
+   "start_s": 5.2,
+   "end_s": 7.6,
+   "shows": "Hands dumping bags of popcorn into a car",
+   "kind": "action"
+  },
+  {
+   "start_s": 7.6,
+   "end_s": 10.1,
+   "shows": "A rookie walking up to his car with tires removed",
+   "kind": "action"
+  },
+  {
+   "start_s": 10.1,
+   "end_s": 14.7,
+   "shows": "LeBron James smiling and pouring cereal onto a car roof",
+   "kind": "action"
+  },
+  {
+   "start_s": 14.7,
+   "end_s": 21.0,
+   "shows": "Bronny opening his car door and cereal spilling out everywhere",
+   "kind": "action"
+  },
+  {
+   "start_s": 21.0,
+   "end_s": 26.2,
+   "shows": "LeBron pulling up in a Maybach and teasing Bronny",
+   "kind": "action"
+  },
+  {
+   "start_s": 26.2,
+   "end_s": 28.4,
+   "shows": "Bronny reacting in frustration standing by his cereal-filled car",
+   "kind": "action"
+  },
+  {
+   "start_s": 28.4,
+   "end_s": 34.0,
+   "shows": "LeBron telling Bronny to clean up his driveway before rolling up his window",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 11,
+ "average_shot_s": 3.09,
+ "longest_shot_s": 5.6,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 175,
+  "tone": "enthusiastic",
+  "original_audio_under_voice": true
+ },
+ "music": {
+  "present": true,
+  "style": "upbeat hip-hop beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [
+  {
+   "at_s": 1.0,
+   "sound": "whoosh and cereal pouring sound"
+  },
+  {
+   "at_s": 16.0,
+   "sound": "cereal avalanche crash"
+  }
+ ],
+ "captions": {
+  "present": true,
+  "words_per_line": 6,
+  "case": "sentence",
+  "position": "middle",
+  "colours": [
+   "white"
+  ],
+  "highlight_style": "none"
+ },
+ "text_overlays": [
+  {
+   "at_s": 7.7,
+   "text": "@stephcastle"
+  },
+  {
+   "at_s": 7.8,
+   "text": "Damn roooooook 😳"
+  },
+  {
+   "at_s": 14.7,
+   "text": "*Bronny opens car*"
+  },
+  {
+   "at_s": 16.1,
+   "text": "Bronny: Yo!?"
+  },
+  {
+   "at_s": 18.0,
+   "text": "*LeCereal everywhere*"
+  },
+  {
+   "at_s": 20.0,
+   "text": "Bronny: Cmon..."
+  },
+  {
+   "at_s": 21.0,
+   "text": "*LePrankster pulling up*"
+  },
+  {
+   "at_s": 23.0,
+   "text": "Hey, Rook!"
+  },
+  {
+   "at_s": 25.0,
+   "text": "You better not be late."
+  },
+  {
+   "at_s": 26.5,
+   "text": "Yo, are you serious?"
+  },
+  {
+   "at_s": 28.2,
+   "text": "Come on, man."
+  },
+  {
+   "at_s": 29.2,
+   "text": "Aye, clean up my driveway."
+  },
+  {
+   "at_s": 30.5,
+   "text": "It's a mess."
+  },
+  {
+   "at_s": 31.8,
+   "text": "Yo, you too old for this!"
+  },
+  {
+   "at_s": 33.5,
+   "text": "*LeRollsUpWindow*"
+  }
+ ],
+ "cards_or_graphics": 0,
+ "framing": "crop",
+ "ending": {
+  "last_words": "Yo, you too old for this!",
+  "last_frame": "LeBron James rolling up his car window with a smug look on his face",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "In the NBA, rookies are usually pranked by teammates to welcome them to the league, with most pranks usually involving someone's car, as it's tradition to fill it up with popcorn, cereal, and even remove the tires just to see their reaction. But the funniest one has to be when LeBron pranked his own son before their first game together. *Bronny opens car* Bronny: Yo!? *LeCereal everywhere* Bronny: Cmon... *LePrankster pulling up* Hey, Rook! You better not be late. Yo, are you serious? Come on, man. Aye, clean up my driveway. It's a mess. Yo, you too old for this!",
+ "retention_tricks": [
+  "quick cuts between different rookie car pranks",
+  "buildup to the main celebrity prank featuring LeBron and Bronny",
+  "on-screen text reactions and dialogue subtitles"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": false,
+  "ends_on_payoff": true,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "Features high-profile father-son celebrity dynamic between LeBron and Bronny James",
+  "Relatable and humorous take on classic NBA rookie car pranks",
+  "Strong comedic timing with dialogue and facial expressions at the end"
+ ],
+ "_meta": {
+  "source": "_2EQIFjNFoc",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

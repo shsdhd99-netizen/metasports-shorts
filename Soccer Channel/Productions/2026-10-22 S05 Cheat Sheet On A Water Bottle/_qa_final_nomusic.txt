@@ -1,0 +1,53 @@
+PASS
+  warn two cards in a row at shots [33, 34, 39] (the critic flags back-to-back reading)
+  warn hook has no number or conflict/question word in the first 8 words: 'goalkeepers who hid a cheat sheet on their' (state the question the viewer needs answered by 1.5 s)
+  warn footage: shot 1 A01.mp4: soft (edge contrast 48 vs this Short's median 289): motion blur or a poor encode
+  warn footage: shot 5 A05.mp4: soft (edge contrast 48 vs this Short's median 289): motion blur or a poor encode
+  warn footage: shot 6 A06.mp4: soft (edge contrast 74 vs this Short's median 289): motion blur or a poor encode
+  warn footage: shot 12 A12.mp4: soft (edge contrast 30 vs this Short's median 289): motion blur or a poor encode
+  warn footage: shot 13 A13.mp4: soft (edge contrast 22 vs this Short's median 289): motion blur or a poor encode
+  warn footage: shot 14 A14.mp4: soft (edge contrast 61 vs this Short's median 289): motion blur or a poor encode
+  warn footage: shot 19 A19.mp4: soft (edge contrast 86 vs this Short's median 289): motion blur or a poor encode
+  warn footage: shot 21 A21.mp4: soft (edge contrast 22 vs this Short's median 289): motion blur or a poor encode
+  warn footage: shot 28 A30.mp4: blown up 2.67x (1280x720, crop zoom 1.0; house standard is a 1080p source, about 1.8x): note in PACKAGE.md that no better source exists
+  warn footage: shot 28 A30.mp4: soft (edge contrast 36 vs this Short's median 289): motion blur or a poor encode
+  warn footage: shot 29 A31.mp4: blown up 2.67x (1280x720, crop zoom 1.0; house standard is a 1080p source, about 1.8x): note in PACKAGE.md that no better source exists
+  warn footage: shot 29 A31.mp4: soft (edge contrast 21 vs this Short's median 289): motion blur or a poor encode
+  warn footage: shot 31 A33.mp4: blown up 2.67x (1280x720, crop zoom 1.0; house standard is a 1080p source, about 1.8x): note in PACKAGE.md that no better source exists
+  warn footage: shot 31 A33.mp4: soft (edge contrast 64 vs this Short's median 289): motion blur or a poor encode
+  warn footage: shot 32 A34.mp4: soft (edge contrast 95 vs this Short's median 289): motion blur or a poor encode
+  warn footage: source size unknown for 2 clip(s) (A39.mp4, A40.mp4): cut new clips with broll.py cut (it logs it) or add 'source WxH' to their notes
+  warn export: the export says what the script says (96% word match after number folding); 9 difference(s) to listen for (speech-to-text mishears names): heard 'hit' vs script 'hid'; heard 'columbia' vs script 'colombia'; heard 'columbia' vs script 'colombia'; heard 'columbia's' vs script 'colombia's'; heard 'oribe' vs script 'uribe'; heard 'columbia's' vs script 'colombia's'; heard 'baca' vs script 'bacca'; heard 'dyer' vs script 'dier'
+  ok   every shot has a kind
+  ok   length 59.7s (story format)
+  ok   length 59.7s in 58-88
+  ok   voice starts at once
+  ok   opens on 'Goalkeepers'
+  ok   2 shots in first 3 s (title card holds)
+  ok   real action footage in first 3 s
+  ok   hook line has a name/number/stakes
+  ok   no shot too long
+  ok   average shot 1.5s
+  ok   most-used clip A07.mp4 6%
+  ok   40 source clips
+  ok   talking head 20%
+  ok   b-roll 56%
+  ok   cards 24%
+  ok   no repeated neighbours
+  ok   no footage shown twice
+  ok   no dead air inside the speech
+  ok   loudness -14.3 LUFS
+  ok   no frozen footage
+  ok   no black frames
+  ok   quote shots play at normal speed (lip sync)
+  ok   no frozen holds
+  ok   every clip has a source-log row
+  ok   every clip verified against the narration
+  ok   export: captions match script.txt word for word (232 words)
+  ok   export: no overlapping captions
+  ok   export: every spoken word is captioned while it is said
+  ok   export: captions centred at 50%-50% of the height (house band 45-65%)
+  ok   export: widest caption about 807 px (under 820: clear of the right-hand buttons)
+  ok   export: picture and sound both 59.70 s
+  ok   export: voice.mp3: no clipping (peak -2.6 dBFS)
+  ok   export: export audio: no clipping (peak -1.6 dBFS)

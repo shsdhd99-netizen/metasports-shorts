@@ -1,0 +1,1 @@
+2026-10-05 32 Why Did Spurs Lose A   PASS HNR   8.0 jit 2.62 shim 10.43 jumps/s 0.00 clicks/min 397.9 hf%  4.91 f0 195 dur 23.98  

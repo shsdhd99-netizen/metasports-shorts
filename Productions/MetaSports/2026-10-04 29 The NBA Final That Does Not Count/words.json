@@ -1,0 +1,467 @@
+[
+ {
+  "word": "only",
+  "start": 0.0,
+  "end": 0.235
+ },
+ {
+  "word": "nine",
+  "start": 0.299,
+  "end": 0.481
+ },
+ {
+  "word": "thousand",
+  "start": 0.513,
+  "end": 0.812
+ },
+ {
+  "word": "one",
+  "start": 0.877,
+  "end": 1.016
+ },
+ {
+  "word": "hundred",
+  "start": 1.048,
+  "end": 1.283
+ },
+ {
+  "word": "seats",
+  "start": 1.336,
+  "end": 1.54
+ },
+ {
+  "word": "will",
+  "start": 1.572,
+  "end": 1.689
+ },
+ {
+  "word": "host",
+  "start": 1.732,
+  "end": 1.903
+ },
+ {
+  "word": "an",
+  "start": 1.946,
+  "end": 1.988
+ },
+ {
+  "word": "NBA",
+  "start": 2.01,
+  "end": 2.309
+ },
+ {
+  "word": "final.",
+  "start": 2.363,
+  "end": 2.715
+ },
+ {
+  "word": "But",
+  "start": 2.736,
+  "end": 2.876
+ },
+ {
+  "word": "it",
+  "start": 2.919,
+  "end": 2.982
+ },
+ {
+  "word": "is",
+  "start": 3.026,
+  "end": 3.1
+ },
+ {
+  "word": "not",
+  "start": 3.154,
+  "end": 3.271
+ },
+ {
+  "word": "a",
+  "start": 3.314,
+  "end": 3.335
+ },
+ {
+  "word": "high",
+  "start": 3.378,
+  "end": 3.517
+ },
+ {
+  "word": "school",
+  "start": 3.538,
+  "end": 3.741
+ },
+ {
+  "word": "gym.",
+  "start": 3.784,
+  "end": 4.062
+ },
+ {
+  "word": "Hinkle",
+  "start": 4.137,
+  "end": 4.426
+ },
+ {
+  "word": "Fieldhouse",
+  "start": 4.479,
+  "end": 4.928
+ },
+ {
+  "word": "opened",
+  "start": 4.971,
+  "end": 5.227
+ },
+ {
+  "word": "in",
+  "start": 5.27,
+  "end": 5.324
+ },
+ {
+  "word": "nineteen",
+  "start": 5.366,
+  "end": 5.644
+ },
+ {
+  "word": "twenty-eight.",
+  "start": 5.676,
+  "end": 6.2
+ },
+ {
+  "word": "It",
+  "start": 6.233,
+  "end": 6.35
+ },
+ {
+  "word": "did",
+  "start": 6.403,
+  "end": 6.553
+ },
+ {
+  "word": "host",
+  "start": 6.606,
+  "end": 6.788
+ },
+ {
+  "word": "the",
+  "start": 6.81,
+  "end": 6.873
+ },
+ {
+  "word": "nineteen",
+  "start": 6.927,
+  "end": 7.216
+ },
+ {
+  "word": "fifty-four",
+  "start": 7.269,
+  "end": 7.675
+ },
+ {
+  "word": "Indiana",
+  "start": 7.729,
+  "end": 8.071
+ },
+ {
+  "word": "high",
+  "start": 8.125,
+  "end": 8.264
+ },
+ {
+  "word": "school",
+  "start": 8.285,
+  "end": 8.477
+ },
+ {
+  "word": "final.",
+  "start": 8.52,
+  "end": 8.872
+ },
+ {
+  "word": "The",
+  "start": 8.905,
+  "end": 9.011
+ },
+ {
+  "word": "NBA",
+  "start": 9.065,
+  "end": 9.354
+ },
+ {
+  "word": "still",
+  "start": 9.407,
+  "end": 9.589
+ },
+ {
+  "word": "booked",
+  "start": 9.642,
+  "end": 9.835
+ },
+ {
+  "word": "December",
+  "start": 9.888,
+  "end": 10.208
+ },
+ {
+  "word": "eleventh",
+  "start": 10.262,
+  "end": 10.593
+ },
+ {
+  "word": "there.",
+  "start": 10.626,
+  "end": 10.86
+ },
+ {
+  "word": "For",
+  "start": 10.904,
+  "end": 11.021
+ },
+ {
+  "word": "three",
+  "start": 11.064,
+  "end": 11.256
+ },
+ {
+  "word": "years",
+  "start": 11.288,
+  "end": 11.47
+ },
+ {
+  "word": "that",
+  "start": 11.502,
+  "end": 11.62
+ },
+ {
+  "word": "final",
+  "start": 11.662,
+  "end": 11.876
+ },
+ {
+  "word": "sat",
+  "start": 11.919,
+  "end": 12.047
+ },
+ {
+  "word": "in",
+  "start": 12.079,
+  "end": 12.122
+ },
+ {
+  "word": "Las",
+  "start": 12.165,
+  "end": 12.283
+ },
+ {
+  "word": "Vegas.",
+  "start": 12.336,
+  "end": 12.678
+ },
+ {
+  "word": "This",
+  "start": 12.699,
+  "end": 12.859
+ },
+ {
+  "word": "year",
+  "start": 12.903,
+  "end": 13.031
+ },
+ {
+  "word": "the",
+  "start": 13.074,
+  "end": 13.137
+ },
+ {
+  "word": "higher",
+  "start": 13.181,
+  "end": 13.373
+ },
+ {
+  "word": "seed",
+  "start": 13.426,
+  "end": 13.576
+ },
+ {
+  "word": "keeps",
+  "start": 13.629,
+  "end": 13.811
+ },
+ {
+  "word": "the",
+  "start": 13.844,
+  "end": 13.907
+ },
+ {
+  "word": "semis",
+  "start": 13.95,
+  "end": 14.206
+ },
+ {
+  "word": "at",
+  "start": 14.26,
+  "end": 14.345
+ },
+ {
+  "word": "home.",
+  "start": 14.399,
+  "end": 14.623
+ },
+ {
+  "word": "Only",
+  "start": 14.656,
+  "end": 14.837
+ },
+ {
+  "word": "the",
+  "start": 14.89,
+  "end": 14.955
+ },
+ {
+  "word": "championship",
+  "start": 14.987,
+  "end": 15.521
+ },
+ {
+  "word": "leaves.",
+  "start": 15.575,
+  "end": 15.906
+ },
+ {
+  "word": "It",
+  "start": 15.928,
+  "end": 16.045
+ },
+ {
+  "word": "leaves",
+  "start": 16.098,
+  "end": 16.313
+ },
+ {
+  "word": "for",
+  "start": 16.366,
+  "end": 16.473
+ },
+ {
+  "word": "Butler,",
+  "start": 16.527,
+  "end": 16.836
+ },
+ {
+  "word": "in",
+  "start": 16.858,
+  "end": 16.933
+ },
+ {
+  "word": "Indianapolis.",
+  "start": 16.986,
+  "end": 17.681
+ },
+ {
+  "word": "Nine",
+  "start": 17.735,
+  "end": 17.916
+ },
+ {
+  "word": "thousand",
+  "start": 17.937,
+  "end": 18.215
+ },
+ {
+  "word": "one",
+  "start": 18.269,
+  "end": 18.375
+ },
+ {
+  "word": "hundred",
+  "start": 18.408,
+  "end": 18.621
+ },
+ {
+  "word": "people",
+  "start": 18.665,
+  "end": 18.899
+ },
+ {
+  "word": "will",
+  "start": 18.921,
+  "end": 19.049
+ },
+ {
+  "word": "be",
+  "start": 19.092,
+  "end": 19.166
+ },
+ {
+  "word": "in",
+  "start": 19.199,
+  "end": 19.252
+ },
+ {
+  "word": "the",
+  "start": 19.284,
+  "end": 19.349
+ },
+ {
+  "word": "building.",
+  "start": 19.391,
+  "end": 19.744
+ },
+ {
+  "word": "Every",
+  "start": 19.776,
+  "end": 19.968
+ },
+ {
+  "word": "other",
+  "start": 20.012,
+  "end": 20.15
+ },
+ {
+  "word": "Cup",
+  "start": 20.203,
+  "end": 20.342
+ },
+ {
+  "word": "game",
+  "start": 20.396,
+  "end": 20.557
+ },
+ {
+  "word": "counts",
+  "start": 20.588,
+  "end": 20.792
+ },
+ {
+  "word": "in",
+  "start": 20.824,
+  "end": 20.866
+ },
+ {
+  "word": "the",
+  "start": 20.898,
+  "end": 20.963
+ },
+ {
+  "word": "standings.",
+  "start": 20.995,
+  "end": 21.358
+ },
+ {
+  "word": "This",
+  "start": 21.38,
+  "end": 21.54
+ },
+ {
+  "word": "one",
+  "start": 21.594,
+  "end": 21.711
+ },
+ {
+  "word": "does",
+  "start": 21.743,
+  "end": 21.882
+ },
+ {
+  "word": "not.",
+  "start": 21.935,
+  "end": 22.32
+ }
+]

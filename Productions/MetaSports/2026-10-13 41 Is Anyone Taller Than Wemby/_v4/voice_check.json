@@ -1,0 +1,46 @@
+{
+ "verdict": "CHECK",
+ "wpm": 227,
+ "issues": [],
+ "notes": [
+  " 5.82s  script \"\" but heard \"foot\"",
+  " 1.40s  \"wembanyama\" heard as \"wimbanyama\" (close; check the name)",
+  " 4.44s  \"jamarion\" heard as \"jamarian\" (close; check the name)",
+  " 8.84s  \"the\" heard as \"\" (close; check the name)",
+  "19.88s  \"wembanyama 3 100 and 50\" heard as \"wimbanyama 350\" (close; check the name)",
+  "13.21s  very quiet word \"it's\" (-12 dB)"
+ ],
+ "heard": "This man is listed taller than Victor Wimbanyama, and he's never played an NBA game that counts. Jamarian Sharp listed seven foot five. Dallas brought him to camp twice, cut him twice. Clippers signed him this summer, cut him in September. On Monday, Toronto gave him one more camp, and it's not his defense. He led the G -League in blocks and won defensive player of the year. The knock on him is offense. Three point tries last season, Wimbanyama 350, Sharp in the G -League zero.",
+ "mismatches": [
+  {
+   "at": 1.4,
+   "script": "wembanyama",
+   "heard": "wimbanyama",
+   "similar": 0.9
+  },
+  {
+   "at": 4.44,
+   "script": "jamarion",
+   "heard": "jamarian",
+   "similar": 0.88
+  },
+  {
+   "at": 5.82,
+   "script": "",
+   "heard": "foot",
+   "similar": 0.0
+  },
+  {
+   "at": 8.84,
+   "script": "the",
+   "heard": "",
+   "similar": 1.0
+  },
+  {
+   "at": 19.88,
+   "script": "wembanyama 3 100 and 50",
+   "heard": "wimbanyama 350",
+   "similar": 0.75
+  }
+ ]
+}

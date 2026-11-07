@@ -1,0 +1,105 @@
+{
+ "length_s": 10.0,
+ "topic": "A basketball player playfully dumps a glass of green beads on the floor after intrusive thoughts take over.",
+ "lane": "moment",
+ "hook": {
+  "first_words": "I ain't gonna lie",
+  "first_frame": "A smiling man holding a glass full of small green beads, looking at the camera.",
+  "on_screen_text_0_3s": "I AIN'T GONNA LIE I'M SORRY I LOVE YOU",
+  "shots_in_first_3s": 1
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 5.0,
+   "shows": "A man smiling while holding a glass of green beads",
+   "kind": "face"
+  },
+  {
+   "start_s": 5.0,
+   "end_s": 8.0,
+   "shows": "Close-up of him dumping the beads on the floor",
+   "kind": "action"
+  },
+  {
+   "start_s": 8.0,
+   "end_s": 10.0,
+   "shows": "Man laughing and showing the empty glass",
+   "kind": "face"
+  }
+ ],
+ "shot_count": 3,
+ "average_shot_s": 3.33,
+ "longest_shot_s": 5.0,
+ "voice": {
+  "type": "human",
+  "gender": "male",
+  "words_per_minute_estimate": 180,
+  "tone": "playful and joking",
+  "original_audio_under_voice": true
+ },
+ "music": {
+  "present": false,
+  "style": "none",
+  "level_vs_voice": "none",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [
+  {
+   "at_s": 5.0,
+   "sound": "beads spilling and clattering"
+  },
+  {
+   "at_s": 7.0,
+   "sound": "laughter"
+  }
+ ],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "ALL CAPS",
+  "position": "lower-middle",
+  "colours": "white",
+  "highlight_style": "none"
+ },
+ "text_overlays": [
+  {
+   "at_s": 4.5,
+   "text": "*LETS INTRUSIVE THOUGHTS WIN*"
+  }
+ ],
+ "cards_or_graphics": 0,
+ "framing": "crop",
+ "ending": {
+  "last_words": "Zero and",
+  "last_frame": "The man laughing and holding up an empty glass.",
+  "loops_to_start": true,
+  "call_to_action": "none"
+ },
+ "script": "I ain't gonna lie. I'm sorry, I love you so much, but I got to. Zero, Melo. It's zero.",
+ "retention_tricks": [
+  "rapid action sequence at the midpoint",
+  "text overlay explaining the joke",
+  "humorous unexpected prank"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": false,
+  "ends_on_payoff": true,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "Surprise comedic action that fulfills the setup text overlay.",
+  "Genuine laughter and playful expression from the athlete.",
+  "Short and snappy pacing keeping the viewer engaged throughout."
+ ],
+ "_meta": {
+  "source": "bd7VEg1Z30s",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

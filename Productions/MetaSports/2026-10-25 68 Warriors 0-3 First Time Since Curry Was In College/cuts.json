@@ -1,0 +1,333 @@
+{
+ "sources": {
+  "P": "src/curry_post1023.mp4",
+  "O": "src/curry_opener.mp4",
+  "M3": "src/curry3_mem.mp4",
+  "D": "src/duo15.mp4",
+  "X": "src/phx_hl.mp4",
+  "M": "src/mem_hl.mp4"
+ },
+ "promise": [
+  "0-3",
+  "oh"
+ ],
+ "shots": [
+  {
+   "clip": "W01",
+   "src": "P",
+   "at": 360.4,
+   "zoom": 1.4,
+   "y": 0.15,
+   "x": 0.46,
+   "kind": "face",
+   "why": "Curry at the podium after the Oct 23 loss to Memphis (Warriors postgame, team site). Words: 0-3",
+   "overlay": [
+    {
+     "text": "0-3",
+     "size": 260,
+     "color": "red",
+     "y": 300,
+     "start": 0.05,
+     "end": 1.62,
+     "sub": "WARRIORS"
+    }
+   ],
+   "len": 1.97
+  },
+  {
+   "clip": "W02",
+   "src": "X",
+   "at": 113.0,
+   "blurfit": true,
+   "kind": "action",
+   "anchor": "for the first",
+   "why": "Warriors at Suns, Sat Oct 24 2026, 4th quarter, Suns lead (Warriors highlights, team site). Words: 19 YEARS",
+   "overlay": [
+    {
+     "text": "19 YEARS",
+     "size": 190,
+     "color": "white",
+     "y": 330,
+     "start": 0.8,
+     "end": 1.75,
+     "sub": "FIRST TIME IN"
+    }
+   ],
+   "len": 2.08
+  },
+  {
+   "clip": "W03",
+   "src": "O",
+   "at": 8.1,
+   "x": 0.56,
+   "kind": "face",
+   "anchor": "The last time",
+   "why": "Curry close-up, season opener at the Lakers, Oct 21 2026 (Warriors team site)",
+   "len": 1.16
+  },
+  {
+   "clip": "W04",
+   "src": "D",
+   "at": 30.0,
+   "x": 0.88,
+   "zoom": 1.2,
+   "y": 0.2,
+   "kind": "face",
+   "anchor": "Steph Curry was",
+   "why": "ILLUSTRATIVE: a young Curry laughing on the Warriors bench (Warriors Studio duo film, archive footage)",
+   "len": 1.81
+  },
+  {
+   "clip": "W05",
+   "src": "D",
+   "at": 12.95,
+   "x": 0.4,
+   "kind": "action",
+   "anchor": "Back in",
+   "why": "ILLUSTRATIVE: a Warriors home crowd and a shot in flight (Warriors Studio duo film, archive). Words: 2007",
+   "overlay": [
+    {
+     "text": "2007",
+     "size": 230,
+     "color": "white",
+     "y": 330,
+     "start": 0.05,
+     "end": 1.05
+    }
+   ],
+   "zoom": 1.3,
+   "y": 0.0,
+   "len": 1.38
+  },
+  {
+   "clip": "W06",
+   "src": "X",
+   "at": 44.0,
+   "blurfit": true,
+   "kind": "action",
+   "anchor": "Golden State lost",
+   "why": "ILLUSTRATIVE: Warriors at Suns, Sat Oct 24 2026 (2007 has no footage here). Words: 0-6 START, 2007-08 WARRIORS",
+   "overlay": [
+    {
+     "text": "0-6 START",
+     "size": 170,
+     "color": "red",
+     "y": 330,
+     "start": 0.4,
+     "end": 1.9,
+     "sub": "2007-08 WARRIORS"
+    }
+   ],
+   "len": 2.23
+  },
+  {
+   "clip": "W07",
+   "src": "D",
+   "at": 4.0,
+   "x": 0.5,
+   "zoom": 1.3,
+   "y": 0.1,
+   "kind": "face",
+   "anchor": "while Curry",
+   "why": "Curry interview close-up (Warriors Studio duo film, Oct 2026). Words: DAVIDSON, SOPHOMORE 2007-08",
+   "overlay": [
+    {
+     "text": "DAVIDSON",
+     "size": 170,
+     "color": "white",
+     "y": 330,
+     "start": 0.55,
+     "end": 1.68,
+     "sub": "SOPHOMORE, 2007-08"
+    }
+   ],
+   "len": 2.01
+  },
+  {
+   "clip": "W08",
+   "src": "D",
+   "at": 103.5,
+   "x": 0.6,
+   "kind": "action",
+   "anchor": "In his",
+   "why": "Curry and Draymond Green on court (Warriors Studio duo film). Words: 17 SEASONS",
+   "overlay": [
+    {
+     "text": "17 SEASONS",
+     "size": 170,
+     "color": "white",
+     "y": 330,
+     "start": 0.25,
+     "end": 1.4
+    }
+   ],
+   "zoom": 1.25,
+   "y": 0.0,
+   "len": 1.73
+  },
+  {
+   "clip": "W09",
+   "src": "D",
+   "at": 131.3,
+   "x": 0.85,
+   "kind": "action",
+   "anchor": "they never",
+   "why": "Curry celebrating (Warriors Studio duo film). Words: NEVER 0-3",
+   "overlay": [
+    {
+     "text": "NEVER 0-3",
+     "size": 170,
+     "color": "green",
+     "y": 330,
+     "start": 0.4,
+     "end": 1.26
+    }
+   ],
+   "zoom": 1.25,
+   "y": 0.0,
+   "len": 1.58
+  },
+  {
+   "clip": "W10",
+   "src": "O",
+   "at": 15.2,
+   "x": 0.65,
+   "kind": "face",
+   "anchor": "So is Curry",
+   "why": "Curry close-up, season opener at the Lakers, Oct 21 2026",
+   "speed": 0.85,
+   "len": 1.76
+  },
+  {
+   "clip": "W11",
+   "src": "O",
+   "at": 10.8,
+   "x": 0.5,
+   "kind": "action",
+   "anchor": "He scored",
+   "why": "Curry (#30) at the Lakers, Oct 21 2026, where he scored 23 (Warriors top plays). Words: 23 PTS",
+   "overlay": [
+    {
+     "text": "23 PTS",
+     "size": 200,
+     "color": "orange",
+     "y": 330,
+     "start": 0.3,
+     "end": 0.78,
+     "sub": "AT LAKERS"
+    }
+   ],
+   "len": 1.07
+  },
+  {
+   "clip": "W12",
+   "src": "M3",
+   "at": 15.85,
+   "x": 0.55,
+   "kind": "action",
+   "anchor": "and 24",
+   "why": "Curry (#30) after his three vs Memphis, Oct 23 2026, the night he scored 24 (team site), 0.88x. Words: 24 PTS",
+   "overlay": [
+    {
+     "text": "24 PTS",
+     "size": 200,
+     "color": "orange",
+     "y": 330,
+     "start": 0.05,
+     "end": 1.65,
+     "sub": "VS MEMPHIS"
+    }
+   ],
+   "speed": 0.75,
+   "len": 1.99
+  },
+  {
+   "clip": "W13",
+   "src": "M",
+   "at": 112.0,
+   "blurfit": true,
+   "kind": "action",
+   "anchor": "Then the Warriors",
+   "why": "Warriors vs Memphis, Oct 23 2026, 4th quarter (the highlights stop before the collapse). Words: 12-POINT LEAD, LAST 3:47",
+   "overlay": [
+    {
+     "text": "12-POINT LEAD",
+     "size": 150,
+     "color": "white",
+     "y": 330,
+     "start": 0.6,
+     "end": 1.85,
+     "sub": "WITH 3:47 LEFT"
+    }
+   ],
+   "len": 2.18
+  },
+  {
+   "clip": "W14",
+   "src": "M",
+   "at": 57.42,
+   "x": 0.62,
+   "kind": "face",
+   "anchor": "in the last",
+   "why": "Grizzlies bench, Oct 23 2026 (Warriors highlights), 0.62x. Words: 17-0 RUN",
+   "overlay": [
+    {
+     "text": "17-0 RUN",
+     "size": 190,
+     "color": "red",
+     "y": 330,
+     "start": 0.2,
+     "end": 1.5,
+     "sub": "MEMPHIS"
+    }
+   ],
+   "speed": 0.62,
+   "len": 1.83
+  },
+  {
+   "clip": "W15",
+   "src": "X",
+   "at": 79.86,
+   "x": 0.45,
+   "kind": "face",
+   "anchor": "And on Saturday",
+   "why": "ILLUSTRATIVE: the Warriors bench at Phoenix, Sat Oct 24 2026 (Curry rested his right knee; he is not in this shot), 0.42x. Words: CURRY: OUT",
+   "overlay": [
+    {
+     "text": "CURRY: OUT",
+     "size": 170,
+     "color": "white",
+     "y": 330,
+     "start": 0.6,
+     "end": 1.9,
+     "sub": "SATURDAY, RIGHT KNEE"
+    }
+   ],
+   "speed": 0.42,
+   "len": 2.24
+  },
+  {
+   "clip": "W16",
+   "src": "P",
+   "at": 398.0,
+   "zoom": 1.4,
+   "y": 0.15,
+   "x": 0.46,
+   "kind": "face",
+   "anchor": "19 years",
+   "why": "Curry at the podium after the Oct 23 loss (Warriors postgame). Words: 0-3, FIRST TIME IN 19 YEARS",
+   "overlay": [
+    {
+     "text": "0-3",
+     "size": 260,
+     "color": "red",
+     "y": 300,
+     "start": 0.4,
+     "end": 1.9,
+     "sub": "FIRST TIME IN 19 YEARS"
+    }
+   ],
+   "len": 1.99
+  }
+ ]
+}

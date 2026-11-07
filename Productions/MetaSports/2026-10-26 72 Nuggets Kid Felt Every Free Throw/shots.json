@@ -1,0 +1,85 @@
+[
+ {
+  "clip": "K01.mp4",
+  "kind": "action",
+  "why": "The young Nuggets fan screaming with his fists clenched after Murray's free throw (NBA on X, Pelicans at Nuggets, Sat Oct 24 2026) (the kid's reaction is the moment this Short is about)",
+  "start": 0.0
+ },
+ {
+  "clip": "K02.mp4",
+  "kind": "action",
+  "why": "Nuggets vs Pelicans in Denver, late 4th quarter (same post)",
+  "anchor": "Denver had",
+  "start": 3.04
+ },
+ {
+  "clip": "K03.mp4",
+  "kind": "action",
+  "why": "Jamal Murray at the line for the first free throw (scorebug NOP 126 DEN 124, 16.8 left), framed tight on Murray",
+  "anchor": "Now Murray",
+  "start": 5.38
+ },
+ {
+  "clip": "K04.mp4",
+  "kind": "face",
+  "why": "Murray close-up at the line, slowed",
+  "anchor": "with 16.8",
+  "start": 7.38
+ },
+ {
+  "clip": "K05.mp4",
+  "kind": "face",
+  "why": "Split screen: Murray at the line above, the kid praying with his hands over his mouth below (NBA on X)",
+  "anchor": "The kid prayed",
+  "start": 9.22
+ },
+ {
+  "clip": "K06.mp4",
+  "kind": "action",
+  "why": "First free throw goes in",
+  "anchor": "First free throw",
+  "start": 10.85
+ },
+ {
+  "clip": "K07.mp4",
+  "kind": "face",
+  "why": "The kid screaming",
+  "anchor": "He screamed",
+  "start": 12.08
+ },
+ {
+  "clip": "K08.mp4",
+  "kind": "action",
+  "why": "Second free throw goes in",
+  "anchor": "Second one",
+  "start": 12.92
+ },
+ {
+  "clip": "K09.mp4",
+  "kind": "action",
+  "why": "Split screen after the second free throw: scorebug NOP 126 DEN 126, the kid reacting below",
+  "anchor": "Tied at",
+  "start": 13.98
+ },
+ {
+  "clip": "K10.mp4",
+  "kind": "face",
+  "why": "The kid covering his face, close to tears",
+  "anchor": "He looked",
+  "start": 15.2
+ },
+ {
+  "clip": "K11.mp4",
+  "kind": "action",
+  "why": "Denver fans celebrating, then the kid looking up",
+  "anchor": "Denver won",
+  "start": 16.45
+ },
+ {
+  "clip": "K12.mp4",
+  "kind": "face",
+  "why": "The kid clapping and looking up; ends on him and loops to frame 1",
+  "anchor": "its biggest",
+  "start": 19.62
+ }
+]

@@ -1,0 +1,472 @@
+[
+ {
+  "word": "All",
+  "start": 0.0,
+  "end": 0.174
+ },
+ {
+  "word": "three",
+  "start": 0.232,
+  "end": 0.43
+ },
+ {
+  "word": "Thunder",
+  "start": 0.476,
+  "end": 0.685
+ },
+ {
+  "word": "players",
+  "start": 0.708,
+  "end": 0.94
+ },
+ {
+  "word": "named",
+  "start": 0.975,
+  "end": 1.115
+ },
+ {
+  "word": "Williams",
+  "start": 1.138,
+  "end": 1.486
+ },
+ {
+  "word": "got",
+  "start": 1.533,
+  "end": 1.649
+ },
+ {
+  "word": "a",
+  "start": 1.672,
+  "end": 1.695
+ },
+ {
+  "word": "technical",
+  "start": 1.741,
+  "end": 2.055
+ },
+ {
+  "word": "foul,",
+  "start": 2.136,
+  "end": 2.519
+ },
+ {
+  "word": "on",
+  "start": 2.543,
+  "end": 2.624
+ },
+ {
+  "word": "the",
+  "start": 2.659,
+  "end": 2.728
+ },
+ {
+  "word": "same",
+  "start": 2.798,
+  "end": 3.03
+ },
+ {
+  "word": "play.",
+  "start": 3.065,
+  "end": 3.437
+ },
+ {
+  "word": "It",
+  "start": 3.46,
+  "end": 3.553
+ },
+ {
+  "word": "started",
+  "start": 3.599,
+  "end": 3.913
+ },
+ {
+  "word": "when",
+  "start": 3.936,
+  "end": 4.029
+ },
+ {
+  "word": "De'Aaron",
+  "start": 4.063,
+  "end": 4.4
+ },
+ {
+  "word": "Fox",
+  "start": 4.493,
+  "end": 4.783
+ },
+ {
+  "word": "threw",
+  "start": 4.841,
+  "end": 5.039
+ },
+ {
+  "word": "Chet",
+  "start": 5.108,
+  "end": 5.283
+ },
+ {
+  "word": "Holmgren",
+  "start": 5.329,
+  "end": 5.631
+ },
+ {
+  "word": "to",
+  "start": 5.666,
+  "end": 5.712
+ },
+ {
+  "word": "the",
+  "start": 5.759,
+  "end": 5.828
+ },
+ {
+  "word": "floor.",
+  "start": 5.875,
+  "end": 6.246
+ },
+ {
+  "word": "Jaylin",
+  "start": 6.293,
+  "end": 6.641
+ },
+ {
+  "word": "Williams",
+  "start": 6.699,
+  "end": 7.07
+ },
+ {
+  "word": "shoved",
+  "start": 7.117,
+  "end": 7.419
+ },
+ {
+  "word": "Fox.",
+  "start": 7.477,
+  "end": 7.93
+ },
+ {
+  "word": "Victor",
+  "start": 7.964,
+  "end": 8.185
+ },
+ {
+  "word": "Wembanyama",
+  "start": 8.22,
+  "end": 8.812
+ },
+ {
+  "word": "got",
+  "start": 8.87,
+  "end": 9.033
+ },
+ {
+  "word": "into",
+  "start": 9.056,
+  "end": 9.183
+ },
+ {
+  "word": "a",
+  "start": 9.253,
+  "end": 9.276
+ },
+ {
+  "word": "shoving",
+  "start": 9.334,
+  "end": 9.636
+ },
+ {
+  "word": "match",
+  "start": 9.683,
+  "end": 9.845
+ },
+ {
+  "word": "with",
+  "start": 9.868,
+  "end": 9.961
+ },
+ {
+  "word": "Jaylin.",
+  "start": 9.996,
+  "end": 10.472
+ },
+ {
+  "word": "Then",
+  "start": 10.495,
+  "end": 10.634
+ },
+ {
+  "word": "Jalen",
+  "start": 10.692,
+  "end": 10.971
+ },
+ {
+  "word": "Williams",
+  "start": 11.017,
+  "end": 11.319
+ },
+ {
+  "word": "and",
+  "start": 11.343,
+  "end": 11.412
+ },
+ {
+  "word": "Kenrich",
+  "start": 11.459,
+  "end": 11.714
+ },
+ {
+  "word": "Williams",
+  "start": 11.749,
+  "end": 12.028
+ },
+ {
+  "word": "jumped",
+  "start": 12.086,
+  "end": 12.295
+ },
+ {
+  "word": "in.",
+  "start": 12.353,
+  "end": 12.573
+ },
+ {
+  "word": "Fox",
+  "start": 12.62,
+  "end": 12.84
+ },
+ {
+  "word": "got",
+  "start": 12.898,
+  "end": 13.014
+ },
+ {
+  "word": "a",
+  "start": 13.049,
+  "end": 13.072
+ },
+ {
+  "word": "flagrant.",
+  "start": 13.119,
+  "end": 13.514
+ },
+ {
+  "word": "Wemby",
+  "start": 13.537,
+  "end": 13.734
+ },
+ {
+  "word": "got",
+  "start": 13.781,
+  "end": 13.897
+ },
+ {
+  "word": "a",
+  "start": 13.932,
+  "end": 13.955
+ },
+ {
+  "word": "technical.",
+  "start": 14.013,
+  "end": 14.477
+ },
+ {
+  "word": "And",
+  "start": 14.5,
+  "end": 14.605
+ },
+ {
+  "word": "so",
+  "start": 14.651,
+  "end": 14.756
+ },
+ {
+  "word": "did",
+  "start": 14.802,
+  "end": 14.884
+ },
+ {
+  "word": "all",
+  "start": 14.918,
+  "end": 15.0
+ },
+ {
+  "word": "three",
+  "start": 15.046,
+  "end": 15.197
+ },
+ {
+  "word": "Williamses.",
+  "start": 15.22,
+  "end": 15.743
+ },
+ {
+  "word": "But",
+  "start": 15.778,
+  "end": 15.894
+ },
+ {
+  "word": "Wemby's",
+  "start": 15.94,
+  "end": 16.219
+ },
+ {
+  "word": "night",
+  "start": 16.265,
+  "end": 16.405
+ },
+ {
+  "word": "got",
+  "start": 16.439,
+  "end": 16.602
+ },
+ {
+  "word": "worse.",
+  "start": 16.66,
+  "end": 17.113
+ },
+ {
+  "word": "He",
+  "start": 17.136,
+  "end": 17.217
+ },
+ {
+  "word": "missed",
+  "start": 17.264,
+  "end": 17.438
+ },
+ {
+  "word": "his",
+  "start": 17.461,
+  "end": 17.531
+ },
+ {
+  "word": "first",
+  "start": 17.589,
+  "end": 17.786
+ },
+ {
+  "word": "12",
+  "start": 17.809,
+  "end": 18.042
+ },
+ {
+  "word": "shots.",
+  "start": 18.065,
+  "end": 18.808
+ },
+ {
+  "word": "He",
+  "start": 19.228,
+  "end": 19.332
+ },
+ {
+  "word": "finished",
+  "start": 19.391,
+  "end": 19.611
+ },
+ {
+  "word": "1",
+  "start": 19.658,
+  "end": 19.785
+ },
+ {
+  "word": "for",
+  "start": 19.808,
+  "end": 19.878
+ },
+ {
+  "word": "13.",
+  "start": 19.925,
+  "end": 20.517
+ },
+ {
+  "word": "The",
+  "start": 20.54,
+  "end": 20.621
+ },
+ {
+  "word": "Thunder",
+  "start": 20.668,
+  "end": 20.946
+ },
+ {
+  "word": "won,",
+  "start": 21.039,
+  "end": 21.364
+ },
+ {
+  "word": "116",
+  "start": 21.422,
+  "end": 22.084
+ },
+ {
+  "word": "to",
+  "start": 22.142,
+  "end": 22.189
+ },
+ {
+  "word": "104,",
+  "start": 22.281,
+  "end": 23.036
+ },
+ {
+  "word": "and",
+  "start": 23.059,
+  "end": 23.164
+ },
+ {
+  "word": "SGA",
+  "start": 23.233,
+  "end": 23.768
+ },
+ {
+  "word": "had",
+  "start": 23.849,
+  "end": 23.988
+ },
+ {
+  "word": "32.",
+  "start": 24.035,
+  "end": 24.696
+ },
+ {
+  "word": "Three",
+  "start": 24.72,
+  "end": 24.882
+ },
+ {
+  "word": "Williamses,",
+  "start": 24.917,
+  "end": 25.428
+ },
+ {
+  "word": "three",
+  "start": 25.451,
+  "end": 25.625
+ },
+ {
+  "word": "technicals,",
+  "start": 25.66,
+  "end": 26.171
+ },
+ {
+  "word": "and",
+  "start": 26.194,
+  "end": 26.357
+ },
+ {
+  "word": "a",
+  "start": 26.415,
+  "end": 26.438
+ },
+ {
+  "word": "12-point",
+  "start": 26.507,
+  "end": 27.169
+ },
+ {
+  "word": "win.",
+  "start": 27.25,
+  "end": 27.866
+ }
+]

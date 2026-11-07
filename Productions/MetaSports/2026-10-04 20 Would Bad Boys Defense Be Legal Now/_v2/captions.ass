@@ -1,0 +1,61 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Montserrat Black,86,&H00FFFFFF,&H00FFFFFF,&H00000000,&H99000000,0,0,0,0,95,100,1,0,1,6,3,5,70,70,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:01.09,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}92.9.
+Dialogue: 0,0:00:01.09,0:00:01.42,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THAT'S ALL
+Dialogue: 0,0:00:01.42,0:00:01.82,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE BAD BOY
+Dialogue: 0,0:00:01.82,0:00:02.35,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}PISTONS ALLOWED
+Dialogue: 0,0:00:02.35,0:00:02.94,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}PER GAME ACROSS
+Dialogue: 0,0:00:02.94,0:00:03.52,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SEVENTEEN GAMES
+Dialogue: 0,0:00:03.52,0:00:04.24,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN THE 1989
+Dialogue: 0,0:00:04.24,0:00:04.82,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}PLAYOFFS.
+Dialogue: 0,0:00:04.82,0:00:05.14,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE LEAGUE
+Dialogue: 0,0:00:05.14,0:00:05.53,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AVERAGE SAT
+Dialogue: 0,0:00:05.53,0:00:06.49,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AT 104.9.
+Dialogue: 0,0:00:06.49,0:00:06.93,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}LAIMBEER.
+Dialogue: 0,0:00:06.93,0:00:07.36,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}RODMAN.
+Dialogue: 0,0:00:07.36,0:00:08.25,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ISIAH THOMAS.
+Dialogue: 0,0:00:08.25,0:00:08.69,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}A DEFENSE
+Dialogue: 0,0:00:08.69,0:00:09.44,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BUILT ON CONTACT.
+Dialogue: 0,0:00:09.44,0:00:09.81,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}LAST YEAR'S
+Dialogue: 0,0:00:09.81,0:00:10.32,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}PLAYOFF TEAMS
+Dialogue: 0,0:00:10.32,0:00:11.59,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AVERAGED 107.9.
+Dialogue: 0,0:00:11.59,0:00:12.10,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BUT THE NBA
+Dialogue: 0,0:00:12.10,0:00:12.51,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}JUST POSTED
+Dialogue: 0,0:00:12.51,0:00:12.92,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}PART TWO OF
+Dialogue: 0,0:00:12.92,0:00:14.19,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ITS 2026-27 POINTS
+Dialogue: 0,0:00:14.19,0:00:14.59,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}OF EMPHASIS
+Dialogue: 0,0:00:14.59,0:00:15.28,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FOR REFEREES.
+Dialogue: 0,0:00:15.28,0:00:15.94,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FREEDOM OF MOVEMENT,
+Dialogue: 0,0:00:15.94,0:00:16.67,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}PERIMETER AND POST,
+Dialogue: 0,0:00:16.67,0:00:17.23,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}PLUS STRAIGHT-LINE
+Dialogue: 0,0:00:17.23,0:00:17.95,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}PATHWAY PLAYS.
+Dialogue: 0,0:00:17.95,0:00:18.39,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ONE WRITE-UP
+Dialogue: 0,0:00:18.39,0:00:18.84,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}OF THAT VIDEO
+Dialogue: 0,0:00:18.84,0:00:19.09,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SAYS YOU
+Dialogue: 0,0:00:19.09,0:00:19.61,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}CANNOT HOLD,
+Dialogue: 0,0:00:19.61,0:00:19.86,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}GRAB,
+Dialogue: 0,0:00:19.86,0:00:20.15,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}OR BUMP
+Dialogue: 0,0:00:20.15,0:00:20.35,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}A MAN
+Dialogue: 0,0:00:20.35,0:00:20.80,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SO HE CANNOT
+Dialogue: 0,0:00:20.80,0:00:21.11,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}GO WHERE HE
+Dialogue: 0,0:00:21.11,0:00:21.37,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WAS TRYING
+Dialogue: 0,0:00:21.37,0:00:21.64,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TO GO.
+Dialogue: 0,0:00:21.64,0:00:21.96,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IT ALSO
+Dialogue: 0,0:00:21.96,0:00:22.53,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FLAGS A DEFENDER
+Dialogue: 0,0:00:22.53,0:00:23.12,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BUMPING A DRIBBLER
+Dialogue: 0,0:00:23.12,0:00:23.71,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}OFF A STRAIGHT-LINE
+Dialogue: 0,0:00:23.71,0:00:23.97,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}DRIVE.
+Dialogue: 0,0:00:23.97,0:00:24.46,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SO WAS DETROIT
+Dialogue: 0,0:00:24.46,0:00:24.85,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}JUST COMMITTING
+Dialogue: 0,0:00:24.85,0:00:26.03,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FOULS NOBODY CALLED?

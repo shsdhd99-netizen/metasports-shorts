@@ -1,0 +1,98 @@
+[
+ {
+  "clip": "R_close.mp4",
+  "anchor": "This pass",
+  "kind": "action",
+  "in": 0.0,
+  "zoom": 0.06,
+  "why": "Frame 1 = the object: Jokic with the ball on the baseline. Runs through the behind-the-back release (clip ~1.8 s) until the ball is gone (critic v2 edit 2)",
+  "start": 0.0
+ },
+ {
+  "clip": "M_close.mp4",
+  "anchor": "Jokic said",
+  "kind": "face",
+  "in": 0.0,
+  "why": "The person whose ranking it is, on 'Jokic said it was probably the best pass of his NBA career' (attributed, critic v2 edit 1)",
+  "start": 1.93
+ },
+ {
+  "clip": "K_wide.mp4",
+  "anchor": "probably the best",
+  "kind": "action",
+  "in": 0.4,
+  "why": "The broadcast wide angle of the same pass under 'probably the best pass of his NBA career' (third cut inside 3 s)",
+  "start": 2.71
+ },
+ {
+  "clip": "R_close.mp4",
+  "anchor": "No look",
+  "kind": "action",
+  "in": 0.95,
+  "why": "Slowed replay of the release itself, so 'No look. Behind the back.' sits on the pass, not the catch (critic v2 edit 2)",
+  "start": 4.71,
+  "replay": true
+ },
+ {
+  "clip": "R_wide.mp4",
+  "anchor": "Corner to corner",
+  "kind": "action",
+  "in": 0.1,
+  "why": "High angle: the ball crosses the whole baseline to the corner",
+  "start": 5.96
+ },
+ {
+  "clip": "R_shot.mp4",
+  "anchor": "Cam Johnson",
+  "kind": "action",
+  "in": 0.0,
+  "why": "The one angle of the make (critic v2: keep one angle)",
+  "start": 6.83
+ },
+ {
+  "clip": "c_assists.png",
+  "anchor": "Jokic has six",
+  "kind": "card",
+  "why": "Proof of 6,080 (StatMuse, checked Oct 13)",
+  "start": 8.23
+ },
+ {
+  "clip": "M_gym.mp4",
+  "anchor": "So this should be",
+  "kind": "action",
+  "in": 0.0,
+  "why": "The same pass from the broadcast camera: this is the would-be 6,081st",
+  "start": 10.78
+ },
+ {
+  "clip": "M_pass.mp4",
+  "anchor": "It happened in",
+  "kind": "action",
+  "in": 0.0,
+  "why": "BUFFALOES lettering readable under the whole line 'It happened in a preseason game, in a college gym in Boulder' (CU Events Center; critic v2 recommended edit)",
+  "start": 13.36
+ },
+ {
+  "clip": "M_close.mp4",
+  "anchor": "And preseason assists",
+  "kind": "face",
+  "in": 1.9,
+  "why": "Jokic again on the rule that erases his assist",
+  "start": 15.91
+ },
+ {
+  "clip": "c_6080.mp4",
+  "anchor": "So his total",
+  "kind": "card",
+  "why": "The answer as one number: still 6,080",
+  "start": 17.71
+ },
+ {
+  "clip": "R_close.mp4",
+  "anchor": "Not eighty-one",
+  "kind": "action",
+  "in": 0.0,
+  "why": "Back to the opening image so the Short loops into 'This pass doesn't even count.'",
+  "start": 19.8
+ }
+]

@@ -1,0 +1,120 @@
+[
+ {
+  "clip": "J01.mp4",
+  "kind": "face",
+  "why": "Jordan #23 close, first quarter at the Capital Centre, Mar 20 1993 (WGN)",
+  "start": 0.0
+ },
+ {
+  "clip": "J02.mp4",
+  "kind": "action",
+  "why": "Bulls vs Bullets, Capital Centre, Mar 20 1993 (WGN)",
+  "anchor": "Back in",
+  "start": 2.79
+ },
+ {
+  "clip": "J03.mp4",
+  "kind": "face",
+  "why": "LaBradford Smith close with the WGN name graphic '22 LaBradford Smith'",
+  "anchor": "a Bullets guard",
+  "start": 4.46
+ },
+ {
+  "clip": "J04.mp4",
+  "kind": "card",
+  "why": "WGN graphic: LaBradford Smith, last night vs Bulls: career-high 37 pts (15-20 FG, 7-7 FT)",
+  "anchor": "scored",
+  "start": 6.08
+ },
+ {
+  "clip": "J04b.mp4",
+  "kind": "action",
+  "why": "Bullets #7 guarding Jordan in Chicago Stadium (WGN intro)",
+  "anchor": "against",
+  "start": 7.06
+ },
+ {
+  "clip": "J05.mp4",
+  "kind": "face",
+  "why": "Bullets bench, Mar 20 1993 (illustrative: Washington lost)",
+  "anchor": "in Chicago",
+  "start": 8.1
+ },
+ {
+  "clip": "J06.mp4",
+  "kind": "face",
+  "why": "Jordan close, Mar 20 1993",
+  "anchor": "But Jordan",
+  "start": 11.38
+ },
+ {
+  "clip": "J07.mp4",
+  "kind": "face",
+  "why": "Smith #22 from behind, close (Mar 20 1993)",
+  "anchor": "Smith told",
+  "start": 13.23
+ },
+ {
+  "clip": "J08.mp4",
+  "kind": "action",
+  "why": "Tip-off at the Capital Centre, Mar 20 1993: the next night",
+  "anchor": "The two",
+  "start": 14.81
+ },
+ {
+  "clip": "J09.mp4",
+  "kind": "face",
+  "why": "Bulls huddle, Jordan #23 with teammates",
+  "anchor": "So Jordan",
+  "start": 16.51
+ },
+ {
+  "clip": "J10.mp4",
+  "kind": "face",
+  "why": "Jordan #23 facing camera, Mar 20 1993",
+  "anchor": "he'd match",
+  "start": 18.13
+ },
+ {
+  "clip": "J11.mp4",
+  "kind": "card",
+  "why": "WGN half-time graphic: M. Jordan 36 pts / 6 rebs",
+  "anchor": "By half-time",
+  "start": 20.36
+ },
+ {
+  "clip": "J11b.mp4",
+  "kind": "action",
+  "why": "Bulls vs Bullets 3rd quarter Mar 20 1993 (Jordan scoring night)",
+  "anchor": "He finished",
+  "start": 21.74
+ },
+ {
+  "clip": "J12.mp4",
+  "kind": "card",
+  "why": "WGN final graphic: Bulls 126, Bullets 101",
+  "anchor": "in a 25",
+  "start": 22.69
+ },
+ {
+  "clip": "J13.mp4",
+  "kind": "face",
+  "why": "Jordan with a towel on the bench, late in the blowout",
+  "anchor": "But here's",
+  "start": 24.02
+ },
+ {
+  "clip": "J14.mp4",
+  "kind": "face",
+  "why": "Smith close (Mar 20 1993)",
+  "anchor": "Smith never",
+  "start": 25.26
+ },
+ {
+  "clip": "J15.mp4",
+  "kind": "face",
+  "why": "Jordan laughing courtside (WGN intro): the payoff, he made it up",
+  "anchor": "Jordan later",
+  "start": 26.22
+ }
+]

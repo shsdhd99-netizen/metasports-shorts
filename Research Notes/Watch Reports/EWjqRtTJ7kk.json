@@ -1,0 +1,151 @@
+{
+ "length_s": 73.0,
+ "topic": "Addressing rumors about Lonzo Ball's retirement from the NBA.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "Breaking news, everyone. Word from Lonzo Ball himself has apparently",
+  "first_frame": "Animated avatar of Lonzo Ball in a Cavaliers jersey holding an Uno reverse card in front of a city skyline.",
+  "on_screen_text_0_3s": "Is Lonzo Ball Retired?",
+  "shots_in_first_3s": 1
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 4.9,
+   "shows": "Animated Lonzo Ball holding an Uno reverse card",
+   "kind": "animation"
+  },
+  {
+   "start_s": 4.9,
+   "end_s": 5.9,
+   "shows": "Animated Lonzo Ball jumping and spreading arms",
+   "kind": "animation"
+  },
+  {
+   "start_s": 5.9,
+   "end_s": 6.3,
+   "shows": "Animated Lonzo Ball standing",
+   "kind": "animation"
+  },
+  {
+   "start_s": 6.3,
+   "end_s": 10.6,
+   "shows": "Zoom transition and graphic of Lonzo Ball in Cavs uniform with text RETIRED",
+   "kind": "graphic"
+  },
+  {
+   "start_s": 10.6,
+   "end_s": 40.2,
+   "shows": "Lonzo Ball speaking on a podcast wearing a Ravens jersey",
+   "kind": "face"
+  },
+  {
+   "start_s": 40.2,
+   "end_s": 42.7,
+   "shows": "Animated Lonzo Ball with Uno reverse card",
+   "kind": "animation"
+  },
+  {
+   "start_s": 42.7,
+   "end_s": 46.7,
+   "shows": "Polymarket Hoops tweet about Lonzo Ball retirement",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 46.7,
+   "end_s": 51.1,
+   "shows": "Lonzo Ball opening a shoe box with a fan or teammate",
+   "kind": "action"
+  },
+  {
+   "start_s": 51.1,
+   "end_s": 54.4,
+   "shows": "Animated Lonzo Ball standing and jumping",
+   "kind": "animation"
+  },
+  {
+   "start_s": 54.4,
+   "end_s": 63.0,
+   "shows": "Tweet from Lonzo Ball clarifying he is not retired",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 63.0,
+   "end_s": 110.8,
+   "shows": "Lonzo Ball opening shoe box",
+   "kind": "action"
+  },
+  {
+   "start_s": 110.8,
+   "end_s": 113.0,
+   "shows": "Animated Lonzo Ball jumping and celebrating with Uno reverse card",
+   "kind": "animation"
+  }
+ ],
+ "shot_count": 12,
+ "average_shot_s": 9.4,
+ "longest_shot_s": 43.8,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 170,
+  "tone": "energetic and informative",
+  "original_audio_under_voice": true
+ },
+ "music": {
+  "present": true,
+  "style": "upbeat rhythmic background beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "mixed",
+  "position": "bottom",
+  "colours": "white with yellow highlights",
+  "highlight_style": "word by word"
+ },
+ "text_overlays": [
+  {
+   "at_s": 0.0,
+   "text": "Is Lonzo Ball Retired?"
+  }
+ ],
+ "cards_or_graphics": 3,
+ "framing": "blurred background",
+ "ending": {
+  "last_words": "the opportunity",
+  "last_frame": "Animated Lonzo Ball jumping in the air with hands raised holding an Uno reverse card",
+  "loops_to_start": true,
+  "call_to_action": "none"
+ },
+ "script": "Breaking news, everyone. Word from Lonzo Ball himself has apparently decided that Lonzo Ball has retired. Earlier today, reports started spreading that Lonzo Ball was officially done with basketball. After comments he made on the Ball in the Family podcast, Lonzo reflected on everything he went through with injury saying he gave everything he had to basketball, was great for to play nine years in the NBA, and these statements sounded like a retirement speech. I felt like I never shortchanged the game. Like I felt like I gave everything I had to a hoop and I felt like everything I got in my life is because of hoop. So I'm grateful to even make it to the league and and do even be able to play for nine years you feel me? So that's how I look at it. I kind of look at it like halfway full or not, halfway empty type of thing. But he clearly never stated he retired. That didn't stop social media from running with it, getting multiple accounts and even news outlets reporting that Lonzo Ball had officially retired. There's just one problem: he never actually did that or said that he was retiring. So to clear things up, basically everyone bouncing his retirement for him, Lonzo Ball says he's still trying to play, for now he remains an unsigned free agent waiting for another NBA opportunity.",
+ "retention_tricks": [
+  "animated avatar hook with Uno reverse card",
+  "rapid cut to podcast interview clip",
+  "screenshot of fake tweet",
+  "looping animation at the end"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": false,
+  "ends_on_payoff": true,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "Uses a popular meme format (Uno reverse card) to tease the twist",
+  "Quickly debunks viral misinformation with direct quotes and tweets",
+  "Maintains high visual engagement with mixed animation, interviews, and screenshots"
+ ],
+ "_meta": {
+  "source": "EWjqRtTJ7kk",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

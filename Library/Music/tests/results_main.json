@@ -1,0 +1,144 @@
+{
+ "voice": "A3_clone_raw_names",
+ "voice_lufs": -14.0,
+ "levels_lu": [
+  -14,
+  -17,
+  -20,
+  -23
+ ],
+ "runs": {
+  "no_music": {
+   "wer_phone": 1.7,
+   "heard": " Victor Wembanyama is not the tallest man in this story.  Jamarian Sharp is listed 7'5 and he's never played an NBA game that counts.  Dallas cut him twice.  The Clippers cut him in September.  Even Nikola Jokic and Yanis Antitokunpo never faced him in a game that counts.  So what's missing?  3-point tries last season.  Wembanyama 350, Sharp in the G-League, 0."
+  },
+  "eleven_stats_01@-14": {
+   "track": "eleven_stats_01",
+   "bed_lu": -14,
+   "track_lufs": -19.0,
+   "gain_db": -9.0,
+   "wer_phone": 1.7,
+   "heard": " Victor Wembanyama is not the tallest man in this story.  Jamarian Sharp is listed 7'5 and he's never played an NBA game that counts.  Dallas cut him twice.  The Clippers cut him in September.  Even Nikola Jokic and Yanis Antitokunpo never faced him in a game that counts.  So what's missing?  3-point tries last season.  Wembanyama, 350.  Sharp in the G-League, 0."
+  },
+  "eleven_stats_01@-17": {
+   "track": "eleven_stats_01",
+   "bed_lu": -17,
+   "track_lufs": -19.0,
+   "gain_db": -12.0,
+   "wer_phone": 1.7,
+   "heard": " Victor Wembanyama is not the tallest man in this story.  Jamarian Sharp is listed 7'5 and he's never played an NBA game that counts.  Dallas cut him twice.  The Clippers cut him in September.  Even Nikola Jokic and Yanis Antitokunpo never faced him in a game that counts.  So what's missing?  3-point tries last season.  Wembanyama, 350.  Sharp in the G-League, 0."
+  },
+  "eleven_stats_01@-20": {
+   "track": "eleven_stats_01",
+   "bed_lu": -20,
+   "track_lufs": -19.0,
+   "gain_db": -15.0,
+   "wer_phone": 1.7,
+   "heard": " Victor Wembanyama is not the tallest man in this story.  Jamarian Sharp is listed 7'5 and he's never played an NBA game that counts.  Dallas cut him twice.  The Clippers cut him in September.  Even Nikola Jokic and Yanis Antitokunpo never faced him in a game that counts.  So what's missing?  3 point tries last season.  Wembanyama 350.  Sharp in the G League.  Zero."
+  },
+  "eleven_stats_01@-23": {
+   "track": "eleven_stats_01",
+   "bed_lu": -23,
+   "track_lufs": -19.0,
+   "gain_db": -18.0,
+   "wer_phone": 1.7,
+   "heard": " Victor Wembanyama is not the tallest man in this story.  Jamarian Sharp is listed 7'5 and he's never played an NBA game that counts.  Dallas cut him twice.  The Clippers cut him in September.  Even Nikola Jokic and Yanis Antitokunpo never faced him in a game that counts.  So what's missing?  3-point tries last season.  Wembanyama, 350.  Sharp in the G League, 0."
+  },
+  "eleven_hype_01@-14": {
+   "track": "eleven_hype_01",
+   "bed_lu": -14,
+   "track_lufs": -12.1,
+   "gain_db": -15.9,
+   "wer_phone": 1.7,
+   "heard": " Victor Wembanyama is not the tallest man in this story.  Jamarian Sharp is listed 7'5 and he's never played an NBA game that counts.  Dallas cut him twice.  The Clippers cut him in September.  Even Nikola Jokic and Yanis Antitokunpo never faced him in a game that counts.  So what's missing?  3-point tries last season.  Wembanyama 350, Sharp in the G-League, 0."
+  },
+  "eleven_hype_01@-17": {
+   "track": "eleven_hype_01",
+   "bed_lu": -17,
+   "track_lufs": -12.1,
+   "gain_db": -18.9,
+   "wer_phone": 1.7,
+   "heard": " Victor Wembanyama is not the tallest man in this story.  Jamarian Sharp is listed 7'5 and he's never played an NBA game that counts.  Dallas cut him twice.  The Clippers cut him in September.  Even Nikola Jokic and Yanis Antitokunpo never faced him in a game that counts.  So what's missing?  3-point tries last season.  Wembanyama, 350. Sharp in the G-League, 0."
+  },
+  "eleven_hype_01@-20": {
+   "track": "eleven_hype_01",
+   "bed_lu": -20,
+   "track_lufs": -12.1,
+   "gain_db": -21.9,
+   "wer_phone": 1.7,
+   "heard": " Victor Wembanyama is not the tallest man in this story.  Jamarian Sharp is listed 7'5 and he's never played an NBA game that counts.  Dallas cut him twice.  The Clippers cut him in September.  Even Nikola Jokic and Yanis Antitokunpo never faced him in a game that counts.  So what's missing?  3-point tries last season.  Wembanyama 350, Sharp in the G-League, 0."
+  },
+  "eleven_hype_01@-23": {
+   "track": "eleven_hype_01",
+   "bed_lu": -23,
+   "track_lufs": -12.1,
+   "gain_db": -24.9,
+   "wer_phone": 1.7,
+   "heard": " Victor Wembanyama is not the tallest man in this story.  Jamarian Sharp is listed 7'5 and he's never played an NBA game that counts.  Dallas cut him twice.  The Clippers cut him in September.  Even Nikola Jokic and Yanis Antitokunpo never faced him in a game that counts.  So what's missing?  3-point tries last season.  Wembanyama, 350.  Sharp in the G League, 0."
+  },
+  "eleven_emotional_01@-14": {
+   "track": "eleven_emotional_01",
+   "bed_lu": -14,
+   "track_lufs": -16.8,
+   "gain_db": -11.2,
+   "wer_phone": 1.7,
+   "heard": " Victor Wembanyama is not the tallest man in this story.  Jamarian Sharp is listed 7'5 and he's never played an NBA game that counts.  Dallas cut him twice.  The Clippers cut him in September.  Even Nikola Jokic and Yanis Antitokunpo never faced him in a game that counts.  So what's missing? Three point tries last season.  Wembanyama, 350. Sharp in the G-League, 0."
+  },
+  "eleven_emotional_01@-17": {
+   "track": "eleven_emotional_01",
+   "bed_lu": -17,
+   "track_lufs": -16.8,
+   "gain_db": -14.2,
+   "wer_phone": 1.7,
+   "heard": " Victor Wembanyama is not the tallest man in this story.  Jamarian Sharp is listed 7'5 and he's never played an NBA game that counts.  Dallas cut him twice.  The Clippers cut him in September.  Even Nikola Jokic and Yanis Antitokunpo never faced him in a game that counts.  So what's missing? Three point tries last season.  Wembanyama, 350. Sharp in the G-League, 0."
+  },
+  "eleven_emotional_01@-20": {
+   "track": "eleven_emotional_01",
+   "bed_lu": -20,
+   "track_lufs": -16.8,
+   "gain_db": -17.2,
+   "wer_phone": 1.7,
+   "heard": " Victor Wembanyama is not the tallest man in this story.  Jamarian Sharp is listed 7'5 and he's never played an NBA game that counts.  Dallas cut him twice.  The Clippers cut him in September.  Even Nikola Jokic and Yanis Antitokunpo never faced him in a game that counts.  So what's missing? Three point tries last season.  Wembanyama, 350. Sharp in the G-League, 0."
+  },
+  "eleven_emotional_01@-23": {
+   "track": "eleven_emotional_01",
+   "bed_lu": -23,
+   "track_lufs": -16.8,
+   "gain_db": -20.2,
+   "wer_phone": 1.7,
+   "heard": " Victor Wembanyama is not the tallest man in this story.  Jamarian Sharp is listed 7'5 and he's never played an NBA game that counts.  Dallas cut him twice.  The Clippers cut him in September.  Even Nikola Jokic and Yanis Antitokunpo never faced him in a game that counts.  So what's missing? Three point tries last season.  Wembanyama, 350. Sharp in the G-League, 0."
+  },
+  "eleven_suspense_01@-14": {
+   "track": "eleven_suspense_01",
+   "bed_lu": -14,
+   "track_lufs": -14.9,
+   "gain_db": -13.1,
+   "wer_phone": 1.7,
+   "heard": " Victor Wembanyama is not the tallest man in this story.  Jamarian Sharp is listed 7'5 and he's never played an NBA game that counts.  Dallas cut him twice.  The Clippers cut him in September.  Even Nikola Jokic and Yanis Antitokunpo never faced him in a game that counts.  So what's missing?  3-point tries last season.  Wembanyama 350, Sharp in the G-League, 0."
+  },
+  "eleven_suspense_01@-17": {
+   "track": "eleven_suspense_01",
+   "bed_lu": -17,
+   "track_lufs": -14.9,
+   "gain_db": -16.1,
+   "wer_phone": 1.7,
+   "heard": " Victor Wembanyama is not the tallest man in this story.  Jamarian Sharp is listed 7'5 and he's never played an NBA game that counts.  Dallas cut him twice.  The Clippers cut him in September.  Even Nikola Jokic and Yanis Antitokunpo never faced him in a game that counts.  So what's missing?  3-point tries last season.  Wembanyama, 350. Sharp in the G-League, 0."
+  },
+  "eleven_suspense_01@-20": {
+   "track": "eleven_suspense_01",
+   "bed_lu": -20,
+   "track_lufs": -14.9,
+   "gain_db": -19.1,
+   "wer_phone": 1.7,
+   "heard": " Victor Wembanyama is not the tallest man in this story.  Jamarian Sharp is listed 7'5 and he's never played an NBA game that counts.  Dallas cut him twice.  The Clippers cut him in September.  Even Nikola Jokic and Yanis Antitokunpo never faced him in a game that counts.  So what's missing?  3-point tries last season.  Wembanyama, 350. Sharp in the G-League, 0."
+  },
+  "eleven_suspense_01@-23": {
+   "track": "eleven_suspense_01",
+   "bed_lu": -23,
+   "track_lufs": -14.9,
+   "gain_db": -22.1,
+   "wer_phone": 1.7,
+   "heard": " Victor Wembanyama is not the tallest man in this story.  Jamarian Sharp is listed 7'5 and he's never played an NBA game that counts.  Dallas cut him twice.  The Clippers cut him in September.  Even Nikola Jokic and Yanis Antitokunpo never faced him in a game that counts.  So what's missing?  3-point tries last season.  Wembanyama, 350.  Sharp in the G-League, 0."
+  }
+ }
+}

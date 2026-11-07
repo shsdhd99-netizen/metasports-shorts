@@ -1,0 +1,1 @@
+2026-10-04 21 How Close Is Jokic T   PASS HNR   9.6 jit 3.03 shim 11.33 jumps/s 0.00 clicks/min 11323.6 hf%  3.85 f0 209 dur 16.88  

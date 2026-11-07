@@ -1,0 +1,118 @@
+[
+ {
+  "clip": "G1_jersey_face.mp4",
+  "start": 0.0,
+  "why": "hook: Giannis in a Heat jersey",
+  "kind": "action",
+  "zoom": 0.1
+ },
+ {
+  "clip": "K1_dunk.mp4",
+  "start": 1.0,
+  "why": "face the Bucks (Giannis dunk as a Buck)",
+  "kind": "action",
+  "zoom": 0.12
+ },
+ {
+  "clip": "H1_tower.mp4",
+  "start": 1.95,
+  "why": "Miami GTA 6 uniform: Vice City pink tower",
+  "kind": "action",
+  "zoom": 0.08
+ },
+ {
+  "clip": "H3_sign.mp4",
+  "start": 2.95,
+  "why": "neon Welcome to Vice City sign",
+  "kind": "action",
+  "zoom": 0.06
+ },
+ {
+  "clip": "H2_arena.mp4",
+  "start": 3.95,
+  "why": "November eighteenth",
+  "kind": "action"
+ },
+ {
+  "clip": "P_poster.mp4",
+  "start": 4.8,
+  "why": "Vice City night live on ESPN (official poster)",
+  "kind": "card"
+ },
+ {
+  "clip": "K2_dunk.mp4",
+  "start": 6.45,
+  "why": "Thirteen years in Milwaukee",
+  "kind": "action",
+  "zoom": 0.1
+ },
+ {
+  "clip": "F1_fans.mp4",
+  "start": 7.7,
+  "why": "after the trade he watched a video from Bucks fans",
+  "kind": "action"
+ },
+ {
+  "clip": "F2_giannis_phone.mp4",
+  "start": 9.4,
+  "why": "watching on his phone",
+  "kind": "action",
+  "zoom": 0.1
+ },
+ {
+  "clip": "Q1_home.mp4",
+  "start": 10.93,
+  "why": "quote: Milwaukee will always be my home",
+  "kind": "quote",
+  "zoom": 0.08
+ },
+ {
+  "clip": "Q2_dont_cry.mp4",
+  "start": 12.75,
+  "why": "quote: Don't cry because it's over",
+  "kind": "quote"
+ },
+ {
+  "clip": "Q2_dont_cry.mp4",
+  "start": 15.2,
+  "why": "quote: Laugh, smile because it happened",
+  "kind": "quote",
+  "in": 2.5,
+  "zoom": 0.12
+ },
+ {
+  "clip": "H5_tower2.mp4",
+  "start": 17.92,
+  "why": "Now he plays them on a neon court",
+  "kind": "action",
+  "zoom": 0.1
+ },
+ {
+  "clip": "G2_jersey_back.mp4",
+  "start": 19.3,
+  "why": "in a Vice City jersey (Giannis #7 Heat)",
+  "kind": "action",
+  "zoom": 0.06
+ },
+ {
+  "clip": "B1_bench.mp4",
+  "start": 20.5,
+  "why": "how many points does he put on his old team",
+  "kind": "action",
+  "zoom": 0.08
+ },
+ {
+  "clip": "G3_smile.mp4",
+  "start": 21.3,
+  "why": "Giannis smile",
+  "kind": "action",
+  "zoom": 0.06
+ },
+ {
+  "clip": "G1_jersey_face.mp4",
+  "start": 22.0,
+  "why": "loop to the first shot",
+  "kind": "action",
+  "zoom": 0.1
+ }
+]

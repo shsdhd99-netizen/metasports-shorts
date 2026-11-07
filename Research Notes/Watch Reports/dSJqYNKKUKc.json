@@ -1,0 +1,292 @@
+{
+ "length_s": 69.0,
+ "topic": "Gary Payton II was traded back to the Golden State Warriors in a dramatic multi-team deal that almost collapsed due to a failed physical.",
+ "lane": "moment",
+ "hook": {
+  "first_words": "Players RETURNED to the Team That TRADED Them",
+  "first_frame": "A basketball player driving down the court with a defender chasing him.",
+  "on_screen_text_0_3s": "Players RETURNED to the Team That TRADED Them",
+  "shots_in_first_3s": 2
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 2.5,
+   "shows": "Basketball player dribbling on court",
+   "kind": "action"
+  },
+  {
+   "start_s": 2.5,
+   "end_s": 3.75,
+   "shows": "Gary Payton II in Warriors uniform",
+   "kind": "face"
+  },
+  {
+   "start_s": 3.75,
+   "end_s": 5.5,
+   "shows": "Golden State Warriors logo",
+   "kind": "still"
+  },
+  {
+   "start_s": 5.5,
+   "end_s": 7.0,
+   "shows": "Gary Payton II holding championship trophy",
+   "kind": "face"
+  },
+  {
+   "start_s": 7.0,
+   "end_s": 8.75,
+   "shows": "Gary Payton II shooting a basketball",
+   "kind": "action"
+  },
+  {
+   "start_s": 8.75,
+   "end_s": 10.5,
+   "shows": "Basketball game on an old TV set",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 10.5,
+   "end_s": 12.0,
+   "shows": "Gary Payton II talking at microphone",
+   "kind": "face"
+  },
+  {
+   "start_s": 12.0,
+   "end_s": 14.0,
+   "shows": "Meme of man laughing",
+   "kind": "other"
+  },
+  {
+   "start_s": 14.0,
+   "end_s": 15.75,
+   "shows": "Gary Payton II on TV screen",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 15.75,
+   "end_s": 16.5,
+   "shows": "Basketball game on old TV",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 16.5,
+   "end_s": 17.75,
+   "shows": "Gary Payton II in Warriors hoodie",
+   "kind": "face"
+  },
+  {
+   "start_s": 17.75,
+   "end_s": 19.0,
+   "shows": "Gary Payton II with towel over head",
+   "kind": "face"
+  },
+  {
+   "start_s": 19.0,
+   "end_s": 21.0,
+   "shows": "Gary Payton II in Trail Blazers jersey",
+   "kind": "action"
+  },
+  {
+   "start_s": 21.0,
+   "end_s": 22.75,
+   "shows": "Gary Payton II close up",
+   "kind": "face"
+  },
+  {
+   "start_s": 22.75,
+   "end_s": 24.25,
+   "shows": "Man in suit speaking into microphone",
+   "kind": "face"
+  },
+  {
+   "start_s": 24.25,
+   "end_s": 25.75,
+   "shows": "Man with serious expression",
+   "kind": "face"
+  },
+  {
+   "start_s": 25.75,
+   "end_s": 27.25,
+   "shows": "Basketball game action",
+   "kind": "action"
+  },
+  {
+   "start_s": 27.25,
+   "end_s": 28.75,
+   "shows": "Man smiling in suit",
+   "kind": "face"
+  },
+  {
+   "start_s": 28.75,
+   "end_s": 29.75,
+   "shows": "Streamer reacting in shock",
+   "kind": "face"
+  },
+  {
+   "start_s": 29.75,
+   "end_s": 32.25,
+   "shows": "James Wiseman in Warriors jersey",
+   "kind": "face"
+  },
+  {
+   "start_s": 32.25,
+   "end_s": 33.5,
+   "shows": "Detroit Pistons logo",
+   "kind": "still"
+  },
+  {
+   "start_s": 33.5,
+   "end_s": 37.0,
+   "shows": "Basketball game action",
+   "kind": "action"
+  },
+  {
+   "start_s": 37.0,
+   "end_s": 38.75,
+   "shows": "Gary Payton II with towel",
+   "kind": "face"
+  },
+  {
+   "start_s": 38.75,
+   "end_s": 40.5,
+   "shows": "Man in suit speaking",
+   "kind": "face"
+  },
+  {
+   "start_s": 40.5,
+   "end_s": 43.0,
+   "shows": "Streamer reacting in shock",
+   "kind": "face"
+  },
+  {
+   "start_s": 43.0,
+   "end_s": 46.75,
+   "shows": "Gary Payton II lying on court injured",
+   "kind": "action"
+  },
+  {
+   "start_s": 46.75,
+   "end_s": 48.25,
+   "shows": "Gary Payton II with towel",
+   "kind": "face"
+  },
+  {
+   "start_s": 48.25,
+   "end_s": 50.75,
+   "shows": "Man in suit speaking outdoors",
+   "kind": "face"
+  },
+  {
+   "start_s": 50.75,
+   "end_s": 53.25,
+   "shows": "Man in suit speaking close up",
+   "kind": "face"
+  },
+  {
+   "start_s": 53.25,
+   "end_s": 56.0,
+   "shows": "Man thrashing around at desk",
+   "kind": "action"
+  },
+  {
+   "start_s": 56.0,
+   "end_s": 59.5,
+   "shows": "Gary Payton II on court",
+   "kind": "face"
+  },
+  {
+   "start_s": 59.5,
+   "end_s": 61.5,
+   "shows": "Man in suit",
+   "kind": "face"
+  },
+  {
+   "start_s": 61.5,
+   "end_s": 62.75,
+   "shows": "Kevin Hart reacting in shock",
+   "kind": "face"
+  },
+  {
+   "start_s": 62.75,
+   "end_s": 63.75,
+   "shows": "Gary Payton II in Warriors hoodie",
+   "kind": "face"
+  },
+  {
+   "start_s": 63.75,
+   "end_s": 65.75,
+   "shows": "Basketball game on old TV",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 65.75,
+   "end_s": 69.0,
+   "shows": "Gary Payton II in Warriors jersey",
+   "kind": "face"
+  }
+ ],
+ "shot_count": 36,
+ "average_shot_s": 1.92,
+ "longest_shot_s": 3.75,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 175,
+  "tone": "engaging",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "dramatic tension building",
+  "level_vs_voice": "equal",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 2,
+  "case": "mixed",
+  "position": "middle",
+  "colours": [
+   "white"
+  ],
+  "highlight_style": "none"
+ },
+ "text_overlays": [],
+ "cards_or_graphics": 3,
+ "framing": "blurred background",
+ "ending": {
+  "last_words": "just defeated.",
+  "last_frame": "Gary Payton II standing on the court in a black and yellow Warriors jersey.",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "Players RETURNED to the Team That TRADED Them. So Gary Payton II was a huge part of the Golden State Warriors winning the title in twenty twenty two. He wasn't exactly a star scorer, but he made up with his defense since he was the guy who locked up the other team's best player every single night, and Warriors fans loved him for it. Then that summer, the Warriors let him leave, and he signed a three year, twenty-six million dollar deal with the Portland Trail Blazers. But letting him walk turned into a decision the Warriors would spend the whole season regretting. At the trade deadline in February, Golden State pulled off a giant four-team trade where they sent James Wiseman, a former number two overall pick, to the Detroit Pistons, and when the dust settled, Gary Payton the second was headed right back home to the Warriors. Fans were thrilled because the defense was coming back for another title run. But less than twenty-four hours after the deal was done, the entire thing nearly collapsed. See, Payton had core muscle surgery before the season, and when he took his physical, Golden State didn't like what they saw and actually believed Portland hid important medical information about his health. They were so upset they looked into taking action against the Blazers, and the whole trade sat frozen for days while Golden State had until Sunday night to either walk away or push it through. And here's the wild part. The night before he got traded, Gary Payton played against the Warriors and beat them, then he switched jerseys and rejoined the exact team he just defeated.",
+ "retention_tricks": [
+  "rapid shot cuts",
+  "meme inserts",
+  "narrative tension building",
+  "unexpected plot twists"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": false,
+  "ends_on_payoff": true,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "A compelling sports drama story with unexpected plot twists",
+  "Fast-paced editing with frequent visual pattern interrupts",
+  "Humorous reaction meme clips matching the narrative tone"
+ ],
+ "_meta": {
+  "source": "dSJqYNKKUKc",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

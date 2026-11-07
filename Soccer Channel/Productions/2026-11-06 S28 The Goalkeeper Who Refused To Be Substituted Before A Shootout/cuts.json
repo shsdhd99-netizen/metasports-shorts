@@ -1,0 +1,420 @@
+{
+ "sources": {
+  "E": "src/WOK_Gn3sAMs.mp4",
+  "I": "src/G6QNI2kVyOk.mp4",
+  "C": "src/agnvSr8GrSQ.mp4",
+  "K": "src/G_VLCjOo3Gw.mp4"
+ },
+ "promise": [
+  "kepa",
+  "goalkeeper",
+  "refused",
+  "substitute",
+  "waved"
+ ],
+ "shots": [
+  {
+   "src": "E",
+   "at": 50.0,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Kepa (#1) points: refusing to leave (ESPN FC, Carabao Cup final 2019)",
+   "clip": "K01",
+   "len": 3.06
+  },
+  {
+   "src": "E",
+   "at": 24.9,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Wembley, Chelsea v Man City, wide (ESPN FC)",
+   "anchor": "Back in",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "clip": "K02",
+   "len": 1.44
+  },
+  {
+   "src": "E",
+   "at": 29.9,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Chelsea v Man City play, wide (ESPN FC)",
+   "anchor": "Chelsea played",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "clip": "K03",
+   "len": 2.99
+  },
+  {
+   "src": "E",
+   "at": 4.99,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Kepa with the referee, Carabao Cup boards (ESPN FC)",
+   "anchor": "Still goalless",
+   "clip": "K04",
+   "len": 2.42
+  },
+  {
+   "src": "E",
+   "at": 54.9,
+   "x": 0.5,
+   "kind": "face",
+   "why": "Kepa Arrizabalaga (ESPN FC)",
+   "anchor": "Chelsea's goalkeeper,",
+   "clip": "K05",
+   "len": 2.2
+  },
+  {
+   "src": "E",
+   "at": 149.6,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Kepa bends over, cramp (ESPN FC)",
+   "anchor": "was struggling",
+   "clip": "K06",
+   "len": 1.36
+  },
+  {
+   "src": "E",
+   "at": 39.9,
+   "x": 0.5,
+   "kind": "face",
+   "why": "Maurizio Sarri on the touchline (ESPN FC)",
+   "anchor": "So his manager,",
+   "clip": "K07",
+   "len": 1.9
+  },
+  {
+   "src": "E",
+   "at": 14.9,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Sarri and Caballero at the bench (ESPN FC)",
+   "anchor": "got a substitute",
+   "clip": "K08",
+   "len": 2.0
+  },
+  {
+   "src": "E",
+   "at": 19.9,
+   "x": 0.5,
+   "kind": "face",
+   "why": "Willy Caballero warms up (ESPN FC)",
+   "anchor": "Willy",
+   "clip": "K09",
+   "len": 1.25
+  },
+  {
+   "src": "E",
+   "at": 0.5,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Caballero on the touchline (ESPN FC)",
+   "anchor": "A shootout",
+   "clip": "K10",
+   "len": 1.3
+  },
+  {
+   "src": "C",
+   "at": 728.0,
+   "x": 0.5,
+   "kind": "action",
+   "why": "League Cup final 2016 v Liverpool, shoot-out (Man City official)",
+   "anchor": "Three years",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "clip": "K11",
+   "len": 0.98
+  },
+  {
+   "src": "C",
+   "at": 744.0,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Caballero dives to save (Man City official)",
+   "anchor": "Caballero had",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "clip": "K12",
+   "len": 1.1
+  },
+  {
+   "src": "C",
+   "at": 760.0,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Caballero dives again (Man City official)",
+   "anchor": "three penalties",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "clip": "K13",
+   "len": 1.17
+  },
+  {
+   "src": "C",
+   "at": 864.0,
+   "x": 0.5,
+   "kind": "action",
+   "why": "City players celebrate winning the 2016 League Cup (Man City official)",
+   "anchor": "this same",
+   "clip": "K14",
+   "len": 1.89
+  },
+  {
+   "src": "E",
+   "at": 79.5,
+   "x": 0.42,
+   "kind": "action",
+   "why": "The fourth official holds the board next to Caballero (ESPN FC)",
+   "anchor": "The board",
+   "clip": "K15",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "len": 1.6
+  },
+  {
+   "src": "E",
+   "at": 69.0,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Kepa waves it away (ESPN FC)",
+   "anchor": "And Kepa",
+   "clip": "K16",
+   "len": 1.47
+  },
+  {
+   "src": "E",
+   "at": 89.5,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Referee Jon Moss speaks to Kepa (ESPN FC)",
+   "anchor": "The referee,",
+   "clip": "K17",
+   "len": 2.36
+  },
+  {
+   "src": "E",
+   "at": 99.2,
+   "x": 0.5,
+   "kind": "face",
+   "why": "Kepa still refuses (ESPN FC)",
+   "anchor": "Kepa still",
+   "clip": "K18",
+   "len": 1.5
+  },
+  {
+   "src": "E",
+   "at": 103.0,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Sarri furious on the touchline (ESPN FC)",
+   "anchor": "Sarri threw",
+   "clip": "K19",
+   "len": 1.41
+  },
+  {
+   "src": "E",
+   "at": 173.0,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Sarri heads for the tunnel (ESPN FC)",
+   "anchor": "and nearly",
+   "clip": "K20",
+   "len": 1.55
+  },
+  {
+   "src": "I",
+   "at": 60.0,
+   "x": 0.5,
+   "kind": "face",
+   "why": "Kepa stays on (beIN broadcast via re-upload)",
+   "anchor": "And Kepa stayed",
+   "clip": "K21",
+   "len": 1.38
+  },
+  {
+   "src": "I",
+   "at": 12.0,
+   "x": 0.5,
+   "kind": "action",
+   "why": "The shoot-out begins, wide (beIN via re-upload)",
+   "anchor": "Then came",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "clip": "K22",
+   "len": 1.23
+  },
+  {
+   "src": "I",
+   "at": 46.0,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Ederson saves Jorginho's kick (beIN via re-upload)",
+   "anchor": "Jorginho",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "clip": "K23",
+   "len": 1.29
+  },
+  {
+   "src": "I",
+   "at": 84.0,
+   "x": 0.5,
+   "kind": "face",
+   "why": "Kepa waits (beIN via re-upload)",
+   "anchor": "Chelsea's keeper",
+   "clip": "K24",
+   "len": 1.14
+  },
+  {
+   "src": "I",
+   "at": 156.0,
+   "x": 0.5,
+   "kind": "face",
+   "why": "Aguero (beIN via re-upload)",
+   "anchor": "Sergio",
+   "clip": "K25",
+   "len": 1.31
+  },
+  {
+   "src": "I",
+   "at": 168.0,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Kepa dives as the weak penalty goes in (beIN via re-upload)",
+   "anchor": "penalty go",
+   "clip": "K26",
+   "len": 1.43
+  },
+  {
+   "src": "I",
+   "at": 236.0,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Sane's kick, Kepa dives (beIN via re-upload)",
+   "anchor": "Then he",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "clip": "K27",
+   "len": 1.66
+  },
+  {
+   "src": "I",
+   "at": 264.0,
+   "x": 0.5,
+   "kind": "face",
+   "why": "Kepa, head down (beIN via re-upload)",
+   "anchor": "But it",
+   "clip": "K28",
+   "len": 1.3
+  },
+  {
+   "src": "I",
+   "at": 420.0,
+   "x": 0.5,
+   "kind": "action",
+   "why": "City's last kick (beIN via re-upload)",
+   "anchor": "Raheem",
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "clip": "K29",
+   "len": 1.94
+  },
+  {
+   "src": "I",
+   "at": 468.0,
+   "x": 0.5,
+   "kind": "action",
+   "why": "City celebrate (beIN via re-upload)",
+   "anchor": "and City",
+   "clip": "K30",
+   "len": 1.65
+  },
+  {
+   "src": "I",
+   "at": 0.0,
+   "x": 0.5,
+   "kind": "face",
+   "why": "Kepa, head down (beIN via re-upload)",
+   "anchor": "Kepa was fined",
+   "clip": "K31",
+   "len": 1.93
+  },
+  {
+   "src": "E",
+   "at": 64.8,
+   "x": 0.5,
+   "kind": "face",
+   "why": "Maurizio Sarri on the bench with his notes (ESPN FC)",
+   "anchor": "Sarri dropped",
+   "clip": "K32",
+   "len": 1.69
+  },
+  {
+   "src": "E",
+   "at": 57.5,
+   "x": 0.5,
+   "kind": "face",
+   "why": "Kepa (ESPN FC)",
+   "anchor": "Later he",
+   "clip": "K33",
+   "len": 2.25
+  },
+  {
+   "src": "E",
+   "at": 34.9,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Sarri and Caballero (ESPN FC)",
+   "anchor": "But here's",
+   "clip": "K34",
+   "len": 1.3
+  },
+  {
+   "src": "E",
+   "at": 84.8,
+   "x": 0.7,
+   "kind": "action",
+   "why": "Caballero stretches, standing by (ESPN FC)",
+   "anchor": "He wouldn't",
+   "clip": "K35",
+   "len": 2.45
+  },
+  {
+   "src": "C",
+   "at": 880.0,
+   "x": 0.5,
+   "kind": "action",
+   "why": "City lift the League Cup, 2016 (Man City official)",
+   "anchor": "to win",
+   "clip": "K36",
+   "len": 1.21
+  },
+  {
+   "src": "I",
+   "at": 236.0,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Replay of Kepa's save",
+   "anchor": "He saved",
+   "speed": 0.7,
+   "replay": true,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "clip": "K37",
+   "len": 1.72
+  },
+  {
+   "src": "C",
+   "at": 872.0,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Man City players, 2016 (Man City official)",
+   "anchor": "that man's",
+   "clip": "K38",
+   "len": 1.58
+  }
+ ]
+}

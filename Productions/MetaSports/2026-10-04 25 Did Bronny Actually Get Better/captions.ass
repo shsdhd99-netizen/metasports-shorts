@@ -1,0 +1,54 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Montserrat Black,86,&H00FFFFFF,&H00FFFFFF,&H00000000,&H99000000,0,0,0,0,95,100,1,0,1,6,3,5,70,70,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.69,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BRONNY'S THREE-POINT
+Dialogue: 0,0:00:00.69,0:00:01.10,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SHOOTING JUMPED
+Dialogue: 0,0:00:01.10,0:00:01.55,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FROM TWENTY-EIGHT
+Dialogue: 0,0:00:01.55,0:00:01.82,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}PERCENT
+Dialogue: 0,0:00:01.82,0:00:02.43,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TO THIRTY-NINE.
+Dialogue: 0,0:00:02.43,0:00:02.85,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SO DID HE
+Dialogue: 0,0:00:02.85,0:00:03.18,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ACTUALLY
+Dialogue: 0,0:00:03.18,0:00:03.73,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}GET BETTER?
+Dialogue: 0,0:00:03.73,0:00:04.69,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SUPPORTERS SAY YES.
+Dialogue: 0,0:00:04.69,0:00:05.27,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FORTY-ONE PERCENT
+Dialogue: 0,0:00:05.27,0:00:05.75,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FROM THE FIELD,
+Dialogue: 0,0:00:05.75,0:00:06.43,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}UP FROM THIRTY-ONE,
+Dialogue: 0,0:00:06.43,0:00:07.06,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND NEARLY THREE
+Dialogue: 0,0:00:07.06,0:00:07.54,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}POINTS A NIGHT
+Dialogue: 0,0:00:07.54,0:00:08.65,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}OVER FORTY-TWO GAMES.
+Dialogue: 0,0:00:08.65,0:00:09.16,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BUT CRITICS
+Dialogue: 0,0:00:09.16,0:00:09.99,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SAY LOOK CLOSER.
+Dialogue: 0,0:00:09.99,0:00:10.44,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HE STARTED
+Dialogue: 0,0:00:10.44,0:00:10.82,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}JUST ONE
+Dialogue: 0,0:00:10.82,0:00:11.48,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}OF THOSE FORTY-TWO
+Dialogue: 0,0:00:11.48,0:00:11.87,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}GAMES,
+Dialogue: 0,0:00:11.87,0:00:12.55,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}PLAYED UNDER NINE
+Dialogue: 0,0:00:12.55,0:00:13.09,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}MINUTES A NIGHT,
+Dialogue: 0,0:00:13.09,0:00:13.82,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND HIS TURNOVERS
+Dialogue: 0,0:00:13.82,0:00:14.27,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TICKED UP,
+Dialogue: 0,0:00:14.27,0:00:15.11,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NOT DOWN.
+Dialogue: 0,0:00:15.11,0:00:15.66,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TRYING TO PROVE
+Dialogue: 0,0:00:15.66,0:00:16.21,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}MYSELF AS BRONNY
+Dialogue: 0,0:00:16.21,0:00:17.08,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}INSTEAD OF LEBRON.
+Dialogue: 0,0:00:17.08,0:00:17.55,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE LAKERS
+Dialogue: 0,0:00:17.55,0:00:17.88,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}DID MAKE
+Dialogue: 0,0:00:17.88,0:00:18.19,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HIS DEAL
+Dialogue: 0,0:00:18.19,0:00:19.13,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FULLY GUARANTEED.
+Dialogue: 0,0:00:19.13,0:00:19.40,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}I'M READY
+Dialogue: 0,0:00:19.40,0:00:19.80,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TO GET OUT
+Dialogue: 0,0:00:19.80,0:00:20.44,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THERE AND PLAY.
+Dialogue: 0,0:00:20.44,0:00:21.05,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SO IS THIRTY-NINE
+Dialogue: 0,0:00:21.05,0:00:21.33,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}PERCENT
+Dialogue: 0,0:00:21.33,0:00:21.81,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}REAL GROWTH,
+Dialogue: 0,0:00:21.81,0:00:22.41,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}OR JUST FORTY-TWO
+Dialogue: 0,0:00:22.41,0:00:23.39,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SMALL GAMES?

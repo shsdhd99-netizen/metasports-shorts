@@ -1,0 +1,527 @@
+[
+ {
+  "word": "A",
+  "start": 0.0,
+  "end": 0.07
+ },
+ {
+  "word": "guaranteed",
+  "start": 0.131,
+  "end": 0.524
+ },
+ {
+  "word": "deal",
+  "start": 0.564,
+  "end": 0.726
+ },
+ {
+  "word": "does",
+  "start": 0.776,
+  "end": 0.897
+ },
+ {
+  "word": "not",
+  "start": 0.927,
+  "end": 1.038
+ },
+ {
+  "word": "guarantee",
+  "start": 1.078,
+  "end": 1.401
+ },
+ {
+  "word": "a",
+  "start": 1.432,
+  "end": 1.452
+ },
+ {
+  "word": "roster",
+  "start": 1.492,
+  "end": 1.754
+ },
+ {
+  "word": "spot.",
+  "start": 1.795,
+  "end": 2.046
+ },
+ {
+  "word": "The",
+  "start": 2.066,
+  "end": 2.158
+ },
+ {
+  "word": "Lakers",
+  "start": 2.208,
+  "end": 2.449
+ },
+ {
+  "word": "have",
+  "start": 2.48,
+  "end": 2.591
+ },
+ {
+  "word": "sixteen",
+  "start": 2.621,
+  "end": 2.923
+ },
+ {
+  "word": "players",
+  "start": 2.963,
+  "end": 3.205
+ },
+ {
+  "word": "for",
+  "start": 3.245,
+  "end": 3.326
+ },
+ {
+  "word": "fifteen",
+  "start": 3.376,
+  "end": 3.649
+ },
+ {
+  "word": "spots,",
+  "start": 3.689,
+  "end": 3.992
+ },
+ {
+  "word": "and",
+  "start": 4.012,
+  "end": 4.133
+ },
+ {
+  "word": "one",
+  "start": 4.193,
+  "end": 4.355
+ },
+ {
+  "word": "is",
+  "start": 4.395,
+  "end": 4.476
+ },
+ {
+  "word": "Bronny",
+  "start": 4.516,
+  "end": 4.738
+ },
+ {
+  "word": "James.",
+  "start": 4.788,
+  "end": 5.11
+ },
+ {
+  "word": "Until",
+  "start": 5.151,
+  "end": 5.373
+ },
+ {
+  "word": "October",
+  "start": 5.423,
+  "end": 5.746
+ },
+ {
+  "word": "twenty-first,",
+  "start": 5.796,
+  "end": 6.28
+ },
+ {
+  "word": "against",
+  "start": 6.3,
+  "end": 6.532
+ },
+ {
+  "word": "Golden",
+  "start": 6.582,
+  "end": 6.824
+ },
+ {
+  "word": "State,",
+  "start": 6.864,
+  "end": 7.106
+ },
+ {
+  "word": "somebody",
+  "start": 7.126,
+  "end": 7.399
+ },
+ {
+  "word": "has",
+  "start": 7.439,
+  "end": 7.55
+ },
+ {
+  "word": "to",
+  "start": 7.6,
+  "end": 7.651
+ },
+ {
+  "word": "go.",
+  "start": 7.691,
+  "end": 7.963
+ },
+ {
+  "word": "But",
+  "start": 7.994,
+  "end": 8.114
+ },
+ {
+  "word": "Yahoo",
+  "start": 8.165,
+  "end": 8.447
+ },
+ {
+  "word": "says",
+  "start": 8.497,
+  "end": 8.648
+ },
+ {
+  "word": "his",
+  "start": 8.689,
+  "end": 8.79
+ },
+ {
+  "word": "name",
+  "start": 8.84,
+  "end": 8.991
+ },
+ {
+  "word": "has",
+  "start": 9.022,
+  "end": 9.112
+ },
+ {
+  "word": "surfaced",
+  "start": 9.152,
+  "end": 9.464
+ },
+ {
+  "word": "as",
+  "start": 9.485,
+  "end": 9.556
+ },
+ {
+  "word": "a",
+  "start": 9.606,
+  "end": 9.626
+ },
+ {
+  "word": "possible",
+  "start": 9.676,
+  "end": 10.03
+ },
+ {
+  "word": "waiver",
+  "start": 10.07,
+  "end": 10.291
+ },
+ {
+  "word": "option,",
+  "start": 10.341,
+  "end": 10.654
+ },
+ {
+  "word": "and",
+  "start": 10.675,
+  "end": 10.755
+ },
+ {
+  "word": "that",
+  "start": 10.795,
+  "end": 10.886
+ },
+ {
+  "word": "Bronny",
+  "start": 10.927,
+  "end": 11.168
+ },
+ {
+  "word": "is",
+  "start": 11.218,
+  "end": 11.289
+ },
+ {
+  "word": "not",
+  "start": 11.34,
+  "end": 11.46
+ },
+ {
+  "word": "completely",
+  "start": 11.501,
+  "end": 11.854
+ },
+ {
+  "word": "insulated.",
+  "start": 11.904,
+  "end": 12.357
+ },
+ {
+  "word": "He",
+  "start": 12.378,
+  "end": 12.448
+ },
+ {
+  "word": "averaged",
+  "start": 12.499,
+  "end": 12.741
+ },
+ {
+  "word": "two",
+  "start": 12.761,
+  "end": 12.892
+ },
+ {
+  "word": "point",
+  "start": 12.943,
+  "end": 13.114
+ },
+ {
+  "word": "nine",
+  "start": 13.154,
+  "end": 13.315
+ },
+ {
+  "word": "points",
+  "start": 13.356,
+  "end": 13.577
+ },
+ {
+  "word": "in",
+  "start": 13.608,
+  "end": 13.658
+ },
+ {
+  "word": "under",
+  "start": 13.708,
+  "end": 13.859
+ },
+ {
+  "word": "nine",
+  "start": 13.91,
+  "end": 14.061
+ },
+ {
+  "word": "minutes",
+  "start": 14.082,
+  "end": 14.313
+ },
+ {
+  "word": "across",
+  "start": 14.353,
+  "end": 14.626
+ },
+ {
+  "word": "forty-two",
+  "start": 14.676,
+  "end": 15.039
+ },
+ {
+  "word": "games.",
+  "start": 15.09,
+  "end": 15.432
+ },
+ {
+  "word": "He",
+  "start": 15.472,
+  "end": 15.573
+ },
+ {
+  "word": "also",
+  "start": 15.624,
+  "end": 15.835
+ },
+ {
+  "word": "played",
+  "start": 15.886,
+  "end": 16.057
+ },
+ {
+  "word": "eight",
+  "start": 16.107,
+  "end": 16.258
+ },
+ {
+  "word": "playoff",
+  "start": 16.279,
+  "end": 16.551
+ },
+ {
+  "word": "games.",
+  "start": 16.592,
+  "end": 16.883
+ },
+ {
+  "word": "Yahoo",
+  "start": 16.934,
+  "end": 17.196
+ },
+ {
+  "word": "says",
+  "start": 17.246,
+  "end": 17.377
+ },
+ {
+  "word": "the",
+  "start": 17.408,
+  "end": 17.469
+ },
+ {
+  "word": "Lakers",
+  "start": 17.508,
+  "end": 17.751
+ },
+ {
+  "word": "have",
+  "start": 17.781,
+  "end": 17.902
+ },
+ {
+  "word": "one",
+  "start": 17.952,
+  "end": 18.073
+ },
+ {
+  "word": "too",
+  "start": 18.094,
+  "end": 18.184
+ },
+ {
+  "word": "many",
+  "start": 18.214,
+  "end": 18.335
+ },
+ {
+  "word": "guaranteed",
+  "start": 18.385,
+  "end": 18.728
+ },
+ {
+  "word": "contracts.",
+  "start": 18.768,
+  "end": 19.273
+ },
+ {
+  "word": "ESPN",
+  "start": 19.313,
+  "end": 19.676
+ },
+ {
+  "word": "says",
+  "start": 19.726,
+  "end": 19.837
+ },
+ {
+  "word": "his",
+  "start": 19.887,
+  "end": 19.979
+ },
+ {
+  "word": "two",
+  "start": 20.018,
+  "end": 20.119
+ },
+ {
+  "word": "point",
+  "start": 20.17,
+  "end": 20.321
+ },
+ {
+  "word": "three",
+  "start": 20.351,
+  "end": 20.512
+ },
+ {
+  "word": "million",
+  "start": 20.552,
+  "end": 20.775
+ },
+ {
+  "word": "for",
+  "start": 20.805,
+  "end": 20.886
+ },
+ {
+  "word": "this",
+  "start": 20.915,
+  "end": 21.007
+ },
+ {
+  "word": "season",
+  "start": 21.037,
+  "end": 21.238
+ },
+ {
+  "word": "is",
+  "start": 21.269,
+  "end": 21.319
+ },
+ {
+  "word": "guaranteed",
+  "start": 21.359,
+  "end": 21.672
+ },
+ {
+  "word": "anyway.",
+  "start": 21.702,
+  "end": 22.054
+ },
+ {
+  "word": "A",
+  "start": 22.085,
+  "end": 22.135
+ },
+ {
+  "word": "guaranteed",
+  "start": 22.196,
+  "end": 22.539
+ },
+ {
+  "word": "deal",
+  "start": 22.568,
+  "end": 22.73
+ },
+ {
+  "word": "still",
+  "start": 22.78,
+  "end": 22.952
+ },
+ {
+  "word": "does",
+  "start": 22.992,
+  "end": 23.103
+ },
+ {
+  "word": "not",
+  "start": 23.134,
+  "end": 23.234
+ },
+ {
+  "word": "remove",
+  "start": 23.274,
+  "end": 23.506
+ },
+ {
+  "word": "him",
+  "start": 23.526,
+  "end": 23.597
+ },
+ {
+  "word": "from",
+  "start": 23.627,
+  "end": 23.728
+ },
+ {
+  "word": "that",
+  "start": 23.758,
+  "end": 23.859
+ },
+ {
+  "word": "sixteen-for-fifteen",
+  "start": 23.91,
+  "end": 24.716
+ },
+ {
+  "word": "crunch.",
+  "start": 24.766,
+  "end": 25.2
+ }
+]

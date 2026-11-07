@@ -1,0 +1,61 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Montserrat Black,86,&H00FFFFFF,&H00FFFFFF,&H00000000,&H99000000,0,0,0,0,95,100,1,0,1,6,3,5,70,70,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.68,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}CAN JOKIC CATCH
+Dialogue: 0,0:00:00.68,0:00:01.25,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}RUSSELL WESTBROOK'S
+Dialogue: 0,0:00:01.25,0:00:01.83,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TWO HUNDRED NINE
+Dialogue: 0,0:00:01.83,0:00:02.31,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}REGULAR-SEASON
+Dialogue: 0,0:00:02.31,0:00:02.95,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TRIPLE-DOUBLES?
+Dialogue: 0,0:00:02.95,0:00:03.28,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WESTBROOK
+Dialogue: 0,0:00:03.28,0:00:03.92,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}JUST RETIRED.
+Dialogue: 0,0:00:03.92,0:00:04.65,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NIKOLA JOKIC SITS
+Dialogue: 0,0:00:04.65,0:00:05.25,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AT ONE NINETY-EIGHT
+Dialogue: 0,0:00:05.25,0:00:05.67,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ON THAT CAREER
+Dialogue: 0,0:00:05.67,0:00:06.00,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}LIST.
+Dialogue: 0,0:00:06.00,0:00:06.62,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ELEVEN AWAY.
+Dialogue: 0,0:00:06.62,0:00:06.87,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BUT HE
+Dialogue: 0,0:00:06.87,0:00:07.37,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HAD THIRTY-FOUR
+Dialogue: 0,0:00:07.37,0:00:07.83,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TRIPLE-DOUBLES
+Dialogue: 0,0:00:07.83,0:00:08.30,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}LAST SEASON,
+Dialogue: 0,0:00:08.30,0:00:09.03,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN JUST SIXTY-FIVE
+Dialogue: 0,0:00:09.03,0:00:09.30,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}GAMES,
+Dialogue: 0,0:00:09.30,0:00:09.81,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND HE STARTED
+Dialogue: 0,0:00:09.81,0:00:10.20,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}EVERY ONE.
+Dialogue: 0,0:00:10.20,0:00:10.66,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ABOUT ONE
+Dialogue: 0,0:00:10.66,0:00:11.32,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}EVERY TWO GAMES.
+Dialogue: 0,0:00:11.32,0:00:11.82,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WESTBROOK ONCE
+Dialogue: 0,0:00:11.82,0:00:12.40,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}GOT FORTY-TWO
+Dialogue: 0,0:00:12.40,0:00:13.42,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN 2016-17,
+Dialogue: 0,0:00:13.42,0:00:13.62,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}STILL
+Dialogue: 0,0:00:13.62,0:00:14.05,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE MOST EVER
+Dialogue: 0,0:00:14.05,0:00:14.48,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN A SEASON.
+Dialogue: 0,0:00:14.48,0:00:14.79,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND ONLY
+Dialogue: 0,0:00:14.79,0:00:15.09,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THOSE TWO
+Dialogue: 0,0:00:15.09,0:00:15.49,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}EVER PASSED
+Dialogue: 0,0:00:15.49,0:00:16.11,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}OSCAR ROBERTSON,
+Dialogue: 0,0:00:16.11,0:00:16.63,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WHO SITS THIRD
+Dialogue: 0,0:00:16.63,0:00:17.39,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AT ONE EIGHTY-ONE.
+Dialogue: 0,0:00:17.39,0:00:17.85,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}JOKIC EVEN
+Dialogue: 0,0:00:17.85,0:00:18.07,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}PUT UP
+Dialogue: 0,0:00:18.07,0:00:18.79,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FIFTY-SIX POINTS,
+Dialogue: 0,0:00:18.79,0:00:19.45,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SIXTEEN REBOUNDS,
+Dialogue: 0,0:00:19.45,0:00:20.11,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND FIFTEEN ASSISTS
+Dialogue: 0,0:00:20.11,0:00:20.53,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ON CHRISTMAS,
+Dialogue: 0,0:00:20.53,0:00:20.89,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE FIRST
+Dialogue: 0,0:00:20.89,0:00:21.34,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FIFTY-FIVE,
+Dialogue: 0,0:00:21.34,0:00:21.65,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H0040E33A&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FIFTEEN,
+Dialogue: 0,0:00:21.65,0:00:22.34,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AND FIFTEEN GAME.
+Dialogue: 0,0:00:22.34,0:00:22.88,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AT THAT PACE,
+Dialogue: 0,0:00:22.88,0:00:23.52,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ELEVEN MORE TAKES
+Dialogue: 0,0:00:23.52,0:00:24.08,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ABOUT TWENTY-ONE
+Dialogue: 0,0:00:24.08,0:00:24.83,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}GAMES.

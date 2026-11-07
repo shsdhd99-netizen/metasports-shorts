@@ -1,0 +1,386 @@
+[
+ {
+  "num": "32",
+  "name": "Spurs 29-pt lead",
+  "craft": 91.0,
+  "topic": 0.85,
+  "priority": 84.2,
+  "verdict": "FIX",
+  "weak": [
+   "6",
+   "9"
+  ],
+  "fail": []
+ },
+ {
+  "num": "29",
+  "name": "Underhand free throws",
+  "craft": 78.0,
+  "topic": 0.95,
+  "priority": 76.0,
+  "verdict": "FIX",
+  "weak": [
+   "3",
+   "5",
+   "8"
+  ],
+  "fail": [
+   "6"
+  ]
+ },
+ {
+  "num": "25",
+  "name": "Bronny better?",
+  "craft": 72.0,
+  "topic": 1.0,
+  "priority": 72.0,
+  "verdict": "FIX",
+  "weak": [
+   "4",
+   "5",
+   "7",
+   "8"
+  ],
+  "fail": [
+   "6"
+  ]
+ },
+ {
+  "num": "11",
+  "name": "Jordan push-off",
+  "craft": 82.0,
+  "topic": 0.7,
+  "priority": 69.7,
+  "verdict": "FIX",
+  "weak": [
+   "4",
+   "6",
+   "9"
+  ],
+  "fail": []
+ },
+ {
+  "num": "21",
+  "name": "Jokic vs Westbrook",
+  "craft": 73.0,
+  "topic": 0.9,
+  "priority": 69.3,
+  "verdict": "FIX",
+  "weak": [
+   "1",
+   "2",
+   "5",
+   "6",
+   "7"
+  ],
+  "fail": []
+ },
+ {
+  "num": "27",
+  "name": "Lotteries",
+  "craft": 74.0,
+  "topic": 0.8,
+  "priority": 66.6,
+  "verdict": "FIX",
+  "weak": [
+   "3",
+   "4"
+  ],
+  "fail": [
+   "6"
+  ]
+ },
+ {
+  "num": "35",
+  "name": "Wemby rugby",
+  "craft": 65.0,
+  "topic": 1.0,
+  "priority": 65.0,
+  "verdict": "FIX",
+  "weak": [
+   "3",
+   "4",
+   "5",
+   "6"
+  ],
+  "fail": [
+   "2"
+  ]
+ },
+ {
+  "num": "15",
+  "name": "Adams GTA",
+  "craft": 68.0,
+  "topic": 0.9,
+  "priority": 64.6,
+  "verdict": "FIX",
+  "weak": [
+   "2",
+   "4",
+   "5",
+   "6",
+   "9"
+  ],
+  "fail": [
+   "8"
+  ]
+ },
+ {
+  "num": "13",
+  "name": "Kawhi picks",
+  "craft": 71.0,
+  "topic": 0.7,
+  "priority": 60.4,
+  "verdict": "FIX",
+  "weak": [
+   "4",
+   "5",
+   "7",
+   "9"
+  ],
+  "fail": [
+   "6"
+  ]
+ },
+ {
+  "num": "30",
+  "name": "Giannis steps",
+  "craft": 67.0,
+  "topic": 0.8,
+  "priority": 60.3,
+  "verdict": "FIX",
+  "weak": [
+   "4"
+  ],
+  "fail": [
+   "3",
+   "6"
+  ]
+ },
+ {
+  "num": "14",
+  "name": "Four stars push-off",
+  "craft": 67.0,
+  "topic": 0.8,
+  "priority": 60.3,
+  "verdict": "FIX",
+  "weak": [
+   "1",
+   "5",
+   "6",
+   "7"
+  ],
+  "fail": [
+   "2"
+  ]
+ },
+ {
+  "num": "34",
+  "name": "2007 top four",
+  "craft": 64.0,
+  "topic": 0.85,
+  "priority": 59.2,
+  "verdict": "FIX",
+  "weak": [
+   "1",
+   "3",
+   "5",
+   "6",
+   "7"
+  ],
+  "fail": [
+   "9"
+  ]
+ },
+ {
+  "num": "16",
+  "name": "Giannis Vice City",
+  "craft": 58.0,
+  "topic": 0.8,
+  "priority": 52.2,
+  "verdict": "FIX",
+  "weak": [
+   "3",
+   "4",
+   "5",
+   "7",
+   "9"
+  ],
+  "fail": [
+   "6",
+   "8"
+  ]
+ },
+ {
+  "num": "17",
+  "name": "Flopping",
+  "craft": 58.0,
+  "topic": 0.8,
+  "priority": 52.2,
+  "verdict": "FIX",
+  "weak": [
+   "1",
+   "3",
+   "4",
+   "6",
+   "7",
+   "8",
+   "9"
+  ],
+  "fail": []
+ },
+ {
+  "num": "24",
+  "name": "Bronny roster spot",
+  "craft": 51.0,
+  "topic": 1.0,
+  "priority": 51.0,
+  "verdict": "FIX",
+  "weak": [
+   "1",
+   "2",
+   "3",
+   "4",
+   "7",
+   "8"
+  ],
+  "fail": [
+   "6"
+  ]
+ },
+ {
+  "num": "33",
+  "name": "Runs out of players",
+  "craft": 55.0,
+  "topic": 0.8,
+  "priority": 49.5,
+  "verdict": "FIX",
+  "weak": [
+   "1",
+   "3",
+   "4",
+   "5",
+   "8",
+   "9"
+  ],
+  "fail": [
+   "6"
+  ]
+ },
+ {
+  "num": "28",
+  "name": "NBA Cup at Hinkle",
+  "craft": 56.0,
+  "topic": 0.75,
+  "priority": 49.0,
+  "verdict": "FIX",
+  "weak": [
+   "1",
+   "3",
+   "6",
+   "9"
+  ],
+  "fail": [
+   "4"
+  ]
+ },
+ {
+  "num": "23",
+  "name": "Father vs son (HOLD to Oct 21)",
+  "craft": 48.0,
+  "topic": 1.0,
+  "priority": 48.0,
+  "verdict": "REWRITE",
+  "weak": [
+   "1",
+   "3",
+   "5",
+   "7",
+   "8",
+   "9"
+  ],
+  "fail": [
+   "2",
+   "6"
+  ]
+ },
+ {
+  "num": "20",
+  "name": "Bad Boys defense",
+  "craft": 53.0,
+  "topic": 0.8,
+  "priority": 47.7,
+  "verdict": "FIX",
+  "weak": [
+   "1",
+   "3",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9"
+  ],
+  "fail": [
+   "2"
+  ]
+ },
+ {
+  "num": "26",
+  "name": "Screens",
+  "craft": 48.0,
+  "topic": 0.8,
+  "priority": 43.2,
+  "verdict": "REWRITE",
+  "weak": [
+   "1",
+   "6",
+   "7",
+   "8",
+   "9"
+  ],
+  "fail": [
+   "2",
+   "3"
+  ]
+ },
+ {
+  "num": "01",
+  "name": "LeBron minimum (contract)",
+  "craft": 51.0,
+  "topic": 0.5,
+  "priority": 38.2,
+  "verdict": "REWRITE",
+  "weak": [
+   "2",
+   "3",
+   "4",
+   "5",
+   "7",
+   "8"
+  ],
+  "fail": [
+   "6",
+   "9"
+  ]
+ },
+ {
+  "num": "19",
+  "name": "Flagg height",
+  "craft": 40.0,
+  "topic": 0.75,
+  "priority": 35.0,
+  "verdict": "REWRITE",
+  "weak": [
+   "1",
+   "2",
+   "3",
+   "5",
+   "7",
+   "8"
+  ],
+  "fail": [
+   "4",
+   "6"
+  ]
+ }
+]

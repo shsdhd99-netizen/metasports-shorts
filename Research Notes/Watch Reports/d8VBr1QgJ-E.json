@@ -1,0 +1,285 @@
+{
+ "length_s": 62.0,
+ "topic": "The chaotic life story and mysterious death of tech founder John McAfee.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "John McAfee wrote one of the first antivirus programs",
+  "first_frame": "Animated stick figure with John McAfee head in a retro hotel bedroom next to a computer desktop.",
+  "on_screen_text_0_3s": "JOHN MCAFEE WROTE ONE OF THE FIRST",
+  "shots_in_first_3s": 2
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 2.75,
+   "shows": "Stick figure John McAfee standing near retro computer and typing.",
+   "kind": "action"
+  },
+  {
+   "start_s": 2.75,
+   "end_s": 3.75,
+   "shows": "Big text card '1987' appearing over room background.",
+   "kind": "text_card"
+  },
+  {
+   "start_s": 3.75,
+   "end_s": 5.0,
+   "shows": "McAfee handing floppy disk antivirus to another stick figure.",
+   "kind": "action"
+  },
+  {
+   "start_s": 5.0,
+   "end_s": 7.0,
+   "shows": "McAfee standing by table while money bag graphic pops up.",
+   "kind": "action"
+  },
+  {
+   "start_s": 7.0,
+   "end_s": 8.0,
+   "shows": "Multiple stick figures receiving McAfee antivirus disks.",
+   "kind": "action"
+  },
+  {
+   "start_s": 8.0,
+   "end_s": 11.75,
+   "shows": "Close-up on computer monitor displaying a computer virus bug, then a mailing list document.",
+   "kind": "action"
+  },
+  {
+   "start_s": 11.75,
+   "end_s": 14.0,
+   "shows": "Stock photo background of stock exchange display showing McAfee IPO 1992.",
+   "kind": "still"
+  },
+  {
+   "start_s": 14.0,
+   "end_s": 16.75,
+   "shows": "McAfee selling share transfer certificate to investor.",
+   "kind": "action"
+  },
+  {
+   "start_s": 16.75,
+   "end_s": 21.0,
+   "shows": "Title 'TWO YEARS LATER' over executive office with McAfee holding $100M money bag.",
+   "kind": "action"
+  },
+  {
+   "start_s": 21.0,
+   "end_s": 24.75,
+   "shows": "Intel buys McAfee acquisition certificate close-up.",
+   "kind": "action"
+  },
+  {
+   "start_s": 24.75,
+   "end_s": 27.25,
+   "shows": "Year 2010 text card in executive office setting.",
+   "kind": "text_card"
+  },
+  {
+   "start_s": 27.25,
+   "end_s": 31.0,
+   "shows": "McAfee stick figure with Belize flag in front of mansion flanked by armed guards.",
+   "kind": "action"
+  },
+  {
+   "start_s": 31.0,
+   "end_s": 33.75,
+   "shows": "McAfee in chemistry lab making illegal antibiotics with lab equipment.",
+   "kind": "action"
+  },
+  {
+   "start_s": 33.75,
+   "end_s": 34.75,
+   "shows": "Text card '2012' over mansion background.",
+   "kind": "text_card"
+  },
+  {
+   "start_s": 34.75,
+   "end_s": 38.75,
+   "shows": "Neighbor stick figure collapsing; police officer showing 'Person of Interest' wanted poster.",
+   "kind": "action"
+  },
+  {
+   "start_s": 38.75,
+   "end_s": 41.0,
+   "shows": "McAfee fleeing through jungle holding a selfie stick live blogging.",
+   "kind": "action"
+  },
+  {
+   "start_s": 41.0,
+   "end_s": 43.5,
+   "shows": "Guatemala asylum desk scene, police deporting McAfee.",
+   "kind": "action"
+  },
+  {
+   "start_s": 43.5,
+   "end_s": 45.75,
+   "shows": "Statue of Liberty background, McAfee claiming innocence speech bubble.",
+   "kind": "action"
+  },
+  {
+   "start_s": 45.75,
+   "end_s": 48.25,
+   "shows": "McAfee presidential campaign stage, police handing tax indictment paper.",
+   "kind": "action"
+  },
+  {
+   "start_s": 48.25,
+   "end_s": 49.25,
+   "shows": "Close-up image of federal indictment notice document.",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 49.25,
+   "end_s": 50.5,
+   "shows": "McAfee arrested in Spain in front of storefront.",
+   "kind": "action"
+  },
+  {
+   "start_s": 50.5,
+   "end_s": 51.25,
+   "shows": "Text card '2020' over street scene.",
+   "kind": "text_card"
+  },
+  {
+   "start_s": 51.25,
+   "end_s": 53.75,
+   "shows": "McAfee stick figure behind Spanish prison bars.",
+   "kind": "action"
+  },
+  {
+   "start_s": 53.75,
+   "end_s": 56.5,
+   "shows": "Close-up of smartphone screen displaying McAfee's infamous tweet about non-suicide.",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 56.5,
+   "end_s": 57.75,
+   "shows": "Text card '3 MONTHS LATER' over prison bars.",
+   "kind": "text_card"
+  },
+  {
+   "start_s": 57.75,
+   "end_s": 100.5,
+   "shows": "McAfee lying dead on prison floor, officer holding clipboard marked 'SUICIDE'.",
+   "kind": "action"
+  },
+  {
+   "start_s": 100.5,
+   "end_s": 102.0,
+   "shows": "Corporate office with McAfee branding.",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 27,
+ "average_shot_s": 2.3,
+ "longest_shot_s": 4.25,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 165,
+  "tone": "engaging, punchy, dramatic",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "synth atmospheric background beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [
+  {
+   "at_s": 0.5,
+   "sound": "whoosh / pop"
+  },
+  {
+   "at_s": 12.0,
+   "sound": "paper slide sound"
+  },
+  {
+   "at_s": 35.5,
+   "sound": "gunshot / thud effect"
+  },
+  {
+   "at_s": 54.0,
+   "sound": "notification chime"
+  }
+ ],
+ "captions": {
+  "present": true,
+  "words_per_line": 1,
+  "case": "ALL CAPS",
+  "position": "top",
+  "colours": "white text on black stroke",
+  "highlight_style": "pop up text per word"
+ },
+ "text_overlays": [
+  {
+   "at_s": 2.75,
+   "text": "1987"
+  },
+  {
+   "at_s": 12.0,
+   "text": "1992"
+  },
+  {
+   "at_s": 16.75,
+   "text": "TWO YEARS LATER"
+  },
+  {
+   "at_s": 25.0,
+   "text": "2010"
+  },
+  {
+   "at_s": 34.0,
+   "text": "2012"
+  },
+  {
+   "at_s": 50.5,
+   "text": "2020"
+  },
+  {
+   "at_s": 52.75,
+   "text": "2021"
+  },
+  {
+   "at_s": 56.75,
+   "text": "3 MONTHS LATER"
+  }
+ ],
+ "cards_or_graphics": 8,
+ "framing": "crop",
+ "ending": {
+  "last_words": "The company still carries his name.",
+  "last_frame": "Corporate executive desk under McAfee logo background with stick figure sitting at desk.",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "John McAfee wrote one of the first antivirus programs in 1987 and gave it away for free. He wasn't being generous, he was building the market. Every time a new virus appeared and his software caught it, his mailing list grew. By 1992, McAfee Associates was a public company. McAfee sold his stake and left two years later with roughly $100 million and no interest in running a software business. Until Intel bought the company he'd founded for $7.68 billion in 2010, McAfee was not involved. By then, he had moved to Belize, was running a compound with armed guards, and claimed to be manufacturing illegal antibiotics. In 2012, his neighbor was shot and killed. McAfee was named a person of interest. He fled through the jungle, live-blogging his escape, sought asylum in Guatemala, was deported, and surfaced in the US claiming innocence. He ran for president twice, was indicted for tax evasion, and was arrested in Spain in 2020. From a Spanish prison cell in 2021, he tweeted that if he was ever found dead, it would not be suicide. Three months later, he was found dead in that cell. It was ruled a suicide. The company still carries his name.",
+ "retention_tricks": [
+  "Rapid stick-figure animation paired with real photos and cutouts",
+  "Escalating story rhythm filled with shocking real-life events",
+  "Conspiracy twist near the end using his actual famous tweet screenshot"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": false,
+  "ends_on_payoff": true,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "Humorous stick-figure cutout aesthetic simplifies complex historical narratives into bitesize comic beats.",
+  "Incredible escalation from software engineer to international fugitive keeps viewer curiosity high throughout.",
+  "Strong payoff landing on his conspiracy tweet right before his mysterious death."
+ ],
+ "_meta": {
+  "source": "d8VBr1QgJ-E",
+  "model": "gemini-3.6-flash",
+  "fps": 4.0,
+  "watched": "2026-11-05",
+  "tier": "[S] model-observed, not measured"
+ }
+}

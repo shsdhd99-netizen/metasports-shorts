@@ -1,0 +1,69 @@
+{
+ "verdict": "REDO",
+ "wpm": 210,
+ "issues": [
+  " 0.00s  script \"ninety 2 point\" but heard \"92\"",
+  " 6.96s  script \"knicks\" but heard \"nix\"",
+  " 7.26s  script \"a 100 and 1\" but heard \"101\"",
+  "11.32s  script \"quote\" but heard \"(nothing)\"",
+  "15.06s  script \"eighty 9\" but heard \"89\"",
+  "16.62s  script \"knicks ninety 6\" but heard \"nix 96\"",
+  "18.96s  script \"1 oh 4 point\" but heard \"104\"",
+  "20.20s  script \"knicks 1 oh 4 point\" but heard \"nix 104\""
+ ],
+ "notes": [
+  "17.61s  dragging sentence (148 wpm): Per hundred possessions, Detroit allowed one-oh-four-point-f",
+  "13.96s  very quiet word \"marginal.\" (-23 dB)"
+ ],
+ "heard": "92 .9. That is what the bad boy Pistons allowed per game in the 1989 playoffs. Nobody defends like that anymore, right? Last season's champion, Nix allowed 101. Now the NBA just told refs to call grabbing a cutter and bumping a dribbler. He makes contact that is clearly more than marginal. But Detroit played 89 possessions a game. The Nix 96. Per 100 possessions, Detroit allowed 104 .5. The Nix 104 .9. Best defense of 1989. Best defense of 2026. Four tenths of a point apart.",
+ "mismatches": [
+  {
+   "at": 0.0,
+   "script": "ninety 2 point",
+   "heard": "92",
+   "similar": 0.14
+  },
+  {
+   "at": 6.96,
+   "script": "knicks",
+   "heard": "nix",
+   "similar": 0.44
+  },
+  {
+   "at": 7.26,
+   "script": "a 100 and 1",
+   "heard": "101",
+   "similar": 0.55
+  },
+  {
+   "at": 11.32,
+   "script": "quote",
+   "heard": "",
+   "similar": 0.0
+  },
+  {
+   "at": 15.06,
+   "script": "eighty 9",
+   "heard": "89",
+   "similar": 0.22
+  },
+  {
+   "at": 16.62,
+   "script": "knicks ninety 6",
+   "heard": "nix 96",
+   "similar": 0.33
+  },
+  {
+   "at": 18.96,
+   "script": "1 oh 4 point",
+   "heard": "104",
+   "similar": 0.33
+  },
+  {
+   "at": 20.2,
+   "script": "knicks 1 oh 4 point",
+   "heard": "nix 104",
+   "similar": 0.38
+  }
+ ]
+}

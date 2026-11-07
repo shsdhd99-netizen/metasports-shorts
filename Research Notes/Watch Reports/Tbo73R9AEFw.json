@@ -1,0 +1,115 @@
+{
+ "length_s": 37.1,
+ "topic": "A compilation of incredible and funny NFL touchdown celebrations.",
+ "lane": "moment",
+ "hook": {
+  "first_words": "7",
+  "first_frame": "An NFL football field with players running, and a picture-in-picture box of a man at the bottom.",
+  "on_screen_text_0_3s": "\"10/10 Celebration\"",
+  "shots_in_first_3s": 2
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 4.9,
+   "shows": "NFL player runs into the endzone and jumps into the goalpost padding.",
+   "kind": "action"
+  },
+  {
+   "start_s": 4.9,
+   "end_s": 11.8,
+   "shows": "NFL player celebrates by high kicking near the cheerleaders.",
+   "kind": "action"
+  },
+  {
+   "start_s": 11.8,
+   "end_s": 16.9,
+   "shows": "NFL player does a backflip into the endzone.",
+   "kind": "action"
+  },
+  {
+   "start_s": 16.9,
+   "end_s": 24.7,
+   "shows": "NFL player mimics riding a horse in the endzone.",
+   "kind": "action"
+  },
+  {
+   "start_s": 24.7,
+   "end_s": 31.5,
+   "shows": "NFL player does a backflip and kneels in prayer in the endzone.",
+   "kind": "action"
+  },
+  {
+   "start_s": 31.5,
+   "end_s": 37.1,
+   "shows": "NFL player slides on knees in the endzone.",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 6,
+ "average_shot_s": 6.18,
+ "longest_shot_s": 7.8,
+ "voice": {
+  "type": "human",
+  "gender": "male",
+  "words_per_minute_estimate": 130,
+  "tone": "casual",
+  "original_audio_under_voice": true
+ },
+ "music": {
+  "present": true,
+  "style": "hip hop beat",
+  "level_vs_voice": "equal",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 2,
+  "case": "mixed",
+  "position": "middle",
+  "colours": [
+   "white"
+  ],
+  "highlight_style": "none"
+ },
+ "text_overlays": [
+  {
+   "at_s": 0.2,
+   "text": "\"10/10 Celebration\""
+  }
+ ],
+ "cards_or_graphics": 0,
+ "framing": "crop",
+ "ending": {
+  "last_words": "swear I love her",
+  "last_frame": "NFL player on his knees celebrating in the end zone.",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "7, 38, 57, 38, 7, 30, 6, 80, 56, 100, 24, 70, 96, 68, 56, 100, 68, 56, 100, 68, 80, 56, 100, 68, 56, 100, 50, 66, 75, 68, 56, 100, 50, 80, 56, 100, I swear I love her",
+ "retention_tricks": [
+  "rapid-fire sports highlight cuts",
+  "overlay reaction video at the bottom"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": false,
+  "ends_on_payoff": false,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "High-energy NFL touchdown celebrations",
+  "Constant visual changes keep viewer attention",
+  "Reaction insert adds a humorous talking-head element"
+ ],
+ "_meta": {
+  "source": "Tbo73R9AEFw",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

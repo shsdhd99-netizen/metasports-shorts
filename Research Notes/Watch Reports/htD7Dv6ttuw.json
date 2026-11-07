@@ -1,0 +1,131 @@
+{
+ "length_s": 33.7,
+ "topic": "A compilation of funny soccer edits involving AI-generated meme characters inserted into real match footage.",
+ "lane": "moment",
+ "hook": {
+  "first_words": "unknown",
+  "first_frame": "A person running outdoors in athletic shorts with three icons (bicycle, golf cart, car) overhead.",
+  "on_screen_text_0_3s": "none",
+  "shots_in_first_3s": 1
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 5.2,
+   "shows": "A man running next to a car, transitioning to a yellow hulk-like figure running.",
+   "kind": "action"
+  },
+  {
+   "start_s": 5.2,
+   "end_s": 8.5,
+   "shows": "Soccer players standing together on a pitch, edited to show one holding another's arm.",
+   "kind": "action"
+  },
+  {
+   "start_s": 8.5,
+   "end_s": 10.6,
+   "shows": "AI-generated image of two soccer players dressed as a groom in uniform and a bride in a wedding dress.",
+   "kind": "still"
+  },
+  {
+   "start_s": 10.6,
+   "end_s": 13.7,
+   "shows": "Soccer match clip where a player dribbles past a defender who falls down.",
+   "kind": "action"
+  },
+  {
+   "start_s": 13.7,
+   "end_s": 16.0,
+   "shows": "A child sitting on the floor in a decorated nursery room.",
+   "kind": "still"
+  },
+  {
+   "start_s": 16.0,
+   "end_s": 18.7,
+   "shows": "Soccer match clip with a high-flying kick challenge between players.",
+   "kind": "action"
+  },
+  {
+   "start_s": 18.7,
+   "end_s": 20.7,
+   "shows": "Two fighters in a cage fighting ring executing a flying kick.",
+   "kind": "still"
+  },
+  {
+   "start_s": 20.7,
+   "end_s": 26.2,
+   "shows": "Soccer player dribbling against a heavy player edited with an octopus lower body.",
+   "kind": "action"
+  },
+  {
+   "start_s": 26.2,
+   "end_s": 33.7,
+   "shows": "Soccer match goal sequence edited with a clown lying on the ground.",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 9,
+ "average_shot_s": 3.74,
+ "longest_shot_s": 7.5,
+ "voice": {
+  "type": "none",
+  "gender": "unknown",
+  "words_per_minute_estimate": 0,
+  "tone": "unknown",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "Upbeat remix or electronic meme beat",
+  "level_vs_voice": "loud",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": false,
+  "words_per_line": 0,
+  "case": "mixed",
+  "position": "bottom",
+  "colours": "unknown",
+  "highlight_style": "unknown"
+ },
+ "text_overlays": [
+  {
+   "at_s": 5.2,
+   "text": "VINI JR 🤝 KYLIAN MBAPPÉ"
+  }
+ ],
+ "cards_or_graphics": 0,
+ "framing": "crop",
+ "ending": {
+  "last_words": "unknown",
+  "last_frame": "A soccer player kicking the ball while a clown lies on the pitch.",
+  "loops_to_start": true,
+  "call_to_action": "none"
+ },
+ "script": "",
+ "retention_tricks": [
+  "Rapid cuts between surprising AI-edited sports moments",
+  "Unexpected visual transformations (e.g., players turning into a bride/groom, octopus, clown)"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": false,
+  "ends_on_payoff": true,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "Absurdist AI edits injected into real football footage",
+  "High-energy sync between music beat drops and visual changes",
+  "Surprise transformations that subvert viewer expectations"
+ ],
+ "_meta": {
+  "source": "htD7Dv6ttuw",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

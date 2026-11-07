@@ -1,0 +1,64 @@
+{
+ "verdict": "CHECK",
+ "wpm": 214,
+ "issues": [],
+ "notes": [
+  "17.12s  script \"won\" but heard \"1\"",
+  "35.62s  script \"won\" but heard \"1\"",
+  " 4.00s  \"emiliano\" heard as \"miliano\" (close; check the name)",
+  " 9.98s  \"before tchouameni\" heard as \"cho amenay\" (close; check the name)",
+  "14.94s  \"tchouameni\" heard as \"chu amenay\" (close; check the name)",
+  "29.96s  \"the\" heard as \"\" (close; check the name)",
+  "48.94s  \"the\" heard as \"\" (close; check the name)",
+  " 2.75s  dragging sentence (165 wpm): Back in 2022, Emiliano Martinez helped Argentina win the Wor",
+  "37.06s  dragging sentence (166 wpm): Argentina never got their shootout.",
+  "14.56s  very quiet word \"it.\" (-21 dB)",
+  "28.91s  very quiet word \"We\" (-13 dB)",
+  "29.81s  very quiet word \"The\" (-23 dB)"
+ ],
+ "heard": "The goalkeeper who says Spain were scared of a shootout. Back in 2022, Miliano Martinez helped Argentina win the World Cup final on penalties. He saved Kingsley Coman's kick. Then, Cho Amenay stepped up, Martinez threw the ball away, so he had to walk over and fetch it. Chu Amenay fired wide. Argentina won 4 -2. This summer, Argentina were back in the final against Spain. Martinez says he played the whole tournament with a broken finger, and he says Spain knew exactly who was waiting for them. He heard their players say, We have to win here. We can't go to penalties. final went to extra time, still goalless. Then early in the second half of extra time, Ferran Torres scored. Spain won 1 -0. Argentina never got their shootout. Martinez says one of Spain's goalkeepers even told him, thank god they won the match, and he's sure how it would have ended. If we had reached penalties, we would have won. I felt it was my day, but here's the wild part. goalkeeper who won a World Cup on penalties lost the next World Cup final without facing a single one.",
+ "mismatches": [
+  {
+   "at": 4.0,
+   "script": "emiliano",
+   "heard": "miliano",
+   "similar": 0.93
+  },
+  {
+   "at": 9.98,
+   "script": "before tchouameni",
+   "heard": "cho amenay",
+   "similar": 0.72
+  },
+  {
+   "at": 14.94,
+   "script": "tchouameni",
+   "heard": "chu amenay",
+   "similar": 0.74
+  },
+  {
+   "at": 17.12,
+   "script": "won",
+   "heard": "1",
+   "similar": 0.0
+  },
+  {
+   "at": 29.96,
+   "script": "the",
+   "heard": "",
+   "similar": 1.0
+  },
+  {
+   "at": 35.62,
+   "script": "won",
+   "heard": "1",
+   "similar": 0.0
+  },
+  {
+   "at": 48.94,
+   "script": "the",
+   "heard": "",
+   "similar": 1.0
+  }
+ ]
+}

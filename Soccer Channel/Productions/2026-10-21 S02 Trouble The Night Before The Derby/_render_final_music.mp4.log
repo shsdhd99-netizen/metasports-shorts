@@ -1,0 +1,10 @@
+Voice 63.0s -> 48 shots from 48 clips
+Drift not found: using the ffmpeg engine
+  music: Library/Music/eleven_story_01.mp3 from 0.0s, bed -20.0 LU under the voice (gain -19.5 dB), 1 gap lift(s), 0 drop(s)
+  final pass with h264_nvenc failed: [h264_nvenc @ 0x5606b71f9480] Cannot load libcuda.so.1
+[vost#0:0/h264_nvenc @ 0x5606b71f90c0] Error while opening encoder - maybe incorrect parameters such as bit_rate, rate, width or height.
+Error while filtering: Operation not permitted
+[out#0/mp4 @ 0x5606b71f8340] Nothing was written into output file, because at least one of its streams received no packets.
+
+  captions burned (ahmed) + 5 sound effect(s), voice lifted +10.6 dB to -14 LUFS, effects mixed under it
+Done: /home/user/metasports-shorts/Soccer Channel/Productions/2026-10-21 S02 Trouble The Night Before The Derby/final_music.mp4 (63.0s)

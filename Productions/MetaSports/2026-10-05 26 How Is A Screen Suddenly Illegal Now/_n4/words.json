@@ -1,0 +1,57 @@
+[
+ {
+  "word": "The",
+  "start": 0.0,
+  "end": 0.141
+ },
+ {
+  "word": "line",
+  "start": 0.195,
+  "end": 0.401
+ },
+ {
+  "word": "isn't",
+  "start": 0.422,
+  "end": 0.606
+ },
+ {
+  "word": "contact.",
+  "start": 0.638,
+  "end": 1.049
+ },
+ {
+  "word": "It's",
+  "start": 1.071,
+  "end": 1.201
+ },
+ {
+  "word": "whether",
+  "start": 1.234,
+  "end": 1.45
+ },
+ {
+  "word": "the",
+  "start": 1.493,
+  "end": 1.558
+ },
+ {
+  "word": "defender",
+  "start": 1.591,
+  "end": 1.894
+ },
+ {
+  "word": "can",
+  "start": 1.936,
+  "end": 2.045
+ },
+ {
+  "word": "still",
+  "start": 2.088,
+  "end": 2.272
+ },
+ {
+  "word": "play.",
+  "start": 2.316,
+  "end": 2.64
+ }
+]

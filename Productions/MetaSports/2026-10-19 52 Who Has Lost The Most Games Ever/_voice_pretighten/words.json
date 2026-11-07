@@ -1,0 +1,327 @@
+[
+ {
+  "word": "Vince",
+  "start": 0.0,
+  "end": 0.185
+ },
+ {
+  "word": "Carter",
+  "start": 0.246,
+  "end": 0.554
+ },
+ {
+  "word": "lost",
+  "start": 0.677,
+  "end": 0.8
+ },
+ {
+  "word": "more",
+  "start": 0.862,
+  "end": 0.985
+ },
+ {
+  "word": "games",
+  "start": 1.046,
+  "end": 1.292
+ },
+ {
+  "word": "than",
+  "start": 1.354,
+  "end": 1.538
+ },
+ {
+  "word": "anyone",
+  "start": 1.662,
+  "end": 1.908
+ },
+ {
+  "word": "in",
+  "start": 1.969,
+  "end": 2.092
+ },
+ {
+  "word": "NBA",
+  "start": 2.154,
+  "end": 2.462
+ },
+ {
+  "word": "history.",
+  "start": 2.585,
+  "end": 3.163
+ },
+ {
+  "word": "756.",
+  "start": 3.225,
+  "end": 4.613
+ },
+ {
+  "word": "And",
+  "start": 4.644,
+  "end": 4.675
+ },
+ {
+  "word": "he's",
+  "start": 4.736,
+  "end": 4.859
+ },
+ {
+  "word": "in",
+  "start": 4.89,
+  "end": 4.921
+ },
+ {
+  "word": "the",
+  "start": 4.952,
+  "end": 4.982
+ },
+ {
+  "word": "Hall",
+  "start": 5.044,
+  "end": 5.105
+ },
+ {
+  "word": "of",
+  "start": 5.167,
+  "end": 5.228
+ },
+ {
+  "word": "Fame.",
+  "start": 5.29,
+  "end": 5.782
+ },
+ {
+  "word": "Second",
+  "start": 5.728,
+  "end": 6.036
+ },
+ {
+  "word": "is",
+  "start": 6.098,
+  "end": 6.159
+ },
+ {
+  "word": "Jamal",
+  "start": 6.221,
+  "end": 6.467
+ },
+ {
+  "word": "Crawford:",
+  "start": 6.528,
+  "end": 7.144
+ },
+ {
+  "word": "718.",
+  "start": 7.205,
+  "end": 8.249
+ },
+ {
+  "word": "Even",
+  "start": 8.342,
+  "end": 8.434
+ },
+ {
+  "word": "Carter's",
+  "start": 8.557,
+  "end": 8.926
+ },
+ {
+  "word": "last",
+  "start": 9.049,
+  "end": 9.172
+ },
+ {
+  "word": "game",
+  "start": 9.234,
+  "end": 9.418
+ },
+ {
+  "word": "was",
+  "start": 9.48,
+  "end": 9.542
+ },
+ {
+  "word": "a",
+  "start": 9.603,
+  "end": 9.634
+ },
+ {
+  "word": "loss,",
+  "start": 9.665,
+  "end": 10.095
+ },
+ {
+  "word": "at",
+  "start": 10.188,
+  "end": 10.28
+ },
+ {
+  "word": "forty-three",
+  "start": 10.342,
+  "end": 10.711
+ },
+ {
+  "word": "years",
+  "start": 10.772,
+  "end": 10.957
+ },
+ {
+  "word": "old.",
+  "start": 11.018,
+  "end": 11.321
+ },
+ {
+  "word": "But",
+  "start": 11.382,
+  "end": 11.444
+ },
+ {
+  "word": "his",
+  "start": 11.505,
+  "end": 11.567
+ },
+ {
+  "word": "last",
+  "start": 11.628,
+  "end": 11.813
+ },
+ {
+  "word": "shot",
+  "start": 11.905,
+  "end": 11.998
+ },
+ {
+  "word": "went",
+  "start": 12.059,
+  "end": 12.182
+ },
+ {
+  "word": "in.",
+  "start": 12.244,
+  "end": 12.521
+ },
+ {
+  "word": "A",
+  "start": 12.675,
+  "end": 12.736
+ },
+ {
+  "word": "three.",
+  "start": 12.859,
+  "end": 13.382
+ },
+ {
+  "word": "So",
+  "start": 13.338,
+  "end": 13.461
+ },
+ {
+  "word": "was",
+  "start": 13.522,
+  "end": 13.584
+ },
+ {
+  "word": "he",
+  "start": 13.615,
+  "end": 13.645
+ },
+ {
+  "word": "a",
+  "start": 13.707,
+  "end": 13.738
+ },
+ {
+  "word": "loser?",
+  "start": 13.768,
+  "end": 14.076
+ },
+ {
+  "word": "No.",
+  "start": 14.287,
+  "end": 14.656
+ },
+ {
+  "word": "Carter",
+  "start": 14.631,
+  "end": 14.877
+ },
+ {
+  "word": "won",
+  "start": 14.938,
+  "end": 15.123
+ },
+ {
+  "word": "785",
+  "start": 15.185,
+  "end": 16.046
+ },
+ {
+  "word": "games.",
+  "start": 16.169,
+  "end": 16.603
+ },
+ {
+  "word": "He",
+  "start": 16.665,
+  "end": 16.726
+ },
+ {
+  "word": "lost",
+  "start": 16.788,
+  "end": 17.095
+ },
+ {
+  "word": "756.",
+  "start": 17.157,
+  "end": 18.3
+ },
+ {
+  "word": "He",
+  "start": 18.342,
+  "end": 18.382
+ },
+ {
+  "word": "just",
+  "start": 18.444,
+  "end": 18.505
+ },
+ {
+  "word": "played",
+  "start": 18.567,
+  "end": 18.69
+ },
+ {
+  "word": "more",
+  "start": 18.752,
+  "end": 18.875
+ },
+ {
+  "word": "seasons",
+  "start": 18.936,
+  "end": 19.244
+ },
+ {
+  "word": "than",
+  "start": 19.336,
+  "end": 19.428
+ },
+ {
+  "word": "anyone",
+  "start": 19.552,
+  "end": 19.736
+ },
+ {
+  "word": "but",
+  "start": 19.798,
+  "end": 19.859
+ },
+ {
+  "word": "LeBron:",
+  "start": 19.921,
+  "end": 20.536
+ },
+ {
+  "word": "22.",
+  "start": 20.628,
+  "end": 21.275
+ }
+]

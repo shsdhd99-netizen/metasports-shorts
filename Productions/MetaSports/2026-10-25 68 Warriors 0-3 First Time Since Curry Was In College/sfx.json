@@ -1,0 +1,5 @@
+[
+ {"sfx": "boom", "at": 2.6, "why": "19 YEARS lands"},
+ {"sfx": "ding", "at": 10.85, "why": "17 SEASONS appears"},
+ {"sfx": "boom_cinematic", "at": 22.9, "len": 1.1, "fade": 0.6, "why": "the last 0-3; trimmed and faded so it dies away before the end"}
+]

@@ -1,0 +1,266 @@
+{
+ "length_s": 70.8,
+ "topic": "An explainer on why Kawhi Leonard's 2019 signing with the Los Angeles Clippers is the costliest free agency signing in NBA history due to subsequent penalties and trades.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "Is Kawhi Leonard the costliest free agency signing of all time?",
+  "first_frame": "A basketball game clip featuring Kawhi Leonard and Shai Gilgeous-Alexander on the court.",
+  "on_screen_text_0_3s": "Is Kawhi Leonard the COSTLIEST free agency SIGNING of ALL TIME?",
+  "shots_in_first_3s": 1
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 3.0,
+   "shows": "Basketball game action with Kawhi Leonard on court",
+   "kind": "action"
+  },
+  {
+   "start_s": 3.0,
+   "end_s": 4.1,
+   "shows": "Aerial shot of Scotiabank Arena in winter",
+   "kind": "stock"
+  },
+  {
+   "start_s": 4.1,
+   "end_s": 6.3,
+   "shows": "Kawhi Leonard in Toronto Raptors jersey on grid background",
+   "kind": "still"
+  },
+  {
+   "start_s": 6.3,
+   "end_s": 7.8,
+   "shows": "Kawhi Leonard holding championship trophies with Raptors",
+   "kind": "still"
+  },
+  {
+   "start_s": 7.8,
+   "end_s": 10.1,
+   "shows": "Kawhi Leonard with Clippers logo backdrop",
+   "kind": "still"
+  },
+  {
+   "start_s": 10.1,
+   "end_s": 12.2,
+   "shows": "Paul George in OKC Thunder jersey",
+   "kind": "still"
+  },
+  {
+   "start_s": 12.2,
+   "end_s": 13.8,
+   "shows": "Clippers executive speaking at a press conference",
+   "kind": "action"
+  },
+  {
+   "start_s": 13.8,
+   "end_s": 17.0,
+   "shows": "Shai Gilgeous-Alexander in Thunder jersey",
+   "kind": "still"
+  },
+  {
+   "start_s": 17.0,
+   "end_s": 20.2,
+   "shows": "Danilo Gallinari holding basketball, then list of traded assets",
+   "kind": "still"
+  },
+  {
+   "start_s": 20.2,
+   "end_s": 22.1,
+   "shows": "Vince McMahon looking shocked in WWE",
+   "kind": "stock"
+  },
+  {
+   "start_s": 22.1,
+   "end_s": 24.1,
+   "shows": "Jordan Peele sweating meme",
+   "kind": "stock"
+  },
+  {
+   "start_s": 24.1,
+   "end_s": 25.7,
+   "shows": "Shai Gilgeous-Alexander holding MVP trophy graphic",
+   "kind": "still"
+  },
+  {
+   "start_s": 25.7,
+   "end_s": 28.0,
+   "shows": "Kawhi Leonard sitting on the bench in casual wear",
+   "kind": "action"
+  },
+  {
+   "start_s": 28.0,
+   "end_s": 30.1,
+   "shows": "Clippers game action in Western Conference Finals",
+   "kind": "action"
+  },
+  {
+   "start_s": 30.1,
+   "end_s": 31.5,
+   "shows": "Kawhi Leonard and Paul George on court in Clippers jerseys",
+   "kind": "still"
+  },
+  {
+   "start_s": 31.5,
+   "end_s": 33.2,
+   "shows": "People reacting in shock/confusion in vintage clips",
+   "kind": "stock"
+  },
+  {
+   "start_s": 33.2,
+   "end_s": 35.3,
+   "shows": "Empty Intuit Dome arena interior",
+   "kind": "stock"
+  },
+  {
+   "start_s": 35.3,
+   "end_s": 36.6,
+   "shows": "Willem Dafoe looking up in rain",
+   "kind": "stock"
+  },
+  {
+   "start_s": 36.6,
+   "end_s": 38.7,
+   "shows": "Man reacting with wide eyes in interview",
+   "kind": "stock"
+  },
+  {
+   "start_s": 38.7,
+   "end_s": 40.7,
+   "shows": "Kawhi Leonard sitting on bench wearing patterned shirt",
+   "kind": "action"
+  },
+  {
+   "start_s": 40.7,
+   "end_s": 45.0,
+   "shows": "Newspaper headline: NBA Uncovers Clippers' Secret Kawhi Payments",
+   "kind": "text_card"
+  },
+  {
+   "start_s": 45.0,
+   "end_s": 46.7,
+   "shows": "Clippers salary cap breakdown chart",
+   "kind": "text_card"
+  },
+  {
+   "start_s": 46.7,
+   "end_s": 48.7,
+   "shows": "DeAndre Jordan looking up with money falling graphic",
+   "kind": "stock"
+  },
+  {
+   "start_s": 48.7,
+   "end_s": 50.7,
+   "shows": "Adam Silver speaking at press conference",
+   "kind": "action"
+  },
+  {
+   "start_s": 50.7,
+   "end_s": 52.7,
+   "shows": "Steve Ballmer walking with suspended stamp overlay",
+   "kind": "action"
+  },
+  {
+   "start_s": 52.7,
+   "end_s": 54.6,
+   "shows": "Steve Ballmer sitting courtside pointing at himself",
+   "kind": "action"
+  },
+  {
+   "start_s": 54.6,
+   "end_s": 58.6,
+   "shows": "Graphic showing NBA penalties from investigation of Clippers",
+   "kind": "text_card"
+  },
+  {
+   "start_s": 58.6,
+   "end_s": 1.006,
+   "shows": "Basketball coach/executive speaking at microphone",
+   "kind": "action"
+  },
+  {
+   "start_s": 1.006,
+   "end_s": 1.028,
+   "shows": "Man laughing in suit at microphone",
+   "kind": "action"
+  },
+  {
+   "start_s": 1.028,
+   "end_s": 1.049,
+   "shows": "Shai Gilgeous-Alexander holding trophy in Thunder jersey",
+   "kind": "still"
+  },
+  {
+   "start_s": 1.049,
+   "end_s": 1.076,
+   "shows": "Summary list of what Kawhi signing cost the Clippers",
+   "kind": "text_card"
+  },
+  {
+   "start_s": 1.076,
+   "end_s": 1.107,
+   "shows": "Kawhi Leonard speaking in interview wearing baseball cap",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 32,
+ "average_shot_s": 2.2,
+ "longest_shot_s": 4.3,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 175,
+  "tone": "investigative, dramatic, engaging",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "dramatic, suspenseful hip-hop/trap beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 2,
+  "case": "mixed",
+  "position": "middle",
+  "colours": "white",
+  "highlight_style": "none"
+ },
+ "text_overlays": [],
+ "cards_or_graphics": 5,
+ "framing": "crop",
+ "ending": {
+  "last_words": "the costliest signing basketball has ever seen.",
+  "last_frame": "Kawhi Leonard speaking in interview wearing a beige baseball cap and hoodie.",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "Is Kawhi Leonard the costliest free agency signing of all time? Back in 2019, Kawhi Leonard was the biggest name in free agency, fresh off a championship, and he agreed to sign with the Clippers on one condition. They had to go get his friend Paul George too, so the Clippers made the trade and sent Oklahoma City a young guard named Shai Gilgeous-Alexander, Danilo Gallinari, five first-round picks, and two pick swaps. But the throw-in guard nobody talked about is the reason that trade still haunts them today. Shai became an MVP, while Kawhi kept getting hurt year after year, and the Clippers only reached the conference finals one time in seven seasons. The trade already looked bad, and then on September 2nd, 2026, it got so much worse. But the trade itself was never the part that made this the costliest signing in history. The NBA found the Clippers were secretly paying Kawhi extra money through no-show endorsement deals to get around the salary cap, including one worth $28 million. So the league dropped the hammer. They suspended owner Steve Ballmer for a full year, fined the team $30 million, and took away five more first-round picks from 2029 through 23. The last time a team got caught doing this, the fine was only $3.5 million. So, yes, when you add up an MVP, roughly ten first-round picks, and thirty million dollars, Kawhi Leonard is the costliest signing basketball has ever seen.",
+ "retention_tricks": [
+  "fast-paced cutting every 2 seconds",
+  "meme inserts (Vince McMahon, Jordan Peele sweating)",
+  "stat lists and newspaper headline graphics",
+  "open loop regarding the secret payments"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "Compelling narrative arc starting from a trade and escalating to a massive NBA scandal and investigation penalty.",
+  "Strong visual aids including trades lists, salary cap breakdowns, and official-looking NBA penalty graphics.",
+  "Effective use of memes and dramatic reaction clips to maintain high energy and pacing."
+ ],
+ "_meta": {
+  "source": "bbBCVQ1kQXY",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

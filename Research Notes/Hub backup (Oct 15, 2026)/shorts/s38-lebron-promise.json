@@ -1,0 +1,35 @@
+{
+  "about": "Philly hasn't reached a conference final since 2001; ends on LeBron's own media-day words.",
+  "covers": [
+    {
+      "assetId": "399acd1511bb64ef6a946908d0757991",
+      "label": "A (use this)"
+    }
+  ],
+  "name": "What did LeBron promise Sixers fans",
+  "num": 38,
+  "pinned": "The Sixers haven't made a conference final since 2001. Does LeBron get them past round two, or does the same thing happen again?",
+  "postNote": "ABANDONED (Critic v2, Oct 14): a retell of the most-covered quote of media day.",
+  "slot": 0,
+  "slotLabel": "DO NOT POST: Critic v2 (Oct 14) says reject. A retell of the media-day quote (our #18 used it), drifts off its one measure, and the quote shot is out of lip sync",
+  "status": "rejected",
+  "tags": "lebron james sixers, lebron james media day, lebron james i didn't leave my family to lose in the second round, lebron james quote, lebron james 76ers, philadelphia 76ers, sixers media day 2026, sixers second round, sixers conference finals drought, sixers 2026-27, knicks swept sixers, joel embiid, tyrese maxey, lebron james philadelphia, lebron sixers promise, nba media day 2026, sixers championship, nba shorts, basketball shorts, nba, sixers fans",
+  "title": "What Did LeBron Promise Sixers Fans? 🗣️",
+  "titles": [
+    "What Did LeBron Promise Sixers Fans? 🗣️",
+    "Why Did LeBron Say That About Philly? 😳",
+    "Did LeBron Just Put Philly On Notice? 🔥"
+  ],
+  "versions": [
+    {
+      "assetId": "f81d4e7d97aa9b8e518794c1697939a3",
+      "label": "NEW (Oct 14): with music (Critic v2 running)",
+      "note": "'Warm piano' bed stops before LeBron's own voice. QA PASS; every clip verified and logged."
+    },
+    {
+      "assetId": "3a078ef1614d312a3a0730b3b405bae4",
+      "label": "Original, no music",
+      "note": "Passes qa_short.py (Oct 13)."
+    }
+  ]
+}

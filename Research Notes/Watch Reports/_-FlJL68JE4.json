@@ -1,0 +1,109 @@
+{
+ "length_s": 19.3,
+ "topic": "Can Shaquille O'Neal still dunk at 54 years old?",
+ "lane": "moment",
+ "hook": {
+  "first_words": "Can Shaq still dunk at 54 years old?",
+  "first_frame": "Shaquille O'Neal holding a basketball on an indoor basketball court, looking at the camera.",
+  "on_screen_text_0_3s": "Can Shaq still dunk at 54 years old?",
+  "shots_in_first_3s": 2
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 2.1,
+   "shows": "Shaq on a basketball court holding a ball",
+   "kind": "action"
+  },
+  {
+   "start_s": 2.1,
+   "end_s": 4.9,
+   "shows": "Shaq in studio setting taking off his jacket",
+   "kind": "action"
+  },
+  {
+   "start_s": 4.9,
+   "end_s": 8.8,
+   "shows": "Shaq dunking in a studio setting",
+   "kind": "action"
+  },
+  {
+   "start_s": 8.8,
+   "end_s": 14.0,
+   "shows": "Shaq falling over after getting blocked by the rim",
+   "kind": "action"
+  },
+  {
+   "start_s": 14.0,
+   "end_s": 16.5,
+   "shows": "Shaq walking and stretching on court",
+   "kind": "action"
+  },
+  {
+   "start_s": 16.5,
+   "end_s": 19.3,
+   "shows": "Shaq dunking successfully on a basketball court",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 6,
+ "average_shot_s": 3.22,
+ "longest_shot_s": 5.2,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 170,
+  "tone": "energetic storytelling",
+  "original_audio_under_voice": true
+ },
+ "music": {
+  "present": true,
+  "style": "upbeat rhythmic background beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "sentence",
+  "position": "middle",
+  "colours": "white",
+  "highlight_style": "none"
+ },
+ "text_overlays": [],
+ "cards_or_graphics": 0,
+ "framing": "crop",
+ "ending": {
+  "last_words": "to surprise the fans.",
+  "last_frame": "Shaq hanging from the basketball rim after a successful two-handed dunk.",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "Can Shaq still dunk at 54 years old? You see, a couple years ago, he was challenged on live TV to dunk, and even though he was able to do it, Shaq said that was probably his last dunk ever. But years later, he wanted to prove himself wrong, especially after this video of him getting blocked by the rim went viral. So after doing some stretches, learning from his last attempt, he pulls out a two handed dunk to surprise the fans.",
+ "retention_tricks": [
+  "open loops",
+  "reveals",
+  "fast pacing"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "Strong hook questioning an athletic feat against age",
+  "Visual contrast between failing viral clip and successful redemption dunk",
+  "Tight narrative arc showing the preparation and payoff"
+ ],
+ "_meta": {
+  "source": "_-FlJL68JE4",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "verdict": "CHECK",
+ "wpm": 232,
+ "issues": [],
+ "notes": [
+  " 6.98s  script \"\" but heard \"dollars\"",
+  " 9.96s  script \"287\" but heard \"2 100 and eighty 7\"",
+  "10.96s  script \"\" but heard \"dollars\"",
+  " 0.32s  \"duren\" heard as \"duran\" (close; check the name)",
+  " 6.34s  \"200\" heard as \"2 100\" (close; check the name)",
+  " 8.26s  \"duren\" heard as \"duran\" (close; check the name)",
+  " 8.23s  dragging sentence (154 wpm): Duren wanted the max, five years and $287 million."
+ ],
+ "heard": "Jalen Duran just walked away from eighty-seven million dollars, and a reported weight clause was part of the fight. You see, the Pistons offered him five years and two hundred million dollars, fully guaranteed. Duran wanted the max, five years and two hundred and eighty-seven million dollars. He skipped media day. He skipped the start of camp. The deadline was midnight Thursday. A weight clause was reported in the talks, though it was never put in writing, and it was removed. But Detroit still held the number, reportedly because of his quiet playoffs as the number one seed. So he signed the two hundred million. A twenty-two-year-old all-NBA center with eighty-seven million dollars left on the table. Smart or a mistake?",
+ "mismatches": [
+  {
+   "at": 0.32,
+   "script": "duren",
+   "heard": "duran",
+   "similar": 0.8
+  },
+  {
+   "at": 6.34,
+   "script": "200",
+   "heard": "2 100",
+   "similar": 0.86
+  },
+  {
+   "at": 6.98,
+   "script": "",
+   "heard": "dollars",
+   "similar": 0.0
+  },
+  {
+   "at": 8.26,
+   "script": "duren",
+   "heard": "duran",
+   "similar": 0.8
+  },
+  {
+   "at": 9.96,
+   "script": "287",
+   "heard": "2 100 and eighty 7",
+   "similar": 0.24
+  },
+  {
+   "at": 10.96,
+   "script": "",
+   "heard": "dollars",
+   "similar": 0.0
+  }
+ ]
+}

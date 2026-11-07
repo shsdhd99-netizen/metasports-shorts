@@ -1,0 +1,22 @@
+{
+ "cuts": [
+  0.9,
+  1.7,
+  2.7,
+  3.9,
+  5.0
+ ],
+ "first_shot_shows": "a stick figure representing John McAfee next to an old computer in a retro room",
+ "first_words": "John McAfee wrote one of the first antivirus",
+ "text_on_screen_0_3s": "JOHN MCAFEE WROTE ONE OF THE FIRST ANTIVIRUS PROGRAMS IN 1987",
+ "music_or_beat_audible": true,
+ "cuts_merged": [
+  0.9,
+  1.7,
+  2.7,
+  3.9,
+  5.0
+ ],
+ "shots_in_first_3s": 4,
+ "shots_in_first_5s": 5
+}

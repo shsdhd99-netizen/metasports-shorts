@@ -1,0 +1,397 @@
+[
+ {
+  "word": "Greg",
+  "start": 0.0,
+  "end": 0.249
+ },
+ {
+  "word": "Oden",
+  "start": 0.303,
+  "end": 0.486
+ },
+ {
+  "word": "went",
+  "start": 0.53,
+  "end": 0.671
+ },
+ {
+  "word": "first",
+  "start": 0.714,
+  "end": 0.941
+ },
+ {
+  "word": "in",
+  "start": 0.974,
+  "end": 1.028
+ },
+ {
+  "word": "the",
+  "start": 1.061,
+  "end": 1.125
+ },
+ {
+  "word": "2007",
+  "start": 1.157,
+  "end": 1.709
+ },
+ {
+  "word": "draft",
+  "start": 1.753,
+  "end": 2.002
+ },
+ {
+  "word": "and",
+  "start": 2.045,
+  "end": 2.11
+ },
+ {
+  "word": "played",
+  "start": 2.153,
+  "end": 2.359
+ },
+ {
+  "word": "105",
+  "start": 2.413,
+  "end": 3.094
+ },
+ {
+  "word": "games.",
+  "start": 3.138,
+  "end": 3.462
+ },
+ {
+  "word": "The",
+  "start": 3.506,
+  "end": 3.614
+ },
+ {
+  "word": "next",
+  "start": 3.668,
+  "end": 3.863
+ },
+ {
+  "word": "three",
+  "start": 3.896,
+  "end": 4.068
+ },
+ {
+  "word": "picks",
+  "start": 4.112,
+  "end": 4.307
+ },
+ {
+  "word": "are",
+  "start": 4.328,
+  "end": 4.415
+ },
+ {
+  "word": "still",
+  "start": 4.436,
+  "end": 4.588
+ },
+ {
+  "word": "in",
+  "start": 4.631,
+  "end": 4.675
+ },
+ {
+  "word": "the",
+  "start": 4.706,
+  "end": 4.772
+ },
+ {
+  "word": "NBA.",
+  "start": 4.814,
+  "end": 5.194
+ },
+ {
+  "word": "Kevin",
+  "start": 5.237,
+  "end": 5.485
+ },
+ {
+  "word": "Durant",
+  "start": 5.529,
+  "end": 5.767
+ },
+ {
+  "word": "went",
+  "start": 5.8,
+  "end": 5.94
+ },
+ {
+  "word": "second,",
+  "start": 5.994,
+  "end": 6.297
+ },
+ {
+  "word": "to",
+  "start": 6.319,
+  "end": 6.384
+ },
+ {
+  "word": "the",
+  "start": 6.438,
+  "end": 6.503
+ },
+ {
+  "word": "Seattle",
+  "start": 6.546,
+  "end": 6.87
+ },
+ {
+  "word": "SuperSonics,",
+  "start": 6.893,
+  "end": 7.553
+ },
+ {
+  "word": "a",
+  "start": 7.585,
+  "end": 7.639
+ },
+ {
+  "word": "team",
+  "start": 7.693,
+  "end": 7.855
+ },
+ {
+  "word": "that",
+  "start": 7.898,
+  "end": 7.996
+ },
+ {
+  "word": "no",
+  "start": 8.05,
+  "end": 8.126
+ },
+ {
+  "word": "longer",
+  "start": 8.18,
+  "end": 8.418
+ },
+ {
+  "word": "exists.",
+  "start": 8.472,
+  "end": 8.926
+ },
+ {
+  "word": "Now",
+  "start": 8.98,
+  "end": 9.121
+ },
+ {
+  "word": "he's",
+  "start": 9.175,
+  "end": 9.294
+ },
+ {
+  "word": "a",
+  "start": 9.327,
+  "end": 9.348
+ },
+ {
+  "word": "Houston",
+  "start": 9.403,
+  "end": 9.673
+ },
+ {
+  "word": "Rocket.",
+  "start": 9.727,
+  "end": 10.073
+ },
+ {
+  "word": "Al",
+  "start": 10.127,
+  "end": 10.267
+ },
+ {
+  "word": "Horford",
+  "start": 10.321,
+  "end": 10.625
+ },
+ {
+  "word": "went",
+  "start": 10.657,
+  "end": 10.798
+ },
+ {
+  "word": "third.",
+  "start": 10.841,
+  "end": 11.101
+ },
+ {
+  "word": "He's",
+  "start": 11.144,
+  "end": 11.306
+ },
+ {
+  "word": "now",
+  "start": 11.361,
+  "end": 11.447
+ },
+ {
+  "word": "the",
+  "start": 11.501,
+  "end": 11.577
+ },
+ {
+  "word": "second-oldest",
+  "start": 11.631,
+  "end": 12.128
+ },
+ {
+  "word": "player",
+  "start": 12.161,
+  "end": 12.367
+ },
+ {
+  "word": "in",
+  "start": 12.4,
+  "end": 12.454
+ },
+ {
+  "word": "the",
+  "start": 12.485,
+  "end": 12.551
+ },
+ {
+  "word": "league,",
+  "start": 12.594,
+  "end": 12.843
+ },
+ {
+  "word": "behind",
+  "start": 12.875,
+  "end": 13.168
+ },
+ {
+  "word": "only",
+  "start": 13.233,
+  "end": 13.438
+ },
+ {
+  "word": "LeBron.",
+  "start": 13.492,
+  "end": 13.871
+ },
+ {
+  "word": "Mike",
+  "start": 13.925,
+  "end": 14.098
+ },
+ {
+  "word": "Conley",
+  "start": 14.13,
+  "end": 14.369
+ },
+ {
+  "word": "went",
+  "start": 14.412,
+  "end": 14.564
+ },
+ {
+  "word": "fourth.",
+  "start": 14.618,
+  "end": 14.942
+ },
+ {
+  "word": "He",
+  "start": 14.963,
+  "end": 15.05
+ },
+ {
+  "word": "signed",
+  "start": 15.104,
+  "end": 15.332
+ },
+ {
+  "word": "with",
+  "start": 15.353,
+  "end": 15.461
+ },
+ {
+  "word": "the",
+  "start": 15.483,
+  "end": 15.548
+ },
+ {
+  "word": "Celtics",
+  "start": 15.58,
+  "end": 15.916
+ },
+ {
+  "word": "this",
+  "start": 15.949,
+  "end": 16.067
+ },
+ {
+  "word": "summer.",
+  "start": 16.1,
+  "end": 16.424
+ },
+ {
+  "word": "Oden",
+  "start": 16.479,
+  "end": 16.717
+ },
+ {
+  "word": "played",
+  "start": 16.771,
+  "end": 16.954
+ },
+ {
+  "word": "105",
+  "start": 17.008,
+  "end": 17.658
+ },
+ {
+  "word": "games.",
+  "start": 17.701,
+  "end": 18.015
+ },
+ {
+  "word": "The",
+  "start": 18.069,
+  "end": 18.188
+ },
+ {
+  "word": "three",
+  "start": 18.242,
+  "end": 18.448
+ },
+ {
+  "word": "picks",
+  "start": 18.491,
+  "end": 18.686
+ },
+ {
+  "word": "right",
+  "start": 18.729,
+  "end": 18.881
+ },
+ {
+  "word": "after",
+  "start": 18.902,
+  "end": 19.086
+ },
+ {
+  "word": "him",
+  "start": 19.141,
+  "end": 19.226
+ },
+ {
+  "word": "have",
+  "start": 19.281,
+  "end": 19.389
+ },
+ {
+  "word": "played",
+  "start": 19.411,
+  "end": 19.606
+ },
+ {
+  "word": "3,610.",
+  "start": 19.648,
+  "end": 21.12
+ }
+]

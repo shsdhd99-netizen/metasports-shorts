@@ -1,0 +1,230 @@
+{
+ "length_s": 74.5,
+ "topic": "Explaining how a transfer paperwork error involving Hakim Ziyech created a massive butterfly effect leading to Ousmane Dembélé at PSG and Lamine Yamal's rise at Barcelona.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "Did You Know, If It Weren't",
+  "first_frame": "Close-up of Ousmane Dembélé looking up in a blue PSG jersey.",
+  "on_screen_text_0_3s": "Did You Know, If It Weren't For One Simple Mistake In Paperwork Dembele Would Have",
+  "shots_in_first_3s": 3
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 1.0,
+   "shows": "Ousmane Dembélé looking up in PSG kit",
+   "kind": "face"
+  },
+  {
+   "start_s": 1.0,
+   "end_s": 2.0,
+   "shows": "Dembélé dribbling in a match",
+   "kind": "action"
+  },
+  {
+   "start_s": 2.0,
+   "end_s": 3.0,
+   "shows": "Person sorting through paper files",
+   "kind": "stock"
+  },
+  {
+   "start_s": 3.0,
+   "end_s": 4.5,
+   "shows": "Edited clip of Dembélé holding Ballon d'Or trophy",
+   "kind": "action"
+  },
+  {
+   "start_s": 4.5,
+   "end_s": 6.0,
+   "shows": "Spain national team players celebrating with trophies",
+   "kind": "action"
+  },
+  {
+   "start_s": 6.0,
+   "end_s": 11.0,
+   "shows": "Blurred football match play in background with year text overlays",
+   "kind": "action"
+  },
+  {
+   "start_s": 11.0,
+   "end_s": 13.0,
+   "shows": "Hakim Ziyech portrait and Chelsea to PSG transfer graphic",
+   "kind": "still"
+  },
+  {
+   "start_s": 13.0,
+   "end_s": 16.0,
+   "shows": "Stock footage of business handshake",
+   "kind": "stock"
+  },
+  {
+   "start_s": 16.0,
+   "end_s": 18.5,
+   "shows": "Suited players with Chelsea and PSG logo graphics",
+   "kind": "still"
+  },
+  {
+   "start_s": 18.5,
+   "end_s": 20.7,
+   "shows": "Hakim Ziyech performing gym exercises",
+   "kind": "action"
+  },
+  {
+   "start_s": 20.7,
+   "end_s": 31.0,
+   "shows": "Hakim Ziyech playing for Chelsea in match action",
+   "kind": "action"
+  },
+  {
+   "start_s": 31.0,
+   "end_s": 33.5,
+   "shows": "PSG president Nasser Al-Khelaifi close-up",
+   "kind": "face"
+  },
+  {
+   "start_s": 33.5,
+   "end_s": 35.0,
+   "shows": "Stock footage of magnifying glass over document text",
+   "kind": "stock"
+  },
+  {
+   "start_s": 35.0,
+   "end_s": 37.7,
+   "shows": "Dembélé in Barcelona kit transitioning to PSG presentation",
+   "kind": "still"
+  },
+  {
+   "start_s": 37.7,
+   "end_s": 41.0,
+   "shows": "Dembélé playing and scoring for PSG",
+   "kind": "action"
+  },
+  {
+   "start_s": 41.0,
+   "end_s": 44.0,
+   "shows": "PSG team lifting Champions League trophy",
+   "kind": "action"
+  },
+  {
+   "start_s": 44.0,
+   "end_s": 47.0,
+   "shows": "Dembélé posing next to Champions League trophy",
+   "kind": "action"
+  },
+  {
+   "start_s": 47.0,
+   "end_s": 52.0,
+   "shows": "Hands exchanging cash and La Masia academy building",
+   "kind": "stock"
+  },
+  {
+   "start_s": 52.0,
+   "end_s": 60.5,
+   "shows": "Lamine Yamal training and playing for Barcelona",
+   "kind": "action"
+  },
+  {
+   "start_s": 60.5,
+   "end_s": 65.5,
+   "shows": "Lamine Yamal celebrating with Spain national team",
+   "kind": "action"
+  },
+  {
+   "start_s": 65.5,
+   "end_s": 68.5,
+   "shows": "Spain head coach Luis de la Fuente interview clip",
+   "kind": "face"
+  },
+  {
+   "start_s": 68.5,
+   "end_s": 71.0,
+   "shows": "Lamine Yamal with World Cup trophy and Polymarket odds chart",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 71.0,
+   "end_s": 74.5,
+   "shows": "Blurred match action returning to Dembélé",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 23,
+ "average_shot_s": 3.24,
+ "longest_shot_s": 10.3,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 175,
+  "tone": "engaging",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "dramatic background beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "mixed",
+  "position": "middle",
+  "colours": [
+   "white",
+   "yellow",
+   "red",
+   "blue"
+  ],
+  "highlight_style": "word highlight color change"
+ },
+ "text_overlays": [
+  {
+   "at_s": 11.0,
+   "text": "2023"
+  },
+  {
+   "at_s": 14.0,
+   "text": "CHELSEA -> PSG logo transition"
+  },
+  {
+   "at_s": 65.8,
+   "text": "LUIS DE LA FUENTE HEAD COACH"
+  }
+ ],
+ "cards_or_graphics": 3,
+ "framing": "crop",
+ "ending": {
+  "last_words": "So tell me...",
+  "last_frame": "Close-up of Ousmane Dembélé looking side/up.",
+  "loops_to_start": true,
+  "call_to_action": "So tell me..."
+ },
+ "script": "Did you know, if it weren't for one simple mistake in paperwork, Dembele would have never won a Ballon d'Or, and Spain might have never won the World Cup? I know it sounds ridiculous, so let me tell you about one of the biggest butterfly effects football has ever seen. It started in 2023 when Hakim Ziyech was set to join PSG from Chelsea. All of the terms were set, the deal was agreed upon by both clubs, and Ziyech had already even completed the physical test. The only thing that was missing for Ziyech to officially become a PSG player was some paperwork from Chelsea. However, the transfer window quickly came to an end and Chelsea still hadn't sent the paperwork, so the transfer could not be completed. PSG were furious as they had lost the player they wanted, so they were forced to look elsewhere, and eventually they found Dembele and signed him from Barcelona. Dembele had found his form at PSG and would achieve a starting role for the club. Then in 2025, PSG won the Champions League, with Dembele being the star player, so he would end up winning the Ballon d'Or that year. But it doesn't stop there, see, when Barcelona lost Dembele, instead of buying a player to replace him, they looked within their academy, La Masia, and found Lamine Yamal, a 15-year-old player who was gaining prominence. Barcelona moved him up to the first team, and soon after he became a starter at the club. Spain called him up for the Euros in 2024. Lamine Yamal played a big role in the team, and they ended up winning. Then, he got called up for the World Cup in 2026, and he won it. Now, he's a front runner for this year's Ballon d'Or. It's crazy to see how one small error changed football forever. So tell me...",
+ "retention_tricks": [
+  "bold premise / butterfly effect hook",
+  "seamless loop back to start",
+  "fast-paced storytelling timeline",
+  "color-highlighted captions"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": false,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "Engaging butterfly-effect concept connecting a real-life administrative mistake to hypothetical mega-outcomes.",
+  "Fast narrative flow with relevant visual clips matching every line of narration.",
+  "Seamless video loop ending on an open prompt that encourages viewer comments."
+ ],
+ "_meta": {
+  "source": "https://www.youtube.com/shorts/ZKdQAH88zL8",
+  "model": "gemini-3.6-flash",
+  "fps": 4.0,
+  "watched": "2026-11-06",
+  "tier": "[S] model-observed, not measured"
+ }
+}

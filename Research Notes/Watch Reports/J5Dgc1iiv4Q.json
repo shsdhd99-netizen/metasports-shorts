@@ -1,0 +1,175 @@
+{
+ "length_s": 66.0,
+ "topic": "NBA Opening Night schedule and storylines previewing exciting upcoming matchups.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "The NBA is officially back",
+  "first_frame": "Animated caricature players of NBA stars grouped together on a basketball court with title text NBA Opening Night!",
+  "on_screen_text_0_3s": "NBA Opening Night!",
+  "shots_in_first_3s": 1
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 5.95,
+   "shows": "Animated NBA star caricatures on a basketball court background",
+   "kind": "stock"
+  },
+  {
+   "start_s": 5.95,
+   "end_s": 9.95,
+   "shows": "Animated Cade Cunningham and Jayson Tatum with game schedule info overlay",
+   "kind": "animation"
+  },
+  {
+   "start_s": 9.95,
+   "end_s": 13.78,
+   "shows": "Eastern Conference standings graphic with highlights",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 13.78,
+   "end_s": 17.22,
+   "shows": "Animated Cade Cunningham reacting on court",
+   "kind": "animation"
+  },
+  {
+   "start_s": 17.22,
+   "end_s": 21.48,
+   "shows": "Actual footage of basketball training drill on court",
+   "kind": "stock"
+  },
+  {
+   "start_s": 21.48,
+   "end_s": 30.52,
+   "shows": "Animated LeBron James and Jalen Brunson with Knicks champions banner",
+   "kind": "animation"
+  },
+  {
+   "start_s": 30.52,
+   "end_s": 33.95,
+   "shows": "Animated Jalen Brunson, LeBron James and Jaylen Brown dancing",
+   "kind": "animation"
+  },
+  {
+   "start_s": 33.95,
+   "end_s": 35.32,
+   "shows": "Actual footage of LeBron James sitting wearing a 76ers hat",
+   "kind": "stock"
+  },
+  {
+   "start_s": 35.32,
+   "end_s": 38.65,
+   "shows": "Animated LeBron James sitting in director chair",
+   "kind": "animation"
+  },
+  {
+   "start_s": 38.65,
+   "end_s": 42.15,
+   "shows": "Playoff matchup and score screenshot graphic",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 42.15,
+   "end_s": 50.32,
+   "shows": "Animated Shai Gilgeous-Alexander and Victor Wembanyama on court",
+   "kind": "animation"
+  },
+  {
+   "start_s": 50.32,
+   "end_s": 53.68,
+   "shows": "Chalkboard graphic showing team logos and records",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 53.68,
+   "end_s": 56.12,
+   "shows": "Animated Thunder and Spurs players dancing",
+   "kind": "animation"
+  },
+  {
+   "start_s": 56.12,
+   "end_s": 58.75,
+   "shows": "Animated Wembanyama, Antetokounmpo and Brunson on court",
+   "kind": "animation"
+  },
+  {
+   "start_s": 58.75,
+   "end_s": 60.98,
+   "shows": "American Express NBA Tip-Off schedule graphic",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 60.98,
+   "end_s": 66.0,
+   "shows": "Animated NBA star caricatures on basketball court",
+   "kind": "animation"
+  }
+ ],
+ "shot_count": 16,
+ "average_shot_s": 4.12,
+ "longest_shot_s": 8.17,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 175,
+  "tone": "enthusiastic and energetic sports commentary",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "upbeat rhythmic hip hop beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 2,
+  "case": "ALL CAPS",
+  "position": "middle",
+  "colours": "yellow and white",
+  "highlight_style": "word by word color change to yellow"
+ },
+ "text_overlays": [
+  {
+   "at_s": 0.0,
+   "text": "NBA Opening Night!"
+  }
+ ],
+ "cards_or_graphics": 4,
+ "framing": "crop",
+ "ending": {
+  "last_words": "Which one are you looking forward to the most?",
+  "last_frame": "Animated caricature players on court together",
+  "loops_to_start": false,
+  "call_to_action": "Which one are you looking forward to the most?"
+ },
+ "script": "The NBA is officially back today, October 20th, kicking off the season with three games on opening night. First, at 3:00 PM Eastern, we have the Celtics versus Pistons. Detroit actually won 60 games last season, finishing first in the Eastern Conference. So can Cade and the Pistons prove that this wasn't a one-year fluke against Jason Tatum, who needs to prove that Boston can lead without Jaylen Brown? Then at 7:00 PM Eastern, things get interesting. The Knicks are raising their first championship banner since 1973, and they're opening up against LeBron James and the 76ers. Both players will make their regular season Philly debut alongside Joel Embiid, and the same Sixers team that swept Philadelphia in last year's playoffs. And finally, at 9:30 PM Eastern, we have Wemby and the Spurs hosting Shai Gilgeous-Alexander and the Thunder. This is basically a rematch of last year's Western Conference finals, where San Antonio eliminated OKC in seven games before eventually losing to the New York Knicks in the finals. All three games have reason to pay attention to them. Which one are you looking forward to the most?",
+ "retention_tricks": [
+  "Dynamic cartoon character animations of NBA players",
+  "Pacing changes using real basketball footage clips",
+  "Stats and standings conference graphics inserted mid-video",
+  "Interactive question at the end engaging viewers"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": false,
+  "ends_on_payoff": false,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "Fun, custom animated player caricatures capturing attention instantly",
+  "Clear schedule breakdown for NBA opening night games with conference standings context",
+  "High-energy commentary paired with trending sports topics and team rivalries"
+ ],
+ "_meta": {
+  "source": "J5Dgc1iiv4Q",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

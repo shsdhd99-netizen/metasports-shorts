@@ -1,0 +1,43 @@
+[
+ {
+  "take": 1,
+  "ok": false,
+  "score": -45.2,
+  "verdict": "PASS",
+  "issues": [],
+  "wpm": 227,
+  "hnr": 8.5,
+  "jitter": 2.72,
+  "shimmer": 11.76,
+  "dur": 24.36,
+  "pitch_sd": 4.44
+ },
+ {
+  "take": 2,
+  "ok": false,
+  "score": -95.6,
+  "verdict": "REDO",
+  "issues": [
+   " 7.62s  script \"1 ninety 8\" but heard \"won 98\""
+  ],
+  "wpm": 215,
+  "hnr": 8.2,
+  "jitter": 2.98,
+  "shimmer": 11.43,
+  "dur": 25.75,
+  "pitch_sd": 4.76
+ },
+ {
+  "take": 3,
+  "ok": true,
+  "score": 4.2,
+  "verdict": "PASS",
+  "issues": [],
+  "wpm": 224,
+  "hnr": 8.2,
+  "jitter": 3.01,
+  "shimmer": 12.34,
+  "dur": 24.68,
+  "pitch_sd": 4.63
+ }
+]

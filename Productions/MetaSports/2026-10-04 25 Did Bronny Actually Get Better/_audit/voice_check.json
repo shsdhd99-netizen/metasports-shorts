@@ -1,0 +1,117 @@
+{
+ "verdict": "REDO",
+ "wpm": 227,
+ "issues": [
+  " 8.80s  script \"2 100 40 3\" but heard \"243\"",
+  "15.02s  script \"quote\" but heard \"(nothing)\""
+ ],
+ "notes": [
+  " 0.68s  \"bronny\" heard as \"bronnie\" (close; check the name)",
+  " 2.76s  \"30 9\" heard as \"39\" (close; check the name)",
+  " 3.58s  \"30 2\" heard as \"32\" (close; check the name)",
+  " 4.52s  \"20 8\" heard as \"28\" (close; check the name)",
+  " 6.96s  \"bronny\" heard as \"bronnie\" (close; check the name)",
+  " 7.34s  \"50 7\" heard as \"57\" (close; check the name)",
+  "10.70s  \"50 7\" heard as \"57\" (close; check the name)",
+  "12.28s  \"bronny\" heard as \"bronnie\" (close; check the name)",
+  "12.66s  \"20 2\" heard as \"22\" (close; check the name)",
+  "16.06s  \"bronny\" heard as \"bronnie\" (close; check the name)",
+  "18.40s  \"40 2\" heard as \"42\" (close; check the name)",
+  "19.24s  \"50 2\" heard as \"52\" (close; check the name)",
+  "20.18s  \"bronny\" heard as \"bronnie\" (close; check the name)",
+  " 2.75s  dragging sentence (164 wpm): Thirty-nine percent to thirty-two."
+ ],
+ "heard": "Last season, Bronnie James shot better from 3 than LeBron did. 39 % to 32. He was 28 % as a rookie, until you count the shots. Bronnie took 57 threes. LeBron took 243. At his rookie rate, those 57 threes are 16 makes. Bronnie made 22. 6 threes, that is the whole jump. Trying to prove myself as Bronnie instead of LeBron. His true shooting did climb from 42 % to 52. So did Bronnie get better? A little maybe, but 6 made threes prove almost nothing yet.",
+ "mismatches": [
+  {
+   "at": 0.68,
+   "script": "bronny",
+   "heard": "bronnie",
+   "similar": 0.77
+  },
+  {
+   "at": 2.76,
+   "script": "30 9",
+   "heard": "39",
+   "similar": 0.8
+  },
+  {
+   "at": 3.58,
+   "script": "30 2",
+   "heard": "32",
+   "similar": 0.8
+  },
+  {
+   "at": 4.52,
+   "script": "20 8",
+   "heard": "28",
+   "similar": 0.8
+  },
+  {
+   "at": 6.96,
+   "script": "bronny",
+   "heard": "bronnie",
+   "similar": 0.77
+  },
+  {
+   "at": 7.34,
+   "script": "50 7",
+   "heard": "57",
+   "similar": 0.8
+  },
+  {
+   "at": 8.8,
+   "script": "2 100 40 3",
+   "heard": "243",
+   "similar": 0.6
+  },
+  {
+   "at": 10.7,
+   "script": "50 7",
+   "heard": "57",
+   "similar": 0.8
+  },
+  {
+   "at": 12.28,
+   "script": "bronny",
+   "heard": "bronnie",
+   "similar": 0.77
+  },
+  {
+   "at": 12.66,
+   "script": "20 2",
+   "heard": "22",
+   "similar": 0.8
+  },
+  {
+   "at": 15.02,
+   "script": "quote",
+   "heard": "",
+   "similar": 0.0
+  },
+  {
+   "at": 16.06,
+   "script": "bronny",
+   "heard": "bronnie",
+   "similar": 0.77
+  },
+  {
+   "at": 18.4,
+   "script": "40 2",
+   "heard": "42",
+   "similar": 0.8
+  },
+  {
+   "at": 19.24,
+   "script": "50 2",
+   "heard": "52",
+   "similar": 0.8
+  },
+  {
+   "at": 20.18,
+   "script": "bronny",
+   "heard": "bronnie",
+   "similar": 0.77
+  }
+ ]
+}

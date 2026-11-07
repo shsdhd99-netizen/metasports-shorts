@@ -1,0 +1,326 @@
+{
+ "length_s": 73.0,
+ "topic": "Manchester City's potential transfer of Enzo Fernández depends on selling Rodri to Barcelona.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "Is Manchester City really about to sign Enzo Fernández?",
+  "first_frame": "Enzo Fernández sitting on the grass looking up, wearing a Chelsea kit",
+  "on_screen_text_0_3s": "Is Manchester City really about to sign Enzo Fernández?",
+  "shots_in_first_3s": 3
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 2.1,
+   "shows": "Enzo Fernández sitting on the pitch",
+   "kind": "action"
+  },
+  {
+   "start_s": 2.1,
+   "end_s": 3.7,
+   "shows": "Chelsea crest flag",
+   "kind": "action"
+  },
+  {
+   "start_s": 3.7,
+   "end_s": 5.2,
+   "shows": "TV studio broadcast with countdown clock",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 5.2,
+   "end_s": 6.5,
+   "shows": "Manchester City coach",
+   "kind": "face"
+  },
+  {
+   "start_s": 6.5,
+   "end_s": 8.5,
+   "shows": "The Athletic news article headline",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 8.5,
+   "end_s": 10.2,
+   "shows": "Enzo Fernández running in training",
+   "kind": "action"
+  },
+  {
+   "start_s": 10.2,
+   "end_s": 12.5,
+   "shows": "Enzo Fernández in Chelsea kit with money graphics",
+   "kind": "stock"
+  },
+  {
+   "start_s": 12.5,
+   "end_s": 14.1,
+   "shows": "Enzo Fernández kicking ball in match",
+   "kind": "action"
+  },
+  {
+   "start_s": 14.1,
+   "end_s": 15.6,
+   "shows": "Enzo Fernández celebrating",
+   "kind": "face"
+  },
+  {
+   "start_s": 15.6,
+   "end_s": 16.7,
+   "shows": "Man in training gear holding microphone",
+   "kind": "face"
+  },
+  {
+   "start_s": 16.7,
+   "end_s": 18.7,
+   "shows": "Enzo Fernández clapping",
+   "kind": "face"
+  },
+  {
+   "start_s": 18.7,
+   "end_s": 20.0,
+   "shows": "Steve Harvey looking surprised",
+   "kind": "reaction"
+  },
+  {
+   "start_s": 20.0,
+   "end_s": 22.0,
+   "shows": "Enzo Fernández looking down in disappointment",
+   "kind": "face"
+  },
+  {
+   "start_s": 22.0,
+   "end_s": 24.3,
+   "shows": "Enzo Fernández smiling indoors",
+   "kind": "face"
+  },
+  {
+   "start_s": 24.3,
+   "end_s": 26.0,
+   "shows": "Enzo Fernández at press conference",
+   "kind": "face"
+  },
+  {
+   "start_s": 26.0,
+   "end_s": 28.1,
+   "shows": "Manchester City manager Enzo Maresca",
+   "kind": "face"
+  },
+  {
+   "start_s": 28.1,
+   "end_s": 29.5,
+   "shows": "Enzo Maresca speaking in interview",
+   "kind": "face"
+  },
+  {
+   "start_s": 29.5,
+   "end_s": 31.0,
+   "shows": "Enzo Maresca embracing Enzo Fernández",
+   "kind": "action"
+  },
+  {
+   "start_s": 31.0,
+   "end_s": 32.9,
+   "shows": "Coach gesturing on training pitch",
+   "kind": "action"
+  },
+  {
+   "start_s": 32.9,
+   "end_s": 34.6,
+   "shows": "Enzo Fernández looking serious",
+   "kind": "face"
+  },
+  {
+   "start_s": 34.6,
+   "end_s": 36.3,
+   "shows": "Chelsea players training with ball",
+   "kind": "action"
+  },
+  {
+   "start_s": 36.3,
+   "end_s": 37.3,
+   "shows": "Coach talking to squad",
+   "kind": "face"
+  },
+  {
+   "start_s": 37.3,
+   "end_s": 38.7,
+   "shows": "Kevin Hart looking shocked",
+   "kind": "reaction"
+  },
+  {
+   "start_s": 38.7,
+   "end_s": 40.1,
+   "shows": "Pundits in TV studio with Rodri graphic",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 40.1,
+   "end_s": 41.9,
+   "shows": "Enzo Fernández side profile",
+   "kind": "face"
+  },
+  {
+   "start_s": 41.9,
+   "end_s": 43.1,
+   "shows": "Manager walking hands in pockets",
+   "kind": "action"
+  },
+  {
+   "start_s": 43.1,
+   "end_s": 45.6,
+   "shows": "Rodri in Man City kit pointing",
+   "kind": "stock"
+  },
+  {
+   "start_s": 45.6,
+   "end_s": 47.6,
+   "shows": "Footage of Rodri leaving on TV screen",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 47.6,
+   "end_s": 49.5,
+   "shows": "Sky Sports news article about Rodri transfer",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 49.5,
+   "end_s": 51.6,
+   "shows": "Barcelona manager Hansi Flick speaking",
+   "kind": "face"
+  },
+  {
+   "start_s": 51.6,
+   "end_s": 52.7,
+   "shows": "Hansi Flick walking on training ground",
+   "kind": "action"
+  },
+  {
+   "start_s": 52.7,
+   "end_s": 54.9,
+   "shows": "Rodri in Barcelona kit graphic",
+   "kind": "stock"
+  },
+  {
+   "start_s": 54.9,
+   "end_s": 56.9,
+   "shows": "Rodri close up clapping",
+   "kind": "face"
+  },
+  {
+   "start_s": 56.9,
+   "end_s": 59.5,
+   "shows": "Fabricio Romano transfer report article",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 59.5,
+   "end_s": 1.0,
+   "shows": "Man City fans celebrating",
+   "kind": "action"
+  },
+  {
+   "start_s": 1.0,
+   "end_s": 1.03,
+   "shows": "Tijjani Reijnders celebrating in Man City kit",
+   "kind": "action"
+  },
+  {
+   "start_s": 1.03,
+   "end_s": 1.04,
+   "shows": "Fabricio Romano tweet screenshot",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 1.04,
+   "end_s": 1.05,
+   "shows": "Khabane Lame smiling outdoors",
+   "kind": "face"
+  },
+  {
+   "start_s": 1.05,
+   "end_s": 1.07,
+   "shows": "Enzo Fernández in Chelsea kit celebrating",
+   "kind": "action"
+  },
+  {
+   "start_s": 1.07,
+   "end_s": 1.09,
+   "shows": "Rodri clapping in black Man City kit",
+   "kind": "face"
+  },
+  {
+   "start_s": 1.09,
+   "end_s": 1.12,
+   "shows": "Enzo Fernández in Chelsea kit",
+   "kind": "face"
+  },
+  {
+   "start_s": 1.12,
+   "end_s": 1.13,
+   "shows": "Enzo Fernández celebrating goal",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 42,
+ "average_shot_s": 1.7,
+ "longest_shot_s": 2.5,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 175,
+  "tone": "engaging sports commentator",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "dramatic cinematic beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "sentence",
+  "position": "middle",
+  "colours": "white",
+  "highlight_style": "none"
+ },
+ "text_overlays": [],
+ "cards_or_graphics": 8,
+ "framing": "blurred background",
+ "ending": {
+  "last_words": "because of the deadline they created.",
+  "last_frame": "Enzo Fernández celebrating a goal in his Chelsea kit",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "Is Manchester City really about to sign Enzo Fernández? So Chelsea just did something that almost never happens in the transfer market, because they gave Manchester City a hard deadline of 5 PM this Friday. If City don't make an offer that meets Chelsea's valuation of £120 million by then, Enzo Fernández isn't going anywhere and he stays at Chelsea with no extensions and no waiting until the window shuts on September 1st. But the fee is the part of this deal that everyone's watching for the wrong reason. Fernández has reportedly already agreed personal terms with City because he wants the move, and his old manager Enzo Maresca is now at City and wants him badly. So the player side is basically done, and the only thing left is City agreeing to pay Chelsea's price, yet Chelsea have not received a single formal bid all summer. But there's one name standing between City and this entire deal. City can't really afford Fernández until they sell somebody first, and that somebody is Rodri, who Barcelona want and who has already agreed to join them. The problem is City keep rejecting the offers since Barcelona's first bid got turned down, and their second, worth around €70 million, got rejected too, while City are holding firm at £80 million. Fabrizio Romano says those talks are in the final stretch, and City are also raising cash by selling Tijjani Reijnders to Saudi for about £60 million. So the real answer is this. It looks like that City will only sign him if they sell Rodri in the next 48 hours, because if that deal stalls, Fernández stays at Chelsea because of the deadline they created.",
+ "retention_tricks": [
+  "fast pacing with average shot length under 2 seconds",
+  "meme reaction shots from Steve Harvey and Kevin Hart",
+  "open loop regarding Rodri as the blocker for the transfer",
+  "visual countdown and news article screenshots for credibility"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "High stakes transfer window timeline creates immediate urgency",
+  "Intersperses authoritative news screenshots with expressive meme reactions",
+  "Clear narrative arc explaining the exact domino chain needed for the transfer"
+ ],
+ "_meta": {
+  "source": "OB-FkH00ORo",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

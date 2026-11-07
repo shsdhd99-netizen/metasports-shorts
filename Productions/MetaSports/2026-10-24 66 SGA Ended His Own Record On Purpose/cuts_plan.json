@@ -1,0 +1,157 @@
+{
+ "sources": {
+  "M": "src/mvp_reel.mp4",
+  "D": "src/den_hl.mp4",
+  "J": "src/jordan96.mp4",
+  "P": "src/sga_presser.mp4",
+  "FS": "src/face_slow.mp4",
+  "AS": "src/arms_slow.mp4",
+  "BS": "src/braun_slow.mp4",
+  "CS": "src/celeb_slow.mp4",
+  "WS": "src/walk_slow.mp4",
+  "JS": "src/jordan_slow.mp4"
+ },
+ "shots": [
+  {
+   "clip": "A01",
+   "src": "FS",
+   "at": 0.0,
+   "x": 0.53,
+   "kind": "face",
+   "why": "SGA close-up, front on, staring (Thunder '2 Consistent. 2x MVP' reel, May 17 2026), slowed to 0.42x"
+  },
+  {
+   "clip": "A02",
+   "src": "M",
+   "at": 22.9,
+   "x": 0.52,
+   "kind": "action",
+   "anchor": "just ended",
+   "why": "SGA (#2) dribbles at a Rockets defender and rises for a jumper (Thunder MVP reel, 2025-26 season)"
+  },
+  {
+   "clip": "A03",
+   "src": "M",
+   "at": 80.09,
+   "x": 0.28,
+   "kind": "face",
+   "anchor": "in NBA history",
+   "why": "SGA in the orange OKC jersey, hands on hips (MVP reel)"
+  },
+  {
+   "clip": "A04",
+   "src": "AS",
+   "at": 0.0,
+   "x": 0.33,
+   "kind": "action",
+   "anchor": "141",
+   "why": "SGA two fingers up to the crowd (MVP reel), 0.75x. Words: 141, IN A ROW"
+  },
+  {
+   "clip": "A05",
+   "src": "D",
+   "at": 102.66,
+   "x": 0.5,
+   "kind": "face",
+   "anchor": "Straight games",
+   "why": "SGA close, GILGEOUS-ALEXANDER 2 on his back, Thu Oct 22 2026 vs Denver, 4th qtr 2:55 (Thunder highlights). Words: 20+ PTS, EVERY GAME"
+  },
+  {
+   "clip": "A06",
+   "src": "M",
+   "at": 84.2,
+   "x": 0.72,
+   "kind": "face",
+   "anchor": "And he's",
+   "why": "SGA with the ball before a shot, black practice top (MVP reel)"
+  },
+  {
+   "clip": "A07",
+   "still": "assets/wilt_9x16.jpg",
+   "kind": "face",
+   "anchor": "Wilt Chamberlain's",
+   "why": "Wilt Chamberlain after his 100-point game, Mar 2 1962 (AP photo, public domain, Wikimedia; source 960x1214). Words: 126, WILT'S RECORD"
+  },
+  {
+   "clip": "A08",
+   "src": "JS",
+   "at": 0.0,
+   "x": 0.5,
+   "kind": "face",
+   "anchor": "Jordan's best",
+   "why": "Michael Jordan (#23 Bulls) on court, 1996 (Bulls official clip), 0.72x. Words: 72, JORDAN'S BEST"
+  },
+  {
+   "clip": "A09",
+   "src": "D",
+   "at": 0.3,
+   "blurfit": true,
+   "kind": "wide",
+   "anchor": "On Thursday",
+   "why": "OKC vs Denver, Thu Oct 22 2026, ESPN bug reads THURSDAY (Thunder highlights)"
+  },
+  {
+   "clip": "A10",
+   "src": "D",
+   "at": 110.48,
+   "x": 0.08,
+   "kind": "action",
+   "anchor": "Shai was stuck",
+   "why": "SGA (#2, left) rises for the three that gave him 17, 4th qtr 1:44, Oct 22 vs Denver. Words: 17 PTS"
+  },
+  {
+   "clip": "A11",
+   "src": "D",
+   "at": 112.05,
+   "blurfit": true,
+   "kind": "wide",
+   "anchor": "with under two",
+   "why": "Same three from the other angle; the clock reads 1:43, OKC 93-76 (Thunder highlights). Words: 1:43 LEFT"
+  },
+  {
+   "clip": "A12",
+   "src": "CS",
+   "at": 0.0,
+   "x": 0.5,
+   "kind": "face",
+   "anchor": "So was he",
+   "why": "SGA celebrating that three, close, 1:43 left, Oct 22 (0.75x)"
+  },
+  {
+   "clip": "A13",
+   "src": "BS",
+   "at": 0.0,
+   "x": 0.0,
+   "kind": "face",
+   "anchor": "Denver had",
+   "why": "ILLUSTRATIVE: Nuggets starter Christian Braun (#0) walking off at a timeout, 3rd qtr 5:10 of the same game (0.75x); the 1:43 timeout itself is not in the highlights"
+  },
+  {
+   "clip": "A14",
+   "src": "WS",
+   "at": 0.0,
+   "x": 0.5,
+   "kind": "face",
+   "anchor": "so Shai asked",
+   "why": "ILLUSTRATIVE: SGA walking away, back to camera, 4th qtr 2:53 of the same game, before he asked out (0.7x)"
+  },
+  {
+   "clip": "A15",
+   "src": "P",
+   "at": 75.0,
+   "x": 0.5,
+   "kind": "face",
+   "anchor": "He said",
+   "why": "ILLUSTRATIVE: SGA at the Thunder's Oct 5 2026 press conference (the quote itself is from Oct 22, per Bleacher Report)"
+  },
+  {
+   "clip": "A16",
+   "src": "D",
+   "at": 114.7,
+   "x": 0.45,
+   "kind": "face",
+   "anchor": "141 games",
+   "why": "SGA points up and looks to the crowd after his 17th point, 1:43 left, Oct 22 (end of the Thunder highlights). Words: 141, STRAIGHT GAMES"
+  }
+ ]
+}

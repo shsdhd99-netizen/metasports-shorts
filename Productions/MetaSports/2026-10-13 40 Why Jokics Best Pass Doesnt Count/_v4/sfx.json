@@ -1,0 +1,14 @@
+[
+ {
+  "sfx": "swish",
+  "at": 9.57,
+  "gain": -10,
+  "why": "the corner three goes through the net on screen (R_shot +1.30 s) | v4: R_shot starts 8.27 + 1.30"
+ },
+ {
+  "sfx": "boom_cinematic",
+  "at": 15.038,
+  "gain": -12,
+  "why": "the reveal: 'It isn't.'"
+ }
+]

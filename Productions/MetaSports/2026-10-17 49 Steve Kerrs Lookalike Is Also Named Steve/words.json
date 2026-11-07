@@ -1,0 +1,352 @@
+[
+{
+"word": "This",
+"start": 0.0,
+"end": 0.244
+},
+{
+"word": "is",
+"start": 0.302,
+"end": 0.383
+},
+{
+"word": "not",
+"start": 0.453,
+"end": 0.639
+},
+{
+"word": "Steve",
+"start": 0.697,
+"end": 0.975
+},
+{
+"word": "Kerr.",
+"start": 1.022,
+"end": 1.393
+},
+{
+"word": "But",
+"start": 1.416,
+"end": 1.533
+},
+{
+"word": "his",
+"start": 1.579,
+"end": 1.683
+},
+{
+"word": "name",
+"start": 1.753,
+"end": 2.009
+},
+{
+"word": "is",
+"start": 2.055,
+"end": 2.194
+},
+{
+"word": "Steve.",
+"start": 2.264,
+"end": 2.81
+},
+{
+"word": "Steve",
+"start": 2.844,
+"end": 3.123
+},
+{
+"word": "Gillis",
+"start": 3.146,
+"end": 3.425
+},
+{
+"word": "teaches",
+"start": 3.483,
+"end": 3.75
+},
+{
+"word": "English",
+"start": 3.82,
+"end": 4.122
+},
+{
+"word": "in",
+"start": 4.168,
+"end": 4.214
+},
+{
+"word": "Las",
+"start": 4.296,
+"end": 4.54
+},
+{
+"word": "Vegas.",
+"start": 4.632,
+"end": 5.155
+},
+{
+"word": "At",
+"start": 5.19,
+"end": 5.306
+},
+{
+"word": "his",
+"start": 5.341,
+"end": 5.422
+},
+{
+"word": "first",
+"start": 5.468,
+"end": 5.631
+},
+{
+"word": "Warriors",
+"start": 5.666,
+"end": 5.921
+},
+{
+"word": "game,",
+"start": 5.944,
+"end": 6.153
+},
+{
+"word": "in",
+"start": 6.177,
+"end": 6.223
+},
+{
+"word": "2024,",
+"start": 6.269,
+"end": 7.024
+},
+{
+"word": "the",
+"start": 7.047,
+"end": 7.129
+},
+{
+"word": "arena",
+"start": 7.163,
+"end": 7.407
+},
+{
+"word": "put",
+"start": 7.465,
+"end": 7.605
+},
+{
+"word": "his",
+"start": 7.639,
+"end": 7.721
+},
+{
+"word": "face",
+"start": 7.814,
+"end": 8.115
+},
+{
+"word": "on",
+"start": 8.15,
+"end": 8.208
+},
+{
+"word": "the",
+"start": 8.231,
+"end": 8.301
+},
+{
+"word": "big",
+"start": 8.348,
+"end": 8.487
+},
+{
+"word": "screen.",
+"start": 8.522,
+"end": 8.975
+},
+{
+"word": "Twice.",
+"start": 8.998,
+"end": 9.729
+},
+{
+"word": "The",
+"start": 9.752,
+"end": 9.834
+},
+{
+"word": "TV",
+"start": 9.88,
+"end": 10.054
+},
+{
+"word": "broadcast",
+"start": 10.147,
+"end": 10.577
+},
+{
+"word": "said",
+"start": 10.612,
+"end": 10.728
+},
+{
+"word": "he",
+"start": 10.762,
+"end": 10.809
+},
+{
+"word": "looks",
+"start": 10.879,
+"end": 11.041
+},
+{
+"word": "more",
+"start": 11.088,
+"end": 11.227
+},
+{
+"word": "like",
+"start": 11.25,
+"end": 11.366
+},
+{
+"word": "Steve",
+"start": 11.413,
+"end": 11.796
+},
+{
+"word": "than",
+"start": 11.819,
+"end": 11.935
+},
+{
+"word": "Steve.",
+"start": 12.005,
+"end": 12.504
+},
+{
+"word": "His",
+"start": 12.527,
+"end": 12.643
+},
+{
+"word": "own",
+"start": 12.69,
+"end": 12.829
+},
+{
+"word": "sons,",
+"start": 12.887,
+"end": 13.224
+},
+{
+"word": "watching",
+"start": 13.259,
+"end": 13.537
+},
+{
+"word": "at",
+"start": 13.572,
+"end": 13.618
+},
+{
+"word": "home,",
+"start": 13.676,
+"end": 13.862
+},
+{
+"word": "said,",
+"start": 13.885,
+"end": 14.164
+},
+{
+"word": "\"Mommy,",
+"start": 14.187,
+"end": 14.605
+},
+{
+"word": "there's",
+"start": 14.64,
+"end": 14.849
+},
+{
+"word": "Daddy.\"",
+"start": 14.896,
+"end": 15.383
+},
+{
+"word": "So",
+"start": 15.767,
+"end": 15.86
+},
+{
+"word": "what",
+"start": 15.906,
+"end": 16.011
+},
+{
+"word": "did",
+"start": 16.034,
+"end": 16.115
+},
+{
+"word": "Kerr",
+"start": 16.173,
+"end": 16.37
+},
+{
+"word": "say",
+"start": 16.429,
+"end": 16.545
+},
+{
+"word": "about",
+"start": 16.579,
+"end": 16.754
+},
+{
+"word": "his",
+"start": 16.788,
+"end": 16.87
+},
+{
+"word": "twin?",
+"start": 16.916,
+"end": 17.45
+},
+{
+"word": "\"I",
+"start": 17.611,
+"end": 17.75
+},
+{
+"word": "just",
+"start": 17.831,
+"end": 17.924
+},
+{
+"word": "thought",
+"start": 17.947,
+"end": 18.11
+},
+{
+"word": "he",
+"start": 18.133,
+"end": 18.18
+},
+{
+"word": "was",
+"start": 18.203,
+"end": 18.272
+},
+{
+"word": "strikingly",
+"start": 18.307,
+"end": 18.772
+},
+{
+"word": "handsome.\"",
+"start": 18.841,
+"end": 19.55
+}
+]

@@ -1,0 +1,5 @@
+# keep only the loudness-matched listening files in git
+takes/*.wav
+takes/*[!6].mp3
+!takes/*_lufs16.mp3
+run.log

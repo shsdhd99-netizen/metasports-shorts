@@ -1,0 +1,113 @@
+[
+ {
+  "clip": "A01.mp4",
+  "kind": "face",
+  "why": "SGA close-up, front on, staring (Thunder '2 Consistent. 2x MVP' reel, May 17 2026), slowed to 0.42x",
+  "start": 0.0
+ },
+ {
+  "clip": "A02.mp4",
+  "kind": "action",
+  "why": "SGA (#2) dribbles at a Rockets defender and rises for a jumper (Thunder MVP reel, 2025-26 season)",
+  "anchor": "just ended",
+  "start": 1.26
+ },
+ {
+  "clip": "A03.mp4",
+  "kind": "face",
+  "why": "SGA in the orange OKC jersey, hands on hips (MVP reel)",
+  "anchor": "in NBA history",
+  "start": 2.94
+ },
+ {
+  "clip": "A04.mp4",
+  "kind": "action",
+  "why": "SGA two fingers up to the crowd (MVP reel), 0.75x. Words: 141, IN A ROW",
+  "anchor": "141",
+  "start": 4.16
+ },
+ {
+  "clip": "A05.mp4",
+  "kind": "face",
+  "why": "SGA close, GILGEOUS-ALEXANDER 2 on his back, Thu Oct 22 2026 vs Denver, 4th qtr 2:55 (Thunder highlights). Words: 20+ PTS, EVERY GAME",
+  "anchor": "Straight games",
+  "start": 5.32
+ },
+ {
+  "clip": "A06.mp4",
+  "kind": "face",
+  "why": "SGA with the ball before a shot, black practice top (MVP reel)",
+  "anchor": "And he's",
+  "start": 6.93
+ },
+ {
+  "clip": "A07.mp4",
+  "kind": "face",
+  "why": "Wilt Chamberlain after his 100-point game, Mar 2 1962 (AP photo, public domain, Wikimedia; source 960x1214). Words: 126, WILT'S RECORD",
+  "anchor": "Wilt Chamberlain's",
+  "start": 8.16
+ },
+ {
+  "clip": "A08.mp4",
+  "kind": "face",
+  "why": "Michael Jordan (#23 Bulls) on court, 1996 (Bulls official clip), 0.72x. Words: 72, JORDAN'S BEST",
+  "anchor": "Jordan's best",
+  "start": 10.39
+ },
+ {
+  "clip": "A09.mp4",
+  "kind": "wide",
+  "why": "OKC vs Denver, Thu Oct 22 2026, ESPN bug reads THURSDAY (Thunder highlights)",
+  "anchor": "On Thursday",
+  "start": 12.13
+ },
+ {
+  "clip": "A10.mp4",
+  "kind": "action",
+  "why": "SGA (#2, left) rises for the three that gave him 17, 4th qtr 1:44, Oct 22 vs Denver. Words: 17 PTS",
+  "anchor": "Shai was stuck",
+  "start": 12.89
+ },
+ {
+  "clip": "A11.mp4",
+  "kind": "wide",
+  "why": "Same three from the other angle; the clock reads 1:43, OKC 93-76 (Thunder highlights). Words: 1:43 LEFT",
+  "anchor": "with under two",
+  "start": 14.24
+ },
+ {
+  "clip": "A12.mp4",
+  "kind": "face",
+  "why": "SGA celebrating that three, close, 1:43 left, Oct 22 (0.75x)",
+  "anchor": "So was he",
+  "start": 15.47
+ },
+ {
+  "clip": "A13.mp4",
+  "kind": "face",
+  "why": "ILLUSTRATIVE: Nuggets starter Christian Braun (#0) walking off at a timeout, 3rd qtr 5:10 of the same game (0.75x); the 1:43 timeout itself is not in the highlights",
+  "anchor": "Denver had",
+  "start": 17.07
+ },
+ {
+  "clip": "A14.mp4",
+  "kind": "face",
+  "why": "ILLUSTRATIVE: SGA walking away, back to camera, 4th qtr 2:53 of the same game, before he asked out (0.7x)",
+  "anchor": "so Shai asked",
+  "start": 18.33
+ },
+ {
+  "clip": "A15.mp4",
+  "kind": "face",
+  "why": "ILLUSTRATIVE: SGA at the Thunder's Oct 5 2026 press conference (the quote itself is from Oct 22, per Bleacher Report)",
+  "anchor": "He said",
+  "start": 19.8
+ },
+ {
+  "clip": "A16.mp4",
+  "kind": "face",
+  "why": "SGA points up and looks to the crowd after his 17th point, 1:43 left, Oct 22 (end of the Thunder highlights). Words: 141, STRAIGHT GAMES",
+  "anchor": "141 games",
+  "start": 21.79
+ }
+]

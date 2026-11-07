@@ -1,0 +1,163 @@
+{
+ "length_s": 26.0,
+ "topic": "The escalating trick shot rivalry between Jesser and Bodlefty as they tape basketballs and stack hoops to reach a 1,000-point shot.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "This shot is worth 27 points",
+  "first_frame": "Jesser on an outdoor court holding a giant tube of taped basketballs preparing to shoot",
+  "on_screen_text_0_3s": "THIS SHOT IS WORTH 27 POINTS BECAUSE JESSER TAPED NINE BASKETBALLS",
+  "shots_in_first_3s": 1
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 3.45,
+   "shows": "Jesser shooting 9 taped basketballs into an outdoor hoop",
+   "kind": "action"
+  },
+  {
+   "start_s": 3.45,
+   "end_s": 5.45,
+   "shows": "Creator in Flintstones outfit hitting a 33-point taped shot",
+   "kind": "action"
+  },
+  {
+   "start_s": 5.45,
+   "end_s": 10.15,
+   "shows": "Jesser shooting a 5-ball cylinder through 10 stacked hoops indoors for 100 points with an animated counter",
+   "kind": "action"
+  },
+  {
+   "start_s": 10.15,
+   "end_s": 11.0,
+   "shows": "Jesser standing next to the vertical stack of 10 rims",
+   "kind": "action"
+  },
+  {
+   "start_s": 11.0,
+   "end_s": 11.95,
+   "shows": "Comparison graphic of 34 taped balls vs. 5 balls and 10 hoops",
+   "kind": "other"
+  },
+  {
+   "start_s": 11.95,
+   "end_s": 15.95,
+   "shows": "Bodlefty throwing taped balls into a stacked hoop system outdoors for 126 points",
+   "kind": "action"
+  },
+  {
+   "start_s": 15.95,
+   "end_s": 17.95,
+   "shows": "Jesser calling Bodlefty an old man inside his gym",
+   "kind": "face"
+  },
+  {
+   "start_s": 17.95,
+   "end_s": 19.65,
+   "shows": "Jesser hitting a 150-point shot through stacked hoops",
+   "kind": "action"
+  },
+  {
+   "start_s": 19.65,
+   "end_s": 22.95,
+   "shows": "Bodlefty launching a 216-point giant pole of balls into a hoop",
+   "kind": "action"
+  },
+  {
+   "start_s": 22.95,
+   "end_s": 26.0,
+   "shows": "Jesser sinking a massive taped shot through stacked hoops for 1,000 points",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 10,
+ "average_shot_s": 2.6,
+ "longest_shot_s": 4.7,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 182,
+  "tone": "energetic",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "upbeat electronic hip-hop beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [
+  {
+   "at_s": 7.0,
+   "sound": "rapid ticking point counter sfx"
+  },
+  {
+   "at_s": 9.9,
+   "sound": "ding chime on 100"
+  },
+  {
+   "at_s": 24.0,
+   "sound": "rapid counting sound effect"
+  }
+ ],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "ALL CAPS",
+  "position": "middle",
+  "colours": "white with black outline",
+  "highlight_style": "none"
+ },
+ "text_overlays": [
+  {
+   "at_s": 6.8,
+   "text": "Score counter 0 to 100"
+  },
+  {
+   "at_s": 11.0,
+   "text": "Numbered ball count graphics (1-34)"
+  },
+  {
+   "at_s": 19.0,
+   "text": "Score counter ending at 150"
+  },
+  {
+   "at_s": 23.0,
+   "text": "ATTEMPTS: 16 badge and score counter ticking to 1015"
+  }
+ ],
+ "cards_or_graphics": 0,
+ "framing": "crop",
+ "ending": {
+  "last_words": "with a shot worth 1,000 points.",
+  "last_frame": "Jesser jogging forward inside the gym as the 1000-point cylinder drops through stacked nets",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "This shot is worth 27 points because Jesser taped nine basketballs into one. But when another TikToker hit a 33 point shot, it turned into a war. So Jesser responded with a 100 point shot, but instead of taping 34 balls together, he used 10 hoops and five basketballs. Then Bodlefty raised the record to 126 points and even changed Jesser's name to Jerry. Jesser fired back by calling Bodlefty an old man before hitting a 150 point shot. After that everyone thought Bodlefty ended it with a 216 point shot, but months later Jesser came back with a shot worth 1,000 points.",
+ "retention_tricks": [
+  "Escalating number stakes starting from 27 and ramping up to 1,000 points",
+  "Dynamic on-screen point counters that tick up rapidly with sound effects",
+  "Fast narrative rivalry between two popular creators creating dramatic tension"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "Clear, escalating competitive stakes that constantly raise the ceiling (27 -> 33 -> 100 -> 126 -> 150 -> 216 -> 1000).",
+  "Visual novelty of absurdly modified basketball gear (stacked hoops and taped ball pillars) creates instant visual curiosity.",
+  "Fast cuts precisely timed to each successive record keep viewers watching until the final 1,000-point shot."
+ ],
+ "_meta": {
+  "source": "d5x3OWzYXuk",
+  "model": "gemini-3.8-flash",
+  "fps": 4.0,
+  "watched": "2026-11-01",
+  "tier": "[S] model-observed, not measured"
+ }
+}

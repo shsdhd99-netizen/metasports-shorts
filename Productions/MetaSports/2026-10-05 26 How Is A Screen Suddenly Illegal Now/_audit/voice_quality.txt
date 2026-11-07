@@ -1,0 +1,4 @@
+2026-10-05 26 How Is A Screen #0     REDO HNR   7.8 jit 2.57 shim 10.45 jumps/s 0.00 clicks/min 138.8 hf%  4.25 f0 219 dur 6.48  HNR 7.8 dB (noisy/robotic); jitter 2.57% (shaky); shimmer 10.45% (uneven loudness); 138.8 clicks/min
+2026-10-05 26 How Is A Screen #2     REDO HNR   6.5 jit 2.78 shim 11.85 jumps/s 0.00 clicks/min 909.4 hf%  7.29 f0 173 dur 2.64  HNR 6.5 dB (noisy/robotic); jitter 2.78% (shaky); shimmer 11.85% (uneven loudness); 909.4 clicks/min
+2026-10-05 26 How Is A Screen #4     REDO HNR   7.0 jit 2.79 shim 11.35 jumps/s 0.00 clicks/min 749.7 hf%  2.88 f0 226 dur 5.76  HNR 7.0 dB (noisy/robotic); jitter 2.79% (shaky); shimmer 11.35% (uneven loudness); 749.7 clicks/min
+2026-10-05 26 How Is A Screen #6     REDO HNR   7.7 jit 2.94 shim 10.68 jumps/s 0.00 clicks/min 182.4 hf%  4.19 f0 193 dur 2.63  HNR 7.7 dB (noisy/robotic); jitter 2.94% (shaky); shimmer 10.68% (uneven loudness); 182.4 clicks/min

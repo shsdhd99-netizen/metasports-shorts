@@ -1,0 +1,57 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Montserrat Black,86,&H00FFFFFF,&H00FFFFFF,&H00000000,&H99000000,0,0,0,0,95,100,1,0,1,6,3,5,70,70,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.56,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}COOPER FLAGG
+Dialogue: 0,0:00:00.56,0:00:01.02,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}GREW AN INCH
+Dialogue: 0,0:00:01.02,0:00:01.68,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}IN ONE SENTENCE.
+Dialogue: 0,0:00:01.68,0:00:02.29,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HIS DRAFT PAGE
+Dialogue: 0,0:00:02.29,0:00:03.03,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}LISTED SIX-EIGHT.
+Dialogue: 0,0:00:03.03,0:00:03.51,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE NBA'S
+Dialogue: 0,0:00:03.51,0:00:03.99,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SITE STILL
+Dialogue: 0,0:00:03.99,0:00:04.69,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}LISTS SIX-NINE.
+Dialogue: 0,0:00:04.69,0:00:05.39,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}UNTIL MEDIA DAY.
+Dialogue: 0,0:00:05.39,0:00:05.91,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}I'M SIX-TEN
+Dialogue: 0,0:00:05.91,0:00:06.55,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WITH NO SHOES.
+Dialogue: 0,0:00:06.55,0:00:06.83,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}LISTED
+Dialogue: 0,0:00:06.83,0:00:07.39,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AT HIS PHYSICAL
+Dialogue: 0,0:00:07.39,0:00:07.82,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}YESTERDAY.
+Dialogue: 0,0:00:07.82,0:00:08.20,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}I WAS LIKE
+Dialogue: 0,0:00:08.20,0:00:08.93,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SIX-NINE LAST YEAR,
+Dialogue: 0,0:00:08.93,0:00:09.85,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SO DEFINITELY TALLER.
+Dialogue: 0,0:00:09.85,0:00:10.66,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THAT'S ONE SUMMER,
+Dialogue: 0,0:00:10.66,0:00:11.10,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ONE INCH,
+Dialogue: 0,0:00:11.10,0:00:11.63,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FOR THE REIGNING
+Dialogue: 0,0:00:11.63,0:00:11.85,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ROOKIE
+Dialogue: 0,0:00:11.85,0:00:12.27,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}OF THE YEAR,
+Dialogue: 0,0:00:12.27,0:00:12.68,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WHO SCORED
+Dialogue: 0,0:00:12.68,0:00:13.26,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}A CAREER-HIGH
+Dialogue: 0,0:00:13.26,0:00:13.66,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FIFTY-ONE
+Dialogue: 0,0:00:13.66,0:00:14.35,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}AGAINST ORLANDO,
+Dialogue: 0,0:00:14.35,0:00:14.67,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}THE ONLY
+Dialogue: 0,0:00:14.67,0:00:15.34,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}TEENAGER TO SCORE
+Dialogue: 0,0:00:15.34,0:00:15.96,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}FIFTY OR MORE.
+Dialogue: 0,0:00:15.96,0:00:16.54,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}EVEN HIS TRAINER
+Dialogue: 0,0:00:16.54,0:00:17.11,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}WOULD NOT CONFIRM
+Dialogue: 0,0:00:17.11,0:00:17.58,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HE'D GROWN.
+Dialogue: 0,0:00:17.58,0:00:17.88,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}BUT THEN
+Dialogue: 0,0:00:17.88,0:00:18.55,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}A REPORTER ASKED
+Dialogue: 0,0:00:18.55,0:00:19.39,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ABOUT SIX-ELEVEN.
+Dialogue: 0,0:00:19.39,0:00:20.22,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NOT VERY ACCURATE,
+Dialogue: 0,0:00:20.22,0:00:20.63,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}HE SAID.
+Dialogue: 0,0:00:20.63,0:00:21.25,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\c&H002A2AFF&\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SO, NO SHOES,
+Dialogue: 0,0:00:21.25,0:00:22.12,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}MAYBE I'M SIX-ELEVEN.
+Dialogue: 0,0:00:22.12,0:00:22.57,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}I DON'T KNOW.
+Dialogue: 0,0:00:22.57,0:00:22.96,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SIX-EIGHT,
+Dialogue: 0,0:00:22.96,0:00:23.36,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SIX-NINE,
+Dialogue: 0,0:00:23.36,0:00:23.74,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}SIX-TEN,
+Dialogue: 0,0:00:23.74,0:00:25.07,Cap,,0,0,0,,{\pos(540,1185)\blur1.2\fscx86\fscy86\t(0,90,\fscx100\fscy100)}NOW MAYBE SIX-ELEVEN.

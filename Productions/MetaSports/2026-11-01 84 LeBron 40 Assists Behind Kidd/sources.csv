@@ -1,0 +1,15 @@
+clip,kind,used_at_s,used_for_line,what_it_shows,source_url,source_account,source_date,source_in_s,source_out_s,crop,match_score,licence_risk,verified,verified_on,notes
+A01.mp4,action,0.00,LeBron James is 40 assists behind Jason Kidd.,"LeBron close, Lakers 2025-26 (NBA Top Plays)",src\lebron.mp4,,,1079.0,1081.7,x 0.5 zoom 1.0 y 0.5 blurfit,,,yes,2026-11-01, | source 1280x720
+A02.mp4,face,2.39,"That is third place, all time.","LeBron under the basket, Lakers",src\lebron.mp4,,,659.9,662.0,x 0.5 zoom 1.0 y 0.5 blurfit,,,yes,2026-11-01, | source 1280x720
+A03.mp4,action,4.17,"Kidd has 12,091.","Jason Kidd (#5, Nets) with the ball (NBA Top 45 assists)",src\kidd.mp4,,,101.9,103.8,x 0.5 zoom 1.0 y 0.5 blurfit,,,yes,2026-11-01, | source 1280x720
+A04.mp4,face,5.81,"LeBron has 12,051.","LeBron with the ball, Lakers",src\lebron.mp4,,,89.9,92.0,x 0.5 zoom 1.0 y 0.5 blurfit,,,yes,2026-11-01, | source 1280x720
+A05.mp4,action,7.63,"At seven assists a game,",LeBron driving,src\lebron.mp4,,,899.9,901.5,x 0.5 zoom 1.0 y 0.5 blurfit,,,yes,2026-11-01, | source 1280x720
+A05b.mp4,action,8.95,LeBron catches him in about six games.,LeBron on the break,src\lebron.mp4,,,1083.5,1085.9,x 0.5 zoom 1.0 y 0.5 blurfit,,,yes,2026-11-01, | source 1280x720
+A06.mp4,action,11.03,Now look at the top five.,Stockton (#12 Jazz) with the ball,src\stockton.mp4,,,271.7,273.1,x 0.5 zoom 1.0 y 0.5 blurfit,,,yes,2026-11-01, | source 1280x720
+A07.mp4,face,12.17,Stockton.,John Stockton close,src\stockton.mp4,,,356.7,357.6,x 0.5 zoom 1.0 y 0.5 blurfit,,,yes,2026-11-01, | source 1280x720
+A08.mp4,face,12.77,Paul.,"Chris Paul close, Clippers",src\paul.mp4,,,1125.3,1126.0,x 0.5 zoom 1.0 y 0.5 blurfit,,,yes,2026-11-01, | source 1280x720
+A09.mp4,action,13.21,Kidd.,"Jason Kidd, Nets",src\kidd.mp4,,,100.2,100.9,x 0.5 zoom 1.0 y 0.5 blurfit,,,yes,2026-11-01, | source 1280x720
+A10.mp4,face,13.62,Westbrook.,"Russell Westbrook close, OKC",src\westbrook.mp4,,,224.2,225.0,x 0.5 zoom 1.0 y 0.5 blurfit,,,yes,2026-11-01, | source 1280x720
+A11.mp4,action,14.15,"Point guards, all four.","Chris Paul, Rockets",src\paul.mp4,,,90.0,91.6,x 0.5 zoom 1.0 y 0.5 blurfit,,,yes,2026-11-01, | source 1280x720
+A12.mp4,action,15.43,And then LeBron.,LeBron,src\lebron.mp4,,,902.9,904.0,x 0.5 zoom 1.0 y 0.5 blurfit,,,yes,2026-11-01, | source 1280x720
+A13.mp4,face,16.28,A forward.,LeBron close,src\lebron.mp4,,,663.0,664.3,x 0.5 zoom 1.0 y 0.5 blurfit,,,yes,2026-11-01, | source 1280x720

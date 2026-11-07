@@ -1,0 +1,365 @@
+{
+ "sources": {
+  "TW": "src/c_towel.mp4",
+  "P1": "src/c_pre1.mp4",
+  "P2": "src/c_pre2.mp4",
+  "P3": "src/c_pre3.mp4",
+  "P4": "src/c_pre4.mp4",
+  "MI": "src/c_mina.mp4",
+  "FA": "src/c_falcao.mp4",
+  "BO": "src/c_bottle1.mp4",
+  "HE": "src/c_hend.mp4",
+  "UR": "src/c_uribe.mp4",
+  "BA": "src/c_bacca.mp4",
+  "DI": "src/c_dier.mp4",
+  "EP": "src/e_pick.mp4",
+  "EJ": "src/e_jorg.mp4",
+  "EB": "src/e_belotti.mp4",
+  "EI": "src/e_ita.mp4"
+ },
+ "shots": [
+  {
+   "clip": "A01",
+   "src": "TW",
+   "at": 16.6,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Pickford's bottle wrapped in a towel, close-up, before the 2018 shootout. 2018 World Cup last 16, Colombia 1-1 England (4-3 pens), 3 July 2018, FIFA 4K broadcast (archive.org colombia-vs-england.-2160p)"
+  },
+  {
+   "clip": "A02",
+   "src": "P1",
+   "at": 0.5,
+   "blurfit": true,
+   "kind": "action",
+   "why": "Opening ceremony: the Russia 2018 emblem on the pitch. 2018 World Cup last 16, Colombia 1-1 England (4-3 pens), 3 July 2018, FIFA 4K broadcast (archive.org colombia-vs-england.-2160p)",
+   "anchor": "Back in 2018"
+  },
+  {
+   "clip": "A03",
+   "src": "P2",
+   "at": 2.0,
+   "x": 0.5,
+   "kind": "action",
+   "why": "England and Colombia line up in the tunnel. 2018 World Cup last 16, Colombia 1-1 England (4-3 pens), 3 July 2018, FIFA 4K broadcast (archive.org colombia-vs-england.-2160p)",
+   "anchor": "England played Colombia"
+  },
+  {
+   "clip": "A04",
+   "src": "P3",
+   "at": 5.0,
+   "blurfit": true,
+   "kind": "action",
+   "why": "Spartak Stadium, flags on the pitch before kick-off. 2018 World Cup last 16, Colombia 1-1 England (4-3 pens), 3 July 2018, FIFA 4K broadcast (archive.org colombia-vs-england.-2160p)",
+   "anchor": "at the World Cup"
+  },
+  {
+   "clip": "A05",
+   "src": "P3",
+   "at": 0.2,
+   "x": 0.45,
+   "kind": "face",
+   "why": "Harry Kane, England captain, at the anthems. 2018 World Cup last 16, Colombia 1-1 England (4-3 pens), 3 July 2018, FIFA 4K broadcast (archive.org colombia-vs-england.-2160p)",
+   "anchor": "and England had never"
+  },
+  {
+   "clip": "A06",
+   "src": "P4",
+   "at": 3.9,
+   "x": 0.5,
+   "kind": "face",
+   "why": "Jordan Pickford at the anthems. 2018 World Cup last 16, Colombia 1-1 England (4-3 pens), 3 July 2018, FIFA 4K broadcast (archive.org colombia-vs-england.-2160p)",
+   "anchor": "World Cup penalty shootout"
+  },
+  {
+   "clip": "A07",
+   "still": "assets/card_shootouts.jpg",
+   "kind": "card",
+   "why": "Card: England lost World Cup shootouts in 1990 (West Germany), 1998 (Argentina), 2006 (Portugal)",
+   "anchor": "They lost in 1990"
+  },
+  {
+   "clip": "A08",
+   "src": "MI",
+   "at": 4.5,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Colombia's stoppage-time corner. 2018 World Cup last 16, Colombia 1-1 England (4-3 pens), 3 July 2018, FIFA 4K broadcast (archive.org colombia-vs-england.-2160p)",
+   "anchor": "Then deep into"
+  },
+  {
+   "clip": "A09",
+   "src": "MI",
+   "at": 68.3,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Replay: Yerry Mina (13) heads in the equaliser, 90+3. 2018 World Cup last 16, Colombia 1-1 England (4-3 pens), 3 July 2018, FIFA 4K broadcast (archive.org colombia-vs-england.-2160p)",
+   "anchor": "Yerry Mina headed"
+  },
+  {
+   "clip": "A10",
+   "src": "MI",
+   "at": 28.5,
+   "x": 0.45,
+   "kind": "face",
+   "why": "Yerry Mina (13) celebrates. 2018 World Cup last 16, Colombia 1-1 England (4-3 pens), 3 July 2018, FIFA 4K broadcast (archive.org colombia-vs-england.-2160p)",
+   "anchor": "an equalizer"
+  },
+  {
+   "clip": "A11",
+   "src": "FA",
+   "at": 0.2,
+   "blurfit": true,
+   "kind": "action",
+   "why": "The teams gather before the shootout. 2018 World Cup last 16, Colombia 1-1 England (4-3 pens), 3 July 2018, FIFA 4K broadcast (archive.org colombia-vs-england.-2160p)",
+   "anchor": "It went to penalties"
+  },
+  {
+   "clip": "A12",
+   "src": "FA",
+   "at": 5.0,
+   "x": 0.35,
+   "kind": "action",
+   "why": "Pickford (1) walks to the goal. 2018 World Cup last 16, Colombia 1-1 England (4-3 pens), 3 July 2018, FIFA 4K broadcast (archive.org colombia-vs-england.-2160p)",
+   "anchor": "But England's goalkeeper"
+  },
+  {
+   "clip": "A13",
+   "src": "FA",
+   "at": 28.0,
+   "x": 0.47,
+   "kind": "face",
+   "why": "Jordan Pickford close-up before the shootout. 2018 World Cup last 16, Colombia 1-1 England (4-3 pens), 3 July 2018, FIFA 4K broadcast (archive.org colombia-vs-england.-2160p)",
+   "anchor": "Jordan Pickford"
+  },
+  {
+   "clip": "A14",
+   "src": "BO",
+   "at": 2.6,
+   "x": 0.3,
+   "kind": "action",
+   "why": "Pickford drinks from his bottle before the shootout. 2018 World Cup last 16, Colombia 1-1 England (4-3 pens), 3 July 2018, FIFA 4K broadcast (archive.org colombia-vs-england.-2160p)",
+   "anchor": "His water bottle"
+  },
+  {
+   "clip": "A15",
+   "src": "FA",
+   "at": 12.2,
+   "x": 0.3,
+   "kind": "action",
+   "why": "Colombia's penalty takers (Muriel 14, Uribe 15). 2018 World Cup last 16, Colombia 1-1 England (4-3 pens), 3 July 2018, FIFA 4K broadcast (archive.org colombia-vs-england.-2160p)",
+   "anchor": "showing where each"
+  },
+  {
+   "clip": "A16",
+   "src": "TW",
+   "at": 4.4,
+   "blurfit": true,
+   "kind": "action",
+   "why": "Pickford beside Colombia keeper David Ospina (1) and the referee, bottle in a towel. 2018 World Cup last 16, Colombia 1-1 England (4-3 pens), 3 July 2018, FIFA 4K broadcast (archive.org colombia-vs-england.-2160p)",
+   "anchor": "And when he walked"
+  },
+  {
+   "clip": "A17",
+   "src": "TW",
+   "at": 10.0,
+   "x": 0.78,
+   "kind": "action",
+   "why": "Pickford holds the bottle wrapped in a towel next to Ospina. 2018 World Cup last 16, Colombia 1-1 England (4-3 pens), 3 July 2018, FIFA 4K broadcast (archive.org colombia-vs-england.-2160p)",
+   "anchor": "he covered it"
+  },
+  {
+   "clip": "A18",
+   "src": "HE",
+   "at": 4.6,
+   "blurfit": true,
+   "kind": "action",
+   "why": "Jordan Henderson's kick saved by Ospina (England's third). 2018 World Cup last 16, Colombia 1-1 England (4-3 pens), 3 July 2018, FIFA 4K broadcast (archive.org colombia-vs-england.-2160p)",
+   "anchor": "England missed their"
+  },
+  {
+   "clip": "A19",
+   "src": "UR",
+   "at": 0.9,
+   "x": 0.5,
+   "kind": "action",
+   "why": "Mateus Uribe (15) walks up. 2018 World Cup last 16, Colombia 1-1 England (4-3 pens), 3 July 2018, FIFA 4K broadcast (archive.org colombia-vs-england.-2160p)",
+   "anchor": "But then Mateus Uribe"
+  },
+  {
+   "clip": "A20",
+   "src": "UR",
+   "at": 3.6,
+   "blurfit": true,
+   "kind": "action",
+   "why": "Uribe's kick hits the crossbar. 2018 World Cup last 16, Colombia 1-1 England (4-3 pens), 3 July 2018, FIFA 4K broadcast (archive.org colombia-vs-england.-2160p)",
+   "anchor": "smashed Colombia's"
+  },
+  {
+   "clip": "A21",
+   "src": "BA",
+   "at": 16.2,
+   "x": 0.62,
+   "kind": "face",
+   "why": "Carlos Bacca before his kick. 2018 World Cup last 16, Colombia 1-1 England (4-3 pens), 3 July 2018, FIFA 4K broadcast (archive.org colombia-vs-england.-2160p)",
+   "anchor": "And when Carlos Bacca"
+  },
+  {
+   "clip": "A22",
+   "src": "BA",
+   "at": 29.6,
+   "blurfit": true,
+   "kind": "action",
+   "anchor": "Pickford dived",
+   "why": "Live: Bacca's kick; Pickford dives to his right and tips it away with his raised left hand. 2018 World Cup last 16, FIFA 4K broadcast"
+  },
+  {
+   "clip": "A22b",
+   "src": "BA",
+   "at": 46.0,
+   "x": 0.5,
+   "kind": "action",
+   "anchor": "threw up his arm",
+   "why": "Replay from behind Pickford: he dives to his right, left arm up, and saves Bacca's kick. 2018 World Cup last 16, FIFA 4K broadcast"
+  },
+  {
+   "clip": "A23",
+   "src": "DI",
+   "at": 5.3,
+   "blurfit": true,
+   "kind": "action",
+   "why": "Eric Dier's winning kick. 2018 World Cup last 16, Colombia 1-1 England (4-3 pens), 3 July 2018, FIFA 4K broadcast (archive.org colombia-vs-england.-2160p)",
+   "anchor": "Eric Dier scored"
+  },
+  {
+   "clip": "A24",
+   "src": "DI",
+   "at": 12.4,
+   "x": 0.5,
+   "kind": "action",
+   "why": "England players run to Pickford. 2018 World Cup last 16, Colombia 1-1 England (4-3 pens), 3 July 2018, FIFA 4K broadcast (archive.org colombia-vs-england.-2160p)",
+   "anchor": "and England had finally"
+  },
+  {
+   "clip": "A25",
+   "src": "DI",
+   "at": 18.5,
+   "blurfit": true,
+   "kind": "action",
+   "why": "England pile on in celebration. 2018 World Cup last 16, Colombia 1-1 England (4-3 pens), 3 July 2018, FIFA 4K broadcast (archive.org colombia-vs-england.-2160p)",
+   "anchor": "won a World Cup"
+  },
+  {
+   "clip": "A29",
+   "src": "BO",
+   "at": 6.3,
+   "x": 0.4,
+   "kind": "face",
+   "why": "Pickford after drinking from the bottle. 2018 World Cup last 16, Colombia 1-1 England (4-3 pens), 3 July 2018, FIFA 4K broadcast (archive.org colombia-vs-england.-2160p)",
+   "anchor": "So Pickford kept"
+  },
+  {
+   "clip": "A30",
+   "src": "EP",
+   "at": 3.7,
+   "x": 0.6,
+   "kind": "face",
+   "why": "Pickford at his post in the Euro 2020 final shootout. Euro 2020 final, Italy 1-1 England (3-2 pens), 11 July 2021, BBC broadcast (archive.org euro-2020-final)",
+   "anchor": "In the Euro 2020"
+  },
+  {
+   "clip": "A31",
+   "src": "EJ",
+   "at": 2.6,
+   "x": 0.55,
+   "kind": "face",
+   "why": "Pickford in goal before Jorginho's kick. Euro 2020 final, Italy 1-1 England (3-2 pens), 11 July 2021, BBC broadcast (archive.org euro-2020-final)",
+   "anchor": "he had his bottle"
+  },
+  {
+   "clip": "A32",
+   "src": "EB",
+   "at": 4.4,
+   "blurfit": true,
+   "kind": "action",
+   "why": "Replay: Pickford saves Andrea Belotti's kick. Euro 2020 final, Italy 1-1 England (3-2 pens), 11 July 2021, BBC broadcast (archive.org euro-2020-final)",
+   "anchor": "and he saved two"
+  },
+  {
+   "clip": "A33",
+   "src": "EI",
+   "at": 11.2,
+   "x": 0.45,
+   "kind": "action",
+   "why": "Italy's staff celebrate the win. Euro 2020 final, Italy 1-1 England (3-2 pens), 11 July 2021, BBC broadcast (archive.org euro-2020-final)",
+   "anchor": "but England still lost"
+  },
+  {
+   "clip": "A34",
+   "src": "BA",
+   "at": 9.6,
+   "x": 0.5,
+   "kind": "face",
+   "why": "Jordan Pickford close-up. 2018 World Cup last 16, Colombia 1-1 England (4-3 pens), 3 July 2018, FIFA 4K broadcast (archive.org colombia-vs-england.-2160p)",
+   "anchor": "But here's the wild part"
+  },
+  {
+   "clip": "A35",
+   "still": "assets/card_fixture.jpg",
+   "kind": "card",
+   "why": "Card: World Cup 2026 semi-final, England v Argentina, Atlanta, 15 July 2026",
+   "anchor": "This summer"
+  },
+  {
+   "clip": "A36",
+   "still": "assets/card_bottle_full.jpg",
+   "kind": "card",
+   "why": "Photo card: Pickford's bottle at the 2026 semi-final (photo shared on X)",
+   "anchor": "and Pickford had the bottle"
+  },
+  {
+   "clip": "A37",
+   "still": "assets/card_semi.jpg",
+   "kind": "card",
+   "why": "Card: Gordon 55', E. Fernández 85', L. Martínez 90+2' (ESPN, Sky Sports)",
+   "anchor": "But Argentina scored"
+  },
+  {
+   "clip": "A38",
+   "src": "FA",
+   "at": 16.6,
+   "x": 0.5,
+   "kind": "action",
+   "why": "ILLUSTRATIVE: a ball on the penalty spot (2018 shootout), for the shootout that never came. 2018 World Cup last 16, Colombia 1-1 England (4-3 pens), 3 July 2018, FIFA 4K broadcast (archive.org colombia-vs-england.-2160p)",
+   "anchor": "so there was no"
+  },
+  {
+   "clip": "A39",
+   "still": "assets/bottle_9x16.jpg",
+   "kind": "action",
+   "why": "Photo: the bottle on the pitch after the 2026 semi-final (photo shared on X)",
+   "anchor": "And after the game"
+  },
+  {
+   "clip": "A40",
+   "still": "assets/messi_9x16.jpg",
+   "kind": "action",
+   "why": "Photo: González and Messi read the bottle (TyC Sports, via @TouchlineX on X)",
+   "anchor": "and passed it to Messi"
+  },
+  {
+   "clip": "A41",
+   "still": "assets/card_bottle.jpg",
+   "kind": "card",
+   "why": "Photo card: Almada - FEEL ON THE DAY boxed (photo via @FabrizioRomano on X)",
+   "anchor": "Next to one player's"
+  },
+  {
+   "clip": "A41b",
+   "still": "assets/feel_9x16.jpg",
+   "kind": "card",
+   "anchor": "feel on the day",
+   "why": "Photo zoom: 'ALMADA - FEEL ON THE DAY' boxed on Pickford's 2026 bottle (photo shared on X)"
+  }
+ ]
+}

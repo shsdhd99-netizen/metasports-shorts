@@ -1,0 +1,432 @@
+[
+ {
+  "word": "This",
+  "start": 0.0,
+  "end": 0.221
+ },
+ {
+  "word": "pass",
+  "start": 0.302,
+  "end": 0.627
+ },
+ {
+  "word": "doesn't",
+  "start": 0.673,
+  "end": 0.917
+ },
+ {
+  "word": "even",
+  "start": 0.952,
+  "end": 1.091
+ },
+ {
+  "word": "count.",
+  "start": 1.173,
+  "end": 1.579
+ },
+ {
+  "word": "A",
+  "start": 1.602,
+  "end": 1.672
+ },
+ {
+  "word": "week",
+  "start": 1.753,
+  "end": 1.939
+ },
+ {
+  "word": "later,",
+  "start": 1.997,
+  "end": 2.31
+ },
+ {
+  "word": "Jokic",
+  "start": 2.357,
+  "end": 2.705
+ },
+ {
+  "word": "said",
+  "start": 2.763,
+  "end": 2.902
+ },
+ {
+  "word": "it",
+  "start": 2.926,
+  "end": 2.972
+ },
+ {
+  "word": "was",
+  "start": 2.995,
+  "end": 3.065
+ },
+ {
+  "word": "probably",
+  "start": 3.123,
+  "end": 3.46
+ },
+ {
+  "word": "the",
+  "start": 3.495,
+  "end": 3.564
+ },
+ {
+  "word": "best",
+  "start": 3.646,
+  "end": 3.889
+ },
+ {
+  "word": "pass",
+  "start": 3.947,
+  "end": 4.249
+ },
+ {
+  "word": "of",
+  "start": 4.272,
+  "end": 4.319
+ },
+ {
+  "word": "his",
+  "start": 4.365,
+  "end": 4.447
+ },
+ {
+  "word": "NBA",
+  "start": 4.505,
+  "end": 4.992
+ },
+ {
+  "word": "career.",
+  "start": 5.062,
+  "end": 5.747
+ },
+ {
+  "word": "No",
+  "start": 5.851,
+  "end": 6.084
+ },
+ {
+  "word": "look.",
+  "start": 6.188,
+  "end": 6.594
+ },
+ {
+  "word": "Behind",
+  "start": 6.618,
+  "end": 6.908
+ },
+ {
+  "word": "the",
+  "start": 6.943,
+  "end": 7.012
+ },
+ {
+  "word": "back.",
+  "start": 7.059,
+  "end": 7.454
+ },
+ {
+  "word": "Corner",
+  "start": 7.477,
+  "end": 7.744
+ },
+ {
+  "word": "to",
+  "start": 7.79,
+  "end": 7.837
+ },
+ {
+  "word": "corner.",
+  "start": 7.906,
+  "end": 8.266
+ },
+ {
+  "word": "Cam",
+  "start": 8.301,
+  "end": 8.545
+ },
+ {
+  "word": "Johnson",
+  "start": 8.626,
+  "end": 8.928
+ },
+ {
+  "word": "buries",
+  "start": 8.986,
+  "end": 9.265
+ },
+ {
+  "word": "the",
+  "start": 9.311,
+  "end": 9.381
+ },
+ {
+  "word": "three.",
+  "start": 9.439,
+  "end": 9.996
+ },
+ {
+  "word": "Jokic",
+  "start": 10.101,
+  "end": 10.484
+ },
+ {
+  "word": "has",
+  "start": 10.507,
+  "end": 10.612
+ },
+ {
+  "word": "six",
+  "start": 10.693,
+  "end": 10.925
+ },
+ {
+  "word": "thousand",
+  "start": 10.971,
+  "end": 11.32
+ },
+ {
+  "word": "and",
+  "start": 11.366,
+  "end": 11.436
+ },
+ {
+  "word": "eighty",
+  "start": 11.529,
+  "end": 11.749
+ },
+ {
+  "word": "assists",
+  "start": 11.796,
+  "end": 12.132
+ },
+ {
+  "word": "in",
+  "start": 12.167,
+  "end": 12.214
+ },
+ {
+  "word": "the",
+  "start": 12.237,
+  "end": 12.307
+ },
+ {
+  "word": "record",
+  "start": 12.365,
+  "end": 12.586
+ },
+ {
+  "word": "book.",
+  "start": 12.632,
+  "end": 13.015
+ },
+ {
+  "word": "So",
+  "start": 13.12,
+  "end": 13.282
+ },
+ {
+  "word": "this",
+  "start": 13.34,
+  "end": 13.468
+ },
+ {
+  "word": "should",
+  "start": 13.491,
+  "end": 13.63
+ },
+ {
+  "word": "be",
+  "start": 13.654,
+  "end": 13.7
+ },
+ {
+  "word": "number",
+  "start": 13.735,
+  "end": 13.874
+ },
+ {
+  "word": "six",
+  "start": 13.909,
+  "end": 14.025
+ },
+ {
+  "word": "thousand",
+  "start": 14.06,
+  "end": 14.373
+ },
+ {
+  "word": "and",
+  "start": 14.408,
+  "end": 14.478
+ },
+ {
+  "word": "eighty-one.",
+  "start": 14.524,
+  "end": 15.035
+ },
+ {
+  "word": "It",
+  "start": 15.058,
+  "end": 15.175
+ },
+ {
+  "word": "isn't.",
+  "start": 15.233,
+  "end": 15.604
+ },
+ {
+  "word": "It",
+  "start": 15.627,
+  "end": 15.72
+ },
+ {
+  "word": "happened",
+  "start": 15.767,
+  "end": 15.999
+ },
+ {
+  "word": "in",
+  "start": 16.022,
+  "end": 16.069
+ },
+ {
+  "word": "a",
+  "start": 16.103,
+  "end": 16.127
+ },
+ {
+  "word": "preseason",
+  "start": 16.185,
+  "end": 16.591
+ },
+ {
+  "word": "game,",
+  "start": 16.661,
+  "end": 17.021
+ },
+ {
+  "word": "in",
+  "start": 17.044,
+  "end": 17.113
+ },
+ {
+  "word": "a",
+  "start": 17.16,
+  "end": 17.183
+ },
+ {
+  "word": "college",
+  "start": 17.253,
+  "end": 17.566
+ },
+ {
+  "word": "gym",
+  "start": 17.601,
+  "end": 17.764
+ },
+ {
+  "word": "in",
+  "start": 17.81,
+  "end": 17.856
+ },
+ {
+  "word": "Boulder.",
+  "start": 17.914,
+  "end": 18.286
+ },
+ {
+  "word": "And",
+  "start": 18.309,
+  "end": 18.391
+ },
+ {
+  "word": "preseason",
+  "start": 18.437,
+  "end": 18.797
+ },
+ {
+  "word": "assists",
+  "start": 18.832,
+  "end": 19.168
+ },
+ {
+  "word": "never",
+  "start": 19.25,
+  "end": 19.447
+ },
+ {
+  "word": "go",
+  "start": 19.505,
+  "end": 19.575
+ },
+ {
+  "word": "in",
+  "start": 19.633,
+  "end": 19.679
+ },
+ {
+  "word": "the",
+  "start": 19.726,
+  "end": 19.795
+ },
+ {
+  "word": "book.",
+  "start": 19.842,
+  "end": 20.178
+ },
+ {
+  "word": "So",
+  "start": 20.248,
+  "end": 20.341
+ },
+ {
+  "word": "his",
+  "start": 20.411,
+  "end": 20.492
+ },
+ {
+  "word": "total",
+  "start": 20.585,
+  "end": 20.91
+ },
+ {
+  "word": "still",
+  "start": 20.991,
+  "end": 21.27
+ },
+ {
+  "word": "reads",
+  "start": 21.339,
+  "end": 21.583
+ },
+ {
+  "word": "six",
+  "start": 21.63,
+  "end": 21.827
+ },
+ {
+  "word": "thousand",
+  "start": 21.873,
+  "end": 22.187
+ },
+ {
+  "word": "and",
+  "start": 22.222,
+  "end": 22.291
+ },
+ {
+  "word": "eighty.",
+  "start": 22.361,
+  "end": 22.663
+ },
+ {
+  "word": "Not",
+  "start": 22.686,
+  "end": 22.849
+ },
+ {
+  "word": "eighty-one.",
+  "start": 22.895,
+  "end": 23.499
+ }
+]

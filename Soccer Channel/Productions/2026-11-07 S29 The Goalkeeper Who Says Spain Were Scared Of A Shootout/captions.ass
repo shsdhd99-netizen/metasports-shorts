@@ -1,0 +1,85 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,TikTok Sans SemiBold,80,&H00FFFFFF,&H00FFFFFF,&H00000000,&H99000000,0,0,0,0,100,100,0,0,1,3.2,1,5,70,70,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:02.75,Cap,,0,0,0,,{\pos(540,960)\blur0.5\fscx66\fscy66}The goalkeeper who says Spain were\NSCARED of a shootout
+Dialogue: 0,0:00:02.75,0:00:04.02,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Back in 2022,
+Dialogue: 0,0:00:04.02,0:00:05.10,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Emiliano Martinez
+Dialogue: 0,0:00:05.10,0:00:06.22,Cap,,0,0,0,,{\pos(540,960)\blur0.5}helped Argentina win
+Dialogue: 0,0:00:06.22,0:00:06.73,Cap,,0,0,0,,{\pos(540,960)\blur0.5}the World Cup
+Dialogue: 0,0:00:06.73,0:00:07.87,Cap,,0,0,0,,{\pos(540,960)\blur0.5}final on penalties.
+Dialogue: 0,0:00:07.87,0:00:08.32,Cap,,0,0,0,,{\pos(540,960)\blur0.5}He saved
+Dialogue: 0,0:00:08.32,0:00:09.46,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Kingsley Coman's kick.
+Dialogue: 0,0:00:09.46,0:00:09.81,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Then,
+Dialogue: 0,0:00:09.81,0:00:11.02,Cap,,0,0,0,,{\pos(540,960)\blur0.5}before Tchouameni
+Dialogue: 0,0:00:11.02,0:00:11.51,Cap,,0,0,0,,{\pos(540,960)\blur0.5}stepped up,
+Dialogue: 0,0:00:11.51,0:00:12.26,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Martinez threw
+Dialogue: 0,0:00:12.26,0:00:12.99,Cap,,0,0,0,,{\pos(540,960)\blur0.5}the ball away,
+Dialogue: 0,0:00:12.99,0:00:13.27,Cap,,0,0,0,,{\pos(540,960)\blur0.5}so he
+Dialogue: 0,0:00:13.27,0:00:13.82,Cap,,0,0,0,,{\pos(540,960)\blur0.5}had to walk
+Dialogue: 0,0:00:13.82,0:00:14.92,Cap,,0,0,0,,{\pos(540,960)\blur0.5}over and fetch it.
+Dialogue: 0,0:00:14.92,0:00:16.77,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Tchouameni fired wide.
+Dialogue: 0,0:00:16.77,0:00:18.37,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Argentina won 4-2.
+Dialogue: 0,0:00:18.37,0:00:18.85,Cap,,0,0,0,,{\pos(540,960)\blur0.5}This summer,
+Dialogue: 0,0:00:18.85,0:00:19.64,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Argentina were back
+Dialogue: 0,0:00:19.64,0:00:20.28,Cap,,0,0,0,,{\pos(540,960)\blur0.5}in the final,
+Dialogue: 0,0:00:20.28,0:00:21.32,Cap,,0,0,0,,{\pos(540,960)\blur0.5}against Spain.
+Dialogue: 0,0:00:21.32,0:00:22.01,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Martinez says
+Dialogue: 0,0:00:22.01,0:00:22.38,Cap,,0,0,0,,{\pos(540,960)\blur0.5}he played
+Dialogue: 0,0:00:22.38,0:00:23.11,Cap,,0,0,0,,{\pos(540,960)\blur0.5}the whole tournament
+Dialogue: 0,0:00:23.11,0:00:23.70,Cap,,0,0,0,,{\pos(540,960)\blur0.5}with a broken
+Dialogue: 0,0:00:23.70,0:00:24.14,Cap,,0,0,0,,{\pos(540,960)\blur0.5}finger.
+Dialogue: 0,0:00:24.14,0:00:24.68,Cap,,0,0,0,,{\pos(540,960)\blur0.5}And he says
+Dialogue: 0,0:00:24.68,0:00:25.81,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Spain knew exactly
+Dialogue: 0,0:00:25.81,0:00:26.38,Cap,,0,0,0,,{\pos(540,960)\blur0.5}who was waiting
+Dialogue: 0,0:00:26.38,0:00:26.71,Cap,,0,0,0,,{\pos(540,960)\blur0.5}for them.
+Dialogue: 0,0:00:26.71,0:00:27.03,Cap,,0,0,0,,{\pos(540,960)\blur0.5}He heard
+Dialogue: 0,0:00:27.03,0:00:27.85,Cap,,0,0,0,,{\pos(540,960)\blur0.5}their players say:
+Dialogue: 0,0:00:27.85,0:00:28.32,Cap,,0,0,0,,{\pos(540,960)\blur0.5}we have
+Dialogue: 0,0:00:28.32,0:00:28.91,Cap,,0,0,0,,{\pos(540,960)\blur0.5}to win here.
+Dialogue: 0,0:00:28.91,0:00:29.17,Cap,,0,0,0,,{\pos(540,960)\blur0.5}We can't
+Dialogue: 0,0:00:29.17,0:00:29.81,Cap,,0,0,0,,{\pos(540,960)\blur0.5}go to penalties.
+Dialogue: 0,0:00:29.81,0:00:30.45,Cap,,0,0,0,,{\pos(540,960)\blur0.5}The final went
+Dialogue: 0,0:00:30.45,0:00:31.24,Cap,,0,0,0,,{\pos(540,960)\blur0.5}to extra time,
+Dialogue: 0,0:00:31.24,0:00:32.13,Cap,,0,0,0,,{\pos(540,960)\blur0.5}still goalless.
+Dialogue: 0,0:00:32.13,0:00:32.66,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Then, early
+Dialogue: 0,0:00:32.66,0:00:33.13,Cap,,0,0,0,,{\pos(540,960)\blur0.5}in the second
+Dialogue: 0,0:00:33.13,0:00:33.67,Cap,,0,0,0,,{\pos(540,960)\blur0.5}half of extra
+Dialogue: 0,0:00:33.67,0:00:33.99,Cap,,0,0,0,,{\pos(540,960)\blur0.5}time,
+Dialogue: 0,0:00:33.99,0:00:35.37,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Ferran Torres scored.
+Dialogue: 0,0:00:35.37,0:00:37.06,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Spain won 1-0.
+Dialogue: 0,0:00:37.06,0:00:38.09,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Argentina never
+Dialogue: 0,0:00:38.09,0:00:38.89,Cap,,0,0,0,,{\pos(540,960)\blur0.5}got their shootout.
+Dialogue: 0,0:00:38.89,0:00:39.49,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Martinez says
+Dialogue: 0,0:00:39.49,0:00:40.06,Cap,,0,0,0,,{\pos(540,960)\blur0.5}one of Spain's
+Dialogue: 0,0:00:40.06,0:00:40.85,Cap,,0,0,0,,{\pos(540,960)\blur0.5}goalkeepers even
+Dialogue: 0,0:00:40.85,0:00:41.45,Cap,,0,0,0,,{\pos(540,960)\blur0.5}told him:
+Dialogue: 0,0:00:41.45,0:00:42.23,Cap,,0,0,0,,{\pos(540,960)\blur0.5}thank God they
+Dialogue: 0,0:00:42.23,0:00:43.06,Cap,,0,0,0,,{\pos(540,960)\blur0.5}won the match.
+Dialogue: 0,0:00:43.06,0:00:43.69,Cap,,0,0,0,,{\pos(540,960)\blur0.5}And he's sure
+Dialogue: 0,0:00:43.69,0:00:43.89,Cap,,0,0,0,,{\pos(540,960)\blur0.5}how it
+Dialogue: 0,0:00:43.89,0:00:44.60,Cap,,0,0,0,,{\pos(540,960)\blur0.5}would have ended.
+Dialogue: 0,0:00:44.60,0:00:44.84,Cap,,0,0,0,,{\pos(540,960)\blur0.5}If we
+Dialogue: 0,0:00:44.84,0:00:45.79,Cap,,0,0,0,,{\pos(540,960)\blur0.5}had reached penalties,
+Dialogue: 0,0:00:45.79,0:00:46.60,Cap,,0,0,0,,{\pos(540,960)\blur0.5}we would have won.
+Dialogue: 0,0:00:46.60,0:00:47.03,Cap,,0,0,0,,{\pos(540,960)\blur0.5}I felt it
+Dialogue: 0,0:00:47.03,0:00:47.77,Cap,,0,0,0,,{\pos(540,960)\blur0.5}was my day.
+Dialogue: 0,0:00:47.77,0:00:48.17,Cap,,0,0,0,,{\pos(540,960)\blur0.5}But here's
+Dialogue: 0,0:00:48.17,0:00:48.86,Cap,,0,0,0,,{\pos(540,960)\blur0.5}the wild part.
+Dialogue: 0,0:00:48.86,0:00:49.45,Cap,,0,0,0,,{\pos(540,960)\blur0.5}The goalkeeper
+Dialogue: 0,0:00:49.45,0:00:49.77,Cap,,0,0,0,,{\pos(540,960)\blur0.5}who won
+Dialogue: 0,0:00:49.77,0:00:50.33,Cap,,0,0,0,,{\pos(540,960)\blur0.5}a World Cup
+Dialogue: 0,0:00:50.33,0:00:50.91,Cap,,0,0,0,,{\pos(540,960)\blur0.5}on penalties
+Dialogue: 0,0:00:50.91,0:00:51.52,Cap,,0,0,0,,{\pos(540,960)\blur0.5}lost the next
+Dialogue: 0,0:00:51.52,0:00:51.93,Cap,,0,0,0,,{\pos(540,960)\blur0.5}World Cup
+Dialogue: 0,0:00:51.93,0:00:52.96,Cap,,0,0,0,,{\pos(540,960)\blur0.5}final without facing
+Dialogue: 0,0:00:52.96,0:00:54.20,Cap,,0,0,0,,{\pos(540,960)\blur0.5}a single one.

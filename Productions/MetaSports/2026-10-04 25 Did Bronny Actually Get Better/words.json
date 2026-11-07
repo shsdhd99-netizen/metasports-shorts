@@ -1,0 +1,457 @@
+[
+ {
+  "word": "Last",
+  "start": 0.0,
+  "end": 0.24
+ },
+ {
+  "word": "season,",
+  "start": 0.282,
+  "end": 0.596
+ },
+ {
+  "word": "Bronny",
+  "start": 0.649,
+  "end": 0.93
+ },
+ {
+  "word": "James",
+  "start": 0.983,
+  "end": 1.193
+ },
+ {
+  "word": "shot",
+  "start": 1.213,
+  "end": 1.37
+ },
+ {
+  "word": "better",
+  "start": 1.411,
+  "end": 1.579
+ },
+ {
+  "word": "from",
+  "start": 1.621,
+  "end": 1.726
+ },
+ {
+  "word": "three",
+  "start": 1.767,
+  "end": 1.976
+ },
+ {
+  "word": "than",
+  "start": 1.998,
+  "end": 2.092
+ },
+ {
+  "word": "LeBron",
+  "start": 2.133,
+  "end": 2.405
+ },
+ {
+  "word": "did.",
+  "start": 2.457,
+  "end": 2.709
+ },
+ {
+  "word": "Thirty-nine",
+  "start": 2.75,
+  "end": 3.179
+ },
+ {
+  "word": "percent",
+  "start": 3.2,
+  "end": 3.472
+ },
+ {
+  "word": "to",
+  "start": 3.514,
+  "end": 3.577
+ },
+ {
+  "word": "thirty-two.",
+  "start": 3.629,
+  "end": 4.215
+ },
+ {
+  "word": "He",
+  "start": 4.267,
+  "end": 4.36
+ },
+ {
+  "word": "was",
+  "start": 4.413,
+  "end": 4.528
+ },
+ {
+  "word": "twenty-eight",
+  "start": 4.58,
+  "end": 4.988
+ },
+ {
+  "word": "percent",
+  "start": 5.009,
+  "end": 5.26
+ },
+ {
+  "word": "as",
+  "start": 5.302,
+  "end": 5.365
+ },
+ {
+  "word": "a",
+  "start": 5.406,
+  "end": 5.428
+ },
+ {
+  "word": "rookie.",
+  "start": 5.48,
+  "end": 5.804
+ },
+ {
+  "word": "Until",
+  "start": 5.825,
+  "end": 6.075
+ },
+ {
+  "word": "you",
+  "start": 6.128,
+  "end": 6.191
+ },
+ {
+  "word": "count",
+  "start": 6.243,
+  "end": 6.411
+ },
+ {
+  "word": "the",
+  "start": 6.442,
+  "end": 6.504
+ },
+ {
+  "word": "shots.",
+  "start": 6.547,
+  "end": 6.912
+ },
+ {
+  "word": "Bronny",
+  "start": 6.944,
+  "end": 7.205
+ },
+ {
+  "word": "took",
+  "start": 7.247,
+  "end": 7.383
+ },
+ {
+  "word": "fifty-seven",
+  "start": 7.436,
+  "end": 7.917
+ },
+ {
+  "word": "threes.",
+  "start": 7.958,
+  "end": 8.293
+ },
+ {
+  "word": "LeBron",
+  "start": 8.345,
+  "end": 8.638
+ },
+ {
+  "word": "took",
+  "start": 8.69,
+  "end": 8.826
+ },
+ {
+  "word": "two",
+  "start": 8.868,
+  "end": 8.994
+ },
+ {
+  "word": "hundred",
+  "start": 9.046,
+  "end": 9.244
+ },
+ {
+  "word": "forty-three.",
+  "start": 9.297,
+  "end": 9.83
+ },
+ {
+  "word": "At",
+  "start": 9.85,
+  "end": 9.955
+ },
+ {
+  "word": "his",
+  "start": 9.986,
+  "end": 10.081
+ },
+ {
+  "word": "rookie",
+  "start": 10.133,
+  "end": 10.353
+ },
+ {
+  "word": "rate,",
+  "start": 10.395,
+  "end": 10.583
+ },
+ {
+  "word": "those",
+  "start": 10.603,
+  "end": 10.771
+ },
+ {
+  "word": "fifty-seven",
+  "start": 10.792,
+  "end": 11.22
+ },
+ {
+  "word": "threes",
+  "start": 11.252,
+  "end": 11.44
+ },
+ {
+  "word": "are",
+  "start": 11.472,
+  "end": 11.565
+ },
+ {
+  "word": "sixteen",
+  "start": 11.597,
+  "end": 11.901
+ },
+ {
+  "word": "makes.",
+  "start": 11.942,
+  "end": 12.225
+ },
+ {
+  "word": "Bronny",
+  "start": 12.277,
+  "end": 12.518
+ },
+ {
+  "word": "made",
+  "start": 12.559,
+  "end": 12.706
+ },
+ {
+  "word": "twenty-two.",
+  "start": 12.727,
+  "end": 13.271
+ },
+ {
+  "word": "Six",
+  "start": 13.396,
+  "end": 13.616
+ },
+ {
+  "word": "threes.",
+  "start": 13.657,
+  "end": 13.992
+ },
+ {
+  "word": "That",
+  "start": 14.044,
+  "end": 14.18
+ },
+ {
+  "word": "is",
+  "start": 14.222,
+  "end": 14.285
+ },
+ {
+  "word": "the",
+  "start": 14.316,
+  "end": 14.378
+ },
+ {
+  "word": "whole",
+  "start": 14.41,
+  "end": 14.567
+ },
+ {
+  "word": "jump.",
+  "start": 14.609,
+  "end": 14.933
+ },
+ {
+  "word": "trying",
+  "start": 15.168,
+  "end": 15.352
+ },
+ {
+  "word": "to",
+  "start": 15.352,
+  "end": 15.537
+ },
+ {
+  "word": "prove",
+  "start": 15.537,
+  "end": 15.721
+ },
+ {
+  "word": "myself",
+  "start": 15.721,
+  "end": 15.906
+ },
+ {
+  "word": "as",
+  "start": 15.906,
+  "end": 16.09
+ },
+ {
+  "word": "Bronny",
+  "start": 16.09,
+  "end": 16.275
+ },
+ {
+  "word": "instead",
+  "start": 16.275,
+  "end": 16.459
+ },
+ {
+  "word": "of",
+  "start": 16.459,
+  "end": 16.643
+ },
+ {
+  "word": "LeBron.",
+  "start": 16.643,
+  "end": 16.828
+ },
+ {
+  "word": "His",
+  "start": 17.138,
+  "end": 17.312
+ },
+ {
+  "word": "true",
+  "start": 17.344,
+  "end": 17.517
+ },
+ {
+  "word": "shooting",
+  "start": 17.539,
+  "end": 17.799
+ },
+ {
+  "word": "did",
+  "start": 17.843,
+  "end": 17.961
+ },
+ {
+  "word": "climb,",
+  "start": 18.005,
+  "end": 18.276
+ },
+ {
+  "word": "from",
+  "start": 18.308,
+  "end": 18.438
+ },
+ {
+  "word": "forty-two",
+  "start": 18.492,
+  "end": 18.806
+ },
+ {
+  "word": "percent",
+  "start": 18.861,
+  "end": 19.142
+ },
+ {
+  "word": "to",
+  "start": 19.175,
+  "end": 19.239
+ },
+ {
+  "word": "fifty-two.",
+  "start": 19.305,
+  "end": 19.901
+ },
+ {
+  "word": "So",
+  "start": 19.944,
+  "end": 20.052
+ },
+ {
+  "word": "did",
+  "start": 20.106,
+  "end": 20.204
+ },
+ {
+  "word": "Bronny",
+  "start": 20.236,
+  "end": 20.453
+ },
+ {
+  "word": "get",
+  "start": 20.485,
+  "end": 20.594
+ },
+ {
+  "word": "better?",
+  "start": 20.637,
+  "end": 20.984
+ },
+ {
+  "word": "A",
+  "start": 21.06,
+  "end": 21.114
+ },
+ {
+  "word": "little,",
+  "start": 21.211,
+  "end": 21.46
+ },
+ {
+  "word": "maybe.",
+  "start": 21.483,
+  "end": 21.85
+ },
+ {
+  "word": "But",
+  "start": 21.905,
+  "end": 22.045
+ },
+ {
+  "word": "six",
+  "start": 22.089,
+  "end": 22.263
+ },
+ {
+  "word": "made",
+  "start": 22.317,
+  "end": 22.468
+ },
+ {
+  "word": "threes",
+  "start": 22.501,
+  "end": 22.771
+ },
+ {
+  "word": "prove",
+  "start": 22.826,
+  "end": 23.032
+ },
+ {
+  "word": "almost",
+  "start": 23.064,
+  "end": 23.335
+ },
+ {
+  "word": "nothing",
+  "start": 23.389,
+  "end": 23.638
+ },
+ {
+  "word": "yet.",
+  "start": 23.692,
+  "end": 24.071
+ }
+]

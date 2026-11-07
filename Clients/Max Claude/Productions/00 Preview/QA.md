@@ -1,0 +1,18 @@
+# QA: PREVIEW - Fingerprints (9x16, full avatar, synced).mp4 (Nov 4, 2026, PC)
+
+Built by `work/build_full.py` (SYNC=1 default; SYNC=0 rebuilds the unsynced Dreamina version). Private: his face and voice, local processing only.
+
+| Check | Result | Evidence |
+|---|---|---|
+| Lip-sync, measured with SyncNet (LatentSync's own evaluator, local; 25 fps frames, 0 = perfect, 1 frame = 0.04 s) | PASS: 0 / 0 after a small shift | Dreamina unsynced: A -3, B -3 frames (conf 6.1 / 5.4). LatentSync clips: A +2, B +1 (conf 7.1 / 6.0). Video moved earlier by 0.08 s (A) and 0.04 s (B) in `build_full.py` (SHIFT_A / SHIFT_B): A 0, B 0 (conf 7.1 / 6.1). Direction verified by delaying a clip 0.16 s: offset went 2 -> 6. Target was within +-0.08 s: met (0.00 s). |
+| Lip-sync, my envelope/aperture correlation | NOT USED | Mouth-box motion and MediaPipe lip aperture vs audio envelope gave r under 0.3 and flipped sign when the box moved (A unsynced +0.25 s or -0.13 s). Too noisy to trust; `work/lipsync_measure.py` and `lip_aperture.py` are kept only as a record. SyncNet is the number to quote. |
+| Mouth shapes on key words (contact sheets, 0.1 s steps, mouth crop) | PASS with a note | Seen: "hundred", "signature", "ridges", "glass", "prints", "name" (the other key words fall under B-roll, so no mouth is on screen: twins 12.2 s, powder/invisible 26.7-28.4 s, examiner 37.4 s). Mouth opens on the vowels and closes between words. Synced mouths show fewer visible teeth than Dreamina's and are a little softer. A frame-exact m/p/b closure check is limited by that softness: judged by eye, not proven. |
+| Seams | PASS | 20 frames either side of all 10 avatar/B-roll cuts: no pop, no colour or lighting jump. The A to B clip change (24.5 s, head position differs: A is closer and lower, B is smaller) sits fully under B-roll 22.7-25.1 s. |
+| Face | PASS | 12 frames across the video are clearly Max: same face and hair line, no warped teeth or eyes. Chin and cheek crops at full size at 6 s and 34 s: no visible square from LatentSync's blend. One frame ("born,", about 9 s) has wide eyes and brows: his expression, not an artifact. |
+| Facts | PASS | Every sentence matches the corrected wording in `01 Fingerprints/notes.md` ("split and stop", "moisture and oil leave a copy", "searches a database of stored prints and suggests possible matches", "usually makes the final call"). Second sources added Nov 4: NIST-hosted latent print bibliography (stable from fetal life), PMC3338710 (twins), NIST latent-print accuracy study (examiner assesses AFIS candidates). No FBI page found; the wording stays "usually". No re-voice needed. |
+| Audio | PASS | -14.6 LUFS integrated, true peak -1.9 dBFS (first build -0.9: limiter lowered 0.8 -> 0.74), max sample -2.6 dB, LRA 2.8 LU. silencedetect (-45 dB, 0.4 s): none. Ends 44.3 s, last word "name" ends 44.07 s (0.26 s). Music bed at -21 dB under the voice. |
+| Captions | PASS | Spelling from the script, white 84 px at y about 1380 of 1920 on the chest, below the mouth in every avatar frame; key words yellow; clear of the small "AI" badge (top-left). |
+| Container | PASS | 1080x1920, 30 fps, h264, yuv420p, AAC, +faststart, 44.33 s, 29.4 MB (under 35 MB), blackdetect none. |
+| Synced vs unsynced | Synced is the main file | SyncNet gain: |offset| 3 -> 0 frames. Cost: slightly softer mouth, fewer visible teeth. No rectangle. The unsynced file `PREVIEW - Fingerprints (9x16, full avatar).mp4` stays as the fallback (lips about 0.12 s early). |
+
+Owner-only: whether the softer synced mouth looks natural enough to send; whether the voice sounds like Max (clone from a 53 s phone memo).

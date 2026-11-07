@@ -1,0 +1,366 @@
+[
+{
+"word": "This",
+"start": 0.0,
+"end": 0.186
+},
+{
+"word": "rookie",
+"start": 0.244,
+"end": 0.453
+},
+{
+"word": "tied",
+"start": 0.488,
+"end": 0.72
+},
+{
+"word": "it",
+"start": 0.743,
+"end": 0.789
+},
+{
+"word": "in",
+"start": 0.824,
+"end": 0.882
+},
+{
+"word": "Boston",
+"start": 0.952,
+"end": 1.347
+},
+{
+"word": "with",
+"start": 1.382,
+"end": 1.486
+},
+{
+"word": "0.2",
+"start": 1.533,
+"end": 1.846
+},
+{
+"word": "seconds",
+"start": 1.916,
+"end": 2.183
+},
+{
+"word": "left.",
+"start": 2.264,
+"end": 2.659
+},
+{
+"word": "His",
+"start": 2.682,
+"end": 2.833
+},
+{
+"word": "bench",
+"start": 2.902,
+"end": 3.111
+},
+{
+"word": "lost",
+"start": 3.17,
+"end": 3.483
+},
+{
+"word": "it.",
+"start": 3.553,
+"end": 3.704
+},
+{
+"word": "Mikel",
+"start": 3.75,
+"end": 4.005
+},
+{
+"word": "Brown",
+"start": 4.052,
+"end": 4.307
+},
+{
+"word": "Jr.,",
+"start": 4.377,
+"end": 4.83
+},
+{
+"word": "the",
+"start": 4.865,
+"end": 4.934
+},
+{
+"word": "sixth",
+"start": 5.027,
+"end": 5.283
+},
+{
+"word": "pick",
+"start": 5.329,
+"end": 5.492
+},
+{
+"word": "in",
+"start": 5.526,
+"end": 5.573
+},
+{
+"word": "the",
+"start": 5.608,
+"end": 5.677
+},
+{
+"word": "draft,",
+"start": 5.712,
+"end": 6.142
+},
+{
+"word": "couldn't",
+"start": 6.177,
+"end": 6.432
+},
+{
+"word": "stop",
+"start": 6.455,
+"end": 6.664
+},
+{
+"word": "smiling.",
+"start": 6.711,
+"end": 7.221
+},
+{
+"word": "Then",
+"start": 7.245,
+"end": 7.396
+},
+{
+"word": "overtime",
+"start": 7.442,
+"end": 7.906
+},
+{
+"word": "gave",
+"start": 7.953,
+"end": 8.127
+},
+{
+"word": "Jayson",
+"start": 8.173,
+"end": 8.44
+},
+{
+"word": "Tatum",
+"start": 8.487,
+"end": 8.742
+},
+{
+"word": "five",
+"start": 8.835,
+"end": 9.125
+},
+{
+"word": "more",
+"start": 9.16,
+"end": 9.311
+},
+{
+"word": "minutes.",
+"start": 9.346,
+"end": 9.764
+},
+{
+"word": "Nets",
+"start": 9.834,
+"end": 10.101
+},
+{
+"word": "up",
+"start": 10.182,
+"end": 10.31
+},
+{
+"word": "one,",
+"start": 10.403,
+"end": 10.751
+},
+{
+"word": "2.3",
+"start": 10.809,
+"end": 11.39
+},
+{
+"word": "seconds",
+"start": 11.436,
+"end": 11.727
+},
+{
+"word": "left.",
+"start": 11.808,
+"end": 12.203
+},
+{
+"word": "to",
+"start": 12.21,
+"end": 12.3,
+"live": true
+},
+{
+"word": "him,",
+"start": 12.3,
+"end": 12.48,
+"live": true
+},
+{
+"word": "Jayson",
+"start": 12.5,
+"end": 13.16,
+"live": true
+},
+{
+"word": "Tatum",
+"start": 13.16,
+"end": 13.48,
+"live": true
+},
+{
+"word": "for",
+"start": 13.48,
+"end": 13.82,
+"live": true
+},
+{
+"word": "the",
+"start": 13.82,
+"end": 13.92,
+"live": true
+},
+{
+"word": "win!",
+"start": 13.92,
+"end": 14.22,
+"live": true
+},
+{
+"word": "Yes,",
+"start": 14.78,
+"end": 14.94,
+"live": true
+},
+{
+"word": "sir!",
+"start": 15.12,
+"end": 15.33,
+"live": true
+},
+{
+"word": "Tatum",
+"start": 16.4,
+"end": 16.655
+},
+{
+"word": "finished",
+"start": 16.714,
+"end": 16.934
+},
+{
+"word": "with",
+"start": 16.957,
+"end": 17.05
+},
+{
+"word": "40,",
+"start": 17.097,
+"end": 17.399
+},
+{
+"word": "and",
+"start": 17.422,
+"end": 17.491
+},
+{
+"word": "the",
+"start": 17.526,
+"end": 17.596
+},
+{
+"word": "Celtics",
+"start": 17.619,
+"end": 17.967
+},
+{
+"word": "won",
+"start": 18.014,
+"end": 18.176
+},
+{
+"word": "by",
+"start": 18.223,
+"end": 18.362
+},
+{
+"word": "one.",
+"start": 18.455,
+"end": 18.768
+},
+{
+"word": "The",
+"start": 18.792,
+"end": 18.861
+},
+{
+"word": "rookie's",
+"start": 18.896,
+"end": 19.117
+},
+{
+"word": "shot",
+"start": 19.152,
+"end": 19.384
+},
+{
+"word": "was",
+"start": 19.419,
+"end": 19.5
+},
+{
+"word": "the",
+"start": 19.535,
+"end": 19.604
+},
+{
+"word": "play",
+"start": 19.628,
+"end": 19.779
+},
+{
+"word": "of",
+"start": 19.813,
+"end": 19.86
+},
+{
+"word": "the",
+"start": 19.895,
+"end": 19.964
+},
+{
+"word": "night.",
+"start": 20.011,
+"end": 20.278
+},
+{
+"word": "For",
+"start": 20.301,
+"end": 20.429
+},
+{
+"word": "one",
+"start": 20.487,
+"end": 20.696
+},
+{
+"word": "overtime.",
+"start": 20.754,
+"end": 21.44
+}
+]

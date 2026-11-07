@@ -1,0 +1,239 @@
+{
+ "sources": {
+  "L": "src/luka53.mp4",
+  "B": "src/por_inside.mp4",
+  "S": "src/sac_and1.mp4",
+  "T": "src/t_50355574.mp4",
+  "M": "src/mia_3.mp4",
+  "G": "src/gs_and1.mp4"
+ },
+ "urls": {
+  "L": "https://www.espn.com/video/clip/_/id/50405530",
+  "B": "https://www.espn.com/video/clip/_/id/50404602",
+  "S": "https://www.espn.com/video/clip/_/id/50384745",
+  "T": "https://www.espn.com/video/clip/_/id/50355574",
+  "M": "https://www.espn.com/video/clip/_/id/50365402",
+  "G": "https://www.espn.com/video/clip/_/id/50332790"
+ },
+ "promise": [
+  "forty",
+  "fifty-three",
+  "luka"
+ ],
+ "shots": [
+  {
+   "clip": "L01",
+   "src": "B",
+   "at": 12.9,
+   "x": 0.35,
+   "kind": "action",
+   "anchor": "Luka",
+   "why": "frame 1: overhead camera, Luka scores over Portland Nov 6 (ESPN 50404602)",
+   "len": 2.16
+  },
+  {
+   "clip": "L02",
+   "src": "L",
+   "at": 54.9,
+   "x": 0.47,
+   "kind": "face",
+   "anchor": "last seven games",
+   "why": "Luka close-up v Portland Nov 6 (ESPN 50405530)",
+   "len": 1.38
+  },
+  {
+   "clip": "L03",
+   "src": "B",
+   "at": 9.2,
+   "x": 0.38,
+   "kind": "action",
+   "anchor": "Last night it",
+   "why": "Luka drives v Portland Nov 6 (ESPN 50404602)",
+   "overlay": [
+    {
+     "count": {
+      "to": 53,
+      "dur": 0.6
+     },
+     "sub": "POINTS",
+     "size": 210,
+     "color": "orange",
+     "y": 280,
+     "start": 0.55,
+     "end": 1.6
+    }
+   ],
+   "len": 1.5
+  },
+  {
+   "clip": "L04",
+   "src": "L",
+   "at": 40.2,
+   "x": 0.45,
+   "kind": "action",
+   "anchor": "against",
+   "why": "Luka (#77) with the ball against Portland",
+   "len": 0.94
+  },
+  {
+   "clip": "L05",
+   "src": "L",
+   "at": 20.9,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "kind": "action",
+   "anchor": "A three",
+   "why": "Luka hits a three just before halftime (Lakers v Portland Nov 6)",
+   "len": 1.76
+  },
+  {
+   "clip": "L06",
+   "src": "L",
+   "at": 46.3,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.55,
+   "kind": "action",
+   "anchor": "Twenty",
+   "why": "Luka and the Lakers in the third quarter v Portland",
+   "overlay": [
+    {
+     "text": "20",
+     "sub": "IN THE 3RD QUARTER",
+     "size": 200,
+     "color": "orange",
+     "y": 280,
+     "start": 0.25,
+     "end": 1.6
+    }
+   ],
+   "len": 1.77
+  },
+  {
+   "clip": "L07",
+   "src": "T",
+   "at": 9.5,
+   "x": 0.53,
+   "kind": "face",
+   "anchor": "It was",
+   "why": "Luka (#77) smiling v Toronto Nov 2, 45 points (ESPN 50355574)",
+   "len": 2.03
+  },
+  {
+   "clip": "L08",
+   "src": "S",
+   "at": 8.15,
+   "x": 0.52,
+   "kind": "face",
+   "anchor": "and his",
+   "why": "Luka (#77, Lakers jersey) close-up at Sacramento Nov 5",
+   "len": 1.49
+  },
+  {
+   "clip": "L09",
+   "src": "T",
+   "at": 22.85,
+   "x": 0.44,
+   "kind": "face",
+   "anchor": "That's",
+   "why": "Luka close-up v Toronto Nov 2, 45 points (ESPN 50355574)",
+   "overlay": [
+    {
+     "text": "7 STRAIGHT",
+     "size": 130,
+     "color": "white",
+     "y": 260,
+     "start": 0.1,
+     "end": 2.4
+    },
+    {
+     "text": "35+ PTS",
+     "size": 150,
+     "color": "orange",
+     "y": 430,
+     "start": 1.55,
+     "end": 2.4
+    }
+   ],
+   "len": 2.55
+  },
+  {
+   "clip": "L10",
+   "src": "M",
+   "at": 11.3,
+   "x": 0.42,
+   "kind": "face",
+   "anchor": "five rebounds",
+   "why": "Luka close-up v Miami Nov 3, 42 points (ESPN 50365402)",
+   "overlay": [
+    {
+     "text": "5+ REB",
+     "size": 140,
+     "color": "white",
+     "y": 260,
+     "start": 0.0,
+     "end": 2.2
+    },
+    {
+     "text": "5+ AST",
+     "size": 140,
+     "color": "white",
+     "y": 420,
+     "start": 0.7,
+     "end": 2.2
+    },
+    {
+     "text": "5+ THREES",
+     "size": 140,
+     "color": "orange",
+     "y": 580,
+     "start": 1.35,
+     "end": 2.2
+    }
+   ],
+   "len": 2.39
+  },
+  {
+   "clip": "L11",
+   "src": "G",
+   "at": 12.0,
+   "x": 0.62,
+   "kind": "action",
+   "anchor": "And the",
+   "why": "Luka v Golden State Oct 30 (ESPN posted Oct 31), the 37-point game (ESPN 50332790)",
+   "len": 2.58,
+   "overlay": [
+    {
+     "text": "OCT 30 VS GOLDEN STATE",
+     "size": 80,
+     "color": "white",
+     "y": 260,
+     "start": 0.1,
+     "end": 2.4
+    }
+   ]
+  },
+  {
+   "clip": "L12",
+   "src": "L",
+   "at": 55.9,
+   "x": 0.5,
+   "kind": "face",
+   "anchor": "Thirty-seven",
+   "why": "intentional loop: same close-up as frame 1, so the Short loops",
+   "overlay": [
+    {
+     "text": "37",
+     "size": 230,
+     "color": "orange",
+     "y": 280,
+     "start": 0.05,
+     "end": 1.2
+    }
+   ],
+   "len": 1.02,
+   "replay": true
+  }
+ ]
+}

@@ -1,0 +1,168 @@
+{
+ "length_s": 69.75,
+ "topic": "Taj Gibson's longevity in the NBA compared to other players of his era.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "LeBron James is so old that people forget that Taj Gibson is still an active NBA player.",
+  "first_frame": "Animated caricatures of LeBron James and Taj Gibson on a bridge.",
+  "on_screen_text_0_3s": "Taj Gibson is Still in the NBA?!",
+  "shots_in_first_3s": 1
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 4.96,
+   "shows": "Animated LeBron and Taj Gibson",
+   "kind": "animation"
+  },
+  {
+   "start_s": 4.96,
+   "end_s": 13.56,
+   "shows": "Basketball game footage, Taj Gibson dunking",
+   "kind": "action"
+  },
+  {
+   "start_s": 13.56,
+   "end_s": 16.72,
+   "shows": "Animated Taj Gibson and Cameron Bairstow",
+   "kind": "animation"
+  },
+  {
+   "start_s": 16.72,
+   "end_s": 19.64,
+   "shows": "Animated Taj Gibson and Carlos Boozer",
+   "kind": "animation"
+  },
+  {
+   "start_s": 19.64,
+   "end_s": 27.56,
+   "shows": "2003 LeBron draft photo and 2009 Taj Gibson photo",
+   "kind": "still"
+  },
+  {
+   "start_s": 27.56,
+   "end_s": 31.36,
+   "shows": "Taj Gibson press conference",
+   "kind": "archival"
+  },
+  {
+   "start_s": 31.36,
+   "end_s": 34.0,
+   "shows": "Plankton saying college",
+   "kind": "animation"
+  },
+  {
+   "start_s": 34.0,
+   "end_s": 39.96,
+   "shows": "Taj Gibson training workout",
+   "kind": "action"
+  },
+  {
+   "start_s": 39.96,
+   "end_s": 43.16,
+   "shows": "Udonis Haslem",
+   "kind": "face"
+  },
+  {
+   "start_s": 43.16,
+   "end_s": 45.52,
+   "shows": "Udonis Haslem tipping chair",
+   "kind": "action"
+  },
+  {
+   "start_s": 45.52,
+   "end_s": 49.68,
+   "shows": "Taj Gibson training workout",
+   "kind": "action"
+  },
+  {
+   "start_s": 49.68,
+   "end_s": 54.2,
+   "shows": "Animated LeBron and Taj Gibson",
+   "kind": "animation"
+  },
+  {
+   "start_s": 54.2,
+   "end_s": 59.96,
+   "shows": "Animated Taj Gibson in different jerseys",
+   "kind": "animation"
+  },
+  {
+   "start_s": 59.96,
+   "end_s": 63.76,
+   "shows": "Person running down stairs in Fort Greene Brooklyn",
+   "kind": "archival"
+  },
+  {
+   "start_s": 63.76,
+   "end_s": 69.75,
+   "shows": "Smokey Becker basketball photo",
+   "kind": "still"
+  }
+ ],
+ "shot_count": 15,
+ "average_shot_s": 4.65,
+ "longest_shot_s": 5.96,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 175,
+  "tone": "casual",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "upbeat hip hop beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 4,
+  "case": "mixed",
+  "position": "middle",
+  "colours": "white with yellow highlights",
+  "highlight_style": "word by word color change"
+ },
+ "text_overlays": [
+  {
+   "at_s": 0.0,
+   "text": "Taj Gibson is Still in the NBA?!"
+  }
+ ],
+ "cards_or_graphics": 4,
+ "framing": "crop",
+ "ending": {
+  "last_words": "Smokey Becker who played for the Detroit Falcons in 1947.",
+  "last_frame": "Smokey Becker historical basketball photo",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "LeBron James is so old that people forget that Taj Gibson is still an active NBA player. Taj Gibson is only a few months younger than LeBron James. They're both 41 years old as of this upload. Taj is the second oldest active NBA player in the league today. Taj played with Cameron Bairstow and back in the day, he was teammates with Cameron's dad, Carlos Boozer. Despite being nearly the same age as LeBron, LeBron did not join the NBA at the same time. LeBron of course was drafted in 2003, but Taj didn't join until the 2009-10 season, reason being, Fleming can explain it. I went to college. Last season, Taj played 10 games for the Grizzlies averaging 3.4 points and 9.7 minutes per game. So currently he has more of a Udonis Haslem type role for the franchise, aka a coach in a player's uniform. But it's still crazy to see him in the league after all these years, which is a huge accomplishment. It's also crazy to see LeBron James who's 41 and still playing like a top 10 active NBA player. One of my favorite Taj Gibson facts is that he is one of the only players in NBA history to wear number 67, having chosen it as a tribute to his hometown neighborhood of Fort Greene, Brooklyn. You're wondering who the other 67 player is, it's Smokey Becker who played for the Detroit Falcons in 1947.",
+ "retention_tricks": [
+  "rapid visual shifts",
+  "archival clips and memes",
+  "fast-paced narration"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": false,
+  "ends_on_payoff": true,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "Surprising statistical fact about player age and jersey numbers",
+  "Humorous animations and meme inserts matching the voiceover",
+  "Pippy, energetic delivery with clean caption tracking"
+ ],
+ "_meta": {
+  "source": "py168dOzxb0",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

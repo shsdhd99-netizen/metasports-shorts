@@ -1,0 +1,4 @@
+voice profile: Alex - Upbeat, Energetic and Clear (ElevenLabs Voice Library) (gate: HNR >= 7.0, jitter <= 3.4, shimmer <= 12.5)
+take 1: Done: voice.mp3 (63.4s, sped up x1.00) + captions.srt + words.json in /home/user/metasports-shorts/Soccer Channel/Productions/2026-10-21 S02 Trouble The Night Before The Derby/take1_hddzi9qi
+  take 1: PASS  check=CHECK HNR 8.1 jitter 2.95 shimmer 10.95 63.69s  []
+USED take score 4.4 (passes the voice gate)

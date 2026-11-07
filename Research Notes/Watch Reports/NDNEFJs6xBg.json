@@ -1,0 +1,127 @@
+{
+ "length_s": 22.04,
+ "topic": "The NBA is rolling out a vibrating tablet that helps blind people follow basketball games.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "Have you ever wondered how blind people watch basketball games?",
+  "first_frame": "A man wearing glasses, a cap, and a vest sitting in stadium seats with a vibrating tablet on his lap.",
+  "on_screen_text_0_3s": "Have you ever wondered how blind people watch basketball games?",
+  "shots_in_first_3s": 2
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 1.48,
+   "shows": "A man in stadium seats holding a vibrating tablet on his lap, wearing headphones and looking towards the court.",
+   "kind": "face"
+  },
+  {
+   "start_s": 1.48,
+   "end_s": 2.76,
+   "shows": "A man with long dark hair, wearing a Kings hoodie and holding a tactile basketball court tablet and a white cane.",
+   "kind": "action"
+  },
+  {
+   "start_s": 2.76,
+   "end_s": 6.64,
+   "shows": "Hands demonstrating how the tablet works by guiding another person's fingers over the tactile basketball court.",
+   "kind": "action"
+  },
+  {
+   "start_s": 6.64,
+   "end_s": 9.56,
+   "shows": "Close-up of hands feeling the vibrating tablet in a stadium seat.",
+   "kind": "action"
+  },
+  {
+   "start_s": 9.56,
+   "end_s": 12.68,
+   "shows": "The same man from the opening shot reacting excitedly in the stadium crowd while using the tablet.",
+   "kind": "face"
+  },
+  {
+   "start_s": 12.68,
+   "end_s": 15.2,
+   "shows": "An older man sitting at a table with headphones, using the tablet while a game plays on a screen behind him.",
+   "kind": "action"
+  },
+  {
+   "start_s": 15.2,
+   "end_s": 17.68,
+   "shows": "Close-up of the man talking while his hands rest on the tablet.",
+   "kind": "face"
+  },
+  {
+   "start_s": 17.68,
+   "end_s": 19.72,
+   "shows": "Close-up of a finger pressing buttons on the side of the tablet.",
+   "kind": "action"
+  },
+  {
+   "start_s": 19.72,
+   "end_s": 22.04,
+   "shows": "The man with long dark hair holding the tablet and speaking to the camera in the arena.",
+   "kind": "face"
+  }
+ ],
+ "shot_count": 9,
+ "average_shot_s": 2.45,
+ "longest_shot_s": 3.88,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 175,
+  "tone": "informative and enthusiastic",
+  "original_audio_under_voice": true
+ },
+ "music": {
+  "present": true,
+  "style": "upbeat inspirational background beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "sentence",
+  "position": "middle",
+  "colours": "white with black outline",
+  "highlight_style": "yellow word highlighting"
+ },
+ "text_overlays": [],
+ "cards_or_graphics": 0,
+ "framing": "crop",
+ "ending": {
+  "last_words": "for blind fans.",
+  "last_frame": "The man with long hair holding the tablet and looking at the camera in the arena.",
+  "loops_to_start": true,
+  "call_to_action": "none"
+ },
+ "script": "Have you ever wondered how blind people watch basketball games? You see, the NBA is slowly rolling out this tablet that helps blind people follow along. As the tablet vibrates to let you know exactly where the ball is, allowing a blind person to keep up with the game instead of relying on their hearing. And the tablet also gives off different vibrations if someone scores, steals the ball, or there's a foul call. They even have buttons that tell you player stats and score of the game, improving the experience for blind fans.",
+ "retention_tricks": [
+  "open-ended question hook",
+  "dynamic cuts every 2-3 seconds",
+  "demonstration of a novel accessibility product"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "Engaging hook that introduces a fascinating real-world problem.",
+  "Clear demonstration of innovative haptic technology in action.",
+  "Fast pacing with varied camera angles keeping the viewer hooked."
+ ],
+ "_meta": {
+  "source": "NDNEFJs6xBg",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

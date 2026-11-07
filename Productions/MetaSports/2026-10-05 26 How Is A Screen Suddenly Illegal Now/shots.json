@@ -1,0 +1,81 @@
+[
+ {
+  "clip": "V1.mp4",
+  "start": 0.0,
+  "anchor": "A screen is",
+  "kind": "action",
+  "zoom": 0.1
+ },
+ {
+  "clip": "V1b.mp4",
+  "start": 0.84,
+  "anchor": "Shoving",
+  "kind": "action"
+ },
+ {
+  "clip": "c26_espn.mp4",
+  "start": 2.39,
+  "anchor": "The NBA just",
+  "kind": "card"
+ },
+ {
+  "clip": "V2.mp4",
+  "start": 5.02,
+  "anchor": "Mason",
+  "kind": "action"
+ },
+ {
+  "clip": "Q1.mp4",
+  "start": 6.64,
+  "anchor": "But he then",
+  "kind": "quote"
+ },
+ {
+  "clip": "V4.mp4",
+  "start": 10.79,
+  "anchor": "Foul, says",
+  "kind": "action"
+ },
+ {
+  "clip": "Q2.mp4",
+  "start": 13.61,
+  "anchor": "Reid then",
+  "kind": "quote"
+ },
+ {
+  "clip": "V5.mp4",
+  "start": 16.62,
+  "anchor": "Foul. Robert",
+  "kind": "action"
+ },
+ {
+  "clip": "V6.mp4",
+  "start": 17.99,
+  "anchor": "Day'Ron",
+  "kind": "action"
+ },
+ {
+  "clip": "V8.mp4",
+  "start": 19.21,
+  "anchor": "But Isaiah",
+  "kind": "action"
+ },
+ {
+  "clip": "V7.mp4",
+  "start": 20.28,
+  "anchor": "on a screen",
+  "kind": "action"
+ },
+ {
+  "clip": "Q3.mp4",
+  "start": 22.56,
+  "anchor": "This contact",
+  "kind": "quote"
+ },
+ {
+  "clip": "V1.mp4",
+  "start": 26.82,
+  "anchor": "The line",
+  "kind": "action"
+ }
+]

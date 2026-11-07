@@ -1,0 +1,482 @@
+[
+ {
+  "word": "LeBron",
+  "start": 0.0,
+  "end": 0.313
+ },
+ {
+  "word": "James",
+  "start": 0.367,
+  "end": 0.583
+ },
+ {
+  "word": "just",
+  "start": 0.615,
+  "end": 0.766
+ },
+ {
+  "word": "took",
+  "start": 0.788,
+  "end": 0.938
+ },
+ {
+  "word": "a",
+  "start": 0.982,
+  "end": 1.004
+ },
+ {
+  "word": "92%",
+  "start": 1.057,
+  "end": 1.737
+ },
+ {
+  "word": "pay",
+  "start": 1.769,
+  "end": 1.898
+ },
+ {
+  "word": "cut,",
+  "start": 1.942,
+  "end": 2.115
+ },
+ {
+  "word": "and",
+  "start": 2.146,
+  "end": 2.254
+ },
+ {
+  "word": "it",
+  "start": 2.309,
+  "end": 2.363
+ },
+ {
+  "word": "might",
+  "start": 2.417,
+  "end": 2.589
+ },
+ {
+  "word": "be",
+  "start": 2.632,
+  "end": 2.708
+ },
+ {
+  "word": "the",
+  "start": 2.761,
+  "end": 2.827
+ },
+ {
+  "word": "smartest",
+  "start": 2.869,
+  "end": 3.204
+ },
+ {
+  "word": "move",
+  "start": 3.258,
+  "end": 3.419
+ },
+ {
+  "word": "of",
+  "start": 3.452,
+  "end": 3.506
+ },
+ {
+  "word": "his",
+  "start": 3.549,
+  "end": 3.636
+ },
+ {
+  "word": "career.",
+  "start": 3.679,
+  "end": 4.046
+ },
+ {
+  "word": "You",
+  "start": 4.088,
+  "end": 4.186
+ },
+ {
+  "word": "see,",
+  "start": 4.229,
+  "end": 4.369
+ },
+ {
+  "word": "last",
+  "start": 4.401,
+  "end": 4.585
+ },
+ {
+  "word": "season",
+  "start": 4.617,
+  "end": 4.844
+ },
+ {
+  "word": "the",
+  "start": 4.876,
+  "end": 4.94
+ },
+ {
+  "word": "Lakers",
+  "start": 4.973,
+  "end": 5.221
+ },
+ {
+  "word": "paid",
+  "start": 5.265,
+  "end": 5.394
+ },
+ {
+  "word": "him",
+  "start": 5.426,
+  "end": 5.49
+ },
+ {
+  "word": "over",
+  "start": 5.545,
+  "end": 5.696
+ },
+ {
+  "word": "$52 million.",
+  "start": 5.761,
+  "end": 6.98
+ },
+ {
+  "word": "This",
+  "start": 7.001,
+  "end": 7.174
+ },
+ {
+  "word": "season,",
+  "start": 7.217,
+  "end": 7.563
+ },
+ {
+  "word": "the",
+  "start": 7.594,
+  "end": 7.692
+ },
+ {
+  "word": "Sixers",
+  "start": 7.746,
+  "end": 8.048
+ },
+ {
+  "word": "are",
+  "start": 8.08,
+  "end": 8.166
+ },
+ {
+  "word": "paying",
+  "start": 8.188,
+  "end": 8.371
+ },
+ {
+  "word": "him",
+  "start": 8.403,
+  "end": 8.479
+ },
+ {
+  "word": "just",
+  "start": 8.533,
+  "end": 8.717
+ },
+ {
+  "word": "under",
+  "start": 8.77,
+  "end": 8.975
+ },
+ {
+  "word": "$4 million.",
+  "start": 9.05,
+  "end": 10.0
+ },
+ {
+  "word": "A",
+  "start": 10.021,
+  "end": 10.086
+ },
+ {
+  "word": "four-time",
+  "start": 10.194,
+  "end": 10.636
+ },
+ {
+  "word": "MVP,",
+  "start": 10.669,
+  "end": 11.165
+ },
+ {
+  "word": "in",
+  "start": 11.219,
+  "end": 11.327
+ },
+ {
+  "word": "his",
+  "start": 11.369,
+  "end": 11.456
+ },
+ {
+  "word": "24th",
+  "start": 11.499,
+  "end": 12.071
+ },
+ {
+  "word": "season.",
+  "start": 12.115,
+  "end": 12.47
+ },
+ {
+  "word": "But",
+  "start": 12.502,
+  "end": 12.642
+ },
+ {
+  "word": "that's",
+  "start": 12.675,
+  "end": 12.902
+ },
+ {
+  "word": "exactly",
+  "start": 12.944,
+  "end": 13.322
+ },
+ {
+  "word": "the",
+  "start": 13.365,
+  "end": 13.43
+ },
+ {
+  "word": "point.",
+  "start": 13.484,
+  "end": 13.754
+ },
+ {
+  "word": "The",
+  "start": 13.775,
+  "end": 13.884
+ },
+ {
+  "word": "cheaper",
+  "start": 13.938,
+  "end": 14.186
+ },
+ {
+  "word": "LeBron",
+  "start": 14.24,
+  "end": 14.498
+ },
+ {
+  "word": "is,",
+  "start": 14.563,
+  "end": 14.692
+ },
+ {
+  "word": "the",
+  "start": 14.714,
+  "end": 14.8
+ },
+ {
+  "word": "easier",
+  "start": 14.865,
+  "end": 15.157
+ },
+ {
+  "word": "it",
+  "start": 15.188,
+  "end": 15.232
+ },
+ {
+  "word": "is",
+  "start": 15.264,
+  "end": 15.329
+ },
+ {
+  "word": "for",
+  "start": 15.382,
+  "end": 15.48
+ },
+ {
+  "word": "Philly",
+  "start": 15.534,
+  "end": 15.761
+ },
+ {
+  "word": "to",
+  "start": 15.803,
+  "end": 15.847
+ },
+ {
+  "word": "keep",
+  "start": 15.89,
+  "end": 16.063
+ },
+ {
+  "word": "Embiid,",
+  "start": 16.116,
+  "end": 16.461
+ },
+ {
+  "word": "Maxey",
+  "start": 16.515,
+  "end": 16.903
+ },
+ {
+  "word": "and",
+  "start": 16.936,
+  "end": 17.022
+ },
+ {
+  "word": "Jaylen",
+  "start": 17.076,
+  "end": 17.336
+ },
+ {
+  "word": "Brown",
+  "start": 17.368,
+  "end": 17.584
+ },
+ {
+  "word": "together.",
+  "start": 17.616,
+  "end": 18.015
+ },
+ {
+  "word": "He",
+  "start": 18.036,
+  "end": 18.123
+ },
+ {
+  "word": "even",
+  "start": 18.176,
+  "end": 18.349
+ },
+ {
+  "word": "said",
+  "start": 18.382,
+  "end": 18.511
+ },
+ {
+  "word": "he",
+  "start": 18.532,
+  "end": 18.586
+ },
+ {
+  "word": "believes",
+  "start": 18.641,
+  "end": 18.932
+ },
+ {
+  "word": "he",
+  "start": 18.986,
+  "end": 19.051
+ },
+ {
+  "word": "can",
+  "start": 19.093,
+  "end": 19.191
+ },
+ {
+  "word": "make",
+  "start": 19.234,
+  "end": 19.364
+ },
+ {
+  "word": "the",
+  "start": 19.395,
+  "end": 19.461
+ },
+ {
+  "word": "Sixers",
+  "start": 19.514,
+  "end": 19.816
+ },
+ {
+  "word": "champions.",
+  "start": 19.86,
+  "end": 20.399
+ },
+ {
+  "word": "So",
+  "start": 20.464,
+  "end": 20.604
+ },
+ {
+  "word": "win",
+  "start": 20.658,
+  "end": 20.787
+ },
+ {
+  "word": "it,",
+  "start": 20.83,
+  "end": 20.982
+ },
+ {
+  "word": "and",
+  "start": 21.024,
+  "end": 21.143
+ },
+ {
+  "word": "he's",
+  "start": 21.197,
+  "end": 21.337
+ },
+ {
+  "word": "a",
+  "start": 21.37,
+  "end": 21.402
+ },
+ {
+  "word": "genius.",
+  "start": 21.456,
+  "end": 21.985
+ },
+ {
+  "word": "Lose,",
+  "start": 22.06,
+  "end": 22.416
+ },
+ {
+  "word": "and",
+  "start": 22.449,
+  "end": 22.568
+ },
+ {
+  "word": "he",
+  "start": 22.622,
+  "end": 22.686
+ },
+ {
+  "word": "just",
+  "start": 22.751,
+  "end": 22.924
+ },
+ {
+  "word": "gave",
+  "start": 22.966,
+  "end": 23.118
+ },
+ {
+  "word": "away",
+  "start": 23.15,
+  "end": 23.312
+ },
+ {
+  "word": "nearly",
+  "start": 23.366,
+  "end": 23.581
+ },
+ {
+  "word": "$49 million",
+  "start": 23.646,
+  "end": 24.564
+ },
+ {
+  "word": "for",
+  "start": 24.595,
+  "end": 24.693
+ },
+ {
+  "word": "nothing.",
+  "start": 24.747,
+  "end": 25.2
+ }
+]

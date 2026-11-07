@@ -1,0 +1,9 @@
+{
+ "prompt": "Instrumental minimal modern hip-hop beat for a sports explainer short, 92 BPM, curious and clever mood, soft plucked synth motif, muted punchy kick, rim clicks, light ticking texture, warm sub bass. No vocals. Sparse midrange so a narrator can talk over it. Steady groove that lifts slightly in the last third and ends cleanly on the downbeat.",
+ "model": "music_v1",
+ "seconds": 30.0,
+ "mood": "stats",
+ "generated": "2026-10-14",
+ "licence": "ElevenLabs Music Terms, Starter plan: all online/offline commercial use except film, TV, radio, Studio Games; no attribution",
+ "licence_url": "https://elevenlabs.io/music-terms"
+}

@@ -1,0 +1,50 @@
+[
+ {
+  "take": 1,
+  "ok": false,
+  "score": -94.9,
+  "verdict": "REDO",
+  "issues": [
+   "29.02s  script \"we\" but heard \"(nothing)\""
+  ],
+  "wpm": 215,
+  "hnr": 8.6,
+  "jitter": 2.75,
+  "shimmer": 10.85,
+  "dur": 53.93,
+  "pitch_sd": 4.97,
+  "fixed": "fixed by sentence retake"
+ },
+ {
+  "take": 2,
+  "ok": false,
+  "score": -94.9,
+  "verdict": "REDO",
+  "issues": [
+   " 2.84s  script \"back\" but heard \"(nothing)\""
+  ],
+  "wpm": 220,
+  "hnr": 8.6,
+  "jitter": 2.72,
+  "shimmer": 10.76,
+  "dur": 52.7,
+  "pitch_sd": 5.26,
+  "fixed": "fixed by sentence retake"
+ },
+ {
+  "take": 3,
+  "ok": false,
+  "score": -94.8,
+  "verdict": "REDO",
+  "issues": [
+   "29.06s  script \"we\" but heard \"(nothing)\""
+  ],
+  "wpm": 212,
+  "hnr": 8.6,
+  "jitter": 2.59,
+  "shimmer": 10.74,
+  "dur": 54.57,
+  "pitch_sd": 5.07,
+  "fixed": "fixed by sentence retake"
+ }
+]

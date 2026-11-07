@@ -1,0 +1,273 @@
+{
+ "length_s": 62.5,
+ "topic": "The story of how Christian von Koenigsegg created world-record supercars without formal engineering qualifications or initial investment.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "Christian von Koenigsegg was 22 years old and had",
+  "first_frame": "Animation of Christian von Koenigsegg head on a stick figure driving a white supercar.",
+  "on_screen_text_0_3s": "CHRISTIAN VON KOENIGSEGG 22 YEAR OLD YEARS OLD AND HAD",
+  "shots_in_first_3s": 2
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 2.75,
+   "shows": "Animation of Christian driving a white supercar on a road with dynamic caption text.",
+   "kind": "action"
+  },
+  {
+   "start_s": 2.75,
+   "end_s": 4.0,
+   "shows": "Stick figure Christian holding an engineering diploma outside a university building.",
+   "kind": "other"
+  },
+  {
+   "start_s": 4.0,
+   "end_s": 5.75,
+   "shows": "Stick figure inside a garage setting with red sports car, indicating lack of factory and investors.",
+   "kind": "other"
+  },
+  {
+   "start_s": 5.75,
+   "end_s": 8.0,
+   "shows": "Stick figure working with a wrench inside a McLaren garage setting.",
+   "kind": "other"
+  },
+  {
+   "start_s": 8.0,
+   "end_s": 9.0,
+   "shows": "Year graphic 1994 popping up in front of a building facade.",
+   "kind": "text_card"
+  },
+  {
+   "start_s": 9.0,
+   "end_s": 12.75,
+   "shows": "Koenigsegg facility building front with Sweden flag appearing and Christian driving past.",
+   "kind": "other"
+  },
+  {
+   "start_s": 12.75,
+   "end_s": 14.0,
+   "shows": "Ferrari driving past with the Italian flag displayed.",
+   "kind": "other"
+  },
+  {
+   "start_s": 14.0,
+   "end_s": 15.25,
+   "shows": "Lamborghini driving past with Italian flag overlay.",
+   "kind": "other"
+  },
+  {
+   "start_s": 15.25,
+   "end_s": 16.75,
+   "shows": "Yellow Porsche driving past with German flag overlay.",
+   "kind": "other"
+  },
+  {
+   "start_s": 16.75,
+   "end_s": 19.0,
+   "shows": "Friend stick figure talking to Christian inside his car outside the garage.",
+   "kind": "other"
+  },
+  {
+   "start_s": 19.0,
+   "end_s": 20.0,
+   "shows": "Supercar driving past the workshop building.",
+   "kind": "action"
+  },
+  {
+   "start_s": 20.0,
+   "end_s": 21.5,
+   "shows": "Inside garage with car chassis hanging on chains.",
+   "kind": "other"
+  },
+  {
+   "start_s": 21.5,
+   "end_s": 22.5,
+   "shows": "Inside workshop facility in Ängelholm.",
+   "kind": "other"
+  },
+  {
+   "start_s": 22.5,
+   "end_s": 28.75,
+   "shows": "Christian assembling an engineering stick figure team to build the first car over 6 years with calendar graphic.",
+   "kind": "other"
+  },
+  {
+   "start_s": 28.75,
+   "end_s": 30.0,
+   "shows": "Year graphic 2002 on a countryside background.",
+   "kind": "text_card"
+  },
+  {
+   "start_s": 30.0,
+   "end_s": 33.5,
+   "shows": "CC8S car driving down the road and delivering to a stick figure customer.",
+   "kind": "other"
+  },
+  {
+   "start_s": 33.5,
+   "end_s": 37.0,
+   "shows": "CC8S racing past yellow Porsche with speedometer overlay.",
+   "kind": "action"
+  },
+  {
+   "start_s": 37.0,
+   "end_s": 41.0,
+   "shows": "Police officer stick figure holding a document declaring car dangerous for public roads.",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 41.0,
+   "end_s": 42.75,
+   "shows": "Courtroom scene with judge and Christian holding the document.",
+   "kind": "other"
+  },
+  {
+   "start_s": 42.75,
+   "end_s": 44.5,
+   "shows": "White Koenigsegg speeding past yellow car with speedometer needle rising.",
+   "kind": "action"
+  },
+  {
+   "start_s": 44.5,
+   "end_s": 46.75,
+   "shows": "Showroom floor displaying 2017 Agera RS.",
+   "kind": "still"
+  },
+  {
+   "start_s": 46.75,
+   "end_s": 52.25,
+   "shows": "Purple Agera RS driving in Nevada desert with speedometer and radar display 277.9 mph.",
+   "kind": "action"
+  },
+  {
+   "start_s": 52.25,
+   "end_s": 54.75,
+   "shows": "Showroom display of Jesko Absolut 2020.",
+   "kind": "still"
+  },
+  {
+   "start_s": 54.75,
+   "end_s": 59.75,
+   "shows": "Black Jesko driving down desert highway with speed gun showing 330 MPH.",
+   "kind": "action"
+  },
+  {
+   "start_s": 59.75,
+   "end_s": 62.5,
+   "shows": "Modern Koenigsegg headquarters filling up with supercars and calendar showing 20 cars per year.",
+   "kind": "other"
+  }
+ ],
+ "shot_count": 25,
+ "average_shot_s": 2.5,
+ "longest_shot_s": 6.25,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 140,
+  "tone": "engaging narrative",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "upbeat background synth beat",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [
+  {
+   "at_s": 0.5,
+   "sound": "car engine whoosh"
+  },
+  {
+   "at_s": 8.0,
+   "sound": "pop / transition sound"
+  },
+  {
+   "at_s": 28.0,
+   "sound": "paper page flipping / pop sound"
+  },
+  {
+   "at_s": 42.0,
+   "sound": "gavel slam sound"
+  }
+ ],
+ "captions": {
+  "present": true,
+  "words_per_line": 2,
+  "case": "ALL CAPS",
+  "position": "middle",
+  "colours": "white",
+  "highlight_style": "word highlight"
+ },
+ "text_overlays": [
+  {
+   "at_s": 8.25,
+   "text": "1994"
+  },
+  {
+   "at_s": 21.75,
+   "text": "ANGELHOLM"
+  },
+  {
+   "at_s": 29.0,
+   "text": "2002"
+  },
+  {
+   "at_s": 38.5,
+   "text": "CLASSIFIED AS DANGEROUS FOR PUBLIC ROADS"
+  },
+  {
+   "at_s": 44.75,
+   "text": "2017"
+  },
+  {
+   "at_s": 48.75,
+   "text": "277.9 MPH"
+  },
+  {
+   "at_s": 53.75,
+   "text": "2020"
+  },
+  {
+   "at_s": 56.5,
+   "text": "330 MPH"
+  }
+ ],
+ "cards_or_graphics": 3,
+ "framing": "crop",
+ "ending": {
+  "last_words": "produces around 20 cars per year.",
+  "last_frame": "Koenigsegg headquarters with 20 supercars parked outside and a calendar graphic.",
+  "loops_to_start": true,
+  "call_to_action": "none"
+ },
+ "script": "Christian von Koenigsegg was 22 years old and had no engineering degree, no factory, no investors, and no experience building cars when he decided in 1994 to start a supercar company in Sweden. Sweden had no history of supercars. Ferrari was in Italy, Lamborghini was in Italy, Porsche was in Germany. His friends told him it was an absurd idea. He started anyway, working out of a small facility outside Angelholm, assembling a team of engineers who believed in him for reasons that weren't entirely clear. The first car took 6 years to complete. In 2002, the CC8S became the first Koenigsegg delivered to a customer. It produced more horsepower per liter than any production car ever built. Authorities immediately tried to classify it as too dangerous to register on public roads. Koenigsegg fought and won. The cars kept getting faster. In 2017, the Agera RS set the production car land speed record at 277.9 miles per hour on a closed Nevada highway. The Jesko Absolut, released in 2020, is theoretically capable of 330 miles per hour, a number no production car has ever reached. The factory in Angelholm produces around 20 cars per year.",
+ "retention_tricks": [
+  "2D stick figure animation mixed with photo cutouts for constant visual motion",
+  "Speedometer and radar speed graphics creating high energy tension",
+  "Fast narration with word-by-word bold captions"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": false
+ },
+ "what_makes_it_work": [
+  "Combines an inspiring founder origin story with clear chronological milestones and speed records.",
+  "Uses humorous stick-figure animations to make complex history simple and visually entertaining.",
+  "Maintains brisk pacing with rapid cut transitions, sound effects, and clean visual graphics."
+ ],
+ "_meta": {
+  "source": "X2-sjByHtKo",
+  "model": "gemini-3.5-flash",
+  "fps": 4.0,
+  "watched": "2026-11-05",
+  "tier": "[S] model-observed, not measured"
+ }
+}

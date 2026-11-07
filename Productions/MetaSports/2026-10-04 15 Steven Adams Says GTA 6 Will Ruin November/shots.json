@@ -1,0 +1,145 @@
+[
+ {
+  "clip": "adams_full.mp4",
+  "start": 0.0,
+  "kind": "face",
+  "in": 1.0,
+  "zoom": 0.12,
+  "why": "hook: Adams face"
+ },
+ {
+  "clip": "A3_shot.mp4",
+  "start": 0.99,
+  "kind": "action",
+  "anchor": "pro league",
+  "why": "Adams Rockets practice"
+ },
+ {
+  "clip": "c15_b.mp4",
+  "start": 2.53,
+  "kind": "card",
+  "anchor": "Grand",
+  "why": "Rockstar date post, Nov 19 boxed"
+ },
+ {
+  "clip": "adams_full.mp4",
+  "start": 4.65,
+  "kind": "quote",
+  "anchor": "look",
+  "in": 13.26,
+  "zoom": 0.1,
+  "why": "Q1"
+ },
+ {
+  "clip": "A2_shoot.mp4",
+  "start": 7.03,
+  "kind": "action",
+  "anchor": "and watch",
+  "zoom": 0.08,
+  "why": "b-roll over Adams audio"
+ },
+ {
+  "clip": "H1_tower.mp4",
+  "start": 8.23,
+  "kind": "action",
+  "anchor": "The night",
+  "zoom": 0.1,
+  "why": "Heat arena night"
+ },
+ {
+  "clip": "H2_arena.mp4",
+  "start": 9.22,
+  "kind": "action",
+  "anchor": "the Heat",
+  "why": "arena"
+ },
+ {
+  "clip": "H3_sign.mp4",
+  "start": 10.23,
+  "kind": "action",
+  "anchor": "Vice",
+  "zoom": 0.06,
+  "why": "Welcome to Vice City neon"
+ },
+ {
+  "clip": "A4_walk.mp4",
+  "start": 10.82,
+  "kind": "action",
+  "anchor": "Adams was",
+  "zoom": 0.08,
+  "why": "b-roll over Adams audio"
+ },
+ {
+  "clip": "adams_full.mp4",
+  "start": 12.43,
+  "kind": "quote",
+  "anchor": "Most",
+  "in": 21.56,
+  "zoom": 0.1,
+  "why": "Q2"
+ },
+ {
+  "clip": "A3_shot.mp4",
+  "start": 13.59,
+  "kind": "action",
+  "anchor": "but hopefully",
+  "zoom": 0.08,
+  "why": "b-roll over Adams audio"
+ },
+ {
+  "clip": "A2_shoot.mp4",
+  "start": 14.75,
+  "kind": "action",
+  "anchor": "Then",
+  "why": "Adams practice"
+ },
+ {
+  "clip": "A4_walk.mp4",
+  "start": 15.48,
+  "kind": "action",
+  "anchor": "coaches",
+  "why": "scouts/coaches"
+ },
+ {
+  "clip": "adams_full.mp4",
+  "start": 16.58,
+  "kind": "quote",
+  "anchor": "The coaching",
+  "in": 25.72,
+  "zoom": 0.12,
+  "why": "Q3"
+ },
+ {
+  "clip": "A1_barefoot.mp4",
+  "start": 17.46,
+  "kind": "action",
+  "anchor": "gonna",
+  "zoom": 0.08,
+  "why": "b-roll over Adams audio"
+ },
+ {
+  "clip": "adams_full.mp4",
+  "start": 18.82,
+  "kind": "quote",
+  "anchor": "Just",
+  "in": 28.3,
+  "zoom": 0.1,
+  "why": "Q4"
+ },
+ {
+  "clip": "A1_barefoot.mp4",
+  "start": 19.98,
+  "kind": "action",
+  "anchor": "bounce",
+  "why": "Adams barefoot warmup"
+ },
+ {
+  "clip": "adams_full.mp4",
+  "start": 21.38,
+  "kind": "quote",
+  "anchor": "Yeah",
+  "in": 31.36,
+  "zoom": 0.12,
+  "why": "deadpan payoff (loop to first face)"
+ }
+]

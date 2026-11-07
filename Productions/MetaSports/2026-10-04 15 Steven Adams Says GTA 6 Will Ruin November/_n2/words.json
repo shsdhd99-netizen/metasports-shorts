@@ -1,0 +1,87 @@
+[
+ {
+  "word": "The",
+  "start": 0.0,
+  "end": 0.129
+ },
+ {
+  "word": "night",
+  "start": 0.182,
+  "end": 0.333
+ },
+ {
+  "word": "before",
+  "start": 0.365,
+  "end": 0.58
+ },
+ {
+  "word": "it",
+  "start": 0.612,
+  "end": 0.655
+ },
+ {
+  "word": "drops,",
+  "start": 0.687,
+  "end": 0.966
+ },
+ {
+  "word": "the",
+  "start": 0.988,
+  "end": 1.074
+ },
+ {
+  "word": "Heat",
+  "start": 1.127,
+  "end": 1.299
+ },
+ {
+  "word": "play",
+  "start": 1.342,
+  "end": 1.493
+ },
+ {
+  "word": "a",
+  "start": 1.535,
+  "end": 1.567
+ },
+ {
+  "word": "game",
+  "start": 1.61,
+  "end": 1.782
+ },
+ {
+  "word": "as",
+  "start": 1.825,
+  "end": 1.933
+ },
+ {
+  "word": "Vice",
+  "start": 1.997,
+  "end": 2.212
+ },
+ {
+  "word": "City.",
+  "start": 2.233,
+  "end": 2.545
+ },
+ {
+  "word": "Adams",
+  "start": 2.587,
+  "end": 2.867
+ },
+ {
+  "word": "was",
+  "start": 2.909,
+  "end": 3.006
+ },
+ {
+  "word": "joking.",
+  "start": 3.06,
+  "end": 3.447
+ },
+ {
+  "word": "Mostly.",
+  "start": 3.543,
+  "end": 4.08
+ }
+]

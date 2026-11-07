@@ -1,0 +1,6 @@
+[
+  {"sfx": "dribble", "at": 4.20, "gain": -12, "why": "the ball is bouncing at Banchero's feet"},
+  {"sfx": "whoosh", "at": 8.96, "gain": -11, "why": "cut to McCollum on But"},
+  {"sfx": "punch", "at": 11.55, "gain": -14, "why": "Brown's arm is into Oubre on off-arm"},
+  {"sfx": "whoosh_long", "at": 23.50, "gain": -17, "why": "cut back to the shove on the payoff"}
+]

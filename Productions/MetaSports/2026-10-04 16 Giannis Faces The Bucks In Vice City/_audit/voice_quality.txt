@@ -1,0 +1,4 @@
+2026-10-04 16 Giannis Faces Th#0     REDO HNR   7.6 jit 3.49 shim 12.04 jumps/s 0.00 clicks/min 1226.6 hf%  3.90 f0 179 dur 2.89  HNR 7.6 dB (noisy/robotic); jitter 3.49% (shaky); shimmer 12.04% (uneven loudness); 1226.6 clicks/min
+2026-10-04 16 Giannis Faces Th#1     REDO HNR   7.6 jit 2.81 shim 10.32 jumps/s 0.00 clicks/min  58.5 hf%  3.03 f0 180 dur 11.28  HNR 7.6 dB (noisy/robotic); jitter 2.81% (shaky); shimmer 10.32% (uneven loudness); 58.5 clicks/min
+2026-10-04 16 Giannis Faces Th#3     REDO HNR   8.5 jit 2.82 shim 10.17 jumps/s 0.00 clicks/min 327.3 hf%  4.06 f0 189 dur 6.97  HNR 8.5 dB (noisy/robotic); jitter 2.82% (shaky); shimmer 10.17% (uneven loudness); 327.3 clicks/min
+2026-10-04 16 Giannis Faces Th#4     REDO HNR   5.9 jit 3.77 shim 12.83 jumps/s 0.00 clicks/min 373.9 hf%  6.03 f0 179 dur 2.41  HNR 5.9 dB (noisy/robotic); jitter 3.77% (shaky); shimmer 12.83% (uneven loudness); 373.9 clicks/min

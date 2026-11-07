@@ -1,0 +1,99 @@
+[
+ {
+  "clip": "flop_hou.mp4",
+  "start": 0.0,
+  "in": 1.2,
+  "kind": "action",
+  "why": "defender on the floor, hook"
+ },
+ {
+  "clip": "flop_kings.mp4",
+  "start": 0.95,
+  "in": 1.4,
+  "kind": "action",
+  "why": "player down, technical foul"
+ },
+ {
+  "clip": "flop_cel.mp4",
+  "start": 2.15,
+  "in": 0.3,
+  "kind": "action",
+  "why": "But, not every fall"
+ },
+ {
+  "clip": "flop_hou.mp4",
+  "start": 3.4,
+  "in": 0.3,
+  "kind": "action",
+  "why": "secondary theatrical exaggerated"
+ },
+ {
+  "clip": "flop_kings.mp4",
+  "start": 5.8,
+  "in": 0.2,
+  "kind": "action",
+  "why": "refs, more technicals"
+ },
+ {
+  "clip": "flop_cel.mp4",
+  "start": 7.2,
+  "in": 1.8,
+  "kind": "action",
+  "why": "defender low, theatrically falls"
+ },
+ {
+  "clip": "finch.mp4",
+  "start": 9.3,
+  "in": 0.2,
+  "kind": "face",
+  "why": "Chris Finch, Timberwolves"
+ },
+ {
+  "clip": "flop_kings.mp4",
+  "start": 11.8,
+  "in": 2.0,
+  "kind": "action",
+  "why": "league video of 2025-26 flops"
+ },
+ {
+  "clip": "daig.mp4",
+  "start": 14.2,
+  "in": 0.3,
+  "kind": "face",
+  "why": "Mark Daigneault, Thunder"
+ },
+ {
+  "clip": "siakam.mp4",
+  "start": 17.15,
+  "in": 0.4,
+  "kind": "action",
+  "why": "Pacers 43 in the air while the name is spoken"
+ },
+ {
+  "clip": "siakam.mp4",
+  "start": 18.46,
+  "in": 3.5,
+  "kind": "action",
+  "why": "Pacers 43 sitting after the jumper"
+ },
+ {
+  "clip": "siakam_hold.mp4",
+  "start": 19.45,
+  "kind": "action",
+  "why": "Pacers 43 held through is not a flop. Walsh 27 was on this line."
+ },
+ {
+  "clip": "avdija.mp4",
+  "start": 20.05,
+  "in": 1.35,
+  "kind": "action",
+  "why": "Portland 8 through the head snap and not a flop"
+ },
+ {
+  "clip": "flop_hou.mp4",
+  "start": 23.08,
+  "in": 2.2,
+  "kind": "action",
+  "why": "loop after the payoff line"
+ }
+]

@@ -1,0 +1,467 @@
+[
+ {
+  "word": "Kawhi",
+  "start": 0.0,
+  "end": 0.29
+ },
+ {
+  "word": "Leonard",
+  "start": 0.383,
+  "end": 0.627
+ },
+ {
+  "word": "just",
+  "start": 0.72,
+  "end": 0.929
+ },
+ {
+  "word": "got",
+  "start": 0.975,
+  "end": 1.138
+ },
+ {
+  "word": "the",
+  "start": 1.173,
+  "end": 1.242
+ },
+ {
+  "word": "bounce",
+  "start": 1.277,
+  "end": 1.533
+ },
+ {
+  "word": "again.",
+  "start": 1.556,
+  "end": 2.287
+ },
+ {
+  "word": "Same",
+  "start": 2.391,
+  "end": 2.623
+ },
+ {
+  "word": "arena,",
+  "start": 2.646,
+  "end": 3.041
+ },
+ {
+  "word": "same",
+  "start": 3.076,
+  "end": 3.308
+ },
+ {
+  "word": "corner,",
+  "start": 3.355,
+  "end": 3.761
+ },
+ {
+  "word": "seven",
+  "start": 3.796,
+  "end": 4.028
+ },
+ {
+  "word": "years",
+  "start": 4.063,
+  "end": 4.202
+ },
+ {
+  "word": "later.",
+  "start": 4.26,
+  "end": 4.91
+ },
+ {
+  "word": "In",
+  "start": 4.994,
+  "end": 5.134
+ },
+ {
+  "word": "2019,",
+  "start": 5.203,
+  "end": 5.877
+ },
+ {
+  "word": "his",
+  "start": 5.911,
+  "end": 5.993
+ },
+ {
+  "word": "shot",
+  "start": 6.039,
+  "end": 6.271
+ },
+ {
+  "word": "from",
+  "start": 6.306,
+  "end": 6.411
+ },
+ {
+  "word": "that",
+  "start": 6.446,
+  "end": 6.562
+ },
+ {
+  "word": "corner",
+  "start": 6.631,
+  "end": 6.887
+ },
+ {
+  "word": "bounced",
+  "start": 6.956,
+  "end": 7.2
+ },
+ {
+  "word": "on",
+  "start": 7.223,
+  "end": 7.27
+ },
+ {
+  "word": "the",
+  "start": 7.293,
+  "end": 7.363
+ },
+ {
+  "word": "rim",
+  "start": 7.421,
+  "end": 7.618
+ },
+ {
+  "word": "four",
+  "start": 7.746,
+  "end": 7.99
+ },
+ {
+  "word": "times,",
+  "start": 8.048,
+  "end": 8.582
+ },
+ {
+  "word": "then",
+  "start": 8.617,
+  "end": 8.826
+ },
+ {
+  "word": "dropped.",
+  "start": 8.895,
+  "end": 9.476
+ },
+ {
+  "word": "It",
+  "start": 9.58,
+  "end": 9.719
+ },
+ {
+  "word": "beat",
+  "start": 9.789,
+  "end": 10.009
+ },
+ {
+  "word": "the",
+  "start": 10.044,
+  "end": 10.114
+ },
+ {
+  "word": "Sixers",
+  "start": 10.16,
+  "end": 10.474
+ },
+ {
+  "word": "at",
+  "start": 10.508,
+  "end": 10.578
+ },
+ {
+  "word": "the",
+  "start": 10.613,
+  "end": 10.683
+ },
+ {
+  "word": "buzzer",
+  "start": 10.741,
+  "end": 11.042
+ },
+ {
+  "word": "of",
+  "start": 11.101,
+  "end": 11.147
+ },
+ {
+  "word": "Game",
+  "start": 11.228,
+  "end": 11.46
+ },
+ {
+  "word": "7.",
+  "start": 11.518,
+  "end": 11.855
+ },
+ {
+  "word": "No",
+  "start": 11.878,
+  "end": 11.983
+ },
+ {
+  "word": "Game",
+  "start": 12.041,
+  "end": 12.227
+ },
+ {
+  "word": "7",
+  "start": 12.273,
+  "end": 12.447
+ },
+ {
+  "word": "had",
+  "start": 12.494,
+  "end": 12.563
+ },
+ {
+  "word": "ever",
+  "start": 12.633,
+  "end": 12.888
+ },
+ {
+  "word": "ended",
+  "start": 12.969,
+  "end": 13.225
+ },
+ {
+  "word": "on",
+  "start": 13.271,
+  "end": 13.329
+ },
+ {
+  "word": "a",
+  "start": 13.364,
+  "end": 13.387
+ },
+ {
+  "word": "winning",
+  "start": 13.469,
+  "end": 13.689
+ },
+ {
+  "word": "buzzer-beater",
+  "start": 13.759,
+  "end": 14.247
+ },
+ {
+  "word": "before.",
+  "start": 14.293,
+  "end": 14.781
+ },
+ {
+  "word": "Now,",
+  "start": 14.862,
+  "end": 15.117
+ },
+ {
+  "word": "in",
+  "start": 15.141,
+  "end": 15.187
+ },
+ {
+  "word": "his",
+  "start": 15.21,
+  "end": 15.28
+ },
+ {
+  "word": "first",
+  "start": 15.338,
+  "end": 15.535
+ },
+ {
+  "word": "night",
+  "start": 15.582,
+  "end": 15.733
+ },
+ {
+  "word": "back",
+  "start": 15.779,
+  "end": 15.918
+ },
+ {
+  "word": "in",
+  "start": 15.953,
+  "end": 16.0
+ },
+ {
+  "word": "a",
+  "start": 16.023,
+  "end": 16.046
+ },
+ {
+  "word": "Raptors",
+  "start": 16.116,
+  "end": 16.441
+ },
+ {
+  "word": "jersey,",
+  "start": 16.522,
+  "end": 16.987
+ },
+ {
+  "word": "a",
+  "start": 17.01,
+  "end": 17.045
+ },
+ {
+  "word": "corner",
+  "start": 17.114,
+  "end": 17.335
+ },
+ {
+  "word": "three",
+  "start": 17.381,
+  "end": 17.613
+ },
+ {
+  "word": "from",
+  "start": 17.637,
+  "end": 17.73
+ },
+ {
+  "word": "almost",
+  "start": 17.788,
+  "end": 18.02
+ },
+ {
+  "word": "the",
+  "start": 18.043,
+  "end": 18.113
+ },
+ {
+  "word": "same",
+  "start": 18.148,
+  "end": 18.333
+ },
+ {
+  "word": "spot",
+  "start": 18.357,
+  "end": 18.612
+ },
+ {
+  "word": "hit",
+  "start": 18.67,
+  "end": 18.798
+ },
+ {
+  "word": "the",
+  "start": 18.833,
+  "end": 18.902
+ },
+ {
+  "word": "rim,",
+  "start": 18.96,
+  "end": 19.25
+ },
+ {
+  "word": "bounced,",
+  "start": 19.297,
+  "end": 19.715
+ },
+ {
+  "word": "and",
+  "start": 19.738,
+  "end": 19.843
+ },
+ {
+  "word": "fell",
+  "start": 19.912,
+  "end": 20.11
+ },
+ {
+  "word": "in.",
+  "start": 20.191,
+  "end": 20.435
+ },
+ {
+  "word": "So",
+  "start": 20.458,
+  "end": 20.562
+ },
+ {
+  "word": "did",
+  "start": 20.609,
+  "end": 20.69
+ },
+ {
+  "word": "it",
+  "start": 20.725,
+  "end": 20.771
+ },
+ {
+  "word": "feel",
+  "start": 20.818,
+  "end": 20.992
+ },
+ {
+  "word": "like",
+  "start": 21.027,
+  "end": 21.143
+ },
+ {
+  "word": "d\u00e9j\u00e0",
+  "start": 21.178,
+  "end": 21.445
+ },
+ {
+  "word": "vu?",
+  "start": 21.491,
+  "end": 21.84
+ },
+ {
+  "word": "\"No,",
+  "start": 21.863,
+  "end": 22.234
+ },
+ {
+  "word": "not",
+  "start": 22.292,
+  "end": 22.455
+ },
+ {
+  "word": "at",
+  "start": 22.49,
+  "end": 22.536
+ },
+ {
+  "word": "all.",
+  "start": 22.583,
+  "end": 22.85
+ },
+ {
+  "word": "A",
+  "start": 22.873,
+  "end": 22.896
+ },
+ {
+  "word": "lot",
+  "start": 22.954,
+  "end": 23.059
+ },
+ {
+  "word": "of",
+  "start": 23.082,
+  "end": 23.128
+ },
+ {
+  "word": "my",
+  "start": 23.151,
+  "end": 23.198
+ },
+ {
+  "word": "shots",
+  "start": 23.244,
+  "end": 23.511
+ },
+ {
+  "word": "do",
+  "start": 23.546,
+  "end": 23.662
+ },
+ {
+  "word": "that.\"",
+  "start": 23.709,
+  "end": 24.022
+ }
+]

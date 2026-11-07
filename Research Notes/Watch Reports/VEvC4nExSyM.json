@@ -1,0 +1,346 @@
+{
+ "length_s": 71.3,
+ "topic": "An analysis of Martin Ødegaard's start to the season compared to previous years and his injury struggles.",
+ "lane": "explainer",
+ "hook": {
+  "first_words": "Is Ødegaard lowkey having his best start",
+  "first_frame": "Martin Ødegaard dribbling the ball on the pitch with other players around him.",
+  "on_screen_text_0_3s": "Is Ødegaard lowkey having his BEST START",
+  "shots_in_first_3s": 3
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 0.7,
+   "shows": "Martin Ødegaard dribbling on the pitch with opposing players sliding in",
+   "kind": "action"
+  },
+  {
+   "start_s": 0.7,
+   "end_s": 1.7,
+   "shows": "Another angle of players tackling on the pitch",
+   "kind": "action"
+  },
+  {
+   "start_s": 1.7,
+   "end_s": 3.0,
+   "shows": "Ødegaard falling over a player during a challenge",
+   "kind": "action"
+  },
+  {
+   "start_s": 3.0,
+   "end_s": 3.8,
+   "shows": "Close-up of Ødegaard holding his injured knee and crying on the grass",
+   "kind": "action"
+  },
+  {
+   "start_s": 3.8,
+   "end_s": 4.8,
+   "shows": "Ødegaard sitting on the ground being attended to by medical staff",
+   "kind": "action"
+  },
+  {
+   "start_s": 4.8,
+   "end_s": 6.4,
+   "shows": "Ødegaard walking off the pitch looking dejected",
+   "kind": "face"
+  },
+  {
+   "start_s": 6.4,
+   "end_s": 7.4,
+   "shows": "Ødegaard celebrating a goal on the pitch",
+   "kind": "action"
+  },
+  {
+   "start_s": 7.4,
+   "end_s": 8.5,
+   "shows": "Ødegaard taking a shot during a match",
+   "kind": "action"
+  },
+  {
+   "start_s": 8.5,
+   "end_s": 10.0,
+   "shows": "Ødegaard clapping to the crowd",
+   "kind": "face"
+  },
+  {
+   "start_s": 10.0,
+   "end_s": 12.0,
+   "shows": "Replay of Ødegaard getting injured in a challenge",
+   "kind": "replay"
+  },
+  {
+   "start_s": 12.0,
+   "end_s": 12.8,
+   "shows": "Ødegaard holding his knee on the ground",
+   "kind": "action"
+  },
+  {
+   "start_s": 12.8,
+   "end_s": 14.8,
+   "shows": "Graphic of Ødegaard standing with stat counter '24 matches'",
+   "kind": "text_card"
+  },
+  {
+   "start_s": 14.8,
+   "end_s": 16.7,
+   "shows": "Kevin Hart looking shocked in an interview clip",
+   "kind": "face"
+  },
+  {
+   "start_s": 16.7,
+   "end_s": 17.6,
+   "shows": "Ødegaard speaking into a microphone",
+   "kind": "face"
+  },
+  {
+   "start_s": 17.6,
+   "end_s": 19.8,
+   "shows": "Still image of Ødegaard standing in Arsenal kit",
+   "kind": "still"
+  },
+  {
+   "start_s": 19.8,
+   "end_s": 23.8,
+   "shows": "Ødegaard walking off the pitch looking distressed, covering his face",
+   "kind": "action"
+  },
+  {
+   "start_s": 23.8,
+   "end_s": 25.8,
+   "shows": "Ødegaard lying on the ground clutching his shoulder",
+   "kind": "action"
+  },
+  {
+   "start_s": 25.8,
+   "end_s": 26.8,
+   "shows": "Ødegaard sitting on the grass holding his head",
+   "kind": "action"
+  },
+  {
+   "start_s": 26.8,
+   "end_s": 28.5,
+   "shows": "Ødegaard sitting on the pitch gripping his knee in pain",
+   "kind": "action"
+  },
+  {
+   "start_s": 28.5,
+   "end_s": 30.5,
+   "shows": "Arsenal team celebrating with trophy on stage",
+   "kind": "action"
+  },
+  {
+   "start_s": 30.5,
+   "end_s": 31.8,
+   "shows": "Ødegaard being interviewed wearing a medal",
+   "kind": "face"
+  },
+  {
+   "start_s": 31.8,
+   "end_s": 32.7,
+   "shows": "Ødegaard sitting alone on the substitutes bench looking thoughtful",
+   "kind": "face"
+  },
+  {
+   "start_s": 32.7,
+   "end_s": 35.5,
+   "shows": "Steve Harvey holding a card with glowing red laser eyes effect",
+   "kind": "face"
+  },
+  {
+   "start_s": 35.5,
+   "end_s": 36.6,
+   "shows": "Ødegaard having a gold medal placed around his neck",
+   "kind": "action"
+  },
+  {
+   "start_s": 36.6,
+   "end_s": 37.9,
+   "shows": "Ødegaard running on the pitch celebrating",
+   "kind": "action"
+  },
+  {
+   "start_s": 37.9,
+   "end_s": 39.8,
+   "shows": "Community Shield graphic with Arsenal and Manchester City badges",
+   "kind": "text_card"
+  },
+  {
+   "start_s": 39.8,
+   "end_s": 42.5,
+   "shows": "Ødegaard celebrating a goal on the pitch",
+   "kind": "action"
+  },
+  {
+   "start_s": 42.5,
+   "end_s": 43.5,
+   "shows": "Arsenal team lifting the Community Shield trophy",
+   "kind": "action"
+  },
+  {
+   "start_s": 43.5,
+   "end_s": 45.3,
+   "shows": "Ødegaard celebrating on the pitch with fans in background",
+   "kind": "action"
+  },
+  {
+   "start_s": 45.3,
+   "end_s": 45.9,
+   "shows": "Still portrait of Ødegaard smiling as Arsenal captain",
+   "kind": "still"
+  },
+  {
+   "start_s": 45.9,
+   "end_s": 47.3,
+   "shows": "Wide shot of a football match in progress",
+   "kind": "action"
+  },
+  {
+   "start_s": 47.3,
+   "end_s": 49.6,
+   "shows": "Close-up of a player on the pitch reacting",
+   "kind": "face"
+  },
+  {
+   "start_s": 49.6,
+   "end_s": 50.8,
+   "shows": "Ødegaard dribbling and scoring a goal",
+   "kind": "action"
+  },
+  {
+   "start_s": 50.8,
+   "end_s": 52.2,
+   "shows": "Ødegaard standing on the pitch during a match",
+   "kind": "face"
+  },
+  {
+   "start_s": 52.2,
+   "end_s": 53.8,
+   "shows": "Ødegaard running towards the corner flag celebrating",
+   "kind": "action"
+  },
+  {
+   "start_s": 53.8,
+   "end_s": 55.2,
+   "shows": "Ødegaard pointing up in celebration",
+   "kind": "face"
+  },
+  {
+   "start_s": 55.2,
+   "end_s": 57.7,
+   "shows": "Ødegaard taking a shot during a game",
+   "kind": "action"
+  },
+  {
+   "start_s": 57.7,
+   "end_s": 60.1,
+   "shows": "Ødegaard celebrating with teammates after a match",
+   "kind": "action"
+  },
+  {
+   "start_s": 60.1,
+   "end_s": 62.1,
+   "shows": "Ødegaard being interviewed in front of a sponsor backdrop",
+   "kind": "face"
+  },
+  {
+   "start_s": 62.1,
+   "end_s": 63.3,
+   "shows": "Ødegaard running on the pitch in an Arsenal kit",
+   "kind": "action"
+  },
+  {
+   "start_s": 63.3,
+   "end_s": 64.8,
+   "shows": "Ødegaard battling for the ball with opponents",
+   "kind": "action"
+  },
+  {
+   "start_s": 64.8,
+   "end_s": 66.6,
+   "shows": "Still image of Ødegaard clapping in Arsenal kit",
+   "kind": "still"
+  },
+  {
+   "start_s": 66.6,
+   "end_s": 68.0,
+   "shows": "Ødegaard celebrating a goal on the pitch",
+   "kind": "action"
+  },
+  {
+   "start_s": 68.0,
+   "end_s": 69.8,
+   "shows": "Ødegaard during post-match interview",
+   "kind": "face"
+  },
+  {
+   "start_s": 69.8,
+   "end_s": 71.3,
+   "shows": "Ødegaard running and raising his fist in celebration",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 47,
+ "average_shot_s": 1.52,
+ "longest_shot_s": 3.0,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 210,
+  "tone": "enthusiastic, dramatic, and engaging",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "dramatic cinematic beat building in intensity",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 4,
+  "case": "mixed",
+  "position": "middle",
+  "colours": [
+   "white"
+  ],
+  "highlight_style": "pop-up word by word animation"
+ },
+ "text_overlays": [],
+ "cards_or_graphics": 4,
+ "framing": "crop",
+ "ending": {
+  "last_words": "most meaningful one.",
+  "last_frame": "Ødegaard running and raising his fist in celebration.",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "Is Ødegaard lowkey having his best start to a season in an Arsenal shirt? Last season was the worst of Martin Ødegaard's Arsenal career. As the team's captain, he managed just one league goal and three assists the entire year. And along the way, he hurt his shoulder twice, wrecked his knee, and missed 24 matches through injury. But the way those injuries piled up dragged him into a record no Premier League player had ever set before him: Ødegaard became the first player ever to get subbed off in the first half of three games in a row, with shoulder trouble ending his day against Leeds and Nottingham Forest before his knee gave out against West Ham. Arsenal won the title that season, while their captain watched most of it from the sidelines. But the version of Ødegaard that showed up for the new season looked nothing like the one who limped through the last one. In the Community Shield against Manchester City, Ødegaard scored and got named man of the match in a 3-0 win, and then he scored again in the league opener against Coventry. Today against Chelsea, Arsenal fell behind after 77 seconds, and Ødegaard scored the winner five minutes into the second half, a goal that on its own doubled his entire league total from last season. He also created four chances and drew three fouls in a performance people are already calling a masterclass. So is this quietly his best start ever in an Arsenal shirt? His 22-23 season had 15 league goals, so the raw numbers say no. Yet after everything he went through, this is easily his most meaningful one.",
+ "retention_tricks": [
+  "rapid-fire cuts every 1-2 seconds",
+  "meme intercuts (Kevin Hart, Steve Harvey with laser eyes)",
+  "stat callouts and graphics",
+  "replays of key injury moments"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": true,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "Strong narrative contrast between his disastrous injury-plagued previous season and his triumphant return",
+  "Pacing powered by rapid cuts and expressive meme insertions that hold viewer attention",
+  "Clear storyline structure moving from problem to turning point to ultimate resolution"
+ ],
+ "_meta": {
+  "source": "VEvC4nExSyM",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

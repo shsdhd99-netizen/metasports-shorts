@@ -1,0 +1,14 @@
+{
+ "fails": 0,
+ "warns": 2,
+ "verdict": "SHIP",
+ "qa_score": 92,
+ "predicted_score": 45,
+ "predicted_views": 4979,
+ "fail_list": [],
+ "warn_list": [
+  "SCRIPT: line 1 has 12 words (rule: 11 or fewer); 4 lint risks (first: hook: 12 words: line 1 of 12+ words engaged 0.490 vs 0.557 for under 12 (n=21 Shorts,); ",
+  "VOICE: voice take verdict CHECK; pace 236 wpm (range 205-270); tail after the last word 0.22 s (want 0.15-0.4)"
+ ],
+ "at": "2026-11-07T11:58"
+}

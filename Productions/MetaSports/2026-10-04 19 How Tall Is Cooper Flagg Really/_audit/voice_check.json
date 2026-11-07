@@ -1,0 +1,44 @@
+{
+ "verdict": "REDO",
+ "wpm": 247,
+ "issues": [
+  " 5.52s  script \"may i mean no shoes\" but heard \"(nothing)\"",
+  " 8.10s  script \"i don't know\" but heard \"(nothing)\"",
+  "17.20s  script \"and a half\" but heard \"5\""
+ ],
+ "notes": [
+  "11.24s  \"marc\" heard as \"mark\" (close; check the name)",
+  " 6.85s  very quiet word \"I'm\" (-14 dB)",
+  " 7.05s  very quiet word \"6-11.\" (-14 dB)",
+  " 7.25s  very quiet word \"I\" (-26 dB)",
+  " 7.45s  very quiet word \"don't\" (-22 dB)",
+  " 7.65s  very quiet word \"know.\" (-21 dB)"
+ ],
+ "heard": "An Instagram account said Cooper Flagg grew 2 inches this summer, so at Media Day a reporter asked taller than last year? So maybe I'm 6 '11\". 6 '11? Not so fast. His team physical the day before, reported by Mark Stein, said 6 '10 without shoes. And the NBA's website still lists him at 6 '9\". Then five days later he claimed another quarter inch, 6 '10 .5\", with shoes. So is he 6 '11\"? Flagg's answer. Not very accurate. I'm 6 '10\".",
+ "mismatches": [
+  {
+   "at": 5.52,
+   "script": "may i mean no shoes",
+   "heard": "",
+   "similar": 0.0
+  },
+  {
+   "at": 8.1,
+   "script": "i don't know",
+   "heard": "",
+   "similar": 0.0
+  },
+  {
+   "at": 11.24,
+   "script": "marc",
+   "heard": "mark",
+   "similar": 0.75
+  },
+  {
+   "at": 17.2,
+   "script": "and a half",
+   "heard": "5",
+   "similar": 0.0
+  }
+ ]
+}

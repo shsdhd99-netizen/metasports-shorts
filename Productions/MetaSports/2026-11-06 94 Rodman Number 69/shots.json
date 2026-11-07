@@ -1,0 +1,86 @@
+[
+ {
+  "clip": "B01.mp4",
+  "kind": "face",
+  "why": "Rodman holding the real No. 69 Mavericks jersey at his Dallas press conference (frame 1: the banned number, his face)",
+  "start": 0.0
+ },
+ {
+  "clip": "B02.mp4",
+  "kind": "action",
+  "why": "Rodman in a Mavericks jersey, close",
+  "anchor": "When Dallas",
+  "start": 2.41
+ },
+ {
+  "clip": "B03.mp4",
+  "kind": "face",
+  "why": "the 69 jersey, close: he asked for 69",
+  "anchor": "sixty-nine.",
+  "start": 3.78
+ },
+ {
+  "clip": "B04.mp4",
+  "kind": "face",
+  "why": "the one 69 jersey that was printed",
+  "anchor": "The Mavericks",
+  "start": 4.49
+ },
+ {
+  "clip": "B05.mp4",
+  "kind": "face",
+  "why": "Commissioner David Stern at a podium: the league said no",
+  "anchor": "The league",
+  "start": 5.59
+ },
+ {
+  "clip": "B06.mp4",
+  "kind": "face",
+  "why": "RODMAN 70 on his back, Mavericks",
+  "anchor": "So he",
+  "start": 6.6
+ },
+ {
+  "clip": "B07.mp4",
+  "kind": "face",
+  "why": "Mark Cuban",
+  "anchor": "Mark Cuban",
+  "start": 7.62
+ },
+ {
+  "clip": "B08.mp4",
+  "kind": "action",
+  "why": "Mavericks game action, 2000",
+  "anchor": "The Mavs",
+  "start": 9.68
+ },
+ {
+  "clip": "B09.mp4",
+  "kind": "action",
+  "why": "Rodman No. 70 on court with the Dallas scorebug",
+  "anchor": "With Rodman,",
+  "start": 11.57
+ },
+ {
+  "clip": "B10.mp4",
+  "kind": "face",
+  "why": "Rodman, jersey off, walking off the floor through the crowd (ejected)",
+  "anchor": "He was",
+  "start": 13.24
+ },
+ {
+  "clip": "B11.mp4",
+  "kind": "face",
+  "why": "TV news report with Rodman's photo inset: released",
+  "anchor": "Five weeks",
+  "start": 14.43
+ },
+ {
+  "clip": "B12.mp4",
+  "kind": "face",
+  "why": "back to Rodman holding the 69 jersey: the only thing Dallas kept (loops to frame 1)",
+  "anchor": "The only",
+  "start": 16.43,
+  "replay": true
+ }
+]

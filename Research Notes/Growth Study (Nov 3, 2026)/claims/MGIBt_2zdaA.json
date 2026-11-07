@@ -1,0 +1,100 @@
+[
+  {
+    "claim": "TikTok tests every new video with an initial bucket of 200 to 300 viewers to measure audience metrics before scaling.",
+    "quote": "when you post a video Tik Tok will always push it to 2 to 300 people that's why it's so common that people get stuck in 200 view jail",
+    "platform": "TikTok",
+    "type": "algorithm mechanism",
+    "official": false
+  },
+  {
+    "claim": "TikTok penalizes unoriginal clips and generic AI-generated content by withholding For You page distribution.",
+    "quote": "make sure that your videos are high quality and they're original content or they're not going to be shown on the for you page Tik Tok does not want a bunch of AI generated content",
+    "platform": "TikTok",
+    "type": "algorithm mechanism",
+    "official": false
+  },
+  {
+    "claim": "Consistent daily posting causes TikTok to weigh a creator's content heavier when competing against similar videos.",
+    "quote": "if you are the consistent Creator you're the one posting every day... they are going to weigh your content heavier you're going to win that battle",
+    "platform": "TikTok",
+    "type": "algorithm mechanism",
+    "official": false
+  },
+  {
+    "claim": "Creators should post between 1 and 4 times per day, but never exceed 4 daily posts to avoid being flagged as spam.",
+    "quote": "Tik Tok actually recommends that you post one to four times per day... but I would recommend not posting more than four times",
+    "platform": "TikTok",
+    "type": "posting",
+    "official": false
+  },
+  {
+    "claim": "To categorize videos for SEO, place the target keyword in on-screen title text, caption description, hashtags, and spoken aloud in the first few seconds.",
+    "quote": "put that keyword in the title... put it in your description... use it in your hashtags and I want you to say it in the first few seconds",
+    "platform": "TikTok",
+    "type": "packaging",
+    "official": false
+  },
+  {
+    "claim": "YouTube Shorts require at least an 80% swipe-stay ('chose to view') retention rate to go viral.",
+    "quote": "if you're not getting at least 80% of the people that are served your video to stop scrolling and watch that it's not going to do well",
+    "platform": "YouTube Shorts",
+    "type": "algorithm mechanism",
+    "official": false
+  },
+  {
+    "claim": "Use text on screen at the start of every video to hook viewers scrolling on mute before relying on verbal hooks.",
+    "quote": "you need to have a title that is going to get people's interest... before they hear anything that you say",
+    "platform": "all",
+    "type": "hook",
+    "official": false
+  },
+  {
+    "claim": "End videos abruptly without verbal calls to action to boost completion rates and algorithmic reach.",
+    "quote": "abruptly ending your video get in say your peace and get out of there don't worry about the call to action",
+    "platform": "all",
+    "type": "editing",
+    "official": false
+  },
+  {
+    "claim": "Hiding off-screen text does not aid search indexing because TikTok ignores off-screen text elements.",
+    "quote": "Tik Tok has come out made an official statement saying that any text that you slide off the screen is not part of the video",
+    "platform": "TikTok",
+    "type": "packaging",
+    "official": false
+  },
+  {
+    "claim": "Posting times do not affect reach because over 90% of views originate from the For You page.",
+    "quote": "posting times do not matter... 90 plus percent of your views are going to come from the for you page",
+    "platform": "TikTok",
+    "type": "posting",
+    "official": false
+  },
+  {
+    "claim": "Taking a controversial stance generates polarizing comments that trigger algorithm distribution spikes.",
+    "quote": "being controversial just means taking a stance in your content... that controversy... can take a 1,000 view video and push it to a 100,000 people",
+    "platform": "all",
+    "type": "growth strategy",
+    "official": false
+  },
+  {
+    "claim": "Small creators should reply to every comment to build long-term viewer retention and encourage secondary comment threads.",
+    "quote": "respond to every single comment that you get... for every question that you get on a video there's probably 10 other people that watched it that had the same question",
+    "platform": "all",
+    "type": "growth strategy",
+    "official": false
+  },
+  {
+    "claim": "Accounts under 10k followers should fully watch, repost, and leave 5+ word non-emoji comments on niche videos to signal human behavior.",
+    "quote": "for people that have less than 10,000 followers... watch that video all the way through... repost it... leave a real comment five words or more",
+    "platform": "TikTok",
+    "type": "growth strategy",
+    "official": false
+  },
+  {
+    "claim": "Leaving the app immediately after uploading ('post and ghost') provides no distribution advantage.",
+    "quote": "posting and ghosting you do not need to do this this is not going to help your account",
+    "platform": "TikTok",
+    "type": "growth strategy",
+    "official": false
+  }
+]

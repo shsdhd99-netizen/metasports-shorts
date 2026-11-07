@@ -1,0 +1,153 @@
+{
+ "sources": {
+  "A": "src/2062882364196295171.mp4",
+  "B": "src/1268892578075807744.mp4",
+  "C": "src/2020858620531929231.mp4"
+ },
+ "shots": [
+  {
+   "clip": "P01",
+   "src": "A",
+   "at": 0.0,
+   "x": 0.45,
+   "kind": "action",
+   "why": "Pierce in a wheelchair in the TD Garden hallway, 2008 Finals Game 1 (ABC broadcast, via @SleeperCeltics on X)",
+   "len": 2.77
+  },
+  {
+   "clip": "P02",
+   "src": "A",
+   "at": 10.0,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "kind": "action",
+   "anchor": "Game 1",
+   "why": "Celtics v Lakers, Game 1 2008, wide (same broadcast)",
+   "len": 2.78
+  },
+  {
+   "clip": "P03",
+   "src": "A",
+   "at": 19.6,
+   "x": 0.5,
+   "kind": "action",
+   "anchor": "He went down",
+   "why": "Pierce on the floor holding his knee, helped up (same broadcast)",
+   "len": 1.53
+  },
+  {
+   "clip": "P04",
+   "src": "A",
+   "at": 4.0,
+   "x": 0.45,
+   "kind": "action",
+   "anchor": "and they wheeled",
+   "why": "Wheeled down the hallway toward the locker room (same broadcast)",
+   "len": 1.75
+  },
+  {
+   "clip": "P05",
+   "src": "A",
+   "at": 37.0,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "kind": "action",
+   "anchor": "Minutes later",
+   "why": "Pierce jogs back onto the court to a standing ovation (same broadcast)",
+   "len": 1.81
+  },
+  {
+   "clip": "P06",
+   "src": "A",
+   "at": 57.0,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "kind": "action",
+   "anchor": "scored 11",
+   "why": "Pierce hits a three after returning, 3rd quarter (same broadcast)",
+   "len": 1.44
+  },
+  {
+   "clip": "P07",
+   "src": "A",
+   "at": 75.0,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.5,
+   "kind": "action",
+   "anchor": "and Boston won",
+   "why": "The final seconds of Game 1, Celtics win 98-88 (same broadcast)",
+   "len": 1.2
+  },
+  {
+   "clip": "P08",
+   "src": "A",
+   "at": 59.8,
+   "x": 0.5,
+   "kind": "face",
+   "anchor": "He was named",
+   "why": "Pierce yelling after his three (same broadcast)",
+   "len": 2.0
+  },
+  {
+   "clip": "P09",
+   "src": "B",
+   "at": 11.0,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.32,
+   "kind": "quote",
+   "anchor": "Eleven years later",
+   "why": "ESPN NBA Countdown, June 2019 (11 years to the day, per Michelle Beadle): Pierce says 'I have a confession to make' (via @Ballislife on X)",
+   "len": 2.56
+  },
+  {
+   "clip": "P10",
+   "src": "B",
+   "at": 15.93,
+   "x": 0.47,
+   "kind": "quote",
+   "anchor": "I just had",
+   "why": "Pierce close-up: 'I just had to go to the bathroom.' (same clip) Real-audio version: Pierce's own voice, lip-synced.",
+   "lead": 0.03,
+   "len": 1.99
+  },
+  {
+   "clip": "P11",
+   "src": "C",
+   "at": 8.2,
+   "x": 0.5,
+   "kind": "face",
+   "anchor": "This year",
+   "why": "Pierce on the NFG Show podcast, Feb 2026, laughing about the wheelchair (via @Fullcourtpass on X)",
+   "len": 2.21
+  },
+  {
+   "clip": "P12",
+   "src": "C",
+   "at": 1.79,
+   "blurfit": true,
+   "blurfit_aspect": 0.75,
+   "x": 0.3,
+   "kind": "quote",
+   "anchor": "Who asked for",
+   "why": "Pierce: 'who asked for the wheelchair? Did y'all see me ask for a wheelchair?' (same clip) Real-audio version: Pierce's own voice, lip-synced.",
+   "lead": 0.03,
+   "len": 1.79
+  },
+  {
+   "clip": "P13",
+   "src": "C",
+   "at": 31.43,
+   "x": 0.5,
+   "kind": "quote",
+   "anchor": "Like why would",
+   "why": "Pierce close-up: 'why would I take a wheelchair to go use the bathroom?' (same clip, about 26-41 s) Real-audio version: Pierce's own voice, lip-synced.",
+   "lead": 0.03,
+   "len": 4.79
+  }
+ ]
+}

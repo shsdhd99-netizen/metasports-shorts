@@ -1,0 +1,103 @@
+{
+ "length_s": 31.42,
+ "topic": "A crying young fan who thought Jaylen Brown was traded gets surprised by meeting him in real life.",
+ "lane": "moment",
+ "hook": {
+  "first_words": "When this young fan found out his favorite player was traded, he burst into tears.",
+  "first_frame": "A young boy in a green jersey crying holding a sign.",
+  "on_screen_text_0_3s": "When this young fan found out his favorite player was traded, he burst into tears.",
+  "shots_in_first_3s": 2
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 2.29,
+   "shows": "Crying boy holding a sign",
+   "kind": "face"
+  },
+  {
+   "start_s": 2.29,
+   "end_s": 6.13,
+   "shows": "Crying boy talking to camera, man watching from porch",
+   "kind": "action"
+  },
+  {
+   "start_s": 6.13,
+   "end_s": 23.3,
+   "shows": "Boy crying and speaking to camera",
+   "kind": "face"
+  },
+  {
+   "start_s": 23.3,
+   "end_s": 27.53,
+   "shows": "Boy crying with comment overlay",
+   "kind": "screenshot"
+  },
+  {
+   "start_s": 27.53,
+   "end_s": 31.42,
+   "shows": "Boy meeting Jaylen Brown and getting lifted up",
+   "kind": "action"
+  }
+ ],
+ "shot_count": 5,
+ "average_shot_s": 6.28,
+ "longest_shot_s": 17.17,
+ "voice": {
+  "type": "AI",
+  "gender": "male",
+  "words_per_minute_estimate": 145,
+  "tone": "sentimental",
+  "original_audio_under_voice": true
+ },
+ "music": {
+  "present": true,
+  "style": "emotional piano",
+  "level_vs_voice": "quiet",
+  "starts_at_s": 0.0
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": true,
+  "words_per_line": 3,
+  "case": "sentence",
+  "position": "middle",
+  "colours": "white",
+  "highlight_style": "none"
+ },
+ "text_overlays": [],
+ "cards_or_graphics": 1,
+ "framing": "crop",
+ "ending": {
+  "last_words": "meeting him in real life.",
+  "last_frame": "Jaylen Brown lifting the boy in the air.",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "When this young fan found out his favorite player was traded, he burst into tears. As he would leave this message for his favorite player, Jaylen Brown. However after this video went viral, it got the attention of Jaylen Brown who left a comment, and just a couple days later, he would surprise his biggest fan, meeting him in real life.",
+ "retention_tricks": [
+  "emotional hook in first second",
+  "open loop about trade rumor",
+  "payoff at the end with meeting"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": true,
+  "ends_on_payoff": true,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "High emotion hook showing genuine tears",
+  "Relatable and heartwarming internet story arc",
+  "Satisfying payoff ending with the surprise meeting"
+ ],
+ "_meta": {
+  "source": "a_y5PAVMnNw",
+  "model": "gemini-3.5-flash-lite",
+  "fps": 4.0,
+  "watched": "2026-10-27",
+  "tier": "[S] model-observed, not measured"
+ }
+}

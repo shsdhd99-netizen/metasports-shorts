@@ -1,0 +1,93 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,TikTok Sans SemiBold,80,&H00FFFFFF,&H00FFFFFF,&H00000000,&H99000000,0,0,0,0,100,100,0,0,1,3.2,1,5,70,70,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:03.10,Cap,,0,0,0,,{\pos(540,960)\blur0.5\fscx58\fscy58}Manchester United's penalty NIGHTMARE\Nis now saving MANCHESTER CITY
+Dialogue: 0,0:00:03.10,0:00:04.54,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Back in 2021,
+Dialogue: 0,0:00:04.54,0:00:05.33,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Gerónimo Rulli
+Dialogue: 0,0:00:05.33,0:00:05.83,Cap,,0,0,0,,{\pos(540,960)\blur0.5}was in goal
+Dialogue: 0,0:00:05.83,0:00:06.69,Cap,,0,0,0,,{\pos(540,960)\blur0.5}for Villarreal
+Dialogue: 0,0:00:06.69,0:00:07.26,Cap,,0,0,0,,{\pos(540,960)\blur0.5}in the Europa
+Dialogue: 0,0:00:07.26,0:00:07.85,Cap,,0,0,0,,{\pos(540,960)\blur0.5}League final,
+Dialogue: 0,0:00:07.85,0:00:08.19,Cap,,0,0,0,,{\pos(540,960)\blur0.5}against
+Dialogue: 0,0:00:08.19,0:00:08.99,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Manchester United.
+Dialogue: 0,0:00:08.99,0:00:10.00,Cap,,0,0,0,,{\pos(540,960)\blur0.5}1-1 after extra
+Dialogue: 0,0:00:10.00,0:00:10.52,Cap,,0,0,0,,{\pos(540,960)\blur0.5}time, so,
+Dialogue: 0,0:00:10.52,0:00:11.15,Cap,,0,0,0,,{\pos(540,960)\blur0.5}penalties.
+Dialogue: 0,0:00:11.15,0:00:12.09,Cap,,0,0,0,,{\pos(540,960)\blur0.5}And nobody missed.
+Dialogue: 0,0:00:12.09,0:00:12.61,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Five each.
+Dialogue: 0,0:00:12.61,0:00:13.26,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Then ten each.
+Dialogue: 0,0:00:13.26,0:00:13.83,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Every outfield
+Dialogue: 0,0:00:13.83,0:00:14.45,Cap,,0,0,0,,{\pos(540,960)\blur0.5}player on both
+Dialogue: 0,0:00:14.45,0:00:15.15,Cap,,0,0,0,,{\pos(540,960)\blur0.5}teams scored.
+Dialogue: 0,0:00:15.15,0:00:15.41,Cap,,0,0,0,,{\pos(540,960)\blur0.5}So it
+Dialogue: 0,0:00:15.41,0:00:15.86,Cap,,0,0,0,,{\pos(540,960)\blur0.5}came down
+Dialogue: 0,0:00:15.86,0:00:16.77,Cap,,0,0,0,,{\pos(540,960)\blur0.5}to the goalkeepers.
+Dialogue: 0,0:00:16.77,0:00:17.35,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Rulli stepped
+Dialogue: 0,0:00:17.35,0:00:18.05,Cap,,0,0,0,,{\pos(540,960)\blur0.5}up and scored.
+Dialogue: 0,0:00:18.05,0:00:18.56,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Then David de
+Dialogue: 0,0:00:18.56,0:00:19.47,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Gea walked up.
+Dialogue: 0,0:00:19.47,0:00:19.84,Cap,,0,0,0,,{\pos(540,960)\blur0.5}He hadn't
+Dialogue: 0,0:00:19.84,0:00:20.58,Cap,,0,0,0,,{\pos(540,960)\blur0.5}saved a single
+Dialogue: 0,0:00:20.58,0:00:21.48,Cap,,0,0,0,,{\pos(540,960)\blur0.5}kick all night.
+Dialogue: 0,0:00:21.48,0:00:21.83,Cap,,0,0,0,,{\pos(540,960)\blur0.5}In fact,
+Dialogue: 0,0:00:21.83,0:00:22.14,Cap,,0,0,0,,{\pos(540,960)\blur0.5}he hadn't
+Dialogue: 0,0:00:22.14,0:00:22.71,Cap,,0,0,0,,{\pos(540,960)\blur0.5}saved a penalty
+Dialogue: 0,0:00:22.71,0:00:23.41,Cap,,0,0,0,,{\pos(540,960)\blur0.5}in five years.
+Dialogue: 0,0:00:23.41,0:00:23.77,Cap,,0,0,0,,{\pos(540,960)\blur0.5}He'd let
+Dialogue: 0,0:00:23.77,0:00:24.25,Cap,,0,0,0,,{\pos(540,960)\blur0.5}in the last
+Dialogue: 0,0:00:24.25,0:00:25.29,Cap,,0,0,0,,{\pos(540,960)\blur0.5}36 he faced.
+Dialogue: 0,0:00:25.29,0:00:25.93,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Rulli dived,
+Dialogue: 0,0:00:25.93,0:00:26.59,Cap,,0,0,0,,{\pos(540,960)\blur0.5}and saved it.
+Dialogue: 0,0:00:26.59,0:00:27.34,Cap,,0,0,0,,{\pos(540,960)\blur0.5}11-10.
+Dialogue: 0,0:00:27.34,0:00:28.27,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Villarreal's first
+Dialogue: 0,0:00:28.27,0:00:28.98,Cap,,0,0,0,,{\pos(540,960)\blur0.5}major trophy,
+Dialogue: 0,0:00:28.98,0:00:29.36,Cap,,0,0,0,,{\pos(540,960)\blur0.5}ever.
+Dialogue: 0,0:00:29.36,0:00:30.12,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Twenty-one penalties
+Dialogue: 0,0:00:30.12,0:00:30.60,Cap,,0,0,0,,{\pos(540,960)\blur0.5}in a row,
+Dialogue: 0,0:00:30.60,0:00:31.36,Cap,,0,0,0,,{\pos(540,960)\blur0.5}and the twenty-second
+Dialogue: 0,0:00:31.36,0:00:32.47,Cap,,0,0,0,,{\pos(540,960)\blur0.5}ended United's final.
+Dialogue: 0,0:00:32.47,0:00:33.06,Cap,,0,0,0,,{\pos(540,960)\blur0.5}This summer,
+Dialogue: 0,0:00:33.06,0:00:33.65,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Manchester City
+Dialogue: 0,0:00:33.65,0:00:34.29,Cap,,0,0,0,,{\pos(540,960)\blur0.5}signed Rulli
+Dialogue: 0,0:00:34.29,0:00:35.48,Cap,,0,0,0,,{\pos(540,960)\blur0.5\fscx92\fscy92}as Donnarumma's backup.
+Dialogue: 0,0:00:35.48,0:00:36.09,Cap,,0,0,0,,{\pos(540,960)\blur0.5}In October,
+Dialogue: 0,0:00:36.09,0:00:36.56,Cap,,0,0,0,,{\pos(540,960)\blur0.5}City were the
+Dialogue: 0,0:00:36.56,0:00:37.45,Cap,,0,0,0,,{\pos(540,960)\blur0.5}League Cup holders,
+Dialogue: 0,0:00:37.45,0:00:37.77,Cap,,0,0,0,,{\pos(540,960)\blur0.5}at home
+Dialogue: 0,0:00:37.77,0:00:38.22,Cap,,0,0,0,,{\pos(540,960)\blur0.5}to Brighton,
+Dialogue: 0,0:00:38.22,0:00:38.70,Cap,,0,0,0,,{\pos(540,960)\blur0.5}with Rulli
+Dialogue: 0,0:00:38.70,0:00:39.20,Cap,,0,0,0,,{\pos(540,960)\blur0.5}in goal.
+Dialogue: 0,0:00:39.20,0:00:39.49,Cap,,0,0,0,,{\pos(540,960)\blur0.5}They came
+Dialogue: 0,0:00:39.49,0:00:40.48,Cap,,0,0,0,,{\pos(540,960)\blur0.5}from behind twice
+Dialogue: 0,0:00:40.48,0:00:41.37,Cap,,0,0,0,,{\pos(540,960)\blur0.5}to draw 2-2.
+Dialogue: 0,0:00:41.37,0:00:42.19,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Another shootout.
+Dialogue: 0,0:00:42.19,0:00:43.14,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Mateo Kovačić,
+Dialogue: 0,0:00:43.14,0:00:43.62,Cap,,0,0,0,,{\pos(540,960)\blur0.5}who'd scored
+Dialogue: 0,0:00:43.62,0:00:44.46,Cap,,0,0,0,,{\pos(540,960)\blur0.5}City's first goal,
+Dialogue: 0,0:00:44.46,0:00:45.04,Cap,,0,0,0,,{\pos(540,960)\blur0.5}had his penalty
+Dialogue: 0,0:00:45.04,0:00:45.44,Cap,,0,0,0,,{\pos(540,960)\blur0.5}saved,
+Dialogue: 0,0:00:45.44,0:00:45.83,Cap,,0,0,0,,{\pos(540,960)\blur0.5}and City
+Dialogue: 0,0:00:45.83,0:00:46.48,Cap,,0,0,0,,{\pos(540,960)\blur0.5}fell behind.
+Dialogue: 0,0:00:46.48,0:00:47.31,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Then Rulli saved
+Dialogue: 0,0:00:47.31,0:00:48.25,Cap,,0,0,0,,{\pos(540,960)\blur0.5}from Yasin Ayari.
+Dialogue: 0,0:00:48.25,0:00:48.76,Cap,,0,0,0,,{\pos(540,960)\blur0.5}Then he saved
+Dialogue: 0,0:00:48.76,0:00:49.48,Cap,,0,0,0,,{\pos(540,960)\blur0.5}from Lewis Dunk.
+Dialogue: 0,0:00:49.48,0:00:50.62,Cap,,0,0,0,,{\pos(540,960)\blur0.5}City won 4-3.
+Dialogue: 0,0:00:50.62,0:00:50.91,Cap,,0,0,0,,{\pos(540,960)\blur0.5}But here's
+Dialogue: 0,0:00:50.91,0:00:51.59,Cap,,0,0,0,,{\pos(540,960)\blur0.5}the funny part.
+Dialogue: 0,0:00:51.59,0:00:52.21,Cap,,0,0,0,,{\pos(540,960)\blur0.5}City had already
+Dialogue: 0,0:00:52.21,0:00:52.91,Cap,,0,0,0,,{\pos(540,960)\blur0.5}signed him once,
+Dialogue: 0,0:00:52.91,0:00:53.84,Cap,,0,0,0,,{\pos(540,960)\blur0.5}back in 2016.
+Dialogue: 0,0:00:53.84,0:00:54.43,Cap,,0,0,0,,{\pos(540,960)\blur0.5}He left without
+Dialogue: 0,0:00:54.43,0:00:55.03,Cap,,0,0,0,,{\pos(540,960)\blur0.5}playing a single
+Dialogue: 0,0:00:55.03,0:00:55.97,Cap,,0,0,0,,{\pos(540,960)\blur0.5}game for them.

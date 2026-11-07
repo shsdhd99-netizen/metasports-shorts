@@ -1,0 +1,297 @@
+[
+ {
+  "word": "LeBron",
+  "start": 0.0,
+  "end": 0.308
+ },
+ {
+  "word": "James",
+  "start": 0.369,
+  "end": 0.615
+ },
+ {
+  "word": "has",
+  "start": 0.677,
+  "end": 0.738
+ },
+ {
+  "word": "turned",
+  "start": 0.8,
+  "end": 0.923
+ },
+ {
+  "word": "the",
+  "start": 0.985,
+  "end": 1.015
+ },
+ {
+  "word": "ball",
+  "start": 1.046,
+  "end": 1.169
+ },
+ {
+  "word": "over",
+  "start": 1.231,
+  "end": 1.415
+ },
+ {
+  "word": "more",
+  "start": 1.477,
+  "end": 1.538
+ },
+ {
+  "word": "than",
+  "start": 1.6,
+  "end": 1.846
+ },
+ {
+  "word": "anyone",
+  "start": 1.969,
+  "end": 2.215
+ },
+ {
+  "word": "in",
+  "start": 2.277,
+  "end": 2.4
+ },
+ {
+  "word": "NBA",
+  "start": 2.462,
+  "end": 2.769
+ },
+ {
+  "word": "history.",
+  "start": 2.892,
+  "end": 3.371
+ },
+ {
+  "word": "5,650.",
+  "start": 3.463,
+  "end": 4.967
+ },
+ {
+  "word": "And",
+  "start": 5.059,
+  "end": 5.152
+ },
+ {
+  "word": "he's",
+  "start": 5.213,
+  "end": 5.459
+ },
+ {
+  "word": "fourth",
+  "start": 5.521,
+  "end": 5.705
+ },
+ {
+  "word": "all-time",
+  "start": 5.767,
+  "end": 6.136
+ },
+ {
+  "word": "in",
+  "start": 6.167,
+  "end": 6.198
+ },
+ {
+  "word": "assists.",
+  "start": 6.29,
+  "end": 6.939
+ },
+ {
+  "word": "Second",
+  "start": 7.062,
+  "end": 7.185
+ },
+ {
+  "word": "in",
+  "start": 7.247,
+  "end": 7.308
+ },
+ {
+  "word": "turnovers",
+  "start": 7.401,
+  "end": 7.739
+ },
+ {
+  "word": "is",
+  "start": 7.801,
+  "end": 7.862
+ },
+ {
+  "word": "Russell",
+  "start": 7.924,
+  "end": 8.108
+ },
+ {
+  "word": "Westbrook:",
+  "start": 8.17,
+  "end": 8.785
+ },
+ {
+  "word": "5,038.",
+  "start": 8.847,
+  "end": 9.899
+ },
+ {
+  "word": "The",
+  "start": 9.93,
+  "end": 9.961
+ },
+ {
+  "word": "NBA",
+  "start": 10.022,
+  "end": 10.392
+ },
+ {
+  "word": "didn't",
+  "start": 10.453,
+  "end": 10.545
+ },
+ {
+  "word": "even",
+  "start": 10.576,
+  "end": 10.761
+ },
+ {
+  "word": "count",
+  "start": 10.822,
+  "end": 11.007
+ },
+ {
+  "word": "them",
+  "start": 11.068,
+  "end": 11.13
+ },
+ {
+  "word": "before",
+  "start": 11.253,
+  "end": 11.376
+ },
+ {
+  "word": "1977.",
+  "start": 11.407,
+  "end": 12.418
+ },
+ {
+  "word": "So",
+  "start": 12.542,
+  "end": 12.665
+ },
+ {
+  "word": "is",
+  "start": 12.726,
+  "end": 12.788
+ },
+ {
+  "word": "he",
+  "start": 12.849,
+  "end": 12.911
+ },
+ {
+  "word": "careless?",
+  "start": 13.003,
+  "end": 13.531
+ },
+ {
+  "word": "No.",
+  "start": 13.592,
+  "end": 13.885
+ },
+ {
+  "word": "LeBron",
+  "start": 13.946,
+  "end": 14.254
+ },
+ {
+  "word": "turns",
+  "start": 14.315,
+  "end": 14.438
+ },
+ {
+  "word": "it",
+  "start": 14.469,
+  "end": 14.5
+ },
+ {
+  "word": "over",
+  "start": 14.562,
+  "end": 14.746
+ },
+ {
+  "word": "3.5",
+  "start": 14.808,
+  "end": 15.238
+ },
+ {
+  "word": "times",
+  "start": 15.362,
+  "end": 15.485
+ },
+ {
+  "word": "a",
+  "start": 15.515,
+  "end": 15.546
+ },
+ {
+  "word": "game.",
+  "start": 15.608,
+  "end": 15.942
+ },
+ {
+  "word": "Westbrook:",
+  "start": 16.034,
+  "end": 16.557
+ },
+ {
+  "word": "3.9.",
+  "start": 16.618,
+  "end": 17.404
+ },
+ {
+  "word": "LeBron",
+  "start": 17.445,
+  "end": 17.671
+ },
+ {
+  "word": "just",
+  "start": 17.794,
+  "end": 17.917
+ },
+ {
+  "word": "played",
+  "start": 17.978,
+  "end": 18.163
+ },
+ {
+  "word": "more",
+  "start": 18.225,
+  "end": 18.348
+ },
+ {
+  "word": "minutes",
+  "start": 18.409,
+  "end": 18.594
+ },
+ {
+  "word": "than",
+  "start": 18.717,
+  "end": 18.84
+ },
+ {
+  "word": "anyone,",
+  "start": 18.963,
+  "end": 19.394
+ },
+ {
+  "word": "ever:",
+  "start": 19.517,
+  "end": 19.889
+ },
+ {
+  "word": "61,030.",
+  "start": 19.951,
+  "end": 21.489
+ }
+]

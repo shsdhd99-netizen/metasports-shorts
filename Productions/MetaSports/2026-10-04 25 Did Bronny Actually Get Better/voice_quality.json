@@ -1,0 +1,40 @@
+[
+ {
+  "name": "2026-10-04 25 Did Bronny Actua#0",
+  "dur": 14.95,
+  "voiced": 0.66,
+  "hnr": 7.4,
+  "jitter": 3.11,
+  "shimmer": 10.37,
+  "jumps": 0.0,
+  "clicks": 272.9,
+  "hf": 4.68,
+  "f0_med": 205.0,
+  "verdict": "REDO",
+  "problems": [
+   "HNR 7.4 dB (noisy/robotic)",
+   "jitter 3.11% (shaky)",
+   "shimmer 10.37% (uneven loudness)",
+   "272.9 clicks/min"
+  ]
+ },
+ {
+  "name": "2026-10-04 25 Did Bronny Actua#2",
+  "dur": 6.94,
+  "voiced": 0.64,
+  "hnr": 7.6,
+  "jitter": 3.18,
+  "shimmer": 10.63,
+  "jumps": 0.14,
+  "clicks": 1029.3,
+  "hf": 4.17,
+  "f0_med": 221.0,
+  "verdict": "REDO",
+  "problems": [
+   "HNR 7.6 dB (noisy/robotic)",
+   "jitter 3.18% (shaky)",
+   "shimmer 10.63% (uneven loudness)",
+   "1029.3 clicks/min"
+  ]
+ }
+]

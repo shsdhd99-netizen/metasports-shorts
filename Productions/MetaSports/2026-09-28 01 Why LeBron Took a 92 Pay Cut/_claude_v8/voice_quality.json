@@ -1,0 +1,21 @@
+[
+ {
+  "name": "_claude_v8",
+  "dur": 23.36,
+  "voiced": 0.71,
+  "hnr": 8.9,
+  "jitter": 2.71,
+  "shimmer": 10.45,
+  "jumps": 0.0,
+  "clicks": 326.2,
+  "hf": 4.31,
+  "f0_med": 216.0,
+  "verdict": "REDO",
+  "problems": [
+   "HNR 8.9 dB (noisy/robotic)",
+   "jitter 2.71% (shaky)",
+   "shimmer 10.45% (uneven loudness)",
+   "326.2 clicks/min"
+  ]
+ }
+]

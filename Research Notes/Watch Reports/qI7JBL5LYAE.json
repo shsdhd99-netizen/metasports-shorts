@@ -1,0 +1,96 @@
+{
+ "length_s": 9.2,
+ "topic": "A boy tries to knock loose a stuck basketball with his shoe, but the shoe ends up landing and balancing perfectly on top of the backboard.",
+ "lane": "moment",
+ "hook": {
+  "first_words": "none",
+  "first_frame": "A basketball stuck in the net/rim frame against an outdoor backboard with a boy holding a shoe below",
+  "on_screen_text_0_3s": "This is just UNLUCKY 💀",
+  "shots_in_first_3s": 1
+ },
+ "shots": [
+  {
+   "start_s": 0.0,
+   "end_s": 8.3,
+   "shows": "Boy throws his shoe at a stuck basketball, misses, and the shoe lands balanced on top of the backboard as the camera zooms in",
+   "kind": "action"
+  },
+  {
+   "start_s": 8.3,
+   "end_s": 8.5,
+   "shows": "White flash cut transition",
+   "kind": "other"
+  },
+  {
+   "start_s": 8.5,
+   "end_s": 9.2,
+   "shows": "Streamer reaction shot holding hands in prayer pose in disbelief",
+   "kind": "face"
+  }
+ ],
+ "shot_count": 3,
+ "average_shot_s": 3.07,
+ "longest_shot_s": 8.3,
+ "voice": {
+  "type": "none",
+  "gender": "none",
+  "words_per_minute_estimate": 0,
+  "tone": "none",
+  "original_audio_under_voice": false
+ },
+ "music": {
+  "present": true,
+  "style": "Operatic vocal choir / meme chant",
+  "level_vs_voice": "loud",
+  "starts_at_s": 3.8
+ },
+ "sound_effects": [],
+ "captions": {
+  "present": false,
+  "words_per_line": "none",
+  "case": "none",
+  "position": "none",
+  "colours": "none",
+  "highlight_style": "none"
+ },
+ "text_overlays": [
+  {
+   "at_s": 0.0,
+   "text": "This is just UNLUCKY 💀"
+  }
+ ],
+ "cards_or_graphics": 0,
+ "framing": "letterbox",
+ "ending": {
+  "last_words": "none",
+  "last_frame": "Streamer wearing headphones with hands pressed together in shock",
+  "loops_to_start": false,
+  "call_to_action": "none"
+ },
+ "script": "",
+ "retention_tricks": [
+  "Dramatic zoom into the shoe balancing on top of the backboard",
+  "Dramatic operatic music swell synced to the shoe landing",
+  "Humorous reaction cut at the climax"
+ ],
+ "subject_visible_0_1s": true,
+ "devices": {
+  "countdown_or_ranking": false,
+  "replay_of_key_moment": false,
+  "promise_in_first_line": false,
+  "ends_on_payoff": true,
+  "reaction_shot": true
+ },
+ "what_makes_it_work": [
+  "One-in-a-million improbable outcome where attempting to solve a problem makes it comically worse",
+  "Camera smoothly zooms in on the impossible balance of the shoe to highlight the absurdity",
+  "Choral audio cue builds tension and delivers instant comedic punch"
+ ],
+ "_meta": {
+  "source": "qI7JBL5LYAE",
+  "model": "gemini-3.8-flash",
+  "fps": 4.0,
+  "watched": "2026-11-02",
+  "tier": "[S] model-observed, not measured"
+ }
+}

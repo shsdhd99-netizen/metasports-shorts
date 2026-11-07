@@ -1,0 +1,38 @@
+[
+ {
+  "take": 1,
+  "ok": false,
+  "score": 4.5,
+  "verdict": "CHECK",
+  "issues": [],
+  "wpm": 161,
+  "hnr": 8.3,
+  "jitter": 3.05,
+  "shimmer": 11.6,
+  "dur": 22.98
+ },
+ {
+  "take": 2,
+  "ok": false,
+  "score": 3.7,
+  "verdict": "CHECK",
+  "issues": [],
+  "wpm": 171,
+  "hnr": 7.8,
+  "jitter": 3.25,
+  "shimmer": 12.2,
+  "dur": 21.66
+ },
+ {
+  "take": 3,
+  "ok": false,
+  "score": 4.2,
+  "verdict": "CHECK",
+  "issues": [],
+  "wpm": 164,
+  "hnr": 8.0,
+  "jitter": 2.87,
+  "shimmer": 11.61,
+  "dur": 22.64
+ }
+]

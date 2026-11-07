@@ -1,0 +1,7 @@
+Voice check: REDO   (98 words, 23.5s, 250 wpm)
+  REDO  19.00s  script "point" but heard "(nothing)"
+  note   4.24s  script "threes" but heard "3s"
+  note  17.68s  script "anunoby" but heard "ananobe"
+  note  20.24s  "a 100 7" heard as "107" (close; check the name)
+  note  20.86s  "a 100 6" heard as "106" (close; check the name)
+  heard: The Spurs led the NBA Finals by 29 points and lost. They hit a finals record 14 -3s in the first half and led by 27 at the break. But the Knicks started chasing. San Antonio went 3 for 17 from deep in the second half. Since 1997, nobody had come back from more than 24 down in a finals game. Then Brunson launched a long 3 to win it and missed. But OG Ananobe tipped it in with 1 .2 seconds left. 107 to 106, the biggest comeback in finals history.

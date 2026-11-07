@@ -1,0 +1,17 @@
+{
+ "verdict": "PASS",
+ "wpm": 245,
+ "issues": [],
+ "notes": [
+  "20.96s  \"30 5\" heard as \"35\" (close; check the name)"
+ ],
+ "heard": "The Clippers gave up 10 first-round picks for Kawhi Leonard. Now Toronto just paid two more to take him back. Kawhi won the Raptors' only title in 2019, then left after one season. This month, Toronto sent Brandon Ingram, Gradey Dick, two unprotected firsts, a pick swap, and two seconds to the Clippers. But here's the twist. Five of those Clippers picks were taken by the NBA, along with a $30 million fine and a one-year suspension for owner Steve Ballmer over how they paid Kawhi. Now he's 35, so is Toronto buying a championship or paying for 2019?",
+ "mismatches": [
+  {
+   "at": 20.96,
+   "script": "30 5",
+   "heard": "35",
+   "similar": 0.8
+  }
+ ]
+}
