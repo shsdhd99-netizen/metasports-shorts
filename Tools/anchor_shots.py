@@ -24,29 +24,19 @@ def main():
     F = a.folder
     shots = json.load(open(os.path.join(F, "shots.json"), encoding="utf-8"))
     words = json.load(open(os.path.join(F, "words.json"), encoding="utf-8"))
-    nw, owner = [], []  # one token per spoken token (a words.json entry like "GTA 6" or "$30 million" can hold several)
-    for wi, w in enumerate(words):
-        for t in w["word"].split():
-            if norm(t):
-                nw.append(norm(t))
-                owner.append(wi)
-    pos = 0
+    # Nov 7: one matcher for every tool (Tools/anchors.py), so fill_len / cut_list / precut_lint pin shots to the same words
+    import sys
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    from anchors import starts_for
+    starts, problems = starts_for(shots, words)
+    for p in problems:
+        print(" ", p)
+    bad = [p for p in problems if p.startswith("FIX")]
+    if bad:
+        raise SystemExit(bad[0])
     for i, s in enumerate(shots):
-        ph = s.get("anchor")
-        if not ph:
-            if i == 0:
-                s["start"] = 0.0
-            continue
-        toks = [norm(t) for t in ph.split() if norm(t)]
-        found = None
-        for j in range(pos, len(nw) - len(toks) + 1):
-            if nw[j:j + len(toks)] == toks:
-                found = j
-                break
-        if found is None:
-            raise SystemExit(f"shot {i} ({s.get('clip')}): anchor '{ph}' not found after word {pos}")
-        s["start"] = 0.0 if i == 0 else round(max(0.0, words[owner[found]]["start"] - s.get("lead", 0.03)), 2)
-        pos = found
+        if starts[i] is not None:
+            s["start"] = starts[i]
     prev = -1
     for i, s in enumerate(shots):
         if s["start"] <= prev:

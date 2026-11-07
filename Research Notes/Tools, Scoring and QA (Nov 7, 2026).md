@@ -43,8 +43,8 @@ This page is the map. Every tool runs from the repo root and costs zero Claude c
 | Stage | Tool | Fails (blocks) | Warns |
 |---|---|---|---|
 | Idea | `idea_gauge.py`, `copy_check.py`, `build_gate.py` | gauge under 80%, TAKEN, no slot, a test lane without a variable (a live lab lane test counts) | |
-| Script | `script_lint.py`, `lab.py predict` | | line 1 over 11 words, readability, CTA/question ending; predicted under 35 = filler |
-| Pre-cut | `precut_lint.py` | shot 1 under 2 s | repeated source ranges |
+| Script (pre-voice gate, Nov 7) | `script_lint.py` (exit 1 on FIX), `lab.py predict` | NBA outside about 16-28 s or FC outside 185-240 words / over 59.5 s at 234 wpm, line 1 over 11 words, a filler first word, a question/CTA last line, a bare "3-0" | NBA outside 20-25 s, FC that may pass 59.5 s on a slow take, "last night", readability; predicted under 35 = filler |
+| Pre-cut | `precut_lint.py` (times shots from the anchors) | shot 1 under 2 s, an anchor not in words.json, no action shot in the first 3 s, overlay text reaching the caption band, window past the source end, no `why` | an anchor pinned mid-sentence while a later copy starts a phrase, overlays too fast to read, a shot over 6 s, repeated source ranges |
 | Picture | `edit_lint.py` (inside qa_short) | | same angle 3x in the hook, tiny hook subject, a cited scorebug cropped out |
 | Retention gate | `qa_short.py --full` (now runs on the DRAFT itself; it was silently skipped before Nov 7) | no action in the first 3 s, a filler first word, dead air, black, frozen or flat frames, broken render, quote lip sync, unverified or missing clips, loudness | NBA outside 18-27 s, payoff held under 1.8 s, time-bound words, absolute-claim words, a number shown twice |
 | Portions | `qa_portions.py` | no 2 source links, voice issues, true peak over -1 dB, a dark frame 1, placeholder title, title over 100 characters, no tags at all, tags over 490 characters, no QA PASS line | short tag list, voice CHECK, no cover |
@@ -118,7 +118,25 @@ It also refreshes `channel_daily <date>.csv`, which `state.py` and `weekly_revie
 - NBA: 650 subscribers (1,000 around Jan 17 at today's pace); 23.4K views a day, 70% of the fan-funding pace.
 - FC: 183 subscribers (500 around Jan 5).
 
-## 7. What still needs a person
+## 7. Building fast (Nov 7 efficiency pass: `python Tools/build.py`)
+Owner, Nov 7: "make processes more efficient, faster, and easier". The Nov 5 Efficiency Review found the time goes to re-cut loops and
+footage hunting, so the fixes target those.
+
+| Stage | Command | What it runs, and where it stops |
+|---|---|---|
+| Where am I? | `build.py status F` | a checklist (script, 2+ sources, UPLOAD.md, voice, cut plan, clips, verified, DRAFT, SHIP) and the next command |
+| Footage | `espn_clip.py clips --date YYYYMMDD --team LAL [--find luka]`, then `espn_clip.py get <ids> --folder F` | a game's ESPN clips by id; 1080p into `src/` with a `.url` sidecar, so sources.csv fills itself |
+| Voice | `build.py voice F` | the pre-voice gate (stops on FIX: no credits spent), voice_take, tighten_voice, the predicted score, the voice length vs the channel window |
+| Cut | `build.py cut F`, LOOK at the sheet, `build.py cut F --verified` | precut_lint (stops on FIX), cut_list (fills `len` from the anchors; no fill_len step), sources.csv links, the contact sheet |
+| Render | `build.py render F` | assemble by channel (NBA no music; FC + music while `fc-music` runs), the DRAFT names, cover.jpg, qa_final, `_hub/s.mp4` + `_hub/prev.mp4` |
+
+Tested on a copy of #99 Luka: cut plan to SHIP + Hub files in 89 s, with no hand steps. On the same Short the old way took a hand
+`fill_len` run, a re-cut for the "Last" anchor, and a hand patch of sources.csv that set every row to one ESPN link (now fixed: 6 different clips).
+
+**Health:** `python Tools/tool_check.py` compiles all 111 tools on the running Python and runs the self-tests and read-only smoke runs
+(about 3 s). Run it on Sundays and after editing a tool: the Python 3.11 break in `test_log.py` had silently switched off build_gate's lane check.
+
+## 8. What still needs a person
 - Approving a Short if you want to (the card's `**Approved:** yes` line plus `schedule_ready.py --require-approved`).
 - Pinning comments (optional now).
 - The Monday Studio export ("stayed to watch" for both channels: the lab's best metric).

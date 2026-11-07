@@ -356,3 +356,13 @@ STATUS: no build. The Sat Nov 7 3:30 PM slot already has a cloud-built DRAFT (#9
 
 ## Sat Nov 7: FC gap-fill (PC account 1)
 AUTO: fc Mon Nov 9 12:00 ET skipped (best idea rated 36%). STATUS: no build. Gap open; S30 Kane was already used as the Nov 6/7 7:30 PM test slot, S31 and S32 have scripts only and are TAKEN / unverified (S32 1998 table line needs a 2nd source; S31 footage untested), and S21 Higuita gauges 36% (famous clip, England upload 7.5M, Netflix doc; no live hook, no lightning rod). Gate for S21 would also fail on BUILDER.txt=cloud (skill safety-net exception applies, but the gauge decides). No credits spent. Next builder: either research a fresher keeper-trick story with a current hook for Mon 12:00, or run the gauge on S32 (Hull walker) after finding the second source for the 1998 table line.
+
+## Sat Nov 7, evening: efficiency pass (cloud)
+STATUS: tools made faster and safer; nothing built, voiced, uploaded or scheduled. Owner: "make processes more efficient, faster, and easier".
+- **One command per stage:** `Tools/build.py status|voice|cut|render F` (tested on a copy of #99: cut plan to SHIP + Hub files in 89 s).
+- **No wasted voice credits:** `script_lint.py` is the pre-voice gate (exit 1 on FIX; length from the measured 234 wpm on 45 built Shorts). It trimmed S43 (232 to 224 words, it would have run about 59.8 s).
+- **No anchor re-cuts:** one cue-word matcher (`Tools/anchors.py`) for anchor_shots, fill_len, cut_list and precut_lint; it warns on the #99 "Last" pattern. cut_list fills missing `len` itself.
+- **Sources fill themselves:** cut_list writes each clip's link (cuts.json `urls`, `.url` sidecars, file names). Fixed #99's sources.csv: every row had been hand-set to one ESPN link; now the 6 real clips.
+- **Footage faster:** `Tools/espn_clip.py` lists a game's ESPN clips and downloads 1080p with the link.
+- **Health:** `Tools/tool_check.py` (all 111 tools compile on Python 3.11; self-tests; smoke runs). It caught a gap in the new anchor warning before it shipped. Earlier today `test_log.py` was broken on 3.11 (build_gate skipped the lane check); fixed.
+- **Less QA noise:** footage_qc's blown-up/soft warnings are one line per Short (were 389 lines in 14 Shorts).

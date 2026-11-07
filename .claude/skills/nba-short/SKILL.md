@@ -9,6 +9,8 @@ description: >
 ---
 
 > **NOV 7, 2026 (owner approved the Theory Ranking): this block wins over everything below.** Rules: THE RULES in `MetaSports - Playbook.md` (N1-N3, S1-S3, E1-E7, P1-P5). In short: lanes in order are family/kid/rookie, last night's moment you can watch, "Who has ___ the most in NBA history?" lists and star chases; **20-25 s**; line 1 is 11 words or fewer; no music; title is short and searchable (a statement or Why/How/What, as the `nba-opener` test assigns); **pinned comment optional (a source line), no debate question**; tags filled by `tags_fit.py`. **Before scripting run `python Tools/lab.py assign nba --folder "<folder>"` and build every arm it prints.** Scrapped: cut-count/shot-length/clip-count/one-source rules, pace targets, the 30-35 s test.
+>
+> **Nov 7 (efficiency pass):** before any voice, `python Tools/script_lint.py "<folder>/script.txt"` must print `PRE-VOICE GATE: PASS` (20-25 s is 78-97 words at the measured 234 wpm; line 1 of 11 words or fewer; no filler opener; no question/CTA last line; scores in braces like `{3-0|three-nil}`). Then build with `python Tools/build.py voice|cut|render "<folder>"` (`build.py status` shows the next step); `cuts_plan.json` needs no `len` (cut_list fills it from the anchors).
 
 > **Full Review (Nov 1, 2026) - read before building** (`Research Notes/Full Review for Retention (Nov 2026).md`; THE RULES §0 in `MetaSports - Playbook.md`):
 > 1. The edit is not what separates 3K from 30K; the **premise** and the **first 1-3 s** are. Run `python Tools/idea_gauge.py` on the idea and skip flop shapes (rules, record counts, hypotheticals, lesser-name lists).

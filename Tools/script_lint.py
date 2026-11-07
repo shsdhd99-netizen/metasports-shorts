@@ -7,11 +7,24 @@ hook flags calibrated on the Oct 15 Studio export: number-led, list-like, no abs
 numbers per sentence (stacked numbers are hard to hear), jargon a casual fan may not know, names missing from
 pronunciation.json, contractions, sentence-length spread, repeated content words, and endings that ask a question or a CTA.
 Each finding is a RISK for the critic to weigh, not a verdict.
+
+Nov 7 (efficiency review): it is also the PRE-VOICE GATE. FIX lines mean "do not spend voice credits yet" and the exit code is 1:
+  - length from the house pace measured on 45 built Shorts after tighten_voice (median 234 wpm, range 220-250, both channels):
+    NBA FIX outside about 16-28 s, warn outside 20-25 s (rule S2); FC FIX over 240 or under 185 words, warn if it may pass 59.5 s or
+    fall under 50 s (rule F2; qa_short fails a story outside 50-59.9 s);
+  - line 1 over 11 words (rule S1); a filler first word (qa_short fails it); a last line that asks a question or a CTA (rules: end on
+    the payoff); a score or range written "3-0" outside braces (the voice says "three minus zero": write {3-0|three-nil});
+  - warn: time-bound words ("last night"; qa_final fails them 30 h after the voice), and the lab's predicted score (under 35 = filler).
+  python Tools/script_lint.py "<folder>/script.txt"              # risks + gate, exit 1 on FIX
+  python Tools/script_lint.py "<folder>/script.txt" --format42   # also the #42 FORMAT checklist (was always printed; noise otherwise)
 """
 import json, os, re, sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-WPM = 225
+WPM = 234  # Nov 7: measured on 45 built Shorts after tighten_voice (was 225)
+WPM_FAST, WPM_SLOW = 250, 220
+FILLER = {"so", "look", "that's", "thats", "mate", "um", "uh", "well", "okay", "hey", "today", "welcome"}  # = qa_short.FILLER
+TIMEBOUND = r"\b(last night|tonight|yesterday|this morning|on (?:monday|tuesday|wednesday|thursday|friday|saturday|sunday) night)\b"
 JARGON = ["preseason", "g league", "two-way", "waived", "cash considerations", "luxury tax", "apron", "bird rights", "rookie scale",
           "restricted free agent", "sign-and-trade", "exhibit 10", "hardship", "per 36", "true shooting", "plus-minus", "lottery odds",
           "regular-season", "transition take", "flagrant", "technical foul", "eligib"]
@@ -128,14 +141,90 @@ def lint(path):
     return out
 
 
+def channel_of(path):
+    return "fc" if "soccer channel" in os.path.abspath(path).lower().replace("\\", "/") else "nba"
+
+
+def gate(path, r=None):
+    """Pre-voice gate (Nov 7): (fix, warn) lists. A FIX costs a re-voice later; fixing the text now costs nothing."""
+    r = r or lint(path)
+    raw = open(path, encoding="utf-8-sig").read().strip()
+    disp, say = shown(raw), spoken(raw)
+    ch, n = channel_of(path), r["spoken_words"]
+    fix, warn = [], []
+    est = lambda w: n / w * 60 + 0.3
+    if ch == "nba":
+        if est(WPM_FAST) > 28 or est(WPM_SLOW) < 16:
+            fix.append(f"{n} words is about {est(WPM):.0f} s ({est(WPM_FAST):.0f}-{est(WPM_SLOW):.0f} s): NBA target 20-25 s (rule S2; 25 s or less had 7.1K vs 3.0K views); aim for 78-97 words")
+        elif not (20 <= est(WPM) <= 25.5):
+            warn.append(f"{n} words is about {est(WPM):.1f} s: NBA target 20-25 s (78-97 words)")
+    else:
+        if n > 240 or n < 185:
+            fix.append(f"{n} words: FC scripts run 190-240 words (rule F2; about {est(WPM):.0f} s; qa_short fails a story outside 50-59.9 s)")
+        elif est(WPM) > 59.5:
+            fix.append(f"{n} words is about {est(WPM):.1f} s at the house pace (234 wpm): over 59.5 s shows as 1:00. Cut a sentence (aim 200-225 words)")
+        elif est(WPM_SLOW) > 59.5:
+            warn.append(f"{n} words could run {est(WPM_SLOW):.1f} s at a slow take (220 wpm): over 59.5 s shows as 1:00; cut a sentence now, it is free")
+        elif est(WPM_FAST) < 50:
+            warn.append(f"{n} words could run only {est(WPM_FAST):.1f} s at a fast take (250 wpm): under the 50 s story floor")
+    first = re.split(r"(?<=[.?!])\s+", disp.strip())[0] if disp.strip() else ""
+    fw = len(re.findall(r"[A-Za-z0-9'$%-]+", first))
+    if fw > 11:
+        fix.append(f"line 1 has {fw} words (rule S1: 11 or fewer; 12+ engaged 0.490 vs 0.557): '{first[:70]}'")
+    w0 = re.sub(r"[^a-z']", "", (say.split() or [""])[0].lower())
+    if w0 in FILLER:
+        fix.append(f"the first spoken word is '{w0}' (qa_short fails a filler opener: start on the name, number or stakes)")
+    sents = [s.strip() for s in re.split(r"(?<=[.?!])\s+", disp) if s.strip()]
+    if sents and (sents[-1].endswith("?") or any(c in sents[-1].lower() for c in CTA)):
+        fix.append(f"the last line is a question or a CTA ('{sents[-1][:60]}'): end on the payoff")
+    bare = re.sub(r"\{[^{}]*\}", " ", raw)
+    sc = sorted(set(re.findall(r"(?<![\w$.])\d{1,2}\s?[-\u2013]\s?\d{1,2}(?![\w%])", bare)))
+    if sc:
+        fix.append(f"score(s) {', '.join(sc)} outside braces: the voice can read them as 'minus'. Write {{{sc[0]}|{num_words(sc[0])}}}")
+    tb = sorted(set(m.lower() for m in re.findall(TIMEBOUND, say, re.I)))
+    if tb:
+        warn.append(f"time-bound words {tb}: voice within 30 h of the slot (qa_final fails it later), or write it time-free")
+    try:
+        sys.path.insert(0, HERE)
+        import lab
+        pr = lab.predict_folder(os.path.dirname(os.path.abspath(path)))
+        msg = f"predicted score {pr['score']} (about {pr['predicted']:,} views at 72 h)" + (": " + ", ".join(pr["why"]) if isinstance(pr.get("why"), list) and pr["why"] else "")
+        (warn if pr["score"] < 35 else r.setdefault("info", [])).append(msg + (" - under 35 is filler (rule Q2)" if pr["score"] < 35 else ""))
+    except Exception:
+        pass
+    return fix, warn
+
+
+def num_words(s):
+    ones = "zero one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen".split()
+    tens = {2: "twenty", 3: "thirty", 4: "forty", 5: "fifty", 6: "sixty", 7: "seventy", 8: "eighty", 9: "ninety"}
+    def w(n):
+        return ones[n] if n < 20 else tens[n // 10] + ("-" + ones[n % 10] if n % 10 else "")
+    a, b = [int(x) for x in re.findall(r"\d+", s)[:2]]
+    return f"{w(a)}-{'nil' if b == 0 else w(b)}"
+
+
 if __name__ == "__main__":
-    for p in sys.argv[1:]:
+    args = [x for x in sys.argv[1:] if not x.startswith("--")]
+    any_fix = False
+    for p in args:
         r = lint(p)
         print(f"\n== {p}\n{r['spoken_words']} spoken words, about {r['est_seconds']} s at {WPM} wpm; first sentence ends about {r['first_sentence_ends_s']} s")
         print("first sentence:", r["first_sentence"])
         for x in r["risks"]:
             print("  RISK", x)
-        f = format42(shown(open(p, encoding="utf-8-sig").read().strip()))
-        print("  THE #42 FORMAT:", "FITS" if f["ok"] else "does not fit")
-        for k, v in f["checks"].items():
-            print("    " + ("ok  " if v else "MISS") + " " + k)
+        fx, wn = gate(p, r)
+        for x in fx:
+            print("  FIX ", x)
+        for x in wn:
+            print("  WARN", x)
+        for x in r.get("info", []):
+            print("  info", x)
+        print("  PRE-VOICE GATE:", "FIX the lines above before voicing (voice credits)" if fx else "PASS")
+        any_fix |= bool(fx)
+        if "--format42" in sys.argv:
+            f = format42(shown(open(p, encoding="utf-8-sig").read().strip()))
+            print("  THE #42 FORMAT:", "FITS" if f["ok"] else "does not fit")
+            for k, v in f["checks"].items():
+                print("    " + ("ok  " if v else "MISS") + " " + k)
+    sys.exit(1 if any_fix else 0)

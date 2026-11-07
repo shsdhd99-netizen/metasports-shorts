@@ -20,12 +20,12 @@
 | warn | footage: shot # <clip>: the clip cuts to other footage at [#] s (clip time): check the footage after the cut still matches the line (player, game, sco | 5 | 2 | rare |
 | warn | shots under # s read as noise: [#] | 4 | 2 | rare |
 | warn | length #s (Ahmed's Shorts run #-# s; median #-# s) | 4 | 2 | rare |
-| warn | clips shorter than their shots (slowed/held by assemble, not looped): [('..', #, #), ('..', #, #), ('..', #, #), ('..', #, #)] | 3 | 2 | rare |
-| warn | clips shorter than their shots (slowed/held by assemble, not looped): [('..', #, #)] | 3 | 2 | rare |
 | warn | talking head #% of runtime (guideline <=#%): is every claim proven on screen? | 3 | 3 | recurring |
+| warn | clips shorter than their shots (slowed/held by assemble, not looped): [('..', #, #), ('..', #, #), ('..', #, #), ('..', #, #)] | 3 | 2 | rare |
 | warn | footage: source size unknown for # clip(s) (<clip>): cut new clips with broll.py cut (it logs it) or add '..' to their notes | 3 | 2 | rare |
 | warn | no notes.md (needs Lane, Concept, Added value, claim -> exact source quote) | 3 | 2 | rare |
+| warn | clips shorter than their shots (slowed/held by assemble, not looped): [('..', #, #)] | 3 | 2 | rare |
 | warn | speech pace # wpm (guideline #-#: our old hits ran #-#, Clank'..'t drag, don't rush. Digits count as one word here) | 2 | 2 | rare |
 | warn | slow hook: the first sentence ends at # s (aim for the question to be clear by about # s; one fact, no compound sentence) | 2 | 2 | rare |
-| warn | CTA in the last # words: end on the payoff instead | 2 | 1 | rare |
-| warn | average shot #s is very fast; a # vs # s A/B is pending (HYPOTHESIS) | 2 | 1 | rare |
+| warn | two cards in a row at shots [#, #, #] (the critic flags back-to-back reading) | 2 | 1 | rare |
+| warn | footage: source size unknown for # clip(s) (<clip>, <clip>): cut new clips with broll.py cut (it logs it) or add '..' to their notes | 2 | 1 | rare |

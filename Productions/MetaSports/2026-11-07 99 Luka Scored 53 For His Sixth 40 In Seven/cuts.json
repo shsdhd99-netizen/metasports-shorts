@@ -7,6 +7,14 @@
   "M": "src/mia_3.mp4",
   "G": "src/gs_and1.mp4"
  },
+ "urls": {
+  "L": "https://www.espn.com/video/clip/_/id/50405530",
+  "B": "https://www.espn.com/video/clip/_/id/50404602",
+  "S": "https://www.espn.com/video/clip/_/id/50384745",
+  "T": "https://www.espn.com/video/clip/_/id/50355574",
+  "M": "https://www.espn.com/video/clip/_/id/50365402",
+  "G": "https://www.espn.com/video/clip/_/id/50332790"
+ },
  "promise": [
   "forty",
   "fifty-three",

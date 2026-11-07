@@ -130,18 +130,30 @@ def check(folder):
         res.append(row)
     # judgments
     sharp_med = float(np.median([r["sharpness"] for r in res if r["kind"] != "card"] or [1]))
+    # Nov 7 (efficiency review; qa_audit's top noise: 337 per-shot lines in 14 Shorts): the blown-up and soft WARNINGS are one line
+    # each per Short, naming the shots; a FIX (over 3x NBA / 6x story) stays per shot.
+    arch, up, soft = [], [], []
     for r in res:
         tag = f"shot {r['shot']} {r['clip']}"
         if r["upscale"] is not None:
             if story and r["upscale"] > 3.0 and r["upscale"] <= 6.0:  # Oct 21: archive footage (no HD copy exists for 2006/2011 matches)
-                warn.append(f"{tag}: blown up {r['upscale']}x ({r['upscale_basis']}): archive footage, accepted in the story format "
-                            "(Ahmed's Shorts use soft 480p archive); keep faces and action, not wide shots, at this size")
+                arch.append((r["shot"], r["upscale"]))
             elif r["upscale"] > (6.0 if story else 3.0):
                 bad.append(f"{tag}: blown up {r['upscale']}x from its source ({r['upscale_basis']}): find a 1080p+ source or crop less")
             elif r["upscale"] > 2.0:
-                warn.append(f"{tag}: blown up {r['upscale']}x ({r['upscale_basis']}; house standard is a 1080p source, about 1.8x): note in PACKAGE.md that no better source exists")
+                up.append((r["shot"], r["upscale"]))
         if r["kind"] != "card" and r["sharpness"] < 0.35 * sharp_med:
-            warn.append(f"{tag}: soft (edge contrast {r['sharpness']:.0f} vs this Short's median {sharp_med:.0f}): motion blur or a poor encode")
+            soft.append((r["shot"], r["sharpness"]))
+    lst = lambda xs: ", ".join(f"{n} ({v}x)" for n, v in xs[:8]) + (f" +{len(xs) - 8} more" if len(xs) > 8 else "")
+    if arch:
+        warn.append(f"{len(arch)} shot(s) blown up 3-6x (archive footage, accepted in the story format; keep faces and action, not wide shots): {lst(arch)}")
+    if up:
+        warn.append(f"{len(up)} shot(s) blown up over 2x (house standard: a 1080p source, about 1.8x; note in notes.md if no better source exists): {lst(up)}")
+    if soft:
+        warn.append(f"{len(soft)} soft shot(s) (edge contrast under 35% of this Short's median {sharp_med:.0f}; motion blur or a poor encode): "
+                    + ", ".join(f"{n} ({v:.0f})" for n, v in soft[:8]))
+    for r in res:
+        tag = f"shot {r['shot']} {r['clip']}"
         if r.get("flashes"):
             bad.append(f"{tag}: one-frame flash at {r['flashes']} s into the clip: run Tools/deflash.py on it")
         if r.get("motion_p90", 0) > 38:

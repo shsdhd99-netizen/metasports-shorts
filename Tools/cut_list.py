@@ -18,7 +18,8 @@ of every shot, numbered, to check framing and that the named person is on screen
 Any broll.py cut option works as a key: x, y, zoom, blurfit, blurfit_width, delogo, flip, speed (0.5 = half-speed slow motion,
 to stretch a short close-up). "shot_zoom" becomes the shot's push-in in shots.json. "overlay": a Tools/overlay.py spec (list of
 lines, times relative to the clip) burns words over the clip right after it is cut, so a re-cut keeps them; the clean cut stays
-as _rawclips/<clip>_raw.mp4 (outside clips/ on purpose: assemble.py also ignores any *_raw* file in clips/). Fill every "len" from the anchors with Tools/fill_len.py. Every clip lands in clips/<clip>.mp4 and every cut is logged to sources.csv by broll.py.
+as _rawclips/<clip>_raw.mp4 (outside clips/ on purpose: assemble.py also ignores any *_raw* file in clips/). A shot without "len" gets one from its anchor (time to the next shot + --pad; Nov 7: fill_len.py is no longer a separate step,
+and cuts_plan.json is used when there is no cuts.json yet). Every clip lands in clips/<clip>.mp4 and every cut is logged to sources.csv by broll.py.
 """
 import argparse, json, os, subprocess, sys
 
@@ -37,10 +38,25 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--folder", required=True)
     ap.add_argument("--force", action="store_true")
+    ap.add_argument("--pad", type=float, default=0.3, help="seconds added to each auto-filled len (Nov 7: was fill_len.py's job)")
     ap.add_argument("--verified", action="store_true", help="mark every clip verified in sources.csv (only after looking at the sheet)")
     a = ap.parse_args()
     F = os.path.abspath(a.folder)
-    plan = json.load(open(os.path.join(F, "cuts.json"), encoding="utf-8"))
+    cp, pp = os.path.join(F, "cuts.json"), os.path.join(F, "cuts_plan.json")
+    plan = json.load(open(cp if os.path.exists(cp) else pp, encoding="utf-8"))
+    # Nov 7: one command instead of two. Missing "len" values are filled from the anchors here (Tools/anchors.py, the matcher
+    # fill_len.py and anchor_shots.py use), and an anchor that is not found stops the cut before anything is rendered.
+    if any(not s.get("len") for s in plan["shots"]) or not os.path.exists(cp):
+        sys.path.insert(0, HERE)
+        from anchors import fill_lengths
+        words = json.load(open(os.path.join(F, "words.json"), encoding="utf-8"))
+        _, problems = fill_lengths(plan, words, pad=a.pad)
+        for p in problems:
+            print(" ", p)
+        if any(p.startswith("FIX") for p in problems):
+            raise SystemExit("cut_list: fix the anchors above first (nothing was cut)")
+        json.dump(plan, open(cp, "w", encoding="utf-8"), indent=1, ensure_ascii=False)
+        print(f"  lengths filled from the anchors (pad {a.pad} s) and saved to cuts.json")
     srcs = {k: os.path.join(F, v) for k, v in plan.get("sources", {}).items()}
     os.makedirs(os.path.join(F, "clips"), exist_ok=True)
     py = sys.executable
@@ -109,6 +125,29 @@ def main():
     sheet(F, shots, total)
 
 
+def source_url(F, plan, s):
+    """Nov 7: where a cut came from, so nobody patches sources.csv by hand (#99 had every row hand-set to one ESPN link).
+    In order: cuts.json "urls": {"L": "https://..."}; a sidecar <source file>.url (espn_clip.py writes one); the file name
+    (espn_<id> / t_<id> = ESPN clip, an 11-character YouTube id, a long number = an X post). Returns (url, authoritative)."""
+    import re
+    key = s.get("src")
+    if key and plan.get("urls", {}).get(key):
+        return plan["urls"][key], True
+    path = os.path.join(F, plan.get("sources", {}).get(key, "")) if key else ""
+    if path and os.path.exists(path + ".url"):
+        return open(path + ".url", encoding="utf-8").read().strip(), True
+    stem = os.path.splitext(os.path.basename(path))[0] if path else ""
+    m = re.fullmatch(r"(?:espn|t)_(\d{7,9})", stem)
+    if m:
+        return f"https://www.espn.com/video/clip/_/id/{m.group(1)}", True
+    if re.fullmatch(r"[A-Za-z0-9_-]{11}", stem) and not stem.isdigit():
+        return f"https://www.youtube.com/watch?v={stem}", True
+    if stem.isdigit() and len(stem) >= 15:
+        return f"https://x.com/i/status/{stem}", True
+    m = re.search(r"ESPN (?:clip |highlights )?(\d{8})", s.get("why", ""))
+    return (f"https://www.espn.com/video/clip/_/id/{m.group(1)}", False) if m else ("", False)
+
+
 def log_sources(F, plan, shots, words, total, verified):
     import csv, datetime
     p = os.path.join(F, "sources.csv")
@@ -123,6 +162,10 @@ def log_sources(F, plan, shots, words, total, verified):
         if "still" in s or "page" in s:
             r.setdefault("source_url", s.get("still") or s.get("page"))
             r.setdefault("crop", "still, slow push-in")
+        else:
+            u, sure = source_url(F, plan, s)
+            if u and (sure or not str(r.get("source_url", "")).startswith("http")):
+                r["source_url"] = u
         r.update(kind=sh.get("kind", ""), used_at_s=f"{sh['start']:.2f}", what_it_shows=s.get("why", ""),
                  used_for_line=" ".join(w["word"] for w in words if sh["start"] - 0.02 <= w["start"] < end - 0.02))
         if verified:

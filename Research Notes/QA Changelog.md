@@ -6,3 +6,5 @@ How to add a line: run `python Tools/qa_audit.py`, read `Research Notes/QA Audit
 
 - 2026-11-06: `Tools/qa_portions.py` added: QA by portion (SCRIPT, VOICE, FOOTAGE, EDIT, AUDIO, PACKAGE, LIVE), each PASS/WARN/FAIL. Run before scheduling: `python Tools/qa_portions.py --folder F --video V --channel nba|fc`. First run caught S30 with no cover image (fixed).
 - 2026-11-06: `Tools/pin_helper.py` (writes Desktop\PIN THESE TODAY.txt with links + pinned comments) and `Tools/weekly_review.py` (auto Sunday review) added.
+- **2026-11-07** CHANGED `Tools/footage_qc.py`: the per-shot "blown up 2-3x", "archive 3-6x" and "soft" warnings are now one line each per Short, naming the shots (FIX over 3x NBA / 6x story stays per shot). **Why:** `qa_audit.py`: these fired 389 times across 14 Shorts and buried the warnings that matter. Also: `script_lint.py` became the pre-voice gate (exit 1 on FIX) and `precut_lint.py` gained the action-in-3-s FIX, the full-height caption-band check, overlay readability and the anchor checks (`Tools/anchors.py`). **Next check to try:** jersey-number OCR on frame 1 of each clip (player identity is still checked only by eye).
+

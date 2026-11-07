@@ -74,7 +74,8 @@ def main():
         for ch in ([a.a] if a.a else ["nba", "fc"]):
             print(f"== {ch} (channel median {channel_median(ch):,})")
             for lane, (n, lastvar, med, v) in sorted(lane_status(ch).items()):
-                print(f"  {lane:22} attempts {n:2}  median {("-" if med is None else str(int(med))):>7}  {v:8}  last variable: {lastvar[:60]}")
+                ms = "-" if med is None else str(int(med))  # Nov 7: Python 3.11-safe (the cloud's Python could not parse the nested quotes)
+                print(f"  {lane:22} attempts {n:2}  median {ms:>7}  {v:8}  last variable: {lastvar[:60]}")
 
 
 if __name__ == "__main__":

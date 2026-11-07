@@ -14,6 +14,8 @@ description: >
 ---
 
 > **NOV 7, 2026 (owner approved the Theory Ranking): this block wins over every override below.** Rules: `Soccer Channel/Playbook.md` v3 (F1-F6) and THE RULES in `MetaSports - Playbook.md`. In short: the proven lane is **a famous penalty shootout + one odd act (keeper or takers)**; a famous moment beats a famous name; one new premise a week is the `fc-premise` test; **before scripting run `python Tools/lab.py assign fc --folder "<folder>"` and build every arm it prints** (it logs them; the lab scores them daily). Scrapped: cut-count/shot-length/clip-count/one-source rules, the debate-question pinned comment (optional now: a source line), "global names only", 3-8 tags (tags are filled to about 490 by `tags_fit.py`; a short list only warns). FC posts at 12 PM ET.
+>
+> **Nov 7 (efficiency pass):** before any voice, `python Tools/script_lint.py "<folder>/script.txt"` must print `PRE-VOICE GATE: PASS` (FC is 200-225 words to stay under 59.5 s at the measured 234 wpm; line 1 of 11 words or fewer; no filler opener; no question/CTA last line; scores in braces like `{3-0|three-nil}`). Then build with `python Tools/build.py voice|cut|render "<folder>"` (`build.py status` shows the next step); `cuts_plan.json` needs no `len` (cut_list fills it from the anchors).
 
 > **Full Review (Nov 1, 2026) - read before building** (`Research Notes/Full Review for Retention (Nov 2026).md`; THE RULES §0 in `MetaSports - Playbook.md`):
 > 1. The edit is not what separates 3K from 30K; the **premise** and the **first 1-3 s** are. Run `python Tools/idea_gauge.py` on the idea and skip flop shapes (rules, record counts, hypotheticals, lesser-name lists).

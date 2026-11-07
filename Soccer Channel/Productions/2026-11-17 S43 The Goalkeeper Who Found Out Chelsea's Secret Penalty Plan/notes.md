@@ -5,7 +5,7 @@
 - **Lane:** goalkeeper + penalty shootout (proven FC lane), odd act you can SEE: Van der Sar points to the side before Anelka's kick.
 - **Concept (8 words):** Keeper spots the plan, points, saves the final.
 - **Added value:** joins the economist's database (Palacios-Huerta, ESPN), the six kicks in a row to one side (ESPN, Wikipedia), the point, and Van der Sar's own later account, into one timeline; payoff is the irony that the only taker who changed side lost the final.
-- **Words:** 226 spoken; line 1 is 9 words. Expect about 55-58 s; if the take runs 59.5 s or more, cut "Van der Sar got a strong hand to that one, and it still went in." first.
+- **Words:** 224 spoken (Nov 7: trimmed 9 words so the pre-voice gate in script_lint.py passes: "on a rainy night", "So", "strong"); line 1 is 9 words. Expect about 55-58 s; if the take still runs 59.5 s or more, cut "Kalou scored, to his left again." next.
 - **12-point rating: 11** (stranger 2: Ronaldo, Terry, a Champions League final; premise 2; footage 2: UEFA + TNT uploads; timing 1: evergreen; sources 2; originality 2: FRESH).
 - **Promise words for QA:** `"promise": ["plan", "file", "left", "pointed", "database"]`.
 
