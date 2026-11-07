@@ -1,14 +1,14 @@
-# Preflight (2026-11-07 10:44)
+# Preflight (2026-11-07 09:00)
 
 **PREFLIGHT OK (2 warnings)**
 
 | Level | Check | Detail |
 |---|---|---|
-| OK | ffmpeg | ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FF |
+| OK | ffmpeg | ffmpeg version 8.1.2-full_build-www.gyan.dev Copyright (c) 2 |
 | OK | yt-dlp | 2026.10.26 |
-| OK | git | git version 2.43.0 |
-| OK | node | v22.23.4 |
-| WARN | disk free | 20 GB on / (a render needs about 1-3 GB; clips and src pile up) |
+| OK | git | git version 2.55.0.windows.5 |
+| OK | node | v24.16.0 |
+| WARN | disk free | 15 GB on C: (a render needs about 1-3 GB; clips and src pile up) |
 | OK | key ELEVENLABS_API_KEY | set |
 | OK | key ELEVENLABS_VOICE_ID | set |
 | OK | key GEMINI_API_KEY | set |
@@ -25,5 +25,9 @@
 | OK | token fc analytics | refresh works |
 | OK | git | ## main-329h3w...origin/main-329h3w |
 | OK | BUILDER.txt | cloud |
-| WARN | USAGE.txt | weekly 2 used (owner said 98% left) 2026-11-03 20:15 ET (updated 84 h ago) |
+| WARN | USAGE.txt | weekly 2 used (owner said 98% left) 2026-11-03 20:15 ET (updated 88 h ago) |
+| OK | task MetaSports analytics | registered |
+| OK | task MetaSports schedule ready AM | registered |
+| OK | task MetaSports schedule ready PM | registered |
+| OK | task MetaSports terminal resume | registered |
 | OK | analytics pull | newest daily file 2026-11-06 (1 d old) |
